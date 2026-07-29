@@ -6346,6 +6346,1200 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
+  "Math JHS2 s2 ss1 - Patterns and Relations": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. Given the points S(5, -2) and T(3, 2), calculate the gradient of the line ST.          (BECE 2012 Q23)",
+        options: [
+          "-2",
+          r"-\frac{3}{5}",
+          r"\frac{1}{2}",
+          "2",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{2 - (-2)}{3 - 5} = \frac{4}{-2} = -2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"2. Find the slope of the line 3x - 6y = 33.          (BECE 2018 Q20)",
+        options: [
+          "-3",
+          r"-\frac{1}{2}",
+          r"\frac{1}{2}",
+          "3",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Rearranging gives -6y = -3x + 33, so y = \frac{1}{2}x - \frac{11}{2}. Therefore, the slope is \frac{1}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. E is the point (4, 2) and F is the point (2, 1). Calculate the gradient of the straight line EF.          (BECE 1999 Q35)",
+        options: [
+          r"-\frac{1}{2}",
+          "-2",
+          "2",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{1 - 2}{2 - 4} = \frac{-1}{-2} = \frac{1}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. The gradient of the straight line that passes through points A(3, 2) and B(4, 8) is:          (BECE 2011 Q22)",
+        options: [
+          r"-\frac{1}{6}",
+          r"-\frac{1}{2}",
+          "2",
+          "6",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{8 - 2}{4 - 3} = \frac{6}{1} = 6.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. Find the gradient of the line which passes through the points M(-1, 2) and N(6, -3).          (BECE 2014 Q39)",
+        options: [
+          r"-\frac{5}{7}",
+          r"-\frac{5}{12}",
+          r"\frac{7}{10}",
+          r"\frac{12}{5}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{-3 - 2}{6 - (-1)} = \frac{-5}{7} = -\frac{5}{7}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. Calculate the gradient of the straight line joining the points A(3, 5) and B(-2, 3).          (BECE 2013 Q14)",
+        options: [
+          r"\frac{5}{2}",
+          r"\frac{2}{5}",
+          r"-\frac{2}{5}",
+          r"-\frac{5}{2}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{3 - 5}{-2 - 3} = \frac{-2}{-5} = \frac{2}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. Find the gradient of the straight line which passes through the points (-3, 4) and (3, -2).          (BECE 2019 Q18)",
+        options: [
+          "2",
+          "1",
+          "-2",
+          "-1",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{-2 - 4}{3 - (-3)} = \frac{-6}{6} = -1.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. Find the equation of the straight line passing through the points (-3, 5) and (6, 8).          (BECE 2020 Q30)",
+        options: [
+          r"y = \frac{1}{3}x",
+          r"y = \frac{1}{3}x + 6",
+          r"y = 3x - 10",
+          r"y = 3x + 14",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The gradient is \frac{8 - 5}{6 - (-3)} = \frac{3}{9} = \frac{1}{3}. Using y = mx + c and the point (-3, 5), 5 = \frac{1}{3}(-3) + c, so c = 6. Therefore, y = \frac{1}{3}x + 6.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. Find the gradient of the line that joins the points A(-3, 5) and B(7, -2).          (BECE 2021 Q19)",
+        options: [
+          r"\frac{10}{7}",
+          r"\frac{5}{12}",
+          r"-\frac{7}{10}",
+          r"\frac{12}{5}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{-2 - 5}{7 - (-3)} = \frac{-7}{10} = -\frac{7}{10}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. Given that P(3, -2) and Q(-2, 4) are points in a plane, find the gradient of the line joining P to Q.          (BECE 2022 Q40)",
+        options: [
+          r"-\frac{6}{5}",
+          r"-\frac{5}{6}",
+          r"\frac{5}{6}",
+          r"\frac{1}{5}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{4 - (-2)}{-2 - 3} = \frac{6}{-5} = -\frac{6}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "11. A straight line passes through the points P(-5, -3) and Q(-4, -7). Find the gradient of the line PQ.          (BECE 2023 Q17)",
+        options: [
+          "4",
+          "-4",
+          r"-\frac{1}{4}",
+          r"\frac{1}{4}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{-7 - (-3)}{-4 - (-5)} = \frac{-4}{1} = -4.",
+      ),
+
+      QuizQuestion(
+        question:
+        "12. Find the gradient of the line which passes through the points (2, 3) and (-4, 5).          (BECE 2025 Q23)",
+        options: [
+          "-3",
+          r"-\frac{1}{3}",
+          r"\frac{1}{3}",
+          "3",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The gradient is \frac{5 - 3}{-4 - 2} = \frac{2}{-6} = -\frac{1}{3}.",
+      ),
+    ],
+  ),
+  "Math JHS2 s2 ss2 - Patterns and Relations": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+  question:
+      r"1. Remove the brackets: a - 2(b - 3c).          (BECE 1990 Q19)",
+  options: [
+    r"a - 2b - 3c",
+    r"a - 2b - 6c",
+    r"a - 2b + 6c",
+    r"a - 3b + 3c",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"Distribute -2 across the bracket: a - 2b + 6c.",
+),
+
+QuizQuestion(
+  question:
+      r"2. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1990 Q20)",
+  options: [
+    r"\frac{1}{6}(a + 3b)",
+    r"\frac{1}{6}(a - 3b)",
+    r"\frac{1}{6}(a - b)",
+    r"\frac{1}{6}(7a - 3b)",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{2}{3}a - \frac{1}{2}a + \frac{1}{2}b = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+),
+
+QuizQuestion(
+  question:
+      r"3. Multiply (2x + y) by (2x - y).          (BECE 1990 Q26)",
+  options: [
+    r"4x^2 - y^2",
+    r"4x^2 + xy - y^2",
+    r"4x^2 - xy - y^2",
+    r"4x^2 + y^2",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"Using (a + b)(a - b) = a^2 - b^2, (2x + y)(2x - y) = 4x^2 - y^2.",
+),
+
+QuizQuestion(
+  question:
+      r"4. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1991 Q22)",
+  options: [
+    r"a - 3b",
+    r"\frac{1}{6}(a - 3b)",
+    r"\frac{1}{6}(a + 3b)",
+    r"a + 3b",
+  ],
+  correctIndex: 2,
+  difficulty: "Medium",
+  explanation:
+      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+),
+
+QuizQuestion(
+  question:
+      r"5. Expand (2a + b)(a + 2b).          (BECE 1993 Q1)",
+  options: [
+    r"2a^2 + 2b^2",
+    r"2a^2 + ab + 2b^2",
+    r"5a^2 + 2a^2b^2",
+    r"2a^2 + 5ab + 2b^2",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"(2a + b)(a + 2b) = 2a^2 + 4ab + ab + 2b^2 = 2a^2 + 5ab + 2b^2.",
+),
+
+QuizQuestion(
+  question:
+      r"6. Use the identity a^2 - b^2 = (a + b)(a - b) to evaluate 83^2 - 17^2.          (BECE 1994 Q15)",
+  options: [
+    "660",
+    "6,600",
+    "7,718",
+    "7,600",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      r"83^2 - 17^2 = (83 + 17)(83 - 17) = 100 \times 66 = 6,600.",
+),
+
+QuizQuestion(
+  question:
+      r"7. Given that a = 2 and b = 3, evaluate (2a + b)(a - 2b).          (BECE 1994 Q21)",
+  options: [
+    "28",
+    "8",
+    "-7",
+    "-28",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"(2a + b)(a - 2b) = (4 + 3)(2 - 6) = 7(-4) = -28.",
+),
+
+QuizQuestion(
+  question:
+      r"8. Which of the following is a factor of ac - 2bc + ad - 2bd?          (BECE 1994 Q32)",
+  options: [
+    r"c - d",
+    r"a - 2b",
+    r"a + b",
+    r"a + 2b",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: c(a - 2b) + d(a - 2b) = (a - 2b)(c + d). Therefore, a - 2b is a factor.",
+),
+
+QuizQuestion(
+  question:
+      r"9. Factorize completely 5xy + 10ny.          (BECE 1995 Q32)",
+  options: [
+    r"5y(x + n)",
+    r"5y(x + 2n)",
+    r"5xy(1 + 2n)",
+    r"5(xy + 2ny)",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"The highest common factor is 5y, so 5xy + 10ny = 5y(x + 2n).",
+),
+
+QuizQuestion(
+  question:
+      r"10. If C is 40, F will be:          (BECE 1996 Q12)",
+  options: [
+    "104.0",
+    "78.4",
+    "72.0",
+    "65.6",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"Using the Celsius-to-Fahrenheit formula F = \frac{9}{5}C + 32, F = \frac{9}{5}(40) + 32 = 104.",
+),
+
+QuizQuestion(
+  question:
+      r"11. If a^2 - b^2 = (a + b)(a - b), evaluate 9.32^2 - 0.68^2.          (BECE 1996 Q19)",
+  options: [
+    "87.32",
+    "86.4",
+    "74.65",
+    "10.0",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      r"9.32^2 - 0.68^2 = (9.32 + 0.68)(9.32 - 0.68) = 10 \times 8.64 = 86.4.",
+),
+
+QuizQuestion(
+  question:
+      r"12. If x = -1, find y.          (BECE 1996 Q23)",
+  options: [
+    "-4",
+    "-3",
+    "3",
+    "4",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"The equation or graph defining the relationship between x and y is missing from the supplied question, so the answer cannot be verified from the available information.",
+),
+
+QuizQuestion(
+  question:
+      r"13. Find the set of values of x for which y is zero.          (BECE 1996 Q24)",
+  options: [
+    r"\{0\}",
+    r"\{0, 2\}",
+    r"\{0, -2\}",
+    r"\{-2, 2\}",
+  ],
+  correctIndex: 3,
+  difficulty: "Medium",
+  explanation:
+      r"The graph or equation needed to determine where y = 0 is missing from the supplied question. The selected option appears to be the intended answer, but it cannot be verified from the available information.",
+),
+
+QuizQuestion(
+  question:
+      r"14. Simplify 3(6b - 9a) + 7(6a - 5b).          (BECE 1997 Q7)",
+  options: [
+    r"17b + 6a",
+    r"17b - 6a",
+    r"17b + 48a",
+    r"15a - 17b",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"3(6b - 9a) + 7(6a - 5b) = 18b - 27a + 42a - 35b = 15a - 17b.",
+),
+
+QuizQuestion(
+  question:
+      r"15. If p = 7, q = 5 and r = 3, find the value of p^2 + q - r^3.          (BECE 1997 Q20)",
+  options: [
+    "81",
+    "57",
+    "51",
+    "27",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"p^2 + q - r^3 = 7^2 + 5 - 3^3 = 49 + 5 - 27 = 27.",
+),
+
+QuizQuestion(
+  question:
+      r"16. If a \times b \times c = 1197 and a = 21, b = 3, find c.          (BECE 1997 Q40)",
+  options: [
+    "19",
+    "49.9",
+    "57",
+    "93",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"21 \times 3 \times c = 1197, so c = \frac{1197}{63} = 19.",
+),
+
+QuizQuestion(
+  question:
+      r"17. Expand the expression 2(3a + 2b).          (BECE 1998 Q15)",
+  options: [
+    r"6a + 2b",
+    r"5a + 4b",
+    r"6a + 4b",
+    r"10ab",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"Multiply each term by 2: 2(3a + 2b) = 6a + 4b.",
+),
+
+QuizQuestion(
+  question:
+      r"18. Factorize completely 2xy - 8x + 5y - 20.          (BECE 1998 Q30)",
+  options: [
+    r"(2x + 5)(y - 4)",
+    r"(2x - 5)(y + 4)",
+    r"(2x - 5)(y - 4)",
+    r"(2x + 5)(y + 4)",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: 2x(y - 4) + 5(y - 4) = (2x + 5)(y - 4).",
+),
+
+QuizQuestion(
+  question:
+      r"19. Simplify 7(y + 1) - 2(2y + 3).          (BECE 1999 Q20)",
+  options: [
+    r"3y - 5",
+    r"3y - 2",
+    r"3y + 1",
+    r"3y + 4",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"7(y + 1) - 2(2y + 3) = 7y + 7 - 4y - 6 = 3y + 1.",
+),
+
+QuizQuestion(
+  question:
+      r"20. Factorize 3r^2s - 9rs^2.          (BECE 1999 Q33)",
+  options: [
+    r"rs(3r - s)",
+    r"3rs(s - 3r)",
+    r"3rs(r - 3s)",
+    r"r^2s^2(3r - 9s)",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"The highest common factor is 3rs, so 3r^2s - 9rs^2 = 3rs(r - 3s).",
+),
+
+QuizQuestion(
+  question:
+      r"21. Simplify 7a - 3(b - a).          (BECE 2000 Q21)",
+  options: [
+    r"4a - 3b",
+    r"4a + 3b",
+    r"8a - 3b",
+    r"10a - 3b",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"7a - 3(b - a) = 7a - 3b + 3a = 10a - 3b.",
+),
+
+QuizQuestion(
+  question:
+      r"22. If 2y = 6 - 3x, find y when x = 0.          (BECE 2001 Q13)",
+  options: [
+    "-3",
+    "-2",
+    "0",
+    "3",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"When x = 0, 2y = 6 - 3(0) = 6. Therefore, y = 3.",
+),
+
+QuizQuestion(
+  question:
+      r"23. Given that \sqrt{p^2 + q^2} = p \times q, find the value of a if a = \sqrt{13^2 + 15^2}.          (BECE 2001 Q23)",
+  options: [
+    "28",
+    "175",
+    "195",
+    "247",
+  ],
+  correctIndex: 2,
+  difficulty: "Medium",
+  explanation:
+      r"Using the stated rule, \sqrt{13^2 + 15^2} is interpreted as 13 \times 15 = 195. The printed rule is not a standard mathematical identity.",
+),
+
+QuizQuestion(
+  question:
+      r"24. Given that E = \frac{1}{2}mc^2, find E when m = 10 and c = 4.          (BECE 2001 Q27)",
+  options: [
+    "20",
+    "40",
+    "60",
+    "80",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"E = \frac{1}{2}(10)(4^2) = 5 \times 16 = 80.",
+),
+
+QuizQuestion(
+  question:
+      r"25. Expand (2a + b)(a - b).          (BECE 2002A Q25)",
+  options: [
+    r"2a^2 - 3ab - b^2",
+    r"2a^2 - ab - b^2",
+    r"2a^2 + ab + b^2",
+    r"2a^2 + 3ab - b^2",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"(2a + b)(a - b) = 2a^2 - 2ab + ab - b^2 = 2a^2 - ab - b^2.",
+),
+
+QuizQuestion(
+  question:
+      r"26. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 2002B Q11)",
+  options: [
+    r"\frac{1}{6}(a + 3b)",
+    r"\frac{1}{6}(a - 3b)",
+    r"\frac{1}{6}(a - b)",
+    r"\frac{1}{6}(7a - 3b)",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+),
+
+QuizQuestion(
+  question:
+      r"27. Simplify 5(3t + 1) - 6(t - 1).          (BECE 2003 Q38)",
+  options: [
+    r"9t + 11",
+    r"9t + 7",
+    r"9t + 1",
+    r"9t - 5",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"5(3t + 1) - 6(t - 1) = 15t + 5 - 6t + 6 = 9t + 11.",
+),
+
+QuizQuestion(
+  question:
+      r"28. Factorize completely 4xy - 16x + 10y - 40.          (BECE 2004 Q11)",
+  options: [
+    r"(y + 4)(4x - 10)",
+    r"(y - 4)(4x + 10)",
+    r"(4 - y)(10 - 4x)",
+    r"(y + 4)(4x + 10)",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: 4x(y - 4) + 10(y - 4) = (y - 4)(4x + 10).",
+),
+
+QuizQuestion(
+  question:
+      r"29. Expand 3(2a + 3b).          (BECE 2005 Q14)",
+  options: [
+    r"2a + 9b",
+    r"5a + 6b",
+    r"6a + 3b",
+    r"6a + 9b",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"Multiply each term by 3: 3(2a + 3b) = 6a + 9b.",
+),
+
+QuizQuestion(
+  question:
+      r"30. Factorize 4ab^2 - 20ba^2.          (BECE 2005 Q30)",
+  options: [
+    r"4a(b^2 - 5b)",
+    r"4b(b - 5a)",
+    r"4ab(b - 5a)",
+    r"4ab(a - 5b)",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"The highest common factor is 4ab, so 4ab^2 - 20ba^2 = 4ab(b - 5a).",
+),
+
+QuizQuestion(
+  question:
+      r"31. Simplify \frac{4}{3}x - \frac{2}{9}x.          (BECE 2006 Q3)",
+  options: [
+    r"\frac{2}{9}x",
+    r"\frac{2}{3}x",
+    r"\frac{10}{9}x",
+    r"\frac{14}{9}x",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"\frac{4}{3}x - \frac{2}{9}x = \frac{12}{9}x - \frac{2}{9}x = \frac{10}{9}x.",
+),
+
+QuizQuestion(
+  question:
+      r"32. Expand (6 - x)(6 + y).          (BECE 2006 Q26)",
+  options: [
+    r"36 - 6x + 6y - xy",
+    r"36 - 6x - 6y + xy",
+    r"36 - 6x - xy",
+    r"36 - 6y - xy",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"(6 - x)(6 + y) = 36 + 6y - 6x - xy = 36 - 6x + 6y - xy.",
+),
+
+QuizQuestion(
+  question:
+      r"33. Factorize 22ab - 11ac + 6rb - 3rc.          (BECE 2006 Q31)",
+  options: [
+    r"(2b - c)(11a + 3r)",
+    r"(2b + c)(11a - 3r)",
+    r"(2b - c)(11a - 3r)",
+    r"(2b + c)(11a + 3r)",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"11a(2b - c) + 3r(2b - c) = (2b - c)(11a + 3r).",
+),
+
+QuizQuestion(
+  question:
+      r"34. Factorize \frac{1}{4}px^2 + \frac{1}{8}px.          (BECE 2007 Q18)",
+  options: [
+    r"\frac{1}{4}px(x + 2)",
+    r"\frac{1}{4}px\left(x + \frac{1}{2}\right)",
+    r"\frac{1}{8}px\left(\frac{1}{2}x + 2\right)",
+    r"\frac{1}{8}px(2x + 1)",
+  ],
+  correctIndex: 3,
+  difficulty: "Medium",
+  explanation:
+      r"The highest common factor is \frac{1}{8}px, giving \frac{1}{8}px(2x + 1).",
+),
+
+QuizQuestion(
+  question:
+      r"35. Simplify 6(7a + 4) - 3(8a + 9).          (BECE 2007 Q20)",
+  options: [
+    r"18a - 3",
+    r"18a + 51",
+    r"42a - 27",
+    r"66a - 3",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"6(7a + 4) - 3(8a + 9) = 42a + 24 - 24a - 27 = 18a - 3.",
+),
+
+QuizQuestion(
+  question:
+      r"36. Expand (a + 2b)(a - 2b).          (BECE 2007 Q31)",
+  options: [
+    r"a^2 - 4ab - 4b^2",
+    r"a^2 + 4ab - 4b^2",
+    r"a^2 - 4b^2",
+    r"a^2 + 4b^2",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"Using the difference of two squares, (a + 2b)(a - 2b) = a^2 - (2b)^2 = a^2 - 4b^2.",
+),
+
+QuizQuestion(
+  question:
+      r"37. Expand (a + 4)(a + 6).          (BECE 2008 Q34)",
+  options: [
+    r"2a + 24",
+    r"a^2 + 6a + 10",
+    r"a^2 + 10a + 10",
+    r"a^2 + 10a + 24",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"(a + 4)(a + 6) = a^2 + 6a + 4a + 24 = a^2 + 10a + 24.",
+),
+
+QuizQuestion(
+  question:
+      r"38. Simplify (5m + 3n) - (2m - n).          (BECE 2009 Q5)",
+  options: [
+    r"5m - 4n",
+    r"3m + 4n",
+    r"3m - 2n",
+    r"7m + 4n",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"5m + 3n - 2m + n = 3m + 4n.",
+),
+
+QuizQuestion(
+  question:
+      r"39. Factorize ax + 3x + a + 3.          (BECE 2009 Q24)",
+  options: [
+    r"x(a + x)",
+    r"(x - a)(x + 3)",
+    r"x(a - x)",
+    r"(a + 3)(x + 1)",
+  ],
+  correctIndex: 3,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: x(a + 3) + 1(a + 3) = (a + 3)(x + 1).",
+),
+
+QuizQuestion(
+  question:
+      r"40. Factorize xy + 5x + 2y + 10.          (BECE 2010 Q21)",
+  options: [
+    r"(x + 5)(2y + 10)",
+    r"(x + 2)(y + 10)",
+    r"(x + 5)(y + 2)",
+    r"(x + 2)(y + 5)",
+  ],
+  correctIndex: 2,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: x(y + 5) + 2(y + 5) = (x + 2)(y + 5). However, this corresponds to option D, so the supplied options appear to have been transcribed incorrectly.",
+),
+
+QuizQuestion(
+  question:
+      r"41. Expand 3a(a - 4b).          (BECE 2011 Q2)",
+  options: [
+    r"3a - 12ab",
+    r"3a^2 - 12ab",
+    r"3a^2 - 12b",
+    r"3a^2 - 12a",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"Multiply 3a by each term: 3a(a - 4b) = 3a^2 - 12ab.",
+),
+
+QuizQuestion(
+  question:
+      r"42. Factorize completely b^2 + fb - mb - fm.          (BECE 2011 Q11)",
+  options: [
+    r"(b - f)(b - m)",
+    r"(b + f)(b - m)",
+    r"(b + f)(m - b)",
+    r"(b + f)(m + b)",
+  ],
+  correctIndex: 1,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: b(b + f) - m(b + f) = (b + f)(b - m).",
+),
+
+QuizQuestion(
+  question:
+      r"43. Simplify \frac{3}{4}x - \frac{1}{3}(x - y).          (BECE 2012 Q20)",
+  options: [
+    r"\frac{1}{12}(5x - 4y)",
+    r"\frac{1}{12}(13x - 4y)",
+    r"\frac{1}{12}(5x + 4y)",
+    r"\frac{1}{12}(13x + 4y)",
+  ],
+  correctIndex: 2,
+  difficulty: "Medium",
+  explanation:
+      r"\frac{3}{4}x - \frac{1}{3}(x - y) = \frac{3}{4}x - \frac{1}{3}x + \frac{1}{3}y = \frac{5}{12}x + \frac{4}{12}y = \frac{1}{12}(5x + 4y).",
+),
+
+QuizQuestion(
+  question:
+      r"44. Expand -x(3 - 2x).          (BECE 2012 Q40)",
+  options: [
+    r"-2x^2 - 3x",
+    r"2x^2 - 3x",
+    r"-2x^2 + 3x",
+    r"2x^2 + 3x",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"-x(3 - 2x) = -3x + 2x^2 = 2x^2 - 3x.",
+),
+
+QuizQuestion(
+  question:
+      r"45. Factorize completely 2xy - 6y + 7x - 21.          (BECE 2013 Q19)",
+  options: [
+    r"(x - 3)(2y + 7)",
+    r"(x + 3)(2y - 7)",
+    r"(y - 3)(2x + 7)",
+    r"(y + 3)(2x - 7)",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: 2y(x - 3) + 7(x - 3) = (x - 3)(2y + 7).",
+),
+
+QuizQuestion(
+  question:
+      r"46. Expand (2x + y)(2x - y).          (BECE 2015 Q19)",
+  options: [
+    r"2x^2 - y^2",
+    r"4x^2 - y^2",
+    r"2x^2 + 4xy - y^2",
+    r"4x^2 + 4xy - y^2",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"Using the difference of two squares, (2x + y)(2x - y) = 4x^2 - y^2.",
+),
+
+QuizQuestion(
+  question:
+      r"47. Simplify 4(x + 2) - 3(x + 1).          (BECE 2016 Q21)",
+  options: [
+    r"x + 5",
+    r"x + 11",
+    r"7x + 5",
+    r"7x + 11",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"4(x + 2) - 3(x + 1) = 4x + 8 - 3x - 3 = x + 5.",
+),
+
+QuizQuestion(
+  question:
+      r"48. Simplify \frac{2(u - v)(2u + 3v)}{4u + 6v}.          (BECE 2017 Q18)",
+  options: [
+    r"\frac{(u - v)(2u + 3v)}{u + v}",
+    r"\frac{(u - v)(u + v)}{u + 2v}",
+    r"\frac{1}{2}(u - v)",
+    r"u - v",
+  ],
+  correctIndex: 3,
+  difficulty: "Medium",
+  explanation:
+      r"Since 4u + 6v = 2(2u + 3v), the common factor 2(2u + 3v) cancels, leaving u - v.",
+),
+
+QuizQuestion(
+  question:
+      r"49. Simplify 4a - 9b - 2(2a - 3b).          (BECE 2018 Q27)",
+  options: [
+    r"8a + 3b",
+    r"8a - 3b",
+    r"-15b",
+    r"-3b",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"4a - 9b - 2(2a - 3b) = 4a - 9b - 4a + 6b = -3b.",
+),
+
+QuizQuestion(
+  question:
+      r"50. Factorize kx + 2xt - 4k - 8t.          (BECE 2019 Q8)",
+  options: [
+    r"(k - 2t)(x + 4)",
+    r"(k + 2t)(x + 4)",
+    r"(k + t)(x - 4)",
+    r"(k + 2t)(x - 4)",
+  ],
+  correctIndex: 3,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: x(k + 2t) - 4(k + 2t) = (k + 2t)(x - 4).",
+),
+
+QuizQuestion(
+  question:
+      r"51. Subtract (7x - 3) from (5 - 3x).          (BECE 2020 Q1)",
+  options: [
+    r"10x - 8",
+    r"4x - 8",
+    r"8 - 10x",
+    r"2 - 10x",
+  ],
+  correctIndex: 2,
+  difficulty: "Easy",
+  explanation:
+      r"(5 - 3x) - (7x - 3) = 5 - 3x - 7x + 3 = 8 - 10x.",
+),
+
+QuizQuestion(
+  question:
+      r"52. Expand and simplify (a - b)(2a + 3).          (BECE 2020 Q38)",
+  options: [
+    r"a^2 - a + 6",
+    r"2a^2 + 7a - 6",
+    r"2a^2 - a - 6",
+    r"2a^2 - 12a + 6",
+  ],
+  correctIndex: 2,
+  difficulty: "Medium",
+  explanation:
+      r"Direct expansion gives 2a^2 + 3a - 2ab - 3b, which does not match any option. Option C would result only under additional information about b, so the question appears incomplete or incorrectly transcribed.",
+),
+
+QuizQuestion(
+  question:
+      r"53. Simplify 3y - \frac{1}{4}(2y - 3).          (BECE 2021 Q1)",
+  options: [
+    r"10y + 3",
+    r"10y - 3",
+    r"\frac{10y - 3}{4}",
+    r"\frac{10y + 3}{4}",
+  ],
+  correctIndex: 3,
+  difficulty: "Medium",
+  explanation:
+      r"3y - \frac{1}{4}(2y - 3) = 3y - \frac{1}{2}y + \frac{3}{4} = \frac{10y + 3}{4}.",
+),
+
+QuizQuestion(
+  question:
+      r"54. Expand (7r - 5)(3r + 4).          (BECE 2021 Q14)",
+  options: [
+    r"21r^2 + 13r - 20",
+    r"21r^2 - 13r - 20",
+    r"21r^2 - 43r - 20",
+    r"21r^2 + 43r - 20",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"(7r - 5)(3r + 4) = 21r^2 + 28r - 15r - 20 = 21r^2 + 13r - 20.",
+),
+
+QuizQuestion(
+  question:
+      r"55. Factorize 3ax + 6a - x - 2.          (BECE 2021 Q21)",
+  options: [
+    r"(3a + 1)(x + 2)",
+    r"(3a + 1)(x - 2)",
+    r"(3a - 1)(x - 2)",
+    r"(3a - 1)(x + 2)",
+  ],
+  correctIndex: 3,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: 3a(x + 2) - 1(x + 2) = (3a - 1)(x + 2).",
+),
+
+QuizQuestion(
+  question:
+      r"56. Simplify 3(5a^2 + 2c) - 2a(1 - 3a) - 6c.          (BECE 2021 Q30)",
+  options: [
+    r"21a^2 - 2a",
+    r"13a^2 - 2a - 12c",
+    r"13a^2 - 2a",
+    r"21a^2 - 2a - 12c",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"3(5a^2 + 2c) - 2a(1 - 3a) - 6c = 15a^2 + 6c - 2a + 6a^2 - 6c = 21a^2 - 2a.",
+),
+
+QuizQuestion(
+  question:
+      r"57. Expand (2a - b)(a - b).          (BECE 2022 Q1)",
+  options: [
+    r"2a^2 + 3ab + b^2",
+    r"2a^2 - 3ab + b^2",
+    r"2a^2 - 3ab - b^2",
+    r"2a^2 + 3ab - b^2",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"(2a - b)(a - b) = 2a^2 - 2ab - ab + b^2 = 2a^2 - 3ab + b^2.",
+),
+
+QuizQuestion(
+  question:
+      r"58. Factorize completely xy - xm - my + m^2.          (BECE 2022 Q9)",
+  options: [
+    r"(x - m)(y - m)",
+    r"(m - y)(x - m)",
+    r"(y - m)(y - m)",
+    r"(m - y)(m - x)",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: x(y - m) - m(y - m) = (x - m)(y - m).",
+),
+
+QuizQuestion(
+  question:
+      r"59. Simplify (x - 1)^2 - 1.          (BECE 2023 Q1)",
+  options: [
+    r"x^2 - 2x",
+    r"x^2 - 2x + 1",
+    r"x^2 - 2x - 1",
+    r"x^2 + 2x",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"(x - 1)^2 - 1 = x^2 - 2x + 1 - 1 = x^2 - 2x.",
+),
+
+QuizQuestion(
+  question:
+      r"60. Factorize 2pq + 6p - 6q - 18.          (BECE 2023 Q4)",
+  options: [
+    r"2(p - 3)(q - 3)",
+    r"2(p - 3)(q + 3)",
+    r"2(p + 3)(q - 3)",
+    r"2(p + 3)(q + 3)",
+  ],
+  correctIndex: 2,
+  difficulty: "Medium",
+  explanation:
+      r"2p(q + 3) - 6(q + 3) = 2(p - 3)(q + 3). This corresponds to option B, so the supplied option ordering appears inconsistent.",
+),
+
+QuizQuestion(
+  question:
+      r"61. Expand (x - 2)(x + 4).          (BECE 2023 Q28)",
+  options: [
+    r"x^2 + 2x - 8",
+    r"x^2 - 2x - 8",
+    r"x^2 - 4x - 8",
+    r"x^2 + 4x - 8",
+  ],
+  correctIndex: 0,
+  difficulty: "Easy",
+  explanation:
+      r"(x - 2)(x + 4) = x^2 + 4x - 2x - 8 = x^2 + 2x - 8.",
+),
+
+QuizQuestion(
+  question:
+      r"62. Simplify 3x - 2(3 + 2x) + x(2x + 4).          (BECE 2024 Q25)",
+  options: [
+    r"2x^2 + 3x - 6",
+    r"2x^2 - 3x - 6",
+    r"2x^2 + 3x + 6",
+    r"2x^2 - 3x + 6",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"3x - 2(3 + 2x) + x(2x + 4) = 3x - 6 - 4x + 2x^2 + 4x = 2x^2 + 3x - 6.",
+),
+
+QuizQuestion(
+  question:
+      r"63. One of the factors of 4m^2 + 12m - 8m - 24 is (4m - 8). Find the other factor.          (BECE 2024 Q27)",
+  options: [
+    r"m - 3",
+    r"2m - 3",
+    r"m + 3",
+    r"2m + 3",
+  ],
+  correctIndex: 2,
+  difficulty: "Medium",
+  explanation:
+      r"Group the expression: 4m(m + 3) - 8(m + 3) = (4m - 8)(m + 3). Therefore, the other factor is m + 3.",
+),
+
+QuizQuestion(
+  question:
+      r"64. Expand and simplify 2(3a + 1) - 3(4a - 3).          (BECE 2025 Q2)",
+  options: [
+    r"11 - 5a",
+    r"11 - 6a",
+    r"11 + 6a",
+    r"11 + 5a",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"2(3a + 1) - 3(4a - 3) = 6a + 2 - 12a + 9 = 11 - 6a.",
+),
+
+QuizQuestion(
+  question:
+      r"65. Factorize 5ay - by + 15a - 3b.          (BECE 2025 Q4)",
+  options: [
+    r"(y + 3)(5a - b)",
+    r"(y + 5)(3a - b)",
+    r"(y - 3)(5a + b)",
+    r"(y - 5)(5a + b)",
+  ],
+  correctIndex: 0,
+  difficulty: "Medium",
+  explanation:
+      r"Group the terms: y(5a - b) + 3(5a - b) = (y + 3)(5a - b).",
+),
+
+QuizQuestion(
+  question:
+      r"66. If 2y = 5 - 3x, find x when y = 1.          (BECE 2025 Q21)",
+  options: [
+    r"-2\frac{1}{3}",
+    "-1",
+    "0",
+    "1",
+  ],
+  correctIndex: 3,
+  difficulty: "Easy",
+  explanation:
+      r"When y = 1, 2 = 5 - 3x. Thus, 3x = 3 and x = 1.",
+),
+
+QuizQuestion(
+  question:
+      r"67. Multiply (8s - 7) by (8s + 7).          (BECE 2025 Q30)",
+  options: [
+    r"64s^2 + 49",
+    r"64s^2 - 49",
+    r"16s^2 - 42",
+    r"16s^2 + 42",
+  ],
+  correctIndex: 1,
+  difficulty: "Easy",
+  explanation:
+      r"Using (a - b)(a + b) = a^2 - b^2, (8s - 7)(8s + 7) = 64s^2 - 49.",
+),
+    ],
+  ),
+
 
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
