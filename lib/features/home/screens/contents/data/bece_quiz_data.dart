@@ -28001,6 +28001,1854 @@ final Map<String, QuizModel> beceQuizData = {
       ),
     ],
   ),
+  "English JHS2 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "182. You shouldn't have hit Kukuu so hard; it was rather unkind of you. From this we know that Kukuu was …        (BECE 1995 Q19)",
+        options: ["being naughty.", "hurt.", "kind.", "hit."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The word 'hit' in the sentence means that Kukuu was physically hurt.",
+      ),
+      QuizQuestion(
+        question:
+            "183. Our friends gave us a cordial welcome.        (BECE 2003 Q26)",
+        options: ["plain", "hostile", "calm", "steady"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "'Cordial' means warm and friendly. Its opposite is 'hostile'.",
+      ),
+      QuizQuestion(
+        question:
+            "184. Paul purposely left the door open.        (BECE 2025 Q16)",
+        options: ["carelessly", "hurriedly", "intentionally", "occasionally"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Purposely' means intentionally or deliberately.",
+      ),
+      QuizQuestion(
+        question:
+            "185. The students listened to the headmaster with rapt attention.        (BECE 2002A Q13)",
+        options: ["true", "equal", "undivided", "single"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Rapt attention' means complete or undivided attention.",
+      ),
+      QuizQuestion(
+        question:
+            "186. Mary's mother is confident that her daughter will win a prize.        (BECE 2004 Q11)",
+        options: ["anxious", "proud", "certain", "determined"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To be confident about something means to be certain that it will happen.",
+      ),
+      QuizQuestion(
+        question:
+            "187. The priest was in high spirits during the sermon. This means that he was …        (BECE 2016 Q25)",
+        options: ["content.", "cheerful.", "spiritual.", "annoyed."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To be in high spirits means to be cheerful, happy and lively.",
+      ),
+      QuizQuestion(
+        question:
+            "188. He said the story was fictitious.        (BECE 2017 Q18)",
+        options: ["artificial", "false", "interesting", "real"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Fictitious' means invented or false rather than real.",
+      ),
+      QuizQuestion(
+        question:
+            "189. She is fond of talking about trivial matters.        (BECE 2019 Q19)",
+        options: ["unpleasant", "unimportant", "unexciting", "unacceptable"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Trivial matters' are matters that are unimportant or of little value.",
+      ),
+      QuizQuestion(
+        question:
+            "190. Handle the glass with care; it is fragile.        (BECE 2007 Q24)",
+        options: ["rigid", "beautiful", "unbreakable", "new"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Fragile' means easily broken. Its opposite is 'unbreakable'.",
+      ),
+      QuizQuestion(
+        question:
+            "191. Mama said, \"You can only fight off bullies if you are assertive.\"        (BECE 2024 Q18)",
+        options: ["bold", "muscular", "smart", "strong"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "An assertive person is confident and bold in expressing or defending themselves.",
+      ),
+      QuizQuestion(
+        question:
+            "192. Ato was at his wits' end. This means that Ato …        (BECE 2013 Q27)",
+        options: [
+          "was collecting his ideas together.",
+          "had come to the end of his talk.",
+          "did not know what to do next.",
+          "did not have much to do."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To be at one's wits' end means to be so worried or confused that one does not know what to do next.",
+      ),
+      QuizQuestion(
+        question:
+            "193. Those machines are not genuine brands.        (BECE 1996 Q26)",
+        options: ["fine", "tested", "fake", "new"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Something that is not genuine is fake or counterfeit.",
+      ),
+      QuizQuestion(
+        question:
+            "194. Kim is full of himself. This means that Kim is        (BECE 2022 Q23)",
+        options: ["quarrelsome.", "dangerous.", "arrogant.", "greedy."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A person who is full of himself is excessively proud and arrogant.",
+      ),
+      QuizQuestion(
+        question:
+            "195. It pays to be courteous rather than being …        (BECE 2016 Q29)",
+        options: ["rude", "wicked", "disobedient", "boastful"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Courteous' means polite. Its opposite is 'rude'.",
+      ),
+      QuizQuestion(
+        question: "196. His position made him humble.        (BECE 2012 Q30)",
+        options: ["stubborn", "wicked", "arrogant", "selfish"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Humble' means modest and not proud. Its opposite is 'arrogant'.",
+      ),
+      QuizQuestion(
+        question:
+            "197. It is difficult for most people to make ends meet these days. This means most people …        (BECE 2000 Q18)",
+        options: [
+          "live very comfortably.",
+          "are unable to eat delicious meals.",
+          "are unable to live within their income.",
+          "buy expensive clothes."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To make ends meet means to have enough money to cover one's basic living expenses.",
+      ),
+      QuizQuestion(
+        question:
+            "198. When he lost his job, Yaro was left to sink or swim. This means that Yaro …        (BECE 2019 Q23)",
+        options: [
+          "was depressed.",
+          "shouted for help.",
+          "had to find another job.",
+          "had to survive on his own."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To be left to sink or swim means to be left to succeed or survive through one's own efforts.",
+      ),
+      QuizQuestion(
+        question:
+            "199. This curious child likes to ask a lot of questions.        (BECE 2019 Q20)",
+        options: ["inquisitive", "pompous", "intelligent", "talkative"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A curious person who wants to know more and asks many questions is inquisitive.",
+      ),
+      QuizQuestion(
+        question:
+            "200. The Pastor advised Yaw and Mensah to bury the hatchet. This means Yaw and Mensah are to …        (BECE 1997 Q21)",
+        options: [
+          "keep their cutlass in a safe place.",
+          "work together on their farm.",
+          "forget about their quarrel.",
+          "bury their old cutlass."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To bury the hatchet means to end a quarrel and become friendly again.",
+      ),
+      QuizQuestion(
+        question:
+            "201. The pupils grumbled about the assignment.        (BECE 2011 Q20)",
+        options: ["bothered", "complained", "talked", "questioned"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Grumbled' means complained in an unhappy or dissatisfied manner.",
+      ),
+      QuizQuestion(
+        question:
+            "202. Ama broadcast the rumour about the man's death.        (BECE 2002B Q15)",
+        options: ["spread", "dispersed", "revealed", "scattered"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To broadcast a rumour means to spread it widely among people.",
+      ),
+      QuizQuestion(
+        question:
+            "203. Nobody paid any attention to the workers' demands.        (BECE 2025 Q17)",
+        options: ["agitations", "complaints", "objections", "requests"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "In this context, 'demands' means firm requests made by the workers.",
+      ),
+      QuizQuestion(
+        question:
+            "204. The beggar vanished when he saw the policeman.        (BECE 1996 Q24)",
+        options: ["showed", "defected", "jumped", "appeared"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Vanished' means disappeared. Its opposite is 'appeared'.",
+      ),
+      QuizQuestion(
+        question:
+            "205. I don't like people who blow their own trumpet. This means I dislike people who …        (BECE 1990 Q19)",
+        options: [
+          "are noisy.",
+          "are selfish.",
+          "blow trumpets.",
+          "are boastful."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To blow one's own trumpet means to boast about one's achievements or abilities.",
+      ),
+      QuizQuestion(
+        question:
+            "206. It is always good to be modest in your demands.        (BECE 1994 Q13)",
+        options: ["cheerful", "humble", "pleasant", "truthful"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Modest' means humble and not excessive in one's demands.",
+      ),
+      QuizQuestion(
+        question:
+            "207. The J.S.S. students are reading the abridged version of Shakespeare's Macbeth.        (BECE 2005 Q24)",
+        options: ["old", "original", "cheap", "paperback"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "An abridged version is shortened. Its opposite is the original or complete version.",
+      ),
+      QuizQuestion(
+        question:
+            "208. This mountain is rather too risky to climb.        (BECE 1994 Q16)",
+        options: ["rough", "steep", "difficult", "dangerous"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Risky' means involving danger; therefore, 'dangerous' has the closest meaning.",
+      ),
+      QuizQuestion(
+        question:
+            "209. My mother is skilled in domestic affairs.        (BECE 2016 Q22)",
+        options: ["local", "internal", "everyday", "household"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Domestic affairs' refers to matters connected with the home or household.",
+      ),
+      QuizQuestion(
+        question: "210. The meat I had was tough.        (BECE 1998 Q24)",
+        options: ["big", "soft", "slippery", "rough"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tough meat is difficult to chew. The opposite of 'tough' in this context is 'soft'.",
+      ),
+      QuizQuestion(
+        question:
+            "211. Abeiku feels unsafe in his house.        (BECE 2021 Q30)",
+        options: ["afraid", "rejected", "secure", "unhappy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Unsafe' means not protected from danger. Its opposite is 'secure'.",
+      ),
+      QuizQuestion(
+        question:
+            "212. The teacher poured cold water on Sena's suggestion. This means that the teacher …        (BECE 2012 Q27)",
+        options: [
+          "challenged Sena's suggestion.",
+          "approved of Sena's suggestion.",
+          "discouraged Sena.",
+          "provoked Sena."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To pour cold water on an idea means to discourage or show little enthusiasm for it.",
+      ),
+      QuizQuestion(
+        question:
+            "213. Joana is a clever girl and will come out of her examination with flying colours. This means …        (BECE 1997 Q18)",
+        options: [
+          "she will pass in her favourite subjects.",
+          "she will excel in some subjects.",
+          "her results will be very good.",
+          "she will work hard."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To come out with flying colours means to achieve excellent results or succeed very well.",
+      ),
+      QuizQuestion(
+        question:
+            "214. Evans wakes up early because he does not sleep much.        (BECE 2022 Q29)",
+        options: ["late", "at home", "often", "on his bed"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Early' and 'late' are opposites.",
+      ),
+      QuizQuestion(
+        question:
+            "215. The scarcity of doctors is a matter of public concern.        (BECE 2020 Q19)",
+        options: ["weakness", "shortage", "suffering", "indiscipline"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Scarcity' means a shortage or an insufficient supply of something.",
+      ),
+      QuizQuestion(
+        question:
+            "216. The Manager was dismissed for gross inefficiency.        (BECE 1993 Q11)",
+        options: ["incompetent", "dishonesty", "laziness", "misconduct"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "'Inefficiency' means the inability to perform a task effectively; it is closely related to incompetence.",
+      ),
+      QuizQuestion(
+        question:
+            "217. If Mantey had passed the examination his father would have bought him a present. This means Mantey …        (BECE 1990 Q20)",
+        options: [
+          "failed the examination so he had no present.",
+          "would be given a present for being successful in the examination.",
+          "usually received presents from his father after examinations.",
+          "knew that his father would buy him a present to help him pass the examination."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The third conditional sentence shows that Mantey did not pass the examination, so his father did not buy him a present.",
+      ),
+      QuizQuestion(
+        question:
+            "218. The students were advised to stop building castles in the air. This means that students should …        (BECE 1994 Q18)",
+        options: [
+          "not build any more castles.",
+          "be serious and realistic.",
+          "not worry about castles.",
+          "be serious and hardworking."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To build castles in the air means to make unrealistic plans or daydream; therefore, they should be realistic.",
+      ),
+      QuizQuestion(
+        question:
+            "219. The headteacher asked the pupils to disperse.        (BECE 2018 Q26)",
+        options: ["assemble", "come", "meet", "stay"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Disperse' means to move apart or scatter. Its opposite is 'assemble'.",
+      ),
+      QuizQuestion(
+        question:
+            "220. The soldier climbed the mountain carefully.        (BECE 2012 Q32)",
+        options: ["descended", "circled", "fell off", "looked up"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Climbed' means moved upward. Its opposite is 'descended'.",
+      ),
+      QuizQuestion(
+        question:
+            "221. Kojo was dragged to the farm like a lamb to the slaughter. This means that Kojo was dragged …        (BECE 2010 Q24)",
+        options: [
+          "with difficulty.",
+          "without resistance.",
+          "with a lamb on his shoulder.",
+          "without anything on him."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Like a lamb to the slaughter means going somewhere helplessly and without resistance.",
+      ),
+      QuizQuestion(
+        question: "222. My father was a very stout man.        (BECE 1992 Q25)",
+        options: ["handsome", "short", "lean", "ill"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Stout' means thick or heavily built. Its opposite is 'lean'.",
+      ),
+      QuizQuestion(
+        question:
+            "223. The headmaster took the students' version of the theft with a pinch of salt. This means the headmaster …        (BECE 2016 Q27)",
+        options: [
+          "believed the students' version.",
+          "doubted the students' version.",
+          "accepted the students' version.",
+          "ignored the students' version."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To take something with a pinch of salt means not to believe it completely or to treat it with doubt.",
+      ),
+      QuizQuestion(
+        question:
+            "224. Remember to look over your work when you finish.        (BECE 1993 Q13)",
+        options: ["watch", "look on", "oversee", "read through"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To look over one's work means to examine or read through it carefully.",
+      ),
+      QuizQuestion(
+        question:
+            "225. Jones will let the cat out of the bag if he is invited. This means he will …        (BECE 2003 Q19)",
+        options: [
+          "cause trouble.",
+          "confuse everybody.",
+          "reveal the secret.",
+          "release the cat."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "To let the cat out of the bag means to reveal a secret.",
+      ),
+      QuizQuestion(
+        question:
+            "226. Appiah is a talented football player.        (BECE 2005 Q15)",
+        options: ["strong", "gifted", "dull", "lucky"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Talented' means naturally skilled or gifted.",
+      ),
+      QuizQuestion(
+        question:
+            "227. The athlete looked dejected at the end of the race.        (BECE 2010 Q32)",
+        options: ["angry", "calm", "strong", "excited"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Dejected' means sad and discouraged. Of the options, 'excited' is the opposite.",
+      ),
+      QuizQuestion(
+        question:
+            "228. Due to anger the pupil spoke to the teacher in an impolite way.        (BECE 1999 Q15)",
+        options: ["foolish", "loud", "brave", "rude"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Impolite' means rude or lacking good manners.",
+      ),
+      QuizQuestion(
+        question:
+            "229. Rain makes the soil moist for planting.        (BECE 2004 Q25)",
+        options: ["fertile", "loose", "solid", "dry"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Moist' means slightly wet. Its opposite is 'dry'.",
+      ),
+      QuizQuestion(
+        question:
+            "230. Kojo's teacher was reluctant to accept his explanation for being late to school.        (BECE 1991 Q39)",
+        options: ["willing", "afraid", "unable", "planning"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Reluctant' means unwilling or hesitant. Its opposite is 'willing'.",
+      ),
+      QuizQuestion(
+        question:
+            "231. We were taken to the police station like a lamb to the slaughter. This means that we were taken there …        (BECE 2020 Q25)",
+        options: [
+          "with our clothes removed.",
+          "without resistance.",
+          "with difficulty.",
+          "in a violent manner."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To be taken like a lamb to the slaughter means to go helplessly and without resistance.",
+      ),
+      QuizQuestion(
+        question:
+            "232. If you are indolent, you will not pass the examination.        (BECE 2007 Q22)",
+        options: ["hard-working", "rude", "careless", "honest"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Indolent' means lazy. Its opposite is 'hard-working'.",
+      ),
+      QuizQuestion(
+        question:
+            "233. Hunters are always careful in catching wild animals.        (BECE 2002B Q21)",
+        options: ["tame", "confined", "calm", "free"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "'Wild' describes animals that are not domesticated. Its opposite is 'tame'.",
+      ),
+      QuizQuestion(
+        question:
+            "234. Musa was arrested for printing counterfeit cedi notes.        (BECE 1992 Q24)",
+        options: ["correct", "new", "acceptable", "genuine"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Counterfeit' means fake or illegally copied. Its opposite is 'genuine'.",
+      ),
+      QuizQuestion(
+        question:
+            "235. It is a fact that Zaibu often gives accurate answers to questions.        (BECE 1990 Q14)",
+        options: ["long", "silly", "interesting", "wrong"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Accurate' means correct. Its opposite is 'wrong'.",
+      ),
+      QuizQuestion(
+        question:
+            "236. At the end of the investigations the police said the hands of the accused were clean. This means the …        (BECE 1990 Q16)",
+        options: [
+          "police praised the accused for his neatness.",
+          "accused was blameless.",
+          "accused had washed his hands.",
+          "police saw the accused's fingerprints."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To say that a person's hands are clean means that the person is innocent or blameless.",
+      ),
+      QuizQuestion(
+        question:
+            "237. You must be off your head if you really believe that the moon is a huge cake. This means that you must be …        (BECE 2004 Q17)",
+        options: ["crazy.", "joking.", "unintelligent.", "dreaming."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To be off one's head means to be crazy or behaving irrationally.",
+      ),
+      QuizQuestion(
+        question:
+            "238. Adzo takes after her mother. This means that Adzo …        (BECE 2013 Q23)",
+        options: [
+          "likes her.",
+          "resembles her.",
+          "is unlike her.",
+          "always follows her."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To take after someone means to resemble that person in appearance or character.",
+      ),
+      QuizQuestion(
+        question:
+            "239. It is compulsory for all citizens to take part in communal labour.        (BECE 2020B Q22)",
+        options: ["advisable", "optional", "good", "unnecessary"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Compulsory' means required or obligatory. Its opposite is 'optional'.",
+      ),
+      QuizQuestion(
+        question:
+            "240. There are guards on our border because the government wants to eliminate smuggling.        (BECE 1995 Q21)",
+        options: ["notice", "manage with", "encourage", "investigate"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "'Eliminate' means to put an end to something. Its opposite is 'encourage'.",
+      ),
+      QuizQuestion(
+        question:
+            "241. When school starts the national flag is hoisted.        (BECE 2002A Q24)",
+        options: ["lowered", "dropped", "saluted", "hung"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Hoisted' means raised. Its opposite is 'lowered'.",
+      ),
+      QuizQuestion(
+        question: "242. He has a violent temper.        (BECE 2012 Q29)",
+        options: ["mild", "natural", "flexible", "pleasant"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A violent temper is fierce and aggressive. Its opposite is a mild temper.",
+      ),
+      QuizQuestion(
+        question:
+            "243. Ammon has always kept his enemies at arm's length. This means that he …        (BECE 2021 Q23)",
+        options: [
+          "abused them.",
+          "shunned them.",
+          "threatened them.",
+          "trusted them."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To keep someone at arm's length means to avoid becoming close to that person or to shun them.",
+      ),
+      QuizQuestion(
+        question:
+            "244. Some exercises may seem easy in theoretical terms but can be really difficult in … aspects.        (BECE 2024 Q27)",
+        options: ["actual", "logical", "natural", "practical"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Theoretical' relates to ideas, while 'practical' relates to actual performance or application.",
+      ),
+      QuizQuestion(
+        question:
+            "245. Regions with abundant rainfall are different from those having … moisture.        (BECE 2024 Q28)",
+        options: ["reduced", "scanty", "uncertain", "unpredictable"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Abundant' means plentiful. Its opposite is 'scanty', meaning very little.",
+      ),
+      QuizQuestion(
+        question:
+            "246. The attitude of the security officer was very hostile.        (BECE 2000 Q12)",
+        options: ["strange", "disturbing", "unfriendly", "interesting"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Hostile' means unfriendly or aggressive.",
+      ),
+      QuizQuestion(
+        question:
+            "247. Although the labourers agreed to do the work, they did it reluctantly.        (BECE 1993 Q14)",
+        options: ["leisurely", "nervously", "unwillingly", "sparingly"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Reluctantly' means unwillingly or without enthusiasm.",
+      ),
+      QuizQuestion(
+        question:
+            "248. The price of petrol has fallen for no reason.        (BECE 2017 Q28)",
+        options: ["aggravated", "doubled", "risen", "weakened"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Fallen' means decreased. Its opposite is 'risen'.",
+      ),
+      QuizQuestion(
+        question:
+            "249. He feared that his father would ask where he had been. This means that …        (BECE 1990 Q18)",
+        options: [
+          "he was afraid when his father asked him where he had been.",
+          "he would be afraid if his father asked him where he had been.",
+          "he was afraid of his father so he did not tell him where he had been.",
+          "he was afraid that his father would want to know where he had been."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The sentence means that he was afraid his father would want to know where he had been.",
+      ),
+      QuizQuestion(
+        question:
+            "250. The Headmaster condemned the Prefect's behaviour.        (BECE 1999 Q23)",
+        options: ["reported", "pardoned", "confirmed", "praised"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Condemned' means strongly disapproved of. Its opposite is 'praised'.",
+      ),
+      QuizQuestion(
+        question:
+            "251. It is very difficult for many workers to make ends meet. This means many workers find it difficult to …        (BECE 1992 Q17)",
+        options: [
+          "do two jobs at a time.",
+          "make workers and managers come together.",
+          "live within their means.",
+          "feed two people."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To make ends meet means to manage one's expenses with the available income or live within one's means.",
+      ),
+      QuizQuestion(
+        question:
+            "252. During the lecture, Sarfo was miles away. This means that Sarfo …        (BECE 2013 Q26)",
+        options: [
+          "was self-conscious.",
+          "had travelled.",
+          "had slept.",
+          "was absent-minded."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To be miles away during a lecture means to be lost in thought and not paying attention.",
+      ),
+      QuizQuestion(
+        question:
+            "253. Dora was exhausted after the exercise.        (BECE 2022 Q26)",
+        options: ["active", "refreshed", "cheerful", "strong"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Exhausted' means extremely tired. Its opposite is 'refreshed'.",
+      ),
+      QuizQuestion(
+        question:
+            "254. Unlike his sister, Akash is stingy.        (BECE 2011 Q28)",
+        options: ["friendly", "generous", "selfish", "sympathetic"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Stingy' means unwilling to give or spend. Its opposite is 'generous'.",
+      ),
+      QuizQuestion(
+        question:
+            "255. Jasper lamented the loss of his pet.        (BECE 2007 Q15)",
+        options: ["regretted", "mourned", "remembered", "discovered"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Lamented' means expressed deep sadness or mourned over a loss.",
+      ),
+      QuizQuestion(
+        question:
+            "256. The manager's strange behaviour made the workers smell a rat. This means that the workers became …        (BECE 2002A Q21)",
+        options: ["rude.", "discouraged.", "disappointed.", "suspicious."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To smell a rat means to suspect that something is wrong or dishonest.",
+      ),
+      QuizQuestion(
+        question:
+            "257. Nortey was industrious so he was duly rewarded.        (BECE 1999 Q16)",
+        options: ["strict", "humble", "brave", "famous"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The source retains 'famous' as the intended option, although none of the options is a precise synonym for 'industrious'.",
+      ),
+      QuizQuestion(
+        question:
+            "258. Adiza's mother prepares very palatable dishes.        (BECE 1992 Q12)",
+        options: ["expensive", "rich", "tasty", "colourful"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Palatable' means pleasant to taste or tasty.",
+      ),
+      QuizQuestion(
+        question:
+            "259. The thief descended the stairs hurriedly.        (BECE 2009 Q24)",
+        options: ["consciously", "lazily", "slowly", "noisily"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Hurriedly' means quickly. Its opposite is 'slowly'.",
+      ),
+      QuizQuestion(
+        question:
+            "260. It is wise to preserve works of art for the future.        (BECE 2000 Q22)",
+        options: ["produce", "destroy", "condemn", "abolish"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Preserve' means to protect or keep something safe. Its opposite is 'destroy'.",
+      ),
+      QuizQuestion(
+        question:
+            "261. The class teacher could not bear the noise.        (BECE 1999 Q14)",
+        options: ["tolerate", "understand", "take in", "make out"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In this sentence, 'bear' means to tolerate or endure the noise.",
+      ),
+      QuizQuestion(
+        question:
+            "262. Efua can always talk her way out of trouble. This means that Efua …        (BECE 2011 Q27)",
+        options: [
+          "is troublesome.",
+          "can defend herself.",
+          "can avoid trouble.",
+          "is talkative."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To talk one's way out of trouble means to use words successfully to defend oneself or escape blame.",
+      ),
+      QuizQuestion(
+        question:
+            "263. Manna lay aside some money for Baaba's party. This means that Manna …        (BECE 2017 Q22)",
+        options: [
+          "refused to host the party.",
+          "saved money for the party.",
+          "spent money on the party.",
+          "took a loan to organise the party."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To lay aside money means to save it for a particular purpose.",
+      ),
+      QuizQuestion(
+        question:
+            "264. We are surprised at her hostility to us.        (BECE 2013 Q28)",
+        options: ["faithfulness", "attitude", "manner", "friendliness"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Hostility' means unfriendliness. Its opposite is 'friendliness'.",
+      ),
+      QuizQuestion(
+        question:
+            "265. The indigenous people provided the labour during the building of the school.        (BECE 2009 Q13)",
+        options: ["skilled", "native", "expatriate", "urban"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Indigenous people' are the native or original inhabitants of a place.",
+      ),
+      QuizQuestion(
+        question:
+            "266. My uncle loves to cast his bread upon the waters. This means that my uncle …        (BECE 2019 Q22)",
+        options: [
+          "behaves strangely.",
+          "feeds his fish with bread.",
+          "is wasteful.",
+          "loves to help people."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To cast one's bread upon the waters means to do good or help others without expecting an immediate reward.",
+      ),
+      QuizQuestion(
+        question:
+            "267. The students were all ears during the programme. This means that the students …        (BECE 2007 Q19)",
+        options: [
+          "answered questions.",
+          "looked closely.",
+          "closed their ears.",
+          "listened intently."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To be all ears means to listen very carefully and attentively.",
+      ),
+      QuizQuestion(
+        question:
+            "268. Formerly, we walked a very long distance to attend school.        (BECE 2000 Q25)",
+        options: ["sometimes", "now", "recently", "usually"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Formerly' means in the past, whereas 'now' refers to the present.",
+      ),
+      QuizQuestion(
+        question:
+            "269. Tony held his tongue for an hour before speaking. This means that Tony …        (BECE 2003 Q18)",
+        options: [
+          "was angry.",
+          "was happy.",
+          "smiled for a while.",
+          "kept quiet."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To hold one's tongue means to remain silent or keep quiet.",
+      ),
+      QuizQuestion(
+        question:
+            "270. We knew it was a cock and bull story. This means that the story was …        (BECE 2014 Q24)",
+        options: [
+          "difficult to believe.",
+          "about a cock and a bull.",
+          "real.",
+          "false."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "A cock and bull story is an unbelievable or false story.",
+      ),
+      QuizQuestion(
+        question:
+            "271. Pupils are to read the instructions carefully.        (BECE 2016 Q19)",
+        options: ["notices", "demands", "commands", "directives"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Instructions' are directions or directives explaining what should be done.",
+      ),
+      QuizQuestion(
+        question:
+            "272. Most men normally do not wear costly jewellery.        (BECE 2002A Q16)",
+        options: ["good", "expensive", "shiny", "new"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Costly' means expensive or costing a large amount of money.",
+      ),
+      QuizQuestion(
+        question:
+            "273. Drivers who do not drive with care are sometimes charged with …        (BECE 2016 Q30)",
+        options: ["speeding", "drunkenness", "disobedience", "recklessness"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Driving without care is described as recklessness.",
+      ),
+      QuizQuestion(
+        question:
+            "274. Moses is on a temporary appointment.        (BECE 1996 Q23)",
+        options: ["daily", "permanent", "probational", "weekly"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A temporary appointment may be probational, meaning it is not yet permanent.",
+      ),
+      QuizQuestion(
+        question:
+            "275. We were advised to make our handwriting legible.        (BECE 1998 Q11)",
+        options: ["crooked", "clear", "straight", "deep"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Legible' handwriting is clear and easy to read.",
+      ),
+      QuizQuestion(
+        question:
+            "276. He gave a precise definition of the word.        (BECE 2001 Q16)",
+        options: ["learned", "hasty", "accurate", "short"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Precise' means exact, clear and accurate.",
+      ),
+      QuizQuestion(
+        question:
+            "277. The pupils in the town often help in communal activities. This means that they help in …        (BECE 1991 Q16)",
+        options: [
+          "all activities.",
+          "interesting activities.",
+          "public activities.",
+          "usual activities."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Communal activities' are public activities carried out for the benefit of the community.",
+      ),
+      QuizQuestion(
+        question:
+            "278. Akosua will go to the cinema if Adjei will foot the bill. This means Akosua will go to the film show if …        (BECE 1997 Q20)",
+        options: [
+          "Adjei will take her there on foot.",
+          "the two of them will go together.",
+          "Adjei will pay for her.",
+          "she will walk there with others."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "To foot the bill means to pay the cost or expenses.",
+      ),
+      QuizQuestion(
+        question: "279. This room is too dim.        (BECE 1997 Q22)",
+        options: ["bright", "shining", "clear", "lit"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Dim' means not bright. Its opposite is 'bright'.",
+      ),
+      QuizQuestion(
+        question:
+            "280. By the end of the lesson, we were completely at sea. This means that we were …        (BECE 1995 Q17)",
+        options: [
+          "fast asleep.",
+          "totally confused.",
+          "quite disturbed.",
+          "very inspired."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To be at sea means to be confused and unsure of what to do or understand.",
+      ),
+      QuizQuestion(
+        question:
+            "281. The student was caught red-handed breaking the louvres. This means that the student was caught …        (BECE 2014 Q23)",
+        options: [
+          "while committing the offence.",
+          "with blood on his hands.",
+          "before the act.",
+          "after the act."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To be caught red-handed means to be caught while committing an offence.",
+      ),
+      QuizQuestion(
+        question:
+            "282. I was informed at the eleventh hour about his decision to leave town. This means that I heard it …        (BECE 2023 Q23)",
+        options: [
+          "at eleven o'clock.",
+          "very late.",
+          "immediately.",
+          "in good time."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "At the eleventh hour means at the last possible moment or very late.",
+      ),
+      QuizQuestion(
+        question:
+            "283. Dazzled by the bright headlights of the approaching vehicle, our driver drove into the bush.        (BECE 2001 Q15)",
+        options: ["disturbed", "worried", "blinded", "discouraged"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Dazzled' means temporarily blinded by a very bright light.",
+      ),
+      QuizQuestion(
+        question:
+            "284. Born and bred in an affluent home, he never experienced any hardships in life.        (BECE 2001 Q14)",
+        options: ["respectable", "religious", "happy", "rich"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Affluent' means wealthy or rich.",
+      ),
+      QuizQuestion(
+        question:
+            "285. The choir sang some melodious songs at the function.        (BECE 2010 Q17)",
+        options: ["loud", "pleasant", "soft", "musical"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Melodious' means pleasant and attractive to listen to.",
+      ),
+      QuizQuestion(
+        question:
+            "286. The taxi driver drove recklessly throughout the journey.        (BECE 1996 Q25)",
+        options: ["speedily", "carefully", "noisily", "leisurely"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Recklessly' means without care. Its opposite is 'carefully'.",
+      ),
+      QuizQuestion(
+        question:
+            "287. Aminata is boastful about her beauty.        (BECE 2011 Q32)",
+        options: ["careless", "humble", "modest", "uneasy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Boastful' means excessively proud. Its opposite is 'modest'.",
+      ),
+      QuizQuestion(
+        question:
+            "288. The attitude of the gateman was very hostile.        (BECE 2015 Q21)",
+        options: ["harsh", "strange", "abusive", "unfriendly"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Hostile' means unfriendly or aggressive.",
+      ),
+      QuizQuestion(
+        question:
+            "289. The film was so boring that I fell asleep.        (BECE 2002B Q23)",
+        options: ["exciting", "ordinary", "disorderly", "long"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Boring' means uninteresting. Its opposite is 'exciting'.",
+      ),
+      QuizQuestion(
+        question:
+            "290. He had applied for a permanent job.        (BECE 2012 Q28)",
+        options: ["a boring", "a dull", "an exacting", "a temporary"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Permanent' means lasting indefinitely. Its opposite is 'temporary'.",
+      ),
+      QuizQuestion(
+        question:
+            "291. The troops retreated when they were attacked.        (BECE 2004 Q12)",
+        options: ["escaped", "scattered", "fought", "withdrew"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Retreated' means moved back or withdrew from a position.",
+      ),
+      QuizQuestion(
+        question:
+            "292. The pupils are confident of passing the examination.        (BECE 2018 Q30)",
+        options: ["determined", "doubtless", "uncertain", "uneasy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Confident' means certain. Its opposite is 'uncertain'.",
+      ),
+      QuizQuestion(
+        question:
+            "293. Many people revered the old man for his charity to the poor.        (BECE 2012 Q21)",
+        options: ["glorified", "respected", "feared", "praised"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Revered' means deeply respected or admired.",
+      ),
+      QuizQuestion(
+        question:
+            "294. The audience laughed at his funny stories.        (BECE 2021 Q?)",
+        options: ["cheerful", "humourless", "familiar", "peculiar"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Funny' means amusing or humorous. Its opposite is 'humourless'.",
+      ),
+      QuizQuestion(
+        question:
+            "295. When James heard the sound of gun-shots, his hair stood on end. This means that James …        (BECE 2015 Q25)",
+        options: [
+          "was worried.",
+          "started crying.",
+          "was frightened.",
+          "became inactive."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "When someone's hair stands on end, the person is extremely frightened.",
+      ),
+      QuizQuestion(
+        question:
+            "296. If you are a true friend you will not disclose a secret.        (BECE 2015 Q18)",
+        options: ["give", "show", "display", "reveal"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Disclose' means to reveal or make secret information known.",
+      ),
+      QuizQuestion(
+        question:
+            "297. I belief that Fusena is guilty of the crime.        (BECE 2006 Q24)",
+        options: ["ignorant", "aware", "innocent", "careless"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Guilty' means responsible for an offence. Its opposite is 'innocent'.",
+      ),
+      QuizQuestion(
+        question:
+            "298. All his plans for building a new theatre came to naught. This means that …        (BECE 2009 Q20)",
+        options: [
+          "the theatre was built.",
+          "his plans were unsuccessful.",
+          "the building collapsed.",
+          "there was nothing in the theatre."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To come to naught means to fail completely or produce no successful result.",
+      ),
+      QuizQuestion(
+        question:
+            "299. Little Asabea wondered why her grandfather walked so slowly.        (BECE 2024 Q19)",
+        options: [
+          "felt frustrated that",
+          "thought about why",
+          "was curious about why",
+          "was saddened that"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Wondered why' means was curious about the reason something happened.",
+      ),
+      QuizQuestion(
+        question:
+            "300. Moro felt very much at home at his friend's house. This means that Moro …        (BECE 2007 Q18)",
+        options: [
+          "knew his friend's house.",
+          "was comfortable and relaxed.",
+          "was disappointed.",
+          "lived with his friend."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To feel at home means to feel comfortable, relaxed and welcome in a place.",
+      ),
+      QuizQuestion(
+        question:
+            "301. The penalty for stealing is dismissal from school.        (BECE 1998 Q14)",
+        options: ["trouble", "cause", "foul", "punishment"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Penalty' means a punishment given for breaking a rule or committing an offence.",
+      ),
+      QuizQuestion(
+        question:
+            "302. Foli and Adzovi hit it off quite well. This means they …        (BECE 2017 Q25)",
+        options: [
+          "fight often.",
+          "get on very well.",
+          "play as a team.",
+          "present good arguments."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To hit it off means to quickly develop a friendly relationship and get on well together.",
+      ),
+      QuizQuestion(
+        question:
+            "303. If we had sent him to the hospital earlier he wouldn't have died. This means that we …        (BECE 1998 Q20)",
+        options: [
+          "sent him to the hospital.",
+          "didn't send him to the hospital at all.",
+          "sent him to the hospital late.",
+          "were told to send him to the hospital."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The sentence shows that he was taken to the hospital, but he was taken there too late.",
+      ),
+      QuizQuestion(
+        question:
+            "304. Immediately Ekuba's mother left the house, she let the cat out of the bag. This means that Ekuba …        (BECE 2012 Q26)",
+        options: [
+          "bought a cat.",
+          "took the cat from the bag.",
+          "left her house.",
+          "revealed the secret."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "To let the cat out of the bag means to reveal a secret.",
+      ),
+      QuizQuestion(
+        question:
+            "305. Elephants are becoming rare in some parts of Africa.        (BECE 1990 Q37)",
+        options: ["unimportant", "uncommon", "unknown", "exposed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Rare' means uncommon or not frequently found.",
+      ),
+      QuizQuestion(
+        question:
+            "306. His clothes are always out of date. This means that his clothes are …        (BECE 2002A Q18)",
+        options: ["torn.", "too tight.", "faded.", "old-fashioned."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Clothes that are out of date are no longer fashionable and are therefore old-fashioned.",
+      ),
+      QuizQuestion(
+        question:
+            "307. The judge acquitted four of the accused but … the rest.        (BECE 2016 Q28)",
+        options: ["convicted", "discharged", "cautioned", "rebuked"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "'Acquitted' means declared not guilty, while 'convicted' means declared guilty.",
+      ),
+      QuizQuestion(
+        question:
+            "308. It took our new prefect two months before he could find his feet. This means that it took the prefect two months before he …        (BECE 2007 Q20)",
+        options: [
+          "knew everybody.",
+          "became confident.",
+          "won a prize.",
+          "became popular."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To find one's feet means to become confident and comfortable in a new situation.",
+      ),
+      QuizQuestion(
+        question:
+            "309. Ekua visits her grandmother once in a blue moon. This means Ekua visits her grandmother …        (BECE 1997 Q17)",
+        options: ["every month.", "once a week.", "occasionally.", "often."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Once in a blue moon means very rarely or only occasionally.",
+      ),
+      QuizQuestion(
+        question:
+            "310. Transparent ballot boxes are used in elections.        (BECE 2013 Q32)",
+        options: ["dark", "opaque", "coated", "painted"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Transparent' means allowing light to pass through. Its opposite is 'opaque'.",
+      ),
+      QuizQuestion(
+        question:
+            "311. The printing company has over a thousand agents here.        (BECE 1992 Q15)",
+        options: ["vendors", "caretakers", "deputies", "representatives"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Agents are people who act as representatives of a person, organisation or company.",
+      ),
+      QuizQuestion(
+        question:
+            "312. The boy's account of the incident was elaborate.        (BECE 2025 Q18)",
+        options: ["clear", "detailed", "interesting", "popular"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Elaborate' means detailed and containing a lot of carefully presented information.",
+      ),
+      QuizQuestion(
+        question:
+            "313. My uncle visits me once in a blue moon. This means that he visits …        (BECE 1998 Q18)",
+        options: [
+          "at the end of the month.",
+          "rarely.",
+          "during the night.",
+          "daily."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Once in a blue moon means very rarely.",
+      ),
+      QuizQuestion(
+        question:
+            "314. The doctors have been discussing the shortage of nurses.        (BECE 2013 Q22)",
+        options: ["indiscipline", "love", "scarcity", "efficiency"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Shortage' means scarcity or an insufficient amount of something.",
+      ),
+      QuizQuestion(
+        question:
+            "315. The P.T.A Chairman cleared the air about the increase in dues. This means that he …        (BECE 2003 Q20)",
+        options: [
+          "explained why there was an increase.",
+          "announced the increase.",
+          "published the increase in the papers.",
+          "was sorry about the increase."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To clear the air means to remove confusion or misunderstanding by explaining an issue.",
+      ),
+      QuizQuestion(
+        question:
+            "316. Abass was not selected to play because he had little stamina.        (BECE 2003 Q12)",
+        options: ["love", "potential", "endurance", "skill"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Stamina' means the physical or mental endurance needed to continue an activity.",
+      ),
+      QuizQuestion(
+        question:
+            "317. Theresa wanted to know the time of arrival of the plane.        (BECE 2001 Q23)",
+        options: ["scheme", "routine", "departure", "boarding"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Arrival' means reaching a place. Its opposite is 'departure'.",
+      ),
+      QuizQuestion(
+        question:
+            "318. Mrs. Addo is our hostess for the show.        (BECE 2006 Q25)",
+        options: ["guest", "speaker", "guide", "sponsor"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A hostess receives or entertains other people. The opposite role is that of a guest.",
+      ),
+      QuizQuestion(
+        question:
+            "319. My father was indifferent to my brother's suffering.        (BECE 1999 Q26)",
+        options: ["similar", "concerned", "stern", "kind"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Indifferent' means showing no concern or interest. Its opposite is 'concerned'.",
+      ),
+      QuizQuestion(
+        question:
+            "320. The Policeman was reported to have concealed the evidence, but … it to the Jury.        (BECE 2025 Q26)",
+        options: ["disclosed", "gathered", "found", "planted"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Concealed' means hid, while 'disclosed' means revealed or made known.",
+      ),
+      QuizQuestion(
+        question:
+            "321. I stopped going out with Joe because he is light-fingered. This means that Joe is a …        (BECE 2002A Q20)",
+        options: ["lazy person.", "liar.", "thief.", "dishonest friend."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A light-fingered person has a tendency to steal things and is therefore a thief.",
+      ),
+      QuizQuestion(
+        question:
+            "322. When he lost his job, Yaro was left to sink or swim. This means that Yaro …        (BECE 2023 Q24)",
+        options: [
+          "was depressed.",
+          "had to find another job.",
+          "had to survive on his own.",
+          "shouted for help."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To be left to sink or swim means to be left to survive or succeed through one's own efforts.",
+      ),
+      QuizQuestion(
+        question:
+            "323. It is rude to talk loudly in the presence of elderly people.        (BECE 2011 Q19)",
+        options: ["impolite", "incorrect", "improper", "unwise"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Rude' means impolite or lacking good manners.",
+      ),
+      QuizQuestion(
+        question:
+            "324. Due to the ongoing road construction, our shops have been temporarily closed down.        (BECE 2024 Q29)",
+        options: ["constantly", "deliberately", "legally", "permanently"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Temporarily' means for a limited period. Its opposite is 'permanently'.",
+      ),
+      QuizQuestion(
+        question:
+            "325. Issah was asked to toe the line or quit the team. This means that Issah was asked to …        (BECE 2005 Q18)",
+        options: ["apologize.", "resign.", "change.", "obey."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To toe the line means to obey the rules or follow the expected standard of behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "326. Kwadwo turned a deaf ear to his mother's advice. This means that Kwadwo …        (BECE 1999 Q21)",
+        options: [
+          "turned his deaf ear to his mother.",
+          "refused to listen.",
+          "stopped his ear.",
+          "could not hear well."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To turn a deaf ear to something means to refuse to listen to or pay attention to it.",
+      ),
+      QuizQuestion(
+        question:
+            "327. Although he had applied for a permanent post, he was only given a … one.        (BECE 2015 Q31)",
+        options: ["useful", "boring", "laboring", "temporary"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Permanent' means lasting for a long time. Its opposite is 'temporary'.",
+      ),
+      QuizQuestion(
+        question:
+            "328. The project is in the pipeline. This means that it is …        (BECE 2021 Q24)",
+        options: [
+          "being dealt with.",
+          "being suspended.",
+          "no longer pursued.",
+          "stuck in the pipe."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A project that is in the pipeline is being planned, prepared or dealt with.",
+      ),
+      QuizQuestion(
+        question:
+            "329. The two brothers are always quarrelling; they never see eye to eye. This means they do not … each other.        (BECE 2004 Q16)",
+        options: ["agree with", "admire", "respect", "trust"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "To see eye to eye means to agree with another person.",
+      ),
+      QuizQuestion(
+        question:
+            "330. The audience applauded the actors at the end of the play.        (BECE 2007 Q14)",
+        options: ["booed", "invited", "rewarded", "cheered"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Applauded' means showed approval by clapping or cheering.",
+      ),
+      QuizQuestion(
+        question:
+            "331. Have you enough money to buy a house?        (BECE 2022 Q20)",
+        options: ["sufficient", "plenty", "much", "full"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Enough' means sufficient for a particular purpose.",
+      ),
+      QuizQuestion(
+        question:
+            "332. The classroom is surprisingly chaotic today.        (BECE 2002B Q24)",
+        options: ["busy", "dirty", "hectic", "disorderly"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Chaotic' means completely disorganised or disorderly.",
+      ),
+      QuizQuestion(
+        question:
+            "333. Most doctors are humane in treating patients.        (BECE 2003 Q16)",
+        options: ["careful", "good", "experienced", "friendly"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "'Humane' means showing kindness and compassion. Of the options, 'friendly' is the closest in meaning.",
+      ),
+      QuizQuestion(
+        question:
+            "334. John was impressed with Joana's gift.        (BECE 2003 Q15)",
+        options: ["moved", "deceived", "calmed", "pleased"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To be impressed with something means to be pleased by or admire it.",
+      ),
+      QuizQuestion(
+        question:
+            "335. Ama answered the questions with confidence.        (BECE 2008 Q23)",
+        options: ["joy", "firmness", "timidity", "uncertainty"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Confidence' means certainty and self-assurance. Its opposite is 'uncertainty'.",
+      ),
+      QuizQuestion(
+        question:
+            "336. Ato was at his wits' end. This means that Ato …        (BECE 2013 Q27)",
+        options: [
+          "was collecting his ideas together.",
+          "had come to the end of his talk.",
+          "did not know what to do next.",
+          "did not have much to do."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To be at one's wits' end means to be so confused or worried that one does not know what to do next.",
+      ),
+      QuizQuestion(
+        question:
+            "337. Iddrisu swore that he would rather be a spendthrift than a …        (BECE 2003 Q25)",
+        options: ["miser", "pauper", "weakling", "thief"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A spendthrift spends money wastefully, while a miser is unwilling to spend money.",
+      ),
+      QuizQuestion(
+        question:
+            "338. After the hard day's work he returned home completely exhausted.        (BECE 2000 Q13)",
+        options: ["disturbed", "worn out", "unhappy", "broken down"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Exhausted' means extremely tired or worn out.",
+      ),
+      QuizQuestion(
+        question:
+            "339. The opponents decided to bury the hatchet. This means that they decided to …        (BECE 2016 Q26)",
+        options: [
+          "make peace.",
+          "bury their guns.",
+          "hold discussions.",
+          "suspend the fighting."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To bury the hatchet means to end a quarrel and make peace.",
+      ),
+      QuizQuestion(
+        question:
+            "340. He was asked not to attend the party but he turned a deaf ear to the advice. This means that he …        (BECE 2008 Q20)",
+        options: [
+          "did not hear the advice.",
+          "laughed at the advice.",
+          "was angry at the advice.",
+          "ignored the advice."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To turn a deaf ear to advice means to ignore or refuse to follow it.",
+      ),
+      QuizQuestion(
+        question:
+            "341. Patricia was satisfied with the result of the examination.        (BECE 2015 Q20)",
+        options: ["pleased", "convinced", "pampered", "encouraged"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Satisfied' means pleased or content with something.",
+      ),
+      QuizQuestion(
+        question:
+            "342. The chief's palace was demolished by the rainstorm.        (BECE 1997 Q15)",
+        options: ["opened", "built", "destroyed", "painted"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Demolished' means completely destroyed or pulled down.",
+      ),
+      QuizQuestion(
+        question:
+            "343. As John waited for the interview, he was very nervous.        (BECE 2015 Q19)",
+        options: ["sad", "afraid", "alarmed", "uneasy"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Nervous' means worried, anxious or uneasy.",
+      ),
+      QuizQuestion(
+        question:
+            "344. That tailor always takes pains over his sewing. This means that the tailor …        (BECE 2022 Q22)",
+        options: [
+          "does his sewing with great care.",
+          "finds sewing very painful.",
+          "is often ill and cannot sew.",
+          "is not happy sewing."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To take pains over something means to do it with great care and effort.",
+      ),
+      QuizQuestion(
+        question:
+            "345. When it comes to honesty, Kweku is the odd one out. This means that Kweku …        (BECE 2002A Q19)",
+        options: [
+          "is always absent.",
+          "does not tell the truth.",
+          "does not behave normally.",
+          "is very tricky."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The odd one out is the person who differs from the others. In this context, Kweku is dishonest and does not tell the truth.",
+      ),
+      QuizQuestion(
+        question:
+            "346. The chief told his linguist not to beat about the bush. This means the linguist must …        (BECE 1994 Q21)",
+        options: [
+          "not stammer.",
+          "go straight to the point.",
+          "not enter the bush.",
+          "conclude the case."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Not to beat about the bush means to speak directly and go straight to the main point.",
+      ),
+      QuizQuestion(
+        question:
+            "347. Janet promised to attend to her mother-in-law who was ill.        (BECE 1992 Q14)",
+        options: ["look after", "look at", "look into", "look for"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To attend to an ill person means to care for or look after the person.",
+      ),
+      QuizQuestion(
+        question:
+            "348. The welfare of their students should be the concern of teachers.        (BECE 2022 Q19)",
+        options: ["wealth", "well-being", "happiness", "growth"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Welfare' refers to a person's health, happiness, safety and general well-being.",
+      ),
+      QuizQuestion(
+        question:
+            "349. We will not allow him to dampen our spirits.        (BECE 2023 Q20)",
+        options: ["suppress", "destroy", "break", "lower"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To dampen someone's spirits means to suppress or reduce the person's enthusiasm and happiness.",
+      ),
+      QuizQuestion(
+        question:
+            "350. By our constitution, it is obligatory to vote.        (BECE 2014 Q32)",
+        options: ["good", "necessary", "optional", "right"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Obligatory' means required, compulsory or necessary.",
+      ),
+      QuizQuestion(
+        question:
+            "351. It is not always good to believe all newspaper accounts.        (BECE 1990 Q34)",
+        options: ["cartoons", "headlines", "reports", "jokes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "In this context, newspaper 'accounts' are reports of events or issues.",
+      ),
+      QuizQuestion(
+        question:
+            "352. The headmaster rebuked the students who came late.        (BECE 2008 Q22)",
+        options: ["admitted", "praised", "admired", "embraced"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Rebuked' means criticised or scolded. Its opposite is 'praised'.",
+      ),
+      QuizQuestion(
+        question:
+            "353. John's latest play is rather dull.        (BECE 2009 Q22)",
+        options: ["interesting", "informative", "sensible", "educative"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Dull' means boring or uninteresting. Its opposite is 'interesting'.",
+      ),
+      QuizQuestion(
+        question:
+            "354. With hard work we can overcome any problem.        (BECE 2007 Q12)",
+        options: ["get", "avoid", "stop", "solve"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To overcome a problem means to successfully deal with or solve it.",
+      ),
+      QuizQuestion(
+        question:
+            "355. Our new pastor is very modest in his ways.        (BECE 1993 Q22)",
+        options: ["friendly", "kind", "boastful", "fashionable"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Modest' means humble and not boastful. Its opposite is 'boastful'.",
+      ),
+      QuizQuestion(
+        question:
+            "356. Esi was so good a leader that we were all encouraged to take a leaf out of her book. This means we were all encouraged to …        (BECE 2000 Q19)",
+        options: [
+          "try and beat her record.",
+          "take her advice.",
+          "follow her example.",
+          "treat her with respect."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To take a leaf out of someone's book means to imitate or follow that person's good example.",
+      ),
+      QuizQuestion(
+        question:
+            "357. The Headmaster's arrival in the classroom was sudden.        (BECE 2011 Q18)",
+        options: ["quick", "strange", "unexpected", "unusual"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A sudden arrival happens without warning and is therefore unexpected.",
+      ),
+      QuizQuestion(
+        question:
+            "358. The chief told his linguist not to beat about the bush. This means that the linguist must …        (BECE 2012 Q25)",
+        options: [
+          "not stammer.",
+          "go straight to the point.",
+          "not enter the bush.",
+          "cut down the bush."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Not to beat about the bush means to speak directly and go straight to the main point.",
+      ),
+      QuizQuestion(
+        question:
+            "359. Since the thief came out of prison he has turned over a new leaf. This means he has …        (BECE 1992 Q18)",
+        options: [
+          "changed his style of stealing.",
+          "started growing flowers.",
+          "changed for the better.",
+          "grown even more stubborn."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To turn over a new leaf means to change one's behaviour and begin behaving better.",
+      ),
+      QuizQuestion(
+        question:
+            "360. The woman entered the room to find her daughter with her eyes glued to the television. This means that her daughter was … the television.        (BECE 2010 Q23)",
+        options: ["smiling at", "dismantling", "intently watching", "cleaning"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To have one's eyes glued to something means to watch it very closely and attentively.",
+      ),
+      QuizQuestion(
+        question:
+            "361. All the tax rules have been cancelled.        (BECE 2021 Q17)",
+        options: ["mild", "valid", "previous", "weak"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Rules that have not been cancelled remain valid or legally effective.",
+      ),
+      QuizQuestion(
+        question:
+            "362. Cann worked hard to stock the shop.        (BECE 2017 Q29)",
+        options: ["decorate", "empty", "fill", "reinforce"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To stock a shop means to fill it with goods for sale.",
+      ),
+    ],
+  ),
 
   "English JHS2 s2 ss1 - Narrative & Expository Passages (Objective Test + Theory Questions)":
       QuizModel(
@@ -33011,7 +34859,8 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "English JHS3 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences": QuizModel(
+  "English JHS3 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
