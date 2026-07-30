@@ -2393,6 +2393,105 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
+  "Math JHS2 s2 ss2 - Algebraic Expressions": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: "
+            "Factorize completely 3a² + 12ac - 8bc - 2ab.\n (BECE 1990 Q2a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Rearrange terms to group common factors:\n"
+            "(3a² - 2ab) + (12ac - 8bc)\n\n"
+            "⦿ Factor out a from the first pair and 4c from the second pair:\n"
+            "a(3a - 2b) + 4c(3a - 2b)\n\n"
+            "⦿ Factor out the common binomial expression (3a - 2b):\n"
+            "(3a - 2b)(a + 4c)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: "
+            "Factorize completely 2ap + aq - bq - 2bp.\n (BECE 1991 Q3b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Rearrange terms to group variables together:\n"
+            "(2ap + aq) - (2bp + bq)\n\n"
+            "⦿ Factor out a from the first pair and b from the second pair:\n"
+            "a(2p + q) - b(2p + q)\n\n"
+            "⦿ Factor out the common binomial factor to complete:\n"
+            "(2p + q)(a - b)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 3: \n"
+            "Factorize completely mp + np - mt - nt.\n (BECE 1992 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Group terms into two pairs:\n"
+            "(mp + np) - (mt + nt)\n\n"
+            "⦿ Factor out p from the first pair and t from the second pair:\n"
+            "p(m + n) - t(m + n)\n\n"
+            "⦿ Extract the shared binomial expression:\n"
+            "(m + n)(p - t)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: "
+        r"Simplify (\frac{2}{3}a + \frac{4}{3}b) - \frac{3}{2}(a - b).""\n (BECE 1993 Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Express as two standard fractional quantities with a common base:\n"
+        r"\frac{1}{3}(2a + 4b) - \frac{1}{2}(3a - 3b)"
+        "\n\n"
+            "⦿ Find the Lowest Common Multiple (LCM) of 3 and 2, which is 6:\n"
+        r"\frac{2(2a + 4b) - 3(3a - 3b)}{6}"
+        "\n\n"
+            "⦿ Expand the terms in the numerator:\n"
+        r"\frac{4a + 8b - 9a + 9b}{6}"
+        "\n\n"
+            "⦿ Collect like terms and simplify:\n"
+        r"\frac{-5a + 17b}{6}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 5: "
+            "Multiply (a - b) by (2b - a). \n (BECE 1994 Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Expand using term-by-term distribution:\n"
+            "a(2b - a) - b(2b - a)\n\n"
+            "⦿ Distribute across brackets:\n"
+            "2ab - a² - 2b² + ab\n\n"
+            "⦿ Combine terms to simplify:\n"
+            "-a² + 3ab - 2b²",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 6: "
+            "i) Factorize completely the expression 2xy - 8x + 3y - 12.\n"
+            "ii) Evaluate the expression in (i) if x = 5 and y = 7.\n (BECE 2004 Q1a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Part (i): Group into binomial pairs:\n"
+            "(2xy - 8x) + (3y - 12)\n\n"
+            "⦿ Factor out common components:\n"
+            "2x(y - 4) + 3(y - 4) → (2x + 3)(y - 4)\n\n"
+            "⦿ Part (ii): Substitute x = 5 and y = 7:\n"
+            "[2(5) + 3][7 - 4] = (13)(3) = 39",
+        explanation: "",
+      ),
+    ],
+  ),
+
+
   "Math JHS3 s1 ss1 - Number and Numeration Systems": PracticeModel(
     audioPath: '',
     questions: [
