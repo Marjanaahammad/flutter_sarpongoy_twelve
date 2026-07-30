@@ -645,10 +645,9 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        r"Question 1: Three school children share some oranges as follows: Akwasi gets \frac{1}{3} of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?"
-        "\n(BECE 1991 Q1b)",
-        answer:
-        "⦿ Define the variable:\n"
+            r"Question 1: Three school children share some oranges as follows: Akwasi gets \frac{1}{3} of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?"
+            "\n(BECE 1991 Q1b)",
+        answer: "⦿ Define the variable:\n"
             "⦁ Let the total number of oranges be y.\n\n"
             "⦿ Calculate Akwasi's share:\n"
             r"⦁ Akwasi's share = \frac{1}{3} × y"
@@ -691,12 +690,11 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        r"Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got \frac{1}{4} of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively."
-        "\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
-        answer:
-        "⦿ Calculate Kwabena's share:\n"
-        r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
-        "\n\n"
+            r"Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got \frac{1}{4} of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively."
+            "\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
+        answer: "⦿ Calculate Kwabena's share:\n"
+            r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
+            "\n\n"
             "⦿ Find the remainder:\n"
             "⦁ Remaining oranges = 160 - 40 = 120 oranges\n\n"
             "⦿ Total ratio parts:\n"
@@ -810,13 +808,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 11: A property worth GH₵10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
-        answer:
-        "⦿ Determine the total ratio parts:\n"
+            "Question 11: A property worth GH₵10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
+        answer: "⦿ Determine the total ratio parts:\n"
             "⦁ Total parts = 1 + 4 = 5 parts\n\n"
             "⦿ Calculate the children's total share:\n"
-        r"⦁ Children's share = \frac{4}{5} × GH₵10,480.00 = GH₵8,384.00"
-        "\n\n"
+            r"⦁ Children's share = \frac{4}{5} × GH₵10,480.00 = GH₵8,384.00"
+            "\n\n"
             "⦿ Calculate each child's share:\n"
             "⦁ Each child's share = GH₵8,384.00 ÷ 10 = GH₵838.40\n\n"
             "Answer = GH₵838.40",
@@ -840,16 +837,15 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 13: Esi and Kofi shared an amount of GH₵21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
-        answer:
-        "⦿ Determine the total ratio parts:\n"
+            "Question 13: Esi and Kofi shared an amount of GH₵21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
+        answer: "⦿ Determine the total ratio parts:\n"
             "⦁ Total parts = 2 + 5 = 7 parts\n\n"
             "⦿ Calculate Esi's share:\n"
-        r"⦁ Esi's share = \frac{2}{7} × GH₵21,000.00 = GH₵6,000.00"
-        "\n\n"
+            r"⦁ Esi's share = \frac{2}{7} × GH₵21,000.00 = GH₵6,000.00"
+            "\n\n"
             "⦿ Calculate Kofi's share:\n"
-        r"⦁ Kofi's share = \frac{5}{7} × GH₵21,000.00 = GH₵15,000.00"
-        "\n\n"
+            r"⦁ Kofi's share = \frac{5}{7} × GH₵21,000.00 = GH₵15,000.00"
+            "\n\n"
             "⦿ Calculate how much more Kofi received:\n"
             "⦁ Difference = GH₵15,000.00 - GH₵6,000.00 = GH₵9,000.00\n\n"
             "Answer = GH¢₵9,000.00",
@@ -905,15 +901,12 @@ final Map<String, PracticeModel> becePracticeData = {
             "(BECE 2022 Q1b)",
         answer: "⦿ Observe the pattern:\n"
             "⦁ The terms are perfect squares of consecutive natural numbers.\n\n"
-
             "1 = 1^2\n"
             "4 = 2^2\n"
             "9 = 3^2\n\n"
-
             "⦿ Find the next two terms:\n"
             "⦁ 4^2 = 16\n"
             "⦁ 5^2 = 25\n\n"
-
             "Answer = 16, 25",
         explanation: "",
       ),
@@ -924,69 +917,67 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        r"Question 1: Given that m = -2 and n = \frac{1}{4}, find the value of:"
-        "\n\n"
+            r"Question 1: Given that m = -2 and n = \frac{1}{4}, find the value of:"
+            "\n\n"
             "(i) m²(n - 1)\n\n"
             r"(ii) \frac{n² - \frac{3}{m}}{m}"
-        "\n"
+            "\n"
             "(BECE 1991 Q3c)",
-        answer:
-        "⦿ (i) Find the value of m²(n - 1):\n"
+        answer: "⦿ (i) Find the value of m²(n - 1):\n"
             r"⦁ Substitute m = -2 and n = \frac{1}{4}."
-        "\n\n"
-        r"(-2)^2\left(\frac{1}{4}-1\right)"
-        "\n\n"
+            "\n\n"
+            r"(-2)^2\left(\frac{1}{4}-1\right)"
+            "\n\n"
             "⦁ Simplify the expression in the brackets:\n"
-        r"\frac{1}{4}-1=-\frac{3}{4}"
-        "\n\n"
+            r"\frac{1}{4}-1=-\frac{3}{4}"
+            "\n\n"
             "⦁ Evaluate the square:\n"
             "(-2)² = 4\n\n"
             "⦁ Multiply:\n"
-        r"4\times\left(-\frac{3}{4}\right)=-3"
-        "\n\n"
+            r"4\times\left(-\frac{3}{4}\right)=-3"
+            "\n\n"
             r"⦿ (ii) Find the value of \frac{n² - \frac{3}{m}{m}:"
-        "\n"
+            "\n"
             r"⦁ Substitute m = -2 and n = \frac{1}{4}."
-        "\n\n"
-        r"\frac{\left(\frac{1}{4}\right)^2-\frac{3}{-2}}{-2}"
-        "\n\n"
+            "\n\n"
+            r"\frac{\left(\frac{1}{4}\right)^2-\frac{3}{-2}}{-2}"
+            "\n\n"
             "⦁ Simplify the numerator:\n"
-        r"\left(\frac{1}{4}\right)^2=\frac{1}{16}"
-        "\n"
-        r"\frac{3}{-2}=-\frac{3}{2}"
-        "\n\n"
-        r"\frac{1}{16}-\left(-\frac{3}{2}\right)"
-        "\n"
-        r"=\frac{1}{16}+\frac{3}{2}"
-        "\n"
-        r"=\frac{1}{16}+\frac{24}{16}"
-        "\n"
-        r"=\frac{25}{16}"
-        "\n\n"
+            r"\left(\frac{1}{4}\right)^2=\frac{1}{16}"
+            "\n"
+            r"\frac{3}{-2}=-\frac{3}{2}"
+            "\n\n"
+            r"\frac{1}{16}-\left(-\frac{3}{2}\right)"
+            "\n"
+            r"=\frac{1}{16}+\frac{3}{2}"
+            "\n"
+            r"=\frac{1}{16}+\frac{24}{16}"
+            "\n"
+            r"=\frac{25}{16}"
+            "\n\n"
             "⦁ Divide by m = -2:\n"
-        r"\frac{\frac{25}{16}}{-2}"
-        "\n"
-        r"=\frac{25}{16}\times\left(-\frac{1}{2}\right)"
-        "\n"
-        r"=-\frac{25}{32}"
-        "\n\n"
+            r"\frac{\frac{25}{16}}{-2}"
+            "\n"
+            r"=\frac{25}{16}\times\left(-\frac{1}{2}\right)"
+            "\n"
+            r"=-\frac{25}{32}"
+            "\n\n"
             "(i) Answer = -3\n"
             r"(ii) Answer = -\frac{25}{32}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: Given that π = 3.14 and g = 20, find the value of F in the relation:\n\n"
+            "Question 2: Given that π = 3.14 and g = 20, find the value of F in the relation:\n\n"
             r"F = \frac{3πg²}{4}\n"
             "(BECE 1994 Q2b)",
-        answer:
-        "⦿ Substitute π = 3.14 and g = 20 into the formula:\n\n"
-        r"F=\frac{3\times3.14\times20^2}{4}"
-        "\n\n"
+        answer: "⦿ Substitute π = 3.14 and g = 20 into the formula:\n\n"
+            r"F=\frac{3\times3.14\times20^2}{4}"
+            "\n\n"
             "⦁ Square the value of g:\n"
             "20² = 400\n\n"
-        r"F=\frac{3\times3.14\times400}{4}"
-        "\n\n"
+            r"F=\frac{3\times3.14\times400}{4}"
+            "\n\n"
             "⦁ Simplify:\n"
             "F = 3 × 3.14 × 100\n"
             "F = 3 × 314\n"
@@ -996,13 +987,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 3: If p = 7, a = 16, b = -5 and c = 3, evaluate:\n\n"
+            "Question 3: If p = 7, a = 16, b = -5 and c = 3, evaluate:\n\n"
             r"\frac{p² - (a - b)}{c}\n"
             "(BECE 1997 Q1a)",
-        answer:
-        "⦿ Substitute the given values:\n\n"
-        r"\frac{7^2-\left(16-(-5)\right)}{3}"
-        "\n\n"
+        answer: "⦿ Substitute the given values:\n\n"
+            r"\frac{7^2-\left(16-(-5)\right)}{3}"
+            "\n\n"
             "⦁ Simplify the expression in the brackets:\n"
             "16 - (-5) = 16 + 5 = 21\n\n"
             "⦁ Evaluate the square:\n"
@@ -1010,18 +1000,16 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦁ Simplify the numerator:\n"
             "49 - 21 = 28\n\n"
             "⦁ Divide by 3:\n"
-        r"\frac{28}{3}=9\frac{1}{3}"
-        "\n\n"
-        r"Answer = 9\frac{1}{3}",
+            r"\frac{28}{3}=9\frac{1}{3}"
+            "\n\n"
+            r"Answer = 9\frac{1}{3}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 4: Simplify the expression:\n\n"
+        scenario: "Question 4: Simplify the expression:\n\n"
             "3x² + 6xy - 3y² + 4x² - 8xy + 2y²\n"
             "(BECE 1998 Q1a)",
-        answer:
-        "⦿ Group the like terms:\n\n"
+        answer: "⦿ Group the like terms:\n\n"
             "(3x² + 4x²) + (6xy - 8xy) + (-3y² + 2y²)\n\n"
             "⦁ Simplify each group:\n"
             "3x² + 4x² = 7x²\n"
@@ -1033,15 +1021,13 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 5: If p = 7, a = 16, b = 4 and c = 3, evaluate:\n\n"
+        scenario: "Question 5: If p = 7, a = 16, b = 4 and c = 3, evaluate:\n\n"
             r"\frac{p² - (a - b)}{c}"
-        "\n"
+            "\n"
             "(BECE 1998 Q1c)",
-        answer:
-        "⦿ Substitute the given values:\n\n"
-        r"\frac{7^2-(16-4)}{3}"
-        "\n\n"
+        answer: "⦿ Substitute the given values:\n\n"
+            r"\frac{7^2-(16-4)}{3}"
+            "\n\n"
             "⦁ Simplify the expression in the brackets:\n"
             "16 - 4 = 12\n\n"
             "⦁ Evaluate the square:\n"
@@ -1049,52 +1035,51 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦁ Simplify the numerator:\n"
             "49 - 12 = 37\n\n"
             "⦁ Divide by 3:\n"
-        r"\frac{37}{3}=12\frac{1}{3}"
-        "\n\n"
-        r"Answer = 12\frac{1}{3}",
+            r"\frac{37}{3}=12\frac{1}{3}"
+            "\n\n"
+            r"Answer = 12\frac{1}{3}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 6: Find the value of the expression 2x - 3y if x = \frac{1}{3} and y = -\farc{1}{2}.\n"
+            r"Question 6: Find the value of the expression 2x - 3y if x = \frac{1}{3} and y = -\farc{1}{2}.\n"
             "(BECE 1999 Q2b)",
-        answer:
-        r"⦿ Substitute x = \frac{1}{3} and y = -\frac{1}{2}:\n\n"
-        r"2\left(\frac{1}{3}\right)-3\left(-\frac{1}{2}\right)"
-        "\n\n"
+        answer: r"⦿ Substitute x = \frac{1}{3} and y = -\frac{1}{2}:\n\n"
+            r"2\left(\frac{1}{3}\right)-3\left(-\frac{1}{2}\right)"
+            "\n\n"
             "⦁ Multiply the terms:\n"
-        r"2\times\frac{1}{3}=\frac{2}{3}"
-        "\n"
-        r"-3\times\left(-\frac{1}{2}\right)=\frac{3}{2}"
-        "\n\n"
+            r"2\times\frac{1}{3}=\frac{2}{3}"
+            "\n"
+            r"-3\times\left(-\frac{1}{2}\right)=\frac{3}{2}"
+            "\n\n"
             "⦁ Add the fractions using a common denominator of 6:\n"
-        r"\frac{2}{3}+\frac{3}{2}"
-        "\n"
-        r"=\frac{4}{6}+\frac{9}{6}"
-        "\n"
-        r"=\frac{13}{6}"
-        "\n\n"
+            r"\frac{2}{3}+\frac{3}{2}"
+            "\n"
+            r"=\frac{4}{6}+\frac{9}{6}"
+            "\n"
+            r"=\frac{13}{6}"
+            "\n\n"
             "⦁ Convert to a mixed number:\n"
-        r"\frac{13}{6}=2\frac{1}{6}"
-        "\n\n"
-        r"Answer = 2\frac{1}{6}",
+            r"\frac{13}{6}=2\frac{1}{6}"
+            "\n\n"
+            r"Answer = 2\frac{1}{6}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: r"Question 7: Given that s = \frac{n}{2}[2a + (n - 1)d], a = 3, d = 4 and n = 10, find the value of s."
-        "\n"
+        scenario:
+            r"Question 7: Given that s = \frac{n}{2}[2a + (n - 1)d], a = 3, d = 4 and n = 10, find the value of s."
+            "\n"
             "(BECE 2017 Q2c)",
-        answer:
-        "⦿ Substitute a = 3, d = 4 and n = 10:\n\n"
-        r"s=\frac{10}{2}\left[2(3)+(10-1)4\right]"
-        "\n\n"
+        answer: "⦿ Substitute a = 3, d = 4 and n = 10:\n\n"
+            r"s=\frac{10}{2}\left[2(3)+(10-1)4\right]"
+            "\n\n"
             "⦁ Simplify the terms in the brackets:\n"
             "2(3) = 6\n"
             "(10 - 1)4 = 9 × 4 = 36\n"
             "6 + 36 = 42\n\n"
             "⦁ Simplify the multiplier:\n"
-        r"\frac{10}{2}=5"
-        "\n\n"
+            r"\frac{10}{2}=5"
+            "\n\n"
             "⦁ Multiply:\n"
             "s = 5 × 42\n"
             "s = 210\n\n"
@@ -1102,28 +1087,26 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 8: Simplify:\n\n"
+        scenario: "Question 8: Simplify:\n\n"
             r"(8x²y³)(\frac{3}{8}xy⁴)"
-        "\n"
+            "\n"
             "(BECE 2019 Q2c)",
-        answer:
-        "⦿ Expand and group the coefficients and variables:\n\n"
-        r"8\times\frac{3}{8}\times x^2\times x\times y^3\times y^4"
-        "\n\n"
+        answer: "⦿ Expand and group the coefficients and variables:\n\n"
+            r"8\times\frac{3}{8}\times x^2\times x\times y^3\times y^4"
+            "\n\n"
             "⦁ Multiply the coefficients:\n"
-        r"8\times\frac{3}{8}=3"
-        "\n\n"
+            r"8\times\frac{3}{8}=3"
+            "\n\n"
             "⦁ Apply the laws of indices to x:\n"
-        r"x^2\times x=x^{2+1}=x^3"
-        "\n\n"
+            r"x^2\times x=x^{2+1}=x^3"
+            "\n\n"
             "⦁ Apply the laws of indices to y:\n"
-        r"y^3\times y^4=y^{3+4}=y^7"
-        "\n\n"
+            r"y^3\times y^4=y^{3+4}=y^7"
+            "\n\n"
             "⦿ Combine the results:\n"
-        r"3x^3y^7"
-        "\n\n"
-        r"Answer = 3x^3y^7",
+            r"3x^3y^7"
+            "\n\n"
+            r"Answer = 3x^3y^7",
         explanation: "",
       ),
     ],
@@ -1133,36 +1116,33 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: One-fourth of a number is added to one-fifth of the number. If the result is 18, find the number.\n"
+            "Question 1: One-fourth of a number is added to one-fifth of the number. If the result is 18, find the number.\n"
             "(BECE 2002A Q1c)",
-        answer:
-        "⦿ Define the variable:\n"
+        answer: "⦿ Define the variable:\n"
             "⦁ Let the unknown number be x.\n\n"
             "⦿ Translate the statement into an equation:\n"
-        r"\frac{1}{4}x+\frac{1}{5}x=18"
-        "\n\n"
+            r"\frac{1}{4}x+\frac{1}{5}x=18"
+            "\n\n"
             "⦿ Find the LCM of 4 and 5:\n"
             "⦁ LCM = 20\n\n"
             "⦿ Multiply every term by 20 to clear the fractions:\n"
-        r"20\left(\frac{1}{4}x\right)+20\left(\frac{1}{5}x\right)=20(18)"
-        "\n\n"
+            r"20\left(\frac{1}{4}x\right)+20\left(\frac{1}{5}x\right)=20(18)"
+            "\n\n"
             "⦁ Simplify:\n"
             "5x + 4x = 360\n"
             "9x = 360\n\n"
             "⦁ Divide both sides by 9:\n"
-        r"x=\frac{360}{9}=40"
-        "\n\n"
+            r"x=\frac{360}{9}=40"
+            "\n\n"
             "Answer = 40",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 2: If 5(n + 6)/n = 1, find n.\n"
+        scenario: "Question 2: If 5(n + 6)/n = 1, find n.\n"
             "(BECE 2005 Q1d)",
-        answer:
-        "⦿ Write the given equation:\n\n"
-        r"\frac{5(n+6)}{n}=1"
-        "\n\n"
+        answer: "⦿ Write the given equation:\n\n"
+            r"\frac{5(n+6)}{n}=1"
+            "\n\n"
             "⦿ Multiply both sides by n:\n"
             "5(n + 6) = n\n\n"
             "⦿ Expand the bracket:\n"
@@ -1171,21 +1151,20 @@ final Map<String, PracticeModel> becePracticeData = {
             "5n - n = -30\n"
             "4n = -30\n\n"
             "⦿ Divide both sides by 4:\n"
-        r"n=\frac{-30}{4}"
-        "\n"
-        r"n=-\frac{15}{2}"
-        "\n"
-        r"n=-7\frac{1}{2}"
-        "\n\n"
-        r"Answer = -\frac{15}{2} or -7\frac{1}{2}",
+            r"n=\frac{-30}{4}"
+            "\n"
+            r"n=-\frac{15}{2}"
+            "\n"
+            r"n=-7\frac{1}{2}"
+            "\n\n"
+            r"Answer = -\frac{15}{2} or -7\frac{1}{2}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 3: When 12 is added to a certain number and the sum is multiplied by 4, the result is 60. Find the number.\n"
+            "Question 3: When 12 is added to a certain number and the sum is multiplied by 4, the result is 60. Find the number.\n"
             "(BECE 2007 Q6b)",
-        answer:
-        "⦿ Define the variable:\n"
+        answer: "⦿ Define the variable:\n"
             "⦁ Let the unknown number be x.\n\n"
             "⦿ Translate the statement into an equation:\n"
             "4(x + 12) = 60\n\n"
@@ -1195,17 +1174,16 @@ final Map<String, PracticeModel> becePracticeData = {
             "4x = 60 - 48\n"
             "4x = 12\n\n"
             "⦿ Divide both sides by 4:\n"
-        r"x=\frac{12}{4}=3"
-        "\n\n"
+            r"x=\frac{12}{4}=3"
+            "\n\n"
             "Answer = 3",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 4: The sum of two numbers is 81. If the second number is twice the first, find the second number.\n"
+            "Question 4: The sum of two numbers is 81. If the second number is twice the first, find the second number.\n"
             "(BECE 2021 Q3b)",
-        answer:
-        "⦿ Define the variables:\n"
+        answer: "⦿ Define the variables:\n"
             "⦁ Let the first number be x.\n"
             "⦁ The second number is 2x.\n\n"
             "⦿ Form the equation:\n"
@@ -1213,8 +1191,8 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Combine like terms:\n"
             "3x = 81\n\n"
             "⦿ Find the first number:\n"
-        r"x=\frac{81}{3}=27"
-        "\n\n"
+            r"x=\frac{81}{3}=27"
+            "\n\n"
             "⦿ Find the second number:\n"
             "Second number = 2x\n"
             "Second number = 2(27)\n"
@@ -1230,10 +1208,9 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: The following are the angles formed at the centre of a circle: 40°, 60°, 100°, 3x° and 5x°. Find the value of x.\n"
+            "Question 1: The following are the angles formed at the centre of a circle: 40°, 60°, 100°, 3x° and 5x°. Find the value of x.\n"
             "(BECE 2021 Q5b)",
-        answer:
-        "⦿ Identify the geometric principle:\n"
+        answer: "⦿ Identify the geometric principle:\n"
             "⦁ Angles around a point add up to 360°.\n\n"
             "⦿ Form the equation:\n"
             "40 + 60 + 100 + 3x + 5x = 360\n\n"
@@ -1247,8 +1224,8 @@ final Map<String, PracticeModel> becePracticeData = {
             "8x = 360 - 200\n"
             "8x = 160\n\n"
             "⦿ Divide both sides by 8:\n"
-        r"x=\frac{160}{8}=20"
-        "\n\n"
+            r"x=\frac{160}{8}=20"
+            "\n\n"
             "Answer = 20",
         explanation: "",
       ),
@@ -1259,10 +1236,9 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: A plot of land measures 25 m by 12 m. A portion of this plot measuring 8 m by 8 m is used for the cultivation of vegetables. Find the area of the plot not cultivated.\n"
+            "Question 1: A plot of land measures 25 m by 12 m. A portion of this plot measuring 8 m by 8 m is used for the cultivation of vegetables. Find the area of the plot not cultivated.\n"
             "(BECE 2009 Q1b)",
-        answer:
-        "⦿ Calculate the total area of the rectangular plot:\n"
+        answer: "⦿ Calculate the total area of the rectangular plot:\n"
             "⦁ Area = length × width\n"
             "25 × 12 = 300 m²\n\n"
             "⦿ Calculate the cultivated area:\n"
@@ -1275,13 +1251,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: The perimeter of a rectangular plot of land whose length is (2x + 5) m and width (x - 10) m is 80 m. Find the:\n"
+            "Question 2: The perimeter of a rectangular plot of land whose length is (2x + 5) m and width (x - 10) m is 80 m. Find the:\n"
             "(i) value of x;\n"
             "(ii) area of the plot;\n"
             "(iii) cost of weeding the plot at GH¢0.24 per m².\n"
             "(BECE 2011 Q4a)",
-        answer:
-        "⦿ (i) Find the value of x:\n"
+        answer: "⦿ (i) Find the value of x:\n"
             "⦁ Use the perimeter formula:\n"
             "P = 2(length + width)\n\n"
             "80 = 2[(2x + 5) + (x - 10)]\n"
@@ -1302,10 +1277,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 3: The area enclosed by a square garden is 121 m². What is the distance around the garden?\n"
+            "Question 3: The area enclosed by a square garden is 121 m². What is the distance around the garden?\n"
             "(BECE 2012 Q2c)",
-        answer:
-        "⦿ Find the length of one side:\n"
+        answer: "⦿ Find the length of one side:\n"
             "⦁ Area = side²\n"
             "side² = 121\n"
             "side = √121 = 11 m\n\n"
@@ -1317,10 +1291,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 4: The perimeter of a square field is the same as that of a rectangular field. If the length of the rectangular field is 8 km and the width is 5 km, calculate the area of the square field.\n"
+            "Question 4: The perimeter of a square field is the same as that of a rectangular field. If the length of the rectangular field is 8 km and the width is 5 km, calculate the area of the square field.\n"
             "(BECE 2015B Q3a)",
-        answer:
-        "⦿ Find the perimeter of the rectangle:\n"
+        answer: "⦿ Find the perimeter of the rectangle:\n"
             "⦁ Perimeter = 2(length + width)\n"
             "2(8 + 5) = 26 km\n\n"
             "⦿ Find the side of the square:\n"
@@ -1334,13 +1307,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 5: The sides of a triangle are in the ratio 6 : 8 : 10. If the perimeter of the triangle is 288 cm, find the:\n"
+            "Question 5: The sides of a triangle are in the ratio 6 : 8 : 10. If the perimeter of the triangle is 288 cm, find the:\n"
             "(i) longest side;\n"
             "(ii) shortest side;\n"
             "(iii) difference between the longest and the shortest sides.\n"
             "(BECE 2018 Q1c)",
-        answer:
-        "⦿ Let the common ratio be x.\n\n"
+        answer: "⦿ Let the common ratio be x.\n\n"
             "⦁ 6x + 8x + 10x = 288\n"
             "24x = 288\n"
             "x = 12\n\n"
@@ -1357,10 +1329,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 6: Juliet bought 1.756 kg of frozen chicken, 675 g of vegetables and 95 g of corn oil. What is the total weight of the items she bought in kilograms?\n"
+            "Question 6: Juliet bought 1.756 kg of frozen chicken, 675 g of vegetables and 95 g of corn oil. What is the total weight of the items she bought in kilograms?\n"
             "(BECE 2018 Q3c)",
-        answer:
-        "⦿ Convert grams to kilograms:\n"
+        answer: "⦿ Convert grams to kilograms:\n"
             "⦁ 675 g = 0.675 kg\n"
             "⦁ 95 g = 0.095 kg\n\n"
             "⦿ Add all the weights:\n"
@@ -1371,10 +1342,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 7: An aeroplane left the Kotoka International Airport on Wednesday at 7:26 p.m. and reached its destination after nine hours thirty minutes. Find the day and time the aeroplane reached its destination.\n"
+            "Question 7: An aeroplane left the Kotoka International Airport on Wednesday at 7:26 p.m. and reached its destination after nine hours thirty minutes. Find the day and time the aeroplane reached its destination.\n"
             "(BECE 2018 Q6a)",
-        answer:
-        "⦿ Departure:\n"
+        answer: "⦿ Departure:\n"
             "⦁ Wednesday, 7:26 p.m.\n\n"
             "⦿ Add 9 hours:\n"
             "7:26 p.m. + 9 hours = 4:26 a.m. (Thursday)\n\n"
@@ -1386,10 +1356,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 8: The floor of a rectangular hall is of length 9 m and width 8 m. How many tiles of 20 cm by 30 cm can be used to cover the floor completely?\n"
+            "Question 8: The floor of a rectangular hall is of length 9 m and width 8 m. How many tiles of 20 cm by 30 cm can be used to cover the floor completely?\n"
             "(BECE 2021 Q3c)",
-        answer:
-        "⦿ Convert the dimensions of the hall to centimetres:\n"
+        answer: "⦿ Convert the dimensions of the hall to centimetres:\n"
             "⦁ 9 m = 900 cm\n"
             "⦁ 8 m = 800 cm\n\n"
             "⦿ Find the area of the floor:\n"
@@ -1403,19 +1372,18 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        r"Question 9: The perimeter of a rectangular cocoa farm is 497 km. The length of the farm is 2\frac{1}{2} times the width. Find the:"
-        "\n"
+            r"Question 9: The perimeter of a rectangular cocoa farm is 497 km. The length of the farm is 2\frac{1}{2} times the width. Find the:"
+            "\n"
             "(i) width;\n"
             "(ii) length of the farm.\n"
             "(BECE 2022 Q4b)",
-        answer:
-        "⦿ Let the width be w km.\n"
-        r"⦁ Length = \frac{5}{2}w = 2.5w"
-        "\n\n"
+        answer: "⦿ Let the width be w km.\n"
+            r"⦁ Length = \frac{5}{2}w = 2.5w"
+            "\n\n"
             "⦿ Use the perimeter formula:\n"
             "P = 2(length + width)\n\n"
-        r"497 = 2(\frac{5}{2}w + w)"
-        "\n"
+            r"497 = 2(\frac{5}{2}w + w)"
+            "\n"
             "497 = 5w + 2w\n"
             "497 = 7w\n"
             "w = 497 ÷ 7 = 71 km\n\n"
@@ -1433,57 +1401,51 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-        "Question 1: A fair die is thrown once.\n\n"
+        scenario: "Question 1: A fair die is thrown once.\n\n"
             "(a) Write down the set of all possible outcomes.\n"
             "(b) Find the probability of obtaining a multiple of 2.\n"
             "(c) Find the probability of obtaining a prime number.",
-        answer:
-        "⦿ (a) Write down the sample space:\n"
+        answer: "⦿ (a) Write down the sample space:\n"
             "⦁ A fair die has six faces numbered from 1 to 6.\n\n"
             "S = {1, 2, 3, 4, 5, 6}\n"
             "n(S) = 6\n\n"
-
             "⦿ (b) Find the probability of obtaining a multiple of 2:\n"
             "⦁ The multiples of 2 are:\n"
             "M = {2, 4, 6}\n"
             "n(M) = 3\n\n"
-        r"P(M)=\frac{n(M)}{n(S)}"
-        "\n"
-        r"P(M)=\frac{3}{6}=\frac{1}{2}"
-        "\n\n"
-
+            r"P(M)=\frac{n(M)}{n(S)}"
+            "\n"
+            r"P(M)=\frac{3}{6}=\frac{1}{2}"
+            "\n\n"
             "⦿ (c) Find the probability of obtaining a prime number:\n"
             "⦁ The prime numbers are:\n"
             "N = {2, 3, 5}\n"
             "n(N) = 3\n\n"
-        r"P(N)=\frac{n(N)}{n(S)}"
-        "\n"
-        r"P(N)=\frac{3}{6}=\frac{1}{2}"
-        "\n\n"
-
+            r"P(N)=\frac{n(N)}{n(S)}"
+            "\n"
+            r"P(N)=\frac{3}{6}=\frac{1}{2}"
+            "\n\n"
             "(a) Answer = {1, 2, 3, 4, 5, 6}\n"
-        r"(b) Answer = \frac{1}{2}"
-        "\n\n"
-        r"(c) Answer = \frac{1}{2}",
+            r"(b) Answer = \frac{1}{2}"
+            "\n\n"
+            r"(c) Answer = \frac{1}{2}",
         explanation: "",
       ),
     ],
   ),
-
 
   "Math JHS2 s1 ss1 - NUMBER AND NUMERATION SYSTEMS": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: a) List the members of each of the following sets:\n"
+            "Question 1: a) List the members of each of the following sets:\n"
             "LB = {whole numbers from 20 to 30} and D = {factors of 63}. List the members of:\n"
             "(i) B ∩ D\n"
             "(ii) B ∪ D\n"
             "(BECE 1990 Q1a)",
         answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Listing set B\n"
+            "⦿ Step 1: Listing set B\n"
             "The whole numbers starting comprehensively from 20 up to and including 30 are:\n"
             "B = {20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}\n\n"
             "⦿ Step 2: Listing set D\n"
@@ -1499,12 +1461,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: If X = {prime numbers less than 13} and Y = {odd numbers less than 13}:\n"
+            "Question 2: If X = {prime numbers less than 13} and Y = {odd numbers less than 13}:\n"
             "(i) List the members of X and Y.\n"
             "(ii) List the members of X ∩ Y and X ∪ Y.\n"
             "(BECE 1991 Q1a)",
-        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Listing Prime elements of X\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Step 1: Listing Prime elements of X\n"
             "Prime numbers are numbers strictly greater than 1 possessing exactly two factors (1 and itself). Primes below 13 are:\n"
             "X = {2, 3, 5, 7, 11}\n\n"
             "⦿ Step 2: Listing Odd integers of Y\n"
@@ -1520,10 +1482,10 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 3: Given that X = {whole numbers from 4 to 13} and Y = {multiples of 3 between 2 and 20}, find X ∩ Y.\n"
+            "Question 3: Given that X = {whole numbers from 4 to 13} and Y = {multiples of 3 between 2 and 20}, find X ∩ Y.\n"
             "(BECE 2019 Q1a)",
         answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Write down members of set X\n"
+            "⦿ Step 1: Write down members of set X\n"
             "X = {4, 5, 6, 7, 8, 9, 10, 11, 12, 13}\n\n"
             "⦿ Step 2: Write down multiples of 3 for set Y\n"
             "List values produced by multiplying 3 by progressive positive integers within the boundary of 2 and 20:\n"
@@ -1536,12 +1498,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 4: If M = {prime integers between 1 and 11} and N = {factors of 12}, find:\n"
+            "Question 4: If M = {prime integers between 1 and 11} and N = {factors of 12}, find:\n"
             "(i) M ∪ N\n"
             "(ii) M ∩ N\n"
             "(BECE 2020 Q1a)",
         answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Enumerate Set M elements\n"
+            "⦿ Step 1: Enumerate Set M elements\n"
             "Prime elements strictly between boundary limits 1 and 11 are:\n"
             "M = {2, 3, 5, 7}\n\n"
             "⦿ Step 2: Enumerate Set N factors\n"
@@ -1557,7 +1519,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 5: Given that P = {factors of 36} and Q = {factors of 54}:\n"
+            "Question 5: Given that P = {factors of 36} and Q = {factors of 54}:\n"
             "(i) List the members of P and Q.\n"
             "(ii) Find:\n"
             "(α) P ∩ Q\n"
@@ -1565,9 +1527,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "(γ) the Highest Common Factor of 36 and 54.\n"
             "(BECE 2022 Q1a)",
         answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Listing the elements for P and Q\n"
+            "⦿ Step 1: Listing the elements for P and Q\n"
             "Factors of 36: P = {1, 2, 3, 4, 6, 9, 12, 18, 36}\n"
-        "Factors of 54: Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
+            "Factors of 54: Q = {1, 2, 3, 6, 9, 18, 27, 54}\n\n"
             "⦿ Step 2: Extracting intersection list (α)\n"
             "Collect numbers appearing matching in both structural arrays:\n"
             "QAnswer α: P ∩ Q = {1, 2, 3, 6, 9, 18}\n\n"
@@ -1582,13 +1544,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 6: Given the sets A = {multiples of 3 less than 12}, B = {integers between 4 and 8} and C = {4, 5, 7}, find:\n"
+            "Question 6: Given the sets A = {multiples of 3 less than 12}, B = {integers between 4 and 8} and C = {4, 5, 7}, find:\n"
             "(i) A ∩ B\n"
             "(ii) (A ∪ B) ∩ C\n"
             "(iii) (A ∩ B) ∪ C\n"
             "(BECE 2023 Q1a)",
         answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Define base sets correctly via text properties\n"
+            "⦿ Step 1: Define base sets correctly via text properties\n"
             "Multiples of 3 below 12: A = {3, 6, 9}\n"
             "Integers strictly falling inside 4 and 8 boundaries: B = {5, 6, 7}\n"
             "Set C is explicitly given as: C = {4, 5, 7}\n\n"
@@ -1605,29 +1567,28 @@ final Map<String, PracticeModel> becePracticeData = {
             "Answer part 3: (A ∩ B) ∪ C = {4, 5, 6, 7}\n\n",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 7: Given that P = {multiples of 3} and Q = {positive even numbers} are subsets of μ = {x : 1 < x ≤ 20, where x is a counting number}:\n"
+            "Question 7: Given that P = {multiples of 3} and Q = {positive even numbers} are subsets of μ = {x : 1 < x ≤ 20, where x is a counting number}:\n"
             "(i) List the elements in P ∩ Q.\n"
             "(ii) List all the subsets of P ∩ Q.\n"
             "(BECE 2025 Q1a)",
-        answer:"Correct Answer: Detailed Step-by-Step Solution:\n"
-        "⦿ Step 1: Determine universal space μ scope\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "⦿ Step 1: Determine universal space μ scope\n"
             "μ consists of integers from 2 up to 20:\n"
             "μ = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}\n\n"
             "⦿ Step 2: Find sets P and Q boundaries inside μ domain\n"
             "Multiples of 3 inside range: P = {3, 6, 9, 12, 15, 18}\n"
-        "Even values inside range: Q = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}\n\n"
+            "Even values inside range: Q = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20}\n\n"
             "⦿ Step 3: Identify common matching intersecting numbers (i)\n"
             "Values shared across both listings are 6, 12, and 18.\n"
             "Answer i: P ∩ Q = {6, 12, 18}\n\n"
             "⦿ Step 4: Generate mathematical subset permutations list (ii)\n"
             "A set with 3 elements yields exactly 2^3 = 8 complete subsets. They are structured accurately below:"
-        "1. Empty set: {}\n"
-        "2. Single-element subsets: {6}, {12}, {18}\n"
-        "3. Two-element subsets: {6, 12}, {6, 18}, {12, 18}\n"
-        "4. Full self set subset: {6, 12, 18}\n"
+            "1. Empty set: {}\n"
+            "2. Single-element subsets: {6}, {12}, {18}\n"
+            "3. Two-element subsets: {6, 12}, {6, 18}, {12, 18}\n"
+            "4. Full self set subset: {6, 12, 18}\n"
             "Answer ii: Subsets = {{}, {6}, {12}, {18}, {6, 12}, {6, 18}, {12, 18}, {6, 12, 18}}\n\n",
         explanation: "",
       ),
@@ -1638,216 +1599,210 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        r"Question 1: Evaluate \frac{0.07 \times 0.6}{0.014 \times 0.03}, leaving your answer in standard form."
-        "\n"
-        "BECE 2001 Q5b)",
-        answer:
-        "Correct Answer: \n"
+            r"Question 1: Evaluate \frac{0.07 \times 0.6}{0.014 \times 0.03}, leaving your answer in standard form."
+            "\n"
+            "BECE 2001 Q5b)",
+        answer: "Correct Answer: \n"
             "⦿ First, convert all decimal numbers into standard fractions or scientific notation forms to make cancellation straightforward:\n"
-        r"0.07 = 7 \times 10^{-2}"
-        "\n"
-        r"0.6 = 6 \times 10^{-1}"
-        "\n"
-        r"0.014 = 14 \times 10^{-3}"
-        "\n"
-        r"0.03 = 3 \times 10^{-2}"
-        "\n\n"
+            r"0.07 = 7 \times 10^{-2}"
+            "\n"
+            r"0.6 = 6 \times 10^{-1}"
+            "\n"
+            r"0.014 = 14 \times 10^{-3}"
+            "\n"
+            r"0.03 = 3 \times 10^{-2}"
+            "\n\n"
             "⦿ Substitute these values into the original expression:\n"
-        r"\frac{(7 \times 10^{-2}) \times (6 \times 10^{-1})}{(14 \times 10^{-3}) \times (3 \times 10^{-2})}"
-        "\n\n"
+            r"\frac{(7 \times 10^{-2}) \times (6 \times 10^{-1})}{(14 \times 10^{-3}) \times (3 \times 10^{-2})}"
+            "\n\n"
             "⦿ Group the whole numbers together and the powers of 10 together:\n"
-        r"\frac{7 \times 6}{14 \times 3} \times \frac{10^{-2} \times 10^{-1}}{10^{-3} \times 10^{-2}}"
-        "\n\n"
+            r"\frac{7 \times 6}{14 \times 3} \times \frac{10^{-2} \times 10^{-1}}{10^{-3} \times 10^{-2}}"
+            "\n\n"
             "⦿ Simplify the whole number part:\n"
-        r"\frac{42}{42} = 1"
-        "\n\n"
+            r"\frac{42}{42} = 1"
+            "\n\n"
             "⦿ Simplify the index parts by adding the exponents in the numerator and the denominator:\n"
-        "Numerator: 10^{-2+(-1)} = 10^{-3}"
-        "\n"
-        r"Denominator: 10^{-3+(-2)} = 10^{-5}"
-        "\n\n"
-        r"⦿ Apply the division law of indices (10^{-3} \div 10^{-5} = 10^{-3-(-5)}):"
-        "\n"
-        r"10^{-3+5} = 10^2"
-        "\n\n"
+            "Numerator: 10^{-2+(-1)} = 10^{-3}"
+            "\n"
+            r"Denominator: 10^{-3+(-2)} = 10^{-5}"
+            "\n\n"
+            r"⦿ Apply the division law of indices (10^{-3} \div 10^{-5} = 10^{-3-(-5)}):"
+            "\n"
+            r"10^{-3+5} = 10^2"
+            "\n\n"
             "⦿ Combine the results to state the final answer clearly in standard form:\n"
-        r"1.0 \times 10^2",
+            r"1.0 \times 10^2",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 2: Simplify \frac{6.4 \times 0.25 \times 16}{0.8 \times 0.5} leaving your answer in standard form."
-        "\n"
+            r"Question 2: Simplify \frac{6.4 \times 0.25 \times 16}{0.8 \times 0.5} leaving your answer in standard form."
+            "\n"
             "(BECE 2003 Q2b)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Convert the decimal components into standard scientific fractions to manage values reliably:\n"
-        r"6.4 = 64 \times 10^{-1}"
-        "\n"
-        r"0.25 = 25 \times 10^{-2}"
-        "\n"
-        r"0.8 = 8 \times 10^{-1}"
-        "\n"
-        r"0.5 = 5 \times 10^{-1}"
-        "\n\n"
+            r"6.4 = 64 \times 10^{-1}"
+            "\n"
+            r"0.25 = 25 \times 10^{-2}"
+            "\n"
+            r"0.8 = 8 \times 10^{-1}"
+            "\n"
+            r"0.5 = 5 \times 10^{-1}"
+            "\n\n"
             "⦿ Rewrite the expression with these expanded powers:\n"
-        r"\frac{64 \times 10^{-1} \times 25 \times 10^{-2} \times 16}{8 \times 10^{-1} \times 5 \times 10^{-1}}"
-        "\n\n"
+            r"\frac{64 \times 10^{-1} \times 25 \times 10^{-2} \times 16}{8 \times 10^{-1} \times 5 \times 10^{-1}}"
+            "\n\n"
             "⦿ Group the numbers and the powers of 10 separately:\n"
-        r"\frac{64 \times 25 \times 16}{8 \times 5} \times \frac{10^{-1} \times 10^{-2}}{10^{-1} \times 10^{-1}}"
-        "\n\n"
+            r"\frac{64 \times 25 \times 16}{8 \times 5} \times \frac{10^{-1} \times 10^{-2}}{10^{-1} \times 10^{-1}}"
+            "\n\n"
             "⦿ Perform direct calculations and cancellations on the whole numbers:\n"
-        r"\frac{64}{8} = 8"
-        "\n\n"
-        r"\frac{25}{5} = 5"
-        "\n"
-        r"This leaves 8 \times 5 \times 16 = 40 \times 16 = 640"
-        "\n\n"
+            r"\frac{64}{8} = 8"
+            "\n\n"
+            r"\frac{25}{5} = 5"
+            "\n"
+            r"This leaves 8 \times 5 \times 16 = 40 \times 16 = 640"
+            "\n\n"
             "⦿ Simplify the exponent components:\n"
-        r"Numerator index: 10^{-1+(-2)} = 10^{-3}"
-        "\n"
-        r"Denominator index: 10^{-1+(-1)} = 10^{-2}"
-        "\n"
-        r"Combined index using subtraction rules: 10^{-3-(-2)} = 10^{-3+2} = 10^{-1}"
-        "\n\n"
+            r"Numerator index: 10^{-1+(-2)} = 10^{-3}"
+            "\n"
+            r"Denominator index: 10^{-1+(-1)} = 10^{-2}"
+            "\n"
+            r"Combined index using subtraction rules: 10^{-3-(-2)} = 10^{-3+2} = 10^{-1}"
+            "\n\n"
             "⦿ Combine the simplified parts:\n"
-        r"640 \times 10^{-1} = 64"
-        "\n\n"
+            r"640 \times 10^{-1} = 64"
+            "\n\n"
             "⦿ Convert the final integer result into standard form layout:\n"
-        r"6.4 \times 10^1",
+            r"6.4 \times 10^1",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 3: Evaluate \frac{2^7 \times 3^4 \times 5^3}{2^3 \times 3^2 \times 5^2}, leaving your answer in standard form. "
-        "\n"
+            r"Question 3: Evaluate \frac{2^7 \times 3^4 \times 5^3}{2^3 \times 3^2 \times 5^2}, leaving your answer in standard form. "
+            "\n"
             "(BECE 2010 Q3a)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
-        r"⦿ Apply the quotient law of indices (\frac{a^m}{a^n} = a^{m-n}) to each base variable individually:"
-        "\n"
-        r"For base 2: 2^{7-3} = 2^4"
-        "\n"
-        r"For base 3: 3^{4-2} = 3^2"
-        "\n"
-        r"For base 5: 5^{3-2} = 5^1"
-        "\n\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+            r"⦿ Apply the quotient law of indices (\frac{a^m}{a^n} = a^{m-n}) to each base variable individually:"
+            "\n"
+            r"For base 2: 2^{7-3} = 2^4"
+            "\n"
+            r"For base 3: 3^{4-2} = 3^2"
+            "\n"
+            r"For base 5: 5^{3-2} = 5^1"
+            "\n\n"
             "⦿ Set up the remaining basic multiplication problem:\n"
-        r"2^4 \times 3^2 \times 5^1"
-        "\n\n"
+            r"2^4 \times 3^2 \times 5^1"
+            "\n\n"
             "⦿ Calculate the numerical values of each individual power component:\n"
-        r"2^4 = 16"
-        "\n"
-        r"3^2 = 9"
-        "\n"
-        r"5^1 = 5"
-        "\n\n"
+            r"2^4 = 16"
+            "\n"
+            r"3^2 = 9"
+            "\n"
+            r"5^1 = 5"
+            "\n\n"
             "⦿ Multiply the evaluated values together step-by-step:\n"
-        r"16 \times 9 = 144"
-        "\n"
-        r"144 \times 5 = 720"
-        "\n\n"
+            r"16 \times 9 = 144"
+            "\n"
+            r"144 \times 5 = 720"
+            "\n\n"
             "⦿ Convert the final integer value into clean, scientific standard form structure:\n"
-        r"7.20 \times 10^2",
+            r"7.20 \times 10^2",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 4: Evaluate \frac{0.035 \times 1.02}{0.00015}, leaving the answer in standard form."
-        "\n"
+            r"Question 4: Evaluate \frac{0.035 \times 1.02}{0.00015}, leaving the answer in standard form."
+            "\n"
             "(BECE 2012 Q1a)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Convert each decimal cleanly into integer values multiplied by matching powers of 10:\n"
-        r"0.035 = 35 \times 10^{-3}"
-        "\n"
-        r"1.02 = 102 \times 10^{-2}"
-        "\n"
-        r"0.00015 = 15 \times 10^{-5}"
-        "\n\n"
+            r"0.035 = 35 \times 10^{-3}"
+            "\n"
+            r"1.02 = 102 \times 10^{-2}"
+            "\n"
+            r"0.00015 = 15 \times 10^{-5}"
+            "\n\n"
             "⦿ Substitute these configurations directly into the equation:\n"
-        r"\frac{35 \times 10^{-3} \times 102 \times 10^{-2}}{15 \times 10^{-5}}"
-        "\n\n"
+            r"\frac{35 \times 10^{-3} \times 102 \times 10^{-2}}{15 \times 10^{-5}}"
+            "\n\n"
             "⦿ Reorganise the expression to process numbers and indices separately:\n"
-        r"\frac{35 \times 102}{15} \times \frac{10^{-3} \times 10^{-2}}{10^{-5}}"
-        "\n\n"
+            r"\frac{35 \times 102}{15} \times \frac{10^{-3} \times 10^{-2}}{10^{-5}}"
+            "\n\n"
             "⦿ Simplify the numerical fraction by dividing both 35 and 15 by their common factor of 5:\n"
-        r"\frac{35}{5} = 7"
-        "\n"
-        r"\frac{15}{5} = 3"
-        "\n"
-        r"This yields \frac{7 \times 102}{3}"
-        "\n\n"
-        r"⦿ Complete the remaining numerical division by calculating \frac{102}{3}:"
-        "\n"
-        r"\frac{102}{3} = 34"
-        "\n"
-        r"Multiply by the remaining factor: 7 \times 34 = 238"
-        "\n\n"
+            r"\frac{35}{5} = 7"
+            "\n"
+            r"\frac{15}{5} = 3"
+            "\n"
+            r"This yields \frac{7 \times 102}{3}"
+            "\n\n"
+            r"⦿ Complete the remaining numerical division by calculating \frac{102}{3}:"
+            "\n"
+            r"\frac{102}{3} = 34"
+            "\n"
+            r"Multiply by the remaining factor: 7 \times 34 = 238"
+            "\n\n"
             "⦿ Combine and evaluate the total indices component using fundamental index rules:\n"
-        r"Numerator index: 10^{-3+(-2)} = 10^{-5}"
-        "\n"
-        r"Denominator index: 10^{-5}"
-        "\n"
-        r"Division calculation: \frac{10^{-5}}{10^{-5}} = 10^{-5-(-5)} = 10^0 = 1"
-        "\n\n"
+            r"Numerator index: 10^{-3+(-2)} = 10^{-5}"
+            "\n"
+            r"Denominator index: 10^{-5}"
+            "\n"
+            r"Division calculation: \frac{10^{-5}}{10^{-5}} = 10^{-5-(-5)} = 10^0 = 1"
+            "\n\n"
             "⦿ Multiply the numeric result with the index evaluation:\n"
-        r"238 \times 1 = 238"
-        "\n\n"
+            r"238 \times 1 = 238"
+            "\n\n"
             "⦿ Shift the decimal position to display the final answer in scientific standard form:\n"
-        r"2.38 \times 10^2",
+            r"2.38 \times 10^2",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 5: Evaluate \frac{4.56 \times 3.6}{0.12} and leave your answer in standard form."
-        "\n"
+            r"Question 5: Evaluate \frac{4.56 \times 3.6}{0.12} and leave your answer in standard form."
+            "\n"
             "(BECE 2014 Q1c)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Restructure the decimal values into easier integer power formats:\n"
-        r"4.56 = 456 \times 10^{-2}"
-        "\n"
-        r"3.6 = 36 \times 10^{-1}"
-        "\n"
-        r"0.12 = 12 \times 10^{-2}"
-        "\n\n"
+            r"4.56 = 456 \times 10^{-2}"
+            "\n"
+            r"3.6 = 36 \times 10^{-1}"
+            "\n"
+            r"0.12 = 12 \times 10^{-2}"
+            "\n\n"
             "⦿ Set up the calculation with the structured parts:\n"
-        r"\frac{456 \times 10^{-2} \times 36 \times 10^{-1}}{12 \times 10^{-2}}"
-        "\n\n"
+            r"\frac{456 \times 10^{-2} \times 36 \times 10^{-1}}{12 \times 10^{-2}}"
+            "\n\n"
             "⦿ Isolate the coefficients away from the base-10 indices:\n"
-        r"\frac{456 \times 36}{12} \times \frac{10^{-2} \times 10^{-1}}{10^{-2}}"
-        "\n\n"
+            r"\frac{456 \times 36}{12} \times \frac{10^{-2} \times 10^{-1}}{10^{-2}}"
+            "\n\n"
             "⦿ Divide 36 by 12 inside the coefficient grouping to simplify the math:\n"
-        r"\frac{36}{12} = 3"
-        "\n"
-        r"Multiply the remaining values: 456 \times 3 = 1368"
-        "\n\n"
+            r"\frac{36}{12} = 3"
+            "\n"
+            r"Multiply the remaining values: 456 \times 3 = 1368"
+            "\n\n"
             "⦿ Resolve the index powers using addition and subtraction rules:\n"
-        r"Cancel out the identical 10^{-2} terms present on both sides of the fraction."
-        "\n"
-        r"This leaves behind a single index multiplier value of 10^{-1}."
-        "\n\n"
+            r"Cancel out the identical 10^{-2} terms present on both sides of the fraction."
+            "\n"
+            r"This leaves behind a single index multiplier value of 10^{-1}."
+            "\n\n"
             "⦿ Bring both pieces back together:\n"
-        r"1368 \times 10^{-1} = 136.8"
-        "\n\n"
+            r"1368 \times 10^{-1} = 136.8"
+            "\n\n"
             "⦿ Format the final output to follow standard scientific documentation criteria:\n"
-        r"1.368 \times 10^2",
+            r"1.368 \times 10^2",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 6: Find the difference between the product of 2.5 and 7.5 and the sum of 2.75 and 9.55.\n"
+            "Question 6: Find the difference between the product of 2.5 and 7.5 and the sum of 2.75 and 9.55.\n"
             " (BECE 2015A Q1a)"
             "",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
-        r"⦿ First, calculate the product of the first pair of numbers (2.5 \times 7.5):"
-        "\n"
-        r"Write out the multiplication: 2.5 \times 7.5 = 18.75"
-        "\n\n"
-        r"⦿ Next, determine the sum of the second pair of numbers (2.75 + 9.55):"
-        "\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
+            r"⦿ First, calculate the product of the first pair of numbers (2.5 \times 7.5):"
+            "\n"
+            r"Write out the multiplication: 2.5 \times 7.5 = 18.75"
+            "\n\n"
+            r"⦿ Next, determine the sum of the second pair of numbers (2.75 + 9.55):"
+            "\n"
             "Align decimals and add: 2.75 + 9.55 = 12.30\n\n"
             "⦿ Finally, subtract the calculated sum value from the initial product value to find the total difference:\n"
             "18.75 - 12.30 = 6.45",
@@ -1855,86 +1810,80 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        r"Question 7: Simplify \frac{0.084 \times 0.81}{0.027 \times 0.04}, leaving the answer in standard form. "
-        "\n"
-        "(BECE 2018 Q3a)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            r"Question 7: Simplify \frac{0.084 \times 0.81}{0.027 \times 0.04}, leaving the answer in standard form. "
+            "\n"
+            "(BECE 2018 Q3a)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Convert all individual decimal components into integers matched with appropriate power values:\n"
-        r"0.084 = 84 \times 10^{-3}"
-        "\n"
-        r"0.81 = 81 \times 10^{-2}"
-        "\n"
-        r"0.027 = 27 \times 10^{-3}"
-        "\n"
-        r"0.04 = 4 \times 10^{-2}"
-        "\n\n"
+            r"0.084 = 84 \times 10^{-3}"
+            "\n"
+            r"0.81 = 81 \times 10^{-2}"
+            "\n"
+            r"0.027 = 27 \times 10^{-3}"
+            "\n"
+            r"0.04 = 4 \times 10^{-2}"
+            "\n\n"
             "⦿ Reassemble the fraction with these structured component parts:\n"
-        r"\frac{84 \times 10^{-3} \times 81 \times 10^{-2}}{27 \times 10^{-3} \times 4 \times 10^{-2}}"
-        "\n\n"
+            r"\frac{84 \times 10^{-3} \times 81 \times 10^{-2}}{27 \times 10^{-3} \times 4 \times 10^{-2}}"
+            "\n\n"
             "⦿ Isolate the whole numbers away from the matching index power sets:\n"
-        r"\frac{84 \times 81}{27 \times 4} \times \frac{10^{-3} \times 10^{-2}}{10^{-3} \times 10^{-2}}"
-        "\n\n"
+            r"\frac{84 \times 81}{27 \times 4} \times \frac{10^{-3} \times 10^{-2}}{10^{-3} \times 10^{-2}}"
+            "\n\n"
             "⦿ Simplify the numbers through direct division and common factors:\n"
-        r"\frac{81}{27} = 3"
-        "\n\n"
-        r"\frac{84}{4} = 21"
-        "\n"
-        r"Multiply remaining terms: 21 \times 3 = 63"
-        "\n\n"
+            r"\frac{81}{27} = 3"
+            "\n\n"
+            r"\frac{84}{4} = 21"
+            "\n"
+            r"Multiply remaining terms: 21 \times 3 = 63"
+            "\n\n"
             "⦿ Evaluate the matching exponent blocks:\n"
-        r"Since the numerator index expression (10^{-3} \times 10^{-2}) matches the denominator index expression perfectly, they cancel out to leave 10^0 = 1."
-        "\n\n"
+            r"Since the numerator index expression (10^{-3} \times 10^{-2}) matches the denominator index expression perfectly, they cancel out to leave 10^0 = 1."
+            "\n\n"
             "⦿ Combine the remaining components:\n"
-        r"63 \times 1 = 63"
-        "\n\n"
+            r"63 \times 1 = 63"
+            "\n\n"
             "⦿ Adjust the spacing layout format to meet standard scientific requirements:\n"
-        r"6.3 \times 10^1",
+            r"6.3 \times 10^1",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        r"Question 8: Simplify: 32 \times 8 \times 4 \times 2, leaving the answer in the form 2^n. "
-        "\n"
+            r"Question 8: Simplify: 32 \times 8 \times 4 \times 2, leaving the answer in the form 2^n. "
+            "\n"
             "(BECE 2019 Q5b)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Express every integer value base in terms of prime base 2 components:\n"
-        r"32 = 2^5"
-        "\n"
-        r"8 = 2^3"
-        "\n"
-        r"4 = 2^2"
-        "\n"
-        r"2 = 2^1"
-        "\n\n"
+            r"32 = 2^5"
+            "\n"
+            r"8 = 2^3"
+            "\n"
+            r"4 = 2^2"
+            "\n"
+            r"2 = 2^1"
+            "\n\n"
             "⦿ Rewrite the initial multiplication challenge using these matching base indices:\n"
-        r"2^5 \times 2^3 \times 2^2 \times 2^1"
-        "\n\n"
-        r"⦿ Apply the multiplication law of indices by adding all exponent numbers together (2^{m+n+p+q}):"
-        "\n"
-        r"2^{5+3+2+1}"
-        "\n\n"
+            r"2^5 \times 2^3 \times 2^2 \times 2^1"
+            "\n\n"
+            r"⦿ Apply the multiplication law of indices by adding all exponent numbers together (2^{m+n+p+q}):"
+            "\n"
+            r"2^{5+3+2+1}"
+            "\n\n"
             "⦿ Calculate the total sum value inside the exponent position:\n"
-        r"2^{11}",
+            r"2^{11}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        r"Question 9: Simplify: 45 \div 3 + 2 \times 8 - 12 + 42. "
-        "\n"
+        scenario: r"Question 9: Simplify: 45 \div 3 + 2 \times 8 - 12 + 42. "
+            "\n"
             "(BECE 2020 Q1b)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Apply order of operations rule hierarchy (BODMAS / PEMDAS) systematically across the line:\n"
             "⦿ Step 1: Perform the division operation first:\n"
-        r"45 \div 3 = 15"
-        "\n\n"
+            r"45 \div 3 = 15"
+            "\n\n"
             "⦿ Step 2: Complete the multiplication step next:\n"
-        r"2 \times 8 = 16"
-        "\n\n"
+            r"2 \times 8 = 16"
+            "\n\n"
             "⦿ Update the line with these processed operational values:\n"
             "15 + 16 - 12 + 42\n\n"
             "⦿ Step 3: Work through the remaining addition steps:\n"
@@ -1944,45 +1893,40 @@ final Map<String, PracticeModel> becePracticeData = {
             "73 - 12 = 61",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 10: Multiply 0.03858 by 0.03, leaving the answer in standard form."
+            "Question 10: Multiply 0.03858 by 0.03, leaving the answer in standard form."
             "\n"
-            "(BECE 2020 Q4b)"
-            ,
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "(BECE 2020 Q4b)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Isolate the base decimal values into whole scientific component sets:\n"
-        r"0.03858 = 3858 \times 10^{-5}"
-        "\n"
-        r"0.03 = 3 \times 10^{-2}"
-        "\n\n"
+            r"0.03858 = 3858 \times 10^{-5}"
+            "\n"
+            r"0.03 = 3 \times 10^{-2}"
+            "\n\n"
             "⦿ Set up the calculation expression:\n"
-        r"(3858 \times 10^{-5}) \times (3 \times 10^{-2})"
-        "\n\n"
+            r"(3858 \times 10^{-5}) \times (3 \times 10^{-2})"
+            "\n\n"
             "⦿ Multiply the core integer figures together first:\n"
-        r"3858 \times 3 = 11574"
-        "\n\n"
-        r"⦿ Combine the exponent index values using addition rules (10^{-5+(-2)}):"
-        "\n"
-        r"10^{-7}"
-        "\n\n"
+            r"3858 \times 3 = 11574"
+            "\n\n"
+            r"⦿ Combine the exponent index values using addition rules (10^{-5+(-2)}):"
+            "\n"
+            r"10^{-7}"
+            "\n\n"
             "⦿ Bring both evaluated pieces together into one value:\n"
-        r"11574 \times 10^{-7}"
-        "\n\n"
+            r"11574 \times 10^{-7}"
+            "\n\n"
             "⦿ Shift the decimal position to convert this value into standard form format:\n"
-        r"1.1574 \times 10^4 \times 10^{-7} = 1.1574 \times 10^{-3}",
+            r"1.1574 \times 10^4 \times 10^{-7} = 1.1574 \times 10^{-3}",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 11: List the integers within the interval 7 < x ≤ 14."
+            "Question 11: List the integers within the interval 7 < x ≤ 14."
             "\n"
             "(BECE 2020 Q6b)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Identify the boundary conditions specified by the mathematical inequality operators:\n"
             "The lower boundary operator (<) specifies that 7 is excluded.\n"
             "The upper boundary operator (≤) specifies that 14 is included.\n\n"
@@ -1990,127 +1934,118 @@ final Map<String, PracticeModel> becePracticeData = {
             "{8, 9, 10, 11, 12, 13, 14}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        r"Question 12: Simplify: 2^6 \div (2^2 \times 2^1) + 2^5.""\n"
-            "(BECE 2021 Q1c)"
-       ,
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        scenario: r"Question 12: Simplify: 2^6 \div (2^2 \times 2^1) + 2^5."
+            "\n"
+            "(BECE 2021 Q1c)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Process the inside of the parentheses grouping first by applying matching index addition rules:\n"
-        r"2^2 \times 2^1 = 2^{2+1} = 2^3"
-        "\n\n"
+            r"2^2 \times 2^1 = 2^{2+1} = 2^3"
+            "\n\n"
             "⦿ Update the statement expression layout:\n"
-        r"2^6 \div 2^3 + 2^5"
-        "\n\n"
+            r"2^6 \div 2^3 + 2^5"
+            "\n\n"
             "⦿ Execute the division step next using exponent subtraction index rules:\n"
-        r"2^6 \div 2^3 = 2^{6-3} = 2^3"
-        "\n\n"
+            r"2^6 \div 2^3 = 2^{6-3} = 2^3"
+            "\n\n"
             "⦿ Update the expression with this value:\n"
-        r"2^3 + 2^5"
-        "\n\n"
+            r"2^3 + 2^5"
+            "\n\n"
             "⦿ Calculate the values of these base components to complete the final addition steps:\n"
-        r"2^3 = 8"
-        "\n"
-        r"2^5 = 32"
-        "\n\n"
+            r"2^3 = 8"
+            "\n"
+            r"2^5 = 32"
+            "\n\n"
             "⦿ Add the final integers together:\n"
             "8 + 32 = 40",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        r"Question 13: Simplify: 15(4 - 6) \times 49 \div 7.""\n"
+        scenario: r"Question 13: Simplify: 15(4 - 6) \times 49 \div 7."
+            "\n"
             "(BECE 2023 Q2a)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Follow standard operational order rules (BODMAS) systematically across the terms:\n"
             "⦿ Step 1: Simplify the value inside the parentheses first:\n"
             "4 - 6 = -2\n\n"
             "⦿ Update the expression:\n"
-        r"15(-2) \times 49 \div 7"
-        "\n\n"
+            r"15(-2) \times 49 \div 7"
+            "\n\n"
             "⦿ Step 2: Carry out the multiplication on the left:\n"
-        r"15 \times (-2) = -30"
-        "\n\n"
+            r"15 \times (-2) = -30"
+            "\n\n"
             "⦿ Update the expression:\n"
-        r"-30 \times 49 \div 7"
-        "\n\n"
+            r"-30 \times 49 \div 7"
+            "\n\n"
             "⦿ Step 3: Run the division operation on the right side:\n"
-        r"49 \div 7 = 7"
-        "\n\n"
+            r"49 \div 7 = 7"
+            "\n\n"
             "⦿ Step 4: Execute the final multiplication step to finish:\n"
-        r"-30 \times 7 = -210",
+            r"-30 \times 7 = -210",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        r"Question 14: (i) Express 8 \times 32 \times 4 \times 2 in the form 2^m."
-        "\n"
+            r"Question 14: (i) Express 8 \times 32 \times 4 \times 2 in the form 2^m."
+            "\n"
             "(ii) Using your answer in (i), state the value of m.\n"
-        "(BECE 2023 Q3a)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+            "(BECE 2023 Q3a)",
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ (i) Convert each individual base value into prime base 2 indices format:\n"
-        r"8 = 2^3"
-        "\n"
-        r"32 = 2^5"
-        "\n"
-        r"4 = 2^2"
-        "\n"
-        r"2 = 2^1"
-        "\n\n"
+            r"8 = 2^3"
+            "\n"
+            r"32 = 2^5"
+            "\n"
+            r"4 = 2^2"
+            "\n"
+            r"2 = 2^1"
+            "\n\n"
             "⦿ Rewrite the initial product chain using these indices values:\n"
-        r"2^3 \times 2^5 \times 2^2 \times 2^1"
-        "\n\n"
-        r"⦿ Apply the index addition multiplication rule across the entire set (2^{3+5+2+1}):"
-        "\n"
-        r"2^{11}"
-        "\n\n"
-        r"⦿ (ii) Match this final index output expression directly against the goal form format (2^m):"
-        "\n"
-        r"2^{11} = 2^m \implies m = 11",
+            r"2^3 \times 2^5 \times 2^2 \times 2^1"
+            "\n\n"
+            r"⦿ Apply the index addition multiplication rule across the entire set (2^{3+5+2+1}):"
+            "\n"
+            r"2^{11}"
+            "\n\n"
+            r"⦿ (ii) Match this final index output expression directly against the goal form format (2^m):"
+            "\n"
+            r"2^{11} = 2^m \implies m = 11",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        r"Question 15: Evaluate \frac{4000 \times 0.35}{0.05}, leaving the answer in standard form."
-        "\n"
+            r"Question 15: Evaluate \frac{4000 \times 0.35}{0.05}, leaving the answer in standard form."
+            "\n"
             "(BECE 2025 Q2a)",
-        answer:
-        "Correct Answer: Detailed Step-by-Step Solution:\n"
+        answer: "Correct Answer: Detailed Step-by-Step Solution:\n"
             "⦿ Reorganise the individual components into clean scientific integer styles:\n"
-        r"4000 = 4 \times 10^3"
-        "\n"
-        r"0.35 = 35 \times 10^{-2}"
-        "\n"
-        r"0.05 = 5 \times 10^{-2}"
-        "\n\n"
+            r"4000 = 4 \times 10^3"
+            "\n"
+            r"0.35 = 35 \times 10^{-2}"
+            "\n"
+            r"0.05 = 5 \times 10^{-2}"
+            "\n\n"
             "⦿ Rebuild the fraction format template using these values:\n"
-        r"\frac{4 \times 10^3 \times 35 \times 10^{-2}}{5 \times 10^{-2}}"
-        "\n\n"
+            r"\frac{4 \times 10^3 \times 35 \times 10^{-2}}{5 \times 10^{-2}}"
+            "\n\n"
             "⦿ Isolate the numerical components from the exponent factors:\n"
-        r"\frac{4 \times 35}{5} \times \frac{10^3 \times 10^{-2}}{10^{-2}}"
-        "\n\n"
+            r"\frac{4 \times 35}{5} \times \frac{10^3 \times 10^{-2}}{10^{-2}}"
+            "\n\n"
             "⦿ Simplify the integers group by dividing 35 by 5:\n"
-        r"\frac{35}{5} = 7"
-        "\n"
-        r"Multiply the remaining terms: 4 \times 7 = 28"
-        "\n\n"
+            r"\frac{35}{5} = 7"
+            "\n"
+            r"Multiply the remaining terms: 4 \times 7 = 28"
+            "\n\n"
             "⦿ Resolve the index powers using addition and subtraction rules:\n"
-        r"Cancel out the identical 10^{-2} terms from the top and bottom sections."
-        "\n"
-        r"This leaves behind the index power component value 10^3."
-        "\n\n"
+            r"Cancel out the identical 10^{-2} terms from the top and bottom sections."
+            "\n"
+            r"This leaves behind the index power component value 10^3."
+            "\n\n"
             "⦿ Combine the evaluated components together:\n"
-        r"28 \times 10^3"
-        "\n\n"
+            r"28 \times 10^3"
+            "\n\n"
             "⦿ Shift the decimal point position to finish formatting the final answer into standard form layout:\n"
-        r"2.8 \times 10^1 \times 10^3 = 2.8 \times 10^4",
+            r"2.8 \times 10^1 \times 10^3 = 2.8 \times 10^4",
         explanation: "",
       ),
     ],
@@ -2119,192 +2054,171 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-        "Question 1: "
+        scenario: "Question 1: "
             "Olu bought a radio for φ65,000.00. After one year the radio was valued at 75% of the cost price.\n"
             "(a) What was the value of the radio after one year?\n"
             "(b) If he sold the radio for φ55,700.00, calculate his profit or loss over the cost price.\n"
             "(BECE 1993 Q1)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Identify cost baseline): State the original cost price of the radio, which is φ65,000.00.\n\n"
             "⦿ Point 2 (State percentage drop value): Identify that the new value is 75% of the initial cost price.\n\n"
             "⦿ Point 3 (Calculate absolute value): Set up the value product relation:\n"
-        r"\text{Value} = \frac{75}{100} \times \phi65,000.00 = 75 \times \phi650.00 = \phi48,750.00"
-        "\n\n"
+            r"\text{Value} = \frac{75}{100} \times \phi65,000.00 = 75 \times \phi650.00 = \phi48,750.00"
+            "\n\n"
             "⦿ Point 4 (Compare selling metrics): State the subsequent selling price of φ55,700.00 and compare it with the original cost price (φ65,000.00). Because the selling price is less than the cost price, a net financial loss occurred relative to the initial cost.\n\n"
             "⦿ Point 5 (Deduct for final loss outcome): Calculate the absolute loss by subtracting the selling price from the cost price:\n"
-        r"\text{Loss} = \phi65,000.00 - \phi55,700.00 = \phi9,250.00",
+            r"\text{Loss} = \phi65,000.00 - \phi55,700.00 = \phi9,250.00",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 2\n"
+        scenario: "Question 2\n"
             "Mansah earns a salary of φ10,000.00 per month as a sales girl. In addition to the salary, she is given a commission of 1.5% of whatever sales she makes in a month. In January, this year, she makes sales of φ7,500,000.00. What is the total amount Mansah earned at the end of January?\n"
             "(BECE 1995 Q3a)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Establish base figures): Note the fixed monthly basic salary parameter (φ10,000.00) and the variable incentive commission rate (1.5%).\n\n"
             "⦿ Point 2 (Note seasonal reference activity): State the volume of sales recorded by Mansah during January, which equals φ7,500,000.00.\n\n"
             "⦿ Point 3 (Evaluate total commission accrued): Compute the specific commission earned from the volume of sales:\n"
-        r"\text{Commission} = \frac{1.5}{100} \times \phi7,500,000.00 = 1.5 \times \phi75,000.00 = \phi112,500.00"
-        "\n\n"
+            r"\text{Commission} = \frac{1.5}{100} \times \phi7,500,000.00 = 1.5 \times \phi75,000.00 = \phi112,500.00"
+            "\n\n"
             "⦿ Point 4 (Consolidate total compensation package): Add the fixed monthly basic salary to the calculated commission components to compute the absolute month-end compensation:\n"
-        r"\text{Total Earnings} = \phi10,000.00 + \phi112,500.00 = \phi122,500.00",
+            r"\text{Total Earnings} = \phi10,000.00 + \phi112,500.00 = \phi122,500.00",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 3\n"
+        scenario: "Question 3\n"
             "A woman sold an article for φ200,000.00 and made a profit of 25%. Find the cost price of the article.\n"
             "(BECE 1998 Q3b)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Set variable definitions): Note the final transaction selling price (φ200,000.00) alongside the declared profit margin (25%).\n\n"
             "⦿ Point 2 (Formulate proportion equations): Frame the cost price as the 100% baseline value. Express the total transaction selling price as a relative percentage value:\n"
-        r"\text{Selling Price Percentage} = 100\% + 25\% = 125\%"
-        "\n\n"
+            r"\text{Selling Price Percentage} = 100\% + 25\% = 125\%"
+            "\n\n"
             "⦿ Point 3 (Equate relative value constants): Relate the transaction value directly to its percentage representation, establishing that 125% = φ200,000.00.\n\n"
             "⦿ Point 4 (Compute initial resource cost): Solve for the original 100% base cost price value using ratio methods:\n"
-        r"\text{Cost Price} = \frac{100\%}{125\%} \times \phi200,000.00 = \frac{4}{5} \times \phi200,000.00 = \phi160,000.00",
+            r"\text{Cost Price} = \frac{100\%}{125\%} \times \phi200,000.00 = \frac{4}{5} \times \phi200,000.00 = \phi160,000.00",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 4\n"
+        scenario: "Question 4\n"
             "A trader paid φ1,500.00 for 6 drinking cups. One of the cups got broken. He sold the remaining 5, making a profit of 10%. Calculate,\n"
             "(i) the cost price of each of the six cups.\n"
             "(ii) the selling price of each of the five cups.\n"
             "(iii) the profit made on each cup sold.\n"
             "(BECE 1999 Q1b)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Isolate single unit baseline cost): Set the aggregate bulk cost configuration (φ1,500.00 for 6 units). Divide the aggregate cost by 6 to find the single-item cost price:\n"
-        r"\text{Cost price per individual cup} = \frac{\phi1,500.00}{6} = \phi250.00"
-        "\n\n"
+            r"\text{Cost price per individual cup} = \frac{\phi1,500.00}{6} = \phi250.00"
+            "\n\n"
             "⦿ Point 2 (Evaluate bulk revenue requirements): Note that the total cost baseline is φ1,500.00 and a profit of 10% is required. Calculate the gross revenue target (110% of total cost):\n"
-        r"\text{Gross Revenue Target} = \frac{110}{100} \times \phi1,500.00 = \phi1,650.00"
-        "\n\n"
+            r"\text{Gross Revenue Target} = \frac{110}{100} \times \phi1,500.00 = \phi1,650.00"
+            "\n\n"
             "⦿ Point 3 (Distribute revenue over sound assets): Divide the calculated gross revenue target across the remaining 5 intact cups to find the required individual selling price:\n"
-        r"\text{Selling price per individual cup} = \frac{\phi1,650.00}{5} = \phi330.00"
-        "\n\n"
+            r"\text{Selling price per individual cup} = \frac{\phi1,650.00}{5} = \phi330.00"
+            "\n\n"
             "⦿ Point 4 (Determine individual net gains): Deduct the original single-item cost price from the final single-item selling price to isolate the profit made per unit sold:\n"
-        r"\text{Profit per individual cup} = \phi330.00 - \phi250.00 = \phi80.00",
+            r"\text{Profit per individual cup} = \phi330.00 - \phi250.00 = \phi80.00",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 5\n"
-        r"Simplify 2\frac{1}{4} \div (3\frac{1}{8} - 1\frac{1}{12})"
-        "\n"
+        scenario: "Question 5\n"
+            r"Simplify 2\frac{1}{4} \div (3\frac{1}{8} - 1\frac{1}{12})"
+            "\n"
             "(BECE 2002A Q1a)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Convert to improper fractions): Convert all mixed fractions into improper fractions:\n"
-        r"2\frac{1}{4} = \frac{9}{4}, \quad 3\frac{1}{8} = \frac{25}{8}, \quad 1\frac{1}{12} = \frac{13}{12}"
-        "\n\n"
+            r"2\frac{1}{4} = \frac{9}{4}, \quad 3\frac{1}{8} = \frac{25}{8}, \quad 1\frac{1}{12} = \frac{13}{12}"
+            "\n\n"
             "⦿ Point 2 (Apply operational precedence rules): Substitute the values back into the expression:\n"
-        r"\frac{9}{4} \div (\frac{25}{8} - \frac{13}{12})"
-        "\n\n"
+            r"\frac{9}{4} \div (\frac{25}{8} - \frac{13}{12})"
+            "\n\n"
             "⦿ Point 3 (Find common denominator for inner bracket): Find the Lowest Common Multiple (LCM) of 8 and 12, which is 24. Perform the subtraction inside the bracket:\n"
-        r"\frac{25}{8} - \frac{13}{12} = \frac{3(25) - 2(13)}{24} = \frac{75 - 26}{24} = \frac{49}{24}"
-        "\n\n"
+            r"\frac{25}{8} - \frac{13}{12} = \frac{3(25) - 2(13)}{24} = \frac{75 - 26}{24} = \frac{49}{24}"
+            "\n\n"
             "⦿ Point 4 (Apply reciprocal multiplication operations): Substitute the result back and rewrite the division as multiplication by the reciprocal of the divisor fraction:\n"
-        r"\frac{9}{4} \div \frac{49}{24} = \frac{9}{4} \times \frac{24}{49}"
-        "\n\n"
+            r"\frac{9}{4} \div \frac{49}{24} = \frac{9}{4} \times \frac{24}{49}"
+            "\n\n"
             "⦿ Point 5 (Simplify cross-fraction terms): Simplify the factors (24 ÷ 4 = 6) and multiply across to find the final mixed fraction value:\n"
-        r"\frac{9}{1} \times \frac{6}{49} = \frac{54}{49} = 1\frac{5}{49}",
+            r"\frac{9}{1} \times \frac{6}{49} = \frac{54}{49} = 1\frac{5}{49}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 6\n"
-        r"Simplify 2\frac{1}{2} \div (3\frac{1}{2} - 1\frac{1}{4})"
-        "\n"
+        scenario: "Question 6\n"
+            r"Simplify 2\frac{1}{2} \div (3\frac{1}{2} - 1\frac{1}{4})"
+            "\n"
             "(BECE 2002B Q1a)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Convert to improper fractions): Transform the mixed terms into improper fractions:\n"
-        r"2\frac{1}{2} = \frac{5}{2}, \quad 3\frac{1}{2} = \frac{7}{2}, \quad 1\frac{1}{4} = \frac{5}{4}"
-        "\n\n"
+            r"2\frac{1}{2} = \frac{5}{2}, \quad 3\frac{1}{2} = \frac{7}{2}, \quad 1\frac{1}{4} = \frac{5}{4}"
+            "\n\n"
             "⦿ Point 2 (Structure primary layout): Arrange the operational expressions sequentially:\n"
-        r"\frac{5}{2} \div (\frac{7}{2} - \frac{5}{4})"
-        "\n\n"
+            r"\frac{5}{2} \div (\frac{7}{2} - \frac{5}{4})"
+            "\n\n"
             "⦿ Point 3 (Execute internal bracket terms): Use an LCM of 4 to evaluate the inner bracket subtraction:\n"
-        r"\frac{7}{2} - \frac{5}{4} = \frac{2(7) - 1(5)}{4} = \frac{14 - 5}{4} = \frac{9}{4}"
-        "\n\n"
+            r"\frac{7}{2} - \frac{5}{4} = \frac{2(7) - 1(5)}{4} = \frac{14 - 5}{4} = \frac{9}{4}"
+            "\n\n"
             "⦿ Point 4 (Invert divisor and evaluate): Change the division operator into multiplication by inverting the divisor fraction:\n"
-        r"\frac{5}{2} \div \frac{9}{4} = \frac{5}{2} \times \frac{4}{9}"
-        "\n\n"
+            r"\frac{5}{2} \div \frac{9}{4} = \frac{5}{2} \times \frac{4}{9}"
+            "\n\n"
             "⦿ Point 5 (Reduce terms to final form): Simplify the cross factors (4 ÷ 2 = 2) and express the final improper fraction as a mixed number:\n"
-        r"\frac{5}{1} \times \frac{2}{9} = \frac{10}{9} = 1\frac{1}{9}",
+            r"\frac{5}{1} \times \frac{2}{9} = \frac{10}{9} = 1\frac{1}{9}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 7\n"
-        r"A factory increased its production by 22\frac{1}{2}\% and produced 49,000 tonnes. How many tonnes was it producing before?"
-        "\n"
+        scenario: "Question 7\n"
+            r"A factory increased its production by 22\frac{1}{2}\% and produced 49,000 tonnes. How many tonnes was it producing before?"
+            "\n"
             "(BECE 2004 Q4c)",
-        answer:
-        "Correct Answer:\n"
-        r"⦿ Point 1 (Note target outcomes): State the final post-increase output value (49,000 tonnes) and the scale of growth (22\frac{1}{2}\% = 22.5\%)."
-        "\n\n"
+        answer: "Correct Answer:\n"
+            r"⦿ Point 1 (Note target outcomes): State the final post-increase output value (49,000 tonnes) and the scale of growth (22\frac{1}{2}\% = 22.5\%)."
+            "\n\n"
             "⦿ Point 2 (Establish proportional reference points): Set the original production volume baseline to 100%. Calculate the new total percentage representation value:\n"
-        r"\text{New Percentage Level} = 100\% + 22.5\% = 122.5\%"
-        "\n\n"
-        r"⦿ Point 3 (Map percentage values to scale dimensions): Define the direct relation where 122.5\% = 49,000 tonnes."
-        "\n\n"
+            r"\text{New Percentage Level} = 100\% + 22.5\% = 122.5\%"
+            "\n\n"
+            r"⦿ Point 3 (Map percentage values to scale dimensions): Define the direct relation where 122.5\% = 49,000 tonnes."
+            "\n\n"
             "⦿ Point 4 (Isolate initial capacity scales): Calculate the original production capacity (100%) by evaluating the inverse ratio:\n"
-        r"\text{Initial Production} = \frac{100\%}{122.5\%} \times 49,000 tonnes = \frac{100}{122.5} \times 49,000 = 40,000 tonnes",
+            r"\text{Initial Production} = \frac{100\%}{122.5\%} \times 49,000 tonnes = \frac{100}{122.5} \times 49,000 = 40,000 tonnes",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 8\n"
-        r"Simplify (2\frac{1}{4} - 1\frac{5}{8}) \div 3\frac{7}{16}"
-        "\n"
+        scenario: "Question 8\n"
+            r"Simplify (2\frac{1}{4} - 1\frac{5}{8}) \div 3\frac{7}{16}"
+            "\n"
             "(BECE 2005 Q1c)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Convert fractions to improper forms): Rewrite the components as improper fractions:\n"
-        r"2\frac{1}{4} = \frac{9}{4}, \quad 1\frac{5}{8} = \frac{13}{8}, \quad 3\frac{7}{16} = \frac{55}{16}"
-        "\n\n"
+            r"2\frac{1}{4} = \frac{9}{4}, \quad 1\frac{5}{8} = \frac{13}{8}, \quad 3\frac{7}{16} = \frac{55}{16}"
+            "\n\n"
             "⦿ Point 2 (Set up operational strings): Place the simplified values into the bracketed statement format:\n"
-        r"(\frac{9}{4} - \frac{13}{8}) \div \frac{55}{16}"
-        "\n\n"
+            r"(\frac{9}{4} - \frac{13}{8}) \div \frac{55}{16}"
+            "\n\n"
             "⦿ Point 3 (Resolve primary group brackets): Calculate the inner bracket subtraction using an LCM of 8:\n"
-        r"\frac{9}{4} - \frac{13}{8} = \frac{2(9) - 1(13)}{8} = \frac{18 - 13}{8} = \frac{5}{8}"
-        "\n\n"
+            r"\frac{9}{4} - \frac{13}{8} = \frac{2(9) - 1(13)}{8} = \frac{18 - 13}{8} = \frac{5}{8}"
+            "\n\n"
             "⦿ Point 4 (Apply reciprocal operation inversion rules): Convert the remaining outer division operation into multiplication by taking the reciprocal of the divisor fraction:\n"
-        r"\frac{5}{8} \div \frac{55}{16} = \frac{5}{8} \times \frac{16}{55}"
-        "\n\n"
+            r"\frac{5}{8} \div \frac{55}{16} = \frac{5}{8} \times \frac{16}{55}"
+            "\n\n"
             "⦿ Point 5 (Reduce factors to lowest forms): Cancel out common factors across numerators and denominators (16 ÷ 8 = 2 and 55 ÷ 5 = 11) to obtain the final simplified answer:\n"
-        r"\frac{1}{1} \times \frac{2}{11} = \frac{2}{11}",
+            r"\frac{1}{1} \times \frac{2}{11} = \frac{2}{11}",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 9\n"
+        scenario: "Question 9\n"
             "A trader sold 250 articles for φ525,000.00 at a profit of 25%.\n"
             "i) Calculate the cost price of each article.\n"
             "ii) If the trader had wanted 45% profit on the cost price, how much should he have sold each of the articles?\n"
             "(BECE 2006 Q1a)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Point 1 (Document bulk variables): List the parameters for the item count (250 articles), total sales revenue (φ525,000.00), and the profit margin achieved (25%).\n\n"
             "⦿ Point 2 (Evaluate gross baseline cost): Since the gross revenue represents 125% of the original cost, calculate the total cost price for all items:\n"
-        r"\text{Total Cost Price} = \frac{100\%}{125\%} \times \phi525,000.00 = \frac{100}{125} \times \phi525,000.00 = \phi420,000.00"
-        "\n\n"
+            r"\text{Total Cost Price} = \frac{100\%}{125\%} \times \phi525,000.00 = \frac{100}{125} \times \phi525,000.00 = \phi420,000.00"
+            "\n\n"
             "⦿ Point 3 (Find individual unit cost prices): Divide the total cost price by the item count to determine the individual cost price per article:\n"
-        r"\text{Cost Price per Article} = \frac{\phi420,000.00}{250} = \phi1,680.00"
-        "\n\n"
+            r"\text{Cost Price per Article} = \frac{\phi420,000.00}{250} = \phi1,680.00"
+            "\n\n"
             "⦿ Point 4 (Apply alternative profit targets): Identify the new target profit margin profile of 45%. This means the target unit selling price must represent 145% of its original individual cost price.\n\n"
             "⦿ Point 5 (Compute updated item pricing): Calculate the new individual target selling price using the unit cost baseline:\n"
-        r"\text{Target Selling Price per Article} = \frac{145}{100} \times \phi1,680.00 = 1.45 \times \phi1,680.00 = \phi2,436.00",
+            r"\text{Target Selling Price per Article} = \frac{145}{100} \times \phi1,680.00 = 1.45 \times \phi1,680.00 = \phi2,436.00",
         explanation: "",
       ),
     ],
@@ -2313,190 +2227,171 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-  scenario:
-      "Question 1: "
-      "A man travelled from Bakwa to Pabam, the distance between the two towns is 510 km. At Pabam he covered an additional 40 km on official duties. He returned to Bakwa the next day.\n"
-      "(a) Find the total distance covered by the man.\n"
-      "(b) If the car used one litre of petrol to cover 20 km, find the amount of petrol used for the whole journey.\n"
-      "(c) If a litre of petrol cost ¢522.00, calculate the total cost of petrol used for the journey.\n"
-          "(BECE 1998 Q14)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Total distance calculation:\n"
-      "The forward travel from Bakwa to Pabam equals 510 km.\n"
-      "The local duties at Pabam require an additional 40 km.\n"
-      "The return trip from Pabam back to Bakwa equals 510 km.\n"
-      r"Summing these up gives \text{Total distance} = 510 km + 40 km + 510 km = 1060 km."
-      "\n\n"
-      "⦿ Petrol consumption calculation:\n"
-      "The vehicle uses 1 litre for every 20 km covered.\n"
-      r"Dividing total kilometres by the consumption index gives \text{Total volume} = \frac{1060}{20} \times 1 = 53 litres."
-      "\n\n"
-      "⦿ Total cost calculation:\n"
-      "The financial cost per unit litre stands at ¢522.00.\n"
-      r"Multiplying total units consumed by unit rate gives \text{Total cost} = 53 \times \text{¢}522 = \text{¢}27,666.00.",
-  explanation: "",
-),
+        scenario: "Question 1: "
+            "A man travelled from Bakwa to Pabam, the distance between the two towns is 510 km. At Pabam he covered an additional 40 km on official duties. He returned to Bakwa the next day.\n"
+            "(a) Find the total distance covered by the man.\n"
+            "(b) If the car used one litre of petrol to cover 20 km, find the amount of petrol used for the whole journey.\n"
+            "(c) If a litre of petrol cost ¢522.00, calculate the total cost of petrol used for the journey.\n"
+            "(BECE 1998 Q14)",
+        answer: "Correct Answer:\n"
+            "⦿ Total distance calculation:\n"
+            "The forward travel from Bakwa to Pabam equals 510 km.\n"
+            "The local duties at Pabam require an additional 40 km.\n"
+            "The return trip from Pabam back to Bakwa equals 510 km.\n"
+            r"Summing these up gives \text{Total distance} = 510 km + 40 km + 510 km = 1060 km."
+            "\n\n"
+            "⦿ Petrol consumption calculation:\n"
+            "The vehicle uses 1 litre for every 20 km covered.\n"
+            r"Dividing total kilometres by the consumption index gives \text{Total volume} = \frac{1060}{20} \times 1 = 53 litres."
+            "\n\n"
+            "⦿ Total cost calculation:\n"
+            "The financial cost per unit litre stands at ¢522.00.\n"
+            r"Multiplying total units consumed by unit rate gives \text{Total cost} = 53 \times \text{¢}522 = \text{¢}27,666.00.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 2: "
-      "A car runs on the average at 45 km to 5 litres of fuel. Calculate how many litres of fuel are required for a journey of 117 km.\n (BECE 2004 Q4a)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Rate evaluation:\n"
-      "The car consumes 5 litres for every stretch of 45 km.\n\n"
-      "⦿ Proportional step:\n"
-      "For a longer path of 117 km, fuel needs expand fractionally.\n"
-      r"Setting up direct proportion: \text{Fuel required} = \frac{117}{45} \times 5 = 13 litres.",
-  explanation: "",
-),
+        scenario: "Question 2: "
+            "A car runs on the average at 45 km to 5 litres of fuel. Calculate how many litres of fuel are required for a journey of 117 km.\n (BECE 2004 Q4a)",
+        answer: "Correct Answer:\n"
+            "⦿ Rate evaluation:\n"
+            "The car consumes 5 litres for every stretch of 45 km.\n\n"
+            "⦿ Proportional step:\n"
+            "For a longer path of 117 km, fuel needs expand fractionally.\n"
+            r"Setting up direct proportion: \text{Fuel required} = \frac{117}{45} \times 5 = 13 litres.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 3: "
-      "Express 4 hours in seconds leaving your answer in standard form.\n (BECE 2007 Q5b)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Time base conversion:\n"
-      "One hour comprises exactly 3600 seconds.\n"
-      r"Thus, four hours equal 4 \times 3600 = 14400 seconds."
-      "\n\n"
-      "⦿ Scientific representation notation:\n"
-      "Shifts the decimal point four places to the left to match standard form requirements.\n"
-      r"Final value: 1.44 \times 10^{4} seconds.",
-  explanation: "",
-),
+        scenario: "Question 3: "
+            "Express 4 hours in seconds leaving your answer in standard form.\n (BECE 2007 Q5b)",
+        answer: "Correct Answer:\n"
+            "⦿ Time base conversion:\n"
+            "One hour comprises exactly 3600 seconds.\n"
+            r"Thus, four hours equal 4 \times 3600 = 14400 seconds."
+            "\n\n"
+            "⦿ Scientific representation notation:\n"
+            "Shifts the decimal point four places to the left to match standard form requirements.\n"
+            r"Final value: 1.44 \times 10^{4} seconds.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 4: "
-      r"Kwame rode a bicycle for a distance of x km and walked for another \frac{1}{2} hour at a rate of 6 km per hour. If Kwame covered a total distance of 10 km, find the distance x he covered by bicycle."
-      "\n (BECE 2010 Q3b)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Walking segment computation:\n"
-      "Speed of walking is given as 6 km/h over a timeframe of 0.5 hours.\n"
-      r"Walking component distance: \text{Speed} \times \text{Time} = 6 \times 0.5 = 3 km."
-      "\n\n"
-      "⦿ Linear breakdown configuration:\n"
-      "Total combined movement yields a value of 10 km.\n"
-      r"Statement representation: x + 3 = 10."
-      "\n\n"
-      r"⦿ Isolating variable: x = 10 - 3 = 7 km.",
-  explanation: "",
-),
+        scenario: "Question 4: "
+            r"Kwame rode a bicycle for a distance of x km and walked for another \frac{1}{2} hour at a rate of 6 km per hour. If Kwame covered a total distance of 10 km, find the distance x he covered by bicycle."
+            "\n (BECE 2010 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Walking segment computation:\n"
+            "Speed of walking is given as 6 km/h over a timeframe of 0.5 hours.\n"
+            r"Walking component distance: \text{Speed} \times \text{Time} = 6 \times 0.5 = 3 km."
+            "\n\n"
+            "⦿ Linear breakdown configuration:\n"
+            "Total combined movement yields a value of 10 km.\n"
+            r"Statement representation: x + 3 = 10."
+            "\n\n"
+            r"⦿ Isolating variable: x = 10 - 3 = 7 km.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 5: "
-      "A car consumes a gallon of petrol for every 30 km drive. The driver of the car set out on a journey of 420 km with 10 gallons of petrol in the fuel tank.\n"
-      "(a) How many more gallons of petrol will be needed to complete the journey?\n"
-      "(b) Find the cost of the petrol for the journey of 420 km if a gallon of petrol cost GH¢5.50.\n (BECE 2012 Q2a)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Gross supply estimation:\n"
-      "The vehicle drives a 30 km distance per single unit gallon.\n"
-      r"Requirement for full trip: \frac{420}{30} = 14 gallons."
-      "\n\n"
-      "⦿ Deficit structural balancing:\n"
-      "The starting inventory shows 10 gallons present.\n"
-      r"Deficit adjustment calculation: 14 - 10 = 4 gallons."
-      "\n\n"
-      "⦿ Financial layout computation:\n"
-      "Total operational usage matches 14 gallons across the full run.\n"
-      "Unit pricing per gallon equals GH¢5.50.\n"
-      r"Multiplicative expense total: 14 \times 5.50 = \text{GH¢}77.00.",
-  explanation: "",
-),
+        scenario: "Question 5: "
+            "A car consumes a gallon of petrol for every 30 km drive. The driver of the car set out on a journey of 420 km with 10 gallons of petrol in the fuel tank.\n"
+            "(a) How many more gallons of petrol will be needed to complete the journey?\n"
+            "(b) Find the cost of the petrol for the journey of 420 km if a gallon of petrol cost GH¢5.50.\n (BECE 2012 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ Gross supply estimation:\n"
+            "The vehicle drives a 30 km distance per single unit gallon.\n"
+            r"Requirement for full trip: \frac{420}{30} = 14 gallons."
+            "\n\n"
+            "⦿ Deficit structural balancing:\n"
+            "The starting inventory shows 10 gallons present.\n"
+            r"Deficit adjustment calculation: 14 - 10 = 4 gallons."
+            "\n\n"
+            "⦿ Financial layout computation:\n"
+            "Total operational usage matches 14 gallons across the full run.\n"
+            "Unit pricing per gallon equals GH¢5.50.\n"
+            r"Multiplicative expense total: 14 \times 5.50 = \text{GH¢}77.00.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 6: "
-      r"Mr. Mensah's farm is 20 km from his house. He uses his car to travel y km of the distance from his house and then walks 1\frac{1}{2} hours at the rate of 3 km per hour to get to his farm. Find y."
-      "\n(BECE 2015B Q3a)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Walking component evaluation:\n"
-      "Walking progress relies on a speed rate of 3 km/h for a span of 1.5 hours.\n"
-      r"Distance advanced on foot: 3 \times 1.5 = 4.5 km."
-      "\n\n"
-      "⦿ Component balance isolating step:\n"
-      "Total journey length boundary equals exactly 20 km.\n"
-      r"Balancing linear configuration: y + 4.5 = 20."
-      "\n\n"
-      r"⦿ Deductive solution: y = 20 - 4.5 = 15.5 km.",
-  explanation: "",
-),
+        scenario: "Question 6: "
+            r"Mr. Mensah's farm is 20 km from his house. He uses his car to travel y km of the distance from his house and then walks 1\frac{1}{2} hours at the rate of 3 km per hour to get to his farm. Find y."
+            "\n(BECE 2015B Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ Walking component evaluation:\n"
+            "Walking progress relies on a speed rate of 3 km/h for a span of 1.5 hours.\n"
+            r"Distance advanced on foot: 3 \times 1.5 = 4.5 km."
+            "\n\n"
+            "⦿ Component balance isolating step:\n"
+            "Total journey length boundary equals exactly 20 km.\n"
+            r"Balancing linear configuration: y + 4.5 = 20."
+            "\n\n"
+            r"⦿ Deductive solution: y = 20 - 4.5 = 15.5 km.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 7: "
-      "A paint manufacturing company has a machine which fills 24 tins with paints in 5 minutes.\n"
-      "(a) How many tins will the machine fill in 1 minute, correct to the nearest whole number?\n"
-      "(b) How many tins will the machine fill in 1 hour?\n"
-      "(c) How many hours will it take to fill 1440 tins?"
-          "\n (BECE 2017 Q2b)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Minute efficiency division:\n"
-      "Standard five-minute generation is 24 tins.\n"
-      r"Minute yield baseline: \frac{24}{5} = 4.8 tins."
-      "\n"
-      "Integer rounding protocol brings the value up to 5 tins.\n\n"
-      "⦿ Hourly output multiplier:\n"
-      "One hour contains 60 operational minutes.\n"
-      r"Scaling output factor: \frac{60}{5} \times 24 = 12 \times 24 = 288 tins."
-      "\n\n"
-      "⦿ Time frame distribution:\n"
-      "Targets production goal size of 1440 tins.\n"
-      r"Division rate structure calculation: \frac{1440}{288} = 5 hours.",
-  explanation: "",
-),
+        scenario: "Question 7: "
+            "A paint manufacturing company has a machine which fills 24 tins with paints in 5 minutes.\n"
+            "(a) How many tins will the machine fill in 1 minute, correct to the nearest whole number?\n"
+            "(b) How many tins will the machine fill in 1 hour?\n"
+            "(c) How many hours will it take to fill 1440 tins?"
+            "\n (BECE 2017 Q2b)",
+        answer: "Correct Answer:\n"
+            "⦿ Minute efficiency division:\n"
+            "Standard five-minute generation is 24 tins.\n"
+            r"Minute yield baseline: \frac{24}{5} = 4.8 tins."
+            "\n"
+            "Integer rounding protocol brings the value up to 5 tins.\n\n"
+            "⦿ Hourly output multiplier:\n"
+            "One hour contains 60 operational minutes.\n"
+            r"Scaling output factor: \frac{60}{5} \times 24 = 12 \times 24 = 288 tins."
+            "\n\n"
+            "⦿ Time frame distribution:\n"
+            "Targets production goal size of 1440 tins.\n"
+            r"Division rate structure calculation: \frac{1440}{288} = 5 hours.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 8: "
-      "A bus left town X at 6:30 am and arrived at town Y at 1:00 pm. If the bus travelled at an average speed of 100 km per hour, calculate the distance from town X to town Y.\n (BECE 2021 Q4c)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Time duration evaluation:\n"
-      "Counts elapsed hours from standard 06:30 to 13:00 timeline marks.\n"
-      r"Determined processing window: 6 hours 30 minutes, which represents 6.5 hours (or \frac{13}{2} hours)."
-      "\n\n"
-      "⦿ Distance motion rule application:\n"
-      "Speed vector remains fixed at 100 km/h.\n"
-      r"Calculation: \text{Distance} = 100 \times 6.5 = 650 km.",
-  explanation: "",
-),
+        scenario: "Question 8: "
+            "A bus left town X at 6:30 am and arrived at town Y at 1:00 pm. If the bus travelled at an average speed of 100 km per hour, calculate the distance from town X to town Y.\n (BECE 2021 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ Time duration evaluation:\n"
+            "Counts elapsed hours from standard 06:30 to 13:00 timeline marks.\n"
+            r"Determined processing window: 6 hours 30 minutes, which represents 6.5 hours (or \frac{13}{2} hours)."
+            "\n\n"
+            "⦿ Distance motion rule application:\n"
+            "Speed vector remains fixed at 100 km/h.\n"
+            r"Calculation: \text{Distance} = 100 \times 6.5 = 650 km.",
+        explanation: "",
+      ),
       PracticeQuestion(
-  scenario:
-      "Question 9: "
-      r"Akosua walked for 3 hours at the rate of 1\frac{1}{2} km per hour from her village to Paamu to take a bus to Quamu. If the bus travelling at 15\frac{1}{2} km per hour takes 2 hours to travel from Paamu to Quamu,"
-      "\n"
-      "(a) what is the distance from Akosua's village to Quamu?\n"
-      "(b) how long would it take a man, riding a bicycle at 5 km per hour, to travel from Akosua's village to Quamu?\n (BECE 2023 Q2c)",
-  answer:
-      "Correct Answer:\n"
-      "⦿ Walking path determination:\n"
-      r"Step pace values track at 1.5 km/h across an active 3-hour stretch."
-      "\n"
-      r"Foot journey sub-total: 1.5 \times 3 = 4.5 km."
-      "\n\n"
-      "⦿ Vehicular step determination:\n"
-      r"Commute speed via bus checks at 15.5 km/h for a 2-hour road run."
-      "\n"
-      r"Bus journey sub-total: 15.5 \times 2 = 31 km."
-      "\n\n"
-      "⦿ Gross distance summation:\n"
-      "Integrates both route components for full network length.\n"
-      r"Total tracking: 4.5 km + 31 km = 35.5 km."
-      "\n\n"
-      "⦿ Cyclist duration breakdown:\n"
-      "Evaluates performance across the 35.5 km path with a 5 km/h motion profile.\n"
-      r"Division rate mapping step: \frac{35.5}{5} = 7.1 hours."
-      "\n\n"
-      r"⦿ Fractional time transformation step: 0.1 \times 60 minutes = 6 minutes."
-      "\n\n"
-      "⦿ Final operational timeline result: 7 hours 6 minutes.",
-  explanation: "",
-),
+        scenario: "Question 9: "
+            r"Akosua walked for 3 hours at the rate of 1\frac{1}{2} km per hour from her village to Paamu to take a bus to Quamu. If the bus travelling at 15\frac{1}{2} km per hour takes 2 hours to travel from Paamu to Quamu,"
+            "\n"
+            "(a) what is the distance from Akosua's village to Quamu?\n"
+            "(b) how long would it take a man, riding a bicycle at 5 km per hour, to travel from Akosua's village to Quamu?\n (BECE 2023 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ Walking path determination:\n"
+            r"Step pace values track at 1.5 km/h across an active 3-hour stretch."
+            "\n"
+            r"Foot journey sub-total: 1.5 \times 3 = 4.5 km."
+            "\n\n"
+            "⦿ Vehicular step determination:\n"
+            r"Commute speed via bus checks at 15.5 km/h for a 2-hour road run."
+            "\n"
+            r"Bus journey sub-total: 15.5 \times 2 = 31 km."
+            "\n\n"
+            "⦿ Gross distance summation:\n"
+            "Integrates both route components for full network length.\n"
+            r"Total tracking: 4.5 km + 31 km = 35.5 km."
+            "\n\n"
+            "⦿ Cyclist duration breakdown:\n"
+            "Evaluates performance across the 35.5 km path with a 5 km/h motion profile.\n"
+            r"Division rate mapping step: \frac{35.5}{5} = 7.1 hours."
+            "\n\n"
+            r"⦿ Fractional time transformation step: 0.1 \times 60 minutes = 6 minutes."
+            "\n\n"
+            "⦿ Final operational timeline result: 7 hours 6 minutes.",
+        explanation: "",
+      ),
     ],
   ),
-
 
   "Math JHS3 s1 ss1 - Number and Numeration Systems": PracticeModel(
     audioPath: '',
@@ -2504,7 +2399,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "1.Question: Write 356.07 in standard form.",
         answer:
-        "**Correct Answer**\n\n ⦿ Standard form is structured as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer.\n"
+            "**Correct Answer**\n\n ⦿ Standard form is structured as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer.\n"
             "⦿ Shift the decimal point 2 places to the left to place it after the first non-zero digit (3).\n"
             "⦿ Multiplying the resulting number 3.5607 by 10² preserves its exact original value.\n\n"
             "356.07 = 3.5607 × 10²",
@@ -2512,9 +2407,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "2. Question: Which of the following numbers is the prime number greater than 23?",
+            "2. Question: Which of the following numbers is the prime number greater than 23?",
         answer:
-        "**Correct Answer**\n\n⦿ A prime number is an integer greater than 1 with exactly two distinct factors: 1 and the number itself.\n"
+            "**Correct Answer**\n\n⦿ A prime number is an integer greater than 1 with exactly two distinct factors: 1 and the number itself.\n"
             "⦿ 17: Prime, but less than 23.\n"
             "⦿ 24: Even and composite (divisible by 2, 3, etc.).\n"
             "⦿ 25: Ends in 5 and composite (divisible by 5).\n"
@@ -2524,7 +2419,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "3.Question: Write 4687.02 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Locate the first non-zero digit, which is 4.\n"
+            "**Correct Answer**\n\n⦿ Locate the first non-zero digit, which is 4.\n"
             "⦿ Move the decimal point 3 positions to the left so that it rests between 4 and 6.\n"
             "⦿ Multiply the new decimal by 10³ to represent the three-place shift.\n\n"
             "4687.02 = 4.68702 × 10³",
@@ -2533,7 +2428,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "4.Question: Correct 0.02751 to three decimal places.",
         answer:
-        "**Correct Answer**\n\n⦿ Count to the third digit after the decimal point (7).\n"
+            "**Correct Answer**\n\n⦿ Count to the third digit after the decimal point (7).\n"
             "⦿ Examine the critical target digit to its right in the fourth decimal place (5).\n"
             "⦿ Since this digit is 5 or greater, round the third decimal place digit up by adding 1 (7 + 1 = 8).\n"
             "⦿ This results in 0.028.",
@@ -2542,7 +2437,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "5. Question: Write 1342 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ The whole number 1342 has an implicit decimal point at the end: 1342.0.\n"
+            "**Correct Answer**\n\n⦿ The whole number 1342 has an implicit decimal point at the end: 1342.0.\n"
             "⦿ Shift the decimal point 3 places to the left to place it after the leading digit.\n"
             "⦿ Multiply the resulting value by 10³ to maintain numeric equivalence.\n\n"
             "1342 = 1.342 × 10³",
@@ -2551,7 +2446,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "6. Question: Express 2345 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Identify the implicit decimal point at the unit's right: 2345.0.\n"
+            "**Correct Answer**\n\n⦿ Identify the implicit decimal point at the unit's right: 2345.0.\n"
             "⦿ Shift the decimal point 3 places to the left to obtain 2.345.\n"
             "⦿ Balance the shift by multiplying by 10³.\n\n"
             "2345 = 2.345 × 10³",
@@ -2559,9 +2454,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "7 Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
+            "7 Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
         answer:
-        "**Correct Answer**\n\n⦿ Identify the digit in the thousands position (5).\n"
+            "**Correct Answer**\n\n⦿ Identify the digit in the thousands position (5).\n"
             "⦿ Examine the adjacent digit to its right in the hundreds place (6).\n"
             "⦿ Because 6 is greater than or equal to 5, round the thousands place up by 1 (5 + 1 = 6) and replace all subsequent digits with zero.\n"
             "⦿ This gives GH₵36,000.00.",
@@ -2570,7 +2465,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "8. Question: Write 83000 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Begin at the implicit decimal point (83000.0) and shift it 4 places to the left.\n"
+            "**Correct Answer**\n\n⦿ Begin at the implicit decimal point (83000.0) and shift it 4 places to the left.\n"
             "⦿ This positions the decimal point to produce 8.3.\n"
             "⦿ Multiply by 10⁴ to account for the four-digit shift.\n\n"
             "83000 = 8.3 × 10⁴",
@@ -2586,7 +2481,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "10.Question: Express 2474.5 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Shift the visible decimal 3 positions to the left so it sits immediately behind the first digit (2).\n"
+            "**Correct Answer**\n\n⦿ Shift the visible decimal 3 positions to the left so it sits immediately behind the first digit (2).\n"
             "⦿ This shift corresponds to a positive power factor of 10³.\n"
             "2474.5 = 2.4745 × 10³",
         explanation: "",
@@ -2594,7 +2489,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "11.Question: Write 78910 correct to the nearest thousand.",
         answer:
-        "**Correct Answer**\n\n⦿ Focus on the thousands digit (8) and evaluate the hundreds digit directly to its right (9).\n"
+            "**Correct Answer**\n\n⦿ Focus on the thousands digit (8) and evaluate the hundreds digit directly to its right (9).\n"
             "⦿ Since 9 is 5 or greater, round up by adding 1 to the thousands place (8 + 1 = 9).\n"
             "⦿ Set the hundreds, tens, and units places to zero to yield 79,000.",
         explanation: "",
@@ -2602,7 +2497,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "12.Question: Express 962 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Starting with the implicit decimal point at 962.0, shift it 2 places to the left.\n"
+            "**Correct Answer**\n\n⦿ Starting with the implicit decimal point at 962.0, shift it 2 places to the left.\n"
             "⦿ The resulting expression is scaled with an exponent value of 2.\n"
             "962 = 9.62 × 10²",
         explanation: "",
@@ -2618,16 +2513,16 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "14. Question: Write the number 34.1 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Move the decimal point 1 place to the left to get a value between 1 and 10.\n"
+            "**Correct Answer**\n\n⦿ Move the decimal point 1 place to the left to get a value between 1 and 10.\n"
             "⦿ This gives 3.41, which must be multiplied by 10¹ (equivalent to 10).\n"
             "34.1 = 3.41 × 10¹",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "15.Question: Which of the following is an even prime number?",
+            "15.Question: Which of the following is an even prime number?",
         answer:
-        "**Correct Answer**\n\n⦿ A prime number is a positive integer with exactly two factors (1 and itself).\n"
+            "**Correct Answer**\n\n⦿ A prime number is a positive integer with exactly two factors (1 and itself).\n"
             "⦿ All even numbers greater than 2 are divisible by 2, meaning they have at least three factors (1, 2, and themselves) and are composite.\n"
             "⦿ Therefore, the number 2 is the only even prime number in existence.",
         explanation: "",
@@ -2635,7 +2530,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "16. Question: Write 2340000 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Shift the implicit decimal point from the end of the number 6 places to the left to reach 2.34.\n"
+            "**Correct Answer**\n\n⦿ Shift the implicit decimal point from the end of the number 6 places to the left to reach 2.34.\n"
             "⦿ This corresponds directly to scaling the number by a factor of 10⁶.\n"
             "2340000 = 2.34 × 10⁶",
         explanation: "",
@@ -2643,7 +2538,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "17.Question: Express 4037 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Move the implicit decimal point at 4037.0 exactly 3 places to the left.\n"
+            "**Correct Answer**\n\n⦿ Move the implicit decimal point at 4037.0 exactly 3 places to the left.\n"
             "⦿ This results in 4.037 scaled by 10³.\n"
             "4037 = 4.037 × 10³",
         explanation: "",
@@ -2651,7 +2546,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "18.Question: Write 3560 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Shift the implicit decimal point 3 places to the left to create 3.56.\n"
+            "**Correct Answer**\n\n⦿ Shift the implicit decimal point 3 places to the left to create 3.56.\n"
             "⦿ The scale factor for this shift is represented by 10³.\n"
             "3560 = 3.56 × 10³",
         explanation: "",
@@ -2659,16 +2554,16 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "19.Question: Which of the following numbers is an integer?",
         answer:
-        "**Correct Answer**\n\n⦿ An integer is any positive or negative whole number, including zero. It cannot contain fractional or decimal parts.\n"
+            "**Correct Answer**\n\n⦿ An integer is any positive or negative whole number, including zero. It cannot contain fractional or decimal parts.\n"
             "⦿ The values -5/4 and -2/3 are fractions, and 0.5 is a decimal.\n"
             "⦿ The value -1 is a whole negative number, which makes it a member of the set of integers.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "20. Question: Which of the following is arranged in ascending order?",
+            "20. Question: Which of the following is arranged in ascending order?",
         answer:
-        "**Correct Answer**\n\n⦿ Ascending order requires sorting numbers from the smallest value to the largest.\n"
+            "**Correct Answer**\n\n⦿ Ascending order requires sorting numbers from the smallest value to the largest.\n"
             "⦿ Compare the values in option A: -10, -7, 4.2, 9.\n"
             "⦿ On a number line, -10 is further left than -7, so -10 < -7.\n"
             "⦿ Any negative number is smaller than a positive number, so -7 < 4.2.\n"
@@ -2678,7 +2573,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "21.Question: Express 134.78 correct to the nearest tenth.",
         answer:
-        "**Correct Answer**\n\n⦿ Locate the tenths place digit, which is the first position after the decimal point (7).\n"
+            "**Correct Answer**\n\n⦿ Locate the tenths place digit, which is the first position after the decimal point (7).\n"
             "⦿ Look at the hundredths digit to its right (8).\n"
             "⦿ Since 8 ≥ 5, round up by adding 1 to the tenths place (7 + 1 = 8).\n"
             "⦿ Drop all trailing digits to get 134.8.",
@@ -2687,7 +2582,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "22. Question: Express 625.13 in standard form.",
         answer:
-        "**Correct Answer**\n\n⦿ Shift the decimal point 2 places to the left to secure a leading digit between 1 and 10.\n"
+            "**Correct Answer**\n\n⦿ Shift the decimal point 2 places to the left to secure a leading digit between 1 and 10.\n"
             "⦿ This produces 6.2513, which must be multiplied by 10².\n\n"
             "625.13 = 6.2513 × 10²",
         explanation: "",
@@ -2695,7 +2590,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "23. Question: Which of the following is the largest set?",
         answer:
-        "**Correct Answer**\n\n⦿ Let us examine the inclusion relationships of the sets of numbers:\n"
+            "**Correct Answer**\n\n⦿ Let us examine the inclusion relationships of the sets of numbers:\n"
             "⦿ The set of Natural Numbers ({1, 2, 3, ...}) and Whole Numbers ({0, 1, 2, ...}) are fully nested within the set of Integers.\n"
             "⦿ The set of Composite numbers is a small subset of the Natural Numbers.\n"
             "⦿ Because the set of Integers includes all positive whole numbers, negative whole numbers, and zero, it is the largest set among the choices.",
@@ -2704,7 +2599,7 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "24. Question: Correct 48,947.2547 to the nearest hundred.",
         answer:
-        "**Correct Answer**\n\n⦿ Identify the digit in the hundreds place (9).\n"
+            "**Correct Answer**\n\n⦿ Identify the digit in the hundreds place (9).\n"
             "⦿ Examine the digit in the tens place immediately to its right (4).\n"
             "⦿ Since 4 < 5, we round down. This means the hundreds digit remains 9, and the remaining whole number places are replaced with zero.\n"
             "⦿ Mathematically, this yields 48,900.\n"
@@ -2713,9 +2608,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "25. Question: Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.",
+            "25. Question: Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.",
         answer:
-        "**Correct Answer**\n\n⦿ Order the given values {4, 9, -10, 7, 2} from left to right on a number line.\n"
+            "**Correct Answer**\n\n⦿ Order the given values {4, 9, -10, 7, 2} from left to right on a number line.\n"
             "⦿ The negative integer -10 is the smallest number.\n"
             "⦿ Arranging the remaining positive integers gives 2, 4, 7, 9.\n"
             "⦿ The complete ascending sequence is -10, 2, 4, 7, 9.",
@@ -2724,25 +2619,25 @@ final Map<String, PracticeModel> becePracticeData = {
       PracticeQuestion(
         scenario: "26.Question: Which of the following is not an integer?",
         answer:
-        "**Correct Answer**\n\n⦿ Integers must be clean whole units with no fractional or decimal parts.\n"
+            "**Correct Answer**\n\n⦿ Integers must be clean whole units with no fractional or decimal parts.\n"
             "⦿ The values 1, -5, and 0 are all whole units.\n"
             "⦿ The value 0.5 is a decimal representing a half-fraction, so it is not an integer.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "27. Question: Which of the following numbers is the largest?",
+            "27. Question: Which of the following numbers is the largest?",
         answer:
-        "**Correct Answer**\n\n⦿ When comparing negative numbers, the value with the smallest absolute value lies closest to zero on the number line.\n"
+            "**Correct Answer**\n\n⦿ When comparing negative numbers, the value with the smallest absolute value lies closest to zero on the number line.\n"
             "⦿ Among -70, -50, -3, and -2, the number -2 is furthest to the right.\n"
             "⦿ Thus, -2 has the largest value.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "28. Question: Find the largest value of these numbers: -1, 0, -6, -3.",
+            "28. Question: Find the largest value of these numbers: -1, 0, -6, -3.",
         answer:
-        "**Correct Answer**\n\n⦿ Any value of zero or positive integers is greater than any negative integer.\n"
+            "**Correct Answer**\n\n⦿ Any value of zero or positive integers is greater than any negative integer.\n"
             "⦿ Because all other options (-1, -6, -3) lie to the left of zero on the number line, 0 is the largest of these numbers.",
         explanation: "",
       ),
@@ -2753,16 +2648,16 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "1.Question: A ribbon 3m long is to be cut into strips of length 14cm.     (BECE 2002 Q1b)\n"
+            "1.Question: A ribbon 3m long is to be cut into strips of length 14cm.     (BECE 2002 Q1b)\n"
             "(a) How many strips of length 14cm were cut?\n"
             "(b) What length of ribbon remained?",
         answer:
-        "**Correct Answer**\n\n ⦿ Step 1: Convert the total length of the ribbon into centimetres.\nTo compare the measurements easily, "
+            "**Correct Answer**\n\n ⦿ Step 1: Convert the total length of the ribbon into centimetres.\nTo compare the measurements easily, "
             "we must work with the same units. Since 1m = 100cm, we convert 3m as follows:\n"
             "Total length of ribbon = 3 x 100cm = 300cm\n\n"
             "⦿ Step 2: Determine the number of strips of length 14cm that can be cut.\nWe divide the total length of the ribbon in centimetres (300cm) by the length of one strip (14cm):\n\n"
-        r"Number of strips = \frac{300}{14}"
-        "\nLet us perform the division: 300 ÷ 14 = 21 with a remainder of 6\n"
+            r"Number of strips = \frac{300}{14}"
+            "\nLet us perform the division: 300 ÷ 14 = 21 with a remainder of 6\n"
             "Therefore, the number of complete strips cut is 21 strips.\n\n"
             "⦿ Step 3: Determine the remaining length of the ribbon.\n"
             "The remainder from our division represents the leftover piece of ribbon that is too short to make another full 14cm strip:\n"
@@ -2772,21 +2667,21 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "2. Question: A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?    (BECE 2002 Q1c)",
+            "2. Question: A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?    (BECE 2002 Q1c)",
         answer:
-        "**Correct Answer**\n\n⦿ Step 1: Calculate the total number of sweets shared.\n"
+            "**Correct Answer**\n\n⦿ Step 1: Calculate the total number of sweets shared.\n"
             "We are told that 8 children received 30 sweets each. To find the total pool of sweets, we multiply the number of children by the amount each child received:\n"
             "Total number of sweets = 8 x 30 = 240 sweets\n\n"
             "⦿ Step 2: Calculate how many sweets each child receives when shared among 12 children.\n"
             "Now, the same pool of 240 sweets is shared equally among a new total of 12 children. We divide the total sweets by the new number of children:\n"
-        r"Sweets received per child = \frac{240}{12}"
-        "\nSweets received per child = 20 sweets"
+            r"Sweets received per child = \frac{240}{12}"
+            "\nSweets received per child = 20 sweets"
             "\nEach child will receive 20 sweets.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "3.Question: Find the Least Common Multiple (L.C.M) of 9, 18 and 16.      (BECE 2002 Q2b)",
+            "3.Question: Find the Least Common Multiple (L.C.M) of 9, 18 and 16.      (BECE 2002 Q2b)",
         answer: "**Correct Answer**\n\n"
             "⦿ Step 1: Write down the prime factorisation for each number.\n"
             "For 9:               9 = 3 x 3 = 3^2\n"
@@ -2803,9 +2698,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "4.Question: A man had three GH₵50.00, seven GH₵20.00 and five GH₵10.00 notes in his pocket. He bought a bicycle for GH₵150.00 and two mobile phones at GH₵80.00 each. How many GH₵20.00 and GH₵10.00 notes did he have left?       (BECE 2013 Q5a)",
+            "4.Question: A man had three GH₵50.00, seven GH₵20.00 and five GH₵10.00 notes in his pocket. He bought a bicycle for GH₵150.00 and two mobile phones at GH₵80.00 each. How many GH₵20.00 and GH₵10.00 notes did he have left?       (BECE 2013 Q5a)",
         answer:
-        "**Correct Answer**\n\n⦿ Step 1: Calculate the total amount of money the man had in his pocket.\n"
+            "**Correct Answer**\n\n⦿ Step 1: Calculate the total amount of money the man had in his pocket.\n"
             "We find the value of each set of notes and sum them up:\n"
             "Three GH₵50.00 notes:3 x GH₵50.00 = GH₵150.00\n"
             "Seven GH₵20.00 notes:7 x GH₵20.00 = GH₵140.00\n"
@@ -2832,7 +2727,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "5. Question: Find the sum of all the factors of 24.        (BECE 2013 Q5c)",
+            "5. Question: Find the sum of all the factors of 24.        (BECE 2013 Q5c)",
         answer: "**Correct Answer**\n\n⦿ Step 1: Find all the factors of 24.\n"
             "The factors of 24 are the whole numbers that divide into 24 exactly without leaving a remainder:\n"
             "Factors = {1, 2, 3, 4, 6, 8, 12, 24}\n\n"
@@ -2844,9 +2739,9 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "6. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
+            "6. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
         answer:
-        "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
+            "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
             "For 3:  3 = 3^1\n"
             "For 5:5 = 5^1\n"
             "For 9:9 = 3 x 3 = 3^2\n\n"
@@ -2867,7 +2762,7 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: (a) If a shop sells a pencil at ₵500.00 and a pen at ₵2,000.00:\n\n(i) If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?\n\n(ii) The price of a pencil is increased by 20% and a pen by 10%. Find how much she will pay for 10 pencils and 8 pens.\n(BECE 2002B Q2)",
+            "Question 1: (a) If a shop sells a pencil at ₵500.00 and a pen at ₵2,000.00:\n\n(i) If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?\n\n(ii) The price of a pencil is increased by 20% and a pen by 10%. Find how much she will pay for 10 pencils and 8 pens.\n(BECE 2002B Q2)",
         answer: "⦿ (i) Total cost for original quantities:\n"
             "⦁ Find the total spent on pencils: Multiply 8 pencils by the individual cost of ₵500.00.\n"
             "Cost of pencils = 8 × ₵500.00 = ₵4,000.00\n\n"
@@ -2877,11 +2772,11 @@ final Map<String, PracticeModel> becePracticeData = {
             "Total Paid = ₵4,000.00 + ₵10,000.00 = ₵14,000.00\n\n"
             "⦿ (ii) Total cost after price increases:\n"
             "⦁ Find the increased price of a pencil: Add 20% of the original price to itself.\n\n"
-        r"Increase amount = \frac{20}{100} × ₵500.00 = ₵100.00"
-        "\nNew price per pencil = ₵500.00 + ₵100.00 = ₵600.00\n\n"
+            r"Increase amount = \frac{20}{100} × ₵500.00 = ₵100.00"
+            "\nNew price per pencil = ₵500.00 + ₵100.00 = ₵600.00\n\n"
             "⦁ Find the increased price of a pen: Add 10% of the original price to itself.\n\n"
-        r"Increase amount = \frac{10}{100} × ₵2,000.00 = ₵200.00"
-        "\nNew price per pen = ₵2,000.00 + ₵200.00 = ₵2,200.00\n\n"
+            r"Increase amount = \frac{10}{100} × ₵2,000.00 = ₵200.00"
+            "\nNew price per pen = ₵2,000.00 + ₵200.00 = ₵2,200.00\n\n"
             "⦁ Calculate the new total cost for 10 pencils and 8 pens:\n\n"
             "Cost of 10 pencils = 10 × ₵600.00 = ₵6,000.00\n"
             "Cost of 8 pens = 8 × ₵2,200.00 = ₵17,600.00\n"
@@ -2890,65 +2785,65 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.     (BECE 2006 Q6b(i))",
+            r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.     (BECE 2006 Q6b(i))",
         answer: "⦿ Convert the mixed numbers to improper fractions:\n"
-        r"5\frac{1}{15} = \frac{(5 x 15) + 1}{15} = \frac{76}{15}"
-        "\n\n"
-        r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}"
-        "\n\n"
-        r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}"
-        "\n\n"
+            r"5\frac{1}{15} = \frac{(5 x 15) + 1}{15} = \frac{76}{15}"
+            "\n\n"
+            r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}"
+            "\n\n"
+            r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}"
+            "\n\n"
             "⦿ Express the standard equation:\n"
-        r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}"
-        "\n"
+            r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}"
+            "\n"
             "⦿ Find the Lowest Common Multiple (LCM):\n"
             "      The LCM of the denominators 15, 3, and 12 is 60.\n\n"
             "⦿ Combine fractions under a single denominator:\n\n"
-        r"\frac{76(4) − 8(20) + 17(5)}{60}"
-        "\n\n"
-        r"= \frac{304 − 160 + 85}{60}"
-        "\n\n"
-        r"= \frac{144 + 85}{60} = \frac{229}{60}"
-        "\n\n"
+            r"\frac{76(4) − 8(20) + 17(5)}{60}"
+            "\n\n"
+            r"= \frac{304 − 160 + 85}{60}"
+            "\n\n"
+            r"= \frac{144 + 85}{60} = \frac{229}{60}"
+            "\n\n"
             "⦿ Convert back to a mixed fraction:\n"
-        r"\frac{229}{60} = 3\frac{49}{60}",
+            r"\frac{229}{60} = 3\frac{49}{60}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 3: Simplify 7\frac{1}{3} − 4\frac{5}{6} + 2\frac{3}{8}.       (BECE 2008 Q6b)",
+            r"Question 3: Simplify 7\frac{1}{3} − 4\frac{5}{6} + 2\frac{3}{8}.       (BECE 2008 Q6b)",
         answer: "⦿ Convert the mixed fractions into improper fractions:\n\n"
-        r"7\frac{1}{3} = \frac{22}{3}, 4\frac{5}{6} = \frac{29}{6}, 2\frac{3}{8} = \frac{19}{8}"
-        "\n\n"
+            r"7\frac{1}{3} = \frac{22}{3}, 4\frac{5}{6} = \frac{29}{6}, 2\frac{3}{8} = \frac{19}{8}"
+            "\n\n"
             "⦿ Write down the expression:\n\n"
-        r"\frac{22}{3} − \frac{29}{6} + \frac{19}{8}"
-        "\n\n"
+            r"\frac{22}{3} − \frac{29}{6} + \frac{19}{8}"
+            "\n\n"
             "⦿ Determine the LCM:\n"
             "      The LCM of 3, 6, and 8 is 24.\n\n"
             "⦿ Adjust and simplify the numerators:\n\n"
-        r"\frac{22(8) − 29(4) + 19(3)}{24}"
-        "\n\n"
-        r"= \frac{176 − 116 + 57}{24}"
-        "\n\n"
-        r"= \frac{60 + 57}{24} = \frac{117}{24}"
-        "\n\n"
+            r"\frac{22(8) − 29(4) + 19(3)}{24}"
+            "\n\n"
+            r"= \frac{176 − 116 + 57}{24}"
+            "\n\n"
+            r"= \frac{60 + 57}{24} = \frac{117}{24}"
+            "\n\n"
             "⦿ Reduce the fraction and convert to a mixed number:\n"
             "⦿ Divide numerator and denominator by 3:\n"
-        r"\frac{(117 ÷ 3)}{(24 ÷ 3)} = \frac{39}{8}"
-        "\n"
+            r"\frac{(117 ÷ 3)}{(24 ÷ 3)} = \frac{39}{8}"
+            "\n"
             "⦿ Convert to mixed format:\n"
-        r"\frac{39}{8} = 4\frac{7}{8}",
+            r"\frac{39}{8} = 4\frac{7}{8}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
+            r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
         answer: "⦿ Eliminate trailing zeros to simplify the fraction:\n\n"
-        r"\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}"
-        "\n\n"
+            r"\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}"
+            "\n\n"
             "⦿ Simplify the factors of 12 and 8 by dividing by 4:\n\n"
-        r"\frac{(3 x 1260)}{2}"
-        "\n\n"
+            r"\frac{(3 x 1260)}{2}"
+            "\n\n"
             "⦿ Complete the division of 1260 by 2:\n\n"
             "3 x 630 = 1890\n\n"
             "⦿ Convert the product into standard scientific notation:\n\n"
@@ -2957,179 +2852,179 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        r"Question 5: An amount of GH₵4,200.00 was shared between Aba and Kwame. If Aba had \frac{5}{7} of the amount:"
-        "\n(i) How much did Kwame receive?\n"
+            r"Question 5: An amount of GH₵4,200.00 was shared between Aba and Kwame. If Aba had \frac{5}{7} of the amount:"
+            "\n(i) How much did Kwame receive?\n"
             "(ii) What percentage of Aba's share did Kwame receive?(BECE 2012 Q1b)",
         answer: "⦿ (i) Calculate Kwame's portion:\n"
             "⦁ Find Aba's share of the total:\n\n"
-        r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00"
-        "\n\n"
+            r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00"
+            "\n\n"
             "⦿ Deduct Aba's share from the total amount to find Kwame's share:\n\n"
             "Kwame’s Share = GH₵4,200.00 − GH₵3,000.00 = GH₵1,200.00\n\n"
             "⦿ (ii) Find Kwame's share as a percentage of Aba's share:\n"
             "⦿ Construct the percentage fraction:\n\n"
-        r"Percentage = \frac{Kwame’s share}{Aba’s share} x 100%"
-        "\n\n"
-        r"Percentage = \frac{1200}{3000} x 100% = \frac{12}{30} x 100% = \frac{2}{5} x 100% = 40%",
+            r"Percentage = \frac{Kwame’s share}{Aba’s share} x 100%"
+            "\n\n"
+            r"Percentage = \frac{1200}{3000} x 100% = \frac{12}{30} x 100% = \frac{2}{5} x 100% = 40%",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 6: Arrange \frac{8}{9}, \frac{2}{18}, \frac{10}{16} in ascending order of magnitude.     (BECE 2012 Q6(a)(ii))",
+            r"Question 6: Arrange \frac{8}{9}, \frac{2}{18}, \frac{10}{16} in ascending order of magnitude.     (BECE 2012 Q6(a)(ii))",
         answer:
-        "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
+            "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
             "⦿ The LCM of 9, 18, and 16 is 144.\n\n"
             "⦿ Convert each fraction to have the common denominator of 144:\n"
-        r"⦁ Convert \frac{8}{9}:"
-        "\n\n"
-        r"\frac{8 x 16}{9 x 16} = \frac{128}{144}"
-        "\n\n"
-        r"⦿ Convert \frac{2}{18}:"
-        "\n\n"
-        r"\frac{2 x 8}{18 x 8} = \frac{16}{144}"
-        "\n\n"
-        r"⦿ Convert \frac{10}{16}:"
-        '\n\n'
-        r"\frac{10 x 9}{16 x 9} = \frac{90}{144}"
-        "\n\n"
+            r"⦁ Convert \frac{8}{9}:"
+            "\n\n"
+            r"\frac{8 x 16}{9 x 16} = \frac{128}{144}"
+            "\n\n"
+            r"⦿ Convert \frac{2}{18}:"
+            "\n\n"
+            r"\frac{2 x 8}{18 x 8} = \frac{16}{144}"
+            "\n\n"
+            r"⦿ Convert \frac{10}{16}:"
+            '\n\n'
+            r"\frac{10 x 9}{16 x 9} = \frac{90}{144}"
+            "\n\n"
             "⦿ Compare the numerators to order them from smallest to largest:\n\n"
-        r"16 < 90 < 128 ⇒ \frac{16}{144} < \frac{90}{144} < \frac{128}{144}"
-        "\n\n"
+            r"16 < 90 < 128 ⇒ \frac{16}{144} < \frac{90}{144} < \frac{128}{144}"
+            "\n\n"
             "⦿ Rewrite with original fractions:\n\n"
-        r"\frac{2}{18}, \frac{10}{16}, \frac{8}{9}",
+            r"\frac{2}{18}, \frac{10}{16}, \frac{8}{9}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 7: Simplify 6(3\frac{5}{6} − 1\frac{1}{4}).       (BECE 2013 Q5a)",
+            r"Question 7: Simplify 6(3\frac{5}{6} − 1\frac{1}{4}).       (BECE 2013 Q5a)",
         answer:
-        "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
-        r"3\frac{5}{6} = \frac{23}{6}, 1\frac{1}{4} = \frac{5}{4}"
-        "\n\n"
+            "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
+            r"3\frac{5}{6} = \frac{23}{6}, 1\frac{1}{4} = \frac{5}{4}"
+            "\n\n"
             "⦿ Find a common denominator of 12 to subtract the fractions:\n\n"
-        r"\frac{23}{6} − \frac{5}{4} = \frac{23(2) − 5(3)}{12} = \frac{(46 − 15)}{12} = \frac{31}{12}"
-        "\n\n"
+            r"\frac{23}{6} − \frac{5}{4} = \frac{23(2) − 5(3)}{12} = \frac{(46 − 15)}{12} = \frac{31}{12}"
+            "\n\n"
             "⦿ Multiply the resulting fraction by the coefficient of 6 outside the parentheses:\n\n"
-        r"Result = 6 x \frac{31}{12} = \frac{31}{2}"
-        "\n\n"
+            r"Result = 6 x \frac{31}{12} = \frac{31}{2}"
+            "\n\n"
             "⦿ Convert the final improper fraction to a mixed number:\n\n"
-        r"\frac{31}{2} = 15\frac{1}{2}",
+            r"\frac{31}{2} = 15\frac{1}{2}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 8:A passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
+            "Question 8:A passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
         answer: "⦿ (i) Calculate the difference in allowed weight:\n"
             "⦿ Deduct the maximum limit of 20 kg from the actual accumulated weight of 22.0 kg:\n\n"
             "Excess weight = 22.0 kg − 20 kg = 2.0 kg\n\n"
             "⦿ (ii) Calculate the percentage value:\n"
             "⦿ Set up the excess weight over the total permitted weight limit:\n\n"
-        r"Percentage excess = \frac{2.0}{20} x 100% = \frac{1}{10} x 100% = 10%",
+            r"Percentage excess = \frac{2.0}{20} x 100% = \frac{1}{10} x 100% = 10%",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 9:(a) Express 250% as a fraction in its lowest term.\n"
-        r"(b) Simplify: 2 + (\frac{15}{64} ÷ \frac{6}{7}).       (BECE 2019 Q4a and Q4c)",
+            "Question 9:(a) Express 250% as a fraction in its lowest term.\n"
+            r"(b) Simplify: 2 + (\frac{15}{64} ÷ \frac{6}{7}).       (BECE 2019 Q4a and Q4c)",
         answer: "⦿ (a) Convert 250% to its simplest fraction form:\n"
             "     ⦁ Write the percentage out of 100:\n\n"
             "250/100\n\n"
             "⦿ Simplify by dividing both parts by their greatest common factor (50):\n\n"
-        r"\frac{250 ÷ 50)}{100 ÷ 50} = \frac{5}{2} = 2\frac{1}{2}"
-        "\n\n"
+            r"\frac{250 ÷ 50)}{100 ÷ 50} = \frac{5}{2} = 2\frac{1}{2}"
+            "\n\n"
             "⦿ (b) Process the bracket operation first:\n"
             "     ⦁ To divide by a fraction, multiply by its reciprocal:\n\n"
-        r"\frac{15}{64} ÷ \frac{6}{7} = \frac{15}{64} x \frac{7}{6}"
-        "\n\n"
+            r"\frac{15}{64} ÷ \frac{6}{7} = \frac{15}{64} x \frac{7}{6}"
+            "\n\n"
             "⦿ Simplify the fraction multiplication by dividing 15 and 6 by 3:\n\n"
-        r"\frac{5}{64} x \frac{7}{2} = \frac{35}{128}"
-        "\n\n"
+            r"\frac{5}{64} x \frac{7}{2} = \frac{35}{128}"
+            "\n\n"
             "⦿ Add the integer 2 to the fraction:\n\n"
-        r"2 + \frac{35}{128} = 2\frac{35}{128}",
+            r"2 + \frac{35}{128} = 2\frac{35}{128}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 10:Express \frac{13}{15} − \frac{7}{10} as a percentage.       (BECE 2020 Q3a)",
+            r"Question 10:Express \frac{13}{15} − \frac{7}{10} as a percentage.       (BECE 2020 Q3a)",
         answer: "⦿ Simplify the subtraction of fractions:\n"
             "     ⦁ The Lowest Common Multiple of 15 and 10 is 30.\n"
             "⦿ Standardise the numerators:\n\n"
-        r"\frac{13}{15} − \frac{7}{10} = \frac{13(2) − 7(3)}{30} = \frac{26 − 21}{30} = \frac{5}{30}"
-        "\n\n"
+            r"\frac{13}{15} − \frac{7}{10} = \frac{13(2) − 7(3)}{30} = \frac{26 − 21}{30} = \frac{5}{30}"
+            "\n\n"
             "⦿ Simplify the fraction:\n\n"
-        r"\frac{5}{30} = \frac{1}{6}"
-        "\n\n"
+            r"\frac{5}{30} = \frac{1}{6}"
+            "\n\n"
             "⦿ Convert the fraction to a percentage:\n"
-        r"⦿ Multiply \frac{1}{6} by 100%:"
-        "\n\n"
-        r"\frac{1}{6} x 100% = \frac{100}{6}% = \frac{50}{3}% = 16\frac{2}{3}% (or 16.67%)",
+            r"⦿ Multiply \frac{1}{6} by 100%:"
+            "\n\n"
+            r"\frac{1}{6} x 100% = \frac{100}{6}% = \frac{50}{3}% = 16\frac{2}{3}% (or 16.67%)",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 11: Antwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?(BECE 2021 Q4a)",
+            "Question 11: Antwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?(BECE 2021 Q4a)",
         answer: "⦿ Identify the quantity of ripe mangoes:\n"
             "⦿ Subtract the 7 unripe mangoes from the initial total of 25 mangoes:\n\n"
             "Ripe mangoes = 25 − 7 = 18\n\n"
             "⦿ Calculate the percentage representation:\n"
             "⦿ Create the proportion of ripe mangoes over total mangoes and multiply by 100%:\n\n"
-        r"Percentage = \frac{18}{25} x 100% = 18 x 4% = 72%",
+            r"Percentage = \frac{18}{25} x 100% = 18 x 4% = 72%",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        r"Question 12: Simplify: 1\frac{3}{4} − 2\frac{5}{6} − 1\frac{9}{10} + 4\frac{7}{8}.      (BECE 2023 Q1b)",
+            r"Question 12: Simplify: 1\frac{3}{4} − 2\frac{5}{6} − 1\frac{9}{10} + 4\frac{7}{8}.      (BECE 2023 Q1b)",
         answer: "⦿ Rewrite mixed numbers as improper fractions:\n\n"
-        r"1\frac{3}{4} = \frac{7}{4}, 2\frac{5}{6} = \frac{17}{6}, 1\frac{9}{10} = \frac{19}{10}, 4\frac{7}{8} = \frac{39}{8}"
-        "\n\n"
+            r"1\frac{3}{4} = \frac{7}{4}, 2\frac{5}{6} = \frac{17}{6}, 1\frac{9}{10} = \frac{19}{10}, 4\frac{7}{8} = \frac{39}{8}"
+            "\n\n"
             "⦿ Set up the structural expression:\n\n"
-        r"\frac{7}{4} − \frac{17}{6} − \frac{19}{10} + \frac{39}{8}"
-        "\n"
+            r"\frac{7}{4} − \frac{17}{6} − \frac{19}{10} + \frac{39}{8}"
+            "\n"
             "⦿ Evaluate using the LCM of the denominators:\n"
             "⦿ Find the LCM of 4, 6, 10, and 8, which is 120.\n"
             "⦿ Apply multiplier adjustment to numerators:\n\n"
-        r"\frac{7(30) − 17(20) − 19(12) + 39(15)}{120}"
-        "\n\n"
-        r"= \frac{210 − 340 − 228 + 585}{120}"
-        "\n\n"
+            r"\frac{7(30) − 17(20) − 19(12) + 39(15)}{120}"
+            "\n\n"
+            r"= \frac{210 − 340 − 228 + 585}{120}"
+            "\n\n"
             "⦿ Consolidate values in the numerator:\n"
             "⦿ 210 − 340 = −130\n"
             "⦿ −130 − 228 = −358\n"
             "⦿ −358 + 585 = 227\n\n"
             "⦿ Express in final mixed fraction format:\n\n"
-        r"\frac{227}{120} = 1\frac{107}{120}",
+            r"\frac{227}{120} = 1\frac{107}{120}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 13: If 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
+            "Question 13: If 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
         answer: "⦿ Determine the total length (100%) of the rope first:\n"
             "⦿ If 15% corresponds to 720 m, calculate 100%:\n\n"
-        r"Total length = (100% / 15%) x 720 m = \frac{100}{15} x 720 m"
-        "\n\n"
+            r"Total length = (100% / 15%) x 720 m = \frac{100}{15} x 720 m"
+            "\n\n"
             "⦿ Simplify the multiplication and division:\n\n"
             "720 ÷ 15 = 48 ⇒ Total length = 100 x 48 = 4,800 m\n\n"
             "⦿ Find half of this total length:\n\n"
-        r"Half length = \frac{1}{2} x 4,800 m = 2,400 m",
+            r"Half length = \frac{1}{2} x 4,800 m = 2,400 m",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 14: A polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?    (BECE 2025 Q3b)",
+            "Question 14: A polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?    (BECE 2025 Q3b)",
         answer: "⦿ (i) Find the exact cleaning volume used:\n"
             "⦿ Multiply the fractional usage by the total liquid storage amount:\n\n"
-        r"Volume used = \frac{1}{5} x 4,500 litres = 900 litres"
-        "\n\n"
+            r"Volume used = \frac{1}{5} x 4,500 litres = 900 litres"
+            "\n\n"
             "⦿ (ii) Find the remaining volume percentage:\n"
             "⦿ Calculate the volume remaining in the polytank:\n\n"
             "Volume remaining = 4,500 litres − 900 litres = 3,600 litres\n\n"
             "⦿ Convert the remaining volume to a percentage of the total original volume:\n\n"
-        r"Percentage left = \frac{3,600}{4,500} x 100%"
-        "\n\n"
+            r"Percentage left = \frac{3,600}{4,500} x 100%"
+            "\n\n"
             "⦿ Simplify by dividing both parts by their common factor of 900:\n\n"
-        r"Percentage left = \frac{4}{5} x 100% = 4 x 20% = 80%"
-        "\n\n"
-        r"⦿ Alternative verification: If \frac{1}{5} is used, then 1 − \frac{1}{5} = \frac{4}{5} remains. Converting \frac{4}{5} to a percentage yields \frac{4}{5} x 100% = 80%.",
+            r"Percentage left = \frac{4}{5} x 100% = 4 x 20% = 80%"
+            "\n\n"
+            r"⦿ Alternative verification: If \frac{1}{5} is used, then 1 − \frac{1}{5} = \frac{4}{5} remains. Converting \frac{4}{5} to a percentage yields \frac{4}{5} x 100% = 80%.",
         explanation: "",
       ),
     ],
@@ -3139,39 +3034,38 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        r"Question 1: Three school children share some oranges as follows: Akwasi gets \frac{1}{3} of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?"
-        "\n(BECE 1991 Q1b)",
-        answer:
-        "⦿ Define the variable:\n"
+            r"Question 1: Three school children share some oranges as follows: Akwasi gets \frac{1}{3} of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?"
+            "\n(BECE 1991 Q1b)",
+        answer: "⦿ Define the variable:\n"
             "⦁ Let the total number of oranges be y.\n\n"
             "⦿ Calculate Akwasi's share:\n"
-        r"⦁ Akwasi's share = \frac{1}{3} × y"
-        "\n\n"
+            r"⦁ Akwasi's share = \frac{1}{3} × y"
+            "\n\n"
             "⦿ Find the remainder:\n"
-        r"⦁ Remainder = y - \frac{1}{3}y = \frac{2}{3}y"
-        "\n\n"
+            r"⦁ Remainder = y - \frac{1}{3}y = \frac{2}{3}y"
+            "\n\n"
             "⦿ Share the remainder:\n"
             "⦁ Abena : Jantuah = 3 : 2\n"
             "⦁ Total parts = 3 + 2 = 5\n"
-        r"⦁ Jantuah's share = \frac{2}{5} × \frac{2}{3}y"
-        "\n\n"
+            r"⦁ Jantuah's share = \frac{2}{5} × \frac{2}{3}y"
+            "\n\n"
             "⦿ Form the equation:\n"
-        r"\frac{2}{5} × \frac{2}{3}y = 24"
-        "\n"
-        r"\frac{4}{15}y = 24"
-        "\n\n"
+            r"\frac{2}{5} × \frac{2}{3}y = 24"
+            "\n"
+            r"\frac{4}{15}y = 24"
+            "\n\n"
             "⦿ Solve for y:\n"
             "4y = 24 × 15 = 360\n"
             "y = 360 ÷ 4 = 90 oranges\n\n"
             "⦿ Calculate Akwasi's share:\n"
-        r"Akwasi's share = \frac{1}{3} × 90 = 30 oranges"
-        "\n\n"
+            r"Akwasi's share = \frac{1}{3} × 90 = 30 oranges"
+            "\n\n"
             "Answer = 30 oranges",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: The cost of sending a telegram is ₵500.00 for the first 12 words and ₵25.00 for every extra word. Find the cost of sending a telegram containing 20 words.\n(BECE 1996 Q2b)",
+            "Question 2: The cost of sending a telegram is ₵500.00 for the first 12 words and ₵25.00 for every extra word. Find the cost of sending a telegram containing 20 words.\n(BECE 1996 Q2b)",
         answer: "⦿ Cost of the first 12 words:\n"
             "⦁ = ₵500.00\n\n"
             "⦿ Calculate the extra words:\n"
@@ -3185,22 +3079,21 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        r"Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got \frac{1}{4} of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively."
-        "\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
-        answer:
-        "⦿ Calculate Kwabena's share:\n"
-        r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
-        "\n\n"
+            r"Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got \frac{1}{4} of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively."
+            "\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
+        answer: "⦿ Calculate Kwabena's share:\n"
+            r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
+            "\n\n"
             "⦿ Find the remainder:\n"
             "⦁ Remaining oranges = 160 - 40 = 120 oranges\n\n"
             "⦿ Total ratio parts:\n"
             "⦁ 3 + 2 = 5 parts\n\n"
             "⦿ (i) Find Esi's share:\n"
-        r"⦁ Esi's share = \frac{3}{5} × 120 = 72 oranges"
-        "\n\n"
+            r"⦁ Esi's share = \frac{3}{5} × 120 = 72 oranges"
+            "\n\n"
             "⦿ (ii) Find Yaw's share:\n"
-        r"⦁ Yaw's share = \frac{2}{5} × 120 = 48 oranges"
-        "\n\n"
+            r"⦁ Yaw's share = \frac{2}{5} × 120 = 48 oranges"
+            "\n\n"
             "⦁ Difference = 48 - 40 = 8 oranges\n\n"
             "(i) Answer = 72 oranges\n"
             "(ii) Answer = 8 oranges",
@@ -3208,21 +3101,21 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 4: Three numbers are in the ratio 2:3:4 and their average is 36.\n\n(i) Calculate the sum of the three numbers.\n(ii) Find the greatest number.\n(BECE 2002A Q1a)",
+            "Question 4: Three numbers are in the ratio 2:3:4 and their average is 36.\n\n(i) Calculate the sum of the three numbers.\n(ii) Find the greatest number.\n(BECE 2002A Q1a)",
         answer: "⦿ (i) Calculate the sum:\n"
             "⦁ Average = Sum ÷ 3\n"
             "⦁ Sum = 36 × 3 = 108\n\n"
             "⦿ (ii) Find the greatest number:\n"
             "⦁ Total ratio parts = 2 + 3 + 4 = 9\n"
-        r"⦁ Greatest number = \frac{4}{9} × 108 = 48"
-        "\n\n"
+            r"⦁ Greatest number = \frac{4}{9} × 108 = 48"
+            "\n\n"
             "(i) Answer = 108\n"
             "(ii) Answer = 48",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 5: A boy has enough money to buy 14 pencils at ₵450.00 each. How many erasers costing ₵300.00 each can he buy with the same amount of money?\n(BECE 2005 Q1a)",
+            "Question 5: A boy has enough money to buy 14 pencils at ₵450.00 each. How many erasers costing ₵300.00 each can he buy with the same amount of money?\n(BECE 2005 Q1a)",
         answer: "⦿ Calculate the total money:\n"
             "⦁ Total money = 14 × ₵450.00 = ₵6,300.00\n\n"
             "⦿ Let y be the number of erasers.\n\n"
@@ -3233,11 +3126,11 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 6: The ratio of men to women in a village is 12:25. If there are 120 men:\n\n(i) How many women are there?\n(ii) What is the total number of men and women?\n(BECE 2006 Q2a)",
+            "Question 6: The ratio of men to women in a village is 12:25. If there are 120 men:\n\n(i) How many women are there?\n(ii) What is the total number of men and women?\n(BECE 2006 Q2a)",
         answer: "⦿ (i) Find the number of women:\n"
             "⦁ Let x represent the number of women.\n\n"
-        r"⦁ \frac{120}{x} = \frac{12}{25}"
-        "\n\n"
+            r"⦁ \frac{120}{x} = \frac{12}{25}"
+            "\n\n"
             "⦁ 12x = 120 × 25\n"
             "⦁ x = (120 × 25) ÷ 12 = 250 women\n\n"
             "⦿ (ii) Find the total population:\n"
@@ -3249,7 +3142,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 7: Mr. Jones used 173 units of electricity last month. If the charge for the first 110 units was ₵150 per unit and ₵200 per unit for the rest, calculate the total bill for Mr. Jones.\n(BECE 2007 Q5a)",
+            "Question 7: Mr. Jones used 173 units of electricity last month. If the charge for the first 110 units was ₵150 per unit and ₵200 per unit for the rest, calculate the total bill for Mr. Jones.\n(BECE 2007 Q5a)",
         answer: "⦿ Calculate the cost of the first 110 units:\n"
             "⦁ 110 × ₵150 = ₵16,500.00\n\n"
             "⦿ Calculate the remaining units:\n"
@@ -3263,7 +3156,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 8: A typist charges 28Gp for the first five sheets and 8Gp for each additional sheet she types. How much will she charge for typing 36 sheets?\n(BECE 2008 Q1c)",
+            "Question 8: A typist charges 28Gp for the first five sheets and 8Gp for each additional sheet she types. How much will she charge for typing 36 sheets?\n(BECE 2008 Q1c)",
         answer: "⦿ Charge for the first 5 sheets:\n"
             "⦁ = 28Gp\n\n"
             "⦿ Calculate the additional sheets:\n"
@@ -3279,10 +3172,10 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 9: The ratio of the sheep to goats on a farm is 4:7. If there are 1,428 sheep, find how many goats are on the farm.\n(BECE 2009 Q4a)",
+            "Question 9: The ratio of the sheep to goats on a farm is 4:7. If there are 1,428 sheep, find how many goats are on the farm.\n(BECE 2009 Q4a)",
         answer: "⦿ Let y represent the number of goats.\n\n"
-        r"⦁ \frac{1428}{y} = \frac{4}{7}"
-        "\n\n"
+            r"⦁ \frac{1428}{y} = \frac{4}{7}"
+            "\n\n"
             "⦁ 4y = 1,428 × 7\n"
             "⦁ 4y = 9,996\n"
             "⦁ y = 9,996 ÷ 4 = 2,499 goats\n\n"
@@ -3291,10 +3184,10 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 10: The selling price of a gas cooker is GH¢450.00. If a customer is allowed a discount of 20%, calculate the:\n\n(i) Discount.\n(ii) Amount paid by the customer.\n(BECE 2016 Q4b)",
+            "Question 10: The selling price of a gas cooker is GH¢450.00. If a customer is allowed a discount of 20%, calculate the:\n\n(i) Discount.\n(ii) Amount paid by the customer.\n(BECE 2016 Q4b)",
         answer: "⦿ (i) Calculate the discount:\n"
-        r"⦁ Discount = \frac{20}{100} × 450.00 = GH¢90.00"
-        "\n\n"
+            r"⦁ Discount = \frac{20}{100} × 450.00 = GH¢90.00"
+            "\n\n"
             "⦿ (ii) Calculate the amount paid:\n"
             "⦁ Amount Paid = Selling Price - Discount\n"
             "⦁ Amount Paid = GH¢450.00 - GH¢90.00 = GH¢360.00\n\n"
@@ -3304,13 +3197,12 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 11: A property worth GH₵10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
-        answer:
-        "⦿ Determine the total ratio parts:\n"
+            "Question 11: A property worth GH₵10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
+        answer: "⦿ Determine the total ratio parts:\n"
             "⦁ Total parts = 1 + 4 = 5 parts\n\n"
             "⦿ Calculate the children's total share:\n"
-        r"⦁ Children's share = \frac{4}{5} × GH₵10,480.00 = GH₵8,384.00"
-        "\n\n"
+            r"⦁ Children's share = \frac{4}{5} × GH₵10,480.00 = GH₵8,384.00"
+            "\n\n"
             "⦿ Calculate each child's share:\n"
             "⦁ Each child's share = GH₵8,384.00 ÷ 10 = GH₵838.40\n\n"
             "Answer = GH₵838.40",
@@ -3318,11 +3210,11 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 12: The ratio of boys to girls in a school is 12:25. If there are 120 boys, find:\n\n(i) How many girls are in the school?\n(ii) What is the total number of boys and girls in the school?\n(BECE 2019 Q2b)",
+            "Question 12: The ratio of boys to girls in a school is 12:25. If there are 120 boys, find:\n\n(i) How many girls are in the school?\n(ii) What is the total number of boys and girls in the school?\n(BECE 2019 Q2b)",
         answer: "⦿ (i) Find the number of girls:\n"
             "⦁ Let x represent the number of girls.\n\n"
-        r"⦁ \frac{120}{x} = \frac{12}{25}"
-        "\n\n"
+            r"⦁ \frac{120}{x} = \frac{12}{25}"
+            "\n\n"
             "⦁ 12x = 120 × 25\n"
             "⦁ x = (120 × 25) ÷ 12 = 250 girls\n\n"
             "⦿ (ii) Calculate the total number of students:\n"
@@ -3334,16 +3226,15 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 13: Esi and Kofi shared an amount of GH₵21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
-        answer:
-        "⦿ Determine the total ratio parts:\n"
+            "Question 13: Esi and Kofi shared an amount of GH₵21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
+        answer: "⦿ Determine the total ratio parts:\n"
             "⦁ Total parts = 2 + 5 = 7 parts\n\n"
             "⦿ Calculate Esi's share:\n"
-        r"⦁ Esi's share = \frac{2}{7} × GH₵21,000.00 = GH₵6,000.00"
-        "\n\n"
+            r"⦁ Esi's share = \frac{2}{7} × GH₵21,000.00 = GH₵6,000.00"
+            "\n\n"
             "⦿ Calculate Kofi's share:\n"
-        r"⦁ Kofi's share = \frac{5}{7} × GH₵21,000.00 = GH₵15,000.00"
-        "\n\n"
+            r"⦁ Kofi's share = \frac{5}{7} × GH₵21,000.00 = GH₵15,000.00"
+            "\n\n"
             "⦿ Calculate how much more Kofi received:\n"
             "⦁ Difference = GH₵15,000.00 - GH₵6,000.00 = GH₵9,000.00\n\n"
             "Answer = GH¢₵9,000.00",
@@ -8385,7 +8276,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-"Science JHS3 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
+  "Science JHS3 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
       PracticeModel(
     audioPath: '',
     questions: [
@@ -8637,7 +8528,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
 
   "Science JHS1 s3 ss2 - Solar System": PracticeModel(
     audioPath: '',
@@ -9328,8 +9218,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  
-   "Science JHS2 s3 ss4 - Land and Crop Management Practices": PracticeModel(
+
+  "Science JHS2 s3 ss4 - Land and Crop Management Practices": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -9402,7 +9292,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-   "Science JHS3 s3 ss4 - Land and Crop Management Practices": PracticeModel(
+  "Science JHS3 s3 ss4 - Land and Crop Management Practices": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -9937,7 +9827,8 @@ final Map<String, PracticeModel> becePracticeData = {
   ),
 
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes": PracticeModel(
+  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -10048,9 +9939,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: (a) Explain the usefulness of the following as created by God:\n"
+        scenario:
+            "Question 5: (a) Explain the usefulness of the following as created by God:\n"
             "(i) plants;\n"
             "(ii) sea, moon, stars.\n"
             "(b) What four steps can you take to preserve the plants in the environment?\n"
@@ -10100,7 +9991,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
+        scenario:
+            "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
             "(b) State two moral implication of the attributes of God mentioned in (a).\n"
             "(BECE 2006 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10132,7 +10024,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
+        scenario:
+            "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
             "(b) State three ways in which humankind is useful to God.\n"
             "(BECE 2008 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10165,9 +10058,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Humankind also ensures that God's creation such as fruits, herbs, plants, etc. do not become useless by using them for food, medicine, etc.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 9: (a) Narrate the covenant God made with Abraham.\n"
             "(b) What three lessons can be learnt from God's covenant?\n"
             "(BECE 2009 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10204,9 +10097,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 10: (a) Outline two uses each of the following things created by God:\n"
+        scenario:
+            "Question 10: (a) Outline two uses each of the following things created by God:\n"
             "(i) rivers;\n"
             "(ii) sun;\n"
             "(iii) plants.\n"
@@ -10236,8 +10129,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Preserve the forest by educating the general public about the effects of excessive felling of trees.\n"
             "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
         explanation: ".",
-      ),PracticeQuestion(
-        scenario: "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
             "(b) State three attributes of God according to the Akan.\n"
             "(BECE 2018 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10261,9 +10156,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Source of life and death: God is the originator of life and death.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 12: (a) Narrate the covenant God made with Abraham.\n"
             "(b) What three lessons can be learnt from God's covenant with Abraham?\n"
             "(BECE 2018 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10300,9 +10195,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 13: (a) Describe how God created mankind according to the Bible.\n"
+        scenario:
+            "Question 13: (a) Describe how God created mankind according to the Bible.\n"
             "(b) State three reasons for which mankind was created.\n"
             "(BECE 2020 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10329,7 +10224,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 14: (a) Narrate how God created lights according to the Bible.\n"
+        scenario:
+            "Question 14: (a) Narrate how God created lights according to the Bible.\n"
             "(b) State four responsibilities of man toward God's creation.\n"
             "(BECE 2021 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10353,9 +10249,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Man is responsible to ensure promote environmental cleanliness / preservation of water bodies such as rivers, lakes, streams, etc and protect human human and animal polluted through human and animal activities like washing, bathing or defecating into water bodies.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 15: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 15: (a) Narrate the covenant God made with Abraham.\n"
             "(b) State three lessons that can be learnt from the covenant.\n"
             "(BECE 2022 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10394,11 +10290,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance": PracticeModel(
+  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
+        scenario:
+            "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
             "(b) Give three reasons why the festival is celebrated.\n"
             "(BECE 1999 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10422,7 +10320,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
+        scenario:
+            "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
             "(BECE 2016 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
             "⦿ **Homowo**: Celebrated by the Ga-Adangme of the Greater Accra Region.\n"
@@ -10483,7 +10382,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
+        scenario:
+            "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
             "(b) List four factors to be considered in choosing a name for a child.\n"
             "(BECE 2005 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10499,7 +10399,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
+        scenario:
+            "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
             "(b) State three things which make marriage successful.\n"
             "(BECE 2007 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10519,7 +10420,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 8: (a) Explain four major causes of death in your country.\n"
+        scenario:
+            "Question 8: (a) Explain four major causes of death in your country.\n"
             "(b) What four steps can be taken to prevent such deaths?\n"
             "(BECE 2021 Q3)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10536,7 +10438,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience": PracticeModel(
+  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -10578,9 +10481,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It brings unity among family members.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: (a) State four features of traditional religious homes.\n"
+        scenario:
+            "Question 2: (a) State four features of traditional religious homes.\n"
             "(b) State four benefits that can be derived from interacting with members of other religions.\n"
             "(BECE 2011 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10604,9 +10507,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It helps to ensure development in the country.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) List four factors that promote good family relationship.\n"
+        scenario:
+            "Question 3: (a) List four factors that promote good family relationship.\n"
             "(b) Explain any four benefits/healthy relationship among family members.\n"
             "(BECE 2014 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10630,7 +10533,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) State any four duties a child must perform in the family.\n"
+        scenario:
+            "Question 4: (a) State any four duties a child must perform in the family.\n"
             "(b) Explain any four reasons why an individual needs to constantly examine himself or herself.\n"
             "(BECE 2016 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10652,9 +10556,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To avoid deception by people with dubious characters.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
+        scenario:
+            "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
             "(BECE 2018 Q7)",
         answer: "Correct Answer:\n"
             "⦿ The entire family suffers when parents and children refuse to perform their duties.\n"
@@ -10663,9 +10567,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ When parents and children refuse to perform their duties, they become a liability to both old and young.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
+        scenario:
+            "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
             "(b) State four importance of peaceful co-existence among people?\n"
             "(BECE 2022 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10710,9 +10614,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ In order to avoid punishment.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
+        scenario:
+            "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
             "(b) Why is it necessary for you to perform these duties?\n"
             "(BECE 2001 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10733,9 +10637,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To prepare for future adult responsibilities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) State four reasons why people avoid responsibilities.\n"
+        scenario:
+            "Question 9: (a) State four reasons why people avoid responsibilities.\n"
             "(b) Explain four reasons why rules and regulations are important.\n"
             "(BECE 2008 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10757,8 +10661,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To bring about national peace and discipline in the society.\n"
             "⦿ In order to avoid punishment.",
         explanation: ".",
-      ),PracticeQuestion(
-        scenario: "Question 10: State five rules that govern behaviour in the classroom.\n"
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 10: State five rules that govern behaviour in the classroom.\n"
             "(BECE 2018 Q8)",
         answer: "Correct Answer:\n"
             "⦿ Do not steal or cheat in class.\n"
@@ -10769,7 +10675,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Do not insult a colleague in a classroom.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 11: (a) What are Religious Youth Organizations?\n"
             "(b) Mention any five functions of such youth organizations in youth community.\n"
@@ -10790,9 +10695,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It provides the forum for discussing youth problems.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
+        scenario:
+            "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
             "(BECE 2012 Q8)",
         answer: "Correct Answer:\n"
             "⦿ They bring the youth together to organize their social programs.\n"
@@ -10804,7 +10709,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
+        scenario:
+            "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
             "(b) State four benefits of joining Religious Youth Organizations.\n"
             "(BECE 2017 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -10826,20 +10732,22 @@ final Map<String, PracticeModel> becePracticeData = {
       )
     ],
   ),
-  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": PracticeModel(
+  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: Describe three contributions of Caliph Abu Bakr.",
+        scenario:
+            "Question 1: Describe three contributions of Caliph Abu Bakr.",
         answer: "Correct Answer:\n"
             "⦿ He compiled the collection of the verses of the Quran into a single book: Abu Bakr organised the collection of the written pieces of the Quran after many of the memorisers died in battle, ensuring the preservation of the holy text.\n"
             "⦿ He helped to build the Mosque at Medina: He contributed physically and financially to the establishment and construction of the Prophet's mosque.\n"
             "⦿ He spent his wealth to help the poor: He was noted for his immense generosity, giving away his money and property to support the needy and invite people to Allah in a peaceful manner.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: State five contributions of Caliph Umar to Islam.",
+        scenario:
+            "Question 2: State five contributions of Caliph Umar to Islam.",
         answer: "Correct Answer:\n"
             "⦿ He introduced the Islamic calendar: He set up the Hijrah calendar system starting from the year the Prophet migrated from Mecca to Medina.\n"
             "⦿ He established schools: He set up educational structures for teaching the Holy Qur'an across all the conquered states and territories.\n"
@@ -10848,16 +10756,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He organised the standing army: He created a structured military force with regular cantonments and a registration system, ensuring soldiers were well paid and their families taken care of.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: State three moral lessons that can be learnt from the life of Caliph Abu Bakr.",
+        scenario:
+            "Question 3: State three moral lessons that can be learnt from the life of Caliph Abu Bakr.",
         answer: "Correct Answer:\n"
             "⦿ Loyalty: He was deeply attached and committed to the religion of Islam and the Prophet.\n"
             "⦿ Generosity: He donated to support the course of Islam and help the needy in society.\n"
             "⦿ Truthfulness: He was observant of the true teachings of Islam and stood by the truth at all times.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 4: Write three important facts about Toha Zie.",
         answer: "Correct Answer:\n"
@@ -10866,16 +10773,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He was an ancestral leader: He is remembered as an important founding leader among the Dagombas and related ethnic groups in Northern Ghana.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Write three lessons that could be learnt from the life of the personality you wrote about in (d) above (Toha Zie).",
+        scenario:
+            "Question 5: Write three lessons that could be learnt from the life of the personality you wrote about in (d) above (Toha Zie).",
         answer: "Correct Answer:\n"
             "⦿ Bravery: He faced dangerous situations and wild beasts to protect his people.\n"
             "⦿ Selflessness: He was willing to risk his own life to save others from danger.\n"
             "⦿ Commitment to community: He used his skills as a hunter and warrior to serve and defend his society.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 6: Outline three contributions of Caliph Ali.",
         answer: "Correct Answer:\n"
@@ -10884,18 +10790,18 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He promoted education and transcription: He actively taught the Quran and helped transcribe its verses, keeping the knowledge of Islam alive for the community.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 7: What three lessons can be learnt from the trial of Moses?",
+        scenario:
+            "Question 7: What three lessons can be learnt from the trial of Moses?",
         answer: "Correct Answer:\n"
             "⦿ Patience and Perseverance: Moses had to endure many difficulties, including wandering in the wilderness, which teaches students to stay resilient during tough times.\n"
             "⦿ Faith and Trust in God: Even when facing the Red Sea or lack of food, Moses trusted God's guidance, proving that faith can overcome seemingly impossible obstacles.\n"
             "⦿ Humility and Obedience: Moses listened to God's commands at the burning bush and accepted his role, demonstrating that true leadership requires serving a higher purpose with humility.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: Write four important facts about Tweneboa Kodua.",
+        scenario:
+            "Question 8: Write four important facts about Tweneboa Kodua.",
         answer: "Correct Answer:\n"
             "⦿ He was the chief of Kumawu: Tweneboa Kodua was a prominent traditional ruler who governed the people of Kumawu.\n"
             "⦿ He sacrificed his life for the Asante Kingdom: He voluntarily offered himself as a human sacrifice during the war against the Denkyiras to ensure Asante victory.\n"
@@ -10903,9 +10809,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He is remembered as a national hero: His act of ultimate patriotism makes him a symbol of selflessness and bravery in Ghanaian history.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: State four moral lessons that can be learnt from the life of Tweneboa Kodua.",
+        scenario:
+            "Question 9: State four moral lessons that can be learnt from the life of Tweneboa Kodua.",
         answer: "Correct Answer:\n"
             "⦿ Patriotism: He demonstrated an extreme love for his nation by putting his country's survival above his own life.\n"
             "⦿ Selflessness: He was willing to die so that thousands of his fellow citizens could live in freedom.\n"
@@ -10915,11 +10821,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s5 ss1 - Religious Practices": PracticeModel(
+  "Religious & Moral Education JHS1 s5 ss1 - Religious Practices":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: Describe how Wudu (Ablution) in Islam is performed.\n"
+        scenario:
+            "Question 1: Describe how Wudu (Ablution) in Islam is performed.\n"
             "(BECE 2002 Q1b)",
         answer: "Correct Answer:\n"
             "⦿ Get clean water and say 'Bismillah' in the name of Allah.\n"
@@ -10934,7 +10842,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Wash your feet three times up to the ankles, starting with the right then the left.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 2: Explain the significance of taboos.\n"
             "(BECE 2003 Q13)",
@@ -10947,7 +10854,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ They preserve a continuous stream of respect and honor for the ancestral spirits.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 3: What is prayer?\n"
             "(BECE 2005 Q12)",
@@ -10957,9 +10863,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It simply means talking directly to God or connecting closely with one's chosen object of worship.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 4: State the importance of prayer to the traditional worshipper.\n"
+        scenario:
+            "Question 4: State the importance of prayer to the traditional worshipper.\n"
             "(BECE 2005 Q12)",
         answer: "Correct Answer:\n"
             "⦿ It serves as the primary structural avenue that helps the worshipper to deeply honor the Supreme Being.\n"
@@ -10973,9 +10879,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Worshippers utilize worship as a trusted avenue to ask for lasting blessings, agricultural prosperity, and community protection.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Describe five ways that one can show good manners.\n"
+        scenario:
+            "Question 5: Describe five ways that one can show good manners.\n"
             "(BECE 1999 Q25)",
         answer: "Correct Answer:\n"
             "⦿ Greeting people respectfully in houses, offices, workplaces, and public squares without necessarily considering their ages or familiarities.\n"
@@ -10989,9 +10895,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Dressing decently and modestly at all times, ensuring both males and females dress responsibly in public.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: Describe any four ways of showing courtesy in your community.\n"
+        scenario:
+            "Question 6: Describe any four ways of showing courtesy in your community.\n"
             "(BECE 2000 Q27)",
         answer: "Correct Answer:\n"
             "⦿ Avoiding unnecessary grumbling, toxic arguments, and physical fighting with neighbors.\n"
@@ -11003,11 +10909,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living": PracticeModel(
+  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Explain four reasons why students abuse drugs.\n"
+        scenario:
+            "Question 1: (a) Explain four reasons why students abuse drugs.\n"
             "(b) State three effects of substance abuse.\n"
             "(BECE 2005 Q4)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11041,9 +10949,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Legal prosecution and imprisonment risk: The use of substances such as marijuana, cocaine, etc. is described as illegal in the laws of Ghana. This means that the users face the risks of arrest, prosecution and imprisonment if they are reported to police.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: (a) What four reasons do students give for abusing drugs?\n"
+        scenario:
+            "Question 2: (a) What four reasons do students give for abusing drugs?\n"
             "(b) State three defensive skills you would use to protect yourself against substance abuse.\n"
             "(BECE 2007 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11063,9 +10971,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Prioritising medical approval: Consulting a certified doctor before taking any health remedies to avoid self-medication bottlenecks.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) State three dangers associated with self-medication.\n"
+        scenario:
+            "Question 3: (a) State three dangers associated with self-medication.\n"
             "(b) Suggest four ways of checking trade in drugs.\n"
             "(BECE 2015 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11117,7 +11025,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Unlocking individual potential: It establishes a stellar reputation, opening clean avenues for personal networks and job opportunities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 5: (a) State four ways of dressing decently.\n"
             "(b) Explain four reasons why an individual needs to dress decently.\n"
@@ -11144,9 +11051,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It fosters public leadership trust: It gives elders and institutions confidence to choose you for important leadership positions.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) Explain four causes of substance abuse by students.\n"
+        scenario:
+            "Question 6: (a) Explain four causes of substance abuse by students.\n"
             "(b) State four defensive skills that can be used to protect oneself against the abuse of drugs.\n"
             "(BECE 2018 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11179,7 +11086,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Ensuring continuous peace: It avoids unnecessary stress, leading to a calm and productive neighborhood environment.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 8: (a) State four effects of substance abuse.\n"
             "(b) Explain any four reasons for which substance abuse should be avoided.\n"
@@ -11199,9 +11105,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To build national productivity: Maintaining a healthy body and sharp mind enables you to work efficiently, helping to drive the economic growth of your community and country.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) Highlight four causes of substance abuse by students.\n"
+        scenario:
+            "Question 9: (a) Highlight four causes of substance abuse by students.\n"
             "(b) Describe four ways in which substance abuse can be prevented.\n"
             "(BECE 2021 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11226,7 +11132,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Banning illicit drug commerce: Writing and enforcing strict laws that outlaw any unauthorized sale or distribution of addictive chemicals.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 10: List four effects of substance abuse.\n"
             "(BECE 2022 Q6b)",
@@ -11237,9 +11142,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Loss of livelihood and opportunities: It ruins your social reputation, causing you to lose friends, jobs, educational admissions, and community respect.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 11: Identify four importance of decent dressing in society.\n"
+        scenario:
+            "Question 11: Identify four importance of decent dressing in society.\n"
             "(BECE 2023 Q6a)",
         answer: "Correct Answer:\n"
             "⦿ It shows good upbringing: It serves as clear, visible proof that a student has received proper home training and sound moral guidance from their parents.\n"
@@ -11250,7 +11155,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s6 ss1 - Objective Questions": PracticeModel(
+  "Religious & Moral Education JHS1 s6 ss1 - Objective Questions":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -11270,7 +11176,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Honesty and truth at work place — Maintaining transparent operations protects organizational resources and builds strong institutional trust.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 2: (a) Identify any three types of work.\n"
             "(b) Describe any four ways by which the spirit of hard work can be developed.\n"
@@ -11287,9 +11192,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Develop a positive attitude towards work — Focusing on the rewards, personal growth, and societal impacts of your tasks builds an inner drive and endurance.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) Give five reasons why money is very important in our lives.\n"
+        scenario:
+            "Question 3: (a) Give five reasons why money is very important in our lives.\n"
             "(b) Describe how one can earn money in an honest way.\n"
             "(BECE 2003 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11306,7 +11211,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) How is leisure time different from idleness?\n"
+        scenario:
+            "Question 4: (a) How is leisure time different from idleness?\n"
             "(b) Identify five ways in which you can use your leisure time profitably.\n"
             "(BECE 2004 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11322,9 +11228,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Seeking counseling and guidance — Seeking advice during open hours helps resolve hidden dilemmas and structures personal planning.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: (a) Give four reasons why one should support religious groups with one's money.\n"
+        scenario:
+            "Question 5: (a) Give four reasons why one should support religious groups with one's money.\n"
             "(b) List four instances where such monies are misused by religious leaders.\n"
             "(BECE 2006 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11343,9 +11249,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Extravagant overspending — Spending church resources on unnecessary personal items, drinking, or running after women.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) State three types of work carried out in your community.\n"
+        scenario:
+            "Question 6: (a) State three types of work carried out in your community.\n"
             "(b) Give four advantages of working hard.\n"
             "(BECE 2007 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11383,9 +11289,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Time for future academic planning — Students can utilize open holiday blocks to read ahead, organize notes, and prep for the next term.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: (a) Mention four reasons why money should be kept out of children's reach.\n"
+        scenario:
+            "Question 8: (a) Mention four reasons why money should be kept out of children's reach.\n"
             "(b) In what four ways do people misuse money in your community?\n"
             "(BECE 2009 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11406,7 +11312,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Unplanned, careless giving — Squandering money on unnecessary items without long-term family investment planning.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 9: (a) What is leisure?\n"
             "(b) Give five reasons why leisure is important to people.\n"
@@ -11443,7 +11348,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Maximizes personal talents — Hard work pushes individuals to apply and perfect their unique skills in drawing, designing, teaching, or leadership.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 11: (a) Define the term work.\n"
             "(b) List three main types of work.\n"
@@ -11466,9 +11370,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Sharpens technical knowledge and skills — Consistent practice within an occupation allows workers to expand their expertise and operational capacities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: (a) Describe four forms of leisure activities.\n"
+        scenario:
+            "Question 12: (a) Describe four forms of leisure activities.\n"
             "(b) Outline four benefits that can be derived from leisure activities.\n"
             "(BECE 2020 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11488,7 +11392,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 13: Explain four reasons for which hard work must be encouraged among people.\n"
+        scenario:
+            "Question 13: Explain four reasons for which hard work must be encouraged among people.\n"
             "(BECE 2021 Q7b)",
         answer: "Correct Answer:\n"
             "⦿ Maximizes financial savings and earnings — Hard work increases performance bonuses and allowances, enabling individuals to secure their future and build quality livelihoods.\n"
@@ -11500,9 +11405,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Cuts down regional crime rates — When community members focus their energy on productive labor, it steers them away from dangerous vices like armed robbery or prostitution.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 14: State four reasons for which cheating should not be encouraged in the community.\n"
+        scenario:
+            "Question 14: State four reasons for which cheating should not be encouraged in the community.\n"
             "(BECE 2021 Q8a)",
         answer: "Correct Answer:\n"
             "⦿ Diverts critical public revenue — Cheating through embezzlement drains state funds, undermining government efforts to build community infrastructure.\n"
@@ -11514,9 +11419,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Triggers social conflict — Discovering dishonest activities can spark deep misunderstandings, fuel neighborhood crime, and break trust.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 15: State four benefits of time management to students.\n"
+        scenario:
+            "Question 15: State four benefits of time management to students.\n"
             "(BECE 2022 Q8a)",
         answer: "Correct Answer:\n"
             "⦿ Accomplish major goals with less effort — Planning daily tasks according to a set schedule helps students maximize their learning potential and boost exam scores with lower stress.\n"
@@ -11532,9 +11437,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Builds academic self-confidence — Facing school challenges with organized preparation helps students complete their assignments with greater assurance.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 16: (a) State four acceptable ways of saving money.\n"
+        scenario:
+            "Question 16: (a) State four acceptable ways of saving money.\n"
             "(b) Explain four reasons for which it is wrong to give a bribe.\n"
             "(BECE 2023 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11562,7 +11467,8 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Religious & Moral Education JHS2 s1 ss1 - God, His Creation and Attributes": PracticeModel(
+  "Religious & Moral Education JHS2 s1 ss1 - God, His Creation and Attributes":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -11605,7 +11511,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: (a) Narrate the story of creation in the Bible.\n"
+            "Question 2: (a) Narrate the story of creation in the Bible.\n"
             "(b) Mention three attributes of God which can be learnt from the story.\n"
             "(BECE 2001 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11639,7 +11545,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 4: (a) Narrate one African Traditional story on creation.\n"
+            "Question 4: (a) Narrate one African Traditional story on creation.\n"
             "(b) Explain any three attributes of God in the creation story.\n"
             "(BECE 2003 Q3)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11673,9 +11579,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: (a) Explain the usefulness of the following as created by God:\n"
+        scenario:
+            "Question 5: (a) Explain the usefulness of the following as created by God:\n"
             "(i) plants;\n"
             "(ii) sea, moon, stars.\n"
             "(b) What four steps can you take to preserve the plants in the environment?\n"
@@ -11709,7 +11615,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
+            "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
             "(b) State four ways by which you can protect God's creation.\n"
             "(BECE 2005 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11725,7 +11631,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
+        scenario:
+            "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
             "(b) State two moral implication of the attributes of God mentioned in (a).\n"
             "(BECE 2006 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11757,7 +11664,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
+        scenario:
+            "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
             "(b) State three ways in which humankind is useful to God.\n"
             "(BECE 2008 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11790,9 +11698,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Humankind also ensures that God's creation such as fruits, herbs, plants, etc. do not become useless by using them for food, medicine, etc.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 9: (a) Narrate the covenant God made with Abraham.\n"
             "(b) What three lessons can be learnt from God's covenant?\n"
             "(BECE 2009 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11829,9 +11737,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 10: (a) Outline two uses each of the following things created by God:\n"
+        scenario:
+            "Question 10: (a) Outline two uses each of the following things created by God:\n"
             "(i) rivers;\n"
             "(ii) sun;\n"
             "(iii) plants.\n"
@@ -11861,8 +11769,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Preserve the forest by educating the general public about the effects of excessive felling of trees.\n"
             "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
         explanation: ".",
-      ),PracticeQuestion(
-        scenario: "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
             "(b) State three attributes of God according to the Akan.\n"
             "(BECE 2018 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11886,9 +11796,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Source of life and death: God is the originator of life and death.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 12: (a) Narrate the covenant God made with Abraham.\n"
             "(b) What three lessons can be learnt from God's covenant with Abraham?\n"
             "(BECE 2018 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11925,9 +11835,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 13: (a) Describe how God created mankind according to the Bible.\n"
+        scenario:
+            "Question 13: (a) Describe how God created mankind according to the Bible.\n"
             "(b) State three reasons for which mankind was created.\n"
             "(BECE 2020 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11954,7 +11864,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 14: (a) Narrate how God created lights according to the Bible.\n"
+        scenario:
+            "Question 14: (a) Narrate how God created lights according to the Bible.\n"
             "(b) State four responsibilities of man toward God's creation.\n"
             "(BECE 2021 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -11978,9 +11889,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Man is responsible to ensure promote environmental cleanliness / preservation of water bodies such as rivers, lakes, streams, etc and protect human human and animal polluted through human and animal activities like washing, bathing or defecating into water bodies.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 15: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 15: (a) Narrate the covenant God made with Abraham.\n"
             "(b) State three lessons that can be learnt from the covenant.\n"
             "(BECE 2022 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12019,11 +11930,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s2 ss1 - Topic-Specific Celebrations and Significance": PracticeModel(
+  "Religious & Moral Education JHS2 s2 ss1 - Topic-Specific Celebrations and Significance":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
+        scenario:
+            "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
             "(b) Give three reasons why the festival is celebrated.\n"
             "(BECE 1999 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12047,7 +11960,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
+        scenario:
+            "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
             "(BECE 2016 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
             "⦿ **Homowo**: Celebrated by the Ga-Adangme of the Greater Accra Region.\n"
@@ -12108,7 +12022,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
+        scenario:
+            "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
             "(b) List four factors to be considered in choosing a name for a child.\n"
             "(BECE 2005 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12124,7 +12039,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
+        scenario:
+            "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
             "(b) State three things which make marriage successful.\n"
             "(BECE 2007 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12144,7 +12060,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 8: (a) Explain four major causes of death in your country.\n"
+        scenario:
+            "Question 8: (a) Explain four major causes of death in your country.\n"
             "(b) What four steps can be taken to prevent such deaths?\n"
             "(BECE 2021 Q3)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12161,7 +12078,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s3 ss1 - The Family, Religious Home and Obedience": PracticeModel(
+  "Religious & Moral Education JHS2 s3 ss1 - The Family, Religious Home and Obedience":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -12203,9 +12121,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It brings unity among family members.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: (a) State four features of traditional religious homes.\n"
+        scenario:
+            "Question 2: (a) State four features of traditional religious homes.\n"
             "(b) State four benefits that can be derived from interacting with members of other religions.\n"
             "(BECE 2011 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12229,9 +12147,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It helps to ensure development in the country.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) List four factors that promote good family relationship.\n"
+        scenario:
+            "Question 3: (a) List four factors that promote good family relationship.\n"
             "(b) Explain any four benefits/healthy relationship among family members.\n"
             "(BECE 2014 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12255,7 +12173,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) State any four duties a child must perform in the family.\n"
+        scenario:
+            "Question 4: (a) State any four duties a child must perform in the family.\n"
             "(b) Explain any four reasons why an individual needs to constantly examine himself or herself.\n"
             "(BECE 2016 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12277,9 +12196,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To avoid deception by people with dubious characters.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
+        scenario:
+            "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
             "(BECE 2018 Q7)",
         answer: "Correct Answer:\n"
             "⦿ The entire family suffers when parents and children refuse to perform their duties.\n"
@@ -12288,9 +12207,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ When parents and children refuse to perform their duties, they become a liability to both old and young.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
+        scenario:
+            "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
             "(b) State four importance of peaceful co-existence among people?\n"
             "(BECE 2022 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12335,9 +12254,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ In order to avoid punishment.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
+        scenario:
+            "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
             "(b) Why is it necessary for you to perform these duties?\n"
             "(BECE 2001 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12358,9 +12277,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To prepare for future adult responsibilities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) State four reasons why people avoid responsibilities.\n"
+        scenario:
+            "Question 9: (a) State four reasons why people avoid responsibilities.\n"
             "(b) Explain four reasons why rules and regulations are important.\n"
             "(BECE 2008 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12382,8 +12301,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To bring about national peace and discipline in the society.\n"
             "⦿ In order to avoid punishment.",
         explanation: ".",
-      ),PracticeQuestion(
-        scenario: "Question 10: State five rules that govern behaviour in the classroom.\n"
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 10: State five rules that govern behaviour in the classroom.\n"
             "(BECE 2018 Q8)",
         answer: "Correct Answer:\n"
             "⦿ Do not steal or cheat in class.\n"
@@ -12394,7 +12315,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Do not insult a colleague in a classroom.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 11: (a) What are Religious Youth Organizations?\n"
             "(b) Mention any five functions of such youth organizations in youth community.\n"
@@ -12415,9 +12335,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It provides the forum for discussing youth problems.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
+        scenario:
+            "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
             "(BECE 2012 Q8)",
         answer: "Correct Answer:\n"
             "⦿ They bring the youth together to organize their social programs.\n"
@@ -12429,7 +12349,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
+        scenario:
+            "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
             "(b) State four benefits of joining Religious Youth Organizations.\n"
             "(BECE 2017 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12451,20 +12372,22 @@ final Map<String, PracticeModel> becePracticeData = {
       )
     ],
   ),
-  "Religious & Moral Education JHS2 s4 ss1 - Islamic Prophets / Caliphs / Personalities": PracticeModel(
+  "Religious & Moral Education JHS2 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: Describe three contributions of Caliph Abu Bakr.",
+        scenario:
+            "Question 1: Describe three contributions of Caliph Abu Bakr.",
         answer: "Correct Answer:\n"
             "⦿ He compiled the collection of the verses of the Quran into a single book: Abu Bakr organised the collection of the written pieces of the Quran after many of the memorisers died in battle, ensuring the preservation of the holy text.\n"
             "⦿ He helped to build the Mosque at Medina: He contributed physically and financially to the establishment and construction of the Prophet's mosque.\n"
             "⦿ He spent his wealth to help the poor: He was noted for his immense generosity, giving away his money and property to support the needy and invite people to Allah in a peaceful manner.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: State five contributions of Caliph Umar to Islam.",
+        scenario:
+            "Question 2: State five contributions of Caliph Umar to Islam.",
         answer: "Correct Answer:\n"
             "⦿ He introduced the Islamic calendar: He set up the Hijrah calendar system starting from the year the Prophet migrated from Mecca to Medina.\n"
             "⦿ He established schools: He set up educational structures for teaching the Holy Qur'an across all the conquered states and territories.\n"
@@ -12473,16 +12396,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He organised the standing army: He created a structured military force with regular cantonments and a registration system, ensuring soldiers were well paid and their families taken care of.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: State three moral lessons that can be learnt from the life of Caliph Abu Bakr.",
+        scenario:
+            "Question 3: State three moral lessons that can be learnt from the life of Caliph Abu Bakr.",
         answer: "Correct Answer:\n"
             "⦿ Loyalty: He was deeply attached and committed to the religion of Islam and the Prophet.\n"
             "⦿ Generosity: He donated to support the course of Islam and help the needy in society.\n"
             "⦿ Truthfulness: He was observant of the true teachings of Islam and stood by the truth at all times.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 4: Write three important facts about Toha Zie.",
         answer: "Correct Answer:\n"
@@ -12491,16 +12413,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He was an ancestral leader: He is remembered as an important founding leader among the Dagombas and related ethnic groups in Northern Ghana.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Write three lessons that could be learnt from the life of the personality you wrote about in (d) above (Toha Zie).",
+        scenario:
+            "Question 5: Write three lessons that could be learnt from the life of the personality you wrote about in (d) above (Toha Zie).",
         answer: "Correct Answer:\n"
             "⦿ Bravery: He faced dangerous situations and wild beasts to protect his people.\n"
             "⦿ Selflessness: He was willing to risk his own life to save others from danger.\n"
             "⦿ Commitment to community: He used his skills as a hunter and warrior to serve and defend his society.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 6: Outline three contributions of Caliph Ali.",
         answer: "Correct Answer:\n"
@@ -12509,18 +12430,18 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He promoted education and transcription: He actively taught the Quran and helped transcribe its verses, keeping the knowledge of Islam alive for the community.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 7: What three lessons can be learnt from the trial of Moses?",
+        scenario:
+            "Question 7: What three lessons can be learnt from the trial of Moses?",
         answer: "Correct Answer:\n"
             "⦿ Patience and Perseverance: Moses had to endure many difficulties, including wandering in the wilderness, which teaches students to stay resilient during tough times.\n"
             "⦿ Faith and Trust in God: Even when facing the Red Sea or lack of food, Moses trusted God's guidance, proving that faith can overcome seemingly impossible obstacles.\n"
             "⦿ Humility and Obedience: Moses listened to God's commands at the burning bush and accepted his role, demonstrating that true leadership requires serving a higher purpose with humility.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: Write four important facts about Tweneboa Kodua.",
+        scenario:
+            "Question 8: Write four important facts about Tweneboa Kodua.",
         answer: "Correct Answer:\n"
             "⦿ He was the chief of Kumawu: Tweneboa Kodua was a prominent traditional ruler who governed the people of Kumawu.\n"
             "⦿ He sacrificed his life for the Asante Kingdom: He voluntarily offered himself as a human sacrifice during the war against the Denkyiras to ensure Asante victory.\n"
@@ -12528,9 +12449,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He is remembered as a national hero: His act of ultimate patriotism makes him a symbol of selflessness and bravery in Ghanaian history.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: State four moral lessons that can be learnt from the life of Tweneboa Kodua.",
+        scenario:
+            "Question 9: State four moral lessons that can be learnt from the life of Tweneboa Kodua.",
         answer: "Correct Answer:\n"
             "⦿ Patriotism: He demonstrated an extreme love for his nation by putting his country's survival above his own life.\n"
             "⦿ Selflessness: He was willing to die so that thousands of his fellow citizens could live in freedom.\n"
@@ -12540,11 +12461,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s5 ss1 - Religious Practices": PracticeModel(
+  "Religious & Moral Education JHS2 s5 ss1 - Religious Practices":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: Describe how Wudu (Ablution) in Islam is performed.\n"
+        scenario:
+            "Question 1: Describe how Wudu (Ablution) in Islam is performed.\n"
             "(BECE 2002 Q1b)",
         answer: "Correct Answer:\n"
             "⦿ Get clean water and say 'Bismillah' in the name of Allah.\n"
@@ -12559,7 +12482,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Wash your feet three times up to the ankles, starting with the right then the left.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 2: Explain the significance of taboos.\n"
             "(BECE 2003 Q13)",
@@ -12572,7 +12494,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ They preserve a continuous stream of respect and honor for the ancestral spirits.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 3: What is prayer?\n"
             "(BECE 2005 Q12)",
@@ -12582,9 +12503,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It simply means talking directly to God or connecting closely with one's chosen object of worship.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 4: State the importance of prayer to the traditional worshipper.\n"
+        scenario:
+            "Question 4: State the importance of prayer to the traditional worshipper.\n"
             "(BECE 2005 Q12)",
         answer: "Correct Answer:\n"
             "⦿ It serves as the primary structural avenue that helps the worshipper to deeply honor the Supreme Being.\n"
@@ -12598,9 +12519,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Worshippers utilize worship as a trusted avenue to ask for lasting blessings, agricultural prosperity, and community protection.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Describe five ways that one can show good manners.\n"
+        scenario:
+            "Question 5: Describe five ways that one can show good manners.\n"
             "(BECE 1999 Q25)",
         answer: "Correct Answer:\n"
             "⦿ Greeting people respectfully in houses, offices, workplaces, and public squares without necessarily considering their ages or familiarities.\n"
@@ -12614,9 +12535,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Dressing decently and modestly at all times, ensuring both males and females dress responsibly in public.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: Describe any four ways of showing courtesy in your community.\n"
+        scenario:
+            "Question 6: Describe any four ways of showing courtesy in your community.\n"
             "(BECE 2000 Q27)",
         answer: "Correct Answer:\n"
             "⦿ Avoiding unnecessary grumbling, toxic arguments, and physical fighting with neighbors.\n"
@@ -12628,11 +12549,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s5 ss2 - Substance Abuse and Decent Living": PracticeModel(
+  "Religious & Moral Education JHS2 s5 ss2 - Substance Abuse and Decent Living":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Explain four reasons why students abuse drugs.\n"
+        scenario:
+            "Question 1: (a) Explain four reasons why students abuse drugs.\n"
             "(b) State three effects of substance abuse.\n"
             "(BECE 2005 Q4)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12666,9 +12589,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Legal prosecution and imprisonment risk: The use of substances such as marijuana, cocaine, etc. is described as illegal in the laws of Ghana. This means that the users face the risks of arrest, prosecution and imprisonment if they are reported to police.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: (a) What four reasons do students give for abusing drugs?\n"
+        scenario:
+            "Question 2: (a) What four reasons do students give for abusing drugs?\n"
             "(b) State three defensive skills you would use to protect yourself against substance abuse.\n"
             "(BECE 2007 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12688,9 +12611,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Prioritising medical approval: Consulting a certified doctor before taking any health remedies to avoid self-medication bottlenecks.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) State three dangers associated with self-medication.\n"
+        scenario:
+            "Question 3: (a) State three dangers associated with self-medication.\n"
             "(b) Suggest four ways of checking trade in drugs.\n"
             "(BECE 2015 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12742,7 +12665,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Unlocking individual potential: It establishes a stellar reputation, opening clean avenues for personal networks and job opportunities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 5: (a) State four ways of dressing decently.\n"
             "(b) Explain four reasons why an individual needs to dress decently.\n"
@@ -12769,9 +12691,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It fosters public leadership trust: It gives elders and institutions confidence to choose you for important leadership positions.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) Explain four causes of substance abuse by students.\n"
+        scenario:
+            "Question 6: (a) Explain four causes of substance abuse by students.\n"
             "(b) State four defensive skills that can be used to protect oneself against the abuse of drugs.\n"
             "(BECE 2018 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12804,7 +12726,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Ensuring continuous peace: It avoids unnecessary stress, leading to a calm and productive neighborhood environment.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 8: (a) State four effects of substance abuse.\n"
             "(b) Explain any four reasons for which substance abuse should be avoided.\n"
@@ -12824,9 +12745,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To build national productivity: Maintaining a healthy body and sharp mind enables you to work efficiently, helping to drive the economic growth of your community and country.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) Highlight four causes of substance abuse by students.\n"
+        scenario:
+            "Question 9: (a) Highlight four causes of substance abuse by students.\n"
             "(b) Describe four ways in which substance abuse can be prevented.\n"
             "(BECE 2021 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12851,7 +12772,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Banning illicit drug commerce: Writing and enforcing strict laws that outlaw any unauthorized sale or distribution of addictive chemicals.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 10: List four effects of substance abuse.\n"
             "(BECE 2022 Q6b)",
@@ -12862,9 +12782,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Loss of livelihood and opportunities: It ruins your social reputation, causing you to lose friends, jobs, educational admissions, and community respect.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 11: Identify four importance of decent dressing in society.\n"
+        scenario:
+            "Question 11: Identify four importance of decent dressing in society.\n"
             "(BECE 2023 Q6a)",
         answer: "Correct Answer:\n"
             "⦿ It shows good upbringing: It serves as clear, visible proof that a student has received proper home training and sound moral guidance from their parents.\n"
@@ -12875,7 +12795,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s6 ss1 - Objective Questions": PracticeModel(
+  "Religious & Moral Education JHS2 s6 ss1 - Objective Questions":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -12895,7 +12816,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Honesty and truth at work place — Maintaining transparent operations protects organizational resources and builds strong institutional trust.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 2: (a) Identify any three types of work.\n"
             "(b) Describe any four ways by which the spirit of hard work can be developed.\n"
@@ -12912,9 +12832,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Develop a positive attitude towards work — Focusing on the rewards, personal growth, and societal impacts of your tasks builds an inner drive and endurance.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) Give five reasons why money is very important in our lives.\n"
+        scenario:
+            "Question 3: (a) Give five reasons why money is very important in our lives.\n"
             "(b) Describe how one can earn money in an honest way.\n"
             "(BECE 2003 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12931,7 +12851,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) How is leisure time different from idleness?\n"
+        scenario:
+            "Question 4: (a) How is leisure time different from idleness?\n"
             "(b) Identify five ways in which you can use your leisure time profitably.\n"
             "(BECE 2004 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12947,9 +12868,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Seeking counseling and guidance — Seeking advice during open hours helps resolve hidden dilemmas and structures personal planning.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: (a) Give four reasons why one should support religious groups with one's money.\n"
+        scenario:
+            "Question 5: (a) Give four reasons why one should support religious groups with one's money.\n"
             "(b) List four instances where such monies are misused by religious leaders.\n"
             "(BECE 2006 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -12968,9 +12889,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Extravagant overspending — Spending church resources on unnecessary personal items, drinking, or running after women.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) State three types of work carried out in your community.\n"
+        scenario:
+            "Question 6: (a) State three types of work carried out in your community.\n"
             "(b) Give four advantages of working hard.\n"
             "(BECE 2007 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13008,9 +12929,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Time for future academic planning — Students can utilize open holiday blocks to read ahead, organize notes, and prep for the next term.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: (a) Mention four reasons why money should be kept out of children's reach.\n"
+        scenario:
+            "Question 8: (a) Mention four reasons why money should be kept out of children's reach.\n"
             "(b) In what four ways do people misuse money in your community?\n"
             "(BECE 2009 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13031,7 +12952,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Unplanned, careless giving — Squandering money on unnecessary items without long-term family investment planning.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 9: (a) What is leisure?\n"
             "(b) Give five reasons why leisure is important to people.\n"
@@ -13068,7 +12988,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Maximizes personal talents — Hard work pushes individuals to apply and perfect their unique skills in drawing, designing, teaching, or leadership.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 11: (a) Define the term work.\n"
             "(b) List three main types of work.\n"
@@ -13091,9 +13010,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Sharpens technical knowledge and skills — Consistent practice within an occupation allows workers to expand their expertise and operational capacities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: (a) Describe four forms of leisure activities.\n"
+        scenario:
+            "Question 12: (a) Describe four forms of leisure activities.\n"
             "(b) Outline four benefits that can be derived from leisure activities.\n"
             "(BECE 2020 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13113,7 +13032,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 13: Explain four reasons for which hard work must be encouraged among people.\n"
+        scenario:
+            "Question 13: Explain four reasons for which hard work must be encouraged among people.\n"
             "(BECE 2021 Q7b)",
         answer: "Correct Answer:\n"
             "⦿ Maximizes financial savings and earnings — Hard work increases performance bonuses and allowances, enabling individuals to secure their future and build quality livelihoods.\n"
@@ -13125,9 +13045,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Cuts down regional crime rates — When community members focus their energy on productive labor, it steers them away from dangerous vices like armed robbery or prostitution.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 14: State four reasons for which cheating should not be encouraged in the community.\n"
+        scenario:
+            "Question 14: State four reasons for which cheating should not be encouraged in the community.\n"
             "(BECE 2021 Q8a)",
         answer: "Correct Answer:\n"
             "⦿ Diverts critical public revenue — Cheating through embezzlement drains state funds, undermining government efforts to build community infrastructure.\n"
@@ -13139,9 +13059,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Triggers social conflict — Discovering dishonest activities can spark deep misunderstandings, fuel neighborhood crime, and break trust.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 15: State four benefits of time management to students.\n"
+        scenario:
+            "Question 15: State four benefits of time management to students.\n"
             "(BECE 2022 Q8a)",
         answer: "Correct Answer:\n"
             "⦿ Accomplish major goals with less effort — Planning daily tasks according to a set schedule helps students maximize their learning potential and boost exam scores with lower stress.\n"
@@ -13157,9 +13077,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Builds academic self-confidence — Facing school challenges with organized preparation helps students complete their assignments with greater assurance.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 16: (a) State four acceptable ways of saving money.\n"
+        scenario:
+            "Question 16: (a) State four acceptable ways of saving money.\n"
             "(b) Explain four reasons for which it is wrong to give a bribe.\n"
             "(BECE 2023 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13187,7 +13107,8 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Religious & Moral Education JHS3 s1 ss1 - God, His Creation and Attributes": PracticeModel(
+  "Religious & Moral Education JHS3 s1 ss1 - God, His Creation and Attributes":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -13230,7 +13151,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 2: (a) Narrate the story of creation in the Bible.\n"
+            "Question 2: (a) Narrate the story of creation in the Bible.\n"
             "(b) Mention three attributes of God which can be learnt from the story.\n"
             "(BECE 2001 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13264,7 +13185,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 4: (a) Narrate one African Traditional story on creation.\n"
+            "Question 4: (a) Narrate one African Traditional story on creation.\n"
             "(b) Explain any three attributes of God in the creation story.\n"
             "(BECE 2003 Q3)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13298,9 +13219,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: (a) Explain the usefulness of the following as created by God:\n"
+        scenario:
+            "Question 5: (a) Explain the usefulness of the following as created by God:\n"
             "(i) plants;\n"
             "(ii) sea, moon, stars.\n"
             "(b) What four steps can you take to preserve the plants in the environment?\n"
@@ -13334,7 +13255,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
       PracticeQuestion(
         scenario:
-        "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
+            "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
             "(b) State four ways by which you can protect God's creation.\n"
             "(BECE 2005 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13350,7 +13271,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
+        scenario:
+            "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
             "(b) State two moral implication of the attributes of God mentioned in (a).\n"
             "(BECE 2006 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13382,7 +13304,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
+        scenario:
+            "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
             "(b) State three ways in which humankind is useful to God.\n"
             "(BECE 2008 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13415,9 +13338,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Humankind also ensures that God's creation such as fruits, herbs, plants, etc. do not become useless by using them for food, medicine, etc.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 9: (a) Narrate the covenant God made with Abraham.\n"
             "(b) What three lessons can be learnt from God's covenant?\n"
             "(BECE 2009 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13454,9 +13377,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 10: (a) Outline two uses each of the following things created by God:\n"
+        scenario:
+            "Question 10: (a) Outline two uses each of the following things created by God:\n"
             "(i) rivers;\n"
             "(ii) sun;\n"
             "(iii) plants.\n"
@@ -13486,8 +13409,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Preserve the forest by educating the general public about the effects of excessive felling of trees.\n"
             "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
         explanation: ".",
-      ),PracticeQuestion(
-        scenario: "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
             "(b) State three attributes of God according to the Akan.\n"
             "(BECE 2018 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13511,9 +13436,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Source of life and death: God is the originator of life and death.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 12: (a) Narrate the covenant God made with Abraham.\n"
             "(b) What three lessons can be learnt from God's covenant with Abraham?\n"
             "(BECE 2018 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13550,9 +13475,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 13: (a) Describe how God created mankind according to the Bible.\n"
+        scenario:
+            "Question 13: (a) Describe how God created mankind according to the Bible.\n"
             "(b) State three reasons for which mankind was created.\n"
             "(BECE 2020 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13579,7 +13504,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 14: (a) Narrate how God created lights according to the Bible.\n"
+        scenario:
+            "Question 14: (a) Narrate how God created lights according to the Bible.\n"
             "(b) State four responsibilities of man toward God's creation.\n"
             "(BECE 2021 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13603,9 +13529,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Man is responsible to ensure promote environmental cleanliness / preservation of water bodies such as rivers, lakes, streams, etc and protect human human and animal polluted through human and animal activities like washing, bathing or defecating into water bodies.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 15: (a) Narrate the covenant God made with Abraham.\n"
+        scenario:
+            "Question 15: (a) Narrate the covenant God made with Abraham.\n"
             "(b) State three lessons that can be learnt from the covenant.\n"
             "(BECE 2022 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13644,11 +13570,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s2 ss1 - Topic-Specific Celebrations and Significance": PracticeModel(
+  "Religious & Moral Education JHS3 s2 ss1 - Topic-Specific Celebrations and Significance":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
+        scenario:
+            "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
             "(b) Give three reasons why the festival is celebrated.\n"
             "(BECE 1999 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13672,7 +13600,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
+        scenario:
+            "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
             "(BECE 2016 Q1)",
         answer: "Correct Answer: (a) Answer:\n"
             "⦿ **Homowo**: Celebrated by the Ga-Adangme of the Greater Accra Region.\n"
@@ -13733,7 +13662,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
+        scenario:
+            "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
             "(b) List four factors to be considered in choosing a name for a child.\n"
             "(BECE 2005 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13749,7 +13679,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
+        scenario:
+            "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
             "(b) State three things which make marriage successful.\n"
             "(BECE 2007 Q2)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13769,7 +13700,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 8: (a) Explain four major causes of death in your country.\n"
+        scenario:
+            "Question 8: (a) Explain four major causes of death in your country.\n"
             "(b) What four steps can be taken to prevent such deaths?\n"
             "(BECE 2021 Q3)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13786,7 +13718,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s3 ss1 - The Family, Religious Home and Obedience": PracticeModel(
+  "Religious & Moral Education JHS3 s3 ss1 - The Family, Religious Home and Obedience":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -13828,9 +13761,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It brings unity among family members.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: (a) State four features of traditional religious homes.\n"
+        scenario:
+            "Question 2: (a) State four features of traditional religious homes.\n"
             "(b) State four benefits that can be derived from interacting with members of other religions.\n"
             "(BECE 2011 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13854,9 +13787,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It helps to ensure development in the country.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) List four factors that promote good family relationship.\n"
+        scenario:
+            "Question 3: (a) List four factors that promote good family relationship.\n"
             "(b) Explain any four benefits/healthy relationship among family members.\n"
             "(BECE 2014 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13880,7 +13813,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) State any four duties a child must perform in the family.\n"
+        scenario:
+            "Question 4: (a) State any four duties a child must perform in the family.\n"
             "(b) Explain any four reasons why an individual needs to constantly examine himself or herself.\n"
             "(BECE 2016 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13902,9 +13836,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To avoid deception by people with dubious characters.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
+        scenario:
+            "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
             "(BECE 2018 Q7)",
         answer: "Correct Answer:\n"
             "⦿ The entire family suffers when parents and children refuse to perform their duties.\n"
@@ -13913,9 +13847,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ When parents and children refuse to perform their duties, they become a liability to both old and young.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
+        scenario:
+            "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
             "(b) State four importance of peaceful co-existence among people?\n"
             "(BECE 2022 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13960,9 +13894,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ In order to avoid punishment.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
+        scenario:
+            "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
             "(b) Why is it necessary for you to perform these duties?\n"
             "(BECE 2001 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -13983,9 +13917,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To prepare for future adult responsibilities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) State four reasons why people avoid responsibilities.\n"
+        scenario:
+            "Question 9: (a) State four reasons why people avoid responsibilities.\n"
             "(b) Explain four reasons why rules and regulations are important.\n"
             "(BECE 2008 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14007,8 +13941,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To bring about national peace and discipline in the society.\n"
             "⦿ In order to avoid punishment.",
         explanation: ".",
-      ),PracticeQuestion(
-        scenario: "Question 10: State five rules that govern behaviour in the classroom.\n"
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 10: State five rules that govern behaviour in the classroom.\n"
             "(BECE 2018 Q8)",
         answer: "Correct Answer:\n"
             "⦿ Do not steal or cheat in class.\n"
@@ -14019,7 +13955,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Do not insult a colleague in a classroom.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 11: (a) What are Religious Youth Organizations?\n"
             "(b) Mention any five functions of such youth organizations in youth community.\n"
@@ -14040,9 +13975,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It provides the forum for discussing youth problems.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
+        scenario:
+            "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
             "(BECE 2012 Q8)",
         answer: "Correct Answer:\n"
             "⦿ They bring the youth together to organize their social programs.\n"
@@ -14054,7 +13989,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
+        scenario:
+            "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
             "(b) State four benefits of joining Religious Youth Organizations.\n"
             "(BECE 2017 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14076,20 +14012,22 @@ final Map<String, PracticeModel> becePracticeData = {
       )
     ],
   ),
-  "Religious & Moral Education JHS3 s4 ss1 - Islamic Prophets / Caliphs / Personalities": PracticeModel(
+  "Religious & Moral Education JHS3 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: Describe three contributions of Caliph Abu Bakr.",
+        scenario:
+            "Question 1: Describe three contributions of Caliph Abu Bakr.",
         answer: "Correct Answer:\n"
             "⦿ He compiled the collection of the verses of the Quran into a single book: Abu Bakr organised the collection of the written pieces of the Quran after many of the memorisers died in battle, ensuring the preservation of the holy text.\n"
             "⦿ He helped to build the Mosque at Medina: He contributed physically and financially to the establishment and construction of the Prophet's mosque.\n"
             "⦿ He spent his wealth to help the poor: He was noted for his immense generosity, giving away his money and property to support the needy and invite people to Allah in a peaceful manner.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: State five contributions of Caliph Umar to Islam.",
+        scenario:
+            "Question 2: State five contributions of Caliph Umar to Islam.",
         answer: "Correct Answer:\n"
             "⦿ He introduced the Islamic calendar: He set up the Hijrah calendar system starting from the year the Prophet migrated from Mecca to Medina.\n"
             "⦿ He established schools: He set up educational structures for teaching the Holy Qur'an across all the conquered states and territories.\n"
@@ -14098,16 +14036,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He organised the standing army: He created a structured military force with regular cantonments and a registration system, ensuring soldiers were well paid and their families taken care of.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: State three moral lessons that can be learnt from the life of Caliph Abu Bakr.",
+        scenario:
+            "Question 3: State three moral lessons that can be learnt from the life of Caliph Abu Bakr.",
         answer: "Correct Answer:\n"
             "⦿ Loyalty: He was deeply attached and committed to the religion of Islam and the Prophet.\n"
             "⦿ Generosity: He donated to support the course of Islam and help the needy in society.\n"
             "⦿ Truthfulness: He was observant of the true teachings of Islam and stood by the truth at all times.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 4: Write three important facts about Toha Zie.",
         answer: "Correct Answer:\n"
@@ -14116,16 +14053,15 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He was an ancestral leader: He is remembered as an important founding leader among the Dagombas and related ethnic groups in Northern Ghana.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Write three lessons that could be learnt from the life of the personality you wrote about in (d) above (Toha Zie).",
+        scenario:
+            "Question 5: Write three lessons that could be learnt from the life of the personality you wrote about in (d) above (Toha Zie).",
         answer: "Correct Answer:\n"
             "⦿ Bravery: He faced dangerous situations and wild beasts to protect his people.\n"
             "⦿ Selflessness: He was willing to risk his own life to save others from danger.\n"
             "⦿ Commitment to community: He used his skills as a hunter and warrior to serve and defend his society.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 6: Outline three contributions of Caliph Ali.",
         answer: "Correct Answer:\n"
@@ -14134,18 +14070,18 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He promoted education and transcription: He actively taught the Quran and helped transcribe its verses, keeping the knowledge of Islam alive for the community.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 7: What three lessons can be learnt from the trial of Moses?",
+        scenario:
+            "Question 7: What three lessons can be learnt from the trial of Moses?",
         answer: "Correct Answer:\n"
             "⦿ Patience and Perseverance: Moses had to endure many difficulties, including wandering in the wilderness, which teaches students to stay resilient during tough times.\n"
             "⦿ Faith and Trust in God: Even when facing the Red Sea or lack of food, Moses trusted God's guidance, proving that faith can overcome seemingly impossible obstacles.\n"
             "⦿ Humility and Obedience: Moses listened to God's commands at the burning bush and accepted his role, demonstrating that true leadership requires serving a higher purpose with humility.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: Write four important facts about Tweneboa Kodua.",
+        scenario:
+            "Question 8: Write four important facts about Tweneboa Kodua.",
         answer: "Correct Answer:\n"
             "⦿ He was the chief of Kumawu: Tweneboa Kodua was a prominent traditional ruler who governed the people of Kumawu.\n"
             "⦿ He sacrificed his life for the Asante Kingdom: He voluntarily offered himself as a human sacrifice during the war against the Denkyiras to ensure Asante victory.\n"
@@ -14153,9 +14089,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ He is remembered as a national hero: His act of ultimate patriotism makes him a symbol of selflessness and bravery in Ghanaian history.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: State four moral lessons that can be learnt from the life of Tweneboa Kodua.",
+        scenario:
+            "Question 9: State four moral lessons that can be learnt from the life of Tweneboa Kodua.",
         answer: "Correct Answer:\n"
             "⦿ Patriotism: He demonstrated an extreme love for his nation by putting his country's survival above his own life.\n"
             "⦿ Selflessness: He was willing to die so that thousands of his fellow citizens could live in freedom.\n"
@@ -14165,11 +14101,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s5 ss1 - Religious Practices": PracticeModel(
+  "Religious & Moral Education JHS3 s5 ss1 - Religious Practices":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: Describe how Wudu (Ablution) in Islam is performed.\n"
+        scenario:
+            "Question 1: Describe how Wudu (Ablution) in Islam is performed.\n"
             "(BECE 2002 Q1b)",
         answer: "Correct Answer:\n"
             "⦿ Get clean water and say 'Bismillah' in the name of Allah.\n"
@@ -14184,7 +14122,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Wash your feet three times up to the ankles, starting with the right then the left.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 2: Explain the significance of taboos.\n"
             "(BECE 2003 Q13)",
@@ -14197,7 +14134,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ They preserve a continuous stream of respect and honor for the ancestral spirits.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 3: What is prayer?\n"
             "(BECE 2005 Q12)",
@@ -14207,9 +14143,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It simply means talking directly to God or connecting closely with one's chosen object of worship.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 4: State the importance of prayer to the traditional worshipper.\n"
+        scenario:
+            "Question 4: State the importance of prayer to the traditional worshipper.\n"
             "(BECE 2005 Q12)",
         answer: "Correct Answer:\n"
             "⦿ It serves as the primary structural avenue that helps the worshipper to deeply honor the Supreme Being.\n"
@@ -14223,9 +14159,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Worshippers utilize worship as a trusted avenue to ask for lasting blessings, agricultural prosperity, and community protection.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: Describe five ways that one can show good manners.\n"
+        scenario:
+            "Question 5: Describe five ways that one can show good manners.\n"
             "(BECE 1999 Q25)",
         answer: "Correct Answer:\n"
             "⦿ Greeting people respectfully in houses, offices, workplaces, and public squares without necessarily considering their ages or familiarities.\n"
@@ -14239,9 +14175,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Dressing decently and modestly at all times, ensuring both males and females dress responsibly in public.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: Describe any four ways of showing courtesy in your community.\n"
+        scenario:
+            "Question 6: Describe any four ways of showing courtesy in your community.\n"
             "(BECE 2000 Q27)",
         answer: "Correct Answer:\n"
             "⦿ Avoiding unnecessary grumbling, toxic arguments, and physical fighting with neighbors.\n"
@@ -14253,11 +14189,13 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s5 ss2 - Substance Abuse and Decent Living": PracticeModel(
+  "Religious & Moral Education JHS3 s5 ss2 - Substance Abuse and Decent Living":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Explain four reasons why students abuse drugs.\n"
+        scenario:
+            "Question 1: (a) Explain four reasons why students abuse drugs.\n"
             "(b) State three effects of substance abuse.\n"
             "(BECE 2005 Q4)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14291,9 +14229,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Legal prosecution and imprisonment risk: The use of substances such as marijuana, cocaine, etc. is described as illegal in the laws of Ghana. This means that the users face the risks of arrest, prosecution and imprisonment if they are reported to police.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 2: (a) What four reasons do students give for abusing drugs?\n"
+        scenario:
+            "Question 2: (a) What four reasons do students give for abusing drugs?\n"
             "(b) State three defensive skills you would use to protect yourself against substance abuse.\n"
             "(BECE 2007 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14313,9 +14251,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Prioritising medical approval: Consulting a certified doctor before taking any health remedies to avoid self-medication bottlenecks.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) State three dangers associated with self-medication.\n"
+        scenario:
+            "Question 3: (a) State three dangers associated with self-medication.\n"
             "(b) Suggest four ways of checking trade in drugs.\n"
             "(BECE 2015 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14367,7 +14305,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Unlocking individual potential: It establishes a stellar reputation, opening clean avenues for personal networks and job opportunities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 5: (a) State four ways of dressing decently.\n"
             "(b) Explain four reasons why an individual needs to dress decently.\n"
@@ -14394,9 +14331,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ It fosters public leadership trust: It gives elders and institutions confidence to choose you for important leadership positions.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) Explain four causes of substance abuse by students.\n"
+        scenario:
+            "Question 6: (a) Explain four causes of substance abuse by students.\n"
             "(b) State four defensive skills that can be used to protect oneself against the abuse of drugs.\n"
             "(BECE 2018 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14429,7 +14366,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Ensuring continuous peace: It avoids unnecessary stress, leading to a calm and productive neighborhood environment.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 8: (a) State four effects of substance abuse.\n"
             "(b) Explain any four reasons for which substance abuse should be avoided.\n"
@@ -14449,9 +14385,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ To build national productivity: Maintaining a healthy body and sharp mind enables you to work efficiently, helping to drive the economic growth of your community and country.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 9: (a) Highlight four causes of substance abuse by students.\n"
+        scenario:
+            "Question 9: (a) Highlight four causes of substance abuse by students.\n"
             "(b) Describe four ways in which substance abuse can be prevented.\n"
             "(BECE 2021 Q6)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14476,7 +14412,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Banning illicit drug commerce: Writing and enforcing strict laws that outlaw any unauthorized sale or distribution of addictive chemicals.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 10: List four effects of substance abuse.\n"
             "(BECE 2022 Q6b)",
@@ -14487,9 +14422,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Loss of livelihood and opportunities: It ruins your social reputation, causing you to lose friends, jobs, educational admissions, and community respect.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 11: Identify four importance of decent dressing in society.\n"
+        scenario:
+            "Question 11: Identify four importance of decent dressing in society.\n"
             "(BECE 2023 Q6a)",
         answer: "Correct Answer:\n"
             "⦿ It shows good upbringing: It serves as clear, visible proof that a student has received proper home training and sound moral guidance from their parents.\n"
@@ -14500,7 +14435,8 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s6 ss1 - Objective Questions": PracticeModel(
+  "Religious & Moral Education JHS3 s6 ss1 - Objective Questions":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14520,7 +14456,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Honesty and truth at work place — Maintaining transparent operations protects organizational resources and builds strong institutional trust.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 2: (a) Identify any three types of work.\n"
             "(b) Describe any four ways by which the spirit of hard work can be developed.\n"
@@ -14537,9 +14472,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Develop a positive attitude towards work — Focusing on the rewards, personal growth, and societal impacts of your tasks builds an inner drive and endurance.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 3: (a) Give five reasons why money is very important in our lives.\n"
+        scenario:
+            "Question 3: (a) Give five reasons why money is very important in our lives.\n"
             "(b) Describe how one can earn money in an honest way.\n"
             "(BECE 2003 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14556,7 +14491,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) How is leisure time different from idleness?\n"
+        scenario:
+            "Question 4: (a) How is leisure time different from idleness?\n"
             "(b) Identify five ways in which you can use your leisure time profitably.\n"
             "(BECE 2004 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14572,9 +14508,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Seeking counseling and guidance — Seeking advice during open hours helps resolve hidden dilemmas and structures personal planning.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 5: (a) Give four reasons why one should support religious groups with one's money.\n"
+        scenario:
+            "Question 5: (a) Give four reasons why one should support religious groups with one's money.\n"
             "(b) List four instances where such monies are misused by religious leaders.\n"
             "(BECE 2006 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14593,9 +14529,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Extravagant overspending — Spending church resources on unnecessary personal items, drinking, or running after women.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 6: (a) State three types of work carried out in your community.\n"
+        scenario:
+            "Question 6: (a) State three types of work carried out in your community.\n"
             "(b) Give four advantages of working hard.\n"
             "(BECE 2007 Q7)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14633,9 +14569,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Time for future academic planning — Students can utilize open holiday blocks to read ahead, organize notes, and prep for the next term.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 8: (a) Mention four reasons why money should be kept out of children's reach.\n"
+        scenario:
+            "Question 8: (a) Mention four reasons why money should be kept out of children's reach.\n"
             "(b) In what four ways do people misuse money in your community?\n"
             "(BECE 2009 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14656,7 +14592,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Unplanned, careless giving — Squandering money on unnecessary items without long-term family investment planning.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 9: (a) What is leisure?\n"
             "(b) Give five reasons why leisure is important to people.\n"
@@ -14693,7 +14628,6 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Maximizes personal talents — Hard work pushes individuals to apply and perfect their unique skills in drawing, designing, teaching, or leadership.",
         explanation: ".",
       ),
-
       PracticeQuestion(
         scenario: "Question 11: (a) Define the term work.\n"
             "(b) List three main types of work.\n"
@@ -14716,9 +14650,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Sharpens technical knowledge and skills — Consistent practice within an occupation allows workers to expand their expertise and operational capacities.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 12: (a) Describe four forms of leisure activities.\n"
+        scenario:
+            "Question 12: (a) Describe four forms of leisure activities.\n"
             "(b) Outline four benefits that can be derived from leisure activities.\n"
             "(BECE 2020 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -14738,7 +14672,8 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 13: Explain four reasons for which hard work must be encouraged among people.\n"
+        scenario:
+            "Question 13: Explain four reasons for which hard work must be encouraged among people.\n"
             "(BECE 2021 Q7b)",
         answer: "Correct Answer:\n"
             "⦿ Maximizes financial savings and earnings — Hard work increases performance bonuses and allowances, enabling individuals to secure their future and build quality livelihoods.\n"
@@ -14750,9 +14685,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Cuts down regional crime rates — When community members focus their energy on productive labor, it steers them away from dangerous vices like armed robbery or prostitution.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 14: State four reasons for which cheating should not be encouraged in the community.\n"
+        scenario:
+            "Question 14: State four reasons for which cheating should not be encouraged in the community.\n"
             "(BECE 2021 Q8a)",
         answer: "Correct Answer:\n"
             "⦿ Diverts critical public revenue — Cheating through embezzlement drains state funds, undermining government efforts to build community infrastructure.\n"
@@ -14764,9 +14699,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Triggers social conflict — Discovering dishonest activities can spark deep misunderstandings, fuel neighborhood crime, and break trust.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 15: State four benefits of time management to students.\n"
+        scenario:
+            "Question 15: State four benefits of time management to students.\n"
             "(BECE 2022 Q8a)",
         answer: "Correct Answer:\n"
             "⦿ Accomplish major goals with less effort — Planning daily tasks according to a set schedule helps students maximize their learning potential and boost exam scores with lower stress.\n"
@@ -14782,9 +14717,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "⦿ Builds academic self-confidence — Facing school challenges with organized preparation helps students complete their assignments with greater assurance.",
         explanation: ".",
       ),
-
       PracticeQuestion(
-        scenario: "Question 16: (a) State four acceptable ways of saving money.\n"
+        scenario:
+            "Question 16: (a) State four acceptable ways of saving money.\n"
             "(b) Explain four reasons for which it is wrong to give a bribe.\n"
             "(BECE 2023 Q8)",
         answer: "Correct Answer: (a) Answer:\n"
@@ -15531,196 +15466,2076 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
-  "JHS 2 - Environmental issues": PracticeModel(
+  "English JHS1 s4 ss2 - Essay Writing Study Guide": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nState the difference between a homogeneous and a heterogeneous mixture.",
+        scenario: "QUESTION 1 (BECE 1990 Q2)\n\n"
+            "You have finished Junior Secondary School and would like to improve on your best skill. Write an application to the owner of a company for apprenticeship.",
+        answer: "                                      Post Office Box 210,\n"
+            "                                      Nsawam - Eastern Region,\n"
+            "                                      20th June, 1990.\n\n"
+            "The Manager,\n"
+            "Otabil Woodcraft Enterprise,\n"
+            "Berekum - Bono Region.\n\n"
+            "Dear Sir/Madam,\n\n"
+            "                 APPLICATION FOR APPRENTICESHIP\n\n"
+            "I am pleased to write to you regarding the possibility of training as an apprentice at your respected firm.\n\n"
+            "Having recently finished my Junior Secondary education, I am keen to build on the skills I already have in woodwork. My research into different workshops has convinced me that your company, known for its excellent standard of carpentry, is exactly where I would like to sharpen my abilities.\n\n"
+            "Throughout my school years, teachers and classmates alike recognised my strong practical ability in woodwork. I am eager for the chance to learn under experienced craftsmen at your workshop and to bring my energy and commitment to your team.\n\n"
+            "I am strongly motivated to take up this apprenticeship, as I believe it will not only sharpen my skills but also give me valuable hands-on experience. I am ready to work hard, follow every instruction carefully, and meet the high standards your company is known for.\n\n"
+            "I have attached my resume, which gives further details of my education and any relevant experience I have gathered so far.\n\n"
+            "I appreciate you taking the time to consider my application, and I would welcome the chance to be interviewed so that I can explain further how I could contribute to your team.\n\n"
+            "Yours faithfully,\n"
+            "Osei Marfo.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 1991 Q1)\n\n"
+            "Your class teacher has punished you for something you did not do. Write a letter to your headmaster or headmistress explaining why you think you have been punished unfairly.",
         answer:
-            "Homogeneous mixtures have a uniform composition and single phase throughout. Heterogeneous mixtures have visible, distinct phases.",
-        explanation: "For example, sugar solution vs. muddy water.",
+            "                                      St. Kizito Catholic J.H.S.,\n"
+            "                                      Post Office Box 312,\n"
+            "                                      Nkawkaw - Eastern Region,\n"
+            "                                      22nd November, 1991.\n\n"
+            "The Headmaster,\n"
+            "St. Kizito Catholic J.H.S.,\n"
+            "Post Office Box 312,\n"
+            "Nkawkaw - Eastern Region.\n\n"
+            "Dear Sir,\n\n"
+            "                         UNFAIR PUNISHMENT\n\n"
+            "I am writing to draw your attention to an incident in which I believe my class teacher has punished me unfairly. I was blamed and later punished for encouraging my classmates to refuse an assignment that had been set the previous week.\n\n"
+            "I want to state clearly that this accusation is untrue. I have always held firmly to the values of hard work and honesty, and I constantly encourage my mates to hold the same standards. My peers know me as someone who takes his studies seriously and often helps others grasp difficult topics.\n\n"
+            "On the day the incident is said to have happened, I was away from school because of a family emergency, which the school administration was properly informed about at the time. It would therefore have been impossible for me to have influenced my classmates as alleged. What is more, I completed the assignment myself and handed it in on the date agreed.\n\n"
+            "I am respectfully asking that you look into this matter properly. Being punished for something I had no part in has been upsetting and has affected my morale. I trust in the fairness of our school and hope this issue can be settled justly.\n\n"
+            "Thank you for your time and consideration.\n\n"
+            "Yours faithfully,\n"
+            "Agyei Daniel.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 1992 Q2)\n\n"
+            "You have not returned to school after vacation. Write a letter to your headmaster/headmistress explaining why you are still at home.",
+        answer:
+            "                                      Bubuashie Methodist J.H.S.,\n"
+            "                                      Post Office Box 45,\n"
+            "                                      Bubuashie - Accra,\n"
+            "                                      17th August, 1992.\n\n"
+            "The Headmistress,\n"
+            "Bubuashie Methodist JHS,\n"
+            "Bubuashie - Accra.\n\n"
+            "Dear Madam,\n\n"
+            "                 REASONS FOR MY ABSENCE FROM SCHOOL\n\n"
+            "I am writing to explain the reason behind my continued absence from school since the vacation period ended.\n\n"
+            "Unfortunately, I fell suddenly ill during the vacation and have therefore been unable to return to school as scheduled. I have been receiving treatment from a doctor and have been following the recommended steps for recovery, which has meant I could not take part in school activities or attend lessons.\n\n"
+            "I fully understand how important regular attendance is, and I am eager to get back to my studies. However, my doctor has advised that I still require more time before I am fully well enough to resume. I want to assure you that I am doing everything necessary to regain my strength as quickly as possible.\n\n"
+            "I would be grateful for your patience and support during this period. As soon as I receive medical clearance, I intend to return promptly and make up for any lessons or assignments I have missed. I place great value on my education and on everything our school offers me.\n\n"
+            "I will keep you informed of my progress, and I will bring a medical certificate as soon as I am able to return. Thank you for considering my situation and for your continued concern for the well-being of students.\n\n"
+            "Yours faithfully,\n"
+            "Obeng Afram Ernest\n"
+            "(Assistant Boys’ Prefect)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 1993 Q2)\n\n"
+            "As the Senior Prefect of your school, write a letter to your District Chief Executive telling him about three problems which worry the pupils of your school.",
+        answer:
+            "                                      Sekondi Community J.H.S.,\n"
+            "                                      Post Office Box AJ 201,\n"
+            "                                      Kojokrom - Sekondi,\n"
+            "                                      19th May, 1993.\n\n"
+            "The District Chief Executive,\n"
+            "Shama Municipal Assembly,\n"
+            "Kojokrom - Sekondi.\n\n"
+            "Dear Madam,\n\n"
+            "                 PROBLEMS FACING MY SCHOOL\n\n"
+            "Writing to you as the Senior Prefect of St. Thomas Experimental J.H.S., I would like to bring to your notice some concerns troubling our students.\n\n"
+            "Firstly, we are struggling with a serious shortage of adequate sanitation facilities. Our current restrooms are in a deteriorating state and cannot serve the number of pupils we have, which endangers our health and hygiene and distracts us from concentrating on our lessons. We kindly ask for your help in upgrading and expanding these facilities.\n\n"
+            "Secondly, our library is poorly stocked, with many of its books outdated. As students, we are keen to build our knowledge through reading, but the shortage of current, relevant material is holding back our academic progress. We would be grateful for assistance in supplying more books that suit our curriculum and interests.\n\n"
+            "Lastly, the lack of a proper sports field is affecting our physical education and other extracurricular activities. Without a safe, well-kept space to play and exercise, an important part of our all-round growth is missing. We appeal to you to help create a suitable sports field for our school.\n\n"
+            "We, the students, believe that with your guidance and support, these challenges can be resolved and our learning environment greatly improved. We are grateful for your dedication to education and development in our district.\n\n"
+            "Thank you for giving attention to these issues. We look forward eagerly to your favourable response and to your help in making our school a better place for learning.\n\n"
+            "Yours faithfully,\n"
+            "Fredrick Agyeman\n"
+            "(Head Prefect)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 1994 Q2)\n\n"
+            "Your class will like to visit a very important and interesting place. As the Class Prefect, write a letter to the one in charge of the place and give three reasons why you want to visit the place.",
+        answer:
+            "                                      Holy Trinity Anglican JHS,\n"
+            "                                      Post Office Box 40,\n"
+            "                                      Bekwai - Ashanti,\n"
+            "                                      2nd June, 1994.\n\n"
+            "The Administrator,\n"
+            "Boti Falls Resort,\n"
+            "Huhunya - Eastern Region.\n\n"
+            "Dear Sir/Madam,\n\n"
+            "                    PERMISSION FOR VISITATION\n\n"
+            "Writing on behalf of the pupils of St. Jude Anglican JHS, and in my capacity as School Prefect, I would like to seek your permission for a class visit to your well-regarded establishment, Boti Falls Resort.\n\n"
+            "There are three strong reasons why we feel this visit would be of great benefit to our education and personal growth.\n\n"
+            "Firstly, Boti Falls Resort carries great historical and cultural weight in our region. It offers a place where we can discover our heritage and the customs that have shaped our community. Seeing our history and culture up close would deepen our appreciation for our roots.\n\n"
+            "Secondly, the resort provides distinctive learning opportunities through its exhibitions and programmes, which we understand cover subjects ranging from science and technology to art and nature. Such first-hand experiences could widen our outlook and spark greater interest in our studies.\n\n"
+            "Lastly, a trip to Boti Falls Resort would give our class an enjoyable and memorable day away from the classroom, one that creates lasting memories and strengthens the bond among our students.\n\n"
+            "We recognise that your establishment holds an important and highly respected place, and we assure you that we will treat it with the greatest care and responsibility throughout our visit.\n\n"
+            "We kindly request your permission to visit Boti Falls Resort on a date that suits you. We believe this visit would greatly enrich our education and personal development.\n\n"
+            "Thank you for considering our request. We look forward eagerly to your favourable reply.\n\n"
+            "Yours faithfully,\n"
+            "Ofosuhene Eric\n"
+            "(School Prefect)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 1995 Q2)\n\n"
+            "As the Head Prefect of your school, write a letter to the Chairman of your Parent-Teacher Association telling him about two problems in the school which you want the Association to help solve.",
+        answer: "                                      Mount Zion J.H.S.,\n"
+            "                                      Post Office Box 60,\n"
+            "                                      Nkawkaw,\n"
+            "                                      16th August, 1995.\n\n"
+            "The Chairman,\n"
+            "The Parent-Teacher Association,\n"
+            "Nkawkaw.\n\n"
+            "Dear Sir,\n\n"
+            "                    TWO PROBLEMS IN THE SCHOOL\n\n"
+            "I am writing to bring to your notice two pressing concerns at His Grace J.H.S. as its Head Prefect, and to kindly ask for the Parent-Teacher Association's help in resolving them.\n\n"
+            "Firstly, we are experiencing a severe shortage of textbooks and other learning materials. A great many students lack access to current and relevant textbooks, which limits their ability to keep pace with the curriculum. This shortage weighs heavily on our academic progress, and we humbly request the Association's assistance in supplying more textbooks and learning resources for our students.\n\n"
+            "Secondly, our school's infrastructure badly needs repair. The classrooms, restrooms, and other facilities are showing clear signs of wear, threatening the safety and comfort of our learning environment. We kindly appeal to the Parent-Teacher Association to consider initiatives that could improve our school buildings.\n\n"
+            "We believe that cooperation between the Parent-Teacher Association and the school administration can substantially benefit our students and enhance the overall quality of education here. Your guidance and support would be of great value in tackling these issues.\n\n"
+            "We would welcome a meeting with the Association to explore these matters further and consider possible solutions. Your insight and assistance are highly valued by students, teachers, and parents alike.\n\n"
+            "Thank you for giving thought to our concerns. We look forward to your positive response and to working together towards a better learning environment for all.\n\n"
+            "Yours faithfully,\n"
+            "Fredrick Agyeman\n"
+            "(Head Prefect)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 1996 Q2)\n\n"
+            "Though your grades at the BECE were very good, none of the schools you chose offered you admission. Write a letter to your District Education Officer about this unfair treatment and request that something is done about it.",
+        answer:
+            "                                      c/o The Presbyterian Church,\n"
+            "                                      Post Office Box 22,\n"
+            "                                      Bibiani,\n"
+            "                                      16th August, 1996.\n\n"
+            "The District Education Officer,\n"
+            "Ghana Education Service,\n"
+            "Bibiani.\n\n"
+            "Dear Madam,\n\n"
+            "             REQUEST TO BE CONSIDERED FOR ADMISSION\n\n"
+            "I am writing to share my deep concern over the unjust treatment I have experienced during the senior high school admission process, despite achieving strong results in the Basic Education Certificate Examination (BECE).\n\n"
+            "I take pride in my excellent BECE results, yet I am disheartened that none of my chosen schools has offered me a place. This leaves me in a difficult position, as I am keen to further my education and give back to my community.\n\n"
+            "I believe that the admission process ought to be fair and open, so that students who have worked hard academically are given the chance to continue their studies. It is disappointing to see my effort go unrecognised for reasons entirely beyond my control.\n\n"
+            "I would be grateful for your intervention in this matter. I believe every student deserves the opportunity to pursue their potential, and I humbly ask that you look into the situation to ensure that admissions follow the guidelines set out by the education authorities properly.\n\n"
+            "I recognise how vital quality education is in shaping our futures, and I am eager to carry on with my studies. Your help in resolving this issue would mean a great deal to me and to other students facing similar difficulties.\n\n"
+            "Thank you for your attention to this matter. I trust that you will take the necessary steps to ensure that no deserving student is denied the chance to pursue their education due to unfair treatment.\n\n"
+            "Yours faithfully,\n"
+            "Agyei Ebenezer",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 1997 Q1)\n\n"
+            "You have been offered admission into a senior secondary school but you have not been able to report at the school. Write a letter to the head of the school telling him about your problems and asking him to give you a few more days to report.",
+        answer:
+            "                                      c/o Immaculate Heart Catholic Church,\n"
+            "                                      Post Office Box 33,\n"
+            "                                      Upper East Region - Bawku,\n"
+            "                                      2nd July, 1997.\n\n"
+            "The Headmaster,\n"
+            "Bolgatanga Senior High School,\n"
+            "Bolgatanga.\n\n"
+            "Dear Sir,\n\n"
+            "          REASONS FOR MY INABILITY TO REPORT TO SCHOOL\n\n"
+            "I am writing to express how grateful I am for having been admitted to Bolgatanga Senior High School. However, owing to circumstances beyond my control, I have not been able to report on the scheduled date.\n\n"
+            "I am currently dealing with certain difficulties that are outside my control, which have prevented me from starting my education promptly and reporting by the initial date given. I understand fully how important it is to begin on time and do not wish to lose this opportunity.\n\n"
+            "I would be grateful for your understanding and support in allowing me a few extra days to sort out these issues before I report to the school. I am committed to beginning my studies as soon as possible and to contributing positively to school life.\n\n"
+            "I assure you that I am working hard to overcome the obstacles that have come up and will do everything within my power to join the school at the earliest opportunity.\n\n"
+            "I am eager to become part of Bolgatanga Senior High School, and I believe that with your support, I can work through these difficulties and begin this new chapter of my education.\n\n"
+            "Thank you for considering my request. I remain hopeful for your favourable response and the chance to join the school soon.\n\n"
+            "Yours faithfully,\n"
+            "Oddei Stephen.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 1998 Q2)\n\n"
+            "As the Games Prefect of your school, write a letter to the Chairman of the Parent-Teacher Association complaining about the uncooperative attitude of the school authorities towards sports.",
+        answer: "                                      Nkrankwanta J.H.S.,\n"
+            "                                      P.O. Box TW 70,\n"
+            "                                      Nkrankwanta - Brong Ahafo,\n"
+            "                                      20th June, 1998.\n\n"
+            "The Chairman,\n"
+            "The Parent-Teacher Association,\n"
+            "Nkrankwanta - Brong Ahafo.\n\n"
+            "Dear Sir,\n\n"
+            "   THE UNCOOPERATIVE ATTITUDE OF SCHOOL AUTHORITIES TOWARDS SPORTS\n\n"
+            "I am writing to bring to your notice a matter of serious concern for the students and the future of sports in our school.\n\n"
+            "As Games Prefect, I am deeply committed to encouraging sport and physical activity among our students. Regrettably, I must report that we have been facing several difficulties owing to what appears to be an unhelpful attitude from the school authorities towards sports.\n\n"
+            "One of the main challenges is the lack of proper equipment and facilities for sporting activities. Our students are enthusiastic about sport, but without the necessary resources it is difficult to organise or take part in various sporting events. We have repeatedly asked for improvements in this area, but our requests appear to have gone unheard.\n\n"
+            "Furthermore, there is a noticeable absence of encouragement and backing from the school administration for sports-related efforts. This lack of enthusiasm makes it hard for us to motivate and involve our fellow students in sporting programmes and events.\n\n"
+            "Sport plays a vital part in the physical and mental growth of students, building teamwork, discipline, and general well-being. With the Parent-Teacher Association's support, we believe these challenges can be addressed and a livelier sporting culture built in our school.\n\n"
+            "We kindly ask for your intervention to help us secure the resources, support, and recognition needed for sport in our school. Your guidance and advocacy on behalf of school sports would be greatly valued.\n\n"
+            "Thank you for your attention to this pressing matter. We look forward to your favourable response and support.\n\n"
+            "Yours faithfully,\n"
+            "Agyei Frimpong\n"
+            "(Games Prefect)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 1999 Q2)\n\n"
+            "Write a letter to your Assemblyman or woman telling him or her two things that should be done for the people in your area.",
+        answer:
+            "                                      Ntaferewaso Youth Association,\n"
+            "                                      Post Office Box 34,\n"
+            "                                      Ntaferewaso,\n"
+            "                                      Prestea,\n"
+            "                                      3rd June, 1999.\n\n"
+            "The Assemblyman,\n"
+            "Ntaferewaso Electoral Area,\n"
+            "Prestea.\n\n"
+            "Dear Sir,\n\n"
+            "       PROVISION OF DEVELOPMENTAL FACILITIES FOR OUR AREA\n\n"
+            "Writing to you as a concerned resident of our community, I would like to raise two important matters that call for your attention and support in bettering our area.\n\n"
+            "Firstly, our community badly needs improved access to clean and safe drinking water. Numerous households, particularly in the more remote parts of the area, lack a dependable water source, putting the health of residents, especially children and the elderly, at real risk. We kindly ask for your assistance in securing funding and resources to set up a lasting and accessible clean water supply for our community.\n\n"
+            "Secondly, the poor state of our local roads is a growing worry. Their bad condition makes travel difficult and at times dangerous, hindering both daily commutes and the area's economic activity. We ask for your support in starting road maintenance and improvement projects to make our community safer and better connected.\n\n"
+            "We believe that tackling these two urgent issues would greatly raise the standard of living for the people of our area and support its overall development.\n\n"
+            "We kindly request that you give thought to these matters and speak on our behalf to the relevant authorities. Your support and commitment to our community's welfare would be greatly appreciated.\n\n"
+            "Thank you for your attention to these concerns. We look forward to seeing positive changes in our community with your assistance.\n\n"
+            "Yours faithfully,\n"
+            "(Joseph Koomson)\n"
+            "Secretary",
+        explanation: "",
       ),
     ],
   ),
-  "EFFECTIVE TURN-TAKING IN CONVERSATION": PracticeModel(
+
+  "English JHS1 s5 ss1 - Comprehension of Prescribed Texts (Extract-Based Theory Questions)":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nExplain why turn-taking is necessary in sound communication. State two consequences of not observing turn-taking.",
-        answer:
-            "Turn-taking is necessary because it allows each party to express their opinions fully, ensures active listening, and keeps the conversation orderly. Without turn-taking:\n1. Interruptions occur, causing frustration and breakdown in communication.\n2. Important points or ideas of silent participants are missed.",
-        explanation:
-            "Orderly conversation requires active listening and structured participation.",
+        scenario: "QUESTION 1 (BECE 2017 Q5)\n\n"
+            "Questions 1(a) to 1(c) are based on one of the prescribed short stories.\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "(a) What is referred to as Poor little thing in the story?\n\n"
+            "(b) What is the setting of the story?\n\n"
+            "(c) The attitude of the girls to the baby bird is that of ............\n\n"
+            "Read the following extract carefully and answer Questions 1(d) and 1(e).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *Tell My Son to Hold On to His Gun*\n\n"
+            "    \"Be courageous, be courageous, Kwame, be courageous!\"\n"
+            "    \"I will be, Father, I will be,\" I answered,\n"
+            "    and entered the thick forest ...... (Page 93)\n\n"
+            "(d) Be courageous, be courageous, Kwame, be courageous is an example of the use of a literary device termed ............\n\n"
+            "(e) How did Kwame show that he was courageous at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 1(f) and 1(g).\n\n"
+            "JEAN WATSON: *The Old Man And His Children*\n\n"
+            "    One there was an old man who had seven sons.\n"
+            "    They should have been his pride and joy.\n"
+            "    But they were not. (Page 17)\n\n"
+            "(f) The above extract is a/an ............ to a story.\n\n"
+            "(g) The idea expressed in the second sentence is that of ............\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you,\n"
+            "    I shall remember you in the hours of the night,\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep. (Page 62)\n\n"
+            "(h) \"... young woman\" refers to ............\n\n"
+            "(i) The 'sleepless sleep' of the speaker is caused by ............\n\n"
+            "(j) \"... sleepless sleep\" shows that the speaker is ............",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This describes Pepe, the young bird with a yellow beak and bright eyes that Debbie and Sandy rescue and care for.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The story is set in a rural, village-like environment, namely the area around Debbie and Sandy's home, including their mother's garden.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The girls show genuine kindness towards the bird, treating it with warmth and tender concern for its welfare.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• Repetition. The same phrase is deliberately repeated to stress its importance and urgency.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• He demonstrated his bravery by facing and killing the dangerous beast that threatened him.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• It functions as a prologue: an opening passage that sets up the story that follows.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It expresses contrast. It builds an expectation that his sons would bring him pride, only to overturn it in the next line.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Her nights are troubled because she has been unable to bear a child.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• It reveals that she is deeply unsettled: restless, troubled, and unable to find any real peace of mind.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2018 Q5)\n\n"
+            "Questions 2(a) to 2(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver walked 70 miles to London. In such a big city, no one would ever find him! It was chilly and his feet hurt but he was happy to leave his old, miserable life behind\".\n\n"
+            "\"I robbed her. Before her body was cold, I robbed her of the one item she had. She could have sold it for food or shelter but she kept it safe, ......\" (Page 117)\n\n"
+            "(a) Two of the people who treated Oliver badly, making him run away to London are ........ and ........\n\n"
+            "(b) An example of the use of contrast in the extract is ........\n\n"
+            "(c) \".... the one item she had\" was ....\n\n"
+            "Read the following extract carefully and answer Questions 2(d) and 2(e).\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "\"Well, we'll just have to look after him ourselves then\", she said.\n"
+            "\"We'll make a soft nest for him and feed him and when he grows up, he will stay in our garden.\" (Page 8)\n\n"
+            "(d) What did they choose for a nest for Pepe?\n\n"
+            "(e) Which figure of speech is mainly used in the extract?\n\n"
+            "Read the following extract carefully and answer Questions 2(f) and 2(g).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    My spirit Mother ought to have come for me earlier.\n"
+            "    Now, what shall I tell them who are gone?\n"
+            "    The daughter of slaves who came from the white man's land.\n"
+            "    Someone should advise me on how to tell my story.\n"
+            "    My children, I am dreading my arrival there\n"
+            "    Where they will ask me news of home.\n"
+            "    Shall I tell them or shall I not? (Page 37)\n\n"
+            "(f) Who is the speaker?\n\n"
+            "(g) What do the following expressions in the extract refer to?\n\n"
+            "(i) \"...... who are gone?\"\n\n"
+            "(ii) \"...... there\"\n\n"
+            "Read the following extract carefully and answer Questions 2(h) and 2(i).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Scribbler,\n"
+            "    The dream in your mind fills the shelf.\n"
+            "    When upon the shelf you gaze,\n"
+            "    vacuum stares at you.\n"
+            "    There is your quill and parchment,\n"
+            "    but heavy are your hands.\n"
+            "    Why?\n"
+            "    Because disuse numbs the wrist. (Page 98)\n\n"
+            "(h) What does \"Scribbler\" refer to?\n\n"
+            "(i) What does \"The dream in your mind\" refer to?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Among those responsible for his poor treatment were Mr. and Mrs. Sowerberry, along with Charlotte, Noah Claypole, and the undertaker who had employed him.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Despite the cold weather and his sore feet, Oliver still felt happy, since his relief at escaping his miserable old life outweighed his physical suffering. This pairing of discomfort with happiness is the contrast.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• It was a gold necklace fitted with a locket.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• They used an old letter box tucked inside the hedge.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Personification. The bird is spoken of and cared for as though it has human-like needs and feelings.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Nana, Ato's grandmother.\n\n"
+            "⦿ (g)(i) Answer:\n\n"
+            "• This refers to her deceased relatives: the ancestors who have already passed on.\n\n"
+            "⦿ (g)(ii) Answer:\n\n"
+            "• This refers to the spirit world, the realm of the departed.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It refers to a writer or author, someone whose craft involves putting words on paper.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to the writer's ideas and creative ability: the skill of writing itself.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2019 Q5)\n\n"
+            "Questions 3(a) to 3(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Stop, thief!\" he shouted, thinking Oliver had robbed him. The poor boy found himself being chased by people and even dogs! Someone in the crowd, a young man with purple lips and red sores all over his hands, grabbed Oliver and knocked him down ...\" (Page 109)\n\n"
+            "(a) The one described as a young man with purple lips and red sores all over his hands is ...\n\n"
+            "(b) Why did the 'young man with purple lips and red sores all over hands' want to harm Oliver?\n\n"
+            "(c) How did Mr Brownlow help Oliver at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 3(d) and 3(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"Born, say, our young Miss has arrived heavily laden with all the good things of this earth. I should think Dukana will soon float on a sea of wealth\" (Page 178)\n\n"
+            "(d) Who is referred to as our young Miss?\n\n"
+            "(e) The literary device used in heavily laden with all the good things of the earth is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(f) to 3(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "\"X: It was a couple of days ago that we met. What came out of the meeting is that we must come and ask you and your wife what is preventing you from giving your grandmother a great-grandchild before she leaves us.\"\n"
+            "(Act 4, Page 66)\n\n"
+            "(f) The speaker represented by 'X' in the extract is ...\n\n"
+            "(g) According to Ato, what is preventing him and his wife from having children?\n\n"
+            "(h) The figure of speech that describes she leaves us in the extract is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(i) and 3(j).\n\n"
+            "THERESA ENNIN: *Makola*\n\n"
+            "    Head bent, rags all around the upside down pan\n"
+            "    picking her nose, shuffling her feet, oblivious to\n"
+            "    the bustle\n\n"
+            "(i) Write one group of words in the extract that brings out the theme of uncleanliness.\n\n"
+            "(j) The words Head bent, rags all around the upside down pan appeal to the reader's sense of ...",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This is Mooks, also known as Edward Leeford, who is Oliver's half-brother and an associate of Fagin.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He was determined to hold on to the whole of their father's fortune, so he wanted Oliver disgraced and cut out of any inheritance.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Mr Brownlow enabled Oliver to discover the truth about his real parents and secure his rightful inheritance, effectively adopting him as his own.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the narrator herself, who is the writer and central character of the story.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Hyperbole. The wealth being described is deliberately exaggerated for effect.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Petu, Ato's elder uncle.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• According to Ato, nothing at all is stopping them.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Euphemism: a gentler way of referring to death.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• The phrase describing her picking her nose amid rags scattered around suggests untidiness and lack of cleanliness.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Sight. The description creates a vivid visual picture for the reader.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2020 Q5)\n\n"
+            "Questions 4(a) to 4(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver was given a slice of bread and a simple outfit with a brown cap to wear outside. He meekly followed him outside the workhouse to his new home. Once there, he was brought before a committee of ten men\". (Page 103)\n\n"
+            "(a) Write the name of the one referred to as \"him\" in the extract.\n\n"
+            "(b) One thing Oliver learns from the \"committee of ten men\" is ....\n\n"
+            "(c) How does Oliver react to the information he gets from the committee?\n\n"
+            "Read the following extract carefully and answer Questions 4(d) and 4(e).\n\n"
+            "PETER PAUL ADOLINAMA: *Ripples*\n\n"
+            "\"Abi, which of your sons died recently or was it your business which collapsed? ... You have not been yourself these few days.\" (Page 84)\n\n"
+            "(d) Identify the speaker in the extract.\n\n"
+            "(e) What is Abi worried about?\n\n"
+            "Read the following extract carefully and answer Questions 4(f) to 4(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    1ST WOMAN: If her son gets goodly bag by the month\n"
+            "    Why has Esi Kom still not ....\n"
+            "    2ND WOMAN: They never ask \"Why\".\n"
+            "    Is it not the young man's wife?\n"
+            "    1ST WOMAN: What has she done now?\n"
+            "    2ND WOMAN: Listen. I hear she swallows money\n"
+            "    As a hen does corn. (Act 4, Page 58-59)\n\n"
+            "(f) Who is referred to as \"the young man's wife\"?\n\n"
+            "(g) State the literary device used in \"Is it not the young man's wife?\"\n\n"
+            "(h) What is the meaning of \"she swallows money as a hen does corn\"?\n\n"
+            "Read the following extract carefully and answer Questions 4(i) and 4(j).\n\n"
+            "A. A. AMOAKO: *Sleep Without Wake*\n\n"
+            "    \"You put me through my infant paces\n"
+            "    On Gold Coast Ga Shikpon\n"
+            "    Taa taa, tuu tuu, in your maternal steps,\n"
+            "    Maame Tutuaa, condolences!\" (Page 158)\n\n"
+            "(i) Identify the main literary device used in the title of the poem Sleep Without Wake.\n\n"
+            "(j) The words Taa taa, tuu tuu appeal to the reader's sense of ....",
+        answer: "⦿ (a) Answer:\n\n"
+            "• He is Mr Bumble.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He discovers that he is an orphan, with neither mother nor father, and comes to understand what that word actually means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He is deeply shaken by the news and breaks down in tears.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The speaker is Mama Adamu, Sayibu's first wife and Abi's eldest stepmother.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Abi is anxious about being pushed into an early marriage, uneasy about the character of the man she is to marry, and fearful that Mr Ambrose Yakubu may not be able to rescue her from the situation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a rhetorical question, asked not to seek information but to make a point.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It means she spends money carelessly and wastefully, much like a hen that pecks up grain without restraint. In short, she is extravagant.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Euphemism. \"Sleep\" is used as a gentler substitute for death.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Hearing, since these words imitate the sound of footsteps.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2021 Q5)\n\n"
+            "Questions 5(a) to 5(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Mr Bumble made Oliver miserable and the boy couldn't wait to get away from the workhouse.\" (Page 104)\n\n"
+            "(a) Mr Bumble made Oliver miserable because ....\n\n"
+            "(b) Who is Mr Bumble?\n\n"
+            "(c) How did Mr Bumble try to get rid of Oliver?\n\n"
+            "Read the following extract carefully and answer Questions 5(d) and 5(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"They came in the usual assortment of rags: gowns picked up from the stalls of second-hand clothes traders, singlets bearing the words, Oxford University, mildewed blouses. Some women wore shirts that were meant for men; one of them was in a printed cotton nightgown that had faded beyond recognition.\" (Page 178)\n\n"
+            "(d) They refers to ....\n\n"
+            "(e) An imagery of ....... is created in the extract.\n\n"
+            "Read the following extract carefully and answer Questions 5(f) to 5(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    EULALIE: Ya, I remember I bought the idea, but I got the feeling ....\n"
+            "    ATO: Heavens, woman! They are always getting feelings. First, you got the feeling you needed a couple of years to settle down and now you are obviously getting a feeling. (Act 2, Page 46)\n\n"
+            "(f) What idea did Eulalie buy?\n\n"
+            "(g) What feeling has she got now?\n\n"
+            "(h) How does Ato react to her feeling?\n\n"
+            "Read the following extract carefully and answer Questions 5(i) and 5(j).\n\n"
+            "V.B. AAKYE: *The Colour of God*\n\n"
+            "    How silly man is, laughs the rose\n"
+            "    Why should He be\n"
+            "    black or white Or green or\n"
+            "    yellow or even red?\n\n"
+            "(i) The literary device used in laughs the rose is ....\n\n"
+            "(j) According to the poem, what is the colour of God?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Oliver had dared to ask for more food than he was allowed.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He is the church official who runs and presides over the workhouse where Oliver was born.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He offered a reward of five pounds to anyone willing to take Oliver off the workhouse's hands and teach him a trade.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the crowd of local people who came to welcome the narrator, gathered in Mama's sitting room.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The description creates an image of poverty and deprivation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• She had accepted the plan to postpone starting a family until she had properly settled down.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• She now feels ready and wants to start having children.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• He responds with surprise and a degree of frustration, seeming confused and somewhat opposed to the sudden change of heart.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Personification. The rose is given the human ability to laugh.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• According to the poem, God embodies every colour, blending all the colours together much like a rainbow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2022 Q5)\n\n"
+            "Questions 6(a) to 6(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"You know why, son. If a rich and successful man marries a woman whose name is stained because of her birth, it will be quite sad indeed.... Wicked people will not let her forget her past, even though it's not her fault.\" (Page 122)\n\n"
+            "(a) Son and rich and successful man refer to .......\n\n"
+            "(b) The speaker is ...........\n\n"
+            "(c) ... a woman whose name is stained because of her birth .... How did her birth stain her name?\n\n"
+            "Read the following extract carefully and answer Questions 6(d) and 6(e).\n\n"
+            "LAWRENCE DARMANI: *Sosu and the Bukari Boys*\n\n"
+            "\"Sosu felt his parents were very mean; otherwise, why did they give him such a small amount of money? Look at his friend, Bukari, who always brought a lot of money to school!... Bukari's father dropped him at school every day while he and Vivian had to walk.\" (Page 150)\n\n"
+            "(d) The extract brings out the theme of ....\n\n"
+            "(e) The main literary device used in the extract is ....\n\n"
+            "Read the following extract carefully and answer Questions 6(f) to 6(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA: The master-scholar was sitting on the chair studying, so he could not move off. (Act 1, Page 31)\n\n"
+            "(f) Monka needed the chair because ...........\n\n"
+            "(g) The scene of this extract is ...........\n\n"
+            "(h) The master-scholar refers to ...........\n\n"
+            "Read the following extract carefully and answer Questions 6(i) and 6(j).\n\n"
+            "LADE WOSORNU: *Desert Rivers*\n\n"
+            "    Without a sound\n"
+            "    They gush out into the bowels of the seas\n"
+            "    Far, far away from the unaided human eyes\n"
+            "    If you cannot see our tears\n"
+            "    It does not mean we do not cry. (Page 15)\n\n"
+            "(i) Water/Rivers are used in the poem as symbols of ...........\n\n"
+            "(j) If you cannot see our tears / It does not mean we do not cry. The above lines bring out the theme of ........",
+        answer: "⦿ (a) Answer:\n\n"
+            "• All three descriptions point to the same person: Harry Maylie, Mrs Maylie's son and Rose's husband.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The speaker is Mrs Maylie, Harry's mother.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Her father had changed his name out of shame, since he was believed to be unknown, or her sister had fallen pregnant outside marriage; these circumstances left her without a settled home and her origins clouded by scandal.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The passage highlights themes of ingratitude and envy. Sosu fails to appreciate what he has and instead resents his friend's greater privilege.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Contrast. Sosu's situation is set directly against Bukari's more comfortable one.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A family gathering was underway, and since Ato had nowhere to sit, she wanted to offer him the chair.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• The scene takes place at Ato's family home, namely the Odumna clan house in his home village.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Ebow, Ato's brother and Esi Kom's son.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• They stand for life, renewal, and rebirth.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• They express the theme of enduring suffering quietly, that is, bearing pain without outward complaint.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2023 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 7(a) to 7(c).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"My friend, Sira, was Waale's only daughter. As I said, we had grown up together, and had attended school together. She had not been able to complete her elementary schooling, although she was a brilliant girl\". (Page 181)\n\n"
+            "(a) Who is Waale?\n\n"
+            "(b) Sira could not complete her elementary schooling because....\n\n"
+            "(c) Sira was not among the people who came to welcome the writer because......\n\n"
+            "Read the following extract carefully and answer Questions 7(d) and 7(e).\n\n"
+            "AMA ATA AIDOO: *The Girl Who Can*\n\n"
+            "\"They said I was born in Hasodzi; and it was very big village in the Central Region of our country Ghana ....\" (Page 142)\n\n"
+            "(d) The extract is the ....... of the story.\n\n"
+            "(e) \"They said that I was born ....\" shows that ......\n\n"
+            "Read the following extract carefully and answer Questions 7(f) to 7(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA [to herself]: I remember the time he was preparing to go to the white man's land........ The money .... the money .... This is something which no one should hear anything about. (Act 3, Page 56)\n\n"
+            "(f) According to Monka, one of the things no one should hear anything about is .......\n\n"
+            "(g) The extract is an example of a/an ......\n\n"
+            "(h) The money .... the money .... is an example of a literary device called ....\n\n"
+            "Read the following extract carefully and answer Questions 7(i) and 7(j).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and we wake up glowing. (Page 184)\n\n"
+            "(i) The extract brings out the theme of .......\n\n"
+            "(j) ... she kindles us / like lump coal lighted .... The dominant figure of speech in the line above is .......",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Waale is Sira's mother, and a friend of the narrator's mother.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Her family did not want their lineage to end, so when she gave birth to twins she was sent away from home, cutting short her education.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She had been forced to leave the village after having twins and was therefore away travelling at the time.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It forms the opening section of the story, serving as its introduction and setting.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The phrasing shows that the narrator has no birth certificate and cannot confirm her own birthplace with certainty, likely because her parents could not read or write.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A substantial part of the family's land, along with valuable heirlooms such as gold ornaments, had to be sold or pawned to fund the journey.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a soliloquy. Monka is speaking her private thoughts aloud to herself.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Repetition, used to emphasise how heavily the subject weighs on her mind.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It celebrates the warmth of a mother's love and the comfort her presence brings to the family.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Simile. Her effect on the family is compared to lit coal using the word \"like\".",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2024 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 8(a) and 8(b).\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Boy what's your name?\" snarled the chairman.\n"
+            "\"Oliver Twist sir\"\n"
+            "\"You know that you're an orphan, is that right?\"\n"
+            "\"What's an orphan sir?\"\n\n"
+            "(a) The chairman's tone tells us that he is .......\n\n"
+            "(b) From Oliver's question we can tell that he is ......\n\n"
+            "Read the following extract carefully and answer Questions 8(c) and 8(d).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *The Generous Hunter*\n\n"
+            "    Calm down, Mr Hunter, I come in peace. Your ability to distinguish me from my younger brother has surprised me. Many people think we are identical twins.\n\n"
+            "(c) Why did the speaker go to see the hunter?\n\n"
+            "(d) What lesson can we learn from the speaker's action?\n\n"
+            "Read the following extract carefully and answer Questions 8(e) and 8(f).\n\n"
+            "ROBERT FROST: *A Minor Bird*\n\n"
+            "    The fault must partly have been in me\n"
+            "    The bird was not to blame for his key\n"
+            "    And of course there must be something wrong\n"
+            "    In wanting to silence any song\n\n"
+            "(e) Give the rhyming scheme for the extract above.\n\n"
+            "(f) From the poem, what lesson do you learn about fault finding?\n\n"
+            "Read the following extract carefully and answer Questions 8(g) and 8(h).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Tell you the truth:\n"
+            "    the gold adorning the neck\n"
+            "    once was lost in rocky soils\n"
+            "    They dig deep who find it!\n\n"
+            "(g) The dominant literary device in the 2nd and 3rd lines is .......\n\n"
+            "(h) What does the writer mean by \"They dig deep who find it\"?\n\n"
+            "Read the following extract carefully and answer Questions 8(i) and 8(j).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you.\n"
+            "    I shall remember you in the hours of the night\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep.\n\n"
+            "(i) Who does \"my young woman\" refer to?\n\n"
+            "(j) What is the figure of speech in the expression, \"In my sleepless sleep\"?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• His tone reveals him to be harsh, unsympathetic, and cold-hearted towards the boy.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• His question shows that he is innocent and unaware, since he genuinely does not understand what the word means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The speaker had come to express thanks, since the hunter had earlier spared and released his younger sibling from a trap.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• We learn the importance of showing gratitude and repaying kindness shown to us by others.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The lines follow a couplet pattern, rhyming aa, bb.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The poem teaches us to examine our own faults before criticising others, and to be more tolerant and accepting.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• Metaphor, used symbolically to represent something valuable and hard-won.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• The line means that success only comes through hard, persistent effort. Those who work hardest are the ones who achieve it.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• This is an oxymoron, pairing two contradictory ideas, sleep and sleeplessness, for deliberate effect.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2025 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 9(a), 9(b) and 9(c).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Nana: Yes, I am sitting here. So you thought I was dead? No, I am not. Go home, good neighbours and save your tears for my funeral. It cannot be long now...\n\n"
+            "(a) Who are the good neighbours?\n\n"
+            "(b) It cannot be long now. Why does Nana think she will die soon?\n\n"
+            "(c) Nana is in a ........ mood.\n\n"
+            "Read the following extract carefully and answer Questions 9(d) and 9(e).\n\n"
+            "KOBENA EYI ACQUAH: *A Wreath of Tears*\n\n"
+            "    Your funeral\n"
+            "    was s quiet and small\n"
+            "    almost too small, it is said\n"
+            "    for a man your stature\n"
+            "    You must\n"
+            "    Have preferred it that way\n\n"
+            "(d) This poem is an example of a/an ......\n\n"
+            "(e) The above lines show that the dead person was ......\n\n"
+            "Read the following extract carefully and answer Questions 9(f) and 9(g).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door,\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and she wake up glowing.\n"
+            "    She put a spark even in Papa's eyes\n"
+            "    and turns out all our darkness.\n\n"
+            "(f) The literary device in turns out all our darkness is ....\n\n"
+            "(g) Mama is a Sunrise is an example of which literary device?\n\n"
+            "Read the following extract carefully and answer Questions 9(h), 9(i) and 9(j).\n\n"
+            "ERNEST HEMINGWAY: *A Day's Wait*\n\n"
+            "    I thought perhaps he was a little light-headed and after giving him the prescribed capsules at eleven o'clock, I went out for a while.\n\n"
+            "(h) One thing that made Schatz's father think the boy was a little light-headed is ........\n\n"
+            "(i) What exactly did the writer do when he \"went out for a while\"?\n\n"
+            "(j) How did Schatz feel at the end of the story?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• They are the First Woman and Second Woman.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• She is overwhelmed with grief because Ato has married a descendant of slaves, and the sorrow this has caused her makes her feel her death is near.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She is in a sad, sorrowful, and mournful state of mind.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It is a dirge: a poem written in tribute or mourning for someone who has died.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• They suggest the deceased was a humble and modest person, someone who would not have wanted a grand send-off.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This is hyperbole/metaphor. Her presence is described as dramatically banishing all gloom from the household.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a metaphor, directly equating Mama with a sunrise.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Schatz was refusing to rest or relax, showed no interest in anything around him, and even asked his father to leave him alone.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• He took his dog out and went hunting, shooting a couple of birds along the way.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• By the end, he felt calm and relieved.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS3 s5 ss1 - Comprehension of Prescribed Texts (Extract-Based Theory Questions)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q5)\n\n"
+            "Questions 1(a) to 1(c) are based on one of the prescribed short stories.\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "(a) What is referred to as Poor little thing in the story?\n\n"
+            "(b) What is the setting of the story?\n\n"
+            "(c) The attitude of the girls to the baby bird is that of ............\n\n"
+            "Read the following extract carefully and answer Questions 1(d) and 1(e).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *Tell My Son to Hold On to His Gun*\n\n"
+            "    \"Be courageous, be courageous, Kwame, be courageous!\"\n"
+            "    \"I will be, Father, I will be,\" I answered,\n"
+            "    and entered the thick forest ...... (Page 93)\n\n"
+            "(d) Be courageous, be courageous, Kwame, be courageous is an example of the use of a literary device termed ............\n\n"
+            "(e) How did Kwame show that he was courageous at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 1(f) and 1(g).\n\n"
+            "JEAN WATSON: *The Old Man And His Children*\n\n"
+            "    One there was an old man who had seven sons.\n"
+            "    They should have been his pride and joy.\n"
+            "    But they were not. (Page 17)\n\n"
+            "(f) The above extract is a/an ............ to a story.\n\n"
+            "(g) The idea expressed in the second sentence is that of ............\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you,\n"
+            "    I shall remember you in the hours of the night,\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep. (Page 62)\n\n"
+            "(h) \"... young woman\" refers to ............\n\n"
+            "(i) The 'sleepless sleep' of the speaker is caused by ............\n\n"
+            "(j) \"... sleepless sleep\" shows that the speaker is ............",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This describes Pepe, the young bird with a yellow beak and bright eyes that Debbie and Sandy rescue and care for.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The story is set in a rural, village-like environment, namely the area around Debbie and Sandy's home, including their mother's garden.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The girls show genuine kindness towards the bird, treating it with warmth and tender concern for its welfare.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• Repetition. The same phrase is deliberately repeated to stress its importance and urgency.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• He demonstrated his bravery by facing and killing the dangerous beast that threatened him.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• It functions as a prologue: an opening passage that sets up the story that follows.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It expresses contrast. It builds an expectation that his sons would bring him pride, only to overturn it in the next line.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Her nights are troubled because she has been unable to bear a child.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• It reveals that she is deeply unsettled: restless, troubled, and unable to find any real peace of mind.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2018 Q5)\n\n"
+            "Questions 2(a) to 2(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver walked 70 miles to London. In such a big city, no one would ever find him! It was chilly and his feet hurt but he was happy to leave his old, miserable life behind\".\n\n"
+            "\"I robbed her. Before her body was cold, I robbed her of the one item she had. She could have sold it for food or shelter but she kept it safe, ......\" (Page 117)\n\n"
+            "(a) Two of the people who treated Oliver badly, making him run away to London are ........ and ........\n\n"
+            "(b) An example of the use of contrast in the extract is ........\n\n"
+            "(c) \".... the one item she had\" was ....\n\n"
+            "Read the following extract carefully and answer Questions 2(d) and 2(e).\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "\"Well, we'll just have to look after him ourselves then\", she said.\n"
+            "\"We'll make a soft nest for him and feed him and when he grows up, he will stay in our garden.\" (Page 8)\n\n"
+            "(d) What did they choose for a nest for Pepe?\n\n"
+            "(e) Which figure of speech is mainly used in the extract?\n\n"
+            "Read the following extract carefully and answer Questions 2(f) and 2(g).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    My spirit Mother ought to have come for me earlier.\n"
+            "    Now, what shall I tell them who are gone?\n"
+            "    The daughter of slaves who came from the white man's land.\n"
+            "    Someone should advise me on how to tell my story.\n"
+            "    My children, I am dreading my arrival there\n"
+            "    Where they will ask me news of home.\n"
+            "    Shall I tell them or shall I not? (Page 37)\n\n"
+            "(f) Who is the speaker?\n\n"
+            "(g) What do the following expressions in the extract refer to?\n\n"
+            "(i) \"...... who are gone?\"\n\n"
+            "(ii) \"...... there\"\n\n"
+            "Read the following extract carefully and answer Questions 2(h) and 2(i).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Scribbler,\n"
+            "    The dream in your mind fills the shelf.\n"
+            "    When upon the shelf you gaze,\n"
+            "    vacuum stares at you.\n"
+            "    There is your quill and parchment,\n"
+            "    but heavy are your hands.\n"
+            "    Why?\n"
+            "    Because disuse numbs the wrist. (Page 98)\n\n"
+            "(h) What does \"Scribbler\" refer to?\n\n"
+            "(i) What does \"The dream in your mind\" refer to?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Among those responsible for his poor treatment were Mr. and Mrs. Sowerberry, along with Charlotte, Noah Claypole, and the undertaker who had employed him.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Despite the cold weather and his sore feet, Oliver still felt happy, since his relief at escaping his miserable old life outweighed his physical suffering. This pairing of discomfort with happiness is the contrast.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• It was a gold necklace fitted with a locket.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• They used an old letter box tucked inside the hedge.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Personification. The bird is spoken of and cared for as though it has human-like needs and feelings.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Nana, Ato's grandmother.\n\n"
+            "⦿ (g)(i) Answer:\n\n"
+            "• This refers to her deceased relatives: the ancestors who have already passed on.\n\n"
+            "⦿ (g)(ii) Answer:\n\n"
+            "• This refers to the spirit world, the realm of the departed.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It refers to a writer or author, someone whose craft involves putting words on paper.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to the writer's ideas and creative ability: the skill of writing itself.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2019 Q5)\n\n"
+            "Questions 3(a) to 3(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Stop, thief!\" he shouted, thinking Oliver had robbed him. The poor boy found himself being chased by people and even dogs! Someone in the crowd, a young man with purple lips and red sores all over his hands, grabbed Oliver and knocked him down ...\" (Page 109)\n\n"
+            "(a) The one described as a young man with purple lips and red sores all over his hands is ...\n\n"
+            "(b) Why did the 'young man with purple lips and red sores all over hands' want to harm Oliver?\n\n"
+            "(c) How did Mr Brownlow help Oliver at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 3(d) and 3(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"Born, say, our young Miss has arrived heavily laden with all the good things of this earth. I should think Dukana will soon float on a sea of wealth\" (Page 178)\n\n"
+            "(d) Who is referred to as our young Miss?\n\n"
+            "(e) The literary device used in heavily laden with all the good things of the earth is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(f) to 3(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "\"X: It was a couple of days ago that we met. What came out of the meeting is that we must come and ask you and your wife what is preventing you from giving your grandmother a great-grandchild before she leaves us.\"\n"
+            "(Act 4, Page 66)\n\n"
+            "(f) The speaker represented by 'X' in the extract is ...\n\n"
+            "(g) According to Ato, what is preventing him and his wife from having children?\n\n"
+            "(h) The figure of speech that describes she leaves us in the extract is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(i) and 3(j).\n\n"
+            "THERESA ENNIN: *Makola*\n\n"
+            "    Head bent, rags all around the upside down pan\n"
+            "    picking her nose, shuffling her feet, oblivious to\n"
+            "    the bustle\n\n"
+            "(i) Write one group of words in the extract that brings out the theme of uncleanliness.\n\n"
+            "(j) The words Head bent, rags all around the upside down pan appeal to the reader's sense of ...",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This is Mooks, also known as Edward Leeford, who is Oliver's half-brother and an associate of Fagin.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He was determined to hold on to the whole of their father's fortune, so he wanted Oliver disgraced and cut out of any inheritance.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Mr Brownlow enabled Oliver to discover the truth about his real parents and secure his rightful inheritance, effectively adopting him as his own.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the narrator herself, who is the writer and central character of the story.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Hyperbole. The wealth being described is deliberately exaggerated for effect.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Petu, Ato's elder uncle.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• According to Ato, nothing at all is stopping them.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Euphemism: a gentler way of referring to death.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• The phrase describing her picking her nose amid rags scattered around suggests untidiness and lack of cleanliness.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Sight. The description creates a vivid visual picture for the reader.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2020 Q5)\n\n"
+            "Questions 4(a) to 4(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver was given a slice of bread and a simple outfit with a brown cap to wear outside. He meekly followed him outside the workhouse to his new home. Once there, he was brought before a committee of ten men\". (Page 103)\n\n"
+            "(a) Write the name of the one referred to as \"him\" in the extract.\n\n"
+            "(b) One thing Oliver learns from the \"committee of ten men\" is ....\n\n"
+            "(c) How does Oliver react to the information he gets from the committee?\n\n"
+            "Read the following extract carefully and answer Questions 4(d) and 4(e).\n\n"
+            "PETER PAUL ADOLINAMA: *Ripples*\n\n"
+            "\"Abi, which of your sons died recently or was it your business which collapsed? ... You have not been yourself these few days.\" (Page 84)\n\n"
+            "(d) Identify the speaker in the extract.\n\n"
+            "(e) What is Abi worried about?\n\n"
+            "Read the following extract carefully and answer Questions 4(f) to 4(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    1ST WOMAN: If her son gets goodly bag by the month\n"
+            "    Why has Esi Kom still not ....\n"
+            "    2ND WOMAN: They never ask \"Why\".\n"
+            "    Is it not the young man's wife?\n"
+            "    1ST WOMAN: What has she done now?\n"
+            "    2ND WOMAN: Listen. I hear she swallows money\n"
+            "    As a hen does corn. (Act 4, Page 58-59)\n\n"
+            "(f) Who is referred to as \"the young man's wife\"?\n\n"
+            "(g) State the literary device used in \"Is it not the young man's wife?\"\n\n"
+            "(h) What is the meaning of \"she swallows money as a hen does corn\"?\n\n"
+            "Read the following extract carefully and answer Questions 4(i) and 4(j).\n\n"
+            "A. A. AMOAKO: *Sleep Without Wake*\n\n"
+            "    \"You put me through my infant paces\n"
+            "    On Gold Coast Ga Shikpon\n"
+            "    Taa taa, tuu tuu, in your maternal steps,\n"
+            "    Maame Tutuaa, condolences!\" (Page 158)\n\n"
+            "(i) Identify the main literary device used in the title of the poem Sleep Without Wake.\n\n"
+            "(j) The words Taa taa, tuu tuu appeal to the reader's sense of ....",
+        answer: "⦿ (a) Answer:\n\n"
+            "• He is Mr Bumble.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He discovers that he is an orphan, with neither mother nor father, and comes to understand what that word actually means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He is deeply shaken by the news and breaks down in tears.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The speaker is Mama Adamu, Sayibu's first wife and Abi's eldest stepmother.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Abi is anxious about being pushed into an early marriage, uneasy about the character of the man she is to marry, and fearful that Mr Ambrose Yakubu may not be able to rescue her from the situation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a rhetorical question, asked not to seek information but to make a point.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It means she spends money carelessly and wastefully, much like a hen that pecks up grain without restraint. In short, she is extravagant.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Euphemism. \"Sleep\" is used as a gentler substitute for death.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Hearing, since these words imitate the sound of footsteps.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2021 Q5)\n\n"
+            "Questions 5(a) to 5(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Mr Bumble made Oliver miserable and the boy couldn't wait to get away from the workhouse.\" (Page 104)\n\n"
+            "(a) Mr Bumble made Oliver miserable because ....\n\n"
+            "(b) Who is Mr Bumble?\n\n"
+            "(c) How did Mr Bumble try to get rid of Oliver?\n\n"
+            "Read the following extract carefully and answer Questions 5(d) and 5(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"They came in the usual assortment of rags: gowns picked up from the stalls of second-hand clothes traders, singlets bearing the words, Oxford University, mildewed blouses. Some women wore shirts that were meant for men; one of them was in a printed cotton nightgown that had faded beyond recognition.\" (Page 178)\n\n"
+            "(d) They refers to ....\n\n"
+            "(e) An imagery of ....... is created in the extract.\n\n"
+            "Read the following extract carefully and answer Questions 5(f) to 5(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    EULALIE: Ya, I remember I bought the idea, but I got the feeling ....\n"
+            "    ATO: Heavens, woman! They are always getting feelings. First, you got the feeling you needed a couple of years to settle down and now you are obviously getting a feeling. (Act 2, Page 46)\n\n"
+            "(f) What idea did Eulalie buy?\n\n"
+            "(g) What feeling has she got now?\n\n"
+            "(h) How does Ato react to her feeling?\n\n"
+            "Read the following extract carefully and answer Questions 5(i) and 5(j).\n\n"
+            "V.B. AAKYE: *The Colour of God*\n\n"
+            "    How silly man is, laughs the rose\n"
+            "    Why should He be\n"
+            "    black or white Or green or\n"
+            "    yellow or even red?\n\n"
+            "(i) The literary device used in laughs the rose is ....\n\n"
+            "(j) According to the poem, what is the colour of God?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Oliver had dared to ask for more food than he was allowed.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He is the church official who runs and presides over the workhouse where Oliver was born.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He offered a reward of five pounds to anyone willing to take Oliver off the workhouse's hands and teach him a trade.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the crowd of local people who came to welcome the narrator, gathered in Mama's sitting room.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The description creates an image of poverty and deprivation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• She had accepted the plan to postpone starting a family until she had properly settled down.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• She now feels ready and wants to start having children.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• He responds with surprise and a degree of frustration, seeming confused and somewhat opposed to the sudden change of heart.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Personification. The rose is given the human ability to laugh.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• According to the poem, God embodies every colour, blending all the colours together much like a rainbow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2022 Q5)\n\n"
+            "Questions 6(a) to 6(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"You know why, son. If a rich and successful man marries a woman whose name is stained because of her birth, it will be quite sad indeed.... Wicked people will not let her forget her past, even though it's not her fault.\" (Page 122)\n\n"
+            "(a) Son and rich and successful man refer to .......\n\n"
+            "(b) The speaker is ...........\n\n"
+            "(c) ... a woman whose name is stained because of her birth .... How did her birth stain her name?\n\n"
+            "Read the following extract carefully and answer Questions 6(d) and 6(e).\n\n"
+            "LAWRENCE DARMANI: *Sosu and the Bukari Boys*\n\n"
+            "\"Sosu felt his parents were very mean; otherwise, why did they give him such a small amount of money? Look at his friend, Bukari, who always brought a lot of money to school!... Bukari's father dropped him at school every day while he and Vivian had to walk.\" (Page 150)\n\n"
+            "(d) The extract brings out the theme of ....\n\n"
+            "(e) The main literary device used in the extract is ....\n\n"
+            "Read the following extract carefully and answer Questions 6(f) to 6(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA: The master-scholar was sitting on the chair studying, so he could not move off. (Act 1, Page 31)\n\n"
+            "(f) Monka needed the chair because ...........\n\n"
+            "(g) The scene of this extract is ...........\n\n"
+            "(h) The master-scholar refers to ...........\n\n"
+            "Read the following extract carefully and answer Questions 6(i) and 6(j).\n\n"
+            "LADE WOSORNU: *Desert Rivers*\n\n"
+            "    Without a sound\n"
+            "    They gush out into the bowels of the seas\n"
+            "    Far, far away from the unaided human eyes\n"
+            "    If you cannot see our tears\n"
+            "    It does not mean we do not cry. (Page 15)\n\n"
+            "(i) Water/Rivers are used in the poem as symbols of ...........\n\n"
+            "(j) If you cannot see our tears / It does not mean we do not cry. The above lines bring out the theme of ........",
+        answer: "⦿ (a) Answer:\n\n"
+            "• All three descriptions point to the same person: Harry Maylie, Mrs Maylie's son and Rose's husband.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The speaker is Mrs Maylie, Harry's mother.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Her father had changed his name out of shame, since he was believed to be unknown, or her sister had fallen pregnant outside marriage; these circumstances left her without a settled home and her origins clouded by scandal.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The passage highlights themes of ingratitude and envy. Sosu fails to appreciate what he has and instead resents his friend's greater privilege.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Contrast. Sosu's situation is set directly against Bukari's more comfortable one.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A family gathering was underway, and since Ato had nowhere to sit, she wanted to offer him the chair.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• The scene takes place at Ato's family home, namely the Odumna clan house in his home village.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Ebow, Ato's brother and Esi Kom's son.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• They stand for life, renewal, and rebirth.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• They express the theme of enduring suffering quietly, that is, bearing pain without outward complaint.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2023 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 7(a) to 7(c).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"My friend, Sira, was Waale's only daughter. As I said, we had grown up together, and had attended school together. She had not been able to complete her elementary schooling, although she was a brilliant girl\". (Page 181)\n\n"
+            "(a) Who is Waale?\n\n"
+            "(b) Sira could not complete her elementary schooling because....\n\n"
+            "(c) Sira was not among the people who came to welcome the writer because......\n\n"
+            "Read the following extract carefully and answer Questions 7(d) and 7(e).\n\n"
+            "AMA ATA AIDOO: *The Girl Who Can*\n\n"
+            "\"They said I was born in Hasodzi; and it was very big village in the Central Region of our country Ghana ....\" (Page 142)\n\n"
+            "(d) The extract is the ....... of the story.\n\n"
+            "(e) \"They said that I was born ....\" shows that ......\n\n"
+            "Read the following extract carefully and answer Questions 7(f) to 7(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA [to herself]: I remember the time he was preparing to go to the white man's land........ The money .... the money .... This is something which no one should hear anything about. (Act 3, Page 56)\n\n"
+            "(f) According to Monka, one of the things no one should hear anything about is .......\n\n"
+            "(g) The extract is an example of a/an ......\n\n"
+            "(h) The money .... the money .... is an example of a literary device called ....\n\n"
+            "Read the following extract carefully and answer Questions 7(i) and 7(j).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and we wake up glowing. (Page 184)\n\n"
+            "(i) The extract brings out the theme of .......\n\n"
+            "(j) ... she kindles us / like lump coal lighted .... The dominant figure of speech in the line above is .......",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Waale is Sira's mother, and a friend of the narrator's mother.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Her family did not want their lineage to end, so when she gave birth to twins she was sent away from home, cutting short her education.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She had been forced to leave the village after having twins and was therefore away travelling at the time.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It forms the opening section of the story, serving as its introduction and setting.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The phrasing shows that the narrator has no birth certificate and cannot confirm her own birthplace with certainty, likely because her parents could not read or write.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A substantial part of the family's land, along with valuable heirlooms such as gold ornaments, had to be sold or pawned to fund the journey.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a soliloquy. Monka is speaking her private thoughts aloud to herself.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Repetition, used to emphasise how heavily the subject weighs on her mind.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It celebrates the warmth of a mother's love and the comfort her presence brings to the family.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Simile. Her effect on the family is compared to lit coal using the word \"like\".",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2024 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 8(a) and 8(b).\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Boy what's your name?\" snarled the chairman.\n"
+            "\"Oliver Twist sir\"\n"
+            "\"You know that you're an orphan, is that right?\"\n"
+            "\"What's an orphan sir?\"\n\n"
+            "(a) The chairman's tone tells us that he is .......\n\n"
+            "(b) From Oliver's question we can tell that he is ......\n\n"
+            "Read the following extract carefully and answer Questions 8(c) and 8(d).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *The Generous Hunter*\n\n"
+            "    Calm down, Mr Hunter, I come in peace. Your ability to distinguish me from my younger brother has surprised me. Many people think we are identical twins.\n\n"
+            "(c) Why did the speaker go to see the hunter?\n\n"
+            "(d) What lesson can we learn from the speaker's action?\n\n"
+            "Read the following extract carefully and answer Questions 8(e) and 8(f).\n\n"
+            "ROBERT FROST: *A Minor Bird*\n\n"
+            "    The fault must partly have been in me\n"
+            "    The bird was not to blame for his key\n"
+            "    And of course there must be something wrong\n"
+            "    In wanting to silence any song\n\n"
+            "(e) Give the rhyming scheme for the extract above.\n\n"
+            "(f) From the poem, what lesson do you learn about fault finding?\n\n"
+            "Read the following extract carefully and answer Questions 8(g) and 8(h).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Tell you the truth:\n"
+            "    the gold adorning the neck\n"
+            "    once was lost in rocky soils\n"
+            "    They dig deep who find it!\n\n"
+            "(g) The dominant literary device in the 2nd and 3rd lines is .......\n\n"
+            "(h) What does the writer mean by \"They dig deep who find it\"?\n\n"
+            "Read the following extract carefully and answer Questions 8(i) and 8(j).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you.\n"
+            "    I shall remember you in the hours of the night\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep.\n\n"
+            "(i) Who does \"my young woman\" refer to?\n\n"
+            "(j) What is the figure of speech in the expression, \"In my sleepless sleep\"?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• His tone reveals him to be harsh, unsympathetic, and cold-hearted towards the boy.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• His question shows that he is innocent and unaware, since he genuinely does not understand what the word means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The speaker had come to express thanks, since the hunter had earlier spared and released his younger sibling from a trap.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• We learn the importance of showing gratitude and repaying kindness shown to us by others.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The lines follow a couplet pattern, rhyming aa, bb.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The poem teaches us to examine our own faults before criticising others, and to be more tolerant and accepting.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• Metaphor, used symbolically to represent something valuable and hard-won.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• The line means that success only comes through hard, persistent effort. Those who work hardest are the ones who achieve it.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• This is an oxymoron, pairing two contradictory ideas, sleep and sleeplessness, for deliberate effect.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2025 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 9(a), 9(b) and 9(c).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Nana: Yes, I am sitting here. So you thought I was dead? No, I am not. Go home, good neighbours and save your tears for my funeral. It cannot be long now...\n\n"
+            "(a) Who are the good neighbours?\n\n"
+            "(b) It cannot be long now. Why does Nana think she will die soon?\n\n"
+            "(c) Nana is in a ........ mood.\n\n"
+            "Read the following extract carefully and answer Questions 9(d) and 9(e).\n\n"
+            "KOBENA EYI ACQUAH: *A Wreath of Tears*\n\n"
+            "    Your funeral\n"
+            "    was s quiet and small\n"
+            "    almost too small, it is said\n"
+            "    for a man your stature\n"
+            "    You must\n"
+            "    Have preferred it that way\n\n"
+            "(d) This poem is an example of a/an ......\n\n"
+            "(e) The above lines show that the dead person was ......\n\n"
+            "Read the following extract carefully and answer Questions 9(f) and 9(g).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door,\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and she wake up glowing.\n"
+            "    She put a spark even in Papa's eyes\n"
+            "    and turns out all our darkness.\n\n"
+            "(f) The literary device in turns out all our darkness is ....\n\n"
+            "(g) Mama is a Sunrise is an example of which literary device?\n\n"
+            "Read the following extract carefully and answer Questions 9(h), 9(i) and 9(j).\n\n"
+            "ERNEST HEMINGWAY: *A Day's Wait*\n\n"
+            "    I thought perhaps he was a little light-headed and after giving him the prescribed capsules at eleven o'clock, I went out for a while.\n\n"
+            "(h) One thing that made Schatz's father think the boy was a little light-headed is ........\n\n"
+            "(i) What exactly did the writer do when he \"went out for a while\"?\n\n"
+            "(j) How did Schatz feel at the end of the story?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• They are the First Woman and Second Woman.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• She is overwhelmed with grief because Ato has married a descendant of slaves, and the sorrow this has caused her makes her feel her death is near.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She is in a sad, sorrowful, and mournful state of mind.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It is a dirge: a poem written in tribute or mourning for someone who has died.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• They suggest the deceased was a humble and modest person, someone who would not have wanted a grand send-off.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This is hyperbole/metaphor. Her presence is described as dramatically banishing all gloom from the household.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a metaphor, directly equating Mama with a sunrise.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Schatz was refusing to rest or relax, showed no interest in anything around him, and even asked his father to leave him alone.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• He took his dog out and went hunting, shooting a couple of birds along the way.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• By the end, he felt calm and relieved.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS2 s5 ss1 - Comprehension of Prescribed Texts (Extract-Based Theory Questions)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q5)\n\n"
+            "Questions 1(a) to 1(c) are based on one of the prescribed short stories.\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "(a) What is referred to as Poor little thing in the story?\n\n"
+            "(b) What is the setting of the story?\n\n"
+            "(c) The attitude of the girls to the baby bird is that of ............\n\n"
+            "Read the following extract carefully and answer Questions 1(d) and 1(e).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *Tell My Son to Hold On to His Gun*\n\n"
+            "    \"Be courageous, be courageous, Kwame, be courageous!\"\n"
+            "    \"I will be, Father, I will be,\" I answered,\n"
+            "    and entered the thick forest ...... (Page 93)\n\n"
+            "(d) Be courageous, be courageous, Kwame, be courageous is an example of the use of a literary device termed ............\n\n"
+            "(e) How did Kwame show that he was courageous at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 1(f) and 1(g).\n\n"
+            "JEAN WATSON: *The Old Man And His Children*\n\n"
+            "    One there was an old man who had seven sons.\n"
+            "    They should have been his pride and joy.\n"
+            "    But they were not. (Page 17)\n\n"
+            "(f) The above extract is a/an ............ to a story.\n\n"
+            "(g) The idea expressed in the second sentence is that of ............\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you,\n"
+            "    I shall remember you in the hours of the night,\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep. (Page 62)\n\n"
+            "(h) \"... young woman\" refers to ............\n\n"
+            "(i) The 'sleepless sleep' of the speaker is caused by ............\n\n"
+            "(j) \"... sleepless sleep\" shows that the speaker is ............",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This describes Pepe, the young bird with a yellow beak and bright eyes that Debbie and Sandy rescue and care for.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The story is set in a rural, village-like environment, namely the area around Debbie and Sandy's home, including their mother's garden.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The girls show genuine kindness towards the bird, treating it with warmth and tender concern for its welfare.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• Repetition. The same phrase is deliberately repeated to stress its importance and urgency.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• He demonstrated his bravery by facing and killing the dangerous beast that threatened him.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• It functions as a prologue: an opening passage that sets up the story that follows.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It expresses contrast. It builds an expectation that his sons would bring him pride, only to overturn it in the next line.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Her nights are troubled because she has been unable to bear a child.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• It reveals that she is deeply unsettled: restless, troubled, and unable to find any real peace of mind.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2018 Q5)\n\n"
+            "Questions 2(a) to 2(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver walked 70 miles to London. In such a big city, no one would ever find him! It was chilly and his feet hurt but he was happy to leave his old, miserable life behind\".\n\n"
+            "\"I robbed her. Before her body was cold, I robbed her of the one item she had. She could have sold it for food or shelter but she kept it safe, ......\" (Page 117)\n\n"
+            "(a) Two of the people who treated Oliver badly, making him run away to London are ........ and ........\n\n"
+            "(b) An example of the use of contrast in the extract is ........\n\n"
+            "(c) \".... the one item she had\" was ....\n\n"
+            "Read the following extract carefully and answer Questions 2(d) and 2(e).\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "\"Well, we'll just have to look after him ourselves then\", she said.\n"
+            "\"We'll make a soft nest for him and feed him and when he grows up, he will stay in our garden.\" (Page 8)\n\n"
+            "(d) What did they choose for a nest for Pepe?\n\n"
+            "(e) Which figure of speech is mainly used in the extract?\n\n"
+            "Read the following extract carefully and answer Questions 2(f) and 2(g).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    My spirit Mother ought to have come for me earlier.\n"
+            "    Now, what shall I tell them who are gone?\n"
+            "    The daughter of slaves who came from the white man's land.\n"
+            "    Someone should advise me on how to tell my story.\n"
+            "    My children, I am dreading my arrival there\n"
+            "    Where they will ask me news of home.\n"
+            "    Shall I tell them or shall I not? (Page 37)\n\n"
+            "(f) Who is the speaker?\n\n"
+            "(g) What do the following expressions in the extract refer to?\n\n"
+            "(i) \"...... who are gone?\"\n\n"
+            "(ii) \"...... there\"\n\n"
+            "Read the following extract carefully and answer Questions 2(h) and 2(i).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Scribbler,\n"
+            "    The dream in your mind fills the shelf.\n"
+            "    When upon the shelf you gaze,\n"
+            "    vacuum stares at you.\n"
+            "    There is your quill and parchment,\n"
+            "    but heavy are your hands.\n"
+            "    Why?\n"
+            "    Because disuse numbs the wrist. (Page 98)\n\n"
+            "(h) What does \"Scribbler\" refer to?\n\n"
+            "(i) What does \"The dream in your mind\" refer to?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Among those responsible for his poor treatment were Mr. and Mrs. Sowerberry, along with Charlotte, Noah Claypole, and the undertaker who had employed him.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Despite the cold weather and his sore feet, Oliver still felt happy, since his relief at escaping his miserable old life outweighed his physical suffering. This pairing of discomfort with happiness is the contrast.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• It was a gold necklace fitted with a locket.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• They used an old letter box tucked inside the hedge.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Personification. The bird is spoken of and cared for as though it has human-like needs and feelings.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Nana, Ato's grandmother.\n\n"
+            "⦿ (g)(i) Answer:\n\n"
+            "• This refers to her deceased relatives: the ancestors who have already passed on.\n\n"
+            "⦿ (g)(ii) Answer:\n\n"
+            "• This refers to the spirit world, the realm of the departed.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It refers to a writer or author, someone whose craft involves putting words on paper.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to the writer's ideas and creative ability: the skill of writing itself.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2019 Q5)\n\n"
+            "Questions 3(a) to 3(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Stop, thief!\" he shouted, thinking Oliver had robbed him. The poor boy found himself being chased by people and even dogs! Someone in the crowd, a young man with purple lips and red sores all over his hands, grabbed Oliver and knocked him down ...\" (Page 109)\n\n"
+            "(a) The one described as a young man with purple lips and red sores all over his hands is ...\n\n"
+            "(b) Why did the 'young man with purple lips and red sores all over hands' want to harm Oliver?\n\n"
+            "(c) How did Mr Brownlow help Oliver at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 3(d) and 3(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"Born, say, our young Miss has arrived heavily laden with all the good things of this earth. I should think Dukana will soon float on a sea of wealth\" (Page 178)\n\n"
+            "(d) Who is referred to as our young Miss?\n\n"
+            "(e) The literary device used in heavily laden with all the good things of the earth is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(f) to 3(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "\"X: It was a couple of days ago that we met. What came out of the meeting is that we must come and ask you and your wife what is preventing you from giving your grandmother a great-grandchild before she leaves us.\"\n"
+            "(Act 4, Page 66)\n\n"
+            "(f) The speaker represented by 'X' in the extract is ...\n\n"
+            "(g) According to Ato, what is preventing him and his wife from having children?\n\n"
+            "(h) The figure of speech that describes she leaves us in the extract is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(i) and 3(j).\n\n"
+            "THERESA ENNIN: *Makola*\n\n"
+            "    Head bent, rags all around the upside down pan\n"
+            "    picking her nose, shuffling her feet, oblivious to\n"
+            "    the bustle\n\n"
+            "(i) Write one group of words in the extract that brings out the theme of uncleanliness.\n\n"
+            "(j) The words Head bent, rags all around the upside down pan appeal to the reader's sense of ...",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This is Mooks, also known as Edward Leeford, who is Oliver's half-brother and an associate of Fagin.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He was determined to hold on to the whole of their father's fortune, so he wanted Oliver disgraced and cut out of any inheritance.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Mr Brownlow enabled Oliver to discover the truth about his real parents and secure his rightful inheritance, effectively adopting him as his own.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the narrator herself, who is the writer and central character of the story.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Hyperbole. The wealth being described is deliberately exaggerated for effect.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Petu, Ato's elder uncle.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• According to Ato, nothing at all is stopping them.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Euphemism: a gentler way of referring to death.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• The phrase describing her picking her nose amid rags scattered around suggests untidiness and lack of cleanliness.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Sight. The description creates a vivid visual picture for the reader.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2020 Q5)\n\n"
+            "Questions 4(a) to 4(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver was given a slice of bread and a simple outfit with a brown cap to wear outside. He meekly followed him outside the workhouse to his new home. Once there, he was brought before a committee of ten men\". (Page 103)\n\n"
+            "(a) Write the name of the one referred to as \"him\" in the extract.\n\n"
+            "(b) One thing Oliver learns from the \"committee of ten men\" is ....\n\n"
+            "(c) How does Oliver react to the information he gets from the committee?\n\n"
+            "Read the following extract carefully and answer Questions 4(d) and 4(e).\n\n"
+            "PETER PAUL ADOLINAMA: *Ripples*\n\n"
+            "\"Abi, which of your sons died recently or was it your business which collapsed? ... You have not been yourself these few days.\" (Page 84)\n\n"
+            "(d) Identify the speaker in the extract.\n\n"
+            "(e) What is Abi worried about?\n\n"
+            "Read the following extract carefully and answer Questions 4(f) to 4(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    1ST WOMAN: If her son gets goodly bag by the month\n"
+            "    Why has Esi Kom still not ....\n"
+            "    2ND WOMAN: They never ask \"Why\".\n"
+            "    Is it not the young man's wife?\n"
+            "    1ST WOMAN: What has she done now?\n"
+            "    2ND WOMAN: Listen. I hear she swallows money\n"
+            "    As a hen does corn. (Act 4, Page 58-59)\n\n"
+            "(f) Who is referred to as \"the young man's wife\"?\n\n"
+            "(g) State the literary device used in \"Is it not the young man's wife?\"\n\n"
+            "(h) What is the meaning of \"she swallows money as a hen does corn\"?\n\n"
+            "Read the following extract carefully and answer Questions 4(i) and 4(j).\n\n"
+            "A. A. AMOAKO: *Sleep Without Wake*\n\n"
+            "    \"You put me through my infant paces\n"
+            "    On Gold Coast Ga Shikpon\n"
+            "    Taa taa, tuu tuu, in your maternal steps,\n"
+            "    Maame Tutuaa, condolences!\" (Page 158)\n\n"
+            "(i) Identify the main literary device used in the title of the poem Sleep Without Wake.\n\n"
+            "(j) The words Taa taa, tuu tuu appeal to the reader's sense of ....",
+        answer: "⦿ (a) Answer:\n\n"
+            "• He is Mr Bumble.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He discovers that he is an orphan, with neither mother nor father, and comes to understand what that word actually means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He is deeply shaken by the news and breaks down in tears.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The speaker is Mama Adamu, Sayibu's first wife and Abi's eldest stepmother.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Abi is anxious about being pushed into an early marriage, uneasy about the character of the man she is to marry, and fearful that Mr Ambrose Yakubu may not be able to rescue her from the situation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a rhetorical question, asked not to seek information but to make a point.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It means she spends money carelessly and wastefully, much like a hen that pecks up grain without restraint. In short, she is extravagant.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Euphemism. \"Sleep\" is used as a gentler substitute for death.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Hearing, since these words imitate the sound of footsteps.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2021 Q5)\n\n"
+            "Questions 5(a) to 5(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Mr Bumble made Oliver miserable and the boy couldn't wait to get away from the workhouse.\" (Page 104)\n\n"
+            "(a) Mr Bumble made Oliver miserable because ....\n\n"
+            "(b) Who is Mr Bumble?\n\n"
+            "(c) How did Mr Bumble try to get rid of Oliver?\n\n"
+            "Read the following extract carefully and answer Questions 5(d) and 5(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"They came in the usual assortment of rags: gowns picked up from the stalls of second-hand clothes traders, singlets bearing the words, Oxford University, mildewed blouses. Some women wore shirts that were meant for men; one of them was in a printed cotton nightgown that had faded beyond recognition.\" (Page 178)\n\n"
+            "(d) They refers to ....\n\n"
+            "(e) An imagery of ....... is created in the extract.\n\n"
+            "Read the following extract carefully and answer Questions 5(f) to 5(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    EULALIE: Ya, I remember I bought the idea, but I got the feeling ....\n"
+            "    ATO: Heavens, woman! They are always getting feelings. First, you got the feeling you needed a couple of years to settle down and now you are obviously getting a feeling. (Act 2, Page 46)\n\n"
+            "(f) What idea did Eulalie buy?\n\n"
+            "(g) What feeling has she got now?\n\n"
+            "(h) How does Ato react to her feeling?\n\n"
+            "Read the following extract carefully and answer Questions 5(i) and 5(j).\n\n"
+            "V.B. AAKYE: *The Colour of God*\n\n"
+            "    How silly man is, laughs the rose\n"
+            "    Why should He be\n"
+            "    black or white Or green or\n"
+            "    yellow or even red?\n\n"
+            "(i) The literary device used in laughs the rose is ....\n\n"
+            "(j) According to the poem, what is the colour of God?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Oliver had dared to ask for more food than he was allowed.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He is the church official who runs and presides over the workhouse where Oliver was born.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He offered a reward of five pounds to anyone willing to take Oliver off the workhouse's hands and teach him a trade.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the crowd of local people who came to welcome the narrator, gathered in Mama's sitting room.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The description creates an image of poverty and deprivation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• She had accepted the plan to postpone starting a family until she had properly settled down.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• She now feels ready and wants to start having children.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• He responds with surprise and a degree of frustration, seeming confused and somewhat opposed to the sudden change of heart.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Personification. The rose is given the human ability to laugh.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• According to the poem, God embodies every colour, blending all the colours together much like a rainbow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2022 Q5)\n\n"
+            "Questions 6(a) to 6(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"You know why, son. If a rich and successful man marries a woman whose name is stained because of her birth, it will be quite sad indeed.... Wicked people will not let her forget her past, even though it's not her fault.\" (Page 122)\n\n"
+            "(a) Son and rich and successful man refer to .......\n\n"
+            "(b) The speaker is ...........\n\n"
+            "(c) ... a woman whose name is stained because of her birth .... How did her birth stain her name?\n\n"
+            "Read the following extract carefully and answer Questions 6(d) and 6(e).\n\n"
+            "LAWRENCE DARMANI: *Sosu and the Bukari Boys*\n\n"
+            "\"Sosu felt his parents were very mean; otherwise, why did they give him such a small amount of money? Look at his friend, Bukari, who always brought a lot of money to school!... Bukari's father dropped him at school every day while he and Vivian had to walk.\" (Page 150)\n\n"
+            "(d) The extract brings out the theme of ....\n\n"
+            "(e) The main literary device used in the extract is ....\n\n"
+            "Read the following extract carefully and answer Questions 6(f) to 6(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA: The master-scholar was sitting on the chair studying, so he could not move off. (Act 1, Page 31)\n\n"
+            "(f) Monka needed the chair because ...........\n\n"
+            "(g) The scene of this extract is ...........\n\n"
+            "(h) The master-scholar refers to ...........\n\n"
+            "Read the following extract carefully and answer Questions 6(i) and 6(j).\n\n"
+            "LADE WOSORNU: *Desert Rivers*\n\n"
+            "    Without a sound\n"
+            "    They gush out into the bowels of the seas\n"
+            "    Far, far away from the unaided human eyes\n"
+            "    If you cannot see our tears\n"
+            "    It does not mean we do not cry. (Page 15)\n\n"
+            "(i) Water/Rivers are used in the poem as symbols of ...........\n\n"
+            "(j) If you cannot see our tears / It does not mean we do not cry. The above lines bring out the theme of ........",
+        answer: "⦿ (a) Answer:\n\n"
+            "• All three descriptions point to the same person: Harry Maylie, Mrs Maylie's son and Rose's husband.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The speaker is Mrs Maylie, Harry's mother.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Her father had changed his name out of shame, since he was believed to be unknown, or her sister had fallen pregnant outside marriage; these circumstances left her without a settled home and her origins clouded by scandal.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The passage highlights themes of ingratitude and envy. Sosu fails to appreciate what he has and instead resents his friend's greater privilege.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Contrast. Sosu's situation is set directly against Bukari's more comfortable one.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A family gathering was underway, and since Ato had nowhere to sit, she wanted to offer him the chair.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• The scene takes place at Ato's family home, namely the Odumna clan house in his home village.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Ebow, Ato's brother and Esi Kom's son.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• They stand for life, renewal, and rebirth.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• They express the theme of enduring suffering quietly, that is, bearing pain without outward complaint.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2023 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 7(a) to 7(c).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"My friend, Sira, was Waale's only daughter. As I said, we had grown up together, and had attended school together. She had not been able to complete her elementary schooling, although she was a brilliant girl\". (Page 181)\n\n"
+            "(a) Who is Waale?\n\n"
+            "(b) Sira could not complete her elementary schooling because....\n\n"
+            "(c) Sira was not among the people who came to welcome the writer because......\n\n"
+            "Read the following extract carefully and answer Questions 7(d) and 7(e).\n\n"
+            "AMA ATA AIDOO: *The Girl Who Can*\n\n"
+            "\"They said I was born in Hasodzi; and it was very big village in the Central Region of our country Ghana ....\" (Page 142)\n\n"
+            "(d) The extract is the ....... of the story.\n\n"
+            "(e) \"They said that I was born ....\" shows that ......\n\n"
+            "Read the following extract carefully and answer Questions 7(f) to 7(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA [to herself]: I remember the time he was preparing to go to the white man's land........ The money .... the money .... This is something which no one should hear anything about. (Act 3, Page 56)\n\n"
+            "(f) According to Monka, one of the things no one should hear anything about is .......\n\n"
+            "(g) The extract is an example of a/an ......\n\n"
+            "(h) The money .... the money .... is an example of a literary device called ....\n\n"
+            "Read the following extract carefully and answer Questions 7(i) and 7(j).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and we wake up glowing. (Page 184)\n\n"
+            "(i) The extract brings out the theme of .......\n\n"
+            "(j) ... she kindles us / like lump coal lighted .... The dominant figure of speech in the line above is .......",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Waale is Sira's mother, and a friend of the narrator's mother.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Her family did not want their lineage to end, so when she gave birth to twins she was sent away from home, cutting short her education.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She had been forced to leave the village after having twins and was therefore away travelling at the time.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It forms the opening section of the story, serving as its introduction and setting.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The phrasing shows that the narrator has no birth certificate and cannot confirm her own birthplace with certainty, likely because her parents could not read or write.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A substantial part of the family's land, along with valuable heirlooms such as gold ornaments, had to be sold or pawned to fund the journey.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a soliloquy. Monka is speaking her private thoughts aloud to herself.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Repetition, used to emphasise how heavily the subject weighs on her mind.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It celebrates the warmth of a mother's love and the comfort her presence brings to the family.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Simile. Her effect on the family is compared to lit coal using the word \"like\".",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2024 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 8(a) and 8(b).\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Boy what's your name?\" snarled the chairman.\n"
+            "\"Oliver Twist sir\"\n"
+            "\"You know that you're an orphan, is that right?\"\n"
+            "\"What's an orphan sir?\"\n\n"
+            "(a) The chairman's tone tells us that he is .......\n\n"
+            "(b) From Oliver's question we can tell that he is ......\n\n"
+            "Read the following extract carefully and answer Questions 8(c) and 8(d).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *The Generous Hunter*\n\n"
+            "    Calm down, Mr Hunter, I come in peace. Your ability to distinguish me from my younger brother has surprised me. Many people think we are identical twins.\n\n"
+            "(c) Why did the speaker go to see the hunter?\n\n"
+            "(d) What lesson can we learn from the speaker's action?\n\n"
+            "Read the following extract carefully and answer Questions 8(e) and 8(f).\n\n"
+            "ROBERT FROST: *A Minor Bird*\n\n"
+            "    The fault must partly have been in me\n"
+            "    The bird was not to blame for his key\n"
+            "    And of course there must be something wrong\n"
+            "    In wanting to silence any song\n\n"
+            "(e) Give the rhyming scheme for the extract above.\n\n"
+            "(f) From the poem, what lesson do you learn about fault finding?\n\n"
+            "Read the following extract carefully and answer Questions 8(g) and 8(h).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Tell you the truth:\n"
+            "    the gold adorning the neck\n"
+            "    once was lost in rocky soils\n"
+            "    They dig deep who find it!\n\n"
+            "(g) The dominant literary device in the 2nd and 3rd lines is .......\n\n"
+            "(h) What does the writer mean by \"They dig deep who find it\"?\n\n"
+            "Read the following extract carefully and answer Questions 8(i) and 8(j).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you.\n"
+            "    I shall remember you in the hours of the night\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep.\n\n"
+            "(i) Who does \"my young woman\" refer to?\n\n"
+            "(j) What is the figure of speech in the expression, \"In my sleepless sleep\"?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• His tone reveals him to be harsh, unsympathetic, and cold-hearted towards the boy.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• His question shows that he is innocent and unaware, since he genuinely does not understand what the word means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The speaker had come to express thanks, since the hunter had earlier spared and released his younger sibling from a trap.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• We learn the importance of showing gratitude and repaying kindness shown to us by others.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The lines follow a couplet pattern, rhyming aa, bb.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The poem teaches us to examine our own faults before criticising others, and to be more tolerant and accepting.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• Metaphor, used symbolically to represent something valuable and hard-won.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• The line means that success only comes through hard, persistent effort. Those who work hardest are the ones who achieve it.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• This is an oxymoron, pairing two contradictory ideas, sleep and sleeplessness, for deliberate effect.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2025 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 9(a), 9(b) and 9(c).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Nana: Yes, I am sitting here. So you thought I was dead? No, I am not. Go home, good neighbours and save your tears for my funeral. It cannot be long now...\n\n"
+            "(a) Who are the good neighbours?\n\n"
+            "(b) It cannot be long now. Why does Nana think she will die soon?\n\n"
+            "(c) Nana is in a ........ mood.\n\n"
+            "Read the following extract carefully and answer Questions 9(d) and 9(e).\n\n"
+            "KOBENA EYI ACQUAH: *A Wreath of Tears*\n\n"
+            "    Your funeral\n"
+            "    was s quiet and small\n"
+            "    almost too small, it is said\n"
+            "    for a man your stature\n"
+            "    You must\n"
+            "    Have preferred it that way\n\n"
+            "(d) This poem is an example of a/an ......\n\n"
+            "(e) The above lines show that the dead person was ......\n\n"
+            "Read the following extract carefully and answer Questions 9(f) and 9(g).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door,\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and she wake up glowing.\n"
+            "    She put a spark even in Papa's eyes\n"
+            "    and turns out all our darkness.\n\n"
+            "(f) The literary device in turns out all our darkness is ....\n\n"
+            "(g) Mama is a Sunrise is an example of which literary device?\n\n"
+            "Read the following extract carefully and answer Questions 9(h), 9(i) and 9(j).\n\n"
+            "ERNEST HEMINGWAY: *A Day's Wait*\n\n"
+            "    I thought perhaps he was a little light-headed and after giving him the prescribed capsules at eleven o'clock, I went out for a while.\n\n"
+            "(h) One thing that made Schatz's father think the boy was a little light-headed is ........\n\n"
+            "(i) What exactly did the writer do when he \"went out for a while\"?\n\n"
+            "(j) How did Schatz feel at the end of the story?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• They are the First Woman and Second Woman.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• She is overwhelmed with grief because Ato has married a descendant of slaves, and the sorrow this has caused her makes her feel her death is near.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She is in a sad, sorrowful, and mournful state of mind.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It is a dirge: a poem written in tribute or mourning for someone who has died.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• They suggest the deceased was a humble and modest person, someone who would not have wanted a grand send-off.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This is hyperbole/metaphor. Her presence is described as dramatically banishing all gloom from the household.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a metaphor, directly equating Mama with a sunrise.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Schatz was refusing to rest or relax, showed no interest in anything around him, and even asked his father to leave him alone.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• He took his dog out and went hunting, shooting a couple of birds along the way.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• By the end, he felt calm and relieved.",
+        explanation: "",
       ),
     ],
   ),
 
-  "USING APPROPRIATE REGISTER (INFORMAL VS. FORMAL)": PracticeModel(
+  "English JHS2 s5 ss1 - Comprehension of Prescribed Texts (Extract-Based Theory Questions)":
+      PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nYour friend writes: 'Yo Headmaster, I need a day off cause my head is spinning.' Correct this sentence to match a formal register appropriate for a petition to a headmaster.",
-        answer:
-            "Correct: 'Dear Sir, I am writing to request permission to be absent from school today due to an illness.'",
-        explanation:
-            "Formal petitions require formal greetings (Dear Sir), fully spelled words (no 'cause'), and polite expressions.",
+        scenario: "QUESTION 1 (BECE 1990 Q3)\n\n"
+            "Describe what you normally do on Sundays.",
+        answer: "⦿ Sample Essay: My Sunday Routine\n\n"
+            "Sundays in Ghana have their own rhythm for me. The day begins with the far-off ringing of church bells and hymns drifting through the morning air, letting me know a fresh day has begun.\n\n"
+            "Church usually opens my Sunday. Most Ghanaians treat Sunday as a day set aside for worship, and I am no different. The energetic gospel music, powerful preaching, and the company of fellow worshippers always lift my mood. Once the service ends, we often stop to greet friends and sometimes grab a meal together nearby, perhaps some jollof rice or fufu.\n\n"
+            "Afternoons are for family. We gather under the shade, talk about how the week went, tell each other stories, or just enjoy the breeze. Occasionally, we drop in on relatives or have them over, and there is always plenty of laughing and closeness when we are all together.\n\n"
+            "I also use part of the day to get ready for the week ahead, doing my homework, ironing my uniform, sorting my books, and preparing my school materials. Somewhere in between, I squeeze in football or other games with friends.\n\n"
+            "By evening, the whole family settles in front of the television for our favourite shows, followed by a light supper. Before bed, I usually take a moment to think back over the day and give thanks for it.\n\n"
+            "All in all, Sunday for me combines worship, togetherness with family, rest, and preparation for what is next. It is a day I genuinely look forward to each week.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "REPORTED SPEECH": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nConvert these direct sentences to reported speech:\n(a) Ama said, 'I went to Cape Coast yesterday.'\n(b) The teacher asked, 'Have you completed the assignment?'",
-        answer:
-            "(a) Ama said that she had gone to Cape Coast the previous day (or the day before).\n(b) The teacher asked if I had completed the assignment.",
-        explanation:
-            "Ensure that pronouns, tenses (past simple to past perfect; present perfect to past perfect), and time markers shift correctly.",
+        scenario: "QUESTION 2 (BECE 1990 Q4)\n\n"
+            "You were in the house when you heard drumming and singing. Describe what you saw when you came out of the house.",
+        answer: "⦿ Sample Essay\n\n"
+            "I was indoors in Takoradi, not doing much in particular, when drumming and singing in the distance grabbed my attention. Curious, I went outside to find out what was going on.\n\n"
+            "Once outside, I discovered a lively masquerade celebration taking place right in our own compound. The dancers wore masks carved into striking shapes, some resembling animals and others just wonderfully unusual, the kind you would expect at a proper masquerade parade.\n\n"
+            "The drumbeats seemed to breathe energy into every movement. Dust rose from their feet as they leapt and spun in time with the music, while the singers added melodic chants that deepened the festive mood.\n\n"
+            "A crowd from the neighbourhood had formed around them, clapping and shouting encouragement. Children laughed as they tried copying the dance moves, and others pushed forward to admire the costumes up close. They responded to the drumbeats and snacks to the onlookers.\n\n"
+            "I stood transfixed by it all. Takoradi's masquerade troupe was well known for putting on a great show, and watching them in person was something I would not forget. The blend of music, movement, and colourful dress spoke to how rich our local traditions are. Watching the parade continue on its way, I felt genuinely proud and grateful to witness such a display of culture and artistry.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "QUESTION TAGS": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nState the rule for creating question tags. Provide the correct question tags for:\n(a) Kojo cannot swim.\n(b) You will help me tomorrow.",
-        answer:
-            "Rule: Positive sentences take negative tags, and negative sentences take positive tags. The auxiliary verb from the main sentence is repeated in the tag.\n(a) Kojo cannot swim, can he?\n(b) You will help me tomorrow, won't you?",
-        explanation:
-            "Question tags turn statements into yes/no questions to confirm information.",
+        scenario: "QUESTION 3 (BECE 1991 Q3)\n\n"
+            "Describe a market scene in your town or village.",
+        answer: "⦿ Sample Essay\n\n"
+            "Asesewa's market comes alive with energy, especially on the days trading is in full swing, drawing people from the surrounding area to buy and sell.\n\n"
+            "Walking in, the first thing that hits you is the constant chatter, buyers haggling with sellers, mothers calling out to children, friends greeting one another. Colour is everywhere too, from the fruit, vegetables, and fabrics on display.\n\n"
+            "My favourite part is the fruit section, with mangoes, oranges, and bananas piled neatly in baskets. Close by, the vegetable stalls show off fresh tomatoes, onions, and peppers, and the smell of fresh produce hangs in the air.\n\n"
+            "A little further on, cloth sellers hold up their fabrics so the patterns catch the wind, bold reds and blues sit beside gentler pastels, something for every taste.\n\n"
+            "There is a corner for spices and grains too, where the scent of ginger and pepper mixes with sacks of rice, maize, and beans lined up along the ground.\n\n"
+            "Nearby, you can hear chickens clucking and goats bleating as they wait to be sold, and beside them, fishmongers lay out the day's catch, everything from tilapia to catfish.\n\n"
+            "But the market is not only about buying and selling. It is where news travels, friendships are renewed, and families reconnect. It is really the heartbeat of our community, full of noise, colour, and life.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "MASTERING REGISTER AND OPEN QUESTIONS": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\na) What is the difference between an open and closed question?\nb) Write one example of an open question to ask a friend about their weekend.",
-        answer:
-            "a) Open questions require a detailed and explanatory answer, whereas closed questions can be answered with a simple 'yes' or 'no'.\nb) 'What did you do during the weekend?' (or 'How did you spend your weekend?')",
-        explanation: "Open questions prompt description and elaboration.",
+        scenario: "QUESTION 4 (BECE 1992 Q3)\n\n"
+            "You saw a fight between two of your classmates and your class teacher has asked you to give an account of the fight. Write your account.",
+        answer: "⦿ Sample Essay\n\n"
+            "Yesterday during break time, I witnessed something unpleasant, a fight broke out between two classmates. It happened without warning, under a bright midday sun as we were all outside.\n\n"
+            "Kwame and Kofi, who are both in my class, started raising their voices at each other over something. As the argument grew louder, they began shoving one another, and a small crowd of students gathered to watch, clearly uneasy about where it was heading.\n\n"
+            "Things soon got worse, punches started flying. Our teacher, Mr Mensah, heard the commotion and hurried over, managing to pull them apart and get them to settle down.\n\n"
+            "Afterwards, he spoke to each boy separately to piece together what had happened. It turned out the disagreement stemmed from a misunderstanding over a game, and tempers had simply flared too quickly.\n\n"
+            "Eventually, Mr Mensah brought them together and reminded them that fighting solves nothing. He told them that as classmates, they were like family and owed each other respect. Both boys looked genuinely embarrassed by then.\n\n"
+            "The whole episode taught us something valuable about handling disagreements calmly, that talking things through beats throwing punches. Since then, Kwame and Kofi have got along much better, and we all took away the lesson that staying calm and working things out together is the better path.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "THE ART OF ARGUMENT AND DEBATING": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nWrite a short introductory paragraph for a debate supporting the motion: 'Mobile phones should be allowed in Junior High Schools.'",
-        answer:
-            "Mr. Chairman, Panel of Judges, accurate Timekeeper, fellow debaters and constituents, I stand before you to support the motion that mobile phones should be allowed in Junior High Schools. In an era driven by technology, digital literacy is no longer a luxury but an absolute necessity for modern education.",
-        explanation:
-            "Debate introductions should greet the audience and clearly state the speaker's stance on the motion.",
+        scenario: "QUESTION 5 (BECE 1993 Q3)\n\n"
+            "Describe a festival which was celebrated recently in your area.",
+        answer: "⦿ Sample Essay\n\n"
+            "Not long ago, our area marked the Hogbetsotso festival, a colourful, joy-filled occasion. It holds special meaning for the Anlo Ewe people, commemorating the long-ago migration of our ancestors to their present home, where they finally found peace.\n\n"
+            "The morning began at the chief's palace, where everyone turned out in beautiful traditional attire, richly patterned and vividly coloured, each design carrying its own story. Speeches were made there, along with prayers of gratitude to God and to our ancestors for the peace we now enjoy.\n\n"
+            "The real highlight, though, was the street parade, drummers and dancers filling the air with joyful sound, drawing everyone into the rhythm. Many people had painted faces and wore costumes resembling animals or warriors from the past, turning the streets into one big, lively celebration of music and dance.\n\n"
+            "There was even a boat race on the lagoon, which had everyone on the edge of their seats, cheering for their favourite crew as the canoes raced across the water. Food, of course, played its part too, traditional dishes were cooked and shared generously among neighbours and friends.\n\n"
+            "It was a day that brought the whole community together in celebration of shared history and culture. Watching everyone enjoy themselves that day filled me with pride in where I come from.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "CONDITIONAL SENTENCES (TYPE 3)": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nExplain when a Type 3 conditional sentence is used. Rewrite the following in Type 3 conditional form:\n'I did not study, so I failed the exam.'",
-        answer:
-            "A Type 3 conditional represents an imaginary past event that did not happen and its hypothetical result. \nRewrite: 'If I had studied, I would not have failed the exam.' (or 'If I had studied, I would have passed the exam.')",
-        explanation:
-            "Type 3 uses: If + past perfect, would have + past participle.",
+        scenario: "QUESTION 6 (BECE 1993 Q4)\n\n"
+            "Describe a dream you will never forget.",
+        answer: "⦿ Sample Essay\n\n"
+            "There is one dream I do not think I will ever forget, mostly because it felt so vivid and tied so closely to what is happening around us in Ghana right now.\n\n"
+            "I dreamt I was strolling through an enchanted garden somewhere in Accra, not an ordinary garden at all, but one where the plants and trees glowed softly in the dark, lighting up the whole space like something out of a storybook.\n\n"
+            "As I moved through it, I noticed people from every corner of Ghana, north, south, east, and west, gathered together, laughing and sharing stories. Language did not seem to matter; everyone simply understood one another. It felt like the entire nation had become one big family.\n\n"
+            "At the garden's centre stood a huge table piled high with Ghanaian favourites, jollof rice, waakye, fufu and light soup, tuo zaafi, and more besides. Everyone sat down together to eat, and not a single person went hungry.\n\n"
+            "Then, without warning, a great tree at the garden's heart began stretching upward, growing taller by the second. It seemed to be gathering everyone's hopes, dreams, and love, lifting them up towards the sky to share with the wider world.\n\n"
+            "When I woke, I felt genuinely happy and full of hope. The dream had shown me a Ghana united in joy and love, something I would love to see come true one day.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "DEFINING AND NON-DEFINING RELATIVE CLAUSES": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nCombine the pairs of sentences using relative pronouns:\n(a) The girl is my sister. She won the prize.\n(b) Accra is the capital of Ghana. It is a busy city. (Use non-defining clause)",
-        answer:
-            "(a) The girl who won the prize is my sister.\n(b) Accra, which is the capital of Ghana, is a busy city.",
-        explanation:
-            "Relative pronouns (who, which) connect clauses. Non-defining clauses contain extra info and are bracketed by commas.",
+        scenario: "QUESTION 7 (BECE 1994 Q3)\n\n"
+            "You were present when a senior student bullied a junior one. Describe what happened to the teacher on duty.",
+        answer: "⦿ Sample Essay\n\n"
+            "I once watched a senior student named Joey bullying a younger boy, Razak. It was hard to watch, and everyone nearby was clearly troubled by it. Thankfully, the teacher on duty that day, Mrs Paintsil, was close enough to step in quickly.\n\n"
+            "She looked genuinely serious as she confronted Joey, asking him to account for his actions, but he just stared at the ground without a word. Razak, meanwhile, was visibly frightened and fighting back tears, so you could tell how much the incident had shaken him.\n\n"
+            "Mrs Paintsil led both boys somewhere quieter to talk. She took the time to hear Razak's side carefully and also questioned other students who had witnessed the incident, wanting to understand the full picture before deciding what to do next.\n\n"
+            "Once she had heard everyone out, she brought Joey to the head teacher's office to formally report the matter, while also comforting Razak. She made it clear to Joey how disappointed she was and reminded him firmly that bullying has no place in our school, urging him to always speak up if something similar happened again.\n\n"
+            "We later learned Joey had been made to clean the school grounds for a week as punishment. Mrs Paintsil also checked in on Razak afterwards and encouraged the whole class to treat one another kindly.\n\n"
+            "That day showed us clearly that our teachers genuinely care about our safety and will not tolerate bullying, and it left the whole school feeling a bit more secure.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "ADVERBIAL PHRASES AND THEIR FUNCTIONS": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nIdentify the adverbial phrase in the sentence and state its grammatical function:\n'The children played soccer on the school field.'",
-        answer:
-            "Adverbial phrase: 'on the school field'.\nGrammatical function: Adverbial phrase of place (modifies the verb 'played' by showing where the action occurred).",
-        explanation:
-            "Adverbial phrases describe when, where, how, or why actions take place.",
+        scenario: "QUESTION 8 (BECE 1994 Q4)\n\n"
+            "Describe your favourite teacher.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mrs Mabel Gozo is, without question, my favourite teacher, patient, warm, and unlike anyone else at our school.\n\n"
+            "She has a habit of dressing in bright, cheerful outfits that make her seem to glow, and her smile alone is enough to make anyone feel welcome. Her voice is gentle, and somehow even the driest topics come alive when she teaches them.\n\n"
+            "What really sets her apart is her teaching style. Rather than lecturing from the front, she moves around the classroom, asks us questions, and often turns lessons into games so we grasp things more easily. Her classes are genuinely enjoyable, full of laughter from start to finish.\n\n"
+            "She is also quick to notice when someone is struggling, and she will happily go over a point again until it clicks. You can tell she really cares whether we understand, not just whether we have been taught.\n\n"
+            "Beyond the syllabus, she shares stories about different parts of Ghana and the people who live there, encouraging us to take pride in our heritage and history.\n\n"
+            "More than a teacher, she feels like a friend, someone who listens when we have problems and offers thoughtful advice. Thanks to her, school feels like a genuinely happy place, and everyone in our class is fond of her.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  // ─── JHS 2 / JHS 3: SCIENCE theory ─────────────────────────────────────────
-  "Types of mixtures and their characteristics": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\na) Define a mixture.\nb) Differentiate between homogeneous and heterogeneous mixtures, giving one example of each.",
-        answer:
-            "a) A mixture consists of two or more substances physically combined together in any proportion.\nb) Homogeneous mixtures have uniform appearance and composition throughout (e.g. salt solution). Heterogeneous mixtures have visible, non-uniform components (e.g. mixture of sand and iron filings).",
-        explanation: "Mixture classification is based on uniformity of phase.",
+        scenario: "QUESTION 9 (BECE 1995 Q3)\n\n"
+            "Describe how your favourite game is played. Give two reasons why you like it.",
+        answer: "⦿ Sample Essay\n\n"
+            "Pilolo is one of the most enjoyable games we play here in Ghana, simple to set up, since all you need are a few small objects like stones or sticks to hide.\n\n"
+            "To start, someone is chosen to hide the items while everyone else waits at a designated starting point. As the hider conceals the objects, the other players either shut their eyes or turn away so they cannot peek.\n\n"
+            "Once everything is hidden, the hider shouts \"Pilolo!\" and the search begins. Speed matters here; whoever finds an object and races back to the starting line first wins that round.\n\n"
+            "I love this game for two main reasons. First, there is real excitement in it, your heart races as you dash around searching, and you genuinely never know who will come out on top. Second, it is a wonderful way to bring people together, since anyone, regardless of age, can join in, and it almost always ends with everyone laughing.\n\n"
+            "More than just a pastime, Pilolo captures the fun of a simple outdoor game while creating lasting, happy memories among family and friends throughout Ghanaian society.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "SEPARATING MIXTURES (PHYSICAL PROCESSES)": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nDescribe the laboratory process of separating a mixture of common salt and sand.",
-        answer:
-            "1. Addition of water: Add water to the mixture and stir to dissolve the common salt. Sand remains insoluble.\n2. Filtration: Pour the mixture through a filter paper in a funnel. The sand remains as residue, and the salt solution passes through as filtrate.\n3. Evaporation: Heat the filtrate to evaporate the water, leaving dry salt crystal behind.",
-        explanation:
-            "Physical separation processes utilize the distinct physical properties of each component.",
+        scenario: "QUESTION 10 (BECE 1995 Q4)\n\n"
+            "Describe a day you will never forget in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "A trip to Kakum National Park in Cape Coast stands out as a day I will always remember, genuinely one of the best adventures I have had.\n\n"
+            "We set off early, and by the time we arrived, the air felt crisp and clean, with lush green forest stretching all around. The park was buzzing with other visitors of all ages, everyone equally keen to discover what Kakum had to offer.\n\n"
+            "Nothing compared to walking the canopy walkway, though. It was nerve-racking at first, suspended so high above the ground between the treetops, but I found the courage to step onto it anyway. From up there, I could look out over the forest canopy and even spot birds in flight; it genuinely felt like walking through the sky.\n\n"
+            "Afterwards, a guided tour taught us about the plants and creatures that call the forest home, with our guide sharing fascinating stories along the way.\n\n"
+            "Before heading back, we stopped for a picnic, laughing, snapping photos, and promising ourselves we would return one day.\n\n"
+            "It was a truly magical experience being that close to nature, and it left me with a real appreciation for the natural wonders our country holds, and why they are worth protecting for generations to come. That day, filled with wonder and joy, is one I will treasure forever.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "ATOMIC STRUCTURE AND SUB-ATOMIC PARTICLES": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nDraw a labeled diagram of a Helium atom (atomic number 2, mass number 4) representing the nucleus and subatomic particles.",
-        answer:
-            "The diagram of Helium (He) would show:\n- A central nucleus containing 2 Protons (positively charged) and 2 Neutrons (neutral charge).\n- Two Electrons (negatively charged) orbiting the nucleus in the first energy shell (K shell).",
-        explanation:
-            "Helium has atomic number 2 (2 protons, 2 electrons) and mass number 4 (4 - 2 = 2 neutrons).",
+        scenario: "QUESTION 11 (BECE 1996 Q3)\n\n"
+            "Describe the happiest day in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "Winning our school's Spelling Bee ranks as the happiest day of my life. Honestly, I still find it hard to believe it happened.\n\n"
+            "I had always enjoyed reading and writing, but I never once thought of myself as our best speller. When the competition was announced, friends pushed me to enter, and though nervous, I decided to try.\n\n"
+            "Each evening, my older sister helped me prepare, reading out words for me to spell while we sat in the living room. We laughed plenty, especially over the trickier words I fumbled, but gradually I started improving.\n\n"
+            "By the day of the contest, my heart was pounding. The hall was packed with students, teachers, and a few parents. When my turn came, I steadied myself and listened closely to each word, some straightforward, others genuinely tough.\n\n"
+            "It turned into a tight contest, and eventually it came down to me and my best friend Kofi. I could hardly believe it when he stumbled on his word, and then managed to spell mine correctly. I had actually won.\n\n"
+            "The room erupted in applause, and I felt like I was floating. That evening, my family threw together a little celebration with jollof rice and chicken, easily the best day I had had, and I felt so proud and thankful for everyone who had cheered me on.",
+        explanation: "",
       ),
-    ],
-  ),
-
-  "THE PERIODIC TABLE AND ELECTRON CONFIGURATION": PracticeModel(
-    audioPath: '',
-    questions: [
       PracticeQuestion(
-        scenario:
-            "BECE Theory Question 1\n\nExplain how elements are arranged on the periodic table. Write the electron configuration for Calcium (atomic number 20).",
-        answer:
-            "Elements are arranged on the periodic table in order of increasing atomic number (number of protons). Elements with similar chemical properties are grouped in vertical columns called Groups.\nConfiguration: The electron configuration of Calcium (Ca) is 2, 8, 8, 2.",
-        explanation:
-            "The arrangement follows shell capacities: 2, 8, 8, 18, etc.",
+        scenario: "QUESTION 12 (BECE 1997 Q4)\n\n"
+            "Describe an interesting place you have visited and say what you gained in the visit.",
+        answer: "⦿ Sample Essay\n\n"
+            "Cape Coast Castle stands out as one of the most memorable places I have visited in Ghana. Set along our beautiful coastline, my visit there gave me more than just facts; it left me with a lot to reflect on.\n\n"
+            "The castle itself is an enormous stone fortress, built centuries ago by European colonisers, and once used to hold enslaved Ghanaians before they were shipped off to distant lands. Simply walking through its corridors, I could feel the heaviness of its history all around me.\n\n"
+            "Inside were the dungeons, where hundreds once suffered under horrific conditions. It was a sobering, emotional experience that taught me a great deal about the brutal realities of the transatlantic slave trade, and about the strength of those who endured it.\n\n"
+            "Stepping back outside, the ocean view was breathtaking, yet it also made me picture the journeys our ancestors were forced to take across that same sea, with no idea what lay ahead.\n\n"
+            "The visit reinforced how important it is to remember our history, even its darkest chapters. It deepened my appreciation for the freedom and fairness we enjoy today and reminded me of the resilience of the Ghanaian people who overcame such hardship.\n\n"
+            "Ultimately, that visit left me with a far greater understanding of our past, and a stronger commitment to fairness and justice today, an experience that will stay with me for life.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 1998 Q3)\n\n"
+            "Describe a recent celebration in your family.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our family recently threw a wonderful celebration for my grandmother's 80th birthday, a day bursting with colour, love, and laughter.\n\n"
+            "We began by decorating the compound with lively colours and traditional Ghanaian symbols, giving the whole place a festival-like feel. Meanwhile, the smell of Ghanaian cooking filled the air as preparations for the feast got underway.\n\n"
+            "Relatives and friends travelled from near and far to join us, arriving in their finest traditional dress, which only added to the festive atmosphere. Drumming and dancing echoed through the neighbourhood, drawing even more people to come and celebrate with us.\n\n"
+            "The feast itself included jollof rice, fufu, an assortment of stews and soups, alongside treats like kelewele and freshly baked pastries.\n\n"
+            "The high point came when my grandmother, dressed elegantly in kente, was honoured by the family. Loved ones stood up to share heartfelt words about her wisdom and kindness over the years, presented her with gifts, and we all danced around her to traditional music.\n\n"
+            "As night fell, we released colourful lanterns into the sky as a symbol of hope for her future. It was a day rich in happiness, unity, and cultural tradition, leaving us all with memories we will treasure and a deeper sense of family bond.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 1999 Q3)\n\n"
+            "The schools in your district recently held a sports competition. Describe what happened.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our district, Ellembelle, recently hosted a lively inter-school sports competition, and the atmosphere was thick with excitement and camaraderie.\n\n"
+            "The venue was a large open field decked out with banners and flags fluttering in the breeze. Students arrived from various schools in their uniforms, buzzing with anticipation as the whole ground filled with noise and colour.\n\n"
+            "Things got underway with a march past, each school parading proudly around the field to the beat of drums and cheers, with traditional dances and inspiring speeches marking the opening ceremony.\n\n"
+            "Then came the athletics, sprints, long jump, relays, and more, with spectators cheering the competitors on, and you could see the determination etched on every runner's face. Winners walked away with medals and wide smiles.\n\n"
+            "But it was not purely about winning. The event brought students from different schools closer together, sparking new friendships and friendly rivalry alike, a genuine celebration of unity through healthy competition.\n\n"
+            "Teachers and parents joined the cheering too, showing support for the young athletes and highlighting the value of staying fit and active.\n\n"
+            "As evening approached, a closing ceremony brought everyone together for a final dance and the national anthem, sung with pride. The day ended with promises of even greater unity and sportsmanship going forward, a truly memorable occasion full of teamwork and Ghanaian spirit.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15 (BECE 2001 Q4)\n\n"
+            "You suddenly woke up when you heard someone shouting \"Help! Help!\" Describe what you saw when you rushed out.",
+        answer: "⦿ Sample Essay\n\n"
+            "I was sound asleep one night in Woraso when a desperate cry for help jolted me awake. My heart pounding, I sprang out of bed and rushed to the window to look outside.\n\n"
+            "By the dim moonlight, I made out a small crowd gathered near a large baobab tree, some carrying torches and flashlights. Their urgent shouts of \"Help! Help!\" carried clearly through the night air.\n\n"
+            "Without stopping to think, I hurried out to join the worried neighbours already gathered there. Getting closer, I saw a young boy, no older than ten, stuck high in the branches of the towering tree, gripping tightly to a thick limb, fear written across his face.\n\n"
+            "The moonlight showed his tear-streaked cheeks; it was obvious he had climbed up and simply could not find his way back down. Those below tried to reassure him, calling out calming words while help was arranged.\n\n"
+            "A few villagers rushed off to fetch a ladder, while others kept talking gently to the frightened boy. Once the ladder was carefully secured against the trunk, the real rescue began.\n\n"
+            "Holding our breath together as a group, we watched him climb down step by careful step. The moment his feet touched the ground, relief swept through the crowd, and everyone burst into cheers and applause.\n\n"
+            "That night showed me the true meaning of community, neighbours coming together, even in the small hours, to save a child in danger. It was a genuinely heart-warming reminder of the kindness that connects us all.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16 (BECE 2003 Q3)\n\n"
+            "Your school is planning an excursion to a place of interest in your district. Describe the preparations you are making towards the journey.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our school is buzzing with excitement over an upcoming trip to the Nzulezu stilt settlement, a fascinating spot in our district that everyone is eager to explore.\n\n"
+            "What makes it so special is that the entire village is built on water. Our teachers showed us photographs and explained its history, and now we are busy preparing for the journey ahead.\n\n"
+            "For starters, we have each been told to pack a small bag with essentials. I am bringing a hat, sunscreen, and a water bottle, since it can get quite hot, plus a raincoat just in case, and naturally, a camera to capture the moment.\n\n"
+            "Our class has also been raising funds by selling homemade snacks during break, which I have been helping to bake, the proceeds will go towards paying for canoe rides once we get there.\n\n"
+            "We had a briefing about safety too, since we will be travelling by water, we have been warned not to lean too far to one side of the canoe or mess around while on board.\n\n"
+            "The school has also been in touch with the elders of Nzulezu, who will be teaching us about how they live, cook, and even attend school right there on the water, something I am genuinely curious about.\n\n"
+            "Finally, we have been practising a few local songs and dances to share when we arrive. Everyone is counting down the days now, eager to see the houses on stilts and meet the people who call Nzulezu home.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17 (BECE 2004 Q3)\n\n"
+            "Describe an interesting function you attended recently.",
+        answer: "⦿ Sample Essay\n\n"
+            "I recently went to a fascinating event in Adanwomase, in Ghana's Ashanti Region, a traditional wedding, and it was an unforgettable experience full of colour, music, and culture.\n\n"
+            "The venue was decked out in vibrant kente cloth and traditional motifs, and the bride and groom, dressed head to toe in stunning kente, looked positively regal, it genuinely felt like stepping into a fairy tale.\n\n"
+            "Things opened with the pouring of libation, a solemn ritual honouring the ancestors and asking for their blessing, led respectfully by the elders.\n\n"
+            "Then the music and dancing took over. Talking drums and other traditional beats filled the air, and everyone got up to dance to the lively rhythm, their colourful beads and ornaments catching the sunlight.\n\n"
+            "There was also an Adowa dance performance, with dancers moving gracefully in time to the music, a real treat to watch and a lovely showcase of Ghanaian tradition.\n\n"
+            "The food was another highlight, with tables loaded with fufu, yam and palava sauce, jollof rice, fried chicken, and banku with okra soup, I could not resist sampling everything.\n\n"
+            "I met people from all over Ghana, and even a few from abroad, giving me a chance to learn about their customs too.\n\n"
+            "As the sun set, the couple exchanged vows and rings, closing the ceremony on a beautiful note of love and commitment. Attending that wedding was a memorable way to experience our rich culture firsthand, and it reminded me just how much beauty and joy lie in celebrating love and unity together.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18 (BECE 2005 Q3)\n\n"
+            "You live about ten kilometres away from your school. Write accurate directions to a friend who wishes to visit you.",
+        answer: "⦿ Sample Essay\n\n"
+            "Keziah, I am so glad you want to come visit, happy to walk you through how to get to my place, about ten kilometres from our school.\n\n"
+            "Begin at the school gate and turn right, then walk straight along the main road until you spot a large, well-known mango tree at a junction, impossible to miss. From there, take the road to the left.\n\n"
+            "Continue on until you reach a blue kiosk selling cold drinks and snacks. That path, lined with flowers on both sides, leads directly to a tro-tro station. Once there, board a tro-tro heading towards Aflao and let the mate know you would like to get off at \"Adjei Junction.\"\n\n"
+            "When you arrive at Adjei Junction, get off and walk a short way forward until you spot a cocoa seller on the left side of the road. Right beside the seller is a narrow footpath, take that, and it is a short walk from there.\n\n"
+            "You will pass a house with a red roof, then another with plenty of chickens in the yard. Just past that house, you will find mine, the third house on the right, marked by a white gate and some pretty flowers out front. It is an easy route, and I really hope to see you soon.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19 (BECE 2007 Q4)\n\n"
+            "Describe to your friend how your favourite game is played.",
+        answer: "⦿ Sample Essay\n\n"
+            "Adzo, let me tell you about my favourite game, musical chairs. It is simple, fun, and never fails to bring plenty of laughter.\n\n"
+            "To set it up, we arrange chairs back-to-back in a line, always one fewer than the number of players, so for ten players, we would set out nine chairs.\n\n"
+            "Once the chairs are ready, we get some upbeat music going, and everyone starts circling the chairs, walking, dancing, and keeping half an eye on their seats, because you never know exactly when the music will cut out.\n\n"
+            "The instant it stops, there is a scramble to grab a chair. Since there is always one fewer chair than players, someone ends up without a seat and is out for that round. We then remove another chair and start again, repeating until only one person remains, the eventual winner.\n\n"
+            "Musical chairs is such great fun precisely because it is unpredictable, you need both quick reflexes and a bit of luck to win. It is the sort of game that has everyone laughing and enjoying themselves the whole way through. Let us play it again next time we are together!",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20 (BECE 2013 Q3)\n\n"
+            "Describe one national event that took place recently and state two effects it had on the people in your area.",
+        answer: "⦿ Sample Essay\n\n"
+            "Christmas Day, celebrated on the 25th of December, is a national event that recently brought people in my area together to mark the birth of Jesus Christ and spend precious time with loved ones.\n\n"
+            "One clear effect of the celebration was the sense of happiness and unity it created among neighbours. People greeted one another more warmly than usual, smiles were everywhere, and the spirit of the season allowed many to set their worries aside, if only briefly, as they shared meals, exchanged gifts, and celebrated together. Watching young and old come together to laugh, sing, and dance was a beautiful reminder of what community and togetherness can offer.\n\n"
+            "A second effect was a noticeable rise in generosity throughout the area. Many families chose to share what they had with those less fortunate, some cooked extra portions for neighbours in need, while others gave away clothes and toys. Small gestures like these made people feel genuinely cared for.\n\n"
+            "In short, Christmas fostered both unity and generosity in my community, offering joy, renewed hope, and a reminder that love and connection are what truly hold us together, leaving behind a spirit of kindness and brotherhood that lasted well beyond the day itself.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 21 (BECE 2002A Q3)\n\n"
+            "Write on the topic, \"Why I should like to attend a boarding school or a day school\".",
+        answer: "⦿ Sample Essay\n\n"
+            "School plays a huge role in our lives; it is where we learn, build friendships, and prepare for what is ahead. Some students board at school, living and studying there full-time, while others attend day schools and return home each afternoon. Both options come with their own advantages.\n\n"
+            "Living at a boarding school would mean sharing daily life with classmates, giving us more time to collaborate on projects, help each other with homework, and grow into something like a close-knit family. The bonds formed through living and learning side by side often last a lifetime.\n\n"
+            "Boarding schools also tend to offer strong facilities for both study and recreation, well-stocked libraries, laboratories, and sports grounds available around the clock. That access makes it easier to join clubs and teams and really pursue one's interests fully.\n\n"
+            "Day schools, on the other hand, have their own charm. Going home every evening means enjoying family comforts and sleeping in one's own bed, while still staying connected to the local community through nearby events and neighbourhood friendships.\n\n"
+            "Ultimately, the right choice depends on what kind of experience a person is after. Boarding schools offer full immersion, while day schools help balance school life with home and community. It really comes down to finding what suits each individual best.\n\n"
+            "Personally, if I had to choose, I would lean towards boarding school. The main draw for me is the chance to fully immerse myself in school life, both academically and socially, in a way that living away from home makes possible.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 22 (BECE 2002B Q4)\n\n"
+            "It has been suggested that parents should buy textbooks for their school children. Give at least three reasons why you agree or disagree to this suggestion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Whether parents should buy textbooks for their children is a question worth taking seriously here in Ghana. I personally think they should, and here are three reasons why.\n\n"
+            "Firstly, owning their own textbooks lets children study whenever it suits them, without needing to borrow from a friend or wait for a turn at the school library.\n\n"
+            "Secondly, a child with their own book can underline key points or scribble notes in the margins, which makes revision far easier and understanding deeper, almost like building a personal study companion over time.\n\n"
+            "Lastly, while textbooks might feel like a costly upfront investment, they can actually save money in the long run. If owning books helps a child study more effectively, they may need fewer extra lessons or private tutors, meaning parents could end up spending less overall.\n\n"
+            "So although buying textbooks may initially seem like a heavy expense, the long-term benefits, better understanding, improved grades, and possible savings on tutoring, make it a worthwhile investment for parents to make.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 23 (BECE 2004 Q4)\n\n"
+            "Would you like to attend a girl's, a boy's or a mixed school? Give at least three reasons for your choice.",
+        answer: "⦿ Sample Essay\n\n"
+            "Given the choice, I would pick a mixed school where boys and girls learn side by side, and I have three solid reasons for saying so.\n\n"
+            "To begin with, mixed schools support healthier social development. Students get to build friendships across genders, which encourages mutual understanding and respect while creating a more inclusive atmosphere overall. Learning to work well with people of different genders is a genuinely valuable life skill, and mixed schooling naturally provides that practice.\n\n"
+            "Secondly, a mixed environment brings a broader mix of perspectives into the classroom. Boys and girls often approach problems differently, and being exposed to those varied viewpoints can enrich learning and better prepare students for a world where they will need to collaborate with people of every gender.\n\n"
+            "Finally, mixed schools help chip away at outdated gender stereotypes. In Ghana, as elsewhere, certain assumptions about what boys or girls are \"supposed\" to be good at still linger. Seeing classmates of both genders excel across different subjects and activities can challenge those assumptions, building confidence and encouraging students to chase their interests without feeling boxed in.\n\n"
+            "Altogether, a mixed school offers stronger social growth, richer perspectives, and a real chance to break down gender stereotypes, creating a more balanced, fair learning environment that prepares students well for the wider world.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 24 (BECE 2006 Q4)\n\n"
+            "Your P.T.A has introduced a Best Teacher Award Scheme for your school. Which of your teachers would you nominate for the award and why?",
+        answer: "⦿ Sample Essay\n\n"
+            "I would like to put forward my English teacher, Mr Dogbe, for our school's Best Teacher Award. There are three key reasons behind my choice.\n\n"
+            "First, Mr Dogbe has a real knack for turning lessons into something we actually look forward to. He draws on everyday experiences and even Ghanaian folk stories to bring his teaching to life, making English feel relevant and enjoyable rather than abstract. This approach genuinely helps concepts stick and sharpens our language skills.\n\n"
+            "Second, he goes well beyond simply delivering lessons; he genuinely cares about us. He is happy to answer questions outside of class hours, listens carefully to our concerns, and offers real guidance on improving our writing and communication. He treats each of us as individuals, recognising our different strengths and adjusting his teaching accordingly.\n\n"
+            "Third, his commitment to our success is honestly inspiring. He organises extra study sessions and workshops ahead of major exams, and pushes us to take part in debates, essay competitions, and drama, all of which build our confidence and help us grow as well-rounded students.\n\n"
+            "Given how much value Ghanaian society places on education, Mr Dogbe's dedication, patience, and creative teaching truly stand out. He is not simply teaching us English; he is shaping who we will become and instilling in us a genuine love of learning.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 25 (BECE 2015 Q3)\n\n"
+            "Write arguments for or against the topic: It is more advantageous to live in the village than in the city.",
+        answer: "⦿ Sample Essay\n\n"
+            "The debate over whether village or city life is better has picked up steam lately. Village life is often praised for its peace and calm, and there is truth to that, but there are strong reasons to argue that city living actually holds more advantages.\n\n"
+            "For one, education and healthcare tend to be far more limited in rural villages. Cities offer a greater number of schools and hospitals, giving people better access to quality education and medical care, and children growing up in urban areas benefit from a wider range of resources and opportunities as a result.\n\n"
+            "Job prospects also tend to be broader and more varied in cities, which function as hubs of economic activity. Villages, by contrast, often rely heavily on farming or traditional trades, offering less income stability overall.\n\n"
+            "Cities generally have stronger infrastructure too, dependable electricity, water, and transport, which makes everyday life considerably more convenient and improves overall quality of life.\n\n"
+            "And in today's connected world, access to technology and the internet matters enormously for education and staying informed, something far more readily available in urban settings.\n\n"
+            "Taken together, while village life certainly has its own appeal, the case for city living is compelling; better healthcare, education, jobs, infrastructure, and technology all make it, on balance, the more advantageous option for many people seeking a better standard of living.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 26 (BECE 2018 Q2)\n\n"
+            "Write arguments for or against the topic: Life in the city is more dangerous than that in the village.",
+        answer: "⦿ Sample Essay\n\n"
+            "City life may look glamorous, but there is a strong case to be made that it is actually more dangerous than village life, particularly here in Ghana.\n\n"
+            "To begin with, crime tends to be more common in cities. Dense populations combined with economic inequality can lead to more theft, robbery, and other offences, putting personal safety at greater risk.\n\n"
+            "Traffic accidents are another serious concern. Busy roads, careless driving, and often inadequate infrastructure mean accidents happen more frequently in urban settings, endangering both drivers and pedestrians alike.\n\n"
+            "Pollution is a further issue, factories, vehicles, and construction sites contribute to air and noise pollution in cities, which can lead to respiratory problems and other health complications.\n\n"
+            "Disease also spreads more easily where people live close together, making outbreaks harder to contain and manage in densely populated urban areas.\n\n"
+            "And though rare, natural disasters can hit cities particularly hard, floods and fires, for instance, tend to spread faster and cause greater damage due to how tightly packed urban environments are.\n\n"
+            "That said, it is worth noting that cities are generally better equipped with safety measures, law enforcement, and emergency services, which can help reduce some of these risks.\n\n"
+            "On balance, while city living in Ghana certainly has its perks, there is a solid argument that it carries greater dangers than village life, from higher crime and traffic accidents to pollution, disease, and vulnerability to disaster, all of which contribute to the potential hazards of urban living.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 27 (BECE 1991 Q4)\n\n"
+            "Write a story that ends: I suddenly woke up and realized it was all a dream.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a small village, there once lived a young girl named Lily, always dreaming of adventure. One night, as sleep took hold of her, she found herself caught up in the most extraordinary dream.\n\n"
+            "She discovered a magical map leading to hidden treasure, and following it took her through a thick forest, across a roaring river, and up a towering mountain, until at last she reached a cave said to hold the treasure itself. Stepping inside with excitement, she found a chest overflowing with glittering jewels and coins.\n\n"
+            "Just as she reached out to touch it, a friendly dragon named Spark appeared and told her the treasure could only belong to someone with a kind heart. They spoke and laughed together, quickly becoming friends, and decided the treasure should be shared with the whole village.\n\n"
+            "But then a sudden noise jolted Lily awake. She opened her eyes to find herself back in her own bedroom, I suddenly woke up and realized it was all a dream. Though a little sad that the friendship and kindness she had felt were not real, she sensed that such warmth could still exist in her waking life.\n\n"
+            "Smiling, she climbed out of bed, ready to greet the day with the same spirit of adventure and kindness from her dream, hopeful that one day she might find real treasure, or even a friend as extraordinary as Spark, and content, for now, knowing that dreams have a way of coming true in unexpected forms.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 28 (BECE 1998 Q4)\n\n"
+            "Write a story that ends with \"Never will I do that again\".",
+        answer: "⦿ Sample Essay\n\n"
+            "In the village of Umukoro lived a boy named Kwame, known for being both curious and fearless. One day, word reached him of a mango tree deep in the forest, said to bear the sweetest fruit around.\n\n"
+            "Thrilled at the idea, Kwame decided to go find it alone, thinking the journey could not be too difficult. Grabbing a basket, he headed straight into the forest.\n\n"
+            "The dense trees soon blocked out the sunlight, and thorny bushes and tangled vines made the path tough going. Still, Kwame pressed on, dreaming of those mangoes.\n\n"
+            "Hours slipped by without any sign of the tree, and Kwame realised, with growing dread, that he was lost. As the sun began to set, panic crept in, and by nightfall the forest had turned eerie and unfamiliar.\n\n"
+            "Fear and loneliness set in. He wished he had listened to his parents rather than wandering off so far. Hunger gnawed at him, and the darkness only deepened his fright.\n\n"
+            "After a long, frightening night, dawn finally broke, and Kwame heard voices approaching, a search party of villagers who had been looking for him.\n\n"
+            "They guided him safely home, and relief washed over him. He had learned firsthand just how risky venturing alone into deep forest could be.\n\n"
+            "Sitting later beneath his family's own mango tree, enjoying its sweet fruit, he made himself a promise: \"Never will I do that again.\" He had come to understand that while adventure has its appeal, safety and heeding those who care for him mattered far more.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 29 (BECE 2005 Q4)\n\n"
+            "Write a story which ends, \"...... but everybody was happy\".",
+        answer: "⦿ Sample Essay\n\n"
+            "In the village of Vitting, in Ghana's Northern Region, there stood a special gathering place known as Unity Square, a spot where people of different backgrounds, tribes, and ages came together in celebration.\n\n"
+            "One bright day, the village decided to host a large festival there, and people of every age pitched in to plan it. Elders recounted tales of their ancestors and spoke about the value of unity, children rehearsed traditional dances, and the women prepared a spread of Ghanaian dishes.\n\n"
+            "When the day arrived, the sky glowed with warm colours, and Unity Square filled with music, laughter, and the smell of good food. People turned out in vibrant traditional clothing, while drummers kept everyone's feet tapping with joyful rhythms.\n\n"
+            "Dance competitions, storytelling, and even a cooking contest kept the energy high. Families set up little stalls to share homemade dishes and crafts, and children ran about, playing games and making new friends along the way.\n\n"
+            "As dusk settled in, the whole village gathered around a bonfire, where elders shared stories and hopes for the future, reminding everyone that unity would help them weather any challenge together.\n\n"
+            "Under a star-filled sky, the villagers sang songs of togetherness late into the night. The festival brought the community closer than it had ever been, and as everyone looked around, they realised that in Unity Square that night, everybody was happy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 30 (BECE 2008 Q4)\n\n"
+            "Write a story that explains the saying: Two heads are better than one.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the lively village of Wakanda lived two inseparable best friends, Jojo and Zoe, known for sharing everything from dreams to secrets since childhood. One day, the village launched a competition, calling for ideas to make Wakanda a happier place to live.\n\n"
+            "Jojo dreamt up a plan to plant flowers and trees throughout the village, while Zoe imagined building colourful playgrounds for the children. Both were excited by their own ideas, yet neither could decide which was better.\n\n"
+            "Noticing their indecision, Jojo's grandmother reminded them of an old saying, \"Two heads are better than one.\" Taking the advice to heart, the pair chose to merge their ideas rather than pick one over the other, designing a garden filled with vibrant flowers and tall trees, dotted throughout with lively playgrounds featuring swings, slides, and seesaws.\n\n"
+            "With help from fellow villagers, they worked tirelessly to bring their shared vision to life. By competition day, Wakanda had been transformed, flowers blooming everywhere, their fragrance filling the air, and children's laughter echoing as they played.\n\n"
+            "The village chief praised the pair's teamwork, echoing the old saying once more, \"Two heads are truly better than one.\" Wakanda had become not just happier but more beautiful and full of life, thanks entirely to Jojo and Zoe's collaboration. Beaming with pride, the two friends realised that combining their ideas and respecting each other's perspectives had led to something far greater than either could have achieved alone.",
+        explanation: "",
       ),
     ],
   ),
