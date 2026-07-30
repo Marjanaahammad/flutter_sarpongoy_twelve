@@ -7973,49 +7973,46 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        r"1. Simplify \begin{pmatrix} 2 \ -3 \end{pmatrix} - \begin{pmatrix} -1 \ 5 \end{pmatrix}. (BECE 1990 Q40)",
+        r"1. Simplify \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 1990 Q40)",
         options: [
-          r"\begin{pmatrix} -3 \ 8 \end{pmatrix}",
-          r"\begin{pmatrix} 3 \ -8 \end{pmatrix}",
-          r"\begin{pmatrix} -3 \ -8 \end{pmatrix}",
-          r"\begin{pmatrix} 3 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \\ 8 \end{pmatrix}",
+          r"\begin{pmatrix} 3 \\ -8 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \\ -8 \end{pmatrix}",
+          r"\begin{pmatrix} 3 \\ 8 \end{pmatrix}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         r"\begin{pmatrix} 2-(-1) \ -3-5 \end{pmatrix} = \begin{pmatrix} 3 \ -8 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"2. If r = \begin{pmatrix} 3 \ 1 \end{pmatrix} and s = \begin{pmatrix} -2 \ 1 \end{pmatrix}, calculate 6(r + 2s). (BECE 1991 Q27)",
+        r"2. If r = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, calculate 6(r + 2s). (BECE 1991 Q27)",
         options: [
-          r"\begin{pmatrix} -1 \ 3 \end{pmatrix}",
-          r"\begin{pmatrix} 1 \ 3 \end{pmatrix}",
-          r"\begin{pmatrix} 7 \ 3 \end{pmatrix}",
-          r"\begin{pmatrix} -6 \ 18 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \\ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \\ 3 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \\ 18 \end{pmatrix}",
         ],
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
         r"r + 2s = \begin{pmatrix} 3 \ 1 \end{pmatrix} + \begin{pmatrix} -4 \ 2 \end{pmatrix} = \begin{pmatrix} -1 \ 3 \end{pmatrix}. Multiplying by 6 gives \begin{pmatrix} -6 \ 18 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"3. Given that a = \begin{pmatrix} -2 \ 3 \end{pmatrix} and b = \begin{pmatrix} -2 \ 3 \end{pmatrix}, find a + 2b. (BECE 1993 Q20)",
+        r"3. Given that a = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + 2b. (BECE 1993 Q20)",
         options: [
-          r"\begin{pmatrix} 2 \ -7 \end{pmatrix}",
-          r"\begin{pmatrix} 2 \ 13 \end{pmatrix}",
-          r"\begin{pmatrix} 0 \ -2 \end{pmatrix}",
-          r"\begin{pmatrix} 6 \ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \\ -7 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \\ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \\ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \\ 13 \end{pmatrix}",
         ],
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
         r"Using the vectors as supplied gives a + 2b = \begin{pmatrix} -6 \ 9 \end{pmatrix}, which is not among the options. The question or options contain a transcription error.",
       ),
-
       QuizQuestion(
         question:
         "4. Three girls measured the sides of right-angled triangles. Ama measured 50 mm, 40 mm and 50 mm; Adjoa measured 50 mm, 120 mm and 130 mm; Abena measured 20 mm, 30 mm and 40 mm. Whose measurement was correct? (BECE 1993 Q40)",
@@ -8030,97 +8027,90 @@ QuizQuestion(
         explanation:
         r"Only Adjoa's measurements satisfy the Pythagorean theorem: 50^2 + 120^2 = 130^2.",
       ),
-
       QuizQuestion(
         question:
-        r"5. If u = \begin{pmatrix} 2 \ 1 \end{pmatrix} and v = \begin{pmatrix} -1 \ 3 \end{pmatrix}, find 3u + 2v. (BECE 1995 Q21)",
+        r"5. If u = \begin{pmatrix} 2 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -1 \\ 3 \end{pmatrix}, find 3u + 2v. (BECE 1995 Q21)",
         options: [
-          r"\begin{pmatrix} 8 \ 9 \end{pmatrix}",
-          r"\begin{pmatrix} 4 \ -2 \end{pmatrix}",
-          r"\begin{pmatrix} 4 \ 0 \end{pmatrix}",
-          r"\begin{pmatrix} 4 \ 9 \end{pmatrix}",
+          r"\begin{pmatrix} 8 \\ 9 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ 0 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ 9 \end{pmatrix}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"3u + 2v = \begin{pmatrix} 6 \ 3 \end{pmatrix} + \begin{pmatrix} -2 \ 6 \end{pmatrix} = \begin{pmatrix} 4 \ 9 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"6. Simplify \begin{pmatrix} 4 \ 5 \end{pmatrix} + \begin{pmatrix} -2 \ 2 \end{pmatrix} + \begin{pmatrix} 1 \ 6 \end{pmatrix}. (BECE 1997 Q11)",
+        r"6. Simplify \begin{pmatrix} 4 \\ 5 \end{pmatrix} + \begin{pmatrix} -2 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 6 \end{pmatrix}. (BECE 1997 Q11)",
         options: [
-          r"\begin{pmatrix} 2 \ 13 \end{pmatrix}",
-          r"\begin{pmatrix} 7 \ 13 \end{pmatrix}",
-          r"\begin{pmatrix} 5 \ 13 \end{pmatrix}",
-          r"\begin{pmatrix} 3 \ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \\ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \\ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 5 \\ 13 \end{pmatrix}",
+          r"\begin{pmatrix} 3 \\ 13 \end{pmatrix}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"Add corresponding components: \begin{pmatrix} 4-2+1 \ 5+2+6 \end{pmatrix} = \begin{pmatrix} 3 \ 13 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"7. The diameter of a circular tray is 28 cm. Find the area of the tray. Take \pi = \frac{22}{7}. (BECE 1994 Q23)",
         options: [
-          r"71.4\text{ cm}^2",
-          r"31.8\text{ cm}^2",
-          r"40.0\text{ cm}^2",
-          r"51.4\text{ cm}^2",
+          r"71.4 cm^2",
+          r"31.8 cm^2",
+          r"40.0 cm^2",
+          r"51.4 cm^2",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
         r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2. None of the supplied options matches the correct answer.",
       ),
-
       QuizQuestion(
         question:
-        r"8. Given that a = \begin{pmatrix} -3 \ 4 \end{pmatrix} and b = \begin{pmatrix} 1 \ 2 \end{pmatrix}, find b - a. (BECE 1998 Q34)",
+        r"8. Given that a = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and b = \begin{pmatrix} 1 \\ 2 \end{pmatrix}, find b - a. (BECE 1998 Q34)",
         options: [
-          r"\begin{pmatrix} -2 \ 6 \end{pmatrix}",
-          r"\begin{pmatrix} 4 \ -2 \end{pmatrix}",
-          r"\begin{pmatrix} 4 \ 2 \end{pmatrix}",
-          r"\begin{pmatrix} -2 \ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \\ 6 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \\ 2 \end{pmatrix}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         r"b-a = \begin{pmatrix} 1-(-3) \ 2-4 \end{pmatrix} = \begin{pmatrix} 4 \ -2 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"9. Given L = \begin{pmatrix} 3 \ -1 \end{pmatrix} and K = \begin{pmatrix} -4 \ 2 \end{pmatrix}, find L + K. (BECE 1999 Q36)",
+        r"9. Given L = \begin{pmatrix} 3 \\ -1 \end{pmatrix} and K = \begin{pmatrix} -4 \\ 2 \end{pmatrix}, find L + K. (BECE 1999 Q36)",
         options: [
-          r"\begin{pmatrix} -1 \ -1 \end{pmatrix}",
-          r"\begin{pmatrix} -1 \ 1 \end{pmatrix}",
-          r"\begin{pmatrix} 1 \ -1 \end{pmatrix}",
-          r"\begin{pmatrix} 7 \ 1 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ -1 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 1 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \\ -1 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \\ 1 \end{pmatrix}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         r"L+K = \begin{pmatrix} 3-4 \ -1+2 \end{pmatrix} = \begin{pmatrix} -1 \ 1 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"10. Simplify \begin{pmatrix} -2 \ 3 \end{pmatrix} - \begin{pmatrix} 1 \ 5 \end{pmatrix}. (BECE 2000 Q10)",
+        r"10. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} - \begin{pmatrix} 1 \\ 5 \end{pmatrix}. (BECE 2000 Q10)",
         options: [
-          r"\begin{pmatrix} -1 \ 2 \end{pmatrix}",
-          r"\begin{pmatrix} -1 \ 8 \end{pmatrix}",
-          r"\begin{pmatrix} -3 \ 8 \end{pmatrix}",
-          r"\begin{pmatrix} -3 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \\ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \\-2 \end{pmatrix}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -2-1 \ 3-5 \end{pmatrix} = \begin{pmatrix} -3 \ -2 \end{pmatrix}.",
+        r"\begin{pmatrix} -2-1 \\ 3-5 \end{pmatrix} = \begin{pmatrix} -3 \\ -2 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"11. The circumference of a circular track is 15.4 m. Find its diameter. Take \pi = \frac{22}{7}. (BECE 2002B Q40)",
@@ -8135,22 +8125,20 @@ QuizQuestion(
         explanation:
         r"Since C = \pi d, d = 15.4 \div \frac{22}{7} = 4.9\text{ m}.",
       ),
-
       QuizQuestion(
         question:
         r"12. Find the area of a circle whose diameter is 28 cm. Take \pi = \frac{22}{7}. (BECE 2005 Q15)",
         options: [
-          r"44\text{ cm}^2",
-          r"88\text{ cm}^2",
-          r"352\text{ cm}^2",
-          r"616\text{ cm}^2",
+          r"44 cm^2",
+          r"88 cm^2",
+          r"352 cm^2",
+          r"616 cm^2",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
         r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2.",
       ),
-
       QuizQuestion(
         question:
         r"13. Find the circumference of a circle with radius 3.5 cm. Take \pi = \frac{22}{7}. (BECE 2006 Q5)",
@@ -8165,7 +8153,6 @@ QuizQuestion(
         explanation:
         r"C = 2\pi r = 2 \times \frac{22}{7} \times 3.5 = 22\text{ cm}.",
       ),
-
       QuizQuestion(
         question:
         "14. Which of the following dimensions form the sides of a right-angled triangle? (BECE 2004 Q40)",
@@ -8180,70 +8167,65 @@ QuizQuestion(
         explanation:
         r"Since 5^2 + 12^2 = 25 + 144 = 169 = 13^2, the sides form a right-angled triangle.",
       ),
-
       QuizQuestion(
         question:
-        r"15. If r = \begin{pmatrix} 2 \ 5 \end{pmatrix} and t = \begin{pmatrix} -2 \ -3 \end{pmatrix}, evaluate r + t. (BECE 2007 Q28)",
+        r"15. If r = \begin{pmatrix} 2 \\ 5 \end{pmatrix} and t = \begin{pmatrix} -2 \\ -3 \end{pmatrix}, evaluate r + t. (BECE 2007 Q28)",
         options: [
-          r"\begin{pmatrix} 0 \ -2 \end{pmatrix}",
-          r"\begin{pmatrix} 0 \ 2 \end{pmatrix}",
-          r"\begin{pmatrix} 4 \ 2 \end{pmatrix}",
-          r"\begin{pmatrix} 4 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \\ -2 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ 8 \end{pmatrix}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"r+t = \begin{pmatrix} 2-2 \ 5-3 \end{pmatrix} = \begin{pmatrix} 0 \ 2 \end{pmatrix}.",
+        r"r+t = \begin{pmatrix} 2-2 \\ 5-3 \end{pmatrix} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         "16. Which of the following sets of angles form the interior angles of a right-angled triangle? (BECE 2009 Q14)",
         options: [
-          r"{20^\circ, 50^\circ, 90^\circ}",
-          r"{80^\circ, 60^\circ, 90^\circ}",
-          r"{45^\circ, 45^\circ, 90^\circ}",
-          r"{65^\circ, 90^\circ, 35^\circ}",
+          r"{ 20^\circ, 50^\circ, 90^\circ }",
+          r"{ 80^\circ, 60^\circ, 90^\circ }",
+          r"{ 45^\circ, 45^\circ, 90^\circ }",
+          r"{ 65^\circ, 90^\circ, 35^\circ }",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
         r"A triangle's angles sum to 180^\circ. Only 45^\circ + 45^\circ + 90^\circ = 180^\circ.",
       ),
-
       QuizQuestion(
         question:
-        r"17. If r = \begin{pmatrix} -10 \ -3 \end{pmatrix} and n = \begin{pmatrix} 8 \ -6 \end{pmatrix}, find n + r. (BECE 2009 Q40)",
+        r"17. If r = \begin{pmatrix} -10 \\ -3 \end{pmatrix} and n = \begin{pmatrix} 8 \\ -6 \end{pmatrix}, find n + r. (BECE 2009 Q40)",
         options: [
-          r"\begin{pmatrix} -2 \ -9 \end{pmatrix}",
-          r"\begin{pmatrix} 2 \ -9 \end{pmatrix}",
-          r"\begin{pmatrix} 18 \ 9 \end{pmatrix}",
-          r"\begin{pmatrix} -2 \ -3 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \\ -9 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \\ -9 \end{pmatrix}",
+          r"\begin{pmatrix} 18 \\ 9 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \\ -3 \end{pmatrix}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
         r"n+r = \begin{pmatrix} 8-10 \ -6-3 \end{pmatrix} = \begin{pmatrix} -2 \ -9 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"18. Find the circumference of a circle whose area is 64\pi\text{ cm}^2. (BECE 2010 Q25)",
+        r"18. Find the circumference of a circle whose area is 64\pi cm^2. (BECE 2010 Q25)",
         options: [
-          r"32\pi\text{ cm}",
-          r"16\pi\text{ cm}",
-          r"8\pi\text{ cm}",
-          r"4\pi\text{ cm}",
+          r"32\pi cm",
+          r"16\pi cm",
+          r"8\pi cm",
+          r"4\pi cm",
         ],
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"\pi r^2 = 64\pi gives r = 8\text{ cm}. Therefore, C = 2\pi r = 16\pi\text{ cm}.",
+        r"\pi r^2 = 64\pi gives r = 8\text{ cm}. Therefore, C = 2\pi r = 16\pi cm.",
       ),
-
       QuizQuestion(
         question:
-        r"19. Given that a = \begin{pmatrix} -5 \ 12 \end{pmatrix} and b = \begin{pmatrix} 10x \ 12 \end{pmatrix}, find x if a = b. (BECE 2010 Q38)",
+        r"19. Given that a = \begin{pmatrix} -5 \\ 12 \end{pmatrix} and b = \begin{pmatrix} 10\times \\ 12 \end{pmatrix}, find x if a = b. (BECE 2010 Q38)",
         options: [
           "-2",
           r"-\frac{1}{2}",
@@ -8255,10 +8237,9 @@ QuizQuestion(
         explanation:
         r"Equal vectors have equal corresponding components, so 10x = -5. Therefore, x = -\frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        r"20. Given that a = \begin{pmatrix} 5 \ 2n \end{pmatrix} and b = \begin{pmatrix} 2n-1 \ 6 \end{pmatrix}, find n if a = b. (BECE 2011 Q25)",
+        r"20. Given that a = \begin{pmatrix} 5 \\ 2n \end{pmatrix} and b = \begin{pmatrix} 2n-1 \\ 6 \end{pmatrix}, find n if a = b. (BECE 2011 Q25)",
         options: [
           "6",
           "3",
@@ -8270,52 +8251,48 @@ QuizQuestion(
         explanation:
         r"Equal corresponding components give 2n-1=5 and 2n=6. Both equations give n=3.",
       ),
-
       QuizQuestion(
         question:
-        r"21. If r = \begin{pmatrix} 2 \ -5 \end{pmatrix} and s = \begin{pmatrix} -2 \ 5 \end{pmatrix}, calculate 2r - 3s. (BECE 2011 Q30)",
+        r"21. If r = \begin{pmatrix} 2 \\ -5 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 5 \end{pmatrix}, calculate 2r - 3s. (BECE 2011 Q30)",
         options: [
-          r"\begin{pmatrix} -10 \ -25 \end{pmatrix}",
-          r"\begin{pmatrix} -2 \ -25 \end{pmatrix}",
-          r"\begin{pmatrix} 10 \ -25 \end{pmatrix}",
-          r"\begin{pmatrix} 10 \ 25 \end{pmatrix}",
+          r"\begin{pmatrix} -10 \\ -25 \end{pmatrix}",
+          r"\begin{pmatrix} -2 \\ -25 \end{pmatrix}",
+          r"\begin{pmatrix} 10 \\ -25 \end{pmatrix}",
+          r"\begin{pmatrix} 10 \\ 25 \end{pmatrix}",
         ],
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
         r"2r-3s = \begin{pmatrix} 4 \ -10 \end{pmatrix} - \begin{pmatrix} -6 \ 15 \end{pmatrix} = \begin{pmatrix} 10 \ -25 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"22. Given that r = \begin{pmatrix} -3 \ 4 \end{pmatrix} and s = \begin{pmatrix} 1 \ -3 \end{pmatrix}, find r - 2s. (BECE 2015 Q33)",
+        r"22. Given that r = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and s = \begin{pmatrix} 1 \\ -3 \end{pmatrix}, find r - 2s. (BECE 2015 Q33)",
         options: [
-          r"\begin{pmatrix} -5 \ 1 \end{pmatrix}",
-          r"\begin{pmatrix} -5 \ 10 \end{pmatrix}",
-          r"\begin{pmatrix} -7 \ -11 \end{pmatrix}",
-          r"\begin{pmatrix} 7 \ -11 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \\ 1 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \\ 10 \end{pmatrix}",
+          r"\begin{pmatrix} -7 \\ -11 \end{pmatrix}",
+          r"\begin{pmatrix} 7 \\ -11 \end{pmatrix}",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
         r"r-2s = \begin{pmatrix} -3 \ 4 \end{pmatrix} - \begin{pmatrix} 2 \ -6 \end{pmatrix} = \begin{pmatrix} -5 \ 10 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"23. Find the area of a circle whose diameter is 7 cm. Take \pi = \frac{22}{7}. (BECE 2016 Q28)",
         options: [
-          r"11\text{ cm}^2",
-          r"38\frac{1}{2}\text{ cm}^2",
-          r"44\frac{1}{2}\text{ cm}^2",
-          r"54\text{ cm}^2",
+          r"11 cm^2",
+          r"38\frac{1}{2} cm^2",
+          r"44\frac{1}{2} cm^2",
+          r"54 cm^2",
         ],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The radius is 3.5 cm, so the area is \frac{22}{7}\times 3.5^2 = 38.5\text{ cm}^2.",
+        r"The radius is 3.5 cm, so the area is \frac{22}{7}\times 3.5^2 = 38.5 cm^2.",
       ),
-
       QuizQuestion(
         question:
         "24. The diagonal of a rectangle is 10 cm long. If its length is 8 cm, find its breadth. (BECE 2016 Q32)",
@@ -8330,35 +8307,34 @@ QuizQuestion(
         explanation:
         r"Using the Pythagorean theorem, b^2 + 8^2 = 10^2. Thus, b^2 = 36 and b = 6\text{ cm}.",
       ),
-
       QuizQuestion(
         question:
-        r"25. Simplify \begin{pmatrix} -3 \ 5 \end{pmatrix} + \begin{pmatrix} 2 \ -7 \end{pmatrix}. (BECE 2016 Q36)",
+        r"25. Simplify \begin{pmatrix} -3 \\ 5 \end{pmatrix} + \begin{pmatrix} 2 \\ -7 \end{pmatrix}. (BECE 2016 Q36)",
         options: [
-          r"\begin{pmatrix} -1 \ 2 \end{pmatrix}",
-          r"\begin{pmatrix} -5 \ 12 \end{pmatrix}",
-          r"\begin{pmatrix} -1 \ -2 \end{pmatrix}",
-          r"\begin{pmatrix} -5 \ -12 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \\ 12 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ -2 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \\ -12 \end{pmatrix}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -3+2 \ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \ -2 \end{pmatrix}.",
+        r"\begin{pmatrix} -3+2 \\ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \\ -2 \end{pmatrix}.",
       ),
 
       QuizQuestion(
         question:
-        r"26. Given that a = \begin{pmatrix} 4 \ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
+        r"26. Given that a = \begin{pmatrix} 4 \\ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \\ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
         options: [
-          r"\begin{pmatrix} 0 \ 0 \end{pmatrix}",
-          r"\begin{pmatrix} -8 \ 12 \end{pmatrix}",
-          r"\begin{pmatrix} 8 \ -12 \end{pmatrix}",
-          r"\begin{pmatrix} -8 \ 0 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \\ 0 \end{pmatrix}",
+          r"\begin{pmatrix} -8 \\ 12 \end{pmatrix}",
+          r"\begin{pmatrix} 8 \\ -12 \end{pmatrix}",
+          r"\begin{pmatrix} -8 \\ 0 \end{pmatrix}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"a+b = \begin{pmatrix} 4-4 \ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \ 0 \end{pmatrix}.",
+        r"a+b = \begin{pmatrix} 4-4 \\ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
       ),
 
       QuizQuestion(
@@ -8373,52 +8349,52 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28\text{ cm}.",
+        r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28 cm.",
       ),
 
       QuizQuestion(
         question:
-        r"28. If u = \begin{pmatrix} 3 \ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
+        r"28. If u = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
         options: [
-          r"\begin{pmatrix} -1 \ 3 \end{pmatrix}",
-          r"\begin{pmatrix} -6 \ 8 \end{pmatrix}",
-          r"\begin{pmatrix} 1 \ 3 \end{pmatrix}",
-          r"\begin{pmatrix} 6 \ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \\ 8 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \\ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \\ 8 \end{pmatrix}",
         ],
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"6v+2u = \begin{pmatrix} -12 \ 6 \end{pmatrix} + \begin{pmatrix} 6 \ 2 \end{pmatrix} = \begin{pmatrix} -6 \ 8 \end{pmatrix}.",
+        r"6v+2u = \begin{pmatrix} -12 \\ 6 \end{pmatrix} + \begin{pmatrix} 6 \\ 2 \end{pmatrix} = \begin{pmatrix} -6 \\ 8 \end{pmatrix}.",
       ),
 
       QuizQuestion(
         question:
-        r"29. Given that r = \begin{pmatrix} -3 \ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
+        r"29. Given that r = \begin{pmatrix} -3 \\ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \\ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
         options: [
-          r"\begin{pmatrix} -6 \ 10 \end{pmatrix}",
-          r"\begin{pmatrix} -6 \ -10 \end{pmatrix}",
-          r"\begin{pmatrix} 0 \ -10 \end{pmatrix}",
-          r"\begin{pmatrix} 6 \ 10 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \\ 10 \end{pmatrix}",
+          r"\begin{pmatrix} -6 \\ -10 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \\ -10 \end{pmatrix}",
+          r"\begin{pmatrix} 6 \\ 10 \end{pmatrix}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"r+t = \begin{pmatrix} -3+3 \ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \ -10 \end{pmatrix}.",
+        r"r+t = \begin{pmatrix} -3+3 \\ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \\ -10 \end{pmatrix}.",
       ),
 
       QuizQuestion(
         question:
-        r"30. Simplify \begin{pmatrix} -2 \ 3 \end{pmatrix} + \begin{pmatrix} -1 \ 5 \end{pmatrix}. (BECE 2019 Q31)",
+        r"30. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} + \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 2019 Q31)",
         options: [
-          r"\begin{pmatrix} -3 \ -2 \end{pmatrix}",
-          r"\begin{pmatrix} -1 \ 2 \end{pmatrix}",
-          r"\begin{pmatrix} -3 \ 8 \end{pmatrix}",
-          r"\begin{pmatrix} -1 \ -2 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \\ -2 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
+          r"\begin{pmatrix} -3 \\ 8 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ -2 \end{pmatrix}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -2-1 \ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \ 8 \end{pmatrix}.",
+        r"\begin{pmatrix} -2-1 \\ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \\ 8 \end{pmatrix}.",
       ),
 
       QuizQuestion(
@@ -44877,46 +44853,6 @@ QuizQuestion(
           difficulty: "Medium",
           explanation:
               "The first shell holds up to 2 electrons, and the second holds the remaining 6 (2, 6)."),
-    ],
-  ),
-
-  // ─── JHS 2 / JHS 3: MATH ───────────────────────────────────────────────────
-  "FROM BILLIONS TO STANDARD FORM": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. Express 450,000 in standard form.",
-          options: ["4.5 × 10^5", "45 × 10^4", "4.5 × 10^-5", "0.45 × 10^6"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "450,000 = 4.5 × 10^5 as the decimal moves 5 places left."),
-      QuizQuestion(
-          question: "2. Convert 3.2 × 10^-3 to ordinary notation.",
-          options: ["32,000", "0.032", "0.0032", "0.00032"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "10^-3 shifts the decimal 3 places to the left: 0.0032."),
-    ],
-  ),
-
-  "The Complete Guide to Number Operations": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. Solve: -15 + (-7) - (-12)",
-          options: ["-34", "-10", "-3", "10"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "-15 - 7 + 12 = -22 + 12 = -10."),
-      QuizQuestion(
-          question: "2. Evaluate: 24 ÷ (6 - 2) × 3 using BODMAS.",
-          options: ["2", "18", "3", "12"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Bracket first: 6-2=4. Division: 24÷4=6. Multiplication: 6×3=18."),
     ],
   ),
 };
