@@ -8321,7 +8321,6 @@ QuizQuestion(
         explanation:
         r"\begin{pmatrix} -3+2 \\ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \\ -2 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"26. Given that a = \begin{pmatrix} 4 \\ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \\ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
@@ -8336,7 +8335,6 @@ QuizQuestion(
         explanation:
         r"a+b = \begin{pmatrix} 4-4 \\ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"27. Find the diameter of a circle whose circumference is 88 cm. Take \pi = \frac{22}{7}. (BECE 2019 Q24)",
@@ -8351,7 +8349,6 @@ QuizQuestion(
         explanation:
         r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28 cm.",
       ),
-
       QuizQuestion(
         question:
         r"28. If u = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
@@ -8366,7 +8363,6 @@ QuizQuestion(
         explanation:
         r"6v+2u = \begin{pmatrix} -12 \\ 6 \end{pmatrix} + \begin{pmatrix} 6 \\ 2 \end{pmatrix} = \begin{pmatrix} -6 \\ 8 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"29. Given that r = \begin{pmatrix} -3 \\ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \\ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
@@ -8381,7 +8377,6 @@ QuizQuestion(
         explanation:
         r"r+t = \begin{pmatrix} -3+3 \\ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \\ -10 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"30. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} + \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 2019 Q31)",
@@ -8396,7 +8391,6 @@ QuizQuestion(
         explanation:
         r"\begin{pmatrix} -2-1 \\ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \\ 8 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         "31. Adwoa travelled 12 km due north and 5 km due east. How far was she from her starting point? (BECE 2022 Q15)",
@@ -8411,37 +8405,34 @@ QuizQuestion(
         explanation:
         r"The distance is the hypotenuse: \sqrt{12^2+5^2} = \sqrt{169} = 13\text{ km}.",
       ),
-
       QuizQuestion(
         question:
-        r"32. If a = \begin{pmatrix} 2 \ -3 \end{pmatrix} and b = \begin{pmatrix} -2 \ 3 \end{pmatrix}, find a + b. (BECE 2022 Q33)",
+        r"32. If a = \begin{pmatrix} 2 \\ -3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + b. (BECE 2022 Q33)",
         options: [
-          r"\begin{pmatrix} 4 \ 0 \end{pmatrix}",
-          r"\begin{pmatrix} 2 \ 3 \end{pmatrix}",
-          r"\begin{pmatrix} 0 \ 0 \end{pmatrix}",
-          r"\begin{pmatrix} 0 \ 6 \end{pmatrix}",
+          r"\begin{pmatrix} 4 \\ 0 \end{pmatrix}",
+          r"\begin{pmatrix} 2 \\ 3 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \\ 0 \end{pmatrix}",
+          r"\begin{pmatrix} 0 \\ 6 \end{pmatrix}",
         ],
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"a+b = \begin{pmatrix} 2-2 \ -3+3 \end{pmatrix} = \begin{pmatrix} 0 \ 0 \end{pmatrix}.",
+        r"a+b = \begin{pmatrix} 2-2 \\ -3+3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
-        r"33. If q = \begin{pmatrix} -2 \ 3 \end{pmatrix} and r = \begin{pmatrix} 3 \ -2 \end{pmatrix}, find q - r. (BECE 2023 Q35)",
+        r"33. If q = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and r = \begin{pmatrix} 3 \\ -2 \end{pmatrix}, find q - r. (BECE 2023 Q35)",
         options: [
-          r"\begin{pmatrix} -5 \ 5 \end{pmatrix}",
-          r"\begin{pmatrix} 5 \ 5 \end{pmatrix}",
-          r"\begin{pmatrix} -1 \ 1 \end{pmatrix}",
-          r"\begin{pmatrix} 1 \ 1 \end{pmatrix}",
+          r"\begin{pmatrix} -5 \\ 5 \end{pmatrix}",
+          r"\begin{pmatrix} 5 \\ 5 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ 1 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \\ 1 \end{pmatrix}",
         ],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"q-r = \begin{pmatrix} -2-3 \ 3-(-2) \end{pmatrix} = \begin{pmatrix} -5 \ 5 \end{pmatrix}.",
+        r"q-r = \begin{pmatrix} -2-3 \\ 3-(-2) \end{pmatrix} = \begin{pmatrix} -5 \\ 5 \end{pmatrix}.",
       ),
-
       QuizQuestion(
         question:
         r"34. A boy walked around a circular pond once. If its radius is 28 m, find the distance covered. Take \pi = \frac{22}{7}. (BECE 2025 Q18)",
@@ -8454,22 +8445,359 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The distance is the circumference: 2\pi r = 2 \times \frac{22}{7} \times 28 = 176\text{ m}.",
+        r"The distance is the circumference: 2\pi r = 2 \times \frac{22}{7} \times 28 = 176 m.",
       ),
-
       QuizQuestion(
         question:
-        r"35. If a = \begin{pmatrix} -2 \ 1 \end{pmatrix} and b = \begin{pmatrix} -5 \ -3 \end{pmatrix}, find 2a - b. (BECE 2025 Q25)",
+        r"35. If a = \begin{pmatrix} -2 \\ 1 \end{pmatrix} and b = \begin{pmatrix} -5 \\ -3 \end{pmatrix}, find 2a - b. (BECE 2025 Q25)",
         options: [
-          r"\begin{pmatrix} 1 \ 5 \end{pmatrix}",
-          r"\begin{pmatrix} -9 \ -1 \end{pmatrix}",
-          r"\begin{pmatrix} 5 \ 1 \end{pmatrix}",
-          r"\begin{pmatrix} -1 \ -1 \end{pmatrix}",
+          r"\begin{pmatrix} 1 \\ 5 \end{pmatrix}",
+          r"\begin{pmatrix} -9 \\ -1 \end{pmatrix}",
+          r"\begin{pmatrix} 5 \\ 1 \end{pmatrix}",
+          r"\begin{pmatrix} -1 \\ -1 \end{pmatrix}",
         ],
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"2a-b = \begin{pmatrix} -4 \ 2 \end{pmatrix} - \begin{pmatrix} -5 \ -3 \end{pmatrix} = \begin{pmatrix} 1 \ 5 \end{pmatrix}.",
+        r"2a-b = \begin{pmatrix} -4 \\ 2 \end{pmatrix} - \begin{pmatrix} -5 \\ -3 \end{pmatrix} = \begin{pmatrix} 1 \\ 5 \end{pmatrix}.",
+      ),
+    ],
+  ),
+  "Math JHS2 s3 ss3 - Position and Transformation": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. The point P(3, 4) is rotated through an angle of 90^\circ anticlockwise about the origin O. Find the image P_1 of the rotation. (BECE 2001 Q16)",
+        options: [
+          r"(3, -4)",
+          r"(4, -3)",
+          r"(-3, 4)",
+          r"(-4, 3)",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (3, 4) maps to (-4, 3).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"2. Find the image of Q(-4, 5) when rotated anticlockwise through 90^\circ about the origin. (BECE 2018 Q30)",
+        options: [
+          r"Q'(-5, 4)",
+          r"Q'(-5, -4)",
+          r"Q'(4, -5)",
+          r"Q'(4, 5)",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (-4, 5) maps to (-5, -4).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. The point K(1, 5) is rotated through 90^\circ anticlockwise about the origin. Find the coordinates of the image of K. (BECE 2015 Q31)",
+        options: [
+          r"(5, -1)",
+          r"(-5, 1)",
+          r"(-1, 5)",
+          r"(1, -5)",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (1, 5) maps to (-5, 1).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"4. Find the image of P(-3, 5) when rotated through 360^\circ about the origin. (BECE 2021 Q6)",
+        options: [
+          r"(5, -3)",
+          r"(-3, -5)",
+          r"(-3, 5)",
+          r"(-5, -3)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"A 360^\circ rotation returns a point to its original position, so the image is (-3, 5).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. The point K(3, 4) is rotated through 180^\circ about the origin. Find its image. (BECE 2002B Q16)",
+        options: [
+          r"(-3, 4)",
+          r"(-4, 3)",
+          r"(-3, -4)",
+          r"(3, -4)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"A 180^\circ rotation maps (x, y) to (-x, -y). Thus, (3, 4) maps to (-3, -4).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"6. The point Q(-2, 3) is rotated anticlockwise about the origin through an angle of 90^\circ. Find the coordinates of its image. (BECE 2017 Q28)",
+        options: [
+          r"(-3, -2)",
+          r"(-3, 2)",
+          r"(3, -2)",
+          r"(3, 2)",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (-2, 3) maps to (-3, -2).",
+      ),
+    ],
+  ),
+
+  "Math JHS2 s4 ss1 - Data": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. What is the modal mark? (BECE 1991 Q15)",
+        options: [
+          "3",
+          "7",
+          "8",
+          "9",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "The mode is the value that occurs most often. The mark 9 occurs three times.",
+      ),
+      QuizQuestion(
+        question:
+        "2. Calculate the mean mark of the marks obtained by 10 children in a mental drill: 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. (BECE 1991 Q17)",
+        options: [
+          "–54",
+          "5.4",
+          "10",
+          "54",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The total is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
+      ),
+      QuizQuestion(
+        question:
+        "3. The mean of the numbers 4, 3, 3 and x is 5. Find x. (BECE 1994 Q39)",
+        options: [
+          "20",
+          "10",
+          "5",
+          "4",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "Their total must be 5 × 4 = 20. Therefore, x = 20 - 4 - 3 - 3 = 10.",
+      ),
+      QuizQuestion(
+        question:
+        "4. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median score. (BECE 1997 Q26)",
+        options: [
+          "3",
+          "5",
+          "6",
+          "7",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The middle scores are 5 and 7. Therefore, the median is (5 + 7) ÷ 2 = 6.",
+      ),
+      QuizQuestion(
+        question:
+        "5. What is the probability that a boy chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3? (BECE 1997 Q28)",
+        options: [
+          r"\frac{1}{27}",
+          r"\frac{1}{18}",
+          r"\frac{1}{5}",
+          r"\frac{1}{10}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The mark 3 occurs twice out of 10 scores, so the probability is \frac{2}{10} = \frac{1}{5}.",
+      ),
+      QuizQuestion(
+        question:
+        "6. Find the median of the following numbers: 1, -1, -5, 3 and -4. (BECE 1999 Q23)",
+        options: [
+          "-1",
+          "-4",
+          "-5",
+          "1",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "In ascending order, the numbers are -5, -4, -1, 1, 3. The middle number is -1.",
+      ),
+      QuizQuestion(
+        question:
+        "7. What is the mode of the scores obtained by 13 candidates in a test: 5, 7, 2, 9, 11, 10, 2, 12, 2, 9, 3, 18 and 2? (BECE 2007 Q6)",
+        options: [
+          "2",
+          "5",
+          "9",
+          "18",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "The score 2 occurs four times, more than any other score.",
+      ),
+      QuizQuestion(
+        question:
+        "8. Find the median mark for the marks scored by 8 pupils in a Science test: 3, 7, 8, 6, 4, 8, 4, 6. (BECE 2004 Q37)",
+        options: [
+          "5",
+          "6",
+          "7",
+          "8",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "In order, the marks are 3, 4, 4, 6, 6, 7, 8, 8. The median is (6 + 6) ÷ 2 = 6.",
+      ),
+      QuizQuestion(
+        question:
+        "9. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median mark. (BECE 1991 Q16)",
+        options: [
+          "3",
+          "5",
+          "6",
+          "7",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The middle scores are 5 and 7. Their average is (5 + 7) ÷ 2 = 6.",
+      ),
+      QuizQuestion(
+        question:
+        "10. What is the probability that a child chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3 marks? (BECE 1991 Q18)",
+        options: [
+          r"\frac{2}{54}",
+          r"\frac{3}{54}",
+          r"\frac{2}{10}",
+          r"\frac{3}{10}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Two of the 10 children scored 3, so the probability is \frac{2}{10}.",
+      ),
+      QuizQuestion(
+        question:
+        "11. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the mean age? (BECE 1996 Q13)",
+        options: [
+          "3.0",
+          "3.5",
+          "4.0",
+          "4.5",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The total age is 36 years. Therefore, the mean is 36 ÷ 9 = 4 years.",
+      ),
+      QuizQuestion(
+        question:
+        "12. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the median age? (BECE 1996 Q13)",
+        options: [
+          "2.0",
+          "3.0",
+          "3.5",
+          "4.0",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "There are nine ordered ages, so the median is the fifth value, which is 4.",
+      ),
+      QuizQuestion(
+        question:
+        "13. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. If a child is picked at random, what is the probability that the child is 5 years old? (BECE 1996 Q15)",
+        options: [
+          r"\frac{2}{9}",
+          r"\frac{1}{3}",
+          r"\frac{4}{9}",
+          r"\frac{5}{9}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Three of the nine children are 5 years old, so the probability is \frac{3}{9} = \frac{1}{3}.",
+      ),
+      QuizQuestion(
+        question:
+        "14. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Calculate the mean score. (BECE 1997 Q27)",
+        options: [
+          "4.4",
+          "5.4",
+          "6",
+          "6.4",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The total score is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
+      ),
+      QuizQuestion(
+        question:
+        "15. Find the median of the following numbers: 17, 12, 15, 16, 8, 18, 13 and 14. (BECE 2015 Q17)",
+        options: [
+          "8",
+          "12",
+          "14.5",
+          "15.5",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "In order, the numbers are 8, 12, 13, 14, 15, 16, 17, 18. The median is (14 + 15) ÷ 2 = 14.5.",
+      ),
+      QuizQuestion(
+        question:
+        "16. Find the median of the following numbers: 4, 16, 13, 18, 3, 20, 6, 7, 15, 2, 10, 12. (BECE 2020 Q15)",
+        options: [
+          "7",
+          "10",
+          "11",
+          "12",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        "The middle values in ascending order are 10 and 12. Therefore, the median is (10 + 12) ÷ 2 = 11.",
+      ),
+      QuizQuestion(
+        question:
+        "17. If the average of 5, 6, 7 and x is 8, find the value of x. (BECE 2021 Q22)",
+        options: [
+          "12",
+          "14",
+          "16",
+          "24",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The total must be 8 × 4 = 32. Therefore, x = 32 - 5 - 6 - 7 = 14.",
       ),
     ],
   ),

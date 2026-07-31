@@ -2595,6 +2595,666 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
+  "Math JHS2 s3 ss2 - Vectors and Measurement": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: "
+        r"If r = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and q = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, calculate 6(r + 2q).""\n(BECE 1993 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Substitute variables): Insert the column vectors into the algebraic layout context:\n"
+        r"6(r + 2q) = 6 [ \begin{pmatrix} 3 \\ 1 \end{pmatrix} + 2 \begin{pmatrix} -2 \\ 1 \end{pmatrix}]"
+        "\n\n"
+            "⦿ Point 2 (Scalar product multiplication): Multiply the scalar multiplier 2 evenly across vector q's elements:\n"
+        r"2 \begin{pmatrix} -2 \\ 1 \end{pmatrix} = \begin{pmatrix} 2 \times (-2) \\ 2 \times 1 \end{pmatrix} = \begin{pmatrix} -4 \\ 2 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Vector column summation): Combine corresponding top and bottom elements inside the bracket space:\n"
+        r"\begin{pmatrix} 3 \\ 1 \end{pmatrix} + \begin{pmatrix} -4 \\ 2 \end{pmatrix} = \begin{pmatrix} 3 + (-4) \\ 1 + 2 \end{pmatrix} = \begin{pmatrix} -1 \\ 3 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 4 (Final scalar distribution): Multiply the outer factor 6 by each part to calculate the final product matrix:\n"
+        r"6 \begin{pmatrix} -1 \\ 3 \end{pmatrix} = \begin{pmatrix} 6 \times (-1) \\ 6 \times 3 \end{pmatrix} = \begin{pmatrix} -6 \\ 18 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: "
+        r"Given that u = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and v = \begin{pmatrix} 2 \\ 6 \end{pmatrix}, find \frac{1}{3}(u + \frac{1}{2}v).""\n(BECE 1994 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Vector expression setup): Structure the expression inside nested mathematical parameters:\n"
+        r"\frac{1}{3} ( u + \frac{1}{2}v ) = \frac{1}{3} [ \begin{pmatrix} -2 \\ 3 \end{pmatrix} + \frac{1}{2} \begin{pmatrix} 2 \\ 6 \end{pmatrix}]"
+        "\n\n"
+            "⦿ Point 2 (Evaluate inner vector fraction): Scale vector v by 1/2, effectively halving each value:\n"
+        r"\frac{1}{2} \begin{pmatrix} 2 \\ 6 \end{pmatrix} = \begin{pmatrix} \frac{1}{2} \times 2 \\  \frac{1}{2} \times 6 \end{pmatrix} = \begin{pmatrix} 1 \\ 3 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Row index entry calculation): Sum the interior vectors row-by-row:\n"
+        r"\begin{pmatrix} -2 \\ 3 \end{pmatrix} + \begin{pmatrix} 1 \\ 3 \end{pmatrix} = \begin{pmatrix} -2 + 1 \\ 3 + 3 \end{pmatrix} = \begin{pmatrix} -1 \\ 6 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 4 (Distribute remaining factor fractions): Multiply the outer scalar parameter across elements to get the final answer:\n"
+        r"\frac{1}{3} \begin{pmatrix} -1 \\ 6 \end{pmatrix} = \begin{pmatrix} \frac{1}{3} \times (-1) \\ \frac{1}{3} \times 6 \end{pmatrix} = \begin{pmatrix} -\frac{1}{3} \\ 2 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 3: "
+        r"If x = \begin{pmatrix} -3 \\ 2 \end{pmatrix} and y = \begin{pmatrix} 4 \\ -1 \end{pmatrix}, find:"
+        "\n(a) x + 2y"
+            "\n(b) 3x - y""\n(BECE 1997 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "(a) Step-by-step solution for x + 2y:\n\n"
+            "⦿ Point 1: Substitute vector values and calculate the scaled matrix for y:\n"
+        r"x + 2y = \begin{pmatrix} -3 \\ 2 \end{pmatrix} + 2 \begin{pmatrix} 4 \\ -1 \end{pmatrix} = \begin{pmatrix} -3 \\ 2 \end{pmatrix} + \begin{pmatrix} 8 \\ -2 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2: Collect matching entries from the horizontal planes to finish:\n"
+        r"\begin{pmatrix} -3 + 8 \\ 2 + (-2) \end{pmatrix} = \begin{pmatrix} 5 \\ 0 \end{pmatrix}"
+        "\n\n"
+            "(b) Step-by-step solution for 3x - y:\n\n"
+            "⦿ Point 1: Multiply vector x directly by the scalar index value 3:\n"
+        r"3x = 3 \begin{pmatrix} -3 \\ 2 \end{pmatrix} = \begin{pmatrix} -9 \\ 6 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2: Subtract vector y carefully, keeping an eye on negative signs:\n"
+        r"3x - y = \begin{pmatrix} -9 \\ 6 \end{pmatrix} - \begin{pmatrix} 4 \\ -1 \end{pmatrix} = \begin{pmatrix} -9 - 4 \\ 6 - (-1) \end{pmatrix} = \begin{pmatrix} -13 \\ 7 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: "
+            "It costs ₵875,000.00 to tile a rectangular floor measuring 7 m by 5 m. How much does it cost to tile a floor measuring 8 m by 4 m if the same type of tiles is used?"
+            "\n(BECE 2002A Q4b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Initial floor surface size): Determine the surface area using the standard formula (Area = length × breadth):\n"
+        r"\text{Area}_{1} = 7 m \times 5 m = 35 m^2"
+        "\n\n"
+            "⦿ Point 2 (Target floor surface size): Calculate the area of the second floor layout:\n"
+        r"\text{Area}_{2} = 8 m \times 4 m = 32 m^2"
+        "\n\n"
+            "⦿ Point 3 (Proportional cost projection): Use a direct linear ratio calculation since cost is proportional to surface size:\n"
+        r"\text{Cost} = \frac{32 m^2}{35 m^2} \times \text{₵}875,000.00"
+        "\n\n"
+        r"\text{Cost} = 32 \times \text{₵}25,000.00 = \text{₵}800,000.00"
+        "\n\n"
+            "⦿ Point 4 (Final summary verification): The calculated final cost for the new dimensions totals exactly ₵800,000.00.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5: "
+        r"If p = \begin{pmatrix} 4 \\ 5 \end{pmatrix}, q = \begin{pmatrix} 0 \\ -2 \end{pmatrix} and r = \begin{pmatrix} -3 \\ 7 \end{pmatrix}, find p + 2q + r.""\n(BECE 2003 Q4a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Linear combination expression structure): Align vector terms systematically:\n"
+        r"\text{Expression} = \begin{pmatrix} 4 \\ 5 \end{pmatrix} + 2 \begin{pmatrix} 0 \\ -2 \end{pmatrix} + \begin{pmatrix} -3 \\ 7 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Process middle scalar product values): Evaluate scalar factors before combining vectors:\n"
+        r"2 \begin{pmatrix} 0 \\ -2 \end{pmatrix} = \begin{pmatrix} 0 \\ -4 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Simultaneous vector row calculation): Merge rows together down columns to find the final matrix answer:\n"
+        r"\text{Result} = \begin{pmatrix} 4 + 0 + (-3) \\ 5 + (-4) + 7 \end{pmatrix} = \begin{pmatrix} 1 \\ 8 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 6: "
+        r"Given that u = \begin{pmatrix} -5 \\ 9 \end{pmatrix} and v = \begin{pmatrix} 8 \\ -12 \end{pmatrix}, find 3(u + \frac{1}{3}v).""\n(BECE 2004 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Vector bracket parameters map): Group elements within the expression layout:\n"
+        r"3(u + \frac{1}{3}v) = 3 [ \begin{pmatrix} -5 \\ 9 \end{pmatrix} + \frac{1}{3} \begin{pmatrix} 8 \\ -12 \end{pmatrix} ]"
+        "\n\n"
+            "⦿ Point 2 (Algebraic fraction expansion simplification): Expand brackets first to remove fractional values and simplify your work:\n"
+        r"3u + 3(\frac{1}{3}v) = 3u + v"
+        "\n\n"
+            "⦿ Point 3 (Compute first expanded term): Multiply vector u components by the integer scalar 3:\n"
+        r"3 \begin{pmatrix} -5 \\ 9 \end{pmatrix} = \begin{pmatrix} -15 \\ 27 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 4 (Add remaining parameters straight down rows): Combine your results row by row to reach the final values:\n"
+        r"\begin{pmatrix} -15 \\ 27 \end{pmatrix} + \begin{pmatrix} 8 \\ -12 \end{pmatrix} = \begin{pmatrix} -15 + 8 \\ 27 + (-12) \end{pmatrix} = \begin{pmatrix} -7 \\ 15 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 7: "
+        r"A circle has a circumference of 44 cm. Calculate its radius if \pi = \frac{22}{7}.""\n(BECE 2005 Q1b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Recall standard circular properties definition): State the circumference formula equation:\n"
+        r"\text{Circumference } (C) = 2\pi r"
+        "\n\n"
+            "⦿ Point 2 (Substitute known data parameters fields): Insert given values into the equation:\n"
+        r"44 = 2 \times \frac{22}{7} \times r"
+        "\n\n"
+            "⦿ Point 3 (Consolidate constant fractions values fields): Group numerical products to clean up the layout:\n"
+        r"44 = \frac{44}{7} \times r"
+        "\n\n"
+            "⦿ Point 4 (Isolate variables parameter via transposition): Solve for r to find the final dimension value:\n"
+        r"r = \frac{44 \times 7}{44} = 7 cm"
+        "\n\n"
+            "⦿ Point 5 (Final answer statement evaluation): The calculated circle radius value measures exactly 7 cm.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 8: "
+        r"Given the vector r = \begin{pmatrix} 3 \\ -5 \end{pmatrix}, p = \begin{pmatrix} -7 \\ -9 \end{pmatrix} and q = 2p - r, find q.""\n(BECE 2007 Q5c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Formula substitution processing): Align vector matrix entries inside the structure:\n"
+        r"q = 2 \begin{pmatrix} -7 \\ -9 \end{pmatrix} - \begin{pmatrix} 3 \\ -5 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Scalar factors computation update): Multiply vector elements by the scalar 2:\n"
+        r"2 \begin{pmatrix} -7 \\ -9 \end{pmatrix} = \begin{pmatrix} -14 \\ -18 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Vector subtraction calculation processing): Complete calculations down matching rows:\n"
+        r"q = \begin{pmatrix} -14 - 3 \\ -18 - (-5) \end{pmatrix} = \begin{pmatrix} -14 - 3 \\ -18 + 5 \end{pmatrix} = \begin{pmatrix} -17 \\ -13 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 9: "
+        r"The vectors p = \begin{pmatrix} 2 \\ 3 \end{pmatrix}, q = \begin{pmatrix} 2 \\ 5 \end{pmatrix} and r = \frac{1}{2}(q + p). Find the vector r.""\n(BECE 2008 Q4d)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Internal row sum calculations tracking): Add the core vector components first inside the bracket space:\n"
+        r"q + p = \begin{pmatrix} 2 \\ 5 \end{pmatrix} + \begin{pmatrix} 2 \\ 3 \end{pmatrix} = \begin{pmatrix} 2 + 2 \\ 5 + 3 \end{pmatrix} = \begin{pmatrix} 4 \\ 8 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Apply scaling fractions multipliers maps): Multiply each element by 1/2 to get the final answer:\n"
+        r"r = \frac{1}{2} \begin{pmatrix} 4 \\ 8 \end{pmatrix} = \begin{pmatrix} \frac{1}{2} \times 4 \\ \frac{1}{2} \times 8 \end{pmatrix} = \begin{pmatrix} 2 \\ 4 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 10: "
+        r"Given that a = \begin{pmatrix} -3 \\ 2 \end{pmatrix}, b = \begin{pmatrix} -5 \\ -7 \end{pmatrix} and c = \begin{pmatrix} -4 \\ -1 \end{pmatrix}, evaluate 2a - 3c + b.""\n(BECE 2009 Q3b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Unified data substitution structural arrangement): Arrange vector elements clearly in line:\n"
+        r"\text{Expression} = 2 \begin{pmatrix} -3 \\ 2 \end{pmatrix} - 3 \begin{pmatrix} -4 \\ -1 \end{pmatrix} + \begin{pmatrix} -5 \\ -7 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Compute vector transformations fields properties): Scale each vector by its respective factor:\n"
+        r"2a = \begin{pmatrix} -6 \\ 4 \end{pmatrix}, \quad 3c = \begin{pmatrix} -12 \\ -3 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Row arithmetic line-by-line processing execution): Calculate across the horizontal rows to get the final result vector:\n"
+        r"\text{Result} = \begin{pmatrix} -6 - (-12) + (-5) \\ 4 - (-3) + (-7) \end{pmatrix} = \begin{pmatrix} -6 + 12 - 5 \\ 4 + 3 - 7 \end{pmatrix} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 11: "
+            "Find the values of x and y in the vector equation:\n"
+        r"\begin{pmatrix} 5 \\ 3 \end{pmatrix} + 2 \begin{pmatrix} x \\ y \end{pmatrix} - \begin{pmatrix} 1 \\ -7 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}""\n (BECE 2010 Q1c)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Process variable scalar entry transformations fields): Multiply the scalar into the vector containing x and y:\n"
+        r"\begin{pmatrix} 5 \\ 3 \end{pmatrix} + \begin{pmatrix} 2x \\ 2y \end{pmatrix} - \begin{pmatrix} 1 \\ -7 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Merge array entries components down unified lines): Combine the vectors into a single matrix equation layout:\n"
+        r"\begin{pmatrix} 5 + 2x - 1 \\ 3 + 2y - (-7) \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix} \implies \begin{pmatrix} 4 + 2x \\ 10 + 2y \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Isolate algebraic rows equations for parameter x): Break out the top row into a linear equation to find x:\n"
+        r"4 + 2x = 0 \implies 2x = -4 \implies x = -2"
+        "\n\n"
+            "⦿ Point 4 (Isolate algebraic rows equations for parameter y): Break out the bottom row into a linear equation to find y:\n"
+        r"10 + 2y = 0 \implies 2y = -10 \implies y = -5"
+        "\n\n"
+            "⦿ Point 5 (Summary answer verification definitions statement): The calculated final parameters are x = -2 and y = -5.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 12: "
+        r"Given that a = \begin{pmatrix} -3 \\ 3 \end{pmatrix} and b = \begin{pmatrix} 4 \\ -6 \end{pmatrix}, calculate:"
+        "\n(a) a + 2b"
+            "\n"
+        r"(b) \frac{1}{2}(2a - b)""\n (BECE 2011 Q5a)",
+        answer:
+        "Correct Answer:\n"
+            "(a) Step-by-step solution for a + 2b:\n\n"
+            "⦿ Point 1: Set up vector elements and compute the scaled vector 2b:\n"
+        r"a + 2b = \begin{pmatrix} -3 \\ 3 \end{pmatrix} + 2 \begin{pmatrix} 4 \\ -6 \end{pmatrix} = \begin{pmatrix} -3 \\ 3 \end{pmatrix} + \begin{pmatrix} 8 \\ -12 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2: Add corresponding horizontal elements together:\n"
+        r"\begin{pmatrix} -3 + 8 \\ 3 + (-12) \end{pmatrix} = \begin{pmatrix} 5 \\ -9 \end{pmatrix}"
+        "\n\n"
+        r"(b) Step-by-step solution for \frac{1}{2}(2a - b):"
+        "\n\n"
+            "⦿ Point 1: Scale vector a components by the integer multiplier value 2:\n"
+        r"2a = 2 \begin{pmatrix} -3 \\ 3 \end{pmatrix} = \begin{pmatrix} -6 \\ 6 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2: Subtract vector b from your calculated vector 2a:\n"
+        r"2a - b = \begin{pmatrix} -6 \\ 6 \end{pmatrix} - \begin{pmatrix} 4 \\ -6 \end{pmatrix} = \begin{pmatrix} -6 - 4 \\ 6 - (-6) \end{pmatrix} = \begin{pmatrix} -10 \\ 12 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3: Apply the final fraction scaling factor across each element:\n"
+        r"\frac{1}{2} \begin{pmatrix} -10 \\ 12 \end{pmatrix} = \begin{pmatrix} -5 \\ 6 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 13: "
+            "Given that the circumference of a circle is 44 cm, find:\n"
+            "(a) the radius of the circle,\n"
+            "(b) the area of the circle.\n"
+        r"[Take \pi = \frac{22}{7}]""\n (BECE 2013 Q3b)",
+        answer:
+        "Correct Answer:\n"
+            "(a) Procedure to isolate radius of circle:\n\n"
+            "⦿ Point 1: Set up the standard geometric perimeter relation formula:\n"
+        r"C = 2\pi r \implies 44 = 2 \times \frac{22}{7} \times r"
+        "\n\n"
+            "⦿ Point 2: Group constants and solve for variable r via division transposition:\n"
+        r"44 = \frac{44}{7}r \implies r = \frac{44 \times 7}{44} = 7 cm"
+        "\n\n"
+            "(b) Procedure to find absolute surface area of circle:\n\n"
+            "⦿ Point 1: Plug your radius into the standard circular surface definition formula:\n"
+        r"\text{Area} = \pi r^2 = \frac{22}{7} \times 7 \times 7 = 22 \times 7 = 154 cm^2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 14: "
+        r"Given that m = \begin{pmatrix} 3 \\ -1 \end{pmatrix}, n = \begin{pmatrix} -1 \\ 2 \end{pmatrix} and r = \begin{pmatrix} 18 \\ -6 \end{pmatrix}, find m + n + r.""\n(BECE 2013 Q5d)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Set up column matrix additions layout): Place vector items sequentially in space:\n"
+        r"\text{Result vector} = \begin{pmatrix} 3 \\ -1 \end{pmatrix} + \begin{pmatrix} -1 \\ 2 \end{pmatrix} + \begin{pmatrix} 18 \\ -6 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Add values down vertical axis components): Sum up components on matching horizontal lines to finish:\n"
+        r"\text{Result vector} = \begin{pmatrix} 3 + (-1) + 18 \\ -1 + 2 + (-6) \end{pmatrix} = \begin{pmatrix} 20 \\ -5 \end{pmatrix}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 15: "
+        r"Given that vectors p = \begin{pmatrix} 2 \\ 2 \end{pmatrix} and q = \begin{pmatrix} x \\ y \end{pmatrix}, find:"
+        "\n"
+        r"(a) q if q - p = \begin{pmatrix} 12 \\ 9 \end{pmatrix}"
+        "\n(b) the magnitude of the vector q - p.""\n(BECE 2015A Q3a)",
+        answer:
+        "Correct Answer:\n"
+            "(a) Isolate missing vector components properties fields for q:\n\n"
+            "⦿ Point 1: Arrange the equation to solve for the missing vector parts:\n"
+        r"q - \begin{pmatrix} 2 \\ 2 \end{pmatrix} = \begin{pmatrix} 12 \\ 9 \end{pmatrix} \implies q = \begin{pmatrix} 12 \\ 9 \end{pmatrix} + \begin{pmatrix} 2 \\ 2 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2: Add corresponding horizontal entries to find vector q:\n"
+        r"q = \begin{pmatrix} 12 + 2 \\ 9 + 2 \end{pmatrix} = \begin{pmatrix} 14 \\ 11 \end{pmatrix}"
+        "\n\n"
+            "(b) Calculate absolute geometric tracking distance magnitude:\n\n"
+            "⦿ Point 1: Apply the Pythagorean vector magnitude formula across the final vector components:\n"
+        r"|q - p| = \sqrt{12^2 + 9^2} = \sqrt{144 + 81}"
+        "\n\n"
+            "⦿ Point 2: Simplify the calculation to find the final absolute length:\n"
+        r"|q - p| = \sqrt{225} = 15 units",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 16: "
+        r"If a = \begin{pmatrix} 4 \\ -5 \end{pmatrix} and b = \begin{pmatrix} 2x \\ 3 + y \end{pmatrix} are equal vectors, find the values of x and y.""\n(BECE 2016 Q1d)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Equivalent structural matrices logic parameters setup): Set the vector matrices equal to one another:\n"
+        r"\begin{pmatrix} 4 \\ -5 \end{pmatrix} = \begin{pmatrix} 2x \\ 3 + y \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Match upper row coordinates values entries): Extract the top row to solve for variable x:\n"
+        r"4 = 2x \implies x = \frac{4}{2} \implies x = 2"
+        "\n\n"
+            "⦿ Point 3 (Match lower row coordinates values entries): Extract the bottom row to solve for variable y:\n"
+        r"-5 = 3 + y \implies y = -5 - 3 \implies y = -8"
+        "\n\n"
+            "⦿ Point 4 (Unified summary findings statement verification): The calculated final parameters are x = 2 and y = -8.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 17: "
+        r"If m = \begin{pmatrix} 2x + 1 \\ 2 - 3y \end{pmatrix}, n = \begin{pmatrix} 6 \\ -8 \end{pmatrix} and m + n = \begin{pmatrix} 9 \\ -12 \end{pmatrix}, find:"
+        "\n(a) the values of x and y,"
+            "\n(b) components of m."
+            "\n(BECE 2017 Q6a)",
+        answer:
+        "Correct Answer:\n"
+            "(a) Find variable roots values maps parameters for x and y:\n\n"
+            "⦿ Point 1: Set up the system by combining vectors row-by-row:\n"
+        r"\begin{pmatrix} 2x + 1 \\ 2 - 3y \end{pmatrix} + \begin{pmatrix} 6 \\ -8 \end{pmatrix} = \begin{pmatrix} 9 \\ -12 \end{pmatrix} \implies \begin{pmatrix} 2x + 1 + 6 \\ 2 - 3y - 8 \end{pmatrix} = \begin{pmatrix} 9 \\ -12 \end{pmatrix}"
+        "\n"
+        r"\begin{pmatrix} 2x + 7 \\ -3y - 6 \end{pmatrix} = \begin{pmatrix} 9 \\ -12 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2: Solve for x using the top horizontal row relation equation:\n"
+        r"2x + 7 = 9 \implies 2x = 2 \implies x = 1"
+        "\n\n"
+            "⦿ Point 3: Solve for y using the bottom horizontal row relation equation:\n"
+        r"-3y - 6 = -12 \implies -3y = -6 \implies y = 2"
+        "\n\n"
+            "(b) Reconstruct component indices values layout criteria for vector m:\n\n"
+            "⦿ Point 1: Substitute your computed variable values back into vector m's formula:\n"
+        r"m = \begin{pmatrix} 2(1) + 1 \\ 2 - 3(2) \end{pmatrix} = \begin{pmatrix} 2 + 1 \\ 2 - 6 \end{pmatrix} = \begin{pmatrix} 3 \\ -4 \end{pmatrix}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 18 \n"
+        r"Given that t = \begin{pmatrix} -1 \\ 3 \end{pmatrix} and k = \begin{pmatrix} 2 \\ -4 \end{pmatrix}, find 2t + k.""\n(BECE 2018 Q1b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Data variables substitution setup mapping): Place component matrices directly into the expression structure:\n"
+        r"\text{Expression} = 2 \begin{pmatrix} -1 \\ 3 \end{pmatrix} + \begin{pmatrix} 2 \\ -4 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Execute vector scale transformation step): Scale vector t by multiplying each component by 2:\n"
+        r"2 \begin{pmatrix} -1 \\ 3 \end{pmatrix} = \begin{pmatrix} -2 \\ 6 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Row additions execution to finalize vector output): Add corresponding row values together to reach the final matrix:\n"
+        r"\text{Output vector} = \begin{pmatrix} -2 + 2 \\ 6 + (-4) \end{pmatrix} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 19: "
+        r"If r = \begin{pmatrix} -4 \\ -5 \end{pmatrix} and m = \begin{pmatrix} -1 \\ -2 \end{pmatrix}, find p given that p = r - m.""\n (BECE 2021 Q3a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Set up component alignment structure tracking maps): Place values into the vector subtraction layout:\n"
+        r"p = \begin{pmatrix} -4 \\ -5 \end{pmatrix} - \begin{pmatrix} -1 \\ -2 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Distribute subtraction signs across row parameters): Subtract elements row-by-row, taking care with negative values:\n"
+        r"p = \begin{pmatrix} -4 - (-1) \\ -5 - (-2) \end{pmatrix} = \begin{pmatrix} -4 + 1 \\ -5 + 2 \end{pmatrix} = \begin{pmatrix} -3 \\ -3 \end{pmatrix}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 20: "
+        r"Given that p = \begin{pmatrix} 2 - 3x \\ 5 - 2y \end{pmatrix}, q = \begin{pmatrix} -1 \\ 5 \end{pmatrix} and p - q = \begin{pmatrix} 6 \\ 8 \end{pmatrix}, find the value of (x + y).""\n (BECE 2022 Q5b)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Set up structural row matrix equation rules properties): Combine the vectors into a single system layout:\n"
+        r"\begin{pmatrix} 2 - 3x \\ 5 - 2y \end{pmatrix} - \begin{pmatrix} -1 \\ 5 \end{pmatrix} = \begin{pmatrix} 6 \\ 8 \end{pmatrix} \implies \begin{pmatrix} 2 - 3x - (-1) \\ 5 - 2y - 5 \end{pmatrix} = \begin{pmatrix} 6 \\ 8 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Simplify individual row terms layouts parameters map): Combine constant numbers within rows:\n"
+        r"\begin{pmatrix} 3 - 3x \\ -2y \end{pmatrix} = \begin{pmatrix} 6 \\ 8 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Solve top row system parameter for variable x): Isolate x using the upper row equation:\n"
+        r"3 - 3x = 6 \implies -3x = 3 \implies x = -1"
+        "\n\n"
+            "⦿ Point 4 (Solve bottom row system parameter for variable y): Isolate y using the lower row equation:\n"
+        r"-2y = 8 \implies y = -4"
+        "\n\n"
+            "⦿ Point 5 (Compute compound summation target question criteria requests): Add the two values together to find the final requested answer:\n"
+        r"x + y = -1 + (-4) = -5"
+        "\n\n"
+            "⦿ Point 6 (Final answers verification summary tracking statement): The calculated total compound value equals exactly -5.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 21: "
+        r"Given that a = \begin{pmatrix} 2 \\ 3 \end{pmatrix}, b = \begin{pmatrix} x \\ -3 \end{pmatrix} and c = \begin{pmatrix} 7 \\ 3 \end{pmatrix}, find the value of x if 2a + b = c.""\n(BECE 2025A Q3a)",
+        answer:
+        "Correct Answer:\n"
+            "⦿ Point 1 (Formulate unified equation statement model configuration): Set up the vectors according to the formula:\n"
+        r"2 \begin{pmatrix} 2 \\ 3 \end{pmatrix} + \begin{pmatrix} x \\ -3 \end{pmatrix} = \begin{pmatrix} 7 \\ 3 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 2 (Process initial scale indices components transformations): Multiply the scalar 2 through the first vector and set up row additions:\n"
+        r"\begin{pmatrix} 4 \\ 6 \end{pmatrix} + \begin{pmatrix} x \\ -3 \end{pmatrix} = \begin{pmatrix} 7 \\ 3 \end{pmatrix} \implies \begin{pmatrix} 4 + x \\ 6 + (-3) \end{pmatrix} = \begin{pmatrix} 7 \\ 3 \end{pmatrix}"
+        "\n\n"
+            "⦿ Point 3 (Extract upper linear system row equation parameter to solve): Use the top row equation to find x:\n"
+        r"4 + x = 7 \implies x = 7 - 4 = 3"
+        "\n\n"
+            "⦿ Point 4 (Terminal answer verification declaration metric): The final value for variable parameter x equals exactly 3.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS2 s4 ss1 - Vectors and Measurement": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1 (BECE 1991 Q4)\n"
+            "The heights in centimetres of 10 school children are as follows:\n"
+            "165, 165, 155, 159, 174, 154, 169, 155, 155, 150\n"
+            "(a) Make a frequency table for the data.\n"
+            "(b) Use your table to find the mode and the median of the distribution.",
+        answer:
+        "Correct Answer:\n"
+            "(a) Frequency Table:\n\n"
+            "Height (cm) | Tally | Frequency (f)\n"
+            "150 | / | 1\n"
+            "154 | / | 1\n"
+            "155 | /// | 3\n"
+            "159 | / | 1\n"
+            "165 | // | 2\n"
+            "169 | / | 1\n"
+            "174 | / | 1\n"
+            "Total |  | 10\n\n"
+            "(b) Finding the Mode and Median:\n\n"
+            "⦿ i) Mode:\n"
+            "The mode is 155 cm, since it is the height with the highest frequency.\n\n"
+            "⦿ ii) Median:\n"
+            "To find the median, first find the total frequency:\n"
+        r"\sum f = 10"
+        "\n\n"
+        r"Half of 10 is equal to 5. Therefore, the median of the distribution is the average of the 5^{\text{th}} and 6^{\text{th}} heights."
+        "\n\n"
+        r"Adding frequencies from the top row downward shows the 5^{\text{th}} position is 155 cm and the 6^{\text{th}} position is 159 cm."
+        "\n\n"
+        r"\text{Median} = \frac{155 + 159}{2} = \frac{314}{2} = 157\text{ cm}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 2 (BECE 2002B Q5)\n"
+            "The following are the marks obtained by pupils in a test:\n"
+            "2, 3, 5, 2, 3, 4, 2, 3, 5, 3, 5, 3, 2, 4, 5, 2, 4, 3, 1, 1, 3, 4, 2, 3, 4, 5, 3, 4, 3, 2\n"
+            "(a) Copy and complete the frequency table.\n"
+            "(b) Find the mean of the distribution.\n"
+            "(c) If a pupil is selected at random from the form, what is the probability that he/she scored 4 marks?",
+        answer:
+        "Correct Answer:\n"
+            "(a) Completed Table:\n\n"
+            "Score (x) | Tally | Frequency (f) | fx\n"
+            "1 | /// | 3 | 3\n"
+            "2 | ///// // | 7 | 14\n"
+            "3 | ///// ///// | 10 | 30\n"
+            "4 | ///// // | 7 | 28\n"
+            "5 | /// | 3 | 15\n"
+        r"Total |  | \sum f = 30 | \sum fx = 90"
+        "\n\n"
+            "⦿ (b) Mean:\n"
+        r"\text{Mean, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{90}{30} = 3"
+        "\n\n"
+            "⦿ (c) Probability of scoring 4 marks:\n"
+        r"\text{Probability} = \frac{\text{Number of pupils who scored 4 marks}}{\text{Total number of pupils}} = \frac{7}{30}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 3 (BECE 2005 Q6)\n"
+            "The following marks were obtained by pupils in a test.\n"
+            "6, 4, 8, 2, 8, 6, 8, 8, 8, 10, 8, 9, 8, 6, 10, 2, 2, 6, 6, 6\n"
+            "(a) Construct a frequency distribution table for the data.\n"
+            "(b) What is the modal mark?\n"
+            "(c) Calculate the mean mark.\n"
+            "(d) How many pupils scored more than 6 marks?\n"
+            "(e) What is the probability that a student chosen at random obtained 2 marks?",
+        answer:
+        "Correct Answer:\n"
+            "(a) Frequency Distribution Table:\n\n"
+            "Marks (x) | Tally | Frequency (f) | fx\n"
+            "2 | /// | 3 | 6\n"
+            "4 | / | 1 | 4\n"
+            "6 | ///// / | 6 | 36\n"
+            "8 | ///// // | 7 | 56\n"
+            "9 | / | 1 | 9\n"
+            "10 | // | 2 | 20\n"
+        r"Total |  | \sum f = 20 | \sum fx = 131"
+        "\n\n"
+            "⦿ (b) Modal mark:\n"
+            "The modal mark is 8 since the mark 8 has the highest frequency.\n\n"
+            "⦿ (c) Mean mark:\n"
+        r"\text{Mean, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{131}{20} = 6.55"
+        "\n\n"
+            "⦿ (d) Pupils who scored more than 6 marks:\n"
+            "Those who scored more than 6 marks scored either 8, 9, or 10.\n"
+        r"\text{Number of pupils} = 7 + 1 + 2 = 10\text{ pupils}"
+        "\n\n"
+            "⦿ (e) Probability that a student obtained 2 marks:\n"
+        r"\text{Probability} = \frac{\text{Number of students who obtained 2 marks}}{\text{Total number of students}} = \frac{3}{20}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 4 (BECE 2009 Q2)\n"
+            "The table below shows the scores of some students in an examination.\n\n"
+            "Scores | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10\n"
+            "Frequency | 3 | 5 | 3 | 2 | 7 | 6 | 5 | 4 | 2 | 2 | 1\n\n"
+            "From the table, find:\n"
+            "(a) how many students wrote the examination;\n"
+            "(b) the modal score;\n"
+            "(c) the number of students that scored 7 or more;\n"
+            "(d) the mean score correct to one decimal place.",
+        answer:
+        "Correct Answer:\n"
+            "⦿ (a) Number of students who wrote the examination:\n"
+        r"\text{Total} = 3 + 5 + 3 + 2 + 7 + 6 + 5 + 4 + 2 + 2 + 1 = 40\text{ students}"
+        "\n\n"
+            "⦿ (b) Modal score:\n"
+            "The modal score is 4, since it is the score with the highest frequency.\n\n"
+            "⦿ (c) Number of students who scored 7 or more:\n"
+        r"\text{Total} = 4 + 2 + 2 + 1 = 9\text{ students}"
+        "\n\n"
+            "⦿ (d) Mean score calculation:\n\n"
+            "Scores (x) | Frequency (f) | fx\n"
+            "0 | 3 | 0\n"
+            "1 | 5 | 5\n"
+            "2 | 3 | 6\n"
+            "3 | 2 | 6\n"
+            "4 | 7 | 28\n"
+            "5 | 6 | 30\n"
+            "6 | 5 | 30\n"
+            "7 | 4 | 28\n"
+            "8 | 2 | 16\n"
+            "9 | 2 | 18\n"
+            "10 | 1 | 10\n"
+        r"Total | \sum f = 40 | \sum fx = 177"
+        "\n\n"
+        r"\text{Mean score, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{177}{40} = 4.425 \approx 4.4\text{ (to 1 decimal place)}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 5 (BECE 2012 Q4)\n"
+            "The marks scored by some students in a Mathematics test are as follows:\n"
+            "3, 3, 5, 6, 3, 4, 7, 8, 3, 4, 5, 4, 7, 4, 3, 7, 4, 6, 4, 8, 3, 4, 5, 4, 6, 3, 8, 4, 5, 6, 4, 5\n"
+            "(a) Construct a frequency distribution table for the scores.\n"
+            "(b) Using the table, find for the distribution, the:\n"
+            "(i) mode;\n"
+            "(ii) mean, correct to one decimal place;\n"
+            "(iii) median.",
+        answer:
+        "Correct Answer:\n"
+            "(a) Frequency Distribution Table:\n\n"
+            "Marks (x) | Tally | Frequency (f) | fx\n"
+            "3 | ///// / | 6 | 18\n"
+            "4 | ///// //// | 9 | 36\n"
+            "5 | ///// | 5 | 25\n"
+            "6 | //// | 4 | 24\n"
+            "7 | /// | 3 | 21\n"
+            "8 | /// | 3 | 24\n"
+        r"Total |  | \sum f = 30 | \sum fx = 148"
+        "\n\n"
+            "(b) Statutory Calculations:\n\n"
+            "⦿ (i) Mode:\n"
+            "From the table, the mode is 4.\n\n"
+            "⦿ (ii) Mean:\n"
+        r"\text{Mean} = \frac{\sum fx}{\sum f} = \frac{148}{30} = 4.933 \approx 4.9\text{ (to 1 decimal place)}"
+        "\n\n"
+            "⦿ (iii) Median:\n"
+        r"Total frequency is 30. Half of 30 is equal to 15. Therefore, the median is the average of the 15^{\text{th}} and 16^{\text{th}} marks."
+        "\n\n"
+            "Accumulating the frequencies from the top down shows both positions fall into the score category of 5.\n\n"
+        r"\text{Median} = \frac{5 + 5}{2} = 5",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 6 (BECE 2017 Q4a)\n"
+            "The table below shows the ages of students admitted in a hospital.\n\n"
+            "Age (years) | 10 | 11 | 12 | 13 | 14 | 15\n"
+            "Number of students | 5 | 1 | 7 | 10 | 3 | 4\n\n"
+            "Use the information to answer the following questions:\n"
+            "(i) What is the modal age?\n"
+            "(ii) Calculate, correct to two decimal places, the mean age of the students.",
+        answer:
+        "Correct Answer:\n"
+            "⦿ (i) Modal Age:\n"
+            "The modal age is 13, since it has the highest frequency of 10.\n\n"
+            "⦿ (ii) Mean Age Calculation:\n\n"
+            "Age (x) | Freq (f) | fx\n"
+            "10 | 5 | 50\n"
+            "11 | 1 | 11\n"
+            "12 | 7 | 84\n"
+            "13 | 10 | 130\n"
+            "14 | 3 | 42\n"
+            "15 | 4 | 60\n"
+        r"Total | \sum f = 30 | \sum fx = 377"
+        "\n\n"
+        r"\text{Mean age} = \frac{\sum fx}{\sum f} = \frac{377}{30} = 12.5667 \approx 12.57\text{ years}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 7 (BECE 2019 Q6)\n"
+            "The marks obtained by students in a class test were:\n"
+            "4, 8, 7, 6, 7, 2, 1, 7, 4, 7, 3, 7, 6, 4, 3, 7, 5, 2, 7, 2, 5, 4, 8, 3, 2\n"
+            "(a) Construct a frequency distribution table for the data.\n"
+            "(b) Find the:\n"
+            "(i) mode of the distribution;\n"
+            "(ii) median mark of the test;\n"
+            "(iii) mean mark.",
+        answer:
+        "Correct Answer:\n"
+            "(a) Frequency Distribution Table:\n\n"
+            "Marks (x) | Tally | Frequency (f) | fx\n"
+            "1 | / | 1 | 1\n"
+            "2 | //// | 4 | 8\n"
+            "3 | /// | 3 | 9\n"
+            "4 | //// | 4 | 16\n"
+            "5 | // | 2 | 10\n"
+            "6 | // | 2 | 12\n"
+            "7 | ///// // | 7 | 49\n"
+            "8 | // | 2 | 16\n"
+        r"Total |  | \sum f = 25 | \sum fx = 121"
+        "\n\n"
+            "(b) Statutory Calculations:\n\n"
+            "⦿ (i) Mode:\n"
+            "The mode is 7 since it has the highest frequency of 7.\n\n"
+            "⦿ (ii) Median:\n"
+        r"\text{Median position} = \frac{1}{2}(\sum f + 1)^{\text{th}} = \frac{1}{2}(25 + 1)^{\text{th}} = 13^{\text{th}}\text{ position}"
+        "\n\n"
+        r"Tracking cumulative frequencies down the table shows that the count reaches the 13^{\text{th}} position at a mark value of 5."
+        "\n\n"
+            "⦿ (iii) Mean mark:\n"
+        r"\text{Mean mark } (\bar{x}) = \frac{\sum fx}{\sum f} = \frac{121}{25} = 4\frac{21}{25} = 4.84",
+        explanation: "",
+      ),
+    ],
+  ),
+
 
   "Math JHS3 s1 ss1 - Number and Numeration Systems": PracticeModel(
     audioPath: '',

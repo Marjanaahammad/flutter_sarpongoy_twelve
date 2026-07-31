@@ -61,7 +61,7 @@ BuildResult makeBaseSymbol({
             italic: italic,
             skew: charMetrics.skew.cssEm.toLpUnder(options),
             widget: makeChar(symbol, font, charMetrics, options,
-                needItalic: mode == Mode.math),
+                needItalic: font.fontShape == FontStyle.italic),
           );
         } else if (ligatures.containsKey(symbol) &&
             font.fontFamily == 'Typewriter') {
@@ -97,7 +97,7 @@ BuildResult makeBaseSymbol({
     return BuildResult(
       options: options,
       widget: makeChar(char, defaultFont, characterMetrics, options,
-          needItalic: mode == Mode.math),
+          needItalic: defaultFont.fontShape == FontStyle.italic),
       italic: italic,
       skew: characterMetrics?.skew.cssEm.toLpUnder(options) ?? 0.0,
     );
@@ -123,7 +123,7 @@ BuildResult makeBaseSymbol({
     italic: 0.0,
     skew: 0.0,
     widget: makeChar(symbol, const FontOptions(), null, options,
-        needItalic: mode == Mode.math),
+        needItalic: false),
   );
 }
 
@@ -177,15 +177,8 @@ final _mathitLetters = {
 };
 
 FontOptions mathdefault(String value) {
-  if (_numberDigitRegex.hasMatch(value[0]) || _mathitLetters.contains(value)) {
-    return FontOptions(
-      fontFamily: 'Main',
-      fontShape: FontStyle.italic,
-    );
-  } else {
-    return FontOptions(
-      fontFamily: 'Math',
-      fontShape: FontStyle.italic,
-    );
-  }
+  return const FontOptions(
+    fontFamily: 'Main',
+    fontShape: FontStyle.normal,
+  );
 }
