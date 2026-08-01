@@ -2397,11 +2397,9 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-        "Question 1: "
+        scenario: "Question 1: "
             "Factorize completely 3a² + 12ac - 8bc - 2ab.\n (BECE 1990 Q2a)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Rearrange terms to group common factors:\n"
             "(3a² - 2ab) + (12ac - 8bc)\n\n"
             "⦿ Factor out a from the first pair and 4c from the second pair:\n"
@@ -2411,11 +2409,9 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 2: "
+        scenario: "Question 2: "
             "Factorize completely 2ap + aq - bq - 2bp.\n (BECE 1991 Q3b)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Rearrange terms to group variables together:\n"
             "(2ap + aq) - (2bp + bq)\n\n"
             "⦿ Factor out a from the first pair and b from the second pair:\n"
@@ -2425,11 +2421,9 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 3: \n"
+        scenario: "Question 3: \n"
             "Factorize completely mp + np - mt - nt.\n (BECE 1992 Q1c)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Group terms into two pairs:\n"
             "(mp + np) - (mt + nt)\n\n"
             "⦿ Factor out p from the first pair and t from the second pair:\n"
@@ -2439,31 +2433,27 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario:
-        "Question 4: "
-        r"Simplify (\frac{2}{3}a + \frac{4}{3}b) - \frac{3}{2}(a - b).""\n (BECE 1993 Q1a)",
-        answer:
-        "Correct Answer:\n"
+        scenario: "Question 4: "
+            r"Simplify (\frac{2}{3}a + \frac{4}{3}b) - \frac{3}{2}(a - b)."
+            "\n (BECE 1993 Q1a)",
+        answer: "Correct Answer:\n"
             "⦿ Express as two standard fractional quantities with a common base:\n"
-        r"\frac{1}{3}(2a + 4b) - \frac{1}{2}(3a - 3b)"
-        "\n\n"
+            r"\frac{1}{3}(2a + 4b) - \frac{1}{2}(3a - 3b)"
+            "\n\n"
             "⦿ Find the Lowest Common Multiple (LCM) of 3 and 2, which is 6:\n"
-        r"\frac{2(2a + 4b) - 3(3a - 3b)}{6}"
-        "\n\n"
+            r"\frac{2(2a + 4b) - 3(3a - 3b)}{6}"
+            "\n\n"
             "⦿ Expand the terms in the numerator:\n"
-        r"\frac{4a + 8b - 9a + 9b}{6}"
-        "\n\n"
+            r"\frac{4a + 8b - 9a + 9b}{6}"
+            "\n\n"
             "⦿ Collect like terms and simplify:\n"
-        r"\frac{-5a + 17b}{6}",
+            r"\frac{-5a + 17b}{6}",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 5: "
+        scenario: "Question 5: "
             "Multiply (a - b) by (2b - a). \n (BECE 1994 Q1a)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Expand using term-by-term distribution:\n"
             "a(2b - a) - b(2b - a)\n\n"
             "⦿ Distribute across brackets:\n"
@@ -2472,14 +2462,11 @@ final Map<String, PracticeModel> becePracticeData = {
             "-a² + 3ab - 2b²",
         explanation: "",
       ),
-
       PracticeQuestion(
-        scenario:
-        "Question 6: "
+        scenario: "Question 6: "
             "i) Factorize completely the expression 2xy - 8x + 3y - 12.\n"
             "ii) Evaluate the expression in (i) if x = 5 and y = 7.\n (BECE 2004 Q1a)",
-        answer:
-        "Correct Answer:\n"
+        answer: "Correct Answer:\n"
             "⦿ Part (i): Group into binomial pairs:\n"
             "(2xy - 8x) + (3y - 12)\n\n"
             "⦿ Factor out common components:\n"
@@ -2490,7 +2477,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
 
   "Math JHS3 s1 ss1 - Number and Numeration Systems": PracticeModel(
     audioPath: '',
@@ -16295,495 +16281,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "English JHS3 s5 ss1 - Comprehension of Prescribed Texts (Extract-Based Theory Questions)":
-      PracticeModel(
-    audioPath: '',
-    questions: [
-      PracticeQuestion(
-        scenario: "QUESTION 1 (BECE 2017 Q5)\n\n"
-            "Questions 1(a) to 1(c) are based on one of the prescribed short stories.\n\n"
-            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
-            "(a) What is referred to as Poor little thing in the story?\n\n"
-            "(b) What is the setting of the story?\n\n"
-            "(c) The attitude of the girls to the baby bird is that of ............\n\n"
-            "Read the following extract carefully and answer Questions 1(d) and 1(e).\n\n"
-            "KAAKYIRE AKOSOMO NYANTAKYI: *Tell My Son to Hold On to His Gun*\n\n"
-            "    \"Be courageous, be courageous, Kwame, be courageous!\"\n"
-            "    \"I will be, Father, I will be,\" I answered,\n"
-            "    and entered the thick forest ...... (Page 93)\n\n"
-            "(d) Be courageous, be courageous, Kwame, be courageous is an example of the use of a literary device termed ............\n\n"
-            "(e) How did Kwame show that he was courageous at the end of the story?\n\n"
-            "Read the following extract carefully and answer Questions 1(f) and 1(g).\n\n"
-            "JEAN WATSON: *The Old Man And His Children*\n\n"
-            "    One there was an old man who had seven sons.\n"
-            "    They should have been his pride and joy.\n"
-            "    But they were not. (Page 17)\n\n"
-            "(f) The above extract is a/an ............ to a story.\n\n"
-            "(g) The idea expressed in the second sentence is that of ............\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    Yes, my young woman, I shall remember you,\n"
-            "    I shall remember you in the hours of the night,\n"
-            "    In my sleep,\n"
-            "    In my sleepless sleep. (Page 62)\n\n"
-            "(h) \"... young woman\" refers to ............\n\n"
-            "(i) The 'sleepless sleep' of the speaker is caused by ............\n\n"
-            "(j) \"... sleepless sleep\" shows that the speaker is ............",
-        answer: "⦿ (a) Answer:\n\n"
-            "• This describes Pepe, the young bird with a yellow beak and bright eyes that Debbie and Sandy rescue and care for.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• The story is set in a rural, village-like environment, namely the area around Debbie and Sandy's home, including their mother's garden.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• The girls show genuine kindness towards the bird, treating it with warmth and tender concern for its welfare.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• Repetition. The same phrase is deliberately repeated to stress its importance and urgency.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• He demonstrated his bravery by facing and killing the dangerous beast that threatened him.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• It functions as a prologue: an opening passage that sets up the story that follows.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• It expresses contrast. It builds an expectation that his sons would bring him pride, only to overturn it in the next line.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• This refers to Eulalie, Ato's wife.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• Her nights are troubled because she has been unable to bear a child.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• It reveals that she is deeply unsettled: restless, troubled, and unable to find any real peace of mind.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2018 Q5)\n\n"
-            "Questions 2(a) to 2(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
-            "CHARLES DICKENS: *Oliver Twist*\n\n"
-            "\"Oliver walked 70 miles to London. In such a big city, no one would ever find him! It was chilly and his feet hurt but he was happy to leave his old, miserable life behind\".\n\n"
-            "\"I robbed her. Before her body was cold, I robbed her of the one item she had. She could have sold it for food or shelter but she kept it safe, ......\" (Page 117)\n\n"
-            "(a) Two of the people who treated Oliver badly, making him run away to London are ........ and ........\n\n"
-            "(b) An example of the use of contrast in the extract is ........\n\n"
-            "(c) \".... the one item she had\" was ....\n\n"
-            "Read the following extract carefully and answer Questions 2(d) and 2(e).\n\n"
-            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
-            "\"Well, we'll just have to look after him ourselves then\", she said.\n"
-            "\"We'll make a soft nest for him and feed him and when he grows up, he will stay in our garden.\" (Page 8)\n\n"
-            "(d) What did they choose for a nest for Pepe?\n\n"
-            "(e) Which figure of speech is mainly used in the extract?\n\n"
-            "Read the following extract carefully and answer Questions 2(f) and 2(g).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    My spirit Mother ought to have come for me earlier.\n"
-            "    Now, what shall I tell them who are gone?\n"
-            "    The daughter of slaves who came from the white man's land.\n"
-            "    Someone should advise me on how to tell my story.\n"
-            "    My children, I am dreading my arrival there\n"
-            "    Where they will ask me news of home.\n"
-            "    Shall I tell them or shall I not? (Page 37)\n\n"
-            "(f) Who is the speaker?\n\n"
-            "(g) What do the following expressions in the extract refer to?\n\n"
-            "(i) \"...... who are gone?\"\n\n"
-            "(ii) \"...... there\"\n\n"
-            "Read the following extract carefully and answer Questions 2(h) and 2(i).\n\n"
-            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
-            "    Scribbler,\n"
-            "    The dream in your mind fills the shelf.\n"
-            "    When upon the shelf you gaze,\n"
-            "    vacuum stares at you.\n"
-            "    There is your quill and parchment,\n"
-            "    but heavy are your hands.\n"
-            "    Why?\n"
-            "    Because disuse numbs the wrist. (Page 98)\n\n"
-            "(h) What does \"Scribbler\" refer to?\n\n"
-            "(i) What does \"The dream in your mind\" refer to?",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Among those responsible for his poor treatment were Mr. and Mrs. Sowerberry, along with Charlotte, Noah Claypole, and the undertaker who had employed him.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Despite the cold weather and his sore feet, Oliver still felt happy, since his relief at escaping his miserable old life outweighed his physical suffering. This pairing of discomfort with happiness is the contrast.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• It was a gold necklace fitted with a locket.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• They used an old letter box tucked inside the hedge.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• Personification. The bird is spoken of and cared for as though it has human-like needs and feelings.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• The speaker is Nana, Ato's grandmother.\n\n"
-            "⦿ (g)(i) Answer:\n\n"
-            "• This refers to her deceased relatives: the ancestors who have already passed on.\n\n"
-            "⦿ (g)(ii) Answer:\n\n"
-            "• This refers to the spirit world, the realm of the departed.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• It refers to a writer or author, someone whose craft involves putting words on paper.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• It refers to the writer's ideas and creative ability: the skill of writing itself.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2019 Q5)\n\n"
-            "Questions 3(a) to 3(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
-            "CHARLES DICKENS: *Oliver Twist*\n\n"
-            "\"Stop, thief!\" he shouted, thinking Oliver had robbed him. The poor boy found himself being chased by people and even dogs! Someone in the crowd, a young man with purple lips and red sores all over his hands, grabbed Oliver and knocked him down ...\" (Page 109)\n\n"
-            "(a) The one described as a young man with purple lips and red sores all over his hands is ...\n\n"
-            "(b) Why did the 'young man with purple lips and red sores all over hands' want to harm Oliver?\n\n"
-            "(c) How did Mr Brownlow help Oliver at the end of the story?\n\n"
-            "Read the following extract carefully and answer Questions 3(d) and 3(e).\n\n"
-            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
-            "\"Born, say, our young Miss has arrived heavily laden with all the good things of this earth. I should think Dukana will soon float on a sea of wealth\" (Page 178)\n\n"
-            "(d) Who is referred to as our young Miss?\n\n"
-            "(e) The literary device used in heavily laden with all the good things of the earth is ...\n\n"
-            "Read the following extract carefully and answer Questions 3(f) to 3(h).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "\"X: It was a couple of days ago that we met. What came out of the meeting is that we must come and ask you and your wife what is preventing you from giving your grandmother a great-grandchild before she leaves us.\"\n"
-            "(Act 4, Page 66)\n\n"
-            "(f) The speaker represented by 'X' in the extract is ...\n\n"
-            "(g) According to Ato, what is preventing him and his wife from having children?\n\n"
-            "(h) The figure of speech that describes she leaves us in the extract is ...\n\n"
-            "Read the following extract carefully and answer Questions 3(i) and 3(j).\n\n"
-            "THERESA ENNIN: *Makola*\n\n"
-            "    Head bent, rags all around the upside down pan\n"
-            "    picking her nose, shuffling her feet, oblivious to\n"
-            "    the bustle\n\n"
-            "(i) Write one group of words in the extract that brings out the theme of uncleanliness.\n\n"
-            "(j) The words Head bent, rags all around the upside down pan appeal to the reader's sense of ...",
-        answer: "⦿ (a) Answer:\n\n"
-            "• This is Mooks, also known as Edward Leeford, who is Oliver's half-brother and an associate of Fagin.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• He was determined to hold on to the whole of their father's fortune, so he wanted Oliver disgraced and cut out of any inheritance.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• Mr Brownlow enabled Oliver to discover the truth about his real parents and secure his rightful inheritance, effectively adopting him as his own.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• This refers to the narrator herself, who is the writer and central character of the story.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• Hyperbole. The wealth being described is deliberately exaggerated for effect.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• The speaker is Petu, Ato's elder uncle.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• According to Ato, nothing at all is stopping them.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• Euphemism: a gentler way of referring to death.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• The phrase describing her picking her nose amid rags scattered around suggests untidiness and lack of cleanliness.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• Sight. The description creates a vivid visual picture for the reader.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2020 Q5)\n\n"
-            "Questions 4(a) to 4(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
-            "CHARLES DICKENS: *Oliver Twist*\n\n"
-            "\"Oliver was given a slice of bread and a simple outfit with a brown cap to wear outside. He meekly followed him outside the workhouse to his new home. Once there, he was brought before a committee of ten men\". (Page 103)\n\n"
-            "(a) Write the name of the one referred to as \"him\" in the extract.\n\n"
-            "(b) One thing Oliver learns from the \"committee of ten men\" is ....\n\n"
-            "(c) How does Oliver react to the information he gets from the committee?\n\n"
-            "Read the following extract carefully and answer Questions 4(d) and 4(e).\n\n"
-            "PETER PAUL ADOLINAMA: *Ripples*\n\n"
-            "\"Abi, which of your sons died recently or was it your business which collapsed? ... You have not been yourself these few days.\" (Page 84)\n\n"
-            "(d) Identify the speaker in the extract.\n\n"
-            "(e) What is Abi worried about?\n\n"
-            "Read the following extract carefully and answer Questions 4(f) to 4(h).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    1ST WOMAN: If her son gets goodly bag by the month\n"
-            "    Why has Esi Kom still not ....\n"
-            "    2ND WOMAN: They never ask \"Why\".\n"
-            "    Is it not the young man's wife?\n"
-            "    1ST WOMAN: What has she done now?\n"
-            "    2ND WOMAN: Listen. I hear she swallows money\n"
-            "    As a hen does corn. (Act 4, Page 58-59)\n\n"
-            "(f) Who is referred to as \"the young man's wife\"?\n\n"
-            "(g) State the literary device used in \"Is it not the young man's wife?\"\n\n"
-            "(h) What is the meaning of \"she swallows money as a hen does corn\"?\n\n"
-            "Read the following extract carefully and answer Questions 4(i) and 4(j).\n\n"
-            "A. A. AMOAKO: *Sleep Without Wake*\n\n"
-            "    \"You put me through my infant paces\n"
-            "    On Gold Coast Ga Shikpon\n"
-            "    Taa taa, tuu tuu, in your maternal steps,\n"
-            "    Maame Tutuaa, condolences!\" (Page 158)\n\n"
-            "(i) Identify the main literary device used in the title of the poem Sleep Without Wake.\n\n"
-            "(j) The words Taa taa, tuu tuu appeal to the reader's sense of ....",
-        answer: "⦿ (a) Answer:\n\n"
-            "• He is Mr Bumble.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• He discovers that he is an orphan, with neither mother nor father, and comes to understand what that word actually means.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• He is deeply shaken by the news and breaks down in tears.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• The speaker is Mama Adamu, Sayibu's first wife and Abi's eldest stepmother.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• Abi is anxious about being pushed into an early marriage, uneasy about the character of the man she is to marry, and fearful that Mr Ambrose Yakubu may not be able to rescue her from the situation.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• This refers to Eulalie, Ato's wife.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• It is a rhetorical question, asked not to seek information but to make a point.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• It means she spends money carelessly and wastefully, much like a hen that pecks up grain without restraint. In short, she is extravagant.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• Euphemism. \"Sleep\" is used as a gentler substitute for death.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• Hearing, since these words imitate the sound of footsteps.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2021 Q5)\n\n"
-            "Questions 5(a) to 5(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
-            "CHARLES DICKENS: *Oliver Twist*\n\n"
-            "\"Mr Bumble made Oliver miserable and the boy couldn't wait to get away from the workhouse.\" (Page 104)\n\n"
-            "(a) Mr Bumble made Oliver miserable because ....\n\n"
-            "(b) Who is Mr Bumble?\n\n"
-            "(c) How did Mr Bumble try to get rid of Oliver?\n\n"
-            "Read the following extract carefully and answer Questions 5(d) and 5(e).\n\n"
-            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
-            "\"They came in the usual assortment of rags: gowns picked up from the stalls of second-hand clothes traders, singlets bearing the words, Oxford University, mildewed blouses. Some women wore shirts that were meant for men; one of them was in a printed cotton nightgown that had faded beyond recognition.\" (Page 178)\n\n"
-            "(d) They refers to ....\n\n"
-            "(e) An imagery of ....... is created in the extract.\n\n"
-            "Read the following extract carefully and answer Questions 5(f) to 5(h).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    EULALIE: Ya, I remember I bought the idea, but I got the feeling ....\n"
-            "    ATO: Heavens, woman! They are always getting feelings. First, you got the feeling you needed a couple of years to settle down and now you are obviously getting a feeling. (Act 2, Page 46)\n\n"
-            "(f) What idea did Eulalie buy?\n\n"
-            "(g) What feeling has she got now?\n\n"
-            "(h) How does Ato react to her feeling?\n\n"
-            "Read the following extract carefully and answer Questions 5(i) and 5(j).\n\n"
-            "V.B. AAKYE: *The Colour of God*\n\n"
-            "    How silly man is, laughs the rose\n"
-            "    Why should He be\n"
-            "    black or white Or green or\n"
-            "    yellow or even red?\n\n"
-            "(i) The literary device used in laughs the rose is ....\n\n"
-            "(j) According to the poem, what is the colour of God?",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Oliver had dared to ask for more food than he was allowed.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• He is the church official who runs and presides over the workhouse where Oliver was born.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• He offered a reward of five pounds to anyone willing to take Oliver off the workhouse's hands and teach him a trade.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• This refers to the crowd of local people who came to welcome the narrator, gathered in Mama's sitting room.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• The description creates an image of poverty and deprivation.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• She had accepted the plan to postpone starting a family until she had properly settled down.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• She now feels ready and wants to start having children.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• He responds with surprise and a degree of frustration, seeming confused and somewhat opposed to the sudden change of heart.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• Personification. The rose is given the human ability to laugh.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• According to the poem, God embodies every colour, blending all the colours together much like a rainbow.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2022 Q5)\n\n"
-            "Questions 6(a) to 6(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
-            "CHARLES DICKENS: *Oliver Twist*\n\n"
-            "\"You know why, son. If a rich and successful man marries a woman whose name is stained because of her birth, it will be quite sad indeed.... Wicked people will not let her forget her past, even though it's not her fault.\" (Page 122)\n\n"
-            "(a) Son and rich and successful man refer to .......\n\n"
-            "(b) The speaker is ...........\n\n"
-            "(c) ... a woman whose name is stained because of her birth .... How did her birth stain her name?\n\n"
-            "Read the following extract carefully and answer Questions 6(d) and 6(e).\n\n"
-            "LAWRENCE DARMANI: *Sosu and the Bukari Boys*\n\n"
-            "\"Sosu felt his parents were very mean; otherwise, why did they give him such a small amount of money? Look at his friend, Bukari, who always brought a lot of money to school!... Bukari's father dropped him at school every day while he and Vivian had to walk.\" (Page 150)\n\n"
-            "(d) The extract brings out the theme of ....\n\n"
-            "(e) The main literary device used in the extract is ....\n\n"
-            "Read the following extract carefully and answer Questions 6(f) to 6(h).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    MONKA: The master-scholar was sitting on the chair studying, so he could not move off. (Act 1, Page 31)\n\n"
-            "(f) Monka needed the chair because ...........\n\n"
-            "(g) The scene of this extract is ...........\n\n"
-            "(h) The master-scholar refers to ...........\n\n"
-            "Read the following extract carefully and answer Questions 6(i) and 6(j).\n\n"
-            "LADE WOSORNU: *Desert Rivers*\n\n"
-            "    Without a sound\n"
-            "    They gush out into the bowels of the seas\n"
-            "    Far, far away from the unaided human eyes\n"
-            "    If you cannot see our tears\n"
-            "    It does not mean we do not cry. (Page 15)\n\n"
-            "(i) Water/Rivers are used in the poem as symbols of ...........\n\n"
-            "(j) If you cannot see our tears / It does not mean we do not cry. The above lines bring out the theme of ........",
-        answer: "⦿ (a) Answer:\n\n"
-            "• All three descriptions point to the same person: Harry Maylie, Mrs Maylie's son and Rose's husband.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• The speaker is Mrs Maylie, Harry's mother.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• Her father had changed his name out of shame, since he was believed to be unknown, or her sister had fallen pregnant outside marriage; these circumstances left her without a settled home and her origins clouded by scandal.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• The passage highlights themes of ingratitude and envy. Sosu fails to appreciate what he has and instead resents his friend's greater privilege.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• Contrast. Sosu's situation is set directly against Bukari's more comfortable one.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• A family gathering was underway, and since Ato had nowhere to sit, she wanted to offer him the chair.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• The scene takes place at Ato's family home, namely the Odumna clan house in his home village.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• This refers to Ebow, Ato's brother and Esi Kom's son.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• They stand for life, renewal, and rebirth.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• They express the theme of enduring suffering quietly, that is, bearing pain without outward complaint.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2023 Q5)\n\n"
-            "Read the following extract carefully and answer Questions 7(a) to 7(c).\n\n"
-            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
-            "\"My friend, Sira, was Waale's only daughter. As I said, we had grown up together, and had attended school together. She had not been able to complete her elementary schooling, although she was a brilliant girl\". (Page 181)\n\n"
-            "(a) Who is Waale?\n\n"
-            "(b) Sira could not complete her elementary schooling because....\n\n"
-            "(c) Sira was not among the people who came to welcome the writer because......\n\n"
-            "Read the following extract carefully and answer Questions 7(d) and 7(e).\n\n"
-            "AMA ATA AIDOO: *The Girl Who Can*\n\n"
-            "\"They said I was born in Hasodzi; and it was very big village in the Central Region of our country Ghana ....\" (Page 142)\n\n"
-            "(d) The extract is the ....... of the story.\n\n"
-            "(e) \"They said that I was born ....\" shows that ......\n\n"
-            "Read the following extract carefully and answer Questions 7(f) to 7(h).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    MONKA [to herself]: I remember the time he was preparing to go to the white man's land........ The money .... the money .... This is something which no one should hear anything about. (Act 3, Page 56)\n\n"
-            "(f) According to Monka, one of the things no one should hear anything about is .......\n\n"
-            "(g) The extract is an example of a/an ......\n\n"
-            "(h) The money .... the money .... is an example of a literary device called ....\n\n"
-            "Read the following extract carefully and answer Questions 7(i) and 7(j).\n\n"
-            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
-            "    When she comes slip-footing through the door\n"
-            "    she kindles us\n"
-            "    like lump coal lighted\n"
-            "    and we wake up glowing. (Page 184)\n\n"
-            "(i) The extract brings out the theme of .......\n\n"
-            "(j) ... she kindles us / like lump coal lighted .... The dominant figure of speech in the line above is .......",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Waale is Sira's mother, and a friend of the narrator's mother.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Her family did not want their lineage to end, so when she gave birth to twins she was sent away from home, cutting short her education.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• She had been forced to leave the village after having twins and was therefore away travelling at the time.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• It forms the opening section of the story, serving as its introduction and setting.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• The phrasing shows that the narrator has no birth certificate and cannot confirm her own birthplace with certainty, likely because her parents could not read or write.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• A substantial part of the family's land, along with valuable heirlooms such as gold ornaments, had to be sold or pawned to fund the journey.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• It is a soliloquy. Monka is speaking her private thoughts aloud to herself.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• Repetition, used to emphasise how heavily the subject weighs on her mind.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• It celebrates the warmth of a mother's love and the comfort her presence brings to the family.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• Simile. Her effect on the family is compared to lit coal using the word \"like\".",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 8 (BECE 2024 Q5)\n\n"
-            "Read the following extract carefully and answer Questions 8(a) and 8(b).\n\n"
-            "CHARLES DICKENS: *Oliver Twist*\n\n"
-            "\"Boy what's your name?\" snarled the chairman.\n"
-            "\"Oliver Twist sir\"\n"
-            "\"You know that you're an orphan, is that right?\"\n"
-            "\"What's an orphan sir?\"\n\n"
-            "(a) The chairman's tone tells us that he is .......\n\n"
-            "(b) From Oliver's question we can tell that he is ......\n\n"
-            "Read the following extract carefully and answer Questions 8(c) and 8(d).\n\n"
-            "KAAKYIRE AKOSOMO NYANTAKYI: *The Generous Hunter*\n\n"
-            "    Calm down, Mr Hunter, I come in peace. Your ability to distinguish me from my younger brother has surprised me. Many people think we are identical twins.\n\n"
-            "(c) Why did the speaker go to see the hunter?\n\n"
-            "(d) What lesson can we learn from the speaker's action?\n\n"
-            "Read the following extract carefully and answer Questions 8(e) and 8(f).\n\n"
-            "ROBERT FROST: *A Minor Bird*\n\n"
-            "    The fault must partly have been in me\n"
-            "    The bird was not to blame for his key\n"
-            "    And of course there must be something wrong\n"
-            "    In wanting to silence any song\n\n"
-            "(e) Give the rhyming scheme for the extract above.\n\n"
-            "(f) From the poem, what lesson do you learn about fault finding?\n\n"
-            "Read the following extract carefully and answer Questions 8(g) and 8(h).\n\n"
-            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
-            "    Tell you the truth:\n"
-            "    the gold adorning the neck\n"
-            "    once was lost in rocky soils\n"
-            "    They dig deep who find it!\n\n"
-            "(g) The dominant literary device in the 2nd and 3rd lines is .......\n\n"
-            "(h) What does the writer mean by \"They dig deep who find it\"?\n\n"
-            "Read the following extract carefully and answer Questions 8(i) and 8(j).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    Yes, my young woman, I shall remember you.\n"
-            "    I shall remember you in the hours of the night\n"
-            "    In my sleep,\n"
-            "    In my sleepless sleep.\n\n"
-            "(i) Who does \"my young woman\" refer to?\n\n"
-            "(j) What is the figure of speech in the expression, \"In my sleepless sleep\"?",
-        answer: "⦿ (a) Answer:\n\n"
-            "• His tone reveals him to be harsh, unsympathetic, and cold-hearted towards the boy.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• His question shows that he is innocent and unaware, since he genuinely does not understand what the word means.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• The speaker had come to express thanks, since the hunter had earlier spared and released his younger sibling from a trap.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• We learn the importance of showing gratitude and repaying kindness shown to us by others.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• The lines follow a couplet pattern, rhyming aa, bb.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• The poem teaches us to examine our own faults before criticising others, and to be more tolerant and accepting.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• Metaphor, used symbolically to represent something valuable and hard-won.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• The line means that success only comes through hard, persistent effort. Those who work hardest are the ones who achieve it.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• It refers to Eulalie, Ato's wife.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• This is an oxymoron, pairing two contradictory ideas, sleep and sleeplessness, for deliberate effect.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 9 (BECE 2025 Q5)\n\n"
-            "Read the following extract carefully and answer Questions 9(a), 9(b) and 9(c).\n\n"
-            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
-            "    Nana: Yes, I am sitting here. So you thought I was dead? No, I am not. Go home, good neighbours and save your tears for my funeral. It cannot be long now...\n\n"
-            "(a) Who are the good neighbours?\n\n"
-            "(b) It cannot be long now. Why does Nana think she will die soon?\n\n"
-            "(c) Nana is in a ........ mood.\n\n"
-            "Read the following extract carefully and answer Questions 9(d) and 9(e).\n\n"
-            "KOBENA EYI ACQUAH: *A Wreath of Tears*\n\n"
-            "    Your funeral\n"
-            "    was s quiet and small\n"
-            "    almost too small, it is said\n"
-            "    for a man your stature\n"
-            "    You must\n"
-            "    Have preferred it that way\n\n"
-            "(d) This poem is an example of a/an ......\n\n"
-            "(e) The above lines show that the dead person was ......\n\n"
-            "Read the following extract carefully and answer Questions 9(f) and 9(g).\n\n"
-            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
-            "    When she comes slip-footing through the door,\n"
-            "    she kindles us\n"
-            "    like lump coal lighted\n"
-            "    and she wake up glowing.\n"
-            "    She put a spark even in Papa's eyes\n"
-            "    and turns out all our darkness.\n\n"
-            "(f) The literary device in turns out all our darkness is ....\n\n"
-            "(g) Mama is a Sunrise is an example of which literary device?\n\n"
-            "Read the following extract carefully and answer Questions 9(h), 9(i) and 9(j).\n\n"
-            "ERNEST HEMINGWAY: *A Day's Wait*\n\n"
-            "    I thought perhaps he was a little light-headed and after giving him the prescribed capsules at eleven o'clock, I went out for a while.\n\n"
-            "(h) One thing that made Schatz's father think the boy was a little light-headed is ........\n\n"
-            "(i) What exactly did the writer do when he \"went out for a while\"?\n\n"
-            "(j) How did Schatz feel at the end of the story?",
-        answer: "⦿ (a) Answer:\n\n"
-            "• They are the First Woman and Second Woman.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• She is overwhelmed with grief because Ato has married a descendant of slaves, and the sorrow this has caused her makes her feel her death is near.\n\n"
-            "⦿ (c) Answer:\n\n"
-            "• She is in a sad, sorrowful, and mournful state of mind.\n\n"
-            "⦿ (d) Answer:\n\n"
-            "• It is a dirge: a poem written in tribute or mourning for someone who has died.\n\n"
-            "⦿ (e) Answer:\n\n"
-            "• They suggest the deceased was a humble and modest person, someone who would not have wanted a grand send-off.\n\n"
-            "⦿ (f) Answer:\n\n"
-            "• This is hyperbole/metaphor. Her presence is described as dramatically banishing all gloom from the household.\n\n"
-            "⦿ (g) Answer:\n\n"
-            "• It is a metaphor, directly equating Mama with a sunrise.\n\n"
-            "⦿ (h) Answer:\n\n"
-            "• Schatz was refusing to rest or relax, showed no interest in anything around him, and even asked his father to leave him alone.\n\n"
-            "⦿ (i) Answer:\n\n"
-            "• He took his dog out and went hunting, shooting a couple of birds along the way.\n\n"
-            "⦿ (j) Answer:\n\n"
-            "• By the end, he felt calm and relieved.",
-        explanation: "",
-      ),
-    ],
-  ),
   "English JHS2 s5 ss1 - Comprehension of Prescribed Texts (Extract-Based Theory Questions)":
       PracticeModel(
     audioPath: '',
@@ -17273,9 +16770,497 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
-  "English JHS1 s4 ss1 - Essay & Composition Writing":
+  "English JHS3 s5 ss1 - Comprehension of Prescribed Texts (Extract-Based Theory Questions)":
       PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 2017 Q5)\n\n"
+            "Questions 1(a) to 1(c) are based on one of the prescribed short stories.\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "(a) What is referred to as Poor little thing in the story?\n\n"
+            "(b) What is the setting of the story?\n\n"
+            "(c) The attitude of the girls to the baby bird is that of ............\n\n"
+            "Read the following extract carefully and answer Questions 1(d) and 1(e).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *Tell My Son to Hold On to His Gun*\n\n"
+            "    \"Be courageous, be courageous, Kwame, be courageous!\"\n"
+            "    \"I will be, Father, I will be,\" I answered,\n"
+            "    and entered the thick forest ...... (Page 93)\n\n"
+            "(d) Be courageous, be courageous, Kwame, be courageous is an example of the use of a literary device termed ............\n\n"
+            "(e) How did Kwame show that he was courageous at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 1(f) and 1(g).\n\n"
+            "JEAN WATSON: *The Old Man And His Children*\n\n"
+            "    One there was an old man who had seven sons.\n"
+            "    They should have been his pride and joy.\n"
+            "    But they were not. (Page 17)\n\n"
+            "(f) The above extract is a/an ............ to a story.\n\n"
+            "(g) The idea expressed in the second sentence is that of ............\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you,\n"
+            "    I shall remember you in the hours of the night,\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep. (Page 62)\n\n"
+            "(h) \"... young woman\" refers to ............\n\n"
+            "(i) The 'sleepless sleep' of the speaker is caused by ............\n\n"
+            "(j) \"... sleepless sleep\" shows that the speaker is ............",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This describes Pepe, the young bird with a yellow beak and bright eyes that Debbie and Sandy rescue and care for.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The story is set in a rural, village-like environment, namely the area around Debbie and Sandy's home, including their mother's garden.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The girls show genuine kindness towards the bird, treating it with warmth and tender concern for its welfare.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• Repetition. The same phrase is deliberately repeated to stress its importance and urgency.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• He demonstrated his bravery by facing and killing the dangerous beast that threatened him.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• It functions as a prologue: an opening passage that sets up the story that follows.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It expresses contrast. It builds an expectation that his sons would bring him pride, only to overturn it in the next line.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Her nights are troubled because she has been unable to bear a child.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• It reveals that she is deeply unsettled: restless, troubled, and unable to find any real peace of mind.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2018 Q5)\n\n"
+            "Questions 2(a) to 2(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver walked 70 miles to London. In such a big city, no one would ever find him! It was chilly and his feet hurt but he was happy to leave his old, miserable life behind\".\n\n"
+            "\"I robbed her. Before her body was cold, I robbed her of the one item she had. She could have sold it for food or shelter but she kept it safe, ......\" (Page 117)\n\n"
+            "(a) Two of the people who treated Oliver badly, making him run away to London are ........ and ........\n\n"
+            "(b) An example of the use of contrast in the extract is ........\n\n"
+            "(c) \".... the one item she had\" was ....\n\n"
+            "Read the following extract carefully and answer Questions 2(d) and 2(e).\n\n"
+            "MERRILL CORNEY: *Debbie, Sandy and Pepe*\n\n"
+            "\"Well, we'll just have to look after him ourselves then\", she said.\n"
+            "\"We'll make a soft nest for him and feed him and when he grows up, he will stay in our garden.\" (Page 8)\n\n"
+            "(d) What did they choose for a nest for Pepe?\n\n"
+            "(e) Which figure of speech is mainly used in the extract?\n\n"
+            "Read the following extract carefully and answer Questions 2(f) and 2(g).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    My spirit Mother ought to have come for me earlier.\n"
+            "    Now, what shall I tell them who are gone?\n"
+            "    The daughter of slaves who came from the white man's land.\n"
+            "    Someone should advise me on how to tell my story.\n"
+            "    My children, I am dreading my arrival there\n"
+            "    Where they will ask me news of home.\n"
+            "    Shall I tell them or shall I not? (Page 37)\n\n"
+            "(f) Who is the speaker?\n\n"
+            "(g) What do the following expressions in the extract refer to?\n\n"
+            "(i) \"...... who are gone?\"\n\n"
+            "(ii) \"...... there\"\n\n"
+            "Read the following extract carefully and answer Questions 2(h) and 2(i).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Scribbler,\n"
+            "    The dream in your mind fills the shelf.\n"
+            "    When upon the shelf you gaze,\n"
+            "    vacuum stares at you.\n"
+            "    There is your quill and parchment,\n"
+            "    but heavy are your hands.\n"
+            "    Why?\n"
+            "    Because disuse numbs the wrist. (Page 98)\n\n"
+            "(h) What does \"Scribbler\" refer to?\n\n"
+            "(i) What does \"The dream in your mind\" refer to?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Among those responsible for his poor treatment were Mr. and Mrs. Sowerberry, along with Charlotte, Noah Claypole, and the undertaker who had employed him.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Despite the cold weather and his sore feet, Oliver still felt happy, since his relief at escaping his miserable old life outweighed his physical suffering. This pairing of discomfort with happiness is the contrast.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• It was a gold necklace fitted with a locket.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• They used an old letter box tucked inside the hedge.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Personification. The bird is spoken of and cared for as though it has human-like needs and feelings.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Nana, Ato's grandmother.\n\n"
+            "⦿ (g)(i) Answer:\n\n"
+            "• This refers to her deceased relatives: the ancestors who have already passed on.\n\n"
+            "⦿ (g)(ii) Answer:\n\n"
+            "• This refers to the spirit world, the realm of the departed.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It refers to a writer or author, someone whose craft involves putting words on paper.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to the writer's ideas and creative ability: the skill of writing itself.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2019 Q5)\n\n"
+            "Questions 3(a) to 3(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Stop, thief!\" he shouted, thinking Oliver had robbed him. The poor boy found himself being chased by people and even dogs! Someone in the crowd, a young man with purple lips and red sores all over his hands, grabbed Oliver and knocked him down ...\" (Page 109)\n\n"
+            "(a) The one described as a young man with purple lips and red sores all over his hands is ...\n\n"
+            "(b) Why did the 'young man with purple lips and red sores all over hands' want to harm Oliver?\n\n"
+            "(c) How did Mr Brownlow help Oliver at the end of the story?\n\n"
+            "Read the following extract carefully and answer Questions 3(d) and 3(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"Born, say, our young Miss has arrived heavily laden with all the good things of this earth. I should think Dukana will soon float on a sea of wealth\" (Page 178)\n\n"
+            "(d) Who is referred to as our young Miss?\n\n"
+            "(e) The literary device used in heavily laden with all the good things of the earth is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(f) to 3(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "\"X: It was a couple of days ago that we met. What came out of the meeting is that we must come and ask you and your wife what is preventing you from giving your grandmother a great-grandchild before she leaves us.\"\n"
+            "(Act 4, Page 66)\n\n"
+            "(f) The speaker represented by 'X' in the extract is ...\n\n"
+            "(g) According to Ato, what is preventing him and his wife from having children?\n\n"
+            "(h) The figure of speech that describes she leaves us in the extract is ...\n\n"
+            "Read the following extract carefully and answer Questions 3(i) and 3(j).\n\n"
+            "THERESA ENNIN: *Makola*\n\n"
+            "    Head bent, rags all around the upside down pan\n"
+            "    picking her nose, shuffling her feet, oblivious to\n"
+            "    the bustle\n\n"
+            "(i) Write one group of words in the extract that brings out the theme of uncleanliness.\n\n"
+            "(j) The words Head bent, rags all around the upside down pan appeal to the reader's sense of ...",
+        answer: "⦿ (a) Answer:\n\n"
+            "• This is Mooks, also known as Edward Leeford, who is Oliver's half-brother and an associate of Fagin.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He was determined to hold on to the whole of their father's fortune, so he wanted Oliver disgraced and cut out of any inheritance.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Mr Brownlow enabled Oliver to discover the truth about his real parents and secure his rightful inheritance, effectively adopting him as his own.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the narrator herself, who is the writer and central character of the story.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Hyperbole. The wealth being described is deliberately exaggerated for effect.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The speaker is Petu, Ato's elder uncle.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• According to Ato, nothing at all is stopping them.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Euphemism: a gentler way of referring to death.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• The phrase describing her picking her nose amid rags scattered around suggests untidiness and lack of cleanliness.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Sight. The description creates a vivid visual picture for the reader.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2020 Q5)\n\n"
+            "Questions 4(a) to 4(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Oliver was given a slice of bread and a simple outfit with a brown cap to wear outside. He meekly followed him outside the workhouse to his new home. Once there, he was brought before a committee of ten men\". (Page 103)\n\n"
+            "(a) Write the name of the one referred to as \"him\" in the extract.\n\n"
+            "(b) One thing Oliver learns from the \"committee of ten men\" is ....\n\n"
+            "(c) How does Oliver react to the information he gets from the committee?\n\n"
+            "Read the following extract carefully and answer Questions 4(d) and 4(e).\n\n"
+            "PETER PAUL ADOLINAMA: *Ripples*\n\n"
+            "\"Abi, which of your sons died recently or was it your business which collapsed? ... You have not been yourself these few days.\" (Page 84)\n\n"
+            "(d) Identify the speaker in the extract.\n\n"
+            "(e) What is Abi worried about?\n\n"
+            "Read the following extract carefully and answer Questions 4(f) to 4(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    1ST WOMAN: If her son gets goodly bag by the month\n"
+            "    Why has Esi Kom still not ....\n"
+            "    2ND WOMAN: They never ask \"Why\".\n"
+            "    Is it not the young man's wife?\n"
+            "    1ST WOMAN: What has she done now?\n"
+            "    2ND WOMAN: Listen. I hear she swallows money\n"
+            "    As a hen does corn. (Act 4, Page 58-59)\n\n"
+            "(f) Who is referred to as \"the young man's wife\"?\n\n"
+            "(g) State the literary device used in \"Is it not the young man's wife?\"\n\n"
+            "(h) What is the meaning of \"she swallows money as a hen does corn\"?\n\n"
+            "Read the following extract carefully and answer Questions 4(i) and 4(j).\n\n"
+            "A. A. AMOAKO: *Sleep Without Wake*\n\n"
+            "    \"You put me through my infant paces\n"
+            "    On Gold Coast Ga Shikpon\n"
+            "    Taa taa, tuu tuu, in your maternal steps,\n"
+            "    Maame Tutuaa, condolences!\" (Page 158)\n\n"
+            "(i) Identify the main literary device used in the title of the poem Sleep Without Wake.\n\n"
+            "(j) The words Taa taa, tuu tuu appeal to the reader's sense of ....",
+        answer: "⦿ (a) Answer:\n\n"
+            "• He is Mr Bumble.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He discovers that he is an orphan, with neither mother nor father, and comes to understand what that word actually means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He is deeply shaken by the news and breaks down in tears.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The speaker is Mama Adamu, Sayibu's first wife and Abi's eldest stepmother.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Abi is anxious about being pushed into an early marriage, uneasy about the character of the man she is to marry, and fearful that Mr Ambrose Yakubu may not be able to rescue her from the situation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a rhetorical question, asked not to seek information but to make a point.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• It means she spends money carelessly and wastefully, much like a hen that pecks up grain without restraint. In short, she is extravagant.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Euphemism. \"Sleep\" is used as a gentler substitute for death.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Hearing, since these words imitate the sound of footsteps.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2021 Q5)\n\n"
+            "Questions 5(a) to 5(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Mr Bumble made Oliver miserable and the boy couldn't wait to get away from the workhouse.\" (Page 104)\n\n"
+            "(a) Mr Bumble made Oliver miserable because ....\n\n"
+            "(b) Who is Mr Bumble?\n\n"
+            "(c) How did Mr Bumble try to get rid of Oliver?\n\n"
+            "Read the following extract carefully and answer Questions 5(d) and 5(e).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"They came in the usual assortment of rags: gowns picked up from the stalls of second-hand clothes traders, singlets bearing the words, Oxford University, mildewed blouses. Some women wore shirts that were meant for men; one of them was in a printed cotton nightgown that had faded beyond recognition.\" (Page 178)\n\n"
+            "(d) They refers to ....\n\n"
+            "(e) An imagery of ....... is created in the extract.\n\n"
+            "Read the following extract carefully and answer Questions 5(f) to 5(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    EULALIE: Ya, I remember I bought the idea, but I got the feeling ....\n"
+            "    ATO: Heavens, woman! They are always getting feelings. First, you got the feeling you needed a couple of years to settle down and now you are obviously getting a feeling. (Act 2, Page 46)\n\n"
+            "(f) What idea did Eulalie buy?\n\n"
+            "(g) What feeling has she got now?\n\n"
+            "(h) How does Ato react to her feeling?\n\n"
+            "Read the following extract carefully and answer Questions 5(i) and 5(j).\n\n"
+            "V.B. AAKYE: *The Colour of God*\n\n"
+            "    How silly man is, laughs the rose\n"
+            "    Why should He be\n"
+            "    black or white Or green or\n"
+            "    yellow or even red?\n\n"
+            "(i) The literary device used in laughs the rose is ....\n\n"
+            "(j) According to the poem, what is the colour of God?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Oliver had dared to ask for more food than he was allowed.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• He is the church official who runs and presides over the workhouse where Oliver was born.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• He offered a reward of five pounds to anyone willing to take Oliver off the workhouse's hands and teach him a trade.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• This refers to the crowd of local people who came to welcome the narrator, gathered in Mama's sitting room.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The description creates an image of poverty and deprivation.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• She had accepted the plan to postpone starting a family until she had properly settled down.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• She now feels ready and wants to start having children.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• He responds with surprise and a degree of frustration, seeming confused and somewhat opposed to the sudden change of heart.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• Personification. The rose is given the human ability to laugh.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• According to the poem, God embodies every colour, blending all the colours together much like a rainbow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2022 Q5)\n\n"
+            "Questions 6(a) to 6(c) are based on the abridged and simplified version of Charles Dickens' Oliver Twist.\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"You know why, son. If a rich and successful man marries a woman whose name is stained because of her birth, it will be quite sad indeed.... Wicked people will not let her forget her past, even though it's not her fault.\" (Page 122)\n\n"
+            "(a) Son and rich and successful man refer to .......\n\n"
+            "(b) The speaker is ...........\n\n"
+            "(c) ... a woman whose name is stained because of her birth .... How did her birth stain her name?\n\n"
+            "Read the following extract carefully and answer Questions 6(d) and 6(e).\n\n"
+            "LAWRENCE DARMANI: *Sosu and the Bukari Boys*\n\n"
+            "\"Sosu felt his parents were very mean; otherwise, why did they give him such a small amount of money? Look at his friend, Bukari, who always brought a lot of money to school!... Bukari's father dropped him at school every day while he and Vivian had to walk.\" (Page 150)\n\n"
+            "(d) The extract brings out the theme of ....\n\n"
+            "(e) The main literary device used in the extract is ....\n\n"
+            "Read the following extract carefully and answer Questions 6(f) to 6(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA: The master-scholar was sitting on the chair studying, so he could not move off. (Act 1, Page 31)\n\n"
+            "(f) Monka needed the chair because ...........\n\n"
+            "(g) The scene of this extract is ...........\n\n"
+            "(h) The master-scholar refers to ...........\n\n"
+            "Read the following extract carefully and answer Questions 6(i) and 6(j).\n\n"
+            "LADE WOSORNU: *Desert Rivers*\n\n"
+            "    Without a sound\n"
+            "    They gush out into the bowels of the seas\n"
+            "    Far, far away from the unaided human eyes\n"
+            "    If you cannot see our tears\n"
+            "    It does not mean we do not cry. (Page 15)\n\n"
+            "(i) Water/Rivers are used in the poem as symbols of ...........\n\n"
+            "(j) If you cannot see our tears / It does not mean we do not cry. The above lines bring out the theme of ........",
+        answer: "⦿ (a) Answer:\n\n"
+            "• All three descriptions point to the same person: Harry Maylie, Mrs Maylie's son and Rose's husband.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• The speaker is Mrs Maylie, Harry's mother.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• Her father had changed his name out of shame, since he was believed to be unknown, or her sister had fallen pregnant outside marriage; these circumstances left her without a settled home and her origins clouded by scandal.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• The passage highlights themes of ingratitude and envy. Sosu fails to appreciate what he has and instead resents his friend's greater privilege.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• Contrast. Sosu's situation is set directly against Bukari's more comfortable one.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A family gathering was underway, and since Ato had nowhere to sit, she wanted to offer him the chair.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• The scene takes place at Ato's family home, namely the Odumna clan house in his home village.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• This refers to Ebow, Ato's brother and Esi Kom's son.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• They stand for life, renewal, and rebirth.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• They express the theme of enduring suffering quietly, that is, bearing pain without outward complaint.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2023 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 7(a) to 7(c).\n\n"
+            "KEN SARO-WIWA: *Home Sweet Home*\n\n"
+            "\"My friend, Sira, was Waale's only daughter. As I said, we had grown up together, and had attended school together. She had not been able to complete her elementary schooling, although she was a brilliant girl\". (Page 181)\n\n"
+            "(a) Who is Waale?\n\n"
+            "(b) Sira could not complete her elementary schooling because....\n\n"
+            "(c) Sira was not among the people who came to welcome the writer because......\n\n"
+            "Read the following extract carefully and answer Questions 7(d) and 7(e).\n\n"
+            "AMA ATA AIDOO: *The Girl Who Can*\n\n"
+            "\"They said I was born in Hasodzi; and it was very big village in the Central Region of our country Ghana ....\" (Page 142)\n\n"
+            "(d) The extract is the ....... of the story.\n\n"
+            "(e) \"They said that I was born ....\" shows that ......\n\n"
+            "Read the following extract carefully and answer Questions 7(f) to 7(h).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    MONKA [to herself]: I remember the time he was preparing to go to the white man's land........ The money .... the money .... This is something which no one should hear anything about. (Act 3, Page 56)\n\n"
+            "(f) According to Monka, one of the things no one should hear anything about is .......\n\n"
+            "(g) The extract is an example of a/an ......\n\n"
+            "(h) The money .... the money .... is an example of a literary device called ....\n\n"
+            "Read the following extract carefully and answer Questions 7(i) and 7(j).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and we wake up glowing. (Page 184)\n\n"
+            "(i) The extract brings out the theme of .......\n\n"
+            "(j) ... she kindles us / like lump coal lighted .... The dominant figure of speech in the line above is .......",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Waale is Sira's mother, and a friend of the narrator's mother.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• Her family did not want their lineage to end, so when she gave birth to twins she was sent away from home, cutting short her education.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She had been forced to leave the village after having twins and was therefore away travelling at the time.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It forms the opening section of the story, serving as its introduction and setting.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The phrasing shows that the narrator has no birth certificate and cannot confirm her own birthplace with certainty, likely because her parents could not read or write.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• A substantial part of the family's land, along with valuable heirlooms such as gold ornaments, had to be sold or pawned to fund the journey.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a soliloquy. Monka is speaking her private thoughts aloud to herself.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Repetition, used to emphasise how heavily the subject weighs on her mind.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It celebrates the warmth of a mother's love and the comfort her presence brings to the family.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• Simile. Her effect on the family is compared to lit coal using the word \"like\".",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2024 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 8(a) and 8(b).\n\n"
+            "CHARLES DICKENS: *Oliver Twist*\n\n"
+            "\"Boy what's your name?\" snarled the chairman.\n"
+            "\"Oliver Twist sir\"\n"
+            "\"You know that you're an orphan, is that right?\"\n"
+            "\"What's an orphan sir?\"\n\n"
+            "(a) The chairman's tone tells us that he is .......\n\n"
+            "(b) From Oliver's question we can tell that he is ......\n\n"
+            "Read the following extract carefully and answer Questions 8(c) and 8(d).\n\n"
+            "KAAKYIRE AKOSOMO NYANTAKYI: *The Generous Hunter*\n\n"
+            "    Calm down, Mr Hunter, I come in peace. Your ability to distinguish me from my younger brother has surprised me. Many people think we are identical twins.\n\n"
+            "(c) Why did the speaker go to see the hunter?\n\n"
+            "(d) What lesson can we learn from the speaker's action?\n\n"
+            "Read the following extract carefully and answer Questions 8(e) and 8(f).\n\n"
+            "ROBERT FROST: *A Minor Bird*\n\n"
+            "    The fault must partly have been in me\n"
+            "    The bird was not to blame for his key\n"
+            "    And of course there must be something wrong\n"
+            "    In wanting to silence any song\n\n"
+            "(e) Give the rhyming scheme for the extract above.\n\n"
+            "(f) From the poem, what lesson do you learn about fault finding?\n\n"
+            "Read the following extract carefully and answer Questions 8(g) and 8(h).\n\n"
+            "LAWRENCE DARMANI: *Scribbler's Dream*\n\n"
+            "    Tell you the truth:\n"
+            "    the gold adorning the neck\n"
+            "    once was lost in rocky soils\n"
+            "    They dig deep who find it!\n\n"
+            "(g) The dominant literary device in the 2nd and 3rd lines is .......\n\n"
+            "(h) What does the writer mean by \"They dig deep who find it\"?\n\n"
+            "Read the following extract carefully and answer Questions 8(i) and 8(j).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Yes, my young woman, I shall remember you.\n"
+            "    I shall remember you in the hours of the night\n"
+            "    In my sleep,\n"
+            "    In my sleepless sleep.\n\n"
+            "(i) Who does \"my young woman\" refer to?\n\n"
+            "(j) What is the figure of speech in the expression, \"In my sleepless sleep\"?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• His tone reveals him to be harsh, unsympathetic, and cold-hearted towards the boy.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• His question shows that he is innocent and unaware, since he genuinely does not understand what the word means.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• The speaker had come to express thanks, since the hunter had earlier spared and released his younger sibling from a trap.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• We learn the importance of showing gratitude and repaying kindness shown to us by others.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• The lines follow a couplet pattern, rhyming aa, bb.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• The poem teaches us to examine our own faults before criticising others, and to be more tolerant and accepting.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• Metaphor, used symbolically to represent something valuable and hard-won.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• The line means that success only comes through hard, persistent effort. Those who work hardest are the ones who achieve it.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• It refers to Eulalie, Ato's wife.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• This is an oxymoron, pairing two contradictory ideas, sleep and sleeplessness, for deliberate effect.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2025 Q5)\n\n"
+            "Read the following extract carefully and answer Questions 9(a), 9(b) and 9(c).\n\n"
+            "AMA ATA AIDOO: *The Dilemma of a Ghost*\n\n"
+            "    Nana: Yes, I am sitting here. So you thought I was dead? No, I am not. Go home, good neighbours and save your tears for my funeral. It cannot be long now...\n\n"
+            "(a) Who are the good neighbours?\n\n"
+            "(b) It cannot be long now. Why does Nana think she will die soon?\n\n"
+            "(c) Nana is in a ........ mood.\n\n"
+            "Read the following extract carefully and answer Questions 9(d) and 9(e).\n\n"
+            "KOBENA EYI ACQUAH: *A Wreath of Tears*\n\n"
+            "    Your funeral\n"
+            "    was s quiet and small\n"
+            "    almost too small, it is said\n"
+            "    for a man your stature\n"
+            "    You must\n"
+            "    Have preferred it that way\n\n"
+            "(d) This poem is an example of a/an ......\n\n"
+            "(e) The above lines show that the dead person was ......\n\n"
+            "Read the following extract carefully and answer Questions 9(f) and 9(g).\n\n"
+            "EVELYN TOOLEY HUNT: *Mama Is a Sunrise*\n\n"
+            "    When she comes slip-footing through the door,\n"
+            "    she kindles us\n"
+            "    like lump coal lighted\n"
+            "    and she wake up glowing.\n"
+            "    She put a spark even in Papa's eyes\n"
+            "    and turns out all our darkness.\n\n"
+            "(f) The literary device in turns out all our darkness is ....\n\n"
+            "(g) Mama is a Sunrise is an example of which literary device?\n\n"
+            "Read the following extract carefully and answer Questions 9(h), 9(i) and 9(j).\n\n"
+            "ERNEST HEMINGWAY: *A Day's Wait*\n\n"
+            "    I thought perhaps he was a little light-headed and after giving him the prescribed capsules at eleven o'clock, I went out for a while.\n\n"
+            "(h) One thing that made Schatz's father think the boy was a little light-headed is ........\n\n"
+            "(i) What exactly did the writer do when he \"went out for a while\"?\n\n"
+            "(j) How did Schatz feel at the end of the story?",
+        answer: "⦿ (a) Answer:\n\n"
+            "• They are the First Woman and Second Woman.\n\n"
+            "⦿ (b) Answer:\n\n"
+            "• She is overwhelmed with grief because Ato has married a descendant of slaves, and the sorrow this has caused her makes her feel her death is near.\n\n"
+            "⦿ (c) Answer:\n\n"
+            "• She is in a sad, sorrowful, and mournful state of mind.\n\n"
+            "⦿ (d) Answer:\n\n"
+            "• It is a dirge: a poem written in tribute or mourning for someone who has died.\n\n"
+            "⦿ (e) Answer:\n\n"
+            "• They suggest the deceased was a humble and modest person, someone who would not have wanted a grand send-off.\n\n"
+            "⦿ (f) Answer:\n\n"
+            "• This is hyperbole/metaphor. Her presence is described as dramatically banishing all gloom from the household.\n\n"
+            "⦿ (g) Answer:\n\n"
+            "• It is a metaphor, directly equating Mama with a sunrise.\n\n"
+            "⦿ (h) Answer:\n\n"
+            "• Schatz was refusing to rest or relax, showed no interest in anything around him, and even asked his father to leave him alone.\n\n"
+            "⦿ (i) Answer:\n\n"
+            "• He took his dog out and went hunting, shooting a couple of birds along the way.\n\n"
+            "⦿ (j) Answer:\n\n"
+            "• By the end, he felt calm and relieved.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "English JHS1 s4 ss1 - Essay & Composition Writing": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -17634,6 +17619,2019 @@ final Map<String, PracticeModel> becePracticeData = {
             "Noticing their indecision, Jojo's grandmother reminded them of an old saying, \"Two heads are better than one.\" Taking the advice to heart, the pair chose to merge their ideas rather than pick one over the other, designing a garden filled with vibrant flowers and tall trees, dotted throughout with lively playgrounds featuring swings, slides, and seesaws.\n\n"
             "With help from fellow villagers, they worked tirelessly to bring their shared vision to life. By competition day, Wakanda had been transformed, flowers blooming everywhere, their fragrance filling the air, and children's laughter echoing as they played.\n\n"
             "The village chief praised the pair's teamwork, echoing the old saying once more, \"Two heads are truly better than one.\" Wakanda had become not just happier but more beautiful and full of life, thanks entirely to Jojo and Zoe's collaboration. Beaming with pride, the two friends realised that combining their ideas and respecting each other's perspectives had led to something far greater than either could have achieved alone.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 31 (BECE 2010 Q3)\n\n"
+            "Write a short story illustrating the saying: All that glitters is not gold.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the small town of Aburi lived Josie, a young girl who led a simple, contented life helping her parents on their farm. One day, a flashy stranger named Kweku arrived in town, driving a shiny car and dressed in sparkling clothes, showing off his latest gadgets. Everyone was impressed, none more so than Josie.\n\n"
+            "Kweku spoke of city life and quick riches, showing Josie glittering stones he claimed were diamonds, insisting there were plenty more where they came from. He convinced her to join him in the city, promising wealth beyond her dreams.\n\n"
+            "Drawn in by his promises, Josie left Aburi and her family behind to follow him. But once in the city, reality set in, the \"diamonds\" turned out to be nothing more than glass, and his supposedly wealthy lifestyle was all borrowed or rented. Kweku was deep in debt, his glamorous image hiding serious problems underneath.\n\n"
+            "Feeling betrayed and homesick, Josie made her way back to Aburi, where her relieved parents welcomed her home with open arms. She had learned an important lesson, that something shiny on the outside does not necessarily mean it is genuine or valuable.\n\n"
+            "From that day forward, Josie never forgot the truth of the saying: all that glitters is not gold.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 32 (BECE 2011 Q2)\n\n"
+            "Write a story which ends with the expression: \"…… what a dream!\"",
+        answer: "⦿ Sample Essay\n\n"
+            "In the bustling city of Accra lived a young girl named Zaya, whose heart was full of dreams. Every afternoon after school, she would settle beneath the mango tree in her family's yard and let her imagination wander.\n\n"
+            "One warm afternoon, as she drifted off there and found herself in a vivid dream, she was a celebrated singer, standing on a grand stage bathed in dazzling lights, holding a golden microphone, dressed in a gown that shimmered like the stars themselves.\n\n"
+            "An enormous crowd had gathered, drawn from Accra and neighbouring towns, all eager to hear her sing. She spotted her family, school friends, and even teachers cheering from the front. As she began to sing, her voice carried effortlessly through the air, filled with power and beauty that held everyone spellbound.\n\n"
+            "Her songs celebrated love, happiness, and the vibrancy of Accra, its lively markets, warm-hearted people, and joyful festivals. The crowd danced and sang along, creating a wave of shared joy and unity.\n\n"
+            "Then, suddenly, a gentle nudge broke the spell. Zaya opened her eyes to find her younger brother Jadon shaking her awake, and realised she was still right there under the mango tree. Smiling to herself, she thought, \"…what a dream!\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 33 (BECE 2012 Q2)\n\n"
+            "Write a story which ends with the sentence: We arrived just in time to save the situation.",
+        answer: "⦿ Sample Essay\n\n"
+            "One sunny afternoon in Brofoyedu, my friend Ayi and I set off for a walk to the river, chatting about school, friends, and our upcoming holiday plans.\n\n"
+            "Along the way, we spotted a group of village children busily setting up a tent close to the riverbank, apparently planning a picnic. Ayi noted that the tent seemed dangerously close to the water, but we did not think much of it and carried on.\n\n"
+            "We settled a short distance away to enjoy the calm of nature, until, without warning, the sky darkened and rain began to fall. What started light quickly became a heavy downpour, and as we sheltered under a tree, Ayi suddenly pointed and shouted, \"Look at the tent!\"\n\n"
+            "The river was rising fast, and the strong current was already dragging at the tent and the belongings scattered around it. We realised at once that the children were in real danger as they scrambled to gather their things.\n\n"
+            "Without hesitation, we ran towards them. Ayi grabbed one side of the tent while I helped collect the scattered items, and together we shouted for the children to move to higher ground. The pouring rain made everything treacherous underfoot.\n\n"
+            "Working together, Ayi and I managed to haul the tent clear of the rising water, just moments before a huge wave surged through the very spot where it had been standing.\n\n"
+            "Catching our breath, we checked that everyone was safe. Frightened but unharmed, the children were guided to a safer spot to continue their picnic.\n\n"
+            "Looking at each other with relief, Ayi remarked, \"That was close!\" I simply replied, \"We arrived just in time to save the situation.\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 34 (BECE 2016 Q3)\n\n"
+            "Write a story which ends with the sentence: We were lucky that night.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the Ghanaian village of Akosombo, life revolved around the Volta River, where residents fished and farmed for their livelihood.\n\n"
+            "One evening, a fierce storm rolled in. The sky turned dark, winds picked up, and the river began churning wildly, leaving everyone uneasy.\n\n"
+            "The village elders, who understood the river's moods well, called everyone together, sensing that something serious was about to happen.\n\n"
+            "As the rain intensified and the river swelled further, the elders decided it was time to move to higher ground. Families quickly gathered their children and belongings and made their way uphill.\n\n"
+            "Just as the last person reached safety, a tremendous crash echoed through the night. The river had risen so high it swallowed the entire village, sweeping away homes and everything in its path. From their vantage point on the hill, the villagers watched their homes being destroyed, frightening, yet a relief that everyone had made it out safely.\n\n"
+            "Hours later, the rain finally eased. The following morning revealed the extent of the damage, but the villagers understood clearly that by trusting the elders and working together, they had avoided tragedy.\n\n"
+            "One of the elders summed it up simply: \"We were lucky.\" Though saddened by the loss, they were grateful above all to be alive and safe.\n\n"
+            "We were lucky that night.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 35 (BECE 2017 Q3)\n\n"
+            "Write a story that ends with the expression: So it pays to be kind to strangers.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the busy streets of Accra lived a young boy called Kweku, known throughout his neighbourhood for his friendly nature and readiness to help. One hot afternoon, on his way to the market, he spotted an elderly woman struggling under the weight of a heavy fruit basket.\n\n"
+            "Without a second thought, he rushed over to help. \"Let me carry that for you, ma'am,\" he offered, smiling warmly. Grateful, the woman let him carry the basket to her stall, where he neatly arranged the fruits for her.\n\n"
+            "She introduced herself as Adwoa, a fruit seller, and gave him a ripe mango as thanks. Kweku accepted gratefully and continued on his way.\n\n"
+            "Months later, hard times fell on Kweku's family, his father became seriously ill, and paying for treatment proved difficult. Kweku felt helpless, unsure what to do.\n\n"
+            "As chance would have it, a customer visiting Adwoa's stall overheard Kweku discussing the situation with his mother. Moved by their struggle, she made enquiries and discovered that this was the same boy who had once helped Adwoa.\n\n"
+            "A successful businesswoman, she stepped in to cover his father's medical bills and offered further support to the family through their difficult time.\n\n"
+            "Overwhelmed with gratitude, Kweku's mother tearfully thanked her. The woman simply smiled and replied, \"It was Kweku's kindness to a stranger that brought us together. So it pays to be kind to strangers.\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 36 (BECE 2019 Q3)\n\n"
+            "Write an interesting story which ends with the words, it pays to be kind to strangers.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a quiet village lived a boy named Riaz, well-liked for his kindness and easy smile. Walking home from school one day, he came across a man sitting by the roadside, looking exhausted and lost. The stranger introduced himself as Najeem.\n\n"
+            "Najeem explained he had travelled from a faraway village in search of work but had found nowhere to stay. Without hesitation, Riaz brought him home, where his family welcomed Najeem warmly, sharing their meal and offering him a place to rest overnight.\n\n"
+            "The following morning, Najeem thanked them and revealed a secret, he was a skilled craftsman, and as a gesture of gratitude, he wanted to create something beautiful for the family.\n\n"
+            "True to his word, he used local materials to sculpt a striking piece of art symbolising family unity and love. The sculpture caught the eye of a passing art dealer, who offered a generous sum to purchase it.\n\n"
+            "With the proceeds, Riaz's family were able to renovate their home and support his education, while Najeem went on to build a career as a respected artist, staying close with the family that had once shown him such kindness.\n\n"
+            "Sitting together and marvelling at how much had changed, they exchanged knowing smiles, a quiet reminder that it truly pays to be kind to strangers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 37 (BECE 2022 Q1)\n\n"
+            "Write an interesting story that ends with the expression, Unfortunately I realized when it was too late that my friend was a wolf in sheep's clothing.",
+        answer: "⦿ Sample Essay\n\n"
+            "When I first met John, I was convinced he was one of the kindest, most thoughtful people I had ever known. He always seemed available whenever I needed support, and we quickly grew close. I trusted him without question.\n\n"
+            "One day, John pitched me a business idea, an opportunity he was certain would prove hugely successful. He asked if I would invest some money to help launch it, assuring me the returns would be substantial.\n\n"
+            "Though hesitant initially, his confidence eventually won me over, and I handed him a sizeable sum, trusting him to manage everything responsibly.\n\n"
+            "Months passed with no word from him. My calls and emails went unanswered, and eventually I decided to visit his office myself. What I found shocked me, the place was completely deserted, with no trace of John or his supposed company anywhere. Trying his phone again, I discovered it had been disconnected entirely.\n\n"
+            "Unfortunately I realized when it was too late that my friend was a wolf in sheep's clothing. He had manipulated me into handing over my money, then vanished without leaving a trace. Devastated, I could not shake the feeling of having been foolish enough to trust him so completely.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 38 (BECE 2023 Q2)\n\n"
+            "Narrate an interesting story that ends with the statement, Indeed, it was a great achievement.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a small village lived a curious, brave young girl named Ama, who dreamed constantly of flying like the birds she admired. Each day, she would climb a small hill in the fields and watch them soar overhead, their wings catching the sunlight.\n\n"
+            "One day on her usual visit to the hill, she met an old man named Kwaku, widely regarded as the village's wisest resident. Noticing her fascination with the birds, he decided to help her dream take shape, and together they began building a kite large enough for her to fly.\n\n"
+            "Over the following weeks, the kite grew more elaborate, painted in bright colours and adorned with beads and feathers. Ama and Kwaku worked tirelessly, refining every detail as their goal drew closer.\n\n"
+            "Finally, the day came for the kite's first flight. The whole village turned out to watch. With courage and excitement, Ama held tight as Kwaku and other villagers ran alongside, helping the kite catch the wind.\n\n"
+            "Suddenly, the kite lifted off, and so did Ama! She soared above the village, watching her dream unfold before her, spotting the beaming faces of her family and friends cheering her on from below.\n\n"
+            "After a beautiful flight, she landed safely to a roar of cheers and applause. Ama had not only realised her own dream but had shown the whole village what perseverance, courage, and creativity could achieve.\n\n"
+            "Tears of joy in her eyes, she embraced Kwaku tightly. The sky, it seemed, was no longer a limit for her. Indeed, it was a great achievement.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 39 (BECE 2025 Q3)\n\n"
+            "You once doubted your abilities, but an experience changed your mindset completely. Write your story, ending with the statement, \"I will never compare myself with anyone again.\"",
+        answer: "⦿ Sample Essay\n\n"
+            "There was a period when self-doubt followed me everywhere. I was convinced everyone around me was smarter, more capable, more talented, constantly measuring my grades against my friends' and feeling inadequate whenever I fell short. This habit carried on into college, where I grew so consumed with outdoing others that I nearly abandoned my own goals altogether, no longer enjoying learning for its own sake but instead judging my worth purely by comparison.\n\n"
+            "Then, one day, something shifted. I volunteered to present a group project simply because nobody else was willing to. Nerves gripped me, and fear of failure clouded my thoughts, but standing before the class, I told myself to simply do my best, mistakes or not. To my astonishment, the presentation went far better than I had expected, my classmates applauded, and my professor praised both my clarity and confidence.\n\n"
+            "Afterwards, one of my group members told me, \"You have got a real gift for explaining things simply, I could never do that.\" That comment struck something in me: we each carry different strengths. Some excel with numbers, others with writing, and clearly, mine lay in explaining ideas clearly.\n\n"
+            "That experience taught me something lasting, that self-worth is not built on comparison but on genuine growth and belief in oneself. Since then, I have focused on improving steadily, one step at a time, rather than constantly glancing sideways at others. Now, I take pride both in my own progress and in celebrating others' success. I will never compare myself with anyone again.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 40 (BECE 2001 Q3)\n\n"
+            "You are a speaker in a school debate on the topic \"Boys should not help in the kitchen\". Write your speech for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Chairperson, Honourable Panel of Judges, Accurate Timekeeper, Headteachers, Members of Staff, Invited Guests, Co-debaters, Ladies and Gentlemen:\n\n"
+            "I rise today to firmly oppose the motion that boys should not help in the kitchen. Within Ghana's rich cultural fabric, it is essential that we champion equality and shared responsibility across our homes and communities.\n\n"
+            "Cooking is not merely a chore, it is a genuinely valuable life skill everyone deserves to learn, regardless of gender. Our traditional dishes form a meaningful part of who we are as a people, and shutting boys out of the kitchen denies them the chance to connect with that culinary heritage.\n\n"
+            "We also live in an age that champions fairness and equality. Assigning kitchen duties only to girls simply reinforces old-fashioned gender roles and undermines progress towards true equality. Boys who never learn to cook miss out on practical skills they will need throughout life, whether living independently or supporting their own families later on.\n\n"
+            "Beyond the practical benefits, involving boys in cooking helps them appreciate the effort behind a well-prepared meal, while building a genuine sense of responsibility and teamwork. Sharing kitchen duties teaches respect for one another's contributions and the value of working together.\n\n"
+            "In closing, the notion that boys should not help in the kitchen no longer fits with modern Ghanaian values of unity and fairness. Let us encourage everyone, regardless of gender, to see the kitchen as a shared space for learning, growth, and togetherness. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 41 (BECE 2006 Q3)\n\n"
+            "You are a speaker in an inter-school debate on the topic: \"Television is doing more harm than good to students\". Write your speech for or against the topic.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mr Chairman, Honourable Panel of Judges, Accurate Timekeeper, Headmasters and Headmistress present, Members of Staff, Invited Guests, Co-debaters, Ladies and Gentlemen gathered in this august house;\n\n"
+            "I am Selina Boateng, representing Obuasi District Assembly Junior High School, and I stand to argue in favour of this motion, that television does more harm than good for students, a point especially relevant within our Ghanaian context.\n\n"
+            "There is no denying television offers some educational value, but we cannot overlook the harm it too often causes young minds.\n\n"
+            "For one, television proves a major distraction from schoolwork. Many students spend hours glued to their screens rather than studying, weakening academic performance and undermining good study habits, a genuine threat to our future in a country that prizes education so highly.\n\n"
+            "Beyond that, television frequently pushes unrealistic values, glorifying materialism and superficial appearances in ways that can shape young Ghanaians into prioritising possessions over education and personal growth, chipping away at our traditional respect for hard work and community.\n\n"
+            "Excessive viewing also carries real health consequences. It encourages a sedentary lifestyle that contributes to obesity, a growing concern in our society, while exposure to violent or unsuitable content can shape students' behaviour and attitudes in troubling ways.\n\n"
+            "To conclude, while television does hold some educational merit, the evidence strongly suggests it does more harm than good overall. As Ghanaians who value education deeply, we must recognise these risks and find a healthier balance between television's benefits and the damage it can cause to our students' wellbeing, values, and futures. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 42 (BECE 2009 Q3)\n\n"
+            "You are a speaker in a debate on the motion: \"The use of mobile phones in school by students should be banned\". Write your contribution for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mr Chairman, Honourable Minister of Education, Honourable Member of Parliament, the Headmaster, parents, students, ladies and gentlemen.\n\n"
+            "Thank you for this opportunity to speak on the motion that mobile phones should be banned in schools. I firmly support this motion, and I will explain why it matters so much within our Ghanaian education system.\n\n"
+            "Firstly, phones in the classroom create serious distractions. With access to messages, social media, and games, students easily lose focus during lessons, a costly problem in a country where education is regarded as the pathway to a brighter future.\n\n"
+            "Secondly, mobile phones open the door to academic dishonesty. Smartphones make it far too easy to look up answers or cheat during assessments, undermining the fairness of our education system and devaluing the effort of students who work honestly.\n\n"
+            "Lastly, mobile phones can be costly, creating unfair divides between students. Not every family can afford the latest device, and permitting phones in school risks deepening social inequality among classmates.\n\n"
+            "In summary, while phones certainly have their uses, allowing them in schools poses real risks to both education and student wellbeing. I firmly believe banning mobile phones in Ghanaian schools is a necessary measure to protect a focused, fair, and secure learning environment for everyone. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 43 (BECE 2021 Q2)\n\n"
+            "As the main speaker in a debate on the motion, Students should not wear uniform to school, write your speech for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Good afternoon esteemed judges, respected teachers, and my dear fellow students,\n\n"
+            "I stand before you today in support of keeping school uniforms as part of our tradition.\n\n"
+            "Firstly, uniforms help promote equality among students. In a society where family incomes vary widely, uniforms ensure every student appears equal, reducing opportunities for bullying and fostering a genuine sense of unity.\n\n"
+            "Secondly, wearing a uniform builds discipline and mental readiness for learning. Putting one on each morning signals that it is time to focus, helping us prepare mentally for the day ahead.\n\n"
+            "Beyond that, our Ghanaian schools have long relied on uniforms as a source of identity and school pride. Bearing our school's colours and emblems, uniforms unite students under a shared symbol, strengthening our sense of belonging and community.\n\n"
+            "In conclusion, school uniforms play a genuinely important role in promoting equality, building discipline, and uniting our school communities. Let us continue honouring a tradition that has served us so well over the years.\n\n"
+            "Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 44 (BECE 1996 Q4)\n\n"
+            "Give any account of a fearful experience you have had or witnessed.",
+        answer: "⦿ Sample Essay\n\n"
+            "One evening, I decided to walk through the forest near my home. As the sun dipped lower, the trees cast long shadows across my path, and the air filled with birdsong and a light, cool breeze.\n\n"
+            "Suddenly, a rustling sound came from behind me. I spun around but saw nothing there, and assumed it was just the wind, so I carried on. Minutes later, the rustling returned, louder this time, and closer. I stopped dead, my pulse quickening.\n\n"
+            "Then a large, wild dog burst from the bushes. Its coat was matted, its eyes glinting in the fading light, and its bared teeth were unmistakably sharp as it growled at me. Fear rooted me completely to the spot.\n\n"
+            "Recalling something I had once read about staying calm in such situations, I began edging backwards without turning away from the animal, raising my arms to appear larger. The dog tracked my movements closely but held its ground. Once I felt far enough away, I turned and sprinted the rest of the way.\n\n"
+            "I did not slow down until my house came into view. Shaking, I bolted every door and watched from the window, but no sign of the dog followed. That night, sleep would not come easily as the encounter replayed itself in my mind. The forest, once a place of calm, now felt threatening, and I resolved never to walk there alone again.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 45 (BECE 1997 Q3)\n\n"
+            "You once got lost when you were a child. Narrate to your classmates why you got lost, what you went through and how you were finally found.",
+        answer: "⦿ Sample Essay\n\n"
+            "It happened one Friday when my mother brought me along to Bodomase Market while she shopped for vegetables. My attention drifted towards a colourful toy stall nearby.\n\n"
+            "Curiosity pulled me closer, and before I realised it, I had wandered off completely, losing sight of my mother. Panic set in the moment I looked up and could not find her anywhere.\n\n"
+            "I began crying and calling out for her, but between the market's noise and the maze of stalls, I had no idea which direction to try. I felt utterly lost.\n\n"
+            "Fortunately, a kind fruit seller noticed my distress and came over to ask what was wrong. Still sobbing, I nodded when she asked if I was lost. She took my hand and brought me to a security officer, who then announced over the loudspeaker that a child had been found.\n\n"
+            "After what felt like forever, my mother came rushing over, visibly relieved, and pulled me into a tight hug, thanking the woman and the officer profusely for their help. We were finally back together.\n\n"
+            "It was a genuinely frightening ordeal, but it taught me the importance of staying close to my parents in crowded places. Just as importantly, I learned there are good, caring people out there willing to help a lost child, like the kind vendor and the security officer that day.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 46 (BECE 1999 Q4)\n\n"
+            "Your parents left you in charge of the house for one day. Tell your friends what you did.",
+        answer: "⦿ Sample Essay\n\n"
+            "Hey everyone! You will never guess, my parents left me home alone for an entire day! It was completely mine to spend as I pleased, so let me tell you all about it.\n\n"
+            "I slept in that morning, which felt amazing, then took my time waking up before making myself a hearty breakfast, pancakes, bacon, and a big glass of orange juice.\n\n"
+            "Afterwards, I settled down to watch television, found a good comedy on Netflix, and lounged on the sofa with a huge bowl of popcorn, laughing the whole way through.\n\n"
+            "Later on, I did a bit of tidying around the house, nothing major, just enough to keep things neat, and even managed a load of laundry, which honestly felt like a small triumph for me.\n\n"
+            "In the afternoon, I got to play video games uninterrupted for a couple of hours, genuinely satisfying to have all that free time without anyone bothering me.\n\n"
+            "By evening, I made myself a simple dinner of spaghetti with tomato sauce and a side salad. After eating, I took a long shower, then relaxed in my room with music and a book.\n\n"
+            "By the end of it, I felt quite proud of myself for handling the house responsibly while still finding time to relax. It struck a nice balance between fun and responsibility, a genuinely well-spent day!\n\n"
+            "That is how I spent it, friends! How was your day? Let me know!",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 47 (BECE 2000 Q3)\n\n"
+            "Narrate to your friend an interesting story your grandmother told you.",
+        answer: "⦿ Sample Essay\n\n"
+            "Long ago, in the peaceful village of Anomabo, my grandmother was just a young girl, full of energy and dreams, running barefoot along the sandy paths as her laughter mixed with the songs of the birds.\n\n"
+            "Among her stories, she often spoke of Kwabena, a skilled young fisherman known throughout the village. Strong from years of hauling in heavy nets, Kwabena was equally known for his generous heart, always sharing his catch with those less fortunate.\n\n"
+            "One evening, as the sky turned shades of orange and purple, Kwabena noticed something unusual glinting in his net, a stunning, sparkling stone, a gift from the sea itself. Villagers gathered around in amazement as the gem shone with a light that seemed to dance, casting a mesmerising glow across the humble village.\n\n"
+            "Grandma always emphasised what happened next: rather than keep such a treasure for himself, Kwabena declared it should belong to the entire village, a token of unity, generosity, and the kind spirit of the Anomabo people.\n\n"
+            "The gem became the village's greatest treasure, kept safe at the chief's palace for all to admire, and was said to bring good fortune and happiness to Anomabo for years afterward.\n\n"
+            "Whenever Grandma told this tale, her eyes would sparkle just like the gem she described. To this day, Anomabo is fondly known as the Village of the Shimmering Stone, a place where kindness and community continue to shine brighter than any jewel.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 48 (BECE 2002A Q4)\n\n"
+            "Narrate the most interesting story you have read and say why you like it.",
+        answer: "⦿ Sample Essay\n\n"
+            "Let me share the most fascinating story I have ever come across, \"Ananse and the Sky God,\" a well-loved piece of Ghanaian folklore centred on Ananse, the clever, mischievous spider.\n\n"
+            "The tale begins with a devastating famine sweeping through the land, leaving people to suffer. Determined to help his village, Ananse set out to find a solution.\n\n"
+            "He learned of Nyame, the Sky God, who kept a box filled with wisdom and stories, knowledge Ananse believed could hold real power. So he journeyed to seek out Nyame directly.\n\n"
+            "Once there, Ananse offered to buy the box, and Nyame, intrigued, asked what he would offer in exchange. Thinking quickly, Ananse proposed a daring challenge, that he could capture all the jungle's fiercest creatures and trap them in a single calabash. Confident it was impossible, Nyame accepted the wager.\n\n"
+            "But through cunning and clever tricks, Ananse succeeded, capturing even a dangerous python and a hornet's nest, leaving Nyame thoroughly impressed by his ingenuity.\n\n"
+            "True to his word, Nyame handed over the box of stories, which Ananse carried home. Filled with wisdom, those stories helped the villagers find their way through the famine.\n\n"
+            "I love this story because it celebrates resourcefulness and using one's wits to overcome hardship. Ananse's cleverness and determination saved his people, showing how ingenuity can triumph over even the toughest obstacles, and being such a treasured part of our Ghanaian heritage makes it all the more special to me.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 49 (BECE 2007B Q3)\n\n"
+            "Give an account of a memorable event in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the lively town of Nima, a truly special day was underway, Eid-ul-Fitr, a day I had looked forward to eagerly, marking the close of Ramadan's month of fasting and reflection.\n\n"
+            "As morning broke, unity seemed to settle over Nima. The azan rang out through the streets, calling everyone towards the mosque. I remember slipping into my new outfit, feeling the fresh fabric against my skin, joy building inside me with every moment.\n\n"
+            "Everywhere, people exchanged warm greetings of \"Eid Mubarak!\" Children's laughter filled the air as families and friends embraced, swapped stories, and formed a wonderfully close community.\n\n"
+            "One particular highlight was the communal prayer, rows upon rows of worshippers, men, women, and children standing shoulder to shoulder, united in heartfelt devotion, offering gratitude for blessings received and hope for what lay ahead.\n\n"
+            "Once prayers concluded, Nima burst into colour, its streets lined with stalls offering delicious treats, from kebabs to sweet delicacies.\n\n"
+            "That day in Nima, Eid-ul-Fitr became more than just a festival, it was a vivid picture of unity, joy, and shared happiness. It was a day of love and togetherness that I will always hold close to my heart.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS2 s4 ss1 - Essay & Composition Writing": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1990 Q3)\n\n"
+            "Describe what you normally do on Sundays.",
+        answer: "⦿ Sample Essay: My Sunday Routine\n\n"
+            "Sundays in Ghana have their own rhythm for me. The day begins with the far-off ringing of church bells and hymns drifting through the morning air, letting me know a fresh day has begun.\n\n"
+            "Church usually opens my Sunday. Most Ghanaians treat Sunday as a day set aside for worship, and I am no different. The energetic gospel music, powerful preaching, and the company of fellow worshippers always lift my mood. Once the service ends, we often stop to greet friends and sometimes grab a meal together nearby, perhaps some jollof rice or fufu.\n\n"
+            "Afternoons are for family. We gather under the shade, talk about how the week went, tell each other stories, or just enjoy the breeze. Occasionally, we drop in on relatives or have them over, and there is always plenty of laughing and closeness when we are all together.\n\n"
+            "I also use part of the day to get ready for the week ahead, doing my homework, ironing my uniform, sorting my books, and preparing my school materials. Somewhere in between, I squeeze in football or other games with friends.\n\n"
+            "By evening, the whole family settles in front of the television for our favourite shows, followed by a light supper. Before bed, I usually take a moment to think back over the day and give thanks for it.\n\n"
+            "All in all, Sunday for me combines worship, togetherness with family, rest, and preparation for what is next. It is a day I genuinely look forward to each week.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 1990 Q4)\n\n"
+            "You were in the house when you heard drumming and singing. Describe what you saw when you came out of the house.",
+        answer: "⦿ Sample Essay\n\n"
+            "I was indoors in Takoradi, not doing much in particular, when drumming and singing in the distance grabbed my attention. Curious, I went outside to find out what was going on.\n\n"
+            "Once outside, I discovered a lively masquerade celebration taking place right in our own compound. The dancers wore masks carved into striking shapes, some resembling animals and others just wonderfully unusual, the kind you would expect at a proper masquerade parade.\n\n"
+            "The drumbeats seemed to breathe energy into every movement. Dust rose from their feet as they leapt and spun in time with the music, while the singers added melodic chants that deepened the festive mood.\n\n"
+            "A crowd from the neighbourhood had formed around them, clapping and shouting encouragement. Children laughed as they tried copying the dance moves, and others pushed forward to admire the costumes up close. They responded to the drumbeats and snacks to the onlookers.\n\n"
+            "I stood transfixed by it all. Takoradi's masquerade troupe was well known for putting on a great show, and watching them in person was something I would not forget. The blend of music, movement, and colourful dress spoke to how rich our local traditions are. Watching the parade continue on its way, I felt genuinely proud and grateful to witness such a display of culture and artistry.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 1991 Q3)\n\n"
+            "Describe a market scene in your town or village.",
+        answer: "⦿ Sample Essay\n\n"
+            "Asesewa's market comes alive with energy, especially on the days trading is in full swing, drawing people from the surrounding area to buy and sell.\n\n"
+            "Walking in, the first thing that hits you is the constant chatter, buyers haggling with sellers, mothers calling out to children, friends greeting one another. Colour is everywhere too, from the fruit, vegetables, and fabrics on display.\n\n"
+            "My favourite part is the fruit section, with mangoes, oranges, and bananas piled neatly in baskets. Close by, the vegetable stalls show off fresh tomatoes, onions, and peppers, and the smell of fresh produce hangs in the air.\n\n"
+            "A little further on, cloth sellers hold up their fabrics so the patterns catch the wind, bold reds and blues sit beside gentler pastels, something for every taste.\n\n"
+            "There is a corner for spices and grains too, where the scent of ginger and pepper mixes with sacks of rice, maize, and beans lined up along the ground.\n\n"
+            "Nearby, you can hear chickens clucking and goats bleating as they wait to be sold, and beside them, fishmongers lay out the day's catch, everything from tilapia to catfish.\n\n"
+            "But the market is not only about buying and selling. It is where news travels, friendships are renewed, and families reconnect. It is really the heartbeat of our community, full of noise, colour, and life.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 1992 Q3)\n\n"
+            "You saw a fight between two of your classmates and your class teacher has asked you to give an account of the fight. Write your account.",
+        answer: "⦿ Sample Essay\n\n"
+            "Yesterday during break time, I witnessed something unpleasant, a fight broke out between two classmates. It happened without warning, under a bright midday sun as we were all outside.\n\n"
+            "Kwame and Kofi, who are both in my class, started raising their voices at each other over something. As the argument grew louder, they began shoving one another, and a small crowd of students gathered to watch, clearly uneasy about where it was heading.\n\n"
+            "Things soon got worse, punches started flying. Our teacher, Mr Mensah, heard the commotion and hurried over, managing to pull them apart and get them to settle down.\n\n"
+            "Afterwards, he spoke to each boy separately to piece together what had happened. It turned out the disagreement stemmed from a misunderstanding over a game, and tempers had simply flared too quickly.\n\n"
+            "Eventually, Mr Mensah brought them together and reminded them that fighting solves nothing. He told them that as classmates, they were like family and owed each other respect. Both boys looked genuinely embarrassed by then.\n\n"
+            "The whole episode taught us something valuable about handling disagreements calmly, that talking things through beats throwing punches. Since then, Kwame and Kofi have got along much better, and we all took away the lesson that staying calm and working things out together is the better path.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 1993 Q3)\n\n"
+            "Describe a festival which was celebrated recently in your area.",
+        answer: "⦿ Sample Essay\n\n"
+            "Not long ago, our area marked the Hogbetsotso festival, a colourful, joy-filled occasion. It holds special meaning for the Anlo Ewe people, commemorating the long-ago migration of our ancestors to their present home, where they finally found peace.\n\n"
+            "The morning began at the chief's palace, where everyone turned out in beautiful traditional attire, richly patterned and vividly coloured, each design carrying its own story. Speeches were made there, along with prayers of gratitude to God and to our ancestors for the peace we now enjoy.\n\n"
+            "The real highlight, though, was the street parade, drummers and dancers filling the air with joyful sound, drawing everyone into the rhythm. Many people had painted faces and wore costumes resembling animals or warriors from the past, turning the streets into one big, lively celebration of music and dance.\n\n"
+            "There was even a boat race on the lagoon, which had everyone on the edge of their seats, cheering for their favourite crew as the canoes raced across the water. Food, of course, played its part too, traditional dishes were cooked and shared generously among neighbours and friends.\n\n"
+            "It was a day that brought the whole community together in celebration of shared history and culture. Watching everyone enjoy themselves that day filled me with pride in where I come from.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 1993 Q4)\n\n"
+            "Describe a dream you will never forget.",
+        answer: "⦿ Sample Essay\n\n"
+            "There is one dream I do not think I will ever forget, mostly because it felt so vivid and tied so closely to what is happening around us in Ghana right now.\n\n"
+            "I dreamt I was strolling through an enchanted garden somewhere in Accra, not an ordinary garden at all, but one where the plants and trees glowed softly in the dark, lighting up the whole space like something out of a storybook.\n\n"
+            "As I moved through it, I noticed people from every corner of Ghana, north, south, east, and west, gathered together, laughing and sharing stories. Language did not seem to matter; everyone simply understood one another. It felt like the entire nation had become one big family.\n\n"
+            "At the garden's centre stood a huge table piled high with Ghanaian favourites, jollof rice, waakye, fufu and light soup, tuo zaafi, and more besides. Everyone sat down together to eat, and not a single person went hungry.\n\n"
+            "Then, without warning, a great tree at the garden's heart began stretching upward, growing taller by the second. It seemed to be gathering everyone's hopes, dreams, and love, lifting them up towards the sky to share with the wider world.\n\n"
+            "When I woke, I felt genuinely happy and full of hope. The dream had shown me a Ghana united in joy and love, something I would love to see come true one day.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 1994 Q3)\n\n"
+            "You were present when a senior student bullied a junior one. Describe what happened to the teacher on duty.",
+        answer: "⦿ Sample Essay\n\n"
+            "I once watched a senior student named Joey bullying a younger boy, Razak. It was hard to watch, and everyone nearby was clearly troubled by it. Thankfully, the teacher on duty that day, Mrs Paintsil, was close enough to step in quickly.\n\n"
+            "She looked genuinely serious as she confronted Joey, asking him to account for his actions, but he just stared at the ground without a word. Razak, meanwhile, was visibly frightened and fighting back tears, so you could tell how much the incident had shaken him.\n\n"
+            "Mrs Paintsil led both boys somewhere quieter to talk. She took the time to hear Razak's side carefully and also questioned other students who had witnessed the incident, wanting to understand the full picture before deciding what to do next.\n\n"
+            "Once she had heard everyone out, she brought Joey to the head teacher's office to formally report the matter, while also comforting Razak. She made it clear to Joey how disappointed she was and reminded him firmly that bullying has no place in our school, urging him to always speak up if something similar happened again.\n\n"
+            "We later learned Joey had been made to clean the school grounds for a week as punishment. Mrs Paintsil also checked in on Razak afterwards and encouraged the whole class to treat one another kindly.\n\n"
+            "That day showed us clearly that our teachers genuinely care about our safety and will not tolerate bullying, and it left the whole school feeling a bit more secure.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 1994 Q4)\n\n"
+            "Describe your favourite teacher.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mrs Mabel Gozo is, without question, my favourite teacher, patient, warm, and unlike anyone else at our school.\n\n"
+            "She has a habit of dressing in bright, cheerful outfits that make her seem to glow, and her smile alone is enough to make anyone feel welcome. Her voice is gentle, and somehow even the driest topics come alive when she teaches them.\n\n"
+            "What really sets her apart is her teaching style. Rather than lecturing from the front, she moves around the classroom, asks us questions, and often turns lessons into games so we grasp things more easily. Her classes are genuinely enjoyable, full of laughter from start to finish.\n\n"
+            "She is also quick to notice when someone is struggling, and she will happily go over a point again until it clicks. You can tell she really cares whether we understand, not just whether we have been taught.\n\n"
+            "Beyond the syllabus, she shares stories about different parts of Ghana and the people who live there, encouraging us to take pride in our heritage and history.\n\n"
+            "More than a teacher, she feels like a friend, someone who listens when we have problems and offers thoughtful advice. Thanks to her, school feels like a genuinely happy place, and everyone in our class is fond of her.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 1995 Q3)\n\n"
+            "Describe how your favourite game is played. Give two reasons why you like it.",
+        answer: "⦿ Sample Essay\n\n"
+            "Pilolo is one of the most enjoyable games we play here in Ghana, simple to set up, since all you need are a few small objects like stones or sticks to hide.\n\n"
+            "To start, someone is chosen to hide the items while everyone else waits at a designated starting point. As the hider conceals the objects, the other players either shut their eyes or turn away so they cannot peek.\n\n"
+            "Once everything is hidden, the hider shouts \"Pilolo!\" and the search begins. Speed matters here; whoever finds an object and races back to the starting line first wins that round.\n\n"
+            "I love this game for two main reasons. First, there is real excitement in it, your heart races as you dash around searching, and you genuinely never know who will come out on top. Second, it is a wonderful way to bring people together, since anyone, regardless of age, can join in, and it almost always ends with everyone laughing.\n\n"
+            "More than just a pastime, Pilolo captures the fun of a simple outdoor game while creating lasting, happy memories among family and friends throughout Ghanaian society.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 1995 Q4)\n\n"
+            "Describe a day you will never forget in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "A trip to Kakum National Park in Cape Coast stands out as a day I will always remember, genuinely one of the best adventures I have had.\n\n"
+            "We set off early, and by the time we arrived, the air felt crisp and clean, with lush green forest stretching all around. The park was buzzing with other visitors of all ages, everyone equally keen to discover what Kakum had to offer.\n\n"
+            "Nothing compared to walking the canopy walkway, though. It was nerve-racking at first, suspended so high above the ground between the treetops, but I found the courage to step onto it anyway. From up there, I could look out over the forest canopy and even spot birds in flight; it genuinely felt like walking through the sky.\n\n"
+            "Afterwards, a guided tour taught us about the plants and creatures that call the forest home, with our guide sharing fascinating stories along the way.\n\n"
+            "Before heading back, we stopped for a picnic, laughing, snapping photos, and promising ourselves we would return one day.\n\n"
+            "It was a truly magical experience being that close to nature, and it left me with a real appreciation for the natural wonders our country holds, and why they are worth protecting for generations to come. That day, filled with wonder and joy, is one I will treasure forever.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (BECE 1996 Q3)\n\n"
+            "Describe the happiest day in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "Winning our school's Spelling Bee ranks as the happiest day of my life. Honestly, I still find it hard to believe it happened.\n\n"
+            "I had always enjoyed reading and writing, but I never once thought of myself as our best speller. When the competition was announced, friends pushed me to enter, and though nervous, I decided to try.\n\n"
+            "Each evening, my older sister helped me prepare, reading out words for me to spell while we sat in the living room. We laughed plenty, especially over the trickier words I fumbled, but gradually I started improving.\n\n"
+            "By the day of the contest, my heart was pounding. The hall was packed with students, teachers, and a few parents. When my turn came, I steadied myself and listened closely to each word, some straightforward, others genuinely tough.\n\n"
+            "It turned into a tight contest, and eventually it came down to me and my best friend Kofi. I could hardly believe it when he stumbled on his word, and then managed to spell mine correctly. I had actually won.\n\n"
+            "The room erupted in applause, and I felt like I was floating. That evening, my family threw together a little celebration with jollof rice and chicken, easily the best day I had had, and I felt so proud and thankful for everyone who had cheered me on.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 1997 Q4)\n\n"
+            "Describe an interesting place you have visited and say what you gained in the visit.",
+        answer: "⦿ Sample Essay\n\n"
+            "Cape Coast Castle stands out as one of the most memorable places I have visited in Ghana. Set along our beautiful coastline, my visit there gave me more than just facts; it left me with a lot to reflect on.\n\n"
+            "The castle itself is an enormous stone fortress, built centuries ago by European colonisers, and once used to hold enslaved Ghanaians before they were shipped off to distant lands. Simply walking through its corridors, I could feel the heaviness of its history all around me.\n\n"
+            "Inside were the dungeons, where hundreds once suffered under horrific conditions. It was a sobering, emotional experience that taught me a great deal about the brutal realities of the transatlantic slave trade, and about the strength of those who endured it.\n\n"
+            "Stepping back outside, the ocean view was breathtaking, yet it also made me picture the journeys our ancestors were forced to take across that same sea, with no idea what lay ahead.\n\n"
+            "The visit reinforced how important it is to remember our history, even its darkest chapters. It deepened my appreciation for the freedom and fairness we enjoy today and reminded me of the resilience of the Ghanaian people who overcame such hardship.\n\n"
+            "Ultimately, that visit left me with a far greater understanding of our past, and a stronger commitment to fairness and justice today, an experience that will stay with me for life.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 1998 Q3)\n\n"
+            "Describe a recent celebration in your family.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our family recently threw a wonderful celebration for my grandmother's 80th birthday, a day bursting with colour, love, and laughter.\n\n"
+            "We began by decorating the compound with lively colours and traditional Ghanaian symbols, giving the whole place a festival-like feel. Meanwhile, the smell of Ghanaian cooking filled the air as preparations for the feast got underway.\n\n"
+            "Relatives and friends travelled from near and far to join us, arriving in their finest traditional dress, which only added to the festive atmosphere. Drumming and dancing echoed through the neighbourhood, drawing even more people to come and celebrate with us.\n\n"
+            "The feast itself included jollof rice, fufu, an assortment of stews and soups, alongside treats like kelewele and freshly baked pastries.\n\n"
+            "The high point came when my grandmother, dressed elegantly in kente, was honoured by the family. Loved ones stood up to share heartfelt words about her wisdom and kindness over the years, presented her with gifts, and we all danced around her to traditional music.\n\n"
+            "As night fell, we released colourful lanterns into the sky as a symbol of hope for her future. It was a day rich in happiness, unity, and cultural tradition, leaving us all with memories we will treasure and a deeper sense of family bond.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 1999 Q3)\n\n"
+            "The schools in your district recently held a sports competition. Describe what happened.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our district, Ellembelle, recently hosted a lively inter-school sports competition, and the atmosphere was thick with excitement and camaraderie.\n\n"
+            "The venue was a large open field decked out with banners and flags fluttering in the breeze. Students arrived from various schools in their uniforms, buzzing with anticipation as the whole ground filled with noise and colour.\n\n"
+            "Things got underway with a march past, each school parading proudly around the field to the beat of drums and cheers, with traditional dances and inspiring speeches marking the opening ceremony.\n\n"
+            "Then came the athletics, sprints, long jump, relays, and more, with spectators cheering the competitors on, and you could see the determination etched on every runner's face. Winners walked away with medals and wide smiles.\n\n"
+            "But it was not purely about winning. The event brought students from different schools closer together, sparking new friendships and friendly rivalry alike, a genuine celebration of unity through healthy competition.\n\n"
+            "Teachers and parents joined the cheering too, showing support for the young athletes and highlighting the value of staying fit and active.\n\n"
+            "As evening approached, a closing ceremony brought everyone together for a final dance and the national anthem, sung with pride. The day ended with promises of even greater unity and sportsmanship going forward, a truly memorable occasion full of teamwork and Ghanaian spirit.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15 (BECE 2001 Q4)\n\n"
+            "You suddenly woke up when you heard someone shouting \"Help! Help!\" Describe what you saw when you rushed out.",
+        answer: "⦿ Sample Essay\n\n"
+            "I was sound asleep one night in Woraso when a desperate cry for help jolted me awake. My heart pounding, I sprang out of bed and rushed to the window to look outside.\n\n"
+            "By the dim moonlight, I made out a small crowd gathered near a large baobab tree, some carrying torches and flashlights. Their urgent shouts of \"Help! Help!\" carried clearly through the night air.\n\n"
+            "Without stopping to think, I hurried out to join the worried neighbours already gathered there. Getting closer, I saw a young boy, no older than ten, stuck high in the branches of the towering tree, gripping tightly to a thick limb, fear written across his face.\n\n"
+            "The moonlight showed his tear-streaked cheeks; it was obvious he had climbed up and simply could not find his way back down. Those below tried to reassure him, calling out calming words while help was arranged.\n\n"
+            "A few villagers rushed off to fetch a ladder, while others kept talking gently to the frightened boy. Once the ladder was carefully secured against the trunk, the real rescue began.\n\n"
+            "Holding our breath together as a group, we watched him climb down step by careful step. The moment his feet touched the ground, relief swept through the crowd, and everyone burst into cheers and applause.\n\n"
+            "That night showed me the true meaning of community, neighbours coming together, even in the small hours, to save a child in danger. It was a genuinely heart-warming reminder of the kindness that connects us all.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16 (BECE 2003 Q3)\n\n"
+            "Your school is planning an excursion to a place of interest in your district. Describe the preparations you are making towards the journey.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our school is buzzing with excitement over an upcoming trip to the Nzulezu stilt settlement, a fascinating spot in our district that everyone is eager to explore.\n\n"
+            "What makes it so special is that the entire village is built on water. Our teachers showed us photographs and explained its history, and now we are busy preparing for the journey ahead.\n\n"
+            "For starters, we have each been told to pack a small bag with essentials. I am bringing a hat, sunscreen, and a water bottle, since it can get quite hot, plus a raincoat just in case, and naturally, a camera to capture the moment.\n\n"
+            "Our class has also been raising funds by selling homemade snacks during break, which I have been helping to bake, the proceeds will go towards paying for canoe rides once we get there.\n\n"
+            "We had a briefing about safety too, since we will be travelling by water, we have been warned not to lean too far to one side of the canoe or mess around while on board.\n\n"
+            "The school has also been in touch with the elders of Nzulezu, who will be teaching us about how they live, cook, and even attend school right there on the water, something I am genuinely curious about.\n\n"
+            "Finally, we have been practising a few local songs and dances to share when we arrive. Everyone is counting down the days now, eager to see the houses on stilts and meet the people who call Nzulezu home.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17 (BECE 2004 Q3)\n\n"
+            "Describe an interesting function you attended recently.",
+        answer: "⦿ Sample Essay\n\n"
+            "I recently went to a fascinating event in Adanwomase, in Ghana's Ashanti Region, a traditional wedding, and it was an unforgettable experience full of colour, music, and culture.\n\n"
+            "The venue was decked out in vibrant kente cloth and traditional motifs, and the bride and groom, dressed head to toe in stunning kente, looked positively regal, it genuinely felt like stepping into a fairy tale.\n\n"
+            "Things opened with the pouring of libation, a solemn ritual honouring the ancestors and asking for their blessing, led respectfully by the elders.\n\n"
+            "Then the music and dancing took over. Talking drums and other traditional beats filled the air, and everyone got up to dance to the lively rhythm, their colourful beads and ornaments catching the sunlight.\n\n"
+            "There was also an Adowa dance performance, with dancers moving gracefully in time to the music, a real treat to watch and a lovely showcase of Ghanaian tradition.\n\n"
+            "The food was another highlight, with tables loaded with fufu, yam and palava sauce, jollof rice, fried chicken, and banku with okra soup, I could not resist sampling everything.\n\n"
+            "I met people from all over Ghana, and even a few from abroad, giving me a chance to learn about their customs too.\n\n"
+            "As the sun set, the couple exchanged vows and rings, closing the ceremony on a beautiful note of love and commitment. Attending that wedding was a memorable way to experience our rich culture firsthand, and it reminded me just how much beauty and joy lie in celebrating love and unity together.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18 (BECE 2005 Q3)\n\n"
+            "You live about ten kilometres away from your school. Write accurate directions to a friend who wishes to visit you.",
+        answer: "⦿ Sample Essay\n\n"
+            "Keziah, I am so glad you want to come visit, happy to walk you through how to get to my place, about ten kilometres from our school.\n\n"
+            "Begin at the school gate and turn right, then walk straight along the main road until you spot a large, well-known mango tree at a junction, impossible to miss. From there, take the road to the left.\n\n"
+            "Continue on until you reach a blue kiosk selling cold drinks and snacks. That path, lined with flowers on both sides, leads directly to a tro-tro station. Once there, board a tro-tro heading towards Aflao and let the mate know you would like to get off at \"Adjei Junction.\"\n\n"
+            "When you arrive at Adjei Junction, get off and walk a short way forward until you spot a cocoa seller on the left side of the road. Right beside the seller is a narrow footpath, take that, and it is a short walk from there.\n\n"
+            "You will pass a house with a red roof, then another with plenty of chickens in the yard. Just past that house, you will find mine, the third house on the right, marked by a white gate and some pretty flowers out front. It is an easy route, and I really hope to see you soon.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19 (BECE 2007 Q4)\n\n"
+            "Describe to your friend how your favourite game is played.",
+        answer: "⦿ Sample Essay\n\n"
+            "Adzo, let me tell you about my favourite game, musical chairs. It is simple, fun, and never fails to bring plenty of laughter.\n\n"
+            "To set it up, we arrange chairs back-to-back in a line, always one fewer than the number of players, so for ten players, we would set out nine chairs.\n\n"
+            "Once the chairs are ready, we get some upbeat music going, and everyone starts circling the chairs, walking, dancing, and keeping half an eye on their seats, because you never know exactly when the music will cut out.\n\n"
+            "The instant it stops, there is a scramble to grab a chair. Since there is always one fewer chair than players, someone ends up without a seat and is out for that round. We then remove another chair and start again, repeating until only one person remains, the eventual winner.\n\n"
+            "Musical chairs is such great fun precisely because it is unpredictable, you need both quick reflexes and a bit of luck to win. It is the sort of game that has everyone laughing and enjoying themselves the whole way through. Let us play it again next time we are together!",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20 (BECE 2013 Q3)\n\n"
+            "Describe one national event that took place recently and state two effects it had on the people in your area.",
+        answer: "⦿ Sample Essay\n\n"
+            "Christmas Day, celebrated on the 25th of December, is a national event that recently brought people in my area together to mark the birth of Jesus Christ and spend precious time with loved ones.\n\n"
+            "One clear effect of the celebration was the sense of happiness and unity it created among neighbours. People greeted one another more warmly than usual, smiles were everywhere, and the spirit of the season allowed many to set their worries aside, if only briefly, as they shared meals, exchanged gifts, and celebrated together. Watching young and old come together to laugh, sing, and dance was a beautiful reminder of what community and togetherness can offer.\n\n"
+            "A second effect was a noticeable rise in generosity throughout the area. Many families chose to share what they had with those less fortunate, some cooked extra portions for neighbours in need, while others gave away clothes and toys. Small gestures like these made people feel genuinely cared for.\n\n"
+            "In short, Christmas fostered both unity and generosity in my community, offering joy, renewed hope, and a reminder that love and connection are what truly hold us together, leaving behind a spirit of kindness and brotherhood that lasted well beyond the day itself.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 21 (BECE 2002A Q3)\n\n"
+            "Write on the topic, \"Why I should like to attend a boarding school or a day school\".",
+        answer: "⦿ Sample Essay\n\n"
+            "School plays a huge role in our lives; it is where we learn, build friendships, and prepare for what is ahead. Some students board at school, living and studying there full-time, while others attend day schools and return home each afternoon. Both options come with their own advantages.\n\n"
+            "Living at a boarding school would mean sharing daily life with classmates, giving us more time to collaborate on projects, help each other with homework, and grow into something like a close-knit family. The bonds formed through living and learning side by side often last a lifetime.\n\n"
+            "Boarding schools also tend to offer strong facilities for both study and recreation, well-stocked libraries, laboratories, and sports grounds available around the clock. That access makes it easier to join clubs and teams and really pursue one's interests fully.\n\n"
+            "Day schools, on the other hand, have their own charm. Going home every evening means enjoying family comforts and sleeping in one's own bed, while still staying connected to the local community through nearby events and neighbourhood friendships.\n\n"
+            "Ultimately, the right choice depends on what kind of experience a person is after. Boarding schools offer full immersion, while day schools help balance school life with home and community. It really comes down to finding what suits each individual best.\n\n"
+            "Personally, if I had to choose, I would lean towards boarding school. The main draw for me is the chance to fully immerse myself in school life, both academically and socially, in a way that living away from home makes possible.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 22 (BECE 2002B Q4)\n\n"
+            "It has been suggested that parents should buy textbooks for their school children. Give at least three reasons why you agree or disagree to this suggestion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Whether parents should buy textbooks for their children is a question worth taking seriously here in Ghana. I personally think they should, and here are three reasons why.\n\n"
+            "Firstly, owning their own textbooks lets children study whenever it suits them, without needing to borrow from a friend or wait for a turn at the school library.\n\n"
+            "Secondly, a child with their own book can underline key points or scribble notes in the margins, which makes revision far easier and understanding deeper, almost like building a personal study companion over time.\n\n"
+            "Lastly, while textbooks might feel like a costly upfront investment, they can actually save money in the long run. If owning books helps a child study more effectively, they may need fewer extra lessons or private tutors, meaning parents could end up spending less overall.\n\n"
+            "So although buying textbooks may initially seem like a heavy expense, the long-term benefits, better understanding, improved grades, and possible savings on tutoring, make it a worthwhile investment for parents to make.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 23 (BECE 2004 Q4)\n\n"
+            "Would you like to attend a girl's, a boy's or a mixed school? Give at least three reasons for your choice.",
+        answer: "⦿ Sample Essay\n\n"
+            "Given the choice, I would pick a mixed school where boys and girls learn side by side, and I have three solid reasons for saying so.\n\n"
+            "To begin with, mixed schools support healthier social development. Students get to build friendships across genders, which encourages mutual understanding and respect while creating a more inclusive atmosphere overall. Learning to work well with people of different genders is a genuinely valuable life skill, and mixed schooling naturally provides that practice.\n\n"
+            "Secondly, a mixed environment brings a broader mix of perspectives into the classroom. Boys and girls often approach problems differently, and being exposed to those varied viewpoints can enrich learning and better prepare students for a world where they will need to collaborate with people of every gender.\n\n"
+            "Finally, mixed schools help chip away at outdated gender stereotypes. In Ghana, as elsewhere, certain assumptions about what boys or girls are \"supposed\" to be good at still linger. Seeing classmates of both genders excel across different subjects and activities can challenge those assumptions, building confidence and encouraging students to chase their interests without feeling boxed in.\n\n"
+            "Altogether, a mixed school offers stronger social growth, richer perspectives, and a real chance to break down gender stereotypes, creating a more balanced, fair learning environment that prepares students well for the wider world.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 24 (BECE 2006 Q4)\n\n"
+            "Your P.T.A has introduced a Best Teacher Award Scheme for your school. Which of your teachers would you nominate for the award and why?",
+        answer: "⦿ Sample Essay\n\n"
+            "I would like to put forward my English teacher, Mr Dogbe, for our school's Best Teacher Award. There are three key reasons behind my choice.\n\n"
+            "First, Mr Dogbe has a real knack for turning lessons into something we actually look forward to. He draws on everyday experiences and even Ghanaian folk stories to bring his teaching to life, making English feel relevant and enjoyable rather than abstract. This approach genuinely helps concepts stick and sharpens our language skills.\n\n"
+            "Second, he goes well beyond simply delivering lessons; he genuinely cares about us. He is happy to answer questions outside of class hours, listens carefully to our concerns, and offers real guidance on improving our writing and communication. He treats each of us as individuals, recognising our different strengths and adjusting his teaching accordingly.\n\n"
+            "Third, his commitment to our success is honestly inspiring. He organises extra study sessions and workshops ahead of major exams, and pushes us to take part in debates, essay competitions, and drama, all of which build our confidence and help us grow as well-rounded students.\n\n"
+            "Given how much value Ghanaian society places on education, Mr Dogbe's dedication, patience, and creative teaching truly stand out. He is not simply teaching us English; he is shaping who we will become and instilling in us a genuine love of learning.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 25 (BECE 2015 Q3)\n\n"
+            "Write arguments for or against the topic: It is more advantageous to live in the village than in the city.",
+        answer: "⦿ Sample Essay\n\n"
+            "The debate over whether village or city life is better has picked up steam lately. Village life is often praised for its peace and calm, and there is truth to that, but there are strong reasons to argue that city living actually holds more advantages.\n\n"
+            "For one, education and healthcare tend to be far more limited in rural villages. Cities offer a greater number of schools and hospitals, giving people better access to quality education and medical care, and children growing up in urban areas benefit from a wider range of resources and opportunities as a result.\n\n"
+            "Job prospects also tend to be broader and more varied in cities, which function as hubs of economic activity. Villages, by contrast, often rely heavily on farming or traditional trades, offering less income stability overall.\n\n"
+            "Cities generally have stronger infrastructure too, dependable electricity, water, and transport, which makes everyday life considerably more convenient and improves overall quality of life.\n\n"
+            "And in today's connected world, access to technology and the internet matters enormously for education and staying informed, something far more readily available in urban settings.\n\n"
+            "Taken together, while village life certainly has its own appeal, the case for city living is compelling; better healthcare, education, jobs, infrastructure, and technology all make it, on balance, the more advantageous option for many people seeking a better standard of living.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 26 (BECE 2018 Q2)\n\n"
+            "Write arguments for or against the topic: Life in the city is more dangerous than that in the village.",
+        answer: "⦿ Sample Essay\n\n"
+            "City life may look glamorous, but there is a strong case to be made that it is actually more dangerous than village life, particularly here in Ghana.\n\n"
+            "To begin with, crime tends to be more common in cities. Dense populations combined with economic inequality can lead to more theft, robbery, and other offences, putting personal safety at greater risk.\n\n"
+            "Traffic accidents are another serious concern. Busy roads, careless driving, and often inadequate infrastructure mean accidents happen more frequently in urban settings, endangering both drivers and pedestrians alike.\n\n"
+            "Pollution is a further issue, factories, vehicles, and construction sites contribute to air and noise pollution in cities, which can lead to respiratory problems and other health complications.\n\n"
+            "Disease also spreads more easily where people live close together, making outbreaks harder to contain and manage in densely populated urban areas.\n\n"
+            "And though rare, natural disasters can hit cities particularly hard, floods and fires, for instance, tend to spread faster and cause greater damage due to how tightly packed urban environments are.\n\n"
+            "That said, it is worth noting that cities are generally better equipped with safety measures, law enforcement, and emergency services, which can help reduce some of these risks.\n\n"
+            "On balance, while city living in Ghana certainly has its perks, there is a solid argument that it carries greater dangers than village life, from higher crime and traffic accidents to pollution, disease, and vulnerability to disaster, all of which contribute to the potential hazards of urban living.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 27 (BECE 1991 Q4)\n\n"
+            "Write a story that ends: I suddenly woke up and realized it was all a dream.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a small village, there once lived a young girl named Lily, always dreaming of adventure. One night, as sleep took hold of her, she found herself caught up in the most extraordinary dream.\n\n"
+            "She discovered a magical map leading to hidden treasure, and following it took her through a thick forest, across a roaring river, and up a towering mountain, until at last she reached a cave said to hold the treasure itself. Stepping inside with excitement, she found a chest overflowing with glittering jewels and coins.\n\n"
+            "Just as she reached out to touch it, a friendly dragon named Spark appeared and told her the treasure could only belong to someone with a kind heart. They spoke and laughed together, quickly becoming friends, and decided the treasure should be shared with the whole village.\n\n"
+            "But then a sudden noise jolted Lily awake. She opened her eyes to find herself back in her own bedroom, I suddenly woke up and realized it was all a dream. Though a little sad that the friendship and kindness she had felt were not real, she sensed that such warmth could still exist in her waking life.\n\n"
+            "Smiling, she climbed out of bed, ready to greet the day with the same spirit of adventure and kindness from her dream, hopeful that one day she might find real treasure, or even a friend as extraordinary as Spark, and content, for now, knowing that dreams have a way of coming true in unexpected forms.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 28 (BECE 1998 Q4)\n\n"
+            "Write a story that ends with \"Never will I do that again\".",
+        answer: "⦿ Sample Essay\n\n"
+            "In the village of Umukoro lived a boy named Kwame, known for being both curious and fearless. One day, word reached him of a mango tree deep in the forest, said to bear the sweetest fruit around.\n\n"
+            "Thrilled at the idea, Kwame decided to go find it alone, thinking the journey could not be too difficult. Grabbing a basket, he headed straight into the forest.\n\n"
+            "The dense trees soon blocked out the sunlight, and thorny bushes and tangled vines made the path tough going. Still, Kwame pressed on, dreaming of those mangoes.\n\n"
+            "Hours slipped by without any sign of the tree, and Kwame realised, with growing dread, that he was lost. As the sun began to set, panic crept in, and by nightfall the forest had turned eerie and unfamiliar.\n\n"
+            "Fear and loneliness set in. He wished he had listened to his parents rather than wandering off so far. Hunger gnawed at him, and the darkness only deepened his fright.\n\n"
+            "After a long, frightening night, dawn finally broke, and Kwame heard voices approaching, a search party of villagers who had been looking for him.\n\n"
+            "They guided him safely home, and relief washed over him. He had learned firsthand just how risky venturing alone into deep forest could be.\n\n"
+            "Sitting later beneath his family's own mango tree, enjoying its sweet fruit, he made himself a promise: \"Never will I do that again.\" He had come to understand that while adventure has its appeal, safety and heeding those who care for him mattered far more.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 29 (BECE 2005 Q4)\n\n"
+            "Write a story which ends, \"...... but everybody was happy\".",
+        answer: "⦿ Sample Essay\n\n"
+            "In the village of Vitting, in Ghana's Northern Region, there stood a special gathering place known as Unity Square, a spot where people of different backgrounds, tribes, and ages came together in celebration.\n\n"
+            "One bright day, the village decided to host a large festival there, and people of every age pitched in to plan it. Elders recounted tales of their ancestors and spoke about the value of unity, children rehearsed traditional dances, and the women prepared a spread of Ghanaian dishes.\n\n"
+            "When the day arrived, the sky glowed with warm colours, and Unity Square filled with music, laughter, and the smell of good food. People turned out in vibrant traditional clothing, while drummers kept everyone's feet tapping with joyful rhythms.\n\n"
+            "Dance competitions, storytelling, and even a cooking contest kept the energy high. Families set up little stalls to share homemade dishes and crafts, and children ran about, playing games and making new friends along the way.\n\n"
+            "As dusk settled in, the whole village gathered around a bonfire, where elders shared stories and hopes for the future, reminding everyone that unity would help them weather any challenge together.\n\n"
+            "Under a star-filled sky, the villagers sang songs of togetherness late into the night. The festival brought the community closer than it had ever been, and as everyone looked around, they realised that in Unity Square that night, everybody was happy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 30 (BECE 2008 Q4)\n\n"
+            "Write a story that explains the saying: Two heads are better than one.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the lively village of Wakanda lived two inseparable best friends, Jojo and Zoe, known for sharing everything from dreams to secrets since childhood. One day, the village launched a competition, calling for ideas to make Wakanda a happier place to live.\n\n"
+            "Jojo dreamt up a plan to plant flowers and trees throughout the village, while Zoe imagined building colourful playgrounds for the children. Both were excited by their own ideas, yet neither could decide which was better.\n\n"
+            "Noticing their indecision, Jojo's grandmother reminded them of an old saying, \"Two heads are better than one.\" Taking the advice to heart, the pair chose to merge their ideas rather than pick one over the other, designing a garden filled with vibrant flowers and tall trees, dotted throughout with lively playgrounds featuring swings, slides, and seesaws.\n\n"
+            "With help from fellow villagers, they worked tirelessly to bring their shared vision to life. By competition day, Wakanda had been transformed, flowers blooming everywhere, their fragrance filling the air, and children's laughter echoing as they played.\n\n"
+            "The village chief praised the pair's teamwork, echoing the old saying once more, \"Two heads are truly better than one.\" Wakanda had become not just happier but more beautiful and full of life, thanks entirely to Jojo and Zoe's collaboration. Beaming with pride, the two friends realised that combining their ideas and respecting each other's perspectives had led to something far greater than either could have achieved alone.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 31 (BECE 2010 Q3)\n\n"
+            "Write a short story illustrating the saying: All that glitters is not gold.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the small town of Aburi lived Josie, a young girl who led a simple, contented life helping her parents on their farm. One day, a flashy stranger named Kweku arrived in town, driving a shiny car and dressed in sparkling clothes, showing off his latest gadgets. Everyone was impressed, none more so than Josie.\n\n"
+            "Kweku spoke of city life and quick riches, showing Josie glittering stones he claimed were diamonds, insisting there were plenty more where they came from. He convinced her to join him in the city, promising wealth beyond her dreams.\n\n"
+            "Drawn in by his promises, Josie left Aburi and her family behind to follow him. But once in the city, reality set in, the \"diamonds\" turned out to be nothing more than glass, and his supposedly wealthy lifestyle was all borrowed or rented. Kweku was deep in debt, his glamorous image hiding serious problems underneath.\n\n"
+            "Feeling betrayed and homesick, Josie made her way back to Aburi, where her relieved parents welcomed her home with open arms. She had learned an important lesson, that something shiny on the outside does not necessarily mean it is genuine or valuable.\n\n"
+            "From that day forward, Josie never forgot the truth of the saying: all that glitters is not gold.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 32 (BECE 2011 Q2)\n\n"
+            "Write a story which ends with the expression: \"…… what a dream!\"",
+        answer: "⦿ Sample Essay\n\n"
+            "In the bustling city of Accra lived a young girl named Zaya, whose heart was full of dreams. Every afternoon after school, she would settle beneath the mango tree in her family's yard and let her imagination wander.\n\n"
+            "One warm afternoon, as she drifted off there and found herself in a vivid dream, she was a celebrated singer, standing on a grand stage bathed in dazzling lights, holding a golden microphone, dressed in a gown that shimmered like the stars themselves.\n\n"
+            "An enormous crowd had gathered, drawn from Accra and neighbouring towns, all eager to hear her sing. She spotted her family, school friends, and even teachers cheering from the front. As she began to sing, her voice carried effortlessly through the air, filled with power and beauty that held everyone spellbound.\n\n"
+            "Her songs celebrated love, happiness, and the vibrancy of Accra, its lively markets, warm-hearted people, and joyful festivals. The crowd danced and sang along, creating a wave of shared joy and unity.\n\n"
+            "Then, suddenly, a gentle nudge broke the spell. Zaya opened her eyes to find her younger brother Jadon shaking her awake, and realised she was still right there under the mango tree. Smiling to herself, she thought, \"…what a dream!\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 33 (BECE 2012 Q2)\n\n"
+            "Write a story which ends with the sentence: We arrived just in time to save the situation.",
+        answer: "⦿ Sample Essay\n\n"
+            "One sunny afternoon in Brofoyedu, my friend Ayi and I set off for a walk to the river, chatting about school, friends, and our upcoming holiday plans.\n\n"
+            "Along the way, we spotted a group of village children busily setting up a tent close to the riverbank, apparently planning a picnic. Ayi noted that the tent seemed dangerously close to the water, but we did not think much of it and carried on.\n\n"
+            "We settled a short distance away to enjoy the calm of nature, until, without warning, the sky darkened and rain began to fall. What started light quickly became a heavy downpour, and as we sheltered under a tree, Ayi suddenly pointed and shouted, \"Look at the tent!\"\n\n"
+            "The river was rising fast, and the strong current was already dragging at the tent and the belongings scattered around it. We realised at once that the children were in real danger as they scrambled to gather their things.\n\n"
+            "Without hesitation, we ran towards them. Ayi grabbed one side of the tent while I helped collect the scattered items, and together we shouted for the children to move to higher ground. The pouring rain made everything treacherous underfoot.\n\n"
+            "Working together, Ayi and I managed to haul the tent clear of the rising water, just moments before a huge wave surged through the very spot where it had been standing.\n\n"
+            "Catching our breath, we checked that everyone was safe. Frightened but unharmed, the children were guided to a safer spot to continue their picnic.\n\n"
+            "Looking at each other with relief, Ayi remarked, \"That was close!\" I simply replied, \"We arrived just in time to save the situation.\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 34 (BECE 2016 Q3)\n\n"
+            "Write a story which ends with the sentence: We were lucky that night.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the Ghanaian village of Akosombo, life revolved around the Volta River, where residents fished and farmed for their livelihood.\n\n"
+            "One evening, a fierce storm rolled in. The sky turned dark, winds picked up, and the river began churning wildly, leaving everyone uneasy.\n\n"
+            "The village elders, who understood the river's moods well, called everyone together, sensing that something serious was about to happen.\n\n"
+            "As the rain intensified and the river swelled further, the elders decided it was time to move to higher ground. Families quickly gathered their children and belongings and made their way uphill.\n\n"
+            "Just as the last person reached safety, a tremendous crash echoed through the night. The river had risen so high it swallowed the entire village, sweeping away homes and everything in its path. From their vantage point on the hill, the villagers watched their homes being destroyed, frightening, yet a relief that everyone had made it out safely.\n\n"
+            "Hours later, the rain finally eased. The following morning revealed the extent of the damage, but the villagers understood clearly that by trusting the elders and working together, they had avoided tragedy.\n\n"
+            "One of the elders summed it up simply: \"We were lucky.\" Though saddened by the loss, they were grateful above all to be alive and safe.\n\n"
+            "We were lucky that night.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 35 (BECE 2017 Q3)\n\n"
+            "Write a story that ends with the expression: So it pays to be kind to strangers.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the busy streets of Accra lived a young boy called Kweku, known throughout his neighbourhood for his friendly nature and readiness to help. One hot afternoon, on his way to the market, he spotted an elderly woman struggling under the weight of a heavy fruit basket.\n\n"
+            "Without a second thought, he rushed over to help. \"Let me carry that for you, ma'am,\" he offered, smiling warmly. Grateful, the woman let him carry the basket to her stall, where he neatly arranged the fruits for her.\n\n"
+            "She introduced herself as Adwoa, a fruit seller, and gave him a ripe mango as thanks. Kweku accepted gratefully and continued on his way.\n\n"
+            "Months later, hard times fell on Kweku's family, his father became seriously ill, and paying for treatment proved difficult. Kweku felt helpless, unsure what to do.\n\n"
+            "As chance would have it, a customer visiting Adwoa's stall overheard Kweku discussing the situation with his mother. Moved by their struggle, she made enquiries and discovered that this was the same boy who had once helped Adwoa.\n\n"
+            "A successful businesswoman, she stepped in to cover his father's medical bills and offered further support to the family through their difficult time.\n\n"
+            "Overwhelmed with gratitude, Kweku's mother tearfully thanked her. The woman simply smiled and replied, \"It was Kweku's kindness to a stranger that brought us together. So it pays to be kind to strangers.\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 36 (BECE 2019 Q3)\n\n"
+            "Write an interesting story which ends with the words, it pays to be kind to strangers.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a quiet village lived a boy named Riaz, well-liked for his kindness and easy smile. Walking home from school one day, he came across a man sitting by the roadside, looking exhausted and lost. The stranger introduced himself as Najeem.\n\n"
+            "Najeem explained he had travelled from a faraway village in search of work but had found nowhere to stay. Without hesitation, Riaz brought him home, where his family welcomed Najeem warmly, sharing their meal and offering him a place to rest overnight.\n\n"
+            "The following morning, Najeem thanked them and revealed a secret, he was a skilled craftsman, and as a gesture of gratitude, he wanted to create something beautiful for the family.\n\n"
+            "True to his word, he used local materials to sculpt a striking piece of art symbolising family unity and love. The sculpture caught the eye of a passing art dealer, who offered a generous sum to purchase it.\n\n"
+            "With the proceeds, Riaz's family were able to renovate their home and support his education, while Najeem went on to build a career as a respected artist, staying close with the family that had once shown him such kindness.\n\n"
+            "Sitting together and marvelling at how much had changed, they exchanged knowing smiles, a quiet reminder that it truly pays to be kind to strangers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 37 (BECE 2022 Q1)\n\n"
+            "Write an interesting story that ends with the expression, Unfortunately I realized when it was too late that my friend was a wolf in sheep's clothing.",
+        answer: "⦿ Sample Essay\n\n"
+            "When I first met John, I was convinced he was one of the kindest, most thoughtful people I had ever known. He always seemed available whenever I needed support, and we quickly grew close. I trusted him without question.\n\n"
+            "One day, John pitched me a business idea, an opportunity he was certain would prove hugely successful. He asked if I would invest some money to help launch it, assuring me the returns would be substantial.\n\n"
+            "Though hesitant initially, his confidence eventually won me over, and I handed him a sizeable sum, trusting him to manage everything responsibly.\n\n"
+            "Months passed with no word from him. My calls and emails went unanswered, and eventually I decided to visit his office myself. What I found shocked me, the place was completely deserted, with no trace of John or his supposed company anywhere. Trying his phone again, I discovered it had been disconnected entirely.\n\n"
+            "Unfortunately I realized when it was too late that my friend was a wolf in sheep's clothing. He had manipulated me into handing over my money, then vanished without leaving a trace. Devastated, I could not shake the feeling of having been foolish enough to trust him so completely.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 38 (BECE 2023 Q2)\n\n"
+            "Narrate an interesting story that ends with the statement, Indeed, it was a great achievement.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a small village lived a curious, brave young girl named Ama, who dreamed constantly of flying like the birds she admired. Each day, she would climb a small hill in the fields and watch them soar overhead, their wings catching the sunlight.\n\n"
+            "One day on her usual visit to the hill, she met an old man named Kwaku, widely regarded as the village's wisest resident. Noticing her fascination with the birds, he decided to help her dream take shape, and together they began building a kite large enough for her to fly.\n\n"
+            "Over the following weeks, the kite grew more elaborate, painted in bright colours and adorned with beads and feathers. Ama and Kwaku worked tirelessly, refining every detail as their goal drew closer.\n\n"
+            "Finally, the day came for the kite's first flight. The whole village turned out to watch. With courage and excitement, Ama held tight as Kwaku and other villagers ran alongside, helping the kite catch the wind.\n\n"
+            "Suddenly, the kite lifted off, and so did Ama! She soared above the village, watching her dream unfold before her, spotting the beaming faces of her family and friends cheering her on from below.\n\n"
+            "After a beautiful flight, she landed safely to a roar of cheers and applause. Ama had not only realised her own dream but had shown the whole village what perseverance, courage, and creativity could achieve.\n\n"
+            "Tears of joy in her eyes, she embraced Kwaku tightly. The sky, it seemed, was no longer a limit for her. Indeed, it was a great achievement.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 39 (BECE 2025 Q3)\n\n"
+            "You once doubted your abilities, but an experience changed your mindset completely. Write your story, ending with the statement, \"I will never compare myself with anyone again.\"",
+        answer: "⦿ Sample Essay\n\n"
+            "There was a period when self-doubt followed me everywhere. I was convinced everyone around me was smarter, more capable, more talented, constantly measuring my grades against my friends' and feeling inadequate whenever I fell short. This habit carried on into college, where I grew so consumed with outdoing others that I nearly abandoned my own goals altogether, no longer enjoying learning for its own sake but instead judging my worth purely by comparison.\n\n"
+            "Then, one day, something shifted. I volunteered to present a group project simply because nobody else was willing to. Nerves gripped me, and fear of failure clouded my thoughts, but standing before the class, I told myself to simply do my best, mistakes or not. To my astonishment, the presentation went far better than I had expected, my classmates applauded, and my professor praised both my clarity and confidence.\n\n"
+            "Afterwards, one of my group members told me, \"You have got a real gift for explaining things simply, I could never do that.\" That comment struck something in me: we each carry different strengths. Some excel with numbers, others with writing, and clearly, mine lay in explaining ideas clearly.\n\n"
+            "That experience taught me something lasting, that self-worth is not built on comparison but on genuine growth and belief in oneself. Since then, I have focused on improving steadily, one step at a time, rather than constantly glancing sideways at others. Now, I take pride both in my own progress and in celebrating others' success. I will never compare myself with anyone again.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 40 (BECE 2001 Q3)\n\n"
+            "You are a speaker in a school debate on the topic \"Boys should not help in the kitchen\". Write your speech for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Chairperson, Honourable Panel of Judges, Accurate Timekeeper, Headteachers, Members of Staff, Invited Guests, Co-debaters, Ladies and Gentlemen:\n\n"
+            "I rise today to firmly oppose the motion that boys should not help in the kitchen. Within Ghana's rich cultural fabric, it is essential that we champion equality and shared responsibility across our homes and communities.\n\n"
+            "Cooking is not merely a chore, it is a genuinely valuable life skill everyone deserves to learn, regardless of gender. Our traditional dishes form a meaningful part of who we are as a people, and shutting boys out of the kitchen denies them the chance to connect with that culinary heritage.\n\n"
+            "We also live in an age that champions fairness and equality. Assigning kitchen duties only to girls simply reinforces old-fashioned gender roles and undermines progress towards true equality. Boys who never learn to cook miss out on practical skills they will need throughout life, whether living independently or supporting their own families later on.\n\n"
+            "Beyond the practical benefits, involving boys in cooking helps them appreciate the effort behind a well-prepared meal, while building a genuine sense of responsibility and teamwork. Sharing kitchen duties teaches respect for one another's contributions and the value of working together.\n\n"
+            "In closing, the notion that boys should not help in the kitchen no longer fits with modern Ghanaian values of unity and fairness. Let us encourage everyone, regardless of gender, to see the kitchen as a shared space for learning, growth, and togetherness. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 41 (BECE 2006 Q3)\n\n"
+            "You are a speaker in an inter-school debate on the topic: \"Television is doing more harm than good to students\". Write your speech for or against the topic.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mr Chairman, Honourable Panel of Judges, Accurate Timekeeper, Headmasters and Headmistress present, Members of Staff, Invited Guests, Co-debaters, Ladies and Gentlemen gathered in this august house;\n\n"
+            "I am Selina Boateng, representing Obuasi District Assembly Junior High School, and I stand to argue in favour of this motion, that television does more harm than good for students, a point especially relevant within our Ghanaian context.\n\n"
+            "There is no denying television offers some educational value, but we cannot overlook the harm it too often causes young minds.\n\n"
+            "For one, television proves a major distraction from schoolwork. Many students spend hours glued to their screens rather than studying, weakening academic performance and undermining good study habits, a genuine threat to our future in a country that prizes education so highly.\n\n"
+            "Beyond that, television frequently pushes unrealistic values, glorifying materialism and superficial appearances in ways that can shape young Ghanaians into prioritising possessions over education and personal growth, chipping away at our traditional respect for hard work and community.\n\n"
+            "Excessive viewing also carries real health consequences. It encourages a sedentary lifestyle that contributes to obesity, a growing concern in our society, while exposure to violent or unsuitable content can shape students' behaviour and attitudes in troubling ways.\n\n"
+            "To conclude, while television does hold some educational merit, the evidence strongly suggests it does more harm than good overall. As Ghanaians who value education deeply, we must recognise these risks and find a healthier balance between television's benefits and the damage it can cause to our students' wellbeing, values, and futures. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 42 (BECE 2009 Q3)\n\n"
+            "You are a speaker in a debate on the motion: \"The use of mobile phones in school by students should be banned\". Write your contribution for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mr Chairman, Honourable Minister of Education, Honourable Member of Parliament, the Headmaster, parents, students, ladies and gentlemen.\n\n"
+            "Thank you for this opportunity to speak on the motion that mobile phones should be banned in schools. I firmly support this motion, and I will explain why it matters so much within our Ghanaian education system.\n\n"
+            "Firstly, phones in the classroom create serious distractions. With access to messages, social media, and games, students easily lose focus during lessons, a costly problem in a country where education is regarded as the pathway to a brighter future.\n\n"
+            "Secondly, mobile phones open the door to academic dishonesty. Smartphones make it far too easy to look up answers or cheat during assessments, undermining the fairness of our education system and devaluing the effort of students who work honestly.\n\n"
+            "Lastly, mobile phones can be costly, creating unfair divides between students. Not every family can afford the latest device, and permitting phones in school risks deepening social inequality among classmates.\n\n"
+            "In summary, while phones certainly have their uses, allowing them in schools poses real risks to both education and student wellbeing. I firmly believe banning mobile phones in Ghanaian schools is a necessary measure to protect a focused, fair, and secure learning environment for everyone. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 43 (BECE 2021 Q2)\n\n"
+            "As the main speaker in a debate on the motion, Students should not wear uniform to school, write your speech for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Good afternoon esteemed judges, respected teachers, and my dear fellow students,\n\n"
+            "I stand before you today in support of keeping school uniforms as part of our tradition.\n\n"
+            "Firstly, uniforms help promote equality among students. In a society where family incomes vary widely, uniforms ensure every student appears equal, reducing opportunities for bullying and fostering a genuine sense of unity.\n\n"
+            "Secondly, wearing a uniform builds discipline and mental readiness for learning. Putting one on each morning signals that it is time to focus, helping us prepare mentally for the day ahead.\n\n"
+            "Beyond that, our Ghanaian schools have long relied on uniforms as a source of identity and school pride. Bearing our school's colours and emblems, uniforms unite students under a shared symbol, strengthening our sense of belonging and community.\n\n"
+            "In conclusion, school uniforms play a genuinely important role in promoting equality, building discipline, and uniting our school communities. Let us continue honouring a tradition that has served us so well over the years.\n\n"
+            "Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 44 (BECE 1996 Q4)\n\n"
+            "Give any account of a fearful experience you have had or witnessed.",
+        answer: "⦿ Sample Essay\n\n"
+            "One evening, I decided to walk through the forest near my home. As the sun dipped lower, the trees cast long shadows across my path, and the air filled with birdsong and a light, cool breeze.\n\n"
+            "Suddenly, a rustling sound came from behind me. I spun around but saw nothing there, and assumed it was just the wind, so I carried on. Minutes later, the rustling returned, louder this time, and closer. I stopped dead, my pulse quickening.\n\n"
+            "Then a large, wild dog burst from the bushes. Its coat was matted, its eyes glinting in the fading light, and its bared teeth were unmistakably sharp as it growled at me. Fear rooted me completely to the spot.\n\n"
+            "Recalling something I had once read about staying calm in such situations, I began edging backwards without turning away from the animal, raising my arms to appear larger. The dog tracked my movements closely but held its ground. Once I felt far enough away, I turned and sprinted the rest of the way.\n\n"
+            "I did not slow down until my house came into view. Shaking, I bolted every door and watched from the window, but no sign of the dog followed. That night, sleep would not come easily as the encounter replayed itself in my mind. The forest, once a place of calm, now felt threatening, and I resolved never to walk there alone again.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 45 (BECE 1997 Q3)\n\n"
+            "You once got lost when you were a child. Narrate to your classmates why you got lost, what you went through and how you were finally found.",
+        answer: "⦿ Sample Essay\n\n"
+            "It happened one Friday when my mother brought me along to Bodomase Market while she shopped for vegetables. My attention drifted towards a colourful toy stall nearby.\n\n"
+            "Curiosity pulled me closer, and before I realised it, I had wandered off completely, losing sight of my mother. Panic set in the moment I looked up and could not find her anywhere.\n\n"
+            "I began crying and calling out for her, but between the market's noise and the maze of stalls, I had no idea which direction to try. I felt utterly lost.\n\n"
+            "Fortunately, a kind fruit seller noticed my distress and came over to ask what was wrong. Still sobbing, I nodded when she asked if I was lost. She took my hand and brought me to a security officer, who then announced over the loudspeaker that a child had been found.\n\n"
+            "After what felt like forever, my mother came rushing over, visibly relieved, and pulled me into a tight hug, thanking the woman and the officer profusely for their help. We were finally back together.\n\n"
+            "It was a genuinely frightening ordeal, but it taught me the importance of staying close to my parents in crowded places. Just as importantly, I learned there are good, caring people out there willing to help a lost child, like the kind vendor and the security officer that day.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 46 (BECE 1999 Q4)\n\n"
+            "Your parents left you in charge of the house for one day. Tell your friends what you did.",
+        answer: "⦿ Sample Essay\n\n"
+            "Hey everyone! You will never guess, my parents left me home alone for an entire day! It was completely mine to spend as I pleased, so let me tell you all about it.\n\n"
+            "I slept in that morning, which felt amazing, then took my time waking up before making myself a hearty breakfast, pancakes, bacon, and a big glass of orange juice.\n\n"
+            "Afterwards, I settled down to watch television, found a good comedy on Netflix, and lounged on the sofa with a huge bowl of popcorn, laughing the whole way through.\n\n"
+            "Later on, I did a bit of tidying around the house, nothing major, just enough to keep things neat, and even managed a load of laundry, which honestly felt like a small triumph for me.\n\n"
+            "In the afternoon, I got to play video games uninterrupted for a couple of hours, genuinely satisfying to have all that free time without anyone bothering me.\n\n"
+            "By evening, I made myself a simple dinner of spaghetti with tomato sauce and a side salad. After eating, I took a long shower, then relaxed in my room with music and a book.\n\n"
+            "By the end of it, I felt quite proud of myself for handling the house responsibly while still finding time to relax. It struck a nice balance between fun and responsibility, a genuinely well-spent day!\n\n"
+            "That is how I spent it, friends! How was your day? Let me know!",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 47 (BECE 2000 Q3)\n\n"
+            "Narrate to your friend an interesting story your grandmother told you.",
+        answer: "⦿ Sample Essay\n\n"
+            "Long ago, in the peaceful village of Anomabo, my grandmother was just a young girl, full of energy and dreams, running barefoot along the sandy paths as her laughter mixed with the songs of the birds.\n\n"
+            "Among her stories, she often spoke of Kwabena, a skilled young fisherman known throughout the village. Strong from years of hauling in heavy nets, Kwabena was equally known for his generous heart, always sharing his catch with those less fortunate.\n\n"
+            "One evening, as the sky turned shades of orange and purple, Kwabena noticed something unusual glinting in his net, a stunning, sparkling stone, a gift from the sea itself. Villagers gathered around in amazement as the gem shone with a light that seemed to dance, casting a mesmerising glow across the humble village.\n\n"
+            "Grandma always emphasised what happened next: rather than keep such a treasure for himself, Kwabena declared it should belong to the entire village, a token of unity, generosity, and the kind spirit of the Anomabo people.\n\n"
+            "The gem became the village's greatest treasure, kept safe at the chief's palace for all to admire, and was said to bring good fortune and happiness to Anomabo for years afterward.\n\n"
+            "Whenever Grandma told this tale, her eyes would sparkle just like the gem she described. To this day, Anomabo is fondly known as the Village of the Shimmering Stone, a place where kindness and community continue to shine brighter than any jewel.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 48 (BECE 2002A Q4)\n\n"
+            "Narrate the most interesting story you have read and say why you like it.",
+        answer: "⦿ Sample Essay\n\n"
+            "Let me share the most fascinating story I have ever come across, \"Ananse and the Sky God,\" a well-loved piece of Ghanaian folklore centred on Ananse, the clever, mischievous spider.\n\n"
+            "The tale begins with a devastating famine sweeping through the land, leaving people to suffer. Determined to help his village, Ananse set out to find a solution.\n\n"
+            "He learned of Nyame, the Sky God, who kept a box filled with wisdom and stories, knowledge Ananse believed could hold real power. So he journeyed to seek out Nyame directly.\n\n"
+            "Once there, Ananse offered to buy the box, and Nyame, intrigued, asked what he would offer in exchange. Thinking quickly, Ananse proposed a daring challenge, that he could capture all the jungle's fiercest creatures and trap them in a single calabash. Confident it was impossible, Nyame accepted the wager.\n\n"
+            "But through cunning and clever tricks, Ananse succeeded, capturing even a dangerous python and a hornet's nest, leaving Nyame thoroughly impressed by his ingenuity.\n\n"
+            "True to his word, Nyame handed over the box of stories, which Ananse carried home. Filled with wisdom, those stories helped the villagers find their way through the famine.\n\n"
+            "I love this story because it celebrates resourcefulness and using one's wits to overcome hardship. Ananse's cleverness and determination saved his people, showing how ingenuity can triumph over even the toughest obstacles, and being such a treasured part of our Ghanaian heritage makes it all the more special to me.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 49 (BECE 2007B Q3)\n\n"
+            "Give an account of a memorable event in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the lively town of Nima, a truly special day was underway, Eid-ul-Fitr, a day I had looked forward to eagerly, marking the close of Ramadan's month of fasting and reflection.\n\n"
+            "As morning broke, unity seemed to settle over Nima. The azan rang out through the streets, calling everyone towards the mosque. I remember slipping into my new outfit, feeling the fresh fabric against my skin, joy building inside me with every moment.\n\n"
+            "Everywhere, people exchanged warm greetings of \"Eid Mubarak!\" Children's laughter filled the air as families and friends embraced, swapped stories, and formed a wonderfully close community.\n\n"
+            "One particular highlight was the communal prayer, rows upon rows of worshippers, men, women, and children standing shoulder to shoulder, united in heartfelt devotion, offering gratitude for blessings received and hope for what lay ahead.\n\n"
+            "Once prayers concluded, Nima burst into colour, its streets lined with stalls offering delicious treats, from kebabs to sweet delicacies.\n\n"
+            "That day in Nima, Eid-ul-Fitr became more than just a festival, it was a vivid picture of unity, joy, and shared happiness. It was a day of love and togetherness that I will always hold close to my heart.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS3 s4 ss1 - Essay & Composition Writing": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1990 Q3)\n\n"
+            "Describe what you normally do on Sundays.",
+        answer: "⦿ Sample Essay: My Sunday Routine\n\n"
+            "Sundays in Ghana have their own rhythm for me. The day begins with the far-off ringing of church bells and hymns drifting through the morning air, letting me know a fresh day has begun.\n\n"
+            "Church usually opens my Sunday. Most Ghanaians treat Sunday as a day set aside for worship, and I am no different. The energetic gospel music, powerful preaching, and the company of fellow worshippers always lift my mood. Once the service ends, we often stop to greet friends and sometimes grab a meal together nearby, perhaps some jollof rice or fufu.\n\n"
+            "Afternoons are for family. We gather under the shade, talk about how the week went, tell each other stories, or just enjoy the breeze. Occasionally, we drop in on relatives or have them over, and there is always plenty of laughing and closeness when we are all together.\n\n"
+            "I also use part of the day to get ready for the week ahead, doing my homework, ironing my uniform, sorting my books, and preparing my school materials. Somewhere in between, I squeeze in football or other games with friends.\n\n"
+            "By evening, the whole family settles in front of the television for our favourite shows, followed by a light supper. Before bed, I usually take a moment to think back over the day and give thanks for it.\n\n"
+            "All in all, Sunday for me combines worship, togetherness with family, rest, and preparation for what is next. It is a day I genuinely look forward to each week.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 1990 Q4)\n\n"
+            "You were in the house when you heard drumming and singing. Describe what you saw when you came out of the house.",
+        answer: "⦿ Sample Essay\n\n"
+            "I was indoors in Takoradi, not doing much in particular, when drumming and singing in the distance grabbed my attention. Curious, I went outside to find out what was going on.\n\n"
+            "Once outside, I discovered a lively masquerade celebration taking place right in our own compound. The dancers wore masks carved into striking shapes, some resembling animals and others just wonderfully unusual, the kind you would expect at a proper masquerade parade.\n\n"
+            "The drumbeats seemed to breathe energy into every movement. Dust rose from their feet as they leapt and spun in time with the music, while the singers added melodic chants that deepened the festive mood.\n\n"
+            "A crowd from the neighbourhood had formed around them, clapping and shouting encouragement. Children laughed as they tried copying the dance moves, and others pushed forward to admire the costumes up close. They responded to the drumbeats and snacks to the onlookers.\n\n"
+            "I stood transfixed by it all. Takoradi's masquerade troupe was well known for putting on a great show, and watching them in person was something I would not forget. The blend of music, movement, and colourful dress spoke to how rich our local traditions are. Watching the parade continue on its way, I felt genuinely proud and grateful to witness such a display of culture and artistry.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 1991 Q3)\n\n"
+            "Describe a market scene in your town or village.",
+        answer: "⦿ Sample Essay\n\n"
+            "Asesewa's market comes alive with energy, especially on the days trading is in full swing, drawing people from the surrounding area to buy and sell.\n\n"
+            "Walking in, the first thing that hits you is the constant chatter, buyers haggling with sellers, mothers calling out to children, friends greeting one another. Colour is everywhere too, from the fruit, vegetables, and fabrics on display.\n\n"
+            "My favourite part is the fruit section, with mangoes, oranges, and bananas piled neatly in baskets. Close by, the vegetable stalls show off fresh tomatoes, onions, and peppers, and the smell of fresh produce hangs in the air.\n\n"
+            "A little further on, cloth sellers hold up their fabrics so the patterns catch the wind, bold reds and blues sit beside gentler pastels, something for every taste.\n\n"
+            "There is a corner for spices and grains too, where the scent of ginger and pepper mixes with sacks of rice, maize, and beans lined up along the ground.\n\n"
+            "Nearby, you can hear chickens clucking and goats bleating as they wait to be sold, and beside them, fishmongers lay out the day's catch, everything from tilapia to catfish.\n\n"
+            "But the market is not only about buying and selling. It is where news travels, friendships are renewed, and families reconnect. It is really the heartbeat of our community, full of noise, colour, and life.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 1992 Q3)\n\n"
+            "You saw a fight between two of your classmates and your class teacher has asked you to give an account of the fight. Write your account.",
+        answer: "⦿ Sample Essay\n\n"
+            "Yesterday during break time, I witnessed something unpleasant, a fight broke out between two classmates. It happened without warning, under a bright midday sun as we were all outside.\n\n"
+            "Kwame and Kofi, who are both in my class, started raising their voices at each other over something. As the argument grew louder, they began shoving one another, and a small crowd of students gathered to watch, clearly uneasy about where it was heading.\n\n"
+            "Things soon got worse, punches started flying. Our teacher, Mr Mensah, heard the commotion and hurried over, managing to pull them apart and get them to settle down.\n\n"
+            "Afterwards, he spoke to each boy separately to piece together what had happened. It turned out the disagreement stemmed from a misunderstanding over a game, and tempers had simply flared too quickly.\n\n"
+            "Eventually, Mr Mensah brought them together and reminded them that fighting solves nothing. He told them that as classmates, they were like family and owed each other respect. Both boys looked genuinely embarrassed by then.\n\n"
+            "The whole episode taught us something valuable about handling disagreements calmly, that talking things through beats throwing punches. Since then, Kwame and Kofi have got along much better, and we all took away the lesson that staying calm and working things out together is the better path.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 1993 Q3)\n\n"
+            "Describe a festival which was celebrated recently in your area.",
+        answer: "⦿ Sample Essay\n\n"
+            "Not long ago, our area marked the Hogbetsotso festival, a colourful, joy-filled occasion. It holds special meaning for the Anlo Ewe people, commemorating the long-ago migration of our ancestors to their present home, where they finally found peace.\n\n"
+            "The morning began at the chief's palace, where everyone turned out in beautiful traditional attire, richly patterned and vividly coloured, each design carrying its own story. Speeches were made there, along with prayers of gratitude to God and to our ancestors for the peace we now enjoy.\n\n"
+            "The real highlight, though, was the street parade, drummers and dancers filling the air with joyful sound, drawing everyone into the rhythm. Many people had painted faces and wore costumes resembling animals or warriors from the past, turning the streets into one big, lively celebration of music and dance.\n\n"
+            "There was even a boat race on the lagoon, which had everyone on the edge of their seats, cheering for their favourite crew as the canoes raced across the water. Food, of course, played its part too, traditional dishes were cooked and shared generously among neighbours and friends.\n\n"
+            "It was a day that brought the whole community together in celebration of shared history and culture. Watching everyone enjoy themselves that day filled me with pride in where I come from.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 1993 Q4)\n\n"
+            "Describe a dream you will never forget.",
+        answer: "⦿ Sample Essay\n\n"
+            "There is one dream I do not think I will ever forget, mostly because it felt so vivid and tied so closely to what is happening around us in Ghana right now.\n\n"
+            "I dreamt I was strolling through an enchanted garden somewhere in Accra, not an ordinary garden at all, but one where the plants and trees glowed softly in the dark, lighting up the whole space like something out of a storybook.\n\n"
+            "As I moved through it, I noticed people from every corner of Ghana, north, south, east, and west, gathered together, laughing and sharing stories. Language did not seem to matter; everyone simply understood one another. It felt like the entire nation had become one big family.\n\n"
+            "At the garden's centre stood a huge table piled high with Ghanaian favourites, jollof rice, waakye, fufu and light soup, tuo zaafi, and more besides. Everyone sat down together to eat, and not a single person went hungry.\n\n"
+            "Then, without warning, a great tree at the garden's heart began stretching upward, growing taller by the second. It seemed to be gathering everyone's hopes, dreams, and love, lifting them up towards the sky to share with the wider world.\n\n"
+            "When I woke, I felt genuinely happy and full of hope. The dream had shown me a Ghana united in joy and love, something I would love to see come true one day.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 1994 Q3)\n\n"
+            "You were present when a senior student bullied a junior one. Describe what happened to the teacher on duty.",
+        answer: "⦿ Sample Essay\n\n"
+            "I once watched a senior student named Joey bullying a younger boy, Razak. It was hard to watch, and everyone nearby was clearly troubled by it. Thankfully, the teacher on duty that day, Mrs Paintsil, was close enough to step in quickly.\n\n"
+            "She looked genuinely serious as she confronted Joey, asking him to account for his actions, but he just stared at the ground without a word. Razak, meanwhile, was visibly frightened and fighting back tears, so you could tell how much the incident had shaken him.\n\n"
+            "Mrs Paintsil led both boys somewhere quieter to talk. She took the time to hear Razak's side carefully and also questioned other students who had witnessed the incident, wanting to understand the full picture before deciding what to do next.\n\n"
+            "Once she had heard everyone out, she brought Joey to the head teacher's office to formally report the matter, while also comforting Razak. She made it clear to Joey how disappointed she was and reminded him firmly that bullying has no place in our school, urging him to always speak up if something similar happened again.\n\n"
+            "We later learned Joey had been made to clean the school grounds for a week as punishment. Mrs Paintsil also checked in on Razak afterwards and encouraged the whole class to treat one another kindly.\n\n"
+            "That day showed us clearly that our teachers genuinely care about our safety and will not tolerate bullying, and it left the whole school feeling a bit more secure.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 1994 Q4)\n\n"
+            "Describe your favourite teacher.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mrs Mabel Gozo is, without question, my favourite teacher, patient, warm, and unlike anyone else at our school.\n\n"
+            "She has a habit of dressing in bright, cheerful outfits that make her seem to glow, and her smile alone is enough to make anyone feel welcome. Her voice is gentle, and somehow even the driest topics come alive when she teaches them.\n\n"
+            "What really sets her apart is her teaching style. Rather than lecturing from the front, she moves around the classroom, asks us questions, and often turns lessons into games so we grasp things more easily. Her classes are genuinely enjoyable, full of laughter from start to finish.\n\n"
+            "She is also quick to notice when someone is struggling, and she will happily go over a point again until it clicks. You can tell she really cares whether we understand, not just whether we have been taught.\n\n"
+            "Beyond the syllabus, she shares stories about different parts of Ghana and the people who live there, encouraging us to take pride in our heritage and history.\n\n"
+            "More than a teacher, she feels like a friend, someone who listens when we have problems and offers thoughtful advice. Thanks to her, school feels like a genuinely happy place, and everyone in our class is fond of her.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 1995 Q3)\n\n"
+            "Describe how your favourite game is played. Give two reasons why you like it.",
+        answer: "⦿ Sample Essay\n\n"
+            "Pilolo is one of the most enjoyable games we play here in Ghana, simple to set up, since all you need are a few small objects like stones or sticks to hide.\n\n"
+            "To start, someone is chosen to hide the items while everyone else waits at a designated starting point. As the hider conceals the objects, the other players either shut their eyes or turn away so they cannot peek.\n\n"
+            "Once everything is hidden, the hider shouts \"Pilolo!\" and the search begins. Speed matters here; whoever finds an object and races back to the starting line first wins that round.\n\n"
+            "I love this game for two main reasons. First, there is real excitement in it, your heart races as you dash around searching, and you genuinely never know who will come out on top. Second, it is a wonderful way to bring people together, since anyone, regardless of age, can join in, and it almost always ends with everyone laughing.\n\n"
+            "More than just a pastime, Pilolo captures the fun of a simple outdoor game while creating lasting, happy memories among family and friends throughout Ghanaian society.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 1995 Q4)\n\n"
+            "Describe a day you will never forget in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "A trip to Kakum National Park in Cape Coast stands out as a day I will always remember, genuinely one of the best adventures I have had.\n\n"
+            "We set off early, and by the time we arrived, the air felt crisp and clean, with lush green forest stretching all around. The park was buzzing with other visitors of all ages, everyone equally keen to discover what Kakum had to offer.\n\n"
+            "Nothing compared to walking the canopy walkway, though. It was nerve-racking at first, suspended so high above the ground between the treetops, but I found the courage to step onto it anyway. From up there, I could look out over the forest canopy and even spot birds in flight; it genuinely felt like walking through the sky.\n\n"
+            "Afterwards, a guided tour taught us about the plants and creatures that call the forest home, with our guide sharing fascinating stories along the way.\n\n"
+            "Before heading back, we stopped for a picnic, laughing, snapping photos, and promising ourselves we would return one day.\n\n"
+            "It was a truly magical experience being that close to nature, and it left me with a real appreciation for the natural wonders our country holds, and why they are worth protecting for generations to come. That day, filled with wonder and joy, is one I will treasure forever.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (BECE 1996 Q3)\n\n"
+            "Describe the happiest day in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "Winning our school's Spelling Bee ranks as the happiest day of my life. Honestly, I still find it hard to believe it happened.\n\n"
+            "I had always enjoyed reading and writing, but I never once thought of myself as our best speller. When the competition was announced, friends pushed me to enter, and though nervous, I decided to try.\n\n"
+            "Each evening, my older sister helped me prepare, reading out words for me to spell while we sat in the living room. We laughed plenty, especially over the trickier words I fumbled, but gradually I started improving.\n\n"
+            "By the day of the contest, my heart was pounding. The hall was packed with students, teachers, and a few parents. When my turn came, I steadied myself and listened closely to each word, some straightforward, others genuinely tough.\n\n"
+            "It turned into a tight contest, and eventually it came down to me and my best friend Kofi. I could hardly believe it when he stumbled on his word, and then managed to spell mine correctly. I had actually won.\n\n"
+            "The room erupted in applause, and I felt like I was floating. That evening, my family threw together a little celebration with jollof rice and chicken, easily the best day I had had, and I felt so proud and thankful for everyone who had cheered me on.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 1997 Q4)\n\n"
+            "Describe an interesting place you have visited and say what you gained in the visit.",
+        answer: "⦿ Sample Essay\n\n"
+            "Cape Coast Castle stands out as one of the most memorable places I have visited in Ghana. Set along our beautiful coastline, my visit there gave me more than just facts; it left me with a lot to reflect on.\n\n"
+            "The castle itself is an enormous stone fortress, built centuries ago by European colonisers, and once used to hold enslaved Ghanaians before they were shipped off to distant lands. Simply walking through its corridors, I could feel the heaviness of its history all around me.\n\n"
+            "Inside were the dungeons, where hundreds once suffered under horrific conditions. It was a sobering, emotional experience that taught me a great deal about the brutal realities of the transatlantic slave trade, and about the strength of those who endured it.\n\n"
+            "Stepping back outside, the ocean view was breathtaking, yet it also made me picture the journeys our ancestors were forced to take across that same sea, with no idea what lay ahead.\n\n"
+            "The visit reinforced how important it is to remember our history, even its darkest chapters. It deepened my appreciation for the freedom and fairness we enjoy today and reminded me of the resilience of the Ghanaian people who overcame such hardship.\n\n"
+            "Ultimately, that visit left me with a far greater understanding of our past, and a stronger commitment to fairness and justice today, an experience that will stay with me for life.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 1998 Q3)\n\n"
+            "Describe a recent celebration in your family.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our family recently threw a wonderful celebration for my grandmother's 80th birthday, a day bursting with colour, love, and laughter.\n\n"
+            "We began by decorating the compound with lively colours and traditional Ghanaian symbols, giving the whole place a festival-like feel. Meanwhile, the smell of Ghanaian cooking filled the air as preparations for the feast got underway.\n\n"
+            "Relatives and friends travelled from near and far to join us, arriving in their finest traditional dress, which only added to the festive atmosphere. Drumming and dancing echoed through the neighbourhood, drawing even more people to come and celebrate with us.\n\n"
+            "The feast itself included jollof rice, fufu, an assortment of stews and soups, alongside treats like kelewele and freshly baked pastries.\n\n"
+            "The high point came when my grandmother, dressed elegantly in kente, was honoured by the family. Loved ones stood up to share heartfelt words about her wisdom and kindness over the years, presented her with gifts, and we all danced around her to traditional music.\n\n"
+            "As night fell, we released colourful lanterns into the sky as a symbol of hope for her future. It was a day rich in happiness, unity, and cultural tradition, leaving us all with memories we will treasure and a deeper sense of family bond.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 14 (BECE 1999 Q3)\n\n"
+            "The schools in your district recently held a sports competition. Describe what happened.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our district, Ellembelle, recently hosted a lively inter-school sports competition, and the atmosphere was thick with excitement and camaraderie.\n\n"
+            "The venue was a large open field decked out with banners and flags fluttering in the breeze. Students arrived from various schools in their uniforms, buzzing with anticipation as the whole ground filled with noise and colour.\n\n"
+            "Things got underway with a march past, each school parading proudly around the field to the beat of drums and cheers, with traditional dances and inspiring speeches marking the opening ceremony.\n\n"
+            "Then came the athletics, sprints, long jump, relays, and more, with spectators cheering the competitors on, and you could see the determination etched on every runner's face. Winners walked away with medals and wide smiles.\n\n"
+            "But it was not purely about winning. The event brought students from different schools closer together, sparking new friendships and friendly rivalry alike, a genuine celebration of unity through healthy competition.\n\n"
+            "Teachers and parents joined the cheering too, showing support for the young athletes and highlighting the value of staying fit and active.\n\n"
+            "As evening approached, a closing ceremony brought everyone together for a final dance and the national anthem, sung with pride. The day ended with promises of even greater unity and sportsmanship going forward, a truly memorable occasion full of teamwork and Ghanaian spirit.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 15 (BECE 2001 Q4)\n\n"
+            "You suddenly woke up when you heard someone shouting \"Help! Help!\" Describe what you saw when you rushed out.",
+        answer: "⦿ Sample Essay\n\n"
+            "I was sound asleep one night in Woraso when a desperate cry for help jolted me awake. My heart pounding, I sprang out of bed and rushed to the window to look outside.\n\n"
+            "By the dim moonlight, I made out a small crowd gathered near a large baobab tree, some carrying torches and flashlights. Their urgent shouts of \"Help! Help!\" carried clearly through the night air.\n\n"
+            "Without stopping to think, I hurried out to join the worried neighbours already gathered there. Getting closer, I saw a young boy, no older than ten, stuck high in the branches of the towering tree, gripping tightly to a thick limb, fear written across his face.\n\n"
+            "The moonlight showed his tear-streaked cheeks; it was obvious he had climbed up and simply could not find his way back down. Those below tried to reassure him, calling out calming words while help was arranged.\n\n"
+            "A few villagers rushed off to fetch a ladder, while others kept talking gently to the frightened boy. Once the ladder was carefully secured against the trunk, the real rescue began.\n\n"
+            "Holding our breath together as a group, we watched him climb down step by careful step. The moment his feet touched the ground, relief swept through the crowd, and everyone burst into cheers and applause.\n\n"
+            "That night showed me the true meaning of community, neighbours coming together, even in the small hours, to save a child in danger. It was a genuinely heart-warming reminder of the kindness that connects us all.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 16 (BECE 2003 Q3)\n\n"
+            "Your school is planning an excursion to a place of interest in your district. Describe the preparations you are making towards the journey.",
+        answer: "⦿ Sample Essay\n\n"
+            "Our school is buzzing with excitement over an upcoming trip to the Nzulezu stilt settlement, a fascinating spot in our district that everyone is eager to explore.\n\n"
+            "What makes it so special is that the entire village is built on water. Our teachers showed us photographs and explained its history, and now we are busy preparing for the journey ahead.\n\n"
+            "For starters, we have each been told to pack a small bag with essentials. I am bringing a hat, sunscreen, and a water bottle, since it can get quite hot, plus a raincoat just in case, and naturally, a camera to capture the moment.\n\n"
+            "Our class has also been raising funds by selling homemade snacks during break, which I have been helping to bake, the proceeds will go towards paying for canoe rides once we get there.\n\n"
+            "We had a briefing about safety too, since we will be travelling by water, we have been warned not to lean too far to one side of the canoe or mess around while on board.\n\n"
+            "The school has also been in touch with the elders of Nzulezu, who will be teaching us about how they live, cook, and even attend school right there on the water, something I am genuinely curious about.\n\n"
+            "Finally, we have been practising a few local songs and dances to share when we arrive. Everyone is counting down the days now, eager to see the houses on stilts and meet the people who call Nzulezu home.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 17 (BECE 2004 Q3)\n\n"
+            "Describe an interesting function you attended recently.",
+        answer: "⦿ Sample Essay\n\n"
+            "I recently went to a fascinating event in Adanwomase, in Ghana's Ashanti Region, a traditional wedding, and it was an unforgettable experience full of colour, music, and culture.\n\n"
+            "The venue was decked out in vibrant kente cloth and traditional motifs, and the bride and groom, dressed head to toe in stunning kente, looked positively regal, it genuinely felt like stepping into a fairy tale.\n\n"
+            "Things opened with the pouring of libation, a solemn ritual honouring the ancestors and asking for their blessing, led respectfully by the elders.\n\n"
+            "Then the music and dancing took over. Talking drums and other traditional beats filled the air, and everyone got up to dance to the lively rhythm, their colourful beads and ornaments catching the sunlight.\n\n"
+            "There was also an Adowa dance performance, with dancers moving gracefully in time to the music, a real treat to watch and a lovely showcase of Ghanaian tradition.\n\n"
+            "The food was another highlight, with tables loaded with fufu, yam and palava sauce, jollof rice, fried chicken, and banku with okra soup, I could not resist sampling everything.\n\n"
+            "I met people from all over Ghana, and even a few from abroad, giving me a chance to learn about their customs too.\n\n"
+            "As the sun set, the couple exchanged vows and rings, closing the ceremony on a beautiful note of love and commitment. Attending that wedding was a memorable way to experience our rich culture firsthand, and it reminded me just how much beauty and joy lie in celebrating love and unity together.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 18 (BECE 2005 Q3)\n\n"
+            "You live about ten kilometres away from your school. Write accurate directions to a friend who wishes to visit you.",
+        answer: "⦿ Sample Essay\n\n"
+            "Keziah, I am so glad you want to come visit, happy to walk you through how to get to my place, about ten kilometres from our school.\n\n"
+            "Begin at the school gate and turn right, then walk straight along the main road until you spot a large, well-known mango tree at a junction, impossible to miss. From there, take the road to the left.\n\n"
+            "Continue on until you reach a blue kiosk selling cold drinks and snacks. That path, lined with flowers on both sides, leads directly to a tro-tro station. Once there, board a tro-tro heading towards Aflao and let the mate know you would like to get off at \"Adjei Junction.\"\n\n"
+            "When you arrive at Adjei Junction, get off and walk a short way forward until you spot a cocoa seller on the left side of the road. Right beside the seller is a narrow footpath, take that, and it is a short walk from there.\n\n"
+            "You will pass a house with a red roof, then another with plenty of chickens in the yard. Just past that house, you will find mine, the third house on the right, marked by a white gate and some pretty flowers out front. It is an easy route, and I really hope to see you soon.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 19 (BECE 2007 Q4)\n\n"
+            "Describe to your friend how your favourite game is played.",
+        answer: "⦿ Sample Essay\n\n"
+            "Adzo, let me tell you about my favourite game, musical chairs. It is simple, fun, and never fails to bring plenty of laughter.\n\n"
+            "To set it up, we arrange chairs back-to-back in a line, always one fewer than the number of players, so for ten players, we would set out nine chairs.\n\n"
+            "Once the chairs are ready, we get some upbeat music going, and everyone starts circling the chairs, walking, dancing, and keeping half an eye on their seats, because you never know exactly when the music will cut out.\n\n"
+            "The instant it stops, there is a scramble to grab a chair. Since there is always one fewer chair than players, someone ends up without a seat and is out for that round. We then remove another chair and start again, repeating until only one person remains, the eventual winner.\n\n"
+            "Musical chairs is such great fun precisely because it is unpredictable, you need both quick reflexes and a bit of luck to win. It is the sort of game that has everyone laughing and enjoying themselves the whole way through. Let us play it again next time we are together!",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 20 (BECE 2013 Q3)\n\n"
+            "Describe one national event that took place recently and state two effects it had on the people in your area.",
+        answer: "⦿ Sample Essay\n\n"
+            "Christmas Day, celebrated on the 25th of December, is a national event that recently brought people in my area together to mark the birth of Jesus Christ and spend precious time with loved ones.\n\n"
+            "One clear effect of the celebration was the sense of happiness and unity it created among neighbours. People greeted one another more warmly than usual, smiles were everywhere, and the spirit of the season allowed many to set their worries aside, if only briefly, as they shared meals, exchanged gifts, and celebrated together. Watching young and old come together to laugh, sing, and dance was a beautiful reminder of what community and togetherness can offer.\n\n"
+            "A second effect was a noticeable rise in generosity throughout the area. Many families chose to share what they had with those less fortunate, some cooked extra portions for neighbours in need, while others gave away clothes and toys. Small gestures like these made people feel genuinely cared for.\n\n"
+            "In short, Christmas fostered both unity and generosity in my community, offering joy, renewed hope, and a reminder that love and connection are what truly hold us together, leaving behind a spirit of kindness and brotherhood that lasted well beyond the day itself.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 21 (BECE 2002A Q3)\n\n"
+            "Write on the topic, \"Why I should like to attend a boarding school or a day school\".",
+        answer: "⦿ Sample Essay\n\n"
+            "School plays a huge role in our lives; it is where we learn, build friendships, and prepare for what is ahead. Some students board at school, living and studying there full-time, while others attend day schools and return home each afternoon. Both options come with their own advantages.\n\n"
+            "Living at a boarding school would mean sharing daily life with classmates, giving us more time to collaborate on projects, help each other with homework, and grow into something like a close-knit family. The bonds formed through living and learning side by side often last a lifetime.\n\n"
+            "Boarding schools also tend to offer strong facilities for both study and recreation, well-stocked libraries, laboratories, and sports grounds available around the clock. That access makes it easier to join clubs and teams and really pursue one's interests fully.\n\n"
+            "Day schools, on the other hand, have their own charm. Going home every evening means enjoying family comforts and sleeping in one's own bed, while still staying connected to the local community through nearby events and neighbourhood friendships.\n\n"
+            "Ultimately, the right choice depends on what kind of experience a person is after. Boarding schools offer full immersion, while day schools help balance school life with home and community. It really comes down to finding what suits each individual best.\n\n"
+            "Personally, if I had to choose, I would lean towards boarding school. The main draw for me is the chance to fully immerse myself in school life, both academically and socially, in a way that living away from home makes possible.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 22 (BECE 2002B Q4)\n\n"
+            "It has been suggested that parents should buy textbooks for their school children. Give at least three reasons why you agree or disagree to this suggestion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Whether parents should buy textbooks for their children is a question worth taking seriously here in Ghana. I personally think they should, and here are three reasons why.\n\n"
+            "Firstly, owning their own textbooks lets children study whenever it suits them, without needing to borrow from a friend or wait for a turn at the school library.\n\n"
+            "Secondly, a child with their own book can underline key points or scribble notes in the margins, which makes revision far easier and understanding deeper, almost like building a personal study companion over time.\n\n"
+            "Lastly, while textbooks might feel like a costly upfront investment, they can actually save money in the long run. If owning books helps a child study more effectively, they may need fewer extra lessons or private tutors, meaning parents could end up spending less overall.\n\n"
+            "So although buying textbooks may initially seem like a heavy expense, the long-term benefits, better understanding, improved grades, and possible savings on tutoring, make it a worthwhile investment for parents to make.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 23 (BECE 2004 Q4)\n\n"
+            "Would you like to attend a girl's, a boy's or a mixed school? Give at least three reasons for your choice.",
+        answer: "⦿ Sample Essay\n\n"
+            "Given the choice, I would pick a mixed school where boys and girls learn side by side, and I have three solid reasons for saying so.\n\n"
+            "To begin with, mixed schools support healthier social development. Students get to build friendships across genders, which encourages mutual understanding and respect while creating a more inclusive atmosphere overall. Learning to work well with people of different genders is a genuinely valuable life skill, and mixed schooling naturally provides that practice.\n\n"
+            "Secondly, a mixed environment brings a broader mix of perspectives into the classroom. Boys and girls often approach problems differently, and being exposed to those varied viewpoints can enrich learning and better prepare students for a world where they will need to collaborate with people of every gender.\n\n"
+            "Finally, mixed schools help chip away at outdated gender stereotypes. In Ghana, as elsewhere, certain assumptions about what boys or girls are \"supposed\" to be good at still linger. Seeing classmates of both genders excel across different subjects and activities can challenge those assumptions, building confidence and encouraging students to chase their interests without feeling boxed in.\n\n"
+            "Altogether, a mixed school offers stronger social growth, richer perspectives, and a real chance to break down gender stereotypes, creating a more balanced, fair learning environment that prepares students well for the wider world.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 24 (BECE 2006 Q4)\n\n"
+            "Your P.T.A has introduced a Best Teacher Award Scheme for your school. Which of your teachers would you nominate for the award and why?",
+        answer: "⦿ Sample Essay\n\n"
+            "I would like to put forward my English teacher, Mr Dogbe, for our school's Best Teacher Award. There are three key reasons behind my choice.\n\n"
+            "First, Mr Dogbe has a real knack for turning lessons into something we actually look forward to. He draws on everyday experiences and even Ghanaian folk stories to bring his teaching to life, making English feel relevant and enjoyable rather than abstract. This approach genuinely helps concepts stick and sharpens our language skills.\n\n"
+            "Second, he goes well beyond simply delivering lessons; he genuinely cares about us. He is happy to answer questions outside of class hours, listens carefully to our concerns, and offers real guidance on improving our writing and communication. He treats each of us as individuals, recognising our different strengths and adjusting his teaching accordingly.\n\n"
+            "Third, his commitment to our success is honestly inspiring. He organises extra study sessions and workshops ahead of major exams, and pushes us to take part in debates, essay competitions, and drama, all of which build our confidence and help us grow as well-rounded students.\n\n"
+            "Given how much value Ghanaian society places on education, Mr Dogbe's dedication, patience, and creative teaching truly stand out. He is not simply teaching us English; he is shaping who we will become and instilling in us a genuine love of learning.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 25 (BECE 2015 Q3)\n\n"
+            "Write arguments for or against the topic: It is more advantageous to live in the village than in the city.",
+        answer: "⦿ Sample Essay\n\n"
+            "The debate over whether village or city life is better has picked up steam lately. Village life is often praised for its peace and calm, and there is truth to that, but there are strong reasons to argue that city living actually holds more advantages.\n\n"
+            "For one, education and healthcare tend to be far more limited in rural villages. Cities offer a greater number of schools and hospitals, giving people better access to quality education and medical care, and children growing up in urban areas benefit from a wider range of resources and opportunities as a result.\n\n"
+            "Job prospects also tend to be broader and more varied in cities, which function as hubs of economic activity. Villages, by contrast, often rely heavily on farming or traditional trades, offering less income stability overall.\n\n"
+            "Cities generally have stronger infrastructure too, dependable electricity, water, and transport, which makes everyday life considerably more convenient and improves overall quality of life.\n\n"
+            "And in today's connected world, access to technology and the internet matters enormously for education and staying informed, something far more readily available in urban settings.\n\n"
+            "Taken together, while village life certainly has its own appeal, the case for city living is compelling; better healthcare, education, jobs, infrastructure, and technology all make it, on balance, the more advantageous option for many people seeking a better standard of living.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 26 (BECE 2018 Q2)\n\n"
+            "Write arguments for or against the topic: Life in the city is more dangerous than that in the village.",
+        answer: "⦿ Sample Essay\n\n"
+            "City life may look glamorous, but there is a strong case to be made that it is actually more dangerous than village life, particularly here in Ghana.\n\n"
+            "To begin with, crime tends to be more common in cities. Dense populations combined with economic inequality can lead to more theft, robbery, and other offences, putting personal safety at greater risk.\n\n"
+            "Traffic accidents are another serious concern. Busy roads, careless driving, and often inadequate infrastructure mean accidents happen more frequently in urban settings, endangering both drivers and pedestrians alike.\n\n"
+            "Pollution is a further issue, factories, vehicles, and construction sites contribute to air and noise pollution in cities, which can lead to respiratory problems and other health complications.\n\n"
+            "Disease also spreads more easily where people live close together, making outbreaks harder to contain and manage in densely populated urban areas.\n\n"
+            "And though rare, natural disasters can hit cities particularly hard, floods and fires, for instance, tend to spread faster and cause greater damage due to how tightly packed urban environments are.\n\n"
+            "That said, it is worth noting that cities are generally better equipped with safety measures, law enforcement, and emergency services, which can help reduce some of these risks.\n\n"
+            "On balance, while city living in Ghana certainly has its perks, there is a solid argument that it carries greater dangers than village life, from higher crime and traffic accidents to pollution, disease, and vulnerability to disaster, all of which contribute to the potential hazards of urban living.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 27 (BECE 1991 Q4)\n\n"
+            "Write a story that ends: I suddenly woke up and realized it was all a dream.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a small village, there once lived a young girl named Lily, always dreaming of adventure. One night, as sleep took hold of her, she found herself caught up in the most extraordinary dream.\n\n"
+            "She discovered a magical map leading to hidden treasure, and following it took her through a thick forest, across a roaring river, and up a towering mountain, until at last she reached a cave said to hold the treasure itself. Stepping inside with excitement, she found a chest overflowing with glittering jewels and coins.\n\n"
+            "Just as she reached out to touch it, a friendly dragon named Spark appeared and told her the treasure could only belong to someone with a kind heart. They spoke and laughed together, quickly becoming friends, and decided the treasure should be shared with the whole village.\n\n"
+            "But then a sudden noise jolted Lily awake. She opened her eyes to find herself back in her own bedroom, I suddenly woke up and realized it was all a dream. Though a little sad that the friendship and kindness she had felt were not real, she sensed that such warmth could still exist in her waking life.\n\n"
+            "Smiling, she climbed out of bed, ready to greet the day with the same spirit of adventure and kindness from her dream, hopeful that one day she might find real treasure, or even a friend as extraordinary as Spark, and content, for now, knowing that dreams have a way of coming true in unexpected forms.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 28 (BECE 1998 Q4)\n\n"
+            "Write a story that ends with \"Never will I do that again\".",
+        answer: "⦿ Sample Essay\n\n"
+            "In the village of Umukoro lived a boy named Kwame, known for being both curious and fearless. One day, word reached him of a mango tree deep in the forest, said to bear the sweetest fruit around.\n\n"
+            "Thrilled at the idea, Kwame decided to go find it alone, thinking the journey could not be too difficult. Grabbing a basket, he headed straight into the forest.\n\n"
+            "The dense trees soon blocked out the sunlight, and thorny bushes and tangled vines made the path tough going. Still, Kwame pressed on, dreaming of those mangoes.\n\n"
+            "Hours slipped by without any sign of the tree, and Kwame realised, with growing dread, that he was lost. As the sun began to set, panic crept in, and by nightfall the forest had turned eerie and unfamiliar.\n\n"
+            "Fear and loneliness set in. He wished he had listened to his parents rather than wandering off so far. Hunger gnawed at him, and the darkness only deepened his fright.\n\n"
+            "After a long, frightening night, dawn finally broke, and Kwame heard voices approaching, a search party of villagers who had been looking for him.\n\n"
+            "They guided him safely home, and relief washed over him. He had learned firsthand just how risky venturing alone into deep forest could be.\n\n"
+            "Sitting later beneath his family's own mango tree, enjoying its sweet fruit, he made himself a promise: \"Never will I do that again.\" He had come to understand that while adventure has its appeal, safety and heeding those who care for him mattered far more.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 29 (BECE 2005 Q4)\n\n"
+            "Write a story which ends, \"...... but everybody was happy\".",
+        answer: "⦿ Sample Essay\n\n"
+            "In the village of Vitting, in Ghana's Northern Region, there stood a special gathering place known as Unity Square, a spot where people of different backgrounds, tribes, and ages came together in celebration.\n\n"
+            "One bright day, the village decided to host a large festival there, and people of every age pitched in to plan it. Elders recounted tales of their ancestors and spoke about the value of unity, children rehearsed traditional dances, and the women prepared a spread of Ghanaian dishes.\n\n"
+            "When the day arrived, the sky glowed with warm colours, and Unity Square filled with music, laughter, and the smell of good food. People turned out in vibrant traditional clothing, while drummers kept everyone's feet tapping with joyful rhythms.\n\n"
+            "Dance competitions, storytelling, and even a cooking contest kept the energy high. Families set up little stalls to share homemade dishes and crafts, and children ran about, playing games and making new friends along the way.\n\n"
+            "As dusk settled in, the whole village gathered around a bonfire, where elders shared stories and hopes for the future, reminding everyone that unity would help them weather any challenge together.\n\n"
+            "Under a star-filled sky, the villagers sang songs of togetherness late into the night. The festival brought the community closer than it had ever been, and as everyone looked around, they realised that in Unity Square that night, everybody was happy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 30 (BECE 2008 Q4)\n\n"
+            "Write a story that explains the saying: Two heads are better than one.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the lively village of Wakanda lived two inseparable best friends, Jojo and Zoe, known for sharing everything from dreams to secrets since childhood. One day, the village launched a competition, calling for ideas to make Wakanda a happier place to live.\n\n"
+            "Jojo dreamt up a plan to plant flowers and trees throughout the village, while Zoe imagined building colourful playgrounds for the children. Both were excited by their own ideas, yet neither could decide which was better.\n\n"
+            "Noticing their indecision, Jojo's grandmother reminded them of an old saying, \"Two heads are better than one.\" Taking the advice to heart, the pair chose to merge their ideas rather than pick one over the other, designing a garden filled with vibrant flowers and tall trees, dotted throughout with lively playgrounds featuring swings, slides, and seesaws.\n\n"
+            "With help from fellow villagers, they worked tirelessly to bring their shared vision to life. By competition day, Wakanda had been transformed, flowers blooming everywhere, their fragrance filling the air, and children's laughter echoing as they played.\n\n"
+            "The village chief praised the pair's teamwork, echoing the old saying once more, \"Two heads are truly better than one.\" Wakanda had become not just happier but more beautiful and full of life, thanks entirely to Jojo and Zoe's collaboration. Beaming with pride, the two friends realised that combining their ideas and respecting each other's perspectives had led to something far greater than either could have achieved alone.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 31 (BECE 2010 Q3)\n\n"
+            "Write a short story illustrating the saying: All that glitters is not gold.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the small town of Aburi lived Josie, a young girl who led a simple, contented life helping her parents on their farm. One day, a flashy stranger named Kweku arrived in town, driving a shiny car and dressed in sparkling clothes, showing off his latest gadgets. Everyone was impressed, none more so than Josie.\n\n"
+            "Kweku spoke of city life and quick riches, showing Josie glittering stones he claimed were diamonds, insisting there were plenty more where they came from. He convinced her to join him in the city, promising wealth beyond her dreams.\n\n"
+            "Drawn in by his promises, Josie left Aburi and her family behind to follow him. But once in the city, reality set in, the \"diamonds\" turned out to be nothing more than glass, and his supposedly wealthy lifestyle was all borrowed or rented. Kweku was deep in debt, his glamorous image hiding serious problems underneath.\n\n"
+            "Feeling betrayed and homesick, Josie made her way back to Aburi, where her relieved parents welcomed her home with open arms. She had learned an important lesson, that something shiny on the outside does not necessarily mean it is genuine or valuable.\n\n"
+            "From that day forward, Josie never forgot the truth of the saying: all that glitters is not gold.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 32 (BECE 2011 Q2)\n\n"
+            "Write a story which ends with the expression: \"…… what a dream!\"",
+        answer: "⦿ Sample Essay\n\n"
+            "In the bustling city of Accra lived a young girl named Zaya, whose heart was full of dreams. Every afternoon after school, she would settle beneath the mango tree in her family's yard and let her imagination wander.\n\n"
+            "One warm afternoon, as she drifted off there and found herself in a vivid dream, she was a celebrated singer, standing on a grand stage bathed in dazzling lights, holding a golden microphone, dressed in a gown that shimmered like the stars themselves.\n\n"
+            "An enormous crowd had gathered, drawn from Accra and neighbouring towns, all eager to hear her sing. She spotted her family, school friends, and even teachers cheering from the front. As she began to sing, her voice carried effortlessly through the air, filled with power and beauty that held everyone spellbound.\n\n"
+            "Her songs celebrated love, happiness, and the vibrancy of Accra, its lively markets, warm-hearted people, and joyful festivals. The crowd danced and sang along, creating a wave of shared joy and unity.\n\n"
+            "Then, suddenly, a gentle nudge broke the spell. Zaya opened her eyes to find her younger brother Jadon shaking her awake, and realised she was still right there under the mango tree. Smiling to herself, she thought, \"…what a dream!\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 33 (BECE 2012 Q2)\n\n"
+            "Write a story which ends with the sentence: We arrived just in time to save the situation.",
+        answer: "⦿ Sample Essay\n\n"
+            "One sunny afternoon in Brofoyedu, my friend Ayi and I set off for a walk to the river, chatting about school, friends, and our upcoming holiday plans.\n\n"
+            "Along the way, we spotted a group of village children busily setting up a tent close to the riverbank, apparently planning a picnic. Ayi noted that the tent seemed dangerously close to the water, but we did not think much of it and carried on.\n\n"
+            "We settled a short distance away to enjoy the calm of nature, until, without warning, the sky darkened and rain began to fall. What started light quickly became a heavy downpour, and as we sheltered under a tree, Ayi suddenly pointed and shouted, \"Look at the tent!\"\n\n"
+            "The river was rising fast, and the strong current was already dragging at the tent and the belongings scattered around it. We realised at once that the children were in real danger as they scrambled to gather their things.\n\n"
+            "Without hesitation, we ran towards them. Ayi grabbed one side of the tent while I helped collect the scattered items, and together we shouted for the children to move to higher ground. The pouring rain made everything treacherous underfoot.\n\n"
+            "Working together, Ayi and I managed to haul the tent clear of the rising water, just moments before a huge wave surged through the very spot where it had been standing.\n\n"
+            "Catching our breath, we checked that everyone was safe. Frightened but unharmed, the children were guided to a safer spot to continue their picnic.\n\n"
+            "Looking at each other with relief, Ayi remarked, \"That was close!\" I simply replied, \"We arrived just in time to save the situation.\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 34 (BECE 2016 Q3)\n\n"
+            "Write a story which ends with the sentence: We were lucky that night.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the Ghanaian village of Akosombo, life revolved around the Volta River, where residents fished and farmed for their livelihood.\n\n"
+            "One evening, a fierce storm rolled in. The sky turned dark, winds picked up, and the river began churning wildly, leaving everyone uneasy.\n\n"
+            "The village elders, who understood the river's moods well, called everyone together, sensing that something serious was about to happen.\n\n"
+            "As the rain intensified and the river swelled further, the elders decided it was time to move to higher ground. Families quickly gathered their children and belongings and made their way uphill.\n\n"
+            "Just as the last person reached safety, a tremendous crash echoed through the night. The river had risen so high it swallowed the entire village, sweeping away homes and everything in its path. From their vantage point on the hill, the villagers watched their homes being destroyed, frightening, yet a relief that everyone had made it out safely.\n\n"
+            "Hours later, the rain finally eased. The following morning revealed the extent of the damage, but the villagers understood clearly that by trusting the elders and working together, they had avoided tragedy.\n\n"
+            "One of the elders summed it up simply: \"We were lucky.\" Though saddened by the loss, they were grateful above all to be alive and safe.\n\n"
+            "We were lucky that night.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 35 (BECE 2017 Q3)\n\n"
+            "Write a story that ends with the expression: So it pays to be kind to strangers.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the busy streets of Accra lived a young boy called Kweku, known throughout his neighbourhood for his friendly nature and readiness to help. One hot afternoon, on his way to the market, he spotted an elderly woman struggling under the weight of a heavy fruit basket.\n\n"
+            "Without a second thought, he rushed over to help. \"Let me carry that for you, ma'am,\" he offered, smiling warmly. Grateful, the woman let him carry the basket to her stall, where he neatly arranged the fruits for her.\n\n"
+            "She introduced herself as Adwoa, a fruit seller, and gave him a ripe mango as thanks. Kweku accepted gratefully and continued on his way.\n\n"
+            "Months later, hard times fell on Kweku's family, his father became seriously ill, and paying for treatment proved difficult. Kweku felt helpless, unsure what to do.\n\n"
+            "As chance would have it, a customer visiting Adwoa's stall overheard Kweku discussing the situation with his mother. Moved by their struggle, she made enquiries and discovered that this was the same boy who had once helped Adwoa.\n\n"
+            "A successful businesswoman, she stepped in to cover his father's medical bills and offered further support to the family through their difficult time.\n\n"
+            "Overwhelmed with gratitude, Kweku's mother tearfully thanked her. The woman simply smiled and replied, \"It was Kweku's kindness to a stranger that brought us together. So it pays to be kind to strangers.\"",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 36 (BECE 2019 Q3)\n\n"
+            "Write an interesting story which ends with the words, it pays to be kind to strangers.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a quiet village lived a boy named Riaz, well-liked for his kindness and easy smile. Walking home from school one day, he came across a man sitting by the roadside, looking exhausted and lost. The stranger introduced himself as Najeem.\n\n"
+            "Najeem explained he had travelled from a faraway village in search of work but had found nowhere to stay. Without hesitation, Riaz brought him home, where his family welcomed Najeem warmly, sharing their meal and offering him a place to rest overnight.\n\n"
+            "The following morning, Najeem thanked them and revealed a secret, he was a skilled craftsman, and as a gesture of gratitude, he wanted to create something beautiful for the family.\n\n"
+            "True to his word, he used local materials to sculpt a striking piece of art symbolising family unity and love. The sculpture caught the eye of a passing art dealer, who offered a generous sum to purchase it.\n\n"
+            "With the proceeds, Riaz's family were able to renovate their home and support his education, while Najeem went on to build a career as a respected artist, staying close with the family that had once shown him such kindness.\n\n"
+            "Sitting together and marvelling at how much had changed, they exchanged knowing smiles, a quiet reminder that it truly pays to be kind to strangers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 37 (BECE 2022 Q1)\n\n"
+            "Write an interesting story that ends with the expression, Unfortunately I realized when it was too late that my friend was a wolf in sheep's clothing.",
+        answer: "⦿ Sample Essay\n\n"
+            "When I first met John, I was convinced he was one of the kindest, most thoughtful people I had ever known. He always seemed available whenever I needed support, and we quickly grew close. I trusted him without question.\n\n"
+            "One day, John pitched me a business idea, an opportunity he was certain would prove hugely successful. He asked if I would invest some money to help launch it, assuring me the returns would be substantial.\n\n"
+            "Though hesitant initially, his confidence eventually won me over, and I handed him a sizeable sum, trusting him to manage everything responsibly.\n\n"
+            "Months passed with no word from him. My calls and emails went unanswered, and eventually I decided to visit his office myself. What I found shocked me, the place was completely deserted, with no trace of John or his supposed company anywhere. Trying his phone again, I discovered it had been disconnected entirely.\n\n"
+            "Unfortunately I realized when it was too late that my friend was a wolf in sheep's clothing. He had manipulated me into handing over my money, then vanished without leaving a trace. Devastated, I could not shake the feeling of having been foolish enough to trust him so completely.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 38 (BECE 2023 Q2)\n\n"
+            "Narrate an interesting story that ends with the statement, Indeed, it was a great achievement.",
+        answer: "⦿ Sample Essay\n\n"
+            "In a small village lived a curious, brave young girl named Ama, who dreamed constantly of flying like the birds she admired. Each day, she would climb a small hill in the fields and watch them soar overhead, their wings catching the sunlight.\n\n"
+            "One day on her usual visit to the hill, she met an old man named Kwaku, widely regarded as the village's wisest resident. Noticing her fascination with the birds, he decided to help her dream take shape, and together they began building a kite large enough for her to fly.\n\n"
+            "Over the following weeks, the kite grew more elaborate, painted in bright colours and adorned with beads and feathers. Ama and Kwaku worked tirelessly, refining every detail as their goal drew closer.\n\n"
+            "Finally, the day came for the kite's first flight. The whole village turned out to watch. With courage and excitement, Ama held tight as Kwaku and other villagers ran alongside, helping the kite catch the wind.\n\n"
+            "Suddenly, the kite lifted off, and so did Ama! She soared above the village, watching her dream unfold before her, spotting the beaming faces of her family and friends cheering her on from below.\n\n"
+            "After a beautiful flight, she landed safely to a roar of cheers and applause. Ama had not only realised her own dream but had shown the whole village what perseverance, courage, and creativity could achieve.\n\n"
+            "Tears of joy in her eyes, she embraced Kwaku tightly. The sky, it seemed, was no longer a limit for her. Indeed, it was a great achievement.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 39 (BECE 2025 Q3)\n\n"
+            "You once doubted your abilities, but an experience changed your mindset completely. Write your story, ending with the statement, \"I will never compare myself with anyone again.\"",
+        answer: "⦿ Sample Essay\n\n"
+            "There was a period when self-doubt followed me everywhere. I was convinced everyone around me was smarter, more capable, more talented, constantly measuring my grades against my friends' and feeling inadequate whenever I fell short. This habit carried on into college, where I grew so consumed with outdoing others that I nearly abandoned my own goals altogether, no longer enjoying learning for its own sake but instead judging my worth purely by comparison.\n\n"
+            "Then, one day, something shifted. I volunteered to present a group project simply because nobody else was willing to. Nerves gripped me, and fear of failure clouded my thoughts, but standing before the class, I told myself to simply do my best, mistakes or not. To my astonishment, the presentation went far better than I had expected, my classmates applauded, and my professor praised both my clarity and confidence.\n\n"
+            "Afterwards, one of my group members told me, \"You have got a real gift for explaining things simply, I could never do that.\" That comment struck something in me: we each carry different strengths. Some excel with numbers, others with writing, and clearly, mine lay in explaining ideas clearly.\n\n"
+            "That experience taught me something lasting, that self-worth is not built on comparison but on genuine growth and belief in oneself. Since then, I have focused on improving steadily, one step at a time, rather than constantly glancing sideways at others. Now, I take pride both in my own progress and in celebrating others' success. I will never compare myself with anyone again.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 40 (BECE 2001 Q3)\n\n"
+            "You are a speaker in a school debate on the topic \"Boys should not help in the kitchen\". Write your speech for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Chairperson, Honourable Panel of Judges, Accurate Timekeeper, Headteachers, Members of Staff, Invited Guests, Co-debaters, Ladies and Gentlemen:\n\n"
+            "I rise today to firmly oppose the motion that boys should not help in the kitchen. Within Ghana's rich cultural fabric, it is essential that we champion equality and shared responsibility across our homes and communities.\n\n"
+            "Cooking is not merely a chore, it is a genuinely valuable life skill everyone deserves to learn, regardless of gender. Our traditional dishes form a meaningful part of who we are as a people, and shutting boys out of the kitchen denies them the chance to connect with that culinary heritage.\n\n"
+            "We also live in an age that champions fairness and equality. Assigning kitchen duties only to girls simply reinforces old-fashioned gender roles and undermines progress towards true equality. Boys who never learn to cook miss out on practical skills they will need throughout life, whether living independently or supporting their own families later on.\n\n"
+            "Beyond the practical benefits, involving boys in cooking helps them appreciate the effort behind a well-prepared meal, while building a genuine sense of responsibility and teamwork. Sharing kitchen duties teaches respect for one another's contributions and the value of working together.\n\n"
+            "In closing, the notion that boys should not help in the kitchen no longer fits with modern Ghanaian values of unity and fairness. Let us encourage everyone, regardless of gender, to see the kitchen as a shared space for learning, growth, and togetherness. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 41 (BECE 2006 Q3)\n\n"
+            "You are a speaker in an inter-school debate on the topic: \"Television is doing more harm than good to students\". Write your speech for or against the topic.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mr Chairman, Honourable Panel of Judges, Accurate Timekeeper, Headmasters and Headmistress present, Members of Staff, Invited Guests, Co-debaters, Ladies and Gentlemen gathered in this august house;\n\n"
+            "I am Selina Boateng, representing Obuasi District Assembly Junior High School, and I stand to argue in favour of this motion, that television does more harm than good for students, a point especially relevant within our Ghanaian context.\n\n"
+            "There is no denying television offers some educational value, but we cannot overlook the harm it too often causes young minds.\n\n"
+            "For one, television proves a major distraction from schoolwork. Many students spend hours glued to their screens rather than studying, weakening academic performance and undermining good study habits, a genuine threat to our future in a country that prizes education so highly.\n\n"
+            "Beyond that, television frequently pushes unrealistic values, glorifying materialism and superficial appearances in ways that can shape young Ghanaians into prioritising possessions over education and personal growth, chipping away at our traditional respect for hard work and community.\n\n"
+            "Excessive viewing also carries real health consequences. It encourages a sedentary lifestyle that contributes to obesity, a growing concern in our society, while exposure to violent or unsuitable content can shape students' behaviour and attitudes in troubling ways.\n\n"
+            "To conclude, while television does hold some educational merit, the evidence strongly suggests it does more harm than good overall. As Ghanaians who value education deeply, we must recognise these risks and find a healthier balance between television's benefits and the damage it can cause to our students' wellbeing, values, and futures. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 42 (BECE 2009 Q3)\n\n"
+            "You are a speaker in a debate on the motion: \"The use of mobile phones in school by students should be banned\". Write your contribution for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Mr Chairman, Honourable Minister of Education, Honourable Member of Parliament, the Headmaster, parents, students, ladies and gentlemen.\n\n"
+            "Thank you for this opportunity to speak on the motion that mobile phones should be banned in schools. I firmly support this motion, and I will explain why it matters so much within our Ghanaian education system.\n\n"
+            "Firstly, phones in the classroom create serious distractions. With access to messages, social media, and games, students easily lose focus during lessons, a costly problem in a country where education is regarded as the pathway to a brighter future.\n\n"
+            "Secondly, mobile phones open the door to academic dishonesty. Smartphones make it far too easy to look up answers or cheat during assessments, undermining the fairness of our education system and devaluing the effort of students who work honestly.\n\n"
+            "Lastly, mobile phones can be costly, creating unfair divides between students. Not every family can afford the latest device, and permitting phones in school risks deepening social inequality among classmates.\n\n"
+            "In summary, while phones certainly have their uses, allowing them in schools poses real risks to both education and student wellbeing. I firmly believe banning mobile phones in Ghanaian schools is a necessary measure to protect a focused, fair, and secure learning environment for everyone. Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 43 (BECE 2021 Q2)\n\n"
+            "As the main speaker in a debate on the motion, Students should not wear uniform to school, write your speech for or against the motion.",
+        answer: "⦿ Sample Essay\n\n"
+            "Good afternoon esteemed judges, respected teachers, and my dear fellow students,\n\n"
+            "I stand before you today in support of keeping school uniforms as part of our tradition.\n\n"
+            "Firstly, uniforms help promote equality among students. In a society where family incomes vary widely, uniforms ensure every student appears equal, reducing opportunities for bullying and fostering a genuine sense of unity.\n\n"
+            "Secondly, wearing a uniform builds discipline and mental readiness for learning. Putting one on each morning signals that it is time to focus, helping us prepare mentally for the day ahead.\n\n"
+            "Beyond that, our Ghanaian schools have long relied on uniforms as a source of identity and school pride. Bearing our school's colours and emblems, uniforms unite students under a shared symbol, strengthening our sense of belonging and community.\n\n"
+            "In conclusion, school uniforms play a genuinely important role in promoting equality, building discipline, and uniting our school communities. Let us continue honouring a tradition that has served us so well over the years.\n\n"
+            "Thank you.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 44 (BECE 1996 Q4)\n\n"
+            "Give any account of a fearful experience you have had or witnessed.",
+        answer: "⦿ Sample Essay\n\n"
+            "One evening, I decided to walk through the forest near my home. As the sun dipped lower, the trees cast long shadows across my path, and the air filled with birdsong and a light, cool breeze.\n\n"
+            "Suddenly, a rustling sound came from behind me. I spun around but saw nothing there, and assumed it was just the wind, so I carried on. Minutes later, the rustling returned, louder this time, and closer. I stopped dead, my pulse quickening.\n\n"
+            "Then a large, wild dog burst from the bushes. Its coat was matted, its eyes glinting in the fading light, and its bared teeth were unmistakably sharp as it growled at me. Fear rooted me completely to the spot.\n\n"
+            "Recalling something I had once read about staying calm in such situations, I began edging backwards without turning away from the animal, raising my arms to appear larger. The dog tracked my movements closely but held its ground. Once I felt far enough away, I turned and sprinted the rest of the way.\n\n"
+            "I did not slow down until my house came into view. Shaking, I bolted every door and watched from the window, but no sign of the dog followed. That night, sleep would not come easily as the encounter replayed itself in my mind. The forest, once a place of calm, now felt threatening, and I resolved never to walk there alone again.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 45 (BECE 1997 Q3)\n\n"
+            "You once got lost when you were a child. Narrate to your classmates why you got lost, what you went through and how you were finally found.",
+        answer: "⦿ Sample Essay\n\n"
+            "It happened one Friday when my mother brought me along to Bodomase Market while she shopped for vegetables. My attention drifted towards a colourful toy stall nearby.\n\n"
+            "Curiosity pulled me closer, and before I realised it, I had wandered off completely, losing sight of my mother. Panic set in the moment I looked up and could not find her anywhere.\n\n"
+            "I began crying and calling out for her, but between the market's noise and the maze of stalls, I had no idea which direction to try. I felt utterly lost.\n\n"
+            "Fortunately, a kind fruit seller noticed my distress and came over to ask what was wrong. Still sobbing, I nodded when she asked if I was lost. She took my hand and brought me to a security officer, who then announced over the loudspeaker that a child had been found.\n\n"
+            "After what felt like forever, my mother came rushing over, visibly relieved, and pulled me into a tight hug, thanking the woman and the officer profusely for their help. We were finally back together.\n\n"
+            "It was a genuinely frightening ordeal, but it taught me the importance of staying close to my parents in crowded places. Just as importantly, I learned there are good, caring people out there willing to help a lost child, like the kind vendor and the security officer that day.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 46 (BECE 1999 Q4)\n\n"
+            "Your parents left you in charge of the house for one day. Tell your friends what you did.",
+        answer: "⦿ Sample Essay\n\n"
+            "Hey everyone! You will never guess, my parents left me home alone for an entire day! It was completely mine to spend as I pleased, so let me tell you all about it.\n\n"
+            "I slept in that morning, which felt amazing, then took my time waking up before making myself a hearty breakfast, pancakes, bacon, and a big glass of orange juice.\n\n"
+            "Afterwards, I settled down to watch television, found a good comedy on Netflix, and lounged on the sofa with a huge bowl of popcorn, laughing the whole way through.\n\n"
+            "Later on, I did a bit of tidying around the house, nothing major, just enough to keep things neat, and even managed a load of laundry, which honestly felt like a small triumph for me.\n\n"
+            "In the afternoon, I got to play video games uninterrupted for a couple of hours, genuinely satisfying to have all that free time without anyone bothering me.\n\n"
+            "By evening, I made myself a simple dinner of spaghetti with tomato sauce and a side salad. After eating, I took a long shower, then relaxed in my room with music and a book.\n\n"
+            "By the end of it, I felt quite proud of myself for handling the house responsibly while still finding time to relax. It struck a nice balance between fun and responsibility, a genuinely well-spent day!\n\n"
+            "That is how I spent it, friends! How was your day? Let me know!",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 47 (BECE 2000 Q3)\n\n"
+            "Narrate to your friend an interesting story your grandmother told you.",
+        answer: "⦿ Sample Essay\n\n"
+            "Long ago, in the peaceful village of Anomabo, my grandmother was just a young girl, full of energy and dreams, running barefoot along the sandy paths as her laughter mixed with the songs of the birds.\n\n"
+            "Among her stories, she often spoke of Kwabena, a skilled young fisherman known throughout the village. Strong from years of hauling in heavy nets, Kwabena was equally known for his generous heart, always sharing his catch with those less fortunate.\n\n"
+            "One evening, as the sky turned shades of orange and purple, Kwabena noticed something unusual glinting in his net, a stunning, sparkling stone, a gift from the sea itself. Villagers gathered around in amazement as the gem shone with a light that seemed to dance, casting a mesmerising glow across the humble village.\n\n"
+            "Grandma always emphasised what happened next: rather than keep such a treasure for himself, Kwabena declared it should belong to the entire village, a token of unity, generosity, and the kind spirit of the Anomabo people.\n\n"
+            "The gem became the village's greatest treasure, kept safe at the chief's palace for all to admire, and was said to bring good fortune and happiness to Anomabo for years afterward.\n\n"
+            "Whenever Grandma told this tale, her eyes would sparkle just like the gem she described. To this day, Anomabo is fondly known as the Village of the Shimmering Stone, a place where kindness and community continue to shine brighter than any jewel.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 48 (BECE 2002A Q4)\n\n"
+            "Narrate the most interesting story you have read and say why you like it.",
+        answer: "⦿ Sample Essay\n\n"
+            "Let me share the most fascinating story I have ever come across, \"Ananse and the Sky God,\" a well-loved piece of Ghanaian folklore centred on Ananse, the clever, mischievous spider.\n\n"
+            "The tale begins with a devastating famine sweeping through the land, leaving people to suffer. Determined to help his village, Ananse set out to find a solution.\n\n"
+            "He learned of Nyame, the Sky God, who kept a box filled with wisdom and stories, knowledge Ananse believed could hold real power. So he journeyed to seek out Nyame directly.\n\n"
+            "Once there, Ananse offered to buy the box, and Nyame, intrigued, asked what he would offer in exchange. Thinking quickly, Ananse proposed a daring challenge, that he could capture all the jungle's fiercest creatures and trap them in a single calabash. Confident it was impossible, Nyame accepted the wager.\n\n"
+            "But through cunning and clever tricks, Ananse succeeded, capturing even a dangerous python and a hornet's nest, leaving Nyame thoroughly impressed by his ingenuity.\n\n"
+            "True to his word, Nyame handed over the box of stories, which Ananse carried home. Filled with wisdom, those stories helped the villagers find their way through the famine.\n\n"
+            "I love this story because it celebrates resourcefulness and using one's wits to overcome hardship. Ananse's cleverness and determination saved his people, showing how ingenuity can triumph over even the toughest obstacles, and being such a treasured part of our Ghanaian heritage makes it all the more special to me.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 49 (BECE 2007B Q3)\n\n"
+            "Give an account of a memorable event in your life.",
+        answer: "⦿ Sample Essay\n\n"
+            "In the lively town of Nima, a truly special day was underway, Eid-ul-Fitr, a day I had looked forward to eagerly, marking the close of Ramadan's month of fasting and reflection.\n\n"
+            "As morning broke, unity seemed to settle over Nima. The azan rang out through the streets, calling everyone towards the mosque. I remember slipping into my new outfit, feeling the fresh fabric against my skin, joy building inside me with every moment.\n\n"
+            "Everywhere, people exchanged warm greetings of \"Eid Mubarak!\" Children's laughter filled the air as families and friends embraced, swapped stories, and formed a wonderfully close community.\n\n"
+            "One particular highlight was the communal prayer, rows upon rows of worshippers, men, women, and children standing shoulder to shoulder, united in heartfelt devotion, offering gratitude for blessings received and hope for what lay ahead.\n\n"
+            "Once prayers concluded, Nima burst into colour, its streets lined with stalls offering delicious treats, from kebabs to sweet delicacies.\n\n"
+            "That day in Nima, Eid-ul-Fitr became more than just a festival, it was a vivid picture of unity, joy, and shared happiness. It was a day of love and togetherness that I will always hold close to my heart.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS1 s4 ss3 - Articles for Publication (BECE Sample Essays)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1992 Q4)\n\n"
+            "Write an article to a newspaper on at least two problems which worry the people of your town or village and suggest what can be done to solve them.",
+        answer: "⦿ Sample Essay\n\n"
+            "TACKLING URGENT ISSUES IN NSAWAM: A CALL FOR ACTION\n\n"
+            "Nsawam, the town many of us call home, continues to grapple with a number of serious difficulties that affect our everyday lives and our hopes for tomorrow. These challenges touch on our wellbeing and our future, and it is important that we work together to find lasting solutions.\n\n"
+            "To begin with, the shortage of safe drinking water remains one of the biggest challenges confronting Nsawam. Clean water is a basic human right, yet a large number of residents still find it difficult to access it. This shortage is dangerous to public health, since contaminated water often leads to illness and disease. To tackle this problem, more boreholes and wells should be sunk in convenient locations, sensitisation programmes should be organised to teach residents proper water handling and hygiene, and partnerships should be formed with local government bodies and other organisations to raise funds for water infrastructure.\n\n"
+            "In addition, the lack of adequate educational facilities is another pressing concern in our town. Education opens the door to a better future, but our community continues to struggle with providing quality schooling for every child. Many pupils have no access to proper classrooms or learning resources. To address this, we should push for the building of additional schools and classrooms, encourage community groups to supply learning materials and support pupils, and urge parents to take an active interest in their children's education.\n\n"
+            "When these problems are confronted together, our town can look forward to a healthier, brighter future for every one of its people. Cooperation between residents, local government, and non-governmental bodies will be essential to bringing about real change.\n\n"
+            "Let us come together as one community, speak up, and act to resolve these urgent issues. Together, we can build a better and more prosperous future for our beloved town.\n\n"
+            "                                                                                                                   Kwame Asante Boateng,\n"
+            "                                                                                                                                      P. O. Box 112,\n"
+            "                                                                                                                                      Nsawam.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2003 Q4)\n\n"
+            "Write an article for publication in the Junior Graphic on the topic: \"Why candidates should not cheat in examinations\".",
+        answer: "⦿ Sample Essay\n\n"
+            "WHY CANDIDATES SHOULD NOT CHEAT IN EXAMINATIONS\n\n"
+            "Examinations can be compared to a journey in which a candidate relies on their own knowledge to arrive at success. As happens in many places, students in Ghana are sometimes tempted to cheat during exams. It is worth considering, however, why this is not the right path to follow.\n\n"
+            "Firstly, fairness is central to the examination process. A candidate who cheats is being unfair to themselves and to their fellow students. Consider a student who studies hard, only for another to cheat and obtain a higher mark. This is clearly unjust, since fairness means that every candidate deserves an equal opportunity to demonstrate what they know.\n\n"
+            "Secondly, genuine learning is the true reward of education. Examinations exist not merely to award grades but to test what has actually been learned. A student who cheats loses out on the chance to acquire new knowledge, knowledge that will prove useful well beyond the examination hall, throughout their life.\n\n"
+            "Thirdly, there is the matter of a student's trust and reputation. Trust between pupils, teachers, and parents is essential. Cheating destroys that trust, and once broken, others may doubt the student's true abilities. A good reputation is valuable and should not be risked for the sake of cheating.\n\n"
+            "Furthermore, the consequences of examination malpractice in Ghana can be severe. A student caught cheating risks disqualification, and their results may be cancelled altogether, damaging both their further education and their future career prospects.\n\n"
+            "Finally, cheating in examinations takes a toll on a student's confidence and self-worth. While cheating may bring a fleeting sense of success, it cannot build genuine self-esteem the way that facing and overcoming challenges honestly does.\n\n"
+            "In conclusion, cheating may appear to be a shortcut, but it causes far more harm than good. Ghanaians place great value on honesty and hard work, so let every candidate study diligently, trust in their own ability, and approach examinations with integrity, for success achieved honestly is always the sweetest.\n\n"
+            "Stay truthful, remain confident, and strive for excellence!\n\n"
+            "                                                                                               Abena Owusu Frimpong\n"
+            "                                                                                               (Nungua, Accra)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2010 Q2)\n\n"
+            "Write an article for publication in a local newspaper on the topic: Every school should have a library.",
+        answer: "⦿ Sample Essay\n\n"
+            "EVERY SCHOOL SHOULD HAVE A LIBRARY\n\n"
+            "Within Ghana's education landscape, where learning is held in high regard, libraries in schools are far from a mere luxury; they are a necessity. Every school ought to have a library, since such spaces lay the groundwork for building a solid reading culture, promoting excellence in studies, and nurturing a habit of lifelong learning.\n\n"
+            "Given Ghana's rich cultural heritage and varied history, it is vital that young learners have access to books reflecting their own environment. A properly equipped library allows pupils to explore local literature, history, and traditions, giving them a sense of pride and belonging. Offering materials in both local languages and English ensures that every student can connect meaningfully with what they read.\n\n"
+            "Additionally, libraries play a central role in driving academic success. Pupils are able to explore subjects that interest them further, using books to complement classroom teaching. The resources available in libraries support research and project work, sharpening pupils' critical thinking and problem-solving abilities, skills that will matter greatly in a competitive world.\n\n"
+            "Beyond academic value, school libraries help to build a lasting love of reading. They provide a wide range of genres, from adventure to fantasy, inspiring pupils to explore different literary worlds. Reading not only sharpens language ability but also fuels creativity and imagination.\n\n"
+            "The benefit of libraries also extends beyond the individual student. They foster a sense of community, giving pupils a place to discuss books, share ideas, and work together on projects, which in turn builds social skills and teamwork that will serve them well beyond school life.\n\n"
+            "In conclusion, establishing libraries in Ghanaian schools is a fundamental step towards building a reading culture, supporting academic growth, and shaping well-rounded individuals. By granting access to diverse books and creating a welcoming space for exploration, libraries equip pupils to become lifelong learners and informed citizens. It is time for every school in Ghana to recognise the immense value of a library and to invest in creating enriching environments for learning.\n\n"
+            "                                                                                                 Efua Mensah Danso,\n"
+            "                                                                                                 Techiman.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2013 Q2)\n\n"
+            "Write an article for publication in a national newspaper discussing at least two reasons why students should cultivate the habit of reading.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE POWER OF READING: A KEY TO SUCCESS FOR GHANAIAN STUDENTS\n\n"
+            "In today's fast-moving world, developing a reading habit matters more than ever, especially for students in Ghana. Reading does more than build knowledge; it brings many benefits capable of shaping our lives in a positive way. Here, we look at two compelling reasons why Ghanaian students should embrace this habit.\n\n"
+            "Firstly, reading serves as a gateway to gaining knowledge. It is like setting out on an exciting adventure without ever leaving one's seat, exposing readers to a world of information spanning history, science, literature, and current affairs. In a society that is constantly changing, staying well informed matters greatly. Reading newspapers, books, and magazines broadens our outlook, strengthens our vocabulary, and keeps us updated with the latest developments, equipping Ghanaian students with the knowledge needed to contribute meaningfully to their communities and the wider world.\n\n"
+            "Secondly, reading contributes to stronger academic performance. Doing well in class is a shared goal among students, and reading plays a key part in achieving that excellence. Students who read widely and consistently build strong analytical and critical thinking abilities, skills that prove essential across subjects such as mathematics, science, and social studies. Reading also improves writing skills, making it easier to succeed in assignments and examinations. Given how competitive Ghana's education system is, cultivating a reading habit can be the key to reaching academic goals.\n\n"
+            "So how might junior high school students build this valuable habit? The answer is to start small and make it enjoyable. Begin with books or materials that genuinely interest you, whether novels, comics, or magazines. Set aside a fixed time for reading each day, even if only fifteen minutes, and consider joining or forming a reading club with friends to share recommendations and ideas.\n\n"
+            "In conclusion, reading is a treasure waiting to be discovered. It equips Ghanaian students with both knowledge and academic strength, helping them find the tools to shape a brighter future for themselves and for Ghana. So pick up a book, young scholars, and let the adventure begin!\n\n"
+            "                                                                                                      Yaw Adjei Nkrumah,\n"
+            "                                                                                                      Berekum.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q2)\n\n"
+            "Write an article to be published in a national newspaper on why every school should have a library.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE ESSENTIAL ROLE OF LIBRARIES IN OUR SCHOOLS\n\n"
+            "In our beloved Ghana, where education is highly valued, it is important to stress how vital it is for every school to have a library. A school library functions much like a treasure chest, holding the keys to knowledge, imagination, and success for pupils. Let us consider why every school in Ghana ought to have one.\n\n"
+            "Firstly, a school library is like a treasure trove of stories waiting to be discovered. Within its walls, pupils can journey alongside characters from distant lands, travel through different eras, and explore the wonders of our world. Books, through their vivid storytelling, give young minds the tools to dream, to question, and to learn.\n\n"
+            "In addition, libraries offer sanctuaries of calm and quiet, giving pupils a peaceful space to concentrate, reflect, and study. Amid the busyness of classrooms and homes, a library provides a tranquil retreat where learning can take place undisturbed.\n\n"
+            "Furthermore, libraries encourage a culture of research and critical thinking. They provide access to countless resources, including reference books, encyclopaedias, and digital materials, empowering pupils to investigate, analyse, and broaden their understanding across subjects.\n\n"
+            "Additionally, libraries act as great equalisers, closing the gap between pupils from different backgrounds. They provide free access to knowledge, ensuring that every pupil, whatever their economic circumstances, has the chance to explore the world of books and ideas.\n\n"
+            "In conclusion, every school in Ghana should have a library, since it is far more than a room filled with books; it is a gateway to endless possibilities. It nurtures creativity, sharpens concentration, encourages research, and promotes fairness. Let us work to make libraries a core part of our educational landscape, for in doing so, we equip the next generation with the tools they need to flourish in an ever-changing world.\n\n"
+            "                                                                                                                  Akosua Boateng Sarpong,\n"
+            "                                                                                                                  Bekwai.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q2)\n\n"
+            "Write an article for publication in your school magazine on the topic: The relationship between parents and their children should be cordial.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE NEED FOR CORDIAL RELATIONS BETWEEN PARENTS AND CHILDREN\n\n"
+            "Within Ghanaian culture, the bond between parents and their children carries great weight. This relationship goes beyond mere authority and obedience; it is about building a warm and loving connection that paves the way for a brighter future.\n\n"
+            "Firstly, a harmonious relationship between parents and children encourages open communication. In a society where traditions and values are treasured, it matters that children feel free to share their thoughts and worries with their parents. When this bond is formed early, it opens the door to honest conversations about life, culture, and decision-making, allowing children to benefit from their parents' wisdom while also helping parents understand things from their children's point of view.\n\n"
+            "Secondly, a cordial relationship builds trust. Children are far more likely to open up to parents they trust, which is essential in guiding them through the difficulties they face while growing up. It encourages children to seek advice and guidance from their parents rather than turning to influences that may cause them harm.\n\n"
+            "Moreover, a loving relationship sets a positive example for children to follow. By observing how their parents treat others with respect, empathy, and kindness, children learn valuable lessons about forming healthy relationships of their own.\n\n"
+            "Furthermore, cordiality between parents and children helps to reduce conflict. In our fast-paced world, misunderstandings can easily occur, but where a strong bond exists between parent and child, disagreements are more likely to be settled peacefully and with mutual respect, helping to maintain a harmonious home.\n\n"
+            "In conclusion, the relationship between parents and children in Ghana should be built on cordiality, trust, and open communication. Such a partnership nurtures personal growth, instils cultural values, and forms a solid foundation for the future. Let us continue to cherish and build on this precious bond, for it is central to thriving families and a prosperous Ghana.\n\n"
+            "                                                                                                             Nana Adjoa Kyeremeh,\n"
+            "                                                                                                             Nkawkaw.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2017 Q2)\n\n"
+            "Write an article for publication in one of the national newspapers on the topic: The usefulness of the mobile phone.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE USEFULNESS OF THE MOBILE PHONE\n\n"
+            "Within our vibrant nation of Ghana, the mobile phone has become a powerful tool touching nearly every part of our lives. From communication and education to business and healthcare, it has become an indispensable companion, making daily life more convenient and accessible.\n\n"
+            "To begin with, the mobile phone has transformed the way we communicate. In a country where family bonds are strong and friendships cherished, staying in touch has never been simpler, requiring only a call or a text message.\n\n"
+            "Mobile phones also help bridge the distances that may separate us from loved ones, allowing communication with friends and family abroad and fostering a stronger sense of unity across the nation.\n\n"
+            "In addition, mobile phones have opened up new pathways to education. As access to educational apps and the internet grows, smartphones have effectively become portable libraries. Pupils are able to research, collaborate, and reach educational resources instantly, wherever they happen to be, making learning more interactive and engaging.\n\n"
+            "The mobile phone has also played a part in driving economic growth. As entrepreneurship flourishes across Ghana, mobile devices have made financial transactions both simpler and safer. Small businesses are able to thrive by reaching a wider customer base through social media platforms and online marketplaces, contributing to economic development.\n\n"
+            "Furthermore, mobile phones have become essential tools within healthcare. This has been especially valuable in rural areas, where telemedicine services now allow patients to consult healthcare professionals and access health information swiftly, potentially saving lives.\n\n"
+            "In conclusion, the mobile phone is far more than a simple device; it is a driving force behind progress in Ghana, enriching lives through communication, education, business, and healthcare. As we continue to make the most of this invaluable tool, we must also commit, collectively, to using it responsibly and ethically for the betterment of our society and nation.\n\n"
+            "                                                                                                   Kojo Antwi Danquah,\n"
+            "                                                                                                   Suame, Kumasi.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2019 Q2)\n\n"
+            "Write an article for publication in your school magazine on why every student should be computer-literate.",
+        answer: "⦿ Sample Essay\n\n"
+            "UNLOCKING THE FUTURE: THE IMPORTANCE OF COMPUTER LITERACY FOR EVERY STUDENT\n\n"
+            "Within Ghana's ever-changing educational landscape, the value of computer literacy for every student cannot be overstated. Acquiring computer skills is no longer simply an option but a necessity that equips students for success across many aspects of life.\n\n"
+            "Firstly, computer literacy provides students with essential skills needed in today's job market. As Ghana embraces digital transformation, businesses and industries increasingly depend on technology to run their operations. Understanding the basics of computing, such as using word processors, spreadsheets, and presentation software, opens doors to a broad range of career paths. Whatever a student may aspire to become, be it a doctor, engineer, entrepreneur, or artist, computer literacy remains a widely sought-after skill.\n\n"
+            "Secondly, computer literacy strengthens the learning process. With access to the internet and educational software, students are able to explore subjects in greater depth, carry out extensive research, and learn at their own pace. Interactive platforms and online resources make studying both engaging and adaptable to different learning styles.\n\n"
+            "Moreover, as tertiary education becomes increasingly integrated with technology, students who are already comfortable using computers will have an advantage. In a world driven by technology, computer literacy fosters creativity and innovation, allowing students to express themselves through digital art, music, and multimedia projects.\n\n"
+            "Furthermore, computer literacy in every student prepares them for higher education, since technology continues to be embedded within research and assignments efficiently and effectively.\n\n"
+            "In conclusion, every Ghanaian student should strive to become computer literate. In a technology-driven world, computer skills are key to unlocking a wealth of opportunities. Let us embrace career prospects made possible by the digital age and equip ourselves with the knowledge and skills essential to advance our beloved nation, Ghana.\n\n"
+            "                                                                                                         Adwoa Serwaa Boakye,\n"
+            "                                                                                                                        Form 2\n"
+            "                                                                                                         Aburi Presbyterian JHS.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2021 Q1)\n\n"
+            "Write an article for publication in a national newspaper on the topic: The harmful effects of examination malpractice.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE HARMFUL EFFECTS OF EXAMINATION MALPRACTICE\n\n"
+            "In recent years, the country has witnessed a worrying rise in examination malpractice, a serious problem that affects students, the WAEC council, and the nation broadly. This issue involves the unlawful smuggling of unauthorised materials into examination halls, a practice that manifests in various ways and contributes greatly to this crisis.\n\n"
+            "Offenders in this practice face harsh punishments, including having their results cancelled outright. In extreme instances, students have faced severe consequences, as seen with a certain student who received a two-year ban after being caught cheating just last year, papers cancelled owing to the seriousness of the offence.\n\n"
+            "Examination malpractice also produces an unqualified workforce, consequently undermining national development. When individuals cheat their way through their studies, it results in a workforce that lacks the necessary skills and competencies. This shortfall is glaringly evident across various sectors, contributing to poorly constructed buildings and avoidable medical errors, all traced back to inadequate training arising from examination fraud.\n\n"
+            "Alarmingly, malpractice also breeds a culture of laziness among learners, discouraging them from putting in genuine effort at a young age. A shared effort to stamp out this habit is not only vital to the individual student but is central to building a society that values hard work, resulting in high returns from a competent and dedicated workforce in the future.\n\n"
+            "In conclusion, the effects of examination malpractice are extensive, affecting not just the individual but the workplace, education broadly, and the economy as a whole. A united effort to eliminate this culture will foster a society of hardworking, diligent participants, echoing throughout the nation, encouraging integrity and diligence from a young age towards a path of growth and prosperity. It is pivotal to instil the values of a competent and committed workforce in students, steering the country towards a path of righteousness in advancing productivity across several sectors of the economy, from minimal effort that originates from dishonest practices.\n\n"
+            "                                                                                                           Efe Ampofo Gyasi\n"
+            "                                                                                                           Adisadel College",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2022 Q1)\n\n"
+            "Write an article for publication in your school magazine on the topic: My Role Model and how he/she has influenced me.",
+        answer: "⦿ Sample Essay\n\n"
+            "MY ROLE MODEL AND HOW HE HAS INFLUENCED ME\n\n"
+            "Throughout life, we come across certain people who make a real difference, showing us better versions of ourselves and how to succeed. In this article, I will be discussing my role model and the way he has shaped my thinking.\n\n"
+            "My role model is none other than Kwabena Osei, the founder of a leading technology company, known for his innovative approach and relentless pursuit of achievement.\n\n"
+            "Osei has taught me the important lesson of setting ambitious goals. He has shown that anything is achievable when you set your mind to it and work tirelessly to achieve it. His companies have accomplished things once thought impossible, such as building reusable rockets and developing self-driving vehicles. His achievements remind me that I too can achieve anything I set my mind to, no matter how big or daunting the challenge may appear.\n\n"
+            "Furthermore, his dedication to creating a better world has also greatly influenced me. It is not just about making money for him, but about making a positive difference through sustainable energy solutions, reducing carbon emissions, and using his own skills and resources to advance space exploration. His commitment to these causes inspires me to use my own skills and talents to make a difference in the world.\n\n"
+            "In conclusion, Kwabena Osei is my role model because of his innovative ideas and his dedication to making the world a better place. I hope that one day I can follow in his footsteps and make a difference in the world just as he has done.\n\n"
+            "Thank you.\n\n"
+            "                                                                                                            Efua Darko Amponsah",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (BECE 2023 Q3)\n\n"
+            "Write an article for publication in a national newspaper on two effects of poor disposal of waste on the people and suggest two ways of solving the problem.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE TROUBLE WITH TRASH: MAKING OUR COMMUNITIES CLEANER AND HEALTHIER\n\n"
+            "Every day, in our towns and cities, people produce large quantities of waste, ranging from plastic bottles to old newspapers, from kitchen scraps to broken toys. Sadly, not all of this waste ends up where it should, causing trouble for our communities. Let us look at two significant problems caused by poor waste disposal and how we can take action to keep our surroundings clean and safe.\n\n"
+            "Firstly, when waste is not properly disposed of, it becomes a breeding ground for harmful germs and pests. These unwelcome visitors can spread disease, making people within the community unwell. Furthermore, waste materials can block our drains, resulting in flooding and creating an unhealthy, unpleasant living environment.\n\n"
+            "Secondly, poorly disposed waste leads to unpleasant smells and unsightly conditions in our neighbourhoods. This problem does not only make our streets look untidy but also harms the natural beauty of our surroundings, discouraging people from spending time outdoors and enjoying their communities.\n\n"
+            "How then can we resolve these problems? Firstly, we should begin with education. Teaching people, especially the young, the correct way to dispose of waste can lead to a cleaner future. Schools, families, and communities should work together to share knowledge and encourage responsible habits.\n\n"
+            "Secondly, we can adopt the rewarding habits of recycling and reusing. Rather than throwing things away, we can discover new uses for them. Additionally, separating waste into different categories for recycling can prevent numerous problems and help conserve our precious natural resources.\n\n"
+            "In conclusion, by understanding the negative effects of poor waste disposal and choosing to act responsibly, we can build communities that are not only cleaner but also happier and healthier places to live. Let us all pledge to dispose of our waste properly and to educate others to do the same. It is a small step that can make a significant difference.\n\n"
+            "                                                                                                              By: Adjoa Nyarko Mensa",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 2024 Q3)\n\n"
+            "It is an election year and the major political parties have started campaigning. As a peace-loving member of your community, write an article for publication in a local newspaper of the community, discussing two ways of maintaining peace during the period.",
+        answer: "⦿ Sample Essay\n\n"
+            "KEEPING OUR COMMUNITY PEACEFUL DURING THE ELECTION SEASON\n\n"
+            "As the election year begins and political parties start their campaigns, it is important for us as members of this community to ensure that peace remains our top priority. Elections are meant to give us the chance to choose leaders who will bring development, not division. Here are two simple but important ways we can maintain peace during this period.\n\n"
+            "First, we must respect each other's political choices. Every person has the right to support any political party or candidate without fear. Instead of arguing or fighting over politics, we should listen to one another calmly, even when we disagree. When we respect different opinions, we prevent confusion and violence. Parents should also guide their children to stay away from political fights and avoid spreading rumours that can cause tension.\n\n"
+            "Another way to maintain peace is through responsible communication. During elections, people often share information on radio, social media, and in public gatherings. It is important that we share only verified information. False news can easily create fear, anger, and misunderstanding among people. Community leaders, teachers, and religious groups should encourage everyone to remain calm and report any suspicious activities to the authorities. By speaking the truth and avoiding hateful comments, we help build unity.\n\n"
+            "As peace-loving citizens, we must remember that after the election, we will still live together as one community. Let us join hands to protect our peace so that development can continue and our children can grow up in a safe environment.\n\n"
+            "                                                                                                               By: Kwaku Sarfo Adusei",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2025 Q2)\n\n"
+            "The government has announced the addition of new public holidays. Write an article to be published in a national newspaper on two effects of public holidays on teaching and learning.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE EFFECTS OF PUBLIC HOLIDAYS ON TEACHING AND LEARNING\n\n"
+            "The government's announcement of new public holidays has been warmly welcomed by many citizens. While holidays bring rest and celebration, they also have important effects on teaching and learning in schools. Two key effects stand out: the disruption of the academic calendar and the opportunity for rest and creativity.\n\n"
+            "Firstly, too many public holidays can disrupt the school timetable. When holidays reduce the number of teaching days in the term, it becomes difficult for teachers to complete the syllabus on time. For example, subjects requiring steady practice, such as mathematics and science, may suffer because students lose valuable class time. Teachers may then be forced to rush through topics, and students may not fully grasp what is being taught. This disruption can lower the quality of learning and affect performance in exams.\n\n"
+            "On the other hand, public holidays also provide much-needed rest for both teachers and pupils. Learning is not only about sitting in the classroom; it also requires fresh minds and healthy bodies. After long weeks of lessons and assignments, students often feel tired and less attentive. A short break allows them to relax, recharge, and return to school with renewed energy. Holidays also give students more time to explore hobbies, read widely, or learn from family and community activities, experiences that can enrich classroom learning and spark creativity.\n\n"
+            "In conclusion, public holidays have both positive and negative effects on education. The key is to strike a balance so that rest does not come at the expense of academic progress.\n\n"
+            "                                                                                                              Kwabena Owusu Sarpong,\n"
+            "                                                                                                              Nkoranza, Bono East.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS3 s4 ss3 - Articles for Publication (BECE Sample Essays)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1992 Q4)\n\n"
+            "Write an article to a newspaper on at least two problems which worry the people of your town or village and suggest what can be done to solve them.",
+        answer: "⦿ Sample Essay\n\n"
+            "TACKLING URGENT ISSUES IN NSAWAM: A CALL FOR ACTION\n\n"
+            "Nsawam, the town many of us call home, continues to grapple with a number of serious difficulties that affect our everyday lives and our hopes for tomorrow. These challenges touch on our wellbeing and our future, and it is important that we work together to find lasting solutions.\n\n"
+            "To begin with, the shortage of safe drinking water remains one of the biggest challenges confronting Nsawam. Clean water is a basic human right, yet a large number of residents still find it difficult to access it. This shortage is dangerous to public health, since contaminated water often leads to illness and disease. To tackle this problem, more boreholes and wells should be sunk in convenient locations, sensitisation programmes should be organised to teach residents proper water handling and hygiene, and partnerships should be formed with local government bodies and other organisations to raise funds for water infrastructure.\n\n"
+            "In addition, the lack of adequate educational facilities is another pressing concern in our town. Education opens the door to a better future, but our community continues to struggle with providing quality schooling for every child. Many pupils have no access to proper classrooms or learning resources. To address this, we should push for the building of additional schools and classrooms, encourage community groups to supply learning materials and support pupils, and urge parents to take an active interest in their children's education.\n\n"
+            "When these problems are confronted together, our town can look forward to a healthier, brighter future for every one of its people. Cooperation between residents, local government, and non-governmental bodies will be essential to bringing about real change.\n\n"
+            "Let us come together as one community, speak up, and act to resolve these urgent issues. Together, we can build a better and more prosperous future for our beloved town.\n\n"
+            "                                                                                                                   Kwame Asante Boateng,\n"
+            "                                                                                                                                      P. O. Box 112,\n"
+            "                                                                                                                                      Nsawam.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2003 Q4)\n\n"
+            "Write an article for publication in the Junior Graphic on the topic: \"Why candidates should not cheat in examinations\".",
+        answer: "⦿ Sample Essay\n\n"
+            "WHY CANDIDATES SHOULD NOT CHEAT IN EXAMINATIONS\n\n"
+            "Examinations can be compared to a journey in which a candidate relies on their own knowledge to arrive at success. As happens in many places, students in Ghana are sometimes tempted to cheat during exams. It is worth considering, however, why this is not the right path to follow.\n\n"
+            "Firstly, fairness is central to the examination process. A candidate who cheats is being unfair to themselves and to their fellow students. Consider a student who studies hard, only for another to cheat and obtain a higher mark. This is clearly unjust, since fairness means that every candidate deserves an equal opportunity to demonstrate what they know.\n\n"
+            "Secondly, genuine learning is the true reward of education. Examinations exist not merely to award grades but to test what has actually been learned. A student who cheats loses out on the chance to acquire new knowledge, knowledge that will prove useful well beyond the examination hall, throughout their life.\n\n"
+            "Thirdly, there is the matter of a student's trust and reputation. Trust between pupils, teachers, and parents is essential. Cheating destroys that trust, and once broken, others may doubt the student's true abilities. A good reputation is valuable and should not be risked for the sake of cheating.\n\n"
+            "Furthermore, the consequences of examination malpractice in Ghana can be severe. A student caught cheating risks disqualification, and their results may be cancelled altogether, damaging both their further education and their future career prospects.\n\n"
+            "Finally, cheating in examinations takes a toll on a student's confidence and self-worth. While cheating may bring a fleeting sense of success, it cannot build genuine self-esteem the way that facing and overcoming challenges honestly does.\n\n"
+            "In conclusion, cheating may appear to be a shortcut, but it causes far more harm than good. Ghanaians place great value on honesty and hard work, so let every candidate study diligently, trust in their own ability, and approach examinations with integrity, for success achieved honestly is always the sweetest.\n\n"
+            "Stay truthful, remain confident, and strive for excellence!\n\n"
+            "                                                                                               Abena Owusu Frimpong\n"
+            "                                                                                               (Nungua, Accra)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2010 Q2)\n\n"
+            "Write an article for publication in a local newspaper on the topic: Every school should have a library.",
+        answer: "⦿ Sample Essay\n\n"
+            "EVERY SCHOOL SHOULD HAVE A LIBRARY\n\n"
+            "Within Ghana's education landscape, where learning is held in high regard, libraries in schools are far from a mere luxury; they are a necessity. Every school ought to have a library, since such spaces lay the groundwork for building a solid reading culture, promoting excellence in studies, and nurturing a habit of lifelong learning.\n\n"
+            "Given Ghana's rich cultural heritage and varied history, it is vital that young learners have access to books reflecting their own environment. A properly equipped library allows pupils to explore local literature, history, and traditions, giving them a sense of pride and belonging. Offering materials in both local languages and English ensures that every student can connect meaningfully with what they read.\n\n"
+            "Additionally, libraries play a central role in driving academic success. Pupils are able to explore subjects that interest them further, using books to complement classroom teaching. The resources available in libraries support research and project work, sharpening pupils' critical thinking and problem-solving abilities, skills that will matter greatly in a competitive world.\n\n"
+            "Beyond academic value, school libraries help to build a lasting love of reading. They provide a wide range of genres, from adventure to fantasy, inspiring pupils to explore different literary worlds. Reading not only sharpens language ability but also fuels creativity and imagination.\n\n"
+            "The benefit of libraries also extends beyond the individual student. They foster a sense of community, giving pupils a place to discuss books, share ideas, and work together on projects, which in turn builds social skills and teamwork that will serve them well beyond school life.\n\n"
+            "In conclusion, establishing libraries in Ghanaian schools is a fundamental step towards building a reading culture, supporting academic growth, and shaping well-rounded individuals. By granting access to diverse books and creating a welcoming space for exploration, libraries equip pupils to become lifelong learners and informed citizens. It is time for every school in Ghana to recognise the immense value of a library and to invest in creating enriching environments for learning.\n\n"
+            "                                                                                                 Efua Mensah Danso,\n"
+            "                                                                                                 Techiman.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2013 Q2)\n\n"
+            "Write an article for publication in a national newspaper discussing at least two reasons why students should cultivate the habit of reading.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE POWER OF READING: A KEY TO SUCCESS FOR GHANAIAN STUDENTS\n\n"
+            "In today's fast-moving world, developing a reading habit matters more than ever, especially for students in Ghana. Reading does more than build knowledge; it brings many benefits capable of shaping our lives in a positive way. Here, we look at two compelling reasons why Ghanaian students should embrace this habit.\n\n"
+            "Firstly, reading serves as a gateway to gaining knowledge. It is like setting out on an exciting adventure without ever leaving one's seat, exposing readers to a world of information spanning history, science, literature, and current affairs. In a society that is constantly changing, staying well informed matters greatly. Reading newspapers, books, and magazines broadens our outlook, strengthens our vocabulary, and keeps us updated with the latest developments, equipping Ghanaian students with the knowledge needed to contribute meaningfully to their communities and the wider world.\n\n"
+            "Secondly, reading contributes to stronger academic performance. Doing well in class is a shared goal among students, and reading plays a key part in achieving that excellence. Students who read widely and consistently build strong analytical and critical thinking abilities, skills that prove essential across subjects such as mathematics, science, and social studies. Reading also improves writing skills, making it easier to succeed in assignments and examinations. Given how competitive Ghana's education system is, cultivating a reading habit can be the key to reaching academic goals.\n\n"
+            "So how might junior high school students build this valuable habit? The answer is to start small and make it enjoyable. Begin with books or materials that genuinely interest you, whether novels, comics, or magazines. Set aside a fixed time for reading each day, even if only fifteen minutes, and consider joining or forming a reading club with friends to share recommendations and ideas.\n\n"
+            "In conclusion, reading is a treasure waiting to be discovered. It equips Ghanaian students with both knowledge and academic strength, helping them find the tools to shape a brighter future for themselves and for Ghana. So pick up a book, young scholars, and let the adventure begin!\n\n"
+            "                                                                                                      Yaw Adjei Nkrumah,\n"
+            "                                                                                                      Berekum.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q2)\n\n"
+            "Write an article to be published in a national newspaper on why every school should have a library.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE ESSENTIAL ROLE OF LIBRARIES IN OUR SCHOOLS\n\n"
+            "In our beloved Ghana, where education is highly valued, it is important to stress how vital it is for every school to have a library. A school library functions much like a treasure chest, holding the keys to knowledge, imagination, and success for pupils. Let us consider why every school in Ghana ought to have one.\n\n"
+            "Firstly, a school library is like a treasure trove of stories waiting to be discovered. Within its walls, pupils can journey alongside characters from distant lands, travel through different eras, and explore the wonders of our world. Books, through their vivid storytelling, give young minds the tools to dream, to question, and to learn.\n\n"
+            "In addition, libraries offer sanctuaries of calm and quiet, giving pupils a peaceful space to concentrate, reflect, and study. Amid the busyness of classrooms and homes, a library provides a tranquil retreat where learning can take place undisturbed.\n\n"
+            "Furthermore, libraries encourage a culture of research and critical thinking. They provide access to countless resources, including reference books, encyclopaedias, and digital materials, empowering pupils to investigate, analyse, and broaden their understanding across subjects.\n\n"
+            "Additionally, libraries act as great equalisers, closing the gap between pupils from different backgrounds. They provide free access to knowledge, ensuring that every pupil, whatever their economic circumstances, has the chance to explore the world of books and ideas.\n\n"
+            "In conclusion, every school in Ghana should have a library, since it is far more than a room filled with books; it is a gateway to endless possibilities. It nurtures creativity, sharpens concentration, encourages research, and promotes fairness. Let us work to make libraries a core part of our educational landscape, for in doing so, we equip the next generation with the tools they need to flourish in an ever-changing world.\n\n"
+            "                                                                                                                  Akosua Boateng Sarpong,\n"
+            "                                                                                                                  Bekwai.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q2)\n\n"
+            "Write an article for publication in your school magazine on the topic: The relationship between parents and their children should be cordial.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE NEED FOR CORDIAL RELATIONS BETWEEN PARENTS AND CHILDREN\n\n"
+            "Within Ghanaian culture, the bond between parents and their children carries great weight. This relationship goes beyond mere authority and obedience; it is about building a warm and loving connection that paves the way for a brighter future.\n\n"
+            "Firstly, a harmonious relationship between parents and children encourages open communication. In a society where traditions and values are treasured, it matters that children feel free to share their thoughts and worries with their parents. When this bond is formed early, it opens the door to honest conversations about life, culture, and decision-making, allowing children to benefit from their parents' wisdom while also helping parents understand things from their children's point of view.\n\n"
+            "Secondly, a cordial relationship builds trust. Children are far more likely to open up to parents they trust, which is essential in guiding them through the difficulties they face while growing up. It encourages children to seek advice and guidance from their parents rather than turning to influences that may cause them harm.\n\n"
+            "Moreover, a loving relationship sets a positive example for children to follow. By observing how their parents treat others with respect, empathy, and kindness, children learn valuable lessons about forming healthy relationships of their own.\n\n"
+            "Furthermore, cordiality between parents and children helps to reduce conflict. In our fast-paced world, misunderstandings can easily occur, but where a strong bond exists between parent and child, disagreements are more likely to be settled peacefully and with mutual respect, helping to maintain a harmonious home.\n\n"
+            "In conclusion, the relationship between parents and children in Ghana should be built on cordiality, trust, and open communication. Such a partnership nurtures personal growth, instils cultural values, and forms a solid foundation for the future. Let us continue to cherish and build on this precious bond, for it is central to thriving families and a prosperous Ghana.\n\n"
+            "                                                                                                             Nana Adjoa Kyeremeh,\n"
+            "                                                                                                             Nkawkaw.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2017 Q2)\n\n"
+            "Write an article for publication in one of the national newspapers on the topic: The usefulness of the mobile phone.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE USEFULNESS OF THE MOBILE PHONE\n\n"
+            "Within our vibrant nation of Ghana, the mobile phone has become a powerful tool touching nearly every part of our lives. From communication and education to business and healthcare, it has become an indispensable companion, making daily life more convenient and accessible.\n\n"
+            "To begin with, the mobile phone has transformed the way we communicate. In a country where family bonds are strong and friendships cherished, staying in touch has never been simpler, requiring only a call or a text message.\n\n"
+            "Mobile phones also help bridge the distances that may separate us from loved ones, allowing communication with friends and family abroad and fostering a stronger sense of unity across the nation.\n\n"
+            "In addition, mobile phones have opened up new pathways to education. As access to educational apps and the internet grows, smartphones have effectively become portable libraries. Pupils are able to research, collaborate, and reach educational resources instantly, wherever they happen to be, making learning more interactive and engaging.\n\n"
+            "The mobile phone has also played a part in driving economic growth. As entrepreneurship flourishes across Ghana, mobile devices have made financial transactions both simpler and safer. Small businesses are able to thrive by reaching a wider customer base through social media platforms and online marketplaces, contributing to economic development.\n\n"
+            "Furthermore, mobile phones have become essential tools within healthcare. This has been especially valuable in rural areas, where telemedicine services now allow patients to consult healthcare professionals and access health information swiftly, potentially saving lives.\n\n"
+            "In conclusion, the mobile phone is far more than a simple device; it is a driving force behind progress in Ghana, enriching lives through communication, education, business, and healthcare. As we continue to make the most of this invaluable tool, we must also commit, collectively, to using it responsibly and ethically for the betterment of our society and nation.\n\n"
+            "                                                                                                   Kojo Antwi Danquah,\n"
+            "                                                                                                   Suame, Kumasi.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2019 Q2)\n\n"
+            "Write an article for publication in your school magazine on why every student should be computer-literate.",
+        answer: "⦿ Sample Essay\n\n"
+            "UNLOCKING THE FUTURE: THE IMPORTANCE OF COMPUTER LITERACY FOR EVERY STUDENT\n\n"
+            "Within Ghana's ever-changing educational landscape, the value of computer literacy for every student cannot be overstated. Acquiring computer skills is no longer simply an option but a necessity that equips students for success across many aspects of life.\n\n"
+            "Firstly, computer literacy provides students with essential skills needed in today's job market. As Ghana embraces digital transformation, businesses and industries increasingly depend on technology to run their operations. Understanding the basics of computing, such as using word processors, spreadsheets, and presentation software, opens doors to a broad range of career paths. Whatever a student may aspire to become, be it a doctor, engineer, entrepreneur, or artist, computer literacy remains a widely sought-after skill.\n\n"
+            "Secondly, computer literacy strengthens the learning process. With access to the internet and educational software, students are able to explore subjects in greater depth, carry out extensive research, and learn at their own pace. Interactive platforms and online resources make studying both engaging and adaptable to different learning styles.\n\n"
+            "Moreover, as tertiary education becomes increasingly integrated with technology, students who are already comfortable using computers will have an advantage. In a world driven by technology, computer literacy fosters creativity and innovation, allowing students to express themselves through digital art, music, and multimedia projects.\n\n"
+            "Furthermore, computer literacy in every student prepares them for higher education, since technology continues to be embedded within research and assignments efficiently and effectively.\n\n"
+            "In conclusion, every Ghanaian student should strive to become computer literate. In a technology-driven world, computer skills are key to unlocking a wealth of opportunities. Let us embrace career prospects made possible by the digital age and equip ourselves with the knowledge and skills essential to advance our beloved nation, Ghana.\n\n"
+            "                                                                                                         Adwoa Serwaa Boakye,\n"
+            "                                                                                                                        Form 2\n"
+            "                                                                                                         Aburi Presbyterian JHS.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2021 Q1)\n\n"
+            "Write an article for publication in a national newspaper on the topic: The harmful effects of examination malpractice.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE HARMFUL EFFECTS OF EXAMINATION MALPRACTICE\n\n"
+            "In recent years, the country has witnessed a worrying rise in examination malpractice, a serious problem that affects students, the WAEC council, and the nation broadly. This issue involves the unlawful smuggling of unauthorised materials into examination halls, a practice that manifests in various ways and contributes greatly to this crisis.\n\n"
+            "Offenders in this practice face harsh punishments, including having their results cancelled outright. In extreme instances, students have faced severe consequences, as seen with a certain student who received a two-year ban after being caught cheating just last year, papers cancelled owing to the seriousness of the offence.\n\n"
+            "Examination malpractice also produces an unqualified workforce, consequently undermining national development. When individuals cheat their way through their studies, it results in a workforce that lacks the necessary skills and competencies. This shortfall is glaringly evident across various sectors, contributing to poorly constructed buildings and avoidable medical errors, all traced back to inadequate training arising from examination fraud.\n\n"
+            "Alarmingly, malpractice also breeds a culture of laziness among learners, discouraging them from putting in genuine effort at a young age. A shared effort to stamp out this habit is not only vital to the individual student but is central to building a society that values hard work, resulting in high returns from a competent and dedicated workforce in the future.\n\n"
+            "In conclusion, the effects of examination malpractice are extensive, affecting not just the individual but the workplace, education broadly, and the economy as a whole. A united effort to eliminate this culture will foster a society of hardworking, diligent participants, echoing throughout the nation, encouraging integrity and diligence from a young age towards a path of growth and prosperity. It is pivotal to instil the values of a competent and committed workforce in students, steering the country towards a path of righteousness in advancing productivity across several sectors of the economy, from minimal effort that originates from dishonest practices.\n\n"
+            "                                                                                                           Efe Ampofo Gyasi\n"
+            "                                                                                                           Adisadel College",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2022 Q1)\n\n"
+            "Write an article for publication in your school magazine on the topic: My Role Model and how he/she has influenced me.",
+        answer: "⦿ Sample Essay\n\n"
+            "MY ROLE MODEL AND HOW HE HAS INFLUENCED ME\n\n"
+            "Throughout life, we come across certain people who make a real difference, showing us better versions of ourselves and how to succeed. In this article, I will be discussing my role model and the way he has shaped my thinking.\n\n"
+            "My role model is none other than Kwabena Osei, the founder of a leading technology company, known for his innovative approach and relentless pursuit of achievement.\n\n"
+            "Osei has taught me the important lesson of setting ambitious goals. He has shown that anything is achievable when you set your mind to it and work tirelessly to achieve it. His companies have accomplished things once thought impossible, such as building reusable rockets and developing self-driving vehicles. His achievements remind me that I too can achieve anything I set my mind to, no matter how big or daunting the challenge may appear.\n\n"
+            "Furthermore, his dedication to creating a better world has also greatly influenced me. It is not just about making money for him, but about making a positive difference through sustainable energy solutions, reducing carbon emissions, and using his own skills and resources to advance space exploration. His commitment to these causes inspires me to use my own skills and talents to make a difference in the world.\n\n"
+            "In conclusion, Kwabena Osei is my role model because of his innovative ideas and his dedication to making the world a better place. I hope that one day I can follow in his footsteps and make a difference in the world just as he has done.\n\n"
+            "Thank you.\n\n"
+            "                                                                                                            Efua Darko Amponsah",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (BECE 2023 Q3)\n\n"
+            "Write an article for publication in a national newspaper on two effects of poor disposal of waste on the people and suggest two ways of solving the problem.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE TROUBLE WITH TRASH: MAKING OUR COMMUNITIES CLEANER AND HEALTHIER\n\n"
+            "Every day, in our towns and cities, people produce large quantities of waste, ranging from plastic bottles to old newspapers, from kitchen scraps to broken toys. Sadly, not all of this waste ends up where it should, causing trouble for our communities. Let us look at two significant problems caused by poor waste disposal and how we can take action to keep our surroundings clean and safe.\n\n"
+            "Firstly, when waste is not properly disposed of, it becomes a breeding ground for harmful germs and pests. These unwelcome visitors can spread disease, making people within the community unwell. Furthermore, waste materials can block our drains, resulting in flooding and creating an unhealthy, unpleasant living environment.\n\n"
+            "Secondly, poorly disposed waste leads to unpleasant smells and unsightly conditions in our neighbourhoods. This problem does not only make our streets look untidy but also harms the natural beauty of our surroundings, discouraging people from spending time outdoors and enjoying their communities.\n\n"
+            "How then can we resolve these problems? Firstly, we should begin with education. Teaching people, especially the young, the correct way to dispose of waste can lead to a cleaner future. Schools, families, and communities should work together to share knowledge and encourage responsible habits.\n\n"
+            "Secondly, we can adopt the rewarding habits of recycling and reusing. Rather than throwing things away, we can discover new uses for them. Additionally, separating waste into different categories for recycling can prevent numerous problems and help conserve our precious natural resources.\n\n"
+            "In conclusion, by understanding the negative effects of poor waste disposal and choosing to act responsibly, we can build communities that are not only cleaner but also happier and healthier places to live. Let us all pledge to dispose of our waste properly and to educate others to do the same. It is a small step that can make a significant difference.\n\n"
+            "                                                                                                              By: Adjoa Nyarko Mensa",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 2024 Q3)\n\n"
+            "It is an election year and the major political parties have started campaigning. As a peace-loving member of your community, write an article for publication in a local newspaper of the community, discussing two ways of maintaining peace during the period.",
+        answer: "⦿ Sample Essay\n\n"
+            "KEEPING OUR COMMUNITY PEACEFUL DURING THE ELECTION SEASON\n\n"
+            "As the election year begins and political parties start their campaigns, it is important for us as members of this community to ensure that peace remains our top priority. Elections are meant to give us the chance to choose leaders who will bring development, not division. Here are two simple but important ways we can maintain peace during this period.\n\n"
+            "First, we must respect each other's political choices. Every person has the right to support any political party or candidate without fear. Instead of arguing or fighting over politics, we should listen to one another calmly, even when we disagree. When we respect different opinions, we prevent confusion and violence. Parents should also guide their children to stay away from political fights and avoid spreading rumours that can cause tension.\n\n"
+            "Another way to maintain peace is through responsible communication. During elections, people often share information on radio, social media, and in public gatherings. It is important that we share only verified information. False news can easily create fear, anger, and misunderstanding among people. Community leaders, teachers, and religious groups should encourage everyone to remain calm and report any suspicious activities to the authorities. By speaking the truth and avoiding hateful comments, we help build unity.\n\n"
+            "As peace-loving citizens, we must remember that after the election, we will still live together as one community. Let us join hands to protect our peace so that development can continue and our children can grow up in a safe environment.\n\n"
+            "                                                                                                               By: Kwaku Sarfo Adusei",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2025 Q2)\n\n"
+            "The government has announced the addition of new public holidays. Write an article to be published in a national newspaper on two effects of public holidays on teaching and learning.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE EFFECTS OF PUBLIC HOLIDAYS ON TEACHING AND LEARNING\n\n"
+            "The government's announcement of new public holidays has been warmly welcomed by many citizens. While holidays bring rest and celebration, they also have important effects on teaching and learning in schools. Two key effects stand out: the disruption of the academic calendar and the opportunity for rest and creativity.\n\n"
+            "Firstly, too many public holidays can disrupt the school timetable. When holidays reduce the number of teaching days in the term, it becomes difficult for teachers to complete the syllabus on time. For example, subjects requiring steady practice, such as mathematics and science, may suffer because students lose valuable class time. Teachers may then be forced to rush through topics, and students may not fully grasp what is being taught. This disruption can lower the quality of learning and affect performance in exams.\n\n"
+            "On the other hand, public holidays also provide much-needed rest for both teachers and pupils. Learning is not only about sitting in the classroom; it also requires fresh minds and healthy bodies. After long weeks of lessons and assignments, students often feel tired and less attentive. A short break allows them to relax, recharge, and return to school with renewed energy. Holidays also give students more time to explore hobbies, read widely, or learn from family and community activities, experiences that can enrich classroom learning and spark creativity.\n\n"
+            "In conclusion, public holidays have both positive and negative effects on education. The key is to strike a balance so that rest does not come at the expense of academic progress.\n\n"
+            "                                                                                                              Kwabena Owusu Sarpong,\n"
+            "                                                                                                              Nkoranza, Bono East.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "English JHS2 s4 ss3 - Articles for Publication (BECE Sample Essays)":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION 1 (BECE 1992 Q4)\n\n"
+            "Write an article to a newspaper on at least two problems which worry the people of your town or village and suggest what can be done to solve them.",
+        answer: "⦿ Sample Essay\n\n"
+            "TACKLING URGENT ISSUES IN NSAWAM: A CALL FOR ACTION\n\n"
+            "Nsawam, the town many of us call home, continues to grapple with a number of serious difficulties that affect our everyday lives and our hopes for tomorrow. These challenges touch on our wellbeing and our future, and it is important that we work together to find lasting solutions.\n\n"
+            "To begin with, the shortage of safe drinking water remains one of the biggest challenges confronting Nsawam. Clean water is a basic human right, yet a large number of residents still find it difficult to access it. This shortage is dangerous to public health, since contaminated water often leads to illness and disease. To tackle this problem, more boreholes and wells should be sunk in convenient locations, sensitisation programmes should be organised to teach residents proper water handling and hygiene, and partnerships should be formed with local government bodies and other organisations to raise funds for water infrastructure.\n\n"
+            "In addition, the lack of adequate educational facilities is another pressing concern in our town. Education opens the door to a better future, but our community continues to struggle with providing quality schooling for every child. Many pupils have no access to proper classrooms or learning resources. To address this, we should push for the building of additional schools and classrooms, encourage community groups to supply learning materials and support pupils, and urge parents to take an active interest in their children's education.\n\n"
+            "When these problems are confronted together, our town can look forward to a healthier, brighter future for every one of its people. Cooperation between residents, local government, and non-governmental bodies will be essential to bringing about real change.\n\n"
+            "Let us come together as one community, speak up, and act to resolve these urgent issues. Together, we can build a better and more prosperous future for our beloved town.\n\n"
+            "                                                                                                                   Kwame Asante Boateng,\n"
+            "                                                                                                                                      P. O. Box 112,\n"
+            "                                                                                                                                      Nsawam.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 2 (BECE 2003 Q4)\n\n"
+            "Write an article for publication in the Junior Graphic on the topic: \"Why candidates should not cheat in examinations\".",
+        answer: "⦿ Sample Essay\n\n"
+            "WHY CANDIDATES SHOULD NOT CHEAT IN EXAMINATIONS\n\n"
+            "Examinations can be compared to a journey in which a candidate relies on their own knowledge to arrive at success. As happens in many places, students in Ghana are sometimes tempted to cheat during exams. It is worth considering, however, why this is not the right path to follow.\n\n"
+            "Firstly, fairness is central to the examination process. A candidate who cheats is being unfair to themselves and to their fellow students. Consider a student who studies hard, only for another to cheat and obtain a higher mark. This is clearly unjust, since fairness means that every candidate deserves an equal opportunity to demonstrate what they know.\n\n"
+            "Secondly, genuine learning is the true reward of education. Examinations exist not merely to award grades but to test what has actually been learned. A student who cheats loses out on the chance to acquire new knowledge, knowledge that will prove useful well beyond the examination hall, throughout their life.\n\n"
+            "Thirdly, there is the matter of a student's trust and reputation. Trust between pupils, teachers, and parents is essential. Cheating destroys that trust, and once broken, others may doubt the student's true abilities. A good reputation is valuable and should not be risked for the sake of cheating.\n\n"
+            "Furthermore, the consequences of examination malpractice in Ghana can be severe. A student caught cheating risks disqualification, and their results may be cancelled altogether, damaging both their further education and their future career prospects.\n\n"
+            "Finally, cheating in examinations takes a toll on a student's confidence and self-worth. While cheating may bring a fleeting sense of success, it cannot build genuine self-esteem the way that facing and overcoming challenges honestly does.\n\n"
+            "In conclusion, cheating may appear to be a shortcut, but it causes far more harm than good. Ghanaians place great value on honesty and hard work, so let every candidate study diligently, trust in their own ability, and approach examinations with integrity, for success achieved honestly is always the sweetest.\n\n"
+            "Stay truthful, remain confident, and strive for excellence!\n\n"
+            "                                                                                               Abena Owusu Frimpong\n"
+            "                                                                                               (Nungua, Accra)",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 3 (BECE 2010 Q2)\n\n"
+            "Write an article for publication in a local newspaper on the topic: Every school should have a library.",
+        answer: "⦿ Sample Essay\n\n"
+            "EVERY SCHOOL SHOULD HAVE A LIBRARY\n\n"
+            "Within Ghana's education landscape, where learning is held in high regard, libraries in schools are far from a mere luxury; they are a necessity. Every school ought to have a library, since such spaces lay the groundwork for building a solid reading culture, promoting excellence in studies, and nurturing a habit of lifelong learning.\n\n"
+            "Given Ghana's rich cultural heritage and varied history, it is vital that young learners have access to books reflecting their own environment. A properly equipped library allows pupils to explore local literature, history, and traditions, giving them a sense of pride and belonging. Offering materials in both local languages and English ensures that every student can connect meaningfully with what they read.\n\n"
+            "Additionally, libraries play a central role in driving academic success. Pupils are able to explore subjects that interest them further, using books to complement classroom teaching. The resources available in libraries support research and project work, sharpening pupils' critical thinking and problem-solving abilities, skills that will matter greatly in a competitive world.\n\n"
+            "Beyond academic value, school libraries help to build a lasting love of reading. They provide a wide range of genres, from adventure to fantasy, inspiring pupils to explore different literary worlds. Reading not only sharpens language ability but also fuels creativity and imagination.\n\n"
+            "The benefit of libraries also extends beyond the individual student. They foster a sense of community, giving pupils a place to discuss books, share ideas, and work together on projects, which in turn builds social skills and teamwork that will serve them well beyond school life.\n\n"
+            "In conclusion, establishing libraries in Ghanaian schools is a fundamental step towards building a reading culture, supporting academic growth, and shaping well-rounded individuals. By granting access to diverse books and creating a welcoming space for exploration, libraries equip pupils to become lifelong learners and informed citizens. It is time for every school in Ghana to recognise the immense value of a library and to invest in creating enriching environments for learning.\n\n"
+            "                                                                                                 Efua Mensah Danso,\n"
+            "                                                                                                 Techiman.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2013 Q2)\n\n"
+            "Write an article for publication in a national newspaper discussing at least two reasons why students should cultivate the habit of reading.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE POWER OF READING: A KEY TO SUCCESS FOR GHANAIAN STUDENTS\n\n"
+            "In today's fast-moving world, developing a reading habit matters more than ever, especially for students in Ghana. Reading does more than build knowledge; it brings many benefits capable of shaping our lives in a positive way. Here, we look at two compelling reasons why Ghanaian students should embrace this habit.\n\n"
+            "Firstly, reading serves as a gateway to gaining knowledge. It is like setting out on an exciting adventure without ever leaving one's seat, exposing readers to a world of information spanning history, science, literature, and current affairs. In a society that is constantly changing, staying well informed matters greatly. Reading newspapers, books, and magazines broadens our outlook, strengthens our vocabulary, and keeps us updated with the latest developments, equipping Ghanaian students with the knowledge needed to contribute meaningfully to their communities and the wider world.\n\n"
+            "Secondly, reading contributes to stronger academic performance. Doing well in class is a shared goal among students, and reading plays a key part in achieving that excellence. Students who read widely and consistently build strong analytical and critical thinking abilities, skills that prove essential across subjects such as mathematics, science, and social studies. Reading also improves writing skills, making it easier to succeed in assignments and examinations. Given how competitive Ghana's education system is, cultivating a reading habit can be the key to reaching academic goals.\n\n"
+            "So how might junior high school students build this valuable habit? The answer is to start small and make it enjoyable. Begin with books or materials that genuinely interest you, whether novels, comics, or magazines. Set aside a fixed time for reading each day, even if only fifteen minutes, and consider joining or forming a reading club with friends to share recommendations and ideas.\n\n"
+            "In conclusion, reading is a treasure waiting to be discovered. It equips Ghanaian students with both knowledge and academic strength, helping them find the tools to shape a brighter future for themselves and for Ghana. So pick up a book, young scholars, and let the adventure begin!\n\n"
+            "                                                                                                      Yaw Adjei Nkrumah,\n"
+            "                                                                                                      Berekum.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2014 Q2)\n\n"
+            "Write an article to be published in a national newspaper on why every school should have a library.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE ESSENTIAL ROLE OF LIBRARIES IN OUR SCHOOLS\n\n"
+            "In our beloved Ghana, where education is highly valued, it is important to stress how vital it is for every school to have a library. A school library functions much like a treasure chest, holding the keys to knowledge, imagination, and success for pupils. Let us consider why every school in Ghana ought to have one.\n\n"
+            "Firstly, a school library is like a treasure trove of stories waiting to be discovered. Within its walls, pupils can journey alongside characters from distant lands, travel through different eras, and explore the wonders of our world. Books, through their vivid storytelling, give young minds the tools to dream, to question, and to learn.\n\n"
+            "In addition, libraries offer sanctuaries of calm and quiet, giving pupils a peaceful space to concentrate, reflect, and study. Amid the busyness of classrooms and homes, a library provides a tranquil retreat where learning can take place undisturbed.\n\n"
+            "Furthermore, libraries encourage a culture of research and critical thinking. They provide access to countless resources, including reference books, encyclopaedias, and digital materials, empowering pupils to investigate, analyse, and broaden their understanding across subjects.\n\n"
+            "Additionally, libraries act as great equalisers, closing the gap between pupils from different backgrounds. They provide free access to knowledge, ensuring that every pupil, whatever their economic circumstances, has the chance to explore the world of books and ideas.\n\n"
+            "In conclusion, every school in Ghana should have a library, since it is far more than a room filled with books; it is a gateway to endless possibilities. It nurtures creativity, sharpens concentration, encourages research, and promotes fairness. Let us work to make libraries a core part of our educational landscape, for in doing so, we equip the next generation with the tools they need to flourish in an ever-changing world.\n\n"
+            "                                                                                                                  Akosua Boateng Sarpong,\n"
+            "                                                                                                                  Bekwai.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2016 Q2)\n\n"
+            "Write an article for publication in your school magazine on the topic: The relationship between parents and their children should be cordial.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE NEED FOR CORDIAL RELATIONS BETWEEN PARENTS AND CHILDREN\n\n"
+            "Within Ghanaian culture, the bond between parents and their children carries great weight. This relationship goes beyond mere authority and obedience; it is about building a warm and loving connection that paves the way for a brighter future.\n\n"
+            "Firstly, a harmonious relationship between parents and children encourages open communication. In a society where traditions and values are treasured, it matters that children feel free to share their thoughts and worries with their parents. When this bond is formed early, it opens the door to honest conversations about life, culture, and decision-making, allowing children to benefit from their parents' wisdom while also helping parents understand things from their children's point of view.\n\n"
+            "Secondly, a cordial relationship builds trust. Children are far more likely to open up to parents they trust, which is essential in guiding them through the difficulties they face while growing up. It encourages children to seek advice and guidance from their parents rather than turning to influences that may cause them harm.\n\n"
+            "Moreover, a loving relationship sets a positive example for children to follow. By observing how their parents treat others with respect, empathy, and kindness, children learn valuable lessons about forming healthy relationships of their own.\n\n"
+            "Furthermore, cordiality between parents and children helps to reduce conflict. In our fast-paced world, misunderstandings can easily occur, but where a strong bond exists between parent and child, disagreements are more likely to be settled peacefully and with mutual respect, helping to maintain a harmonious home.\n\n"
+            "In conclusion, the relationship between parents and children in Ghana should be built on cordiality, trust, and open communication. Such a partnership nurtures personal growth, instils cultural values, and forms a solid foundation for the future. Let us continue to cherish and build on this precious bond, for it is central to thriving families and a prosperous Ghana.\n\n"
+            "                                                                                                             Nana Adjoa Kyeremeh,\n"
+            "                                                                                                             Nkawkaw.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2017 Q2)\n\n"
+            "Write an article for publication in one of the national newspapers on the topic: The usefulness of the mobile phone.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE USEFULNESS OF THE MOBILE PHONE\n\n"
+            "Within our vibrant nation of Ghana, the mobile phone has become a powerful tool touching nearly every part of our lives. From communication and education to business and healthcare, it has become an indispensable companion, making daily life more convenient and accessible.\n\n"
+            "To begin with, the mobile phone has transformed the way we communicate. In a country where family bonds are strong and friendships cherished, staying in touch has never been simpler, requiring only a call or a text message.\n\n"
+            "Mobile phones also help bridge the distances that may separate us from loved ones, allowing communication with friends and family abroad and fostering a stronger sense of unity across the nation.\n\n"
+            "In addition, mobile phones have opened up new pathways to education. As access to educational apps and the internet grows, smartphones have effectively become portable libraries. Pupils are able to research, collaborate, and reach educational resources instantly, wherever they happen to be, making learning more interactive and engaging.\n\n"
+            "The mobile phone has also played a part in driving economic growth. As entrepreneurship flourishes across Ghana, mobile devices have made financial transactions both simpler and safer. Small businesses are able to thrive by reaching a wider customer base through social media platforms and online marketplaces, contributing to economic development.\n\n"
+            "Furthermore, mobile phones have become essential tools within healthcare. This has been especially valuable in rural areas, where telemedicine services now allow patients to consult healthcare professionals and access health information swiftly, potentially saving lives.\n\n"
+            "In conclusion, the mobile phone is far more than a simple device; it is a driving force behind progress in Ghana, enriching lives through communication, education, business, and healthcare. As we continue to make the most of this invaluable tool, we must also commit, collectively, to using it responsibly and ethically for the betterment of our society and nation.\n\n"
+            "                                                                                                   Kojo Antwi Danquah,\n"
+            "                                                                                                   Suame, Kumasi.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 8 (BECE 2019 Q2)\n\n"
+            "Write an article for publication in your school magazine on why every student should be computer-literate.",
+        answer: "⦿ Sample Essay\n\n"
+            "UNLOCKING THE FUTURE: THE IMPORTANCE OF COMPUTER LITERACY FOR EVERY STUDENT\n\n"
+            "Within Ghana's ever-changing educational landscape, the value of computer literacy for every student cannot be overstated. Acquiring computer skills is no longer simply an option but a necessity that equips students for success across many aspects of life.\n\n"
+            "Firstly, computer literacy provides students with essential skills needed in today's job market. As Ghana embraces digital transformation, businesses and industries increasingly depend on technology to run their operations. Understanding the basics of computing, such as using word processors, spreadsheets, and presentation software, opens doors to a broad range of career paths. Whatever a student may aspire to become, be it a doctor, engineer, entrepreneur, or artist, computer literacy remains a widely sought-after skill.\n\n"
+            "Secondly, computer literacy strengthens the learning process. With access to the internet and educational software, students are able to explore subjects in greater depth, carry out extensive research, and learn at their own pace. Interactive platforms and online resources make studying both engaging and adaptable to different learning styles.\n\n"
+            "Moreover, as tertiary education becomes increasingly integrated with technology, students who are already comfortable using computers will have an advantage. In a world driven by technology, computer literacy fosters creativity and innovation, allowing students to express themselves through digital art, music, and multimedia projects.\n\n"
+            "Furthermore, computer literacy in every student prepares them for higher education, since technology continues to be embedded within research and assignments efficiently and effectively.\n\n"
+            "In conclusion, every Ghanaian student should strive to become computer literate. In a technology-driven world, computer skills are key to unlocking a wealth of opportunities. Let us embrace career prospects made possible by the digital age and equip ourselves with the knowledge and skills essential to advance our beloved nation, Ghana.\n\n"
+            "                                                                                                         Adwoa Serwaa Boakye,\n"
+            "                                                                                                                        Form 2\n"
+            "                                                                                                         Aburi Presbyterian JHS.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 9 (BECE 2021 Q1)\n\n"
+            "Write an article for publication in a national newspaper on the topic: The harmful effects of examination malpractice.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE HARMFUL EFFECTS OF EXAMINATION MALPRACTICE\n\n"
+            "In recent years, the country has witnessed a worrying rise in examination malpractice, a serious problem that affects students, the WAEC council, and the nation broadly. This issue involves the unlawful smuggling of unauthorised materials into examination halls, a practice that manifests in various ways and contributes greatly to this crisis.\n\n"
+            "Offenders in this practice face harsh punishments, including having their results cancelled outright. In extreme instances, students have faced severe consequences, as seen with a certain student who received a two-year ban after being caught cheating just last year, papers cancelled owing to the seriousness of the offence.\n\n"
+            "Examination malpractice also produces an unqualified workforce, consequently undermining national development. When individuals cheat their way through their studies, it results in a workforce that lacks the necessary skills and competencies. This shortfall is glaringly evident across various sectors, contributing to poorly constructed buildings and avoidable medical errors, all traced back to inadequate training arising from examination fraud.\n\n"
+            "Alarmingly, malpractice also breeds a culture of laziness among learners, discouraging them from putting in genuine effort at a young age. A shared effort to stamp out this habit is not only vital to the individual student but is central to building a society that values hard work, resulting in high returns from a competent and dedicated workforce in the future.\n\n"
+            "In conclusion, the effects of examination malpractice are extensive, affecting not just the individual but the workplace, education broadly, and the economy as a whole. A united effort to eliminate this culture will foster a society of hardworking, diligent participants, echoing throughout the nation, encouraging integrity and diligence from a young age towards a path of growth and prosperity. It is pivotal to instil the values of a competent and committed workforce in students, steering the country towards a path of righteousness in advancing productivity across several sectors of the economy, from minimal effort that originates from dishonest practices.\n\n"
+            "                                                                                                           Efe Ampofo Gyasi\n"
+            "                                                                                                           Adisadel College",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 10 (BECE 2022 Q1)\n\n"
+            "Write an article for publication in your school magazine on the topic: My Role Model and how he/she has influenced me.",
+        answer: "⦿ Sample Essay\n\n"
+            "MY ROLE MODEL AND HOW HE HAS INFLUENCED ME\n\n"
+            "Throughout life, we come across certain people who make a real difference, showing us better versions of ourselves and how to succeed. In this article, I will be discussing my role model and the way he has shaped my thinking.\n\n"
+            "My role model is none other than Kwabena Osei, the founder of a leading technology company, known for his innovative approach and relentless pursuit of achievement.\n\n"
+            "Osei has taught me the important lesson of setting ambitious goals. He has shown that anything is achievable when you set your mind to it and work tirelessly to achieve it. His companies have accomplished things once thought impossible, such as building reusable rockets and developing self-driving vehicles. His achievements remind me that I too can achieve anything I set my mind to, no matter how big or daunting the challenge may appear.\n\n"
+            "Furthermore, his dedication to creating a better world has also greatly influenced me. It is not just about making money for him, but about making a positive difference through sustainable energy solutions, reducing carbon emissions, and using his own skills and resources to advance space exploration. His commitment to these causes inspires me to use my own skills and talents to make a difference in the world.\n\n"
+            "In conclusion, Kwabena Osei is my role model because of his innovative ideas and his dedication to making the world a better place. I hope that one day I can follow in his footsteps and make a difference in the world just as he has done.\n\n"
+            "Thank you.\n\n"
+            "                                                                                                            Efua Darko Amponsah",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 11 (BECE 2023 Q3)\n\n"
+            "Write an article for publication in a national newspaper on two effects of poor disposal of waste on the people and suggest two ways of solving the problem.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE TROUBLE WITH TRASH: MAKING OUR COMMUNITIES CLEANER AND HEALTHIER\n\n"
+            "Every day, in our towns and cities, people produce large quantities of waste, ranging from plastic bottles to old newspapers, from kitchen scraps to broken toys. Sadly, not all of this waste ends up where it should, causing trouble for our communities. Let us look at two significant problems caused by poor waste disposal and how we can take action to keep our surroundings clean and safe.\n\n"
+            "Firstly, when waste is not properly disposed of, it becomes a breeding ground for harmful germs and pests. These unwelcome visitors can spread disease, making people within the community unwell. Furthermore, waste materials can block our drains, resulting in flooding and creating an unhealthy, unpleasant living environment.\n\n"
+            "Secondly, poorly disposed waste leads to unpleasant smells and unsightly conditions in our neighbourhoods. This problem does not only make our streets look untidy but also harms the natural beauty of our surroundings, discouraging people from spending time outdoors and enjoying their communities.\n\n"
+            "How then can we resolve these problems? Firstly, we should begin with education. Teaching people, especially the young, the correct way to dispose of waste can lead to a cleaner future. Schools, families, and communities should work together to share knowledge and encourage responsible habits.\n\n"
+            "Secondly, we can adopt the rewarding habits of recycling and reusing. Rather than throwing things away, we can discover new uses for them. Additionally, separating waste into different categories for recycling can prevent numerous problems and help conserve our precious natural resources.\n\n"
+            "In conclusion, by understanding the negative effects of poor waste disposal and choosing to act responsibly, we can build communities that are not only cleaner but also happier and healthier places to live. Let us all pledge to dispose of our waste properly and to educate others to do the same. It is a small step that can make a significant difference.\n\n"
+            "                                                                                                              By: Adjoa Nyarko Mensa",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 12 (BECE 2024 Q3)\n\n"
+            "It is an election year and the major political parties have started campaigning. As a peace-loving member of your community, write an article for publication in a local newspaper of the community, discussing two ways of maintaining peace during the period.",
+        answer: "⦿ Sample Essay\n\n"
+            "KEEPING OUR COMMUNITY PEACEFUL DURING THE ELECTION SEASON\n\n"
+            "As the election year begins and political parties start their campaigns, it is important for us as members of this community to ensure that peace remains our top priority. Elections are meant to give us the chance to choose leaders who will bring development, not division. Here are two simple but important ways we can maintain peace during this period.\n\n"
+            "First, we must respect each other's political choices. Every person has the right to support any political party or candidate without fear. Instead of arguing or fighting over politics, we should listen to one another calmly, even when we disagree. When we respect different opinions, we prevent confusion and violence. Parents should also guide their children to stay away from political fights and avoid spreading rumours that can cause tension.\n\n"
+            "Another way to maintain peace is through responsible communication. During elections, people often share information on radio, social media, and in public gatherings. It is important that we share only verified information. False news can easily create fear, anger, and misunderstanding among people. Community leaders, teachers, and religious groups should encourage everyone to remain calm and report any suspicious activities to the authorities. By speaking the truth and avoiding hateful comments, we help build unity.\n\n"
+            "As peace-loving citizens, we must remember that after the election, we will still live together as one community. Let us join hands to protect our peace so that development can continue and our children can grow up in a safe environment.\n\n"
+            "                                                                                                               By: Kwaku Sarfo Adusei",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 13 (BECE 2025 Q2)\n\n"
+            "The government has announced the addition of new public holidays. Write an article to be published in a national newspaper on two effects of public holidays on teaching and learning.",
+        answer: "⦿ Sample Essay\n\n"
+            "THE EFFECTS OF PUBLIC HOLIDAYS ON TEACHING AND LEARNING\n\n"
+            "The government's announcement of new public holidays has been warmly welcomed by many citizens. While holidays bring rest and celebration, they also have important effects on teaching and learning in schools. Two key effects stand out: the disruption of the academic calendar and the opportunity for rest and creativity.\n\n"
+            "Firstly, too many public holidays can disrupt the school timetable. When holidays reduce the number of teaching days in the term, it becomes difficult for teachers to complete the syllabus on time. For example, subjects requiring steady practice, such as mathematics and science, may suffer because students lose valuable class time. Teachers may then be forced to rush through topics, and students may not fully grasp what is being taught. This disruption can lower the quality of learning and affect performance in exams.\n\n"
+            "On the other hand, public holidays also provide much-needed rest for both teachers and pupils. Learning is not only about sitting in the classroom; it also requires fresh minds and healthy bodies. After long weeks of lessons and assignments, students often feel tired and less attentive. A short break allows them to relax, recharge, and return to school with renewed energy. Holidays also give students more time to explore hobbies, read widely, or learn from family and community activities, experiences that can enrich classroom learning and spark creativity.\n\n"
+            "In conclusion, public holidays have both positive and negative effects on education. The key is to strike a balance so that rest does not come at the expense of academic progress.\n\n"
+            "                                                                                                              Kwabena Owusu Sarpong,\n"
+            "                                                                                                              Nkoranza, Bono East.",
         explanation: "",
       ),
     ],
