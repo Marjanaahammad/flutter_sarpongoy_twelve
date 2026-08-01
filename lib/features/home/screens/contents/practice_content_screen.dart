@@ -69,7 +69,9 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                         padding: const EdgeInsets.all(20.0),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.center,
+                          crossAxisAlignment: controller.isBece
+                              ? CrossAxisAlignment.start
+                              : CrossAxisAlignment.center,
                           children: [
                             const SizedBox(height: 30),
                             Obx(() {
@@ -80,7 +82,9 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                   controller.currentQuestionIndex.value];
 
                               return Column(
-                                crossAxisAlignment: CrossAxisAlignment.center,
+                                crossAxisAlignment: controller.isBece
+                                    ? CrossAxisAlignment.start
+                                    : CrossAxisAlignment.center,
                                 //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: [
                                   if (controller.showScenario.value)
@@ -89,6 +93,10 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                         bottom: 20,
                                       ),
                                       child: Container(
+                                        width: double.infinity,
+                                        alignment: controller.isBece
+                                            ? Alignment.centerLeft
+                                            : Alignment.center,
                                         decoration: BoxDecoration(
                                           borderRadius:
                                               BorderRadius.circular(10),
@@ -105,6 +113,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                               fontWeight: FontWeight.w500,
                                               color: Colors.black,
                                             ),
+                                            textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
                                           ),
                                         ),
                                       ),
@@ -167,35 +176,6 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                       ),
                                     ).animate().fadeIn(),
 
-                                  //   padding: const EdgeInsets.symmetric(vertical: 20.0),
-                                  //   child: GestureDetector(
-                                  //     onTap: () {
-                                  //       controller.revealAnswer();
-                                  //     },
-                                  //     child: Container(
-                                  //       decoration: BoxDecoration(
-                                  //         color: const Color(0xFF0F0FE5),
-                                  //         borderRadius: BorderRadius.circular(10),
-                                  //         boxShadow: [
-                                  //           BoxShadow(
-                                  //             color: Colors.black.withOpacity(0.1),
-                                  //             blurRadius: 4,
-                                  //             offset: const Offset(0, 2),
-                                  //           ),
-                                  //         ],
-                                  //       ),
-                                  //       padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
-                                  //       child: const Text(
-                                  //         "View Answer",
-                                  //         style: TextStyle(
-                                  //           fontSize: 18,
-                                  //           fontWeight: FontWeight.bold,
-                                  //           color: Colors.white,
-                                  //         ),
-                                  //       ),
-                                  //     ),
-                                  //   ),
-                                  // ).animate().fadeIn(duration: 2000.ms),
                                   if (controller.showAnswer.value)
                                     Padding(
                                       padding: const EdgeInsets.only(
@@ -204,6 +184,10 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                         right: 10,
                                       ),
                                       child: Container(
+                                        width: double.infinity,
+                                        alignment: controller.isBece
+                                            ? Alignment.centerLeft
+                                            : Alignment.center,
                                         decoration: BoxDecoration(
                                           borderRadius:
                                               BorderRadius.circular(10),
@@ -220,6 +204,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                               fontWeight: FontWeight.w500,
                                               color: Color(0xFF14357A),
                                             ),
+                                            textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
                                           ),
                                         ),
                                       ),
@@ -241,11 +226,11 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                         right: 20,
                                       ),
                                       child: Container(
+                                        width: double.infinity,
+                                        alignment: controller.isBece
+                                            ? Alignment.centerLeft
+                                            : Alignment.center,
                                         decoration: BoxDecoration(
-                                          // border: Border.all(
-                                          //     color: Colors.deepPurple.shade700,
-                                          //     width: 2
-                                          // ),
                                           borderRadius:
                                               BorderRadius.circular(10),
                                           color: Colors.grey.shade300,
@@ -440,7 +425,8 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
     return result;
   }
 
-  Widget _buildFormattedText(String text, {required TextStyle style}) {
+  Widget _buildFormattedText(String text,
+      {required TextStyle style, TextAlign? textAlign}) {
     final List<InlineSpan> spans = [];
 
     // Regex to find LaTeX environments, bold text, LaTeX brace command blocks (like \frac{...}{...}), OR words separated by spaces
@@ -553,6 +539,10 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
       spans.add(TextSpan(text: text.substring(lastMatchEnd), style: style));
     }
 
-    return Text.rich(TextSpan(children: spans), textAlign: TextAlign.center);
+    return Text.rich(
+      TextSpan(children: spans),
+      textAlign:
+          textAlign ?? (controller.isBece ? TextAlign.left : TextAlign.center),
+    );
   }
 }

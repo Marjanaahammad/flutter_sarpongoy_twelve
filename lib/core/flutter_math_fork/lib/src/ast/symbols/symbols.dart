@@ -69,8 +69,8 @@ class RenderConfig {
 const mainrm = FontOptions();
 const amsrm = FontOptions(fontFamily: 'AMS');
 const mathdefault = FontOptions(
-  fontFamily: 'Math',
-  fontShape: FontStyle.italic,
+  fontFamily: 'Main',
+  fontShape: FontStyle.normal,
 );
 
 const mainit = FontOptions(fontShape: FontStyle.italic);
