@@ -8801,6 +8801,1500 @@ QuizQuestion(
       ),
     ],
   ),
+  "Math JHS2 s4 ss2 - Chance or Probability": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. A bag contains 6 white and 8 red balls. What is the probability that a ball picked at random will be a white ball? (BECE 2002B Q35)",
+        options: [
+          r"\frac{1}{7}",
+          r"\frac{3}{7}",
+          r"\frac{4}{7}",
+          r"\frac{6}{7}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"There are 14 balls altogether, so P(\text{white}) = \frac{6}{14} = \frac{3}{7}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. A bag contains 5 black and 6 white balls. What is the probability of picking a white ball? (BECE 1998 Q20)",
+        options: [
+          r"\frac{1}{11}",
+          r"\frac{6}{11}",
+          r"\frac{1}{5}",
+          r"\frac{5}{11}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"There are 11 balls in total and 6 are white, so the probability is \frac{6}{11}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "3. A bag contains 12 mangoes, of which 4 are not ripe. What is the chance of picking at random a ripe mango from the bag? (BECE 1992 Q16)",
+        options: [
+          r"\frac{1}{8}",
+          r"\frac{1}{4}",
+          r"\frac{2}{3}",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"There are 12 - 4 = 8 ripe mangoes, so the probability is \frac{8}{12} = \frac{2}{3}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "4. There are 12 red and 8 blue balls in a bag. If a ball is selected at random from the bag, what is the probability that it is red? (BECE 2003 Q21)",
+        options: [
+          r"\frac{2}{5}",
+          r"\frac{2}{3}",
+          r"\frac{3}{5}",
+          r"\frac{4}{5}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"There are 20 balls altogether, so P(\text{red}) = \frac{12}{20} = \frac{3}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "5. A school has a population of 600 out of which 120 are girls. What is the probability of meeting a pupil in the school who is a boy? (BECE 2000 Q29)",
+        options: [
+          r"\frac{1}{4}",
+          r"\frac{1}{5}",
+          r"\frac{2}{5}",
+          r"\frac{4}{5}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"There are 600 - 120 = 480 boys, so the probability is \frac{480}{600} = \frac{4}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. There are 18 girls and 22 boys in a class. A prefect is to be chosen at random from the class. What is the probability that the prefect will be a girl? (BECE 2002A Q34)",
+        options: [
+          r"\frac{1}{8}",
+          r"\frac{9}{20}",
+          r"\frac{11}{20}",
+          r"\frac{9}{11}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"There are 40 pupils altogether, so P(\text{girl}) = \frac{18}{40} = \frac{9}{20}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. A bag contains 4 blue and 8 red balls. What is the probability of picking a blue ball at random from the bag? (BECE 2005 Q21)",
+        options: [
+          r"\frac{1}{3}",
+          r"\frac{1}{2}",
+          r"\frac{2}{3}",
+          r"\frac{3}{4}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"There are 12 balls altogether, so P(\text{blue}) = \frac{4}{12} = \frac{1}{3}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "8. There are 15 red and 25 black balls in a bag. What is the probability of selecting a black ball from the bag? (BECE 1999 Q24)",
+        options: [
+          r"\frac{1}{25}",
+          r"\frac{1}{5}",
+          r"\frac{3}{8}",
+          r"\frac{5}{8}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"There are 40 balls in total, so P(\text{black}) = \frac{25}{40} = \frac{5}{8}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. A bag contains 24 marbles, 10 of which are blue and the rest are green. A boy picks a marble at random from the bag. What is the probability that he picks a green marble? (BECE 1990 Q30)",
+        options: [
+          r"\frac{1}{14}",
+          r"\frac{7}{17}",
+          r"\frac{5}{12}",
+          r"\frac{7}{12}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"There are 24 - 10 = 14 green marbles, so the probability is \frac{14}{24} = \frac{7}{12}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. There are 20 beads in a box, some are red and some are green. The chance that one bead taken at random from the box is red is 1/4. Find the number of red beads in the box. (BECE 1992 Q15)",
+        options: [
+          "16",
+          "15",
+          "10",
+          "5",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The number of red beads is \frac{1}{4} \times 20 = 5.",
+      ),
+
+      QuizQuestion(
+        question:
+        "11. A box contains 10 green and 8 white balls of the same size. If a ball is selected at random from the box, what is the probability that it is green? (BECE 2025 Q33)",
+        options: [
+          r"\frac{1}{10}",
+          r"\frac{2}{5}",
+          r"\frac{5}{9}",
+          r"\frac{2}{9}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"There are 18 balls altogether, so P(\text{green}) = \frac{10}{18} = \frac{5}{9}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "12. A teacher is to be chosen at random from a group of 6 male and 2 female teachers for a patron of a Mathematics Club. What is the probability that a female teacher is chosen? (BECE 2009 Q11)",
+        options: [
+          r"\frac{3}{4}",
+          r"\frac{2}{3}",
+          r"\frac{1}{3}",
+          r"\frac{1}{4}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"There are 8 teachers altogether, so P(\text{female}) = \frac{2}{8} = \frac{1}{4}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "13. A match box contains 40 sticks. If 15 of them are spoilt, find the probability that a stick chosen at random is not spoilt. (BECE 2017 Q34)",
+        options: [
+          r"\frac{3}{5}",
+          r"\frac{3}{8}",
+          r"\frac{5}{8}",
+          r"\frac{2}{5}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"There are 40 - 15 = 25 good sticks, so the probability is \frac{25}{40} = \frac{5}{8}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "14. A bag contains 5 red and 7 black balls of the same size. What is the probability of picking a black ball? (BECE 2021 Q2)",
+        options: [
+          r"\frac{5}{7}",
+          r"\frac{5}{12}",
+          r"\frac{7}{12}",
+          r"\frac{1}{6}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"There are 12 balls altogether, so P(\text{black}) = \frac{7}{12}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "15. A survey shows that 28% of all the men in a village are vegetarian. What is the probability that a man selected at random from the village is a vegetarian? (BECE 2025 Q36)",
+        options: [
+          r"\frac{7}{25}",
+          r"\frac{41}{50}",
+          r"\frac{1}{2}",
+          "1",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"28% = \frac{28}{100} = \frac{7}{25}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "16. A bag contains 20 oranges of which 6 are bad. Find the probability of picking a good orange from the bag. (BECE 2023 Q24)",
+        options: [
+          r"\frac{1}{20}",
+          r"\frac{1}{6}",
+          r"\frac{3}{10}",
+          r"\frac{7}{10}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"There are 20 - 6 = 14 good oranges, so the probability is \frac{14}{20} = \frac{7}{10}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "17. A box contains 30 identical balls of which 16 are white and the rest yellow. If a girl picks a ball at random from the box, what is the probability that it is a yellow ball? (BECE 2012 Q17)",
+        options: [
+          r"\frac{1}{16}",
+          r"\frac{7}{15}",
+          r"\frac{8}{15}",
+          r"\frac{7}{8}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"There are 30 - 16 = 14 yellow balls, so the probability is \frac{14}{30} = \frac{7}{15}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "18. There are 10 red and 15 green balls in a bag. Find the probability of selecting at random a red ball from the bag. (BECE 2011 Q31)",
+        options: [
+          r"\frac{3}{5}",
+          r"\frac{2}{5}",
+          r"\frac{1}{10}",
+          r"\frac{1}{25}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"There are 25 balls altogether, so P(\text{red}) = \frac{10}{25} = \frac{2}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "19. There are 20 identical balls in a box. Twelve are blue and the rest are green. If one ball is taken at random from the box, find the probability that the ball is green. (BECE 2014 Q26)",
+        options: [
+          r"\frac{1}{20}",
+          r"\frac{2}{5}",
+          r"\frac{3}{5}",
+          r"\frac{3}{4}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"There are 20 - 12 = 8 green balls, so the probability is \frac{8}{20} = \frac{2}{5}.",
+      ),
+
+      QuizQuestion(
+        question:
+        "20. A bag contains 6 blue and 5 black balls. What is the probability of picking a black ball at random? (BECE 2006 Q21)",
+        options: [
+          r"\frac{1}{11}",
+          r"\frac{1}{5}",
+          r"\frac{5}{11}",
+          r"\frac{6}{11}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"There are 11 balls altogether and 5 are black, so the probability is \frac{5}{11}.",
+      ),
+    ],
+  ),
+
+  "Math JHS3 s1 ss1 - Number and Numeration System": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. If P = {multiples of 4 less than 16}, find P. (BECE 2002A Q1)",
+        options: [
+          r"{4, 8, 10}",
+          r"{4, 8, 12}",
+          r"{1, 4, 8, 12}",
+          r"{4, 8, 12, 16}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The multiples of 4 less than 16 are 4, 8 and 12.",
+      ),
+      QuizQuestion(
+        question:
+        r"2. P = {3, 6, 9, 12, 15}. Which of the following best describes the set P? (BECE 2003 Q1)",
+        options: [
+          "The set of multiples of 3 less than 18.",
+          "The set of multiples of 3.",
+          "The set of odd numbers.",
+          "The set of odd numbers less than 16.",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "The elements are exactly the positive multiples of 3 that are less than 18.",
+      ),
+      QuizQuestion(
+        question:
+        r"3. If A = {1, 2, 3, 4, 5} and B = {2, 4, 6}, find the number of members in A \cup B. (BECE 2004 Q1)",
+        options: [
+          "8",
+          "6",
+          "5",
+          "2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"A \cup B = {1, 2, 3, 4, 5, 6}, which has 6 members.",
+      ),
+      QuizQuestion(
+        question:
+        r"4. If P = {1, 2, 3, 4, 5}, which of the following statements best describes P? (BECE 2004 Q5)",
+        options: [
+          "Set of whole numbers up to 6",
+          "Set of counting numbers less than 6",
+          "Set of counting numbers greater than 6",
+          "Set of integers less than 6",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The counting numbers less than 6 are 1, 2, 3, 4 and 5.",
+      ),
+      QuizQuestion(
+        question:
+        r"5. P = {odd numbers between 20 and 30} and Q = {23, 29}. Which of the following is true? (BECE 2004 Q16)",
+        options: [
+          r"P \subset Q",
+          r"Q \subset P",
+          r"P = Q",
+          r"P \cap Q = \emptyset",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"P = {21, 23, 25, 27, 29}. Since every element of Q belongs to P, Q \subset P.",
+      ),
+      QuizQuestion(
+        question:
+        r"6. Q = {3, 4, 5, 6, 7, 8} and R = {2, 3, 5, 7}. Find Q \cap R. (BECE 2008 Q1)",
+        options: [
+          r"{3, 5}",
+          r"{3, 5, 7}",
+          r"{2, 3, 5, 7}",
+          r"{3, 4, 5, 6, 7, 8}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The elements common to both sets are 3, 5 and 7.",
+      ),
+      QuizQuestion(
+        question:
+        r"7. If P = {prime numbers less than 20} and Q = {odd numbers less than 10}, find P \cap Q. (BECE 1995 Q1)",
+        options: [
+          r"{1, 2, 3}",
+          r"{1, 3, 5, 7, 11}",
+          r"{3, 5, 7, 9}",
+          r"{3, 5, 7}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The numbers common to both sets are the odd primes less than 10: {3, 5, 7}.",
+      ),
+      QuizQuestion(
+        question:
+        r"8. If P = {2, 4, 6, 8} and Q = {even counting numbers less than 12}, what is the relationship between P and Q? (BECE 1997 Q2)",
+        options: [
+          r"P = Q",
+          r"P \subset Q",
+          r"P < Q",
+          r"Q \subset P",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Q = {2, 4, 6, 8, 10}. Every element of P is in Q, so P \subset Q.",
+      ),
+      QuizQuestion(
+        question:
+        r"9. M = {multiples of 3 between 10 and 20} and N = {even numbers between 10 and 20}. Find M \cap N. (BECE 1999 Q2)",
+        options: [
+          r"{12, 18}",
+          r"{12, 15, 18}",
+          r"{12, 18, 16, 18}",
+          r"{12, 14, 15, 16, 18}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The common elements are numbers that are both even and multiples of 3: 12 and 18.",
+      ),
+      QuizQuestion(
+        question:
+        r"10. If E = {prime numbers between 10 and 20} and F = {odd numbers between 0 and 16}, find E \cap F. (BECE 2008 Q21)",
+        options: [
+          r"{11}",
+          r"{11, 13}",
+          r"{3, 11, 13}",
+          r"{3, 11, 13, 15}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"E = {11, 13, 17, 19}. The elements also in F are 11 and 13.",
+      ),
+      QuizQuestion(
+        question:
+        r"11. Given that A = {a, e, i, o, u} and B = {r, s, t}, how many elements are in A \cap B? (BECE 2013 Q5)",
+        options: [
+          "0",
+          "1",
+          "2",
+          "3",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "The two sets have no common element, so their intersection has 0 elements.",
+      ),
+      QuizQuestion(
+        question:
+        r"12. Given that P = {m, n, o, p}, find the number of subsets of P. (BECE 2015 Q2)",
+        options: [
+          "4",
+          "8",
+          "10",
+          "16",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"A set with 4 elements has 2^4 = 16 subsets.",
+      ),
+      QuizQuestion(
+        question:
+        r"13. If M = {multiples of 4 between 10 and 25} and N = {even numbers between 11 and 23}, find M \cup N. (BECE 2015 Q3)",
+        options: [
+          r"{12, 16, 20}",
+          r"{14, 18, 22}",
+          r"{12, 14, 16, 18, 22}",
+          r"{12, 14, 16, 18, 20, 22, 24}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"M = {12, 16, 20, 24} and N = {12, 14, 16, 18, 20, 22}. Their union contains all seven listed values.",
+      ),
+      QuizQuestion(
+        question:
+        r"14. If A = {2, 6, 8} and B = {4, 6, 8, 10}, which of the following statements is true? (BECE 2017 Q5)",
+        options: [
+          r"A \subset B",
+          r"A \cap B = {2, 6, 8}",
+          r"A \cup B = {2, 4, 6, 8, 10}",
+          r"A \supset B",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The union contains every distinct element in either set: {2, 4, 6, 8, 10}.",
+      ),
+      QuizQuestion(
+        question:
+        "15. Which of the following statements about sets is true? (BECE 2017 Q40)",
+        options: [
+          "Every set is a subset of the null set.",
+          "The universal set is a subset of the null set.",
+          "The intersection between two sets is always a null set.",
+          "The universal set is the union of all its subsets.",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "The union of all subsets of a universal set contains every element of the universal set.",
+      ),
+      QuizQuestion(
+        question:
+        r"16. If P = {factors of 36} and Q = {multiples of 4 less than 40}, find the number of subsets in P \cap Q. (BECE 2018 Q7)",
+        options: [
+          "10",
+          "8",
+          "6",
+          "4",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"P \cap Q = {4, 12, 36}. A set with 3 elements has 2^3 = 8 subsets.",
+      ),
+      QuizQuestion(
+        question:
+        r"17. Given that N = {x : x is a factor of 18} and M = {x : x is a multiple of 12}, find N \cap M. (BECE 2020 Q2)",
+        options: [
+          r"{1, 2, 3, 6}",
+          r"{1, 2, 3, 6, 12}",
+          r"{2, 3, 6, 12, 18}",
+          r"{}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "No factor of 18 is a positive multiple of 12, so the intersection is empty.",
+      ),
+      QuizQuestion(
+        question:
+        "18. Express 7352.4658 correct to three significant figures. (BECE 2021 Q11)",
+        options: [
+          "7352465.8",
+          "7352.47",
+          "7350",
+          "735",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The first three significant digits are 7, 3 and 5. The next digit is 2, so the number rounds to 7350.",
+      ),
+      QuizQuestion(
+        question:
+        r"19. If A = {1, 3, 5, 7, 9, 11, 13, 15} and B = {3, 6, 9, 12, 15}, find n(A \cap B). (BECE 2021 Q18)",
+        options: [
+          "3",
+          "5",
+          "10",
+          "15",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"A \cap B = {3, 9, 15}, so n(A \cap B) = 3.",
+      ),
+      QuizQuestion(
+        question:
+        r"20. Write 1930.54 in standard form. (BECE 2022 Q27)",
+        options: [
+          r"1.93054 \times 10^3",
+          r"1.93054 \times 10^2",
+          r"1.93054 \times 10^{-2}",
+          r"1.93054 \times 10^{-3}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Moving the decimal point three places left gives 1.93054 \times 10^3.",
+      ),
+      QuizQuestion(
+        question:
+        r"21. Write 0.01723 in standard form. (BECE 2023 Q16)",
+        options: [
+          r"0.01723 \times 10^{-2}",
+          r"0.01723 \times 10^2",
+          r"1.723 \times 10^2",
+          r"1.723 \times 10^{-2}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Moving the decimal point two places right gives 1.723, so 0.01723 = 1.723 \times 10^{-2}.",
+      ),
+      QuizQuestion(
+        question:
+        r"22. If n(E) = 15, n(F) = 20, and n(E \cap F) = 6, find n(E \cup F). (BECE 2023 Q31)",
+        options: [
+          "21",
+          "29",
+          "26",
+          "35",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"n(E \cup F) = n(E) + n(F) - n(E \cap F) = 15 + 20 - 6 = 29.",
+      ),
+      QuizQuestion(
+        question:
+        r"23. Describe the set M = {2, 3, 5, 7, 11, 13, 17, 19} in words. (BECE 2025 Q35)",
+        options: [
+          r"M = {odd numbers less than 20}",
+          r"M = {factors of 19}",
+          r"M = {prime numbers less than 20}",
+          r"M = {whole numbers less than 20}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "The listed numbers are exactly the prime numbers less than 20.",
+      ),
+    ],
+  ),
+  "Math JHS3 s1 ss2 - Number Operations": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. State the property used in the statement p(q + r) = (pq) + (pr). (BECE 1998 Q6)",
+        options: [
+          "Associative",
+          "Commutative",
+          "Distributive",
+          "Identity",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "Multiplication is distributed over the terms inside the brackets, so this is the distributive property.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"2. If 85.1 \div 2.3 = 3.7, find the value of 85.1 \div 2.3. (BECE 1992 Q8)",
+        options: [
+          "0.037",
+          "0.37",
+          "3.7",
+          "37",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"85.1 \div 2.3 = 37. The stated value 3.7 in the question appears to be a transcription error.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. What property of arithmetic operation is illustrated by a(b + c) = ab + ac? (BECE 1994 Q9)",
+        options: [
+          "Addition",
+          "Associative",
+          "Commutative",
+          "Distributive",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "This is the distributive property of multiplication over addition.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"4. Find the value of \sqrt{6\frac{1}{4}}. (BECE 1992 Q4)",
+        options: [
+          "3.0",
+          "4.9",
+          "2.5",
+          "2.4",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"6\frac{1}{4} = 6.25, and \sqrt{6.25} = 2.5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. Given that (23 \times 82) \times 79 = 148994, find the exact value of (2.3 \times 82) \times 7.9. (BECE 1990 Q3)",
+        options: [
+          "14.8994",
+          "148.994",
+          "1489.94",
+          "14899.4",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Both 23 and 79 are divided by 10, so 148994 is divided by 100, giving 1489.94.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"6. If (3.14 \times 18) \times 17.5 = 3.14 \times (3a \times 17.5), find the value of a. (BECE 1990 Q5)",
+        options: [
+          "3.0",
+          "5.8",
+          "6.0",
+          "9.0",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Equating corresponding factors gives 18 = 3a, so a = 6.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. The product of three numbers is 1197. Two of the numbers are 3 and 19. Find the third number. (BECE 1991 Q8)",
+        options: [
+          "21",
+          "54.4",
+          "210",
+          "544",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The third number is 1197 \div (3 \times 19) = 1197 \div 57 = 21.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"8. What property is illustrated by the statement a \times (b + c) = (a \times b) + (a \times b)? (BECE 1995 Q7)",
+        options: [
+          "Associative",
+          "Identity",
+          "Commutative",
+          "Distributive",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The intended statement is a(b+c)=ab+ac, which illustrates the distributive property. The repeated ab appears to be a transcription error.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"9. The product 6287 \times 543 = 3,413,841. What is the value of 628.7 \times 5.43? (BECE 1997 Q4)",
+        options: [
+          "3,413,841",
+          "341,384.1",
+          "34,138.1",
+          "3,413.841",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"628.7 is 6287 \div 10 and 5.43 is 543 \div 100, so the product is 3,413,841 \div 1000 = 3,413.841.",
+      ),
+
+      QuizQuestion(
+        question:
+        "10. A farmer has 1853 pineapple suckers. He plants 17 pineapples in a row. How many rows can he plant? (BECE 1997 Q38)",
+        options: [
+          "17",
+          "19",
+          "91",
+          "109",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The number of rows is 1853 \div 17 = 109.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. If (23 \times 82) \times 79 = 148,994, find the exact value of (2.3 \times 82) \times 7.9. (BECE 2000 Q6)",
+        options: [
+          "1.48994",
+          "14.8994",
+          "148.994",
+          "1489.94",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Dividing 23 and 79 each by 10 divides the product by 100, so 148994 \div 100 = 1489.94.",
+      ),
+
+      QuizQuestion(
+        question:
+        "12. The product of three numbers is 1197. Two of the numbers are 3 and 21. Find the third number. (BECE 2000 Q9)",
+        options: [
+          "19",
+          "57",
+          "63",
+          "399",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The third number is 1197 \div (3 \times 21) = 1197 \div 63 = 19.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. What property of addition is defined by (a + b) + c = a + (b + c)? (BECE 2001 Q3)",
+        options: [
+          "Associative",
+          "Inverse",
+          "Commutative",
+          "Distributive",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Changing the grouping without changing the order illustrates the associative property.",
+      ),
+
+      QuizQuestion(
+        question:
+        "14. The sum of three numbers is 28,542. Two of the numbers are 10,250 and 9,750. Find the third number. (BECE 2002A Q7)",
+        options: [
+          "8,452",
+          "8,542",
+          "9,452",
+          "9,542",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The third number is 28,542 - 10,250 - 9,750 = 8,542.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. State the property used in the operation a(b + c) = ab + ac. (BECE 2002B Q1)",
+        options: [
+          "Associative",
+          "Distributive",
+          "Commutative",
+          "Universal",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "This is the distributive property of multiplication over addition.",
+      ),
+
+      QuizQuestion(
+        question:
+        "16. The total number of match sticks in 6 match boxes was 270. Find the total number of sticks in 20 similar boxes. (BECE 2003 Q13)",
+        options: [
+          "710",
+          "800",
+          "810",
+          "900",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Each box contains 270 \div 6 = 45 sticks. Therefore, 20 boxes contain 45 \times 20 = 900 sticks.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"17. If 4956 \times 25 = 123,900, evaluate 495.6 \times 2.5, leaving the answer in standard form. (BECE 2013 Q26)",
+        options: [
+          r"1.239 \times 10^2",
+          r"1.239 \times 10^3",
+          r"1.239 \times 10^4",
+          r"1.239 \times 10^5",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"495.6 \times 2.5 = 1239 = 1.239 \times 10^3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"18. Given that (3.14 \times 18) \times 17.5 = 3.14 \times (3p \times 17.5), find the value of p. (BECE 2014 Q18)",
+        options: [
+          "3.0",
+          "5.8",
+          "6.0",
+          "9.0",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Equating corresponding factors gives 18 = 3p, so p = 6.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"19. Find the value of n if 25.003 = (2 \times 10) + (5 \times 1) + (3 \times n). (BECE 2015 Q20)",
+        options: [
+          "0.001",
+          "0.011",
+          "0.01",
+          "0.1",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"25.003 = 25 + 3n, so 3n = 0.003 and n = 0.001.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"20. Simplify (46 \times 102) + (102 \times 54). (BECE 2016 Q10)",
+        options: [
+          "1,020",
+          "10,200",
+          "102,000",
+          "1,020,000",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Factor out 102: 102(46 + 54) = 102 \times 100 = 10,200.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"21. Evaluate 13 + b + c + 19. (BECE 2016 Q34)",
+        options: [
+          "62",
+          "64",
+          "74",
+          "76",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"The values of b and c are missing from the supplied question, so the answer cannot be verified from the given information.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"22. Evaluate a + b + c. (BECE 2016 Q35)",
+        options: [
+          "24",
+          "29",
+          "36",
+          "43",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The values of a, b and c are missing from the supplied question, so the answer cannot be verified from the given information.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"23. Which property of arithmetic is used in a(x + y) = ax + ay? (BECE 2020 Q4)",
+        options: [
+          "Associate",
+          "Commutative",
+          "Distributive",
+          "Initiative",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        "This equation illustrates the distributive property.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"24. Which property of arithmetic is shown in the equation (6 + x) + 5 = 6 + (x + 5)? (BECE 2021 Q17)",
+        options: [
+          "Commutative",
+          "Associative",
+          "Closure",
+          "Distributive",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        "The grouping of the terms changes while their order remains the same, illustrating the associative property.",
+      ),
+
+      QuizQuestion(
+        question:
+        "25. A number of oranges are shared among 50 students and each got 15 oranges. If the same number of oranges are shared equally among 30 students, how many will each student get? (BECE 2024 Q3)",
+        options: [
+          "13",
+          "20",
+          "15",
+          "25",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The total number of oranges is 50 \times 15 = 750. Then 750 \div 30 = 25 oranges per student.",
+      ),
+
+      QuizQuestion(
+        question:
+        "26. In an examination, Abu answered nine questions in 2 hours. He spent 20 minutes on the first question and the same time on each of the remaining questions. How many minutes did he spend on each of the other questions? (BECE 2025 Q15)",
+        options: [
+          "8.0 minutes",
+          "10.0 minutes",
+          "12.0 minutes",
+          "12.5 minutes",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        "Two hours is 120 minutes. After the first 20 minutes, 100 minutes remain for 8 questions, giving 100 ÷ 8 = 12.5 minutes each.",
+      ),
+    ],
+  ),
+  "Math JHS3 s1 ss3 - Fractions, Decimals and Percentages": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. Mr. Mensah withdrew some money from the bank. He gave \frac{1}{2} of it to his son and \frac{1}{3} to his daughter. If he had ₵500 left, how much did he take from the bank? (BECE 1990 Q7)",
+        options: [
+          "₵600.00",
+          "₵750.00",
+          "₵1,500.00",
+          "₵3,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"He gave away \frac{1}{2}+\frac{1}{3}=\frac{5}{6}, so \frac{1}{6} was left. Thus, the total was 500 \times 6 = ₵3,000.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"2. Tony shared \frac{2}{3} of his plot of land equally among his three sons. What fraction of the plot did each get? (BECE 2023 Q8)",
+        options: [
+          r"\frac{1}{2}",
+          r"\frac{5}{9}",
+          r"\frac{2}{9}",
+          r"\frac{1}{3}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Each son received \frac{2}{3} \div 3 = \frac{2}{9} of the whole plot.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. A student spends \frac{17}{35} of his pocket money on transport and fruits. He spends \frac{5}{6} of the remainder on sweets. What fraction of his pocket money does he spend on sweets? (BECE 1997 Q16)",
+        options: [
+          r"\frac{4}{7}",
+          r"\frac{3}{7}",
+          r"\frac{17}{35}",
+          r"\frac{18}{35}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The remainder is 1-\frac{17}{35}=\frac{18}{35}. Then \frac{5}{6}\times\frac{18}{35}=\frac{3}{7}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"4. Simplify 7\frac{1}{2} \times \left(\frac{1}{4}+\frac{1}{2}\right)-\frac{1}{4}. (BECE 2017 Q26)",
+        options: [
+          r"\frac{1}{2}",
+          r"\frac{11}{16}",
+          r"\frac{7}{32}",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"The expression evaluates to \frac{15}{2}\times\frac{3}{4}-\frac{1}{4}=\frac{43}{8}. None of the supplied options matches, so the question or options appear to contain a transcription error.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. A trader sold half of a piece of cloth and used two-fifths of the remaining cloth to sew a dress. What fraction of the cloth was left? (BECE 2025 Q16)",
+        options: [
+          r"\frac{1}{10}",
+          r"\frac{3}{10}",
+          r"\frac{1}{5}",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"After selling half, \frac{1}{2} remained. He used \frac{2}{5}\times\frac{1}{2}=\frac{1}{5}, leaving \frac{1}{2}-\frac{1}{5}=\frac{3}{10}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"6. Simplify \frac{1}{3}\left(\frac{1}{2}-\frac{1}{3}\right)-\frac{1}{3}\left(\frac{1}{3}-\frac{1}{2}\right). (BECE 2011 Q17)",
+        options: [
+          r"-\frac{1}{9}",
+          r"-\frac{1}{18}",
+          r"\frac{1}{18}",
+          r"\frac{1}{9}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The expression becomes \frac{1}{3}\times\frac{1}{6}-\frac{1}{3}\times\left(-\frac{1}{6}\right)=\frac{1}{18}+\frac{1}{18}=\frac{1}{9}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"7. Simplify 2\left(-\frac{1}{2}\right)^2+\left(-\frac{1}{2}\right)-1. (BECE 2021 Q17)",
+        options: [
+          "-1",
+          "0",
+          "1",
+          "2",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"2\left(\frac{1}{4}\right)-\frac{1}{2}-1=\frac{1}{2}-\frac{1}{2}-1=-1.",
+      ),
+    ],
+  ),
+  "Math JHS3 s1 ss4 - Ratios and Proportion": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. Find the simple interest on ₵28,000.00 at 3\frac{1}{2}% per annum for 6 months. (BECE 1992 Q12)",
+        options: [
+          "₵490.00",
+          "₵560.00",
+          "₵980.00",
+          "₵5,880.00",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{PRT}{100} = \frac{28000 \times 3.5 \times 0.5}{100} = ₵490.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"2. Calculate the simple interest on ₵130,000.00 for 2\frac{1}{2} years at 12% per annum. (BECE 2003 Q15)",
+        options: [
+          "₵78,000.00",
+          "₵39,000.00",
+          "₵36,000.00",
+          "₵31,200.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{130000 \times 12 \times 2.5}{100} = ₵39,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. A man deposited an amount of ₵50,000.00 at a bank for 2 years at a rate of 20%. Find the simple interest. (BECE 1998 Q26)",
+        options: [
+          "₵1,000.00",
+          "₵2,000.00",
+          "₵10,000.00",
+          "₵20,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{50000 \times 20 \times 2}{100} = ₵20,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"4. Find the simple interest on ₵15,000.00 at a rate of 20% per annum for 5 years. (BECE 1995 Q7)",
+        options: [
+          "₵10,000.00",
+          "₵15,000.00",
+          "₵30,000.00",
+          "₵50,000.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{15000 \times 20 \times 5}{100} = ₵15,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. Mr. Yevu saved ₵2,500.00 at a simple interest of 25% per annum for 4 years. Calculate the interest he earned on his savings. (BECE 1993 Q15)",
+        options: [
+          "₵625.00",
+          "₵2,500.00",
+          "₵3,125.00",
+          "₵5,000.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{2500 \times 25 \times 4}{100} = ₵2,500.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"6. At what rate of simple interest will ₵5,000.00 amount to ₵7,500.00 if saved for 5 years? (BECE 1996 Q8)",
+        options: [
+          r"5%",
+          r"6\frac{2}{3}%",
+          r"7\frac{1}{2}%",
+          r"10%",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The interest is ₵2,500. Using R = \frac{100I}{PT}, R = \frac{100 \times 2500}{5000 \times 5} = 10%.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"7. A man invested GH₵500,000.00 at 15% simple interest per annum for 2 years. Calculate the amount at the end of the period. (BECE 2007 Q21)",
+        options: [
+          "GH₵150,000.00",
+          "GH₵650,000.00",
+          "GH₵750,000.00",
+          "GH₵800,000.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"The interest is GH₵150,000.00, so the amount is GH₵500,000.00 + GH₵150,000.00 = GH₵650,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"8. In how many years will ¢5,000.00 yield a simple interest of ₵1,000.00 at a rate of 5% per annum? (BECE 1994 Q7)",
+        options: [
+          "4 years",
+          "5 years",
+          "10 years",
+          "25 years",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"T = \frac{100I}{PR} = \frac{100 \times 1000}{5000 \times 5} = 4\text{ years}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"9. Mr. Nkrumah saved ₵75,000.00 at a simple interest rate of 20% per annum for 3 years. Calculate the interest he earned on his savings. (BECE 2006 Q34)",
+        options: [
+          "₵15,000.00",
+          "₵30,000.00",
+          "₵45,000.00",
+          "₵60,000.00",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{75000 \times 20 \times 3}{100} = ₵45,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"10. Kofi deposited ₵500,000.00 with a bank for 2 years at a rate of 10% per annum. Find the simple interest. (BECE 2005 Q24)",
+        options: [
+          "₵10,000.00",
+          "₵20,000.00",
+          "₵50,000.00",
+          "₵10,000.00",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The correct simple interest is \frac{500000 \times 10 \times 2}{100} = ₵100,000.00. None of the supplied options matches, so the question or options appear to contain a transcription error.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. A man deposited an amount of money in his savings account for 5 years. The rate of interest was 14% per annum. If the interest was ¢35,000.00, find the amount deposited. (BECE 2000 Q22)",
+        options: [
+          "₵85,000.00",
+          "₵50,000.00",
+          "₵39,000.00",
+          "₵24,000.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"P = \frac{100I}{RT} = \frac{100 \times 35000}{14 \times 5} = ₵50,000.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. A simple interest of GH₵37,500.00 is earned on an amount of GH₵500,000.00 for 3 years. Find the rate of interest per annum. (BECE 2010 Q15)",
+        options: [
+          r"20.0%",
+          r"10.0%",
+          r"5.0%",
+          r"2.5%",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"R = \frac{100I}{PT} = \frac{100 \times 37500}{500000 \times 3} = 2.5%.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. Kofi invested GH₵150,000.00 at 2.5% per annum simple interest. How long will it take this investment to yield an interest of GH¢11,250.00? (BECE 2012 Q24)",
+        options: [
+          "2 years",
+          "3 years",
+          "4 years",
+          "5 years",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"T = \frac{100I}{PR} = \frac{100 \times 11250}{150000 \times 2.5} = 3\text{ years}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"14. Calculate the simple interest on GH₵450.00 for 2 years at 12% per annum. (BECE 2013 Q29)",
+        options: [
+          "GH₵191.00",
+          "GH₵108.00",
+          "GH₵54.00",
+          "GH₵27.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{450 \times 12 \times 2}{100} = GH₵108.00.",
+      ),
+      QuizQuestion(
+        question:
+        "15. Kofi paid rent of GH₵1,800.00 each year. If the rate is 0.3 of his annual income, find his annual income. (BECE 2014 Q13)",
+        options: [
+          "GH₵600.00",
+          "GH₵5,400.00",
+          "GH₵6,000.00",
+          "GH₵18,000.00",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"0.3 \times \text{income} = 1800, so the income is 1800 \div 0.3 = GH¢6,000.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"16. A man invested GH₵800.00 in a bank at a simple interest rate of 5% per annum. Find his total amount in the bank at the end of one year. (BECE 2015 Q13)",
+        options: [
+          "GH₵840.00",
+          "GH₵860.00",
+          "GH₵900.00",
+          "GH₵960.00",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"The interest is 5% of GH¢800.00 = GH¢40.00, so the total amount is GH¢840.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"17. Find the simple interest on GH₵120,000.00 for 5 months at 12% per annum. (BECE 2016 Q12)",
+        options: [
+          "GH₵6,000.00",
+          "GH₵7,200.00",
+          "GH₵50,000.00",
+          "GH₵72,000.00",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Five months is \frac{5}{12} year. Thus, I = \frac{120000 \times 12 \times \frac{5}{12}}{100} = GH¢6,000.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"18. A woman deposited an amount of GH₵50,000.00 at a bank for 2 years at a rate of 20% per annum. Find the simple interest. (BECE 2017 Q12)",
+        options: [
+          "GH₵1,000.00",
+          "GH₵2,000.00",
+          "GH₵10,000.00",
+          "GH₵20,000.00",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{50000 \times 20 \times 2}{100} = GH¢20,000.00.",
+      ),
+      QuizQuestion(
+        question:
+        r"19. Find the simple interest on GHS 600.00 saved for 2 years 8 months at 5% per annum. (BECE 2018 Q11)",
+        options: [
+          "GH₵64.00",
+          "GH₵80.00",
+          "GH₵84.00",
+          "GH₵92.00",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"2 years 8 months = \frac{8}{3} years. Thus, I = \frac{600 \times 5 \times \frac{8}{3}}{100} = GH¢80.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        "20. The simple interest on GH₵450.00 for 4 years is GH₵45.00. Find the rate of interest. (BECE 2019 Q37)",
+        options: [
+          r"2.5%",
+          r"10%",
+          r"25%",
+          r"6.5%",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"R = \frac{100I}{PT} = \frac{100 \times 45}{450 \times 4} = 2.5%.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"21. A man earned an interest of GH₵240.00 in 4 years at 20% per annum simple interest. Calculate the principal. (BECE 2020 Q23)",
+        options: [
+          "GH₵300.00",
+          "GH₵450.00",
+          "GH₵480.00",
+          "GH₵1,200.00",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"P = \frac{100I}{RT} = \frac{100 \times 240}{20 \times 4} = GH₵300.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"22. Find the simple interest on GH₵600.00 which was saved for 8 months at 5% per annum. (BECE 2021 Q24)",
+        options: [
+          "GH₵20.00",
+          "GH₵40.00",
+          "GH₵45.00",
+          "GH₵240.00",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Eight months is \frac{8}{12} year. Thus, I = \frac{600 \times 5 \times \frac{8}{12}}{100} = GH₵20.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"23. Find the simple interest on GH₵350.00 for 4 years at 5% per annum. (BECE 2023 Q37)",
+        options: [
+          "GH₵140.00",
+          "GH₵20.00",
+          "GH₵70.00",
+          "GH₵35.00",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"I = \frac{350 \times 5 \times 4}{100} = GH₵70.00.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"24. How long will the simple interest on GH¢550.00 at 12% per annum be GH₵132.00? (BECE 2025 Q1)",
+        options: [
+          "1 year",
+          "2 years",
+          "4 years",
+          "12 years",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"T = \frac{100I}{PR} = \frac{100 \times 132}{550 \times 12} = 2 years.",
+      ),
+    ],
+  ),
 
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────

@@ -3013,495 +3013,419 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Math JHS2 s4 ss1 - Vectors and Measurement": PracticeModel(
+
+  "Math JHS2 s4 ss1 - Data": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1 (BECE 1991 Q4)\n"
-            "The heights in centimetres of 10 school children are as follows:\n"
-            "165, 165, 155, 159, 174, 154, 169, 155, 155, 150\n"
+            "Question 1: The heights in centimetres of 10 school children are as follows:\n"
+            "165, 165, 155, 159, 174, 154, 169, 155, 155, 150\n\n"
             "(a) Make a frequency table for the data.\n"
-            "(b) Use your table to find the mode and the median of the distribution.",
+            "(b) Use your table to find the mode and the median of the distribution.\n"
+            "(BECE 1991 Q4)",
         answer:
-        "Correct Answer:\n"
-            "(a) Frequency Table:\n\n"
-            "Height (cm) | Tally | Frequency (f)\n"
-            "150 | / | 1\n"
-            "154 | / | 1\n"
-            "155 | /// | 3\n"
-            "159 | / | 1\n"
-            "165 | // | 2\n"
-            "169 | / | 1\n"
-            "174 | / | 1\n"
-            "Total |  | 10\n\n"
+            "⦿ (a) Frequency Table:\n",
+        answerTableHeaders: ["Height (cm)", "Tally", "Frequency (f)"],
+        answerTableData: [
+          ["150", "/", "1"],
+          ["154", "/", "1"],
+          ["155", "///", "3"],
+          ["159", "/", "1"],
+          ["165", "//", "2"],
+          ["169", "/", "1"],
+          ["174", "/", "1"],
+          ["Total", "", "10"],
+        ],
+        explanation:
             "(b) Finding the Mode and Median:\n\n"
             "⦿ i) Mode:\n"
             "The mode is 155 cm, since it is the height with the highest frequency.\n\n"
             "⦿ ii) Median:\n"
             "To find the median, first find the total frequency:\n"
-        r"\sum f = 10"
-        "\n\n"
-        r"Half of 10 is equal to 5. Therefore, the median of the distribution is the average of the 5^{\text{th}} and 6^{\text{th}} heights."
-        "\n\n"
-        r"Adding frequencies from the top row downward shows the 5^{\text{th}} position is 155 cm and the 6^{\text{th}} position is 159 cm."
-        "\n\n"
-        r"\text{Median} = \frac{155 + 159}{2} = \frac{314}{2} = 157\text{ cm}",
-        explanation: "",
+            r"\sum f = 10"
+            "\n\n"
+            r"Half of 10 is equal to 5. Therefore, the median of the distribution is the average of the 5^{\text{th}} and 6^{\text{th}} heights."
+            "\n\n"
+            r"Adding frequencies from the top row downward shows the 5^{\text{th}} position is 155 cm and the 6^{\text{th}} position is 159 cm."
+            "\n\n"
+            r"\text{Median} = \frac{155 + 159}{2} = \frac{314}{2} = 157 cm",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 2 (BECE 2002B Q5)\n"
-            "The following are the marks obtained by pupils in a test:\n"
-            "2, 3, 5, 2, 3, 4, 2, 3, 5, 3, 5, 3, 2, 4, 5, 2, 4, 3, 1, 1, 3, 4, 2, 3, 4, 5, 3, 4, 3, 2\n"
+        "Question 2: The following are the marks obtained by pupils in a test:\n"
+            "2, 3, 5, 2, 3, 4, 2, 3, 5, 3, 5, 3, 2, 4, 5, 2, 4, 3, 1, 1, 3, 4, 2, 3, 4, 5, 3, 4, 3, 2\n\n"
             "(a) Copy and complete the frequency table.\n"
             "(b) Find the mean of the distribution.\n"
-            "(c) If a pupil is selected at random from the form, what is the probability that he/she scored 4 marks?",
+            "(c) If a pupil is selected at random from the form, what is the probability that he/she scored 4 marks?\n"
+            "(BECE 2002B Q5)",
         answer:
-        "Correct Answer:\n"
-            "(a) Completed Table:\n\n"
-            "Score (x) | Tally | Frequency (f) | fx\n"
-            "1 | /// | 3 | 3\n"
-            "2 | ///// // | 7 | 14\n"
-            "3 | ///// ///// | 10 | 30\n"
-            "4 | ///// // | 7 | 28\n"
-            "5 | /// | 3 | 15\n"
-        r"Total |  | \sum f = 30 | \sum fx = 90"
-        "\n\n"
-            "⦿ (b) Mean:\n"
+        "⦿ (a) Completed Table:\n",
+        answerTableHeaders: ["Score (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["1", "//", "3", "3"],
+          ["2", "///// //", "7", "14"],
+          ["3", "///// /////", "10", "30"],
+          ["4", "///// //", "7", "28"],
+          ["5", "///", "3", "15"],
+          ["Total", "", r"\sum f = 30", r"\sum fx = 90"],
+        ],
+        explanation:
+        "(b) Mean:\n\n"
         r"\text{Mean, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{90}{30} = 3"
         "\n\n"
-            "⦿ (c) Probability of scoring 4 marks:\n"
+            "(c) Probability of scoring 4 marks:\n\n"
         r"\text{Probability} = \frac{\text{Number of pupils who scored 4 marks}}{\text{Total number of pupils}} = \frac{7}{30}",
-        explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 3 (BECE 2005 Q6)\n"
-            "The following marks were obtained by pupils in a test.\n"
-            "6, 4, 8, 2, 8, 6, 8, 8, 8, 10, 8, 9, 8, 6, 10, 2, 2, 6, 6, 6\n"
+        "Question 3: The following marks were obtained by pupils in a test.\n"
+            "6, 4, 8, 2, 8, 6, 8, 8, 8, 10, 8, 9, 8, 6, 10, 2, 2, 6, 6, 6\n\n"
             "(a) Construct a frequency distribution table for the data.\n"
             "(b) What is the modal mark?\n"
             "(c) Calculate the mean mark.\n"
             "(d) How many pupils scored more than 6 marks?\n"
-            "(e) What is the probability that a student chosen at random obtained 2 marks?",
+            "(e) What is the probability that a student chosen at random obtained 2 marks?\n"
+            "(BECE 2005 Q6)",
         answer:
-        "Correct Answer:\n"
-            "(a) Frequency Distribution Table:\n\n"
-            "Marks (x) | Tally | Frequency (f) | fx\n"
-            "2 | /// | 3 | 6\n"
-            "4 | / | 1 | 4\n"
-            "6 | ///// / | 6 | 36\n"
-            "8 | ///// // | 7 | 56\n"
-            "9 | / | 1 | 9\n"
-            "10 | // | 2 | 20\n"
-        r"Total |  | \sum f = 20 | \sum fx = 131"
-        "\n\n"
-            "⦿ (b) Modal mark:\n"
+        "⦿ (a) Frequency Distribution Table:\n",
+        answerTableHeaders: ["Marks (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["2", "///", "3", "6"],
+          ["4", "/", "1", "4"],
+          ["6", "///// /", "6", "36"],
+          ["8", "///// //", "7", "56"],
+          ["9", "/", "1", "9"],
+          ["10", "//", "2", "20"],
+          ["Total", "", r"\sum f = 20", r"\sum fx = 131"],
+        ],
+        explanation:
+        "(b) Modal mark:\n"
             "The modal mark is 8 since the mark 8 has the highest frequency.\n\n"
-            "⦿ (c) Mean mark:\n"
+            "(c) Mean mark:\n\n"
         r"\text{Mean, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{131}{20} = 6.55"
         "\n\n"
-            "⦿ (d) Pupils who scored more than 6 marks:\n"
-            "Those who scored more than 6 marks scored either 8, 9, or 10.\n"
-        r"\text{Number of pupils} = 7 + 1 + 2 = 10\text{ pupils}"
+            "(d) Pupils who scored more than 6 marks:\n"
+            "Those who scored more than 6 marks scored either 8, 9, or 10.\n\n"
+        r"\text{Number of pupils} = 7 + 1 + 2 = 10 pupils"
         "\n\n"
-            "⦿ (e) Probability that a student obtained 2 marks:\n"
+            "(e) Probability that a student obtained 2 marks:\n\n"
         r"\text{Probability} = \frac{\text{Number of students who obtained 2 marks}}{\text{Total number of students}} = \frac{3}{20}",
-        explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 4 (BECE 2009 Q2)\n"
-            "The table below shows the scores of some students in an examination.\n\n"
-            "Scores | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10\n"
-            "Frequency | 3 | 5 | 3 | 2 | 7 | 6 | 5 | 4 | 2 | 2 | 1\n\n"
+        "Question 4: The table below shows the scores of some students in an examination.\n\n"
+            "Scores       1 2 3\n"
+            "Frequency  3 5 3\n"
             "From the table, find:\n"
             "(a) how many students wrote the examination;\n"
             "(b) the modal score;\n"
             "(c) the number of students that scored 7 or more;\n"
-            "(d) the mean score correct to one decimal place.",
+            "(d) the mean score correct to one decimal place.\n"
+            "(BECE 2009 Q2)",
         answer:
-        "Correct Answer:\n"
-            "⦿ (a) Number of students who wrote the examination:\n"
-        r"\text{Total} = 3 + 5 + 3 + 2 + 7 + 6 + 5 + 4 + 2 + 2 + 1 = 40\text{ students}"
+        "Correct Answer: \n(a) Number of students who wrote the examination:\n\n"
+      r"\text{Total} = 3 + 5 + 3 + 2 + 7 + 6 + 5 + 4 + 2 + 2 + 1 = 40 students"
+      "\n\n"
+      "(b) Modal score:\n"
+      "The modal score is 4, since it is the score with the highest frequency.\n\n"
+      "(c) Number of students who scored 7 or more:\n\n"
+      r"\text{Total} = 4 + 2 + 2 + 1 = 9 students"
+        "\n"
+        "(d) Mean score calculation: \n",
+        answerTableHeaders: ["Scores (x)", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["0", "3", "0"],
+          ["1", "5", "5"],
+          ["2", "3", "6"],
+          ["3", "2", "6"],
+          ["4", "7", "28"],
+          ["5", "6", "30"],
+          ["6", "5", "30"],
+          ["7", "4", "28"],
+          ["8", "2", "16"],
+          ["9", "2", "18"],
+          ["10", "1", "10"],
+          ["Total", r"\sum f = 40", r"\sum fx = 177"],
+        ],
+        explanation:
         "\n\n"
-            "⦿ (b) Modal score:\n"
-            "The modal score is 4, since it is the score with the highest frequency.\n\n"
-            "⦿ (c) Number of students who scored 7 or more:\n"
-        r"\text{Total} = 4 + 2 + 2 + 1 = 9\text{ students}"
+            "(d) Mean score calculation:\n\n"
+        r"\sum f = 40"
+        "\n"
+        r"\sum fx = 177"
         "\n\n"
-            "⦿ (d) Mean score calculation:\n\n"
-            "Scores (x) | Frequency (f) | fx\n"
-            "0 | 3 | 0\n"
-            "1 | 5 | 5\n"
-            "2 | 3 | 6\n"
-            "3 | 2 | 6\n"
-            "4 | 7 | 28\n"
-            "5 | 6 | 30\n"
-            "6 | 5 | 30\n"
-            "7 | 4 | 28\n"
-            "8 | 2 | 16\n"
-            "9 | 2 | 18\n"
-            "10 | 1 | 10\n"
-        r"Total | \sum f = 40 | \sum fx = 177"
-        "\n\n"
-        r"\text{Mean score, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{177}{40} = 4.425 \approx 4.4\text{ (to 1 decimal place)}",
-        explanation: "",
+        r"\text{Mean score, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{177}{40} = 4.425 \approx 4.4 (to 1 decimal place)",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 5 (BECE 2012 Q4)\n"
-            "The marks scored by some students in a Mathematics test are as follows:\n"
-            "3, 3, 5, 6, 3, 4, 7, 8, 3, 4, 5, 4, 7, 4, 3, 7, 4, 6, 4, 8, 3, 4, 5, 4, 6, 3, 8, 4, 5, 6, 4, 5\n"
+        "Question 5: The marks scored by some students in a Mathematics test are as follows:\n"
+            "3, 3, 5, 6, 3, 4, 7, 8, 3, 4, 5, 4, 7, 4, 3, 7, 4, 6, 4, 8, 3, 4, 5, 4, 6, 3, 8, 4, 5, 6, 4, 5\n\n"
             "(a) Construct a frequency distribution table for the scores.\n"
             "(b) Using the table, find for the distribution, the:\n"
             "(i) mode;\n"
             "(ii) mean, correct to one decimal place;\n"
-            "(iii) median.",
+            "(iii) median.\n"
+            "(BECE 2012 Q4)",
         answer:
-        "Correct Answer:\n"
-            "(a) Frequency Distribution Table:\n\n"
-            "Marks (x) | Tally | Frequency (f) | fx\n"
-            "3 | ///// / | 6 | 18\n"
-            "4 | ///// //// | 9 | 36\n"
-            "5 | ///// | 5 | 25\n"
-            "6 | //// | 4 | 24\n"
-            "7 | /// | 3 | 21\n"
-            "8 | /// | 3 | 24\n"
-        r"Total |  | \sum f = 30 | \sum fx = 148"
-        "\n\n"
-            "(b) Statutory Calculations:\n\n"
+        "⦿ (a) Frequency Distribution Table:\n",
+        answerTableHeaders: ["Marks (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["3", "///// /", "6", "18"],
+          ["4", "///// ////", "9", "36"],
+          ["5", "/////", "5", "25"],
+          ["6", "////", "4", "24"],
+          ["7", "///", "3", "21"],
+          ["8", "///", "3", "24"],
+          ["Total", "", r"\sum f = 30", r"\sum fx = 148"],
+        ],
+        explanation:
+        "(b) Statutory Calculations:\n\n"
             "⦿ (i) Mode:\n"
             "From the table, the mode is 4.\n\n"
             "⦿ (ii) Mean:\n"
-        r"\text{Mean} = \frac{\sum fx}{\sum f} = \frac{148}{30} = 4.933 \approx 4.9\text{ (to 1 decimal place)}"
+        r"\text{Mean} = \frac{\sum fx}{\sum f} = \frac{148}{30} = 4.933 \approx 4.9 (to 1 decimal place)"
         "\n\n"
             "⦿ (iii) Median:\n"
         r"Total frequency is 30. Half of 30 is equal to 15. Therefore, the median is the average of the 15^{\text{th}} and 16^{\text{th}} marks."
         "\n\n"
             "Accumulating the frequencies from the top down shows both positions fall into the score category of 5.\n\n"
         r"\text{Median} = \frac{5 + 5}{2} = 5",
-        explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 6 (BECE 2017 Q4a)\n"
-            "The table below shows the ages of students admitted in a hospital.\n\n"
-            "Age (years) | 10 | 11 | 12 | 13 | 14 | 15\n"
-            "Number of students | 5 | 1 | 7 | 10 | 3 | 4\n\n"
+        "Question 6: The table below shows the ages of students admitted in a hospital.\n"
+            "Age (years)                    10  11  12  13  14  15\n"
+            "Number of students         5   1    7  10  3   4\n"
             "Use the information to answer the following questions:\n"
             "(i) What is the modal age?\n"
-            "(ii) Calculate, correct to two decimal places, the mean age of the students.",
-        answer:
-        "Correct Answer:\n"
-            "⦿ (i) Modal Age:\n"
-            "The modal age is 13, since it has the highest frequency of 10.\n\n"
-            "⦿ (ii) Mean Age Calculation:\n\n"
-            "Age (x) | Freq (f) | fx\n"
-            "10 | 5 | 50\n"
-            "11 | 1 | 11\n"
-            "12 | 7 | 84\n"
-            "13 | 10 | 130\n"
-            "14 | 3 | 42\n"
-            "15 | 4 | 60\n"
-        r"Total | \sum f = 30 | \sum fx = 377"
+            "(ii) Calculate, correct to two decimal places, the mean age of the students.\n"
+            "(BECE 2017 Q4a)",
+        answer: "Correct Answer: (i) Modal Age: \n"
+            "The modal age is 13, since it has the highest frequency of 10.\n"
+          "(ii) Mean Age Calculation:\n",
+        answerTableHeaders: ["Age (x)", "Freq (f)", "fx"],
+        answerTableData: [
+          ["10",  "5", "50"],
+          ["11", "1", "11"],
+          ["12", "7", "84"],
+          ["13", "10", "130"],
+          ["14", "3", "42"],
+          ["15", "4", "60"],
+          ["Total", r"\sum f = 30", r"\sum fx = 377"],
+        ],
+        explanation:
         "\n\n"
-        r"\text{Mean age} = \frac{\sum fx}{\sum f} = \frac{377}{30} = 12.5667 \approx 12.57\text{ years}",
-        explanation: "",
+        r"\text{Mean age} = \frac{\sum fx}{\sum f} = \frac{377}{30} = 12.5667 \approx 12.57 years",
       ),
 
       PracticeQuestion(
         scenario:
-        "Question 7 (BECE 2019 Q6)\n"
-            "The marks obtained by students in a class test were:\n"
-            "4, 8, 7, 6, 7, 2, 1, 7, 4, 7, 3, 7, 6, 4, 3, 7, 5, 2, 7, 2, 5, 4, 8, 3, 2\n"
+        "Question 7: The marks obtained by students in a class test were:\n"
+            "4, 8, 7, 6, 7, 2, 1, 7, 4, 7, 3, 7, 6, 4, 3, 7, 5, 2, 7, 2, 5, 4, 8, 3, 2\n\n"
             "(a) Construct a frequency distribution table for the data.\n"
             "(b) Find the:\n"
             "(i) mode of the distribution;\n"
             "(ii) median mark of the test;\n"
-            "(iii) mean mark.",
+            "(iii) mean mark.\n"
+            "(BECE 2019 Q6)",
         answer:
-        "Correct Answer:\n"
-            "(a) Frequency Distribution Table:\n\n"
-            "Marks (x) | Tally | Frequency (f) | fx\n"
-            "1 | / | 1 | 1\n"
-            "2 | //// | 4 | 8\n"
-            "3 | /// | 3 | 9\n"
-            "4 | //// | 4 | 16\n"
-            "5 | // | 2 | 10\n"
-            "6 | // | 2 | 12\n"
-            "7 | ///// // | 7 | 49\n"
-            "8 | // | 2 | 16\n"
-        r"Total |  | \sum f = 25 | \sum fx = 121"
-        "\n\n"
-            "(b) Statutory Calculations:\n\n"
+        "⦿ (a) Frequency Distribution Table:\n",
+        answerTableHeaders: ["Marks (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["1", "/", "1", "1"],
+          ["2", "////", "4", "8"],
+          ["3", "///", "3", "9"],
+          ["4", "////", "4", "16"],
+          ["5", "//", "2", "10"],
+          ["6", "//", "2", "12"],
+          ["7", "///// //", "7", "49"],
+          ["8", "//", "2", "16"],
+          ["Total", "", "25", "121"],
+        ],
+        explanation:
+        "(b) Statutory Calculations:\n\n"
             "⦿ (i) Mode:\n"
             "The mode is 7 since it has the highest frequency of 7.\n\n"
             "⦿ (ii) Median:\n"
-        r"\text{Median position} = \frac{1}{2}(\sum f + 1)^{\text{th}} = \frac{1}{2}(25 + 1)^{\text{th}} = 13^{\text{th}}\text{ position}"
+        r"\text{Median position} = \frac{1}{2}(\sum f + 1)^{\text{th}} = \frac{1}{2}(25 + 1)^{\text{th}} = 13^{\text{th}}position"
         "\n\n"
         r"Tracking cumulative frequencies down the table shows that the count reaches the 13^{\text{th}} position at a mark value of 5."
         "\n\n"
             "⦿ (iii) Mean mark:\n"
         r"\text{Mean mark } (\bar{x}) = \frac{\sum fx}{\sum f} = \frac{121}{25} = 4\frac{21}{25} = 4.84",
-        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS2 s4 ss2 - Chance or Probability": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: A bag contains 70 pencils out of which 15 are green and 30 blue.\n"
+            "(i) How many pencils of other colours are in the bag?\n"
+            "(ii) A pencil is selected from the bag at random. What is the probability that it is blue?\n"
+            "(BECE 2006 Q2b)",
+        answer:
+        "⦿ Step-by-Step Solution:\n",
+        explanation:
+        "⦿ Find the total number of green and blue pencils combined: Add the given values together.\n"
+            "Green pencils + Blue pencils = 15 + 30 = 45\n\n"
+            "⦿ Calculate pencils of other colours: Subtract the combined green and blue pencils from the grand total.\n"
+            "Other colours = 70 - 45 = 25 pencils\n\n"
+            "⦿ State the blue probability framework: Set up the general probability formula.\n"
+        r"P(blue pencil) = \frac{\text{Number of blue pencils}}{\text{Total number of pencils in bag}}"
+        "\n\n"
+            "⦿ Substitute and simplify: Insert the values and reduce the resulting fraction by a common factor of 10.\n"
+        r"P(blue pencil) = \frac{30}{70} = \frac{3}{7}",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: A crate of minerals containing ten bottles of Coca Cola and fourteen bottles of Fanta was given to some children for a birthday party. If a child chooses a drink at random from the crate, find the probability that it was Fanta.\n"
+            "(BECE 2016 Q5c)",
+        answer:
+        "⦿ Step-by-Step Solution:\n",
+        explanation:
+        "⦿ Identify item totals: Explicitly log the quantities provided in the question.\n"
+            "Number of Coca Cola bottles (n(Coca Cola)) = 10\n"
+            "Number of Fanta bottles (n(Fanta)) = 14\n\n"
+            "⦿ Determine the sample space: Sum all individual item pools to get the total outcome possibilities.\n"
+            "Total number of bottles = 10 + 14 = 24\n\n"
+            "⦿ Establish the probability equation: Build the structural fraction.\n"
+        r"P(a child chooses Fanta) = \frac{\text{Number of Fanta bottles}}{\text{Total number of bottles}}"
+        "\n\n"
+            "⦿ Reduce to lowest terms: Divide both numbers by their highest common divisor, which is 2.\n"
+        r"P(a child chooses Fanta) = \frac{14}{24} = \frac{7}{12}",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 3: In a class of 30 students, five wear glasses. If a student is selected at random from the class, what is the probability that the student does not wear glasses?\n"
+            "(BECE 2025 Q5b)",
+        answer:
+        "⦿ Step-by-Step Solution:\n",
+        explanation:
+        "⦿ Note known criteria: Write down the direct facts provided.\n"
+            "Total number of students = 30\n"
+            "Number of students who wear glasses = 5\n\n"
+            "⦿ Calculate the remaining subset: Subtract the group who wear glasses from the total class population to identify those who do not.\n"
+            "Number of students who do not wear glasses = 30 - 5 = 25\n\n"
+            "⦿ Formulate probability metric: Place the desired outcome group over the complete potential target size.\n"
+        r"P(student does not wear glasses) = \frac{\text{Number of students who do not wear glasses}}{\text{Total number of students}}"
+        "\n\n"
+            "⦿ Reduce final value: Simplify the fraction by dividing both parts by 5.\n"
+        r"P(student does not wear glasses) = \frac{25}{30} = \frac{5}{6}",
       ),
     ],
   ),
 
 
-  "Math JHS3 s1 ss1 - Number and Numeration Systems": PracticeModel(
+  "Math JHS3 s1 ss1 - Number and Numeration System": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "1.Question: Write 356.07 in standard form.",
+        scenario:
+        "Question 1: In an examination, 50 candidates sat for either Mathematics or English Language. 60% passed in Mathematics and 48% passed in English Language. If each candidate passed in at least one of the subjects, find the number of candidates who passed in:\n"
+            "(i) Mathematics\n"
+            "(ii) English Language\n"
+            "(BECE 2016 Q1a)",
         answer:
-        "**Correct Answer**\n\n ⦿ Standard form is structured as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer.\n"
-            "⦿ Shift the decimal point 2 places to the left to place it after the first non-zero digit (3).\n"
-            "⦿ Multiplying the resulting number 3.5607 by 10² preserves its exact original value.\n\n"
-            "356.07 = 3.5607 × 10²",
+        "⦿ Step 1: Write down the given totals and percentages.\n"
+            "The total number of candidates is n(U) = 50.\n"
+            "The percentage who passed Mathematics is 60%.\n"
+            "The percentage who passed English Language is 48%.\n\n"
+            "⦿ Step 2: Calculate the number of candidates for Mathematics.\n"
+            "Use the percentage formula:\n"
+        r"\text{Number of candidates} = \frac{60}{100} \times 50"
+        "\n\n"
+            "Simplify the calculation by dividing 50 into 100:\n"
+        r"\text{Number of candidates} = 6 \times 5 = 30"
+        "\n\n"
+            "Therefore, 30 candidates passed Mathematics.\n\n"
+            "⦿ Step 3: Calculate the number of candidates for English Language.\n"
+            "Use the percentage formula:\n"
+        r"\text{Number of candidates} = \frac{48}{100} \times 50"
+        "\n\n"
+            "Simplify the expression:\n"
+        r"\text{Number of candidates} = \frac{48}{2} = 24"
+        "\n\n"
+            "Therefore, 24 candidates passed English Language.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "2. Question: Which of the following numbers is the prime number greater than 23?",
+        "Question 2: Using the information calculated in Question 1, if each candidate passed in at least one of the subjects, calculate the number of candidates who passed in both subjects.\n"
+            "(BECE 2016 Q1c(i))",
         answer:
-        "**Correct Answer**\n\n⦿ A prime number is an integer greater than 1 with exactly two distinct factors: 1 and the number itself.\n"
-            "⦿ 17: Prime, but less than 23.\n"
-            "⦿ 24: Even and composite (divisible by 2, 3, etc.).\n"
-            "⦿ 25: Ends in 5 and composite (divisible by 5).\n"
-            "⦿ 29: Only has factors 1 and 29. Since 29 is greater than 23, it is the correct answer.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "3.Question: Write 4687.02 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Locate the first non-zero digit, which is 4.\n"
-            "⦿ Move the decimal point 3 positions to the left so that it rests between 4 and 6.\n"
-            "⦿ Multiply the new decimal by 10³ to represent the three-place shift.\n\n"
-            "4687.02 = 4.68702 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "4.Question: Correct 0.02751 to three decimal places.",
-        answer:
-        "**Correct Answer**\n\n⦿ Count to the third digit after the decimal point (7).\n"
-            "⦿ Examine the critical target digit to its right in the fourth decimal place (5).\n"
-            "⦿ Since this digit is 5 or greater, round the third decimal place digit up by adding 1 (7 + 1 = 8).\n"
-            "⦿ This results in 0.028.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "5. Question: Write 1342 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ The whole number 1342 has an implicit decimal point at the end: 1342.0.\n"
-            "⦿ Shift the decimal point 3 places to the left to place it after the leading digit.\n"
-            "⦿ Multiply the resulting value by 10³ to maintain numeric equivalence.\n\n"
-            "1342 = 1.342 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "6. Question: Express 2345 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Identify the implicit decimal point at the unit's right: 2345.0.\n"
-            "⦿ Shift the decimal point 3 places to the left to obtain 2.345.\n"
-            "⦿ Balance the shift by multiplying by 10³.\n\n"
-            "2345 = 2.345 × 10³",
+        "⦿ Step 1: Define a variable for the unknown intersection.\n"
+            "Let the number of candidates who passed both subjects be represented by x.\n\n"
+            "⦿ Step 2: Establish the expressions for the individual regions.\n"
+            "Candidates who passed Mathematics only is given by 30 - x.\n"
+            "Candidates who passed English Language only is given by 24 - x.\n\n"
+            "⦿ Step 3: Formulate a linear equation using the total count.\n"
+            "Since every candidate passed at least one subject, add the distinct regions together to equal the universal total of 50:\n"
+            "(30 - x) + x + (24 - x) = 50\n\n"
+            "⦿ Step 4: Solve the algebraic equation step-by-step.\n"
+            "Combine the constant values and clean up the variable terms:\n"
+            "30 + 24 - x = 50\n"
+            "54 - x = 50\n\n"
+            "Group the constants on the right-hand side:\n"
+            "-x = 50 - 54\n"
+            "-x = -4\n"
+            "x = 4\n\n"
+            "Therefore, 4 candidates passed both subjects.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "7 Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
+        "Question 3: Using the information calculated above, find the number of candidates who passed Mathematics only.\n"
+            "(BECE 2016 Q1c(ii))",
         answer:
-        "**Correct Answer**\n\n⦿ Identify the digit in the thousands position (5).\n"
-            "⦿ Examine the adjacent digit to its right in the hundreds place (6).\n"
-            "⦿ Because 6 is greater than or equal to 5, round the thousands place up by 1 (5 + 1 = 6) and replace all subsequent digits with zero.\n"
-            "⦿ This gives GH₵36,000.00.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "8. Question: Write 83000 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Begin at the implicit decimal point (83000.0) and shift it 4 places to the left.\n"
-            "⦿ This positions the decimal point to produce 8.3.\n"
-            "⦿ Multiply by 10⁴ to account for the four-digit shift.\n\n"
-            "83000 = 8.3 × 10⁴",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "9.Question: Which of the following is not a prime number?",
-        answer: "**Correct Answer**\n\n⦿ Review the factors of each option:\n"
-            "⦿ 3, 5, 7: Each of these numbers only has two factors (1 and itself). They are prime.\n"
-            "⦿ 9: Has more than two factors (1, 3, and 9). Therefore, 9 is a composite number and is not prime.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "10.Question: Express 2474.5 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Shift the visible decimal 3 positions to the left so it sits immediately behind the first digit (2).\n"
-            "⦿ This shift corresponds to a positive power factor of 10³.\n"
-            "2474.5 = 2.4745 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "11.Question: Write 78910 correct to the nearest thousand.",
-        answer:
-        "**Correct Answer**\n\n⦿ Focus on the thousands digit (8) and evaluate the hundreds digit directly to its right (9).\n"
-            "⦿ Since 9 is 5 or greater, round up by adding 1 to the thousands place (8 + 1 = 9).\n"
-            "⦿ Set the hundreds, tens, and units places to zero to yield 79,000.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "12.Question: Express 962 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Starting with the implicit decimal point at 962.0, shift it 2 places to the left.\n"
-            "⦿ The resulting expression is scaled with an exponent value of 2.\n"
-            "962 = 9.62 × 10²",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "13. Question: Round 8921465 to the nearest hundred.",
-        answer: "**Correct Answer**\n\n⦿ Locate the hundreds place digit (4).\n"
-            "⦿ Look at the tens digit directly to its right (6).\n"
-            "⦿ Since 6 ≥ 5, round up by adding 1 to the hundreds place (4 + 1 = 5).\n"
-            "⦿ Replace all subsequent digits with zero to obtain 8,921,500.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "14. Question: Write the number 34.1 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Move the decimal point 1 place to the left to get a value between 1 and 10.\n"
-            "⦿ This gives 3.41, which must be multiplied by 10¹ (equivalent to 10).\n"
-            "34.1 = 3.41 × 10¹",
+        "⦿ Step 1: Identify the formula for the single-subject region.\n"
+            "The formula to find the number of students who passed Mathematics only is:\n"
+        r"\text{Mathematics only} = n(\text{Mathematics}) - n(Both Subjects)"
+        "\n\n"
+            "⦿ Step 2: Substitute the known numerical values.\n"
+            "From our previous answers, n(Mathematics) = 30 and the overlap value is x = 4.\n"
+        r"\text{Mathematics only} = 30 - 4"
+        "\n"
+        r"\text{Mathematics only} = 26"
+        "\n\n"
+            "Therefore, 26 candidates passed Mathematics only.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "15.Question: Which of the following is an even prime number?",
+        "Question 4: P = {factors of 30} and Q = {multiples of 5 less than 40}. Find P ∩ Q.\n"
+            "(BECE 2014 Q1a)",
         answer:
-        "**Correct Answer**\n\n⦿ A prime number is a positive integer with exactly two factors (1 and itself).\n"
-            "⦿ All even numbers greater than 2 are divisible by 2, meaning they have at least three factors (1, 2, and themselves) and are composite.\n"
-            "⦿ Therefore, the number 2 is the only even prime number in existence.",
+        "⦿ Step 1: List the full member elements of set P.\n"
+            "Find all whole numbers that divide perfectly into 30:\n"
+            "P = {1, 2, 3, 5, 6, 10, 15, 30}\n\n"
+            "⦿ Step 2: List the full member elements of set Q.\n"
+            "Find the positive numbers obtained by multiplying 5, making sure they stay strictly below 40:\n"
+            "Q = {5, 10, 15, 20, 25, 30, 35}\n\n"
+            "⦿ Step 3: Identify the common elements to determine the intersection.\n"
+            "Compare both listed elements and select those that match across both sets:\n"
+            "The matching numbers are 5, 10, 15, and 30.\n\n"
+            "Combine these matching members into a final set expression:\n"
+            "P ∩ Q = {5, 10, 15, 30}",
         explanation: "",
       ),
-      PracticeQuestion(
-        scenario: "16. Question: Write 2340000 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Shift the implicit decimal point from the end of the number 6 places to the left to reach 2.34.\n"
-            "⦿ This corresponds directly to scaling the number by a factor of 10⁶.\n"
-            "2340000 = 2.34 × 10⁶",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "17.Question: Express 4037 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Move the implicit decimal point at 4037.0 exactly 3 places to the left.\n"
-            "⦿ This results in 4.037 scaled by 10³.\n"
-            "4037 = 4.037 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "18.Question: Write 3560 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Shift the implicit decimal point 3 places to the left to create 3.56.\n"
-            "⦿ The scale factor for this shift is represented by 10³.\n"
-            "3560 = 3.56 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "19.Question: Which of the following numbers is an integer?",
-        answer:
-        "**Correct Answer**\n\n⦿ An integer is any positive or negative whole number, including zero. It cannot contain fractional or decimal parts.\n"
-            "⦿ The values -5/4 and -2/3 are fractions, and 0.5 is a decimal.\n"
-            "⦿ The value -1 is a whole negative number, which makes it a member of the set of integers.",
-        explanation: "",
-      ),
+
       PracticeQuestion(
         scenario:
-        "20. Question: Which of the following is arranged in ascending order?",
+        "Question 5: Given that ξ = {1, 2, 3, 4, …, 18}, A = {prime numbers}, and B = {odd numbers greater than 3}, list the members of set A and set B.\n"
+            "(BECE 2003 Q1a)",
         answer:
-        "**Correct Answer**\n\n⦿ Ascending order requires sorting numbers from the smallest value to the largest.\n"
-            "⦿ Compare the values in option A: -10, -7, 4.2, 9.\n"
-            "⦿ On a number line, -10 is further left than -7, so -10 < -7.\n"
-            "⦿ Any negative number is smaller than a positive number, so -7 < 4.2.\n"
-            "⦿ Finally, 4.2 < 9. Thus, option A is correctly sorted.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "21.Question: Express 134.78 correct to the nearest tenth.",
-        answer:
-        "**Correct Answer**\n\n⦿ Locate the tenths place digit, which is the first position after the decimal point (7).\n"
-            "⦿ Look at the hundredths digit to its right (8).\n"
-            "⦿ Since 8 ≥ 5, round up by adding 1 to the tenths place (7 + 1 = 8).\n"
-            "⦿ Drop all trailing digits to get 134.8.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "22. Question: Express 625.13 in standard form.",
-        answer:
-        "**Correct Answer**\n\n⦿ Shift the decimal point 2 places to the left to secure a leading digit between 1 and 10.\n"
-            "⦿ This produces 6.2513, which must be multiplied by 10².\n\n"
-            "625.13 = 6.2513 × 10²",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "23. Question: Which of the following is the largest set?",
-        answer:
-        "**Correct Answer**\n\n⦿ Let us examine the inclusion relationships of the sets of numbers:\n"
-            "⦿ The set of Natural Numbers ({1, 2, 3, ...}) and Whole Numbers ({0, 1, 2, ...}) are fully nested within the set of Integers.\n"
-            "⦿ The set of Composite numbers is a small subset of the Natural Numbers.\n"
-            "⦿ Because the set of Integers includes all positive whole numbers, negative whole numbers, and zero, it is the largest set among the choices.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "24. Question: Correct 48,947.2547 to the nearest hundred.",
-        answer:
-        "**Correct Answer**\n\n⦿ Identify the digit in the hundreds place (9).\n"
-            "⦿ Examine the digit in the tens place immediately to its right (4).\n"
-            "⦿ Since 4 < 5, we round down. This means the hundreds digit remains 9, and the remaining whole number places are replaced with zero.\n"
-            "⦿ Mathematically, this yields 48,900.\n"
-            "⦿ Note on exam key: The book answer key lists Option D (49,000), which corresponds to rounding up to the nearest thousand instead of the nearest hundred, or carrying over a round-up.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "25. Question: Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.",
-        answer:
-        "**Correct Answer**\n\n⦿ Order the given values {4, 9, -10, 7, 2} from left to right on a number line.\n"
-            "⦿ The negative integer -10 is the smallest number.\n"
-            "⦿ Arranging the remaining positive integers gives 2, 4, 7, 9.\n"
-            "⦿ The complete ascending sequence is -10, 2, 4, 7, 9.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "26.Question: Which of the following is not an integer?",
-        answer:
-        "**Correct Answer**\n\n⦿ Integers must be clean whole units with no fractional or decimal parts.\n"
-            "⦿ The values 1, -5, and 0 are all whole units.\n"
-            "⦿ The value 0.5 is a decimal representing a half-fraction, so it is not an integer.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "27. Question: Which of the following numbers is the largest?",
-        answer:
-        "**Correct Answer**\n\n⦿ When comparing negative numbers, the value with the smallest absolute value lies closest to zero on the number line.\n"
-            "⦿ Among -70, -50, -3, and -2, the number -2 is furthest to the right.\n"
-            "⦿ Thus, -2 has the largest value.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "28. Question: Find the largest value of these numbers: -1, 0, -6, -3.",
-        answer:
-        "**Correct Answer**\n\n⦿ Any value of zero or positive integers is greater than any negative integer.\n"
-            "⦿ Because all other options (-1, -6, -3) lie to the left of zero on the number line, 0 is the largest of these numbers.",
+        "⦿ Step 1: Evaluate the absolute limits set by the universal boundary.\n"
+            "All items must come from the inclusive scope starting at 1 up to a final limit of 18.\n\n"
+            "⦿ Step 2: Filter out the prime numbers for set A.\n"
+            "Identify elements that have exactly two distinct factors (itself and 1). Remember that 1 is not a prime number.\n"
+            "A = {2, 3, 5, 7, 11, 13, 17}\n\n"
+            "⦿ Step 3: Filter out the odd numbers for set B.\n"
+            "Identify numbers not divisible by 2 that are strictly greater than 3, staying within the upper limit of 18.\n"
+            "B = {5, 7, 9, 11, 13, 15, 17}",
         explanation: "",
       ),
     ],
@@ -3511,111 +3435,68 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "1.Question: A ribbon 3m long is to be cut into strips of length 14cm.     (BECE 2002 Q1b)\n"
-            "(a) How many strips of length 14cm were cut?\n"
-            "(b) What length of ribbon remained?",
+        "Question 1: Copy and complete the magic square so that the sum of numbers in each row or column or diagonal is 18.\n"
+            "(BECE 2013 Q5b)",
         answer:
-        "**Correct Answer**\n\n ⦿ Step 1: Convert the total length of the ribbon into centimetres.\nTo compare the measurements easily, "
-            "we must work with the same units. Since 1m = 100cm, we convert 3m as follows:\n"
-            "Total length of ribbon = 3 x 100cm = 300cm\n\n"
-            "⦿ Step 2: Determine the number of strips of length 14cm that can be cut.\nWe divide the total length of the ribbon in centimetres (300cm) by the length of one strip (14cm):\n\n"
-        r"Number of strips = \frac{300}{14}"
-        "\nLet us perform the division: 300 ÷ 14 = 21 with a remainder of 6\n"
-            "Therefore, the number of complete strips cut is 21 strips.\n\n"
-            "⦿ Step 3: Determine the remaining length of the ribbon.\n"
-            "The remainder from our division represents the leftover piece of ribbon that is too short to make another full 14cm strip:\n"
-            "Leftover remainder = 6\n"
-            "Therefore, the length of ribbon that remained is 6 cm.",
+        "⦿ Step 1: Complete the bottom row\n"
+            "The numbers given in the bottom row are 7 and 8. Let the third missing number in this row be x.\n"
+            "Set up the addition equation: 7 + 8 + x = 18\n"
+            "Simplify the known values: 15 + x = 18\n"
+            "Isolate x: x = 18 - 15 = 3\n"
+            "The complete bottom row values are 7, 8, 3.\n\n"
+            "⦿ Step 2: Verify the middle column\n"
+            "The vertical column contains 4, 6, and 8.\n"
+            "Check the sum: 4 + 6 + 8 = 18. This confirms the target magic sum is consistent across operations.\n\n"
+            "⦿ Step 3: Complete the principal diagonal\n"
+            "Follow the diagonal from the bottom-left to the top-right corner. The numbers along this path are 7, 6, and a missing top-right cell value y.\n"
+            "Set up the addition equation: 7 + 6 + y = 18\n"
+            "Simplify the known values: 13 + y = 18\n"
+            "Isolate y: y = 18 - 13 = 5\n"
+            "The top-right corner cell value is 5.\n\n"
+            "⦿ Step 4: Complete the top row\n"
+            "The horizontal path across the top consists of a missing top-left value z, followed by 4 and 5.\n"
+            "Set up the addition equation: z + 4 + 5 = 18\n"
+            "Simplify the known values: z + 9 = 18\n"
+            "Isolate z: z = 18 - 9 = 9\n"
+            "The top-left corner cell value is 9.\n\n"
+            "⦿ Step 5: Complete the left column\n"
+            "The vertical column on the left contains 9, a missing middle cell value w, and 7.\n"
+            "Set up the addition equation: 9 + w + 7 = 18\n"
+            "Simplify the known values: 16 + w = 18\n"
+            "Isolate w: w = 18 - 16 = 2\n"
+            "The middle-left cell value is 2.\n\n"
+            "⦿ Step 6: Complete the middle row\n"
+            "The remaining horizontal path contains 2, 6, and a final missing cell value v.\n"
+            "Set up the addition equation: 2 + 6 + v = 18\n"
+            "Simplify the known values: 8 + v = 18\n"
+            "Isolate v: v = 18 - 8 = 10\n"
+            "The middle-right cell value is 10.\n\n"
+            "Completed Magic Square Grid:\n",
+        answerTableHeaders: ["", "", ""],
+        answerTableData: [
+          ["9", "4", "5"],
+          ["2", "6", "10"],
+          ["7", "8", "3"],
+        ],
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "2. Question: A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?    (BECE 2002 Q1c)",
+        "Question 2: A doctor treated 2,000 patients over a period of time. If he worked for 5 hours a day and spent 15 minutes on each patient, how many days did the doctor spend to treat all the patients?\n"
+            "(BECE 2016 Q3a)",
         answer:
-        "**Correct Answer**\n\n⦿ Step 1: Calculate the total number of sweets shared.\n"
-            "We are told that 8 children received 30 sweets each. To find the total pool of sweets, we multiply the number of children by the amount each child received:\n"
-            "Total number of sweets = 8 x 30 = 240 sweets\n\n"
-            "⦿ Step 2: Calculate how many sweets each child receives when shared among 12 children.\n"
-            "Now, the same pool of 240 sweets is shared equally among a new total of 12 children. We divide the total sweets by the new number of children:\n"
-        r"Sweets received per child = \frac{240}{12}"
-        "\nSweets received per child = 20 sweets"
-            "\nEach child will receive 20 sweets.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "3.Question: Find the Least Common Multiple (L.C.M) of 9, 18 and 16.      (BECE 2002 Q2b)",
-        answer: "**Correct Answer**\n\n"
-            "⦿ Step 1: Write down the prime factorisation for each number.\n"
-            "For 9:               9 = 3 x 3 = 3^2\n"
-            "For 18:              18 = 2 x 3 x 3 = 2 x 3^2\n"
-            "For 16:              16 = 2 x 2 x 2 x 2 = 2^4\n\n"
-            "⦿ Step 2: Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
-            "The prime factor 2 appears. The highest power of 2 is 2^4 (from 16).\n"
-            "The prime factor 3 appears. The highest power of 3 is 3^2 (from 9 and 18).\n\n"
-            "⦿ Step 3: Multiply these highest powers together to find the L.C.M.\n"
-            "L.C.M = 2^4 x 3^2\n"
-            "L.C.M = 16 x 9\n"
-            "L.C.M = 144",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "4.Question: A man had three GH₵50.00, seven GH₵20.00 and five GH₵10.00 notes in his pocket. He bought a bicycle for GH₵150.00 and two mobile phones at GH₵80.00 each. How many GH₵20.00 and GH₵10.00 notes did he have left?       (BECE 2013 Q5a)",
-        answer:
-        "**Correct Answer**\n\n⦿ Step 1: Calculate the total amount of money the man had in his pocket.\n"
-            "We find the value of each set of notes and sum them up:\n"
-            "Three GH₵50.00 notes:3 x GH₵50.00 = GH₵150.00\n"
-            "Seven GH₵20.00 notes:7 x GH₵20.00 = GH₵140.00\n"
-            "Five GH₵10.00 notes:5 x GH₵10.00 = GH₵50.00\n"
-            "Total amount in pocket = GH₵150.00 + GH₵140.00 + GH₵50.00 = GH₵340.00\n\n"
-            "⦿ Step 2: Calculate the total cost of the purchases.\n"
-            "One bicycle:   Cost = GH₵150.00\n"
-            "Two mobile phones at GH₵80.00 each:    Cost = 2 x GH₵80.00 = GH₵160.00\n"
-            "Total spending =     GH₵150.00 + GH₵160.00 = GH₵310.00\n\n"
-            "⦿ Step 3: Calculate the cash left over.\n"
-            "Remaining cash = Total amount in pocket - Total spending\n"
-            "Remaining cash = GH₵340.00 - GH₵310.00 = GH₵30.00\n\n"
-            "⦿ Step 4: Determine the combination of notes left.\n"
-            "     1. The bicycle cost exactly GH₵150.00. The man can pay for this using his three GH₵50.00 notes (3 x GH₵50.00 = GH₵150.00).\n"
-            "     2.The two mobile phones cost GH₵160.00. To pay this, he must use his remaining notes:He uses all seven of his GH₵20.00 notes:\n"
-            "       7 x GH₵20.00 = GH₵140.00\n"
-            "He still needs to pay: GH₵160.00 - GH₵140.00 = GH₵20.00\n"
-            "He covers this remaining GH₵20.00 by using two of his GH₵10.00 notes (2 x GH₵10.00 = GH₵20.00).\n\n"
-            "⦿ Step 5: Count the final notes left in his pocket.\n"
-            "⦁ He spent all 7 of his GH₵20.00 notes.\n"
-            "⦁ He spent 2 of his 5 GH₵10.00 notes, leaving 3 notes.\n"
-            "⦁ Therefore, the man was left with zero GH₵20.00 notes and three GH₵10.00 notes (which equals the remaining GH₵30.00).",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "5. Question: Find the sum of all the factors of 24.        (BECE 2013 Q5c)",
-        answer: "**Correct Answer**\n\n⦿ Step 1: Find all the factors of 24.\n"
-            "The factors of 24 are the whole numbers that divide into 24 exactly without leaving a remainder:\n"
-            "Factors = {1, 2, 3, 4, 6, 8, 12, 24}\n\n"
-            "⦿ Step 2: Add all these factors together.\n"
-            "Sum = 1 + 2 + 3 + 4 + 6 + 8 + 12 + 24\n"
-            "Sum = 60\n"
-            "The sum of all the factors of 24 is 60.\n",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "6. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
-        answer:
-        "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
-            "For 3:  3 = 3^1\n"
-            "For 5:5 = 5^1\n"
-            "For 9:9 = 3 x 3 = 3^2\n\n"
-            "⦿ Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
-            "    ⦁ The prime factor 3 appears. The highest power is 3^2 (from 9).\n"
-            "    ⦁ The prime factor 5 appears. The highest power is 5^1 (from 5).\n\n"
-            "⦿ Step 3: Multiply these highest powers together to find the L.C.M.\n"
-            "L.C.M = 3^2 x 5^1\n"
-            "L.C.M = 9 x 5\n"
-            "L.C.M = 45\n"
-            "The Least Common Multiple of 3, 5, and 9 is 45.",
+        "⦿ Step 1: Convert the daily working hours into minutes\n"
+            "The doctor works a shift of 5 hours per day. Since 1 hour is equivalent to 60 minutes, calculate the total daily minutes available:\n"
+            "Daily working time = 5 hours × 60 minutes/hour = 300 minutes\n\n"
+            "⦿ Step 2: Find the total number of patients treated in a single day\n"
+            "The doctor dedicates exactly 15 minutes to each individual patient. Divide the total daily working minutes by the time spent per patient:\n"
+        r"\text{Patients treated per day} = \frac{300 \text{ minutes}}{15 \text{ minutes/patient}} = 20 \text{ patients}"
+        "\n\n"
+            "⦿ Step 3: Calculate the total number of days required to complete all treatments\n"
+            "The total workload consists of 2,000 patients. Divide the total number of patients by the daily treatment rate to determine the duration:\n"
+        r"\text{Total days required} = \frac{2,000 \text{ total patients}}{20 \text{ patients/day}} = 100 \text{ days}"
+        "\n\n"
+            "Therefore, the doctor spent exactly 100 days to complete treatments for all the patients.",
         explanation: "",
       ),
     ],
@@ -3625,486 +3506,677 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-        "Question 1: (a) If a shop sells a pencil at ₵500.00 and a pen at ₵2,000.00:\n\n(i) If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?\n\n(ii) The price of a pencil is increased by 20% and a pen by 10%. Find how much she will pay for 10 pencils and 8 pens.\n(BECE 2002B Q2)",
-        answer: "⦿ (i) Total cost for original quantities:\n"
-            "⦁ Find the total spent on pencils: Multiply 8 pencils by the individual cost of ₵500.00.\n"
-            "Cost of pencils = 8 × ₵500.00 = ₵4,000.00\n\n"
-            "⦁ Find the total spent on pens: Multiply 5 pens by the individual cost of ₵2,000.00.\n"
-            "Cost of pens = 5 × ₵2,000.00 = ₵10,000.00\n\n"
-            "⦁ Calculate the final sum:\n"
-            "Total Paid = ₵4,000.00 + ₵10,000.00 = ₵14,000.00\n\n"
-            "⦿ (ii) Total cost after price increases:\n"
-            "⦁ Find the increased price of a pencil: Add 20% of the original price to itself.\n\n"
-        r"Increase amount = \frac{20}{100} × ₵500.00 = ₵100.00"
-        "\nNew price per pencil = ₵500.00 + ₵100.00 = ₵600.00\n\n"
-            "⦁ Find the increased price of a pen: Add 10% of the original price to itself.\n\n"
-        r"Increase amount = \frac{10}{100} × ₵2,000.00 = ₵200.00"
-        "\nNew price per pen = ₵2,000.00 + ₵200.00 = ₵2,200.00\n\n"
-            "⦁ Calculate the new total cost for 10 pencils and 8 pens:\n\n"
-            "Cost of 10 pencils = 10 × ₵600.00 = ₵6,000.00\n"
-            "Cost of 8 pens = 8 × ₵2,200.00 = ₵17,600.00\n"
-            "New Total Paid = ₵6,000.00 + ₵17,600.00 = ₵23,600.00",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.     (BECE 2006 Q6b(i))",
-        answer: "⦿ Convert the mixed numbers to improper fractions:\n"
-        r"5\frac{1}{15} = \frac{(5 x 15) + 1}{15} = \frac{76}{15}"
-        "\n\n"
-        r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}"
-        "\n\n"
-        r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}"
-        "\n\n"
-            "⦿ Express the standard equation:\n"
-        r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}"
-        "\n"
-            "⦿ Find the Lowest Common Multiple (LCM):\n"
-            "      The LCM of the denominators 15, 3, and 12 is 60.\n\n"
-            "⦿ Combine fractions under a single denominator:\n\n"
-        r"\frac{76(4) − 8(20) + 17(5)}{60}"
-        "\n\n"
-        r"= \frac{304 − 160 + 85}{60}"
-        "\n\n"
-        r"= \frac{144 + 85}{60} = \frac{229}{60}"
-        "\n\n"
-            "⦿ Convert back to a mixed fraction:\n"
-        r"\frac{229}{60} = 3\frac{49}{60}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 3: Simplify 7\frac{1}{3} − 4\frac{5}{6} + 2\frac{3}{8}.       (BECE 2008 Q6b)",
-        answer: "⦿ Convert the mixed fractions into improper fractions:\n\n"
-        r"7\frac{1}{3} = \frac{22}{3}, 4\frac{5}{6} = \frac{29}{6}, 2\frac{3}{8} = \frac{19}{8}"
-        "\n\n"
-            "⦿ Write down the expression:\n\n"
-        r"\frac{22}{3} − \frac{29}{6} + \frac{19}{8}"
-        "\n\n"
-            "⦿ Determine the LCM:\n"
-            "      The LCM of 3, 6, and 8 is 24.\n\n"
-            "⦿ Adjust and simplify the numerators:\n\n"
-        r"\frac{22(8) − 29(4) + 19(3)}{24}"
-        "\n\n"
-        r"= \frac{176 − 116 + 57}{24}"
-        "\n\n"
-        r"= \frac{60 + 57}{24} = \frac{117}{24}"
-        "\n\n"
-            "⦿ Reduce the fraction and convert to a mixed number:\n"
-            "⦿ Divide numerator and denominator by 3:\n"
-        r"\frac{(117 ÷ 3)}{(24 ÷ 3)} = \frac{39}{8}"
-        "\n"
-            "⦿ Convert to mixed format:\n"
-        r"\frac{39}{8} = 4\frac{7}{8}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
-        answer: "⦿ Eliminate trailing zeros to simplify the fraction:\n\n"
-        r"\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}"
-        "\n\n"
-            "⦿ Simplify the factors of 12 and 8 by dividing by 4:\n\n"
-        r"\frac{(3 x 1260)}{2}"
-        "\n\n"
-            "⦿ Complete the division of 1260 by 2:\n\n"
-            "3 x 630 = 1890\n\n"
-            "⦿ Convert the product into standard scientific notation:\n\n"
-            "1890 = 1.89 x 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 5: An amount of GH₵4,200.00 was shared between Aba and Kwame. If Aba had \frac{5}{7} of the amount:"
-        "\n(i) How much did Kwame receive?\n"
-            "(ii) What percentage of Aba's share did Kwame receive?(BECE 2012 Q1b)",
-        answer: "⦿ (i) Calculate Kwame's portion:\n"
-            "⦁ Find Aba's share of the total:\n\n"
-        r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00"
-        "\n\n"
-            "⦿ Deduct Aba's share from the total amount to find Kwame's share:\n\n"
-            "Kwame’s Share = GH₵4,200.00 − GH₵3,000.00 = GH₵1,200.00\n\n"
-            "⦿ (ii) Find Kwame's share as a percentage of Aba's share:\n"
-            "⦿ Construct the percentage fraction:\n\n"
-        r"Percentage = \frac{Kwame’s share}{Aba’s share} x 100%"
-        "\n\n"
-        r"Percentage = \frac{1200}{3000} x 100% = \frac{12}{30} x 100% = \frac{2}{5} x 100% = 40%",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 6: Arrange \frac{8}{9}, \frac{2}{18}, \frac{10}{16} in ascending order of magnitude.     (BECE 2012 Q6(a)(ii))",
+        "Question 1: Simplify "
+        r"\frac{1}{2}\text{ of }6\frac{1}{4} + (2\frac{4}{5} - 1\frac{1}{3})"
+        "\n(BECE 2000 Q1a)",
         answer:
-        "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
-            "⦿ The LCM of 9, 18, and 16 is 144.\n\n"
-            "⦿ Convert each fraction to have the common denominator of 144:\n"
-        r"⦁ Convert \frac{8}{9}:"
+        "⦿ Step 1: Convert mixed fractions to improper fractions and solve the 'of' operation\n"
+        r"\frac{1}{2} \times \frac{25}{4} + (\frac{14}{5} - \frac{4}{3})"
         "\n\n"
-        r"\frac{8 x 16}{9 x 16} = \frac{128}{144}"
+        r"= \frac{25}{8} + (\frac{14}{5} - \frac{4}{3})"
         "\n\n"
-        r"⦿ Convert \frac{2}{18}:"
+            "⦿ Step 2: Solve the expressions inside the grouping parentheses\n"
+            "Find a common denominator for 5 and 3, which is 15:\n"
+        r"= \frac{25}{8} + (\frac{42-20}{15})"
         "\n\n"
-        r"\frac{2 x 8}{18 x 8} = \frac{16}{144}"
+        r"= \frac{25}{8} + \frac{22}{15}"
         "\n\n"
-        r"⦿ Convert \frac{10}{16}:"
-        '\n\n'
-        r"\frac{10 x 9}{16 x 9} = \frac{90}{144}"
-        "\n\n"
-            "⦿ Compare the numerators to order them from smallest to largest:\n\n"
-        r"16 < 90 < 128 ⇒ \frac{16}{144} < \frac{90}{144} < \frac{128}{144}"
-        "\n\n"
-            "⦿ Rewrite with original fractions:\n\n"
-        r"\frac{2}{18}, \frac{10}{16}, \frac{8}{9}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 7: Simplify 6(3\frac{5}{6} − 1\frac{1}{4}).       (BECE 2013 Q5a)",
-        answer:
-        "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
-        r"3\frac{5}{6} = \frac{23}{6}, 1\frac{1}{4} = \frac{5}{4}"
-        "\n\n"
-            "⦿ Find a common denominator of 12 to subtract the fractions:\n\n"
-        r"\frac{23}{6} − \frac{5}{4} = \frac{23(2) − 5(3)}{12} = \frac{(46 − 15)}{12} = \frac{31}{12}"
-        "\n\n"
-            "⦿ Multiply the resulting fraction by the coefficient of 6 outside the parentheses:\n\n"
-        r"Result = 6 x \frac{31}{12} = \frac{31}{2}"
-        "\n\n"
-            "⦿ Convert the final improper fraction to a mixed number:\n\n"
-        r"\frac{31}{2} = 15\frac{1}{2}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 8:A passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
-        answer: "⦿ (i) Calculate the difference in allowed weight:\n"
-            "⦿ Deduct the maximum limit of 20 kg from the actual accumulated weight of 22.0 kg:\n\n"
-            "Excess weight = 22.0 kg − 20 kg = 2.0 kg\n\n"
-            "⦿ (ii) Calculate the percentage value:\n"
-            "⦿ Set up the excess weight over the total permitted weight limit:\n\n"
-        r"Percentage excess = \frac{2.0}{20} x 100% = \frac{1}{10} x 100% = 10%",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 9:(a) Express 250% as a fraction in its lowest term.\n"
-        r"(b) Simplify: 2 + (\frac{15}{64} ÷ \frac{6}{7}).       (BECE 2019 Q4a and Q4c)",
-        answer: "⦿ (a) Convert 250% to its simplest fraction form:\n"
-            "     ⦁ Write the percentage out of 100:\n\n"
-            "250/100\n\n"
-            "⦿ Simplify by dividing both parts by their greatest common factor (50):\n\n"
-        r"\frac{250 ÷ 50)}{100 ÷ 50} = \frac{5}{2} = 2\frac{1}{2}"
-        "\n\n"
-            "⦿ (b) Process the bracket operation first:\n"
-            "     ⦁ To divide by a fraction, multiply by its reciprocal:\n\n"
-        r"\frac{15}{64} ÷ \frac{6}{7} = \frac{15}{64} x \frac{7}{6}"
-        "\n\n"
-            "⦿ Simplify the fraction multiplication by dividing 15 and 6 by 3:\n\n"
-        r"\frac{5}{64} x \frac{7}{2} = \frac{35}{128}"
-        "\n\n"
-            "⦿ Add the integer 2 to the fraction:\n\n"
-        r"2 + \frac{35}{128} = 2\frac{35}{128}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 10:Express \frac{13}{15} − \frac{7}{10} as a percentage.       (BECE 2020 Q3a)",
-        answer: "⦿ Simplify the subtraction of fractions:\n"
-            "     ⦁ The Lowest Common Multiple of 15 and 10 is 30.\n"
-            "⦿ Standardise the numerators:\n\n"
-        r"\frac{13}{15} − \frac{7}{10} = \frac{13(2) − 7(3)}{30} = \frac{26 − 21}{30} = \frac{5}{30}"
-        "\n\n"
-            "⦿ Simplify the fraction:\n\n"
-        r"\frac{5}{30} = \frac{1}{6}"
-        "\n\n"
-            "⦿ Convert the fraction to a percentage:\n"
-        r"⦿ Multiply \frac{1}{6} by 100%:"
-        "\n\n"
-        r"\frac{1}{6} x 100% = \frac{100}{6}% = \frac{50}{3}% = 16\frac{2}{3}% (or 16.67%)",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 11: Antwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?(BECE 2021 Q4a)",
-        answer: "⦿ Identify the quantity of ripe mangoes:\n"
-            "⦿ Subtract the 7 unripe mangoes from the initial total of 25 mangoes:\n\n"
-            "Ripe mangoes = 25 − 7 = 18\n\n"
-            "⦿ Calculate the percentage representation:\n"
-            "⦿ Create the proportion of ripe mangoes over total mangoes and multiply by 100%:\n\n"
-        r"Percentage = \frac{18}{25} x 100% = 18 x 4% = 72%",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 12: Simplify: 1\frac{3}{4} − 2\frac{5}{6} − 1\frac{9}{10} + 4\frac{7}{8}.      (BECE 2023 Q1b)",
-        answer: "⦿ Rewrite mixed numbers as improper fractions:\n\n"
-        r"1\frac{3}{4} = \frac{7}{4}, 2\frac{5}{6} = \frac{17}{6}, 1\frac{9}{10} = \frac{19}{10}, 4\frac{7}{8} = \frac{39}{8}"
-        "\n\n"
-            "⦿ Set up the structural expression:\n\n"
-        r"\frac{7}{4} − \frac{17}{6} − \frac{19}{10} + \frac{39}{8}"
+            "⦿ Step 3: Find a common denominator to add the remaining fractions\n"
+            "Find the lowest common multiple for 8 and 15, which is 120:\n"
+        r"= \frac{375 + 176}{120}"
         "\n"
-            "⦿ Evaluate using the LCM of the denominators:\n"
-            "⦿ Find the LCM of 4, 6, 10, and 8, which is 120.\n"
-            "⦿ Apply multiplier adjustment to numerators:\n\n"
-        r"\frac{7(30) − 17(20) − 19(12) + 39(15)}{120}"
+        r"= \frac{551}{120}"
         "\n\n"
-        r"= \frac{210 − 340 − 228 + 585}{120}"
-        "\n\n"
-            "⦿ Consolidate values in the numerator:\n"
-            "⦿ 210 − 340 = −130\n"
-            "⦿ −130 − 228 = −358\n"
-            "⦿ −358 + 585 = 227\n\n"
-            "⦿ Express in final mixed fraction format:\n\n"
-        r"\frac{227}{120} = 1\frac{107}{120}",
+            "⦿ Step 4: Convert the improper fraction back into a final mixed number\n"
+        r"= 4\frac{71}{120}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 13: If 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
-        answer: "⦿ Determine the total length (100%) of the rope first:\n"
-            "⦿ If 15% corresponds to 720 m, calculate 100%:\n\n"
-        r"Total length = (100% / 15%) x 720 m = \frac{100}{15} x 720 m"
+        "Question 2: A man spent "
+        r"\frac{1}{4}"
+        " of his monthly salary on rent, "
+        r"\frac{2}{5}"
+        " on food and "
+        r"\frac{1}{6}"
+        " on books. If he still had ₵55,000 left, what was his monthly salary?\n"
+            "(BECE 2006 Q5a)",
+        answer:
+        "⦿ Step 1: Find the total fractional share spent on expenses\n"
+        r"\text{Fraction spent} = \frac{1}{4} + \frac{2}{5} + \frac{1}{6}"
+        "\n"
+            "Using the common denominator of 60:\n"
+        r"= \frac{15 + 24 + 10}{60} = \frac{49}{60}"
         "\n\n"
-            "⦿ Simplify the multiplication and division:\n\n"
-            "720 ÷ 15 = 48 ⇒ Total length = 100 x 48 = 4,800 m\n\n"
-            "⦿ Find half of this total length:\n\n"
-        r"Half length = \frac{1}{2} x 4,800 m = 2,400 m",
+            "⦿ Step 2: Deduct the spent fraction from the whole unit to find the remaining fraction\n"
+        r"\text{Fraction remaining} = 1 - \frac{49}{60} = \frac{11}{60}"
+        "\n\n"
+            "⦿ Step 3: Set up an algebraic equation where x represents the total monthly salary\n"
+        r"\frac{11}{60} \times x = 55,000"
+        "\n"
+        r"x = 55,000 \times \frac{60}{11}"
+        "\n"
+        r"x = 5,000 \times 60"
+        "\n"
+        r"x = 300,000"
+        "\n"
+        r"\therefore \text{His total monthly salary was ₵300,000.00}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-        "Question 14: A polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?    (BECE 2025 Q3b)",
-        answer: "⦿ (i) Find the exact cleaning volume used:\n"
-            "⦿ Multiply the fractional usage by the total liquid storage amount:\n\n"
-        r"Volume used = \frac{1}{5} x 4,500 litres = 900 litres"
+        "Question 3: In a school, "
+        r"\frac{7}{10}"
+        " of the pupils like Mathematics. Half of those pupils who like Mathematics are girls. If there are 240 pupils altogether in the school, how many girls like Mathematics?\n"
+            "(BECE 2008 Q1b)",
+        answer:
+        "⦿ Step 1: Determine the number of pupils who like Mathematics overall\n"
+        r"\text{Total pupils liking Mathematics} = \frac{7}{10} \times 240"
+        "\n"
+        r"= 7 \times 24 = 168 pupils"
         "\n\n"
-            "⦿ (ii) Find the remaining volume percentage:\n"
-            "⦿ Calculate the volume remaining in the polytank:\n\n"
-            "Volume remaining = 4,500 litres − 900 litres = 3,600 litres\n\n"
-            "⦿ Convert the remaining volume to a percentage of the total original volume:\n\n"
-        r"Percentage left = \frac{3,600}{4,500} x 100%"
+            "⦿ Step 2: Extract the fraction representing the girls from that subtotal\n"
+        r"\text{Number of girls} = \frac{1}{2} \times 168"
+        "\n"
+        r"= 84"
+        "\n"
+        r"\therefore \text{84 girls like Mathematics inside the school.}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: A boy spent "
+        r"\frac{3}{8}"
+        " of his money and had GH₵15.00 left. How much did he have?\n"
+            "(BECE 2011 Q3c)",
+        answer:
+        "⦿ Step 1: Find the leftover fraction out of the total allowance\n"
+        r"\text{Fraction remaining} = 1 - \frac{3}{8} = \frac{5}{8}"
         "\n\n"
-            "⦿ Simplify by dividing both parts by their common factor of 900:\n\n"
-        r"Percentage left = \frac{4}{5} x 100% = 4 x 20% = 80%"
+            "⦿ Step 2: Equate the fraction remaining to the actual structural balance cash amount\n"
+            "Let the initial total sum of money be represented by M.\n"
+        r"\frac{5}{8} \times M = \text{GH₵15}"
+        "\n"
+        r"M = 15 \times \frac{8}{5}"
+        "\n"
+        r"M = 3 \times 8 = 24"
+        "\n"
+        r"\therefore \text{The boy originally possessed GH₵24.00}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5: Kojo had 1,800 bags of rice in stock for sale. In January he sold "
+        r"\frac{2}{3}"
+        " of it. In February, he sold "
+        r"\frac{3}{4}"
+        " of what was left.\n"
+            "(i) What fraction of the stock of rice did he sell\n"
+            "(a) in February?\n"
+            "(b) in January and February?\n"
+            "(ii) How many bags of rice were left unsold by the end of February?\n"
+            "(BECE 2014 Q6c)",
+        answer:
+        "⦿ Step 1: Figure out sales and distribution units for January\n"
+        r"\text{January sales} = \frac{2}{3} \times 1,800 = 1,200 bags"
+        "\n"
+        r"\text{Bags remaining after January} = 1,800 - 1,200 = 600 bags"
         "\n\n"
-        r"⦿ Alternative verification: If \frac{1}{5} is used, then 1 − \frac{1}{5} = \frac{4}{5} remains. Converting \frac{4}{5} to a percentage yields \frac{4}{5} x 100% = 80%.",
+            "⦿ Step 2: Calculate the specific distribution volume sold in February\n"
+        r"\text{February sales} = \frac{3}{4} \times 600 = 450 bags"
+        "\n\n"
+            "⦿ Step 3: Solve part (i)(a) to find the fractional representation for February\n"
+        r"\text{Fraction sold in February} = \frac{\text{February sales}}{\text{Total stock}} = \frac{450}{1,800} = \frac{1}{4}"
+        "\n\n"
+            "⦿ Step 4: Solve part (i)(b) to get the combined fractional value for both months\n"
+        r"\text{Total bags sold} = 1,200 + 450 = 1,650 bags"
+        "\n"
+        r"\text{Combined fraction sold} = \frac{1,650}{1,800} = \frac{11}{12}"
+        "\n\n"
+            "⦿ Step 5: Solve part (ii) to locate total leftover inventory\n"
+        r"\text{Unsold stock remaining} = 1,800 - 1,650 = 150 bags",
+        explanation: "",
+      ),
+
+
+
+      PracticeQuestion(
+        scenario:
+        "Question 6: Simplify: "
+        r"(\frac{2}{15} + \frac{2}{5}) + (\frac{9}{10} \times \frac{4}{3}) + (\frac{1}{5} \div \frac{1}{4})"
+        "\n(BECE 2018 Q2b)",
+        answer:
+        "⦿ Step 1: Simplify individual expressions inside each set of parentheses\n"
+            "Parentheses 1 (Addition): "
+        r"\frac{2}{15} + \frac{6}{15} = \frac{8}{15}"
+        "\n\n"
+            "Parentheses 2 (Multiplication): "
+        r"\frac{9}{10} \times \frac{4}{3} = \frac{3 \times 2}{5 \times 1} = \frac{6}{5}"
+        "\n"
+            "Parentheses 3 (Division): "
+        r"\frac{1}{5} \times \frac{4}{1} = \frac{4}{5}"
+        "\n\n"
+            "⦿ Step 2: Combine the values and apply operations using a common denominator (15)\n"
+        r"\frac{8}{15} + \frac{6}{5} + \frac{4}{5} = \frac{8 + 18 + 12}{15}"
+        "\n\n"
+        r"= \frac{38}{15}"
+        "\n\n"
+            "⦿ Step 3: Restructure into a standard mixed numerical form\n"
+        r"= 2\frac{8}{15}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 7: The total area of a school compound is "
+        r"900\frac{1}{2}\,\text{m}^2"
+        ". The school has Administration and Classroom block, Library, School Park, Roads and Walkways. The areas of the Administration and Classroom block, Library and School Park are "
+        r"300\frac{1}{4}\,\text{m}^2"
+        ", "
+        r"200\frac{1}{2}\,\text{m}^2"
+        ", and "
+        r"120\frac{1}{8}\,\text{m}^2"
+        " respectively. Find the area covered by Roads and Walkways altogether.\n"
+            "(BECE 2024 Q5b)",
+        answer:
+        "⦿ Step 1: Convert the initial compound boundaries into improper fraction targets\n"
+        r"\text{Total structural compound area} = 900\frac{1}{2} = \frac{1,801}{2}\,\text{m}^2"
+        "\n\n"
+            "⦿ Step 2: Accumulate and sum all defined facility values\n"
+        r"\text{Combined institutional area} = 300\frac{1}{4} + 200\frac{1}{2} + 120\frac{1}{8}"
+        "\n"
+        r"= \frac{1,201}{4} + \frac{401}{2} + \frac{961}{8}"
+        "\n\n"
+            "Using the common denominator 8:\n\n"
+        r"= \frac{2,402 + 1,604 + 961}{8} = \frac{4,967}{8}\,\text{m}^2"
+        "\n\n"
+            "⦿ Step 3: Extract the remaining balance space dedicated to access paths\n"
+        r"\text{Roads and Walkways area} = \frac{1,801}{2} - \frac{4,967}{8}"
+        "\n\n"
+        r"= \frac{7,204 - 4,967}{8} = \frac{2,237}{8}\,\text{m}^2"
+        "\n\n"
+            "⦿ Step 4: Return value back to proper fractional presentation forms\n"
+        r"= 279\frac{5}{8}\,\text{m}^2",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 8: A father shared his piece of land to his three children. The first child had "
+        r"\frac{2}{5}"
+        " of the land and the second had 5 acres more than the first. If the third child had 20 acres, find how many acres of land the:\n"
+            "(i) father shared;\n"
+            "(ii) first child received;\n"
+            "(iii) second child received.\n"
+            "(BECE 2025 Q4b)",
+        answer:
+        "⦿ Step 1: Formulate an algebraic equation utilizing variable x for the complete property profile\n"
+        r"\text{First child} = \frac{2}{5}x"
+        "\n"
+        r"\text{Second child} = \frac{2}{5}x + 5"
+        "\n"
+        r"\text{Third child} = 20"
+        "\n"
+        r"\frac{2}{5}x + (\frac{2}{5}x + 5) + 20 = x"
+        "\n\n"
+            "⦿ Step 2: Group like terms and cancel fractional values out by scaling through by factor 5\n"
+        r"2x + 2x + 25 + 100 = 5x"
+        "\n"
+        r"4x + 125 = 5x"
+        "\n"
+        r"125 = 5x - 4x"
+        "\n"
+        r"x = 125"
+        "\n"
+        r"\therefore \text{(i) Total land size shared by the father equals 125 acres}"
+        "\n\n"
+            "⦿ Step 3: Determine real scale shares for remaining children elements\n"
+        r"\text{(ii) First child's share} = \frac{2}{5} \times 125 = 50 acres"
+        "\n"
+        r"\text{(iii) Second child's share} = 50 + 5 = 55 acres",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 9: A farmer uses "
+        r"\frac{1}{3}"
+        " of his land to plant cassava, "
+        r"\frac{2}{5}"
+        " of the remaining land to plant maize and the rest vegetables. If vegetables cover an area of 10 acres, what is the total area of the farmer's land?\n"
+            "(BECE 2015B Q1b)",
+        answer:
+        "⦿ Step 1: Isolate the remaining asset balance fraction after planting cassava\n"
+        r"\text{Remaining fraction} = 1 - \frac{1}{3} = \frac{2}{3}"
+        "\n\n"
+            "⦿ Step 2: Evaluate the exact proportion allocated for maize crop fields\n"
+        r"\text{Maize allocation} = \frac{2}{5} \times \frac{2}{3} = \frac{4}{15}"
+        "\n\n"
+            "⦿ Step 3: Establish the final remainder portion belonging to vegetables\n"
+        r"\text{Vegetables fraction} = 1 - (\frac{1}{3} + \frac{4}{15})"
+        "\n"
+            "Using 15 as the common denominator:\n"
+        r"= 1 - (\frac{5+4}{15}) = 1 - \frac{9}{15} = \frac{6}{15} = \frac{2}{5}"
+        "\n\n"
+            "⦿ Step 4: Scale the fractional share up to get total land dimensions\n"
+        r"\frac{2}{5} \text{ of Total Land} = 10 acres"
+        "\n"
+        r"\text{Total Land Area} = 10 \times \frac{5}{2} = 5 \times 5 = 25 acres"
+        "\n"
+        r"\therefore \text{The complete total area of the farmer's land is 25 acres.}",
         explanation: "",
       ),
     ],
   ),
-  "Math JHS3 s1 ss4 - Number: Ratios and Proportion": PracticeModel(
+  "Math JHS3 s1 ss4 - Ratios and Proportion": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
         scenario:
-        r"Question 1: Three school children share some oranges as follows: Akwasi gets \frac{1}{3} of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?"
-        "\n(BECE 1991 Q1b)",
+        "Question 1: A landlady rented out her house for ₵240,000.00 for one year. During the year she paid 15% of the rent as income tax. She also paid 25% of the rent as property tax and spent ₵10,000.00 on repairs. Calculate:\n"
+            "(a) the landlady's total expenses;\n"
+            "(b) the remainder of the rent after the landlady's expenses;\n"
+            "(c) the percentage of the rent spent on repairs.\n"
+            "(BECE 1992 Q2)",
         answer:
-        "⦿ Define the variable:\n"
-            "⦁ Let the total number of oranges be y.\n\n"
-            "⦿ Calculate Akwasi's share:\n"
-        r"⦁ Akwasi's share = \frac{1}{3} × y"
+        "⦿ (a)\n"
+        r"\text{Expenditure on Income tax} = \frac{15}{100} \times ₵240,000.00 = ₵36,000.00"
         "\n\n"
-            "⦿ Find the remainder:\n"
-        r"⦁ Remainder = y - \frac{1}{3}y = \frac{2}{3}y"
+        r"\text{Expenditure on Property tax} = \frac{25}{100} \times ₵240,000.00 = ₵60,000.00"
         "\n\n"
-            "⦿ Share the remainder:\n"
-            "⦁ Abena : Jantuah = 3 : 2\n"
-            "⦁ Total parts = 3 + 2 = 5\n"
-        r"⦁ Jantuah's share = \frac{2}{5} × \frac{2}{3}y"
+            "Expenditure on repairs = ¢10,000.00\n\n"
+        r"\text{Total expenses} = ₵36,000.00 + ₵60,000.00 + ₵10,000.00 = ₵106,000.00"
         "\n\n"
-            "⦿ Form the equation:\n"
-        r"\frac{2}{5} × \frac{2}{3}y = 24"
+            "⦿ (b)\n"
+            "Remainder of rent after expenses = Rent - Total expenses\n\n"
+        r"\text{Remainder of rent after expenses} = ₵240,000.00 - ₵106,000.00 = ₵134,000.00"
+        "\n\n"
+            "⦿ (c)\n"
+        r"\text{Percentage of rent spent on repairs} = \frac{10,000}{240,000} \times 100\% = 4.167\%",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 2: A man deposited ¢350,000.00 in his account in a bank. A simple interest of 4% per annum was paid on his deposit. Calculate the total amount at the end of 4 years.\n"
+            "(BECE 1996 Q2a)",
+        answer:
+        r"Principal, P = \text{c}350,000.00, Rate, R = 4\%, Time, T = 4 \text{ years}"
+        "\n\n"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+        "\n\n"
+        r"I = \frac{350,000 \times 4 \times 4}{100} = \text{c}56,000.00"
+        "\n\n"
+            "Total amount at the end of 4 years = Principal + Interest\n\n"
+        r"\text{Total amount} = \text{c}350,000.00 + \text{c}56,000.00 = \text{c}406,000.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 3: Ama was granted a loan of ¢800,000.00 by a bank. The rate of interest was 42% per annum.\n"
+            "(a) Calculate:\n"
+            "(i) the interest at the end of the year.\n"
+            "(ii) the total amount Ama had to pay at the end of the year.\n"
+            "(b) If she had to pay ¢200,000 monthly, then the total amount she had to pay at the end of 12 months (1 year) = ¢200,000 × 12 = ¢2,400,000.00. Given the same conditions as in (a) above, calculate the amount she took.\n"
+            "(BECE 2000 Q3)",
+        answer:
+        "⦿ (a)(i)\n"
+        r"Principal, P = \text{c}800,000, Rate, R = 42\%, Time, T = 1 \text{ year}"
+        "\n\n"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+        "\n\n"
+        r"I = \frac{800,000 \times 42 \times 1}{100} = \text{c}336,000.00"
+        "\n\n"
+            "⦿ (a)(ii)\n"
+            "Total amount to be paid at the end of the year = Principal + Interest\n\n"
+        r"\text{Total amount to be paid at the end of the year} = \text{c}800,000 + \text{c}336,000 = \text{c}1,136,000.00"
+        "\n\n"
+            "⦿ (b)\n"
+        r"\text{Total amount paid over 12 months} = \text{c}200,000 \times 12 = \text{c}2,400,000.00"
+        "\n\n"
+        r"\text{Amount she had to pay} = P + I"
         "\n"
-        r"\frac{4}{15}y = 24"
+        r"2,400,000 = P + \frac{P \times 42 \times 1}{100}"
+        "\n"
+        r"2,400,000 = P + 0.42P"
+        "\n"
+        r"2,400,000 = 1.42P"
+        "\n"
+        r"P = \frac{2,400,000}{1.42} = 1,690,140.85"
         "\n\n"
-            "⦿ Solve for y:\n"
-            "4y = 24 × 15 = 360\n"
-            "y = 360 ÷ 4 = 90 oranges\n\n"
-            "⦿ Calculate Akwasi's share:\n"
-        r"Akwasi's share = \frac{1}{3} × 90 = 30 oranges"
+        r"\therefore \text{Amount she took} = \text{Principal} = \text{c}1,690,140.85"
         "\n\n"
-            "Answer = 30 oranges",
+        r"(Note: if using the alternative fraction path matching page 351's structural framework, 2,400,000 = P + \frac{25P}{200} \Rightarrow 480,000,000 = 225P \Rightarrow P = \text{c}2,133,333.33)",
         explanation: "",
       ),
+
       PracticeQuestion(
         scenario:
-        "Question 2: The cost of sending a telegram is ₵500.00 for the first 12 words and ₵25.00 for every extra word. Find the cost of sending a telegram containing 20 words.\n(BECE 1996 Q2b)",
-        answer: "⦿ Cost of the first 12 words:\n"
-            "⦁ = ₵500.00\n\n"
-            "⦿ Calculate the extra words:\n"
-            "⦁ Extra words = 20 - 12 = 8 words\n\n"
-            "⦿ Cost of extra words:\n"
-            "⦁ = 8 × ₵25.00 = ₵200.00\n\n"
-            "⦿ Calculate the total cost:\n"
-            "⦁ Total Cost = ₵500.00 + ₵200.00 = ₵700.00\n\n"
-            "Answer = ₵700.00",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        r"Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got \frac{1}{4} of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively."
-        "\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
+        "Question 4: A trader took a loan of ¢1,800,000.00 at an interest of "
+        r"12\frac{1}{2}\%"
+        " percent per annum. It was agreed that the loan and the interest must be paid in one year equal monthly installments.\n"
+            "(a) Calculate:\n"
+            "(i) the interest on the loan.\n"
+            "(ii) the amount to be paid at the end of the year.\n"
+            "(iii) the monthly installment.\n"
+            "(b) Another trader took a loan at the same rate interest and conditions. If she had to pay ¢200,000.00 monthly installments, find to the nearest cedi, how much she took.\n"
+            "(BECE 2002 Q2)",
         answer:
-        "⦿ Calculate Kwabena's share:\n"
-        r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
+        "⦿ (a)(i)\n"
+        r"Principal, P = \text{c}1,800,000, Rate, R = 12\frac{1}{2}\% = \frac{25}{2}\%, Time, T = 1 \text{ yr}"
         "\n\n"
-            "⦿ Find the remainder:\n"
-            "⦁ Remaining oranges = 160 - 40 = 120 oranges\n\n"
-            "⦿ Total ratio parts:\n"
-            "⦁ 3 + 2 = 5 parts\n\n"
-            "⦿ (i) Find Esi's share:\n"
-        r"⦁ Esi's share = \frac{3}{5} × 120 = 72 oranges"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100} = \frac{1,800,000 \times \frac{25}{2} \times 1}{100}"
         "\n\n"
-            "⦿ (ii) Find Yaw's share:\n"
-        r"⦁ Yaw's share = \frac{2}{5} × 120 = 48 oranges"
+        r"I = 9,000 \times 25 = \text{c}225,000.00"
         "\n\n"
-            "⦁ Difference = 48 - 40 = 8 oranges\n\n"
-            "(i) Answer = 72 oranges\n"
-            "(ii) Answer = 8 oranges",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 4: Three numbers are in the ratio 2:3:4 and their average is 36.\n\n(i) Calculate the sum of the three numbers.\n(ii) Find the greatest number.\n(BECE 2002A Q1a)",
-        answer: "⦿ (i) Calculate the sum:\n"
-            "⦁ Average = Sum ÷ 3\n"
-            "⦁ Sum = 36 × 3 = 108\n\n"
-            "⦿ (ii) Find the greatest number:\n"
-            "⦁ Total ratio parts = 2 + 3 + 4 = 9\n"
-        r"⦁ Greatest number = \frac{4}{9} × 108 = 48"
+        r"\therefore \text{The interest on the loan is } \text{c}225,000.00"
         "\n\n"
-            "(i) Answer = 108\n"
-            "(ii) Answer = 48",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 5: A boy has enough money to buy 14 pencils at ₵450.00 each. How many erasers costing ₵300.00 each can he buy with the same amount of money?\n(BECE 2005 Q1a)",
-        answer: "⦿ Calculate the total money:\n"
-            "⦁ Total money = 14 × ₵450.00 = ₵6,300.00\n\n"
-            "⦿ Let y be the number of erasers.\n\n"
-            "⦁ 300 × y = 6,300\n"
-            "⦁ y = 6,300 ÷ 300 = 21\n\n"
-            "Answer = 21 erasers",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 6: The ratio of men to women in a village is 12:25. If there are 120 men:\n\n(i) How many women are there?\n(ii) What is the total number of men and women?\n(BECE 2006 Q2a)",
-        answer: "⦿ (i) Find the number of women:\n"
-            "⦁ Let x represent the number of women.\n\n"
-        r"⦁ \frac{120}{x} = \frac{12}{25}"
+            "⦿ (a)(ii)\n"
+            "Amount to be paid at the end of the year = Principal + Interest\n\n"
+        r"\text{Amount to be paid at the end of the year} = \text{c}1,800,000 + \text{c}225,000 = \text{c}2,025,000.00"
         "\n\n"
-            "⦁ 12x = 120 × 25\n"
-            "⦁ x = (120 × 25) ÷ 12 = 250 women\n\n"
-            "⦿ (ii) Find the total population:\n"
-            "⦁ Total = Men + Women\n"
-            "⦁ Total = 120 + 250 = 370 people\n\n"
-            "(i) Answer = 250 women\n"
-            "(ii) Answer = 370 people",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 7: Mr. Jones used 173 units of electricity last month. If the charge for the first 110 units was ₵150 per unit and ₵200 per unit for the rest, calculate the total bill for Mr. Jones.\n(BECE 2007 Q5a)",
-        answer: "⦿ Calculate the cost of the first 110 units:\n"
-            "⦁ 110 × ₵150 = ₵16,500.00\n\n"
-            "⦿ Calculate the remaining units:\n"
-            "⦁ Remaining units = 173 - 110 = 63 units\n\n"
-            "⦿ Calculate the cost of the remaining units:\n"
-            "⦁ 63 × ₵200 = ₵12,600.00\n\n"
-            "⦿ Calculate the total bill:\n"
-            "⦁ Total Bill = ₵16,500.00 + ₵12,600.00 = ₵29,100.00\n\n"
-            "Answer = ₵29,100.00",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 8: A typist charges 28Gp for the first five sheets and 8Gp for each additional sheet she types. How much will she charge for typing 36 sheets?\n(BECE 2008 Q1c)",
-        answer: "⦿ Charge for the first 5 sheets:\n"
-            "⦁ = 28Gp\n\n"
-            "⦿ Calculate the additional sheets:\n"
-            "⦁ 36 - 5 = 31 sheets\n\n"
-            "⦿ Calculate the charge for the additional sheets:\n"
-            "⦁ 31 × 8Gp = 248Gp\n\n"
-            "⦿ Calculate the total charge:\n"
-            "⦁ 28Gp + 248Gp = 276Gp\n\n"
-            "⦿ Convert to Ghana Cedis:\n"
-            "⦁ 276Gp ÷ 100 = GH¢2.76\n\n"
-            "Answer = GH¢2.76",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 9: The ratio of the sheep to goats on a farm is 4:7. If there are 1,428 sheep, find how many goats are on the farm.\n(BECE 2009 Q4a)",
-        answer: "⦿ Let y represent the number of goats.\n\n"
-        r"⦁ \frac{1428}{y} = \frac{4}{7}"
+            "⦿ (a)(iii)\n"
+        r"\text{Monthly installment} = \frac{\text{Amount to be paid}}{12 \text{ months}} = \frac{2,025,000}{12} = \text{c}168,750"
         "\n\n"
-            "⦁ 4y = 1,428 × 7\n"
-            "⦁ 4y = 9,996\n"
-            "⦁ y = 9,996 ÷ 4 = 2,499 goats\n\n"
-            "Answer = 2,499 goats",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 10: The selling price of a gas cooker is GH¢450.00. If a customer is allowed a discount of 20%, calculate the:\n\n(i) Discount.\n(ii) Amount paid by the customer.\n(BECE 2016 Q4b)",
-        answer: "⦿ (i) Calculate the discount:\n"
-        r"⦁ Discount = \frac{20}{100} × 450.00 = GH¢90.00"
+            "⦿ (b)\n"
+        r"\text{Total amount paid over 12 months} = \text{c}200,000 \times 12 = \text{c}2,400,000.00"
         "\n\n"
-            "⦿ (ii) Calculate the amount paid:\n"
-            "⦁ Amount Paid = Selling Price - Discount\n"
-            "⦁ Amount Paid = GH¢450.00 - GH¢90.00 = GH¢360.00\n\n"
-            "(i) Answer = GH¢90.00\n"
-            "(ii) Answer = GH¢360.00",
+        r"\text{Amount she had to pay} = P + I"
+        "\n"
+        r"2,400,000 = P + \frac{P \times \frac{25}{2} \times 1}{100}"
+        "\n"
+        r"2,400,000 = P + \frac{25P}{200}"
+        "\n\n"
+            "Multiply through by 200:\n"
+            "480,000,000 = 200P + 25P\n"
+            "480,000,000 = 225P\n"
+        r"P = \frac{480,000,000}{225} = 2,133,333.33"
+        "\n\n"
+        r"\therefore \text{Amount she took} = \text{Principal} = \text{c}2,133,333 \text{ (to the nearest cedi)}",
         explanation: "",
       ),
+
       PracticeQuestion(
         scenario:
-        "Question 11: A property worth GH₵10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
+        "Question 5: It is estimated that the population of a village increases by 10 percent every five years. If the population of the village is 150,000 this year, what will be the estimated population ten years from now?\n"
+            "(BECE 2002 Q4c)",
         answer:
-        "⦿ Determine the total ratio parts:\n"
-            "⦁ Total parts = 1 + 4 = 5 parts\n\n"
-            "⦿ Calculate the children's total share:\n"
-        r"⦁ Children's share = \frac{4}{5} × GH₵10,480.00 = GH₵8,384.00"
+        "Population now = 150,000\n\n"
+        r"\text{Population in 5 years' time} = 10\% \text{ of } 150,000 + 150,000"
         "\n\n"
-            "⦿ Calculate each child's share:\n"
-            "⦁ Each child's share = GH₵8,384.00 ÷ 10 = GH₵838.40\n\n"
-            "Answer = GH₵838.40",
+        r"\text{Population in 5 years' time} = \left(\frac{10}{100} \times 150,000\right) + 150,000 = 15,000 + 150,000 = 165,000"
+        "\n\n"
+        r"\text{Population in 10 years' time} = \left(\frac{10}{100} \times 165,000\right) + 165,000 = 16,500 + 165,000 = 181,500",
         explanation: "",
       ),
+
       PracticeQuestion(
         scenario:
-        "Question 12: The ratio of boys to girls in a school is 12:25. If there are 120 boys, find:\n\n(i) How many girls are in the school?\n(ii) What is the total number of boys and girls in the school?\n(BECE 2019 Q2b)",
-        answer: "⦿ (i) Find the number of girls:\n"
-            "⦁ Let x represent the number of girls.\n\n"
-        r"⦁ \frac{120}{x} = \frac{12}{25}"
-        "\n\n"
-            "⦁ 12x = 120 × 25\n"
-            "⦁ x = (120 × 25) ÷ 12 = 250 girls\n\n"
-            "⦿ (ii) Calculate the total number of students:\n"
-            "⦁ Total = Boys + Girls\n"
-            "⦁ Total = 120 + 250 = 370 students\n\n"
-            "(i) Answer = 250 girls\n"
-            "(ii) Answer = 370 students",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-        "Question 13: Esi and Kofi shared an amount of GH₵21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
+        "Question 6: Ama and Kofi shared the profit earned from their business in the ratio 3:4. The profit was ¢1,743,000. Find how much of the profit each person received.\n"
+            "(BECE 2004 Q3a)",
         answer:
-        "⦿ Determine the total ratio parts:\n"
-            "⦁ Total parts = 2 + 5 = 7 parts\n\n"
-            "⦿ Calculate Esi's share:\n"
-        r"⦁ Esi's share = \frac{2}{7} × GH₵21,000.00 = GH₵6,000.00"
+        "Ratio = Ama : Kofi = 3 : 4\n\n"
+            "Total ratio = 3 + 4 = 7\n\n"
+            "Total profit shared = ¢1,743,000\n\n"
+        r"\text{Ama's share} = \frac{3}{7} \times \text{c}1,743,000 = \text{c}747,000"
         "\n\n"
-            "⦿ Calculate Kofi's share:\n"
-        r"⦁ Kofi's share = \frac{5}{7} × GH₵21,000.00 = GH₵15,000.00"
+        r"\text{Kofi's share} = \frac{4}{7} \times \text{c}1,743,000 = \text{c}996,000",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 7: A woman borrowed ¢2,000,000.00 from a bank at a rate of 15% per annum simple interest for 2 years.\n"
+            "(a) Find:\n"
+            "(i) the interest for the 2 years.\n"
+            "(ii) amount paid after 2 years.\n"
+            "(b) She used the ¢2,000,000.00 to purchase a fridge and sold it at a profit of 45%. Find the selling price of the fridge.\n"
+            "(c) If she used the amount raised from the sale of the fridge to pay for the bank loan and interest, find how much is left.\n"
+            "(BECE 2005 Q4)",
+        answer:
+        "⦿ (a)(i)\n"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100}"
         "\n\n"
-            "⦿ Calculate how much more Kofi received:\n"
-            "⦁ Difference = GH₵15,000.00 - GH₵6,000.00 = GH₵9,000.00\n\n"
-            "Answer = GH¢₵9,000.00",
+        r"I = \frac{2,000,000 \times 15 \times 2}{100} = \text{c}600,000.00"
+        "\n\n"
+            "⦿ (a)(ii)\n"
+            "Amount paid after 2 years = Principal + Interest\n\n"
+        r"\text{Amount paid after 2 years} = \text{c}2,000,000 + \text{c}600,000 = \text{c}2,600,000.00"
+        "\n\n"
+            "⦿ (b)\n"
+            "Percentage of cost price = 100%\n"
+            "Percentage of selling price = 100% + 45% = 145%\n\n"
+        r"100\% = \text{c}2,000,000"
+        "\n"
+        r"\Rightarrow 145\% = \frac{145\%}{100\%} \times \text{c}2,000,000 = \text{c}2,900,000.00"
+        "\n\n"
+        r"\therefore \text{The SP of the fridge is } \text{c}2,900,000.00"
+        "\n\n"
+            "Alternative method:\n"
+        r"\text{SP} = \frac{100 + P\%}{100} \times CP"
+        "\n"
+        r"\text{SP} = \frac{100 + 45}{100} \times \text{c}2,000,000"
+        "\n"
+        r"\text{SP} = \frac{145}{100} \times \text{c}2,000,000 = \text{c}2,900,000.00"
+        "\n\n"
+            "⦿ (c)\n"
+            "Amount paid after 2 years = ¢2,600,000\n"
+            "Amount raised = ¢2,900,000\n\n"
+        r"\therefore \text{Amount left after bank loan is paid} = \text{c}2,900,000 - \text{c}2,600,000 = \text{c}300,000.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 8: Find the simple interest on ¢880,000.00 for "
+        r"2\frac{1}{2}"
+        " years at "
+        r"3\frac{1}{4}\%"
+        " per annum.\n"
+            "(BECE 2006 Q4b)",
+        answer:
+        r"P = \text{c}880,000, R = 3\frac{1}{4}\% = \frac{13}{4}\%, T = 2\frac{1}{2} \text{ yrs} = \frac{5}{2} \text{ yrs}"
+        "\n\n"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+        "\n\n"
+        r"I = \frac{880,000 \times \frac{13}{4} \times \frac{5}{2}}{100}"
+        "\n\n"
+        r"I = \frac{110,000 \times 13 \times 5}{100 \times 2}"
+        "\n\n"
+        r"I = \frac{1100 \times 13 \times 5}{2} = 550 \times 13 \times 5 = \text{c}35,750.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 9: Akosua was granted a loan of GH¢96.00. The interest rate was 24% per annum. Calculate the:\n"
+            "(i) interest at the end the year;\n"
+            "(ii) total amount she had to pay at the end of the year;\n"
+            "(iii) amount she still owes, if Akosua was able to pay only GH¢60.00 at the end of the year.\n"
+            "(BECE 2008 Q3b)",
+        answer:
+        "⦿ (i)\n"
+        r"P = \text{GH}\text{c}96.00, R = 24\%, T = 1 \text{ year}"
+        "\n\n"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+        "\n\n"
+        r"I = \frac{96 \times 24 \times 1}{100} = \frac{2304}{100} = \text{GH}\text{c}23.04"
+        "\n\n"
+            "⦿ (ii)\n"
+            "Total amount to be paid at the end of the year = P + I\n\n"
+        r"\text{Total amount to be paid} = \text{GH}\text{c}96.00 + \text{GH}\text{c}23.04 = \text{GH}\text{c}119.04"
+        "\n\n"
+            "⦿ (iii)\n"
+        r"\text{Amount she still owes} = \text{GH}\text{c}119.04 - \text{GH}\text{c}60 = \text{GH}\text{c}59.04",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 10: The simple interest formula, "
+        r"I = \frac{PTR}{100}"
+        " gives the interest I, on a principal, P invested at a rate, R per annum for time, T years.\n"
+            "(i) Find the simple interest on GH¢3,600.00 at 15% per annum for 2 years.\n"
+            "(ii) Make R the subject of the simple interest formula.\n"
+            "(iii) At what rate per annum will GH¢6,000.00 earn GH¢2,400.00 simple interest in 2 years?\n"
+            "(BECE 2009 Q5b)",
+        answer:
+        "⦿ (i)\n"
+        r"P = \text{GH}\text{c}3,600.00, R = 15\%, T = 2 \text{ years}"
+        "\n\n"
+        r"\text{Interest, } I = \frac{PTR}{100} = \frac{3600 \times 2 \times 15}{100} = \text{GH}\text{c}1080"
+        "\n\n"
+            "⦿ (ii)\n"
+        r"I = \frac{PTR}{100} \Rightarrow PTR = 100I"
+        "\n"
+        r"\Rightarrow R = \frac{100I}{PT}"
+        "\n\n"
+            "⦿ (iii)\n"
+        r"R = \frac{100 \times 2400}{6000 \times 2} = \frac{240}{12} = 20\%",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 11: A trader saves GH¢200.00 for 3 years at 12% simple interest per annum. What will be the total amount in the trader's account at the end of the 3 years?\n"
+            "(BECE 2014 Q1b)",
+        answer:
+        r"P = \text{GH}\text{c } 200, T = 3 \text{ yrs}, R = 12\%"
+        "\n\n"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100} = \frac{200 \times 12 \times 3}{100} = \text{GH}\text{c } 72"
+        "\n\n"
+        r"\text{Total amount in the trader's account} = P + I = 200 + 72 = \text{GH}\text{c } 272.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 12: The Value Added Tax (VAT) paid by a man on a deep freezer was GH¢90.00. If VAT was charged at 15%:\n"
+            "(i) what was the price of the deep freezer?\n"
+            "(ii) how much did the man pay including VAT?\n"
+            "(BECE 2015A Q4a)",
+        answer:
+        "⦿ (i)\n"
+            "Cost of the freezer = 100%\n\n"
+        r"If 15\% = \text{GH}\text{c } 90"
+        "\n\n"
+        r"100\% = \frac{100\%}{15\%} \times \text{GH}\text{c } 90 = \text{GH}\text{c } 600.00"
+        "\n\n"
+        r"\therefore \text{The price of the deep freezer was GH}\text{c } 600.00"
+        "\n\n"
+            "Alternative method:\n"
+            "Let the cost of the freezer be x\n\n"
+        r"\frac{15}{100} \times x = 90 \Rightarrow \frac{15x}{100} = 90"
+        "\n"
+        r"\Rightarrow 15x = 9000 \Rightarrow x = \frac{9000}{15} = 600"
+        "\n\n"
+            "⦿ (ii)\n"
+        r"\text{VAT} = \text{GH}\text{c } 90"
+        "\n"
+        r"\text{Cost of freezer} = \text{GH}\text{c } 600"
+        "\n\n"
+        r"\text{Amount paid by the man including VAT} = \text{GH}\text{c } 600 + \text{GH}\text{c } 90 = \text{GH}\text{c } 690.00",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 13: A salesman gets a commission of "
+        r"5\frac{1}{2}\%"
+        " of the value of items he sells. The salesman sells 12 textbooks at GH¢25.00 per book, 3 scientific calculators at GH¢50.00 per calculator and 8 packets of Bic pens at GH¢50.00 per packet. Calculate the salesman's commission.\n"
+            "(BECE 2022 Q3c)",
+        answer:
+        r"\text{Sales on textbooks} = 12 \times 25 = \text{GH}\text{c } 300"
+        "\n\n"
+        r"\text{Sales on calculators} = 3 \times 50 = \text{GH}\text{c } 150"
+        "\n"
+        r"(Source solution notes dynamic as 3 \times 20 = 150)"
+        "\n\n"
+        r"\text{Sales on Bic pens} = 8 \times 50 = \text{GH}\text{c } 400"
+        "\n\n"
+        r"\text{Total sales} = 300 + 150 + 400 = \text{GH}\text{c } 850"
+        "\n\n"
+        r"\text{Commission} = 5\frac{1}{2}\% \text{ of sales}"
+        "\n"
+        r"= \frac{5\frac{1}{2}}{100} \times 850 = \frac{\frac{11}{2}}{100} \times 850"
+        "\n"
+        r"= \frac{11}{200} \times 850 = \text{GH}\text{c } 46.75",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 14: Gifty and Justina shared an amount of GH¢418.00. If Gifty had 20% more than Justina, how much did Justina receive?\n"
+            "(BECE 2023 Q3c)",
+        answer:
+        "Total amount = GH¢418\n\n"
+        r"\text{Difference in shares} = \frac{20}{100} \times 418 = \text{GH}\text{c } 83.60"
+        "\n\n"
+            "Let Justina's share = x\n\n"
+        r"\Rightarrow \text{Gifty's share} = x + 83.60"
+        "\n\n"
+            "Hence x + (x + 83.60) = 418\n"
+            "2x + 83.60 = 418\n"
+            "2x = 418 - 83.60\n"
+            "2x = 334.40\n"
+        r"x = \frac{334.40}{2} = 167.20"
+        "\n\n"
+        r"\therefore \text{Justina's share is GH}\text{c } 167.20",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 15: Madam Esi used "
+        r"\frac{1}{4}"
+        " and "
+        r"\frac{2}{3}"
+        " of her x acres of land to cultivate mangoes and oranges respectively.\n"
+            "(b) If madam Esi used 20 more acres of land to cultivate oranges than mangoes, find the value of x.\n"
+            "(c) How many acres of land was used to cultivate mangoes?\n"
+            "(d) Calculate, correct to the nearest whole number, the percentage of the land that was not used.\n"
+            "(BECE 2023 Q5)",
+        answer:
+        "Total land size = x acres\n\n"
+        r"\text{Number of acres used for mangoes} = \frac{1}{4}x"
+        "\n\n"
+        r"\text{Number of acres used for oranges} = \frac{2}{3}x"
+        "\n\n"
+            "⦿ (b)\n"
+            "Land for oranges - Land for mangoes = 20\n\n"
+        r"\therefore \frac{2}{3}x - \frac{1}{4}x = 20"
+        "\n\n"
+            "Multiplying through by the LCM (12):\n"
+        r"12\left(\frac{2}{3}x\right) - 12\left(\frac{1}{4}x\right) = 12(20)"
+        "\n"
+            "8x - 3x = 240\n"
+            "5x = 240\n"
+        r"x = \frac{240}{5} = 48"
+        "\n\n"
+            "⦿ (c)\n"
+        r"\text{Acres of land used for mangoes} = \frac{1}{4} \times 48 = 12 \text{ acres}"
+        "\n\n"
+            "⦿ (d)\n"
+        r"\text{Acres of land for oranges} = \frac{2}{3} \times 48 = 32 \text{ acres}"
+        "\n\n"
+        r"\therefore \text{Acres of land that was not used} = 48 - 12 - 32 = 4"
+        "\n\n"
+        r"\therefore \text{Percentage of land not used} = \frac{4}{48} \times 100\% = 8.33\%"
+        "\n"
+        r"= 8\% \text{ (nearest whole number)}",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 16: A woman borrowed GH¢5,300.00 to pay for her child's university fees. If she borrowed at a rate of 8% simple interest per annum for 9 months, find the interest paid.\n"
+            "(BECE 2025 Q4a)",
+        answer:
+        r"P = \text{GH}\text{c } 5,300, R = 8\%, T = \frac{9}{12} \text{ yr} = \frac{3}{4} \text{ yr}"
+        "\n\n"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+        "\n\n"
+        r"\therefore I = \frac{5,300 \times 8 \times \frac{3}{4}}{100} = \frac{5,300 \times 2 \times 3}{100} = \text{GH}\text{c } 318",
         explanation: "",
       ),
     ],
