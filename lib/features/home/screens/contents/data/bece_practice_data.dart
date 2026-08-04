@@ -4820,23 +4820,7 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1: The Achievements of Dr. Kwame Nkrumah\n\n"
-            "Write an essay on the following: The achievements of Dr. Kwame Nkrumah.",
-        answer:
-            "• Leadership in Independence: He led Ghana to achieve independence from British colonial rule on 6th March 1957, becoming the first Prime Minister and later the first President.\n"
-            "• Infrastructure (Tema Harbour): Under his leadership, the Tema Harbour was constructed to boost international trade and maritime activities.\n"
-            "• Industrialization (State Enterprises): His government established numerous state enterprises to promote self-reliance, including VALCO, Rubber Manufacturing at Bonsa, Nsawam Canaries, GIHOC, and Akosombo Textiles.\n"
-            "• Healthcare Expansion: He expanded healthcare by building new hospitals, notably the Okomfo Anokye Teaching Hospital in Kumasi, and established the University of Ghana Medical School at Korle Bu.\n"
-            "• Energy (Akosombo Dam): He oversaw the construction of the Akosombo Dam, providing electricity for domestic use and exporting power to neighbouring countries like Togo.\n"
-            "• Education Development: He built several second-cycle schools, such as Tweneboa Kodua SHS, and established higher-learning institutions like UCC, KNUST, and various polytechnics and teacher-training colleges.\n"
-            "• Free Education Policy: He introduced a compulsory free-tuition primary education scheme and provided free textbooks to Ghanaian children.\n"
-            "• Financial Institutions: He established key financial institutions, including the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation.\n"
-            "• Housing: He founded the State Housing Corporation to address the housing needs of the growing population by providing affordable homes.\n"
-            "• Agriculture: He set up state farms and irrigation facilities for rice and sugar, while diversifying crops to include cash crops and livestock rearing.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 1 (BECE 1990 QU 4a)\n\n"
+        scenario: "QUESTION 1 (BECE 1990 Q4a)\n\n"
             "Write an essay on the following: The achievements of Dr. Kwame Nkrumah.",
         answer: "⦿ Answer:\n\n"
             "• Attainment of Sovereignty: He spearheaded the national movement that successfully broke Ghana free from British colonial governance on 6th March 1957, establishing the country as an independent nation.\n\n"
@@ -4854,7 +4838,7 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 1999 QU 3)\n\n"
+        scenario: "QUESTION 2 (BECE 1999 Q3)\n\n"
             "(a) Mention four achievements of Dr. Kwame Nkrumah.\n\n"
             "(b) What are the four reasons that led to the overthrow of Dr. Kwame Nkrumah?",
         answer: "⦿ (a) Achievements of Dr. Kwame Nkrumah:\n\n"
@@ -4862,8 +4846,8 @@ final Map<String, PracticeModel> becePracticeData = {
             "• Hydroelectric Development: He initiated and completed the Akosombo Dam project to power the nation's economy.\n\n"
             "• Industrialisation Drive: He founded key local industries, such as GIHOC, Nsawam Cannery, and the Bonsa Rubber Manufacturing plant.\n\n"
             "• Free Education Policy: He instituted compulsory, fee-free basic schooling alongside the free distribution of course textbooks.\n\n"
-            "⦿ (b) Reasons for the overthrow of Dr. Kwame Nkrumah:\n\n"
-            "• Establishment of Single-Party Rule: He declared the country a one-party state, establishing the Convention People's Party (CPP) as the sole legal political organization. This excluded rival groups from governance and bred widespread public dissatisfaction through a winner-takes-all approach.\n\n"
+            "⦿ (b) Reasons for Overthrow:\n\n"
+            "• Establishment of Single-Party Rule: He declared the country a one-party state, establishing the Convention People’s Party (CPP) as the sole legal political organization. This excluded rival groups from governance and bred widespread public dissatisfaction through a \"winner-takes-all\" approach.\n\n"
             "• Authoritarian Governance: Critics viewed his administration as a dictatorship because power was concentrated entirely within his inner circle, ignoring alternative political viewpoints across the country.\n\n"
             "• Enactment of the Preventive Detention Act (PDA): The passage of the PDA empowered his administration to imprison political critics without court trials, leading to civil rights violations and deaths during incarceration.\n\n"
             "• Widespread Financial Corruption: Malpractice and financial impropriety compromised state institutions, leading to the collapse of state enterprises and damaging public trust in his administration.\n\n"
@@ -4874,7 +4858,7 @@ final Map<String, PracticeModel> becePracticeData = {
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2006 QU 2)\n\n"
+        scenario: "QUESTION 3 (BECE 2006 Q2)\n\n"
             "(a) Identify any four causes of the 1948 riots.\n\n"
             "(b) Outline any three recommendations of the Watson Commission.",
         answer: "⦿ (a) Causes of the 1948 Riots:\n\n"
@@ -4889,28 +4873,28 @@ final Map<String, PracticeModel> becePracticeData = {
             "• The Shooting Incident at Osu Crossroads: The immediate catalyst for nationwide riots occurred when police opened fire on peaceful ex-servicemen marching toward Christiansborg Castle, killing Sergeant Adjetey, Corporal Attipoe, and Private Odartey Lamptey.\n\n"
             "• Foreign Commercial Dominance: Indigenous populations resented the strong control that Syrian and Lebanese businesses maintained over retail and wholesale trading sectors.\n\n"
             "• High Unemployment Rates: Large numbers of school-leavers and returning soldiers found themselves without employment, providing a volatile base for public protest.\n\n"
-            "⦿ (b)  Recommendations of the Watson Commission:\n\n"
+            "⦿ (b) Recommendations of the Watson Commission:\n\n"
             "• Drafting a Modern Constitutional Framework: The commission recommended replacing the flawed Burns Constitution with a progressive framework that addressed local political demands.\n\n"
             "• Redressing Grievances of Military Veterans: It urged the colonial authorities to honor unfulfilled promises made to World War II veterans regarding pensions, employment, and housing welfare.\n\n"
             "• Increasing African Administrative Representation: It recommended recruiting educated Ghanaians into senior civil service and governance positions to prepare the population for self-rule.\n\n"
             "• Expanding Social Amenities: The commission advised colonial authorities to improve living standards by expanding public housing projects and clean drinking water networks.\n\n"
-            "• Broadening Educational Access: It recommended expanding school infrastructure across primary, middle, and secondary tiers to increase literacy and technical competence.\n\n",
+            "• Broadening Educational Access: It recommended expanding school infrastructure across primary, middle, and secondary tiers to increase literacy and technical competence.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4: (BECE 2012 QU 3)\n\n"
+        scenario: "QUESTION 4 (BECE 2012 Q3)\n\n"
             "(a) Why was the Watson Commission set up?\n\n"
-            "(b) Give four reasons for the 1948 riots.\n\n",
+            "(b) Give four reasons for the 1948 riots.",
         answer: "⦿ (a) Purpose of the Watson Commission:\n\n"
             "• The colonial administration established the Watson Commission to examine the underlying socio-economic and political causes of the 1948 civil unrest in the Gold Coast and to submit reform recommendations to prevent future uprisings.\n\n"
             "⦿ (b) Reasons for the 1948 Riots:\n\n"
-            "• Refer to the comprehensive list of factors provided in Question 3(a) above.\n\n",
+            "• Refer to the comprehensive list of factors provided in Question 3(a) above.",
         explanation: "",
       ),
-       PracticeQuestion(
-        scenario: "QUESTION 5: (BECE 2025 QU 4a)\n\n"
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2025 Q4a)\n\n"
             "(a) Identify four factors that led to the 1948 riots in the Gold Coast.\n\n"
-            "(b) Highlight four ways in which the riots contributed to Ghana’s independence.\n\n",
+            "(b) Highlight four ways in which the riots contributed to Ghana’s independence.",
         answer: "⦿ (a) Factors Leading to the 1948 Riots:\n\n"
             "• Refer to the comprehensive list of factors provided in Question 3(a) above.\n\n"
             "⦿ (b) Contribution of the Riots to Attaining Independence:\n\n"
@@ -4918,8 +4902,8 @@ final Map<String, PracticeModel> becePracticeData = {
             "• Formation of the Convention People's Party: Disagreements over the pace of political action after the riots prompted Dr. Kwame Nkrumah to split from the UGCC and establish the CPP, shifting national demands toward immediate self-governance.\n\n"
             "• Awakening National Consciousness: The unrest fostered political awareness across different social classes, uniting citizens behind nationalist causes.\n\n"
             "• Enhancing the Popularity of Nationalist Leaders: The imprisonment of key nationalist figures, known as the Big Six, backfired on colonial authorities by turning these leaders into national figures and galvanizing public support against British rule.\n\n"
-            "• Increasing Indigenous Self-Governance: Pressure following the riots forced British authorities to enlarge African membership in both legislative and executive councils, accelerating the transfer of administrative power.\n\n" 
-            "• Attracting International Pressure Against Colonial Rule: The violent crackdowns drew global attention to conditions in the Gold Coast, putting international pressure on Britain to end its colonial administration.\n\n",
+            "• Increasing Indigenous Self-Governance: Pressure following the riots forced British authorities to enlarge African membership in both legislative and executive councils, accelerating the transfer of administrative power.\n\n"
+            "• Attracting International Pressure Against Colonial Rule: The violent crackdowns drew global attention to conditions in the Gold Coast, putting international pressure on Britain to end its colonial administration.",
         explanation: "",
       ),
     ],
@@ -4930,61 +4914,61 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario: "QUESTION 1 (BECE 2004 Q3)\n\n"
-            "(a) State any four ways by which water can be polluted in Ghana.\n"
+            "(a) State any four ways by which water can be polluted in Ghana.\n\n"
             "(b) Explain any three effects of water pollution.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Dumping of solid waste materials: This involves throwing refuse and animal faeces directly into water bodies.\n"
-            "• Washing, bathing, and urinating: When human beings and animals use water bodies for laundry, personal hygiene, or as a place to urinate, the water becomes contaminated.\n"
-            "• Animals drinking from human water sources: Water bodies intended for human use are polluted when livestock and other animals drink directly from them.\n"
-            "• Using chemicals for fishing: The use of harmful substances like DDT to catch fish introduces toxins into the water.\n"
-            "• Disposal of liquid waste: Industries often discharge liquid waste substances directly into nearby streams and rivers.\n"
-            "• Oil spillage: Leakages and spills during oil production contaminate the water environment.\n"
-            "• Spilling poisonous mining chemicals: Chemicals such as cyanide and mercury used in mining production often leak into water bodies.\n"
-            "• Farming along river banks: This practice allows loose sand and agro-chemicals, such as fertilizers, to drain into the water.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Destruction of aquatic life: Pollution destroys the habitats of aquatic animals like fish, crabs, and lobsters. These conditions deprive them of essential food and the quality oxygen needed to survive.\n"
-            "• Spread of diseases to humans: People depending on contaminated water suffer from waterborne diseases including cholera, typhoid, bilharzia, and dysentery.\n"
-            "• High cost of water treatment: Treating polluted water for human consumption requires huge sums of money, increasing the expenditure of the government, private firms, and individuals.\n"
-            "• Drying up of water bodies: The dumping of solid waste and sand causes rivers and lakes to silt up and eventually dry up, leading to a shortage of fresh water.\n"
-            "• Impure water for consumption: Polluted water contains harmful germs and bacteria, making it unsafe for both humans and animals to drink.",
+        answer: "⦿ (a) Ways by which water can be polluted in Ghana:\n\n"
+            "• Improper disposal of solid rubbish: Throwing household refuse, animal faeces, and general debris straight into streams or rivers contaminates the water supply.\n\n"
+            "• Domestic activities in open water: Performing personal washing, bathing, or urinating directly inside open water sources introduces harmful contaminants and bacteria.\n\n"
+            "• Livestock access to drinking sources: Allowing farm animals to drink from natural water channels that are also designated for domestic use leads to contamination.\n\n"
+            "• Application of toxic chemicals for fishing: Deploying harmful synthetic chemicals like DDT to harvest fish releases hazardous chemicals into the aquatic environment.\n\n"
+            "• Uncontrolled industrial effluent discharge: Releasing liquid waste directly from manufacturing plants into rivers degrades the quality of the water.\n\n"
+            "• Accidental petroleum spills: Spilling crude oil or refined petroleum products during extraction or transport coats water bodies in toxic films.\n\n"
+            "• Release of dangerous mining compounds: Allowing highly toxic processing agents such as cyanide and mercury to escape from gold processing sites pollutes local rivers.\n\n"
+            "• Agricultural activities near riverbanks: Cultivating crops immediately adjacent to water channels causes soil particles, weedkillers, and fertilizers to wash directly into the stream during rainstorms.\n\n"
+            "⦿ (b) Effects of water pollution:\n\n"
+            "• Destruction of marine ecosystems: Contaminants reduce dissolved oxygen levels and degrade natural aquatic habitats. This starves and kills off various marine organisms, including fish, crabs, and crustaceans.\n\n"
+            "• Transmission of waterborne illnesses: Individuals who consume or come into contact with contaminated water risk contracting serious infectious conditions such as cholera, typhoid fever, dysentery, and bilharzia.\n\n"
+            "• Increased financial expenditure on water treatment: Purifying heavily polluted raw water requires expensive chemical treatments and processing infrastructure. This places a heavy financial burden on local authorities, private entities, and households.\n\n"
+            "• Siltation and drying up of river channels: Accumulated solid waste, silt, and washed-in soil fill up stream beds over time. This restricts water volume and can cause smaller streams and lakes to dry up completely.\n\n"
+            "• Rendering water unsafe for consumption: The presence of disease-causing microorganisms and toxic synthetic compounds makes polluted water hazardous for human drinking, cooking, and agricultural irrigation.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 2 (BECE 2023 Q2a)\n\n"
             "Outline four measures that can be taken to reduce the pollution of water bodies in Ghana.",
         answer: "⦿ Answer:\n\n"
-            "• Recycling of sewage: Industrial and domestic wastewater should be recycled for tasks like irrigation or flushing toilets. Even human excreta can be recycled into biogas for cooking, preventing waste from being dumped into rivers.\n"
-            "• Public education on water safety: People must be educated through television, radio, and community visits such as churches and markets to stop bathing or urinating in water bodies and keep them safe for drinking and cooking.\n"
-            "• Recycling of solid and liquid waste: Reusing materials, such as using recycled plastic bottles for construction, prevents these items from being dumped into the water.\n"
-            "• Formation of community watchdog groups: Communities should form groups to monitor activities like illegal mining, also known as galamsey, and report offenders to the authorities for sanctions.\n"
-            "• Proper disposal of industrial waste: Industry owners must be compelled to recycle their waste or use it as resources for other production instead of dumping it into water bodies.",
+            "• Treatment and recycling of wastewater: Municipal sewage and industrial wastewater can undergo purification processes for reuse in crop irrigation or sanitation flushing systems. Furthermore, human sewage can be converted into useful biogas for domestic heating, preventing the direct discharge of untreated effluent into nearby streams.\n\n"
+            "• Sensitisation on aquatic sanitation: Conducting educational campaigns using television broadcasts, radio programming, and community gatherings helps inform the public about the hazards of bathing, urinating, or dumping trash in water bodies, encouraging community-wide preservation of clean drinking water.\n\n"
+            "• Reusing and repurposing solid and liquid waste: Implementing structured recycling systems turns potentially harmful materials into useful goods. For example, discarded plastic waste can be processed into alternative building materials, while treated liquid runoff can be diverted to agricultural fields rather than being allowed to pollute rivers.\n\n"
+            "• Establishing local task forces: Setting up dedicated community surveillance teams enables citizens to monitor local riverbanks. These groups can spot illegal operations like galamsey and report offenders to statutory bodies for prosecution.\n\n"
+            "• Strict industrial waste management protocols: Mandating that commercial plants treat all manufacturing outputs prevents toxic substances from entering natural water networks. Factories can be required to capture and process their chemical by-products into reusable industrial inputs.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2024 Q1b & 1c)\n\n"
-            "(a) In what four ways are water bodies in your community polluted?\n"
+        scenario: "QUESTION 3 (BECE 2024 Q1b & Q1c)\n\n"
+            "(a) In what four ways are water bodies in your community polluted?\n\n"
             "(b) Suggest four workable ways by which water bodies in your community can be made safe for use.",
         answer: "⦿ (a) Ways water bodies in the community are polluted:\n\n"
-            "• Discharge of industrial waste: Dumping metals and chemicals like mercury or oil makes water unusable for household chores.\n"
-            "• Chemical fishing: Using DDT contaminates the water for both humans and animals.\n"
-            "• Oil spillage: Production spills introduce harmful chemicals that make water unhygienic.\n"
-            "• Defecating in water bodies: Direct defecation into or near streams makes the water dangerous for consumption.\n"
-            "• Mining pollution (Galamsey): Poisonous cyanide and mercury are introduced during mining, and the process of washing gold makes water muddy and harmful.\n"
-            "• Dumping solid and liquid waste: Throwing refuse, animal faeces, or used oil into the water leads to direct contamination.\n"
-            "• Washing and bathing: Chemicals from soaps and body infections are introduced into the water during these activities.\n"
-            "• Farming and construction near banks: Agro-chemicals, fertilizers, sand, and cement from nearby farms or building sites drain into the water.\n"
-            "• Radioactive materials: Waste from medical processes or nuclear operations can cause severe water pollution.\n"
-            "• Erosion and animals: Running water carries debris into rivers, and domestic animals sharing water sources with humans add to the pollution.\n\n"
-            "⦿ (b) Workable ways to make water bodies safe for use:\n\n"
-            "• Public education on cleanliness: Educating the public through mass media about the importance of clean water helps them understand why they must stop polluting activities.\n"
-            "• Provision of public convenience facilities: Building toilets in coastal and riverside communities prevents people from defecating in or near the water.\n"
-            "• Proper settlement layouts: Town planners must ensure houses and industries are built away from water bodies to prevent waste from being easily dumped into them.\n"
-            "• Prosecution of offenders: Authorities must prosecute those engaging in galamsey or illegal fishing to serve as a deterrent to others.\n"
-            "• Government mining policies: Licensing and strictly monitoring mining practices ensures that activities do not harm local water sources.\n"
-            "• Enforcement of environmental laws: Agencies like the EPA must enforce laws against pollution and use modern tools like drones and cameras to monitor firms and individuals.\n"
-            "• Afforestation and tree planting: Planting trees along river banks prevents erosion from transporting sand and debris into the water.\n"
-            "• Proper waste infrastructure: The government should provide dustbins at vantage points in schools and communities so people dump plastic and sachet bags properly.\n"
-            "• Siting factories away from water: Land owners and authorities must prevent the sale of land near water bodies for industrial use to stop the direct dumping of waste.",
+            "• Discharge of industrial effluents: Dumping heavy metals, synthetic compounds like DDT, mercury, or petroleum residues into streams renders the water unsafe for human domestic activities.\n\n"
+            "• Destructive chemical fishing practices: Releasing poisonous substances such as DDT into rivers to stun fish leaves hazardous chemical residues in the aquatic environment.\n\n"
+            "• Petroleum spills: Accidents occurring during oil extraction and storage introduce toxic hydrocarbons that mix with raw water sources.\n\n"
+            "• Direct open defecation: Inadequate toilet infrastructure leads residents to defecate directly into or beside rivers, introducing dangerous pathogens into the water supply.\n\n"
+            "• Unregulated small-scale mining (galamsey): Processing ore near watercourses releases poisonous mercury and cyanide into the current, while sediment-washing turns clear streams into muddy, unusable channels.\n\n"
+            "• Indiscriminate dumping of solid and liquid waste: Throwing household garbage, animal waste, urine, or used motor oil directly into rivers degrades overall water quality.\n\n"
+            "• Direct bathing and laundry activities: Washing clothes or bathing directly in public streams introduces chemical surfactants from detergents alongside biological contaminants into the ecosystem.\n\n"
+            "• Farming along water channels: Cultivating land immediately beside watercourses allows crop fertilizers, pesticides, and eroded topsoil to wash into rivers during periods of heavy rainfall.\n\n"
+            "• Release of medical and industrial radiation: Discharging hazardous radioactive waste from medical facilities or power generation facilities directly causes serious long-term water contamination.\n\n"
+            "• Land erosion and livestock usage: Uncontrolled surface runoff washes soil sediment into rivers, while livestock drinking directly from shared open water sources pollute the supply.\n\n"
+            "⦿ (b) Workable ways of making water bodies safe for use:\n\n"
+            "• Broad community hygiene campaigns: Educating citizens through local radio, television, and public forums highlights the severe health consequences of polluting public water supplies and encourages protective practices.\n\n"
+            "• Construction of municipal public toilets: Building accessible sanitation facilities in coastal communities and river towns stops residents from resorting to open defecation near natural water bodies.\n\n"
+            "• Proper urban planning and zoning: Town planning authorities must prohibit the construction of residential houses and industrial facilities close to river basins to prevent waste runoff from reaching nearby streams.\n\n"
+            "• Legal prosecution of environmental offenders: State authorities must strictly prosecute individuals participating in destructive practices like galamsey or chemical fishing to create a strong deterrent against environmental damage.\n\n"
+            "• Strict governmental regulation of mining operations: Mandating that all mineral extraction enterprises secure official licences and adhere to approved environmental protocols stops toxic runoffs into local water bodies.\n\n"
+            "• Strict enforcement of environmental laws by regulatory bodies: Equipping agencies like the Environmental Protection Agency with modern equipment such as monitoring drones and patrol vehicles allows them to actively enforce environmental protection laws against corporate and individual polluters.\n\n"
+            "• Afforestation campaigns along riverbanks: Planting vegetation and trees along natural water boundaries stabilizes soil structures and prevents torrential rain from washing sediment and toxic debris into water channels.\n\n"
+            "• Provision of community waste collection points: Placing accessible garbage bins and waste storage containers across towns encourages residents to dispose of polythene bags, plastic bottles, and organic refuse properly instead of throwing them into local streams.\n\n"
+            "• Zoning industrial sites far from water resources: Restricting the sale of lands near rivers for manufacturing developments prevents factories from discharging industrial liquid or solid waste directly into vital freshwater bodies.",
         explanation: "",
       ),
     ],
@@ -4994,66 +4978,103 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) List four features of a slum.\n"
+        scenario: "QUESTION 1 (BECE 2013 Q2)\n\n"
+            "(a) List four features of a slum.\n\n"
             "(b) Enumerate four measures that can be taken to prevent slums in the urban towns of Ghana.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Overcrowded settlement: High density of people living in a small space.\n"
-            "• Filthy environment: Poor sanitation and lack of waste management.\n"
-            "• Disorderly buildings: Structures are not arranged in any formal order.\n"
-            "• Narrow streets: Little to no access roads or streets for vehicles.\n"
-            "• Social vices: Presence of criminals and frequent outbreaks of diseases like cholera.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Town Planning Layouts: The Town and Country Planning Department must provide proper layouts with zoning and site plans to prevent overcrowding.\n"
-            "• Approval of Building Plans: Authorities must issue building permits before construction to ensure structures follow the approved city plan.\n"
-            "• Demolishing Unauthorized Buildings: Pulling down structures without permits helps reduce congestion and ensures free movement.\n"
-            "• Provision of Streets: Ensuring roads are laid out before settlement development improves planning and accessibility.\n"
-            "• Control of Rural-Urban Migration: Developing rural areas reduces the number of people moving to cities, easing the pressure on urban housing.",
+        answer: "⦿ (a) Features of a slum:\n\n"
+            "• Excessive population density: An excessively high concentration of residents occupying restricted housing quarters.\n\n"
+            "• Unsanitary living conditions: Environments marked by accumulated waste, uncollected rubbish, and inadequate drainage networks.\n\n"
+            "• Disorganised building placement: Structural developments erected haphazardly without adherence to formal spatial planning.\n\n"
+            "• Inadequate access routes: Very narrow pathways or complete absence of motorable roads linking buildings.\n\n"
+            "• Heightened safety and health hazards: Increased prevalence of unlawful acts alongside frequent transmission of infectious illnesses such as cholera.\n\n"
+            "• Substandard construction material: Dwellings erected using flimsy or improper building supplies.\n\n"
+            "• Overburdened social infrastructure: Heavy pressure exerted on limited public amenities like water points and electrical supplies.\n\n"
+            "⦿ (b) Measures that can be taken to prevent slums in the urban towns of Ghana:\n\n"
+            "• Strategic layout provision by spatial authorities: The Town and Country Planning Department must design comprehensive settlement blueprints incorporating defined zoning schemes. Establishing designated plots prevents chaotic spatial expansion and controls population concentration.\n\n"
+            "• Strict enforcement of construction permits: Municipal authorities must mandate formal authorization prior to any building project. Verifying site compliance ahead of construction ensures structures align with official urban designs and avoids unapproved developments.\n\n"
+            "• Demolition of unauthorized structures: Buildings constructed without valid permits ought to be pulled down systematically. Removing illicit developments stops structural congestion and restores open passageways for pedestrians and transit.\n\n"
+            "• Pre-development road layout construction: Establishing street networks prior to residential building allows communities to expand orderly. Constructing accessible roadways beforehand guides future development and eliminates disorganized expansion.\n\n"
+            "• Upgrading public waste management: Sanitation institutions must establish reliable refuse collection schemes, public bins, and drainage channels within vulnerable communities. Enhancing public hygiene stops environmental decay and prevents informal urban degradation.\n\n"
+            "• Regulated building alignment checks: Urban planning officers need to inspect construction projects continuously to confirm compliance with community master plans. Enforcing structural alignment guarantees orderly neighborhoods and suppresses informal settlement growth.\n\n"
+            "• Targeted rural development initiatives: Expanding modern amenities and employment options in countryside districts discourages the drift of rural populations into cities. Limiting mass inward migration relieves urban housing pressure and prevents slum creation.\n\n"
+            "• Constructing affordable public housing: Governments and private organizations should construct low-cost housing schemes tailored to low-income earners. Providing accessible accommodation deters families from erecting makeshift shelters in unregulated areas.\n\n"
+            "• Public awareness campaigns: Educating communities through public broadcasting channels highlights the legal and health dangers of informal settlements. Citizens learn that unapproved structures face demolition and that disorderly areas foster disease outbreaks.\n\n"
+            "• Rigorous enforcement of planning bye-laws: Law enforcement agencies and municipal planners must strictly apply local planning regulations. Imposing firm penalties on individuals building outside approved zones serves as a deterrent to potential offenders.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 2 (BECE 2014 Q6)\n\n"
-            "(a) Explain the term natural disaster and give two examples.\n"
+            "(a) Explain the term natural disaster and give two examples.\n\n"
             "(b) Outline four reasons why a good layout is necessary for a decent settlement.",
         answer: "⦿ (a) Answer:\n\n"
-            "• A natural disaster is any misfortune that occurs from a natural phenomenon leading to the destruction of the environment.\n"
-            "• Examples: Floods, earthquakes, droughts, volcanic eruptions, or landslides.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Easy Movement: Proper arrangement of buildings and streets allows people and vehicles to move freely.\n"
-            "• Utility Supply: It creates designated spaces for water pipes, electricity poles, and communication lines, making utility connection easier.\n"
-            "• Location of Social Facilities: It ensures that hospitals, schools, and police stations are placed in accessible areas.\n"
-            "• Postal Delivery: Streets with names and houses with numbers make it easy to identify addresses for mail distribution.\n"
-            "• Sanitation Improvement: It provides areas for waste collection facilities and drainage systems to prevent indiscriminate waste disposal.",
+            "A natural disaster refers to any destructive environmental event triggered by natural physical processes that inflicts severe damage on ecosystems, property, and human life.\n\n"
+            "⦿ Examples:\n\n"
+            "• Floods\n\n"
+            "• Earthquakes\n\n"
+            "• Epidemics (disease outbreaks)\n\n"
+            "• Droughts\n\n"
+            "• Volcanic eruptions\n\n"
+            "• Landslides\n\n"
+            "• Tsunamis\n\n"
+            "• Hurricanes / Typhoons\n\n"
+            "⦿ (b) Reasons why a good layout is necessary for a decent settlement:\n\n"
+            "• Facilitates seamless transportation: Properly arranged buildings and integrated street patterns enable pedestrians and motor vehicles to navigate the community efficiently.\n\n"
+            "• Simplifies utility distribution: Leaving clear reserves between plots streamlines the installation of public infrastructure, including pipe-borne water networks, power lines, and telecommunication cabling.\n\n"
+            "• Ensures strategic placement of essential services: Organised planning guarantees that key civic facilities, such as medical centres, educational institutions, markets, and police stations, are sited in suitable, easily reached locations.\n\n"
+            "• Streamlines postal and emergency identification: Systematic street naming paired with clear house numbering allows postal workers and emergency responders to locate properties without difficulty.\n\n"
+            "• Mitigates environmental disaster risks: Spacing buildings adequately and incorporating constructed drainage systems lessens the destructive impact of natural occurrences such as flooding and soil movement.\n\n"
+            "• Deters unlawful acts and aids policing: Clear street vistas and structured building patterns eliminate dark hideouts, making it simpler for security services and residents to monitor neighborhood safety.\n\n"
+            "• Enhances civic beauty and visual appeal: A structured settlement showcases balanced architectural design, making the surrounding environment attractive to inhabitants and visitors.\n\n"
+            "• Promotes superior public health standards: Allocating designated spots for sanitation facilities, including waste collection centers and gutters, limits open refuse disposal and elevates hygiene standards.\n\n"
+            "• Suppresses contagious disease transmission: Maintaining sufficient distance between residential structures prevents severe domestic overcrowding, curbing the airborne or contact spread of illnesses.\n\n"
+            "• Deters informal settlement creation: Pre-planned spatial layouts prevent individuals from occupying unauthorized parcels of land, thereby stopping slum development at the outset.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 3 (BECE 2022 Q5)\n\n"
             "(a) Define the following:\n"
-            "(i) Human settlement;\n"
-            " (ii) A slum.\n"
+            "    (i) Human settlement;\n"
+            "    (ii) A slum.\n\n"
             "(b) State four uses of land in your community.",
         answer: "⦿ (a) Answer:\n\n"
-            "• (i) Human settlement: A place where people have established their homes to live.\n"
-            "• (ii) A slum: An overcrowded, filthy area where buildings are disorderly and inhabited by people.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Farming: Growing crops like plantain and cocoyam for food.\n"
-            "• Housing: Building residential structures for shelter.\n"
-            "• Transport: Constructing roads to facilitate the movement of goods and people.\n"
-            "• Mining: Extracting minerals like gold from the earth.\n"
-            "• Industrialization: Building factories to process raw materials into goods.",
+            "• (i) Human settlement: Any organized location or community where individuals erect habitations and establish their daily domestic existence.\n\n"
+            "• (ii) A slum: A highly congested, unsanitary urban locality characterized by haphazardly built structures and neglected living conditions.\n\n"
+            "⦿ (b) Uses of land in the community:\n\n"
+            "• Agricultural cultivation: Land provides soil for growing essential staple crops, producing food supplies for human consumption and livestock feed.\n\n"
+            "• Residential development: Parcels of land are utilized to construct dwelling units that offer shelter and rest for individuals and families.\n\n"
+            "• Transportation infrastructure: Land is carved out for transit corridors, including roadways and pathways, to move people and commercial freight smoothly.\n\n"
+            "• Mineral extraction: Subsurface land reserves are exploited for valuable raw minerals through mining operations.\n\n"
+            "• Animal husbandry: Open acreage offers pasture for livestock grazing and land for managed animal farms.\n\n"
+            "• Economic exchange: Land acts as a valuable financial asset that can be bought or sold for commercial monetary gain.\n\n"
+            "• Medicinal plant gathering: Land supports natural vegetation, including wild herbs and trees utilized in preparing traditional medical treatments.\n\n"
+            "• Leisure and recreation: Open spaces are transformed into public sporting grounds, parks, and play centers for community sports and relaxation.\n\n"
+            "• Industrial manufacturing: Land hosts factories and processing facilities dedicated to converting raw natural materials into commercial products.\n\n"
+            "• Cultural and spiritual practices: Specific sites are designated as sacred grounds, shrines, or places of communal worship.\n\n"
+            "• Commercial trade: Land is developed into organized trading hubs and central marketplaces, such as the Kejetia market in Kumasi, to facilitate retail business.\n\n"
+            "• Forest conservation: Land is set aside as protected ecological reserves to preserve natural timber and wildlife habitats.\n\n"
+            "• Interment grounds: Dedicated areas are reserved as cemeteries, such as the Tafo cemetery in Kumasi, for burying deceased individuals.\n\n"
+            "• Healthcare infrastructure: Land is used to build medical centers, clinics, and health compounds to deliver medical care to local residents.\n\n"
+            "• Educational infrastructure: Land provides the space needed to build primary and secondary schools that support academic instruction.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 4 (BECE 2023 Q5a)\n\n"
-            "(i) What is settlement?\n"
+            "(i) What is settlement?\n\n"
             "(ii) Explain four reasons for which bad layouts of settlements should be prevented.",
         answer: "⦿ (i) Answer:\n\n"
-            "• Settlement: A place where people put up houses, such as huts or villages, and live in them.\n\n"
-            "⦿ (ii) Reasons to prevent bad layouts:\n\n"
-            "• To check and control disasters: Proper layouts prevent buildings from being cited on waterways, reducing flood risks.\n"
-            "• To improve ventilation: Correct spacing between buildings allows for better air circulation.\n"
-            "• To facilitate easy location of places: Well-planned streets make it easier to find specific buildings or facilities.\n"
-            "• To help minimize crime: Planned areas are easier for security agencies to patrol and monitor, removing criminal hideouts.",
+            "A settlement is an established geographic locality where human beings build dwelling structures, such as huts, cottages, or houses, to reside in.\n\n"
+            "⦿ (ii) Reasons for which bad layouts of settlements should be prevented:\n\n"
+            "• Restricting informal slum expansion: Preventing haphazard building placements stops marginalized areas from turning into squalid, unplanned slums.\n\n"
+            "• Promoting equitable civic access: Controlled planning ensures every resident enjoys convenient access to essential social infrastructure and services.\n\n"
+            "• Optimizing land utilisation: Avoiding chaotic construction practices preserves valuable land space for future civic needs and structured development.\n\n"
+            "• Improving community aesthetics: Preventing unorganized layouts ensures the settlement remains orderly, clean, and visually pleasing.\n\n"
+            "• Eliminating illegal land encroachment: Enforcing official site designs stops unauthorized individuals from occupying public or unsafe land reserves.\n\n"
+            "• Maximizing natural light and air circulation: Setting minimum distances between buildings prevents structural choking, ensuring adequate fresh air and light reach every household.\n\n"
+            "• Controlling natural hazards: Preventing unapproved structures in vulnerable locations, such as natural flood channels, protects lives and property during heavy rainfall.\n\n"
+            "• Preventing domestic congestion: Enforcing spatial regulations reduces excessive population concentration within single plots or neighborhoods.\n\n"
+            "• Lowering disease transmission: Preventing haphazard, cramped construction limits the rapid spread of communicable infections among neighbors.\n\n"
+            "• Simplifying geographic navigation: Clear spatial alignment allows residents, visitors, and delivery services to find specific homes and places quickly.\n\n"
+            "• Enhancing public safety: Eliminating dense, unmonitored building clusters removes dark hideouts, assisting law enforcement in reducing crime.",
         explanation: "",
       ),
     ],
@@ -5062,29 +5083,40 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) State four characteristics of a good map.\n"
-            "(b) Highlight the steps you will take to draw the map of your school compound.\n"
-            "(BECE 2017 Q2)",
+        scenario: "QUESTION 1 (BECE 2017 Q2)\n\n"
+            "(a) State four characteristics of a good map.\n\n"
+            "(b) Highlight the steps you will take to draw the map of your school compound.",
         answer: "⦿ (a) Characteristics of a good map:\n\n"
-            "• Title: Clearly states what the map represents.\n"
-            "• A date: Indicates when the map was drawn.\n"
-            "• A scale: Shows the relationship between distances on the map and actual distances on the ground.\n"
-            "• Key/legend: Explains the meaning of symbols and signs used on the map.\n"
-            "• Conventional signs: Standard symbols used to represent features.\n"
-            "• Direction: Usually shown with a North arrow to orient the map.\n\n"
+            "A standard map ought to incorporate the following core elements:\n\n"
+            "• Title: A clear label stating precisely what area or theme the map illustrates.\n\n"
+            "• Date: The specific time frame or year when the map was produced.\n\n"
+            "• Scale: The proportion that links distances measured on the map directly to actual ground distances.\n\n"
+            "• Key or Legend: A guide that explains what each symbol, colour, or sign represents.\n\n"
+            "• Conventional Signs: Universally recognised symbols that represent geographical features.\n\n"
+            "• Direction Indicator: A pointer, usually a North arrow, showing how the map aligns with cardinal directions.\n\n"
             "⦿ (b) Steps to be taken to draw a school compound:\n\n"
-            "• Step 1: Do a reconnaissance or a survey: Conduct a general survey or inspection around the area to be drawn. This enables you to get clear pictures of the boundaries, landmarks, and other features of the area.\n"
-            "• Step 2: Do a rough sketch map: Create a rough sketch map of the school compound after the survey. This sketch must include the boundaries, landmarks, and other features identified during the general survey.\n"
-            "• Step 3: Revisit the compound for correction: After making the rough sketch, the place must be revisited to make important corrections to any areas that appeared incorrect on the initial sketch.\n"
-            "• Step 4: Measure the length and breadth of the compound: Use a measuring tape to measure the length and breadth of the school compound. This provides the accurate measurements needed to draw the final map.\n"
-            "• Step 5: Choose and state the scale: Select a scale for the map based on the measurements taken and state it on the paper. This represents the ratio of the distance on the map to the actual distance on the ground.\n"
-            "• Step 6: Draw the outline of the compound using the scale: Convert the measured distances, length and breadth, on the ground using the chosen scale and draw the outline on paper using a ruler and pencil.\n"
-            "• Step 7: Insert the outline of the features in the compound: Insert the various identified features, such as trees and landmarks, into the map. Each feature must be drawn to scale and placed in its correct location.\n"
-            "• Step 8: Label the features on the compound: Label the inserted features by their actual names as they appear on the school compound.\n"
-            "• Step 9: Show the north pole: Indicate a north pole or North arrow pointing to the North direction of the earth beside the map. This shows the direction and position of the map when a person is facing it.\n"
-            "• Step 10: Show the key: Provide a key or legend to interpret and explain the signs or symbols representing the features, landmarks, or landforms on the map.\n"
-            "• Step 11: Write the title of the map: State the title on top of the map to provide information on what the map represents. For example, ‘The map of St. Peter’s Junior High School’.",
+            "• Step 1: Conduct a preliminary survey\n"
+            "Walk around the school premises to carry out an initial inspection. This observation helps you establish clear boundaries and identify major landmarks or structural features across the site.\n\n"
+            "• Step 2: Draft an initial rough layout\n"
+            "Produce a basic freehand drawing of the school layout immediately following your inspection. Ensure this preliminary plan marks down essential boundaries, landmark structures, and noticeable physical features.\n\n"
+            "• Step 3: Re-examine the compound to correct errors\n"
+            "Return to the premises with your initial draft in hand. Compare your sketch against the actual environment to detect and rectify any spatial inaccuracies or missing details.\n\n"
+            "• Step 4: Take physical measurements of the area\n"
+            "Utilise a measuring tape to gather precise field measurements of the length and width of the school premises. These dimensions provide the exact measurements necessary for accurate scaling.\n\n"
+            "• Step 5: Determine and state an appropriate scale\n"
+            "Establish a suitable mathematical ratio based on your physical measurements, then write this scale clearly on your page. This ratio establishes how distance on paper corresponds to distance on the ground.\n\n"
+            "• Step 6: Construct the boundary outline using the scale\n"
+            "Convert your physical field dimensions into corresponding paper measurements using your chosen scale. Draw the outer perimeter of the compound accurately with a pencil and ruler.\n\n"
+            "• Step 7: Position the compound features inside the boundary\n"
+            "Plot the positions of identified features, such as buildings, trees, and paths, within the perimeter. Every element must be positioned accurately according to scale and location.\n\n"
+            "• Step 8: Label every identified feature\n"
+            "Write clear names alongside each plotted feature on the map, ensuring the labels match the real-world elements found on the school grounds.\n\n"
+            "• Step 9: Indicate the North point\n"
+            "Position a North arrow adjacent to the main drawing. This symbol provides directional orientation for anyone reading the map.\n\n"
+            "• Step 10: Include a key or legend\n"
+            "Construct an explanatory key that decodes all symbols, shading, or signs applied across the drawing. This enables readers to understand every feature correctly.\n\n"
+            "• Step 11: Provide a clear title\n"
+            "Write a descriptive heading at the top of the sheet to explain the purpose and location of the drawing, for example: 'The map of St. Peter’s Junior High School.'",
         explanation: "",
       ),
     ],
@@ -5095,40 +5127,32 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario: "QUESTION 1\n\n"
-            "(a) Define the term population.",
-        answer: "⦿ Answer:\n\n"
-            "• Population refers to the number of people living in a geographical area at a specific period or time.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(b) State any four effects of age distribution on development in Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "Advantages of population structure:\n\n"
-            "• (i) Large labour force: The age distribution shows that there is a large labour force in the country constituting 42%. These are the people between the ages of eighteen (18) and fifty-nine (59) years.\n"
-            "• (ii) Large market: The age distribution of the population implies a large market base for producers. This is because the working population constitutes 42.0% and the dependency group is 58%. All these groups will increase the demand for goods and services in the country.\n\n"
-            "Disadvantages of the population structure:\n\n"
-            "• (iii) High government expenditure: The government is faced with higher expenditure on social services. These include the provision of basic and secondary education and healthcare for people below eighteen years (53.4%) and special medical care for people aged sixty years and above (4.6%).\n"
-            "• (iv) Slow development: Development of the country will be slow. This is because the government is going to divert the state resources meant for developmental projects to provide social services for the young and aged people who constitute more than half (58%) of the total population.\n"
-            "• (v) High dependency burden: There will be a high dependency burden of more than half (58%) of the total population on the working population (42%). This will result in a low standard of living in the country.\n"
-            "• (vi) Low savings and investment: As the dependency burden becomes high, more money will be spent on consumption. This will reduce the money that can be saved and invested by the working population.\n"
-            "• (vii) High government expenditure on pensioners: People who are 60 years and above and have retired from active services and receive pension pay will increase government expenditure. They constitute 4.6% of the total population.\n"
-            "• (viii) Low tax revenue: Since the working population is not high (42%), the tax revenue that can be generated by the government to undertake projects will be low.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
+            "(a) Define the term population.\n\n"
+            "(b) State any four effects of this age distribution on development in Ghana.\n\n"
             "(c) Outline four disadvantages of Ghana's population structure.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) High government expenditure: The government is faced with higher expenditure on social services. These include provision of basic and secondary education and healthcare for the people below eighteen years (52.5%) and special medical care for the sixty years and above people (4.6%).\n\n"
-            "• (ii) Slow of development: Development of the country will be slow. This is because the government is going to divert the state resources meant for developmental projects to provide social services for the young and aged people who constitute more than half (57.1%) of the total population.\n\n"
-            "• (iii) High dependency burden/low standard of living: There will be high dependency burden of more than half (57.1%) of the total population on the working population (42.9%). This will result in low standard of living in the country.\n\n"
-            "• (iv) Low savings and investment: As the dependency burden becomes high, more money will be spent on consumption. This will reduce the money that can be saved and invested in by the working population.\n\n"
-            "• (v) High government expenditure on pensioners: People who are 60 years and above and have retired from active services and receive pension pay will increase government expenditure. They constitute 4.6% of the total population.\n\n"
-            "• (vi) Low tax revenue: Since the working population is not high (42.9%), the tax revenue that can be generated by the government to undertake projects will be low.\n\n"
-            "• (vii) Low productivity: The working population constitutes 42.9% and this cannot produce enough to meet the needs of the whole population in the country. This will therefore result in low productivity in the agricultural sector, manufacturing sector as well as the service sector of the country.\n\n"
-            "• (viii) High expenditure on training and retraining of manpower: The structure indicates that government has to put in place vocational, technical and commercial training institutions to ensure that the working force (42.9%) gets adequate training to equip them with skills and periodic retraining to update the skills of those already in the service. This will increase the expenditure of the government.\n\n"
-            "• (ix) High government expenditure on the youth and the aged: The government will spend more to provide the needs of the youth and the aged. These needs include provision of employment avenues, recreational centers, schools, etc. for the youth as well as health facilities, etc. for the aged in the country.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Population refers to the total number of individuals residing within a specific geographical area at a particular point in time.\n\n"
+            "⦿ (b) Effects of the age distribution on development in Ghana:\n\n"
+            "Advantages of Population Structure\n\n"
+            "• (i) Large labour force: The demographic breakdown demonstrates a substantial manpower base, with 42% of the population falling into the active workforce category between eighteen (18) and fifty-nine (59) years of age.\n\n"
+            "• (ii) Large market: The distribution of age groups creates a broad consumer market for producers. Because the active workforce accounts for 42.0% while the dependent segment comprises 58%, combined demand across all age demographics stimulates market consumption for goods and services.\n\n"
+            "Disadvantages of Population Structure\n\n"
+            "• (iii) High government expenditure: State resources face heavy strain due to the elevated cost of providing public amenities. This involves funding basic and secondary schooling alongside medical services for citizens under eighteen years (53.4%), as well as specialised healthcare for senior citizens aged sixty years and above (4.6%).\n\n"
+            "• (iv) Slow rate of development: National advancement is hampered because the state must channel funds away from long-term capital infrastructure to meet the immediate social welfare requirements of dependent youths and elderly citizens, who together make up over half (58%) of the total population.\n\n"
+            "• (v) High dependency burden: A heavy economic load rests upon the active workforce (42%), as they must support a dependent population that exceeds half (58%) of the country. This imbalance reduces overall living standards across the nation.\n\n"
+            "• (vi) Low savings and investment: High dependency levels force households to direct the majority of earnings towards immediate daily consumption. Consequently, working individuals have diminished financial capacity to accumulate personal savings or generate capital for investment.\n\n"
+            "• (vii) High government expenditure on pensioners: Retired citizens aged 60 and older who no longer participate in active employment rely on state pension disbursements. Servicing these statutory entitlements increases government operational spending, supporting 4.6% of the population.\n\n"
+            "• (viii) Low tax revenue: Because the proportion of gainfully employed citizens remains relatively small at 42%, the revenue collected through income taxation is constrained, limiting state funding for development projects.\n\n"
+            "⦿ (c) Disadvantages of Ghana's population structure:\n\n"
+            "• (i) High government expenditure: Public finances are subjected to immense pressure as the government must fund essential social provisions. These include primary and secondary education together with healthcare services for youths under eighteen (52.5%), in addition to targeted medical care for elderly citizens aged sixty and above (4.6%).\n\n"
+            "• (ii) Slow rate of development: Economic expansion moves at a reduced pace because state capital that would otherwise fund transformative developmental infrastructure is diverted into recurrent expenditure on social services for dependents, who account for over half (57.1%) of the population.\n\n"
+            "• (iii) High dependency burden and low standard of living: A disproportionate support ratio exists where a smaller working segment (42.9%) must sustain a dependent majority (57.1%). This heavy financial responsibility depresses the overall standard of living.\n\n"
+            "• (iv) Low savings and investment: Elevated dependency rates ensure that household incomes are primarily absorbed by routine consumer spending. As a result, the active workforce retains minimal surplus capital to deposit into savings accounts or invest in productive ventures.\n\n"
+            "• (v) High government expenditure on pensioners: Senior citizens aged 60 and above who have exited active duty draw regular pension payments from public funds. Fulfilling these retirement obligations elevates state budgetary outlay on this 4.6% demographic segment.\n\n"
+            "• (vi) Low tax revenue: With the tax-paying workforce accounting for only 42.9% of the national populace, the total volume of direct tax revenue gathered by tax authorities remains low, restricting state capacity to execute capital works.\n\n"
+            "• (vii) Low productivity: Because the active labour force represents only 42.9% of the overall population, output across key sectors such as agriculture, manufacturing, and services is insufficient to drive robust national productivity.\n\n"
+            "• (viii) High expenditure on training and retraining of manpower: To maintain an efficient workforce (42.9%), the government must expend significant capital constructing and running vocational, technical, and commercial training institutions, while also funding continuous professional skill upgrades.\n\n"
+            "• (ix) High government expenditure on the youth and the aged: The state is required to commit substantial financial resources towards satisfying the specific needs of younger and older demographics. This includes expanding job opportunities, youth recreational facilities, and schools, while simultaneously building geriatric medical facilities for elderly citizens.",
         explanation: "",
       ),
     ],
@@ -5137,115 +5161,159 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) Describe three duties of a citizen of Ghana.\n"
+        scenario: "QUESTION 1 (BECE 1996 Q4)\n\n"
+            "(a) Describe three duties of a citizen of Ghana.\n\n"
             "(b) Explain any two rights of a citizen of Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Duties of a citizen of Ghana:\n\n"
-            "• Payment of tax: A citizen of Ghana is expected to pay taxes to the state. This enables the government to mobilize sufficient revenue to undertake development projects such as roads, provision of water, and electricity.\n\n"
-            "• Law abiding/obedience to the constitution: A citizen is expected to obey all rules, regulations, and provisions of the constitution to ensure peace and stability.\n\n"
-            "• Participate in communal labour: Offering skills and knowledge to support community development through activities like cleaning, weeding, and construction.\n\n"
-            "• Respect for the rights of others: Respecting fellow citizens' rights to ensure harmonious living.\n\n"
-            "• Protection of public properties: Guarding state properties to ensure they function effectively for everyone.\n\n"
-            "• Reporting criminals to the police: Enhancing national security by reporting individuals involved in criminal activities.\n\n"
-            "• Defending the state: Being ready to defend the name of Ghana at all times, especially during conflict.\n\n"
-            "• Exhibiting positive work attitudes: Practicing punctuality, hard work, and respect for authority to increase national productivity.\n\n"
-            "• Defending the constitution: Upholding the constitution against illegal acts such as military coups.\n\n"
-            "• Offering voluntary service: Rendering services like national service or acting as a witness in court.\n\n"
-            "(b) Rights of a citizen of Ghana:\n\n"
-            "• Right to life: Every citizen has the right to live; this life is protected by the state and can only be restricted by a court of law.\n\n"
-            "• Right to personal liberty: The freedom to do things or express opinions in accordance with the laws and customs of the state.\n\n"
-            "• Right to fair trial: The guarantee of being heard as a plaintiff or defendant before a court of law.\n\n"
-            "• Right to equality before the law: Being treated equally regardless of political affiliation, social status, economic standing, or gender.\n\n"
-            "• Right to education: The right to attend a school of choice and acquire knowledge to become a responsible person.\n\n"
-            "• Right to work: The right to engage in legally and socially accepted work to earn a living.",
+        answer: "⦿ (a) Duties of a citizen of Ghana:\n\n"
+            "• Payment of tax: Citizens are required to settle their financial commitments to the state through tax contributions. This revenue gives the government the financial means to fund essential public infrastructure projects, such as building road networks, providing clean water systems, and expanding the electrical grid nationwide.\n\n"
+            "• Law abiding/obedience to the constitution: Every individual in the country has an obligation to adhere strictly to statutory provisions, legal regulations, and the fundamental laws set out in the constitution. Consistently following these legal frameworks safeguards public peace and maintains social order.\n\n"
+            "• Participate in communal labour: It is the civic responsibility of citizens to dedicate their personal expertise, physical energy, and time toward local development projects. Engaging in collective activities such as neighbourhood clean-ups, clearing overgrown vegetation, or building community structures drives local advancement.\n\n"
+            "• Respect for the rights of others: Members of society must recognize and honor the fundamental entitlements and liberties of fellow citizens. Showing mutual consideration prevents social friction and promotes harmonious co-existence within the nation.\n\n"
+            "• Protection of public properties: Individuals must actively safeguard state-owned infrastructure and public assets against vandalism, theft, or misuse. Preserving public utilities ensures they remain operational for the benefit of the entire populace.\n\n"
+            "• Reporting criminals to the police: Citizens ought to inform law enforcement agencies whenever they observe or suspect unlawful conduct. Assisting police authorities in tracking down offenders helps suppress criminal activities and elevates national security.\n\n"
+            "• Defending the state: Citizens possess a patriotic obligation to safeguard the integrity, sovereign status, and reputation of the nation at all times, particularly during moments of national crisis or foreign aggression.\n\n"
+            "• Exhibiting positive work attitudes: Displaying strong workplace discipline, such as maintaining punctuality, demonstrating industriousness, and respecting managerial authority, enhances overall economic output and national development.\n\n"
+            "• Defending the constitution of Ghana: Every citizen has a solemn obligation to protect the supreme law of the land against unconstitutional overrides, such as armed political coups or illegal power grabs.\n\n"
+            "• Offering voluntary service to the state: Individuals should willingly offer their skills to public causes without compulsory force. Examples include fulfilling national service duties or testifying as a witness during judicial court proceedings.\n\n"
+            "⦿ (b) Rights of a citizen of Ghana:\n\n"
+            "• Right to life: Every citizen possesses an inherent entitlement to exist, and this life cannot be arbitrarily taken away by any private entity or authority, except through a lawful sentence pronounced by a competent court.\n\n"
+            "• Right to personal liberty: Citizens possess the freedom to act, move, and express themselves without unlawful restraint, provided their conduct aligns with established statutory laws and societal customs.\n\n"
+            "• Right to fair trial: Individuals accused of wrongdoing or involved in legal disputes are entitled to an impartial hearing before a court of law, whether appearing as a plaintiff bringing a complaint or a defendant facing charges.\n\n"
+            "• Right to equality before the law: Every person is subject to identical legal standards and protections. The judicial system must treat all citizens equally regardless of their political beliefs, economic standing, social background, or gender.\n\n"
+            "• Right to education: Every person has the legal entitlement to enrol in educational institutions of their choice to acquire academic knowledge and practical skills necessary for personal advancement and responsible citizenship.\n\n"
+            "• Right to work: Individuals possess the freedom to pursue any employment or occupation that is recognized as lawful and socially acceptable to generate an income and sustain their livelihood.\n\n"
+            "• Right to protection from slavery and forced labour: Citizens are fully protected from being subjected to involuntary servitude, human trafficking, or compulsory labor against their free will.\n\n"
+            "• Right to freedom against discrimination: Citizens cannot be subjected to biased or unfair treatment on the basis of their gender, racial origin, skin tone, tribe, religious persuasion, health condition, or financial class unless specifically mandated by a ruling from a court of law.\n\n"
+            "• Right to own properties: Every citizen is legally empowered to acquire and hold real estate, financial assets, and personal possessions, either individually or jointly with other persons.\n\n"
+            "• Right to sue and be sued: Individuals have the legal authority to initiate court actions against others to seek judicial redress, while simultaneously holding a corresponding liability to face legal proceedings when accused of civil or criminal wrongdoing.\n\n"
+            "• Freedom of speech and association: Citizens enjoy the constitutional freedom to express their thoughts, hold opinions, practice their preferred faith, associate with any group or political party, and travel freely within the country in accordance with constitutional boundary lines.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
+        scenario: "QUESTION 2 (BECE 2000 Q3b)\n\n"
             "Explain four responsibilities of the individual in Ghana.",
         answer: "⦿ Answer:\n\n"
-            "1. Payment of Taxes: Regularly contributing financially to help the government provide social amenities and infrastructure.\n\n"
-            "2. Obedience to the Law: Following the rules and regulations set by the constitution to maintain order.\n\n"
-            "3. Protection of National Property: Taking care of public facilities like schools, hospitals, and parks.\n\n"
-            "4. Participation in Communal Labour: Engaging in community service to improve the local environment and development.",
+            "• Paying taxes and duties: Every citizen has a responsibility to fulfill their tax liabilities to the government. Settling these accounts systematically provides the state with necessary capital to fund public health, educational institutions, and transport infrastructure.\n\n"
+            "• Obeying the laws of the country: Citizens must strictly observe all constitutional guidelines, legal enactments, and community regulations. Compliance with statutory standards maintains public order and preserves nationwide stability.\n\n"
+            "• Protecting state properties: Citizens must care for and preserve state assets, such as government buildings, public schools, and community amenities. Guarding these assets against destruction ensures they continue to serve the population efficiently.\n\n"
+            "• Engaging in communal labour: Individuals should participate actively in organized community initiatives, such as clearing public waterways, keeping streets clean, and constructing community centres. These voluntary efforts accelerate local development.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
-            "(a) What are human rights abuses?\n"
-            "(b) Give four examples of such abuses.\n"
+        scenario: "QUESTION 3 (BECE 2004 Q2)\n\n"
+            "(a) What are human rights abuses?\n\n"
+            "(b) Give four examples of such abuses.\n\n"
             "(c) Explain two ways by which human rights abuses can be prevented.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Definition: Human rights abuses are the infringement or violation of the fundamental rights and freedoms of an individual.\n\n"
-            "(b) Examples:\n\n"
-            "• Child labour and child trafficking.\n\n"
-            "• Domestic slavery and violence against women.\n\n"
-            "• Bullying by authority figures (soldiers, teachers, etc.).\n\n"
-            "• Mob action/justice.\n\n"
-            "(c) Prevention methods:\n\n"
-            "• Formal Education: Teaching citizens to recognize and avoid practices like slavery and child abuse. Knowledge empowers people to defend themselves.\n\n"
-            "• Effective Judiciary: Ensuring courts settle cases impartially. This encourages people to seek legal redress rather than taking the law into their own hands.\n\n"
-            "• Strengthening Institutions: Resourcing agencies like CHRAJ and DOVVSU to protect vulnerable groups at the local level.",
+        answer: "⦿ (a) Human rights abuses:\n\n"
+            "Human rights abuses refer to actions, practices, or policies that unlawfully restrict, violate, or deny individuals their fundamental constitutional entitlements, freedoms, and personal dignity.\n\n"
+            "⦿ (b) Examples of human rights abuses:\n\n"
+            "• Domestic slavery and involuntary servitude.\n\n"
+            "• Physical, emotional, or psychological child abuse.\n\n"
+            "• Forced engagement in sex trade and commercial sexual exploitation.\n\n"
+            "• Domestic violence and physical assault directed at women.\n\n"
+            "• Physical intimidation or bullying by authority figures, such as security personnel or teachers.\n\n"
+            "• Mob action and extrajudicial killings.\n\n"
+            "• Child trafficking and illegal child labour.\n\n"
+            "• Social, gender, or religious discrimination.\n\n"
+            "• Unlawful detention and wrongful denial of personal liberty.\n\n"
+            "⦿ (c) Ways by which human rights abuses can be prevented:\n\n"
+            "• Formal education: Restructuring the educational curriculum to make human rights instruction universally accessible ensures that citizens learn about their legal protections from an early age. Educating people about the dangers of practices like child exploitation and domestic violence builds an informed population capable of resisting rights infringements.\n\n"
+            "• Effective performance of the court/independent judiciary: Establishing an impartial and independent court system guarantees that cases of human rights violations are resolved without political interference or prejudice. When victims trust that courts will settle disputes fairly, they are encouraged to seek legal redress rather than suffering in silence or resorting to unlawful vengeance.\n\n"
+            "• Violators/offenders must be exposed and punished: The judicial system must consistently enforce severe legal penalties against entities or individuals found guilty of violating human rights. Publicly prosecuting offenders deters potential perpetrators while granting financial or moral remedies to victims.\n\n"
+            "• Strengthening of Human Rights Institutions: Providing adequate funding, personnel, and operational support to human rights bodies such as the Commission on Human Rights and Administrative Justice (CHRAJ) and the Domestic Violence and Victim Support Unit (DOVVSU) empowers them to investigate claims efficiently. Well-resourced institutions can effectively curb instances of child labor, domestic abuse, and social marginalization at community and national levels.\n\n"
+            "• Public education by National Commission on Civic Education (NCCE): The NCCE should launch extensive awareness campaigns across print media, electronic broadcasts, religious centers, and community gatherings. Informing the public about their constitutional guarantees empowers citizens to recognize violations and demand legal protection.\n\n"
+            "• The use of the mass media: Granting press freedom enables journalists to investigate and highlight instances of human rights violations occurring within institutions, workplaces, or remote areas. Serving as a public watchdog, the mass media holds abusers accountable and deters state officials or private individuals from engaging in unlawful practices.\n\n"
+            "• Upholding international guarantees such as Amnesty International: Ratifying and adhering to global treaties, including the Universal Declaration of Human Rights and the African Charter on Human and Peoples Rights, holds the government accountable to international standards. Partnering with bodies such as Amnesty International provides additional supervision and resources to suppress domestic human rights abuses.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4\n\n"
-            "(a) State three reasons why people suffer human rights abuses.\n"
-            "(b) Explain four ways by which human rights abuses may be prevented.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Reasons for suffering abuses:\n\n"
-            "• Illiteracy/Ignorance: Not knowing one's rights or where to seek help.\n\n"
-            "• Poverty: Financial hardship makes it difficult to afford legal representation.\n\n"
-            "• Fear of Intimidation: Fearing retaliation from the abuser or their followers.\n\n"
-            "• Apathy: A lack of will to fight for one's rights or reporting cases to the police.\n\n"
-            "(b) Prevention methods:\n\n"
-            "• Public Education (NCCE): Using media and community gatherings to inform people of their rights.\n\n"
-            "• Media Watchdogs: Allowing the mass media to expose cases of abuse to protect the vulnerable.\n\n"
-            "• Sanctioning Offenders: Courts must punish those who violate rights to serve as a deterrent.\n\n"
-            "• Upholding International Guarantees: Following international charters (like the UNO or Amnesty International) to bring global attention to local rights.",
+        scenario: "QUESTION 4 (BECE 2009 Q2)\n\n"
+            "(a) What is human rights abuse?\n\n"
+            "(b) State three reasons why people suffer human rights abuses.\n\n"
+            "(c) Explain four ways by which human rights abuses may be prevented.",
+        answer: "⦿ (a) Human rights abuse:\n\n"
+            "Human rights abuse describes any act that infringes upon, denies, or severely curtails the basic constitutional liberties, safety, or dignity to which every individual is naturally and legally entitled.\n\n"
+            "⦿ (b) Reasons why people suffer human rights abuses:\n\n"
+            "• Illiteracy/low level of education/ignorance: Individuals who lack basic formal education are often unaware of their fundamental constitutional entitlements or the legal channels available for seeking help. This lack of knowledge leaves them vulnerable to exploitation by others.\n\n"
+            "• Poverty: Financial hardship frequently prevents victims from defending themselves against rights violations. Impoverished individuals usually lack the financial resources needed to hire legal representation or pursue lengthy court cases against powerful perpetrators.\n\n"
+            "• Fear of intimidation: Victims often remain silent about violations because they fear retaliation, physical harm, or social ostracization from perpetrators or their associates, particularly when abusers hold significant power.\n\n"
+            "• Lack of political representation: Marginalized or minority groups, such as children, women, or persons living with disabilities, often suffer abuses when they lack strong representation in legislative bodies. Without advocates to champion their interests, their fundamental rights can be easily overlooked or legally undermined.\n\n"
+            "• Lack of confidence in the judicial system: When the public views the legal system as corrupt, biased, or excessively slow, victims become discouraged from pursuing cases in court. The belief that they will not receive a fair trial leads many to endure continuous rights violations.\n\n"
+            "• Apathy: Some individuals display a passive attitude toward their own rights, refusing to report cases to law enforcement agencies or initiate court actions. Neglecting to challenge rights violations allows abusers to continue their actions unchecked.\n\n"
+            "• Religious and traditional beliefs: Outmoded cultural practices and religious traditions, such as harmful widowhood rituals, female genital mutilation, forced ritual servitude, and facial scarification, cause victims to endure severe physical and psychological violations under the guise of custom.\n\n"
+            "• Stigmatization: Individuals facing social bias due to health conditions, such as HIV/AIDS, or economic hardship often experience severe discrimination. Social marginalization exposes them to emotional abuse and isolates them from support networks.\n\n"
+            "• Discrimination: Biased treatment based on gender, tribe, skin colour, or physical impairments restricts equal access to opportunities and social protection, directly leading to human rights violations.\n\n"
+            "• Parental irresponsibility: When parents neglect their duties by failing to provide adequate food, housing, healthcare, or education, their children are exposed to child labour, street vagrancy, and physical exploitation.\n\n"
+            "⦿ (c) Ways by which human rights abuses may be prevented:\n\n"
+            "• Promoting widespread formal education: Expanding access to quality education ensures citizens understand their legal rights and the avenues available to defend them.\n\n"
+            "• Ensuring a fair and accessible court system: Maintaining an independent judiciary guarantees that rights violations are resolved impartially, encouraging victims to seek legal redress.\n\n"
+            "• Enforcing strict legal sanctions against offenders: Prosecuting and penalizing rights violators deters others from engaging in similar unlawful practices.\n\n"
+            "• Strengthening civic education and media coverage: Empowering organizations like the NCCE and maintaining an independent press ensures continuous public enlightenment and exposure of human rights abuses.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 5\n\n"
-            "(a) List five examples of cases which can be reported to the office of Domestic Violence and Victim Support Unit (DOVVSU).\n"
-            "(b) Describe five functions of DOVVSU.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Reportable cases:\n\n"
-            "• Rape.\n"
-            "• Defilement.\n"
-            "• Child abuse.\n"
-            "• Domestic violence.\n"
-            "• Forced marriage.\n\n"
-            "(b) Functions of DOVVSU:\n\n"
-            "• Advising on Crime Prevention: Educating people in schools and churches to minimize crime.\n\n"
-            "• Counselling: Providing psychological support to victims of physical or sexual assault.\n\n"
-            "• Mediation: Resolving misunderstandings between victims and offenders to ensure peace.\n\n"
-            "• Prosecution: Representing the state in court to ensure fair judgment for victims.\n\n"
-            "• Arresting Offenders: Taking culprits into custody to ensure they are punished for their actions.",
+        scenario: "QUESTION 5 (BECE 2019 Q5)\n\n"
+            "(a) List five examples of cases which can be reported to the office of Domestic Violence and Victim Support Unit of the Ghana Police Service (DOVVSU).\n\n"
+            "(b) Describe five functions of the Domestic Violence and Victim Support Unit of the Ghana Police Service (DOVVSU).",
+        answer: "⦿ (a) Examples of cases reportable to DOVVSU:\n\n"
+            "• Incidents of rape and sexual assault.\n\n"
+            "• Illegal acts of defilement involving minors.\n\n"
+            "• Forced marriage and underage betrothal.\n\n"
+            "• Human trafficking and child abduction.\n\n"
+            "• Domestic violence, spousal abuse, and physical assault.\n\n"
+            "• Child abuse, child labor, and parental neglect.\n\n"
+            "• Unlawful carnal knowledge and incest.\n\n"
+            "• Persistent harassment and unlawful confinement.\n\n"
+            "⦿ (b) Functions of DOVVSU:\n\n"
+            "• Advising on crime prevention: DOVVSU conducts public outreach campaigns in educational institutions, places of worship, and market centers to educate citizens on crime prevention strategies. These educational programs help lower the overall rate of domestic crimes across the country.\n\n"
+            "• Offering counselling to victims: The unit provides professional psychological support and trauma counselling to survivors of domestic violence, physical assault, and sexual abuse. This care helps victims recover emotionally and rebuild their lives.\n\n"
+            "• Mediation: DOVVSU acts as an impartial mediator to settle domestic conflicts and interpersonal disputes between victims and perpetrators. Facilitating constructive dialogue helps restore peace and resolve family disagreements amicably without necessarily escalating to criminal trials.\n\n"
+            "• Prosecution: The unit initiates legal proceedings against individuals who commit domestic crimes or child abuse offenses. Appearing in court on behalf of vulnerable victims ensures that perpetrators are held legally accountable for their actions.\n\n"
+            "• Investigation of offences or cases: Officers within the unit conduct detailed investigations into reported cases involving physical abuse, sexual exploitation, and child neglect. Gathering solid evidence enables the unit to build strong cases for judicial prosecution or administrative action.\n\n"
+            "• Arresting culprits or offenders: DOVVSU holds the statutory authority to apprehend individuals accused of committing domestic violence or child abuse crimes. Detaining and prosecuting offenders removes threats from the community and deters potential perpetrators.\n\n"
+            "• Maintaining law and order: By intervening in domestic disputes and protecting vulnerable individuals, DOVVSU contributes to preserving peace, public safety, and order within households and local communities.\n\n"
+            "• Provision of legal assistance and advice: The unit offers legal guidance to victims of domestic crime who may be unfamiliar with judicial procedures. This support helps victims navigate legal processes effectively and secure appropriate judicial remedies.\n\n"
+            "• Helps to rehabilitate victims: Beyond providing initial medical and psychological assistance, DOVVSU works to rehabilitate survivors of severe physical or domestic abuse, aiding their successful reintegration into society.\n\n"
+            "• Development of data on domestic violence: DOVVSU compiles comprehensive statistics and maintains records on domestic crime trends across the nation. This analytical data aids security agencies and policymakers in formulating effective crime prevention strategies.\n\n"
+            "• Handles cases of child delinquency: The unit manages cases involving juvenile offenders, ensuring that young people who commit minor offenses are handled through appropriate rehabilitation processes rather than standard punitive measures.\n\n"
+            "• Educating the public on domestic violence and crime: Using television programs, radio broadcasts, and community forums, DOVVSU raises public awareness about the legal consequences of domestic abuse, encouraging citizens to report violations.\n\n"
+            "• Protecting the rights of the vulnerable: DOVVSU actively protects marginalized groups, including children, women, elderly citizens, and persons with disabilities, safeguarding them from exploitation by more powerful individuals.\n\n"
+            "• Preparing referral cases: The unit evaluates complex cases and officially refers them to specialized welfare organizations, healthcare institutions, or legal aid boards for further management.\n\n"
+            "• Handling special cases from the IGP: DOVVSU executes special assignments and investigates sensitive domestic or civil disputes referred directly to its department by the Inspector General of Police (IGP).",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 6\n\n"
+        scenario: "QUESTION 6 (BECE 2023 Q4a)\n\n"
             "Differentiate between freedom and obligation.",
         answer: "⦿ Answer:\n\n"
-            "• Freedoms: These are the benefits and privileges that an individual is entitled to enjoy without hindrance under the law.\n\n"
-            "• Obligations: These are the duties and responsibilities that an individual is required to perform for the state or society.",
+            "• Freedom: Freedom refers to the constitutional entitlements, rights, and liberties guaranteed to an individual by law, allowing them to act, speak, and live without arbitrary restriction or state interference.\n\n"
+            "• Obligation: An obligation represents the mandatory civic duties, statutory responsibilities, and legal tasks that an individual is required to perform for the state or society to maintain public order and support national development.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 7\n\n"
+        scenario: "QUESTION 7 (BECE 2025 Q4a)\n\n"
             "(a) (i) How would you explain the term human rights in a class discussion?\n"
-            "    (ii) Identify two human right abuses in your community.\n"
+            "    (ii) Identify two human right abuses in your community.\n\n"
             "(b) Suggest four reasons why society must be educated on human rights.",
-        answer: "⦿ Answer:\n\n"
-            "(a) (i) Human Rights: These are inalienable fundamental freedoms and privileges that every person is born with and cannot be taken away without legal justification.\n\n"
-            "(a) (ii) Community Abuses: Child labour and mob action against suspected criminals.\n\n"
-            "(b) Reasons for Education:\n\n"
-            "1. To Prevent Corruption: When people know their rights, they will not pay bribes for services they are entitled to.\n\n"
-            "2. To Protect the Vulnerable: Education helps children and the disabled know how to seek redress if abused.\n\n"
-            "3. To Promote Peaceful Co-existence: Knowing rights fosters mutual respect for things like life, property, and freedom of speech.\n\n"
-            "4. To Prevent Crime: Educated citizens are more likely to report criminal activities to the police, reducing overall crime rates.",
+        answer: "⦿ (a) (i) Explanation of human rights:\n\n"
+            "Human rights represent the essential, non-negotiable entitlements and fundamental liberties that naturally belong to every human being from birth. These legal guarantees cannot be arbitrarily seized or denied by any person, institution, or government without valid legal justification under the constitution.\n\n"
+            "⦿ (a) (ii) Human right abuses in the community:\n\n"
+            "• Severe bullying and corporal punishment of school children by authority figures.\n\n"
+            "• Physical assault and domestic violence within homes.\n\n"
+            "• Subjecting minors to forced child labour or commercial exploitation.\n\n"
+            "• Mob action and extrajudicial beatings of suspected criminals.\n\n"
+            "⦿ (b) Reasons why society must be educated on human rights:\n\n"
+            "• To encourage freedom of speech: Educating citizens through public media channels, schools, and civic forums helps individuals understand their right to hold and express opinions. This knowledge empowers people to participate constructively in public discussions while exercising their freedoms responsibly.\n\n"
+            "• To prevent corruption in society/promote accountability: Public education regarding human rights reduces corruption by informing citizens that they are not required to pay bribes to access public services. Educated individuals are more likely to challenge extortion and demand transparency from public officials.\n\n"
+            "• To protect the vulnerable in society/reduction in fear: Teaching communities about human rights provides essential protection to marginalized groups, such as women, children, and persons living with disabilities. Awareness enables these groups to recognize rights violations and seek legal protection without fear of intimidation.\n\n"
+            "• To live and enjoy life to the fullest: Understanding human rights allows individuals to live securely without constant fear of unlawful state interference or personal abuse. Respecting the rights of others fosters a peaceful environment where all citizens can pursue their personal goals.\n\n"
+            "• To enable the citizens enjoy freedom of movement: Educating citizens on their constitutional rights ensures they understand their freedom to travel and settle anywhere within the country without facing illegal local restrictions or arbitrary security harassment.\n\n"
+            "• Equal opportunity to everyone to earn a living: Human rights education promotes fairness in hiring practices and career advancement by discouraging discrimination based on tribe, gender, or social background, ensuring individuals are evaluated strictly on merit.\n\n"
+            "• To enable citizens enjoy equal legal representation and opportunity: Educating the public about the legal system informs individuals of their right to legal representation, fair court hearings, and judicial appeal, encouraging them to seek formal legal aid when wronged.\n\n"
+            "• To enable citizens enjoy freedom of association: Awareness of human rights allows individuals to freely join political parties, trade unions, religious groups, or civic clubs without fear of persecution or state coercion.\n\n"
+            "• To create awareness: Regular educational programs ensure the general public remains informed about constitutional protections, reducing instances of accidental rights infringements and curbing systemic abuse across society.\n\n"
+            "• Respect for each other in society/peaceful co-existence: Widespread civic education fosters mutual respect among diverse social groups. Understanding shared rights reduces ethnic and religious friction, encouraging national unity and harmonious living.\n\n"
+            "• To prevent crime in society: Human rights education teaches individuals to respect the life, dignity, and property of others, while empowering citizens to report criminal activities to law enforcement agencies, resulting in lower national crime rates.",
         explanation: "",
       ),
     ],
@@ -5257,60 +5325,59 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario: "QUESTION 1 (BECE 2012 Q4)\n\n"
-            "(a) Identify four sources of conflict in Ghana.\n"
+            "(a) Identify four sources of conflict in Ghana.\n\n"
             "(b) Explain four effects of conflicts in Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Sources of conflict in Ghana:\n\n"
-            "• Intolerance of people: When individuals or groups refuse to accept the views, beliefs, or behaviors of others.\n\n"
-            "• Chieftaincy disputes/power struggle: Disputes arising from the selection or installation of traditional leaders.\n\n"
-            "• Dispute over property sharing or ownership: Disagreements regarding the inheritance or distribution of assets.\n\n"
-            "• Poor media report/irresponsible journalism: When media outlets publish false or inflammatory information that incites tension.\n\n"
-            "• Tribalism/ethnocentrism: Favoring one's own tribe over others or believing one's culture is superior.\n\n"
-            "• Land ownership: Frequent disputes over boundaries and the legal right to use or sell land.\n\n"
-            "(b) Effects of conflicts in Ghana:\n\n"
-            "• Loss of property: Conflict causes people to lose valuable property such as houses, cars, and companies. This occurs when weapons such as bombs and guns are involved.\n\n"
-            "• Loss of lives: People are killed or injured. This often affects vulnerable groups like children, women, and the aged who cannot easily defend themselves.\n\n"
-            "• Discourages foreign investors: Conflict zones become unattractive for investment because the area becomes lawless and capital is not protected.\n\n"
-            "• Increases government expenditure: Conflict compels the government to spend huge sums of money to resolve the issue or offer medical treatment to casualties, increasing the national financial burden.",
+        answer: "⦿ (a) Sources of conflict in Ghana:\n\n"
+            "• Intolerance: Unwillingness to accept or respect individuals with alternative beliefs, backgrounds, or viewpoints.\n\n"
+            "• Chieftaincy disputes: Friction arising from contested successions or claims to traditional leadership titles.\n\n"
+            "• Land tenure disagreements: Quarrels regarding boundary lines or legally recognized landownership rights.\n\n"
+            "• Sensational journalism: Reporting false, biased, or inflammatory news that fuels hostility among groups.\n\n"
+            "• Ethnocentrism: Displaying prejudice or preferring one's ethnic group at the expense of others.\n\n"
+            "• Disagreements over public project locations: Tensions regarding where government facilities or amenities ought to be built.\n\n"
+            "⦿ (b) Effects of conflicts in Ghana:\n\n"
+            "• Destruction of physical assets: Violent clashes often lead to the loss of private residences, vehicles, and commercial properties when explosive devices or heavy weaponry are used.\n\n"
+            "• Loss of human life: Clashes result in casualties, severely impacting vulnerable demographics like women, young children, and elderly citizens who cannot easily flee danger.\n\n"
+            "• Discouragement of external investment: Investors routinely avoid unstable territories due to elevated operational risks and a lack of guaranteed legal protection for their capital.\n\n"
+            "• Burden on national resources: The government is forced to redirect essential funds toward security interventions and emergency relief efforts, reducing capital available for developmental goals.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 2 (BECE 2013 Q3b)\n\n"
             "Outline four attitudes and values needed to prevent conflicts in the community.",
         answer: "⦿ Answer:\n\n"
-            "• Respect for one another: Showing respect to others regardless of age, ethnic group, or social status brings understanding and peaceful co-existence.\n\n"
-            "• Need for tolerance: Accepting divergent views and actions of others helps establish peace and unity in the society.\n\n"
-            "• Need for forgiveness: Forgiving those who offend us eliminates the desire for revenge or retaliation.\n\n"
-            "• Attitude of fairness and justice: Ensuring everyone gets a fair share of what they deserve and fair hearing in matters of dispute prevents tension.",
+            "• Mutual respect: Treating all community members with equal dignity, regardless of social standing, age, or background, promotes widespread social harmony.\n\n"
+            "• Tolerance of diverse views: Demonstrating willingness to peaceful coexistence alongside people with differing political, cultural, or personal opinions suppresses unnecessary hostility.\n\n"
+            "• Readiness to forgive: Letting go of past grievances removes motives for revenge, helping maintain stable relationships between individuals.\n\n"
+            "• Fairness and impartial justice: Equitable distribution of community resources and impartial handling of local disputes prevent feelings of marginalisation.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 3 (BECE 2018 Q3)\n\n"
             "(a) (i) Define conflict management.\n"
             "    (ii) List five sources of conflict in society.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Conflict management: This is the use of various measures to reduce tension during a period of misunderstanding to facilitate resolution.\n\n"
-            "• (ii) Sources: Chieftaincy disputes, land ownership disagreements, greed, partiality/injustice, and tribalism.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• (i) Conflict management: The deployment of strategic measures designed to reduce tension and contain disagreements during times of crisis, thereby creating conditions suitable for peaceful resolution.\n\n"
+            "• (ii) Sources of conflict: Disputed chieftaincy successions, land ownership disputes, systemic injustice or corruption, greed, and ethnocentrism.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 4 (BECE 2021 Q4b)\n\n"
             "Highlight four ways in which conflicts can be resolved in the society.",
         answer: "⦿ Answer:\n\n"
-            "• Mediation: A voluntary and impartial person (like a religious leader or teacher) helps settle the misunderstanding by listening to both parties.\n\n"
-            "• Court action/adjudication: Using the legal system where a judge decides the case. The guilty party may pay compensation or serve a jail term.\n\n"
-            "• Arbitration: An out-of-court method where an impartial \"arbiter\" listens to a trial-like presentation and makes a decision based on law.\n\n"
-            "• Reconciliation: A method meant to repair broken relationships where the offended party is encouraged to forgive and may receive compensation.",
+            "• Mediation: A neutral third party intervenes voluntarily to assist opposing factions in communicating and reaching an agreeable consensus.\n\n"
+            "• Court action/adjudication: Resolving grievances through official judicial channels, where a judge evaluates legal evidence and issues binding rulings or compensations.\n\n"
+            "• Arbitration: Disputing parties present their cases to an independent arbitrator, who reviews the arguments out of court and renders a decisive judgement based on law.\n\n"
+            "• Reconciliation: A structured effort to restore broken community ties by encouraging offenders to acknowledge wrongdoing, ask for forgiveness, and offer adequate redress.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 5 (BECE 2024 Q2a)\n\n"
-            "Write to the Assemblyman four ways in which tensions could calm down and also prevent conflicts.",
+            "Having observed tension among the youth in your community, write to the Assemblyman four ways in which tensions could calm down and also prevent conflicts.",
         answer: "⦿ Answer:\n\n"
-            "• Honesty in all community activities: Ensuring truthfulness in all dealings prevents the hiding of facts that leads to violence.\n\n"
-            "• Engaging the youth in an open forum: Including the youth in community activities and decision-making processes fosters a sense of belonging and inclusiveness.\n\n"
-            "• Promoting the need to respect one another: Encouraging respect regardless of tribe or religion ensures that no personality or group feels undermined.\n\n"
-            "• Providing adequate security: The government must provide enough security agencies to enforce rules, ensuring that the rights of the people are respected.",
+            "• Promoting truthfulness in public affairs: Maintaining complete transparency in community governance reduces suspicions that lead to civil unrest.\n\n"
+            "• Encouraging youth participation: Involving young residents directly in local leadership discussions and civil dialogues ensures their concerns are heard and addressed constructively.\n\n"
+            "• Fostering mutual dignity: Cultivating an environment where young people respect diverse religious and ethnic identities prevents discriminatory behavior.\n\n"
+            "• Ensuring reliable public security: Deploying professional law enforcement officers helps enforce community standards, protecting human rights and deterring unlawful acts.",
         explanation: "",
       ),
     ],
@@ -5319,69 +5386,143 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1 (General Tourism Knowledge)\n\n"
-            "(a) Name four areas of tourist attraction in Ghana.\n"
-            "(b) State the benefits of tourism in Ghana.\n"
-            "(c) Describe the negative effects of tourism in Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Areas of tourist attraction in Ghana:\n\n"
-            "• Boti waterfall at Boti.\n\n"
-            "• Wli waterfall at Wli near Hohoe.\n\n"
-            "• Kintampo waterfall at Kintampo.\n\n"
-            "• Paga crocodile pond at Paga.\n\n"
-            "• Kakum National Park at Cape Coast.\n\n"
-            "• Mole National Park at Damango.\n\n"
-            "• Kwame Nkrumah Museum at Accra.\n\n"
-            "• Cape Coast Castle or Elmina Castle.\n\n"
-            "(b) Benefits of tourism in Ghana:\n\n"
-            "• It creates employment: The industry creates jobs for tourist guides, hotel staff, managers, accountants, and drivers.\n\n"
-            "• Source of foreign exchange: Foreigners bring in currencies like dollars and pounds when they visit.\n\n"
-            "• Source of government revenue: Money is generated through income taxes from workers and fees/royalties from sites.\n\n"
-            "• Infrastructure development: It leads to the provision of better roads, electricity, and telecommunications.\n\n"
-            "• Conservation of natural resources: It encourages the preservation of forests and wildlife, for example, Kakum National Park.\n\n"
-            "• Growth of local craft industries: Tourists buy locally made souvenirs, beads, and clothes.\n\n"
-            "(c) Negative effects of tourism in Ghana:\n\n"
-            "• Adulteration of culture: Local people may abandon their traditions to copy foreign lifestyles.\n\n"
-            "• Introduction of diseases: Increased travel can lead to the spread of STDs like HIV/AIDS.\n\n"
-            "• Social vices: It can foster irresponsible behaviors like prostitution, pickpocketing, or excessive drinking.\n\n"
-            "• Environmental pollution: Tourists may litter or pollute water bodies and air through smoking.",
+        scenario: "QUESTION 1 (BECE 2004 Q5)\n\n"
+            "(a) Name four areas of tourist attraction in Ghana.\n\n"
+            "(b) State four benefits of tourism in Ghana.\n\n"
+            "(c) Describe two negative effects of tourism in Ghana.",
+        answer: "⦿ (a) Areas of tourist attraction in Ghana:\n\n"
+            "• Boti Waterfall situated at Boti.\n\n"
+            "• Wli Waterfall situated at Wli, close to Hohoe.\n\n"
+            "• Kintampo Waterfall situated at Kintampo.\n\n"
+            "• Paga Crocodile Pond situated at Paga.\n\n"
+            "• The Big Tree situated at Oda.\n\n"
+            "• Lake Bosomtwe, a natural lake, situated at Abono near Kuntanase.\n\n"
+            "• Kakum National Park situated at Cape Coast.\n\n"
+            "• Mole National Park situated at Damango.\n\n"
+            "• Bui National Park situated at Bui.\n\n"
+            "• Monkey Sanctuary situated at Buabeng Fiema.\n\n"
+            "• Aburi Botanical Gardens situated at Aburi.\n\n"
+            "• Volta Estuary situated at Ada.\n\n"
+            "• Kwame Nkrumah Museum situated in Accra.\n\n"
+            "• Gambaga Scarp situated at Gambaga.\n\n"
+            "• Kumasi Zoological Garden situated in Kumasi.\n\n"
+            "• Accra Zoological Garden situated in Accra.\n\n"
+            "• Mountain Afadjato situated in the Volta Region.\n\n"
+            "• Kwahu Scarp situated at Kwahu.\n\n"
+            "• Cape Coast Castle situated at Cape Coast.\n\n"
+            "• Elmina Castle situated at Elmina.\n\n"
+            "• Christiansborg Castle situated at Osu, Accra.\n\n"
+            "• Volta Lake, an artificial lake, situated at Akosombo.\n\n"
+            "• Nzulezu Stilt Village situated at Nzulezu.\n\n"
+            "• Korle Lagoon situated in Accra.\n\n"
+            "• James Fort situated in Accra.\n\n"
+            "⦿ (b) Benefits of tourism in Ghana:\n\n"
+            "• Job creation: The sector opens up diverse employment opportunities across the nation. Citizens secure roles such as tour leaders, hotel attendants, waitstaff, management staff, accountants, drivers, and security personnel.\n\n"
+            "• Generation of foreign exchange: International visitors spend foreign currencies such as British pounds or US dollars when visiting local destinations, which increases the country's foreign capital reserves.\n\n"
+            "• Source of national revenue: Revenue collected from commercial activities at tourist destinations provides the government with funds for infrastructure and public works. These funds originate from income tax levied on staff, corporate taxes paid by businesses, indirect levies charged on goods purchased at tourist sites, and statutory operational tariffs.\n\n"
+            "• Infrastructural expansion: Facilities such as improved road networks, international transport hubs, and reliable electrical supply systems are developed to facilitate travel services, ultimately benefiting the wider public.\n\n"
+            "• Conservation of natural ecosystems: The sector encourages the protection of natural landscapes and wildlife habitats for study, leisure, and scenic enjoyment. Established reserves like Kakum National Park or the Buabeng Fiema Monkey Sanctuary compel the nation to protect natural forests and native animals.\n\n"
+            "• Growth of domestic handicraft industries: Local artisanal crafts expand because tourists purchase handmade items such as traditional beads, woven fabrics, and carved ornaments.\n\n"
+            "• Global promotion of national identity: Welcoming international travellers exposes the country's cultural heritage to a global audience, as visitors return home to share their experiences with family and friends.\n\n"
+            "• Attraction of foreign direct investment: A thriving travel industry encourages overseas entrepreneurs to fund local commercial projects, such as building modern hotels, operating eating establishments, or establishing transportation networks.\n\n"
+            "• Protection of historic landmarks: Historical artifacts, ancient regalia, traditional weaponry, and important records are safely stored in museums, castles, and forts to preserve national heritage for future generations.\n\n"
+            "⦿ (c) Negative effects of tourism in Ghana:\n\n"
+            "• Erosion of local cultural practices: Interacting with foreign visitors often leads local community members to adopt external customs, which can dilute indigenous heritage, traditions, and values.\n\n"
+            "• Transmission of infectious health conditions: Unregulated or irresponsible social interactions involving international visitors can accelerate the spread of communicable conditions such as sexually transmitted infections within local communities.\n\n"
+            "• Increase in antisocial behaviour: The influx of visitors can foster environments where harmful activities thrive, such as theft, illegal trade, commercial sex work, and substance abuse.\n\n"
+            "• Environmental degradation: High volumes of visitors can harm natural habitats through littering, air pollution from excessive transport, or the contamination of pristine water bodies during recreational activities.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2 (Promotion and Reasons for Travel)\n\n"
-            "(a) State reasons why people embark on tours to different places.\n"
-            "(b) How can tourism be promoted in Ghana?",
-        answer: "⦿ Answer:\n\n"
-            "(a) Reasons why people embark on tours:\n\n"
-            "• For sight-seeing and enjoying nature.\n\n"
-            "• To learn new things such as history and foreign cultures.\n\n"
-            "• For enjoyment and relaxation, such as taking a break from work.\n\n"
-            "• For religious purposes, such as pilgrimages.\n\n"
-            "• For health reasons, such as seeking fresh air or reducing stress.\n\n"
-            "• To conduct research or for educational purposes.\n\n"
-            "(b) Ways tourism can be promoted in Ghana:\n\n"
-            "• Effective Publicity: Advertise sites on radio, TV, social media, and magazines.\n\n"
-            "• Improved Sanitation: Keep the environment around tourist sites clean and attractive.\n\n"
-            "• Beautification: Enhance sites with quality artifacts, paintings, and proper labeling.\n\n"
-            "• Security: Ensure safety against crime so tourists feel secure.\n\n"
-            "• Trained Staff: Ensure tour guides and hotel staff are respectful and professional.\n\n"
-            "• Affordable Fees: Keep entrance fees low to encourage local patronage.\n\n"
-            "• Infrastructure: Provide good roads and reliable electricity to all tourist destinations.",
+        scenario: "QUESTION 2 (BECE 2008 Q3)\n\n"
+            "(a) Explain four ways in which tourism contributes to the economy of Ghana.\n\n"
+            "(b) State four ways in which tourism can be promoted in Ghana.",
+        answer:
+            "⦿ (a) Ways in which tourism contributes to the economy of Ghana:\n\n"
+            "• Job creation: The sector opens up diverse employment opportunities across the nation. Citizens secure roles such as tour leaders, hotel attendants, waitstaff, management staff, accountants, drivers, and security personnel.\n\n"
+            "• Generation of foreign exchange: International visitors spend foreign currencies such as British pounds or US dollars when visiting local destinations, which increases the country's foreign capital reserves.\n\n"
+            "• Source of national revenue: Revenue collected from commercial activities at tourist destinations provides the government with funds for infrastructure and public works. These funds originate from income tax levied on staff, corporate taxes paid by businesses, indirect levies charged on goods purchased at tourist sites, and statutory operational tariffs.\n\n"
+            "• Infrastructural expansion: Facilities such as improved road networks, international transport hubs, and reliable electrical supply systems are developed to facilitate travel services, ultimately benefiting the wider public.\n\n"
+            "⦿ (b) Ways in which tourism can be promoted in Ghana:\n\n"
+            "• Extensive publicity campaigns: Nationwide and international promotional efforts using television, radio, print media, and online platforms raise awareness of domestic destinations and encourage higher visit counts.\n\n"
+            "• Sanitation enhancement: Maintaining high standards of cleanliness around leisure destinations, including routine waste removal and clearing public areas, makes sites far more inviting to visitors.\n\n"
+            "• Site beautification: Enhancing visual appeal through artistic displays, structural upgrades, precise signage, and landscaping increases the destination's overall appeal.\n\n"
+            "• Routine maintenance of facilities: Conducting regular property inspections allows managers to repair damaged infrastructure promptly, preserving the quality of historic fortresses, reserves, and parks.\n\n"
+            "• Professional personnel training: Providing comprehensive customer care and safety training to tour leaders, drivers, hospitality staff, and security personnel ensures visitors receive polite and helpful service.\n\n"
+            "• Guaranteed visitor safety: Deploying protective measures against criminal activities like robbery or physical harm ensures tourists feel secure throughout their journey.\n\n"
+            "• Development of supporting infrastructure: Constructing smooth access roads, upgrading transit hubs, establishing modern accommodation, and ensuring reliable electricity supply significantly improves the visitor experience.\n\n"
+            "• Supportive state policy frameworks: Legislative measures, tax incentives, and direct capital investments provided by central authorities help the hospitality sector expand steadily.\n\n"
+            "• Enhanced customer care standards: Ensuring service personnel across dining, lodging, and historical venues offer hospitable treatment helps travellers feel valued and comfortable.\n\n"
+            "• Upgrading visitor amenities: Constructing comfortable rest stops, quality dining facilities, and modern accommodation encourages longer stays and repeat visits.\n\n"
+            "• Affordable access fees: Keeping entry charges at manageable rates ensures domestic residents and foreign visitors can access sites regularly.\n\n"
+            "• Support for local craft producers: Providing financial assistance and resources to local artisans allows them to create more high-quality souvenirs and cultural goods for visitors.\n\n"
+            "• Preservation of historic sites: Protecting structural monuments and historical records through artistic expressions, written accounts, and oral traditions allows visitors to appreciate national history fully.\n\n"
+            "• Rigorous enforcement of environmental protection laws: Enforcing strict penalties against illegal wildlife hunting, deforestation, and uncontrolled bushfires preserves local flora and fauna.\n\n"
+            "• Fair compensation for industry workers: Offering competitive wages and improved working conditions motivates employees to deliver exceptional service.\n\n"
+            "• Tax reductions on specialized industry equipment: Lowering import tariffs on machinery and specialized vehicles used in the hospitality sector reduces operational overheads.\n\n"
+            "• Concessionary credit facilities: Providing low-interest loans enables local entrepreneurs to expand and modernize their travel-related enterprises.\n\n"
+            "• Upgraded operational management: Applying modern administrative practices improves efficiency across public and privately managed recreational venues.\n\n"
+            "• Provision of medical emergency units: Establishing first-aid posts and basic healthcare centres near major attractions ensures prompt medical attention for visitors.\n\n"
+            "• Targeted marketing initiatives: Using modern commercial campaigns helps attract specific travel groups and international visitors.\n\n"
+            "• Policy continuity across administrative changes: Maintaining stable state development policies ensures long-term projects in the sector reach completion.\n\n"
+            "• Public educational campaigns: Teaching citizens about the economic importance of leisure travel encourages a welcoming attitude toward visitors.\n\n"
+            "• Hosting international cultural events: Organizing major global celebrations and cultural gatherings attracts large international audiences to the country.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3 (Definitions and Locations)\n\n"
-            "(a) Differentiate between tourism and leisure.\n"
-            "(b) Match the tourist site to its regional capital/location.",
+        scenario: "QUESTION 3 (BECE 2014 Q5)\n\n"
+            "(a) State four reasons why people embark on tours to different places.\n\n"
+            "(b) Explain four ways in which tourism is important to development.",
+        answer:
+            "⦿ (a) Reasons why people embark on tours to different places:\n\n"
+            "• Individuals travel to observe distinct landscapes, historic landmarks, and natural wonders.\n\n"
+            "• Travellers visit new regions to experience alternative lifestyles, languages, and traditional customs.\n\n"
+            "• People take trips to unwind, relieve workplace stress, and enjoy recreational facilities.\n\n"
+            "• Travellers undertake journeys to purchase unique cultural artifacts, regional crafts, and specialized goods.\n\n"
+            "• Individuals travel to interact directly with natural environments, coastal areas, and wildlife reserves.\n\n"
+            "• People visit specific locations to fulfil spiritual obligations, attend religious conventions, or undertake pilgrimages.\n\n"
+            "• Individuals travel to climate-favourable regions or peaceful settings to improve physical health and mental well-being.\n\n"
+            "• People undertake journeys to execute business transactions, trade goods, or engage in commercial ventures.\n\n"
+            "• Scholars and researchers travel to specific sites to conduct scientific studies, field interviews, or academic examinations.\n\n"
+            "⦿ (b) Ways in which tourism is important to development:\n\n"
+            "• Job creation: The sector opens up diverse employment opportunities across the nation. Citizens secure roles such as tour leaders, hotel attendants, waitstaff, management staff, accountants, drivers, and security personnel.\n\n"
+            "• Generation of foreign exchange: International visitors spend foreign currencies such as British pounds or US dollars when visiting local destinations, which increases the country's foreign capital reserves.\n\n"
+            "• Source of national revenue: Revenue collected from commercial activities at tourist destinations provides the government with funds for infrastructure and public works. These funds originate from income tax levied on staff, corporate taxes paid by businesses, indirect levies charged on goods purchased at tourist sites, and statutory operational tariffs.\n\n"
+            "• Infrastructural expansion: Facilities such as improved road networks, international transport hubs, and reliable electrical supply systems are developed to facilitate travel services, ultimately benefiting the wider public.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 4 (BECE 2019 Q6)\n\n"
+            "(a) Differentiate between tourism and leisure.\n\n"
+            "(b) Name the regional capitals in which the following tourist sites can be located in Ghana:\n"
+            "    (i) Lake Bosomtwe;\n"
+            "    (ii) Volta Estuary;\n"
+            "    (iii) Mole National Park;\n"
+            "    (iv) Ussher Fort.\n\n"
+            "(c) Describe four ways by which tourism can be promoted in Ghana.",
+        answer: "⦿ (a) Difference between tourism and leisure:\n\n"
+            "• Tourism involves travelling away from one's customary environment to specific destinations for recreation, exploration, or personal enjoyment.\n\n"
+            "• Leisure refers to discretionary time free from official duties or labour, during which an individual can rest, engage in hobbies, or relax.\n\n"
+            "⦿ (b) Regional capitals in which the tourist sites can be located:\n\n"
+            "• (i) Lake Bosomtwe: Kumasi.\n\n"
+            "• (ii) Volta Estuary: Accra.\n\n"
+            "• (iii) Mole National Park: Tamale/Damongo.\n\n"
+            "• (iv) Ussher Fort: Accra.\n\n"
+            "⦿ (c) Ways by which tourism can be promoted in Ghana:\n\n"
+            "• Extensive publicity campaigns: Nationwide and international promotional efforts using television, radio, print media, and online platforms raise awareness of domestic destinations and encourage higher visit counts.\n\n"
+            "• Sanitation enhancement: Maintaining high standards of cleanliness around leisure destinations, including routine waste removal and clearing public areas, makes sites far more inviting to visitors.\n\n"
+            "• Site beautification: Enhancing visual appeal through artistic displays, structural upgrades, precise signage, and landscaping increases the destination's overall appeal.\n\n"
+            "• Routine maintenance of facilities: Conducting regular property inspections allows managers to repair damaged infrastructure promptly, preserving the quality of historic fortresses, reserves, and parks.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2022 Q5b)\n\n"
+            "What four benefits do people derive from going on tour to different places?",
         answer: "⦿ Answer:\n\n"
-            "(a) Difference between tourism and leisure:\n\n"
-            "• Tourism: The practice of travelling to different places for enjoyment and pleasure.\n\n"
-            "• Leisure: Taking time off from normal work or duties to relax.\n\n"
-            "(b) Tourist sites and their regional capitals/locations:\n\n"
-            "1. Lake Bosomtwe: Kumasi.\n\n"
-            "2. Volta Estuary: Accra.\n\n"
-            "3. Mole National Park: Tamale/Damongo.\n\n"
-            "4. Ussher Fort: Accra.",
+            "• Individuals travel to observe distinct landscapes, historic landmarks, and natural wonders.\n\n"
+            "• Travellers visit new regions to experience alternative lifestyles, languages, and traditional customs.\n\n"
+            "• People take trips to unwind, relieve workplace stress, and enjoy recreational facilities.\n\n"
+            "• Travellers undertake journeys to purchase unique cultural artifacts, regional crafts, and specialized goods.",
         explanation: "",
       ),
     ],
@@ -5391,35 +5532,40 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) Describe the achievements of Dr. Kwame Nkrumah.",
-        answer: "⦿ Answer:\n\n"
-            "• National Independence: He led Ghana to achieve independence from British colonial rule on 6th March 1957.\n\n"
-            "• Infrastructure (Ports & Energy): Under his leadership, the Tema Harbour and the Akosombo Dam were built, the latter providing power to Ghana and Togo.\n\n"
-            "• Industrialization: He established state enterprises like VALCO, Rubber Manufacturing (Bonsa), Nsawam Canaries, GIHOC, and Akosombo Textiles.\n\n"
-            "• Healthcare: He expanded existing health centres and built new facilities, including Okomfo Anokye Teaching Hospital and the University of Ghana's Medical School at Korle Bu.\n\n"
-            "• Education: He introduced compulsory free tuition for primary education and free textbooks. He built several secondary schools and established UCC, KNUST, and various polytechnics and teacher training colleges.\n\n"
-            "• Financial Institutions: He established the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation (SIC).\n\n"
-            "• Housing and Agriculture: He formed the State Housing Corporation for affordable homes and set up state farms and irrigation facilities to improve food production and crop diversity.\n\n"
-            "• Fisheries: He built the Tema Fishing Harbour and town storage facilities to boost the fishing industry.",
+        scenario: "QUESTION 1 (BECE 1990 Q4)\n\n"
+            "Write an essay on the following:\n\n"
+            "(a) The achievements of Dr. Kwame Nkrumah.",
+        answer: "⦿ Suggested Answer:\n\n"
+            "⦿ (a) Achievements of Dr. Kwame Nkrumah:\n\n"
+            "• Attainment of Sovereignty: He spearheaded the national freedom movement, steering Ghana to secure complete independence from British colonial rule on 6th March 1957.\n\n"
+            "• Maritime Infrastructure Development: Under his vision and leadership, the country constructed the ultra-modern Tema Harbour to expand national shipping capacity.\n\n"
+            "• Establishment of State Enterprises: His administration founded essential public manufacturing and industrial ventures, including VALCO, Bonsa Rubber Manufacturing, Nsawam Canaries, GIHOC, and Akosombo Textiles.\n\n"
+            "• Expansion of Healthcare Infrastructure: He upgraded existing medical clinics while constructing major referral institutions such as Komfo Anokye Teaching Hospital in Kumasi. Additionally, he founded the University of Ghana Medical School situated at Korle Bu and established technical polytechnics across the nation.\n\n"
+            "• Hydroelectric Power Generation: He directed the construction of the Akosombo Dam, dramatically boosting electricity capacity nationwide and enabling energy exports to neighbouring countries like Togo.\n\n"
+            "• Secondary and Higher Education Expansion: He built numerous senior high schools, such as Tweneboa Kodua Senior High School and Konongo Odumase Senior High School. Furthermore, he established higher educational institutions including the University of Cape Coast (UCC), Kwame Nkrumah University of Science and Technology (KNUST), and teacher training facilities like Akrokerri College of Education.\n\n"
+            "• Free Basic Education and Literacy Initiatives: He introduced a national policy granting tuition-free, compulsory primary schooling alongside free textbook provision. He also established adult literacy schemes under the Department of Social Welfare and Community Development.\n\n"
+            "• National Financial Sector Development: He laid the groundwork for sovereign financial independence by establishing the Bank of Ghana, Ghana Commercial Bank, and the State Insurance Corporation (SIC).\n\n"
+            "• Public Housing Provision: He created the State Housing Corporation to construct affordable residential units for civil servants and the working public.\n\n"
+            "• Agricultural Modernisation and Diversification: He established state farm initiatives and organized farming councils to enhance domestic crop yields. Through new irrigation schemes for rice and sugar cane, he successfully broadened agriculture beyond cocoa into diverse cash crops and livestock rearing.\n\n"
+            "• Support for the Fishing Industry: He constructed the Tema Fishing Harbour alongside specialized cold-storage facilities in several inland towns to boost local commercial fishing operations.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(a) Mention four achievements of Dr. Kwame Nkrumah.\n"
-            "(b) Explain four reasons that led to the overthrow of Dr. Kwame Nkrumah.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Achievements:\n\n"
-            "• Any four from Question 1 above, such as leading Ghana to independence, building the Akosombo Dam, establishing KNUST, and creating the Bank of Ghana.\n\n"
-            "(b) Reasons for Overthrow:\n\n"
-            "• One-Party State: He declared Ghana a one-party state, making the CPP the only recognized party. This caused dissatisfaction as CPP members controlled all aspects of governance.\n\n"
-            "• Dictatorship: He was regarded as a dictator who shared power only with CPP members and ignored the interests and decisions of those outside his party.\n\n"
-            "• Preventive Detention Act (PDA): The PDA allowed him to detain opponents without trial. This led to human rights violations and the deaths of many in detention.\n\n"
-            "• Bribery and Corruption: His government suffered from widespread corruption and mismanagement, leading to the collapse of several state-owned enterprises and a loss of public confidence.\n\n"
-            "• Army Dissatisfaction: He provided preferential treatment and better conditions for his Presidential Guards compared to the regular Armed Forces, motivating the military to plot a coup.\n\n"
-            "• Disrespect for Traditional Institutions: By destooling chiefs and disregarding traditional authority, he drove many local leaders to join the opposition, making his government unpopular.\n\n"
-            "• Unfavourable Foreign Policies: Some of his international stances infuriated global leaders, who then worked toward his removal.\n\n"
-            "• Economic Mismanagement: Huge national debts were incurred by funding projects in other countries, such as Guinea and Mali, and embarking on overly ambitious national projects, leading to high inflation.",
+        scenario: "QUESTION 2 (BECE 1999 Q3)\n\n"
+            "(a) Mention four achievements of Dr. Kwame Nkrumah.\n\n"
+            "(b) What are the four reasons that led to the overthrow of Dr. Kwame Nkrumah?",
+        answer: "⦿ Suggested Answer:\n\n"
+            "⦿ (a) Achievements of Dr. Kwame Nkrumah:\n\n"
+            "(Students may discuss any four detailed points from Question 1 above, such as leading Ghana to independence in 1957, constructing the Akosombo Dam, founding KNUST and UCC, or creating the Bank of Ghana.)\n\n"
+            "⦿ (b) Reasons why Dr. Kwame Nkrumah was overthrown:\n\n"
+            "• Transition to a One-Party System: Nkrumah officially altered the constitution to turn Ghana into a single-party state, suppressing political pluralism by making the Convention People's Party (CPP) the sole legal political group. This caused widespread political grievance, as CPP loyalists exercised monopolistic control over state resources under a winner-takes-all approach.\n\n"
+            "• Autocratic Rule and Political Dominance: His governance style grew increasingly authoritarian, concentrating decision-making strictly within his immediate circle of CPP members while systematically excluding rival political voices and civil society from participating in governance.\n\n"
+            "• Enactment of the Preventive Detention Act (PDA): The introduction of the Preventive Detention Act allowed the government to arrest and imprison political rivals without trial or formal legal charges. This policy resulted in severe civil liberty violations and the death of notable opposition leaders while in custody.\n\n"
+            "• Pervasive Bribery and State Corruption: Financial mismanagement and graft became endemic across government agencies. Numerous state-owned enterprises established under his industrialization plan suffered severe losses or collapsed entirely, severely damaging public trust in his administration.\n\n"
+            "• Neglect and Disillusionment Within the Regular Military: Nkrumah established and heavily favoured the Presidential Detail Guard with superior equipment and privileges over the regular Armed Forces. This disparity generated deep resentment among regular army officers, driving them to plan a military intervention.\n\n"
+            "• Alienation of Traditional Leadership: The government openly disregarded chieftaincy institutions and forcibly destooled several traditional rulers who opposed his policies. Consequently, influential chiefs aligned with opposition factions like the UGCC, eroding national rural support for the regime.\n\n"
+            "• Adoption of Unfavourable External Policies: Foreign diplomatic strategies pursued by Nkrumah clashed with Western geopolitical interests and alienated key foreign nations, prompting foreign actors to back internal efforts to remove him from power.\n\n"
+            "• Severe Economic Instability and Financial Misallocation: The administration directed significant state funds toward foreign aid loans for nations like Guinea and Mali, accumulating massive national debts. Excessive spending on prestige projects depleted foreign reserves, resulting in rapid inflation and widespread economic hardship.",
         explanation: "",
       ),
     ],
@@ -5429,81 +5575,92 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario: "QUESTION 1 (BECE 1991 Q4)\n\n"
-            "(a) Identify five important types of timber found in the forest of Ghana.\n"
+            "(a) Identify five important types of timber found in the forest of Ghana.\n\n"
             "(b) Mention five uses of timber.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Important types of timber found in Ghana include:\n\n"
-            "• Wawa: A light wood used for plywood and furniture.\n\n"
-            "• Mahogany: A durable hardwood used for high-quality furniture.\n\n"
-            "• Odum: A strong wood resistant to termites, used in construction.\n\n"
-            "• Sapele: Decorative timber used for fine veneers.\n\n"
-            "• Utile: Hardwood used for interior and exterior joinery.\n\n"
-            "(b) Uses of timber:\n\n"
-            "• Medicinal purposes: Parts of trees like mahogany and nim are used to treat diseases such as malaria.\n\n"
-            "• Building and construction: Used for window frames, door frames, and roofing.\n\n"
-            "• Furniture production: Used by carpenters to make chairs, tables, and beds.\n\n"
-            "• Source of fuel: Processed into charcoal or used as firewood for cooking.\n\n"
-            "• Raw materials for tools: Used to make handles for hammers and saws, or carved into handicrafts.",
+        answer:
+            "⦿ (a) Important types of timber found in the forest of Ghana:\n\n"
+            "Five notable timber species harvested from Ghana's forest zone include:\n\n"
+            "• Wawa: A lightweight timber variety widely utilised in manufacturing plywood and internal furniture components.\n\n"
+            "• Mahogany: A premium hardwood renowned for its strength and fine decorative grain, making it ideal for high-end furniture.\n\n"
+            "• Odum: An exceptionally resilient hardwood capable of resisting pest infestation, heavily applied in structural building projects.\n\n"
+            "• Sapele: A highly valued wood species commonly selected for producing decorative veneers and quality cabinetwork.\n\n"
+            "• Utile: A strong timber possessing qualities similar to mahogany, utilised extensively in both internal and external joinery.\n\n"
+            "⦿ (b) Uses of timber:\n\n"
+            "• Medicinal applications: Extracted compounds from the foliage, roots, and bark of timber trees such as mahogany and nim are applied in traditional therapies to alleviate conditions like malaria.\n\n"
+            "• Building and structural construction: Timber provides essential framework materials, including window casings, door frames, support beams for roofs, and decking for bridges.\n\n"
+            "• Furniture fabrication: Cabinetmakers and joiners shape timber into vital domestic and educational furnishings such as desks, tables, seating, and bed frames.\n\n"
+            "• Energy generation: Wood serves as a primary domestic and industrial fuel source, either consumed directly as firewood or converted into charcoal.\n\n"
+            "• Tool and craft production: Wood is fashioned into handles for agricultural and workshop implements, as well as carved into cultural artefacts, kitchen utensils, and decorative items.\n\n"
+            "• Foreign currency earnings: Exporting processed lumber and wood veneers to international buyers generates vital foreign exchange reserves for the nation.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 2 (BECE 1994 Q3)\n\n"
-            "(a) Mention four minerals in Ghana.\n"
-            "(b) Name one important town associated with each mineral mentioned above.\n"
-            "(c) Mention the method of extraction of any three of the minerals.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Minerals in Ghana:\n\n"
-            "• Gold.\n\n"
-            "• Bauxite.\n\n"
-            "• Manganese.\n\n"
-            "• Diamond.\n\n"
-            "(b) Important towns associated with the minerals:\n\n"
-            "• Gold: Obuasi.\n\n"
-            "• Bauxite: Awaso.\n\n"
-            "• Manganese: Nsuta.\n\n"
-            "• Diamond: Akwatia.\n\n"
-            "(c) Methods of extraction:\n\n"
-            "• Gold: Deep shaft (underground) mining or surface mining.\n\n"
-            "• Bauxite: Open cast method or strip mining.\n\n"
-            "• Diamond: Dredge mining method.",
+            "(a) Mention four minerals in Ghana.\n\n"
+            "(b) Name one important town associated with each mineral mentioned above.\n\n"
+            "(c) Mention the method of extraction of any three of the minerals.\n\n"
+            "(d) Give one use each of any three minerals mentioned.",
+        answer: "⦿ (a) Minerals in Ghana:\n\n"
+            "Four key mineral deposits present within Ghana are:\n\n"
+            "• Gold\n\n"
+            "• Bauxite\n\n"
+            "• Manganese\n\n"
+            "• Diamond\n\n"
+            "⦿ (b) Important towns associated with the minerals:\n\n"
+            "• Gold: Obuasi\n\n"
+            "• Bauxite: Awaso\n\n"
+            "• Manganese: Nsuta\n\n"
+            "• Diamond: Akwatia\n\n"
+            "⦿ (c) Methods of extraction of the minerals:\n\n"
+            "• Gold: Extracted via deep shaft mining for underground deposits or surface strip mining for shallow ores.\n\n"
+            "• Bauxite: Mined using the open cast technique, which involves removing overlying soil layers to reach the ore.\n\n"
+            "• Diamond: Extracted through alluvial dredging, separating gemstones from gravel deposits in river basins.\n\n"
+            "⦿ (d) Uses of the minerals:\n\n"
+            "• Gold: Crafted into fine jewellery and traditional ceremonial ornaments worn by traditional leaders.\n\n"
+            "• Diamond: Employed as an industrial cutting and grinding abrasive due to its extreme hardness, as well as set into jewellery.\n\n"
+            "• Bauxite: Refined into aluminium for the manufacture of light roofing sheets, vehicle components, and cooking vessels.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 3 (BECE 2000 Q4)\n\n"
             "(c) Explain any four benefits of mining to Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "• Source of job creation: Employs engineers, miners, drivers, and accountants.\n\n"
-            "• Revenue generation: Companies pay corporate taxes and royalties to the government.\n\n"
-            "• Source of foreign exchange: Minerals are exported to earn foreign currency like dollars.\n\n"
-            "• Provision of infrastructure: Mining companies build roads, schools, and hospitals in local communities.",
+        answer: "⦿ (c) Benefits of mining to Ghana:\n\n"
+            "• Employment opportunities: The sector creates diverse direct and indirect jobs, employing individuals as geological engineers, heavy machinery operators, logistics drivers, and administrative staff.\n\n"
+            "• Government revenue collection: Mining entities contribute substantially to public finances through statutory tax obligations, licence fees, and mineral royalty payments.\n\n"
+            "• Foreign exchange accumulation: Selling extracted minerals on global commodity markets generates foreign currency, strengthening national monetary reserves.\n\n"
+            "• Community infrastructure development: Commercial mining operators frequently construct physical infrastructure, including access roads, healthcare centres, and schools, within their local host communities.\n\n"
+            "• Urban settlement growth: The expansion of extraction activities attracts commercial investments and utilities, accelerating the transformation of surrounding villages into thriving urban centres.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 4 (BECE 2009 Q6)\n\n"
-            "(a) What is human resource?\n"
-            "(b) Explain three factors which can negatively affect human resource in Ghana.\n"
+            "(a) What is human resource?\n\n"
+            "(b) Explain three factors which can negatively affect human resource in Ghana.\n\n"
             "(c) Describe four measures that can be taken to improve human resource in Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Human resource refers to the population of a country, specifically their skills, knowledge, and abilities used to facilitate development.\n\n"
-            "(b) Factors which negatively affect human resource in Ghana:\n\n"
-            "• Incidence of diseases: Diseases like malaria make people weak and reduce their productivity.\n\n"
-            "• Low level of education: Lacking skills prevents people from functioning efficiently in jobs.\n\n"
-            "• Poor conditions of work: Low wages and poor facilities reduce worker motivation.\n\n"
-            "(c) Measures to improve human resource in Ghana:\n\n"
-            "• Provision of quality education: Equipping people with skills through schools and vocational centers.\n\n"
-            "• Improvement in welfare: Providing better pay, health insurance, and accommodation.\n\n"
-            "• Improved working conditions: Providing modern tools and facilities to motivate staff.\n\n"
-            "• Proper supervision: Ensuring workers maintain positive attitudes like punctuality and honesty.",
+        answer: "⦿ (a) Answer:\n\n"
+            "Human resource represents the aggregate workforce of a nation, encompassing the collective knowledge, technical skills, physical capability, and operational talents that citizens deploy to drive social and economic progress.\n\n"
+            "⦿ (b) Factors which can negatively affect human resource in Ghana:\n\n"
+            "• Prevalence of infectious diseases: Widespread ailments such as malaria and HIV/AIDS weaken individual physical capacity, leading to frequent workplace absenteeism and diminished overall productivity.\n\n"
+            "• Deficiencies in educational training: Insufficient access to modern vocational and technical instruction leaves workers without the specialized skills required to operate efficiently in contemporary industries.\n\n"
+            "• Unfavourable working environments: Low wage structures, inadequate health protections, and poor operational facilities demoralise personnel, directly lowering worker output and efficiency.\n\n"
+            "• Rapid demographic growth: A population expanding faster than economy-wide job creation results in high unemployment, preventing qualified individuals from utilising their skills effectively.\n\n"
+            "⦿ (c) Measures that can be taken to improve human resource in Ghana:\n\n"
+            "• Enhancing educational standard: Investing in practical technical and vocational training institutions equips citizens with relevant market skills, raising workplace efficiency.\n\n"
+            "• Upgrading worker welfare packages: Implementing competitive compensation schemes, medical coverage, and housing incentives boosts workforce morale and dedication.\n\n"
+            "• Upgrading workplace conditions: Providing modern machinery, safety equipment, and comfortable working environments enables employees to maximize their operational output.\n\n"
+            "• Enforcing structured supervision: Establishing systematic administrative oversight ensures staff maintain high professional standards, punctuality, and operational discipline.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 5 (BECE 2020 Q5)\n\n"
             "(b) In what four ways can the use of natural resources in Ghana be sustained?",
-        answer: "⦿ Answer:\n\n"
-            "• Practice of re-afforestation: Encouraging people to plant trees to replace those cut down.\n\n"
-            "• Public education: Using media to teach the public about activities that destroy resources.\n\n"
-            "• Enforcing laws and sanctions: Enacting and enforcing laws against illegal mining (galamsey) and water pollution.\n\n"
-            "• Finding alternative sources: Using LPG instead of charcoal to reduce pressure on forests for firewood.",
+        answer:
+            "⦿ (b) Ways the use of natural resources in Ghana can be sustained:\n\n"
+            "• Systematic re-afforestation: Implementing nationwide tree-planting initiatives to replace harvested timber ensures continuous forest cover and protects land against severe soil erosion.\n\n"
+            "• Public environmental education: Sensitising citizens through national media campaigns about the environmental hazards of destructive practices preserves delicate ecosystems.\n\n"
+            "• Rigorous legal enforcement: Applying strict statutory penalties and prosecution against illegal miners and environmental polluters acts as an effective deterrent against resource destruction.\n\n"
+            "• Adoption of alternative energy options: Promoting cleaner domestic fuel sources like liquefied petroleum gas minimizes widespread deforestation driven by charcoal production.\n\n"
+            "• Material recycling programmes: Converting waste items such as scrap metal and plastics into reusable goods reduces the demand for raw material extraction.",
         explanation: "",
       ),
     ],
@@ -5514,34 +5671,34 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario: "QUESTION 1 (BECE 2004 Q5)\n\n"
-            "(a) Based on discussions and studies in class, define marriage in the context of Ghanaian society.\n"
-            "(b) State four reasons that will cause you to marry when the time is due.\n"
+            "(a) Based on discussions and studies in class, define marriage in the context of Ghanaian society.\n\n"
+            "(b) State four reasons that will cause you to marry when the time is due.\n\n"
             "(c) Mr. and Mrs. Mensah have been happily married for forty-seven years. Suggest four possible reasons that might have accounted for the longevity of their marriage.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Marriage is the union between a man and a woman who have agreed to live together as husband and wife and have gone through all the procedures recognized in their society.\n\n"
-            "(b) Reasons for marriage:\n\n"
-            "• Procreation: For childbearing to continue the family lineage.\n\n"
-            "• Companionship: To have a partner to share life with.\n\n"
-            "• Social status/respect: To gain recognition and respect within the community.\n\n"
-            "• Social cohesion: To create unity and bonds between different families.\n\n"
-            "• Mutual assistance: For partners to help each other in daily life.\n\n"
-            "• Security and protection: To provide a safe environment for the couple and children.\n\n"
-            "• Legitimate sexual avenue: To have a socially and legally accepted relationship.\n\n"
-            "• Family or societal pressure: Meeting the expectations of elders and the community.\n\n"
-            "• Love and affection: To express deep emotional commitment.\n\n"
-            "• Economic support: For partners to pool resources and support the household financially.\n\n"
-            "(c) Reasons for the longevity of their marriage:\n\n"
-            "• Faithfulness and Honesty: Married couples are required to be honest and faithful to each other to prevent misunderstandings or conflicts. This builds trust, which allows the couple to live happily together.\n\n"
-            "• Hard work: This is an essential factor for a successful marriage in Ghana. It enables couples to sustain their jobs and earn enough money to cater for the needs of the spouse and children, ensuring the marriage is sustained.\n\n"
-            "• Effective communication: Success is achieved when a couple can express themselves clearly without intimidation, disrespect, or arrogance. Good communication ensures the couple understands each other well over a long period.\n\n"
-            "• Showing love and affection: Couples should show love and care at all times, especially during difficulties. This makes both partners feel valued, loved, and important.\n\n"
-            "• Adequate preparation and background checks: Planning and performing background checks before marriage ensures compatibility. This helps avoid \"wrong mate selection\" and behaviours that could destroy the relationship.\n\n"
-            "• Peaceful conflict resolution: Adopting peaceful ways to resolve misunderstandings is vital for living harmoniously.\n\n"
-            "• Tolerance: Partners must learn to accept each other's views and opinions, even when they differ. This enhances mutual understanding.\n\n"
-            "• Sexual satisfaction: Couples should satisfy each other sexually to maintain happiness and prevent extra-marital affairs, which leads to a more sustainable marriage.\n\n"
-            "• Child bearing and fertility: Giving birth to children often helps ensure the sustainability of the marriage. Couples who cannot conceive may also adopt a child to maintain a happy home.\n\n"
-            "• Ignoring external influence: Couples must minimize interference from in-laws, relatives, and friends to enjoy their privacy and protect the bond of the marriage.\n\n"
-            "• Mutual assistance, trust, and commitment: Success also relies on supporting one another, maintaining complete trust, and being willing to make sacrifices for the sake of the union.",
+        answer: "⦿ (a) Answer:\n\n"
+            "• Within the Ghanaian social context, marriage represents a recognized union between a man and a woman who have formally agreed to become husband and wife after completing all required cultural, legal, or religious customs established by their community.\n\n"
+            "⦿ (b) Reasons for marriage:\n\n"
+            "• Procreation: To give birth to children and ensure the continuity of the family line.\n\n"
+            "• Companionship: To gain a lifelong partner for mutual friendship and emotional support.\n\n"
+            "• Social status and respect: To achieve social recognition and fulfil adult expectations within the community.\n\n"
+            "• Family cohesion: To foster unity, solidarity, and lasting alliances between two extended families.\n\n"
+            "• Mutual assistance: To partner with someone in sharing daily responsibilities and supporting one another through challenges.\n\n"
+            "• Protection and security: To establish a safe, stable foundation for both partners and their future dependants.\n\n"
+            "• Legitimate sexual outlet: To participate in a socially approved and lawful romantic relationship.\n\n"
+            "• Cultural and societal expectations: To meet the traditional norms set by family elders and society.\n\n"
+            "• Love and affection: To express deep personal devotion and commitment toward a chosen partner.\n\n"
+            "• Financial collaboration: To pool resources together to secure a stable household economy.\n\n"
+            "⦿ (c) Reasons for the longevity of their marriage:\n\n"
+            "• Unwavering honesty and fidelity: Partners who remain truthful and faithful build deep trust, minimizing unnecessary conflict and maintaining a strong emotional connection over time.\n\n"
+            "• Diligence and financial effort: Working hard to secure stable employment ensures the family has sufficient income for living expenses and child care, removing financial strain from the relationship.\n\n"
+            "• Open and respectful communication: Expressing thoughts clearly without resorting to harshness, disrespect, or intimidation helps partners understand each other’s needs and resolve concerns early.\n\n"
+            "• Continuous expressions of affection: Regularly showing care and compassion, particularly during difficult periods, helps both individuals feel cherished and valued throughout the relationship.\n\n"
+            "• Thorough preparation and background evaluation: Taking time to evaluate compatibility prior to marriage prevents poor partner choice and reduces long-term behavioral conflicts.\n\n"
+            "• Constructive conflict resolution: Resolving disagreements through calm dialogue rather than hostile confrontations helps maintain harmony within the household.\n\n"
+            "• Mutual tolerance: Learning to accept differing viewpoints and personal flaws fosters an environment of mutual understanding and peaceful co-existence.\n\n"
+            "• Physical intimacy and satisfaction: Meeting each other's marital needs attentively prevents frustration and reduces the likelihood of extramarital relationships.\n\n"
+            "• Raising a family: Having children or welcoming adopted children often strengthens the marital bond and provides a shared sense of purpose.\n\n"
+            "• Managing external interference: Protecting the privacy of the union by setting appropriate boundaries with in-laws, relatives, and well-meaning friends shields the marriage from unnecessary strain.\n\n"
+            "• Shared commitment and sacrifice: A willingness to support one another selflessly and prioritize the relationship ensures long-term stability.",
         explanation: "",
       ),
     ],
@@ -5552,67 +5709,163 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario: "QUESTION 1 (BECE 2005 Q4)\n\n"
-            "(a) Identify any four social problems of rapid population growth in Ghana.\n"
+            "(a) Identify any four social problems of rapid population growth in Ghana.\n\n"
             "(b) Suggest any four ways of reducing population growth in Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Social problems of rapid population growth in Ghana:\n\n"
-            "• It leads to environmental pollution: As the number of people increases in Ghana, human activities such as farming, building of houses, and mining increase. These activities cause water bodies, land, and air to be polluted rapidly.\n\n"
-            "• It leads to high rate of unemployment: High population growth increases the number of people seeking jobs. Because jobs are not available in the country, more people become jobless.\n\n"
-            "• It brings poverty: High population growth brings a high poverty ratio because the dependency burden and rate of unemployment in the country become very high.\n\n"
-            "• It increases crime rate: As a result of unemployment and poverty, people are compelled to engage in criminal activities such as armed robbery and kidnapping to survive.\n\n"
-            "• It leads to proliferation of slums: High population growth causes people to live in unauthorised structures like kiosks and wooden structures because they cannot afford city rents.\n\n"
-            "• It results in overcrowding/congestion: Public places like streets, schools, hospitals, and churches become overcrowded, which affects free movement.\n\n"
-            "(b) Ways of reducing population growth in Ghana:\n\n"
-            "• Discouraging early marriages: This minimizes the tendency of girls giving birth to many children during their long fertility period.\n\n"
-            "• Family planning activities: Married couples should be encouraged to practise spacing and birth control to ensure they have only the number of children they can cater for.\n\n"
-            "• Public education: Educating people on the causes and effects of high population growth through media and churches discourages large family sizes.\n\n"
-            "• Encouraging girl-child education: Higher education informs females about family planning and prevents early marriage and unwanted pregnancies.",
+        answer:
+            "⦿ (a) Social problems created by rapid population expansion in Ghana:\n\n"
+            "• Environmental degradation and pollution: A swift increase in inhabitants amplifies human activities including farming, residential construction, and mining. This rapid expansion contaminates natural water systems, soil quality, and ambient air.\n\n"
+            "• Widespread unemployment: When population growth outpaces economic development, the volume of job seekers exceeds available openings, leaving a substantial proportion of the workforce unemployed.\n\n"
+            "• Pervasive poverty: High birth rates lead to an elevated dependency ratio and widespread joblessness, which severely depresses household income levels across the country.\n\n"
+            "• Increased criminal activity: Severe financial desperation, combined with a lack of gainful employment, frequently pushes individuals toward unlawful acts such as armed robbery and kidnapping as survival strategies.\n\n"
+            "• Growth of informal settlements and slums: Severe housing shortages compel low-income individuals to construct sub-standard, temporary structures in urban areas because formal housing rents remain unaffordable.\n\n"
+            "• Severe overcrowding of public spaces: High population density leads to excessive congestion in essential facilities including healthcare centres, public transport, classrooms, and religious venues, restricting general mobility.\n\n"
+            "• Strain on public infrastructure: Essential amenities such as treated pipe-borne water, medical centres, public markets, and schools experience heavy strain due to the overwhelming volume of users.\n\n"
+            "• Heavy dependency burden: Rapid expansion leaves a higher proportion of non-working dependants relying upon a comparatively small demographic of active income earners.\n\n"
+            "• Deficit in healthcare provision: Elevated patient numbers overwhelm existing medical infrastructure, resulting in critical shortages of hospital resources, beds, and healthcare personnel.\n\n"
+            "• Escalation of social vices: Financial hardship and unemployment force vulnerable individuals into anti-social practices such as prostitution, substance abuse, and opportunistic crime to earn a living.\n\n"
+            "• Depressed living standards: The inability of public infrastructure and economic output to match population growth depresses overall quality of life and inflates basic living expenses.\n\n"
+            "⦿ (b) Strategic measures to curb population growth in Ghana:\n\n"
+            "• Discouragement of early marriage: Delaying the legal or customary age of marriage shortens the reproductive timeframe of individuals, thereby reducing overall childbearing capacity.\n\n"
+            "• Promotion of family planning services: Educating and providing couples with modern contraceptive methods enables effective child-spacing and limits family sizes to manageable levels.\n\n"
+            "• Public educational campaigns: Disseminating information through national media outlets, places of worship, and community hubs builds awareness regarding the personal and economic consequences of overpopulation.\n\n"
+            "• Investment in girl-child education: Retaining female students in formal education for longer periods delays childbearing and equips them with knowledge regarding reproductive health and family planning.\n\n"
+            "• Reduction of polygamous unions: Promoting monogamous marital arrangements prevents a single male partner from fathering large numbers of children across multiple households.\n\n"
+            "• Rigorous enforcement of immigration policies: Strict border control prevents unauthorized cross-border influxes, ensuring national demographic growth remains manageable.\n\n"
+            "• Job creation and poverty mitigation: Expanding formal employment opportunities provides financial stability, reducing the inclination toward early marriage or adolescent pregnancy among vulnerable groups.\n\n"
+            "• Implementation of national population policies: Enforcing national directives and guidelines on reproductive health guarantees that family planning becomes a structured national priority.\n\n"
+            "• Incentives for smaller family sizes: Introducing state-sponsored benefits, such as educational scholarships or tax relief for families with fewer children, encourages voluntary reproductive restraint.\n\n"
+            "• Economic empowerment for women: Supporting women with capital to launch independent business ventures reduces financial dependence on male partners and curbs unplanned pregnancies.\n\n"
+            "• Advancement of gender equity: Ensuring equal social, economic, and leadership representation for women encourages family models where reproductive choices are shared and informed.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 2 (BECE 2006 Q4)\n\n"
-            "(a) Identify four negative effects of rural-urban migration on the villages of Ghana.\n"
+            "(a) Identify four negative effects of rural-urban migration on the villages of Ghana.\n\n"
             "(b) Suggest any three ways of reducing rural-urban migration in Ghana.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Negative effects of rural-urban migration on villages in Ghana:\n\n"
-            "• Low production in rural areas: Migration results in a decrease in the production of food and cash crops in rural communities.\n\n"
-            "• Increased number of broken homes: Marriages often break down when one partner moves to the city, sometimes leaving the spouse and children behind.\n\n"
-            "• Lack of supervision of children: Children are often poorly monitored when parents migrate, leaving them to survive without proper parental care.\n\n"
-            "• Under-development in rural communities: The educated and energetic youth who should drive development move away, leading to the neglect of their hometowns.\n\n"
-            "• Loss of labour force: The villages lose the energetic people required to support farming and other agricultural activities.\n\n"
-            "(b) Ways of reducing rural-urban migration in Ghana:\n\n"
-            "• Provision of job opportunities: Creating jobs in rural areas through government or NGO initiatives prevents people from moving to cities for work.\n\n"
-            "• Provision of social amenities: Providing pipe-borne water, electricity, and hospitals in rural areas improves living conditions and encourages residents to stay.\n\n"
-            "• Development of industries: Establishing small-scale industries like pottery or soap making in villages provides local employment.\n\n"
-            "• Modernizing agriculture: Supporting rural dwellers with tractors and fertilizers motivates the youth to stay and engage in commercial farming.",
+        answer:
+            "⦿ (a) Adverse consequences of rural-urban migration on rural communities:\n\n"
+            "• Decline in agricultural output: The departure of young community members leads to an acute shortage of agricultural labour, causing a fall in food and cash crop harvests.\n\n"
+            "• Disruption of domestic structures: Marriages frequently collapse when one partner relocates to an urban centre for employment and subsequently abandons their rural spouse and household.\n\n"
+            "• Inadequate parental supervision: Children whose parents move to cities are often left in the care of elderly relatives or on their own, resulting in neglect and poor upbringing.\n\n"
+            "• Stagnation of local development: Rural areas lose dynamic, educated, and innovative young individuals who possess the skills needed to drive local infrastructure and social progress.\n\n"
+            "• Depletion of the active workforce: Rural regions experience a drain of energetic youth who would otherwise sustain local agricultural, craft, and commercial enterprises.\n\n"
+            "• Erosion of cultural heritage: The breakdown of extended family structures reduces the transmission of traditional customs, values, and oral history from elders to younger generations.\n\n"
+            "• Depopulation of rural districts: Continuous outward migration leads to severe population imbalances, leaving rural communities underpopulated while cities become overpopulated.\n\n"
+            "• Collapse of local cottage industries: Traditional crafts, weaving, and artisanal trades decline because the young workforce required to sustain these skills relocates to urban areas.\n\n"
+            "• Widespread rural poverty: Families left behind suffer financial hardship, as the primary breadwinners who migrate may fail to find stable work or send remittances home.\n\n"
+            "⦿ (b) Effective policies to mitigate rural-urban migration:\n\n"
+            "• Establishment of rural job opportunities: Setting up local businesses and public works programs gives young people viable employment options within their home communities.\n\n"
+            "• Upgrading of essential infrastructure: Installing reliable electricity, pipe-borne water systems, and modern healthcare facilities makes rural life attractive and functional.\n\n"
+            "• Extension of electrical grids: Supplying stable electrical power to small towns enables small-scale manufacturing, processing plants, and commercial enterprises to thrive locally.\n\n"
+            "• Development of rural industries: Setting up small-scale processing plants, such as fruit processing, pottery, or textile weaving, provides non-agricultural jobs for local youth.\n\n"
+            "• Community sensitization campaigns: Educating young people about the realities and risks of urban living discourages hasty migration driven by false expectations of city life.\n\n"
+            "• Construction of feeder road networks: Building quality roads connects farming villages to urban markets, facilitating the smooth transport of farm produce and rural trade.\n\n"
+            "• Provision of guaranteed produce markets: Establishing reliable buying centres and fair market pricing for agricultural output reassures rural farmers of stable incomes.\n\n"
+            "• Creation of rural recreational facilities: Constructing sports grounds, community centres, and parks enhances social life and entertainment options for young people in rural districts.\n\n"
+            "• Streamlined access to agricultural land: Simplifying land tenure systems allows young aspiring farmers to acquire land easily for commercial agricultural ventures.\n\n"
+            "• Modernization of agricultural practices: Providing mechanized equipment, high-yield seeds, and fertilizers transforms traditional farming into a profitable business for young workers.\n\n"
+            "• Abolition of harmful traditional customs: Eliminating oppressive cultural practices such as forced marriage or female genital mutilation protects individuals from fleeing their villages for safety.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 3 (BECE 2008 Q4)\n\n"
-            "(a) Mention any four causes of urbanization.\n"
+            "(a) Mention any four causes of urbanization.\n\n"
             "(b) State four effects of urbanization.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Causes of urbanization:\n\n"
-            "• Access to educational facilities: The presence of higher educational institutions in cities influences people to move for quality schooling.\n\n"
-            "• Opportunities for commercial activities: Urban centers provide avenues for trading, banking, and diverse businesses.\n\n"
-            "• Better social amenities: Cities offer developed facilities like hospitals, stable electricity, and water supply.\n\n"
-            "• Availability of job opportunities: People settle in urban centers seeking greener pastures and better employment than what is available in rural areas.\n\n"
-            "(b) Effects of urbanization:\n\n"
-            "• Development of slums: Urbanization leads to unauthorised structures for those who cannot afford proper housing.\n\n"
-            "• Environmental pollution: Increased industries and vehicle congestion cause significant air and land pollution.\n\n"
-            "• Proliferation of social vices: The mix of diverse populations and economic hardship often leads to increased armed robbery, prostitution, and alcoholism.\n\n"
-            "• High cost of living: Increased demand for services causes high prices for rent, food, and education in the cities.",
+        answer: "⦿ (a) Primary drivers of urbanization:\n\n"
+            "• Access to tertiary and secondary education: The concentration of high-quality secondary schools, universities, and vocational institutes in cities draws students from rural districts.\n\n"
+            "• Commercial and financial opportunities: Urban areas serve as hubs for commerce, retail, corporate banking, and informal trade, attracting job seekers and entrepreneurs.\n\n"
+            "• Superior public infrastructure: Modern amenities such as major hospitals, reliable electricity networks, and treated water systems draw populations toward urban centres.\n\n"
+            "• Diverse employment prospects: Cities offer a higher volume and wider variety of wage-earning jobs across industrial, service, and administrative sectors.\n\n"
+            "• Higher potential standard of living: The prospect of accessing modern conveniences, better housing, and higher wages encourages movement to urban locations.\n\n"
+            "• Inadequate development in outlying districts: Lack of basic services, entertainment, and modern infrastructure in rural areas pushes residents toward cities.\n\n"
+            "• Natural demographic increase: Higher birth rates paired with lower mortality rates in urban areas due to better medical care drive internal population growth.\n\n"
+            "• Escape from restrictive cultural practices: Individuals relocate to urban centers to escape oppressive traditional customs, forced arrangements, or social stigma in small villages.\n\n"
+            "• Avoidance of extended family obligations: Moving to urban areas allows individuals to establish independent households and escape heavy rural family demands.\n\n"
+            "⦿ (b) Major consequences associated with urbanization:\n\n"
+            "• Unplanned urban unemployment: City populations expand faster than formal job creation, leading to high numbers of unemployed or underemployed urban youth.\n\n"
+            "• Loss of productive rural human capital: The selective movement of educated and physically active youth to cities leaves rural communities short of productive workers.\n\n"
+            "• Spread of informal settlements: Rapid influxes of migrants lead to the mushrooming of overcrowded, sub-standard housing developments lacking basic sanitation.\n\n"
+            "• Severe environmental degradation: Concentration of population and industrial activity leads to air pollution from vehicles, industrial waste dumping, and inadequate sewage disposal.\n\n"
+            "• Acute urban congestion: Overpopulation causes severe traffic gridlock, crowded public transportation, and spatial pressure within commercial districts.\n\n"
+            "• Depression of rural farming output: The drain of agricultural workers toward urban centers reduces national food production and increases reliance on imported foodstuffs.\n\n"
+            "• Rise in urban crime and social vices: High unemployment coupled with a high cost of living drives vulnerable individuals toward theft, substance abuse, and sex work.\n\n"
+            "• Escalating cost of living: High demand for basic commodities, residential rent, utility services, and food drives prices upward, causing financial strain on households.\n\n"
+            "• Prevalence of street hawking and streetism: Lack of formal employment compels many young people and children to sell items at traffic intersections or live on city streets.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 4 (BECE 2009 Q5)\n\n"
-            "(a) State four causes of high birth rate in Ghana.",
+            "(a) State four causes of high birth rate in Ghana.\n\n"
+            "(b) In what four ways can high birth rate be reduced in Ghana?",
+        answer:
+            "⦿ (a) Contributing factors to elevated birth rates in Ghana:\n\n"
+            "• Prevalence of adolescent pregnancies: High rates of pregnancy among teenage girls significantly boost overall birth figures across the nation.\n\n"
+            "• Early entry into marriage: Individuals marrying at a young age experience a longer childbearing span, leading to higher numbers of children per family unit.\n\n"
+            "• Elevated national fertility levels: A large proportion of the population being within their peak reproductive years naturally produces high birth numbers.\n\n"
+            "• Poverty and economic constraints: Low-income families often lack access to modern family planning resources or view large families as a source of future domestic labour.\n\n"
+            "• Low adoption of modern contraceptives: Cultural taboos, misconceptions, or poor access prevent widespread use of effective birth control methods among sexually active adults.\n\n"
+            "• Limited understanding of population dynamics: A lack of awareness regarding the socio-economic burdens of overpopulation leads families to have large numbers of children.\n\n"
+            "• Irresponsible parental care: Neglect by parents can lead young girls into premature sexual activity or exploitation, resulting in unplanned pregnancies.\n\n"
+            "• Polygamous family systems: Cultural practices permitting a man to marry multiple wives multiply the number of children fathered within a single family unit.\n\n"
+            "• Social prestige attached to large families: Cultural values that measure personal success or status by the size of one's household encourage high birth rates.\n\n"
+            "• Demand for agricultural family labour: Rural households frequently produce larger families to secure free labour for farming, fishing, and household chores.\n\n"
+            "• Deficiencies in reproductive health systems: Inadequate distribution of family planning clinics and commodities limits the ability of couples to manage their family size effectively.\n\n"
+            "⦿ (b) Interventions to control high birth rates in Ghana:\n\n"
+            "• Discouragement of early marriage: Delaying the legal or customary age of marriage shortens the reproductive timeframe of individuals, thereby reducing overall childbearing capacity.\n\n"
+            "• Promotion of family planning services: Educating and providing couples with modern contraceptive methods enables effective child-spacing and limits family sizes to manageable levels.\n\n"
+            "• Public educational campaigns: Disseminating information through national media outlets, places of worship, and community hubs builds awareness regarding the personal and economic consequences of large family sizes.\n\n"
+            "• Investment in girl-child education: Retaining female students in formal education for longer periods delays childbearing and equips them with knowledge regarding reproductive health and family planning.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 5 (BECE 2012 Q1)\n\n"
+            "(a) State four problems created in the urban areas by rural-urban migration.\n\n"
+            "(b) Describe four measures that can be adopted to reduce rural-urban migration.",
+        answer: "⦿ (a) Challenges generated in cities by rural-urban drift:\n\n"
+            "• Elevated levels of urban unemployment and underemployment.\n\n"
+            "• Severe pressure and breakdown of social amenities like water supply, power grids, and health facilities.\n\n"
+            "• Escalation in urban criminal activities including armed robbery, petty theft, and muggings.\n\n"
+            "• Mushrooming of unauthorized informal settlements, leading to overcrowding and poor hygiene.\n\n"
+            "• Gridlock in public transportation systems and severe traffic congestion on major urban roads.\n\n"
+            "• Rapid transmission of communicable diseases due to crowded living environments.\n\n"
+            "• Widespread environmental contamination of land, water bodies, and ambient air.\n\n"
+            "• Increase in social vices such as commercial sex work, gambling, and substance abuse.\n\n"
+            "• Proliferation of street hawking, petty trading at traffic intersections, and child streetism.\n\n"
+            "• High inflation in basic living expenses, including exorbitant residential rents and high food costs.\n\n"
+            "• Excessive demand on municipal budgets and local government financial reserves.\n\n"
+            "⦿ (b) Strategic policies to control rural-urban drift:\n\n"
+            "• Establishment of rural job opportunities: Setting up local businesses and public works programs gives young people viable employment options within their home communities.\n\n"
+            "• Upgrading of essential infrastructure: Installing reliable electricity, pipe-borne water systems, and modern healthcare facilities makes rural life attractive and functional.\n\n"
+            "• Development of rural industries: Setting up small-scale processing plants, such as fruit processing, pottery, or textile weaving, provides non-agricultural jobs for local youth.\n\n"
+            "• Construction of feeder road networks: Building quality roads connects farming villages to urban markets, facilitating the smooth transport of farm produce and rural trade.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 6 (BECE 2013 Q5)\n\n"
+            "Explain five measures that can be adopted to improve the quality of life in the rural areas.",
         answer: "⦿ Answer:\n\n"
-            "• Teenage pregnancy: Pregnancies among those aged 13–19 significantly increase the national birth rate.\n\n"
-            "• Early marriages: Marrying at an early age allows for a longer period of reproduction, leading to more children per family.\n\n"
-            "• Poverty: Poor families often give birth rapidly because they cannot afford family planning services or because they see children as a form of future security.\n\n"
-            "• Prestige of large families: In some cultures, having many children is a source of social, economic, or religious prestige.\n\n"
-            "• Family labour: Some parents have many children specifically to provide manual labour for farming or fishing.",
+            "• Provision of essential public infrastructure: Constructing modern healthcare centres, extending treated pipe-borne water, and expanding electrical networks transforms rural living standards and protects public health.\n\n"
+            "• Establishment of rural agro-processing industries: Setting up factories to process raw agricultural produce into finished goods creates non-farming employment, adds value to local crops, and provides farmers with accessible farm inputs.\n\n"
+            "• Reduction of post-harvest crop losses: Supplying rural agriculturalists with modern crop storage facilities, such as refrigerated units, grain silos, and secure warehouses, prevents crop spoilage and preserves farm income.\n\n"
+            "• Expansion of non-formal functional literacy programs: Broadening adult education and vocational training schemes equips rural residents with practical skills, reducing illiteracy and boosting rural enterprise.\n\n"
+            "• Introduction of modern agricultural techniques: Training local farmers in sustainable practices like mixed farming and agro-forestry increases crop yields while conserving local land resources.\n\n"
+            "• Delivery of quality functional education: Upgrading rural schools and providing practical, skill-focused curricula prepares local youth for meaningful local employment and self-reliance.\n\n"
+            "• Establishment of fair produce pricing policies: Setting guaranteed baseline prices for key commercial crops like cocoa, plantain, and oil palm protects farmers from market exploitation and stabilizes rural revenue.\n\n"
+            "• Modernization of agricultural technology: Providing accessible tractor services, modern ploughs, and mechanized harvesters enables rural farmers to scale up production and boost profit margins.\n\n"
+            "• Promotion of reproductive health education: Encouraging family planning and child-spacing in rural communities helps manage family sizes and eases domestic financial strain.\n\n"
+            "• Upgrading of transport networks: Constructing durable feeder roads connects isolated rural communities to commercial hubs, lowering transport costs for farm produce.\n\n"
+            "• Provision of accessible micro-credit facilities: Offering low-interest agricultural and commercial loans through rural banks enables local entrepreneurs to expand operations and generate local wealth.\n\n"
+            "• Construction of community recreational venues: Building public sports fields, parks, and cultural centres enriches rural social life and provides healthy leisure spaces for youth.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION 7 (BECE 2023 Q2b)\n\n"
+            "Identify four problems the rural areas in Ghana suffer from as a result of migration of the youthful population to the cities.",
+        answer: "⦿ Answer:\n\n"
+            "• Decline in agricultural output: The departure of young community members leads to an acute shortage of agricultural labour, causing a fall in food and cash crop harvests.\n\n"
+            "• Depletion of the active workforce: Rural regions experience a drain of energetic youth who would otherwise sustain local agricultural, craft, and commercial enterprises.\n\n"
+            "• Stagnation of local development: Rural areas lose dynamic, educated, and innovative young individuals who possess the skills needed to drive local infrastructure and social progress.\n\n"
+            "• Collapse of local cottage industries: Traditional crafts, weaving, and artisanal trades decline because the young workforce required to sustain these skills relocates to urban areas.",
         explanation: "",
       ),
     ],
@@ -5624,57 +5877,56 @@ final Map<String, PracticeModel> becePracticeData = {
         scenario: "QUESTION 1 (BECE 2015 Q2)\n\n"
             "Outline five ways of fostering national unity in Ghana.",
         answer: "⦿ Answer:\n\n"
-            "• (i) By showing patriotism and selflessness: National identity can be promoted if Ghanaians show more interest, love and sacrifice to the development of Ghana than their personal or tribal interests. This will make them live together as one people and one nation with one common interest.\n\n"
-            "• (ii) Tolerance of opposing views: Ghanaians must develop the culture of tolerance by accepting divergent views and beliefs of others. This will make them build and maintain unity among them as Ghanaians and foster national unity.\n\n"
-            "• (iii) Respect for country's national symbols: National identity can also be promoted if Ghanaians relate mainly to the national symbols and not their tribal traits or symbols. These symbols include the national flag, national anthem, our currency, etc. This will give them national identity.\n\n"
-            "• (iv) Celebration of national cultural festivals: Ghanaians must be encouraged to celebrate national cultural festivals as a way of promoting national identity. This is because such occasions will bring all Ghanaians together irrespective of their ethnic background, thereby making them united as one people and one nation. Example, National Festival of Arts and Culture (NAFAC).\n\n"
-            "• (v) Respect and appreciation of other people's culture: Ghanaians must respect and appreciate the culture of other people. This will enhance the sense of oneness in the country.\n\n"
-            "• (vi) Promotion of inter-ethnic marriages: Ghanaians must be encouraged to practise inter-ethnic marriages as a way of promoting national identity. This is because such practice will unite two families, friends and partners from different ethnic backgrounds to promote national identity.\n\n"
-            "• (vii) Public education: There must be public education to sensitize people on the need to promote national identity. It will enable people to see themselves as one people and one nation without divisions. This can be carried out by institutions such as NCCE, churches, media, schools, etc.\n\n"
-            "• (viii) Encouraging the boarding school systems: The boarding school system must be encouraged as a way of promoting national identity. This is because it helps to unite people from different ethnic backgrounds and makes them live together as Ghanaians.\n\n"
-            "• (ix) Discouraging stereotyping: Ghanaians must learn to avoid the attitude and practice of stereotyping. They must not be encouraged to define or stigmatize other people based on their ethnic, gender, religion, political and economic status. This will help to promote national unity.\n\n"
-            "• (x) Learning and speaking other people's language: Ghanaians must appreciate the languages of other cultural groups by making effort to learn and speak them. This enhances communication and understanding among people from different ethnic groups and minimizes national disintegration.",
+            "• (i) By showing patriotism and selflessness: Citizens advance national identity when they place the advancement, affection, and devotion for Ghana ahead of personal or tribal considerations. Prioritising the collective good enables diverse populations to coexist peacefully as a single entity with shared aspirations.\n\n"
+            "• (ii) Tolerance of opposing views: Fostering unity requires citizens to cultivate open-mindedness by welcoming alternative perspectives and beliefs. Embracing differences helps build social harmony among Ghanaians and strengthens national cohesion.\n\n"
+            "• (iii) Respect for country’s national symbols: National identity strengthens when citizens rally around collective state emblems rather than tribal identifiers. Emblems such as the national flag, national anthem, and official currency unify the population under a shared national umbrella.\n\n"
+            "• (iv) Celebration of national cultural festivals: Encouraging widespread participation in nationwide cultural events helps forge a strong identity. Gathering for events such as the National Festival of Arts and Culture (NAFAC) brings individuals together regardless of background, reinforcing solidarity across the country.\n\n"
+            "• (v) Respect and appreciation of other people’s culture: Valuing and honouring the customs of different cultural groups builds mutual trust, which significantly reinforces the feeling of togetherness across the nation.\n\n"
+            "• (vi) Promotion of inter-ethnic marriages: Supporting unions between individuals from varied ethnic backgrounds builds strong bridges across communities. Marrying across tribal lines links extended families and social circles, directly consolidating national identity.\n\n"
+            "• (vii) Public education: Mass awareness campaigns are essential to teach citizens the value of building a unified country. Outreach conducted by bodies such as the NCCE, religious organisations, news outlets, and academic institutions helps cultivate a shared mindset free of social divisions.\n\n"
+            "• (viii) Encouraging the boarding school systems: Promoting residential school education offers young people from diverse origins an opportunity to live and learn side by side. Daily interaction within boarding institutions builds lifelong connections that unify future generations.\n\n"
+            "• (ix) Discouraging stereotyping: Eliminating broad prejudices is crucial for maintaining peace. Citizens must refrain from labelling or marginalising others based on tribal origin, gender, faith, political leaning, or social class.\n\n"
+            "• (x) Learning and speaking other people’s language: Actively acquiring and communicating in the languages of neighbouring ethnic groups enhances mutual comprehension. Clear communication dissolves social barriers and prevents cultural division.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 2 (BECE 2019 Q2)\n\n"
             "(a) Define the following:\n"
-            "    (i) National unity\n"
-            "    (ii) National integrity\n"
+            "    (i) National unity;\n"
+            "    (ii) National integrity.\n\n"
             "(b) Outline four ways by which the integrity of the nation can be defended.",
-        answer: "⦿ Answer:\n\n"
-            "(a) Definitions:\n\n"
-            "• (i) National unity is the situation in which the various ethnic groups of a country live together in peace.\n\n"
-            "• (ii) National integrity is the upholding of the good name of a country through uprightness anywhere and at any time.\n\n"
-            "(b) Ways by which one can defend the integrity of the nation Ghana:\n\n"
-            "• (i) Living by the constitution of the country: People must uphold and defend the constitution or laws of Ghana as a way of defending the integrity of the country. This makes them law-abiding citizens and enhances the respect they have for the country as a nation.\n\n"
-            "• (ii) Accepting responsibility of work: People of Ghana must accept and appreciate responsibility of work anywhere in the country. They must put interests for Ghana first and accept to work anywhere they will be posted to serve the people of Ghana.\n\n"
-            "• (iii) Reporting criminals to law enforcement agencies: People must report those who engage in criminal activities in the country to the law enforcement authorities such as police. This will prevent criminal activities such as armed robbery, kidnapping, etc. in the country.\n\n"
-            "• (iv) Taking part in national assignment: People must accept the national call to serve the country. They must be prepared to honour the invitation to be part of national security service, national team, special committee, etc. and make meaningful impact in such areas.\n\n"
-            "• (v) Protecting the symbols of national unity: People can defend the integrity of Ghana by respecting and protecting the symbols of Ghana such as coat of arms, national flag, our currency, etc. These symbols define us as Ghanaians and therefore must be respected at anywhere and at any time.\n\n"
-            "• (vi) Protecting national properties: The properties of Ghana such as public school buildings, state enterprises, forest, water bodies, etc. must be protected by us all. This enhances the respect people have for the country and its properties.\n\n"
-            "• (vii) Defending the nation at international fora: The name of Ghana must be respected and defended by every citizen of the country internationally. This portrays positive image about the country to the international communities and people.\n\n"
-            "• (viii) Being patriotic: People must have the sense of patriotism as a way of defending the good name of Ghana. They must sacrifice their personal interest and promote the interest of Ghana at anywhere and at any time.\n\n"
-            "• (ix) Patronizing made-in-Ghana goods: People must develop interest for made-in-Ghana goods such as shoes, cloth, cars, television, radio, etc. This enhances the love and respect people have for goods made in Ghana and collectively promotes local producers in the country.\n\n"
-            "• (x) Cultivating good character: People must cultivate and display good behaviours such as honesty, respect for authority, hard work, etc. to other people or at workplaces. This will help to promote unity and harmonious living among people in the country.\n\n"
-            "• (xi) Payment of taxes: National integrity must be defended through performance of our civic responsibilities. Ghanaians must pay their taxes to enable government raise funds to undertake projects in the country. This will help to bring development in the country.\n\n"
-            "• (xii) Upholding national virtues or values: People must uphold the national virtues or values that are cherished in the country. These include honesty, tolerance, love for one another, patriotism, hardworking, etc.",
+        answer: "⦿ (a) Definitions:\n\n"
+            "• (i) National unity refers to a state of peaceful coexistence and harmony among all the varied ethnic communities living within a country.\n\n"
+            "• (ii) National integrity refers to the act of protecting a country's honor, moral standing, and good reputation through principled and upright conduct at all times.\n\n"
+            "⦿ (b) Ways by which one can defend the integrity of the nation Ghana:\n\n"
+            "• (i) Living by the constitution of the country: Upholding the supreme legal framework and complying with statutory laws preserves national dignity. Law-abiding citizens reflect positively on the state and elevate international regard for the country.\n\n"
+            "• (ii) Accepting responsibility of work: Citizens defend national standing by accepting employment assignments anywhere in the country. Demonstrating a readiness to serve in any region prioritises national development above personal convenience.\n\n"
+            "• (iii) Reporting criminals to law enforcement agencies: Safeguarding national security requires citizens to inform bodies like the police about illegal actions. Alerting authorities helps curb serious offences such as armed robbery and kidnapping, thereby maintaining public safety.\n\n"
+            "• (iv) Taking part of national assignment: Answering the call to serve in public capacities protects state interests. Serving in the security agencies, joining national athletic teams, or participating in special committees allows individuals to contribute directly to national progress.\n\n"
+            "• (v) Protecting the symbols of national unity: Honouring key emblems such as the Coat of Arms, national flag, and currency safeguards national honor. Showing reverence for these shared symbols reinforces pride and respect for the republic.\n\n"
+            "• (vi) Protecting national properties: Safeguarding public infrastructure, state enterprises, forests, and water bodies maintains national wealth. Caring for state assets demonstrates civic responsibility and preserves resources for future generations.\n\n"
+            "• (vii) Defending the nation at international fora: Representing the country with dignity abroad projects a positive global image. Defending the country's reputation in international arenas earns global respect for the nation and its people.\n\n"
+            "• (viii) Being patriotic: Demonstrating strong devotion to the country safeguards its global standing. Placing national well-being above personal ambition ensures the continuous protection of the state's welfare.\n\n"
+            "• (ix) Patronizing made-in Ghana goods: Purchasing domestically produced goods such as footwear, textiles, vehicles, and electronics boosts the domestic economy. Supporting local manufacturing reflects pride in national production and empowers local industries.\n\n"
+            "• (x) Cultivating good character: Exhibiting moral virtues such as truthfulness, deference to authority, and diligence in daily life fosters a stable society. Positive individual conduct promotes peaceful coexistence and civic harmony.\n\n"
+            "• (xi) Payment of taxes: Fulfilling civic duty through regular tax payments provides essential public revenue. Financial contributions enable the government to construct infrastructure and drive nationwide development.\n\n"
+            "• (xii) Upholding national virtues or values: Demonstrating cherished core values including integrity, mutual respect, benevolence, patriotism, and hard work preserves the social fabric of the state.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 3 (BECE 2021 Q2c)\n\n"
             "State four symbols of national unity.",
         answer: "⦿ Answer:\n\n"
-            "• (i) The National Anthem.\n\n"
-            "• (ii) The National Pledge.\n\n"
-            "• (iii) The National Flag.\n\n"
-            "• (iv) The Coat of Arms.\n\n"
-            "• (v) The State Sword.\n\n"
-            "• (vi) The Parliamentary Mace.\n\n"
-            "• (vii) The Independence Arch.\n\n"
-            "• (viii) Our Currency (cedi).\n\n"
-            "• (ix) The state sceptre.\n\n"
-            "• (x) Postage stamp.",
+            "• (i) The National Anthem\n\n"
+            "• (ii) The National Pledge\n\n"
+            "• (iii) The National Flag\n\n"
+            "• (iv) The Coat of Arms\n\n"
+            "• (v) The State Sword\n\n"
+            "• (vi) The Parliamentary Mace\n\n"
+            "• (vii) The Independence Arch\n\n"
+            "• (viii) Our Currency (cedi)\n\n"
+            "• (ix) The State Sceptre\n\n"
+            "• (x) Postage Stamp",
         explanation: "",
       ),
     ],
@@ -5687,27 +5939,27 @@ final Map<String, PracticeModel> becePracticeData = {
         scenario: "QUESTION 1 (BECE 2003 Q3)\n\n"
             "(a) Name the three arms of government.\n\n"
             "(b) State two functions of each of the three arms of government.",
-        answer: "⦿ (a) Answer:\n\n"
+        answer: "⦿ (a) The three arms of government:\n\n"
             "• (i) Executive\n\n"
             "• (ii) Legislature\n\n"
             "• (iii) Judiciary\n\n"
-            "⦿ (b) Answer:\n\n"
-            "⦿ Functions of the Executive arm of government:\n\n"
-            "• (i) Formulation of policies: The executive arm of government formulates policies for the socio-economic development of Ghana. These policies are formulated by the sector ministries and departments, and they include health policies, educational policies, employment policies, economic policies, etc.\n\n"
-            "• (ii) Preparation of national budget: The Executive branch of government prepares the national budget through the finance ministry and presents it for parliamentary approval.\n\n"
-            "• (iii) Assenting of bills: The President assents to bills prepared by the legislature to make them laws in the country.\n\n"
-            "• (iv) Nomination of judges and ministers: The President, as the head of the Executive arm of government, nominates ministers, judges, and other board members or Chief Executive Officers to run the affairs of institutions and ministries in the country.\n\n"
-            "• (v) Performance of ceremonial functions: The executive arm of government performs ceremonial functions by attending functions such as Independence Day celebrations.\n\n"
-            "⦿ Functions of the Legislature:\n\n"
-            "• (i) Making and amending laws: The Legislature makes laws and amends existing laws to reflect the needs of society.\n\n"
-            "• (ii) Approving budgets: The legislature approves the budget prepared and submitted to Parliament House by the finance minister.\n\n"
-            "• (iii) Vetting nominated judges and ministers: The legislature approves the judges, ministers, and other officers nominated by the Executive or the President through vetting.\n\n"
-            "• (iv) Impeachment of the President and Judges: The legislature can impeach the President, Vice President, judges, and other state officials if they misconduct themselves.\n\n"
-            "⦿ Functions of the Judiciary:\n\n"
-            "• (i) Settlement of disputes/cases: The Judiciary settles cases between people, groups of people, the state and individuals, or institutions to ensure unity in the country.\n\n"
-            "• (ii) Interpreting laws or the constitution: The Judiciary, through the Supreme Court, interprets the laws of the state to give a clear meaning to the provisions and clauses in the Constitution.\n\n"
-            "• (iii) Judicial review: The Judiciary, through the Supreme Court, reviews decisions of the legislature and the executive to determine whether they are constitutional or not.\n\n"
-            "• (iv) Protection of human rights: The Judiciary also ensures the protection of the fundamental human rights of people in the country.",
+            "⦿ (b) Functions of the three arms of government:\n\n"
+            "Functions of the Executive arm of government:\n\n"
+            "• (i) Policy formulation: The executive branch designs socio-economic strategies to develop the nation. Individual government ministries and departments create these initiatives, covering domains such as public health, educational structures, employment opportunities, and financial planning.\n\n"
+            "• (ii) National budget preparation: Working through the ministry responsible for finance, the executive branch drafts the country's annual financial budget and submits it for parliamentary approval.\n\n"
+            "• (iii) Assenting to bills: The president signs legislative bills into law, granting them legal authority within the state.\n\n"
+            "• (iv) Appointment of state officials: Headed by the president, the executive nominates public ministers, judges, board members, and chief executive officers to direct state administrative bodies and government ministries.\n\n"
+            "• (v) Performance of ceremonial duties: The executive represents the state during national ceremonies and official events, such as Independence Day celebrations.\n\n"
+            "Functions of the Legislature:\n\n"
+            "• (i) Enacting and revising legislation: Parliament creates new legal provisions and modifies existing statutes to suit the evolving needs of society.\n\n"
+            "• (ii) Financial oversight and budget approval: The legislature examines and approves the state budget presented before parliament by the minister of finance.\n\n"
+            "• (iii) Vetting executive nominees: Parliament interviews and approves individuals nominated by the president for ministerial, judicial, and public leadership roles through formal vetting proceedings.\n\n"
+            "• (iv) Impeachment proceedings: Parliament holds the constitutional authority to remove high-ranking public officers, including the president, vice-president, and judicial officers, if they commit serious misconduct.\n\n"
+            "Functions of the Judiciary:\n\n"
+            "• (i) Resolution of legal disputes: Judicial bodies resolve conflicts between individuals, groups, corporate entities, and the state, preserving social order and stability.\n\n"
+            "• (ii) Constitutional and statutory interpretation: Operating through the Supreme Court, the judiciary clarifies legal provisions and explains constitutional clauses to resolve legal ambiguities.\n\n"
+            "• (iii) Judicial review: The Supreme Court evaluates actions and decisions taken by parliament or the executive to determine whether they comply with constitutional mandates.\n\n"
+            "• (iv) Safeguarding human rights: Courts protect citizens' basic rights and civil liberties against unlawful infringements.",
         explanation: "",
       ),
       PracticeQuestion(
@@ -5715,41 +5967,43 @@ final Map<String, PracticeModel> becePracticeData = {
             "(a) What is separation of powers?\n\n"
             "(b) Outline four advantages of separation of powers.",
         answer: "⦿ (a) Answer:\n\n"
-            " Separation of powers is the practice of governance whereby each of the three arms of government, namely the legislature, executive, and judiciary, works independently of each other.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• (i) It brings fairness in the administration of the country: Separation of powers helps to set out the duties and powers of each arm of government, and this prevents possible interference among them. This enhances fairness in governance.\n\n"
-            "• (ii) It helps to prevent dictatorship: Separation of powers does not allow for arbitrary rule by powerful leaders. It prevents dictatorship because power is never vested in one arm of government, one person, or a group of people.\n\n"
-            "• (iii) It preserves the constitution: Separation of powers helps to safeguard the constitution of the country. It ensures that all arms of government respect and abide by the constitution.\n\n"
-            "• (iv) It helps to protect the rights and freedom of citizens: Separation of powers enables the rights and freedoms of people in the country to be protected against abuse by powerful leaders. This is because it forces each arm of government to comply with the laws and provisions on fundamental human rights and freedoms under the 1992 Constitution.\n\n"
-            "• (v) It leads to efficiency and specialization: The practice of separation of powers makes each arm of government separated and their functions clearly defined and concentrated in one area. This leads to efficiency and specialization of the officials as they carry out the same duties repeatedly.\n\n"
-            "• (vi) It reduces the powers of the executive and the legislature: Separation of powers helps to limit the powers given to the executive and legislature by the constitution. For example, persons nominated as ministers by the executive must be approved by Parliament before they assume office.",
+            "Separation of powers is a system of governance in which the three branches of state authority, namely the legislature, executive, and judiciary, function independently of one another without interfering in each other's operations.\n\n"
+            "⦿ (b) Advantages of separation of powers:\n\n"
+            "• (i) Promotes equity in national administration: By clearly defining the specific responsibilities and boundaries of each government branch, separation of powers minimizes mutual interference and fosters impartial governance.\n\n"
+            "• (ii) Prevents autocratic governance: Distributing authority among separate arms ensures that power is never concentrated in a single individual or group, thereby curbing tyrannical rule.\n\n"
+            "• (iii) Upholds constitutional supreme authority: This principle safeguards the national constitution by obliging every branch of government to act within constitutional limits.\n\n"
+            "• (iv) Protects civil rights and freedom: Requiring all government organs to abide by fundamental constitutional provisions protects citizens from state overreach and human rights violations.\n\n"
+            "• (v) Enhances operational efficiency and specialization: Assigning distinct roles allows each organ to focus exclusively on its domain, building institutional expertise and improving service delivery over time.\n\n"
+            "• (vi) Restricts executive and legislative powers: Constitutional checks ensure that executive actions, such as ministerial appointments, require legislative confirmation before taking effect.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 3 (BECE 2023 Q3a)\n\n"
             "(i) State the three arms of government in Ghana.",
         answer: "⦿ Answer:\n\n"
-            "• Refer to the answer provided in Question 1(a) (BECE 2003 Q3).",
+            "• (i) Executive\n\n"
+            "• (ii) Legislature\n\n"
+            "• (iii) Judiciary",
         explanation: "",
       ),
       PracticeQuestion(
         scenario: "QUESTION 4 (BECE 2025 Q3)\n\n"
-            "(a) How would you explain the term constitution to your study group as you prepare for examination?\n\n"
-            "(b) As the principal speaker during a class debate on the Constitution of Ghana, what four points will you make to convince the audience on the contributions of the 1992 Constitution to the development of the nation?",
-        answer: "⦿ (a) Answer:\n\n"
-            " A constitution is a body of rules and regulations that govern the way a country is run. It is the highest law of the land to which all other laws must conform. A constitution can be written or unwritten. An example of a constitution is the 1992 Constitution of Ghana.\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• (i) Prevention of dictatorial rule: The 1992 Constitution of Ghana serves as the guidelines for the ruling of the country by the government. This enforces the leaders of the state to govern the country according to the Constitution rather than their interests. It also ensures that the citizens are given the mandate to be part of the major decision-making processes through their representatives in Parliament. This prevents any form of dictatorial rule in the country.\n\n"
-            "• (ii) Serves as a guide for change of government: The Constitution serves as a guide to ensure peaceful change of government through elections. It has established and given power to the Electoral Commission to supervise general elections and declare the winner of the elections. This leads to a smooth change of government and development of the country.\n\n"
-            "• (iii) Serves as a reference to maintain law and order: The Constitution serves as the reference document to ensure the maintenance of law and order in the country. In view of this, any act of disobedience to the Constitution is deemed a serious breach of law, and the person is sent to court for a fair trial. This helps to ensure consistency and orderliness in judgement.\n\n"
-            "• (iv) Determines the type of political system used to run the country: The Constitution determines the type of political system used to run the country. This can be in the form of a democratic system, authoritarianism, monarchy, etc. For instance, Ghana is practising a democratic system of government, and the Constitution is the highest law of the land for the administration of the country.\n\n"
-            "• (v) Gives legitimacy to government and political institutions: The Constitution establishes and gives powers to the government and political institutions or agencies such as CHRAJ, NCCE, the Electoral Commission, etc., to govern the country. This makes them legitimate, and they are recognized as state institutions both in and outside the country.\n\n"
-            "• (vi) Gives Ghana the status of nationhood: The Constitution indicates the status of the country as an independent nation. This is because an independent nation is required to enact its own rules and regulations to govern the country as a sovereign state. For instance, Ghana got her own Constitution after gaining self-rule from her colonial masters in 1957.\n\n"
-            "• (vii) Ensures accountability and good governance: The Constitution prescribes how the nation must be governed. Any action or decision of the government that is not consistent with the Constitution is deemed as a breach of the Constitution, and the government can be impeached. In view of this, the government rules in accordance with the Constitution and always remains accountable to the citizens.\n\n"
-            "• (viii) Protects human rights: The Constitution guarantees and protects the fundamental human rights of the citizens of Ghana. These include the right to life, right to education, right to own property, etc. Through this, people are able to live comfortably and peacefully in the country.\n\n"
-            "• (ix) Establishes various organs/arms of government and their functions: The Constitution establishes organs of government—namely, legislature, executive, and judiciary—and describes how powers and functions are distributed among them. For instance, the executive implements laws and policies, the legislature makes, amends, and repeals laws, while the judiciary interprets laws. This helps to ensure peace or harmonious living among citizens and the smooth management of the affairs of the country.\n\n"
-            "• (x) Recognizes chieftaincy as an institution: The Constitution respects and protects the institution of chieftaincy. It provides guidelines for the enstoolment of chiefs and invests powers in them to lead their subjects in the country. This enables them to undertake projects in their communities, leading to the development of the nation.\n\n"
-            "• (xi) Allocates functions of the organs of government: The Constitution allocates powers and functions of the organs of government to govern the country under the principles of separation of powers and checks and balances. For instance, the executive formulates policies such as social intervention policies like Free SHS. This helps to ensure the development of the country.",
+            "(a) (i) How would you explain the term constitution to your study group as you prepare for examination?\n\n"
+            "(b) As the principal speaker during a class debate on the constitution of Ghana, what four points will you make to convince the audience on the contributions of the 1992 Constitution to the development of the nation?",
+        answer: "⦿ (a) (i) Answer:\n\n"
+            "A constitution is the fundamental framework of rules, laws, and principles that dictates how a sovereign state is governed. Serving as the supreme legal authority in a country, all other national laws must align with its provisions. Constitutions may be codified (written) or unwritten, with the 1992 Constitution of Ghana standing as a prime example of a written supreme law.\n\n"
+            "⦿ (b) Contributions of the 1992 Constitution to the development of the nation:\n\n"
+            "• (i) Curbing authoritarian rule: The 1992 Constitution binds state leaders to govern strictly according to established legal rules rather than personal preference. By guaranteeing citizen participation in decision-making through elected parliamentary representatives, it guards against dictatorship.\n\n"
+            "• (ii) Facilitating peaceful democratic transitions: The Constitution establishes clear guidelines for democratic elections and empowers the Electoral Commission to manage national polls and declare official results, enabling smooth political transitions.\n\n"
+            "• (iii) Maintaining public order and legal stability: Serving as the baseline for national law enforcement, the constitution classifies any breach of its provisions as an offence subject to judicial trial, promoting consistent legal outcomes across the country.\n\n"
+            "• (iv) Defining the system of governance: The constitution establishes Ghana's democratic political architecture, establishing clear principles for national governance and state administration.\n\n"
+            "• (v) Granting legal legitimacy to public institutions: By establishing administrative bodies such as CHRAJ, NCCE, and the Electoral Commission, the constitution provides these agencies with the legal authority required to function effectively both domestically and internationally.\n\n"
+            "• (vi) Confirming national sovereignty and statehood: Adopting an independent constitution asserts Ghana's status as a self-governing sovereign nation, building upon its independence gained in 1957.\n\n"
+            "• (vii) Promoting public accountability and good governance: The constitution sets explicit boundaries for political leadership. Actions that violate constitutional limits can lead to impeachment, ensuring that state officials remain answerable to the electorate.\n\n"
+            "• (viii) Protecting basic human rights: Fundamental entitlements, such as the right to life, liberty, property, and education, are constitutionally guaranteed, allowing citizens to live securely.\n\n"
+            "• (ix) Structuring government branches and their duties: The document explicitly separates powers among the executive, legislative, and judicial branches, outlining their specific duties to ensure balanced governance and societal stability.\n\n"
+            "• (x) Institutionalising traditional chieftaincy: The constitution protects traditional chieftaincy, providing formal frameworks for customary leadership so traditional leaders can drive local community development projects.\n\n"
+            "• (xi) Allocating state functions through checks and balances: By distributing responsibilities among organs of state, the constitution enables key national policies, such as Free SHS social intervention programmes, to be developed and implemented under structured oversight.",
         explanation: "",
       ),
     ],

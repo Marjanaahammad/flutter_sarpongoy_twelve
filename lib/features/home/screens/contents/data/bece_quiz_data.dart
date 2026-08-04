@@ -6113,1009 +6113,889 @@ final Map<String, QuizModel> beceQuizData = {
     audioPath: '',
     questions: [
       QuizQuestion(
-  question:
-      r"1. Remove the brackets: a - 2(b - 3c).          (BECE 1990 Q19)",
-  options: [
-    r"a - 2b - 3c",
-    r"a - 2b - 6c",
-    r"a - 2b + 6c",
-    r"a - 3b + 3c",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"Distribute -2 across the bracket: a - 2b + 6c.",
-),
-
-QuizQuestion(
-  question:
-      r"2. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1990 Q20)",
-  options: [
-    r"\frac{1}{6}(a + 3b)",
-    r"\frac{1}{6}(a - 3b)",
-    r"\frac{1}{6}(a - b)",
-    r"\frac{1}{6}(7a - 3b)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{2}{3}a - \frac{1}{2}a + \frac{1}{2}b = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
-),
-
-QuizQuestion(
-  question:
-      r"3. Multiply (2x + y) by (2x - y).          (BECE 1990 Q26)",
-  options: [
-    r"4x^2 - y^2",
-    r"4x^2 + xy - y^2",
-    r"4x^2 - xy - y^2",
-    r"4x^2 + y^2",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"Using (a + b)(a - b) = a^2 - b^2, (2x + y)(2x - y) = 4x^2 - y^2.",
-),
-
-QuizQuestion(
-  question:
-      r"4. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1991 Q22)",
-  options: [
-    r"a - 3b",
-    r"\frac{1}{6}(a - 3b)",
-    r"\frac{1}{6}(a + 3b)",
-    r"a + 3b",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
-),
-
-QuizQuestion(
-  question:
-      r"5. Expand (2a + b)(a + 2b).          (BECE 1993 Q1)",
-  options: [
-    r"2a^2 + 2b^2",
-    r"2a^2 + ab + 2b^2",
-    r"5a^2 + 2a^2b^2",
-    r"2a^2 + 5ab + 2b^2",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"(2a + b)(a + 2b) = 2a^2 + 4ab + ab + 2b^2 = 2a^2 + 5ab + 2b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"6. Use the identity a^2 - b^2 = (a + b)(a - b) to evaluate 83^2 - 17^2.          (BECE 1994 Q15)",
-  options: [
-    "660",
-    "6,600",
-    "7,718",
-    "7,600",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"83^2 - 17^2 = (83 + 17)(83 - 17) = 100 \times 66 = 6,600.",
-),
-
-QuizQuestion(
-  question:
-      r"7. Given that a = 2 and b = 3, evaluate (2a + b)(a - 2b).          (BECE 1994 Q21)",
-  options: [
-    "28",
-    "8",
-    "-7",
-    "-28",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"(2a + b)(a - 2b) = (4 + 3)(2 - 6) = 7(-4) = -28.",
-),
-
-QuizQuestion(
-  question:
-      r"8. Which of the following is a factor of ac - 2bc + ad - 2bd?          (BECE 1994 Q32)",
-  options: [
-    r"c - d",
-    r"a - 2b",
-    r"a + b",
-    r"a + 2b",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: c(a - 2b) + d(a - 2b) = (a - 2b)(c + d). Therefore, a - 2b is a factor.",
-),
-
-QuizQuestion(
-  question:
-      r"9. Factorize completely 5xy + 10ny.          (BECE 1995 Q32)",
-  options: [
-    r"5y(x + n)",
-    r"5y(x + 2n)",
-    r"5xy(1 + 2n)",
-    r"5(xy + 2ny)",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"The highest common factor is 5y, so 5xy + 10ny = 5y(x + 2n).",
-),
-
-QuizQuestion(
-  question:
-      r"10. If C is 40, F will be:          (BECE 1996 Q12)",
-  options: [
-    "104.0",
-    "78.4",
-    "72.0",
-    "65.6",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Using the Celsius-to-Fahrenheit formula F = \frac{9}{5}C + 32, F = \frac{9}{5}(40) + 32 = 104.",
-),
-
-QuizQuestion(
-  question:
-      r"11. If a^2 - b^2 = (a + b)(a - b), evaluate 9.32^2 - 0.68^2.          (BECE 1996 Q19)",
-  options: [
-    "87.32",
-    "86.4",
-    "74.65",
-    "10.0",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"9.32^2 - 0.68^2 = (9.32 + 0.68)(9.32 - 0.68) = 10 \times 8.64 = 86.4.",
-),
-
-QuizQuestion(
-  question:
-      r"12. If x = -1, find y.          (BECE 1996 Q23)",
-  options: [
-    "-4",
-    "-3",
-    "3",
-    "4",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"The equation or graph defining the relationship between x and y is missing from the supplied question, so the answer cannot be verified from the available information.",
-),
-
-QuizQuestion(
-  question:
-      r"13. Find the set of values of x for which y is zero.          (BECE 1996 Q24)",
-  options: [
-    r"\{0\}",
-    r"\{0, 2\}",
-    r"\{0, -2\}",
-    r"\{-2, 2\}",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"The graph or equation needed to determine where y = 0 is missing from the supplied question. The selected option appears to be the intended answer, but it cannot be verified from the available information.",
-),
-
-QuizQuestion(
-  question:
-      r"14. Simplify 3(6b - 9a) + 7(6a - 5b).          (BECE 1997 Q7)",
-  options: [
-    r"17b + 6a",
-    r"17b - 6a",
-    r"17b + 48a",
-    r"15a - 17b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"3(6b - 9a) + 7(6a - 5b) = 18b - 27a + 42a - 35b = 15a - 17b.",
-),
-
-QuizQuestion(
-  question:
-      r"15. If p = 7, q = 5 and r = 3, find the value of p^2 + q - r^3.          (BECE 1997 Q20)",
-  options: [
-    "81",
-    "57",
-    "51",
-    "27",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"p^2 + q - r^3 = 7^2 + 5 - 3^3 = 49 + 5 - 27 = 27.",
-),
-
-QuizQuestion(
-  question:
-      r"16. If a \times b \times c = 1197 and a = 21, b = 3, find c.          (BECE 1997 Q40)",
-  options: [
-    "19",
-    "49.9",
-    "57",
-    "93",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"21 \times 3 \times c = 1197, so c = \frac{1197}{63} = 19.",
-),
-
-QuizQuestion(
-  question:
-      r"17. Expand the expression 2(3a + 2b).          (BECE 1998 Q15)",
-  options: [
-    r"6a + 2b",
-    r"5a + 4b",
-    r"6a + 4b",
-    r"10ab",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"Multiply each term by 2: 2(3a + 2b) = 6a + 4b.",
-),
-
-QuizQuestion(
-  question:
-      r"18. Factorize completely 2xy - 8x + 5y - 20.          (BECE 1998 Q30)",
-  options: [
-    r"(2x + 5)(y - 4)",
-    r"(2x - 5)(y + 4)",
-    r"(2x - 5)(y - 4)",
-    r"(2x + 5)(y + 4)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 2x(y - 4) + 5(y - 4) = (2x + 5)(y - 4).",
-),
-
-QuizQuestion(
-  question:
-      r"19. Simplify 7(y + 1) - 2(2y + 3).          (BECE 1999 Q20)",
-  options: [
-    r"3y - 5",
-    r"3y - 2",
-    r"3y + 1",
-    r"3y + 4",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"7(y + 1) - 2(2y + 3) = 7y + 7 - 4y - 6 = 3y + 1.",
-),
-
-QuizQuestion(
-  question:
-      r"20. Factorize 3r^2s - 9rs^2.          (BECE 1999 Q33)",
-  options: [
-    r"rs(3r - s)",
-    r"3rs(s - 3r)",
-    r"3rs(r - 3s)",
-    r"r^2s^2(3r - 9s)",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"The highest common factor is 3rs, so 3r^2s - 9rs^2 = 3rs(r - 3s).",
-),
-
-QuizQuestion(
-  question:
-      r"21. Simplify 7a - 3(b - a).          (BECE 2000 Q21)",
-  options: [
-    r"4a - 3b",
-    r"4a + 3b",
-    r"8a - 3b",
-    r"10a - 3b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"7a - 3(b - a) = 7a - 3b + 3a = 10a - 3b.",
-),
-
-QuizQuestion(
-  question:
-      r"22. If 2y = 6 - 3x, find y when x = 0.          (BECE 2001 Q13)",
-  options: [
-    "-3",
-    "-2",
-    "0",
-    "3",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"When x = 0, 2y = 6 - 3(0) = 6. Therefore, y = 3.",
-),
-
-QuizQuestion(
-  question:
-      r"23. Given that \sqrt{p^2 + q^2} = p \times q, find the value of a if a = \sqrt{13^2 + 15^2}.          (BECE 2001 Q23)",
-  options: [
-    "28",
-    "175",
-    "195",
-    "247",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Using the stated rule, \sqrt{13^2 + 15^2} is interpreted as 13 \times 15 = 195. The printed rule is not a standard mathematical identity.",
-),
-
-QuizQuestion(
-  question:
-      r"24. Given that E = \frac{1}{2}mc^2, find E when m = 10 and c = 4.          (BECE 2001 Q27)",
-  options: [
-    "20",
-    "40",
-    "60",
-    "80",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"E = \frac{1}{2}(10)(4^2) = 5 \times 16 = 80.",
-),
-
-QuizQuestion(
-  question:
-      r"25. Expand (2a + b)(a - b).          (BECE 2002A Q25)",
-  options: [
-    r"2a^2 - 3ab - b^2",
-    r"2a^2 - ab - b^2",
-    r"2a^2 + ab + b^2",
-    r"2a^2 + 3ab - b^2",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"(2a + b)(a - b) = 2a^2 - 2ab + ab - b^2 = 2a^2 - ab - b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"26. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 2002B Q11)",
-  options: [
-    r"\frac{1}{6}(a + 3b)",
-    r"\frac{1}{6}(a - 3b)",
-    r"\frac{1}{6}(a - b)",
-    r"\frac{1}{6}(7a - 3b)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
-),
-
-QuizQuestion(
-  question:
-      r"27. Simplify 5(3t + 1) - 6(t - 1).          (BECE 2003 Q38)",
-  options: [
-    r"9t + 11",
-    r"9t + 7",
-    r"9t + 1",
-    r"9t - 5",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"5(3t + 1) - 6(t - 1) = 15t + 5 - 6t + 6 = 9t + 11.",
-),
-
-QuizQuestion(
-  question:
-      r"28. Factorize completely 4xy - 16x + 10y - 40.          (BECE 2004 Q11)",
-  options: [
-    r"(y + 4)(4x - 10)",
-    r"(y - 4)(4x + 10)",
-    r"(4 - y)(10 - 4x)",
-    r"(y + 4)(4x + 10)",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 4x(y - 4) + 10(y - 4) = (y - 4)(4x + 10).",
-),
-
-QuizQuestion(
-  question:
-      r"29. Expand 3(2a + 3b).          (BECE 2005 Q14)",
-  options: [
-    r"2a + 9b",
-    r"5a + 6b",
-    r"6a + 3b",
-    r"6a + 9b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"Multiply each term by 3: 3(2a + 3b) = 6a + 9b.",
-),
-
-QuizQuestion(
-  question:
-      r"30. Factorize 4ab^2 - 20ba^2.          (BECE 2005 Q30)",
-  options: [
-    r"4a(b^2 - 5b)",
-    r"4b(b - 5a)",
-    r"4ab(b - 5a)",
-    r"4ab(a - 5b)",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"The highest common factor is 4ab, so 4ab^2 - 20ba^2 = 4ab(b - 5a).",
-),
-
-QuizQuestion(
-  question:
-      r"31. Simplify \frac{4}{3}x - \frac{2}{9}x.          (BECE 2006 Q3)",
-  options: [
-    r"\frac{2}{9}x",
-    r"\frac{2}{3}x",
-    r"\frac{10}{9}x",
-    r"\frac{14}{9}x",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"\frac{4}{3}x - \frac{2}{9}x = \frac{12}{9}x - \frac{2}{9}x = \frac{10}{9}x.",
-),
-
-QuizQuestion(
-  question:
-      r"32. Expand (6 - x)(6 + y).          (BECE 2006 Q26)",
-  options: [
-    r"36 - 6x + 6y - xy",
-    r"36 - 6x - 6y + xy",
-    r"36 - 6x - xy",
-    r"36 - 6y - xy",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(6 - x)(6 + y) = 36 + 6y - 6x - xy = 36 - 6x + 6y - xy.",
-),
-
-QuizQuestion(
-  question:
-      r"33. Factorize 22ab - 11ac + 6rb - 3rc.          (BECE 2006 Q31)",
-  options: [
-    r"(2b - c)(11a + 3r)",
-    r"(2b + c)(11a - 3r)",
-    r"(2b - c)(11a - 3r)",
-    r"(2b + c)(11a + 3r)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"11a(2b - c) + 3r(2b - c) = (2b - c)(11a + 3r).",
-),
-
-QuizQuestion(
-  question:
-      r"34. Factorize \frac{1}{4}px^2 + \frac{1}{8}px.          (BECE 2007 Q18)",
-  options: [
-    r"\frac{1}{4} px (x + 2)",
-    r"\frac{1}{4} px (x + \frac{1}{2})",
-    r"\frac{1}{8} px (\frac{1}{2} x + 2)",
-    r"\frac{1}{8} px (2x + 1)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"The highest common factor is \frac{1}{8}px, giving \frac{1}{8}px(2x + 1).",
-),
-
-QuizQuestion(
-  question:
-      r"35. Simplify 6(7a + 4) - 3(8a + 9).          (BECE 2007 Q20)",
-  options: [
-    r"18a - 3",
-    r"18a + 51",
-    r"42a - 27",
-    r"66a - 3",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"6(7a + 4) - 3(8a + 9) = 42a + 24 - 24a - 27 = 18a - 3.",
-),
-
-QuizQuestion(
-  question:
-      r"36. Expand (a + 2b)(a - 2b).          (BECE 2007 Q31)",
-  options: [
-    r"a^2 - 4ab - 4b^2",
-    r"a^2 + 4ab - 4b^2",
-    r"a^2 - 4b^2",
-    r"a^2 + 4b^2",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"Using the difference of two squares, (a + 2b)(a - 2b) = a^2 - (2b)^2 = a^2 - 4b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"37. Expand (a + 4)(a + 6).          (BECE 2008 Q34)",
-  options: [
-    r"2a + 24",
-    r"a^2 + 6a + 10",
-    r"a^2 + 10a + 10",
-    r"a^2 + 10a + 24",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"(a + 4)(a + 6) = a^2 + 6a + 4a + 24 = a^2 + 10a + 24.",
-),
-
-QuizQuestion(
-  question:
-      r"38. Simplify (5m + 3n) - (2m - n).          (BECE 2009 Q5)",
-  options: [
-    r"5m - 4n",
-    r"3m + 4n",
-    r"3m - 2n",
-    r"7m + 4n",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"5m + 3n - 2m + n = 3m + 4n.",
-),
-
-QuizQuestion(
-  question:
-      r"39. Factorize ax + 3x + a + 3.          (BECE 2009 Q24)",
-  options: [
-    r"x(a + x)",
-    r"(x - a)(x + 3)",
-    r"x(a - x)",
-    r"(a + 3)(x + 1)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(a + 3) + 1(a + 3) = (a + 3)(x + 1).",
-),
-
-QuizQuestion(
-  question:
-      r"40. Factorize xy + 5x + 2y + 10.          (BECE 2010 Q21)",
-  options: [
-    r"(x + 5)(2y + 10)",
-    r"(x + 2)(y + 10)",
-    r"(x + 5)(y + 2)",
-    r"(x + 2)(y + 5)",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(y + 5) + 2(y + 5) = (x + 2)(y + 5). However, this corresponds to option D, so the supplied options appear to have been transcribed incorrectly.",
-),
-
-QuizQuestion(
-  question:
-      r"41. Expand 3a(a - 4b).          (BECE 2011 Q2)",
-  options: [
-    r"3a - 12ab",
-    r"3a^2 - 12ab",
-    r"3a^2 - 12b",
-    r"3a^2 - 12a",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"Multiply 3a by each term: 3a(a - 4b) = 3a^2 - 12ab.",
-),
-
-QuizQuestion(
-  question:
-      r"42. Factorize completely b^2 + fb - mb - fm.          (BECE 2011 Q11)",
-  options: [
-    r"(b - f)(b - m)",
-    r"(b + f)(b - m)",
-    r"(b + f)(m - b)",
-    r"(b + f)(m + b)",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: b(b + f) - m(b + f) = (b + f)(b - m).",
-),
-
-QuizQuestion(
-  question:
-      r"43. Simplify \frac{3}{4}x - \frac{1}{3}(x - y).          (BECE 2012 Q20)",
-  options: [
-    r"\frac{1}{12}(5x - 4y)",
-    r"\frac{1}{12}(13x - 4y)",
-    r"\frac{1}{12}(5x + 4y)",
-    r"\frac{1}{12}(13x + 4y)",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{3}{4}x - \frac{1}{3}(x - y) = \frac{3}{4}x - \frac{1}{3}x + \frac{1}{3}y = \frac{5}{12}x + \frac{4}{12}y = \frac{1}{12}(5x + 4y).",
-),
-
-QuizQuestion(
-  question:
-      r"44. Expand -x(3 - 2x).          (BECE 2012 Q40)",
-  options: [
-    r"-2x^2 - 3x",
-    r"2x^2 - 3x",
-    r"-2x^2 + 3x",
-    r"2x^2 + 3x",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"-x(3 - 2x) = -3x + 2x^2 = 2x^2 - 3x.",
-),
-
-QuizQuestion(
-  question:
-      r"45. Factorize completely 2xy - 6y + 7x - 21.          (BECE 2013 Q19)",
-  options: [
-    r"(x - 3)(2y + 7)",
-    r"(x + 3)(2y - 7)",
-    r"(y - 3)(2x + 7)",
-    r"(y + 3)(2x - 7)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 2y(x - 3) + 7(x - 3) = (x - 3)(2y + 7).",
-),
-
-QuizQuestion(
-  question:
-      r"46. Expand (2x + y)(2x - y).          (BECE 2015 Q19)",
-  options: [
-    r"2x^2 - y^2",
-    r"4x^2 - y^2",
-    r"2x^2 + 4xy - y^2",
-    r"4x^2 + 4xy - y^2",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"Using the difference of two squares, (2x + y)(2x - y) = 4x^2 - y^2.",
-),
-
-QuizQuestion(
-  question:
-      r"47. Simplify 4(x + 2) - 3(x + 1).          (BECE 2016 Q21)",
-  options: [
-    r"x + 5",
-    r"x + 11",
-    r"7x + 5",
-    r"7x + 11",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"4(x + 2) - 3(x + 1) = 4x + 8 - 3x - 3 = x + 5.",
-),
-
-QuizQuestion(
-  question:
-      r"48. Simplify \frac{2(u - v)(2u + 3v)}{4u + 6v}.          (BECE 2017 Q18)",
-  options: [
-    r"\frac{(u - v)(2u + 3v)}{u + v}",
-    r"\frac{(u - v)(u + v)}{u + 2v}",
-    r"\frac{1}{2}(u - v)",
-    r"u - v",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Since 4u + 6v = 2(2u + 3v), the common factor 2(2u + 3v) cancels, leaving u - v.",
-),
-
-QuizQuestion(
-  question:
-      r"49. Simplify 4a - 9b - 2(2a - 3b).          (BECE 2018 Q27)",
-  options: [
-    r"8a + 3b",
-    r"8a - 3b",
-    r"-15b",
-    r"-3b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"4a - 9b - 2(2a - 3b) = 4a - 9b - 4a + 6b = -3b.",
-),
-
-QuizQuestion(
-  question:
-      r"50. Factorize kx + 2xt - 4k - 8t.          (BECE 2019 Q8)",
-  options: [
-    r"(k - 2t)(x + 4)",
-    r"(k + 2t)(x + 4)",
-    r"(k + t)(x - 4)",
-    r"(k + 2t)(x - 4)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(k + 2t) - 4(k + 2t) = (k + 2t)(x - 4).",
-),
-
-QuizQuestion(
-  question:
-      r"51. Subtract (7x - 3) from (5 - 3x).          (BECE 2020 Q1)",
-  options: [
-    r"10x - 8",
-    r"4x - 8",
-    r"8 - 10x",
-    r"2 - 10x",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"(5 - 3x) - (7x - 3) = 5 - 3x - 7x + 3 = 8 - 10x.",
-),
-
-QuizQuestion(
-  question:
-      r"52. Expand and simplify (a - b)(2a + 3).          (BECE 2020 Q38)",
-  options: [
-    r"a^2 - a + 6",
-    r"2a^2 + 7a - 6",
-    r"2a^2 - a - 6",
-    r"2a^2 - 12a + 6",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Direct expansion gives 2a^2 + 3a - 2ab - 3b, which does not match any option. Option C would result only under additional information about b, so the question appears incomplete or incorrectly transcribed.",
-),
-
-QuizQuestion(
-  question:
-      r"53. Simplify 3y - \frac{1}{4}(2y - 3).          (BECE 2021 Q1)",
-  options: [
-    r"10y + 3",
-    r"10y - 3",
-    r"\frac{10 y - 3}{4}",
-    r"\frac{10 y + 3}{4}",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"3y - \frac{1}{4}(2y - 3) = 3y - \frac{1}{2}y + \frac{3}{4} = \frac{10y + 3}{4}.",
-),
-
-QuizQuestion(
-  question:
-      r"54. Expand (7r - 5)(3r + 4).          (BECE 2021 Q14)",
-  options: [
-    r"21r^2 + 13r - 20",
-    r"21r^2 - 13r - 20",
-    r"21r^2 - 43r - 20",
-    r"21r^2 + 43r - 20",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(7r - 5)(3r + 4) = 21r^2 + 28r - 15r - 20 = 21r^2 + 13r - 20.",
-),
-
-QuizQuestion(
-  question:
-      r"55. Factorize 3ax + 6a - x - 2.          (BECE 2021 Q21)",
-  options: [
-    r"(3a + 1)(x + 2)",
-    r"(3a + 1)(x - 2)",
-    r"(3a - 1)(x - 2)",
-    r"(3a - 1)(x + 2)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 3a(x + 2) - 1(x + 2) = (3a - 1)(x + 2).",
-),
-
-QuizQuestion(
-  question:
-      r"56. Simplify 3(5a^2 + 2c) - 2a(1 - 3a) - 6c.          (BECE 2021 Q30)",
-  options: [
-    r"21a^2 - 2a",
-    r"13a^2 - 2a - 12c",
-    r"13a^2 - 2a",
-    r"21a^2 - 2a - 12c",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"3(5a^2 + 2c) - 2a(1 - 3a) - 6c = 15a^2 + 6c - 2a + 6a^2 - 6c = 21a^2 - 2a.",
-),
-
-QuizQuestion(
-  question:
-      r"57. Expand (2a - b)(a - b).          (BECE 2022 Q1)",
-  options: [
-    r"2a^2 + 3ab + b^2",
-    r"2a^2 - 3ab + b^2",
-    r"2a^2 - 3ab - b^2",
-    r"2a^2 + 3ab - b^2",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"(2a - b)(a - b) = 2a^2 - 2ab - ab + b^2 = 2a^2 - 3ab + b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"58. Factorize completely xy - xm - my + m^2.          (BECE 2022 Q9)",
-  options: [
-    r"(x - m)(y - m)",
-    r"(m - y)(x - m)",
-    r"(y - m)(y - m)",
-    r"(m - y)(m - x)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(y - m) - m(y - m) = (x - m)(y - m).",
-),
-
-QuizQuestion(
-  question:
-      r"59. Simplify (x - 1)^2 - 1.          (BECE 2023 Q1)",
-  options: [
-    r"x^2 - 2x",
-    r"x^2 - 2x + 1",
-    r"x^2 - 2x - 1",
-    r"x^2 + 2x",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(x - 1)^2 - 1 = x^2 - 2x + 1 - 1 = x^2 - 2x.",
-),
-
-QuizQuestion(
-  question:
-      r"60. Factorize 2pq + 6p - 6q - 18.          (BECE 2023 Q4)",
-  options: [
-    r"2(p - 3)(q - 3)",
-    r"2(p - 3)(q + 3)",
-    r"2(p + 3)(q - 3)",
-    r"2(p + 3)(q + 3)",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"2p(q + 3) - 6(q + 3) = 2(p - 3)(q + 3). This corresponds to option B, so the supplied option ordering appears inconsistent.",
-),
-
-QuizQuestion(
-  question:
-      r"61. Expand (x - 2)(x + 4).          (BECE 2023 Q28)",
-  options: [
-    r"x^2 + 2x - 8",
-    r"x^2 - 2x - 8",
-    r"x^2 - 4x - 8",
-    r"x^2 + 4x - 8",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(x - 2)(x + 4) = x^2 + 4x - 2x - 8 = x^2 + 2x - 8.",
-),
-
-QuizQuestion(
-  question:
-      r"62. Simplify 3x - 2(3 + 2x) + x(2x + 4).          (BECE 2024 Q25)",
-  options: [
-    r"2x^2 + 3x - 6",
-    r"2x^2 - 3x - 6",
-    r"2x^2 + 3x + 6",
-    r"2x^2 - 3x + 6",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"3x - 2(3 + 2x) + x(2x + 4) = 3x - 6 - 4x + 2x^2 + 4x = 2x^2 + 3x - 6.",
-),
-
-QuizQuestion(
-  question:
-      r"63. One of the factors of 4m^2 + 12m - 8m - 24 is (4m - 8). Find the other factor.          (BECE 2024 Q27)",
-  options: [
-    r"m - 3",
-    r"2m - 3",
-    r"m + 3",
-    r"2m + 3",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Group the expression: 4m(m + 3) - 8(m + 3) = (4m - 8)(m + 3). Therefore, the other factor is m + 3.",
-),
-
-QuizQuestion(
-  question:
-      r"64. Expand and simplify 2(3a + 1) - 3(4a - 3).          (BECE 2025 Q2)",
-  options: [
-    r"11 - 5a",
-    r"11 - 6a",
-    r"11 + 6a",
-    r"11 + 5a",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"2(3a + 1) - 3(4a - 3) = 6a + 2 - 12a + 9 = 11 - 6a.",
-),
-
-QuizQuestion(
-  question:
-      r"65. Factorize 5ay - by + 15a - 3b.          (BECE 2025 Q4)",
-  options: [
-    r"(y + 3)(5a - b)",
-    r"(y + 5)(3a - b)",
-    r"(y - 3)(5a + b)",
-    r"(y - 5)(5a + b)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: y(5a - b) + 3(5a - b) = (y + 3)(5a - b).",
-),
-
-QuizQuestion(
-  question:
-      r"66. If 2y = 5 - 3x, find x when y = 1.          (BECE 2025 Q21)",
-  options: [
-    r"-2\frac{1}{3}",
-    "-1",
-    "0",
-    "1",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"When y = 1, 2 = 5 - 3x. Thus, 3x = 3 and x = 1.",
-),
-
-QuizQuestion(
-  question:
-      r"67. Multiply (8s - 7) by (8s + 7).          (BECE 2025 Q30)",
-  options: [
-    r"64s^2 + 49",
-    r"64s^2 - 49",
-    r"16s^2 - 42",
-    r"16s^2 + 42",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"Using (a - b)(a + b) = a^2 - b^2, (8s - 7)(8s + 7) = 64s^2 - 49.",
-),
+        question:
+            r"1. Remove the brackets: a - 2(b - 3c).          (BECE 1990 Q19)",
+        options: [
+          r"a - 2b - 3c",
+          r"a - 2b - 6c",
+          r"a - 2b + 6c",
+          r"a - 3b + 3c",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"Distribute -2 across the bracket: a - 2b + 6c.",
+      ),
+      QuizQuestion(
+        question:
+            r"2. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1990 Q20)",
+        options: [
+          r"\frac{1}{6}(a + 3b)",
+          r"\frac{1}{6}(a - 3b)",
+          r"\frac{1}{6}(a - b)",
+          r"\frac{1}{6}(7a - 3b)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{2}{3}a - \frac{1}{2}a + \frac{1}{2}b = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+      ),
+      QuizQuestion(
+        question: r"3. Multiply (2x + y) by (2x - y).          (BECE 1990 Q26)",
+        options: [
+          r"4x^2 - y^2",
+          r"4x^2 + xy - y^2",
+          r"4x^2 - xy - y^2",
+          r"4x^2 + y^2",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"Using (a + b)(a - b) = a^2 - b^2, (2x + y)(2x - y) = 4x^2 - y^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"4. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1991 Q22)",
+        options: [
+          r"a - 3b",
+          r"\frac{1}{6}(a - 3b)",
+          r"\frac{1}{6}(a + 3b)",
+          r"a + 3b",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+      ),
+      QuizQuestion(
+        question: r"5. Expand (2a + b)(a + 2b).          (BECE 1993 Q1)",
+        options: [
+          r"2a^2 + 2b^2",
+          r"2a^2 + ab + 2b^2",
+          r"5a^2 + 2a^2b^2",
+          r"2a^2 + 5ab + 2b^2",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            r"(2a + b)(a + 2b) = 2a^2 + 4ab + ab + 2b^2 = 2a^2 + 5ab + 2b^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"6. Use the identity a^2 - b^2 = (a + b)(a - b) to evaluate 83^2 - 17^2.          (BECE 1994 Q15)",
+        options: [
+          "660",
+          "6,600",
+          "7,718",
+          "7,600",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"83^2 - 17^2 = (83 + 17)(83 - 17) = 100 \times 66 = 6,600.",
+      ),
+      QuizQuestion(
+        question:
+            r"7. Given that a = 2 and b = 3, evaluate (2a + b)(a - 2b).          (BECE 1994 Q21)",
+        options: [
+          "28",
+          "8",
+          "-7",
+          "-28",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"(2a + b)(a - 2b) = (4 + 3)(2 - 6) = 7(-4) = -28.",
+      ),
+      QuizQuestion(
+        question:
+            r"8. Which of the following is a factor of ac - 2bc + ad - 2bd?          (BECE 1994 Q32)",
+        options: [
+          r"c - d",
+          r"a - 2b",
+          r"a + b",
+          r"a + 2b",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: c(a - 2b) + d(a - 2b) = (a - 2b)(c + d). Therefore, a - 2b is a factor.",
+      ),
+      QuizQuestion(
+        question:
+            r"9. Factorize completely 5xy + 10ny.          (BECE 1995 Q32)",
+        options: [
+          r"5y(x + n)",
+          r"5y(x + 2n)",
+          r"5xy(1 + 2n)",
+          r"5(xy + 2ny)",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"The highest common factor is 5y, so 5xy + 10ny = 5y(x + 2n).",
+      ),
+      QuizQuestion(
+        question: r"10. If C is 40, F will be:          (BECE 1996 Q12)",
+        options: [
+          "104.0",
+          "78.4",
+          "72.0",
+          "65.6",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Using the Celsius-to-Fahrenheit formula F = \frac{9}{5}C + 32, F = \frac{9}{5}(40) + 32 = 104.",
+      ),
+      QuizQuestion(
+        question:
+            r"11. If a^2 - b^2 = (a + b)(a - b), evaluate 9.32^2 - 0.68^2.          (BECE 1996 Q19)",
+        options: [
+          "87.32",
+          "86.4",
+          "74.65",
+          "10.0",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"9.32^2 - 0.68^2 = (9.32 + 0.68)(9.32 - 0.68) = 10 \times 8.64 = 86.4.",
+      ),
+      QuizQuestion(
+        question: r"12. If x = -1, find y.          (BECE 1996 Q23)",
+        options: [
+          "-4",
+          "-3",
+          "3",
+          "4",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"The equation or graph defining the relationship between x and y is missing from the supplied question, so the answer cannot be verified from the available information.",
+      ),
+      QuizQuestion(
+        question:
+            r"13. Find the set of values of x for which y is zero.          (BECE 1996 Q24)",
+        options: [
+          r"\{0\}",
+          r"\{0, 2\}",
+          r"\{0, -2\}",
+          r"\{-2, 2\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"The graph or equation needed to determine where y = 0 is missing from the supplied question. The selected option appears to be the intended answer, but it cannot be verified from the available information.",
+      ),
+      QuizQuestion(
+        question:
+            r"14. Simplify 3(6b - 9a) + 7(6a - 5b).          (BECE 1997 Q7)",
+        options: [
+          r"17b + 6a",
+          r"17b - 6a",
+          r"17b + 48a",
+          r"15a - 17b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            r"3(6b - 9a) + 7(6a - 5b) = 18b - 27a + 42a - 35b = 15a - 17b.",
+      ),
+      QuizQuestion(
+        question:
+            r"15. If p = 7, q = 5 and r = 3, find the value of p^2 + q - r^3.          (BECE 1997 Q20)",
+        options: [
+          "81",
+          "57",
+          "51",
+          "27",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"p^2 + q - r^3 = 7^2 + 5 - 3^3 = 49 + 5 - 27 = 27.",
+      ),
+      QuizQuestion(
+        question:
+            r"16. If a \times b \times c = 1197 and a = 21, b = 3, find c.          (BECE 1997 Q40)",
+        options: [
+          "19",
+          "49.9",
+          "57",
+          "93",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"21 \times 3 \times c = 1197, so c = \frac{1197}{63} = 19.",
+      ),
+      QuizQuestion(
+        question:
+            r"17. Expand the expression 2(3a + 2b).          (BECE 1998 Q15)",
+        options: [
+          r"6a + 2b",
+          r"5a + 4b",
+          r"6a + 4b",
+          r"10ab",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"Multiply each term by 2: 2(3a + 2b) = 6a + 4b.",
+      ),
+      QuizQuestion(
+        question:
+            r"18. Factorize completely 2xy - 8x + 5y - 20.          (BECE 1998 Q30)",
+        options: [
+          r"(2x + 5)(y - 4)",
+          r"(2x - 5)(y + 4)",
+          r"(2x - 5)(y - 4)",
+          r"(2x + 5)(y + 4)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 2x(y - 4) + 5(y - 4) = (2x + 5)(y - 4).",
+      ),
+      QuizQuestion(
+        question:
+            r"19. Simplify 7(y + 1) - 2(2y + 3).          (BECE 1999 Q20)",
+        options: [
+          r"3y - 5",
+          r"3y - 2",
+          r"3y + 1",
+          r"3y + 4",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"7(y + 1) - 2(2y + 3) = 7y + 7 - 4y - 6 = 3y + 1.",
+      ),
+      QuizQuestion(
+        question: r"20. Factorize 3r^2s - 9rs^2.          (BECE 1999 Q33)",
+        options: [
+          r"rs(3r - s)",
+          r"3rs(s - 3r)",
+          r"3rs(r - 3s)",
+          r"r^2s^2(3r - 9s)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"The highest common factor is 3rs, so 3r^2s - 9rs^2 = 3rs(r - 3s).",
+      ),
+      QuizQuestion(
+        question: r"21. Simplify 7a - 3(b - a).          (BECE 2000 Q21)",
+        options: [
+          r"4a - 3b",
+          r"4a + 3b",
+          r"8a - 3b",
+          r"10a - 3b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"7a - 3(b - a) = 7a - 3b + 3a = 10a - 3b.",
+      ),
+      QuizQuestion(
+        question:
+            r"22. If 2y = 6 - 3x, find y when x = 0.          (BECE 2001 Q13)",
+        options: [
+          "-3",
+          "-2",
+          "0",
+          "3",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"When x = 0, 2y = 6 - 3(0) = 6. Therefore, y = 3.",
+      ),
+      QuizQuestion(
+        question:
+            r"23. Given that \sqrt{p^2 + q^2} = p \times q, find the value of a if a = \sqrt{13^2 + 15^2}.          (BECE 2001 Q23)",
+        options: [
+          "28",
+          "175",
+          "195",
+          "247",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Using the stated rule, \sqrt{13^2 + 15^2} is interpreted as 13 \times 15 = 195. The printed rule is not a standard mathematical identity.",
+      ),
+      QuizQuestion(
+        question:
+            r"24. Given that E = \frac{1}{2}mc^2, find E when m = 10 and c = 4.          (BECE 2001 Q27)",
+        options: [
+          "20",
+          "40",
+          "60",
+          "80",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"E = \frac{1}{2}(10)(4^2) = 5 \times 16 = 80.",
+      ),
+      QuizQuestion(
+        question: r"25. Expand (2a + b)(a - b).          (BECE 2002A Q25)",
+        options: [
+          r"2a^2 - 3ab - b^2",
+          r"2a^2 - ab - b^2",
+          r"2a^2 + ab + b^2",
+          r"2a^2 + 3ab - b^2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"(2a + b)(a - b) = 2a^2 - 2ab + ab - b^2 = 2a^2 - ab - b^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"26. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 2002B Q11)",
+        options: [
+          r"\frac{1}{6}(a + 3b)",
+          r"\frac{1}{6}(a - 3b)",
+          r"\frac{1}{6}(a - b)",
+          r"\frac{1}{6}(7a - 3b)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+      ),
+      QuizQuestion(
+        question:
+            r"27. Simplify 5(3t + 1) - 6(t - 1).          (BECE 2003 Q38)",
+        options: [
+          r"9t + 11",
+          r"9t + 7",
+          r"9t + 1",
+          r"9t - 5",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"5(3t + 1) - 6(t - 1) = 15t + 5 - 6t + 6 = 9t + 11.",
+      ),
+      QuizQuestion(
+        question:
+            r"28. Factorize completely 4xy - 16x + 10y - 40.          (BECE 2004 Q11)",
+        options: [
+          r"(y + 4)(4x - 10)",
+          r"(y - 4)(4x + 10)",
+          r"(4 - y)(10 - 4x)",
+          r"(y + 4)(4x + 10)",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 4x(y - 4) + 10(y - 4) = (y - 4)(4x + 10).",
+      ),
+      QuizQuestion(
+        question: r"29. Expand 3(2a + 3b).          (BECE 2005 Q14)",
+        options: [
+          r"2a + 9b",
+          r"5a + 6b",
+          r"6a + 3b",
+          r"6a + 9b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"Multiply each term by 3: 3(2a + 3b) = 6a + 9b.",
+      ),
+      QuizQuestion(
+        question: r"30. Factorize 4ab^2 - 20ba^2.          (BECE 2005 Q30)",
+        options: [
+          r"4a(b^2 - 5b)",
+          r"4b(b - 5a)",
+          r"4ab(b - 5a)",
+          r"4ab(a - 5b)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"The highest common factor is 4ab, so 4ab^2 - 20ba^2 = 4ab(b - 5a).",
+      ),
+      QuizQuestion(
+        question:
+            r"31. Simplify \frac{4}{3}x - \frac{2}{9}x.          (BECE 2006 Q3)",
+        options: [
+          r"\frac{2}{9}x",
+          r"\frac{2}{3}x",
+          r"\frac{10}{9}x",
+          r"\frac{14}{9}x",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"\frac{4}{3}x - \frac{2}{9}x = \frac{12}{9}x - \frac{2}{9}x = \frac{10}{9}x.",
+      ),
+      QuizQuestion(
+        question: r"32. Expand (6 - x)(6 + y).          (BECE 2006 Q26)",
+        options: [
+          r"36 - 6x + 6y - xy",
+          r"36 - 6x - 6y + xy",
+          r"36 - 6x - xy",
+          r"36 - 6y - xy",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"(6 - x)(6 + y) = 36 + 6y - 6x - xy = 36 - 6x + 6y - xy.",
+      ),
+      QuizQuestion(
+        question:
+            r"33. Factorize 22ab - 11ac + 6rb - 3rc.          (BECE 2006 Q31)",
+        options: [
+          r"(2b - c)(11a + 3r)",
+          r"(2b + c)(11a - 3r)",
+          r"(2b - c)(11a - 3r)",
+          r"(2b + c)(11a + 3r)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: r"11a(2b - c) + 3r(2b - c) = (2b - c)(11a + 3r).",
+      ),
+      QuizQuestion(
+        question:
+            r"34. Factorize \frac{1}{4}px^2 + \frac{1}{8}px.          (BECE 2007 Q18)",
+        options: [
+          r"\frac{1}{4} px (x + 2)",
+          r"\frac{1}{4} px (x + \frac{1}{2})",
+          r"\frac{1}{8} px (\frac{1}{2} x + 2)",
+          r"\frac{1}{8} px (2x + 1)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"The highest common factor is \frac{1}{8}px, giving \frac{1}{8}px(2x + 1).",
+      ),
+      QuizQuestion(
+        question:
+            r"35. Simplify 6(7a + 4) - 3(8a + 9).          (BECE 2007 Q20)",
+        options: [
+          r"18a - 3",
+          r"18a + 51",
+          r"42a - 27",
+          r"66a - 3",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"6(7a + 4) - 3(8a + 9) = 42a + 24 - 24a - 27 = 18a - 3.",
+      ),
+      QuizQuestion(
+        question: r"36. Expand (a + 2b)(a - 2b).          (BECE 2007 Q31)",
+        options: [
+          r"a^2 - 4ab - 4b^2",
+          r"a^2 + 4ab - 4b^2",
+          r"a^2 - 4b^2",
+          r"a^2 + 4b^2",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"Using the difference of two squares, (a + 2b)(a - 2b) = a^2 - (2b)^2 = a^2 - 4b^2.",
+      ),
+      QuizQuestion(
+        question: r"37. Expand (a + 4)(a + 6).          (BECE 2008 Q34)",
+        options: [
+          r"2a + 24",
+          r"a^2 + 6a + 10",
+          r"a^2 + 10a + 10",
+          r"a^2 + 10a + 24",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"(a + 4)(a + 6) = a^2 + 6a + 4a + 24 = a^2 + 10a + 24.",
+      ),
+      QuizQuestion(
+        question: r"38. Simplify (5m + 3n) - (2m - n).          (BECE 2009 Q5)",
+        options: [
+          r"5m - 4n",
+          r"3m + 4n",
+          r"3m - 2n",
+          r"7m + 4n",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"5m + 3n - 2m + n = 3m + 4n.",
+      ),
+      QuizQuestion(
+        question: r"39. Factorize ax + 3x + a + 3.          (BECE 2009 Q24)",
+        options: [
+          r"x(a + x)",
+          r"(x - a)(x + 3)",
+          r"x(a - x)",
+          r"(a + 3)(x + 1)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: r"Group the terms: x(a + 3) + 1(a + 3) = (a + 3)(x + 1).",
+      ),
+      QuizQuestion(
+        question: r"40. Factorize xy + 5x + 2y + 10.          (BECE 2010 Q21)",
+        options: [
+          r"(x + 5)(2y + 10)",
+          r"(x + 2)(y + 10)",
+          r"(x + 5)(y + 2)",
+          r"(x + 2)(y + 5)",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: x(y + 5) + 2(y + 5) = (x + 2)(y + 5). However, this corresponds to option D, so the supplied options appear to have been transcribed incorrectly.",
+      ),
+      QuizQuestion(
+        question: r"41. Expand 3a(a - 4b).          (BECE 2011 Q2)",
+        options: [
+          r"3a - 12ab",
+          r"3a^2 - 12ab",
+          r"3a^2 - 12b",
+          r"3a^2 - 12a",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Multiply 3a by each term: 3a(a - 4b) = 3a^2 - 12ab.",
+      ),
+      QuizQuestion(
+        question:
+            r"42. Factorize completely b^2 + fb - mb - fm.          (BECE 2011 Q11)",
+        options: [
+          r"(b - f)(b - m)",
+          r"(b + f)(b - m)",
+          r"(b + f)(m - b)",
+          r"(b + f)(m + b)",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: r"Group the terms: b(b + f) - m(b + f) = (b + f)(b - m).",
+      ),
+      QuizQuestion(
+        question:
+            r"43. Simplify \frac{3}{4}x - \frac{1}{3}(x - y).          (BECE 2012 Q20)",
+        options: [
+          r"\frac{1}{12}(5x - 4y)",
+          r"\frac{1}{12}(13x - 4y)",
+          r"\frac{1}{12}(5x + 4y)",
+          r"\frac{1}{12}(13x + 4y)",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{3}{4}x - \frac{1}{3}(x - y) = \frac{3}{4}x - \frac{1}{3}x + \frac{1}{3}y = \frac{5}{12}x + \frac{4}{12}y = \frac{1}{12}(5x + 4y).",
+      ),
+      QuizQuestion(
+        question: r"44. Expand -x(3 - 2x).          (BECE 2012 Q40)",
+        options: [
+          r"-2x^2 - 3x",
+          r"2x^2 - 3x",
+          r"-2x^2 + 3x",
+          r"2x^2 + 3x",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"-x(3 - 2x) = -3x + 2x^2 = 2x^2 - 3x.",
+      ),
+      QuizQuestion(
+        question:
+            r"45. Factorize completely 2xy - 6y + 7x - 21.          (BECE 2013 Q19)",
+        options: [
+          r"(x - 3)(2y + 7)",
+          r"(x + 3)(2y - 7)",
+          r"(y - 3)(2x + 7)",
+          r"(y + 3)(2x - 7)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 2y(x - 3) + 7(x - 3) = (x - 3)(2y + 7).",
+      ),
+      QuizQuestion(
+        question: r"46. Expand (2x + y)(2x - y).          (BECE 2015 Q19)",
+        options: [
+          r"2x^2 - y^2",
+          r"4x^2 - y^2",
+          r"2x^2 + 4xy - y^2",
+          r"4x^2 + 4xy - y^2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"Using the difference of two squares, (2x + y)(2x - y) = 4x^2 - y^2.",
+      ),
+      QuizQuestion(
+        question: r"47. Simplify 4(x + 2) - 3(x + 1).          (BECE 2016 Q21)",
+        options: [
+          r"x + 5",
+          r"x + 11",
+          r"7x + 5",
+          r"7x + 11",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"4(x + 2) - 3(x + 1) = 4x + 8 - 3x - 3 = x + 5.",
+      ),
+      QuizQuestion(
+        question:
+            r"48. Simplify \frac{2(u - v)(2u + 3v)}{4u + 6v}.          (BECE 2017 Q18)",
+        options: [
+          r"\frac{(u - v)(2u + 3v)}{u + v}",
+          r"\frac{(u - v)(u + v)}{u + 2v}",
+          r"\frac{1}{2}(u - v)",
+          r"u - v",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Since 4u + 6v = 2(2u + 3v), the common factor 2(2u + 3v) cancels, leaving u - v.",
+      ),
+      QuizQuestion(
+        question:
+            r"49. Simplify 4a - 9b - 2(2a - 3b).          (BECE 2018 Q27)",
+        options: [
+          r"8a + 3b",
+          r"8a - 3b",
+          r"-15b",
+          r"-3b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"4a - 9b - 2(2a - 3b) = 4a - 9b - 4a + 6b = -3b.",
+      ),
+      QuizQuestion(
+        question: r"50. Factorize kx + 2xt - 4k - 8t.          (BECE 2019 Q8)",
+        options: [
+          r"(k - 2t)(x + 4)",
+          r"(k + 2t)(x + 4)",
+          r"(k + t)(x - 4)",
+          r"(k + 2t)(x - 4)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: x(k + 2t) - 4(k + 2t) = (k + 2t)(x - 4).",
+      ),
+      QuizQuestion(
+        question:
+            r"51. Subtract (7x - 3) from (5 - 3x).          (BECE 2020 Q1)",
+        options: [
+          r"10x - 8",
+          r"4x - 8",
+          r"8 - 10x",
+          r"2 - 10x",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"(5 - 3x) - (7x - 3) = 5 - 3x - 7x + 3 = 8 - 10x.",
+      ),
+      QuizQuestion(
+        question:
+            r"52. Expand and simplify (a - b)(2a + 3).          (BECE 2020 Q38)",
+        options: [
+          r"a^2 - a + 6",
+          r"2a^2 + 7a - 6",
+          r"2a^2 - a - 6",
+          r"2a^2 - 12a + 6",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Direct expansion gives 2a^2 + 3a - 2ab - 3b, which does not match any option. Option C would result only under additional information about b, so the question appears incomplete or incorrectly transcribed.",
+      ),
+      QuizQuestion(
+        question:
+            r"53. Simplify 3y - \frac{1}{4}(2y - 3).          (BECE 2021 Q1)",
+        options: [
+          r"10y + 3",
+          r"10y - 3",
+          r"\frac{10 y - 3}{4}",
+          r"\frac{10 y + 3}{4}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"3y - \frac{1}{4}(2y - 3) = 3y - \frac{1}{2}y + \frac{3}{4} = \frac{10y + 3}{4}.",
+      ),
+      QuizQuestion(
+        question: r"54. Expand (7r - 5)(3r + 4).          (BECE 2021 Q14)",
+        options: [
+          r"21r^2 + 13r - 20",
+          r"21r^2 - 13r - 20",
+          r"21r^2 - 43r - 20",
+          r"21r^2 + 43r - 20",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"(7r - 5)(3r + 4) = 21r^2 + 28r - 15r - 20 = 21r^2 + 13r - 20.",
+      ),
+      QuizQuestion(
+        question: r"55. Factorize 3ax + 6a - x - 2.          (BECE 2021 Q21)",
+        options: [
+          r"(3a + 1)(x + 2)",
+          r"(3a + 1)(x - 2)",
+          r"(3a - 1)(x - 2)",
+          r"(3a - 1)(x + 2)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 3a(x + 2) - 1(x + 2) = (3a - 1)(x + 2).",
+      ),
+      QuizQuestion(
+        question:
+            r"56. Simplify 3(5a^2 + 2c) - 2a(1 - 3a) - 6c.          (BECE 2021 Q30)",
+        options: [
+          r"21a^2 - 2a",
+          r"13a^2 - 2a - 12c",
+          r"13a^2 - 2a",
+          r"21a^2 - 2a - 12c",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"3(5a^2 + 2c) - 2a(1 - 3a) - 6c = 15a^2 + 6c - 2a + 6a^2 - 6c = 21a^2 - 2a.",
+      ),
+      QuizQuestion(
+        question: r"57. Expand (2a - b)(a - b).          (BECE 2022 Q1)",
+        options: [
+          r"2a^2 + 3ab + b^2",
+          r"2a^2 - 3ab + b^2",
+          r"2a^2 - 3ab - b^2",
+          r"2a^2 + 3ab - b^2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"(2a - b)(a - b) = 2a^2 - 2ab - ab + b^2 = 2a^2 - 3ab + b^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"58. Factorize completely xy - xm - my + m^2.          (BECE 2022 Q9)",
+        options: [
+          r"(x - m)(y - m)",
+          r"(m - y)(x - m)",
+          r"(y - m)(y - m)",
+          r"(m - y)(m - x)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: r"Group the terms: x(y - m) - m(y - m) = (x - m)(y - m).",
+      ),
+      QuizQuestion(
+        question: r"59. Simplify (x - 1)^2 - 1.          (BECE 2023 Q1)",
+        options: [
+          r"x^2 - 2x",
+          r"x^2 - 2x + 1",
+          r"x^2 - 2x - 1",
+          r"x^2 + 2x",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"(x - 1)^2 - 1 = x^2 - 2x + 1 - 1 = x^2 - 2x.",
+      ),
+      QuizQuestion(
+        question: r"60. Factorize 2pq + 6p - 6q - 18.          (BECE 2023 Q4)",
+        options: [
+          r"2(p - 3)(q - 3)",
+          r"2(p - 3)(q + 3)",
+          r"2(p + 3)(q - 3)",
+          r"2(p + 3)(q + 3)",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"2p(q + 3) - 6(q + 3) = 2(p - 3)(q + 3). This corresponds to option B, so the supplied option ordering appears inconsistent.",
+      ),
+      QuizQuestion(
+        question: r"61. Expand (x - 2)(x + 4).          (BECE 2023 Q28)",
+        options: [
+          r"x^2 + 2x - 8",
+          r"x^2 - 2x - 8",
+          r"x^2 - 4x - 8",
+          r"x^2 + 4x - 8",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"(x - 2)(x + 4) = x^2 + 4x - 2x - 8 = x^2 + 2x - 8.",
+      ),
+      QuizQuestion(
+        question:
+            r"62. Simplify 3x - 2(3 + 2x) + x(2x + 4).          (BECE 2024 Q25)",
+        options: [
+          r"2x^2 + 3x - 6",
+          r"2x^2 - 3x - 6",
+          r"2x^2 + 3x + 6",
+          r"2x^2 - 3x + 6",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"3x - 2(3 + 2x) + x(2x + 4) = 3x - 6 - 4x + 2x^2 + 4x = 2x^2 + 3x - 6.",
+      ),
+      QuizQuestion(
+        question:
+            r"63. One of the factors of 4m^2 + 12m - 8m - 24 is (4m - 8). Find the other factor.          (BECE 2024 Q27)",
+        options: [
+          r"m - 3",
+          r"2m - 3",
+          r"m + 3",
+          r"2m + 3",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Group the expression: 4m(m + 3) - 8(m + 3) = (4m - 8)(m + 3). Therefore, the other factor is m + 3.",
+      ),
+      QuizQuestion(
+        question:
+            r"64. Expand and simplify 2(3a + 1) - 3(4a - 3).          (BECE 2025 Q2)",
+        options: [
+          r"11 - 5a",
+          r"11 - 6a",
+          r"11 + 6a",
+          r"11 + 5a",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"2(3a + 1) - 3(4a - 3) = 6a + 2 - 12a + 9 = 11 - 6a.",
+      ),
+      QuizQuestion(
+        question: r"65. Factorize 5ay - by + 15a - 3b.          (BECE 2025 Q4)",
+        options: [
+          r"(y + 3)(5a - b)",
+          r"(y + 5)(3a - b)",
+          r"(y - 3)(5a + b)",
+          r"(y - 5)(5a + b)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: y(5a - b) + 3(5a - b) = (y + 3)(5a - b).",
+      ),
+      QuizQuestion(
+        question:
+            r"66. If 2y = 5 - 3x, find x when y = 1.          (BECE 2025 Q21)",
+        options: [
+          r"-2\frac{1}{3}",
+          "-1",
+          "0",
+          "1",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"When y = 1, 2 = 5 - 3x. Thus, 3x = 3 and x = 1.",
+      ),
+      QuizQuestion(
+        question:
+            r"67. Multiply (8s - 7) by (8s + 7).          (BECE 2025 Q30)",
+        options: [
+          r"64s^2 + 49",
+          r"64s^2 - 49",
+          r"16s^2 - 42",
+          r"16s^2 + 42",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"Using (a - b)(a + b) = a^2 - b^2, (8s - 7)(8s + 7) = 64s^2 - 49.",
+      ),
     ],
   ),
   "Math JHS2 s2 ss3 - Variables and Equations": QuizModel(
@@ -7123,7 +7003,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        r"1. If x \in {1, 3, 5, 7, 9, 11, 13, 15}, find the truth set of x - 3 \geq 10. (BECE 1993 Q3)",
+            r"1. If x \in {1, 3, 5, 7, 9, 11, 13, 15}, find the truth set of x - 3 \geq 10. (BECE 1993 Q3)",
         options: [
           r"{15}",
           r"{13, 15}",
@@ -7133,12 +7013,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"x - 3 \geq 10 gives x \geq 13. The values in the given set that satisfy this are 13 and 15.",
+            r"x - 3 \geq 10 gives x \geq 13. The values in the given set that satisfy this are 13 and 15.",
       ),
-
       QuizQuestion(
-        question:
-        r"2. Solve 4x - 6 < -2. (BECE 1995 Q11)",
+        question: r"2. Solve 4x - 6 < -2. (BECE 1995 Q11)",
         options: [
           r"x < 1",
           r"x > 1",
@@ -7147,13 +7025,11 @@ QuizQuestion(
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        r"4x - 6 < -2 gives 4x < 4. Dividing by 4 gives x < 1.",
+        explanation: r"4x - 6 < -2 gives 4x < 4. Dividing by 4 gives x < 1.",
       ),
-
       QuizQuestion(
         question:
-        r"3. Find the truth set of 5x - 8 \leq 2x + 4. (BECE 1997 Q33)",
+            r"3. Find the truth set of 5x - 8 \leq 2x + 4. (BECE 1997 Q33)",
         options: [
           r"{x : x \geq 4}",
           r"{x : x \geq -4}",
@@ -7163,12 +7039,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"5x - 8 \leq 2x + 4 gives 3x \leq 12. Therefore, x \leq 4.",
+            r"5x - 8 \leq 2x + 4 gives 3x \leq 12. Therefore, x \leq 4.",
       ),
-
       QuizQuestion(
         question:
-        r"4. Which of the following statements is true? (BECE 2003 Q25)",
+            r"4. Which of the following statements is true? (BECE 2003 Q25)",
         options: [
           r"8 + 4 < 10",
           r"7 + 4 < 10",
@@ -7177,13 +7052,10 @@ QuizQuestion(
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation:
-        r"Only 5 + 4 = 9 is less than 10.",
+        explanation: r"Only 5 + 4 = 9 is less than 10.",
       ),
-
       QuizQuestion(
-        question:
-        r"5. Solve for x if \frac{1}{2}x - 4x > 20. (BECE 2004 Q28)",
+        question: r"5. Solve for x if \frac{1}{2}x - 4x > 20. (BECE 2004 Q28)",
         options: [
           r"x < -13\frac{1}{3}",
           r"x < -5\frac{4}{5}",
@@ -7193,12 +7065,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"The given inequality simplifies to -\frac{7}{2}x > 20, so x < -\frac{40}{7} = -5\frac{5}{7}. None of the supplied options matches exactly; option B appears to be the intended answer.",
+            r"The given inequality simplifies to -\frac{7}{2}x > 20, so x < -\frac{40}{7} = -5\frac{5}{7}. None of the supplied options matches exactly; option B appears to be the intended answer.",
       ),
-
       QuizQuestion(
         question:
-        r"6. Find the truth set of the inequality 2x + 5 < 4y - 5. (BECE 2019 Q17)",
+            r"6. Find the truth set of the inequality 2x + 5 < 4y - 5. (BECE 2019 Q17)",
         options: [
           r"{y : y > 5}",
           r"{y : y < 5}",
@@ -7208,12 +7079,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Rearranging gives 4y > 2x + 10, so y > \frac{x + 5}{2}. A value of x is missing from the supplied question. If x = 5, the intended answer is y > 5.",
+            r"Rearranging gives 4y > 2x + 10, so y > \frac{x + 5}{2}. A value of x is missing from the supplied question. If x = 5, the intended answer is y > 5.",
       ),
-
       QuizQuestion(
         question:
-        r"7. Find the solution set of n - \frac{2}{3} > \frac{1}{3} - n. (BECE 1993 Q24)",
+            r"7. Find the solution set of n - \frac{2}{3} > \frac{1}{3} - n. (BECE 1993 Q24)",
         options: [
           r"{n : n > -1}",
           r"{n : n = 0}",
@@ -7223,12 +7093,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"n - \frac{2}{3} > \frac{1}{3} - n gives 2n > 1. Therefore, n > \frac{1}{2}.",
+            r"n - \frac{2}{3} > \frac{1}{3} - n gives 2n > 1. Therefore, n > \frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        r"8. If x \in {1, 2, 3, 4, 5}, find the truth set of 2x + 1 < 7. (BECE 1994 Q6)",
+            r"8. If x \in {1, 2, 3, 4, 5}, find the truth set of 2x + 1 < 7. (BECE 1994 Q6)",
         options: [
           r"{1, 2}",
           r"{2, 3}",
@@ -7238,12 +7107,10 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"2x + 1 < 7 gives 2x < 6, so x < 3. The values in the domain are 1 and 2.",
+            r"2x + 1 < 7 gives 2x < 6, so x < 3. The values in the domain are 1 and 2.",
       ),
-
       QuizQuestion(
-        question:
-        r"9. Find the solution set of 2x + 4 > -6. (BECE 1996 Q38)",
+        question: r"9. Find the solution set of 2x + 4 > -6. (BECE 1996 Q38)",
         options: [
           r"{x = -5}",
           r"{x < 5}",
@@ -7252,13 +7119,10 @@ QuizQuestion(
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        r"2x + 4 > -6 gives 2x > -10. Therefore, x > -5.",
+        explanation: r"2x + 4 > -6 gives 2x > -10. Therefore, x > -5.",
       ),
-
       QuizQuestion(
-        question:
-        r"10. Solve the inequality 3(x - 1) \leq 12. (BECE 2001 Q19)",
+        question: r"10. Solve the inequality 3(x - 1) \leq 12. (BECE 2001 Q19)",
         options: [
           r"x \leq -5",
           r"x \leq -3",
@@ -7268,12 +7132,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"3(x - 1) \leq 12 gives x - 1 \leq 4. Therefore, x \leq 5.",
+            r"3(x - 1) \leq 12 gives x - 1 \leq 4. Therefore, x \leq 5.",
       ),
-
       QuizQuestion(
         question:
-        r"11. Find the solution set of 2x + 1 < 5 in the domain {-1, 0, 1, 2, 3}. (BECE 2004 Q14)",
+            r"11. Find the solution set of 2x + 1 < 5 in the domain {-1, 0, 1, 2, 3}. (BECE 2004 Q14)",
         options: [
           r"{-1, 1, 3}",
           r"{-1, 0, 1}",
@@ -7283,12 +7146,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"2x + 1 < 5 gives x < 2. The values in the domain that satisfy this are -1, 0 and 1.",
+            r"2x + 1 < 5 gives x < 2. The values in the domain that satisfy this are -1, 0 and 1.",
       ),
-
       QuizQuestion(
         question:
-        r"12. If x \in {2, 3, 4, 5}, find the truth set of 2x + 1 < 8. (BECE 2010 Q22)",
+            r"12. If x \in {2, 3, 4, 5}, find the truth set of 2x + 1 < 8. (BECE 2010 Q22)",
         options: [
           r"{2, 3, 4}",
           r"{2, 3}",
@@ -7298,12 +7160,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"2x + 1 < 8 gives 2x < 7, so x < 3.5. The values in the domain are 2 and 3.",
+            r"2x + 1 < 8 gives 2x < 7, so x < 3.5. The values in the domain are 2 and 3.",
       ),
-
       QuizQuestion(
         question:
-        r"13. Solve the inequality 7x - (10x + 3) \geq -9. (BECE 2010 Q23)",
+            r"13. Solve the inequality 7x - (10x + 3) \geq -9. (BECE 2010 Q23)",
         options: [
           r"x \geq 2",
           r"x \leq 4",
@@ -7313,12 +7174,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"7x - 10x - 3 \geq -9 gives -3x \geq -6. Dividing by -3 reverses the inequality, giving x \leq 2.",
+            r"7x - 10x - 3 \geq -9 gives -3x \geq -6. Dividing by -3 reverses the inequality, giving x \leq 2.",
       ),
-
       QuizQuestion(
         question:
-        r"14. Solve the inequality x - \frac{1}{3} \geq \frac{2}{3} - x. (BECE 2011 Q15)",
+            r"14. Solve the inequality x - \frac{1}{3} \geq \frac{2}{3} - x. (BECE 2011 Q15)",
         options: [
           r"x \leq \frac{1}{2}",
           r"x \leq \frac{2}{3}",
@@ -7328,12 +7188,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"x - \frac{1}{3} \geq \frac{2}{3} - x gives 2x \geq 1. Therefore, x \geq \frac{1}{2}.",
+            r"x - \frac{1}{3} \geq \frac{2}{3} - x gives 2x \geq 1. Therefore, x \geq \frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        r"15. Solve the inequality 2x + 10 \geq \frac{7x}{2} - 5. (BECE 2014 Q36)",
+            r"15. Solve the inequality 2x + 10 \geq \frac{7x}{2} - 5. (BECE 2014 Q36)",
         options: [
           r"x \leq 10",
           r"x \geq 10",
@@ -7343,12 +7202,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Thus, 30 \geq 3x, so x \leq 10.",
+            r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Thus, 30 \geq 3x, so x \leq 10.",
       ),
-
       QuizQuestion(
         question:
-        r"16. Solve the inequality 2x + 10 \geq \frac{7}{2}x - 5. (BECE 2015 Q36)",
+            r"16. Solve the inequality 2x + 10 \geq \frac{7}{2}x - 5. (BECE 2015 Q36)",
         options: [
           r"x \geq 10",
           r"x \leq 10",
@@ -7358,12 +7216,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Therefore, 30 \geq 3x and x \leq 10.",
+            r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Therefore, 30 \geq 3x and x \leq 10.",
       ),
-
       QuizQuestion(
-        question:
-        r"17. Solve 25x + 450 \leq 3000. (BECE 2017 Q19)",
+        question: r"17. Solve 25x + 450 \leq 3000. (BECE 2017 Q19)",
         options: [
           r"x \geq 102",
           r"x \leq 102",
@@ -7373,12 +7229,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"25x + 450 \leq 3000 gives 25x \leq 2550. Therefore, x \leq 102.",
+            r"25x + 450 \leq 3000 gives 25x \leq 2550. Therefore, x \leq 102.",
       ),
-
       QuizQuestion(
-        question:
-        r"18. Solve 3 - (3x + 4) \leq -4. (BECE 2020 Q35)",
+        question: r"18. Solve 3 - (3x + 4) \leq -4. (BECE 2020 Q35)",
         options: [
           r"x \leq 1",
           r"x \geq 1",
@@ -7388,12 +7242,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"3 - 3x - 4 \leq -4 gives -3x - 1 \leq -4, so -3x \leq -3. Dividing by -3 reverses the inequality, giving x \geq 1.",
+            r"3 - 3x - 4 \leq -4 gives -3x - 1 \leq -4, so -3x \leq -3. Dividing by -3 reverses the inequality, giving x \geq 1.",
       ),
-
       QuizQuestion(
-        question:
-        r"19. Solve \frac{1 - x}{3} < 4. (BECE 2021 Q20)",
+        question: r"19. Solve \frac{1 - x}{3} < 4. (BECE 2021 Q20)",
         options: [
           r"x < -11",
           r"x > -11",
@@ -7403,12 +7255,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"\frac{1 - x}{3} < 4 gives 1 - x < 12. Thus, -x < 11, and dividing by -1 reverses the inequality to give x > -11.",
+            r"\frac{1 - x}{3} < 4 gives 1 - x < 12. Thus, -x < 11, and dividing by -1 reverses the inequality to give x > -11.",
       ),
-
       QuizQuestion(
-        question:
-        r"20. Solve 5x - (7x - 3) \leq 9. (BECE 2022 Q38)",
+        question: r"20. Solve 5x - (7x - 3) \leq 9. (BECE 2022 Q38)",
         options: [
           r"x \leq -3",
           r"x \geq -3",
@@ -7418,12 +7268,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"5x - 7x + 3 \leq 9 gives -2x \leq 6. Dividing by -2 reverses the inequality, giving x \geq -3.",
+            r"5x - 7x + 3 \leq 9 gives -2x \leq 6. Dividing by -2 reverses the inequality, giving x \geq -3.",
       ),
-
       QuizQuestion(
-        question:
-        r"21. Find the truth set of 2x - 4 < 6 + 3x. (BECE 2024 Q39)",
+        question: r"21. Find the truth set of 2x - 4 < 6 + 3x. (BECE 2024 Q39)",
         options: [
           r"{x : x < 2}",
           r"{x : x < 10}",
@@ -7432,8 +7280,7 @@ QuizQuestion(
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation:
-        r"2x - 4 < 6 + 3x gives -10 < x. Therefore, x > -10.",
+        explanation: r"2x - 4 < 6 + 3x gives -10 < x. Therefore, x > -10.",
       ),
     ],
   ),
@@ -7443,7 +7290,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        "1. Calculate the size of an exterior angle of a regular pentagon. (BECE 1994 Q12)",
+            "1. Calculate the size of an exterior angle of a regular pentagon. (BECE 1994 Q12)",
         options: [
           "72°",
           "90°",
@@ -7453,12 +7300,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "The exterior angles of a regular polygon sum to 360°. Therefore, each exterior angle is 360° ÷ 5 = 72°.",
+            "The exterior angles of a regular polygon sum to 360°. Therefore, each exterior angle is 360° ÷ 5 = 72°.",
       ),
-
       QuizQuestion(
         question:
-        "2. A polygon has 10 sides. Which of the following gives the sum of its interior angles? (BECE 1992 Q23)",
+            "2. A polygon has 10 sides. Which of the following gives the sum of its interior angles? (BECE 1992 Q23)",
         options: [
           "2 × 180°",
           "4 × 180°",
@@ -7468,12 +7314,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The sum of the interior angles is (n - 2) × 180°. For 10 sides, this is (10 - 2) × 180° = 8 × 180°.",
+            "The sum of the interior angles is (n - 2) × 180°. For 10 sides, this is (10 - 2) × 180° = 8 × 180°.",
       ),
-
       QuizQuestion(
         question:
-        "3. Which of the following best describes the statement “the locus of points 6 cm from a fixed point O”? (BECE 1998 Q39)",
+            "3. Which of the following best describes the statement “the locus of points 6 cm from a fixed point O”? (BECE 1998 Q39)",
         options: [
           "A parallel line 6 cm from point O.",
           "A vertical line 6 cm from point O.",
@@ -7483,12 +7328,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "All points at a fixed distance of 6 cm from O form a circle with centre O and radius 6 cm.",
+            "All points at a fixed distance of 6 cm from O form a circle with centre O and radius 6 cm.",
       ),
-
       QuizQuestion(
         question:
-        "4. The point P moves in a plane such that it is always at equal distance from two fixed points A and B in the same plane. Which of these is the locus of the point P? (BECE 2003 Q40)",
+            "4. The point P moves in a plane such that it is always at equal distance from two fixed points A and B in the same plane. Which of these is the locus of the point P? (BECE 2003 Q40)",
         options: [
           "The bisector of angle PAB.",
           "A circle with centre B and radius AB.",
@@ -7498,12 +7342,10 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them.",
+            "The locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them.",
       ),
-
       QuizQuestion(
-        question:
-        "5. Angle NTZ and QZT are: (BECE 2007 Q17)",
+        question: "5. Angle NTZ and QZT are: (BECE 2007 Q17)",
         options: [
           "Alternate angles.",
           "Corresponding angles.",
@@ -7513,12 +7355,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The question states that angles NTZ and QZT are supplementary, so their sum is 180°.",
+            "The question states that angles NTZ and QZT are supplementary, so their sum is 180°.",
       ),
-
       QuizQuestion(
         question:
-        "6. Which of the following best describes the statement: “The locus of a point which moves so that its distances from two fixed points are always equal”? (BECE 2015 Q30)",
+            "6. Which of the following best describes the statement: “The locus of a point which moves so that its distances from two fixed points are always equal”? (BECE 2015 Q30)",
         options: [
           "Bisector of an angle",
           "Perpendicular bisector",
@@ -7528,12 +7369,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Points that are equally distant from two fixed points lie on the perpendicular bisector of the line joining the points.",
+            "Points that are equally distant from two fixed points lie on the perpendicular bisector of the line joining the points.",
       ),
-
       QuizQuestion(
         question:
-        "7. The sum of the interior angles of a regular polygon with 10 sides is: (BECE 2017 Q7)",
+            "7. The sum of the interior angles of a regular polygon with 10 sides is: (BECE 2017 Q7)",
         options: [
           "144°",
           "900°",
@@ -7542,8 +7382,7 @@ QuizQuestion(
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "The sum is (10 - 2) × 180° = 8 × 180° = 1,440°.",
+        explanation: "The sum is (10 - 2) × 180° = 8 × 180° = 1,440°.",
       ),
     ],
   ),
@@ -7552,7 +7391,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        r"1. Simplify \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 1990 Q40)",
+            r"1. Simplify \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 1990 Q40)",
         options: [
           r"\begin{pmatrix} -3 \\ 8 \end{pmatrix}",
           r"\begin{pmatrix} 3 \\ -8 \end{pmatrix}",
@@ -7562,11 +7401,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} 2-(-1) \ -3-5 \end{pmatrix} = \begin{pmatrix} 3 \ -8 \end{pmatrix}.",
+            r"\begin{pmatrix} 2-(-1) \ -3-5 \end{pmatrix} = \begin{pmatrix} 3 \ -8 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"2. If r = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, calculate 6(r + 2s). (BECE 1991 Q27)",
+            r"2. If r = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, calculate 6(r + 2s). (BECE 1991 Q27)",
         options: [
           r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
           r"\begin{pmatrix} 1 \\ 3 \end{pmatrix}",
@@ -7576,11 +7415,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"r + 2s = \begin{pmatrix} 3 \ 1 \end{pmatrix} + \begin{pmatrix} -4 \ 2 \end{pmatrix} = \begin{pmatrix} -1 \ 3 \end{pmatrix}. Multiplying by 6 gives \begin{pmatrix} -6 \ 18 \end{pmatrix}.",
+            r"r + 2s = \begin{pmatrix} 3 \ 1 \end{pmatrix} + \begin{pmatrix} -4 \ 2 \end{pmatrix} = \begin{pmatrix} -1 \ 3 \end{pmatrix}. Multiplying by 6 gives \begin{pmatrix} -6 \ 18 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"3. Given that a = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + 2b. (BECE 1993 Q20)",
+            r"3. Given that a = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + 2b. (BECE 1993 Q20)",
         options: [
           r"\begin{pmatrix} 2 \\ -7 \end{pmatrix}",
           r"\begin{pmatrix} 2 \\ 13 \end{pmatrix}",
@@ -7590,11 +7429,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Using the vectors as supplied gives a + 2b = \begin{pmatrix} -6 \ 9 \end{pmatrix}, which is not among the options. The question or options contain a transcription error.",
+            r"Using the vectors as supplied gives a + 2b = \begin{pmatrix} -6 \ 9 \end{pmatrix}, which is not among the options. The question or options contain a transcription error.",
       ),
       QuizQuestion(
         question:
-        "4. Three girls measured the sides of right-angled triangles. Ama measured 50 mm, 40 mm and 50 mm; Adjoa measured 50 mm, 120 mm and 130 mm; Abena measured 20 mm, 30 mm and 40 mm. Whose measurement was correct? (BECE 1993 Q40)",
+            "4. Three girls measured the sides of right-angled triangles. Ama measured 50 mm, 40 mm and 50 mm; Adjoa measured 50 mm, 120 mm and 130 mm; Abena measured 20 mm, 30 mm and 40 mm. Whose measurement was correct? (BECE 1993 Q40)",
         options: [
           "Ama's only",
           "Adjoa's only",
@@ -7604,11 +7443,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Only Adjoa's measurements satisfy the Pythagorean theorem: 50^2 + 120^2 = 130^2.",
+            r"Only Adjoa's measurements satisfy the Pythagorean theorem: 50^2 + 120^2 = 130^2.",
       ),
       QuizQuestion(
         question:
-        r"5. If u = \begin{pmatrix} 2 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -1 \\ 3 \end{pmatrix}, find 3u + 2v. (BECE 1995 Q21)",
+            r"5. If u = \begin{pmatrix} 2 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -1 \\ 3 \end{pmatrix}, find 3u + 2v. (BECE 1995 Q21)",
         options: [
           r"\begin{pmatrix} 8 \\ 9 \end{pmatrix}",
           r"\begin{pmatrix} 4 \\ -2 \end{pmatrix}",
@@ -7618,11 +7457,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"3u + 2v = \begin{pmatrix} 6 \ 3 \end{pmatrix} + \begin{pmatrix} -2 \ 6 \end{pmatrix} = \begin{pmatrix} 4 \ 9 \end{pmatrix}.",
+            r"3u + 2v = \begin{pmatrix} 6 \ 3 \end{pmatrix} + \begin{pmatrix} -2 \ 6 \end{pmatrix} = \begin{pmatrix} 4 \ 9 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"6. Simplify \begin{pmatrix} 4 \\ 5 \end{pmatrix} + \begin{pmatrix} -2 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 6 \end{pmatrix}. (BECE 1997 Q11)",
+            r"6. Simplify \begin{pmatrix} 4 \\ 5 \end{pmatrix} + \begin{pmatrix} -2 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 6 \end{pmatrix}. (BECE 1997 Q11)",
         options: [
           r"\begin{pmatrix} 2 \\ 13 \end{pmatrix}",
           r"\begin{pmatrix} 7 \\ 13 \end{pmatrix}",
@@ -7632,11 +7471,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Add corresponding components: \begin{pmatrix} 4-2+1 \ 5+2+6 \end{pmatrix} = \begin{pmatrix} 3 \ 13 \end{pmatrix}.",
+            r"Add corresponding components: \begin{pmatrix} 4-2+1 \ 5+2+6 \end{pmatrix} = \begin{pmatrix} 3 \ 13 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"7. The diameter of a circular tray is 28 cm. Find the area of the tray. Take \pi = \frac{22}{7}. (BECE 1994 Q23)",
+            r"7. The diameter of a circular tray is 28 cm. Find the area of the tray. Take \pi = \frac{22}{7}. (BECE 1994 Q23)",
         options: [
           r"71.4 cm^2",
           r"31.8 cm^2",
@@ -7646,11 +7485,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2. None of the supplied options matches the correct answer.",
+            r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2. None of the supplied options matches the correct answer.",
       ),
       QuizQuestion(
         question:
-        r"8. Given that a = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and b = \begin{pmatrix} 1 \\ 2 \end{pmatrix}, find b - a. (BECE 1998 Q34)",
+            r"8. Given that a = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and b = \begin{pmatrix} 1 \\ 2 \end{pmatrix}, find b - a. (BECE 1998 Q34)",
         options: [
           r"\begin{pmatrix} -2 \\ 6 \end{pmatrix}",
           r"\begin{pmatrix} 4 \\ -2 \end{pmatrix}",
@@ -7660,11 +7499,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"b-a = \begin{pmatrix} 1-(-3) \ 2-4 \end{pmatrix} = \begin{pmatrix} 4 \ -2 \end{pmatrix}.",
+            r"b-a = \begin{pmatrix} 1-(-3) \ 2-4 \end{pmatrix} = \begin{pmatrix} 4 \ -2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"9. Given L = \begin{pmatrix} 3 \\ -1 \end{pmatrix} and K = \begin{pmatrix} -4 \\ 2 \end{pmatrix}, find L + K. (BECE 1999 Q36)",
+            r"9. Given L = \begin{pmatrix} 3 \\ -1 \end{pmatrix} and K = \begin{pmatrix} -4 \\ 2 \end{pmatrix}, find L + K. (BECE 1999 Q36)",
         options: [
           r"\begin{pmatrix} -1 \\ -1 \end{pmatrix}",
           r"\begin{pmatrix} -1 \\ 1 \end{pmatrix}",
@@ -7674,11 +7513,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"L+K = \begin{pmatrix} 3-4 \ -1+2 \end{pmatrix} = \begin{pmatrix} -1 \ 1 \end{pmatrix}.",
+            r"L+K = \begin{pmatrix} 3-4 \ -1+2 \end{pmatrix} = \begin{pmatrix} -1 \ 1 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"10. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} - \begin{pmatrix} 1 \\ 5 \end{pmatrix}. (BECE 2000 Q10)",
+            r"10. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} - \begin{pmatrix} 1 \\ 5 \end{pmatrix}. (BECE 2000 Q10)",
         options: [
           r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
           r"\begin{pmatrix} -1 \\ 8 \end{pmatrix}",
@@ -7688,11 +7527,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -2-1 \\ 3-5 \end{pmatrix} = \begin{pmatrix} -3 \\ -2 \end{pmatrix}.",
+            r"\begin{pmatrix} -2-1 \\ 3-5 \end{pmatrix} = \begin{pmatrix} -3 \\ -2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"11. The circumference of a circular track is 15.4 m. Find its diameter. Take \pi = \frac{22}{7}. (BECE 2002B Q40)",
+            r"11. The circumference of a circular track is 15.4 m. Find its diameter. Take \pi = \frac{22}{7}. (BECE 2002B Q40)",
         options: [
           "4.9 m",
           "24.5 m",
@@ -7702,11 +7541,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Since C = \pi d, d = 15.4 \div \frac{22}{7} = 4.9\text{ m}.",
+            r"Since C = \pi d, d = 15.4 \div \frac{22}{7} = 4.9\text{ m}.",
       ),
       QuizQuestion(
         question:
-        r"12. Find the area of a circle whose diameter is 28 cm. Take \pi = \frac{22}{7}. (BECE 2005 Q15)",
+            r"12. Find the area of a circle whose diameter is 28 cm. Take \pi = \frac{22}{7}. (BECE 2005 Q15)",
         options: [
           r"44 cm^2",
           r"88 cm^2",
@@ -7716,11 +7555,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2.",
+            r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2.",
       ),
       QuizQuestion(
         question:
-        r"13. Find the circumference of a circle with radius 3.5 cm. Take \pi = \frac{22}{7}. (BECE 2006 Q5)",
+            r"13. Find the circumference of a circle with radius 3.5 cm. Take \pi = \frac{22}{7}. (BECE 2006 Q5)",
         options: [
           "11 cm",
           "22 cm",
@@ -7730,11 +7569,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"C = 2\pi r = 2 \times \frac{22}{7} \times 3.5 = 22\text{ cm}.",
+            r"C = 2\pi r = 2 \times \frac{22}{7} \times 3.5 = 22\text{ cm}.",
       ),
       QuizQuestion(
         question:
-        "14. Which of the following dimensions form the sides of a right-angled triangle? (BECE 2004 Q40)",
+            "14. Which of the following dimensions form the sides of a right-angled triangle? (BECE 2004 Q40)",
         options: [
           "3 cm, 4 cm, 6 cm",
           "3 cm, 5 cm, 7 cm",
@@ -7744,11 +7583,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Since 5^2 + 12^2 = 25 + 144 = 169 = 13^2, the sides form a right-angled triangle.",
+            r"Since 5^2 + 12^2 = 25 + 144 = 169 = 13^2, the sides form a right-angled triangle.",
       ),
       QuizQuestion(
         question:
-        r"15. If r = \begin{pmatrix} 2 \\ 5 \end{pmatrix} and t = \begin{pmatrix} -2 \\ -3 \end{pmatrix}, evaluate r + t. (BECE 2007 Q28)",
+            r"15. If r = \begin{pmatrix} 2 \\ 5 \end{pmatrix} and t = \begin{pmatrix} -2 \\ -3 \end{pmatrix}, evaluate r + t. (BECE 2007 Q28)",
         options: [
           r"\begin{pmatrix} 0 \\ -2 \end{pmatrix}",
           r"\begin{pmatrix} 0 \\ 2 \end{pmatrix}",
@@ -7758,11 +7597,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"r+t = \begin{pmatrix} 2-2 \\ 5-3 \end{pmatrix} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}.",
+            r"r+t = \begin{pmatrix} 2-2 \\ 5-3 \end{pmatrix} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        "16. Which of the following sets of angles form the interior angles of a right-angled triangle? (BECE 2009 Q14)",
+            "16. Which of the following sets of angles form the interior angles of a right-angled triangle? (BECE 2009 Q14)",
         options: [
           r"{ 20^\circ, 50^\circ, 90^\circ }",
           r"{ 80^\circ, 60^\circ, 90^\circ }",
@@ -7772,11 +7611,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"A triangle's angles sum to 180^\circ. Only 45^\circ + 45^\circ + 90^\circ = 180^\circ.",
+            r"A triangle's angles sum to 180^\circ. Only 45^\circ + 45^\circ + 90^\circ = 180^\circ.",
       ),
       QuizQuestion(
         question:
-        r"17. If r = \begin{pmatrix} -10 \\ -3 \end{pmatrix} and n = \begin{pmatrix} 8 \\ -6 \end{pmatrix}, find n + r. (BECE 2009 Q40)",
+            r"17. If r = \begin{pmatrix} -10 \\ -3 \end{pmatrix} and n = \begin{pmatrix} 8 \\ -6 \end{pmatrix}, find n + r. (BECE 2009 Q40)",
         options: [
           r"\begin{pmatrix} -2 \\ -9 \end{pmatrix}",
           r"\begin{pmatrix} 2 \\ -9 \end{pmatrix}",
@@ -7786,11 +7625,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"n+r = \begin{pmatrix} 8-10 \ -6-3 \end{pmatrix} = \begin{pmatrix} -2 \ -9 \end{pmatrix}.",
+            r"n+r = \begin{pmatrix} 8-10 \ -6-3 \end{pmatrix} = \begin{pmatrix} -2 \ -9 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"18. Find the circumference of a circle whose area is 64\pi cm^2. (BECE 2010 Q25)",
+            r"18. Find the circumference of a circle whose area is 64\pi cm^2. (BECE 2010 Q25)",
         options: [
           r"32\pi cm",
           r"16\pi cm",
@@ -7800,11 +7639,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"\pi r^2 = 64\pi gives r = 8\text{ cm}. Therefore, C = 2\pi r = 16\pi cm.",
+            r"\pi r^2 = 64\pi gives r = 8\text{ cm}. Therefore, C = 2\pi r = 16\pi cm.",
       ),
       QuizQuestion(
         question:
-        r"19. Given that a = \begin{pmatrix} -5 \\ 12 \end{pmatrix} and b = \begin{pmatrix} 10\times \\ 12 \end{pmatrix}, find x if a = b. (BECE 2010 Q38)",
+            r"19. Given that a = \begin{pmatrix} -5 \\ 12 \end{pmatrix} and b = \begin{pmatrix} 10\times \\ 12 \end{pmatrix}, find x if a = b. (BECE 2010 Q38)",
         options: [
           "-2",
           r"-\frac{1}{2}",
@@ -7814,11 +7653,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Equal vectors have equal corresponding components, so 10x = -5. Therefore, x = -\frac{1}{2}.",
+            r"Equal vectors have equal corresponding components, so 10x = -5. Therefore, x = -\frac{1}{2}.",
       ),
       QuizQuestion(
         question:
-        r"20. Given that a = \begin{pmatrix} 5 \\ 2n \end{pmatrix} and b = \begin{pmatrix} 2n-1 \\ 6 \end{pmatrix}, find n if a = b. (BECE 2011 Q25)",
+            r"20. Given that a = \begin{pmatrix} 5 \\ 2n \end{pmatrix} and b = \begin{pmatrix} 2n-1 \\ 6 \end{pmatrix}, find n if a = b. (BECE 2011 Q25)",
         options: [
           "6",
           "3",
@@ -7828,11 +7667,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Equal corresponding components give 2n-1=5 and 2n=6. Both equations give n=3.",
+            r"Equal corresponding components give 2n-1=5 and 2n=6. Both equations give n=3.",
       ),
       QuizQuestion(
         question:
-        r"21. If r = \begin{pmatrix} 2 \\ -5 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 5 \end{pmatrix}, calculate 2r - 3s. (BECE 2011 Q30)",
+            r"21. If r = \begin{pmatrix} 2 \\ -5 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 5 \end{pmatrix}, calculate 2r - 3s. (BECE 2011 Q30)",
         options: [
           r"\begin{pmatrix} -10 \\ -25 \end{pmatrix}",
           r"\begin{pmatrix} -2 \\ -25 \end{pmatrix}",
@@ -7842,11 +7681,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"2r-3s = \begin{pmatrix} 4 \ -10 \end{pmatrix} - \begin{pmatrix} -6 \ 15 \end{pmatrix} = \begin{pmatrix} 10 \ -25 \end{pmatrix}.",
+            r"2r-3s = \begin{pmatrix} 4 \ -10 \end{pmatrix} - \begin{pmatrix} -6 \ 15 \end{pmatrix} = \begin{pmatrix} 10 \ -25 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"22. Given that r = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and s = \begin{pmatrix} 1 \\ -3 \end{pmatrix}, find r - 2s. (BECE 2015 Q33)",
+            r"22. Given that r = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and s = \begin{pmatrix} 1 \\ -3 \end{pmatrix}, find r - 2s. (BECE 2015 Q33)",
         options: [
           r"\begin{pmatrix} -5 \\ 1 \end{pmatrix}",
           r"\begin{pmatrix} -5 \\ 10 \end{pmatrix}",
@@ -7856,11 +7695,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"r-2s = \begin{pmatrix} -3 \ 4 \end{pmatrix} - \begin{pmatrix} 2 \ -6 \end{pmatrix} = \begin{pmatrix} -5 \ 10 \end{pmatrix}.",
+            r"r-2s = \begin{pmatrix} -3 \ 4 \end{pmatrix} - \begin{pmatrix} 2 \ -6 \end{pmatrix} = \begin{pmatrix} -5 \ 10 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"23. Find the area of a circle whose diameter is 7 cm. Take \pi = \frac{22}{7}. (BECE 2016 Q28)",
+            r"23. Find the area of a circle whose diameter is 7 cm. Take \pi = \frac{22}{7}. (BECE 2016 Q28)",
         options: [
           r"11 cm^2",
           r"38\frac{1}{2} cm^2",
@@ -7870,11 +7709,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The radius is 3.5 cm, so the area is \frac{22}{7}\times 3.5^2 = 38.5 cm^2.",
+            r"The radius is 3.5 cm, so the area is \frac{22}{7}\times 3.5^2 = 38.5 cm^2.",
       ),
       QuizQuestion(
         question:
-        "24. The diagonal of a rectangle is 10 cm long. If its length is 8 cm, find its breadth. (BECE 2016 Q32)",
+            "24. The diagonal of a rectangle is 10 cm long. If its length is 8 cm, find its breadth. (BECE 2016 Q32)",
         options: [
           "2 cm",
           "3 cm",
@@ -7884,11 +7723,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Using the Pythagorean theorem, b^2 + 8^2 = 10^2. Thus, b^2 = 36 and b = 6\text{ cm}.",
+            r"Using the Pythagorean theorem, b^2 + 8^2 = 10^2. Thus, b^2 = 36 and b = 6\text{ cm}.",
       ),
       QuizQuestion(
         question:
-        r"25. Simplify \begin{pmatrix} -3 \\ 5 \end{pmatrix} + \begin{pmatrix} 2 \\ -7 \end{pmatrix}. (BECE 2016 Q36)",
+            r"25. Simplify \begin{pmatrix} -3 \\ 5 \end{pmatrix} + \begin{pmatrix} 2 \\ -7 \end{pmatrix}. (BECE 2016 Q36)",
         options: [
           r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
           r"\begin{pmatrix} -5 \\ 12 \end{pmatrix}",
@@ -7898,11 +7737,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -3+2 \\ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \\ -2 \end{pmatrix}.",
+            r"\begin{pmatrix} -3+2 \\ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \\ -2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"26. Given that a = \begin{pmatrix} 4 \\ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \\ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
+            r"26. Given that a = \begin{pmatrix} 4 \\ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \\ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
         options: [
           r"\begin{pmatrix} 0 \\ 0 \end{pmatrix}",
           r"\begin{pmatrix} -8 \\ 12 \end{pmatrix}",
@@ -7912,11 +7751,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"a+b = \begin{pmatrix} 4-4 \\ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
+            r"a+b = \begin{pmatrix} 4-4 \\ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"27. Find the diameter of a circle whose circumference is 88 cm. Take \pi = \frac{22}{7}. (BECE 2019 Q24)",
+            r"27. Find the diameter of a circle whose circumference is 88 cm. Take \pi = \frac{22}{7}. (BECE 2019 Q24)",
         options: [
           "14 cm",
           "22 cm",
@@ -7925,12 +7764,11 @@ QuizQuestion(
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28 cm.",
+        explanation: r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28 cm.",
       ),
       QuizQuestion(
         question:
-        r"28. If u = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
+            r"28. If u = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
         options: [
           r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
           r"\begin{pmatrix} -6 \\ 8 \end{pmatrix}",
@@ -7940,11 +7778,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"6v+2u = \begin{pmatrix} -12 \\ 6 \end{pmatrix} + \begin{pmatrix} 6 \\ 2 \end{pmatrix} = \begin{pmatrix} -6 \\ 8 \end{pmatrix}.",
+            r"6v+2u = \begin{pmatrix} -12 \\ 6 \end{pmatrix} + \begin{pmatrix} 6 \\ 2 \end{pmatrix} = \begin{pmatrix} -6 \\ 8 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"29. Given that r = \begin{pmatrix} -3 \\ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \\ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
+            r"29. Given that r = \begin{pmatrix} -3 \\ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \\ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
         options: [
           r"\begin{pmatrix} -6 \\ 10 \end{pmatrix}",
           r"\begin{pmatrix} -6 \\ -10 \end{pmatrix}",
@@ -7954,11 +7792,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"r+t = \begin{pmatrix} -3+3 \\ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \\ -10 \end{pmatrix}.",
+            r"r+t = \begin{pmatrix} -3+3 \\ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \\ -10 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"30. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} + \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 2019 Q31)",
+            r"30. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} + \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 2019 Q31)",
         options: [
           r"\begin{pmatrix} -3 \\ -2 \end{pmatrix}",
           r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
@@ -7968,11 +7806,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -2-1 \\ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \\ 8 \end{pmatrix}.",
+            r"\begin{pmatrix} -2-1 \\ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \\ 8 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        "31. Adwoa travelled 12 km due north and 5 km due east. How far was she from her starting point? (BECE 2022 Q15)",
+            "31. Adwoa travelled 12 km due north and 5 km due east. How far was she from her starting point? (BECE 2022 Q15)",
         options: [
           "7 km",
           "13 km",
@@ -7982,11 +7820,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The distance is the hypotenuse: \sqrt{12^2+5^2} = \sqrt{169} = 13\text{ km}.",
+            r"The distance is the hypotenuse: \sqrt{12^2+5^2} = \sqrt{169} = 13\text{ km}.",
       ),
       QuizQuestion(
         question:
-        r"32. If a = \begin{pmatrix} 2 \\ -3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + b. (BECE 2022 Q33)",
+            r"32. If a = \begin{pmatrix} 2 \\ -3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + b. (BECE 2022 Q33)",
         options: [
           r"\begin{pmatrix} 4 \\ 0 \end{pmatrix}",
           r"\begin{pmatrix} 2 \\ 3 \end{pmatrix}",
@@ -7996,11 +7834,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"a+b = \begin{pmatrix} 2-2 \\ -3+3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
+            r"a+b = \begin{pmatrix} 2-2 \\ -3+3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"33. If q = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and r = \begin{pmatrix} 3 \\ -2 \end{pmatrix}, find q - r. (BECE 2023 Q35)",
+            r"33. If q = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and r = \begin{pmatrix} 3 \\ -2 \end{pmatrix}, find q - r. (BECE 2023 Q35)",
         options: [
           r"\begin{pmatrix} -5 \\ 5 \end{pmatrix}",
           r"\begin{pmatrix} 5 \\ 5 \end{pmatrix}",
@@ -8010,11 +7848,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"q-r = \begin{pmatrix} -2-3 \\ 3-(-2) \end{pmatrix} = \begin{pmatrix} -5 \\ 5 \end{pmatrix}.",
+            r"q-r = \begin{pmatrix} -2-3 \\ 3-(-2) \end{pmatrix} = \begin{pmatrix} -5 \\ 5 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"34. A boy walked around a circular pond once. If its radius is 28 m, find the distance covered. Take \pi = \frac{22}{7}. (BECE 2025 Q18)",
+            r"34. A boy walked around a circular pond once. If its radius is 28 m, find the distance covered. Take \pi = \frac{22}{7}. (BECE 2025 Q18)",
         options: [
           "44 m",
           "88 m",
@@ -8024,11 +7862,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The distance is the circumference: 2\pi r = 2 \times \frac{22}{7} \times 28 = 176 m.",
+            r"The distance is the circumference: 2\pi r = 2 \times \frac{22}{7} \times 28 = 176 m.",
       ),
       QuizQuestion(
         question:
-        r"35. If a = \begin{pmatrix} -2 \\ 1 \end{pmatrix} and b = \begin{pmatrix} -5 \\ -3 \end{pmatrix}, find 2a - b. (BECE 2025 Q25)",
+            r"35. If a = \begin{pmatrix} -2 \\ 1 \end{pmatrix} and b = \begin{pmatrix} -5 \\ -3 \end{pmatrix}, find 2a - b. (BECE 2025 Q25)",
         options: [
           r"\begin{pmatrix} 1 \\ 5 \end{pmatrix}",
           r"\begin{pmatrix} -9 \\ -1 \end{pmatrix}",
@@ -8038,7 +7876,7 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"2a-b = \begin{pmatrix} -4 \\ 2 \end{pmatrix} - \begin{pmatrix} -5 \\ -3 \end{pmatrix} = \begin{pmatrix} 1 \\ 5 \end{pmatrix}.",
+            r"2a-b = \begin{pmatrix} -4 \\ 2 \end{pmatrix} - \begin{pmatrix} -5 \\ -3 \end{pmatrix} = \begin{pmatrix} 1 \\ 5 \end{pmatrix}.",
       ),
     ],
   ),
@@ -8047,7 +7885,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        r"1. The point P(3, 4) is rotated through an angle of 90^\circ anticlockwise about the origin O. Find the image P_1 of the rotation. (BECE 2001 Q16)",
+            r"1. The point P(3, 4) is rotated through an angle of 90^\circ anticlockwise about the origin O. Find the image P_1 of the rotation. (BECE 2001 Q16)",
         options: [
           r"(3, -4)",
           r"(4, -3)",
@@ -8057,12 +7895,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (3, 4) maps to (-4, 3).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (3, 4) maps to (-4, 3).",
       ),
-
       QuizQuestion(
         question:
-        r"2. Find the image of Q(-4, 5) when rotated anticlockwise through 90^\circ about the origin. (BECE 2018 Q30)",
+            r"2. Find the image of Q(-4, 5) when rotated anticlockwise through 90^\circ about the origin. (BECE 2018 Q30)",
         options: [
           r"Q'(-5, 4)",
           r"Q'(-5, -4)",
@@ -8072,12 +7909,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (-4, 5) maps to (-5, -4).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (-4, 5) maps to (-5, -4).",
       ),
-
       QuizQuestion(
         question:
-        r"3. The point K(1, 5) is rotated through 90^\circ anticlockwise about the origin. Find the coordinates of the image of K. (BECE 2015 Q31)",
+            r"3. The point K(1, 5) is rotated through 90^\circ anticlockwise about the origin. Find the coordinates of the image of K. (BECE 2015 Q31)",
         options: [
           r"(5, -1)",
           r"(-5, 1)",
@@ -8087,12 +7923,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (1, 5) maps to (-5, 1).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (1, 5) maps to (-5, 1).",
       ),
-
       QuizQuestion(
         question:
-        r"4. Find the image of P(-3, 5) when rotated through 360^\circ about the origin. (BECE 2021 Q6)",
+            r"4. Find the image of P(-3, 5) when rotated through 360^\circ about the origin. (BECE 2021 Q6)",
         options: [
           r"(5, -3)",
           r"(-3, -5)",
@@ -8102,12 +7937,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"A 360^\circ rotation returns a point to its original position, so the image is (-3, 5).",
+            r"A 360^\circ rotation returns a point to its original position, so the image is (-3, 5).",
       ),
-
       QuizQuestion(
         question:
-        r"5. The point K(3, 4) is rotated through 180^\circ about the origin. Find its image. (BECE 2002B Q16)",
+            r"5. The point K(3, 4) is rotated through 180^\circ about the origin. Find its image. (BECE 2002B Q16)",
         options: [
           r"(-3, 4)",
           r"(-4, 3)",
@@ -8117,12 +7951,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"A 180^\circ rotation maps (x, y) to (-x, -y). Thus, (3, 4) maps to (-3, -4).",
+            r"A 180^\circ rotation maps (x, y) to (-x, -y). Thus, (3, 4) maps to (-3, -4).",
       ),
-
       QuizQuestion(
         question:
-        r"6. The point Q(-2, 3) is rotated anticlockwise about the origin through an angle of 90^\circ. Find the coordinates of its image. (BECE 2017 Q28)",
+            r"6. The point Q(-2, 3) is rotated anticlockwise about the origin through an angle of 90^\circ. Find the coordinates of its image. (BECE 2017 Q28)",
         options: [
           r"(-3, -2)",
           r"(-3, 2)",
@@ -8132,7 +7965,7 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (-2, 3) maps to (-3, -2).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (-2, 3) maps to (-3, -2).",
       ),
     ],
   ),
@@ -8142,7 +7975,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        "1. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. What is the modal mark? (BECE 1991 Q15)",
+            "1. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. What is the modal mark? (BECE 1991 Q15)",
         options: [
           "3",
           "7",
@@ -8152,11 +7985,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The mode is the value that occurs most often. The mark 9 occurs three times.",
+            "The mode is the value that occurs most often. The mark 9 occurs three times.",
       ),
       QuizQuestion(
         question:
-        "2. Calculate the mean mark of the marks obtained by 10 children in a mental drill: 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. (BECE 1991 Q17)",
+            "2. Calculate the mean mark of the marks obtained by 10 children in a mental drill: 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. (BECE 1991 Q17)",
         options: [
           "–54",
           "5.4",
@@ -8165,12 +7998,11 @@ QuizQuestion(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        "The total is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
+        explanation: "The total is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
       ),
       QuizQuestion(
         question:
-        "3. The mean of the numbers 4, 3, 3 and x is 5. Find x. (BECE 1994 Q39)",
+            "3. The mean of the numbers 4, 3, 3 and x is 5. Find x. (BECE 1994 Q39)",
         options: [
           "20",
           "10",
@@ -8180,11 +8012,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Their total must be 5 × 4 = 20. Therefore, x = 20 - 4 - 3 - 3 = 10.",
+            "Their total must be 5 × 4 = 20. Therefore, x = 20 - 4 - 3 - 3 = 10.",
       ),
       QuizQuestion(
         question:
-        "4. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median score. (BECE 1997 Q26)",
+            "4. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median score. (BECE 1997 Q26)",
         options: [
           "3",
           "5",
@@ -8194,11 +8026,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The middle scores are 5 and 7. Therefore, the median is (5 + 7) ÷ 2 = 6.",
+            "The middle scores are 5 and 7. Therefore, the median is (5 + 7) ÷ 2 = 6.",
       ),
       QuizQuestion(
         question:
-        "5. What is the probability that a boy chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3? (BECE 1997 Q28)",
+            "5. What is the probability that a boy chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3? (BECE 1997 Q28)",
         options: [
           r"\frac{1}{27}",
           r"\frac{1}{18}",
@@ -8208,11 +8040,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The mark 3 occurs twice out of 10 scores, so the probability is \frac{2}{10} = \frac{1}{5}.",
+            r"The mark 3 occurs twice out of 10 scores, so the probability is \frac{2}{10} = \frac{1}{5}.",
       ),
       QuizQuestion(
         question:
-        "6. Find the median of the following numbers: 1, -1, -5, 3 and -4. (BECE 1999 Q23)",
+            "6. Find the median of the following numbers: 1, -1, -5, 3 and -4. (BECE 1999 Q23)",
         options: [
           "-1",
           "-4",
@@ -8222,11 +8054,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "In ascending order, the numbers are -5, -4, -1, 1, 3. The middle number is -1.",
+            "In ascending order, the numbers are -5, -4, -1, 1, 3. The middle number is -1.",
       ),
       QuizQuestion(
         question:
-        "7. What is the mode of the scores obtained by 13 candidates in a test: 5, 7, 2, 9, 11, 10, 2, 12, 2, 9, 3, 18 and 2? (BECE 2007 Q6)",
+            "7. What is the mode of the scores obtained by 13 candidates in a test: 5, 7, 2, 9, 11, 10, 2, 12, 2, 9, 3, 18 and 2? (BECE 2007 Q6)",
         options: [
           "2",
           "5",
@@ -8236,11 +8068,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "The score 2 occurs four times, more than any other score.",
+            "The score 2 occurs four times, more than any other score.",
       ),
       QuizQuestion(
         question:
-        "8. Find the median mark for the marks scored by 8 pupils in a Science test: 3, 7, 8, 6, 4, 8, 4, 6. (BECE 2004 Q37)",
+            "8. Find the median mark for the marks scored by 8 pupils in a Science test: 3, 7, 8, 6, 4, 8, 4, 6. (BECE 2004 Q37)",
         options: [
           "5",
           "6",
@@ -8250,11 +8082,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "In order, the marks are 3, 4, 4, 6, 6, 7, 8, 8. The median is (6 + 6) ÷ 2 = 6.",
+            "In order, the marks are 3, 4, 4, 6, 6, 7, 8, 8. The median is (6 + 6) ÷ 2 = 6.",
       ),
       QuizQuestion(
         question:
-        "9. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median mark. (BECE 1991 Q16)",
+            "9. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median mark. (BECE 1991 Q16)",
         options: [
           "3",
           "5",
@@ -8264,11 +8096,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The middle scores are 5 and 7. Their average is (5 + 7) ÷ 2 = 6.",
+            "The middle scores are 5 and 7. Their average is (5 + 7) ÷ 2 = 6.",
       ),
       QuizQuestion(
         question:
-        "10. What is the probability that a child chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3 marks? (BECE 1991 Q18)",
+            "10. What is the probability that a child chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3 marks? (BECE 1991 Q18)",
         options: [
           r"\frac{2}{54}",
           r"\frac{3}{54}",
@@ -8278,11 +8110,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"Two of the 10 children scored 3, so the probability is \frac{2}{10}.",
+            r"Two of the 10 children scored 3, so the probability is \frac{2}{10}.",
       ),
       QuizQuestion(
         question:
-        "11. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the mean age? (BECE 1996 Q13)",
+            "11. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the mean age? (BECE 1996 Q13)",
         options: [
           "3.0",
           "3.5",
@@ -8292,11 +8124,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The total age is 36 years. Therefore, the mean is 36 ÷ 9 = 4 years.",
+            "The total age is 36 years. Therefore, the mean is 36 ÷ 9 = 4 years.",
       ),
       QuizQuestion(
         question:
-        "12. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the median age? (BECE 1996 Q13)",
+            "12. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the median age? (BECE 1996 Q13)",
         options: [
           "2.0",
           "3.0",
@@ -8306,11 +8138,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "There are nine ordered ages, so the median is the fifth value, which is 4.",
+            "There are nine ordered ages, so the median is the fifth value, which is 4.",
       ),
       QuizQuestion(
         question:
-        "13. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. If a child is picked at random, what is the probability that the child is 5 years old? (BECE 1996 Q15)",
+            "13. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. If a child is picked at random, what is the probability that the child is 5 years old? (BECE 1996 Q15)",
         options: [
           r"\frac{2}{9}",
           r"\frac{1}{3}",
@@ -8320,11 +8152,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Three of the nine children are 5 years old, so the probability is \frac{3}{9} = \frac{1}{3}.",
+            r"Three of the nine children are 5 years old, so the probability is \frac{3}{9} = \frac{1}{3}.",
       ),
       QuizQuestion(
         question:
-        "14. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Calculate the mean score. (BECE 1997 Q27)",
+            "14. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Calculate the mean score. (BECE 1997 Q27)",
         options: [
           "4.4",
           "5.4",
@@ -8334,11 +8166,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The total score is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
+            "The total score is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
       ),
       QuizQuestion(
         question:
-        "15. Find the median of the following numbers: 17, 12, 15, 16, 8, 18, 13 and 14. (BECE 2015 Q17)",
+            "15. Find the median of the following numbers: 17, 12, 15, 16, 8, 18, 13 and 14. (BECE 2015 Q17)",
         options: [
           "8",
           "12",
@@ -8348,11 +8180,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "In order, the numbers are 8, 12, 13, 14, 15, 16, 17, 18. The median is (14 + 15) ÷ 2 = 14.5.",
+            "In order, the numbers are 8, 12, 13, 14, 15, 16, 17, 18. The median is (14 + 15) ÷ 2 = 14.5.",
       ),
       QuizQuestion(
         question:
-        "16. Find the median of the following numbers: 4, 16, 13, 18, 3, 20, 6, 7, 15, 2, 10, 12. (BECE 2020 Q15)",
+            "16. Find the median of the following numbers: 4, 16, 13, 18, 3, 20, 6, 7, 15, 2, 10, 12. (BECE 2020 Q15)",
         options: [
           "7",
           "10",
@@ -8362,11 +8194,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "The middle values in ascending order are 10 and 12. Therefore, the median is (10 + 12) ÷ 2 = 11.",
+            "The middle values in ascending order are 10 and 12. Therefore, the median is (10 + 12) ÷ 2 = 11.",
       ),
       QuizQuestion(
         question:
-        "17. If the average of 5, 6, 7 and x is 8, find the value of x. (BECE 2021 Q22)",
+            "17. If the average of 5, 6, 7 and x is 8, find the value of x. (BECE 2021 Q22)",
         options: [
           "12",
           "14",
@@ -8376,11 +8208,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The total must be 8 × 4 = 32. Therefore, x = 32 - 5 - 6 - 7 = 14.",
+            "The total must be 8 × 4 = 32. Therefore, x = 32 - 5 - 6 - 7 = 14.",
       ),
     ],
   ),
-
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
   "Social Studies JHS1 s1 ss1 - Environmental Issues": QuizModel(
@@ -10295,6 +10126,224 @@ QuizQuestion(
         difficulty: "Easy",
         explanation:
             "Relief rainfall occurs mainly in highland areas where moist air is forced to rise over mountains.",
+      ),
+    ],
+  ),
+  "Social Studies JHS1 s5 ss3 - Tourism (Concept of Tourism and Leisure)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following tourist attractions is mostly associated with Kintampo in the Bono East Region?        (BECE 2021 Q35)",
+        options: [
+          "Monkey sanctuary.",
+          "Bird viewing.",
+          "Savannah vegetation.",
+          "Waterfalls."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kintampo is popularly associated with the Kintampo Waterfalls, a major tourist attraction in the Bono East Region.",
+      ),
+      QuizQuestion(
+        question:
+            "2. On which continent are the Appalachian Mountains located?        (BECE 2025 Q13)",
+        options: ["Africa", "North America", "South America", "Australia"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Appalachian Mountains are located in North America, extending through parts of Canada and the United States.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In which of the following regions in Ghana are the Boti Falls?        (BECE 1990 Q4)",
+        options: ["Ashanti", "Eastern", "Western", "Central"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Boti Falls is located near Boti in the Yilo Krobo Municipality of the Eastern Region of Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Tourism in Ghana promotes the growth of the        (BECE 2010 Q2)",
+        options: [
+          "film industry.",
+          "hotel industry.",
+          "textile industry.",
+          "health service."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tourism promotes the hotel industry because tourists require accommodation, food and other hospitality services.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The main benefit of tourism to Ghana is        (BECE 2018 Q2)",
+        options: [
+          "political stability.",
+          "inter-tribal marriage.",
+          "foreign exchange.",
+          "cultural change."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourism earns foreign exchange for Ghana when international tourists spend money on accommodation, transport, food and other services.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following places of interest attracts most tourists to Ghana?        (BECE 1996 Q2)",
+        options: [
+          "Kotoka International Airport",
+          "Tema Harbour",
+          "Kakum National Park",
+          "Takoradi Harbour"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Kakum National Park is a major tourist attraction in Ghana, noted for its rainforest, wildlife and canopy walkway.",
+      ),
+      QuizQuestion(
+        question:
+            "7. People who visit places of interest to enjoy the facilities are called        (BECE 2018 Q10)",
+        options: ["experts.", "travellers.", "tourists.", "socialites."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourists are people who travel to places of interest for pleasure, relaxation, education or recreation.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The main aim of promoting tourism in Ghana is to        (BECE 2017 Q1)",
+        options: [
+          "promote building of hotels.",
+          "preserve forts and castles.",
+          "earn foreign exchange.",
+          "create employment for foreigners."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The main aim of promoting tourism is to attract visitors whose spending enables Ghana to earn foreign exchange.",
+      ),
+      QuizQuestion(
+        question:
+            "9. International sporting activities do not only serve to promote friendship but also to        (BECE 2023 Q35)",
+        options: [
+          "generate income for the countries.",
+          "win trophies.",
+          "receive aids and grants.",
+          "improve cultural practices."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "International sporting activities generate income through ticket sales, tourism, sponsorships, broadcasting and other commercial activities.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Travelling to see and enjoy facilities and sceneries in other places is referred to as        (BECE 2010 Q32)",
+        options: ["leisure.", "tourism.", "pleasure.", "entertainment."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tourism involves travelling away from one’s usual environment to see and enjoy places, facilities and beautiful sceneries.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The main benefit of tourism to Ghana is that it        (BECE 2014 Q29)",
+        options: [
+          "encourages inter-tribal marriages.",
+          "enriches our culture.",
+          "is a major foreign exchange earner.",
+          "promotes political stability."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourism is a major foreign exchange earner because foreign tourists spend foreign currencies on goods and services in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The Cape Coast Castle is a valuable national asset because it promotes        (BECE 2008 Q34)",
+        options: ["trade.", "education.", "tourism.", "civilization."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Cape Coast Castle attracts local and international visitors because of its historical importance and therefore promotes tourism.",
+      ),
+      QuizQuestion(
+        question: "13. Tourism involves        (BECE 2017 Q17)",
+        options: [
+          "taking time off normal duties.",
+          "painting beautiful sceneries.",
+          "buying new and beautiful artefacts.",
+          "travelling to see and enjoy sceneries."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Tourism involves travelling to places outside one’s usual environment to see and enjoy attractions and sceneries.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Your school is embarking on an excursion in Asia to see famous mountains. Which of the following mountains are they likely to see?        (BECE 2025 Q4)",
+        options: [
+          "Andes Mountains",
+          "Atlas Mountains",
+          "The Rocky Mountains",
+          "Himalayas Mountains"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Himalayas are located in Asia and extend through countries such as Nepal, India, Bhutan, China and Pakistan.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Tourism in Ghana promotes the growth of the        (BECE 2018 Q27)",
+        options: [
+          "hotel industry.",
+          "film industry.",
+          "textile industry.",
+          "health industry."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tourism promotes the hotel industry because visitors need accommodation, meals and other hospitality services.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Improvement in tourism is important for the rapid development of the nation because more        (BECE 2019 Q38)",
+        options: [
+          "local tourists will leave the country.",
+          "infrastructure will be provided.",
+          "local tourists will not visit places of interest.",
+          "tour guides will be unemployed."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The development of tourism encourages the provision of infrastructure such as roads, hotels, communication facilities and recreational centres.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The Kakum Forest in Ghana promotes economic development through its        (BECE 2010 Q2)",
+        options: [
+          "supply of firewood.",
+          "supply of timber.",
+          "suitable location.",
+          "tourist attraction."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kakum Forest promotes economic development by attracting tourists, generating income and creating employment opportunities.",
       ),
     ],
   ),
@@ -30946,7 +30995,8 @@ QuizQuestion(
     ],
   ),
 
-  "English JHS1 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound": QuizModel(
+  "English JHS1 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -31034,7 +31084,8 @@ QuizQuestion(
       ),
     ],
   ),
-  "English JHS3 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound": QuizModel(
+  "English JHS3 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -31122,7 +31173,8 @@ QuizQuestion(
       ),
     ],
   ),
-  "English JHS2 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound": QuizModel(
+  "English JHS2 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
