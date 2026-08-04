@@ -1166,72 +1166,71 @@ final Map<String, QuizModel> beceQuizData = {
           options: ["-10", "-2", "-1", "2"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Substitute x = -2 into 3x - 4: 3(-2) - 4 = -6 - 4 = -10."
-      ),
+          explanation:
+              "Substitute x = -2 into 3x - 4: 3(-2) - 4 = -6 - 4 = -10."),
       QuizQuestion(
           question:
               "2. Find the next term in the sequence: 3, 6, 12, 24, …          (BECE 2006 Q14)",
           options: ["27", "30", "36", "48"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Each term is multiplied by 2. Therefore, the next term is 24 × 2 = 48."
-      ),
+          explanation:
+              "Each term is multiplied by 2. Therefore, the next term is 24 × 2 = 48."),
       QuizQuestion(
           question:
               "3. State the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 3, 5, 7, 9, …          (BECE 1991 Q25)",
           options: ["x → 2x - 1", "x → 2x - 1", "x → 2x + 1", "x → 20(x - 1)"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "For each input x, the output is obtained using y = 2x + 1. For example, when x = 1, y = 2(1) + 1 = 3."
-      ),
+          explanation:
+              "For each input x, the output is obtained using y = 2x + 1. For example, when x = 1, y = 2(1) + 1 = 3."),
       QuizQuestion(
           question:
               "4. Find the missing numbers in the set {5, 10, 15, 25, …, …, 40}.          (BECE 2001 Q33)",
           options: ["20 and 30", "30 and 35", "20, 35 and 40", "20, 30 and 35"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The numbers are multiples of 5 from 5 to 40. The missing numbers are 20, 30 and 35."
-      ),
+          explanation:
+              "The numbers are multiples of 5 from 5 to 40. The missing numbers are 20, 30 and 35."),
       QuizQuestion(
           question:
               "5. State the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 1, 4, 9, 16, …          (BECE 2004 Q17)",
           options: ["x → x + 1", "x → x²", "x → 2x + 1", "x → (x + 1)²"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Each output is the square of one more than the input: y = (x + 1)². For example, when x = 2, y = 3² = 9."
-      ),
+          explanation:
+              "Each output is the square of one more than the input: y = (x + 1)². For example, when x = 2, y = 3² = 9."),
       QuizQuestion(
           question:
               "6. A mapping is defined by n → 2n - 3. What is the image of -2 under the mapping?          (BECE 2001 Q24)",
           options: ["-1", "-5", "-7", "7"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Substitute n = -2 into 2n - 3: 2(-2) - 3 = -4 - 3 = -7."
-      ),
+          explanation:
+              "Substitute n = -2 into 2n - 3: 2(-2) - 3 = -4 - 3 = -7."),
       QuizQuestion(
           question:
               "7. What is the rule for the mapping: x: 1, 2, 3, 4 and y: 2, 4, 8, 16?          (BECE 1994 Q36)",
           options: ["y → 2x", "y → x²", "y → 2ˣ", "y → x + 2"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The outputs are powers of 2: 2¹ = 2, 2² = 4, 2³ = 8 and 2⁴ = 16. Therefore, y = 2ˣ."
-      ),
+          explanation:
+              "The outputs are powers of 2: 2¹ = 2, 2² = 4, 2³ = 8 and 2⁴ = 16. Therefore, y = 2ˣ."),
       QuizQuestion(
           question:
               r"8. What is the image of -4 under the mapping x → \frac{1}{2}x - 2?          (BECE 1995 Q10)",
           options: ["-2", "-4", "-6", "-8"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Substitute x = -4: ½(-4) - 2 = -2 - 2 = -4."
-      ),
+          explanation: "Substitute x = -4: ½(-4) - 2 = -2 - 2 = -4."),
       QuizQuestion(
           question:
               "9. Find the missing number in the sequence: 11, 17, 23, 29, …, 41, 47, 53.          (BECE 2012 Q13)",
           options: ["32", "35", "37", "38"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The sequence increases by 6 each time. Therefore, the missing number is 29 + 6 = 35."
-      ),
+          explanation:
+              "The sequence increases by 6 each time. Therefore, the missing number is 29 + 6 = 35."),
       QuizQuestion(
           question:
               "10. Find the rule for the mapping: x: 1, 2, 3, 4, 5 and y: 5, 9, 13, 17, 21.          (BECE 2020 Q26)",
@@ -1241,7 +1240,8 @@ final Map<String, QuizModel> beceQuizData = {
           explanation:
               "Each output is obtained using y = 4x + 1. For example, when x = 3, y = 4(3) + 1 = 13."),
       QuizQuestion(
-          question: r"11. If (x, y) → (x, 2y), find the image of (2\frac{1}{2}, -\frac{1}{2}) under the same mapping.          (BECE 1995 Q24)",
+          question:
+              r"11. If (x, y) → (x, 2y), find the image of (2\frac{1}{2}, -\frac{1}{2}) under the same mapping.          (BECE 1995 Q24)",
           options: [
             r"(2\frac{1}{2}, -2)",
             r"(2\frac{1}{2}, -1)",
@@ -1250,154 +1250,110 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The x-coordinate remains unchanged, while the y-coordinate is multiplied by 2. Thus, (2½, -½) → (2½, -1)."
-      ),
+          explanation:
+              "The x-coordinate remains unchanged, while the y-coordinate is multiplied by 2. Thus, (2½, -½) → (2½, -1)."),
       QuizQuestion(
-          question: "12. Find the value of x, if 1 → 1 → 3.14, 2 → 2 → 6.28, 3 → 4 → 12.56 and y → 10 → 50.24.          (BECE 1990 Q33)",
-          options: [
-            "9.42",
-            "12",
-            "18",
-            "25.12"
-          ],
+          question:
+              "12. Find the value of x, if 1 → 1 → 3.14, 2 → 2 → 6.28, 3 → 4 → 12.56 and y → 10 → 50.24.          (BECE 1990 Q33)",
+          options: ["9.42", "12", "18", "25.12"],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "The final mapping multiplies the middle value by 3.14. Therefore, 10 × 3.14 = 31.4, but the given result 50.24 corresponds to 16 × 3.14. The source appears inconsistent; among the options, 25.12 is the likely intended answer."
-      ),
+          explanation:
+              "The final mapping multiplies the middle value by 3.14. Therefore, 10 × 3.14 = 31.4, but the given result 50.24 corresponds to 16 × 3.14. The source appears inconsistent; among the options, 25.12 is the likely intended answer."),
       QuizQuestion(
-          question: "13. Find the next term in the sequence: 2, 5, 9, 14, 20, …          (BECE 2002 Q6)",
-          options: [
-            "25",
-            "26",
-            "27",
-            "35"
-          ],
+          question:
+              "13. Find the next term in the sequence: 2, 5, 9, 14, 20, …          (BECE 2002 Q6)",
+          options: ["25", "26", "27", "35"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The differences are 3, 4, 5 and 6. The next difference is 7, so the next term is 20 + 7 = 27."
-      ),
+          explanation:
+              "The differences are 3, 4, 5 and 6. The next difference is 7, so the next term is 20 + 7 = 27."),
       QuizQuestion(
-          question: "14. State the rule for the following mapping: x: 1, 2, 3, 4, 5 and y: 3, 1, -1, -3, -5.          (BECE 2019 Q13)",
-          options: [
-            "y = 2x + 2",
-            "y = -2x + 2",
-            "y = 4x",
-            "y = -2x + 5"
-          ],
+          question:
+              "14. State the rule for the following mapping: x: 1, 2, 3, 4, 5 and y: 3, 1, -1, -3, -5.          (BECE 2019 Q13)",
+          options: ["y = 2x + 2", "y = -2x + 2", "y = 4x", "y = -2x + 5"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The outputs decrease by 2. Using x = 1 gives y = -2(1) + 5 = 3, so the rule is y = -2x + 5."
-      ),
+          explanation:
+              "The outputs decrease by 2. Using x = 1 gives y = -2(1) + 5 = 3, so the rule is y = -2x + 5."),
       QuizQuestion(
-          question: "15. State the rule of the following mapping: x: 1, 2, 3, 4, … and y: 1, 4, 9, 16, …          (BECE 2001 Q3)",
-          options: [
-            "x → x",
-            "x → 2x",
-            "x → x²",
-            "x → x + 2"
-          ],
+          question:
+              "15. State the rule of the following mapping: x: 1, 2, 3, 4, … and y: 1, 4, 9, 16, …          (BECE 2001 Q3)",
+          options: ["x → x", "x → 2x", "x → x²", "x → x + 2"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Each output is the square of the input: 1² = 1, 2² = 4, 3² = 9 and 4² = 16."
-      ),
+          explanation:
+              "Each output is the square of the input: 1² = 1, 2² = 4, 3² = 9 and 4² = 16."),
       QuizQuestion(
-          question: r"16. What is the fifth term in the sequence \frac{1}{3}, \frac{2}{5}, \frac{7}{15}, …?          (BECE 2002B Q5)",
+          question:
+              r"16. What is the fifth term in the sequence \frac{1}{3}, \frac{2}{5}, \frac{7}{15}, …?          (BECE 2002B Q5)",
           options: [
-           r"\frac{4}{9}",
-           r"\frac{5}{11}",
+            r"\frac{4}{9}",
+            r"\frac{5}{11}",
             r"\frac{6}{13}",
             r"\frac{3}{5}"
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "The intended pattern gives fractions with numerators increasing by 1 and denominators increasing by 2, leading to the fifth term 5/11. The source sequence appears to contain a transcription inconsistency at the third term."
-      ),
+          explanation:
+              "The intended pattern gives fractions with numerators increasing by 1 and denominators increasing by 2, leading to the fifth term 5/11. The source sequence appears to contain a transcription inconsistency at the third term."),
       QuizQuestion(
-          question: "17. Use the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m. What is the rule for the mapping?          (BECE 2003 Q27)",
-          options: [
-            "x → 2x - 3",
-            "x → x - 5",
-            "x → 2(x - 2)",
-            "x → 2x - 3"
-          ],
+          question:
+              "17. Use the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m. What is the rule for the mapping?          (BECE 2003 Q27)",
+          options: ["x → 2x - 3", "x → x - 5", "x → 2(x - 2)", "x → 2x - 3"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "For x = 1, 2(1 - 2) = -2, not -4, so the listed options appear inconsistent. The actual rule from the table is y = 2x - 6."
-      ),
+          explanation:
+              "For x = 1, 2(1 - 2) = -2, not -4, so the listed options appear inconsistent. The actual rule from the table is y = 2x - 6."),
       QuizQuestion(
-          question: "18. Find the value of m in the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m.          (BECE 2003 Q28)",
-          options: [
-            "4",
-            "4",
-            "6",
-            "8"
-          ],
+          question:
+              "18. Find the value of m in the mapping x: 1, 2, 3, 4, 5 and y: -4, -2, 0, 2, m.          (BECE 2003 Q28)",
+          options: ["4", "4", "6", "8"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The outputs increase by 2 each time: -4, -2, 0, 2, 4. Therefore, m = 4."
-      ),
+          explanation:
+              "The outputs increase by 2 each time: -4, -2, 0, 2, 4. Therefore, m = 4."),
       QuizQuestion(
-          question: "19. What is the image of 2 in the mapping y → 2x + 5?          (BECE 2004 Q12)",
-          options: [
-            "7",
-            "9",
-            "12",
-            "20"
-          ],
+          question:
+              "19. What is the image of 2 in the mapping y → 2x + 5?          (BECE 2004 Q12)",
+          options: ["7", "9", "12", "20"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Substitute x = 2 into 2x + 5: 2(2) + 5 = 9."
-      ),
+          explanation: "Substitute x = 2 into 2x + 5: 2(2) + 5 = 9."),
       QuizQuestion(
-          question: "20. Find the next term in the sequence 1, 3, 7, 15, 31, …          (BECE 2005 Q11)",
-          options: [
-            "35",
-            "39",
-            "47",
-            "63"
-          ],
+          question:
+              "20. Find the next term in the sequence 1, 3, 7, 15, 31, …          (BECE 2005 Q11)",
+          options: ["35", "39", "47", "63"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Each term is obtained by multiplying the previous term by 2 and adding 1. Therefore, 31 × 2 + 1 = 63."
-      ),
+          explanation:
+              "Each term is obtained by multiplying the previous term by 2 and adding 1. Therefore, 31 × 2 + 1 = 63."),
       QuizQuestion(
-          question: "21. What is the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 5, 9, 13, 17, 21?          (BECE 2005 Q19)",
-          options: [
-            "y = x + 5",
-            "y = 4x + 5",
-            "y = 5x + 4",
-            "y = 6x + 1"
-          ],
+          question:
+              "21. What is the rule for the following mapping: x: 0, 1, 2, 3, 4 and y: 5, 9, 13, 17, 21?          (BECE 2005 Q19)",
+          options: ["y = x + 5", "y = 4x + 5", "y = 5x + 4", "y = 6x + 1"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The outputs increase by 4 for every increase of 1 in x. Since y = 5 when x = 0, the rule is y = 4x + 5."
-      ),
+          explanation:
+              "The outputs increase by 4 for every increase of 1 in x. Since y = 5 when x = 0, the rule is y = 4x + 5."),
       QuizQuestion(
-          question: "22. Find the rule for the mapping: 1, 2, 3, 4, 5, …, n → 10, 21, 32, 43, 54, …          (BECE 2006 Q35)",
-          options: [
-            "n → 10n",
-            "n → 10n + 1",
-            "n → 11n - 1",
-            "n → 7n + 3"
-          ],
+          question:
+              "22. Find the rule for the mapping: 1, 2, 3, 4, 5, …, n → 10, 21, 32, 43, 54, …          (BECE 2006 Q35)",
+          options: ["n → 10n", "n → 10n + 1", "n → 11n - 1", "n → 7n + 3"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Substituting n = 1 into 11n - 1 gives 10, and n = 2 gives 21. Therefore, the rule is n → 11n - 1."
-      ),
+          explanation:
+              "Substituting n = 1 into 11n - 1 gives 10, and n = 2 gives 21. Therefore, the rule is n → 11n - 1."),
       QuizQuestion(
-          question: "23. Find the image of -3 under the mapping x → 2(x + 3).          (BECE 2008 Q13)",
-          options: [
-            "0",
-            "2",
-            "6",
-            "12"
-          ],
+          question:
+              "23. Find the image of -3 under the mapping x → 2(x + 3).          (BECE 2008 Q13)",
+          options: ["0", "2", "6", "12"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Substitute x = -3: 2(-3 + 3) = 2(0) = 0."
-      ),
+          explanation: "Substitute x = -3: 2(-3 + 3) = 2(0) = 0."),
       QuizQuestion(
-          question: r"24. State the rule for the mapping: x: 0, 1, 2, 3, 4 and y: 0, \frac{1}{4}, \frac{1}{2}, \frac{3}{4}, 1.          (BECE 2009 Q15)",
+          question:
+              r"24. State the rule for the mapping: x: 0, 1, 2, 3, 4 and y: 0, \frac{1}{4}, \frac{1}{2}, \frac{3}{4}, 1.          (BECE 2009 Q15)",
           options: [
             r"x → \frac{x}{4}",
             r"x → \frac{x}{2}",
@@ -1406,22 +1362,19 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Each output is obtained by dividing the input by 4. For example, when x = 3, y = 3/4."
-      ),
+          explanation:
+              "Each output is obtained by dividing the input by 4. For example, when x = 3, y = 3/4."),
       QuizQuestion(
-          question: "25. Find the rule of the mapping: 1, 2, 3, 4, 5, …, x → 7, 11, 15, 19, 23, …, y.          (BECE 2010 Q5)",
-          options: [
-            "x → 4x - 3",
-            "x → 3 - 4x",
-            "x → 4x + 3",
-            "x → 4x + 5"
-          ],
+          question:
+              "25. Find the rule of the mapping: 1, 2, 3, 4, 5, …, x → 7, 11, 15, 19, 23, …, y.          (BECE 2010 Q5)",
+          options: ["x → 4x - 3", "x → 3 - 4x", "x → 4x + 3", "x → 4x + 5"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The outputs increase by 4. Since 4(1) + 3 = 7, the rule is y = 4x + 3."
-      ),
+          explanation:
+              "The outputs increase by 4. Since 4(1) + 3 = 7, the rule is y = 4x + 3."),
       QuizQuestion(
-          question: "26. State the rule for the mapping: x: 1, 2, 3, 4 and y: 15, 30, 45, 60.          (BECE 2011 Q14)",
+          question:
+              "26. State the rule for the mapping: x: 1, 2, 3, 4 and y: 15, 30, 45, 60.          (BECE 2011 Q14)",
           options: [
             "x → 15x",
             "x → 15 + x",
@@ -1430,64 +1383,43 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Each output is 15 times the input. Therefore, the rule is x → 15x."
-      ),
+          explanation:
+              "Each output is 15 times the input. Therefore, the rule is x → 15x."),
       QuizQuestion(
-          question: "27. Find the image of 3 under the mapping x → 10 - 2x.          (BECE 2012 Q12)",
-          options: [
-            "4",
-            "5",
-            "8",
-            "16"
-          ],
+          question:
+              "27. Find the image of 3 under the mapping x → 10 - 2x.          (BECE 2012 Q12)",
+          options: ["4", "5", "8", "16"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Substitute x = 3: 10 - 2(3) = 10 - 6 = 4."
-      ),
+          explanation: "Substitute x = 3: 10 - 2(3) = 10 - 6 = 4."),
       QuizQuestion(
-          question: "28. Find the rule of the mapping: 1, 2, 3, 4, 5, x → 5, 8, 11, 14, 17, y.          (BECE 2013 Q10)",
-          options: [
-            "x + 2",
-            "x + 4",
-            "2x + 3",
-            "3x + 2"
-          ],
+          question:
+              "28. Find the rule of the mapping: 1, 2, 3, 4, 5, x → 5, 8, 11, 14, 17, y.          (BECE 2013 Q10)",
+          options: ["x + 2", "x + 4", "2x + 3", "3x + 2"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The outputs increase by 3. Since 3(1) + 2 = 5, the rule is y = 3x + 2."
-      ),
+          explanation:
+              "The outputs increase by 3. Since 3(1) + 2 = 5, the rule is y = 3x + 2."),
       QuizQuestion(
-          question: "29. Find the value of x when y = 37 in the mapping y = 5x + 2.          (BECE 2021 Q16)",
-          options: [
-            "6",
-            "7",
-            "8",
-            "9"
-          ],
+          question:
+              "29. Find the value of x when y = 37 in the mapping y = 5x + 2.          (BECE 2021 Q16)",
+          options: ["6", "7", "8", "9"],
           correctIndex: 1,
           difficulty: "Easy",
           explanation:
               "Substitute y = 37: 37 = 5x + 2. Therefore, 5x = 35 and x = 7."),
       QuizQuestion(
-          question: "30. What is the missing number in the sequence: -5, -2, 1, …, 7?          (BECE 2025 Q39)",
-          options: [
-            "2",
-            "3",
-            "4",
-            "5"
-          ],
+          question:
+              "30. What is the missing number in the sequence: -5, -2, 1, …, 7?          (BECE 2025 Q39)",
+          options: ["2", "3", "4", "5"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The sequence increases by 3 each time: -5, -2, 1, 4, 7. Therefore, the missing number is 4."
-      ),
+          explanation:
+              "The sequence increases by 3 each time: -5, -2, 1, 4, 7. Therefore, the missing number is 4."),
       QuizQuestion(
-          question: "31. Find the rule for the mapping: 1, 2, 3, 4, …, t → 9, 20, 31, 42, …          (BECE 2025 Q20)",
-          options: [
-            "t → 10t - 1",
-            "t → 8t + 1",
-            "t → 11t - 2",
-            "t → 7t + 2"
-          ],
+          question:
+              "31. Find the rule for the mapping: 1, 2, 3, 4, …, t → 9, 20, 31, 42, …          (BECE 2025 Q20)",
+          options: ["t → 10t - 1", "t → 8t + 1", "t → 11t - 2", "t → 7t + 2"],
           correctIndex: 2,
           difficulty: "Easy",
           explanation:
@@ -1499,110 +1431,67 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
           question: "1. Simplify: 35x^5y^3 ÷ 7xy^2          (BECE 2014 Q9)",
-          options: [
-            "5x^4y",
-            "5x^4y^5",
-            "5x^6y",
-            "5x^6y^5"
-          ],
+          options: ["5x^4y", "5x^4y^5", "5x^6y", "5x^6y^5"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "35 ÷ 7 = 5. Subtract the powers of like bases: x^(5−1) = x^4 and y^(3−2) = y. Therefore, the answer is 5x^4y."
-      ),
-
+          explanation:
+              "35 ÷ 7 = 5. Subtract the powers of like bases: x^(5−1) = x^4 and y^(3−2) = y. Therefore, the answer is 5x^4y."),
       QuizQuestion(
-          question: "2. If x = 2, find the value of q in the equation 3x - 4 = x + q.          (BECE 1992 Q17)",
-          options: [
-            "-7",
-            "13",
-            "12",
-            "25"
-          ],
+          question:
+              "2. If x = 2, find the value of q in the equation 3x - 4 = x + q.          (BECE 1992 Q17)",
+          options: ["-7", "13", "12", "25"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Substitute x = 2: 3(2) - 4 = 2. Hence 2 = 2 + q, so q = 0. The official key gives option A."
-      ),
-
+          explanation:
+              "Substitute x = 2: 3(2) - 4 = 2. Hence 2 = 2 + q, so q = 0. The official key gives option A."),
       QuizQuestion(
           question: "3. Simplify: 6a^2 × 4a^2b^2          (BECE 2002B Q22)",
-          options: [
-            "10a^4b^2",
-            "24a^2b^2",
-            "24a^4b^2",
-            "24a^2b^4"
-          ],
+          options: ["10a^4b^2", "24a^2b^2", "24a^4b^2", "24a^2b^4"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Multiply the coefficients: 6 × 4 = 24. Add the powers of a: a^(2+2) = a^4. Therefore, the result is 24a^4b^2."
-      ),
-
+          explanation:
+              "Multiply the coefficients: 6 × 4 = 24. Add the powers of a: a^(2+2) = a^4. Therefore, the result is 24a^4b^2."),
       QuizQuestion(
-          question: "4. If a * b = 2a - b, find 3 * 2.          (BECE 2002A Q20)",
-          options: [
-            "1",
-            "4",
-            "5",
-            "6"
-          ],
+          question:
+              "4. If a * b = 2a - b, find 3 * 2.          (BECE 2002A Q20)",
+          options: ["1", "4", "5", "6"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Using the rule, 3 * 2 = 2(3) - 2 = 6 - 2 = 4."
-      ),
-
+          explanation: "Using the rule, 3 * 2 = 2(3) - 2 = 6 - 2 = 4."),
       QuizQuestion(
-          question: "5. In the relation v = u + at, find v when u = 6, a = 10 and t = 2.          (BECE 1991 Q14)",
-          options: [
-            "18",
-            "26",
-            "32",
-            "48"
-          ],
+          question:
+              "5. In the relation v = u + at, find v when u = 6, a = 10 and t = 2.          (BECE 1991 Q14)",
+          options: ["18", "26", "32", "48"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "v = u + at = 6 + (10 × 2) = 26."
-      ),
-
+          explanation: "v = u + at = 6 + (10 × 2) = 26."),
       QuizQuestion(
-          question: r"6. If q = ut + \frac{1}{2]ft, find q when u = 20, t = 10 and f = 15.          (BECE 1990 Q21)",
-          options: [
-            "350",
-            "275",
-            "237.5",
-            "55"
-          ],
+          question:
+              r"6. If q = ut + \frac{1}{2]ft, find q when u = 20, t = 10 and f = 15.          (BECE 1990 Q21)",
+          options: ["350", "275", "237.5", "55"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Using the given formula: q = ut + 1/2ft = (20 × 10) + (1/2 × 15 × 10) = 200 + 75 = 275."
-      ),
-
+          explanation:
+              "Using the given formula: q = ut + 1/2ft = (20 × 10) + (1/2 × 15 × 10) = 200 + 75 = 275."),
       QuizQuestion(
-          question: "7. Find the value of p^2 - 6p + 9 when p = -2.          (BECE 1992 Q14)",
-          options: [
-            "-7",
-            "13",
-            "12",
-            "25"
-          ],
+          question:
+              "7. Find the value of p^2 - 6p + 9 when p = -2.          (BECE 1992 Q14)",
+          options: ["-7", "13", "12", "25"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Substitute p = -2: (-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25."
-      ),
-
+          explanation:
+              "Substitute p = -2: (-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25."),
       QuizQuestion(
-          question: "8. The sum of two numbers is 240. If one of them is y, find the other number.          (BECE 1997 Q22)",
-          options: [
-            "120y",
-            "240 + y",
-            "240 - y",
-            "240y"
-          ],
+          question:
+              "8. The sum of two numbers is 240. If one of them is y, find the other number.          (BECE 1997 Q22)",
+          options: ["120y", "240 + y", "240 - y", "240y"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The other number is obtained by subtracting y from the total: 240 - y."
-      ),
-
+          explanation:
+              "The other number is obtained by subtracting y from the total: 240 - y."),
       QuizQuestion(
-          question: "9. Ama is N years old now. How old will she be in 10 years?          (BECE 2000 Q40)",
+          question:
+              "9. Ama is N years old now. How old will she be in 10 years?          (BECE 2000 Q40)",
           options: [
             "(N - 10) years",
             "(N + 10) years",
@@ -1611,807 +1500,710 @@ final Map<String, QuizModel> beceQuizData = {
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "After 10 years, Ama's age will increase by 10 years, giving N + 10 years."
-      ),
-
+          explanation:
+              "After 10 years, Ama's age will increase by 10 years, giving N + 10 years."),
       QuizQuestion(
           question: "10. Simplify: 2ab^2 × 3a^2b          (BECE 1991 Q13)",
-          options: [
-            "5a^3b^3",
-            "5a^2b^2",
-            "6a^3b^3",
-            "6a^2b^2"
-          ],
+          options: ["5a^3b^3", "5a^2b^2", "6a^3b^3", "6a^2b^2"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Multiply the coefficients: 2 × 3 = 6. Add the powers of like bases to get a^3b^3."
-      ),
-
+          explanation:
+              "Multiply the coefficients: 2 × 3 = 6. Add the powers of like bases to get a^3b^3."),
       QuizQuestion(
-          question: "11. If a * b = 2a - b, evaluate 4 * 3.          (BECE 2000 Q17)",
-          options: [
-            "1",
-            "2",
-            "4",
-            "5"
-          ],
+          question:
+              "11. If a * b = 2a - b, evaluate 4 * 3.          (BECE 2000 Q17)",
+          options: ["1", "2", "4", "5"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "4 * 3 = 2(4) - 3 = 8 - 3 = 5."
-      ),
-
+          explanation: "4 * 3 = 2(4) - 3 = 8 - 3 = 5."),
       QuizQuestion(
-          question: "12. Find the difference between the values of (2d)^2 and 2d^2, when d = 3.          (BECE 1995 Q30)",
-          options: [
-            "16",
-            "18",
-            "24",
-            "28"
-          ],
+          question:
+              "12. Find the difference between the values of (2d)^2 and 2d^2, when d = 3.          (BECE 1995 Q30)",
+          options: ["16", "18", "24", "28"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "(2d)^2 = (6)^2 = 36 and 2d^2 = 2(9) = 18. Their difference is 18."
-      ),
-
+          explanation:
+              "(2d)^2 = (6)^2 = 36 and 2d^2 = 2(9) = 18. Their difference is 18."),
       QuizQuestion(
-          question: "13. Simplify: 4p + 6p^2 - 2p + 2p^2          (BECE 2001 Q25)",
-          options: [
-            "2p + 8p^2",
-            "6p + 8p^2",
-            "2p - 8p^2",
-            "6p - 8p^2"
-          ],
+          question:
+              "13. Simplify: 4p + 6p^2 - 2p + 2p^2          (BECE 2001 Q25)",
+          options: ["2p + 8p^2", "6p + 8p^2", "2p - 8p^2", "6p - 8p^2"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Combine like terms: 4p - 2p = 2p and 6p^2 + 2p^2 = 8p^2."
-      ),
-
+          explanation:
+              "Combine like terms: 4p - 2p = 2p and 6p^2 + 2p^2 = 8p^2."),
       QuizQuestion(
-          question: "14. Three baskets contain 95 oranges, x oranges, and 2x oranges. How many oranges are in the three baskets?          (BECE 2002B Q21)",
-          options: [
-            "96x",
-            "95 + 3x",
-            "95 + 2x^2",
-            "98x"
-          ],
+          question:
+              "14. Three baskets contain 95 oranges, x oranges, and 2x oranges. How many oranges are in the three baskets?          (BECE 2002B Q21)",
+          options: ["96x", "95 + 3x", "95 + 2x^2", "98x"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Total oranges = 95 + x + 2x = 95 + 3x."
-      ),
-
+          explanation: "Total oranges = 95 + x + 2x = 95 + 3x."),
       QuizQuestion(
           question: "15. Simplify: (2ab^2)(3a^-3b)          (BECE 1997 Q21)",
-          options: [
-            "5a^3b^3",
-            "6a^-2b^3",
-            "5a^2b^3",
-            "6a^2b^3"
-          ],
+          options: ["5a^3b^3", "6a^-2b^3", "5a^2b^3", "6a^2b^3"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Multiply coefficients: 2 × 3 = 6. Add exponents of a: 1 + (-3) = -2 and of b: 2 + 1 = 3."
-      ),
-
+          explanation:
+              "Multiply coefficients: 2 × 3 = 6. Add exponents of a: 1 + (-3) = -2 and of b: 2 + 1 = 3."),
       QuizQuestion(
-          question: r"16. If y = k + ax^2, find y when k = \frac{14}{5}, a = \frac{4}{5} and x = 2.          (BECE 2000 Q26)",
-          options: [
-            "1",
-            "2",
-            "4",
-            "6"
-          ],
+          question:
+              r"16. If y = k + ax^2, find y when k = \frac{14}{5}, a = \frac{4}{5} and x = 2.          (BECE 2000 Q26)",
+          options: ["1", "2", "4", "6"],
           correctIndex: 5,
           difficulty: "Easy",
-          explanation: "y = 14/5 + (4/5 × 4) = 14/5 + 16/5 = 30/5 = 6."
-      ),
+          explanation: "y = 14/5 + (4/5 × 4) = 14/5 + 16/5 = 30/5 = 6."),
     ],
   ),
   "Math JHS1 s2 ss3 - Variables and Equations": QuizModel(
     audioPath: '',
     questions: [
-  QuizQuestion(
-    question:
-    "1. When a certain number is subtracted from 10 and the result is multiplied by 2, the final result is 4. Find the number.          (BECE 1991 Q37)",
-    options: [
-      "8",
-      "12",
-      "16",
-      "24",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    "Let the number be x. Then 2(10 - x) = 4. Dividing by 2 gives 10 - x = 2, so x = 8.",
-  ),
-
-  QuizQuestion(
-    question:
-    "2. Solve for x if 2x + 5 = 3x - 7.          (BECE 1994 Q26)",
-    options: [
-      "12",
-      r"\frac{22}{5}",
-      r"-\frac{2}{5}",
-      r"-\frac{22}{5}",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    "2x + 5 = 3x - 7. Subtract 2x from both sides to get 5 = x - 7. Therefore, x = 12.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"3. If \frac{3}{15} is equivalent to \frac{45}{a}, find a.          (BECE 1990 Q22)",
-    options: [
-      "225",
-      "150",
-      "252",
-      "126",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    r"Cross-multiply: 3a = 15 \times 45 = 675. Therefore, a = \frac{675}{3} = 225.",
-  ),
-
-  QuizQuestion(
-    question:
-    "4. Five times a number is four more than the number. Find the number.          (BECE 1993 Q26)",
-    options: [
-      r"\frac{3}{2}",
-      "1",
-      r"\frac{2}{3}",
-      r"\frac{1}{2}",
-    ],
-    correctIndex: 1,
-    difficulty: "Easy",
-    explanation:
-    "Let the number be x. Then 5x = x + 4. Thus, 4x = 4 and x = 1.",
-  ),
-
-  QuizQuestion(
-    question:
-    "5. Mark is 30 years old. Yaw is half as old as Mark. Paul is 10 years older than Yaw. How old is Paul?          (BECE 1994 Q3)",
-    options: [
-      "30 years",
-      "25 years",
-      "20 years",
-      "15 years",
-    ],
-    correctIndex: 1,
-    difficulty: "Easy",
-    explanation:
-    "Yaw is half of 30, so Yaw is 15 years old. Paul is 10 years older, so Paul is 15 + 10 = 25 years old.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"6. If \frac{1}{3} of a number is added to \frac{1}{5} of the same number, the result is 8. Find the number.          (BECE 1992 Q34)",
-    options: [
-      "3",
-      "5",
-      "15",
-      "30",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    r"Let the number be x. Then \frac{x}{3} + \frac{x}{5} = 8. This gives \frac{8x}{15} = 8, so x = 15.",
-  ),
-
-  QuizQuestion(
-    question:
-    "7. Solve for h in the equation 15 - 2h = 6.          (BECE 1998 Q21)",
-    options: [
-      "-10.5",
-      "-9.0",
-      "-4.5",
-      "4.5",
-    ],
-    correctIndex: 3,
-    difficulty: "Easy",
-    explanation:
-    "15 - 2h = 6. Subtract 15 from both sides to get -2h = -9. Therefore, h = 4.5.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"8. Find x, if \frac{1}{x} + \frac{1}{3} = 1.          (BECE 1993 Q31)",
-    options: [
-      r"\frac{2}{3}",
-      r"-\frac{2}{3}",
-      r"\frac{3}{2}",
-      r"\frac{3}{4}",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    r"\frac{1}{x} = 1 - \frac{1}{3} = \frac{2}{3}. Taking reciprocals gives x = \frac{3}{2}.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"9. If \frac{1}{x} = 1\frac{1}{2}, find x.          (BECE 1994 Q11)",
-    options: [
-      "3",
-      r"\frac{1}{2}",
-      r"\frac{4}{3}",
-      r"\frac{2}{3}",
-    ],
-    correctIndex: 3,
-    difficulty: "Medium",
-    explanation:
-    r"Convert 1\frac{1}{2} to \frac{3}{2}. Thus, \frac{1}{x} = \frac{3}{2}, so x = \frac{2}{3}.",
-  ),
-
-  QuizQuestion(
-    question:
-    "10. Solve the equation 13x - 2(3x + 4) = 22.          (BECE 2000 Q3)",
-    options: [
-      "5",
-      "4",
-      r"\frac{30}{7}",
-      r"\frac{26}{7}",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    r"Expand to get 13x - 6x - 8 = 22. Thus, 7x = 30 and x = \frac{30}{7}.",
-  ),
-
-  QuizQuestion(
-    question:
-    "11. If 4(m + 4) = 18, find the value of m.          (BECE 1999 Q29)",
-    options: [
-      r"\frac{1}{2}",
-      r"\frac{3}{2}",
-      r"\frac{5}{2}",
-      r"\frac{3}{25}",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    r"Divide both sides by 4: m + 4 = \frac{18}{4} = \frac{9}{2}. Therefore, m = \frac{9}{2} - 4 = \frac{1}{2}.",
-  ),
-
-  QuizQuestion(
-    question:
-    "12. If 13x - 12 = 5x + 60, find x.          (BECE 1995 Q33)",
-    options: [
-      "-9",
-      "-6",
-      "9",
-      "6",
-    ],
-    correctIndex: 2,
-    difficulty: "Easy",
-    explanation:
-    "13x - 5x = 60 + 12. Thus, 8x = 72 and x = 9.",
-  ),
-
-  QuizQuestion(
-    question:
-    "13. The product of 2x and 3 is 138. Find x.          (BECE 1996 Q33)",
-    options: [
-      "23",
-      "33",
-      "68",
-      "69",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    "The product of 2x and 3 is 6x. Therefore, 6x = 138 and x = 23.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"14. Solve for y in the equation: \frac{1}{3}y + \frac{1}{5}y = 8.          (BECE 2002A Q27)",
-    options: [
-      "15",
-      "30",
-      "45",
-      "60",
-    ],
-    correctIndex: 0,
-    difficulty: "Medium",
-    explanation:
-    r"\frac{y}{3} + \frac{y}{5} = \frac{8y}{15}. Thus, \frac{8y}{15} = 8 and y = 15.",
-  ),
-
-  QuizQuestion(
-    question:
-    "15. Kofi is 2 years older than Ama. If the sum of their ages is 16, find Ama's age.          (BECE 2002B Q25)",
-    options: [
-      "7 years",
-      "9 years",
-      "14 years",
-      "18 years",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    "Let Ama's age be x. Kofi's age is x + 2. Then x + x + 2 = 16, so 2x = 14 and x = 7.",
-  ),
-
-  QuizQuestion(
-    question:
-    "16. Solve the equation: 2x - 3(x - 1) = 6.          (BECE 2009 Q12)",
-    options: [
-      "3",
-      "-3",
-      "-7",
-      "-9",
-    ],
-    correctIndex: 1,
-    difficulty: "Medium",
-    explanation:
-    "Expand to get 2x - 3x + 3 = 6. Thus, -x = 3 and x = -3.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"17. Find the value of x in the equation \frac{x}{4} = 2.          (BECE 2002B Q39)",
-    options: [
-      "2",
-      "4",
-      "6",
-      "8",
-    ],
-    correctIndex: 3,
-    difficulty: "Easy",
-    explanation:
-    r"Multiply both sides of \frac{x}{4} = 2 by 4. Therefore, x = 8.",
-  ),
-
-  QuizQuestion(
-    question:
-    "18. Solve for x in the equation 15 - 2x = 6.          (BECE 2004 Q21)",
-    options: [
-      "-10.5",
-      "-4.5",
-      "4.5",
-      "10.5",
-    ],
-    correctIndex: 2,
-    difficulty: "Easy",
-    explanation:
-    "Subtract 15 from both sides: -2x = -9. Dividing by -2 gives x = 4.5.",
-  ),
-
-  QuizQuestion(
-    question:
-    "19. If 3t - 2(t + 12) = 11, find the value of t.          (BECE 2003 Q7)",
-    options: [
-      "-35",
-      "-13",
-      "13",
-      "35",
-    ],
-    correctIndex: 3,
-    difficulty: "Medium",
-    explanation:
-    "Expand to get 3t - 2t - 24 = 11. Thus, t - 24 = 11 and t = 35.",
-  ),
-
-  QuizQuestion(
-    question:
-    "20. If 6n + 4 = 16, find the value of n.          (BECE 2005 Q10)",
-    options: [
-      "2",
-      "3",
-      "5",
-      "6",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    "Subtract 4 from both sides to get 6n = 12. Therefore, n = 2.",
-  ),
-
-  QuizQuestion(
-    question:
-    "21. The difference between two numbers is 168. If the smaller number is 113, find the other number.          (BECE 2008 Q39)",
-    options: [
-      "223",
-      "271",
-      "281",
-      "291",
-    ],
-    correctIndex: 2,
-    difficulty: "Easy",
-    explanation:
-    "The larger number is 113 + 168 = 281.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"22. Solve the equation \frac{x + 2}{3} + 2x = 10.          (BECE 2006 Q18)",
-    options: [
-      "3",
-      "4",
-      "5",
-      "6",
-    ],
-    correctIndex: 1,
-    difficulty: "Medium",
-    explanation:
-    "Multiply through by 3: x + 2 + 6x = 30. Thus, 7x = 28 and x = 4.",
-  ),
-
-  QuizQuestion(
-    question:
-    "23. If 8x - 3(2x - 4) = 4, find the value of x.          (BECE 2007 Q15)",
-    options: [
-      "-8",
-      "-4",
-      "4",
-      "8",
-    ],
-    correctIndex: 1,
-    difficulty: "Medium",
-    explanation:
-    "Expand to get 8x - 6x + 12 = 4. Thus, 2x = -8 and x = -4.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"24. Solve \frac{4k}{9} = 12.          (BECE 2008 Q33)",
-    options: [
-      "23",
-      "25",
-      "27",
-      "29",
-    ],
-    correctIndex: 2,
-    difficulty: "Easy",
-    explanation:
-    r"Multiply both sides by 9: 4k = 108. Therefore, k = \frac{108}{4} = 27.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"25. If x + 5 = -7, find the value of \frac{x}{6}.          (BECE 2009 Q20)",
-    options: [
-      r"-\frac{55}{6}",
-      "-2",
-      r"-\frac{1}{3}",
-      "2",
-    ],
-    correctIndex: 1,
-    difficulty: "Easy",
-    explanation:
-    r"From x + 5 = -7, x = -12. Therefore, \frac{x}{6} = \frac{-12}{6} = -2.",
-  ),
-
-  QuizQuestion(
-    question:
-    "26. The sum of 5 and x divided by 4 is equal to 3.25. Find the value of x.          (BECE 2010 Q4)",
-    options: [
-      "8",
-      "7",
-      r"2\frac{1}{4}",
-      r"-3\frac{4}{13}",
-    ],
-    correctIndex: 0,
-    difficulty: "Medium",
-    explanation:
-    r"The statement means \frac{5 + x}{4} = 3.25. Therefore, 5 + x = 13 and x = 8.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"27. Find the value of x, if \frac{x}{4} + 1 = 5.          (BECE 2010 Q20)",
-    options: [
-      "24",
-      "20",
-      "19",
-      "16",
-    ],
-    correctIndex: 3,
-    difficulty: "Easy",
-    explanation:
-    r"Subtract 1 to get \frac{x}{4} = 4. Multiplying by 4 gives x = 16.",
-  ),
-
-  QuizQuestion(
-    question:
-    "28. If 2x = 5(x - 2) + 7, find the value of x.          (BECE 2012 Q14)",
-    options: [
-      r"-5\frac{2}{3}",
-      "-1",
-      "1",
-      r"5\frac{2}{3}",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    "Expand the right-hand side: 2x = 5x - 10 + 7 = 5x - 3. Thus, -3x = -3 and x = 1.",
-  ),
-
-  QuizQuestion(
-    question:
-    "29. If 1 - 2 = m, find m.          (BECE 2013 Q11)",
-    options: [
-      "3",
-      "-1",
-      "1",
-      "3",
-    ],
-    correctIndex: 1,
-    difficulty: "Easy",
-    explanation: "Since 1 - 2 = -1, m = -1.",
-  ),
-
-  QuizQuestion(
-    question:
-    "30. Solve 3 + 3y = 1 - 13y.          (BECE 2015 Q23)",
-    options: [
-      r"-\frac{1}{8}",
-      "-2",
-      "2",
-      "6",
-    ],
-    correctIndex: 0,
-    difficulty: "Medium",
-    explanation:
-    r"Collect like terms: 3y + 13y = 1 - 3. Thus, 16y = -2 and y = -\frac{1}{8}. The original options appear to contain an error, so the first option has been corrected.",
-  ),
-
-  QuizQuestion(
-    question:
-    "31. When a number is doubled and the result is decreased by 9, the answer is 19. Find the number.          (BECE 2016 Q22)",
-    options: [
-      "5",
-      "7",
-      "14",
-      "16",
-    ],
-    correctIndex: 2,
-    difficulty: "Easy",
-    explanation:
-    "Let the number be x. Then 2x - 9 = 19. Thus, 2x = 28 and x = 14.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"32. Given that \frac{1}{2p} = \frac{1}{8}, find the value of p.          (BECE 2017 Q3)",
-    options: [
-      "4",
-      "3",
-      "2",
-      "1",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    r"Since \frac{1}{2p} = \frac{1}{8}, the denominators are equal. Therefore, 2p = 8 and p = 4.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"33. Solve 2 + \frac{x}{3} = 1 - 2x.          (BECE 2017 Q8)",
-    options: [
-      r"-1\frac{2}{7}",
-      r"-\frac{3}{7}",
-      r"\frac{3}{7}",
-      r"1\frac{2}{7}",
-    ],
-    correctIndex: 1,
-    difficulty: "Medium",
-    explanation:
-    r"Move the x-terms to one side: \frac{x}{3} + 2x = -1. Thus, \frac{7x}{3} = -1 and x = -\frac{3}{7}.",
-  ),
-
-  QuizQuestion(
-    question:
-    "34. At a meeting attended by 23 people, the females were 7 more than the males. How many males were there?          (BECE 2017 Q14)",
-    options: [
-      "8",
-      "15",
-      "16",
-      "30",
-    ],
-    correctIndex: 0,
-    difficulty: "Medium",
-    explanation:
-    "Let the number of males be x. The number of females is x + 7. Then x + x + 7 = 23, so 2x = 16 and x = 8.",
-  ),
-
-  QuizQuestion(
-    question:
-    "35. If 4 - x = 3(4x + 5), find the value of x.          (BECE 2018 Q37)",
-    options: [
-      r"\frac{11}{13}",
-      r"1\frac{6}{13}",
-      r"-1\frac{6}{13}",
-      r"-\frac{11}{13}",
-    ],
-    correctIndex: 3,
-    difficulty: "Medium",
-    explanation:
-    r"Expand to get 4 - x = 12x + 15. Thus, -13x = 11 and x = -\frac{11}{13}.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"36. Solve the equation 10 - \frac{x + 3}{2} = 8.          (BECE 2019 Q7)",
-    options: [
-      "-9",
-      "-3",
-      "1",
-      "15",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    r"Subtract 8 from 10 to get \frac{x + 3}{2} = 2. Therefore, x + 3 = 4 and x = 1.",
-  ),
-
-  QuizQuestion(
-    question:
-    "37. When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.          (BECE 2019 Q25)",
-    options: [
-      "84",
-      "40",
-      "28",
-      "20",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    r"Let the number be x. Then \frac{3x - 12}{4} = 18. Thus, 3x - 12 = 72, 3x = 84 and x = 28.",
-  ),
-
-  QuizQuestion(
-    question:
-    "38. In a class of 23 students, the girls were 7 more than the boys. How many boys were there in the class?          (BECE 2019 Q34)",
-    options: [
-      "8",
-      "15",
-      "16",
-      "30",
-    ],
-    correctIndex: 0,
-    difficulty: "Medium",
-    explanation:
-    "Let the number of boys be x. Then the number of girls is x + 7. Therefore, x + x + 7 = 23, so x = 8.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"39. If \frac{w}{3} = 3(w - 1) - 1, find the value of w.          (BECE 2020 Q16)",
-    options: [
-      r"\frac{3}{2}",
-      r"\frac{5}{4}",
-      r"\frac{3}{5}",
-      r"\frac{1}{2}",
-    ],
-    correctIndex: 0,
-    difficulty: "Medium",
-    explanation:
-    r"Simplify the right-hand side: \frac{w}{3} = 3w - 4. Multiply by 3 to get w = 9w - 12. Thus, 8w = 12 and w = \frac{3}{2}.",
-  ),
-
-  QuizQuestion(
-    question:
-    "40. If 2x - 1 = 5, find the value of x.          (BECE 2021 Q34)",
-    options: [
-      "3",
-      "4",
-      "5",
-      "6",
-    ],
-    correctIndex: 0,
-    difficulty: "Easy",
-    explanation:
-    "Add 1 to both sides to get 2x = 6. Therefore, x = 3.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"41. If \frac{n}{100} = 10.5, find the value of n.          (BECE 2022 Q23)",
-    options: [
-      "0.0105",
-      "0.105",
-      "105",
-      "1050",
-    ],
-    correctIndex: 3,
-    difficulty: "Easy",
-    explanation:
-    r"Multiply both sides of \frac{n}{100} = 10.5 by 100. Therefore, n = 1050.",
-  ),
-
-  QuizQuestion(
-    question:
-    "42. A certain number is subtracted from 12 and the result is multiplied by 3. If the answer is 21, find the number.          (BECE 2022 Q37)",
-    options: [
-      "4",
-      "5",
-      "6",
-      "8",
-    ],
-    correctIndex: 1,
-    difficulty: "Easy",
-    explanation:
-    "Let the number be x. Then 3(12 - x) = 21. Thus, 12 - x = 7 and x = 5.",
-  ),
-
-  QuizQuestion(
-    question:
-    r"43. If 2n - 5 = \frac{1}{2}n, find the value of n.          (BECE 2023 Q15)",
-    options: [
-      r"\frac{1}{3}",
-      r"2\frac{1}{2}",
-      r"3\frac{1}{3}",
-      r"\frac{1}{2}",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    r"Subtract \frac{1}{2}n from 2n to get \frac{3}{2}n = 5. Thus, n = \frac{10}{3} = 3\frac{1}{3}.",
-  ),
-
-  QuizQuestion(
-    question:
-    "44. A story book contains 50 pages. If a student reads 10 pages per hour, find the relationship between the number of unread pages (N) and time (t).          (BECE 2024 Q29)",
-    options: [
-      "N = 10t + 50",
-      "N = 10t - 50",
-      "N = -10t + 50",
-      r"N = -\frac{1}{10}t + 50",
-    ],
-    correctIndex: 2,
-    difficulty: "Medium",
-    explanation:
-    "The student starts with 50 unread pages. The number decreases by 10 pages each hour, so N = 50 - 10t, which is the same as N = -10t + 50.",
-  ),
-
-  QuizQuestion(
-    question:
-    "45. Solve: 4x - 2(x + 5) = -10.          (BECE 2025 Q10)",
-    options: [
-      "x = -10",
-      "x = 0",
-      r"x = \frac{1}{2}",
-      "x = 2",
-    ],
-    correctIndex: 1,
-    difficulty: "Medium",
-    explanation:
-    "Expand to get 4x - 2x - 10 = -10. Thus, 2x = 0 and x = 0.",
-  ),
-
-  QuizQuestion(
-    question:
-    "46. Ama is three times as old as Kofi. The sum of their ages is 40. How old is Ama?          (BECE 2025 Q12)",
-    options: [
-      "10 years",
-      "30 years",
-      "37 years",
-      "43 years",
-    ],
-    correctIndex: 1,
-    difficulty: "Easy",
-    explanation:
-    "Let Kofi's age be x. Ama's age is 3x. Then x + 3x = 40, so x = 10. Therefore, Ama is 3 × 10 = 30 years old.",
-  ),
-
-  QuizQuestion(
-    question:
-    "47. Given that 0.03 × y = 2.4, find the value of y.          (BECE 2025 Q22)",
-    options: [
-      "0.08",
-      "0.8",
-      "8.0",
-      "80.0",
-    ],
-    correctIndex: 3,
-    difficulty: "Easy",
-    explanation:
-    "Divide both sides by 0.03: y = 2.4 ÷ 0.03 = 80.",
-  ),
+      QuizQuestion(
+        question:
+            "1. When a certain number is subtracted from 10 and the result is multiplied by 2, the final result is 4. Find the number.          (BECE 1991 Q37)",
+        options: [
+          "8",
+          "12",
+          "16",
+          "24",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Let the number be x. Then 2(10 - x) = 4. Dividing by 2 gives 10 - x = 2, so x = 8.",
+      ),
+      QuizQuestion(
+        question: "2. Solve for x if 2x + 5 = 3x - 7.          (BECE 1994 Q26)",
+        options: [
+          "12",
+          r"\frac{22}{5}",
+          r"-\frac{2}{5}",
+          r"-\frac{22}{5}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "2x + 5 = 3x - 7. Subtract 2x from both sides to get 5 = x - 7. Therefore, x = 12.",
+      ),
+      QuizQuestion(
+        question:
+            r"3. If \frac{3}{15} is equivalent to \frac{45}{a}, find a.          (BECE 1990 Q22)",
+        options: [
+          "225",
+          "150",
+          "252",
+          "126",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"Cross-multiply: 3a = 15 \times 45 = 675. Therefore, a = \frac{675}{3} = 225.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Five times a number is four more than the number. Find the number.          (BECE 1993 Q26)",
+        options: [
+          r"\frac{3}{2}",
+          "1",
+          r"\frac{2}{3}",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Let the number be x. Then 5x = x + 4. Thus, 4x = 4 and x = 1.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Mark is 30 years old. Yaw is half as old as Mark. Paul is 10 years older than Yaw. How old is Paul?          (BECE 1994 Q3)",
+        options: [
+          "30 years",
+          "25 years",
+          "20 years",
+          "15 years",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Yaw is half of 30, so Yaw is 15 years old. Paul is 10 years older, so Paul is 15 + 10 = 25 years old.",
+      ),
+      QuizQuestion(
+        question:
+            r"6. If \frac{1}{3} of a number is added to \frac{1}{5} of the same number, the result is 8. Find the number.          (BECE 1992 Q34)",
+        options: [
+          "3",
+          "5",
+          "15",
+          "30",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Let the number be x. Then \frac{x}{3} + \frac{x}{5} = 8. This gives \frac{8x}{15} = 8, so x = 15.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Solve for h in the equation 15 - 2h = 6.          (BECE 1998 Q21)",
+        options: [
+          "-10.5",
+          "-9.0",
+          "-4.5",
+          "4.5",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "15 - 2h = 6. Subtract 15 from both sides to get -2h = -9. Therefore, h = 4.5.",
+      ),
+      QuizQuestion(
+        question:
+            r"8. Find x, if \frac{1}{x} + \frac{1}{3} = 1.          (BECE 1993 Q31)",
+        options: [
+          r"\frac{2}{3}",
+          r"-\frac{2}{3}",
+          r"\frac{3}{2}",
+          r"\frac{3}{4}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{1}{x} = 1 - \frac{1}{3} = \frac{2}{3}. Taking reciprocals gives x = \frac{3}{2}.",
+      ),
+      QuizQuestion(
+        question:
+            r"9. If \frac{1}{x} = 1\frac{1}{2}, find x.          (BECE 1994 Q11)",
+        options: [
+          "3",
+          r"\frac{1}{2}",
+          r"\frac{4}{3}",
+          r"\frac{2}{3}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Convert 1\frac{1}{2} to \frac{3}{2}. Thus, \frac{1}{x} = \frac{3}{2}, so x = \frac{2}{3}.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Solve the equation 13x - 2(3x + 4) = 22.          (BECE 2000 Q3)",
+        options: [
+          "5",
+          "4",
+          r"\frac{30}{7}",
+          r"\frac{26}{7}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Expand to get 13x - 6x - 8 = 22. Thus, 7x = 30 and x = \frac{30}{7}.",
+      ),
+      QuizQuestion(
+        question:
+            "11. If 4(m + 4) = 18, find the value of m.          (BECE 1999 Q29)",
+        options: [
+          r"\frac{1}{2}",
+          r"\frac{3}{2}",
+          r"\frac{5}{2}",
+          r"\frac{3}{25}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"Divide both sides by 4: m + 4 = \frac{18}{4} = \frac{9}{2}. Therefore, m = \frac{9}{2} - 4 = \frac{1}{2}.",
+      ),
+      QuizQuestion(
+        question: "12. If 13x - 12 = 5x + 60, find x.          (BECE 1995 Q33)",
+        options: [
+          "-9",
+          "-6",
+          "9",
+          "6",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "13x - 5x = 60 + 12. Thus, 8x = 72 and x = 9.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The product of 2x and 3 is 138. Find x.          (BECE 1996 Q33)",
+        options: [
+          "23",
+          "33",
+          "68",
+          "69",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The product of 2x and 3 is 6x. Therefore, 6x = 138 and x = 23.",
+      ),
+      QuizQuestion(
+        question:
+            r"14. Solve for y in the equation: \frac{1}{3}y + \frac{1}{5}y = 8.          (BECE 2002A Q27)",
+        options: [
+          "15",
+          "30",
+          "45",
+          "60",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{y}{3} + \frac{y}{5} = \frac{8y}{15}. Thus, \frac{8y}{15} = 8 and y = 15.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Kofi is 2 years older than Ama. If the sum of their ages is 16, find Ama's age.          (BECE 2002B Q25)",
+        options: [
+          "7 years",
+          "9 years",
+          "14 years",
+          "18 years",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Let Ama's age be x. Kofi's age is x + 2. Then x + x + 2 = 16, so 2x = 14 and x = 7.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Solve the equation: 2x - 3(x - 1) = 6.          (BECE 2009 Q12)",
+        options: [
+          "3",
+          "-3",
+          "-7",
+          "-9",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Expand to get 2x - 3x + 3 = 6. Thus, -x = 3 and x = -3.",
+      ),
+      QuizQuestion(
+        question:
+            r"17. Find the value of x in the equation \frac{x}{4} = 2.          (BECE 2002B Q39)",
+        options: [
+          "2",
+          "4",
+          "6",
+          "8",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            r"Multiply both sides of \frac{x}{4} = 2 by 4. Therefore, x = 8.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Solve for x in the equation 15 - 2x = 6.          (BECE 2004 Q21)",
+        options: [
+          "-10.5",
+          "-4.5",
+          "4.5",
+          "10.5",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Subtract 15 from both sides: -2x = -9. Dividing by -2 gives x = 4.5.",
+      ),
+      QuizQuestion(
+        question:
+            "19. If 3t - 2(t + 12) = 11, find the value of t.          (BECE 2003 Q7)",
+        options: [
+          "-35",
+          "-13",
+          "13",
+          "35",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Expand to get 3t - 2t - 24 = 11. Thus, t - 24 = 11 and t = 35.",
+      ),
+      QuizQuestion(
+        question:
+            "20. If 6n + 4 = 16, find the value of n.          (BECE 2005 Q10)",
+        options: [
+          "2",
+          "3",
+          "5",
+          "6",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Subtract 4 from both sides to get 6n = 12. Therefore, n = 2.",
+      ),
+      QuizQuestion(
+        question:
+            "21. The difference between two numbers is 168. If the smaller number is 113, find the other number.          (BECE 2008 Q39)",
+        options: [
+          "223",
+          "271",
+          "281",
+          "291",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "The larger number is 113 + 168 = 281.",
+      ),
+      QuizQuestion(
+        question:
+            r"22. Solve the equation \frac{x + 2}{3} + 2x = 10.          (BECE 2006 Q18)",
+        options: [
+          "3",
+          "4",
+          "5",
+          "6",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Multiply through by 3: x + 2 + 6x = 30. Thus, 7x = 28 and x = 4.",
+      ),
+      QuizQuestion(
+        question:
+            "23. If 8x - 3(2x - 4) = 4, find the value of x.          (BECE 2007 Q15)",
+        options: [
+          "-8",
+          "-4",
+          "4",
+          "8",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Expand to get 8x - 6x + 12 = 4. Thus, 2x = -8 and x = -4.",
+      ),
+      QuizQuestion(
+        question: r"24. Solve \frac{4k}{9} = 12.          (BECE 2008 Q33)",
+        options: [
+          "23",
+          "25",
+          "27",
+          "29",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"Multiply both sides by 9: 4k = 108. Therefore, k = \frac{108}{4} = 27.",
+      ),
+      QuizQuestion(
+        question:
+            r"25. If x + 5 = -7, find the value of \frac{x}{6}.          (BECE 2009 Q20)",
+        options: [
+          r"-\frac{55}{6}",
+          "-2",
+          r"-\frac{1}{3}",
+          "2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"From x + 5 = -7, x = -12. Therefore, \frac{x}{6} = \frac{-12}{6} = -2.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The sum of 5 and x divided by 4 is equal to 3.25. Find the value of x.          (BECE 2010 Q4)",
+        options: [
+          "8",
+          "7",
+          r"2\frac{1}{4}",
+          r"-3\frac{4}{13}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"The statement means \frac{5 + x}{4} = 3.25. Therefore, 5 + x = 13 and x = 8.",
+      ),
+      QuizQuestion(
+        question:
+            r"27. Find the value of x, if \frac{x}{4} + 1 = 5.          (BECE 2010 Q20)",
+        options: [
+          "24",
+          "20",
+          "19",
+          "16",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            r"Subtract 1 to get \frac{x}{4} = 4. Multiplying by 4 gives x = 16.",
+      ),
+      QuizQuestion(
+        question:
+            "28. If 2x = 5(x - 2) + 7, find the value of x.          (BECE 2012 Q14)",
+        options: [
+          r"-5\frac{2}{3}",
+          "-1",
+          "1",
+          r"5\frac{2}{3}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Expand the right-hand side: 2x = 5x - 10 + 7 = 5x - 3. Thus, -3x = -3 and x = 1.",
+      ),
+      QuizQuestion(
+        question: "29. If 1 - 2 = m, find m.          (BECE 2013 Q11)",
+        options: [
+          "3",
+          "-1",
+          "1",
+          "3",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "Since 1 - 2 = -1, m = -1.",
+      ),
+      QuizQuestion(
+        question: "30. Solve 3 + 3y = 1 - 13y.          (BECE 2015 Q23)",
+        options: [
+          r"-\frac{1}{8}",
+          "-2",
+          "2",
+          "6",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Collect like terms: 3y + 13y = 1 - 3. Thus, 16y = -2 and y = -\frac{1}{8}. The original options appear to contain an error, so the first option has been corrected.",
+      ),
+      QuizQuestion(
+        question:
+            "31. When a number is doubled and the result is decreased by 9, the answer is 19. Find the number.          (BECE 2016 Q22)",
+        options: [
+          "5",
+          "7",
+          "14",
+          "16",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Let the number be x. Then 2x - 9 = 19. Thus, 2x = 28 and x = 14.",
+      ),
+      QuizQuestion(
+        question:
+            r"32. Given that \frac{1}{2p} = \frac{1}{8}, find the value of p.          (BECE 2017 Q3)",
+        options: [
+          "4",
+          "3",
+          "2",
+          "1",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"Since \frac{1}{2p} = \frac{1}{8}, the denominators are equal. Therefore, 2p = 8 and p = 4.",
+      ),
+      QuizQuestion(
+        question:
+            r"33. Solve 2 + \frac{x}{3} = 1 - 2x.          (BECE 2017 Q8)",
+        options: [
+          r"-1\frac{2}{7}",
+          r"-\frac{3}{7}",
+          r"\frac{3}{7}",
+          r"1\frac{2}{7}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"Move the x-terms to one side: \frac{x}{3} + 2x = -1. Thus, \frac{7x}{3} = -1 and x = -\frac{3}{7}.",
+      ),
+      QuizQuestion(
+        question:
+            "34. At a meeting attended by 23 people, the females were 7 more than the males. How many males were there?          (BECE 2017 Q14)",
+        options: [
+          "8",
+          "15",
+          "16",
+          "30",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Let the number of males be x. The number of females is x + 7. Then x + x + 7 = 23, so 2x = 16 and x = 8.",
+      ),
+      QuizQuestion(
+        question:
+            "35. If 4 - x = 3(4x + 5), find the value of x.          (BECE 2018 Q37)",
+        options: [
+          r"\frac{11}{13}",
+          r"1\frac{6}{13}",
+          r"-1\frac{6}{13}",
+          r"-\frac{11}{13}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Expand to get 4 - x = 12x + 15. Thus, -13x = 11 and x = -\frac{11}{13}.",
+      ),
+      QuizQuestion(
+        question:
+            r"36. Solve the equation 10 - \frac{x + 3}{2} = 8.          (BECE 2019 Q7)",
+        options: [
+          "-9",
+          "-3",
+          "1",
+          "15",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Subtract 8 from 10 to get \frac{x + 3}{2} = 2. Therefore, x + 3 = 4 and x = 1.",
+      ),
+      QuizQuestion(
+        question:
+            "37. When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.          (BECE 2019 Q25)",
+        options: [
+          "84",
+          "40",
+          "28",
+          "20",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Let the number be x. Then \frac{3x - 12}{4} = 18. Thus, 3x - 12 = 72, 3x = 84 and x = 28.",
+      ),
+      QuizQuestion(
+        question:
+            "38. In a class of 23 students, the girls were 7 more than the boys. How many boys were there in the class?          (BECE 2019 Q34)",
+        options: [
+          "8",
+          "15",
+          "16",
+          "30",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Let the number of boys be x. Then the number of girls is x + 7. Therefore, x + x + 7 = 23, so x = 8.",
+      ),
+      QuizQuestion(
+        question:
+            r"39. If \frac{w}{3} = 3(w - 1) - 1, find the value of w.          (BECE 2020 Q16)",
+        options: [
+          r"\frac{3}{2}",
+          r"\frac{5}{4}",
+          r"\frac{3}{5}",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Simplify the right-hand side: \frac{w}{3} = 3w - 4. Multiply by 3 to get w = 9w - 12. Thus, 8w = 12 and w = \frac{3}{2}.",
+      ),
+      QuizQuestion(
+        question:
+            "40. If 2x - 1 = 5, find the value of x.          (BECE 2021 Q34)",
+        options: [
+          "3",
+          "4",
+          "5",
+          "6",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Add 1 to both sides to get 2x = 6. Therefore, x = 3.",
+      ),
+      QuizQuestion(
+        question:
+            r"41. If \frac{n}{100} = 10.5, find the value of n.          (BECE 2022 Q23)",
+        options: [
+          "0.0105",
+          "0.105",
+          "105",
+          "1050",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            r"Multiply both sides of \frac{n}{100} = 10.5 by 100. Therefore, n = 1050.",
+      ),
+      QuizQuestion(
+        question:
+            "42. A certain number is subtracted from 12 and the result is multiplied by 3. If the answer is 21, find the number.          (BECE 2022 Q37)",
+        options: [
+          "4",
+          "5",
+          "6",
+          "8",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Let the number be x. Then 3(12 - x) = 21. Thus, 12 - x = 7 and x = 5.",
+      ),
+      QuizQuestion(
+        question:
+            r"43. If 2n - 5 = \frac{1}{2}n, find the value of n.          (BECE 2023 Q15)",
+        options: [
+          r"\frac{1}{3}",
+          r"2\frac{1}{2}",
+          r"3\frac{1}{3}",
+          r"\frac{1}{2}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Subtract \frac{1}{2}n from 2n to get \frac{3}{2}n = 5. Thus, n = \frac{10}{3} = 3\frac{1}{3}.",
+      ),
+      QuizQuestion(
+        question:
+            "44. A story book contains 50 pages. If a student reads 10 pages per hour, find the relationship between the number of unread pages (N) and time (t).          (BECE 2024 Q29)",
+        options: [
+          "N = 10t + 50",
+          "N = 10t - 50",
+          "N = -10t + 50",
+          r"N = -\frac{1}{10}t + 50",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The student starts with 50 unread pages. The number decreases by 10 pages each hour, so N = 50 - 10t, which is the same as N = -10t + 50.",
+      ),
+      QuizQuestion(
+        question: "45. Solve: 4x - 2(x + 5) = -10.          (BECE 2025 Q10)",
+        options: [
+          "x = -10",
+          "x = 0",
+          r"x = \frac{1}{2}",
+          "x = 2",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Expand to get 4x - 2x - 10 = -10. Thus, 2x = 0 and x = 0.",
+      ),
+      QuizQuestion(
+        question:
+            "46. Ama is three times as old as Kofi. The sum of their ages is 40. How old is Ama?          (BECE 2025 Q12)",
+        options: [
+          "10 years",
+          "30 years",
+          "37 years",
+          "43 years",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Let Kofi's age be x. Ama's age is 3x. Then x + 3x = 40, so x = 10. Therefore, Ama is 3 × 10 = 30 years old.",
+      ),
+      QuizQuestion(
+        question:
+            "47. Given that 0.03 × y = 2.4, find the value of y.          (BECE 2025 Q22)",
+        options: [
+          "0.08",
+          "0.8",
+          "8.0",
+          "80.0",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Divide both sides by 0.03: y = 2.4 ÷ 0.03 = 80.",
+      ),
     ],
   ),
 
@@ -2420,7 +2212,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        "1. Which of the following would you use to measure an angle?          (BECE 1991 Q28)",
+            "1. Which of the following would you use to measure an angle?          (BECE 1991 Q28)",
         options: [
           "Ruler",
           "A pair of compasses",
@@ -2430,11 +2222,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A protractor is the instrument used to measure the size of an angle.",
+            "A protractor is the instrument used to measure the size of an angle.",
       ),
       QuizQuestion(
         question:
-        r"2. Which of the following statements is best described as constructing an angle of 180^\circ?          (BECE 2002B Q18)",
+            r"2. Which of the following statements is best described as constructing an angle of 180^\circ?          (BECE 2002B Q18)",
         options: [
           "Constructing an angle",
           r"Constructing the perpendicular bisector of (AB)",
@@ -2444,11 +2236,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"An angle of \(180^\circ\) is a straight angle. Therefore, constructing an angle of \(180^\circ\) means constructing a straight angle.",
+            r"An angle of \(180^\circ\) is a straight angle. Therefore, constructing an angle of \(180^\circ\) means constructing a straight angle.",
       ),
       QuizQuestion(
         question:
-        "3. The value of an obtuse angle lies between:          (BECE 2003 Q33)",
+            "3. The value of an obtuse angle lies between:          (BECE 2003 Q33)",
         options: [
           r"0^{\circ} and 90^{\circ}",
           r"90^{\circ} and 180^{\circ}",
@@ -2458,11 +2250,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
+            r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
       ),
       QuizQuestion(
         question:
-        "4. The angle formed by one complete revolution is equivalent to:          (BECE 2004 Q4)",
+            "4. The angle formed by one complete revolution is equivalent to:          (BECE 2004 Q4)",
         options: [
           "One right angle",
           "Two right angles",
@@ -2472,11 +2264,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"One complete revolution is \(360^\circ\). Since one right angle is \(90^\circ\), \(360^\circ \div 90^\circ = 4\).",
+            r"One complete revolution is \(360^\circ\). Since one right angle is \(90^\circ\), \(360^\circ \div 90^\circ = 4\).",
       ),
       QuizQuestion(
         question:
-        "5. The angles of a triangle are in the ratio 3:2:1. Find the value of the smallest angle.          (BECE 2004 Q23)",
+            "5. The angles of a triangle are in the ratio 3:2:1. Find the value of the smallest angle.          (BECE 2004 Q23)",
         options: [
           r"30^{\circ}",
           r"45^\circ",
@@ -2486,11 +2278,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"The angles of a triangle add up to \(180^\circ\). The total number of parts is \(3 + 2 + 1 = 6\). One part is \(180^\circ \div 6 = 30^\circ\), so the smallest angle is \(30^\circ\).",
+            r"The angles of a triangle add up to \(180^\circ\). The total number of parts is \(3 + 2 + 1 = 6\). One part is \(180^\circ \div 6 = 30^\circ\), so the smallest angle is \(30^\circ\).",
       ),
       QuizQuestion(
         question:
-        r"6. An angle which is more than 90^\circ but less than 180^\circ is:          (BECE 2004 Q34)",
+            r"6. An angle which is more than 90^\circ but less than 180^\circ is:          (BECE 2004 Q34)",
         options: [
           "An acute angle",
           "A right angle",
@@ -2500,11 +2292,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
+            r"An obtuse angle is greater than \(90^\circ\) but less than \(180^\circ\).",
       ),
       QuizQuestion(
         question:
-        "7. Find the angle through which the minute hand of a clock moves from 5:15 p.m. to 5:25 p.m.          (BECE 2008 Q20)",
+            "7. Find the angle through which the minute hand of a clock moves from 5:15 p.m. to 5:25 p.m.          (BECE 2008 Q20)",
         options: [
           r"30^\circ",
           r"45^\circ",
@@ -2514,11 +2306,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The minute hand moves \(360^\circ\) in 60 minutes, which is \(6^\circ\) per minute. From 5:15 p.m. to 5:25 p.m. is 10 minutes, so the angle moved is \(10 \times 6^\circ = 60^\circ\).",
+            r"The minute hand moves \(360^\circ\) in 60 minutes, which is \(6^\circ\) per minute. From 5:15 p.m. to 5:25 p.m. is 10 minutes, so the angle moved is \(10 \times 6^\circ = 60^\circ\).",
       ),
       QuizQuestion(
         question:
-        r"8. An angle which is greater than 180^\circ but less than 360^\circ is:          (BECE 2016 Q25)",
+            r"8. An angle which is greater than 180^\circ but less than 360^\circ is:          (BECE 2016 Q25)",
         options: [
           "A right angle",
           "An acute angle",
@@ -2528,11 +2320,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"A reflex angle is greater than \(180^\circ\) but less than \(360^\circ\).",
+            r"A reflex angle is greater than \(180^\circ\) but less than \(360^\circ\).",
       ),
       QuizQuestion(
         question:
-        "9. The instrument used to measure the angle between two lines that meet at a point is known as a:          (BECE 2016 Q40)",
+            "9. The instrument used to measure the angle between two lines that meet at a point is known as a:          (BECE 2016 Q40)",
         options: [
           "Pair of compasses",
           "Set square",
@@ -2542,11 +2334,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "A protractor is used to measure the angle formed by two intersecting lines.",
+            "A protractor is used to measure the angle formed by two intersecting lines.",
       ),
       QuizQuestion(
         question:
-        r"10. Given that (x = 8), what type of angle is ((9x + 8)^\circ)?          (BECE 2021 Q5)",
+            r"10. Given that (x = 8), what type of angle is ((9x + 8)^\circ)?          (BECE 2021 Q5)",
         options: [
           "Straight angle",
           "Obtuse angle",
@@ -2556,11 +2348,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"Substitute \(x = 8\): \(9(8) + 8 = 72 + 8 = 80^\circ\). Since \(80^\circ\) is less than \(90^\circ\), it is an acute angle.",
+            r"Substitute \(x = 8\): \(9(8) + 8 = 72 + 8 = 80^\circ\). Since \(80^\circ\) is less than \(90^\circ\), it is an acute angle.",
       ),
       QuizQuestion(
         question:
-        r"11. Two interior angles of a triangle are ((3x - 10)^\circ) and ((4x + 20)^\circ). Find an expression for the third angle.          (BECE 2025 Q24)",
+            r"11. Two interior angles of a triangle are ((3x - 10)^\circ) and ((4x + 20)^\circ). Find an expression for the third angle.          (BECE 2025 Q24)",
         options: [
           r"(170 - 7x)^\circ",
           r"(150 - 5x)^\circ",
@@ -2570,7 +2362,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"The interior angles of a triangle add up to \(180^\circ\). The third angle is \(180^\circ - [(3x - 10)^\circ + (4x + 20)^\circ]\). Simplifying gives \(180 - (7x + 10) = (170 - 7x)^\circ\).",
+            r"The interior angles of a triangle add up to \(180^\circ\). The third angle is \(180^\circ - [(3x - 10)^\circ + (4x + 20)^\circ]\). Simplifying gives \(180 - (7x + 10) = (170 - 7x)^\circ\).",
       ),
     ],
   ),
@@ -2579,7 +2371,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        "1. What is the name of the line segment drawn to join any two points on the circumference of a circle?          (BECE 1990 Q32)",
+            "1. What is the name of the line segment drawn to join any two points on the circumference of a circle?          (BECE 1990 Q32)",
         options: [
           "Radius",
           "Segment",
@@ -2589,11 +2381,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A chord is a line segment whose two endpoints lie on the circumference of a circle.",
+            "A chord is a line segment whose two endpoints lie on the circumference of a circle.",
       ),
       QuizQuestion(
         question:
-        r"2. The area of a square is 49 cm^2. Find the perimeter of the square.          (BECE 1990 Q35)",
+            r"2. The area of a square is 49 cm^2. Find the perimeter of the square.          (BECE 1990 Q35)",
         options: [
           "7 cm",
           "51 cm",
@@ -2603,11 +2395,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The side of the square is \(\sqrt{49} = 7\text{ cm}\). Therefore, its perimeter is \(4 \times 7 = 28\text{ cm}\).",
+            r"The side of the square is \(\sqrt{49} = 7\text{ cm}\). Therefore, its perimeter is \(4 \times 7 = 28\text{ cm}\).",
       ),
       QuizQuestion(
         question:
-        r"3. The circumference of a circular track is 440m. Find the diameter of this track. Take \pi = \frac{22}{7}.          (BECE 1991 Q26)",
+            r"3. The circumference of a circular track is 440m. Find the diameter of this track. Take \pi = \frac{22}{7}.          (BECE 1991 Q26)",
         options: [
           r"70 m",
           r"140 m",
@@ -2617,12 +2409,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Using \(C = \pi d\), \(440 = \frac{22}{7}d\). Therefore, \(d = 440 \times \frac{7}{22} = 140\text{ m}\).",
+            r"Using \(C = \pi d\), \(440 = \frac{22}{7}d\). Therefore, \(d = 440 \times \frac{7}{22} = 140\text{ m}\).",
       ),
-
       QuizQuestion(
         question:
-        "4. Which of these has the least number of lines of symmetry?          (BECE 1993 Q4)",
+            "4. Which of these has the least number of lines of symmetry?          (BECE 1993 Q4)",
         options: [
           "An equilateral triangle",
           "A rectangle",
@@ -2632,12 +2423,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "An equilateral triangle has 3 lines of symmetry, a rectangle has 2, a square has 4 and a circle has infinitely many. Therefore, the rectangle has the least.",
+            "An equilateral triangle has 3 lines of symmetry, a rectangle has 2, a square has 4 and a circle has infinitely many. Therefore, the rectangle has the least.",
       ),
-
       QuizQuestion(
         question:
-        r"5. The bearing of Aboku from Bebeka is 055^\circ. What is the bearing of Bebeka from Aboku?          (BECE 1993 Q32)",
+            r"5. The bearing of Aboku from Bebeka is 055^\circ. What is the bearing of Bebeka from Aboku?          (BECE 1993 Q32)",
         options: [
           r"235^\circ",
           r"055^\circ",
@@ -2647,12 +2437,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"To find the reverse bearing, add \(180^\circ\): \(055^\circ + 180^\circ = 235^\circ\).",
+            r"To find the reverse bearing, add \(180^\circ\): \(055^\circ + 180^\circ = 235^\circ\).",
       ),
-
       QuizQuestion(
         question:
-        "6. How many lines of symmetry does a rectangle have?          (BECE 1994 Q4)",
+            "6. How many lines of symmetry does a rectangle have?          (BECE 1994 Q4)",
         options: [
           "1",
           "2",
@@ -2662,12 +2451,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "A rectangle has two lines of symmetry: one horizontal and one vertical through its centre.",
+            "A rectangle has two lines of symmetry: one horizontal and one vertical through its centre.",
       ),
-
       QuizQuestion(
         question:
-        "7. How many lines of symmetry has a square?          (BECE 1995 Q23)",
+            "7. How many lines of symmetry has a square?          (BECE 1995 Q23)",
         options: [
           "0",
           "1",
@@ -2677,12 +2465,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A square has four lines of symmetry: two through the midpoints of opposite sides and two along its diagonals.",
+            "A square has four lines of symmetry: two through the midpoints of opposite sides and two along its diagonals.",
       ),
-
       QuizQuestion(
         question:
-        r"8. A square of side 6 cm has the same area as a rectangle of length 9 cm. Find the breadth of the rectangle.          (BECE 1999 Q32)",
+            r"8. A square of side 6 cm has the same area as a rectangle of length 9 cm. Find the breadth of the rectangle.          (BECE 1999 Q32)",
         options: [
           r"3 cm",
           r"4 cm",
@@ -2692,12 +2479,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"The area of the square is \(6 \times 6 = 36\text{ cm}^2\). Therefore, the breadth of the rectangle is \(36 \div 9 = 4\text{ cm}\).",
+            r"The area of the square is \(6 \times 6 = 36\text{ cm}^2\). Therefore, the breadth of the rectangle is \(36 \div 9 = 4\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        "9. How many lines of symmetry has a square?          (BECE 2000 Q13)",
+            "9. How many lines of symmetry has a square?          (BECE 2000 Q13)",
         options: [
           "2",
           "3",
@@ -2708,10 +2494,9 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation: "A square has four lines of symmetry.",
       ),
-
       QuizQuestion(
         question:
-        "10. How many lines of symmetry has an isosceles triangle?          (BECE 2001 Q14)",
+            "10. How many lines of symmetry has an isosceles triangle?          (BECE 2001 Q14)",
         options: [
           "1",
           "2",
@@ -2721,12 +2506,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "An isosceles triangle has one line of symmetry passing through its vertex and the midpoint of its base.",
+            "An isosceles triangle has one line of symmetry passing through its vertex and the midpoint of its base.",
       ),
-
       QuizQuestion(
         question:
-        "11. Which of the following is not a quadrilateral?          (BECE 2001 Q17)",
+            "11. Which of the following is not a quadrilateral?          (BECE 2001 Q17)",
         options: [
           "Square",
           "Rectangle",
@@ -2736,12 +2520,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A quadrilateral has four sides. A triangle has only three sides, so it is not a quadrilateral.",
+            "A quadrilateral has four sides. A triangle has only three sides, so it is not a quadrilateral.",
       ),
-
       QuizQuestion(
         question:
-        r"12. The area of a rectangle is 18 cm^2. One of its sides is 9 cm long. Find its perimeter.          (BECE 2001 Q34)",
+            r"12. The area of a rectangle is 18 cm^2. One of its sides is 9 cm long. Find its perimeter.          (BECE 2001 Q34)",
         options: [
           r"11 cm",
           r"18 cm",
@@ -2751,12 +2534,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The other side is \(18 \div 9 = 2\text{ cm}\). Therefore, the perimeter is \(2(9 + 2) = 22\text{ cm}\).",
+            r"The other side is \(18 \div 9 = 2\text{ cm}\). Therefore, the perimeter is \(2(9 + 2) = 22\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        "13. How many lines of symmetry has a rhombus?          (BECE 1998 Q33)",
+            "13. How many lines of symmetry has a rhombus?          (BECE 1998 Q33)",
         options: [
           "2",
           "3",
@@ -2766,12 +2548,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "A rhombus has two lines of symmetry, which lie along its diagonals.",
+            "A rhombus has two lines of symmetry, which lie along its diagonals.",
       ),
-
       QuizQuestion(
         question:
-        "14. A farmer left home at 4:35 a.m. and arrived on his farm at 6:18 a.m. How long did he take to get to his farm?          (BECE 2002A Q3)",
+            "14. A farmer left home at 4:35 a.m. and arrived on his farm at 6:18 a.m. How long did he take to get to his farm?          (BECE 2002A Q3)",
         options: [
           "1 hour 23 minutes",
           "1 hour 43 minutes",
@@ -2781,12 +2562,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "From 4:35 a.m. to 5:35 a.m. is 1 hour, and from 5:35 a.m. to 6:18 a.m. is 43 minutes. The total time is 1 hour 43 minutes.",
+            "From 4:35 a.m. to 5:35 a.m. is 1 hour, and from 5:35 a.m. to 6:18 a.m. is 43 minutes. The total time is 1 hour 43 minutes.",
       ),
-
       QuizQuestion(
         question:
-        r"15. The length of a rectangle is three times its width. If its perimeter is 24 cm, find its width.          (BECE 2002A Q35)",
+            r"15. The length of a rectangle is three times its width. If its perimeter is 24 cm, find its width.          (BECE 2002A Q35)",
         options: [
           r"3 cm",
           r"4 cm",
@@ -2796,12 +2576,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Let the width be \(w\). The length is \(3w\). Thus, \(2(3w + w) = 24\), so \(8w = 24\) and \(w = 3\text{ cm}\).",
+            r"Let the width be \(w\). The length is \(3w\). Thus, \(2(3w + w) = 24\), so \(8w = 24\) and \(w = 3\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        "16. How many lines of symmetry has an equilateral triangle?          (BECE 2003 Q32)",
+            "16. How many lines of symmetry has an equilateral triangle?          (BECE 2003 Q32)",
         options: [
           "1",
           "2",
@@ -2811,12 +2590,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "An equilateral triangle has three lines of symmetry, one from each vertex to the midpoint of the opposite side.",
+            "An equilateral triangle has three lines of symmetry, one from each vertex to the midpoint of the opposite side.",
       ),
-
       QuizQuestion(
         question:
-        r"17. An equilateral triangle has side 16 cm. A square has the same perimeter as the equilateral triangle. What is the area of the square?          (BECE 2005 Q23)",
+            r"17. An equilateral triangle has side 16 cm. A square has the same perimeter as the equilateral triangle. What is the area of the square?          (BECE 2005 Q23)",
         options: [
           r"48 cm^2",
           r"96 cm^2",
@@ -2826,12 +2604,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The triangle's perimeter is \(3 \times 16 = 48\text{ cm}\). Each side of the square is \(48 \div 4 = 12\text{ cm}\), so its area is \(12^2 = 144\text{ cm}^2\).",
+            r"The triangle's perimeter is \(3 \times 16 = 48\text{ cm}\). Each side of the square is \(48 \div 4 = 12\text{ cm}\), so its area is \(12^2 = 144\text{ cm}^2\).",
       ),
-
       QuizQuestion(
         question:
-        r"18. The perimeter of a rectangle is 24 cm. If the breadth of the rectangle is 4cm, find the area of the rectangle.          (BECE 2005 Q29)",
+            r"18. The perimeter of a rectangle is 24 cm. If the breadth of the rectangle is 4cm, find the area of the rectangle.          (BECE 2005 Q29)",
         options: [
           r"32 cm^2",
           r"48 cm^2",
@@ -2841,12 +2618,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Since \(2(l + 4) = 24\), \(l + 4 = 12\) and \(l = 8\text{ cm}\). Therefore, the area is \(8 \times 4 = 32\text{ cm}^2\).",
+            r"Since \(2(l + 4) = 24\), \(l + 4 = 12\) and \(l = 8\text{ cm}\). Therefore, the area is \(8 \times 4 = 32\text{ cm}^2\).",
       ),
-
       QuizQuestion(
         question:
-        r"19. The base of an isosceles triangle is 7 cm long. Each of the other two sides is x cm long. What will be the expression for its perimeter?          (BECE 2006 Q7)",
+            r"19. The base of an isosceles triangle is 7 cm long. Each of the other two sides is x cm long. What will be the expression for its perimeter?          (BECE 2006 Q7)",
         options: [
           r"x + 7",
           r"x + 14",
@@ -2856,12 +2632,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The perimeter is the sum of the three sides: \(x + x + 7 = 2x + 7\).",
+            r"The perimeter is the sum of the three sides: \(x + x + 7 = 2x + 7\).",
       ),
-
       QuizQuestion(
         question:
-        "20. The length of a rectangular playing field is 5 metres longer than its width. If the perimeter of the field is 150 metres, find its width.          (BECE 2007 Q39)",
+            "20. The length of a rectangular playing field is 5 metres longer than its width. If the perimeter of the field is 150 metres, find its width.          (BECE 2007 Q39)",
         options: [
           "30 metres",
           "35 metres",
@@ -2871,12 +2646,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Let the width be w metres. The length is w + 5. Thus, 2(w + w + 5) = 150, so 2w + 5 = 75, 2w = 70 and w = 35 metres.",
+            "Let the width be w metres. The length is w + 5. Thus, 2(w + w + 5) = 150, so 2w + 5 = 75, 2w = 70 and w = 35 metres.",
       ),
-
       QuizQuestion(
         question:
-        r"21. A football field is 120 m long and 75 m wide. What is the perimeter of the field?          (BECE 2008 Q14)",
+            r"21. A football field is 120 m long and 75 m wide. What is the perimeter of the field?          (BECE 2008 Q14)",
         options: [
           r"195 m",
           r"390 m",
@@ -2886,12 +2660,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The perimeter is \(2(120 + 75) = 2 \times 195 = 390\text{ m}\).",
+            r"The perimeter is \(2(120 + 75) = 2 \times 195 = 390\text{ m}\).",
       ),
-
       QuizQuestion(
         question:
-        "22. How many lines of symmetry has an equilateral triangle?          (BECE 2008 Q28)",
+            "22. How many lines of symmetry has an equilateral triangle?          (BECE 2008 Q28)",
         options: [
           "1",
           "2",
@@ -2902,10 +2675,9 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation: "An equilateral triangle has three lines of symmetry.",
       ),
-
       QuizQuestion(
         question:
-        "23. Which of the following is not a quadrilateral?          (BECE 2008 Q30)",
+            "23. Which of the following is not a quadrilateral?          (BECE 2008 Q30)",
         options: [
           "Hexagon",
           "Kite",
@@ -2915,12 +2687,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "A hexagon has six sides, while a quadrilateral has four sides.",
+            "A hexagon has six sides, while a quadrilateral has four sides.",
       ),
-
       QuizQuestion(
         question:
-        r"24. A rectangle has an area of 36 cm^2 and a width of 3 cm. Find its perimeter.          (BECE 2009 Q16)",
+            r"24. A rectangle has an area of 36 cm^2 and a width of 3 cm. Find its perimeter.          (BECE 2009 Q16)",
         options: [
           r"12 cm",
           r"18 cm",
@@ -2930,12 +2701,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The length is \(36 \div 3 = 12\text{ cm}\). Therefore, the perimeter is \(2(12 + 3) = 30\text{ cm}\).",
+            r"The length is \(36 \div 3 = 12\text{ cm}\). Therefore, the perimeter is \(2(12 + 3) = 30\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        "25. How many lines of symmetry has a rectangle?          (BECE 2010 Q27)",
+            "25. How many lines of symmetry has a rectangle?          (BECE 2010 Q27)",
         options: [
           "4",
           "3",
@@ -2946,10 +2716,9 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation: "A rectangle has two lines of symmetry.",
       ),
-
       QuizQuestion(
         question:
-        r"26. Find the area of a square, if its perimeter is 28 cm.          (BECE 2011 Q16)",
+            r"26. Find the area of a square, if its perimeter is 28 cm.          (BECE 2011 Q16)",
         options: [
           r"784 cm^2",
           r"196 cm^2",
@@ -2959,12 +2728,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"Each side of the square is \(28 \div 4 = 7\text{ cm}\). Therefore, its area is \(7^2 = 49\text{ cm}^2\).",
+            r"Each side of the square is \(28 \div 4 = 7\text{ cm}\). Therefore, its area is \(7^2 = 49\text{ cm}^2\).",
       ),
-
       QuizQuestion(
         question:
-        "27. How many diagonals are in a rectangle?          (BECE 2012 Q4)",
+            "27. How many diagonals are in a rectangle?          (BECE 2012 Q4)",
         options: [
           "1",
           "2",
@@ -2974,12 +2742,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "A rectangle has two diagonals joining its opposite vertices.",
+            "A rectangle has two diagonals joining its opposite vertices.",
       ),
-
       QuizQuestion(
         question:
-        r"28. The bearing of Atoru from Busase is 275^\circ. What is the bearing of Busase from Atoru?          (BECE 2012 Q31)",
+            r"28. The bearing of Atoru from Busase is 275^\circ. What is the bearing of Busase from Atoru?          (BECE 2012 Q31)",
         options: [
           r"180^\circ",
           r"175^\circ",
@@ -2989,12 +2756,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"Since \(275^\circ\) is greater than \(180^\circ\), subtract \(180^\circ\): \(275^\circ - 180^\circ = 095^\circ\).",
+            r"Since \(275^\circ\) is greater than \(180^\circ\), subtract \(180^\circ\): \(275^\circ - 180^\circ = 095^\circ\).",
       ),
-
       QuizQuestion(
         question:
-        r"29. The perimeter of a rectangle is 48 cm. If the length is 14 cm, find its width.          (BECE 2013 Q12)",
+            r"29. The perimeter of a rectangle is 48 cm. If the length is 14 cm, find its width.          (BECE 2013 Q12)",
         options: [
           r"24 cm",
           r"20 cm",
@@ -3004,12 +2770,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"Since \(2(l + w) = 48\), \(l + w = 24\). Therefore, \(w = 24 - 14 = 10\text{ cm}\).",
+            r"Since \(2(l + w) = 48\), \(l + w = 24\). Therefore, \(w = 24 - 14 = 10\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        r"30. The length of a rectangular fence is 25 m. The ratio of the length to the width is 5:3. Find the width of the rectangular fence.          (BECE 2013 Q22)",
+            r"30. The length of a rectangular fence is 25 m. The ratio of the length to the width is 5:3. Find the width of the rectangular fence.          (BECE 2013 Q22)",
         options: [
           r"19 m",
           r"13 m",
@@ -3019,12 +2784,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The length represents 5 parts. One part is \(25 \div 5 = 5\text{ m}\). Therefore, the width is \(3 \times 5 = 15\text{ m}\).",
+            r"The length represents 5 parts. One part is \(25 \div 5 = 5\text{ m}\). Therefore, the width is \(3 \times 5 = 15\text{ m}\).",
       ),
-
       QuizQuestion(
         question:
-        "31. Jane arrived at work at 7:55 a.m. and left at 4:15 p.m. For how long was she at work?          (BECE 2014 Q17)",
+            "31. Jane arrived at work at 7:55 a.m. and left at 4:15 p.m. For how long was she at work?          (BECE 2014 Q17)",
         options: [
           "7 hr 20 min",
           "7 hr 45 min",
@@ -3034,12 +2798,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "From 7:55 a.m. to 12:00 noon is 4 hours 5 minutes. From noon to 4:15 p.m. is 4 hours 15 minutes. The total is 8 hours 20 minutes.",
+            "From 7:55 a.m. to 12:00 noon is 4 hours 5 minutes. From noon to 4:15 p.m. is 4 hours 15 minutes. The total is 8 hours 20 minutes.",
       ),
-
       QuizQuestion(
         question:
-        r"32. The perimeter of a rectangle is 24 cm. If the length is 7 cm, find the width.          (BECE 2014 Q28)",
+            r"32. The perimeter of a rectangle is 24 cm. If the length is 7 cm, find the width.          (BECE 2014 Q28)",
         options: [
           r"3 cm",
           r"5 cm",
@@ -3049,12 +2812,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Since \(2(l + w) = 24\), \(l + w = 12\). Therefore, \(w = 12 - 7 = 5\text{ cm}\).",
+            r"Since \(2(l + w) = 24\), \(l + w = 12\). Therefore, \(w = 12 - 7 = 5\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        "33. What name is given to a triangle which has all its sides equal?          (BECE 2015 Q27)",
+            "33. What name is given to a triangle which has all its sides equal?          (BECE 2015 Q27)",
         options: [
           "Isosceles triangle",
           "Scalene triangle",
@@ -3064,12 +2826,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "A triangle with all three sides equal is called an equilateral triangle.",
+            "A triangle with all three sides equal is called an equilateral triangle.",
       ),
-
       QuizQuestion(
         question:
-        r"34. A rectangular field 50 m wide and y m long requires 260 m of fencing. Find y.          (BECE 2015 Q29)",
+            r"34. A rectangular field 50 m wide and y m long requires 260 m of fencing. Find y.          (BECE 2015 Q29)",
         options: [
           r"15 m",
           r"40 m",
@@ -3079,12 +2840,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The fencing represents the perimeter. Thus, \(2(50 + y) = 260\). Therefore, \(50 + y = 130\) and \(y = 80\text{ m}\).",
+            r"The fencing represents the perimeter. Thus, \(2(50 + y) = 260\). Therefore, \(50 + y = 130\) and \(y = 80\text{ m}\).",
       ),
-
       QuizQuestion(
         question:
-        "35. Kwame is facing west. Through how many degrees should he turn anti-clockwise to face north?          (BECE 2015 Q32)",
+            "35. Kwame is facing west. Through how many degrees should he turn anti-clockwise to face north?          (BECE 2015 Q32)",
         options: [
           r"90^\circ",
           r"180^\circ",
@@ -3094,12 +2854,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"An anti-clockwise turn from west passes through south and east before reaching north. This is a turn of \(270^\circ\).",
+            r"An anti-clockwise turn from west passes through south and east before reaching north. This is a turn of \(270^\circ\).",
       ),
-
       QuizQuestion(
         question:
-        "36. How many lines of symmetry has a rectangle?          (BECE 2016 Q26)",
+            "36. How many lines of symmetry has a rectangle?          (BECE 2016 Q26)",
         options: [
           "1",
           "2",
@@ -3110,10 +2869,9 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation: "A rectangle has two lines of symmetry.",
       ),
-
       QuizQuestion(
         question:
-        r"37. The perimeter of an isosceles triangle is 45 cm. Find the length of the third side, if each of the equal sides is 14 cm long.          (BECE 2016 Q27)",
+            r"37. The perimeter of an isosceles triangle is 45 cm. Find the length of the third side, if each of the equal sides is 14 cm long.          (BECE 2016 Q27)",
         options: [
           r"11 cm",
           r"14 cm",
@@ -3123,12 +2881,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The two equal sides have a total length of \(14 + 14 = 28\text{ cm}\). The third side is \(45 - 28 = 17\text{ cm}\).",
+            r"The two equal sides have a total length of \(14 + 14 = 28\text{ cm}\). The third side is \(45 - 28 = 17\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        r"38. The bearing of X from Y is 196^\circ. What is the bearing of Y from X?          (BECE 2016 Q37)",
+            r"38. The bearing of X from Y is 196^\circ. What is the bearing of Y from X?          (BECE 2016 Q37)",
         options: [
           r"016^\circ",
           r"074^\circ",
@@ -3138,12 +2895,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Subtract \(180^\circ\) from the given bearing: \(196^\circ - 180^\circ = 016^\circ\).",
+            r"Subtract \(180^\circ\) from the given bearing: \(196^\circ - 180^\circ = 016^\circ\).",
       ),
-
       QuizQuestion(
         question:
-        "39. How many lines of symmetry does a rhombus have?          (BECE 2017 Q1)",
+            "39. How many lines of symmetry does a rhombus have?          (BECE 2017 Q1)",
         options: [
           "2",
           "3",
@@ -3152,13 +2908,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        "A rhombus has two lines of symmetry along its diagonals.",
+        explanation: "A rhombus has two lines of symmetry along its diagonals.",
       ),
-
       QuizQuestion(
         question:
-        r"40. The perimeter of a rectangle is 26cm. If its length is 10 cm, find its area.          (BECE 2018 Q19)",
+            r"40. The perimeter of a rectangle is 26cm. If its length is 10 cm, find its area.          (BECE 2018 Q19)",
         options: [
           r"30 cm^2",
           r"60 cm^2",
@@ -3168,12 +2922,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Since \(2(l + w) = 26\), \(l + w = 13\). Therefore, \(w = 13 - 10 = 3\text{ cm}\), and the area is \(10 \times 3 = 30\text{ cm}^2\).",
+            r"Since \(2(l + w) = 26\), \(l + w = 13\). Therefore, \(w = 13 - 10 = 3\text{ cm}\), and the area is \(10 \times 3 = 30\text{ cm}^2\).",
       ),
-
       QuizQuestion(
         question:
-        "41. How many lines of symmetry has a rhombus?          (BECE 2018 Q33)",
+            "41. How many lines of symmetry has a rhombus?          (BECE 2018 Q33)",
         options: [
           "2",
           "3",
@@ -3182,13 +2935,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        "A rhombus has two lines of symmetry along its diagonals.",
+        explanation: "A rhombus has two lines of symmetry along its diagonals.",
       ),
-
       QuizQuestion(
         question:
-        r"42. The bearing of P from Q is 060^\circ. Find the bearing of Q from P.          (BECE 2018 Q39)",
+            r"42. The bearing of P from Q is 060^\circ. Find the bearing of Q from P.          (BECE 2018 Q39)",
         options: [
           r"120^\circ",
           r"150^\circ",
@@ -3198,12 +2949,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"Add \(180^\circ\) to find the reverse bearing: \(060^\circ + 180^\circ = 240^\circ\).",
+            r"Add \(180^\circ\) to find the reverse bearing: \(060^\circ + 180^\circ = 240^\circ\).",
       ),
-
       QuizQuestion(
         question:
-        "43. How many lines of symmetry has a square?          (BECE 2019 Q6)",
+            "43. How many lines of symmetry has a square?          (BECE 2019 Q6)",
         options: [
           "0",
           "1",
@@ -3214,10 +2964,9 @@ final Map<String, QuizModel> beceQuizData = {
         difficulty: "Easy",
         explanation: "A square has four lines of symmetry.",
       ),
-
       QuizQuestion(
         question:
-        r"44. The two sides of a parallelogram are 4.8 m and 7.2 m long. Find its perimeter.          (BECE 2019 Q14)",
+            r"44. The two sides of a parallelogram are 4.8 m and 7.2 m long. Find its perimeter.          (BECE 2019 Q14)",
         options: [
           r"48.0 m",
           r"34.6 m",
@@ -3227,12 +2976,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The perimeter is \(2(4.8 + 7.2) = 2 \times 12 = 24.0\text{ m}\).",
+            r"The perimeter is \(2(4.8 + 7.2) = 2 \times 12 = 24.0\text{ m}\).",
       ),
-
       QuizQuestion(
         question:
-        r"45. If the bearing of A from B is 240^\circ, find the bearing of B from A.          (BECE 2019 Q16)",
+            r"45. If the bearing of A from B is 240^\circ, find the bearing of B from A.          (BECE 2019 Q16)",
         options: [
           r"040^\circ",
           r"060^\circ",
@@ -3242,12 +2990,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Subtract \(180^\circ\) from the given bearing: \(240^\circ - 180^\circ = 060^\circ\).",
+            r"Subtract \(180^\circ\) from the given bearing: \(240^\circ - 180^\circ = 060^\circ\).",
       ),
-
       QuizQuestion(
         question:
-        "46. Which of the following polygons does not have a line of symmetry?          (BECE 2020 Q9)",
+            "46. Which of the following polygons does not have a line of symmetry?          (BECE 2020 Q9)",
         options: [
           "Kite",
           "Isosceles triangle",
@@ -3257,12 +3004,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "A general trapezium does not have a line of symmetry. A kite and an isosceles triangle each have one, while a rhombus has two.",
+            "A general trapezium does not have a line of symmetry. A kite and an isosceles triangle each have one, while a rhombus has two.",
       ),
-
       QuizQuestion(
         question:
-        r"47. Two sides of a parallelogram are 5.8 m and 8.2 mlong. Find its perimeter.          (BECE 2020 Q22)",
+            r"47. Two sides of a parallelogram are 5.8 m and 8.2 mlong. Find its perimeter.          (BECE 2020 Q22)",
         options: [
           r"14.0 m",
           r"36.6 m",
@@ -3272,12 +3018,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The perimeter is \(2(5.8 + 8.2) = 2 \times 14 = 28.0\text{ m}\).",
+            r"The perimeter is \(2(5.8 + 8.2) = 2 \times 14 = 28.0\text{ m}\).",
       ),
-
       QuizQuestion(
         question:
-        r"48. Two sides of a rectangle are 10 cm and 6 cm. Calculate the area of a square with the same perimeter as that of the rectangle.          (BECE 2020 Q36)",
+            r"48. Two sides of a rectangle are 10 cm and 6 cm. Calculate the area of a square with the same perimeter as that of the rectangle.          (BECE 2020 Q36)",
         options: [
           r"16 cm^2",
           r"30 cm^2",
@@ -3287,12 +3032,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The rectangle's perimeter is \(2(10 + 6) = 32\text{ cm}\). The square's side is \(32 \div 4 = 8\text{ cm}\), so its area is \(8^2 = 64\text{ cm}^2\).",
+            r"The rectangle's perimeter is \(2(10 + 6) = 32\text{ cm}\). The square's side is \(32 \div 4 = 8\text{ cm}\), so its area is \(8^2 = 64\text{ cm}^2\).",
       ),
-
       QuizQuestion(
         question:
-        r"49. The area of a rectangle is 18 cm^2. If one of its sides is 2 cm long, find its perimeter.          (BECE 2021 Q10)",
+            r"49. The area of a rectangle is 18 cm^2. If one of its sides is 2 cm long, find its perimeter.          (BECE 2021 Q10)",
         options: [
           r"18 cm",
           r"20 cm",
@@ -3302,12 +3046,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The other side is \(18 \div 2 = 9\text{ cm}\). Therefore, the perimeter is \(2(9 + 2) = 22\text{ cm}\).",
+            r"The other side is \(18 \div 2 = 9\text{ cm}\). Therefore, the perimeter is \(2(9 + 2) = 22\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        r"50. What is the length of the side of a square of area 225 cm^2?          (BECE 2022 Q14)",
+            r"50. What is the length of the side of a square of area 225 cm^2?          (BECE 2022 Q14)",
         options: [
           r"12.00 cm",
           r"15.00 cm",
@@ -3317,12 +3060,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The side length is the square root of the area: \(\sqrt{225} = 15\text{ cm}\).",
+            r"The side length is the square root of the area: \(\sqrt{225} = 15\text{ cm}\).",
       ),
-
       QuizQuestion(
         question:
-        "51. A football match starts at 2:20 p.m. and lasts for 1 hour 50 minutes. At what time will the game end?          (BECE 2022 Q21)",
+            "51. A football match starts at 2:20 p.m. and lasts for 1 hour 50 minutes. At what time will the game end?          (BECE 2022 Q21)",
         options: [
           "3:10 p.m.",
           "4:10 p.m.",
@@ -3332,12 +3074,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Adding 1 hour to 2:20 p.m. gives 3:20 p.m. Adding another 50 minutes gives 4:10 p.m.",
+            "Adding 1 hour to 2:20 p.m. gives 3:20 p.m. Adding another 50 minutes gives 4:10 p.m.",
       ),
-
       QuizQuestion(
         question:
-        "52. Which of the following is not a quadrilateral?          (BECE 2022 Q35)",
+            "52. Which of the following is not a quadrilateral?          (BECE 2022 Q35)",
         options: [
           "Parallelogram",
           "Rhombus",
@@ -3347,12 +3088,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "A triangle has three sides, while a quadrilateral has four sides.",
+            "A triangle has three sides, while a quadrilateral has four sides.",
       ),
-
       QuizQuestion(
         question:
-        "53. A quadrilateral with one pair of opposite sides parallel is called a:          (BECE 2023 Q3)",
+            "53. A quadrilateral with one pair of opposite sides parallel is called a:          (BECE 2023 Q3)",
         options: [
           "Trapezium",
           "Kite",
@@ -3362,7 +3102,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "A trapezium is a quadrilateral with one pair of opposite sides parallel.",
+            "A trapezium is a quadrilateral with one pair of opposite sides parallel.",
       ),
     ],
   ),
@@ -3371,7 +3111,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        r"1. The point P(3, 4) is translated by the vector \begin{pmatrix} 3 \\ -2 \end{pmatrix} to a new position P'. Find the coordinates of the image P'.          (BECE 2006 Q38)",
+            r"1. The point P(3, 4) is translated by the vector \begin{pmatrix} 3 \\ -2 \end{pmatrix} to a new position P'. Find the coordinates of the image P'.          (BECE 2006 Q38)",
         options: [
           "(0, 2)",
           "(6, -2)",
@@ -3381,11 +3121,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "A translation adds the vector to the coordinates: (3 + 3, 4 - 2) = (6, 2).",
+            "A translation adds the vector to the coordinates: (3 + 3, 4 - 2) = (6, 2).",
       ),
       QuizQuestion(
         question:
-        "2. The point D(4, 3) is reflected in the y-axis. Find the coordinates of its image.          (BECE 2017 Q25)",
+            "2. The point D(4, 3) is reflected in the y-axis. Find the coordinates of its image.          (BECE 2017 Q25)",
         options: [
           "(-4, -3)",
           "(-3, 4)",
@@ -3395,11 +3135,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Reflection in the y-axis changes the sign of the x-coordinate only: (4, 3) → (-4, 3).",
+            "Reflection in the y-axis changes the sign of the x-coordinate only: (4, 3) → (-4, 3).",
       ),
       QuizQuestion(
         question:
-        r"3. Find the image of the point (2, 5) under the transformation \begin{pmatrix} x \\ y \end{pmatrix} → \begin{pmatrix} x \\ 2 - y \end{pmatrix}.          (BECE 2018 Q29)",
+            r"3. Find the image of the point (2, 5) under the transformation \begin{pmatrix} x \\ y \end{pmatrix} → \begin{pmatrix} x \\ 2 - y \end{pmatrix}.          (BECE 2018 Q29)",
         options: [
           "(2, -3)",
           "(2, 2)",
@@ -3409,11 +3149,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "Keep x the same and replace y with 2 − y: (2, 5) → (2, 2 − 5) = (2, -3).",
+            "Keep x the same and replace y with 2 − y: (2, 5) → (2, 2 − 5) = (2, -3).",
       ),
       QuizQuestion(
         question:
-        "4. Find the vector which translates the point (2, 6) to (5, 4).          (BECE 2023 Q5)",
+            "4. Find the vector which translates the point (2, 6) to (5, 4).          (BECE 2023 Q5)",
         options: [
           r"\begin{pmatrix} 3 \\ -2 \end{pmatrix}",
           r"\begin{pmatrix} 7 \\ 10 \end{pmatrix}",
@@ -3422,12 +3162,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        "Translation vector = (5 − 2, 4 − 6) = (3, -2).",
+        explanation: "Translation vector = (5 − 2, 4 − 6) = (3, -2).",
       ),
       QuizQuestion(
         question:
-        "5. A point (2, 1) is reflected in the y-axis. Find its image.          (BECE 2002A Q24)",
+            "5. A point (2, 1) is reflected in the y-axis. Find its image.          (BECE 2002A Q24)",
         options: [
           "(-1, 2)",
           "(1, -2)",
@@ -3437,11 +3176,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Reflection in the y-axis changes (x, y) to (-x, y): (2, 1) → (-2, 1).",
+            "Reflection in the y-axis changes (x, y) to (-x, y): (2, 1) → (-2, 1).",
       ),
       QuizQuestion(
         question:
-        "6. The point S(4, 3) is reflected in the y-axis. Find the coordinates of the image of S.          (BECE 2022 Q8)",
+            "6. The point S(4, 3) is reflected in the y-axis. Find the coordinates of the image of S.          (BECE 2022 Q8)",
         options: [
           "(-3, 4)",
           "(3, -4)",
@@ -3451,11 +3190,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Reflection in the y-axis changes the x-coordinate only: (4, 3) → (-4, 3).",
+            "Reflection in the y-axis changes the x-coordinate only: (4, 3) → (-4, 3).",
       ),
       QuizQuestion(
         question:
-        "7. Find the image of the point (-2, 3) under a reflection in the y-axis.          (BECE 2020 Q13)",
+            "7. Find the image of the point (-2, 3) under a reflection in the y-axis.          (BECE 2020 Q13)",
         options: [
           "(2, -3)",
           "(-3, 2)",
@@ -3464,12 +3203,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "Reflection in the y-axis changes (-2, 3) to (2, 3).",
+        explanation: "Reflection in the y-axis changes (-2, 3) to (2, 3).",
       ),
       QuizQuestion(
         question:
-        "8. The point P(-3, 7) is reflected in the x-axis. Find its image.          (BECE 2016 Q39)",
+            "8. The point P(-3, 7) is reflected in the x-axis. Find its image.          (BECE 2016 Q39)",
         options: [
           "(-3, -7)",
           "(-3, 7)",
@@ -3479,11 +3217,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "Reflection in the x-axis changes (x, y) to (x, -y): (-3, 7) → (-3, -7).",
+            "Reflection in the x-axis changes (x, y) to (x, -y): (-3, 7) → (-3, -7).",
       ),
       QuizQuestion(
         question:
-        "9. Find the vector which translates the point A(4, -5) to B(3, -2).          (BECE 2013 Q18)",
+            "9. Find the vector which translates the point A(4, -5) to B(3, -2).          (BECE 2013 Q18)",
         options: [
           r"\begin{pmatrix} -1 \\ -3 \end{pmatrix}",
           r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
@@ -3492,12 +3230,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        "Translation vector = (3 − 4, -2 − (-5)) = (-1, 3).",
+        explanation: "Translation vector = (3 − 4, -2 − (-5)) = (-1, 3).",
       ),
       QuizQuestion(
         question:
-        "10. Find the image of the point K(3, 5) when it is reflected in the x-axis.          (BECE 2002B Q19)",
+            "10. Find the image of the point K(3, 5) when it is reflected in the x-axis.          (BECE 2002B Q19)",
         options: [
           "(3, 5)",
           "(5, 3)",
@@ -3506,12 +3243,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "Reflection in the x-axis changes (3, 5) to (3, -5).",
+        explanation: "Reflection in the x-axis changes (3, 5) to (3, -5).",
       ),
       QuizQuestion(
         question:
-        "11. Find the image of the point S(-2, 2) when it is reflected in the y-axis.          (BECE 2023 Q6)",
+            "11. Find the image of the point S(-2, 2) when it is reflected in the y-axis.          (BECE 2023 Q6)",
         options: [
           "(2, 2)",
           "(2, -2)",
@@ -3520,12 +3256,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        "Reflection in the y-axis changes (-2, 2) to (2, 2).",
+        explanation: "Reflection in the y-axis changes (-2, 2) to (2, 2).",
       ),
       QuizQuestion(
         question:
-        "12. The point P(5, 4) is reflected in the y-axis. Find its image.          (BECE 2014 Q37)",
+            "12. The point P(5, 4) is reflected in the y-axis. Find its image.          (BECE 2014 Q37)",
         options: [
           "(-5, 4)",
           "(5, -4)",
@@ -3535,11 +3270,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "Reflection in the y-axis changes the sign of the x-coordinate only.",
+            "Reflection in the y-axis changes the sign of the x-coordinate only.",
       ),
       QuizQuestion(
         question:
-        "13. The image of P(10, -3) when translated by the vector r is P'(4, 5). Find r.          (BECE 2021 Q4)",
+            "13. The image of P(10, -3) when translated by the vector r is P'(4, 5). Find r.          (BECE 2021 Q4)",
         options: [
           r"\begin{pmatrix} 14 \\ 2 \end{pmatrix}",
           r"\begin{pmatrix} 6 \\ -8 \end{pmatrix}",
@@ -3548,12 +3283,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "Translation vector = (4 − 10, 5 − (-3)) = (-6, 8).",
+        explanation: "Translation vector = (4 − 10, 5 − (-3)) = (-6, 8).",
       ),
       QuizQuestion(
         question:
-        r"14. Find the image of the point (6, 3) when translated by the vector \begin{pmatrix} -4 \\ -1 \end{pmatrix}.          (BECE 1997 Q15)",
+            r"14. Find the image of the point (6, 3) when translated by the vector \begin{pmatrix} -4 \\ -1 \end{pmatrix}.          (BECE 1997 Q15)",
         options: [
           "(-2, -2)",
           "(2, -2)",
@@ -3563,11 +3297,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Add the vector to the coordinates: (6 − 4, 3 − 1) = (2, 2).",
+            "Add the vector to the coordinates: (6 − 4, 3 − 1) = (2, 2).",
       ),
       QuizQuestion(
         question:
-        "15. The point (4, 5) is translated to the point (3, 1). What is the translation vector?          (BECE 2010 Q33)",
+            "15. The point (4, 5) is translated to the point (3, 1). What is the translation vector?          (BECE 2010 Q33)",
         options: [
           r"\begin{pmatrix} -1 \\ -4 \end{pmatrix}",
           r"\begin{pmatrix} 1 \\ 4 \end{pmatrix}",
@@ -3576,12 +3310,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        "Translation vector = (3 − 4, 1 − 5) = (-1, -4).",
+        explanation: "Translation vector = (3 − 4, 1 − 5) = (-1, -4).",
       ),
       QuizQuestion(
         question:
-        r"16. If P'(4, -5) is the image of P(x, y) translated by r = \begin{pmatrix} -2 \\ 3 \end{pmatrix}(-2, 3), find the values of x and y.          (BECE 2020 Q32)",
+            r"16. If P'(4, -5) is the image of P(x, y) translated by r = \begin{pmatrix} -2 \\ 3 \end{pmatrix}(-2, 3), find the values of x and y.          (BECE 2020 Q32)",
         options: [
           "(-6, 8)",
           "(-6, -8)",
@@ -3591,11 +3324,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "Since (x − 2, y + 3) = (4, -5), then x = 6 and y = -8. (Note: the published options appear to contain an error; the correct answer should be (6, -8).)",
+            "Since (x − 2, y + 3) = (4, -5), then x = 6 and y = -8. (Note: the published options appear to contain an error; the correct answer should be (6, -8).)",
       ),
       QuizQuestion(
         question:
-        "17. A point (-2, 3) is reflected in the x-axis. Find the image of the point.          (BECE 2025 Q13)",
+            "17. A point (-2, 3) is reflected in the x-axis. Find the image of the point.          (BECE 2025 Q13)",
         options: [
           "(-3, -2)",
           "(-3, 2)",
@@ -3605,7 +3338,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Reflection in the x-axis changes the sign of the y-coordinate: (-2, 3) → (-2, -3).",
+            "Reflection in the x-axis changes the sign of the y-coordinate: (-2, 3) → (-2, -3).",
       ),
     ],
   ),
@@ -3615,7 +3348,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        "1. The scores of 10 students in an examination are given as follows: 45, 12, 75, 81, 54, 51, 24, 67, 19 and 39. What is the median of the scores?          (BECE 2010 Q17)",
+            "1. The scores of 10 students in an examination are given as follows: 45, 12, 75, 81, 54, 51, 24, 67, 19 and 39. What is the median of the scores?          (BECE 2010 Q17)",
         options: [
           "39",
           "48",
@@ -3625,12 +3358,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Arrange the scores in ascending order: 12, 19, 24, 39, 45, 51, 54, 67, 75, 81. Since there are 10 scores, the median is the average of the 5th and 6th scores: (45 + 51) ÷ 2 = 48.",
+            "Arrange the scores in ascending order: 12, 19, 24, 39, 45, 51, 54, 67, 75, 81. Since there are 10 scores, the median is the average of the 5th and 6th scores: (45 + 51) ÷ 2 = 48.",
       ),
-
       QuizQuestion(
         question:
-        "2. The ages in years of eight boys are 14, 14.5, 12, 11.5, 15, 13, 10.5 and 13.5. What is their average age?          (BECE 1995 Q25)",
+            "2. The ages in years of eight boys are 14, 14.5, 12, 11.5, 15, 13, 10.5 and 13.5. What is their average age?          (BECE 1995 Q25)",
         options: [
           "14",
           "13",
@@ -3640,12 +3372,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Add the ages: 14 + 14.5 + 12 + 11.5 + 15 + 13 + 10.5 + 13.5 = 104. The average age is 104 ÷ 8 = 13 years.",
+            "Add the ages: 14 + 14.5 + 12 + 11.5 + 15 + 13 + 10.5 + 13.5 = 104. The average age is 104 ÷ 8 = 13 years.",
       ),
-
       QuizQuestion(
         question:
-        "3. The marks obtained by six boys in a test are 20, 25, 15, 30, 28 and 16. Find the mean mark.          (BECE 1998 Q17)",
+            "3. The marks obtained by six boys in a test are 20, 25, 15, 30, 28 and 16. Find the mean mark.          (BECE 1998 Q17)",
         options: [
           "19.33",
           "22.33",
@@ -3655,12 +3386,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Add the marks: 20 + 25 + 15 + 30 + 28 + 16 = 134. The mean mark is 134 ÷ 6 = 22.33, correct to two decimal places.",
+            "Add the marks: 20 + 25 + 15 + 30 + 28 + 16 = 134. The mean mark is 134 ÷ 6 = 22.33, correct to two decimal places.",
       ),
-
       QuizQuestion(
         question:
-        "4. Find the mean of the following set of numbers: 10, 12, 14 and 16.          (BECE 2005 Q12)",
+            "4. Find the mean of the following set of numbers: 10, 12, 14 and 16.          (BECE 2005 Q12)",
         options: [
           "12",
           "13",
@@ -3670,12 +3400,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Add the numbers: 10 + 12 + 14 + 16 = 52. The mean is 52 ÷ 4 = 13.",
+            "Add the numbers: 10 + 12 + 14 + 16 = 52. The mean is 52 ÷ 4 = 13.",
       ),
-
       QuizQuestion(
         question:
-        "5. Find the median of the following marks: 2, 4, 10, 3, 6 and 12.          (BECE 2005 Q13)",
+            "5. Find the median of the following marks: 2, 4, 10, 3, 6 and 12.          (BECE 2005 Q13)",
         options: [
           "4",
           "5",
@@ -3685,12 +3414,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "Arrange the marks in ascending order: 2, 3, 4, 6, 10, 12. The median is the average of the two middle marks: (4 + 6) ÷ 2 = 5.",
+            "Arrange the marks in ascending order: 2, 3, 4, 6, 10, 12. The median is the average of the two middle marks: (4 + 6) ÷ 2 = 5.",
       ),
-
       QuizQuestion(
         question:
-        "6. The marks obtained by 5 girls in a test are 10, 15, 8, 18 and 12. Find the median mark.          (BECE 2006 Q18)",
+            "6. The marks obtained by 5 girls in a test are 10, 15, 8, 18 and 12. Find the median mark.          (BECE 2006 Q18)",
         options: [
           "10",
           "11",
@@ -3700,12 +3428,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Arrange the marks in ascending order: 8, 10, 12, 15, 18. The middle mark is 12, so the median is 12.",
+            "Arrange the marks in ascending order: 8, 10, 12, 15, 18. The middle mark is 12, so the median is 12.",
       ),
-
       QuizQuestion(
         question:
-        "7. The ages of the members of a social club are 20 years, 55 years, 60 years and 25 years. Find the mean age of the members of the club.          (BECE 2017 Q9)",
+            "7. The ages of the members of a social club are 20 years, 55 years, 60 years and 25 years. Find the mean age of the members of the club.          (BECE 2017 Q9)",
         options: [
           "20 years",
           "30 years",
@@ -3715,12 +3442,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Add the ages: 20 + 55 + 60 + 25 = 160 years. The mean age is 160 ÷ 4 = 40 years.",
+            "Add the ages: 20 + 55 + 60 + 25 = 160 years. The mean age is 160 ÷ 4 = 40 years.",
       ),
-
       QuizQuestion(
         question:
-        "8. What is the mode of the following set of numbers: 4, 5, 3, 3, 4, 2, 7, 6, 5, 4, 4 and 1?          (BECE 1995 Q9)",
+            "8. What is the mode of the following set of numbers: 4, 5, 3, 3, 4, 2, 7, 6, 5, 4, 4 and 1?          (BECE 1995 Q9)",
         options: [
           "3",
           "4",
@@ -3730,7 +3456,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The mode is the number that occurs most frequently. The number 4 occurs four times, more than any other number, so the mode is 4.",
+            "The mode is the number that occurs most frequently. The number 4 occurs four times, more than any other number, so the mode is 4.",
       ),
     ],
   ),
@@ -3739,7 +3465,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        "1. A boy throws a die once. What is the probability of getting the number 4?          (BECE 2007 Q12)",
+            "1. A boy throws a die once. What is the probability of getting the number 4?          (BECE 2007 Q12)",
         options: [
           r"\frac{1}{6}",
           r"\frac{1}{3}",
@@ -3749,11 +3475,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"A die has 6 equally likely outcomes, and only one outcome is 4. Therefore, the probability is \(\frac{1}{6}\).",
+            r"A die has 6 equally likely outcomes, and only one outcome is 4. Therefore, the probability is \(\frac{1}{6}\).",
       ),
       QuizQuestion(
         question:
-        "2. Five cards are numbered one to five. A card is picked at random. What is the probability that it has an even number?          (BECE 1995 Q20)",
+            "2. Five cards are numbered one to five. A card is picked at random. What is the probability that it has an even number?          (BECE 1995 Q20)",
         options: [
           "1",
           r"\frac{4}{5}",
@@ -3763,11 +3489,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The even numbers from 1 to 5 are 2 and 4. Therefore, there are 2 favourable outcomes out of 5 possible outcomes, so the probability is \(\frac{2}{5}\).",
+            r"The even numbers from 1 to 5 are 2 and 4. Therefore, there are 2 favourable outcomes out of 5 possible outcomes, so the probability is \(\frac{2}{5}\).",
       ),
       QuizQuestion(
         question:
-        r"3. If S = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, find the probability that a number selected at random from S is odd.          (BECE 2010 Q11)",
+            r"3. If S = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, find the probability that a number selected at random from S is odd.          (BECE 2010 Q11)",
         options: [
           "1",
           r"\frac{2}{3}",
@@ -3777,12 +3503,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The odd numbers are 1, 3, 5, 7 and 9. There are 5 odd numbers out of 10 numbers, so the probability is \(\frac{5}{10} = \frac{1}{2}\).",
+            r"The odd numbers are 1, 3, 5, 7 and 9. There are 5 odd numbers out of 10 numbers, so the probability is \(\frac{5}{10} = \frac{1}{2}\).",
       ),
-
       QuizQuestion(
         question:
-        "4. What is the probability of obtaining a prime number when a fair die is thrown once?          (BECE 1994 Q16)",
+            "4. What is the probability of obtaining a prime number when a fair die is thrown once?          (BECE 1994 Q16)",
         options: [
           r"\frac{1}{4}",
           r"\frac{1}{2}",
@@ -3792,12 +3517,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The prime numbers on a die are 2, 3 and 5. There are 3 favourable outcomes out of 6 possible outcomes, so the probability is \(\frac{3}{6} = \frac{1}{2}\).",
+            r"The prime numbers on a die are 2, 3 and 5. There are 3 favourable outcomes out of 6 possible outcomes, so the probability is \(\frac{3}{6} = \frac{1}{2}\).",
       ),
-
       QuizQuestion(
         question:
-        "5. What is the number of all possible outcomes of tossing a die?          (BECE 2005 Q38)",
+            "5. What is the number of all possible outcomes of tossing a die?          (BECE 2005 Q38)",
         options: [
           "2",
           "3",
@@ -3807,12 +3531,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A die has six faces numbered 1, 2, 3, 4, 5 and 6. Therefore, there are 6 possible outcomes.",
+            "A die has six faces numbered 1, 2, 3, 4, 5 and 6. Therefore, there are 6 possible outcomes.",
       ),
-
       QuizQuestion(
         question:
-        "6. The following are the scores obtained by girls in a beauty contest: 12, 16, 19, 14, 17, 8, 11 and 19. What is the probability of obtaining a score of 19?          (BECE 1994 Q17)",
+            "6. The following are the scores obtained by girls in a beauty contest: 12, 16, 19, 14, 17, 8, 11 and 19. What is the probability of obtaining a score of 19?          (BECE 1994 Q17)",
         options: [
           r"\frac{1}{9}",
           r"\frac{1}{8}",
@@ -3822,26 +3545,25 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The score 19 occurs twice among the 8 scores. Therefore, the probability is \frac{2}{8} = \frac{1}{4}.",
+            r"The score 19 occurs twice among the 8 scores. Therefore, the probability is \frac{2}{8} = \frac{1}{4}.",
       ),
-
       QuizQuestion(
         question:
-        "7. Kofi throws a die. What is the probability that he throws the number 2?          (BECE 1994 Q5)",
+            "7. Kofi throws a die. What is the probability that he throws the number 2?          (BECE 1994 Q5)",
         options: [
           "1",
-          r"\frac{2}{3}",          r"\frac{1}{2}",
+          r"\frac{2}{3}",
+          r"\frac{1}{2}",
           r"\frac{1}{6}",
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"A die has 6 equally likely outcomes, and only one outcome is 2. Therefore, the probability is \(\frac{1}{6}\).",
+            r"A die has 6 equally likely outcomes, and only one outcome is 2. Therefore, the probability is \(\frac{1}{6}\).",
       ),
-
       QuizQuestion(
         question:
-        "8. Eighteen cards are numbered from 11 to 29. If one card is chosen at random, what is the probability that it contains the digit 2?          (BECE 2010 Q19)",
+            "8. Eighteen cards are numbered from 11 to 29. If one card is chosen at random, what is the probability that it contains the digit 2?          (BECE 2010 Q19)",
         options: [
           r"\frac{3}{9}",
           r"\frac{7}{18}",
@@ -3851,12 +3573,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The numbers from 11 to 29 that contain the digit 2 are 12 and 20 to 29, giving 11 numbers. Since there are 19 numbers from 11 to 29 inclusive, the probability is \(\frac{11}{19}\). The statement saying there are 18 cards appears to be an error.",
+            r"The numbers from 11 to 29 that contain the digit 2 are 12 and 20 to 29, giving 11 numbers. Since there are 19 numbers from 11 to 29 inclusive, the probability is \(\frac{11}{19}\). The statement saying there are 18 cards appears to be an error.",
       ),
-
       QuizQuestion(
         question:
-        r"9. The probability of obtaining a head when a coin is tossed is \frac{1}{3}. What is the probability of obtaining a tail?          (BECE 1993 Q19)",
+            r"9. The probability of obtaining a head when a coin is tossed is \frac{1}{3}. What is the probability of obtaining a tail?          (BECE 1993 Q19)",
         options: [
           "1",
           r"\frac{2}{3}",
@@ -3866,12 +3587,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The probabilities of obtaining a head and a tail add up to 1. Therefore, the probability of a tail is \(1 - \frac{1}{3} = \frac{2}{3}\).",
+            r"The probabilities of obtaining a head and a tail add up to 1. Therefore, the probability of a tail is \(1 - \frac{1}{3} = \frac{2}{3}\).",
       ),
-
       QuizQuestion(
         question:
-        "10. The letters in the word HIPPOPOTAMUS are placed in a box. What is the probability of taking out a letter that is a vowel?          (BECE 2008 Q25)",
+            "10. The letters in the word HIPPOPOTAMUS are placed in a box. What is the probability of taking out a letter that is a vowel?          (BECE 2008 Q25)",
         options: [
           r"\frac{1}{12}",
           r"\frac{3}{12}",
@@ -3881,12 +3601,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The word HIPPOPOTAMUS has 12 letters. Its vowels are I, O, O, A and U, giving 5 vowels. Therefore, the probability is \(\frac{5}{12}\).",
+            r"The word HIPPOPOTAMUS has 12 letters. Its vowels are I, O, O, A and U, giving 5 vowels. Therefore, the probability is \(\frac{5}{12}\).",
       ),
-
       QuizQuestion(
         question:
-        "11. What is the probability of obtaining 4 when a fair die is tossed once?          (BECE 2016 Q18)",
+            "11. What is the probability of obtaining 4 when a fair die is tossed once?          (BECE 2016 Q18)",
         options: [
           r"\frac{1}{6}",
           r"\frac{1}{2}",
@@ -3896,12 +3615,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"A fair die has 6 equally likely outcomes, and only one outcome is 4. Therefore, the probability is \(\frac{1}{6}\).",
+            r"A fair die has 6 equally likely outcomes, and only one outcome is 4. Therefore, the probability is \(\frac{1}{6}\).",
       ),
-
       QuizQuestion(
         question:
-        "12. Mary had a chance to select a number from 1 to 20 randomly. What is the probability that the number is divisible by 3?          (BECE 2018 Q13)",
+            "12. Mary had a chance to select a number from 1 to 20 randomly. What is the probability that the number is divisible by 3?          (BECE 2018 Q13)",
         options: [
           r"\frac{3}{20}",
           r"\frac{1}{5}",
@@ -3911,12 +3629,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The numbers from 1 to 20 that are divisible by 3 are 3, 6, 9, 12, 15 and 18. There are 6 favourable outcomes out of 20, so the probability is \(\frac{6}{20} = \frac{3}{10}\).",
+            r"The numbers from 1 to 20 that are divisible by 3 are 3, 6, 9, 12, 15 and 18. There are 6 favourable outcomes out of 20, so the probability is \(\frac{6}{20} = \frac{3}{10}\).",
       ),
-
       QuizQuestion(
         question:
-        r"13. Given that P = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}, what is the probability of selecting a prime number from the set?          (BECE 2020 Q34)",
+            r"13. Given that P = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}, what is the probability of selecting a prime number from the set?          (BECE 2020 Q34)",
         options: [
           r"\frac{2}{3}",
           r"\frac{7}{12}",
@@ -3926,12 +3643,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The prime numbers in the set are 2, 3, 5, 7 and 11. There are 5 prime numbers out of 12 numbers, so the probability is \(\frac{5}{12}\).",
+            r"The prime numbers in the set are 2, 3, 5, 7 and 11. There are 5 prime numbers out of 12 numbers, so the probability is \(\frac{5}{12}\).",
       ),
-
       QuizQuestion(
         question:
-        "14. What is the probability that a number greater than 5 shows up when a die is thrown?          (BECE 2022 Q12)",
+            "14. What is the probability that a number greater than 5 shows up when a die is thrown?          (BECE 2022 Q12)",
         options: [
           r"\frac{1}{6}",
           r"\frac{1}{3}",
@@ -3941,12 +3657,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The only number greater than 5 on a standard die is 6. Therefore, there is 1 favourable outcome out of 6, so the probability is \(\frac{1}{6}\).",
+            r"The only number greater than 5 on a standard die is 6. Therefore, there is 1 favourable outcome out of 6, so the probability is \(\frac{1}{6}\).",
       ),
-
       QuizQuestion(
         question:
-        "15. A number is selected at random from: 25, 26, 27, 28, ..., 35. Find the probability that the number selected is a prime number.          (BECE 2019 Q22)",
+            "15. A number is selected at random from: 25, 26, 27, 28, ..., 35. Find the probability that the number selected is a prime number.          (BECE 2019 Q22)",
         options: [
           r"\frac{6}{11}",
           r"\frac{3}{11}",
@@ -3956,12 +3671,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"There are 11 numbers from 25 to 35 inclusive. The prime numbers are 29 and 31, giving 2 favourable outcomes. Therefore, the probability is \(\frac{2}{11}\).",
+            r"There are 11 numbers from 25 to 35 inclusive. The prime numbers are 29 and 31, giving 2 favourable outcomes. Therefore, the probability is \(\frac{2}{11}\).",
       ),
-
       QuizQuestion(
         question:
-        "16. The ages in years of 10 children at a party are 2, 3, 3, 3, 4, 4, 5, 5, 5 and 6. If a child is chosen at random, what is the probability that he or she is not less than 5 years old?          (BECE 2015 Q18)",
+            "16. The ages in years of 10 children at a party are 2, 3, 3, 3, 4, 4, 5, 5, 5 and 6. If a child is chosen at random, what is the probability that he or she is not less than 5 years old?          (BECE 2015 Q18)",
         options: [
           r"\frac{2}{3}",
           r"\frac{2}{5}",
@@ -3971,18 +3685,17 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Not less than 5 means greater than or equal to 5. The qualifying ages are 5, 5, 5 and 6, giving 4 children out of 10. Therefore, the probability is \(\frac{4}{10} = \frac{2}{5}\).",
+            r"Not less than 5 means greater than or equal to 5. The qualifying ages are 5, 5, 5 and 6, giving 4 children out of 10. Therefore, the probability is \(\frac{4}{10} = \frac{2}{5}\).",
       ),
     ],
   ),
-
 
   "Math JHS2 s1 ss1 - NUMBER AND NUMERATION SYSTEMS": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
         question:
-        r"1. Given that 2^2 \times 3^2 \times 7 = 252, find the least number that should be multiplied by 252 to make the product a perfect square.          (BECE 1991 Q4)",
+            r"1. Given that 2^2 \times 3^2 \times 7 = 252, find the least number that should be multiplied by 252 to make the product a perfect square.          (BECE 1991 Q4)",
         options: [
           "2",
           "3",
@@ -3992,11 +3705,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"In 2^2 \times 3^2 \times 7, only 7 has an odd power. Multiplying by 7 gives 2^2 \times 3^2 \times 7^2, which is a perfect square.",
+            r"In 2^2 \times 3^2 \times 7, only 7 has an odd power. Multiplying by 7 gives 2^2 \times 3^2 \times 7^2, which is a perfect square.",
       ),
       QuizQuestion(
         question:
-        r"2. If Y = {house, tree} and V = {cat, house, tree}, which of the following is true of Y and V?          (BECE 1991 Q2)",
+            r"2. If Y = {house, tree} and V = {cat, house, tree}, which of the following is true of Y and V?          (BECE 1991 Q2)",
         options: [
           r"Y = V",
           r"Y \subseteq V",
@@ -4006,11 +3719,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Every member of Y is also a member of V. Therefore, Y \subseteq V.",
+            r"Every member of Y is also a member of V. Therefore, Y \subseteq V.",
       ),
       QuizQuestion(
         question:
-        "3. Write 39.9748 km, correct to three significant figures.          (BECE 1993 Q30)",
+            "3. Write 39.9748 km, correct to three significant figures.          (BECE 1993 Q30)",
         options: [
           "39.9 km",
           "39.975 km",
@@ -4020,11 +3733,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The first three significant digits are 3, 9 and 9. The next digit is 7, so the number rounds to 40.0 km.",
+            "The first three significant digits are 3, 9 and 9. The next digit is 7, so the number rounds to 40.0 km.",
       ),
       QuizQuestion(
         question:
-        r"4. If P = {7, 11, 13} and Q = {9, 11, 13}, find P \cup Q.          (BECE 1992 Q2)",
+            r"4. If P = {7, 11, 13} and Q = {9, 11, 13}, find P \cup Q.          (BECE 1992 Q2)",
         options: [
           r"{7}",
           r"{9}",
@@ -4034,11 +3747,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The union contains every member found in P or Q. Therefore, P \cup Q = \{7, 9, 11, 13\}.",
+            r"The union contains every member found in P or Q. Therefore, P \cup Q = \{7, 9, 11, 13\}.",
       ),
       QuizQuestion(
         question:
-        "5. Find the set of prime factors of 12.          (BECE 1992 Q1)",
+            "5. Find the set of prime factors of 12.          (BECE 1992 Q1)",
         options: [
           r"{3}",
           r"{2, 3}",
@@ -4047,12 +3760,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
+        explanation: r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
       ),
       QuizQuestion(
         question:
-        "6. Two sets which have no common member or members are known as:          (BECE 1998 Q1)",
+            "6. Two sets which have no common member or members are known as:          (BECE 1998 Q1)",
         options: [
           "Equal sets",
           "Intersecting sets",
@@ -4061,12 +3773,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation:
-        "Disjoint sets are sets that have no members in common.",
+        explanation: "Disjoint sets are sets that have no members in common.",
       ),
       QuizQuestion(
         question:
-        "7. Which of the following is the set of factors of 12?          (BECE 1994 Q1)",
+            "7. Which of the following is the set of factors of 12?          (BECE 1994 Q1)",
         options: [
           r"{12, 6, 4, 3, 2, 1}",
           r"{12, 6, 4, 3, 2}",
@@ -4075,13 +3786,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        "The positive factors of 12 are 1, 2, 3, 4, 6 and 12.",
+        explanation: "The positive factors of 12 are 1, 2, 3, 4, 6 and 12.",
       ),
-
       QuizQuestion(
         question:
-        "8. Set A is called ........ of set B when all the members of set A are also members of set B.          (BECE 1999 Q1)",
+            "8. Set A is called ........ of set B when all the members of set A are also members of set B.          (BECE 1999 Q1)",
         options: [
           "The universal set",
           "The union set",
@@ -4091,12 +3800,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A is a subset of B when every member of A is also a member of B.",
+            "A is a subset of B when every member of A is also a member of B.",
       ),
-
       QuizQuestion(
         question:
-        "9. The distance between two towns is 12875 km. Express this distance in standard form.          (BECE 1990 Q14)",
+            "9. The distance between two towns is 12875 km. Express this distance in standard form.          (BECE 1990 Q14)",
         options: [
           r"1.2875 x 10^3 km",
           r"1.2875 x 10^4 km",
@@ -4106,12 +3814,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"In standard form, the first number must be at least 1 but less than 10. Therefore, 12875 = 1.2875 \times 10^4.",
+            r"In standard form, the first number must be at least 1 but less than 10. Therefore, 12875 = 1.2875 \times 10^4.",
       ),
-
       QuizQuestion(
         question:
-        r"10. If P = {7, 9, 13} and Q = {1, 7, 13}, find P \cap Q.          (BECE 1990 Q1)",
+            r"10. If P = {7, 9, 13} and Q = {1, 7, 13}, find P \cap Q.          (BECE 1990 Q1)",
         options: [
           r"{1, 7, 13}",
           r"{1, 9, 13}",
@@ -4121,12 +3828,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The members common to both P and Q are 7 and 13. Therefore, P \cap Q = \{7, 13\}.",
+            r"The members common to both P and Q are 7 and 13. Therefore, P \cap Q = \{7, 13\}.",
       ),
-
       QuizQuestion(
         question:
-        "11. Write two hundred thousand and fifty-seven in figures.          (BECE 1996 Q5)",
+            "11. Write two hundred thousand and fifty-seven in figures.          (BECE 1996 Q5)",
         options: [
           "20057",
           "200057",
@@ -4136,12 +3842,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Two hundred thousand and fifty-seven is written as 200,057.",
+            "Two hundred thousand and fifty-seven is written as 200,057.",
       ),
-
       QuizQuestion(
         question:
-        r"12. M = {1, 2, 3, 8, 10} and N = {8, 1, x, 3, 2}. If M = N, what is the value of x?          (BECE 2000 Q1)",
+            r"12. M = {1, 2, 3, 8, 10} and N = {8, 1, x, 3, 2}. If M = N, what is the value of x?          (BECE 2000 Q1)",
         options: [
           "10",
           "2",
@@ -4151,12 +3856,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "Equal sets contain exactly the same members. The missing member in N is 10, so x = 10.",
+            "Equal sets contain exactly the same members. The missing member in N is 10, so x = 10.",
       ),
-
       QuizQuestion(
         question:
-        "13. Express 0.0043216 in standard form.          (BECE 1994 Q20)",
+            "13. Express 0.0043216 in standard form.          (BECE 1994 Q20)",
         options: [
           r"4.3216 x 10^{-4}",
           r"4.3216 x 10^{-3}",
@@ -4166,12 +3870,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Moving the decimal point three places to the right gives 4.3216. Therefore, 0.0043216 = 4.3216 \times 10^{-3}.",
+            r"Moving the decimal point three places to the right gives 4.3216. Therefore, 0.0043216 = 4.3216 \times 10^{-3}.",
       ),
-
       QuizQuestion(
         question:
-        r"14. P = {1, 2, 3, 8, 10} and Q = {8, 1, x, 3, 2}. If P = Q, what is the value of x?          (BECE 1991 Q1)",
+            r"14. P = {1, 2, 3, 8, 10} and Q = {8, 1, x, 3, 2}. If P = Q, what is the value of x?          (BECE 1991 Q1)",
         options: [
           "1",
           "2",
@@ -4181,12 +3884,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "For P and Q to be equal, Q must contain 10. Therefore, x = 10.",
+            "For P and Q to be equal, Q must contain 10. Therefore, x = 10.",
       ),
-
       QuizQuestion(
         question:
-        "15. What is the value of 4 in the number 2 043 507?          (BECE 2000 Q4)",
+            "15. What is the value of 4 in the number 2 043 507?          (BECE 2000 Q4)",
         options: [
           "Forty",
           "Four hundred",
@@ -4196,12 +3898,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The digit 4 is in the ten-thousands place, so its value is 40,000.",
+            "The digit 4 is in the ten-thousands place, so its value is 40,000.",
       ),
-
       QuizQuestion(
         question:
-        r"16. P = {0, 2, 4, 6} and Q = {1, 2, 4, 5}. Find P \cap Q.          (BECE 1998 Q2)",
+            r"16. P = {0, 2, 4, 6} and Q = {1, 2, 4, 5}. Find P \cap Q.          (BECE 1998 Q2)",
         options: [
           r"{0, 6}",
           r"{2, 4}",
@@ -4211,12 +3912,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The members common to P and Q are 2 and 4. Therefore, P \cap Q = \{2, 4\}.",
+            r"The members common to P and Q are 2 and 4. Therefore, P \cap Q = \{2, 4\}.",
       ),
-
       QuizQuestion(
         question:
-        r"17. U = {0, 1}. How many subsets has U?          (BECE 1996 Q1)",
+            r"17. U = {0, 1}. How many subsets has U?          (BECE 1996 Q1)",
         options: [
           "1",
           "2",
@@ -4226,12 +3926,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"A set with n members has 2^n subsets. Since U has 2 members, it has 2^2 = 4 subsets.",
+            r"A set with n members has 2^n subsets. Since U has 2 members, it has 2^2 = 4 subsets.",
       ),
-
       QuizQuestion(
         question:
-        r"18. R = {1, 3, 5, 7} and S = {2, 4, 6, 8}. Find R \cup S.          (BECE 2001 Q1)",
+            r"18. R = {1, 3, 5, 7} and S = {2, 4, 6, 8}. Find R \cup S.          (BECE 2001 Q1)",
         options: [
           r"{}",
           r"{1, 2, 3, 5, 6, 8}",
@@ -4241,11 +3940,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The union contains all the members of R and S. Therefore, R \cup S = \{1, 2, 3, 4, 5, 6, 7, 8\}.",
+            r"The union contains all the members of R and S. Therefore, R \cup S = \{1, 2, 3, 4, 5, 6, 7, 8\}.",
       ),
       QuizQuestion(
         question:
-        r"19. Find the missing numbers in the set {5, 10, 15, _, 25, _, _, 40}.          (BECE 2001 Q2)",
+            r"19. Find the missing numbers in the set {5, 10, 15, _, 25, _, _, 40}.          (BECE 2001 Q2)",
         options: [
           "20 and 30",
           "30 and 35",
@@ -4255,11 +3954,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The numbers increase by 5. The missing numbers are 20, 30 and 35.",
+            "The numbers increase by 5. The missing numbers are 20, 30 and 35.",
       ),
       QuizQuestion(
         question:
-        "20. Correct 0.00025 to one significant figure.          (BECE 2002 Q12)",
+            "20. Correct 0.00025 to one significant figure.          (BECE 2002 Q12)",
         options: [
           "0.2",
           "0.003",
@@ -4269,11 +3968,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The first significant digit is 2 and the next digit is 5, so 2 is rounded up to 3. The answer is 0.0003.",
+            "The first significant digit is 2 and the next digit is 5, so 2 is rounded up to 3. The answer is 0.0003.",
       ),
       QuizQuestion(
         question:
-        r"21. If Q = {2, 4, 6, 7, 8, 10} and R = {3, 5, 7, 9, 10, 11}, find Q \cap R.          (BECE 2003 Q2)",
+            r"21. If Q = {2, 4, 6, 7, 8, 10} and R = {3, 5, 7, 9, 10, 11}, find Q \cap R.          (BECE 2003 Q2)",
         options: [
           r"{3, 5, 7, 9, 10, 11}",
           r"{7, 10}",
@@ -4283,11 +3982,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The common members of Q and R are 7 and 10. Therefore, Q \cap R = \{7, 10\}.",
+            r"The common members of Q and R are 7 and 10. Therefore, Q \cap R = \{7, 10\}.",
       ),
       QuizQuestion(
         question:
-        "22. What is the value of the digit 8 in the number 78000?          (BECE 2003 Q8)",
+            "22. What is the value of the digit 8 in the number 78000?          (BECE 2003 Q8)",
         options: [
           "8 ten thousands",
           "8 thousands",
@@ -4297,11 +3996,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The digit 8 is in the thousands place, so its value is 8 thousands, or 8,000.",
+            "The digit 8 is in the thousands place, so its value is 8 thousands, or 8,000.",
       ),
       QuizQuestion(
         question:
-        "23. Which of the following is not a factor of 18?          (BECE 2005 Q2)",
+            "23. Which of the following is not a factor of 18?          (BECE 2005 Q2)",
         options: [
           "3",
           "4",
@@ -4311,11 +4010,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The factors of 18 include 1, 2, 3, 6, 9 and 18. Therefore, 4 is not a factor of 18.",
+            "The factors of 18 include 1, 2, 3, 6, 9 and 18. Therefore, 4 is not a factor of 18.",
       ),
       QuizQuestion(
         question:
-        r"24. Given that A = {b, c, i} and B = {a, e, f, i}, find A \cap B.          (BECE 2005 Q4)",
+            r"24. Given that A = {b, c, i} and B = {a, e, f, i}, find A \cap B.          (BECE 2005 Q4)",
         options: [
           r"{a, b, c, e, f, i}",
           r"{f, i}",
@@ -4325,11 +4024,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The only member common to A and B is i. Therefore, A \cap B = \{i\}.",
+            r"The only member common to A and B is i. Therefore, A \cap B = \{i\}.",
       ),
       QuizQuestion(
         question:
-        r"25. Arrange the following numbers from the highest to the lowest: \frac{2}{3}, -7, 0.          (BECE 2005 Q6)",
+            r"25. Arrange the following numbers from the highest to the lowest: \frac{2}{3}, -7, 0.          (BECE 2005 Q6)",
         options: [
           r"-7, 0, \frac{2}{3}",
           r"-7, \frac{2}{3}, 0",
@@ -4339,11 +4038,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Since \frac{2}{3} is positive, it is greater than 0, while -7 is negative. Therefore, the order is \frac{2}{3}, 0, -7.",
+            r"Since \frac{2}{3} is positive, it is greater than 0, while -7 is negative. Therefore, the order is \frac{2}{3}, 0, -7.",
       ),
       QuizQuestion(
         question:
-        r"26. If Q = {1, 3, 5, 7, 9, 11, 13, 15} and R = {1, 2, 3, 5, 6, 7, 10, 11, 12}, find Q \cap R.          (BECE 2006 Q1)",
+            r"26. If Q = {1, 3, 5, 7, 9, 11, 13, 15} and R = {1, 2, 3, 5, 6, 7, 10, 11, 12}, find Q \cap R.          (BECE 2006 Q1)",
         options: [
           r"{1, 3, 5, 7, 11}",
           r"{1, 3, 5, 7, 9, 11}",
@@ -4352,12 +4051,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        r"The members common to Q and R are 1, 3, 5, 7 and 11.",
+        explanation: r"The members common to Q and R are 1, 3, 5, 7 and 11.",
       ),
       QuizQuestion(
         question:
-        "27. Which of the following is the set of prime factors of 12?          (BECE 2006 Q6)",
+            "27. Which of the following is the set of prime factors of 12?          (BECE 2006 Q6)",
         options: [
           r"{1, 3}",
           r"{2, 3}",
@@ -4366,12 +4064,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
+        explanation: r"Since 12 = 2^2 \times 3, its prime factors are 2 and 3.",
       ),
       QuizQuestion(
         question:
-        "28. Correct 0.003858 to three significant figures.          (BECE 2006 Q8)",
+            "28. Correct 0.003858 to three significant figures.          (BECE 2006 Q8)",
         options: [
           "0.00385",
           "0.00386",
@@ -4381,11 +4078,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The first three significant digits are 3, 8 and 5. The next digit is 8, so 5 is rounded up to 6, giving 0.00386.",
+            "The first three significant digits are 3, 8 and 5. The next digit is 8, so 5 is rounded up to 6, giving 0.00386.",
       ),
       QuizQuestion(
         question:
-        "29. What is the value of the digit 9 in the number 624.93?          (BECE 2006 Q36)",
+            "29. What is the value of the digit 9 in the number 624.93?          (BECE 2006 Q36)",
         options: [
           "9 hundreds",
           "9 tens",
@@ -4395,11 +4092,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The digit 9 is the first digit after the decimal point, so its value is 9 tenths.",
+            "The digit 9 is the first digit after the decimal point, so its value is 9 tenths.",
       ),
       QuizQuestion(
         question:
-        r"30. List the members of the set P = {factors of 30 which are odd}.          (BECE 2007 Q1)",
+            r"30. List the members of the set P = {factors of 30 which are odd}.          (BECE 2007 Q1)",
         options: [
           r"P = {2, 3, 5}",
           r"P = {1, 2, 3, 5}",
@@ -4408,12 +4105,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "The odd factors of 30 are 1, 3, 5 and 15.",
+        explanation: "The odd factors of 30 are 1, 3, 5 and 15.",
       ),
       QuizQuestion(
         question:
-        r"31. M = {g, o, q, s} and P = {h, p, r, t}. Find M \cup P.          (BECE 2007 Q2)",
+            r"31. M = {g, o, q, s} and P = {h, p, r, t}. Find M \cup P.          (BECE 2007 Q2)",
         options: [
           r"{q, r, s, t}",
           r"{g, h, o, p, r}",
@@ -4423,11 +4119,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The union contains every member in M and P. Therefore, M \cup P = \{g, h, o, p, q, r, s, t\}.",
+            r"The union contains every member in M and P. Therefore, M \cup P = \{g, h, o, p, q, r, s, t\}.",
       ),
       QuizQuestion(
         question:
-        r"32. List the members of the set {2 \leq x \leq 5}.          (BECE 2008 Q2)",
+            r"32. List the members of the set {2 \leq x \leq 5}.          (BECE 2008 Q2)",
         options: [
           r"{2, 5}",
           r"{2, 3, 4}",
@@ -4437,11 +4133,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The whole numbers from 2 to 5 inclusive are 2, 3, 4 and 5.",
+            r"The whole numbers from 2 to 5 inclusive are 2, 3, 4 and 5.",
       ),
       QuizQuestion(
         question:
-        r"33. Given that A = {1, 2, 3, 4, 5, 6} and B = {3, 6, 9, 12}, find A \cup B.          (BECE 2009 Q1)",
+            r"33. Given that A = {1, 2, 3, 4, 5, 6} and B = {3, 6, 9, 12}, find A \cup B.          (BECE 2009 Q1)",
         options: [
           r"{3, 6}",
           r"{6, 12}",
@@ -4451,11 +4147,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The union contains all distinct members in A and B: \{1, 2, 3, 4, 5, 6, 9, 12\}.",
+            r"The union contains all distinct members in A and B: \{1, 2, 3, 4, 5, 6, 9, 12\}.",
       ),
       QuizQuestion(
         question:
-        r"34. Which of the following sets is equal to {1, 2, 3, 4}?          (BECE 2009 Q6)",
+            r"34. Which of the following sets is equal to {1, 2, 3, 4}?          (BECE 2009 Q6)",
         options: [
           r"{2, 4, 1, 5}",
           r"{2, 1, 4, 3}",
@@ -4465,11 +4161,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The order of members in a set does not matter. The second set contains exactly 1, 2, 3 and 4.",
+            "The order of members in a set does not matter. The second set contains exactly 1, 2, 3 and 4.",
       ),
       QuizQuestion(
         question:
-        "35. What is the value of four in the number 7073.48?          (BECE 2009 Q34)",
+            "35. What is the value of four in the number 7073.48?          (BECE 2009 Q34)",
         options: [
           "Four tenths",
           "Four",
@@ -4479,11 +4175,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "The digit 4 is the first digit after the decimal point, so its value is four tenths.",
+            "The digit 4 is the first digit after the decimal point, so its value is four tenths.",
       ),
       QuizQuestion(
         question:
-        "36. Which of the following sets is well defined?          (BECE 2010 Q1)",
+            "36. Which of the following sets is well defined?          (BECE 2010 Q1)",
         options: [
           r"{Man, Kofi, Red, 14}",
           r"{Ink, Mango, Green, Nail}",
@@ -4493,11 +4189,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The fourth option clearly consists of names of people, so membership of the set can be determined without ambiguity.",
+            "The fourth option clearly consists of names of people, so membership of the set can be determined without ambiguity.",
       ),
       QuizQuestion(
         question:
-        "37. If set B is a subset of set A, then:          (BECE 2010 Q2)",
+            "37. If set B is a subset of set A, then:          (BECE 2010 Q2)",
         options: [
           "Sets A and B have the same number of elements.",
           "Some members of set B can be found in set A.",
@@ -4507,11 +4203,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "B is a subset of A when every member of B is also a member of A.",
+            "B is a subset of A when every member of B is also a member of A.",
       ),
       QuizQuestion(
         question:
-        "38. Arrange the following numbers from the lowest to the highest: 0.5, 3, -5, 0.          (BECE 2010 Q9)",
+            "38. Arrange the following numbers from the lowest to the highest: 0.5, 3, -5, 0.          (BECE 2010 Q9)",
         options: [
           "0, 0.5, -5, 3",
           "0, -5, 0.5, 3",
@@ -4521,11 +4217,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "A negative number is less than zero, and 0.5 is less than 3. Therefore, the order is -5, 0, 0.5, 3.",
+            "A negative number is less than zero, and 0.5 is less than 3. Therefore, the order is -5, 0, 0.5, 3.",
       ),
       QuizQuestion(
         question:
-        "39. Which of the following is the set of prime factors of 12?          (BECE 2011 Q1)",
+            "39. Which of the following is the set of prime factors of 12?          (BECE 2011 Q1)",
         options: [
           r"{2, 3}",
           r"{1, 2, 3}",
@@ -4535,11 +4231,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Since 12 = 2^2 \times 3, the prime factors of 12 are 2 and 3.",
+            r"Since 12 = 2^2 \times 3, the prime factors of 12 are 2 and 3.",
       ),
       QuizQuestion(
         question:
-        r"40. If A = {18, 19, 20} and B = {15, 16, 17}, find A \cap B.          (BECE 2011 Q8)",
+            r"40. If A = {18, 19, 20} and B = {15, 16, 17}, find A \cap B.          (BECE 2011 Q8)",
         options: [
           r"{15, 16, 17, 18, 19, 20}",
           r"{15, 16, 18, 19}",
@@ -4549,11 +4245,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"A and B have no common members. Therefore, A \cap B = \{\}.",
+            r"A and B have no common members. Therefore, A \cap B = \{\}.",
       ),
       QuizQuestion(
         question:
-        "41. What is the value of 7 in the number 832713?          (BECE 2011 Q38)",
+            "41. What is the value of 7 in the number 832713?          (BECE 2011 Q38)",
         options: [
           "Seven thousand",
           "Seven hundred",
@@ -4563,11 +4259,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The digit 7 is in the hundreds place, so its value is seven hundred.",
+            "The digit 7 is in the hundreds place, so its value is seven hundred.",
       ),
       QuizQuestion(
         question:
-        r"42. If P = {2, 3, 5, 7} and Q = {2, 4, 6, 8}, find P \cap Q.          (BECE 2012 Q1)",
+            r"42. If P = {2, 3, 5, 7} and Q = {2, 4, 6, 8}, find P \cap Q.          (BECE 2012 Q1)",
         options: [
           r"{2}",
           r"{3}",
@@ -4577,11 +4273,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The only member common to P and Q is 2. Therefore, P \cap Q = \{2\}.",
+            r"The only member common to P and Q is 2. Therefore, P \cap Q = \{2\}.",
       ),
       QuizQuestion(
         question:
-        r"43. If A = {5, 10, 15, 20, 25, 125} and B = {5, 10, 15, 20, 25, 625}, list the elements of A \cup B.          (BECE 2013 Q1)",
+            r"43. If A = {5, 10, 15, 20, 25, 125} and B = {5, 10, 15, 20, 25, 625}, list the elements of A \cup B.          (BECE 2013 Q1)",
         options: [
           r"{5, 25}",
           r"{10, 20, 125, 625}",
@@ -4591,11 +4287,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The union contains every distinct member in A or B. Therefore, A \cup B = \{5, 10, 15, 20, 25, 125, 625\}.",
+            r"The union contains every distinct member in A or B. Therefore, A \cup B = \{5, 10, 15, 20, 25, 125, 625\}.",
       ),
       QuizQuestion(
         question:
-        "44. Two sets whose intersection is an empty set are:          (BECE 2013 Q40)",
+            "44. Two sets whose intersection is an empty set are:          (BECE 2013 Q40)",
         options: [
           "Disjoint sets",
           "Equivalent sets",
@@ -4605,11 +4301,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "Disjoint sets have no members in common, so their intersection is empty.",
+            "Disjoint sets have no members in common, so their intersection is empty.",
       ),
       QuizQuestion(
         question:
-        "45. If set N is a subset of set M, then:          (BECE 2014 Q1)",
+            "45. If set N is a subset of set M, then:          (BECE 2014 Q1)",
         options: [
           "Sets M and N have the same number of elements.",
           "Some members of set N can be found in set M.",
@@ -4619,11 +4315,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "N is a subset of M when every member of N is also a member of M.",
+            "N is a subset of M when every member of N is also a member of M.",
       ),
       QuizQuestion(
         question:
-        r"46. List the members of the set Q = {prime factors of 30}.          (BECE 2015 Q1)",
+            r"46. List the members of the set Q = {prime factors of 30}.          (BECE 2015 Q1)",
         options: [
           r"{2, 3, 5}",
           r"{2, 6, 10}",
@@ -4633,11 +4329,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Since 30 = 2 \times 3 \times 5, its prime factors are 2, 3 and 5.",
+            r"Since 30 = 2 \times 3 \times 5, its prime factors are 2, 3 and 5.",
       ),
       QuizQuestion(
         question:
-        "47. What is the place value of 7 in 24.376?          (BECE 2015 Q4)",
+            "47. What is the place value of 7 in 24.376?          (BECE 2015 Q4)",
         options: [
           "Unit",
           "Ten",
@@ -4647,11 +4343,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The digit 7 is the second digit after the decimal point, so it is in the hundredths place.",
+            "The digit 7 is the second digit after the decimal point, so it is in the hundredths place.",
       ),
       QuizQuestion(
         question:
-        "48. Which of the following is a finite set?          (BECE 2016 Q1)",
+            "48. Which of the following is a finite set?          (BECE 2016 Q1)",
         options: [
           r"{2, 4, 6, 8, ...}",
           r"{1, 2, 3, 4, ...}",
@@ -4661,12 +4357,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "A finite set has a fixed number of members. The set containing 3, 6, 9 and 12 has exactly four members.",
+            "A finite set has a fixed number of members. The set containing 3, 6, 9 and 12 has exactly four members.",
       ),
-
       QuizQuestion(
         question:
-        r"49. Given that M = {a, b, c}, find the number of subsets of M.          (BECE 2016 Q2)",
+            r"49. Given that M = {a, b, c}, find the number of subsets of M.          (BECE 2016 Q2)",
         options: [
           "3",
           "4",
@@ -4676,12 +4371,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"A set with n members has 2^n subsets. Since M has 3 members, it has 2^3 = 8 subsets.",
+            r"A set with n members has 2^n subsets. Since M has 3 members, it has 2^3 = 8 subsets.",
       ),
-
       QuizQuestion(
         question:
-        r"50. If P = {2, 4, 6, 8} and Q = {1, 2, 3, 4}, find P \cap Q.          (BECE 2016 Q3)",
+            r"50. If P = {2, 4, 6, 8} and Q = {1, 2, 3, 4}, find P \cap Q.          (BECE 2016 Q3)",
         options: [
           r"{2, 4}",
           r"{7, 9, 10}",
@@ -4691,12 +4385,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The members common to P and Q are 2 and 4. Therefore, P \cap Q = \{2, 4\}.",
+            r"The members common to P and Q are 2 and 4. Therefore, P \cap Q = \{2, 4\}.",
       ),
-
       QuizQuestion(
         question:
-        "51. Correct 5178.3426 to two decimal places.          (BECE 2016 Q11)",
+            "51. Correct 5178.3426 to two decimal places.          (BECE 2016 Q11)",
         options: [
           "5178.00",
           "5178.30",
@@ -4706,12 +4399,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The hundredths digit is 4 and the next digit is 2. Since 2 is less than 5, the answer remains 5178.34.",
+            "The hundredths digit is 4 and the next digit is 2. Since 2 is less than 5, the answer remains 5178.34.",
       ),
-
       QuizQuestion(
         question:
-        r"52. If Q = {1, 3, 5, 7, 10, 11, 15} and T = {1, 2, 3, 5, 6, 7, 11, 12}, find Q \cup T.          (BECE 2016 Q3)",
+            r"52. If Q = {1, 3, 5, 7, 10, 11, 15} and T = {1, 2, 3, 5, 6, 7, 11, 12}, find Q \cup T.          (BECE 2016 Q3)",
         options: [
           r"{1, 2, 3, 5, 7, 10, 11}",
           r"{1, 3, 5, 7, 9, 11, 13, 15}",
@@ -4721,12 +4413,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The union contains all distinct members in Q and T: \{1, 2, 3, 5, 6, 7, 10, 11, 12, 15\}.",
+            r"The union contains all distinct members in Q and T: \{1, 2, 3, 5, 6, 7, 10, 11, 12, 15\}.",
       ),
-
       QuizQuestion(
         question:
-        "53. Which of the following is an infinite set?          (BECE 2018 Q3)",
+            "53. Which of the following is an infinite set?          (BECE 2018 Q3)",
         options: [
           r"{1, 2, ..., 5, 6, 7}",
           r"{4, 6, 8, 10, 12}",
@@ -4736,12 +4427,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The third set represents the prime numbers and continues without an end, so it is infinite.",
+            "The third set represents the prime numbers and continues without an end, so it is infinite.",
       ),
-
       QuizQuestion(
         question:
-        "54. Write two hundred and two million, two thousand and two in figures.          (BECE 2018 Q5)",
+            "54. Write two hundred and two million, two thousand and two in figures.          (BECE 2018 Q5)",
         options: [
           "202,002,202",
           "202,020,202",
@@ -4751,12 +4441,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "The wording gives 202,002,002, but that number is not among the supplied options. Option A is the likely intended answer, although it represents 202,002,202.",
+            "The wording gives 202,002,002, but that number is not among the supplied options. Option A is the likely intended answer, although it represents 202,002,202.",
       ),
-
       QuizQuestion(
         question:
-        r"55. Given that A = {2, 4, 6, 8, 10} and B = {4, 8, 12}, find A \cup B.          (BECE 2019 Q1)",
+            r"55. Given that A = {2, 4, 6, 8, 10} and B = {4, 8, 12}, find A \cup B.          (BECE 2019 Q1)",
         options: [
           r"{4, 8}",
           r"{2, 8, 12}",
@@ -4766,12 +4455,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The union contains all distinct members in A and B: \{2, 4, 6, 8, 10, 12\}.",
+            r"The union contains all distinct members in A and B: \{2, 4, 6, 8, 10, 12\}.",
       ),
-
       QuizQuestion(
         question:
-        "56. Express 0.000344 in standard form.          (BECE 2019 Q2)",
+            "56. Express 0.000344 in standard form.          (BECE 2019 Q2)",
         options: [
           r"3.44 x 10^{-6}",
           r"3.44 x 10^{-5}",
@@ -4781,12 +4469,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"Moving the decimal point four places to the right gives 3.44. Therefore, 0.000344 = 3.44 \times 10^{-4}.",
+            r"Moving the decimal point four places to the right gives 3.44. Therefore, 0.000344 = 3.44 \times 10^{-4}.",
       ),
-
       QuizQuestion(
         question:
-        "57. Correct 0.024561 to three significant figures.          (BECE 2019 Q4)",
+            "57. Correct 0.024561 to three significant figures.          (BECE 2019 Q4)",
         options: [
           "0.03",
           "0.025",
@@ -4796,12 +4483,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The first three significant digits are 2, 4 and 5. The next digit is 6, so 5 is rounded up to 6, giving 0.0246.",
+            "The first three significant digits are 2, 4 and 5. The next digit is 6, so 5 is rounded up to 6, giving 0.0246.",
       ),
-
       QuizQuestion(
         question:
-        "58. Express 4382.93 in standard form.          (BECE 2020 Q3)",
+            "58. Express 4382.93 in standard form.          (BECE 2020 Q3)",
         options: [
           r"4382.93 x 10^4",
           r"43.8293 x 10^2",
@@ -4811,12 +4497,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"In standard form, the first number must be at least 1 but less than 10. Therefore, 4382.93 = 4.38293 \times 10^3.",
+            r"In standard form, the first number must be at least 1 but less than 10. Therefore, 4382.93 = 4.38293 \times 10^3.",
       ),
-
       QuizQuestion(
         question:
-        r"59. If P = {7, 11, 13} and Q = {9, 11, 13}, find P \cup Q.          (BECE 2020 Q40)",
+            r"59. If P = {7, 11, 13} and Q = {9, 11, 13}, find P \cup Q.          (BECE 2020 Q40)",
         options: [
           r"{7, 9, 11, 13}",
           r"{7, 9}",
@@ -4826,12 +4511,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The union contains all distinct members in P and Q: \{7, 9, 11, 13\}.",
+            r"The union contains all distinct members in P and Q: \{7, 9, 11, 13\}.",
       ),
-
       QuizQuestion(
         question:
-        r"60. If P = {4, 8, 12, 16, 20}, Q = {16, 4, 12, k, 20} and P = Q, find the value of k.          (BECE 2021 Q28)",
+            r"60. If P = {4, 8, 12, 16, 20}, Q = {16, 4, 12, k, 20} and P = Q, find the value of k.          (BECE 2021 Q28)",
         options: [
           "20",
           "16",
@@ -4841,12 +4525,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Equal sets contain the same members. The missing member in Q is 8, so k = 8.",
+            "Equal sets contain the same members. The missing member in Q is 8, so k = 8.",
       ),
-
       QuizQuestion(
         question:
-        "61. The population of a town is 56782. What is this number to three significant figures?          (BECE 2025 Q31)",
+            "61. The population of a town is 56782. What is this number to three significant figures?          (BECE 2025 Q31)",
         options: [
           "567",
           "568",
@@ -4856,12 +4539,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The first three significant digits are 5, 6 and 7. The next digit is 8, so 567 is rounded up to 568, giving 56,800.",
+            "The first three significant digits are 5, 6 and 7. The next digit is 8, so 567 is rounded up to 568, giving 56,800.",
       ),
-
       QuizQuestion(
         question:
-        r"62. Given that P = {4, 8, 12, 16, 20} and Q = {2, 4, 6, 8, 10}, find the product of the members of P \cap Q.          (BECE 2025 Q37)",
+            r"62. Given that P = {4, 8, 12, 16, 20} and Q = {2, 4, 6, 8, 10}, find the product of the members of P \cap Q.          (BECE 2025 Q37)",
         options: [
           "12",
           "18",
@@ -4871,7 +4553,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The common members are P \cap Q = \{4, 8\}. Their product is 4 \times 8 = 32.",
+            r"The common members are P \cap Q = \{4, 8\}. Their product is 4 \times 8 = 32.",
       ),
     ],
   ),
@@ -4879,8 +4561,7 @@ final Map<String, QuizModel> beceQuizData = {
     audioPath: '',
     questions: [
       QuizQuestion(
-        question:
-        r"1. If n^2 + 1 = 50, find n.          (BECE 1998 Q7)",
+        question: r"1. If n^2 + 1 = 50, find n.          (BECE 1998 Q7)",
         options: [
           "7",
           "24.5",
@@ -4890,11 +4571,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Subtract 1 from both sides: n^2 = 49. Therefore, n = 7, which is the value among the options.",
+            r"Subtract 1 from both sides: n^2 = 49. Therefore, n = 7, which is the value among the options.",
       ),
       QuizQuestion(
-        question:
-        r"2. Simplify 15^9 \div 15^7.          (BECE 1994 Q10)",
+        question: r"2. Simplify 15^9 \div 15^7.          (BECE 1994 Q10)",
         options: [
           "30",
           "63",
@@ -4904,11 +4584,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"When dividing powers with the same base, subtract the indices: 15^9 \div 15^7 = 15^{9-7} = 15^2 = 225.",
+            r"When dividing powers with the same base, subtract the indices: 15^9 \div 15^7 = 15^{9-7} = 15^2 = 225.",
       ),
       QuizQuestion(
         question:
-        r"3. Evaluate \frac{0.63 \times 0.70}{9.00}.          (BECE 1998 Q8)",
+            r"3. Evaluate \frac{0.63 \times 0.70}{9.00}.          (BECE 1998 Q8)",
         options: [
           "0.0049",
           "0.049",
@@ -4918,11 +4598,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"First, 0.63 \times 0.70 = 0.441. Then 0.441 \div 9 = 0.049.",
+            r"First, 0.63 \times 0.70 = 0.441. Then 0.441 \div 9 = 0.049.",
       ),
       QuizQuestion(
         question:
-        r"4. If a = 2^2 \times 2^3 \times 2^4, find the value of a.          (BECE 1990 Q13)",
+            r"4. If a = 2^2 \times 2^3 \times 2^4, find the value of a.          (BECE 1990 Q13)",
         options: [
           r"2^9",
           r"2^5",
@@ -4932,11 +4612,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"When multiplying powers with the same base, add the indices: 2^2 \times 2^3 \times 2^4 = 2^{2+3+4} = 2^9.",
+            r"When multiplying powers with the same base, add the indices: 2^2 \times 2^3 \times 2^4 = 2^{2+3+4} = 2^9.",
       ),
       QuizQuestion(
         question:
-        r"5. Find the set of integers within the interval -2 < x < 2.          (BECE 2003 Q26)",
+            r"5. Find the set of integers within the interval -2 < x < 2.          (BECE 2003 Q26)",
         options: [
           r"{-2, -1, 2}",
           r"{-2, -1, 0}",
@@ -4946,11 +4626,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The integers greater than -2 and less than 2 are -1, 0 and 1.",
+            r"The integers greater than -2 and less than 2 are -1, 0 and 1.",
       ),
       QuizQuestion(
         question:
-        r"6. What is the value of x in the relation 5^{\times} = 125?          (BECE 1995 Q18)",
+            r"6. What is the value of x in the relation 5^{\times} = 125?          (BECE 1995 Q18)",
         options: [
           "2",
           "3",
@@ -4959,12 +4639,10 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        r"Since 125 = 5^3, it follows that x = 3.",
+        explanation: r"Since 125 = 5^3, it follows that x = 3.",
       ),
       QuizQuestion(
-        question:
-        r"7. Simplify 2 x 3^2 x 3^4.          (BECE 1999 Q13)",
+        question: r"7. Simplify 2 x 3^2 x 3^4.          (BECE 1999 Q13)",
         options: [
           r"2 x 3^5",
           r"2 x 3^6",
@@ -4974,11 +4652,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Add the indices of the powers with base 3: 3^2 \times 3^4 = 3^6. Therefore, the expression is 2 \times 3^6.",
+            r"Add the indices of the powers with base 3: 3^2 \times 3^4 = 3^6. Therefore, the expression is 2 \times 3^6.",
       ),
       QuizQuestion(
-        question:
-        r"8. If a^6 \div a^4 = 64, find a.          (BECE 1991 Q23)",
+        question: r"8. If a^6 \div a^4 = 64, find a.          (BECE 1991 Q23)",
         options: [
           "8",
           "10",
@@ -4988,11 +4665,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Simplify the left side: a^6 \div a^4 = a^2. Thus, a^2 = 64, so a = 8 among the given options.",
+            r"Simplify the left side: a^6 \div a^4 = a^2. Thus, a^2 = 64, so a = 8 among the given options.",
       ),
       QuizQuestion(
         question:
-        "9. The least number in a set of real numbers is 24 and the greatest is 30. Which of the following is the correct interpretation of the statement?          (BECE 1990 Q36)",
+            "9. The least number in a set of real numbers is 24 and the greatest is 30. Which of the following is the correct interpretation of the statement?          (BECE 1990 Q36)",
         options: [
           r"24 \leq x \leq 30",
           r"24 < x \leq 30",
@@ -5002,11 +4679,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Since 24 and 30 are included as the least and greatest values, the interval is 24 \leq x \leq 30.",
+            r"Since 24 and 30 are included as the least and greatest values, the interval is 24 \leq x \leq 30.",
       ),
       QuizQuestion(
         question:
-        r"10. List all members of the set {x : 2 < x < 8, x is an integer}.          (BECE 1995 Q28)",
+            r"10. List all members of the set {x : 2 < x < 8, x is an integer}.          (BECE 1995 Q28)",
         options: [
           r"{3, 4, 5, 6, 7}",
           r"{2, 3, 4, 5, 6, 7, 8}",
@@ -5016,11 +4693,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The integers greater than 2 and less than 8 are 3, 4, 5, 6 and 7.",
+            r"The integers greater than 2 and less than 8 are 3, 4, 5, 6 and 7.",
       ),
       QuizQuestion(
-        question:
-        r"11. Evaluate \frac{0.036}{0.02}.          (BECE 2004 Q3)",
+        question: r"11. Evaluate \frac{0.036}{0.02}.          (BECE 2004 Q3)",
         options: [
           "0.018",
           "0.18",
@@ -5029,12 +4705,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        r"Dividing 0.036 by 0.02 gives 1.8.",
+        explanation: r"Dividing 0.036 by 0.02 gives 1.8.",
       ),
       QuizQuestion(
         question:
-        r"12. Simplify 0.1 x 0.02 x 0.003, leaving your answer in standard form.          (BECE 2002B Q2)",
+            r"12. Simplify 0.1 x 0.02 x 0.003, leaving your answer in standard form.          (BECE 2002B Q2)",
         options: [
           r"6 x 10^{-7}",
           r"6 x 10^{-6}",
@@ -5044,12 +4719,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"0.1 \times 0.02 \times 0.003 = 0.000006 = 6 \times 10^{-6}.",
+            r"0.1 \times 0.02 \times 0.003 = 0.000006 = 6 \times 10^{-6}.",
       ),
-
       QuizQuestion(
         question:
-        r"13. Simplify \frac{6^2}{2^2 \times 3}.          (BECE 1996 Q20)",
+            r"13. Simplify \frac{6^2}{2^2 \times 3}.          (BECE 1996 Q20)",
         options: [
           "1",
           "2",
@@ -5059,12 +4733,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"6^2 = 36 and 2^2 \times 3 = 4 \times 3 = 12. Therefore, 36 \div 12 = 3.",
+            r"6^2 = 36 and 2^2 \times 3 = 4 \times 3 = 12. Therefore, 36 \div 12 = 3.",
       ),
-
       QuizQuestion(
-        question:
-        r"14. Simplify 2^8 \div 2^3.          (BECE 2002B Q6)",
+        question: r"14. Simplify 2^8 \div 2^3.          (BECE 2002B Q6)",
         options: [
           r"2^{24}",
           r"2^{10}",
@@ -5074,12 +4746,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"When dividing powers with the same base, subtract the indices: 2^8 \div 2^3 = 2^{8-3} = 2^5.",
+            r"When dividing powers with the same base, subtract the indices: 2^8 \div 2^3 = 2^{8-3} = 2^5.",
       ),
-
       QuizQuestion(
         question:
-        r"15. Simplify \frac{0.12 \times 0.08}{2.40}.          (BECE 2000 Q12)",
+            r"15. Simplify \frac{0.12 \times 0.08}{2.40}.          (BECE 2000 Q12)",
         options: [
           "0.4",
           "0.04",
@@ -5089,12 +4760,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"First, 0.12 \times 0.08 = 0.0096. Then 0.0096 \div 2.40 = 0.004.",
+            r"First, 0.12 \times 0.08 = 0.0096. Then 0.0096 \div 2.40 = 0.004.",
       ),
-
       QuizQuestion(
         question:
-        r"16. Find the value of M given that M = (3^6 \div 3^4) \times 27.          (BECE 1994 Q19)",
+            r"16. Find the value of M given that M = (3^6 \div 3^4) \times 27.          (BECE 1994 Q19)",
         options: [
           r"3^1",
           r"3^2",
@@ -5104,11 +4774,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"3^6 \div 3^4 = 3^2 and 27 = 3^3. Therefore, M = 3^2 \times 3^3 = 3^5.",
+            r"3^6 \div 3^4 = 3^2 and 27 = 3^3. Therefore, M = 3^2 \times 3^3 = 3^5.",
       ),
       QuizQuestion(
         question:
-        r"17. Find the integers within the interval 5 < x < 9.          (BECE 1999 Q9)",
+            r"17. Find the integers within the interval 5 < x < 9.          (BECE 1999 Q9)",
         options: [
           r"\{5, 6, 7\}",
           r"\{5, 6, 7, 8\}",
@@ -5118,11 +4788,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The integers greater than 5 and less than 9 are 6, 7 and 8.",
+            r"The integers greater than 5 and less than 9 are 6, 7 and 8.",
       ),
       QuizQuestion(
         question:
-        "18. Calculate, correct to two decimal places, 0.61 ÷ 0.8.          (BECE 1999 Q10)",
+            "18. Calculate, correct to two decimal places, 0.61 ÷ 0.8.          (BECE 1999 Q10)",
         options: [
           "0.07",
           "0.08",
@@ -5132,11 +4802,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "0.61 ÷ 0.8 = 0.7625. Correct to two decimal places, this is 0.76.",
+            "0.61 ÷ 0.8 = 0.7625. Correct to two decimal places, this is 0.76.",
       ),
       QuizQuestion(
         question:
-        "19. Evaluate 0.25 × 0.06, correct to three decimal places.          (BECE 2001 Q9)",
+            "19. Evaluate 0.25 × 0.06, correct to three decimal places.          (BECE 2001 Q9)",
         options: [
           "0.001",
           "0.002",
@@ -5146,11 +4816,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "0.25 × 0.06 = 0.015, which is already written to three decimal places.",
+            "0.25 × 0.06 = 0.015, which is already written to three decimal places.",
       ),
       QuizQuestion(
         question:
-        "20. If 7.2 and 7.9 are two points on a number line, find the number in the middle of these points.          (BECE 2003 Q4)",
+            "20. If 7.2 and 7.9 are two points on a number line, find the number in the middle of these points.          (BECE 2003 Q4)",
         options: [
           "7.35",
           "7.45",
@@ -5160,11 +4830,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The midpoint is the average of the two numbers: (7.2 + 7.9) ÷ 2 = 15.1 ÷ 2 = 7.55.",
+            "The midpoint is the average of the two numbers: (7.2 + 7.9) ÷ 2 = 15.1 ÷ 2 = 7.55.",
       ),
       QuizQuestion(
         question:
-        r"21. Simplify \frac{2^{10} \times 3^2}{3^6 \times 2^8}.          (BECE 2004 Q9)",
+            r"21. Simplify \frac{2^{10} \times 3^2}{3^6 \times 2^8}.          (BECE 2004 Q9)",
         options: [
           r"\frac{2^2}{3^4}",
           r"\frac{3^4}{2^2}",
@@ -5174,11 +4844,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Subtract the indices of like bases: 2^{10-8} = 2^2 and 3^{2-6} = \frac{1}{3^4}. Therefore, the result is \frac{2^2}{3^4}.",
+            r"Subtract the indices of like bases: 2^{10-8} = 2^2 and 3^{2-6} = \frac{1}{3^4}. Therefore, the result is \frac{2^2}{3^4}.",
       ),
       QuizQuestion(
-        question:
-        r"22. If n^2 + 4 = 40, find n.          (BECE 2004 Q33)",
+        question: r"22. If n^2 + 4 = 40, find n.          (BECE 2004 Q33)",
         options: [
           "6",
           "18",
@@ -5188,11 +4857,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Subtract 4 from both sides: n^2 = 36. Therefore, n = 6, which is the value among the options.",
+            r"Subtract 4 from both sides: n^2 = 36. Therefore, n = 6, which is the value among the options.",
       ),
       QuizQuestion(
-        question:
-        "23. Multiply 0.014 by 0.2.          (BECE 2005 Q3)",
+        question: "23. Multiply 0.014 by 0.2.          (BECE 2005 Q3)",
         options: [
           "0.00028",
           "0.0028",
@@ -5201,12 +4869,10 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        "0.014 × 0.2 = 0.0028.",
+        explanation: "0.014 × 0.2 = 0.0028.",
       ),
       QuizQuestion(
-        question:
-        "24. Simplify 348.94 - 188.34.          (BECE 1995 Q29)",
+        question: "24. Simplify 348.94 - 188.34.          (BECE 1995 Q29)",
         options: [
           "60.60",
           "60.68",
@@ -5215,13 +4881,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "Subtracting gives 348.94 - 188.34 = 160.60.",
+        explanation: "Subtracting gives 348.94 - 188.34 = 160.60.",
       ),
-
       QuizQuestion(
         question:
-        r"25. If 2^{2\times} = 8, what is the value of x?          (BECE 1996 Q10)",
+            r"25. If 2^{2\times} = 8, what is the value of x?          (BECE 1996 Q10)",
         options: [
           r"\frac{2}{3}",
           "1",
@@ -5231,12 +4895,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"Since 8 = 2^3, equate the indices: 2x = 3. Therefore, x = \frac{3}{2}.",
+            r"Since 8 = 2^3, equate the indices: 2x = 3. Therefore, x = \frac{3}{2}.",
       ),
-
       QuizQuestion(
         question:
-        "26. Express the product 162.5 × 0.5 in standard form.          (BECE 1996 Q30)",
+            "26. Express the product 162.5 × 0.5 in standard form.          (BECE 1996 Q30)",
         options: [
           r"81.25 \times 10^{-1}",
           r"81.25 \times 10",
@@ -5246,12 +4909,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"162.5 \times 0.5 = 81.25. In standard form, 81.25 = 8.125 \times 10.",
+            r"162.5 \times 0.5 = 81.25. In standard form, 81.25 = 8.125 \times 10.",
       ),
-
       QuizQuestion(
         question:
-        r"27. Simplify \frac{0.24 \times 14.3}{5.2}.          (BECE 1996 Q32)",
+            r"27. Simplify \frac{0.24 \times 14.3}{5.2}.          (BECE 1996 Q32)",
         options: [
           "66",
           "6.60",
@@ -5260,13 +4922,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 3,
         difficulty: "Medium",
-        explanation:
-        r"0.24 \times 14.3 = 3.432, and 3.432 \div 5.2 = 0.66.",
+        explanation: r"0.24 \times 14.3 = 3.432, and 3.432 \div 5.2 = 0.66.",
       ),
-
       QuizQuestion(
         question:
-        r"28. Evaluate \frac{1}{2}\{(4 - 1) - (5 - 6)\}.          (BECE 1998 Q3)",
+            r"28. Evaluate \frac{1}{2}\{(4 - 1) - (5 - 6)\}.          (BECE 1998 Q3)",
         options: [
           "-4",
           "1.0",
@@ -5276,12 +4936,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"(4 - 1) = 3 and (5 - 6) = -1. Therefore, \frac{1}{2}\{3 - (-1)\} = \frac{1}{2} \times 4 = 2.",
+            r"(4 - 1) = 3 and (5 - 6) = -1. Therefore, \frac{1}{2}\{3 - (-1)\} = \frac{1}{2} \times 4 = 2.",
       ),
-
       QuizQuestion(
         question:
-        r"29. How many integers are within the interval -5 < x < 7?          (BECE 2015 Q8)",
+            r"29. How many integers are within the interval -5 < x < 7?          (BECE 2015 Q8)",
         options: [
           "10",
           "11",
@@ -5291,12 +4950,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The integers are -4, -3, -2, -1, 0, 1, 2, 3, 4, 5 and 6. There are 11 integers.",
+            "The integers are -4, -3, -2, -1, 0, 1, 2, 3, 4, 5 and 6. There are 11 integers.",
       ),
-
       QuizQuestion(
         question:
-        r"30. What is the value of x if 10^x = 1000?          (BECE 2015 Q15)",
+            r"30. What is the value of x if 10^x = 1000?          (BECE 2015 Q15)",
         options: [
           "1",
           "2",
@@ -5305,13 +4963,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        r"Since 1000 = 10^3, it follows that x = 3.",
+        explanation: r"Since 1000 = 10^3, it follows that x = 3.",
       ),
-
       QuizQuestion(
         question:
-        r"31. Simplify 5^2 \times 2^2 \times 5^2 \times 2.          (BECE 2016 Q15)",
+            r"31. Simplify 5^2 \times 2^2 \times 5^2 \times 2.          (BECE 2016 Q15)",
         options: [
           r"2^2 \times 5^2",
           r"2^2 \times 5^4",
@@ -5321,12 +4977,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Combine powers with the same base: 5^2 \times 5^2 = 5^4 and 2^2 \times 2 = 2^3. Therefore, the result is 2^3 \times 5^4.",
+            r"Combine powers with the same base: 5^2 \times 5^2 = 5^4 and 2^2 \times 2 = 2^3. Therefore, the result is 2^3 \times 5^4.",
       ),
-
       QuizQuestion(
         question:
-        r"32. Evaluate \frac{0.0049}{0.041}.          (BECE 2017 Q11)",
+            r"32. Evaluate \frac{0.0049}{0.041}.          (BECE 2017 Q11)",
         options: [
           "0.012",
           "0.12",
@@ -5335,13 +4990,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation:
-        r"0.0049 \div 0.041 is approximately 0.12.",
+        explanation: r"0.0049 \div 0.041 is approximately 0.12.",
       ),
-
       QuizQuestion(
         question:
-        "33. Divide 64.5 by 0.015, leaving your answer in standard form.          (BECE 2017 Q27)",
+            "33. Divide 64.5 by 0.015, leaving your answer in standard form.          (BECE 2017 Q27)",
         options: [
           r"4.3 \times 10^4",
           r"4.3 \times 10^3",
@@ -5351,12 +5004,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"64.5 \div 0.015 = 4300. In standard form, 4300 = 4.3 \times 10^3.",
+            r"64.5 \div 0.015 = 4300. In standard form, 4300 = 4.3 \times 10^3.",
       ),
-
       QuizQuestion(
         question:
-        r"34. If P = {x : x is an even number greater than two and less than or equal to twelve}, list the members of P.          (BECE 2018 Q2)",
+            r"34. If P = {x : x is an even number greater than two and less than or equal to twelve}, list the members of P.          (BECE 2018 Q2)",
         options: [
           r"{2, 4, 6, 8, 10, 12}",
           r"{3, 4, 6, 8, 10, 12}",
@@ -5366,12 +5018,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The even numbers greater than 2 and less than or equal to 12 are 4, 6, 8, 10 and 12.",
+            "The even numbers greater than 2 and less than or equal to 12 are 4, 6, 8, 10 and 12.",
       ),
-
       QuizQuestion(
-        question:
-        r"35. Simplify 16^2 \times 8^2.          (BECE 2018 Q26)",
+        question: r"35. Simplify 16^2 \times 8^2.          (BECE 2018 Q26)",
         options: [
           r"2^{10}",
           r"2^{14}",
@@ -5381,12 +5031,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Since 16 = 2^4 and 8 = 2^3, 16^2 \times 8^2 = 2^8 \times 2^6 = 2^{14}.",
+            r"Since 16 = 2^4 and 8 = 2^3, 16^2 \times 8^2 = 2^8 \times 2^6 = 2^{14}.",
       ),
-
       QuizQuestion(
         question:
-        r"36. Simplify (7^5 \times 7^3) \div 7^6.          (BECE 2019 Q5)",
+            r"36. Simplify (7^5 \times 7^3) \div 7^6.          (BECE 2019 Q5)",
         options: [
           r"7^9",
           r"7^4",
@@ -5396,12 +5045,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Add the indices in the numerator and subtract the denominator's index: 7^{5+3-6} = 7^2.",
+            r"Add the indices in the numerator and subtract the denominator's index: 7^{5+3-6} = 7^2.",
       ),
-
       QuizQuestion(
         question:
-        r"37. Evaluate (0.07 \times 0.02) \div 14.          (BECE 2019 Q33)",
+            r"37. Evaluate (0.07 \times 0.02) \div 14.          (BECE 2019 Q33)",
         options: [
           "0.01",
           "0.001",
@@ -5410,13 +5058,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation:
-        "0.07 × 0.02 = 0.0014, and 0.0014 ÷ 14 = 0.0001.",
+        explanation: "0.07 × 0.02 = 0.0014, and 0.0014 ÷ 14 = 0.0001.",
       ),
-
       QuizQuestion(
         question:
-        r"38. If (x - 3)^2 = 16, find the positive value of x.          (BECE 2020 Q12)",
+            r"38. If (x - 3)^2 = 16, find the positive value of x.          (BECE 2020 Q12)",
         options: [
           "1",
           "3",
@@ -5426,12 +5072,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"Taking square roots gives x - 3 = \pm 4. Thus, x = 7 or x = -1. The positive value is 7.",
+            r"Taking square roots gives x - 3 = \pm 4. Thus, x = 7 or x = -1. The positive value is 7.",
       ),
-
       QuizQuestion(
-        question:
-        r"39. Solve 4^{\times} = 32.          (BECE 2020 Q29)",
+        question: r"39. Solve 4^{\times} = 32.          (BECE 2020 Q29)",
         options: [
           r"2\frac{1}{2}",
           r"3\frac{1}{2}",
@@ -5441,12 +5085,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Write both sides as powers of 2: 4^x = 2^{2x} and 32 = 2^5. Thus, 2x = 5, so x = \frac{5}{2} = 2\frac{1}{2}.",
+            r"Write both sides as powers of 2: 4^x = 2^{2x} and 32 = 2^5. Thus, 2x = 5, so x = \frac{5}{2} = 2\frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        r"40. Simplify 2^2 \times 2^7 \div 2^4.          (BECE 2020 Q39)",
+            r"40. Simplify 2^2 \times 2^7 \div 2^4.          (BECE 2020 Q39)",
         options: [
           r"2^{-1}",
           r"2^5",
@@ -5456,12 +5099,10 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Add the indices when multiplying and subtract when dividing: 2^{2+7-4} = 2^5.",
+            r"Add the indices when multiplying and subtract when dividing: 2^{2+7-4} = 2^5.",
       ),
-
       QuizQuestion(
-        question:
-        "41. Divide 0.5445 by 0.09.          (BECE 2021 Q23)",
+        question: "41. Divide 0.5445 by 0.09.          (BECE 2021 Q23)",
         options: [
           "5.05",
           "6.05",
@@ -5470,13 +5111,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        "0.5445 ÷ 0.09 = 6.05.",
+        explanation: "0.5445 ÷ 0.09 = 6.05.",
       ),
-
       QuizQuestion(
         question:
-        r"42. Simplify \frac{5^7 \times 5^4}{5^3}.          (BECE 2023 Q39)",
+            r"42. Simplify \frac{5^7 \times 5^4}{5^3}.          (BECE 2023 Q39)",
         options: [
           "0",
           "25",
@@ -5486,12 +5125,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Using the laws of indices gives 5^{7+4-3} = 5^8. However, 5^8 is not among the supplied options. The original question or options appear to contain an error.",
+            r"Using the laws of indices gives 5^{7+4-3} = 5^8. However, 5^8 is not among the supplied options. The original question or options appear to contain an error.",
       ),
-
       QuizQuestion(
         question:
-        r"43. Solve 2^{\times} = 8 \times 2^0.          (BECE 2025 Q17)",
+            r"43. Solve 2^{\times} = 8 \times 2^0.          (BECE 2025 Q17)",
         options: [
           r"x = 3",
           r"x = 2",
@@ -5501,7 +5139,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Since 2^0 = 1, the right side is 8. Also, 8 = 2^3. Therefore, x = 3.",
+            r"Since 2^0 = 1, the right side is 8. Also, 8 = 2^3. Therefore, x = 3.",
       ),
     ],
   ),
@@ -5510,7 +5148,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        r"1. Kofi received \phi800.00 commission on the sales he made on a particular day. The commission is 20\% of the sales he made. Calculate his total sales for the day.          (BECE 1998 Q27)",
+            r"1. Kofi received \phi800.00 commission on the sales he made on a particular day. The commission is 20\% of the sales he made. Calculate his total sales for the day.          (BECE 1998 Q27)",
         options: [
           r"\phi1,200.00",
           r"\phi2,400.00",
@@ -5520,11 +5158,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"Let the total sales be x. Since 20\% of x is \phi800.00, x = \frac{800 \times 100}{20} = \phi4,000.00.",
+            r"Let the total sales be x. Since 20\% of x is \phi800.00, x = \frac{800 \times 100}{20} = \phi4,000.00.",
       ),
       QuizQuestion(
         question:
-        r"2. A shop increased all its prices by 10\%. Calculate the new price of an article which was previously sold for \phi7,500.00.          (BECE 1999 Q19)",
+            r"2. A shop increased all its prices by 10\%. Calculate the new price of an article which was previously sold for \phi7,500.00.          (BECE 1999 Q19)",
         options: [
           r"\phi6,750.00",
           r"\phi7,500.00",
@@ -5534,11 +5172,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The increase is 10\% of \phi7,500.00, which is \phi750.00. Therefore, the new price is \phi7,500.00 + \phi750.00 = \phi8,250.00.",
+            r"The increase is 10\% of \phi7,500.00, which is \phi750.00. Therefore, the new price is \phi7,500.00 + \phi750.00 = \phi8,250.00.",
       ),
       QuizQuestion(
         question:
-        r"3. Amina spent \frac{17}{35} of her pocket money on transport and food. If she spent \frac{2}{7} on transport only, what fraction did she spend on food?          (BECE 2000 Q15)",
+            r"3. Amina spent \frac{17}{35} of her pocket money on transport and food. If she spent \frac{2}{7} on transport only, what fraction did she spend on food?          (BECE 2000 Q15)",
         options: [
           r"\frac{2}{5}",
           r"\frac{1}{5}",
@@ -5548,11 +5186,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"The fraction spent on food is \frac{17}{35} - \frac{2}{7}. Since \frac{2}{7} = \frac{10}{35}, the answer is \frac{17}{35} - \frac{10}{35} = \frac{7}{35} = \frac{1}{5}.",
+            r"The fraction spent on food is \frac{17}{35} - \frac{2}{7}. Since \frac{2}{7} = \frac{10}{35}, the answer is \frac{17}{35} - \frac{10}{35} = \frac{7}{35} = \frac{1}{5}.",
       ),
       QuizQuestion(
         question:
-        r"4. By how much is \frac{5}{6} greater than \frac{3}{4}?          (BECE 2001 Q8)",
+            r"4. By how much is \frac{5}{6} greater than \frac{3}{4}?          (BECE 2001 Q8)",
         options: [
           r"\frac{1}{12}",
           r"\frac{1}{6}",
@@ -5562,11 +5200,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Find the difference: \frac{5}{6} - \frac{3}{4} = \frac{10}{12} - \frac{9}{12} = \frac{1}{12}.",
+            r"Find the difference: \frac{5}{6} - \frac{3}{4} = \frac{10}{12} - \frac{9}{12} = \frac{1}{12}.",
       ),
       QuizQuestion(
         question:
-        r"5. Out of \phi550,000.00 given to a school, an amount of \phi325,000.00 was used. What fraction of the total amount was used?          (BECE 2002A Q10)",
+            r"5. Out of \phi550,000.00 given to a school, an amount of \phi325,000.00 was used. What fraction of the total amount was used?          (BECE 2002A Q10)",
         options: [
           r"\frac{4}{13}",
           r"\frac{9}{13}",
@@ -5576,11 +5214,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The fraction used is \frac{325,000}{550,000}. Dividing the numerator and denominator by 25,000 gives \frac{13}{22}.",
+            r"The fraction used is \frac{325,000}{550,000}. Dividing the numerator and denominator by 25,000 gives \frac{13}{22}.",
       ),
       QuizQuestion(
         question:
-        r"6. What fraction of 3 weeks is 18 days?          (BECE 2020 Q14)",
+            r"6. What fraction of 3 weeks is 18 days?          (BECE 2020 Q14)",
         options: [
           r"\frac{6}{7}",
           r"\frac{1}{6}",
@@ -5590,11 +5228,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Three weeks is 3 \times 7 = 21 days. Therefore, the required fraction is \frac{18}{21} = \frac{6}{7}.",
+            r"Three weeks is 3 \times 7 = 21 days. Therefore, the required fraction is \frac{18}{21} = \frac{6}{7}.",
       ),
       QuizQuestion(
         question:
-        r"7. If a trader made a profit of 10\% in selling a shirt for GH\phi44.00, find the cost price.          (BECE 2022 Q3)",
+            r"7. If a trader made a profit of 10\% in selling a shirt for GH\phi44.00, find the cost price.          (BECE 2022 Q3)",
         options: [
           r"GH\phi38.50",
           r"GH\phi39.60",
@@ -5604,11 +5242,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"The selling price is 110\% of the cost price. Therefore, the cost price is \frac{44 \times 100}{110} = GH\phi40.00.",
+            r"The selling price is 110\% of the cost price. Therefore, the cost price is \frac{44 \times 100}{110} = GH\phi40.00.",
       ),
       QuizQuestion(
         question:
-        r"8. Express 0.725 as a fraction in its lowest terms.          (BECE 2020 Q38)",
+            r"8. Express 0.725 as a fraction in its lowest terms.          (BECE 2020 Q38)",
         options: [
           r"\frac{19}{10}",
           r"\frac{21}{10}",
@@ -5618,11 +5256,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"0.725 = \frac{725}{1000}. Dividing the numerator and denominator by 25 gives \frac{29}{40}.",
+            r"0.725 = \frac{725}{1000}. Dividing the numerator and denominator by 25 gives \frac{29}{40}.",
       ),
       QuizQuestion(
         question:
-        r"9. Simplify (1\frac{1}{2} - \frac{5}{6}) \times \frac{9}{10}.          (BECE 2023 Q10)",
+            r"9. Simplify (1\frac{1}{2} - \frac{5}{6}) \times \frac{9}{10}.          (BECE 2023 Q10)",
         options: [
           r"\frac{3}{10}",
           r"\frac{1}{5}",
@@ -5632,12 +5270,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"Convert 1\frac{1}{2} to \frac{3}{2}. Then \frac{3}{2} - \frac{5}{6} = \frac{9}{6} - \frac{5}{6} = \frac{4}{6} = \frac{2}{3}. Therefore, \frac{2}{3} \times \frac{9}{10} = \frac{3}{5}.",
+            r"Convert 1\frac{1}{2} to \frac{3}{2}. Then \frac{3}{2} - \frac{5}{6} = \frac{9}{6} - \frac{5}{6} = \frac{4}{6} = \frac{2}{3}. Therefore, \frac{2}{3} \times \frac{9}{10} = \frac{3}{5}.",
       ),
-
       QuizQuestion(
         question:
-        r"10. John's uncle sent him \phi120,000.00 through a bank which charges 5\% commission. How much commission was paid?          (BECE 2002A Q11)",
+            r"10. John's uncle sent him \phi120,000.00 through a bank which charges 5\% commission. How much commission was paid?          (BECE 2002A Q11)",
         options: [
           r"\phi5,000.00",
           r"\phi6,000.00",
@@ -5647,12 +5284,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The commission is 5\% of \phi120,000.00. Therefore, the commission is \frac{5}{100} \times \phi120,000.00 = \phi6,000.00.",
+            r"The commission is 5\% of \phi120,000.00. Therefore, the commission is \frac{5}{100} \times \phi120,000.00 = \phi6,000.00.",
       ),
-
       QuizQuestion(
         question:
-        r"11. An article which cost GH\phi600.00 was sold at a discount of 10\%. Find the selling price.          (BECE 2024 Q22)",
+            r"11. An article which cost GH\phi600.00 was sold at a discount of 10\%. Find the selling price.          (BECE 2024 Q22)",
         options: [
           r"GH\phi60.00",
           r"GH\phi540.00",
@@ -5662,12 +5298,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The discount is 10\% of GH\phi600.00, which is GH\phi60.00. Therefore, the selling price is GH\phi600.00 - GH\phi60.00 = GH\phi540.00.",
+            r"The discount is 10\% of GH\phi600.00, which is GH\phi60.00. Therefore, the selling price is GH\phi600.00 - GH\phi60.00 = GH\phi540.00.",
       ),
-
       QuizQuestion(
         question:
-        r"12. A man bought a car for \phi5.5 million and sold it for \phi6.5 million. Find the percentage gain.          (BECE 1998 Q13)",
+            r"12. A man bought a car for \phi5.5 million and sold it for \phi6.5 million. Find the percentage gain.          (BECE 1998 Q13)",
         options: [
           r"1.54\%",
           r"1.82\%",
@@ -5677,12 +5312,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"The gain is \phi6.5 million - \phi5.5 million = \phi1 million. The percentage gain is \frac{1}{5.5} \times 100\% = 18.18\%, approximately.",
+            r"The gain is \phi6.5 million - \phi5.5 million = \phi1 million. The percentage gain is \frac{1}{5.5} \times 100\% = 18.18\%, approximately.",
       ),
-
       QuizQuestion(
         question:
-        r"13. A book was sold for GH\phi48.00 at a profit of 20\%. Find the cost price.          (BECE 2023 Q18)",
+            r"13. A book was sold for GH\phi48.00 at a profit of 20\%. Find the cost price.          (BECE 2023 Q18)",
         options: [
           r"GH\phi40.00",
           r"GH\phi57.60",
@@ -5692,12 +5326,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"The selling price is 120\% of the cost price. Therefore, the cost price is \frac{48 \times 100}{120} = GH\phi40.00.",
+            r"The selling price is 120\% of the cost price. Therefore, the cost price is \frac{48 \times 100}{120} = GH\phi40.00.",
       ),
-
       QuizQuestion(
         question:
-        r"14. A trader received a commission of 25\% on the sales he made in a month. His commission was \phi180,000.00. Find his total sales for the month.          (BECE 1999 Q27)",
+            r"14. A trader received a commission of 25\% on the sales he made in a month. His commission was \phi180,000.00. Find his total sales for the month.          (BECE 1999 Q27)",
         options: [
           r"\phi135,000.00",
           r"\phi150,000.00",
@@ -5707,12 +5340,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"Since \phi180,000.00 is 25\% of the total sales, the total sales are \frac{180,000 \times 100}{25} = \phi720,000.00.",
+            r"Since \phi180,000.00 is 25\% of the total sales, the total sales are \frac{180,000 \times 100}{25} = \phi720,000.00.",
       ),
-
       QuizQuestion(
         question:
-        r"15. The marked price of a radio set is \phi450,000.00. A discount of 5\% of the marked price is allowed. What is the selling price of the radio?          (BECE 2000 Q24)",
+            r"15. The marked price of a radio set is \phi450,000.00. A discount of 5\% of the marked price is allowed. What is the selling price of the radio?          (BECE 2000 Q24)",
         options: [
           r"\phi427,000",
           r"\phi427,500",
@@ -5722,12 +5354,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The discount is 5\% of \phi450,000.00, which is \phi22,500.00. Therefore, the selling price is \phi450,000.00 - \phi22,500.00 = \phi427,500.00.",
+            r"The discount is 5\% of \phi450,000.00, which is \phi22,500.00. Therefore, the selling price is \phi450,000.00 - \phi22,500.00 = \phi427,500.00.",
       ),
-
       QuizQuestion(
         question:
-        r"16. Araba bought an electric cooker for \phi540,000.00 at a discount of 10\%. Find the actual price of the electric cooker.          (BECE 2001 Q22)",
+            r"16. Araba bought an electric cooker for \phi540,000.00 at a discount of 10\%. Find the actual price of the electric cooker.          (BECE 2001 Q22)",
         options: [
           r"\phi486,000.00",
           r"\phi496,000.00",
@@ -5737,7 +5368,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"After a 10\% discount, Araba paid 90\% of the actual price. Therefore, the actual price is \frac{540,000 \times 100}{90} = \phi600,000.00.",
+            r"After a 10\% discount, Araba paid 90\% of the actual price. Therefore, the actual price is \frac{540,000 \times 100}{90} = \phi600,000.00.",
       ),
     ],
   ),
@@ -5746,7 +5377,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        "1. On a map, 1 cm represents 4.5 km. What is the actual distance between two towns which are 4 cm apart on the map?          (BECE 2001 Q12)",
+            "1. On a map, 1 cm represents 4.5 km. What is the actual distance between two towns which are 4 cm apart on the map?          (BECE 2001 Q12)",
         options: [
           "9 km",
           "16 km",
@@ -5756,12 +5387,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Since 1 cm represents 4.5 km, 4 cm represents 4 × 4.5 = 18 km.",
+            "Since 1 cm represents 4.5 km, 4 cm represents 4 × 4.5 = 18 km.",
       ),
-
       QuizQuestion(
         question:
-        "2. Ten students in Kwamekrom J.S.S. took 9 days to weed the school compound. How long would 15 students take to weed the same compound if they worked at the same rate?          (BECE 1993 Q10)",
+            "2. Ten students in Kwamekrom J.S.S. took 9 days to weed the school compound. How long would 15 students take to weed the same compound if they worked at the same rate?          (BECE 1993 Q10)",
         options: [
           "5 days",
           "6 days",
@@ -5771,12 +5401,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The total work is 10 × 9 = 90 student-days. Therefore, 15 students will take 90 ÷ 15 = 6 days.",
+            "The total work is 10 × 9 = 90 student-days. Therefore, 15 students will take 90 ÷ 15 = 6 days.",
       ),
-
       QuizQuestion(
         question:
-        "3. Ama covered a distance of 100 m in 12 seconds. Express her speed in kilometres per hour.          (BECE 2002A Q16)",
+            "3. Ama covered a distance of 100 m in 12 seconds. Express her speed in kilometres per hour.          (BECE 2002A Q16)",
         options: [
           "5 km/h",
           "10 km/h",
@@ -5786,12 +5415,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "Her speed is 100 ÷ 12 metres per second. Converting to kilometres per hour gives (100 ÷ 12) × 3.6 = 30 km/h.",
+            "Her speed is 100 ÷ 12 metres per second. Converting to kilometres per hour gives (100 ÷ 12) × 3.6 = 30 km/h.",
       ),
-
       QuizQuestion(
         question:
-        "4. A map of a large town is drawn to the scale of 1:100,000. What distance in kilometres is represented by a line segment 4 cm long on the map?          (BECE 1991 Q20)",
+            "4. A map of a large town is drawn to the scale of 1:100,000. What distance in kilometres is represented by a line segment 4 cm long on the map?          (BECE 1991 Q20)",
         options: [
           "0.04 km",
           "0.4 km",
@@ -5801,12 +5429,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "At a scale of 1:100,000, 1 cm represents 100,000 cm, which is 1 km. Therefore, 4 cm represents 4 km.",
+            "At a scale of 1:100,000, 1 cm represents 100,000 cm, which is 1 km. Therefore, 4 cm represents 4 km.",
       ),
-
       QuizQuestion(
         question:
-        "5. It takes 15 men 48 days to weed a plot of land. How many men can weed the same plot of land in 16 days if they work at the same rate?          (BECE 2000 Q18)",
+            "5. It takes 15 men 48 days to weed a plot of land. How many men can weed the same plot of land in 16 days if they work at the same rate?          (BECE 2000 Q18)",
         options: [
           "5",
           "18",
@@ -5816,12 +5443,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The total work is 15 × 48 = 720 man-days. The number of men required is 720 ÷ 16 = 45.",
+            "The total work is 15 × 48 = 720 man-days. The number of men required is 720 ÷ 16 = 45.",
       ),
-
       QuizQuestion(
         question:
-        "6. Express 34 m 5 cm 6 mm in millimetres.          (BECE 1995 Q4)",
+            "6. Express 34 m 5 cm 6 mm in millimetres.          (BECE 1995 Q4)",
         options: [
           "340506 mm",
           "34506 mm",
@@ -5831,12 +5457,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "34 m = 34,000 mm and 5 cm = 50 mm. Therefore, the total is 34,000 + 50 + 6 = 34,056 mm.",
+            "34 m = 34,000 mm and 5 cm = 50 mm. Therefore, the total is 34,000 + 50 + 6 = 34,056 mm.",
       ),
-
       QuizQuestion(
         question:
-        "7. The length of a field, 1.2 km long, is represented on a map by a line 40 mm long. What is the scale of the map?          (BECE 1990 Q38)",
+            "7. The length of a field, 1.2 km long, is represented on a map by a line 40 mm long. What is the scale of the map?          (BECE 1990 Q38)",
         options: [
           "1:100",
           "1:300",
@@ -5846,12 +5471,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "Convert 1.2 km to millimetres: 1.2 km = 1,200,000 mm. The scale is 40:1,200,000, which simplifies to 1:30,000.",
+            "Convert 1.2 km to millimetres: 1.2 km = 1,200,000 mm. The scale is 40:1,200,000, which simplifies to 1:30,000.",
       ),
-
       QuizQuestion(
         question:
-        "8. The scale of a map is 1:100,000. What is the distance in kilometres between two towns 4 cm apart on the map?          (BECE 1997 Q30)",
+            "8. The scale of a map is 1:100,000. What is the distance in kilometres between two towns 4 cm apart on the map?          (BECE 1997 Q30)",
         options: [
           "0.04",
           "0.4",
@@ -5861,12 +5485,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "A scale of 1:100,000 means 1 cm represents 1 km. Therefore, 4 cm represents 4 km.",
+            "A scale of 1:100,000 means 1 cm represents 1 km. Therefore, 4 cm represents 4 km.",
       ),
-
       QuizQuestion(
         question:
-        "9. Three boys weeded a piece of land in 4 hours. How long would it take 18 boys to weed the same piece of land, working at the same rate?          (BECE 1994 Q33)",
+            "9. Three boys weeded a piece of land in 4 hours. How long would it take 18 boys to weed the same piece of land, working at the same rate?          (BECE 1994 Q33)",
         options: [
           r"\frac{2}{3} hr",
           r"3\frac{1}{3} hr",
@@ -5876,12 +5499,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"The total work is 3 × 4 = 12 boy-hours. Therefore, 18 boys will take \frac{12}{18} = \frac{2}{3} hour.",
+            r"The total work is 3 × 4 = 12 boy-hours. Therefore, 18 boys will take \frac{12}{18} = \frac{2}{3} hour.",
       ),
-
       QuizQuestion(
         question:
-        r"10. A car is travelling at 40 km per hour. How far does it travel in 2\frac{1}{2} hours?          (BECE 1999 Q16)",
+            r"10. A car is travelling at 40 km per hour. How far does it travel in 2\frac{1}{2} hours?          (BECE 1999 Q16)",
         options: [
           "16 km",
           "80 km",
@@ -5891,12 +5513,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Distance = speed × time. Therefore, the distance is 40 × 2\frac{1}{2} = 40 × 2.5 = 100 km.",
+            r"Distance = speed × time. Therefore, the distance is 40 × 2\frac{1}{2} = 40 × 2.5 = 100 km.",
       ),
-
       QuizQuestion(
         question:
-        "11. Thirty men can dig a pit in 21 days. How many days will 14 men take to dig the pit, working at the same rate?          (BECE 2002B Q23)",
+            "11. Thirty men can dig a pit in 21 days. How many days will 14 men take to dig the pit, working at the same rate?          (BECE 2002B Q23)",
         options: [
           "20",
           "25",
@@ -5906,12 +5527,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The total work is 30 × 21 = 630 man-days. Therefore, 14 men will take 630 ÷ 14 = 45 days.",
+            "The total work is 30 × 21 = 630 man-days. Therefore, 14 men will take 630 ÷ 14 = 45 days.",
       ),
-
       QuizQuestion(
         question:
-        r"12. If \$1 = ¢340.00, what was the cedi value of an article which cost \$6.50?          (BECE 1992 Q11)",
+            r"12. If \$1 = ¢340.00, what was the cedi value of an article which cost \$6.50?          (BECE 1992 Q11)",
         options: [
           "¢2,630.00",
           "¢2,380.00",
@@ -5920,13 +5540,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        r"The cedi value is 6.50 × ¢340.00 = ¢2,210.00.",
+        explanation: r"The cedi value is 6.50 × ¢340.00 = ¢2,210.00.",
       ),
-
       QuizQuestion(
         question:
-        "13. On a map, two towns P and Q are 15.5 cm apart. The scale of the map is 1 cm : 4 km. Calculate the actual distance between P and Q.          (BECE 1998 Q14)",
+            "13. On a map, two towns P and Q are 15.5 cm apart. The scale of the map is 1 cm : 4 km. Calculate the actual distance between P and Q.          (BECE 1998 Q14)",
         options: [
           "15.5 km",
           "31 km",
@@ -5936,12 +5554,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "Since 1 cm represents 4 km, 15.5 cm represents 15.5 × 4 = 62 km.",
+            "Since 1 cm represents 4 km, 15.5 cm represents 15.5 × 4 = 62 km.",
       ),
-
       QuizQuestion(
         question:
-        "14. Eight girls can weed a plot of land in 10 days. How many days will 5 girls take to weed the same plot of land if they work at the same rate?          (BECE 2002A Q13)",
+            "14. Eight girls can weed a plot of land in 10 days. How many days will 5 girls take to weed the same plot of land if they work at the same rate?          (BECE 2002A Q13)",
         options: [
           "6 days",
           "8 days",
@@ -5951,12 +5568,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The total work is 8 × 10 = 80 girl-days. Therefore, 5 girls will take 80 ÷ 5 = 16 days.",
+            "The total work is 8 × 10 = 80 girl-days. Therefore, 5 girls will take 80 ÷ 5 = 16 days.",
       ),
-
       QuizQuestion(
         question:
-        "15. A man travelled a distance of 1.2 km in 30 minutes. What distance can he cover in 55 minutes, travelling at the same speed?          (BECE 1995 Q39)",
+            "15. A man travelled a distance of 1.2 km in 30 minutes. What distance can he cover in 55 minutes, travelling at the same speed?          (BECE 1995 Q39)",
         options: [
           "1.375 km",
           "2.02 km",
@@ -5966,12 +5582,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "The distance covered per minute is 1.2 ÷ 30 km. In 55 minutes, he covers (1.2 ÷ 30) × 55 = 2.2 km.",
+            "The distance covered per minute is 1.2 ÷ 30 km. In 55 minutes, he covers (1.2 ÷ 30) × 55 = 2.2 km.",
       ),
-
       QuizQuestion(
         question:
-        "16. A car travels 72 kilometres in an hour. Find its speed in metres per second.          (BECE 2000 Q36)",
+            "16. A car travels 72 kilometres in an hour. Find its speed in metres per second.          (BECE 2000 Q36)",
         options: [
           r"5 \text{ ms}^{-1}",
           r"20 \text{ ms}^{-1}",
@@ -5981,12 +5596,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"To convert kilometres per hour to metres per second, divide by 3.6. Therefore, 72 ÷ 3.6 = 20 \text{ ms}^{-1}.",
+            r"To convert kilometres per hour to metres per second, divide by 3.6. Therefore, 72 ÷ 3.6 = 20 \text{ ms}^{-1}.",
       ),
-
       QuizQuestion(
         question:
-        "17. A car travelled a distance of 50 km in an hour. What distance did it travel in 30 minutes at the same speed?          (BECE 1993 Q13)",
+            "17. A car travelled a distance of 50 km in an hour. What distance did it travel in 30 minutes at the same speed?          (BECE 1993 Q13)",
         options: [
           "1,500 km",
           "100 km",
@@ -5996,12 +5610,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "Thirty minutes is half an hour. Therefore, the distance travelled is 50 ÷ 2 = 25 km.",
+            "Thirty minutes is half an hour. Therefore, the distance travelled is 50 ÷ 2 = 25 km.",
       ),
-
       QuizQuestion(
         question:
-        "18. Express 34 m 5 cm and 6 mm in millimetres.          (BECE 2002A Q40)",
+            "18. Express 34 m 5 cm and 6 mm in millimetres.          (BECE 2002A Q40)",
         options: [
           "3,456 mm",
           "34,056 mm",
@@ -6011,12 +5624,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "34 m = 34,000 mm and 5 cm = 50 mm. Therefore, the total is 34,000 + 50 + 6 = 34,056 mm.",
+            "34 m = 34,000 mm and 5 cm = 50 mm. Therefore, the total is 34,000 + 50 + 6 = 34,056 mm.",
       ),
-
       QuizQuestion(
         question:
-        "19. A car travels at an average speed of 45 km per hour. What distance does it cover in 12 hours?          (BECE 2003 Q14)",
+            "19. A car travels at an average speed of 45 km per hour. What distance does it cover in 12 hours?          (BECE 2003 Q14)",
         options: [
           "450 km",
           "480 km",
@@ -6026,12 +5638,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Distance = speed × time. Therefore, the distance covered is 45 × 12 = 540 km.",
+            "Distance = speed × time. Therefore, the distance covered is 45 × 12 = 540 km.",
       ),
-
       QuizQuestion(
         question:
-        "20. A train travels at a speed of 80 km per hour. How long will it take to travel a distance of 320 km?          (BECE 2006 Q11)",
+            "20. A train travels at a speed of 80 km per hour. How long will it take to travel a distance of 320 km?          (BECE 2006 Q11)",
         options: [
           "2 hours",
           "3 hours",
@@ -6041,12 +5652,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Time = distance ÷ speed. Therefore, the time taken is 320 ÷ 80 = 4 hours.",
+            "Time = distance ÷ speed. Therefore, the time taken is 320 ÷ 80 = 4 hours.",
       ),
-
       QuizQuestion(
         question:
-        "21. Express 6 days is to 3 weeks as a ratio in its simplest form.          (BECE 2008 Q24)",
+            "21. Express 6 days is to 3 weeks as a ratio in its simplest form.          (BECE 2008 Q24)",
         options: [
           "1:2",
           "2:1",
@@ -6056,12 +5666,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Three weeks is 21 days. Therefore, the ratio is 6:21, which simplifies to 2:7.",
+            "Three weeks is 21 days. Therefore, the ratio is 6:21, which simplifies to 2:7.",
       ),
-
       QuizQuestion(
         question:
-        r"22. A van travels 154 km in 1\frac{3}{4} hours. Find its speed in km/h.          (BECE 2009 Q18)",
+            r"22. A van travels 154 km in 1\frac{3}{4} hours. Find its speed in km/h.          (BECE 2009 Q18)",
         options: [
           "77 km/h",
           "88 km/h",
@@ -6071,12 +5680,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Speed = distance ÷ time. Since 1\frac{3}{4} = 1.75, the speed is 154 ÷ 1.75 = 88 km/h.",
+            r"Speed = distance ÷ time. Since 1\frac{3}{4} = 1.75, the speed is 154 ÷ 1.75 = 88 km/h.",
       ),
-
       QuizQuestion(
         question:
-        "23. It takes 6 students 1 hour to sweep their school compound. How long will it take 15 students to sweep the same compound?          (BECE 2010 Q13)",
+            "23. It takes 6 students 1 hour to sweep their school compound. How long will it take 15 students to sweep the same compound?          (BECE 2010 Q13)",
         options: [
           "24 minutes",
           "12 minutes",
@@ -6086,12 +5694,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        "The total work is 6 student-hours. For 15 students, the time is 6 ÷ 15 hours, which is 0.4 hour. Converting to minutes gives 0.4 × 60 = 24 minutes.",
+            "The total work is 6 student-hours. For 15 students, the time is 6 ÷ 15 hours, which is 0.4 hour. Converting to minutes gives 0.4 × 60 = 24 minutes.",
       ),
-
       QuizQuestion(
         question:
-        "24. A map is drawn to the scale 1:100,000. What distance in kilometres is represented by 5 cm on the map?          (BECE 2012 Q26)",
+            "24. A map is drawn to the scale 1:100,000. What distance in kilometres is represented by 5 cm on the map?          (BECE 2012 Q26)",
         options: [
           "0.5 km",
           "5.0 km",
@@ -6101,12 +5708,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "At a scale of 1:100,000, 1 cm represents 1 km. Therefore, 5 cm represents 5 km.",
+            "At a scale of 1:100,000, 1 cm represents 1 km. Therefore, 5 cm represents 5 km.",
       ),
-
       QuizQuestion(
         question:
-        r"25. A watch gains 1\frac{1}{2} minutes per hour. What is the total time gained from 12 noon to 12 midnight in a day?          (BECE 2012 Q29)",
+            r"25. A watch gains 1\frac{1}{2} minutes per hour. What is the total time gained from 12 noon to 12 midnight in a day?          (BECE 2012 Q29)",
         options: [
           "9 minutes",
           "15 minutes",
@@ -6116,12 +5722,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"From 12 noon to 12 midnight is 12 hours. Therefore, the time gained is 12 × 1\frac{1}{2} = 18 minutes.",
+            r"From 12 noon to 12 midnight is 12 hours. Therefore, the time gained is 12 × 1\frac{1}{2} = 18 minutes.",
       ),
-
       QuizQuestion(
         question:
-        "26. A printing machine prints 600 books in 3 hours. How many books will the machine print in 5 hours?          (BECE 2012 Q30)",
+            "26. A printing machine prints 600 books in 3 hours. How many books will the machine print in 5 hours?          (BECE 2012 Q30)",
         options: [
           "360 books",
           "1000 books",
@@ -6131,12 +5736,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The machine prints 600 ÷ 3 = 200 books per hour. In 5 hours, it prints 200 × 5 = 1000 books.",
+            "The machine prints 600 ÷ 3 = 200 books per hour. In 5 hours, it prints 200 × 5 = 1000 books.",
       ),
-
       QuizQuestion(
         question:
-        "27. A car uses 150 litres of petrol in 45 minutes. How many litres of petrol will it use in 1 hour?          (BECE 2013 Q8)",
+            "27. A car uses 150 litres of petrol in 45 minutes. How many litres of petrol will it use in 1 hour?          (BECE 2013 Q8)",
         options: [
           "375 litres",
           "230 litres",
@@ -6146,12 +5750,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "One hour is 60 minutes. The petrol used is (150 ÷ 45) × 60 = 200 litres.",
+            "One hour is 60 minutes. The petrol used is (150 ÷ 45) × 60 = 200 litres.",
       ),
-
       QuizQuestion(
         question:
-        "28. Mame Esi rides her bicycle to school and back every day. If the distance from her home to the school is 2345 m, how many kilometres does she cover every day?          (BECE 2013 Q21)",
+            "28. Mame Esi rides her bicycle to school and back every day. If the distance from her home to the school is 2345 m, how many kilometres does she cover every day?          (BECE 2013 Q21)",
         options: [
           "4.98 km",
           "4.69 km",
@@ -6161,12 +5764,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The return distance is 2345 × 2 = 4690 m. Since 1000 m = 1 km, she covers 4.69 km.",
+            "The return distance is 2345 × 2 = 4690 m. Since 1000 m = 1 km, she covers 4.69 km.",
       ),
-
       QuizQuestion(
         question:
-        "29. If 5 boys took 14 days to cultivate a piece of land, how long will it take 7 boys working at the same rate to cultivate the land?          (BECE 2015 Q12)",
+            "29. If 5 boys took 14 days to cultivate a piece of land, how long will it take 7 boys working at the same rate to cultivate the land?          (BECE 2015 Q12)",
         options: [
           "14 days",
           "12 days",
@@ -6176,12 +5778,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "The total work is 5 × 14 = 70 boy-days. Therefore, 7 boys will take 70 ÷ 7 = 10 days.",
+            "The total work is 5 × 14 = 70 boy-days. Therefore, 7 boys will take 70 ÷ 7 = 10 days.",
       ),
-
       QuizQuestion(
         question:
-        "30. Fifteen boys took 12 hours to weed a plot of land. If nine boys work at the same rate, how long will it take them to weed the plot of land?          (BECE 2016 Q13)",
+            "30. Fifteen boys took 12 hours to weed a plot of land. If nine boys work at the same rate, how long will it take them to weed the plot of land?          (BECE 2016 Q13)",
         options: [
           "6 hours",
           r"7\frac{1}{5} hours",
@@ -6191,12 +5792,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        "The total work is 15 × 12 = 180 boy-hours. Therefore, 9 boys will take 180 ÷ 9 = 20 hours.",
+            "The total work is 15 × 12 = 180 boy-hours. Therefore, 9 boys will take 180 ÷ 9 = 20 hours.",
       ),
-
       QuizQuestion(
         question:
-        "31. A man travelled a distance of 1.5 km in 30 minutes. What distance can he cover in 50 minutes, travelling at the same speed?          (BECE 2017 Q22)",
+            "31. A man travelled a distance of 1.5 km in 30 minutes. What distance can he cover in 50 minutes, travelling at the same speed?          (BECE 2017 Q22)",
         options: [
           "2.2 km",
           "2.5 km",
@@ -6206,12 +5806,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The distance covered per minute is 1.5 ÷ 30 km. In 50 minutes, he covers (1.5 ÷ 30) × 50 = 2.5 km.",
+            "The distance covered per minute is 1.5 ÷ 30 km. In 50 minutes, he covers (1.5 ÷ 30) × 50 = 2.5 km.",
       ),
-
       QuizQuestion(
         question:
-        "32. Eight men can do a piece of work in 12 days. How long will 6 men take to do the same work if they work at the same rate?          (BECE 2018 Q15)",
+            "32. Eight men can do a piece of work in 12 days. How long will 6 men take to do the same work if they work at the same rate?          (BECE 2018 Q15)",
         options: [
           "14 days",
           "16 days",
@@ -6221,12 +5820,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        "The total work is 8 × 12 = 96 man-days. Therefore, 6 men will take 96 ÷ 6 = 16 days.",
+            "The total work is 8 × 12 = 96 man-days. Therefore, 6 men will take 96 ÷ 6 = 16 days.",
       ),
-
       QuizQuestion(
         question:
-        "33. A man travelled a distance of 8 km in an hour. How long will it take him to cover a distance of 12 km, travelling at the same speed?          (BECE 2019 Q21)",
+            "33. A man travelled a distance of 8 km in an hour. How long will it take him to cover a distance of 12 km, travelling at the same speed?          (BECE 2019 Q21)",
         options: [
           r"1\frac{1}{5} hrs",
           r"1\frac{1}{2} hrs",
@@ -6236,12 +5834,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Time = distance ÷ speed. Therefore, the time is 12 ÷ 8 = \frac{3}{2} = 1\frac{1}{2} hours.",
+            r"Time = distance ÷ speed. Therefore, the time is 12 ÷ 8 = \frac{3}{2} = 1\frac{1}{2} hours.",
       ),
-
       QuizQuestion(
         question:
-        "34. A car used 8 hours to travel from town A to town B at a speed of 18 km/h. Find the distance.          (BECE 2020 Q19)",
+            "34. A car used 8 hours to travel from town A to town B at a speed of 18 km/h. Find the distance.          (BECE 2020 Q19)",
         options: [
           "22.5 km",
           "135 km",
@@ -6251,12 +5848,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "Distance = speed × time. Therefore, the distance is 18 × 8 = 144 km.",
+            "Distance = speed × time. Therefore, the distance is 18 × 8 = 144 km.",
       ),
-
       QuizQuestion(
         question:
-        r"35. On a map, \frac{1}{3} cm represents 5 km. If two towns A and B are 18 cm apart on the map, what is the actual distance between them?          (BECE 2021 Q7)",
+            r"35. On a map, \frac{1}{3} cm represents 5 km. If two towns A and B are 18 cm apart on the map, what is the actual distance between them?          (BECE 2021 Q7)",
         options: [
           "27 km",
           "30 km",
@@ -6266,12 +5862,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"If \frac{1}{3} cm represents 5 km, then 1 cm represents 15 km. Therefore, 18 cm represents 18 × 15 = 270 km.",
+            r"If \frac{1}{3} cm represents 5 km, then 1 cm represents 15 km. Therefore, 18 cm represents 18 × 15 = 270 km.",
       ),
-
       QuizQuestion(
         question:
-        "36. A car covered a distance of 150 km at a speed of 18 km/h. Find the time taken.          (BECE 2021 Q40)",
+            "36. A car covered a distance of 150 km at a speed of 18 km/h. Find the time taken.          (BECE 2021 Q40)",
         options: [
           "7 hours 33 minutes",
           "7 hours 53 minutes",
@@ -6281,12 +5876,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"Time = distance ÷ speed = \frac{150}{18} = 8\frac{1}{3} hours. One-third of an hour is 20 minutes, so the time is 8 hours 20 minutes.",
+            r"Time = distance ÷ speed = \frac{150}{18} = 8\frac{1}{3} hours. One-third of an hour is 20 minutes, so the time is 8 hours 20 minutes.",
       ),
-
       QuizQuestion(
         question:
-        "37. A car travels 36 kilometres in an hour. Find its speed in metres per second.          (BECE 2022 Q17)",
+            "37. A car travels 36 kilometres in an hour. Find its speed in metres per second.          (BECE 2022 Q17)",
         options: [
           r"10 \text{ ms}^{-1}",
           r"20 \text{ ms}^{-1}",
@@ -6296,12 +5890,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"To convert kilometres per hour to metres per second, divide by 3.6. Therefore, 36 ÷ 3.6 = 10 \text{ ms}^{-1}.",
+            r"To convert kilometres per hour to metres per second, divide by 3.6. Therefore, 36 ÷ 3.6 = 10 \text{ ms}^{-1}.",
       ),
-
       QuizQuestion(
         question:
-        "38. Convert 12.03 metres to centimetres.          (BECE 2023 Q20)",
+            "38. Convert 12.03 metres to centimetres.          (BECE 2023 Q20)",
         options: [
           "0.1203 cm",
           "120.3 cm",
@@ -6311,12 +5904,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "Since 1 metre equals 100 centimetres, 12.03 × 100 = 1203 cm.",
+            "Since 1 metre equals 100 centimetres, 12.03 × 100 = 1203 cm.",
       ),
-
       QuizQuestion(
         question:
-        r"39. Given that 1 kilometre = \frac{5}{8} mile, what is 240 miles in kilometres?          (BECE 2023 Q34)",
+            r"39. Given that 1 kilometre = \frac{5}{8} mile, what is 240 miles in kilometres?          (BECE 2023 Q34)",
         options: [
           "384 km",
           "190 km",
@@ -6326,12 +5918,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"If 1 kilometre equals \frac{5}{8} mile, then 1 mile equals \frac{8}{5} kilometres. Therefore, 240 miles equals 240 × \frac{8}{5} = 384 km.",
+            r"If 1 kilometre equals \frac{5}{8} mile, then 1 mile equals \frac{8}{5} kilometres. Therefore, 240 miles equals 240 × \frac{8}{5} = 384 km.",
       ),
-
       QuizQuestion(
         question:
-        "40. A farmer feeds 20 goats with 500 kg of cassava. How many goats can be fed with 200 kg of cassava?          (BECE 2025 Q14)",
+            "40. A farmer feeds 20 goats with 500 kg of cassava. How many goats can be fed with 200 kg of cassava?          (BECE 2025 Q14)",
         options: [
           "2",
           "5",
@@ -6341,7 +5932,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The number of goats is directly proportional to the quantity of cassava. Therefore, the number is (20 × 200) ÷ 500 = 8 goats.",
+            "The number of goats is directly proportional to the quantity of cassava. Therefore, the number is (20 × 200) ÷ 500 = 8 goats.",
       ),
     ],
   ),
@@ -6351,7 +5942,7 @@ final Map<String, QuizModel> beceQuizData = {
     questions: [
       QuizQuestion(
         question:
-        "1. Given the points S(5, -2) and T(3, 2), calculate the gradient of the line ST.          (BECE 2012 Q23)",
+            "1. Given the points S(5, -2) and T(3, 2), calculate the gradient of the line ST.          (BECE 2012 Q23)",
         options: [
           "-2",
           r"-\frac{3}{5}",
@@ -6361,12 +5952,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{2 - (-2)}{3 - 5} = \frac{4}{-2} = -2.",
+            r"The gradient is \frac{2 - (-2)}{3 - 5} = \frac{4}{-2} = -2.",
       ),
-
       QuizQuestion(
         question:
-        r"2. Find the slope of the line 3x - 6y = 33.          (BECE 2018 Q20)",
+            r"2. Find the slope of the line 3x - 6y = 33.          (BECE 2018 Q20)",
         options: [
           "-3",
           r"-\frac{1}{2}",
@@ -6376,12 +5966,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"Rearranging gives -6y = -3x + 33, so y = \frac{1}{2}x - \frac{11}{2}. Therefore, the slope is \frac{1}{2}.",
+            r"Rearranging gives -6y = -3x + 33, so y = \frac{1}{2}x - \frac{11}{2}. Therefore, the slope is \frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        "3. E is the point (4, 2) and F is the point (2, 1). Calculate the gradient of the straight line EF.          (BECE 1999 Q35)",
+            "3. E is the point (4, 2) and F is the point (2, 1). Calculate the gradient of the straight line EF.          (BECE 1999 Q35)",
         options: [
           r"-\frac{1}{2}",
           "-2",
@@ -6391,12 +5980,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{1 - 2}{2 - 4} = \frac{-1}{-2} = \frac{1}{2}.",
+            r"The gradient is \frac{1 - 2}{2 - 4} = \frac{-1}{-2} = \frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        "4. The gradient of the straight line that passes through points A(3, 2) and B(4, 8) is:          (BECE 2011 Q22)",
+            "4. The gradient of the straight line that passes through points A(3, 2) and B(4, 8) is:          (BECE 2011 Q22)",
         options: [
           r"-\frac{1}{6}",
           r"-\frac{1}{2}",
@@ -6405,13 +5993,11 @@ final Map<String, QuizModel> beceQuizData = {
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation:
-        r"The gradient is \frac{8 - 2}{4 - 3} = \frac{6}{1} = 6.",
+        explanation: r"The gradient is \frac{8 - 2}{4 - 3} = \frac{6}{1} = 6.",
       ),
-
       QuizQuestion(
         question:
-        "5. Find the gradient of the line which passes through the points M(-1, 2) and N(6, -3).          (BECE 2014 Q39)",
+            "5. Find the gradient of the line which passes through the points M(-1, 2) and N(6, -3).          (BECE 2014 Q39)",
         options: [
           r"-\frac{5}{7}",
           r"-\frac{5}{12}",
@@ -6421,12 +6007,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{-3 - 2}{6 - (-1)} = \frac{-5}{7} = -\frac{5}{7}.",
+            r"The gradient is \frac{-3 - 2}{6 - (-1)} = \frac{-5}{7} = -\frac{5}{7}.",
       ),
-
       QuizQuestion(
         question:
-        "6. Calculate the gradient of the straight line joining the points A(3, 5) and B(-2, 3).          (BECE 2013 Q14)",
+            "6. Calculate the gradient of the straight line joining the points A(3, 5) and B(-2, 3).          (BECE 2013 Q14)",
         options: [
           r"\frac{5}{2}",
           r"\frac{2}{5}",
@@ -6436,12 +6021,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{3 - 5}{-2 - 3} = \frac{-2}{-5} = \frac{2}{5}.",
+            r"The gradient is \frac{3 - 5}{-2 - 3} = \frac{-2}{-5} = \frac{2}{5}.",
       ),
-
       QuizQuestion(
         question:
-        "7. Find the gradient of the straight line which passes through the points (-3, 4) and (3, -2).          (BECE 2019 Q18)",
+            "7. Find the gradient of the straight line which passes through the points (-3, 4) and (3, -2).          (BECE 2019 Q18)",
         options: [
           "2",
           "1",
@@ -6451,12 +6035,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{-2 - 4}{3 - (-3)} = \frac{-6}{6} = -1.",
+            r"The gradient is \frac{-2 - 4}{3 - (-3)} = \frac{-6}{6} = -1.",
       ),
-
       QuizQuestion(
         question:
-        "8. Find the equation of the straight line passing through the points (-3, 5) and (6, 8).          (BECE 2020 Q30)",
+            "8. Find the equation of the straight line passing through the points (-3, 5) and (6, 8).          (BECE 2020 Q30)",
         options: [
           r"y = \frac{1}{3}x",
           r"y = \frac{1}{3}x + 6",
@@ -6466,12 +6049,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"The gradient is \frac{8 - 5}{6 - (-3)} = \frac{3}{9} = \frac{1}{3}. Using y = mx + c and the point (-3, 5), 5 = \frac{1}{3}(-3) + c, so c = 6. Therefore, y = \frac{1}{3}x + 6.",
+            r"The gradient is \frac{8 - 5}{6 - (-3)} = \frac{3}{9} = \frac{1}{3}. Using y = mx + c and the point (-3, 5), 5 = \frac{1}{3}(-3) + c, so c = 6. Therefore, y = \frac{1}{3}x + 6.",
       ),
-
       QuizQuestion(
         question:
-        "9. Find the gradient of the line that joins the points A(-3, 5) and B(7, -2).          (BECE 2021 Q19)",
+            "9. Find the gradient of the line that joins the points A(-3, 5) and B(7, -2).          (BECE 2021 Q19)",
         options: [
           r"\frac{10}{7}",
           r"\frac{5}{12}",
@@ -6481,12 +6063,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{-2 - 5}{7 - (-3)} = \frac{-7}{10} = -\frac{7}{10}.",
+            r"The gradient is \frac{-2 - 5}{7 - (-3)} = \frac{-7}{10} = -\frac{7}{10}.",
       ),
-
       QuizQuestion(
         question:
-        "10. Given that P(3, -2) and Q(-2, 4) are points in a plane, find the gradient of the line joining P to Q.          (BECE 2022 Q40)",
+            "10. Given that P(3, -2) and Q(-2, 4) are points in a plane, find the gradient of the line joining P to Q.          (BECE 2022 Q40)",
         options: [
           r"-\frac{6}{5}",
           r"-\frac{5}{6}",
@@ -6496,12 +6077,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{4 - (-2)}{-2 - 3} = \frac{6}{-5} = -\frac{6}{5}.",
+            r"The gradient is \frac{4 - (-2)}{-2 - 3} = \frac{6}{-5} = -\frac{6}{5}.",
       ),
-
       QuizQuestion(
         question:
-        "11. A straight line passes through the points P(-5, -3) and Q(-4, -7). Find the gradient of the line PQ.          (BECE 2023 Q17)",
+            "11. A straight line passes through the points P(-5, -3) and Q(-4, -7). Find the gradient of the line PQ.          (BECE 2023 Q17)",
         options: [
           "4",
           "-4",
@@ -6511,12 +6091,11 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{-7 - (-3)}{-4 - (-5)} = \frac{-4}{1} = -4.",
+            r"The gradient is \frac{-7 - (-3)}{-4 - (-5)} = \frac{-4}{1} = -4.",
       ),
-
       QuizQuestion(
         question:
-        "12. Find the gradient of the line which passes through the points (2, 3) and (-4, 5).          (BECE 2025 Q23)",
+            "12. Find the gradient of the line which passes through the points (2, 3) and (-4, 5).          (BECE 2025 Q23)",
         options: [
           "-3",
           r"-\frac{1}{3}",
@@ -6526,7 +6105,7 @@ final Map<String, QuizModel> beceQuizData = {
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The gradient is \frac{5 - 3}{-4 - 2} = \frac{2}{-6} = -\frac{1}{3}.",
+            r"The gradient is \frac{5 - 3}{-4 - 2} = \frac{2}{-6} = -\frac{1}{3}.",
       ),
     ],
   ),
@@ -6534,1009 +6113,889 @@ final Map<String, QuizModel> beceQuizData = {
     audioPath: '',
     questions: [
       QuizQuestion(
-  question:
-      r"1. Remove the brackets: a - 2(b - 3c).          (BECE 1990 Q19)",
-  options: [
-    r"a - 2b - 3c",
-    r"a - 2b - 6c",
-    r"a - 2b + 6c",
-    r"a - 3b + 3c",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"Distribute -2 across the bracket: a - 2b + 6c.",
-),
-
-QuizQuestion(
-  question:
-      r"2. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1990 Q20)",
-  options: [
-    r"\frac{1}{6}(a + 3b)",
-    r"\frac{1}{6}(a - 3b)",
-    r"\frac{1}{6}(a - b)",
-    r"\frac{1}{6}(7a - 3b)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{2}{3}a - \frac{1}{2}a + \frac{1}{2}b = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
-),
-
-QuizQuestion(
-  question:
-      r"3. Multiply (2x + y) by (2x - y).          (BECE 1990 Q26)",
-  options: [
-    r"4x^2 - y^2",
-    r"4x^2 + xy - y^2",
-    r"4x^2 - xy - y^2",
-    r"4x^2 + y^2",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"Using (a + b)(a - b) = a^2 - b^2, (2x + y)(2x - y) = 4x^2 - y^2.",
-),
-
-QuizQuestion(
-  question:
-      r"4. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1991 Q22)",
-  options: [
-    r"a - 3b",
-    r"\frac{1}{6}(a - 3b)",
-    r"\frac{1}{6}(a + 3b)",
-    r"a + 3b",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
-),
-
-QuizQuestion(
-  question:
-      r"5. Expand (2a + b)(a + 2b).          (BECE 1993 Q1)",
-  options: [
-    r"2a^2 + 2b^2",
-    r"2a^2 + ab + 2b^2",
-    r"5a^2 + 2a^2b^2",
-    r"2a^2 + 5ab + 2b^2",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"(2a + b)(a + 2b) = 2a^2 + 4ab + ab + 2b^2 = 2a^2 + 5ab + 2b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"6. Use the identity a^2 - b^2 = (a + b)(a - b) to evaluate 83^2 - 17^2.          (BECE 1994 Q15)",
-  options: [
-    "660",
-    "6,600",
-    "7,718",
-    "7,600",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"83^2 - 17^2 = (83 + 17)(83 - 17) = 100 \times 66 = 6,600.",
-),
-
-QuizQuestion(
-  question:
-      r"7. Given that a = 2 and b = 3, evaluate (2a + b)(a - 2b).          (BECE 1994 Q21)",
-  options: [
-    "28",
-    "8",
-    "-7",
-    "-28",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"(2a + b)(a - 2b) = (4 + 3)(2 - 6) = 7(-4) = -28.",
-),
-
-QuizQuestion(
-  question:
-      r"8. Which of the following is a factor of ac - 2bc + ad - 2bd?          (BECE 1994 Q32)",
-  options: [
-    r"c - d",
-    r"a - 2b",
-    r"a + b",
-    r"a + 2b",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: c(a - 2b) + d(a - 2b) = (a - 2b)(c + d). Therefore, a - 2b is a factor.",
-),
-
-QuizQuestion(
-  question:
-      r"9. Factorize completely 5xy + 10ny.          (BECE 1995 Q32)",
-  options: [
-    r"5y(x + n)",
-    r"5y(x + 2n)",
-    r"5xy(1 + 2n)",
-    r"5(xy + 2ny)",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"The highest common factor is 5y, so 5xy + 10ny = 5y(x + 2n).",
-),
-
-QuizQuestion(
-  question:
-      r"10. If C is 40, F will be:          (BECE 1996 Q12)",
-  options: [
-    "104.0",
-    "78.4",
-    "72.0",
-    "65.6",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Using the Celsius-to-Fahrenheit formula F = \frac{9}{5}C + 32, F = \frac{9}{5}(40) + 32 = 104.",
-),
-
-QuizQuestion(
-  question:
-      r"11. If a^2 - b^2 = (a + b)(a - b), evaluate 9.32^2 - 0.68^2.          (BECE 1996 Q19)",
-  options: [
-    "87.32",
-    "86.4",
-    "74.65",
-    "10.0",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"9.32^2 - 0.68^2 = (9.32 + 0.68)(9.32 - 0.68) = 10 \times 8.64 = 86.4.",
-),
-
-QuizQuestion(
-  question:
-      r"12. If x = -1, find y.          (BECE 1996 Q23)",
-  options: [
-    "-4",
-    "-3",
-    "3",
-    "4",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"The equation or graph defining the relationship between x and y is missing from the supplied question, so the answer cannot be verified from the available information.",
-),
-
-QuizQuestion(
-  question:
-      r"13. Find the set of values of x for which y is zero.          (BECE 1996 Q24)",
-  options: [
-    r"\{0\}",
-    r"\{0, 2\}",
-    r"\{0, -2\}",
-    r"\{-2, 2\}",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"The graph or equation needed to determine where y = 0 is missing from the supplied question. The selected option appears to be the intended answer, but it cannot be verified from the available information.",
-),
-
-QuizQuestion(
-  question:
-      r"14. Simplify 3(6b - 9a) + 7(6a - 5b).          (BECE 1997 Q7)",
-  options: [
-    r"17b + 6a",
-    r"17b - 6a",
-    r"17b + 48a",
-    r"15a - 17b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"3(6b - 9a) + 7(6a - 5b) = 18b - 27a + 42a - 35b = 15a - 17b.",
-),
-
-QuizQuestion(
-  question:
-      r"15. If p = 7, q = 5 and r = 3, find the value of p^2 + q - r^3.          (BECE 1997 Q20)",
-  options: [
-    "81",
-    "57",
-    "51",
-    "27",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"p^2 + q - r^3 = 7^2 + 5 - 3^3 = 49 + 5 - 27 = 27.",
-),
-
-QuizQuestion(
-  question:
-      r"16. If a \times b \times c = 1197 and a = 21, b = 3, find c.          (BECE 1997 Q40)",
-  options: [
-    "19",
-    "49.9",
-    "57",
-    "93",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"21 \times 3 \times c = 1197, so c = \frac{1197}{63} = 19.",
-),
-
-QuizQuestion(
-  question:
-      r"17. Expand the expression 2(3a + 2b).          (BECE 1998 Q15)",
-  options: [
-    r"6a + 2b",
-    r"5a + 4b",
-    r"6a + 4b",
-    r"10ab",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"Multiply each term by 2: 2(3a + 2b) = 6a + 4b.",
-),
-
-QuizQuestion(
-  question:
-      r"18. Factorize completely 2xy - 8x + 5y - 20.          (BECE 1998 Q30)",
-  options: [
-    r"(2x + 5)(y - 4)",
-    r"(2x - 5)(y + 4)",
-    r"(2x - 5)(y - 4)",
-    r"(2x + 5)(y + 4)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 2x(y - 4) + 5(y - 4) = (2x + 5)(y - 4).",
-),
-
-QuizQuestion(
-  question:
-      r"19. Simplify 7(y + 1) - 2(2y + 3).          (BECE 1999 Q20)",
-  options: [
-    r"3y - 5",
-    r"3y - 2",
-    r"3y + 1",
-    r"3y + 4",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"7(y + 1) - 2(2y + 3) = 7y + 7 - 4y - 6 = 3y + 1.",
-),
-
-QuizQuestion(
-  question:
-      r"20. Factorize 3r^2s - 9rs^2.          (BECE 1999 Q33)",
-  options: [
-    r"rs(3r - s)",
-    r"3rs(s - 3r)",
-    r"3rs(r - 3s)",
-    r"r^2s^2(3r - 9s)",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"The highest common factor is 3rs, so 3r^2s - 9rs^2 = 3rs(r - 3s).",
-),
-
-QuizQuestion(
-  question:
-      r"21. Simplify 7a - 3(b - a).          (BECE 2000 Q21)",
-  options: [
-    r"4a - 3b",
-    r"4a + 3b",
-    r"8a - 3b",
-    r"10a - 3b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"7a - 3(b - a) = 7a - 3b + 3a = 10a - 3b.",
-),
-
-QuizQuestion(
-  question:
-      r"22. If 2y = 6 - 3x, find y when x = 0.          (BECE 2001 Q13)",
-  options: [
-    "-3",
-    "-2",
-    "0",
-    "3",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"When x = 0, 2y = 6 - 3(0) = 6. Therefore, y = 3.",
-),
-
-QuizQuestion(
-  question:
-      r"23. Given that \sqrt{p^2 + q^2} = p \times q, find the value of a if a = \sqrt{13^2 + 15^2}.          (BECE 2001 Q23)",
-  options: [
-    "28",
-    "175",
-    "195",
-    "247",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Using the stated rule, \sqrt{13^2 + 15^2} is interpreted as 13 \times 15 = 195. The printed rule is not a standard mathematical identity.",
-),
-
-QuizQuestion(
-  question:
-      r"24. Given that E = \frac{1}{2}mc^2, find E when m = 10 and c = 4.          (BECE 2001 Q27)",
-  options: [
-    "20",
-    "40",
-    "60",
-    "80",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"E = \frac{1}{2}(10)(4^2) = 5 \times 16 = 80.",
-),
-
-QuizQuestion(
-  question:
-      r"25. Expand (2a + b)(a - b).          (BECE 2002A Q25)",
-  options: [
-    r"2a^2 - 3ab - b^2",
-    r"2a^2 - ab - b^2",
-    r"2a^2 + ab + b^2",
-    r"2a^2 + 3ab - b^2",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"(2a + b)(a - b) = 2a^2 - 2ab + ab - b^2 = 2a^2 - ab - b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"26. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 2002B Q11)",
-  options: [
-    r"\frac{1}{6}(a + 3b)",
-    r"\frac{1}{6}(a - 3b)",
-    r"\frac{1}{6}(a - b)",
-    r"\frac{1}{6}(7a - 3b)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
-),
-
-QuizQuestion(
-  question:
-      r"27. Simplify 5(3t + 1) - 6(t - 1).          (BECE 2003 Q38)",
-  options: [
-    r"9t + 11",
-    r"9t + 7",
-    r"9t + 1",
-    r"9t - 5",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"5(3t + 1) - 6(t - 1) = 15t + 5 - 6t + 6 = 9t + 11.",
-),
-
-QuizQuestion(
-  question:
-      r"28. Factorize completely 4xy - 16x + 10y - 40.          (BECE 2004 Q11)",
-  options: [
-    r"(y + 4)(4x - 10)",
-    r"(y - 4)(4x + 10)",
-    r"(4 - y)(10 - 4x)",
-    r"(y + 4)(4x + 10)",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 4x(y - 4) + 10(y - 4) = (y - 4)(4x + 10).",
-),
-
-QuizQuestion(
-  question:
-      r"29. Expand 3(2a + 3b).          (BECE 2005 Q14)",
-  options: [
-    r"2a + 9b",
-    r"5a + 6b",
-    r"6a + 3b",
-    r"6a + 9b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"Multiply each term by 3: 3(2a + 3b) = 6a + 9b.",
-),
-
-QuizQuestion(
-  question:
-      r"30. Factorize 4ab^2 - 20ba^2.          (BECE 2005 Q30)",
-  options: [
-    r"4a(b^2 - 5b)",
-    r"4b(b - 5a)",
-    r"4ab(b - 5a)",
-    r"4ab(a - 5b)",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"The highest common factor is 4ab, so 4ab^2 - 20ba^2 = 4ab(b - 5a).",
-),
-
-QuizQuestion(
-  question:
-      r"31. Simplify \frac{4}{3}x - \frac{2}{9}x.          (BECE 2006 Q3)",
-  options: [
-    r"\frac{2}{9}x",
-    r"\frac{2}{3}x",
-    r"\frac{10}{9}x",
-    r"\frac{14}{9}x",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"\frac{4}{3}x - \frac{2}{9}x = \frac{12}{9}x - \frac{2}{9}x = \frac{10}{9}x.",
-),
-
-QuizQuestion(
-  question:
-      r"32. Expand (6 - x)(6 + y).          (BECE 2006 Q26)",
-  options: [
-    r"36 - 6x + 6y - xy",
-    r"36 - 6x - 6y + xy",
-    r"36 - 6x - xy",
-    r"36 - 6y - xy",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(6 - x)(6 + y) = 36 + 6y - 6x - xy = 36 - 6x + 6y - xy.",
-),
-
-QuizQuestion(
-  question:
-      r"33. Factorize 22ab - 11ac + 6rb - 3rc.          (BECE 2006 Q31)",
-  options: [
-    r"(2b - c)(11a + 3r)",
-    r"(2b + c)(11a - 3r)",
-    r"(2b - c)(11a - 3r)",
-    r"(2b + c)(11a + 3r)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"11a(2b - c) + 3r(2b - c) = (2b - c)(11a + 3r).",
-),
-
-QuizQuestion(
-  question:
-      r"34. Factorize \frac{1}{4}px^2 + \frac{1}{8}px.          (BECE 2007 Q18)",
-  options: [
-    r"\frac{1}{4} px (x + 2)",
-    r"\frac{1}{4} px (x + \frac{1}{2})",
-    r"\frac{1}{8} px (\frac{1}{2} x + 2)",
-    r"\frac{1}{8} px (2x + 1)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"The highest common factor is \frac{1}{8}px, giving \frac{1}{8}px(2x + 1).",
-),
-
-QuizQuestion(
-  question:
-      r"35. Simplify 6(7a + 4) - 3(8a + 9).          (BECE 2007 Q20)",
-  options: [
-    r"18a - 3",
-    r"18a + 51",
-    r"42a - 27",
-    r"66a - 3",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"6(7a + 4) - 3(8a + 9) = 42a + 24 - 24a - 27 = 18a - 3.",
-),
-
-QuizQuestion(
-  question:
-      r"36. Expand (a + 2b)(a - 2b).          (BECE 2007 Q31)",
-  options: [
-    r"a^2 - 4ab - 4b^2",
-    r"a^2 + 4ab - 4b^2",
-    r"a^2 - 4b^2",
-    r"a^2 + 4b^2",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"Using the difference of two squares, (a + 2b)(a - 2b) = a^2 - (2b)^2 = a^2 - 4b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"37. Expand (a + 4)(a + 6).          (BECE 2008 Q34)",
-  options: [
-    r"2a + 24",
-    r"a^2 + 6a + 10",
-    r"a^2 + 10a + 10",
-    r"a^2 + 10a + 24",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"(a + 4)(a + 6) = a^2 + 6a + 4a + 24 = a^2 + 10a + 24.",
-),
-
-QuizQuestion(
-  question:
-      r"38. Simplify (5m + 3n) - (2m - n).          (BECE 2009 Q5)",
-  options: [
-    r"5m - 4n",
-    r"3m + 4n",
-    r"3m - 2n",
-    r"7m + 4n",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"5m + 3n - 2m + n = 3m + 4n.",
-),
-
-QuizQuestion(
-  question:
-      r"39. Factorize ax + 3x + a + 3.          (BECE 2009 Q24)",
-  options: [
-    r"x(a + x)",
-    r"(x - a)(x + 3)",
-    r"x(a - x)",
-    r"(a + 3)(x + 1)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(a + 3) + 1(a + 3) = (a + 3)(x + 1).",
-),
-
-QuizQuestion(
-  question:
-      r"40. Factorize xy + 5x + 2y + 10.          (BECE 2010 Q21)",
-  options: [
-    r"(x + 5)(2y + 10)",
-    r"(x + 2)(y + 10)",
-    r"(x + 5)(y + 2)",
-    r"(x + 2)(y + 5)",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(y + 5) + 2(y + 5) = (x + 2)(y + 5). However, this corresponds to option D, so the supplied options appear to have been transcribed incorrectly.",
-),
-
-QuizQuestion(
-  question:
-      r"41. Expand 3a(a - 4b).          (BECE 2011 Q2)",
-  options: [
-    r"3a - 12ab",
-    r"3a^2 - 12ab",
-    r"3a^2 - 12b",
-    r"3a^2 - 12a",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"Multiply 3a by each term: 3a(a - 4b) = 3a^2 - 12ab.",
-),
-
-QuizQuestion(
-  question:
-      r"42. Factorize completely b^2 + fb - mb - fm.          (BECE 2011 Q11)",
-  options: [
-    r"(b - f)(b - m)",
-    r"(b + f)(b - m)",
-    r"(b + f)(m - b)",
-    r"(b + f)(m + b)",
-  ],
-  correctIndex: 1,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: b(b + f) - m(b + f) = (b + f)(b - m).",
-),
-
-QuizQuestion(
-  question:
-      r"43. Simplify \frac{3}{4}x - \frac{1}{3}(x - y).          (BECE 2012 Q20)",
-  options: [
-    r"\frac{1}{12}(5x - 4y)",
-    r"\frac{1}{12}(13x - 4y)",
-    r"\frac{1}{12}(5x + 4y)",
-    r"\frac{1}{12}(13x + 4y)",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"\frac{3}{4}x - \frac{1}{3}(x - y) = \frac{3}{4}x - \frac{1}{3}x + \frac{1}{3}y = \frac{5}{12}x + \frac{4}{12}y = \frac{1}{12}(5x + 4y).",
-),
-
-QuizQuestion(
-  question:
-      r"44. Expand -x(3 - 2x).          (BECE 2012 Q40)",
-  options: [
-    r"-2x^2 - 3x",
-    r"2x^2 - 3x",
-    r"-2x^2 + 3x",
-    r"2x^2 + 3x",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"-x(3 - 2x) = -3x + 2x^2 = 2x^2 - 3x.",
-),
-
-QuizQuestion(
-  question:
-      r"45. Factorize completely 2xy - 6y + 7x - 21.          (BECE 2013 Q19)",
-  options: [
-    r"(x - 3)(2y + 7)",
-    r"(x + 3)(2y - 7)",
-    r"(y - 3)(2x + 7)",
-    r"(y + 3)(2x - 7)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 2y(x - 3) + 7(x - 3) = (x - 3)(2y + 7).",
-),
-
-QuizQuestion(
-  question:
-      r"46. Expand (2x + y)(2x - y).          (BECE 2015 Q19)",
-  options: [
-    r"2x^2 - y^2",
-    r"4x^2 - y^2",
-    r"2x^2 + 4xy - y^2",
-    r"4x^2 + 4xy - y^2",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"Using the difference of two squares, (2x + y)(2x - y) = 4x^2 - y^2.",
-),
-
-QuizQuestion(
-  question:
-      r"47. Simplify 4(x + 2) - 3(x + 1).          (BECE 2016 Q21)",
-  options: [
-    r"x + 5",
-    r"x + 11",
-    r"7x + 5",
-    r"7x + 11",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"4(x + 2) - 3(x + 1) = 4x + 8 - 3x - 3 = x + 5.",
-),
-
-QuizQuestion(
-  question:
-      r"48. Simplify \frac{2(u - v)(2u + 3v)}{4u + 6v}.          (BECE 2017 Q18)",
-  options: [
-    r"\frac{(u - v)(2u + 3v)}{u + v}",
-    r"\frac{(u - v)(u + v)}{u + 2v}",
-    r"\frac{1}{2}(u - v)",
-    r"u - v",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Since 4u + 6v = 2(2u + 3v), the common factor 2(2u + 3v) cancels, leaving u - v.",
-),
-
-QuizQuestion(
-  question:
-      r"49. Simplify 4a - 9b - 2(2a - 3b).          (BECE 2018 Q27)",
-  options: [
-    r"8a + 3b",
-    r"8a - 3b",
-    r"-15b",
-    r"-3b",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"4a - 9b - 2(2a - 3b) = 4a - 9b - 4a + 6b = -3b.",
-),
-
-QuizQuestion(
-  question:
-      r"50. Factorize kx + 2xt - 4k - 8t.          (BECE 2019 Q8)",
-  options: [
-    r"(k - 2t)(x + 4)",
-    r"(k + 2t)(x + 4)",
-    r"(k + t)(x - 4)",
-    r"(k + 2t)(x - 4)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(k + 2t) - 4(k + 2t) = (k + 2t)(x - 4).",
-),
-
-QuizQuestion(
-  question:
-      r"51. Subtract (7x - 3) from (5 - 3x).          (BECE 2020 Q1)",
-  options: [
-    r"10x - 8",
-    r"4x - 8",
-    r"8 - 10x",
-    r"2 - 10x",
-  ],
-  correctIndex: 2,
-  difficulty: "Easy",
-  explanation:
-      r"(5 - 3x) - (7x - 3) = 5 - 3x - 7x + 3 = 8 - 10x.",
-),
-
-QuizQuestion(
-  question:
-      r"52. Expand and simplify (a - b)(2a + 3).          (BECE 2020 Q38)",
-  options: [
-    r"a^2 - a + 6",
-    r"2a^2 + 7a - 6",
-    r"2a^2 - a - 6",
-    r"2a^2 - 12a + 6",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Direct expansion gives 2a^2 + 3a - 2ab - 3b, which does not match any option. Option C would result only under additional information about b, so the question appears incomplete or incorrectly transcribed.",
-),
-
-QuizQuestion(
-  question:
-      r"53. Simplify 3y - \frac{1}{4}(2y - 3).          (BECE 2021 Q1)",
-  options: [
-    r"10y + 3",
-    r"10y - 3",
-    r"\frac{10 y - 3}{4}",
-    r"\frac{10 y + 3}{4}",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"3y - \frac{1}{4}(2y - 3) = 3y - \frac{1}{2}y + \frac{3}{4} = \frac{10y + 3}{4}.",
-),
-
-QuizQuestion(
-  question:
-      r"54. Expand (7r - 5)(3r + 4).          (BECE 2021 Q14)",
-  options: [
-    r"21r^2 + 13r - 20",
-    r"21r^2 - 13r - 20",
-    r"21r^2 - 43r - 20",
-    r"21r^2 + 43r - 20",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(7r - 5)(3r + 4) = 21r^2 + 28r - 15r - 20 = 21r^2 + 13r - 20.",
-),
-
-QuizQuestion(
-  question:
-      r"55. Factorize 3ax + 6a - x - 2.          (BECE 2021 Q21)",
-  options: [
-    r"(3a + 1)(x + 2)",
-    r"(3a + 1)(x - 2)",
-    r"(3a - 1)(x - 2)",
-    r"(3a - 1)(x + 2)",
-  ],
-  correctIndex: 3,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: 3a(x + 2) - 1(x + 2) = (3a - 1)(x + 2).",
-),
-
-QuizQuestion(
-  question:
-      r"56. Simplify 3(5a^2 + 2c) - 2a(1 - 3a) - 6c.          (BECE 2021 Q30)",
-  options: [
-    r"21a^2 - 2a",
-    r"13a^2 - 2a - 12c",
-    r"13a^2 - 2a",
-    r"21a^2 - 2a - 12c",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"3(5a^2 + 2c) - 2a(1 - 3a) - 6c = 15a^2 + 6c - 2a + 6a^2 - 6c = 21a^2 - 2a.",
-),
-
-QuizQuestion(
-  question:
-      r"57. Expand (2a - b)(a - b).          (BECE 2022 Q1)",
-  options: [
-    r"2a^2 + 3ab + b^2",
-    r"2a^2 - 3ab + b^2",
-    r"2a^2 - 3ab - b^2",
-    r"2a^2 + 3ab - b^2",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"(2a - b)(a - b) = 2a^2 - 2ab - ab + b^2 = 2a^2 - 3ab + b^2.",
-),
-
-QuizQuestion(
-  question:
-      r"58. Factorize completely xy - xm - my + m^2.          (BECE 2022 Q9)",
-  options: [
-    r"(x - m)(y - m)",
-    r"(m - y)(x - m)",
-    r"(y - m)(y - m)",
-    r"(m - y)(m - x)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: x(y - m) - m(y - m) = (x - m)(y - m).",
-),
-
-QuizQuestion(
-  question:
-      r"59. Simplify (x - 1)^2 - 1.          (BECE 2023 Q1)",
-  options: [
-    r"x^2 - 2x",
-    r"x^2 - 2x + 1",
-    r"x^2 - 2x - 1",
-    r"x^2 + 2x",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(x - 1)^2 - 1 = x^2 - 2x + 1 - 1 = x^2 - 2x.",
-),
-
-QuizQuestion(
-  question:
-      r"60. Factorize 2pq + 6p - 6q - 18.          (BECE 2023 Q4)",
-  options: [
-    r"2(p - 3)(q - 3)",
-    r"2(p - 3)(q + 3)",
-    r"2(p + 3)(q - 3)",
-    r"2(p + 3)(q + 3)",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"2p(q + 3) - 6(q + 3) = 2(p - 3)(q + 3). This corresponds to option B, so the supplied option ordering appears inconsistent.",
-),
-
-QuizQuestion(
-  question:
-      r"61. Expand (x - 2)(x + 4).          (BECE 2023 Q28)",
-  options: [
-    r"x^2 + 2x - 8",
-    r"x^2 - 2x - 8",
-    r"x^2 - 4x - 8",
-    r"x^2 + 4x - 8",
-  ],
-  correctIndex: 0,
-  difficulty: "Easy",
-  explanation:
-      r"(x - 2)(x + 4) = x^2 + 4x - 2x - 8 = x^2 + 2x - 8.",
-),
-
-QuizQuestion(
-  question:
-      r"62. Simplify 3x - 2(3 + 2x) + x(2x + 4).          (BECE 2024 Q25)",
-  options: [
-    r"2x^2 + 3x - 6",
-    r"2x^2 - 3x - 6",
-    r"2x^2 + 3x + 6",
-    r"2x^2 - 3x + 6",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"3x - 2(3 + 2x) + x(2x + 4) = 3x - 6 - 4x + 2x^2 + 4x = 2x^2 + 3x - 6.",
-),
-
-QuizQuestion(
-  question:
-      r"63. One of the factors of 4m^2 + 12m - 8m - 24 is (4m - 8). Find the other factor.          (BECE 2024 Q27)",
-  options: [
-    r"m - 3",
-    r"2m - 3",
-    r"m + 3",
-    r"2m + 3",
-  ],
-  correctIndex: 2,
-  difficulty: "Medium",
-  explanation:
-      r"Group the expression: 4m(m + 3) - 8(m + 3) = (4m - 8)(m + 3). Therefore, the other factor is m + 3.",
-),
-
-QuizQuestion(
-  question:
-      r"64. Expand and simplify 2(3a + 1) - 3(4a - 3).          (BECE 2025 Q2)",
-  options: [
-    r"11 - 5a",
-    r"11 - 6a",
-    r"11 + 6a",
-    r"11 + 5a",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"2(3a + 1) - 3(4a - 3) = 6a + 2 - 12a + 9 = 11 - 6a.",
-),
-
-QuizQuestion(
-  question:
-      r"65. Factorize 5ay - by + 15a - 3b.          (BECE 2025 Q4)",
-  options: [
-    r"(y + 3)(5a - b)",
-    r"(y + 5)(3a - b)",
-    r"(y - 3)(5a + b)",
-    r"(y - 5)(5a + b)",
-  ],
-  correctIndex: 0,
-  difficulty: "Medium",
-  explanation:
-      r"Group the terms: y(5a - b) + 3(5a - b) = (y + 3)(5a - b).",
-),
-
-QuizQuestion(
-  question:
-      r"66. If 2y = 5 - 3x, find x when y = 1.          (BECE 2025 Q21)",
-  options: [
-    r"-2\frac{1}{3}",
-    "-1",
-    "0",
-    "1",
-  ],
-  correctIndex: 3,
-  difficulty: "Easy",
-  explanation:
-      r"When y = 1, 2 = 5 - 3x. Thus, 3x = 3 and x = 1.",
-),
-
-QuizQuestion(
-  question:
-      r"67. Multiply (8s - 7) by (8s + 7).          (BECE 2025 Q30)",
-  options: [
-    r"64s^2 + 49",
-    r"64s^2 - 49",
-    r"16s^2 - 42",
-    r"16s^2 + 42",
-  ],
-  correctIndex: 1,
-  difficulty: "Easy",
-  explanation:
-      r"Using (a - b)(a + b) = a^2 - b^2, (8s - 7)(8s + 7) = 64s^2 - 49.",
-),
+        question:
+            r"1. Remove the brackets: a - 2(b - 3c).          (BECE 1990 Q19)",
+        options: [
+          r"a - 2b - 3c",
+          r"a - 2b - 6c",
+          r"a - 2b + 6c",
+          r"a - 3b + 3c",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"Distribute -2 across the bracket: a - 2b + 6c.",
+      ),
+      QuizQuestion(
+        question:
+            r"2. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1990 Q20)",
+        options: [
+          r"\frac{1}{6}(a + 3b)",
+          r"\frac{1}{6}(a - 3b)",
+          r"\frac{1}{6}(a - b)",
+          r"\frac{1}{6}(7a - 3b)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{2}{3}a - \frac{1}{2}a + \frac{1}{2}b = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+      ),
+      QuizQuestion(
+        question: r"3. Multiply (2x + y) by (2x - y).          (BECE 1990 Q26)",
+        options: [
+          r"4x^2 - y^2",
+          r"4x^2 + xy - y^2",
+          r"4x^2 - xy - y^2",
+          r"4x^2 + y^2",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"Using (a + b)(a - b) = a^2 - b^2, (2x + y)(2x - y) = 4x^2 - y^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"4. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 1991 Q22)",
+        options: [
+          r"a - 3b",
+          r"\frac{1}{6}(a - 3b)",
+          r"\frac{1}{6}(a + 3b)",
+          r"a + 3b",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+      ),
+      QuizQuestion(
+        question: r"5. Expand (2a + b)(a + 2b).          (BECE 1993 Q1)",
+        options: [
+          r"2a^2 + 2b^2",
+          r"2a^2 + ab + 2b^2",
+          r"5a^2 + 2a^2b^2",
+          r"2a^2 + 5ab + 2b^2",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            r"(2a + b)(a + 2b) = 2a^2 + 4ab + ab + 2b^2 = 2a^2 + 5ab + 2b^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"6. Use the identity a^2 - b^2 = (a + b)(a - b) to evaluate 83^2 - 17^2.          (BECE 1994 Q15)",
+        options: [
+          "660",
+          "6,600",
+          "7,718",
+          "7,600",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"83^2 - 17^2 = (83 + 17)(83 - 17) = 100 \times 66 = 6,600.",
+      ),
+      QuizQuestion(
+        question:
+            r"7. Given that a = 2 and b = 3, evaluate (2a + b)(a - 2b).          (BECE 1994 Q21)",
+        options: [
+          "28",
+          "8",
+          "-7",
+          "-28",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"(2a + b)(a - 2b) = (4 + 3)(2 - 6) = 7(-4) = -28.",
+      ),
+      QuizQuestion(
+        question:
+            r"8. Which of the following is a factor of ac - 2bc + ad - 2bd?          (BECE 1994 Q32)",
+        options: [
+          r"c - d",
+          r"a - 2b",
+          r"a + b",
+          r"a + 2b",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: c(a - 2b) + d(a - 2b) = (a - 2b)(c + d). Therefore, a - 2b is a factor.",
+      ),
+      QuizQuestion(
+        question:
+            r"9. Factorize completely 5xy + 10ny.          (BECE 1995 Q32)",
+        options: [
+          r"5y(x + n)",
+          r"5y(x + 2n)",
+          r"5xy(1 + 2n)",
+          r"5(xy + 2ny)",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"The highest common factor is 5y, so 5xy + 10ny = 5y(x + 2n).",
+      ),
+      QuizQuestion(
+        question: r"10. If C is 40, F will be:          (BECE 1996 Q12)",
+        options: [
+          "104.0",
+          "78.4",
+          "72.0",
+          "65.6",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Using the Celsius-to-Fahrenheit formula F = \frac{9}{5}C + 32, F = \frac{9}{5}(40) + 32 = 104.",
+      ),
+      QuizQuestion(
+        question:
+            r"11. If a^2 - b^2 = (a + b)(a - b), evaluate 9.32^2 - 0.68^2.          (BECE 1996 Q19)",
+        options: [
+          "87.32",
+          "86.4",
+          "74.65",
+          "10.0",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"9.32^2 - 0.68^2 = (9.32 + 0.68)(9.32 - 0.68) = 10 \times 8.64 = 86.4.",
+      ),
+      QuizQuestion(
+        question: r"12. If x = -1, find y.          (BECE 1996 Q23)",
+        options: [
+          "-4",
+          "-3",
+          "3",
+          "4",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"The equation or graph defining the relationship between x and y is missing from the supplied question, so the answer cannot be verified from the available information.",
+      ),
+      QuizQuestion(
+        question:
+            r"13. Find the set of values of x for which y is zero.          (BECE 1996 Q24)",
+        options: [
+          r"\{0\}",
+          r"\{0, 2\}",
+          r"\{0, -2\}",
+          r"\{-2, 2\}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"The graph or equation needed to determine where y = 0 is missing from the supplied question. The selected option appears to be the intended answer, but it cannot be verified from the available information.",
+      ),
+      QuizQuestion(
+        question:
+            r"14. Simplify 3(6b - 9a) + 7(6a - 5b).          (BECE 1997 Q7)",
+        options: [
+          r"17b + 6a",
+          r"17b - 6a",
+          r"17b + 48a",
+          r"15a - 17b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            r"3(6b - 9a) + 7(6a - 5b) = 18b - 27a + 42a - 35b = 15a - 17b.",
+      ),
+      QuizQuestion(
+        question:
+            r"15. If p = 7, q = 5 and r = 3, find the value of p^2 + q - r^3.          (BECE 1997 Q20)",
+        options: [
+          "81",
+          "57",
+          "51",
+          "27",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"p^2 + q - r^3 = 7^2 + 5 - 3^3 = 49 + 5 - 27 = 27.",
+      ),
+      QuizQuestion(
+        question:
+            r"16. If a \times b \times c = 1197 and a = 21, b = 3, find c.          (BECE 1997 Q40)",
+        options: [
+          "19",
+          "49.9",
+          "57",
+          "93",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"21 \times 3 \times c = 1197, so c = \frac{1197}{63} = 19.",
+      ),
+      QuizQuestion(
+        question:
+            r"17. Expand the expression 2(3a + 2b).          (BECE 1998 Q15)",
+        options: [
+          r"6a + 2b",
+          r"5a + 4b",
+          r"6a + 4b",
+          r"10ab",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"Multiply each term by 2: 2(3a + 2b) = 6a + 4b.",
+      ),
+      QuizQuestion(
+        question:
+            r"18. Factorize completely 2xy - 8x + 5y - 20.          (BECE 1998 Q30)",
+        options: [
+          r"(2x + 5)(y - 4)",
+          r"(2x - 5)(y + 4)",
+          r"(2x - 5)(y - 4)",
+          r"(2x + 5)(y + 4)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 2x(y - 4) + 5(y - 4) = (2x + 5)(y - 4).",
+      ),
+      QuizQuestion(
+        question:
+            r"19. Simplify 7(y + 1) - 2(2y + 3).          (BECE 1999 Q20)",
+        options: [
+          r"3y - 5",
+          r"3y - 2",
+          r"3y + 1",
+          r"3y + 4",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"7(y + 1) - 2(2y + 3) = 7y + 7 - 4y - 6 = 3y + 1.",
+      ),
+      QuizQuestion(
+        question: r"20. Factorize 3r^2s - 9rs^2.          (BECE 1999 Q33)",
+        options: [
+          r"rs(3r - s)",
+          r"3rs(s - 3r)",
+          r"3rs(r - 3s)",
+          r"r^2s^2(3r - 9s)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"The highest common factor is 3rs, so 3r^2s - 9rs^2 = 3rs(r - 3s).",
+      ),
+      QuizQuestion(
+        question: r"21. Simplify 7a - 3(b - a).          (BECE 2000 Q21)",
+        options: [
+          r"4a - 3b",
+          r"4a + 3b",
+          r"8a - 3b",
+          r"10a - 3b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"7a - 3(b - a) = 7a - 3b + 3a = 10a - 3b.",
+      ),
+      QuizQuestion(
+        question:
+            r"22. If 2y = 6 - 3x, find y when x = 0.          (BECE 2001 Q13)",
+        options: [
+          "-3",
+          "-2",
+          "0",
+          "3",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"When x = 0, 2y = 6 - 3(0) = 6. Therefore, y = 3.",
+      ),
+      QuizQuestion(
+        question:
+            r"23. Given that \sqrt{p^2 + q^2} = p \times q, find the value of a if a = \sqrt{13^2 + 15^2}.          (BECE 2001 Q23)",
+        options: [
+          "28",
+          "175",
+          "195",
+          "247",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Using the stated rule, \sqrt{13^2 + 15^2} is interpreted as 13 \times 15 = 195. The printed rule is not a standard mathematical identity.",
+      ),
+      QuizQuestion(
+        question:
+            r"24. Given that E = \frac{1}{2}mc^2, find E when m = 10 and c = 4.          (BECE 2001 Q27)",
+        options: [
+          "20",
+          "40",
+          "60",
+          "80",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"E = \frac{1}{2}(10)(4^2) = 5 \times 16 = 80.",
+      ),
+      QuizQuestion(
+        question: r"25. Expand (2a + b)(a - b).          (BECE 2002A Q25)",
+        options: [
+          r"2a^2 - 3ab - b^2",
+          r"2a^2 - ab - b^2",
+          r"2a^2 + ab + b^2",
+          r"2a^2 + 3ab - b^2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"(2a + b)(a - b) = 2a^2 - 2ab + ab - b^2 = 2a^2 - ab - b^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"26. Simplify \frac{2}{3}a - \frac{1}{2}(a - b).          (BECE 2002B Q11)",
+        options: [
+          r"\frac{1}{6}(a + 3b)",
+          r"\frac{1}{6}(a - 3b)",
+          r"\frac{1}{6}(a - b)",
+          r"\frac{1}{6}(7a - 3b)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{2}{3}a - \frac{1}{2}(a - b) = \frac{1}{6}a + \frac{1}{2}b = \frac{1}{6}(a + 3b).",
+      ),
+      QuizQuestion(
+        question:
+            r"27. Simplify 5(3t + 1) - 6(t - 1).          (BECE 2003 Q38)",
+        options: [
+          r"9t + 11",
+          r"9t + 7",
+          r"9t + 1",
+          r"9t - 5",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"5(3t + 1) - 6(t - 1) = 15t + 5 - 6t + 6 = 9t + 11.",
+      ),
+      QuizQuestion(
+        question:
+            r"28. Factorize completely 4xy - 16x + 10y - 40.          (BECE 2004 Q11)",
+        options: [
+          r"(y + 4)(4x - 10)",
+          r"(y - 4)(4x + 10)",
+          r"(4 - y)(10 - 4x)",
+          r"(y + 4)(4x + 10)",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 4x(y - 4) + 10(y - 4) = (y - 4)(4x + 10).",
+      ),
+      QuizQuestion(
+        question: r"29. Expand 3(2a + 3b).          (BECE 2005 Q14)",
+        options: [
+          r"2a + 9b",
+          r"5a + 6b",
+          r"6a + 3b",
+          r"6a + 9b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"Multiply each term by 3: 3(2a + 3b) = 6a + 9b.",
+      ),
+      QuizQuestion(
+        question: r"30. Factorize 4ab^2 - 20ba^2.          (BECE 2005 Q30)",
+        options: [
+          r"4a(b^2 - 5b)",
+          r"4b(b - 5a)",
+          r"4ab(b - 5a)",
+          r"4ab(a - 5b)",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"The highest common factor is 4ab, so 4ab^2 - 20ba^2 = 4ab(b - 5a).",
+      ),
+      QuizQuestion(
+        question:
+            r"31. Simplify \frac{4}{3}x - \frac{2}{9}x.          (BECE 2006 Q3)",
+        options: [
+          r"\frac{2}{9}x",
+          r"\frac{2}{3}x",
+          r"\frac{10}{9}x",
+          r"\frac{14}{9}x",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"\frac{4}{3}x - \frac{2}{9}x = \frac{12}{9}x - \frac{2}{9}x = \frac{10}{9}x.",
+      ),
+      QuizQuestion(
+        question: r"32. Expand (6 - x)(6 + y).          (BECE 2006 Q26)",
+        options: [
+          r"36 - 6x + 6y - xy",
+          r"36 - 6x - 6y + xy",
+          r"36 - 6x - xy",
+          r"36 - 6y - xy",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"(6 - x)(6 + y) = 36 + 6y - 6x - xy = 36 - 6x + 6y - xy.",
+      ),
+      QuizQuestion(
+        question:
+            r"33. Factorize 22ab - 11ac + 6rb - 3rc.          (BECE 2006 Q31)",
+        options: [
+          r"(2b - c)(11a + 3r)",
+          r"(2b + c)(11a - 3r)",
+          r"(2b - c)(11a - 3r)",
+          r"(2b + c)(11a + 3r)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: r"11a(2b - c) + 3r(2b - c) = (2b - c)(11a + 3r).",
+      ),
+      QuizQuestion(
+        question:
+            r"34. Factorize \frac{1}{4}px^2 + \frac{1}{8}px.          (BECE 2007 Q18)",
+        options: [
+          r"\frac{1}{4} px (x + 2)",
+          r"\frac{1}{4} px (x + \frac{1}{2})",
+          r"\frac{1}{8} px (\frac{1}{2} x + 2)",
+          r"\frac{1}{8} px (2x + 1)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"The highest common factor is \frac{1}{8}px, giving \frac{1}{8}px(2x + 1).",
+      ),
+      QuizQuestion(
+        question:
+            r"35. Simplify 6(7a + 4) - 3(8a + 9).          (BECE 2007 Q20)",
+        options: [
+          r"18a - 3",
+          r"18a + 51",
+          r"42a - 27",
+          r"66a - 3",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"6(7a + 4) - 3(8a + 9) = 42a + 24 - 24a - 27 = 18a - 3.",
+      ),
+      QuizQuestion(
+        question: r"36. Expand (a + 2b)(a - 2b).          (BECE 2007 Q31)",
+        options: [
+          r"a^2 - 4ab - 4b^2",
+          r"a^2 + 4ab - 4b^2",
+          r"a^2 - 4b^2",
+          r"a^2 + 4b^2",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            r"Using the difference of two squares, (a + 2b)(a - 2b) = a^2 - (2b)^2 = a^2 - 4b^2.",
+      ),
+      QuizQuestion(
+        question: r"37. Expand (a + 4)(a + 6).          (BECE 2008 Q34)",
+        options: [
+          r"2a + 24",
+          r"a^2 + 6a + 10",
+          r"a^2 + 10a + 10",
+          r"a^2 + 10a + 24",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"(a + 4)(a + 6) = a^2 + 6a + 4a + 24 = a^2 + 10a + 24.",
+      ),
+      QuizQuestion(
+        question: r"38. Simplify (5m + 3n) - (2m - n).          (BECE 2009 Q5)",
+        options: [
+          r"5m - 4n",
+          r"3m + 4n",
+          r"3m - 2n",
+          r"7m + 4n",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"5m + 3n - 2m + n = 3m + 4n.",
+      ),
+      QuizQuestion(
+        question: r"39. Factorize ax + 3x + a + 3.          (BECE 2009 Q24)",
+        options: [
+          r"x(a + x)",
+          r"(x - a)(x + 3)",
+          r"x(a - x)",
+          r"(a + 3)(x + 1)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: r"Group the terms: x(a + 3) + 1(a + 3) = (a + 3)(x + 1).",
+      ),
+      QuizQuestion(
+        question: r"40. Factorize xy + 5x + 2y + 10.          (BECE 2010 Q21)",
+        options: [
+          r"(x + 5)(2y + 10)",
+          r"(x + 2)(y + 10)",
+          r"(x + 5)(y + 2)",
+          r"(x + 2)(y + 5)",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: x(y + 5) + 2(y + 5) = (x + 2)(y + 5). However, this corresponds to option D, so the supplied options appear to have been transcribed incorrectly.",
+      ),
+      QuizQuestion(
+        question: r"41. Expand 3a(a - 4b).          (BECE 2011 Q2)",
+        options: [
+          r"3a - 12ab",
+          r"3a^2 - 12ab",
+          r"3a^2 - 12b",
+          r"3a^2 - 12a",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"Multiply 3a by each term: 3a(a - 4b) = 3a^2 - 12ab.",
+      ),
+      QuizQuestion(
+        question:
+            r"42. Factorize completely b^2 + fb - mb - fm.          (BECE 2011 Q11)",
+        options: [
+          r"(b - f)(b - m)",
+          r"(b + f)(b - m)",
+          r"(b + f)(m - b)",
+          r"(b + f)(m + b)",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: r"Group the terms: b(b + f) - m(b + f) = (b + f)(b - m).",
+      ),
+      QuizQuestion(
+        question:
+            r"43. Simplify \frac{3}{4}x - \frac{1}{3}(x - y).          (BECE 2012 Q20)",
+        options: [
+          r"\frac{1}{12}(5x - 4y)",
+          r"\frac{1}{12}(13x - 4y)",
+          r"\frac{1}{12}(5x + 4y)",
+          r"\frac{1}{12}(13x + 4y)",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"\frac{3}{4}x - \frac{1}{3}(x - y) = \frac{3}{4}x - \frac{1}{3}x + \frac{1}{3}y = \frac{5}{12}x + \frac{4}{12}y = \frac{1}{12}(5x + 4y).",
+      ),
+      QuizQuestion(
+        question: r"44. Expand -x(3 - 2x).          (BECE 2012 Q40)",
+        options: [
+          r"-2x^2 - 3x",
+          r"2x^2 - 3x",
+          r"-2x^2 + 3x",
+          r"2x^2 + 3x",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"-x(3 - 2x) = -3x + 2x^2 = 2x^2 - 3x.",
+      ),
+      QuizQuestion(
+        question:
+            r"45. Factorize completely 2xy - 6y + 7x - 21.          (BECE 2013 Q19)",
+        options: [
+          r"(x - 3)(2y + 7)",
+          r"(x + 3)(2y - 7)",
+          r"(y - 3)(2x + 7)",
+          r"(y + 3)(2x - 7)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 2y(x - 3) + 7(x - 3) = (x - 3)(2y + 7).",
+      ),
+      QuizQuestion(
+        question: r"46. Expand (2x + y)(2x - y).          (BECE 2015 Q19)",
+        options: [
+          r"2x^2 - y^2",
+          r"4x^2 - y^2",
+          r"2x^2 + 4xy - y^2",
+          r"4x^2 + 4xy - y^2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"Using the difference of two squares, (2x + y)(2x - y) = 4x^2 - y^2.",
+      ),
+      QuizQuestion(
+        question: r"47. Simplify 4(x + 2) - 3(x + 1).          (BECE 2016 Q21)",
+        options: [
+          r"x + 5",
+          r"x + 11",
+          r"7x + 5",
+          r"7x + 11",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"4(x + 2) - 3(x + 1) = 4x + 8 - 3x - 3 = x + 5.",
+      ),
+      QuizQuestion(
+        question:
+            r"48. Simplify \frac{2(u - v)(2u + 3v)}{4u + 6v}.          (BECE 2017 Q18)",
+        options: [
+          r"\frac{(u - v)(2u + 3v)}{u + v}",
+          r"\frac{(u - v)(u + v)}{u + 2v}",
+          r"\frac{1}{2}(u - v)",
+          r"u - v",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Since 4u + 6v = 2(2u + 3v), the common factor 2(2u + 3v) cancels, leaving u - v.",
+      ),
+      QuizQuestion(
+        question:
+            r"49. Simplify 4a - 9b - 2(2a - 3b).          (BECE 2018 Q27)",
+        options: [
+          r"8a + 3b",
+          r"8a - 3b",
+          r"-15b",
+          r"-3b",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"4a - 9b - 2(2a - 3b) = 4a - 9b - 4a + 6b = -3b.",
+      ),
+      QuizQuestion(
+        question: r"50. Factorize kx + 2xt - 4k - 8t.          (BECE 2019 Q8)",
+        options: [
+          r"(k - 2t)(x + 4)",
+          r"(k + 2t)(x + 4)",
+          r"(k + t)(x - 4)",
+          r"(k + 2t)(x - 4)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: x(k + 2t) - 4(k + 2t) = (k + 2t)(x - 4).",
+      ),
+      QuizQuestion(
+        question:
+            r"51. Subtract (7x - 3) from (5 - 3x).          (BECE 2020 Q1)",
+        options: [
+          r"10x - 8",
+          r"4x - 8",
+          r"8 - 10x",
+          r"2 - 10x",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: r"(5 - 3x) - (7x - 3) = 5 - 3x - 7x + 3 = 8 - 10x.",
+      ),
+      QuizQuestion(
+        question:
+            r"52. Expand and simplify (a - b)(2a + 3).          (BECE 2020 Q38)",
+        options: [
+          r"a^2 - a + 6",
+          r"2a^2 + 7a - 6",
+          r"2a^2 - a - 6",
+          r"2a^2 - 12a + 6",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Direct expansion gives 2a^2 + 3a - 2ab - 3b, which does not match any option. Option C would result only under additional information about b, so the question appears incomplete or incorrectly transcribed.",
+      ),
+      QuizQuestion(
+        question:
+            r"53. Simplify 3y - \frac{1}{4}(2y - 3).          (BECE 2021 Q1)",
+        options: [
+          r"10y + 3",
+          r"10y - 3",
+          r"\frac{10 y - 3}{4}",
+          r"\frac{10 y + 3}{4}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"3y - \frac{1}{4}(2y - 3) = 3y - \frac{1}{2}y + \frac{3}{4} = \frac{10y + 3}{4}.",
+      ),
+      QuizQuestion(
+        question: r"54. Expand (7r - 5)(3r + 4).          (BECE 2021 Q14)",
+        options: [
+          r"21r^2 + 13r - 20",
+          r"21r^2 - 13r - 20",
+          r"21r^2 - 43r - 20",
+          r"21r^2 + 43r - 20",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            r"(7r - 5)(3r + 4) = 21r^2 + 28r - 15r - 20 = 21r^2 + 13r - 20.",
+      ),
+      QuizQuestion(
+        question: r"55. Factorize 3ax + 6a - x - 2.          (BECE 2021 Q21)",
+        options: [
+          r"(3a + 1)(x + 2)",
+          r"(3a + 1)(x - 2)",
+          r"(3a - 1)(x - 2)",
+          r"(3a - 1)(x + 2)",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: 3a(x + 2) - 1(x + 2) = (3a - 1)(x + 2).",
+      ),
+      QuizQuestion(
+        question:
+            r"56. Simplify 3(5a^2 + 2c) - 2a(1 - 3a) - 6c.          (BECE 2021 Q30)",
+        options: [
+          r"21a^2 - 2a",
+          r"13a^2 - 2a - 12c",
+          r"13a^2 - 2a",
+          r"21a^2 - 2a - 12c",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"3(5a^2 + 2c) - 2a(1 - 3a) - 6c = 15a^2 + 6c - 2a + 6a^2 - 6c = 21a^2 - 2a.",
+      ),
+      QuizQuestion(
+        question: r"57. Expand (2a - b)(a - b).          (BECE 2022 Q1)",
+        options: [
+          r"2a^2 + 3ab + b^2",
+          r"2a^2 - 3ab + b^2",
+          r"2a^2 - 3ab - b^2",
+          r"2a^2 + 3ab - b^2",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"(2a - b)(a - b) = 2a^2 - 2ab - ab + b^2 = 2a^2 - 3ab + b^2.",
+      ),
+      QuizQuestion(
+        question:
+            r"58. Factorize completely xy - xm - my + m^2.          (BECE 2022 Q9)",
+        options: [
+          r"(x - m)(y - m)",
+          r"(m - y)(x - m)",
+          r"(y - m)(y - m)",
+          r"(m - y)(m - x)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: r"Group the terms: x(y - m) - m(y - m) = (x - m)(y - m).",
+      ),
+      QuizQuestion(
+        question: r"59. Simplify (x - 1)^2 - 1.          (BECE 2023 Q1)",
+        options: [
+          r"x^2 - 2x",
+          r"x^2 - 2x + 1",
+          r"x^2 - 2x - 1",
+          r"x^2 + 2x",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"(x - 1)^2 - 1 = x^2 - 2x + 1 - 1 = x^2 - 2x.",
+      ),
+      QuizQuestion(
+        question: r"60. Factorize 2pq + 6p - 6q - 18.          (BECE 2023 Q4)",
+        options: [
+          r"2(p - 3)(q - 3)",
+          r"2(p - 3)(q + 3)",
+          r"2(p + 3)(q - 3)",
+          r"2(p + 3)(q + 3)",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"2p(q + 3) - 6(q + 3) = 2(p - 3)(q + 3). This corresponds to option B, so the supplied option ordering appears inconsistent.",
+      ),
+      QuizQuestion(
+        question: r"61. Expand (x - 2)(x + 4).          (BECE 2023 Q28)",
+        options: [
+          r"x^2 + 2x - 8",
+          r"x^2 - 2x - 8",
+          r"x^2 - 4x - 8",
+          r"x^2 + 4x - 8",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: r"(x - 2)(x + 4) = x^2 + 4x - 2x - 8 = x^2 + 2x - 8.",
+      ),
+      QuizQuestion(
+        question:
+            r"62. Simplify 3x - 2(3 + 2x) + x(2x + 4).          (BECE 2024 Q25)",
+        options: [
+          r"2x^2 + 3x - 6",
+          r"2x^2 - 3x - 6",
+          r"2x^2 + 3x + 6",
+          r"2x^2 - 3x + 6",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"3x - 2(3 + 2x) + x(2x + 4) = 3x - 6 - 4x + 2x^2 + 4x = 2x^2 + 3x - 6.",
+      ),
+      QuizQuestion(
+        question:
+            r"63. One of the factors of 4m^2 + 12m - 8m - 24 is (4m - 8). Find the other factor.          (BECE 2024 Q27)",
+        options: [
+          r"m - 3",
+          r"2m - 3",
+          r"m + 3",
+          r"2m + 3",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            r"Group the expression: 4m(m + 3) - 8(m + 3) = (4m - 8)(m + 3). Therefore, the other factor is m + 3.",
+      ),
+      QuizQuestion(
+        question:
+            r"64. Expand and simplify 2(3a + 1) - 3(4a - 3).          (BECE 2025 Q2)",
+        options: [
+          r"11 - 5a",
+          r"11 - 6a",
+          r"11 + 6a",
+          r"11 + 5a",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: r"2(3a + 1) - 3(4a - 3) = 6a + 2 - 12a + 9 = 11 - 6a.",
+      ),
+      QuizQuestion(
+        question: r"65. Factorize 5ay - by + 15a - 3b.          (BECE 2025 Q4)",
+        options: [
+          r"(y + 3)(5a - b)",
+          r"(y + 5)(3a - b)",
+          r"(y - 3)(5a + b)",
+          r"(y - 5)(5a + b)",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            r"Group the terms: y(5a - b) + 3(5a - b) = (y + 3)(5a - b).",
+      ),
+      QuizQuestion(
+        question:
+            r"66. If 2y = 5 - 3x, find x when y = 1.          (BECE 2025 Q21)",
+        options: [
+          r"-2\frac{1}{3}",
+          "-1",
+          "0",
+          "1",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: r"When y = 1, 2 = 5 - 3x. Thus, 3x = 3 and x = 1.",
+      ),
+      QuizQuestion(
+        question:
+            r"67. Multiply (8s - 7) by (8s + 7).          (BECE 2025 Q30)",
+        options: [
+          r"64s^2 + 49",
+          r"64s^2 - 49",
+          r"16s^2 - 42",
+          r"16s^2 + 42",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            r"Using (a - b)(a + b) = a^2 - b^2, (8s - 7)(8s + 7) = 64s^2 - 49.",
+      ),
     ],
   ),
   "Math JHS2 s2 ss3 - Variables and Equations": QuizModel(
@@ -7544,7 +7003,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        r"1. If x \in {1, 3, 5, 7, 9, 11, 13, 15}, find the truth set of x - 3 \geq 10. (BECE 1993 Q3)",
+            r"1. If x \in {1, 3, 5, 7, 9, 11, 13, 15}, find the truth set of x - 3 \geq 10. (BECE 1993 Q3)",
         options: [
           r"{15}",
           r"{13, 15}",
@@ -7554,12 +7013,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"x - 3 \geq 10 gives x \geq 13. The values in the given set that satisfy this are 13 and 15.",
+            r"x - 3 \geq 10 gives x \geq 13. The values in the given set that satisfy this are 13 and 15.",
       ),
-
       QuizQuestion(
-        question:
-        r"2. Solve 4x - 6 < -2. (BECE 1995 Q11)",
+        question: r"2. Solve 4x - 6 < -2. (BECE 1995 Q11)",
         options: [
           r"x < 1",
           r"x > 1",
@@ -7568,13 +7025,11 @@ QuizQuestion(
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation:
-        r"4x - 6 < -2 gives 4x < 4. Dividing by 4 gives x < 1.",
+        explanation: r"4x - 6 < -2 gives 4x < 4. Dividing by 4 gives x < 1.",
       ),
-
       QuizQuestion(
         question:
-        r"3. Find the truth set of 5x - 8 \leq 2x + 4. (BECE 1997 Q33)",
+            r"3. Find the truth set of 5x - 8 \leq 2x + 4. (BECE 1997 Q33)",
         options: [
           r"{x : x \geq 4}",
           r"{x : x \geq -4}",
@@ -7584,12 +7039,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"5x - 8 \leq 2x + 4 gives 3x \leq 12. Therefore, x \leq 4.",
+            r"5x - 8 \leq 2x + 4 gives 3x \leq 12. Therefore, x \leq 4.",
       ),
-
       QuizQuestion(
         question:
-        r"4. Which of the following statements is true? (BECE 2003 Q25)",
+            r"4. Which of the following statements is true? (BECE 2003 Q25)",
         options: [
           r"8 + 4 < 10",
           r"7 + 4 < 10",
@@ -7598,13 +7052,10 @@ QuizQuestion(
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation:
-        r"Only 5 + 4 = 9 is less than 10.",
+        explanation: r"Only 5 + 4 = 9 is less than 10.",
       ),
-
       QuizQuestion(
-        question:
-        r"5. Solve for x if \frac{1}{2}x - 4x > 20. (BECE 2004 Q28)",
+        question: r"5. Solve for x if \frac{1}{2}x - 4x > 20. (BECE 2004 Q28)",
         options: [
           r"x < -13\frac{1}{3}",
           r"x < -5\frac{4}{5}",
@@ -7614,12 +7065,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"The given inequality simplifies to -\frac{7}{2}x > 20, so x < -\frac{40}{7} = -5\frac{5}{7}. None of the supplied options matches exactly; option B appears to be the intended answer.",
+            r"The given inequality simplifies to -\frac{7}{2}x > 20, so x < -\frac{40}{7} = -5\frac{5}{7}. None of the supplied options matches exactly; option B appears to be the intended answer.",
       ),
-
       QuizQuestion(
         question:
-        r"6. Find the truth set of the inequality 2x + 5 < 4y - 5. (BECE 2019 Q17)",
+            r"6. Find the truth set of the inequality 2x + 5 < 4y - 5. (BECE 2019 Q17)",
         options: [
           r"{y : y > 5}",
           r"{y : y < 5}",
@@ -7629,12 +7079,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Rearranging gives 4y > 2x + 10, so y > \frac{x + 5}{2}. A value of x is missing from the supplied question. If x = 5, the intended answer is y > 5.",
+            r"Rearranging gives 4y > 2x + 10, so y > \frac{x + 5}{2}. A value of x is missing from the supplied question. If x = 5, the intended answer is y > 5.",
       ),
-
       QuizQuestion(
         question:
-        r"7. Find the solution set of n - \frac{2}{3} > \frac{1}{3} - n. (BECE 1993 Q24)",
+            r"7. Find the solution set of n - \frac{2}{3} > \frac{1}{3} - n. (BECE 1993 Q24)",
         options: [
           r"{n : n > -1}",
           r"{n : n = 0}",
@@ -7644,12 +7093,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"n - \frac{2}{3} > \frac{1}{3} - n gives 2n > 1. Therefore, n > \frac{1}{2}.",
+            r"n - \frac{2}{3} > \frac{1}{3} - n gives 2n > 1. Therefore, n > \frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        r"8. If x \in {1, 2, 3, 4, 5}, find the truth set of 2x + 1 < 7. (BECE 1994 Q6)",
+            r"8. If x \in {1, 2, 3, 4, 5}, find the truth set of 2x + 1 < 7. (BECE 1994 Q6)",
         options: [
           r"{1, 2}",
           r"{2, 3}",
@@ -7659,12 +7107,10 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"2x + 1 < 7 gives 2x < 6, so x < 3. The values in the domain are 1 and 2.",
+            r"2x + 1 < 7 gives 2x < 6, so x < 3. The values in the domain are 1 and 2.",
       ),
-
       QuizQuestion(
-        question:
-        r"9. Find the solution set of 2x + 4 > -6. (BECE 1996 Q38)",
+        question: r"9. Find the solution set of 2x + 4 > -6. (BECE 1996 Q38)",
         options: [
           r"{x = -5}",
           r"{x < 5}",
@@ -7673,13 +7119,10 @@ QuizQuestion(
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        r"2x + 4 > -6 gives 2x > -10. Therefore, x > -5.",
+        explanation: r"2x + 4 > -6 gives 2x > -10. Therefore, x > -5.",
       ),
-
       QuizQuestion(
-        question:
-        r"10. Solve the inequality 3(x - 1) \leq 12. (BECE 2001 Q19)",
+        question: r"10. Solve the inequality 3(x - 1) \leq 12. (BECE 2001 Q19)",
         options: [
           r"x \leq -5",
           r"x \leq -3",
@@ -7689,12 +7132,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"3(x - 1) \leq 12 gives x - 1 \leq 4. Therefore, x \leq 5.",
+            r"3(x - 1) \leq 12 gives x - 1 \leq 4. Therefore, x \leq 5.",
       ),
-
       QuizQuestion(
         question:
-        r"11. Find the solution set of 2x + 1 < 5 in the domain {-1, 0, 1, 2, 3}. (BECE 2004 Q14)",
+            r"11. Find the solution set of 2x + 1 < 5 in the domain {-1, 0, 1, 2, 3}. (BECE 2004 Q14)",
         options: [
           r"{-1, 1, 3}",
           r"{-1, 0, 1}",
@@ -7704,12 +7146,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"2x + 1 < 5 gives x < 2. The values in the domain that satisfy this are -1, 0 and 1.",
+            r"2x + 1 < 5 gives x < 2. The values in the domain that satisfy this are -1, 0 and 1.",
       ),
-
       QuizQuestion(
         question:
-        r"12. If x \in {2, 3, 4, 5}, find the truth set of 2x + 1 < 8. (BECE 2010 Q22)",
+            r"12. If x \in {2, 3, 4, 5}, find the truth set of 2x + 1 < 8. (BECE 2010 Q22)",
         options: [
           r"{2, 3, 4}",
           r"{2, 3}",
@@ -7719,12 +7160,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"2x + 1 < 8 gives 2x < 7, so x < 3.5. The values in the domain are 2 and 3.",
+            r"2x + 1 < 8 gives 2x < 7, so x < 3.5. The values in the domain are 2 and 3.",
       ),
-
       QuizQuestion(
         question:
-        r"13. Solve the inequality 7x - (10x + 3) \geq -9. (BECE 2010 Q23)",
+            r"13. Solve the inequality 7x - (10x + 3) \geq -9. (BECE 2010 Q23)",
         options: [
           r"x \geq 2",
           r"x \leq 4",
@@ -7734,12 +7174,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"7x - 10x - 3 \geq -9 gives -3x \geq -6. Dividing by -3 reverses the inequality, giving x \leq 2.",
+            r"7x - 10x - 3 \geq -9 gives -3x \geq -6. Dividing by -3 reverses the inequality, giving x \leq 2.",
       ),
-
       QuizQuestion(
         question:
-        r"14. Solve the inequality x - \frac{1}{3} \geq \frac{2}{3} - x. (BECE 2011 Q15)",
+            r"14. Solve the inequality x - \frac{1}{3} \geq \frac{2}{3} - x. (BECE 2011 Q15)",
         options: [
           r"x \leq \frac{1}{2}",
           r"x \leq \frac{2}{3}",
@@ -7749,12 +7188,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"x - \frac{1}{3} \geq \frac{2}{3} - x gives 2x \geq 1. Therefore, x \geq \frac{1}{2}.",
+            r"x - \frac{1}{3} \geq \frac{2}{3} - x gives 2x \geq 1. Therefore, x \geq \frac{1}{2}.",
       ),
-
       QuizQuestion(
         question:
-        r"15. Solve the inequality 2x + 10 \geq \frac{7x}{2} - 5. (BECE 2014 Q36)",
+            r"15. Solve the inequality 2x + 10 \geq \frac{7x}{2} - 5. (BECE 2014 Q36)",
         options: [
           r"x \leq 10",
           r"x \geq 10",
@@ -7764,12 +7202,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Thus, 30 \geq 3x, so x \leq 10.",
+            r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Thus, 30 \geq 3x, so x \leq 10.",
       ),
-
       QuizQuestion(
         question:
-        r"16. Solve the inequality 2x + 10 \geq \frac{7}{2}x - 5. (BECE 2015 Q36)",
+            r"16. Solve the inequality 2x + 10 \geq \frac{7}{2}x - 5. (BECE 2015 Q36)",
         options: [
           r"x \geq 10",
           r"x \leq 10",
@@ -7779,12 +7216,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Therefore, 30 \geq 3x and x \leq 10.",
+            r"Multiplying by 2 gives 4x + 20 \geq 7x - 10. Therefore, 30 \geq 3x and x \leq 10.",
       ),
-
       QuizQuestion(
-        question:
-        r"17. Solve 25x + 450 \leq 3000. (BECE 2017 Q19)",
+        question: r"17. Solve 25x + 450 \leq 3000. (BECE 2017 Q19)",
         options: [
           r"x \geq 102",
           r"x \leq 102",
@@ -7794,12 +7229,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"25x + 450 \leq 3000 gives 25x \leq 2550. Therefore, x \leq 102.",
+            r"25x + 450 \leq 3000 gives 25x \leq 2550. Therefore, x \leq 102.",
       ),
-
       QuizQuestion(
-        question:
-        r"18. Solve 3 - (3x + 4) \leq -4. (BECE 2020 Q35)",
+        question: r"18. Solve 3 - (3x + 4) \leq -4. (BECE 2020 Q35)",
         options: [
           r"x \leq 1",
           r"x \geq 1",
@@ -7809,12 +7242,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"3 - 3x - 4 \leq -4 gives -3x - 1 \leq -4, so -3x \leq -3. Dividing by -3 reverses the inequality, giving x \geq 1.",
+            r"3 - 3x - 4 \leq -4 gives -3x - 1 \leq -4, so -3x \leq -3. Dividing by -3 reverses the inequality, giving x \geq 1.",
       ),
-
       QuizQuestion(
-        question:
-        r"19. Solve \frac{1 - x}{3} < 4. (BECE 2021 Q20)",
+        question: r"19. Solve \frac{1 - x}{3} < 4. (BECE 2021 Q20)",
         options: [
           r"x < -11",
           r"x > -11",
@@ -7824,12 +7255,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"\frac{1 - x}{3} < 4 gives 1 - x < 12. Thus, -x < 11, and dividing by -1 reverses the inequality to give x > -11.",
+            r"\frac{1 - x}{3} < 4 gives 1 - x < 12. Thus, -x < 11, and dividing by -1 reverses the inequality to give x > -11.",
       ),
-
       QuizQuestion(
-        question:
-        r"20. Solve 5x - (7x - 3) \leq 9. (BECE 2022 Q38)",
+        question: r"20. Solve 5x - (7x - 3) \leq 9. (BECE 2022 Q38)",
         options: [
           r"x \leq -3",
           r"x \geq -3",
@@ -7839,12 +7268,10 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"5x - 7x + 3 \leq 9 gives -2x \leq 6. Dividing by -2 reverses the inequality, giving x \geq -3.",
+            r"5x - 7x + 3 \leq 9 gives -2x \leq 6. Dividing by -2 reverses the inequality, giving x \geq -3.",
       ),
-
       QuizQuestion(
-        question:
-        r"21. Find the truth set of 2x - 4 < 6 + 3x. (BECE 2024 Q39)",
+        question: r"21. Find the truth set of 2x - 4 < 6 + 3x. (BECE 2024 Q39)",
         options: [
           r"{x : x < 2}",
           r"{x : x < 10}",
@@ -7853,8 +7280,7 @@ QuizQuestion(
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation:
-        r"2x - 4 < 6 + 3x gives -10 < x. Therefore, x > -10.",
+        explanation: r"2x - 4 < 6 + 3x gives -10 < x. Therefore, x > -10.",
       ),
     ],
   ),
@@ -7864,7 +7290,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        "1. Calculate the size of an exterior angle of a regular pentagon. (BECE 1994 Q12)",
+            "1. Calculate the size of an exterior angle of a regular pentagon. (BECE 1994 Q12)",
         options: [
           "72°",
           "90°",
@@ -7874,12 +7300,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "The exterior angles of a regular polygon sum to 360°. Therefore, each exterior angle is 360° ÷ 5 = 72°.",
+            "The exterior angles of a regular polygon sum to 360°. Therefore, each exterior angle is 360° ÷ 5 = 72°.",
       ),
-
       QuizQuestion(
         question:
-        "2. A polygon has 10 sides. Which of the following gives the sum of its interior angles? (BECE 1992 Q23)",
+            "2. A polygon has 10 sides. Which of the following gives the sum of its interior angles? (BECE 1992 Q23)",
         options: [
           "2 × 180°",
           "4 × 180°",
@@ -7889,12 +7314,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The sum of the interior angles is (n - 2) × 180°. For 10 sides, this is (10 - 2) × 180° = 8 × 180°.",
+            "The sum of the interior angles is (n - 2) × 180°. For 10 sides, this is (10 - 2) × 180° = 8 × 180°.",
       ),
-
       QuizQuestion(
         question:
-        "3. Which of the following best describes the statement “the locus of points 6 cm from a fixed point O”? (BECE 1998 Q39)",
+            "3. Which of the following best describes the statement “the locus of points 6 cm from a fixed point O”? (BECE 1998 Q39)",
         options: [
           "A parallel line 6 cm from point O.",
           "A vertical line 6 cm from point O.",
@@ -7904,12 +7328,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "All points at a fixed distance of 6 cm from O form a circle with centre O and radius 6 cm.",
+            "All points at a fixed distance of 6 cm from O form a circle with centre O and radius 6 cm.",
       ),
-
       QuizQuestion(
         question:
-        "4. The point P moves in a plane such that it is always at equal distance from two fixed points A and B in the same plane. Which of these is the locus of the point P? (BECE 2003 Q40)",
+            "4. The point P moves in a plane such that it is always at equal distance from two fixed points A and B in the same plane. Which of these is the locus of the point P? (BECE 2003 Q40)",
         options: [
           "The bisector of angle PAB.",
           "A circle with centre B and radius AB.",
@@ -7919,12 +7342,10 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them.",
+            "The locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them.",
       ),
-
       QuizQuestion(
-        question:
-        "5. Angle NTZ and QZT are: (BECE 2007 Q17)",
+        question: "5. Angle NTZ and QZT are: (BECE 2007 Q17)",
         options: [
           "Alternate angles.",
           "Corresponding angles.",
@@ -7934,12 +7355,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The question states that angles NTZ and QZT are supplementary, so their sum is 180°.",
+            "The question states that angles NTZ and QZT are supplementary, so their sum is 180°.",
       ),
-
       QuizQuestion(
         question:
-        "6. Which of the following best describes the statement: “The locus of a point which moves so that its distances from two fixed points are always equal”? (BECE 2015 Q30)",
+            "6. Which of the following best describes the statement: “The locus of a point which moves so that its distances from two fixed points are always equal”? (BECE 2015 Q30)",
         options: [
           "Bisector of an angle",
           "Perpendicular bisector",
@@ -7949,12 +7369,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Points that are equally distant from two fixed points lie on the perpendicular bisector of the line joining the points.",
+            "Points that are equally distant from two fixed points lie on the perpendicular bisector of the line joining the points.",
       ),
-
       QuizQuestion(
         question:
-        "7. The sum of the interior angles of a regular polygon with 10 sides is: (BECE 2017 Q7)",
+            "7. The sum of the interior angles of a regular polygon with 10 sides is: (BECE 2017 Q7)",
         options: [
           "144°",
           "900°",
@@ -7963,8 +7382,7 @@ QuizQuestion(
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        "The sum is (10 - 2) × 180° = 8 × 180° = 1,440°.",
+        explanation: "The sum is (10 - 2) × 180° = 8 × 180° = 1,440°.",
       ),
     ],
   ),
@@ -7973,7 +7391,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        r"1. Simplify \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 1990 Q40)",
+            r"1. Simplify \begin{pmatrix} 2 \\ -3 \end{pmatrix} - \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 1990 Q40)",
         options: [
           r"\begin{pmatrix} -3 \\ 8 \end{pmatrix}",
           r"\begin{pmatrix} 3 \\ -8 \end{pmatrix}",
@@ -7983,11 +7401,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} 2-(-1) \ -3-5 \end{pmatrix} = \begin{pmatrix} 3 \ -8 \end{pmatrix}.",
+            r"\begin{pmatrix} 2-(-1) \ -3-5 \end{pmatrix} = \begin{pmatrix} 3 \ -8 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"2. If r = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, calculate 6(r + 2s). (BECE 1991 Q27)",
+            r"2. If r = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, calculate 6(r + 2s). (BECE 1991 Q27)",
         options: [
           r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
           r"\begin{pmatrix} 1 \\ 3 \end{pmatrix}",
@@ -7997,11 +7415,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Medium",
         explanation:
-        r"r + 2s = \begin{pmatrix} 3 \ 1 \end{pmatrix} + \begin{pmatrix} -4 \ 2 \end{pmatrix} = \begin{pmatrix} -1 \ 3 \end{pmatrix}. Multiplying by 6 gives \begin{pmatrix} -6 \ 18 \end{pmatrix}.",
+            r"r + 2s = \begin{pmatrix} 3 \ 1 \end{pmatrix} + \begin{pmatrix} -4 \ 2 \end{pmatrix} = \begin{pmatrix} -1 \ 3 \end{pmatrix}. Multiplying by 6 gives \begin{pmatrix} -6 \ 18 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"3. Given that a = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + 2b. (BECE 1993 Q20)",
+            r"3. Given that a = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + 2b. (BECE 1993 Q20)",
         options: [
           r"\begin{pmatrix} 2 \\ -7 \end{pmatrix}",
           r"\begin{pmatrix} 2 \\ 13 \end{pmatrix}",
@@ -8011,11 +7429,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"Using the vectors as supplied gives a + 2b = \begin{pmatrix} -6 \ 9 \end{pmatrix}, which is not among the options. The question or options contain a transcription error.",
+            r"Using the vectors as supplied gives a + 2b = \begin{pmatrix} -6 \ 9 \end{pmatrix}, which is not among the options. The question or options contain a transcription error.",
       ),
       QuizQuestion(
         question:
-        "4. Three girls measured the sides of right-angled triangles. Ama measured 50 mm, 40 mm and 50 mm; Adjoa measured 50 mm, 120 mm and 130 mm; Abena measured 20 mm, 30 mm and 40 mm. Whose measurement was correct? (BECE 1993 Q40)",
+            "4. Three girls measured the sides of right-angled triangles. Ama measured 50 mm, 40 mm and 50 mm; Adjoa measured 50 mm, 120 mm and 130 mm; Abena measured 20 mm, 30 mm and 40 mm. Whose measurement was correct? (BECE 1993 Q40)",
         options: [
           "Ama's only",
           "Adjoa's only",
@@ -8025,11 +7443,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"Only Adjoa's measurements satisfy the Pythagorean theorem: 50^2 + 120^2 = 130^2.",
+            r"Only Adjoa's measurements satisfy the Pythagorean theorem: 50^2 + 120^2 = 130^2.",
       ),
       QuizQuestion(
         question:
-        r"5. If u = \begin{pmatrix} 2 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -1 \\ 3 \end{pmatrix}, find 3u + 2v. (BECE 1995 Q21)",
+            r"5. If u = \begin{pmatrix} 2 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -1 \\ 3 \end{pmatrix}, find 3u + 2v. (BECE 1995 Q21)",
         options: [
           r"\begin{pmatrix} 8 \\ 9 \end{pmatrix}",
           r"\begin{pmatrix} 4 \\ -2 \end{pmatrix}",
@@ -8039,11 +7457,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"3u + 2v = \begin{pmatrix} 6 \ 3 \end{pmatrix} + \begin{pmatrix} -2 \ 6 \end{pmatrix} = \begin{pmatrix} 4 \ 9 \end{pmatrix}.",
+            r"3u + 2v = \begin{pmatrix} 6 \ 3 \end{pmatrix} + \begin{pmatrix} -2 \ 6 \end{pmatrix} = \begin{pmatrix} 4 \ 9 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"6. Simplify \begin{pmatrix} 4 \\ 5 \end{pmatrix} + \begin{pmatrix} -2 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 6 \end{pmatrix}. (BECE 1997 Q11)",
+            r"6. Simplify \begin{pmatrix} 4 \\ 5 \end{pmatrix} + \begin{pmatrix} -2 \\ 2 \end{pmatrix} + \begin{pmatrix} 1 \\ 6 \end{pmatrix}. (BECE 1997 Q11)",
         options: [
           r"\begin{pmatrix} 2 \\ 13 \end{pmatrix}",
           r"\begin{pmatrix} 7 \\ 13 \end{pmatrix}",
@@ -8053,11 +7471,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Add corresponding components: \begin{pmatrix} 4-2+1 \ 5+2+6 \end{pmatrix} = \begin{pmatrix} 3 \ 13 \end{pmatrix}.",
+            r"Add corresponding components: \begin{pmatrix} 4-2+1 \ 5+2+6 \end{pmatrix} = \begin{pmatrix} 3 \ 13 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"7. The diameter of a circular tray is 28 cm. Find the area of the tray. Take \pi = \frac{22}{7}. (BECE 1994 Q23)",
+            r"7. The diameter of a circular tray is 28 cm. Find the area of the tray. Take \pi = \frac{22}{7}. (BECE 1994 Q23)",
         options: [
           r"71.4 cm^2",
           r"31.8 cm^2",
@@ -8067,11 +7485,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2. None of the supplied options matches the correct answer.",
+            r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2. None of the supplied options matches the correct answer.",
       ),
       QuizQuestion(
         question:
-        r"8. Given that a = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and b = \begin{pmatrix} 1 \\ 2 \end{pmatrix}, find b - a. (BECE 1998 Q34)",
+            r"8. Given that a = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and b = \begin{pmatrix} 1 \\ 2 \end{pmatrix}, find b - a. (BECE 1998 Q34)",
         options: [
           r"\begin{pmatrix} -2 \\ 6 \end{pmatrix}",
           r"\begin{pmatrix} 4 \\ -2 \end{pmatrix}",
@@ -8081,11 +7499,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"b-a = \begin{pmatrix} 1-(-3) \ 2-4 \end{pmatrix} = \begin{pmatrix} 4 \ -2 \end{pmatrix}.",
+            r"b-a = \begin{pmatrix} 1-(-3) \ 2-4 \end{pmatrix} = \begin{pmatrix} 4 \ -2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"9. Given L = \begin{pmatrix} 3 \\ -1 \end{pmatrix} and K = \begin{pmatrix} -4 \\ 2 \end{pmatrix}, find L + K. (BECE 1999 Q36)",
+            r"9. Given L = \begin{pmatrix} 3 \\ -1 \end{pmatrix} and K = \begin{pmatrix} -4 \\ 2 \end{pmatrix}, find L + K. (BECE 1999 Q36)",
         options: [
           r"\begin{pmatrix} -1 \\ -1 \end{pmatrix}",
           r"\begin{pmatrix} -1 \\ 1 \end{pmatrix}",
@@ -8095,11 +7513,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"L+K = \begin{pmatrix} 3-4 \ -1+2 \end{pmatrix} = \begin{pmatrix} -1 \ 1 \end{pmatrix}.",
+            r"L+K = \begin{pmatrix} 3-4 \ -1+2 \end{pmatrix} = \begin{pmatrix} -1 \ 1 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"10. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} - \begin{pmatrix} 1 \\ 5 \end{pmatrix}. (BECE 2000 Q10)",
+            r"10. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} - \begin{pmatrix} 1 \\ 5 \end{pmatrix}. (BECE 2000 Q10)",
         options: [
           r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
           r"\begin{pmatrix} -1 \\ 8 \end{pmatrix}",
@@ -8109,11 +7527,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -2-1 \\ 3-5 \end{pmatrix} = \begin{pmatrix} -3 \\ -2 \end{pmatrix}.",
+            r"\begin{pmatrix} -2-1 \\ 3-5 \end{pmatrix} = \begin{pmatrix} -3 \\ -2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"11. The circumference of a circular track is 15.4 m. Find its diameter. Take \pi = \frac{22}{7}. (BECE 2002B Q40)",
+            r"11. The circumference of a circular track is 15.4 m. Find its diameter. Take \pi = \frac{22}{7}. (BECE 2002B Q40)",
         options: [
           "4.9 m",
           "24.5 m",
@@ -8123,11 +7541,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"Since C = \pi d, d = 15.4 \div \frac{22}{7} = 4.9\text{ m}.",
+            r"Since C = \pi d, d = 15.4 \div \frac{22}{7} = 4.9\text{ m}.",
       ),
       QuizQuestion(
         question:
-        r"12. Find the area of a circle whose diameter is 28 cm. Take \pi = \frac{22}{7}. (BECE 2005 Q15)",
+            r"12. Find the area of a circle whose diameter is 28 cm. Take \pi = \frac{22}{7}. (BECE 2005 Q15)",
         options: [
           r"44 cm^2",
           r"88 cm^2",
@@ -8137,11 +7555,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2.",
+            r"The radius is 14 cm, so the area is \frac{22}{7} \times 14^2 = 616\text{ cm}^2.",
       ),
       QuizQuestion(
         question:
-        r"13. Find the circumference of a circle with radius 3.5 cm. Take \pi = \frac{22}{7}. (BECE 2006 Q5)",
+            r"13. Find the circumference of a circle with radius 3.5 cm. Take \pi = \frac{22}{7}. (BECE 2006 Q5)",
         options: [
           "11 cm",
           "22 cm",
@@ -8151,11 +7569,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"C = 2\pi r = 2 \times \frac{22}{7} \times 3.5 = 22\text{ cm}.",
+            r"C = 2\pi r = 2 \times \frac{22}{7} \times 3.5 = 22\text{ cm}.",
       ),
       QuizQuestion(
         question:
-        "14. Which of the following dimensions form the sides of a right-angled triangle? (BECE 2004 Q40)",
+            "14. Which of the following dimensions form the sides of a right-angled triangle? (BECE 2004 Q40)",
         options: [
           "3 cm, 4 cm, 6 cm",
           "3 cm, 5 cm, 7 cm",
@@ -8165,11 +7583,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Since 5^2 + 12^2 = 25 + 144 = 169 = 13^2, the sides form a right-angled triangle.",
+            r"Since 5^2 + 12^2 = 25 + 144 = 169 = 13^2, the sides form a right-angled triangle.",
       ),
       QuizQuestion(
         question:
-        r"15. If r = \begin{pmatrix} 2 \\ 5 \end{pmatrix} and t = \begin{pmatrix} -2 \\ -3 \end{pmatrix}, evaluate r + t. (BECE 2007 Q28)",
+            r"15. If r = \begin{pmatrix} 2 \\ 5 \end{pmatrix} and t = \begin{pmatrix} -2 \\ -3 \end{pmatrix}, evaluate r + t. (BECE 2007 Q28)",
         options: [
           r"\begin{pmatrix} 0 \\ -2 \end{pmatrix}",
           r"\begin{pmatrix} 0 \\ 2 \end{pmatrix}",
@@ -8179,11 +7597,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"r+t = \begin{pmatrix} 2-2 \\ 5-3 \end{pmatrix} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}.",
+            r"r+t = \begin{pmatrix} 2-2 \\ 5-3 \end{pmatrix} = \begin{pmatrix} 0 \\ 2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        "16. Which of the following sets of angles form the interior angles of a right-angled triangle? (BECE 2009 Q14)",
+            "16. Which of the following sets of angles form the interior angles of a right-angled triangle? (BECE 2009 Q14)",
         options: [
           r"{ 20^\circ, 50^\circ, 90^\circ }",
           r"{ 80^\circ, 60^\circ, 90^\circ }",
@@ -8193,11 +7611,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"A triangle's angles sum to 180^\circ. Only 45^\circ + 45^\circ + 90^\circ = 180^\circ.",
+            r"A triangle's angles sum to 180^\circ. Only 45^\circ + 45^\circ + 90^\circ = 180^\circ.",
       ),
       QuizQuestion(
         question:
-        r"17. If r = \begin{pmatrix} -10 \\ -3 \end{pmatrix} and n = \begin{pmatrix} 8 \\ -6 \end{pmatrix}, find n + r. (BECE 2009 Q40)",
+            r"17. If r = \begin{pmatrix} -10 \\ -3 \end{pmatrix} and n = \begin{pmatrix} 8 \\ -6 \end{pmatrix}, find n + r. (BECE 2009 Q40)",
         options: [
           r"\begin{pmatrix} -2 \\ -9 \end{pmatrix}",
           r"\begin{pmatrix} 2 \\ -9 \end{pmatrix}",
@@ -8207,11 +7625,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"n+r = \begin{pmatrix} 8-10 \ -6-3 \end{pmatrix} = \begin{pmatrix} -2 \ -9 \end{pmatrix}.",
+            r"n+r = \begin{pmatrix} 8-10 \ -6-3 \end{pmatrix} = \begin{pmatrix} -2 \ -9 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"18. Find the circumference of a circle whose area is 64\pi cm^2. (BECE 2010 Q25)",
+            r"18. Find the circumference of a circle whose area is 64\pi cm^2. (BECE 2010 Q25)",
         options: [
           r"32\pi cm",
           r"16\pi cm",
@@ -8221,11 +7639,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"\pi r^2 = 64\pi gives r = 8\text{ cm}. Therefore, C = 2\pi r = 16\pi cm.",
+            r"\pi r^2 = 64\pi gives r = 8\text{ cm}. Therefore, C = 2\pi r = 16\pi cm.",
       ),
       QuizQuestion(
         question:
-        r"19. Given that a = \begin{pmatrix} -5 \\ 12 \end{pmatrix} and b = \begin{pmatrix} 10\times \\ 12 \end{pmatrix}, find x if a = b. (BECE 2010 Q38)",
+            r"19. Given that a = \begin{pmatrix} -5 \\ 12 \end{pmatrix} and b = \begin{pmatrix} 10\times \\ 12 \end{pmatrix}, find x if a = b. (BECE 2010 Q38)",
         options: [
           "-2",
           r"-\frac{1}{2}",
@@ -8235,11 +7653,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Equal vectors have equal corresponding components, so 10x = -5. Therefore, x = -\frac{1}{2}.",
+            r"Equal vectors have equal corresponding components, so 10x = -5. Therefore, x = -\frac{1}{2}.",
       ),
       QuizQuestion(
         question:
-        r"20. Given that a = \begin{pmatrix} 5 \\ 2n \end{pmatrix} and b = \begin{pmatrix} 2n-1 \\ 6 \end{pmatrix}, find n if a = b. (BECE 2011 Q25)",
+            r"20. Given that a = \begin{pmatrix} 5 \\ 2n \end{pmatrix} and b = \begin{pmatrix} 2n-1 \\ 6 \end{pmatrix}, find n if a = b. (BECE 2011 Q25)",
         options: [
           "6",
           "3",
@@ -8249,11 +7667,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Equal corresponding components give 2n-1=5 and 2n=6. Both equations give n=3.",
+            r"Equal corresponding components give 2n-1=5 and 2n=6. Both equations give n=3.",
       ),
       QuizQuestion(
         question:
-        r"21. If r = \begin{pmatrix} 2 \\ -5 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 5 \end{pmatrix}, calculate 2r - 3s. (BECE 2011 Q30)",
+            r"21. If r = \begin{pmatrix} 2 \\ -5 \end{pmatrix} and s = \begin{pmatrix} -2 \\ 5 \end{pmatrix}, calculate 2r - 3s. (BECE 2011 Q30)",
         options: [
           r"\begin{pmatrix} -10 \\ -25 \end{pmatrix}",
           r"\begin{pmatrix} -2 \\ -25 \end{pmatrix}",
@@ -8263,11 +7681,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        r"2r-3s = \begin{pmatrix} 4 \ -10 \end{pmatrix} - \begin{pmatrix} -6 \ 15 \end{pmatrix} = \begin{pmatrix} 10 \ -25 \end{pmatrix}.",
+            r"2r-3s = \begin{pmatrix} 4 \ -10 \end{pmatrix} - \begin{pmatrix} -6 \ 15 \end{pmatrix} = \begin{pmatrix} 10 \ -25 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"22. Given that r = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and s = \begin{pmatrix} 1 \\ -3 \end{pmatrix}, find r - 2s. (BECE 2015 Q33)",
+            r"22. Given that r = \begin{pmatrix} -3 \\ 4 \end{pmatrix} and s = \begin{pmatrix} 1 \\ -3 \end{pmatrix}, find r - 2s. (BECE 2015 Q33)",
         options: [
           r"\begin{pmatrix} -5 \\ 1 \end{pmatrix}",
           r"\begin{pmatrix} -5 \\ 10 \end{pmatrix}",
@@ -8277,11 +7695,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"r-2s = \begin{pmatrix} -3 \ 4 \end{pmatrix} - \begin{pmatrix} 2 \ -6 \end{pmatrix} = \begin{pmatrix} -5 \ 10 \end{pmatrix}.",
+            r"r-2s = \begin{pmatrix} -3 \ 4 \end{pmatrix} - \begin{pmatrix} 2 \ -6 \end{pmatrix} = \begin{pmatrix} -5 \ 10 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"23. Find the area of a circle whose diameter is 7 cm. Take \pi = \frac{22}{7}. (BECE 2016 Q28)",
+            r"23. Find the area of a circle whose diameter is 7 cm. Take \pi = \frac{22}{7}. (BECE 2016 Q28)",
         options: [
           r"11 cm^2",
           r"38\frac{1}{2} cm^2",
@@ -8291,11 +7709,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The radius is 3.5 cm, so the area is \frac{22}{7}\times 3.5^2 = 38.5 cm^2.",
+            r"The radius is 3.5 cm, so the area is \frac{22}{7}\times 3.5^2 = 38.5 cm^2.",
       ),
       QuizQuestion(
         question:
-        "24. The diagonal of a rectangle is 10 cm long. If its length is 8 cm, find its breadth. (BECE 2016 Q32)",
+            "24. The diagonal of a rectangle is 10 cm long. If its length is 8 cm, find its breadth. (BECE 2016 Q32)",
         options: [
           "2 cm",
           "3 cm",
@@ -8305,11 +7723,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"Using the Pythagorean theorem, b^2 + 8^2 = 10^2. Thus, b^2 = 36 and b = 6\text{ cm}.",
+            r"Using the Pythagorean theorem, b^2 + 8^2 = 10^2. Thus, b^2 = 36 and b = 6\text{ cm}.",
       ),
       QuizQuestion(
         question:
-        r"25. Simplify \begin{pmatrix} -3 \\ 5 \end{pmatrix} + \begin{pmatrix} 2 \\ -7 \end{pmatrix}. (BECE 2016 Q36)",
+            r"25. Simplify \begin{pmatrix} -3 \\ 5 \end{pmatrix} + \begin{pmatrix} 2 \\ -7 \end{pmatrix}. (BECE 2016 Q36)",
         options: [
           r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
           r"\begin{pmatrix} -5 \\ 12 \end{pmatrix}",
@@ -8319,11 +7737,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -3+2 \\ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \\ -2 \end{pmatrix}.",
+            r"\begin{pmatrix} -3+2 \\ 5-7 \end{pmatrix} = \begin{pmatrix} -1 \\ -2 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"26. Given that a = \begin{pmatrix} 4 \\ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \\ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
+            r"26. Given that a = \begin{pmatrix} 4 \\ -6 \end{pmatrix} and b = \begin{pmatrix} -4 \\ 6 \end{pmatrix}, find a + b. (BECE 2017 Q20)",
         options: [
           r"\begin{pmatrix} 0 \\ 0 \end{pmatrix}",
           r"\begin{pmatrix} -8 \\ 12 \end{pmatrix}",
@@ -8333,11 +7751,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"a+b = \begin{pmatrix} 4-4 \\ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
+            r"a+b = \begin{pmatrix} 4-4 \\ -6+6 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"27. Find the diameter of a circle whose circumference is 88 cm. Take \pi = \frac{22}{7}. (BECE 2019 Q24)",
+            r"27. Find the diameter of a circle whose circumference is 88 cm. Take \pi = \frac{22}{7}. (BECE 2019 Q24)",
         options: [
           "14 cm",
           "22 cm",
@@ -8346,12 +7764,11 @@ QuizQuestion(
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation:
-        r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28 cm.",
+        explanation: r"Since C = \pi d, d = 88 \div \frac{22}{7} = 28 cm.",
       ),
       QuizQuestion(
         question:
-        r"28. If u = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
+            r"28. If u = \begin{pmatrix} 3 \\ 1 \end{pmatrix} and v = \begin{pmatrix} -2 \\ 1 \end{pmatrix}, evaluate 6v + 2u. (BECE 2018 Q28)",
         options: [
           r"\begin{pmatrix} -1 \\ 3 \end{pmatrix}",
           r"\begin{pmatrix} -6 \\ 8 \end{pmatrix}",
@@ -8361,11 +7778,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Medium",
         explanation:
-        r"6v+2u = \begin{pmatrix} -12 \\ 6 \end{pmatrix} + \begin{pmatrix} 6 \\ 2 \end{pmatrix} = \begin{pmatrix} -6 \\ 8 \end{pmatrix}.",
+            r"6v+2u = \begin{pmatrix} -12 \\ 6 \end{pmatrix} + \begin{pmatrix} 6 \\ 2 \end{pmatrix} = \begin{pmatrix} -6 \\ 8 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"29. Given that r = \begin{pmatrix} -3 \\ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \\ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
+            r"29. Given that r = \begin{pmatrix} -3 \\ -5 \end{pmatrix} and t = \begin{pmatrix} 3 \\ -5 \end{pmatrix}, find r + t. (BECE 2019 Q27)",
         options: [
           r"\begin{pmatrix} -6 \\ 10 \end{pmatrix}",
           r"\begin{pmatrix} -6 \\ -10 \end{pmatrix}",
@@ -8375,11 +7792,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"r+t = \begin{pmatrix} -3+3 \\ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \\ -10 \end{pmatrix}.",
+            r"r+t = \begin{pmatrix} -3+3 \\ -5-5 \end{pmatrix} = \begin{pmatrix} 0 \\ -10 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"30. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} + \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 2019 Q31)",
+            r"30. Simplify \begin{pmatrix} -2 \\ 3 \end{pmatrix} + \begin{pmatrix} -1 \\ 5 \end{pmatrix}. (BECE 2019 Q31)",
         options: [
           r"\begin{pmatrix} -3 \\ -2 \end{pmatrix}",
           r"\begin{pmatrix} -1 \\ 2 \end{pmatrix}",
@@ -8389,11 +7806,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"\begin{pmatrix} -2-1 \\ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \\ 8 \end{pmatrix}.",
+            r"\begin{pmatrix} -2-1 \\ 3+5 \end{pmatrix} = \begin{pmatrix} -3 \\ 8 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        "31. Adwoa travelled 12 km due north and 5 km due east. How far was she from her starting point? (BECE 2022 Q15)",
+            "31. Adwoa travelled 12 km due north and 5 km due east. How far was she from her starting point? (BECE 2022 Q15)",
         options: [
           "7 km",
           "13 km",
@@ -8403,11 +7820,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"The distance is the hypotenuse: \sqrt{12^2+5^2} = \sqrt{169} = 13\text{ km}.",
+            r"The distance is the hypotenuse: \sqrt{12^2+5^2} = \sqrt{169} = 13\text{ km}.",
       ),
       QuizQuestion(
         question:
-        r"32. If a = \begin{pmatrix} 2 \\ -3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + b. (BECE 2022 Q33)",
+            r"32. If a = \begin{pmatrix} 2 \\ -3 \end{pmatrix} and b = \begin{pmatrix} -2 \\ 3 \end{pmatrix}, find a + b. (BECE 2022 Q33)",
         options: [
           r"\begin{pmatrix} 4 \\ 0 \end{pmatrix}",
           r"\begin{pmatrix} 2 \\ 3 \end{pmatrix}",
@@ -8417,11 +7834,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"a+b = \begin{pmatrix} 2-2 \\ -3+3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
+            r"a+b = \begin{pmatrix} 2-2 \\ -3+3 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"33. If q = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and r = \begin{pmatrix} 3 \\ -2 \end{pmatrix}, find q - r. (BECE 2023 Q35)",
+            r"33. If q = \begin{pmatrix} -2 \\ 3 \end{pmatrix} and r = \begin{pmatrix} 3 \\ -2 \end{pmatrix}, find q - r. (BECE 2023 Q35)",
         options: [
           r"\begin{pmatrix} -5 \\ 5 \end{pmatrix}",
           r"\begin{pmatrix} 5 \\ 5 \end{pmatrix}",
@@ -8431,11 +7848,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"q-r = \begin{pmatrix} -2-3 \\ 3-(-2) \end{pmatrix} = \begin{pmatrix} -5 \\ 5 \end{pmatrix}.",
+            r"q-r = \begin{pmatrix} -2-3 \\ 3-(-2) \end{pmatrix} = \begin{pmatrix} -5 \\ 5 \end{pmatrix}.",
       ),
       QuizQuestion(
         question:
-        r"34. A boy walked around a circular pond once. If its radius is 28 m, find the distance covered. Take \pi = \frac{22}{7}. (BECE 2025 Q18)",
+            r"34. A boy walked around a circular pond once. If its radius is 28 m, find the distance covered. Take \pi = \frac{22}{7}. (BECE 2025 Q18)",
         options: [
           "44 m",
           "88 m",
@@ -8445,11 +7862,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The distance is the circumference: 2\pi r = 2 \times \frac{22}{7} \times 28 = 176 m.",
+            r"The distance is the circumference: 2\pi r = 2 \times \frac{22}{7} \times 28 = 176 m.",
       ),
       QuizQuestion(
         question:
-        r"35. If a = \begin{pmatrix} -2 \\ 1 \end{pmatrix} and b = \begin{pmatrix} -5 \\ -3 \end{pmatrix}, find 2a - b. (BECE 2025 Q25)",
+            r"35. If a = \begin{pmatrix} -2 \\ 1 \end{pmatrix} and b = \begin{pmatrix} -5 \\ -3 \end{pmatrix}, find 2a - b. (BECE 2025 Q25)",
         options: [
           r"\begin{pmatrix} 1 \\ 5 \end{pmatrix}",
           r"\begin{pmatrix} -9 \\ -1 \end{pmatrix}",
@@ -8459,7 +7876,7 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Medium",
         explanation:
-        r"2a-b = \begin{pmatrix} -4 \\ 2 \end{pmatrix} - \begin{pmatrix} -5 \\ -3 \end{pmatrix} = \begin{pmatrix} 1 \\ 5 \end{pmatrix}.",
+            r"2a-b = \begin{pmatrix} -4 \\ 2 \end{pmatrix} - \begin{pmatrix} -5 \\ -3 \end{pmatrix} = \begin{pmatrix} 1 \\ 5 \end{pmatrix}.",
       ),
     ],
   ),
@@ -8468,7 +7885,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        r"1. The point P(3, 4) is rotated through an angle of 90^\circ anticlockwise about the origin O. Find the image P_1 of the rotation. (BECE 2001 Q16)",
+            r"1. The point P(3, 4) is rotated through an angle of 90^\circ anticlockwise about the origin O. Find the image P_1 of the rotation. (BECE 2001 Q16)",
         options: [
           r"(3, -4)",
           r"(4, -3)",
@@ -8478,12 +7895,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (3, 4) maps to (-4, 3).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (3, 4) maps to (-4, 3).",
       ),
-
       QuizQuestion(
         question:
-        r"2. Find the image of Q(-4, 5) when rotated anticlockwise through 90^\circ about the origin. (BECE 2018 Q30)",
+            r"2. Find the image of Q(-4, 5) when rotated anticlockwise through 90^\circ about the origin. (BECE 2018 Q30)",
         options: [
           r"Q'(-5, 4)",
           r"Q'(-5, -4)",
@@ -8493,12 +7909,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (-4, 5) maps to (-5, -4).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Thus, (-4, 5) maps to (-5, -4).",
       ),
-
       QuizQuestion(
         question:
-        r"3. The point K(1, 5) is rotated through 90^\circ anticlockwise about the origin. Find the coordinates of the image of K. (BECE 2015 Q31)",
+            r"3. The point K(1, 5) is rotated through 90^\circ anticlockwise about the origin. Find the coordinates of the image of K. (BECE 2015 Q31)",
         options: [
           r"(5, -1)",
           r"(-5, 1)",
@@ -8508,12 +7923,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (1, 5) maps to (-5, 1).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (1, 5) maps to (-5, 1).",
       ),
-
       QuizQuestion(
         question:
-        r"4. Find the image of P(-3, 5) when rotated through 360^\circ about the origin. (BECE 2021 Q6)",
+            r"4. Find the image of P(-3, 5) when rotated through 360^\circ about the origin. (BECE 2021 Q6)",
         options: [
           r"(5, -3)",
           r"(-3, -5)",
@@ -8523,12 +7937,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"A 360^\circ rotation returns a point to its original position, so the image is (-3, 5).",
+            r"A 360^\circ rotation returns a point to its original position, so the image is (-3, 5).",
       ),
-
       QuizQuestion(
         question:
-        r"5. The point K(3, 4) is rotated through 180^\circ about the origin. Find its image. (BECE 2002B Q16)",
+            r"5. The point K(3, 4) is rotated through 180^\circ about the origin. Find its image. (BECE 2002B Q16)",
         options: [
           r"(-3, 4)",
           r"(-4, 3)",
@@ -8538,12 +7951,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"A 180^\circ rotation maps (x, y) to (-x, -y). Thus, (3, 4) maps to (-3, -4).",
+            r"A 180^\circ rotation maps (x, y) to (-x, -y). Thus, (3, 4) maps to (-3, -4).",
       ),
-
       QuizQuestion(
         question:
-        r"6. The point Q(-2, 3) is rotated anticlockwise about the origin through an angle of 90^\circ. Find the coordinates of its image. (BECE 2017 Q28)",
+            r"6. The point Q(-2, 3) is rotated anticlockwise about the origin through an angle of 90^\circ. Find the coordinates of its image. (BECE 2017 Q28)",
         options: [
           r"(-3, -2)",
           r"(-3, 2)",
@@ -8553,7 +7965,7 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (-2, 3) maps to (-3, -2).",
+            r"A 90^\circ anticlockwise rotation maps (x, y) to (-y, x). Therefore, (-2, 3) maps to (-3, -2).",
       ),
     ],
   ),
@@ -8563,7 +7975,7 @@ QuizQuestion(
     questions: [
       QuizQuestion(
         question:
-        "1. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. What is the modal mark? (BECE 1991 Q15)",
+            "1. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. What is the modal mark? (BECE 1991 Q15)",
         options: [
           "3",
           "7",
@@ -8573,11 +7985,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "The mode is the value that occurs most often. The mark 9 occurs three times.",
+            "The mode is the value that occurs most often. The mark 9 occurs three times.",
       ),
       QuizQuestion(
         question:
-        "2. Calculate the mean mark of the marks obtained by 10 children in a mental drill: 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. (BECE 1991 Q17)",
+            "2. Calculate the mean mark of the marks obtained by 10 children in a mental drill: 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. (BECE 1991 Q17)",
         options: [
           "–54",
           "5.4",
@@ -8586,12 +7998,11 @@ QuizQuestion(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation:
-        "The total is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
+        explanation: "The total is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
       ),
       QuizQuestion(
         question:
-        "3. The mean of the numbers 4, 3, 3 and x is 5. Find x. (BECE 1994 Q39)",
+            "3. The mean of the numbers 4, 3, 3 and x is 5. Find x. (BECE 1994 Q39)",
         options: [
           "20",
           "10",
@@ -8601,11 +8012,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Their total must be 5 × 4 = 20. Therefore, x = 20 - 4 - 3 - 3 = 10.",
+            "Their total must be 5 × 4 = 20. Therefore, x = 20 - 4 - 3 - 3 = 10.",
       ),
       QuizQuestion(
         question:
-        "4. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median score. (BECE 1997 Q26)",
+            "4. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median score. (BECE 1997 Q26)",
         options: [
           "3",
           "5",
@@ -8615,11 +8026,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The middle scores are 5 and 7. Therefore, the median is (5 + 7) ÷ 2 = 6.",
+            "The middle scores are 5 and 7. Therefore, the median is (5 + 7) ÷ 2 = 6.",
       ),
       QuizQuestion(
         question:
-        "5. What is the probability that a boy chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3? (BECE 1997 Q28)",
+            "5. What is the probability that a boy chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3? (BECE 1997 Q28)",
         options: [
           r"\frac{1}{27}",
           r"\frac{1}{18}",
@@ -8629,11 +8040,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"The mark 3 occurs twice out of 10 scores, so the probability is \frac{2}{10} = \frac{1}{5}.",
+            r"The mark 3 occurs twice out of 10 scores, so the probability is \frac{2}{10} = \frac{1}{5}.",
       ),
       QuizQuestion(
         question:
-        "6. Find the median of the following numbers: 1, -1, -5, 3 and -4. (BECE 1999 Q23)",
+            "6. Find the median of the following numbers: 1, -1, -5, 3 and -4. (BECE 1999 Q23)",
         options: [
           "-1",
           "-4",
@@ -8643,11 +8054,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "In ascending order, the numbers are -5, -4, -1, 1, 3. The middle number is -1.",
+            "In ascending order, the numbers are -5, -4, -1, 1, 3. The middle number is -1.",
       ),
       QuizQuestion(
         question:
-        "7. What is the mode of the scores obtained by 13 candidates in a test: 5, 7, 2, 9, 11, 10, 2, 12, 2, 9, 3, 18 and 2? (BECE 2007 Q6)",
+            "7. What is the mode of the scores obtained by 13 candidates in a test: 5, 7, 2, 9, 11, 10, 2, 12, 2, 9, 3, 18 and 2? (BECE 2007 Q6)",
         options: [
           "2",
           "5",
@@ -8657,11 +8068,11 @@ QuizQuestion(
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-        "The score 2 occurs four times, more than any other score.",
+            "The score 2 occurs four times, more than any other score.",
       ),
       QuizQuestion(
         question:
-        "8. Find the median mark for the marks scored by 8 pupils in a Science test: 3, 7, 8, 6, 4, 8, 4, 6. (BECE 2004 Q37)",
+            "8. Find the median mark for the marks scored by 8 pupils in a Science test: 3, 7, 8, 6, 4, 8, 4, 6. (BECE 2004 Q37)",
         options: [
           "5",
           "6",
@@ -8671,11 +8082,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "In order, the marks are 3, 4, 4, 6, 6, 7, 8, 8. The median is (6 + 6) ÷ 2 = 6.",
+            "In order, the marks are 3, 4, 4, 6, 6, 7, 8, 8. The median is (6 + 6) ÷ 2 = 6.",
       ),
       QuizQuestion(
         question:
-        "9. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median mark. (BECE 1991 Q16)",
+            "9. The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Find the median mark. (BECE 1991 Q16)",
         options: [
           "3",
           "5",
@@ -8685,11 +8096,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The middle scores are 5 and 7. Their average is (5 + 7) ÷ 2 = 6.",
+            "The middle scores are 5 and 7. Their average is (5 + 7) ÷ 2 = 6.",
       ),
       QuizQuestion(
         question:
-        "10. What is the probability that a child chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3 marks? (BECE 1991 Q18)",
+            "10. What is the probability that a child chosen at random from the marks 0, 1, 3, 3, 5, 7, 8, 9, 9, 9 scored 3 marks? (BECE 1991 Q18)",
         options: [
           r"\frac{2}{54}",
           r"\frac{3}{54}",
@@ -8699,11 +8110,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        r"Two of the 10 children scored 3, so the probability is \frac{2}{10}.",
+            r"Two of the 10 children scored 3, so the probability is \frac{2}{10}.",
       ),
       QuizQuestion(
         question:
-        "11. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the mean age? (BECE 1996 Q13)",
+            "11. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the mean age? (BECE 1996 Q13)",
         options: [
           "3.0",
           "3.5",
@@ -8713,11 +8124,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "The total age is 36 years. Therefore, the mean is 36 ÷ 9 = 4 years.",
+            "The total age is 36 years. Therefore, the mean is 36 ÷ 9 = 4 years.",
       ),
       QuizQuestion(
         question:
-        "12. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the median age? (BECE 1996 Q13)",
+            "12. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. What is the median age? (BECE 1996 Q13)",
         options: [
           "2.0",
           "3.0",
@@ -8727,11 +8138,11 @@ QuizQuestion(
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-        "There are nine ordered ages, so the median is the fifth value, which is 4.",
+            "There are nine ordered ages, so the median is the fifth value, which is 4.",
       ),
       QuizQuestion(
         question:
-        "13. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. If a child is picked at random, what is the probability that the child is 5 years old? (BECE 1996 Q15)",
+            "13. The ages in years of 9 children at a birthday party are 2, 3, 3, 3, 4, 5, 5, 5, 6. If a child is picked at random, what is the probability that the child is 5 years old? (BECE 1996 Q15)",
         options: [
           r"\frac{2}{9}",
           r"\frac{1}{3}",
@@ -8741,11 +8152,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        r"Three of the nine children are 5 years old, so the probability is \frac{3}{9} = \frac{1}{3}.",
+            r"Three of the nine children are 5 years old, so the probability is \frac{3}{9} = \frac{1}{3}.",
       ),
       QuizQuestion(
         question:
-        "14. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Calculate the mean score. (BECE 1997 Q27)",
+            "14. The marks obtained by 10 boys in a test are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9. Calculate the mean score. (BECE 1997 Q27)",
         options: [
           "4.4",
           "5.4",
@@ -8755,11 +8166,11 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The total score is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
+            "The total score is 54. Therefore, the mean is 54 ÷ 10 = 5.4.",
       ),
       QuizQuestion(
         question:
-        "15. Find the median of the following numbers: 17, 12, 15, 16, 8, 18, 13 and 14. (BECE 2015 Q17)",
+            "15. Find the median of the following numbers: 17, 12, 15, 16, 8, 18, 13 and 14. (BECE 2015 Q17)",
         options: [
           "8",
           "12",
@@ -8769,11 +8180,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "In order, the numbers are 8, 12, 13, 14, 15, 16, 17, 18. The median is (14 + 15) ÷ 2 = 14.5.",
+            "In order, the numbers are 8, 12, 13, 14, 15, 16, 17, 18. The median is (14 + 15) ÷ 2 = 14.5.",
       ),
       QuizQuestion(
         question:
-        "16. Find the median of the following numbers: 4, 16, 13, 18, 3, 20, 6, 7, 15, 2, 10, 12. (BECE 2020 Q15)",
+            "16. Find the median of the following numbers: 4, 16, 13, 18, 3, 20, 6, 7, 15, 2, 10, 12. (BECE 2020 Q15)",
         options: [
           "7",
           "10",
@@ -8783,11 +8194,11 @@ QuizQuestion(
         correctIndex: 2,
         difficulty: "Medium",
         explanation:
-        "The middle values in ascending order are 10 and 12. Therefore, the median is (10 + 12) ÷ 2 = 11.",
+            "The middle values in ascending order are 10 and 12. Therefore, the median is (10 + 12) ÷ 2 = 11.",
       ),
       QuizQuestion(
         question:
-        "17. If the average of 5, 6, 7 and x is 8, find the value of x. (BECE 2021 Q22)",
+            "17. If the average of 5, 6, 7 and x is 8, find the value of x. (BECE 2021 Q22)",
         options: [
           "12",
           "14",
@@ -8797,7 +8208,7 @@ QuizQuestion(
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "The total must be 8 × 4 = 32. Therefore, x = 32 - 5 - 6 - 7 = 14.",
+            "The total must be 8 × 4 = 32. Therefore, x = 32 - 5 - 6 - 7 = 14.",
       ),
     ],
   ),
@@ -11887,7 +11298,6 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
-
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
   "Social Studies JHS1 s1 ss1 - Environmental Issues": QuizModel(
     audioPath: '',
@@ -13801,6 +13211,224 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
         difficulty: "Easy",
         explanation:
             "Relief rainfall occurs mainly in highland areas where moist air is forced to rise over mountains.",
+      ),
+    ],
+  ),
+  "Social Studies JHS1 s5 ss3 - Tourism (Concept of Tourism and Leisure)":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following tourist attractions is mostly associated with Kintampo in the Bono East Region?        (BECE 2021 Q35)",
+        options: [
+          "Monkey sanctuary.",
+          "Bird viewing.",
+          "Savannah vegetation.",
+          "Waterfalls."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kintampo is popularly associated with the Kintampo Waterfalls, a major tourist attraction in the Bono East Region.",
+      ),
+      QuizQuestion(
+        question:
+            "2. On which continent are the Appalachian Mountains located?        (BECE 2025 Q13)",
+        options: ["Africa", "North America", "South America", "Australia"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The Appalachian Mountains are located in North America, extending through parts of Canada and the United States.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In which of the following regions in Ghana are the Boti Falls?        (BECE 1990 Q4)",
+        options: ["Ashanti", "Eastern", "Western", "Central"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Boti Falls is located near Boti in the Yilo Krobo Municipality of the Eastern Region of Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Tourism in Ghana promotes the growth of the        (BECE 2010 Q2)",
+        options: [
+          "film industry.",
+          "hotel industry.",
+          "textile industry.",
+          "health service."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tourism promotes the hotel industry because tourists require accommodation, food and other hospitality services.",
+      ),
+      QuizQuestion(
+        question:
+            "5. The main benefit of tourism to Ghana is        (BECE 2018 Q2)",
+        options: [
+          "political stability.",
+          "inter-tribal marriage.",
+          "foreign exchange.",
+          "cultural change."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourism earns foreign exchange for Ghana when international tourists spend money on accommodation, transport, food and other services.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following places of interest attracts most tourists to Ghana?        (BECE 1996 Q2)",
+        options: [
+          "Kotoka International Airport",
+          "Tema Harbour",
+          "Kakum National Park",
+          "Takoradi Harbour"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Kakum National Park is a major tourist attraction in Ghana, noted for its rainforest, wildlife and canopy walkway.",
+      ),
+      QuizQuestion(
+        question:
+            "7. People who visit places of interest to enjoy the facilities are called        (BECE 2018 Q10)",
+        options: ["experts.", "travellers.", "tourists.", "socialites."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourists are people who travel to places of interest for pleasure, relaxation, education or recreation.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The main aim of promoting tourism in Ghana is to        (BECE 2017 Q1)",
+        options: [
+          "promote building of hotels.",
+          "preserve forts and castles.",
+          "earn foreign exchange.",
+          "create employment for foreigners."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The main aim of promoting tourism is to attract visitors whose spending enables Ghana to earn foreign exchange.",
+      ),
+      QuizQuestion(
+        question:
+            "9. International sporting activities do not only serve to promote friendship but also to        (BECE 2023 Q35)",
+        options: [
+          "generate income for the countries.",
+          "win trophies.",
+          "receive aids and grants.",
+          "improve cultural practices."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "International sporting activities generate income through ticket sales, tourism, sponsorships, broadcasting and other commercial activities.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Travelling to see and enjoy facilities and sceneries in other places is referred to as        (BECE 2010 Q32)",
+        options: ["leisure.", "tourism.", "pleasure.", "entertainment."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tourism involves travelling away from one’s usual environment to see and enjoy places, facilities and beautiful sceneries.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The main benefit of tourism to Ghana is that it        (BECE 2014 Q29)",
+        options: [
+          "encourages inter-tribal marriages.",
+          "enriches our culture.",
+          "is a major foreign exchange earner.",
+          "promotes political stability."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Tourism is a major foreign exchange earner because foreign tourists spend foreign currencies on goods and services in Ghana.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The Cape Coast Castle is a valuable national asset because it promotes        (BECE 2008 Q34)",
+        options: ["trade.", "education.", "tourism.", "civilization."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Cape Coast Castle attracts local and international visitors because of its historical importance and therefore promotes tourism.",
+      ),
+      QuizQuestion(
+        question: "13. Tourism involves        (BECE 2017 Q17)",
+        options: [
+          "taking time off normal duties.",
+          "painting beautiful sceneries.",
+          "buying new and beautiful artefacts.",
+          "travelling to see and enjoy sceneries."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Tourism involves travelling to places outside one’s usual environment to see and enjoy attractions and sceneries.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Your school is embarking on an excursion in Asia to see famous mountains. Which of the following mountains are they likely to see?        (BECE 2025 Q4)",
+        options: [
+          "Andes Mountains",
+          "Atlas Mountains",
+          "The Rocky Mountains",
+          "Himalayas Mountains"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The Himalayas are located in Asia and extend through countries such as Nepal, India, Bhutan, China and Pakistan.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Tourism in Ghana promotes the growth of the        (BECE 2018 Q27)",
+        options: [
+          "hotel industry.",
+          "film industry.",
+          "textile industry.",
+          "health industry."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Tourism promotes the hotel industry because visitors need accommodation, meals and other hospitality services.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Improvement in tourism is important for the rapid development of the nation because more        (BECE 2019 Q38)",
+        options: [
+          "local tourists will leave the country.",
+          "infrastructure will be provided.",
+          "local tourists will not visit places of interest.",
+          "tour guides will be unemployed."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The development of tourism encourages the provision of infrastructure such as roads, hotels, communication facilities and recreational centres.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The Kakum Forest in Ghana promotes economic development through its        (BECE 2010 Q2)",
+        options: [
+          "supply of firewood.",
+          "supply of timber.",
+          "suitable location.",
+          "tourist attraction."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Kakum Forest promotes economic development by attracting tourists, generating income and creating employment opportunities.",
       ),
     ],
   ),
@@ -34452,6 +34080,274 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
+  "English JHS1 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question: "1. Lariba sprang to her feet.        (BECE 2024 Q38)",
+        options: ["slew", "splashed", "sprayed", "struck"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The underlined word 'sprang' begins with the consonant blend /spr/, which is also heard at the beginning of 'sprayed'.",
+      ),
+      QuizQuestion(
+        question: "2. Prosper is the new chef.        (BECE 2024 Q36)",
+        options: ["chair", "chord", "scheme", "shield"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The letters 'ch' in 'chef' produce the /ʃ/ sound, which is also heard at the beginning of 'shield'.",
+      ),
+      QuizQuestion(
+        question: "3. We won the game easily.        (BECE 2025 Q37)",
+        options: ["giant", "gentle", "general", "goat"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The letter 'g' in 'game' has the hard /g/ sound, which is also heard at the beginning of 'goat'.",
+      ),
+      QuizQuestion(
+        question: "4. Those two are arch rivals.        (BECE 2024 Q37)",
+        options: ["patch", "path", "spark", "splash"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The letters 'ch' in 'arch' produce the /tʃ/ sound, which is also heard at the end of 'patch'.",
+      ),
+      QuizQuestion(
+        question: "5. She received a beautiful psalm.        (BECE 2025 Q38)",
+        options: ["sand", "palm", "shall", "page"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The word 'psalm' has a silent 'p' and rhymes with 'palm'.",
+      ),
+      QuizQuestion(
+        question: "6. The car sped around the curve.        (BECE 2025 Q36)",
+        options: ["chain", "cell", "colonel", "ciao"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The letter 'c' in 'curve' produces the hard /k/ sound, which is also heard at the beginning of 'colonel'.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Whole grains are healthier than polished ones.        (BECE 2024 Q40)",
+        options: ["Gaol", "Gaul", "Gill", "Goal"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The vowel sound /əʊ/ in 'whole' is also heard in 'goal'.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The queue moved slowly, yet no one seemed to mind.        (BECE 2025 Q40)",
+        options: ["quest", "few", "fee", "cool"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The /juː/ sound in 'queue' is also heard in the word 'few'.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The heir to the British throne was the Duke of Cornwall.        (BECE 2024 Q39)",
+        options: ["air", "hail", "here", "hew"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Heir' and 'air' are pronounced alike because both have the /eə/ sound.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The city grew quieter with each passing hour.        (BECE 2025 Q39)",
+        options: ["bowl", "your", "owl", "tour"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The ending of 'quieter' contains the weak /ə/ sound, which is also heard at the end of 'tour' in non-rhotic pronunciation.",
+      ),
+    ],
+  ),
+  "English JHS3 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question: "1. Lariba sprang to her feet.        (BECE 2024 Q38)",
+        options: ["slew", "splashed", "sprayed", "struck"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The underlined word 'sprang' begins with the consonant blend /spr/, which is also heard at the beginning of 'sprayed'.",
+      ),
+      QuizQuestion(
+        question: "2. Prosper is the new chef.        (BECE 2024 Q36)",
+        options: ["chair", "chord", "scheme", "shield"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The letters 'ch' in 'chef' produce the /ʃ/ sound, which is also heard at the beginning of 'shield'.",
+      ),
+      QuizQuestion(
+        question: "3. We won the game easily.        (BECE 2025 Q37)",
+        options: ["giant", "gentle", "general", "goat"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The letter 'g' in 'game' has the hard /g/ sound, which is also heard at the beginning of 'goat'.",
+      ),
+      QuizQuestion(
+        question: "4. Those two are arch rivals.        (BECE 2024 Q37)",
+        options: ["patch", "path", "spark", "splash"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The letters 'ch' in 'arch' produce the /tʃ/ sound, which is also heard at the end of 'patch'.",
+      ),
+      QuizQuestion(
+        question: "5. She received a beautiful psalm.        (BECE 2025 Q38)",
+        options: ["sand", "palm", "shall", "page"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The word 'psalm' has a silent 'p' and rhymes with 'palm'.",
+      ),
+      QuizQuestion(
+        question: "6. The car sped around the curve.        (BECE 2025 Q36)",
+        options: ["chain", "cell", "colonel", "ciao"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The letter 'c' in 'curve' produces the hard /k/ sound, which is also heard at the beginning of 'colonel'.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Whole grains are healthier than polished ones.        (BECE 2024 Q40)",
+        options: ["Gaol", "Gaul", "Gill", "Goal"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The vowel sound /əʊ/ in 'whole' is also heard in 'goal'.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The queue moved slowly, yet no one seemed to mind.        (BECE 2025 Q40)",
+        options: ["quest", "few", "fee", "cool"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The /juː/ sound in 'queue' is also heard in the word 'few'.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The heir to the British throne was the Duke of Cornwall.        (BECE 2024 Q39)",
+        options: ["air", "hail", "here", "hew"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Heir' and 'air' are pronounced alike because both have the /eə/ sound.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The city grew quieter with each passing hour.        (BECE 2025 Q39)",
+        options: ["bowl", "your", "owl", "tour"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The ending of 'quieter' contains the weak /ə/ sound, which is also heard at the end of 'tour' in non-rhotic pronunciation.",
+      ),
+    ],
+  ),
+  "English JHS2 s1 ss3 - Same Initial Consonant Sound / Same Vowel Sound":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question: "1. Lariba sprang to her feet.        (BECE 2024 Q38)",
+        options: ["slew", "splashed", "sprayed", "struck"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The underlined word 'sprang' begins with the consonant blend /spr/, which is also heard at the beginning of 'sprayed'.",
+      ),
+      QuizQuestion(
+        question: "2. Prosper is the new chef.        (BECE 2024 Q36)",
+        options: ["chair", "chord", "scheme", "shield"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The letters 'ch' in 'chef' produce the /ʃ/ sound, which is also heard at the beginning of 'shield'.",
+      ),
+      QuizQuestion(
+        question: "3. We won the game easily.        (BECE 2025 Q37)",
+        options: ["giant", "gentle", "general", "goat"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The letter 'g' in 'game' has the hard /g/ sound, which is also heard at the beginning of 'goat'.",
+      ),
+      QuizQuestion(
+        question: "4. Those two are arch rivals.        (BECE 2024 Q37)",
+        options: ["patch", "path", "spark", "splash"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The letters 'ch' in 'arch' produce the /tʃ/ sound, which is also heard at the end of 'patch'.",
+      ),
+      QuizQuestion(
+        question: "5. She received a beautiful psalm.        (BECE 2025 Q38)",
+        options: ["sand", "palm", "shall", "page"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The word 'psalm' has a silent 'p' and rhymes with 'palm'.",
+      ),
+      QuizQuestion(
+        question: "6. The car sped around the curve.        (BECE 2025 Q36)",
+        options: ["chain", "cell", "colonel", "ciao"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The letter 'c' in 'curve' produces the hard /k/ sound, which is also heard at the beginning of 'colonel'.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Whole grains are healthier than polished ones.        (BECE 2024 Q40)",
+        options: ["Gaol", "Gaul", "Gill", "Goal"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The vowel sound /əʊ/ in 'whole' is also heard in 'goal'.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The queue moved slowly, yet no one seemed to mind.        (BECE 2025 Q40)",
+        options: ["quest", "few", "fee", "cool"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The /juː/ sound in 'queue' is also heard in the word 'few'.",
+      ),
+      QuizQuestion(
+        question:
+            "9. The heir to the British throne was the Duke of Cornwall.        (BECE 2024 Q39)",
+        options: ["air", "hail", "here", "hew"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Heir' and 'air' are pronounced alike because both have the /eə/ sound.",
+      ),
+      QuizQuestion(
+        question:
+            "10. The city grew quieter with each passing hour.        (BECE 2025 Q39)",
+        options: ["bowl", "your", "owl", "tour"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The ending of 'quieter' contains the weak /ə/ sound, which is also heard at the end of 'tour' in non-rhotic pronunciation.",
+      ),
+    ],
+  ),
+
   "English JHS1 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences":
       QuizModel(
     audioPath: '',
@@ -36239,6 +36135,1854 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
         correctIndex: 1,
         difficulty: "Easy",
         explanation: "Scarce is the opposite of plentiful.",
+      ),
+    ],
+  ),
+  "English JHS2 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences":
+      QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "182. You shouldn't have hit Kukuu so hard; it was rather unkind of you. From this we know that Kukuu was …        (BECE 1995 Q19)",
+        options: ["being naughty.", "hurt.", "kind.", "hit."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The word 'hit' in the sentence means that Kukuu was physically hurt.",
+      ),
+      QuizQuestion(
+        question:
+            "183. Our friends gave us a cordial welcome.        (BECE 2003 Q26)",
+        options: ["plain", "hostile", "calm", "steady"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "'Cordial' means warm and friendly. Its opposite is 'hostile'.",
+      ),
+      QuizQuestion(
+        question:
+            "184. Paul purposely left the door open.        (BECE 2025 Q16)",
+        options: ["carelessly", "hurriedly", "intentionally", "occasionally"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Purposely' means intentionally or deliberately.",
+      ),
+      QuizQuestion(
+        question:
+            "185. The students listened to the headmaster with rapt attention.        (BECE 2002A Q13)",
+        options: ["true", "equal", "undivided", "single"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "'Rapt attention' means complete or undivided attention.",
+      ),
+      QuizQuestion(
+        question:
+            "186. Mary's mother is confident that her daughter will win a prize.        (BECE 2004 Q11)",
+        options: ["anxious", "proud", "certain", "determined"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "To be confident about something means to be certain that it will happen.",
+      ),
+      QuizQuestion(
+        question:
+            "187. The priest was in high spirits during the sermon. This means that he was …        (BECE 2016 Q25)",
+        options: ["content.", "cheerful.", "spiritual.", "annoyed."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To be in high spirits means to be cheerful, happy and lively.",
+      ),
+      QuizQuestion(
+        question:
+            "188. He said the story was fictitious.        (BECE 2017 Q18)",
+        options: ["artificial", "false", "interesting", "real"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Fictitious' means invented or false rather than real.",
+      ),
+      QuizQuestion(
+        question:
+            "189. She is fond of talking about trivial matters.        (BECE 2019 Q19)",
+        options: ["unpleasant", "unimportant", "unexciting", "unacceptable"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Trivial matters' are matters that are unimportant or of little value.",
+      ),
+      QuizQuestion(
+        question:
+            "190. Handle the glass with care; it is fragile.        (BECE 2007 Q24)",
+        options: ["rigid", "beautiful", "unbreakable", "new"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Fragile' means easily broken. Its opposite is 'unbreakable'.",
+      ),
+      QuizQuestion(
+        question:
+            "191. Mama said, \"You can only fight off bullies if you are assertive.\"        (BECE 2024 Q18)",
+        options: ["bold", "muscular", "smart", "strong"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "An assertive person is confident and bold in expressing or defending themselves.",
+      ),
+      QuizQuestion(
+        question:
+            "192. Ato was at his wits' end. This means that Ato …        (BECE 2013 Q27)",
+        options: [
+          "was collecting his ideas together.",
+          "had come to the end of his talk.",
+          "did not know what to do next.",
+          "did not have much to do."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To be at one's wits' end means to be so worried or confused that one does not know what to do next.",
+      ),
+      QuizQuestion(
+        question:
+            "193. Those machines are not genuine brands.        (BECE 1996 Q26)",
+        options: ["fine", "tested", "fake", "new"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Something that is not genuine is fake or counterfeit.",
+      ),
+      QuizQuestion(
+        question:
+            "194. Kim is full of himself. This means that Kim is        (BECE 2022 Q23)",
+        options: ["quarrelsome.", "dangerous.", "arrogant.", "greedy."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A person who is full of himself is excessively proud and arrogant.",
+      ),
+      QuizQuestion(
+        question:
+            "195. It pays to be courteous rather than being …        (BECE 2016 Q29)",
+        options: ["rude", "wicked", "disobedient", "boastful"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Courteous' means polite. Its opposite is 'rude'.",
+      ),
+      QuizQuestion(
+        question: "196. His position made him humble.        (BECE 2012 Q30)",
+        options: ["stubborn", "wicked", "arrogant", "selfish"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Humble' means modest and not proud. Its opposite is 'arrogant'.",
+      ),
+      QuizQuestion(
+        question:
+            "197. It is difficult for most people to make ends meet these days. This means most people …        (BECE 2000 Q18)",
+        options: [
+          "live very comfortably.",
+          "are unable to eat delicious meals.",
+          "are unable to live within their income.",
+          "buy expensive clothes."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To make ends meet means to have enough money to cover one's basic living expenses.",
+      ),
+      QuizQuestion(
+        question:
+            "198. When he lost his job, Yaro was left to sink or swim. This means that Yaro …        (BECE 2019 Q23)",
+        options: [
+          "was depressed.",
+          "shouted for help.",
+          "had to find another job.",
+          "had to survive on his own."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To be left to sink or swim means to be left to succeed or survive through one's own efforts.",
+      ),
+      QuizQuestion(
+        question:
+            "199. This curious child likes to ask a lot of questions.        (BECE 2019 Q20)",
+        options: ["inquisitive", "pompous", "intelligent", "talkative"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A curious person who wants to know more and asks many questions is inquisitive.",
+      ),
+      QuizQuestion(
+        question:
+            "200. The Pastor advised Yaw and Mensah to bury the hatchet. This means Yaw and Mensah are to …        (BECE 1997 Q21)",
+        options: [
+          "keep their cutlass in a safe place.",
+          "work together on their farm.",
+          "forget about their quarrel.",
+          "bury their old cutlass."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To bury the hatchet means to end a quarrel and become friendly again.",
+      ),
+      QuizQuestion(
+        question:
+            "201. The pupils grumbled about the assignment.        (BECE 2011 Q20)",
+        options: ["bothered", "complained", "talked", "questioned"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Grumbled' means complained in an unhappy or dissatisfied manner.",
+      ),
+      QuizQuestion(
+        question:
+            "202. Ama broadcast the rumour about the man's death.        (BECE 2002B Q15)",
+        options: ["spread", "dispersed", "revealed", "scattered"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To broadcast a rumour means to spread it widely among people.",
+      ),
+      QuizQuestion(
+        question:
+            "203. Nobody paid any attention to the workers' demands.        (BECE 2025 Q17)",
+        options: ["agitations", "complaints", "objections", "requests"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "In this context, 'demands' means firm requests made by the workers.",
+      ),
+      QuizQuestion(
+        question:
+            "204. The beggar vanished when he saw the policeman.        (BECE 1996 Q24)",
+        options: ["showed", "defected", "jumped", "appeared"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Vanished' means disappeared. Its opposite is 'appeared'.",
+      ),
+      QuizQuestion(
+        question:
+            "205. I don't like people who blow their own trumpet. This means I dislike people who …        (BECE 1990 Q19)",
+        options: [
+          "are noisy.",
+          "are selfish.",
+          "blow trumpets.",
+          "are boastful."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To blow one's own trumpet means to boast about one's achievements or abilities.",
+      ),
+      QuizQuestion(
+        question:
+            "206. It is always good to be modest in your demands.        (BECE 1994 Q13)",
+        options: ["cheerful", "humble", "pleasant", "truthful"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Modest' means humble and not excessive in one's demands.",
+      ),
+      QuizQuestion(
+        question:
+            "207. The J.S.S. students are reading the abridged version of Shakespeare's Macbeth.        (BECE 2005 Q24)",
+        options: ["old", "original", "cheap", "paperback"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "An abridged version is shortened. Its opposite is the original or complete version.",
+      ),
+      QuizQuestion(
+        question:
+            "208. This mountain is rather too risky to climb.        (BECE 1994 Q16)",
+        options: ["rough", "steep", "difficult", "dangerous"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Risky' means involving danger; therefore, 'dangerous' has the closest meaning.",
+      ),
+      QuizQuestion(
+        question:
+            "209. My mother is skilled in domestic affairs.        (BECE 2016 Q22)",
+        options: ["local", "internal", "everyday", "household"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Domestic affairs' refers to matters connected with the home or household.",
+      ),
+      QuizQuestion(
+        question: "210. The meat I had was tough.        (BECE 1998 Q24)",
+        options: ["big", "soft", "slippery", "rough"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Tough meat is difficult to chew. The opposite of 'tough' in this context is 'soft'.",
+      ),
+      QuizQuestion(
+        question:
+            "211. Abeiku feels unsafe in his house.        (BECE 2021 Q30)",
+        options: ["afraid", "rejected", "secure", "unhappy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Unsafe' means not protected from danger. Its opposite is 'secure'.",
+      ),
+      QuizQuestion(
+        question:
+            "212. The teacher poured cold water on Sena's suggestion. This means that the teacher …        (BECE 2012 Q27)",
+        options: [
+          "challenged Sena's suggestion.",
+          "approved of Sena's suggestion.",
+          "discouraged Sena.",
+          "provoked Sena."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To pour cold water on an idea means to discourage or show little enthusiasm for it.",
+      ),
+      QuizQuestion(
+        question:
+            "213. Joana is a clever girl and will come out of her examination with flying colours. This means …        (BECE 1997 Q18)",
+        options: [
+          "she will pass in her favourite subjects.",
+          "she will excel in some subjects.",
+          "her results will be very good.",
+          "she will work hard."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To come out with flying colours means to achieve excellent results or succeed very well.",
+      ),
+      QuizQuestion(
+        question:
+            "214. Evans wakes up early because he does not sleep much.        (BECE 2022 Q29)",
+        options: ["late", "at home", "often", "on his bed"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Early' and 'late' are opposites.",
+      ),
+      QuizQuestion(
+        question:
+            "215. The scarcity of doctors is a matter of public concern.        (BECE 2020 Q19)",
+        options: ["weakness", "shortage", "suffering", "indiscipline"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Scarcity' means a shortage or an insufficient supply of something.",
+      ),
+      QuizQuestion(
+        question:
+            "216. The Manager was dismissed for gross inefficiency.        (BECE 1993 Q11)",
+        options: ["incompetent", "dishonesty", "laziness", "misconduct"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "'Inefficiency' means the inability to perform a task effectively; it is closely related to incompetence.",
+      ),
+      QuizQuestion(
+        question:
+            "217. If Mantey had passed the examination his father would have bought him a present. This means Mantey …        (BECE 1990 Q20)",
+        options: [
+          "failed the examination so he had no present.",
+          "would be given a present for being successful in the examination.",
+          "usually received presents from his father after examinations.",
+          "knew that his father would buy him a present to help him pass the examination."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "The third conditional sentence shows that Mantey did not pass the examination, so his father did not buy him a present.",
+      ),
+      QuizQuestion(
+        question:
+            "218. The students were advised to stop building castles in the air. This means that students should …        (BECE 1994 Q18)",
+        options: [
+          "not build any more castles.",
+          "be serious and realistic.",
+          "not worry about castles.",
+          "be serious and hardworking."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To build castles in the air means to make unrealistic plans or daydream; therefore, they should be realistic.",
+      ),
+      QuizQuestion(
+        question:
+            "219. The headteacher asked the pupils to disperse.        (BECE 2018 Q26)",
+        options: ["assemble", "come", "meet", "stay"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Disperse' means to move apart or scatter. Its opposite is 'assemble'.",
+      ),
+      QuizQuestion(
+        question:
+            "220. The soldier climbed the mountain carefully.        (BECE 2012 Q32)",
+        options: ["descended", "circled", "fell off", "looked up"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Climbed' means moved upward. Its opposite is 'descended'.",
+      ),
+      QuizQuestion(
+        question:
+            "221. Kojo was dragged to the farm like a lamb to the slaughter. This means that Kojo was dragged …        (BECE 2010 Q24)",
+        options: [
+          "with difficulty.",
+          "without resistance.",
+          "with a lamb on his shoulder.",
+          "without anything on him."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Like a lamb to the slaughter means going somewhere helplessly and without resistance.",
+      ),
+      QuizQuestion(
+        question: "222. My father was a very stout man.        (BECE 1992 Q25)",
+        options: ["handsome", "short", "lean", "ill"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Stout' means thick or heavily built. Its opposite is 'lean'.",
+      ),
+      QuizQuestion(
+        question:
+            "223. The headmaster took the students' version of the theft with a pinch of salt. This means the headmaster …        (BECE 2016 Q27)",
+        options: [
+          "believed the students' version.",
+          "doubted the students' version.",
+          "accepted the students' version.",
+          "ignored the students' version."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To take something with a pinch of salt means not to believe it completely or to treat it with doubt.",
+      ),
+      QuizQuestion(
+        question:
+            "224. Remember to look over your work when you finish.        (BECE 1993 Q13)",
+        options: ["watch", "look on", "oversee", "read through"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To look over one's work means to examine or read through it carefully.",
+      ),
+      QuizQuestion(
+        question:
+            "225. Jones will let the cat out of the bag if he is invited. This means he will …        (BECE 2003 Q19)",
+        options: [
+          "cause trouble.",
+          "confuse everybody.",
+          "reveal the secret.",
+          "release the cat."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "To let the cat out of the bag means to reveal a secret.",
+      ),
+      QuizQuestion(
+        question:
+            "226. Appiah is a talented football player.        (BECE 2005 Q15)",
+        options: ["strong", "gifted", "dull", "lucky"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Talented' means naturally skilled or gifted.",
+      ),
+      QuizQuestion(
+        question:
+            "227. The athlete looked dejected at the end of the race.        (BECE 2010 Q32)",
+        options: ["angry", "calm", "strong", "excited"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Dejected' means sad and discouraged. Of the options, 'excited' is the opposite.",
+      ),
+      QuizQuestion(
+        question:
+            "228. Due to anger the pupil spoke to the teacher in an impolite way.        (BECE 1999 Q15)",
+        options: ["foolish", "loud", "brave", "rude"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Impolite' means rude or lacking good manners.",
+      ),
+      QuizQuestion(
+        question:
+            "229. Rain makes the soil moist for planting.        (BECE 2004 Q25)",
+        options: ["fertile", "loose", "solid", "dry"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Moist' means slightly wet. Its opposite is 'dry'.",
+      ),
+      QuizQuestion(
+        question:
+            "230. Kojo's teacher was reluctant to accept his explanation for being late to school.        (BECE 1991 Q39)",
+        options: ["willing", "afraid", "unable", "planning"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Reluctant' means unwilling or hesitant. Its opposite is 'willing'.",
+      ),
+      QuizQuestion(
+        question:
+            "231. We were taken to the police station like a lamb to the slaughter. This means that we were taken there …        (BECE 2020 Q25)",
+        options: [
+          "with our clothes removed.",
+          "without resistance.",
+          "with difficulty.",
+          "in a violent manner."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To be taken like a lamb to the slaughter means to go helplessly and without resistance.",
+      ),
+      QuizQuestion(
+        question:
+            "232. If you are indolent, you will not pass the examination.        (BECE 2007 Q22)",
+        options: ["hard-working", "rude", "careless", "honest"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Indolent' means lazy. Its opposite is 'hard-working'.",
+      ),
+      QuizQuestion(
+        question:
+            "233. Hunters are always careful in catching wild animals.        (BECE 2002B Q21)",
+        options: ["tame", "confined", "calm", "free"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "'Wild' describes animals that are not domesticated. Its opposite is 'tame'.",
+      ),
+      QuizQuestion(
+        question:
+            "234. Musa was arrested for printing counterfeit cedi notes.        (BECE 1992 Q24)",
+        options: ["correct", "new", "acceptable", "genuine"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Counterfeit' means fake or illegally copied. Its opposite is 'genuine'.",
+      ),
+      QuizQuestion(
+        question:
+            "235. It is a fact that Zaibu often gives accurate answers to questions.        (BECE 1990 Q14)",
+        options: ["long", "silly", "interesting", "wrong"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Accurate' means correct. Its opposite is 'wrong'.",
+      ),
+      QuizQuestion(
+        question:
+            "236. At the end of the investigations the police said the hands of the accused were clean. This means the …        (BECE 1990 Q16)",
+        options: [
+          "police praised the accused for his neatness.",
+          "accused was blameless.",
+          "accused had washed his hands.",
+          "police saw the accused's fingerprints."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To say that a person's hands are clean means that the person is innocent or blameless.",
+      ),
+      QuizQuestion(
+        question:
+            "237. You must be off your head if you really believe that the moon is a huge cake. This means that you must be …        (BECE 2004 Q17)",
+        options: ["crazy.", "joking.", "unintelligent.", "dreaming."],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To be off one's head means to be crazy or behaving irrationally.",
+      ),
+      QuizQuestion(
+        question:
+            "238. Adzo takes after her mother. This means that Adzo …        (BECE 2013 Q23)",
+        options: [
+          "likes her.",
+          "resembles her.",
+          "is unlike her.",
+          "always follows her."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To take after someone means to resemble that person in appearance or character.",
+      ),
+      QuizQuestion(
+        question:
+            "239. It is compulsory for all citizens to take part in communal labour.        (BECE 2020B Q22)",
+        options: ["advisable", "optional", "good", "unnecessary"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Compulsory' means required or obligatory. Its opposite is 'optional'.",
+      ),
+      QuizQuestion(
+        question:
+            "240. There are guards on our border because the government wants to eliminate smuggling.        (BECE 1995 Q21)",
+        options: ["notice", "manage with", "encourage", "investigate"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "'Eliminate' means to put an end to something. Its opposite is 'encourage'.",
+      ),
+      QuizQuestion(
+        question:
+            "241. When school starts the national flag is hoisted.        (BECE 2002A Q24)",
+        options: ["lowered", "dropped", "saluted", "hung"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Hoisted' means raised. Its opposite is 'lowered'.",
+      ),
+      QuizQuestion(
+        question: "242. He has a violent temper.        (BECE 2012 Q29)",
+        options: ["mild", "natural", "flexible", "pleasant"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A violent temper is fierce and aggressive. Its opposite is a mild temper.",
+      ),
+      QuizQuestion(
+        question:
+            "243. Ammon has always kept his enemies at arm's length. This means that he …        (BECE 2021 Q23)",
+        options: [
+          "abused them.",
+          "shunned them.",
+          "threatened them.",
+          "trusted them."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To keep someone at arm's length means to avoid becoming close to that person or to shun them.",
+      ),
+      QuizQuestion(
+        question:
+            "244. Some exercises may seem easy in theoretical terms but can be really difficult in … aspects.        (BECE 2024 Q27)",
+        options: ["actual", "logical", "natural", "practical"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Theoretical' relates to ideas, while 'practical' relates to actual performance or application.",
+      ),
+      QuizQuestion(
+        question:
+            "245. Regions with abundant rainfall are different from those having … moisture.        (BECE 2024 Q28)",
+        options: ["reduced", "scanty", "uncertain", "unpredictable"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Abundant' means plentiful. Its opposite is 'scanty', meaning very little.",
+      ),
+      QuizQuestion(
+        question:
+            "246. The attitude of the security officer was very hostile.        (BECE 2000 Q12)",
+        options: ["strange", "disturbing", "unfriendly", "interesting"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Hostile' means unfriendly or aggressive.",
+      ),
+      QuizQuestion(
+        question:
+            "247. Although the labourers agreed to do the work, they did it reluctantly.        (BECE 1993 Q14)",
+        options: ["leisurely", "nervously", "unwillingly", "sparingly"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Reluctantly' means unwillingly or without enthusiasm.",
+      ),
+      QuizQuestion(
+        question:
+            "248. The price of petrol has fallen for no reason.        (BECE 2017 Q28)",
+        options: ["aggravated", "doubled", "risen", "weakened"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Fallen' means decreased. Its opposite is 'risen'.",
+      ),
+      QuizQuestion(
+        question:
+            "249. He feared that his father would ask where he had been. This means that …        (BECE 1990 Q18)",
+        options: [
+          "he was afraid when his father asked him where he had been.",
+          "he would be afraid if his father asked him where he had been.",
+          "he was afraid of his father so he did not tell him where he had been.",
+          "he was afraid that his father would want to know where he had been."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The sentence means that he was afraid his father would want to know where he had been.",
+      ),
+      QuizQuestion(
+        question:
+            "250. The Headmaster condemned the Prefect's behaviour.        (BECE 1999 Q23)",
+        options: ["reported", "pardoned", "confirmed", "praised"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Condemned' means strongly disapproved of. Its opposite is 'praised'.",
+      ),
+      QuizQuestion(
+        question:
+            "251. It is very difficult for many workers to make ends meet. This means many workers find it difficult to …        (BECE 1992 Q17)",
+        options: [
+          "do two jobs at a time.",
+          "make workers and managers come together.",
+          "live within their means.",
+          "feed two people."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To make ends meet means to manage one's expenses with the available income or live within one's means.",
+      ),
+      QuizQuestion(
+        question:
+            "252. During the lecture, Sarfo was miles away. This means that Sarfo …        (BECE 2013 Q26)",
+        options: [
+          "was self-conscious.",
+          "had travelled.",
+          "had slept.",
+          "was absent-minded."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To be miles away during a lecture means to be lost in thought and not paying attention.",
+      ),
+      QuizQuestion(
+        question:
+            "253. Dora was exhausted after the exercise.        (BECE 2022 Q26)",
+        options: ["active", "refreshed", "cheerful", "strong"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Exhausted' means extremely tired. Its opposite is 'refreshed'.",
+      ),
+      QuizQuestion(
+        question:
+            "254. Unlike his sister, Akash is stingy.        (BECE 2011 Q28)",
+        options: ["friendly", "generous", "selfish", "sympathetic"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Stingy' means unwilling to give or spend. Its opposite is 'generous'.",
+      ),
+      QuizQuestion(
+        question:
+            "255. Jasper lamented the loss of his pet.        (BECE 2007 Q15)",
+        options: ["regretted", "mourned", "remembered", "discovered"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Lamented' means expressed deep sadness or mourned over a loss.",
+      ),
+      QuizQuestion(
+        question:
+            "256. The manager's strange behaviour made the workers smell a rat. This means that the workers became …        (BECE 2002A Q21)",
+        options: ["rude.", "discouraged.", "disappointed.", "suspicious."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To smell a rat means to suspect that something is wrong or dishonest.",
+      ),
+      QuizQuestion(
+        question:
+            "257. Nortey was industrious so he was duly rewarded.        (BECE 1999 Q16)",
+        options: ["strict", "humble", "brave", "famous"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "The source retains 'famous' as the intended option, although none of the options is a precise synonym for 'industrious'.",
+      ),
+      QuizQuestion(
+        question:
+            "258. Adiza's mother prepares very palatable dishes.        (BECE 1992 Q12)",
+        options: ["expensive", "rich", "tasty", "colourful"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Palatable' means pleasant to taste or tasty.",
+      ),
+      QuizQuestion(
+        question:
+            "259. The thief descended the stairs hurriedly.        (BECE 2009 Q24)",
+        options: ["consciously", "lazily", "slowly", "noisily"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Hurriedly' means quickly. Its opposite is 'slowly'.",
+      ),
+      QuizQuestion(
+        question:
+            "260. It is wise to preserve works of art for the future.        (BECE 2000 Q22)",
+        options: ["produce", "destroy", "condemn", "abolish"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Preserve' means to protect or keep something safe. Its opposite is 'destroy'.",
+      ),
+      QuizQuestion(
+        question:
+            "261. The class teacher could not bear the noise.        (BECE 1999 Q14)",
+        options: ["tolerate", "understand", "take in", "make out"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In this sentence, 'bear' means to tolerate or endure the noise.",
+      ),
+      QuizQuestion(
+        question:
+            "262. Efua can always talk her way out of trouble. This means that Efua …        (BECE 2011 Q27)",
+        options: [
+          "is troublesome.",
+          "can defend herself.",
+          "can avoid trouble.",
+          "is talkative."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To talk one's way out of trouble means to use words successfully to defend oneself or escape blame.",
+      ),
+      QuizQuestion(
+        question:
+            "263. Manna lay aside some money for Baaba's party. This means that Manna …        (BECE 2017 Q22)",
+        options: [
+          "refused to host the party.",
+          "saved money for the party.",
+          "spent money on the party.",
+          "took a loan to organise the party."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "To lay aside money means to save it for a particular purpose.",
+      ),
+      QuizQuestion(
+        question:
+            "264. We are surprised at her hostility to us.        (BECE 2013 Q28)",
+        options: ["faithfulness", "attitude", "manner", "friendliness"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Hostility' means unfriendliness. Its opposite is 'friendliness'.",
+      ),
+      QuizQuestion(
+        question:
+            "265. The indigenous people provided the labour during the building of the school.        (BECE 2009 Q13)",
+        options: ["skilled", "native", "expatriate", "urban"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Indigenous people' are the native or original inhabitants of a place.",
+      ),
+      QuizQuestion(
+        question:
+            "266. My uncle loves to cast his bread upon the waters. This means that my uncle …        (BECE 2019 Q22)",
+        options: [
+          "behaves strangely.",
+          "feeds his fish with bread.",
+          "is wasteful.",
+          "loves to help people."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To cast one's bread upon the waters means to do good or help others without expecting an immediate reward.",
+      ),
+      QuizQuestion(
+        question:
+            "267. The students were all ears during the programme. This means that the students …        (BECE 2007 Q19)",
+        options: [
+          "answered questions.",
+          "looked closely.",
+          "closed their ears.",
+          "listened intently."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To be all ears means to listen very carefully and attentively.",
+      ),
+      QuizQuestion(
+        question:
+            "268. Formerly, we walked a very long distance to attend school.        (BECE 2000 Q25)",
+        options: ["sometimes", "now", "recently", "usually"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Formerly' means in the past, whereas 'now' refers to the present.",
+      ),
+      QuizQuestion(
+        question:
+            "269. Tony held his tongue for an hour before speaking. This means that Tony …        (BECE 2003 Q18)",
+        options: [
+          "was angry.",
+          "was happy.",
+          "smiled for a while.",
+          "kept quiet."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To hold one's tongue means to remain silent or keep quiet.",
+      ),
+      QuizQuestion(
+        question:
+            "270. We knew it was a cock and bull story. This means that the story was …        (BECE 2014 Q24)",
+        options: [
+          "difficult to believe.",
+          "about a cock and a bull.",
+          "real.",
+          "false."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "A cock and bull story is an unbelievable or false story.",
+      ),
+      QuizQuestion(
+        question:
+            "271. Pupils are to read the instructions carefully.        (BECE 2016 Q19)",
+        options: ["notices", "demands", "commands", "directives"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Instructions' are directions or directives explaining what should be done.",
+      ),
+      QuizQuestion(
+        question:
+            "272. Most men normally do not wear costly jewellery.        (BECE 2002A Q16)",
+        options: ["good", "expensive", "shiny", "new"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Costly' means expensive or costing a large amount of money.",
+      ),
+      QuizQuestion(
+        question:
+            "273. Drivers who do not drive with care are sometimes charged with …        (BECE 2016 Q30)",
+        options: ["speeding", "drunkenness", "disobedience", "recklessness"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Driving without care is described as recklessness.",
+      ),
+      QuizQuestion(
+        question:
+            "274. Moses is on a temporary appointment.        (BECE 1996 Q23)",
+        options: ["daily", "permanent", "probational", "weekly"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A temporary appointment may be probational, meaning it is not yet permanent.",
+      ),
+      QuizQuestion(
+        question:
+            "275. We were advised to make our handwriting legible.        (BECE 1998 Q11)",
+        options: ["crooked", "clear", "straight", "deep"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Legible' handwriting is clear and easy to read.",
+      ),
+      QuizQuestion(
+        question:
+            "276. He gave a precise definition of the word.        (BECE 2001 Q16)",
+        options: ["learned", "hasty", "accurate", "short"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Precise' means exact, clear and accurate.",
+      ),
+      QuizQuestion(
+        question:
+            "277. The pupils in the town often help in communal activities. This means that they help in …        (BECE 1991 Q16)",
+        options: [
+          "all activities.",
+          "interesting activities.",
+          "public activities.",
+          "usual activities."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Communal activities' are public activities carried out for the benefit of the community.",
+      ),
+      QuizQuestion(
+        question:
+            "278. Akosua will go to the cinema if Adjei will foot the bill. This means Akosua will go to the film show if …        (BECE 1997 Q20)",
+        options: [
+          "Adjei will take her there on foot.",
+          "the two of them will go together.",
+          "Adjei will pay for her.",
+          "she will walk there with others."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation: "To foot the bill means to pay the cost or expenses.",
+      ),
+      QuizQuestion(
+        question: "279. This room is too dim.        (BECE 1997 Q22)",
+        options: ["bright", "shining", "clear", "lit"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Dim' means not bright. Its opposite is 'bright'.",
+      ),
+      QuizQuestion(
+        question:
+            "280. By the end of the lesson, we were completely at sea. This means that we were …        (BECE 1995 Q17)",
+        options: [
+          "fast asleep.",
+          "totally confused.",
+          "quite disturbed.",
+          "very inspired."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To be at sea means to be confused and unsure of what to do or understand.",
+      ),
+      QuizQuestion(
+        question:
+            "281. The student was caught red-handed breaking the louvres. This means that the student was caught …        (BECE 2014 Q23)",
+        options: [
+          "while committing the offence.",
+          "with blood on his hands.",
+          "before the act.",
+          "after the act."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To be caught red-handed means to be caught while committing an offence.",
+      ),
+      QuizQuestion(
+        question:
+            "282. I was informed at the eleventh hour about his decision to leave town. This means that I heard it …        (BECE 2023 Q23)",
+        options: [
+          "at eleven o'clock.",
+          "very late.",
+          "immediately.",
+          "in good time."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "At the eleventh hour means at the last possible moment or very late.",
+      ),
+      QuizQuestion(
+        question:
+            "283. Dazzled by the bright headlights of the approaching vehicle, our driver drove into the bush.        (BECE 2001 Q15)",
+        options: ["disturbed", "worried", "blinded", "discouraged"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Dazzled' means temporarily blinded by a very bright light.",
+      ),
+      QuizQuestion(
+        question:
+            "284. Born and bred in an affluent home, he never experienced any hardships in life.        (BECE 2001 Q14)",
+        options: ["respectable", "religious", "happy", "rich"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Affluent' means wealthy or rich.",
+      ),
+      QuizQuestion(
+        question:
+            "285. The choir sang some melodious songs at the function.        (BECE 2010 Q17)",
+        options: ["loud", "pleasant", "soft", "musical"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Melodious' means pleasant and attractive to listen to.",
+      ),
+      QuizQuestion(
+        question:
+            "286. The taxi driver drove recklessly throughout the journey.        (BECE 1996 Q25)",
+        options: ["speedily", "carefully", "noisily", "leisurely"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Recklessly' means without care. Its opposite is 'carefully'.",
+      ),
+      QuizQuestion(
+        question:
+            "287. Aminata is boastful about her beauty.        (BECE 2011 Q32)",
+        options: ["careless", "humble", "modest", "uneasy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Boastful' means excessively proud. Its opposite is 'modest'.",
+      ),
+      QuizQuestion(
+        question:
+            "288. The attitude of the gateman was very hostile.        (BECE 2015 Q21)",
+        options: ["harsh", "strange", "abusive", "unfriendly"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Hostile' means unfriendly or aggressive.",
+      ),
+      QuizQuestion(
+        question:
+            "289. The film was so boring that I fell asleep.        (BECE 2002B Q23)",
+        options: ["exciting", "ordinary", "disorderly", "long"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Boring' means uninteresting. Its opposite is 'exciting'.",
+      ),
+      QuizQuestion(
+        question:
+            "290. He had applied for a permanent job.        (BECE 2012 Q28)",
+        options: ["a boring", "a dull", "an exacting", "a temporary"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Permanent' means lasting indefinitely. Its opposite is 'temporary'.",
+      ),
+      QuizQuestion(
+        question:
+            "291. The troops retreated when they were attacked.        (BECE 2004 Q12)",
+        options: ["escaped", "scattered", "fought", "withdrew"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Retreated' means moved back or withdrew from a position.",
+      ),
+      QuizQuestion(
+        question:
+            "292. The pupils are confident of passing the examination.        (BECE 2018 Q30)",
+        options: ["determined", "doubtless", "uncertain", "uneasy"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Confident' means certain. Its opposite is 'uncertain'.",
+      ),
+      QuizQuestion(
+        question:
+            "293. Many people revered the old man for his charity to the poor.        (BECE 2012 Q21)",
+        options: ["glorified", "respected", "feared", "praised"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Revered' means deeply respected or admired.",
+      ),
+      QuizQuestion(
+        question:
+            "294. The audience laughed at his funny stories.        (BECE 2021 Q?)",
+        options: ["cheerful", "humourless", "familiar", "peculiar"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Funny' means amusing or humorous. Its opposite is 'humourless'.",
+      ),
+      QuizQuestion(
+        question:
+            "295. When James heard the sound of gun-shots, his hair stood on end. This means that James …        (BECE 2015 Q25)",
+        options: [
+          "was worried.",
+          "started crying.",
+          "was frightened.",
+          "became inactive."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "When someone's hair stands on end, the person is extremely frightened.",
+      ),
+      QuizQuestion(
+        question:
+            "296. If you are a true friend you will not disclose a secret.        (BECE 2015 Q18)",
+        options: ["give", "show", "display", "reveal"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Disclose' means to reveal or make secret information known.",
+      ),
+      QuizQuestion(
+        question:
+            "297. I belief that Fusena is guilty of the crime.        (BECE 2006 Q24)",
+        options: ["ignorant", "aware", "innocent", "careless"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Guilty' means responsible for an offence. Its opposite is 'innocent'.",
+      ),
+      QuizQuestion(
+        question:
+            "298. All his plans for building a new theatre came to naught. This means that …        (BECE 2009 Q20)",
+        options: [
+          "the theatre was built.",
+          "his plans were unsuccessful.",
+          "the building collapsed.",
+          "there was nothing in the theatre."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To come to naught means to fail completely or produce no successful result.",
+      ),
+      QuizQuestion(
+        question:
+            "299. Little Asabea wondered why her grandfather walked so slowly.        (BECE 2024 Q19)",
+        options: [
+          "felt frustrated that",
+          "thought about why",
+          "was curious about why",
+          "was saddened that"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Wondered why' means was curious about the reason something happened.",
+      ),
+      QuizQuestion(
+        question:
+            "300. Moro felt very much at home at his friend's house. This means that Moro …        (BECE 2007 Q18)",
+        options: [
+          "knew his friend's house.",
+          "was comfortable and relaxed.",
+          "was disappointed.",
+          "lived with his friend."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To feel at home means to feel comfortable, relaxed and welcome in a place.",
+      ),
+      QuizQuestion(
+        question:
+            "301. The penalty for stealing is dismissal from school.        (BECE 1998 Q14)",
+        options: ["trouble", "cause", "foul", "punishment"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Penalty' means a punishment given for breaking a rule or committing an offence.",
+      ),
+      QuizQuestion(
+        question:
+            "302. Foli and Adzovi hit it off quite well. This means they …        (BECE 2017 Q25)",
+        options: [
+          "fight often.",
+          "get on very well.",
+          "play as a team.",
+          "present good arguments."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To hit it off means to quickly develop a friendly relationship and get on well together.",
+      ),
+      QuizQuestion(
+        question:
+            "303. If we had sent him to the hospital earlier he wouldn't have died. This means that we …        (BECE 1998 Q20)",
+        options: [
+          "sent him to the hospital.",
+          "didn't send him to the hospital at all.",
+          "sent him to the hospital late.",
+          "were told to send him to the hospital."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "The sentence shows that he was taken to the hospital, but he was taken there too late.",
+      ),
+      QuizQuestion(
+        question:
+            "304. Immediately Ekuba's mother left the house, she let the cat out of the bag. This means that Ekuba …        (BECE 2012 Q26)",
+        options: [
+          "bought a cat.",
+          "took the cat from the bag.",
+          "left her house.",
+          "revealed the secret."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation: "To let the cat out of the bag means to reveal a secret.",
+      ),
+      QuizQuestion(
+        question:
+            "305. Elephants are becoming rare in some parts of Africa.        (BECE 1990 Q37)",
+        options: ["unimportant", "uncommon", "unknown", "exposed"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Rare' means uncommon or not frequently found.",
+      ),
+      QuizQuestion(
+        question:
+            "306. His clothes are always out of date. This means that his clothes are …        (BECE 2002A Q18)",
+        options: ["torn.", "too tight.", "faded.", "old-fashioned."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Clothes that are out of date are no longer fashionable and are therefore old-fashioned.",
+      ),
+      QuizQuestion(
+        question:
+            "307. The judge acquitted four of the accused but … the rest.        (BECE 2016 Q28)",
+        options: ["convicted", "discharged", "cautioned", "rebuked"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "'Acquitted' means declared not guilty, while 'convicted' means declared guilty.",
+      ),
+      QuizQuestion(
+        question:
+            "308. It took our new prefect two months before he could find his feet. This means that it took the prefect two months before he …        (BECE 2007 Q20)",
+        options: [
+          "knew everybody.",
+          "became confident.",
+          "won a prize.",
+          "became popular."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To find one's feet means to become confident and comfortable in a new situation.",
+      ),
+      QuizQuestion(
+        question:
+            "309. Ekua visits her grandmother once in a blue moon. This means Ekua visits her grandmother …        (BECE 1997 Q17)",
+        options: ["every month.", "once a week.", "occasionally.", "often."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "Once in a blue moon means very rarely or only occasionally.",
+      ),
+      QuizQuestion(
+        question:
+            "310. Transparent ballot boxes are used in elections.        (BECE 2013 Q32)",
+        options: ["dark", "opaque", "coated", "painted"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Transparent' means allowing light to pass through. Its opposite is 'opaque'.",
+      ),
+      QuizQuestion(
+        question:
+            "311. The printing company has over a thousand agents here.        (BECE 1992 Q15)",
+        options: ["vendors", "caretakers", "deputies", "representatives"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Agents are people who act as representatives of a person, organisation or company.",
+      ),
+      QuizQuestion(
+        question:
+            "312. The boy's account of the incident was elaborate.        (BECE 2025 Q18)",
+        options: ["clear", "detailed", "interesting", "popular"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Elaborate' means detailed and containing a lot of carefully presented information.",
+      ),
+      QuizQuestion(
+        question:
+            "313. My uncle visits me once in a blue moon. This means that he visits …        (BECE 1998 Q18)",
+        options: [
+          "at the end of the month.",
+          "rarely.",
+          "during the night.",
+          "daily."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation: "Once in a blue moon means very rarely.",
+      ),
+      QuizQuestion(
+        question:
+            "314. The doctors have been discussing the shortage of nurses.        (BECE 2013 Q22)",
+        options: ["indiscipline", "love", "scarcity", "efficiency"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Shortage' means scarcity or an insufficient amount of something.",
+      ),
+      QuizQuestion(
+        question:
+            "315. The P.T.A Chairman cleared the air about the increase in dues. This means that he …        (BECE 2003 Q20)",
+        options: [
+          "explained why there was an increase.",
+          "announced the increase.",
+          "published the increase in the papers.",
+          "was sorry about the increase."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To clear the air means to remove confusion or misunderstanding by explaining an issue.",
+      ),
+      QuizQuestion(
+        question:
+            "316. Abass was not selected to play because he had little stamina.        (BECE 2003 Q12)",
+        options: ["love", "potential", "endurance", "skill"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Stamina' means the physical or mental endurance needed to continue an activity.",
+      ),
+      QuizQuestion(
+        question:
+            "317. Theresa wanted to know the time of arrival of the plane.        (BECE 2001 Q23)",
+        options: ["scheme", "routine", "departure", "boarding"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Arrival' means reaching a place. Its opposite is 'departure'.",
+      ),
+      QuizQuestion(
+        question:
+            "318. Mrs. Addo is our hostess for the show.        (BECE 2006 Q25)",
+        options: ["guest", "speaker", "guide", "sponsor"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A hostess receives or entertains other people. The opposite role is that of a guest.",
+      ),
+      QuizQuestion(
+        question:
+            "319. My father was indifferent to my brother's suffering.        (BECE 1999 Q26)",
+        options: ["similar", "concerned", "stern", "kind"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Indifferent' means showing no concern or interest. Its opposite is 'concerned'.",
+      ),
+      QuizQuestion(
+        question:
+            "320. The Policeman was reported to have concealed the evidence, but … it to the Jury.        (BECE 2025 Q26)",
+        options: ["disclosed", "gathered", "found", "planted"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Concealed' means hid, while 'disclosed' means revealed or made known.",
+      ),
+      QuizQuestion(
+        question:
+            "321. I stopped going out with Joe because he is light-fingered. This means that Joe is a …        (BECE 2002A Q20)",
+        options: ["lazy person.", "liar.", "thief.", "dishonest friend."],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "A light-fingered person has a tendency to steal things and is therefore a thief.",
+      ),
+      QuizQuestion(
+        question:
+            "322. When he lost his job, Yaro was left to sink or swim. This means that Yaro …        (BECE 2023 Q24)",
+        options: [
+          "was depressed.",
+          "had to find another job.",
+          "had to survive on his own.",
+          "shouted for help."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To be left to sink or swim means to be left to survive or succeed through one's own efforts.",
+      ),
+      QuizQuestion(
+        question:
+            "323. It is rude to talk loudly in the presence of elderly people.        (BECE 2011 Q19)",
+        options: ["impolite", "incorrect", "improper", "unwise"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Rude' means impolite or lacking good manners.",
+      ),
+      QuizQuestion(
+        question:
+            "324. Due to the ongoing road construction, our shops have been temporarily closed down.        (BECE 2024 Q29)",
+        options: ["constantly", "deliberately", "legally", "permanently"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Temporarily' means for a limited period. Its opposite is 'permanently'.",
+      ),
+      QuizQuestion(
+        question:
+            "325. Issah was asked to toe the line or quit the team. This means that Issah was asked to …        (BECE 2005 Q18)",
+        options: ["apologize.", "resign.", "change.", "obey."],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To toe the line means to obey the rules or follow the expected standard of behaviour.",
+      ),
+      QuizQuestion(
+        question:
+            "326. Kwadwo turned a deaf ear to his mother's advice. This means that Kwadwo …        (BECE 1999 Q21)",
+        options: [
+          "turned his deaf ear to his mother.",
+          "refused to listen.",
+          "stopped his ear.",
+          "could not hear well."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "To turn a deaf ear to something means to refuse to listen to or pay attention to it.",
+      ),
+      QuizQuestion(
+        question:
+            "327. Although he had applied for a permanent post, he was only given a … one.        (BECE 2015 Q31)",
+        options: ["useful", "boring", "laboring", "temporary"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Permanent' means lasting for a long time. Its opposite is 'temporary'.",
+      ),
+      QuizQuestion(
+        question:
+            "328. The project is in the pipeline. This means that it is …        (BECE 2021 Q24)",
+        options: [
+          "being dealt with.",
+          "being suspended.",
+          "no longer pursued.",
+          "stuck in the pipe."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A project that is in the pipeline is being planned, prepared or dealt with.",
+      ),
+      QuizQuestion(
+        question:
+            "329. The two brothers are always quarrelling; they never see eye to eye. This means they do not … each other.        (BECE 2004 Q16)",
+        options: ["agree with", "admire", "respect", "trust"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation: "To see eye to eye means to agree with another person.",
+      ),
+      QuizQuestion(
+        question:
+            "330. The audience applauded the actors at the end of the play.        (BECE 2007 Q14)",
+        options: ["booed", "invited", "rewarded", "cheered"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Applauded' means showed approval by clapping or cheering.",
+      ),
+      QuizQuestion(
+        question:
+            "331. Have you enough money to buy a house?        (BECE 2022 Q20)",
+        options: ["sufficient", "plenty", "much", "full"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Enough' means sufficient for a particular purpose.",
+      ),
+      QuizQuestion(
+        question:
+            "332. The classroom is surprisingly chaotic today.        (BECE 2002B Q24)",
+        options: ["busy", "dirty", "hectic", "disorderly"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Chaotic' means completely disorganised or disorderly.",
+      ),
+      QuizQuestion(
+        question:
+            "333. Most doctors are humane in treating patients.        (BECE 2003 Q16)",
+        options: ["careful", "good", "experienced", "friendly"],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "'Humane' means showing kindness and compassion. Of the options, 'friendly' is the closest in meaning.",
+      ),
+      QuizQuestion(
+        question:
+            "334. John was impressed with Joana's gift.        (BECE 2003 Q15)",
+        options: ["moved", "deceived", "calmed", "pleased"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To be impressed with something means to be pleased by or admire it.",
+      ),
+      QuizQuestion(
+        question:
+            "335. Ama answered the questions with confidence.        (BECE 2008 Q23)",
+        options: ["joy", "firmness", "timidity", "uncertainty"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "'Confidence' means certainty and self-assurance. Its opposite is 'uncertainty'.",
+      ),
+      QuizQuestion(
+        question:
+            "336. Ato was at his wits' end. This means that Ato …        (BECE 2013 Q27)",
+        options: [
+          "was collecting his ideas together.",
+          "had come to the end of his talk.",
+          "did not know what to do next.",
+          "did not have much to do."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To be at one's wits' end means to be so confused or worried that one does not know what to do next.",
+      ),
+      QuizQuestion(
+        question:
+            "337. Iddrisu swore that he would rather be a spendthrift than a …        (BECE 2003 Q25)",
+        options: ["miser", "pauper", "weakling", "thief"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "A spendthrift spends money wastefully, while a miser is unwilling to spend money.",
+      ),
+      QuizQuestion(
+        question:
+            "338. After the hard day's work he returned home completely exhausted.        (BECE 2000 Q13)",
+        options: ["disturbed", "worn out", "unhappy", "broken down"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Exhausted' means extremely tired or worn out.",
+      ),
+      QuizQuestion(
+        question:
+            "339. The opponents decided to bury the hatchet. This means that they decided to …        (BECE 2016 Q26)",
+        options: [
+          "make peace.",
+          "bury their guns.",
+          "hold discussions.",
+          "suspend the fighting."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To bury the hatchet means to end a quarrel and make peace.",
+      ),
+      QuizQuestion(
+        question:
+            "340. He was asked not to attend the party but he turned a deaf ear to the advice. This means that he …        (BECE 2008 Q20)",
+        options: [
+          "did not hear the advice.",
+          "laughed at the advice.",
+          "was angry at the advice.",
+          "ignored the advice."
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "To turn a deaf ear to advice means to ignore or refuse to follow it.",
+      ),
+      QuizQuestion(
+        question:
+            "341. Patricia was satisfied with the result of the examination.        (BECE 2015 Q20)",
+        options: ["pleased", "convinced", "pampered", "encouraged"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "'Satisfied' means pleased or content with something.",
+      ),
+      QuizQuestion(
+        question:
+            "342. The chief's palace was demolished by the rainstorm.        (BECE 1997 Q15)",
+        options: ["opened", "built", "destroyed", "painted"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "'Demolished' means completely destroyed or pulled down.",
+      ),
+      QuizQuestion(
+        question:
+            "343. As John waited for the interview, he was very nervous.        (BECE 2015 Q19)",
+        options: ["sad", "afraid", "alarmed", "uneasy"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "'Nervous' means worried, anxious or uneasy.",
+      ),
+      QuizQuestion(
+        question:
+            "344. That tailor always takes pains over his sewing. This means that the tailor …        (BECE 2022 Q22)",
+        options: [
+          "does his sewing with great care.",
+          "finds sewing very painful.",
+          "is often ill and cannot sew.",
+          "is not happy sewing."
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To take pains over something means to do it with great care and effort.",
+      ),
+      QuizQuestion(
+        question:
+            "345. When it comes to honesty, Kweku is the odd one out. This means that Kweku …        (BECE 2002A Q19)",
+        options: [
+          "is always absent.",
+          "does not tell the truth.",
+          "does not behave normally.",
+          "is very tricky."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "The odd one out is the person who differs from the others. In this context, Kweku is dishonest and does not tell the truth.",
+      ),
+      QuizQuestion(
+        question:
+            "346. The chief told his linguist not to beat about the bush. This means the linguist must …        (BECE 1994 Q21)",
+        options: [
+          "not stammer.",
+          "go straight to the point.",
+          "not enter the bush.",
+          "conclude the case."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Not to beat about the bush means to speak directly and go straight to the main point.",
+      ),
+      QuizQuestion(
+        question:
+            "347. Janet promised to attend to her mother-in-law who was ill.        (BECE 1992 Q14)",
+        options: ["look after", "look at", "look into", "look for"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "To attend to an ill person means to care for or look after the person.",
+      ),
+      QuizQuestion(
+        question:
+            "348. The welfare of their students should be the concern of teachers.        (BECE 2022 Q19)",
+        options: ["wealth", "well-being", "happiness", "growth"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Welfare' refers to a person's health, happiness, safety and general well-being.",
+      ),
+      QuizQuestion(
+        question:
+            "349. We will not allow him to dampen our spirits.        (BECE 2023 Q20)",
+        options: ["suppress", "destroy", "break", "lower"],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "To dampen someone's spirits means to suppress or reduce the person's enthusiasm and happiness.",
+      ),
+      QuizQuestion(
+        question:
+            "350. By our constitution, it is obligatory to vote.        (BECE 2014 Q32)",
+        options: ["good", "necessary", "optional", "right"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation: "'Obligatory' means required, compulsory or necessary.",
+      ),
+      QuizQuestion(
+        question:
+            "351. It is not always good to believe all newspaper accounts.        (BECE 1990 Q34)",
+        options: ["cartoons", "headlines", "reports", "jokes"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "In this context, newspaper 'accounts' are reports of events or issues.",
+      ),
+      QuizQuestion(
+        question:
+            "352. The headmaster rebuked the students who came late.        (BECE 2008 Q22)",
+        options: ["admitted", "praised", "admired", "embraced"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "'Rebuked' means criticised or scolded. Its opposite is 'praised'.",
+      ),
+      QuizQuestion(
+        question:
+            "353. John's latest play is rather dull.        (BECE 2009 Q22)",
+        options: ["interesting", "informative", "sensible", "educative"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "'Dull' means boring or uninteresting. Its opposite is 'interesting'.",
+      ),
+      QuizQuestion(
+        question:
+            "354. With hard work we can overcome any problem.        (BECE 2007 Q12)",
+        options: ["get", "avoid", "stop", "solve"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "To overcome a problem means to successfully deal with or solve it.",
+      ),
+      QuizQuestion(
+        question:
+            "355. Our new pastor is very modest in his ways.        (BECE 1993 Q22)",
+        options: ["friendly", "kind", "boastful", "fashionable"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "'Modest' means humble and not boastful. Its opposite is 'boastful'.",
+      ),
+      QuizQuestion(
+        question:
+            "356. Esi was so good a leader that we were all encouraged to take a leaf out of her book. This means we were all encouraged to …        (BECE 2000 Q19)",
+        options: [
+          "try and beat her record.",
+          "take her advice.",
+          "follow her example.",
+          "treat her with respect."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To take a leaf out of someone's book means to imitate or follow that person's good example.",
+      ),
+      QuizQuestion(
+        question:
+            "357. The Headmaster's arrival in the classroom was sudden.        (BECE 2011 Q18)",
+        options: ["quick", "strange", "unexpected", "unusual"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A sudden arrival happens without warning and is therefore unexpected.",
+      ),
+      QuizQuestion(
+        question:
+            "358. The chief told his linguist not to beat about the bush. This means that the linguist must …        (BECE 2012 Q25)",
+        options: [
+          "not stammer.",
+          "go straight to the point.",
+          "not enter the bush.",
+          "cut down the bush."
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Not to beat about the bush means to speak directly and go straight to the main point.",
+      ),
+      QuizQuestion(
+        question:
+            "359. Since the thief came out of prison he has turned over a new leaf. This means he has …        (BECE 1992 Q18)",
+        options: [
+          "changed his style of stealing.",
+          "started growing flowers.",
+          "changed for the better.",
+          "grown even more stubborn."
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To turn over a new leaf means to change one's behaviour and begin behaving better.",
+      ),
+      QuizQuestion(
+        question:
+            "360. The woman entered the room to find her daughter with her eyes glued to the television. This means that her daughter was … the television.        (BECE 2010 Q23)",
+        options: ["smiling at", "dismantling", "intently watching", "cleaning"],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+            "To have one's eyes glued to something means to watch it very closely and attentively.",
+      ),
+      QuizQuestion(
+        question:
+            "361. All the tax rules have been cancelled.        (BECE 2021 Q17)",
+        options: ["mild", "valid", "previous", "weak"],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+            "Rules that have not been cancelled remain valid or legally effective.",
+      ),
+      QuizQuestion(
+        question:
+            "362. Cann worked hard to stock the shop.        (BECE 2017 Q29)",
+        options: ["decorate", "empty", "fill", "reinforce"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "To stock a shop means to fill it with goods for sale.",
       ),
     ],
   ),
@@ -41252,7 +42996,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
-  "English JHS3 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences": QuizModel(
+  "English JHS3 s3 ss3 - Synonyms, Antonyms, Idiomatic Expressions & Interpretation of Sentences":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -43669,23 +45414,20 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
               "The salt content of seawater helps limit spoilage and the growth of certain harmful organisms."),
       QuizQuestion(
           question: "66. The attribute Al-Khaliq means the\n(BECE 2017 Q2)",
-          options: [
-            "Great",
-            "Sovereign",
-            "Creator",
-            "Merciful"
-          ],
+          options: ["Great", "Sovereign", "Creator", "Merciful"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Al-Khaliq is an Arabic name of Allah meaning the Creator."
-      ),
+          explanation:
+              "Al-Khaliq is an Arabic name of Allah meaning the Creator."),
     ],
   ),
-  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance": QuizModel(
+  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. One of the religious values in celebrating traditional festivals is to\n(BECE 2000 Q18)",
+          question:
+              "1. One of the religious values in celebrating traditional festivals is to\n(BECE 2000 Q18)",
           options: [
             "Acknowledge the presence of the gods",
             "Bring the citizens together",
@@ -43694,37 +45436,27 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Traditional festivals have religious significance because they acknowledge the presence and influence of the gods and ancestors."
-      ),
-
+          explanation:
+              "Traditional festivals have religious significance because they acknowledge the presence and influence of the gods and ancestors."),
       QuizQuestion(
-          question: "2. Which of the following festivals is a harvest festival?\n(BECE 2005 Q39)",
-          options: [
-            "Adae",
-            "Hogbetsotso",
-            "Odwira",
-            "Aboakyer"
-          ],
+          question:
+              "2. Which of the following festivals is a harvest festival?\n(BECE 2005 Q39)",
+          options: ["Adae", "Hogbetsotso", "Odwira", "Aboakyer"],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Odwira is celebrated partly to give thanks for the harvest and to purify the community."
-      ),
-
+          explanation:
+              "Odwira is celebrated partly to give thanks for the harvest and to purify the community."),
       QuizQuestion(
-          question: "3. The festival celebrated by the people of Winneba is\n(BECE 2017 Q9)",
-          options: [
-            "Aboakyer",
-            "Bakatue",
-            "Durbar",
-            "Gmayem"
-          ],
+          question:
+              "3. The festival celebrated by the people of Winneba is\n(BECE 2017 Q9)",
+          options: ["Aboakyer", "Bakatue", "Durbar", "Gmayem"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The Effutu people of Winneba celebrate the Aboakyer festival."
-      ),
-
+          explanation:
+              "The Effutu people of Winneba celebrate the Aboakyer festival."),
       QuizQuestion(
-          question: "4. The main purpose of the Odwira festival is to\n(BECE 2006 Q5)",
+          question:
+              "4. The main purpose of the Odwira festival is to\n(BECE 2006 Q5)",
           options: [
             "Remember the dead",
             "Purify the state",
@@ -43733,11 +45465,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Odwira is primarily a purification festival celebrated to cleanse the state and its people."
-      ),
-
+          explanation:
+              "Odwira is primarily a purification festival celebrated to cleanse the state and its people."),
       QuizQuestion(
-          question: "5. The main reason for celebrating the Homowo festival is to\n(BECE 2012 Q10)",
+          question:
+              "5. The main reason for celebrating the Homowo festival is to\n(BECE 2012 Q10)",
           options: [
             "Look for twins",
             "Hoot at hunger",
@@ -43746,11 +45478,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Homowo means 'hooting at hunger' and commemorates the end of a severe famine among the Ga people."
-      ),
-
+          explanation:
+              "Homowo means 'hooting at hunger' and commemorates the end of a severe famine among the Ga people."),
       QuizQuestion(
-          question: "6. Eid-ul-Adha is celebrated by Muslims to\n(BECE 2016 Q11)",
+          question:
+              "6. Eid-ul-Adha is celebrated by Muslims to\n(BECE 2016 Q11)",
           options: [
             "Mark Abraham's willingness to sacrifice his son to Allah",
             "Remember the birth of Prophet Muhammad",
@@ -43759,37 +45491,27 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Eid-ul-Adha commemorates Prophet Ibrahim's willingness to sacrifice his son in obedience to Allah."
-      ),
-
+          explanation:
+              "Eid-ul-Adha commemorates Prophet Ibrahim's willingness to sacrifice his son in obedience to Allah."),
       QuizQuestion(
-          question: "7. The festival celebrated by Christians in memory of the resurrection of Jesus is called\n(BECE 2000 Q8)",
-          options: [
-            "Christmas",
-            "Palm Sunday",
-            "Good Friday",
-            "Easter"
-          ],
+          question:
+              "7. The festival celebrated by Christians in memory of the resurrection of Jesus is called\n(BECE 2000 Q8)",
+          options: ["Christmas", "Palm Sunday", "Good Friday", "Easter"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Easter commemorates the resurrection of Jesus Christ from the dead."
-      ),
-
+          explanation:
+              "Easter commemorates the resurrection of Jesus Christ from the dead."),
       QuizQuestion(
-          question: "8. Which of the following celebrations signifies the salvation of all Christians?\n(BECE 2017 Q10)",
-          options: [
-            "Christmas",
-            "Palm Sunday",
-            "Good Friday",
-            "Easter"
-          ],
+          question:
+              "8. Which of the following celebrations signifies the salvation of all Christians?\n(BECE 2017 Q10)",
+          options: ["Christmas", "Palm Sunday", "Good Friday", "Easter"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Easter celebrates Christ's resurrection, which represents victory over sin and death and the salvation of believers."
-      ),
-
+          explanation:
+              "Easter celebrates Christ's resurrection, which represents victory over sin and death and the salvation of believers."),
       QuizQuestion(
-          question: "9. The Damba festival is celebrated to mark the\n(BECE 2001 Q5)",
+          question:
+              "9. The Damba festival is celebrated to mark the\n(BECE 2001 Q5)",
           options: [
             "End of the agricultural year",
             "Migration of the ethnic group",
@@ -43798,11 +45520,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The Damba festival is traditionally associated with the birth of Prophet Muhammad."
-      ),
-
+          explanation:
+              "The Damba festival is traditionally associated with the birth of Prophet Muhammad."),
       QuizQuestion(
-          question: "10. One of the best advantages of celebrating festivals is to\n(BECE 2001 Q18)",
+          question:
+              "10. One of the best advantages of celebrating festivals is to\n(BECE 2001 Q18)",
           options: [
             "Come together to fight one's enemies",
             "Help organise funerals well",
@@ -43811,11 +45533,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Celebrating festivals helps preserve and transmit the customs and traditions of a community."
-      ),
-
+          explanation:
+              "Celebrating festivals helps preserve and transmit the customs and traditions of a community."),
       QuizQuestion(
-          question: "11. Eid-ul-Fitr celebration teaches Muslims to\n(BECE 1999 Q18)",
+          question:
+              "11. Eid-ul-Fitr celebration teaches Muslims to\n(BECE 1999 Q18)",
           options: [
             "Submit to Allah",
             "Give alms",
@@ -43824,63 +45546,41 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Eid-ul-Fitr encourages Muslims to thank Allah and appreciate His mercy after completing the Ramadan fast."
-      ),
-
+          explanation:
+              "Eid-ul-Fitr encourages Muslims to thank Allah and appreciate His mercy after completing the Ramadan fast."),
       QuizQuestion(
           question: "12. The Muslim festival of sacrifice is\n(BECE 2001 Q5)",
-          options: [
-            "Eid-ul-Fitr",
-            "Milad-un-Nabi",
-            "Ramadan",
-            "Eid-ul-Adha"
-          ],
+          options: ["Eid-ul-Fitr", "Milad-un-Nabi", "Ramadan", "Eid-ul-Adha"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Eid-ul-Adha is known as the Festival of Sacrifice."
-      ),
-
+          explanation: "Eid-ul-Adha is known as the Festival of Sacrifice."),
       QuizQuestion(
-          question: "13. The Denkyira Asafo Company is associated with the festival of\n(BECE 2001 Q17)",
-          options: [
-            "Homowo",
-            "Aboakyer",
-            "Odwira",
-            "Akwambo"
-          ],
+          question:
+              "13. The Denkyira Asafo Company is associated with the festival of\n(BECE 2001 Q17)",
+          options: ["Homowo", "Aboakyer", "Odwira", "Akwambo"],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "The Denkyira Asafo Company takes part in the Aboakyer festival celebrated by the Effutu people of Winneba."
-      ),
-
+          explanation:
+              "The Denkyira Asafo Company takes part in the Aboakyer festival celebrated by the Effutu people of Winneba."),
       QuizQuestion(
-          question: "14. Which of the following festivals helps to develop the strength and vitality of the youth?\n(BECE 2001 Q17)",
-          options: [
-            "Hogbetsotso",
-            "Odwira",
-            "Damba",
-            "Aboakyer"
-          ],
+          question:
+              "14. Which of the following festivals helps to develop the strength and vitality of the youth?\n(BECE 2001 Q17)",
+          options: ["Hogbetsotso", "Odwira", "Damba", "Aboakyer"],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "The deer-hunting activities of Aboakyer test and develop the strength, courage and vitality of the youth."
-      ),
-
+          explanation:
+              "The deer-hunting activities of Aboakyer test and develop the strength, courage and vitality of the youth."),
       QuizQuestion(
-          question: "15. Which of the following traditional festivals is used for cleansing and purification of the people?\n(BECE 2009 Q9)",
-          options: [
-            "Adae Kese",
-            "Akwambo",
-            "Kundum",
-            "Odwira"
-          ],
+          question:
+              "15. Which of the following traditional festivals is used for cleansing and purification of the people?\n(BECE 2009 Q9)",
+          options: ["Adae Kese", "Akwambo", "Kundum", "Odwira"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Odwira is a purification festival used to cleanse the people and the traditional state."
-      ),
-
+          explanation:
+              "Odwira is a purification festival used to cleanse the people and the traditional state."),
       QuizQuestion(
-          question: "16. The Hogbetsotso festival is celebrated to mark the\n(BECE 2011 Q9)",
+          question:
+              "16. The Hogbetsotso festival is celebrated to mark the\n(BECE 2011 Q9)",
           options: [
             "Death of King Agorkorli",
             "End of the farming season",
@@ -43889,11 +45589,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Hogbetsotso commemorates the migration and escape of the Anlo-Ewe people from Notsie."
-      ),
-
+          explanation:
+              "Hogbetsotso commemorates the migration and escape of the Anlo-Ewe people from Notsie."),
       QuizQuestion(
-          question: "17. An important religious value of traditional festivals is to\n(BECE 2011 Q13)",
+          question:
+              "17. An important religious value of traditional festivals is to\n(BECE 2011 Q13)",
           options: [
             "Acknowledge the presence of the ancestors",
             "Settle disputes among families",
@@ -43902,24 +45602,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Traditional festivals provide an opportunity to honour and acknowledge the presence of the ancestors."
-      ),
-
+          explanation:
+              "Traditional festivals provide an opportunity to honour and acknowledge the presence of the ancestors."),
       QuizQuestion(
-          question: "18. The 11th day of Zul-Hijjah, which is the month of pilgrimage on the Islamic calendar. During this period,Muslims the world over, which are financially sound are expected to make sacrifice of sheep to Allah.\n(BECE 2013 Q12)",
-          options: [
-            "Adae",
-            "Hogbetsotso",
-            "Odwira",
-            "Eid-ul-Adha"
-          ],
+          question:
+              "18. The 11th day of Zul-Hijjah, which is the month of pilgrimage on the Islamic calendar. During this period,Muslims the world over, which are financially sound are expected to make sacrifice of sheep to Allah.\n(BECE 2013 Q12)",
+          options: ["Adae", "Hogbetsotso", "Odwira", "Eid-ul-Adha"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Eid-ul-Adha is celebrated during Zul-Hijjah and involves the sacrifice of an animal by Muslims who can afford it."
-      ),
-
+          explanation:
+              "Eid-ul-Adha is celebrated during Zul-Hijjah and involves the sacrifice of an animal by Muslims who can afford it."),
       QuizQuestion(
-          question: "19. The most important rite in an Islamic marriage is the\n(BECE 2001 Q34)",
+          question:
+              "19. The most important rite in an Islamic marriage is the\n(BECE 2001 Q34)",
           options: [
             "Presentation of household utensils to the bride",
             "Delivery of a wedding sermon during the feast",
@@ -43928,9 +45623,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The payment of the mahr, or dowry, is an essential requirement of a valid Islamic marriage."
-      ),
-
+          explanation:
+              "The payment of the mahr, or dowry, is an essential requirement of a valid Islamic marriage."),
       QuizQuestion(
           question: "20. A naming ceremony gives the new baby\n(BECE 2002 Q10)",
           options: [
@@ -43941,11 +45635,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "A naming ceremony formally identifies and introduces the child to the family and community."
-      ),
-
+          explanation:
+              "A naming ceremony formally identifies and introduces the child to the family and community."),
       QuizQuestion(
-          question: "21. The importance of performing funeral rites is that it\n(BECE 2002A Q15)",
+          question:
+              "21. The importance of performing funeral rites is that it\n(BECE 2002A Q15)",
           options: [
             "Helps the dead to join the ancestors",
             "Avoids more deaths in the family",
@@ -43954,11 +45648,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "In traditional belief, properly performed funeral rites help the deceased enter the ancestral world."
-      ),
-
+          explanation:
+              "In traditional belief, properly performed funeral rites help the deceased enter the ancestral world."),
       QuizQuestion(
-          question: "22. In traditional society, people with traditional authority perform the naming ceremony because it is believed that\n(BECE 2002B Q8)",
+          question:
+              "22. In traditional society, people with traditional authority perform the naming ceremony because it is believed that\n(BECE 2002B Q8)",
           options: [
             "They will get a lot of money from the family",
             "The child will follow in their footsteps",
@@ -43967,11 +45661,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Traditional authorities are responsible for formally naming and welcoming the child into the community."
-      ),
-
+          explanation:
+              "Traditional authorities are responsible for formally naming and welcoming the child into the community."),
       QuizQuestion(
-          question: "23. Gifts given to girls during puberty rites enable them to\n(BECE 2002B Q23)",
+          question:
+              "23. Gifts given to girls during puberty rites enable them to\n(BECE 2002B Q23)",
           options: [
             "Buy their clothing",
             "Cook a meal for their husbands",
@@ -43980,11 +45674,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Puberty-rite gifts often include household and cooking utensils to prepare girls for adult and family responsibilities."
-      ),
-
+          explanation:
+              "Puberty-rite gifts often include household and cooking utensils to prepare girls for adult and family responsibilities."),
       QuizQuestion(
-          question: "24. In traditional society, rites of passage involve a\n(BECE 2003 Q7)",
+          question:
+              "24. In traditional society, rites of passage involve a\n(BECE 2003 Q7)",
           options: [
             "Transition from death to becoming an ancestor",
             "Life-cycle movement from one stage to another",
@@ -43993,24 +45687,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Rites of passage mark important transitions from one stage of life to another."
-      ),
-
+          explanation:
+              "Rites of passage mark important transitions from one stage of life to another."),
       QuizQuestion(
-          question: "25. By creating Adam and Eve, God was establishing the institution of\n(BECE 2003 Q11)",
-          options: [
-            "Comportment",
-            "Brotherliness",
-            "Friendship",
-            "Marriage"
-          ],
+          question:
+              "25. By creating Adam and Eve, God was establishing the institution of\n(BECE 2003 Q11)",
+          options: ["Comportment", "Brotherliness", "Friendship", "Marriage"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The creation and union of Adam and Eve established the institution of marriage."
-      ),
-
+          explanation:
+              "The creation and union of Adam and Eve established the institution of marriage."),
       QuizQuestion(
-          question: "26. The cutlass given to a boy during puberty rites signifies\n(BECE 2003 Q32)",
+          question:
+              "26. The cutlass given to a boy during puberty rites signifies\n(BECE 2003 Q32)",
           options: [
             "Acceptance into the military sector",
             "Bravery and courage",
@@ -44019,24 +45708,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "The cutlass represents the young person's responsibility to work and provide for himself and his future family."
-      ),
-
+          explanation:
+              "The cutlass represents the young person's responsibility to work and provide for himself and his future family."),
       QuizQuestion(
-          question: "27. During naming ceremonies, the baby is given drops of water and wine to signify that he or she should be\n(BECE 2004 Q15)",
-          options: [
-            "Truthful",
-            "Patient",
-            "Brave",
-            "Obedient"
-          ],
+          question:
+              "27. During naming ceremonies, the baby is given drops of water and wine to signify that he or she should be\n(BECE 2004 Q15)",
+          options: ["Truthful", "Patient", "Brave", "Obedient"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Water and wine are used to teach the child to distinguish truth from falsehood and always speak the truth."
-      ),
-
+          explanation:
+              "Water and wine are used to teach the child to distinguish truth from falsehood and always speak the truth."),
       QuizQuestion(
-          question: "28. An Akan girl qualifies for puberty rites when\n(BECE 2004 Q27)",
+          question:
+              "28. An Akan girl qualifies for puberty rites when\n(BECE 2004 Q27)",
           options: [
             "She is between fifteen and seventeen years old",
             "She first experiences menstruation",
@@ -44045,11 +45729,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Among the Akan, a girl's first menstruation indicates that she has reached puberty and qualifies for puberty rites."
-      ),
-
+          explanation:
+              "Among the Akan, a girl's first menstruation indicates that she has reached puberty and qualifies for puberty rites."),
       QuizQuestion(
-          question: "29. The most important prayer request during marriage rites is for\n(BECE 2004 Q30)",
+          question:
+              "29. The most important prayer request during marriage rites is for\n(BECE 2004 Q30)",
           options: [
             "Prosperity and wealth",
             "Protection and long life",
@@ -44058,24 +45742,20 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Prayers during marriage rites commonly ask for long life and children for the couple."
-      ),
-
+          explanation:
+              "Prayers during marriage rites commonly ask for long life and children for the couple."),
       QuizQuestion(
-          question: "30. The transition between childhood and adulthood is termed\n(BECE 2005 Q20)",
-          options: [
-            "Outdooring",
-            "Adolescence",
-            "Puberty",
-            "Confirmation"
-          ],
+          question:
+              "30. The transition between childhood and adulthood is termed\n(BECE 2005 Q20)",
+          options: ["Outdooring", "Adolescence", "Puberty", "Confirmation"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Adolescence is the transitional period between childhood and adulthood."
-      ),
+          explanation:
+              "Adolescence is the transitional period between childhood and adulthood."),
     ],
   ),
-  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience": QuizModel(
+  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -44088,11 +45768,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "One of the main responsibilities of a father is to provide shelter and other basic needs for the family."
-      ),
-
+          explanation:
+              "One of the main responsibilities of a father is to provide shelter and other basic needs for the family."),
       QuizQuestion(
-          question: "2. Social conflicts can best be resolved by\n(BECE 2012 Q36)",
+          question:
+              "2. Social conflicts can best be resolved by\n(BECE 2012 Q36)",
           options: [
             "Obeying the scriptures",
             "Being principled and humble",
@@ -44101,24 +45781,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Tolerance and forgiveness help people settle disagreements peacefully and restore good relationships."
-      ),
-
+          explanation:
+              "Tolerance and forgiveness help people settle disagreements peacefully and restore good relationships."),
       QuizQuestion(
-          question: "3. The payment of school fees and other bills is mainly the responsibility of the\n(BECE 2000 Q21)",
-          options: [
-            "Grandfather",
-            "Mother",
-            "Uncle",
-            "Father"
-          ],
+          question:
+              "3. The payment of school fees and other bills is mainly the responsibility of the\n(BECE 2000 Q21)",
+          options: ["Grandfather", "Mother", "Uncle", "Father"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Traditionally, the father is mainly responsible for providing the financial needs of the family."
-      ),
-
+          explanation:
+              "Traditionally, the father is mainly responsible for providing the financial needs of the family."),
       QuizQuestion(
-          question: "4. The best way to live in peace in a community is to\n(BECE 2000 Q33)",
+          question:
+              "4. The best way to live in peace in a community is to\n(BECE 2000 Q33)",
           options: [
             "Understand and cooperate with others",
             "Disagree with your enemies",
@@ -44127,24 +45802,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Understanding and cooperating with others promote peaceful and harmonious community life."
-      ),
-
+          explanation:
+              "Understanding and cooperating with others promote peaceful and harmonious community life."),
       QuizQuestion(
-          question: "5. A child who refuses to play with bad friends is said to be\n(BECE 2017 Q34)",
-          options: [
-            "Faithful",
-            "Obedient",
-            "Polite",
-            "Sincere"
-          ],
+          question:
+              "5. A child who refuses to play with bad friends is said to be\n(BECE 2017 Q34)",
+          options: ["Faithful", "Obedient", "Polite", "Sincere"],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Avoiding bad company shows obedience to good moral instruction from parents and other responsible adults."
-      ),
-
+          explanation:
+              "Avoiding bad company shows obedience to good moral instruction from parents and other responsible adults."),
       QuizQuestion(
-          question: "6. Which of the following is an advantage of the extended family?\n(BECE 2017 Q24)",
+          question:
+              "6. Which of the following is an advantage of the extended family?\n(BECE 2017 Q24)",
           options: [
             "Members have privacy",
             "It provides security for its members",
@@ -44153,11 +45823,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The extended family provides support, care and security for its members."
-      ),
-
+          explanation:
+              "The extended family provides support, care and security for its members."),
       QuizQuestion(
-          question: "7. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
+          question:
+              "7. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
           options: [
             "The uncle inherits the father's property",
             "The children are cared for by members of the family",
@@ -44166,24 +45836,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Members of the extended family share responsibility for caring for children."
-      ),
-
+          explanation:
+              "Members of the extended family share responsibility for caring for children."),
       QuizQuestion(
-          question: "8. The maintenance of law and order in the nuclear family is the responsibility of\n(BECE 2017 Q30)",
-          options: [
-            "Parents",
-            "Grandparents",
-            "Children",
-            "A diviner"
-          ],
+          question:
+              "8. The maintenance of law and order in the nuclear family is the responsibility of\n(BECE 2017 Q30)",
+          options: ["Parents", "Grandparents", "Children", "A diviner"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Parents establish and enforce rules that maintain order and discipline in the nuclear family."
-      ),
-
+          explanation:
+              "Parents establish and enforce rules that maintain order and discipline in the nuclear family."),
       QuizQuestion(
-          question: "9. One can promote good relationships and peaceful living by being\n(BECE 2001 Q6)",
+          question:
+              "9. One can promote good relationships and peaceful living by being\n(BECE 2001 Q6)",
           options: [
             "Violent and respectful",
             "Respectful and obedient",
@@ -44192,37 +45857,27 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Respect and obedience promote cooperation, harmony and peaceful relationships."
-      ),
-
+          explanation:
+              "Respect and obedience promote cooperation, harmony and peaceful relationships."),
       QuizQuestion(
-          question: "10. In order to live in harmony with family members, we must be\n(BECE 2012 Q37)",
-          options: [
-            "Brave",
-            "Courageous",
-            "Dutiful",
-            "Faithful"
-          ],
+          question:
+              "10. In order to live in harmony with family members, we must be\n(BECE 2012 Q37)",
+          options: ["Brave", "Courageous", "Dutiful", "Faithful"],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Being dutiful means carrying out one's responsibilities, which helps the family live in harmony."
-      ),
-
+          explanation:
+              "Being dutiful means carrying out one's responsibilities, which helps the family live in harmony."),
       QuizQuestion(
-          question: "11. A child who apologizes for committing an offence is said to be\n(BECE 2011 Q28)",
-          options: [
-            "Knowledgeable",
-            "Intelligent",
-            "Law-abiding",
-            "Obedient"
-          ],
+          question:
+              "11. A child who apologizes for committing an offence is said to be\n(BECE 2011 Q28)",
+          options: ["Knowledgeable", "Intelligent", "Law-abiding", "Obedient"],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Apologizing after wrongdoing shows obedience, humility and willingness to correct one's behaviour."
-      ),
-
+          explanation:
+              "Apologizing after wrongdoing shows obedience, humility and willingness to correct one's behaviour."),
       QuizQuestion(
-          question: "12. Conflicts in our society can best be resolved by\n(BECE 2000 Q34)",
+          question:
+              "12. Conflicts in our society can best be resolved by\n(BECE 2000 Q34)",
           options: [
             "Being obedient to truants",
             "Obeying the scriptures",
@@ -44231,11 +45886,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Tolerance and forgiveness are important values for resolving conflicts peacefully."
-      ),
-
+          explanation:
+              "Tolerance and forgiveness are important values for resolving conflicts peacefully."),
       QuizQuestion(
-          question: "13. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
+          question:
+              "13. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
           options: [
             "That children attend school regularly",
             "Good behaviour",
@@ -44244,11 +45899,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "School rules guide pupils toward good behaviour and discipline."
-      ),
-
+          explanation:
+              "School rules guide pupils toward good behaviour and discipline."),
       QuizQuestion(
-          question: "14. Children who are obedient and live a good life are\n(BECE 2011 Q31)",
+          question:
+              "14. Children who are obedient and live a good life are\n(BECE 2011 Q31)",
           options: [
             "A joy to society",
             "Praised by all people",
@@ -44257,9 +45912,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Obedient and morally upright children contribute positively to society."
-      ),
-
+          explanation:
+              "Obedient and morally upright children contribute positively to society."),
       QuizQuestion(
           question: "15. School rules are obeyed in order to\n(BECE 2008 Q28)",
           options: [
@@ -44270,24 +45924,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Obeying school rules promotes discipline, order and peace within the school."
-      ),
-
+          explanation:
+              "Obeying school rules promotes discipline, order and peace within the school."),
       QuizQuestion(
-          question: "16. Which of the following does not promote progress in a society?\n(BECE 2001 Q21)",
-          options: [
-            "Conflicts",
-            "Reconciliation",
-            "Respect",
-            "Tolerance"
-          ],
+          question:
+              "16. Which of the following does not promote progress in a society?\n(BECE 2001 Q21)",
+          options: ["Conflicts", "Reconciliation", "Respect", "Tolerance"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Conflict disrupts unity and development, while reconciliation, respect and tolerance promote progress."
-      ),
-
+          explanation:
+              "Conflict disrupts unity and development, while reconciliation, respect and tolerance promote progress."),
       QuizQuestion(
-          question: "17. The purpose of school rules and regulations is to\n(BECE 2003 Q21)",
+          question:
+              "17. The purpose of school rules and regulations is to\n(BECE 2003 Q21)",
           options: [
             "Get pupils punished",
             "Encourage people to become good citizens",
@@ -44296,11 +45945,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "School rules create an orderly and disciplined environment that supports teaching and learning."
-      ),
-
+          explanation:
+              "School rules create an orderly and disciplined environment that supports teaching and learning."),
       QuizQuestion(
-          question: "18. The nuclear family system consists of\n(BECE 2003 Q23)",
+          question:
+              "18. The nuclear family system consists of\n(BECE 2003 Q23)",
           options: [
             "Parents and grandchildren",
             "Children and parents",
@@ -44309,11 +45958,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "A nuclear family consists mainly of parents and their children."
-      ),
-
+          explanation:
+              "A nuclear family consists mainly of parents and their children."),
       QuizQuestion(
-          question: "19. To live a life of obedience means being\n(BECE 2004 Q21)",
+          question:
+              "19. To live a life of obedience means being\n(BECE 2004 Q21)",
           options: [
             "Gentle, loving and generous",
             "Respectful to parents",
@@ -44322,11 +45971,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Obedience includes respecting and following the lawful instructions of parents."
-      ),
-
+          explanation:
+              "Obedience includes respecting and following the lawful instructions of parents."),
       QuizQuestion(
-          question: "20. Which of the following is not true about the nuclear family?\n(BECE 2018 Q30)",
+          question:
+              "20. Which of the following is not true about the nuclear family?\n(BECE 2018 Q30)",
           options: [
             "Parents, children and grandparents are members",
             "Parents and children are members",
@@ -44335,24 +45984,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Cousins belong to the extended family rather than the nuclear family."
-      ),
-
+          explanation:
+              "Cousins belong to the extended family rather than the nuclear family."),
       QuizQuestion(
-          question: "21. Running errands for those in authority portrays the child as\n(BECE 2017 Q34)",
-          options: [
-            "Honest",
-            "Humble",
-            "Obedient",
-            "Sincere"
-          ],
+          question:
+              "21. Running errands for those in authority portrays the child as\n(BECE 2017 Q34)",
+          options: ["Honest", "Humble", "Obedient", "Sincere"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Carrying out lawful instructions and errands shows obedience."
-      ),
-
+          explanation:
+              "Carrying out lawful instructions and errands shows obedience."),
       QuizQuestion(
-          question: "22. A father shows commitment to the family by\n(BECE 2011 Q28)",
+          question:
+              "22. A father shows commitment to the family by\n(BECE 2011 Q28)",
           options: [
             "Being punctual at work and helping others",
             "Travelling with his wife outside the country",
@@ -44361,24 +46005,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "A committed father cares for all family dependants with patience, fairness and tolerance."
-      ),
-
+          explanation:
+              "A committed father cares for all family dependants with patience, fairness and tolerance."),
       QuizQuestion(
-          question: "23. Carrying out instructions given by the elderly shows that one is\n(BECE 2012 Q36)",
-          options: [
-            "Obedient",
-            "Sincere",
-            "Strong",
-            "Truthful"
-          ],
+          question:
+              "23. Carrying out instructions given by the elderly shows that one is\n(BECE 2012 Q36)",
+          options: ["Obedient", "Sincere", "Strong", "Truthful"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Following lawful instructions from the elderly is a sign of obedience."
-      ),
-
+          explanation:
+              "Following lawful instructions from the elderly is a sign of obedience."),
       QuizQuestion(
-          question: "24. A family made up of a father, mother and grandparents is described as an\n(BECE 2016 Q21)",
+          question:
+              "24. A family made up of a father, mother and grandparents is described as an\n(BECE 2016 Q21)",
           options: [
             "Extended family",
             "Monogamous family",
@@ -44387,11 +46026,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The inclusion of grandparents makes it an extended family."
-      ),
-
+          explanation:
+              "The inclusion of grandparents makes it an extended family."),
       QuizQuestion(
-          question: "25. A home where members learn their religion through oral sources is known as a\n(BECE 2018 Q29)",
+          question:
+              "25. A home where members learn their religion through oral sources is known as a\n(BECE 2018 Q29)",
           options: [
             "Christian home",
             "Islamic home",
@@ -44400,11 +46039,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Traditional religion is mainly transmitted orally through stories, songs, proverbs and customs."
-      ),
-
+          explanation:
+              "Traditional religion is mainly transmitted orally through stories, songs, proverbs and customs."),
       QuizQuestion(
-          question: "26. One of a child's responsibilities in the home is to\n(BECE 1999 Q30)",
+          question:
+              "26. One of a child's responsibilities in the home is to\n(BECE 1999 Q30)",
           options: [
             "Sweep the compound",
             "Provide his or her clothing",
@@ -44413,11 +46052,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Children can contribute to household cleanliness by sweeping the compound."
-      ),
-
+          explanation:
+              "Children can contribute to household cleanliness by sweeping the compound."),
       QuizQuestion(
-          question: "27. Human rights include all the following except\n(BECE 2000 Q27)",
+          question:
+              "27. Human rights include all the following except\n(BECE 2000 Q27)",
           options: [
             "The right to life",
             "Freedom of association",
@@ -44426,11 +46065,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Administering instant justice is not a human right and may violate lawful procedures."
-      ),
-
+          explanation:
+              "Administering instant justice is not a human right and may violate lawful procedures."),
       QuizQuestion(
-          question: "28. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
+          question:
+              "28. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
           options: [
             "Work harder for it",
             "Become democratic",
@@ -44439,11 +46078,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "Love for the community encourages people to work hard for its progress and development."
-      ),
-
+          explanation:
+              "Love for the community encourages people to work hard for its progress and development."),
       QuizQuestion(
-          question: "29. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
+          question:
+              "29. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
           options: [
             "National Commission on Children",
             "National Council for Women and Development",
@@ -44452,11 +46091,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The Commission on Human Rights and Administrative Justice handles human-rights and administrative-justice matters in Ghana."
-      ),
-
+          explanation:
+              "The Commission on Human Rights and Administrative Justice handles human-rights and administrative-justice matters in Ghana."),
       QuizQuestion(
-          question: "30. Which of the following does not constitute a moral responsibility of a child?\n(BECE 2001 Q38)",
+          question:
+              "30. Which of the following does not constitute a moral responsibility of a child?\n(BECE 2001 Q38)",
           options: [
             "Sweeping the classroom",
             "Working on his or her plot",
@@ -44465,11 +46104,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Paying school fees is mainly the responsibility of parents or guardians."
-      ),
-
+          explanation:
+              "Paying school fees is mainly the responsibility of parents or guardians."),
       QuizQuestion(
-          question: "31. What contribution can a child make when a community school is being built?\n(BECE 2001 Q39)",
+          question:
+              "31. What contribution can a child make when a community school is being built?\n(BECE 2001 Q39)",
           options: [
             "Roofing the building",
             "Fetching water and sand",
@@ -44478,9 +46117,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Fetching water and sand is a safe and practical way a child can support a community building project."
-      ),
-
+          explanation:
+              "Fetching water and sand is a safe and practical way a child can support a community building project."),
       QuizQuestion(
           question: "32. A patriotic citizen is a person who\n(BECE 2005 Q40)",
           options: [
@@ -44491,11 +46129,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Patriotism involves loyalty to and willingness to defend one's country."
-      ),
-
+          explanation:
+              "Patriotism involves loyalty to and willingness to defend one's country."),
       QuizQuestion(
-          question: "33. As a child, your duties include all these except\n(BECE 2006 Q34)",
+          question:
+              "33. As a child, your duties include all these except\n(BECE 2006 Q34)",
           options: [
             "Fetching water",
             "Weeding the compound",
@@ -44504,9 +46142,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Paying school fees is normally the responsibility of parents or guardians."
-      ),
-
+          explanation:
+              "Paying school fees is normally the responsibility of parents or guardians."),
       QuizQuestion(
           question: "34. One who loves his or her country\n(BECE 2007 Q31)",
           options: [
@@ -44517,11 +46154,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "A patriotic person demonstrates love and loyalty by defending and supporting the nation."
-      ),
-
+          explanation:
+              "A patriotic person demonstrates love and loyalty by defending and supporting the nation."),
       QuizQuestion(
-          question: "35. The best way to live in peace in a community is to\n(BECE 2012 Q31)",
+          question:
+              "35. The best way to live in peace in a community is to\n(BECE 2012 Q31)",
           options: [
             "Sit on the fence",
             "Keep to oneself always",
@@ -44530,11 +46167,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Understanding and cooperation help prevent conflict and promote peaceful coexistence."
-      ),
-
+          explanation:
+              "Understanding and cooperation help prevent conflict and promote peaceful coexistence."),
       QuizQuestion(
-          question: "36. Youth camps are organized purposely for the youth to\n(BECE 1999 Q27)",
+          question:
+              "36. Youth camps are organized purposely for the youth to\n(BECE 1999 Q27)",
           options: [
             "Fend for themselves",
             "Find their parents",
@@ -44543,11 +46180,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Youth camps help young people interact, cooperate and develop social skills."
-      ),
-
+          explanation:
+              "Youth camps help young people interact, cooperate and develop social skills."),
       QuizQuestion(
-          question: "37. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
+          question:
+              "37. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
           options: [
             "Serving God and the nation",
             "Leading a disciplined life",
@@ -44556,11 +46193,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Religious youth organizations promote discipline and peaceful conduct, not violence."
-      ),
-
+          explanation:
+              "Religious youth organizations promote discipline and peaceful conduct, not violence."),
       QuizQuestion(
-          question: "38. One important aim of a youth organization is to\n(BECE 2000 Q29)",
+          question:
+              "38. One important aim of a youth organization is to\n(BECE 2000 Q29)",
           options: [
             "Bring unity among the youth",
             "Learn dancing and merry-making",
@@ -44569,11 +46206,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Youth organizations promote unity, cooperation and fellowship among young people."
-      ),
-
+          explanation:
+              "Youth organizations promote unity, cooperation and fellowship among young people."),
       QuizQuestion(
-          question: "39. One good reason for the establishment of the Catholic Youth Organization is to\n(BECE 2005 Q15)",
+          question:
+              "39. One good reason for the establishment of the Catholic Youth Organization is to\n(BECE 2005 Q15)",
           options: [
             "Serve as soldiers to defend the church",
             "Foster unity among priests",
@@ -44582,11 +46219,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "The Catholic Youth Organization helps young Catholics learn the teachings, values and traditions of the Church."
-      ),
-
+          explanation:
+              "The Catholic Youth Organization helps young Catholics learn the teachings, values and traditions of the Church."),
       QuizQuestion(
-          question: "40. The spirit of patriotism is shown best by the youth of the\n(BECE 2009 Q32)",
+          question:
+              "40. The spirit of patriotism is shown best by the youth of the\n(BECE 2009 Q32)",
           options: [
             "Young People's Guild",
             "Catholic Youth Organization",
@@ -44595,15 +46232,17 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Asafo companies traditionally defend and serve their communities, demonstrating courage and patriotism."
-      ),
+          explanation:
+              "Asafo companies traditionally defend and serve their communities, demonstrating courage and patriotism."),
     ],
   ),
-  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": QuizModel(
+  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. Prophet Mohammed’s twelfth birthday is important because\n(BECE 2000 Q15)",
+          question:
+              "1. Prophet Mohammed’s twelfth birthday is important because\n(BECE 2000 Q15)",
           options: [
             "There was a prophecy about his future.",
             "Halimah returned him to his parents.",
@@ -44612,11 +46251,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Abdul Mutalib, Prophet Mohammed's grandfather, died when Mohammed was twelve years old."
-      ),
-
+          explanation:
+              "Abdul Mutalib, Prophet Mohammed's grandfather, died when Mohammed was twelve years old."),
       QuizQuestion(
-          question: "2. The traditional healer does not normally charge high fees because\n(BECE 1999 Q40)",
+          question:
+              "2. The traditional healer does not normally charge high fees because\n(BECE 1999 Q40)",
           options: [
             "They are in the subsistence economy.",
             "They use cowries for diagnosis.",
@@ -44625,35 +46264,23 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Traditional healers mainly use locally available herbs and plants, making treatment inexpensive."
-      ),
-
+          explanation:
+              "Traditional healers mainly use locally available herbs and plants, making treatment inexpensive."),
       QuizQuestion(
-          question: "3. Which of the following is not a patriarch?\n(BECE 2000 Q12)",
-          options: [
-            "Abraham",
-            "Isaac",
-            "Jacob",
-            "Noah"
-          ],
+          question:
+              "3. Which of the following is not a patriarch?\n(BECE 2000 Q12)",
+          options: ["Abraham", "Isaac", "Jacob", "Noah"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The biblical patriarchs are Abraham, Isaac and Jacob."
-      ),
-
+          explanation: "The biblical patriarchs are Abraham, Isaac and Jacob."),
       QuizQuestion(
-          question: "4. From the age of eight, Mohammed was brought up by\n(BECE 2001 Q2)",
-          options: [
-            "Halimah.",
-            "Abdul Mutalib.",
-            "Khadijah.",
-            "Abu Talib."
-          ],
+          question:
+              "4. From the age of eight, Mohammed was brought up by\n(BECE 2001 Q2)",
+          options: ["Halimah.", "Abdul Mutalib.", "Khadijah.", "Abu Talib."],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "After the death of Abdul Mutalib, Prophet Mohammed was cared for by his uncle Abu Talib."
-      ),
-
+          explanation:
+              "After the death of Abdul Mutalib, Prophet Mohammed was cared for by his uncle Abu Talib."),
       QuizQuestion(
           question: "5. A Muslim is a person who\n(BECE 2001 Q12)",
           options: [
@@ -44664,24 +46291,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "A Muslim is one who submits to Allah and lives in peace with God and fellow human beings."
-      ),
-
+          explanation:
+              "A Muslim is one who submits to Allah and lives in peace with God and fellow human beings."),
       QuizQuestion(
           question: "6. The second Caliph was\n(BECE 2003 Q4)",
-          options: [
-            "Umar.",
-            "Abu Bakr.",
-            "Ali.",
-            "Uthman."
-          ],
+          options: ["Umar.", "Abu Bakr.", "Ali.", "Uthman."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Umar ibn Al-Khattab was the second rightly guided Caliph."
-      ),
-
+          explanation:
+              "Umar ibn Al-Khattab was the second rightly guided Caliph."),
       QuizQuestion(
-          question: "7. The title Al-Faruq given to Umar by the Holy Prophet Mohammed means\n(BECE 2002B Q7)",
+          question:
+              "7. The title Al-Faruq given to Umar by the Holy Prophet Mohammed means\n(BECE 2002B Q7)",
           options: [
             "A strong believer in the principles and teaching of Islam.",
             "Lover of Islam.",
@@ -44690,11 +46311,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Al-Faruq means one who distinguishes between truth and falsehood."
-      ),
-
+          explanation:
+              "Al-Faruq means one who distinguishes between truth and falsehood."),
       QuizQuestion(
-          question: "8. Blessed are the merciful for they shall\n(BECE 1999 Q17)",
+          question:
+              "8. Blessed are the merciful for they shall\n(BECE 1999 Q17)",
           options: [
             "See God.",
             "Obtain mercy.",
@@ -44703,48 +46324,29 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "According to the Beatitudes, the merciful shall obtain mercy."
-      ),
-
+          explanation:
+              "According to the Beatitudes, the merciful shall obtain mercy."),
       QuizQuestion(
           question: "9. The blind man Jesus healed was called\n(BECE 2000 Q17)",
-          options: [
-            "Bartholomew.",
-            "Barabbas.",
-            "Bartimaeus.",
-            "Nicodemus."
-          ],
+          options: ["Bartholomew.", "Barabbas.", "Bartimaeus.", "Nicodemus."],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Jesus healed blind Bartimaeus near Jericho."
-      ),
-
+          explanation: "Jesus healed blind Bartimaeus near Jericho."),
       QuizQuestion(
-          question: "10. Jesus Christ began his ministry at the age of\n(BECE 2001 Q2)",
-          options: [
-            "12",
-            "25",
-            "30",
-            "33"
-          ],
+          question:
+              "10. Jesus Christ began his ministry at the age of\n(BECE 2001 Q2)",
+          options: ["12", "25", "30", "33"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Jesus began His public ministry when He was about thirty years old."
-      ),
-
+          explanation:
+              "Jesus began His public ministry when He was about thirty years old."),
       QuizQuestion(
-          question: "11. The sermon on the Mount was delivered by\n(BECE 2002B Q6)",
-          options: [
-            "Jesus.",
-            "Moses.",
-            "Joshua.",
-            "Paul."
-          ],
+          question:
+              "11. The sermon on the Mount was delivered by\n(BECE 2002B Q6)",
+          options: ["Jesus.", "Moses.", "Joshua.", "Paul."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Jesus delivered the famous Sermon on the Mount."
-      ),
-
+          explanation: "Jesus delivered the famous Sermon on the Mount."),
       QuizQuestion(
           question: "12. On which day did Jesus resurrect?\n(BECE 2002B Q5)",
           options: [
@@ -44755,9 +46357,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Jesus rose from the dead on Easter Sunday."
-      ),
-
+          explanation: "Jesus rose from the dead on Easter Sunday."),
       QuizQuestion(
           question: "13. ... can be found in the book of\n(BECE 2002A Q19)",
           options: [
@@ -44768,11 +46368,10 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Answer based on the provided BECE source."
-      ),
-
+          explanation: "Answer based on the provided BECE source."),
       QuizQuestion(
-          question: "14. In Islam if one is pious it means he\n(BECE 2002B Q13)",
+          question:
+              "14. In Islam if one is pious it means he\n(BECE 2002B Q13)",
           options: [
             "Sees God.",
             "Reads about God.",
@@ -44781,37 +46380,25 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Piety (Taqwa) means fearing Allah and obeying Him."
-      ),
-
+          explanation: "Piety (Taqwa) means fearing Allah and obeying Him."),
       QuizQuestion(
-          question: "15. Whose preaching ministry urged the Jews to bear fruits that befit repentance?\n(BECE 2003 Q4)",
-          options: [
-            "Jesus Christ",
-            "Paul",
-            "Peter",
-            "John the Baptist"
-          ],
+          question:
+              "15. Whose preaching ministry urged the Jews to bear fruits that befit repentance?\n(BECE 2003 Q4)",
+          options: ["Jesus Christ", "Paul", "Peter", "John the Baptist"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "John the Baptist preached repentance and urged people to bear fruits worthy of repentance."
-      ),
-
+          explanation:
+              "John the Baptist preached repentance and urged people to bear fruits worthy of repentance."),
       QuizQuestion(
-          question: "16. The Caliph Abu Bakr was referred to as Siddiq by Mohammed due to his\n(BECE 2003 Q5)",
-          options: [
-            "Courage.",
-            "Tolerance.",
-            "Truthfulness.",
-            "Generosity."
-          ],
+          question:
+              "16. The Caliph Abu Bakr was referred to as Siddiq by Mohammed due to his\n(BECE 2003 Q5)",
+          options: ["Courage.", "Tolerance.", "Truthfulness.", "Generosity."],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "As-Siddiq means 'the truthful one'."
-      ),
-
+          explanation: "As-Siddiq means 'the truthful one'."),
       QuizQuestion(
-          question: "17. All those who took custody of Prophet Mohammed were happy with him because he\n(BECE 2002B Q7)",
+          question:
+              "17. All those who took custody of Prophet Mohammed were happy with him because he\n(BECE 2002B Q7)",
           options: [
             "Had a unique character.",
             "Was a hardworking young man.",
@@ -44820,11 +46407,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Prophet Mohammed was loved because of his excellent character."
-      ),
-
+          explanation:
+              "Prophet Mohammed was loved because of his excellent character."),
       QuizQuestion(
-          question: "18. In the traditional society, one could become an ancestor when one\n(BECE 2002B Q9)",
+          question:
+              "18. In the traditional society, one could become an ancestor when one\n(BECE 2002B Q9)",
           options: [
             "Visited the shrine always.",
             "Offered sacrifices to the gods.",
@@ -44833,11 +46420,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "In African Traditional Religion, dying a natural and honourable death is a requirement for becoming an ancestor."
-      ),
-
+          explanation:
+              "In African Traditional Religion, dying a natural and honourable death is a requirement for becoming an ancestor."),
       QuizQuestion(
-          question: "19. The moral lesson from the life of Prophet Mohammed that one should emulate is the habit of\n(BECE 2008 Q15)",
+          question:
+              "19. The moral lesson from the life of Prophet Mohammed that one should emulate is the habit of\n(BECE 2008 Q15)",
           options: [
             "Faithfulness.",
             "Punctuality.",
@@ -44846,11 +46433,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Prophet Mohammed was widely known for his truthfulness."
-      ),
-
+          explanation:
+              "Prophet Mohammed was widely known for his truthfulness."),
       QuizQuestion(
-          question: "20. Caliph Abubakar led prayers in the lifetime of Prophet Mohammed because the Prophet\n(BECE 2008 Q16)",
+          question:
+              "20. Caliph Abubakar led prayers in the lifetime of Prophet Mohammed because the Prophet\n(BECE 2008 Q16)",
           options: [
             "Was tired.",
             "Was sick.",
@@ -44859,10 +46446,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Prophet Mohammed asked Abu Bakr to lead the prayers during his illness."
-      ),
+          explanation:
+              "Prophet Mohammed asked Abu Bakr to lead the prayers during his illness."),
       QuizQuestion(
-          question: "21. \"Blessed are the meek for they shall\"\n(BECE 2008 Q17)",
+          question:
+              "21. \"Blessed are the meek for they shall\"\n(BECE 2008 Q17)",
           options: [
             "Obtain mercy.",
             "See God.",
@@ -44871,11 +46459,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "According to the Beatitudes, the meek shall inherit the earth."
-      ),
-
+          explanation:
+              "According to the Beatitudes, the meek shall inherit the earth."),
       QuizQuestion(
-          question: "22. The washing of the feet of His disciples offers a lesson in\n(BECE 2008 Q20)",
+          question:
+              "22. The washing of the feet of His disciples offers a lesson in\n(BECE 2008 Q20)",
           options: [
             "Expressing love to others.",
             "Rendering service to others.",
@@ -44884,9 +46472,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Jesus washed His disciples' feet to teach humility and service."
-      ),
-
+          explanation:
+              "Jesus washed His disciples' feet to teach humility and service."),
       QuizQuestion(
           question: "23. The dreams of Joseph focused on\n(BECE 2009 Q6)",
           options: [
@@ -44897,11 +46484,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Joseph's dreams revealed that he would become a leader over his family."
-      ),
-
+          explanation:
+              "Joseph's dreams revealed that he would become a leader over his family."),
       QuizQuestion(
-          question: "24. Torgbe Tsali gave his jaws to his people as a\n(BECE 2009 Q8)",
+          question:
+              "24. Torgbe Tsali gave his jaws to his people as a\n(BECE 2009 Q8)",
           options: [
             "Token to be worshipped.",
             "Powerful instrument of divination.",
@@ -44910,11 +46497,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Torgbe Tsali's jaws became a powerful instrument of divination."
-      ),
-
+          explanation:
+              "Torgbe Tsali's jaws became a powerful instrument of divination."),
       QuizQuestion(
-          question: "25. A traditional chief may be destooled if he\n(BECE 2009 Q12)",
+          question:
+              "25. A traditional chief may be destooled if he\n(BECE 2009 Q12)",
           options: [
             "Becomes a born-again Christian.",
             "Takes many wives.",
@@ -44923,11 +46510,10 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "A chief may be destooled for misusing stool property."
-      ),
-
+          explanation: "A chief may be destooled for misusing stool property."),
       QuizQuestion(
-          question: "26. The immediate cause of Mohammed’s departure to Medina was\n(BECE 2009 Q13)",
+          question:
+              "26. The immediate cause of Mohammed’s departure to Medina was\n(BECE 2009 Q13)",
           options: [
             "Invitation from Yathrib.",
             "Harsh conditions in Mecca.",
@@ -44936,11 +46522,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The Quraysh planned to kill Prophet Mohammed, leading to the Hijrah."
-      ),
-
+          explanation:
+              "The Quraysh planned to kill Prophet Mohammed, leading to the Hijrah."),
       QuizQuestion(
-          question: "27. Which of the following were not among the twelve disciples?\n(BECE 2009 Q20)",
+          question:
+              "27. Which of the following were not among the twelve disciples?\n(BECE 2009 Q20)",
           options: [
             "Matthew and James",
             "Simon and Andrew",
@@ -44949,11 +46535,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Paul and Barnabas were not among Jesus' original twelve disciples."
-      ),
-
+          explanation:
+              "Paul and Barnabas were not among Jesus' original twelve disciples."),
       QuizQuestion(
-          question: "28. According to Jesus, the summary of the ten commandments is\n(BECE 2009 Q29)",
+          question:
+              "28. According to Jesus, the summary of the ten commandments is\n(BECE 2009 Q29)",
           options: [
             "Love for God and one's neighbour.",
             "Obedience to parents and the elderly.",
@@ -44962,11 +46548,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Jesus summarized the commandments as loving God and loving one's neighbour."
-      ),
-
+          explanation:
+              "Jesus summarized the commandments as loving God and loving one's neighbour."),
       QuizQuestion(
-          question: "29. \"Blessed are the peacemakers for they shall\"\n(BECE 2011 Q7)",
+          question:
+              "29. \"Blessed are the peacemakers for they shall\"\n(BECE 2011 Q7)",
           options: [
             "See God.",
             "Be called sons of God.",
@@ -44975,9 +46561,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The Beatitudes say peacemakers shall be called the children of God."
-      ),
-
+          explanation:
+              "The Beatitudes say peacemakers shall be called the children of God."),
       QuizQuestion(
           question: "30. The name Moses means\n(BECE 2011 Q8)",
           options: [
@@ -44988,11 +46573,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Moses means 'drawn out of water' because Pharaoh's daughter drew him from the Nile."
-      ),
-
+          explanation:
+              "Moses means 'drawn out of water' because Pharaoh's daughter drew him from the Nile."),
       QuizQuestion(
-          question: "31. Which of the following disciples of Jesus was a tax collector?\n(BECE 2011 Q19)",
+          question:
+              "31. Which of the following disciples of Jesus was a tax collector?\n(BECE 2011 Q19)",
           options: [
             "Bartholomew",
             "Joseph and John",
@@ -45001,11 +46586,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Matthew was a tax collector before becoming a disciple of Jesus."
-      ),
-
+          explanation:
+              "Matthew was a tax collector before becoming a disciple of Jesus."),
       QuizQuestion(
-          question: "32. Which of the following is responsible for morality in traditional society?\n(BECE 2011 Q25)",
+          question:
+              "32. Which of the following is responsible for morality in traditional society?\n(BECE 2011 Q25)",
           options: [
             "Linguist",
             "Gong-gong beater",
@@ -45014,37 +46599,25 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "The chief priest is responsible for enforcing morality and religious customs."
-      ),
-
+          explanation:
+              "The chief priest is responsible for enforcing morality and religious customs."),
       QuizQuestion(
           question: "33. God made a covenant with\n(BECE 2003 Q6)",
-          options: [
-            "Isaac.",
-            "Abraham.",
-            "Jacob.",
-            "Joshua."
-          ],
+          options: ["Isaac.", "Abraham.", "Jacob.", "Joshua."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "God established His covenant with Abraham."
-      ),
-
+          explanation: "God established His covenant with Abraham."),
       QuizQuestion(
-          question: "34. Which of the following persons knew God 'face to face'?\n(BECE 2003 Q9)",
-          options: [
-            "Abraham.",
-            "Isaac.",
-            "Jacob.",
-            "Moses."
-          ],
+          question:
+              "34. Which of the following persons knew God 'face to face'?\n(BECE 2003 Q9)",
+          options: ["Abraham.", "Isaac.", "Jacob.", "Moses."],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The Bible describes Moses as speaking with God face to face."
-      ),
-
+          explanation:
+              "The Bible describes Moses as speaking with God face to face."),
       QuizQuestion(
-          question: "35. Joseph was hated by his brothers because\n(BECE 2003 Q13)",
+          question:
+              "35. Joseph was hated by his brothers because\n(BECE 2003 Q13)",
           options: [
             "Jacob promised him of inheritance.",
             "He loved his father very much.",
@@ -45053,37 +46626,26 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Joseph's dreams made his brothers jealous and they hated him."
-      ),
-
+          explanation:
+              "Joseph's dreams made his brothers jealous and they hated him."),
       QuizQuestion(
-          question: "36. The patriarch described as a 'great man of faith' was\n(BECE 2004 Q2)",
-          options: [
-            "Jacob.",
-            "David.",
-            "Moses.",
-            "Abraham."
-          ],
+          question:
+              "36. The patriarch described as a 'great man of faith' was\n(BECE 2004 Q2)",
+          options: ["Jacob.", "David.", "Moses.", "Abraham."],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Abraham is known as the father of faith."
-      ),
-
+          explanation: "Abraham is known as the father of faith."),
       QuizQuestion(
-          question: "37. Which of the following people was not a disciple of Jesus?\n(BECE 2004 Q3)",
-          options: [
-            "Paul",
-            "Peter",
-            "Matthew",
-            "James"
-          ],
+          question:
+              "37. Which of the following people was not a disciple of Jesus?\n(BECE 2004 Q3)",
+          options: ["Paul", "Peter", "Matthew", "James"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Paul became an apostle after Jesus' resurrection and was not among the original disciples."
-      ),
-
+          explanation:
+              "Paul became an apostle after Jesus' resurrection and was not among the original disciples."),
       QuizQuestion(
-          question: "38. Abraham was known for his great faith because he\n(BECE 2005 Q12)",
+          question:
+              "38. Abraham was known for his great faith because he\n(BECE 2005 Q12)",
           options: [
             "Refused the idols of Canaan.",
             "Was willing to sacrifice his son to God.",
@@ -45092,32 +46654,24 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Abraham demonstrated great faith by being willing to sacrifice Isaac."
-      ),
+          explanation:
+              "Abraham demonstrated great faith by being willing to sacrifice Isaac."),
       QuizQuestion(
-          question: "39. The tribes of Israel derived their names from the sons of\n(BECE 2005 Q18)",
-          options: [
-            "Abraham.",
-            "Jacob.",
-            "Joseph.",
-            "Isaac."
-          ],
+          question:
+              "39. The tribes of Israel derived their names from the sons of\n(BECE 2005 Q18)",
+          options: ["Abraham.", "Jacob.", "Joseph.", "Isaac."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The twelve tribes of Israel were named after the sons of Jacob."
-      ),
+          explanation:
+              "The twelve tribes of Israel were named after the sons of Jacob."),
       QuizQuestion(
-          question: "40. Israel came out of slavery in Egypt under the leadership of\n(BECE 2005 Q19)",
-          options: [
-            "Joshua.",
-            "Joseph.",
-            "Abraham.",
-            "Moses."
-          ],
+          question:
+              "40. Israel came out of slavery in Egypt under the leadership of\n(BECE 2005 Q19)",
+          options: ["Joshua.", "Joseph.", "Abraham.", "Moses."],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Moses led the Israelites out of Egypt during the Exodus."
-      ),
+          explanation:
+              "Moses led the Israelites out of Egypt during the Exodus."),
       QuizQuestion(
           question: "41. Torgbe Tsali is remembered for\n(BECE 2006 Q6)",
           options: [
@@ -45128,24 +46682,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Torgbe Tsali sacrificed himself to free the Anlo people from oppression."
-      ),
-
+          explanation:
+              "Torgbe Tsali sacrificed himself to free the Anlo people from oppression."),
       QuizQuestion(
           question: "42. The second Caliph of Islam was\n(BECE 2006 Q6)",
-          options: [
-            "Abubakar.",
-            "Umar.",
-            "Ali.",
-            "Uthman."
-          ],
+          options: ["Abubakar.", "Umar.", "Ali.", "Uthman."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Umar ibn Al-Khattab was the second rightly guided Caliph."
-      ),
-
+          explanation:
+              "Umar ibn Al-Khattab was the second rightly guided Caliph."),
       QuizQuestion(
-          question: "43. God gave Noah and his people the rainbow as a sign of the covenant that\n(BECE 2006 Q9)",
+          question:
+              "43. God gave Noah and his people the rainbow as a sign of the covenant that\n(BECE 2006 Q9)",
           options: [
             "The earth would never again be destroyed by flood.",
             "Idol worshippers would be destroyed.",
@@ -45154,11 +46702,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The rainbow was God's sign that He would never again destroy the earth with a flood."
-      ),
-
+          explanation:
+              "The rainbow was God's sign that He would never again destroy the earth with a flood."),
       QuizQuestion(
-          question: "44. A dead person is not regarded as an ancestor if he or she\n(BECE 2006 Q10)",
+          question:
+              "44. A dead person is not regarded as an ancestor if he or she\n(BECE 2006 Q10)",
           options: [
             "Lived for more than forty years.",
             "Died through an accident.",
@@ -45167,11 +46715,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "In African Traditional Religion, people who die unnatural deaths are generally not regarded as ancestors."
-      ),
-
+          explanation:
+              "In African Traditional Religion, people who die unnatural deaths are generally not regarded as ancestors."),
       QuizQuestion(
-          question: "45. The burning bush that Moses saw attracted him because\n(BECE 2006 Q14)",
+          question:
+              "45. The burning bush that Moses saw attracted him because\n(BECE 2006 Q14)",
           options: [
             "God spoke to him from it.",
             "The place was a holy ground.",
@@ -45180,24 +46728,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Moses was amazed because the bush burned without being consumed."
-      ),
-
+          explanation:
+              "Moses was amazed because the bush burned without being consumed."),
       QuizQuestion(
-          question: "46. According to the Qur'an, the Torah was revealed through\n(BECE 2006 Q18)",
-          options: [
-            "Ibrahim.",
-            "Mohammed.",
-            "Musa.",
-            "Ishmael."
-          ],
+          question:
+              "46. According to the Qur'an, the Torah was revealed through\n(BECE 2006 Q18)",
+          options: ["Ibrahim.", "Mohammed.", "Musa.", "Ishmael."],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Allah revealed the Torah to Prophet Musa (Moses)."
-      ),
-
+          explanation: "Allah revealed the Torah to Prophet Musa (Moses)."),
       QuizQuestion(
-          question: "47. According to Jesus, the poor in spirit are blessed because they shall\n(BECE 2006 Q19)",
+          question:
+              "47. According to Jesus, the poor in spirit are blessed because they shall\n(BECE 2006 Q19)",
           options: [
             "Inherit the Kingdom of heaven.",
             "Be comforted.",
@@ -45206,11 +46748,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The first Beatitude states that the poor in spirit shall inherit the Kingdom of Heaven."
-      ),
-
+          explanation:
+              "The first Beatitude states that the poor in spirit shall inherit the Kingdom of Heaven."),
       QuizQuestion(
-          question: "48. The Qur'an was revealed to Mohammed through\n(BECE 2007 Q2)",
+          question:
+              "48. The Qur'an was revealed to Mohammed through\n(BECE 2007 Q2)",
           options: [
             "Abu Bakr.",
             "Angel Jibril.",
@@ -45219,22 +46761,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Angel Jibril (Gabriel) revealed the Qur'an to Prophet Mohammed."
-      ),
-
+          explanation:
+              "Angel Jibril (Gabriel) revealed the Qur'an to Prophet Mohammed."),
       QuizQuestion(
-          question: "49. God saved the believers from the flood through\n(BECE 2007 Q8)",
-          options: [
-            "Abraham.",
-            "Noah.",
-            "Moses.",
-            "Joseph."
-          ],
+          question:
+              "49. God saved the believers from the flood through\n(BECE 2007 Q8)",
+          options: ["Abraham.", "Noah.", "Moses.", "Joseph."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "God instructed Noah to build the ark to save the believers."
-      ),
-
+          explanation:
+              "God instructed Noah to build the ark to save the believers."),
       QuizQuestion(
           question: "50. Caliph Abu Bakr is remembered for\n(BECE 2007 Q9)",
           options: [
@@ -45245,11 +46781,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "During Abu Bakr's caliphate, the Qur'an was compiled into one book."
-      ),
-
+          explanation:
+              "During Abu Bakr's caliphate, the Qur'an was compiled into one book."),
       QuizQuestion(
-          question: "51. Jesus came into the world so that people may\n(BECE 2013 Q11)",
+          question:
+              "51. Jesus came into the world so that people may\n(BECE 2013 Q11)",
           options: [
             "Forgive their enemies.",
             "Have eternal life.",
@@ -45258,22 +46794,15 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Jesus came so that all who believe in Him may have eternal life."
-      ),
-
+          explanation:
+              "Jesus came so that all who believe in Him may have eternal life."),
       QuizQuestion(
-          question: "52. God's covenant with the patriarch is associated with\n(BECE 2013 Q12)",
-          options: [
-            "Abraham.",
-            "Joseph.",
-            "Joshua.",
-            "Moses."
-          ],
+          question:
+              "52. God's covenant with the patriarch is associated with\n(BECE 2013 Q12)",
+          options: ["Abraham.", "Joseph.", "Joshua.", "Moses."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "God's covenant was made with Abraham."
-      ),
-
+          explanation: "God's covenant was made with Abraham."),
       QuizQuestion(
           question: "53. By facing the wild beast, Toha Zie\n(BECE 2013 Q14)",
           options: [
@@ -45284,24 +46813,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Toha Zie became famous for risking his life to save his people from a dangerous beast."
-      ),
-
+          explanation:
+              "Toha Zie became famous for risking his life to save his people from a dangerous beast."),
       QuizQuestion(
-          question: "54. Israel came out of slavery in Egypt under the leadership of\n(BECE 2013 Q18)",
-          options: [
-            "Abraham.",
-            "Joseph.",
-            "Joshua.",
-            "Moses."
-          ],
+          question:
+              "54. Israel came out of slavery in Egypt under the leadership of\n(BECE 2013 Q18)",
+          options: ["Abraham.", "Joseph.", "Joshua.", "Moses."],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Moses led the Israelites out of slavery in Egypt."
-      ),
-
+          explanation: "Moses led the Israelites out of slavery in Egypt."),
       QuizQuestion(
-          question: "55. Egbnor Abor is remembered for sacrificing his life to\n(BECE 2013 Q19)",
+          question:
+              "55. Egbnor Abor is remembered for sacrificing his life to\n(BECE 2013 Q19)",
           options: [
             "Ensure victory at war.",
             "Free his people from slavery.",
@@ -45310,24 +46833,17 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Egbnor Abor sacrificed his life to free his people from slavery."
-      ),
-
+          explanation:
+              "Egbnor Abor sacrificed his life to free his people from slavery."),
       QuizQuestion(
           question: "56. The twelfth son of Jacob was\n(BECE 2014 Q6)",
-          options: [
-            "Benjamin.",
-            "Joseph.",
-            "Dan.",
-            "Gad."
-          ],
+          options: ["Benjamin.", "Joseph.", "Dan.", "Gad."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Benjamin was the youngest and twelfth son of Jacob."
-      ),
-
+          explanation: "Benjamin was the youngest and twelfth son of Jacob."),
       QuizQuestion(
-          question: "57. Moses led the Israelites through the wilderness for\n(BECE 2014 Q7)",
+          question:
+              "57. Moses led the Israelites through the wilderness for\n(BECE 2014 Q7)",
           options: [
             "Forty years.",
             "Forty months.",
@@ -45336,24 +46852,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The Israelites wandered in the wilderness for forty years."
-      ),
-
+          explanation:
+              "The Israelites wandered in the wilderness for forty years."),
       QuizQuestion(
-          question: "58. Which of the following people was commanded by God to build an ark?\n(BECE 2015 Q1)",
-          options: [
-            "Joseph",
-            "Jacob",
-            "Noah",
-            "David"
-          ],
+          question:
+              "58. Which of the following people was commanded by God to build an ark?\n(BECE 2015 Q1)",
+          options: ["Joseph", "Jacob", "Noah", "David"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "God commanded Noah to build the ark before the flood."
-      ),
-
+          explanation: "God commanded Noah to build the ark before the flood."),
       QuizQuestion(
-          question: "59. Who gave the tomb in which Jesus was buried?\n(BECE 2015 Q2)",
+          question:
+              "59. Who gave the tomb in which Jesus was buried?\n(BECE 2015 Q2)",
           options: [
             "Simon of Cyrene",
             "Joseph of Arimathea",
@@ -45362,11 +46872,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Joseph of Arimathea provided his own tomb for Jesus' burial."
-      ),
-
+          explanation:
+              "Joseph of Arimathea provided his own tomb for Jesus' burial."),
       QuizQuestion(
-          question: "60. Egbnor Abor is fondly remembered by the Fante for\n(BECE 2018 Q8)",
+          question:
+              "60. Egbnor Abor is fondly remembered by the Fante for\n(BECE 2018 Q8)",
           options: [
             "His miraculous powers.",
             "Commanding the golden stool.",
@@ -45375,23 +46885,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Egbnor Abor is remembered for sacrificing himself to save his people."
-      ),
+          explanation:
+              "Egbnor Abor is remembered for sacrificing himself to save his people."),
       QuizQuestion(
-          question: "61. The spiritual leader who was also a successor of Prophet Mohammed (SAW) was\n(BECE 2019 Q6)",
-          options: [
-            "Caliph.",
-            "Hafiz.",
-            "Imam.",
-            "Sheikh."
-          ],
+          question:
+              "61. The spiritual leader who was also a successor of Prophet Mohammed (SAW) was\n(BECE 2019 Q6)",
+          options: ["Caliph.", "Hafiz.", "Imam.", "Sheikh."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "A Caliph is the political and spiritual successor to Prophet Mohammed."
-      ),
-
+          explanation:
+              "A Caliph is the political and spiritual successor to Prophet Mohammed."),
       QuizQuestion(
-          question: "62. Egbnor Abor was honoured with the Aboakyer festival because of his\n(BECE 2019 Q7)",
+          question:
+              "62. Egbnor Abor was honoured with the Aboakyer festival because of his\n(BECE 2019 Q7)",
           options: [
             "Magical deed.",
             "Death for the land.",
@@ -45400,9 +46906,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Egbnor Abor is honoured for sacrificing his life for the welfare of his people."
-      ),
-
+          explanation:
+              "Egbnor Abor is honoured for sacrificing his life for the welfare of his people."),
       QuizQuestion(
           question: "63. Toha Zie became famous because\n(BECE 2019 Q8)",
           options: [
@@ -45413,24 +46918,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Toha Zie became famous for saving his people from dangerous wild beasts."
-      ),
-
+          explanation:
+              "Toha Zie became famous for saving his people from dangerous wild beasts."),
       QuizQuestion(
-          question: "64. Toha Zie was nicknamed the red hunter because of his\n(BECE 2020 Q7)",
-          options: [
-            "Character.",
-            "Complexion.",
-            "Kindness.",
-            "Wisdom."
-          ],
+          question:
+              "64. Toha Zie was nicknamed the red hunter because of his\n(BECE 2020 Q7)",
+          options: ["Character.", "Complexion.", "Kindness.", "Wisdom."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Toha Zie was called the Red Hunter because of his reddish complexion."
-      ),
-
+          explanation:
+              "Toha Zie was called the Red Hunter because of his reddish complexion."),
       QuizQuestion(
-          question: "65. The major event that led to the conversion of Umar to Islam was his\n(BECE 2020 Q8)",
+          question:
+              "65. The major event that led to the conversion of Umar to Islam was his\n(BECE 2020 Q8)",
           options: [
             "Mohammed’s flight into Medina.",
             "Hearing of the flight.",
@@ -45439,9 +46939,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "According to the provided BECE source, the correct answer is the preaching of Abu Bakr."
-      ),
-
+          explanation:
+              "According to the provided BECE source, the correct answer is the preaching of Abu Bakr."),
       QuizQuestion(
           question: "66. The name Abraham means\n(BECE 2020 Q9)",
           options: [
@@ -45452,11 +46951,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "God changed Abram's name to Abraham, meaning 'father of a multitude'."
-      ),
-
+          explanation:
+              "God changed Abram's name to Abraham, meaning 'father of a multitude'."),
       QuizQuestion(
-          question: "67. The seeds that fell along the path in the Parable of the Sower were\n(BECE 2021 Q3)",
+          question:
+              "67. The seeds that fell along the path in the Parable of the Sower were\n(BECE 2021 Q3)",
           options: [
             "Blown away by the wind.",
             "Eaten by birds.",
@@ -45465,50 +46964,35 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "In the Parable of the Sower, birds ate the seeds that fell along the path."
-      ),
-
+          explanation:
+              "In the Parable of the Sower, birds ate the seeds that fell along the path."),
       QuizQuestion(
-          question: "68. One virtue that can be emulated from the lives of Egya Ahor and Tweneboa Kodua is\n(BECE 2021 Q5)",
-          options: [
-            "Justice.",
-            "Love.",
-            "Hard work.",
-            "Respect."
-          ],
+          question:
+              "68. One virtue that can be emulated from the lives of Egya Ahor and Tweneboa Kodua is\n(BECE 2021 Q5)",
+          options: ["Justice.", "Love.", "Hard work.", "Respect."],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Both personalities demonstrated love and self-sacrifice for their people."
-      ),
-
+          explanation:
+              "Both personalities demonstrated love and self-sacrifice for their people."),
       QuizQuestion(
-          question: "69. The Patriarch who took his brother’s birth right and blessings was\n(BECE 2021 Q12)",
-          options: [
-            "Esau.",
-            "Joseph.",
-            "Jacob.",
-            "Isaac."
-          ],
+          question:
+              "69. The Patriarch who took his brother’s birth right and blessings was\n(BECE 2021 Q12)",
+          options: ["Esau.", "Joseph.", "Jacob.", "Isaac."],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Jacob obtained Esau's birthright and later received his father's blessing."
-      ),
-
+          explanation:
+              "Jacob obtained Esau's birthright and later received his father's blessing."),
       QuizQuestion(
-          question: "70. Muslims believe that God’s messages to His prophets were declared through His\n(BECE 2021 Q25)",
-          options: [
-            "Angels.",
-            "Caliphs.",
-            "Prophets.",
-            "Diviners."
-          ],
+          question:
+              "70. Muslims believe that God’s messages to His prophets were declared through His\n(BECE 2021 Q25)",
+          options: ["Angels.", "Caliphs.", "Prophets.", "Diviners."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Allah delivered His revelations to prophets through angels, especially Angel Jibril."
-      ),
-
+          explanation:
+              "Allah delivered His revelations to prophets through angels, especially Angel Jibril."),
       QuizQuestion(
-          question: "71. Joseph was hated by his brothers because\n(BECE 2016 Q1)",
+          question:
+              "71. Joseph was hated by his brothers because\n(BECE 2016 Q1)",
           options: [
             "He was loved by his father very much.",
             "He was gentle and handsome.",
@@ -45517,11 +47001,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Joseph's dreams made his brothers jealous, causing them to hate him."
-      ),
-
+          explanation:
+              "Joseph's dreams made his brothers jealous, causing them to hate him."),
       QuizQuestion(
-          question: "72. Who provided the tomb in which Jesus was buried?\n(BECE 2016 Q5)",
+          question:
+              "72. Who provided the tomb in which Jesus was buried?\n(BECE 2016 Q5)",
           options: [
             "Joseph of Arimathea",
             "Nicodemus",
@@ -45530,11 +47014,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Joseph of Arimathea gave his own new tomb for the burial of Jesus."
-      ),
-
+          explanation:
+              "Joseph of Arimathea gave his own new tomb for the burial of Jesus."),
       QuizQuestion(
-          question: "73. The second rightly guided caliph in Islam was\n(BECE 2016 Q6)",
+          question:
+              "73. The second rightly guided caliph in Islam was\n(BECE 2016 Q6)",
           options: [
             "Abu Bakr Al Siddiq.",
             "Umar Ibn Al-Khattab.",
@@ -45543,9 +47027,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Umar Ibn Al-Khattab succeeded Abu Bakr as the second rightly guided Caliph."
-      ),
-
+          explanation:
+              "Umar Ibn Al-Khattab succeeded Abu Bakr as the second rightly guided Caliph."),
       QuizQuestion(
           question: "74. By facing the wild beast, Toha Zie\n(BECE 2016 Q7)",
           options: [
@@ -45556,50 +47039,34 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Toha Zie risked his own life in order to save his people."
-      ),
-
+          explanation:
+              "Toha Zie risked his own life in order to save his people."),
       QuizQuestion(
-          question: "75. The teachings of Prophet Mohammed are found in the\n(BECE 2023 Q6)",
-          options: [
-            "Kalima.",
-            "Hadith.",
-            "Bible.",
-            "Quran."
-          ],
+          question:
+              "75. The teachings of Prophet Mohammed are found in the\n(BECE 2023 Q6)",
+          options: ["Kalima.", "Hadith.", "Bible.", "Quran."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The Hadith contains the sayings and teachings of Prophet Mohammed."
-      ),
-
+          explanation:
+              "The Hadith contains the sayings and teachings of Prophet Mohammed."),
       QuizQuestion(
-          question: "76. Which of the following people was not a disciple of Jesus?\n(BECE 2023 Q12)",
-          options: [
-            "Paul",
-            "Peter",
-            "Matthew",
-            "James"
-          ],
+          question:
+              "76. Which of the following people was not a disciple of Jesus?\n(BECE 2023 Q12)",
+          options: ["Paul", "Peter", "Matthew", "James"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Paul became an apostle after Jesus' resurrection and was not among the original twelve disciples."
-      ),
-
+          explanation:
+              "Paul became an apostle after Jesus' resurrection and was not among the original twelve disciples."),
       QuizQuestion(
-          question: "77. God's covenant with the patriarch is associated with\n(BECE 2023 Q13)",
-          options: [
-            "Abraham.",
-            "Joseph.",
-            "Joshua.",
-            "Moses."
-          ],
+          question:
+              "77. God's covenant with the patriarch is associated with\n(BECE 2023 Q13)",
+          options: ["Abraham.", "Joseph.", "Joshua.", "Moses."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "God made His covenant with Abraham."
-      ),
-
+          explanation: "God made His covenant with Abraham."),
       QuizQuestion(
-          question: "78. Egya Ahor is remembered for sacrificing his life to\n(BECE 2023 Q19)",
+          question:
+              "78. Egya Ahor is remembered for sacrificing his life to\n(BECE 2023 Q19)",
           options: [
             "Ensure victory at war.",
             "Free his people from slavery.",
@@ -45608,24 +47075,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "Egya Ahor sacrificed his life to ensure victory for his people during war."
-      ),
-
+          explanation:
+              "Egya Ahor sacrificed his life to ensure victory for his people during war."),
       QuizQuestion(
           question: "79. The first Christian Martyr was\n(BECE 2017 Q15)",
-          options: [
-            "Ali.",
-            "Stephen.",
-            "Ibrahim.",
-            "Munah."
-          ],
+          options: ["Ali.", "Stephen.", "Ibrahim.", "Munah."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Stephen was the first Christian martyr recorded in the Bible."
-      ),
-
+          explanation:
+              "Stephen was the first Christian martyr recorded in the Bible."),
       QuizQuestion(
-          question: "80. Moses led the Israelites through the wilderness for\n(BECE 2018 Q6)",
+          question:
+              "80. Moses led the Israelites through the wilderness for\n(BECE 2018 Q6)",
           options: [
             "Forty months.",
             "Forty years.",
@@ -45634,22 +47095,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The Israelites wandered in the wilderness for forty years before entering Canaan."
-      ),QuizQuestion(
+          explanation:
+              "The Israelites wandered in the wilderness for forty years before entering Canaan."),
+      QuizQuestion(
           question: "81. Holy Spirit\n(BECE 2022 Q34)",
-          options: [
-            "Holy Spirit",
-            "God",
-            "Neighbours",
-            "Religious leaders"
-          ],
+          options: ["Holy Spirit", "God", "Neighbours", "Religious leaders"],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "According to the provided BECE source, the correct answer is Holy Spirit."
-      ),
-
+          explanation:
+              "According to the provided BECE source, the correct answer is Holy Spirit."),
       QuizQuestion(
-          question: "82. Who provided the tomb in which Jesus Christ and mercy is the parable of\n(BECE 2022 Q35)",
+          question:
+              "82. Who provided the tomb in which Jesus Christ and mercy is the parable of\n(BECE 2022 Q35)",
           options: [
             "Mustard Seed",
             "Lost Coin",
@@ -45658,11 +47115,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "According to the provided BECE source, the correct answer is Good Samaritan."
-      ),
-
+          explanation:
+              "According to the provided BECE source, the correct answer is Good Samaritan."),
       QuizQuestion(
-          question: "83. Golgotha was the place where Jesus Christ\n(BECE 2023 Q8)",
+          question:
+              "83. Golgotha was the place where Jesus Christ\n(BECE 2023 Q8)",
           options: [
             "Fed the five thousand men.",
             "Fasted for forty days.",
@@ -45671,11 +47128,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Golgotha was the place where Jesus Christ was crucified."
-      ),
-
+          explanation:
+              "Golgotha was the place where Jesus Christ was crucified."),
       QuizQuestion(
-          question: "84. Which of the following virtues can be learnt from the life stories of Joseph?\n(BECE 2023 Q17)",
+          question:
+              "84. Which of the following virtues can be learnt from the life stories of Joseph?\n(BECE 2023 Q17)",
           options: [
             "Reconciliation.",
             "Retribution.",
@@ -45684,11 +47141,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Joseph forgave and reconciled with his brothers, teaching the virtue of reconciliation."
-      ),
-
+          explanation:
+              "Joseph forgave and reconciled with his brothers, teaching the virtue of reconciliation."),
       QuizQuestion(
-          question: "\"85. And who is my neighbour?\" Jesus answered this question with the parable of the\n(BECE 2023 Q38)",
+          question:
+              "\"85. And who is my neighbour?\" Jesus answered this question with the parable of the\n(BECE 2023 Q38)",
           options: [
             "Mustard seed.",
             "Prodigal son.",
@@ -45697,15 +47154,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Jesus answered the question 'Who is my neighbour?' with the Parable of the Good Samaritan."
-      ),
+          explanation:
+              "Jesus answered the question 'Who is my neighbour?' with the Parable of the Good Samaritan."),
     ],
   ),
   "Religious & Moral Education JHS1 s5 ss1 - Religious Practices": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. Mourners from the cemetery wash their hands before entering funeral house again to\n(BECE 1999 Q11)",
+          question:
+              "1. Mourners from the cemetery wash their hands before entering funeral house again to\n(BECE 1999 Q11)",
           options: [
             "Break relations with the dead.",
             "Shows that they are among the living.",
@@ -45714,11 +47172,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Washing the hands after returning from the cemetery symbolizes breaking all relations with the dead."
-      ),
-
+          explanation:
+              "Washing the hands after returning from the cemetery symbolizes breaking all relations with the dead."),
       QuizQuestion(
-          question: "2. Traditional religion is practiced in order to\n(BECE 2001 Q7)",
+          question:
+              "2. Traditional religion is practiced in order to\n(BECE 2001 Q7)",
           options: [
             "Instill discipline.",
             "Worship idols.",
@@ -45727,11 +47185,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Traditional religion helps preserve African cultural values, beliefs and practices."
-      ),
-
+          explanation:
+              "Traditional religion helps preserve African cultural values, beliefs and practices."),
       QuizQuestion(
-          question: "3. Akwesidae according to the Akan calendar is\n(BECE 2001 Q11)",
+          question:
+              "3. Akwesidae according to the Akan calendar is\n(BECE 2001 Q11)",
           options: [
             "A day that marks the beginning of the month.",
             "The first Sunday that marks the beginning of the month.",
@@ -45740,11 +47198,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Akwasidae is celebrated every 42 days according to the Akan traditional calendar."
-      ),
-
+          explanation:
+              "Akwasidae is celebrated every 42 days according to the Akan traditional calendar."),
       QuizQuestion(
-          question: "4. Palm Sunday is observed by Christians to remember the\n(BECE 1999 Q2)",
+          question:
+              "4. Palm Sunday is observed by Christians to remember the\n(BECE 1999 Q2)",
           options: [
             "Birth and baptism of Christ.",
             "Resurrection and appearance of Christ.",
@@ -45753,11 +47211,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Palm Sunday commemorates Jesus Christ's triumphant entry into Jerusalem."
-      ),
-
+          explanation:
+              "Palm Sunday commemorates Jesus Christ's triumphant entry into Jerusalem."),
       QuizQuestion(
-          question: "5. The main role of angels in Islam is to\n(BECE 2001 Q15)",
+          question:
+              "5. The main role of angels in Islam is to\n(BECE 2001 Q15)",
           options: [
             "Reveal Allah's orders and messages to His Prophets.",
             "Help Allah's Prophets to understand the Qur'an.",
@@ -45766,11 +47224,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Angels are Allah's messengers who convey His revelations and commands to His Prophets."
-      ),
-
+          explanation:
+              "Angels are Allah's messengers who convey His revelations and commands to His Prophets."),
       QuizQuestion(
-          question: "6. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
+          question:
+              "6. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
           options: [
             "Be tolerant and intelligent.",
             "Become steadfast and patriotic.",
@@ -45779,11 +47237,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Regular prayer promotes purity, discipline and righteous living."
-      ),
-
+          explanation:
+              "Regular prayer promotes purity, discipline and righteous living."),
       QuizQuestion(
-          question: "7. The burial of pieces of hair, fingernails and toenails of a corpse at his hometown signifies that\n(BECE 1999 Q10)",
+          question:
+              "7. The burial of pieces of hair, fingernails and toenails of a corpse at his hometown signifies that\n(BECE 1999 Q10)",
           options: [
             "There is life after death.",
             "The spirit has contact with the living.",
@@ -45792,24 +47250,17 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "The practice signifies that the spirit of the deceased maintains contact with the living."
-      ),
-
+          explanation:
+              "The practice signifies that the spirit of the deceased maintains contact with the living."),
       QuizQuestion(
           question: "8. The first book in the Bible is called\n(BECE 2000 Q20)",
-          options: [
-            "Genesis.",
-            "Deuteronomy.",
-            "Exodus.",
-            "Revelation."
-          ],
+          options: ["Genesis.", "Deuteronomy.", "Exodus.", "Revelation."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Genesis is the first book of the Bible."
-      ),
-
+          explanation: "Genesis is the first book of the Bible."),
       QuizQuestion(
-          question: "9. The Islamic practice where wealthy Muslims cater for the needs of the poor and needy is\n(BECE 2002A Q7)",
+          question:
+              "9. The Islamic practice where wealthy Muslims cater for the needs of the poor and needy is\n(BECE 2002A Q7)",
           options: [
             "Hajj.",
             "Offers food and living things to the gods.",
@@ -45818,9 +47269,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "The source text appears to contain OCR errors. The original BECE question refers to Zakat, but the options have been preserved exactly as provided."
-      ),
-
+          explanation:
+              "The source text appears to contain OCR errors. The original BECE question refers to Zakat, but the options have been preserved exactly as provided."),
       QuizQuestion(
           question: "10. All the religions in Ghana believe in\n(BECE 1999 Q4)",
           options: [
@@ -45831,24 +47281,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The major religions in Ghana believe in the existence of a Supreme Being."
-      ),
-
+          explanation:
+              "The major religions in Ghana believe in the existence of a Supreme Being."),
       QuizQuestion(
           question: "11. The third Islamic daily prayer is\n(BECE 2000 Q14)",
-          options: [
-            "Asr.",
-            "Zuhr.",
-            "Fajr.",
-            "Maghrib."
-          ],
+          options: ["Asr.", "Zuhr.", "Fajr.", "Maghrib."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Asr is the third of the five compulsory daily prayers in Islam."
-      ),
-
+          explanation:
+              "Asr is the third of the five compulsory daily prayers in Islam."),
       QuizQuestion(
-          question: "12. To become a Christian, one must first\n(BECE 2000 Q16)",
+          question:
+              "12. To become a Christian, one must first\n(BECE 2000 Q16)",
           options: [
             "Say the Lord's prayer.",
             "Recite the Apostle's creed.",
@@ -45857,24 +47301,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Baptism is the Christian rite of initiation into the faith."
-      ),
-
+          explanation:
+              "Baptism is the Christian rite of initiation into the faith."),
       QuizQuestion(
-          question: "13. How many times do Muslims go round the Ka'ba during Hajj?\n(BECE 2001 Q17)",
-          options: [
-            "Four times.",
-            "Five times.",
-            "Seven times.",
-            "Ten times."
-          ],
+          question:
+              "13. How many times do Muslims go round the Ka'ba during Hajj?\n(BECE 2001 Q17)",
+          options: ["Four times.", "Five times.", "Seven times.", "Ten times."],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Pilgrims perform Tawaf by circling the Ka'ba seven times."
-      ),
-
+          explanation:
+              "Pilgrims perform Tawaf by circling the Ka'ba seven times."),
       QuizQuestion(
-          question: "14. In traditional society, taboos help people to\n(BECE 2002B Q14)",
+          question:
+              "14. In traditional society, taboos help people to\n(BECE 2002B Q14)",
           options: [
             "Behave well.",
             "Believe in their god.",
@@ -45883,62 +47322,42 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Taboos regulate behaviour and promote discipline within society."
-      ),
-
+          explanation:
+              "Taboos regulate behaviour and promote discipline within society."),
       QuizQuestion(
-          question: "15. Which of the religion believes that God moved from the earth because of the activities of mankind?\n(BECE 2000 Q13)",
-          options: [
-            "Christianity",
-            "Islam",
-            "Traditionalist",
-            "Hinduism"
-          ],
+          question:
+              "15. Which of the religion believes that God moved from the earth because of the activities of mankind?\n(BECE 2000 Q13)",
+          options: ["Christianity", "Islam", "Traditionalist", "Hinduism"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "African Traditional Religion teaches that God withdrew from human beings because of their wrongdoing."
-      ),
+          explanation:
+              "African Traditional Religion teaches that God withdrew from human beings because of their wrongdoing."),
       QuizQuestion(
-          question: "16. The pillar of faith in Islam which expresses charity is\n(BECE 2000 Q9)",
-          options: [
-            "Salat.",
-            "Sawn.",
-            "Zakat.",
-            "Kalimat."
-          ],
+          question:
+              "16. The pillar of faith in Islam which expresses charity is\n(BECE 2000 Q9)",
+          options: ["Salat.", "Sawn.", "Zakat.", "Kalimat."],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Zakat is the pillar of Islam that requires Muslims to give charity to the poor and needy."
-      ),
-
+          explanation:
+              "Zakat is the pillar of Islam that requires Muslims to give charity to the poor and needy."),
       QuizQuestion(
           question: "17. Salat is to prayer as charity is to\n(BECE 2001 Q10)",
-          options: [
-            "Zakat",
-            "Shahadah",
-            "Sawn",
-            "Hajj"
-          ],
+          options: ["Zakat", "Shahadah", "Sawn", "Hajj"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Zakat refers to the compulsory giving of charity in Islam."
-      ),
-
+          explanation:
+              "Zakat refers to the compulsory giving of charity in Islam."),
       QuizQuestion(
-          question: "18. The Muslim prayer observed between Asr and Isha is\n(BECE 1999 Q5)",
-          options: [
-            "Zuhr",
-            "Jumu'ah",
-            "Idd",
-            "Maghrib"
-          ],
+          question:
+              "18. The Muslim prayer observed between Asr and Isha is\n(BECE 1999 Q5)",
+          options: ["Zuhr", "Jumu'ah", "Idd", "Maghrib"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Maghrib is the prayer offered immediately after sunset, between Asr and Isha."
-      ),
-
+          explanation:
+              "Maghrib is the prayer offered immediately after sunset, between Asr and Isha."),
       QuizQuestion(
-          question: "19. Muslims pray five times a day in order to\n(BECE 2000 Q10)",
+          question:
+              "19. Muslims pray five times a day in order to\n(BECE 2000 Q10)",
           options: [
             "Be known in the community.",
             "Avoid evil and bad actions.",
@@ -45947,24 +47366,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Regular prayer helps Muslims avoid sinful acts and remain conscious of Allah."
-      ),
-
+          explanation:
+              "Regular prayer helps Muslims avoid sinful acts and remain conscious of Allah."),
       QuizQuestion(
           question: "20. Kente weaving is popular among the\n(BECE 1999 Q13)",
-          options: [
-            "Asante.",
-            "Kwebu.",
-            "Fante.",
-            "Akwapim."
-          ],
+          options: ["Asante.", "Kwebu.", "Fante.", "Akwapim."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Kente weaving originated among the Asante people of Ghana."
-      ),
-
+          explanation:
+              "Kente weaving originated among the Asante people of Ghana."),
       QuizQuestion(
-          question: "21. Uthman B. Affan standardized the Qur'an in order to\n(BECE 2000 Q19)",
+          question:
+              "21. Uthman B. Affan standardized the Qur'an in order to\n(BECE 2000 Q19)",
           options: [
             "Bring it into one volume.",
             "Avoid the omission of some verse.",
@@ -45973,24 +47386,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Caliph Uthman standardized the Qur'an to ensure a uniform recitation throughout the Muslim community."
-      ),
-
+          explanation:
+              "Caliph Uthman standardized the Qur'an to ensure a uniform recitation throughout the Muslim community."),
       QuizQuestion(
-          question: "22. The system by which a drink is poured to the gods and the Supreme beings is known as\n(BECE 2000 Q18)",
-          options: [
-            "Sacrifice",
-            "Thankfulness",
-            "Worship",
-            "Libation"
-          ],
+          question:
+              "22. The system by which a drink is poured to the gods and the Supreme beings is known as\n(BECE 2000 Q18)",
+          options: ["Sacrifice", "Thankfulness", "Worship", "Libation"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Libation is the ritual pouring of drink as an offering to God, deities and ancestors."
-      ),
-
+          explanation:
+              "Libation is the ritual pouring of drink as an offering to God, deities and ancestors."),
       QuizQuestion(
-          question: "23. Christians believe in Jesus Christ because He\n(BECE 2002A Q8)",
+          question:
+              "23. Christians believe in Jesus Christ because He\n(BECE 2002A Q8)",
           options: [
             "Was given birth to by a virgin.",
             "Came to save humankind from their sins.",
@@ -45999,11 +47407,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Christians believe Jesus came to save humanity from sin through His death and resurrection."
-      ),
-
+          explanation:
+              "Christians believe Jesus came to save humanity from sin through His death and resurrection."),
       QuizQuestion(
-          question: "24. Palm Sunday is celebrated to mark the\n(BECE 2002A Q11)",
+          question:
+              "24. Palm Sunday is celebrated to mark the\n(BECE 2002A Q11)",
           options: [
             "Birth of Christ.",
             "Outpouring of the Holy Spirit.",
@@ -46012,11 +47420,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."
-      ),
-
+          explanation:
+              "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
       QuizQuestion(
-          question: "25. The traditionalist believes that destiny can be changed if he\n(BECE 2002A Q13)",
+          question:
+              "25. The traditionalist believes that destiny can be changed if he\n(BECE 2002A Q13)",
           options: [
             "Is born again into Christianity.",
             "Could consult the gods.",
@@ -46025,11 +47433,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Traditional believers hold that consulting the gods can influence or change one's destiny."
-      ),
-
+          explanation:
+              "Traditional believers hold that consulting the gods can influence or change one's destiny."),
       QuizQuestion(
-          question: "26. The best way to pray during worship is to\n(BECE 2002A Q17)",
+          question:
+              "26. The best way to pray during worship is to\n(BECE 2002A Q17)",
           options: [
             "Face the east and in reverence.",
             "Kneel with arms open.",
@@ -46038,22 +47446,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "True worship requires humility and sincerity rather than outward posture."
-      ),
-
+          explanation:
+              "True worship requires humility and sincerity rather than outward posture."),
       QuizQuestion(
-          question: "27. The Islamic practice by which wealthy Muslims show concern for the poor and needy is\n(BECE 2002A Q18)",
-          options: [
-            "Tawaf",
-            "Zakat",
-            "Hajj",
-            "Salat"
-          ],
+          question:
+              "27. The Islamic practice by which wealthy Muslims show concern for the poor and needy is\n(BECE 2002A Q18)",
+          options: ["Tawaf", "Zakat", "Hajj", "Salat"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Zakat is the compulsory charity that supports the poor and needy."
-      ),
-
+          explanation:
+              "Zakat is the compulsory charity that supports the poor and needy."),
       QuizQuestion(
           question: "28. A Muslim performs Tayammum when he\n(BECE 2002A Q20)",
           options: [
@@ -46064,24 +47466,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Tayammum is dry ablution performed when water is unavailable or cannot be used."
-      ),
-
+          explanation:
+              "Tayammum is dry ablution performed when water is unavailable or cannot be used."),
       QuizQuestion(
-          question: "29. Which of the following is not a revealed book in Islam?\n(BECE 2002B Q10)",
-          options: [
-            "Hadith",
-            "Injil",
-            "Zabur",
-            "Taurah"
-          ],
+          question:
+              "29. Which of the following is not a revealed book in Islam?\n(BECE 2002B Q10)",
+          options: ["Hadith", "Injil", "Zabur", "Taurah"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Hadith contains the sayings and actions of Prophet Muhammad and is not one of the revealed scriptures."
-      ),
-
+          explanation:
+              "Hadith contains the sayings and actions of Prophet Muhammad and is not one of the revealed scriptures."),
       QuizQuestion(
-          question: "30. Zuhr is one of the five compulsory prayers of Muslims which is observed\n(BECE 2002B Q11)",
+          question:
+              "30. Zuhr is one of the five compulsory prayers of Muslims which is observed\n(BECE 2002B Q11)",
           options: [
             "From dawn to sunshine.",
             "When the sun is high in the sky.",
@@ -46090,10 +47487,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Zuhr is the midday prayer, observed after the sun passes its highest point."
-      ),
+          explanation:
+              "Zuhr is the midday prayer, observed after the sun passes its highest point."),
       QuizQuestion(
-          question: "31. All the three main religions in Ghana believe\n(BECE 2002B Q12)",
+          question:
+              "31. All the three main religions in Ghana believe\n(BECE 2002B Q12)",
           options: [
             "In ancestral worship.",
             "That God is everywhere.",
@@ -46102,11 +47500,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Christianity, Islam and African Traditional Religion all believe that God is omnipresent."
-      ),
-
+          explanation:
+              "Christianity, Islam and African Traditional Religion all believe that God is omnipresent."),
       QuizQuestion(
-          question: "32. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
+          question:
+              "32. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
           options: [
             "Be tolerant and intelligent.",
             "Become steadfast and patriotic.",
@@ -46115,11 +47513,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Regular prayer develops spiritual discipline and encourages upright living."
-      ),
-
+          explanation:
+              "Regular prayer develops spiritual discipline and encourages upright living."),
       QuizQuestion(
-          question: "33. The Traditional believer communicates with God through\n(BECE 2002B Q16)",
+          question:
+              "33. The Traditional believer communicates with God through\n(BECE 2002B Q16)",
           options: [
             "Sacrifices.",
             "Purification rites.",
@@ -46128,11 +47526,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Libation is a common means by which traditional believers communicate with God, the gods and the ancestors."
-      ),
-
+          explanation:
+              "Libation is a common means by which traditional believers communicate with God, the gods and the ancestors."),
       QuizQuestion(
-          question: "34. The essence of the holy communion is to\n(BECE 2002B Q17)",
+          question:
+              "34. The essence of the holy communion is to\n(BECE 2002B Q17)",
           options: [
             "Give thanks to God.",
             "Remember Christian fellowship.",
@@ -46141,24 +47539,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Holy Communion commemorates the sacrificial death of Jesus Christ for the salvation of humanity."
-      ),
-
+          explanation:
+              "Holy Communion commemorates the sacrificial death of Jesus Christ for the salvation of humanity."),
       QuizQuestion(
-          question: "35. The Islamic practice of committing the whole Qur'an to memory is\n(BECE 2002B Q19)",
-          options: [
-            "Hudah.",
-            "Hafiz.",
-            "Qurra.",
-            "Tadjwid."
-          ],
+          question:
+              "35. The Islamic practice of committing the whole Qur'an to memory is\n(BECE 2002B Q19)",
+          options: ["Hudah.", "Hafiz.", "Qurra.", "Tadjwid."],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "A Hafiz is a Muslim who has memorized the entire Qur'an."
-      ),
-
+          explanation:
+              "A Hafiz is a Muslim who has memorized the entire Qur'an."),
       QuizQuestion(
-          question: "36. Traditional believers wear charms or talisman\n(BECE 2003 Q8)",
+          question:
+              "36. Traditional believers wear charms or talisman\n(BECE 2003 Q8)",
           options: [
             "To look attractive.",
             "For special protection.",
@@ -46167,24 +47560,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Charms and talismans are traditionally believed to provide spiritual protection."
-      ),
-
+          explanation:
+              "Charms and talismans are traditionally believed to provide spiritual protection."),
       QuizQuestion(
-          question: "37. Fishermen all over the country do not go to sea on\n(BECE 2003 Q9)",
-          options: [
-            "Tuesday.",
-            "Friday.",
-            "Saturday.",
-            "Sunday."
-          ],
+          question:
+              "37. Fishermen all over the country do not go to sea on\n(BECE 2003 Q9)",
+          options: ["Tuesday.", "Friday.", "Saturday.", "Sunday."],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "According to the provided BECE source, Friday is observed as the day fishermen do not go to sea."
-      ),
-
+          explanation:
+              "According to the provided BECE source, Friday is observed as the day fishermen do not go to sea."),
       QuizQuestion(
-          question: "38. To the traditional believers, the next in importance to the Supreme Being are the\n(BECE 2003 Q20)",
+          question:
+              "38. To the traditional believers, the next in importance to the Supreme Being are the\n(BECE 2003 Q20)",
           options: [
             "Lesser gods.",
             "Earth goddess.",
@@ -46193,24 +47581,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "In African Traditional Religion, the lesser gods are regarded as next in importance after the Supreme Being."
-      ),
-
+          explanation:
+              "In African Traditional Religion, the lesser gods are regarded as next in importance after the Supreme Being."),
       QuizQuestion(
-          question: "39. In the traditional society, giving birth to a child is considered as a\n(BECE 2003 Q24)",
-          options: [
-            "Privilege.",
-            "Responsibility.",
-            "Right.",
-            "Virtue."
-          ],
+          question:
+              "39. In the traditional society, giving birth to a child is considered as a\n(BECE 2003 Q24)",
+          options: ["Privilege.", "Responsibility.", "Right.", "Virtue."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Having children is regarded as a privilege and a blessing in traditional society."
-      ),
-
+          explanation:
+              "Having children is regarded as a privilege and a blessing in traditional society."),
       QuizQuestion(
-          question: "40. When Fatimah and Mensah are committed to each other in friendship, they are prepared to\n(BECE 2003 Q26)",
+          question:
+              "40. When Fatimah and Mensah are committed to each other in friendship, they are prepared to\n(BECE 2003 Q26)",
           options: [
             "Worship God sincerely.",
             "Write an examination together.",
@@ -46219,11 +47602,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "True friendship involves standing by one another in both prosperity and hardship."
-      ),
-
+          explanation:
+              "True friendship involves standing by one another in both prosperity and hardship."),
       QuizQuestion(
-          question: "41. Anyone who enters a house is expected to first\n(BECE 2003 Q27)",
+          question:
+              "41. Anyone who enters a house is expected to first\n(BECE 2003 Q27)",
           options: [
             "Ask for water.",
             "Remove his sandals.",
@@ -46232,11 +47615,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Greeting people upon entering a house is a sign of respect and good manners."
-      ),
-
+          explanation:
+              "Greeting people upon entering a house is a sign of respect and good manners."),
       QuizQuestion(
-          question: "42. The Holy Qur'an describes angels as creatures who\n(BECE 2004 Q5)",
+          question:
+              "42. The Holy Qur'an describes angels as creatures who\n(BECE 2004 Q5)",
           options: [
             "Anoint prophets and messengers of Allah.",
             "Punish wrong doers on the judgment day.",
@@ -46245,48 +47628,35 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Angels are obedient servants of Allah who carry out His commands."
-      ),
-
+          explanation:
+              "Angels are obedient servants of Allah who carry out His commands."),
       QuizQuestion(
-          question: "43. Which of the following acts in Islam promotes good neighbourliness, love and brotherhood?\n(BECE 2004 Q6)",
-          options: [
-            "Hajj",
-            "Asr",
-            "Salat",
-            "Ramadan"
-          ],
+          question:
+              "43. Which of the following acts in Islam promotes good neighbourliness, love and brotherhood?\n(BECE 2004 Q6)",
+          options: ["Hajj", "Asr", "Salat", "Ramadan"],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Congregational Salat promotes unity, brotherhood and good neighbourliness among Muslims."
-      ),
-
+          explanation:
+              "Congregational Salat promotes unity, brotherhood and good neighbourliness among Muslims."),
       QuizQuestion(
-          question: "44. The Muslim prayer observed after sunset is\n(BECE 2004 Q7)",
-          options: [
-            "Maghrib.",
-            "Asr.",
-            "Zuhr.",
-            "Fajr."
-          ],
+          question:
+              "44. The Muslim prayer observed after sunset is\n(BECE 2004 Q7)",
+          options: ["Maghrib.", "Asr.", "Zuhr.", "Fajr."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Maghrib is the obligatory prayer performed immediately after sunset."
-      ),
-
+          explanation:
+              "Maghrib is the obligatory prayer performed immediately after sunset."),
       QuizQuestion(
-          question: "45. To the traditional believer, the transition from the physical to the spiritual world occurs through\n(BECE 2004 Q11)",
-          options: [
-            "Naming.",
-            "Birth.",
-            "Death.",
-            "Puberty."
-          ],
+          question:
+              "45. To the traditional believer, the transition from the physical to the spiritual world occurs through\n(BECE 2004 Q11)",
+          options: ["Naming.", "Birth.", "Death.", "Puberty."],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Death marks the transition from the physical world to the spiritual world in African Traditional Religion."
-      ),QuizQuestion(
-          question: "46. All religions teach mankind to see the ______ of the earth and to\n(BECE 2004 Q13)",
+          explanation:
+              "Death marks the transition from the physical world to the spiritual world in African Traditional Religion."),
+      QuizQuestion(
+          question:
+              "46. All religions teach mankind to see the ______ of the earth and to\n(BECE 2004 Q13)",
           options: [
             "Farm on it.",
             "Build on it.",
@@ -46295,22 +47665,15 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "All religions teach that human beings are stewards of the earth and should care for it."
-      ),
-
+          explanation:
+              "All religions teach that human beings are stewards of the earth and should care for it."),
       QuizQuestion(
-          question: "47. There is no god but Allah and Muhammed is the messenger of Allah. This represents the\n(BECE 2004 Q14)",
-          options: [
-            "Shahadah.",
-            "Iqamah.",
-            "Adhan.",
-            "Sunnah."
-          ],
+          question:
+              "47. There is no god but Allah and Muhammed is the messenger of Allah. This represents the\n(BECE 2004 Q14)",
+          options: ["Shahadah.", "Iqamah.", "Adhan.", "Sunnah."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The Shahadah is the Islamic declaration of faith."
-      ),
-
+          explanation: "The Shahadah is the Islamic declaration of faith."),
       QuizQuestion(
           question: "48. Capital punishment is meant to\n(BECE 2006 Q39)",
           options: [
@@ -46321,11 +47684,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Capital punishment is intended to protect society from dangerous offenders."
-      ),
-
+          explanation:
+              "Capital punishment is intended to protect society from dangerous offenders."),
       QuizQuestion(
-          question: "49. The need for repentance is expressed in the parable of the\n(BECE 2007 Q31)",
+          question:
+              "49. The need for repentance is expressed in the parable of the\n(BECE 2007 Q31)",
           options: [
             "Sower.",
             "Mustard seed.",
@@ -46334,24 +47697,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The Parable of the Prodigal Son teaches repentance, forgiveness and God's mercy."
-      ),
-
+          explanation:
+              "The Parable of the Prodigal Son teaches repentance, forgiveness and God's mercy."),
       QuizQuestion(
-          question: "50. Which of the following is not a punishment in schools?\n(BECE 2008 Q25)",
-          options: [
-            "Bad testimonial",
-            "Banishment",
-            "Flogging",
-            "Reprimand"
-          ],
+          question:
+              "50. Which of the following is not a punishment in schools?\n(BECE 2008 Q25)",
+          options: ["Bad testimonial", "Banishment", "Flogging", "Reprimand"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Banishment is not a normal disciplinary measure used in schools."
-      ),
-
+          explanation:
+              "Banishment is not a normal disciplinary measure used in schools."),
       QuizQuestion(
-          question: "51. One effect of corruption in society is that it\n(BECE 2008 Q29)",
+          question:
+              "51. One effect of corruption in society is that it\n(BECE 2008 Q29)",
           options: [
             "Makes people rich.",
             "Provides jobs for people.",
@@ -46360,11 +47718,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Corruption often results in unqualified people occupying important positions."
-      ),
-
+          explanation:
+              "Corruption often results in unqualified people occupying important positions."),
       QuizQuestion(
-          question: "52. Dumping of refuse at residential areas is dangerous because it may\n(BECE 2008 Q32)",
+          question:
+              "52. Dumping of refuse at residential areas is dangerous because it may\n(BECE 2008 Q32)",
           options: [
             "Result in soil erosion.",
             "Reduce plant species.",
@@ -46373,15 +47731,17 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Improper refuse disposal creates breeding grounds for disease-causing organisms, leading to disease outbreaks."
-      ),
+          explanation:
+              "Improper refuse disposal creates breeding grounds for disease-causing organisms, leading to disease outbreaks."),
     ],
   ),
-  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living": QuizModel(
+  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living":
+      QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. Which of the following can be noticed in those who use drugs?\n(BECE 2008 Q38)",
+          question:
+              "1. Which of the following can be noticed in those who use drugs?\n(BECE 2008 Q38)",
           options: [
             "Quick response to questions in class",
             "Disrespect for authority",
@@ -46390,11 +47750,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Drug abuse often leads to indiscipline and disrespect for authority."
-      ),
-
+          explanation:
+              "Drug abuse often leads to indiscipline and disrespect for authority."),
       QuizQuestion(
-          question: "2. Refusal to follow medical prescription may lead to\n(BECE 2017 Q18)",
+          question:
+              "2. Refusal to follow medical prescription may lead to\n(BECE 2017 Q18)",
           options: [
             "Disrespect for authorities",
             "Failure in life",
@@ -46403,22 +47763,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Ignoring medical prescriptions can result in misuse of drugs and substance abuse."
-      ),
-
+          explanation:
+              "Ignoring medical prescriptions can result in misuse of drugs and substance abuse."),
       QuizQuestion(
-          question: "3. Boys and girls are to dress modestly and decently to show that they are\n(BECE 2006 Q36)",
-          options: [
-            "Truthful",
-            "Honest",
-            "Courteous",
-            "Brilliant"
-          ],
+          question:
+              "3. Boys and girls are to dress modestly and decently to show that they are\n(BECE 2006 Q36)",
+          options: ["Truthful", "Honest", "Courteous", "Brilliant"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Decent dressing is a sign of courtesy, self-respect and good manners."
-      ),
-
+          explanation:
+              "Decent dressing is a sign of courtesy, self-respect and good manners."),
       QuizQuestion(
           question: "4. People lead decent lives in order to\n(BECE 2003 Q28)",
           options: [
@@ -46429,24 +47783,17 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Living decently promotes healthy relationships and peaceful coexistence."
-      ),
-
+          explanation:
+              "Living decently promotes healthy relationships and peaceful coexistence."),
       QuizQuestion(
           question: "5. Which type of substance is coffee?\n(BECE 2001 Q36)",
-          options: [
-            "Stimulant",
-            "Hard drug",
-            "Common drug",
-            "Beverage"
-          ],
+          options: ["Stimulant", "Hard drug", "Common drug", "Beverage"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Coffee contains caffeine, which is a stimulant."
-      ),
-
+          explanation: "Coffee contains caffeine, which is a stimulant."),
       QuizQuestion(
-          question: "6. People avoid dangerous substances in order to\n(BECE 2012 Q25)",
+          question:
+              "6. People avoid dangerous substances in order to\n(BECE 2012 Q25)",
           options: [
             "Develop their potentials",
             "Stay healthy",
@@ -46455,35 +47802,23 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Avoiding harmful substances helps people maintain good health."
-      ),
-
+          explanation:
+              "Avoiding harmful substances helps people maintain good health."),
       QuizQuestion(
-          question: "7. Which of the following is an example of a hard drug?\n(BECE 2002A Q35)",
-          options: [
-            "Chloroquine",
-            "Coffee",
-            "Alcohol",
-            "Cocaine"
-          ],
+          question:
+              "7. Which of the following is an example of a hard drug?\n(BECE 2002A Q35)",
+          options: ["Chloroquine", "Coffee", "Alcohol", "Cocaine"],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Cocaine is classified as a hard drug because of its highly addictive nature."
-      ),
-
+          explanation:
+              "Cocaine is classified as a hard drug because of its highly addictive nature."),
       QuizQuestion(
-          question: "8. Which of the following is not an example of a stimulant?\n(BECE 2006 Q36)",
-          options: [
-            "Alcohol",
-            "Cocaine",
-            "Chloroquine",
-            "Marijuana"
-          ],
+          question:
+              "8. Which of the following is not an example of a stimulant?\n(BECE 2006 Q36)",
+          options: ["Alcohol", "Cocaine", "Chloroquine", "Marijuana"],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "Alcohol is a depressant, not a stimulant."
-      ),
-
+          explanation: "Alcohol is a depressant, not a stimulant."),
       QuizQuestion(
           question: "9. Self-medication means\n(BECE 2004 Q37)",
           options: [
@@ -46494,11 +47829,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Self-medication is the use of drugs without professional medical advice."
-      ),
-
+          explanation:
+              "Self-medication is the use of drugs without professional medical advice."),
       QuizQuestion(
-          question: "10. Which of the following reasons may promote drug abuse?\n(BECE 2002B Q39)",
+          question:
+              "10. Which of the following reasons may promote drug abuse?\n(BECE 2002B Q39)",
           options: [
             "Showing pictures of victims of drug abuse",
             "Debate organized for students on hard drug abuse",
@@ -46507,24 +47842,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Taking drugs without knowing their side effects can encourage drug abuse."
-      ),
-
+          explanation:
+              "Taking drugs without knowing their side effects can encourage drug abuse."),
       QuizQuestion(
-          question: "11. Which of the following is an effect of drug abuse?\n(BECE 2011 Q27)",
-          options: [
-            "Obedience",
-            "Truancy",
-            "Politeness",
-            "Truthfulness"
-          ],
+          question:
+              "11. Which of the following is an effect of drug abuse?\n(BECE 2011 Q27)",
+          options: ["Obedience", "Truancy", "Politeness", "Truthfulness"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Drug abuse often leads to truancy and other forms of indiscipline."
-      ),
-
+          explanation:
+              "Drug abuse often leads to truancy and other forms of indiscipline."),
       QuizQuestion(
-          question: "12. Decent dressing and good eating habits show\n(BECE 2023 Q32)",
+          question:
+              "12. Decent dressing and good eating habits show\n(BECE 2023 Q32)",
           options: [
             "That one is obedient to parents",
             "The particular community one comes from",
@@ -46533,24 +47863,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Good dressing and eating habits reflect proper upbringing and training."
-      ),
-
+          explanation:
+              "Good dressing and eating habits reflect proper upbringing and training."),
       QuizQuestion(
-          question: "13. Which of the following drugs is most commonly abused?\n(BECE 2005 Q33)",
-          options: [
-            "Cocaine",
-            "Laxatives",
-            "Tobacco",
-            "Paracetamol"
-          ],
+          question:
+              "13. Which of the following drugs is most commonly abused?\n(BECE 2005 Q33)",
+          options: ["Cocaine", "Laxatives", "Tobacco", "Paracetamol"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Tobacco is one of the most commonly abused substances worldwide."
-      ),
-
+          explanation:
+              "Tobacco is one of the most commonly abused substances worldwide."),
       QuizQuestion(
-          question: "14. The basis for describing some drugs as sedative is that they\n(BECE 2002B Q39)",
+          question:
+              "14. The basis for describing some drugs as sedative is that they\n(BECE 2002B Q39)",
           options: [
             "Stimulate the user",
             "Tend to relax the nerves and reduce stress",
@@ -46559,23 +47884,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Sedatives are drugs that calm the nervous system and reduce anxiety and stress."
-      ),
-
+          explanation:
+              "Sedatives are drugs that calm the nervous system and reduce anxiety and stress."),
       QuizQuestion(
-          question: "15. Substances that tend to relax the nerves and reduce stress are\n(BECE 2004 Q39)",
-          options: [
-            "Sedatives",
-            "Stimulants",
-            "Hard drugs",
-            "Common drugs"
-          ],
+          question:
+              "15. Substances that tend to relax the nerves and reduce stress are\n(BECE 2004 Q39)",
+          options: ["Sedatives", "Stimulants", "Hard drugs", "Common drugs"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Sedatives are substances that calm the nerves and reduce stress."
-      ),
+          explanation:
+              "Sedatives are substances that calm the nerves and reduce stress."),
       QuizQuestion(
-          question: "16. Which of the following is not a reason for living a decent life?\n(BECE 2007 Q36)",
+          question:
+              "16. Which of the following is not a reason for living a decent life?\n(BECE 2007 Q36)",
           options: [
             "To earn the respect of people",
             "To gain the trust of others",
@@ -46584,9 +47905,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The purpose of living a decent life is to build good character, not to receive prizes from others."
-      ),
-
+          explanation:
+              "The purpose of living a decent life is to build good character, not to receive prizes from others."),
       QuizQuestion(
           question: "17. Smoking is discouraged because it\n(BECE 2007 Q36)",
           options: [
@@ -46597,11 +47917,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Smoking damages the lungs and can cause serious respiratory diseases."
-      ),
-
+          explanation:
+              "Smoking damages the lungs and can cause serious respiratory diseases."),
       QuizQuestion(
-          question: "18. One danger associated with drug abuse is that it\n(BECE 2012 Q28)",
+          question:
+              "18. One danger associated with drug abuse is that it\n(BECE 2012 Q28)",
           options: [
             "Causes idleness",
             "Makes a person arrogant",
@@ -46610,11 +47930,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Drug abuse can lead to laziness, lack of productivity and idleness."
-      ),
-
+          explanation:
+              "Drug abuse can lead to laziness, lack of productivity and idleness."),
       QuizQuestion(
-          question: "19. A defensive mechanism that can help protect student against drug abuse is\n(BECE 2012 Q28)",
+          question:
+              "19. A defensive mechanism that can help protect student against drug abuse is\n(BECE 2012 Q28)",
           options: [
             "To control one's temper",
             "Living a chaste life",
@@ -46623,9 +47943,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "The best personal defense against drug abuse is to refuse and say no to drugs."
-      ),
-
+          explanation:
+              "The best personal defense against drug abuse is to refuse and say no to drugs."),
       QuizQuestion(
           question: "20. People lead decent lives in order to\n(BECE 2013 Q23)",
           options: [
@@ -46636,11 +47955,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Living a decent life promotes peace, harmony and good relationships in society."
-      ),
-
+          explanation:
+              "Living a decent life promotes peace, harmony and good relationships in society."),
       QuizQuestion(
-          question: "21. A student must dress decently because it\n(BECE 2015 Q25)",
+          question:
+              "21. A student must dress decently because it\n(BECE 2015 Q25)",
           options: [
             "Is a mark of intelligence",
             "Shows respect and politeness",
@@ -46649,9 +47968,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Decent dressing demonstrates respect for oneself and for others."
-      ),
-
+          explanation:
+              "Decent dressing demonstrates respect for oneself and for others."),
       QuizQuestion(
           question: "22. People lead decent live in order to\n(BECE 2016 Q27)",
           options: [
@@ -46662,37 +47980,27 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Decent living encourages peaceful coexistence within the community."
-      ),
-
+          explanation:
+              "Decent living encourages peaceful coexistence within the community."),
       QuizQuestion(
-          question: "23. Which of the following behaviours is an effect of drug abuse?\n(BECE 2016 Q28)",
-          options: [
-            "Obedience",
-            "Politeness",
-            "Truancy",
-            "Truthfulness"
-          ],
+          question:
+              "23. Which of the following behaviours is an effect of drug abuse?\n(BECE 2016 Q28)",
+          options: ["Obedience", "Politeness", "Truancy", "Truthfulness"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Drug abuse commonly results in truancy and other forms of indiscipline."
-      ),
-
+          explanation:
+              "Drug abuse commonly results in truancy and other forms of indiscipline."),
       QuizQuestion(
-          question: "24. Looking simple and decent is a sign of\n(BECE 2016 Q28)",
-          options: [
-            "Comportment",
-            "Faithfulness",
-            "Repentance",
-            "Tolerance"
-          ],
+          question:
+              "24. Looking simple and decent is a sign of\n(BECE 2016 Q28)",
+          options: ["Comportment", "Faithfulness", "Repentance", "Tolerance"],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Looking simple and decent reflects good comportment and proper behaviour."
-      ),
-
+          explanation:
+              "Looking simple and decent reflects good comportment and proper behaviour."),
       QuizQuestion(
-          question: "25. A person must lead a decent life in order to\n(BECE 2018 Q33)",
+          question:
+              "25. A person must lead a decent life in order to\n(BECE 2018 Q33)",
           options: [
             "Be praised for patriotism",
             "Be seen as being kind",
@@ -46701,24 +48009,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Living a decent life promotes peace and harmony in society."
-      ),
-
+          explanation:
+              "Living a decent life promotes peace and harmony in society."),
       QuizQuestion(
           question: "26. People abuse substance because of\n(BECE 2020 Q33)",
-          options: [
-            "Happiness",
-            "Ignorance",
-            "Problems",
-            "Vengeance"
-          ],
+          options: ["Happiness", "Ignorance", "Problems", "Vengeance"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Ignorance about the harmful effects of drugs is a major cause of substance abuse."
-      ),
-
+          explanation:
+              "Ignorance about the harmful effects of drugs is a major cause of substance abuse."),
       QuizQuestion(
-          question: "27. To avoid drug abuse, the student must\n(BECE 2021 Q10)",
+          question:
+              "27. To avoid drug abuse, the student must\n(BECE 2021 Q10)",
           options: [
             "Exercise the body frequently",
             "Keep off bad friends",
@@ -46727,28 +48029,23 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Avoiding bad company is one of the most effective ways to prevent drug abuse."
-      ),
-
+          explanation:
+              "Avoiding bad company is one of the most effective ways to prevent drug abuse."),
       QuizQuestion(
           question: "28. Living a decent life can earn you\n(BECE 2021 Q23)",
-          options: [
-            "Promotion",
-            "Respect",
-            "Success",
-            "Wealth"
-          ],
+          options: ["Promotion", "Respect", "Success", "Wealth"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "People who live decent lives are respected and trusted by others."
-      ),
+          explanation:
+              "People who live decent lives are respected and trusted by others."),
     ],
   ),
   "Religious & Moral Education JHS1 s6 ss1 - Objective Questions": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. Leisure time is described as a time for\n(BECE 2001 Q30)",
+          question:
+              "1. Leisure time is described as a time for\n(BECE 2001 Q30)",
           options: [
             "Scrubbing the toilet and the kitchen.",
             "Going to church to worship God.",
@@ -46757,11 +48054,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Leisure time is free time used for relaxation and recreational activities such as indoor and outdoor games."
-      ),
-
+          explanation:
+              "Leisure time is free time used for relaxation and recreational activities such as indoor and outdoor games."),
       QuizQuestion(
-          question: "2. The expression, work and happiness means\n(BECE 2002A Q24)",
+          question:
+              "2. The expression, work and happiness means\n(BECE 2002A Q24)",
           options: [
             "When one works, one becomes happy.",
             "Enjoying the fruits of one's labour.",
@@ -46770,24 +48067,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The expression means that hard work enables one to enjoy the rewards of one's labour."
-      ),
-
+          explanation:
+              "The expression means that hard work enables one to enjoy the rewards of one's labour."),
       QuizQuestion(
-          question: "3. Humankind can learn a lot about the use of time from the\n(BECE 2006 Q37)",
-          options: [
-            "Hare.",
-            "Ant.",
-            "Tortoise.",
-            "Bee."
-          ],
+          question:
+              "3. Humankind can learn a lot about the use of time from the\n(BECE 2006 Q37)",
+          options: ["Hare.", "Ant.", "Tortoise.", "Bee."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "The ant is known for diligence, proper planning and making good use of time."
-      ),
-
+          explanation:
+              "The ant is known for diligence, proper planning and making good use of time."),
       QuizQuestion(
-          question: "4. Which of the following is the best way of handling money?\n(BECE 2002A Q39)",
+          question:
+              "4. Which of the following is the best way of handling money?\n(BECE 2002A Q39)",
           options: [
             "Keeping it under the breast.",
             "Tying it in a handkerchief.",
@@ -46796,11 +48088,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Money should be handled neatly and carefully to keep it clean and in good condition."
-      ),
-
+          explanation:
+              "Money should be handled neatly and carefully to keep it clean and in good condition."),
       QuizQuestion(
-          question: "5. People normally save money in order to\n(BECE 1999 Q22)",
+          question:
+              "5. People normally save money in order to\n(BECE 1999 Q22)",
           options: [
             "Use their income wisely.",
             "Help the government to generate more revenue.",
@@ -46809,11 +48101,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Saving money helps people prepare for future needs and emergencies."
-      ),
-
+          explanation:
+              "Saving money helps people prepare for future needs and emergencies."),
       QuizQuestion(
-          question: "6. As pupils, we should use our leisure time to\n(BECE 2002A Q23)",
+          question:
+              "6. As pupils, we should use our leisure time to\n(BECE 2002A Q23)",
           options: [
             "Play games.",
             "Do our homework.",
@@ -46822,24 +48114,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Students should use part of their leisure time productively by doing their homework."
-      ),
-
+          explanation:
+              "Students should use part of their leisure time productively by doing their homework."),
       QuizQuestion(
-          question: "7. A happy and prosperous life depends on\n(BECE 2002A Q31)",
-          options: [
-            "Obedience.",
-            "Respect.",
-            "Courage.",
-            "Hard work."
-          ],
+          question:
+              "7. A happy and prosperous life depends on\n(BECE 2002A Q31)",
+          options: ["Obedience.", "Respect.", "Courage.", "Hard work."],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Hard work is the foundation of a happy and prosperous life."
-      ),
-
+          explanation:
+              "Hard work is the foundation of a happy and prosperous life."),
       QuizQuestion(
-          question: "8. One of the benefits of working hard is\n(BECE 2001 Q40)",
+          question:
+              "8. One of the benefits of working hard is\n(BECE 2001 Q40)",
           options: [
             "Putting up good house.",
             "Having leisure.",
@@ -46848,11 +48135,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Hard work enables people to become financially independent."
-      ),
-
+          explanation:
+              "Hard work enables people to become financially independent."),
       QuizQuestion(
-          question: "9. We contribute to church dues and offering to\n(BECE 2001 Q33)",
+          question:
+              "9. We contribute to church dues and offering to\n(BECE 2001 Q33)",
           options: [
             "Enable the church to develop spiritually.",
             "Promote deliverance service.",
@@ -46861,11 +48148,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Church offerings support evangelism and provide assistance to the needy."
-      ),
-
+          explanation:
+              "Church offerings support evangelism and provide assistance to the needy."),
       QuizQuestion(
-          question: "10. It is a bad habit to use one's leisure time in\n(BECE 1999 Q28)",
+          question:
+              "10. It is a bad habit to use one's leisure time in\n(BECE 1999 Q28)",
           options: [
             "Reading a story book.",
             "Telling stories.",
@@ -46874,11 +48161,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Gossip is an unhealthy use of leisure time and should be avoided."
-      ),
-
+          explanation:
+              "Gossip is an unhealthy use of leisure time and should be avoided."),
       QuizQuestion(
-          question: "11. In school's speech and prize giving day, the best pupil is rewarded with a\n(BECE 2003 Q25)",
+          question:
+              "11. In school's speech and prize giving day, the best pupil is rewarded with a\n(BECE 2003 Q25)",
           options: [
             "Book prizes.",
             "Cash prize.",
@@ -46887,11 +48174,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Outstanding pupils are commonly recognized with certificates during prize-giving ceremonies."
-      ),
-
+          explanation:
+              "Outstanding pupils are commonly recognized with certificates during prize-giving ceremonies."),
       QuizQuestion(
-          question: "12. The importance of work is to help us to\n(BECE 2003 Q38)",
+          question:
+              "12. The importance of work is to help us to\n(BECE 2003 Q38)",
           options: [
             "Be honest in our daily activities.",
             "Plan our duties at all time.",
@@ -46900,9 +48187,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Working keeps both the body and mind active and healthy."
-      ),
-
+          explanation:
+              "Working keeps both the body and mind active and healthy."),
       QuizQuestion(
           question: "13. Leisure time is used for\n(BECE 2004 Q28)",
           options: [
@@ -46913,24 +48199,18 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Leisure is free time mainly used for relaxation and recreation."
-      ),
-
+          explanation:
+              "Leisure is free time mainly used for relaxation and recreation."),
       QuizQuestion(
           question: "14. Work help us to become\n(BECE 2004 Q24)",
-          options: [
-            "Reliable.",
-            "Sincere.",
-            "Healthy.",
-            "Courteous."
-          ],
+          options: ["Reliable.", "Sincere.", "Healthy.", "Courteous."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Working diligently builds reliability and responsibility."
-      ),
-
+          explanation:
+              "Working diligently builds reliability and responsibility."),
       QuizQuestion(
-          question: "15. There is dignity in labour. This statement means\n(BECE 2004 Q25)",
+          question:
+              "15. There is dignity in labour. This statement means\n(BECE 2004 Q25)",
           options: [
             "Only office work brings recognition.",
             "Some jobs are more dignified than others.",
@@ -46939,10 +48219,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "The statement teaches that every honest job is valuable and people should take pride in their work."
-      ),
+          explanation:
+              "The statement teaches that every honest job is valuable and people should take pride in their work."),
       QuizQuestion(
-          question: "16. The term idleness in Religious and Moral Education means\n(BECE 2005 Q24)",
+          question:
+              "16. The term idleness in Religious and Moral Education means\n(BECE 2005 Q24)",
           options: [
             "Having fun.",
             "Enjoying siesta.",
@@ -46951,11 +48232,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Idleness refers to wasting time instead of engaging in useful and productive activities."
-      ),
-
+          explanation:
+              "Idleness refers to wasting time instead of engaging in useful and productive activities."),
       QuizQuestion(
-          question: "17. In which way can money help spread germs?\n(BECE 2005 Q34)",
+          question:
+              "17. In which way can money help spread germs?\n(BECE 2005 Q34)",
           options: [
             "Keeping it in a purse for a long period.",
             "Handling it with hands.",
@@ -46964,37 +48245,27 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Keeping money in one's brassiere exposes it to sweat and germs, making it unhygienic."
-      ),
-
+          explanation:
+              "Keeping money in one's brassiere exposes it to sweat and germs, making it unhygienic."),
       QuizQuestion(
-          question: "18. The statement that time is money, implies that time is\n(BECE 2005 Q38)",
-          options: [
-            "Precious.",
-            "Limitless.",
-            "Life.",
-            "Everything."
-          ],
+          question:
+              "18. The statement that time is money, implies that time is\n(BECE 2005 Q38)",
+          options: ["Precious.", "Limitless.", "Life.", "Everything."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "The saying emphasizes that time is valuable and should not be wasted."
-      ),
-
+          explanation:
+              "The saying emphasizes that time is valuable and should not be wasted."),
       QuizQuestion(
-          question: "19. The most important requirement for a happy and prosperous life is\n(BECE 2006 Q25)",
-          options: [
-            "Loyalty.",
-            "Respect.",
-            "Courage.",
-            "Hard work."
-          ],
+          question:
+              "19. The most important requirement for a happy and prosperous life is\n(BECE 2006 Q25)",
+          options: ["Loyalty.", "Respect.", "Courage.", "Hard work."],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Hard work is the key to achieving success and prosperity."
-      ),
-
+          explanation:
+              "Hard work is the key to achieving success and prosperity."),
       QuizQuestion(
-          question: "20. The expression 'work and happiness' implies one\n(BECE 2006 Q28)",
+          question:
+              "20. The expression 'work and happiness' implies one\n(BECE 2006 Q28)",
           options: [
             "Likes working always.",
             "Dances whilst working.",
@@ -47003,37 +48274,25 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Work brings satisfaction because people enjoy the rewards of their labour."
-      ),
-
+          explanation:
+              "Work brings satisfaction because people enjoy the rewards of their labour."),
       QuizQuestion(
-          question: "21. Good working habits include all the following except\n(BECE 2006 Q37)",
-          options: [
-            "Honesty.",
-            "Reliability.",
-            "Commitment.",
-            "Faith."
-          ],
+          question:
+              "21. Good working habits include all the following except\n(BECE 2006 Q37)",
+          options: ["Honesty.", "Reliability.", "Commitment.", "Faith."],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Honesty, reliability and commitment are work habits, while faith is not specifically a working habit."
-      ),
-
+          explanation:
+              "Honesty, reliability and commitment are work habits, while faith is not specifically a working habit."),
       QuizQuestion(
           question: "22. Hard work is most often crowned with\n(BECE 2007 Q21)",
-          options: [
-            "Favours.",
-            "Success.",
-            "Popularity.",
-            "Obedience."
-          ],
+          options: ["Favours.", "Success.", "Popularity.", "Obedience."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Hard work usually leads to success."
-      ),
-
+          explanation: "Hard work usually leads to success."),
       QuizQuestion(
-          question: "23. The best way to enjoy peace and success in life is to\n(BECE 2007 Q24)",
+          question:
+              "23. The best way to enjoy peace and success in life is to\n(BECE 2007 Q24)",
           options: [
             "Accumulate wealth.",
             "Fight for one's right always.",
@@ -47042,11 +48301,10 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Being responsible promotes peace, trust and success."
-      ),
-
+          explanation: "Being responsible promotes peace, trust and success."),
       QuizQuestion(
-          question: "24. Which of the following is not true about money? It is\n(BECE 2008 Q27)",
+          question:
+              "24. Which of the following is not true about money? It is\n(BECE 2008 Q27)",
           options: [
             "Owned by the state.",
             "The accepted means of exchange.",
@@ -47055,24 +48313,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "Money is used to exchange goods and services, not 'exchange goods for goods,' which describes barter."
-      ),
-
+          explanation:
+              "Money is used to exchange goods and services, not 'exchange goods for goods,' which describes barter."),
       QuizQuestion(
-          question: "25. The best way a worker can ask for a good salary is through\n(BECE 2008 Q26)",
-          options: [
-            "Negotiation.",
-            "Confrontation.",
-            "Strike.",
-            "Threat."
-          ],
+          question:
+              "25. The best way a worker can ask for a good salary is through\n(BECE 2008 Q26)",
+          options: ["Negotiation.", "Confrontation.", "Strike.", "Threat."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Negotiation is the proper and peaceful way to request better pay."
-      ),
-
+          explanation:
+              "Negotiation is the proper and peaceful way to request better pay."),
       QuizQuestion(
-          question: "26. It is a bad habit to use one's leisure time in\n(BECE 2011 Q29)",
+          question:
+              "26. It is a bad habit to use one's leisure time in\n(BECE 2011 Q29)",
           options: [
             "Playing games.",
             "Telling stories.",
@@ -47081,22 +48334,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Gossiping is an unhealthy and irresponsible use of leisure time."
-      ),
-
+          explanation:
+              "Gossiping is an unhealthy and irresponsible use of leisure time."),
       QuizQuestion(
-          question: "27. A happy and prosperous life depends on\n(BECE 2011 Q39)",
-          options: [
-            "Obedience.",
-            "Hard work.",
-            "Respect.",
-            "Courage."
-          ],
+          question:
+              "27. A happy and prosperous life depends on\n(BECE 2011 Q39)",
+          options: ["Obedience.", "Hard work.", "Respect.", "Courage."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Hard work is the foundation of a prosperous and successful life."
-      ),
-
+          explanation:
+              "Hard work is the foundation of a prosperous and successful life."),
       QuizQuestion(
           question: "28. The saying time is money, means\n(BECE 2012 Q31)",
           options: [
@@ -47107,9 +48354,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Medium",
-          explanation: "The saying emphasizes using time wisely because productive use of time leads to success and profit."
-      ),
-
+          explanation:
+              "The saying emphasizes using time wisely because productive use of time leads to success and profit."),
       QuizQuestion(
           question: "29. Humankind work in order to\n(BECE 2012 Q39)",
           options: [
@@ -47120,9 +48366,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "People work primarily to provide for their basic needs and those of their families."
-      ),
-
+          explanation:
+              "People work primarily to provide for their basic needs and those of their families."),
       QuizQuestion(
           question: "30. Workers go on strike to\n(BECE 2013 Q21)",
           options: [
@@ -47133,21 +48378,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Workers organize strikes to demand improved salaries, welfare and working conditions."
-      ),
+          explanation:
+              "Workers organize strikes to demand improved salaries, welfare and working conditions."),
       QuizQuestion(
-          question: "31. Which of the following is not a positive attribute to work?\n(BECE 2013 Q26)",
-          options: [
-            "Hard working",
-            "Laziness",
-            "Punctuality",
-            "Truthfulness"
-          ],
+          question:
+              "31. Which of the following is not a positive attribute to work?\n(BECE 2013 Q26)",
+          options: ["Hard working", "Laziness", "Punctuality", "Truthfulness"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Laziness is a negative attitude to work, while hard work, punctuality and truthfulness are positive qualities."
-      ),
-
+          explanation:
+              "Laziness is a negative attitude to work, while hard work, punctuality and truthfulness are positive qualities."),
       QuizQuestion(
           question: "32. A wrong way to use one's leisure is\n(BECE 2013 Q33)",
           options: [
@@ -47158,37 +48398,26 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Gossiping is an improper use of leisure because it can harm relationships and waste time."
-      ),
-
+          explanation:
+              "Gossiping is an improper use of leisure because it can harm relationships and waste time."),
       QuizQuestion(
           question: "33. A positive attitude towards work is\n(BECE 2014 Q31)",
-          options: [
-            "Commitment.",
-            "Graciousness.",
-            "Compliance.",
-            "Purity."
-          ],
+          options: ["Commitment.", "Graciousness.", "Compliance.", "Purity."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Commitment is an important positive attitude that promotes productivity and responsibility."
-      ),
-
+          explanation:
+              "Commitment is an important positive attitude that promotes productivity and responsibility."),
       QuizQuestion(
-          question: "34. The most important requirement for a happy and prosperous life is\n(BECE 2014 Q25)",
-          options: [
-            "Courage.",
-            "Hard work.",
-            "Loyalty.",
-            "Respect."
-          ],
+          question:
+              "34. The most important requirement for a happy and prosperous life is\n(BECE 2014 Q25)",
+          options: ["Courage.", "Hard work.", "Loyalty.", "Respect."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Hard work is the key to achieving success and prosperity."
-      ),
-
+          explanation:
+              "Hard work is the key to achieving success and prosperity."),
       QuizQuestion(
-          question: "35. In planning personal budget, it is necessary to ensure that\n(BECE 2014 Q36)",
+          question:
+              "35. In planning personal budget, it is necessary to ensure that\n(BECE 2014 Q36)",
           options: [
             "Expenditure is more than income.",
             "Income is more than expenditure.",
@@ -47197,9 +48426,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "A good budget ensures that income is greater than expenditure so that savings can be made."
-      ),
-
+          explanation:
+              "A good budget ensures that income is greater than expenditure so that savings can be made."),
       QuizQuestion(
           question: "36. Leisure is best used to\n(BECE 2014 Q38)",
           options: [
@@ -47210,22 +48438,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Leisure can be used productively to acquire useful skills and talents."
-      ),
-
+          explanation:
+              "Leisure can be used productively to acquire useful skills and talents."),
       QuizQuestion(
-          question: "37. Which of the following animals provides security to man?\n(BECE 2015 Q6)",
-          options: [
-            "Goat",
-            "Donkey",
-            "Dog",
-            "Cow"
-          ],
+          question:
+              "37. Which of the following animals provides security to man?\n(BECE 2015 Q6)",
+          options: ["Goat", "Donkey", "Dog", "Cow"],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Dogs are commonly kept to provide security by guarding homes and property."
-      ),
-
+          explanation:
+              "Dogs are commonly kept to provide security by guarding homes and property."),
       QuizQuestion(
           question: "38. Money is used wisely when\n(BECE 2015 Q32)",
           options: [
@@ -47236,9 +48458,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Wise use of money involves spending according to a planned budget."
-      ),
-
+          explanation:
+              "Wise use of money involves spending according to a planned budget."),
       QuizQuestion(
           question: "39. Saving money helps the individual to\n(BECE 2015 Q35)",
           options: [
@@ -47249,24 +48470,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Saving money prepares a person for future needs and emergencies."
-      ),
-
+          explanation:
+              "Saving money prepares a person for future needs and emergencies."),
       QuizQuestion(
-          question: "40. Which of the following activities best offer relaxation?\n(BECE 2015 Q38)",
-          options: [
-            "Painting",
-            "Eating",
-            "Running",
-            "Reading"
-          ],
+          question:
+              "40. Which of the following activities best offer relaxation?\n(BECE 2015 Q38)",
+          options: ["Painting", "Eating", "Running", "Reading"],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "Painting is a leisure activity that provides relaxation and recreation."
-      ),
-
+          explanation:
+              "Painting is a leisure activity that provides relaxation and recreation."),
       QuizQuestion(
-          question: "41. Work done to earn income can be described as\n(BECE 2015 Q40)",
+          question:
+              "41. Work done to earn income can be described as\n(BECE 2015 Q40)",
           options: [
             "Home work.",
             "Community work.",
@@ -47275,9 +48491,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Occupational work refers to work done to earn income or wages."
-      ),
-
+          explanation:
+              "Occupational work refers to work done to earn income or wages."),
       QuizQuestion(
           question: "42. Laziness always leads to\n(BECE 2016 Q33)",
           options: [
@@ -47288,9 +48503,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Laziness causes people to waste valuable time instead of engaging in productive work."
-      ),
-
+          explanation:
+              "Laziness causes people to waste valuable time instead of engaging in productive work."),
       QuizQuestion(
           question: "43. Idleness means\n(BECE 2016 Q34)",
           options: [
@@ -47301,22 +48515,16 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Idleness is the habit of doing nothing useful or productive."
-      ),
-
+          explanation:
+              "Idleness is the habit of doing nothing useful or productive."),
       QuizQuestion(
-          question: "44. Which of the following behavior is not a positive attitude to work?\n(BECE 2016 Q35)",
-          options: [
-            "Hard work",
-            "Lateness",
-            "Punctuality",
-            "Truthfulness"
-          ],
+          question:
+              "44. Which of the following behavior is not a positive attitude to work?\n(BECE 2016 Q35)",
+          options: ["Hard work", "Lateness", "Punctuality", "Truthfulness"],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Lateness is a negative work habit because it reduces efficiency and reliability."
-      ),
-
+          explanation:
+              "Lateness is a negative work habit because it reduces efficiency and reliability."),
       QuizQuestion(
           question: "45. Workers go on strike to\n(BECE 2016 Q36)",
           options: [
@@ -47327,8 +48535,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Workers go on strike to demand improved salaries, welfare and working conditions."
-      ),
+          explanation:
+              "Workers go on strike to demand improved salaries, welfare and working conditions."),
       QuizQuestion(
           question: "46. The best way of handling money is by\n(BECE 2016 Q38)",
           options: [
@@ -47339,9 +48547,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Money should be folded neatly and handled with clean hands to keep it clean and in good condition."
-      ),
-
+          explanation:
+              "Money should be folded neatly and handled with clean hands to keep it clean and in good condition."),
       QuizQuestion(
           question: "47. The saying, time is money means\n(BECE 2016 Q40)",
           options: [
@@ -47352,35 +48559,23 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "The saying emphasizes that once opportunities are lost through poor use of time, they cannot easily be recovered."
-      ),
-
+          explanation:
+              "The saying emphasizes that once opportunities are lost through poor use of time, they cannot easily be recovered."),
       QuizQuestion(
           question: "48. To earn a living, one needs to be\n(BECE 2017 Q32)",
-          options: [
-            "Healthy.",
-            "Hard working.",
-            "Prayerful.",
-            "Responsible."
-          ],
+          options: ["Healthy.", "Hard working.", "Prayerful.", "Responsible."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Hard work is the key to earning a living and achieving financial independence."
-      ),
-
+          explanation:
+              "Hard work is the key to earning a living and achieving financial independence."),
       QuizQuestion(
-          question: "49. Which of the following best offers relaxation?\n(BECE 2017 Q35)",
-          options: [
-            "Eating",
-            "Painting",
-            "Running",
-            "Reading"
-          ],
+          question:
+              "49. Which of the following best offers relaxation?\n(BECE 2017 Q35)",
+          options: ["Eating", "Painting", "Running", "Reading"],
           correctIndex: 1,
           difficulty: "Medium",
-          explanation: "Painting is a leisure activity that promotes relaxation and creativity."
-      ),
-
+          explanation:
+              "Painting is a leisure activity that promotes relaxation and creativity."),
       QuizQuestion(
           question: "50. Saving money helps the individual to\n(BECE 2017 Q36)",
           options: [
@@ -47391,37 +48586,26 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Saving prepares an individual for future needs and unforeseen emergencies."
-      ),
-
+          explanation:
+              "Saving prepares an individual for future needs and unforeseen emergencies."),
       QuizQuestion(
-          question: "51. The most important requirement for a happy and responsible life is\n(BECE 2017 Q37)",
-          options: [
-            "Courage.",
-            "Hard work.",
-            "Loyalty.",
-            "Respect."
-          ],
+          question:
+              "51. The most important requirement for a happy and responsible life is\n(BECE 2017 Q37)",
+          options: ["Courage.", "Hard work.", "Loyalty.", "Respect."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Hard work is the foundation of a happy, responsible and prosperous life."
-      ),
-
+          explanation:
+              "Hard work is the foundation of a happy, responsible and prosperous life."),
       QuizQuestion(
           question: "52. A positive attitude towards work is\n(BECE 2017 Q38)",
-          options: [
-            "Commitment.",
-            "Graciousness.",
-            "Intelligence.",
-            "Purity."
-          ],
+          options: ["Commitment.", "Graciousness.", "Intelligence.", "Purity."],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Commitment demonstrates dedication and responsibility towards one's work."
-      ),
-
+          explanation:
+              "Commitment demonstrates dedication and responsibility towards one's work."),
       QuizQuestion(
-          question: "53. In planning personal budget, it is necessary to ensure that\n(BECE 2017 Q39)",
+          question:
+              "53. In planning personal budget, it is necessary to ensure that\n(BECE 2017 Q39)",
           options: [
             "Expenditure is equal to income.",
             "Expenditure is more than income.",
@@ -47430,11 +48614,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "A sound personal budget ensures that income exceeds expenditure so savings can be made."
-      ),
-
+          explanation:
+              "A sound personal budget ensures that income exceeds expenditure so savings can be made."),
       QuizQuestion(
-          question: "54. Which of the following factors is a benefit of honest work?\n(BECE 2018 Q34)",
+          question:
+              "54. Which of the following factors is a benefit of honest work?\n(BECE 2018 Q34)",
           options: [
             "Becoming financially sound",
             "Becoming popular in town",
@@ -47443,11 +48627,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Easy",
-          explanation: "Honest work provides income that helps a person become financially stable."
-      ),
-
+          explanation:
+              "Honest work provides income that helps a person become financially stable."),
       QuizQuestion(
-          question: "55. Work done to earn income can be described as\n(BECE 2018 Q36)",
+          question:
+              "55. Work done to earn income can be described as\n(BECE 2018 Q36)",
           options: [
             "Community work.",
             "Home work.",
@@ -47456,11 +48640,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Occupational activity refers to work done primarily to earn income."
-      ),
-
+          explanation:
+              "Occupational activity refers to work done primarily to earn income."),
       QuizQuestion(
-          question: "56. Lazy people get old very fast. This means that hard work brings about\n(BECE 2019 Q25)",
+          question:
+              "56. Lazy people get old very fast. This means that hard work brings about\n(BECE 2019 Q25)",
           options: [
             "Comfort.",
             "Development.",
@@ -47469,24 +48653,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Hard work keeps the body active and contributes to good health."
-      ),
-
+          explanation:
+              "Hard work keeps the body active and contributes to good health."),
       QuizQuestion(
-          question: "57. To succeed in academic work, the individual needs to engage in serious\n(BECE 2019 Q37)",
-          options: [
-            "Farming.",
-            "Learning.",
-            "Prayers.",
-            "Discussions."
-          ],
+          question:
+              "57. To succeed in academic work, the individual needs to engage in serious\n(BECE 2019 Q37)",
+          options: ["Farming.", "Learning.", "Prayers.", "Discussions."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Academic success depends primarily on serious learning and study."
-      ),
-
+          explanation:
+              "Academic success depends primarily on serious learning and study."),
       QuizQuestion(
-          question: "58. Visits to tourist centres help students to\n(BECE 2019 Q39)",
+          question:
+              "58. Visits to tourist centres help students to\n(BECE 2019 Q39)",
           options: [
             "Become more adventurous.",
             "Make more friends.",
@@ -47495,9 +48674,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Tourist visits provide recreation and help reduce stress and boredom."
-      ),
-
+          explanation:
+              "Tourist visits provide recreation and help reduce stress and boredom."),
       QuizQuestion(
           question: "59. To work means using\n(BECE 2020 Q37)",
           options: [
@@ -47508,11 +48686,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Work involves the use of both mental and physical effort to achieve a goal."
-      ),
-
+          explanation:
+              "Work involves the use of both mental and physical effort to achieve a goal."),
       QuizQuestion(
-          question: "60. Money offers comfort in life because it\n(BECE 2020 Q38)",
+          question:
+              "60. Money offers comfort in life because it\n(BECE 2020 Q38)",
           options: [
             "Helps to make people popular.",
             "Makes people become honest.",
@@ -47521,10 +48699,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Money provides comfort by enabling people to obtain their basic needs."
-      ),
+          explanation:
+              "Money provides comfort by enabling people to obtain their basic needs."),
       QuizQuestion(
-          question: "61. The time wasted cannot be recovered. This saying means\n(BECE 2020 Q39)",
+          question:
+              "61. The time wasted cannot be recovered. This saying means\n(BECE 2020 Q39)",
           options: [
             "Time cannot be recalled.",
             "Time is very precious.",
@@ -47533,11 +48712,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Medium",
-          explanation: "Once an opportunity is lost through poor use of time, it cannot be regained."
-      ),
-
+          explanation:
+              "Once an opportunity is lost through poor use of time, it cannot be regained."),
       QuizQuestion(
-          question: "62. To relax and recover lost energy, one needs to\n(BECE 2021 Q2)",
+          question:
+              "62. To relax and recover lost energy, one needs to\n(BECE 2021 Q2)",
           options: [
             "Check his or her pressure.",
             "Eat a well-balanced diet.",
@@ -47546,24 +48725,19 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Adequate leisure allows the body and mind to rest and regain energy."
-      ),
-
+          explanation:
+              "Adequate leisure allows the body and mind to rest and regain energy."),
       QuizQuestion(
-          question: "63. To achieve success in examination, one has to engage in\n(BECE 2021 Q11)",
-          options: [
-            "Fasting.",
-            "Hard work.",
-            "Prayers.",
-            "Smartness."
-          ],
+          question:
+              "63. To achieve success in examination, one has to engage in\n(BECE 2021 Q11)",
+          options: ["Fasting.", "Hard work.", "Prayers.", "Smartness."],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Success in examinations depends primarily on hard work and consistent study."
-      ),
-
+          explanation:
+              "Success in examinations depends primarily on hard work and consistent study."),
       QuizQuestion(
-          question: "64. Proper use of leisure helps the individual to\n(BECE 2021 Q15)",
+          question:
+              "64. Proper use of leisure helps the individual to\n(BECE 2021 Q15)",
           options: [
             "Do God's work.",
             "Earn money.",
@@ -47572,11 +48746,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 2,
           difficulty: "Easy",
-          explanation: "Proper use of leisure provides relaxation and helps remove boredom."
-      ),
-
+          explanation:
+              "Proper use of leisure provides relaxation and helps remove boredom."),
       QuizQuestion(
-          question: "65. The saying that money flies implies, money\n(BECE 2021 Q22)",
+          question:
+              "65. The saying that money flies implies, money\n(BECE 2021 Q22)",
           options: [
             "Can be spent easily.",
             "Can take you anywhere.",
@@ -47585,11 +48759,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 0,
           difficulty: "Medium",
-          explanation: "The saying means money can easily disappear if it is not carefully managed."
-      ),
-
+          explanation:
+              "The saying means money can easily disappear if it is not carefully managed."),
       QuizQuestion(
-          question: "66. Money must be carefully handled because it\n(BECE 2021 Q38)",
+          question:
+              "66. Money must be carefully handled because it\n(BECE 2021 Q38)",
           options: [
             "Can buy expensive things.",
             "Can easily get missing.",
@@ -47598,11 +48772,11 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Money should be handled carefully because it can easily get lost or misplaced."
-      ),
-
+          explanation:
+              "Money should be handled carefully because it can easily get lost or misplaced."),
       QuizQuestion(
-          question: "67. Immoral life style must be avoided because they may lead to the following situations except\n(BECE 2023 Q5)",
+          question:
+              "67. Immoral life style must be avoided because they may lead to the following situations except\n(BECE 2023 Q5)",
           options: [
             "Poverty.",
             "Dropping out of school.",
@@ -47611,9 +48785,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 3,
           difficulty: "Easy",
-          explanation: "Immoral lifestyles lead to many negative consequences, but not to high self-esteem."
-      ),
-
+          explanation:
+              "Immoral lifestyles lead to many negative consequences, but not to high self-esteem."),
       QuizQuestion(
           question: "68. Idleness can be associated with\n(BECE 2023 Q15)",
           options: [
@@ -47624,8 +48797,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           ],
           correctIndex: 1,
           difficulty: "Easy",
-          explanation: "Idleness is closely associated with laziness, which discourages productive work."
-      ),
+          explanation:
+              "Idleness is closely associated with laziness, which discourages productive work."),
     ],
   ),
 
