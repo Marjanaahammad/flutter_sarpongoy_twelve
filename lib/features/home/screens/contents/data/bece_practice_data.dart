@@ -3794,45 +3794,43 @@ final Map<String, PracticeModel> becePracticeData = {
         r"\text{Percentage of rent spent on repairs} = \frac{10,000}{240,000} \times 100\% = 4.167\%",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 2: A man deposited ¢350,000.00 in his account in a bank. A simple interest of 4% per annum was paid on his deposit. Calculate the total amount at the end of 4 years.\n"
+        "Question 2: A man deposited ₵350,000.00 in his account in a bank. A simple interest of 4% per annum was paid on his deposit. Calculate the total amount at the end of 4 years.\n"
             "(BECE 1996 Q2a)",
         answer:
-        r"Principal, P = \text{c}350,000.00, Rate, R = 4\%, Time, T = 4 \text{ years}"
+        r"Principal, P = ₵350,000.00, Rate, R = 4\%, Time, T = 4 \text{ years}"
         "\n\n"
         r"\text{Interest, } I = \frac{P \times R \times T}{100}"
         "\n\n"
-        r"I = \frac{350,000 \times 4 \times 4}{100} = \text{c}56,000.00"
+        r"I = \frac{350,000 \times 4 \times 4}{100} = ₵56,000.00"
         "\n\n"
             "Total amount at the end of 4 years = Principal + Interest\n\n"
-        r"\text{Total amount} = \text{c}350,000.00 + \text{c}56,000.00 = \text{c}406,000.00",
+        r"\text{Total amount} = ₵350,000.00 + ₵56,000.00 = ₵406,000.00",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 3: Ama was granted a loan of ¢800,000.00 by a bank. The rate of interest was 42% per annum.\n"
+        "Question 3: Ama was granted a loan of ₵800,000.00 by a bank. The rate of interest was 42% per annum.\n"
             "(a) Calculate:\n"
             "(i) the interest at the end of the year.\n"
             "(ii) the total amount Ama had to pay at the end of the year.\n"
-            "(b) If she had to pay ¢200,000 monthly, then the total amount she had to pay at the end of 12 months (1 year) = ¢200,000 × 12 = ¢2,400,000.00. Given the same conditions as in (a) above, calculate the amount she took.\n"
+            "(b) If she had to pay ¢200,000 monthly, then the total amount she had to pay at the end of 12 months (1 year) = ₵200,000 × 12 = ₵2,400,000.00. Given the same conditions as in (a) above, calculate the amount she took.\n"
             "(BECE 2000 Q3)",
         answer:
         "⦿ (a)(i)\n"
-        r"Principal, P = \text{c}800,000, Rate, R = 42\%, Time, T = 1 \text{ year}"
+        r"Principal, P = ₵800,000, Rate, R = 42\%, Time, T = 1 \text{ year}"
         "\n\n"
         r"\text{Interest, } I = \frac{P \times R \times T}{100}"
         "\n\n"
-        r"I = \frac{800,000 \times 42 \times 1}{100} = \text{c}336,000.00"
+        r"I = \frac{800,000 \times 42 \times 1}{100} = ₵336,000.00"
         "\n\n"
             "⦿ (a)(ii)\n"
             "Total amount to be paid at the end of the year = Principal + Interest\n\n"
-        r"\text{Total amount to be paid at the end of the year} = \text{c}800,000 + \text{c}336,000 = \text{c}1,136,000.00"
+        r"\text{Total amount to be paid at the end of the year} = ₵800,000 + ₵336,000 = ₵1,136,000.00"
         "\n\n"
             "⦿ (b)\n"
-        r"\text{Total amount paid over 12 months} = \text{c}200,000 \times 12 = \text{c}2,400,000.00"
+        r"\text{Total amount paid over 12 months} = ₵200,000 \times 12 = ₵2,400,000.00"
         "\n\n"
         r"\text{Amount she had to pay} = P + I"
         "\n"
@@ -3844,47 +3842,46 @@ final Map<String, PracticeModel> becePracticeData = {
         "\n"
         r"P = \frac{2,400,000}{1.42} = 1,690,140.85"
         "\n\n"
-        r"\therefore \text{Amount she took} = \text{Principal} = \text{c}1,690,140.85"
+        r"\therefore \text{Amount she took} = \text{Principal} = ₵1,690,140.85"
         "\n\n"
-        r"(Note: if using the alternative fraction path matching page 351's structural framework, 2,400,000 = P + \frac{25P}{200} \Rightarrow 480,000,000 = 225P \Rightarrow P = \text{c}2,133,333.33)",
+        r"(Note: if using the alternative fraction path matching page 351's structural framework, 2,400,000 = P + \frac{25P}{200} \Rightarrow 480,000,000 = 225P \Rightarrow P = ₵2,133,333.33)",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 4: A trader took a loan of ¢1,800,000.00 at an interest of "
+        "Question 4: A trader took a loan of ₵1,800,000.00 at an interest of "
         r"12\frac{1}{2}\%"
         " percent per annum. It was agreed that the loan and the interest must be paid in one year equal monthly installments.\n"
             "(a) Calculate:\n"
             "(i) the interest on the loan.\n"
             "(ii) the amount to be paid at the end of the year.\n"
             "(iii) the monthly installment.\n"
-            "(b) Another trader took a loan at the same rate interest and conditions. If she had to pay ¢200,000.00 monthly installments, find to the nearest cedi, how much she took.\n"
+            "(b) Another trader took a loan at the same rate interest and conditions. If she had to pay ₵200,000.00 monthly installments, find to the nearest cedi, how much she took.\n"
             "(BECE 2002 Q2)",
         answer:
         "⦿ (a)(i)\n"
-        r"Principal, P = \text{c}1,800,000, Rate, R = 12\frac{1}{2}\% = \frac{25}{2}\%, Time, T = 1 \text{ yr}"
+        r"Principal, P = ₵1,800,000, Rate, R = 12\frac{1}{2}\% = \frac{25}{2}\%, Time, T = 1 \text{ yr}"
         "\n\n"
         r"\text{Interest, } I = \frac{P \times R \times T}{100} = \frac{1,800,000 \times \frac{25}{2} \times 1}{100}"
         "\n\n"
-        r"I = 9,000 \times 25 = \text{c}225,000.00"
+        r"I = 9,000 \times 25 = ₵225,000.00"
         "\n\n"
-        r"\therefore \text{The interest on the loan is } \text{c}225,000.00"
+        r"\therefore \text{The interest on the loan is } ₵225,000.00"
         "\n\n"
             "⦿ (a)(ii)\n"
             "Amount to be paid at the end of the year = Principal + Interest\n\n"
-        r"\text{Amount to be paid at the end of the year} = \text{c}1,800,000 + \text{c}225,000 = \text{c}2,025,000.00"
+        r"\text{Amount to be paid at the end of the year} = ₵1,800,000 + ₵225,000 = ₵2,025,000.00"
         "\n\n"
             "⦿ (a)(iii)\n"
-        r"\text{Monthly installment} = \frac{\text{Amount to be paid}}{12 \text{ months}} = \frac{2,025,000}{12} = \text{c}168,750"
+        r"\text{Monthly installment} = \frac{\text{Amount to be paid}}{12 \text{ months}} = \frac{2,025,000}{12} = ₵168,750"
         "\n\n"
             "⦿ (b)\n"
-        r"\text{Total amount paid over 12 months} = \text{c}200,000 \times 12 = \text{c}2,400,000.00"
+        r"\text{Total amount paid over 12 months} = ₵200,000 \times 12 = ₵2,400,000.00"
         "\n\n"
         r"\text{Amount she had to pay} = P + I"
-        "\n"
+        "\n\n"
         r"2,400,000 = P + \frac{P \times \frac{25}{2} \times 1}{100}"
-        "\n"
+        "\n\n"
         r"2,400,000 = P + \frac{25P}{200}"
         "\n\n"
             "Multiply through by 200:\n"
@@ -3892,10 +3889,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "480,000,000 = 225P\n"
         r"P = \frac{480,000,000}{225} = 2,133,333.33"
         "\n\n"
-        r"\therefore \text{Amount she took} = \text{Principal} = \text{c}2,133,333 \text{ (to the nearest cedi)}",
+        r"\therefore \text{Amount she took} = \text{Principal} = ₵2,133,333 \text{ (to the nearest cedi)}",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 5: It is estimated that the population of a village increases by 10 percent every five years. If the population of the village is 150,000 this year, what will be the estimated population ten years from now?\n"
@@ -3904,78 +3900,75 @@ final Map<String, PracticeModel> becePracticeData = {
         "Population now = 150,000\n\n"
         r"\text{Population in 5 years' time} = 10\% \text{ of } 150,000 + 150,000"
         "\n\n"
-        r"\text{Population in 5 years' time} = \left(\frac{10}{100} \times 150,000\right) + 150,000 = 15,000 + 150,000 = 165,000"
+        r"\text{Population in 5 years' time} = (\frac{10}{100} \times 150,000) + 150,000 = 15,000 + 150,000 = 165,000"
         "\n\n"
-        r"\text{Population in 10 years' time} = \left(\frac{10}{100} \times 165,000\right) + 165,000 = 16,500 + 165,000 = 181,500",
+        r"\text{Population in 10 years' time} = (\frac{10}{100} \times 165,000) + 165,000 = 16,500 + 165,000 = 181,500",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 6: Ama and Kofi shared the profit earned from their business in the ratio 3:4. The profit was ¢1,743,000. Find how much of the profit each person received.\n"
+        "Question 6: Ama and Kofi shared the profit earned from their business in the ratio 3:4. The profit was ₵1,743,000. Find how much of the profit each person received.\n"
             "(BECE 2004 Q3a)",
         answer:
         "Ratio = Ama : Kofi = 3 : 4\n\n"
             "Total ratio = 3 + 4 = 7\n\n"
-            "Total profit shared = ¢1,743,000\n\n"
-        r"\text{Ama's share} = \frac{3}{7} \times \text{c}1,743,000 = \text{c}747,000"
+            "Total profit shared = ₵1,743,000\n\n"
+        r"\text{Ama's share} = \frac{3}{7} \times ₵1,743,000 = ₵747,000"
         "\n\n"
-        r"\text{Kofi's share} = \frac{4}{7} \times \text{c}1,743,000 = \text{c}996,000",
+        r"\text{Kofi's share} = \frac{4}{7} \times ₵1,743,000 = ₵996,000",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 7: A woman borrowed ¢2,000,000.00 from a bank at a rate of 15% per annum simple interest for 2 years.\n"
+        "Question 7: A woman borrowed ₵2,000,000.00 from a bank at a rate of 15% per annum simple interest for 2 years.\n"
             "(a) Find:\n"
             "(i) the interest for the 2 years.\n"
             "(ii) amount paid after 2 years.\n"
-            "(b) She used the ¢2,000,000.00 to purchase a fridge and sold it at a profit of 45%. Find the selling price of the fridge.\n"
+            "(b) She used the ₵2,000,000.00 to purchase a fridge and sold it at a profit of 45%. Find the selling price of the fridge.\n"
             "(c) If she used the amount raised from the sale of the fridge to pay for the bank loan and interest, find how much is left.\n"
             "(BECE 2005 Q4)",
         answer:
         "⦿ (a)(i)\n"
         r"\text{Interest, } I = \frac{P \times R \times T}{100}"
         "\n\n"
-        r"I = \frac{2,000,000 \times 15 \times 2}{100} = \text{c}600,000.00"
+        r"I = \frac{2,000,000 \times 15 \times 2}{100} = ₵600,000.00"
         "\n\n"
             "⦿ (a)(ii)\n"
             "Amount paid after 2 years = Principal + Interest\n\n"
-        r"\text{Amount paid after 2 years} = \text{c}2,000,000 + \text{c}600,000 = \text{c}2,600,000.00"
+        r"\text{Amount paid after 2 years} = ₵2,000,000 + ₵600,000 = ₵2,600,000.00"
         "\n\n"
             "⦿ (b)\n"
             "Percentage of cost price = 100%\n"
             "Percentage of selling price = 100% + 45% = 145%\n\n"
-        r"100\% = \text{c}2,000,000"
+        r"100\% = ₵2,000,000"
         "\n"
-        r"\Rightarrow 145\% = \frac{145\%}{100\%} \times \text{c}2,000,000 = \text{c}2,900,000.00"
+        r"\Rightarrow 145\% = \frac{145\%}{100\%} \times ₵2,000,000 = ₵2,900,000.00"
         "\n\n"
-        r"\therefore \text{The SP of the fridge is } \text{c}2,900,000.00"
+        r"\therefore \text{The SP of the fridge is } ₵2,900,000.00"
         "\n\n"
             "Alternative method:\n"
         r"\text{SP} = \frac{100 + P\%}{100} \times CP"
-        "\n"
-        r"\text{SP} = \frac{100 + 45}{100} \times \text{c}2,000,000"
-        "\n"
-        r"\text{SP} = \frac{145}{100} \times \text{c}2,000,000 = \text{c}2,900,000.00"
+        "\n\n"
+        r"\text{SP} = \frac{100 + 45}{100} \times ₵2,000,000"
+        "\n\n"
+        r"\text{SP} = \frac{145}{100} \times ₵2,000,000 = ₵2,900,000.00"
         "\n\n"
             "⦿ (c)\n"
-            "Amount paid after 2 years = ¢2,600,000\n"
-            "Amount raised = ¢2,900,000\n\n"
-        r"\therefore \text{Amount left after bank loan is paid} = \text{c}2,900,000 - \text{c}2,600,000 = \text{c}300,000.00",
+            "Amount paid after 2 years = ₵2,600,000\n"
+            "Amount raised = ₵2,900,000\n\n"
+        r"\therefore \text{Amount left after bank loan is paid} = ₵2,900,000 - ₵2,600,000 = ₵300,000.00",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 8: Find the simple interest on ¢880,000.00 for "
+        "Question 8: Find the simple interest on ₵880,000.00 for "
         r"2\frac{1}{2}"
         " years at "
         r"3\frac{1}{4}\%"
         " per annum.\n"
             "(BECE 2006 Q4b)",
         answer:
-        r"P = \text{c}880,000, R = 3\frac{1}{4}\% = \frac{13}{4}\%, T = 2\frac{1}{2} \text{ yrs} = \frac{5}{2} \text{ yrs}"
+        r"P = ₵880,000, R = 3\frac{1}{4}\% = \frac{13}{4}\%, T = 2\frac{1}{2} \text{ yrs} = \frac{5}{2} \text{ yrs}"
         "\n\n"
         r"\text{Interest, } I = \frac{P \times R \times T}{100}"
         "\n\n"
@@ -3983,134 +3976,128 @@ final Map<String, PracticeModel> becePracticeData = {
         "\n\n"
         r"I = \frac{110,000 \times 13 \times 5}{100 \times 2}"
         "\n\n"
-        r"I = \frac{1100 \times 13 \times 5}{2} = 550 \times 13 \times 5 = \text{c}35,750.00",
+        r"I = \frac{1100 \times 13 \times 5}{2} = 550 \times 13 \times 5 = ₵35,750.00",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 9: Akosua was granted a loan of GH¢96.00. The interest rate was 24% per annum. Calculate the:\n"
+        "Question 9: Akosua was granted a loan of GH₵96.00. The interest rate was 24% per annum. Calculate the:\n"
             "(i) interest at the end the year;\n"
             "(ii) total amount she had to pay at the end of the year;\n"
-            "(iii) amount she still owes, if Akosua was able to pay only GH¢60.00 at the end of the year.\n"
+            "(iii) amount she still owes, if Akosua was able to pay only GH₵60.00 at the end of the year.\n"
             "(BECE 2008 Q3b)",
         answer:
-        "⦿ (i)\n"
-        r"P = \text{GH}\text{c}96.00, R = 24\%, T = 1 \text{ year}"
+        "⦿ (i) "
+        r"P = GH₵96.00, R = 24\%, T = 1 \text{ year}"
         "\n\n"
         r"\text{Interest, } I = \frac{P \times R \times T}{100}"
         "\n\n"
-        r"I = \frac{96 \times 24 \times 1}{100} = \frac{2304}{100} = \text{GH}\text{c}23.04"
+        r"I = \frac{96 \times 24 \times 1}{100} = \frac{2304}{100} = GH₵23.04"
         "\n\n"
-            "⦿ (ii)\n"
+            "⦿ (ii) "
             "Total amount to be paid at the end of the year = P + I\n\n"
-        r"\text{Total amount to be paid} = \text{GH}\text{c}96.00 + \text{GH}\text{c}23.04 = \text{GH}\text{c}119.04"
+        r"\text{Total amount to be paid} = GH₵96.00 + GH₵23.04 = GH₵119.04"
         "\n\n"
-            "⦿ (iii)\n"
-        r"\text{Amount she still owes} = \text{GH}\text{c}119.04 - \text{GH}\text{c}60 = \text{GH}\text{c}59.04",
+            "⦿ (iii) "
+        r"\text{Amount she still owes} = GH₵119.04 - GH₵60 = GH₵59.04",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 10: The simple interest formula, "
         r"I = \frac{PTR}{100}"
         " gives the interest I, on a principal, P invested at a rate, R per annum for time, T years.\n"
-            "(i) Find the simple interest on GH¢3,600.00 at 15% per annum for 2 years.\n"
+            "(i) Find the simple interest on GH₵3,600.00 at 15% per annum for 2 years.\n"
             "(ii) Make R the subject of the simple interest formula.\n"
-            "(iii) At what rate per annum will GH¢6,000.00 earn GH¢2,400.00 simple interest in 2 years?\n"
+            "(iii) At what rate per annum will GH₵6,000.00 earn GH₵2,400.00 simple interest in 2 years?\n"
             "(BECE 2009 Q5b)",
         answer:
-        "⦿ (i)\n"
-        r"P = \text{GH}\text{c}3,600.00, R = 15\%, T = 2 \text{ years}"
+        "⦿ (i) "
+        r"P = GH₵3,600.00, R = 15\%, T = 2 \text{ years}"
         "\n\n"
-        r"\text{Interest, } I = \frac{PTR}{100} = \frac{3600 \times 2 \times 15}{100} = \text{GH}\text{c}1080"
+        r"\text{Interest, } I = \frac{PTR}{100} = \frac{3600 \times 2 \times 15}{100} = GH₵1080"
         "\n\n"
-            "⦿ (ii)\n"
+            "⦿ (ii) "
         r"I = \frac{PTR}{100} \Rightarrow PTR = 100I"
-        "\n"
+        "\n\n"
         r"\Rightarrow R = \frac{100I}{PT}"
         "\n\n"
-            "⦿ (iii)\n"
+            "⦿ (iii) "
         r"R = \frac{100 \times 2400}{6000 \times 2} = \frac{240}{12} = 20\%",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 11: A trader saves GH¢200.00 for 3 years at 12% simple interest per annum. What will be the total amount in the trader's account at the end of the 3 years?\n"
+        "Question 11: A trader saves GH₵200.00 for 3 years at 12% simple interest per annum. What will be the total amount in the trader's account at the end of the 3 years?\n"
             "(BECE 2014 Q1b)",
         answer:
-        r"P = \text{GH}\text{c } 200, T = 3 \text{ yrs}, R = 12\%"
+        r"P = GH₵ 200, T = 3 \text{ yrs}, R = 12\%"
         "\n\n"
-        r"\text{Interest, } I = \frac{P \times R \times T}{100} = \frac{200 \times 12 \times 3}{100} = \text{GH}\text{c } 72"
+        r"\text{Interest, } I = \frac{P \times R \times T}{100} = \frac{200 \times 12 \times 3}{100} = GH₵ 72"
         "\n\n"
-        r"\text{Total amount in the trader's account} = P + I = 200 + 72 = \text{GH}\text{c } 272.00",
+        r"\text{Total amount in the trader's account} = P + I = 200 + 72 = GH₵ 272.00",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 12: The Value Added Tax (VAT) paid by a man on a deep freezer was GH¢90.00. If VAT was charged at 15%:\n"
+        "Question 12: The Value Added Tax (VAT) paid by a man on a deep freezer was GH₵90.00. If VAT was charged at 15%:\n"
             "(i) what was the price of the deep freezer?\n"
             "(ii) how much did the man pay including VAT?\n"
             "(BECE 2015A Q4a)",
         answer:
-        "⦿ (i)\n"
+        "⦿ (i) "
             "Cost of the freezer = 100%\n\n"
-        r"If 15\% = \text{GH}\text{c } 90"
+        r"If 15\% = GH₵ 90"
         "\n\n"
-        r"100\% = \frac{100\%}{15\%} \times \text{GH}\text{c } 90 = \text{GH}\text{c } 600.00"
+        r"100\% = \frac{100\%}{15\%} \times GH₵ 90 = GH₵ 600.00"
         "\n\n"
-        r"\therefore \text{The price of the deep freezer was GH}\text{c } 600.00"
+        r"The price of the deep freezer was GH₵ 600.00"
         "\n\n"
             "Alternative method:\n"
             "Let the cost of the freezer be x\n\n"
         r"\frac{15}{100} \times x = 90 \Rightarrow \frac{15x}{100} = 90"
-        "\n"
+        "\n\n"
         r"\Rightarrow 15x = 9000 \Rightarrow x = \frac{9000}{15} = 600"
         "\n\n"
-            "⦿ (ii)\n"
-        r"\text{VAT} = \text{GH}\text{c } 90"
+            "⦿ (ii) "
+        r"\text{VAT} = GH₵ 90"
         "\n"
-        r"\text{Cost of freezer} = \text{GH}\text{c } 600"
+        r"\text{Cost of freezer} = GH₵ 600"
         "\n\n"
-        r"\text{Amount paid by the man including VAT} = \text{GH}\text{c } 600 + \text{GH}\text{c } 90 = \text{GH}\text{c } 690.00",
+        r"\text{Amount paid by the man including VAT} = GH₵ 600 + GH₵ 90 = GH₵ 690.00",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 13: A salesman gets a commission of "
         r"5\frac{1}{2}\%"
-        " of the value of items he sells. The salesman sells 12 textbooks at GH¢25.00 per book, 3 scientific calculators at GH¢50.00 per calculator and 8 packets of Bic pens at GH¢50.00 per packet. Calculate the salesman's commission.\n"
+        " of the value of items he sells. The salesman sells 12 textbooks at GH₵25.00 per book, 3 scientific calculators at GH₵50.00 per calculator and 8 packets of Bic pens at GH₵50.00 per packet. Calculate the salesman's commission.\n"
             "(BECE 2022 Q3c)",
         answer:
-        r"\text{Sales on textbooks} = 12 \times 25 = \text{GH}\text{c } 300"
+        r"\text{Sales on textbooks} = 12 \times 25 = GH₵ 300"
         "\n\n"
-        r"\text{Sales on calculators} = 3 \times 50 = \text{GH}\text{c } 150"
+        r"\text{Sales on calculators} = 3 \times 50 = GH₵ 150"
         "\n"
         r"(Source solution notes dynamic as 3 \times 20 = 150)"
         "\n\n"
-        r"\text{Sales on Bic pens} = 8 \times 50 = \text{GH}\text{c } 400"
+        r"\text{Sales on Bic pens} = 8 \times 50 = GH₵ 400"
         "\n\n"
-        r"\text{Total sales} = 300 + 150 + 400 = \text{GH}\text{c } 850"
+        r"\text{Total sales} = 300 + 150 + 400 = GH₵ 850"
         "\n\n"
         r"\text{Commission} = 5\frac{1}{2}\% \text{ of sales}"
-        "\n"
+        "\n\n"
         r"= \frac{5\frac{1}{2}}{100} \times 850 = \frac{\frac{11}{2}}{100} \times 850"
-        "\n"
-        r"= \frac{11}{200} \times 850 = \text{GH}\text{c } 46.75",
+        "\n\n"
+        r"= \frac{11}{200} \times 850 = GH₵ 46.75",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 14: Gifty and Justina shared an amount of GH¢418.00. If Gifty had 20% more than Justina, how much did Justina receive?\n"
+        "Question 14: Gifty and Justina shared an amount of GH₵418.00. If Gifty had 20% more than Justina, how much did Justina receive?\n"
             "(BECE 2023 Q3c)",
         answer:
-        "Total amount = GH¢418\n\n"
-        r"\text{Difference in shares} = \frac{20}{100} \times 418 = \text{GH}\text{c } 83.60"
+        "Total amount = GH₵418\n\n"
+        r"\text{Difference in shares} = \frac{20}{100} \times 418 = GH₵ 83.60"
         "\n\n"
             "Let Justina's share = x\n\n"
         r"\Rightarrow \text{Gifty's share} = x + 83.60"
@@ -4121,10 +4108,9 @@ final Map<String, PracticeModel> becePracticeData = {
             "2x = 334.40\n"
         r"x = \frac{334.40}{2} = 167.20"
         "\n\n"
-        r"\therefore \text{Justina's share is GH}\text{c } 167.20",
+        r"Justina's share is GH₵ 167.20",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
         "Question 15: Madam Esi used "
@@ -4142,7 +4128,7 @@ final Map<String, PracticeModel> becePracticeData = {
         "\n\n"
         r"\text{Number of acres used for oranges} = \frac{2}{3}x"
         "\n\n"
-            "⦿ (b)\n"
+            "⦿ (b) "
             "Land for oranges - Land for mangoes = 20\n\n"
         r"\therefore \frac{2}{3}x - \frac{1}{4}x = 20"
         "\n\n"
@@ -4153,10 +4139,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "5x = 240\n"
         r"x = \frac{240}{5} = 48"
         "\n\n"
-            "⦿ (c)\n"
+            "⦿ (c) "
         r"\text{Acres of land used for mangoes} = \frac{1}{4} \times 48 = 12 \text{ acres}"
         "\n\n"
-            "⦿ (d)\n"
+            "⦿ (d) "
         r"\text{Acres of land for oranges} = \frac{2}{3} \times 48 = 32 \text{ acres}"
         "\n\n"
         r"\therefore \text{Acres of land that was not used} = 48 - 12 - 32 = 4"
@@ -4166,19 +4152,1562 @@ final Map<String, PracticeModel> becePracticeData = {
         r"= 8\% \text{ (nearest whole number)}",
         explanation: "",
       ),
-
       PracticeQuestion(
         scenario:
-        "Question 16: A woman borrowed GH¢5,300.00 to pay for her child's university fees. If she borrowed at a rate of 8% simple interest per annum for 9 months, find the interest paid.\n"
+        "Question 16: A woman borrowed GH₵5,300.00 to pay for her child's university fees. If she borrowed at a rate of 8% simple interest per annum for 9 months, find the interest paid.\n"
             "(BECE 2025 Q4a)",
         answer:
-        r"P = \text{GH}\text{c } 5,300, R = 8\%, T = \frac{9}{12} \text{ yr} = \frac{3}{4} \text{ yr}"
+        r"P = GH₵ 5,300, R = 8\%, T = \frac{9}{12} \text{ yr} = \frac{3}{4} \text{ yr}"
         "\n\n"
         r"\text{Interest, } I = \frac{P \times R \times T}{100}"
         "\n\n"
-        r"\therefore I = \frac{5,300 \times 8 \times \frac{3}{4}}{100} = \frac{5,300 \times 2 \times 3}{100} = \text{GH}\text{c } 318",
+        r"\therefore I = \frac{5,300 \times 8 \times \frac{3}{4}}{100} = \frac{5,300 \times 2 \times 3}{100} = GH₵ 318",
         explanation: "",
       ),
+    ],
+  ),
+
+  "Math JHS3 s2 ss2 - Algebraic Expressions": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: Make t the subject of the relation "
+        r"v = u + at"
+        ".\n"
+            "(BECE 1992 Q1b)",
+        answer:
+        "Start with the given formula:\n"
+        r"v = u + at"
+        "\n\n"
+            "Subtract u from both sides of the equation to isolate the term containing t:\n"
+        r"v - u = at"
+        "\n\n"
+            "Divide both sides by a to solve for t:\n"
+        r"\frac{v - u}{a} = t"
+        "\n\n"
+            "Rearrange the equation to place t on the left hand side:\n"
+        r"t = \frac{v - u}{a}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: Given that "
+        r"f = \frac{vu}{v + u}"
+        ", find v if f = 20 and u = 5.\n"
+            "(BECE 1996 Q1c)",
+        answer:
+        "Write down the initial relation:\n"
+        r"f = \frac{vu}{v + u}"
+        "\n\n"
+            "Substitute the given values f = 20 and u = 5 into the formula:\n"
+        r"20 = \frac{v(5)}{v + 5}"
+        "\n\n"
+        r"20 = \frac{5v}{v + 5}"
+        "\n\n"
+            "Clear the fraction by multiplying both sides by (v + 5):\n"
+        r"20(v + 5) = 5v"
+        "\n\n"
+            "Expand the brackets on the left hand side:\n"
+        r"20v + 100 = 5v"
+        "\n\n"
+            "Group the terms with v by subtracting 20v from both sides:\n"
+        r"100 = 5v - 20v"
+        "\n"
+        r"100 = -15v"
+        "\n\n"
+            "Divide both sides by -15 to isolate v:\n"
+        r"v = -\frac{100}{15}"
+        "\n\n"
+            "Simplify the fraction by dividing the numerator and denominator by their highest common factor, 5:\n"
+        r"v = -\frac{20}{3} = -6\frac{2}{3}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 3: If 2y - 5x + 10 = 0, find:\n"
+            "(i) y, when x = 2\n"
+            "(ii) x, when y = 5\n"
+            "(BECE 1997 Q3a)",
+        answer:
+        "⦿ (i) When x = 2:\n"
+            "Substitute x = 2 into the given linear equation:\n"
+        r"2y - 5(2) + 10 = 0"
+        "\n"
+        r"2y - 10 + 10 = 0"
+        "\n\n"
+            "Simplify the terms:\n"
+        r"2y = 0"
+        "\n\n"
+            "Solve for y:\n"
+        r"y = \frac{0}{2} = 0"
+        "\n\n"
+            "⦿ (ii) When y = 5:\n"
+            "Substitute y = 5 into the given equation:\n"
+        r"2(5) - 5x + 10 = 0"
+        "\n"
+        r"10 - 5x + 10 = 0"
+        "\n\n"
+            "Combine the numeric values:\n"
+        r"10 + 10 - 5x = 0"
+        "\n"
+        r"20 - 5x = 0"
+        "\n\n"
+            "Move the variable term to the other side to make it positive:\n"
+        r"20 = 5x"
+        "\n\n"
+            "Divide both sides by 5:\n"
+        r"x = \frac{20}{5} = 4",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: If "
+        r"3y = 2x^2 - 3x + 7"
+        ", find y, when x = 5.\n"
+            "(BECE 2000 Q1c)",
+        answer:
+        "Start with the equation:\n"
+        r"3y = 2x^2 - 3x + 7"
+        "\n\n"
+            "Substitute x = 5 into the expression:\n"
+        r"3y = 2(5)^2 - 3(5) + 7"
+        "\n\n"
+            "Evaluate the exponent first:\n"
+        r"3y = 2(25) - 15 + 7"
+        "\n\n"
+            "Complete the multiplication and simplify the terms from left to right:\n"
+        r"3y = 50 - 15 + 7"
+        "\n"
+        r"3y = 35 + 7"
+        "\n"
+        r"3y = 42"
+        "\n\n"
+            "Divide by 3 to isolate y:\n"
+        r"y = \frac{42}{3} = 14",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5: If 2n - 5m + 10 = 0, find:\n"
+            "(i) m, when n = 2\n"
+            "(ii) n, when m = 5\n"
+            "(BECE 2003 Q2a)",
+        answer:
+        "⦿ (i) When n = 2:\n"
+            "Substitute n = 2 into the given formula:\n"
+        r"2(2) - 5m + 10 = 0"
+        "\n"
+        r"4 - 5m + 10 = 0"
+        "\n\n"
+            "Group the constants together:\n"
+        r"14 - 5m = 0"
+        "\n\n"
+            "Isolate the variable term:\n"
+        r"-5m = -14"
+        "\n\n"
+            "Divide both sides by -5:\n"
+        r"m = \frac{-14}{-5} = \frac{14}{5} = 2\frac{4}{5}"
+        "\n\n"
+            "⦿ (ii) When m = 5:\n"
+            "Substitute m = 5 into the equation:\n"
+        r"2n - 5(5) + 10 = 0"
+        "\n"
+        r"2n - 25 + 10 = 0"
+        "\n\n"
+            "Combine the constants:\n"
+        r"2n - 15 = 0"
+        "\n\n"
+            "Add 15 to both sides:\n"
+        r"2n = 15"
+        "\n\n"
+            "Divide both sides by 2:\n"
+        r"n = \frac{15}{2} = 7\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 6: Make q the subject of the equation "
+        r"t = \frac{1}{p} + \frac{1}{q}"
+        ".\n"
+            "(BECE 2004 Q1b)",
+        answer:
+        "State the original equation:\n"
+        r"t = \frac{1}{p} + \frac{1}{q}"
+        "\n\n"
+            "Combine the right hand side terms by finding a common denominator, which is pq:\n"
+        r"t = \frac{q + p}{pq}"
+        "\n\n"
+            "Clear the fractional layout by cross-multiplying across the equality sign:\n"
+        r"pqt = q + p"
+        "\n\n"
+            "Collect all terms that contain the target variable q on one side of the equation:\n"
+        r"pqt - q = p"
+        "\n\n"
+            "Factor out the common variable q on the left hand side:\n"
+        r"q(pt - 1) = p"
+        "\n\n"
+            "Isolate q completely by dividing both sides by the bracketed term (pt - 1):\n"
+        r"q = \frac{p}{pt - 1}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 7: Make h the subject of "
+        r"V = \frac{1}{3}\pi r^2 h"
+        ".\n"
+            "(BECE 2011 Q1b)",
+        answer:
+        "State the expression:\n"
+        r"V = \frac{1}{3}\pi r^2 h"
+        "\n\n"
+            "Clear the denominator by multiplying both sides of the equation by 3:\n"
+        r"3V = \pi r^2 h"
+        "\n\n"
+            "Divide both sides by "
+        r"\pi r^2"
+        " to leave h by itself:\n"
+        r"\frac{3V}{\pi r^2} = h"
+        "\n\n"
+            "Rearrange the final answer format clearly:\n"
+        r"h = \frac{3V}{\pi r^2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 8: The cost (P), in Ghana cedis, of producing n items is given by the formula, "
+        r"P = \frac{3}{4}n + 1800"
+        ". Find the:\n"
+            "(i) cost of producing 2,000 items;\n"
+            "(ii) number of items that will be produced with GH₵2,400.00;\n"
+            "(iii) cost when no items are produced.\n"
+            "(BECE 2016 Q2a)",
+        answer:
+        "⦿ (i) Cost of producing 2,000 items:\n"
+            "Identify the target variable values (n = 2000) and apply them to the formula:\n"
+        r"P = \frac{3}{4}(2000) + 1800"
+        "\n\n"
+            "Calculate the multiplication value:\n"
+        r"P = 3(500) + 1800"
+        "\n"
+        r"P = 1500 + 1800"
+        "\n\n"
+            "Add the values together to find the cost:\n"
+            "P = GH₵3,300\n\n"
+            "⦿ (ii) Number of items produced with GH₵2,400.00:\n"
+            "Substitute P = 2400 into the formula:\n"
+        r"2400 = \frac{3}{4}n + 1800"
+        "\n\n"
+            "Isolate the variable term by subtracting 1800 from both sides:\n"
+        r"2400 - 1800 = \frac{3}{4}n"
+        "\n"
+        r"600 = \frac{3}{4}n"
+        "\n\n"
+            "Clear the fractional denominator by multiplying both sides by 4:\n"
+        r"3n = 600 \times 4"
+        "\n"
+        r"3n = 2400"
+        "\n\n"
+            "Divide by 3 to find the number of items:\n"
+        r"n = \frac{2400}{3} = 800 items"
+        "\n\n"
+            "⦿ (iii) Cost when no items are produced:\n"
+            "Substitute n = 0 into the formula equation:\n"
+        r"P = \frac{3}{4}(0) + 1800"
+        "\n"
+        r"P = 0 + 1800"
+        "\n\n"
+            "Determine the final fixed base cost value:\n"
+            "P = GH₵1,800",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 9:\n"
+            "(i) Make r the subject of the relation: "
+        r"y = \frac{x - r}{x + r}"
+        "\n"
+            "(ii) From (i), find the value of r when y = 3 and x = 10.\n"
+            "(BECE 2018 Q3b)",
+        answer:
+        "⦿ (i) Make r the subject:\n"
+            "Start with the relation:\n"
+        r"y = \frac{x - r}{x + r}"
+        "\n\n"
+            "Cross-multiply to eliminate the fractional side:\n"
+        r"y(x + r) = x - r"
+        "\n\n"
+            "Expand the bracket on the left hand side:\n"
+        r"xy + ry = x - r"
+        "\n\n"
+            "Group all terms containing the target letter r on the left side and everything else on the right:\n"
+        r"ry + r = x - xy"
+        "\n\n"
+            "Factor out the shared variable r:\n"
+        r"r(y + 1) = x - xy"
+        "\n\n"
+            "Divide both sides by (y + 1) to get the final transformed relation:\n"
+        r"r = \frac{x - xy}{y + 1}"
+        "\n\n"
+            "⦿ (ii) Find the value of r when y = 3 and x = 10:\n"
+            "Substitute the provided numerical numbers into the structured formula from part (i):\n"
+        r"r = \frac{10 - 10(3)}{3 + 1}"
+        "\n\n"
+            "Simplify the numerator calculation and the denominator calculation:\n"
+        r"r = \frac{10 - 30}{4}"
+        "\n\n"
+        r"r = \frac{-20}{4}"
+        "\n\n"
+            "Reduce to a final single value answer:\n"
+        r"r = -5",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 10: Given that "
+        r"m = \frac{r - s}{2nr}"
+        ",\n"
+            "(i) make r the subject of the relation.\n"
+            "(ii) find the value of r when s = 117, m = 2 and n = -3.\n"
+            "(BECE 2020 Q5c)",
+        answer:
+        "⦿ (i) Make r the subject:\n"
+            "Start with the expression:\n"
+        r"m = \frac{r - s}{2nr}"
+        "\n\n"
+            "Clear the fraction layout by cross-multiplying:\n"
+        r"m(2nr) = r - s"
+        "\n"
+        r"2mnr = r - s"
+        "\n\n"
+            "Re-group all terms that contain r on one side of the equal sign:\n"
+        r"r - 2mnr = s"
+        "\n\n"
+            "Factor out the single common variable factor r:\n"
+        r"r(1 - 2mn) = s"
+        "\n\n"
+            "Divide by the entire bracketed expression to get r alone:\n"
+        r"r = \frac{s}{1 - 2mn}"
+        "\n\n"
+            "⦿ (ii) Find the value of r when s = 117, m = 2, and n = -3:\n"
+            "Substitute the numerical values carefully into the rearranged formula:\n"
+        r"r = \frac{117}{1 - 2(2)(-3)}"
+        "\n\n"
+            "Simplify the expressions inside the denominator term:\n\n"
+        r"r = \frac{117}{1 - (-12)}"
+        "\n\n"
+        r"r = \frac{117}{1 + 12}"
+        "\n\n"
+        r"r = \frac{117}{13}"
+        "\n\n"
+            "Divide to compute the final integer:\n"
+        r"r = 9",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 11: The cost (C) in Ghana cedis of producing a book of x pages is given by C = 25 + 0.6x.\n"
+            "(i) Find the cost of producing a book with 220 pages.\n"
+            "(ii) How many pages are in a book produced at a cost of GH¢145.00?\n"
+            "(BECE 2021 Q5c)",
+        answer:
+        "⦿ (i) Find the cost when x = 220 pages:\n"
+            "Write the formula down:\n"
+        r"C = 25 + 0.6x"
+        "\n\n"
+            "Plug in x = 220:\n"
+        r"C = 25 + 0.6(220)"
+        "\n\n"
+            "Multiply the numbers:\n"
+        r"C = 25 + 132"
+        "\n\n"
+            "Add the values together to find the total financial cost:\n"
+            "C = GH¢157\n\n"
+            "⦿ (ii) Find the number of pages when C = 145:\n"
+            "Substitute C = 145 into the cost equation:\n"
+        r"145 = 25 + 0.6x"
+        "\n\n"
+            "Subtract 25 from both sides to isolate the variable term:\n"
+        r"145 - 25 = 0.6x"
+        "\n"
+        r"120 = 0.6x"
+        "\n\n"
+            "Clear the decimal by multiplying both sides by 10:\n"
+        r"120 \times 10 = 6x"
+        "\n"
+        r"1200 = 6x"
+        "\n\n"
+            "Divide both sides by 6 to compute the number of pages:\n"
+        r"x = \frac{1200}{6} = 200 pages",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 12: Given the relation "
+        r"L = \frac{2(m^2 - n^2)}{4(m + n)}"
+        "\n"
+            "(i) simplify L;\n"
+            "(ii) find the value of L when m = 2 and n = 3.\n"
+            "(BECE 2022 Q3a)",
+        answer:
+        "⦿ (i) Simplify L:\n"
+            "State the original algebraic fraction:\n"
+        r"L = \frac{2(m^2 - n^2)}{4(m + n)}"
+        "\n\n"
+            "Factorize the difference of two squares expression in the numerator:\n"
+        r"m^2 - n^2 = (m + n)(m - n)"
+        "\n\n"
+            "Substitute this factorized form back into the equation:\n"
+        r"L = \frac{2(m + n)(m - n)}{4(m + n)}"
+        "\n\n"
+            "Cancel out the common binomial factor (m + n) from both the numerator and the denominator:\n"
+        r"L = \frac{2(m - n)}{4}"
+        "\n\n"
+            "Reduce the remaining numerical fraction "
+        r"\frac{2}{4}"
+        " to its simplest form "
+        r"\frac{1}{2}"
+        ":\n"
+        r"L = \frac{m - n}{2}"
+        "\n\n"
+            "⦿ (ii) Find the value of L when m = 2 and n = 3:\n"
+            "Apply the given numeric choices to our simplified final formula expression from part (i):\n"
+        r"L = \frac{2 - 3}{2}"
+        "\n\n"
+            "Compute the value directly:\n"
+        r"L = -\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 13: If "
+        r"\frac{1}{y} = 3k - \frac{2}{x}"
+        ",\n"
+            "(i) make y the subject of the relation.\n"
+            "(ii) using the result in (i), find the value of y when x = -1 and k = 2.\n"
+            "(BECE 2025 Q1b)",
+        answer:
+        "⦿ (i) Make y the subject of the relation:\n"
+            "Write out the mathematical expression:\n"
+        r"\frac{1}{y} = 3k - \frac{2}{x}"
+        "\n\n"
+            "Find the common denominator for the terms on the right hand side to write them as a single combined fraction:\n"
+        r"\frac{1}{y} = \frac{3kx - 2}{x}"
+        "\n\n"
+            "Invert both sides of the equation (take the reciprocal) to find the explicit expression for y:\n"
+        r"y = \frac{x}{3kx - 2}"
+        "\n\n"
+            "⦿ (ii) Find the value of y when x = -1 and k = 2:\n"
+            "Substitute the provided numbers directly into the newly constructed subject expression from part (i):\n"
+        r"y = \frac{-1}{3(2)(-1) - 2}"
+        "\n\n"
+            "Multiply the numbers out inside the denominator:\n"
+        r"y = \frac{-1}{-6 - 2}"
+        "\n\n"
+        r"y = \frac{-1}{-8}"
+        "\n\n"
+            "Cancel out the signs to finish:\n"
+        r"y = \frac{1}{8}",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS3 s2 ss3 - Variables and Equations": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+  scenario:
+      "Question 1: Find the solution set of "
+      r"x + 3 > 19 - 3x"
+      ", where x is a real number.\n"
+      "(BECE 1990 Q2c)",
+  answer:
+      "Group terms containing x on the left and constant numbers on the right by adding 3x and subtracting 3 from both sides:\n"
+      r"x + 3x > 19 - 3"
+      "\n\n"
+      "Simplify both sides of the inequality:\n"
+      r"4x > 16"
+      "\n\n"
+      "Divide both sides by 4:\n"
+      r"\frac{4x}{4} > \frac{16}{4}"
+      "\n"
+      r"x > 4"
+      "\n\n"
+      "The final solution set is:\n"
+      r"\{x : x > 4\}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 2: Solve "
+      r"\frac{x}{4} + \frac{3}{5} = \frac{3x}{2} - 2"
+      ".\n"
+      "(BECE 1990 Q2b)",
+  answer:
+      "Find the Least Common Multiple (LCM) of the denominators 4, 5, and 2, which is 20.\n\n"
+      "Multiply every term on both sides by 20 to clear the fractions:\n"
+      r"20\left(\frac{x}{4}\right) + 20\left(\frac{3}{5}\right) = 20\left(\frac{3x}{2}\right) - 20(2)"
+      "\n\n"
+      "Simplify each term:\n"
+      r"5(x) + 4(3) = 10(3x) - 40"
+      "\n"
+      r"5x + 12 = 30x - 40"
+      "\n\n"
+      "Rearrange the terms by grouping x variables on the left and constants on the right:\n"
+      r"5x - 30x = -40 - 12"
+      "\n\n"
+      "Combine like terms:\n"
+      r"-25x = -52"
+      "\n\n"
+      "Divide both sides by -25:\n"
+      r"x = \frac{-52}{-25} = \frac{52}{25} = 2\frac{2}{25}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 3: Solve the equation "
+      r"\frac{2x - 1}{3} - \frac{x - 2}{4} = 1"
+      ".\n"
+      "(BECE 1991 Q3a)",
+  answer:
+      "Find the LCM of the denominators 3 and 4, which is 12.\n\n"
+      "Multiply through both sides of the equation by 12:\n"
+      r"12\left(\frac{2x - 1}{3}\right) - 12\left(\frac{x - 2}{4}\right) = 12(1)"
+      "\n\n"
+      "Cancel out the denominators:\n"
+      r"4(2x - 1) - 3(x - 2) = 12"
+      "\n\n"
+      "Expand the brackets carefully, noting the negative sign distribution:\n"
+      r"8x - 4 - 3x + 6 = 12"
+      "\n\n"
+      "Group and combine like terms on the left side:\n"
+      r"5x + 2 = 12"
+      "\n\n"
+      "Subtract 2 from both sides:\n"
+      r"5x = 12 - 2"
+      "\n"
+      r"5x = 10"
+      "\n\n"
+      "Divide both sides by 5:\n"
+      r"x = \frac{10}{5} = 2",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 4: Solve "
+      r"5 - 2x > x + 2"
+      ", where x is a real number.\n"
+      "(BECE 1992 Q1a)",
+  answer:
+      "Group the x variables on the left side and the constants on the right side:\n"
+      r"-2x - x > 2 - 5"
+      "\n\n"
+      "Combine like terms:\n"
+      r"-3x > -3"
+      "\n\n"
+      "Divide both sides by -3. Because you are dividing by a negative number, the direction of the inequality sign reverses:\n"
+      r"\frac{-3x}{-3} < \frac{-3}{-3}"
+      "\n"
+      r"x < 1",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 5: Find the truth set of the equation "
+      r"\frac{2}{3}(3y - 1) - (y + 2) = \frac{1}{3}"
+      ".\n"
+      "(BECE 1992 Q1b)",
+  answer:
+      "Multiply the entire equation through by 3 to eliminate the fractional denominators:\n"
+      r"3\left[\frac{2}{3}(3y - 1)\right] - 3(y + 2) = 3\left(\frac{1}{3}\right)"
+      "\n"
+      r"2(3y - 1) - 3(y + 2) = 1"
+      "\n\n"
+      "Expand the brackets:\n"
+      r"6y - 2 - 3y - 6 = 1"
+      "\n\n"
+      "Combine like terms on the left side:\n"
+      r"3y - 8 = 1"
+      "\n\n"
+      "Add 8 to both sides:\n"
+      r"3y = 1 + 8"
+      "\n"
+      r"3y = 9"
+      "\n\n"
+      "Divide by 3:\n"
+      r"y = \frac{9}{3} = 3"
+      "\n\n"
+      "The final truth set is:\n"
+      r"\{y : y = 3\}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 6: Solve "
+      r"5(a - 5) - \frac{1}{2}(2a + 6) = 4"
+      ".\n"
+      "(BECE 1993 Q1b)",
+  answer:
+      "Multiply every term through by 2 to clear the fraction:\n"
+      r"2 \times 5(a - 5) - 2 \times \frac{1}{2}(2a + 6) = 2 \times 4"
+      "\n"
+      r"10(a - 5) - 1(2a + 6) = 8"
+      "\n\n"
+      "Expand the brackets:\n"
+      r"10a - 50 - 2a - 6 = 8"
+      "\n\n"
+      "Combine like terms on the left side:\n"
+      r"8a - 56 = 8"
+      "\n\n"
+      "Add 56 to both sides:\n"
+      r"8a = 8 + 56"
+      "\n"
+      r"8a = 64"
+      "\n\n"
+      "Divide both sides by 8:\n"
+      r"a = \frac{64}{8} = 8",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 7: Find the truth set of "
+      r"2x - 6 \leq 5(3 - x)"
+      ".\n"
+      "(BECE 1994 Q1b)",
+  answer:
+      "Expand the bracket on the right side:\n"
+      r"2x - 6 \leq 15 - 5x"
+      "\n\n"
+      "Group the variable terms on the left side and constants on the right side:\n"
+      r"2x + 5x \leq 15 + 6"
+      "\n\n"
+      "Combine like terms:\n"
+      r"7x \leq 21"
+      "\n\n"
+      "Divide both sides by 7:\n"
+      r"\frac{7x}{7} \leq \frac{21}{7}"
+      "\n"
+      r"x \leq 3",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 8: The sum of the ages of two brothers Kofi and Kweku is 35 years. Kofi's age is two-thirds of Kweku's age. Find their ages.\n"
+      "(BECE 1995 Q1b)",
+  answer:
+      "Let Kweku's age be represented by x.\n\n"
+      "Express Kofi's age as "
+      r"\frac{2}{3}x"
+      ".\n\n"
+      "Write out the sum equation:\n"
+      r"x + \frac{2}{3}x = 35"
+      "\n\n"
+      "Multiply through the entire equation by 3 to eliminate the fraction:\n"
+      r"3(x) + 3\left(\frac{2}{3}x\right) = 3(35)"
+      "\n"
+      r"3x + 2x = 105"
+      "\n\n"
+      "Combine like terms:\n"
+      r"5x = 105"
+      "\n\n"
+      "Divide both sides by 5 to find Kweku's age:\n"
+      r"x = \frac{105}{5} = 21"
+      "\n\n"
+      "Substitute x = 21 to calculate Kofi's age:\n"
+      r"\text{Kofi's age} = \frac{2}{3} \times 21 = 2 \times 7 = 14"
+      "\n\n"
+      "Final Answer: Kweku is 21 years old and Kofi is 14 years old.",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 9: Kojo is n years old now.\n"
+      "(i) How old was he 5 years ago?\n"
+      "(ii) How old will he be 10 years from now?\n"
+      "(iii) If his age in 10 years' time will be four times his age 5 years ago, how old is he now?\n"
+      "(BECE 1996 Q1a)",
+  answer:
+      "⦿ (i) Age 5 years ago is:\n"
+      r"(n - 5)\text{ years old}"
+      "\n\n"
+      "⦿ (ii) Age 10 years from now is:\n"
+      r"(n + 10)\text{ years old}"
+      "\n\n"
+      "⦿ (iii) Set up the equation based on the given word problem criteria:\n"
+      r"n + 10 = 4(n - 5)"
+      "\n\n"
+      "Expand the bracket on the right side:\n"
+      r"n + 10 = 4n - 20"
+      "\n\n"
+      "Rearrange terms to group the n variables together:\n"
+      r"n - 4n = -20 - 10"
+      "\n"
+      r"-3n = -30"
+      "\n\n"
+      "Divide both sides by -3:\n"
+      r"n = \frac{-30}{-3} = 10"
+      "\n\n"
+      "Kojo is 10 years old now.",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 10: Solve the inequality "
+      r"5x - 3(x - 1) \geq 39"
+      ".\n"
+      "(BECE 1997 Q1c)",
+  answer:
+      "Expand the bracket carefully, multiplying through by -3:\n"
+      r"5x - 3x + 3 \geq 39"
+      "\n\n"
+      "Combine the like variable terms:\n"
+      r"2x + 3 \geq 39"
+      "\n\n"
+      "Subtract 3 from both sides:\n"
+      r"2x \geq 39 - 3"
+      "\n"
+      r"2x \geq 36"
+      "\n\n"
+      "Divide both sides by 2:\n"
+      r"\frac{2x}{2} \geq \frac{36}{2}"
+      "\n"
+      r"x \geq 18",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 11: Solve "
+      r"3x - 9 \geq 12(x - 3)"
+      ".\n"
+      "(BECE 1998 Q1b)",
+  answer:
+      "Expand the bracket on the right side:\n"
+      r"3x - 9 \geq 12x - 36"
+      "\n\n"
+      "Move all variable terms to one side and constants to the other side:\n"
+      r"3x - 12x \geq -36 + 9"
+      "\n\n"
+      "Combine like terms:\n"
+      r"-9x \geq -27"
+      "\n\n"
+      "Divide both sides by -9 and reverse the inequality sign direction:\n"
+      r"\frac{-9x}{-9} \leq \frac{-27}{-9}"
+      "\n"
+      r"x \leq 3",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 12: Kofi and Kojo were given φ38,000.00 to share. Kojo had φ7,500.00 more than Kofi. Find:\n"
+      "(i) Kofi's share\n"
+      "(ii) Kojo's share\n"
+      "(BECE 1999 Q1a)",
+  answer:
+      "Let Kofi's share be x.\n\n"
+      "Kojo's share is represented as x + 7,500.\n\n"
+      "Set up the total equation:\n"
+      r"x + (7,500 + x) = 38,000"
+      "\n\n"
+      "Combine like terms:\n"
+      r"2x + 7,500 = 38,000"
+      "\n\n"
+      "Subtract 7,500 from both sides:\n"
+      r"2x = 38,000 - 7,500 = 30,500"
+      "\n\n"
+      "Divide both sides by 2:\n"
+      r"x = \frac{30,500}{2} = 15,250"
+      "\n\n"
+      "Individual totals are calculated as:\n"
+      "(i) Kofi's share = φ15,250.00\n"
+      "(ii) Kojo's share = 15,250 + 7,500 = φ22,750.00",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 13: Solve the inequality "
+      r"\frac{2x - 1}{4} - \frac{x - 2}{3} > 1"
+      ".\n"
+      "(BECE 1999 Q2a)",
+  answer:
+      "Find the LCM of the denominators 4 and 3, which is 12.\n\n"
+      "Multiply through every term on both sides by 12:\n"
+      r"12\left(\frac{2x - 1}{4}\right) - 12\left(\frac{x - 2}{3}\right) > 12(1)"
+      "\n\n"
+      "Simplify terms to clear the denominators:\n"
+      r"3(2x - 1) - 4(x - 2) > 12"
+      "\n\n"
+      "Expand the brackets carefully:\n"
+      r"6x - 3 - 4x + 8 > 12"
+      "\n\n"
+      "Combine like terms on the left side:\n"
+      r"2x + 5 > 12"
+      "\n\n"
+      "Subtract 5 from both sides:\n"
+      r"2x > 12 - 5 = 7"
+      "\n\n"
+      "Divide both sides by 2:\n"
+      r"x > \frac{7}{2} \quad \text{or} \quad x > 3\frac{1}{2}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 14: Solve the equation "
+      r"\frac{1}{3}(x + 3) - 2(x - 5) = 4\frac{1}{3}"
+      ".\n"
+      "(BECE 2000 Q1b)",
+  answer:
+      "Convert the mixed fraction on the right side to an improper fraction:\n"
+      r"4\frac{1}{3} = \frac{13}{3}"
+      "\n\n"
+      "Write the rewritten equation:\n"
+      r"\frac{1}{3}(x + 3) - 2(x - 5) = \frac{13}{3}"
+      "\n\n"
+      "Multiply every single term through by 3 to eliminate fractions:\n"
+      r"3 \times \frac{1}{3}(x + 3) - 3 \times 2(x - 5) = 3 \times \frac{13}{3}"
+      "\n"
+      r"(x + 3) - 6(x - 5) = 13"
+      "\n\n"
+      "Expand the brackets:\n"
+      r"x + 3 - 6x + 30 = 13"
+      "\n\n"
+      "Combine like terms on the left side:\n"
+      r"-5x + 33 = 13"
+      "\n\n"
+      "Subtract 33 from both sides:\n"
+      r"-5x = 13 - 33 = -20"
+      "\n\n"
+      "Divide by -5:\n"
+      r"x = \frac{-20}{-5} = 4",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 15: Solve the inequality "
+      r"\frac{2x - 2}{4} - \frac{2x - 1}{3} \leq 1"
+      ".\n"
+      "(BECE 2001 Q1b)",
+  answer:
+      "Find the LCM of denominators 4 and 3, which is 12.\n\n"
+      "Multiply through both sides by 12:\n"
+      r"12\left(\frac{2x - 2}{4}\right) - 12\left(\frac{2x - 1}{3}\right) \leq 12(1)"
+      "\n\n"
+      "Cancel out the denominators:\n"
+      r"3(2x - 2) - 4(2x - 1) \leq 12"
+      "\n\n"
+      "Expand the brackets:\n"
+      r"6x - 6 - 8x + 4 \leq 12"
+      "\n\n"
+      "Combine like terms:\n"
+      r"-2x - 2 \leq 12"
+      "\n\n"
+      "Add 2 to both sides:\n"
+      r"-2x \leq 12 + 2 = 14"
+      "\n\n"
+      "Divide both sides by -2 and reverse the inequality sign direction:\n"
+      r"x \geq \frac{14}{-2} = -7",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 16: Solve the inequality "
+      r"\frac{5x - 3}{6} - \frac{2x - 4}{4} < 2"
+      ".\n"
+      "(BECE 2002B Q4a)",
+  answer:
+      "Find the LCM of denominators 6 and 4, which is 24.\n\n"
+      "Multiply every term on both sides by 24:\n"
+      r"24\left(\frac{5x - 3}{6}\right) - 24\left(\frac{2x - 4}{4}\right) < 24(2)"
+      "\n\n"
+      "Simplify the terms:\n"
+      r"4(5x - 3) - 6(2x - 4) < 48"
+      "\n\n"
+      "Expand the brackets carefully:\n"
+      r"20x - 12 - 12x + 24 < 48"
+      "\n\n"
+      "Combine like terms on the left side:\n"
+      r"8x + 12 < 48"
+      "\n\n"
+      "Subtract 12 from both sides:\n"
+      r"8x < 48 - 12 = 36"
+      "\n\n"
+      "Divide both sides by 8:\n"
+      r"x < \frac{36}{8}"
+      "\n\n"
+      "Simplify the fraction by dividing the numerator and denominator by 4:\n"
+      r"x < \frac{9}{2} \quad \text{or} \quad x < 4\frac{1}{2}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 17: Find the solution set of the inequality "
+      r"x - \frac{1}{3} \leq \frac{1}{5}"
+      ", if the domain is the set {-2, -1, 0, 1, 2}.\n"
+      "(BECE 2003 Q4b)",
+  answer:
+      "Find the LCM of the denominators 3 and 5, which is 15.\n\n"
+      "Multiply through by 15 to remove the fractions:\n"
+      r"15(x) - 15\left(\frac{1}{3}\right) \leq 15\left(\frac{1}{5}\right)"
+      "\n"
+      r"15x - 5 \leq 3"
+      "\n\n"
+      "Add 5 to both sides:\n"
+      r"15x \leq 3 + 5 = 8"
+      "\n\n"
+      "Divide both sides by 15:\n"
+      r"x \leq \frac{8}{15}"
+      "\n\n"
+      "Check which elements from the domain set {-2, -1, 0, 1, 2} are less than or equal to "
+      r"\frac{8}{15}"
+      ":\n"
+      "-2, -1, and 0 satisfy the condition, while 1 and 2 do not.\n\n"
+      "The selected solution set is:\n"
+      r"\{-2, -1, 0\}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 18: Solve for x in the inequality "
+      r"\frac{2}{3}(2x + 3) \leq 8\frac{2}{3}"
+      ".\n"
+      "(BECE 2004 Q4b)",
+  answer:
+      "Convert the mixed fraction on the right side to an improper fraction:\n"
+      r"8\frac{2}{3} = \frac{26}{3}"
+      "\n\n"
+      "Rewrite the inequality layout:\n"
+      r"\frac{2}{3}(2x + 3) \leq \frac{26}{3}"
+      "\n\n"
+      "Multiply both sides by 3 to clear the denominators:\n"
+      r"2(2x + 3) \leq 26"
+      "\n\n"
+      "Expand the bracket:\n"
+      r"4x + 6 \leq 26"
+      "\n\n"
+      "Subtract 6 from both sides:\n"
+      r"4x \leq 26 - 6 = 20"
+      "\n\n"
+      "Divide both sides by 4:\n"
+      r"x \leq \frac{20}{4} = 5",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 19: Solve "
+      r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq 1\frac{1}{4}"
+      ".\n"
+      "(BECE 2006 Q2c)",
+  answer:
+      "Convert the mixed fraction to an improper fraction:\n"
+      r"1\frac{1}{4} = \frac{5}{4}"
+      "\n\n"
+      "Write the rewritten equation setup:\n"
+      r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq \frac{5}{4}"
+      "\n\n"
+      "Find the LCM of denominators 3, 2, and 4, which is 12.\n\n"
+      "Multiply every expression group by 12:\n"
+      r"12 \times \frac{1}{3}(x - 1) - 12 \times \frac{1}{2}(x - 3) \leq 12 \times \frac{5}{4}"
+      "\n"
+      r"4(x - 1) - 6(x - 3) \leq 3(5)"
+      "\n\n"
+      "Expand the expressions:\n"
+      r"4x - 4 - 6x + 18 \leq 15"
+      "\n\n"
+      "Combine like terms on the left side:\n"
+      r"-2x + 14 \leq 15"
+      "\n\n"
+      "Subtract 14 from both sides:\n"
+      r"-2x \leq 15 - 14 = 1"
+      "\n\n"
+      "Divide by -2 and reverse the inequality layout symbol direction:\n"
+      r"x \geq -\frac{1}{2}"
+      "\n\n"
+      "The absolute solution set expression is:\n"
+      r"\left\{x : x \geq -\frac{1}{2}\right\}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 20: Find the truth set of "
+      r"\frac{x - 3}{3} \leq \frac{1}{2} + x"
+      ".\n"
+      "(BECE 2007 Q2c)",
+  answer:
+      "Find the LCM of the denominators 3 and 2, which is 6.\n\n"
+      "Multiply every term on both sides by 6:\n"
+      r"6\left(\frac{x - 3}{3}\right) \leq 6\left(\frac{1}{2}\right) + 6(x)"
+      "\n\n"
+      "Simplify the expressions:\n"
+      r"2(x - 3) \leq 3 + 6x"
+      "\n\n"
+      "Expand the bracket:\n"
+      r"2x - 6 \leq 3 + 6x"
+      "\n\n"
+      "Group the variable terms on the left side and constants on the right side:\n"
+      r"2x - 6x \leq 3 + 6"
+      "\n"
+      r"-4x \leq 9"
+      "\n\n"
+      "Divide both sides by -4 and reverse the direction of the inequality sign:\n"
+      r"x \geq \frac{9}{-4} = -2\frac{1}{4}"
+      "\n\n"
+      "The final truth set is:\n"
+      r"\left\{x : x \geq -2\frac{1}{4}\right\}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 21: Find the value of x if "
+      r"\frac{3x - 2}{5}"
+      " is greater than "
+      r"\frac{1 - 4x}{10}"
+      " by 5.\n"
+      "(BECE 2008 Q2b)",
+  answer:
+      "Set up the text definition as a mathematical formula:\n"
+      r"\frac{3x - 2}{5} = \frac{1 - 4x}{10} + 5"
+      "\n\n"
+      "Find the LCM of denominators 5 and 10, which is 10.\n\n"
+      "Multiply every term through by 10:\n"
+      r"10\left(\frac{3x - 2}{5}\right) = 10\left(\frac{1 - 4x}{10}\right) + 10(5)"
+      "\n\n"
+      "Simplify the terms to clear the denominators:\n"
+      r"2(3x - 2) = 1(1 - 4x) + 50"
+      "\n\n"
+      "Expand the expressions:\n"
+      r"6x - 4 = 1 - 4x + 50 = 51 - 4x"
+      "\n\n"
+      "Move the variable terms to the left side and constants to the right side:\n"
+      r"6x + 4x = 51 + 4"
+      "\n"
+      r"10x = 55"
+      "\n\n"
+      "Divide both sides by 10:\n"
+      r"x = \frac{55}{10} = 5.5",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 22: Solve "
+      r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + 2\frac{3}{4}"
+      ".\n"
+      "(BECE 2010 Q5a)",
+  answer:
+      "Convert the mixed fraction to an improper fraction:\n"
+      r"2\frac{3}{4} = \frac{11}{4}"
+      "\n\n"
+      "Write out the clear term groupings:\n"
+      r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + \frac{11}{4}"
+      "\n\n"
+      "Find the LCM of denominators 2, 8, and 4, which is 8.\n\n"
+      "Multiply through every single term by 8:\n"
+      r"8\left(\frac{4x - 3}{2}\right) = 8\left(\frac{8x - 10}{8}\right) + 8\left(\frac{11}{4}\right)"
+      "\n\n"
+      "Clear out fraction denominators:\n"
+      r"4(4x - 3) = 1(8x - 10) + 2(11)"
+      "\n\n"
+      "Expand brackets and run arithmetic:\n"
+      r"16x - 12 = 8x - 10 + 22 = 8x + 12"
+      "\n\n"
+      "Group variables on the left side and constant numbers on the right side:\n"
+      r"16x - 8x = 12 + 12"
+      "\n"
+      r"8x = 24"
+      "\n\n"
+      "Divide both sides by 8:\n"
+      r"x = \frac{24}{8} = 3",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 23: Solve the inequality "
+      r"\frac{1}{3}x + 1\frac{2}{3} < \frac{-3}{4}x - \frac{1}{2}"
+      ".\n"
+      "(BECE 2011 Q2b)",
+  answer:
+      "Convert the mixed fraction into an improper fraction:\n"
+      r"1\frac{2}{3} = \frac{5}{3}"
+      "\n\n"
+      "Rewrite the structural layout:\n"
+      r"\frac{1}{3}x + \frac{5}{3} < \frac{-3}{4}x - \frac{1}{2}"
+      "\n\n"
+      "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
+      "Multiply every term on both sides by 12:\n"
+      r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{-3}{4}x\right) - 12\left(\frac{1}{2}\right)"
+      "\n\n"
+      "Simplify each item:\n"
+      r"4x + 20 < -9x - 6"
+      "\n\n"
+      "Group variables on the left side and constants on the right side:\n"
+      r"4x + 9x < -6 - 20"
+      "\n"
+      r"13x < -26"
+      "\n\n"
+      "Divide both sides by 13:\n"
+      r"x < \frac{-26}{13} = -2",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 24: Solve the inequality "
+      r"2x - 1\frac{1}{2} \geq 5x - 6"
+      ".\n"
+      "(BECE 2013 Q1b)",
+  answer:
+      "Convert the mixed fraction into an improper fraction:\n"
+      r"1\frac{1}{2} = \frac{3}{2}"
+      "\n\n"
+      "Rewrite the expression line:\n"
+      r"2x - \frac{3}{2} \geq 5x - 6"
+      "\n\n"
+      "Multiply every term on both sides by 2 to remove fraction layouts:\n"
+      r"2(2x) - 2\left(\frac{3}{2}\right) \geq 2(5x) - 2(6)"
+      "\n"
+      r"4x - 3 \geq 10x - 12"
+      "\n\n"
+      "Group variables on the left side and constant values on the right side:\n"
+      r"4x - 10x \geq -12 + 3"
+      "\n"
+      r"-6x \geq -9"
+      "\n\n"
+      "Divide both sides by -6 and reverse the inequality sign layout:\n"
+      r"\frac{-6x}{-6} \leq \frac{-9}{-6} \implies x \leq \frac{9}{6}"
+      "\n\n"
+      "Reduce to lowest terms by dividing by 3:\n"
+      r"x \leq \frac{3}{2} \quad \text{or} \quad x \leq 1\frac{1}{2}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 25: Solve for x, if "
+      r"\frac{1}{3}x + 1\frac{2}{3} < \frac{3}{4}x - \frac{1}{2}"
+      ".\n"
+      "(BECE 2014 Q3a)",
+  answer:
+      "Convert the mixed fraction to an improper fraction:\n"
+      r"1\frac{2}{3} = \frac{5}{3}"
+      "\n\n"
+      "Rewrite the setup:\n"
+      r"\frac{1}{3}x + \frac{5}{3} < \frac{3}{4}x - \frac{1}{2}"
+      "\n\n"
+      "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
+      "Multiply every single term group by 12:\n"
+      r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{3}{4}x\right) - 12\left(\frac{1}{2}\right)"
+      "\n\n"
+      "Clear fractions:\n"
+      r"4x + 20 < 9x - 6"
+      "\n\n"
+      "Collect x values on the left side:\n"
+      r"4x - 9x < -6 - 20"
+      "\n"
+      r"-5x < -26"
+      "\n\n"
+      "Divide both sides by -5 and flip the inequality layout symbol direction:\n"
+      r"x > \frac{-26}{-5} \implies x > \frac{26}{5} \quad \text{or} \quad x > 5\frac{1}{5}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 26: Solve "
+      r"\frac{3x + 2}{3} - \frac{3 - x}{8} = \frac{1}{6}"
+      ".\n"
+      "(BECE 2015A Q1b)",
+  answer:
+      "Find the LCM of denominators 3, 8, and 6, which is 24.\n\n"
+      "Multiply every term on both sides by 24:\n"
+      r"24\left(\frac{3x + 2}{3}\right) - 24\left(\frac{3 - x}{8}\right) = 24\left(\frac{1}{6}\right)"
+      "\n\n"
+      "Cancel out denominators:\n"
+      r"8(3x + 2) - 3(3 - x) = 4(1)"
+      "\n\n"
+      "Expand the brackets carefully:\n"
+      r"24x + 16 - 9 + 3x = 4"
+      "\n\n"
+      "Combine like terms on the left side:\n"
+      r"27x + 7 = 4"
+      "\n\n"
+      "Subtract 7 from both sides:\n"
+      r"27x = 4 - 7 = -3"
+      "\n\n"
+      "Divide both sides by 27:\n"
+      r"x = \frac{-3}{27}"
+      "\n\n"
+      "Reduce fraction to lowest terms by dividing by 3:\n"
+      r"x = -\frac{1}{9}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 27: Solve for x, if "
+      r"2 - \frac{3}{5}x \leq 1\frac{1}{3}"
+      ".\n"
+      "(BECE 2015B Q2a)",
+  answer:
+      "Convert mixed fraction into improper fraction:\n"
+      r"1\frac{1}{3} = \frac{4}{3}"
+      "\n\n"
+      "Rewrite the expression:\n"
+      r"2 - \frac{3}{5}x \leq \frac{4}{3}"
+      "\n\n"
+      "Find the LCM of denominators 5 and 3, which is 15.\n\n"
+      "Multiply every term on both sides by 15:\n"
+      r"15(2) - 15\left(\frac{3}{5}x\right) \leq 15\left(\frac{4}{3}\right)"
+      "\n\n"
+      "Simplify the terms:\n"
+      r"30 - 9x \leq 20"
+      "\n\n"
+      "Subtract 30 from both sides:\n"
+      r"-9x \leq 20 - 30 = -10"
+      "\n\n"
+      "Divide both sides by -9 and reverse the inequality sign layout direction:\n"
+      r"x \geq \frac{-10}{-9} \implies x \geq \frac{10}{9} \quad \text{or} \quad x \geq 1\frac{1}{9}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 28: Two consecutive odd numbers are such that seven times the smaller, subtracted from nine times the bigger, give 144. Find the two numbers.\n"
+      "(BECE 2017 Q2a)",
+  answer:
+      "Let the smaller consecutive odd number be x.\n\n"
+      "Let the larger consecutive odd number be x + 2.\n\n"
+      "Form the equation based on the text narrative context:\n"
+      r"9(x + 2) - 7x = 144"
+      "\n\n"
+      "Expand the bracket:\n"
+      r"9x + 18 - 7x = 144"
+      "\n\n"
+      "Combine variable terms on the left side:\n"
+      r"2x + 18 = 144"
+      "\n\n"
+      "Subtract 18 from both sides:\n"
+      r"2x = 144 - 18 = 126"
+      "\n\n"
+      "Divide both sides by 2 to isolate x:\n"
+      r"x = \frac{126}{2} = 63"
+      "\n\n"
+      "Individual consecutive metrics are determined as:\n"
+      "The first odd number (smaller) = 63\n"
+      "The second odd number (bigger) = 63 + 2 = 65\n\n"
+      "Final Answer: The two consecutive odd numbers are 63 and 65.",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 29: Solve the inequality "
+      r"\frac{3}{4}(x + 1) + 1 \leq \frac{1}{2}(x - 2) + 5"
+      ".\n"
+      "(BECE 2017 Q6b(i))",
+  answer:
+      "Find the LCM of denominators 4 and 2, which is 4.\n\n"
+      "Multiply every unique term group on both sides by 4:\n"
+      r"4\left[\frac{3}{4}(x + 1)\right] + 4(1) \leq 4\left[\frac{1}{2}(x - 2)\right] + 4(5)"
+      "\n\n"
+      "Clear out the fractions:\n"
+      r"3(x + 1) + 4 \leq 2(x - 2) + 20"
+      "\n\n"
+      "Expand the brackets:\n"
+      r"3x + 3 + 4 \leq 2x - 4 + 20"
+      "\n\n"
+      "Combine constant values on both sides:\n"
+      r"3x + 7 \leq 2x + 16"
+      "\n\n"
+      "Group variable terms on the left and constant values on the right side:\n"
+      r"3x - 2x \leq 16 - 7 \implies x \leq 9",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 30: Solve the inequality "
+      r"5x - 3 \geq \frac{15x - 11}{2}"
+      ".\n"
+      "(BECE 2018 Q1a)",
+  answer:
+      "Multiply both sides of the inequality by 2 to remove fraction denominators on the right side:\n"
+      r"2(5x - 3) \geq 15x - 11"
+      "\n\n"
+      "Expand terms:\n"
+      r"10x - 6 \geq 15x - 11"
+      "\n\n"
+      "Move variable terms to the left side and constants to the right side:\n"
+      r"10x - 15x \geq -11 + 6"
+      "\n\n"
+      "Combine like terms:\n"
+      r"-5x \geq -5"
+      "\n\n"
+      "Divide both sides by -5 and flip the inequality sign layout direction:\n"
+      r"\frac{-5x}{-5} \leq \frac{-5}{-5} \implies x \leq 1",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 31: If "
+      r"\frac{p + 2q}{p} = \frac{7}{5}"
+      ", find the value of "
+      r"\frac{q}{p}"
+      ", where p ≠ 0.\n"
+      "(BECE 2019 Q1c)",
+  answer:
+      "Cross-multiply to remove fraction lines:\n"
+      r"5(p + 2q) = 7p"
+      "\n\n"
+      "Expand brackets on the left side:\n"
+      r"5p + 10q = 7p"
+      "\n\n"
+      "Shift 5p to group variables on the right side:\n"
+      r"10q = 7p - 5p = 2p"
+      "\n\n"
+      "Divide both sides by 2q to isolate the variable ratio layout:\n"
+      r"\frac{10q}{2q} = \frac{2p}{2q} \implies 5 = \frac{p}{q}"
+      "\n\n"
+      "Take the reciprocal of both sides to get the final required fraction value:\n"
+      r"\frac{q}{p} = \frac{1}{5}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 32: Solve "
+      r"\frac{4x + 5}{5} + \frac{x - 3}{4} = -1"
+      ".\n"
+      "(BECE 2019 Q2a)",
+  answer:
+      "Find the LCM of the denominators 5 and 4, which is 20.\n\n"
+      "Multiply through every term on both sides by 20:\n"
+      r"20\left(\frac{4x + 5}{5}\right) + 20\left(\frac{x - 3}{4}\right) = 20(-1)"
+      "\n\n"
+      "Simplify terms to remove fractions:\n"
+      r"4(4x + 5) + 5(x - 3) = -20"
+      "\n\n"
+      "Expand brackets completely:\n"
+      r"16x + 20 + 5x - 15 = -20"
+      "\n\n"
+      "Combine variables and numbers on the left side:\n"
+      r"21x + 5 = -20"
+      "\n\n"
+      "Subtract 5 from both sides:\n"
+      r"21x = -20 - 5 = -25"
+      "\n\n"
+      "Divide both sides by 21:\n"
+      r"x = -\frac{25}{21} \quad \text{or} \quad x = -1\frac{4}{21}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 33: Solve "
+      r"\frac{2x + 3}{3} + 2x = 10"
+      ".\n"
+      "(BECE 2020 Q2a)",
+  answer:
+      "Multiply through every term in the equation by 3 to eliminate the fraction denominator:\n"
+      r"3\left(\frac{2x + 3}{3}\right) + 3(2x) = 3(10)"
+      "\n"
+      r"(2x + 3) + 6x = 30"
+      "\n\n"
+      "Combine like variable terms on the left side:\n"
+      r"8x + 3 = 30"
+      "\n\n"
+      "Subtract 3 from both sides:\n"
+      r"8x = 30 - 3 = 27"
+      "\n\n"
+      "Divide both sides by 8:\n"
+      r"x = \frac{27}{8} \quad \text{or} \quad x = 3\frac{3}{8}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 34: In a fishing community of 9,400 people, the number of women exceeds the number of men by 1,500. Find the ratio of men to women in the community.\n"
+      "(BECE 2020 Q3c)",
+  answer:
+      "Let the total number of men be x.\n\n"
+      "Express the number of women as x + 1,500.\n\n"
+      "Write down the population sum formula:\n"
+      r"x + (x + 1,500) = 9,400"
+      "\n\n"
+      "Combine like terms:\n"
+      r"2x + 1,500 = 9,400"
+      "\n\n"
+      "Subtract 1,500 from both sides:\n"
+      r"2x = 9,400 - 1,500 = 7,900"
+      "\n\n"
+      "Divide by 2 to determine the male population:\n"
+      r"x = \frac{7,900}{2} = 3,950\text{ men}"
+      "\n\n"
+      "Find the female population using substitution:\n"
+      r"\text{Number of women} = 3,950 + 1,500 = 5,450\text{ women}"
+      "\n\n"
+      "Determine the simplified numerical distribution ratio:\n"
+      r"\text{Ratio} = 3,950 : 5,450"
+      "\n\n"
+      "Divide by 10, then divide by 5 to fully reduce the ratio:\n"
+      r"\text{Ratio} = 79 : 109",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 35: Solve: "
+      r"\frac{6}{4p - 1} = \frac{4}{3(p + 4)}"
+      ".\n"
+      "(BECE 2021 Q2b)",
+  answer:
+      "Expand the denominator on the right side:\n"
+      r"\frac{6}{4p - 1} = \frac{4}{3p + 12}"
+      "\n\n"
+      "Cross-multiply to eliminate the fractions:\n"
+      r"6(3p + 12) = 4(4p - 1)"
+      "\n\n"
+      "Expand brackets on both sides:\n"
+      r"18p + 72 = 16p - 4"
+      "\n\n"
+      "Shift variable terms to the left side and constants to the right side:\n"
+      r"18p - 16p = -4 - 72"
+      "\n\n"
+      "Combine like terms:\n"
+      r"2p = -76"
+      "\n\n"
+      "Divide both sides by 2:\n"
+      r"p = \frac{-76}{2} = -38",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 36: Fred is (x - 1) years old now. How old:\n"
+      "(i) was he 4 years ago?\n"
+      "(ii) will he be 8 years from now?\n"
+      "(iii) If Fred's age in 8 years' time will be three times his age 4 years ago, find Fred's present age.\n"
+      "(BECE 2022 Q4a)",
+  answer:
+      "⦿ (i) Subtract 4 from his current age formula:\n"
+      r"\text{Age 4 years ago} = (x - 1) - 4 = (x - 5)\text{ years old}"
+      "\n\n"
+      "⦿ (ii) Add 8 to his current age formula:\n"
+      r"\text{Age 8 years from now} = (x - 1) + 8 = (x + 7)\text{ years old}"
+      "\n\n"
+      "⦿ (iii) Set up the equation matching the problem constraints:\n"
+      r"x + 7 = 3(x - 5)"
+      "\n\n"
+      "Expand the bracket on the right side:\n"
+      r"x + 7 = 3x - 15"
+      "\n\n"
+      "Isolate variable x:\n"
+      r"x - 3x = -15 - 7 \implies -2x = -22 \implies x = 11"
+      "\n\n"
+      "Calculate Fred's current present age by substitution:\n"
+      r"\text{Fred's present age} = 11 - 1 = 10\text{ years old}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 37: Solve "
+      r"\frac{4}{3x} = 7 - \frac{3}{x}"
+      ".\n"
+      "(BECE 2022 Q3b)",
+  answer:
+      "Identify the LCM of denominators 3x and x, which is 3x.\n\n"
+      "Multiply every term on both sides by 3x:\n"
+      r"3x\left(\frac{4}{3x}\right) = 3x(7) - 3x\left(\frac{3}{x}\right)"
+      "\n\n"
+      "Clear fraction denominators:\n"
+      r"4 = 21x - 9"
+      "\n\n"
+      "Add 9 to both sides:\n"
+      r"4 + 9 = 21x \implies 13 = 21x"
+      "\n\n"
+      "Divide both sides by 21 to solve for x:\n"
+      r"x = \frac{13}{21}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 38: Find the truth set of "
+      r"\frac{x - 1}{2} \leq \frac{1}{2} + x"
+      ".\n"
+      "(BECE 2022 Q5c(i))",
+  answer:
+      "Multiply every term on both sides by 2 to clear out fractions:\n"
+      r"2\left(\frac{x - 1}{2}\right) \leq 2\left(\frac{1}{2}\right) + 2(x)"
+      "\n"
+      r"x - 1 \leq 1 + 2x"
+      "\n\n"
+      "Move the variable terms to the left side and constants to the right side:\n"
+      r"x - 2x \leq 1 + 1"
+      "\n\n"
+      "Combine like terms:\n"
+      r"-x \leq 2"
+      "\n\n"
+      "Divide both sides by -1 and reverse the inequality sign layout direction:\n"
+      r"x \geq -2"
+      "\n\n"
+      "The final truth set is:\n"
+      r"\{x : x \geq -2\}",
+  explanation: "",
+),
+
+PracticeQuestion(
+  scenario:
+      "Question 39: If "
+      r"4m - 2(3 + 2m) + m(2m + 4) = 0"
+      ", find the values of m.\n"
+      "(BECE 2023 Q4a)",
+  answer:
+      "Expand the brackets carefully:\n"
+      r"4m - 6 - 4m + 2m^2 + 4m = 0"
+      "\n\n"
+      "Group and combine like terms:\n"
+      r"2m^2 + 4m - 6 = 0"
+      "\n\n"
+      "Divide the entire equation by 2 to simplify:\n"
+      r"m^2 + 2m - 3 = 0"
+      "\n\n"
+      "Factorize the quadratic trinomial:\n"
+      r"m^2 - m + 3m - 3 = 0"
+      "\n"
+      r"m(m - 1) + 3(m - 1) = 0"
+      "\n"
+      r"(m + 3)(m - 1) = 0"
+      "\n\n"
+      "Solve for m by setting each factor equal to zero:\n"
+      r"m + 3 = 0 \implies m = -3"
+      "\n"
+      r"m - 1 = 0 \implies m = 1"
+      "\n\n"
+      "Final Answer: m = -3 or m = 1.",
+  explanation: "",
+),
     ],
   ),
 

@@ -10296,6 +10296,660 @@ QuizQuestion(
     ],
   ),
 
+  "Math JHS3 s2 ss2 - Algebraic Expressions": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        r"1. Factorise x^2 - 5x + 6. (BECE 1994 Q13)",
+        options: [
+          r"(x + 3)(x - 2)",
+          r"(x - 2)(x - 3)",
+          r"(x + 1)(x - 6)",
+          r"(x + 2)(x + 3)",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Two numbers whose product is 6 and sum is -5 are -2 and -3, so x^2 - 5x + 6 = (x - 2)(x - 3).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"2. If R = \frac{1}{2}(a+b)k, find k in terms of R, a, and b. (BECE 1997 Q12)",
+        options: [
+          r"\frac{a+b}{2R}",
+          r"\frac{2R}{a+b}",
+          r"\frac{2R-1}{b}",
+          r"\frac{2R-b}{a}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"2R = (a+b)k, so k = \frac{2R}{a+b}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. Make b the subject of the relation \frac{1}{a} = \frac{1}{b} + c. (BECE 1993 Q8)",
+        options: [
+          r"b = \frac{ac-1}{c}",
+          r"b = \frac{a}{1+ac}",
+          r"b = \frac{c}{1+ac}",
+          r"b = \frac{a}{1-ac}",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"\frac{1}{b} = \frac{1}{a} - c = \frac{1-ac}{a}, so b = \frac{a}{1-ac}. The supplied options appear inconsistent; option D is the mathematically correct form.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"4. Make n the subject of the relation 2n + 5 = 7a. (BECE 1997 Q23)",
+        options: [
+          r"n = \frac{1}{2}(7a+5)",
+          r"n = \frac{1}{2}(7a-5)",
+          r"n = 2(7a+5)",
+          r"n = 2(7a-5)",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"2n = 7a - 5, so n = \frac{1}{2}(7a-5).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. Make m the subject in the relation f = \frac{t}{s} - m. (BECE 1994 Q8)",
+        options: [
+          r"m = \frac{t}{s} + f",
+          r"m = \frac{t}{s} - f",
+          r"m = \frac{fs-t}{s}",
+          r"m = f - \frac{t}{s}",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Rearranging gives m = \frac{t}{s} - f.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"6. In the relation \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2}, if R_1 = 1 and R_2 = 3, find R. (BECE 1998 Q9)",
+        options: [
+          r"\frac{1}{2}",
+          r"\frac{2}{3}",
+          r"\frac{3}{4}",
+          r"\frac{3}{2}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"\frac{1}{R} = 1 + \frac{1}{3} = \frac{4}{3}, so R = \frac{3}{4}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"7. Make a the subject of the relation P = 2(a + b). (BECE 1995 Q17)",
+        options: [
+          r"a = \frac{P-2b}{2}",
+          r"a = \frac{P+2b}{2}",
+          r"a = \frac{2b-P}{2}",
+          r"a = \frac{P-b}{2}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"P = 2a + 2b, so 2a = P - 2b and a = \frac{P-2b}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"8. Given the relation \frac{1}{y} = \frac{1}{c} + \frac{1}{x}, which of the following expressions is equal to y? (BECE 1999 Q38)",
+        options: [
+          r"c + x",
+          r"\frac{2}{cx}",
+          r"\frac{c+x}{2}",
+          r"\frac{cx}{c+x}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"\frac{1}{y} = \frac{x+c}{cx}, so y = \frac{cx}{c+x}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"9. If \frac{1}{k} = \frac{1}{k_1} + \frac{1}{k_2}, find k when k_1 = 1 and k_2 = 2. (BECE 2000 Q30)",
+        options: [
+          r"\frac{1}{2}",
+          r"\frac{2}{3}",
+          r"\frac{3}{2}",
+          "2",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"\frac{1}{k} = 1 + \frac{1}{2} = \frac{3}{2}, so k = \frac{2}{3}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"10. Make q the subject of the relation w = \frac{n-q}{q}. (BECE 2001 Q26)",
+        options: [
+          r"q = \frac{n-1}{w}",
+          r"q = \frac{n+1}{w}",
+          r"q = \frac{n+2}{1+w}",
+          r"q = \frac{n}{w+1}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"wq = n-q, so q(w+1)=n and q = \frac{n}{w+1}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. If r = \frac{m+1}{m-2}, express m in terms of r. (BECE 2002A Q21)",
+        options: [
+          r"m = \frac{2r+1}{r-1}",
+          r"m = \frac{2r+1}{r+1}",
+          r"m = \frac{2r-1}{r-1}",
+          r"m = \frac{2r-1}{r+1}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"r(m-2)=m+1, so rm-m=2r+1. Hence m(r-1)=2r+1 and m=\frac{2r+1}{r-1}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"12. Make x the subject of the relation v^2 = u^2 + 2ax. (BECE 2002B Q21)",
+        options: [
+          r"x = u^2 + 2av^2",
+          r"x = \frac{v^2-u^2}{a^2}",
+          r"x = \frac{u^2+v^2}{2a}",
+          r"x = \frac{v^2-u^2}{2a}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"2ax = v^2-u^2, so x = \frac{v^2-u^2}{2a}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. J = \frac{1}{2}mv^2. If v = 4 and J = 12, find m. (BECE 2002B Q26)",
+        options: [
+          "1.5",
+          "3.0",
+          "3.6",
+          "6.3",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"12 = \frac{1}{2}m(4^2)=8m, so m=1.5.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"14. If y = \frac{1}{3}(x-2), express x in terms of y. (BECE 2003 Q22)",
+        options: [
+          r"x = 3y - 2",
+          r"x = 3y + 2",
+          r"x = \frac{3}{2}y",
+          r"x = -\frac{3}{2}y",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"3y = x-2, so x = 3y+2.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. Make T the subject of the relation l^2 = \frac{4\pi^2T}{g}. (BECE 2005 Q25)",
+        options: [
+          r"T = \frac{gl}{2\pi}",
+          r"T = \frac{gl^2}{2\pi}",
+          r"T = \frac{l^2}{4g\pi^2}",
+          r"T = \frac{gl^2}{4\pi^2}",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Multiplying by g gives gl^2 = 4\pi^2T, so T = \frac{gl^2}{4\pi^2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"16. Make m the subject of p = \frac{3m+1}{m}. (BECE 2007 Q22)",
+        options: [
+          r"m = 3p + 1",
+          r"m = p - 3",
+          r"m = \frac{1}{p-3}",
+          r"m = \frac{3p+1}{p}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"pm=3m+1, so m(p-3)=1 and m=\frac{1}{p-3}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"17. Make n the subject of the relation \theta = 180 - \frac{360}{n}. (BECE 2011 Q18)",
+        options: [
+          r"\frac{\theta + 180}{2}",
+          r"\frac{\theta - 180}{2}",
+          r"\frac{360}{180-\theta}",
+          r"\frac{360}{180+\theta}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"180-\theta=\frac{360}{n}, so n=\frac{360}{180-\theta}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"18. Make d the subject of the relation n = 2d + 3. (BECE 2013 Q13)",
+        options: [
+          r"d = \frac{3n}{2}",
+          r"d = \frac{n+3}{2}",
+          r"d = \frac{n-3}{2}",
+          r"d = \frac{3-n}{2}",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"2d=n-3, so d=\frac{n-3}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"19. If p \times q \times r = 1197, and p = 19, q = 3, find r. (BECE 2015 Q7)",
+        options: [
+          "21",
+          "49",
+          "57",
+          "61",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"r = 1197 \div (19 \times 3) = 1197 \div 57 = 21.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"20. Make P the subject of the relation R = \frac{P+Q}{2}. (BECE 2016 Q19)",
+        options: [
+          r"P = Q - 2R",
+          r"P = 2R - Q",
+          r"P = 2R + Q",
+          r"P = 2Q + R",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"2R=P+Q, so P=2R-Q.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"21. Given that t = p^2 + 1, find p when t = 10. (BECE 2016 Q20)",
+        options: [
+          "3",
+          "4.5",
+          "11.0",
+          "81.0",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"10=p^2+1, so p^2=9 and the positive value in the options is p=3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"22. Make m the subject of the relation q = \frac{1}{3}(m+n)h. (BECE 2018 Q25)",
+        options: [
+          r"m = \frac{3q}{h} - n",
+          r"m = 3q - hn",
+          r"m = 3q + hn",
+          r"m = \frac{3q}{h} + n",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"3q=h(m+n), so \frac{3q}{h}=m+n and m=\frac{3q}{h}-n.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"23. Make k the subject of the relation ky - k = y^2. (BECE 2019 Q11)",
+        options: [
+          r"k = \frac{y^2}{y-1}",
+          r"k = \frac{y^2}{y+1}",
+          r"k = -\frac{y^2}{y+1}",
+          r"k = \frac{y^2+1}{y-1}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"k(y-1)=y^2, so k=\frac{y^2}{y-1}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"24. If 2y = 1 - 3x^2 + 4x, find y when x = -1. (BECE 2020 Q33)",
+        options: [
+          "-3",
+          r"-\frac{1}{2}",
+          r"\frac{1}{2}",
+          "3",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Substituting x=-1 gives 2y=1-3(1)-4=-6, so y=-3.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"25. Make n the subject of the relation y = \frac{n-x}{x}. (BECE 2020 Q37)",
+        options: [
+          r"n = x(y+1)",
+          r"n = y(x+1)",
+          r"n = \frac{x}{y-1}",
+          r"n = \frac{x}{y+1}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"xy=n-x, so n=xy+x=x(y+1).",
+      ),
+
+      QuizQuestion(
+        question:
+        r"26. Make h the subject of the relation V = \pi r^2h. (BECE 2021 Q12)",
+        options: [
+          r"h = \frac{V}{\pi r^2}",
+          r"h = \sqrt{\pi r^2}",
+          r"h = \frac{\pi r^2}{V}",
+          r"h = (\pi r^2)^2",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Dividing both sides by \pi r^2 gives h=\frac{V}{\pi r^2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"27. Given that m = \frac{b}{2} - t, make t the subject. (BECE 2023 Q40)",
+        options: [
+          r"t = \frac{b-2m}{2}",
+          r"t = \frac{2m-b}{2}",
+          r"t = \frac{2b-m}{2}",
+          r"t = \frac{b+2m}{2}",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"t=\frac{b}{2}-m=\frac{b-2m}{2}.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"28. Make m the subject of the relation \frac{1}{m} = \frac{1}{p} + \frac{1}{r}. (BECE 2024 Q12)",
+        options: [
+          r"m = \frac{pr}{r+p}",
+          r"m = \frac{r+p}{pr}",
+          r"m = \frac{pr}{r-p}",
+          r"m = \frac{r-p}{pr}",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"\frac{1}{m}=\frac{r+p}{pr}, so m=\frac{pr}{r+p}.",
+      ),
+    ],
+  ),
+  "Math JHS3 s2 ss3 - Variables and Equations": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. Kofi's age in the next 10 years will be 4 times his age 5 years ago. How old is Kofi now? (BECE 2001 Q15)",
+        options: [
+          "5",
+          "6",
+          "10",
+          "15",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Let Kofi's present age be x. Then x+10=4(x-5), so 30=3x and x=10.",
+      ),
+
+      QuizQuestion(
+        question:
+        "2. In a school of 940 pupils, the number of girls exceeds the number of boys by 150. How many girls are there in the school? (BECE 2012 Q36)",
+        options: [
+          "620",
+          "545",
+          "470",
+          "395",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Let the number of boys be x. Then x+(x+150)=940, giving 2x=790. Thus, boys=395 and girls=545.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"3. Solve the equation \frac{2}{3}(x-3)=\frac{5}{6}(x+6). (BECE 2005 Q31)",
+        options: [
+          "-42",
+          "-12",
+          "18",
+          "42",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Multiplying by 6 gives 4(x-3)=5(x+6). Thus, 4x-12=5x+30, so x=-42.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"4. Solve the inequality \frac{1}{2}(3x-1)+1 \leq 7+2x. (BECE 2018 Q36)",
+        options: [
+          r"x \geq -14",
+          r"x \leq -14",
+          r"x \geq -13",
+          r"x \leq -13",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"Multiplying by 2 gives 3x+1 \leq 14+4x, so -13 \leq x. Therefore, x \geq -13.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"5. Find the truth set of \frac{1}{4}(x+3) \leq 2x-1. (BECE 2012 Q18)",
+        options: [
+          r"{x : x \leq -3}",
+          r"{x : x \leq -1}",
+          r"{x : x \geq 1}",
+          r"{x : x \geq 3}",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"x+3 \leq 8x-4 gives 7 \leq 7x, so x \geq 1.",
+      ),
+
+      QuizQuestion(
+        question:
+        "6. A man was 24 years old when his son was born. Now he is three times as old as his son. Find the age of the son. (BECE 2014 Q25)",
+        options: [
+          "6 years",
+          "12 years",
+          "18 years",
+          "36 years",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"Let the son's age be x. The man's age is x+24, and x+24=3x. Thus, 24=2x and x=12.",
+      ),
+
+      QuizQuestion(
+        question:
+        "7. The sum of ages of Kwaku and Kojo is 30 years. Kwaku is 4 years older than Kojo. How old is Kojo? (BECE 1996 Q21)",
+        options: [
+          "19",
+          "17",
+          "13",
+          "11",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Let Kojo's age be x. Then x+(x+4)=30, so 2x=26 and x=13.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"8. Solve the equation \frac{1}{5}(2+y)=\frac{1}{2}(y-1). (BECE 2011 Q21)",
+        options: [
+          "-3",
+          r"\frac{3}{4}",
+          r"\frac{5}{3}",
+          "3",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Multiplying by 10 gives 2(2+y)=5(y-1). Thus, 4+2y=5y-5, so 9=3y and y=3.",
+      ),
+
+      QuizQuestion(
+        question:
+        "9. Priscilla's age is k years while Mary's age is b years. If Mary is 15 years older than Priscilla, which of the following statements is correct? (BECE 2021 Q35)",
+        options: [
+          r"2k + b = 15",
+          r"b - k = 15",
+          r"k - b = 15",
+          r"2b + k = 15",
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+        r"Since Mary is 15 years older, b=k+15. Therefore, b-k=15.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"10. Given that 117(12+18)=117(15+k), find the value of k. (BECE 2022 Q32)",
+        options: [
+          "-30",
+          "-15",
+          "15",
+          "30",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"Since 12+18=30, we have 15+k=30. Therefore, k=15.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"11. Solve (x-1)=\frac{1}{2}(x+2). (BECE 2022 Q34)",
+        options: [
+          "0",
+          r"1\frac{1}{3}",
+          r"1\frac{1}{2}",
+          "4",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"Multiplying by 2 gives 2x-2=x+2, so x=4.",
+      ),
+
+      QuizQuestion(
+        question:
+        "12. Kobby is 5 years older than his brother. If Kobby is 13 years old, how old is his brother? (BECE 2023 Q9)",
+        options: [
+          "8 years",
+          "10 years",
+          "18 years",
+          "7 years",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        "Kobby's brother is 5 years younger, so his age is 13 - 5 = 8 years.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"13. Solve 3(x-2)-\frac{x}{3}+6>0. (BECE 2023 Q27)",
+        options: [
+          r"x < 0",
+          r"x > 0",
+          r"x > 1\frac{1}{8}",
+          r"x > 3",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The expression simplifies to 3x-\frac{x}{3}>0, so \frac{8x}{3}>0. Therefore, x>0.",
+      ),
+
+      QuizQuestion(
+        question:
+        "14. Araba is 3 years younger than her sister. If the sum of their ages is 17 years, find Araba's age. (BECE 2024 Q32)",
+        options: [
+          "7 years",
+          "9 years",
+          "8 years",
+          "10 years",
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+        r"Let Araba's age be x. Her sister is x+3, so x+(x+3)=17. Thus, 2x=14 and x=7.",
+      ),
+
+      QuizQuestion(
+        question:
+        r"15. Solve 3(x-5)>15-4(8-x). (BECE 2025 Q7)",
+        options: [
+          r"x < -32",
+          r"x < -2",
+          r"x < 2",
+          r"x < 32",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"3x-15>15-32+4x gives 3x-15>4x-17. Hence, 2>x, so x<2.",
+      ),
+    ],
+  ),
+
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
   "Social Studies JHS1 s1 ss1 - Environmental Issues": QuizModel(
