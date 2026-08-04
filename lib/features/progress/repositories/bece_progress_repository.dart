@@ -1,10 +1,17 @@
 import '../../../core/database/bece_database_service.dart';
+import '../../../core/services/auth_storage_service.dart';
 import '../models/bece_progress_model.dart';
 
 class BeceProgressRepository {
   final _dbService = BeceDatabaseService.instance;
+  final _authStorageService = AuthStorageService();
 
   Future<int> saveProgress(BeceProgress progress) async {
+    final role = await _authStorageService.getRole();
+    if (role?.toLowerCase() == 'teacher') {
+      return 0;
+    }
+
     final db = await _dbService.database;
 
     final existing = await db.query(

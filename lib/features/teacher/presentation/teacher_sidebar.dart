@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../core/services/auth_storage_service.dart';
 import '../../auth/screens/login_as_screen.dart';
+import '../../sidebar/controller/sidebar_controller.dart';
 import '../../splash/screens/splash_screen.dart';
 
 class TeacherSidebar extends StatelessWidget {
@@ -145,6 +146,19 @@ class TeacherSidebar extends StatelessWidget {
             label: 'Student Overview',
             isSelected: selectedIndex == 1,
             onTap: () => onItemSelected(1),
+          ),
+          const SizedBox(height: 24),
+          _SidebarTile(
+            icon: Icons.menu_book_outlined,
+            selectedIcon: Icons.menu_book,
+            label: 'Contents',
+            isSelected: selectedIndex == 6,
+            onTap: () {
+              if (Get.isRegistered<SidebarController>()) {
+                Get.find<SidebarController>().resetToHome();
+              }
+              onItemSelected(6);
+            },
           ),
 
           const Spacer(),

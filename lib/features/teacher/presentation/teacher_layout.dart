@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'teacher_dashboard_screen.dart';
 import 'student_overview_screen.dart';
 import 'student_details_screen.dart';
+import 'teacher_contents_screen.dart';
 import '../../teacher_profile/presentation/screens/teacher_profile_screen.dart';
 import '../../teacher_profile/presentation/screens/privacy_policy_screen.dart';
 import '../../teacher_profile/presentation/screens/help_support_screen.dart';
@@ -75,6 +76,10 @@ class _TeacherLayoutState extends State<TeacherLayout> {
           studentId: _selectedStudentId,
           onProfileTap: () => setState(() => _selectedIndex = 2),
           onBack: () => setState(() => _selectedIndex = 1),
+        );
+      case 6:
+        return TeacherContentsScreen(
+          onProfileTap: () => setState(() => _selectedIndex = 2),
         );
       default:
         return TeacherDashboardScreen(

@@ -148,6 +148,16 @@ class StrandScreen extends StatelessWidget {
       padding: const EdgeInsets.only(left: 16, top: 30.0),
       child: Row(
         children: [
+          IconButton(
+            icon: const Icon(
+              Icons.arrow_back_ios_new_rounded,
+              color: Color(0xFF019E2E),
+            ),
+            onPressed: () {
+              controller.resetToHome();
+            },
+          ),
+          const SizedBox(width: 8),
           Expanded(
             child: TextFormField(
               controller: controller.strandSearchController,
@@ -203,37 +213,41 @@ class StrandScreen extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(width: 12),
           GetBuilder<ProfileController>(
             init: Get.find<ProfileController>(),
             builder: (controller) {
               return Obx(() {
                 final student = controller.userInfo.value?.student;
-                return GestureDetector(
-                  onTap: () {
-                    Get.to(() => const ProfileScreen());
-                  },
-                  child: Container(
-                    height: 55,
-                    width: 55,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8),
-                      border: Border.all(color: Colors.grey.shade200),
+                if (student == null) return const SizedBox.shrink();
+                return Row(
+                  children: [
+                    const SizedBox(width: 12),
+                    GestureDetector(
+                      onTap: () {
+                        Get.to(() => const ProfileScreen());
+                      },
+                      child: Container(
+                        height: 55,
+                        width: 55,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(color: Colors.grey.shade200),
+                        ),
+                        clipBehavior: Clip.hardEdge,
+                        child: student.picture.url.isNotEmpty
+                            ? Image.network(
+                                student.picture.url,
+                                fit: BoxFit.contain,
+                                errorBuilder: (context, error, stackTrace) =>
+                                    Image.asset(
+                                  'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
+                                  fit: BoxFit.contain,
+                                ),
+                              )
+                            : const Icon(Icons.person_outline_rounded),
+                      ),
                     ),
-                    clipBehavior: Clip.hardEdge,
-                    child: student?.picture.url != null &&
-                            student!.picture.url.isNotEmpty
-                        ? Image.network(
-                            student.picture.url,
-                            fit: BoxFit.contain,
-                            errorBuilder: (context, error, stackTrace) =>
-                                Image.asset(
-                              'assets/images/00f9997dc3c8cbb22e5eae2f0a40bcc0e9a215b6.jpg',
-                              fit: BoxFit.contain,
-                            ),
-                          )
-                        : Icon(Icons.person_outline_rounded),
-                  ),
+                  ],
                 );
               });
             },
