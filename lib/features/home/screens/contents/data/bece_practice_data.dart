@@ -5796,6 +5796,488 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+  "Math JHS3 s3 ss2 - Measurement": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: The volume of a cylinder is "
+        r"220 cm^3"
+        ", the radius of the cross section is "
+        r"2.5 cm"
+        ". Find the height of the cylinder.\n"
+        r"Take \pi = \frac{22}{7}"
+        "\n(BECE 1997 Q5a)",
+        answer:
+        "State the primary formula for the volume of a cylinder:\n"
+        r"\text{Volume} = \pi r^2 h"
+        "\n\n"
+            "Substitute the values provided (Volume = 220, r = 2.5):\n"
+        r"220 = \frac{22}{7} \times (2.5)^2 \times h"
+        "\n\n"
+            "Evaluate the exponent configuration:\n"
+        r"220 = \frac{22}{7} \times 6.25 \times h"
+        "\n\n"
+            "Multiply both sides by 7 to eliminate the fraction denominator:\n"
+        r"1540 = 137.5 \times h"
+        "\n\n"
+            "Divide by 137.5 to isolate the variable h:\n"
+        r"h = \frac{1540}{137.5} = 11.2 cm",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: The base radius of a closed cylinder is "
+        r"4 m"
+        " and height of "
+        r"7 m"
+        ". Calculate the total surface area.\n"
+        r"Take \pi = \frac{22}{7}"
+        "\n(BECE 1998 Q5b)",
+        answer:
+        "Establish the complete surface configuration expression for a solid closed cylinder structure:\n"
+        r"\text{Total Surface Area} = 2\pi r^2 + 2\pi rh"
+        "\n\n"
+            "Input the numerical attributes (r = 4, h = 7):\n"
+        r"\text{Total Surface Area} = (2 \times \frac{22}{7} \times 4^2) + (2 \times \frac{22}{7} \times 4 \times 7)"
+        "\n\n"
+            "Compute individual area parts systematically:\n"
+            "Circular top and bottom surfaces: "
+        r"2 \times \frac{22}{7} \times 16 = \frac{704}{7} \approx 100.57 m^2"
+        "\n"
+            "Main wrap curved boundary surface: "
+        r"2 \times 22 \times 4 = 176 m^2"
+        "\n\n"
+            "Combine the evaluated area components:\n"
+        r"\text{Total Surface Area} = 100.57 + 176 = 276.57 m^2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 3: A cylinder closed at one end has radius "
+        r"7 m"
+        " and height "
+        r"20 cm"
+        ".\n"
+            "(i) Find its total surface area.\n"
+            "(ii) If the cylinder is filled with water to a depth of "
+        r"5 cm"
+        ", calculate the volume of water in it.\n"
+        r"Take \pi = \frac{22}{7}"
+        "\n(BECE 2001 Q5a)",
+        answer:
+        "⦿ (i) Total surface area calculation:\n"
+            "Define the structure matching a cylinder open at one side (consisting of only one circle face):\n"
+        r"\text{Total Surface Area} = \pi r^2 + 2\pi rh"
+        "\n\n"
+            "Set parameters (r = 7, h = 20):\n"
+        r"\text{Total Surface Area} = (\frac{22}{7} \times 7 \times 7) + (2 \times \frac{22}{7} \times 7 \times 20)"
+        "\n\n"
+            "Simplify terms linearly:\n"
+        r"\text{Total Surface Area} = 154 + 880 = 1034 cm^2"
+        "\n\n"
+            "⦿ (ii) Water content calculation:\n"
+            "Express volume relative to liquid height level "
+        r"(h_{\text{water}} = 5)"
+        ":\n"
+        r"\text{Volume of water} = \pi r^2 h_{\text{water}}"
+        "\n\n"
+            "Execute standard multiplication patterns:\n"
+        r"\text{Volume of water} = \frac{22}{7} \times 7 \times 7 \times 5 = 22 \times 7 \times 5 = 770 cm^3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: A rectangular water tank has length "
+        r"60 cm"
+        ", width "
+        r"45 cm"
+        " and height "
+        r"50 cm"
+        ". Find,\n"
+            "(i) the total surface area of the tank when closed.\n"
+            "(ii) the volume of the tank.\n"
+            "(iii) the height of the water in the tank, if the tank contains "
+        r"81,000 cm^3"
+        " of water.\n"
+            "(BECE 2004 Q3b)",
+        answer:
+        "⦿ (i) Enclosed flat panel area:\n"
+            "Work with the standard formula for six exterior faces of a rectangular solid layout:\n"
+        r"\text{Total Surface Area} = 2(lh + lw + hw)"
+        "\n\n"
+            "Process internal product groupings:\n"
+        r"\text{Total Surface Area} = 2[(60 \times 50) + (60 \times 45) + (50 \times 45)]"
+        "\n"
+        r"\text{Total Surface Area} = 2[3000 + 2700 + 2250] = 2[7950] = 15,900 cm^2"
+        "\n\n"
+            "⦿ (ii) Capacity calculation:\n"
+            "Find spatial limits via regular three-dimensional coordinate values multiplied directly:\n"
+        r"\text{Volume} = 60 \times 45 \times 50 = 135,000 cm^3"
+        "\n\n"
+            "⦿ (iii) Internal liquid height analysis:\n"
+            "Equate water capacity configuration equations using the identical constant layout footprint:\n"
+        r"81,000 = 60 \times 45 \times h_{\text{water}}"
+        "\n"
+        r"81,000 = 2700 \times h_{\text{water}}"
+        "\n"
+        r"h_{\text{water}} = \frac{81,000}{2700} = 30 cm}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5: A water tank in the form of a cuboid of height "
+        r"22 cm"
+        " and a rectangular base of length "
+        r"7 cm"
+        " and width "
+        r"5 cm"
+        " is filled with water. The water is then poured into a cylindrical container of diameter "
+        r"14 cm"
+        ". Calculate the height of the water in the cylindrical container.\n"
+        r"Take \pi = \frac{22}{7}"
+        "\n(BECE 2007 Q2a)",
+        answer:
+        "⦿ Step 1: Evaluate liquid quantity volume stored initially within the cuboid box parameters:\n"
+        r"\text{Volume} = 7 \times 5 \times 22 = 770 cm^3"
+        "\n\n"
+            "⦿ Step 2: Transmit width definitions into exact radial radius specifications:\n"
+        r"\text{Radius } (r) = \frac{14}{2} = 7 cm"
+        "\n\n"
+            "⦿ Step 3: Map the unchanging fluid amount profile over to the destination layout system:\n"
+        r"\text{Volume of cylinder} = \pi r^2 h_{\text{cylinder}}"
+        "\n"
+        r"770 = \frac{22}{7} \times 7 \times 7 \times h_{\text{cylinder}}"
+        "\n"
+        r"770 = 154 \times h_{\text{cylinder}}"
+        "\n"
+        r"h_{\text{cylinder}} = \frac{770}{154} = 5 cm",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 6: A rectangular tank of length "
+        r"22 cm"
+        ", width "
+        r"9 cm"
+        " and height "
+        r"16 cm"
+        " is filled with water. The water is poured into a cylindrical container of radius "
+        r"6 cm"
+        ". Calculate the\n"
+            "(i) volume of the rectangular tank.\n"
+            "(ii) depth of water in the cylindrical container.\n"
+        r"Take \pi = \frac{22}{7}"
+        "\n(BECE 2010 Q3c)",
+        answer:
+        "⦿ (i) Rectangular solid containment calculation:\n"
+            "Execute standard dimension multiplying equations:\n"
+        r"\text{Volume} = 22 \times 9 \times 16 = 3168 cm^3"
+        "\n\n"
+            "⦿ (ii) Circular container height translation:\n"
+            "Equalise fluid space values between the two alternate geometries:\n"
+        r"3168 = \frac{22}{7} \times 6^2 \times h"
+        "\n"
+        r"3168 = \frac{22}{7} \times 36 \times h"
+        "\n\n"
+            "Isolate variable equations with inverse processes:\n"
+        r"3168 \times 7 = 792 \times h"
+        "\n"
+        r"22176 = 792 \times h \implies h = \frac{22176}{792} = 28 cm",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 7: A box has length "
+        r"8.0 cm"
+        ", width "
+        r"5.0 cm"
+        " and height "
+        r"10.0 cm"
+        ". Find the:\n"
+            "(i) total surface area of the box.\n"
+            "(ii) the volume of the box.\n"
+            "(BECE 2014 Q4)",
+        answer:
+        "⦿ (i) Total Surface Area calculations:\n"
+            "Apply structural geometric formulas:\n"
+        r"\text{Total Surface Area} = 2(lh + lw + hw)"
+        "\n\n"
+            "Process parameters (l = 8.0, w = 5.0, h = 10.0):\n"
+        r"\text{Total Surface Area} = 2[(8 \times 10) + (8 \times 5) + (10 \times 5)]"
+        "\n"
+        r"\text{Total Surface Area} = 2[80 + 40 + 50] = 2[170] = 340 cm^2"
+        "\n\n"
+            "⦿ (ii) Total internal capacity measurement:\n"
+            "Compute spatial metrics directly:\n"
+        r"\text{Volume} = 8.0 \times 5.0 \times 10.0 = 400 cm^3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 8: A container is "
+        r"24 m"
+        " long, "
+        r"9 m"
+        " wide and "
+        r"8 m"
+        " high. How many books can it hold if each book is "
+        r"20 cm"
+        " long, "
+        r"16 cm"
+        " wide and "
+        r"6 cm"
+        " thick?\n"
+            "(BECE 2015A Q1c)",
+        answer:
+        "⦿ Step 1: Align all linear units correctly using standard metric balance rules "
+        r"(1 m = 100 cm)"
+        ":\n"
+        r"\text{Length} = 24 \times 100 = 2400 cm"
+        "\n"
+        r"\text{Width} = 9 \times 100 = 900 cm"
+        "\n"
+        r"\text{Height} = 8 \times 100 = 800 cm"
+        "\n\n"
+            "⦿ Step 2: Formulate total room space limitations:\n"
+        r"\text{Volume of container} = 2400 \times 900 \times 800 = 1,728,000,000 cm^3"
+        "\n\n"
+            "⦿ Step 3: Evaluate space demands for a single cargo item unit:\n"
+        r"\text{Volume of one book} = 20 \times 16 \times 6 = 1920 cm^3"
+        "\n\n"
+            "⦿ Step 4: Resolve unit allocations completely:\n"
+        r"\text{Number of books} = \frac{1,728,000,000}{1920} = 900,000 books",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 9: A cylinder which has a height of "
+        r"90 cm"
+        " and diameter "
+        r"14 cm"
+        " is closed at both ends. Find:\n"
+            "(i) its total surface area;\n"
+            "(ii) the volume of the cylinder.\n"
+        r"Take \pi = \frac{22}{7}"
+        "\n(BECE 2015A Q5a)",
+        answer:
+        "Preliminary radius finding:\n"
+        r"r = \frac{14}{2} = 7 cm"
+        "\n\n"
+            "⦿ (i) Solid closed cylinder material coverage:\n"
+            "Set structural equations up matching two identical circle lids plus curved wrappers:\n"
+        r"\text{Total Surface Area} = 2\pi r^2 + 2\pi rh"
+        "\n\n"
+            "Distribute parameter details:\n"
+        r"\text{Total Surface Area} = (2 \times \frac{22}{7} \times 7^2) + (2 \times \frac{22}{7} \times 7 \times 90)"
+        "\n"
+        r"\text{Total Surface Area} = 308 + 3960 = 4268 cm^2"
+        "\n\n"
+            "⦿ (ii) Main envelope storage metric:\n"
+            "Find internal capabilities via typical area base equations scaled by altitude:\n"
+        r"\text{Volume} = \frac{22}{7} \times 7^2 \times 90 = 22 \times 7 \times 90 = 13,860 cm^3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 10: The volume of a cylinder closed at one end is "
+        r"1056 cm^3"
+        ". If its height is "
+        r"21 cm"
+        ", find its:\n"
+            "(i) diameter;\n"
+            "(ii) total surface area.\n"
+            "(BECE 2015B Q5b)",
+        answer:
+        "⦿ (i) Diameter evaluation sequences:\n"
+            "Connect capacity values to uncover unknown radial variables:\n"
+        r"1056 = \frac{22}{7} \times r^2 \times 21 \implies 1056 = 66r^2"
+        "\n\n"
+            "Find square root factors:\n"
+        r"r^2 = \frac{1056}{66} = 16 \implies r = \sqrt{16} = 4 cm"
+        "\n\n"
+            "Double base lengths to reveal final span measurements:\n"
+        r"\text{Diameter} = 2 \times 4 = 8 cm"
+        "\n\n"
+            "⦿ (ii) Surface analysis profile:\n"
+            "Apply modified five-wall target definitions (one end closed configuration models):\n"
+        r"\text{Total Surface Area} = \pi r^2 + 2\pi rh"
+        "\n\n"
+            "Aggregate evaluated expressions:\n"
+        r"\text{Total Surface Area} = (\frac{22}{7} \times 4^2) + (2 \times \frac{22}{7} \times 4 \times 21) = 50.286 + 528 = 578.286 cm^2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 11: A cylindrical container of height "
+        r"28 cm"
+        " and diameter "
+        r"18 cm"
+        " is filled with water. The water is then poured into another container with a rectangular base of length "
+        r"27 cm"
+        " and width "
+        r"11 cm"
+        ". Calculate the depth of the water in the container.\n"
+        r"Take \pi = \frac{22}{7}"
+        "\n(BECE 2020 Q4c)",
+        answer:
+        "⦿ Step 1: Track down basic circular dimensions before establishing total source capacity quantities:\n"
+        r"r = \frac{18}{2} = 9 cm"
+        "\n"
+        r"\text{Volume} = \frac{22}{7} \times 9^2 \times 28 = 22 \times 81 \times 4 = 6804 cm^3"
+        "\n\n"
+            "⦿ Step 2: Map liquid contents precisely against target rectangular dimensions:\n"
+        r"\text{Volume} = l \times w \times h"
+        "\n"
+        r"6804 = 27 \times 11 \times h_{\text{depth}}"
+        "\n"
+        r"6804 = 297 \times h_{\text{depth}}"
+        "\n\n"
+            "⦿ Step 3: Apply basic division tools to isolate absolute liquid balance thresholds:\n"
+        r"h_{\text{depth}} = \frac{6804}{297} = 23 cm",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Math JHS3 s4 ss1 - Data": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: The average age of a family of eight is 30 years. The average age of the six children in the family is 19 years. If the mother is four years younger than the father, calculate the age of the father.\n"
+            "(BECE 2006 Q5b)",
+        answer:
+        "Calculate total sum of family ages:\n"
+        r"\text{Sum of ages of family} = 30 \times 8 = 240 years"
+        "\n\n"
+            "Calculate total sum of children's ages:\n"
+        r"\text{Sum of ages of children} = 19 \times 6 = 114 years"
+        "\n\n"
+            "Determine combined parents' ages by subtraction:\n"
+        r"\text{Combined age of father and mother} = 240 - 114 = 126 years"
+        "\n\n"
+            "Formulate algebraic expression based on relationship logic:\n"
+            "Let the mother's age be x.\n"
+            "The father's age is x + 4.\n\n"
+            "Combine terms and isolate variable array:\n"
+        r"(x + 4) + x = 126"
+        "\n"
+        r"2x + 4 = 126"
+        "\n"
+        r"2x = 126 - 4"
+        "\n"
+        r"2x = 122"
+        "\n"
+        r"x = \frac{122}{2} = 61"
+        "\n\n"
+            "Add the offset value to find final absolute target age:\n"
+        r"\text{Father's age} = 61 + 4 = 65 years",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: The marks scored by four students in a Mathematics test are as follows: Esi – 92, Seth – 85, Mary – 65, Efe – x.\n"
+            "(a) Write down an expression for the mean (average) of the marks.\n"
+            "(b) If the mean is less than 80, write a linear inequality for the information.\n"
+            "(c) Find the possible marks Efe scored in the test. Represent your answer on the number line.\n"
+            "(BECE 2010 Q4c)",
+        answer:
+        "⦿ (a) Sum all target fields over the total elements count:\n"
+        r"\text{Mean} = \frac{92 + 85 + 65 + x}{4}"
+        "\n\n"
+            "⦿ (b) Translate condition text directly into inequality format:\n"
+        r"\frac{92 + 85 + 65 + x}{4} < 80"
+        "\n\n"
+            "⦿ (c) Process algebraic reduction steps sequentially:\n"
+            "Simplify the numerator parameters:\n"
+        r"\frac{242 + x}{4} < 80"
+        "\n\n"
+            "Multiply across to eliminate fractional denominator:\n"
+        r"242 + x < 320"
+        "\n\n"
+            "Isolate variable array to state range restrictions:\n"
+        r"x < 320 - 242"
+        "\n"
+        r"x < 78"
+        "\n\n"
+            "Since an examination mark boundaries cannot be lower than zero, state complete notation format:\n"
+        r"0 \le x < 78",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 3:\n"
+            "(a) Ama scored 82, 74 and 90 in three tests. What mark should she score in the fourth test, so that her average mark for the four tests would be 85?\n"
+            "(b) What was her median score in the four tests?\n"
+            "(BECE 2014 Q2a)",
+        answer:
+        "⦿ (a) Set up base statistical tracking formula structure:\n"
+            "Let the fourth score be x.\n"
+        r"\frac{82 + 74 + 90 + x}{4} = 85"
+        "\n\n"
+            "Accumulate active known integer units:\n"
+        r"\frac{246 + x}{4} = 85"
+        "\n\n"
+            "Multiply across balance line:\n"
+        r"246 + x = 340"
+        "\n"
+        r"x = 340 - 246 = 94"
+        "\n\n"
+            "⦿ (b) Sequence existing fields in ascending order magnitude:\n"
+        r"74, 82, 90, 94"
+        "\n\n"
+            "Locate central matching dual coordinates and compute mean baseline:\n"
+        r"\text{Median score} = \frac{82 + 90}{2} = \frac{172}{2} = 86",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: The average of the numbers 5, 7, 2, 6, x, (x + 1), 7 and 4 is 5. Find the value of x.\n"
+            "(BECE 2015A Q4b)",
+        answer:
+        "Formulate system equation spanning 8 data nodes:\n"
+        r"\frac{5 + 7 + 2 + 6 + x + (x + 1) + 7 + 4}{8} = 5"
+        "\n\n"
+            "Collect separate terms for numeric constants and dynamic variables:\n"
+        r"\frac{32 + 2x}{8} = 5"
+        "\n\n"
+            "Multiply system values to isolate functional variables balance:\n"
+        r"32 + 2x = 40"
+        "\n"
+        r"2x = 40 - 32"
+        "\n"
+        r"2x = 8"
+        "\n"
+        r"x = \frac{8}{2} = 4",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5: The median of the ordered set of observations 2, 3, (4m - 3), (3m + 1), 11 and 13 in ascending order is 6. Find the value of m.\n"
+            "(BECE 2022 Q1c)",
+        answer:
+        "Locate middle position markers within the even data array size:\n"
+            "Third position element = 4m - 3\n"
+            "Fourth position element = 3m + 1\n\n"
+            "Map central average structure to target standard baseline:\n"
+        r"\frac{(4m - 3) + (3m + 1)}{2} = 6"
+        "\n\n"
+            "Consolidate numerator components directly:\n"
+        r"\frac{7m - 2}{2} = 6"
+        "\n\n"
+            "Use cross-multiplication logic to break down structure:\n"
+        r"7m - 2 = 12"
+        "\n"
+        r"7m = 12 + 2"
+        "\n"
+        r"7m = 14"
+        "\n"
+        r"m = \frac{14}{7} = 2",
+        explanation: "",
+      ),
+    ],
+  ),
 
   // ─── SOCIAL STUDIES ───────────────────────────────────────────────────
   " Social Studies JHS1 s1 ss1 - Environmental Issues": PracticeModel(
