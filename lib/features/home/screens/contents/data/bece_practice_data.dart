@@ -4616,968 +4616,934 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-  scenario:
-      "Question 1: Find the solution set of "
-      r"x + 3 > 19 - 3x"
-      ", where x is a real number.\n"
-      "(BECE 1990 Q2c)",
-  answer:
-      "Group terms containing x on the left and constant numbers on the right by adding 3x and subtracting 3 from both sides:\n"
-      r"x + 3x > 19 - 3"
-      "\n\n"
-      "Simplify both sides of the inequality:\n"
-      r"4x > 16"
-      "\n\n"
-      "Divide both sides by 4:\n"
-      r"\frac{4x}{4} > \frac{16}{4}"
-      "\n"
-      r"x > 4"
-      "\n\n"
-      "The final solution set is:\n"
-      r"\{x : x > 4\}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 2: Solve "
-      r"\frac{x}{4} + \frac{3}{5} = \frac{3x}{2} - 2"
-      ".\n"
-      "(BECE 1990 Q2b)",
-  answer:
-      "Find the Least Common Multiple (LCM) of the denominators 4, 5, and 2, which is 20.\n\n"
-      "Multiply every term on both sides by 20 to clear the fractions:\n"
-      r"20\left(\frac{x}{4}\right) + 20\left(\frac{3}{5}\right) = 20\left(\frac{3x}{2}\right) - 20(2)"
-      "\n\n"
-      "Simplify each term:\n"
-      r"5(x) + 4(3) = 10(3x) - 40"
-      "\n"
-      r"5x + 12 = 30x - 40"
-      "\n\n"
-      "Rearrange the terms by grouping x variables on the left and constants on the right:\n"
-      r"5x - 30x = -40 - 12"
-      "\n\n"
-      "Combine like terms:\n"
-      r"-25x = -52"
-      "\n\n"
-      "Divide both sides by -25:\n"
-      r"x = \frac{-52}{-25} = \frac{52}{25} = 2\frac{2}{25}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 3: Solve the equation "
-      r"\frac{2x - 1}{3} - \frac{x - 2}{4} = 1"
-      ".\n"
-      "(BECE 1991 Q3a)",
-  answer:
-      "Find the LCM of the denominators 3 and 4, which is 12.\n\n"
-      "Multiply through both sides of the equation by 12:\n"
-      r"12\left(\frac{2x - 1}{3}\right) - 12\left(\frac{x - 2}{4}\right) = 12(1)"
-      "\n\n"
-      "Cancel out the denominators:\n"
-      r"4(2x - 1) - 3(x - 2) = 12"
-      "\n\n"
-      "Expand the brackets carefully, noting the negative sign distribution:\n"
-      r"8x - 4 - 3x + 6 = 12"
-      "\n\n"
-      "Group and combine like terms on the left side:\n"
-      r"5x + 2 = 12"
-      "\n\n"
-      "Subtract 2 from both sides:\n"
-      r"5x = 12 - 2"
-      "\n"
-      r"5x = 10"
-      "\n\n"
-      "Divide both sides by 5:\n"
-      r"x = \frac{10}{5} = 2",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 4: Solve "
-      r"5 - 2x > x + 2"
-      ", where x is a real number.\n"
-      "(BECE 1992 Q1a)",
-  answer:
-      "Group the x variables on the left side and the constants on the right side:\n"
-      r"-2x - x > 2 - 5"
-      "\n\n"
-      "Combine like terms:\n"
-      r"-3x > -3"
-      "\n\n"
-      "Divide both sides by -3. Because you are dividing by a negative number, the direction of the inequality sign reverses:\n"
-      r"\frac{-3x}{-3} < \frac{-3}{-3}"
-      "\n"
-      r"x < 1",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 5: Find the truth set of the equation "
-      r"\frac{2}{3}(3y - 1) - (y + 2) = \frac{1}{3}"
-      ".\n"
-      "(BECE 1992 Q1b)",
-  answer:
-      "Multiply the entire equation through by 3 to eliminate the fractional denominators:\n"
-      r"3\left[\frac{2}{3}(3y - 1)\right] - 3(y + 2) = 3\left(\frac{1}{3}\right)"
-      "\n"
-      r"2(3y - 1) - 3(y + 2) = 1"
-      "\n\n"
-      "Expand the brackets:\n"
-      r"6y - 2 - 3y - 6 = 1"
-      "\n\n"
-      "Combine like terms on the left side:\n"
-      r"3y - 8 = 1"
-      "\n\n"
-      "Add 8 to both sides:\n"
-      r"3y = 1 + 8"
-      "\n"
-      r"3y = 9"
-      "\n\n"
-      "Divide by 3:\n"
-      r"y = \frac{9}{3} = 3"
-      "\n\n"
-      "The final truth set is:\n"
-      r"\{y : y = 3\}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 6: Solve "
-      r"5(a - 5) - \frac{1}{2}(2a + 6) = 4"
-      ".\n"
-      "(BECE 1993 Q1b)",
-  answer:
-      "Multiply every term through by 2 to clear the fraction:\n"
-      r"2 \times 5(a - 5) - 2 \times \frac{1}{2}(2a + 6) = 2 \times 4"
-      "\n"
-      r"10(a - 5) - 1(2a + 6) = 8"
-      "\n\n"
-      "Expand the brackets:\n"
-      r"10a - 50 - 2a - 6 = 8"
-      "\n\n"
-      "Combine like terms on the left side:\n"
-      r"8a - 56 = 8"
-      "\n\n"
-      "Add 56 to both sides:\n"
-      r"8a = 8 + 56"
-      "\n"
-      r"8a = 64"
-      "\n\n"
-      "Divide both sides by 8:\n"
-      r"a = \frac{64}{8} = 8",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 7: Find the truth set of "
-      r"2x - 6 \leq 5(3 - x)"
-      ".\n"
-      "(BECE 1994 Q1b)",
-  answer:
-      "Expand the bracket on the right side:\n"
-      r"2x - 6 \leq 15 - 5x"
-      "\n\n"
-      "Group the variable terms on the left side and constants on the right side:\n"
-      r"2x + 5x \leq 15 + 6"
-      "\n\n"
-      "Combine like terms:\n"
-      r"7x \leq 21"
-      "\n\n"
-      "Divide both sides by 7:\n"
-      r"\frac{7x}{7} \leq \frac{21}{7}"
-      "\n"
-      r"x \leq 3",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 8: The sum of the ages of two brothers Kofi and Kweku is 35 years. Kofi's age is two-thirds of Kweku's age. Find their ages.\n"
-      "(BECE 1995 Q1b)",
-  answer:
-      "Let Kweku's age be represented by x.\n\n"
-      "Express Kofi's age as "
-      r"\frac{2}{3}x"
-      ".\n\n"
-      "Write out the sum equation:\n"
-      r"x + \frac{2}{3}x = 35"
-      "\n\n"
-      "Multiply through the entire equation by 3 to eliminate the fraction:\n"
-      r"3(x) + 3\left(\frac{2}{3}x\right) = 3(35)"
-      "\n"
-      r"3x + 2x = 105"
-      "\n\n"
-      "Combine like terms:\n"
-      r"5x = 105"
-      "\n\n"
-      "Divide both sides by 5 to find Kweku's age:\n"
-      r"x = \frac{105}{5} = 21"
-      "\n\n"
-      "Substitute x = 21 to calculate Kofi's age:\n"
-      r"\text{Kofi's age} = \frac{2}{3} \times 21 = 2 \times 7 = 14"
-      "\n\n"
-      "Final Answer: Kweku is 21 years old and Kofi is 14 years old.",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 9: Kojo is n years old now.\n"
-      "(i) How old was he 5 years ago?\n"
-      "(ii) How old will he be 10 years from now?\n"
-      "(iii) If his age in 10 years' time will be four times his age 5 years ago, how old is he now?\n"
-      "(BECE 1996 Q1a)",
-  answer:
-      "⦿ (i) Age 5 years ago is:\n"
-      r"(n - 5)\text{ years old}"
-      "\n\n"
-      "⦿ (ii) Age 10 years from now is:\n"
-      r"(n + 10)\text{ years old}"
-      "\n\n"
-      "⦿ (iii) Set up the equation based on the given word problem criteria:\n"
-      r"n + 10 = 4(n - 5)"
-      "\n\n"
-      "Expand the bracket on the right side:\n"
-      r"n + 10 = 4n - 20"
-      "\n\n"
-      "Rearrange terms to group the n variables together:\n"
-      r"n - 4n = -20 - 10"
-      "\n"
-      r"-3n = -30"
-      "\n\n"
-      "Divide both sides by -3:\n"
-      r"n = \frac{-30}{-3} = 10"
-      "\n\n"
-      "Kojo is 10 years old now.",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 10: Solve the inequality "
-      r"5x - 3(x - 1) \geq 39"
-      ".\n"
-      "(BECE 1997 Q1c)",
-  answer:
-      "Expand the bracket carefully, multiplying through by -3:\n"
-      r"5x - 3x + 3 \geq 39"
-      "\n\n"
-      "Combine the like variable terms:\n"
-      r"2x + 3 \geq 39"
-      "\n\n"
-      "Subtract 3 from both sides:\n"
-      r"2x \geq 39 - 3"
-      "\n"
-      r"2x \geq 36"
-      "\n\n"
-      "Divide both sides by 2:\n"
-      r"\frac{2x}{2} \geq \frac{36}{2}"
-      "\n"
-      r"x \geq 18",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 11: Solve "
-      r"3x - 9 \geq 12(x - 3)"
-      ".\n"
-      "(BECE 1998 Q1b)",
-  answer:
-      "Expand the bracket on the right side:\n"
-      r"3x - 9 \geq 12x - 36"
-      "\n\n"
-      "Move all variable terms to one side and constants to the other side:\n"
-      r"3x - 12x \geq -36 + 9"
-      "\n\n"
-      "Combine like terms:\n"
-      r"-9x \geq -27"
-      "\n\n"
-      "Divide both sides by -9 and reverse the inequality sign direction:\n"
-      r"\frac{-9x}{-9} \leq \frac{-27}{-9}"
-      "\n"
-      r"x \leq 3",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 12: Kofi and Kojo were given φ38,000.00 to share. Kojo had φ7,500.00 more than Kofi. Find:\n"
-      "(i) Kofi's share\n"
-      "(ii) Kojo's share\n"
-      "(BECE 1999 Q1a)",
-  answer:
-      "Let Kofi's share be x.\n\n"
-      "Kojo's share is represented as x + 7,500.\n\n"
-      "Set up the total equation:\n"
-      r"x + (7,500 + x) = 38,000"
-      "\n\n"
-      "Combine like terms:\n"
-      r"2x + 7,500 = 38,000"
-      "\n\n"
-      "Subtract 7,500 from both sides:\n"
-      r"2x = 38,000 - 7,500 = 30,500"
-      "\n\n"
-      "Divide both sides by 2:\n"
-      r"x = \frac{30,500}{2} = 15,250"
-      "\n\n"
-      "Individual totals are calculated as:\n"
-      "(i) Kofi's share = φ15,250.00\n"
-      "(ii) Kojo's share = 15,250 + 7,500 = φ22,750.00",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 13: Solve the inequality "
-      r"\frac{2x - 1}{4} - \frac{x - 2}{3} > 1"
-      ".\n"
-      "(BECE 1999 Q2a)",
-  answer:
-      "Find the LCM of the denominators 4 and 3, which is 12.\n\n"
-      "Multiply through every term on both sides by 12:\n"
-      r"12\left(\frac{2x - 1}{4}\right) - 12\left(\frac{x - 2}{3}\right) > 12(1)"
-      "\n\n"
-      "Simplify terms to clear the denominators:\n"
-      r"3(2x - 1) - 4(x - 2) > 12"
-      "\n\n"
-      "Expand the brackets carefully:\n"
-      r"6x - 3 - 4x + 8 > 12"
-      "\n\n"
-      "Combine like terms on the left side:\n"
-      r"2x + 5 > 12"
-      "\n\n"
-      "Subtract 5 from both sides:\n"
-      r"2x > 12 - 5 = 7"
-      "\n\n"
-      "Divide both sides by 2:\n"
-      r"x > \frac{7}{2} \quad \text{or} \quad x > 3\frac{1}{2}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 14: Solve the equation "
-      r"\frac{1}{3}(x + 3) - 2(x - 5) = 4\frac{1}{3}"
-      ".\n"
-      "(BECE 2000 Q1b)",
-  answer:
-      "Convert the mixed fraction on the right side to an improper fraction:\n"
-      r"4\frac{1}{3} = \frac{13}{3}"
-      "\n\n"
-      "Write the rewritten equation:\n"
-      r"\frac{1}{3}(x + 3) - 2(x - 5) = \frac{13}{3}"
-      "\n\n"
-      "Multiply every single term through by 3 to eliminate fractions:\n"
-      r"3 \times \frac{1}{3}(x + 3) - 3 \times 2(x - 5) = 3 \times \frac{13}{3}"
-      "\n"
-      r"(x + 3) - 6(x - 5) = 13"
-      "\n\n"
-      "Expand the brackets:\n"
-      r"x + 3 - 6x + 30 = 13"
-      "\n\n"
-      "Combine like terms on the left side:\n"
-      r"-5x + 33 = 13"
-      "\n\n"
-      "Subtract 33 from both sides:\n"
-      r"-5x = 13 - 33 = -20"
-      "\n\n"
-      "Divide by -5:\n"
-      r"x = \frac{-20}{-5} = 4",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 15: Solve the inequality "
-      r"\frac{2x - 2}{4} - \frac{2x - 1}{3} \leq 1"
-      ".\n"
-      "(BECE 2001 Q1b)",
-  answer:
-      "Find the LCM of denominators 4 and 3, which is 12.\n\n"
-      "Multiply through both sides by 12:\n"
-      r"12\left(\frac{2x - 2}{4}\right) - 12\left(\frac{2x - 1}{3}\right) \leq 12(1)"
-      "\n\n"
-      "Cancel out the denominators:\n"
-      r"3(2x - 2) - 4(2x - 1) \leq 12"
-      "\n\n"
-      "Expand the brackets:\n"
-      r"6x - 6 - 8x + 4 \leq 12"
-      "\n\n"
-      "Combine like terms:\n"
-      r"-2x - 2 \leq 12"
-      "\n\n"
-      "Add 2 to both sides:\n"
-      r"-2x \leq 12 + 2 = 14"
-      "\n\n"
-      "Divide both sides by -2 and reverse the inequality sign direction:\n"
-      r"x \geq \frac{14}{-2} = -7",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 16: Solve the inequality "
-      r"\frac{5x - 3}{6} - \frac{2x - 4}{4} < 2"
-      ".\n"
-      "(BECE 2002B Q4a)",
-  answer:
-      "Find the LCM of denominators 6 and 4, which is 24.\n\n"
-      "Multiply every term on both sides by 24:\n"
-      r"24\left(\frac{5x - 3}{6}\right) - 24\left(\frac{2x - 4}{4}\right) < 24(2)"
-      "\n\n"
-      "Simplify the terms:\n"
-      r"4(5x - 3) - 6(2x - 4) < 48"
-      "\n\n"
-      "Expand the brackets carefully:\n"
-      r"20x - 12 - 12x + 24 < 48"
-      "\n\n"
-      "Combine like terms on the left side:\n"
-      r"8x + 12 < 48"
-      "\n\n"
-      "Subtract 12 from both sides:\n"
-      r"8x < 48 - 12 = 36"
-      "\n\n"
-      "Divide both sides by 8:\n"
-      r"x < \frac{36}{8}"
-      "\n\n"
-      "Simplify the fraction by dividing the numerator and denominator by 4:\n"
-      r"x < \frac{9}{2} \quad \text{or} \quad x < 4\frac{1}{2}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 17: Find the solution set of the inequality "
-      r"x - \frac{1}{3} \leq \frac{1}{5}"
-      ", if the domain is the set {-2, -1, 0, 1, 2}.\n"
-      "(BECE 2003 Q4b)",
-  answer:
-      "Find the LCM of the denominators 3 and 5, which is 15.\n\n"
-      "Multiply through by 15 to remove the fractions:\n"
-      r"15(x) - 15\left(\frac{1}{3}\right) \leq 15\left(\frac{1}{5}\right)"
-      "\n"
-      r"15x - 5 \leq 3"
-      "\n\n"
-      "Add 5 to both sides:\n"
-      r"15x \leq 3 + 5 = 8"
-      "\n\n"
-      "Divide both sides by 15:\n"
-      r"x \leq \frac{8}{15}"
-      "\n\n"
-      "Check which elements from the domain set {-2, -1, 0, 1, 2} are less than or equal to "
-      r"\frac{8}{15}"
-      ":\n"
-      "-2, -1, and 0 satisfy the condition, while 1 and 2 do not.\n\n"
-      "The selected solution set is:\n"
-      r"\{-2, -1, 0\}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 18: Solve for x in the inequality "
-      r"\frac{2}{3}(2x + 3) \leq 8\frac{2}{3}"
-      ".\n"
-      "(BECE 2004 Q4b)",
-  answer:
-      "Convert the mixed fraction on the right side to an improper fraction:\n"
-      r"8\frac{2}{3} = \frac{26}{3}"
-      "\n\n"
-      "Rewrite the inequality layout:\n"
-      r"\frac{2}{3}(2x + 3) \leq \frac{26}{3}"
-      "\n\n"
-      "Multiply both sides by 3 to clear the denominators:\n"
-      r"2(2x + 3) \leq 26"
-      "\n\n"
-      "Expand the bracket:\n"
-      r"4x + 6 \leq 26"
-      "\n\n"
-      "Subtract 6 from both sides:\n"
-      r"4x \leq 26 - 6 = 20"
-      "\n\n"
-      "Divide both sides by 4:\n"
-      r"x \leq \frac{20}{4} = 5",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 19: Solve "
-      r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq 1\frac{1}{4}"
-      ".\n"
-      "(BECE 2006 Q2c)",
-  answer:
-      "Convert the mixed fraction to an improper fraction:\n"
-      r"1\frac{1}{4} = \frac{5}{4}"
-      "\n\n"
-      "Write the rewritten equation setup:\n"
-      r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq \frac{5}{4}"
-      "\n\n"
-      "Find the LCM of denominators 3, 2, and 4, which is 12.\n\n"
-      "Multiply every expression group by 12:\n"
-      r"12 \times \frac{1}{3}(x - 1) - 12 \times \frac{1}{2}(x - 3) \leq 12 \times \frac{5}{4}"
-      "\n"
-      r"4(x - 1) - 6(x - 3) \leq 3(5)"
-      "\n\n"
-      "Expand the expressions:\n"
-      r"4x - 4 - 6x + 18 \leq 15"
-      "\n\n"
-      "Combine like terms on the left side:\n"
-      r"-2x + 14 \leq 15"
-      "\n\n"
-      "Subtract 14 from both sides:\n"
-      r"-2x \leq 15 - 14 = 1"
-      "\n\n"
-      "Divide by -2 and reverse the inequality layout symbol direction:\n"
-      r"x \geq -\frac{1}{2}"
-      "\n\n"
-      "The absolute solution set expression is:\n"
-      r"\left\{x : x \geq -\frac{1}{2}\right\}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 20: Find the truth set of "
-      r"\frac{x - 3}{3} \leq \frac{1}{2} + x"
-      ".\n"
-      "(BECE 2007 Q2c)",
-  answer:
-      "Find the LCM of the denominators 3 and 2, which is 6.\n\n"
-      "Multiply every term on both sides by 6:\n"
-      r"6\left(\frac{x - 3}{3}\right) \leq 6\left(\frac{1}{2}\right) + 6(x)"
-      "\n\n"
-      "Simplify the expressions:\n"
-      r"2(x - 3) \leq 3 + 6x"
-      "\n\n"
-      "Expand the bracket:\n"
-      r"2x - 6 \leq 3 + 6x"
-      "\n\n"
-      "Group the variable terms on the left side and constants on the right side:\n"
-      r"2x - 6x \leq 3 + 6"
-      "\n"
-      r"-4x \leq 9"
-      "\n\n"
-      "Divide both sides by -4 and reverse the direction of the inequality sign:\n"
-      r"x \geq \frac{9}{-4} = -2\frac{1}{4}"
-      "\n\n"
-      "The final truth set is:\n"
-      r"\left\{x : x \geq -2\frac{1}{4}\right\}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 21: Find the value of x if "
-      r"\frac{3x - 2}{5}"
-      " is greater than "
-      r"\frac{1 - 4x}{10}"
-      " by 5.\n"
-      "(BECE 2008 Q2b)",
-  answer:
-      "Set up the text definition as a mathematical formula:\n"
-      r"\frac{3x - 2}{5} = \frac{1 - 4x}{10} + 5"
-      "\n\n"
-      "Find the LCM of denominators 5 and 10, which is 10.\n\n"
-      "Multiply every term through by 10:\n"
-      r"10\left(\frac{3x - 2}{5}\right) = 10\left(\frac{1 - 4x}{10}\right) + 10(5)"
-      "\n\n"
-      "Simplify the terms to clear the denominators:\n"
-      r"2(3x - 2) = 1(1 - 4x) + 50"
-      "\n\n"
-      "Expand the expressions:\n"
-      r"6x - 4 = 1 - 4x + 50 = 51 - 4x"
-      "\n\n"
-      "Move the variable terms to the left side and constants to the right side:\n"
-      r"6x + 4x = 51 + 4"
-      "\n"
-      r"10x = 55"
-      "\n\n"
-      "Divide both sides by 10:\n"
-      r"x = \frac{55}{10} = 5.5",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 22: Solve "
-      r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + 2\frac{3}{4}"
-      ".\n"
-      "(BECE 2010 Q5a)",
-  answer:
-      "Convert the mixed fraction to an improper fraction:\n"
-      r"2\frac{3}{4} = \frac{11}{4}"
-      "\n\n"
-      "Write out the clear term groupings:\n"
-      r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + \frac{11}{4}"
-      "\n\n"
-      "Find the LCM of denominators 2, 8, and 4, which is 8.\n\n"
-      "Multiply through every single term by 8:\n"
-      r"8\left(\frac{4x - 3}{2}\right) = 8\left(\frac{8x - 10}{8}\right) + 8\left(\frac{11}{4}\right)"
-      "\n\n"
-      "Clear out fraction denominators:\n"
-      r"4(4x - 3) = 1(8x - 10) + 2(11)"
-      "\n\n"
-      "Expand brackets and run arithmetic:\n"
-      r"16x - 12 = 8x - 10 + 22 = 8x + 12"
-      "\n\n"
-      "Group variables on the left side and constant numbers on the right side:\n"
-      r"16x - 8x = 12 + 12"
-      "\n"
-      r"8x = 24"
-      "\n\n"
-      "Divide both sides by 8:\n"
-      r"x = \frac{24}{8} = 3",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 23: Solve the inequality "
-      r"\frac{1}{3}x + 1\frac{2}{3} < \frac{-3}{4}x - \frac{1}{2}"
-      ".\n"
-      "(BECE 2011 Q2b)",
-  answer:
-      "Convert the mixed fraction into an improper fraction:\n"
-      r"1\frac{2}{3} = \frac{5}{3}"
-      "\n\n"
-      "Rewrite the structural layout:\n"
-      r"\frac{1}{3}x + \frac{5}{3} < \frac{-3}{4}x - \frac{1}{2}"
-      "\n\n"
-      "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
-      "Multiply every term on both sides by 12:\n"
-      r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{-3}{4}x\right) - 12\left(\frac{1}{2}\right)"
-      "\n\n"
-      "Simplify each item:\n"
-      r"4x + 20 < -9x - 6"
-      "\n\n"
-      "Group variables on the left side and constants on the right side:\n"
-      r"4x + 9x < -6 - 20"
-      "\n"
-      r"13x < -26"
-      "\n\n"
-      "Divide both sides by 13:\n"
-      r"x < \frac{-26}{13} = -2",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 24: Solve the inequality "
-      r"2x - 1\frac{1}{2} \geq 5x - 6"
-      ".\n"
-      "(BECE 2013 Q1b)",
-  answer:
-      "Convert the mixed fraction into an improper fraction:\n"
-      r"1\frac{1}{2} = \frac{3}{2}"
-      "\n\n"
-      "Rewrite the expression line:\n"
-      r"2x - \frac{3}{2} \geq 5x - 6"
-      "\n\n"
-      "Multiply every term on both sides by 2 to remove fraction layouts:\n"
-      r"2(2x) - 2\left(\frac{3}{2}\right) \geq 2(5x) - 2(6)"
-      "\n"
-      r"4x - 3 \geq 10x - 12"
-      "\n\n"
-      "Group variables on the left side and constant values on the right side:\n"
-      r"4x - 10x \geq -12 + 3"
-      "\n"
-      r"-6x \geq -9"
-      "\n\n"
-      "Divide both sides by -6 and reverse the inequality sign layout:\n"
-      r"\frac{-6x}{-6} \leq \frac{-9}{-6} \implies x \leq \frac{9}{6}"
-      "\n\n"
-      "Reduce to lowest terms by dividing by 3:\n"
-      r"x \leq \frac{3}{2} \quad \text{or} \quad x \leq 1\frac{1}{2}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 25: Solve for x, if "
-      r"\frac{1}{3}x + 1\frac{2}{3} < \frac{3}{4}x - \frac{1}{2}"
-      ".\n"
-      "(BECE 2014 Q3a)",
-  answer:
-      "Convert the mixed fraction to an improper fraction:\n"
-      r"1\frac{2}{3} = \frac{5}{3}"
-      "\n\n"
-      "Rewrite the setup:\n"
-      r"\frac{1}{3}x + \frac{5}{3} < \frac{3}{4}x - \frac{1}{2}"
-      "\n\n"
-      "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
-      "Multiply every single term group by 12:\n"
-      r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{3}{4}x\right) - 12\left(\frac{1}{2}\right)"
-      "\n\n"
-      "Clear fractions:\n"
-      r"4x + 20 < 9x - 6"
-      "\n\n"
-      "Collect x values on the left side:\n"
-      r"4x - 9x < -6 - 20"
-      "\n"
-      r"-5x < -26"
-      "\n\n"
-      "Divide both sides by -5 and flip the inequality layout symbol direction:\n"
-      r"x > \frac{-26}{-5} \implies x > \frac{26}{5} \quad \text{or} \quad x > 5\frac{1}{5}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 26: Solve "
-      r"\frac{3x + 2}{3} - \frac{3 - x}{8} = \frac{1}{6}"
-      ".\n"
-      "(BECE 2015A Q1b)",
-  answer:
-      "Find the LCM of denominators 3, 8, and 6, which is 24.\n\n"
-      "Multiply every term on both sides by 24:\n"
-      r"24\left(\frac{3x + 2}{3}\right) - 24\left(\frac{3 - x}{8}\right) = 24\left(\frac{1}{6}\right)"
-      "\n\n"
-      "Cancel out denominators:\n"
-      r"8(3x + 2) - 3(3 - x) = 4(1)"
-      "\n\n"
-      "Expand the brackets carefully:\n"
-      r"24x + 16 - 9 + 3x = 4"
-      "\n\n"
-      "Combine like terms on the left side:\n"
-      r"27x + 7 = 4"
-      "\n\n"
-      "Subtract 7 from both sides:\n"
-      r"27x = 4 - 7 = -3"
-      "\n\n"
-      "Divide both sides by 27:\n"
-      r"x = \frac{-3}{27}"
-      "\n\n"
-      "Reduce fraction to lowest terms by dividing by 3:\n"
-      r"x = -\frac{1}{9}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 27: Solve for x, if "
-      r"2 - \frac{3}{5}x \leq 1\frac{1}{3}"
-      ".\n"
-      "(BECE 2015B Q2a)",
-  answer:
-      "Convert mixed fraction into improper fraction:\n"
-      r"1\frac{1}{3} = \frac{4}{3}"
-      "\n\n"
-      "Rewrite the expression:\n"
-      r"2 - \frac{3}{5}x \leq \frac{4}{3}"
-      "\n\n"
-      "Find the LCM of denominators 5 and 3, which is 15.\n\n"
-      "Multiply every term on both sides by 15:\n"
-      r"15(2) - 15\left(\frac{3}{5}x\right) \leq 15\left(\frac{4}{3}\right)"
-      "\n\n"
-      "Simplify the terms:\n"
-      r"30 - 9x \leq 20"
-      "\n\n"
-      "Subtract 30 from both sides:\n"
-      r"-9x \leq 20 - 30 = -10"
-      "\n\n"
-      "Divide both sides by -9 and reverse the inequality sign layout direction:\n"
-      r"x \geq \frac{-10}{-9} \implies x \geq \frac{10}{9} \quad \text{or} \quad x \geq 1\frac{1}{9}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 28: Two consecutive odd numbers are such that seven times the smaller, subtracted from nine times the bigger, give 144. Find the two numbers.\n"
-      "(BECE 2017 Q2a)",
-  answer:
-      "Let the smaller consecutive odd number be x.\n\n"
-      "Let the larger consecutive odd number be x + 2.\n\n"
-      "Form the equation based on the text narrative context:\n"
-      r"9(x + 2) - 7x = 144"
-      "\n\n"
-      "Expand the bracket:\n"
-      r"9x + 18 - 7x = 144"
-      "\n\n"
-      "Combine variable terms on the left side:\n"
-      r"2x + 18 = 144"
-      "\n\n"
-      "Subtract 18 from both sides:\n"
-      r"2x = 144 - 18 = 126"
-      "\n\n"
-      "Divide both sides by 2 to isolate x:\n"
-      r"x = \frac{126}{2} = 63"
-      "\n\n"
-      "Individual consecutive metrics are determined as:\n"
-      "The first odd number (smaller) = 63\n"
-      "The second odd number (bigger) = 63 + 2 = 65\n\n"
-      "Final Answer: The two consecutive odd numbers are 63 and 65.",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 29: Solve the inequality "
-      r"\frac{3}{4}(x + 1) + 1 \leq \frac{1}{2}(x - 2) + 5"
-      ".\n"
-      "(BECE 2017 Q6b(i))",
-  answer:
-      "Find the LCM of denominators 4 and 2, which is 4.\n\n"
-      "Multiply every unique term group on both sides by 4:\n"
-      r"4\left[\frac{3}{4}(x + 1)\right] + 4(1) \leq 4\left[\frac{1}{2}(x - 2)\right] + 4(5)"
-      "\n\n"
-      "Clear out the fractions:\n"
-      r"3(x + 1) + 4 \leq 2(x - 2) + 20"
-      "\n\n"
-      "Expand the brackets:\n"
-      r"3x + 3 + 4 \leq 2x - 4 + 20"
-      "\n\n"
-      "Combine constant values on both sides:\n"
-      r"3x + 7 \leq 2x + 16"
-      "\n\n"
-      "Group variable terms on the left and constant values on the right side:\n"
-      r"3x - 2x \leq 16 - 7 \implies x \leq 9",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 30: Solve the inequality "
-      r"5x - 3 \geq \frac{15x - 11}{2}"
-      ".\n"
-      "(BECE 2018 Q1a)",
-  answer:
-      "Multiply both sides of the inequality by 2 to remove fraction denominators on the right side:\n"
-      r"2(5x - 3) \geq 15x - 11"
-      "\n\n"
-      "Expand terms:\n"
-      r"10x - 6 \geq 15x - 11"
-      "\n\n"
-      "Move variable terms to the left side and constants to the right side:\n"
-      r"10x - 15x \geq -11 + 6"
-      "\n\n"
-      "Combine like terms:\n"
-      r"-5x \geq -5"
-      "\n\n"
-      "Divide both sides by -5 and flip the inequality sign layout direction:\n"
-      r"\frac{-5x}{-5} \leq \frac{-5}{-5} \implies x \leq 1",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 31: If "
-      r"\frac{p + 2q}{p} = \frac{7}{5}"
-      ", find the value of "
-      r"\frac{q}{p}"
-      ", where p ≠ 0.\n"
-      "(BECE 2019 Q1c)",
-  answer:
-      "Cross-multiply to remove fraction lines:\n"
-      r"5(p + 2q) = 7p"
-      "\n\n"
-      "Expand brackets on the left side:\n"
-      r"5p + 10q = 7p"
-      "\n\n"
-      "Shift 5p to group variables on the right side:\n"
-      r"10q = 7p - 5p = 2p"
-      "\n\n"
-      "Divide both sides by 2q to isolate the variable ratio layout:\n"
-      r"\frac{10q}{2q} = \frac{2p}{2q} \implies 5 = \frac{p}{q}"
-      "\n\n"
-      "Take the reciprocal of both sides to get the final required fraction value:\n"
-      r"\frac{q}{p} = \frac{1}{5}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 32: Solve "
-      r"\frac{4x + 5}{5} + \frac{x - 3}{4} = -1"
-      ".\n"
-      "(BECE 2019 Q2a)",
-  answer:
-      "Find the LCM of the denominators 5 and 4, which is 20.\n\n"
-      "Multiply through every term on both sides by 20:\n"
-      r"20\left(\frac{4x + 5}{5}\right) + 20\left(\frac{x - 3}{4}\right) = 20(-1)"
-      "\n\n"
-      "Simplify terms to remove fractions:\n"
-      r"4(4x + 5) + 5(x - 3) = -20"
-      "\n\n"
-      "Expand brackets completely:\n"
-      r"16x + 20 + 5x - 15 = -20"
-      "\n\n"
-      "Combine variables and numbers on the left side:\n"
-      r"21x + 5 = -20"
-      "\n\n"
-      "Subtract 5 from both sides:\n"
-      r"21x = -20 - 5 = -25"
-      "\n\n"
-      "Divide both sides by 21:\n"
-      r"x = -\frac{25}{21} \quad \text{or} \quad x = -1\frac{4}{21}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 33: Solve "
-      r"\frac{2x + 3}{3} + 2x = 10"
-      ".\n"
-      "(BECE 2020 Q2a)",
-  answer:
-      "Multiply through every term in the equation by 3 to eliminate the fraction denominator:\n"
-      r"3\left(\frac{2x + 3}{3}\right) + 3(2x) = 3(10)"
-      "\n"
-      r"(2x + 3) + 6x = 30"
-      "\n\n"
-      "Combine like variable terms on the left side:\n"
-      r"8x + 3 = 30"
-      "\n\n"
-      "Subtract 3 from both sides:\n"
-      r"8x = 30 - 3 = 27"
-      "\n\n"
-      "Divide both sides by 8:\n"
-      r"x = \frac{27}{8} \quad \text{or} \quad x = 3\frac{3}{8}",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 34: In a fishing community of 9,400 people, the number of women exceeds the number of men by 1,500. Find the ratio of men to women in the community.\n"
-      "(BECE 2020 Q3c)",
-  answer:
-      "Let the total number of men be x.\n\n"
-      "Express the number of women as x + 1,500.\n\n"
-      "Write down the population sum formula:\n"
-      r"x + (x + 1,500) = 9,400"
-      "\n\n"
-      "Combine like terms:\n"
-      r"2x + 1,500 = 9,400"
-      "\n\n"
-      "Subtract 1,500 from both sides:\n"
-      r"2x = 9,400 - 1,500 = 7,900"
-      "\n\n"
-      "Divide by 2 to determine the male population:\n"
-      r"x = \frac{7,900}{2} = 3,950\text{ men}"
-      "\n\n"
-      "Find the female population using substitution:\n"
-      r"\text{Number of women} = 3,950 + 1,500 = 5,450\text{ women}"
-      "\n\n"
-      "Determine the simplified numerical distribution ratio:\n"
-      r"\text{Ratio} = 3,950 : 5,450"
-      "\n\n"
-      "Divide by 10, then divide by 5 to fully reduce the ratio:\n"
-      r"\text{Ratio} = 79 : 109",
-  explanation: "",
-),
-
-PracticeQuestion(
-  scenario:
-      "Question 35: Solve: "
-      r"\frac{6}{4p - 1} = \frac{4}{3(p + 4)}"
+        scenario:
+        "Question 1: Find the solution set of "
+        r"x + 3 > 19 - 3x"
+        ", where x is a real number.\n"
+            "(BECE 1990 Q2c)",
+        answer:
+        "Group terms containing x on the left and constant numbers on the right by adding 3x and subtracting 3 from both sides:\n"
+        r"x + 3x > 19 - 3"
+        "\n\n"
+            "Simplify both sides of the inequality:\n"
+        r"4x > 16"
+        "\n\n"
+            "Divide both sides by 4:\n"
+        r"\frac{4x}{4} > \frac{16}{4}"
+        "\n"
+        r"x > 4"
+        "\n\n"
+            "The final solution set is:\n"
+        r"\{x : x > 4\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 2: Solve "
+        r"\frac{x}{4} + \frac{3}{5} = \frac{3x}{2} - 2"
+        ".\n"
+            "(BECE 1990 Q2b)",
+        answer:
+        "Find the Least Common Multiple (LCM) of the denominators 4, 5, and 2, which is 20.\n\n"
+            "Multiply every term on both sides by 20 to clear the fractions:\n"
+        r"20\left(\frac{x}{4}\right) + 20\left(\frac{3}{5}\right) = 20\left(\frac{3x}{2}\right) - 20(2)"
+        "\n\n"
+            "Simplify each term:\n"
+        r"5(x) + 4(3) = 10(3x) - 40"
+        "\n"
+        r"5x + 12 = 30x - 40"
+        "\n\n"
+            "Rearrange the terms by grouping x variables on the left and constants on the right:\n"
+        r"5x - 30x = -40 - 12"
+        "\n\n"
+            "Combine like terms:\n"
+        r"-25x = -52"
+        "\n\n"
+            "Divide both sides by -25:\n"
+        r"x = \frac{-52}{-25} = \frac{52}{25} = 2\frac{2}{25}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 3: Solve the equation "
+        r"\frac{2x - 1}{3} - \frac{x - 2}{4} = 1"
+        ".\n"
+            "(BECE 1991 Q3a)",
+        answer:
+        "Find the LCM of the denominators 3 and 4, which is 12.\n\n"
+            "Multiply through both sides of the equation by 12:\n"
+        r"12(\frac{2x-1}{3}) - 12(\frac{x-2}{4}) = 12(1)"
+        "\n\n"
+            "Cancel out the denominators:\n"
+        r"4(2x - 1) - 3(x - 2) = 12"
+        "\n\n"
+            "Expand the brackets carefully, noting the negative sign distribution:\n"
+        r"8x - 4 - 3x + 6 = 12"
+        "\n\n"
+            "Group and combine like terms on the left side:\n"
+        r"5x + 2 = 12"
+        "\n\n"
+            "Subtract 2 from both sides:\n"
+        r"5x = 12 - 2"
+        "\n"
+        r"5x = 10"
+        "\n\n"
+            "Divide both sides by 5:\n"
+        r"x = \frac{10}{5} = 2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 4: Solve "
+        r"5 - 2x > x + 2"
+        ", where x is a real number.\n"
+            "(BECE 1992 Q1a)",
+        answer:
+        "Group the x variables on the left side and the constants on the right side:\n"
+        r"-2x - x > 2 - 5"
+        "\n\n"
+            "Combine like terms:\n"
+        r"-3x > -3"
+        "\n\n"
+            "Divide both sides by -3. Because you are dividing by a negative number, the direction of the inequality sign reverses:\n"
+        r"\frac{-3x}{-3} < \frac{-3}{-3}"
+        "\n"
+        r"x < 1",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 5: Find the truth set of the equation "
+        r"\frac{2}{3}(3y - 1) - (y + 2) = \frac{1}{3}"
+        ".\n"
+            "(BECE 1992 Q1b)",
+        answer:
+        "Multiply the entire equation through by 3 to eliminate the fractional denominators:\n"
+        r"3[\frac{2}{3}(3y - 1)] - 3(y + 2) = 3(\frac{1}{3})"
+        "\n"
+        r"2(3y - 1) - 3(y + 2) = 1"
+        "\n\n"
+            "Expand the brackets:\n"
+        r"6y - 2 - 3y - 6 = 1"
+        "\n\n"
+            "Combine like terms on the left side:\n"
+        r"3y - 8 = 1"
+        "\n\n"
+            "Add 8 to both sides:\n"
+        r"3y = 1 + 8"
+        "\n"
+        r"3y = 9"
+        "\n\n"
+            "Divide by 3:\n"
+        r"y = \frac{9}{3} = 3"
+        "\n\n"
+            "The final truth set is:\n"
+        r"\{y : y = 3\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 6: Solve "
+        r"5(a - 5) - \frac{1}{2}(2a + 6) = 4"
+        ".\n"
+            "(BECE 1993 Q1b)",
+        answer:
+        "Multiply every term through by 2 to clear the fraction:\n"
+        r"2 \times 5(a - 5) - 2 \times \frac{1}{2}(2a + 6) = 2 \times 4"
+        "\n"
+        r"10(a - 5) - 1(2a + 6) = 8"
+        "\n\n"
+            "Expand the brackets:\n"
+        r"10a - 50 - 2a - 6 = 8"
+        "\n\n"
+            "Combine like terms on the left side:\n"
+        r"8a - 56 = 8"
+        "\n\n"
+            "Add 56 to both sides:\n"
+        r"8a = 8 + 56"
+        "\n"
+        r"8a = 64"
+        "\n\n"
+            "Divide both sides by 8:\n"
+        r"a = \frac{64}{8} = 8",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 7: Find the truth set of "
+        r"2x - 6 \leq 5(3 - x)"
+        ".\n"
+            "(BECE 1994 Q1b)",
+        answer:
+        "Expand the bracket on the right side:\n"
+        r"2x - 6 \leq 15 - 5x"
+        "\n\n"
+            "Group the variable terms on the left side and constants on the right side:\n"
+        r"2x + 5x \leq 15 + 6"
+        "\n\n"
+            "Combine like terms:\n"
+        r"7x \leq 21"
+        "\n\n"
+            "Divide both sides by 7:\n"
+        r"\frac{7x}{7} \leq \frac{21}{7}"
+        "\n"
+        r"x \leq 3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 8: The sum of the ages of two brothers Kofi and Kweku is 35 years. Kofi's age is two-thirds of Kweku's age. Find their ages.\n"
+            "(BECE 1995 Q1b)",
+        answer:
+        "Let Kweku's age be represented by x.\n\n"
+            "Express Kofi's age as "
+        r"\frac{2}{3}x"
+        ".\n\n"
+            "Write out the sum equation:\n"
+        r"x + \frac{2}{3}x = 35"
+        "\n\n"
+            "Multiply through the entire equation by 3 to eliminate the fraction:\n"
+        r"3(x) + 3\left(\frac{2}{3}x\right) = 3(35)"
+        "\n"
+        r"3x + 2x = 105"
+        "\n\n"
+            "Combine like terms:\n"
+        r"5x = 105"
+        "\n\n"
+            "Divide both sides by 5 to find Kweku's age:\n"
+        r"x = \frac{105}{5} = 21"
+        "\n\n"
+            "Substitute x = 21 to calculate Kofi's age:\n"
+        r"\text{Kofi's age} = \frac{2}{3} \times 21 = 2 \times 7 = 14"
+        "\n\n"
+            "Final Answer: Kweku is 21 years old and Kofi is 14 years old.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 9: Kojo is n years old now.\n"
+            "(i) How old was he 5 years ago?\n"
+            "(ii) How old will he be 10 years from now?\n"
+            "(iii) If his age in 10 years' time will be four times his age 5 years ago, how old is he now?\n"
+            "(BECE 1996 Q1a)",
+        answer:
+        "⦿ (i) Age 5 years ago is:\n"
+        r"(n - 5) years old"
+        "\n\n"
+            "⦿ (ii) Age 10 years from now is:\n"
+        r"(n + 10) years old"
+        "\n\n"
+            "⦿ (iii) Set up the equation based on the given word problem criteria:\n"
+        r"n + 10 = 4(n - 5)"
+        "\n\n"
+            "Expand the bracket on the right side:\n"
+        r"n + 10 = 4n - 20"
+        "\n\n"
+            "Rearrange terms to group the n variables together:\n"
+        r"n - 4n = -20 - 10"
+        "\n"
+        r"-3n = -30"
+        "\n\n"
+            "Divide both sides by -3:\n"
+        r"n = \frac{-30}{-3} = 10"
+        "\n\n"
+            "Kojo is 10 years old now.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 10: Solve the inequality "
+        r"5x - 3(x - 1) \geq 39"
+        ".\n"
+            "(BECE 1997 Q1c)",
+        answer:
+        "Expand the bracket carefully, multiplying through by -3:\n"
+        r"5x - 3x + 3 \geq 39"
+        "\n\n"
+            "Combine the like variable terms:\n"
+        r"2x + 3 \geq 39"
+        "\n\n"
+            "Subtract 3 from both sides:\n"
+        r"2x \geq 39 - 3"
+        "\n"
+        r"2x \geq 36"
+        "\n\n"
+            "Divide both sides by 2:\n"
+        r"\frac{2x}{2} \geq \frac{36}{2}"
+        "\n"
+        r"x \geq 18",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 11: Solve "
+        r"3x - 9 \geq 12(x - 3)"
+        ".\n"
+            "(BECE 1998 Q1b)",
+        answer:
+        "Expand the bracket on the right side:\n"
+        r"3x - 9 \geq 12x - 36"
+        "\n\n"
+            "Move all variable terms to one side and constants to the other side:\n"
+        r"3x - 12x \geq -36 + 9"
+        "\n\n"
+            "Combine like terms:\n"
+        r"-9x \geq -27"
+        "\n\n"
+            "Divide both sides by -9 and reverse the inequality sign direction:\n"
+        r"\frac{-9x}{-9} \leq \frac{-27}{-9}"
+        "\n"
+        r"x \leq 3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 12: Kofi and Kojo were given φ38,000.00 to share. Kojo had φ7,500.00 more than Kofi. Find:\n"
+            "(i) Kofi's share\n"
+            "(ii) Kojo's share\n"
+            "(BECE 1999 Q1a)",
+        answer:
+        "Let Kofi's share be x.\n\n"
+            "Kojo's share is represented as x + 7,500.\n\n"
+            "Set up the total equation:\n"
+        r"x + (7,500 + x) = 38,000"
+        "\n\n"
+            "Combine like terms:\n"
+        r"2x + 7,500 = 38,000"
+        "\n\n"
+            "Subtract 7,500 from both sides:\n"
+        r"2x = 38,000 - 7,500 = 30,500"
+        "\n\n"
+            "Divide both sides by 2:\n"
+        r"x = \frac{30,500}{2} = 15,250"
+        "\n\n"
+            "Individual totals are calculated as:\n"
+            "(i) Kofi's share = φ15,250.00\n"
+            "(ii) Kojo's share = 15,250 + 7,500 = φ22,750.00",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 13: Solve the inequality "
+        r"\frac{2x - 1}{4} - \frac{x - 2}{3} > 1"
+        ".\n"
+            "(BECE 1999 Q2a)",
+        answer:
+        "Find the LCM of the denominators 4 and 3, which is 12.\n\n"
+            "Multiply through every term on both sides by 12:\n"
+        r"12(\frac{2x-1}{4}) - 12(\frac{x-2}{3}) > 12(1)"
+        "\n\n"
+            "Simplify terms to clear the denominators:\n"
+        r"3(2x - 1) - 4(x - 2) > 12"
+        "\n\n"
+            "Expand the brackets carefully:\n"
+        r"6x - 3 - 4x + 8 > 12"
+        "\n\n"
+            "Combine like terms on the left side:\n"
+        r"2x + 5 > 12"
+        "\n\n"
+            "Subtract 5 from both sides:\n"
+        r"2x > 12 - 5 = 7"
+        "\n\n"
+            "Divide both sides by 2:\n"
+        r"x > \frac{7}{2} \quad \text{or} \quad x > 3\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 14: Solve the equation "
+        r"\frac{1}{3}(x + 3) - 2(x - 5) = 4\frac{1}{3}"
+        ".\n"
+            "(BECE 2000 Q1b)",
+        answer:
+        "Convert the mixed fraction on the right side to an improper fraction:\n"
+        r"4\frac{1}{3} = \frac{13}{3}"
+        "\n\n"
+            "Write the rewritten equation:\n"
+        r"\frac{1}{3}(x + 3) - 2(x - 5) = \frac{13}{3}"
+        "\n\n"
+            "Multiply every single term through by 3 to eliminate fractions:\n"
+        r"3 \times \frac{1}{3}(x + 3) - 3 \times 2(x - 5) = 3 \times \frac{13}{3}"
+        "\n"
+        r"(x + 3) - 6(x - 5) = 13"
+        "\n\n"
+            "Expand the brackets:\n"
+        r"x + 3 - 6x + 30 = 13"
+        "\n\n"
+            "Combine like terms on the left side:\n"
+        r"-5x + 33 = 13"
+        "\n\n"
+            "Subtract 33 from both sides:\n"
+        r"-5x = 13 - 33 = -20"
+        "\n\n"
+            "Divide by -5:\n"
+        r"x = \frac{-20}{-5} = 4",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 15: Solve the inequality "
+        r"\frac{2x - 2}{4} - \frac{2x - 1}{3} \leq 1"
+        ".\n"
+            "(BECE 2001 Q1b)",
+        answer:
+        "Find the LCM of denominators 4 and 3, which is 12.\n\n"
+            "Multiply through both sides by 12:\n"
+        r"12(\frac{2x-2}{4}) - 12(\frac{2x-1}{3}) \leq 12(1)"
+        "\n\n"
+            "Cancel out the denominators:\n"
+        r"3(2x - 2) - 4(2x - 1) \leq 12"
+        "\n\n"
+            "Expand the brackets:\n"
+        r"6x - 6 - 8x + 4 \leq 12"
+        "\n\n"
+            "Combine like terms:\n"
+        r"-2x - 2 \leq 12"
+        "\n\n"
+            "Add 2 to both sides:\n"
+        r"-2x \leq 12 + 2 = 14"
+        "\n\n"
+            "Divide both sides by -2 and reverse the inequality sign direction:\n"
+        r"x \geq \frac{14}{-2} = -7",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 16: Solve the inequality "
+        r"\frac{5x - 3}{6} - \frac{2x - 4}{4} < 2"
+        ".\n"
+            "(BECE 2002B Q4a)",
+        answer:
+        "Find the LCM of denominators 6 and 4, which is 24.\n\n"
+            "Multiply every term on both sides by 24:\n"
+        r"24(\frac{5x-3}{6}) - 24(\frac{2x-4}{4}) < 24(2)"
+        "\n\n"
+            "Simplify the terms:\n"
+        r"4(5x - 3) - 6(2x - 4) < 48"
+        "\n\n"
+            "Expand the brackets carefully:\n"
+        r"20x - 12 - 12x + 24 < 48"
+        "\n\n"
+            "Combine like terms on the left side:\n"
+        r"8x + 12 < 48"
+        "\n\n"
+            "Subtract 12 from both sides:\n"
+        r"8x < 48 - 12 = 36"
+        "\n\n"
+            "Divide both sides by 8:\n"
+        r"x < \frac{36}{8}"
+        "\n\n"
+            "Simplify the fraction by dividing the numerator and denominator by 4:\n"
+        r"x < \frac{9}{2} \quad \text{or} \quad x < 4\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 17: Find the solution set of the inequality "
+        r"x - \frac{1}{3} \leq \frac{1}{5}"
+        ", if the domain is the set {-2, -1, 0, 1, 2}.\n"
+            "(BECE 2003 Q4b)",
+        answer:
+        "Find the LCM of the denominators 3 and 5, which is 15.\n\n"
+            "Multiply through by 15 to remove the fractions:\n"
+        r"15(x) - 15(\frac{1}{3}) \leq 15(\frac{1}{5})"
+        "\n"
+        r"15x - 5 \leq 3"
+        "\n\n"
+            "Add 5 to both sides:\n"
+        r"15x \leq 3 + 5 = 8"
+        "\n\n"
+            "Divide both sides by 15:\n"
+        r"x \leq \frac{8}{15}"
+        "\n\n"
+            "Check which elements from the domain set {-2, -1, 0, 1, 2} are less than or equal to "
+        r"\frac{8}{15}"
+        ":\n"
+            "-2, -1, and 0 satisfy the condition, while 1 and 2 do not.\n\n"
+            "The selected solution set is:\n"
+        r"\{-2, -1, 0\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 18: Solve for x in the inequality "
+        r"\frac{2}{3}(2x + 3) \leq 8\frac{2}{3}"
+        ".\n"
+            "(BECE 2004 Q4b)",
+        answer:
+        "Convert the mixed fraction on the right side to an improper fraction:\n"
+        r"8\frac{2}{3} = \frac{26}{3}"
+        "\n\n"
+            "Rewrite the inequality layout:\n"
+        r"\frac{2}{3}(2x + 3) \leq \frac{26}{3}"
+        "\n\n"
+            "Multiply both sides by 3 to clear the denominators:\n"
+        r"2(2x + 3) \leq 26"
+        "\n\n"
+            "Expand the bracket:\n"
+        r"4x + 6 \leq 26"
+        "\n\n"
+            "Subtract 6 from both sides:\n"
+        r"4x \leq 26 - 6 = 20"
+        "\n\n"
+            "Divide both sides by 4:\n"
+        r"x \leq \frac{20}{4} = 5",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 19: Solve "
+        r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq 1\frac{1}{4}"
+        ".\n"
+            "(BECE 2006 Q2c)",
+        answer:
+        "Convert the mixed fraction to an improper fraction:\n"
+        r"1\frac{1}{4} = \frac{5}{4}"
+        "\n\n"
+            "Write the rewritten equation setup:\n"
+        r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq \frac{5}{4}"
+        "\n\n"
+            "Find the LCM of denominators 3, 2, and 4, which is 12.\n\n"
+            "Multiply every expression group by 12:\n"
+        r"12 \times \frac{1}{3}(x - 1) - 12 \times \frac{1}{2}(x - 3) \leq 12 \times \frac{5}{4}"
+        "\n"
+        r"4(x - 1) - 6(x - 3) \leq 3(5)"
+        "\n\n"
+            "Expand the expressions:\n"
+        r"4x - 4 - 6x + 18 \leq 15"
+        "\n\n"
+            "Combine like terms on the left side:\n"
+        r"-2x + 14 \leq 15"
+        "\n\n"
+            "Subtract 14 from both sides:\n"
+        r"-2x \leq 15 - 14 = 1"
+        "\n\n"
+            "Divide by -2 and reverse the inequality layout symbol direction:\n"
+        r"x \geq -\frac{1}{2}"
+        "\n\n"
+            "The absolute solution set expression is:\n"
+        r"\{x : x \geq -\frac{1}{2}\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 20: Find the truth set of "
+        r"\frac{x - 3}{3} \leq \frac{1}{2} + x"
+        ".\n"
+            "(BECE 2007 Q2c)",
+        answer:
+        "Find the LCM of the denominators 3 and 2, which is 6.\n\n"
+            "Multiply every term on both sides by 6:\n"
+        r"6(\frac{x-3}{3}) \leq 6(\frac{1}{2}) + 6(x)"
+        "\n\n"
+            "Simplify the expressions:\n"
+        r"2(x - 3) \leq 3 + 6x"
+        "\n\n"
+            "Expand the bracket:\n"
+        r"2x - 6 \leq 3 + 6x"
+        "\n\n"
+            "Group the variable terms on the left side and constants on the right side:\n"
+        r"2x - 6x \leq 3 + 6"
+        "\n"
+        r"-4x \leq 9"
+        "\n\n"
+            "Divide both sides by -4 and reverse the direction of the inequality sign:\n"
+        r"x \geq \frac{9}{-4} = -2\frac{1}{4}"
+        "\n\n"
+            "The final truth set is:\n"
+        r"\{x : x \geq -2\frac{1}{4}\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 21: Find the value of x if "
+        r"\frac{3x - 2}{5}"
+        " is greater than "
+        r"\frac{1 - 4x}{10}"
+        " by 5.\n"
+            "(BECE 2008 Q2b)",
+        answer:
+        "Set up the text definition as a mathematical formula:\n"
+        r"\frac{3x - 2}{5} = \frac{1 - 4x}{10} + 5"
+        "\n\n"
+            "Find the LCM of denominators 5 and 10, which is 10.\n\n"
+            "Multiply every term through by 10:\n"
+        r"10(\frac{3x-2}{5}) = 10(\frac{1-4x}{10}) + 10(5)"
+        "\n\n"
+            "Simplify the terms to clear the denominators:\n"
+        r"2(3x - 2) = 1(1 - 4x) + 50"
+        "\n\n"
+            "Expand the expressions:\n"
+        r"6x - 4 = 1 - 4x + 50 = 51 - 4x"
+        "\n\n"
+            "Move the variable terms to the left side and constants to the right side:\n"
+        r"6x + 4x = 51 + 4"
+        "\n"
+        r"10x = 55"
+        "\n\n"
+            "Divide both sides by 10:\n"
+        r"x = \frac{55}{10} = 5.5",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 22: Solve "
+        r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + 2\frac{3}{4}"
+        ".\n"
+            "(BECE 2010 Q5a)",
+        answer:
+        "Convert the mixed fraction to an improper fraction:\n"
+        r"2\frac{3}{4} = \frac{11}{4}"
+        "\n\n"
+            "Write out the clear term groupings:\n"
+        r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + \frac{11}{4}"
+        "\n\n"
+            "Find the LCM of denominators 2, 8, and 4, which is 8.\n\n"
+            "Multiply through every single term by 8:\n"
+        r"8(\frac{4x-3}{2}) = 8(\frac{8x-10}{8}) + 8(\frac{11}{4})"
+        "\n\n"
+            "Clear out fraction denominators:\n"
+        r"4(4x - 3) = 1(8x - 10) + 2(11)"
+        "\n\n"
+            "Expand brackets and run arithmetic:\n"
+        r"16x - 12 = 8x - 10 + 22 = 8x + 12"
+        "\n\n"
+            "Group variables on the left side and constant numbers on the right side:\n"
+        r"16x - 8x = 12 + 12"
+        "\n"
+        r"8x = 24"
+        "\n\n"
+            "Divide both sides by 8:\n"
+        r"x = \frac{24}{8} = 3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 23: Solve the inequality "
+        r"\frac{1}{3}x + 1\frac{2}{3} < \frac{-3}{4}x - \frac{1}{2}"
+        ".\n"
+            "(BECE 2011 Q2b)",
+        answer:
+        "Convert the mixed fraction into an improper fraction:\n"
+        r"1\frac{2}{3} = \frac{5}{3}"
+        "\n\n"
+            "Rewrite the structural layout:\n"
+        r"\frac{1}{3}x + \frac{5}{3} < \frac{-3}{4}x - \frac{1}{2}"
+        "\n\n"
+            "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
+            "Multiply every term on both sides by 12:\n"
+        r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{-3}{4}x\right) - 12\left(\frac{1}{2}\right)"
+        "\n\n"
+            "Simplify each item:\n"
+        r"4x + 20 < -9x - 6"
+        "\n\n"
+            "Group variables on the left side and constants on the right side:\n"
+        r"4x + 9x < -6 - 20"
+        "\n"
+        r"13x < -26"
+        "\n\n"
+            "Divide both sides by 13:\n"
+        r"x < \frac{-26}{13} = -2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 24: Solve the inequality "
+        r"2x - 1\frac{1}{2} \geq 5x - 6"
+        ".\n"
+            "(BECE 2013 Q1b)",
+        answer:
+        "Convert the mixed fraction into an improper fraction:\n"
+        r"1\frac{1}{2} = \frac{3}{2}"
+        "\n\n"
+            "Rewrite the expression line:\n"
+        r"2x - \frac{3}{2} \geq 5x - 6"
+        "\n\n"
+            "Multiply every term on both sides by 2 to remove fraction layouts:\n"
+        r"2(2x) - 2\left(\frac{3}{2}\right) \geq 2(5x) - 2(6)"
+        "\n"
+        r"4x - 3 \geq 10x - 12"
+        "\n\n"
+            "Group variables on the left side and constant values on the right side:\n"
+        r"4x - 10x \geq -12 + 3"
+        "\n"
+        r"-6x \geq -9"
+        "\n\n"
+            "Divide both sides by -6 and reverse the inequality sign layout:\n"
+        r"\frac{-6x}{-6} \leq \frac{-9}{-6} \implies x \leq \frac{9}{6}"
+        "\n\n"
+            "Reduce to lowest terms by dividing by 3:\n"
+        r"x \leq \frac{3}{2} \quad \text{or} \quad x \leq 1\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 25: Solve for x, if "
+        r"\frac{1}{3}x + 1\frac{2}{3} < \frac{3}{4}x - \frac{1}{2}"
+        ".\n"
+            "(BECE 2014 Q3a)",
+        answer:
+        "Convert the mixed fraction to an improper fraction:\n"
+        r"1\frac{2}{3} = \frac{5}{3}"
+        "\n\n"
+            "Rewrite the setup:\n"
+        r"\frac{1}{3}x + \frac{5}{3} < \frac{3}{4}x - \frac{1}{2}"
+        "\n\n"
+            "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
+            "Multiply every single term group by 12:\n"
+        r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{3}{4}x\right) - 12\left(\frac{1}{2}\right)"
+        "\n\n"
+            "Clear fractions:\n"
+        r"4x + 20 < 9x - 6"
+        "\n\n"
+            "Collect x values on the left side:\n"
+        r"4x - 9x < -6 - 20"
+        "\n"
+        r"-5x < -26"
+        "\n\n"
+            "Divide both sides by -5 and flip the inequality layout symbol direction:\n"
+        r"x > \frac{-26}{-5} \implies x > \frac{26}{5} \quad \text{or} \quad x > 5\frac{1}{5}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 26: Solve "
+        r"\frac{3x + 2}{3} - \frac{3 - x}{8} = \frac{1}{6}"
+        ".\n"
+            "(BECE 2015A Q1b)",
+        answer:
+        "Find the LCM of denominators 3, 8, and 6, which is 24.\n\n"
+            "Multiply every term on both sides by 24:\n"
+        r"24(\frac{3x+2}{3}) - 24(\frac{3-x}{8}) = 24(\frac{1}{6})"
+        "\n\n"
+            "Cancel out denominators:\n"
+        r"8(3x + 2) - 3(3 - x) = 4(1)"
+        "\n\n"
+            "Expand the brackets carefully:\n"
+        r"24x + 16 - 9 + 3x = 4"
+        "\n\n"
+            "Combine like terms on the left side:\n"
+        r"27x + 7 = 4"
+        "\n\n"
+            "Subtract 7 from both sides:\n"
+        r"27x = 4 - 7 = -3"
+        "\n\n"
+            "Divide both sides by 27:\n"
+        r"x = \frac{-3}{27}"
+        "\n\n"
+            "Reduce fraction to lowest terms by dividing by 3:\n"
+        r"x = -\frac{1}{9}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 27: Solve for x, if "
+        r"2 - \frac{3}{5}x \leq 1\frac{1}{3}"
+        ".\n"
+            "(BECE 2015B Q2a)",
+        answer:
+        "Convert mixed fraction into improper fraction:\n"
+        r"1\frac{1}{3} = \frac{4}{3}"
+        "\n\n"
+            "Rewrite the expression:\n"
+        r"2 - \frac{3}{5}x \leq \frac{4}{3}"
+        "\n\n"
+            "Find the LCM of denominators 5 and 3, which is 15.\n\n"
+            "Multiply every term on both sides by 15:\n"
+        r"15(2) - 15\left(\frac{3}{5}x\right) \leq 15\left(\frac{4}{3}\right)"
+        "\n\n"
+            "Simplify the terms:\n"
+        r"30 - 9x \leq 20"
+        "\n\n"
+            "Subtract 30 from both sides:\n"
+        r"-9x \leq 20 - 30 = -10"
+        "\n\n"
+            "Divide both sides by -9 and reverse the inequality sign layout direction:\n"
+        r"x \geq \frac{-10}{-9} \implies x \geq \frac{10}{9} \quad \text{or} \quad x \geq 1\frac{1}{9}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 28: Two consecutive odd numbers are such that seven times the smaller, subtracted from nine times the bigger, give 144. Find the two numbers.\n"
+            "(BECE 2017 Q2a)",
+        answer:
+        "Let the smaller consecutive odd number be x.\n\n"
+            "Let the larger consecutive odd number be x + 2.\n\n"
+            "Form the equation based on the text narrative context:\n"
+        r"9(x + 2) - 7x = 144"
+        "\n\n"
+            "Expand the bracket:\n"
+        r"9x + 18 - 7x = 144"
+        "\n\n"
+            "Combine variable terms on the left side:\n"
+        r"2x + 18 = 144"
+        "\n\n"
+            "Subtract 18 from both sides:\n"
+        r"2x = 144 - 18 = 126"
+        "\n\n"
+            "Divide both sides by 2 to isolate x:\n"
+        r"x = \frac{126}{2} = 63"
+        "\n\n"
+            "Individual consecutive metrics are determined as:\n"
+            "The first odd number (smaller) = 63\n"
+            "The second odd number (bigger) = 63 + 2 = 65\n\n"
+            "Final Answer: The two consecutive odd numbers are 63 and 65.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 29: Solve the inequality "
+        r"\frac{3}{4}(x + 1) + 1 \leq \frac{1}{2}(x - 2) + 5"
+        ".\n"
+            "(BECE 2017 Q6b(i))",
+        answer:
+        "Find the LCM of denominators 4 and 2, which is 4.\n\n"
+            "Multiply every unique term group on both sides by 4:\n"
+        r"4[\frac{3}{4}(x+1)] + 4(1) \leq 4[\frac{1}{2}(x-2)] + 4(5)"
+        "\n\n"
+            "Clear out the fractions:\n"
+        r"3(x + 1) + 4 \leq 2(x - 2) + 20"
+        "\n\n"
+            "Expand the brackets:\n"
+        r"3x + 3 + 4 \leq 2x - 4 + 20"
+        "\n\n"
+            "Combine constant values on both sides:\n"
+        r"3x + 7 \leq 2x + 16"
+        "\n\n"
+            "Group variable terms on the left and constant values on the right side:\n"
+        r"3x - 2x \leq 16 - 7 \implies x \leq 9",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 30: Solve the inequality "
+        r"5x - 3 \geq \frac{15x - 11}{2}"
+        ".\n"
+            "(BECE 2018 Q1a)",
+        answer:
+        "Multiply both sides of the inequality by 2 to remove fraction denominators on the right side:\n"
+        r"2(5x - 3) \geq 15x - 11"
+        "\n\n"
+            "Expand terms:\n"
+        r"10x - 6 \geq 15x - 11"
+        "\n\n"
+            "Move variable terms to the left side and constants to the right side:\n"
+        r"10x - 15x \geq -11 + 6"
+        "\n\n"
+            "Combine like terms:\n"
+        r"-5x \geq -5"
+        "\n\n"
+            "Divide both sides by -5 and flip the inequality sign layout direction:\n"
+        r"\frac{-5x}{-5} \leq \frac{-5}{-5} \implies x \leq 1",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 31: If "
+        r"\frac{p + 2q}{p} = \frac{7}{5}"
+        ", find the value of "
+        r"\frac{q}{p}"
+        ", where p ≠ 0.\n"
+            "(BECE 2019 Q1c)",
+        answer:
+        "Cross-multiply to remove fraction lines:\n"
+        r"5(p + 2q) = 7p"
+        "\n\n"
+            "Expand brackets on the left side:\n"
+        r"5p + 10q = 7p"
+        "\n\n"
+            "Shift 5p to group variables on the right side:\n"
+        r"10q = 7p - 5p = 2p"
+        "\n\n"
+            "Divide both sides by 2q to isolate the variable ratio layout:\n"
+        r"\frac{10q}{2q} = \frac{2p}{2q} \implies 5 = \frac{p}{q}"
+        "\n\n"
+            "Take the reciprocal of both sides to get the final required fraction value:\n"
+        r"\frac{q}{p} = \frac{1}{5}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 32: Solve "
+        r"\frac{4x + 5}{5} + \frac{x - 3}{4} = -1"
+        ".\n"
+            "(BECE 2019 Q2a)",
+        answer:
+        "Find the LCM of the denominators 5 and 4, which is 20.\n\n"
+            "Multiply through every term on both sides by 20:\n"
+        r"20(\frac{4x+5}{5}) + 20(\frac{x-3}{4}) = 20(-1)"
+        "\n\n"
+            "Simplify terms to remove fractions:\n"
+        r"4(4x + 5) + 5(x - 3) = -20"
+        "\n\n"
+            "Expand brackets completely:\n"
+        r"16x + 20 + 5x - 15 = -20"
+        "\n\n"
+            "Combine variables and numbers on the left side:\n"
+        r"21x + 5 = -20"
+        "\n\n"
+            "Subtract 5 from both sides:\n"
+        r"21x = -20 - 5 = -25"
+        "\n\n"
+            "Divide both sides by 21:\n"
+        r"x = -\frac{25}{21} \quad \text{or} \quad x = -1\frac{4}{21}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 33: Solve "
+        r"\frac{2x + 3}{3} + 2x = 10"
+        ".\n"
+            "(BECE 2020 Q2a)",
+        answer:
+        "Multiply through every term in the equation by 3 to eliminate the fraction denominator:\n"
+        r"3(\frac{2x+3}{3}) + 3(2x) = 3(10)"
+        "\n"
+        r"(2x + 3) + 6x = 30"
+        "\n\n"
+            "Combine like variable terms on the left side:\n"
+        r"8x + 3 = 30"
+        "\n\n"
+            "Subtract 3 from both sides:\n"
+        r"8x = 30 - 3 = 27"
+        "\n\n"
+            "Divide both sides by 8:\n"
+        r"x = \frac{27}{8} \quad \text{or} \quad x = 3\frac{3}{8}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 34: In a fishing community of 9,400 people, the number of women exceeds the number of men by 1,500. Find the ratio of men to women in the community.\n"
+            "(BECE 2020 Q3c)",
+        answer:
+        "Let the total number of men be x.\n\n"
+            "Express the number of women as x + 1,500.\n\n"
+            "Write down the population sum formula:\n"
+        r"x + (x + 1,500) = 9,400"
+        "\n\n"
+            "Combine like terms:\n"
+        r"2x + 1,500 = 9,400"
+        "\n\n"
+            "Subtract 1,500 from both sides:\n"
+        r"2x = 9,400 - 1,500 = 7,900"
+        "\n\n"
+            "Divide by 2 to determine the male population:\n"
+        r"x = \frac{7,900}{2} = 3,950 men"
+        "\n\n"
+            "Find the female population using substitution:\n"
+        r"\text{Number of women} = 3,950 + 1,500 = 5,450 women"
+        "\n\n"
+            "Determine the simplified numerical distribution ratio:\n"
+        r"\text{Ratio} = 3,950 : 5,450"
+        "\n\n"
+            "Divide by 10, then divide by 5 to fully reduce the ratio:\n"
+        r"\text{Ratio} = 79 : 109",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+        "Question 35: Solve: "
+        r"\frac{6}{4p - 1} = \frac{4}{3(p + 4)}"
       ".\n"
       "(BECE 2021 Q2b)",
   answer:
@@ -5600,8 +5566,7 @@ PracticeQuestion(
       r"p = \frac{-76}{2} = -38",
   explanation: "",
 ),
-
-PracticeQuestion(
+      PracticeQuestion(
   scenario:
       "Question 36: Fred is (x - 1) years old now. How old:\n"
       "(i) was he 4 years ago?\n"
@@ -5610,10 +5575,10 @@ PracticeQuestion(
       "(BECE 2022 Q4a)",
   answer:
       "⦿ (i) Subtract 4 from his current age formula:\n"
-      r"\text{Age 4 years ago} = (x - 1) - 4 = (x - 5)\text{ years old}"
+      r"\text{Age 4 years ago} = (x - 1) - 4 = (x - 5) years old"
       "\n\n"
       "⦿ (ii) Add 8 to his current age formula:\n"
-      r"\text{Age 8 years from now} = (x - 1) + 8 = (x + 7)\text{ years old}"
+      r"\text{Age 8 years from now} = (x - 1) + 8 = (x + 7) years old"
       "\n\n"
       "⦿ (iii) Set up the equation matching the problem constraints:\n"
       r"x + 7 = 3(x - 5)"
@@ -5625,11 +5590,10 @@ PracticeQuestion(
       r"x - 3x = -15 - 7 \implies -2x = -22 \implies x = 11"
       "\n\n"
       "Calculate Fred's current present age by substitution:\n"
-      r"\text{Fred's present age} = 11 - 1 = 10\text{ years old}",
+      r"\text{Fred's present age} = 11 - 1 = 10 years old",
   explanation: "",
 ),
-
-PracticeQuestion(
+      PracticeQuestion(
   scenario:
       "Question 37: Solve "
       r"\frac{4}{3x} = 7 - \frac{3}{x}"
@@ -5650,8 +5614,7 @@ PracticeQuestion(
       r"x = \frac{13}{21}",
   explanation: "",
 ),
-
-PracticeQuestion(
+      PracticeQuestion(
   scenario:
       "Question 38: Find the truth set of "
       r"\frac{x - 1}{2} \leq \frac{1}{2} + x"
@@ -5659,7 +5622,7 @@ PracticeQuestion(
       "(BECE 2022 Q5c(i))",
   answer:
       "Multiply every term on both sides by 2 to clear out fractions:\n"
-      r"2\left(\frac{x - 1}{2}\right) \leq 2\left(\frac{1}{2}\right) + 2(x)"
+      r"2(\frac{x-1}{2}) \leq 2(\frac{1}{2}) + 2(x)"
       "\n"
       r"x - 1 \leq 1 + 2x"
       "\n\n"
@@ -5676,8 +5639,7 @@ PracticeQuestion(
       r"\{x : x \geq -2\}",
   explanation: "",
 ),
-
-PracticeQuestion(
+      PracticeQuestion(
   scenario:
       "Question 39: If "
       r"4m - 2(3 + 2m) + m(2m + 4) = 0"
@@ -5708,6 +5670,130 @@ PracticeQuestion(
       "Final Answer: m = -3 or m = 1.",
   explanation: "",
 ),
+    ],
+  ),
+
+  "Math JHS3 s3 ss1 - Shapes and Space": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+        "Question 1: Each of the interior angles of a regular polygon is "
+        r"140^\circ"
+        ". How many sides have it?\n"
+            "(BECE 1997 Q5b)",
+        answer:
+        "Let the number of sides of the regular polygon be n.\n\n"
+            "Write down the formula for the single interior angle of a regular polygon:\n"
+        r"\text{Interior Angle} = \frac{180(n - 2)}{n}"
+        "\n\n"
+            "Substitute the given value of "
+        r"140^\circ"
+        " into the formula:\n"
+        r"140 = \frac{180(n - 2)}{n}"
+        "\n\n"
+            "Multiply both sides by n to eliminate the fraction:\n"
+        r"140n = 180(n - 2)"
+        "\n\n"
+            "Expand the expression on the right side of the equation:\n"
+        r"140n = 180n - 360"
+        "\n\n"
+            "Rearrange the terms to solve for n by grouping like terms together:\n"
+        r"140n - 180n = -360"
+        "\n"
+        r"-40n = -360"
+        "\n\n"
+            "Divide both sides by -40:\n"
+        r"n = \frac{-360}{-40}"
+        "\n"
+        r"n = 9"
+        "\n\n"
+            "Conclusion: The regular polygon has 9 sides.",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 2: Three interior angles of a pentagon are "
+        r"100^\circ"
+        ", "
+        r"120^\circ"
+        " and "
+        r"108^\circ"
+        ". Find the size of each of the remaining two angles, if one of them is three times the other.\n"
+            "(BECE 2015 Q2b)",
+        answer:
+        "A pentagon is a polygon with 5 sides (n = 5).\n\n"
+            "Calculate the total sum of all interior angles inside a pentagon using the formula:\n"
+        r"\text{Sum of interior angles} = 180(n - 2)"
+        "\n\n"
+        r"\text{Sum of interior angles} = 180(5 - 2) = 180 \times 3 = 540^\circ"
+        "\n\n"
+            "Let the smaller unknown angle be designated as x.\n\n"
+            "Since the other remaining angle is three times larger, designate it as 3x.\n\n"
+            "Set up a comprehensive equation adding all five interior angles to reach the total sum of "
+        r"540^\circ"
+        ":\n"
+        r"100^\circ + 120^\circ + 108^\circ + x + 3x = 540^\circ"
+        "\n\n"
+            "Simplify the left side by adding the constant terms and combining the variable terms:\n"
+        r"328^\circ + 4x = 540^\circ"
+        "\n\n"
+            "Isolate the variable term by subtracting "
+        r"328^\circ"
+        " from both sides:\n"
+        r"4x = 540^\circ - 328^\circ"
+        "\n"
+        r"4x = 212^\circ"
+        "\n\n"
+            "Find the value of x by dividing both sides by 4:\n"
+        r"x = \frac{212^\circ}{4}"
+        "\n"
+        r"x = 53^\circ"
+        "\n\n"
+            "Calculate the final remaining angle by multiplying the value of x by 3:\n"
+        r"3x = 3 \times 53^\circ = 159^\circ"
+        "\n\n"
+            "Conclusion: The sizes of the remaining two interior angles are "
+        r"53^\circ"
+        " and "
+        r"159^\circ"
+        ".",
+        explanation: "",
+      ),
+
+      PracticeQuestion(
+        scenario:
+        "Question 3: The sum of the interior angles of a regular polygon is "
+        r"900^\circ"
+        ". Find the number of sides of the polygon.\n"
+            "(BECE 2018 Q4a)",
+        answer:
+        "Let the number of sides of the regular polygon be n.\n\n"
+            "Use the formula for the sum of the interior angles of any polygon:\n"
+        r"\text{Sum of interior angles} = (n - 2) \times 180^\circ"
+        "\n\n"
+            "Set the formula equal to the total provided sum of "
+        r"900^\circ"
+        ":\n"
+        r"900^\circ = (n - 2) \times 180^\circ"
+        "\n\n"
+            "Expand the terms inside the parentheses:\n"
+        r"900 = 180n - 360"
+        "\n\n"
+            "Move the constant term to the left side to isolate the n variable term:\n"
+        r"900 + 360 = 180n"
+        "\n"
+        r"1260 = 180n"
+        "\n\n"
+            "Divide both sides by 180 to isolate n:\n"
+        r"n = \frac{1260}{180}"
+        "\n"
+        r"n = 7"
+        "\n\n"
+            "Conclusion: The regular polygon has 7 sides.",
+        explanation: "",
+      ),
     ],
   ),
 

@@ -10950,6 +10950,814 @@ QuizQuestion(
     ],
   ),
 
+  "Math JHS3 s3 ss1 - Shapes and Space": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+        "1. In an enlargement the area of the object was multiplied by 144 to get the area of the image. Find the scale factor of the enlargement. (BECE 1993 Q14)",
+        options: [
+          "12",
+          "36",
+          "48",
+          "144",
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+        r"Area changes by the square of the scale factor, so k^2 = 144. Therefore, k = 12.",
+      ),
+      QuizQuestion(
+        question:
+        r"2. If the interior angle of a regular polygon is 120^\circ, how many sides does it have? (BECE 1993 Q22)",
+        options: [
+          "5",
+          "6",
+          "7",
+          "8",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The exterior angle is 180^\circ - 120^\circ = 60^\circ. Thus, the number of sides is 360^\circ \div 60^\circ = 6.",
+      ),
+      QuizQuestion(
+        question:
+        r"3. The interior angle of a regular polygon is 120^\circ. How many sides has the polygon? (BECE 1995 Q13)",
+        options: [
+          "3",
+          "4",
+          "5",
+          "6",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"The exterior angle is 60^\circ, so the number of sides is 360^\circ \div 60^\circ = 6.",
+      ),
+      QuizQuestion(
+        question:
+        r"4. The interior angle of a regular polygon is 135^\circ. How many sides has the polygon? (BECE 2002A Q36)",
+        options: [
+          "6",
+          "8",
+          "9",
+          "12",
+        ],
+        correctIndex: 1,
+        difficulty: "Medium",
+        explanation:
+        r"The exterior angle is 180^\circ - 135^\circ = 45^\circ. Hence, the number of sides is 360^\circ \div 45^\circ = 8.",
+      ),
+      QuizQuestion(
+        question:
+        r"5. A square of side 4 cm is enlarged by a scale factor of 3. Calculate the area of the enlarged square. (BECE 2002A Q37)",
+        options: [
+          r"36 cm^2",
+          r"72 cm^2",
+          r"96 cm^2",
+          r"144 cm^2",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The new side is 4 \times 3 = 12\text{ cm}, so the area is 12^2 = 144\text{ cm}^2.",
+      ),
+      QuizQuestion(
+        question:
+        r"6. In an enlargement with scale factor k, which of the following statements is not true? (BECE 2001 Q36)",
+        options: [
+          r"Each length is multiplied by k",
+          "Each angle remains the same",
+          "The shape of the figure does not change",
+          "The size of the figure does not change",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "An enlargement preserves shape and angles, but generally changes the size of the figure.",
+      ),
+      QuizQuestion(
+        question:
+        r"7. In an enlargement PQ \rightarrow P'Q', |PQ| = 3 cm and |P'Q'| = 15 cm. Calculate the scale factor of the enlargement. (BECE 2000 Q20)",
+        options: [
+          r"\frac{1}{5}",
+          r"\frac{2}{3}",
+          "5",
+          "10",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The scale factor is \frac{15}{3} = 5.",
+      ),
+      QuizQuestion(
+        question:
+        "8. In an enlargement with scale factor 2, which of the following statements is not true? (BECE 2014 Q22)",
+        options: [
+          "Each length is multiplied by 2",
+          "Each angle remains the same",
+          "The shape of the figure does not change",
+          "The size of the figure does not change",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        "With scale factor 2, lengths double, so the size changes even though the shape and angles remain the same.",
+      ),
+      QuizQuestion(
+        question:
+        r"9. The sum of the interior angles of a regular polygon is 540^\circ. Find the number of sides of the polygon. (BECE 2016 Q30)",
+        options: [
+          "7",
+          "6",
+          "5",
+          "4",
+        ],
+        correctIndex: 2,
+        difficulty: "Medium",
+        explanation:
+        r"(n-2)180^\circ = 540^\circ, so n-2=3 and n=5.",
+      ),
+      QuizQuestion(
+        question:
+        r"10. In an enlargement XY \rightarrow X_1Y_1. If |XY| = 24 cm and |X_1Y_1| = 8 cm, calculate the scale factor of the enlargement. (BECE 2016 Q33)",
+        options: [
+          r"\frac{1}{32}",
+          r"\frac{1}{24}",
+          r"\frac{1}{8}",
+          r"\frac{1}{3}",
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+        r"The scale factor is \frac{8}{24} = \frac{1}{3}.",
+      ),
+      QuizQuestion(
+        question:
+        r"11. In an enlargement, length AB = 3 cm and the length of its image A_1B_1 = 15 cm. Calculate the scale factor. (BECE 2018 Q34)",
+        options: [
+          r"\frac{1}{5}",
+          r"\frac{2}{3}",
+          "5",
+          "12",
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+        r"The scale factor is \frac{15}{3} = 5.",
+      ),
+      QuizQuestion(
+        question:
+        r"12. The area of a rectangular card is 15 cm^2. If each side of the card is enlarged by a scale factor 3, find the area of the enlarged card. (BECE 2025 Q3)",
+        options: [
+          r"45 cm^2",
+          r"75 cm^2",
+          r"90 cm^2",
+          r"135 cm^2",
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+        r"Area is multiplied by 3^2 = 9, so the new area is 15 \times 9 = 135 cm^2.",
+      ),
+    ],
+  ),
+  "Math JHS3 s3 ss2 - Measurement": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. How many edges has a cube? (BECE 1995 Q8)",
+options: [
+"4",
+"6",
+"8",
+"12",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"A cube has 12 edges.",
+),
+
+QuizQuestion(
+question:
+r"2. The volume of a cube is 27\text{ cm}^3. Find the area of one of its faces. (BECE 1992 Q31)",
+options: [
+r"3\text{ cm}^2",
+r"6\text{ cm}^2",
+r"9\text{ cm}^2",
+r"18\text{ cm}^2",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+r"If s^3=27, then s=3\text{ cm}. The area of one face is 3^2=9\text{ cm}^2.",
+),
+
+QuizQuestion(
+question:
+"3. How many faces has a cuboid? (BECE 1994 Q31)",
+options: [
+"6",
+"8",
+"12",
+"16",
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"A cuboid has 6 faces.",
+),
+
+QuizQuestion(
+question:
+r"4. A cylinder has a radius 6\text{ cm} and height 7\text{ cm}. Find its volume. Take \pi=\frac{22}{7}. (BECE 1995 Q37)",
+options: [
+r"132\text{ cm}^3",
+r"264\text{ cm}^3",
+r"294\text{ cm}^3",
+r"792\text{ cm}^3",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+r"V=\pi r^2h=\frac{22}{7}\times6^2\times7=792\text{ cm}^3.",
+),
+
+QuizQuestion(
+question:
+r"5. If \mathbf{s}=\begin{pmatrix}-1\4\end{pmatrix} and \mathbf{r}=\begin{pmatrix}3\2\end{pmatrix}, find 3\mathbf{s}+\mathbf{r}. (BECE 2002A Q26)",
+options: [
+r"\begin{pmatrix}0\14\end{pmatrix}",
+r"\begin{pmatrix}0\6\end{pmatrix}",
+r"\begin{pmatrix}6\6\end{pmatrix}",
+r"\begin{pmatrix}6\14\end{pmatrix}",
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+r"3\mathbf{s}+\mathbf{r}=\begin{pmatrix}-3\12\end{pmatrix}+\begin{pmatrix}3\2\end{pmatrix}=\begin{pmatrix}0\14\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"6. A cylinder is of height 3\text{ cm} and radius 2\text{ cm}. Find its curved surface area. (BECE 1992 Q32)",
+options: [
+r"18\pi\text{ cm}^2",
+r"12\pi\text{ cm}^2",
+r"8\pi\text{ cm}^2",
+r"7\pi\text{ cm}^2",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+r"Curved surface area = 2\pi rh = 2\pi\times2\times3=12\pi\text{ cm}^2.",
+),
+
+QuizQuestion(
+question:
+"7. How many faces has a closed cylindrical object? (BECE 1998 Q23)",
+options: [
+"1",
+"2",
+"3",
+"4",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"A closed cylinder has two circular faces and one curved face, giving 3 faces.",
+),
+
+QuizQuestion(
+question:
+"8. How many edges has a cuboid? (BECE 1992 Q38)",
+options: [
+"four",
+"six",
+"eight",
+"twelve",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"A cuboid has 12 edges.",
+),
+
+QuizQuestion(
+question:
+r"9. Find k in the vector equation \begin{pmatrix}3\4\end{pmatrix}+k\begin{pmatrix}3\4\end{pmatrix}=\begin{pmatrix}-3\-4\end{pmatrix}. (BECE 1996 Q17)",
+options: [
+"-3",
+"-2",
+"2",
+r"-\frac{3}{4}",
+],
+correctIndex: 1,
+difficulty: "Medium",
+explanation:
+r"(1+k)\begin{pmatrix}3\4\end{pmatrix}=-\begin{pmatrix}3\4\end{pmatrix}, so 1+k=-1 and k=-2.",
+),
+
+QuizQuestion(
+question:
+r"10. If \mathbf{u}=\begin{pmatrix}3\-1\end{pmatrix} and \mathbf{v}=\begin{pmatrix}6\1\end{pmatrix}, find 2\mathbf{u}+\mathbf{v}. (BECE 1998 Q35)",
+options: [
+r"\begin{pmatrix}12\6\end{pmatrix}",
+r"\begin{pmatrix}12\-1\end{pmatrix}",
+r"\begin{pmatrix}12\3\end{pmatrix}",
+r"\begin{pmatrix}12\1\end{pmatrix}",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+r"2\mathbf{u}+\mathbf{v}=\begin{pmatrix}6\-2\end{pmatrix}+\begin{pmatrix}6\1\end{pmatrix}=\begin{pmatrix}12\-1\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"11. A rectangular tank is 4\text{ m} long, 3\text{ m} wide and 2.5\text{ m} high. What is the volume of the tank? (BECE 2000 Q32)",
+options: [
+r"24\text{ m}^3",
+r"30\text{ m}^3",
+r"36\text{ m}^3",
+r"48\text{ m}^3",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+r"Volume = 4\times3\times2.5=30\text{ m}^3.",
+),
+
+QuizQuestion(
+question:
+"12. How many faces has a cube? (BECE 2002B Q5)",
+options: [
+"8",
+"6",
+"5",
+"4",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"A cube has 6 faces.",
+),
+
+QuizQuestion(
+question:
+r"13. The volume of water in a cuboid is 9\text{ m}^3. The length of the cuboid is 3\text{ m} and breadth is 2\text{ m}. Calculate the depth of the water. (BECE 1998 Q36)",
+options: [
+r"0.15\text{ m}",
+r"0.18\text{ m}",
+r"1.5\text{ m}",
+r"1.8\text{ m}",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+r"Depth = \frac{9}{3\times2}=1.5\text{ m}.",
+),
+
+QuizQuestion(
+question:
+r"14. If \mathbf{r}=\begin{pmatrix}2\1\end{pmatrix} and \mathbf{s}=\begin{pmatrix}-3\2\end{pmatrix}, calculate 2\mathbf{r}-3\mathbf{s}. (BECE 2000 Q34)",
+options: [
+r"\begin{pmatrix}-5\12\end{pmatrix}",
+r"\begin{pmatrix}-5\-8\end{pmatrix}",
+r"\begin{pmatrix}13\-4\end{pmatrix}",
+r"\begin{pmatrix}18\-8\end{pmatrix}",
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+r"2\mathbf{r}-3\mathbf{s}=\begin{pmatrix}4\2\end{pmatrix}-\begin{pmatrix}-9\6\end{pmatrix}=\begin{pmatrix}13\-4\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"15. If \mathbf{u}=\begin{pmatrix}1\3\end{pmatrix} and \mathbf{v}=\begin{pmatrix}4\-2\end{pmatrix}, find 2\mathbf{u}+3\mathbf{v}. (BECE 2001 Q39)",
+options: [
+r"\begin{pmatrix}5\1\end{pmatrix}",
+r"\begin{pmatrix}11\5\end{pmatrix}",
+r"\begin{pmatrix}11\13\end{pmatrix}",
+r"\begin{pmatrix}14\0\end{pmatrix}",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+r"2\mathbf{u}+3\mathbf{v}=\begin{pmatrix}2\6\end{pmatrix}+\begin{pmatrix}12\-6\end{pmatrix}=\begin{pmatrix}14\0\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"16. If \mathbf{a}=\begin{pmatrix}2\1\end{pmatrix} and \mathbf{b}=\begin{pmatrix}3\-4\end{pmatrix}, find 2\mathbf{a}+\mathbf{b}. (BECE 2003 Q35)",
+options: [
+r"\begin{pmatrix}7\-2\end{pmatrix}",
+r"\begin{pmatrix}5\-3\end{pmatrix}",
+r"\begin{pmatrix}8\-7\end{pmatrix}",
+r"\begin{pmatrix}3\-4\end{pmatrix}",
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+r"2\mathbf{a}+\mathbf{b}=\begin{pmatrix}4\2\end{pmatrix}+\begin{pmatrix}3\-4\end{pmatrix}=\begin{pmatrix}7\-2\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"17. The volume of a cylinder is 40\pi\text{ cm}^3. If the height is 10\text{ cm}, find the base radius. (BECE 2022 Q4)",
+options: [
+"1 cm",
+"2 cm",
+"3 cm",
+"4 cm",
+],
+correctIndex: 1,
+difficulty: "Medium",
+explanation:
+r"40\pi=\pi r^2(10), so r^2=4 and r=2\text{ cm}.",
+),
+
+QuizQuestion(
+question:
+"18. How many edges has a triangular prism? (BECE 2018 Q24)",
+options: [
+"3",
+"5",
+"6",
+"9",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"A triangular prism has 9 edges.",
+),
+
+QuizQuestion(
+question:
+r"19. Given that \overrightarrow{PQ}=\begin{pmatrix}3\8\end{pmatrix}, find \overrightarrow{QP}. (BECE 2022 Q36)",
+options: [
+r"\begin{pmatrix}-3\8\end{pmatrix}",
+r"\begin{pmatrix}8\-3\end{pmatrix}",
+r"\begin{pmatrix}-3\-8\end{pmatrix}",
+r"\begin{pmatrix}3\-8\end{pmatrix}",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+r"\overrightarrow{QP}=-\overrightarrow{PQ}=\begin{pmatrix}-3\-8\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"20. A tank in the form of a cuboid has length 6\text{ m} and breadth 4\text{ m}. If its volume is 36\text{ m}^3, find the height. (BECE 2019 Q15)",
+options: [
+"0.67 m",
+"1.5 m",
+"1.8 m",
+"5.0 m",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+r"Height = \frac{36}{6\times4}=1.5\text{ m}.",
+),
+
+QuizQuestion(
+question:
+r"21. If \mathbf{a}=\begin{pmatrix}2\4\end{pmatrix} and \mathbf{b}=\begin{pmatrix}-3\2\end{pmatrix}, find 2\mathbf{a}-\mathbf{b}. (BECE 2004 Q18)",
+options: [
+r"\begin{pmatrix}1\6\end{pmatrix}",
+r"\begin{pmatrix}7\6\end{pmatrix}",
+r"\begin{pmatrix}1\10\end{pmatrix}",
+r"\begin{pmatrix}7\10\end{pmatrix}",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+r"2\mathbf{a}-\mathbf{b}=\begin{pmatrix}4\8\end{pmatrix}-\begin{pmatrix}-3\2\end{pmatrix}=\begin{pmatrix}7\6\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"22. Given that \mathbf{a}=\begin{pmatrix}-2\3\end{pmatrix} and \mathbf{b}=\begin{pmatrix}2\-5\end{pmatrix}, find \mathbf{a}+2\mathbf{b}. (BECE 2006 Q40)",
+options: [
+r"\begin{pmatrix}6\13\end{pmatrix}",
+r"\begin{pmatrix}2\-13\end{pmatrix}",
+r"\begin{pmatrix}-2\7\end{pmatrix}",
+r"\begin{pmatrix}2\-7\end{pmatrix}",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+r"\mathbf{a}+2\mathbf{b}=\begin{pmatrix}-2\3\end{pmatrix}+\begin{pmatrix}4\-10\end{pmatrix}=\begin{pmatrix}2\-7\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+"23. How many vertices has a cuboid? (BECE 2015 Q25)",
+options: [
+"6",
+"7",
+"8",
+"14",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"A cuboid has 8 vertices.",
+),
+
+QuizQuestion(
+question:
+r"24. The height of a cylinder is 5\text{ cm} and the radius is 7\text{ cm}. Find its volume. Take \pi=\frac{22}{7}. (BECE 2023 Q33)",
+options: [
+r"700\text{ cm}^3",
+r"154\text{ cm}^3",
+r"770\text{ cm}^3",
+r"110\text{ cm}^3",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+r"V=\frac{22}{7}\times7^2\times5=770\text{ cm}^3.",
+),
+
+QuizQuestion(
+question:
+r"25. Find the volume of a cuboid of sides 15\text{ m} by 12\text{ m} by 3\text{ m}. (BECE 2005 Q20)",
+options: [
+r"36\text{ m}^3",
+r"45\text{ m}^3",
+r"180\text{ m}^3",
+r"540\text{ m}^3",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+r"Volume = 15\times12\times3=540\text{ m}^3.",
+),
+
+QuizQuestion(
+question:
+r"26. Find the volume of a cube of side 5\text{ cm}. (BECE 2011 Q26)",
+options: [
+r"10\text{ cm}^3",
+r"115\text{ cm}^3",
+r"25\text{ cm}^3",
+r"125\text{ cm}^3",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+r"Volume = 5^3=125\text{ cm}^3.",
+),
+
+QuizQuestion(
+question:
+r"27. If \mathbf{p}=\begin{pmatrix}4\3\end{pmatrix} and \mathbf{q}=\begin{pmatrix}-2\7\end{pmatrix}, find 4\mathbf{p}-2\mathbf{q}. (BECE 2008 Q29)",
+options: [
+r"\begin{pmatrix}12\-2\end{pmatrix}",
+r"\begin{pmatrix}12\2\end{pmatrix}",
+r"\begin{pmatrix}20\-2\end{pmatrix}",
+r"\begin{pmatrix}20\2\end{pmatrix}",
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+r"4\mathbf{p}-2\mathbf{q}=\begin{pmatrix}16\12\end{pmatrix}-\begin{pmatrix}-4\14\end{pmatrix}=\begin{pmatrix}20\-2\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+"28. How many edges has a cuboid? (BECE 2013 Q39)",
+options: [
+"16",
+"12",
+"8",
+"4",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"A cuboid has 12 edges.",
+),
+
+QuizQuestion(
+question:
+r"29. The volume of water in a rectangular tank is 30\text{ cm}^3. The length is 5\text{ cm} and breadth is 2\text{ cm}. Calculate the depth of water. (BECE 2004 Q30)",
+options: [
+"4.0 cm",
+"3.0 cm",
+"5.0 cm",
+"6.0 cm",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+r"Depth = \frac{30}{5\times2}=3\text{ cm}.",
+),
+
+QuizQuestion(
+question:
+r"30. A rectangular tank has dimensions 2.5\text{ m} by 4\text{ m} by 5\text{ m}. It is filled with water to the brim. If 35\text{ m}^3 of the water is used, how much water is left? (BECE 2003 Q29)",
+options: [
+r"50\text{ m}^3",
+r"35\text{ m}^3",
+r"25\text{ m}^3",
+r"15\text{ m}^3",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+r"The tank holds 2.5\times4\times5=50\text{ m}^3. Water left = 50-35=15\text{ m}^3.",
+),
+
+QuizQuestion(
+question:
+"31. How many faces has a rectangular pyramid? (BECE 2005 Q28)",
+options: [
+"4",
+"5",
+"6",
+"7",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"A rectangular pyramid has one rectangular base and four triangular faces, giving 5 faces.",
+),
+
+QuizQuestion(
+question:
+r"32. Calculate the volume of a cylinder with radius 7\text{ cm} and height 10\text{ cm}. Take \pi=\frac{22}{7}. (BECE 2014 Q32)",
+options: [
+r"220\text{ cm}^3",
+r"440\text{ cm}^3",
+r"1,540\text{ cm}^3",
+r"3,080\text{ cm}^3",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+r"V=\frac{22}{7}\times7^2\times10=1,540\text{ cm}^3.",
+),
+
+QuizQuestion(
+question:
+r"33. If \mathbf{r}=\begin{pmatrix}-2\3\end{pmatrix} and \mathbf{s}=\begin{pmatrix}-4\-1\end{pmatrix}, find \mathbf{r}+2\mathbf{s}. (BECE 2005 Q40)",
+options: [
+r"\begin{pmatrix}-10\1\end{pmatrix}",
+r"\begin{pmatrix}-10\-1\end{pmatrix}",
+r"\begin{pmatrix}-6\1\end{pmatrix}",
+r"\begin{pmatrix}-6\2\end{pmatrix}",
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+r"\mathbf{r}+2\mathbf{s}=\begin{pmatrix}-2\3\end{pmatrix}+\begin{pmatrix}-8\-2\end{pmatrix}=\begin{pmatrix}-10\1\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+"34. How many faces has a cuboid? (BECE 2009 Q3)",
+options: [
+"12",
+"8",
+"6",
+"4",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"A cuboid has 6 faces.",
+),
+
+QuizQuestion(
+question:
+"35. How many faces has a cuboid? (BECE 2004 Q2)",
+options: [
+"3",
+"4",
+"5",
+"6",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"A cuboid has 6 faces.",
+),
+
+QuizQuestion(
+question:
+r"36. The volume of a cylinder is 20\pi\text{ cm}^3. If the height is 5\text{ cm}, find the base radius. (BECE 2018 Q22)",
+options: [
+"1 cm",
+"2 cm",
+"3 cm",
+"4 cm",
+],
+correctIndex: 1,
+difficulty: "Medium",
+explanation:
+r"20\pi=\pi r^2(5), so r^2=4 and r=2\text{ cm}.",
+),
+
+QuizQuestion(
+question:
+"37. How many faces has a cube? (BECE 2014 Q30)",
+options: [
+"4",
+"6",
+"8",
+"12",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"A cube has 6 faces.",
+),
+
+QuizQuestion(
+question:
+r"38. If \mathbf{m}=\begin{pmatrix}3\2\end{pmatrix} and \mathbf{n}=\begin{pmatrix}-1\3\end{pmatrix}, find \mathbf{m}-2\mathbf{n}. (BECE 2007 Q40)",
+options: [
+r"\begin{pmatrix}-1\4\end{pmatrix}",
+r"\begin{pmatrix}1\-4\end{pmatrix}",
+r"\begin{pmatrix}5\4\end{pmatrix}",
+r"\begin{pmatrix}5\-4\end{pmatrix}",
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+r"\mathbf{m}-2\mathbf{n}=\begin{pmatrix}3\2\end{pmatrix}-\begin{pmatrix}-2\6\end{pmatrix}=\begin{pmatrix}5\-4\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"39. Find the volume of a cylinder of height 3\text{ cm} and radius 2\text{ cm}. (BECE 2012 Q22)",
+options: [
+r"6\pi\text{ cm}^3",
+r"12\pi\text{ cm}^3",
+r"18\pi\text{ cm}^3",
+r"24\pi\text{ cm}^3",
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+r"V=\pi r^2h=\pi(2^2)(3)=12\pi\text{ cm}^3.",
+),
+
+QuizQuestion(
+question:
+r"40. A rectangular container with dimensions 5\text{ in} by 3\text{ in} by 4\text{ in} is two-thirds full of water. Find the volume occupied by the water. (BECE 2025 Q11)",
+options: [
+r"50\text{ m}^3",
+r"40\text{ m}^3",
+r"30\text{ m}^3",
+r"20\text{ m}^3",
+],
+correctIndex: 1,
+difficulty: "Medium",
+explanation:
+r"The container volume is 5\times3\times4=60\text{ in}^3. Two-thirds of this is 40\text{ in}^3. The units in the options appear to be incorrectly transcribed.",
+),
+
+QuizQuestion(
+question:
+r"41. The points M(1,3) and N(4,5) are in the number plane. Find the vector \overrightarrow{MN}. (BECE 2025 Q19)",
+options: [
+r"\begin{pmatrix}3\2\end{pmatrix}",
+r"\begin{pmatrix}-3\-2\end{pmatrix}",
+r"\begin{pmatrix}5\8\end{pmatrix}",
+r"\begin{pmatrix}-5\-8\end{pmatrix}",
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+r"\overrightarrow{MN}=\begin{pmatrix}4-1\5-3\end{pmatrix}=\begin{pmatrix}3\2\end{pmatrix}.",
+),
+
+QuizQuestion(
+question:
+r"42. The dimensions of a cuboid are 2\text{ cm}, P\text{ cm} and 5\text{ cm}. Which of the following is an expression for its volume? (BECE 2003 Q37)",
+options: [
+r"7P\text{ cm}^3",
+r"(7+P)\text{ cm}^3",
+r"10P\text{ cm}^3",
+r"(10+P)\text{ cm}^3",
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
+),
+    ],
+  ),
+
 
   // ─── SOCIAL STUDIES ────────────────────────────────────────────────────
   "Social Studies JHS1 s1 ss1 - Environmental Issues": QuizModel(
