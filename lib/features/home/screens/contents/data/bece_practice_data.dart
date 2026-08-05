@@ -13407,7 +13407,7 @@ scenario:
 "Question 1: (a) Describe the traditional festival celebrated in your community.\n"
 "(b) List three reasons why the festival is celebrated.\n"
 "(BECE 1999 Q1)",
-answer: "Correct Answer: (a) Describe the traditional festival celebrated in your community:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ I reside in an Akan community where the main traditional celebration is the Adae festival.\n"
 "⦿ This observance features two primary cycles: the Akwasidae, which takes place on a Sunday, and the Awukudae, which occurs on a Wednesday.\n"
 "⦿ The preceding day, referred to as “Dapaah” or “Awukudae Dapaah,” is dedicated to making preparations and purifying the environment. During these preparatory moments, people travel back to their hometowns, clear pathways, gather household supplies, and prepare offerings for the traditional rites.\n"
@@ -13420,148 +13420,150 @@ answer: "Correct Answer: (a) Describe the traditional festival celebrated in you
 "⦿ The chief proceeds into the stool room once more to offer a portion of this food to the ancestral spirits, sampling some himself before leaving the remainder for the spirits and returning to his seat.\n"
 "⦿ Throughout the day, the chief petitions the spirits and ancestors to shower blessings upon the people, guard them against harm, and grant a bountiful harvest at the conclusion of every season.\n"
 "⦿ Following these rituals, the chief and his council sit in state to settle lingering disputes among families and community members.\n\n"
-"(b) Three reasons why the festival is celebrated:\n"
+"(b) \n"
 "⦿ To honor, remember, and seek continuous guidance and protection from the ancestral spirits and traditional gods.\n"
 "⦿ To cleanse and purify the ancestral stools, royal equipment, and the entire community of any spiritual contamination.\n"
 "⦿ To promote peace, resolve local disputes, and foster unity and togetherness among family members and citizens.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 2: (a) What is Eid-ul-Adha?\n"
 "(b) Explain how it is observed in your community.\n"
 "(BECE 2003 Q2)",
-answer: "Correct Answer: (a) What is Eid-ul-Adha?\n"
+answer: "Correct Answer: (a) "
+    "\n"
 "⦿ Eid-ul-Adha is one of the principal Islamic festivals celebrated annually on the 10th day of Zul-Hijjah, the twelfth month of the Islamic lunar calendar.\n"
 "⦿ It is known as the Feast of Sacrifice, celebrated to commemorate the willingness and devotion of Prophet Ibrahim (Abraham) to sacrifice his son Ishmael in obedience to God's command, before Allah provided a ram to replace the child.\n\n"
-"(b) How it is observed in the community:\n"
+"(b) "
+    "\n"
 "⦿ Muslims begin the period by engaging in charitable acts, ensuring those who are financially less fortunate are enabled to offer sacrifices to Allah.\n"
 "⦿ On the morning of the festival, congregants gather in white attire at an open prayer ground (the Eid ground) to perform special communal prayers led by the Imam.\n"
 "⦿ After the sermon and prayers conclude, a healthy domestic animal, typically a sheep, goat, or cow, is slaughtered in accordance with Islamic prescribed guidelines.\n"
 "⦿ The sacrificial meat is divided into three parts: one portion is retained by the family, another portion is given to friends and relatives, and the final portion is distributed to the poor, needy, and destitute.\n"
 "⦿ Families prepare elaborate meals, share food across the neighborhood, exchange gifts, and visit friends and relatives to celebrate unity and brotherly love.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 3: (a) List five traditional festivals in Ghana and indicate where they are celebrated.\n"
 "(b) Explain five reasons why festivals are celebrated.\n"
 "(BECE 2012 Q2 / BECE 2018 Q3)",
-answer: "Correct Answer: (a) Five traditional festivals in Ghana and where they are celebrated:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ Odwira festival: Celebrated by the people of Akwapim, Aburi, and Amanokrom.\n"
 "⦿ Homowo festival: Celebrated by the Ga people of Accra and surrounding areas.\n"
 "⦿ Hogbetsotso festival: Celebrated by the Anlo-Ewes in the Volta Region (Anloga).\n"
 "⦿ Aboakyer festival: Celebrated by the Efutu people of Winneba.\n"
 "⦿ Fetu Afahye festival: Celebrated by the Oguaa people of Cape Coast.\n\n"
-"(b) Five reasons why festivals are celebrated:\n"
+"(b) \n"
 "⦿ To foster peace, unity, and friendliness: Festivals bring community members, traditional leaders, and visitors together, providing a platform to settle disputes, restore peace, and strengthen social harmony.\n"
 "⦿ To remember important historical events and ancestors: They serve as an annual occasion to recall historical milestones, victories, migrations, and to pay tribute to ancestral spirits for their contributions to the society.\n"
 "⦿ To preserve and promote cultural heritage: Celebrations showcase traditional drumming, dancing, regalia, oral histories, and customs, thereby passing cultural values down to younger generations.\n"
 "⦿ To purify the community and religious objects: Festivals feature sacred cleansing rituals designed to purify traditional stools, shrines, and community grounds of bad omens and spiritual dirt.\n"
 "⦿ To plan and execute developmental projects: Key stakeholders, citizens, and non-resident community members gather during festivals to discuss local developmental needs, raise funds, and execute projects for community progress.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 4: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
 "(b) Explain four ways traditional festivals are important to your community.\n"
 "(BECE 2016 Q1)",
-answer: "Correct Answer: (a) Four agricultural festivals and where they are celebrated:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ Kundum festival: Celebrated by the Ahanta and Nzema people.\n"
 "⦿ Yam festival (Tedudu): Celebrated by the people of Ho, Peki, and Hohoe.\n"
 "⦿ Bakatue festival: Celebrated by the people of Elmina.\n"
 "⦿ Homowo festival: Celebrated by the Ga people.\n\n"
-"(b) Four ways traditional festivals are important to the community:\n"
+"(b) \n"
 "⦿ Economic development and fundraising: Festivals attract tourists, dignitaries, and citizens from afar, boosting local trade and generating funds for infrastructural projects such as schools and health centers.\n"
 "⦿ Social reunion and family bonding: They afford long-separated family members and non-resident citizens the opportunity to return home, reconnect, and rebuild family relationships.\n"
 "⦿ Promoting moral and spiritual values: By engaging in acts of thanksgiving, reconciliation, and self-examination, individuals are inspired to maintain high moral standards and align with ancestral guidance.\n"
 "⦿ Promoting tourism: The rich cultural displays, traditional regalia, and historical reenactments draw domestic and international tourists, showcasing the community to the wider world.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 5: (a) Describe how Christians celebrate Easter.\n"
 "(b) State four reasons for which Easter festival is important to the Christian.\n"
 "(BECE 2018 Q3 / BECE 2012 Q2b)",
-answer: "Correct Answer: (a) How Christians celebrate Easter:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ Easter is celebrated in late March or early April to mark the death and resurrection of Jesus Christ.\n"
 "⦿ The observance begins with Good Friday services where Christians wear dark or sober clothing to reflect on the suffering, crucifixion, and death of Jesus Christ for human sins.\n"
 "⦿ Special church services continue through Holy Saturday, leading into Easter Sunday, which is the most joyful day of the celebration.\n"
 "⦿ On Easter Sunday, believers dress in bright white clothing to symbolize victory over death and the resurrection of Christ, singing joyful hymns and praises.\n"
 "⦿ The period is marked by holding conventions, crusade meetings, sharing special meals, and exchanging gifts among loved ones and the needy.\n\n"
-"(b) Four reasons for which Easter festival is important to the Christian:\n"
+"(b) \n"
 "⦿ Reminds believers of Christ's resurrection: It confirms the core foundation of the Christian faith—that Jesus Christ conquered death and is alive.\n"
 "⦿ Assurance of salvation and forgiveness: It reassures Christians that their sins are forgiven through the sacrificial death and victory of Jesus Christ.\n"
 "⦿ Promotes unity and fellowship: It brings believers from various denominations together in large conventions, joint services, and shared activities.\n"
 "⦿ Encourages love and reconciliation: The season inspires Christians to forgive others, show mercy, share with the less fortunate, and renew their commitment to live holy lives.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 6: (a) Narrate the story of Hogbetsotso festival.\n"
 "(b) State three reasons for which festivals are celebrated.\n"
 "(BECE 2022 Q2)",
-answer: "Correct Answer: (a) The story of Hogbetsotso festival:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ The Hogbetsotso festival commemorates the historical escape of the Anlo-Ewe people from the tyrannical rule of King Agorkorli at Notsie in present-day Togo.\n"
 "⦿ King Agorkorli subjected the Anlo people to harsh punishment and forced labor, such as compelling them to mix mud with thorn branches and broken glass to erect a massive mud wall around his kingdom.\n"
 "⦿ To escape this cruelty, the Anlo people devised a clever plan: the women threw leftover wastewater against one section of the mud wall over a long period, softening the structure.\n"
 "⦿ During a grand night of feast and heavy drumming organized to distract the King and his guards, a brave hunter named Tegbe Tsali used a ceremonial sword to breach the softened mud wall.\n"
 "⦿ The people slipped out of the town through the opening, walking backwards to confuse their pursuers into believing that incoming travelers had made the footprints.\n"
 "⦿ Led by their spiritual leaders and forebears, they journeyed until they safely crossed the Volta River and settled in their current homeland at Anloga.\n\n"
-"(b) Three reasons for which festivals are celebrated:\n"
+"(b) \n"
 "⦿ To express gratitude to God, traditional deities, and ancestors for protection, health, and bumper harvests throughout the year.\n"
 "⦿ To preserve and transmit historical events, bravery, and cultural values to younger generations.\n"
 "⦿ To promote community development, reconcile conflicting parties, and strengthen peaceful relationships.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 7: (a) Explain briefly four reasons for which one must show commitment to friends.\n"
 "(BECE 2022 Q4b)",
-answer: "Correct Answer: (a) Four reasons for which one must show commitment to friends:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ It attracts divine blessings: Demonstrating genuine care and loyalty toward friends reflects godly love and attracts God's favor and goodwill into one's life.\n"
 "⦿ It prevents misunderstandings and resolves conflicts: Faithful commitment fosters open communication, empathy, and mutual respect, reducing friction and helping friends resolve issues peacefully.\n"
 "⦿ It promotes tolerance and acceptance of differences: Loyal friends accept each other's flaws, differing opinions, and unique personalities, building a supportive and harmonious bond.\n"
 "⦿ It provides emotional support and inner peace: Knowing that one has reliable friends brings comfort during difficult times, builds self-confidence, and promotes overall mental well-being.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 8: (a) What is puberty?\n"
 "(b) What is the importance of this rite to the people in your community?\n"
 "(BECE 2000 Q1)",
-answer: "Correct Answer: (a) What is puberty?\n"
+answer: "Correct Answer: (a)\n"
 "⦿ Puberty is the physical, physiological, and emotional transition period during which a child's body undergoes biological changes to attain sexual maturity and reproductive capacity.\n"
 "⦿ It typically occurs between the ages of 10 and 19 years, marking the boundary between childhood and adulthood.\n\n"
-"(b) Importance of this rite to the people in the community:\n"
+"(b)\n"
 "⦿ Promotes moral uprightness and chastity: It encourages young boys and girls to refrain from pre-marital sexual activities and avoid unwanted teenage pregnancies.\n"
 "⦿ Prepares youth for adulthood and marriage: Initiates receive practical instruction regarding family responsibilities, home management, personal hygiene, and moral living.\n"
 "⦿ Brings honor to parents and families: Successfully undergoing puberty rites without prior pregnancy brings immense pride, respect, and social dignity to the initiate's family.\n"
 "⦿ Preserves cultural identity: It teaches young individuals the customs, taboos, values, and traditions of their community.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 9: (a) Give four reasons why a naming ceremony is important in your community.\n"
 "(b) Identify three factors to be considered in choosing a name for a child.\n"
 "(BECE 2005 Q2)",
-answer: "Correct Answer: (a) Four reasons why a naming ceremony is important in the community:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ Gives identity to the newborn: It formally assigns a unique personal, family, or ancestral name to the child, recognizing them as an official member of the family and wider society.\n"
 "⦿ Welcomes the child into the human world: It marks the physical transition of the baby from the spiritual realm into the living human community.\n"
 "⦿ Instills moral uprightness: The symbolic use of water and alcohol teaches the child the vital importance of honesty, truthfulness, and integrity throughout life.\n"
 "⦿ Strengthens family and social bonds: The occasion gathers extended family members, friends, and well-wishers to offer prayers, support, and gifts to the parents and child.\n\n"
-"(b) Three factors to be considered in choosing a name for a child:\n"
+"(b) \n"
 "⦿ Day of birth: The specific day of the week the baby was born (e.g., Kwadwo for a Monday-born male or Abena for a Tuesday-born female).\n"
 "⦿ Circumstance of birth: Special situations surrounding the birth, such as being born as twins (e.g., Ata/Ataa) or position among siblings (e.g., Tetteh or Mansa).\n"
 "⦿ Ancestral character and family lineage: Names of virtuous ancestors or respected living relatives are selected to encourage the child to emulate their good deeds.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 10: (a) Describe how marriage ceremony is performed in Islam.\n"
 "(b) State three things which make marriage successful.\n"
 "(BECE 2007 Q2)",
-answer: "Correct Answer: (a) How marriage ceremony is performed in Islam:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ The process commences with the proposal and formal consent seeking, where the groom's family approaches the bride's parents to state their intent.\n"
 "⦿ Necessary background checks are conducted by both families to ensure compatibility and moral uprightness.\n"
 "⦿ A legal guardian (Wali) represents the bride during negotiations to protect her rights.\n"
@@ -13569,374 +13571,592 @@ answer: "Correct Answer: (a) How marriage ceremony is performed in Islam:\n"
 "⦿ The solemnization ceremony (Nikah) is officiated by an Islamic scholar or Imam in the presence of at least two sane Muslim male witnesses.\n"
 "⦿ The Imam delivers a sermon (Khutbah) highlighting the sacred responsibilities of marriage, recites verses from the Holy Qur'an, and oversees the exchange of vows.\n"
 "⦿ The ceremony concludes with a joyous wedding feast (Walimah) hosted to share food, pray, and celebrate the union with the community.\n\n"
-"(b) Three things which make marriage successful:\n"
+"(b) \n"
 "⦿ Effective communication and openness: Spouses must maintain honest, respectful, and regular dialogue to resolve misunderstandings and build mutual trust.\n"
 "⦿ Mutual love, respect, and forgiveness: Demonstrating care, valuing each other's opinions, and readily forgiving mistakes keeps the relationship strong and peaceful.\n"
 "⦿ Financial prudence and shared responsibility: Couples must work together to manage household finances transparently and fulfill their marital duties.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 11: (a) Mention four causes of death.\n"
 "(b) Give four reasons why death rites are performed.\n"
 "(BECE 2011 Q3)",
-answer: "Correct Answer: (a) Four causes of death:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ Sickness and diseases: Severe medical conditions such as malaria, cancer, heart problems, or HIV/AIDS.\n"
 "⦿ Natural disasters: Calamities like severe floods, earthquakes, or landslides.\n"
 "⦿ Accidents: Unfortunate occurrences including road traffic crashes, domestic mishaps, or industrial accidents.\n"
 "⦿ Old age: Natural degradation of bodily organs as a person grows very old.\n\n"
-"(b) Four reasons why death rites are performed:\n"
+"(b) \n"
 "⦿ To ensure a peaceful passage for the deceased: Rites help the soul of the departed transition smoothly into the spiritual realm to join the ancestors.\n"
 "⦿ To console the bereaved family: Ceremonies bring community members together to offer financial, physical, and emotional support to the mourning relatives.\n"
 "⦿ To show final respect and honor: Performing proper rites demonstrates deep affection and gratitude for the life and contributions of the deceased.\n"
 "⦿ To remind the living of their mortality: Funeral gatherings prompt individuals to reflect on their own lives, encouraging them to live morally and responsibly.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 12: (a) State four physical changes that occur during puberty.\n"
 "(b) What four moral problems confront the adolescent?\n"
 "(BECE 2012 Q1)",
-answer: "Correct Answer: (a) Four physical changes that occur during puberty:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ Rapid growth in height and weight: Adolescents experience a noticeable surge in physical stature and overall body frame.\n"
 "⦿ Development of bodily hair: Growth of hair in the armpits, pubic areas, and facial hair in males.\n"
 "⦿ Voice alterations: Voice deepens noticeably in boys, while girls develop a higher-pitched voice.\n"
 "⦿ Development of secondary sexual characteristics: Enlargement of breasts and widening of hips in girls; broadening of shoulders and chest development in boys.\n\n"
-"(b) Four moral problems that confront the adolescent:\n"
+"(b) \n"
 "⦿ Pressure toward pre-marital sexual activity: Heightened sexual urges and negative peer influence can push adolescents toward risky sexual behavior.\n"
 "⦿ Substance abuse and addiction: Curiosity or bad company may expose youth to experimenting with alcohol, tobacco, or illegal drugs.\n"
 "⦿ Rebellion against authority: A strong desire for independence can lead to disrespect or disobedience toward parents, teachers, and elders.\n"
 "⦿ Examination malpractice and dishonesty: Temptations to engage in cheating or shortcuts to achieve success due to academic pressure.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 13: (a) State four factors that can be considered when choosing a name for a child.\n"
 "(b) Explain four reasons for which naming ceremony is important in your community.\n"
 "(BECE 2021 Q3)",
-answer: "Correct Answer: (a) Four factors that can be considered when choosing a name for a child:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ The day of the week the child was born: Choosing names corresponding to specific days (e.g., Koffi for a Friday-born boy).\n"
 "⦿ Family or ancestral background: Naming the baby after respected grandparents or elders to preserve family heritage.\n"
 "⦿ Circumstance surrounding the birth: Events occurring at birth, such as being born after long periods of waiting or during specific events.\n"
 "⦿ Religious affiliation: Selecting biblical, Islamic, or traditional names that reflect the faith and values of the parents.\n\n"
-"(b) Four reasons for which naming ceremony is important in the community:\n"
+"(b) \n"
 "⦿ Provides formal identity: It confers a recognized name upon the infant, making them an official persona in society.\n"
 "⦿ Incorporates the child into the family structure: It formally welcomes the baby as a legitimate member of the extended lineage and community.\n"
 "⦿ Teaches core moral virtues: Symbolic rites performed during the event encourage the child to uphold truth, integrity, and good character.\n"
 "⦿ Fosters community support: Well-wishers gather to bestow blessings, offer guidance, and present gifts to support the child's upbringing.",
-explanation: ".",
+explanation: "",
 ),
-PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "Question 14: (a) Explain four major causes of death in your country.\n"
 "(b) What four steps can be taken to prevent such deaths?\n"
 "(BECE 2023 Q3)",
-answer: "Correct Answer: (a) Four major causes of death in the country:\n"
+answer: "Correct Answer: (a) \n"
 "⦿ Preventable diseases and poor healthcare: Conditions like malaria, typhoid, hypertension, and diabetes cause high mortality due to late diagnosis or limited medical facilities.\n"
 "⦿ Road traffic accidents: Reckless driving, poorly maintained vehicles, and inadequate road infrastructure lead to frequent loss of lives.\n"
 "⦿ Substance abuse and unhealthy lifestyle: Excessive consumption of alcohol, drug abuse, and poor nutrition contribute significantly to organ failure and fatal illnesses.\n"
 "⦿ Environmental pollution and unsafe conditions: Contaminated water sources, improper waste disposal, and exposure to harmful industrial chemicals cause life-threatening health issues.\n\n"
-"(b) Four steps that can be taken to prevent such deaths:\n"
+"(b) \n"
 "⦿ Adopting personal hygiene and healthy habits: Exercising regularly, eating balanced diets, and keeping household surroundings clean.\n"
 "⦿ Enforcing strict road safety regulations: Authorities must maintain roads, inspect vehicles strictly, and penalize reckless driving.\n"
 "⦿ Seeking regular medical check-ups: Visiting health centers promptly for screenings and proper medical treatment instead of self-medication.\n"
 "⦿ Promoting public education: Raising awareness about the dangers of drug abuse, poor sanitation, and risky behaviors.",
-explanation: ".",
+explanation: "",
 ),
-
     ],
   ),
   "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Describe the nuclear family system.\n"
-            "(b) Describe the extended family system.\n"
-            "(c) Mention three advantages of the nuclear family system.\n"
-            "(d) Mention three advantages of the extended family system.\n"
-            "(BECE 2007 Q6)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The nuclear family consists of the father, mother, and children.\n"
-            "⦿ The father is the head of the family.\n"
-            "⦿ The size of the family is relatively small.\n"
-            "⦿ Control of the family lies in the hands of the father.\n"
-            "⦿ The father is responsible for all matters concerning the welfare of the family.\n\n"
-            "Answer: (b)\n"
-            "⦿ An extended family is one where several nuclear families, e.g., grandparents, uncles, aunts, etc., live together.\n"
-            "⦿ Relatives may be paternal or maternal, i.e., either from the father's side or the mother's side.\n"
-            "⦿ Common to the system are common ancestors, names, family property, taboos, symbols, etc.\n"
-            "⦿ It has a common head or leader who gives guidance to religious matters or property division.\n"
-            "⦿ The system is headed by the family head or Abusuapanin.\n\n"
-            "Answer: (c)\n"
-            "⦿ Children are better educated as compared to those in the extended family.\n"
-            "⦿ Children feel better secured because of the presence of their parents.\n"
-            "⦿ Children are clearly monitored, guided, and cared for.\n"
-            "⦿ Family assets are shared among members of the nuclear family.\n"
-            "⦿ Children are provided with the necessary affection.\n"
-            "⦿ Parent-child relationship is very close.\n"
-            "⦿ Children are not overburdened with work to support the family.\n"
-            "⦿ It is easy to make a decision concerning the family.\n\n"
-            "Answer: (d)\n"
-            "⦿ It helps us to know our relationships with God.\n"
-            "⦿ It promotes peace or harmony or obedience to God's commandment.\n"
-            "⦿ It promotes resource mobilizations.\n"
-            "⦿ It fulfils God's commandment and direction.\n"
-            "⦿ It promotes progress and development of the family.\n"
-            "⦿ Members are protected by each other.\n"
-            "⦿ The poor and elderly are supported financially by other family members.\n"
-            "⦿ It gives children a sense of belonging.\n"
-            "⦿ It brings unity among family members.",
-        explanation: ".",
-      ),
+scenario:
+"Question 1: (a) Explain the nuclear family system.\n"
+"(b) State the obligations of each member of the family.\n"
+"(BECE 1999 Q7)",
+answer: "Correct Answer: (a) The nuclear family system:\n"
+"⦿ The nuclear family is a small family unit consisting only of a father, a mother and their children living together. The father is recognised as the head of this family unit.\n\n"
+"(b) Obligations of each member of the family:\n"
+"⦿ Duties of the father:\n"
+"⦿ He is responsible for providing food, clothing and a home for his family.\n"
+"⦿ He sees to the spiritual growth, physical wellbeing, moral upbringing, schooling and health of his family.\n"
+"⦿ He leads and takes charge of the household.\n"
+"⦿ He corrects the children whenever they misbehave or stray from good conduct.\n"
+"⦿ He acts as a guide and adviser to family members.\n\n"
+"⦿ Duties of the mother:\n"
+"⦿ She oversees the daily running of the home and its chores.\n"
+"⦿ She assists the father financially and materially in caring for the family.\n"
+"⦿ She bathes and looks after the youngest and eldest members of the household.\n"
+"⦿ She teaches the children good values and proper behaviour.\n"
+"⦿ She takes on the father's responsibilities within the home whenever he is away.\n\n"
+"⦿ Duties of the children:\n"
+"⦿ They show respect and obey their parents.\n"
+"⦿ They help with errands their parents send them on.\n"
+"⦿ The older children assist in looking after their younger siblings.\n"
+"⦿ They help their mother with household tasks.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 2: (a) Describe the extended family system.\n"
+"(b) Mention three advantages and three disadvantages of the extended family system.\n"
+"(BECE 2000 Q8)",
+answer: "Correct Answer: (a) The extended family system:\n"
+"⦿ An extended family goes beyond the father, mother and children to include other relatives such as uncles, aunts, cousins, nephews and grandparents living as one family unit.\n\n"
+"(b) Advantages of the extended family:\n"
+"⦿ Family members support and assist each other whenever the need arises.\n"
+"⦿ Grandparents can help their children raise the grandchildren.\n"
+"⦿ Members become better acquainted with their wider relatives.\n\n"
+"Disadvantages of the extended family:\n"
+"⦿ Individual members enjoy very little privacy.\n"
+"⦿ The head of the family faces heavy pressure from dependants.\n"
+"⦿ Wealthier members may be resented or envied by others in the family over material matters.\n"
+"⦿ Minor disagreements can cause frequent quarrels.\n"
+"⦿ Some parents lose authority over their children owing to confusion about who is responsible for discipline.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 3: (a) State three reasons why children should be obedient to (i) parents; (ii) teachers.\n"
+"(b) Mention any four rules that are expected to be obeyed in your school.\n"
+"(BECE 2002 Q8)",
+answer: "Correct Answer: (a) Reasons children should obey their parents:\n"
+"⦿ Obedience to parents is instructed by God and carries a promise of reward.\n"
+"⦿ It brings joy and pride to parents.\n"
+"⦿ It helps children avoid the consequences of wrongdoing.\n\n"
+"Reasons children should obey their teachers:\n"
+"⦿ Teachers act as guardians for pupils while they are at school.\n"
+"⦿ It builds a warm and cooperative relationship between pupils and teachers.\n"
+"⦿ It creates a favourable atmosphere in which learning can take place effectively.\n\n"
+"(b) School rules to be obeyed:\n"
+"⦿ Pupils must arrive at school on time and attend regularly.\n"
+"⦿ Pupils must be truthful and refrain from lying.\n"
+"⦿ No pupil should bully or fight with a classmate.\n"
+"⦿ Pupils should keep the school compound clean and tidy.\n"
+"⦿ Pupils must dress in the prescribed school uniform.\n"
+"⦿ No pupil should destroy school property.\n"
+"⦿ Younger pupils should not be treated unfairly by older ones.\n"
+"⦿ Pupils must pay attention and behave properly during lessons.\n"
+"⦿ No pupil should cheat during examinations.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 4: Explain five disadvantages of belonging to the extended family.\n"
+"(BECE 2003 Q8)",
+answer: "Correct Answer: Five disadvantages of belonging to the extended family:\n"
+"⦿ Members can find it easier to escape blame or punishment for wrongdoing since responsibility is shared.\n"
+"⦿ Wealthier relatives may be burdened financially by poorer members who depend on them.\n"
+"⦿ Disputes can arise more easily among such a large group of relatives, particularly over property and inheritance.\n"
+"⦿ The system can discourage individual members from working hard, since they expect support regardless of effort.\n"
+"⦿ Children may not receive as much individual attention and discipline as they would in a smaller family unit.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 5: (a) Explain the two main family systems in Ghana.\n"
+"(BECE 2007 Q8)",
+answer: "Correct Answer: (a) The two main family systems in Ghana:\n"
+"⦿ The Nuclear Family: This consists of a father, a mother and their children living together as a self-contained unit, with the father usually recognised as head of the household.\n"
+"⦿ The Extended Family: This is a wider network built around a common ancestor, taking in relatives such as grandparents, uncles, aunts, cousins and nephews, who all consider themselves one family. It may be headed by a family chief or the eldest relative in the lineage.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 6: (a) Describe the nuclear family system.\n"
+"(b) Mention three advantages of the nuclear family.\n"
+"(BECE 2011 Q7)",
+answer: "Correct Answer: (a) The nuclear family system:\n"
+"⦿ The nuclear family is made up of only a father, mother and their children, forming a compact family group that lives together.\n\n"
+"(b) Advantages of the nuclear family:\n"
+"⦿ Children generally receive a better standard of upbringing and moral training.\n"
+"⦿ Children in this system tend to enjoy better religious instruction from their parents.\n"
+"⦿ Children feel more secure and protected because of the constant presence of their parents.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 7: Explain four features of traditional religious homes.\n"
+"(BECE 2014 Q3)",
+answer: "Correct Answer: Four features of traditional religious homes:\n"
+"⦿ Family members are taught about traditional beliefs and moral values as they grow up together.\n"
+"⦿ Traditional religious practices are visible in the home through the use of items such as amulets, sacred objects and ritual symbols.\n"
+"⦿ Members observe and grow accustomed to household taboos linked to their traditional beliefs.\n"
+"⦿ The household actively takes part in traditional celebrations, storytelling and festivals as ways of passing on culture to children.\n"
+"⦿ Traditional values and customs are learned and reinforced continually within the home environment.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 8: (a) State three main reasons each why rules and regulations are useful (i) at home; (ii) in the community.\n"
+"(b) Outline four benefits of taking instructions from elders.\n"
+"(BECE 2014 Q6)",
+answer: "Correct Answer: (a) Reasons rules are useful at home:\n"
+"⦿ They help shape good behaviour in children, such as avoiding rude language, fighting or gossip.\n"
+"⦿ They enable children to complete their household chores properly.\n"
+"⦿ They instil discipline within the family.\n"
+"⦿ They reduce conflict among family members.\n"
+"⦿ They teach children to distinguish between right and wrong conduct.\n\n"
+"Reasons rules and regulations are useful in the community:\n"
+"⦿ They prevent disorder and confusion within society.\n"
+"⦿ They allow people to live safely and happily together.\n"
+"⦿ They promote peace, harmony and development in society.\n"
+"⦿ They help everyone work towards common goals as a community.\n"
+"⦿ They help maintain discipline within the wider society.\n"
+"⦿ They allow society to function smoothly and avoid unnecessary punishment.\n"
+"⦿ They encourage cooperation and teamwork among community members.\n"
+"⦿ They support community members in observing accepted customs and local laws.\n\n"
+"(b) Benefits of taking instructions from elders:\n"
+"⦿ They help prevent disorder and confusion in society.\n"
+"⦿ They shape good character and proper conduct.\n"
+"⦿ They earn one love and admiration from other people.\n"
+"⦿ They bring blessings and favour from God, parents and elders.\n"
+"⦿ They increase one's chances of becoming a good leader in future.\n"
+"⦿ They lead to a long and fulfilling life, in keeping with God's promise.\n"
+"⦿ They help one become dependable and responsible in life.\n"
+"⦿ They may result in rewards, gifts or recognition.\n"
+"⦿ They contribute to peace and progress in society.\n"
+"⦿ They earn one honour and respect within the family.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 9: (a) List four factors that promote good family relationships.\n"
+"(b) Explain any four benefits of healthy relationships among family members.\n"
+"(BECE 2014 Q7)",
+answer: "Correct Answer: (a) Factors that promote good family relationships:\n"
+"⦿ Being obedient towards parents and grandparents.\n"
+"⦿ Offering support to parents and grandparents.\n"
+"⦿ Helping with household chores.\n"
+"⦿ Being willing to forgive one another.\n\n"
+"(b) Benefits of healthy relationships among family members:\n"
+"⦿ It strengthens the bond members share with God.\n"
+"⦿ It brings about peace and stability within the household.\n"
+"⦿ It encourages members to pool resources together.\n"
+"⦿ It helps the family fulfil God's commandments and guidance.\n"
+"⦿ It contributes to the family's overall progress and development.\n"
+"⦿ Members look out for and protect one another.\n"
+"⦿ Wealthier members financially support poorer or elderly relatives.\n"
+"⦿ It gives every member a sense of truly belonging.\n"
+"⦿ It creates unity among family members.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 10: (a) State any four duties a child must perform in the family.\n"
+"(b) Explain any four reasons why an individual needs to constantly examine himself or herself.\n"
+"(BECE 2016 Q7)",
+answer: "Correct Answer: (a) Duties of a child in the family:\n"
+"⦿ Running errands within the home.\n"
+"⦿ Keeping the home tidy and helping with chores.\n"
+"⦿ Assisting parents with income-generating work at home.\n"
+"⦿ Caring for and supporting younger siblings.\n"
+"⦿ Obeying parents and elder siblings.\n"
+"⦿ Reporting any misconduct by siblings to parents.\n"
+"⦿ Respecting parents, elders and siblings alike.\n\n"
+"(b) Reasons for self-examination:\n"
+"⦿ To avoid repeating past mistakes.\n"
+"⦿ To take ownership of one's own actions.\n"
+"⦿ To prevent being wrongly accused of things one did not do.\n"
+"⦿ To build strong and healthy relationships with others.\n"
+"⦿ To feel remorse for past wrongs and make amends.\n"
+"⦿ To avoid being unfair or unjust towards others.\n"
+"⦿ To develop patience and avoid laziness.\n"
+"⦿ To resist consulting untrustworthy sources such as fortune tellers or mediums.\n"
+"⦿ To gain insight into one's own weaknesses and strengths.\n"
+"⦿ To avoid being deceived by dishonest people.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 11: (a) Outline four ways of promoting good relationships among family members.\n"
+"(b) State three reasons each for being obedient to (i) parents; (ii) teachers.\n"
+"(BECE 2017 Q7)",
+answer: "Correct Answer: (a) Ways of promoting good relationships among family members:\n"
+"⦿ Refer to Question 9(a) above (BECE 2014 Q7a).\n\n"
+"(b) Reasons for being obedient to parents and teachers:\n"
+"⦿ Refer to Question 3(a) above (BECE 2002 Q8a).",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 12: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
+"(BECE 2018 Q7)",
+answer: "Correct Answer: Four problems that may arise if parents and children refuse to perform their duties:\n"
+"⦿ Society as a whole suffers when parents and children neglect their responsibilities.\n"
+"⦿ Refusal to perform duties creates disagreement and division within the family.\n"
+"⦿ Parents and children who avoid their duties tend to grow lazy over time, which can spread resentment and hostility within the household.\n"
+"⦿ Neglecting family duties leaves parents and children disappointed and can become a burden on wider society.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 13: (a) List four factors that promote good family relationships.\n"
+"(b) Explain any four benefits of healthy relationships among family members.\n"
+"(BECE 2019 Q7)",
+answer: "Correct Answer: (a) Factors that promote good family relationships:\n"
+"⦿ Refer to Question 9(a) above (BECE 2014 Q7a).\n\n"
+"(b) Benefits of healthy relationships among family members:\n"
+"⦿ Refer to Question 9(b) above (BECE 2014 Q7b).",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 14: Identify four rules that are expected to be obeyed in your school.\n"
+"(BECE 2021 Q7a)",
+answer: "Correct Answer: Four rules that are expected to be obeyed in your school:\n"
+"⦿ Refer to Question 3(b) above (BECE 2002 Q8b).",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 15: (a) In what four ways can people from different religions co-exist peacefully?\n"
+"(b) State four importance of peaceful co-existence among people.\n"
+"(BECE 2022 Q7)",
+answer: "Correct Answer: (a) Ways people from different religions can co-exist peacefully:\n"
+"⦿ Positive engagement between groups: Different religious communities need to relate well with one another to maintain peace. Doing so helps them understand each other and prevents misunderstandings from disrupting unity.\n"
+"⦿ Joint sporting and social activities: Followers of Christianity, Islam and Traditional religion can organise shared events, such as football matches or games like oware and \"tag of peace\", to help members understand and relate to one another better.\n"
+"⦿ Mutual respect for each other's faith: Religious communities should value and honour one another's beliefs and customs, which helps maintain peace in the country.\n"
+"⦿ Tolerance of one another's practices: Religious groups should accept each other's beliefs and customs. For example, Christians tolerating the pouring of libation by Traditionalists as a form of worship helps maintain harmony.\n"
+"⦿ Joint participation in festivals: Communities should take part in one another's religious celebrations. For example, Muslims joining Christians for Christmas and Easter, and Christians joining Muslims for Eid celebrations, strengthens peaceful coexistence.\n"
+"⦿ Strengthening religious and moral education: Schools should give greater emphasis to Religious and Moral Education, helping pupils understand and appreciate the beliefs and practices of various religious groups.\n"
+"⦿ Encouraging interfaith relationships: People should be encouraged to build relationships and even marriages across religious lines, which helps promote coexistence.\n"
+"⦿ Using dialogue to resolve disagreements: Religious groups should discuss disputes openly, allowing all parties to be heard and their concerns addressed, so that peace can be restored.\n"
+"⦿ Ensuring beliefs are properly understood: Religious bodies should make sure their teachings and scriptures are correctly explained to followers, which improves understanding among different faiths.\n"
+"⦿ Coming together for community projects: Leaders of the various faiths should encourage joint participation in community labour, bringing Christians, Muslims and Traditionalists together and fostering peaceful coexistence.\n\n"
+"(b) Importance of peaceful coexistence:\n"
+"⦿ It fosters tolerance and peace throughout the country.\n"
+"⦿ It strengthens people's religious faith and conviction.\n"
+"⦿ It gives each religious group the chance to learn about and appreciate the others.\n"
+"⦿ It safeguards the rights of every group in the country.\n"
+"⦿ It provides people with mutual support and encouragement.\n"
+"⦿ It offers a sense of safety and security among the population.\n"
+"⦿ It contributes to the overall development of the nation.",
+explanation: ".",
+),    ],
+  ),
+  "Religious & Moral Education JHS1 s3 ss3 - Rights, Duties, and Religious Youth Organizations": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario:
-            "Question 2: (a) State four features of traditional religious homes.\n"
-            "(b) State four benefits that can be derived from interacting with members of other religions.\n"
-            "(BECE 2011 Q6)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Members learn about their religion together.\n"
-            "⦿ The extended family members live together.\n"
-            "⦿ Offering of libation and traditional religious sacrifice and divination are common.\n"
-            "⦿ Adult members of the family take care to ensure the religious and moral upbringing of the children.\n"
-            "⦿ Images and statues of gods and religious objects like charms and amulets are kept by members.\n"
-            "⦿ There are numerous taboos to be obeyed by members.\n"
-            "⦿ In the evening, the children group themselves up to listen to folk stories and folktales or sing songs and play games.\n"
-            "⦿ They also learn about their traditional customs and traditions.\n"
-            "⦿ Members in the traditional home live to help the needy.\n"
-            "⦿ Traditional religious festivals are celebrated in traditional homes and neighbourhoods.\n\n"
-            "Answer: (b)\n"
-            "⦿ It promotes peaceful coexistence, tolerance, and peace among people in the country.\n"
-            "⦿ It helps to strengthen religious faith in the country.\n"
-            "⦿ It provides an avenue to appreciate each other.\n"
-            "⦿ It brings about respect of the rights of all groups in the country.\n"
-            "⦿ It encourages support for each other.\n"
-            "⦿ It gives an assurance of safety among people.\n"
-            "⦿ It helps to ensure development in the country.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 3: (a) List four factors that promote good family relationship.\n"
-            "(b) Explain any four benefits/healthy relationship among family members.\n"
-            "(BECE 2014 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Being obedient to parents and grandparents.\n"
-            "⦿ Giving support to parents and grandparents.\n"
-            "⦿ Helping parents with household chores.\n"
-            "⦿ Learning to forgive one another.\n"
-            "⦿ Showing love, kindness, appreciation, and mercy to members of the household.\n"
-            "⦿ Showing respect to parents and elders in the household.\n"
-            "⦿ Allowing free and open discussions on issues before taking decisions.\n\n"
-            "Answer: (b)\n"
-            "⦿ It helps us to grow our relationships with God.\n"
-            "⦿ It promotes peace or harmony or obedience to God's commandment.\n"
-            "⦿ It promotes resource mobilizations.\n"
-            "⦿ It fulfils God's commandment and direction.\n"
-            "⦿ It promotes progress and development of the family.\n"
-            "⦿ Members are protected by each other.\n"
-            "⦿ The poor and elderly are supported financially by other family members.\n"
-            "⦿ It gives children a sense of belonging.\n"
-            "⦿ It brings unity among family members.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 4: (a) State any four duties a child must perform in the family.\n"
-            "(b) Explain any four reasons why an individual needs to constantly examine himself or herself.\n"
-            "(BECE 2016 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Running errands in the house.\n"
-            "⦿ Maintenance of home and performing household chores.\n"
-            "⦿ Assisting parents to undertake economic activities at home.\n"
-            "⦿ Taking care of younger siblings.\n"
-            "⦿ Obedience to parents and elders.\n"
-            "⦿ Reporting bad deeds of other siblings in the house and the society.\n\n"
-            "Answer: (b)\n"
-            "⦿ To avoid the repetition of the same mistakes.\n"
-            "⦿ To accept responsibility for your actions.\n"
-            "⦿ For avoidance of false accusations.\n"
-            "⦿ To build good and healthy relationships.\n"
-            "⦿ Regret one's bad deeds.\n"
-            "⦿ It helps to be law abiding and overcome poverty.\n"
-            "⦿ To avoid consultation with unnecessary mediums e.g. spiritualities, etc.\n"
-            "⦿ For the discovery of one's weakness and strengths.\n"
-            "⦿ To avoid deception by people with dubious characters.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
-            "(BECE 2018 Q7)",
-        answer: "Correct Answer:\n"
-            "⦿ The entire family suffers when parents and children refuse to perform their duties.\n"
-            "⦿ There will be disagreement, conflict, and disunity among family members if parents and children refuse to perform their duties.\n"
-            "⦿ Parents and children who refuse to perform their duties become standard-bearers of disappointment and a burden to the society.\n"
-            "⦿ When parents and children refuse to perform their duties, they become a liability to both old and young.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
-            "(b) State four importance of peaceful co-existence among people?\n"
-            "(BECE 2022 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Good interactions between them: People from different religious groups must interact well with each other to ensure peaceful co-existence among them. They should understand and relate well with each other to prevent any form of misunderstanding for peace and unity to prevail among them.\n"
-            "⦿ Organization of games and sports among religious groups: The followers of the religious groups in Ghana, namely Muslims, Christians, and Traditionalists, can organize inter-religious games such as football or indoor games like oware, ludo, \"tag of peace\", etc., to promote peaceful co-existence among them. This will enable them relate and understand themselves better.\n"
-            "⦿ Appreciating each other's religion: Religious groups in Ghana should respect and appreciate the beliefs and practices of each other. This will help to ensure peaceful co-existence among them.\n"
-            "⦿ Using dialogue to solve religious problems: Religious groups must use dialogue to settle religious problems in the country. This will enable the parties involved to fully take part in the process, listen to each order's concerns, and resolve the issues affecting them to bring peace in the country.\n"
-            "⦿ Proper interpretation of scriptures/religious beliefs: Religious groups should ensure that their scriptures or beliefs and practices are properly interpreted and explained to people. This will enhance understanding of religious beliefs and practices and promote harmonious living among religious groups in the country.\n"
-            "⦿ Coming together for communal labour/common project: Leaders of the religious groups should entreat their members to participate in communal labour in their areas. This brings Muslims and Christians, children, and family members to erase any misconception in their minds and appreciate each other's religious practices and beliefs.\n\n"
-            "Answer: (b)\n"
-            "⦿ Peaceful co-existence brings tolerance and peace among people in the country.\n"
-            "⦿ Peaceful co-existence among people helps to strengthen religious faith in the country.\n"
-            "⦿ Peaceful co-existence among people provides an avenue to appreciate each other.\n"
-            "⦿ Peaceful co-existence among people brings about respect of the rights of all groups in the country.\n"
-            "⦿ Peaceful co-existence among people encourages support for each other.\n"
-            "⦿ It also gives an assurance of safety among people.\n"
-            "⦿ Peaceful co-existence among people helps to ensure development in the country.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario: "Question 7: (a) Mention three school rules.\n"
-            "(b) Why are rules and regulations important in a school?\n"
-            "(BECE 1999 Q4)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Be punctual and regular at school.\n"
-            "⦿ Be obedient to school authorities.\n"
-            "⦿ Do their homework and present them at given times.\n"
-            "⦿ Pay part of all cleaning and other school exercises.\n"
-            "⦿ Protect school properties.\n"
-            "⦿ Comport themselves both on school compounds and in classroom.\n"
-            "⦿ Report bad behaviours to school authorities.\n"
-            "⦿ Dress decently during school hours.\n\n"
-            "Answer: (b)\n"
-            "⦿ They help to maintain law and order.\n"
-            "⦿ They guide people to work in unity.\n"
-            "⦿ They also help to reduce crime rate.\n"
-            "⦿ They help us to achieve goals and objectives.\n"
-            "⦿ They serve as checks to restrict people from doing bad things according to laid down rules and regulations.\n"
-            "⦿ In order to be successful in life.\n"
-            "⦿ To be accepted by the society.\n"
-            "⦿ To bring about national peace and discipline in the society.\n"
-            "⦿ In order to avoid punishment.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
-            "(b) Why is it necessary for you to perform these duties?\n"
-            "(BECE 2001 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Grown-up children should take care of younger ones.\n"
-            "⦿ Children must assist in household chores e.g. cooking, washing, etc.\n"
-            "⦿ Children must help their parents in their businesses.\n"
-            "⦿ Children are morally responsible to obey elderly people at home.\n"
-            "⦿ Participating in communal labour.\n"
-            "⦿ Fetching water and dishes.\n"
-            "⦿ Washing clothes and utensils.\n"
-            "⦿ Safely people in the community.\n"
-            "⦿ Children are responsible to submit to all religious values in the community.\n\n"
-            "Answer: (b)\n"
-            "⦿ To show respect for parents and elders.\n"
-            "⦿ To earn trust and favor.\n"
-            "⦿ To build good habits and character.\n"
-            "⦿ To ensure smooth running of the home and school environment.\n"
-            "⦿ To prepare for future adult responsibilities.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 9: (a) State four reasons why people avoid responsibilities.\n"
-            "(b) Explain four reasons why rules and regulations are important.\n"
-            "(BECE 2008 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Tiredness or difficulty.\n"
-            "⦿ People's bad influence.\n"
-            "⦿ Fear of criticism or confidence.\n"
-            "⦿ Pride.\n"
-            "⦿ Laziness.\n"
-            "⦿ Selfishness.\n"
-            "⦿ Fear of failure.\n\n"
-            "Answer: (b)\n"
-            "⦿ They help to maintain law and order.\n"
-            "⦿ They guide people to work in unity.\n"
-            "⦿ They also help to reduce crime rate.\n"
-            "⦿ They help us to achieve goals and objectives.\n"
-            "⦿ They serve as checks to restrict people from doing bad things according to laid down rules and regulations.\n"
-            "⦿ In order to be successful in life.\n"
-            "⦿ To be accepted by the society.\n"
-            "⦿ To bring about national peace and discipline in the society.\n"
-            "⦿ In order to avoid punishment.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 10: State five rules that govern behaviour in the classroom.\n"
-            "(BECE 2018 Q8)",
-        answer: "Correct Answer:\n"
-            "⦿ Do not steal or cheat in class.\n"
-            "⦿ Do not disturb or talk in class.\n"
-            "⦿ Do not fight in class.\n"
-            "⦿ Do not call out nicknames in class.\n"
-            "⦿ Do not sleep in class.\n"
-            "⦿ Do not insult a colleague in a classroom.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario: "Question 11: (a) What are Religious Youth Organizations?\n"
-            "(b) Mention any five functions of such youth organizations in youth community.\n"
-            "(BECE 1999 Q8)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Religious Youth Organizations are youth groups in religious bodies, denominations, or institutions set up to unite and see to the spiritual, moral, social and material welfare of the youth.\n"
-            "⦿ Examples of such Youth Organizations are: Boys and Girls Brigades (BB and GB), Young People's Guild (YPG), Catholic Youth Organization (CYO), Ahmadiyya Muslim Youth Organization (AMYO), Asafo Youth Movement.\n\n"
-            "Answer: (b)\n"
-            "⦿ It unearths creative qualities, skills, and talents in its members. For example, leadership skills.\n"
-            "⦿ A religious youth organization helps to promote the spirit of unity, co-operation, brotherliness, etc. among its members.\n"
-            "⦿ It helps to instruct members in the moral teachings in the religion under which they operate e.g. debates, quizzes and scripture study.\n"
-            "⦿ It assists its members to lead good moral lifestyles or lead good lives.\n"
-            "⦿ It provides a platform for its members to discuss their faith and well-being.\n"
-            "⦿ It encourages cultural development projects.\n"
-            "⦿ Its members assist the poor and the needy with financial and material resources.\n"
-            "⦿ Its members help to ensure peaceful co-existence among people.\n"
-            "⦿ They help to keep the environment clean by organizing clean-up exercises, e.g., communal labour, etc.\n"
-            "⦿ It provides the forum for discussing youth problems.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
-            "(BECE 2012 Q8)",
-        answer: "Correct Answer:\n"
-            "⦿ They bring the youth together to organize their social programs.\n"
-            "⦿ Their programs such as get-togethers, sports, and games help to encourage the youth to live in harmony as one people in the society.\n"
-            "⦿ They teach moral values such as love, truthfulness, patriotism, sincerity, etc. The youth are taught to accept acceptable social and moral values such as honesty, hard work, truthfulness, patriotism, sincerity, etc. This is done to prepare the youth to become morally upright and live responsibly in the society.\n"
-            "⦿ They incorporate the youth into the church.\n"
-            "⦿ They redirect the energy of the youth into positive work.\n"
-            "⦿ They teach the youth to acquire leadership skills.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
-            "(b) State four benefits of joining Religious Youth Organizations.\n"
-            "(BECE 2017 Q8)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ They bring the youth together to organize their social programs.\n"
-            "⦿ Their programs such as get-togethers, sports, and games help to encourage the youth to live in harmony as one people in the society.\n"
-            "⦿ They teach moral values such as love, truthfulness, patriotism, sincerity, etc.\n"
-            "⦿ They incorporate the youth into the church.\n"
-            "⦿ They redirect the energy of the youth into positive work.\n"
-            "⦿ They teach the youth to acquire leadership skills.\n\n"
-            "Answer: (b)\n"
-            "⦿ Religious tolerance and peaceful co-existence.\n"
-            "⦿ Self-confidence.\n"
-            "⦿ Leadership training.\n"
-            "⦿ Promotion of culture.\n"
-            "⦿ Proper use of leisure time.\n"
-            "⦿ Spiritual, physical, and health needs.\n"
-            "⦿ Moral values.",
-        explanation: ".",
-      )
+scenario:
+"Question 1: (a) Mention three school rules and three regulations at home.\n"
+"(b) Why are rules and regulations important?",
+answer: "Correct Answer: (a) School Rules:\n"
+"⦿ Learners are required to arrive on campus on time and maintain consistent daily attendance.\n"
+"⦿ Students must complete all assigned academic work and hand in tasks by the specified deadline.\n"
+"⦿ School property, furniture, and learning materials must be handled with care to prevent damage.\n\n"
+"Home Regulations:\n"
+"⦿ Domestic chores allocated to every family member must be executed with diligence.\n"
+"⦿ Children are expected to address parents, guardians, and elders with courtesy and respect.\n"
+"⦿ Household bedtimes must be strictly observed so everyone gets adequate rest.\n\n"
+"(b) Importance of Rules and Regulations:\n"
+"⦿ They establish an orderly framework that upholds law and maintains social discipline.\n"
+"⦿ They foster a harmonious environment by encouraging people to live and work together cooperatively.\n"
+"⦿ They reduce crime rates, curb misconduct, and protect individuals from harm within the community.\n"
+"⦿ They guide personal behavior, helping individuals recognize social boundaries and make responsible choices.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 2: (a) What are the responsibilities of a child in the home?\n"
+"(b) Why is it necessary for you to perform your responsibility?",
+answer: "Correct Answer: (a) Responsibilities of a Child in the Home:\n"
+"⦿ Supporting parents by looking after younger siblings and ensuring their safety.\n"
+"⦿ Performing routine domestic chores such as sweeping rooms, tidying up, and washing utensils.\n"
+"⦿ Carrying out errands given by parents and older family members willingly and promptly.\n"
+"⦿ Showing honour, deference, and obedience to parents and guardians at all times.\n"
+"⦿ Fetching domestic water supplies and keeping household surroundings clean.\n\n"
+"(b) Necessity of Performing Responsibilities:\n"
+"⦿ It demonstrates filial devotion, respect, and gratitude toward one's parents.\n"
+"⦿ It lightens the daily workload on parents, ensuring smooth running of the home.\n"
+"⦿ It builds personal character, self-discipline, and practical life skills for the child's future.\n"
+"⦿ It promotes family unity, peace, and mutual trust within the household.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 3: Explain the responsibilities of a child in the community.",
+answer: "Correct Answer: Responsibilities of a Child in the Community:\n"
+"⦿ Participating actively in communal labor projects, such as clearing overgrown brush and sweeping public areas.\n"
+"⦿ Maintaining environmental cleanliness by disposing of rubbish in designated bins and unblocking gutters.\n"
+"⦿ Showing politeness, deference, and courtesy to all community leaders and elders.\n"
+"⦿ Protecting public assets and infrastructure from vandalism or careless destruction.\n"
+"⦿ Safeguarding local water bodies, footpaths, and shared facilities against pollution and misuse.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 4: (a) What is human right?\n"
+"(b) Describe any three rights of the child can be protected.",
+answer: "Correct Answer: (a) Definition of Human Rights:\n"
+"⦿ Human rights are fundamental entitlements and freedoms inherent to every human being from birth, backed by legal standards to ensure dignity and justice.\n\n"
+"(b) Protection of Specific Rights of the Child:\n"
+"⦿ Right to Life: Every child possesses an inherent entitlement to exist. Laws strictly forbid unlawful harm or the termination of life, guaranteeing statutory protection from birth.\n"
+"⦿ Right to Education: Children have an absolute entitlement to formal learning. State policies mandate parents and guardians to enrol school-age children in educational institutions.\n"
+"⦿ Protection Against Abuse: Children are legally shielded from physical, emotional, or sexual exploitation, allowing child protection agencies to intervene whenever abuse occurs.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 5: (a) Explain five moral responsibilities of parents.\n"
+"(b) What four duties is a pupil expected to perform in school?",
+answer: "Correct Answer: (a) Moral Responsibilities of Parents:\n"
+"⦿ Providing wholesome food, safe shelter, and decent clothing to ensure the physical development of the child.\n"
+"⦿ Instilling sound moral values, social etiquette, and good character through consistent personal guidance.\n"
+"⦿ Securing access to quality formal education and supplying necessary instructional materials.\n"
+"⦿ Ensuring comprehensive healthcare, medical care, and proper protection against diseases.\n"
+"⦿ Offering emotional warmth, security, and constructive correction when a child misbehaves.\n\n"
+"(b) Duties Expected of a Pupil in School:\n"
+"⦿ Paying total attention during classroom lessons and completing all assigned coursework accurately.\n"
+"⦿ Participating cheerfully in school maintenance tasks, including sweeping and weeding the campus.\n"
+"⦿ Demonstrating respect toward school heads, teachers, prefects, and fellow students.\n"
+"⦿ Complying fully with institutional regulations, including attendance, dress codes, and code of conduct.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 6: (a) What are human rights?\n"
+"(b) Explain any five forms of human rights.",
+answer: "Correct Answer: (a) Definition of Human Rights:\n"
+"⦿ Human rights refer to the basic claims, privileges, and liberties to which every person is naturally entitled, ensuring that everyone lives with dignity, security, and equality.\n\n"
+"(b) Five Forms of Human Rights:\n"
+"⦿ Right to Life: The essential entitlement of every human being to live safely without fear of unlawful death or harm.\n"
+"⦿ Right to Education: The privilege enabling every individual to acquire knowledge, skills, and values through formal schooling.\n"
+"⦿ Right to Personal Liberty and Security: Freedom from arbitrary arrest, unlawful detention, or unsafe living conditions.\n"
+"⦿ Freedom of Speech and Expression: The liberty to share thoughts, express beliefs, and present views publicly within lawful boundaries.\n"
+"⦿ Freedom of Worship: The entitlement of every citizen to adopt, practice, or observe any spiritual faith or religion without persecution.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 7: (a) Mention any five classroom rules.\n"
+"(b) Give four reasons why rules and regulation are important.",
+answer: "Correct Answer: (a) Five Classroom Rules:\n"
+"⦿ Pupils must avoid unnecessary talking, loud chatter, or disruptive actions while lessons are underway.\n"
+"⦿ Classmates must show respect to one another and avoid verbal insults or physical fights.\n"
+"⦿ Students are required to maintain a tidy learning environment by keeping desks and floors clean.\n"
+"⦿ Academic dishonesty, including copying answers during tests or quizzes, is strictly forbidden.\n"
+"⦿ Learners must obtain formal approval from the teacher before stepping out of the classroom.\n\n"
+"(b) Importance of Rules and Regulations:\n"
+"⦿ They preserve order, structure, and academic focus within learning institutions.\n"
+"⦿ They safeguard students, teaching staff, and equipment from physical harm or damage.\n"
+"⦿ They cultivate personal discipline, accountability, and healthy habits essential for adulthood.\n"
+"⦿ They ensure fair treatment, justice, and equal opportunity for every student.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 8: (a) State four responsibilities of a child to the parents.\n"
+"(b) Give four reasons why people avoid responsibilities.",
+answer: "Correct Answer: (a) Four Responsibilities of a Child to Parents:\n"
+"⦿ Demonstrating respect, honor, and obedience to parental instructions and advice.\n"
+"⦿ Executing domestic tasks and errands promptly whenever requested by parents.\n"
+"⦿ Assisting with home chores like cooking, washing, sweeping, and fetching water.\n"
+"⦿ Assisting parents in running their family trade, business, or farm after school hours.\n\n"
+"(b) Four Reasons Why People Avoid Responsibilities:\n"
+"⦿ Laziness or an unwillingness to invest time and energy into performing assigned duties.\n"
+"⦿ Physical or mental fatigue, leading to low drive and poor commitment.\n"
+"⦿ Negative peer influence that encourages negligence, bad habits, and misconduct.\n"
+"⦿ Fear of failure or anxiety over being criticized if tasks are not performed perfectly.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 9: (a) What are human rights?\n"
+"(b) Explain any four of the human rights.",
+answer: "Correct Answer: (a) Definition of Human Rights:\n"
+"⦿ Human rights are essential liberties and legal protections inherent to all human beings from birth, designed to ensure fairness, freedom, and human dignity.\n\n"
+"(b) Four Human Rights Explained:\n"
+"⦿ Right to Life: The primary entitlement guaranteeing that no individual's life can be taken away unlawfully.\n"
+"⦿ Right to Equality Before the Law: The principle that every citizen receives identical legal protection and fair trial rights without discrimination.\n"
+"⦿ Right to Freedom of Movement: The liberty of every individual to travel unhindered across the nation and choose where to live.\n"
+"⦿ Right to Own Property: The legal entitlement enabling individuals to acquire, own, and protect private land or possessions.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 10: (a) State five rules that govern behaviour in the classroom.\n"
+"(b) Explain five reasons for which rules and regulations must be obeyed.",
+answer: "Correct Answer: (a) Five Rules Governing Classroom Behavior:\n"
+"⦿ Eating, chewing, or drinking during class presentations is strictly prohibited.\n"
+"⦿ Cheating, whispering, or using unauthorized notes during examinations is forbidden.\n"
+"⦿ Students must raise their hands and be recognized before contributing to discussions.\n"
+"⦿ Using abusive language, teasing, or mocking classmates is strictly disallowed.\n"
+"⦿ Learners must stay in their designated seats and stay focused throughout the instructional period.\n\n"
+"(b) Five Reasons Why Rules Must Be Obeyed:\n"
+"⦿ To foster an environment that maximizes teaching efficiency and academic success.\n"
+"⦿ To prevent conflict, misunderstanding, and chaotic behavior among individuals.\n"
+"⦿ To protect public facilities, instructional materials, and school assets from damage.\n"
+"⦿ To build mutual respect, safety, and social harmony within the wider community.\n"
+"⦿ To help individuals avoid disciplinary action, legal penalties, or formal punishment.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 11: (a) What are Religious Youth Organizations?\n"
+"(b) Mention any five functions of such youth organization in youth community.",
+answer: "Correct Answer: (a) Definition of Religious Youth Organizations:\n"
+"⦿ Religious Youth Organizations are organized groups formed within religious bodies or faith communities to unite young people for spiritual growth, moral development, social service, and leadership training.\n\n"
+"(b) Five Functions of Religious Youth Organizations:\n"
+"⦿ Discovering and honing creative talents and leadership potentials among young members.\n"
+"⦿ Instilling moral discipline, ethical behavior, and religious doctrines into young minds.\n"
+"⦿ Building strong fellowship, unity, and mutual support networks among youth.\n"
+"⦿ Organizing environmental sanitation exercises and community development projects.\n"
+"⦿ Conducting educational seminars, quizzes, and workshops to widen intellectual horizons.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 12: Explain the aim and functions of any one Youth Organization.",
+answer: "Correct Answer: Chosen Organization: Catholic Youth Organization (CYO)\n"
+"⦿ Aim: To organize Catholic youth into a united body, promoting spiritual maturity, moral living, and dedicated Christian service to the church and nation.\n\n"
+"Functions:\n"
+"⦿ Teaching young members Christian doctrines, scripture knowledge, and church traditions.\n"
+"⦿ Organizing voluntary community work, such as cleaning public institutions and aiding the needy.\n"
+"⦿ Training young people in practical leadership and civic responsibility through structured roles.\n"
+"⦿ Promoting healthy sports, recreational camping, and cultural activities for youth development.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 13: (a) Explain five functions of religious youth organizations.\n"
+"(b) What two problems do Religious Youth Organizations face?",
+answer: "Correct Answer: (a) Five Functions of Religious Youth Organizations:\n"
+"⦿ Providing a dedicated platform for young individuals to deepen their faith and spiritual life.\n"
+"⦿ Preparing young members to take up responsible leadership roles within the church and society.\n"
+"⦿ Protecting youth from engaging in social vices like drug abuse through moral education.\n"
+"⦿ Leading community clean-up initiatives to promote public health and hygiene.\n"
+"⦿ Extending charitable assistance, food items, and care to vulnerable community members.\n\n"
+"(b) Two Challenges Faced by Religious Youth Organizations:\n"
+"⦿ Severe financial constraints and limited funds to execute planned projects.\n"
+"⦿ Low commitment levels or irregular meeting attendance due to busy academic and work schedules.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 14: (a) Describe four activities of any religious youth organization.\n"
+"(b) Identify four benefits of joining a religious youth organization.",
+answer: "Correct Answer: (a) Four Activities of a Religious Youth Organization (e.g., Boys' and Girls' Brigade):\n"
+"⦿ Holding regular Bible study sessions, prayer hours, and devotions.\n"
+"⦿ Engaging in drill practices, physical fitness routines, and outdoor camps.\n"
+"⦿ Conducting public sanitation drives in medical facilities, markets, and streets.\n"
+"⦿ Executing evangelical campaigns, community outreach, and social welfare programs.\n\n"
+"(b) Four Benefits of Joining a Religious Youth Organization:\n"
+"⦿ Developing strong moral values, ethical character, and spiritual understanding.\n"
+"⦿ Acquiring practical skills in public speaking, decision-making, and leadership.\n"
+"⦿ Building positive, enduring friendships with disciplined and supportive peers.\n"
+"⦿ Utilizing spare time constructively while avoiding harmful social vices.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 15: (a) Outline four reasons why Religious Youth Organizations are formed.\n"
+"(b) State four benefits of joining Religious Youth Organizations.",
+answer: "Correct Answer: (a) Four Reasons for Forming Religious Youth Organizations:\n"
+"⦿ To mobilize young people for active involvement in religious and community duties.\n"
+"⦿ To shield youth from negative societal influences by grounding them in moral discipline.\n"
+"⦿ To groom young believers for future leadership responsibilities in civic and church affairs.\n"
+"⦿ To promote unity, love, and cooperation among young members of the faith.\n\n"
+"(b) Four Benefits of Membership:\n"
+"⦿ Access to practical opportunities for developing organizational and management abilities.\n"
+"⦿ Cultivation of personal integrity, honesty, and healthy self-confidence.\n"
+"⦿ Experiencing spiritual enrichment and acquiring a thorough understanding of faith principles.\n"
+"⦿ Receiving emotional support, mentorship, and guidance during personal difficulties.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 16: Describe four functions which Religious Youth Organizations perform in your community.",
+answer: "Correct Answer: Four functions which Religious Youth Organizations perform in the community:\n"
+"⦿ Promoting Moral Uprightness: They teach ethical values like honesty, respect, and discipline to keep youth away from crime and delinquency.\n"
+"⦿ Community Cleaning Services: They organize periodic clean-up exercises to clear choked drains and sweep public facilities like markets and health centers.\n"
+"⦿ Leadership Training: They offer practical leadership experience by appointing members to manage committee tasks, programs, and projects.\n"
+"⦿ Charity and Social Support: They provide relief items, financial assistance, and visitation to orphans, the elderly, and the sick.",
+explanation: ".",
+),
+
     ],
   ),
   "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": PracticeModel(

@@ -46492,481 +46492,1828 @@ explanation:
     audioPath: '',
     questions: [
       QuizQuestion(
-          question: "1. The main role of the father is to\n(BECE 2003 Q21)",
-          options: [
-            "Cook for the family",
-            "Make sure the children work",
-            "Make sure the water in the house is kept clean",
-            "Provide shelter for the family"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "One of the main responsibilities of a father is to provide shelter and other basic needs for the family."),
+question:
+"1. The payment of school fees and other bills is mainly the responsibility of the\n(BECE 2000 Q21)",
+options: ["Grandfather", "Mother", "Uncle", "Father"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Traditionally, the father is regarded as the main provider responsible for school fees and other major family expenses."),
+
+  QuizQuestion(
+      question:
+          "2. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
+      options: [
+        "The uncle inherits the father's property",
+        "The children are cared for by the members of the family",
+        "The old people are sent to old people's home",
+        "Girls become maidservants of their aunties"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In the extended family system, relatives support one another and help to care for children."),
+
+  QuizQuestion(
+      question:
+          "3. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
+      options: [
+        "That children attend school regularly",
+        "Good behaviour",
+        "Proper maintenance of school property",
+        "That children do their assignment"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "School rules and regulations mainly promote discipline and good behaviour among pupils."),
+
+  QuizQuestion(
+      question:
+          "4. The best way to live in peace in a community is to\n(BECE 2000 Q22)",
+      options: [
+        "Understand and co-operate with others",
+        "Disagree with your enemies",
+        "Proper maintenance of school property",
+        "Be afraid of those in authority"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperating with others promotes peaceful relationships in the community."),
+
+  QuizQuestion(
+      question:
+          "5. Conflicts in our society can best be resolved by\n(BECE 2000 Q33)",
+      options: [
+        "Entering into conflicts with neighbours",
+        "Obeying the scriptures",
+        "Being authoritative and proud",
+        "Tolerating and forgiving others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance and forgiveness help people settle disagreements and restore peaceful relationships."),
+
+  QuizQuestion(
+      question:
+          "6. One of the characteristics of the Traditional Religion is that it\n(BECE 2000 Q34)",
+      options: [
+        "Originated from the Far East",
+        "Regards God and Jesus as the centre of worship",
+        "Was established by a powerful African",
+        "Has no written document"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion has historically been passed on mainly through oral tradition rather than a single written scripture."),
+
+  QuizQuestion(
+      question:
+          "7. One can promote relationship and peaceful living by being\n(BECE 2001 Q6)",
+      options: [
+        "Violent and respectful",
+        "Respectful and obedient",
+        "Helpful to relatives",
+        "Kind and vocal"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect and obedience promote good relationships and peaceful living."),
+
+  QuizQuestion(
+      question:
+          "8. Which of the following does not promote progress in a society?\n(BECE 2001 Q22)",
+      options: ["Conflicts", "Reconciliation", "Communal labour", "Confession"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Conflicts can disrupt unity and development, while reconciliation and cooperation promote progress."),
+
+  QuizQuestion(
+      question:
+          "9. Kofi's father is Ewe and his mother is Fante. Which of the following statements about Kofi is true?\n(BECE 2001 Q23)",
+      options: [
+        "He belongs to the father's clan only",
+        "He belongs to the mother's clan only",
+        "He belongs to both the father's and the mother's clan",
+        "He cannot inherit his father or mother"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Kofi has family connections through both his father's and mother's families."),
+
+  QuizQuestion(
+      question:
+          "10. Conflicts develop among us through\n(BECE 2001 Q25)",
+      options: [
+        "Good neighbourliness",
+        "Ambition",
+        "Laziness",
+        "Misunderstanding"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Misunderstanding between individuals or groups is a common cause of conflict."),
+
+  QuizQuestion(
+      question:
+          "11. Obedience to the laws of the state can make us\n(BECE 2001 Q25)",
+      options: [
+        "Fearful and honest citizens",
+        "Gentle and loving citizens",
+        "Simple and God-fearing citizens",
+        "Patriotic and good citizens"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Citizens who obey the laws contribute positively to society and demonstrate patriotism."),
+
+  QuizQuestion(
+      question:
+          "12. The extended family meets often to\n(BECE 2001 Q31)",
+      options: [
+        "Name a new-born baby",
+        "Share family property",
+        "Select a new chief",
+        "Elect the head of the family"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended family meetings may be held to discuss important family matters, including the sharing and management of family property."),
+
+  QuizQuestion(
+      question:
+          "13. In order to live in harmony with family members, we must be\n(BECE 2002A Q25)",
+      options: [
+        "Talking to our enemies",
+        "Ignoring trouble makers",
+        "Going to the court",
+        "Settling our differences peacefully"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peaceful settlement of disagreements promotes harmony within the family."),
+
+  QuizQuestion(
+      question:
+          "14. In a matrilineal home, the head of the family is\n(BECE 2002A Q23)",
+      options: ["Father", "Aunt", "Uncle", "Mother"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "In many matrilineal family systems, the mother's brother plays the role of family head."),
+
+  QuizQuestion(
+      question:
+          "15. We can avoid conflicts in our community by\n(BECE 2002A Q25)",
+      options: [
+        "Talking to our enemies",
+        "Ignoring trouble makers",
+        "Going to the court",
+        "Settling our differences peacefully"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peacefully settling differences helps prevent disagreements from developing into serious conflicts."),
+
+  QuizQuestion(
+      question:
+          "16. We show total obedience to God by\n(BECE 2002B Q18)",
+      options: [
+        "Reading the Bible",
+        "Doing His will",
+        "Going to church",
+        "Reciting the Lord's prayer"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "True obedience to God involves doing what He commands and following His will."),
+
+  QuizQuestion(
+      question:
+          "17. School rules are obeyed in order to\n(BECE 2002B Q21)",
+      options: [
+        "Achieve success in sports",
+        "Have good people in the community",
+        "Promote peace in the community",
+        "Achieve distinctions in examination"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "School rules help train pupils to become disciplined and responsible members of society."),
+
+  QuizQuestion(
+      question:
+          "18. Whose duty is it to provide shelter to the family?\n(BECE 2002B Q22)",
+      options: ["Father", "Uncle", "Aunt", "Mother"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, providing shelter is mainly the father's responsibility."),
+
+  QuizQuestion(
+      question:
+          "19. The extended family system consists of\n(BECE 2002B Q24)",
+      options: [
+        "Children and other relations",
+        "Grandchildren and other parents",
+        "Grandchildren, children and other parents",
+        "Parents, children and other relations"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An extended family includes parents, their children and other relatives."),
+
+  QuizQuestion(
+      question:
+          "20. The purpose of school rules and regulations is to\n(BECE 2003 Q21)",
+      options: [
+        "Get pupils punished",
+        "Encourage pupils to become good pastors",
+        "Promote good conditions for work",
+        "Reward obedient pupils"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Rules and regulations create an orderly environment that supports effective teaching and learning."),
+
+  QuizQuestion(
+      question:
+          "21. The basic role of the father is to\n(BECE 2003 Q21)",
+      options: [
+        "Cook for the family",
+        "Make sure the children work",
+        "Make sure the water is in the house",
+        "Provide shelter for the family"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, the father is responsible for providing basic needs such as shelter."),
+
+  QuizQuestion(
+      question:
+          "22. The nuclear family system consists of\n(BECE 2003 Q23)",
+      options: [
+        "Parents and grandchildren",
+        "Children and parents",
+        "Parents, children and other relations",
+        "Grandchildren and children"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "23. Broken homes may lead to all the following except\n(BECE 2004 Q34)",
+      options: [
+        "Miscarriage",
+        "Substance abuse",
+        "Teenage pregnancy",
+        "Truancy"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Substance abuse, teenage pregnancy and truancy may be associated with family instability, while miscarriage is not normally presented as a direct social effect of a broken home."),
+
+  QuizQuestion(
+      question:
+          "24. One of the advantages of the extended family system is that\n(BECE 2006 Q32)",
+      options: [
+        "Parents can give sufficient attention to their children",
+        "An uncle inherits a father's property",
+        "The extended family sustains society",
+        "Parents are capable of providing the need of the family"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The extended family supports social stability through cooperation and mutual assistance among relatives."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following factors best helps in promoting good family relationship?\n(BECE 2006 Q30)",
+      options: [
+        "Boys and girls being sent to school equally",
+        "Staying with other relatives",
+        "Competing among children",
+        "Favouring one child over another"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Treating boys and girls fairly and giving them equal opportunities promotes healthy family relationships."),
+
+  QuizQuestion(
+      question:
+          "26. Household chores are done mainly by\n(BECE 2007 Q26)",
+      options: ["Grandmother", "Mother", "Father", "Children"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Children are expected to assist the family by carrying out appropriate household chores."),
+
+  QuizQuestion(
+      question:
+          "27. To promote peaceful living in the home, decisions should be taken by\n(BECE 2007 Q29)",
+      options: [
+        "The father alone",
+        "The mother alone",
+        "Only the father and mother",
+        "Father, mother and children together"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Involving family members in decisions encourages cooperation, understanding and peaceful living."),
+
+  QuizQuestion(
+      question:
+          "28. In the family system, an aunt is\n(BECE 2009 Q22)",
+      options: [
+        "A grandparent's sister",
+        "A brother's sister",
+        "An uncle's sister",
+        "A father or a mother's sister"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An aunt is the sister of one's father or mother."),
+
+  QuizQuestion(
+      question:
+          "29. School rules are meant to ensure\n(BECE 2009 Q30)",
+      options: [
+        "Punishment for school children",
+        "Patriotism among children",
+        "Competition among children",
+        "Good behaviour of children"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "School rules promote discipline and good behaviour among pupils."),
+
+  QuizQuestion(
+      question:
+          "30. Rules and regulations of the family are meant to ensure\n(BECE 2009 Q34)",
+      options: ["Discipline", "Patriotism", "Success", "Victory"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Family rules and regulations promote discipline and orderly behaviour."),
+
+  QuizQuestion(
+      question:
+          "31. Children who are obedient and live a good moral life in the society are\n(BECE 2011 Q31)",
+      options: [
+        "Praised by others",
+        "Envied by others",
+        "Sent to be smart at school",
+        "Known to challenge the elderly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children who demonstrate obedience and good morals are generally respected and praised by society."),
+
+  QuizQuestion(
+      question:
+          "32. Rules and regulations of the country need to be obeyed in order to\n(BECE 2012 Q34)",
+      options: [
+        "Promote the formation of political parties",
+        "Promote peaceful co-existence",
+        "Stop rivalry among political parties",
+        "Save people from imprisonment"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect for laws and regulations helps maintain order and peaceful coexistence."),
+
+  QuizQuestion(
+      question:
+          "33. A common practice at night in traditional homes is to\n(BECE 2013 Q24)",
+      options: [
+        "Pour libation",
+        "Tell stories",
+        "Feed the dogs",
+        "Visit the stool room"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Storytelling is a common traditional evening activity used for entertainment and moral education."),
+
+  QuizQuestion(
+      question:
+          "34. Running errands for the elderly portrays that a child is\n(BECE 2012 Q36)",
+      options: ["Obedient", "Sincere", "Strong", "Truthful"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A child who willingly runs errands for elders demonstrates obedience."),
+
+  QuizQuestion(
+      question:
+          "35. Carrying out instructions given by the elderly shows that one is\n(BECE 2012 Q37)",
+      options: ["Respectful", "Sincere", "Strong", "Truthful"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Following the instructions of elders demonstrates respect for them."),
+
+  QuizQuestion(
+      question:
+          "36. Social conflicts can best be resolved by\n(BECE 2013 Q37)",
+      options: [
+        "Obeying the scriptures",
+        "Being principled and humble",
+        "Being authoritative and principled",
+        "Tolerating and forgiving"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance and forgiveness help conflicting parties reconcile peacefully."),
+
+  QuizQuestion(
+      question:
+          "37. Respectful children are always\n(BECE 2013 Q37)",
+      options: [
+        "Good in sports",
+        "Intelligent in school",
+        "Decently dressed",
+        "Accepted by society"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Respectful behaviour makes children more likely to be appreciated and accepted by society."),
+
+  QuizQuestion(
+      question:
+          "38. A common errand run by a child at night is\n(BECE 2013 Q25)",
+      options: [
+        "Story telling",
+        "Pouring of libation",
+        "Feeding the dogs",
+        "Visiting the stool room"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Feeding household animals such as dogs can be an evening responsibility assigned to children."),
+
+  QuizQuestion(
+      question:
+          "39. By respecting other people's religion we are\n(BECE 2014 Q29)",
+      options: [
+        "Showing commitment to God",
+        "Showing religious tolerance",
+        "Practising religious obedience",
+        "Accepted by society"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respecting the beliefs and practices of other religions demonstrates religious tolerance."),
+
+  QuizQuestion(
+      question:
+          "40. One of the advantages of the extended family is that it\n(BECE 2014 Q37)",
+      options: [
+        "Enriches tolerance",
+        "Promotes peace",
+        "Creates wealth",
+        "Promotes security"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Members of the extended family provide support and protection for one another, promoting social security."),
+
+  QuizQuestion(
+      question:
+          "41. People cherish the spirit of obedience because it\n(BECE 2014 Q37)",
+      options: [
+        "Imputes blessing and goodwill from God",
+        "Is persistent quarrelling on a few rich people",
+        "Means having little privacy for its members",
+        "Means over-reliance on a few rich people"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Obedience is valued because it is associated with receiving blessings, goodwill and approval from God and society."),
+
+  QuizQuestion(
+      question:
+          "42. Individuals can co-exist peacefully in a community if they practise\n(BECE 2015 Q24)",
+      options: [
+        "Repentance and forgiveness",
+        "Peaceful co-existence",
+        "Success in examination",
+        "Family and hard work"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Repentance and forgiveness help people repair relationships and live together peacefully."),
+
+  QuizQuestion(
+      question:
+          "43. Showing respect and obedience to school authority ensures\n(BECE 2015 Q24)",
+      options: [
+        "Repentance and forgiveness",
+        "Peaceful co-existence",
+        "Success in examination",
+        "Family and hard work"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Respect and obedience to school authorities promote order and peaceful coexistence within the school."),
+
+  QuizQuestion(
+      question:
+          "44. A nuclear family begins when\n(BECE 2015 Q33)",
+      options: [
+        "Parents live with siblings",
+        "Relatives live together",
+        "Siblings share property",
+        "A couple gets legally married"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family begins with a married couple and may later include their children."),
+
+  QuizQuestion(
+      question:
+          "45. Running errands for those in authority portrays the child to be\n(BECE 2016 Q32)",
+      options: ["Humble", "Obedient", "Honest", "Sincere"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Willingly carrying out instructions and errands demonstrates obedience."),
+
+  QuizQuestion(
+      question:
+          "46. By respecting other people's religion we are\n(BECE 2016 Q32)",
+      options: ["Polite", "Showing religious tolerance", "Faithful", "Sincere"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect for the beliefs and practices of others is an example of religious tolerance."),
+
+  QuizQuestion(
+      question:
+          "47. A family made up of a father, mother and children is described as\n(BECE 2016 Q4)",
+      options: [
+        "Extended family",
+        "Monogamous family",
+        "Nuclear family",
+        "Polygamous family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "48. People cherish the spirit of obedience because it\n(BECE 2016)",
+      options: [
+        "Enhances tolerance",
+        "Creates wealth",
+        "Promotes wealth",
+        "Promotes peace"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Obedience to appropriate rules and authority helps maintain order and promotes peace."),
+
+  QuizQuestion(
+      question:
+          "49. The maintenance of law and order in the nuclear family is the responsibility of the\n(BECE 2017 Q30)",
+      options: ["Aunts", "Parents", "Grandparents", "Children"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Parents are primarily responsible for setting and enforcing rules in the nuclear family."),
+
+  QuizQuestion(
+      question:
+          "50. One advantage of the extended family over the nuclear family is\n(BECE 2017 Q29)",
+      options: [
+        "Having little privacy for its members",
+        "Opportunity to associate with more people",
+        "Over-reliance on a few rich people",
+        "Persistent quarrelling in the family"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The extended family provides opportunities to interact and build relationships with a larger number of relatives."),
+
+  QuizQuestion(
+      question:
+          "51. A home where family members learn their religion through oral sources is known as\n(BECE 2018 Q31)",
+      options: ["Christianity", "Islamic", "Traditional", "Jewish"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion is largely transmitted through oral traditions, customs and practices."),
+
+  QuizQuestion(
+      question:
+          "52. A father shows commitment to the family by\n(BECE 2018 Q35)",
+      options: [
+        "Being punctual at work and helping others",
+        "Travelling often and staying outside the home",
+        "Being steadfast at prayers and worship",
+        "Treating all dependants with patience and tolerance"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Treating dependants patiently, fairly and responsibly demonstrates commitment to the wellbeing of the family."),
+
+  QuizQuestion(
+      question:
+          "53. The nuclear family system consists of\n(BECE 2019 Q32)",
+      options: [
+        "Parents and grandchildren",
+        "Parents and cousins",
+        "Parents and children",
+        "Siblings and cousins"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "54. Which of the following statements is not true about the extended family system?\n(BECE 2019 Q34)",
+      options: [
+        "Parents, children and uncles are members",
+        "Grandparents, nephews and children are members",
+        "Parents and children only are members",
+        "Grandchildren, nephews and uncles are members"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A family made up only of parents and their children is a nuclear family, not an extended family."),
+
+  QuizQuestion(
+      question:
+          "55. The ummah is the Islamic\n(BECE 2017 Q34)",
+      options: ["Community", "Congregation", "Divorce", "Scholar"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ummah refers to the worldwide community of Muslims."),
+
+  QuizQuestion(
+      question:
+          "56. A child who refuses to play with bad friends is said to be\n(BECE 2017 Q34)",
+      options: ["Obedient", "Faithful", "Polite", "Sincere"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Avoiding bad company can demonstrate obedience to good moral instructions from parents and elders."),
+
+  QuizQuestion(
+      question:
+          "57. At the mother's home, the child is responsible for\n(BECE 2019 Q40)",
+      options: [
+        "The cleaning of the house",
+        "The payment of bills",
+        "The upkeep of the mother",
+        "Punishing of siblings"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children are expected to assist with appropriate household duties such as cleaning the home."),
+
+  QuizQuestion(
+      question:
+          "58. All members of the extended family come from\n(BECE 2019 2020 Q40)",
+      options: [
+        "The same father",
+        "The same clan",
+        "The same town",
+        "The same mother"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended family members are connected through common ancestry and may belong to the same clan."),
+
+  QuizQuestion(
+      question:
+          "59. Rules and regulations are meant to ensure\n(BECE 2021 Q6)",
+      options: ["Discipline", "Love", "Omniscience", "Victory"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Rules and regulations guide behaviour and help maintain discipline."),
+
+  QuizQuestion(
+      question:
+          "60. Shrines in traditional neighbourhoods are used\n(BECE 2020 Q36)",
+      options: [
+        "As residences of chiefs",
+        "For prayers and consultations",
+        "For the sale of herbs",
+        "For settlement of disputes"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Traditional shrines are sacred places where worshippers pray and consult priests or spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "61. Healthy relationship among family members promotes\n(BECE 2021 Q2)",
+      options: [
+        "Development in the community",
+        "Fulfilment of God's commandment",
+        "Success in academic activities",
+        "Spiritual and moral development"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A healthy family relationship provides an environment in which good moral and spiritual values can be taught and developed."),
+
+  QuizQuestion(
+      question:
+          "62. The Gye Nyame symbol represents\n(BECE 2021 Q6)",
+      options: ["Kindness", "Love", "Omniscience", "Victory"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The supplied options appear mismatched. Gye Nyame traditionally expresses the supremacy and omnipotence of God, but none of the listed choices states this meaning."),
+
+  QuizQuestion(
+      question:
+          "63. To become a successful leader, one must learn to be\n(BECE 2021 Q40)",
+      options: [
+        "Literate",
+        "Tolerant",
+        "Highly religious",
+        "Very complacent"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance enables a leader to respect different views and work peacefully with others."),
+
+  QuizQuestion(
+      question:
+          "64. Ghanaians can live together peacefully if they\n(BECE 2021 Q1)",
+      options: [
+        "Avoid inter-ethnic marriages",
+        "Practise religious tolerance",
+        "Pray very often",
+        "Speak the truth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Religious tolerance encourages people of different faiths to respect one another and coexist peacefully."),
+
+  QuizQuestion(
+      question:
+          "65. To cut down on funeral expenses, the family must\n(BECE 2022 Q39)",
+      options: [
+        "Bury the corpse as early as possible",
+        "Make morticians run errands",
+        "Help in the preparation of meals",
+        "Provide shelter and clothing"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Family members can reduce funeral costs by helping with tasks such as preparing meals instead of paying for all services."),
+
+  QuizQuestion(
+      question:
+          "66. A person who relates well with his or her peers is the one who\n(BECE 2023 Q6)",
+      options: [
+        "Respects only the elders",
+        "Is smart and cunning",
+        "Plays around with his or her peers",
+        "Obeys instructions willingly"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Willingness to cooperate and follow appropriate instructions supports good relationships with others."),
+    ],
+  ),
+  "Religious & Moral Education JHS1 s3 ss3 - Rights, Duties, and Religious Youth Organizations": QuizModel(
+    audioPath: '',
+    questions: [
       QuizQuestion(
-          question:
-              "2. Social conflicts can best be resolved by\n(BECE 2012 Q36)",
-          options: [
-            "Obeying the scriptures",
-            "Being principled and humble",
-            "Being authoritative and principled",
-            "Tolerating and forgiving others"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Tolerance and forgiveness help people settle disagreements peacefully and restore good relationships."),
-      QuizQuestion(
-          question:
-              "3. The payment of school fees and other bills is mainly the responsibility of the\n(BECE 2000 Q21)",
-          options: ["Grandfather", "Mother", "Uncle", "Father"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Traditionally, the father is mainly responsible for providing the financial needs of the family."),
-      QuizQuestion(
-          question:
-              "4. The best way to live in peace in a community is to\n(BECE 2000 Q33)",
-          options: [
-            "Understand and cooperate with others",
-            "Disagree with your enemies",
-            "Be afraid of those in authority",
-            "Enter into conflicts with neighbours"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Understanding and cooperating with others promote peaceful and harmonious community life."),
-      QuizQuestion(
-          question:
-              "5. A child who refuses to play with bad friends is said to be\n(BECE 2017 Q34)",
-          options: ["Faithful", "Obedient", "Polite", "Sincere"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Avoiding bad company shows obedience to good moral instruction from parents and other responsible adults."),
-      QuizQuestion(
-          question:
-              "6. Which of the following is an advantage of the extended family?\n(BECE 2017 Q24)",
-          options: [
-            "Members have privacy",
-            "It provides security for its members",
-            "Over-reliance on a few rich people",
-            "Persistence of disputes"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The extended family provides support, care and security for its members."),
-      QuizQuestion(
-          question:
-              "7. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
-          options: [
-            "The uncle inherits the father's property",
-            "The children are cared for by members of the family",
-            "Old people are sent to old people's homes",
-            "Girls become maidservants of their aunties"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Members of the extended family share responsibility for caring for children."),
-      QuizQuestion(
-          question:
-              "8. The maintenance of law and order in the nuclear family is the responsibility of\n(BECE 2017 Q30)",
-          options: ["Parents", "Grandparents", "Children", "A diviner"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Parents establish and enforce rules that maintain order and discipline in the nuclear family."),
-      QuizQuestion(
-          question:
-              "9. One can promote good relationships and peaceful living by being\n(BECE 2001 Q6)",
-          options: [
-            "Violent and respectful",
-            "Respectful and obedient",
-            "Helpful only to relatives",
-            "Kind and vocal"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Respect and obedience promote cooperation, harmony and peaceful relationships."),
-      QuizQuestion(
-          question:
-              "10. In order to live in harmony with family members, we must be\n(BECE 2012 Q37)",
-          options: ["Brave", "Courageous", "Dutiful", "Faithful"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Being dutiful means carrying out one's responsibilities, which helps the family live in harmony."),
-      QuizQuestion(
-          question:
-              "11. A child who apologizes for committing an offence is said to be\n(BECE 2011 Q28)",
-          options: ["Knowledgeable", "Intelligent", "Law-abiding", "Obedient"],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Apologizing after wrongdoing shows obedience, humility and willingness to correct one's behaviour."),
-      QuizQuestion(
-          question:
-              "12. Conflicts in our society can best be resolved by\n(BECE 2000 Q34)",
-          options: [
-            "Being obedient to truants",
-            "Obeying the scriptures",
-            "Being authoritative and proud",
-            "Tolerating and forgiving others"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Tolerance and forgiveness are important values for resolving conflicts peacefully."),
-      QuizQuestion(
-          question:
-              "13. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
-          options: [
-            "That children attend school regularly",
-            "Good behaviour",
-            "Proper maintenance of school property",
-            "That children do their assignments"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "School rules guide pupils toward good behaviour and discipline."),
-      QuizQuestion(
-          question:
-              "14. Children who are obedient and live a good life are\n(BECE 2011 Q31)",
-          options: [
-            "A joy to society",
-            "Praised by all people",
-            "Known to be sent to school",
-            "Sent to the elderly"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Obedient and morally upright children contribute positively to society."),
-      QuizQuestion(
-          question: "15. School rules are obeyed in order to\n(BECE 2008 Q28)",
-          options: [
-            "Achieve success in sports",
-            "Have good people in the community",
-            "Promote peace in the school",
-            "Achieve distinctions in examinations"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Obeying school rules promotes discipline, order and peace within the school."),
-      QuizQuestion(
-          question:
-              "16. Which of the following does not promote progress in a society?\n(BECE 2001 Q21)",
-          options: ["Conflicts", "Reconciliation", "Respect", "Tolerance"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Conflict disrupts unity and development, while reconciliation, respect and tolerance promote progress."),
-      QuizQuestion(
-          question:
-              "17. The purpose of school rules and regulations is to\n(BECE 2003 Q21)",
-          options: [
-            "Get pupils punished",
-            "Encourage people to become good citizens",
-            "Create good conditions for work",
-            "Reward obedient pupils"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "School rules create an orderly and disciplined environment that supports teaching and learning."),
-      QuizQuestion(
-          question:
-              "18. The nuclear family system consists of\n(BECE 2003 Q23)",
-          options: [
-            "Parents and grandchildren",
-            "Children and parents",
-            "Uncles, aunts, children and other relations",
-            "Grandparents, children and parents"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "A nuclear family consists mainly of parents and their children."),
-      QuizQuestion(
-          question:
-              "19. To live a life of obedience means being\n(BECE 2004 Q21)",
-          options: [
-            "Gentle, loving and generous",
-            "Respectful to parents",
-            "An honest and generous person",
-            "Respectful to others"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Obedience includes respecting and following the lawful instructions of parents."),
-      QuizQuestion(
-          question:
-              "20. Which of the following is not true about the nuclear family?\n(BECE 2018 Q30)",
-          options: [
-            "Parents, children and grandparents are members",
-            "Parents and children are members",
-            "Siblings and cousins are members",
-            "Grandparents, parents and other relatives are members"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Cousins belong to the extended family rather than the nuclear family."),
-      QuizQuestion(
-          question:
-              "21. Running errands for those in authority portrays the child as\n(BECE 2017 Q34)",
-          options: ["Honest", "Humble", "Obedient", "Sincere"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Carrying out lawful instructions and errands shows obedience."),
-      QuizQuestion(
-          question:
-              "22. A father shows commitment to the family by\n(BECE 2011 Q28)",
-          options: [
-            "Being punctual at work and helping others",
-            "Travelling with his wife outside the country",
-            "Being steadfast in prayers and sacrifices",
-            "Treating all dependants with patience and tolerance"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "A committed father cares for all family dependants with patience, fairness and tolerance."),
-      QuizQuestion(
-          question:
-              "23. Carrying out instructions given by the elderly shows that one is\n(BECE 2012 Q36)",
-          options: ["Obedient", "Sincere", "Strong", "Truthful"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Following lawful instructions from the elderly is a sign of obedience."),
-      QuizQuestion(
-          question:
-              "24. A family made up of a father, mother and grandparents is described as an\n(BECE 2016 Q21)",
-          options: [
-            "Extended family",
-            "Monogamous family",
-            "Nuclear family",
-            "Polygamous family"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "The inclusion of grandparents makes it an extended family."),
-      QuizQuestion(
-          question:
-              "25. A home where members learn their religion through oral sources is known as a\n(BECE 2018 Q29)",
-          options: [
-            "Christian home",
-            "Islamic home",
-            "Traditional home",
-            "Jewish home"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Traditional religion is mainly transmitted orally through stories, songs, proverbs and customs."),
-      QuizQuestion(
-          question:
-              "26. One of a child's responsibilities in the home is to\n(BECE 1999 Q30)",
-          options: [
-            "Sweep the compound",
-            "Provide his or her clothing",
-            "Pay school fees",
-            "Pay hospital fees"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Children can contribute to household cleanliness by sweeping the compound."),
-      QuizQuestion(
-          question:
-              "27. Human rights include all the following except\n(BECE 2000 Q27)",
-          options: [
-            "The right to life",
-            "Freedom of association",
-            "Freedom of worship",
-            "Administering instant justice"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Administering instant justice is not a human right and may violate lawful procedures."),
-      QuizQuestion(
-          question:
-              "28. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
-          options: [
-            "Work harder for it",
-            "Become democratic",
-            "Develop good skills in it",
-            "Build good and happy homes"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Love for the community encourages people to work hard for its progress and development."),
-      QuizQuestion(
-          question:
-              "29. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
-          options: [
-            "National Commission on Children",
-            "National Council for Women and Development",
-            "Commission on Human Rights and Administrative Justice",
-            "National Commission for Civic Education"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The Commission on Human Rights and Administrative Justice handles human-rights and administrative-justice matters in Ghana."),
-      QuizQuestion(
-          question:
-              "30. Which of the following does not constitute a moral responsibility of a child?\n(BECE 2001 Q38)",
-          options: [
-            "Sweeping the classroom",
-            "Working on his or her plot",
-            "Worshipping God",
-            "Paying school fees"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Paying school fees is mainly the responsibility of parents or guardians."),
-      QuizQuestion(
-          question:
-              "31. What contribution can a child make when a community school is being built?\n(BECE 2001 Q39)",
-          options: [
-            "Roofing the building",
-            "Fetching water and sand",
-            "Drawing up the building plan",
-            "Cheering the workers with songs"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Fetching water and sand is a safe and practical way a child can support a community building project."),
-      QuizQuestion(
-          question: "32. A patriotic citizen is a person who\n(BECE 2005 Q40)",
-          options: [
-            "Always helps the family",
-            "Practises personal hygiene",
-            "Always defends the nation",
-            "Always worships the Creator"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Patriotism involves loyalty to and willingness to defend one's country."),
-      QuizQuestion(
-          question:
-              "33. As a child, your duties include all these except\n(BECE 2006 Q34)",
-          options: [
-            "Fetching water",
-            "Weeding the compound",
-            "Preparing meals",
-            "Paying fees"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Paying school fees is normally the responsibility of parents or guardians."),
-      QuizQuestion(
-          question: "34. One who loves his or her country\n(BECE 2007 Q31)",
-          options: [
-            "Always helps the needy",
-            "Practises personal hygiene",
-            "Defends the nation",
-            "Always worships God"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "A patriotic person demonstrates love and loyalty by defending and supporting the nation."),
-      QuizQuestion(
-          question:
-              "35. The best way to live in peace in a community is to\n(BECE 2012 Q31)",
-          options: [
-            "Sit on the fence",
-            "Keep to oneself always",
-            "Understand and cooperate with others",
-            "Enter into conflict with neighbours"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Understanding and cooperation help prevent conflict and promote peaceful coexistence."),
-      QuizQuestion(
-          question:
-              "36. Youth camps are organized purposely for the youth to\n(BECE 1999 Q27)",
-          options: [
-            "Fend for themselves",
-            "Find their parents",
-            "Learn to socialize",
-            "Run away from household chores"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Youth camps help young people interact, cooperate and develop social skills."),
-      QuizQuestion(
-          question:
-              "37. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
-          options: [
-            "Serving God and the nation",
-            "Leading a disciplined life",
-            "Being law-abiding",
-            "Using violence to demand rights"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Religious youth organizations promote discipline and peaceful conduct, not violence."),
-      QuizQuestion(
-          question:
-              "38. One important aim of a youth organization is to\n(BECE 2000 Q29)",
-          options: [
-            "Bring unity among the youth",
-            "Learn dancing and merry-making",
-            "Let the youth live on their own and look for jobs",
-            "Oppose the views of the elderly"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Youth organizations promote unity, cooperation and fellowship among young people."),
-      QuizQuestion(
-          question:
-              "39. One good reason for the establishment of the Catholic Youth Organization is to\n(BECE 2005 Q15)",
-          options: [
-            "Serve as soldiers to defend the church",
-            "Foster unity among priests",
-            "Perform cultural dances in the church",
-            "Teach the youth about the traditions of the church"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "The Catholic Youth Organization helps young Catholics learn the teachings, values and traditions of the Church."),
-      QuizQuestion(
-          question:
-              "40. The spirit of patriotism is shown best by the youth of the\n(BECE 2009 Q32)",
-          options: [
-            "Young People's Guild",
-            "Catholic Youth Organization",
-            "Ahmadiyya Muslim Youth",
-            "Asafo Company"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Asafo companies traditionally defend and serve their communities, demonstrating courage and patriotism."),
+question:
+"1. One of the child's responsibilities in the home is to\n(BECE 1999 Q30)",
+options: [
+"Sweep the compound",
+"Provide his clothing",
+"Pay the school fees",
+"Pay the hospital fees"
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"A child can contribute to the home by performing appropriate household chores such as sweeping the compound."),
+  QuizQuestion(
+      question:
+          "2. One of the rights of the child is the right\n(BECE 1999 Q34)",
+      options: [
+        "To work on his plot",
+        "To education",
+        "To sweep the classroom",
+        "To attend school regularly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Every child has a right to education."),
+
+  QuizQuestion(
+      question:
+          "3. Human rights include all the following except\n(BECE 2000 Q27)",
+      options: [
+        "The right to live",
+        "Freedom of association",
+        "Freedom of worship",
+        "Administering instant justice"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Administering instant justice is not a human right."),
+
+  QuizQuestion(
+      question:
+          "4. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
+      options: [
+        "Work harder for its good",
+        "Become democratic",
+        "Develop good skills in it",
+        "Build good and happy homes"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Love for one's community should encourage people to work for its progress and welfare."),
+
+  QuizQuestion(
+      question:
+          "5. To be patriotic means\n(BECE 2000 Q36)",
+      options: [
+        "Going to school regularly",
+        "Practicing personal hygiene",
+        "Defending the nation at all times",
+        "Engaging in sporting activities"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Patriotism involves love, loyalty and willingness to defend one's nation."),
+
+  QuizQuestion(
+      question:
+          "6. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
+      options: [
+        "National Commission on Children",
+        "National Council for Women and Development",
+        "Commission on Human Rights and Administrative Justice",
+        "National Commission for Civic Education"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Commission on Human Rights and Administrative Justice deals with human rights and administrative justice matters in Ghana."),
+
+  QuizQuestion(
+      question:
+          "7. Which of the following does not constitute a moral responsibility of the child?\n(BECE 2001 Q38)",
+      options: [
+        "Sweeping the classroom",
+        "Working on his plot",
+        "Worshiping God",
+        "Payment of school fees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Payment of school fees is normally the responsibility of parents or guardians, not the child."),
+
+  QuizQuestion(
+      question:
+          "8. What contribution can a child make when a community school is being put up?\n(BECE 2001 Q39)",
+      options: [
+        "Roofing the building",
+        "Fetching water and sand",
+        "Drawing up the building plan",
+        "Cheering the workers up with songs"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A child can safely assist community work by helping with simple tasks such as fetching water and sand."),
+
+  QuizQuestion(
+      question:
+          "9. As a child of the state, you have the right to\n(BECE 2002A Q22)",
+      options: ["Vote", "Education", "Work", "Worship"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Children have a recognized right to education."),
+
+  QuizQuestion(
+      question:
+          "10. One important responsibility as a member of a religious group is to\n(BECE 2002A Q26)",
+      options: [
+        "Sweep the meeting place every day",
+        "Gather the youth and talk to them",
+        "Obey the rules of the religion",
+        "Attend church service always"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Members of a religious group are expected to obey the rules and teachings of their religion."),
+
+  QuizQuestion(
+      question:
+          "11. The institution of authority in the society ensures\n(BECE 2002A Q28)",
+      options: [
+        "Peace and order",
+        "Good religious lives",
+        "A healthy environment",
+        "Respect for adults"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace, order and discipline in society."),
+
+  QuizQuestion(
+      question:
+          "12. A patriotic citizen is one who is\n(BECE 2002A Q38)",
+      options: [
+        "Loyal and law abiding",
+        "Loyal and hospitable to strangers",
+        "Loving and willing to die for the nation",
+        "Respectful in the community"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A patriotic citizen demonstrates loyalty to the country and obeys its laws."),
+
+  QuizQuestion(
+      question:
+          "13. Which right is person exercising when he cast a vote during national election?\n(BECE 2002B Q28)",
+      options: [
+        "Religious right",
+        "Civic right",
+        "Freedom of speech",
+        "Freedom of association"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Voting in a national election is an exercise of a citizen's civic right."),
+
+  QuizQuestion(
+      question:
+          "14. When a child develops a good spirit of responsibility he will\n(BECE 2002B Q29)",
+      options: [
+        "Win many prizes at school",
+        "Pass all his examination",
+        "Enjoy peace and success in life",
+        "Become tolerant and sincere"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Responsible behaviour contributes to peaceful living and success in life."),
+
+  QuizQuestion(
+      question:
+          "15. To demonstrate patriotism, one needs to\n(BECE 2002B Q32)",
+      options: [
+        "Show love and defend the nation",
+        "Be sincere in all circumstances",
+        "Be respectful to leaders of the country",
+        "Show a live of honesty to both old and young"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Patriotism is demonstrated through love, loyalty and willingness to defend one's nation."),
+
+  QuizQuestion(
+      question:
+          "16. It is the responsibility of the child to\n(BECE 2003 Q22)",
+      options: [
+        "Do his household chores",
+        "Invite his friends to his house",
+        "Request his parents to organize a party",
+        "Wake his parents up from bed"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children are expected to help with appropriate household chores."),
+
+  QuizQuestion(
+      question:
+          "17. The duty of a member of a community falls under\n(BECE 2004 Q29)",
+      options: [
+        "Civic responsibility",
+        "Governmental responsibility",
+        "Filial responsibility",
+        "Communal responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Duties performed as a member of a community are communal responsibilities."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following is a responsibility of children?\n(BECE 2004 Q32)",
+      options: [
+        "Paying their own school fees",
+        "Providing their friends with their needs",
+        "Making sure parents are always at work",
+        "Helping their parents at home"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Helping parents with suitable duties at home is one of a child's responsibilities."),
+
+  QuizQuestion(
+      question:
+          "19. A special right that puts a person in a better position is\n(BECE 2004 Q40)",
+      options: ["Favour", "Choice", "Freedom", "Privilege"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A privilege is a special right or advantage granted to a person or group."),
+
+  QuizQuestion(
+      question:
+          "20. Which of the following is not a peaceful way to ask for your right?\n(BECE 2005 Q25)",
+      options: ["Petition", "Kidnapping", "Silent protest", "Lobbying"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Kidnapping is violent and unlawful and is not a peaceful means of demanding one's rights."),
+
+  QuizQuestion(
+      question:
+          "21. A patriotic citizen is a person who\n(BECE 2005 Q40)",
+      options: [
+        "Helps the family always",
+        "Practices personal hygiene",
+        "Defends his nation always",
+        "Worship his Creator regularly"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A patriotic citizen shows loyalty and is willing to defend the nation."),
+
+  QuizQuestion(
+      question:
+          "22. Authority is instituted in the society to ensure\n(BECE 2006 Q24)",
+      options: [
+        "Respect for adults",
+        "Peace and order",
+        "The right to vote",
+        "Freedom of speech"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Authority exists to maintain peace, order and discipline in society."),
+
+  QuizQuestion(
+      question:
+          "23. The peaceful ways of asking for one's rights include the following\n(BECE 2006 Q31)",
+      options: ["Lobbying", "Kidnapping", "Playing games", "Rioting"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Lobbying is a lawful and peaceful means of seeking support for one's rights."),
+
+  QuizQuestion(
+      question:
+          "24. As a child, your duties include all these except\n(BECE 2006 Q34)",
+      options: [
+        "Fetching water",
+        "Weeding the compound",
+        "Preparing meals",
+        "Paying fees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Paying school fees is normally a parental or guardian responsibility."),
+
+  QuizQuestion(
+      question:
+          "25. When a child develops the sense of responsibility, he or she\n(BECE 2006 Q38)",
+      options: [
+        "Wins many prizes at school",
+        "Passes all his examination",
+        "Becomes tolerant and sincere",
+        "Enjoys peace and success in life"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A responsible person is more likely to enjoy orderly relationships, peace and success."),
+
+  QuizQuestion(
+      question:
+          "26. The rights and privileges of every citizen is guaranteed in the\n(BECE 2007 Q30)",
+      options: ["Constitution", "Bible", "Qur'an", "By-laws"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Constitution guarantees the fundamental rights and freedoms of citizens."),
+
+  QuizQuestion(
+      question:
+          "27. One who loves his/her country\n(BECE 2007 Q31)",
+      options: [
+        "Helps the needy always",
+        "Practices personal hygiene",
+        "Defends the nation",
+        "Worship God always"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Love for one's country is demonstrated through loyalty and willingness to defend it."),
+
+  QuizQuestion(
+      question:
+          "28. At what age does one qualify to vote?\n(BECE 2007 Q38)",
+      options: ["15 years", "17 years", "18 years", "21 years"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A citizen qualifies to vote at the age of 18 years."),
+
+  QuizQuestion(
+      question:
+          "29. Human rights include all the following except\n(BECE 2007 Q39)",
+      options: [
+        "The right to vote",
+        "Administering instant justice",
+        "The right to live",
+        "Freedom of worship"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Administering instant justice is not a human right."),
+
+  QuizQuestion(
+      question:
+          "30. Freedom of expression enables one to\n(BECE 2008 Q33)",
+      options: [
+        "Move about freely",
+        "Engage in any job",
+        "Be heard freely",
+        "Accuse other people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Freedom of expression allows a person to express opinions and be heard."),
+
+  QuizQuestion(
+      question:
+          "31. Filial responsibility refers to one's duty as a\n(BECE 2008 Q35)",
+      options: [
+        "Father or a mother",
+        "Member of a society",
+        "Son or a daughter",
+        "Member of the church"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Filial responsibility refers to the duties a person has as a son or daughter toward parents and family."),
+
+  QuizQuestion(
+      question:
+          "32. One civic responsibility of a citizen is to\n(BECE 2009 Q34)",
+      options: [
+        "Expose wrongdoers in the community",
+        "Be willing to accept correction",
+        "Respect the traditions of the community",
+        "Look after the poor in the community"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Citizens have a civic duty to help protect society by reporting or exposing wrongdoing."),
+
+  QuizQuestion(
+      question:
+          "33. Privileges can be earned by showing that one is\n(BECE 2009 Q38)",
+      options: ["Intelligent", "Trustworthy", "Decent", "Hospitable"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Trustworthy people are more likely to be granted special responsibilities and privileges."),
+
+  QuizQuestion(
+      question:
+          "34. The best way to live in peace in a community is to\n(BECE 2011 Q28)",
+      options: [
+        "Disagree with your enemies",
+        "Sit on the fence",
+        "Understand and co-operate with others",
+        "Enter into conflict with your neighbours"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperation promote peaceful community relationships."),
+
+  QuizQuestion(
+      question:
+          "35. It is our responsibility to prevent the spread cholera by\n(BECE 2011 Q30)",
+      options: [
+        "Immunizing against the six killer diseases",
+        "Eating a balanced diet",
+        "Keeping our surroundings clean",
+        "Taking good care of our wounds"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Good sanitation and clean surroundings help prevent the spread of cholera."),
+
+  QuizQuestion(
+      question:
+          "36. All the following are teachers' responsibilities towards their pupils except\n(BECE 2011 Q38)",
+      options: [
+        "Ensuring discipline",
+        "Making themselves approachable",
+        "Inviting parents of troublesome children",
+        "Feeding hungry pupils at school"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Feeding hungry pupils is not generally listed as a teacher's formal responsibility."),
+
+  QuizQuestion(
+      question:
+          "37. A citizen who indulges in social vices in the community is said to be\n(BECE 2012 Q21)",
+      options: [
+        "Unfriendly",
+        "Unreliable",
+        "Untruthful",
+        "Unpatriotic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Engaging in social vices harms the community and is considered contrary to patriotic behaviour."),
+
+  QuizQuestion(
+      question:
+          "38. The best way to live in peace in a community is to\n(BECE 2012 Q33)",
+      options: [
+        "Sit on the fences always",
+        "Be afraid of those in authority",
+        "Keep to oneself always",
+        "Understand and co-operate with others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperating with others promotes peaceful coexistence."),
+
+  QuizQuestion(
+      question:
+          "39. In a traditional society, the provision of shelter is the responsibility of the\n(BECE 2012 Q35)",
+      options: ["Father", "Grandfather", "Mother", "Uncle"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, the father is responsible for providing shelter."),
+
+  QuizQuestion(
+      question:
+          "40. Which of the following is not a responsibility of a family head?\n(BECE 2013 Q22)",
+      options: [
+        "Oversight of the general wellbeing of the family",
+        "Taking care of all family property",
+        "Settling disputes",
+        "Granting loans"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Granting loans is not a standard responsibility of the family head."),
+
+  QuizQuestion(
+      question:
+          "41. Putting one's interest above that of others results in\n(BECE 2013 Q31)",
+      options: ["Conflict", "Patriotism", "Selflessness", "Tolerance"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Self-centred behaviour can create disagreements and conflict with others."),
+
+  QuizQuestion(
+      question:
+          "42. Authority is instituted in the society to ensure\n(BECE 2014 Q30)",
+      options: ["Hard work", "Loyalty", "Peace", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace and order in society."),
+
+  QuizQuestion(
+      question:
+          "43. School rules help pupils to\n(BECE 2014 Q32)",
+      options: [
+        "Avoid being punish",
+        "Worship God regularly",
+        "Compete with one another",
+        "Disobey school authorities"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Following school rules helps pupils avoid misconduct and its resulting punishment."),
+
+  QuizQuestion(
+      question:
+          "44. Carrying out assigned duties is necessary because, it\n(BECE 2014 Q33)",
+      options: [
+        "Pleases God and humankind",
+        "Attracts hatred from enemies",
+        "Leads to pacification of the gods",
+        "Leads to fulfillment of promises"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Responsible performance of assigned duties is valued by both religious teaching and society."),
+
+  QuizQuestion(
+      question:
+          "45. Authority is instituted in society to ensure\n(BECE 2018 Q28)",
+      options: [
+        "Freedom of speech",
+        "Peace and order",
+        "Respect for adults",
+        "The right to vote"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace, discipline and social order."),
+
+  QuizQuestion(
+      question:
+          "46. The best way to live in peace in a community is to\n(BECE 2018 Q29)",
+      options: [
+        "Remain neutral",
+        "Sit on the fence",
+        "Offer special gifts to friends in school",
+        "Understand and co-operate with others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperation are essential for peaceful community living."),
+
+  QuizQuestion(
+      question:
+          "47. Which of the following activities is not a responsibility of a family head?\n(BECE 2018 Q30)",
+      options: [
+        "Giving loans to people",
+        "Settling disputes among people",
+        "Ensuring the well-being of the people",
+        "Taking custody of family property"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Giving loans is not one of the usual responsibilities of a family head."),
+
+  QuizQuestion(
+      question:
+          "48. Tidying the school compound is the child's\n(BECE 2018 Q32)",
+      options: ["Commitment", "Behaviour", "Loyalty", "Role"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Helping to tidy the school compound is one of the roles or responsibilities of pupils."),
+
+  QuizQuestion(
+      question:
+          "49. Carrying out assigned duties is necessary because it\n(BECE 2018 Q37)",
+      options: [
+        "Attracts hatred from enemies",
+        "Leads to fulfillment of promises",
+        "Leads to pacification of the gods",
+        "Pleases God and human kind"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Performing assigned duties responsibly is considered pleasing to God and beneficial to society."),
+
+  QuizQuestion(
+      question:
+          "50. School rules help pupils to\n(BECE 2018 Q38)",
+      options: [
+        "Avoid being punished",
+        "Compete with one another",
+        "Protect properties all the time",
+        "Worship God regularly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Obeying school rules helps pupils avoid misconduct and punishment."),
+
+  QuizQuestion(
+      question:
+          "51. Youth camps are organized purposely for the youth are to\n(BECE 1999 Q27)",
+      options: [
+        "Fend for themselves",
+        "Find their parents",
+        "Learn to socialize",
+        "Run away from household chores"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Youth camps provide opportunities for young people to interact, cooperate and socialize with others."),
+
+  QuizQuestion(
+      question:
+          "52. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
+      options: [
+        "Serving God and nation",
+        "Leading a disciplined life",
+        "Being law abiding",
+        "Ensuring violence to demand right"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations promote discipline and peaceful behaviour, not violence."),
+
+  QuizQuestion(
+      question:
+          "53. One of the important aims of a youth organization is to\n(BECE 2000 Q29)",
+      options: [
+        "Bring unity among the youth",
+        "Learn dancing and merry making",
+        "Let the youth be on their own and look for jobs",
+        "Oppose the views of the elderly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Youth organizations encourage unity, cooperation and fellowship among young people."),
+
+  QuizQuestion(
+      question:
+          "54. One good reason for the establishment of Catholic Youth Organization (CYO) is to\n(BECE 2002A Q40)",
+      options: [
+        "Serve us soldiers to defend the church",
+        "Foster unity among the priest",
+        "Perform cultural dances in the church",
+        "Teach the youth about the traditions in the church"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Catholic Youth Organization helps educate Catholic youth in the teachings and traditions of the Church."),
+
+  QuizQuestion(
+      question:
+          "55. One important objective of religious youth organizations is to\n(BECE 2003 Q33)",
+      options: [
+        "Organize dancing competition during Christmas",
+        "Organizing pleasure trips",
+        "Practices moral teaching",
+        "Challenge elders on community development committees"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations place strong emphasis on moral education and character development."),
+
+  QuizQuestion(
+      question:
+          "56. One joins a religious youth movement in order to\n(BECE 2004 Q31)",
+      options: [
+        "Go to heaven",
+        "Help develop the religion",
+        "Organize crusades",
+        "Have prayers answered"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Members of religious youth movements help strengthen and develop their religious communities."),
+
+  QuizQuestion(
+      question:
+          "57. The Asafo companies are concerned with the promotion of all the following except\n(BECE 2005 Q4)",
+      options: [
+        "Good behaviour",
+        "Cultural development",
+        "Adolescent reproductive health",
+        "Social development"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally promote social, cultural and community responsibilities rather than adolescent reproductive health."),
+
+  QuizQuestion(
+      question:
+          "58. The Young People's Guild is an organization in the\n(BECE 2005 Q15)",
+      options: [
+        "Methodist church",
+        "Anglican church",
+        "Presbyterian church",
+        "Pentecost church"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Young People's Guild is associated with the Presbyterian Church."),
+
+  QuizQuestion(
+      question:
+          "59. A member of the Catholic Youth Organization (CYO) is called\n(BECE 2006 Q26)",
+      options: ["A deacon", "Voyager", "Soldier", "Crusader"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A member of the Catholic Youth Organization is commonly referred to as a crusader in this RME context."),
+
+  QuizQuestion(
+      question:
+          "60. A major reason for establishing traditional youth organization is to\n(BECE 2007 Q32)",
+      options: [
+        "Defend the interest of the community",
+        "Protect the ancestors and gods",
+        "Embark on educational tours",
+        "Fight those who destroy the environment"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Traditional youth organizations help protect and defend the interests of their communities."),
+
+  QuizQuestion(
+      question:
+          "61. The basic quality expected in any youth organization is\n(BECE 2007 Q34)",
+      options: [
+        "The spirit of voluntarism",
+        "Love for one's parents",
+        "Disregard for non-members of the group",
+        "Contestant prayers"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Youth organizations depend on willingness to serve and participate voluntarily."),
+
+  QuizQuestion(
+      question:
+          "62. All the following are functions of Asafo groups except\n(BECE 2008 Q37)",
+      options: [
+        "Weeding the surroundings and cleaning choked gutters",
+        "Ensuring that traditional norms are followed",
+        "Assisting chiefs in punishing wrong doers in the village",
+        "The supervision of marriage ceremonies in the village"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Supervising marriage ceremonies is not normally listed among the traditional functions of Asafo groups."),
+
+  QuizQuestion(
+      question:
+          "63. The spirit of patriotism is best shown by the youth of\n(BECE 2009 Q32)",
+      options: [
+        "Young People's Guild",
+        "Pentecost Youth Ministry",
+        "Asafo Company",
+        "Ahmadiyya Muslim Youth"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally defend and serve their communities, demonstrating patriotism."),
+
+  QuizQuestion(
+      question:
+          "64. A major reason of establishing traditional youth organization is to\n(BECE 2011 Q21)",
+      options: [
+        "Defend the interest of the community",
+        "Protect ancestors and the gods",
+        "Embark on educational tour",
+        "Fight those who destroy the environment"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Traditional youth organizations are established partly to protect and defend community interests."),
+
+  QuizQuestion(
+      question:
+          "65. The main aim of the girl's Brigade is to\n(BECE 2012 Q32)",
+      options: [
+        "Assist girls to attend school",
+        "Encourage girls to work hard",
+        "Help establish more girls' school",
+        "Produce good Christian womanhood"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Girls' Brigade seeks to develop girls in Christian character and responsible womanhood."),
+
+  QuizQuestion(
+      question:
+          "66. Youth camps are usually held to help young people to\n(BECE 2013 Q30)",
+      options: [
+        "Find life partners",
+        "Learn to socialize with others",
+        "Form important study groups",
+        "Organize their lives properly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Youth camps provide opportunities for young people to interact and learn healthy social relationships."),
+
+  QuizQuestion(
+      question:
+          "67. The Asafo Youth Movement do not promote\n(BECE 2014 Q40)",
+      options: [
+        "Unity among its members",
+        "Selflessness among its members",
+        "Regular attendance of church service",
+        "The spirit of law abiding among its members"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Asafo organizations are traditional community groups and do not specifically promote regular church attendance."),
+
+  QuizQuestion(
+      question:
+          "68. Which of the following functions is performed by the Asafo companies\n(BECE 2015 Q17)",
+      options: [
+        "Acting as watchdogs",
+        "Registration of foreigners",
+        "Collection of taxes",
+        "Acting as arbitrators"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally act as watchdogs who help protect the community."),
+
+  QuizQuestion(
+      question:
+          "69. Religious Youth Organizations are established to\n(BECE 2015 Q39)",
+      options: [
+        "Honour their leaders",
+        "Carry out communal labour",
+        "Help protect the natural environment",
+        "Defend the interest of the society"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Religious youth organizations train young people to serve their religion and contribute positively to society."),
+
+  QuizQuestion(
+      question:
+          "70. The main aim of religious youth organizations is to\n(BECE 2016 Q39)",
+      options: [
+        "Become political force in their communities",
+        "Educate the youth through moral teaching",
+        "Have inter-youth relations through competitions",
+        "Organize excursions to places of interest"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations mainly provide moral and religious education for young people."),
+
+  QuizQuestion(
+      question:
+          "71. C.Y.O. as a religious youth group stands for\n(BECE 2018 Q39)",
+      options: [
+        "Catechists Youth Organization",
+        "Catholic Youngmen Organization",
+        "Christian Youngmen Organization",
+        "Catholic Youth Organization"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "C.Y.O. stands for Catholic Youth Organization."),
+
+  QuizQuestion(
+      question:
+          "72. Religious Youth Associations foster peace among its members by\n(BECE 2018 Q40)",
+      options: [
+        "Being law abiding",
+        "Caring for the sick",
+        "Causing the arrest of offenders",
+        "Worshipping and praying"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Law-abiding behaviour promotes discipline, order and peaceful relationships among members."),
+
+  QuizQuestion(
+      question:
+          "73. Asafo companies are important because\n(BECE 2020 Q40)",
+      options: [
+        "They enstool paramount chiefs",
+        "Help in environmental cleanliness",
+        "Offer employment to people",
+        "Promote local tourism"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Asafo companies participate in communal activities such as cleaning and maintaining the environment."),
+
+  QuizQuestion(
+      question:
+          "74. Which of the following options is the main role of Asafo companies?\n(BECE 2021 Q9)",
+      options: [
+        "Entertaining the society",
+        "Installation of paramount chiefs",
+        "Promotion of tourism",
+        "Defence of the community"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The traditional main role of Asafo companies is to defend and protect the community."),
+
     ],
   ),
   "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": QuizModel(
