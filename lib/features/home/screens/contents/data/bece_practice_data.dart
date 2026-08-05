@@ -13164,619 +13164,489 @@ final Map<String, PracticeModel> becePracticeData = {
   ),
 
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes":
-      PracticeModel(
+  "Religious & Moral Education JHS1 s1 ss1 - Religion, God, His Creation and Attributes": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) State five things created by God. \n "
-            "(b) Explain the usefulness of any three of them to mankind.\n"
-            "(BECE 1999 Q1)",
-        answer: "Correct Answer: (a) Answer: Animals\n"
-            "⦿ Trees or Plants\n"
-            "⦿ Light (sun, moon and stars)\n"
-            "⦿ Water bodies\n"
-            "⦿ Land\n\n"
-            "Answer: \n"
-            "Animals:   ⦿ Some animals and their products serve as food for mankind.\n"
-            "   ⦿ Strong animals like donkeys and camels help to transport people and things to places.\n"
-            "   ⦿ Bulls help to plough farm lands.\n"
-            "   ⦿ Animals like dogs, monkeys, parrots and geese can be good security guards.\n\n"
-            "Trees or Plants: "
-            "   ⦿  Most plants and their fruits serve as sources of food for mankind.\n"
-            "   ⦿ The stems, roots, leaves and barks of some plants serve as medicine and ingredients for preparation of medicines for mankind.\n"
-            "   ⦿ Some plants, called ornamental plants, are used to beautify the environments due to their attractive nature.\n"
-            "   ⦿ Plants provide oxygen for mankind.\n"
-            "   ⦿ Plants serve as shelter for mankind.\n"
-            "   ⦿ Furniture and building materials are derived from plants.\n\n"
-            "Light (moon, sun and stars):"
-            "   ⦿ They help us to see the power of God.\n"
-            "   ⦿ They enable mankind to calculate times and seasons.\n"
-            "   ⦿ They help us to get directions.\n"
-            "   ⦿ They make it possible for mankind to see.\n\n"
-            "Water bodies:"
-            "   ⦿ They provide us with water for irrigation purposes.\n"
-            "   ⦿ Water bodies can serve as means of transportation.\n"
-            "   ⦿ Salt is generated from the sea water.\n"
-            "   ⦿ They serve as source of good drinking water for mankind.\n\n"
-            "Land:"
-            "   ⦿ They serve as living abode or place for mankind.\n"
-            "   ⦿ Precious minerals like gold, silver, diamond, bauxite, etc mined from the land are used to manufacture tools and ornaments.\n"
-            "   ⦿ It serves as source of habitat for animals that provide food for mankind.\n"
-            "   ⦿ It supports the growth of plants which further provides food and herbs for mankind.",
-        explanation: ".",
-      ),
+scenario:
+"Question 1: (a) State five things created by God.\n"
+"(b) Explain the usefulness of any three of them to mankind.\n"
+"(BECE 1999 Q1)",
+answer: "Correct Answer: (a) Five things created by God:\n"
+"⦿ Animals\n"
+"⦿ Trees and plants\n"
+"⦿ Light (the sun, moon and stars)\n"
+"⦿ Water bodies\n"
+"⦿ Land\n\n"
+"(b) Usefulness of three of these to mankind:\n"
+"⦿ Animals: Many creatures and what they produce give people food to eat. Working animals such as donkeys and camels are used to carry goods and passengers from place to place, while oxen are used to plough fields. Certain animals, including dogs and geese, are kept to guard homes and property.\n"
+"⦿ Water bodies: Rivers, lakes and seas supply water needed to irrigate farmland, and can also be used as routes for moving people and goods. Sea water is processed to produce salt, which is used for both drinking-water treatment and other everyday purposes.\n"
+"⦿ Land: The earth provides the ground on which people live and build their homes. Valuable resources such as gold, silver, diamonds and bauxite are dug from the earth and turned into tools, jewellery and other useful items. Land also supports the growth of plants, which in turn provide food and medicine for humankind.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 2: (a) Narrate the story of creation in the Bible.\n"
-            "(b) Mention three attributes of God which can be learnt from the story.\n"
-            "(BECE 2001 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ On the first day: God created Heaven and Earth filled with darkness. He separated the light, which He called day from the darkness He called night.\n"
-            "⦿ On the second day: He created the firmament (which is the sky) among the water on the earth. He used the sky to divide the waters above the sky and below it.\n"
-            "⦿ On the third day: He gathered the waters below the sky and called it the seas and created a dry land called the Earth, which He made plants of all kinds to grow on.\n"
-            "⦿ On the fourth day: He created the sun, moon and stars that produce light to control the days and the nights, seasons and years. The sun for the day, moon and stars for the night.\n"
-            "⦿ On the fifth day: He created the birds, all the winged animals and animals in the seas and blessed them to reproduce their kinds.\n"
-            "⦿ On the sixth day: He created other animals which were not created on the fifth day and created human being (male and female) and gave them dominion over all that He created and blessed them to reproduce to replenish the earth.\n"
-            "⦿ On the seventh day: He rested after seeing that all He created was good.\n\n"
-            "(b) Answer: \n"
-            "⦿ God is omnipotent: God is all powerful and almighty who can do all things according his will.\n"
-            "⦿ God is omniscient: God is all knowing.\n"
-            "⦿ God is all loving: God loves all that he has created.\n"
-            "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
-        explanation: ".",
-      ),
+scenario:
+"Question 2: (a) Narrate the story of creation in the Bible.\n"
+"(b) Mention three attributes of God which can be learnt from the story.\n"
+"(BECE 2001 Q1)",
+answer: "Correct Answer: (a) The story of creation:\n"
+"⦿ Day one: God brought the heavens and the earth into being out of darkness. He separated light from darkness, naming the light \"day\" and the darkness \"night.\"\n"
+"⦿ Day two: God formed a space, the sky, between the waters, dividing those above from those below.\n"
+"⦿ Day three: God gathered the waters beneath the sky into one place, allowing dry ground to appear, which He named \"earth,\" while the gathered waters became the \"seas.\" He then commanded vegetation to spring up on the land.\n"
+"⦿ Day four: God set the sun, moon and stars in place to give light, mark seasons, and distinguish day from night.\n"
+"⦿ Day five: God filled the seas with living creatures and filled the skies with birds, blessing them to multiply.\n"
+"⦿ Day six: God created land animals, and finally made humankind, male and female, in His own image, giving them authority over all other living things.\n"
+"⦿ Day seven: Having completed His work and seen that it was good, God rested.\n\n"
+"(b) Three attributes of God learnt from the story:\n"
+"⦿ Omnipotence: God is all-powerful, able to bring an entire universe into being simply by speaking.\n"
+"⦿ Omniscience: God's wisdom and knowledge are shown in how orderly and purposeful the whole process of creation was.\n"
+"⦿ All-loving nature: God's care is shown through His concern that everything He made was good, and through His blessing of living things to multiply and flourish.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario: "Question 3: (a) What is revelation in Islam?\n"
-            "(b) Identify the importance of revelation to the Muslim.\n"
-            "(BECE 2002A Q3)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "In Islam, revelation simply means making known the hidden things about Allah and his will to mankind (Muslims). It is believed that this revelation comes through angels, divine inspiration, Allah's word and visions.\n\n"
-            "Answer: (b)\n"
-            "⦿ It reveals the Islamic values and virtues.\n"
-            "⦿ It reveals the truth about Allah and his will in the world in the form of commandment.\n"
-            "⦿ It teaches the Muslim how to worship and serve Allah.\n"
-            "⦿ It reveals the promise of Allah to Muslims.\n"
-            "⦿ It teaches Muslims how to treat others.",
-        explanation: ".",
-      ),
+scenario:
+"Question 3: (a) Explain any three attributes of God from the Islamic point of view.\n"
+"(b) State the importance of revelation to the Muslim.\n"
+"(BECE 2002A Q3)",
+answer: "Correct Answer: (a) Three attributes of God in Islam:\n"
+"⦿ Truthful and virtuous: He reveals what is right and just in the world.\n"
+"⦿ Merciful: He shows compassion towards His creation.\n"
+"⦿ Guide: He teaches Muslims how they ought to live and worship.\n\n"
+"(b) Importance of revelation to the Muslim:\n"
+"⦿ It shows Muslims the truth about Allah and His will for humankind.\n"
+"⦿ It reveals the character and virtues of Allah and teaches proper family conduct, similar to how a parent guides a child.\n"
+"⦿ It clarifies what is expected of the believer in worship and daily life.\n"
+"⦿ It confirms that death is the final departure from this world, and that another life follows.\n"
+"⦿ It shows Muslims how to treat one another fairly and kindly.\n"
+"⦿ Through the Prophet, revelation gave the Muslim community tools to distinguish right from wrong and to govern their affairs justly.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 4: (a) Narrate one African Traditional story on creation.\n"
-            "(b) Explain any three attributes of God in the creation story.\n"
-            "(BECE 2003 Q3)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "An Ewe traditional myth on creation:\n"
-            "⦿ The Ewe traditionalists believe that God (Mawu) created all things in the world.\n"
-            "⦿ It is believed that before creation, the earth was void, without form and was filled with darkness.\n"
-            "⦿ God then created human beings out of clay and water after creating the earth.\n"
-            "⦿ He created the soul to give man life and to act as a guardian spirit.\n"
-            "⦿ The soul of every human being was commanded to return to God after death to receive either a reward or punishment, depending on the life one lived on earth.\n"
-            "⦿ It is also believed that after some time, God could not create any human beings because of scarcity of clay; therefore, he uses dead bodies to create new ones, thus the resemblance of children to their parents.\n"
-            "⦿ It is also believed that because of disturbances and troubles from human beings God moved up into the sky.\n"
-            "⦿ After His departure, he sent his eldest son, Lisa with a sword to clear the forest to make tools.\n"
-            "⦿ God used those tools made by Lisa to divide the world among his sons.\n"
-            "⦿ One was to control the sky; that is, thunder and light.\n"
-            "⦿ Another was to control all the creatures. Specifically, the beasts, birds and trees were to be controlled by some of His sons.\n\n"
-            "OR\n\n"
-            "An Akan traditional myth on creation:\n"
-            "⦿ According to Akan traditionalists, God first created the Court Crier (Essen). He represents order.\n"
-            "⦿ He then created the earth and plants.\n"
-            "⦿ He made the sky, the rivers and plants in that order.\n"
-            "⦿ He made animals and all other living things.\n"
-            "⦿ Next to be created was human beings to feed on both plants and animals.\n"
-            "⦿ They also believe that because God wanted human beings to be protected, he created the spirits.\n"
-            "⦿ These spirits are believed to be in the forests, water bodies and on mountains.\n"
-            "⦿ He then created the drummer (Okyerema) who represents knowledge.\n"
-            "⦿ He finally created death. Thus, the institution on the fact that death is the end of life on earth.\n\n"
-            "Answer: (b)\n"
-            "⦿ God is omnipotent: God is all powerful and almighty who can do all things according his will.\n"
-            "⦿ God is omniscient: God is all knowing.\n"
-            "⦿ God is all loving: God loves all that he has created.\n"
-            "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
-        explanation: ".",
-      ),
+scenario:
+"Question 4: Narrate one African Traditional story on creation.\n"
+"(BECE 2003 Q3)",
+answer: "Correct Answer: An Ewe traditional account of creation:\n"
+"⦿ According to Ewe traditional belief, the Supreme God, referred to as Mawu, brought everything into existence.\n"
+"⦿ Before creation, the earth was formless and covered in complete darkness.\n"
+"⦿ God formed human beings out of clay, breathing life and a guardian spirit into each one.\n"
+"⦿ This guiding spirit was believed to accompany every person, urging them towards good conduct and warning them against wrongdoing.\n"
+"⦿ When a person eventually died, this spirit would return to God, either to receive a reward for a virtuous life or to face punishment, depending on how that person had lived.\n"
+"⦿ The Ewe held that human beings possess both physical bodies and spirits, and that after death, spirits would continue to exist in forests, on mountain tops, or wherever they were believed to dwell.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 5: (a) Explain the usefulness of the following as created by God:\n"
-            "(i) plants;\n"
-            "(ii) sea, moon, stars.\n"
-            "(b) What four steps can you take to preserve the plants in the environment?\n"
-            "(BECE 2004 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "(i) Usefulness of plants:\n"
-            "⦿ Most plants and their fruits serve as sources of food for mankind.\n"
-            "⦿ The stems, roots, leaves and barks of some plants serve as medicine and ingredients for preparation of medicines for mankind.\n"
-            "⦿ Some plants, called ornamental plants, are used to beautify the environments due to their attractive nature.\n"
-            "⦿ Plants provide oxygen for mankind.\n"
-            "⦿ Plants serve as shelter for mankind.\n"
-            "⦿ Furniture and building materials are derived from plants.\n\n"
-            "(ii) Usefulness of the sea:\n"
-            "⦿ It is a source of mineral salts.\n"
-            "⦿ It is a living place or habitat for some animals like the fishes etc.\n"
-            "⦿ It serves as a means of transportation.\n"
-            "⦿ It serves as a source of food.\n\n"
-            "Usefulness of the moon and stars:\n"
-            "⦿ They help us to see the power of God.\n"
-            "⦿ They enable mankind to calculate times and seasons.\n"
-            "⦿ They help us to get directions.\n"
-            "⦿ They make it possible for mankind to see.\n\n"
-            "Answer: (b)\n"
-            "⦿ Educating people about the need to preserve trees.\n"
-            "⦿ Passing bye-laws to check the problem of indiscriminate felling of trees.\n"
-            "⦿ Avoiding activities likely to cause bushfires.\n"
-            "⦿ Reducing the level of pollution in the atmosphere if it cannot be prevented.\n"
-            "⦿ Checking the habit of allowing cattle to over-graze and sand winning which can destroy the plants.\n"
-            "⦿ Practising afforestation to replace any fallen tree.",
-        explanation: ".",
-      ),
+scenario:
+"Question 5: (a) Explain the usefulness of the following to man: (i) the sea, (ii) the moon and stars.\n"
+"(b) State four steps you can take to preserve plants in the environment.\n"
+"(BECE 2004 Q1)",
+answer: "Correct Answer: (a) Usefulness:\n"
+"⦿ The sea: It provides a source of minerals and serves as a home for fish and other marine life. It is also used as a means of transporting goods and people.\n"
+"⦿ The moon and stars: They act as sources of light, help people to work out direction at night, and are used to calculate seasons and mark the passing of time.\n\n"
+"(b) Four ways to preserve plants in the environment:\n"
+"⦿ Educate people about the importance of protecting trees.\n"
+"⦿ Introduce local by-laws that discourage the careless cutting down of trees.\n"
+"⦿ Encourage citizens to plant more trees to replace those that are lost.\n"
+"⦿ Discourage the practice of indiscriminate bush burning.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
-            "(b) State four ways by which you can protect God's creation.\n"
-            "(BECE 2005 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The use of chemicals such as D.D.T for fishing: This destroys other living organisms in water bodies.\n"
-            "⦿ Indiscriminate cutting down of trees for fuel: This act can lead to loss of the useful vegetation and desertification.\n"
-            "⦿ Uncontrolled mining: This activity destroys the landscape and makes it difficult to cultivate food crops on the land.\n"
-            "⦿ Bush burning: This pollutes the atmosphere with carbon monoxide and other toxic gases which are harmful to living organisms.\n\n"
-            "Answer: (b)\n"
-            "⦿ Mobilising members of the community to embark on tree planting exercises.\n"
-            "⦿ Avoid indiscriminate bush burning in order to conserve wild life.\n"
-            "⦿ Preserve the forest by educating the general public about the effects of excessive felling of trees.\n"
-            "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
-        explanation: ".",
-      ),
+scenario:
+"Question 6: (a) Explain four human activities that have negatively affected God's creation.\n"
+"(b) State four ways by which you can protect God's creation.\n"
+"(BECE 2005 Q1)",
+answer: "Correct Answer: (a) Harmful human activities affecting creation:\n"
+"⦿ Use of harmful chemicals: Substances such as DDT used in fishing kill aquatic life indiscriminately.\n"
+"⦿ Uncontrolled mining: Illegal, small-scale mining destroys land and vegetation, and is difficult to reverse once damage is done.\n"
+"⦿ Bush burning: This pollutes the atmosphere with carbon monoxide and other harmful gases, and destroys food crops in the process.\n"
+"⦿ Indiscriminate felling of trees: Cutting down forests for timber and other purposes without proper regulation damages habitats for many living things.\n\n"
+"(b) Four ways to protect God's creation:\n"
+"⦿ Educate community members about responsible tree planting.\n"
+"⦿ Avoid cutting down trees carelessly or without replacement.\n"
+"⦿ Prevent excessive bush burning, which harms the general environment.\n"
+"⦿ Reduce the pollution of air and water with smoke and harmful waste.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
-            "(b) State two moral implication of the attributes of God mentioned in (a).\n"
-            "(BECE 2006 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Eternal or Everlasting or Immortal: God was not made and He is the self-existing one now and forever.\n"
-            "⦿ Omniscient: God is able to discern right from wrong in the heart of men. He is all knowing.\n"
-            "⦿ Omnipresent: Christians believe that God is present everywhere.\n"
-            "⦿ Omnipotent: Christians see God as all-powerful and ever-powerful because they believe that His power is greater than all other powers.\n"
-            "⦿ Creator: Christians see God as the creator because they believe that He created the world and everything in it.\n"
-            "⦿ All-wise: God is the most sensible (wisest) being and nobody is greater than God in wisdom and understanding.\n"
-            "⦿ Generous or Kind: God is always willing to offer or give freely.\n"
-            "⦿ Supreme/Perfect/Final Judge: God's judgment or rule is complete or the best.\n"
-            "⦿ Loving God: God has a strong feeling of deep affection for His people.\n"
-            "⦿ Source of life and death: God is the originator of life and death.\n"
-            "⦿ Protector: God takes care of His creatures, including man.\n"
-            "⦿ Righteous God: God is morally upright and good.\n"
-            "⦿ Dependable: God can be relied on for one's breakthrough.\n"
-            "⦿ Provider: God supplies the needs of human kind.\n"
-            "⦿ Sustainer: God manages or directs the universe and everything in it.\n\n"
-            "Answer: (b)\n"
-            "⦿ God is loving and kind; therefore, we must also show love, mercy and kindness toward our neighbours.\n"
-            "⦿ God is the owner of life and death or everything, He must therefore be worshipped. We must also respect and value life.\n"
-            "⦿ God is a good judge; we cannot escape His judgment.\n"
-            "⦿ God is good or perfect or morally upright. He hates sin; we must therefore flee from sin in order to get closer to Him.\n"
-            "⦿ God is all-powerful; He has power to control the world and everything in it. We should therefore communicate with Him for protection.\n"
-            "⦿ God knows what is in the heart of men; so, we must avoid hypocrisy, approach Him for guidance.\n"
-            "⦿ God is patient; we must therefore take our time in doing things and not rush after worldly pleasures.\n"
-            "⦿ God is everywhere; therefore our sins can never go unnoticed by Him.\n"
-            "⦿ God is reliable; so we can depend on Him for all our needs.",
-        explanation: ".",
-      ),
+scenario:
+"Question 7: (a) Explain five attributes of God from the Christian point of view.\n"
+"(b) State two moral implications of any of the attributes mentioned in (a).\n"
+"(BECE 2006 Q1)",
+answer: "Correct Answer: (a) Five attributes of God:\n"
+"⦿ Eternal or Everlasting (Immortal): God has always existed and will exist forever; He was never created.\n"
+"⦿ Omniscient: God knows everything, including what is hidden in a person's heart.\n"
+"⦿ Omnipresent: God is present everywhere at the same time.\n"
+"⦿ Omnipotent: Christians believe God's power surpasses that of anything else that exists.\n"
+"⦿ Sustainer: God continues to hold together and direct the whole universe.\n\n"
+"(b) Two moral implications:\n"
+"⦿ Because God sees and knows everything, believers must live uprightly and avoid sin, even where no other person is watching.\n"
+"⦿ Since God is loving and merciful, Christians are expected to show love, mercy and kindness to their neighbours in turn.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
-            "(b) State three ways in which humankind is useful to God.\n"
-            "(BECE 2008 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The Qur'an states that Allah created the world and everything in it in six days.\n"
-            "⦿ Creation was by divine command, God said \"let there be and it was\".\n"
-            "⦿ Allah created the sun and moon to give man light during the day and night.\n"
-            "⦿ Allah created the heaven and earth so that man can know His power and majesty.\n"
-            "⦿ According to the Qur'an, humankind was created in stages or step by step or gradually or systematically.\n"
-            "⦿ Humankind was created from the mixture of male and female seminal fluid or secretions (Q53:45-46).\n"
-            "⦿ Adam was the first man to be created, followed by Hawa.\n"
-            "⦿ After fertilization the resulting organism settles in the mother's uterus like a seed (Q23:45-46).\n"
-            "⦿ Humankind's creation through reproduction began with the delivery of Hawa (Eve), the wife of Adam of their first set of twins.\n"
-            "⦿ It involves a congealed blood or clot stage or dust, sperm drop, blood clot.\n"
-            "⦿ It spans through adulthood and old age stage - child, adult, old person.\n"
-            "⦿ Humankind was created in the best form.\n"
-            "⦿ The creation of humankind shows how powerful Allah is.\n"
-            "⦿ In this way there will always be the existence of humankind on the earth till the end of time.\n"
-            "⦿ Allah created out of nothing.\n"
-            "⦿ Allah created the universe through his wisdom and goodness.\n\n"
-            "Answer: (b)\n"
-            "⦿ It was for the sake of humankind that the entire universe was created.\n"
-            "⦿ Humankind shares in God's creative activity.\n"
-            "⦿ Man is to display the attributes of God and be at peace with all creatures.\n"
-            "⦿ Humankind has dominion over all that God has created.\n"
-            "⦿ Humankind is the vicegerent or representative on earth.\n"
-            "⦿ Humankind takes care of and ensures the proper upkeep of God's creation (e.g environment, animals, etc.)\n"
-            "⦿ They serve and worship God.\n"
-            "⦿ They ensure the continuation of human creation by marrying and giving birth to offsprings.\n"
-            "⦿ Humankind obeys God's commandment on earth.\n"
-            "⦿ Humankind also ensures that God's creation such as fruits, herbs, plants, etc. do not become useless by using them for food, medicine, etc.",
-        explanation: ".",
-      ),
+scenario:
+"Question 8: (a) Narrate the creation story according to the Qur'an.\n"
+"(BECE 2008 Q1)",
+answer: "Correct Answer: (a) The Qur'anic creation story:\n"
+"⦿ According to the Qur'an, Allah created the heavens and the earth in six stages by His command alone, without any hardship, simply by saying to something, \"let there be,\" and it came into existence.\n"
+"⦿ Creation happened gradually and in proper order rather than all at once.\n"
+"⦿ Human beings were formed from a mixture of dust and fluid, which developed further as Allah shaped it and breathed His spirit into it, and thus Adam, the first man, came to be.\n"
+"⦿ Humankind is believed to develop from a small drop of fluid, through stages inside the mother's womb, becoming first a clinging mass, then a lump resembling chewed flesh, then bones which are then covered with muscle, before finally being born as a fully formed baby, who then grows through infancy into adulthood and eventually old age.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 9: (a) Narrate the covenant God made with Abraham.\n"
-            "(b) What three lessons can be learnt from God's covenant?\n"
-            "(BECE 2009 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ At the age of 75, God asked Abram to leave his country and family for the land of Canaan.\n"
-            "⦿ Abram was promised many descendants who would become a great nation.\n"
-            "⦿ God will bless Abram and make his name famous.\n"
-            "⦿ God will bless those who bless him and curse those who curse him.\n"
-            "⦿ Abram built an altar (at the Oak of Moreh) and worshipped God. (Gen. 15)\n"
-            "⦿ God promised Abram of His divine protection and a great deal of rewards.\n"
-            "⦿ Abram however became worried because he did not have a son of his own.\n"
-            "⦿ God again promised Abram of his own biological son and his descendant would be as numerous as the stars of the sky.\n"
-            "⦿ God directed Abram to perform an animal sacrifice as a sign that the promise would be fulfilled.\n"
-            "⦿ Abram had a dream which revealed that his descendants would be strangers in a foreign land and forced into slavery for 400 years after which they will have their freedom.\n"
-            "⦿ Abram was promised a long life (ripe old age) and a peaceful death. (Gen.17)\n"
-            "⦿ The Lord revealed Himself to Abram again at the age of ninety-nine (99) and declared that he is the Almighty God (El-Shaddai).\n"
-            "⦿ God told Abram to be obedient to Him and do what was right.\n"
-            "⦿ God further promised Abram that He would make him fruitful and great of nations or kings shall come from him or the land of Canaan shall belong to his descendants forever.\n"
-            "⦿ Abram accepted the covenant by falling on his face.\n"
-            "⦿ God changed Abram's name to Abraham and that of Sarai to Sarah.\n"
-            "⦿ Sarah was also to give birth to a son in her old age.\n"
-            "⦿ The new relationship (covenant) was extended to his descendants including Isaac, Ishmael and those yet unborn.\n"
-            "⦿ Abraham and his descendants were instructed to institute circumcision for every male child (on the 8th day of birth), anyone who is not circumcised must be separated from the society.\n"
-            "⦿ The covenant marked the beginning of a new relationship between God and Israel.\n\n"
-            "Answer: (b)\n"
-            "⦿ Assurance of God's protection upkeep of His people.\n"
-            "⦿ God can change a person's personality.\n"
-            "⦿ God is Almighty (El Shaddai).\n"
-            "⦿ Faith, if not accompanied by action, is dead.\n"
-            "⦿ God is ready to fulfill all His promises to humankind / we must be ready to fulfill the promise we make to people / covenants or promises must be respected.\n"
-            "⦿ God decides who to call and use to achieve his objectives.\n"
-            "⦿ Obedience to God and the elderly attracts blessing.\n"
-            "⦿ We must exercise patience as we wait on God or patience brings success in life.\n"
-            "⦿ Faith and trust are necessary for our interaction with God.\n"
-            "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
-        explanation: ".",
-      ),
+scenario:
+"Question 9: (a) Narrate the covenant God made with Abraham.\n"
+"(b) What three lessons can be learnt from God's covenant?\n"
+"(BECE 2009 Q1)",
+answer: "Correct Answer: (a) The covenant with Abraham:\n"
+"⦿ When Abraham was seventy-five years old, God spoke to him and instructed him to leave his homeland and his family in order to travel to a land God would show him.\n"
+"⦿ God promised that He would make Abraham into a great nation, bless him, and make his name well known, so that Abraham himself would become a blessing to others.\n"
+"⦿ God also promised to bless anyone who treated Abraham well and to curse anyone who mistreated him, and declared that through Abraham every family on earth would ultimately be blessed.\n"
+"⦿ Later, when Abraham was ninety-nine, God appeared to him again, describing Himself as God Almighty, and asked Abraham to live faithfully and blamelessly before Him.\n"
+"⦿ God renewed His covenant, promising that Abraham would be the ancestor of many nations and that kings would descend from him.\n"
+"⦿ As part of the covenant, God changed Abram's name to Abraham and promised to give him and his descendants the land of Canaan forever, declaring that He would be their God.\n"
+"⦿ In return, God required that Abraham and every male among his descendants be circumcised as the sign of this everlasting covenant, including newborn baby boys on the eighth day after birth.\n"
+"⦿ God also told Abraham that his wife would now be called Sarah, and that despite her old age, she would bear him a son, whom God would also bless.\n\n"
+"(b) Three lessons from the covenant:\n"
+"⦿ God keeps His promises, even when human circumstances, such as old age, seem to make fulfilment impossible.\n"
+"⦿ Obedience and faithfulness to God are essential in maintaining a covenant relationship with Him.\n"
+"⦿ A covenant with God establishes a lasting, binding relationship between God and His people, carrying responsibilities that pass down through generations.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 10: (a) Outline two uses each of the following things created by God:\n"
-            "(i) rivers;\n"
-            "(ii) sun;\n"
-            "(iii) plants.\n"
-            "(b) State four ways by which God's creation can be protected.\n"
-            "(BECE 2013 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "(i) Uses of rivers:\n"
-            "⦿ They provide us with water for irrigation purposes.\n"
-            "⦿ Water bodies can serve as means of transportation.\n"
-            "⦿ Salt is generated from the sea water.\n"
-            "⦿ They serve as source of good drinking water for mankind.\n\n"
-            "(ii) Uses of the sun:\n"
-            "⦿ It helps us to see the power of God.\n"
-            "⦿ It enables mankind to calculate times and seasons.\n"
-            "⦿ It helps us to get directions.\n"
-            "⦿ It makes it possible for mankind to see.\n\n"
-            "(iii) Uses of plants:\n"
-            "⦿ Most plants and their fruits serve as sources of food for mankind.\n"
-            "⦿ The stems, roots, leaves and barks of some plants serve as medicine and ingredients for preparation of medicines for mankind.\n"
-            "⦿ Some plants, called ornamental plants, are used to beautify the environments due to their attractive nature.\n"
-            "⦿ Plants provide oxygen for mankind.\n"
-            "⦿ Plants serve as shelter for mankind.\n"
-            "⦿ Furniture and building materials are derived from plants.\n\n"
-            "Answer: (b)\n"
-            "⦿ Mobilising members of the community to embark on tree planting exercises.\n"
-            "⦿ Avoid indiscriminate bush burning in order to conserve wild life.\n"
-            "⦿ Preserve the forest by educating the general public about the effects of excessive felling of trees.\n"
-            "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
-        explanation: ".",
-      ),
+scenario:
+"Question 10: (a) Outline two uses each of the following things created by God: (i) rivers, (ii) sun, (iii) plants.\n"
+"(b) State four ways by which God's creation can be protected.\n"
+"(BECE 2013 Q1)",
+answer: "Correct Answer: (a) Uses:\n"
+"⦿ Rivers: Provide water for drinking and for irrigating farmland; used as a means of transport for people and goods.\n"
+"⦿ Sun: Gives light to see by during the day; provides warmth that supports plant growth and life on earth.\n"
+"⦿ Plants: Serve as a source of food; provide raw materials for building and for making medicine.\n\n"
+"(b) Four ways to protect God's creation:\n"
+"⦿ Avoid the indiscriminate felling of trees.\n"
+"⦿ Discourage excessive and uncontrolled bush burning.\n"
+"⦿ Educate the general public on caring for the forest and the effects of pollution.\n"
+"⦿ Avoid polluting the atmosphere with smoke and other harmful, poisonous substances.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
-            "(b) State three attributes of God according to the Akan.\n"
-            "(BECE 2018 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The Great Chief (God) called \"Naawuni\" created the heaven and earth and all things in them in six (6) days.\n"
-            "⦿ He also created the spirits and the other lesser gods called \"Bola\" to serve as His messengers. They were to also serve as intermediary between Him and humanity.\n"
-            "⦿ Naawuni then rested on the seventh day after creation.\n"
-            "⦿ Naawuni also gave laws and principles to humanity as a guide to enable them avoid sin.\n"
-            "⦿ Those who live righteous lives will be rewarded by Naawuni.\n"
-            "⦿ The righteous will inherit the heaven when they die, but evil doers will go to hell where they will burn forever in an unquenchable fire.\n"
-            "⦿ The Dagombas are grateful to Him to the extent that He takes precedence in everything they do.\n\n"
-            "Answer: (b)\n"
-            "⦿ Eternal/Everlasting/Immortal: God was not made and He is the self-existing one now and forever.\n"
-            "⦿ Omniscient: God is able to discern right from wrong in the heart of men. He is all knowing.\n"
-            "⦿ Omnipresent: Christians believe that God is present everywhere.\n"
-            "⦿ Omnipotent: Christians see God as all-powerful and ever-powerful because they believe that His power is greater than all other powers.\n"
-            "⦿ Creator: Christians see God as the creator because they believe that He created the world and everything in it.\n"
-            "⦿ All-wise: God is the most sensible (wisest) being and nobody is greater than God in wisdom and understanding.\n"
-            "⦿ Generous or Kind: God is always willing to offer or give freely.\n"
-            "⦿ Supreme or Perfect or Final Judge: God's judgment or rule is complete or the best.\n"
-            "⦿ Loving God: God has a strong feeling of deep affection for His people.\n"
-            "⦿ Source of life and death: God is the originator of life and death.",
-        explanation: ".",
-      ),
+scenario:
+"Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
+"(b) State three attributes of God according to the Akan.\n"
+"(BECE 2018 Q1)",
+answer: "Correct Answer: (a) The Dagomba traditional story:\n"
+"⦿ In Dagomba tradition, the Supreme Being, known as Naawuni, is regarded as the great, all-powerful ruler of heaven and earth, whose power exceeds that of every other being.\n"
+"⦿ Naawuni is believed to have created the heavens and the earth, along with everything within them, over the course of six days, resting on the seventh.\n"
+"⦿ It is also held that Naawuni created lesser spirits, referred to as \"Bola,\" to act as intermediaries between Himself and humankind, and that these lesser gods serve as His messengers.\n\n"
+"(b) Three attributes of God according to the Akan:\n"
+"⦿ Omnipresent: God is believed to be everywhere at once.\n"
+"⦿ Omniscient: God is regarded as all-knowing, able to see what is wrong in a person's heart.\n"
+"⦿ All-wise: God is seen as the most sensible being, whose judgement and understanding are greater than anyone else's.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 12: (a) Narrate the covenant God made with Abraham.\n"
-            "(b) What three lessons can be learnt from God's covenant with Abraham?\n"
-            "(BECE 2018 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ At the age of 75, God asked Abram to leave his country and family for the land of Canaan.\n"
-            "⦿ Abram was promised many descendants who would become a great nation.\n"
-            "⦿ God will bless Abram and make his name famous.\n"
-            "⦿ God will bless those who bless him and curse those who curse him.\n"
-            "⦿ Abram built an altar (at the Oak of Moreh) and worshipped God. (Gen. 15)\n"
-            "⦿ God promised Abram of His divine protection and a great deal of rewards.\n"
-            "⦿ Abram however became worried because he did not have a son of his own.\n"
-            "⦿ God again promised Abram of his own biological son and his descendant would be as numerous as the stars of the sky.\n"
-            "⦿ God directed Abram to perform an animal sacrifice as a sign that the promise would be fulfilled.\n"
-            "⦿ Abram had a dream which revealed that his descendants would be strangers in a foreign land and forced into slavery for 400 years after which they will have their freedom.\n"
-            "⦿ Abram was promised a long life (ripe old age) and a peaceful death. (Gen.17)\n"
-            "⦿ The Lord revealed Himself to Abram again at the age of ninety-nine (99) and declared that he is the Almighty God (El-Shaddai).\n"
-            "⦿ God told Abram to be obedient to Him and do what was right.\n"
-            "⦿ God further promised Abram that He would make him fruitful and great of nations or kings shall come from him or the land of Canaan shall belong to his descendants forever.\n"
-            "⦿ Abram accepted the covenant by falling on his face.\n"
-            "⦿ God changed Abram's name to Abraham and that of Sarai to Sarah.\n"
-            "⦿ Sarah was also to give birth to a son in her old age.\n"
-            "⦿ The new relationship (covenant) was extended to his descendants including Isaac, Ishmael and those yet unborn.\n"
-            "⦿ Abraham and his descendants were instructed to institute circumcision for every male child (on the 8th day of birth), anyone who is not circumcised must be separated from the society.\n"
-            "⦿ The covenant marked the beginning of a new relationship between God and Israel.\n\n"
-            "Answer: (b)\n"
-            "⦿ Assurance of God's protection upkeep of His people.\n"
-            "⦿ God can change a person's personality.\n"
-            "⦿ God is Almighty (El Shaddai).\n"
-            "⦿ Faith, if not accompanied by action, is dead.\n"
-            "⦿ God is ready to fulfill all His promises to humankind / we must be ready to fulfill the promise we make to people / covenants or promises must be respected.\n"
-            "⦿ God decides who to call and use to achieve his objectives.\n"
-            "⦿ Obedience to God and the elderly attracts blessing.\n"
-            "⦿ We must exercise patience as we wait on God or patience brings success in life.\n"
-            "⦿ Faith and trust are necessary for our interaction with God.\n"
-            "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
-        explanation: ".",
-      ),
+scenario:
+"Question 12: (a) Narrate the covenant God made with Abraham.\n"
+"(b) State three reasons for which God's covenant with Abraham can be considered important.\n"
+"(BECE 2018 Q2)",
+answer: "Correct Answer: (a) \n"
+"⦿ Refer to Question 9(a) above for the full narration of the covenant God made with Abraham.\n\n"
+"(b) Reasons the covenant is important:\n"
+"⦿ It assured Abraham and his descendants of God's continual protection.\n"
+"⦿ It gave humankind the responsibility to act as caretakers of God's creation on earth.\n"
+"⦿ It established a lasting, personal bond of faith, obedience and blessing between God and Abraham's descendants.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 13: (a) Describe how God created mankind according to the Bible.\n"
-            "(b) State three reasons for which mankind was created.\n"
-            "(BECE 2020 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ God created man on the sixth day.\n"
-            "⦿ He created male (Adam) and female (Eve).\n"
-            "⦿ He created them in His own image and likeness.\n"
-            "⦿ God blessed them and charged them to procreate (give birth) and fill the earth.\n"
-            "⦿ God gave man authority or dominion over all creation.\n"
-            "⦿ God created the man from clay/dust/sand.\n"
-            "⦿ God gave them plants for food.\n"
-            "⦿ God breathed into Adam's nostrils the breath of life in them and man became a living soul.\n"
-            "⦿ God kept man in the Garden of Eden to care for it.\n"
-            "⦿ God charged man to name all the animals.\n"
-            "⦿ Man was alone so God created a helper for him.\n"
-            "⦿ God put man into deep sleep and took one of his ribs.\n"
-            "⦿ God used the rib from the man to create the woman for the man as his helper.\n"
-            "⦿ Man was happy and called her Eve.\n\n"
-            "Answer: (b)\n"
-            "⦿ To serve or worship God.\n"
-            "⦿ To take control of God's creation (to have dominion over the creation).\n"
-            "⦿ To protect God's creation / stewardship.\n"
-            "⦿ To continue with God's creation, i.e. procreation, farming, etc. for survival.\n"
-            "⦿ To develop God's creation through science and technology e.g. rearing animals, medicine and space explorations.",
-        explanation: ".",
-      ),
+scenario:
+"Question 13: (a) Narrate how God created mankind according to the Bible.\n"
+"(b) State four responsibilities of man according to God's creation.\n"
+"(BECE 2020 Q1)",
+answer: "Correct Answer: (a) How God created mankind:\n"
+"⦿ Before creation began, the earth had no shape and was covered in complete darkness, with God's spirit moving over the waters.\n"
+"⦿ God then brought light into being, separating it from darkness, and named them \"day\" and \"night.\"\n"
+"⦿ Later, He formed the sky to divide the waters above from those below, and gathered the waters on earth to reveal dry land, upon which vegetation began to grow.\n"
+"⦿ God then set the sun to govern the day and the moon and stars to govern the night, using them to mark seasons, days and years.\n"
+"⦿ On the sixth day, having already filled the seas and skies with living creatures, God formed human beings, male and female, in His own likeness, and gave them charge over all the animals and the whole earth.\n\n"
+"(b) Four responsibilities of man towards God's creation:\n"
+"⦿ Reproduction: Humankind is responsible for procreating and ensuring the continuation of human life.\n"
+"⦿ Farming: People are expected to engage in agricultural activity to produce food for themselves and others.\n"
+"⦿ Animal husbandry: Man is responsible for rearing animals such as sheep, cattle and poultry to provide food for the community.\n"
+"⦿ Environmental care: Man must look after rivers, lakes, streams and the wider environment, and avoid polluting them through activities such as improper waste disposal.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 14: (a) Narrate how God created lights according to the Bible.\n"
-            "(b) State four responsibilities of man toward God's creation.\n"
-            "(BECE 2021 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ God created lights on the first day.\n"
-            "⦿ Before creation, the world was formless, void or empty.\n"
-            "⦿ Darkness was upon the face of the earth.\n"
-            "⦿ God's spirit was moving over the face of the waters.\n"
-            "⦿ God said let there be light and there was light.\n"
-            "⦿ God separated the light from the darkness.\n"
-            "⦿ This created day and night.\n"
-            "⦿ The light He called day and the darkness called night.\n"
-            "⦿ On the fourth day God created the sun, moon, and the stars.\n"
-            "⦿ The sun was to rule the day while the moon and stars the night.\n"
-            "⦿ The luminaries were to determine the times, signs.\n"
-            "⦿ God saw the light He created to be good.\n\n"
-            "Answer: (b)\n"
-            "⦿ Man is responsible for reproduction or procreation to ensure human existence. He is to marry and give birth to children to ensure continuity of family and society.\n"
-            "⦿ Man is responsible to engage in farming activities to produce the needs of humankind such as food. He is to farm and provide food such as cassava, cocoyam, tomatoes, orange, etc, to feed humankind.\n"
-            "⦿ Man is responsible to engage in rearing of animals such as sheep, cattle, poultry, etc, to supply the other needs of human survival.\n"
-            "⦿ Man is responsible to ensure conservation of plants and animal species or wildlife. He is to engage in afforestation and plant trees to protect the environment.\n"
-            "⦿ Man is responsible to ensure promote environmental cleanliness / preservation of water bodies such as rivers, lakes, streams, etc and protect human human and animal polluted through human and animal activities like washing, bathing or defecating into water bodies.",
-        explanation: ".",
-      ),
+scenario:
+"Question 14: (a) Narrate how God created the lights according to the Bible.\n"
+"(BECE 2021 Q1)",
+answer: "Correct Answer: (a) The creation of the lights:\n"
+"⦿ On the fourth day of creation, God commanded that lights appear in the sky to separate day from night, and to serve as signs marking seasons, days and years.\n"
+"⦿ He made two great lights: the greater one, the sun, to govern the day, and the lesser one, the moon, to govern the night, along with the stars.\n"
+"⦿ God placed them in the sky to give light upon the earth, to rule over both day and night, and to divide light from darkness.\n"
+"⦿ Having done this, God saw that it was good.",
+explanation: ".",
+),
       PracticeQuestion(
-        scenario:
-            "Question 15: (a) Narrate the covenant God made with Abraham.\n"
-            "(b) State three lessons that can be learnt from the covenant.\n"
-            "(BECE 2022 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ At the age of 75, God asked Abram to leave his country and family for the land of Canaan.\n"
-            "⦿ Abram was promised many descendants who would become a great nation.\n"
-            "⦿ God will bless Abram and make his name famous.\n"
-            "⦿ God will bless those who bless him and curse those who curse him.\n"
-            "⦿ Abram built an altar (at the Oak of Moreh) and worshipped God. (Gen. 15)\n"
-            "⦿ God promised Abram of His divine protection and a great deal of rewards.\n"
-            "⦿ Abram however became worried because he did not have a son of his own.\n"
-            "⦿ God again promised Abram of his own biological son and his descendant would be as numerous as the stars of the sky.\n"
-            "⦿ God directed Abram to perform an animal sacrifice as a sign that the promise would be fulfilled.\n"
-            "⦿ Abram had a dream which revealed that his descendants would be strangers in a foreign land and forced into slavery for 400 years after which they will have their freedom.\n"
-            "⦿ Abram was promised a long life (ripe old age) and a peaceful death. (Gen.17)\n"
-            "⦿ The Lord revealed Himself to Abram again at the age of ninety-nine (99) and declared that he is the Almighty God (El-Shaddai).\n"
-            "⦿ God told Abram to be obedient to Him and do what was right.\n"
-            "⦿ God further promised Abram that He would make him fruitful and great of nations or kings shall come from him or the land of Canaan shall belong to his descendants forever.\n"
-            "⦿ Abram accepted the covenant by falling on his face.\n"
-            "⦿ God changed Abram's name to Abraham and that of Sarai to Sarah.\n"
-            "⦿ Sarah was also to give birth to a son in her old age.\n"
-            "⦿ The new relationship (covenant) was extended to his descendants including Isaac, Ishmael and those yet unborn.\n"
-            "⦿ Abraham and his descendants were instructed to institute circumcision for every male child (on the 8th day of birth), anyone who is not circumcised must be separated from the society.\n"
-            "⦿ The covenant marked the beginning of a new relationship between God and Israel.\n\n"
-            "Answer: (b)\n"
-            "⦿ Assurance of God's protection upkeep of His people.\n"
-            "⦿ God can change a person's personality.\n"
-            "⦿ God is Almighty (El Shaddai).\n"
-            "⦿ Faith, if not accompanied by action, is dead.\n"
-            "⦿ God is ready to fulfill all His promises to humankind / we must be ready to fulfill the promise we make to people / covenants or promises must be respected.\n"
-            "⦿ God decides who to call and use to achieve his objectives.\n"
-            "⦿ Obedience to God and the elderly attracts blessing.\n"
-            "⦿ We must exercise patience as we wait on God or patience brings success in life.\n"
-            "⦿ Faith and trust are necessary for our interaction with God.\n"
-            "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
-        explanation: ".",
-      ),
+scenario:
+"Question 15: (a) Narrate the covenant God made with Abraham.\n"
+"(b) State three lessons that can be learnt from the covenant.\n"
+"(BECE 2022 Q1)",
+answer: "Correct Answer: (a) \n"
+"⦿ Refer to Question 9(a) above.\n\n"
+" (b)\n"
+"⦿ Refer to Question 9(b) above.",
+explanation: ".",
+),
     ],
   ),
-  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance":
-      PracticeModel(
+  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-            "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
-            "(b) Give three reasons why the festival is celebrated.\n"
-            "(BECE 1999 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "In the Akan community, the Akwasidae festival is celebrated on a Sunday once every six weeks. It is one of the two key periodic celebrations, the other being Awukudae which falls on a Wednesday.\n"
-            "⦿ On the day of the celebration, a series of rituals and activities are performed to honour the ancestors.\n"
-            "⦿ The celebration begins on the eve of the festival, known as Dapaah, when the state drummers or stool drummers perform the \"Awakening\" by beating the drums at the chief's palace.\n"
-            "⦿ Through this drumming, the master drummers call upon the spirits of the ancestor drummers, recite the history of the state, and praise the Supreme Being and the deities.\n"
-            "⦿ In the early morning of the Adae day, the chief, his elders, and the stool bearers enter the stool room in a customary manner.\n"
-            "⦿ In the stool room, the chief greets the ancestors, pours libation, and offers requests for himself, his elders, and the entire community. He then offers drinks for the spirits and returns to his seat for the public celebrations.\n"
-            "⦿ Drums are beaten, horns are blown, and people gather to witness the event.\n"
-            "⦿ As part of the celebrations, a sheep is slaughtered and its blood is smeared on the ancestral stools.\n"
-            "⦿ Pieces of meat are also placed on the stools as a food offering to the ancestral spirits.\n"
-            "⦿ The chief then gives some of the food to the ancestral spirits in the stool room and later tastes some of the food first before giving some to the people present with him in the stool room.\n"
-            "⦿ He leaves the rest to the spirit and returns to sit in state for the public celebration.\n"
-            "⦿ After offering food to the ancestors, the chief presents gifts to the people.\n"
-            "⦿ Later in the evening, the chief and his elders sit to settle disputes among families and family lines.\n\n"
-            "Answer: (b)\n"
-            "⦿ **To promote peace and unity**: Festivals allow people to come together to resolve long-standing disputes and strengthen social ties.\n"
-            "⦿ **To remember the ancestors**: Celebrations provide a designated time to cleanse the ancestral stools, offer food and drinks, and show gratitude to the ancestors.\n"
-            "⦿ **To showcase cultural heritage**: It gives the community an opportunity to display their rich culture through historical drumming, traditional attire, songs, and dances.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
-            "(BECE 2016 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ **Homowo**: Celebrated by the Ga-Adangme of the Greater Accra Region.\n"
-            "⦿ **Kundum**: Celebrated by the Ahantas and Nzemas of the Western Region.\n"
-            "⦿ **Odwira**: Celebrated by the Akuapems of the Eastern Region.\n"
-            "⦿ **Hogbetsotso**: Celebrated by the Anlo Ewes of the Volta Region.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario: "Question 3: (a) Describe how Christians celebrate Easter.\n"
-            "(b) Explain five reasons why festivals are celebrated in Ghana.\n"
-            "(BECE 2012 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Christians celebrate Easter to commemorate the death and resurrection of Jesus Christ.\n"
-            "⦿ On Good Friday, Christians attend church services to remember when Jesus was crucified.\n"
-            "⦿ They pray and thank God for giving His son to die for their sins.\n"
-            "⦿ Some churches organize conventions or special burial services for Jesus Christ to show they are sad and mourning.\n"
-            "⦿ Special prayers are said and regular church services are organized by orthodox churches like the Roman Catholic, Presbyterian, and Methodist.\n"
-            "⦿ The following Sunday is believed to be the day that Jesus rose from the dead, making it the most joyous moment for every Christian.\n"
-            "⦿ On Easter Sunday, church members put on beautiful festive clothes, which are usually white, to express their joy in the resurrection of Jesus Christ.\n"
-            "⦿ They sing special hymns to express their happiness, and some churches organize picnics where they cook and eat with their loved ones and give gifts to one another.\n\n"
-            "Answer: (b)\n"
-            "⦿ **To remember past important events**: Festivals allow people to recall major events in their history, such as the deliverance from hunger or ancestral migrations.\n"
-            "⦿ **To renew loyalty to the chief**: Subjects use the festival periods to pledge allegiance and show respect to their traditional leaders.\n"
-            "⦿ **To raise funds for development**: Festivals bring both local residents and non-residents together to plan projects and pool financial resources for community growth.\n"
-            "⦿ **To preserve and promote tradition**: They provide a platform to transfer historical knowledge, customs, and practices to the younger generation.\n"
-            "⦿ **To seek blessings and protection**: They serve as a holy period to ask God, the deities, or the ancestors for peace, good health, and a successful harvest.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario: "Question 4: (a) What is Eid-ul-Adha?\n"
-            "(b) Explain how it is observed by your community.\n"
-            "(BECE 2015 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Eid-ul-Adha is one of the Islamic festivals celebrated by Muslims worldwide to remember Abraham’s absolute submission and faithfulness to Allah when he was tested to offer his son Ishmael for a sacrifice.\n\n"
-            "Answer: (b)\n"
-            "⦿ It is celebrated on the 10th day of Zul-Hijjah, which is the month of pilgrimage on the Islamic calendar.\n"
-            "⦿ During this period, Muslims the world over who are financially sound are expected to make a sacrifice of a sheep to Allah.\n"
-            "⦿ Before the sheep is slaughtered for the sacrifice, the head of the butcher is placed on the animal and the prescribed prayer is recited.\n"
-            "⦿ The meat of the animal or its worth in cash must be given as alms to the poor or used in philanthropic projects.\n"
-            "⦿ The first part is divided into families, the second part is divided among neighbours, and the third part is divided among beggars and the destitute.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario: "Question 5: (a) Mention four causes of death.\n"
-            "(b) Give four reasons why death rites are performed.\n"
-            "(BECE 2011 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Old age.\n"
-            "⦿ Sickness/diseases (e.g., malaria, accidents, etc.).\n"
-            "⦿ Natural disasters (e.g., earthquakes, floods).\n"
-            "⦿ Murder or war.\n\n"
-            "Answer: (b)\n"
-            "⦿ **To respect the dead**: Death rites constitute separation rites from this physical world and initiation into the spiritual world.\n"
-            "⦿ **To show sympathy**: They are occasions for paying last respects to the dead and showing sympathy to the bereaved family.\n"
-            "⦿ **To encourage good moral lives**: They are occasions used to encourage people to lead good lives in order to be welcomed in the next world.\n"
-            "⦿ **To help the deceased become an ancestor**: Traditionally, funeral rites give the dead the opportunity to become ancestors and look over the living.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
-            "(b) List four factors to be considered in choosing a name for a child.\n"
-            "(BECE 2005 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ **Gives identity**: It gives the child an identity as a human being in the society.\n"
-            "⦿ **Provides financial support**: It provides financial support as it brings the family and friends together to make donations of money and items to the parents.\n"
-            "⦿ **Welcomes the child**: Through the joy and merrymaking, the child is formally welcomed into the family and the community at large.\n"
-            "⦿ **Promotes unity**: It promotes unity and solidarity among family members and friends.\n\n"
-            "Answer: (b)\n"
-            "⦿ **Week day**: The week and day on which the child was born.\n"
-            "⦿ **Family circumstances**: The occasion or period or circumstances under which the child was born.\n"
-            "⦿ **Gender**: Whether the child is a male or female.\n"
-            "⦿ **Birth order**: The order of birth (e.g., Panyin, Kakra, Mansa).",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
-            "(b) State three things which make marriage successful.\n"
-            "(BECE 2007 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ In Islam, young boys and girls are not supposed to have any kind of relationship before marriage.\n"
-            "⦿ The selection of marriage partner is initiated in two ways; either by the man himself or his family.\n"
-            "⦿ Individuals may make their own choices, but these must find the approval of parents and family members.\n"
-            "⦿ A formal matrimonial guardian must manage the process on behalf of the bride.\n"
-            "⦿ The bride price (Mahra or Sadaki) in the form of money, kola nuts, and other gifts is paid to the girl's parents, especially to the mother. All the data show that they agree to the marriage contract.\n"
-            "⦿ A wedding ceremony (Nikah) is performed by a licensed Islamic priest an Imam or a Malam almost immediately after the payment of the bride price.\n"
-            "⦿ There is a reading of marriage vows (Nikah contract), and a making of marriage vows if the couple are asked three times if they agreed to be married.\n"
-            "⦿ The Imam reads from the fourth chapter (Surat) of the Quran to outline the importance of marriage and the duties and responsibilities of the parties.\n"
-            "⦿ This is followed by a wedding feast or feasting (Walima).\n\n"
-            "Answer: (b)\n"
-            "⦿ **Love and understanding**: Partners must share mutual care and compromise.\n"
-            "⦿ **Faithfulness and honesty**: Being open and loyal keeps the relationship strong.\n"
-            "⦿ **Effective communication**: Resolving conflicts peacefully through talking prevents misunderstandings.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 8: (a) Explain four major causes of death in your country.\n"
-            "(b) What four steps can be taken to prevent such deaths?\n"
-            "(BECE 2021 Q3)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Diseases: Death is caused by illnesses or sicknesses such as HIV/AIDS, high blood pressure, cancer, diabetes, malaria, etc.\n"
-            "⦿ Accidents: Fatal incidents on roads, water, or job sites claim many lives.\n"
-            "⦿ Natural disasters: Occurrences of natural disasters such as flooding, earthquakes, tsunamis, etc.\n"
-            "⦿ Hunger/poverty: Shortage of food as well as extreme poverty can cause people to die, leading to malnutrition, starvation, etc.\n\n"
-            "Answer: (b)\n"
-            "⦿ **Personal hygiene**: People should practice personal hygiene such as bathing twice a day, washing hands before eating, weeding around houses, etc.\n"
-            "⦿ **Immunization**: Children should be immunized against the six killer diseases such as tetanus, measles, poliomyelitis, etc. to prevent death.\n"
-            "⦿ **Eating a balanced diet**: People should eat foods that contain the right amount of nutrients like vitamins, calcium, carbohydrates, etc. to prevent diseases.\n"
-            "⦿ **Regular medical check-ups**: People should seek regular check-ups from professional medical assistants to enable early treatment.",
-        explanation: ".",
-      ),
+scenario:
+"Question 1: (a) Describe the traditional festival celebrated in your community.\n"
+"(b) List three reasons why the festival is celebrated.\n"
+"(BECE 1999 Q1)",
+answer: "Correct Answer: (a) Describe the traditional festival celebrated in your community:\n"
+"⦿ I reside in an Akan community where the main traditional celebration is the Adae festival.\n"
+"⦿ This observance features two primary cycles: the Akwasidae, which takes place on a Sunday, and the Awukudae, which occurs on a Wednesday.\n"
+"⦿ The preceding day, referred to as “Dapaah” or “Awukudae Dapaah,” is dedicated to making preparations and purifying the environment. During these preparatory moments, people travel back to their hometowns, clear pathways, gather household supplies, and prepare offerings for the traditional rites.\n"
+"⦿ On the evening prior to the main event, the stool drummer beats the talking drum—known as the “Awakening”—to officially announce the upcoming celebration to the community.\n"
+"⦿ In his recitations, the drummer details the raw materials used to craft the drums, acknowledges the ancestral drummers, and narrates the historical traditions of the state.\n"
+"⦿ Early on the morning of the Adae, the traditional chief, accompanied by elders and the stool bearer, enters the sacred stool room in a formal, customary manner.\n"
+"⦿ In keeping with custom, the chief calls upon the ancestors, invoking them by name while offering libations and presenting drinks to honor the spirits and seek their return to their seats of authority.\n"
+"⦿ Traditional drums are beaten while ancestral songs are sung, accompanied by ceremonial dancing.\n"
+"⦿ As part of the rites, a ritual sheep is slaughtered, and its blood is smeared on the ancestral stools, after which a special meal is prepared using a portion of the meat.\n"
+"⦿ The chief proceeds into the stool room once more to offer a portion of this food to the ancestral spirits, sampling some himself before leaving the remainder for the spirits and returning to his seat.\n"
+"⦿ Throughout the day, the chief petitions the spirits and ancestors to shower blessings upon the people, guard them against harm, and grant a bountiful harvest at the conclusion of every season.\n"
+"⦿ Following these rituals, the chief and his council sit in state to settle lingering disputes among families and community members.\n\n"
+"(b) Three reasons why the festival is celebrated:\n"
+"⦿ To honor, remember, and seek continuous guidance and protection from the ancestral spirits and traditional gods.\n"
+"⦿ To cleanse and purify the ancestral stools, royal equipment, and the entire community of any spiritual contamination.\n"
+"⦿ To promote peace, resolve local disputes, and foster unity and togetherness among family members and citizens.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 2: (a) What is Eid-ul-Adha?\n"
+"(b) Explain how it is observed in your community.\n"
+"(BECE 2003 Q2)",
+answer: "Correct Answer: (a) What is Eid-ul-Adha?\n"
+"⦿ Eid-ul-Adha is one of the principal Islamic festivals celebrated annually on the 10th day of Zul-Hijjah, the twelfth month of the Islamic lunar calendar.\n"
+"⦿ It is known as the Feast of Sacrifice, celebrated to commemorate the willingness and devotion of Prophet Ibrahim (Abraham) to sacrifice his son Ishmael in obedience to God's command, before Allah provided a ram to replace the child.\n\n"
+"(b) How it is observed in the community:\n"
+"⦿ Muslims begin the period by engaging in charitable acts, ensuring those who are financially less fortunate are enabled to offer sacrifices to Allah.\n"
+"⦿ On the morning of the festival, congregants gather in white attire at an open prayer ground (the Eid ground) to perform special communal prayers led by the Imam.\n"
+"⦿ After the sermon and prayers conclude, a healthy domestic animal, typically a sheep, goat, or cow, is slaughtered in accordance with Islamic prescribed guidelines.\n"
+"⦿ The sacrificial meat is divided into three parts: one portion is retained by the family, another portion is given to friends and relatives, and the final portion is distributed to the poor, needy, and destitute.\n"
+"⦿ Families prepare elaborate meals, share food across the neighborhood, exchange gifts, and visit friends and relatives to celebrate unity and brotherly love.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 3: (a) List five traditional festivals in Ghana and indicate where they are celebrated.\n"
+"(b) Explain five reasons why festivals are celebrated.\n"
+"(BECE 2012 Q2 / BECE 2018 Q3)",
+answer: "Correct Answer: (a) Five traditional festivals in Ghana and where they are celebrated:\n"
+"⦿ Odwira festival: Celebrated by the people of Akwapim, Aburi, and Amanokrom.\n"
+"⦿ Homowo festival: Celebrated by the Ga people of Accra and surrounding areas.\n"
+"⦿ Hogbetsotso festival: Celebrated by the Anlo-Ewes in the Volta Region (Anloga).\n"
+"⦿ Aboakyer festival: Celebrated by the Efutu people of Winneba.\n"
+"⦿ Fetu Afahye festival: Celebrated by the Oguaa people of Cape Coast.\n\n"
+"(b) Five reasons why festivals are celebrated:\n"
+"⦿ To foster peace, unity, and friendliness: Festivals bring community members, traditional leaders, and visitors together, providing a platform to settle disputes, restore peace, and strengthen social harmony.\n"
+"⦿ To remember important historical events and ancestors: They serve as an annual occasion to recall historical milestones, victories, migrations, and to pay tribute to ancestral spirits for their contributions to the society.\n"
+"⦿ To preserve and promote cultural heritage: Celebrations showcase traditional drumming, dancing, regalia, oral histories, and customs, thereby passing cultural values down to younger generations.\n"
+"⦿ To purify the community and religious objects: Festivals feature sacred cleansing rituals designed to purify traditional stools, shrines, and community grounds of bad omens and spiritual dirt.\n"
+"⦿ To plan and execute developmental projects: Key stakeholders, citizens, and non-resident community members gather during festivals to discuss local developmental needs, raise funds, and execute projects for community progress.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 4: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
+"(b) Explain four ways traditional festivals are important to your community.\n"
+"(BECE 2016 Q1)",
+answer: "Correct Answer: (a) Four agricultural festivals and where they are celebrated:\n"
+"⦿ Kundum festival: Celebrated by the Ahanta and Nzema people.\n"
+"⦿ Yam festival (Tedudu): Celebrated by the people of Ho, Peki, and Hohoe.\n"
+"⦿ Bakatue festival: Celebrated by the people of Elmina.\n"
+"⦿ Homowo festival: Celebrated by the Ga people.\n\n"
+"(b) Four ways traditional festivals are important to the community:\n"
+"⦿ Economic development and fundraising: Festivals attract tourists, dignitaries, and citizens from afar, boosting local trade and generating funds for infrastructural projects such as schools and health centers.\n"
+"⦿ Social reunion and family bonding: They afford long-separated family members and non-resident citizens the opportunity to return home, reconnect, and rebuild family relationships.\n"
+"⦿ Promoting moral and spiritual values: By engaging in acts of thanksgiving, reconciliation, and self-examination, individuals are inspired to maintain high moral standards and align with ancestral guidance.\n"
+"⦿ Promoting tourism: The rich cultural displays, traditional regalia, and historical reenactments draw domestic and international tourists, showcasing the community to the wider world.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 5: (a) Describe how Christians celebrate Easter.\n"
+"(b) State four reasons for which Easter festival is important to the Christian.\n"
+"(BECE 2018 Q3 / BECE 2012 Q2b)",
+answer: "Correct Answer: (a) How Christians celebrate Easter:\n"
+"⦿ Easter is celebrated in late March or early April to mark the death and resurrection of Jesus Christ.\n"
+"⦿ The observance begins with Good Friday services where Christians wear dark or sober clothing to reflect on the suffering, crucifixion, and death of Jesus Christ for human sins.\n"
+"⦿ Special church services continue through Holy Saturday, leading into Easter Sunday, which is the most joyful day of the celebration.\n"
+"⦿ On Easter Sunday, believers dress in bright white clothing to symbolize victory over death and the resurrection of Christ, singing joyful hymns and praises.\n"
+"⦿ The period is marked by holding conventions, crusade meetings, sharing special meals, and exchanging gifts among loved ones and the needy.\n\n"
+"(b) Four reasons for which Easter festival is important to the Christian:\n"
+"⦿ Reminds believers of Christ's resurrection: It confirms the core foundation of the Christian faith—that Jesus Christ conquered death and is alive.\n"
+"⦿ Assurance of salvation and forgiveness: It reassures Christians that their sins are forgiven through the sacrificial death and victory of Jesus Christ.\n"
+"⦿ Promotes unity and fellowship: It brings believers from various denominations together in large conventions, joint services, and shared activities.\n"
+"⦿ Encourages love and reconciliation: The season inspires Christians to forgive others, show mercy, share with the less fortunate, and renew their commitment to live holy lives.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 6: (a) Narrate the story of Hogbetsotso festival.\n"
+"(b) State three reasons for which festivals are celebrated.\n"
+"(BECE 2022 Q2)",
+answer: "Correct Answer: (a) The story of Hogbetsotso festival:\n"
+"⦿ The Hogbetsotso festival commemorates the historical escape of the Anlo-Ewe people from the tyrannical rule of King Agorkorli at Notsie in present-day Togo.\n"
+"⦿ King Agorkorli subjected the Anlo people to harsh punishment and forced labor, such as compelling them to mix mud with thorn branches and broken glass to erect a massive mud wall around his kingdom.\n"
+"⦿ To escape this cruelty, the Anlo people devised a clever plan: the women threw leftover wastewater against one section of the mud wall over a long period, softening the structure.\n"
+"⦿ During a grand night of feast and heavy drumming organized to distract the King and his guards, a brave hunter named Tegbe Tsali used a ceremonial sword to breach the softened mud wall.\n"
+"⦿ The people slipped out of the town through the opening, walking backwards to confuse their pursuers into believing that incoming travelers had made the footprints.\n"
+"⦿ Led by their spiritual leaders and forebears, they journeyed until they safely crossed the Volta River and settled in their current homeland at Anloga.\n\n"
+"(b) Three reasons for which festivals are celebrated:\n"
+"⦿ To express gratitude to God, traditional deities, and ancestors for protection, health, and bumper harvests throughout the year.\n"
+"⦿ To preserve and transmit historical events, bravery, and cultural values to younger generations.\n"
+"⦿ To promote community development, reconcile conflicting parties, and strengthen peaceful relationships.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 7: (a) Explain briefly four reasons for which one must show commitment to friends.\n"
+"(BECE 2022 Q4b)",
+answer: "Correct Answer: (a) Four reasons for which one must show commitment to friends:\n"
+"⦿ It attracts divine blessings: Demonstrating genuine care and loyalty toward friends reflects godly love and attracts God's favor and goodwill into one's life.\n"
+"⦿ It prevents misunderstandings and resolves conflicts: Faithful commitment fosters open communication, empathy, and mutual respect, reducing friction and helping friends resolve issues peacefully.\n"
+"⦿ It promotes tolerance and acceptance of differences: Loyal friends accept each other's flaws, differing opinions, and unique personalities, building a supportive and harmonious bond.\n"
+"⦿ It provides emotional support and inner peace: Knowing that one has reliable friends brings comfort during difficult times, builds self-confidence, and promotes overall mental well-being.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 8: (a) What is puberty?\n"
+"(b) What is the importance of this rite to the people in your community?\n"
+"(BECE 2000 Q1)",
+answer: "Correct Answer: (a) What is puberty?\n"
+"⦿ Puberty is the physical, physiological, and emotional transition period during which a child's body undergoes biological changes to attain sexual maturity and reproductive capacity.\n"
+"⦿ It typically occurs between the ages of 10 and 19 years, marking the boundary between childhood and adulthood.\n\n"
+"(b) Importance of this rite to the people in the community:\n"
+"⦿ Promotes moral uprightness and chastity: It encourages young boys and girls to refrain from pre-marital sexual activities and avoid unwanted teenage pregnancies.\n"
+"⦿ Prepares youth for adulthood and marriage: Initiates receive practical instruction regarding family responsibilities, home management, personal hygiene, and moral living.\n"
+"⦿ Brings honor to parents and families: Successfully undergoing puberty rites without prior pregnancy brings immense pride, respect, and social dignity to the initiate's family.\n"
+"⦿ Preserves cultural identity: It teaches young individuals the customs, taboos, values, and traditions of their community.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 9: (a) Give four reasons why a naming ceremony is important in your community.\n"
+"(b) Identify three factors to be considered in choosing a name for a child.\n"
+"(BECE 2005 Q2)",
+answer: "Correct Answer: (a) Four reasons why a naming ceremony is important in the community:\n"
+"⦿ Gives identity to the newborn: It formally assigns a unique personal, family, or ancestral name to the child, recognizing them as an official member of the family and wider society.\n"
+"⦿ Welcomes the child into the human world: It marks the physical transition of the baby from the spiritual realm into the living human community.\n"
+"⦿ Instills moral uprightness: The symbolic use of water and alcohol teaches the child the vital importance of honesty, truthfulness, and integrity throughout life.\n"
+"⦿ Strengthens family and social bonds: The occasion gathers extended family members, friends, and well-wishers to offer prayers, support, and gifts to the parents and child.\n\n"
+"(b) Three factors to be considered in choosing a name for a child:\n"
+"⦿ Day of birth: The specific day of the week the baby was born (e.g., Kwadwo for a Monday-born male or Abena for a Tuesday-born female).\n"
+"⦿ Circumstance of birth: Special situations surrounding the birth, such as being born as twins (e.g., Ata/Ataa) or position among siblings (e.g., Tetteh or Mansa).\n"
+"⦿ Ancestral character and family lineage: Names of virtuous ancestors or respected living relatives are selected to encourage the child to emulate their good deeds.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 10: (a) Describe how marriage ceremony is performed in Islam.\n"
+"(b) State three things which make marriage successful.\n"
+"(BECE 2007 Q2)",
+answer: "Correct Answer: (a) How marriage ceremony is performed in Islam:\n"
+"⦿ The process commences with the proposal and formal consent seeking, where the groom's family approaches the bride's parents to state their intent.\n"
+"⦿ Necessary background checks are conducted by both families to ensure compatibility and moral uprightness.\n"
+"⦿ A legal guardian (Wali) represents the bride during negotiations to protect her rights.\n"
+"⦿ The groom presents the dowry (Mahr or Sadaq)—a mandatory gift of money, property, or valuable goods direct to the bride.\n"
+"⦿ The solemnization ceremony (Nikah) is officiated by an Islamic scholar or Imam in the presence of at least two sane Muslim male witnesses.\n"
+"⦿ The Imam delivers a sermon (Khutbah) highlighting the sacred responsibilities of marriage, recites verses from the Holy Qur'an, and oversees the exchange of vows.\n"
+"⦿ The ceremony concludes with a joyous wedding feast (Walimah) hosted to share food, pray, and celebrate the union with the community.\n\n"
+"(b) Three things which make marriage successful:\n"
+"⦿ Effective communication and openness: Spouses must maintain honest, respectful, and regular dialogue to resolve misunderstandings and build mutual trust.\n"
+"⦿ Mutual love, respect, and forgiveness: Demonstrating care, valuing each other's opinions, and readily forgiving mistakes keeps the relationship strong and peaceful.\n"
+"⦿ Financial prudence and shared responsibility: Couples must work together to manage household finances transparently and fulfill their marital duties.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 11: (a) Mention four causes of death.\n"
+"(b) Give four reasons why death rites are performed.\n"
+"(BECE 2011 Q3)",
+answer: "Correct Answer: (a) Four causes of death:\n"
+"⦿ Sickness and diseases: Severe medical conditions such as malaria, cancer, heart problems, or HIV/AIDS.\n"
+"⦿ Natural disasters: Calamities like severe floods, earthquakes, or landslides.\n"
+"⦿ Accidents: Unfortunate occurrences including road traffic crashes, domestic mishaps, or industrial accidents.\n"
+"⦿ Old age: Natural degradation of bodily organs as a person grows very old.\n\n"
+"(b) Four reasons why death rites are performed:\n"
+"⦿ To ensure a peaceful passage for the deceased: Rites help the soul of the departed transition smoothly into the spiritual realm to join the ancestors.\n"
+"⦿ To console the bereaved family: Ceremonies bring community members together to offer financial, physical, and emotional support to the mourning relatives.\n"
+"⦿ To show final respect and honor: Performing proper rites demonstrates deep affection and gratitude for the life and contributions of the deceased.\n"
+"⦿ To remind the living of their mortality: Funeral gatherings prompt individuals to reflect on their own lives, encouraging them to live morally and responsibly.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 12: (a) State four physical changes that occur during puberty.\n"
+"(b) What four moral problems confront the adolescent?\n"
+"(BECE 2012 Q1)",
+answer: "Correct Answer: (a) Four physical changes that occur during puberty:\n"
+"⦿ Rapid growth in height and weight: Adolescents experience a noticeable surge in physical stature and overall body frame.\n"
+"⦿ Development of bodily hair: Growth of hair in the armpits, pubic areas, and facial hair in males.\n"
+"⦿ Voice alterations: Voice deepens noticeably in boys, while girls develop a higher-pitched voice.\n"
+"⦿ Development of secondary sexual characteristics: Enlargement of breasts and widening of hips in girls; broadening of shoulders and chest development in boys.\n\n"
+"(b) Four moral problems that confront the adolescent:\n"
+"⦿ Pressure toward pre-marital sexual activity: Heightened sexual urges and negative peer influence can push adolescents toward risky sexual behavior.\n"
+"⦿ Substance abuse and addiction: Curiosity or bad company may expose youth to experimenting with alcohol, tobacco, or illegal drugs.\n"
+"⦿ Rebellion against authority: A strong desire for independence can lead to disrespect or disobedience toward parents, teachers, and elders.\n"
+"⦿ Examination malpractice and dishonesty: Temptations to engage in cheating or shortcuts to achieve success due to academic pressure.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 13: (a) State four factors that can be considered when choosing a name for a child.\n"
+"(b) Explain four reasons for which naming ceremony is important in your community.\n"
+"(BECE 2021 Q3)",
+answer: "Correct Answer: (a) Four factors that can be considered when choosing a name for a child:\n"
+"⦿ The day of the week the child was born: Choosing names corresponding to specific days (e.g., Koffi for a Friday-born boy).\n"
+"⦿ Family or ancestral background: Naming the baby after respected grandparents or elders to preserve family heritage.\n"
+"⦿ Circumstance surrounding the birth: Events occurring at birth, such as being born after long periods of waiting or during specific events.\n"
+"⦿ Religious affiliation: Selecting biblical, Islamic, or traditional names that reflect the faith and values of the parents.\n\n"
+"(b) Four reasons for which naming ceremony is important in the community:\n"
+"⦿ Provides formal identity: It confers a recognized name upon the infant, making them an official persona in society.\n"
+"⦿ Incorporates the child into the family structure: It formally welcomes the baby as a legitimate member of the extended lineage and community.\n"
+"⦿ Teaches core moral virtues: Symbolic rites performed during the event encourage the child to uphold truth, integrity, and good character.\n"
+"⦿ Fosters community support: Well-wishers gather to bestow blessings, offer guidance, and present gifts to support the child's upbringing.",
+explanation: ".",
+),
+PracticeQuestion(
+scenario:
+"Question 14: (a) Explain four major causes of death in your country.\n"
+"(b) What four steps can be taken to prevent such deaths?\n"
+"(BECE 2023 Q3)",
+answer: "Correct Answer: (a) Four major causes of death in the country:\n"
+"⦿ Preventable diseases and poor healthcare: Conditions like malaria, typhoid, hypertension, and diabetes cause high mortality due to late diagnosis or limited medical facilities.\n"
+"⦿ Road traffic accidents: Reckless driving, poorly maintained vehicles, and inadequate road infrastructure lead to frequent loss of lives.\n"
+"⦿ Substance abuse and unhealthy lifestyle: Excessive consumption of alcohol, drug abuse, and poor nutrition contribute significantly to organ failure and fatal illnesses.\n"
+"⦿ Environmental pollution and unsafe conditions: Contaminated water sources, improper waste disposal, and exposure to harmful industrial chemicals cause life-threatening health issues.\n\n"
+"(b) Four steps that can be taken to prevent such deaths:\n"
+"⦿ Adopting personal hygiene and healthy habits: Exercising regularly, eating balanced diets, and keeping household surroundings clean.\n"
+"⦿ Enforcing strict road safety regulations: Authorities must maintain roads, inspect vehicles strictly, and penalize reckless driving.\n"
+"⦿ Seeking regular medical check-ups: Visiting health centers promptly for screenings and proper medical treatment instead of self-medication.\n"
+"⦿ Promoting public education: Raising awareness about the dangers of drug abuse, poor sanitation, and risky behaviors.",
+explanation: ".",
+),
+
     ],
   ),
-  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience":
-      PracticeModel(
+  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14069,8 +13939,7 @@ final Map<String, PracticeModel> becePracticeData = {
       )
     ],
   ),
-  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
-      PracticeModel(
+  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14158,8 +14027,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s5 ss1 - Religious Practices":
-      PracticeModel(
+  "Religious & Moral Education JHS1 s5 ss1 - Religious Practices": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14246,8 +14114,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living":
-      PracticeModel(
+  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14492,8 +14359,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS1 s6 ss1 - Objective Questions":
-      PracticeModel(
+  "Religious & Moral Education JHS1 s6 ss1 - Objective Questions": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14804,8 +14670,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Religious & Moral Education JHS2 s1 ss1 - God, His Creation and Attributes":
-      PracticeModel(
+  "Religious & Moral Education JHS2 s1 ss1 - God, His Creation and Attributes": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -15267,8 +15132,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s2 ss1 - Topic-Specific Celebrations and Significance":
-      PracticeModel(
+  "Religious & Moral Education JHS2 s2 ss1 - Topic-Specific Celebrations and Significance": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -15415,8 +15279,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s3 ss1 - The Family, Religious Home and Obedience":
-      PracticeModel(
+  "Religious & Moral Education JHS2 s3 ss1 - The Family, Religious Home and Obedience": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -15709,8 +15572,7 @@ final Map<String, PracticeModel> becePracticeData = {
       )
     ],
   ),
-  "Religious & Moral Education JHS2 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
-      PracticeModel(
+  "Religious & Moral Education JHS2 s4 ss1 - Islamic Prophets / Caliphs / Personalities": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -15798,8 +15660,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s5 ss1 - Religious Practices":
-      PracticeModel(
+  "Religious & Moral Education JHS2 s5 ss1 - Religious Practices": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -15886,8 +15747,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s5 ss2 - Substance Abuse and Decent Living":
-      PracticeModel(
+  "Religious & Moral Education JHS2 s5 ss2 - Substance Abuse and Decent Living": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -16132,8 +15992,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS2 s6 ss1 - Objective Questions":
-      PracticeModel(
+  "Religious & Moral Education JHS2 s6 ss1 - Objective Questions": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -16444,8 +16303,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Religious & Moral Education JHS3 s1 ss1 - God, His Creation and Attributes":
-      PracticeModel(
+  "Religious & Moral Education JHS3 s1 ss1 - God, His Creation and Attributes": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -16907,8 +16765,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s2 ss1 - Topic-Specific Celebrations and Significance":
-      PracticeModel(
+  "Religious & Moral Education JHS3 s2 ss1 - Topic-Specific Celebrations and Significance": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -17055,8 +16912,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s3 ss1 - The Family, Religious Home and Obedience":
-      PracticeModel(
+  "Religious & Moral Education JHS3 s3 ss1 - The Family, Religious Home and Obedience": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -17349,8 +17205,7 @@ final Map<String, PracticeModel> becePracticeData = {
       )
     ],
   ),
-  "Religious & Moral Education JHS3 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
-      PracticeModel(
+  "Religious & Moral Education JHS3 s4 ss1 - Islamic Prophets / Caliphs / Personalities": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -17438,8 +17293,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s5 ss1 - Religious Practices":
-      PracticeModel(
+  "Religious & Moral Education JHS3 s5 ss1 - Religious Practices": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -17526,8 +17380,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s5 ss2 - Substance Abuse and Decent Living":
-      PracticeModel(
+  "Religious & Moral Education JHS3 s5 ss2 - Substance Abuse and Decent Living": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -17772,8 +17625,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Religious & Moral Education JHS3 s6 ss1 - Objective Questions":
-      PracticeModel(
+  "Religious & Moral Education JHS3 s6 ss1 - Objective Questions": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(

@@ -44718,1044 +44718,1777 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
   ),
 
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes":
-      QuizModel(
+  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question:
-              "1. When the last tree dies, the last man dies. This statement refers to the need to\n(BECE 2022 Q4)",
-          options: [
-            "Encourage farming",
-            "Irrigate forest vegetation",
-            "Manage the environment well",
-            "Stop making furniture out of wood"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Proper environmental management ensures the survival of humans and other living things."),
-      QuizQuestion(
-          question:
-              "2. According to the Ewe myth on creation, God could not create more human beings because\n(BECE 2021 Q17)",
-          options: [
-            "Clay was scarce",
-            "He was very tired",
-            "Man was disobedient",
-            "People were too many on the earth"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "According to the Ewe creation myth, God stopped creating humans because He became very tired."),
-      QuizQuestion(
-          question:
-              "3. Drought can easily be caused when there is\n(BECE 2022 Q3)",
-          options: [
-            "Surface mining",
-            "Sand weaning",
-            "Deforestation",
-            "Quarrying"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Deforestation reduces rainfall and contributes to drought."),
-      QuizQuestion(
-          question:
-              "4. Traditional worshippers believe that the world was created by\n(BECE 2023 Q28)",
-          options: ["Lesser gods", "Angels", "Ancestors", "Supreme Being"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Traditional African Religion teaches that the Supreme Being created the world."),
-      QuizQuestion(
-          question:
-              "5. Which of the following items is not a basic need for man's survival?\n(BECE 2023 Q34)",
-          options: ["Medicine", "Food", "Air", "Water"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Food, water and air are basic survival needs, while medicine is important but not a basic need."),
-      QuizQuestion(
-          question:
-              "6. Washing dirty clothes in streams causes\n(BECE 2022 Q5)",
-          options: [
-            "Water pollution",
-            "Water shortage",
-            "Survival of fishes",
-            "Death of water gods"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Detergents and dirt pollute water bodies."),
-      QuizQuestion(
-          question:
-              "7. As a result of God's ability to do all things, He is referred to\n(BECE 2022 Q15)",
-          options: ["Omnipresent", "Omnipotent", "Omniscient", "Omnivorous"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Omnipotent means all-powerful."),
-      QuizQuestion(
-          question:
-              "8. In Islam, the Omnipotence of Allah describes His\n(BECE 2023 Q37)",
-          options: ["Justice", "Power", "Patience", "Wisdom"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Omnipotence refers to Allah's unlimited power."),
-      QuizQuestion(
-          question:
-              "9. Referring to God as the Alpha and Omega means that God is\n(BECE 2020 Q6)",
-          options: [
-            "Present everywhere",
-            "The beginning and the end",
-            "The provider of all needs",
-            "The ultimate reality"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Alpha and Omega signifies that God is eternal—the beginning and the end."),
-      QuizQuestion(
-          question:
-              "10. Which of these creation of God provides security and protection for man?\n(BECE 2021 Q14)",
-          options: ["Goat", "Dog", "Cock", "Parrot"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Dogs are commonly used for security and protection."),
-      QuizQuestion(
-          question:
-              "11. According to Islamic creation story, Allah created Adam followed by\n(BECE 2022 Q1)",
-          options: ["Khadija", "Aisha", "Hawa", "Mariam"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Allah created Hawa (Eve) after Adam."),
-      QuizQuestion(
-          question:
-              "12. Human is considered as the most important creation in the Bible because he was\n(BECE 2022 Q2)",
-          options: [
-            "Created in the image of God",
-            "The last to be created",
-            "God's assistant in creation",
-            "The first to be created"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Humans were uniquely created in God's image."),
-      QuizQuestion(
-          question:
-              "13. According to Christian teaching, God created man and woman on the\n(BECE 2013 Q1)",
-          options: ["Third day", "Fifth day", "Sixth day", "Fourth day"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Human beings were created on the sixth day."),
-      QuizQuestion(
-          question:
-              "14. According to the Bible, lonely places where there is silence promote\n(BECE 2020 Q31)",
-          options: [
-            "General layout of things",
-            "Development of better relationship between them and God",
-            "Beginning of eternity",
-            "Hidden things that can be seen by everyone"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Quiet places encourage prayer and fellowship with God."),
-      QuizQuestion(
-          question:
-              "15. The revelation of the whole Quran took\n(BECE 2000 Q7)",
-          options: ["22 years", "24 years", "23 years", "20 years"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The Holy Quran was revealed over a period of 23 years."),
-      QuizQuestion(
-          question:
-              "16. Christians, Muslims and Traditional worshippers believe that the world was created by\n(BECE 1999 Q2)",
-          options: ["An angel", "A holy spirit", "God", "A godly person"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "All three religions believe that God is the Creator."),
-      QuizQuestion(
-          question:
-              "17. The snake as an animal was created by God to\n(BECE 2004 Q10)",
-          options: [
-            "Give man meat",
-            "Kill man",
-            "Lead man to sin",
-            "Tempt man"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation: "In the Bible, the serpent tempted Eve to disobey God."),
-      QuizQuestion(
-          question:
-              "18. God commanded the earth to produce plants on the\n(BECE 2005 Q1)",
-          options: ["Second day", "Third day", "Fourth day", "Fifth day"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Plants were created on the third day."),
-      QuizQuestion(
-          question:
-              "19. One way of helping to protect the environment from degradation is to\n(BECE 2000 Q2)",
-          options: [
-            "Encourage small-scale mining",
-            "Cover the earth's surface with sand",
-            "Plant more trees",
-            "Burn refuse openly"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Tree planting helps conserve the environment."),
-      QuizQuestion(
-          question:
-              "20. Which of the following attributes of God is not manifested in the creation story?\n(BECE 2004 Q1)",
-          options: [
-            "All knowing",
-            "Ever forgiving",
-            "All powerful",
-            "Ever present"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "God's forgiveness is not demonstrated in the creation account."),
-      QuizQuestion(
-          question:
-              "21. God revealed Himself in the Garden of Eden to\n(BECE 2007 Q1)",
-          options: ["Moses", "Abraham", "Eve", "Adam"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "According to Genesis, God spoke directly with Adam in the Garden of Eden."),
-      QuizQuestion(
-          question:
-              "22. God is Omnipotent. This means that God is\n(BECE 2001 Q1)",
-          options: [
-            "All powerful",
-            "Knows everything",
-            "Is everywhere",
-            "Is very gracious"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Omnipotent means having unlimited power."),
-      QuizQuestion(
-          question:
-              "23. God blessed and made the Sabbath holy because it was the day\n(BECE 2001 Q9)",
-          options: [
-            "Israel defeated their enemies",
-            "For settling all disputes",
-            "The Israelites left Egypt",
-            "God rested from creation"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "God rested on the seventh day after completing creation."),
-      QuizQuestion(
-          question:
-              "24. On the fifth day of creation, God commanded\n(BECE 2002 Q1)",
-          options: [
-            "The sky to appear to separate the water",
-            "Water and air to be filled with many kinds of living creatures",
-            "Water to come together in one place so that the land would appear",
-            "The water under the firmament to separate from that above it"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "On the fifth day, God created birds and sea creatures."),
-      QuizQuestion(
-          question:
-              "25. The Omniscience of God portrays Him as\n(BECE 2006 Q2)",
-          options: [
-            "All powerful",
-            "Ever forgiving",
-            "Very gracious",
-            "All knowing"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "Omniscience means possessing complete knowledge."),
-      QuizQuestion(
-          question:
-              "26. Which of the following behaviours pollutes our environment?\n(BECE 2006 Q23)",
-          options: [
-            "Cutting down trees",
-            "Killing birds and animals",
-            "Throwing rubbish around",
-            "Clearing the land for building"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Improper disposal of waste pollutes the environment."),
-      QuizQuestion(
-          question:
-              "27. Which of the following attributes of God shows that He has the whole world under His view?\n(BECE 2017 Q8)",
-          options: ["Omnipotent", "Creator", "Omnipresent", "Omniscient"],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "God's omniscience means He knows everything happening everywhere."),
-      QuizQuestion(
-          question:
-              "28. According to the Holy Bible, what was created on the second day?\n(BECE 2006 Q1)",
-          options: [
-            "Heavens or sky",
-            "Smaller animals",
-            "Plants and trees",
-            "Greater light"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "God created the sky (firmament) on the second day."),
-      QuizQuestion(
-          question:
-              "29. According to the Bible, the first thing God created was\n(BECE 2018 Q3)",
-          options: ["Sickness", "Light", "Plants", "Darkness"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "God said, 'Let there be light,' on the first day."),
-      QuizQuestion(
-          question: "30. Cain's violent act against Abel shows\n(BECE 2018 Q2)",
-          options: ["Greed", "Jealousy", "Selfishness", "Misunderstanding"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Cain killed Abel because he was jealous of God's acceptance of Abel's offering."),
-      QuizQuestion(
-          question: "31. God's omniscience means that He\n(BECE 2018 Q1)",
-          options: [
-            "Loves His children",
-            "Protects His creatures",
-            "Knows whatever happens",
-            "Forgives us our sins"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "God's omniscience means He knows everything."),
-      QuizQuestion(
-          question:
-              "32. By creating the world and everything in an orderly way, God wanted to show that He is\n(BECE 2009 Q3)",
-          options: [
-            "In a hurried way",
-            "Orderly",
-            "In a difficult way",
-            "Orderly"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The creation account shows God's orderliness and purpose."),
-      QuizQuestion(
-          question:
-              "33. In the creation story, God ordered Adam to\n(BECE 2005 Q2)",
-          options: [
-            "Subdue and fill the earth",
-            "Take good care of Eve",
-            "Worship Him regularly",
-            "Eat all the fruit in the Garden"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "God commanded Adam to be fruitful, multiply, and have dominion over the earth."),
-      QuizQuestion(
-          question:
-              "34. The Akans call God Ananse Kokroko because He is\n(BECE 2011 Q1)",
-          options: ["Everlasting", "Dependable", "Omnipotent", "Forgiving"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "Ananse Kokroko emphasizes God's unmatched power."),
-      QuizQuestion(
-          question: "35. The Omnipresence of God means He is\n(BECE 2009 Q1)",
-          options: [
-            "All powerful",
-            "All knowing",
-            "Ever present",
-            "Always alive"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Omnipresence means God is present everywhere."),
-      QuizQuestion(
-          question:
-              "36. Which of the following practices destroys our vegetation?\n(BECE 2013 Q2)",
-          options: [
-            "Cutting down trees randomly",
-            "Killing animals for food",
-            "Constructing drains",
-            "Killing disease vectors"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Indiscriminate tree felling destroys vegetation."),
-      QuizQuestion(
-          question:
-              "37. By creating the environment, God wants us to\n(BECE 2009 Q8)",
-          options: [
-            "Make a mighty ocean",
-            "Control all things",
-            "Find Himself and others",
-            "Name all creation"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Adam was given the responsibility of naming God's creation."),
-      QuizQuestion(
-          question:
-              "38. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2011 Q1)",
-          options: ["Sovereign", "Omnipresent", "Omniscient", "Omnipotent"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Only an all-knowing God can see every hidden deed."),
-      QuizQuestion(
-          question:
-              "39. Adam described Eve as woman because she\n(BECE 2011 Q3)",
-          options: [
-            "Was made out of his rib",
-            "Was the mother of all living",
-            "Allowed the serpent to deceive her",
-            "Was made a helper fit for him"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Adam called her Woman because she was taken out of man."),
-      QuizQuestion(
-          question:
-              "40. One of the ways of protecting God's creation is by\n(BECE 2011 Q15)",
-          options: [
-            "Constructing buildings and roads",
-            "Polluting air and water bodies",
-            "Planting more trees and other plants",
-            "Killing snakes and other dangerous animals"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Tree planting helps preserve God's creation."),
-      QuizQuestion(
-          question:
-              "41. In Christianity, the sky, seas, animals and other living things came into being through\n(BECE 2012 Q1)",
-          options: [
-            "God's command",
-            "Natural orders",
-            "The lesser gods",
-            "Earth gods"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Christian teaching states that creation came into existence through God's command."),
-      QuizQuestion(
-          question:
-              "42. According to Akan belief, the order of creation is\n(BECE 2012 Q4)",
-          options: [
-            "Earth, rivers, plants and sky",
-            "Rivers, plants, earth and sky",
-            "Sky, earth, rivers and plants",
-            "Plants, rivers, sky and earth"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "According to Akan belief, God created the sky, earth, rivers and plants in that order."),
-      QuizQuestion(
-          question:
-              "43. One way by which humankind pollutes the air in the city is by\n(BECE 2012 Q10)",
-          options: [
-            "The use of insecticides",
-            "The use of detergents",
-            "Smoke from motor vehicles",
-            "Smoke from the burning of wood"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Exhaust fumes from motor vehicles contribute significantly to air pollution in cities."),
-      QuizQuestion(
-          question: "44. The power of God is seen in His\n(BECE 2017 Q4)",
-          options: [
-            "Omniscience",
-            "Omnipotence",
-            "Omnipresence",
-            "Sovereignty"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Omnipotence refers to God's unlimited power."),
-      QuizQuestion(
-          question:
-              "45. According to the Bible, God commanded the earth to produce plants on the\n(BECE 2018 Q1)",
-          options: ["First day", "Third day", "Fifth day", "Sixth day"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "God commanded the earth to produce plants on the third day of creation."),
-      QuizQuestion(
-          question:
-              "46. Which of the following options is not a reason for which we must care for God's creation?\n(BECE 2018 Q1)",
-          options: [
-            "It makes us righteous people",
-            "To show respect for God's gift of nature",
-            "To preserve it for future generations",
-            "We are stewards of God's creation"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Caring for creation shows stewardship and respect and preserves nature, but it does not automatically make a person righteous."),
-      QuizQuestion(
-          question:
-              "47. Traditional worshippers believe that the world was created by\n(BECE 2017 Q21)",
-          options: ["An angel", "A holy spirit", "God", "An ancestor"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Traditional worshippers believe that the Supreme Being, or God, created the world."),
-      QuizQuestion(
-          question:
-              "48. Which of the following attributes of God shows that He rules the world?\n(BECE 2019 Q1)",
-          options: ["All-powerful", "Creator", "Omnipresence", "Omniscient"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "God's unlimited power enables Him to rule over the whole world."),
-      QuizQuestion(
-          question: "49. Plants were created by God mainly to\n(BECE 2019 Q2)",
-          options: [
-            "Provide oxygen to man",
-            "Allow fresh air into rooms",
-            "Provide decoration to homes",
-            "Serve as means of transportation"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Plants release oxygen, which humans and animals need for respiration."),
-      QuizQuestion(
-          question:
-              "50. Muslims describe Allah as Al-Rahman because He is\n(BECE 2019 Q3)",
-          options: ["All-knowing", "Just", "Merciful", "The restorer"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Al-Rahman means the Most Merciful or the Most Compassionate."),
-      QuizQuestion(
-          question:
-              "51. The attribute Alpha and Omega reveals that God is\n(BECE 2019 Q4)",
-          options: [
-            "Everywhere at all times",
-            "Gracious and merciful",
-            "Holy and immortal",
-            "The beginning and the end"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Alpha and Omega means that God is the beginning and the end."),
-      QuizQuestion(
-          question:
-              "52. Abraham built an altar for the Lord at the Oak of Moreh because\n(BECE 2019 Q5)",
-          options: [
-            "God asked him to do so",
-            "God had appeared to him there",
-            "He wanted to worship God there",
-            "It was a Canaanite worship centre"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Abraham built an altar at the Oak of Moreh because God appeared to him there."),
-      QuizQuestion(
-          question:
-              "53. The Omniscience of God portrays Him as\n(BECE 2012 Q1)",
-          options: [
-            "All-powerful",
-            "All-knowing",
-            "Ever-present",
-            "Ever-living"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Omniscience means having complete and unlimited knowledge."),
-      QuizQuestion(
-          question: "54. The attributes of God refer to His\n(BECE 2013 Q6)",
-          options: [
-            "Names and titles",
-            "Words and actions",
-            "Relationship with creation",
-            "Relationship with people"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "The attributes of God are the names and titles that describe His nature and qualities."),
-      QuizQuestion(
-          question:
-              "55. According to Christian teachings, God created man on the\n(BECE 2011 Q4)",
-          options: ["First day", "Second day", "Fifth day", "Sixth day"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "According to the Bible, human beings were created on the sixth day."),
-      QuizQuestion(
-          question:
-              "56. God created the two great lights in the heavens in order to\n(BECE 2014 Q1)",
-          options: [
-            "Show His mercy",
-            "Separate night from day",
-            "Give life to the earth",
-            "Provide heat to the earth"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The sun and moon were created to govern and distinguish day from night."),
-      QuizQuestion(
-          question:
-              "57. God created water bodies to provide humankind with\n(BECE 2014 Q3)",
-          options: ["Air", "Water", "Plants", "Salt"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Water bodies provide water for human use and survival."),
-      QuizQuestion(
-          question:
-              "58. In the Islamic creation story, the creation of man is found in the\n(BECE 2013 Q10)",
-          options: ["Hadith", "Hijrah", "Holy Quran", "Tawrah"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The Islamic account of the creation of humankind is recorded in the Holy Quran."),
-      QuizQuestion(
-          question: "59. God created plants to provide\n(BECE 2013 Q21)",
-          options: [
-            "Air and plants to man",
-            "Medicine and beauty",
-            "Shelter and clothing",
-            "Water and beauty to the environment"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Plants provide medicinal materials and add beauty to the environment."),
-      QuizQuestion(
-          question:
-              "60. Which of the following is provided by plants for humans?\n(BECE 2013 Q24)",
-          options: ["Food", "Fuel", "Medicine", "Salt"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Plants provide food for humans, while salt is not obtained from plants."),
-      QuizQuestion(
-          question:
-              "61. According to the Bible, God created woman to\n(BECE 2015 Q1)",
-          options: [
-            "Control the family",
-            "Feed all mankind",
-            "Be a faithful worshipper",
-            "Keep man company"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "God created woman as a suitable companion and helper for man."),
-      QuizQuestion(
-          question:
-              "62. One of the reasons for which God made the sea is to\n(BECE 2015 Q4)",
-          options: [
-            "Provide food",
-            "Support transportation",
-            "Provide water for domestic use",
-            "Serve as a home for aquatic animals"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "The sea serves as a natural habitat for fish and other aquatic creatures."),
-      QuizQuestion(
-          question:
-              "63. Creation according to Islamic tradition means\n(BECE 2015 Q3)",
-          options: ["Command", "Instruction", "Prediction", "Prophecy"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Islamic tradition teaches that Allah brings creation into existence through His command."),
-      QuizQuestion(
-          question:
-              "64. Which of the following is a cause of bad environmental conditions?\n(BECE 2015 Q11)",
-          options: [
-            "Afforestation",
-            "Deforestation",
-            "Soil erosion",
-            "Global warming"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Deforestation destroys vegetation and contributes to poor environmental conditions."),
-      QuizQuestion(
-          question:
-              "65. One of the reasons why the sea is salty is to\n(BECE 2015 Q13)",
-          options: [
-            "Prevent it from drying up",
-            "Make it beautiful",
-            "Preserve it from getting spoiled",
-            "Enable heavy ships to float on it"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "The salt content of seawater helps limit spoilage and the growth of certain harmful organisms."),
-      QuizQuestion(
-          question: "66. The attribute Al-Khaliq means the\n(BECE 2017 Q2)",
-          options: ["Great", "Sovereign", "Creator", "Merciful"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Al-Khaliq is an Arabic name of Allah meaning the Creator."),
+question:
+"1. What day, according to Christian teaching, did God create man and woman on?\n(BECE 2000 Q1)",
+options: ["1st day", "2nd day", "3rd day", "6th day"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"According to Christian teaching, God created man and woman on the sixth day."),
+
+  QuizQuestion(
+      question:
+          "2. God gave Noah and his people the rainbow to remember\n(BECE 1999 Q3)",
+      options: [
+        "The floods which destroy the world",
+        "The disobedience of the idol worshippers",
+        "That God would not destroy the world with water again",
+        "The building of the ark"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The rainbow was a sign of God's covenant that He would not destroy the world with a flood again."),
+
+  QuizQuestion(
+      question:
+          "3. Bringing forth children shows that man is\n(BECE 1999 Q12)",
+      options: [
+        "Sharing in God's creation",
+        "Taking God's position",
+        "Trying to be like God",
+        "Feeling self-sufficient"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Procreation allows human beings to share in God's work of creation."),
+
+  QuizQuestion(
+      question:
+          "4. Christians, Muslims and Traditional worshippers believe that the world was created by\n(BECE 1999 Q7)",
+      options: ["A man", "An angel", "The holy spirit", "God"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christians, Muslims and Traditional worshippers believe that God created the world."),
+
+  QuizQuestion(
+      question:
+          "5. Which of the following attributes of God shows that He has the whole world in His hands?\n(BECE 2000 Q1)",
+      options: [
+        "Omnipotence",
+        "Omnipresence",
+        "Faithfulness",
+        "Kindness"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence means that God is all-powerful and has authority over all creation."),
+
+  QuizQuestion(
+      question:
+          "6. Satan (Iblis) was cursed by Allah after the creation of man because he\n(BECE 2000 Q5)",
+      options: [
+        "Was made from fire",
+        "Was the leader of the angels",
+        "Refused to bow down before Adam",
+        "Influenced Adam and Hawa to fall"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Iblis was cursed because he refused Allah's command to bow before Adam."),
+
+  QuizQuestion(
+      question:
+          "7. The revelation of the whole Qur'an took\n(BECE 2000 Q7)",
+      options: ["23 years", "24 years", "25 years", "26 years"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Holy Qur'an was revealed to Prophet Muhammad over a period of about 23 years."),
+
+  QuizQuestion(
+      question:
+          "8. One way of helping to protect the environment from degradation is to\n(BECE 2000 Q12)",
+      options: [
+        "Rear more animals",
+        "Encourage small-scale mining",
+        "Cover the earth's surface with sand",
+        "Plant more trees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Planting more trees helps protect the environment and restore vegetation."),
+
+  QuizQuestion(
+      question:
+          "9. The first ark was built to save God's people from the flood. This ark was built by\n(BECE 2000 Q30)",
+      options: ["David", "Abraham", "Noah", "Solomon"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Noah built the ark according to God's instructions to survive the flood."),
+
+  QuizQuestion(
+      question:
+          "10. God is Omnipresent. This means that God\n(BECE 2001 Q1)",
+      options: [
+        "Is all-powerful",
+        "Knows everything",
+        "Is everywhere",
+        "Is ever gracious"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Omnipresent means that God is present everywhere."),
+
+  QuizQuestion(
+      question:
+          "11. God blessed and made the Sabbath holy because it was the day\n(BECE 2001 Q8)",
+      options: [
+        "The Israelites fought their wars",
+        "For settling all disputes",
+        "Set aside for the Passover feast",
+        "That God rested from creation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "God blessed the Sabbath because He rested from His work of creation on that day."),
+
+  QuizQuestion(
+      question:
+          "12. On the fifth day of creation, God commanded\n(BECE 2001 Q9)",
+      options: [
+        "Lights to appear in the sky to separate day from night",
+        "Water and air to be filled with many kinds of living creatures",
+        "Water to come together in one place so that the land will appear",
+        "The water under the firmament to separate from that above the firmament"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "On the fifth day, God created creatures of the sea and birds of the air."),
+
+  QuizQuestion(
+      question:
+          "13. The Omnipresence of God means that He is\n(BECE 2002A Q1)",
+      options: [
+        "Everywhere",
+        "All knowing",
+        "Always alive",
+        "All powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omnipresence means that God is present everywhere."),
+
+  QuizQuestion(
+      question:
+          "14. Which of the following activities destroys our vegetation?\n(BECE 2002A Q33)",
+      options: [
+        "Cutting down trees without replacing another",
+        "Killing birds for games",
+        "Constructing drains everywhere",
+        "Cleansing the land for building projects"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Cutting down trees without replacing them causes deforestation and destroys vegetation."),
+
+  QuizQuestion(
+      question:
+          "15. By creating the world from one stage to another, God wanted humankind to do things in\n(BECE 2002A Q31)",
+      options: [
+        "A hurried way",
+        "An official way",
+        "A comfortable way",
+        "An orderly way"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The orderly stages of creation teach humankind to do things in an orderly manner."),
+
+  QuizQuestion(
+      question:
+          "16. The effect of Adam and Eve eating the forbidden fruit was that it\n(BECE 2002B Q4)",
+      options: [
+        "Killed man",
+        "Led man to sin",
+        "Brought enmity between them",
+        "Made man to till the land"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Adam and Eve's disobedience introduced sin into human life."),
+
+  QuizQuestion(
+      question:
+          "17. The curse of the snake by God relates to the\n(BECE 2002B Q31)",
+      options: [
+        "Beginning of enmity between the snake and humankind",
+        "Origin of separation between God and humankind",
+        "Establishment of better relationship between them and God",
+        "Curse of the snake by Adam"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The curse established enmity between the serpent and humankind."),
+
+  QuizQuestion(
+      question:
+          "18. God created the sky on the\n(BECE 2003 Q1)",
+      options: ["First day", "Second day", "Third day", "Fourth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, God created the sky on the second day."),
+
+  QuizQuestion(
+      question:
+          "19. According to the Holy Bible, God created the sun, moon and stars in order to\n(BECE 2004 Q1)",
+      options: [
+        "Give mankind the times and seasons",
+        "Bless mankind with light",
+        "Give mankind long life",
+        "Direct movements of people and animals"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The heavenly bodies help mark days, years, times and seasons."),
+
+  QuizQuestion(
+      question:
+          "20. In the book of Genesis, the world was created in\n(BECE 2004 Q1)",
+      options: ["3 days", "5 days", "6 days", "7 days"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, God completed His work of creation in six days and rested on the seventh."),
+
+  QuizQuestion(
+      question:
+          "21. The snake was an animal created by God. It was used to\n(BECE 2004 Q9)",
+      options: ["Give man meat", "Kill man", "Lead man to sin", "Tempt man"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "In the Biblical account, the serpent was used to tempt human beings."),
+
+  QuizQuestion(
+      question:
+          "22. The environment can be protected from degradation by\n(BECE 2004 Q19)",
+      options: [
+        "Rearing more animals",
+        "Continuous farming",
+        "Planting more trees",
+        "Extensive lumbering"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Planting trees helps restore vegetation and protects the environment from degradation."),
+
+  QuizQuestion(
+      question:
+          "23. God commanded the earth to produce plants on\n(BECE 2005 Q1)",
+      options: [
+        "The second day",
+        "The third day",
+        "The fourth day",
+        "The fifth day"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, plants were created on the third day."),
+
+  QuizQuestion(
+      question:
+          "24. In the creation story, God ordered Adam to\n(BECE 2005 Q2)",
+      options: [
+        "Subdue and till the earth",
+        "Take good care of Eve",
+        "Worship Him regularly",
+        "Eat all the fruit in the Garden"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Adam was given responsibility to work, care for and exercise stewardship over the earth."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following attributes of God is not manifested in the creation story?\n(BECE 2005 Q3)",
+      options: [
+        "All knowing",
+        "Ever forgiving",
+        "All powerful",
+        "Ever present"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "God's forgiveness is not directly demonstrated in the creation account."),
+
+  QuizQuestion(
+      question:
+          "26. According to the Holy Bible, what was created on the second day?\n(BECE 2006 Q19)",
+      options: ["Heavens or sky", "Smaller animals", "Plants and trees", "Land"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, the heavens or sky were created on the second day."),
+
+  QuizQuestion(
+      question:
+          "27. The Omniscience of God portrays Him as\n(BECE 2006 Q1)",
+      options: [
+        "All forgiving",
+        "Ever present",
+        "Very gracious",
+        "All knowing"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Omniscience means that God knows everything."),
+
+  QuizQuestion(
+      question:
+          "28. Creation according to the Bible was by means of\n(BECE 2006 Q2)",
+      options: ["Command", "Instruction", "Prayers", "Prophecy"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Biblical creation story describes God bringing creation into existence through His commands."),
+
+  QuizQuestion(
+      question:
+          "29. God revealed Himself in the Garden of Eden to\n(BECE 2006 Q23)",
+      options: ["Moses", "Abraham", "Eve", "Adam"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, God communicated with Adam in the Garden of Eden."),
+
+  QuizQuestion(
+      question:
+          "30. Which of the following attributes of God shows that He has the whole world in view?\n(BECE 2007 Q10)",
+      options: [
+        "Omnipotent",
+        "Creator",
+        "Omnipresent",
+        "Ever forgiving"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "God's omnipresence means that He is present everywhere and has the whole world in view."),
+
+  QuizQuestion(
+      question:
+          "31. According to the Bible, the first thing God created on the earth was\n(BECE 2007 Q16)",
+      options: ["Darkness", "Light", "Plants", "Land"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In Genesis, God's first recorded command in creation brought forth light."),
+
+  QuizQuestion(
+      question:
+          "32. Cain's violent action against Abel was due to\n(BECE 2008 Q1)",
+      options: ["Greed", "Jealousy", "Selfishness", "Misunderstanding"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Cain became jealous of Abel after God accepted Abel's offering."),
+
+  QuizQuestion(
+      question:
+          "33. The Akans called God Twereduampon because He is\n(BECE 2008 Q3)",
+      options: ["Everlasting", "Dependable", "Omnipotent", "Forgiving"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Twereduampon expresses the Akan belief that God is dependable and can be relied upon."),
+
+  QuizQuestion(
+      question:
+          "34. Man was the last creation of God because\n(BECE 2008 Q7)",
+      options: [
+        "God wanted him to be satisfied with all that He had created",
+        "God allowed the serpent to deceive him",
+        "God made a helper fit for him",
+        "God made man to govern all animal and vegetation"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Human beings were created after other things needed for their life had already been provided."),
+
+  QuizQuestion(
+      question:
+          "35. Muslims believe that God created the heavens and the earth in order to\n(BECE 2008 Q8)",
+      options: [
+        "Provide rain on the earth",
+        "Give us rivers and fish",
+        "Make a mighty ocean",
+        "Produce and fill the atmosphere"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The heavens and earth form part of Allah's provision for life, including the provision of rain."),
+
+  QuizQuestion(
+      question:
+          "36. God made man a steward of the earth to\n(BECE 2009 Q18)",
+      options: [
+        "Take care of the environment",
+        "Control all living things",
+        "Feed himself and others",
+        "Name all creatures"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Stewardship means that humans have a responsibility to care for God's creation and the environment."),
+
+  QuizQuestion(
+      question:
+          "37. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2011 Q1)",
+      options: [
+        "Omniscient",
+        "Omnipresent",
+        "Omnipotent",
+        "Sovereign"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Omniscience means that God knows everything, including people's secret deeds."),
+
+  QuizQuestion(
+      question:
+          "38. Adam described Eve as woman because she\n(BECE 2011 Q1)",
+      options: [
+        "Was the mother of all living",
+        "Came from his rib",
+        "Was formed from the sky",
+        "Was made from the dust of the earth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Adam called her woman because she was taken out of man."),
+
+  QuizQuestion(
+      question:
+          "39. One of the reasons why God created the sea is to\n(BECE 2015 Q1)",
+      options: [
+        "Generate hydro-electric power",
+        "Beautify the environment",
+        "Provide habitat for some animals",
+        "Reduce soil erosion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The sea provides a natural habitat for fish and many other aquatic animals."),
+
+  QuizQuestion(
+      question:
+          "40. One of the ways of protecting God's creation is by\n(BECE 2011 Q4)",
+      options: [
+        "Constructing buildings and roads",
+        "Polluting air and water bodies",
+        "Sustaining plant and animal growth",
+        "Engaging in sound farming practices"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Sound farming practices help conserve the environment and protect God's creation."),
+
+  QuizQuestion(
+      question:
+          "41. In Christianity, the sky, seas, animals and other living things came into being through\n(BECE 2011 Q15)",
+      options: [
+        "The laws of God",
+        "God's command",
+        "Natural orders",
+        "The lesser gods"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, creation came into being through God's command."),
+
+  QuizQuestion(
+      question:
+          "42. According to Akan belief, the order of creation is\n(BECE 2012 Q11)",
+      options: [
+        "Earth, rivers, plants and sky",
+        "Rivers, earth, sky and plants",
+        "Sky, earth, rivers and plants",
+        "Plants, rivers, sky and earth"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "According to the Akan creation tradition represented in the question, the order is sky, earth, rivers and plants."),
+
+  QuizQuestion(
+      question:
+          "43. One way by which humankind pollutes the air in a city is by\n(BECE 2012 Q1)",
+      options: [
+        "The use of insecticides",
+        "The use of detergents",
+        "Killing birds and animals",
+        "Smoke from the burning of vehicle fuel"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Smoke and exhaust produced when vehicle fuel burns contribute to air pollution."),
+
+  QuizQuestion(
+      question:
+          "44. The Omniscience of God portrays Him as\n(BECE 2012 Q20)",
+      options: [
+        "All knowing",
+        "Very gracious",
+        "All forgiving",
+        "Ever present"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omniscience means being all-knowing."),
+
+  QuizQuestion(
+      question:
+          "45. The attributes of God refer to His\n(BECE 2013 Q6)",
+      options: [
+        "Names and titles",
+        "Wonderful creation",
+        "Order of creation",
+        "Relationship with people"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The attributes of God are qualities expressed through the names and titles used to describe Him."),
+
+  QuizQuestion(
+      question:
+          "46. God created the two great lights in the heavens in order to\n(BECE 2014 Q1)",
+      options: [
+        "Show His mercy",
+        "Separate night from day",
+        "Give life to the earth",
+        "Provide heat to the earth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The sun and moon were created to govern and distinguish day and night."),
+
+  QuizQuestion(
+      question:
+          "47. God created water bodies mainly to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Water and weather", "Air", "Plants", "Salt"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Water bodies provide water and also contribute to weather processes."),
+
+  QuizQuestion(
+      question:
+          "48. Creation according to the Bible was by means of\n(BECE 2014 Q20)",
+      options: ["Command", "Instruction", "Prayers", "Prophecy"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "According to the Bible, God created through His spoken command."),
+
+  QuizQuestion(
+      question:
+          "49. One of the reasons for which God created the sea is to\n(BECE 2015 Q15)",
+      options: [
+        "Generate hydro-electric power",
+        "Beautify the environment",
+        "Provide habitat for some animals",
+        "Reduce soil erosion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The sea serves as a habitat for fish and many other aquatic creatures."),
+
+  QuizQuestion(
+      question:
+          "50. God is called Nyame among the Akans because He is\n(BECE 2015 Q17)",
+      options: [
+        "A creator",
+        "Dependable",
+        "Ever living",
+        "The Supreme Being"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Nyame is an Akan name referring to God as the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "51. According to the Bible, heavenly bodies were created on the\n(BECE 2016 Q2)",
+      options: ["Third day", "Fourth day", "Fifth day", "Sixth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, the sun, moon and stars were created on the fourth day."),
+
+  QuizQuestion(
+      question:
+          "52. The Gye Nyame symbol of the Akan signifies that God is\n(BECE 2016 Q4)",
+      options: [
+        "All-loving",
+        "All-merciful",
+        "All-powerful",
+        "Very gracious"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Gye Nyame emphasizes the supremacy and power of God."),
+
+  QuizQuestion(
+      question:
+          "53. Traditional worshippers believe that the world was created by\n(BECE 2018 Q1)",
+      options: [
+        "An ancestor",
+        "A lesser god",
+        "A Supreme Being",
+        "An angel"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Traditional African Religion teaches that the Supreme Being is the creator of the world."),
+
+  QuizQuestion(
+      question:
+          "54. The power of God is seen in His\n(BECE 2017 Q4)",
+      options: [
+        "Omniscience",
+        "Omnipotence",
+        "Omnipresence",
+        "Omnivorousness"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence refers to God's unlimited power."),
+
+  QuizQuestion(
+      question:
+          "55. According to the Bible, God commanded the earth to produce plants on the\n(BECE 2018 Q1)",
+      options: ["First day", "Third day", "Fifth day", "Sixth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, plants and vegetation appeared on the third day."),
+
+  QuizQuestion(
+      question:
+          "56. Which of the following is not a reason for which we must care for God's creation?\n(BECE 2018 Q3)",
+      options: [
+        "It makes us righteous people",
+        "To preserve it for future generations",
+        "To show respect for God's nature",
+        "We are stewards of God's creation"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Caring for creation is associated with stewardship, respect for God and preservation for future generations, rather than automatically making a person righteous."),
+
+  QuizQuestion(
+      question:
+          "57. Plants were created by God mainly to\n(BECE 2019 Q1)",
+      options: [
+        "Provide oxygen to man",
+        "Blow fresh air into our rooms",
+        "Provide decoration for homes",
+        "Serve as a means of transportation"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Plants produce oxygen, which humans and other living organisms need for respiration."),
+
+  QuizQuestion(
+      question:
+          "58. Muslims describe Allah as al-Raheem because He is\n(BECE 2019 Q3)",
+      options: ["Just", "Merciful", "All-knowing", "The restorer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Al-Raheem is an Islamic name of Allah referring to His mercy."),
+
+  QuizQuestion(
+      question:
+          "59. The attribute Alpha and Omega reveals that God is\n(BECE 2019 Q4)",
+      options: [
+        "Everywhere at all times",
+        "Gracious and merciful",
+        "Holy and immortal",
+        "The beginning and the end"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Alpha and Omega means that God is the beginning and the end."),
+
+  QuizQuestion(
+      question:
+          "60. Abraham built an altar for the Lord at the Oak of Moreh because\n(BECE 2019 Q5)",
+      options: [
+        "God asked him to do so",
+        "God had appeared to him there",
+        "He wanted to worship God there",
+        "It was a Canaanite worship centre"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abraham built an altar at the place because the Lord had appeared to him there."),
+
+  QuizQuestion(
+      question:
+          "61. In the Islamic creation story, God's revelation is found in the\n(BECE 2020 Q1)",
+      options: ["Tawrat", "Hadith", "Holy Qur'an", "Injil"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Islamic account of creation is contained in the Holy Qur'an."),
+
+  QuizQuestion(
+      question:
+          "62. God created plants to give mankind\n(BECE 2020 Q2)",
+      options: [
+        "Air and weather",
+        "Medicine and seasons",
+        "Shelter and beauty",
+        "Water and weather"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Plants provide materials for shelter and also contribute to the beauty of the environment."),
+
+  QuizQuestion(
+      question:
+          "63. Which of the following materials is not provided by plants for man's comfort?\n(BECE 2020 Q3)",
+      options: ["Food", "Fuel", "Medicine", "Salt"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Plants provide food, fuel and many medicines, while salt is primarily obtained from mineral or water sources."),
+
+  QuizQuestion(
+      question:
+          "64. According to the Bible, God created woman to\n(BECE 2020 Q4)",
+      options: [
+        "Control the family",
+        "Feed all mankind",
+        "Keep the environment clean",
+        "Be a companion to man"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, woman was created as a suitable companion and helper for man."),
+
+  QuizQuestion(
+      question:
+          "65. According to a myth on creation, Allah could not create more human beings at a certain point because\n(BECE 2021 Q17)",
+      options: [
+        "He was very tired",
+        "Man was disobedient",
+        "Clay had become scarce",
+        "People were too many on the earth"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "According to the creation myth referred to in the question, creation stopped because the creator became very tired."),
+
+  QuizQuestion(
+      question:
+          "66. Which of these portrays God as the Alpha and Omega, providing security and protection for man?\n(BECE 2021 Q14)",
+      options: ["God", "Ark", "Rock", "Fortress"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A fortress symbolizes security and protection."),
+
+  QuizQuestion(
+      question:
+          "67. Human beings are considered the most important creation in the Bible because they were\n(BECE 2022 Q1)",
+      options: [
+        "Created in the image of God",
+        "The last to be created",
+        "Given dominion over the sea",
+        "Formed from dust"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Bible teaches that human beings were uniquely created in the image and likeness of God."),
+
+  QuizQuestion(
+      question:
+          "68. Drought can easily be caused when there is\n(BECE 2022 Q2)",
+      options: [
+        "Surface mining",
+        "Sand winning",
+        "Deforestation",
+        "Quarrying"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Deforestation reduces vegetation and can disrupt rainfall and the water cycle, contributing to drought."),
+
+  QuizQuestion(
+      question:
+          "69. \"When the last tree dies, the last man dies.\" This statement refers to the need to\n(BECE 2022 Q3)",
+      options: [
+        "Encourage forest vegetation",
+        "Irrigate farmland",
+        "Manage the environment well",
+        "Stop making furniture out of wood"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The statement emphasizes that human survival depends on proper management and protection of the environment."),
+
+  QuizQuestion(
+      question:
+          "70. As a result of God's ability to do all things, He is referred to as\n(BECE 2022 Q4)",
+      options: [
+        "Omnipresent",
+        "Omnipotent",
+        "Omniscient",
+        "Omnivorous"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotent means all-powerful or having unlimited power."),
+
+  QuizQuestion(
+      question:
+          "71. Washing dirty clothes in streams causes\n(BECE 2022 Q5)",
+      options: [
+        "Water pollution",
+        "Water shortage",
+        "Survival of fishes",
+        "Death of water gods"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Dirt, soap and detergents introduced into streams contaminate the water and cause water pollution."),
+
+  QuizQuestion(
+      question:
+          "72. Traditional worshippers believe that the world was created by\n(BECE 2023 Q28)",
+      options: [
+        "Lesser gods",
+        "Ancestors",
+        "A Supreme Being",
+        "Angels"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Traditional African Religion teaches that the Supreme Being created the world."),
+
+  QuizQuestion(
+      question:
+          "73. Which of the following is not a basic need for man's survival?\n(BECE 2023 Q34)",
+      options: ["Air", "Water", "Food", "Medicine"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Air, water and food are basic requirements for survival, while medicine is important but is not classified as a basic survival need."),
+
+  QuizQuestion(
+      question:
+          "74. In Islam, the Omnipotence of Allah describes His\n(BECE 2023 Q37)",
+      options: ["Justice", "Power", "Wisdom", "Patience"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence refers to Allah's unlimited power."),
+
+  QuizQuestion(
+      question:
+          "75. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2017 Q4)",
+      options: [
+        "Omnipotent",
+        "Omnipresent",
+        "Omniscient",
+        "Sovereign"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Omniscience means that God knows everything, including people's secret actions."),
+
+  QuizQuestion(
+      question:
+          "76. God created water bodies to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Salt", "Plants", "Air", "Water"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Water bodies are an important source of water for human beings and other living things."),
+
+  QuizQuestion(
+      question:
+          "77. According to Christian teaching, God created man and woman on the\n(BECE 2011 Q4)",
+      options: ["First day", "Second day", "Fifth day", "Sixth day"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, human beings were created on the sixth day."),
+
+  QuizQuestion(
+      question:
+          "78. One reason why God created the sea is to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Salt", "Plants", "Air", "Water bodies"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The sea is an important natural source of salt for human use."),
     ],
   ),
-  "Religious & Moral Education JHS1 s2 ss1 - Topic-Specific Celebrations and Significance":
-      QuizModel(
+  "Religious & Moral Education JHS1 s2 ss1 - Religious Festivals & Rites of Passage": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question:
-              "1. One of the religious values in celebrating traditional festivals is to\n(BECE 2000 Q18)",
-          options: [
-            "Acknowledge the presence of the gods",
-            "Bring the citizens together",
-            "Raise funds to develop the community",
-            "Contract marriages"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Traditional festivals have religious significance because they acknowledge the presence and influence of the gods and ancestors."),
-      QuizQuestion(
-          question:
-              "2. Which of the following festivals is a harvest festival?\n(BECE 2005 Q39)",
-          options: ["Adae", "Hogbetsotso", "Odwira", "Aboakyer"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Odwira is celebrated partly to give thanks for the harvest and to purify the community."),
-      QuizQuestion(
-          question:
-              "3. The festival celebrated by the people of Winneba is\n(BECE 2017 Q9)",
-          options: ["Aboakyer", "Bakatue", "Durbar", "Gmayem"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "The Effutu people of Winneba celebrate the Aboakyer festival."),
-      QuizQuestion(
-          question:
-              "4. The main purpose of the Odwira festival is to\n(BECE 2006 Q5)",
-          options: [
-            "Remember the dead",
-            "Purify the state",
-            "Strengthen the unity of the people",
-            "Pay homage to the chief"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Odwira is primarily a purification festival celebrated to cleanse the state and its people."),
-      QuizQuestion(
-          question:
-              "5. The main reason for celebrating the Homowo festival is to\n(BECE 2012 Q10)",
-          options: [
-            "Look for twins",
-            "Hoot at hunger",
-            "Visit the shrines",
-            "Sprinkle spiritual food"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Homowo means 'hooting at hunger' and commemorates the end of a severe famine among the Ga people."),
-      QuizQuestion(
-          question:
-              "6. Eid-ul-Adha is celebrated by Muslims to\n(BECE 2016 Q11)",
-          options: [
-            "Mark Abraham's willingness to sacrifice his son to Allah",
-            "Remember the birth of Prophet Muhammad",
-            "Remember the death of Prophet Muhammad",
-            "Mark the end of Ramadan"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Eid-ul-Adha commemorates Prophet Ibrahim's willingness to sacrifice his son in obedience to Allah."),
-      QuizQuestion(
-          question:
-              "7. The festival celebrated by Christians in memory of the resurrection of Jesus is called\n(BECE 2000 Q8)",
-          options: ["Christmas", "Palm Sunday", "Good Friday", "Easter"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Easter commemorates the resurrection of Jesus Christ from the dead."),
-      QuizQuestion(
-          question:
-              "8. Which of the following celebrations signifies the salvation of all Christians?\n(BECE 2017 Q10)",
-          options: ["Christmas", "Palm Sunday", "Good Friday", "Easter"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Easter celebrates Christ's resurrection, which represents victory over sin and death and the salvation of believers."),
-      QuizQuestion(
-          question:
-              "9. The Damba festival is celebrated to mark the\n(BECE 2001 Q5)",
-          options: [
-            "End of the agricultural year",
-            "Migration of the ethnic group",
-            "Founder of the Mole-Dagbon",
-            "Birthday of the Holy Prophet"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "The Damba festival is traditionally associated with the birth of Prophet Muhammad."),
-      QuizQuestion(
-          question:
-              "10. One of the best advantages of celebrating festivals is to\n(BECE 2001 Q18)",
-          options: [
-            "Come together to fight one's enemies",
-            "Help organise funerals well",
-            "Train the youth in defending the community",
-            "Continue with the tradition"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Celebrating festivals helps preserve and transmit the customs and traditions of a community."),
-      QuizQuestion(
-          question:
-              "11. Eid-ul-Fitr celebration teaches Muslims to\n(BECE 1999 Q18)",
-          options: [
-            "Submit to Allah",
-            "Give alms",
-            "Sacrifice themselves to God",
-            "Appreciate God's mercy"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Eid-ul-Fitr encourages Muslims to thank Allah and appreciate His mercy after completing the Ramadan fast."),
-      QuizQuestion(
-          question: "12. The Muslim festival of sacrifice is\n(BECE 2001 Q5)",
-          options: ["Eid-ul-Fitr", "Milad-un-Nabi", "Ramadan", "Eid-ul-Adha"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "Eid-ul-Adha is known as the Festival of Sacrifice."),
-      QuizQuestion(
-          question:
-              "13. The Denkyira Asafo Company is associated with the festival of\n(BECE 2001 Q17)",
-          options: ["Homowo", "Aboakyer", "Odwira", "Akwambo"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The Denkyira Asafo Company takes part in the Aboakyer festival celebrated by the Effutu people of Winneba."),
-      QuizQuestion(
-          question:
-              "14. Which of the following festivals helps to develop the strength and vitality of the youth?\n(BECE 2001 Q17)",
-          options: ["Hogbetsotso", "Odwira", "Damba", "Aboakyer"],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "The deer-hunting activities of Aboakyer test and develop the strength, courage and vitality of the youth."),
-      QuizQuestion(
-          question:
-              "15. Which of the following traditional festivals is used for cleansing and purification of the people?\n(BECE 2009 Q9)",
-          options: ["Adae Kese", "Akwambo", "Kundum", "Odwira"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Odwira is a purification festival used to cleanse the people and the traditional state."),
-      QuizQuestion(
-          question:
-              "16. The Hogbetsotso festival is celebrated to mark the\n(BECE 2011 Q9)",
-          options: [
-            "Death of King Agorkorli",
-            "End of the farming season",
-            "Migration of the Ewes",
-            "End of famine among the Ga-Adangme"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Hogbetsotso commemorates the migration and escape of the Anlo-Ewe people from Notsie."),
-      QuizQuestion(
-          question:
-              "17. An important religious value of traditional festivals is to\n(BECE 2011 Q13)",
-          options: [
-            "Acknowledge the presence of the ancestors",
-            "Settle disputes among families",
-            "Bring citizens together to sacrifice",
-            "Hoot at hunger"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Traditional festivals provide an opportunity to honour and acknowledge the presence of the ancestors."),
-      QuizQuestion(
-          question:
-              "18. The 11th day of Zul-Hijjah, which is the month of pilgrimage on the Islamic calendar. During this period,Muslims the world over, which are financially sound are expected to make sacrifice of sheep to Allah.\n(BECE 2013 Q12)",
-          options: ["Adae", "Hogbetsotso", "Odwira", "Eid-ul-Adha"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Eid-ul-Adha is celebrated during Zul-Hijjah and involves the sacrifice of an animal by Muslims who can afford it."),
-      QuizQuestion(
-          question:
-              "19. The most important rite in an Islamic marriage is the\n(BECE 2001 Q34)",
-          options: [
-            "Presentation of household utensils to the bride",
-            "Delivery of a wedding sermon during the feast",
-            "Payment of the dowry",
-            "Celebration of the marriage feast"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The payment of the mahr, or dowry, is an essential requirement of a valid Islamic marriage."),
-      QuizQuestion(
-          question: "20. A naming ceremony gives the new baby\n(BECE 2002 Q10)",
-          options: [
-            "Identity within the community",
-            "Reunion with the family",
-            "Reunion with the community",
-            "A position in the family"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "A naming ceremony formally identifies and introduces the child to the family and community."),
-      QuizQuestion(
-          question:
-              "21. The importance of performing funeral rites is that it\n(BECE 2002A Q15)",
-          options: [
-            "Helps the dead to join the ancestors",
-            "Avoids more deaths in the family",
-            "Opens the way for the dead to go to heaven",
-            "Enables the dead to resurrect on the last day"
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "In traditional belief, properly performed funeral rites help the deceased enter the ancestral world."),
-      QuizQuestion(
-          question:
-              "22. In traditional society, people with traditional authority perform the naming ceremony because it is believed that\n(BECE 2002B Q8)",
-          options: [
-            "They will get a lot of money from the family",
-            "The child will follow in their footsteps",
-            "They will help the parents of the child",
-            "It is their duty to ensure that the child is named"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Traditional authorities are responsible for formally naming and welcoming the child into the community."),
-      QuizQuestion(
-          question:
-              "23. Gifts given to girls during puberty rites enable them to\n(BECE 2002B Q23)",
-          options: [
-            "Buy their clothing",
-            "Cook a meal for their husbands",
-            "Maintain their friends",
-            "Obtain cooking utensils"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Puberty-rite gifts often include household and cooking utensils to prepare girls for adult and family responsibilities."),
-      QuizQuestion(
-          question:
-              "24. In traditional society, rites of passage involve a\n(BECE 2003 Q7)",
-          options: [
-            "Transition from death to becoming an ancestor",
-            "Life-cycle movement from one stage to another",
-            "Transition from death to reincarnation",
-            "Period during which health is tested"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Rites of passage mark important transitions from one stage of life to another."),
-      QuizQuestion(
-          question:
-              "25. By creating Adam and Eve, God was establishing the institution of\n(BECE 2003 Q11)",
-          options: ["Comportment", "Brotherliness", "Friendship", "Marriage"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "The creation and union of Adam and Eve established the institution of marriage."),
-      QuizQuestion(
-          question:
-              "26. The cutlass given to a boy during puberty rites signifies\n(BECE 2003 Q32)",
-          options: [
-            "Acceptance into the military sector",
-            "Bravery and courage",
-            "Readiness to defend the community",
-            "Working to maintain himself and the family"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "The cutlass represents the young person's responsibility to work and provide for himself and his future family."),
-      QuizQuestion(
-          question:
-              "27. During naming ceremonies, the baby is given drops of water and wine to signify that he or she should be\n(BECE 2004 Q15)",
-          options: ["Truthful", "Patient", "Brave", "Obedient"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Water and wine are used to teach the child to distinguish truth from falsehood and always speak the truth."),
-      QuizQuestion(
-          question:
-              "28. An Akan girl qualifies for puberty rites when\n(BECE 2004 Q27)",
-          options: [
-            "She is between fifteen and seventeen years old",
-            "She first experiences menstruation",
-            "Her breasts develop",
-            "She finds a boyfriend"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Among the Akan, a girl's first menstruation indicates that she has reached puberty and qualifies for puberty rites."),
-      QuizQuestion(
-          question:
-              "29. The most important prayer request during marriage rites is for\n(BECE 2004 Q30)",
-          options: [
-            "Prosperity and wealth",
-            "Protection and long life",
-            "Good health and protection",
-            "Long life and children"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Prayers during marriage rites commonly ask for long life and children for the couple."),
-      QuizQuestion(
-          question:
-              "30. The transition between childhood and adulthood is termed\n(BECE 2005 Q20)",
-          options: ["Outdooring", "Adolescence", "Puberty", "Confirmation"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Adolescence is the transitional period between childhood and adulthood."),
+question:
+"1. Festivals are celebrated every year in order to\n(BECE 1999 Q9)",
+options: [
+"Make the people happy",
+"Thank the gods for a successful year",
+"Adore a new year",
+"Punish the wrong doers in the community"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Traditional festivals are often celebrated to thank the gods for their protection and blessings during the year."),
+  QuizQuestion(
+      question:
+          "2. The Asafo Company is associated with the festival of\n(BECE 2001 Q5)",
+      options: ["Homowo", "Aboakyer", "Odwira", "Akwambo"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Asafo companies play an important role in the celebration of the Aboakyer festival of the Effutu people."),
+
+  QuizQuestion(
+      question:
+          "3. Id-ul-Fitr in Islam is the feast of\n(BECE 2002A Q9)",
+      options: [
+        "Sacrifice",
+        "Ending the Ramadan fast",
+        "Pilgrimage",
+        "The Prophet's birthday"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Fitr is celebrated by Muslims to mark the end of the Ramadan fasting period."),
+
+  QuizQuestion(
+      question:
+          "4. The Muslims festival of sacrifice is\n(BECE 2001 Q5)",
+      options: [
+        "Eid-ul-Fitr",
+        "Milad-un-Nabi",
+        "Ramadan",
+        "Eid-ul-Adhar"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Adha is the Islamic festival of sacrifice."),
+
+  QuizQuestion(
+      question:
+          "5. The main reason for the celebration of Odwira festival by the Akwapim is\n(BECE 2005 Q39)",
+      options: ["Adae", "Aboakyer", "Homowo", "Damba"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The source appears to contain mismatched options for this question, since the listed choices are names of other festivals rather than reasons for celebrating Odwira."),
+
+  QuizQuestion(
+      question:
+          "6. The festival celebrated by Christians in memory of the resurrection of Jesus is called\n(BECE 2000 Q13)",
+      options: ["Christmas", "Easter", "Pentecost", "Passover"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christians celebrate Easter in remembrance of the resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "7. One of the religious values in celebrating traditional festivals is to\n(BECE 2000 Q8)",
+      options: [
+        "Acknowledge the presence of the gods",
+        "Bring the citizens together",
+        "Raise funds to develop the community",
+        "Contract marriages"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Traditional festivals have religious value because they acknowledge the gods and ancestors."),
+
+  QuizQuestion(
+      question:
+          "8. The powerful god Penkyi Otu is associated with the\n(BECE 2004 Q10)",
+      options: [
+        "Kundum festival",
+        "Aboakyer festival",
+        "Fetu festival",
+        "Akwambo festival"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Penkyi Otu is associated with the Aboakyer festival celebrated by the Effutu people of Winneba."),
+
+  QuizQuestion(
+      question:
+          "9. Eid-Ul-Fitr Celebration teaches Muslims to\n(BECE 1999 Q18)",
+      options: [
+        "Submit to Allah",
+        "Give alms",
+        "Sacrifice themselves to God",
+        "Appreciate God's mercy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Eid-ul-Fitr encourages Muslims to appreciate Allah's mercy and blessings after completing the Ramadan fast."),
+
+  QuizQuestion(
+      question:
+          "10. Which of the following festivals helps to develop the strength and vitality of the Youth?\n(BECE 2001 Q17)",
+      options: ["Hogbetsotso", "Odwira", "Damba", "Aboakyer"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Aboakyer festival involves activities such as hunting that test the strength, courage and vitality of the youth."),
+
+  QuizQuestion(
+      question:
+          "11. One of the best advantages of celebrating festival is to\n(BECE 2001 Q18)",
+      options: [
+        "Come together to fight one's enemies",
+        "Help organise funerals well",
+        "Train youth in defending the community",
+        "Continue with the tradition"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Celebrating festivals helps preserve and continue the traditions and cultural heritage of a community."),
+
+  QuizQuestion(
+      question:
+          "12. The main reason for the celebration of festivals is to\n(BECE 2003 Q16)",
+      options: [
+        "Entertain people",
+        "Install a new chief",
+        "Thank the gods for a successful year",
+        "Bring the wrong doers in the community to book"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Many traditional festivals are celebrated to give thanks to the gods for a successful year."),
+
+  QuizQuestion(
+      question:
+          "13. The most important activity during the Odwira festival by the Akwapim is\n(BECE 2004 Q10)",
+      options: [
+        "Merry making and dancing",
+        "Purification and cleansing",
+        "Feasting and meditation",
+        "Family meetings and dancing"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Odwira is primarily a purification festival involving the cleansing of the people and the traditional state."),
+
+  QuizQuestion(
+      question:
+          "14. The main purpose of the Odwira festival is to\n(BECE 2006 Q11)",
+      options: [
+        "Remember the dead",
+        "Purify the state",
+        "Strengthen the unity of the people",
+        "Pay homage to the chief"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Odwira is principally celebrated to purify and cleanse the traditional state."),
+
+  QuizQuestion(
+      question:
+          "15. Which of the following is a harvest festival?\n(BECE 2005 Q5)",
+      options: ["Adae", "Odwira", "Homowo", "Aboakyer"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Homowo is a harvest festival celebrated by the Ga people."),
+
+  QuizQuestion(
+      question:
+          "16. Which of the following celebrations signifies the salvation of all Christians?\n(BECE 2012 Q18)",
+      options: ["Easter", "Christmas", "Pentecost", "Passover"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Easter commemorates the death and resurrection of Jesus Christ, which Christians associate with salvation."),
+
+  QuizQuestion(
+      question:
+          "17. The Aboakyer festival is celebrated by the\n(BECE 2012 Q18)",
+      options: ["Anlo", "Akan", "Ga", "Efutu"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Aboakyer festival is celebrated by the Effutu people of Winneba."),
+
+  QuizQuestion(
+      question:
+          "18. The last festival celebrated by the Israelites before they left Egypt was the\n(BECE 2013 Q3)",
+      options: [
+        "Booths",
+        "Passover",
+        "Feast of Tabernacles",
+        "Feast of weeks"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites celebrated the Passover immediately before their departure from Egypt."),
+
+  QuizQuestion(
+      question:
+          "19. The most important Christian festival is\n(BECE 2013 Q20)",
+      options: ["Ascension", "Easter", "Lent", "Pentecost"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Easter is regarded as the most important Christian festival because it celebrates the resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "20. The main reason for the celebration of Kundum festival is for community\n(BECE 2014 Q3)",
+      options: [
+        "Development",
+        "Preservation",
+        "Purification",
+        "Re-organization"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Kundum includes the purification and cleansing of the community."),
+
+  QuizQuestion(
+      question:
+          "21. Eid-ul-Adha is celebrated by Muslims to\n(BECE 2015 Q5)",
+      options: [
+        "Mark Abraham's sacrifice to Allah",
+        "Remember the death of Mohammed",
+        "Mark the end of Ramadan",
+        "Remember the birth of Mohammed"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Adha commemorates Prophet Ibrahim's willingness to sacrifice his son in obedience to Allah."),
+
+  QuizQuestion(
+      question:
+          "22. Which of the following is a harvest festival?\n(BECE 2015 Q19)",
+      options: ["Aboakyer", "Adae", "Homowo", "Hogbetsotso"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Homowo is a harvest festival celebrated by the Ga people."),
+
+  QuizQuestion(
+      question:
+          "23. The festival celebrated by the people of Winneba is\n(BECE 2016 Q10)",
+      options: ["Aboakyer", "Damba", "Homowo", "Gonja"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Effutu people of Winneba celebrate the Aboakyer festival."),
+
+  QuizQuestion(
+      question:
+          "24. The day Jesus rose from the dead is celebrated by Christians as\n(BECE 2017 Q9)",
+      options: [
+        "Ascension day",
+        "Good Friday",
+        "Easter Sunday",
+        "Pentecost day"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians celebrate the resurrection of Jesus Christ on Easter Sunday."),
+
+  QuizQuestion(
+      question:
+          "25. The Kundum festival is celebrated by the\n(BECE 2018 Q11)",
+      options: ["Dagomba", "Fante", "Krobo", "Nzema"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Kundum is celebrated by the Nzema and Ahanta people of Ghana."),
+
+  QuizQuestion(
+      question:
+          "26. The water and wine or gin given to the child during naming ceremony signifies\n(BECE 1999 Q24)",
+      options: ["Loyalty", "Faithfulness", "Truthfulness", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Water and wine or gin are used to teach the child to distinguish truth from falsehood and to grow up truthful."),
+
+  QuizQuestion(
+      question:
+          "27. The importance of naming ceremony is to\n(BECE 2000 Q11)",
+      options: [
+        "Announce that a woman has delivered",
+        "Make known to the society the additional mouth to be fed",
+        "Ask for future suitor for the child",
+        "Give the child an identity"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A naming ceremony formally gives the child a name and identity within the family and community."),
+
+  QuizQuestion(
+      question:
+          "28. Dipo is a traditional\n(BECE 2000 Q16)",
+      options: [
+        "Festival",
+        "Naming ceremony",
+        "Puberty rite",
+        "Death rite"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dipo is a traditional puberty rite associated with the Krobo people."),
+
+  QuizQuestion(
+      question:
+          "29. The most important rite of our Islam marriage is the\n(BECE 2002A Q5)",
+      options: [
+        "Presentation of household utensils to the bride",
+        "Delivering of wedding sermon during the feast",
+        "Payment of the dowry",
+        "Celebration of the marriage feast"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Payment of the dowry or mahr is an important requirement in Islamic marriage."),
+
+  QuizQuestion(
+      question:
+          "30. The importance of performing funeral rites is that it\n(BECE 2002A Q15)",
+      options: [
+        "Helps the dead to join the ancestors",
+        "Avoids more deaths in the family",
+        "Opens the way for the dead to go to heaven",
+        "Enables the dead to resurrect on the last day"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In African Traditional Religion, proper funeral rites are believed to help the deceased join the ancestors."),
+
+  QuizQuestion(
+      question:
+          "31. Money given to girls as gifts at puberty enable them to\n(BECE 2002B Q23)",
+      options: [
+        "Buy their clothing",
+        "Cook a meal for their husband",
+        "Entertain their friends",
+        "Buy their cooking utensils"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Money given during puberty rites can help the girls obtain clothing and other personal needs."),
+
+  QuizQuestion(
+      question:
+          "32. During naming ceremonies, the baby is given drops of water and wine to signify that he should be\n(BECE 2003 Q32)",
+      options: ["Truthful", "Patient", "Brave", "Obedient"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The water and wine symbolize the importance of truthfulness and the ability to distinguish truth from falsehood."),
+
+  QuizQuestion(
+      question:
+          "33. An Akan girl qualifies for puberty rites when\n(BECE 2004 Q27)",
+      options: [
+        "She is between the ages of fifteen and seventeen years",
+        "She first experiences her menses",
+        "Her breasts develop",
+        "She first becomes pregnant"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The onset of menstruation traditionally signals that an Akan girl has reached puberty."),
+
+  QuizQuestion(
+      question:
+          "34. Marriage has a good chance of succeeding if the\n(BECE 2006 Q17)",
+      options: [
+        "Couple are from the same town",
+        "Man has a lot of money",
+        "Couple understand each other",
+        "Woman is beautiful"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mutual understanding between spouses is important for a stable and successful marriage."),
+
+  QuizQuestion(
+      question:
+          "35. Puberty rites should be encouraged because it\n(BECE 2015 Q7)",
+      options: [
+        "Helps the youth to become rich",
+        "Links the youth to adulthood",
+        "Promotes chastity among the youth",
+        "Makes the youth look more attractive"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites traditionally educate young people about responsible behaviour and encourage chastity."),
+
+  QuizQuestion(
+      question:
+          "36. The rite which ushers the individual into adulthood is\n(BECE 2021 Q32)",
+      options: ["Engagement", "Marriage", "Outdoorings", "Puberty"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Puberty rites mark the transition from childhood to adulthood."),
+
+  QuizQuestion(
+      question:
+          "37. In traditional society, a new born child yet to be named is regarded as a\n(BECE 2022 Q11)",
+      options: ["Ancestor", "Gift", "Spirit", "Visitor"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A newborn child who has not yet been named is traditionally regarded as a visitor until formally accepted into the community."),
+
+  QuizQuestion(
+      question:
+          "38. Payments made to fulfill marriage contract is termed as\n(BECE 2020 Q13)",
+      options: ["Dowry", "Gift", "Sacrifice", "Reward"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The payment made as part of a marriage contract is commonly referred to as dowry or bride wealth."),
+
+  QuizQuestion(
+      question:
+          "39. The burial of the dead without a coffin teaches the Muslim to\n(BECE 2023 Q24)",
+      options: [
+        "Avoid acquiring much wealth",
+        "Live a simple life",
+        "Be more generous",
+        "Love one another"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Simple Islamic burial practices emphasize humility and simplicity in life and death."),
+
+  QuizQuestion(
+      question:
+          "40. The offer of baskets by some traditional believers to baby girls during naming ceremonies is meant to teach the child\n(BECE 2023 Q31)",
+      options: [
+        "Faithfulness",
+        "Hard work",
+        "Submissiveness",
+        "Endurance"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The basket symbolizes the expectation that the girl will grow to become hardworking and responsible."),
+
+  QuizQuestion(
+      question:
+          "41. The chief priest communicates with the gods\n(BECE 2021 Q24)",
+      options: [
+        "Through dreams",
+        "During festival rites",
+        "In times of war",
+        "Through libation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a traditional form of prayer and communication with the gods and ancestors."),
+
+  QuizQuestion(
+      question:
+          "42. A situation that cannot result in death in\n(BECE 2021 Q39)",
+      options: ["Accident", "Feasting", "HIV/AIDS", "Poisoning"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Unlike accidents, serious diseases and poisoning, ordinary feasting is not normally regarded as a direct cause of death."),
+
+  QuizQuestion(
+      question:
+          "43. One social importance of festivals is\n(BECE 2022 Q10)",
+      options: [
+        "Showing respect for authority",
+        "Venerating the gods and ancestors",
+        "Raising funds for projects",
+        "Making new friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Festivals bring people together and provide opportunities for social interaction and making new friends."),
+
+  QuizQuestion(
+      question:
+          "44. Which of the following is a positive value that can be learnt from festivals?\n(BECE 2023 Q4)",
+      options: [
+        "Remembrance of painful events",
+        "Purification of individuals",
+        "Unity and communal living",
+        "Holiness and peace"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Festivals promote unity, cooperation and communal living among members of the community."),
+
+  QuizQuestion(
+      question:
+          "45. One reason for the initiation of marriage is\n(BECE 2015 Q20)",
+      options: ["Companionship", "Joy", "Responsibility", "Security"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "One important purpose of marriage is companionship between spouses."),
+
+  QuizQuestion(
+      question:
+          "46. It is important to perform marriage rites because they\n(BECE 2016 Q14)",
+      options: [
+        "Build mutual trust and understanding",
+        "Are requirements to adolescence",
+        "Prevent divorce in society",
+        "Seal the marriage"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Marriage rites formally recognize and seal the marriage between the couple and their families."),
+
+  QuizQuestion(
+      question:
+          "47. The most important prayer request during marriage rites is for\n(BECE 2016 Q20)",
+      options: [
+        "Good health and protection",
+        "Long life and children",
+        "Prosperity and wealth",
+        "Protection and long life"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Prayers during marriage rites commonly ask for long life and children for the couple."),
+
+  QuizQuestion(
+      question:
+          "48. Which of the following statements is not true about puberty rites? They\n(BECE 2017 Q12)",
+      options: [
+        "Teach girls to be obedient",
+        "Prevent teenage pregnancy",
+        "Teach girls how to live together",
+        "Protect girls against evil forces"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites focus on preparing young people for responsible adulthood, morality and traditional responsibilities rather than specifically teaching communal living."),
+
+  QuizQuestion(
+      question:
+          "49. The period of courtship in marriage is meant for\n(BECE 2017 Q13)",
+      options: [
+        "Convincing parents of both parties",
+        "Presentation of gifts to friends",
+        "The couple to study each other",
+        "The payment of the knocking fee"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Courtship gives prospective spouses an opportunity to know and understand each other before marriage."),
+
+  QuizQuestion(
+      question:
+          "50. The exchange of rings in Christian marriage signifies\n(BECE 2017 Q14)",
+      options: [
+        "Blessing from God",
+        "Faithfulness to God",
+        "Faithfulness to one another",
+        "Love for the family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wedding rings symbolize commitment and faithfulness between husband and wife."),
+
+  QuizQuestion(
+      question:
+          "51. Both Islamic and Traditional religions accept\n(BECE 2018 Q13)",
+      options: [
+        "Polyandry",
+        "Polygamy",
+        "The use of incense",
+        "The five daily prayers"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Both Islam and many African Traditional religious societies permit polygamous marriage under certain conditions."),
+
+  QuizQuestion(
+      question:
+          "52. The growth of hairs in the armpit is a sign of\n(BECE 2018 Q14)",
+      options: ["Motherhood", "Pregnancy", "Puberty", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Growth of hair in the armpits is one of the physical changes associated with puberty."),
+
+  QuizQuestion(
+      question:
+          "53. A strong emotional change noticeable among adolescents is\n(BECE 2019 Q13)",
+      options: ["Obedience", "Rebellion", "Selfishness", "Intelligence"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Adolescents may show increased emotional independence and rebellious behaviour as part of development."),
+
+  QuizQuestion(
+      question:
+          "54. The libation offered during traditional marriage is meant to make the spouse\n(BECE 2020 Q12)",
+      options: ["Beautiful", "Fruitful", "Hardworking", "Religious"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation during traditional marriage commonly includes prayers for fertility and children."),
+
+  QuizQuestion(
+      question:
+          "55. Girls who undergo puberty rites often get good husbands because responsible men\n(BECE 2021 Q28)",
+      options: [
+        "Appreciate pretty and wealthy girls",
+        "Like morally sound girls",
+        "Love attractive religious girls",
+        "Love well educated girls"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Puberty rites traditionally emphasize moral training and chastity, qualities considered desirable in marriage."),
+
+  QuizQuestion(
+      question:
+          "56. The first stage in marriage starts when\n(BECE 2022 Q12)",
+      options: [
+        "The man pays the bride wealth",
+        "Parents of both parties agree",
+        "A woman accepts a man's proposal",
+        "The engagement ceremony is performed"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The marriage process begins when a marriage proposal is made and accepted."),
+
+  QuizQuestion(
+      question:
+          "57. Which of the following statements is not true about African Traditional Marriage?\n(BECE 2022 Q13)",
+      options: [
+        "The marriage involves extended family",
+        "Dowries paid stabilizes the marriage",
+        "Observation of certain taboos by men promote polygamy",
+        "Scripture readings are taken before libation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Scripture reading is not normally a feature of African Traditional marriage rites before libation."),
+
+  QuizQuestion(
+      question:
+          "58. To make marriage successful, couples need to always\n(BECE 2022 Q14)",
+      options: [
+        "Compare themselves with each other",
+        "Work hard for wealth",
+        "Look neat and attractive",
+        "Communicate with each other"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Regular and effective communication promotes understanding and helps couples resolve problems."),
+
+  QuizQuestion(
+      question:
+          "59. One of the essences of pouring libation during traditional marriages is to make the couples\n(BECE 2022 Q15)",
+      options: ["Fruitful", "Religious", "Beautiful", "Hard working"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Libation during marriage includes prayers for fertility and children, making the couple fruitful."),
+
+  QuizQuestion(
+      question:
+          "60. Donations at funerals are meant to\n(BECE 2022 Q16)",
+      options: [
+        "Refresh the mourners",
+        "Offer transportation to the dead",
+        "Offer the family a means of livelihood",
+        "Show love and support to the family"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Funeral donations express sympathy, love and practical support for the bereaved family."),
+
+  QuizQuestion(
+      question:
+          "61. A baby is named after birth because it\n(BECE 2022 Q17)",
+      options: [
+        "Is a gift from God",
+        "Needs to be identified",
+        "Needs to be cared for",
+        "Must be outdoored"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Naming gives the baby an identity by which he or she can be recognized in the family and community."),
+
+  QuizQuestion(
+      question:
+          "62. The observance of puberty rites ensures the following except\n(BECE 2023 Q3)",
+      options: [
+        "Bringing honour to parent and relatives",
+        "Promoting the gift of life and wealth",
+        "Promoting education in customs and traditions",
+        "Helping to check immoral activities"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites promote moral behaviour, cultural education and family honour, but promoting wealth is not one of their main purposes."),
+
+  QuizQuestion(
+      question:
+          "63. The wearing of wedding rings by couples after marriage is a sign of\n(BECE 2023 Q18)",
+      options: [
+        "Responsibility and sincerity",
+        "Faithfulness and humility",
+        "Commitment and trust",
+        "Honesty and tolerance"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wedding rings symbolize the couple's continuing commitment, trust and marital bond."),
+
+  QuizQuestion(
+      question:
+          "64. The following activities are marriage procedures in Islam except\n(BECE 2023 Q19)",
+      options: [
+        "Couples exchange vows to endorse the marriage",
+        "Parents select spouses for the men",
+        "A guardian to the marriage is chosen",
+        "The bride's relatives perform the knocking"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The knocking ceremony is associated mainly with African Traditional marriage and is not a standard Islamic marriage procedure."),
+
+  QuizQuestion(
+      question:
+          "65. Polygamy is allowed to Islam on the condition that the man\n(BECE 2023 Q35)",
+      options: [
+        "Will be faithful to his religion",
+        "Can treat all the women fairly",
+        "Is rich and can feed the extended family",
+        "Will be sympathetic toward widows"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Islam permits a man to marry more than one wife only if he is able to treat them justly and fairly."),
+
     ],
   ),
-  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience":
-      QuizModel(
+  "Religious & Moral Education JHS1 s3 ss1 - The Family, Religious Home and Obedience": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -46236,8 +46969,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
               "Asafo companies traditionally defend and serve their communities, demonstrating courage and patriotism."),
     ],
   ),
-  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities":
-      QuizModel(
+  "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -47735,8 +48467,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
               "Improper refuse disposal creates breeding grounds for disease-causing organisms, leading to disease outbreaks."),
     ],
   ),
-  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living":
-      QuizModel(
+  "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -48799,646 +49530,6 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
           difficulty: "Easy",
           explanation:
               "Idleness is closely associated with laziness, which discourages productive work."),
-    ],
-  ),
-
-  // ─── JHS 2 / JHS 3: ENGLISH ────────────────────────────────────────────────
-  "Mapping Skills (Concept of Maps)": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-        question:
-            "1. Which of the following shows the relationship between distance on paper and actual distance on the ground?",
-        options: ["Longitude", "Key", "Scale", "Plan"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A scale shows the relationship between a distance measured on a map and the corresponding actual distance on the ground.",
-      ),
-      QuizQuestion(
-        question:
-            "2. Which of the following is not an imaginary line drawn on maps?",
-        options: ["Axis", "Equator", "A latitude", "Longitude"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "The Equator, latitudes and longitudes are imaginary lines shown on maps, but the Earth's axis is an imaginary line through the Earth rather than a line drawn on maps.",
-      ),
-      QuizQuestion(
-        question:
-            "3. When the scale of a map is expressed in the form of a ratio, it is known as:",
-        options: [
-          "Statement scale",
-          "Linear scale",
-          "Open divided scale",
-          "Representative fraction"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "A scale written as a ratio, such as 1:50,000, is called a representative fraction.",
-      ),
-      QuizQuestion(
-        question:
-            "4. When the needle of a compass is at rest, it points to the:",
-        options: ["Centre", "South", "East", "North"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The magnetic needle of a compass settles in a north-south direction, with its marked end pointing north.",
-      ),
-      QuizQuestion(
-        question:
-            "5. Which of the following is a cardinal point of the compass?",
-        options: ["North-East", "South-West", "East", "South-East"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The four cardinal points are North, South, East and West.",
-      ),
-      QuizQuestion(
-        question:
-            "6. The ratio between measurement on a map and the actual corresponding distance on the ground is:",
-        options: ["A longitude", "A scale", "A latitude", "An isotherm"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "A map scale expresses the relationship between map distance and actual ground distance.",
-      ),
-      QuizQuestion(
-        question:
-            "7. The three main ways of expressing scales are linear, representative fraction and:",
-        options: ["Kilometres", "Longitude", "Latitude", "Statement"],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "The three main forms of map scale are statement scale, linear scale and representative fraction.",
-      ),
-      QuizQuestion(
-        question:
-            "8. Which of the following imaginary lines on a map helps to determine time?",
-        options: [
-          "The Arctic Circle",
-          "The Antarctic Circle",
-          "The Equator",
-          "The Greenwich Meridian"
-        ],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "The Greenwich Meridian is the starting point for calculating world time and time zones.",
-      ),
-      QuizQuestion(
-        question:
-            "9. The colour used for showing rivers and lakes on topographical maps is:",
-        options: ["Red", "Blue", "Brown", "Green"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Blue is conventionally used to represent water features such as rivers, lakes and seas on maps.",
-      ),
-      QuizQuestion(
-        question:
-            "10. When the scale of a map is expressed as 1:50,000, it is known as:",
-        options: [
-          "Statement scale",
-          "Representative fraction scale",
-          "Linear scale",
-          "Vertical scale"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "A numerical ratio such as 1:50,000 is a representative fraction scale.",
-      ),
-      QuizQuestion(
-        question: "11. On maps, the sea is normally shown with the colour:",
-        options: ["Green", "Yellow", "White", "Blue"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The sea and other water bodies are normally represented with the colour blue on maps.",
-      ),
-      QuizQuestion(
-        question:
-            "12. The location of an object measured in degrees is known as:",
-        options: ["Cardinal point", "Bearing", "Landmark", "Survey beacon"],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation:
-            "A bearing gives the direction of one place from another in degrees, measured clockwise from north.",
-      ),
-      QuizQuestion(
-        question: "13. 1 cm to 1 km expressed as a representative fraction is:",
-        options: ["1:100", "1:1,000", "1:10,000", "1:100,000"],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "One kilometre equals 100,000 centimetres, so 1 cm to 1 km is written as 1:100,000.",
-      ),
-      QuizQuestion(
-        question:
-            "14. If the scale of a map is 1:10,000 and the distance on the map is 20 cm, then the actual distance on the ground is:",
-        options: ["20 km", "0.2 km", "2 km", "20,000 km"],
-        correctIndex: 2,
-        difficulty: "Hard",
-        explanation:
-            "At a scale of 1:10,000, 20 cm represents 200,000 cm, which is equal to 2 kilometres.",
-      ),
-      QuizQuestion(
-        question: "15. A scale of a map expressed as a ratio is known as:",
-        options: [
-          "Linear scale",
-          "Simple fraction",
-          "Representative fraction",
-          "Statement scale"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A representative fraction expresses a map scale as a ratio, such as 1:10,000.",
-      ),
-      QuizQuestion(
-        question:
-            "16. The ratio between distance measured on a map and the actual distance on the ground is a:",
-        options: ["Scale", "Sketch", "Statement", "Layout"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "A scale compares the distance on a map with the actual corresponding distance on the ground.",
-      ),
-      QuizQuestion(
-        question: "17. Landmarks are important features used in finding:",
-        options: ["Cardinal points", "Compass points", "Direction", "Layout"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Landmarks are easily recognized features that help people identify places and find directions.",
-      ),
-      QuizQuestion(
-        question: "18. The four cardinal points are:",
-        options: [
-          "East, South-West, North, West",
-          "North, South, North-East, South-West",
-          "North, South, East, West",
-          "West, South-East, North-West, South"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The four main cardinal points are North, South, East and West.",
-      ),
-      QuizQuestion(
-        question:
-            "19. The ratio between distance measured on a map and the actual distance on the ground is:",
-        options: ["A sketch", "A statement", "A layout", "A scale"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "A map scale represents the relationship between map distance and actual ground distance.",
-      ),
-      QuizQuestion(
-        question:
-            "20. Which of the following is used to represent landmarks on maps?",
-        options: [
-          "Conventional signs",
-          "Histogram",
-          "Mathematical symbols",
-          "Plain sketches"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Conventional signs are standard symbols used to represent landmarks and other features on maps.",
-      ),
-      QuizQuestion(
-        question: "21. Conventional signs enable map users to identify:",
-        options: ["Planets", "Rock profiles", "Cardinal points", "Landmarks"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Conventional signs help map users identify landmarks such as schools, roads, hospitals and rivers.",
-      ),
-      QuizQuestion(
-        question: "22. The four cardinal points are:",
-        options: [
-          "N, E, SW, NE",
-          "N, S, NE, SW",
-          "N, E, W, S",
-          "NW, SE, NE, SW"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The abbreviations for the four cardinal points are N, S, E and W.",
-      ),
-      QuizQuestion(
-        question:
-            "23. A representation of the Earth's surface not drawn to scale is known as a:",
-        options: ["Map", "Plan", "Sketch", "Globe"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A sketch is a simple drawing of an area that is not necessarily drawn according to an exact scale.",
-      ),
-      QuizQuestion(
-        question: "24. Which of the following is a sketch? A town drawn:",
-        options: [
-          "With arrangement of houses",
-          "Without the arrangement of houses",
-          "With reference to actual size on the ground",
-          "Without reference to actual size on the ground"
-        ],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "A sketch shows the main features of an area without maintaining their exact sizes or distances on the ground.",
-      ),
-      QuizQuestion(
-        question:
-            "25. Which of the following is not a feature of a sketched map?",
-        options: ["Title", "Key", "Scale", "Landmark"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A sketch map is not drawn to an exact scale, although it may have a title, key and landmarks.",
-      ),
-      QuizQuestion(
-        question:
-            "26. The statement scale 1 cm to 5 km can be converted to a representative fraction to read:",
-        options: ["1:50", "1:5,000", "1:50,000", "1:500,000"],
-        correctIndex: 3,
-        difficulty: "Hard",
-        explanation:
-            "Five kilometres equals 500,000 centimetres, so 1 cm to 5 km is written as 1:500,000.",
-      ),
-      QuizQuestion(
-        question:
-            "27. Which of the following is associated with a scale of a map?",
-        options: ["Linear", "Balanced", "Tilted", "Compass"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "A linear scale is one of the main ways of expressing the scale of a map.",
-      ),
-      QuizQuestion(
-        question: "28. A scale presented in a line form is known as:",
-        options: [
-          "Map scale",
-          "Statement scale",
-          "Representative scale",
-          "Linear scale"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "A linear scale uses a divided line or bar to show the relationship between map distance and ground distance.",
-      ),
-      QuizQuestion(
-        question: "29. Contours on a map indicate what phenomenon?",
-        options: [
-          "Elevation changes",
-          "Temperature changes",
-          "Pressure changes",
-          "Changes in rainfall"
-        ],
-        correctIndex: 0,
-        difficulty: "Medium",
-        explanation:
-            "Contour lines join places of equal height and therefore show changes in elevation and the shape of the land.",
-      ),
-      QuizQuestion(
-        question: "30. Why is it useful to provide a legend on a map?",
-        options: [
-          "Display the title",
-          "Show the compass direction",
-          "Explain the symbols",
-          "Indicate the scale"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A map legend or key explains the meanings of the symbols and colours used on the map.",
-      ),
-    ],
-  ),
-
-  "USING APPROPRIATE REGISTER (INFORMAL VS. FORMAL)": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. When writing a letter to the Metropolitan Director of Education, which register is required?",
-          options: [
-            "Slang",
-            "Informal register",
-            "Formal register",
-            "Colloquial register"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Official correspondence requires formal language structure."),
-      QuizQuestion(
-          question:
-              "2. Which of the following sentences uses a formal register?",
-          options: [
-            "I wanna request some help.",
-            "I am writing to request your assistance.",
-            "Can you help me out real quick?",
-            "Please hit me back soon."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "'I am writing to request your assistance.' uses proper formal structure."),
-    ],
-  ),
-
-  "REPORTED SPEECH": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Convert to reported speech: 'I am visiting Kumasi today.'",
-          options: [
-            "He said that he was visiting Kumasi that day.",
-            "He said that I am visiting Kumasi today.",
-            "He told me he is visiting Kumasi today.",
-            "He said that he went to Kumasi today."
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "'am' changes to 'was', 'today' changes to 'that day'."),
-      QuizQuestion(
-          question: "2. In reported speech, 'these' is transformed into:",
-          options: ["Them", "Those", "This", "Their"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Demonstrative 'these' shifts to 'those' in reported speech."),
-    ],
-  ),
-
-  "QUESTION TAGS": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Provide the correct question tag: 'Ama went to the market, ______?'",
-          options: ["did she?", "didn't she?", "wasn't she?", "does she?"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "A positive sentence in past simple takes a negative past tag: 'didn't she?'."),
-      QuizQuestion(
-          question: "2. Complete: 'We have not finished the exam, ______?'",
-          options: ["haven't we?", "have we?", "did we?", "had we?"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "A negative sentence takes a positive tag: 'have we?'."),
-    ],
-  ),
-
-  "MASTERING REGISTER AND OPEN QUESTIONS": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. Which of the following is an open-ended question?",
-          options: [
-            "Do you live in Accra?",
-            "Is it raining outside?",
-            "What are your views on environmental protection?",
-            "Are you in JHS 3?"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Open-ended questions require detailed expression of thoughts, not simple yes/no answers."),
-      QuizQuestion(
-          question:
-              "2. Open-ended questions are highly useful in conversation because they:",
-          options: [
-            "Restrict the response length",
-            "Provoke short one-word answers",
-            "Encourage sharing of details and elaboration",
-            "End the conversation quickly"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "They invite elaboration and keep the conversation going."),
-    ],
-  ),
-
-  "THE ART OF ARGUMENT AND DEBATING": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. In a formal debate, the speaker who supports the motion is called the:",
-          options: [
-            "Opponent",
-            "Proposer / Affirmative",
-            "Moderator",
-            "Timekeeper"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The proposer supports (affirms) the motion under discussion."),
-      QuizQuestion(
-          question:
-              "2. Which of these is a key element of a convincing argument in a debate?",
-          options: [
-            "Shouting loudly at the opponent",
-            "Using sound evidence and logical explanations",
-            "Using personal insults",
-            "Speaking as fast as possible"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Strong debates rely on factual evidence and logic."),
-    ],
-  ),
-
-  "CONDITIONAL SENTENCES (TYPE 3)": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Which of the following shows the correct structure of a Type 3 conditional?",
-          options: [
-            "If + present, will + verb",
-            "If + past perfect, would have + past participle",
-            "If + past simple, would + verb",
-            "If + future, will + verb"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Type 3 conditionals express unreal past actions: If + had + V3, would have + V3."),
-      QuizQuestion(
-          question:
-              "2. Complete: 'If I had studied harder, I ______ the test.'",
-          options: ["will pass", "would pass", "would have passed", "passed"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Type 3 conditional requires 'would have passed' in the main clause."),
-    ],
-  ),
-
-  "DEFINING AND NON-DEFINING RELATIVE CLAUSES": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Which sentence contains a non-defining relative clause (needs commas)?",
-          options: [
-            "The boy who won the race is my friend.",
-            "My father, who is a doctor, works in Kumasi.",
-            "The book that I read was interesting.",
-            "This is the town where I was born."
-          ],
-          correctIndex: 1,
-          difficulty: "Hard",
-          explanation:
-              "Non-defining relative clauses provide extra, non-essential details and are placed between commas."),
-      QuizQuestion(
-          question:
-              "2. In defining relative clauses, which pronoun is commonly used for things?",
-          options: ["Who", "Whom", "Which / That", "Whose"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "'Which' or 'That' is used to define objects or animals."),
-    ],
-  ),
-
-  "ADVERBIAL PHRASES AND THEIR FUNCTIONS": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Identify the adverbial phrase of time in: 'We will meet after the English lesson.'",
-          options: [
-            "We will",
-            "meet",
-            "after the English lesson",
-            "English lesson"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "'after the English lesson' answers 'when', indicating time."),
-      QuizQuestion(
-          question:
-              "2. In 'She sang with great joy,' key function of 'with great joy' is to show:",
-          options: ["Time", "Place", "Manner", "Frequency"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation: "It answers 'how' she sang, indicating manner."),
-    ],
-  ),
-
-  // ─── JHS 2 / JHS 3: SCIENCE ────────────────────────────────────────────────
-  "Types of mixtures and their characteristics": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. A mixture in which the components are uniform throughout is called:",
-          options: ["Suspension", "Heterogeneous", "Homogeneous", "Colloid"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Homogeneous mixtures have a uniform composition throughout (e.g. sugar in water)."),
-      QuizQuestion(
-          question: "2. Which of the following is a heterogeneous mixture?",
-          options: [
-            "Salt dissolved in water",
-            "Orange juice with pulp",
-            "Air",
-            "Brass"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The pulp does not dissolve and remains distinct, forming a heterogeneous mixture."),
-    ],
-  ),
-
-  "SEPARATING MIXTURES (PHYSICAL PROCESSES)": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question:
-              "1. Which method is most appropriate for separating sand from water?",
-          options: ["Evaporation", "Filtration", "Distillation", "Sublimation"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Filtration uses a porous barrier to separate insoluble solids from liquids."),
-      QuizQuestion(
-          question:
-              "2. Distillation is used to separate mixtures based on differences in:",
-          options: [
-            "Solubility",
-            "Boiling points",
-            "Particle sizes",
-            "Density"
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Distillation relies on differences in boiling points to vaporize and condense liquids."),
-    ],
-  ),
-
-  "ATOMIC STRUCTURE AND SUB-ATOMIC PARTICLES": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. Which sub-atomic particle has a negative charge?",
-          options: ["Proton", "Neutron", "Electron", "Nucleus"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Electrons carry a unit negative charge and orbit the nucleus."),
-      QuizQuestion(
-          question:
-              "2. Protons and neutrons are found in which part of the atom?",
-          options: [
-            "Electron cloud",
-            "Nucleus",
-            "Valence shell",
-            "Outer orbit"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The nucleus at the center of the atom contains protons and neutrons (nucleons)."),
-    ],
-  ),
-
-  "THE PERIODIC TABLE AND ELECTRON CONFIGURATION": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-          question: "1. What is the atomic number of Sodium (Na)?",
-          options: ["10", "11", "12", "20"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation: "Sodium has atomic number 11 on the periodic table."),
-      QuizQuestion(
-          question:
-              "2. The electron configuration of an atom with 8 electrons (Oxygen) is:",
-          options: ["2, 8", "2, 6", "2, 4, 2", "8"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The first shell holds up to 2 electrons, and the second holds the remaining 6 (2, 6)."),
     ],
   ),
 };
