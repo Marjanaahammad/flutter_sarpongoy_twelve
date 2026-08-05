@@ -1460,9 +1460,7 @@ class SidebarController extends GetxController {
             },
             {
               "subtitle": "TOURISM",
-              "topics": [
-                "THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT"
-              ],
+              "topics": ["THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT"],
             },
           ],
         },
@@ -2216,7 +2214,7 @@ class SidebarController extends GetxController {
               "subtitle": "GRAMMAR",
               "topics": [
                 "NOUN PHRASES AND THEIR FUNCTIONS",
-                "COMPLEX PHRASAL VERBS",
+            "COMPLEX PHRASAL VERBS",
                 "ADJECTIVE PHRASES AND THEIR ORDER",
                 "ADVERBIAL PHRASES AND THEIR FUNCTIONS",
                 "CONDITIONAL SENTENCES (TYPE 3)",
@@ -4294,6 +4292,7 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s3ss1Lesson2PracticeData;
                 independentPracticeData = jhs3s3ss1Lesson2IndependentQuizData;
                 quizData = jhs3s3ss1Lesson2QuizData;
+
               }
               if (grade == "JHS 3" &&
                   courseTitle == "English" &&

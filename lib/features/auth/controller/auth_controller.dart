@@ -2,6 +2,7 @@ import 'dart:developer' as DPrint;
 import 'dart:io';
 
 import 'package:device_info_plus/device_info_plus.dart';
+import 'package:flutter/services.dart';
 
 import 'package:flutter_sarpongoy_twelve/features/auth/controller/rememberme_controller.dart';
 import 'package:flutter_sarpongoy_twelve/features/auth/controller/security_check_controller.dart';
@@ -36,22 +37,51 @@ class AuthController extends BaseController {
   final AuthStorageService _authStorageService = AuthStorageService();
   final securityCheckController = Get.put(SecurityCheckController());
 
-  /// Returns a unique device identifier (Android ID / iOS identifierForVendor).
+  /// Returns the device serial number injected by SimpleMDM via
+  /// Managed App Configuration (iOS: com.apple.configuration.managed,
+  /// Android: RestrictionsManager). Falls back to the platform's best
+  /// available identifier when the device is not MDM-enrolled.
+  static const _mdmChannel = MethodChannel('com.sarpongoy.ilearnready/mdm_config');
+
   Future<String> _getDeviceAddress() async {
+    print('┌─ [DeviceSerial] Reading from SimpleMDM Managed App Config...');
+
+    // 1️⃣ Try SimpleMDM Managed App Configuration first
+    try {
+      final serial = await _mdmChannel.invokeMethod<String>('getSerialNumber');
+      print('│  [DeviceSerial] MDM channel returned: "$serial"');
+      if (serial != null && serial.isNotEmpty) {
+        print('└─ [DeviceSerial] ✅ MDM serial number: $serial');
+        return serial;
+      } else {
+        print('│  [DeviceSerial] ⚠️  MDM returned empty — device is NOT enrolled in SimpleMDM.');
+      }
+    } catch (e) {
+      print('│  [DeviceSerial] ❌ MDM channel error: $e');
+    }
+
+    // 2️⃣ Fallback for non-MDM-enrolled / dev builds
+    print('│  [DeviceSerial] Falling back to device_info_plus...');
     try {
       final deviceInfo = DeviceInfoPlugin();
       if (Platform.isAndroid) {
         final info = await deviceInfo.androidInfo;
-        return info.id; // Android hardware ID
+        final serial = info.serialNumber;
+        final id = (serial.isNotEmpty && serial != 'unknown') ? serial : info.id;
+        print('└─ [DeviceSerial] ⚠️  Fallback Android ID: $id');
+        return id;
       } else if (Platform.isIOS) {
         final info = await deviceInfo.iosInfo;
-        return info.identifierForVendor ?? '';
+        final id = info.identifierForVendor ?? '';
+        print('└─ [DeviceSerial] ⚠️  Fallback iOS identifierForVendor: $id');
+        return id;
       }
     } catch (e) {
-      DPrint.log('Failed to get device address: $e');
+      print('└─ [DeviceSerial] ❌ Failed to get device identifier: $e');
     }
     return '';
   }
+
 
   Future<void> login(
       RememberMeController? rememberMeController, {
@@ -59,14 +89,17 @@ class AuthController extends BaseController {
         required String password,
         required String label,
       }) async {
-    final mac_id = await _getDeviceAddress();
-    DPrint.log('Device MAC ID: $mac_id');
+    final serial_number = await _getDeviceAddress();
+    print('══════════════════════════════════════════════');
+    print('[DeviceSerial] VALUE SENT TO API → mac_id: $serial_number');
+    print('══════════════════════════════════════════════');
 
     final request = LoginRequestModel(
       userId: userId,
       password: password,
-      mac_id: mac_id,
+      mac_id: serial_number,
     );
+
 
     final result = await _authRepo.login(request);
 
