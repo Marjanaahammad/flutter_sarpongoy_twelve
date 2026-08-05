@@ -13214,8 +13214,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-  "Social Studies JHS1 s5 ss3 - Tourism (Concept of Tourism and Leisure)":
-      QuizModel(
+  "Social Studies JHS1 s5 ss3 - Tourism (Concept of Tourism and Leisure)": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -46499,8 +46498,7 @@ correctIndex: 3,
 difficulty: "Easy",
 explanation:
 "Traditionally, the father is regarded as the main provider responsible for school fees and other major family expenses."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "2. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
       options: [
@@ -46513,8 +46511,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "In the extended family system, relatives support one another and help to care for children."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "3. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
       options: [
@@ -46527,8 +46524,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "School rules and regulations mainly promote discipline and good behaviour among pupils."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "4. The best way to live in peace in a community is to\n(BECE 2000 Q22)",
       options: [
@@ -46541,8 +46537,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Understanding and cooperating with others promotes peaceful relationships in the community."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "5. Conflicts in our society can best be resolved by\n(BECE 2000 Q33)",
       options: [
@@ -46555,8 +46550,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Tolerance and forgiveness help people settle disagreements and restore peaceful relationships."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "6. One of the characteristics of the Traditional Religion is that it\n(BECE 2000 Q34)",
       options: [
@@ -46569,8 +46563,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "African Traditional Religion has historically been passed on mainly through oral tradition rather than a single written scripture."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "7. One can promote relationship and peaceful living by being\n(BECE 2001 Q6)",
       options: [
@@ -46583,8 +46576,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Respect and obedience promote good relationships and peaceful living."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "8. Which of the following does not promote progress in a society?\n(BECE 2001 Q22)",
       options: ["Conflicts", "Reconciliation", "Communal labour", "Confession"],
@@ -46592,8 +46584,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Conflicts can disrupt unity and development, while reconciliation and cooperation promote progress."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "9. Kofi's father is Ewe and his mother is Fante. Which of the following statements about Kofi is true?\n(BECE 2001 Q23)",
       options: [
@@ -46606,8 +46597,7 @@ explanation:
       difficulty: "Medium",
       explanation:
           "Kofi has family connections through both his father's and mother's families."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "10. Conflicts develop among us through\n(BECE 2001 Q25)",
       options: [
@@ -46620,8 +46610,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Misunderstanding between individuals or groups is a common cause of conflict."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "11. Obedience to the laws of the state can make us\n(BECE 2001 Q25)",
       options: [
@@ -46634,8 +46623,7 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Citizens who obey the laws contribute positively to society and demonstrate patriotism."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "12. The extended family meets often to\n(BECE 2001 Q31)",
       options: [
@@ -46648,8 +46636,7 @@ explanation:
       difficulty: "Medium",
       explanation:
           "Extended family meetings may be held to discuss important family matters, including the sharing and management of family property."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
           "13. In order to live in harmony with family members, we must be\n(BECE 2002A Q25)",
       options: [
@@ -47334,14 +47321,9 @@ explanation:
       difficulty: "Medium",
       explanation:
           "Willingness to cooperate and follow appropriate instructions supports good relationships with others."),
-    ],
-  ),
-  "Religious & Moral Education JHS1 s3 ss3 - Rights, Duties, and Religious Youth Organizations": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
+ QuizQuestion(
 question:
-"1. One of the child's responsibilities in the home is to\n(BECE 1999 Q30)",
+"67. One of the child's responsibilities in the home is to\n(BECE 1999 Q30)",
 options: [
 "Sweep the compound",
 "Provide his clothing",
@@ -47352,9 +47334,9 @@ correctIndex: 0,
 difficulty: "Easy",
 explanation:
 "A child can contribute to the home by performing appropriate household chores such as sweeping the compound."),
-  QuizQuestion(
+ QuizQuestion(
       question:
-          "2. One of the rights of the child is the right\n(BECE 1999 Q34)",
+          "68. One of the rights of the child is the right\n(BECE 1999 Q34)",
       options: [
         "To work on his plot",
         "To education",
@@ -47365,10 +47347,9 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Every child has a right to education."),
-
-  QuizQuestion(
+      QuizQuestion(
       question:
-          "3. Human rights include all the following except\n(BECE 2000 Q27)",
+          "69. Human rights include all the following except\n(BECE 2000 Q27)",
       options: [
         "The right to live",
         "Freedom of association",
@@ -47379,10 +47360,9 @@ explanation:
       difficulty: "Easy",
       explanation:
           "Administering instant justice is not a human right."),
-
   QuizQuestion(
       question:
-          "4. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
+          "70. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
       options: [
         "Work harder for its good",
         "Become democratic",
@@ -47396,7 +47376,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "5. To be patriotic means\n(BECE 2000 Q36)",
+          "71. To be patriotic means\n(BECE 2000 Q36)",
       options: [
         "Going to school regularly",
         "Practicing personal hygiene",
@@ -47410,7 +47390,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "6. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
+          "72. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
       options: [
         "National Commission on Children",
         "National Council for Women and Development",
@@ -47424,7 +47404,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "7. Which of the following does not constitute a moral responsibility of the child?\n(BECE 2001 Q38)",
+          "73. Which of the following does not constitute a moral responsibility of the child?\n(BECE 2001 Q38)",
       options: [
         "Sweeping the classroom",
         "Working on his plot",
@@ -47438,7 +47418,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "8. What contribution can a child make when a community school is being put up?\n(BECE 2001 Q39)",
+          "74. What contribution can a child make when a community school is being put up?\n(BECE 2001 Q39)",
       options: [
         "Roofing the building",
         "Fetching water and sand",
@@ -47452,7 +47432,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "9. As a child of the state, you have the right to\n(BECE 2002A Q22)",
+          "75. As a child of the state, you have the right to\n(BECE 2002A Q22)",
       options: ["Vote", "Education", "Work", "Worship"],
       correctIndex: 1,
       difficulty: "Easy",
@@ -47461,7 +47441,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "10. One important responsibility as a member of a religious group is to\n(BECE 2002A Q26)",
+          "76. One important responsibility as a member of a religious group is to\n(BECE 2002A Q26)",
       options: [
         "Sweep the meeting place every day",
         "Gather the youth and talk to them",
@@ -47475,7 +47455,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "11. The institution of authority in the society ensures\n(BECE 2002A Q28)",
+          "77. The institution of authority in the society ensures\n(BECE 2002A Q28)",
       options: [
         "Peace and order",
         "Good religious lives",
@@ -47489,7 +47469,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "12. A patriotic citizen is one who is\n(BECE 2002A Q38)",
+          "78. A patriotic citizen is one who is\n(BECE 2002A Q38)",
       options: [
         "Loyal and law abiding",
         "Loyal and hospitable to strangers",
@@ -47503,7 +47483,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "13. Which right is person exercising when he cast a vote during national election?\n(BECE 2002B Q28)",
+          "79. Which right is person exercising when he cast a vote during national election?\n(BECE 2002B Q28)",
       options: [
         "Religious right",
         "Civic right",
@@ -47517,7 +47497,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "14. When a child develops a good spirit of responsibility he will\n(BECE 2002B Q29)",
+          "80. When a child develops a good spirit of responsibility he will\n(BECE 2002B Q29)",
       options: [
         "Win many prizes at school",
         "Pass all his examination",
@@ -47531,7 +47511,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "15. To demonstrate patriotism, one needs to\n(BECE 2002B Q32)",
+          "81. To demonstrate patriotism, one needs to\n(BECE 2002B Q32)",
       options: [
         "Show love and defend the nation",
         "Be sincere in all circumstances",
@@ -47545,7 +47525,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "16. It is the responsibility of the child to\n(BECE 2003 Q22)",
+          "82. It is the responsibility of the child to\n(BECE 2003 Q22)",
       options: [
         "Do his household chores",
         "Invite his friends to his house",
@@ -47559,7 +47539,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "17. The duty of a member of a community falls under\n(BECE 2004 Q29)",
+          "83. The duty of a member of a community falls under\n(BECE 2004 Q29)",
       options: [
         "Civic responsibility",
         "Governmental responsibility",
@@ -47573,7 +47553,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "18. Which of the following is a responsibility of children?\n(BECE 2004 Q32)",
+          "84. Which of the following is a responsibility of children?\n(BECE 2004 Q32)",
       options: [
         "Paying their own school fees",
         "Providing their friends with their needs",
@@ -47587,7 +47567,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "19. A special right that puts a person in a better position is\n(BECE 2004 Q40)",
+          "85. A special right that puts a person in a better position is\n(BECE 2004 Q40)",
       options: ["Favour", "Choice", "Freedom", "Privilege"],
       correctIndex: 3,
       difficulty: "Easy",
@@ -47596,7 +47576,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "20. Which of the following is not a peaceful way to ask for your right?\n(BECE 2005 Q25)",
+          "86. Which of the following is not a peaceful way to ask for your right?\n(BECE 2005 Q25)",
       options: ["Petition", "Kidnapping", "Silent protest", "Lobbying"],
       correctIndex: 1,
       difficulty: "Easy",
@@ -47605,7 +47585,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "21. A patriotic citizen is a person who\n(BECE 2005 Q40)",
+          "87. A patriotic citizen is a person who\n(BECE 2005 Q40)",
       options: [
         "Helps the family always",
         "Practices personal hygiene",
@@ -47619,7 +47599,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "22. Authority is instituted in the society to ensure\n(BECE 2006 Q24)",
+          "88. Authority is instituted in the society to ensure\n(BECE 2006 Q24)",
       options: [
         "Respect for adults",
         "Peace and order",
@@ -47633,7 +47613,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "23. The peaceful ways of asking for one's rights include the following\n(BECE 2006 Q31)",
+          "89. The peaceful ways of asking for one's rights include the following\n(BECE 2006 Q31)",
       options: ["Lobbying", "Kidnapping", "Playing games", "Rioting"],
       correctIndex: 0,
       difficulty: "Easy",
@@ -47642,7 +47622,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "24. As a child, your duties include all these except\n(BECE 2006 Q34)",
+          "90. As a child, your duties include all these except\n(BECE 2006 Q34)",
       options: [
         "Fetching water",
         "Weeding the compound",
@@ -47656,7 +47636,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "25. When a child develops the sense of responsibility, he or she\n(BECE 2006 Q38)",
+          "91. When a child develops the sense of responsibility, he or she\n(BECE 2006 Q38)",
       options: [
         "Wins many prizes at school",
         "Passes all his examination",
@@ -47670,7 +47650,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "26. The rights and privileges of every citizen is guaranteed in the\n(BECE 2007 Q30)",
+          "92. The rights and privileges of every citizen is guaranteed in the\n(BECE 2007 Q30)",
       options: ["Constitution", "Bible", "Qur'an", "By-laws"],
       correctIndex: 0,
       difficulty: "Easy",
@@ -47679,7 +47659,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "27. One who loves his/her country\n(BECE 2007 Q31)",
+          "93. One who loves his/her country\n(BECE 2007 Q31)",
       options: [
         "Helps the needy always",
         "Practices personal hygiene",
@@ -47693,7 +47673,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "28. At what age does one qualify to vote?\n(BECE 2007 Q38)",
+          "94. At what age does one qualify to vote?\n(BECE 2007 Q38)",
       options: ["15 years", "17 years", "18 years", "21 years"],
       correctIndex: 2,
       difficulty: "Easy",
@@ -47702,7 +47682,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "29. Human rights include all the following except\n(BECE 2007 Q39)",
+          "95. Human rights include all the following except\n(BECE 2007 Q39)",
       options: [
         "The right to vote",
         "Administering instant justice",
@@ -47716,7 +47696,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "30. Freedom of expression enables one to\n(BECE 2008 Q33)",
+          "96. Freedom of expression enables one to\n(BECE 2008 Q33)",
       options: [
         "Move about freely",
         "Engage in any job",
@@ -47730,7 +47710,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "31. Filial responsibility refers to one's duty as a\n(BECE 2008 Q35)",
+          "97. Filial responsibility refers to one's duty as a\n(BECE 2008 Q35)",
       options: [
         "Father or a mother",
         "Member of a society",
@@ -47744,7 +47724,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "32. One civic responsibility of a citizen is to\n(BECE 2009 Q34)",
+          "98. One civic responsibility of a citizen is to\n(BECE 2009 Q34)",
       options: [
         "Expose wrongdoers in the community",
         "Be willing to accept correction",
@@ -47758,7 +47738,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "33. Privileges can be earned by showing that one is\n(BECE 2009 Q38)",
+          "99. Privileges can be earned by showing that one is\n(BECE 2009 Q38)",
       options: ["Intelligent", "Trustworthy", "Decent", "Hospitable"],
       correctIndex: 1,
       difficulty: "Medium",
@@ -47767,7 +47747,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "34. The best way to live in peace in a community is to\n(BECE 2011 Q28)",
+          "100. The best way to live in peace in a community is to\n(BECE 2011 Q28)",
       options: [
         "Disagree with your enemies",
         "Sit on the fence",
@@ -47781,7 +47761,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "35. It is our responsibility to prevent the spread cholera by\n(BECE 2011 Q30)",
+          "101. It is our responsibility to prevent the spread cholera by\n(BECE 2011 Q30)",
       options: [
         "Immunizing against the six killer diseases",
         "Eating a balanced diet",
@@ -47795,7 +47775,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "36. All the following are teachers' responsibilities towards their pupils except\n(BECE 2011 Q38)",
+          "102. All the following are teachers' responsibilities towards their pupils except\n(BECE 2011 Q38)",
       options: [
         "Ensuring discipline",
         "Making themselves approachable",
@@ -47809,7 +47789,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "37. A citizen who indulges in social vices in the community is said to be\n(BECE 2012 Q21)",
+          "103. A citizen who indulges in social vices in the community is said to be\n(BECE 2012 Q21)",
       options: [
         "Unfriendly",
         "Unreliable",
@@ -47823,7 +47803,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "38. The best way to live in peace in a community is to\n(BECE 2012 Q33)",
+          "104. The best way to live in peace in a community is to\n(BECE 2012 Q33)",
       options: [
         "Sit on the fences always",
         "Be afraid of those in authority",
@@ -47837,7 +47817,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "39. In a traditional society, the provision of shelter is the responsibility of the\n(BECE 2012 Q35)",
+          "105. In a traditional society, the provision of shelter is the responsibility of the\n(BECE 2012 Q35)",
       options: ["Father", "Grandfather", "Mother", "Uncle"],
       correctIndex: 0,
       difficulty: "Easy",
@@ -47846,7 +47826,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "40. Which of the following is not a responsibility of a family head?\n(BECE 2013 Q22)",
+          "106. Which of the following is not a responsibility of a family head?\n(BECE 2013 Q22)",
       options: [
         "Oversight of the general wellbeing of the family",
         "Taking care of all family property",
@@ -47860,7 +47840,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "41. Putting one's interest above that of others results in\n(BECE 2013 Q31)",
+          "107. Putting one's interest above that of others results in\n(BECE 2013 Q31)",
       options: ["Conflict", "Patriotism", "Selflessness", "Tolerance"],
       correctIndex: 0,
       difficulty: "Easy",
@@ -47869,7 +47849,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "42. Authority is instituted in the society to ensure\n(BECE 2014 Q30)",
+          "108. Authority is instituted in the society to ensure\n(BECE 2014 Q30)",
       options: ["Hard work", "Loyalty", "Peace", "Respect"],
       correctIndex: 2,
       difficulty: "Easy",
@@ -47878,7 +47858,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "43. School rules help pupils to\n(BECE 2014 Q32)",
+          "109. School rules help pupils to\n(BECE 2014 Q32)",
       options: [
         "Avoid being punish",
         "Worship God regularly",
@@ -47892,7 +47872,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "44. Carrying out assigned duties is necessary because, it\n(BECE 2014 Q33)",
+          "110. Carrying out assigned duties is necessary because, it\n(BECE 2014 Q33)",
       options: [
         "Pleases God and humankind",
         "Attracts hatred from enemies",
@@ -47906,7 +47886,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "45. Authority is instituted in society to ensure\n(BECE 2018 Q28)",
+          "111. Authority is instituted in society to ensure\n(BECE 2018 Q28)",
       options: [
         "Freedom of speech",
         "Peace and order",
@@ -47920,7 +47900,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "46. The best way to live in peace in a community is to\n(BECE 2018 Q29)",
+          "112. The best way to live in peace in a community is to\n(BECE 2018 Q29)",
       options: [
         "Remain neutral",
         "Sit on the fence",
@@ -47934,7 +47914,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "47. Which of the following activities is not a responsibility of a family head?\n(BECE 2018 Q30)",
+          "113. Which of the following activities is not a responsibility of a family head?\n(BECE 2018 Q30)",
       options: [
         "Giving loans to people",
         "Settling disputes among people",
@@ -47948,7 +47928,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "48. Tidying the school compound is the child's\n(BECE 2018 Q32)",
+          "114. Tidying the school compound is the child's\n(BECE 2018 Q32)",
       options: ["Commitment", "Behaviour", "Loyalty", "Role"],
       correctIndex: 3,
       difficulty: "Easy",
@@ -47957,7 +47937,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "49. Carrying out assigned duties is necessary because it\n(BECE 2018 Q37)",
+          "115. Carrying out assigned duties is necessary because it\n(BECE 2018 Q37)",
       options: [
         "Attracts hatred from enemies",
         "Leads to fulfillment of promises",
@@ -47971,7 +47951,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "50. School rules help pupils to\n(BECE 2018 Q38)",
+          "116. School rules help pupils to\n(BECE 2018 Q38)",
       options: [
         "Avoid being punished",
         "Compete with one another",
@@ -47985,7 +47965,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "51. Youth camps are organized purposely for the youth are to\n(BECE 1999 Q27)",
+          "117. Youth camps are organized purposely for the youth are to\n(BECE 1999 Q27)",
       options: [
         "Fend for themselves",
         "Find their parents",
@@ -47999,7 +47979,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "52. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
+          "118. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
       options: [
         "Serving God and nation",
         "Leading a disciplined life",
@@ -48013,7 +47993,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "53. One of the important aims of a youth organization is to\n(BECE 2000 Q29)",
+          "119. One of the important aims of a youth organization is to\n(BECE 2000 Q29)",
       options: [
         "Bring unity among the youth",
         "Learn dancing and merry making",
@@ -48027,7 +48007,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "54. One good reason for the establishment of Catholic Youth Organization (CYO) is to\n(BECE 2002A Q40)",
+          "120. One good reason for the establishment of Catholic Youth Organization (CYO) is to\n(BECE 2002A Q40)",
       options: [
         "Serve us soldiers to defend the church",
         "Foster unity among the priest",
@@ -48041,7 +48021,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "55. One important objective of religious youth organizations is to\n(BECE 2003 Q33)",
+          "121. One important objective of religious youth organizations is to\n(BECE 2003 Q33)",
       options: [
         "Organize dancing competition during Christmas",
         "Organizing pleasure trips",
@@ -48055,7 +48035,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "56. One joins a religious youth movement in order to\n(BECE 2004 Q31)",
+          "122. One joins a religious youth movement in order to\n(BECE 2004 Q31)",
       options: [
         "Go to heaven",
         "Help develop the religion",
@@ -48069,7 +48049,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "57. The Asafo companies are concerned with the promotion of all the following except\n(BECE 2005 Q4)",
+          "123. The Asafo companies are concerned with the promotion of all the following except\n(BECE 2005 Q4)",
       options: [
         "Good behaviour",
         "Cultural development",
@@ -48083,7 +48063,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "58. The Young People's Guild is an organization in the\n(BECE 2005 Q15)",
+          "124. The Young People's Guild is an organization in the\n(BECE 2005 Q15)",
       options: [
         "Methodist church",
         "Anglican church",
@@ -48097,7 +48077,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "59. A member of the Catholic Youth Organization (CYO) is called\n(BECE 2006 Q26)",
+          "125. A member of the Catholic Youth Organization (CYO) is called\n(BECE 2006 Q26)",
       options: ["A deacon", "Voyager", "Soldier", "Crusader"],
       correctIndex: 3,
       difficulty: "Medium",
@@ -48106,7 +48086,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "60. A major reason for establishing traditional youth organization is to\n(BECE 2007 Q32)",
+          "126. A major reason for establishing traditional youth organization is to\n(BECE 2007 Q32)",
       options: [
         "Defend the interest of the community",
         "Protect the ancestors and gods",
@@ -48120,7 +48100,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "61. The basic quality expected in any youth organization is\n(BECE 2007 Q34)",
+          "127. The basic quality expected in any youth organization is\n(BECE 2007 Q34)",
       options: [
         "The spirit of voluntarism",
         "Love for one's parents",
@@ -48134,7 +48114,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "62. All the following are functions of Asafo groups except\n(BECE 2008 Q37)",
+          "128. All the following are functions of Asafo groups except\n(BECE 2008 Q37)",
       options: [
         "Weeding the surroundings and cleaning choked gutters",
         "Ensuring that traditional norms are followed",
@@ -48148,7 +48128,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "63. The spirit of patriotism is best shown by the youth of\n(BECE 2009 Q32)",
+          "129. The spirit of patriotism is best shown by the youth of\n(BECE 2009 Q32)",
       options: [
         "Young People's Guild",
         "Pentecost Youth Ministry",
@@ -48162,7 +48142,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "64. A major reason of establishing traditional youth organization is to\n(BECE 2011 Q21)",
+          "130. A major reason of establishing traditional youth organization is to\n(BECE 2011 Q21)",
       options: [
         "Defend the interest of the community",
         "Protect ancestors and the gods",
@@ -48176,7 +48156,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "65. The main aim of the girl's Brigade is to\n(BECE 2012 Q32)",
+          "131. The main aim of the girl's Brigade is to\n(BECE 2012 Q32)",
       options: [
         "Assist girls to attend school",
         "Encourage girls to work hard",
@@ -48190,7 +48170,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "66. Youth camps are usually held to help young people to\n(BECE 2013 Q30)",
+          "132. Youth camps are usually held to help young people to\n(BECE 2013 Q30)",
       options: [
         "Find life partners",
         "Learn to socialize with others",
@@ -48204,7 +48184,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "67. The Asafo Youth Movement do not promote\n(BECE 2014 Q40)",
+          "133. The Asafo Youth Movement do not promote\n(BECE 2014 Q40)",
       options: [
         "Unity among its members",
         "Selflessness among its members",
@@ -48218,7 +48198,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "68. Which of the following functions is performed by the Asafo companies\n(BECE 2015 Q17)",
+          "134. Which of the following functions is performed by the Asafo companies\n(BECE 2015 Q17)",
       options: [
         "Acting as watchdogs",
         "Registration of foreigners",
@@ -48232,7 +48212,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "69. Religious Youth Organizations are established to\n(BECE 2015 Q39)",
+          "135. Religious Youth Organizations are established to\n(BECE 2015 Q39)",
       options: [
         "Honour their leaders",
         "Carry out communal labour",
@@ -48246,7 +48226,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "70. The main aim of religious youth organizations is to\n(BECE 2016 Q39)",
+          "136. The main aim of religious youth organizations is to\n(BECE 2016 Q39)",
       options: [
         "Become political force in their communities",
         "Educate the youth through moral teaching",
@@ -48260,7 +48240,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "71. C.Y.O. as a religious youth group stands for\n(BECE 2018 Q39)",
+          "137. C.Y.O. as a religious youth group stands for\n(BECE 2018 Q39)",
       options: [
         "Catechists Youth Organization",
         "Catholic Youngmen Organization",
@@ -48274,7 +48254,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "72. Religious Youth Associations foster peace among its members by\n(BECE 2018 Q40)",
+          "138. Religious Youth Associations foster peace among its members by\n(BECE 2018 Q40)",
       options: [
         "Being law abiding",
         "Caring for the sick",
@@ -48288,7 +48268,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "73. Asafo companies are important because\n(BECE 2020 Q40)",
+          "139. Asafo companies are important because\n(BECE 2020 Q40)",
       options: [
         "They enstool paramount chiefs",
         "Help in environmental cleanliness",
@@ -48302,7 +48282,7 @@ explanation:
 
   QuizQuestion(
       question:
-          "74. Which of the following options is the main role of Asafo companies?\n(BECE 2021 Q9)",
+          "140. Which of the following options is the main role of Asafo companies?\n(BECE 2021 Q9)",
       options: [
         "Entertaining the society",
         "Installation of paramount chiefs",
@@ -48313,2570 +48293,21387 @@ explanation:
       difficulty: "Easy",
       explanation:
           "The traditional main role of Asafo companies is to defend and protect the community."),
-
     ],
   ),
+
   "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question:
-              "1. Prophet Mohammed’s twelfth birthday is important because\n(BECE 2000 Q15)",
-          options: [
-            "There was a prophecy about his future.",
-            "Halimah returned him to his parents.",
-            "Amina passed away.",
-            "Abdul Mutalib died."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Abdul Mutalib, Prophet Mohammed's grandfather, died when Mohammed was twelve years old."),
-      QuizQuestion(
-          question:
-              "2. The traditional healer does not normally charge high fees because\n(BECE 1999 Q40)",
-          options: [
-            "They are in the subsistence economy.",
-            "They use cowries for diagnosis.",
-            "Local herbs and plants are used.",
-            "It will weaken the power of the medicine."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Traditional healers mainly use locally available herbs and plants, making treatment inexpensive."),
-      QuizQuestion(
-          question:
-              "3. Which of the following is not a patriarch?\n(BECE 2000 Q12)",
-          options: ["Abraham", "Isaac", "Jacob", "Noah"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "The biblical patriarchs are Abraham, Isaac and Jacob."),
-      QuizQuestion(
-          question:
-              "4. From the age of eight, Mohammed was brought up by\n(BECE 2001 Q2)",
-          options: ["Halimah.", "Abdul Mutalib.", "Khadijah.", "Abu Talib."],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "After the death of Abdul Mutalib, Prophet Mohammed was cared for by his uncle Abu Talib."),
-      QuizQuestion(
-          question: "5. A Muslim is a person who\n(BECE 2001 Q12)",
-          options: [
-            "Is at peace with God and his neighbour.",
-            "Can recite the whole Qur’an.",
-            "Fasts during the Ramadan.",
-            "Visits Mecca every year."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "A Muslim is one who submits to Allah and lives in peace with God and fellow human beings."),
-      QuizQuestion(
-          question: "6. The second Caliph was\n(BECE 2003 Q4)",
-          options: ["Umar.", "Abu Bakr.", "Ali.", "Uthman."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Umar ibn Al-Khattab was the second rightly guided Caliph."),
-      QuizQuestion(
-          question:
-              "7. The title Al-Faruq given to Umar by the Holy Prophet Mohammed means\n(BECE 2002B Q7)",
-          options: [
-            "A strong believer in the principles and teaching of Islam.",
-            "Lover of Islam.",
-            "Defender of faith.",
-            "One who can differentiate between right and wrong."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Al-Faruq means one who distinguishes between truth and falsehood."),
-      QuizQuestion(
-          question:
-              "8. Blessed are the merciful for they shall\n(BECE 1999 Q17)",
-          options: [
-            "See God.",
-            "Obtain mercy.",
-            "Inherit the earth.",
-            "Be called the children of God."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "According to the Beatitudes, the merciful shall obtain mercy."),
-      QuizQuestion(
-          question: "9. The blind man Jesus healed was called\n(BECE 2000 Q17)",
-          options: ["Bartholomew.", "Barabbas.", "Bartimaeus.", "Nicodemus."],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Jesus healed blind Bartimaeus near Jericho."),
-      QuizQuestion(
-          question:
-              "10. Jesus Christ began his ministry at the age of\n(BECE 2001 Q2)",
-          options: ["12", "25", "30", "33"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Jesus began His public ministry when He was about thirty years old."),
-      QuizQuestion(
-          question:
-              "11. The sermon on the Mount was delivered by\n(BECE 2002B Q6)",
-          options: ["Jesus.", "Moses.", "Joshua.", "Paul."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Jesus delivered the famous Sermon on the Mount."),
-      QuizQuestion(
-          question: "12. On which day did Jesus resurrect?\n(BECE 2002B Q5)",
-          options: [
-            "Ascension Day",
-            "Good Friday",
-            "Easter Sunday",
-            "Palm Sunday"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Jesus rose from the dead on Easter Sunday."),
-      QuizQuestion(
-          question: "13. ... can be found in the book of\n(BECE 2002A Q19)",
-          options: [
-            "Genesis, Exodus and Numbers.",
-            "Exodus, Deuteronomy and Leviticus.",
-            "Genesis, Deuteronomy and Numbers.",
-            "Exodus, Leviticus and Deuteronomy."
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation: "Answer based on the provided BECE source."),
-      QuizQuestion(
-          question:
-              "14. In Islam if one is pious it means he\n(BECE 2002B Q13)",
-          options: [
-            "Sees God.",
-            "Reads about God.",
-            "Understands God.",
-            "Fears God."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "Piety (Taqwa) means fearing Allah and obeying Him."),
-      QuizQuestion(
-          question:
-              "15. Whose preaching ministry urged the Jews to bear fruits that befit repentance?\n(BECE 2003 Q4)",
-          options: ["Jesus Christ", "Paul", "Peter", "John the Baptist"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "John the Baptist preached repentance and urged people to bear fruits worthy of repentance."),
-      QuizQuestion(
-          question:
-              "16. The Caliph Abu Bakr was referred to as Siddiq by Mohammed due to his\n(BECE 2003 Q5)",
-          options: ["Courage.", "Tolerance.", "Truthfulness.", "Generosity."],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "As-Siddiq means 'the truthful one'."),
-      QuizQuestion(
-          question:
-              "17. All those who took custody of Prophet Mohammed were happy with him because he\n(BECE 2002B Q7)",
-          options: [
-            "Had a unique character.",
-            "Was a hardworking young man.",
-            "Was an orphan at a tender age.",
-            "Was prayerful."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Prophet Mohammed was loved because of his excellent character."),
-      QuizQuestion(
-          question:
-              "18. In the traditional society, one could become an ancestor when one\n(BECE 2002B Q9)",
-          options: [
-            "Visited the shrine always.",
-            "Offered sacrifices to the gods.",
-            "Died a natural death.",
-            "Married the widow of another man."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "In African Traditional Religion, dying a natural and honourable death is a requirement for becoming an ancestor."),
-      QuizQuestion(
-          question:
-              "19. The moral lesson from the life of Prophet Mohammed that one should emulate is the habit of\n(BECE 2008 Q15)",
-          options: [
-            "Faithfulness.",
-            "Punctuality.",
-            "Truthfulness.",
-            "Sacrifice."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Prophet Mohammed was widely known for his truthfulness."),
-      QuizQuestion(
-          question:
-              "20. Caliph Abubakar led prayers in the lifetime of Prophet Mohammed because the Prophet\n(BECE 2008 Q16)",
-          options: [
-            "Was tired.",
-            "Was sick.",
-            "Wanted to test him.",
-            "Had travelled."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Prophet Mohammed asked Abu Bakr to lead the prayers during his illness."),
-      QuizQuestion(
-          question:
-              "21. \"Blessed are the meek for they shall\"\n(BECE 2008 Q17)",
-          options: [
-            "Obtain mercy.",
-            "See God.",
-            "Inherit the earth.",
-            "Be satisfied."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "According to the Beatitudes, the meek shall inherit the earth."),
-      QuizQuestion(
-          question:
-              "22. The washing of the feet of His disciples offers a lesson in\n(BECE 2008 Q20)",
-          options: [
-            "Expressing love to others.",
-            "Rendering service to others.",
-            "Being helpful to others.",
-            "Obedience to others."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Jesus washed His disciples' feet to teach humility and service."),
-      QuizQuestion(
-          question: "23. The dreams of Joseph focused on\n(BECE 2009 Q6)",
-          options: [
-            "Leadership.",
-            "Friendship.",
-            "Mastership.",
-            "Stewardship."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Joseph's dreams revealed that he would become a leader over his family."),
-      QuizQuestion(
-          question:
-              "24. Torgbe Tsali gave his jaws to his people as a\n(BECE 2009 Q8)",
-          options: [
-            "Token to be worshipped.",
-            "Powerful instrument of divination.",
-            "Foundation stone for shrines.",
-            "Present to the kings for their fight."
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Torgbe Tsali's jaws became a powerful instrument of divination."),
-      QuizQuestion(
-          question:
-              "25. A traditional chief may be destooled if he\n(BECE 2009 Q12)",
-          options: [
-            "Becomes a born-again Christian.",
-            "Takes many wives.",
-            "Does not give birth to children.",
-            "Misuses stool property."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "A chief may be destooled for misusing stool property."),
-      QuizQuestion(
-          question:
-              "26. The immediate cause of Mohammed’s departure to Medina was\n(BECE 2009 Q13)",
-          options: [
-            "Invitation from Yathrib.",
-            "Harsh conditions in Mecca.",
-            "Plan to kill him.",
-            "Desire to spread Islam."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The Quraysh planned to kill Prophet Mohammed, leading to the Hijrah."),
-      QuizQuestion(
-          question:
-              "27. Which of the following were not among the twelve disciples?\n(BECE 2009 Q20)",
-          options: [
-            "Matthew and James",
-            "Simon and Andrew",
-            "Peter and John",
-            "Paul and Barnabas"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Paul and Barnabas were not among Jesus' original twelve disciples."),
-      QuizQuestion(
-          question:
-              "28. According to Jesus, the summary of the ten commandments is\n(BECE 2009 Q29)",
-          options: [
-            "Love for God and one's neighbour.",
-            "Obedience to parents and the elderly.",
-            "Observing the Sabbath and keeping it holy.",
-            "Worshipping only God and not gods."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Jesus summarized the commandments as loving God and loving one's neighbour."),
-      QuizQuestion(
-          question:
-              "29. \"Blessed are the peacemakers for they shall\"\n(BECE 2011 Q7)",
-          options: [
-            "See God.",
-            "Be called sons of God.",
-            "Inherit the earth.",
-            "Obtain mercy."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The Beatitudes say peacemakers shall be called the children of God."),
-      QuizQuestion(
-          question: "30. The name Moses means\n(BECE 2011 Q8)",
-          options: [
-            "Washed in water.",
-            "Drawn out of water.",
-            "Abandoned with water.",
-            "Baptised with water."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Moses means 'drawn out of water' because Pharaoh's daughter drew him from the Nile."),
-      QuizQuestion(
-          question:
-              "31. Which of the following disciples of Jesus was a tax collector?\n(BECE 2011 Q19)",
-          options: [
-            "Bartholomew",
-            "Joseph and John",
-            "Peter and Matthew",
-            "Judas and Thomas"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Matthew was a tax collector before becoming a disciple of Jesus."),
-      QuizQuestion(
-          question:
-              "32. Which of the following is responsible for morality in traditional society?\n(BECE 2011 Q25)",
-          options: [
-            "Linguist",
-            "Gong-gong beater",
-            "Chief priest",
-            "Fetish priest"
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "The chief priest is responsible for enforcing morality and religious customs."),
-      QuizQuestion(
-          question: "33. God made a covenant with\n(BECE 2003 Q6)",
-          options: ["Isaac.", "Abraham.", "Jacob.", "Joshua."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "God established His covenant with Abraham."),
-      QuizQuestion(
-          question:
-              "34. Which of the following persons knew God 'face to face'?\n(BECE 2003 Q9)",
-          options: ["Abraham.", "Isaac.", "Jacob.", "Moses."],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "The Bible describes Moses as speaking with God face to face."),
-      QuizQuestion(
-          question:
-              "35. Joseph was hated by his brothers because\n(BECE 2003 Q13)",
-          options: [
-            "Jacob promised him of inheritance.",
-            "He loved his father very much.",
-            "Of his prophetic dreams.",
-            "He was gentle and handsome."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Joseph's dreams made his brothers jealous and they hated him."),
-      QuizQuestion(
-          question:
-              "36. The patriarch described as a 'great man of faith' was\n(BECE 2004 Q2)",
-          options: ["Jacob.", "David.", "Moses.", "Abraham."],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "Abraham is known as the father of faith."),
-      QuizQuestion(
-          question:
-              "37. Which of the following people was not a disciple of Jesus?\n(BECE 2004 Q3)",
-          options: ["Paul", "Peter", "Matthew", "James"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Paul became an apostle after Jesus' resurrection and was not among the original disciples."),
-      QuizQuestion(
-          question:
-              "38. Abraham was known for his great faith because he\n(BECE 2005 Q12)",
-          options: [
-            "Refused the idols of Canaan.",
-            "Was willing to sacrifice his son to God.",
-            "Built an altar to worship God.",
-            "Agreed to leave his homeland."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Abraham demonstrated great faith by being willing to sacrifice Isaac."),
-      QuizQuestion(
-          question:
-              "39. The tribes of Israel derived their names from the sons of\n(BECE 2005 Q18)",
-          options: ["Abraham.", "Jacob.", "Joseph.", "Isaac."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The twelve tribes of Israel were named after the sons of Jacob."),
-      QuizQuestion(
-          question:
-              "40. Israel came out of slavery in Egypt under the leadership of\n(BECE 2005 Q19)",
-          options: ["Joshua.", "Joseph.", "Abraham.", "Moses."],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Moses led the Israelites out of Egypt during the Exodus."),
-      QuizQuestion(
-          question: "41. Torgbe Tsali is remembered for\n(BECE 2006 Q6)",
-          options: [
-            "Cruelty to the Anlos.",
-            "Freeing his people from oppressions.",
-            "Selling his people into slavery.",
-            "Allowing missionaries to preach to his people."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Torgbe Tsali sacrificed himself to free the Anlo people from oppression."),
-      QuizQuestion(
-          question: "42. The second Caliph of Islam was\n(BECE 2006 Q6)",
-          options: ["Abubakar.", "Umar.", "Ali.", "Uthman."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Umar ibn Al-Khattab was the second rightly guided Caliph."),
-      QuizQuestion(
-          question:
-              "43. God gave Noah and his people the rainbow as a sign of the covenant that\n(BECE 2006 Q9)",
-          options: [
-            "The earth would never again be destroyed by flood.",
-            "Idol worshippers would be destroyed.",
-            "Heavenly bodies would always give light.",
-            "Humankind would not speak the same language."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "The rainbow was God's sign that He would never again destroy the earth with a flood."),
-      QuizQuestion(
-          question:
-              "44. A dead person is not regarded as an ancestor if he or she\n(BECE 2006 Q10)",
-          options: [
-            "Lived for more than forty years.",
-            "Died through an accident.",
-            "Married and had many children.",
-            "Died while defending his community."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "In African Traditional Religion, people who die unnatural deaths are generally not regarded as ancestors."),
-      QuizQuestion(
-          question:
-              "45. The burning bush that Moses saw attracted him because\n(BECE 2006 Q14)",
-          options: [
-            "God spoke to him from it.",
-            "The place was a holy ground.",
-            "The fire was not consuming the bush.",
-            "God wanted to save Israel through him."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Moses was amazed because the bush burned without being consumed."),
-      QuizQuestion(
-          question:
-              "46. According to the Qur'an, the Torah was revealed through\n(BECE 2006 Q18)",
-          options: ["Ibrahim.", "Mohammed.", "Musa.", "Ishmael."],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "Allah revealed the Torah to Prophet Musa (Moses)."),
-      QuizQuestion(
-          question:
-              "47. According to Jesus, the poor in spirit are blessed because they shall\n(BECE 2006 Q19)",
-          options: [
-            "Inherit the Kingdom of heaven.",
-            "Be comforted.",
-            "Inherit the earth.",
-            "Be called the sons of God."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "The first Beatitude states that the poor in spirit shall inherit the Kingdom of Heaven."),
-      QuizQuestion(
-          question:
-              "48. The Qur'an was revealed to Mohammed through\n(BECE 2007 Q2)",
-          options: [
-            "Abu Bakr.",
-            "Angel Jibril.",
-            "Torgbe Tsali.",
-            "Angel Mika-il."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Angel Jibril (Gabriel) revealed the Qur'an to Prophet Mohammed."),
-      QuizQuestion(
-          question:
-              "49. God saved the believers from the flood through\n(BECE 2007 Q8)",
-          options: ["Abraham.", "Noah.", "Moses.", "Joseph."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "God instructed Noah to build the ark to save the believers."),
-      QuizQuestion(
-          question: "50. Caliph Abu Bakr is remembered for\n(BECE 2007 Q9)",
-          options: [
-            "Going on pilgrimage with the prophet.",
-            "Marrying the prophet’s daughter.",
-            "Compiling the Qur’an into a book.",
-            "Defending the prophet in Mecca."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "During Abu Bakr's caliphate, the Qur'an was compiled into one book."),
-      QuizQuestion(
-          question:
-              "51. Jesus came into the world so that people may\n(BECE 2013 Q11)",
-          options: [
-            "Forgive their enemies.",
-            "Have eternal life.",
-            "Overcome problems.",
-            "Become wealthy."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Jesus came so that all who believe in Him may have eternal life."),
-      QuizQuestion(
-          question:
-              "52. God's covenant with the patriarch is associated with\n(BECE 2013 Q12)",
-          options: ["Abraham.", "Joseph.", "Joshua.", "Moses."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "God's covenant was made with Abraham."),
-      QuizQuestion(
-          question: "53. By facing the wild beast, Toha Zie\n(BECE 2013 Q14)",
-          options: [
-            "Helped the poor in their community.",
-            "Led his people to defeat their enemies.",
-            "Risked his life for his people.",
-            "Preached peace to his people."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Toha Zie became famous for risking his life to save his people from a dangerous beast."),
-      QuizQuestion(
-          question:
-              "54. Israel came out of slavery in Egypt under the leadership of\n(BECE 2013 Q18)",
-          options: ["Abraham.", "Joseph.", "Joshua.", "Moses."],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "Moses led the Israelites out of slavery in Egypt."),
-      QuizQuestion(
-          question:
-              "55. Egbnor Abor is remembered for sacrificing his life to\n(BECE 2013 Q19)",
-          options: [
-            "Ensure victory at war.",
-            "Free his people from slavery.",
-            "Save children from hunger.",
-            "Ward off an epidemic."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Egbnor Abor sacrificed his life to free his people from slavery."),
-      QuizQuestion(
-          question: "56. The twelfth son of Jacob was\n(BECE 2014 Q6)",
-          options: ["Benjamin.", "Joseph.", "Dan.", "Gad."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Benjamin was the youngest and twelfth son of Jacob."),
-      QuizQuestion(
-          question:
-              "57. Moses led the Israelites through the wilderness for\n(BECE 2014 Q7)",
-          options: [
-            "Forty years.",
-            "Forty months.",
-            "Fifty years.",
-            "Fifty months."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "The Israelites wandered in the wilderness for forty years."),
-      QuizQuestion(
-          question:
-              "58. Which of the following people was commanded by God to build an ark?\n(BECE 2015 Q1)",
-          options: ["Joseph", "Jacob", "Noah", "David"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation: "God commanded Noah to build the ark before the flood."),
-      QuizQuestion(
-          question:
-              "59. Who gave the tomb in which Jesus was buried?\n(BECE 2015 Q2)",
-          options: [
-            "Simon of Cyrene",
-            "Joseph of Arimathea",
-            "Nicodemus",
-            "Zebedee"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Joseph of Arimathea provided his own tomb for Jesus' burial."),
-      QuizQuestion(
-          question:
-              "60. Egbnor Abor is fondly remembered by the Fante for\n(BECE 2018 Q8)",
-          options: [
-            "His miraculous powers.",
-            "Commanding the golden stool.",
-            "His resurrection from death.",
-            "Saving his people."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Egbnor Abor is remembered for sacrificing himself to save his people."),
-      QuizQuestion(
-          question:
-              "61. The spiritual leader who was also a successor of Prophet Mohammed (SAW) was\n(BECE 2019 Q6)",
-          options: ["Caliph.", "Hafiz.", "Imam.", "Sheikh."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "A Caliph is the political and spiritual successor to Prophet Mohammed."),
-      QuizQuestion(
-          question:
-              "62. Egbnor Abor was honoured with the Aboakyer festival because of his\n(BECE 2019 Q7)",
-          options: [
-            "Magical deed.",
-            "Death for the land.",
-            "Killing of the beast.",
-            "Good leadership."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Egbnor Abor is honoured for sacrificing his life for the welfare of his people."),
-      QuizQuestion(
-          question: "63. Toha Zie became famous because\n(BECE 2019 Q8)",
-          options: [
-            "Of his exploits in war.",
-            "He was a hunter.",
-            "He was considered as a god.",
-            "He saved his people from beasts."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Toha Zie became famous for saving his people from dangerous wild beasts."),
-      QuizQuestion(
-          question:
-              "64. Toha Zie was nicknamed the red hunter because of his\n(BECE 2020 Q7)",
-          options: ["Character.", "Complexion.", "Kindness.", "Wisdom."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Toha Zie was called the Red Hunter because of his reddish complexion."),
-      QuizQuestion(
-          question:
-              "65. The major event that led to the conversion of Umar to Islam was his\n(BECE 2020 Q8)",
-          options: [
-            "Mohammed’s flight into Medina.",
-            "Hearing of the flight.",
-            "The death of Caliph Uthman.",
-            "The preaching of Abu Bakr."
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "According to the provided BECE source, the correct answer is the preaching of Abu Bakr."),
-      QuizQuestion(
-          question: "66. The name Abraham means\n(BECE 2020 Q9)",
-          options: [
-            "Exalted father.",
-            "Favoured father.",
-            "Traditional father.",
-            "Father of a multitude."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "God changed Abram's name to Abraham, meaning 'father of a multitude'."),
-      QuizQuestion(
-          question:
-              "67. The seeds that fell along the path in the Parable of the Sower were\n(BECE 2021 Q3)",
-          options: [
-            "Blown away by the wind.",
-            "Eaten by birds.",
-            "Choked by thorns.",
-            "Scorched by the sun."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "In the Parable of the Sower, birds ate the seeds that fell along the path."),
-      QuizQuestion(
-          question:
-              "68. One virtue that can be emulated from the lives of Egya Ahor and Tweneboa Kodua is\n(BECE 2021 Q5)",
-          options: ["Justice.", "Love.", "Hard work.", "Respect."],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Both personalities demonstrated love and self-sacrifice for their people."),
-      QuizQuestion(
-          question:
-              "69. The Patriarch who took his brother’s birth right and blessings was\n(BECE 2021 Q12)",
-          options: ["Esau.", "Joseph.", "Jacob.", "Isaac."],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Jacob obtained Esau's birthright and later received his father's blessing."),
-      QuizQuestion(
-          question:
-              "70. Muslims believe that God’s messages to His prophets were declared through His\n(BECE 2021 Q25)",
-          options: ["Angels.", "Caliphs.", "Prophets.", "Diviners."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Allah delivered His revelations to prophets through angels, especially Angel Jibril."),
-      QuizQuestion(
-          question:
-              "71. Joseph was hated by his brothers because\n(BECE 2016 Q1)",
-          options: [
-            "He was loved by his father very much.",
-            "He was gentle and handsome.",
-            "Jacob was a man of tolerance.",
-            "Of his prophetic dreams."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Joseph's dreams made his brothers jealous, causing them to hate him."),
-      QuizQuestion(
-          question:
-              "72. Who provided the tomb in which Jesus was buried?\n(BECE 2016 Q5)",
-          options: [
-            "Joseph of Arimathea",
-            "Nicodemus",
-            "Simon of Cyrene",
-            "Zebedee"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Joseph of Arimathea gave his own new tomb for the burial of Jesus."),
-      QuizQuestion(
-          question:
-              "73. The second rightly guided caliph in Islam was\n(BECE 2016 Q6)",
-          options: [
-            "Abu Bakr Al Siddiq.",
-            "Umar Ibn Al-Khattab.",
-            "Uthman Ibn Affan.",
-            "Ali Ibn Abu Talib."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Umar Ibn Al-Khattab succeeded Abu Bakr as the second rightly guided Caliph."),
-      QuizQuestion(
-          question: "74. By facing the wild beast, Toha Zie\n(BECE 2016 Q7)",
-          options: [
-            "Led his people to be defeated.",
-            "Preached peace to his people.",
-            "Helped the poor.",
-            "Risked his life for his people."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Toha Zie risked his own life in order to save his people."),
-      QuizQuestion(
-          question:
-              "75. The teachings of Prophet Mohammed are found in the\n(BECE 2023 Q6)",
-          options: ["Kalima.", "Hadith.", "Bible.", "Quran."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The Hadith contains the sayings and teachings of Prophet Mohammed."),
-      QuizQuestion(
-          question:
-              "76. Which of the following people was not a disciple of Jesus?\n(BECE 2023 Q12)",
-          options: ["Paul", "Peter", "Matthew", "James"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Paul became an apostle after Jesus' resurrection and was not among the original twelve disciples."),
-      QuizQuestion(
-          question:
-              "77. God's covenant with the patriarch is associated with\n(BECE 2023 Q13)",
-          options: ["Abraham.", "Joseph.", "Joshua.", "Moses."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "God made His covenant with Abraham."),
-      QuizQuestion(
-          question:
-              "78. Egya Ahor is remembered for sacrificing his life to\n(BECE 2023 Q19)",
-          options: [
-            "Ensure victory at war.",
-            "Free his people from slavery.",
-            "Save children from hunger.",
-            "Ward off an epidemic."
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Egya Ahor sacrificed his life to ensure victory for his people during war."),
-      QuizQuestion(
-          question: "79. The first Christian Martyr was\n(BECE 2017 Q15)",
-          options: ["Ali.", "Stephen.", "Ibrahim.", "Munah."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Stephen was the first Christian martyr recorded in the Bible."),
-      QuizQuestion(
-          question:
-              "80. Moses led the Israelites through the wilderness for\n(BECE 2018 Q6)",
-          options: [
-            "Forty months.",
-            "Forty years.",
-            "Fifty years.",
-            "Fifty months."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The Israelites wandered in the wilderness for forty years before entering Canaan."),
-      QuizQuestion(
-          question: "81. Holy Spirit\n(BECE 2022 Q34)",
-          options: ["Holy Spirit", "God", "Neighbours", "Religious leaders"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "According to the provided BECE source, the correct answer is Holy Spirit."),
-      QuizQuestion(
-          question:
-              "82. Who provided the tomb in which Jesus Christ and mercy is the parable of\n(BECE 2022 Q35)",
-          options: [
-            "Mustard Seed",
-            "Lost Coin",
-            "Ten Virgins",
-            "Good Samaritan"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "According to the provided BECE source, the correct answer is Good Samaritan."),
-      QuizQuestion(
-          question:
-              "83. Golgotha was the place where Jesus Christ\n(BECE 2023 Q8)",
-          options: [
-            "Fed the five thousand men.",
-            "Fasted for forty days.",
-            "Prayed in the night.",
-            "Was crucified."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Golgotha was the place where Jesus Christ was crucified."),
-      QuizQuestion(
-          question:
-              "84. Which of the following virtues can be learnt from the life stories of Joseph?\n(BECE 2023 Q17)",
-          options: [
-            "Reconciliation.",
-            "Retribution.",
-            "Repentance.",
-            "Reformation."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Joseph forgave and reconciled with his brothers, teaching the virtue of reconciliation."),
-      QuizQuestion(
-          question:
-              "\"85. And who is my neighbour?\" Jesus answered this question with the parable of the\n(BECE 2023 Q38)",
-          options: [
-            "Mustard seed.",
-            "Prodigal son.",
-            "Wicked Tenants.",
-            "Good Samaritan."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Jesus answered the question 'Who is my neighbour?' with the Parable of the Good Samaritan."),
+question:
+"1. Prophet Mohammed's twelfth birthday is important because\n(BECE 1999 Q7)",
+options: [
+"There was prophecy about his future",
+"Halimah returned him to his parents",
+"Amina passed away",
+"Abdul Mutallib died"
+],
+correctIndex: 0,
+difficulty: "Medium",
+explanation:
+"The question associates this stage of Mohammed's life with a prophecy concerning his future."),
+  QuizQuestion(
+      question:
+          "2. Blessed are the merciful for they shall\n(BECE 1999 Q17)",
+      options: ["See God", "Obtain mercy", "Inherit the earth", "Be called the children of God"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the merciful shall obtain mercy."),
+
+  QuizQuestion(
+      question:
+          "3. The traditional healer does not normally charge high fees because\n(BECE 1999 Q40)",
+      options: [
+        "They are in the subsistence economy",
+        "They use cowries for diagnosis",
+        "Local herbs and plants are used",
+        "It will weaken the power of the medicine"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief may hold that charging excessive fees can weaken the spiritual effectiveness of the medicine."),
+
+  QuizQuestion(
+      question:
+          "4. Which of the following is not a patriarch?\n(BECE 2000 Q12)",
+      options: ["Abraham", "Isaac", "Jacob", "Noah"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Abraham, Isaac and Jacob are commonly referred to as the Biblical patriarchs."),
+
+  QuizQuestion(
+      question:
+          "5. A religious leader in Islam is called\n(BECE 2000 Q15)",
+      options: ["Khalifah", "Imam", "Alhaji", "Mallam"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An Imam leads Muslims in prayer and provides religious leadership."),
+
+  QuizQuestion(
+      question:
+          "6. The blind man Jesus healed was called\n(BECE 2000 Q17)",
+      options: ["Bartholomew", "Barabbas", "Bartimaeus", "Nicodemus"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Bartimaeus was the blind man healed by Jesus."),
+
+  QuizQuestion(
+      question:
+          "7. Jesus Christ began his ministry at the age of\n(BECE 2001 Q2)",
+      options: ["12", "25", "30", "33"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus began His public ministry at about thirty years of age."),
+
+  QuizQuestion(
+      question:
+          "8. A Muslim is a person who\n(BECE 2001 Q4)",
+      options: [
+        "Is at peace with God and his neighbour",
+        "Can recite the whole Qur'an",
+        "Fasts during the Ramadan",
+        "Visits Mecca every year"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A Muslim is one who submits to Allah and seeks peaceful relationships with others."),
+
+  QuizQuestion(
+      question:
+          "9. From the age of eight, Mohammed was brought up by\n(BECE 2001 Q12)",
+      options: ["Halimah", "Abdul Mutallib", "Khadijah", "Abu Talib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "After the death of his grandfather, Mohammed was cared for by his uncle Abu Talib."),
+
+  QuizQuestion(
+      question:
+          "10. The first Jewish temple was built by\n(BECE 2001 Q13)",
+      options: ["David", "Saul", "Solomon", "Samuel"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "King Solomon built the first Temple in Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "11. Jesus Christ was born in\n(BECE 2001 Q14)",
+      options: ["Jerusalem", "Bethlehem", "Bethsaida", "Galilee"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus was born in Bethlehem."),
+
+  QuizQuestion(
+      question:
+          "12. Which of the following personalities succeeded Mohammed?\n(BECE 2001 Q19)",
+      options: ["Abdullah", "Musa Mohammed", "Abu Bakr", "Issa Ibrahim"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Abu Bakr became the first Caliph after Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "13. One of the roles of the ancestors is to\n(BECE 2001 Q19)",
+      options: [
+        "Ensure harmony in the family",
+        "Give authority to the people",
+        "Settle our debts",
+        "Raise more ancestors from the family"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are traditionally believed to help maintain harmony and moral order in the family."),
+
+  QuizQuestion(
+      question:
+          "14. A person cannot qualify to be an ancestor if he\n(BECE 2002A Q16)",
+      options: [
+        "Had many wives",
+        "Had many children",
+        "Was very unpopular",
+        "Committed suicide"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief generally requires a person to have died a natural and honourable death to qualify as an ancestor."),
+
+  QuizQuestion(
+      question:
+          "15. All the laws which Moses gave to Israel can be found in the book of\n(BECE 2002A Q19)",
+      options: [
+        "Genesis, Exodus and Numbers",
+        "Genesis, Deuteronomy and Numbers",
+        "Genesis, Leviticus and Leviticus",
+        "Exodus, Leviticus and Deuteronomy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The laws associated with Moses are particularly found in Exodus, Leviticus and Deuteronomy."),
+
+  QuizQuestion(
+      question:
+          "16. The sermon on the Mount was delivered by\n(BECE 2002B Q3)",
+      options: ["Jesus", "Moses", "Joshua", "Paul"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus delivered the Sermon on the Mount."),
+
+  QuizQuestion(
+      question:
+          "17. On which day did Jesus resurrect?\n(BECE 2002B Q5)",
+      options: ["Ascension Day", "Ash Wednesday", "Easter Sunday", "Palm Sunday"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians commemorate the resurrection of Jesus on Easter Sunday."),
+
+  QuizQuestion(
+      question:
+          "18. The second Caliph was\n(BECE 2002B Q6)",
+      options: ["Umar", "Abu bakr", "Uthman", "Ali"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Umar ibn al-Khattab was the second rightly guided Caliph."),
+
+  QuizQuestion(
+      question:
+          "19. The title Al-Faruq given to Umar by the Holy Prophet Mohammed means\n(BECE 2002B Q7)",
+      options: [
+        "A strong believer in the principles and teaching of Islam",
+        "Lover of faith",
+        "Defender of Islam",
+        "One who can differentiate between right and wrong"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Al-Faruq means one who distinguishes between right and wrong."),
+
+  QuizQuestion(
+      question:
+          "20. In the traditional society, one could become an ancestor when one\n(BECE 2002B Q9)",
+      options: [
+        "Visited the shrine always",
+        "Poured libation to the gods",
+        "Died a natural death",
+        "Married the widow of another man"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dying a natural and honourable death is traditionally one condition for becoming an ancestor."),
+
+  QuizQuestion(
+      question:
+          "21. In Islam if one is pious it means he\n(BECE 2002B Q13)",
+      options: ["Sees God", "Reads about God", "Understands God", "Fears God"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Piety in Islam involves consciousness and fear of Allah."),
+
+  QuizQuestion(
+      question:
+          "22. Whose preaching ministry urged the Jews to bear fruits that befit repentance?\n(BECE 2003 Q4)",
+      options: ["Jesus Christ", "Paul", "Peter", "John the Baptist"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "John the Baptist called people to repentance and to produce fruits worthy of repentance."),
+
+  QuizQuestion(
+      question:
+          "23. The Caliph Abu Bakr was referred to as Siddiq by Mohammed due to his\n(BECE 2003 Q5)",
+      options: ["Courage", "Tolerance", "Truthfulness", "Generosity"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Al-Siddiq means the truthful or the one who confirms the truth."),
+
+  QuizQuestion(
+      question:
+          "24. All those who took custody of Prophet Mohammed were happy with him because He\n(BECE 2003 Q6)",
+      options: [
+        "Had a unique character",
+        "Was a hardworking young man",
+        "Was an orphan at a tender age",
+        "Was prayerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Mohammed was respected for his admirable and trustworthy character."),
+
+  QuizQuestion(
+      question:
+          "25. God made a covenant with\n(BECE 2003 Q9)",
+      options: ["Isaac", "Abraham", "Jacob", "Joshua"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "God made a covenant with Abraham."),
+
+  QuizQuestion(
+      question:
+          "26. Which of the following persons knew God \"face to face\"?\n(BECE 2003 Q13)",
+      options: ["Abraham", "Isaac", "Jacob", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses is described as having known God face to face."),
+
+  QuizQuestion(
+      question:
+          "27. Joseph was hated by his brothers because\n(BECE 2004 Q2)",
+      options: [
+        "Jacob promised him of inheritance",
+        "He loved his father very much",
+        "Of his prophetic dreams",
+        "He was gentle and handsome"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Joseph's dreams suggested that his family would bow to him, increasing his brothers' jealousy."),
+
+  QuizQuestion(
+      question:
+          "28. The patriarch described as a \"great man of faith\" was\n(BECE 2004 Q3)",
+      options: ["Jacob", "David", "Moses", "Abraham"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Abraham is remembered for his exceptional faith and obedience to God."),
+
+  QuizQuestion(
+      question:
+          "29. Which of the following people was not a disciple of Jesus?\n(BECE 2004 Q4)",
+      options: ["Paul", "Peter", "Matthew", "James"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Paul became an apostle later but was not one of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "30. Prophet Mohammed is described as al-Amin because he was\n(BECE 2004 Q14)",
+      options: ["Wealthy", "Generous", "Honest", "Brave"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Al-Amin means trustworthy, reflecting Mohammed's honesty."),
+
+  QuizQuestion(
+      question:
+          "31. The legendary Tsali performed his magical powers in and around\n(BECE 2004 Q20)",
+      options: ["Agbozume", "Akpafia", "Anloga", "Tsame"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Togbe Tsali is traditionally associated with Anloga and the Anlo people."),
+
+  QuizQuestion(
+      question:
+          "32. Prophet Mohammed's marriage with Khadijah enabled him to\n(BECE 2005 Q8)",
+      options: [
+        "Free many Muslim slaves",
+        "Devote more time for worship",
+        "Migrate to Medina",
+        "Preach publicly in Mecca"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Khadijah's support gave Mohammed greater opportunity to devote himself to worship and reflection."),
+
+  QuizQuestion(
+      question:
+          "33. The traditions of the Prophet Mohammed which form part of the Quran are the\n(BECE 2005 Q9)",
+      options: [
+        "Injil and Zabur",
+        "Hadith and Sunnah",
+        "Sunnah and Injil",
+        "Ruya and Hadith"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The intended answer in the supplied choices is Hadith and Sunnah, which preserve traditions about Mohammed."),
+
+  QuizQuestion(
+      question:
+          "34. The chief who offered himself to be sacrificed during the Ashanti-Denkyira war was\n(BECE 2005 Q12)",
+      options: ["Opoku Ware", "Egya Ahor", "Ntim Gyakari", "Tweneboa Kodua"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tweneboa Kodua is remembered for sacrificing himself for the Asante cause."),
+
+  QuizQuestion(
+      question:
+          "35. Abraham was known for his great faith because he\n(BECE 2005 Q18)",
+      options: [
+        "Refused the idols of Canaan",
+        "Was willing to sacrifice his son to God",
+        "Built an altar to worship God",
+        "Agreed to separate from Lot"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Abraham demonstrated great faith through his willingness to obey God's command concerning his son."),
+
+  QuizQuestion(
+      question:
+          "36. The tribes of Israel derived their names from the sons of\n(BECE 2005 Q19)",
+      options: ["Abraham", "Joseph", "Jacob", "Isaac"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The twelve tribes of Israel were named after the sons and descendants of Jacob."),
+
+  QuizQuestion(
+      question:
+          "37. Israel came out of slavery in Egypt under the leadership of\n(BECE 2006 Q6)",
+      options: ["Joshua", "Joseph", "Abraham", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses led the Israelites out of slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "38. Togbe Tsali is remembered for\n(BECE 2006 Q7)",
+      options: [
+        "His cruelty to the Anlos",
+        "Freeing his people from oppressions",
+        "Selling his people into slavery",
+        "Allowing missionaries to preach to his people"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Togbe Tsali is remembered in Anlo tradition for helping his people escape oppression."),
+
+  QuizQuestion(
+      question:
+          "39. The second Caliph of Islam was\n(BECE 2006 Q9)",
+      options: ["Ali", "Abubakar", "Umar", "Uthman"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Umar was the second Caliph after Abu Bakr."),
+
+  QuizQuestion(
+      question:
+          "40. God gave Noah and his people the rainbow as a sign of the covenant that\n(BECE 2006 Q10)",
+      options: [
+        "The earth would never again be destroyed by flood",
+        "Idol worshippers would be destroyed",
+        "Heavenly bodies would always give light",
+        "Humankind would not speak the same language"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The rainbow represented God's promise not to destroy the earth again by a flood."),
+
+  QuizQuestion(
+      question:
+          "41. A dead person is not regarded as an ancestor if he or she\n(BECE 2006 Q13)",
+      options: [
+        "Lived for more than forty years",
+        "Died through an accident",
+        "Married and had many children",
+        "Died while defending his community"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief generally requires a natural or honourable death for ancestral status."),
+
+  QuizQuestion(
+      question:
+          "42. The burning bush that Moses saw attracted him because\n(BECE 2006 Q14)",
+      options: [
+        "God spoke to him from it",
+        "The place was a holy ground",
+        "The fire was not consuming the bush",
+        "God wanted to save Israel through him"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Moses was amazed because the bush was burning without being consumed."),
+
+  QuizQuestion(
+      question:
+          "43. According to the Qur'an, the Torah was revealed through\n(BECE 2006 Q18)",
+      options: ["Ibrahim", "Mohammed", "Yusuf", "Ishmael"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The expected figure is Musa (Moses), but Musa is not among the supplied options."),
+
+  QuizQuestion(
+      question:
+          "44. According to Jesus, the poor in spirit are blessed because they shall\n(BECE 2006 Q19)",
+      options: [
+        "Inherit the Kingdom of heaven",
+        "Be comforted",
+        "Inherit the earth",
+        "Be called the sons of God"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the kingdom of heaven belongs to the poor in spirit."),
+
+  QuizQuestion(
+      question:
+          "45. The Qur'an was revealed to Mohammed through\n(BECE 2007 Q2)",
+      options: ["Abu Bakr", "Angel Jibril", "Zayd Ibn Thabit", "Angel Mikail"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims believe that Angel Jibril delivered Allah's revelations to Mohammed."),
+
+  QuizQuestion(
+      question:
+          "46. God saved the believers from the flood through\n(BECE 2007 Q8)",
+      options: ["Abraham", "Moses", "Noah", "Joseph"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Noah built the ark through which the believers survived the flood."),
+
+  QuizQuestion(
+      question:
+          "47. Caliph Abu Bakr is remembered for\n(BECE 2007 Q9)",
+      options: [
+        "Going on pilgrimage with the prophet",
+        "Marrying the prophet's daughter",
+        "Compiling the Qur'an into a book",
+        "Defending the prophet in Mecca"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The first collection of Qur'anic material into a compiled form was undertaken during Abu Bakr's caliphate."),
+
+  QuizQuestion(
+      question:
+          "48. The name Moses means\n(BECE 2007 Q19)",
+      options: [
+        "Washed in water",
+        "Drawn out of water",
+        "Abandoned in water",
+        "Baptised with water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Biblical explanation of the name Moses is 'drawn out of water.'"),
+
+  QuizQuestion(
+      question:
+          "49. Aminah is popular among Muslims because she\n(BECE 2008 Q6)",
+      options: [
+        "Married Mohammed",
+        "Gave birth to Mohammed",
+        "Supported Mohammed in the Jihads",
+        "Was Mohammed's sister"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Aminah was the mother of Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "50. The death of Jesus teaches us how we must\n(BECE 2008 Q12)",
+      options: [
+        "Be committed to our children",
+        "Love one another in all things",
+        "Faithfully serve our nation",
+        "Sacrifice for the church"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Jesus' sacrificial death is presented as an example of selfless love for others."),
+
+  QuizQuestion(
+      question:
+          "51. Mount Calvary was the place where Jesus\n(BECE 2008 Q13)",
+      options: [
+        "Ascended to heaven",
+        "Was crucified",
+        "Was transfigured",
+        "Preached His last sermon"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus was crucified at Calvary, also called Golgotha."),
+
+  QuizQuestion(
+      question:
+          "52. Moses ordered the celebration of the Passover to commemorate the\n(BECE 2008 Q14)",
+      options: [
+        "Crossing of the Red Sea",
+        "Deliverance from Egyptian bondage",
+        "Death of Egyptian first-born",
+        "Encounter with the burning bush"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Passover commemorates the Israelites' deliverance from slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "53. The moral lesson from the life of Tweneboa Kodua is that one should cultivate the habit of\n(BECE 2008 Q15)",
+      options: ["Faithfulness", "Punctuality", "Truthfulness", "Sacrifice"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tweneboa Kodua is remembered for sacrificing himself for his people."),
+
+  QuizQuestion(
+      question:
+          "54. Caliph Abubakar led prayers in the lifetime of prophet Mohammed because the Prophet\n(BECE 2008 Q16)",
+      options: ["Was tired", "Was sick", "Wanted to test him", "Had travelled"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abu Bakr led the prayers when Prophet Mohammed became seriously ill."),
+
+  QuizQuestion(
+      question:
+          "55. Blessed are the meek for they shall\n(BECE 2008 Q17)",
+      options: ["Obtain mercy", "See God", "Inherit the earth", "Be satisfied"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the meek shall inherit the earth."),
+
+  QuizQuestion(
+      question:
+          "56. Jesus' washing of the feet of His disciples teaches a lesson in\n(BECE 2008 Q20)",
+      options: [
+        "Respect for the elderly",
+        "Expressing love to others",
+        "Rendering service to others",
+        "Being helpful to others"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Washing the disciples' feet demonstrated humble service to others."),
+
+  QuizQuestion(
+      question:
+          "57. The two dreams of Joseph focused on his\n(BECE 2009 Q6)",
+      options: ["Apprenticeship", "Kinship", "Leadership", "Stewardship"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's dreams symbolically indicated his future leadership over his family."),
+
+  QuizQuestion(
+      question:
+          "58. Togbe Tsali gave his jaws to his people as a\n(BECE 2009 Q8)",
+      options: [
+        "Totem to be worshipped",
+        "Powerful instrument of divination",
+        "Foundation stone for shrines",
+        "Present to the King after him"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "In the tradition referenced by the question, Tsali's jaws were regarded as a powerful instrument of divination."),
+
+  QuizQuestion(
+      question:
+          "59. A traditional chief may be destooled if he\n(BECE 2009 Q12)",
+      options: [
+        "Becomes a born-again Christian",
+        "Takes many wives",
+        "Does not give birth to children",
+        "Misuses stool property"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Misuse of stool or community property is a serious breach of a chief's responsibilities."),
+
+  QuizQuestion(
+      question:
+          "60. The intermediate cause of Mohammed's departure to Medina was\n(BECE 2009 Q13)",
+      options: [
+        "Invitation from Yathrib",
+        "Harsh conditions in Mecca",
+        "Plan to kill him",
+        "Desire to spread Islam"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The immediate danger created by a plot to kill Mohammed prompted his departure from Mecca."),
+
+  QuizQuestion(
+      question:
+          "61. Which of the following were not among the twelve disciples?\n(BECE 2009 Q20)",
+      options: [
+        "Matthew and James",
+        "Simon and Andrews",
+        "Peter and John",
+        "Paul and Barnabas"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Paul and Barnabas were important early Christians but were not members of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "62. According to Jesus, the summary of the ten commandments is\n(BECE 2009 Q29)",
+      options: [
+        "Love for God and one's neighbour",
+        "Obedience to parents and the elderly",
+        "Observing the Sabbath and keeping it holy",
+        "Worshipping only God and not gods"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus summarized the law as love for God and love for one's neighbour."),
+
+  QuizQuestion(
+      question:
+          "63. \"Blessed are the peace makers for they shall\n(BECE 2011 Q7)",
+      options: ["See God", "Be called sons of God", "Inherit the earth", "Obtain mercy"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that peacemakers shall be called children of God."),
+
+  QuizQuestion(
+      question:
+          "64. The name Moses means\n(BECE 2011 Q8)",
+      options: [
+        "Washed in water",
+        "Drawn out of water",
+        "Abandoned with water",
+        "Baptised with water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The name Moses is explained in the Biblical account as 'drawn out of water.'"),
+
+  QuizQuestion(
+      question:
+          "65. Which of the following disciples of Jesus were brothers?\n(BECE 2011 Q19)",
+      options: ["John and James", "Joseph and John", "Peter and Matthew", "Judas and Thomas"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "James and John were brothers and sons of Zebedee."),
+
+  QuizQuestion(
+      question:
+          "66. Which of the following is responsible for morality in traditional society?\n(BECE 2011 Q25)",
+      options: ["Linguist", "Gong-gong beater", "Chief priest", "Fortune teller"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The chief priest plays an important religious role in maintaining traditional moral standards."),
+
+  QuizQuestion(
+      question:
+          "67. The patriarchal covenant was made between God and\n(BECE 2012 Q11)",
+      options: ["Abraham", "Aaron", "Moses", "Noah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The patriarchal covenant is particularly associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "68. The main lesson that can be learnt from the story of Noah and the flood is\n(BECE 2012 Q12)",
+      options: ["Tolerance", "Truthfulness", "Sincerity", "Obedience"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Noah obeyed God's instructions and was saved from the flood."),
+
+  QuizQuestion(
+      question:
+          "69. Jesus accepted to be baptised by John in order to\n(BECE 2012 Q14)",
+      options: [
+        "Make the Jews happy",
+        "Show His faith in John's power",
+        "Fulfill all righteousness",
+        "Confirm His sonship of God"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus said His baptism was necessary to fulfill all righteousness."),
+
+  QuizQuestion(
+      question:
+          "70. Which Christian virtue did Joseph exhibit in his life?\n(BECE 2012 Q15)",
+      options: ["Humility", "Forgiveness", "Repentance", "Tolerance"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Joseph forgave his brothers despite the wrong they had done to him."),
+
+  QuizQuestion(
+      question:
+          "71. Jacob's children went to Egypt because\n(BECE 2013 Q2)",
+      options: [
+        "There was a great famine",
+        "Joseph was a governor",
+        "There was good pasture for cattle",
+        "People were losing their lives"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jacob's sons travelled to Egypt because famine had created severe food shortages."),
+
+  QuizQuestion(
+      question:
+          "72. Jesus came into the world so that people may\n(BECE 2013 Q11)",
+      options: [
+        "Forgive their enemies",
+        "Have eternal life",
+        "Overcome problems",
+        "Become wealthy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christian teaching presents Jesus as bringing salvation and eternal life."),
+
+  QuizQuestion(
+      question:
+          "73. God's covenant with the patriarch is associated with\n(BECE 2013 Q12)",
+      options: ["Abraham", "Joseph", "Joshua", "Moses"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The patriarchal covenant is associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "74. By facing the wild beast, Toha Zie\n(BECE 2013 Q14)",
+      options: [
+        "Helped the poor in the community",
+        "Led his people to defeat their enemies",
+        "Risked his life for his people",
+        "Preached peace to his people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie demonstrated courage and self-sacrifice by risking his life for his people."),
+
+  QuizQuestion(
+      question:
+          "75. Israel came out of slavery in Egypt under the leadership of\n(BECE 2013 Q18)",
+      options: ["Abraham", "Joseph", "Joshua", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses led the Israelites out of slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "76. Egya Ahor is remembered for sacrificing his life to\n(BECE 2013 Q19)",
+      options: [
+        "Ensure victory at war",
+        "Free his people from slavery",
+        "Save children from hunger",
+        "Ward off an epidemic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Egya Ahor is traditionally remembered for sacrificing himself to end an epidemic affecting his people."),
+
+  QuizQuestion(
+      question:
+          "77. The twelfth son of Jacob was\n(BECE 2014 Q6)",
+      options: ["Benjamin", "Daniel", "Joseph", "Simon"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Benjamin was Jacob's youngest and twelfth son."),
+
+  QuizQuestion(
+      question:
+          "78. Moses led the Israelites through the wilderness for\n(BECE 2014 Q7)",
+      options: ["Forty years", "Forty months", "Fifty years", "Fifty months"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites wandered in the wilderness for forty years."),
+
+  QuizQuestion(
+      question:
+          "79. Which of the following people was commanded by God to build an ark?\n(BECE 2015 Q1)",
+      options: ["Joseph", "Jacob", "Noah", "David"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "God commanded Noah to build the ark."),
+
+  QuizQuestion(
+      question:
+          "80. Who gave the tomb in which Jesus was buried?\n(BECE 2015 Q2)",
+      options: ["Simon of Cyrene", "Joseph of Arimathea", "Nicodemus", "Zebedee"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Joseph of Arimathea provided the tomb for Jesus' burial."),
+
+  QuizQuestion(
+      question:
+          "81. Egya Ahor is fondly remembered by the Fante for\n(BECE 2015 Q18)",
+      options: [
+        "His miraculous powers",
+        "Commanding the golden stool",
+        "His resurrection from death",
+        "Saving his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Egya Ahor is remembered for sacrificing himself to save his people."),
+
+  QuizQuestion(
+      question:
+          "82. Joseph was hated by his brothers because\n(BECE 2016 Q1)",
+      options: [
+        "He was loved by his father very much",
+        "He was gentle and handsome",
+        "Jacob promised him of inheritance",
+        "Of his prophetic dreams"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's dreams increased his brothers' jealousy because they suggested he would rule over them."),
+
+  QuizQuestion(
+      question:
+          "83. Who provided the tomb in which Jesus was buried?\n(BECE 2016 Q5)",
+      options: ["Joseph of Arimathea", "Nicodemus", "Simon of Cyrene", "Zebedee"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Joseph of Arimathea provided the tomb in which Jesus was buried."),
+
+  QuizQuestion(
+      question:
+          "84. The second rightly guided caliph in Islam was\n(BECE 2016 Q6)",
+      options: [
+        "Abu Bakr Al Siddiq",
+        "Umar Ibn Al-Khattab",
+        "Uthman Ibu Affan",
+        "Ali Ibn Abu Talib"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Umar ibn al-Khattab was the second rightly guided Caliph."),
+
+  QuizQuestion(
+      question:
+          "85. By facing the wild beast, Toha Zie\n(BECE 2016 Q7)",
+      options: [
+        "Led his people to be defeated",
+        "Preached peace to his people",
+        "Helped the poor",
+        "Risked his life for his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie demonstrated courage by risking his life for the safety of his people."),
+
+  QuizQuestion(
+      question:
+          "86. The teachings of Prophet Mohammed are found in the\n(BECE 2016 Q8)",
+      options: ["Kalina", "Hadith", "Ijmah", "Sura"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Hadith records sayings, actions and traditions associated with Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "87. The Israelites were finally led to the land of Canaan by\n(BECE 2016 Q9)",
+      options: ["Aaron", "Joseph", "Joshua", "Moses"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Joshua succeeded Moses and led the Israelites into Canaan."),
+
+  QuizQuestion(
+      question:
+          "88. Which of the following people was not among the twelve disciples of Jesus?\n(BECE 2016 Q15)",
+      options: ["James", "Matthew", "Paul", "Peter"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Paul was not one of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "89. God's covenant with patriarchs is associated with\n(BECE 2017 Q2)",
+      options: ["Abraham", "Joshua", "Joseph", "Moses"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "God's covenant with the patriarchs is especially associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "90. Egya Ahor is remembered for sacrificing his life to\n(BECE 2017 Q6)",
+      options: [
+        "Ensure victory at war",
+        "Free his people from slavery",
+        "Save children from being kidnapped",
+        "Ward off an epidemic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Egya Ahor is remembered for sacrificing himself to bring an epidemic to an end."),
+
+  QuizQuestion(
+      question:
+          "91. Jacob's children went to Egypt because\n(BECE 2017 Q7)",
+      options: [
+        "Joseph was a governor in Egypt",
+        "People were losing their lives",
+        "There was a great famine",
+        "There was a good pasture there for cattle"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A severe famine caused Jacob's sons to travel to Egypt in search of food."),
+
+  QuizQuestion(
+      question:
+          "92. The first Muezzin in Islam was\n(BECE 2017 Q15)",
+      options: ["Abu Talib", "Bilal", "Salman", "Zayd"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bilal ibn Rabah is traditionally recognized as the first Muezzin."),
+
+  QuizQuestion(
+      question:
+          "93. The first Muezzin was\n(BECE 2018 Q6)",
+      options: ["Ali", "Bilal", "Ibrahim", "Musah"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bilal was the first person appointed to call Muslims to prayer."),
+
+  QuizQuestion(
+      question:
+          "94. Moses led the Israelites through the wilderness for\n(BECE 2018 Q7)",
+      options: ["Forty months", "Forty years", "Fifty months", "Fifty years"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites spent forty years in the wilderness."),
+
+  QuizQuestion(
+      question:
+          "95. Egya Ahor is fondly remembered by the Fantes for\n(BECE 2018 Q8)",
+      options: [
+        "Commanding the Golden Stool",
+        "His miraculous powers",
+        "His resurrection from death",
+        "Saving his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Egya Ahor is remembered for the sacrifice he made to save his people."),
+
+  QuizQuestion(
+      question:
+          "96. The spiritual leader who was also a successor of Prophet Muhammad (SAW) was\n(BECE 2019 Q6)",
+      options: ["Caliph", "Hafiz", "Imam", "Shierk"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A Caliph was a successor to Prophet Mohammed in leadership of the Muslim community."),
+
+  QuizQuestion(
+      question:
+          "97. Egya Ahor was honoured with the Ahobaa festival because of his\n(BECE 2019 Q7)",
+      options: ["Magical dead", "Death for the land", "Good leadership", "Killing of the beast"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The festival commemorates Egya Ahor's sacrificial death for his people and land."),
+
+  QuizQuestion(
+      question:
+          "98. Toha Zie became famous because\n(BECE 2019 Q8)",
+      options: [
+        "Of his exploits in war",
+        "He was a hunter",
+        "He was considered as a god",
+        "He saved his people from beasts"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie is remembered for protecting his people from dangerous beasts."),
+
+  QuizQuestion(
+      question:
+          "99. Toha Zie was nicknamed the red hunter because of his\n(BECE 2020 Q7)",
+      options: ["Character", "Complexion", "Kindness", "Wisdom"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The nickname 'red hunter' is associated with his complexion."),
+
+  QuizQuestion(
+      question:
+          "100. The major event that led to the conversion of Umar ibn Al-Khatab into Islam was\n(BECE 2020 Q8)",
+      options: [
+        "Mohammed's flight into Medina",
+        "The beating of his sister",
+        "The death of Caliph Abu Bakr",
+        "The preaching of Abu Bakr"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The confrontation with his sister and his subsequent encounter with Qur'anic verses played a major role in Umar's conversion."),
+
+  QuizQuestion(
+      question:
+          "101. The name Abram means\n(BECE 2020 Q9)",
+      options: ["Exalted father", "Faithful father", "Favoured father", "Nation's father"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Abram is traditionally interpreted to mean 'exalted father.'"),
+
+  QuizQuestion(
+      question:
+          "102. The seeds that fell along the path in the Parable of the Sower were\n(BECE 2021 Q3)",
+      options: [
+        "Blown away by the wind",
+        "Eaten by birds",
+        "Choked by thorns",
+        "Scorched by the sun"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In the parable, birds came and ate the seeds that fell along the path."),
+
+  QuizQuestion(
+      question:
+          "103. One virtue that can be emulated from the lives of Egya Ahor and Tweneboa Kodua is\n(BECE 2021 Q5)",
+      options: ["Justice", "Love", "Hard work", "Respect"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Their willingness to sacrifice themselves for their people demonstrates selfless love."),
+
+  QuizQuestion(
+      question:
+          "104. The Patriarch who took his brother's birth right and blessings was\n(BECE 2021 Q12)",
+      options: ["Essau", "Joseph", "Jacob", "Isaac"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jacob obtained Esau's birthright and later received the blessing intended for Esau."),
+
+  QuizQuestion(
+      question:
+          "105. Muslims believe that God's messages to his prophets were declared through His\n(BECE 2021 Q26)",
+      options: ["Angels", "Caliphs", "Divinities", "Imams"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Muslims believe Allah communicated revelation to prophets through angels such as Jibril."),
+
+  QuizQuestion(
+      question:
+          "106. Shed no blood. Which of Joseph's brothers said this?\n(BECE 2022 Q6)",
+      options: ["Reuben", "Simon", "Benjamin", "Judah"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Reuben urged his brothers not to shed Joseph's blood."),
+
+  QuizQuestion(
+      question:
+          "107. God sent Joseph to Egypt in order to\n(BECE 2022 Q7)",
+      options: [
+        "Fulfill the dreams of Joseph",
+        "Save the Israelites from death",
+        "Reveal his love for humanity",
+        "Punish the Egyptians for disobedience"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's presence in Egypt eventually enabled his family to survive the famine."),
+
+  QuizQuestion(
+      question:
+          "108. Okomfo Anokye united the Asante Kingdom through commanding the golden stool from the\n(BECE 2022 Q8)",
+      options: ["Sun", "Shrine", "Sky", "Moon"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Asante tradition holds that Okomfo Anokye commanded the Golden Stool from the sky."),
+
+  QuizQuestion(
+      question:
+          "109. The parable of the Good Samaritan teaches that a neighbour is\n(BECE 2022 Q9)",
+      options: [
+        "The person next door",
+        "The sick and destitute",
+        "Your next of kin",
+        "Anyone who needs help"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The parable teaches that neighbourly love should be shown to anyone who needs help."),
+
+  QuizQuestion(
+      question:
+          "110. The second most important commandment taught by Jesus Christ is the love for\n(BECE 2022 Q34)",
+      options: ["Holy Spirit", "God", "Neighbours", "Religious leaders"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the second greatest commandment is to love one's neighbour."),
+
+  QuizQuestion(
+      question:
+          "111. The parable of Jesus Christ that teaches love and mercy is the parable of\n(BECE 2022 Q35)",
+      options: ["Mustard Seed", "Lost Coin", "Ten Virgins", "Good Samaritan"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Good Samaritan teaches compassion, love and mercy toward people in need."),
+
+  QuizQuestion(
+      question:
+          "112. Golgotha was the place where Jesus Christ\n(BECE 2023 Q8)",
+      options: [
+        "Fed the five thousand men",
+        "Fasted for forty days",
+        "Prayed in the night",
+        "Was crucified"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Golgotha was the place where Jesus was crucified."),
+
+  QuizQuestion(
+      question:
+          "113. Which of the following virtues can be learnt from the life stories of Joseph?\n(BECE 2023 Q17)",
+      options: ["Reconciliation", "Retribution", "Repentance", "Reformation"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Joseph reconciled with and forgave his brothers despite their earlier actions against him."),
+
+  QuizQuestion(
+      question:
+          "114. \"And who is my neighbour?\" Jesus answered this question with the parable of the\n(BECE 2023 Q38)",
+      options: ["Mustard seed", "Prodigal son", "Wicked Tenants", "Good Samaritan"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Jesus answered the question about who a neighbour is by telling the Parable of the Good Samaritan."),
+
     ],
   ),
   "Religious & Moral Education JHS1 s5 ss1 - Religious Practices": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question:
-              "1. Mourners from the cemetery wash their hands before entering funeral house again to\n(BECE 1999 Q11)",
-          options: [
-            "Break relations with the dead.",
-            "Shows that they are among the living.",
-            "Announce their return from the cemetery.",
-            "Cleanse themselves from any curse."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Washing the hands after returning from the cemetery symbolizes breaking all relations with the dead."),
-      QuizQuestion(
-          question:
-              "2. Traditional religion is practiced in order to\n(BECE 2001 Q7)",
-          options: [
-            "Instill discipline.",
-            "Worship idols.",
-            "Preserve African culture.",
-            "Disregard other religions."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Traditional religion helps preserve African cultural values, beliefs and practices."),
-      QuizQuestion(
-          question:
-              "3. Akwesidae according to the Akan calendar is\n(BECE 2001 Q11)",
-          options: [
-            "A day that marks the beginning of the month.",
-            "The first Sunday that marks the beginning of the month.",
-            "The Sunday that marks the 42nd day of the month.",
-            "A day on which the Golden Stool descended."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Akwasidae is celebrated every 42 days according to the Akan traditional calendar."),
-      QuizQuestion(
-          question:
-              "4. Palm Sunday is observed by Christians to remember the\n(BECE 1999 Q2)",
-          options: [
-            "Birth and baptism of Christ.",
-            "Resurrection and appearance of Christ.",
-            "Joyful journey of Christ into Jerusalem.",
-            "Baptism of the Holy Spirit."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Palm Sunday commemorates Jesus Christ's triumphant entry into Jerusalem."),
-      QuizQuestion(
-          question:
-              "5. The main role of angels in Islam is to\n(BECE 2001 Q15)",
-          options: [
-            "Reveal Allah's orders and messages to His Prophets.",
-            "Help Allah's Prophets to understand the Qur'an.",
-            "Explain dreams to the people.",
-            "Give spiritual power for the writing of the Qur'an."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Angels are Allah's messengers who convey His revelations and commands to His Prophets."),
-      QuizQuestion(
-          question:
-              "6. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
-          options: [
-            "Be tolerant and intelligent.",
-            "Become steadfast and patriotic.",
-            "Have humor and peace.",
-            "Become clean and upright in life."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Regular prayer promotes purity, discipline and righteous living."),
-      QuizQuestion(
-          question:
-              "7. The burial of pieces of hair, fingernails and toenails of a corpse at his hometown signifies that\n(BECE 1999 Q10)",
-          options: [
-            "There is life after death.",
-            "The spirit has contact with the living.",
-            "Lesser gods want the spirit.",
-            "Witches are powerful in one's hometown."
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "The practice signifies that the spirit of the deceased maintains contact with the living."),
-      QuizQuestion(
-          question: "8. The first book in the Bible is called\n(BECE 2000 Q20)",
-          options: ["Genesis.", "Deuteronomy.", "Exodus.", "Revelation."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Genesis is the first book of the Bible."),
-      QuizQuestion(
-          question:
-              "9. The Islamic practice where wealthy Muslims cater for the needs of the poor and needy is\n(BECE 2002A Q7)",
-          options: [
-            "Hajj.",
-            "Offers food and living things to the gods.",
-            "Sings dirges to the dead.",
-            "Wins a fortune."
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "The source text appears to contain OCR errors. The original BECE question refers to Zakat, but the options have been preserved exactly as provided."),
-      QuizQuestion(
-          question: "10. All the religions in Ghana believe in\n(BECE 1999 Q4)",
-          options: [
-            "Jesus Christ.",
-            "The Bible.",
-            "The prophet Mohammed.",
-            "The supreme God."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "The major religions in Ghana believe in the existence of a Supreme Being."),
-      QuizQuestion(
-          question: "11. The third Islamic daily prayer is\n(BECE 2000 Q14)",
-          options: ["Asr.", "Zuhr.", "Fajr.", "Maghrib."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Asr is the third of the five compulsory daily prayers in Islam."),
-      QuizQuestion(
-          question:
-              "12. To become a Christian, one must first\n(BECE 2000 Q16)",
-          options: [
-            "Say the Lord's prayer.",
-            "Recite the Apostle's creed.",
-            "Be confirmed.",
-            "Be baptized."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Baptism is the Christian rite of initiation into the faith."),
-      QuizQuestion(
-          question:
-              "13. How many times do Muslims go round the Ka'ba during Hajj?\n(BECE 2001 Q17)",
-          options: ["Four times.", "Five times.", "Seven times.", "Ten times."],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Pilgrims perform Tawaf by circling the Ka'ba seven times."),
-      QuizQuestion(
-          question:
-              "14. In traditional society, taboos help people to\n(BECE 2002B Q14)",
-          options: [
-            "Behave well.",
-            "Believe in their god.",
-            "Know their God.",
-            "Perform sacrifices."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Taboos regulate behaviour and promote discipline within society."),
-      QuizQuestion(
-          question:
-              "15. Which of the religion believes that God moved from the earth because of the activities of mankind?\n(BECE 2000 Q13)",
-          options: ["Christianity", "Islam", "Traditionalist", "Hinduism"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "African Traditional Religion teaches that God withdrew from human beings because of their wrongdoing."),
-      QuizQuestion(
-          question:
-              "16. The pillar of faith in Islam which expresses charity is\n(BECE 2000 Q9)",
-          options: ["Salat.", "Sawn.", "Zakat.", "Kalimat."],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Zakat is the pillar of Islam that requires Muslims to give charity to the poor and needy."),
-      QuizQuestion(
-          question: "17. Salat is to prayer as charity is to\n(BECE 2001 Q10)",
-          options: ["Zakat", "Shahadah", "Sawn", "Hajj"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Zakat refers to the compulsory giving of charity in Islam."),
-      QuizQuestion(
-          question:
-              "18. The Muslim prayer observed between Asr and Isha is\n(BECE 1999 Q5)",
-          options: ["Zuhr", "Jumu'ah", "Idd", "Maghrib"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Maghrib is the prayer offered immediately after sunset, between Asr and Isha."),
-      QuizQuestion(
-          question:
-              "19. Muslims pray five times a day in order to\n(BECE 2000 Q10)",
-          options: [
-            "Be known in the community.",
-            "Avoid evil and bad actions.",
-            "Dominate world affairs.",
-            "Be role models in society."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Regular prayer helps Muslims avoid sinful acts and remain conscious of Allah."),
-      QuizQuestion(
-          question: "20. Kente weaving is popular among the\n(BECE 1999 Q13)",
-          options: ["Asante.", "Kwebu.", "Fante.", "Akwapim."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Kente weaving originated among the Asante people of Ghana."),
-      QuizQuestion(
-          question:
-              "21. Uthman B. Affan standardized the Qur'an in order to\n(BECE 2000 Q19)",
-          options: [
-            "Bring it into one volume.",
-            "Avoid the omission of some verse.",
-            "Give the Qur'an the same reading.",
-            "Stop the fighting among Muslims."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Caliph Uthman standardized the Qur'an to ensure a uniform recitation throughout the Muslim community."),
-      QuizQuestion(
-          question:
-              "22. The system by which a drink is poured to the gods and the Supreme beings is known as\n(BECE 2000 Q18)",
-          options: ["Sacrifice", "Thankfulness", "Worship", "Libation"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Libation is the ritual pouring of drink as an offering to God, deities and ancestors."),
-      QuizQuestion(
-          question:
-              "23. Christians believe in Jesus Christ because He\n(BECE 2002A Q8)",
-          options: [
-            "Was given birth to by a virgin.",
-            "Came to save humankind from their sins.",
-            "Overcame death on the holy cross.",
-            "Could perform many miracle."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Christians believe Jesus came to save humanity from sin through His death and resurrection."),
-      QuizQuestion(
-          question:
-              "24. Palm Sunday is celebrated to mark the\n(BECE 2002A Q11)",
-          options: [
-            "Birth of Christ.",
-            "Outpouring of the Holy Spirit.",
-            "Joyful journey of Jesus into Jerusalem.",
-            "Resurrection of Jesus from the dead."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
-      QuizQuestion(
-          question:
-              "25. The traditionalist believes that destiny can be changed if he\n(BECE 2002A Q13)",
-          options: [
-            "Is born again into Christianity.",
-            "Could consult the gods.",
-            "Become a wizard.",
-            "Is well educated."
-          ],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Traditional believers hold that consulting the gods can influence or change one's destiny."),
-      QuizQuestion(
-          question:
-              "26. The best way to pray during worship is to\n(BECE 2002A Q17)",
-          options: [
-            "Face the east and in reverence.",
-            "Kneel with arms open.",
-            "Be humble and sincere.",
-            "Remove your sandals."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "True worship requires humility and sincerity rather than outward posture."),
-      QuizQuestion(
-          question:
-              "27. The Islamic practice by which wealthy Muslims show concern for the poor and needy is\n(BECE 2002A Q18)",
-          options: ["Tawaf", "Zakat", "Hajj", "Salat"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Zakat is the compulsory charity that supports the poor and needy."),
-      QuizQuestion(
-          question: "28. A Muslim performs Tayammum when he\n(BECE 2002A Q20)",
-          options: [
-            "Is late to the mosque.",
-            "Is about to marry.",
-            "Cannot find water.",
-            "Meets the Imam in the mosque."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Tayammum is dry ablution performed when water is unavailable or cannot be used."),
-      QuizQuestion(
-          question:
-              "29. Which of the following is not a revealed book in Islam?\n(BECE 2002B Q10)",
-          options: ["Hadith", "Injil", "Zabur", "Taurah"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Hadith contains the sayings and actions of Prophet Muhammad and is not one of the revealed scriptures."),
-      QuizQuestion(
-          question:
-              "30. Zuhr is one of the five compulsory prayers of Muslims which is observed\n(BECE 2002B Q11)",
-          options: [
-            "From dawn to sunshine.",
-            "When the sun is high in the sky.",
-            "Late in the afternoon.",
-            "An hour after sunset."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Zuhr is the midday prayer, observed after the sun passes its highest point."),
-      QuizQuestion(
-          question:
-              "31. All the three main religions in Ghana believe\n(BECE 2002B Q12)",
-          options: [
-            "In ancestral worship.",
-            "That God is everywhere.",
-            "In being saved for salvation.",
-            "That dwarfs exist in forests."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Christianity, Islam and African Traditional Religion all believe that God is omnipresent."),
-      QuizQuestion(
-          question:
-              "32. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
-          options: [
-            "Be tolerant and intelligent.",
-            "Become steadfast and patriotic.",
-            "Have humor and peace.",
-            "Become clean and upright in life."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Regular prayer develops spiritual discipline and encourages upright living."),
-      QuizQuestion(
-          question:
-              "33. The Traditional believer communicates with God through\n(BECE 2002B Q16)",
-          options: [
-            "Sacrifices.",
-            "Purification rites.",
-            "Libation.",
-            "Spirit possessions."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Libation is a common means by which traditional believers communicate with God, the gods and the ancestors."),
-      QuizQuestion(
-          question:
-              "34. The essence of the holy communion is to\n(BECE 2002B Q17)",
-          options: [
-            "Give thanks to God.",
-            "Remember Christian fellowship.",
-            "Remember the saving act of Jesus.",
-            "Remember Jesus's teaching on sharing."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Holy Communion commemorates the sacrificial death of Jesus Christ for the salvation of humanity."),
-      QuizQuestion(
-          question:
-              "35. The Islamic practice of committing the whole Qur'an to memory is\n(BECE 2002B Q19)",
-          options: ["Hudah.", "Hafiz.", "Qurra.", "Tadjwid."],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "A Hafiz is a Muslim who has memorized the entire Qur'an."),
-      QuizQuestion(
-          question:
-              "36. Traditional believers wear charms or talisman\n(BECE 2003 Q8)",
-          options: [
-            "To look attractive.",
-            "For special protection.",
-            "To be able to fight in the market.",
-            "For longer life."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Charms and talismans are traditionally believed to provide spiritual protection."),
-      QuizQuestion(
-          question:
-              "37. Fishermen all over the country do not go to sea on\n(BECE 2003 Q9)",
-          options: ["Tuesday.", "Friday.", "Saturday.", "Sunday."],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "According to the provided BECE source, Friday is observed as the day fishermen do not go to sea."),
-      QuizQuestion(
-          question:
-              "38. To the traditional believers, the next in importance to the Supreme Being are the\n(BECE 2003 Q20)",
-          options: [
-            "Lesser gods.",
-            "Earth goddess.",
-            "Ancestral spirits.",
-            "Spirits in plants and animals."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "In African Traditional Religion, the lesser gods are regarded as next in importance after the Supreme Being."),
-      QuizQuestion(
-          question:
-              "39. In the traditional society, giving birth to a child is considered as a\n(BECE 2003 Q24)",
-          options: ["Privilege.", "Responsibility.", "Right.", "Virtue."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Having children is regarded as a privilege and a blessing in traditional society."),
-      QuizQuestion(
-          question:
-              "40. When Fatimah and Mensah are committed to each other in friendship, they are prepared to\n(BECE 2003 Q26)",
-          options: [
-            "Worship God sincerely.",
-            "Write an examination together.",
-            "Run away from evil.",
-            "Share their wealth and poverty together."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "True friendship involves standing by one another in both prosperity and hardship."),
-      QuizQuestion(
-          question:
-              "41. Anyone who enters a house is expected to first\n(BECE 2003 Q27)",
-          options: [
-            "Ask for water.",
-            "Remove his sandals.",
-            "Offer greetings.",
-            "Ask for a seat."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Greeting people upon entering a house is a sign of respect and good manners."),
-      QuizQuestion(
-          question:
-              "42. The Holy Qur'an describes angels as creatures who\n(BECE 2004 Q5)",
-          options: [
-            "Anoint prophets and messengers of Allah.",
-            "Punish wrong doers on the judgment day.",
-            "Act on the orders of Allah.",
-            "Lead the faithful to observe the Hajj."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Angels are obedient servants of Allah who carry out His commands."),
-      QuizQuestion(
-          question:
-              "43. Which of the following acts in Islam promotes good neighbourliness, love and brotherhood?\n(BECE 2004 Q6)",
-          options: ["Hajj", "Asr", "Salat", "Ramadan"],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Congregational Salat promotes unity, brotherhood and good neighbourliness among Muslims."),
-      QuizQuestion(
-          question:
-              "44. The Muslim prayer observed after sunset is\n(BECE 2004 Q7)",
-          options: ["Maghrib.", "Asr.", "Zuhr.", "Fajr."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Maghrib is the obligatory prayer performed immediately after sunset."),
-      QuizQuestion(
-          question:
-              "45. To the traditional believer, the transition from the physical to the spiritual world occurs through\n(BECE 2004 Q11)",
-          options: ["Naming.", "Birth.", "Death.", "Puberty."],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Death marks the transition from the physical world to the spiritual world in African Traditional Religion."),
-      QuizQuestion(
-          question:
-              "46. All religions teach mankind to see the ______ of the earth and to\n(BECE 2004 Q13)",
-          options: [
-            "Farm on it.",
-            "Build on it.",
-            "Care for it.",
-            "Make it fertile."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "All religions teach that human beings are stewards of the earth and should care for it."),
-      QuizQuestion(
-          question:
-              "47. There is no god but Allah and Muhammed is the messenger of Allah. This represents the\n(BECE 2004 Q14)",
-          options: ["Shahadah.", "Iqamah.", "Adhan.", "Sunnah."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "The Shahadah is the Islamic declaration of faith."),
-      QuizQuestion(
-          question: "48. Capital punishment is meant to\n(BECE 2006 Q39)",
-          options: [
-            "Rehabilitate offenders.",
-            "Punishing offenders out of revenge.",
-            "Protecting the good people in society.",
-            "Helping offenders to become better persons."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Capital punishment is intended to protect society from dangerous offenders."),
-      QuizQuestion(
-          question:
-              "49. The need for repentance is expressed in the parable of the\n(BECE 2007 Q31)",
-          options: [
-            "Sower.",
-            "Mustard seed.",
-            "Good Samaritan.",
-            "Prodigal son."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "The Parable of the Prodigal Son teaches repentance, forgiveness and God's mercy."),
-      QuizQuestion(
-          question:
-              "50. Which of the following is not a punishment in schools?\n(BECE 2008 Q25)",
-          options: ["Bad testimonial", "Banishment", "Flogging", "Reprimand"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Banishment is not a normal disciplinary measure used in schools."),
-      QuizQuestion(
-          question:
-              "51. One effect of corruption in society is that it\n(BECE 2008 Q29)",
-          options: [
-            "Makes people rich.",
-            "Provides jobs for people.",
-            "Helps the country to develop.",
-            "Puts wrong people in positions."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Corruption often results in unqualified people occupying important positions."),
-      QuizQuestion(
-          question:
-              "52. Dumping of refuse at residential areas is dangerous because it may\n(BECE 2008 Q32)",
-          options: [
-            "Result in soil erosion.",
-            "Reduce plant species.",
-            "Cause damage to houses.",
-            "Lead to disease outbreak."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Improper refuse disposal creates breeding grounds for disease-causing organisms, leading to disease outbreaks."),
+question:
+"1. The system by which a drink is poured to the gods and the Supreme beings is known as\n(BECE 2000 Q18)",
+options: ["Sacrifice", "Thankfulness", "Worship", "Libation"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Libation is the pouring of a drink as a form of traditional prayer or worship."),
+  QuizQuestion(
+      question:
+          "2. The pillar of faith in Islam which expresses charity is\n(BECE 2000 Q9)",
+      options: ["Salat", "Sawn", "Zakat", "Kalimat"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Zakat is the compulsory charitable giving required of qualified Muslims."),
+
+  QuizQuestion(
+      question:
+          "3. Mourners from the cemetery wash their hands before entering funeral house again to\n(BECE 1999 Q11)",
+      options: [
+        "Break relations with the dead",
+        "Shows that they are among the living",
+        "Announce their return from the cemetery",
+        "Cleanse themselves from any curse"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The washing is traditionally understood as ritual cleansing after returning from the cemetery."),
+
+  QuizQuestion(
+      question:
+          "4. The rite of throwing stones at the pillars during the Hajj signifies the\n(BECE 1999 Q19)",
+      options: [
+        "Exercising of the body",
+        "Victory over the devil",
+        "Preparing to fight the enemies",
+        "Security of the holy place"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The stoning ritual symbolizes rejection of Satan and victory over temptation."),
+
+  QuizQuestion(
+      question:
+          "5. Muslim's last respect to the dead is by\n(BECE 1999 Q8)",
+      options: [
+        "Offering Janazah",
+        "Burial with a coffin",
+        "Dressing the corpse in suit",
+        "Sacrificing a ram"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the Islamic funeral prayer offered for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "6. To become a Christian, one must first\n(BECE 2000 Q6)",
+      options: [
+        "Say the Lord's prayer",
+        "Recite the Apostle's creed",
+        "Be confirmed",
+        "Be baptized"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Baptism is an important Christian initiation rite."),
+
+  QuizQuestion(
+      question:
+          "7. All the religions in Ghana believe in\n(BECE 1999 Q4)",
+      options: [
+        "Jesus Christ",
+        "The Bible",
+        "The prophet Mohammed",
+        "The supreme God"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all affirm belief in a Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "8. The Islamic practice where wealthy Muslims cater for the needs of the poor and needy is\n(BECE 1999 Q6)",
+      options: ["Hajj", "Zakat", "Ihram", "Mahr"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat supports the poor and needy through required charitable giving."),
+
+  QuizQuestion(
+      question:
+          "9. Muslims pray five times a day in order to\n(BECE 2000 Q10)",
+      options: [
+        "Be known in the community",
+        "Avoid evil and bad actions",
+        "Dominate world affairs",
+        "Be role models in society"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Regular prayer helps Muslims remain conscious of Allah and avoid wrongdoing."),
+
+  QuizQuestion(
+      question:
+          "10. Which of the following months is also (special) occasion on the Islamic calendar?\n(BECE 1999 Q14)",
+      options: ["Rajab", "Ramadan", "Sha'ban", "Shawal"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ramadan is the special Islamic month of fasting."),
+
+  QuizQuestion(
+      question:
+          "11. Akwesidae according to the Akan calendar is\n(BECE 2001 Q11)",
+      options: [
+        "A day that marks the beginning of the month",
+        "The first Sunday that marks the beginning of the month",
+        "The Sunday that marks the 42nd day of the month",
+        "A day on which the Golden stool descended"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Akwasidae is observed according to the Akan forty-two-day traditional calendar cycle."),
+
+  QuizQuestion(
+      question:
+          "12. Uthman B. Affan standardized the Qur'an in order to\n(BECE 2000 Q19)",
+      options: [
+        "Bring it into one volume",
+        "Avoid the omission of some verse",
+        "Give the Qur'an the same reading",
+        "Stop the fighting among Muslims"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Uthman standardized copies of the Qur'an to ensure uniform recitation and reading."),
+
+  QuizQuestion(
+      question:
+          "13. The third Islamic daily prayer is\n(BECE 2000 Q4)",
+      options: ["Asr", "Zuhr", "Fajr", "Maghrib"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The daily order is Fajr, Zuhr, Asr, Maghrib and Isha."),
+
+  QuizQuestion(
+      question:
+          "14. The burial of pieces of hair, fingernails and toenails of a corpse at his hometown signifies that\n(BECE 1999 Q10)",
+      options: [
+        "There is life after death",
+        "The spirit has contact with the living",
+        "Lesser gods want the spirit",
+        "Witches are powerful in one's hometown"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects traditional belief in continued existence after physical death."),
+
+  QuizQuestion(
+      question:
+          "15. Traditional religion is practiced in order to\n(BECE 2001 Q7)",
+      options: [
+        "Instill discipline",
+        "Worship idols",
+        "Preserve African culture",
+        "Disregard other religions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion helps preserve indigenous beliefs, customs and culture."),
+
+  QuizQuestion(
+      question:
+          "16. The first book in the Bible is called\n(BECE 2000 Q20)",
+      options: ["Genesis", "Deuteronomy", "Exodus", "Revelation"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Genesis is the first book of the Bible."),
+
+  QuizQuestion(
+      question:
+          "17. Palm Sunday is observed by Christians to remember the\n(BECE 1999 Q2)",
+      options: [
+        "Birth and baptism of Christ",
+        "Resurrection and appearance of Christ",
+        "Joyful journey of Christ into Jerusalem",
+        "Baptism of the Holy Spirit"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "18. Among the Asante, farming is not done on Thursday because\n(BECE 1999 Q11)",
+      options: [
+        "The soil becomes fertile on this day",
+        "Wild animals come out on this day",
+        "It is specially reserved for the ancestors",
+        "It is the day of the earth goddess"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Thursday is traditionally associated with the earth goddess and may be observed as a farming taboo."),
+
+  QuizQuestion(
+      question:
+          "19. The essence of the Ramadan to Muslims is to\n(BECE 1999 Q20)",
+      options: [
+        "Keep the body fit",
+        "Save food",
+        "Make one become used to hunger",
+        "Guard against evil"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Fasting during Ramadan promotes self-control and helps Muslims guard against evil."),
+
+  QuizQuestion(
+      question:
+          "20. Which of the religion believes that God moved from the earth because of the activities of mankind?\n(BECE 2000 Q2)",
+      options: ["Christianity", "Islam", "Traditionalist", "Hinduism"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Some African Traditional creation stories explain God's distance from humans through human actions."),
+
+  QuizQuestion(
+      question:
+          "21. Kente weaving is popular among the\n(BECE 1999 Q33)",
+      options: ["Asante", "Kwehu", "Fante", "Akwapim"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Kente weaving is strongly associated with the Asante people."),
+
+  QuizQuestion(
+      question:
+          "22. It is believed that burying the dead with money helps him to\n(BECE 1999 Q16)",
+      options: [
+        "Pay his debtors in the spiritual world",
+        "Pay for his fare to cross the river to the other world",
+        "Pay the ancestors for welcoming him",
+        "Take care of his needs"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects a traditional belief that the deceased may need payment for the journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "23. The Muslim prayer observed between Asr and Isha is\n(BECE 1999 Q5)",
+      options: ["Zuhr", "Jumu'ah", "Idd", "Maghrib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is observed after sunset, between Asr and Isha."),
+
+  QuizQuestion(
+      question:
+          "24. Salat is to prayer as charity is to\n(BECE 2001 Q10)",
+      options: ["Zakat", "Shahadah", "Sawn", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Salat means prayer, while Zakat refers to obligatory charity."),
+
+  QuizQuestion(
+      question:
+          "25. The act of going round the Ka'ba seven times during the Hajj teaches\n(BECE 1999 Q15)",
+      options: ["Bravery", "Cleanliness", "Humility", "Endurance"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tawaf requires perseverance and therefore teaches endurance."),
+
+  QuizQuestion(
+      question:
+          "26. The main role of angels in Islam is to\n(BECE 2001 Q15)",
+      options: [
+        "Reveal Allah's orders and messages to His Prophets",
+        "Help Allah's Prophets to understand the Qur'an",
+        "Explain dreams to the people",
+        "Give spiritual power for the writing of the Qur'an"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Angels serve Allah and communicate His messages to prophets."),
+
+  QuizQuestion(
+      question:
+          "27. How many times do Muslims go round the Ka'ba during Hajj?\n(BECE 2001 Q16)",
+      options: ["1", "3", "5", "7"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Muslims perform seven circuits around the Ka'ba during Tawaf."),
+
+  QuizQuestion(
+      question:
+          "28. Which of the following pair of games can best make the child wise and strong?\n(BECE 2001 Q28)",
+      options: [
+        "Riddles and oware",
+        "Ampe and quizzes",
+        "Tug-of-war and wrestling",
+        "Oware and quizzes"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Riddles develop reasoning while oware develops strategic thinking."),
+
+  QuizQuestion(
+      question:
+          "29. All the three main religions in Ghana believe strongly in\n(BECE 2002A Q3)",
+      options: ["Angels", "Ancestors", "Destiny", "Righteousness"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all promote righteous living."),
+
+  QuizQuestion(
+      question:
+          "30. One of the main reasons why Christians pray is to ask God to\n(BECE 2002A Q4)",
+      options: [
+        "Let them fight their enemies",
+        "Forgive them their sins",
+        "Draw them closer to their friends",
+        "Give them more wealth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christians pray for forgiveness of sins among other reasons."),
+
+  QuizQuestion(
+      question:
+          "31. In Islam a Muslim must offer prayers\n(BECE 2002A Q6)",
+      options: ["Six times daily", "Five times daily", "Four times daily", "Three times daily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims perform five obligatory daily prayers."),
+
+  QuizQuestion(
+      question:
+          "32. Traditional believer sacrifices when he\n(BECE 2002A Q7)",
+      options: [
+        "Pours libation to the gods",
+        "Offers food and living things to the gods",
+        "Sings dirges to the dead",
+        "Wins a fortune"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sacrifice involves presenting food, animals or other offerings to spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "33. Christians believe in Jesus Christ because He\n(BECE 2002A Q8)",
+      options: [
+        "Was given birth to by a virgin",
+        "Came to save humankind from their sins",
+        "Overcame death on the holy cross",
+        "Could perform many miracle"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christian belief centres on Jesus as the saviour from sin."),
+
+  QuizQuestion(
+      question:
+          "34. Palm Sunday is celebrated to mark the\n(BECE 2002A Q11)",
+      options: [
+        "Birth of Christ",
+        "Outpouring of the Holy Spirit",
+        "Joyful journey of Jesus into Jerusalem",
+        "Resurrection of Jesus from the dead"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "35. The traditionalist believes that destiny can be changed if he\n(BECE 2002A Q13)",
+      options: [
+        "Is born again into Christianity",
+        "Could consult the gods",
+        "Become a wizard",
+        "Is well educated"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief may involve consulting divinities concerning destiny and misfortune."),
+
+  QuizQuestion(
+      question:
+          "36. The best to pray during worship is to\n(BECE 2002A Q17)",
+      options: [
+        "Face the east and in reverence",
+        "Knee with arms open",
+        "Be humble and sincere",
+        "Remove your sandals"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Humility and sincerity are important attitudes in prayer."),
+
+  QuizQuestion(
+      question:
+          "37. The Islamic practice by which wealthy Muslims show concern for the poor and needy is\n(BECE 2002A Q18)",
+      options: ["Tawaf", "Zakat", "Hajj", "Salat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides support for poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "38. A Muslim performs Tayamum when he\n(BECE 2002A Q20)",
+      options: [
+        "Is late to the mosque",
+        "Is about to marry",
+        "Cannot find water",
+        "Meets the Imam in the mosque"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tayammum is dry purification used when water is unavailable or cannot be used."),
+
+  QuizQuestion(
+      question:
+          "39. Which of the following is not a revealed book in Islam?\n(BECE 2002B Q10)",
+      options: ["Hadith", "Injil", "Zabur", "Taurah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hadith contains reports about Prophet Mohammed and is not one of the revealed scriptures."),
+
+  QuizQuestion(
+      question:
+          "40. Zuhr is one of the five compulsory prayers of Muslims which is observed\n(BECE 2002B Q11)",
+      options: [
+        "From dawn to sunshine",
+        "When the sun is high in the sky",
+        "Late in the afternoon",
+        "An hour after sunset"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zuhr is the midday or early afternoon prayer."),
+
+  QuizQuestion(
+      question:
+          "41. All the three main religions in Ghana believe\n(BECE 2002B Q12)",
+      options: [
+        "In ancestral worship",
+        "That God is everywhere",
+        "In being saved for salvation",
+        "That dwarfs exist in forests"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The three major religions teach belief in God's universal presence."),
+
+  QuizQuestion(
+      question:
+          "42. In traditional society, taboos help people to\n(BECE 2002B Q14)",
+      options: [
+        "Behave well",
+        "Believe in their god",
+        "Know their God",
+        "Perform sacrifices"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Taboos regulate behaviour and promote accepted moral conduct."),
+
+  QuizQuestion(
+      question:
+          "43. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
+      options: [
+        "Be tolerant and intelligent",
+        "Become steadfast and patriotic",
+        "Have humor and peace",
+        "Become clean and upright in life"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Regular prayer promotes spiritual discipline, purity and upright living."),
+
+  QuizQuestion(
+      question:
+          "44. The Traditional believer communicates with God through\n(BECE 2002B Q16)",
+      options: [
+        "Sacrifices",
+        "Purification rites",
+        "Libation",
+        "Spirit possessions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a major traditional form of prayer and communication with spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "45. The essence of the holy communion is to\n(BECE 2002B Q17)",
+      options: [
+        "Give thanks to God",
+        "Remember Christian fellowship",
+        "Remember the saving act of Jesus",
+        "Remember Jesus's teaching on sharing"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion commemorates Jesus' sacrificial saving act."),
+
+  QuizQuestion(
+      question:
+          "46. The Islamic practice of committing the whole Qur'an to memory is\n(BECE 2002B Q19)",
+      options: ["Hudah", "Hafiz", "Qurra", "Sunnah"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A Hafiz is a person who has memorized the entire Qur'an."),
+
+  QuizQuestion(
+      question:
+          "47. Like the Jews, Muslims also believe they are descendants of\n(BECE 2003 Q10)",
+      options: ["Abraham", "Isaac", "Moses", "Jacob"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Both Jewish and Islamic traditions trace ancestry to Abraham."),
+
+  QuizQuestion(
+      question:
+          "48. The importance of fasting in Islam is to\n(BECE 2003 Q12)",
+      options: [
+        "Honour the poor and needy",
+        "Guard against evil",
+        "Keep the body feet",
+        "Store food for future use"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fasting develops self-control and helps Muslims guard against sinful behaviour."),
+
+  QuizQuestion(
+      question:
+          "49. The Hadith of the Muslim signifies the\n(BECE 2003 Q14)",
+      options: [
+        "Revelations of the Junnah",
+        "Revelations of Abu Bakr",
+        "Sayings of the Holy Prophet",
+        "Writings of the Holy Prophet"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hadith includes reports of the sayings and actions of Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "50. Which of the following serves as intermediary to God during traditional prayers?\n(BECE 2003 Q15)",
+      options: ["Lesser gods", "Diviners", "Dwarfs", "Herbalist"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lesser gods or divinities are traditionally regarded as intermediaries between humans and the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "51. The rite of going round the Ka'ba seven times during Hajj signifies\n(BECE 2003 Q17)",
+      options: ["Honesty", "Bravery", "Endurance", "Obedience"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The repeated circuits symbolize perseverance and endurance."),
+
+  QuizQuestion(
+      question:
+          "52. Traditional believers wear charms and talisman\n(BECE 2003 Q18)",
+      options: [
+        "To look attractive",
+        "For special protection",
+        "To be able to fight in the market",
+        "For longer life"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Charms and talismans are traditionally worn for spiritual protection."),
+
+  QuizQuestion(
+      question:
+          "53. Fishermen all over the country do not go to sea on\n(BECE 2003 Q19)",
+      options: ["Tuesday", "Friday", "Saturday", "Sunday"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Tuesday is traditionally observed as a non-fishing day in many Ghanaian coastal communities."),
+
+  QuizQuestion(
+      question:
+          "54. To the traditional believers, the next in importance to the Supreme Being are the\n(BECE 2003 Q20)",
+      options: [
+        "Lesser gods",
+        "Earth goddess",
+        "Ancestral spirits",
+        "Spirits in plants and animals"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lesser gods or divinities occupy an important position below the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "55. In the traditional society, giving birth to a child is considered as a\n(BECE 2003 Q24)",
+      options: ["Privilege", "Responsibility", "Right", "Virtue"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Childbirth is traditionally regarded as a valued privilege and blessing."),
+
+  QuizQuestion(
+      question:
+          "56. When Fatimah and Mensah are committed to each other in friendship, they are prepared to\n(BECE 2003 Q26)",
+      options: [
+        "Worship God sincerely",
+        "Write an examination together",
+        "Run away from evil",
+        "Share their wealth and poverty together"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Commitment in friendship involves supporting one another in good and difficult times."),
+
+  QuizQuestion(
+      question:
+          "57. Anyone who enters a house is expected to first\n(BECE 2003 Q27)",
+      options: [
+        "Ask for water",
+        "Remove his sandals",
+        "Offer greetings",
+        "Ask for a seat"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Offering greetings is an important sign of courtesy and respect."),
+
+  QuizQuestion(
+      question:
+          "58. The Holy Qur'an describes angels as creatures who\n(BECE 2004 Q5)",
+      options: [
+        "Anoint prophets and messengers of Allah",
+        "Punish wrong doers on the judgment day",
+        "Act on the orders of Allah",
+        "Lead the faithful to observe the Hajj"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Angels obey and carry out Allah's commands."),
+
+  QuizQuestion(
+      question:
+          "59. Which of the following acts in Islam promotes good neighbourliness, love and brotherhood?\n(BECE 2004 Q6)",
+      options: ["Hajj", "Asr", "Salat", "Ramadan"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Hajj brings Muslims from different backgrounds together and promotes unity and brotherhood."),
+
+  QuizQuestion(
+      question:
+          "60. The Muslim prayer observed after sunset is\n(BECE 2004 Q7)",
+      options: ["Maghrib", "Asr", "Zuhr", "Fajr"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is performed shortly after sunset."),
+
+  QuizQuestion(
+      question:
+          "61. To the traditional believer, the change from the physical to the spiritual life occurs through\n(BECE 2004 Q9)",
+      options: ["Naming", "Birth", "Death", "Puberty"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Death is understood as a transition from physical existence to spiritual existence."),
+
+  QuizQuestion(
+      question:
+          "62. All religions teach mankind to be steward of the earth and to\n(BECE 2004 Q12)",
+      options: ["Farm on it", "Build on it", "Care for it", "Make it fertile"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Stewardship means responsibly caring for the earth and its resources."),
+
+  QuizQuestion(
+      question:
+          "63. \"There is no god but God, and Mohammed is the messenger of God\", this is known as the\n(BECE 2004 Q13)",
+      options: ["Shahadah", "Iqamah", "Adhan", "Sunnah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah is the Islamic declaration of faith."),
+
+  QuizQuestion(
+      question:
+          "64. In traditional society, the dead is buried with money to ensure that he\n(BECE 2004 Q17)",
+      options: [
+        "Deceased can pay the fare to the other world",
+        "Deceased can pay the gods and ancestors for protection",
+        "Spirit of the deceased does not attack family members",
+        "Family members are blessed with riches"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects belief that the deceased needs money for the journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "65. God has no human face in\n(BECE 2004 Q18)",
+      options: [
+        "Islam and Christianity",
+        "Islam and Traditional religion",
+        "Traditional religion and Christianity",
+        "Islam, Traditional religion and Christianity"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The three religions understand God as transcending ordinary human form."),
+
+  QuizQuestion(
+      question:
+          "66. The three main religions in Ghana believe in\n(BECE 2005 Q3)",
+      options: [
+        "Ancestors and witches",
+        "Holy scriptures",
+        "Angels and smaller gods",
+        "A supreme being"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all affirm a Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "67. For a man to greet an Akan chief, he must\n(BECE 2005 Q6)",
+      options: [
+        "Raise hands and bow down",
+        "Raise hands and pass by",
+        "Remove sandals and kneel down",
+        "Remove sandals and lower the cloth"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional Akan etiquette requires a man to show humility by removing his sandals and lowering his cloth."),
+
+  QuizQuestion(
+      question:
+          "68. Muslims throw stones during Hajj to\n(BECE 2005 Q7)",
+      options: [
+        "Keep Satan away from their lives",
+        "Commemorate Hagar's departure",
+        "Help them celebrate the Id-il-Adha",
+        "Remember Abraham's temptation"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The ritual symbolizes rejecting Satan and resisting temptation."),
+
+  QuizQuestion(
+      question:
+          "69. According to the Qur'an, a proud person\n(BECE 2005 Q11)",
+      options: [
+        "Never thinks he is better than others",
+        "Respects the opinion of others",
+        "Value the experiences of other people",
+        "Likes to tell other people what to do"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Pride may be expressed through controlling or looking down on other people."),
+
+  QuizQuestion(
+      question:
+          "70. The Bible teaches that people in authority must be\n(BECE 2005 Q13)",
+      options: ["Praised", "Served", "Respected", "Proud"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christian teaching encourages appropriate respect for legitimate authority."),
+
+  QuizQuestion(
+      question:
+          "71. The Janazah prayer is performed\n(BECE 2005 Q14)",
+      options: [
+        "During Friday prayers",
+        "When a Muslim die",
+        "When a Muslim is travelling",
+        "After the Ramadan fast"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the funeral prayer for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "72. The purpose of Salat is to enable a Muslim\n(BECE 2005 Q16)",
+      options: [
+        "Travel to Mecca",
+        "Have a pure heart",
+        "Become an Imam",
+        "Prepare for the Ramadan fast"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular Salat promotes spiritual purity and consciousness of Allah."),
+
+  QuizQuestion(
+      question:
+          "73. The traditional belief that the child needs no one to show him God means\n(BECE 2005 Q17)",
+      options: [
+        "God is with the child",
+        "God exists",
+        "The child knows God",
+        "The child talks of God"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The saying expresses the traditional belief that awareness of God is natural and innate."),
+
+  QuizQuestion(
+      question:
+          "74. The ninety-nine names of God can be found only in\n(BECE 2006 Q3)",
+      options: [
+        "Christianity and Islam",
+        "Christianity",
+        "Islam",
+        "African Traditional Religion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Islam traditionally recognizes the ninety-nine beautiful names of Allah."),
+
+  QuizQuestion(
+      question:
+          "75. Trial by ordeal is a traditional practice whereby a person is\n(BECE 2006 Q4)",
+      options: [
+        "Summoned to a chief's palace",
+        "Proved innocent through painful test",
+        "Brought before a traditional priest",
+        "Accused of breaking state taboos"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Trial by ordeal traditionally tests guilt or innocence through a difficult or painful procedure."),
+
+  QuizQuestion(
+      question:
+          "76. Zakat is practice by which Muslim\n(BECE 2006 Q8)",
+      options: [
+        "Pray five times a day",
+        "Show concern for the poor",
+        "Offer sacrifice to Allah",
+        "Travel to Mecca every year"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides financial support for poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "77. The teaching of Mohammed is found in the\n(BECE 2006 Q12)",
+      options: ["Kalima", "Qur'an", "Hadith", "Sura"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Hadith records teachings, sayings and actions associated with Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "78. After the Isha prayer in the month of Ramadan, Muslims perform\n(BECE 2006 Q15)",
+      options: ["Tahajjud", "Fajr", "Tarawih", "Istisquah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tarawih prayers are performed at night during Ramadan after Isha."),
+
+  QuizQuestion(
+      question:
+          "79. A common feature of traditional prayer is that\n(BECE 2006 Q20)",
+      options: [
+        "Gods are always praised",
+        "People pray for other",
+        "Enemies are often cursed",
+        "People confess their sins to gods"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Some traditional prayers may include curses directed at enemies or wrongdoers."),
+
+  QuizQuestion(
+      question:
+          "80. Dirges are sung during\n(BECE 2006 Q35)",
+      options: ["Harvesting", "Outdoorings", "Funerals", "Festivals"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dirges are mourning songs commonly performed at funerals."),
+
+  QuizQuestion(
+      question:
+          "81. Isaac prayed for his wife Rebecca because, she\n(BECE 2007 Q6)",
+      options: [
+        "Had twins in her womb",
+        "Did not believe in God's promises",
+        "Suffered from her pregnancy",
+        "Was a barren woman"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Isaac prayed because Rebekah was unable to have children."),
+
+  QuizQuestion(
+      question:
+          "82. The practice whereby a Muslim gives a certain percentage of his wealth to the needy is called\n(BECE 2007 Q7)",
+      options: ["Sadaqah", "Zakat", "Hajj", "Sawn"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat is obligatory charitable giving based on qualifying wealth."),
+
+  QuizQuestion(
+      question:
+          "83. The belief in the oneness of Allah is known as\n(BECE 2007 Q11)",
+      options: ["Salat", "Tawhid", "Tawaf", "Zakat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tawhid is the Islamic doctrine of the oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "84. Muslims fast in the month of Ramadan in order to\n(BECE 2007 Q12)",
+      options: [
+        "Save food",
+        "Guard against evil",
+        "Keep the body fit",
+        "Honour the poor and needy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fasting develops self-control and helps believers guard against evil."),
+
+  QuizQuestion(
+      question:
+          "85. Constant prayers are offered among Muslims to enable them to\n(BECE 2007 Q14)",
+      options: [
+        "Be tolerant and clean",
+        "Become upright in life",
+        "Have humour and love",
+        "Become steadfast and patriotic"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer encourages upright and disciplined living."),
+
+  QuizQuestion(
+      question:
+          "86. The Holy Communion reminds Christians of Jesus'\n(BECE 2007 Q18)",
+      options: ["Resurrection", "Last supper", "Crucifixion", "Birth"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion recalls Jesus' Last Supper with His disciples."),
+
+  QuizQuestion(
+      question:
+          "87. A proverb is a wise saying meant to\n(BECE 2007 Q37)",
+      options: [
+        "Test people's endurance",
+        "Enrich one's language",
+        "Make people proud",
+        "Sing praises of men"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Proverbs enrich speech and communicate wisdom in concise form."),
+
+  QuizQuestion(
+      question:
+          "88. Folktales are important because, they\n(BECE 2007 Q37)",
+      options: [
+        "Teach about other people",
+        "Teach moral lessons",
+        "Make children happy",
+        "Are loved by grandparents"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Folktales are important tools for teaching moral values."),
+
+  QuizQuestion(
+      question:
+          "89. The main reason why Christians pray is to\n(BECE 2007 Q40)",
+      options: [
+        "Receive daily needs from God",
+        "Have God' protection",
+        "Overcome temptation",
+        "Have fellowship with God"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Prayer enables Christians to maintain fellowship and relationship with God."),
+
+  QuizQuestion(
+      question:
+          "90. The three main religions in Ghana teach that\n(BECE 2008 Q9)",
+      options: [
+        "Spirit plead on our behalf",
+        "Love and honesty are godliness",
+        "God will save the wrong doer",
+        "God is resting after creation"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Love and honesty are important moral values taught by the major religions."),
+
+  QuizQuestion(
+      question:
+          "91. A chapter of the Qur'an is called\n(BECE 2008 Q10)",
+      options: ["Ayah", "Hadith", "Surah", "Sunnah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A chapter of the Qur'an is called a Surah."),
+
+  QuizQuestion(
+      question:
+          "92. The essence of Zakat is to\n(BECE 2008 Q19)",
+      options: [
+        "Cater for the needy",
+        "Offer sacrifice to Allah",
+        "Spread the religion of Islam",
+        "Celebrate the Id festivals"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Zakat helps meet the needs of poor and vulnerable people."),
+
+  QuizQuestion(
+      question:
+          "93. The Gye Nyame symbol of Akans signifies that\n(BECE 2009 Q2)",
+      options: ["Everywhere", "All-powerful", "All-seeing", "All-loving"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Gye Nyame emphasizes the supremacy and power of God."),
+
+  QuizQuestion(
+      question:
+          "94. The oneness of Allah is known as.\n(BECE 2009 Q5)",
+      options: ["Tawhid", "Shahadah", "Shirk", "Tawaf"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Tawhid is belief in the absolute oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "95. Muslim face the east when praying because\n(BECE 2009 Q10)",
+      options: [
+        "The sun rises from the east",
+        "Of the position of the Kabah",
+        "The prophet came from the east",
+        "They believe that Allah is in the east"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims face the direction of the Ka'ba in Mecca during Salat."),
+
+  QuizQuestion(
+      question:
+          "96. Christians call the Friday on which Jesus was crucified Good Friday because, it\n(BECE 2009 Q11)",
+      options: [
+        "Marks the redemption from sin",
+        "Is a day on which they fast",
+        "Marks the beginning of East festivities",
+        "Shows the end of Jesus ministry on earth"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Good Friday commemorates Jesus' sacrificial death, which Christians associate with redemption from sin."),
+
+  QuizQuestion(
+      question:
+          "97. In traditional religion, burying the dead with belongings signifies that\n(BECE 2009 Q15)",
+      options: [
+        "There is life after death",
+        "Items are sent to the spiritual world",
+        "The dead pay for their journey",
+        "There is hunger in the spiritual world"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects belief that existence continues after physical death."),
+
+  QuizQuestion(
+      question:
+          "98. Most Ghanaians name their children after their ancestors. This act reveals their belief in\n(BECE 2009 Q16)",
+      options: ["Child birth", "Reincarnation", "Destiny", "Spiritual power"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Naming children after ancestors may reflect belief in the return or continuity of ancestral identity."),
+
+  QuizQuestion(
+      question:
+          "99. Which of the following religious practices is observed by the three major religions in Ghana?\n(BECE 2009 Q17)",
+      options: ["Ancestral worship", "Animal sacrifice", "Charity", "Fasting"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Charity is encouraged in Christianity, Islam and African Traditional Religion."),
+
+  QuizQuestion(
+      question:
+          "100. The washing of feet, hands and face by Muslims before prayers is known as\n(BECE 2009 Q19)",
+      options: ["Janabah", "Nifas", "Wudu", "Janazah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wudu is the ritual washing performed before Salat."),
+
+  QuizQuestion(
+      question:
+          "101. Story telling is an important event in a traditional home because it\n(BECE 2009 Q39)",
+      options: [
+        "Makes children creative",
+        "Teaches moral lessons",
+        "Keeps children awake",
+        "Brings people together"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Traditional stories are commonly used to teach moral lessons."),
+
+  QuizQuestion(
+      question:
+          "102. The outpouring of the Holy Spirit on Christians is marked by\n(BECE 2011 Q2)",
+      options: ["Ascension", "Resurrection", "Pentecost", "Passover"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Pentecost commemorates the coming of the Holy Spirit upon the disciples."),
+
+  QuizQuestion(
+      question:
+          "103. The congregational prayers observed by Muslims on Friday is\n(BECE 2011 Q3)",
+      options: ["Eid", "Jamah", "Janazah", "Zuhr"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The source uses 'Jamah' for the congregational Friday prayer context."),
+
+  QuizQuestion(
+      question:
+          "104. Islam shows concern for the needy and poor by practising\n(BECE 2011 Q5)",
+      options: ["Sawn", "Zakat", "Salat", "Kalimat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides assistance to poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "105. The Fajr Salat is observed at\n(BECE 2011 Q10)",
+      options: ["Dawn", "Noon", "Night", "Sunset"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fajr is the dawn prayer."),
+
+  QuizQuestion(
+      question:
+          "106. Christians share a common belief that\n(BECE 2011 Q11)",
+      options: [
+        "The Holy Spirit works with fire",
+        "Trust in Jesus Christ brings eternal life",
+        "One should pray to God directly",
+        "One who suffers in life will go to heaven"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christianity teaches that faith in Jesus Christ is associated with salvation and eternal life."),
+
+  QuizQuestion(
+      question:
+          "107. The Islamic institution for reducing poverty is\n(BECE 2011 Q17)",
+      options: ["Zakat", "Salat", "Sawn", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Zakat redistributes wealth to support those in need."),
+
+  QuizQuestion(
+      question:
+          "108. The following practices apply to Traditional Religion except\n(BECE 2011 Q18)",
+      options: ["Libation", "Fasting", "Prayers", "Sacrifices"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation, prayer and sacrifice are common traditional practices; fasting is not generally emphasized in the same way."),
+
+  QuizQuestion(
+      question:
+          "109. The use of sand in the absence of water by a Muslim for purification is\n(BECE 2011 Q20)",
+      options: ["Taharah", "Tashahhud", "Tayammum", "Takbir"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tayammum is purification with clean earth or sand when water is unavailable."),
+
+  QuizQuestion(
+      question:
+          "110. Ablution is done before prayers in order to\n(BECE 2012 Q3)",
+      options: [
+        "Have prayers answered in time",
+        "Ensure purity of the body",
+        "Get closer to Allah",
+        "Win the favour of Allah"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution prepares the worshipper through ritual cleanliness before prayer."),
+
+  QuizQuestion(
+      question:
+          "111. The traditional man wears talismans in order to\n(BECE 2012 Q5)",
+      options: [
+        "Give birth to children",
+        "Become rich",
+        "Seek protection against enemies",
+        "Bring peace and love into his family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Talismans are traditionally believed to provide spiritual protection."),
+
+  QuizQuestion(
+      question:
+          "112. The Holy Communion reminds Christians of Jesus'\n(BECE 2012 Q8)",
+      options: ["Birth", "Crucifixion", "Last supper", "Resurrection"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion commemorates Jesus' Last Supper with His disciples."),
+
+  QuizQuestion(
+      question:
+          "113. Ramadan is the\n(BECE 2012 Q9)",
+      options: [
+        "Feast of sacrifice",
+        "Month of fasting",
+        "Feast of breaking fast",
+        "Month of Hijra"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ramadan is the Islamic month of fasting."),
+
+  QuizQuestion(
+      question:
+          "114. In a prayer of confession, Christians\n(BECE 2012 Q16)",
+      options: [
+        "Adore God who created them",
+        "Say sorry to God for their sins",
+        "Ask for help in times of trouble",
+        "Give thanks for all the gifts they received"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Confession involves acknowledging sins and asking God for forgiveness."),
+
+  QuizQuestion(
+      question:
+          "115. A Muslim is a person who\n(BECE 2012 Q17)",
+      options: [
+        "Comes from Arabia",
+        "Visits Mecca annually",
+        "Submits to the will of Allah",
+        "Recites the Qur'an"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A Muslim is one who submits to the will of Allah."),
+
+  QuizQuestion(
+      question:
+          "116. The combination of the Fajr and Asr Prayers makes\n(BECE 2012 Q19)",
+      options: [
+        "Two rakats",
+        "Five rakats",
+        "Six rakats",
+        "Eight rakats"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Fajr has two rakats and Asr has four, giving a total of six."),
+
+  QuizQuestion(
+      question:
+          "117. The Janazah prayer is performed\n(BECE 2013 Q4)",
+      options: [
+        "When a Muslim is travelling",
+        "During Friday worship",
+        "After a Ramadan worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is performed for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "118. The outpouring of the Holy Spirit on Christians occurred during the\n(BECE 2013 Q5)",
+      options: ["Ascension", "Passover", "Pentecost", "Resurrection"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Holy Spirit came upon the disciples at Pentecost."),
+
+  QuizQuestion(
+      question:
+          "119. The teachings of Prophet Mohammed are found in\n(BECE 2013 Q9)",
+      options: ["Hadith", "Ijma", "Kalima", "Sura"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hadith preserves reports of Mohammed's teachings and actions."),
+
+  QuizQuestion(
+      question:
+          "120. Zakat is important in Islam because it\n(BECE 2013 Q13)",
+      options: [
+        "Is mentioned in the Qur'an",
+        "Is paid by the wealthy",
+        "Is a religious form of taxation",
+        "Reduce the suffering of the poor"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A central social purpose of Zakat is to support the poor and reduce hardship."),
+
+  QuizQuestion(
+      question:
+          "121. Praying regularly is important because it is a\n(BECE 2013 Q5)",
+      options: [
+        "Moral responsibility",
+        "Social responsibility",
+        "Political responsibility",
+        "Spiritual responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer is a spiritual responsibility of believers."),
+
+  QuizQuestion(
+      question:
+          "122. The congregational prayer observed by Muslims on Friday is\n(BECE 2013 Q16)",
+      options: ["Eid", "Janazah", "Jumu'ah", "Zuhr"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jumu'ah is the Friday congregational prayer."),
+
+  QuizQuestion(
+      question:
+          "123. In traditional religion, it is taboo to\n(BECE 2013 Q17)",
+      options: [
+        "Bury the dead in town",
+        "Drink alcohol at funerals",
+        "Insult a chief or a god",
+        "Wear sandals at the graveyard"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Insulting a chief or deity is regarded as a serious traditional taboo."),
+
+  QuizQuestion(
+      question:
+          "124. Folktales are important because, they\n(BECE 2013 Q32)",
+      options: [
+        "Teach about other people",
+        "Are loved by grandparents",
+        "Make children happy",
+        "Teach moral lessons"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Folktales transmit moral values and cultural lessons."),
+
+  QuizQuestion(
+      question:
+          "125. In traditional societies, rules used to control the behaviour of members are known as\n(BECE 2013 Q34)",
+      options: ["Ancestral rites", "Puberty rites", "Taboos", "Totems"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Taboos regulate acceptable and forbidden behaviour in traditional society."),
+
+  QuizQuestion(
+      question:
+          "126. The Eucharist, in Christian worship, refers to\n(BECE 2014 Q2)",
+      options: [
+        "Prayer of thanksgiving",
+        "Preaching of sermons",
+        "The Holy Communion",
+        "Payment of tithes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist is another name for Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "127. Sadique in Islam means\n(BECE 2014 Q4)",
+      options: ["Courageous", "Righteous", "Truthful", "Patience"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Sadique or Siddiq refers to truthfulness."),
+
+  QuizQuestion(
+      question:
+          "128. The prayer which is said in the early afternoon by Muslims is\n(BECE 2014 Q9)",
+      options: ["Fajr", "Isha", "Maghrib", "Zuhr"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Zuhr is the midday or early afternoon prayer."),
+
+  QuizQuestion(
+      question:
+          "129. Traditional worshippers remember their ancestors by\n(BECE 2014 Q12)",
+      options: [
+        "Fasting and praying to them",
+        "Offering them food and drinks",
+        "Singing of songs and praises",
+        "Calling their names always"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Food and drink offerings are traditional ways of remembering and honouring ancestors."),
+
+  QuizQuestion(
+      question:
+          "130. Prayer enables the Muslim to\n(BECE 2014 Q13)",
+      options: [
+        "Punish his/her enemies",
+        "Become clean",
+        "Go to heaven",
+        "Receive gifts"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Prayer encourages spiritual and moral purity."),
+
+  QuizQuestion(
+      question:
+          "131. Dirges as a traditional song is sung to\n(BECE 2014 Q14)",
+      options: [
+        "Praise and hail chiefs",
+        "Hoot at people with evil spirit",
+        "Recreate and entertain people",
+        "Sympathize with bereaved families"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dirges express grief and sympathy with bereaved families."),
+
+  QuizQuestion(
+      question:
+          "132. It is the responsibility of a Muslim to make a pilgrimage to Mecca at least\n(BECE 2014 Q16)",
+      options: [
+        "Three times in life time",
+        "Twice in a life time",
+        "Once in a life time",
+        "Five times in a life time"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A Muslim who is physically and financially able is required to perform Hajj once in a lifetime."),
+
+  QuizQuestion(
+      question:
+          "133. In Islamic practice, Wudu is the\n(BECE 2014 Q18)",
+      options: [
+        "Intention to say salat",
+        "Preparation made after salat",
+        "Ritual washing before salat",
+        "Ritual washing after salat"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wudu is ritual ablution performed before Salat."),
+
+  QuizQuestion(
+      question:
+          "134. What is the second pillar of Islam?\n(BECE 2015 Q3)",
+      options: ["Salat", "Sawn", "Zakat", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Salat, the five daily prayers, is the second pillar of Islam."),
+
+  QuizQuestion(
+      question:
+          "135. On what occasion does Muslims perform the Janazah prayer?\n(BECE 2015 Q4)",
+      options: [
+        "Before a Muslim travels",
+        "After observing a fast",
+        "During Friday worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the Islamic funeral prayer."),
+
+  QuizQuestion(
+      question:
+          "136. Going round the Ka'ba is an Islamic religious activity done during\n(BECE 2015 Q11)",
+      options: ["Eid-ul-Adha", "Eid-ul-Fitr", "Hajj", "Ramadan"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tawaf around the Ka'ba is an important Hajj ritual."),
+
+  QuizQuestion(
+      question:
+          "137. Which Islamic prayer is observed at sunset\n(BECE 2015 Q12)",
+      options: ["Janazah", "Tarawih", "Isha", "Maghrib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is performed immediately after sunset."),
+
+  QuizQuestion(
+      question:
+          "138. Traditionalists pray by means of\n(BECE 2015 Q13)",
+      options: [
+        "Music and dance",
+        "Spirit possession",
+        "Pouring libation",
+        "Divination"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is one of the main forms of traditional prayer."),
+
+  QuizQuestion(
+      question:
+          "139. In African Traditional Religion, the living dead are referred to as\n(BECE 2015 Q14)",
+      options: ["Bad spirits", "Witch doctors", "Ancestors", "Mediums"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are sometimes described as the living dead because they remain spiritually connected to the living."),
+
+  QuizQuestion(
+      question:
+          "140. The most important rite in Christian sacramental worship is the\n(BECE 2015 Q16)",
+      options: [
+        "Taking of the Holy Communion",
+        "Reading of the Old Testament",
+        "Reading of the New Testament",
+        "Collection of offertory and tithes"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion is a central sacramental act in Christian worship."),
+
+  QuizQuestion(
+      question:
+          "141. Going round the Ka'ba is an Islamic religious activity done during the\n(BECE 2016 Q16)",
+      options: ["Eid-ul-Adha", "Eid-ul-Fitr", "Hajj", "Ramadan"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Going around the Ka'ba, or Tawaf, is performed during Hajj."),
+
+  QuizQuestion(
+      question:
+          "142. What is the second pillar of Islam?\n(BECE 2016 Q17)",
+      options: ["Hajj", "Salat", "Sawn", "Zakat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Salat is the second pillar of Islam."),
+
+  QuizQuestion(
+      question:
+          "143. In the traditional society, the dead is buried with money to ensure that the\n(BECE 2016 Q18)",
+      options: [
+        "Deceased can pay the fare to the other world",
+        "Deceased can pay the gods and ancestors for protection",
+        "Spirit of the deceased does not attack the family members",
+        "Family members are blessed with riches"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The money is traditionally associated with the deceased's journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "144. Traditional worshippers remember their ancestors by\n(BECE 2016 Q19)",
+      options: [
+        "Calling their names always",
+        "Fasting and praying to them",
+        "Offering drinks and food to them",
+        "Singing of songs and praises"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Food and drink offerings are used in traditional remembrance of ancestors."),
+
+  QuizQuestion(
+      question:
+          "145. The saying \"a child who knows how to wash his/her hands eats with the elderly\" means\n(BECE 2016 Q25)",
+      options: [
+        "Children should eat with the elderly",
+        "Children should wash their hands well before eating",
+        "That food is important for the growth of children",
+        "That it pays to be well-behaved"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The proverb teaches that good behaviour and proper conduct bring opportunities and honour."),
+
+  QuizQuestion(
+      question:
+          "146. The first pillar of Islam is the belief in\n(BECE 2017 Q16)",
+      options: ["Angels", "Oneness of God", "Prophets", "Revealed books"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah begins with belief in the oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "147. Praying regularly is important because it is a\n(BECE 2017 Q17)",
+      options: [
+        "Moral responsibility",
+        "Political responsibility",
+        "Social responsibility",
+        "Spiritual responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Prayer is a spiritual responsibility of believers."),
+
+  QuizQuestion(
+      question:
+          "148. Submission to the will of Allah in Islam brings\n(BECE 2017 Q22)",
+      options: [
+        "Life and comfort",
+        "Peace and purity",
+        "Unity and love",
+        "Wealth and joy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Islam emphasizes peace and spiritual purity through submission to Allah."),
+
+  QuizQuestion(
+      question:
+          "149. Sadique in Islam means\n(BECE 2018 Q4)",
+      options: ["Courageous", "Patience", "Righteous", "Truthful"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Sadique means truthful."),
+
+  QuizQuestion(
+      question:
+          "150. The holy pilgrimage to Makkah by Muslims is known as\n(BECE 2018 Q5)",
+      options: ["Hajj", "Ijma", "Ru'ya", "Salat"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hajj is the pilgrimage to Makkah."),
+
+  QuizQuestion(
+      question:
+          "151. On what occasion do Muslims perform the Janazah prayer?\n(BECE 2018 Q15)",
+      options: [
+        "After observing fast",
+        "Before a Muslim travels",
+        "During Friday worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is performed when a Muslim dies."),
+
+  QuizQuestion(
+      question:
+          "152. Which traditional prayer is offered when a vow or a pledge is fulfilled?\n(BECE 2018 Q16)",
+      options: ["Intercessory", "Supplication", "Thanksgiving", "Votive"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A votive prayer is connected with a vow or pledge."),
+
+  QuizQuestion(
+      question:
+          "153. Which Islamic prayer is observed at sunset?\n(BECE 2018 Q17)",
+      options: ["Isha", "Janazah", "Maghrib", "Tarawih"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is the sunset prayer."),
+
+  QuizQuestion(
+      question:
+          "154. The act of going around the Ka'ba seven times during Hajj teaches\n(BECE 2018 Q18)",
+      options: ["Bravery", "Faireness", "Endurance", "Tolerance"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Performing the seven circuits requires endurance and perseverance."),
+
+  QuizQuestion(
+      question:
+          "155. The Eucharist in Christian worship refers to\n(BECE 2018 Q19)",
+      options: [
+        "Prayer of thanksgiving",
+        "Preaching of sermons",
+        "Payment of tithes",
+        "The Holy Communion"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist is the Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "156. Which of the following traditional practices can dehumanize the individual?\n(BECE 2019 Q14)",
+      options: [
+        "Festival rituals",
+        "Funeral rites",
+        "Libation prayers",
+        "Widowhood rites"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Some widowhood practices can subject individuals to degrading or harmful treatment."),
+
+  QuizQuestion(
+      question:
+          "157. Islamic practice of worship (Ibadah) is based on the\n(BECE 2019 Q15)",
+      options: [
+        "Five pillars of Islam",
+        "Nine rakats of salat",
+        "Seven events of hajj",
+        "Six teachings of Uthman"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The five pillars form the basic framework of Islamic worship and practice."),
+
+  QuizQuestion(
+      question:
+          "158. The word Amen is used in Christian and Islamic prayers because it\n(BECE 2019 Q16)",
+      options: [
+        "Attracts blessing to the people",
+        "Reveals God's promises",
+        "Enforces the request",
+        "Ensure confidence in the prayer"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Amen expresses affirmation and confidence in the prayer that has been offered."),
+
+  QuizQuestion(
+      question:
+          "159. Which group of believers usually conclude their prayers with a curse?\n(BECE 2019 Q17)",
+      options: ["Christians", "Muslims", "Traditionalists", "Buddhists"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Traditional prayers may sometimes conclude with curses against enemies or wrongdoers."),
+
+  QuizQuestion(
+      question:
+          "160. The practice of throwing stones during hajj is to\n(BECE 2019 Q25)",
+      options: [
+        "Protect Muslims from death",
+        "Achieve goals for the pilgrimage",
+        "Keep the devil away",
+        "Open the way to prosperity"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The stoning ritual symbolizes rejection of Satan."),
+
+  QuizQuestion(
+      question:
+          "161. Ablution before salat ensures\n(BECE 2019 Q19)",
+      options: [
+        "Peace with Allah always",
+        "Purity in communion with Allah",
+        "Receipt of prayer request",
+        "Healthy sanitation in the community"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution provides ritual purity before worship."),
+
+  QuizQuestion(
+      question:
+          "162. The Qur'an teaches that, anyone who not show mercy will not\n(BECE 2019 Q27)",
+      options: [
+        "Enter the mosque",
+        "Go to heaven",
+        "Be shown mercy",
+        "Live peaceful life"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The teaching emphasizes that those who show no mercy should not expect mercy."),
+
+  QuizQuestion(
+      question:
+          "163. The Akans believe that their sacred stool is the abode of the\n(BECE 2019 Q35)",
+      options: ["Lesser gods", "Ancestors", "Dwarfs", "Supreme Being"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sacred stools are traditionally associated with the spirits of ancestors."),
+
+  QuizQuestion(
+      question:
+          "164. Which of the following objects can be found in an Islamic religious home?\n(BECE 2019 Q36)",
+      options: ["Amulet", "Cross", "Rosary", "Tasba"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tasba or prayer beads may be used by Muslims for devotional remembrance."),
+
+  QuizQuestion(
+      question:
+          "165. The purity and uprightness of a Muslim depends on his or her\n(BECE 2018 Q19)",
+      options: [
+        "Celebration of Eid festival",
+        "Constant prayers",
+        "Quranic studies",
+        "Pilgrimage to Mecca"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer promotes spiritual discipline, purity and upright conduct."),
+
+  QuizQuestion(
+      question:
+          "166. Which of the following options refers to Muslims' declaration of commitment?\n(BECE 2020 Q14)",
+      options: ["Adhan", "Hadith", "Sunnah", "Shahada"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah is the Muslim declaration of faith and commitment."),
+
+  QuizQuestion(
+      question:
+          "167. The last prayer recited at the cemetery during an Islamic burial is\n(BECE 2020 Q15)",
+      options: ["Janaza", "Jum'ah", "Asr", "Tarawil"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the prayer associated with the funeral and burial of a Muslim."),
+
+  QuizQuestion(
+      question:
+          "168. Ka'bah in Mecca is important in Islamic worship because\n(BECE 2020 Q16)",
+      options: [
+        "It is the centre of God's revelation",
+        "Its direction is always faced at prayers",
+        "Prayers said there are promptly answered",
+        "The place is filled with angels"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims face the Ka'ba, the qiblah, during Salat."),
+
+  QuizQuestion(
+      question:
+          "169. Libation is offered mainly to\n(BECE 2020 Q17)",
+      options: [
+        "Avoid attack from enemies",
+        "Make worship successful",
+        "Seek the favour of divinities",
+        "Quench the thirst of the gods"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is offered to communicate with and seek favour from spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "170. Non-religious songs are mostly centered on\n(BECE 2020 Q19)",
+      options: [
+        "Divinities",
+        "Moral values",
+        "Pleasure",
+        "Spiritual satisfaction"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Non-religious songs commonly focus on entertainment and pleasure rather than worship."),
+
+  QuizQuestion(
+      question:
+          "171. A practice that is common to the three major religions in Ghana is\n(BECE 2021 Q6)",
+      options: [
+        "Animal sacrifice",
+        "Regular prayers",
+        "Respects for taboos",
+        "Scripture studies"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Prayer is practiced in Christianity, Islam and African Traditional Religion."),
+
+  QuizQuestion(
+      question:
+          "172. To communicate to the object of worship on behalf of someone, one has to offer a prayer of\n(BECE 2021 Q13)",
+      options: [
+        "Confession",
+        "Intercession",
+        "Thanksgiving",
+        "Adoration"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Intercessory prayer is offered on behalf of another person."),
+
+  QuizQuestion(
+      question:
+          "173. The Muslim woman puts on a veil in order to\n(BECE 2021 Q35)",
+      options: [
+        "Avoid attack from rapist",
+        "Avoid exposure to the public",
+        "Hide her true identity",
+        "Protect herself from the rays of the sun"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The veil is associated with modesty and limiting inappropriate bodily exposure."),
+
+  QuizQuestion(
+      question:
+          "174. In traditional societies, anything that is forbidden is regarded as\n(BECE 2021 Q37)",
+      options: ["Holy", "Spiritual", "Taboo", "Totem"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A taboo is something prohibited by traditional rules or custom."),
+
+  QuizQuestion(
+      question:
+          "175. A sign of respect and humility is demonstrated during libation when the celebrant\n(BECE 2022 Q18)",
+      options: [
+        "Removes his sandals and keeps his chest bare",
+        "Invokes the gods with appellations",
+        "Squats and mentions the attributes of God",
+        "Slaughter animals as a sacrifice"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Removing sandals and adopting a humble appearance symbolizes respect during libation."),
+
+  QuizQuestion(
+      question:
+          "176. Ablution in Islam signifies\n(BECE 2022 Q19)",
+      options: ["Hard work", "Cleanliness", "Truthfulness", "Justice"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution symbolizes physical and ritual cleanliness before prayer."),
+
+  QuizQuestion(
+      question:
+          "177. Which of the following churches observes Sabbath on Saturdays?\n(BECE 2022 Q20)",
+      options: [
+        "Catholic Church",
+        "Presbyterian Church",
+        "Seventh Day Adventist Church",
+        "Muzama Disco Christo Church"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Seventh-day Adventists observe Saturday as the Sabbath."),
+
+  QuizQuestion(
+      question:
+          "178. The belief in magical powers influences the traditionalists to\n(BECE 2022 Q21)",
+      options: [
+        "Worship God every Sunday",
+        "Smear the body with clay",
+        "Wear charms and amulets",
+        "Dress with beads and jewels"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Charms and amulets are traditionally associated with spiritual or magical protection."),
+
+  QuizQuestion(
+      question:
+          "179. The practitioners of African Traditional Religion honour ancestors so as to\n(BECE 2022 Q22)",
+      options: [
+        "Receive protection and blessings",
+        "Have their faith increased",
+        "Behave well in the society",
+        "Become blameless and powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are traditionally believed to provide protection and blessings to their descendants."),
+
+  QuizQuestion(
+      question:
+          "180. Dirges are sung to\n(BECE 2022 Q23)",
+      options: [
+        "Express happiness in life",
+        "Ask for forgiveness",
+        "Welcome a chief at a festival",
+        "Comfort the bereaved"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dirges express grief and provide comfort during mourning."),
+
+  QuizQuestion(
+      question:
+          "181. Religious songs are important because they\n(BECE 2022 Q24)",
+      options: [
+        "Deal with social issues",
+        "Entertain and amuse people",
+        "Strengthen people's spiritual growth",
+        "Help people achieve their goals"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Religious songs support worship and spiritual development."),
+
+  QuizQuestion(
+      question:
+          "182. One similarity between religious and non-religious songs is that both\n(BECE 2022 Q25)",
+      options: [
+        "Center on people's object of worship",
+        "Can help people to hope for eternal life",
+        "Deal with achievements of heroes in the society",
+        "Can help to control social behaviour"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Both types of songs can communicate values that influence and regulate social behaviour."),
+
+  QuizQuestion(
+      question:
+          "183. The bible contains words of inspiration from\n(BECE 2023 Q1)",
+      options: ["The prophets", "The spirit", "God", "Jesus"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians regard the Bible as inspired by God."),
+
+  QuizQuestion(
+      question:
+          "184. The gospels in the Bible describe the\n(BECE 2023 Q9)",
+      options: [
+        "Life and works of the apostles",
+        "Life and works of Jesus Christ",
+        "Deeds of the prophets",
+        "Spread of Christianity"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Gospels present the life, teachings, death and resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "185. Which of the following persons is not mentioned in the Qur'an as the recipient of Zakat? The\n(BECE 2023 Q10)",
+      options: ["Traveller", "Needy", "Poor", "Imam"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Qur'anic categories of Zakat recipients include the poor, needy and stranded traveller, but not Imam as a category."),
+
+  QuizQuestion(
+      question:
+          "186. In Christian Religion, the Eucharist stands for\n(BECE 2023 Q11)",
+      options: ["Holy Communion", "Reconciliation", "Confirmation", "Initiation rite"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist refers to Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "187. Which of the following life patterns is expected of Christians?\n(BECE 2023 Q23)",
+      options: [
+        "Worship, scripture study and evangelism",
+        "Fasting, alms giving and libation",
+        "Worship, evangelism and divination",
+        "Animal sacrifice, confession and scripture study"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Christian life includes worship, studying scripture and sharing the faith through evangelism."),
+
+  QuizQuestion(
+      question:
+          "188. Fajr is an Islamic prayer which is said at\n(BECE 2023 Q25)",
+      options: [
+        "Early afternoon",
+        "Late afternoon",
+        "Sunset",
+        "Dawn"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Fajr is the dawn prayer."),
+
+  QuizQuestion(
+      question:
+          "189. Traditional believers and Christians make use of religious songs because such songs help in\n(BECE 2023 Q27)",
+      options: [
+        "Invoking spiritual powers",
+        "Showing the believer's pride",
+        "Rewarding their enemies",
+        "Making people intelligent"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Religious songs are used in worship and may help believers invoke or connect with spiritual power."),
+
+  QuizQuestion(
+      question:
+          "190. The main form of prayer in Traditional Religion is through\n(BECE 2023 Q29)",
+      options: ["Chanting", "Libation", "Sacrifice", "Divination"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a principal form of traditional prayer."),
+
+  QuizQuestion(
+      question:
+          "191. The purpose of libation in Traditional Religion is to\n(BECE 2023 Q36)",
+      options: [
+        "Make a person holy",
+        "Revere the gods",
+        "Make sorcerers holy",
+        "Have enemies killed"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation is offered as a form of reverence and communication with divinities and ancestors."),
+
+  QuizQuestion(
+      question:
+          "192. The declaration of faith (Kalimatus Shahadah) is important in Islam because it\n(BECE 2023 Q39)",
+      options: [
+        "Teaches the worship of one God",
+        "Enhances performance of Salat in the mosque",
+        "Helps in the praying of Tashah",
+        "Protects the worshipper from demonic attacks"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah affirms the oneness of Allah and Mohammed as His messenger."),
     ],
   ),
   "Religious & Moral Education JHS1 s5 ss2 - Substance Abuse and Decent Living": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question:
-              "1. Which of the following can be noticed in those who use drugs?\n(BECE 2008 Q38)",
-          options: [
-            "Quick response to questions in class",
-            "Disrespect for authority",
-            "Poor relationship with friends",
-            "Involvement in communal activities"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Drug abuse often leads to indiscipline and disrespect for authority."),
-      QuizQuestion(
-          question:
-              "2. Refusal to follow medical prescription may lead to\n(BECE 2017 Q18)",
-          options: [
-            "Disrespect for authorities",
-            "Failure in life",
-            "Reduction in wealth",
-            "Substance abuse"
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Ignoring medical prescriptions can result in misuse of drugs and substance abuse."),
-      QuizQuestion(
-          question:
-              "3. Boys and girls are to dress modestly and decently to show that they are\n(BECE 2006 Q36)",
-          options: ["Truthful", "Honest", "Courteous", "Brilliant"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Decent dressing is a sign of courtesy, self-respect and good manners."),
-      QuizQuestion(
-          question: "4. People lead decent lives in order to\n(BECE 2003 Q28)",
-          options: [
-            "Be praised for patriotism",
-            "Be seen as kind and generous",
-            "Promote health and peaceful conditions",
-            "Protect the user from the physical effects of drugs"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Living decently promotes healthy relationships and peaceful coexistence."),
-      QuizQuestion(
-          question: "5. Which type of substance is coffee?\n(BECE 2001 Q36)",
-          options: ["Stimulant", "Hard drug", "Common drug", "Beverage"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation: "Coffee contains caffeine, which is a stimulant."),
-      QuizQuestion(
-          question:
-              "6. People avoid dangerous substances in order to\n(BECE 2012 Q25)",
-          options: [
-            "Develop their potentials",
-            "Stay healthy",
-            "Study hard",
-            "Be respected by society"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Avoiding harmful substances helps people maintain good health."),
-      QuizQuestion(
-          question:
-              "7. Which of the following is an example of a hard drug?\n(BECE 2002A Q35)",
-          options: ["Chloroquine", "Coffee", "Alcohol", "Cocaine"],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Cocaine is classified as a hard drug because of its highly addictive nature."),
-      QuizQuestion(
-          question:
-              "8. Which of the following is not an example of a stimulant?\n(BECE 2006 Q36)",
-          options: ["Alcohol", "Cocaine", "Chloroquine", "Marijuana"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation: "Alcohol is a depressant, not a stimulant."),
-      QuizQuestion(
-          question: "9. Self-medication means\n(BECE 2004 Q37)",
-          options: [
-            "Taking medicine prescribed by the doctor",
-            "Buying drugs with prescription form",
-            "Taking medicine given at the hospital",
-            "Taking drugs without medical advice"
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Self-medication is the use of drugs without professional medical advice."),
-      QuizQuestion(
-          question:
-              "10. Which of the following reasons may promote drug abuse?\n(BECE 2002B Q39)",
-          options: [
-            "Showing pictures of victims of drug abuse",
-            "Debate organized for students on hard drug abuse",
-            "Taking the drugs without knowing the side effect",
-            "Police dealing strictly with drug peddlers"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Taking drugs without knowing their side effects can encourage drug abuse."),
-      QuizQuestion(
-          question:
-              "11. Which of the following is an effect of drug abuse?\n(BECE 2011 Q27)",
-          options: ["Obedience", "Truancy", "Politeness", "Truthfulness"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Drug abuse often leads to truancy and other forms of indiscipline."),
-      QuizQuestion(
-          question:
-              "12. Decent dressing and good eating habits show\n(BECE 2023 Q32)",
-          options: [
-            "That one is obedient to parents",
-            "The particular community one comes from",
-            "The level of training one has received",
-            "That one belongs to a traditional society"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Good dressing and eating habits reflect proper upbringing and training."),
-      QuizQuestion(
-          question:
-              "13. Which of the following drugs is most commonly abused?\n(BECE 2005 Q33)",
-          options: ["Cocaine", "Laxatives", "Tobacco", "Paracetamol"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Tobacco is one of the most commonly abused substances worldwide."),
-      QuizQuestion(
-          question:
-              "14. The basis for describing some drugs as sedative is that they\n(BECE 2002B Q39)",
-          options: [
-            "Stimulate the user",
-            "Tend to relax the nerves and reduce stress",
-            "Make the user feel high",
-            "Cause hallucinations"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Sedatives are drugs that calm the nervous system and reduce anxiety and stress."),
-      QuizQuestion(
-          question:
-              "15. Substances that tend to relax the nerves and reduce stress are\n(BECE 2004 Q39)",
-          options: ["Sedatives", "Stimulants", "Hard drugs", "Common drugs"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Sedatives are substances that calm the nerves and reduce stress."),
-      QuizQuestion(
-          question:
-              "16. Which of the following is not a reason for living a decent life?\n(BECE 2007 Q36)",
-          options: [
-            "To earn the respect of people",
-            "To gain the trust of others",
-            "To receive prizes from others",
-            "To have a good name"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The purpose of living a decent life is to build good character, not to receive prizes from others."),
-      QuizQuestion(
-          question: "17. Smoking is discouraged because it\n(BECE 2007 Q36)",
-          options: [
-            "Results in respiratory problem",
-            "Attracts the HIV virus",
-            "Leads to sexual promiscuity",
-            "Destroys the blood group of people"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Smoking damages the lungs and can cause serious respiratory diseases."),
-      QuizQuestion(
-          question:
-              "18. One danger associated with drug abuse is that it\n(BECE 2012 Q28)",
-          options: [
-            "Causes idleness",
-            "Makes a person arrogant",
-            "Destroys the blood group",
-            "Can deform a person"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Drug abuse can lead to laziness, lack of productivity and idleness."),
-      QuizQuestion(
-          question:
-              "19. A defensive mechanism that can help protect student against drug abuse is\n(BECE 2012 Q28)",
-          options: [
-            "To control one's temper",
-            "Living a chaste life",
-            "Refusing and saying no to drugs",
-            "Reporting drug peddlers to the police"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "The best personal defense against drug abuse is to refuse and say no to drugs."),
-      QuizQuestion(
-          question: "20. People lead decent lives in order to\n(BECE 2013 Q23)",
-          options: [
-            "Be praised for patriotism",
-            "Be seen as being kind",
-            "Promote peaceful living",
-            "Qualify to be ancestors"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Living a decent life promotes peace, harmony and good relationships in society."),
-      QuizQuestion(
-          question:
-              "21. A student must dress decently because it\n(BECE 2015 Q25)",
-          options: [
-            "Is a mark of intelligence",
-            "Shows respect and politeness",
-            "Enables one to gain favour from others",
-            "Helps one to obey school rules"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Decent dressing demonstrates respect for oneself and for others."),
-      QuizQuestion(
-          question: "22. People lead decent live in order to\n(BECE 2016 Q27)",
-          options: [
-            "Be praised for patriotism",
-            "Be seen as being kind",
-            "Promote peaceful living",
-            "Qualify to be an ancestor"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Decent living encourages peaceful coexistence within the community."),
-      QuizQuestion(
-          question:
-              "23. Which of the following behaviours is an effect of drug abuse?\n(BECE 2016 Q28)",
-          options: ["Obedience", "Politeness", "Truancy", "Truthfulness"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Drug abuse commonly results in truancy and other forms of indiscipline."),
-      QuizQuestion(
-          question:
-              "24. Looking simple and decent is a sign of\n(BECE 2016 Q28)",
-          options: ["Comportment", "Faithfulness", "Repentance", "Tolerance"],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Looking simple and decent reflects good comportment and proper behaviour."),
-      QuizQuestion(
-          question:
-              "25. A person must lead a decent life in order to\n(BECE 2018 Q33)",
-          options: [
-            "Be praised for patriotism",
-            "Be seen as being kind",
-            "Promote peaceful living",
-            "Qualify to be an ancestor"
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Living a decent life promotes peace and harmony in society."),
-      QuizQuestion(
-          question: "26. People abuse substance because of\n(BECE 2020 Q33)",
-          options: ["Happiness", "Ignorance", "Problems", "Vengeance"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Ignorance about the harmful effects of drugs is a major cause of substance abuse."),
-      QuizQuestion(
-          question:
-              "27. To avoid drug abuse, the student must\n(BECE 2021 Q10)",
-          options: [
-            "Exercise the body frequently",
-            "Keep off bad friends",
-            "Respect teachers and friends",
-            "Attend worship meetings regularly"
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Avoiding bad company is one of the most effective ways to prevent drug abuse."),
-      QuizQuestion(
-          question: "28. Living a decent life can earn you\n(BECE 2021 Q23)",
-          options: ["Promotion", "Respect", "Success", "Wealth"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "People who live decent lives are respected and trusted by others."),
-    ],
+      question:
+      "1. Which type of substance is coffee?\n(BECE 2001 Q36)",
+      options: ["Stimulant", "Hard drug", "Common drug", "Beverage"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+      "Coffee contains caffeine, which is a stimulant that increases alertness."),
+QuizQuestion(
+question:
+"2. Which of the following is an example of a hard drug?\n(BECE 2002A Q35)",
+options: ["Chloroquine", "Coffee", "Alcohol", "Cocaine"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Cocaine is classified as a hard drug because of its strong addictive and harmful effects."),
+
+QuizQuestion(
+question:
+"3. Which of the following reasons may promote drug abuse?\n(BECE 2002B Q39)",
+options: [
+"Showing pictures of victims of drug abuse",
+"Debate organized for students on hard drug abuse",
+"Taking the drugs without knowing the side effect",
+"Police dealing strictly with drug peddlers"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Ignorance about the harmful effects of drugs can contribute to drug abuse."),
+
+QuizQuestion(
+question:
+"4. The basis for describing some drugs as sedative is that they\n(BECE 2003 Q28)",
+options: [
+"Stimulate the user",
+"Turn to relax the nerves and reduce stress",
+"Make the user to feel high",
+"Protect the user from the physical effects of drugs"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Sedatives calm the nervous system and help reduce tension or stress."),
+
+QuizQuestion(
+question:
+"5. People lead decent lives in order to\n(BECE 2003 Q35)",
+options: [
+"Be praised for patriotism",
+"Be seen as kind and generous",
+"Promote health and peaceful conditions",
+"Promote peace"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Decent living promotes healthy behaviour and peaceful relationships in society."),
+
+QuizQuestion(
+question:
+"6. Substances that turn to relax the nerves and reduce stress are\n(BECE 2004 Q37)",
+options: ["Sedatives", "Stimulants", "Hard drugs", "Common drugs"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Sedatives reduce nervous activity and help a person relax."),
+
+QuizQuestion(
+question:
+"7. Self-medication means\n(BECE 2004 Q39)",
+options: [
+"Taking medicine prescribed by the doctor",
+"Buying drugs with prescription form",
+"Taking medicine given at the hospital",
+"Taking drugs without medical advice"
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Self-medication is the use of medicines without appropriate medical advice or prescription."),
+
+QuizQuestion(
+question:
+"8. In Ghana people are said to lead decent life when they\n(BECE 2005 Q26)",
+options: [
+"Shout in public for their right",
+"Make people respect them",
+"Weed around the compound",
+"Have leisure with friends"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Keeping the surroundings clean through activities such as weeding reflects responsible and decent living."),
+
+QuizQuestion(
+question:
+"9. Which of the following drugs is most commonly abused?\n(BECE 2005 Q33)",
+options: ["Cocaine", "Laxatives", "Tobacco", "Paracetamol"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Tobacco is a commonly abused substance because of widespread smoking and nicotine dependence."),
+
+QuizQuestion(
+question:
+"10. Which of the following is not an example of a stimulant?\n(BECE 2006 Q36)",
+options: ["Alcohol", "Cocaine", "Chloroquine", "Marijuana"],
+correctIndex: 0,
+difficulty: "Medium",
+explanation:
+"Alcohol is generally classified as a depressant rather than a stimulant."),
+
+QuizQuestion(
+question:
+"11. Boys and girls are to dress modestly and decently to show that they are\n(BECE 2006 Q40)",
+options: ["Truthful", "Honest", "Courteous", "Brilliant"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Modest and decent dressing is associated with courtesy and respectability."),
+
+QuizQuestion(
+question:
+"12. Which of the following is not a reason for living a decent life?\n(BECE 2007 Q36)",
+options: [
+"To earn the respect of people",
+"To gain the trust of others",
+"To receive praises from others",
+"To have a good name"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Living decently should promote good character, trust and respect rather than merely seeking praise."),
+
+QuizQuestion(
+question:
+"13. Smoking is discouraged because it\n(BECE 2008 Q38)",
+options: [
+"Results in respiratory problem",
+"Attracts the HIV virus",
+"Leads to sexual promiscuity",
+"Destroys the blood group of people"
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Smoking can damage the lungs and contribute to serious respiratory problems."),
+
+QuizQuestion(
+question:
+"14. Which of the following can be noticed in those who use drugs?\n(BECE 2009 Q33)",
+options: [
+"Quick response to questions in class",
+"Disrespect for authority",
+"Poor relationship with friends",
+"Involvement in communal activities"
+],
+correctIndex: 1,
+difficulty: "Medium",
+explanation:
+"Drug abuse may contribute to behavioural problems such as disrespect for authority."),
+
+QuizQuestion(
+question:
+"15. Which of the following is an effect of drug abuse?\n(BECE 2011 Q27)",
+options: ["Obedience", "Truancy", "Politeness", "Truthfulness"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Drug abuse can lead to truancy and other forms of irresponsible behaviour."),
+
+QuizQuestion(
+question:
+"16. People avoid dangerous substances in order to\n(BECE 2012 Q25)",
+options: [
+"Develop their potentials",
+"Stay healthy",
+"Study hard",
+"Be respected by society"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Avoiding dangerous substances helps protect a person's physical and mental health."),
+
+QuizQuestion(
+question:
+"17. A defensive mechanism that can help protect student against drug abuse is\n(BECE 2012 Q28)",
+options: [
+"To control one's temper",
+"Living a chaste life",
+"Refusing and saying no to drugs",
+"Reporting drug peddlers to the police"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Being assertive and refusing drugs is an effective way of resisting peer pressure and drug abuse."),
+
+QuizQuestion(
+question:
+"18. One danger associated with drug abuse is that it\n(BECE 2013 Q23)",
+options: [
+"Causes idleness",
+"Makes a person arrogant",
+"Destroys the blood group",
+"Can deform a person"
+],
+correctIndex: 3,
+difficulty: "Medium",
+explanation:
+"Drug abuse can cause serious physical and developmental harm to the body."),
+
+QuizQuestion(
+question:
+"19. People lead decent lives in order to\n(BECE 2013 Q27)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be ancestors"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent behaviour promotes harmony and peaceful relationships with others."),
+
+QuizQuestion(
+question:
+"20. A student must dress decently because it\n(BECE 2015 Q25)",
+options: [
+"Is a mark of intelligence",
+"Shows respect and politeness",
+"Enables one to gain favour from others",
+"Helps one to obey school rules"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Decent dressing demonstrates respect, modesty and politeness."),
+
+QuizQuestion(
+question:
+"21. People lead decent live in order to\n(BECE 2016 Q27)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be an ancestor"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent living helps promote peace and good relationships in society."),
+
+QuizQuestion(
+question:
+"22. Which of the following behaviours is an effect of drug abuse?\n(BECE 2016 Q28)",
+options: ["Obedience", "Politeness", "Truancy", "Truthfulness"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Drug abuse can lead to truancy and neglect of school responsibilities."),
+
+QuizQuestion(
+question:
+"23. Looking simple and decent is a sign of\n(BECE 2017 Q18)",
+options: ["Comportment", "Faithfulness", "Tolerance", "Repentance"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Comportment refers to proper behaviour and presentation, including simple and decent appearance."),
+
+QuizQuestion(
+question:
+"24. Refusal to follow medical prescription may lead to\n(BECE 2018 Q33)",
+options: [
+"Disrespect for authorities",
+"Failure in life",
+"Reduction in wealth",
+"Substance abuse"
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Using medicine contrary to medical instructions can result in misuse and substance abuse."),
+
+QuizQuestion(
+question:
+"25. A person must lead a decent life in order to\n(BECE 2020 Q32)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be an ancestor"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent living encourages harmony and peaceful coexistence."),
+
+QuizQuestion(
+question:
+"26. People abuse substance because of\n(BECE 2020 Q33)",
+options: ["Happiness", "Ignorance", "Problems", "Vengeance"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Ignorance about the dangers and effects of substances can contribute to their abuse."),
+
+QuizQuestion(
+question:
+"27. To avoid drug abuse, the student must\n(BECE 2021 Q10)",
+options: [
+"Exercise the body frequently",
+"Keep off bad friends",
+"Respect teachers and friends",
+"Attend worship meetings regularly"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Avoiding bad company reduces peer pressure and exposure to drug abuse."),
+
+QuizQuestion(
+question:
+"28. Living a decent life can earn you\n(BECE 2021 Q23)",
+options: ["Promotion", "Respect", "Success", "Wealth"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"People who behave decently are more likely to earn the respect of others."),
+
+QuizQuestion(
+question:
+"29. Decent dressing and good eating habits show\n(BECE 2023 Q32)",
+options: [
+"That one is obedient to parents",
+"The particular community one comes from",
+"The level of training one has received",
+"That one belongs to a traditional society"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Good dressing and eating habits can reflect the discipline and training a person has received."),
+],
   ),
   "Religious & Moral Education JHS1 s6 ss1 - Objective Questions": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-          question:
-              "1. Leisure time is described as a time for\n(BECE 2001 Q30)",
-          options: [
-            "Scrubbing the toilet and the kitchen.",
-            "Going to church to worship God.",
-            "Attending school and doing homework.",
-            "Playing indoor and outdoor games."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Leisure time is free time used for relaxation and recreational activities such as indoor and outdoor games."),
-      QuizQuestion(
-          question:
-              "2. The expression, work and happiness means\n(BECE 2002A Q24)",
-          options: [
-            "When one works, one becomes happy.",
-            "Enjoying the fruits of one's labour.",
-            "Singing whilst working.",
-            "Always working."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The expression means that hard work enables one to enjoy the rewards of one's labour."),
-      QuizQuestion(
-          question:
-              "3. Humankind can learn a lot about the use of time from the\n(BECE 2006 Q37)",
-          options: ["Hare.", "Ant.", "Tortoise.", "Bee."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "The ant is known for diligence, proper planning and making good use of time."),
-      QuizQuestion(
-          question:
-              "4. Which of the following is the best way of handling money?\n(BECE 2002A Q39)",
-          options: [
-            "Keeping it under the breast.",
-            "Tying it in a handkerchief.",
-            "Crumpling it into a savings box.",
-            "Folding it neatly into the pocket."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Money should be handled neatly and carefully to keep it clean and in good condition."),
-      QuizQuestion(
-          question:
-              "5. People normally save money in order to\n(BECE 1999 Q22)",
-          options: [
-            "Use their income wisely.",
-            "Help the government to generate more revenue.",
-            "Be generous to people.",
-            "Prepare for the future."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Saving money helps people prepare for future needs and emergencies."),
-      QuizQuestion(
-          question:
-              "6. As pupils, we should use our leisure time to\n(BECE 2002A Q23)",
-          options: [
-            "Play games.",
-            "Do our homework.",
-            "Do household chores.",
-            "Go to church."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Students should use part of their leisure time productively by doing their homework."),
-      QuizQuestion(
-          question:
-              "7. A happy and prosperous life depends on\n(BECE 2002A Q31)",
-          options: ["Obedience.", "Respect.", "Courage.", "Hard work."],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Hard work is the foundation of a happy and prosperous life."),
-      QuizQuestion(
-          question:
-              "8. One of the benefits of working hard is\n(BECE 2001 Q40)",
-          options: [
-            "Putting up good house.",
-            "Having leisure.",
-            "Becoming financially self-reliant.",
-            "Being popular and respectful."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Hard work enables people to become financially independent."),
-      QuizQuestion(
-          question:
-              "9. We contribute to church dues and offering to\n(BECE 2001 Q33)",
-          options: [
-            "Enable the church to develop spiritually.",
-            "Promote deliverance service.",
-            "Help pastors preach well.",
-            "Help evangelize and care for the poor."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Church offerings support evangelism and provide assistance to the needy."),
-      QuizQuestion(
-          question:
-              "10. It is a bad habit to use one's leisure time in\n(BECE 1999 Q28)",
-          options: [
-            "Reading a story book.",
-            "Telling stories.",
-            "Playing games.",
-            "Gossiping about friends."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Gossip is an unhealthy use of leisure time and should be avoided."),
-      QuizQuestion(
-          question:
-              "11. In school's speech and prize giving day, the best pupil is rewarded with a\n(BECE 2003 Q25)",
-          options: [
-            "Book prizes.",
-            "Cash prize.",
-            "Testimonial.",
-            "Certificate."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Outstanding pupils are commonly recognized with certificates during prize-giving ceremonies."),
-      QuizQuestion(
-          question:
-              "12. The importance of work is to help us to\n(BECE 2003 Q38)",
-          options: [
-            "Be honest in our daily activities.",
-            "Plan our duties at all time.",
-            "Be reliable in the society.",
-            "Keep healthy and active minds."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Working keeps both the body and mind active and healthy."),
-      QuizQuestion(
-          question: "13. Leisure time is used for\n(BECE 2004 Q28)",
-          options: [
-            "Playing games.",
-            "Congregational worship.",
-            "Doing house chores.",
-            "Weeding the house."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Leisure is free time mainly used for relaxation and recreation."),
-      QuizQuestion(
-          question: "14. Work help us to become\n(BECE 2004 Q24)",
-          options: ["Reliable.", "Sincere.", "Healthy.", "Courteous."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Working diligently builds reliability and responsibility."),
-      QuizQuestion(
-          question:
-              "15. There is dignity in labour. This statement means\n(BECE 2004 Q25)",
-          options: [
-            "Only office work brings recognition.",
-            "Some jobs are more dignified than others.",
-            "We should work among all classes of people.",
-            "We need to be proud of our work."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "The statement teaches that every honest job is valuable and people should take pride in their work."),
-      QuizQuestion(
-          question:
-              "16. The term idleness in Religious and Moral Education means\n(BECE 2005 Q24)",
-          options: [
-            "Having fun.",
-            "Enjoying siesta.",
-            "Wasting time.",
-            "Playing games."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Idleness refers to wasting time instead of engaging in useful and productive activities."),
-      QuizQuestion(
-          question:
-              "17. In which way can money help spread germs?\n(BECE 2005 Q34)",
-          options: [
-            "Keeping it in a purse for a long period.",
-            "Handling it with hands.",
-            "Crumpling it in one's pockets.",
-            "Keeping it in one's brassiere."
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Keeping money in one's brassiere exposes it to sweat and germs, making it unhygienic."),
-      QuizQuestion(
-          question:
-              "18. The statement that time is money, implies that time is\n(BECE 2005 Q38)",
-          options: ["Precious.", "Limitless.", "Life.", "Everything."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "The saying emphasizes that time is valuable and should not be wasted."),
-      QuizQuestion(
-          question:
-              "19. The most important requirement for a happy and prosperous life is\n(BECE 2006 Q25)",
-          options: ["Loyalty.", "Respect.", "Courage.", "Hard work."],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Hard work is the key to achieving success and prosperity."),
-      QuizQuestion(
-          question:
-              "20. The expression 'work and happiness' implies one\n(BECE 2006 Q28)",
-          options: [
-            "Likes working always.",
-            "Dances whilst working.",
-            "Works whilst playing.",
-            "Enjoys the fruit of his labour."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Work brings satisfaction because people enjoy the rewards of their labour."),
-      QuizQuestion(
-          question:
-              "21. Good working habits include all the following except\n(BECE 2006 Q37)",
-          options: ["Honesty.", "Reliability.", "Commitment.", "Faith."],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Honesty, reliability and commitment are work habits, while faith is not specifically a working habit."),
-      QuizQuestion(
-          question: "22. Hard work is most often crowned with\n(BECE 2007 Q21)",
-          options: ["Favours.", "Success.", "Popularity.", "Obedience."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation: "Hard work usually leads to success."),
-      QuizQuestion(
-          question:
-              "23. The best way to enjoy peace and success in life is to\n(BECE 2007 Q24)",
-          options: [
-            "Accumulate wealth.",
-            "Fight for one's right always.",
-            "Be very strict on others.",
-            "Develop the spirit of responsibility."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation: "Being responsible promotes peace, trust and success."),
-      QuizQuestion(
-          question:
-              "24. Which of the following is not true about money? It is\n(BECE 2008 Q27)",
-          options: [
-            "Owned by the state.",
-            "The accepted means of exchange.",
-            "The official currency of a country.",
-            "The exchange goods for goods."
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "Money is used to exchange goods and services, not 'exchange goods for goods,' which describes barter."),
-      QuizQuestion(
-          question:
-              "25. The best way a worker can ask for a good salary is through\n(BECE 2008 Q26)",
-          options: ["Negotiation.", "Confrontation.", "Strike.", "Threat."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Negotiation is the proper and peaceful way to request better pay."),
-      QuizQuestion(
-          question:
-              "26. It is a bad habit to use one's leisure time in\n(BECE 2011 Q29)",
-          options: [
-            "Playing games.",
-            "Telling stories.",
-            "Reading story books.",
-            "Gossiping about friends."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Gossiping is an unhealthy and irresponsible use of leisure time."),
-      QuizQuestion(
-          question:
-              "27. A happy and prosperous life depends on\n(BECE 2011 Q39)",
-          options: ["Obedience.", "Hard work.", "Respect.", "Courage."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Hard work is the foundation of a prosperous and successful life."),
-      QuizQuestion(
-          question: "28. The saying time is money, means\n(BECE 2012 Q31)",
-          options: [
-            "Time fetches money.",
-            "More time spent on work, brings profit.",
-            "Money is not gained without spending time.",
-            "Good use of time brings profit."
-          ],
-          correctIndex: 3,
-          difficulty: "Medium",
-          explanation:
-              "The saying emphasizes using time wisely because productive use of time leads to success and profit."),
-      QuizQuestion(
-          question: "29. Humankind work in order to\n(BECE 2012 Q39)",
-          options: [
-            "Go to heaven.",
-            "Be loved by everyone.",
-            "Win souls for Christ.",
-            "Cater for one's basic needs."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "People work primarily to provide for their basic needs and those of their families."),
-      QuizQuestion(
-          question: "30. Workers go on strike to\n(BECE 2013 Q21)",
-          options: [
-            "Have some rest.",
-            "Demand better conditions of service.",
-            "Destroy company property.",
-            "Attend political rallies."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Workers organize strikes to demand improved salaries, welfare and working conditions."),
-      QuizQuestion(
-          question:
-              "31. Which of the following is not a positive attribute to work?\n(BECE 2013 Q26)",
-          options: ["Hard working", "Laziness", "Punctuality", "Truthfulness"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Laziness is a negative attitude to work, while hard work, punctuality and truthfulness are positive qualities."),
-      QuizQuestion(
-          question: "32. A wrong way to use one's leisure is\n(BECE 2013 Q33)",
-          options: [
-            "Reading story books.",
-            "Gossiping.",
-            "Playing games.",
-            "Telling stories."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Gossiping is an improper use of leisure because it can harm relationships and waste time."),
-      QuizQuestion(
-          question: "33. A positive attitude towards work is\n(BECE 2014 Q31)",
-          options: ["Commitment.", "Graciousness.", "Compliance.", "Purity."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Commitment is an important positive attitude that promotes productivity and responsibility."),
-      QuizQuestion(
-          question:
-              "34. The most important requirement for a happy and prosperous life is\n(BECE 2014 Q25)",
-          options: ["Courage.", "Hard work.", "Loyalty.", "Respect."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Hard work is the key to achieving success and prosperity."),
-      QuizQuestion(
-          question:
-              "35. In planning personal budget, it is necessary to ensure that\n(BECE 2014 Q36)",
-          options: [
-            "Expenditure is more than income.",
-            "Income is more than expenditure.",
-            "Expenditure equals income.",
-            "Income is less than expenditure."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "A good budget ensures that income is greater than expenditure so that savings can be made."),
-      QuizQuestion(
-          question: "36. Leisure is best used to\n(BECE 2014 Q38)",
-          options: [
-            "Perform house chores.",
-            "Attend church service.",
-            "Acquire new skills.",
-            "Attend extra classes."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Leisure can be used productively to acquire useful skills and talents."),
-      QuizQuestion(
-          question:
-              "37. Which of the following animals provides security to man?\n(BECE 2015 Q6)",
-          options: ["Goat", "Donkey", "Dog", "Cow"],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Dogs are commonly kept to provide security by guarding homes and property."),
-      QuizQuestion(
-          question: "38. Money is used wisely when\n(BECE 2015 Q32)",
-          options: [
-            "Things are bought on credit.",
-            "It is spent on expensive things.",
-            "It is spent on things budgeted for.",
-            "It is spent on poor people."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Wise use of money involves spending according to a planned budget."),
-      QuizQuestion(
-          question: "39. Saving money helps the individual to\n(BECE 2015 Q35)",
-          options: [
-            "Plan for the future.",
-            "Become rich overnight.",
-            "Attend school regularly.",
-            "Make more friends."
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Saving money prepares a person for future needs and emergencies."),
-      QuizQuestion(
-          question:
-              "40. Which of the following activities best offer relaxation?\n(BECE 2015 Q38)",
-          options: ["Painting", "Eating", "Running", "Reading"],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "Painting is a leisure activity that provides relaxation and recreation."),
-      QuizQuestion(
-          question:
-              "41. Work done to earn income can be described as\n(BECE 2015 Q40)",
-          options: [
-            "Home work.",
-            "Community work.",
-            "Occupational work.",
-            "School work."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Occupational work refers to work done to earn income or wages."),
-      QuizQuestion(
-          question: "42. Laziness always leads to\n(BECE 2016 Q33)",
-          options: [
-            "Misunderstanding.",
-            "Misuse of wealth.",
-            "Sickness.",
-            "Waste of time."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Laziness causes people to waste valuable time instead of engaging in productive work."),
-      QuizQuestion(
-          question: "43. Idleness means\n(BECE 2016 Q34)",
-          options: [
-            "Enjoying siesta.",
-            "Doing nothing.",
-            "Having fun.",
-            "Playing games."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Idleness is the habit of doing nothing useful or productive."),
-      QuizQuestion(
-          question:
-              "44. Which of the following behavior is not a positive attitude to work?\n(BECE 2016 Q35)",
-          options: ["Hard work", "Lateness", "Punctuality", "Truthfulness"],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Lateness is a negative work habit because it reduces efficiency and reliability."),
-      QuizQuestion(
-          question: "45. Workers go on strike to\n(BECE 2016 Q36)",
-          options: [
-            "Attend political rallies.",
-            "Demand better conditions of service.",
-            "Destroy company property.",
-            "Have some rest."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Workers go on strike to demand improved salaries, welfare and working conditions."),
-      QuizQuestion(
-          question: "46. The best way of handling money is by\n(BECE 2016 Q38)",
-          options: [
-            "Writing scripture words on it.",
-            "Crumpling it into our pockets.",
-            "Holding it with wet hands.",
-            "Folding it with clean hands."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Money should be folded neatly and handled with clean hands to keep it clean and in good condition."),
-      QuizQuestion(
-          question: "47. The saying, time is money means\n(BECE 2016 Q40)",
-          options: [
-            "Luck comes with time.",
-            "Money can be made with time.",
-            "Opportunities lost cannot be recovered.",
-            "Wealth can be acquired with patience."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "The saying emphasizes that once opportunities are lost through poor use of time, they cannot easily be recovered."),
-      QuizQuestion(
-          question: "48. To earn a living, one needs to be\n(BECE 2017 Q32)",
-          options: ["Healthy.", "Hard working.", "Prayerful.", "Responsible."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Hard work is the key to earning a living and achieving financial independence."),
-      QuizQuestion(
-          question:
-              "49. Which of the following best offers relaxation?\n(BECE 2017 Q35)",
-          options: ["Eating", "Painting", "Running", "Reading"],
-          correctIndex: 1,
-          difficulty: "Medium",
-          explanation:
-              "Painting is a leisure activity that promotes relaxation and creativity."),
-      QuizQuestion(
-          question: "50. Saving money helps the individual to\n(BECE 2017 Q36)",
-          options: [
-            "Become rich overnight.",
-            "Attend school regularly.",
-            "Make more friends.",
-            "Plan for the future."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Saving prepares an individual for future needs and unforeseen emergencies."),
-      QuizQuestion(
-          question:
-              "51. The most important requirement for a happy and responsible life is\n(BECE 2017 Q37)",
-          options: ["Courage.", "Hard work.", "Loyalty.", "Respect."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Hard work is the foundation of a happy, responsible and prosperous life."),
-      QuizQuestion(
-          question: "52. A positive attitude towards work is\n(BECE 2017 Q38)",
-          options: ["Commitment.", "Graciousness.", "Intelligence.", "Purity."],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Commitment demonstrates dedication and responsibility towards one's work."),
-      QuizQuestion(
-          question:
-              "53. In planning personal budget, it is necessary to ensure that\n(BECE 2017 Q39)",
-          options: [
-            "Expenditure is equal to income.",
-            "Expenditure is more than income.",
-            "Income is less than expenditure.",
-            "Income is more than expenditure."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "A sound personal budget ensures that income exceeds expenditure so savings can be made."),
-      QuizQuestion(
-          question:
-              "54. Which of the following factors is a benefit of honest work?\n(BECE 2018 Q34)",
-          options: [
-            "Becoming financially sound",
-            "Becoming popular in town",
-            "Building the body size",
-            "Having time for leisure"
-          ],
-          correctIndex: 0,
-          difficulty: "Easy",
-          explanation:
-              "Honest work provides income that helps a person become financially stable."),
-      QuizQuestion(
-          question:
-              "55. Work done to earn income can be described as\n(BECE 2018 Q36)",
-          options: [
-            "Community work.",
-            "Home work.",
-            "Occupational activity.",
-            "School work."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Occupational activity refers to work done primarily to earn income."),
-      QuizQuestion(
-          question:
-              "56. Lazy people get old very fast. This means that hard work brings about\n(BECE 2019 Q25)",
-          options: [
-            "Comfort.",
-            "Development.",
-            "Good health.",
-            "Great wealth."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Hard work keeps the body active and contributes to good health."),
-      QuizQuestion(
-          question:
-              "57. To succeed in academic work, the individual needs to engage in serious\n(BECE 2019 Q37)",
-          options: ["Farming.", "Learning.", "Prayers.", "Discussions."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Academic success depends primarily on serious learning and study."),
-      QuizQuestion(
-          question:
-              "58. Visits to tourist centres help students to\n(BECE 2019 Q39)",
-          options: [
-            "Become more adventurous.",
-            "Make more friends.",
-            "Overcome stress and boredom.",
-            "Pass their examinations."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Tourist visits provide recreation and help reduce stress and boredom."),
-      QuizQuestion(
-          question: "59. To work means using\n(BECE 2020 Q37)",
-          options: [
-            "Mental and moral power.",
-            "Mental and physical power.",
-            "Physical and moral effort.",
-            "Spiritual and will power."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Work involves the use of both mental and physical effort to achieve a goal."),
-      QuizQuestion(
-          question:
-              "60. Money offers comfort in life because it\n(BECE 2020 Q38)",
-          options: [
-            "Helps to make people popular.",
-            "Makes people become honest.",
-            "Helps in acquiring basic needs.",
-            "Promotes fear of God in people."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Money provides comfort by enabling people to obtain their basic needs."),
-      QuizQuestion(
-          question:
-              "61. The time wasted cannot be recovered. This saying means\n(BECE 2020 Q39)",
-          options: [
-            "Time cannot be recalled.",
-            "Time is very precious.",
-            "Opportunity missed is lost.",
-            "Punctuality leads to success."
-          ],
-          correctIndex: 2,
-          difficulty: "Medium",
-          explanation:
-              "Once an opportunity is lost through poor use of time, it cannot be regained."),
-      QuizQuestion(
-          question:
-              "62. To relax and recover lost energy, one needs to\n(BECE 2021 Q2)",
-          options: [
-            "Check his or her pressure.",
-            "Eat a well-balanced diet.",
-            "Engage in healthy exercise.",
-            "Have enough leisure."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Adequate leisure allows the body and mind to rest and regain energy."),
-      QuizQuestion(
-          question:
-              "63. To achieve success in examination, one has to engage in\n(BECE 2021 Q11)",
-          options: ["Fasting.", "Hard work.", "Prayers.", "Smartness."],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Success in examinations depends primarily on hard work and consistent study."),
-      QuizQuestion(
-          question:
-              "64. Proper use of leisure helps the individual to\n(BECE 2021 Q15)",
-          options: [
-            "Do God's work.",
-            "Earn money.",
-            "Remove boredom.",
-            "Work hard."
-          ],
-          correctIndex: 2,
-          difficulty: "Easy",
-          explanation:
-              "Proper use of leisure provides relaxation and helps remove boredom."),
-      QuizQuestion(
-          question:
-              "65. The saying that money flies implies, money\n(BECE 2021 Q22)",
-          options: [
-            "Can be spent easily.",
-            "Can take you anywhere.",
-            "Is controlled by evil.",
-            "Should be used wisely."
-          ],
-          correctIndex: 0,
-          difficulty: "Medium",
-          explanation:
-              "The saying means money can easily disappear if it is not carefully managed."),
-      QuizQuestion(
-          question:
-              "66. Money must be carefully handled because it\n(BECE 2021 Q38)",
-          options: [
-            "Can buy expensive things.",
-            "Can easily get missing.",
-            "Can make a person happy.",
-            "Is expensive to print."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Money should be handled carefully because it can easily get lost or misplaced."),
-      QuizQuestion(
-          question:
-              "67. Immoral life style must be avoided because they may lead to the following situations except\n(BECE 2023 Q5)",
-          options: [
-            "Poverty.",
-            "Dropping out of school.",
-            "Premature parenting.",
-            "High self-esteem."
-          ],
-          correctIndex: 3,
-          difficulty: "Easy",
-          explanation:
-              "Immoral lifestyles lead to many negative consequences, but not to high self-esteem."),
-      QuizQuestion(
-          question: "68. Idleness can be associated with\n(BECE 2023 Q15)",
-          options: [
-            "Procrastination.",
-            "Laziness.",
-            "Mismanagement.",
-            "Leisure."
-          ],
-          correctIndex: 1,
-          difficulty: "Easy",
-          explanation:
-              "Idleness is closely associated with laziness, which discourages productive work."),
+question:
+"1. The statement that time is money, implies that time is\n(BECE 2005 Q38)",
+options: ["Precious", "Limitless", "Life", "Everything"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"The statement emphasizes that time is valuable and should be used wisely."),
+  QuizQuestion(
+      question:
+          "2. We contribute to church dues and offering to\n(BECE 2001 Q33)",
+      options: [
+        "Enable the church to develop spiritually",
+        "Promote deliverance service",
+        "Help pastors preach well",
+        "Help evangelize and care for the poor"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Church dues and offerings support evangelism and help the church care for people in need."),
+
+  QuizQuestion(
+      question:
+          "3. Hard work is most often crowned with\n(BECE 2007 Q24)",
+      options: ["Favours", "Success", "Popularity", "Obedience"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work commonly leads to success and achievement."),
+
+  QuizQuestion(
+      question:
+          "4. In school's speech and prize giving day, the best pupil is rewarded with a\n(BECE 2003 Q25)",
+      options: ["Book prizes", "Cash prize", "Testimonial", "Certificate"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Book prizes are traditionally given to outstanding pupils during school speech and prize-giving days."),
+
+  QuizQuestion(
+      question:
+          "5. The best way a worker can ask for a good salary is through\n(BECE 2008 Q26)",
+      options: ["Negotiation", "Confrontation", "Strike", "Threat"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Negotiation provides a peaceful and responsible way to discuss better wages."),
+
+  QuizQuestion(
+      question:
+          "6. It is a bad habit to use one's leisure time in\n(BECE 1999 Q28)",
+      options: [
+        "Reading a story book",
+        "Telling stories",
+        "Playing games",
+        "Gossiping about friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping is an unproductive and potentially harmful use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "7. A happy and prosperous life depends on\n(BECE 2002A Q31)",
+      options: ["Obedience", "Respect", "Courage", "Hardwork"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Hard work contributes to achievement, self-reliance and a prosperous life."),
+
+  QuizQuestion(
+      question:
+          "8. There is dignity in labour. This statement means\n(BECE 2006 Q25)",
+      options: [
+        "Only office work brings recognition",
+        "Some jobs are more dignified than others",
+        "We should work among all classes of people",
+        "We need to be proud of our work"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dignity in labour means that honest work deserves respect and people should take pride in their work."),
+
+  QuizQuestion(
+      question:
+          "9. The expression work and happiness implies one\n(BECE 2006 Q28)",
+      options: [
+        "Likes working always",
+        "Dances whilst working",
+        "Works whilst playing",
+        "Enjoys the fruit of his labour"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Work brings happiness when a person enjoys the benefits or fruits of his or her labour."),
+
+  QuizQuestion(
+      question:
+          "10. One of the benefits of working hard is\n(BECE 2001 Q40)",
+      options: [
+        "Putting up good house",
+        "Having leisure",
+        "Becoming financially self-reliant",
+        "Be popular and respectful"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hard work can enable a person to earn income and become financially self-reliant."),
+
+  QuizQuestion(
+      question:
+          "11. A happy and prosperous life depends on\n(BECE 2011 Q39)",
+      options: ["Obedience", "Hard work", "Respect", "Courage"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work is an important requirement for achieving a prosperous life."),
+
+  QuizQuestion(
+      question:
+          "12. Leisure time is used for\n(BECE 2004 Q28)",
+      options: [
+        "Playing games",
+        "Congregational worship",
+        "Doing house chores",
+        "Weeding the house"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Playing games is a recreational activity that can be undertaken during leisure time."),
+
+  QuizQuestion(
+      question:
+          "13. People normally save money in order to\n(BECE 1999 Q22)",
+      options: [
+        "Use their income wisely",
+        "Help the government to generate more revenue",
+        "Be generous to people",
+        "Prepare for the future"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Saving money provides resources for future needs and emergencies."),
+
+  QuizQuestion(
+      question:
+          "14. Good working habits include all the following except\n(BECE 2007 Q21)",
+      options: ["Honesty", "Reliability", "Commitment", "Faith"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Honesty, reliability and commitment are direct positive working habits, while faith is not specifically a working habit."),
+
+  QuizQuestion(
+      question:
+          "15. The term idleness in Religious and Moral Education means\n(BECE 2005 Q31)",
+      options: ["Having fun", "Enjoying siesta", "Wasting time", "Playing games"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Idleness involves wasting time instead of engaging in useful activities."),
+
+  QuizQuestion(
+      question:
+          "16. As pupils, we should use our leisure time to\n(BECE 2002A Q23)",
+      options: [
+        "Play games",
+        "Do our homework",
+        "Do household chores",
+        "Go to church"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Leisure time can appropriately be used for recreational activities such as playing games."),
+
+  QuizQuestion(
+      question:
+          "17. It is a bad habit to use one's leisure time in\n(BECE 2011 Q29)",
+      options: [
+        "Playing games",
+        "Telling stories",
+        "Reading story books",
+        "Gossiping about friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping about others is an improper use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following is the best way of handling money?\n(BECE 2002A Q39)",
+      options: [
+        "Keeping it under the breast",
+        "Tying it in a handkerchief",
+        "Crumpling it into a savings box",
+        "Folding it neatly into the pocket"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Money should be handled carefully and kept neatly rather than crumpled or stored unhygienically."),
+
+  QuizQuestion(
+      question:
+          "19. The best way to enjoy peace and success in life is to\n(BECE 2008 Q23)",
+      options: [
+        "Accumulate wealth",
+        "Fight for one's right always",
+        "Be very strict on others",
+        "Develop the spirit of responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Being responsible promotes good relationships, peace and success."),
+
+  QuizQuestion(
+      question:
+          "20. The importance of work is to help us to\n(BECE 2003 Q38)",
+      options: [
+        "Be honest in our daily activities",
+        "Plan our duties at all time",
+        "Be reliable in the society",
+        "Keep healthy and active minds"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Productive work keeps the body and mind active and contributes to well-being."),
+
+  QuizQuestion(
+      question:
+          "21. Which of the following is not true about money? It is\n(BECE 2008 Q27)",
+      options: [
+        "Owned by the state",
+        "The accepted means of exchange",
+        "The official currency of a country",
+        "The exchange goods for goods"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Exchanging goods directly for other goods is barter, not money."),
+
+  QuizQuestion(
+      question:
+          "22. The expression, work and happiness means\n(BECE 2002A Q24)",
+      options: [
+        "When one works, one becomes happy",
+        "Enjoying the fruits of one's labour",
+        "Singing whilst working",
+        "Always working"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Work and happiness refers to enjoying the benefits that result from one's labour."),
+
+  QuizQuestion(
+      question:
+          "23. The saying time is money, means\n(BECE 2012 Q31)",
+      options: [
+        "Time fetches money",
+        "More time spent on work, brings profit",
+        "Money is not gain without spending time",
+        "Good use of time brings profit"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Using time productively can produce useful and profitable results."),
+
+  QuizQuestion(
+      question:
+          "24. Leisure time is described as a time for\n(BECE 2001 Q30)",
+      options: [
+        "Scrubbing the toilet and the kitchen",
+        "Going to church to worship god",
+        "Attending school and doing homework",
+        "Playing indoor and outdoor games"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Leisure is free time that can be used for recreation such as indoor and outdoor games."),
+
+  QuizQuestion(
+      question:
+          "25. Work help us to become\n(BECE 2004 Q24)",
+      options: ["Reliable", "Sincere", "Healthy", "Courteous"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Work helps keep people physically and mentally active and healthy."),
+
+  QuizQuestion(
+      question:
+          "26. Humankind can learn a lot about the use of time from the\n(BECE 2006 Q37)",
+      options: ["Hare", "Ant", "Tortoise", "Bee"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The ant is commonly associated with diligence, preparation and productive use of time."),
+
+  QuizQuestion(
+      question:
+          "27. The most important requirement for a happy and prosperous life is\n(BECE 2007 Q24)",
+      options: ["Loyalty", "Respect", "Courage", "Hard work"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Hard work contributes significantly to achievement and prosperity."),
+
+  QuizQuestion(
+      question:
+          "28. In which way can money help spread germs?\n(BECE 2005 Q34)",
+      options: [
+        "Keeping it in a purse for a long period",
+        "Handling it with hands",
+        "Crumpling it in one's pockets",
+        "Keeping it in one's brassiere"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Keeping money close to the body in unhygienic places can contribute to contamination and the spread of germs."),
+
+  QuizQuestion(
+      question:
+          "29. Humankind work in order to\n(BECE 2012 Q39)",
+      options: [
+        "Go to heaven",
+        "Beloved by everyone",
+        "Win souls for Christ",
+        "Cater for one's basic needs"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "One important purpose of work is to earn resources needed to meet basic needs."),
+
+  QuizQuestion(
+      question:
+          "30. Workers go on strike to\n(BECE 2013 Q21)",
+      options: [
+        "Have some rest",
+        "Demand better conditions of service",
+        "Destroy company property",
+        "Attend political rallies"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Workers may strike to press for improved wages or other conditions of service."),
+
+  QuizQuestion(
+      question:
+          "31. Which of the following is not a positive attribute to work?\n(BECE 2013 Q26)",
+      options: ["Hard working", "Lateness", "Punctuality", "Truthfulness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Lateness is a negative work habit, unlike hard work, punctuality and truthfulness."),
+
+  QuizQuestion(
+      question:
+          "32. A wrong way to use one's leisure is\n(BECE 2013 Q33)",
+      options: ["Reading story books", "Gossiping", "Playing games", "Telling stories"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping is an inappropriate and potentially harmful use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "33. A positive attitude towards work is\n(BECE 2014 Q31)",
+      options: ["Commitment", "Graciousness", "Intelligence", "Purity"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Commitment is a positive attitude that encourages dedication to one's work."),
+
+  QuizQuestion(
+      question:
+          "34. The most important requirement for a happy and prosperous life is\n(BECE 2014 Q5)",
+      options: ["Courage", "Hard work", "Loyalty", "Respect"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work is an important factor in achieving a happy and prosperous life."),
+
+  QuizQuestion(
+      question:
+          "35. In planning personal budget, it is necessary to ensure that\n(BECE 2014 Q36)",
+      options: [
+        "Expenditure is more than income",
+        "Income is more than expenditure",
+        "Expenditure equals income",
+        "Income is less than expenditure"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Keeping income above expenditure allows a person to save and avoid unnecessary financial difficulties."),
+
+  QuizQuestion(
+      question:
+          "36. Leisure is best used to\n(BECE 2014 Q38)",
+      options: [
+        "Perform house chores",
+        "Attend church service",
+        "Acquire new skills",
+        "Attend extra classes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Leisure can be used productively to learn and acquire useful new skills."),
+
+  QuizQuestion(
+      question:
+          "37. Which of the following animals provides security to man?\n(BECE 2015 Q6)",
+      options: ["Goat", "Donkey", "Dog", "Cow"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dogs are commonly used to guard homes and provide security."),
+
+  QuizQuestion(
+      question:
+          "38. Money is used wisely when\n(BECE 2015 Q32)",
+      options: [
+        "Things are bought on credit",
+        "It is spent on expensive things",
+        "It is spent on things budgeted for",
+        "It is spent on poor people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Following a budget helps ensure that money is spent according to planned needs."),
+
+  QuizQuestion(
+      question:
+          "39. Saving money helps the individual to\n(BECE 2015 Q35)",
+      options: [
+        "Plan for the future",
+        "Become rich overnight",
+        "Attend school regularly",
+        "Make more friends"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Savings provide financial resources for future needs and plans."),
+
+  QuizQuestion(
+      question:
+          "40. Which of the following activities best offer relaxation?\n(BECE 2015 Q38)",
+      options: ["Painting", "Eating", "Running", "Reading"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Reading can be a relaxing leisure activity that helps reduce stress and boredom."),
+
+  QuizQuestion(
+      question:
+          "41. Work done to earn income can be described as\n(BECE 2015 Q40)",
+      options: ["Home work", "Community work", "Occupational work", "School work"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Occupational work refers to work or employment undertaken to earn income."),
+
+  QuizQuestion(
+      question:
+          "42. Laziness always leads to\n(BECE 2016 Q33)",
+      options: ["Misunderstanding", "Misuse of wealth", "Sickness", "Waste of time"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Laziness prevents productive activity and therefore leads to wasted time."),
+
+  QuizQuestion(
+      question:
+          "43. Idleness means\n(BECE 2016 Q34)",
+      options: ["Enjoying siesta", "Doing nothing", "Having fun", "Playing games"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Idleness means remaining inactive or doing nothing productive."),
+
+  QuizQuestion(
+      question:
+          "44. Which of the following behavior is not a positive attitude to work?\n(BECE 2016 Q35)",
+      options: ["Hark work", "Lateness", "Punctuality", "Truthfulness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Lateness is a negative attitude to work because it shows poor time management and lack of punctuality."),
+
+  QuizQuestion(
+      question:
+          "45. Workers go on strike to\n(BECE 2016 Q36)",
+      options: [
+        "Attend political rallies",
+        "Demand better conditions of service",
+        "Destroy company property",
+        "Have some rest"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A strike may be used by workers to demand improvements in their conditions of service."),
+
+  QuizQuestion(
+      question:
+          "46. The best way of handling money is by\n(BECE 2016 Q38)",
+      options: [
+        "Writing scripture words on it",
+        "Crumpling it into our pockets",
+        "Holding it with wet hands",
+        "Holding it with clean hands"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Handling money with clean hands helps keep it clean and in good condition."),
+
+  QuizQuestion(
+      question:
+          "47. The saying, time is money means\n(BECE 2016 Q40)",
+      options: [
+        "Luck comes with time",
+        "Money can be made with time",
+        "Opportunities lost cannot be recovered",
+        "Wealth can be acquired with patience"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The saying emphasizes the value of time because opportunities lost through wasted time may not return."),
+
+  QuizQuestion(
+      question:
+          "48. To earn a living, one needs to be\n(BECE 2017 Q32)",
+      options: ["Healthy", "Hard working", "Prayerful", "Responsible"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work enables a person to engage productively in activities that generate income."),
+
+  QuizQuestion(
+      question:
+          "49. Which of the following best offers relaxation?\n(BECE 2017 Q35)",
+      options: ["Eating", "Painting", "Running", "Reading"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Reading can provide relaxation and help reduce stress during leisure time."),
+
+  QuizQuestion(
+      question:
+          "50. Saving money helps the individual to\n(BECE 2017 Q36)",
+      options: [
+        "Become rich overnight",
+        "Attend school regularly",
+        "Make more friends",
+        "Plan for the future"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Saving provides money that can be used for future plans, needs and emergencies."),
+
+  QuizQuestion(
+      question:
+          "51. The most important requirement for a happy and responsible life is\n(BECE 2017 Q37)",
+      options: ["Courage", "Hard work", "Loyalty", "Respect"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work promotes responsibility, achievement and self-reliance."),
+
+  QuizQuestion(
+      question:
+          "52. A positive attitude towards work is\n(BECE 2017 Q38)",
+      options: ["Commitment", "Graciousness", "Intelligence", "Purity"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Commitment means being dedicated and responsible toward one's work."),
+
+  QuizQuestion(
+      question:
+          "53. In planning personal budget, it is necessary to ensure that\n(BECE 2017 Q39)",
+      options: [
+        "Expenditure is equal to income",
+        "Expenditure is more than income",
+        "Income is less than expenditure",
+        "Income is more than expenditure"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A sound personal budget should keep expenditure below income so that some money can be saved."),
+
+  QuizQuestion(
+      question:
+          "54. Which of the following factors is a benefit of hard work?\n(BECE 2018 Q34)",
+      options: [
+        "Becoming financially sound",
+        "Becoming popular in town",
+        "Building the body size",
+        "Having time for leisure"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hard work can improve a person's financial position and promote self-reliance."),
+
+  QuizQuestion(
+      question:
+          "55. Work done to earn income can be described as\n(BECE 2018 Q36)",
+      options: [
+        "Community work",
+        "Home work",
+        "Occupational activity",
+        "School work"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Occupational activity is work performed as an occupation to earn income."),
+
+  QuizQuestion(
+      question:
+          "56. Lazy people get old very fast. This implies that hard work brings about\n(BECE 2019 Q25)",
+      options: ["Comfort", "Development", "Good health", "Great wealth"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Productive physical and mental activity can contribute to good health and an active life."),
+
+  QuizQuestion(
+      question:
+          "57. To succeed in academic work, the individual needs to engage in serious\n(BECE 2019 Q37)",
+      options: ["Farming", "Learning", "Prayers", "Discussions"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Serious learning and study are necessary for academic success."),
+
+  QuizQuestion(
+      question:
+          "58. Visits to tourist centres help students to\n(BECE 2019 Q39)",
+      options: [
+        "Become more adventurous",
+        "Make more friends",
+        "Overcome stress and boredom",
+        "Pass their examinations"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Recreational visits can provide relaxation and help reduce stress and boredom."),
+
+  QuizQuestion(
+      question:
+          "59. To work means using\n(BECE 2020 Q37)",
+      options: [
+        "Mental and moral power",
+        "Mental and physical power",
+        "Physical and moral effort",
+        "Spiritual and will power"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Work generally involves the use of mental or physical effort to accomplish a task."),
+
+  QuizQuestion(
+      question:
+          "60. Money offers comfort in life because it\n(BECE 2020 Q38)",
+      options: [
+        "Helps to make people popular",
+        "Makes people become honest",
+        "Helps in acquiring basic needs",
+        "Promotes fear of God in people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Money enables people to obtain basic needs such as food, clothing and shelter."),
+
+  QuizQuestion(
+      question:
+          "61. The time wasted cannot be recovered. This saying means\n(BECE 2020 Q39)",
+      options: [
+        "Time cannot be recalled",
+        "Time is very precious",
+        "Opportunity missed is lost",
+        "Punctuality leads to success"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Time that is wasted may result in opportunities being permanently lost."),
+
+  QuizQuestion(
+      question:
+          "62. To relax and recover lost energy, one needs to\n(BECE 2021 Q2)",
+      options: [
+        "Check his or her pressure",
+        "Eat a well-balanced diet",
+        "Engage in healthy exercise",
+        "Have enough leisure"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Adequate leisure provides time for rest, relaxation and recovery of energy."),
+
+  QuizQuestion(
+      question:
+          "63. To achieve success in examination, one has to engage in\n(BECE 2021 Q11)",
+      options: ["Fasting", "Hard work", "Prayers", "Smartness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work through regular study and preparation is necessary for examination success."),
+
+  QuizQuestion(
+      question:
+          "64. Proper use of leisure helps the individual to\n(BECE 2021 Q15)",
+      options: ["Do god's work", "Earn money", "Remove boredom", "Work hard"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Healthy leisure activities provide recreation and help remove boredom."),
+
+  QuizQuestion(
+      question:
+          "65. The saying that money flies implies money\n(BECE 2021 Q22)",
+      options: [
+        "Can be spent easily",
+        "Can take you anywhere",
+        "Is controlled by the evil",
+        "Should be used wisely"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The saying suggests that money can disappear quickly through spending."),
+
+  QuizQuestion(
+      question:
+          "66. Money must be carefully handled because it\n(BECE 2021 Q38)",
+      options: [
+        "Can buy expensive things",
+        "Can easily get missing",
+        "Can make a person happy",
+        "Is expensive to print"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Money can easily be lost if it is not handled and stored carefully."),
+
+  QuizQuestion(
+      question:
+          "67. Immoral life style must be avoided because they may lead to the following situations except\n(BECE 2023 Q5)",
+      options: [
+        "Poverty",
+        "Dropping out of school",
+        "Premature parenting",
+        "High self-esteem"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "High self-esteem is a positive condition and is not a harmful consequence of an immoral lifestyle."),
+
+  QuizQuestion(
+      question:
+          "68. Idleness can be associated with\n(BECE 2023 Q15)",
+      options: ["Procrastination", "Laziness", "Mismanagement", "Leisure"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Idleness is closely associated with laziness and lack of productive activity."),
+    ],
+  ),
+
+  "Religious & Moral Education JHS2 s1 ss1 - God, His Creation and Attributes": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. What day, according to Christian teaching, did God create man and woman on?\n(BECE 2000 Q1)",
+options: ["1st day", "2nd day", "3rd day", "6th day"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"According to Christian teaching, God created man and woman on the sixth day."),
+
+  QuizQuestion(
+      question:
+          "2. God gave Noah and his people the rainbow to remember\n(BECE 1999 Q3)",
+      options: [
+        "The floods which destroy the world",
+        "The disobedience of the idol worshippers",
+        "That God would not destroy the world with water again",
+        "The building of the ark"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The rainbow was a sign of God's covenant that He would not destroy the world with a flood again."),
+
+  QuizQuestion(
+      question:
+          "3. Bringing forth children shows that man is\n(BECE 1999 Q12)",
+      options: [
+        "Sharing in God's creation",
+        "Taking God's position",
+        "Trying to be like God",
+        "Feeling self-sufficient"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Procreation allows human beings to share in God's work of creation."),
+
+  QuizQuestion(
+      question:
+          "4. Christians, Muslims and Traditional worshippers believe that the world was created by\n(BECE 1999 Q7)",
+      options: ["A man", "An angel", "The holy spirit", "God"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christians, Muslims and Traditional worshippers believe that God created the world."),
+
+  QuizQuestion(
+      question:
+          "5. Which of the following attributes of God shows that He has the whole world in His hands?\n(BECE 2000 Q1)",
+      options: [
+        "Omnipotence",
+        "Omnipresence",
+        "Faithfulness",
+        "Kindness"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence means that God is all-powerful and has authority over all creation."),
+
+  QuizQuestion(
+      question:
+          "6. Satan (Iblis) was cursed by Allah after the creation of man because he\n(BECE 2000 Q5)",
+      options: [
+        "Was made from fire",
+        "Was the leader of the angels",
+        "Refused to bow down before Adam",
+        "Influenced Adam and Hawa to fall"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Iblis was cursed because he refused Allah's command to bow before Adam."),
+
+  QuizQuestion(
+      question:
+          "7. The revelation of the whole Qur'an took\n(BECE 2000 Q7)",
+      options: ["23 years", "24 years", "25 years", "26 years"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Holy Qur'an was revealed to Prophet Muhammad over a period of about 23 years."),
+
+  QuizQuestion(
+      question:
+          "8. One way of helping to protect the environment from degradation is to\n(BECE 2000 Q12)",
+      options: [
+        "Rear more animals",
+        "Encourage small-scale mining",
+        "Cover the earth's surface with sand",
+        "Plant more trees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Planting more trees helps protect the environment and restore vegetation."),
+
+  QuizQuestion(
+      question:
+          "9. The first ark was built to save God's people from the flood. This ark was built by\n(BECE 2000 Q30)",
+      options: ["David", "Abraham", "Noah", "Solomon"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Noah built the ark according to God's instructions to survive the flood."),
+
+  QuizQuestion(
+      question:
+          "10. God is Omnipresent. This means that God\n(BECE 2001 Q1)",
+      options: [
+        "Is all-powerful",
+        "Knows everything",
+        "Is everywhere",
+        "Is ever gracious"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Omnipresent means that God is present everywhere."),
+
+  QuizQuestion(
+      question:
+          "11. God blessed and made the Sabbath holy because it was the day\n(BECE 2001 Q8)",
+      options: [
+        "The Israelites fought their wars",
+        "For settling all disputes",
+        "Set aside for the Passover feast",
+        "That God rested from creation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "God blessed the Sabbath because He rested from His work of creation on that day."),
+
+  QuizQuestion(
+      question:
+          "12. On the fifth day of creation, God commanded\n(BECE 2001 Q9)",
+      options: [
+        "Lights to appear in the sky to separate day from night",
+        "Water and air to be filled with many kinds of living creatures",
+        "Water to come together in one place so that the land will appear",
+        "The water under the firmament to separate from that above the firmament"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "On the fifth day, God created creatures of the sea and birds of the air."),
+
+  QuizQuestion(
+      question:
+          "13. The Omnipresence of God means that He is\n(BECE 2002A Q1)",
+      options: [
+        "Everywhere",
+        "All knowing",
+        "Always alive",
+        "All powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omnipresence means that God is present everywhere."),
+
+  QuizQuestion(
+      question:
+          "14. Which of the following activities destroys our vegetation?\n(BECE 2002A Q33)",
+      options: [
+        "Cutting down trees without replacing another",
+        "Killing birds for games",
+        "Constructing drains everywhere",
+        "Cleansing the land for building projects"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Cutting down trees without replacing them causes deforestation and destroys vegetation."),
+
+  QuizQuestion(
+      question:
+          "15. By creating the world from one stage to another, God wanted humankind to do things in\n(BECE 2002A Q31)",
+      options: [
+        "A hurried way",
+        "An official way",
+        "A comfortable way",
+        "An orderly way"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The orderly stages of creation teach humankind to do things in an orderly manner."),
+
+  QuizQuestion(
+      question:
+          "16. The effect of Adam and Eve eating the forbidden fruit was that it\n(BECE 2002B Q4)",
+      options: [
+        "Killed man",
+        "Led man to sin",
+        "Brought enmity between them",
+        "Made man to till the land"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Adam and Eve's disobedience introduced sin into human life."),
+
+  QuizQuestion(
+      question:
+          "17. The curse of the snake by God relates to the\n(BECE 2002B Q31)",
+      options: [
+        "Beginning of enmity between the snake and humankind",
+        "Origin of separation between God and humankind",
+        "Establishment of better relationship between them and God",
+        "Curse of the snake by Adam"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The curse established enmity between the serpent and humankind."),
+
+  QuizQuestion(
+      question:
+          "18. God created the sky on the\n(BECE 2003 Q1)",
+      options: ["First day", "Second day", "Third day", "Fourth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, God created the sky on the second day."),
+
+  QuizQuestion(
+      question:
+          "19. According to the Holy Bible, God created the sun, moon and stars in order to\n(BECE 2004 Q1)",
+      options: [
+        "Give mankind the times and seasons",
+        "Bless mankind with light",
+        "Give mankind long life",
+        "Direct movements of people and animals"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The heavenly bodies help mark days, years, times and seasons."),
+
+  QuizQuestion(
+      question:
+          "20. In the book of Genesis, the world was created in\n(BECE 2004 Q1)",
+      options: ["3 days", "5 days", "6 days", "7 days"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, God completed His work of creation in six days and rested on the seventh."),
+
+  QuizQuestion(
+      question:
+          "21. The snake was an animal created by God. It was used to\n(BECE 2004 Q9)",
+      options: ["Give man meat", "Kill man", "Lead man to sin", "Tempt man"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "In the Biblical account, the serpent was used to tempt human beings."),
+
+  QuizQuestion(
+      question:
+          "22. The environment can be protected from degradation by\n(BECE 2004 Q19)",
+      options: [
+        "Rearing more animals",
+        "Continuous farming",
+        "Planting more trees",
+        "Extensive lumbering"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Planting trees helps restore vegetation and protects the environment from degradation."),
+
+  QuizQuestion(
+      question:
+          "23. God commanded the earth to produce plants on\n(BECE 2005 Q1)",
+      options: [
+        "The second day",
+        "The third day",
+        "The fourth day",
+        "The fifth day"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, plants were created on the third day."),
+
+  QuizQuestion(
+      question:
+          "24. In the creation story, God ordered Adam to\n(BECE 2005 Q2)",
+      options: [
+        "Subdue and till the earth",
+        "Take good care of Eve",
+        "Worship Him regularly",
+        "Eat all the fruit in the Garden"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Adam was given responsibility to work, care for and exercise stewardship over the earth."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following attributes of God is not manifested in the creation story?\n(BECE 2005 Q3)",
+      options: [
+        "All knowing",
+        "Ever forgiving",
+        "All powerful",
+        "Ever present"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "God's forgiveness is not directly demonstrated in the creation account."),
+
+  QuizQuestion(
+      question:
+          "26. According to the Holy Bible, what was created on the second day?\n(BECE 2006 Q19)",
+      options: ["Heavens or sky", "Smaller animals", "Plants and trees", "Land"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, the heavens or sky were created on the second day."),
+
+  QuizQuestion(
+      question:
+          "27. The Omniscience of God portrays Him as\n(BECE 2006 Q1)",
+      options: [
+        "All forgiving",
+        "Ever present",
+        "Very gracious",
+        "All knowing"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Omniscience means that God knows everything."),
+
+  QuizQuestion(
+      question:
+          "28. Creation according to the Bible was by means of\n(BECE 2006 Q2)",
+      options: ["Command", "Instruction", "Prayers", "Prophecy"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Biblical creation story describes God bringing creation into existence through His commands."),
+
+  QuizQuestion(
+      question:
+          "29. God revealed Himself in the Garden of Eden to\n(BECE 2006 Q23)",
+      options: ["Moses", "Abraham", "Eve", "Adam"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, God communicated with Adam in the Garden of Eden."),
+
+  QuizQuestion(
+      question:
+          "30. Which of the following attributes of God shows that He has the whole world in view?\n(BECE 2007 Q10)",
+      options: [
+        "Omnipotent",
+        "Creator",
+        "Omnipresent",
+        "Ever forgiving"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "God's omnipresence means that He is present everywhere and has the whole world in view."),
+
+  QuizQuestion(
+      question:
+          "31. According to the Bible, the first thing God created on the earth was\n(BECE 2007 Q16)",
+      options: ["Darkness", "Light", "Plants", "Land"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In Genesis, God's first recorded command in creation brought forth light."),
+
+  QuizQuestion(
+      question:
+          "32. Cain's violent action against Abel was due to\n(BECE 2008 Q1)",
+      options: ["Greed", "Jealousy", "Selfishness", "Misunderstanding"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Cain became jealous of Abel after God accepted Abel's offering."),
+
+  QuizQuestion(
+      question:
+          "33. The Akans called God Twereduampon because He is\n(BECE 2008 Q3)",
+      options: ["Everlasting", "Dependable", "Omnipotent", "Forgiving"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Twereduampon expresses the Akan belief that God is dependable and can be relied upon."),
+
+  QuizQuestion(
+      question:
+          "34. Man was the last creation of God because\n(BECE 2008 Q7)",
+      options: [
+        "God wanted him to be satisfied with all that He had created",
+        "God allowed the serpent to deceive him",
+        "God made a helper fit for him",
+        "God made man to govern all animal and vegetation"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Human beings were created after other things needed for their life had already been provided."),
+
+  QuizQuestion(
+      question:
+          "35. Muslims believe that God created the heavens and the earth in order to\n(BECE 2008 Q8)",
+      options: [
+        "Provide rain on the earth",
+        "Give us rivers and fish",
+        "Make a mighty ocean",
+        "Produce and fill the atmosphere"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The heavens and earth form part of Allah's provision for life, including the provision of rain."),
+
+  QuizQuestion(
+      question:
+          "36. God made man a steward of the earth to\n(BECE 2009 Q18)",
+      options: [
+        "Take care of the environment",
+        "Control all living things",
+        "Feed himself and others",
+        "Name all creatures"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Stewardship means that humans have a responsibility to care for God's creation and the environment."),
+
+  QuizQuestion(
+      question:
+          "37. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2011 Q1)",
+      options: [
+        "Omniscient",
+        "Omnipresent",
+        "Omnipotent",
+        "Sovereign"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Omniscience means that God knows everything, including people's secret deeds."),
+
+  QuizQuestion(
+      question:
+          "38. Adam described Eve as woman because she\n(BECE 2011 Q1)",
+      options: [
+        "Was the mother of all living",
+        "Came from his rib",
+        "Was formed from the sky",
+        "Was made from the dust of the earth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Adam called her woman because she was taken out of man."),
+
+  QuizQuestion(
+      question:
+          "39. One of the reasons why God created the sea is to\n(BECE 2015 Q1)",
+      options: [
+        "Generate hydro-electric power",
+        "Beautify the environment",
+        "Provide habitat for some animals",
+        "Reduce soil erosion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The sea provides a natural habitat for fish and many other aquatic animals."),
+
+  QuizQuestion(
+      question:
+          "40. One of the ways of protecting God's creation is by\n(BECE 2011 Q4)",
+      options: [
+        "Constructing buildings and roads",
+        "Polluting air and water bodies",
+        "Sustaining plant and animal growth",
+        "Engaging in sound farming practices"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Sound farming practices help conserve the environment and protect God's creation."),
+
+  QuizQuestion(
+      question:
+          "41. In Christianity, the sky, seas, animals and other living things came into being through\n(BECE 2011 Q15)",
+      options: [
+        "The laws of God",
+        "God's command",
+        "Natural orders",
+        "The lesser gods"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, creation came into being through God's command."),
+
+  QuizQuestion(
+      question:
+          "42. According to Akan belief, the order of creation is\n(BECE 2012 Q11)",
+      options: [
+        "Earth, rivers, plants and sky",
+        "Rivers, earth, sky and plants",
+        "Sky, earth, rivers and plants",
+        "Plants, rivers, sky and earth"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "According to the Akan creation tradition represented in the question, the order is sky, earth, rivers and plants."),
+
+  QuizQuestion(
+      question:
+          "43. One way by which humankind pollutes the air in a city is by\n(BECE 2012 Q1)",
+      options: [
+        "The use of insecticides",
+        "The use of detergents",
+        "Killing birds and animals",
+        "Smoke from the burning of vehicle fuel"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Smoke and exhaust produced when vehicle fuel burns contribute to air pollution."),
+
+  QuizQuestion(
+      question:
+          "44. The Omniscience of God portrays Him as\n(BECE 2012 Q20)",
+      options: [
+        "All knowing",
+        "Very gracious",
+        "All forgiving",
+        "Ever present"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omniscience means being all-knowing."),
+
+  QuizQuestion(
+      question:
+          "45. The attributes of God refer to His\n(BECE 2013 Q6)",
+      options: [
+        "Names and titles",
+        "Wonderful creation",
+        "Order of creation",
+        "Relationship with people"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The attributes of God are qualities expressed through the names and titles used to describe Him."),
+
+  QuizQuestion(
+      question:
+          "46. God created the two great lights in the heavens in order to\n(BECE 2014 Q1)",
+      options: [
+        "Show His mercy",
+        "Separate night from day",
+        "Give life to the earth",
+        "Provide heat to the earth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The sun and moon were created to govern and distinguish day and night."),
+
+  QuizQuestion(
+      question:
+          "47. God created water bodies mainly to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Water and weather", "Air", "Plants", "Salt"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Water bodies provide water and also contribute to weather processes."),
+
+  QuizQuestion(
+      question:
+          "48. Creation according to the Bible was by means of\n(BECE 2014 Q20)",
+      options: ["Command", "Instruction", "Prayers", "Prophecy"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "According to the Bible, God created through His spoken command."),
+
+  QuizQuestion(
+      question:
+          "49. One of the reasons for which God created the sea is to\n(BECE 2015 Q15)",
+      options: [
+        "Generate hydro-electric power",
+        "Beautify the environment",
+        "Provide habitat for some animals",
+        "Reduce soil erosion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The sea serves as a habitat for fish and many other aquatic creatures."),
+
+  QuizQuestion(
+      question:
+          "50. God is called Nyame among the Akans because He is\n(BECE 2015 Q17)",
+      options: [
+        "A creator",
+        "Dependable",
+        "Ever living",
+        "The Supreme Being"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Nyame is an Akan name referring to God as the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "51. According to the Bible, heavenly bodies were created on the\n(BECE 2016 Q2)",
+      options: ["Third day", "Fourth day", "Fifth day", "Sixth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, the sun, moon and stars were created on the fourth day."),
+
+  QuizQuestion(
+      question:
+          "52. The Gye Nyame symbol of the Akan signifies that God is\n(BECE 2016 Q4)",
+      options: [
+        "All-loving",
+        "All-merciful",
+        "All-powerful",
+        "Very gracious"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Gye Nyame emphasizes the supremacy and power of God."),
+
+  QuizQuestion(
+      question:
+          "53. Traditional worshippers believe that the world was created by\n(BECE 2018 Q1)",
+      options: [
+        "An ancestor",
+        "A lesser god",
+        "A Supreme Being",
+        "An angel"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Traditional African Religion teaches that the Supreme Being is the creator of the world."),
+
+  QuizQuestion(
+      question:
+          "54. The power of God is seen in His\n(BECE 2017 Q4)",
+      options: [
+        "Omniscience",
+        "Omnipotence",
+        "Omnipresence",
+        "Omnivorousness"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence refers to God's unlimited power."),
+
+  QuizQuestion(
+      question:
+          "55. According to the Bible, God commanded the earth to produce plants on the\n(BECE 2018 Q1)",
+      options: ["First day", "Third day", "Fifth day", "Sixth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, plants and vegetation appeared on the third day."),
+
+  QuizQuestion(
+      question:
+          "56. Which of the following is not a reason for which we must care for God's creation?\n(BECE 2018 Q3)",
+      options: [
+        "It makes us righteous people",
+        "To preserve it for future generations",
+        "To show respect for God's nature",
+        "We are stewards of God's creation"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Caring for creation is associated with stewardship, respect for God and preservation for future generations, rather than automatically making a person righteous."),
+
+  QuizQuestion(
+      question:
+          "57. Plants were created by God mainly to\n(BECE 2019 Q1)",
+      options: [
+        "Provide oxygen to man",
+        "Blow fresh air into our rooms",
+        "Provide decoration for homes",
+        "Serve as a means of transportation"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Plants produce oxygen, which humans and other living organisms need for respiration."),
+
+  QuizQuestion(
+      question:
+          "58. Muslims describe Allah as al-Raheem because He is\n(BECE 2019 Q3)",
+      options: ["Just", "Merciful", "All-knowing", "The restorer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Al-Raheem is an Islamic name of Allah referring to His mercy."),
+
+  QuizQuestion(
+      question:
+          "59. The attribute Alpha and Omega reveals that God is\n(BECE 2019 Q4)",
+      options: [
+        "Everywhere at all times",
+        "Gracious and merciful",
+        "Holy and immortal",
+        "The beginning and the end"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Alpha and Omega means that God is the beginning and the end."),
+
+  QuizQuestion(
+      question:
+          "60. Abraham built an altar for the Lord at the Oak of Moreh because\n(BECE 2019 Q5)",
+      options: [
+        "God asked him to do so",
+        "God had appeared to him there",
+        "He wanted to worship God there",
+        "It was a Canaanite worship centre"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abraham built an altar at the place because the Lord had appeared to him there."),
+
+  QuizQuestion(
+      question:
+          "61. In the Islamic creation story, God's revelation is found in the\n(BECE 2020 Q1)",
+      options: ["Tawrat", "Hadith", "Holy Qur'an", "Injil"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Islamic account of creation is contained in the Holy Qur'an."),
+
+  QuizQuestion(
+      question:
+          "62. God created plants to give mankind\n(BECE 2020 Q2)",
+      options: [
+        "Air and weather",
+        "Medicine and seasons",
+        "Shelter and beauty",
+        "Water and weather"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Plants provide materials for shelter and also contribute to the beauty of the environment."),
+
+  QuizQuestion(
+      question:
+          "63. Which of the following materials is not provided by plants for man's comfort?\n(BECE 2020 Q3)",
+      options: ["Food", "Fuel", "Medicine", "Salt"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Plants provide food, fuel and many medicines, while salt is primarily obtained from mineral or water sources."),
+
+  QuizQuestion(
+      question:
+          "64. According to the Bible, God created woman to\n(BECE 2020 Q4)",
+      options: [
+        "Control the family",
+        "Feed all mankind",
+        "Keep the environment clean",
+        "Be a companion to man"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, woman was created as a suitable companion and helper for man."),
+
+  QuizQuestion(
+      question:
+          "65. According to a myth on creation, Allah could not create more human beings at a certain point because\n(BECE 2021 Q17)",
+      options: [
+        "He was very tired",
+        "Man was disobedient",
+        "Clay had become scarce",
+        "People were too many on the earth"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "According to the creation myth referred to in the question, creation stopped because the creator became very tired."),
+
+  QuizQuestion(
+      question:
+          "66. Which of these portrays God as the Alpha and Omega, providing security and protection for man?\n(BECE 2021 Q14)",
+      options: ["God", "Ark", "Rock", "Fortress"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A fortress symbolizes security and protection."),
+
+  QuizQuestion(
+      question:
+          "67. Human beings are considered the most important creation in the Bible because they were\n(BECE 2022 Q1)",
+      options: [
+        "Created in the image of God",
+        "The last to be created",
+        "Given dominion over the sea",
+        "Formed from dust"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Bible teaches that human beings were uniquely created in the image and likeness of God."),
+
+  QuizQuestion(
+      question:
+          "68. Drought can easily be caused when there is\n(BECE 2022 Q2)",
+      options: [
+        "Surface mining",
+        "Sand winning",
+        "Deforestation",
+        "Quarrying"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Deforestation reduces vegetation and can disrupt rainfall and the water cycle, contributing to drought."),
+
+  QuizQuestion(
+      question:
+          "69. \"When the last tree dies, the last man dies.\" This statement refers to the need to\n(BECE 2022 Q3)",
+      options: [
+        "Encourage forest vegetation",
+        "Irrigate farmland",
+        "Manage the environment well",
+        "Stop making furniture out of wood"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The statement emphasizes that human survival depends on proper management and protection of the environment."),
+
+  QuizQuestion(
+      question:
+          "70. As a result of God's ability to do all things, He is referred to as\n(BECE 2022 Q4)",
+      options: [
+        "Omnipresent",
+        "Omnipotent",
+        "Omniscient",
+        "Omnivorous"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotent means all-powerful or having unlimited power."),
+
+  QuizQuestion(
+      question:
+          "71. Washing dirty clothes in streams causes\n(BECE 2022 Q5)",
+      options: [
+        "Water pollution",
+        "Water shortage",
+        "Survival of fishes",
+        "Death of water gods"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Dirt, soap and detergents introduced into streams contaminate the water and cause water pollution."),
+
+  QuizQuestion(
+      question:
+          "72. Traditional worshippers believe that the world was created by\n(BECE 2023 Q28)",
+      options: [
+        "Lesser gods",
+        "Ancestors",
+        "A Supreme Being",
+        "Angels"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Traditional African Religion teaches that the Supreme Being created the world."),
+
+  QuizQuestion(
+      question:
+          "73. Which of the following is not a basic need for man's survival?\n(BECE 2023 Q34)",
+      options: ["Air", "Water", "Food", "Medicine"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Air, water and food are basic requirements for survival, while medicine is important but is not classified as a basic survival need."),
+
+  QuizQuestion(
+      question:
+          "74. In Islam, the Omnipotence of Allah describes His\n(BECE 2023 Q37)",
+      options: ["Justice", "Power", "Wisdom", "Patience"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence refers to Allah's unlimited power."),
+
+  QuizQuestion(
+      question:
+          "75. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2017 Q4)",
+      options: [
+        "Omnipotent",
+        "Omnipresent",
+        "Omniscient",
+        "Sovereign"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Omniscience means that God knows everything, including people's secret actions."),
+
+  QuizQuestion(
+      question:
+          "76. God created water bodies to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Salt", "Plants", "Air", "Water"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Water bodies are an important source of water for human beings and other living things."),
+
+  QuizQuestion(
+      question:
+          "77. According to Christian teaching, God created man and woman on the\n(BECE 2011 Q4)",
+      options: ["First day", "Second day", "Fifth day", "Sixth day"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, human beings were created on the sixth day."),
+
+  QuizQuestion(
+      question:
+          "78. One reason why God created the sea is to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Salt", "Plants", "Air", "Water bodies"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The sea is an important natural source of salt for human use."),
+    ],
+  ),
+  "Religious & Moral Education JHS2 s2 ss1 - Religious Festivals & Rites of Passage": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. Festivals are celebrated every year in order to\n(BECE 1999 Q9)",
+options: [
+"Make the people happy",
+"Thank the gods for a successful year",
+"Adore a new year",
+"Punish the wrong doers in the community"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Traditional festivals are often celebrated to thank the gods for their protection and blessings during the year."),
+  QuizQuestion(
+      question:
+          "2. The Asafo Company is associated with the festival of\n(BECE 2001 Q5)",
+      options: ["Homowo", "Aboakyer", "Odwira", "Akwambo"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Asafo companies play an important role in the celebration of the Aboakyer festival of the Effutu people."),
+
+  QuizQuestion(
+      question:
+          "3. Id-ul-Fitr in Islam is the feast of\n(BECE 2002A Q9)",
+      options: [
+        "Sacrifice",
+        "Ending the Ramadan fast",
+        "Pilgrimage",
+        "The Prophet's birthday"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Fitr is celebrated by Muslims to mark the end of the Ramadan fasting period."),
+
+  QuizQuestion(
+      question:
+          "4. The Muslims festival of sacrifice is\n(BECE 2001 Q5)",
+      options: [
+        "Eid-ul-Fitr",
+        "Milad-un-Nabi",
+        "Ramadan",
+        "Eid-ul-Adhar"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Adha is the Islamic festival of sacrifice."),
+
+  QuizQuestion(
+      question:
+          "5. The main reason for the celebration of Odwira festival by the Akwapim is\n(BECE 2005 Q39)",
+      options: ["Adae", "Aboakyer", "Homowo", "Damba"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The source appears to contain mismatched options for this question, since the listed choices are names of other festivals rather than reasons for celebrating Odwira."),
+
+  QuizQuestion(
+      question:
+          "6. The festival celebrated by Christians in memory of the resurrection of Jesus is called\n(BECE 2000 Q13)",
+      options: ["Christmas", "Easter", "Pentecost", "Passover"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christians celebrate Easter in remembrance of the resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "7. One of the religious values in celebrating traditional festivals is to\n(BECE 2000 Q8)",
+      options: [
+        "Acknowledge the presence of the gods",
+        "Bring the citizens together",
+        "Raise funds to develop the community",
+        "Contract marriages"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Traditional festivals have religious value because they acknowledge the gods and ancestors."),
+
+  QuizQuestion(
+      question:
+          "8. The powerful god Penkyi Otu is associated with the\n(BECE 2004 Q10)",
+      options: [
+        "Kundum festival",
+        "Aboakyer festival",
+        "Fetu festival",
+        "Akwambo festival"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Penkyi Otu is associated with the Aboakyer festival celebrated by the Effutu people of Winneba."),
+
+  QuizQuestion(
+      question:
+          "9. Eid-Ul-Fitr Celebration teaches Muslims to\n(BECE 1999 Q18)",
+      options: [
+        "Submit to Allah",
+        "Give alms",
+        "Sacrifice themselves to God",
+        "Appreciate God's mercy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Eid-ul-Fitr encourages Muslims to appreciate Allah's mercy and blessings after completing the Ramadan fast."),
+
+  QuizQuestion(
+      question:
+          "10. Which of the following festivals helps to develop the strength and vitality of the Youth?\n(BECE 2001 Q17)",
+      options: ["Hogbetsotso", "Odwira", "Damba", "Aboakyer"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Aboakyer festival involves activities such as hunting that test the strength, courage and vitality of the youth."),
+
+  QuizQuestion(
+      question:
+          "11. One of the best advantages of celebrating festival is to\n(BECE 2001 Q18)",
+      options: [
+        "Come together to fight one's enemies",
+        "Help organise funerals well",
+        "Train youth in defending the community",
+        "Continue with the tradition"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Celebrating festivals helps preserve and continue the traditions and cultural heritage of a community."),
+
+  QuizQuestion(
+      question:
+          "12. The main reason for the celebration of festivals is to\n(BECE 2003 Q16)",
+      options: [
+        "Entertain people",
+        "Install a new chief",
+        "Thank the gods for a successful year",
+        "Bring the wrong doers in the community to book"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Many traditional festivals are celebrated to give thanks to the gods for a successful year."),
+
+  QuizQuestion(
+      question:
+          "13. The most important activity during the Odwira festival by the Akwapim is\n(BECE 2004 Q10)",
+      options: [
+        "Merry making and dancing",
+        "Purification and cleansing",
+        "Feasting and meditation",
+        "Family meetings and dancing"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Odwira is primarily a purification festival involving the cleansing of the people and the traditional state."),
+
+  QuizQuestion(
+      question:
+          "14. The main purpose of the Odwira festival is to\n(BECE 2006 Q11)",
+      options: [
+        "Remember the dead",
+        "Purify the state",
+        "Strengthen the unity of the people",
+        "Pay homage to the chief"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Odwira is principally celebrated to purify and cleanse the traditional state."),
+
+  QuizQuestion(
+      question:
+          "15. Which of the following is a harvest festival?\n(BECE 2005 Q5)",
+      options: ["Adae", "Odwira", "Homowo", "Aboakyer"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Homowo is a harvest festival celebrated by the Ga people."),
+
+  QuizQuestion(
+      question:
+          "16. Which of the following celebrations signifies the salvation of all Christians?\n(BECE 2012 Q18)",
+      options: ["Easter", "Christmas", "Pentecost", "Passover"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Easter commemorates the death and resurrection of Jesus Christ, which Christians associate with salvation."),
+
+  QuizQuestion(
+      question:
+          "17. The Aboakyer festival is celebrated by the\n(BECE 2012 Q18)",
+      options: ["Anlo", "Akan", "Ga", "Efutu"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Aboakyer festival is celebrated by the Effutu people of Winneba."),
+
+  QuizQuestion(
+      question:
+          "18. The last festival celebrated by the Israelites before they left Egypt was the\n(BECE 2013 Q3)",
+      options: [
+        "Booths",
+        "Passover",
+        "Feast of Tabernacles",
+        "Feast of weeks"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites celebrated the Passover immediately before their departure from Egypt."),
+
+  QuizQuestion(
+      question:
+          "19. The most important Christian festival is\n(BECE 2013 Q20)",
+      options: ["Ascension", "Easter", "Lent", "Pentecost"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Easter is regarded as the most important Christian festival because it celebrates the resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "20. The main reason for the celebration of Kundum festival is for community\n(BECE 2014 Q3)",
+      options: [
+        "Development",
+        "Preservation",
+        "Purification",
+        "Re-organization"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Kundum includes the purification and cleansing of the community."),
+
+  QuizQuestion(
+      question:
+          "21. Eid-ul-Adha is celebrated by Muslims to\n(BECE 2015 Q5)",
+      options: [
+        "Mark Abraham's sacrifice to Allah",
+        "Remember the death of Mohammed",
+        "Mark the end of Ramadan",
+        "Remember the birth of Mohammed"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Adha commemorates Prophet Ibrahim's willingness to sacrifice his son in obedience to Allah."),
+
+  QuizQuestion(
+      question:
+          "22. Which of the following is a harvest festival?\n(BECE 2015 Q19)",
+      options: ["Aboakyer", "Adae", "Homowo", "Hogbetsotso"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Homowo is a harvest festival celebrated by the Ga people."),
+
+  QuizQuestion(
+      question:
+          "23. The festival celebrated by the people of Winneba is\n(BECE 2016 Q10)",
+      options: ["Aboakyer", "Damba", "Homowo", "Gonja"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Effutu people of Winneba celebrate the Aboakyer festival."),
+
+  QuizQuestion(
+      question:
+          "24. The day Jesus rose from the dead is celebrated by Christians as\n(BECE 2017 Q9)",
+      options: [
+        "Ascension day",
+        "Good Friday",
+        "Easter Sunday",
+        "Pentecost day"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians celebrate the resurrection of Jesus Christ on Easter Sunday."),
+
+  QuizQuestion(
+      question:
+          "25. The Kundum festival is celebrated by the\n(BECE 2018 Q11)",
+      options: ["Dagomba", "Fante", "Krobo", "Nzema"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Kundum is celebrated by the Nzema and Ahanta people of Ghana."),
+
+  QuizQuestion(
+      question:
+          "26. The water and wine or gin given to the child during naming ceremony signifies\n(BECE 1999 Q24)",
+      options: ["Loyalty", "Faithfulness", "Truthfulness", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Water and wine or gin are used to teach the child to distinguish truth from falsehood and to grow up truthful."),
+
+  QuizQuestion(
+      question:
+          "27. The importance of naming ceremony is to\n(BECE 2000 Q11)",
+      options: [
+        "Announce that a woman has delivered",
+        "Make known to the society the additional mouth to be fed",
+        "Ask for future suitor for the child",
+        "Give the child an identity"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A naming ceremony formally gives the child a name and identity within the family and community."),
+
+  QuizQuestion(
+      question:
+          "28. Dipo is a traditional\n(BECE 2000 Q16)",
+      options: [
+        "Festival",
+        "Naming ceremony",
+        "Puberty rite",
+        "Death rite"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dipo is a traditional puberty rite associated with the Krobo people."),
+
+  QuizQuestion(
+      question:
+          "29. The most important rite of our Islam marriage is the\n(BECE 2002A Q5)",
+      options: [
+        "Presentation of household utensils to the bride",
+        "Delivering of wedding sermon during the feast",
+        "Payment of the dowry",
+        "Celebration of the marriage feast"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Payment of the dowry or mahr is an important requirement in Islamic marriage."),
+
+  QuizQuestion(
+      question:
+          "30. The importance of performing funeral rites is that it\n(BECE 2002A Q15)",
+      options: [
+        "Helps the dead to join the ancestors",
+        "Avoids more deaths in the family",
+        "Opens the way for the dead to go to heaven",
+        "Enables the dead to resurrect on the last day"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In African Traditional Religion, proper funeral rites are believed to help the deceased join the ancestors."),
+
+  QuizQuestion(
+      question:
+          "31. Money given to girls as gifts at puberty enable them to\n(BECE 2002B Q23)",
+      options: [
+        "Buy their clothing",
+        "Cook a meal for their husband",
+        "Entertain their friends",
+        "Buy their cooking utensils"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Money given during puberty rites can help the girls obtain clothing and other personal needs."),
+
+  QuizQuestion(
+      question:
+          "32. During naming ceremonies, the baby is given drops of water and wine to signify that he should be\n(BECE 2003 Q32)",
+      options: ["Truthful", "Patient", "Brave", "Obedient"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The water and wine symbolize the importance of truthfulness and the ability to distinguish truth from falsehood."),
+
+  QuizQuestion(
+      question:
+          "33. An Akan girl qualifies for puberty rites when\n(BECE 2004 Q27)",
+      options: [
+        "She is between the ages of fifteen and seventeen years",
+        "She first experiences her menses",
+        "Her breasts develop",
+        "She first becomes pregnant"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The onset of menstruation traditionally signals that an Akan girl has reached puberty."),
+
+  QuizQuestion(
+      question:
+          "34. Marriage has a good chance of succeeding if the\n(BECE 2006 Q17)",
+      options: [
+        "Couple are from the same town",
+        "Man has a lot of money",
+        "Couple understand each other",
+        "Woman is beautiful"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mutual understanding between spouses is important for a stable and successful marriage."),
+
+  QuizQuestion(
+      question:
+          "35. Puberty rites should be encouraged because it\n(BECE 2015 Q7)",
+      options: [
+        "Helps the youth to become rich",
+        "Links the youth to adulthood",
+        "Promotes chastity among the youth",
+        "Makes the youth look more attractive"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites traditionally educate young people about responsible behaviour and encourage chastity."),
+
+  QuizQuestion(
+      question:
+          "36. The rite which ushers the individual into adulthood is\n(BECE 2021 Q32)",
+      options: ["Engagement", "Marriage", "Outdoorings", "Puberty"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Puberty rites mark the transition from childhood to adulthood."),
+
+  QuizQuestion(
+      question:
+          "37. In traditional society, a new born child yet to be named is regarded as a\n(BECE 2022 Q11)",
+      options: ["Ancestor", "Gift", "Spirit", "Visitor"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A newborn child who has not yet been named is traditionally regarded as a visitor until formally accepted into the community."),
+
+  QuizQuestion(
+      question:
+          "38. Payments made to fulfill marriage contract is termed as\n(BECE 2020 Q13)",
+      options: ["Dowry", "Gift", "Sacrifice", "Reward"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The payment made as part of a marriage contract is commonly referred to as dowry or bride wealth."),
+
+  QuizQuestion(
+      question:
+          "39. The burial of the dead without a coffin teaches the Muslim to\n(BECE 2023 Q24)",
+      options: [
+        "Avoid acquiring much wealth",
+        "Live a simple life",
+        "Be more generous",
+        "Love one another"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Simple Islamic burial practices emphasize humility and simplicity in life and death."),
+
+  QuizQuestion(
+      question:
+          "40. The offer of baskets by some traditional believers to baby girls during naming ceremonies is meant to teach the child\n(BECE 2023 Q31)",
+      options: [
+        "Faithfulness",
+        "Hard work",
+        "Submissiveness",
+        "Endurance"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The basket symbolizes the expectation that the girl will grow to become hardworking and responsible."),
+
+  QuizQuestion(
+      question:
+          "41. The chief priest communicates with the gods\n(BECE 2021 Q24)",
+      options: [
+        "Through dreams",
+        "During festival rites",
+        "In times of war",
+        "Through libation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a traditional form of prayer and communication with the gods and ancestors."),
+
+  QuizQuestion(
+      question:
+          "42. A situation that cannot result in death in\n(BECE 2021 Q39)",
+      options: ["Accident", "Feasting", "HIV/AIDS", "Poisoning"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Unlike accidents, serious diseases and poisoning, ordinary feasting is not normally regarded as a direct cause of death."),
+
+  QuizQuestion(
+      question:
+          "43. One social importance of festivals is\n(BECE 2022 Q10)",
+      options: [
+        "Showing respect for authority",
+        "Venerating the gods and ancestors",
+        "Raising funds for projects",
+        "Making new friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Festivals bring people together and provide opportunities for social interaction and making new friends."),
+
+  QuizQuestion(
+      question:
+          "44. Which of the following is a positive value that can be learnt from festivals?\n(BECE 2023 Q4)",
+      options: [
+        "Remembrance of painful events",
+        "Purification of individuals",
+        "Unity and communal living",
+        "Holiness and peace"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Festivals promote unity, cooperation and communal living among members of the community."),
+
+  QuizQuestion(
+      question:
+          "45. One reason for the initiation of marriage is\n(BECE 2015 Q20)",
+      options: ["Companionship", "Joy", "Responsibility", "Security"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "One important purpose of marriage is companionship between spouses."),
+
+  QuizQuestion(
+      question:
+          "46. It is important to perform marriage rites because they\n(BECE 2016 Q14)",
+      options: [
+        "Build mutual trust and understanding",
+        "Are requirements to adolescence",
+        "Prevent divorce in society",
+        "Seal the marriage"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Marriage rites formally recognize and seal the marriage between the couple and their families."),
+
+  QuizQuestion(
+      question:
+          "47. The most important prayer request during marriage rites is for\n(BECE 2016 Q20)",
+      options: [
+        "Good health and protection",
+        "Long life and children",
+        "Prosperity and wealth",
+        "Protection and long life"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Prayers during marriage rites commonly ask for long life and children for the couple."),
+
+  QuizQuestion(
+      question:
+          "48. Which of the following statements is not true about puberty rites? They\n(BECE 2017 Q12)",
+      options: [
+        "Teach girls to be obedient",
+        "Prevent teenage pregnancy",
+        "Teach girls how to live together",
+        "Protect girls against evil forces"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites focus on preparing young people for responsible adulthood, morality and traditional responsibilities rather than specifically teaching communal living."),
+
+  QuizQuestion(
+      question:
+          "49. The period of courtship in marriage is meant for\n(BECE 2017 Q13)",
+      options: [
+        "Convincing parents of both parties",
+        "Presentation of gifts to friends",
+        "The couple to study each other",
+        "The payment of the knocking fee"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Courtship gives prospective spouses an opportunity to know and understand each other before marriage."),
+
+  QuizQuestion(
+      question:
+          "50. The exchange of rings in Christian marriage signifies\n(BECE 2017 Q14)",
+      options: [
+        "Blessing from God",
+        "Faithfulness to God",
+        "Faithfulness to one another",
+        "Love for the family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wedding rings symbolize commitment and faithfulness between husband and wife."),
+
+  QuizQuestion(
+      question:
+          "51. Both Islamic and Traditional religions accept\n(BECE 2018 Q13)",
+      options: [
+        "Polyandry",
+        "Polygamy",
+        "The use of incense",
+        "The five daily prayers"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Both Islam and many African Traditional religious societies permit polygamous marriage under certain conditions."),
+
+  QuizQuestion(
+      question:
+          "52. The growth of hairs in the armpit is a sign of\n(BECE 2018 Q14)",
+      options: ["Motherhood", "Pregnancy", "Puberty", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Growth of hair in the armpits is one of the physical changes associated with puberty."),
+
+  QuizQuestion(
+      question:
+          "53. A strong emotional change noticeable among adolescents is\n(BECE 2019 Q13)",
+      options: ["Obedience", "Rebellion", "Selfishness", "Intelligence"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Adolescents may show increased emotional independence and rebellious behaviour as part of development."),
+
+  QuizQuestion(
+      question:
+          "54. The libation offered during traditional marriage is meant to make the spouse\n(BECE 2020 Q12)",
+      options: ["Beautiful", "Fruitful", "Hardworking", "Religious"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation during traditional marriage commonly includes prayers for fertility and children."),
+
+  QuizQuestion(
+      question:
+          "55. Girls who undergo puberty rites often get good husbands because responsible men\n(BECE 2021 Q28)",
+      options: [
+        "Appreciate pretty and wealthy girls",
+        "Like morally sound girls",
+        "Love attractive religious girls",
+        "Love well educated girls"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Puberty rites traditionally emphasize moral training and chastity, qualities considered desirable in marriage."),
+
+  QuizQuestion(
+      question:
+          "56. The first stage in marriage starts when\n(BECE 2022 Q12)",
+      options: [
+        "The man pays the bride wealth",
+        "Parents of both parties agree",
+        "A woman accepts a man's proposal",
+        "The engagement ceremony is performed"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The marriage process begins when a marriage proposal is made and accepted."),
+
+  QuizQuestion(
+      question:
+          "57. Which of the following statements is not true about African Traditional Marriage?\n(BECE 2022 Q13)",
+      options: [
+        "The marriage involves extended family",
+        "Dowries paid stabilizes the marriage",
+        "Observation of certain taboos by men promote polygamy",
+        "Scripture readings are taken before libation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Scripture reading is not normally a feature of African Traditional marriage rites before libation."),
+
+  QuizQuestion(
+      question:
+          "58. To make marriage successful, couples need to always\n(BECE 2022 Q14)",
+      options: [
+        "Compare themselves with each other",
+        "Work hard for wealth",
+        "Look neat and attractive",
+        "Communicate with each other"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Regular and effective communication promotes understanding and helps couples resolve problems."),
+
+  QuizQuestion(
+      question:
+          "59. One of the essences of pouring libation during traditional marriages is to make the couples\n(BECE 2022 Q15)",
+      options: ["Fruitful", "Religious", "Beautiful", "Hard working"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Libation during marriage includes prayers for fertility and children, making the couple fruitful."),
+
+  QuizQuestion(
+      question:
+          "60. Donations at funerals are meant to\n(BECE 2022 Q16)",
+      options: [
+        "Refresh the mourners",
+        "Offer transportation to the dead",
+        "Offer the family a means of livelihood",
+        "Show love and support to the family"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Funeral donations express sympathy, love and practical support for the bereaved family."),
+
+  QuizQuestion(
+      question:
+          "61. A baby is named after birth because it\n(BECE 2022 Q17)",
+      options: [
+        "Is a gift from God",
+        "Needs to be identified",
+        "Needs to be cared for",
+        "Must be outdoored"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Naming gives the baby an identity by which he or she can be recognized in the family and community."),
+
+  QuizQuestion(
+      question:
+          "62. The observance of puberty rites ensures the following except\n(BECE 2023 Q3)",
+      options: [
+        "Bringing honour to parent and relatives",
+        "Promoting the gift of life and wealth",
+        "Promoting education in customs and traditions",
+        "Helping to check immoral activities"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites promote moral behaviour, cultural education and family honour, but promoting wealth is not one of their main purposes."),
+
+  QuizQuestion(
+      question:
+          "63. The wearing of wedding rings by couples after marriage is a sign of\n(BECE 2023 Q18)",
+      options: [
+        "Responsibility and sincerity",
+        "Faithfulness and humility",
+        "Commitment and trust",
+        "Honesty and tolerance"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wedding rings symbolize the couple's continuing commitment, trust and marital bond."),
+
+  QuizQuestion(
+      question:
+          "64. The following activities are marriage procedures in Islam except\n(BECE 2023 Q19)",
+      options: [
+        "Couples exchange vows to endorse the marriage",
+        "Parents select spouses for the men",
+        "A guardian to the marriage is chosen",
+        "The bride's relatives perform the knocking"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The knocking ceremony is associated mainly with African Traditional marriage and is not a standard Islamic marriage procedure."),
+
+  QuizQuestion(
+      question:
+          "65. Polygamy is allowed to Islam on the condition that the man\n(BECE 2023 Q35)",
+      options: [
+        "Will be faithful to his religion",
+        "Can treat all the women fairly",
+        "Is rich and can feed the extended family",
+        "Will be sympathetic toward widows"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Islam permits a man to marry more than one wife only if he is able to treat them justly and fairly."),
+
+    ],
+  ),
+  "Religious & Moral Education JHS2 s3 ss1 - The Family, Religious Home and Obedience": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. The payment of school fees and other bills is mainly the responsibility of the\n(BECE 2000 Q21)",
+options: ["Grandfather", "Mother", "Uncle", "Father"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Traditionally, the father is regarded as the main provider responsible for school fees and other major family expenses."),
+      QuizQuestion(
+      question:
+          "2. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
+      options: [
+        "The uncle inherits the father's property",
+        "The children are cared for by the members of the family",
+        "The old people are sent to old people's home",
+        "Girls become maidservants of their aunties"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In the extended family system, relatives support one another and help to care for children."),
+      QuizQuestion(
+      question:
+          "3. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
+      options: [
+        "That children attend school regularly",
+        "Good behaviour",
+        "Proper maintenance of school property",
+        "That children do their assignment"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "School rules and regulations mainly promote discipline and good behaviour among pupils."),
+      QuizQuestion(
+      question:
+          "4. The best way to live in peace in a community is to\n(BECE 2000 Q22)",
+      options: [
+        "Understand and co-operate with others",
+        "Disagree with your enemies",
+        "Proper maintenance of school property",
+        "Be afraid of those in authority"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperating with others promotes peaceful relationships in the community."),
+      QuizQuestion(
+      question:
+          "5. Conflicts in our society can best be resolved by\n(BECE 2000 Q33)",
+      options: [
+        "Entering into conflicts with neighbours",
+        "Obeying the scriptures",
+        "Being authoritative and proud",
+        "Tolerating and forgiving others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance and forgiveness help people settle disagreements and restore peaceful relationships."),
+      QuizQuestion(
+      question:
+          "6. One of the characteristics of the Traditional Religion is that it\n(BECE 2000 Q34)",
+      options: [
+        "Originated from the Far East",
+        "Regards God and Jesus as the centre of worship",
+        "Was established by a powerful African",
+        "Has no written document"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion has historically been passed on mainly through oral tradition rather than a single written scripture."),
+      QuizQuestion(
+      question:
+          "7. One can promote relationship and peaceful living by being\n(BECE 2001 Q6)",
+      options: [
+        "Violent and respectful",
+        "Respectful and obedient",
+        "Helpful to relatives",
+        "Kind and vocal"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect and obedience promote good relationships and peaceful living."),
+      QuizQuestion(
+      question:
+          "8. Which of the following does not promote progress in a society?\n(BECE 2001 Q22)",
+      options: ["Conflicts", "Reconciliation", "Communal labour", "Confession"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Conflicts can disrupt unity and development, while reconciliation and cooperation promote progress."),
+      QuizQuestion(
+      question:
+          "9. Kofi's father is Ewe and his mother is Fante. Which of the following statements about Kofi is true?\n(BECE 2001 Q23)",
+      options: [
+        "He belongs to the father's clan only",
+        "He belongs to the mother's clan only",
+        "He belongs to both the father's and the mother's clan",
+        "He cannot inherit his father or mother"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Kofi has family connections through both his father's and mother's families."),
+      QuizQuestion(
+      question:
+          "10. Conflicts develop among us through\n(BECE 2001 Q25)",
+      options: [
+        "Good neighbourliness",
+        "Ambition",
+        "Laziness",
+        "Misunderstanding"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Misunderstanding between individuals or groups is a common cause of conflict."),
+      QuizQuestion(
+      question:
+          "11. Obedience to the laws of the state can make us\n(BECE 2001 Q25)",
+      options: [
+        "Fearful and honest citizens",
+        "Gentle and loving citizens",
+        "Simple and God-fearing citizens",
+        "Patriotic and good citizens"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Citizens who obey the laws contribute positively to society and demonstrate patriotism."),
+      QuizQuestion(
+      question:
+          "12. The extended family meets often to\n(BECE 2001 Q31)",
+      options: [
+        "Name a new-born baby",
+        "Share family property",
+        "Select a new chief",
+        "Elect the head of the family"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended family meetings may be held to discuss important family matters, including the sharing and management of family property."),
+      QuizQuestion(
+      question:
+          "13. In order to live in harmony with family members, we must be\n(BECE 2002A Q25)",
+      options: [
+        "Talking to our enemies",
+        "Ignoring trouble makers",
+        "Going to the court",
+        "Settling our differences peacefully"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peaceful settlement of disagreements promotes harmony within the family."),
+
+  QuizQuestion(
+      question:
+          "14. In a matrilineal home, the head of the family is\n(BECE 2002A Q23)",
+      options: ["Father", "Aunt", "Uncle", "Mother"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "In many matrilineal family systems, the mother's brother plays the role of family head."),
+
+  QuizQuestion(
+      question:
+          "15. We can avoid conflicts in our community by\n(BECE 2002A Q25)",
+      options: [
+        "Talking to our enemies",
+        "Ignoring trouble makers",
+        "Going to the court",
+        "Settling our differences peacefully"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peacefully settling differences helps prevent disagreements from developing into serious conflicts."),
+
+  QuizQuestion(
+      question:
+          "16. We show total obedience to God by\n(BECE 2002B Q18)",
+      options: [
+        "Reading the Bible",
+        "Doing His will",
+        "Going to church",
+        "Reciting the Lord's prayer"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "True obedience to God involves doing what He commands and following His will."),
+
+  QuizQuestion(
+      question:
+          "17. School rules are obeyed in order to\n(BECE 2002B Q21)",
+      options: [
+        "Achieve success in sports",
+        "Have good people in the community",
+        "Promote peace in the community",
+        "Achieve distinctions in examination"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "School rules help train pupils to become disciplined and responsible members of society."),
+
+  QuizQuestion(
+      question:
+          "18. Whose duty is it to provide shelter to the family?\n(BECE 2002B Q22)",
+      options: ["Father", "Uncle", "Aunt", "Mother"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, providing shelter is mainly the father's responsibility."),
+
+  QuizQuestion(
+      question:
+          "19. The extended family system consists of\n(BECE 2002B Q24)",
+      options: [
+        "Children and other relations",
+        "Grandchildren and other parents",
+        "Grandchildren, children and other parents",
+        "Parents, children and other relations"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An extended family includes parents, their children and other relatives."),
+
+  QuizQuestion(
+      question:
+          "20. The purpose of school rules and regulations is to\n(BECE 2003 Q21)",
+      options: [
+        "Get pupils punished",
+        "Encourage pupils to become good pastors",
+        "Promote good conditions for work",
+        "Reward obedient pupils"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Rules and regulations create an orderly environment that supports effective teaching and learning."),
+
+  QuizQuestion(
+      question:
+          "21. The basic role of the father is to\n(BECE 2003 Q21)",
+      options: [
+        "Cook for the family",
+        "Make sure the children work",
+        "Make sure the water is in the house",
+        "Provide shelter for the family"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, the father is responsible for providing basic needs such as shelter."),
+
+  QuizQuestion(
+      question:
+          "22. The nuclear family system consists of\n(BECE 2003 Q23)",
+      options: [
+        "Parents and grandchildren",
+        "Children and parents",
+        "Parents, children and other relations",
+        "Grandchildren and children"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "23. Broken homes may lead to all the following except\n(BECE 2004 Q34)",
+      options: [
+        "Miscarriage",
+        "Substance abuse",
+        "Teenage pregnancy",
+        "Truancy"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Substance abuse, teenage pregnancy and truancy may be associated with family instability, while miscarriage is not normally presented as a direct social effect of a broken home."),
+
+  QuizQuestion(
+      question:
+          "24. One of the advantages of the extended family system is that\n(BECE 2006 Q32)",
+      options: [
+        "Parents can give sufficient attention to their children",
+        "An uncle inherits a father's property",
+        "The extended family sustains society",
+        "Parents are capable of providing the need of the family"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The extended family supports social stability through cooperation and mutual assistance among relatives."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following factors best helps in promoting good family relationship?\n(BECE 2006 Q30)",
+      options: [
+        "Boys and girls being sent to school equally",
+        "Staying with other relatives",
+        "Competing among children",
+        "Favouring one child over another"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Treating boys and girls fairly and giving them equal opportunities promotes healthy family relationships."),
+
+  QuizQuestion(
+      question:
+          "26. Household chores are done mainly by\n(BECE 2007 Q26)",
+      options: ["Grandmother", "Mother", "Father", "Children"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Children are expected to assist the family by carrying out appropriate household chores."),
+
+  QuizQuestion(
+      question:
+          "27. To promote peaceful living in the home, decisions should be taken by\n(BECE 2007 Q29)",
+      options: [
+        "The father alone",
+        "The mother alone",
+        "Only the father and mother",
+        "Father, mother and children together"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Involving family members in decisions encourages cooperation, understanding and peaceful living."),
+
+  QuizQuestion(
+      question:
+          "28. In the family system, an aunt is\n(BECE 2009 Q22)",
+      options: [
+        "A grandparent's sister",
+        "A brother's sister",
+        "An uncle's sister",
+        "A father or a mother's sister"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An aunt is the sister of one's father or mother."),
+
+  QuizQuestion(
+      question:
+          "29. School rules are meant to ensure\n(BECE 2009 Q30)",
+      options: [
+        "Punishment for school children",
+        "Patriotism among children",
+        "Competition among children",
+        "Good behaviour of children"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "School rules promote discipline and good behaviour among pupils."),
+
+  QuizQuestion(
+      question:
+          "30. Rules and regulations of the family are meant to ensure\n(BECE 2009 Q34)",
+      options: ["Discipline", "Patriotism", "Success", "Victory"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Family rules and regulations promote discipline and orderly behaviour."),
+
+  QuizQuestion(
+      question:
+          "31. Children who are obedient and live a good moral life in the society are\n(BECE 2011 Q31)",
+      options: [
+        "Praised by others",
+        "Envied by others",
+        "Sent to be smart at school",
+        "Known to challenge the elderly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children who demonstrate obedience and good morals are generally respected and praised by society."),
+
+  QuizQuestion(
+      question:
+          "32. Rules and regulations of the country need to be obeyed in order to\n(BECE 2012 Q34)",
+      options: [
+        "Promote the formation of political parties",
+        "Promote peaceful co-existence",
+        "Stop rivalry among political parties",
+        "Save people from imprisonment"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect for laws and regulations helps maintain order and peaceful coexistence."),
+
+  QuizQuestion(
+      question:
+          "33. A common practice at night in traditional homes is to\n(BECE 2013 Q24)",
+      options: [
+        "Pour libation",
+        "Tell stories",
+        "Feed the dogs",
+        "Visit the stool room"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Storytelling is a common traditional evening activity used for entertainment and moral education."),
+
+  QuizQuestion(
+      question:
+          "34. Running errands for the elderly portrays that a child is\n(BECE 2012 Q36)",
+      options: ["Obedient", "Sincere", "Strong", "Truthful"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A child who willingly runs errands for elders demonstrates obedience."),
+
+  QuizQuestion(
+      question:
+          "35. Carrying out instructions given by the elderly shows that one is\n(BECE 2012 Q37)",
+      options: ["Respectful", "Sincere", "Strong", "Truthful"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Following the instructions of elders demonstrates respect for them."),
+
+  QuizQuestion(
+      question:
+          "36. Social conflicts can best be resolved by\n(BECE 2013 Q37)",
+      options: [
+        "Obeying the scriptures",
+        "Being principled and humble",
+        "Being authoritative and principled",
+        "Tolerating and forgiving"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance and forgiveness help conflicting parties reconcile peacefully."),
+
+  QuizQuestion(
+      question:
+          "37. Respectful children are always\n(BECE 2013 Q37)",
+      options: [
+        "Good in sports",
+        "Intelligent in school",
+        "Decently dressed",
+        "Accepted by society"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Respectful behaviour makes children more likely to be appreciated and accepted by society."),
+
+  QuizQuestion(
+      question:
+          "38. A common errand run by a child at night is\n(BECE 2013 Q25)",
+      options: [
+        "Story telling",
+        "Pouring of libation",
+        "Feeding the dogs",
+        "Visiting the stool room"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Feeding household animals such as dogs can be an evening responsibility assigned to children."),
+
+  QuizQuestion(
+      question:
+          "39. By respecting other people's religion we are\n(BECE 2014 Q29)",
+      options: [
+        "Showing commitment to God",
+        "Showing religious tolerance",
+        "Practising religious obedience",
+        "Accepted by society"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respecting the beliefs and practices of other religions demonstrates religious tolerance."),
+
+  QuizQuestion(
+      question:
+          "40. One of the advantages of the extended family is that it\n(BECE 2014 Q37)",
+      options: [
+        "Enriches tolerance",
+        "Promotes peace",
+        "Creates wealth",
+        "Promotes security"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Members of the extended family provide support and protection for one another, promoting social security."),
+
+  QuizQuestion(
+      question:
+          "41. People cherish the spirit of obedience because it\n(BECE 2014 Q37)",
+      options: [
+        "Imputes blessing and goodwill from God",
+        "Is persistent quarrelling on a few rich people",
+        "Means having little privacy for its members",
+        "Means over-reliance on a few rich people"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Obedience is valued because it is associated with receiving blessings, goodwill and approval from God and society."),
+
+  QuizQuestion(
+      question:
+          "42. Individuals can co-exist peacefully in a community if they practise\n(BECE 2015 Q24)",
+      options: [
+        "Repentance and forgiveness",
+        "Peaceful co-existence",
+        "Success in examination",
+        "Family and hard work"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Repentance and forgiveness help people repair relationships and live together peacefully."),
+
+  QuizQuestion(
+      question:
+          "43. Showing respect and obedience to school authority ensures\n(BECE 2015 Q24)",
+      options: [
+        "Repentance and forgiveness",
+        "Peaceful co-existence",
+        "Success in examination",
+        "Family and hard work"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Respect and obedience to school authorities promote order and peaceful coexistence within the school."),
+
+  QuizQuestion(
+      question:
+          "44. A nuclear family begins when\n(BECE 2015 Q33)",
+      options: [
+        "Parents live with siblings",
+        "Relatives live together",
+        "Siblings share property",
+        "A couple gets legally married"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family begins with a married couple and may later include their children."),
+
+  QuizQuestion(
+      question:
+          "45. Running errands for those in authority portrays the child to be\n(BECE 2016 Q32)",
+      options: ["Humble", "Obedient", "Honest", "Sincere"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Willingly carrying out instructions and errands demonstrates obedience."),
+
+  QuizQuestion(
+      question:
+          "46. By respecting other people's religion we are\n(BECE 2016 Q32)",
+      options: ["Polite", "Showing religious tolerance", "Faithful", "Sincere"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect for the beliefs and practices of others is an example of religious tolerance."),
+
+  QuizQuestion(
+      question:
+          "47. A family made up of a father, mother and children is described as\n(BECE 2016 Q4)",
+      options: [
+        "Extended family",
+        "Monogamous family",
+        "Nuclear family",
+        "Polygamous family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "48. People cherish the spirit of obedience because it\n(BECE 2016)",
+      options: [
+        "Enhances tolerance",
+        "Creates wealth",
+        "Promotes wealth",
+        "Promotes peace"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Obedience to appropriate rules and authority helps maintain order and promotes peace."),
+
+  QuizQuestion(
+      question:
+          "49. The maintenance of law and order in the nuclear family is the responsibility of the\n(BECE 2017 Q30)",
+      options: ["Aunts", "Parents", "Grandparents", "Children"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Parents are primarily responsible for setting and enforcing rules in the nuclear family."),
+
+  QuizQuestion(
+      question:
+          "50. One advantage of the extended family over the nuclear family is\n(BECE 2017 Q29)",
+      options: [
+        "Having little privacy for its members",
+        "Opportunity to associate with more people",
+        "Over-reliance on a few rich people",
+        "Persistent quarrelling in the family"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The extended family provides opportunities to interact and build relationships with a larger number of relatives."),
+
+  QuizQuestion(
+      question:
+          "51. A home where family members learn their religion through oral sources is known as\n(BECE 2018 Q31)",
+      options: ["Christianity", "Islamic", "Traditional", "Jewish"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion is largely transmitted through oral traditions, customs and practices."),
+
+  QuizQuestion(
+      question:
+          "52. A father shows commitment to the family by\n(BECE 2018 Q35)",
+      options: [
+        "Being punctual at work and helping others",
+        "Travelling often and staying outside the home",
+        "Being steadfast at prayers and worship",
+        "Treating all dependants with patience and tolerance"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Treating dependants patiently, fairly and responsibly demonstrates commitment to the wellbeing of the family."),
+
+  QuizQuestion(
+      question:
+          "53. The nuclear family system consists of\n(BECE 2019 Q32)",
+      options: [
+        "Parents and grandchildren",
+        "Parents and cousins",
+        "Parents and children",
+        "Siblings and cousins"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "54. Which of the following statements is not true about the extended family system?\n(BECE 2019 Q34)",
+      options: [
+        "Parents, children and uncles are members",
+        "Grandparents, nephews and children are members",
+        "Parents and children only are members",
+        "Grandchildren, nephews and uncles are members"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A family made up only of parents and their children is a nuclear family, not an extended family."),
+
+  QuizQuestion(
+      question:
+          "55. The ummah is the Islamic\n(BECE 2017 Q34)",
+      options: ["Community", "Congregation", "Divorce", "Scholar"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ummah refers to the worldwide community of Muslims."),
+
+  QuizQuestion(
+      question:
+          "56. A child who refuses to play with bad friends is said to be\n(BECE 2017 Q34)",
+      options: ["Obedient", "Faithful", "Polite", "Sincere"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Avoiding bad company can demonstrate obedience to good moral instructions from parents and elders."),
+
+  QuizQuestion(
+      question:
+          "57. At the mother's home, the child is responsible for\n(BECE 2019 Q40)",
+      options: [
+        "The cleaning of the house",
+        "The payment of bills",
+        "The upkeep of the mother",
+        "Punishing of siblings"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children are expected to assist with appropriate household duties such as cleaning the home."),
+
+  QuizQuestion(
+      question:
+          "58. All members of the extended family come from\n(BECE 2019 2020 Q40)",
+      options: [
+        "The same father",
+        "The same clan",
+        "The same town",
+        "The same mother"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended family members are connected through common ancestry and may belong to the same clan."),
+
+  QuizQuestion(
+      question:
+          "59. Rules and regulations are meant to ensure\n(BECE 2021 Q6)",
+      options: ["Discipline", "Love", "Omniscience", "Victory"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Rules and regulations guide behaviour and help maintain discipline."),
+
+  QuizQuestion(
+      question:
+          "60. Shrines in traditional neighbourhoods are used\n(BECE 2020 Q36)",
+      options: [
+        "As residences of chiefs",
+        "For prayers and consultations",
+        "For the sale of herbs",
+        "For settlement of disputes"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Traditional shrines are sacred places where worshippers pray and consult priests or spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "61. Healthy relationship among family members promotes\n(BECE 2021 Q2)",
+      options: [
+        "Development in the community",
+        "Fulfilment of God's commandment",
+        "Success in academic activities",
+        "Spiritual and moral development"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A healthy family relationship provides an environment in which good moral and spiritual values can be taught and developed."),
+
+  QuizQuestion(
+      question:
+          "62. The Gye Nyame symbol represents\n(BECE 2021 Q6)",
+      options: ["Kindness", "Love", "Omniscience", "Victory"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The supplied options appear mismatched. Gye Nyame traditionally expresses the supremacy and omnipotence of God, but none of the listed choices states this meaning."),
+
+  QuizQuestion(
+      question:
+          "63. To become a successful leader, one must learn to be\n(BECE 2021 Q40)",
+      options: [
+        "Literate",
+        "Tolerant",
+        "Highly religious",
+        "Very complacent"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance enables a leader to respect different views and work peacefully with others."),
+
+  QuizQuestion(
+      question:
+          "64. Ghanaians can live together peacefully if they\n(BECE 2021 Q1)",
+      options: [
+        "Avoid inter-ethnic marriages",
+        "Practise religious tolerance",
+        "Pray very often",
+        "Speak the truth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Religious tolerance encourages people of different faiths to respect one another and coexist peacefully."),
+
+  QuizQuestion(
+      question:
+          "65. To cut down on funeral expenses, the family must\n(BECE 2022 Q39)",
+      options: [
+        "Bury the corpse as early as possible",
+        "Make morticians run errands",
+        "Help in the preparation of meals",
+        "Provide shelter and clothing"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Family members can reduce funeral costs by helping with tasks such as preparing meals instead of paying for all services."),
+
+  QuizQuestion(
+      question:
+          "66. A person who relates well with his or her peers is the one who\n(BECE 2023 Q6)",
+      options: [
+        "Respects only the elders",
+        "Is smart and cunning",
+        "Plays around with his or her peers",
+        "Obeys instructions willingly"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Willingness to cooperate and follow appropriate instructions supports good relationships with others."),
+ QuizQuestion(
+question:
+"67. One of the child's responsibilities in the home is to\n(BECE 1999 Q30)",
+options: [
+"Sweep the compound",
+"Provide his clothing",
+"Pay the school fees",
+"Pay the hospital fees"
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"A child can contribute to the home by performing appropriate household chores such as sweeping the compound."),
+ QuizQuestion(
+      question:
+          "68. One of the rights of the child is the right\n(BECE 1999 Q34)",
+      options: [
+        "To work on his plot",
+        "To education",
+        "To sweep the classroom",
+        "To attend school regularly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Every child has a right to education."),
+      QuizQuestion(
+      question:
+          "69. Human rights include all the following except\n(BECE 2000 Q27)",
+      options: [
+        "The right to live",
+        "Freedom of association",
+        "Freedom of worship",
+        "Administering instant justice"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Administering instant justice is not a human right."),
+  QuizQuestion(
+      question:
+          "70. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
+      options: [
+        "Work harder for its good",
+        "Become democratic",
+        "Develop good skills in it",
+        "Build good and happy homes"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Love for one's community should encourage people to work for its progress and welfare."),
+
+  QuizQuestion(
+      question:
+          "71. To be patriotic means\n(BECE 2000 Q36)",
+      options: [
+        "Going to school regularly",
+        "Practicing personal hygiene",
+        "Defending the nation at all times",
+        "Engaging in sporting activities"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Patriotism involves love, loyalty and willingness to defend one's nation."),
+
+  QuizQuestion(
+      question:
+          "72. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
+      options: [
+        "National Commission on Children",
+        "National Council for Women and Development",
+        "Commission on Human Rights and Administrative Justice",
+        "National Commission for Civic Education"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Commission on Human Rights and Administrative Justice deals with human rights and administrative justice matters in Ghana."),
+
+  QuizQuestion(
+      question:
+          "73. Which of the following does not constitute a moral responsibility of the child?\n(BECE 2001 Q38)",
+      options: [
+        "Sweeping the classroom",
+        "Working on his plot",
+        "Worshiping God",
+        "Payment of school fees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Payment of school fees is normally the responsibility of parents or guardians, not the child."),
+
+  QuizQuestion(
+      question:
+          "74. What contribution can a child make when a community school is being put up?\n(BECE 2001 Q39)",
+      options: [
+        "Roofing the building",
+        "Fetching water and sand",
+        "Drawing up the building plan",
+        "Cheering the workers up with songs"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A child can safely assist community work by helping with simple tasks such as fetching water and sand."),
+
+  QuizQuestion(
+      question:
+          "75. As a child of the state, you have the right to\n(BECE 2002A Q22)",
+      options: ["Vote", "Education", "Work", "Worship"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Children have a recognized right to education."),
+
+  QuizQuestion(
+      question:
+          "76. One important responsibility as a member of a religious group is to\n(BECE 2002A Q26)",
+      options: [
+        "Sweep the meeting place every day",
+        "Gather the youth and talk to them",
+        "Obey the rules of the religion",
+        "Attend church service always"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Members of a religious group are expected to obey the rules and teachings of their religion."),
+
+  QuizQuestion(
+      question:
+          "77. The institution of authority in the society ensures\n(BECE 2002A Q28)",
+      options: [
+        "Peace and order",
+        "Good religious lives",
+        "A healthy environment",
+        "Respect for adults"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace, order and discipline in society."),
+
+  QuizQuestion(
+      question:
+          "78. A patriotic citizen is one who is\n(BECE 2002A Q38)",
+      options: [
+        "Loyal and law abiding",
+        "Loyal and hospitable to strangers",
+        "Loving and willing to die for the nation",
+        "Respectful in the community"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A patriotic citizen demonstrates loyalty to the country and obeys its laws."),
+
+  QuizQuestion(
+      question:
+          "79. Which right is person exercising when he cast a vote during national election?\n(BECE 2002B Q28)",
+      options: [
+        "Religious right",
+        "Civic right",
+        "Freedom of speech",
+        "Freedom of association"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Voting in a national election is an exercise of a citizen's civic right."),
+
+  QuizQuestion(
+      question:
+          "80. When a child develops a good spirit of responsibility he will\n(BECE 2002B Q29)",
+      options: [
+        "Win many prizes at school",
+        "Pass all his examination",
+        "Enjoy peace and success in life",
+        "Become tolerant and sincere"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Responsible behaviour contributes to peaceful living and success in life."),
+
+  QuizQuestion(
+      question:
+          "81. To demonstrate patriotism, one needs to\n(BECE 2002B Q32)",
+      options: [
+        "Show love and defend the nation",
+        "Be sincere in all circumstances",
+        "Be respectful to leaders of the country",
+        "Show a live of honesty to both old and young"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Patriotism is demonstrated through love, loyalty and willingness to defend one's nation."),
+
+  QuizQuestion(
+      question:
+          "82. It is the responsibility of the child to\n(BECE 2003 Q22)",
+      options: [
+        "Do his household chores",
+        "Invite his friends to his house",
+        "Request his parents to organize a party",
+        "Wake his parents up from bed"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children are expected to help with appropriate household chores."),
+
+  QuizQuestion(
+      question:
+          "83. The duty of a member of a community falls under\n(BECE 2004 Q29)",
+      options: [
+        "Civic responsibility",
+        "Governmental responsibility",
+        "Filial responsibility",
+        "Communal responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Duties performed as a member of a community are communal responsibilities."),
+
+  QuizQuestion(
+      question:
+          "84. Which of the following is a responsibility of children?\n(BECE 2004 Q32)",
+      options: [
+        "Paying their own school fees",
+        "Providing their friends with their needs",
+        "Making sure parents are always at work",
+        "Helping their parents at home"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Helping parents with suitable duties at home is one of a child's responsibilities."),
+
+  QuizQuestion(
+      question:
+          "85. A special right that puts a person in a better position is\n(BECE 2004 Q40)",
+      options: ["Favour", "Choice", "Freedom", "Privilege"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A privilege is a special right or advantage granted to a person or group."),
+
+  QuizQuestion(
+      question:
+          "86. Which of the following is not a peaceful way to ask for your right?\n(BECE 2005 Q25)",
+      options: ["Petition", "Kidnapping", "Silent protest", "Lobbying"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Kidnapping is violent and unlawful and is not a peaceful means of demanding one's rights."),
+
+  QuizQuestion(
+      question:
+          "87. A patriotic citizen is a person who\n(BECE 2005 Q40)",
+      options: [
+        "Helps the family always",
+        "Practices personal hygiene",
+        "Defends his nation always",
+        "Worship his Creator regularly"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A patriotic citizen shows loyalty and is willing to defend the nation."),
+
+  QuizQuestion(
+      question:
+          "88. Authority is instituted in the society to ensure\n(BECE 2006 Q24)",
+      options: [
+        "Respect for adults",
+        "Peace and order",
+        "The right to vote",
+        "Freedom of speech"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Authority exists to maintain peace, order and discipline in society."),
+
+  QuizQuestion(
+      question:
+          "89. The peaceful ways of asking for one's rights include the following\n(BECE 2006 Q31)",
+      options: ["Lobbying", "Kidnapping", "Playing games", "Rioting"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Lobbying is a lawful and peaceful means of seeking support for one's rights."),
+
+  QuizQuestion(
+      question:
+          "90. As a child, your duties include all these except\n(BECE 2006 Q34)",
+      options: [
+        "Fetching water",
+        "Weeding the compound",
+        "Preparing meals",
+        "Paying fees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Paying school fees is normally a parental or guardian responsibility."),
+
+  QuizQuestion(
+      question:
+          "91. When a child develops the sense of responsibility, he or she\n(BECE 2006 Q38)",
+      options: [
+        "Wins many prizes at school",
+        "Passes all his examination",
+        "Becomes tolerant and sincere",
+        "Enjoys peace and success in life"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A responsible person is more likely to enjoy orderly relationships, peace and success."),
+
+  QuizQuestion(
+      question:
+          "92. The rights and privileges of every citizen is guaranteed in the\n(BECE 2007 Q30)",
+      options: ["Constitution", "Bible", "Qur'an", "By-laws"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Constitution guarantees the fundamental rights and freedoms of citizens."),
+
+  QuizQuestion(
+      question:
+          "93. One who loves his/her country\n(BECE 2007 Q31)",
+      options: [
+        "Helps the needy always",
+        "Practices personal hygiene",
+        "Defends the nation",
+        "Worship God always"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Love for one's country is demonstrated through loyalty and willingness to defend it."),
+
+  QuizQuestion(
+      question:
+          "94. At what age does one qualify to vote?\n(BECE 2007 Q38)",
+      options: ["15 years", "17 years", "18 years", "21 years"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A citizen qualifies to vote at the age of 18 years."),
+
+  QuizQuestion(
+      question:
+          "95. Human rights include all the following except\n(BECE 2007 Q39)",
+      options: [
+        "The right to vote",
+        "Administering instant justice",
+        "The right to live",
+        "Freedom of worship"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Administering instant justice is not a human right."),
+
+  QuizQuestion(
+      question:
+          "96. Freedom of expression enables one to\n(BECE 2008 Q33)",
+      options: [
+        "Move about freely",
+        "Engage in any job",
+        "Be heard freely",
+        "Accuse other people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Freedom of expression allows a person to express opinions and be heard."),
+
+  QuizQuestion(
+      question:
+          "97. Filial responsibility refers to one's duty as a\n(BECE 2008 Q35)",
+      options: [
+        "Father or a mother",
+        "Member of a society",
+        "Son or a daughter",
+        "Member of the church"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Filial responsibility refers to the duties a person has as a son or daughter toward parents and family."),
+
+  QuizQuestion(
+      question:
+          "98. One civic responsibility of a citizen is to\n(BECE 2009 Q34)",
+      options: [
+        "Expose wrongdoers in the community",
+        "Be willing to accept correction",
+        "Respect the traditions of the community",
+        "Look after the poor in the community"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Citizens have a civic duty to help protect society by reporting or exposing wrongdoing."),
+
+  QuizQuestion(
+      question:
+          "99. Privileges can be earned by showing that one is\n(BECE 2009 Q38)",
+      options: ["Intelligent", "Trustworthy", "Decent", "Hospitable"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Trustworthy people are more likely to be granted special responsibilities and privileges."),
+
+  QuizQuestion(
+      question:
+          "100. The best way to live in peace in a community is to\n(BECE 2011 Q28)",
+      options: [
+        "Disagree with your enemies",
+        "Sit on the fence",
+        "Understand and co-operate with others",
+        "Enter into conflict with your neighbours"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperation promote peaceful community relationships."),
+
+  QuizQuestion(
+      question:
+          "101. It is our responsibility to prevent the spread cholera by\n(BECE 2011 Q30)",
+      options: [
+        "Immunizing against the six killer diseases",
+        "Eating a balanced diet",
+        "Keeping our surroundings clean",
+        "Taking good care of our wounds"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Good sanitation and clean surroundings help prevent the spread of cholera."),
+
+  QuizQuestion(
+      question:
+          "102. All the following are teachers' responsibilities towards their pupils except\n(BECE 2011 Q38)",
+      options: [
+        "Ensuring discipline",
+        "Making themselves approachable",
+        "Inviting parents of troublesome children",
+        "Feeding hungry pupils at school"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Feeding hungry pupils is not generally listed as a teacher's formal responsibility."),
+
+  QuizQuestion(
+      question:
+          "103. A citizen who indulges in social vices in the community is said to be\n(BECE 2012 Q21)",
+      options: [
+        "Unfriendly",
+        "Unreliable",
+        "Untruthful",
+        "Unpatriotic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Engaging in social vices harms the community and is considered contrary to patriotic behaviour."),
+
+  QuizQuestion(
+      question:
+          "104. The best way to live in peace in a community is to\n(BECE 2012 Q33)",
+      options: [
+        "Sit on the fences always",
+        "Be afraid of those in authority",
+        "Keep to oneself always",
+        "Understand and co-operate with others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperating with others promotes peaceful coexistence."),
+
+  QuizQuestion(
+      question:
+          "105. In a traditional society, the provision of shelter is the responsibility of the\n(BECE 2012 Q35)",
+      options: ["Father", "Grandfather", "Mother", "Uncle"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, the father is responsible for providing shelter."),
+
+  QuizQuestion(
+      question:
+          "106. Which of the following is not a responsibility of a family head?\n(BECE 2013 Q22)",
+      options: [
+        "Oversight of the general wellbeing of the family",
+        "Taking care of all family property",
+        "Settling disputes",
+        "Granting loans"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Granting loans is not a standard responsibility of the family head."),
+
+  QuizQuestion(
+      question:
+          "107. Putting one's interest above that of others results in\n(BECE 2013 Q31)",
+      options: ["Conflict", "Patriotism", "Selflessness", "Tolerance"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Self-centred behaviour can create disagreements and conflict with others."),
+
+  QuizQuestion(
+      question:
+          "108. Authority is instituted in the society to ensure\n(BECE 2014 Q30)",
+      options: ["Hard work", "Loyalty", "Peace", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace and order in society."),
+
+  QuizQuestion(
+      question:
+          "109. School rules help pupils to\n(BECE 2014 Q32)",
+      options: [
+        "Avoid being punish",
+        "Worship God regularly",
+        "Compete with one another",
+        "Disobey school authorities"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Following school rules helps pupils avoid misconduct and its resulting punishment."),
+
+  QuizQuestion(
+      question:
+          "110. Carrying out assigned duties is necessary because, it\n(BECE 2014 Q33)",
+      options: [
+        "Pleases God and humankind",
+        "Attracts hatred from enemies",
+        "Leads to pacification of the gods",
+        "Leads to fulfillment of promises"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Responsible performance of assigned duties is valued by both religious teaching and society."),
+
+  QuizQuestion(
+      question:
+          "111. Authority is instituted in society to ensure\n(BECE 2018 Q28)",
+      options: [
+        "Freedom of speech",
+        "Peace and order",
+        "Respect for adults",
+        "The right to vote"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace, discipline and social order."),
+
+  QuizQuestion(
+      question:
+          "112. The best way to live in peace in a community is to\n(BECE 2018 Q29)",
+      options: [
+        "Remain neutral",
+        "Sit on the fence",
+        "Offer special gifts to friends in school",
+        "Understand and co-operate with others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperation are essential for peaceful community living."),
+
+  QuizQuestion(
+      question:
+          "113. Which of the following activities is not a responsibility of a family head?\n(BECE 2018 Q30)",
+      options: [
+        "Giving loans to people",
+        "Settling disputes among people",
+        "Ensuring the well-being of the people",
+        "Taking custody of family property"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Giving loans is not one of the usual responsibilities of a family head."),
+
+  QuizQuestion(
+      question:
+          "114. Tidying the school compound is the child's\n(BECE 2018 Q32)",
+      options: ["Commitment", "Behaviour", "Loyalty", "Role"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Helping to tidy the school compound is one of the roles or responsibilities of pupils."),
+
+  QuizQuestion(
+      question:
+          "115. Carrying out assigned duties is necessary because it\n(BECE 2018 Q37)",
+      options: [
+        "Attracts hatred from enemies",
+        "Leads to fulfillment of promises",
+        "Leads to pacification of the gods",
+        "Pleases God and human kind"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Performing assigned duties responsibly is considered pleasing to God and beneficial to society."),
+
+  QuizQuestion(
+      question:
+          "116. School rules help pupils to\n(BECE 2018 Q38)",
+      options: [
+        "Avoid being punished",
+        "Compete with one another",
+        "Protect properties all the time",
+        "Worship God regularly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Obeying school rules helps pupils avoid misconduct and punishment."),
+
+  QuizQuestion(
+      question:
+          "117. Youth camps are organized purposely for the youth are to\n(BECE 1999 Q27)",
+      options: [
+        "Fend for themselves",
+        "Find their parents",
+        "Learn to socialize",
+        "Run away from household chores"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Youth camps provide opportunities for young people to interact, cooperate and socialize with others."),
+
+  QuizQuestion(
+      question:
+          "118. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
+      options: [
+        "Serving God and nation",
+        "Leading a disciplined life",
+        "Being law abiding",
+        "Ensuring violence to demand right"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations promote discipline and peaceful behaviour, not violence."),
+
+  QuizQuestion(
+      question:
+          "119. One of the important aims of a youth organization is to\n(BECE 2000 Q29)",
+      options: [
+        "Bring unity among the youth",
+        "Learn dancing and merry making",
+        "Let the youth be on their own and look for jobs",
+        "Oppose the views of the elderly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Youth organizations encourage unity, cooperation and fellowship among young people."),
+
+  QuizQuestion(
+      question:
+          "120. One good reason for the establishment of Catholic Youth Organization (CYO) is to\n(BECE 2002A Q40)",
+      options: [
+        "Serve us soldiers to defend the church",
+        "Foster unity among the priest",
+        "Perform cultural dances in the church",
+        "Teach the youth about the traditions in the church"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Catholic Youth Organization helps educate Catholic youth in the teachings and traditions of the Church."),
+
+  QuizQuestion(
+      question:
+          "121. One important objective of religious youth organizations is to\n(BECE 2003 Q33)",
+      options: [
+        "Organize dancing competition during Christmas",
+        "Organizing pleasure trips",
+        "Practices moral teaching",
+        "Challenge elders on community development committees"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations place strong emphasis on moral education and character development."),
+
+  QuizQuestion(
+      question:
+          "122. One joins a religious youth movement in order to\n(BECE 2004 Q31)",
+      options: [
+        "Go to heaven",
+        "Help develop the religion",
+        "Organize crusades",
+        "Have prayers answered"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Members of religious youth movements help strengthen and develop their religious communities."),
+
+  QuizQuestion(
+      question:
+          "123. The Asafo companies are concerned with the promotion of all the following except\n(BECE 2005 Q4)",
+      options: [
+        "Good behaviour",
+        "Cultural development",
+        "Adolescent reproductive health",
+        "Social development"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally promote social, cultural and community responsibilities rather than adolescent reproductive health."),
+
+  QuizQuestion(
+      question:
+          "124. The Young People's Guild is an organization in the\n(BECE 2005 Q15)",
+      options: [
+        "Methodist church",
+        "Anglican church",
+        "Presbyterian church",
+        "Pentecost church"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Young People's Guild is associated with the Presbyterian Church."),
+
+  QuizQuestion(
+      question:
+          "125. A member of the Catholic Youth Organization (CYO) is called\n(BECE 2006 Q26)",
+      options: ["A deacon", "Voyager", "Soldier", "Crusader"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A member of the Catholic Youth Organization is commonly referred to as a crusader in this RME context."),
+
+  QuizQuestion(
+      question:
+          "126. A major reason for establishing traditional youth organization is to\n(BECE 2007 Q32)",
+      options: [
+        "Defend the interest of the community",
+        "Protect the ancestors and gods",
+        "Embark on educational tours",
+        "Fight those who destroy the environment"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Traditional youth organizations help protect and defend the interests of their communities."),
+
+  QuizQuestion(
+      question:
+          "127. The basic quality expected in any youth organization is\n(BECE 2007 Q34)",
+      options: [
+        "The spirit of voluntarism",
+        "Love for one's parents",
+        "Disregard for non-members of the group",
+        "Contestant prayers"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Youth organizations depend on willingness to serve and participate voluntarily."),
+
+  QuizQuestion(
+      question:
+          "128. All the following are functions of Asafo groups except\n(BECE 2008 Q37)",
+      options: [
+        "Weeding the surroundings and cleaning choked gutters",
+        "Ensuring that traditional norms are followed",
+        "Assisting chiefs in punishing wrong doers in the village",
+        "The supervision of marriage ceremonies in the village"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Supervising marriage ceremonies is not normally listed among the traditional functions of Asafo groups."),
+
+  QuizQuestion(
+      question:
+          "129. The spirit of patriotism is best shown by the youth of\n(BECE 2009 Q32)",
+      options: [
+        "Young People's Guild",
+        "Pentecost Youth Ministry",
+        "Asafo Company",
+        "Ahmadiyya Muslim Youth"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally defend and serve their communities, demonstrating patriotism."),
+
+  QuizQuestion(
+      question:
+          "130. A major reason of establishing traditional youth organization is to\n(BECE 2011 Q21)",
+      options: [
+        "Defend the interest of the community",
+        "Protect ancestors and the gods",
+        "Embark on educational tour",
+        "Fight those who destroy the environment"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Traditional youth organizations are established partly to protect and defend community interests."),
+
+  QuizQuestion(
+      question:
+          "131. The main aim of the girl's Brigade is to\n(BECE 2012 Q32)",
+      options: [
+        "Assist girls to attend school",
+        "Encourage girls to work hard",
+        "Help establish more girls' school",
+        "Produce good Christian womanhood"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Girls' Brigade seeks to develop girls in Christian character and responsible womanhood."),
+
+  QuizQuestion(
+      question:
+          "132. Youth camps are usually held to help young people to\n(BECE 2013 Q30)",
+      options: [
+        "Find life partners",
+        "Learn to socialize with others",
+        "Form important study groups",
+        "Organize their lives properly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Youth camps provide opportunities for young people to interact and learn healthy social relationships."),
+
+  QuizQuestion(
+      question:
+          "133. The Asafo Youth Movement do not promote\n(BECE 2014 Q40)",
+      options: [
+        "Unity among its members",
+        "Selflessness among its members",
+        "Regular attendance of church service",
+        "The spirit of law abiding among its members"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Asafo organizations are traditional community groups and do not specifically promote regular church attendance."),
+
+  QuizQuestion(
+      question:
+          "134. Which of the following functions is performed by the Asafo companies\n(BECE 2015 Q17)",
+      options: [
+        "Acting as watchdogs",
+        "Registration of foreigners",
+        "Collection of taxes",
+        "Acting as arbitrators"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally act as watchdogs who help protect the community."),
+
+  QuizQuestion(
+      question:
+          "135. Religious Youth Organizations are established to\n(BECE 2015 Q39)",
+      options: [
+        "Honour their leaders",
+        "Carry out communal labour",
+        "Help protect the natural environment",
+        "Defend the interest of the society"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Religious youth organizations train young people to serve their religion and contribute positively to society."),
+
+  QuizQuestion(
+      question:
+          "136. The main aim of religious youth organizations is to\n(BECE 2016 Q39)",
+      options: [
+        "Become political force in their communities",
+        "Educate the youth through moral teaching",
+        "Have inter-youth relations through competitions",
+        "Organize excursions to places of interest"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations mainly provide moral and religious education for young people."),
+
+  QuizQuestion(
+      question:
+          "137. C.Y.O. as a religious youth group stands for\n(BECE 2018 Q39)",
+      options: [
+        "Catechists Youth Organization",
+        "Catholic Youngmen Organization",
+        "Christian Youngmen Organization",
+        "Catholic Youth Organization"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "C.Y.O. stands for Catholic Youth Organization."),
+
+  QuizQuestion(
+      question:
+          "138. Religious Youth Associations foster peace among its members by\n(BECE 2018 Q40)",
+      options: [
+        "Being law abiding",
+        "Caring for the sick",
+        "Causing the arrest of offenders",
+        "Worshipping and praying"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Law-abiding behaviour promotes discipline, order and peaceful relationships among members."),
+
+  QuizQuestion(
+      question:
+          "139. Asafo companies are important because\n(BECE 2020 Q40)",
+      options: [
+        "They enstool paramount chiefs",
+        "Help in environmental cleanliness",
+        "Offer employment to people",
+        "Promote local tourism"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Asafo companies participate in communal activities such as cleaning and maintaining the environment."),
+
+  QuizQuestion(
+      question:
+          "140. Which of the following options is the main role of Asafo companies?\n(BECE 2021 Q9)",
+      options: [
+        "Entertaining the society",
+        "Installation of paramount chiefs",
+        "Promotion of tourism",
+        "Defence of the community"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The traditional main role of Asafo companies is to defend and protect the community."),
+    ],
+  ),
+
+  "Religious & Moral Education JHS2 s4 ss1 - Islamic Prophets / Caliphs / Personalities": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. Prophet Mohammed's twelfth birthday is important because\n(BECE 1999 Q7)",
+options: [
+"There was prophecy about his future",
+"Halimah returned him to his parents",
+"Amina passed away",
+"Abdul Mutallib died"
+],
+correctIndex: 0,
+difficulty: "Medium",
+explanation:
+"The question associates this stage of Mohammed's life with a prophecy concerning his future."),
+  QuizQuestion(
+      question:
+          "2. Blessed are the merciful for they shall\n(BECE 1999 Q17)",
+      options: ["See God", "Obtain mercy", "Inherit the earth", "Be called the children of God"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the merciful shall obtain mercy."),
+
+  QuizQuestion(
+      question:
+          "3. The traditional healer does not normally charge high fees because\n(BECE 1999 Q40)",
+      options: [
+        "They are in the subsistence economy",
+        "They use cowries for diagnosis",
+        "Local herbs and plants are used",
+        "It will weaken the power of the medicine"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief may hold that charging excessive fees can weaken the spiritual effectiveness of the medicine."),
+
+  QuizQuestion(
+      question:
+          "4. Which of the following is not a patriarch?\n(BECE 2000 Q12)",
+      options: ["Abraham", "Isaac", "Jacob", "Noah"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Abraham, Isaac and Jacob are commonly referred to as the Biblical patriarchs."),
+
+  QuizQuestion(
+      question:
+          "5. A religious leader in Islam is called\n(BECE 2000 Q15)",
+      options: ["Khalifah", "Imam", "Alhaji", "Mallam"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An Imam leads Muslims in prayer and provides religious leadership."),
+
+  QuizQuestion(
+      question:
+          "6. The blind man Jesus healed was called\n(BECE 2000 Q17)",
+      options: ["Bartholomew", "Barabbas", "Bartimaeus", "Nicodemus"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Bartimaeus was the blind man healed by Jesus."),
+
+  QuizQuestion(
+      question:
+          "7. Jesus Christ began his ministry at the age of\n(BECE 2001 Q2)",
+      options: ["12", "25", "30", "33"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus began His public ministry at about thirty years of age."),
+
+  QuizQuestion(
+      question:
+          "8. A Muslim is a person who\n(BECE 2001 Q4)",
+      options: [
+        "Is at peace with God and his neighbour",
+        "Can recite the whole Qur'an",
+        "Fasts during the Ramadan",
+        "Visits Mecca every year"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A Muslim is one who submits to Allah and seeks peaceful relationships with others."),
+
+  QuizQuestion(
+      question:
+          "9. From the age of eight, Mohammed was brought up by\n(BECE 2001 Q12)",
+      options: ["Halimah", "Abdul Mutallib", "Khadijah", "Abu Talib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "After the death of his grandfather, Mohammed was cared for by his uncle Abu Talib."),
+
+  QuizQuestion(
+      question:
+          "10. The first Jewish temple was built by\n(BECE 2001 Q13)",
+      options: ["David", "Saul", "Solomon", "Samuel"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "King Solomon built the first Temple in Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "11. Jesus Christ was born in\n(BECE 2001 Q14)",
+      options: ["Jerusalem", "Bethlehem", "Bethsaida", "Galilee"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus was born in Bethlehem."),
+
+  QuizQuestion(
+      question:
+          "12. Which of the following personalities succeeded Mohammed?\n(BECE 2001 Q19)",
+      options: ["Abdullah", "Musa Mohammed", "Abu Bakr", "Issa Ibrahim"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Abu Bakr became the first Caliph after Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "13. One of the roles of the ancestors is to\n(BECE 2001 Q19)",
+      options: [
+        "Ensure harmony in the family",
+        "Give authority to the people",
+        "Settle our debts",
+        "Raise more ancestors from the family"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are traditionally believed to help maintain harmony and moral order in the family."),
+
+  QuizQuestion(
+      question:
+          "14. A person cannot qualify to be an ancestor if he\n(BECE 2002A Q16)",
+      options: [
+        "Had many wives",
+        "Had many children",
+        "Was very unpopular",
+        "Committed suicide"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief generally requires a person to have died a natural and honourable death to qualify as an ancestor."),
+
+  QuizQuestion(
+      question:
+          "15. All the laws which Moses gave to Israel can be found in the book of\n(BECE 2002A Q19)",
+      options: [
+        "Genesis, Exodus and Numbers",
+        "Genesis, Deuteronomy and Numbers",
+        "Genesis, Leviticus and Leviticus",
+        "Exodus, Leviticus and Deuteronomy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The laws associated with Moses are particularly found in Exodus, Leviticus and Deuteronomy."),
+
+  QuizQuestion(
+      question:
+          "16. The sermon on the Mount was delivered by\n(BECE 2002B Q3)",
+      options: ["Jesus", "Moses", "Joshua", "Paul"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus delivered the Sermon on the Mount."),
+
+  QuizQuestion(
+      question:
+          "17. On which day did Jesus resurrect?\n(BECE 2002B Q5)",
+      options: ["Ascension Day", "Ash Wednesday", "Easter Sunday", "Palm Sunday"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians commemorate the resurrection of Jesus on Easter Sunday."),
+
+  QuizQuestion(
+      question:
+          "18. The second Caliph was\n(BECE 2002B Q6)",
+      options: ["Umar", "Abu bakr", "Uthman", "Ali"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Umar ibn al-Khattab was the second rightly guided Caliph."),
+
+  QuizQuestion(
+      question:
+          "19. The title Al-Faruq given to Umar by the Holy Prophet Mohammed means\n(BECE 2002B Q7)",
+      options: [
+        "A strong believer in the principles and teaching of Islam",
+        "Lover of faith",
+        "Defender of Islam",
+        "One who can differentiate between right and wrong"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Al-Faruq means one who distinguishes between right and wrong."),
+
+  QuizQuestion(
+      question:
+          "20. In the traditional society, one could become an ancestor when one\n(BECE 2002B Q9)",
+      options: [
+        "Visited the shrine always",
+        "Poured libation to the gods",
+        "Died a natural death",
+        "Married the widow of another man"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dying a natural and honourable death is traditionally one condition for becoming an ancestor."),
+
+  QuizQuestion(
+      question:
+          "21. In Islam if one is pious it means he\n(BECE 2002B Q13)",
+      options: ["Sees God", "Reads about God", "Understands God", "Fears God"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Piety in Islam involves consciousness and fear of Allah."),
+
+  QuizQuestion(
+      question:
+          "22. Whose preaching ministry urged the Jews to bear fruits that befit repentance?\n(BECE 2003 Q4)",
+      options: ["Jesus Christ", "Paul", "Peter", "John the Baptist"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "John the Baptist called people to repentance and to produce fruits worthy of repentance."),
+
+  QuizQuestion(
+      question:
+          "23. The Caliph Abu Bakr was referred to as Siddiq by Mohammed due to his\n(BECE 2003 Q5)",
+      options: ["Courage", "Tolerance", "Truthfulness", "Generosity"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Al-Siddiq means the truthful or the one who confirms the truth."),
+
+  QuizQuestion(
+      question:
+          "24. All those who took custody of Prophet Mohammed were happy with him because He\n(BECE 2003 Q6)",
+      options: [
+        "Had a unique character",
+        "Was a hardworking young man",
+        "Was an orphan at a tender age",
+        "Was prayerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Mohammed was respected for his admirable and trustworthy character."),
+
+  QuizQuestion(
+      question:
+          "25. God made a covenant with\n(BECE 2003 Q9)",
+      options: ["Isaac", "Abraham", "Jacob", "Joshua"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "God made a covenant with Abraham."),
+
+  QuizQuestion(
+      question:
+          "26. Which of the following persons knew God \"face to face\"?\n(BECE 2003 Q13)",
+      options: ["Abraham", "Isaac", "Jacob", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses is described as having known God face to face."),
+
+  QuizQuestion(
+      question:
+          "27. Joseph was hated by his brothers because\n(BECE 2004 Q2)",
+      options: [
+        "Jacob promised him of inheritance",
+        "He loved his father very much",
+        "Of his prophetic dreams",
+        "He was gentle and handsome"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Joseph's dreams suggested that his family would bow to him, increasing his brothers' jealousy."),
+
+  QuizQuestion(
+      question:
+          "28. The patriarch described as a \"great man of faith\" was\n(BECE 2004 Q3)",
+      options: ["Jacob", "David", "Moses", "Abraham"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Abraham is remembered for his exceptional faith and obedience to God."),
+
+  QuizQuestion(
+      question:
+          "29. Which of the following people was not a disciple of Jesus?\n(BECE 2004 Q4)",
+      options: ["Paul", "Peter", "Matthew", "James"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Paul became an apostle later but was not one of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "30. Prophet Mohammed is described as al-Amin because he was\n(BECE 2004 Q14)",
+      options: ["Wealthy", "Generous", "Honest", "Brave"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Al-Amin means trustworthy, reflecting Mohammed's honesty."),
+
+  QuizQuestion(
+      question:
+          "31. The legendary Tsali performed his magical powers in and around\n(BECE 2004 Q20)",
+      options: ["Agbozume", "Akpafia", "Anloga", "Tsame"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Togbe Tsali is traditionally associated with Anloga and the Anlo people."),
+
+  QuizQuestion(
+      question:
+          "32. Prophet Mohammed's marriage with Khadijah enabled him to\n(BECE 2005 Q8)",
+      options: [
+        "Free many Muslim slaves",
+        "Devote more time for worship",
+        "Migrate to Medina",
+        "Preach publicly in Mecca"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Khadijah's support gave Mohammed greater opportunity to devote himself to worship and reflection."),
+
+  QuizQuestion(
+      question:
+          "33. The traditions of the Prophet Mohammed which form part of the Quran are the\n(BECE 2005 Q9)",
+      options: [
+        "Injil and Zabur",
+        "Hadith and Sunnah",
+        "Sunnah and Injil",
+        "Ruya and Hadith"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The intended answer in the supplied choices is Hadith and Sunnah, which preserve traditions about Mohammed."),
+
+  QuizQuestion(
+      question:
+          "34. The chief who offered himself to be sacrificed during the Ashanti-Denkyira war was\n(BECE 2005 Q12)",
+      options: ["Opoku Ware", "Egya Ahor", "Ntim Gyakari", "Tweneboa Kodua"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tweneboa Kodua is remembered for sacrificing himself for the Asante cause."),
+
+  QuizQuestion(
+      question:
+          "35. Abraham was known for his great faith because he\n(BECE 2005 Q18)",
+      options: [
+        "Refused the idols of Canaan",
+        "Was willing to sacrifice his son to God",
+        "Built an altar to worship God",
+        "Agreed to separate from Lot"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Abraham demonstrated great faith through his willingness to obey God's command concerning his son."),
+
+  QuizQuestion(
+      question:
+          "36. The tribes of Israel derived their names from the sons of\n(BECE 2005 Q19)",
+      options: ["Abraham", "Joseph", "Jacob", "Isaac"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The twelve tribes of Israel were named after the sons and descendants of Jacob."),
+
+  QuizQuestion(
+      question:
+          "37. Israel came out of slavery in Egypt under the leadership of\n(BECE 2006 Q6)",
+      options: ["Joshua", "Joseph", "Abraham", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses led the Israelites out of slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "38. Togbe Tsali is remembered for\n(BECE 2006 Q7)",
+      options: [
+        "His cruelty to the Anlos",
+        "Freeing his people from oppressions",
+        "Selling his people into slavery",
+        "Allowing missionaries to preach to his people"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Togbe Tsali is remembered in Anlo tradition for helping his people escape oppression."),
+
+  QuizQuestion(
+      question:
+          "39. The second Caliph of Islam was\n(BECE 2006 Q9)",
+      options: ["Ali", "Abubakar", "Umar", "Uthman"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Umar was the second Caliph after Abu Bakr."),
+
+  QuizQuestion(
+      question:
+          "40. God gave Noah and his people the rainbow as a sign of the covenant that\n(BECE 2006 Q10)",
+      options: [
+        "The earth would never again be destroyed by flood",
+        "Idol worshippers would be destroyed",
+        "Heavenly bodies would always give light",
+        "Humankind would not speak the same language"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The rainbow represented God's promise not to destroy the earth again by a flood."),
+
+  QuizQuestion(
+      question:
+          "41. A dead person is not regarded as an ancestor if he or she\n(BECE 2006 Q13)",
+      options: [
+        "Lived for more than forty years",
+        "Died through an accident",
+        "Married and had many children",
+        "Died while defending his community"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief generally requires a natural or honourable death for ancestral status."),
+
+  QuizQuestion(
+      question:
+          "42. The burning bush that Moses saw attracted him because\n(BECE 2006 Q14)",
+      options: [
+        "God spoke to him from it",
+        "The place was a holy ground",
+        "The fire was not consuming the bush",
+        "God wanted to save Israel through him"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Moses was amazed because the bush was burning without being consumed."),
+
+  QuizQuestion(
+      question:
+          "43. According to the Qur'an, the Torah was revealed through\n(BECE 2006 Q18)",
+      options: ["Ibrahim", "Mohammed", "Yusuf", "Ishmael"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The expected figure is Musa (Moses), but Musa is not among the supplied options."),
+
+  QuizQuestion(
+      question:
+          "44. According to Jesus, the poor in spirit are blessed because they shall\n(BECE 2006 Q19)",
+      options: [
+        "Inherit the Kingdom of heaven",
+        "Be comforted",
+        "Inherit the earth",
+        "Be called the sons of God"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the kingdom of heaven belongs to the poor in spirit."),
+
+  QuizQuestion(
+      question:
+          "45. The Qur'an was revealed to Mohammed through\n(BECE 2007 Q2)",
+      options: ["Abu Bakr", "Angel Jibril", "Zayd Ibn Thabit", "Angel Mikail"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims believe that Angel Jibril delivered Allah's revelations to Mohammed."),
+
+  QuizQuestion(
+      question:
+          "46. God saved the believers from the flood through\n(BECE 2007 Q8)",
+      options: ["Abraham", "Moses", "Noah", "Joseph"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Noah built the ark through which the believers survived the flood."),
+
+  QuizQuestion(
+      question:
+          "47. Caliph Abu Bakr is remembered for\n(BECE 2007 Q9)",
+      options: [
+        "Going on pilgrimage with the prophet",
+        "Marrying the prophet's daughter",
+        "Compiling the Qur'an into a book",
+        "Defending the prophet in Mecca"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The first collection of Qur'anic material into a compiled form was undertaken during Abu Bakr's caliphate."),
+
+  QuizQuestion(
+      question:
+          "48. The name Moses means\n(BECE 2007 Q19)",
+      options: [
+        "Washed in water",
+        "Drawn out of water",
+        "Abandoned in water",
+        "Baptised with water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Biblical explanation of the name Moses is 'drawn out of water.'"),
+
+  QuizQuestion(
+      question:
+          "49. Aminah is popular among Muslims because she\n(BECE 2008 Q6)",
+      options: [
+        "Married Mohammed",
+        "Gave birth to Mohammed",
+        "Supported Mohammed in the Jihads",
+        "Was Mohammed's sister"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Aminah was the mother of Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "50. The death of Jesus teaches us how we must\n(BECE 2008 Q12)",
+      options: [
+        "Be committed to our children",
+        "Love one another in all things",
+        "Faithfully serve our nation",
+        "Sacrifice for the church"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Jesus' sacrificial death is presented as an example of selfless love for others."),
+
+  QuizQuestion(
+      question:
+          "51. Mount Calvary was the place where Jesus\n(BECE 2008 Q13)",
+      options: [
+        "Ascended to heaven",
+        "Was crucified",
+        "Was transfigured",
+        "Preached His last sermon"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus was crucified at Calvary, also called Golgotha."),
+
+  QuizQuestion(
+      question:
+          "52. Moses ordered the celebration of the Passover to commemorate the\n(BECE 2008 Q14)",
+      options: [
+        "Crossing of the Red Sea",
+        "Deliverance from Egyptian bondage",
+        "Death of Egyptian first-born",
+        "Encounter with the burning bush"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Passover commemorates the Israelites' deliverance from slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "53. The moral lesson from the life of Tweneboa Kodua is that one should cultivate the habit of\n(BECE 2008 Q15)",
+      options: ["Faithfulness", "Punctuality", "Truthfulness", "Sacrifice"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tweneboa Kodua is remembered for sacrificing himself for his people."),
+
+  QuizQuestion(
+      question:
+          "54. Caliph Abubakar led prayers in the lifetime of prophet Mohammed because the Prophet\n(BECE 2008 Q16)",
+      options: ["Was tired", "Was sick", "Wanted to test him", "Had travelled"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abu Bakr led the prayers when Prophet Mohammed became seriously ill."),
+
+  QuizQuestion(
+      question:
+          "55. Blessed are the meek for they shall\n(BECE 2008 Q17)",
+      options: ["Obtain mercy", "See God", "Inherit the earth", "Be satisfied"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the meek shall inherit the earth."),
+
+  QuizQuestion(
+      question:
+          "56. Jesus' washing of the feet of His disciples teaches a lesson in\n(BECE 2008 Q20)",
+      options: [
+        "Respect for the elderly",
+        "Expressing love to others",
+        "Rendering service to others",
+        "Being helpful to others"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Washing the disciples' feet demonstrated humble service to others."),
+
+  QuizQuestion(
+      question:
+          "57. The two dreams of Joseph focused on his\n(BECE 2009 Q6)",
+      options: ["Apprenticeship", "Kinship", "Leadership", "Stewardship"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's dreams symbolically indicated his future leadership over his family."),
+
+  QuizQuestion(
+      question:
+          "58. Togbe Tsali gave his jaws to his people as a\n(BECE 2009 Q8)",
+      options: [
+        "Totem to be worshipped",
+        "Powerful instrument of divination",
+        "Foundation stone for shrines",
+        "Present to the King after him"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "In the tradition referenced by the question, Tsali's jaws were regarded as a powerful instrument of divination."),
+
+  QuizQuestion(
+      question:
+          "59. A traditional chief may be destooled if he\n(BECE 2009 Q12)",
+      options: [
+        "Becomes a born-again Christian",
+        "Takes many wives",
+        "Does not give birth to children",
+        "Misuses stool property"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Misuse of stool or community property is a serious breach of a chief's responsibilities."),
+
+  QuizQuestion(
+      question:
+          "60. The intermediate cause of Mohammed's departure to Medina was\n(BECE 2009 Q13)",
+      options: [
+        "Invitation from Yathrib",
+        "Harsh conditions in Mecca",
+        "Plan to kill him",
+        "Desire to spread Islam"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The immediate danger created by a plot to kill Mohammed prompted his departure from Mecca."),
+
+  QuizQuestion(
+      question:
+          "61. Which of the following were not among the twelve disciples?\n(BECE 2009 Q20)",
+      options: [
+        "Matthew and James",
+        "Simon and Andrews",
+        "Peter and John",
+        "Paul and Barnabas"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Paul and Barnabas were important early Christians but were not members of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "62. According to Jesus, the summary of the ten commandments is\n(BECE 2009 Q29)",
+      options: [
+        "Love for God and one's neighbour",
+        "Obedience to parents and the elderly",
+        "Observing the Sabbath and keeping it holy",
+        "Worshipping only God and not gods"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus summarized the law as love for God and love for one's neighbour."),
+
+  QuizQuestion(
+      question:
+          "63. \"Blessed are the peace makers for they shall\n(BECE 2011 Q7)",
+      options: ["See God", "Be called sons of God", "Inherit the earth", "Obtain mercy"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that peacemakers shall be called children of God."),
+
+  QuizQuestion(
+      question:
+          "64. The name Moses means\n(BECE 2011 Q8)",
+      options: [
+        "Washed in water",
+        "Drawn out of water",
+        "Abandoned with water",
+        "Baptised with water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The name Moses is explained in the Biblical account as 'drawn out of water.'"),
+
+  QuizQuestion(
+      question:
+          "65. Which of the following disciples of Jesus were brothers?\n(BECE 2011 Q19)",
+      options: ["John and James", "Joseph and John", "Peter and Matthew", "Judas and Thomas"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "James and John were brothers and sons of Zebedee."),
+
+  QuizQuestion(
+      question:
+          "66. Which of the following is responsible for morality in traditional society?\n(BECE 2011 Q25)",
+      options: ["Linguist", "Gong-gong beater", "Chief priest", "Fortune teller"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The chief priest plays an important religious role in maintaining traditional moral standards."),
+
+  QuizQuestion(
+      question:
+          "67. The patriarchal covenant was made between God and\n(BECE 2012 Q11)",
+      options: ["Abraham", "Aaron", "Moses", "Noah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The patriarchal covenant is particularly associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "68. The main lesson that can be learnt from the story of Noah and the flood is\n(BECE 2012 Q12)",
+      options: ["Tolerance", "Truthfulness", "Sincerity", "Obedience"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Noah obeyed God's instructions and was saved from the flood."),
+
+  QuizQuestion(
+      question:
+          "69. Jesus accepted to be baptised by John in order to\n(BECE 2012 Q14)",
+      options: [
+        "Make the Jews happy",
+        "Show His faith in John's power",
+        "Fulfill all righteousness",
+        "Confirm His sonship of God"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus said His baptism was necessary to fulfill all righteousness."),
+
+  QuizQuestion(
+      question:
+          "70. Which Christian virtue did Joseph exhibit in his life?\n(BECE 2012 Q15)",
+      options: ["Humility", "Forgiveness", "Repentance", "Tolerance"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Joseph forgave his brothers despite the wrong they had done to him."),
+
+  QuizQuestion(
+      question:
+          "71. Jacob's children went to Egypt because\n(BECE 2013 Q2)",
+      options: [
+        "There was a great famine",
+        "Joseph was a governor",
+        "There was good pasture for cattle",
+        "People were losing their lives"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jacob's sons travelled to Egypt because famine had created severe food shortages."),
+
+  QuizQuestion(
+      question:
+          "72. Jesus came into the world so that people may\n(BECE 2013 Q11)",
+      options: [
+        "Forgive their enemies",
+        "Have eternal life",
+        "Overcome problems",
+        "Become wealthy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christian teaching presents Jesus as bringing salvation and eternal life."),
+
+  QuizQuestion(
+      question:
+          "73. God's covenant with the patriarch is associated with\n(BECE 2013 Q12)",
+      options: ["Abraham", "Joseph", "Joshua", "Moses"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The patriarchal covenant is associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "74. By facing the wild beast, Toha Zie\n(BECE 2013 Q14)",
+      options: [
+        "Helped the poor in the community",
+        "Led his people to defeat their enemies",
+        "Risked his life for his people",
+        "Preached peace to his people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie demonstrated courage and self-sacrifice by risking his life for his people."),
+
+  QuizQuestion(
+      question:
+          "75. Israel came out of slavery in Egypt under the leadership of\n(BECE 2013 Q18)",
+      options: ["Abraham", "Joseph", "Joshua", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses led the Israelites out of slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "76. Egya Ahor is remembered for sacrificing his life to\n(BECE 2013 Q19)",
+      options: [
+        "Ensure victory at war",
+        "Free his people from slavery",
+        "Save children from hunger",
+        "Ward off an epidemic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Egya Ahor is traditionally remembered for sacrificing himself to end an epidemic affecting his people."),
+
+  QuizQuestion(
+      question:
+          "77. The twelfth son of Jacob was\n(BECE 2014 Q6)",
+      options: ["Benjamin", "Daniel", "Joseph", "Simon"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Benjamin was Jacob's youngest and twelfth son."),
+
+  QuizQuestion(
+      question:
+          "78. Moses led the Israelites through the wilderness for\n(BECE 2014 Q7)",
+      options: ["Forty years", "Forty months", "Fifty years", "Fifty months"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites wandered in the wilderness for forty years."),
+
+  QuizQuestion(
+      question:
+          "79. Which of the following people was commanded by God to build an ark?\n(BECE 2015 Q1)",
+      options: ["Joseph", "Jacob", "Noah", "David"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "God commanded Noah to build the ark."),
+
+  QuizQuestion(
+      question:
+          "80. Who gave the tomb in which Jesus was buried?\n(BECE 2015 Q2)",
+      options: ["Simon of Cyrene", "Joseph of Arimathea", "Nicodemus", "Zebedee"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Joseph of Arimathea provided the tomb for Jesus' burial."),
+
+  QuizQuestion(
+      question:
+          "81. Egya Ahor is fondly remembered by the Fante for\n(BECE 2015 Q18)",
+      options: [
+        "His miraculous powers",
+        "Commanding the golden stool",
+        "His resurrection from death",
+        "Saving his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Egya Ahor is remembered for sacrificing himself to save his people."),
+
+  QuizQuestion(
+      question:
+          "82. Joseph was hated by his brothers because\n(BECE 2016 Q1)",
+      options: [
+        "He was loved by his father very much",
+        "He was gentle and handsome",
+        "Jacob promised him of inheritance",
+        "Of his prophetic dreams"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's dreams increased his brothers' jealousy because they suggested he would rule over them."),
+
+  QuizQuestion(
+      question:
+          "83. Who provided the tomb in which Jesus was buried?\n(BECE 2016 Q5)",
+      options: ["Joseph of Arimathea", "Nicodemus", "Simon of Cyrene", "Zebedee"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Joseph of Arimathea provided the tomb in which Jesus was buried."),
+
+  QuizQuestion(
+      question:
+          "84. The second rightly guided caliph in Islam was\n(BECE 2016 Q6)",
+      options: [
+        "Abu Bakr Al Siddiq",
+        "Umar Ibn Al-Khattab",
+        "Uthman Ibu Affan",
+        "Ali Ibn Abu Talib"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Umar ibn al-Khattab was the second rightly guided Caliph."),
+
+  QuizQuestion(
+      question:
+          "85. By facing the wild beast, Toha Zie\n(BECE 2016 Q7)",
+      options: [
+        "Led his people to be defeated",
+        "Preached peace to his people",
+        "Helped the poor",
+        "Risked his life for his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie demonstrated courage by risking his life for the safety of his people."),
+
+  QuizQuestion(
+      question:
+          "86. The teachings of Prophet Mohammed are found in the\n(BECE 2016 Q8)",
+      options: ["Kalina", "Hadith", "Ijmah", "Sura"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Hadith records sayings, actions and traditions associated with Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "87. The Israelites were finally led to the land of Canaan by\n(BECE 2016 Q9)",
+      options: ["Aaron", "Joseph", "Joshua", "Moses"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Joshua succeeded Moses and led the Israelites into Canaan."),
+
+  QuizQuestion(
+      question:
+          "88. Which of the following people was not among the twelve disciples of Jesus?\n(BECE 2016 Q15)",
+      options: ["James", "Matthew", "Paul", "Peter"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Paul was not one of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "89. God's covenant with patriarchs is associated with\n(BECE 2017 Q2)",
+      options: ["Abraham", "Joshua", "Joseph", "Moses"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "God's covenant with the patriarchs is especially associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "90. Egya Ahor is remembered for sacrificing his life to\n(BECE 2017 Q6)",
+      options: [
+        "Ensure victory at war",
+        "Free his people from slavery",
+        "Save children from being kidnapped",
+        "Ward off an epidemic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Egya Ahor is remembered for sacrificing himself to bring an epidemic to an end."),
+
+  QuizQuestion(
+      question:
+          "91. Jacob's children went to Egypt because\n(BECE 2017 Q7)",
+      options: [
+        "Joseph was a governor in Egypt",
+        "People were losing their lives",
+        "There was a great famine",
+        "There was a good pasture there for cattle"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A severe famine caused Jacob's sons to travel to Egypt in search of food."),
+
+  QuizQuestion(
+      question:
+          "92. The first Muezzin in Islam was\n(BECE 2017 Q15)",
+      options: ["Abu Talib", "Bilal", "Salman", "Zayd"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bilal ibn Rabah is traditionally recognized as the first Muezzin."),
+
+  QuizQuestion(
+      question:
+          "93. The first Muezzin was\n(BECE 2018 Q6)",
+      options: ["Ali", "Bilal", "Ibrahim", "Musah"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bilal was the first person appointed to call Muslims to prayer."),
+
+  QuizQuestion(
+      question:
+          "94. Moses led the Israelites through the wilderness for\n(BECE 2018 Q7)",
+      options: ["Forty months", "Forty years", "Fifty months", "Fifty years"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites spent forty years in the wilderness."),
+
+  QuizQuestion(
+      question:
+          "95. Egya Ahor is fondly remembered by the Fantes for\n(BECE 2018 Q8)",
+      options: [
+        "Commanding the Golden Stool",
+        "His miraculous powers",
+        "His resurrection from death",
+        "Saving his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Egya Ahor is remembered for the sacrifice he made to save his people."),
+
+  QuizQuestion(
+      question:
+          "96. The spiritual leader who was also a successor of Prophet Muhammad (SAW) was\n(BECE 2019 Q6)",
+      options: ["Caliph", "Hafiz", "Imam", "Shierk"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A Caliph was a successor to Prophet Mohammed in leadership of the Muslim community."),
+
+  QuizQuestion(
+      question:
+          "97. Egya Ahor was honoured with the Ahobaa festival because of his\n(BECE 2019 Q7)",
+      options: ["Magical dead", "Death for the land", "Good leadership", "Killing of the beast"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The festival commemorates Egya Ahor's sacrificial death for his people and land."),
+
+  QuizQuestion(
+      question:
+          "98. Toha Zie became famous because\n(BECE 2019 Q8)",
+      options: [
+        "Of his exploits in war",
+        "He was a hunter",
+        "He was considered as a god",
+        "He saved his people from beasts"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie is remembered for protecting his people from dangerous beasts."),
+
+  QuizQuestion(
+      question:
+          "99. Toha Zie was nicknamed the red hunter because of his\n(BECE 2020 Q7)",
+      options: ["Character", "Complexion", "Kindness", "Wisdom"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The nickname 'red hunter' is associated with his complexion."),
+
+  QuizQuestion(
+      question:
+          "100. The major event that led to the conversion of Umar ibn Al-Khatab into Islam was\n(BECE 2020 Q8)",
+      options: [
+        "Mohammed's flight into Medina",
+        "The beating of his sister",
+        "The death of Caliph Abu Bakr",
+        "The preaching of Abu Bakr"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The confrontation with his sister and his subsequent encounter with Qur'anic verses played a major role in Umar's conversion."),
+
+  QuizQuestion(
+      question:
+          "101. The name Abram means\n(BECE 2020 Q9)",
+      options: ["Exalted father", "Faithful father", "Favoured father", "Nation's father"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Abram is traditionally interpreted to mean 'exalted father.'"),
+
+  QuizQuestion(
+      question:
+          "102. The seeds that fell along the path in the Parable of the Sower were\n(BECE 2021 Q3)",
+      options: [
+        "Blown away by the wind",
+        "Eaten by birds",
+        "Choked by thorns",
+        "Scorched by the sun"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In the parable, birds came and ate the seeds that fell along the path."),
+
+  QuizQuestion(
+      question:
+          "103. One virtue that can be emulated from the lives of Egya Ahor and Tweneboa Kodua is\n(BECE 2021 Q5)",
+      options: ["Justice", "Love", "Hard work", "Respect"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Their willingness to sacrifice themselves for their people demonstrates selfless love."),
+
+  QuizQuestion(
+      question:
+          "104. The Patriarch who took his brother's birth right and blessings was\n(BECE 2021 Q12)",
+      options: ["Essau", "Joseph", "Jacob", "Isaac"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jacob obtained Esau's birthright and later received the blessing intended for Esau."),
+
+  QuizQuestion(
+      question:
+          "105. Muslims believe that God's messages to his prophets were declared through His\n(BECE 2021 Q26)",
+      options: ["Angels", "Caliphs", "Divinities", "Imams"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Muslims believe Allah communicated revelation to prophets through angels such as Jibril."),
+
+  QuizQuestion(
+      question:
+          "106. Shed no blood. Which of Joseph's brothers said this?\n(BECE 2022 Q6)",
+      options: ["Reuben", "Simon", "Benjamin", "Judah"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Reuben urged his brothers not to shed Joseph's blood."),
+
+  QuizQuestion(
+      question:
+          "107. God sent Joseph to Egypt in order to\n(BECE 2022 Q7)",
+      options: [
+        "Fulfill the dreams of Joseph",
+        "Save the Israelites from death",
+        "Reveal his love for humanity",
+        "Punish the Egyptians for disobedience"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's presence in Egypt eventually enabled his family to survive the famine."),
+
+  QuizQuestion(
+      question:
+          "108. Okomfo Anokye united the Asante Kingdom through commanding the golden stool from the\n(BECE 2022 Q8)",
+      options: ["Sun", "Shrine", "Sky", "Moon"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Asante tradition holds that Okomfo Anokye commanded the Golden Stool from the sky."),
+
+  QuizQuestion(
+      question:
+          "109. The parable of the Good Samaritan teaches that a neighbour is\n(BECE 2022 Q9)",
+      options: [
+        "The person next door",
+        "The sick and destitute",
+        "Your next of kin",
+        "Anyone who needs help"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The parable teaches that neighbourly love should be shown to anyone who needs help."),
+
+  QuizQuestion(
+      question:
+          "110. The second most important commandment taught by Jesus Christ is the love for\n(BECE 2022 Q34)",
+      options: ["Holy Spirit", "God", "Neighbours", "Religious leaders"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the second greatest commandment is to love one's neighbour."),
+
+  QuizQuestion(
+      question:
+          "111. The parable of Jesus Christ that teaches love and mercy is the parable of\n(BECE 2022 Q35)",
+      options: ["Mustard Seed", "Lost Coin", "Ten Virgins", "Good Samaritan"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Good Samaritan teaches compassion, love and mercy toward people in need."),
+
+  QuizQuestion(
+      question:
+          "112. Golgotha was the place where Jesus Christ\n(BECE 2023 Q8)",
+      options: [
+        "Fed the five thousand men",
+        "Fasted for forty days",
+        "Prayed in the night",
+        "Was crucified"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Golgotha was the place where Jesus was crucified."),
+
+  QuizQuestion(
+      question:
+          "113. Which of the following virtues can be learnt from the life stories of Joseph?\n(BECE 2023 Q17)",
+      options: ["Reconciliation", "Retribution", "Repentance", "Reformation"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Joseph reconciled with and forgave his brothers despite their earlier actions against him."),
+
+  QuizQuestion(
+      question:
+          "114. \"And who is my neighbour?\" Jesus answered this question with the parable of the\n(BECE 2023 Q38)",
+      options: ["Mustard seed", "Prodigal son", "Wicked Tenants", "Good Samaritan"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Jesus answered the question about who a neighbour is by telling the Parable of the Good Samaritan."),
+
+    ],
+  ),
+  "Religious & Moral Education JHS2 s5 ss1 - Religious Practices": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. The system by which a drink is poured to the gods and the Supreme beings is known as\n(BECE 2000 Q18)",
+options: ["Sacrifice", "Thankfulness", "Worship", "Libation"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Libation is the pouring of a drink as a form of traditional prayer or worship."),
+  QuizQuestion(
+      question:
+          "2. The pillar of faith in Islam which expresses charity is\n(BECE 2000 Q9)",
+      options: ["Salat", "Sawn", "Zakat", "Kalimat"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Zakat is the compulsory charitable giving required of qualified Muslims."),
+
+  QuizQuestion(
+      question:
+          "3. Mourners from the cemetery wash their hands before entering funeral house again to\n(BECE 1999 Q11)",
+      options: [
+        "Break relations with the dead",
+        "Shows that they are among the living",
+        "Announce their return from the cemetery",
+        "Cleanse themselves from any curse"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The washing is traditionally understood as ritual cleansing after returning from the cemetery."),
+
+  QuizQuestion(
+      question:
+          "4. The rite of throwing stones at the pillars during the Hajj signifies the\n(BECE 1999 Q19)",
+      options: [
+        "Exercising of the body",
+        "Victory over the devil",
+        "Preparing to fight the enemies",
+        "Security of the holy place"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The stoning ritual symbolizes rejection of Satan and victory over temptation."),
+
+  QuizQuestion(
+      question:
+          "5. Muslim's last respect to the dead is by\n(BECE 1999 Q8)",
+      options: [
+        "Offering Janazah",
+        "Burial with a coffin",
+        "Dressing the corpse in suit",
+        "Sacrificing a ram"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the Islamic funeral prayer offered for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "6. To become a Christian, one must first\n(BECE 2000 Q6)",
+      options: [
+        "Say the Lord's prayer",
+        "Recite the Apostle's creed",
+        "Be confirmed",
+        "Be baptized"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Baptism is an important Christian initiation rite."),
+
+  QuizQuestion(
+      question:
+          "7. All the religions in Ghana believe in\n(BECE 1999 Q4)",
+      options: [
+        "Jesus Christ",
+        "The Bible",
+        "The prophet Mohammed",
+        "The supreme God"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all affirm belief in a Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "8. The Islamic practice where wealthy Muslims cater for the needs of the poor and needy is\n(BECE 1999 Q6)",
+      options: ["Hajj", "Zakat", "Ihram", "Mahr"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat supports the poor and needy through required charitable giving."),
+
+  QuizQuestion(
+      question:
+          "9. Muslims pray five times a day in order to\n(BECE 2000 Q10)",
+      options: [
+        "Be known in the community",
+        "Avoid evil and bad actions",
+        "Dominate world affairs",
+        "Be role models in society"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Regular prayer helps Muslims remain conscious of Allah and avoid wrongdoing."),
+
+  QuizQuestion(
+      question:
+          "10. Which of the following months is also (special) occasion on the Islamic calendar?\n(BECE 1999 Q14)",
+      options: ["Rajab", "Ramadan", "Sha'ban", "Shawal"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ramadan is the special Islamic month of fasting."),
+
+  QuizQuestion(
+      question:
+          "11. Akwesidae according to the Akan calendar is\n(BECE 2001 Q11)",
+      options: [
+        "A day that marks the beginning of the month",
+        "The first Sunday that marks the beginning of the month",
+        "The Sunday that marks the 42nd day of the month",
+        "A day on which the Golden stool descended"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Akwasidae is observed according to the Akan forty-two-day traditional calendar cycle."),
+
+  QuizQuestion(
+      question:
+          "12. Uthman B. Affan standardized the Qur'an in order to\n(BECE 2000 Q19)",
+      options: [
+        "Bring it into one volume",
+        "Avoid the omission of some verse",
+        "Give the Qur'an the same reading",
+        "Stop the fighting among Muslims"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Uthman standardized copies of the Qur'an to ensure uniform recitation and reading."),
+
+  QuizQuestion(
+      question:
+          "13. The third Islamic daily prayer is\n(BECE 2000 Q4)",
+      options: ["Asr", "Zuhr", "Fajr", "Maghrib"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The daily order is Fajr, Zuhr, Asr, Maghrib and Isha."),
+
+  QuizQuestion(
+      question:
+          "14. The burial of pieces of hair, fingernails and toenails of a corpse at his hometown signifies that\n(BECE 1999 Q10)",
+      options: [
+        "There is life after death",
+        "The spirit has contact with the living",
+        "Lesser gods want the spirit",
+        "Witches are powerful in one's hometown"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects traditional belief in continued existence after physical death."),
+
+  QuizQuestion(
+      question:
+          "15. Traditional religion is practiced in order to\n(BECE 2001 Q7)",
+      options: [
+        "Instill discipline",
+        "Worship idols",
+        "Preserve African culture",
+        "Disregard other religions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion helps preserve indigenous beliefs, customs and culture."),
+
+  QuizQuestion(
+      question:
+          "16. The first book in the Bible is called\n(BECE 2000 Q20)",
+      options: ["Genesis", "Deuteronomy", "Exodus", "Revelation"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Genesis is the first book of the Bible."),
+
+  QuizQuestion(
+      question:
+          "17. Palm Sunday is observed by Christians to remember the\n(BECE 1999 Q2)",
+      options: [
+        "Birth and baptism of Christ",
+        "Resurrection and appearance of Christ",
+        "Joyful journey of Christ into Jerusalem",
+        "Baptism of the Holy Spirit"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "18. Among the Asante, farming is not done on Thursday because\n(BECE 1999 Q11)",
+      options: [
+        "The soil becomes fertile on this day",
+        "Wild animals come out on this day",
+        "It is specially reserved for the ancestors",
+        "It is the day of the earth goddess"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Thursday is traditionally associated with the earth goddess and may be observed as a farming taboo."),
+
+  QuizQuestion(
+      question:
+          "19. The essence of the Ramadan to Muslims is to\n(BECE 1999 Q20)",
+      options: [
+        "Keep the body fit",
+        "Save food",
+        "Make one become used to hunger",
+        "Guard against evil"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Fasting during Ramadan promotes self-control and helps Muslims guard against evil."),
+
+  QuizQuestion(
+      question:
+          "20. Which of the religion believes that God moved from the earth because of the activities of mankind?\n(BECE 2000 Q2)",
+      options: ["Christianity", "Islam", "Traditionalist", "Hinduism"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Some African Traditional creation stories explain God's distance from humans through human actions."),
+
+  QuizQuestion(
+      question:
+          "21. Kente weaving is popular among the\n(BECE 1999 Q33)",
+      options: ["Asante", "Kwehu", "Fante", "Akwapim"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Kente weaving is strongly associated with the Asante people."),
+
+  QuizQuestion(
+      question:
+          "22. It is believed that burying the dead with money helps him to\n(BECE 1999 Q16)",
+      options: [
+        "Pay his debtors in the spiritual world",
+        "Pay for his fare to cross the river to the other world",
+        "Pay the ancestors for welcoming him",
+        "Take care of his needs"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects a traditional belief that the deceased may need payment for the journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "23. The Muslim prayer observed between Asr and Isha is\n(BECE 1999 Q5)",
+      options: ["Zuhr", "Jumu'ah", "Idd", "Maghrib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is observed after sunset, between Asr and Isha."),
+
+  QuizQuestion(
+      question:
+          "24. Salat is to prayer as charity is to\n(BECE 2001 Q10)",
+      options: ["Zakat", "Shahadah", "Sawn", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Salat means prayer, while Zakat refers to obligatory charity."),
+
+  QuizQuestion(
+      question:
+          "25. The act of going round the Ka'ba seven times during the Hajj teaches\n(BECE 1999 Q15)",
+      options: ["Bravery", "Cleanliness", "Humility", "Endurance"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tawaf requires perseverance and therefore teaches endurance."),
+
+  QuizQuestion(
+      question:
+          "26. The main role of angels in Islam is to\n(BECE 2001 Q15)",
+      options: [
+        "Reveal Allah's orders and messages to His Prophets",
+        "Help Allah's Prophets to understand the Qur'an",
+        "Explain dreams to the people",
+        "Give spiritual power for the writing of the Qur'an"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Angels serve Allah and communicate His messages to prophets."),
+
+  QuizQuestion(
+      question:
+          "27. How many times do Muslims go round the Ka'ba during Hajj?\n(BECE 2001 Q16)",
+      options: ["1", "3", "5", "7"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Muslims perform seven circuits around the Ka'ba during Tawaf."),
+
+  QuizQuestion(
+      question:
+          "28. Which of the following pair of games can best make the child wise and strong?\n(BECE 2001 Q28)",
+      options: [
+        "Riddles and oware",
+        "Ampe and quizzes",
+        "Tug-of-war and wrestling",
+        "Oware and quizzes"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Riddles develop reasoning while oware develops strategic thinking."),
+
+  QuizQuestion(
+      question:
+          "29. All the three main religions in Ghana believe strongly in\n(BECE 2002A Q3)",
+      options: ["Angels", "Ancestors", "Destiny", "Righteousness"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all promote righteous living."),
+
+  QuizQuestion(
+      question:
+          "30. One of the main reasons why Christians pray is to ask God to\n(BECE 2002A Q4)",
+      options: [
+        "Let them fight their enemies",
+        "Forgive them their sins",
+        "Draw them closer to their friends",
+        "Give them more wealth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christians pray for forgiveness of sins among other reasons."),
+
+  QuizQuestion(
+      question:
+          "31. In Islam a Muslim must offer prayers\n(BECE 2002A Q6)",
+      options: ["Six times daily", "Five times daily", "Four times daily", "Three times daily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims perform five obligatory daily prayers."),
+
+  QuizQuestion(
+      question:
+          "32. Traditional believer sacrifices when he\n(BECE 2002A Q7)",
+      options: [
+        "Pours libation to the gods",
+        "Offers food and living things to the gods",
+        "Sings dirges to the dead",
+        "Wins a fortune"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sacrifice involves presenting food, animals or other offerings to spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "33. Christians believe in Jesus Christ because He\n(BECE 2002A Q8)",
+      options: [
+        "Was given birth to by a virgin",
+        "Came to save humankind from their sins",
+        "Overcame death on the holy cross",
+        "Could perform many miracle"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christian belief centres on Jesus as the saviour from sin."),
+
+  QuizQuestion(
+      question:
+          "34. Palm Sunday is celebrated to mark the\n(BECE 2002A Q11)",
+      options: [
+        "Birth of Christ",
+        "Outpouring of the Holy Spirit",
+        "Joyful journey of Jesus into Jerusalem",
+        "Resurrection of Jesus from the dead"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "35. The traditionalist believes that destiny can be changed if he\n(BECE 2002A Q13)",
+      options: [
+        "Is born again into Christianity",
+        "Could consult the gods",
+        "Become a wizard",
+        "Is well educated"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief may involve consulting divinities concerning destiny and misfortune."),
+
+  QuizQuestion(
+      question:
+          "36. The best to pray during worship is to\n(BECE 2002A Q17)",
+      options: [
+        "Face the east and in reverence",
+        "Knee with arms open",
+        "Be humble and sincere",
+        "Remove your sandals"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Humility and sincerity are important attitudes in prayer."),
+
+  QuizQuestion(
+      question:
+          "37. The Islamic practice by which wealthy Muslims show concern for the poor and needy is\n(BECE 2002A Q18)",
+      options: ["Tawaf", "Zakat", "Hajj", "Salat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides support for poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "38. A Muslim performs Tayamum when he\n(BECE 2002A Q20)",
+      options: [
+        "Is late to the mosque",
+        "Is about to marry",
+        "Cannot find water",
+        "Meets the Imam in the mosque"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tayammum is dry purification used when water is unavailable or cannot be used."),
+
+  QuizQuestion(
+      question:
+          "39. Which of the following is not a revealed book in Islam?\n(BECE 2002B Q10)",
+      options: ["Hadith", "Injil", "Zabur", "Taurah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hadith contains reports about Prophet Mohammed and is not one of the revealed scriptures."),
+
+  QuizQuestion(
+      question:
+          "40. Zuhr is one of the five compulsory prayers of Muslims which is observed\n(BECE 2002B Q11)",
+      options: [
+        "From dawn to sunshine",
+        "When the sun is high in the sky",
+        "Late in the afternoon",
+        "An hour after sunset"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zuhr is the midday or early afternoon prayer."),
+
+  QuizQuestion(
+      question:
+          "41. All the three main religions in Ghana believe\n(BECE 2002B Q12)",
+      options: [
+        "In ancestral worship",
+        "That God is everywhere",
+        "In being saved for salvation",
+        "That dwarfs exist in forests"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The three major religions teach belief in God's universal presence."),
+
+  QuizQuestion(
+      question:
+          "42. In traditional society, taboos help people to\n(BECE 2002B Q14)",
+      options: [
+        "Behave well",
+        "Believe in their god",
+        "Know their God",
+        "Perform sacrifices"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Taboos regulate behaviour and promote accepted moral conduct."),
+
+  QuizQuestion(
+      question:
+          "43. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
+      options: [
+        "Be tolerant and intelligent",
+        "Become steadfast and patriotic",
+        "Have humor and peace",
+        "Become clean and upright in life"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Regular prayer promotes spiritual discipline, purity and upright living."),
+
+  QuizQuestion(
+      question:
+          "44. The Traditional believer communicates with God through\n(BECE 2002B Q16)",
+      options: [
+        "Sacrifices",
+        "Purification rites",
+        "Libation",
+        "Spirit possessions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a major traditional form of prayer and communication with spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "45. The essence of the holy communion is to\n(BECE 2002B Q17)",
+      options: [
+        "Give thanks to God",
+        "Remember Christian fellowship",
+        "Remember the saving act of Jesus",
+        "Remember Jesus's teaching on sharing"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion commemorates Jesus' sacrificial saving act."),
+
+  QuizQuestion(
+      question:
+          "46. The Islamic practice of committing the whole Qur'an to memory is\n(BECE 2002B Q19)",
+      options: ["Hudah", "Hafiz", "Qurra", "Sunnah"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A Hafiz is a person who has memorized the entire Qur'an."),
+
+  QuizQuestion(
+      question:
+          "47. Like the Jews, Muslims also believe they are descendants of\n(BECE 2003 Q10)",
+      options: ["Abraham", "Isaac", "Moses", "Jacob"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Both Jewish and Islamic traditions trace ancestry to Abraham."),
+
+  QuizQuestion(
+      question:
+          "48. The importance of fasting in Islam is to\n(BECE 2003 Q12)",
+      options: [
+        "Honour the poor and needy",
+        "Guard against evil",
+        "Keep the body feet",
+        "Store food for future use"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fasting develops self-control and helps Muslims guard against sinful behaviour."),
+
+  QuizQuestion(
+      question:
+          "49. The Hadith of the Muslim signifies the\n(BECE 2003 Q14)",
+      options: [
+        "Revelations of the Junnah",
+        "Revelations of Abu Bakr",
+        "Sayings of the Holy Prophet",
+        "Writings of the Holy Prophet"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hadith includes reports of the sayings and actions of Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "50. Which of the following serves as intermediary to God during traditional prayers?\n(BECE 2003 Q15)",
+      options: ["Lesser gods", "Diviners", "Dwarfs", "Herbalist"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lesser gods or divinities are traditionally regarded as intermediaries between humans and the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "51. The rite of going round the Ka'ba seven times during Hajj signifies\n(BECE 2003 Q17)",
+      options: ["Honesty", "Bravery", "Endurance", "Obedience"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The repeated circuits symbolize perseverance and endurance."),
+
+  QuizQuestion(
+      question:
+          "52. Traditional believers wear charms and talisman\n(BECE 2003 Q18)",
+      options: [
+        "To look attractive",
+        "For special protection",
+        "To be able to fight in the market",
+        "For longer life"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Charms and talismans are traditionally worn for spiritual protection."),
+
+  QuizQuestion(
+      question:
+          "53. Fishermen all over the country do not go to sea on\n(BECE 2003 Q19)",
+      options: ["Tuesday", "Friday", "Saturday", "Sunday"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Tuesday is traditionally observed as a non-fishing day in many Ghanaian coastal communities."),
+
+  QuizQuestion(
+      question:
+          "54. To the traditional believers, the next in importance to the Supreme Being are the\n(BECE 2003 Q20)",
+      options: [
+        "Lesser gods",
+        "Earth goddess",
+        "Ancestral spirits",
+        "Spirits in plants and animals"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lesser gods or divinities occupy an important position below the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "55. In the traditional society, giving birth to a child is considered as a\n(BECE 2003 Q24)",
+      options: ["Privilege", "Responsibility", "Right", "Virtue"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Childbirth is traditionally regarded as a valued privilege and blessing."),
+
+  QuizQuestion(
+      question:
+          "56. When Fatimah and Mensah are committed to each other in friendship, they are prepared to\n(BECE 2003 Q26)",
+      options: [
+        "Worship God sincerely",
+        "Write an examination together",
+        "Run away from evil",
+        "Share their wealth and poverty together"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Commitment in friendship involves supporting one another in good and difficult times."),
+
+  QuizQuestion(
+      question:
+          "57. Anyone who enters a house is expected to first\n(BECE 2003 Q27)",
+      options: [
+        "Ask for water",
+        "Remove his sandals",
+        "Offer greetings",
+        "Ask for a seat"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Offering greetings is an important sign of courtesy and respect."),
+
+  QuizQuestion(
+      question:
+          "58. The Holy Qur'an describes angels as creatures who\n(BECE 2004 Q5)",
+      options: [
+        "Anoint prophets and messengers of Allah",
+        "Punish wrong doers on the judgment day",
+        "Act on the orders of Allah",
+        "Lead the faithful to observe the Hajj"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Angels obey and carry out Allah's commands."),
+
+  QuizQuestion(
+      question:
+          "59. Which of the following acts in Islam promotes good neighbourliness, love and brotherhood?\n(BECE 2004 Q6)",
+      options: ["Hajj", "Asr", "Salat", "Ramadan"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Hajj brings Muslims from different backgrounds together and promotes unity and brotherhood."),
+
+  QuizQuestion(
+      question:
+          "60. The Muslim prayer observed after sunset is\n(BECE 2004 Q7)",
+      options: ["Maghrib", "Asr", "Zuhr", "Fajr"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is performed shortly after sunset."),
+
+  QuizQuestion(
+      question:
+          "61. To the traditional believer, the change from the physical to the spiritual life occurs through\n(BECE 2004 Q9)",
+      options: ["Naming", "Birth", "Death", "Puberty"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Death is understood as a transition from physical existence to spiritual existence."),
+
+  QuizQuestion(
+      question:
+          "62. All religions teach mankind to be steward of the earth and to\n(BECE 2004 Q12)",
+      options: ["Farm on it", "Build on it", "Care for it", "Make it fertile"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Stewardship means responsibly caring for the earth and its resources."),
+
+  QuizQuestion(
+      question:
+          "63. \"There is no god but God, and Mohammed is the messenger of God\", this is known as the\n(BECE 2004 Q13)",
+      options: ["Shahadah", "Iqamah", "Adhan", "Sunnah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah is the Islamic declaration of faith."),
+
+  QuizQuestion(
+      question:
+          "64. In traditional society, the dead is buried with money to ensure that he\n(BECE 2004 Q17)",
+      options: [
+        "Deceased can pay the fare to the other world",
+        "Deceased can pay the gods and ancestors for protection",
+        "Spirit of the deceased does not attack family members",
+        "Family members are blessed with riches"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects belief that the deceased needs money for the journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "65. God has no human face in\n(BECE 2004 Q18)",
+      options: [
+        "Islam and Christianity",
+        "Islam and Traditional religion",
+        "Traditional religion and Christianity",
+        "Islam, Traditional religion and Christianity"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The three religions understand God as transcending ordinary human form."),
+
+  QuizQuestion(
+      question:
+          "66. The three main religions in Ghana believe in\n(BECE 2005 Q3)",
+      options: [
+        "Ancestors and witches",
+        "Holy scriptures",
+        "Angels and smaller gods",
+        "A supreme being"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all affirm a Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "67. For a man to greet an Akan chief, he must\n(BECE 2005 Q6)",
+      options: [
+        "Raise hands and bow down",
+        "Raise hands and pass by",
+        "Remove sandals and kneel down",
+        "Remove sandals and lower the cloth"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional Akan etiquette requires a man to show humility by removing his sandals and lowering his cloth."),
+
+  QuizQuestion(
+      question:
+          "68. Muslims throw stones during Hajj to\n(BECE 2005 Q7)",
+      options: [
+        "Keep Satan away from their lives",
+        "Commemorate Hagar's departure",
+        "Help them celebrate the Id-il-Adha",
+        "Remember Abraham's temptation"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The ritual symbolizes rejecting Satan and resisting temptation."),
+
+  QuizQuestion(
+      question:
+          "69. According to the Qur'an, a proud person\n(BECE 2005 Q11)",
+      options: [
+        "Never thinks he is better than others",
+        "Respects the opinion of others",
+        "Value the experiences of other people",
+        "Likes to tell other people what to do"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Pride may be expressed through controlling or looking down on other people."),
+
+  QuizQuestion(
+      question:
+          "70. The Bible teaches that people in authority must be\n(BECE 2005 Q13)",
+      options: ["Praised", "Served", "Respected", "Proud"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christian teaching encourages appropriate respect for legitimate authority."),
+
+  QuizQuestion(
+      question:
+          "71. The Janazah prayer is performed\n(BECE 2005 Q14)",
+      options: [
+        "During Friday prayers",
+        "When a Muslim die",
+        "When a Muslim is travelling",
+        "After the Ramadan fast"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the funeral prayer for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "72. The purpose of Salat is to enable a Muslim\n(BECE 2005 Q16)",
+      options: [
+        "Travel to Mecca",
+        "Have a pure heart",
+        "Become an Imam",
+        "Prepare for the Ramadan fast"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular Salat promotes spiritual purity and consciousness of Allah."),
+
+  QuizQuestion(
+      question:
+          "73. The traditional belief that the child needs no one to show him God means\n(BECE 2005 Q17)",
+      options: [
+        "God is with the child",
+        "God exists",
+        "The child knows God",
+        "The child talks of God"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The saying expresses the traditional belief that awareness of God is natural and innate."),
+
+  QuizQuestion(
+      question:
+          "74. The ninety-nine names of God can be found only in\n(BECE 2006 Q3)",
+      options: [
+        "Christianity and Islam",
+        "Christianity",
+        "Islam",
+        "African Traditional Religion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Islam traditionally recognizes the ninety-nine beautiful names of Allah."),
+
+  QuizQuestion(
+      question:
+          "75. Trial by ordeal is a traditional practice whereby a person is\n(BECE 2006 Q4)",
+      options: [
+        "Summoned to a chief's palace",
+        "Proved innocent through painful test",
+        "Brought before a traditional priest",
+        "Accused of breaking state taboos"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Trial by ordeal traditionally tests guilt or innocence through a difficult or painful procedure."),
+
+  QuizQuestion(
+      question:
+          "76. Zakat is practice by which Muslim\n(BECE 2006 Q8)",
+      options: [
+        "Pray five times a day",
+        "Show concern for the poor",
+        "Offer sacrifice to Allah",
+        "Travel to Mecca every year"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides financial support for poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "77. The teaching of Mohammed is found in the\n(BECE 2006 Q12)",
+      options: ["Kalima", "Qur'an", "Hadith", "Sura"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Hadith records teachings, sayings and actions associated with Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "78. After the Isha prayer in the month of Ramadan, Muslims perform\n(BECE 2006 Q15)",
+      options: ["Tahajjud", "Fajr", "Tarawih", "Istisquah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tarawih prayers are performed at night during Ramadan after Isha."),
+
+  QuizQuestion(
+      question:
+          "79. A common feature of traditional prayer is that\n(BECE 2006 Q20)",
+      options: [
+        "Gods are always praised",
+        "People pray for other",
+        "Enemies are often cursed",
+        "People confess their sins to gods"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Some traditional prayers may include curses directed at enemies or wrongdoers."),
+
+  QuizQuestion(
+      question:
+          "80. Dirges are sung during\n(BECE 2006 Q35)",
+      options: ["Harvesting", "Outdoorings", "Funerals", "Festivals"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dirges are mourning songs commonly performed at funerals."),
+
+  QuizQuestion(
+      question:
+          "81. Isaac prayed for his wife Rebecca because, she\n(BECE 2007 Q6)",
+      options: [
+        "Had twins in her womb",
+        "Did not believe in God's promises",
+        "Suffered from her pregnancy",
+        "Was a barren woman"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Isaac prayed because Rebekah was unable to have children."),
+
+  QuizQuestion(
+      question:
+          "82. The practice whereby a Muslim gives a certain percentage of his wealth to the needy is called\n(BECE 2007 Q7)",
+      options: ["Sadaqah", "Zakat", "Hajj", "Sawn"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat is obligatory charitable giving based on qualifying wealth."),
+
+  QuizQuestion(
+      question:
+          "83. The belief in the oneness of Allah is known as\n(BECE 2007 Q11)",
+      options: ["Salat", "Tawhid", "Tawaf", "Zakat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tawhid is the Islamic doctrine of the oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "84. Muslims fast in the month of Ramadan in order to\n(BECE 2007 Q12)",
+      options: [
+        "Save food",
+        "Guard against evil",
+        "Keep the body fit",
+        "Honour the poor and needy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fasting develops self-control and helps believers guard against evil."),
+
+  QuizQuestion(
+      question:
+          "85. Constant prayers are offered among Muslims to enable them to\n(BECE 2007 Q14)",
+      options: [
+        "Be tolerant and clean",
+        "Become upright in life",
+        "Have humour and love",
+        "Become steadfast and patriotic"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer encourages upright and disciplined living."),
+
+  QuizQuestion(
+      question:
+          "86. The Holy Communion reminds Christians of Jesus'\n(BECE 2007 Q18)",
+      options: ["Resurrection", "Last supper", "Crucifixion", "Birth"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion recalls Jesus' Last Supper with His disciples."),
+
+  QuizQuestion(
+      question:
+          "87. A proverb is a wise saying meant to\n(BECE 2007 Q37)",
+      options: [
+        "Test people's endurance",
+        "Enrich one's language",
+        "Make people proud",
+        "Sing praises of men"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Proverbs enrich speech and communicate wisdom in concise form."),
+
+  QuizQuestion(
+      question:
+          "88. Folktales are important because, they\n(BECE 2007 Q37)",
+      options: [
+        "Teach about other people",
+        "Teach moral lessons",
+        "Make children happy",
+        "Are loved by grandparents"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Folktales are important tools for teaching moral values."),
+
+  QuizQuestion(
+      question:
+          "89. The main reason why Christians pray is to\n(BECE 2007 Q40)",
+      options: [
+        "Receive daily needs from God",
+        "Have God' protection",
+        "Overcome temptation",
+        "Have fellowship with God"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Prayer enables Christians to maintain fellowship and relationship with God."),
+
+  QuizQuestion(
+      question:
+          "90. The three main religions in Ghana teach that\n(BECE 2008 Q9)",
+      options: [
+        "Spirit plead on our behalf",
+        "Love and honesty are godliness",
+        "God will save the wrong doer",
+        "God is resting after creation"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Love and honesty are important moral values taught by the major religions."),
+
+  QuizQuestion(
+      question:
+          "91. A chapter of the Qur'an is called\n(BECE 2008 Q10)",
+      options: ["Ayah", "Hadith", "Surah", "Sunnah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A chapter of the Qur'an is called a Surah."),
+
+  QuizQuestion(
+      question:
+          "92. The essence of Zakat is to\n(BECE 2008 Q19)",
+      options: [
+        "Cater for the needy",
+        "Offer sacrifice to Allah",
+        "Spread the religion of Islam",
+        "Celebrate the Id festivals"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Zakat helps meet the needs of poor and vulnerable people."),
+
+  QuizQuestion(
+      question:
+          "93. The Gye Nyame symbol of Akans signifies that\n(BECE 2009 Q2)",
+      options: ["Everywhere", "All-powerful", "All-seeing", "All-loving"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Gye Nyame emphasizes the supremacy and power of God."),
+
+  QuizQuestion(
+      question:
+          "94. The oneness of Allah is known as.\n(BECE 2009 Q5)",
+      options: ["Tawhid", "Shahadah", "Shirk", "Tawaf"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Tawhid is belief in the absolute oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "95. Muslim face the east when praying because\n(BECE 2009 Q10)",
+      options: [
+        "The sun rises from the east",
+        "Of the position of the Kabah",
+        "The prophet came from the east",
+        "They believe that Allah is in the east"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims face the direction of the Ka'ba in Mecca during Salat."),
+
+  QuizQuestion(
+      question:
+          "96. Christians call the Friday on which Jesus was crucified Good Friday because, it\n(BECE 2009 Q11)",
+      options: [
+        "Marks the redemption from sin",
+        "Is a day on which they fast",
+        "Marks the beginning of East festivities",
+        "Shows the end of Jesus ministry on earth"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Good Friday commemorates Jesus' sacrificial death, which Christians associate with redemption from sin."),
+
+  QuizQuestion(
+      question:
+          "97. In traditional religion, burying the dead with belongings signifies that\n(BECE 2009 Q15)",
+      options: [
+        "There is life after death",
+        "Items are sent to the spiritual world",
+        "The dead pay for their journey",
+        "There is hunger in the spiritual world"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects belief that existence continues after physical death."),
+
+  QuizQuestion(
+      question:
+          "98. Most Ghanaians name their children after their ancestors. This act reveals their belief in\n(BECE 2009 Q16)",
+      options: ["Child birth", "Reincarnation", "Destiny", "Spiritual power"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Naming children after ancestors may reflect belief in the return or continuity of ancestral identity."),
+
+  QuizQuestion(
+      question:
+          "99. Which of the following religious practices is observed by the three major religions in Ghana?\n(BECE 2009 Q17)",
+      options: ["Ancestral worship", "Animal sacrifice", "Charity", "Fasting"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Charity is encouraged in Christianity, Islam and African Traditional Religion."),
+
+  QuizQuestion(
+      question:
+          "100. The washing of feet, hands and face by Muslims before prayers is known as\n(BECE 2009 Q19)",
+      options: ["Janabah", "Nifas", "Wudu", "Janazah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wudu is the ritual washing performed before Salat."),
+
+  QuizQuestion(
+      question:
+          "101. Story telling is an important event in a traditional home because it\n(BECE 2009 Q39)",
+      options: [
+        "Makes children creative",
+        "Teaches moral lessons",
+        "Keeps children awake",
+        "Brings people together"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Traditional stories are commonly used to teach moral lessons."),
+
+  QuizQuestion(
+      question:
+          "102. The outpouring of the Holy Spirit on Christians is marked by\n(BECE 2011 Q2)",
+      options: ["Ascension", "Resurrection", "Pentecost", "Passover"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Pentecost commemorates the coming of the Holy Spirit upon the disciples."),
+
+  QuizQuestion(
+      question:
+          "103. The congregational prayers observed by Muslims on Friday is\n(BECE 2011 Q3)",
+      options: ["Eid", "Jamah", "Janazah", "Zuhr"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The source uses 'Jamah' for the congregational Friday prayer context."),
+
+  QuizQuestion(
+      question:
+          "104. Islam shows concern for the needy and poor by practising\n(BECE 2011 Q5)",
+      options: ["Sawn", "Zakat", "Salat", "Kalimat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides assistance to poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "105. The Fajr Salat is observed at\n(BECE 2011 Q10)",
+      options: ["Dawn", "Noon", "Night", "Sunset"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fajr is the dawn prayer."),
+
+  QuizQuestion(
+      question:
+          "106. Christians share a common belief that\n(BECE 2011 Q11)",
+      options: [
+        "The Holy Spirit works with fire",
+        "Trust in Jesus Christ brings eternal life",
+        "One should pray to God directly",
+        "One who suffers in life will go to heaven"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christianity teaches that faith in Jesus Christ is associated with salvation and eternal life."),
+
+  QuizQuestion(
+      question:
+          "107. The Islamic institution for reducing poverty is\n(BECE 2011 Q17)",
+      options: ["Zakat", "Salat", "Sawn", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Zakat redistributes wealth to support those in need."),
+
+  QuizQuestion(
+      question:
+          "108. The following practices apply to Traditional Religion except\n(BECE 2011 Q18)",
+      options: ["Libation", "Fasting", "Prayers", "Sacrifices"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation, prayer and sacrifice are common traditional practices; fasting is not generally emphasized in the same way."),
+
+  QuizQuestion(
+      question:
+          "109. The use of sand in the absence of water by a Muslim for purification is\n(BECE 2011 Q20)",
+      options: ["Taharah", "Tashahhud", "Tayammum", "Takbir"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tayammum is purification with clean earth or sand when water is unavailable."),
+
+  QuizQuestion(
+      question:
+          "110. Ablution is done before prayers in order to\n(BECE 2012 Q3)",
+      options: [
+        "Have prayers answered in time",
+        "Ensure purity of the body",
+        "Get closer to Allah",
+        "Win the favour of Allah"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution prepares the worshipper through ritual cleanliness before prayer."),
+
+  QuizQuestion(
+      question:
+          "111. The traditional man wears talismans in order to\n(BECE 2012 Q5)",
+      options: [
+        "Give birth to children",
+        "Become rich",
+        "Seek protection against enemies",
+        "Bring peace and love into his family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Talismans are traditionally believed to provide spiritual protection."),
+
+  QuizQuestion(
+      question:
+          "112. The Holy Communion reminds Christians of Jesus'\n(BECE 2012 Q8)",
+      options: ["Birth", "Crucifixion", "Last supper", "Resurrection"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion commemorates Jesus' Last Supper with His disciples."),
+
+  QuizQuestion(
+      question:
+          "113. Ramadan is the\n(BECE 2012 Q9)",
+      options: [
+        "Feast of sacrifice",
+        "Month of fasting",
+        "Feast of breaking fast",
+        "Month of Hijra"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ramadan is the Islamic month of fasting."),
+
+  QuizQuestion(
+      question:
+          "114. In a prayer of confession, Christians\n(BECE 2012 Q16)",
+      options: [
+        "Adore God who created them",
+        "Say sorry to God for their sins",
+        "Ask for help in times of trouble",
+        "Give thanks for all the gifts they received"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Confession involves acknowledging sins and asking God for forgiveness."),
+
+  QuizQuestion(
+      question:
+          "115. A Muslim is a person who\n(BECE 2012 Q17)",
+      options: [
+        "Comes from Arabia",
+        "Visits Mecca annually",
+        "Submits to the will of Allah",
+        "Recites the Qur'an"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A Muslim is one who submits to the will of Allah."),
+
+  QuizQuestion(
+      question:
+          "116. The combination of the Fajr and Asr Prayers makes\n(BECE 2012 Q19)",
+      options: [
+        "Two rakats",
+        "Five rakats",
+        "Six rakats",
+        "Eight rakats"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Fajr has two rakats and Asr has four, giving a total of six."),
+
+  QuizQuestion(
+      question:
+          "117. The Janazah prayer is performed\n(BECE 2013 Q4)",
+      options: [
+        "When a Muslim is travelling",
+        "During Friday worship",
+        "After a Ramadan worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is performed for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "118. The outpouring of the Holy Spirit on Christians occurred during the\n(BECE 2013 Q5)",
+      options: ["Ascension", "Passover", "Pentecost", "Resurrection"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Holy Spirit came upon the disciples at Pentecost."),
+
+  QuizQuestion(
+      question:
+          "119. The teachings of Prophet Mohammed are found in\n(BECE 2013 Q9)",
+      options: ["Hadith", "Ijma", "Kalima", "Sura"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hadith preserves reports of Mohammed's teachings and actions."),
+
+  QuizQuestion(
+      question:
+          "120. Zakat is important in Islam because it\n(BECE 2013 Q13)",
+      options: [
+        "Is mentioned in the Qur'an",
+        "Is paid by the wealthy",
+        "Is a religious form of taxation",
+        "Reduce the suffering of the poor"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A central social purpose of Zakat is to support the poor and reduce hardship."),
+
+  QuizQuestion(
+      question:
+          "121. Praying regularly is important because it is a\n(BECE 2013 Q5)",
+      options: [
+        "Moral responsibility",
+        "Social responsibility",
+        "Political responsibility",
+        "Spiritual responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer is a spiritual responsibility of believers."),
+
+  QuizQuestion(
+      question:
+          "122. The congregational prayer observed by Muslims on Friday is\n(BECE 2013 Q16)",
+      options: ["Eid", "Janazah", "Jumu'ah", "Zuhr"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jumu'ah is the Friday congregational prayer."),
+
+  QuizQuestion(
+      question:
+          "123. In traditional religion, it is taboo to\n(BECE 2013 Q17)",
+      options: [
+        "Bury the dead in town",
+        "Drink alcohol at funerals",
+        "Insult a chief or a god",
+        "Wear sandals at the graveyard"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Insulting a chief or deity is regarded as a serious traditional taboo."),
+
+  QuizQuestion(
+      question:
+          "124. Folktales are important because, they\n(BECE 2013 Q32)",
+      options: [
+        "Teach about other people",
+        "Are loved by grandparents",
+        "Make children happy",
+        "Teach moral lessons"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Folktales transmit moral values and cultural lessons."),
+
+  QuizQuestion(
+      question:
+          "125. In traditional societies, rules used to control the behaviour of members are known as\n(BECE 2013 Q34)",
+      options: ["Ancestral rites", "Puberty rites", "Taboos", "Totems"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Taboos regulate acceptable and forbidden behaviour in traditional society."),
+
+  QuizQuestion(
+      question:
+          "126. The Eucharist, in Christian worship, refers to\n(BECE 2014 Q2)",
+      options: [
+        "Prayer of thanksgiving",
+        "Preaching of sermons",
+        "The Holy Communion",
+        "Payment of tithes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist is another name for Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "127. Sadique in Islam means\n(BECE 2014 Q4)",
+      options: ["Courageous", "Righteous", "Truthful", "Patience"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Sadique or Siddiq refers to truthfulness."),
+
+  QuizQuestion(
+      question:
+          "128. The prayer which is said in the early afternoon by Muslims is\n(BECE 2014 Q9)",
+      options: ["Fajr", "Isha", "Maghrib", "Zuhr"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Zuhr is the midday or early afternoon prayer."),
+
+  QuizQuestion(
+      question:
+          "129. Traditional worshippers remember their ancestors by\n(BECE 2014 Q12)",
+      options: [
+        "Fasting and praying to them",
+        "Offering them food and drinks",
+        "Singing of songs and praises",
+        "Calling their names always"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Food and drink offerings are traditional ways of remembering and honouring ancestors."),
+
+  QuizQuestion(
+      question:
+          "130. Prayer enables the Muslim to\n(BECE 2014 Q13)",
+      options: [
+        "Punish his/her enemies",
+        "Become clean",
+        "Go to heaven",
+        "Receive gifts"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Prayer encourages spiritual and moral purity."),
+
+  QuizQuestion(
+      question:
+          "131. Dirges as a traditional song is sung to\n(BECE 2014 Q14)",
+      options: [
+        "Praise and hail chiefs",
+        "Hoot at people with evil spirit",
+        "Recreate and entertain people",
+        "Sympathize with bereaved families"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dirges express grief and sympathy with bereaved families."),
+
+  QuizQuestion(
+      question:
+          "132. It is the responsibility of a Muslim to make a pilgrimage to Mecca at least\n(BECE 2014 Q16)",
+      options: [
+        "Three times in life time",
+        "Twice in a life time",
+        "Once in a life time",
+        "Five times in a life time"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A Muslim who is physically and financially able is required to perform Hajj once in a lifetime."),
+
+  QuizQuestion(
+      question:
+          "133. In Islamic practice, Wudu is the\n(BECE 2014 Q18)",
+      options: [
+        "Intention to say salat",
+        "Preparation made after salat",
+        "Ritual washing before salat",
+        "Ritual washing after salat"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wudu is ritual ablution performed before Salat."),
+
+  QuizQuestion(
+      question:
+          "134. What is the second pillar of Islam?\n(BECE 2015 Q3)",
+      options: ["Salat", "Sawn", "Zakat", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Salat, the five daily prayers, is the second pillar of Islam."),
+
+  QuizQuestion(
+      question:
+          "135. On what occasion does Muslims perform the Janazah prayer?\n(BECE 2015 Q4)",
+      options: [
+        "Before a Muslim travels",
+        "After observing a fast",
+        "During Friday worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the Islamic funeral prayer."),
+
+  QuizQuestion(
+      question:
+          "136. Going round the Ka'ba is an Islamic religious activity done during\n(BECE 2015 Q11)",
+      options: ["Eid-ul-Adha", "Eid-ul-Fitr", "Hajj", "Ramadan"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tawaf around the Ka'ba is an important Hajj ritual."),
+
+  QuizQuestion(
+      question:
+          "137. Which Islamic prayer is observed at sunset\n(BECE 2015 Q12)",
+      options: ["Janazah", "Tarawih", "Isha", "Maghrib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is performed immediately after sunset."),
+
+  QuizQuestion(
+      question:
+          "138. Traditionalists pray by means of\n(BECE 2015 Q13)",
+      options: [
+        "Music and dance",
+        "Spirit possession",
+        "Pouring libation",
+        "Divination"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is one of the main forms of traditional prayer."),
+
+  QuizQuestion(
+      question:
+          "139. In African Traditional Religion, the living dead are referred to as\n(BECE 2015 Q14)",
+      options: ["Bad spirits", "Witch doctors", "Ancestors", "Mediums"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are sometimes described as the living dead because they remain spiritually connected to the living."),
+
+  QuizQuestion(
+      question:
+          "140. The most important rite in Christian sacramental worship is the\n(BECE 2015 Q16)",
+      options: [
+        "Taking of the Holy Communion",
+        "Reading of the Old Testament",
+        "Reading of the New Testament",
+        "Collection of offertory and tithes"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion is a central sacramental act in Christian worship."),
+
+  QuizQuestion(
+      question:
+          "141. Going round the Ka'ba is an Islamic religious activity done during the\n(BECE 2016 Q16)",
+      options: ["Eid-ul-Adha", "Eid-ul-Fitr", "Hajj", "Ramadan"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Going around the Ka'ba, or Tawaf, is performed during Hajj."),
+
+  QuizQuestion(
+      question:
+          "142. What is the second pillar of Islam?\n(BECE 2016 Q17)",
+      options: ["Hajj", "Salat", "Sawn", "Zakat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Salat is the second pillar of Islam."),
+
+  QuizQuestion(
+      question:
+          "143. In the traditional society, the dead is buried with money to ensure that the\n(BECE 2016 Q18)",
+      options: [
+        "Deceased can pay the fare to the other world",
+        "Deceased can pay the gods and ancestors for protection",
+        "Spirit of the deceased does not attack the family members",
+        "Family members are blessed with riches"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The money is traditionally associated with the deceased's journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "144. Traditional worshippers remember their ancestors by\n(BECE 2016 Q19)",
+      options: [
+        "Calling their names always",
+        "Fasting and praying to them",
+        "Offering drinks and food to them",
+        "Singing of songs and praises"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Food and drink offerings are used in traditional remembrance of ancestors."),
+
+  QuizQuestion(
+      question:
+          "145. The saying \"a child who knows how to wash his/her hands eats with the elderly\" means\n(BECE 2016 Q25)",
+      options: [
+        "Children should eat with the elderly",
+        "Children should wash their hands well before eating",
+        "That food is important for the growth of children",
+        "That it pays to be well-behaved"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The proverb teaches that good behaviour and proper conduct bring opportunities and honour."),
+
+  QuizQuestion(
+      question:
+          "146. The first pillar of Islam is the belief in\n(BECE 2017 Q16)",
+      options: ["Angels", "Oneness of God", "Prophets", "Revealed books"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah begins with belief in the oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "147. Praying regularly is important because it is a\n(BECE 2017 Q17)",
+      options: [
+        "Moral responsibility",
+        "Political responsibility",
+        "Social responsibility",
+        "Spiritual responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Prayer is a spiritual responsibility of believers."),
+
+  QuizQuestion(
+      question:
+          "148. Submission to the will of Allah in Islam brings\n(BECE 2017 Q22)",
+      options: [
+        "Life and comfort",
+        "Peace and purity",
+        "Unity and love",
+        "Wealth and joy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Islam emphasizes peace and spiritual purity through submission to Allah."),
+
+  QuizQuestion(
+      question:
+          "149. Sadique in Islam means\n(BECE 2018 Q4)",
+      options: ["Courageous", "Patience", "Righteous", "Truthful"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Sadique means truthful."),
+
+  QuizQuestion(
+      question:
+          "150. The holy pilgrimage to Makkah by Muslims is known as\n(BECE 2018 Q5)",
+      options: ["Hajj", "Ijma", "Ru'ya", "Salat"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hajj is the pilgrimage to Makkah."),
+
+  QuizQuestion(
+      question:
+          "151. On what occasion do Muslims perform the Janazah prayer?\n(BECE 2018 Q15)",
+      options: [
+        "After observing fast",
+        "Before a Muslim travels",
+        "During Friday worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is performed when a Muslim dies."),
+
+  QuizQuestion(
+      question:
+          "152. Which traditional prayer is offered when a vow or a pledge is fulfilled?\n(BECE 2018 Q16)",
+      options: ["Intercessory", "Supplication", "Thanksgiving", "Votive"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A votive prayer is connected with a vow or pledge."),
+
+  QuizQuestion(
+      question:
+          "153. Which Islamic prayer is observed at sunset?\n(BECE 2018 Q17)",
+      options: ["Isha", "Janazah", "Maghrib", "Tarawih"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is the sunset prayer."),
+
+  QuizQuestion(
+      question:
+          "154. The act of going around the Ka'ba seven times during Hajj teaches\n(BECE 2018 Q18)",
+      options: ["Bravery", "Faireness", "Endurance", "Tolerance"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Performing the seven circuits requires endurance and perseverance."),
+
+  QuizQuestion(
+      question:
+          "155. The Eucharist in Christian worship refers to\n(BECE 2018 Q19)",
+      options: [
+        "Prayer of thanksgiving",
+        "Preaching of sermons",
+        "Payment of tithes",
+        "The Holy Communion"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist is the Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "156. Which of the following traditional practices can dehumanize the individual?\n(BECE 2019 Q14)",
+      options: [
+        "Festival rituals",
+        "Funeral rites",
+        "Libation prayers",
+        "Widowhood rites"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Some widowhood practices can subject individuals to degrading or harmful treatment."),
+
+  QuizQuestion(
+      question:
+          "157. Islamic practice of worship (Ibadah) is based on the\n(BECE 2019 Q15)",
+      options: [
+        "Five pillars of Islam",
+        "Nine rakats of salat",
+        "Seven events of hajj",
+        "Six teachings of Uthman"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The five pillars form the basic framework of Islamic worship and practice."),
+
+  QuizQuestion(
+      question:
+          "158. The word Amen is used in Christian and Islamic prayers because it\n(BECE 2019 Q16)",
+      options: [
+        "Attracts blessing to the people",
+        "Reveals God's promises",
+        "Enforces the request",
+        "Ensure confidence in the prayer"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Amen expresses affirmation and confidence in the prayer that has been offered."),
+
+  QuizQuestion(
+      question:
+          "159. Which group of believers usually conclude their prayers with a curse?\n(BECE 2019 Q17)",
+      options: ["Christians", "Muslims", "Traditionalists", "Buddhists"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Traditional prayers may sometimes conclude with curses against enemies or wrongdoers."),
+
+  QuizQuestion(
+      question:
+          "160. The practice of throwing stones during hajj is to\n(BECE 2019 Q25)",
+      options: [
+        "Protect Muslims from death",
+        "Achieve goals for the pilgrimage",
+        "Keep the devil away",
+        "Open the way to prosperity"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The stoning ritual symbolizes rejection of Satan."),
+
+  QuizQuestion(
+      question:
+          "161. Ablution before salat ensures\n(BECE 2019 Q19)",
+      options: [
+        "Peace with Allah always",
+        "Purity in communion with Allah",
+        "Receipt of prayer request",
+        "Healthy sanitation in the community"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution provides ritual purity before worship."),
+
+  QuizQuestion(
+      question:
+          "162. The Qur'an teaches that, anyone who not show mercy will not\n(BECE 2019 Q27)",
+      options: [
+        "Enter the mosque",
+        "Go to heaven",
+        "Be shown mercy",
+        "Live peaceful life"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The teaching emphasizes that those who show no mercy should not expect mercy."),
+
+  QuizQuestion(
+      question:
+          "163. The Akans believe that their sacred stool is the abode of the\n(BECE 2019 Q35)",
+      options: ["Lesser gods", "Ancestors", "Dwarfs", "Supreme Being"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sacred stools are traditionally associated with the spirits of ancestors."),
+
+  QuizQuestion(
+      question:
+          "164. Which of the following objects can be found in an Islamic religious home?\n(BECE 2019 Q36)",
+      options: ["Amulet", "Cross", "Rosary", "Tasba"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tasba or prayer beads may be used by Muslims for devotional remembrance."),
+
+  QuizQuestion(
+      question:
+          "165. The purity and uprightness of a Muslim depends on his or her\n(BECE 2018 Q19)",
+      options: [
+        "Celebration of Eid festival",
+        "Constant prayers",
+        "Quranic studies",
+        "Pilgrimage to Mecca"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer promotes spiritual discipline, purity and upright conduct."),
+
+  QuizQuestion(
+      question:
+          "166. Which of the following options refers to Muslims' declaration of commitment?\n(BECE 2020 Q14)",
+      options: ["Adhan", "Hadith", "Sunnah", "Shahada"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah is the Muslim declaration of faith and commitment."),
+
+  QuizQuestion(
+      question:
+          "167. The last prayer recited at the cemetery during an Islamic burial is\n(BECE 2020 Q15)",
+      options: ["Janaza", "Jum'ah", "Asr", "Tarawil"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the prayer associated with the funeral and burial of a Muslim."),
+
+  QuizQuestion(
+      question:
+          "168. Ka'bah in Mecca is important in Islamic worship because\n(BECE 2020 Q16)",
+      options: [
+        "It is the centre of God's revelation",
+        "Its direction is always faced at prayers",
+        "Prayers said there are promptly answered",
+        "The place is filled with angels"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims face the Ka'ba, the qiblah, during Salat."),
+
+  QuizQuestion(
+      question:
+          "169. Libation is offered mainly to\n(BECE 2020 Q17)",
+      options: [
+        "Avoid attack from enemies",
+        "Make worship successful",
+        "Seek the favour of divinities",
+        "Quench the thirst of the gods"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is offered to communicate with and seek favour from spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "170. Non-religious songs are mostly centered on\n(BECE 2020 Q19)",
+      options: [
+        "Divinities",
+        "Moral values",
+        "Pleasure",
+        "Spiritual satisfaction"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Non-religious songs commonly focus on entertainment and pleasure rather than worship."),
+
+  QuizQuestion(
+      question:
+          "171. A practice that is common to the three major religions in Ghana is\n(BECE 2021 Q6)",
+      options: [
+        "Animal sacrifice",
+        "Regular prayers",
+        "Respects for taboos",
+        "Scripture studies"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Prayer is practiced in Christianity, Islam and African Traditional Religion."),
+
+  QuizQuestion(
+      question:
+          "172. To communicate to the object of worship on behalf of someone, one has to offer a prayer of\n(BECE 2021 Q13)",
+      options: [
+        "Confession",
+        "Intercession",
+        "Thanksgiving",
+        "Adoration"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Intercessory prayer is offered on behalf of another person."),
+
+  QuizQuestion(
+      question:
+          "173. The Muslim woman puts on a veil in order to\n(BECE 2021 Q35)",
+      options: [
+        "Avoid attack from rapist",
+        "Avoid exposure to the public",
+        "Hide her true identity",
+        "Protect herself from the rays of the sun"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The veil is associated with modesty and limiting inappropriate bodily exposure."),
+
+  QuizQuestion(
+      question:
+          "174. In traditional societies, anything that is forbidden is regarded as\n(BECE 2021 Q37)",
+      options: ["Holy", "Spiritual", "Taboo", "Totem"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A taboo is something prohibited by traditional rules or custom."),
+
+  QuizQuestion(
+      question:
+          "175. A sign of respect and humility is demonstrated during libation when the celebrant\n(BECE 2022 Q18)",
+      options: [
+        "Removes his sandals and keeps his chest bare",
+        "Invokes the gods with appellations",
+        "Squats and mentions the attributes of God",
+        "Slaughter animals as a sacrifice"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Removing sandals and adopting a humble appearance symbolizes respect during libation."),
+
+  QuizQuestion(
+      question:
+          "176. Ablution in Islam signifies\n(BECE 2022 Q19)",
+      options: ["Hard work", "Cleanliness", "Truthfulness", "Justice"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution symbolizes physical and ritual cleanliness before prayer."),
+
+  QuizQuestion(
+      question:
+          "177. Which of the following churches observes Sabbath on Saturdays?\n(BECE 2022 Q20)",
+      options: [
+        "Catholic Church",
+        "Presbyterian Church",
+        "Seventh Day Adventist Church",
+        "Muzama Disco Christo Church"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Seventh-day Adventists observe Saturday as the Sabbath."),
+
+  QuizQuestion(
+      question:
+          "178. The belief in magical powers influences the traditionalists to\n(BECE 2022 Q21)",
+      options: [
+        "Worship God every Sunday",
+        "Smear the body with clay",
+        "Wear charms and amulets",
+        "Dress with beads and jewels"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Charms and amulets are traditionally associated with spiritual or magical protection."),
+
+  QuizQuestion(
+      question:
+          "179. The practitioners of African Traditional Religion honour ancestors so as to\n(BECE 2022 Q22)",
+      options: [
+        "Receive protection and blessings",
+        "Have their faith increased",
+        "Behave well in the society",
+        "Become blameless and powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are traditionally believed to provide protection and blessings to their descendants."),
+
+  QuizQuestion(
+      question:
+          "180. Dirges are sung to\n(BECE 2022 Q23)",
+      options: [
+        "Express happiness in life",
+        "Ask for forgiveness",
+        "Welcome a chief at a festival",
+        "Comfort the bereaved"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dirges express grief and provide comfort during mourning."),
+
+  QuizQuestion(
+      question:
+          "181. Religious songs are important because they\n(BECE 2022 Q24)",
+      options: [
+        "Deal with social issues",
+        "Entertain and amuse people",
+        "Strengthen people's spiritual growth",
+        "Help people achieve their goals"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Religious songs support worship and spiritual development."),
+
+  QuizQuestion(
+      question:
+          "182. One similarity between religious and non-religious songs is that both\n(BECE 2022 Q25)",
+      options: [
+        "Center on people's object of worship",
+        "Can help people to hope for eternal life",
+        "Deal with achievements of heroes in the society",
+        "Can help to control social behaviour"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Both types of songs can communicate values that influence and regulate social behaviour."),
+
+  QuizQuestion(
+      question:
+          "183. The bible contains words of inspiration from\n(BECE 2023 Q1)",
+      options: ["The prophets", "The spirit", "God", "Jesus"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians regard the Bible as inspired by God."),
+
+  QuizQuestion(
+      question:
+          "184. The gospels in the Bible describe the\n(BECE 2023 Q9)",
+      options: [
+        "Life and works of the apostles",
+        "Life and works of Jesus Christ",
+        "Deeds of the prophets",
+        "Spread of Christianity"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Gospels present the life, teachings, death and resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "185. Which of the following persons is not mentioned in the Qur'an as the recipient of Zakat? The\n(BECE 2023 Q10)",
+      options: ["Traveller", "Needy", "Poor", "Imam"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Qur'anic categories of Zakat recipients include the poor, needy and stranded traveller, but not Imam as a category."),
+
+  QuizQuestion(
+      question:
+          "186. In Christian Religion, the Eucharist stands for\n(BECE 2023 Q11)",
+      options: ["Holy Communion", "Reconciliation", "Confirmation", "Initiation rite"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist refers to Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "187. Which of the following life patterns is expected of Christians?\n(BECE 2023 Q23)",
+      options: [
+        "Worship, scripture study and evangelism",
+        "Fasting, alms giving and libation",
+        "Worship, evangelism and divination",
+        "Animal sacrifice, confession and scripture study"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Christian life includes worship, studying scripture and sharing the faith through evangelism."),
+
+  QuizQuestion(
+      question:
+          "188. Fajr is an Islamic prayer which is said at\n(BECE 2023 Q25)",
+      options: [
+        "Early afternoon",
+        "Late afternoon",
+        "Sunset",
+        "Dawn"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Fajr is the dawn prayer."),
+
+  QuizQuestion(
+      question:
+          "189. Traditional believers and Christians make use of religious songs because such songs help in\n(BECE 2023 Q27)",
+      options: [
+        "Invoking spiritual powers",
+        "Showing the believer's pride",
+        "Rewarding their enemies",
+        "Making people intelligent"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Religious songs are used in worship and may help believers invoke or connect with spiritual power."),
+
+  QuizQuestion(
+      question:
+          "190. The main form of prayer in Traditional Religion is through\n(BECE 2023 Q29)",
+      options: ["Chanting", "Libation", "Sacrifice", "Divination"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a principal form of traditional prayer."),
+
+  QuizQuestion(
+      question:
+          "191. The purpose of libation in Traditional Religion is to\n(BECE 2023 Q36)",
+      options: [
+        "Make a person holy",
+        "Revere the gods",
+        "Make sorcerers holy",
+        "Have enemies killed"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation is offered as a form of reverence and communication with divinities and ancestors."),
+
+  QuizQuestion(
+      question:
+          "192. The declaration of faith (Kalimatus Shahadah) is important in Islam because it\n(BECE 2023 Q39)",
+      options: [
+        "Teaches the worship of one God",
+        "Enhances performance of Salat in the mosque",
+        "Helps in the praying of Tashah",
+        "Protects the worshipper from demonic attacks"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah affirms the oneness of Allah and Mohammed as His messenger."),
+    ],
+  ),
+  "Religious & Moral Education JHS2 s5 ss2 - Substance Abuse and Decent Living": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+      question:
+      "1. Which type of substance is coffee?\n(BECE 2001 Q36)",
+      options: ["Stimulant", "Hard drug", "Common drug", "Beverage"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+      "Coffee contains caffeine, which is a stimulant that increases alertness."),
+QuizQuestion(
+question:
+"2. Which of the following is an example of a hard drug?\n(BECE 2002A Q35)",
+options: ["Chloroquine", "Coffee", "Alcohol", "Cocaine"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Cocaine is classified as a hard drug because of its strong addictive and harmful effects."),
+
+QuizQuestion(
+question:
+"3. Which of the following reasons may promote drug abuse?\n(BECE 2002B Q39)",
+options: [
+"Showing pictures of victims of drug abuse",
+"Debate organized for students on hard drug abuse",
+"Taking the drugs without knowing the side effect",
+"Police dealing strictly with drug peddlers"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Ignorance about the harmful effects of drugs can contribute to drug abuse."),
+
+QuizQuestion(
+question:
+"4. The basis for describing some drugs as sedative is that they\n(BECE 2003 Q28)",
+options: [
+"Stimulate the user",
+"Turn to relax the nerves and reduce stress",
+"Make the user to feel high",
+"Protect the user from the physical effects of drugs"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Sedatives calm the nervous system and help reduce tension or stress."),
+
+QuizQuestion(
+question:
+"5. People lead decent lives in order to\n(BECE 2003 Q35)",
+options: [
+"Be praised for patriotism",
+"Be seen as kind and generous",
+"Promote health and peaceful conditions",
+"Promote peace"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Decent living promotes healthy behaviour and peaceful relationships in society."),
+
+QuizQuestion(
+question:
+"6. Substances that turn to relax the nerves and reduce stress are\n(BECE 2004 Q37)",
+options: ["Sedatives", "Stimulants", "Hard drugs", "Common drugs"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Sedatives reduce nervous activity and help a person relax."),
+
+QuizQuestion(
+question:
+"7. Self-medication means\n(BECE 2004 Q39)",
+options: [
+"Taking medicine prescribed by the doctor",
+"Buying drugs with prescription form",
+"Taking medicine given at the hospital",
+"Taking drugs without medical advice"
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Self-medication is the use of medicines without appropriate medical advice or prescription."),
+
+QuizQuestion(
+question:
+"8. In Ghana people are said to lead decent life when they\n(BECE 2005 Q26)",
+options: [
+"Shout in public for their right",
+"Make people respect them",
+"Weed around the compound",
+"Have leisure with friends"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Keeping the surroundings clean through activities such as weeding reflects responsible and decent living."),
+
+QuizQuestion(
+question:
+"9. Which of the following drugs is most commonly abused?\n(BECE 2005 Q33)",
+options: ["Cocaine", "Laxatives", "Tobacco", "Paracetamol"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Tobacco is a commonly abused substance because of widespread smoking and nicotine dependence."),
+
+QuizQuestion(
+question:
+"10. Which of the following is not an example of a stimulant?\n(BECE 2006 Q36)",
+options: ["Alcohol", "Cocaine", "Chloroquine", "Marijuana"],
+correctIndex: 0,
+difficulty: "Medium",
+explanation:
+"Alcohol is generally classified as a depressant rather than a stimulant."),
+
+QuizQuestion(
+question:
+"11. Boys and girls are to dress modestly and decently to show that they are\n(BECE 2006 Q40)",
+options: ["Truthful", "Honest", "Courteous", "Brilliant"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Modest and decent dressing is associated with courtesy and respectability."),
+
+QuizQuestion(
+question:
+"12. Which of the following is not a reason for living a decent life?\n(BECE 2007 Q36)",
+options: [
+"To earn the respect of people",
+"To gain the trust of others",
+"To receive praises from others",
+"To have a good name"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Living decently should promote good character, trust and respect rather than merely seeking praise."),
+
+QuizQuestion(
+question:
+"13. Smoking is discouraged because it\n(BECE 2008 Q38)",
+options: [
+"Results in respiratory problem",
+"Attracts the HIV virus",
+"Leads to sexual promiscuity",
+"Destroys the blood group of people"
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Smoking can damage the lungs and contribute to serious respiratory problems."),
+
+QuizQuestion(
+question:
+"14. Which of the following can be noticed in those who use drugs?\n(BECE 2009 Q33)",
+options: [
+"Quick response to questions in class",
+"Disrespect for authority",
+"Poor relationship with friends",
+"Involvement in communal activities"
+],
+correctIndex: 1,
+difficulty: "Medium",
+explanation:
+"Drug abuse may contribute to behavioural problems such as disrespect for authority."),
+
+QuizQuestion(
+question:
+"15. Which of the following is an effect of drug abuse?\n(BECE 2011 Q27)",
+options: ["Obedience", "Truancy", "Politeness", "Truthfulness"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Drug abuse can lead to truancy and other forms of irresponsible behaviour."),
+
+QuizQuestion(
+question:
+"16. People avoid dangerous substances in order to\n(BECE 2012 Q25)",
+options: [
+"Develop their potentials",
+"Stay healthy",
+"Study hard",
+"Be respected by society"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Avoiding dangerous substances helps protect a person's physical and mental health."),
+
+QuizQuestion(
+question:
+"17. A defensive mechanism that can help protect student against drug abuse is\n(BECE 2012 Q28)",
+options: [
+"To control one's temper",
+"Living a chaste life",
+"Refusing and saying no to drugs",
+"Reporting drug peddlers to the police"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Being assertive and refusing drugs is an effective way of resisting peer pressure and drug abuse."),
+
+QuizQuestion(
+question:
+"18. One danger associated with drug abuse is that it\n(BECE 2013 Q23)",
+options: [
+"Causes idleness",
+"Makes a person arrogant",
+"Destroys the blood group",
+"Can deform a person"
+],
+correctIndex: 3,
+difficulty: "Medium",
+explanation:
+"Drug abuse can cause serious physical and developmental harm to the body."),
+
+QuizQuestion(
+question:
+"19. People lead decent lives in order to\n(BECE 2013 Q27)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be ancestors"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent behaviour promotes harmony and peaceful relationships with others."),
+
+QuizQuestion(
+question:
+"20. A student must dress decently because it\n(BECE 2015 Q25)",
+options: [
+"Is a mark of intelligence",
+"Shows respect and politeness",
+"Enables one to gain favour from others",
+"Helps one to obey school rules"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Decent dressing demonstrates respect, modesty and politeness."),
+
+QuizQuestion(
+question:
+"21. People lead decent live in order to\n(BECE 2016 Q27)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be an ancestor"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent living helps promote peace and good relationships in society."),
+
+QuizQuestion(
+question:
+"22. Which of the following behaviours is an effect of drug abuse?\n(BECE 2016 Q28)",
+options: ["Obedience", "Politeness", "Truancy", "Truthfulness"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Drug abuse can lead to truancy and neglect of school responsibilities."),
+
+QuizQuestion(
+question:
+"23. Looking simple and decent is a sign of\n(BECE 2017 Q18)",
+options: ["Comportment", "Faithfulness", "Tolerance", "Repentance"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Comportment refers to proper behaviour and presentation, including simple and decent appearance."),
+
+QuizQuestion(
+question:
+"24. Refusal to follow medical prescription may lead to\n(BECE 2018 Q33)",
+options: [
+"Disrespect for authorities",
+"Failure in life",
+"Reduction in wealth",
+"Substance abuse"
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Using medicine contrary to medical instructions can result in misuse and substance abuse."),
+
+QuizQuestion(
+question:
+"25. A person must lead a decent life in order to\n(BECE 2020 Q32)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be an ancestor"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent living encourages harmony and peaceful coexistence."),
+
+QuizQuestion(
+question:
+"26. People abuse substance because of\n(BECE 2020 Q33)",
+options: ["Happiness", "Ignorance", "Problems", "Vengeance"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Ignorance about the dangers and effects of substances can contribute to their abuse."),
+
+QuizQuestion(
+question:
+"27. To avoid drug abuse, the student must\n(BECE 2021 Q10)",
+options: [
+"Exercise the body frequently",
+"Keep off bad friends",
+"Respect teachers and friends",
+"Attend worship meetings regularly"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Avoiding bad company reduces peer pressure and exposure to drug abuse."),
+
+QuizQuestion(
+question:
+"28. Living a decent life can earn you\n(BECE 2021 Q23)",
+options: ["Promotion", "Respect", "Success", "Wealth"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"People who behave decently are more likely to earn the respect of others."),
+
+QuizQuestion(
+question:
+"29. Decent dressing and good eating habits show\n(BECE 2023 Q32)",
+options: [
+"That one is obedient to parents",
+"The particular community one comes from",
+"The level of training one has received",
+"That one belongs to a traditional society"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Good dressing and eating habits can reflect the discipline and training a person has received."),
+],
+  ),
+  "Religious & Moral Education JHS2 s6 ss1 - Objective Questions": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. The statement that time is money, implies that time is\n(BECE 2005 Q38)",
+options: ["Precious", "Limitless", "Life", "Everything"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"The statement emphasizes that time is valuable and should be used wisely."),
+  QuizQuestion(
+      question:
+          "2. We contribute to church dues and offering to\n(BECE 2001 Q33)",
+      options: [
+        "Enable the church to develop spiritually",
+        "Promote deliverance service",
+        "Help pastors preach well",
+        "Help evangelize and care for the poor"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Church dues and offerings support evangelism and help the church care for people in need."),
+
+  QuizQuestion(
+      question:
+          "3. Hard work is most often crowned with\n(BECE 2007 Q24)",
+      options: ["Favours", "Success", "Popularity", "Obedience"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work commonly leads to success and achievement."),
+
+  QuizQuestion(
+      question:
+          "4. In school's speech and prize giving day, the best pupil is rewarded with a\n(BECE 2003 Q25)",
+      options: ["Book prizes", "Cash prize", "Testimonial", "Certificate"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Book prizes are traditionally given to outstanding pupils during school speech and prize-giving days."),
+
+  QuizQuestion(
+      question:
+          "5. The best way a worker can ask for a good salary is through\n(BECE 2008 Q26)",
+      options: ["Negotiation", "Confrontation", "Strike", "Threat"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Negotiation provides a peaceful and responsible way to discuss better wages."),
+
+  QuizQuestion(
+      question:
+          "6. It is a bad habit to use one's leisure time in\n(BECE 1999 Q28)",
+      options: [
+        "Reading a story book",
+        "Telling stories",
+        "Playing games",
+        "Gossiping about friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping is an unproductive and potentially harmful use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "7. A happy and prosperous life depends on\n(BECE 2002A Q31)",
+      options: ["Obedience", "Respect", "Courage", "Hardwork"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Hard work contributes to achievement, self-reliance and a prosperous life."),
+
+  QuizQuestion(
+      question:
+          "8. There is dignity in labour. This statement means\n(BECE 2006 Q25)",
+      options: [
+        "Only office work brings recognition",
+        "Some jobs are more dignified than others",
+        "We should work among all classes of people",
+        "We need to be proud of our work"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dignity in labour means that honest work deserves respect and people should take pride in their work."),
+
+  QuizQuestion(
+      question:
+          "9. The expression work and happiness implies one\n(BECE 2006 Q28)",
+      options: [
+        "Likes working always",
+        "Dances whilst working",
+        "Works whilst playing",
+        "Enjoys the fruit of his labour"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Work brings happiness when a person enjoys the benefits or fruits of his or her labour."),
+
+  QuizQuestion(
+      question:
+          "10. One of the benefits of working hard is\n(BECE 2001 Q40)",
+      options: [
+        "Putting up good house",
+        "Having leisure",
+        "Becoming financially self-reliant",
+        "Be popular and respectful"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hard work can enable a person to earn income and become financially self-reliant."),
+
+  QuizQuestion(
+      question:
+          "11. A happy and prosperous life depends on\n(BECE 2011 Q39)",
+      options: ["Obedience", "Hard work", "Respect", "Courage"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work is an important requirement for achieving a prosperous life."),
+
+  QuizQuestion(
+      question:
+          "12. Leisure time is used for\n(BECE 2004 Q28)",
+      options: [
+        "Playing games",
+        "Congregational worship",
+        "Doing house chores",
+        "Weeding the house"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Playing games is a recreational activity that can be undertaken during leisure time."),
+
+  QuizQuestion(
+      question:
+          "13. People normally save money in order to\n(BECE 1999 Q22)",
+      options: [
+        "Use their income wisely",
+        "Help the government to generate more revenue",
+        "Be generous to people",
+        "Prepare for the future"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Saving money provides resources for future needs and emergencies."),
+
+  QuizQuestion(
+      question:
+          "14. Good working habits include all the following except\n(BECE 2007 Q21)",
+      options: ["Honesty", "Reliability", "Commitment", "Faith"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Honesty, reliability and commitment are direct positive working habits, while faith is not specifically a working habit."),
+
+  QuizQuestion(
+      question:
+          "15. The term idleness in Religious and Moral Education means\n(BECE 2005 Q31)",
+      options: ["Having fun", "Enjoying siesta", "Wasting time", "Playing games"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Idleness involves wasting time instead of engaging in useful activities."),
+
+  QuizQuestion(
+      question:
+          "16. As pupils, we should use our leisure time to\n(BECE 2002A Q23)",
+      options: [
+        "Play games",
+        "Do our homework",
+        "Do household chores",
+        "Go to church"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Leisure time can appropriately be used for recreational activities such as playing games."),
+
+  QuizQuestion(
+      question:
+          "17. It is a bad habit to use one's leisure time in\n(BECE 2011 Q29)",
+      options: [
+        "Playing games",
+        "Telling stories",
+        "Reading story books",
+        "Gossiping about friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping about others is an improper use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following is the best way of handling money?\n(BECE 2002A Q39)",
+      options: [
+        "Keeping it under the breast",
+        "Tying it in a handkerchief",
+        "Crumpling it into a savings box",
+        "Folding it neatly into the pocket"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Money should be handled carefully and kept neatly rather than crumpled or stored unhygienically."),
+
+  QuizQuestion(
+      question:
+          "19. The best way to enjoy peace and success in life is to\n(BECE 2008 Q23)",
+      options: [
+        "Accumulate wealth",
+        "Fight for one's right always",
+        "Be very strict on others",
+        "Develop the spirit of responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Being responsible promotes good relationships, peace and success."),
+
+  QuizQuestion(
+      question:
+          "20. The importance of work is to help us to\n(BECE 2003 Q38)",
+      options: [
+        "Be honest in our daily activities",
+        "Plan our duties at all time",
+        "Be reliable in the society",
+        "Keep healthy and active minds"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Productive work keeps the body and mind active and contributes to well-being."),
+
+  QuizQuestion(
+      question:
+          "21. Which of the following is not true about money? It is\n(BECE 2008 Q27)",
+      options: [
+        "Owned by the state",
+        "The accepted means of exchange",
+        "The official currency of a country",
+        "The exchange goods for goods"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Exchanging goods directly for other goods is barter, not money."),
+
+  QuizQuestion(
+      question:
+          "22. The expression, work and happiness means\n(BECE 2002A Q24)",
+      options: [
+        "When one works, one becomes happy",
+        "Enjoying the fruits of one's labour",
+        "Singing whilst working",
+        "Always working"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Work and happiness refers to enjoying the benefits that result from one's labour."),
+
+  QuizQuestion(
+      question:
+          "23. The saying time is money, means\n(BECE 2012 Q31)",
+      options: [
+        "Time fetches money",
+        "More time spent on work, brings profit",
+        "Money is not gain without spending time",
+        "Good use of time brings profit"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Using time productively can produce useful and profitable results."),
+
+  QuizQuestion(
+      question:
+          "24. Leisure time is described as a time for\n(BECE 2001 Q30)",
+      options: [
+        "Scrubbing the toilet and the kitchen",
+        "Going to church to worship god",
+        "Attending school and doing homework",
+        "Playing indoor and outdoor games"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Leisure is free time that can be used for recreation such as indoor and outdoor games."),
+
+  QuizQuestion(
+      question:
+          "25. Work help us to become\n(BECE 2004 Q24)",
+      options: ["Reliable", "Sincere", "Healthy", "Courteous"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Work helps keep people physically and mentally active and healthy."),
+
+  QuizQuestion(
+      question:
+          "26. Humankind can learn a lot about the use of time from the\n(BECE 2006 Q37)",
+      options: ["Hare", "Ant", "Tortoise", "Bee"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The ant is commonly associated with diligence, preparation and productive use of time."),
+
+  QuizQuestion(
+      question:
+          "27. The most important requirement for a happy and prosperous life is\n(BECE 2007 Q24)",
+      options: ["Loyalty", "Respect", "Courage", "Hard work"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Hard work contributes significantly to achievement and prosperity."),
+
+  QuizQuestion(
+      question:
+          "28. In which way can money help spread germs?\n(BECE 2005 Q34)",
+      options: [
+        "Keeping it in a purse for a long period",
+        "Handling it with hands",
+        "Crumpling it in one's pockets",
+        "Keeping it in one's brassiere"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Keeping money close to the body in unhygienic places can contribute to contamination and the spread of germs."),
+
+  QuizQuestion(
+      question:
+          "29. Humankind work in order to\n(BECE 2012 Q39)",
+      options: [
+        "Go to heaven",
+        "Beloved by everyone",
+        "Win souls for Christ",
+        "Cater for one's basic needs"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "One important purpose of work is to earn resources needed to meet basic needs."),
+
+  QuizQuestion(
+      question:
+          "30. Workers go on strike to\n(BECE 2013 Q21)",
+      options: [
+        "Have some rest",
+        "Demand better conditions of service",
+        "Destroy company property",
+        "Attend political rallies"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Workers may strike to press for improved wages or other conditions of service."),
+
+  QuizQuestion(
+      question:
+          "31. Which of the following is not a positive attribute to work?\n(BECE 2013 Q26)",
+      options: ["Hard working", "Lateness", "Punctuality", "Truthfulness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Lateness is a negative work habit, unlike hard work, punctuality and truthfulness."),
+
+  QuizQuestion(
+      question:
+          "32. A wrong way to use one's leisure is\n(BECE 2013 Q33)",
+      options: ["Reading story books", "Gossiping", "Playing games", "Telling stories"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping is an inappropriate and potentially harmful use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "33. A positive attitude towards work is\n(BECE 2014 Q31)",
+      options: ["Commitment", "Graciousness", "Intelligence", "Purity"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Commitment is a positive attitude that encourages dedication to one's work."),
+
+  QuizQuestion(
+      question:
+          "34. The most important requirement for a happy and prosperous life is\n(BECE 2014 Q5)",
+      options: ["Courage", "Hard work", "Loyalty", "Respect"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work is an important factor in achieving a happy and prosperous life."),
+
+  QuizQuestion(
+      question:
+          "35. In planning personal budget, it is necessary to ensure that\n(BECE 2014 Q36)",
+      options: [
+        "Expenditure is more than income",
+        "Income is more than expenditure",
+        "Expenditure equals income",
+        "Income is less than expenditure"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Keeping income above expenditure allows a person to save and avoid unnecessary financial difficulties."),
+
+  QuizQuestion(
+      question:
+          "36. Leisure is best used to\n(BECE 2014 Q38)",
+      options: [
+        "Perform house chores",
+        "Attend church service",
+        "Acquire new skills",
+        "Attend extra classes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Leisure can be used productively to learn and acquire useful new skills."),
+
+  QuizQuestion(
+      question:
+          "37. Which of the following animals provides security to man?\n(BECE 2015 Q6)",
+      options: ["Goat", "Donkey", "Dog", "Cow"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dogs are commonly used to guard homes and provide security."),
+
+  QuizQuestion(
+      question:
+          "38. Money is used wisely when\n(BECE 2015 Q32)",
+      options: [
+        "Things are bought on credit",
+        "It is spent on expensive things",
+        "It is spent on things budgeted for",
+        "It is spent on poor people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Following a budget helps ensure that money is spent according to planned needs."),
+
+  QuizQuestion(
+      question:
+          "39. Saving money helps the individual to\n(BECE 2015 Q35)",
+      options: [
+        "Plan for the future",
+        "Become rich overnight",
+        "Attend school regularly",
+        "Make more friends"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Savings provide financial resources for future needs and plans."),
+
+  QuizQuestion(
+      question:
+          "40. Which of the following activities best offer relaxation?\n(BECE 2015 Q38)",
+      options: ["Painting", "Eating", "Running", "Reading"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Reading can be a relaxing leisure activity that helps reduce stress and boredom."),
+
+  QuizQuestion(
+      question:
+          "41. Work done to earn income can be described as\n(BECE 2015 Q40)",
+      options: ["Home work", "Community work", "Occupational work", "School work"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Occupational work refers to work or employment undertaken to earn income."),
+
+  QuizQuestion(
+      question:
+          "42. Laziness always leads to\n(BECE 2016 Q33)",
+      options: ["Misunderstanding", "Misuse of wealth", "Sickness", "Waste of time"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Laziness prevents productive activity and therefore leads to wasted time."),
+
+  QuizQuestion(
+      question:
+          "43. Idleness means\n(BECE 2016 Q34)",
+      options: ["Enjoying siesta", "Doing nothing", "Having fun", "Playing games"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Idleness means remaining inactive or doing nothing productive."),
+
+  QuizQuestion(
+      question:
+          "44. Which of the following behavior is not a positive attitude to work?\n(BECE 2016 Q35)",
+      options: ["Hark work", "Lateness", "Punctuality", "Truthfulness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Lateness is a negative attitude to work because it shows poor time management and lack of punctuality."),
+
+  QuizQuestion(
+      question:
+          "45. Workers go on strike to\n(BECE 2016 Q36)",
+      options: [
+        "Attend political rallies",
+        "Demand better conditions of service",
+        "Destroy company property",
+        "Have some rest"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A strike may be used by workers to demand improvements in their conditions of service."),
+
+  QuizQuestion(
+      question:
+          "46. The best way of handling money is by\n(BECE 2016 Q38)",
+      options: [
+        "Writing scripture words on it",
+        "Crumpling it into our pockets",
+        "Holding it with wet hands",
+        "Holding it with clean hands"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Handling money with clean hands helps keep it clean and in good condition."),
+
+  QuizQuestion(
+      question:
+          "47. The saying, time is money means\n(BECE 2016 Q40)",
+      options: [
+        "Luck comes with time",
+        "Money can be made with time",
+        "Opportunities lost cannot be recovered",
+        "Wealth can be acquired with patience"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The saying emphasizes the value of time because opportunities lost through wasted time may not return."),
+
+  QuizQuestion(
+      question:
+          "48. To earn a living, one needs to be\n(BECE 2017 Q32)",
+      options: ["Healthy", "Hard working", "Prayerful", "Responsible"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work enables a person to engage productively in activities that generate income."),
+
+  QuizQuestion(
+      question:
+          "49. Which of the following best offers relaxation?\n(BECE 2017 Q35)",
+      options: ["Eating", "Painting", "Running", "Reading"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Reading can provide relaxation and help reduce stress during leisure time."),
+
+  QuizQuestion(
+      question:
+          "50. Saving money helps the individual to\n(BECE 2017 Q36)",
+      options: [
+        "Become rich overnight",
+        "Attend school regularly",
+        "Make more friends",
+        "Plan for the future"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Saving provides money that can be used for future plans, needs and emergencies."),
+
+  QuizQuestion(
+      question:
+          "51. The most important requirement for a happy and responsible life is\n(BECE 2017 Q37)",
+      options: ["Courage", "Hard work", "Loyalty", "Respect"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work promotes responsibility, achievement and self-reliance."),
+
+  QuizQuestion(
+      question:
+          "52. A positive attitude towards work is\n(BECE 2017 Q38)",
+      options: ["Commitment", "Graciousness", "Intelligence", "Purity"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Commitment means being dedicated and responsible toward one's work."),
+
+  QuizQuestion(
+      question:
+          "53. In planning personal budget, it is necessary to ensure that\n(BECE 2017 Q39)",
+      options: [
+        "Expenditure is equal to income",
+        "Expenditure is more than income",
+        "Income is less than expenditure",
+        "Income is more than expenditure"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A sound personal budget should keep expenditure below income so that some money can be saved."),
+
+  QuizQuestion(
+      question:
+          "54. Which of the following factors is a benefit of hard work?\n(BECE 2018 Q34)",
+      options: [
+        "Becoming financially sound",
+        "Becoming popular in town",
+        "Building the body size",
+        "Having time for leisure"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hard work can improve a person's financial position and promote self-reliance."),
+
+  QuizQuestion(
+      question:
+          "55. Work done to earn income can be described as\n(BECE 2018 Q36)",
+      options: [
+        "Community work",
+        "Home work",
+        "Occupational activity",
+        "School work"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Occupational activity is work performed as an occupation to earn income."),
+
+  QuizQuestion(
+      question:
+          "56. Lazy people get old very fast. This implies that hard work brings about\n(BECE 2019 Q25)",
+      options: ["Comfort", "Development", "Good health", "Great wealth"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Productive physical and mental activity can contribute to good health and an active life."),
+
+  QuizQuestion(
+      question:
+          "57. To succeed in academic work, the individual needs to engage in serious\n(BECE 2019 Q37)",
+      options: ["Farming", "Learning", "Prayers", "Discussions"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Serious learning and study are necessary for academic success."),
+
+  QuizQuestion(
+      question:
+          "58. Visits to tourist centres help students to\n(BECE 2019 Q39)",
+      options: [
+        "Become more adventurous",
+        "Make more friends",
+        "Overcome stress and boredom",
+        "Pass their examinations"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Recreational visits can provide relaxation and help reduce stress and boredom."),
+
+  QuizQuestion(
+      question:
+          "59. To work means using\n(BECE 2020 Q37)",
+      options: [
+        "Mental and moral power",
+        "Mental and physical power",
+        "Physical and moral effort",
+        "Spiritual and will power"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Work generally involves the use of mental or physical effort to accomplish a task."),
+
+  QuizQuestion(
+      question:
+          "60. Money offers comfort in life because it\n(BECE 2020 Q38)",
+      options: [
+        "Helps to make people popular",
+        "Makes people become honest",
+        "Helps in acquiring basic needs",
+        "Promotes fear of God in people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Money enables people to obtain basic needs such as food, clothing and shelter."),
+
+  QuizQuestion(
+      question:
+          "61. The time wasted cannot be recovered. This saying means\n(BECE 2020 Q39)",
+      options: [
+        "Time cannot be recalled",
+        "Time is very precious",
+        "Opportunity missed is lost",
+        "Punctuality leads to success"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Time that is wasted may result in opportunities being permanently lost."),
+
+  QuizQuestion(
+      question:
+          "62. To relax and recover lost energy, one needs to\n(BECE 2021 Q2)",
+      options: [
+        "Check his or her pressure",
+        "Eat a well-balanced diet",
+        "Engage in healthy exercise",
+        "Have enough leisure"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Adequate leisure provides time for rest, relaxation and recovery of energy."),
+
+  QuizQuestion(
+      question:
+          "63. To achieve success in examination, one has to engage in\n(BECE 2021 Q11)",
+      options: ["Fasting", "Hard work", "Prayers", "Smartness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work through regular study and preparation is necessary for examination success."),
+
+  QuizQuestion(
+      question:
+          "64. Proper use of leisure helps the individual to\n(BECE 2021 Q15)",
+      options: ["Do god's work", "Earn money", "Remove boredom", "Work hard"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Healthy leisure activities provide recreation and help remove boredom."),
+
+  QuizQuestion(
+      question:
+          "65. The saying that money flies implies money\n(BECE 2021 Q22)",
+      options: [
+        "Can be spent easily",
+        "Can take you anywhere",
+        "Is controlled by the evil",
+        "Should be used wisely"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The saying suggests that money can disappear quickly through spending."),
+
+  QuizQuestion(
+      question:
+          "66. Money must be carefully handled because it\n(BECE 2021 Q38)",
+      options: [
+        "Can buy expensive things",
+        "Can easily get missing",
+        "Can make a person happy",
+        "Is expensive to print"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Money can easily be lost if it is not handled and stored carefully."),
+
+  QuizQuestion(
+      question:
+          "67. Immoral life style must be avoided because they may lead to the following situations except\n(BECE 2023 Q5)",
+      options: [
+        "Poverty",
+        "Dropping out of school",
+        "Premature parenting",
+        "High self-esteem"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "High self-esteem is a positive condition and is not a harmful consequence of an immoral lifestyle."),
+
+  QuizQuestion(
+      question:
+          "68. Idleness can be associated with\n(BECE 2023 Q15)",
+      options: ["Procrastination", "Laziness", "Mismanagement", "Leisure"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Idleness is closely associated with laziness and lack of productive activity."),
+    ],
+  ),
+
+  "Religious & Moral Education JHS3 s1 ss1 - God, His Creation and Attributes": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. What day, according to Christian teaching, did God create man and woman on?\n(BECE 2000 Q1)",
+options: ["1st day", "2nd day", "3rd day", "6th day"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"According to Christian teaching, God created man and woman on the sixth day."),
+
+  QuizQuestion(
+      question:
+          "2. God gave Noah and his people the rainbow to remember\n(BECE 1999 Q3)",
+      options: [
+        "The floods which destroy the world",
+        "The disobedience of the idol worshippers",
+        "That God would not destroy the world with water again",
+        "The building of the ark"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The rainbow was a sign of God's covenant that He would not destroy the world with a flood again."),
+
+  QuizQuestion(
+      question:
+          "3. Bringing forth children shows that man is\n(BECE 1999 Q12)",
+      options: [
+        "Sharing in God's creation",
+        "Taking God's position",
+        "Trying to be like God",
+        "Feeling self-sufficient"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Procreation allows human beings to share in God's work of creation."),
+
+  QuizQuestion(
+      question:
+          "4. Christians, Muslims and Traditional worshippers believe that the world was created by\n(BECE 1999 Q7)",
+      options: ["A man", "An angel", "The holy spirit", "God"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christians, Muslims and Traditional worshippers believe that God created the world."),
+
+  QuizQuestion(
+      question:
+          "5. Which of the following attributes of God shows that He has the whole world in His hands?\n(BECE 2000 Q1)",
+      options: [
+        "Omnipotence",
+        "Omnipresence",
+        "Faithfulness",
+        "Kindness"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence means that God is all-powerful and has authority over all creation."),
+
+  QuizQuestion(
+      question:
+          "6. Satan (Iblis) was cursed by Allah after the creation of man because he\n(BECE 2000 Q5)",
+      options: [
+        "Was made from fire",
+        "Was the leader of the angels",
+        "Refused to bow down before Adam",
+        "Influenced Adam and Hawa to fall"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Iblis was cursed because he refused Allah's command to bow before Adam."),
+
+  QuizQuestion(
+      question:
+          "7. The revelation of the whole Qur'an took\n(BECE 2000 Q7)",
+      options: ["23 years", "24 years", "25 years", "26 years"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Holy Qur'an was revealed to Prophet Muhammad over a period of about 23 years."),
+
+  QuizQuestion(
+      question:
+          "8. One way of helping to protect the environment from degradation is to\n(BECE 2000 Q12)",
+      options: [
+        "Rear more animals",
+        "Encourage small-scale mining",
+        "Cover the earth's surface with sand",
+        "Plant more trees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Planting more trees helps protect the environment and restore vegetation."),
+
+  QuizQuestion(
+      question:
+          "9. The first ark was built to save God's people from the flood. This ark was built by\n(BECE 2000 Q30)",
+      options: ["David", "Abraham", "Noah", "Solomon"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Noah built the ark according to God's instructions to survive the flood."),
+
+  QuizQuestion(
+      question:
+          "10. God is Omnipresent. This means that God\n(BECE 2001 Q1)",
+      options: [
+        "Is all-powerful",
+        "Knows everything",
+        "Is everywhere",
+        "Is ever gracious"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Omnipresent means that God is present everywhere."),
+
+  QuizQuestion(
+      question:
+          "11. God blessed and made the Sabbath holy because it was the day\n(BECE 2001 Q8)",
+      options: [
+        "The Israelites fought their wars",
+        "For settling all disputes",
+        "Set aside for the Passover feast",
+        "That God rested from creation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "God blessed the Sabbath because He rested from His work of creation on that day."),
+
+  QuizQuestion(
+      question:
+          "12. On the fifth day of creation, God commanded\n(BECE 2001 Q9)",
+      options: [
+        "Lights to appear in the sky to separate day from night",
+        "Water and air to be filled with many kinds of living creatures",
+        "Water to come together in one place so that the land will appear",
+        "The water under the firmament to separate from that above the firmament"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "On the fifth day, God created creatures of the sea and birds of the air."),
+
+  QuizQuestion(
+      question:
+          "13. The Omnipresence of God means that He is\n(BECE 2002A Q1)",
+      options: [
+        "Everywhere",
+        "All knowing",
+        "Always alive",
+        "All powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omnipresence means that God is present everywhere."),
+
+  QuizQuestion(
+      question:
+          "14. Which of the following activities destroys our vegetation?\n(BECE 2002A Q33)",
+      options: [
+        "Cutting down trees without replacing another",
+        "Killing birds for games",
+        "Constructing drains everywhere",
+        "Cleansing the land for building projects"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Cutting down trees without replacing them causes deforestation and destroys vegetation."),
+
+  QuizQuestion(
+      question:
+          "15. By creating the world from one stage to another, God wanted humankind to do things in\n(BECE 2002A Q31)",
+      options: [
+        "A hurried way",
+        "An official way",
+        "A comfortable way",
+        "An orderly way"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The orderly stages of creation teach humankind to do things in an orderly manner."),
+
+  QuizQuestion(
+      question:
+          "16. The effect of Adam and Eve eating the forbidden fruit was that it\n(BECE 2002B Q4)",
+      options: [
+        "Killed man",
+        "Led man to sin",
+        "Brought enmity between them",
+        "Made man to till the land"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Adam and Eve's disobedience introduced sin into human life."),
+
+  QuizQuestion(
+      question:
+          "17. The curse of the snake by God relates to the\n(BECE 2002B Q31)",
+      options: [
+        "Beginning of enmity between the snake and humankind",
+        "Origin of separation between God and humankind",
+        "Establishment of better relationship between them and God",
+        "Curse of the snake by Adam"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The curse established enmity between the serpent and humankind."),
+
+  QuizQuestion(
+      question:
+          "18. God created the sky on the\n(BECE 2003 Q1)",
+      options: ["First day", "Second day", "Third day", "Fourth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, God created the sky on the second day."),
+
+  QuizQuestion(
+      question:
+          "19. According to the Holy Bible, God created the sun, moon and stars in order to\n(BECE 2004 Q1)",
+      options: [
+        "Give mankind the times and seasons",
+        "Bless mankind with light",
+        "Give mankind long life",
+        "Direct movements of people and animals"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The heavenly bodies help mark days, years, times and seasons."),
+
+  QuizQuestion(
+      question:
+          "20. In the book of Genesis, the world was created in\n(BECE 2004 Q1)",
+      options: ["3 days", "5 days", "6 days", "7 days"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, God completed His work of creation in six days and rested on the seventh."),
+
+  QuizQuestion(
+      question:
+          "21. The snake was an animal created by God. It was used to\n(BECE 2004 Q9)",
+      options: ["Give man meat", "Kill man", "Lead man to sin", "Tempt man"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "In the Biblical account, the serpent was used to tempt human beings."),
+
+  QuizQuestion(
+      question:
+          "22. The environment can be protected from degradation by\n(BECE 2004 Q19)",
+      options: [
+        "Rearing more animals",
+        "Continuous farming",
+        "Planting more trees",
+        "Extensive lumbering"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Planting trees helps restore vegetation and protects the environment from degradation."),
+
+  QuizQuestion(
+      question:
+          "23. God commanded the earth to produce plants on\n(BECE 2005 Q1)",
+      options: [
+        "The second day",
+        "The third day",
+        "The fourth day",
+        "The fifth day"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, plants were created on the third day."),
+
+  QuizQuestion(
+      question:
+          "24. In the creation story, God ordered Adam to\n(BECE 2005 Q2)",
+      options: [
+        "Subdue and till the earth",
+        "Take good care of Eve",
+        "Worship Him regularly",
+        "Eat all the fruit in the Garden"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Adam was given responsibility to work, care for and exercise stewardship over the earth."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following attributes of God is not manifested in the creation story?\n(BECE 2005 Q3)",
+      options: [
+        "All knowing",
+        "Ever forgiving",
+        "All powerful",
+        "Ever present"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "God's forgiveness is not directly demonstrated in the creation account."),
+
+  QuizQuestion(
+      question:
+          "26. According to the Holy Bible, what was created on the second day?\n(BECE 2006 Q19)",
+      options: ["Heavens or sky", "Smaller animals", "Plants and trees", "Land"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, the heavens or sky were created on the second day."),
+
+  QuizQuestion(
+      question:
+          "27. The Omniscience of God portrays Him as\n(BECE 2006 Q1)",
+      options: [
+        "All forgiving",
+        "Ever present",
+        "Very gracious",
+        "All knowing"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Omniscience means that God knows everything."),
+
+  QuizQuestion(
+      question:
+          "28. Creation according to the Bible was by means of\n(BECE 2006 Q2)",
+      options: ["Command", "Instruction", "Prayers", "Prophecy"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Biblical creation story describes God bringing creation into existence through His commands."),
+
+  QuizQuestion(
+      question:
+          "29. God revealed Himself in the Garden of Eden to\n(BECE 2006 Q23)",
+      options: ["Moses", "Abraham", "Eve", "Adam"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, God communicated with Adam in the Garden of Eden."),
+
+  QuizQuestion(
+      question:
+          "30. Which of the following attributes of God shows that He has the whole world in view?\n(BECE 2007 Q10)",
+      options: [
+        "Omnipotent",
+        "Creator",
+        "Omnipresent",
+        "Ever forgiving"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "God's omnipresence means that He is present everywhere and has the whole world in view."),
+
+  QuizQuestion(
+      question:
+          "31. According to the Bible, the first thing God created on the earth was\n(BECE 2007 Q16)",
+      options: ["Darkness", "Light", "Plants", "Land"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In Genesis, God's first recorded command in creation brought forth light."),
+
+  QuizQuestion(
+      question:
+          "32. Cain's violent action against Abel was due to\n(BECE 2008 Q1)",
+      options: ["Greed", "Jealousy", "Selfishness", "Misunderstanding"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Cain became jealous of Abel after God accepted Abel's offering."),
+
+  QuizQuestion(
+      question:
+          "33. The Akans called God Twereduampon because He is\n(BECE 2008 Q3)",
+      options: ["Everlasting", "Dependable", "Omnipotent", "Forgiving"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Twereduampon expresses the Akan belief that God is dependable and can be relied upon."),
+
+  QuizQuestion(
+      question:
+          "34. Man was the last creation of God because\n(BECE 2008 Q7)",
+      options: [
+        "God wanted him to be satisfied with all that He had created",
+        "God allowed the serpent to deceive him",
+        "God made a helper fit for him",
+        "God made man to govern all animal and vegetation"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Human beings were created after other things needed for their life had already been provided."),
+
+  QuizQuestion(
+      question:
+          "35. Muslims believe that God created the heavens and the earth in order to\n(BECE 2008 Q8)",
+      options: [
+        "Provide rain on the earth",
+        "Give us rivers and fish",
+        "Make a mighty ocean",
+        "Produce and fill the atmosphere"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The heavens and earth form part of Allah's provision for life, including the provision of rain."),
+
+  QuizQuestion(
+      question:
+          "36. God made man a steward of the earth to\n(BECE 2009 Q18)",
+      options: [
+        "Take care of the environment",
+        "Control all living things",
+        "Feed himself and others",
+        "Name all creatures"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Stewardship means that humans have a responsibility to care for God's creation and the environment."),
+
+  QuizQuestion(
+      question:
+          "37. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2011 Q1)",
+      options: [
+        "Omniscient",
+        "Omnipresent",
+        "Omnipotent",
+        "Sovereign"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Omniscience means that God knows everything, including people's secret deeds."),
+
+  QuizQuestion(
+      question:
+          "38. Adam described Eve as woman because she\n(BECE 2011 Q1)",
+      options: [
+        "Was the mother of all living",
+        "Came from his rib",
+        "Was formed from the sky",
+        "Was made from the dust of the earth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Adam called her woman because she was taken out of man."),
+
+  QuizQuestion(
+      question:
+          "39. One of the reasons why God created the sea is to\n(BECE 2015 Q1)",
+      options: [
+        "Generate hydro-electric power",
+        "Beautify the environment",
+        "Provide habitat for some animals",
+        "Reduce soil erosion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The sea provides a natural habitat for fish and many other aquatic animals."),
+
+  QuizQuestion(
+      question:
+          "40. One of the ways of protecting God's creation is by\n(BECE 2011 Q4)",
+      options: [
+        "Constructing buildings and roads",
+        "Polluting air and water bodies",
+        "Sustaining plant and animal growth",
+        "Engaging in sound farming practices"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Sound farming practices help conserve the environment and protect God's creation."),
+
+  QuizQuestion(
+      question:
+          "41. In Christianity, the sky, seas, animals and other living things came into being through\n(BECE 2011 Q15)",
+      options: [
+        "The laws of God",
+        "God's command",
+        "Natural orders",
+        "The lesser gods"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, creation came into being through God's command."),
+
+  QuizQuestion(
+      question:
+          "42. According to Akan belief, the order of creation is\n(BECE 2012 Q11)",
+      options: [
+        "Earth, rivers, plants and sky",
+        "Rivers, earth, sky and plants",
+        "Sky, earth, rivers and plants",
+        "Plants, rivers, sky and earth"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "According to the Akan creation tradition represented in the question, the order is sky, earth, rivers and plants."),
+
+  QuizQuestion(
+      question:
+          "43. One way by which humankind pollutes the air in a city is by\n(BECE 2012 Q1)",
+      options: [
+        "The use of insecticides",
+        "The use of detergents",
+        "Killing birds and animals",
+        "Smoke from the burning of vehicle fuel"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Smoke and exhaust produced when vehicle fuel burns contribute to air pollution."),
+
+  QuizQuestion(
+      question:
+          "44. The Omniscience of God portrays Him as\n(BECE 2012 Q20)",
+      options: [
+        "All knowing",
+        "Very gracious",
+        "All forgiving",
+        "Ever present"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Omniscience means being all-knowing."),
+
+  QuizQuestion(
+      question:
+          "45. The attributes of God refer to His\n(BECE 2013 Q6)",
+      options: [
+        "Names and titles",
+        "Wonderful creation",
+        "Order of creation",
+        "Relationship with people"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The attributes of God are qualities expressed through the names and titles used to describe Him."),
+
+  QuizQuestion(
+      question:
+          "46. God created the two great lights in the heavens in order to\n(BECE 2014 Q1)",
+      options: [
+        "Show His mercy",
+        "Separate night from day",
+        "Give life to the earth",
+        "Provide heat to the earth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The sun and moon were created to govern and distinguish day and night."),
+
+  QuizQuestion(
+      question:
+          "47. God created water bodies mainly to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Water and weather", "Air", "Plants", "Salt"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Water bodies provide water and also contribute to weather processes."),
+
+  QuizQuestion(
+      question:
+          "48. Creation according to the Bible was by means of\n(BECE 2014 Q20)",
+      options: ["Command", "Instruction", "Prayers", "Prophecy"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "According to the Bible, God created through His spoken command."),
+
+  QuizQuestion(
+      question:
+          "49. One of the reasons for which God created the sea is to\n(BECE 2015 Q15)",
+      options: [
+        "Generate hydro-electric power",
+        "Beautify the environment",
+        "Provide habitat for some animals",
+        "Reduce soil erosion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The sea serves as a habitat for fish and many other aquatic creatures."),
+
+  QuizQuestion(
+      question:
+          "50. God is called Nyame among the Akans because He is\n(BECE 2015 Q17)",
+      options: [
+        "A creator",
+        "Dependable",
+        "Ever living",
+        "The Supreme Being"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Nyame is an Akan name referring to God as the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "51. According to the Bible, heavenly bodies were created on the\n(BECE 2016 Q2)",
+      options: ["Third day", "Fourth day", "Fifth day", "Sixth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, the sun, moon and stars were created on the fourth day."),
+
+  QuizQuestion(
+      question:
+          "52. The Gye Nyame symbol of the Akan signifies that God is\n(BECE 2016 Q4)",
+      options: [
+        "All-loving",
+        "All-merciful",
+        "All-powerful",
+        "Very gracious"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Gye Nyame emphasizes the supremacy and power of God."),
+
+  QuizQuestion(
+      question:
+          "53. Traditional worshippers believe that the world was created by\n(BECE 2018 Q1)",
+      options: [
+        "An ancestor",
+        "A lesser god",
+        "A Supreme Being",
+        "An angel"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Traditional African Religion teaches that the Supreme Being is the creator of the world."),
+
+  QuizQuestion(
+      question:
+          "54. The power of God is seen in His\n(BECE 2017 Q4)",
+      options: [
+        "Omniscience",
+        "Omnipotence",
+        "Omnipresence",
+        "Omnivorousness"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence refers to God's unlimited power."),
+
+  QuizQuestion(
+      question:
+          "55. According to the Bible, God commanded the earth to produce plants on the\n(BECE 2018 Q1)",
+      options: ["First day", "Third day", "Fifth day", "Sixth day"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, plants and vegetation appeared on the third day."),
+
+  QuizQuestion(
+      question:
+          "56. Which of the following is not a reason for which we must care for God's creation?\n(BECE 2018 Q3)",
+      options: [
+        "It makes us righteous people",
+        "To preserve it for future generations",
+        "To show respect for God's nature",
+        "We are stewards of God's creation"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Caring for creation is associated with stewardship, respect for God and preservation for future generations, rather than automatically making a person righteous."),
+
+  QuizQuestion(
+      question:
+          "57. Plants were created by God mainly to\n(BECE 2019 Q1)",
+      options: [
+        "Provide oxygen to man",
+        "Blow fresh air into our rooms",
+        "Provide decoration for homes",
+        "Serve as a means of transportation"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Plants produce oxygen, which humans and other living organisms need for respiration."),
+
+  QuizQuestion(
+      question:
+          "58. Muslims describe Allah as al-Raheem because He is\n(BECE 2019 Q3)",
+      options: ["Just", "Merciful", "All-knowing", "The restorer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Al-Raheem is an Islamic name of Allah referring to His mercy."),
+
+  QuizQuestion(
+      question:
+          "59. The attribute Alpha and Omega reveals that God is\n(BECE 2019 Q4)",
+      options: [
+        "Everywhere at all times",
+        "Gracious and merciful",
+        "Holy and immortal",
+        "The beginning and the end"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Alpha and Omega means that God is the beginning and the end."),
+
+  QuizQuestion(
+      question:
+          "60. Abraham built an altar for the Lord at the Oak of Moreh because\n(BECE 2019 Q5)",
+      options: [
+        "God asked him to do so",
+        "God had appeared to him there",
+        "He wanted to worship God there",
+        "It was a Canaanite worship centre"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abraham built an altar at the place because the Lord had appeared to him there."),
+
+  QuizQuestion(
+      question:
+          "61. In the Islamic creation story, God's revelation is found in the\n(BECE 2020 Q1)",
+      options: ["Tawrat", "Hadith", "Holy Qur'an", "Injil"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Islamic account of creation is contained in the Holy Qur'an."),
+
+  QuizQuestion(
+      question:
+          "62. God created plants to give mankind\n(BECE 2020 Q2)",
+      options: [
+        "Air and weather",
+        "Medicine and seasons",
+        "Shelter and beauty",
+        "Water and weather"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Plants provide materials for shelter and also contribute to the beauty of the environment."),
+
+  QuizQuestion(
+      question:
+          "63. Which of the following materials is not provided by plants for man's comfort?\n(BECE 2020 Q3)",
+      options: ["Food", "Fuel", "Medicine", "Salt"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Plants provide food, fuel and many medicines, while salt is primarily obtained from mineral or water sources."),
+
+  QuizQuestion(
+      question:
+          "64. According to the Bible, God created woman to\n(BECE 2020 Q4)",
+      options: [
+        "Control the family",
+        "Feed all mankind",
+        "Keep the environment clean",
+        "Be a companion to man"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to Genesis, woman was created as a suitable companion and helper for man."),
+
+  QuizQuestion(
+      question:
+          "65. According to a myth on creation, Allah could not create more human beings at a certain point because\n(BECE 2021 Q17)",
+      options: [
+        "He was very tired",
+        "Man was disobedient",
+        "Clay had become scarce",
+        "People were too many on the earth"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "According to the creation myth referred to in the question, creation stopped because the creator became very tired."),
+
+  QuizQuestion(
+      question:
+          "66. Which of these portrays God as the Alpha and Omega, providing security and protection for man?\n(BECE 2021 Q14)",
+      options: ["God", "Ark", "Rock", "Fortress"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A fortress symbolizes security and protection."),
+
+  QuizQuestion(
+      question:
+          "67. Human beings are considered the most important creation in the Bible because they were\n(BECE 2022 Q1)",
+      options: [
+        "Created in the image of God",
+        "The last to be created",
+        "Given dominion over the sea",
+        "Formed from dust"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Bible teaches that human beings were uniquely created in the image and likeness of God."),
+
+  QuizQuestion(
+      question:
+          "68. Drought can easily be caused when there is\n(BECE 2022 Q2)",
+      options: [
+        "Surface mining",
+        "Sand winning",
+        "Deforestation",
+        "Quarrying"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Deforestation reduces vegetation and can disrupt rainfall and the water cycle, contributing to drought."),
+
+  QuizQuestion(
+      question:
+          "69. \"When the last tree dies, the last man dies.\" This statement refers to the need to\n(BECE 2022 Q3)",
+      options: [
+        "Encourage forest vegetation",
+        "Irrigate farmland",
+        "Manage the environment well",
+        "Stop making furniture out of wood"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The statement emphasizes that human survival depends on proper management and protection of the environment."),
+
+  QuizQuestion(
+      question:
+          "70. As a result of God's ability to do all things, He is referred to as\n(BECE 2022 Q4)",
+      options: [
+        "Omnipresent",
+        "Omnipotent",
+        "Omniscient",
+        "Omnivorous"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotent means all-powerful or having unlimited power."),
+
+  QuizQuestion(
+      question:
+          "71. Washing dirty clothes in streams causes\n(BECE 2022 Q5)",
+      options: [
+        "Water pollution",
+        "Water shortage",
+        "Survival of fishes",
+        "Death of water gods"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Dirt, soap and detergents introduced into streams contaminate the water and cause water pollution."),
+
+  QuizQuestion(
+      question:
+          "72. Traditional worshippers believe that the world was created by\n(BECE 2023 Q28)",
+      options: [
+        "Lesser gods",
+        "Ancestors",
+        "A Supreme Being",
+        "Angels"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Traditional African Religion teaches that the Supreme Being created the world."),
+
+  QuizQuestion(
+      question:
+          "73. Which of the following is not a basic need for man's survival?\n(BECE 2023 Q34)",
+      options: ["Air", "Water", "Food", "Medicine"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Air, water and food are basic requirements for survival, while medicine is important but is not classified as a basic survival need."),
+
+  QuizQuestion(
+      question:
+          "74. In Islam, the Omnipotence of Allah describes His\n(BECE 2023 Q37)",
+      options: ["Justice", "Power", "Wisdom", "Patience"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Omnipotence refers to Allah's unlimited power."),
+
+  QuizQuestion(
+      question:
+          "75. The belief that God sees the secret deeds of all and punishes those who do evil implies that He is\n(BECE 2017 Q4)",
+      options: [
+        "Omnipotent",
+        "Omnipresent",
+        "Omniscient",
+        "Sovereign"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Omniscience means that God knows everything, including people's secret actions."),
+
+  QuizQuestion(
+      question:
+          "76. God created water bodies to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Salt", "Plants", "Air", "Water"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Water bodies are an important source of water for human beings and other living things."),
+
+  QuizQuestion(
+      question:
+          "77. According to Christian teaching, God created man and woman on the\n(BECE 2011 Q4)",
+      options: ["First day", "Second day", "Fifth day", "Sixth day"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "According to the Biblical creation account, human beings were created on the sixth day."),
+
+  QuizQuestion(
+      question:
+          "78. One reason why God created the sea is to provide humankind with\n(BECE 2014 Q1)",
+      options: ["Salt", "Plants", "Air", "Water bodies"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The sea is an important natural source of salt for human use."),
+    ],
+  ),
+  "Religious & Moral Education JHS3 s2 ss1 - Religious Festivals & Rites of Passage": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. Festivals are celebrated every year in order to\n(BECE 1999 Q9)",
+options: [
+"Make the people happy",
+"Thank the gods for a successful year",
+"Adore a new year",
+"Punish the wrong doers in the community"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Traditional festivals are often celebrated to thank the gods for their protection and blessings during the year."),
+  QuizQuestion(
+      question:
+          "2. The Asafo Company is associated with the festival of\n(BECE 2001 Q5)",
+      options: ["Homowo", "Aboakyer", "Odwira", "Akwambo"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Asafo companies play an important role in the celebration of the Aboakyer festival of the Effutu people."),
+
+  QuizQuestion(
+      question:
+          "3. Id-ul-Fitr in Islam is the feast of\n(BECE 2002A Q9)",
+      options: [
+        "Sacrifice",
+        "Ending the Ramadan fast",
+        "Pilgrimage",
+        "The Prophet's birthday"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Fitr is celebrated by Muslims to mark the end of the Ramadan fasting period."),
+
+  QuizQuestion(
+      question:
+          "4. The Muslims festival of sacrifice is\n(BECE 2001 Q5)",
+      options: [
+        "Eid-ul-Fitr",
+        "Milad-un-Nabi",
+        "Ramadan",
+        "Eid-ul-Adhar"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Adha is the Islamic festival of sacrifice."),
+
+  QuizQuestion(
+      question:
+          "5. The main reason for the celebration of Odwira festival by the Akwapim is\n(BECE 2005 Q39)",
+      options: ["Adae", "Aboakyer", "Homowo", "Damba"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The source appears to contain mismatched options for this question, since the listed choices are names of other festivals rather than reasons for celebrating Odwira."),
+
+  QuizQuestion(
+      question:
+          "6. The festival celebrated by Christians in memory of the resurrection of Jesus is called\n(BECE 2000 Q13)",
+      options: ["Christmas", "Easter", "Pentecost", "Passover"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christians celebrate Easter in remembrance of the resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "7. One of the religious values in celebrating traditional festivals is to\n(BECE 2000 Q8)",
+      options: [
+        "Acknowledge the presence of the gods",
+        "Bring the citizens together",
+        "Raise funds to develop the community",
+        "Contract marriages"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Traditional festivals have religious value because they acknowledge the gods and ancestors."),
+
+  QuizQuestion(
+      question:
+          "8. The powerful god Penkyi Otu is associated with the\n(BECE 2004 Q10)",
+      options: [
+        "Kundum festival",
+        "Aboakyer festival",
+        "Fetu festival",
+        "Akwambo festival"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Penkyi Otu is associated with the Aboakyer festival celebrated by the Effutu people of Winneba."),
+
+  QuizQuestion(
+      question:
+          "9. Eid-Ul-Fitr Celebration teaches Muslims to\n(BECE 1999 Q18)",
+      options: [
+        "Submit to Allah",
+        "Give alms",
+        "Sacrifice themselves to God",
+        "Appreciate God's mercy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Eid-ul-Fitr encourages Muslims to appreciate Allah's mercy and blessings after completing the Ramadan fast."),
+
+  QuizQuestion(
+      question:
+          "10. Which of the following festivals helps to develop the strength and vitality of the Youth?\n(BECE 2001 Q17)",
+      options: ["Hogbetsotso", "Odwira", "Damba", "Aboakyer"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Aboakyer festival involves activities such as hunting that test the strength, courage and vitality of the youth."),
+
+  QuizQuestion(
+      question:
+          "11. One of the best advantages of celebrating festival is to\n(BECE 2001 Q18)",
+      options: [
+        "Come together to fight one's enemies",
+        "Help organise funerals well",
+        "Train youth in defending the community",
+        "Continue with the tradition"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Celebrating festivals helps preserve and continue the traditions and cultural heritage of a community."),
+
+  QuizQuestion(
+      question:
+          "12. The main reason for the celebration of festivals is to\n(BECE 2003 Q16)",
+      options: [
+        "Entertain people",
+        "Install a new chief",
+        "Thank the gods for a successful year",
+        "Bring the wrong doers in the community to book"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Many traditional festivals are celebrated to give thanks to the gods for a successful year."),
+
+  QuizQuestion(
+      question:
+          "13. The most important activity during the Odwira festival by the Akwapim is\n(BECE 2004 Q10)",
+      options: [
+        "Merry making and dancing",
+        "Purification and cleansing",
+        "Feasting and meditation",
+        "Family meetings and dancing"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Odwira is primarily a purification festival involving the cleansing of the people and the traditional state."),
+
+  QuizQuestion(
+      question:
+          "14. The main purpose of the Odwira festival is to\n(BECE 2006 Q11)",
+      options: [
+        "Remember the dead",
+        "Purify the state",
+        "Strengthen the unity of the people",
+        "Pay homage to the chief"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Odwira is principally celebrated to purify and cleanse the traditional state."),
+
+  QuizQuestion(
+      question:
+          "15. Which of the following is a harvest festival?\n(BECE 2005 Q5)",
+      options: ["Adae", "Odwira", "Homowo", "Aboakyer"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Homowo is a harvest festival celebrated by the Ga people."),
+
+  QuizQuestion(
+      question:
+          "16. Which of the following celebrations signifies the salvation of all Christians?\n(BECE 2012 Q18)",
+      options: ["Easter", "Christmas", "Pentecost", "Passover"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Easter commemorates the death and resurrection of Jesus Christ, which Christians associate with salvation."),
+
+  QuizQuestion(
+      question:
+          "17. The Aboakyer festival is celebrated by the\n(BECE 2012 Q18)",
+      options: ["Anlo", "Akan", "Ga", "Efutu"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Aboakyer festival is celebrated by the Effutu people of Winneba."),
+
+  QuizQuestion(
+      question:
+          "18. The last festival celebrated by the Israelites before they left Egypt was the\n(BECE 2013 Q3)",
+      options: [
+        "Booths",
+        "Passover",
+        "Feast of Tabernacles",
+        "Feast of weeks"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites celebrated the Passover immediately before their departure from Egypt."),
+
+  QuizQuestion(
+      question:
+          "19. The most important Christian festival is\n(BECE 2013 Q20)",
+      options: ["Ascension", "Easter", "Lent", "Pentecost"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Easter is regarded as the most important Christian festival because it celebrates the resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "20. The main reason for the celebration of Kundum festival is for community\n(BECE 2014 Q3)",
+      options: [
+        "Development",
+        "Preservation",
+        "Purification",
+        "Re-organization"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Kundum includes the purification and cleansing of the community."),
+
+  QuizQuestion(
+      question:
+          "21. Eid-ul-Adha is celebrated by Muslims to\n(BECE 2015 Q5)",
+      options: [
+        "Mark Abraham's sacrifice to Allah",
+        "Remember the death of Mohammed",
+        "Mark the end of Ramadan",
+        "Remember the birth of Mohammed"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Eid-ul-Adha commemorates Prophet Ibrahim's willingness to sacrifice his son in obedience to Allah."),
+
+  QuizQuestion(
+      question:
+          "22. Which of the following is a harvest festival?\n(BECE 2015 Q19)",
+      options: ["Aboakyer", "Adae", "Homowo", "Hogbetsotso"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Homowo is a harvest festival celebrated by the Ga people."),
+
+  QuizQuestion(
+      question:
+          "23. The festival celebrated by the people of Winneba is\n(BECE 2016 Q10)",
+      options: ["Aboakyer", "Damba", "Homowo", "Gonja"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Effutu people of Winneba celebrate the Aboakyer festival."),
+
+  QuizQuestion(
+      question:
+          "24. The day Jesus rose from the dead is celebrated by Christians as\n(BECE 2017 Q9)",
+      options: [
+        "Ascension day",
+        "Good Friday",
+        "Easter Sunday",
+        "Pentecost day"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians celebrate the resurrection of Jesus Christ on Easter Sunday."),
+
+  QuizQuestion(
+      question:
+          "25. The Kundum festival is celebrated by the\n(BECE 2018 Q11)",
+      options: ["Dagomba", "Fante", "Krobo", "Nzema"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Kundum is celebrated by the Nzema and Ahanta people of Ghana."),
+
+  QuizQuestion(
+      question:
+          "26. The water and wine or gin given to the child during naming ceremony signifies\n(BECE 1999 Q24)",
+      options: ["Loyalty", "Faithfulness", "Truthfulness", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Water and wine or gin are used to teach the child to distinguish truth from falsehood and to grow up truthful."),
+
+  QuizQuestion(
+      question:
+          "27. The importance of naming ceremony is to\n(BECE 2000 Q11)",
+      options: [
+        "Announce that a woman has delivered",
+        "Make known to the society the additional mouth to be fed",
+        "Ask for future suitor for the child",
+        "Give the child an identity"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A naming ceremony formally gives the child a name and identity within the family and community."),
+
+  QuizQuestion(
+      question:
+          "28. Dipo is a traditional\n(BECE 2000 Q16)",
+      options: [
+        "Festival",
+        "Naming ceremony",
+        "Puberty rite",
+        "Death rite"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dipo is a traditional puberty rite associated with the Krobo people."),
+
+  QuizQuestion(
+      question:
+          "29. The most important rite of our Islam marriage is the\n(BECE 2002A Q5)",
+      options: [
+        "Presentation of household utensils to the bride",
+        "Delivering of wedding sermon during the feast",
+        "Payment of the dowry",
+        "Celebration of the marriage feast"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Payment of the dowry or mahr is an important requirement in Islamic marriage."),
+
+  QuizQuestion(
+      question:
+          "30. The importance of performing funeral rites is that it\n(BECE 2002A Q15)",
+      options: [
+        "Helps the dead to join the ancestors",
+        "Avoids more deaths in the family",
+        "Opens the way for the dead to go to heaven",
+        "Enables the dead to resurrect on the last day"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In African Traditional Religion, proper funeral rites are believed to help the deceased join the ancestors."),
+
+  QuizQuestion(
+      question:
+          "31. Money given to girls as gifts at puberty enable them to\n(BECE 2002B Q23)",
+      options: [
+        "Buy their clothing",
+        "Cook a meal for their husband",
+        "Entertain their friends",
+        "Buy their cooking utensils"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Money given during puberty rites can help the girls obtain clothing and other personal needs."),
+
+  QuizQuestion(
+      question:
+          "32. During naming ceremonies, the baby is given drops of water and wine to signify that he should be\n(BECE 2003 Q32)",
+      options: ["Truthful", "Patient", "Brave", "Obedient"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The water and wine symbolize the importance of truthfulness and the ability to distinguish truth from falsehood."),
+
+  QuizQuestion(
+      question:
+          "33. An Akan girl qualifies for puberty rites when\n(BECE 2004 Q27)",
+      options: [
+        "She is between the ages of fifteen and seventeen years",
+        "She first experiences her menses",
+        "Her breasts develop",
+        "She first becomes pregnant"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The onset of menstruation traditionally signals that an Akan girl has reached puberty."),
+
+  QuizQuestion(
+      question:
+          "34. Marriage has a good chance of succeeding if the\n(BECE 2006 Q17)",
+      options: [
+        "Couple are from the same town",
+        "Man has a lot of money",
+        "Couple understand each other",
+        "Woman is beautiful"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mutual understanding between spouses is important for a stable and successful marriage."),
+
+  QuizQuestion(
+      question:
+          "35. Puberty rites should be encouraged because it\n(BECE 2015 Q7)",
+      options: [
+        "Helps the youth to become rich",
+        "Links the youth to adulthood",
+        "Promotes chastity among the youth",
+        "Makes the youth look more attractive"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites traditionally educate young people about responsible behaviour and encourage chastity."),
+
+  QuizQuestion(
+      question:
+          "36. The rite which ushers the individual into adulthood is\n(BECE 2021 Q32)",
+      options: ["Engagement", "Marriage", "Outdoorings", "Puberty"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Puberty rites mark the transition from childhood to adulthood."),
+
+  QuizQuestion(
+      question:
+          "37. In traditional society, a new born child yet to be named is regarded as a\n(BECE 2022 Q11)",
+      options: ["Ancestor", "Gift", "Spirit", "Visitor"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A newborn child who has not yet been named is traditionally regarded as a visitor until formally accepted into the community."),
+
+  QuizQuestion(
+      question:
+          "38. Payments made to fulfill marriage contract is termed as\n(BECE 2020 Q13)",
+      options: ["Dowry", "Gift", "Sacrifice", "Reward"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The payment made as part of a marriage contract is commonly referred to as dowry or bride wealth."),
+
+  QuizQuestion(
+      question:
+          "39. The burial of the dead without a coffin teaches the Muslim to\n(BECE 2023 Q24)",
+      options: [
+        "Avoid acquiring much wealth",
+        "Live a simple life",
+        "Be more generous",
+        "Love one another"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Simple Islamic burial practices emphasize humility and simplicity in life and death."),
+
+  QuizQuestion(
+      question:
+          "40. The offer of baskets by some traditional believers to baby girls during naming ceremonies is meant to teach the child\n(BECE 2023 Q31)",
+      options: [
+        "Faithfulness",
+        "Hard work",
+        "Submissiveness",
+        "Endurance"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The basket symbolizes the expectation that the girl will grow to become hardworking and responsible."),
+
+  QuizQuestion(
+      question:
+          "41. The chief priest communicates with the gods\n(BECE 2021 Q24)",
+      options: [
+        "Through dreams",
+        "During festival rites",
+        "In times of war",
+        "Through libation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a traditional form of prayer and communication with the gods and ancestors."),
+
+  QuizQuestion(
+      question:
+          "42. A situation that cannot result in death in\n(BECE 2021 Q39)",
+      options: ["Accident", "Feasting", "HIV/AIDS", "Poisoning"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Unlike accidents, serious diseases and poisoning, ordinary feasting is not normally regarded as a direct cause of death."),
+
+  QuizQuestion(
+      question:
+          "43. One social importance of festivals is\n(BECE 2022 Q10)",
+      options: [
+        "Showing respect for authority",
+        "Venerating the gods and ancestors",
+        "Raising funds for projects",
+        "Making new friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Festivals bring people together and provide opportunities for social interaction and making new friends."),
+
+  QuizQuestion(
+      question:
+          "44. Which of the following is a positive value that can be learnt from festivals?\n(BECE 2023 Q4)",
+      options: [
+        "Remembrance of painful events",
+        "Purification of individuals",
+        "Unity and communal living",
+        "Holiness and peace"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Festivals promote unity, cooperation and communal living among members of the community."),
+
+  QuizQuestion(
+      question:
+          "45. One reason for the initiation of marriage is\n(BECE 2015 Q20)",
+      options: ["Companionship", "Joy", "Responsibility", "Security"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "One important purpose of marriage is companionship between spouses."),
+
+  QuizQuestion(
+      question:
+          "46. It is important to perform marriage rites because they\n(BECE 2016 Q14)",
+      options: [
+        "Build mutual trust and understanding",
+        "Are requirements to adolescence",
+        "Prevent divorce in society",
+        "Seal the marriage"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Marriage rites formally recognize and seal the marriage between the couple and their families."),
+
+  QuizQuestion(
+      question:
+          "47. The most important prayer request during marriage rites is for\n(BECE 2016 Q20)",
+      options: [
+        "Good health and protection",
+        "Long life and children",
+        "Prosperity and wealth",
+        "Protection and long life"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Prayers during marriage rites commonly ask for long life and children for the couple."),
+
+  QuizQuestion(
+      question:
+          "48. Which of the following statements is not true about puberty rites? They\n(BECE 2017 Q12)",
+      options: [
+        "Teach girls to be obedient",
+        "Prevent teenage pregnancy",
+        "Teach girls how to live together",
+        "Protect girls against evil forces"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites focus on preparing young people for responsible adulthood, morality and traditional responsibilities rather than specifically teaching communal living."),
+
+  QuizQuestion(
+      question:
+          "49. The period of courtship in marriage is meant for\n(BECE 2017 Q13)",
+      options: [
+        "Convincing parents of both parties",
+        "Presentation of gifts to friends",
+        "The couple to study each other",
+        "The payment of the knocking fee"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Courtship gives prospective spouses an opportunity to know and understand each other before marriage."),
+
+  QuizQuestion(
+      question:
+          "50. The exchange of rings in Christian marriage signifies\n(BECE 2017 Q14)",
+      options: [
+        "Blessing from God",
+        "Faithfulness to God",
+        "Faithfulness to one another",
+        "Love for the family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wedding rings symbolize commitment and faithfulness between husband and wife."),
+
+  QuizQuestion(
+      question:
+          "51. Both Islamic and Traditional religions accept\n(BECE 2018 Q13)",
+      options: [
+        "Polyandry",
+        "Polygamy",
+        "The use of incense",
+        "The five daily prayers"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Both Islam and many African Traditional religious societies permit polygamous marriage under certain conditions."),
+
+  QuizQuestion(
+      question:
+          "52. The growth of hairs in the armpit is a sign of\n(BECE 2018 Q14)",
+      options: ["Motherhood", "Pregnancy", "Puberty", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Growth of hair in the armpits is one of the physical changes associated with puberty."),
+
+  QuizQuestion(
+      question:
+          "53. A strong emotional change noticeable among adolescents is\n(BECE 2019 Q13)",
+      options: ["Obedience", "Rebellion", "Selfishness", "Intelligence"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Adolescents may show increased emotional independence and rebellious behaviour as part of development."),
+
+  QuizQuestion(
+      question:
+          "54. The libation offered during traditional marriage is meant to make the spouse\n(BECE 2020 Q12)",
+      options: ["Beautiful", "Fruitful", "Hardworking", "Religious"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation during traditional marriage commonly includes prayers for fertility and children."),
+
+  QuizQuestion(
+      question:
+          "55. Girls who undergo puberty rites often get good husbands because responsible men\n(BECE 2021 Q28)",
+      options: [
+        "Appreciate pretty and wealthy girls",
+        "Like morally sound girls",
+        "Love attractive religious girls",
+        "Love well educated girls"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Puberty rites traditionally emphasize moral training and chastity, qualities considered desirable in marriage."),
+
+  QuizQuestion(
+      question:
+          "56. The first stage in marriage starts when\n(BECE 2022 Q12)",
+      options: [
+        "The man pays the bride wealth",
+        "Parents of both parties agree",
+        "A woman accepts a man's proposal",
+        "The engagement ceremony is performed"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The marriage process begins when a marriage proposal is made and accepted."),
+
+  QuizQuestion(
+      question:
+          "57. Which of the following statements is not true about African Traditional Marriage?\n(BECE 2022 Q13)",
+      options: [
+        "The marriage involves extended family",
+        "Dowries paid stabilizes the marriage",
+        "Observation of certain taboos by men promote polygamy",
+        "Scripture readings are taken before libation"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Scripture reading is not normally a feature of African Traditional marriage rites before libation."),
+
+  QuizQuestion(
+      question:
+          "58. To make marriage successful, couples need to always\n(BECE 2022 Q14)",
+      options: [
+        "Compare themselves with each other",
+        "Work hard for wealth",
+        "Look neat and attractive",
+        "Communicate with each other"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Regular and effective communication promotes understanding and helps couples resolve problems."),
+
+  QuizQuestion(
+      question:
+          "59. One of the essences of pouring libation during traditional marriages is to make the couples\n(BECE 2022 Q15)",
+      options: ["Fruitful", "Religious", "Beautiful", "Hard working"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Libation during marriage includes prayers for fertility and children, making the couple fruitful."),
+
+  QuizQuestion(
+      question:
+          "60. Donations at funerals are meant to\n(BECE 2022 Q16)",
+      options: [
+        "Refresh the mourners",
+        "Offer transportation to the dead",
+        "Offer the family a means of livelihood",
+        "Show love and support to the family"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Funeral donations express sympathy, love and practical support for the bereaved family."),
+
+  QuizQuestion(
+      question:
+          "61. A baby is named after birth because it\n(BECE 2022 Q17)",
+      options: [
+        "Is a gift from God",
+        "Needs to be identified",
+        "Needs to be cared for",
+        "Must be outdoored"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Naming gives the baby an identity by which he or she can be recognized in the family and community."),
+
+  QuizQuestion(
+      question:
+          "62. The observance of puberty rites ensures the following except\n(BECE 2023 Q3)",
+      options: [
+        "Bringing honour to parent and relatives",
+        "Promoting the gift of life and wealth",
+        "Promoting education in customs and traditions",
+        "Helping to check immoral activities"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Puberty rites promote moral behaviour, cultural education and family honour, but promoting wealth is not one of their main purposes."),
+
+  QuizQuestion(
+      question:
+          "63. The wearing of wedding rings by couples after marriage is a sign of\n(BECE 2023 Q18)",
+      options: [
+        "Responsibility and sincerity",
+        "Faithfulness and humility",
+        "Commitment and trust",
+        "Honesty and tolerance"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wedding rings symbolize the couple's continuing commitment, trust and marital bond."),
+
+  QuizQuestion(
+      question:
+          "64. The following activities are marriage procedures in Islam except\n(BECE 2023 Q19)",
+      options: [
+        "Couples exchange vows to endorse the marriage",
+        "Parents select spouses for the men",
+        "A guardian to the marriage is chosen",
+        "The bride's relatives perform the knocking"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The knocking ceremony is associated mainly with African Traditional marriage and is not a standard Islamic marriage procedure."),
+
+  QuizQuestion(
+      question:
+          "65. Polygamy is allowed to Islam on the condition that the man\n(BECE 2023 Q35)",
+      options: [
+        "Will be faithful to his religion",
+        "Can treat all the women fairly",
+        "Is rich and can feed the extended family",
+        "Will be sympathetic toward widows"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Islam permits a man to marry more than one wife only if he is able to treat them justly and fairly."),
+
+    ],
+  ),
+  "Religious & Moral Education JHS3 s3 ss1 - The Family, Religious Home and Obedience": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. The payment of school fees and other bills is mainly the responsibility of the\n(BECE 2000 Q21)",
+options: ["Grandfather", "Mother", "Uncle", "Father"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Traditionally, the father is regarded as the main provider responsible for school fees and other major family expenses."),
+      QuizQuestion(
+      question:
+          "2. One of the advantages of the extended family system is that\n(BECE 2000 Q22)",
+      options: [
+        "The uncle inherits the father's property",
+        "The children are cared for by the members of the family",
+        "The old people are sent to old people's home",
+        "Girls become maidservants of their aunties"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In the extended family system, relatives support one another and help to care for children."),
+      QuizQuestion(
+      question:
+          "3. The rules and regulations in schools are there to ensure\n(BECE 2000 Q28)",
+      options: [
+        "That children attend school regularly",
+        "Good behaviour",
+        "Proper maintenance of school property",
+        "That children do their assignment"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "School rules and regulations mainly promote discipline and good behaviour among pupils."),
+      QuizQuestion(
+      question:
+          "4. The best way to live in peace in a community is to\n(BECE 2000 Q22)",
+      options: [
+        "Understand and co-operate with others",
+        "Disagree with your enemies",
+        "Proper maintenance of school property",
+        "Be afraid of those in authority"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperating with others promotes peaceful relationships in the community."),
+      QuizQuestion(
+      question:
+          "5. Conflicts in our society can best be resolved by\n(BECE 2000 Q33)",
+      options: [
+        "Entering into conflicts with neighbours",
+        "Obeying the scriptures",
+        "Being authoritative and proud",
+        "Tolerating and forgiving others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance and forgiveness help people settle disagreements and restore peaceful relationships."),
+      QuizQuestion(
+      question:
+          "6. One of the characteristics of the Traditional Religion is that it\n(BECE 2000 Q34)",
+      options: [
+        "Originated from the Far East",
+        "Regards God and Jesus as the centre of worship",
+        "Was established by a powerful African",
+        "Has no written document"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion has historically been passed on mainly through oral tradition rather than a single written scripture."),
+      QuizQuestion(
+      question:
+          "7. One can promote relationship and peaceful living by being\n(BECE 2001 Q6)",
+      options: [
+        "Violent and respectful",
+        "Respectful and obedient",
+        "Helpful to relatives",
+        "Kind and vocal"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect and obedience promote good relationships and peaceful living."),
+      QuizQuestion(
+      question:
+          "8. Which of the following does not promote progress in a society?\n(BECE 2001 Q22)",
+      options: ["Conflicts", "Reconciliation", "Communal labour", "Confession"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Conflicts can disrupt unity and development, while reconciliation and cooperation promote progress."),
+      QuizQuestion(
+      question:
+          "9. Kofi's father is Ewe and his mother is Fante. Which of the following statements about Kofi is true?\n(BECE 2001 Q23)",
+      options: [
+        "He belongs to the father's clan only",
+        "He belongs to the mother's clan only",
+        "He belongs to both the father's and the mother's clan",
+        "He cannot inherit his father or mother"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Kofi has family connections through both his father's and mother's families."),
+      QuizQuestion(
+      question:
+          "10. Conflicts develop among us through\n(BECE 2001 Q25)",
+      options: [
+        "Good neighbourliness",
+        "Ambition",
+        "Laziness",
+        "Misunderstanding"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Misunderstanding between individuals or groups is a common cause of conflict."),
+      QuizQuestion(
+      question:
+          "11. Obedience to the laws of the state can make us\n(BECE 2001 Q25)",
+      options: [
+        "Fearful and honest citizens",
+        "Gentle and loving citizens",
+        "Simple and God-fearing citizens",
+        "Patriotic and good citizens"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Citizens who obey the laws contribute positively to society and demonstrate patriotism."),
+      QuizQuestion(
+      question:
+          "12. The extended family meets often to\n(BECE 2001 Q31)",
+      options: [
+        "Name a new-born baby",
+        "Share family property",
+        "Select a new chief",
+        "Elect the head of the family"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended family meetings may be held to discuss important family matters, including the sharing and management of family property."),
+      QuizQuestion(
+      question:
+          "13. In order to live in harmony with family members, we must be\n(BECE 2002A Q25)",
+      options: [
+        "Talking to our enemies",
+        "Ignoring trouble makers",
+        "Going to the court",
+        "Settling our differences peacefully"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peaceful settlement of disagreements promotes harmony within the family."),
+
+  QuizQuestion(
+      question:
+          "14. In a matrilineal home, the head of the family is\n(BECE 2002A Q23)",
+      options: ["Father", "Aunt", "Uncle", "Mother"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "In many matrilineal family systems, the mother's brother plays the role of family head."),
+
+  QuizQuestion(
+      question:
+          "15. We can avoid conflicts in our community by\n(BECE 2002A Q25)",
+      options: [
+        "Talking to our enemies",
+        "Ignoring trouble makers",
+        "Going to the court",
+        "Settling our differences peacefully"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peacefully settling differences helps prevent disagreements from developing into serious conflicts."),
+
+  QuizQuestion(
+      question:
+          "16. We show total obedience to God by\n(BECE 2002B Q18)",
+      options: [
+        "Reading the Bible",
+        "Doing His will",
+        "Going to church",
+        "Reciting the Lord's prayer"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "True obedience to God involves doing what He commands and following His will."),
+
+  QuizQuestion(
+      question:
+          "17. School rules are obeyed in order to\n(BECE 2002B Q21)",
+      options: [
+        "Achieve success in sports",
+        "Have good people in the community",
+        "Promote peace in the community",
+        "Achieve distinctions in examination"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "School rules help train pupils to become disciplined and responsible members of society."),
+
+  QuizQuestion(
+      question:
+          "18. Whose duty is it to provide shelter to the family?\n(BECE 2002B Q22)",
+      options: ["Father", "Uncle", "Aunt", "Mother"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, providing shelter is mainly the father's responsibility."),
+
+  QuizQuestion(
+      question:
+          "19. The extended family system consists of\n(BECE 2002B Q24)",
+      options: [
+        "Children and other relations",
+        "Grandchildren and other parents",
+        "Grandchildren, children and other parents",
+        "Parents, children and other relations"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An extended family includes parents, their children and other relatives."),
+
+  QuizQuestion(
+      question:
+          "20. The purpose of school rules and regulations is to\n(BECE 2003 Q21)",
+      options: [
+        "Get pupils punished",
+        "Encourage pupils to become good pastors",
+        "Promote good conditions for work",
+        "Reward obedient pupils"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Rules and regulations create an orderly environment that supports effective teaching and learning."),
+
+  QuizQuestion(
+      question:
+          "21. The basic role of the father is to\n(BECE 2003 Q21)",
+      options: [
+        "Cook for the family",
+        "Make sure the children work",
+        "Make sure the water is in the house",
+        "Provide shelter for the family"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, the father is responsible for providing basic needs such as shelter."),
+
+  QuizQuestion(
+      question:
+          "22. The nuclear family system consists of\n(BECE 2003 Q23)",
+      options: [
+        "Parents and grandchildren",
+        "Children and parents",
+        "Parents, children and other relations",
+        "Grandchildren and children"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "23. Broken homes may lead to all the following except\n(BECE 2004 Q34)",
+      options: [
+        "Miscarriage",
+        "Substance abuse",
+        "Teenage pregnancy",
+        "Truancy"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Substance abuse, teenage pregnancy and truancy may be associated with family instability, while miscarriage is not normally presented as a direct social effect of a broken home."),
+
+  QuizQuestion(
+      question:
+          "24. One of the advantages of the extended family system is that\n(BECE 2006 Q32)",
+      options: [
+        "Parents can give sufficient attention to their children",
+        "An uncle inherits a father's property",
+        "The extended family sustains society",
+        "Parents are capable of providing the need of the family"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The extended family supports social stability through cooperation and mutual assistance among relatives."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following factors best helps in promoting good family relationship?\n(BECE 2006 Q30)",
+      options: [
+        "Boys and girls being sent to school equally",
+        "Staying with other relatives",
+        "Competing among children",
+        "Favouring one child over another"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Treating boys and girls fairly and giving them equal opportunities promotes healthy family relationships."),
+
+  QuizQuestion(
+      question:
+          "26. Household chores are done mainly by\n(BECE 2007 Q26)",
+      options: ["Grandmother", "Mother", "Father", "Children"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Children are expected to assist the family by carrying out appropriate household chores."),
+
+  QuizQuestion(
+      question:
+          "27. To promote peaceful living in the home, decisions should be taken by\n(BECE 2007 Q29)",
+      options: [
+        "The father alone",
+        "The mother alone",
+        "Only the father and mother",
+        "Father, mother and children together"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Involving family members in decisions encourages cooperation, understanding and peaceful living."),
+
+  QuizQuestion(
+      question:
+          "28. In the family system, an aunt is\n(BECE 2009 Q22)",
+      options: [
+        "A grandparent's sister",
+        "A brother's sister",
+        "An uncle's sister",
+        "A father or a mother's sister"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An aunt is the sister of one's father or mother."),
+
+  QuizQuestion(
+      question:
+          "29. School rules are meant to ensure\n(BECE 2009 Q30)",
+      options: [
+        "Punishment for school children",
+        "Patriotism among children",
+        "Competition among children",
+        "Good behaviour of children"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "School rules promote discipline and good behaviour among pupils."),
+
+  QuizQuestion(
+      question:
+          "30. Rules and regulations of the family are meant to ensure\n(BECE 2009 Q34)",
+      options: ["Discipline", "Patriotism", "Success", "Victory"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Family rules and regulations promote discipline and orderly behaviour."),
+
+  QuizQuestion(
+      question:
+          "31. Children who are obedient and live a good moral life in the society are\n(BECE 2011 Q31)",
+      options: [
+        "Praised by others",
+        "Envied by others",
+        "Sent to be smart at school",
+        "Known to challenge the elderly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children who demonstrate obedience and good morals are generally respected and praised by society."),
+
+  QuizQuestion(
+      question:
+          "32. Rules and regulations of the country need to be obeyed in order to\n(BECE 2012 Q34)",
+      options: [
+        "Promote the formation of political parties",
+        "Promote peaceful co-existence",
+        "Stop rivalry among political parties",
+        "Save people from imprisonment"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect for laws and regulations helps maintain order and peaceful coexistence."),
+
+  QuizQuestion(
+      question:
+          "33. A common practice at night in traditional homes is to\n(BECE 2013 Q24)",
+      options: [
+        "Pour libation",
+        "Tell stories",
+        "Feed the dogs",
+        "Visit the stool room"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Storytelling is a common traditional evening activity used for entertainment and moral education."),
+
+  QuizQuestion(
+      question:
+          "34. Running errands for the elderly portrays that a child is\n(BECE 2012 Q36)",
+      options: ["Obedient", "Sincere", "Strong", "Truthful"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A child who willingly runs errands for elders demonstrates obedience."),
+
+  QuizQuestion(
+      question:
+          "35. Carrying out instructions given by the elderly shows that one is\n(BECE 2012 Q37)",
+      options: ["Respectful", "Sincere", "Strong", "Truthful"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Following the instructions of elders demonstrates respect for them."),
+
+  QuizQuestion(
+      question:
+          "36. Social conflicts can best be resolved by\n(BECE 2013 Q37)",
+      options: [
+        "Obeying the scriptures",
+        "Being principled and humble",
+        "Being authoritative and principled",
+        "Tolerating and forgiving"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance and forgiveness help conflicting parties reconcile peacefully."),
+
+  QuizQuestion(
+      question:
+          "37. Respectful children are always\n(BECE 2013 Q37)",
+      options: [
+        "Good in sports",
+        "Intelligent in school",
+        "Decently dressed",
+        "Accepted by society"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Respectful behaviour makes children more likely to be appreciated and accepted by society."),
+
+  QuizQuestion(
+      question:
+          "38. A common errand run by a child at night is\n(BECE 2013 Q25)",
+      options: [
+        "Story telling",
+        "Pouring of libation",
+        "Feeding the dogs",
+        "Visiting the stool room"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Feeding household animals such as dogs can be an evening responsibility assigned to children."),
+
+  QuizQuestion(
+      question:
+          "39. By respecting other people's religion we are\n(BECE 2014 Q29)",
+      options: [
+        "Showing commitment to God",
+        "Showing religious tolerance",
+        "Practising religious obedience",
+        "Accepted by society"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respecting the beliefs and practices of other religions demonstrates religious tolerance."),
+
+  QuizQuestion(
+      question:
+          "40. One of the advantages of the extended family is that it\n(BECE 2014 Q37)",
+      options: [
+        "Enriches tolerance",
+        "Promotes peace",
+        "Creates wealth",
+        "Promotes security"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Members of the extended family provide support and protection for one another, promoting social security."),
+
+  QuizQuestion(
+      question:
+          "41. People cherish the spirit of obedience because it\n(BECE 2014 Q37)",
+      options: [
+        "Imputes blessing and goodwill from God",
+        "Is persistent quarrelling on a few rich people",
+        "Means having little privacy for its members",
+        "Means over-reliance on a few rich people"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Obedience is valued because it is associated with receiving blessings, goodwill and approval from God and society."),
+
+  QuizQuestion(
+      question:
+          "42. Individuals can co-exist peacefully in a community if they practise\n(BECE 2015 Q24)",
+      options: [
+        "Repentance and forgiveness",
+        "Peaceful co-existence",
+        "Success in examination",
+        "Family and hard work"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Repentance and forgiveness help people repair relationships and live together peacefully."),
+
+  QuizQuestion(
+      question:
+          "43. Showing respect and obedience to school authority ensures\n(BECE 2015 Q24)",
+      options: [
+        "Repentance and forgiveness",
+        "Peaceful co-existence",
+        "Success in examination",
+        "Family and hard work"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Respect and obedience to school authorities promote order and peaceful coexistence within the school."),
+
+  QuizQuestion(
+      question:
+          "44. A nuclear family begins when\n(BECE 2015 Q33)",
+      options: [
+        "Parents live with siblings",
+        "Relatives live together",
+        "Siblings share property",
+        "A couple gets legally married"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family begins with a married couple and may later include their children."),
+
+  QuizQuestion(
+      question:
+          "45. Running errands for those in authority portrays the child to be\n(BECE 2016 Q32)",
+      options: ["Humble", "Obedient", "Honest", "Sincere"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Willingly carrying out instructions and errands demonstrates obedience."),
+
+  QuizQuestion(
+      question:
+          "46. By respecting other people's religion we are\n(BECE 2016 Q32)",
+      options: ["Polite", "Showing religious tolerance", "Faithful", "Sincere"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Respect for the beliefs and practices of others is an example of religious tolerance."),
+
+  QuizQuestion(
+      question:
+          "47. A family made up of a father, mother and children is described as\n(BECE 2016 Q4)",
+      options: [
+        "Extended family",
+        "Monogamous family",
+        "Nuclear family",
+        "Polygamous family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "48. People cherish the spirit of obedience because it\n(BECE 2016)",
+      options: [
+        "Enhances tolerance",
+        "Creates wealth",
+        "Promotes wealth",
+        "Promotes peace"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Obedience to appropriate rules and authority helps maintain order and promotes peace."),
+
+  QuizQuestion(
+      question:
+          "49. The maintenance of law and order in the nuclear family is the responsibility of the\n(BECE 2017 Q30)",
+      options: ["Aunts", "Parents", "Grandparents", "Children"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Parents are primarily responsible for setting and enforcing rules in the nuclear family."),
+
+  QuizQuestion(
+      question:
+          "50. One advantage of the extended family over the nuclear family is\n(BECE 2017 Q29)",
+      options: [
+        "Having little privacy for its members",
+        "Opportunity to associate with more people",
+        "Over-reliance on a few rich people",
+        "Persistent quarrelling in the family"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The extended family provides opportunities to interact and build relationships with a larger number of relatives."),
+
+  QuizQuestion(
+      question:
+          "51. A home where family members learn their religion through oral sources is known as\n(BECE 2018 Q31)",
+      options: ["Christianity", "Islamic", "Traditional", "Jewish"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion is largely transmitted through oral traditions, customs and practices."),
+
+  QuizQuestion(
+      question:
+          "52. A father shows commitment to the family by\n(BECE 2018 Q35)",
+      options: [
+        "Being punctual at work and helping others",
+        "Travelling often and staying outside the home",
+        "Being steadfast at prayers and worship",
+        "Treating all dependants with patience and tolerance"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Treating dependants patiently, fairly and responsibly demonstrates commitment to the wellbeing of the family."),
+
+  QuizQuestion(
+      question:
+          "53. The nuclear family system consists of\n(BECE 2019 Q32)",
+      options: [
+        "Parents and grandchildren",
+        "Parents and cousins",
+        "Parents and children",
+        "Siblings and cousins"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The nuclear family consists of parents and their children."),
+
+  QuizQuestion(
+      question:
+          "54. Which of the following statements is not true about the extended family system?\n(BECE 2019 Q34)",
+      options: [
+        "Parents, children and uncles are members",
+        "Grandparents, nephews and children are members",
+        "Parents and children only are members",
+        "Grandchildren, nephews and uncles are members"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A family made up only of parents and their children is a nuclear family, not an extended family."),
+
+  QuizQuestion(
+      question:
+          "55. The ummah is the Islamic\n(BECE 2017 Q34)",
+      options: ["Community", "Congregation", "Divorce", "Scholar"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ummah refers to the worldwide community of Muslims."),
+
+  QuizQuestion(
+      question:
+          "56. A child who refuses to play with bad friends is said to be\n(BECE 2017 Q34)",
+      options: ["Obedient", "Faithful", "Polite", "Sincere"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Avoiding bad company can demonstrate obedience to good moral instructions from parents and elders."),
+
+  QuizQuestion(
+      question:
+          "57. At the mother's home, the child is responsible for\n(BECE 2019 Q40)",
+      options: [
+        "The cleaning of the house",
+        "The payment of bills",
+        "The upkeep of the mother",
+        "Punishing of siblings"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children are expected to assist with appropriate household duties such as cleaning the home."),
+
+  QuizQuestion(
+      question:
+          "58. All members of the extended family come from\n(BECE 2019 2020 Q40)",
+      options: [
+        "The same father",
+        "The same clan",
+        "The same town",
+        "The same mother"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Extended family members are connected through common ancestry and may belong to the same clan."),
+
+  QuizQuestion(
+      question:
+          "59. Rules and regulations are meant to ensure\n(BECE 2021 Q6)",
+      options: ["Discipline", "Love", "Omniscience", "Victory"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Rules and regulations guide behaviour and help maintain discipline."),
+
+  QuizQuestion(
+      question:
+          "60. Shrines in traditional neighbourhoods are used\n(BECE 2020 Q36)",
+      options: [
+        "As residences of chiefs",
+        "For prayers and consultations",
+        "For the sale of herbs",
+        "For settlement of disputes"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Traditional shrines are sacred places where worshippers pray and consult priests or spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "61. Healthy relationship among family members promotes\n(BECE 2021 Q2)",
+      options: [
+        "Development in the community",
+        "Fulfilment of God's commandment",
+        "Success in academic activities",
+        "Spiritual and moral development"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A healthy family relationship provides an environment in which good moral and spiritual values can be taught and developed."),
+
+  QuizQuestion(
+      question:
+          "62. The Gye Nyame symbol represents\n(BECE 2021 Q6)",
+      options: ["Kindness", "Love", "Omniscience", "Victory"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The supplied options appear mismatched. Gye Nyame traditionally expresses the supremacy and omnipotence of God, but none of the listed choices states this meaning."),
+
+  QuizQuestion(
+      question:
+          "63. To become a successful leader, one must learn to be\n(BECE 2021 Q40)",
+      options: [
+        "Literate",
+        "Tolerant",
+        "Highly religious",
+        "Very complacent"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tolerance enables a leader to respect different views and work peacefully with others."),
+
+  QuizQuestion(
+      question:
+          "64. Ghanaians can live together peacefully if they\n(BECE 2021 Q1)",
+      options: [
+        "Avoid inter-ethnic marriages",
+        "Practise religious tolerance",
+        "Pray very often",
+        "Speak the truth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Religious tolerance encourages people of different faiths to respect one another and coexist peacefully."),
+
+  QuizQuestion(
+      question:
+          "65. To cut down on funeral expenses, the family must\n(BECE 2022 Q39)",
+      options: [
+        "Bury the corpse as early as possible",
+        "Make morticians run errands",
+        "Help in the preparation of meals",
+        "Provide shelter and clothing"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Family members can reduce funeral costs by helping with tasks such as preparing meals instead of paying for all services."),
+
+  QuizQuestion(
+      question:
+          "66. A person who relates well with his or her peers is the one who\n(BECE 2023 Q6)",
+      options: [
+        "Respects only the elders",
+        "Is smart and cunning",
+        "Plays around with his or her peers",
+        "Obeys instructions willingly"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Willingness to cooperate and follow appropriate instructions supports good relationships with others."),
+ QuizQuestion(
+question:
+"67. One of the child's responsibilities in the home is to\n(BECE 1999 Q30)",
+options: [
+"Sweep the compound",
+"Provide his clothing",
+"Pay the school fees",
+"Pay the hospital fees"
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"A child can contribute to the home by performing appropriate household chores such as sweeping the compound."),
+ QuizQuestion(
+      question:
+          "68. One of the rights of the child is the right\n(BECE 1999 Q34)",
+      options: [
+        "To work on his plot",
+        "To education",
+        "To sweep the classroom",
+        "To attend school regularly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Every child has a right to education."),
+      QuizQuestion(
+      question:
+          "69. Human rights include all the following except\n(BECE 2000 Q27)",
+      options: [
+        "The right to live",
+        "Freedom of association",
+        "Freedom of worship",
+        "Administering instant justice"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Administering instant justice is not a human right."),
+  QuizQuestion(
+      question:
+          "70. Love for our community should be part of our training so that we can\n(BECE 2000 Q35)",
+      options: [
+        "Work harder for its good",
+        "Become democratic",
+        "Develop good skills in it",
+        "Build good and happy homes"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Love for one's community should encourage people to work for its progress and welfare."),
+
+  QuizQuestion(
+      question:
+          "71. To be patriotic means\n(BECE 2000 Q36)",
+      options: [
+        "Going to school regularly",
+        "Practicing personal hygiene",
+        "Defending the nation at all times",
+        "Engaging in sporting activities"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Patriotism involves love, loyalty and willingness to defend one's nation."),
+
+  QuizQuestion(
+      question:
+          "72. Which organization in Ghana deals with human rights issues?\n(BECE 2001 Q26)",
+      options: [
+        "National Commission on Children",
+        "National Council for Women and Development",
+        "Commission on Human Rights and Administrative Justice",
+        "National Commission for Civic Education"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Commission on Human Rights and Administrative Justice deals with human rights and administrative justice matters in Ghana."),
+
+  QuizQuestion(
+      question:
+          "73. Which of the following does not constitute a moral responsibility of the child?\n(BECE 2001 Q38)",
+      options: [
+        "Sweeping the classroom",
+        "Working on his plot",
+        "Worshiping God",
+        "Payment of school fees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Payment of school fees is normally the responsibility of parents or guardians, not the child."),
+
+  QuizQuestion(
+      question:
+          "74. What contribution can a child make when a community school is being put up?\n(BECE 2001 Q39)",
+      options: [
+        "Roofing the building",
+        "Fetching water and sand",
+        "Drawing up the building plan",
+        "Cheering the workers up with songs"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A child can safely assist community work by helping with simple tasks such as fetching water and sand."),
+
+  QuizQuestion(
+      question:
+          "75. As a child of the state, you have the right to\n(BECE 2002A Q22)",
+      options: ["Vote", "Education", "Work", "Worship"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Children have a recognized right to education."),
+
+  QuizQuestion(
+      question:
+          "76. One important responsibility as a member of a religious group is to\n(BECE 2002A Q26)",
+      options: [
+        "Sweep the meeting place every day",
+        "Gather the youth and talk to them",
+        "Obey the rules of the religion",
+        "Attend church service always"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Members of a religious group are expected to obey the rules and teachings of their religion."),
+
+  QuizQuestion(
+      question:
+          "77. The institution of authority in the society ensures\n(BECE 2002A Q28)",
+      options: [
+        "Peace and order",
+        "Good religious lives",
+        "A healthy environment",
+        "Respect for adults"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace, order and discipline in society."),
+
+  QuizQuestion(
+      question:
+          "78. A patriotic citizen is one who is\n(BECE 2002A Q38)",
+      options: [
+        "Loyal and law abiding",
+        "Loyal and hospitable to strangers",
+        "Loving and willing to die for the nation",
+        "Respectful in the community"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A patriotic citizen demonstrates loyalty to the country and obeys its laws."),
+
+  QuizQuestion(
+      question:
+          "79. Which right is person exercising when he cast a vote during national election?\n(BECE 2002B Q28)",
+      options: [
+        "Religious right",
+        "Civic right",
+        "Freedom of speech",
+        "Freedom of association"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Voting in a national election is an exercise of a citizen's civic right."),
+
+  QuizQuestion(
+      question:
+          "80. When a child develops a good spirit of responsibility he will\n(BECE 2002B Q29)",
+      options: [
+        "Win many prizes at school",
+        "Pass all his examination",
+        "Enjoy peace and success in life",
+        "Become tolerant and sincere"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Responsible behaviour contributes to peaceful living and success in life."),
+
+  QuizQuestion(
+      question:
+          "81. To demonstrate patriotism, one needs to\n(BECE 2002B Q32)",
+      options: [
+        "Show love and defend the nation",
+        "Be sincere in all circumstances",
+        "Be respectful to leaders of the country",
+        "Show a live of honesty to both old and young"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Patriotism is demonstrated through love, loyalty and willingness to defend one's nation."),
+
+  QuizQuestion(
+      question:
+          "82. It is the responsibility of the child to\n(BECE 2003 Q22)",
+      options: [
+        "Do his household chores",
+        "Invite his friends to his house",
+        "Request his parents to organize a party",
+        "Wake his parents up from bed"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Children are expected to help with appropriate household chores."),
+
+  QuizQuestion(
+      question:
+          "83. The duty of a member of a community falls under\n(BECE 2004 Q29)",
+      options: [
+        "Civic responsibility",
+        "Governmental responsibility",
+        "Filial responsibility",
+        "Communal responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Duties performed as a member of a community are communal responsibilities."),
+
+  QuizQuestion(
+      question:
+          "84. Which of the following is a responsibility of children?\n(BECE 2004 Q32)",
+      options: [
+        "Paying their own school fees",
+        "Providing their friends with their needs",
+        "Making sure parents are always at work",
+        "Helping their parents at home"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Helping parents with suitable duties at home is one of a child's responsibilities."),
+
+  QuizQuestion(
+      question:
+          "85. A special right that puts a person in a better position is\n(BECE 2004 Q40)",
+      options: ["Favour", "Choice", "Freedom", "Privilege"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A privilege is a special right or advantage granted to a person or group."),
+
+  QuizQuestion(
+      question:
+          "86. Which of the following is not a peaceful way to ask for your right?\n(BECE 2005 Q25)",
+      options: ["Petition", "Kidnapping", "Silent protest", "Lobbying"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Kidnapping is violent and unlawful and is not a peaceful means of demanding one's rights."),
+
+  QuizQuestion(
+      question:
+          "87. A patriotic citizen is a person who\n(BECE 2005 Q40)",
+      options: [
+        "Helps the family always",
+        "Practices personal hygiene",
+        "Defends his nation always",
+        "Worship his Creator regularly"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A patriotic citizen shows loyalty and is willing to defend the nation."),
+
+  QuizQuestion(
+      question:
+          "88. Authority is instituted in the society to ensure\n(BECE 2006 Q24)",
+      options: [
+        "Respect for adults",
+        "Peace and order",
+        "The right to vote",
+        "Freedom of speech"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Authority exists to maintain peace, order and discipline in society."),
+
+  QuizQuestion(
+      question:
+          "89. The peaceful ways of asking for one's rights include the following\n(BECE 2006 Q31)",
+      options: ["Lobbying", "Kidnapping", "Playing games", "Rioting"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Lobbying is a lawful and peaceful means of seeking support for one's rights."),
+
+  QuizQuestion(
+      question:
+          "90. As a child, your duties include all these except\n(BECE 2006 Q34)",
+      options: [
+        "Fetching water",
+        "Weeding the compound",
+        "Preparing meals",
+        "Paying fees"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Paying school fees is normally a parental or guardian responsibility."),
+
+  QuizQuestion(
+      question:
+          "91. When a child develops the sense of responsibility, he or she\n(BECE 2006 Q38)",
+      options: [
+        "Wins many prizes at school",
+        "Passes all his examination",
+        "Becomes tolerant and sincere",
+        "Enjoys peace and success in life"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A responsible person is more likely to enjoy orderly relationships, peace and success."),
+
+  QuizQuestion(
+      question:
+          "92. The rights and privileges of every citizen is guaranteed in the\n(BECE 2007 Q30)",
+      options: ["Constitution", "Bible", "Qur'an", "By-laws"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Constitution guarantees the fundamental rights and freedoms of citizens."),
+
+  QuizQuestion(
+      question:
+          "93. One who loves his/her country\n(BECE 2007 Q31)",
+      options: [
+        "Helps the needy always",
+        "Practices personal hygiene",
+        "Defends the nation",
+        "Worship God always"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Love for one's country is demonstrated through loyalty and willingness to defend it."),
+
+  QuizQuestion(
+      question:
+          "94. At what age does one qualify to vote?\n(BECE 2007 Q38)",
+      options: ["15 years", "17 years", "18 years", "21 years"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A citizen qualifies to vote at the age of 18 years."),
+
+  QuizQuestion(
+      question:
+          "95. Human rights include all the following except\n(BECE 2007 Q39)",
+      options: [
+        "The right to vote",
+        "Administering instant justice",
+        "The right to live",
+        "Freedom of worship"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Administering instant justice is not a human right."),
+
+  QuizQuestion(
+      question:
+          "96. Freedom of expression enables one to\n(BECE 2008 Q33)",
+      options: [
+        "Move about freely",
+        "Engage in any job",
+        "Be heard freely",
+        "Accuse other people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Freedom of expression allows a person to express opinions and be heard."),
+
+  QuizQuestion(
+      question:
+          "97. Filial responsibility refers to one's duty as a\n(BECE 2008 Q35)",
+      options: [
+        "Father or a mother",
+        "Member of a society",
+        "Son or a daughter",
+        "Member of the church"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Filial responsibility refers to the duties a person has as a son or daughter toward parents and family."),
+
+  QuizQuestion(
+      question:
+          "98. One civic responsibility of a citizen is to\n(BECE 2009 Q34)",
+      options: [
+        "Expose wrongdoers in the community",
+        "Be willing to accept correction",
+        "Respect the traditions of the community",
+        "Look after the poor in the community"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Citizens have a civic duty to help protect society by reporting or exposing wrongdoing."),
+
+  QuizQuestion(
+      question:
+          "99. Privileges can be earned by showing that one is\n(BECE 2009 Q38)",
+      options: ["Intelligent", "Trustworthy", "Decent", "Hospitable"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Trustworthy people are more likely to be granted special responsibilities and privileges."),
+
+  QuizQuestion(
+      question:
+          "100. The best way to live in peace in a community is to\n(BECE 2011 Q28)",
+      options: [
+        "Disagree with your enemies",
+        "Sit on the fence",
+        "Understand and co-operate with others",
+        "Enter into conflict with your neighbours"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperation promote peaceful community relationships."),
+
+  QuizQuestion(
+      question:
+          "101. It is our responsibility to prevent the spread cholera by\n(BECE 2011 Q30)",
+      options: [
+        "Immunizing against the six killer diseases",
+        "Eating a balanced diet",
+        "Keeping our surroundings clean",
+        "Taking good care of our wounds"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Good sanitation and clean surroundings help prevent the spread of cholera."),
+
+  QuizQuestion(
+      question:
+          "102. All the following are teachers' responsibilities towards their pupils except\n(BECE 2011 Q38)",
+      options: [
+        "Ensuring discipline",
+        "Making themselves approachable",
+        "Inviting parents of troublesome children",
+        "Feeding hungry pupils at school"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Feeding hungry pupils is not generally listed as a teacher's formal responsibility."),
+
+  QuizQuestion(
+      question:
+          "103. A citizen who indulges in social vices in the community is said to be\n(BECE 2012 Q21)",
+      options: [
+        "Unfriendly",
+        "Unreliable",
+        "Untruthful",
+        "Unpatriotic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Engaging in social vices harms the community and is considered contrary to patriotic behaviour."),
+
+  QuizQuestion(
+      question:
+          "104. The best way to live in peace in a community is to\n(BECE 2012 Q33)",
+      options: [
+        "Sit on the fences always",
+        "Be afraid of those in authority",
+        "Keep to oneself always",
+        "Understand and co-operate with others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperating with others promotes peaceful coexistence."),
+
+  QuizQuestion(
+      question:
+          "105. In a traditional society, the provision of shelter is the responsibility of the\n(BECE 2012 Q35)",
+      options: ["Father", "Grandfather", "Mother", "Uncle"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In the traditional family-role framework used in the question, the father is responsible for providing shelter."),
+
+  QuizQuestion(
+      question:
+          "106. Which of the following is not a responsibility of a family head?\n(BECE 2013 Q22)",
+      options: [
+        "Oversight of the general wellbeing of the family",
+        "Taking care of all family property",
+        "Settling disputes",
+        "Granting loans"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Granting loans is not a standard responsibility of the family head."),
+
+  QuizQuestion(
+      question:
+          "107. Putting one's interest above that of others results in\n(BECE 2013 Q31)",
+      options: ["Conflict", "Patriotism", "Selflessness", "Tolerance"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Self-centred behaviour can create disagreements and conflict with others."),
+
+  QuizQuestion(
+      question:
+          "108. Authority is instituted in the society to ensure\n(BECE 2014 Q30)",
+      options: ["Hard work", "Loyalty", "Peace", "Respect"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace and order in society."),
+
+  QuizQuestion(
+      question:
+          "109. School rules help pupils to\n(BECE 2014 Q32)",
+      options: [
+        "Avoid being punish",
+        "Worship God regularly",
+        "Compete with one another",
+        "Disobey school authorities"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Following school rules helps pupils avoid misconduct and its resulting punishment."),
+
+  QuizQuestion(
+      question:
+          "110. Carrying out assigned duties is necessary because, it\n(BECE 2014 Q33)",
+      options: [
+        "Pleases God and humankind",
+        "Attracts hatred from enemies",
+        "Leads to pacification of the gods",
+        "Leads to fulfillment of promises"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Responsible performance of assigned duties is valued by both religious teaching and society."),
+
+  QuizQuestion(
+      question:
+          "111. Authority is instituted in society to ensure\n(BECE 2018 Q28)",
+      options: [
+        "Freedom of speech",
+        "Peace and order",
+        "Respect for adults",
+        "The right to vote"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Authority helps maintain peace, discipline and social order."),
+
+  QuizQuestion(
+      question:
+          "112. The best way to live in peace in a community is to\n(BECE 2018 Q29)",
+      options: [
+        "Remain neutral",
+        "Sit on the fence",
+        "Offer special gifts to friends in school",
+        "Understand and co-operate with others"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Understanding and cooperation are essential for peaceful community living."),
+
+  QuizQuestion(
+      question:
+          "113. Which of the following activities is not a responsibility of a family head?\n(BECE 2018 Q30)",
+      options: [
+        "Giving loans to people",
+        "Settling disputes among people",
+        "Ensuring the well-being of the people",
+        "Taking custody of family property"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Giving loans is not one of the usual responsibilities of a family head."),
+
+  QuizQuestion(
+      question:
+          "114. Tidying the school compound is the child's\n(BECE 2018 Q32)",
+      options: ["Commitment", "Behaviour", "Loyalty", "Role"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Helping to tidy the school compound is one of the roles or responsibilities of pupils."),
+
+  QuizQuestion(
+      question:
+          "115. Carrying out assigned duties is necessary because it\n(BECE 2018 Q37)",
+      options: [
+        "Attracts hatred from enemies",
+        "Leads to fulfillment of promises",
+        "Leads to pacification of the gods",
+        "Pleases God and human kind"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Performing assigned duties responsibly is considered pleasing to God and beneficial to society."),
+
+  QuizQuestion(
+      question:
+          "116. School rules help pupils to\n(BECE 2018 Q38)",
+      options: [
+        "Avoid being punished",
+        "Compete with one another",
+        "Protect properties all the time",
+        "Worship God regularly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Obeying school rules helps pupils avoid misconduct and punishment."),
+
+  QuizQuestion(
+      question:
+          "117. Youth camps are organized purposely for the youth are to\n(BECE 1999 Q27)",
+      options: [
+        "Fend for themselves",
+        "Find their parents",
+        "Learn to socialize",
+        "Run away from household chores"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Youth camps provide opportunities for young people to interact, cooperate and socialize with others."),
+
+  QuizQuestion(
+      question:
+          "118. Which of the following is not taught in religious youth organizations?\n(BECE 1999 Q35)",
+      options: [
+        "Serving God and nation",
+        "Leading a disciplined life",
+        "Being law abiding",
+        "Ensuring violence to demand right"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations promote discipline and peaceful behaviour, not violence."),
+
+  QuizQuestion(
+      question:
+          "119. One of the important aims of a youth organization is to\n(BECE 2000 Q29)",
+      options: [
+        "Bring unity among the youth",
+        "Learn dancing and merry making",
+        "Let the youth be on their own and look for jobs",
+        "Oppose the views of the elderly"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Youth organizations encourage unity, cooperation and fellowship among young people."),
+
+  QuizQuestion(
+      question:
+          "120. One good reason for the establishment of Catholic Youth Organization (CYO) is to\n(BECE 2002A Q40)",
+      options: [
+        "Serve us soldiers to defend the church",
+        "Foster unity among the priest",
+        "Perform cultural dances in the church",
+        "Teach the youth about the traditions in the church"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Catholic Youth Organization helps educate Catholic youth in the teachings and traditions of the Church."),
+
+  QuizQuestion(
+      question:
+          "121. One important objective of religious youth organizations is to\n(BECE 2003 Q33)",
+      options: [
+        "Organize dancing competition during Christmas",
+        "Organizing pleasure trips",
+        "Practices moral teaching",
+        "Challenge elders on community development committees"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations place strong emphasis on moral education and character development."),
+
+  QuizQuestion(
+      question:
+          "122. One joins a religious youth movement in order to\n(BECE 2004 Q31)",
+      options: [
+        "Go to heaven",
+        "Help develop the religion",
+        "Organize crusades",
+        "Have prayers answered"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Members of religious youth movements help strengthen and develop their religious communities."),
+
+  QuizQuestion(
+      question:
+          "123. The Asafo companies are concerned with the promotion of all the following except\n(BECE 2005 Q4)",
+      options: [
+        "Good behaviour",
+        "Cultural development",
+        "Adolescent reproductive health",
+        "Social development"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally promote social, cultural and community responsibilities rather than adolescent reproductive health."),
+
+  QuizQuestion(
+      question:
+          "124. The Young People's Guild is an organization in the\n(BECE 2005 Q15)",
+      options: [
+        "Methodist church",
+        "Anglican church",
+        "Presbyterian church",
+        "Pentecost church"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Young People's Guild is associated with the Presbyterian Church."),
+
+  QuizQuestion(
+      question:
+          "125. A member of the Catholic Youth Organization (CYO) is called\n(BECE 2006 Q26)",
+      options: ["A deacon", "Voyager", "Soldier", "Crusader"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A member of the Catholic Youth Organization is commonly referred to as a crusader in this RME context."),
+
+  QuizQuestion(
+      question:
+          "126. A major reason for establishing traditional youth organization is to\n(BECE 2007 Q32)",
+      options: [
+        "Defend the interest of the community",
+        "Protect the ancestors and gods",
+        "Embark on educational tours",
+        "Fight those who destroy the environment"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Traditional youth organizations help protect and defend the interests of their communities."),
+
+  QuizQuestion(
+      question:
+          "127. The basic quality expected in any youth organization is\n(BECE 2007 Q34)",
+      options: [
+        "The spirit of voluntarism",
+        "Love for one's parents",
+        "Disregard for non-members of the group",
+        "Contestant prayers"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Youth organizations depend on willingness to serve and participate voluntarily."),
+
+  QuizQuestion(
+      question:
+          "128. All the following are functions of Asafo groups except\n(BECE 2008 Q37)",
+      options: [
+        "Weeding the surroundings and cleaning choked gutters",
+        "Ensuring that traditional norms are followed",
+        "Assisting chiefs in punishing wrong doers in the village",
+        "The supervision of marriage ceremonies in the village"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Supervising marriage ceremonies is not normally listed among the traditional functions of Asafo groups."),
+
+  QuizQuestion(
+      question:
+          "129. The spirit of patriotism is best shown by the youth of\n(BECE 2009 Q32)",
+      options: [
+        "Young People's Guild",
+        "Pentecost Youth Ministry",
+        "Asafo Company",
+        "Ahmadiyya Muslim Youth"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally defend and serve their communities, demonstrating patriotism."),
+
+  QuizQuestion(
+      question:
+          "130. A major reason of establishing traditional youth organization is to\n(BECE 2011 Q21)",
+      options: [
+        "Defend the interest of the community",
+        "Protect ancestors and the gods",
+        "Embark on educational tour",
+        "Fight those who destroy the environment"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Traditional youth organizations are established partly to protect and defend community interests."),
+
+  QuizQuestion(
+      question:
+          "131. The main aim of the girl's Brigade is to\n(BECE 2012 Q32)",
+      options: [
+        "Assist girls to attend school",
+        "Encourage girls to work hard",
+        "Help establish more girls' school",
+        "Produce good Christian womanhood"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Girls' Brigade seeks to develop girls in Christian character and responsible womanhood."),
+
+  QuizQuestion(
+      question:
+          "132. Youth camps are usually held to help young people to\n(BECE 2013 Q30)",
+      options: [
+        "Find life partners",
+        "Learn to socialize with others",
+        "Form important study groups",
+        "Organize their lives properly"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Youth camps provide opportunities for young people to interact and learn healthy social relationships."),
+
+  QuizQuestion(
+      question:
+          "133. The Asafo Youth Movement do not promote\n(BECE 2014 Q40)",
+      options: [
+        "Unity among its members",
+        "Selflessness among its members",
+        "Regular attendance of church service",
+        "The spirit of law abiding among its members"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Asafo organizations are traditional community groups and do not specifically promote regular church attendance."),
+
+  QuizQuestion(
+      question:
+          "134. Which of the following functions is performed by the Asafo companies\n(BECE 2015 Q17)",
+      options: [
+        "Acting as watchdogs",
+        "Registration of foreigners",
+        "Collection of taxes",
+        "Acting as arbitrators"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Asafo companies traditionally act as watchdogs who help protect the community."),
+
+  QuizQuestion(
+      question:
+          "135. Religious Youth Organizations are established to\n(BECE 2015 Q39)",
+      options: [
+        "Honour their leaders",
+        "Carry out communal labour",
+        "Help protect the natural environment",
+        "Defend the interest of the society"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Religious youth organizations train young people to serve their religion and contribute positively to society."),
+
+  QuizQuestion(
+      question:
+          "136. The main aim of religious youth organizations is to\n(BECE 2016 Q39)",
+      options: [
+        "Become political force in their communities",
+        "Educate the youth through moral teaching",
+        "Have inter-youth relations through competitions",
+        "Organize excursions to places of interest"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Religious youth organizations mainly provide moral and religious education for young people."),
+
+  QuizQuestion(
+      question:
+          "137. C.Y.O. as a religious youth group stands for\n(BECE 2018 Q39)",
+      options: [
+        "Catechists Youth Organization",
+        "Catholic Youngmen Organization",
+        "Christian Youngmen Organization",
+        "Catholic Youth Organization"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "C.Y.O. stands for Catholic Youth Organization."),
+
+  QuizQuestion(
+      question:
+          "138. Religious Youth Associations foster peace among its members by\n(BECE 2018 Q40)",
+      options: [
+        "Being law abiding",
+        "Caring for the sick",
+        "Causing the arrest of offenders",
+        "Worshipping and praying"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Law-abiding behaviour promotes discipline, order and peaceful relationships among members."),
+
+  QuizQuestion(
+      question:
+          "139. Asafo companies are important because\n(BECE 2020 Q40)",
+      options: [
+        "They enstool paramount chiefs",
+        "Help in environmental cleanliness",
+        "Offer employment to people",
+        "Promote local tourism"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Asafo companies participate in communal activities such as cleaning and maintaining the environment."),
+
+  QuizQuestion(
+      question:
+          "140. Which of the following options is the main role of Asafo companies?\n(BECE 2021 Q9)",
+      options: [
+        "Entertaining the society",
+        "Installation of paramount chiefs",
+        "Promotion of tourism",
+        "Defence of the community"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The traditional main role of Asafo companies is to defend and protect the community."),
+    ],
+  ),
+
+  "Religious & Moral Education JHS3 s4 ss1 - Islamic Prophets / Caliphs / Personalities": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. Prophet Mohammed's twelfth birthday is important because\n(BECE 1999 Q7)",
+options: [
+"There was prophecy about his future",
+"Halimah returned him to his parents",
+"Amina passed away",
+"Abdul Mutallib died"
+],
+correctIndex: 0,
+difficulty: "Medium",
+explanation:
+"The question associates this stage of Mohammed's life with a prophecy concerning his future."),
+  QuizQuestion(
+      question:
+          "2. Blessed are the merciful for they shall\n(BECE 1999 Q17)",
+      options: ["See God", "Obtain mercy", "Inherit the earth", "Be called the children of God"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the merciful shall obtain mercy."),
+
+  QuizQuestion(
+      question:
+          "3. The traditional healer does not normally charge high fees because\n(BECE 1999 Q40)",
+      options: [
+        "They are in the subsistence economy",
+        "They use cowries for diagnosis",
+        "Local herbs and plants are used",
+        "It will weaken the power of the medicine"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief may hold that charging excessive fees can weaken the spiritual effectiveness of the medicine."),
+
+  QuizQuestion(
+      question:
+          "4. Which of the following is not a patriarch?\n(BECE 2000 Q12)",
+      options: ["Abraham", "Isaac", "Jacob", "Noah"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Abraham, Isaac and Jacob are commonly referred to as the Biblical patriarchs."),
+
+  QuizQuestion(
+      question:
+          "5. A religious leader in Islam is called\n(BECE 2000 Q15)",
+      options: ["Khalifah", "Imam", "Alhaji", "Mallam"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An Imam leads Muslims in prayer and provides religious leadership."),
+
+  QuizQuestion(
+      question:
+          "6. The blind man Jesus healed was called\n(BECE 2000 Q17)",
+      options: ["Bartholomew", "Barabbas", "Bartimaeus", "Nicodemus"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Bartimaeus was the blind man healed by Jesus."),
+
+  QuizQuestion(
+      question:
+          "7. Jesus Christ began his ministry at the age of\n(BECE 2001 Q2)",
+      options: ["12", "25", "30", "33"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus began His public ministry at about thirty years of age."),
+
+  QuizQuestion(
+      question:
+          "8. A Muslim is a person who\n(BECE 2001 Q4)",
+      options: [
+        "Is at peace with God and his neighbour",
+        "Can recite the whole Qur'an",
+        "Fasts during the Ramadan",
+        "Visits Mecca every year"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A Muslim is one who submits to Allah and seeks peaceful relationships with others."),
+
+  QuizQuestion(
+      question:
+          "9. From the age of eight, Mohammed was brought up by\n(BECE 2001 Q12)",
+      options: ["Halimah", "Abdul Mutallib", "Khadijah", "Abu Talib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "After the death of his grandfather, Mohammed was cared for by his uncle Abu Talib."),
+
+  QuizQuestion(
+      question:
+          "10. The first Jewish temple was built by\n(BECE 2001 Q13)",
+      options: ["David", "Saul", "Solomon", "Samuel"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "King Solomon built the first Temple in Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "11. Jesus Christ was born in\n(BECE 2001 Q14)",
+      options: ["Jerusalem", "Bethlehem", "Bethsaida", "Galilee"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus was born in Bethlehem."),
+
+  QuizQuestion(
+      question:
+          "12. Which of the following personalities succeeded Mohammed?\n(BECE 2001 Q19)",
+      options: ["Abdullah", "Musa Mohammed", "Abu Bakr", "Issa Ibrahim"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Abu Bakr became the first Caliph after Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "13. One of the roles of the ancestors is to\n(BECE 2001 Q19)",
+      options: [
+        "Ensure harmony in the family",
+        "Give authority to the people",
+        "Settle our debts",
+        "Raise more ancestors from the family"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are traditionally believed to help maintain harmony and moral order in the family."),
+
+  QuizQuestion(
+      question:
+          "14. A person cannot qualify to be an ancestor if he\n(BECE 2002A Q16)",
+      options: [
+        "Had many wives",
+        "Had many children",
+        "Was very unpopular",
+        "Committed suicide"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief generally requires a person to have died a natural and honourable death to qualify as an ancestor."),
+
+  QuizQuestion(
+      question:
+          "15. All the laws which Moses gave to Israel can be found in the book of\n(BECE 2002A Q19)",
+      options: [
+        "Genesis, Exodus and Numbers",
+        "Genesis, Deuteronomy and Numbers",
+        "Genesis, Leviticus and Leviticus",
+        "Exodus, Leviticus and Deuteronomy"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The laws associated with Moses are particularly found in Exodus, Leviticus and Deuteronomy."),
+
+  QuizQuestion(
+      question:
+          "16. The sermon on the Mount was delivered by\n(BECE 2002B Q3)",
+      options: ["Jesus", "Moses", "Joshua", "Paul"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus delivered the Sermon on the Mount."),
+
+  QuizQuestion(
+      question:
+          "17. On which day did Jesus resurrect?\n(BECE 2002B Q5)",
+      options: ["Ascension Day", "Ash Wednesday", "Easter Sunday", "Palm Sunday"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians commemorate the resurrection of Jesus on Easter Sunday."),
+
+  QuizQuestion(
+      question:
+          "18. The second Caliph was\n(BECE 2002B Q6)",
+      options: ["Umar", "Abu bakr", "Uthman", "Ali"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Umar ibn al-Khattab was the second rightly guided Caliph."),
+
+  QuizQuestion(
+      question:
+          "19. The title Al-Faruq given to Umar by the Holy Prophet Mohammed means\n(BECE 2002B Q7)",
+      options: [
+        "A strong believer in the principles and teaching of Islam",
+        "Lover of faith",
+        "Defender of Islam",
+        "One who can differentiate between right and wrong"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Al-Faruq means one who distinguishes between right and wrong."),
+
+  QuizQuestion(
+      question:
+          "20. In the traditional society, one could become an ancestor when one\n(BECE 2002B Q9)",
+      options: [
+        "Visited the shrine always",
+        "Poured libation to the gods",
+        "Died a natural death",
+        "Married the widow of another man"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dying a natural and honourable death is traditionally one condition for becoming an ancestor."),
+
+  QuizQuestion(
+      question:
+          "21. In Islam if one is pious it means he\n(BECE 2002B Q13)",
+      options: ["Sees God", "Reads about God", "Understands God", "Fears God"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Piety in Islam involves consciousness and fear of Allah."),
+
+  QuizQuestion(
+      question:
+          "22. Whose preaching ministry urged the Jews to bear fruits that befit repentance?\n(BECE 2003 Q4)",
+      options: ["Jesus Christ", "Paul", "Peter", "John the Baptist"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "John the Baptist called people to repentance and to produce fruits worthy of repentance."),
+
+  QuizQuestion(
+      question:
+          "23. The Caliph Abu Bakr was referred to as Siddiq by Mohammed due to his\n(BECE 2003 Q5)",
+      options: ["Courage", "Tolerance", "Truthfulness", "Generosity"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Al-Siddiq means the truthful or the one who confirms the truth."),
+
+  QuizQuestion(
+      question:
+          "24. All those who took custody of Prophet Mohammed were happy with him because He\n(BECE 2003 Q6)",
+      options: [
+        "Had a unique character",
+        "Was a hardworking young man",
+        "Was an orphan at a tender age",
+        "Was prayerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Mohammed was respected for his admirable and trustworthy character."),
+
+  QuizQuestion(
+      question:
+          "25. God made a covenant with\n(BECE 2003 Q9)",
+      options: ["Isaac", "Abraham", "Jacob", "Joshua"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "God made a covenant with Abraham."),
+
+  QuizQuestion(
+      question:
+          "26. Which of the following persons knew God \"face to face\"?\n(BECE 2003 Q13)",
+      options: ["Abraham", "Isaac", "Jacob", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses is described as having known God face to face."),
+
+  QuizQuestion(
+      question:
+          "27. Joseph was hated by his brothers because\n(BECE 2004 Q2)",
+      options: [
+        "Jacob promised him of inheritance",
+        "He loved his father very much",
+        "Of his prophetic dreams",
+        "He was gentle and handsome"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Joseph's dreams suggested that his family would bow to him, increasing his brothers' jealousy."),
+
+  QuizQuestion(
+      question:
+          "28. The patriarch described as a \"great man of faith\" was\n(BECE 2004 Q3)",
+      options: ["Jacob", "David", "Moses", "Abraham"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Abraham is remembered for his exceptional faith and obedience to God."),
+
+  QuizQuestion(
+      question:
+          "29. Which of the following people was not a disciple of Jesus?\n(BECE 2004 Q4)",
+      options: ["Paul", "Peter", "Matthew", "James"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Paul became an apostle later but was not one of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "30. Prophet Mohammed is described as al-Amin because he was\n(BECE 2004 Q14)",
+      options: ["Wealthy", "Generous", "Honest", "Brave"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Al-Amin means trustworthy, reflecting Mohammed's honesty."),
+
+  QuizQuestion(
+      question:
+          "31. The legendary Tsali performed his magical powers in and around\n(BECE 2004 Q20)",
+      options: ["Agbozume", "Akpafia", "Anloga", "Tsame"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Togbe Tsali is traditionally associated with Anloga and the Anlo people."),
+
+  QuizQuestion(
+      question:
+          "32. Prophet Mohammed's marriage with Khadijah enabled him to\n(BECE 2005 Q8)",
+      options: [
+        "Free many Muslim slaves",
+        "Devote more time for worship",
+        "Migrate to Medina",
+        "Preach publicly in Mecca"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Khadijah's support gave Mohammed greater opportunity to devote himself to worship and reflection."),
+
+  QuizQuestion(
+      question:
+          "33. The traditions of the Prophet Mohammed which form part of the Quran are the\n(BECE 2005 Q9)",
+      options: [
+        "Injil and Zabur",
+        "Hadith and Sunnah",
+        "Sunnah and Injil",
+        "Ruya and Hadith"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The intended answer in the supplied choices is Hadith and Sunnah, which preserve traditions about Mohammed."),
+
+  QuizQuestion(
+      question:
+          "34. The chief who offered himself to be sacrificed during the Ashanti-Denkyira war was\n(BECE 2005 Q12)",
+      options: ["Opoku Ware", "Egya Ahor", "Ntim Gyakari", "Tweneboa Kodua"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tweneboa Kodua is remembered for sacrificing himself for the Asante cause."),
+
+  QuizQuestion(
+      question:
+          "35. Abraham was known for his great faith because he\n(BECE 2005 Q18)",
+      options: [
+        "Refused the idols of Canaan",
+        "Was willing to sacrifice his son to God",
+        "Built an altar to worship God",
+        "Agreed to separate from Lot"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Abraham demonstrated great faith through his willingness to obey God's command concerning his son."),
+
+  QuizQuestion(
+      question:
+          "36. The tribes of Israel derived their names from the sons of\n(BECE 2005 Q19)",
+      options: ["Abraham", "Joseph", "Jacob", "Isaac"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The twelve tribes of Israel were named after the sons and descendants of Jacob."),
+
+  QuizQuestion(
+      question:
+          "37. Israel came out of slavery in Egypt under the leadership of\n(BECE 2006 Q6)",
+      options: ["Joshua", "Joseph", "Abraham", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses led the Israelites out of slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "38. Togbe Tsali is remembered for\n(BECE 2006 Q7)",
+      options: [
+        "His cruelty to the Anlos",
+        "Freeing his people from oppressions",
+        "Selling his people into slavery",
+        "Allowing missionaries to preach to his people"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Togbe Tsali is remembered in Anlo tradition for helping his people escape oppression."),
+
+  QuizQuestion(
+      question:
+          "39. The second Caliph of Islam was\n(BECE 2006 Q9)",
+      options: ["Ali", "Abubakar", "Umar", "Uthman"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Umar was the second Caliph after Abu Bakr."),
+
+  QuizQuestion(
+      question:
+          "40. God gave Noah and his people the rainbow as a sign of the covenant that\n(BECE 2006 Q10)",
+      options: [
+        "The earth would never again be destroyed by flood",
+        "Idol worshippers would be destroyed",
+        "Heavenly bodies would always give light",
+        "Humankind would not speak the same language"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The rainbow represented God's promise not to destroy the earth again by a flood."),
+
+  QuizQuestion(
+      question:
+          "41. A dead person is not regarded as an ancestor if he or she\n(BECE 2006 Q13)",
+      options: [
+        "Lived for more than forty years",
+        "Died through an accident",
+        "Married and had many children",
+        "Died while defending his community"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief generally requires a natural or honourable death for ancestral status."),
+
+  QuizQuestion(
+      question:
+          "42. The burning bush that Moses saw attracted him because\n(BECE 2006 Q14)",
+      options: [
+        "God spoke to him from it",
+        "The place was a holy ground",
+        "The fire was not consuming the bush",
+        "God wanted to save Israel through him"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Moses was amazed because the bush was burning without being consumed."),
+
+  QuizQuestion(
+      question:
+          "43. According to the Qur'an, the Torah was revealed through\n(BECE 2006 Q18)",
+      options: ["Ibrahim", "Mohammed", "Yusuf", "Ishmael"],
+      correctIndex: -1,
+      difficulty: "Medium",
+      explanation:
+          "The expected figure is Musa (Moses), but Musa is not among the supplied options."),
+
+  QuizQuestion(
+      question:
+          "44. According to Jesus, the poor in spirit are blessed because they shall\n(BECE 2006 Q19)",
+      options: [
+        "Inherit the Kingdom of heaven",
+        "Be comforted",
+        "Inherit the earth",
+        "Be called the sons of God"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the kingdom of heaven belongs to the poor in spirit."),
+
+  QuizQuestion(
+      question:
+          "45. The Qur'an was revealed to Mohammed through\n(BECE 2007 Q2)",
+      options: ["Abu Bakr", "Angel Jibril", "Zayd Ibn Thabit", "Angel Mikail"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims believe that Angel Jibril delivered Allah's revelations to Mohammed."),
+
+  QuizQuestion(
+      question:
+          "46. God saved the believers from the flood through\n(BECE 2007 Q8)",
+      options: ["Abraham", "Moses", "Noah", "Joseph"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Noah built the ark through which the believers survived the flood."),
+
+  QuizQuestion(
+      question:
+          "47. Caliph Abu Bakr is remembered for\n(BECE 2007 Q9)",
+      options: [
+        "Going on pilgrimage with the prophet",
+        "Marrying the prophet's daughter",
+        "Compiling the Qur'an into a book",
+        "Defending the prophet in Mecca"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The first collection of Qur'anic material into a compiled form was undertaken during Abu Bakr's caliphate."),
+
+  QuizQuestion(
+      question:
+          "48. The name Moses means\n(BECE 2007 Q19)",
+      options: [
+        "Washed in water",
+        "Drawn out of water",
+        "Abandoned in water",
+        "Baptised with water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Biblical explanation of the name Moses is 'drawn out of water.'"),
+
+  QuizQuestion(
+      question:
+          "49. Aminah is popular among Muslims because she\n(BECE 2008 Q6)",
+      options: [
+        "Married Mohammed",
+        "Gave birth to Mohammed",
+        "Supported Mohammed in the Jihads",
+        "Was Mohammed's sister"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Aminah was the mother of Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "50. The death of Jesus teaches us how we must\n(BECE 2008 Q12)",
+      options: [
+        "Be committed to our children",
+        "Love one another in all things",
+        "Faithfully serve our nation",
+        "Sacrifice for the church"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Jesus' sacrificial death is presented as an example of selfless love for others."),
+
+  QuizQuestion(
+      question:
+          "51. Mount Calvary was the place where Jesus\n(BECE 2008 Q13)",
+      options: [
+        "Ascended to heaven",
+        "Was crucified",
+        "Was transfigured",
+        "Preached His last sermon"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus was crucified at Calvary, also called Golgotha."),
+
+  QuizQuestion(
+      question:
+          "52. Moses ordered the celebration of the Passover to commemorate the\n(BECE 2008 Q14)",
+      options: [
+        "Crossing of the Red Sea",
+        "Deliverance from Egyptian bondage",
+        "Death of Egyptian first-born",
+        "Encounter with the burning bush"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Passover commemorates the Israelites' deliverance from slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "53. The moral lesson from the life of Tweneboa Kodua is that one should cultivate the habit of\n(BECE 2008 Q15)",
+      options: ["Faithfulness", "Punctuality", "Truthfulness", "Sacrifice"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tweneboa Kodua is remembered for sacrificing himself for his people."),
+
+  QuizQuestion(
+      question:
+          "54. Caliph Abubakar led prayers in the lifetime of prophet Mohammed because the Prophet\n(BECE 2008 Q16)",
+      options: ["Was tired", "Was sick", "Wanted to test him", "Had travelled"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Abu Bakr led the prayers when Prophet Mohammed became seriously ill."),
+
+  QuizQuestion(
+      question:
+          "55. Blessed are the meek for they shall\n(BECE 2008 Q17)",
+      options: ["Obtain mercy", "See God", "Inherit the earth", "Be satisfied"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the meek shall inherit the earth."),
+
+  QuizQuestion(
+      question:
+          "56. Jesus' washing of the feet of His disciples teaches a lesson in\n(BECE 2008 Q20)",
+      options: [
+        "Respect for the elderly",
+        "Expressing love to others",
+        "Rendering service to others",
+        "Being helpful to others"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Washing the disciples' feet demonstrated humble service to others."),
+
+  QuizQuestion(
+      question:
+          "57. The two dreams of Joseph focused on his\n(BECE 2009 Q6)",
+      options: ["Apprenticeship", "Kinship", "Leadership", "Stewardship"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's dreams symbolically indicated his future leadership over his family."),
+
+  QuizQuestion(
+      question:
+          "58. Togbe Tsali gave his jaws to his people as a\n(BECE 2009 Q8)",
+      options: [
+        "Totem to be worshipped",
+        "Powerful instrument of divination",
+        "Foundation stone for shrines",
+        "Present to the King after him"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "In the tradition referenced by the question, Tsali's jaws were regarded as a powerful instrument of divination."),
+
+  QuizQuestion(
+      question:
+          "59. A traditional chief may be destooled if he\n(BECE 2009 Q12)",
+      options: [
+        "Becomes a born-again Christian",
+        "Takes many wives",
+        "Does not give birth to children",
+        "Misuses stool property"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Misuse of stool or community property is a serious breach of a chief's responsibilities."),
+
+  QuizQuestion(
+      question:
+          "60. The intermediate cause of Mohammed's departure to Medina was\n(BECE 2009 Q13)",
+      options: [
+        "Invitation from Yathrib",
+        "Harsh conditions in Mecca",
+        "Plan to kill him",
+        "Desire to spread Islam"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The immediate danger created by a plot to kill Mohammed prompted his departure from Mecca."),
+
+  QuizQuestion(
+      question:
+          "61. Which of the following were not among the twelve disciples?\n(BECE 2009 Q20)",
+      options: [
+        "Matthew and James",
+        "Simon and Andrews",
+        "Peter and John",
+        "Paul and Barnabas"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Paul and Barnabas were important early Christians but were not members of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "62. According to Jesus, the summary of the ten commandments is\n(BECE 2009 Q29)",
+      options: [
+        "Love for God and one's neighbour",
+        "Obedience to parents and the elderly",
+        "Observing the Sabbath and keeping it holy",
+        "Worshipping only God and not gods"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jesus summarized the law as love for God and love for one's neighbour."),
+
+  QuizQuestion(
+      question:
+          "63. \"Blessed are the peace makers for they shall\n(BECE 2011 Q7)",
+      options: ["See God", "Be called sons of God", "Inherit the earth", "Obtain mercy"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that peacemakers shall be called children of God."),
+
+  QuizQuestion(
+      question:
+          "64. The name Moses means\n(BECE 2011 Q8)",
+      options: [
+        "Washed in water",
+        "Drawn out of water",
+        "Abandoned with water",
+        "Baptised with water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The name Moses is explained in the Biblical account as 'drawn out of water.'"),
+
+  QuizQuestion(
+      question:
+          "65. Which of the following disciples of Jesus were brothers?\n(BECE 2011 Q19)",
+      options: ["John and James", "Joseph and John", "Peter and Matthew", "Judas and Thomas"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "James and John were brothers and sons of Zebedee."),
+
+  QuizQuestion(
+      question:
+          "66. Which of the following is responsible for morality in traditional society?\n(BECE 2011 Q25)",
+      options: ["Linguist", "Gong-gong beater", "Chief priest", "Fortune teller"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The chief priest plays an important religious role in maintaining traditional moral standards."),
+
+  QuizQuestion(
+      question:
+          "67. The patriarchal covenant was made between God and\n(BECE 2012 Q11)",
+      options: ["Abraham", "Aaron", "Moses", "Noah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The patriarchal covenant is particularly associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "68. The main lesson that can be learnt from the story of Noah and the flood is\n(BECE 2012 Q12)",
+      options: ["Tolerance", "Truthfulness", "Sincerity", "Obedience"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Noah obeyed God's instructions and was saved from the flood."),
+
+  QuizQuestion(
+      question:
+          "69. Jesus accepted to be baptised by John in order to\n(BECE 2012 Q14)",
+      options: [
+        "Make the Jews happy",
+        "Show His faith in John's power",
+        "Fulfill all righteousness",
+        "Confirm His sonship of God"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus said His baptism was necessary to fulfill all righteousness."),
+
+  QuizQuestion(
+      question:
+          "70. Which Christian virtue did Joseph exhibit in his life?\n(BECE 2012 Q15)",
+      options: ["Humility", "Forgiveness", "Repentance", "Tolerance"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Joseph forgave his brothers despite the wrong they had done to him."),
+
+  QuizQuestion(
+      question:
+          "71. Jacob's children went to Egypt because\n(BECE 2013 Q2)",
+      options: [
+        "There was a great famine",
+        "Joseph was a governor",
+        "There was good pasture for cattle",
+        "People were losing their lives"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Jacob's sons travelled to Egypt because famine had created severe food shortages."),
+
+  QuizQuestion(
+      question:
+          "72. Jesus came into the world so that people may\n(BECE 2013 Q11)",
+      options: [
+        "Forgive their enemies",
+        "Have eternal life",
+        "Overcome problems",
+        "Become wealthy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christian teaching presents Jesus as bringing salvation and eternal life."),
+
+  QuizQuestion(
+      question:
+          "73. God's covenant with the patriarch is associated with\n(BECE 2013 Q12)",
+      options: ["Abraham", "Joseph", "Joshua", "Moses"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The patriarchal covenant is associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "74. By facing the wild beast, Toha Zie\n(BECE 2013 Q14)",
+      options: [
+        "Helped the poor in the community",
+        "Led his people to defeat their enemies",
+        "Risked his life for his people",
+        "Preached peace to his people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie demonstrated courage and self-sacrifice by risking his life for his people."),
+
+  QuizQuestion(
+      question:
+          "75. Israel came out of slavery in Egypt under the leadership of\n(BECE 2013 Q18)",
+      options: ["Abraham", "Joseph", "Joshua", "Moses"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moses led the Israelites out of slavery in Egypt."),
+
+  QuizQuestion(
+      question:
+          "76. Egya Ahor is remembered for sacrificing his life to\n(BECE 2013 Q19)",
+      options: [
+        "Ensure victory at war",
+        "Free his people from slavery",
+        "Save children from hunger",
+        "Ward off an epidemic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Egya Ahor is traditionally remembered for sacrificing himself to end an epidemic affecting his people."),
+
+  QuizQuestion(
+      question:
+          "77. The twelfth son of Jacob was\n(BECE 2014 Q6)",
+      options: ["Benjamin", "Daniel", "Joseph", "Simon"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Benjamin was Jacob's youngest and twelfth son."),
+
+  QuizQuestion(
+      question:
+          "78. Moses led the Israelites through the wilderness for\n(BECE 2014 Q7)",
+      options: ["Forty years", "Forty months", "Fifty years", "Fifty months"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites wandered in the wilderness for forty years."),
+
+  QuizQuestion(
+      question:
+          "79. Which of the following people was commanded by God to build an ark?\n(BECE 2015 Q1)",
+      options: ["Joseph", "Jacob", "Noah", "David"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "God commanded Noah to build the ark."),
+
+  QuizQuestion(
+      question:
+          "80. Who gave the tomb in which Jesus was buried?\n(BECE 2015 Q2)",
+      options: ["Simon of Cyrene", "Joseph of Arimathea", "Nicodemus", "Zebedee"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Joseph of Arimathea provided the tomb for Jesus' burial."),
+
+  QuizQuestion(
+      question:
+          "81. Egya Ahor is fondly remembered by the Fante for\n(BECE 2015 Q18)",
+      options: [
+        "His miraculous powers",
+        "Commanding the golden stool",
+        "His resurrection from death",
+        "Saving his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Egya Ahor is remembered for sacrificing himself to save his people."),
+
+  QuizQuestion(
+      question:
+          "82. Joseph was hated by his brothers because\n(BECE 2016 Q1)",
+      options: [
+        "He was loved by his father very much",
+        "He was gentle and handsome",
+        "Jacob promised him of inheritance",
+        "Of his prophetic dreams"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's dreams increased his brothers' jealousy because they suggested he would rule over them."),
+
+  QuizQuestion(
+      question:
+          "83. Who provided the tomb in which Jesus was buried?\n(BECE 2016 Q5)",
+      options: ["Joseph of Arimathea", "Nicodemus", "Simon of Cyrene", "Zebedee"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Joseph of Arimathea provided the tomb in which Jesus was buried."),
+
+  QuizQuestion(
+      question:
+          "84. The second rightly guided caliph in Islam was\n(BECE 2016 Q6)",
+      options: [
+        "Abu Bakr Al Siddiq",
+        "Umar Ibn Al-Khattab",
+        "Uthman Ibu Affan",
+        "Ali Ibn Abu Talib"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Umar ibn al-Khattab was the second rightly guided Caliph."),
+
+  QuizQuestion(
+      question:
+          "85. By facing the wild beast, Toha Zie\n(BECE 2016 Q7)",
+      options: [
+        "Led his people to be defeated",
+        "Preached peace to his people",
+        "Helped the poor",
+        "Risked his life for his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie demonstrated courage by risking his life for the safety of his people."),
+
+  QuizQuestion(
+      question:
+          "86. The teachings of Prophet Mohammed are found in the\n(BECE 2016 Q8)",
+      options: ["Kalina", "Hadith", "Ijmah", "Sura"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Hadith records sayings, actions and traditions associated with Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "87. The Israelites were finally led to the land of Canaan by\n(BECE 2016 Q9)",
+      options: ["Aaron", "Joseph", "Joshua", "Moses"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Joshua succeeded Moses and led the Israelites into Canaan."),
+
+  QuizQuestion(
+      question:
+          "88. Which of the following people was not among the twelve disciples of Jesus?\n(BECE 2016 Q15)",
+      options: ["James", "Matthew", "Paul", "Peter"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Paul was not one of the original twelve disciples."),
+
+  QuizQuestion(
+      question:
+          "89. God's covenant with patriarchs is associated with\n(BECE 2017 Q2)",
+      options: ["Abraham", "Joshua", "Joseph", "Moses"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "God's covenant with the patriarchs is especially associated with Abraham."),
+
+  QuizQuestion(
+      question:
+          "90. Egya Ahor is remembered for sacrificing his life to\n(BECE 2017 Q6)",
+      options: [
+        "Ensure victory at war",
+        "Free his people from slavery",
+        "Save children from being kidnapped",
+        "Ward off an epidemic"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Egya Ahor is remembered for sacrificing himself to bring an epidemic to an end."),
+
+  QuizQuestion(
+      question:
+          "91. Jacob's children went to Egypt because\n(BECE 2017 Q7)",
+      options: [
+        "Joseph was a governor in Egypt",
+        "People were losing their lives",
+        "There was a great famine",
+        "There was a good pasture there for cattle"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A severe famine caused Jacob's sons to travel to Egypt in search of food."),
+
+  QuizQuestion(
+      question:
+          "92. The first Muezzin in Islam was\n(BECE 2017 Q15)",
+      options: ["Abu Talib", "Bilal", "Salman", "Zayd"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bilal ibn Rabah is traditionally recognized as the first Muezzin."),
+
+  QuizQuestion(
+      question:
+          "93. The first Muezzin was\n(BECE 2018 Q6)",
+      options: ["Ali", "Bilal", "Ibrahim", "Musah"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bilal was the first person appointed to call Muslims to prayer."),
+
+  QuizQuestion(
+      question:
+          "94. Moses led the Israelites through the wilderness for\n(BECE 2018 Q7)",
+      options: ["Forty months", "Forty years", "Fifty months", "Fifty years"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Israelites spent forty years in the wilderness."),
+
+  QuizQuestion(
+      question:
+          "95. Egya Ahor is fondly remembered by the Fantes for\n(BECE 2018 Q8)",
+      options: [
+        "Commanding the Golden Stool",
+        "His miraculous powers",
+        "His resurrection from death",
+        "Saving his people"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Egya Ahor is remembered for the sacrifice he made to save his people."),
+
+  QuizQuestion(
+      question:
+          "96. The spiritual leader who was also a successor of Prophet Muhammad (SAW) was\n(BECE 2019 Q6)",
+      options: ["Caliph", "Hafiz", "Imam", "Shierk"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A Caliph was a successor to Prophet Mohammed in leadership of the Muslim community."),
+
+  QuizQuestion(
+      question:
+          "97. Egya Ahor was honoured with the Ahobaa festival because of his\n(BECE 2019 Q7)",
+      options: ["Magical dead", "Death for the land", "Good leadership", "Killing of the beast"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The festival commemorates Egya Ahor's sacrificial death for his people and land."),
+
+  QuizQuestion(
+      question:
+          "98. Toha Zie became famous because\n(BECE 2019 Q8)",
+      options: [
+        "Of his exploits in war",
+        "He was a hunter",
+        "He was considered as a god",
+        "He saved his people from beasts"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Toha Zie is remembered for protecting his people from dangerous beasts."),
+
+  QuizQuestion(
+      question:
+          "99. Toha Zie was nicknamed the red hunter because of his\n(BECE 2020 Q7)",
+      options: ["Character", "Complexion", "Kindness", "Wisdom"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The nickname 'red hunter' is associated with his complexion."),
+
+  QuizQuestion(
+      question:
+          "100. The major event that led to the conversion of Umar ibn Al-Khatab into Islam was\n(BECE 2020 Q8)",
+      options: [
+        "Mohammed's flight into Medina",
+        "The beating of his sister",
+        "The death of Caliph Abu Bakr",
+        "The preaching of Abu Bakr"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The confrontation with his sister and his subsequent encounter with Qur'anic verses played a major role in Umar's conversion."),
+
+  QuizQuestion(
+      question:
+          "101. The name Abram means\n(BECE 2020 Q9)",
+      options: ["Exalted father", "Faithful father", "Favoured father", "Nation's father"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Abram is traditionally interpreted to mean 'exalted father.'"),
+
+  QuizQuestion(
+      question:
+          "102. The seeds that fell along the path in the Parable of the Sower were\n(BECE 2021 Q3)",
+      options: [
+        "Blown away by the wind",
+        "Eaten by birds",
+        "Choked by thorns",
+        "Scorched by the sun"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In the parable, birds came and ate the seeds that fell along the path."),
+
+  QuizQuestion(
+      question:
+          "103. One virtue that can be emulated from the lives of Egya Ahor and Tweneboa Kodua is\n(BECE 2021 Q5)",
+      options: ["Justice", "Love", "Hard work", "Respect"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Their willingness to sacrifice themselves for their people demonstrates selfless love."),
+
+  QuizQuestion(
+      question:
+          "104. The Patriarch who took his brother's birth right and blessings was\n(BECE 2021 Q12)",
+      options: ["Essau", "Joseph", "Jacob", "Isaac"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jacob obtained Esau's birthright and later received the blessing intended for Esau."),
+
+  QuizQuestion(
+      question:
+          "105. Muslims believe that God's messages to his prophets were declared through His\n(BECE 2021 Q26)",
+      options: ["Angels", "Caliphs", "Divinities", "Imams"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Muslims believe Allah communicated revelation to prophets through angels such as Jibril."),
+
+  QuizQuestion(
+      question:
+          "106. Shed no blood. Which of Joseph's brothers said this?\n(BECE 2022 Q6)",
+      options: ["Reuben", "Simon", "Benjamin", "Judah"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Reuben urged his brothers not to shed Joseph's blood."),
+
+  QuizQuestion(
+      question:
+          "107. God sent Joseph to Egypt in order to\n(BECE 2022 Q7)",
+      options: [
+        "Fulfill the dreams of Joseph",
+        "Save the Israelites from death",
+        "Reveal his love for humanity",
+        "Punish the Egyptians for disobedience"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Joseph's presence in Egypt eventually enabled his family to survive the famine."),
+
+  QuizQuestion(
+      question:
+          "108. Okomfo Anokye united the Asante Kingdom through commanding the golden stool from the\n(BECE 2022 Q8)",
+      options: ["Sun", "Shrine", "Sky", "Moon"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Asante tradition holds that Okomfo Anokye commanded the Golden Stool from the sky."),
+
+  QuizQuestion(
+      question:
+          "109. The parable of the Good Samaritan teaches that a neighbour is\n(BECE 2022 Q9)",
+      options: [
+        "The person next door",
+        "The sick and destitute",
+        "Your next of kin",
+        "Anyone who needs help"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The parable teaches that neighbourly love should be shown to anyone who needs help."),
+
+  QuizQuestion(
+      question:
+          "110. The second most important commandment taught by Jesus Christ is the love for\n(BECE 2022 Q34)",
+      options: ["Holy Spirit", "God", "Neighbours", "Religious leaders"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jesus taught that the second greatest commandment is to love one's neighbour."),
+
+  QuizQuestion(
+      question:
+          "111. The parable of Jesus Christ that teaches love and mercy is the parable of\n(BECE 2022 Q35)",
+      options: ["Mustard Seed", "Lost Coin", "Ten Virgins", "Good Samaritan"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Good Samaritan teaches compassion, love and mercy toward people in need."),
+
+  QuizQuestion(
+      question:
+          "112. Golgotha was the place where Jesus Christ\n(BECE 2023 Q8)",
+      options: [
+        "Fed the five thousand men",
+        "Fasted for forty days",
+        "Prayed in the night",
+        "Was crucified"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Golgotha was the place where Jesus was crucified."),
+
+  QuizQuestion(
+      question:
+          "113. Which of the following virtues can be learnt from the life stories of Joseph?\n(BECE 2023 Q17)",
+      options: ["Reconciliation", "Retribution", "Repentance", "Reformation"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Joseph reconciled with and forgave his brothers despite their earlier actions against him."),
+
+  QuizQuestion(
+      question:
+          "114. \"And who is my neighbour?\" Jesus answered this question with the parable of the\n(BECE 2023 Q38)",
+      options: ["Mustard seed", "Prodigal son", "Wicked Tenants", "Good Samaritan"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Jesus answered the question about who a neighbour is by telling the Parable of the Good Samaritan."),
+
+    ],
+  ),
+  "Religious & Moral Education JHS3 s5 ss1 - Religious Practices": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. The system by which a drink is poured to the gods and the Supreme beings is known as\n(BECE 2000 Q18)",
+options: ["Sacrifice", "Thankfulness", "Worship", "Libation"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Libation is the pouring of a drink as a form of traditional prayer or worship."),
+  QuizQuestion(
+      question:
+          "2. The pillar of faith in Islam which expresses charity is\n(BECE 2000 Q9)",
+      options: ["Salat", "Sawn", "Zakat", "Kalimat"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Zakat is the compulsory charitable giving required of qualified Muslims."),
+
+  QuizQuestion(
+      question:
+          "3. Mourners from the cemetery wash their hands before entering funeral house again to\n(BECE 1999 Q11)",
+      options: [
+        "Break relations with the dead",
+        "Shows that they are among the living",
+        "Announce their return from the cemetery",
+        "Cleanse themselves from any curse"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The washing is traditionally understood as ritual cleansing after returning from the cemetery."),
+
+  QuizQuestion(
+      question:
+          "4. The rite of throwing stones at the pillars during the Hajj signifies the\n(BECE 1999 Q19)",
+      options: [
+        "Exercising of the body",
+        "Victory over the devil",
+        "Preparing to fight the enemies",
+        "Security of the holy place"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The stoning ritual symbolizes rejection of Satan and victory over temptation."),
+
+  QuizQuestion(
+      question:
+          "5. Muslim's last respect to the dead is by\n(BECE 1999 Q8)",
+      options: [
+        "Offering Janazah",
+        "Burial with a coffin",
+        "Dressing the corpse in suit",
+        "Sacrificing a ram"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the Islamic funeral prayer offered for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "6. To become a Christian, one must first\n(BECE 2000 Q6)",
+      options: [
+        "Say the Lord's prayer",
+        "Recite the Apostle's creed",
+        "Be confirmed",
+        "Be baptized"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Baptism is an important Christian initiation rite."),
+
+  QuizQuestion(
+      question:
+          "7. All the religions in Ghana believe in\n(BECE 1999 Q4)",
+      options: [
+        "Jesus Christ",
+        "The Bible",
+        "The prophet Mohammed",
+        "The supreme God"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all affirm belief in a Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "8. The Islamic practice where wealthy Muslims cater for the needs of the poor and needy is\n(BECE 1999 Q6)",
+      options: ["Hajj", "Zakat", "Ihram", "Mahr"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat supports the poor and needy through required charitable giving."),
+
+  QuizQuestion(
+      question:
+          "9. Muslims pray five times a day in order to\n(BECE 2000 Q10)",
+      options: [
+        "Be known in the community",
+        "Avoid evil and bad actions",
+        "Dominate world affairs",
+        "Be role models in society"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Regular prayer helps Muslims remain conscious of Allah and avoid wrongdoing."),
+
+  QuizQuestion(
+      question:
+          "10. Which of the following months is also (special) occasion on the Islamic calendar?\n(BECE 1999 Q14)",
+      options: ["Rajab", "Ramadan", "Sha'ban", "Shawal"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ramadan is the special Islamic month of fasting."),
+
+  QuizQuestion(
+      question:
+          "11. Akwesidae according to the Akan calendar is\n(BECE 2001 Q11)",
+      options: [
+        "A day that marks the beginning of the month",
+        "The first Sunday that marks the beginning of the month",
+        "The Sunday that marks the 42nd day of the month",
+        "A day on which the Golden stool descended"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Akwasidae is observed according to the Akan forty-two-day traditional calendar cycle."),
+
+  QuizQuestion(
+      question:
+          "12. Uthman B. Affan standardized the Qur'an in order to\n(BECE 2000 Q19)",
+      options: [
+        "Bring it into one volume",
+        "Avoid the omission of some verse",
+        "Give the Qur'an the same reading",
+        "Stop the fighting among Muslims"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Uthman standardized copies of the Qur'an to ensure uniform recitation and reading."),
+
+  QuizQuestion(
+      question:
+          "13. The third Islamic daily prayer is\n(BECE 2000 Q4)",
+      options: ["Asr", "Zuhr", "Fajr", "Maghrib"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The daily order is Fajr, Zuhr, Asr, Maghrib and Isha."),
+
+  QuizQuestion(
+      question:
+          "14. The burial of pieces of hair, fingernails and toenails of a corpse at his hometown signifies that\n(BECE 1999 Q10)",
+      options: [
+        "There is life after death",
+        "The spirit has contact with the living",
+        "Lesser gods want the spirit",
+        "Witches are powerful in one's hometown"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects traditional belief in continued existence after physical death."),
+
+  QuizQuestion(
+      question:
+          "15. Traditional religion is practiced in order to\n(BECE 2001 Q7)",
+      options: [
+        "Instill discipline",
+        "Worship idols",
+        "Preserve African culture",
+        "Disregard other religions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "African Traditional Religion helps preserve indigenous beliefs, customs and culture."),
+
+  QuizQuestion(
+      question:
+          "16. The first book in the Bible is called\n(BECE 2000 Q20)",
+      options: ["Genesis", "Deuteronomy", "Exodus", "Revelation"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Genesis is the first book of the Bible."),
+
+  QuizQuestion(
+      question:
+          "17. Palm Sunday is observed by Christians to remember the\n(BECE 1999 Q2)",
+      options: [
+        "Birth and baptism of Christ",
+        "Resurrection and appearance of Christ",
+        "Joyful journey of Christ into Jerusalem",
+        "Baptism of the Holy Spirit"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "18. Among the Asante, farming is not done on Thursday because\n(BECE 1999 Q11)",
+      options: [
+        "The soil becomes fertile on this day",
+        "Wild animals come out on this day",
+        "It is specially reserved for the ancestors",
+        "It is the day of the earth goddess"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Thursday is traditionally associated with the earth goddess and may be observed as a farming taboo."),
+
+  QuizQuestion(
+      question:
+          "19. The essence of the Ramadan to Muslims is to\n(BECE 1999 Q20)",
+      options: [
+        "Keep the body fit",
+        "Save food",
+        "Make one become used to hunger",
+        "Guard against evil"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Fasting during Ramadan promotes self-control and helps Muslims guard against evil."),
+
+  QuizQuestion(
+      question:
+          "20. Which of the religion believes that God moved from the earth because of the activities of mankind?\n(BECE 2000 Q2)",
+      options: ["Christianity", "Islam", "Traditionalist", "Hinduism"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Some African Traditional creation stories explain God's distance from humans through human actions."),
+
+  QuizQuestion(
+      question:
+          "21. Kente weaving is popular among the\n(BECE 1999 Q33)",
+      options: ["Asante", "Kwehu", "Fante", "Akwapim"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Kente weaving is strongly associated with the Asante people."),
+
+  QuizQuestion(
+      question:
+          "22. It is believed that burying the dead with money helps him to\n(BECE 1999 Q16)",
+      options: [
+        "Pay his debtors in the spiritual world",
+        "Pay for his fare to cross the river to the other world",
+        "Pay the ancestors for welcoming him",
+        "Take care of his needs"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects a traditional belief that the deceased may need payment for the journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "23. The Muslim prayer observed between Asr and Isha is\n(BECE 1999 Q5)",
+      options: ["Zuhr", "Jumu'ah", "Idd", "Maghrib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is observed after sunset, between Asr and Isha."),
+
+  QuizQuestion(
+      question:
+          "24. Salat is to prayer as charity is to\n(BECE 2001 Q10)",
+      options: ["Zakat", "Shahadah", "Sawn", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Salat means prayer, while Zakat refers to obligatory charity."),
+
+  QuizQuestion(
+      question:
+          "25. The act of going round the Ka'ba seven times during the Hajj teaches\n(BECE 1999 Q15)",
+      options: ["Bravery", "Cleanliness", "Humility", "Endurance"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tawaf requires perseverance and therefore teaches endurance."),
+
+  QuizQuestion(
+      question:
+          "26. The main role of angels in Islam is to\n(BECE 2001 Q15)",
+      options: [
+        "Reveal Allah's orders and messages to His Prophets",
+        "Help Allah's Prophets to understand the Qur'an",
+        "Explain dreams to the people",
+        "Give spiritual power for the writing of the Qur'an"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Angels serve Allah and communicate His messages to prophets."),
+
+  QuizQuestion(
+      question:
+          "27. How many times do Muslims go round the Ka'ba during Hajj?\n(BECE 2001 Q16)",
+      options: ["1", "3", "5", "7"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Muslims perform seven circuits around the Ka'ba during Tawaf."),
+
+  QuizQuestion(
+      question:
+          "28. Which of the following pair of games can best make the child wise and strong?\n(BECE 2001 Q28)",
+      options: [
+        "Riddles and oware",
+        "Ampe and quizzes",
+        "Tug-of-war and wrestling",
+        "Oware and quizzes"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Riddles develop reasoning while oware develops strategic thinking."),
+
+  QuizQuestion(
+      question:
+          "29. All the three main religions in Ghana believe strongly in\n(BECE 2002A Q3)",
+      options: ["Angels", "Ancestors", "Destiny", "Righteousness"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all promote righteous living."),
+
+  QuizQuestion(
+      question:
+          "30. One of the main reasons why Christians pray is to ask God to\n(BECE 2002A Q4)",
+      options: [
+        "Let them fight their enemies",
+        "Forgive them their sins",
+        "Draw them closer to their friends",
+        "Give them more wealth"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christians pray for forgiveness of sins among other reasons."),
+
+  QuizQuestion(
+      question:
+          "31. In Islam a Muslim must offer prayers\n(BECE 2002A Q6)",
+      options: ["Six times daily", "Five times daily", "Four times daily", "Three times daily"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims perform five obligatory daily prayers."),
+
+  QuizQuestion(
+      question:
+          "32. Traditional believer sacrifices when he\n(BECE 2002A Q7)",
+      options: [
+        "Pours libation to the gods",
+        "Offers food and living things to the gods",
+        "Sings dirges to the dead",
+        "Wins a fortune"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sacrifice involves presenting food, animals or other offerings to spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "33. Christians believe in Jesus Christ because He\n(BECE 2002A Q8)",
+      options: [
+        "Was given birth to by a virgin",
+        "Came to save humankind from their sins",
+        "Overcame death on the holy cross",
+        "Could perform many miracle"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christian belief centres on Jesus as the saviour from sin."),
+
+  QuizQuestion(
+      question:
+          "34. Palm Sunday is celebrated to mark the\n(BECE 2002A Q11)",
+      options: [
+        "Birth of Christ",
+        "Outpouring of the Holy Spirit",
+        "Joyful journey of Jesus into Jerusalem",
+        "Resurrection of Jesus from the dead"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Palm Sunday commemorates Jesus' triumphant entry into Jerusalem."),
+
+  QuizQuestion(
+      question:
+          "35. The traditionalist believes that destiny can be changed if he\n(BECE 2002A Q13)",
+      options: [
+        "Is born again into Christianity",
+        "Could consult the gods",
+        "Become a wizard",
+        "Is well educated"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional belief may involve consulting divinities concerning destiny and misfortune."),
+
+  QuizQuestion(
+      question:
+          "36. The best to pray during worship is to\n(BECE 2002A Q17)",
+      options: [
+        "Face the east and in reverence",
+        "Knee with arms open",
+        "Be humble and sincere",
+        "Remove your sandals"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Humility and sincerity are important attitudes in prayer."),
+
+  QuizQuestion(
+      question:
+          "37. The Islamic practice by which wealthy Muslims show concern for the poor and needy is\n(BECE 2002A Q18)",
+      options: ["Tawaf", "Zakat", "Hajj", "Salat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides support for poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "38. A Muslim performs Tayamum when he\n(BECE 2002A Q20)",
+      options: [
+        "Is late to the mosque",
+        "Is about to marry",
+        "Cannot find water",
+        "Meets the Imam in the mosque"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tayammum is dry purification used when water is unavailable or cannot be used."),
+
+  QuizQuestion(
+      question:
+          "39. Which of the following is not a revealed book in Islam?\n(BECE 2002B Q10)",
+      options: ["Hadith", "Injil", "Zabur", "Taurah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hadith contains reports about Prophet Mohammed and is not one of the revealed scriptures."),
+
+  QuizQuestion(
+      question:
+          "40. Zuhr is one of the five compulsory prayers of Muslims which is observed\n(BECE 2002B Q11)",
+      options: [
+        "From dawn to sunshine",
+        "When the sun is high in the sky",
+        "Late in the afternoon",
+        "An hour after sunset"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zuhr is the midday or early afternoon prayer."),
+
+  QuizQuestion(
+      question:
+          "41. All the three main religions in Ghana believe\n(BECE 2002B Q12)",
+      options: [
+        "In ancestral worship",
+        "That God is everywhere",
+        "In being saved for salvation",
+        "That dwarfs exist in forests"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The three major religions teach belief in God's universal presence."),
+
+  QuizQuestion(
+      question:
+          "42. In traditional society, taboos help people to\n(BECE 2002B Q14)",
+      options: [
+        "Behave well",
+        "Believe in their god",
+        "Know their God",
+        "Perform sacrifices"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Taboos regulate behaviour and promote accepted moral conduct."),
+
+  QuizQuestion(
+      question:
+          "43. Constant prayer among Muslims helps them to\n(BECE 2002B Q15)",
+      options: [
+        "Be tolerant and intelligent",
+        "Become steadfast and patriotic",
+        "Have humor and peace",
+        "Become clean and upright in life"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Regular prayer promotes spiritual discipline, purity and upright living."),
+
+  QuizQuestion(
+      question:
+          "44. The Traditional believer communicates with God through\n(BECE 2002B Q16)",
+      options: [
+        "Sacrifices",
+        "Purification rites",
+        "Libation",
+        "Spirit possessions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a major traditional form of prayer and communication with spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "45. The essence of the holy communion is to\n(BECE 2002B Q17)",
+      options: [
+        "Give thanks to God",
+        "Remember Christian fellowship",
+        "Remember the saving act of Jesus",
+        "Remember Jesus's teaching on sharing"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion commemorates Jesus' sacrificial saving act."),
+
+  QuizQuestion(
+      question:
+          "46. The Islamic practice of committing the whole Qur'an to memory is\n(BECE 2002B Q19)",
+      options: ["Hudah", "Hafiz", "Qurra", "Sunnah"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A Hafiz is a person who has memorized the entire Qur'an."),
+
+  QuizQuestion(
+      question:
+          "47. Like the Jews, Muslims also believe they are descendants of\n(BECE 2003 Q10)",
+      options: ["Abraham", "Isaac", "Moses", "Jacob"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Both Jewish and Islamic traditions trace ancestry to Abraham."),
+
+  QuizQuestion(
+      question:
+          "48. The importance of fasting in Islam is to\n(BECE 2003 Q12)",
+      options: [
+        "Honour the poor and needy",
+        "Guard against evil",
+        "Keep the body feet",
+        "Store food for future use"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fasting develops self-control and helps Muslims guard against sinful behaviour."),
+
+  QuizQuestion(
+      question:
+          "49. The Hadith of the Muslim signifies the\n(BECE 2003 Q14)",
+      options: [
+        "Revelations of the Junnah",
+        "Revelations of Abu Bakr",
+        "Sayings of the Holy Prophet",
+        "Writings of the Holy Prophet"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hadith includes reports of the sayings and actions of Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "50. Which of the following serves as intermediary to God during traditional prayers?\n(BECE 2003 Q15)",
+      options: ["Lesser gods", "Diviners", "Dwarfs", "Herbalist"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lesser gods or divinities are traditionally regarded as intermediaries between humans and the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "51. The rite of going round the Ka'ba seven times during Hajj signifies\n(BECE 2003 Q17)",
+      options: ["Honesty", "Bravery", "Endurance", "Obedience"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The repeated circuits symbolize perseverance and endurance."),
+
+  QuizQuestion(
+      question:
+          "52. Traditional believers wear charms and talisman\n(BECE 2003 Q18)",
+      options: [
+        "To look attractive",
+        "For special protection",
+        "To be able to fight in the market",
+        "For longer life"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Charms and talismans are traditionally worn for spiritual protection."),
+
+  QuizQuestion(
+      question:
+          "53. Fishermen all over the country do not go to sea on\n(BECE 2003 Q19)",
+      options: ["Tuesday", "Friday", "Saturday", "Sunday"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Tuesday is traditionally observed as a non-fishing day in many Ghanaian coastal communities."),
+
+  QuizQuestion(
+      question:
+          "54. To the traditional believers, the next in importance to the Supreme Being are the\n(BECE 2003 Q20)",
+      options: [
+        "Lesser gods",
+        "Earth goddess",
+        "Ancestral spirits",
+        "Spirits in plants and animals"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Lesser gods or divinities occupy an important position below the Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "55. In the traditional society, giving birth to a child is considered as a\n(BECE 2003 Q24)",
+      options: ["Privilege", "Responsibility", "Right", "Virtue"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Childbirth is traditionally regarded as a valued privilege and blessing."),
+
+  QuizQuestion(
+      question:
+          "56. When Fatimah and Mensah are committed to each other in friendship, they are prepared to\n(BECE 2003 Q26)",
+      options: [
+        "Worship God sincerely",
+        "Write an examination together",
+        "Run away from evil",
+        "Share their wealth and poverty together"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Commitment in friendship involves supporting one another in good and difficult times."),
+
+  QuizQuestion(
+      question:
+          "57. Anyone who enters a house is expected to first\n(BECE 2003 Q27)",
+      options: [
+        "Ask for water",
+        "Remove his sandals",
+        "Offer greetings",
+        "Ask for a seat"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Offering greetings is an important sign of courtesy and respect."),
+
+  QuizQuestion(
+      question:
+          "58. The Holy Qur'an describes angels as creatures who\n(BECE 2004 Q5)",
+      options: [
+        "Anoint prophets and messengers of Allah",
+        "Punish wrong doers on the judgment day",
+        "Act on the orders of Allah",
+        "Lead the faithful to observe the Hajj"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Angels obey and carry out Allah's commands."),
+
+  QuizQuestion(
+      question:
+          "59. Which of the following acts in Islam promotes good neighbourliness, love and brotherhood?\n(BECE 2004 Q6)",
+      options: ["Hajj", "Asr", "Salat", "Ramadan"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Hajj brings Muslims from different backgrounds together and promotes unity and brotherhood."),
+
+  QuizQuestion(
+      question:
+          "60. The Muslim prayer observed after sunset is\n(BECE 2004 Q7)",
+      options: ["Maghrib", "Asr", "Zuhr", "Fajr"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is performed shortly after sunset."),
+
+  QuizQuestion(
+      question:
+          "61. To the traditional believer, the change from the physical to the spiritual life occurs through\n(BECE 2004 Q9)",
+      options: ["Naming", "Birth", "Death", "Puberty"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Death is understood as a transition from physical existence to spiritual existence."),
+
+  QuizQuestion(
+      question:
+          "62. All religions teach mankind to be steward of the earth and to\n(BECE 2004 Q12)",
+      options: ["Farm on it", "Build on it", "Care for it", "Make it fertile"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Stewardship means responsibly caring for the earth and its resources."),
+
+  QuizQuestion(
+      question:
+          "63. \"There is no god but God, and Mohammed is the messenger of God\", this is known as the\n(BECE 2004 Q13)",
+      options: ["Shahadah", "Iqamah", "Adhan", "Sunnah"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah is the Islamic declaration of faith."),
+
+  QuizQuestion(
+      question:
+          "64. In traditional society, the dead is buried with money to ensure that he\n(BECE 2004 Q17)",
+      options: [
+        "Deceased can pay the fare to the other world",
+        "Deceased can pay the gods and ancestors for protection",
+        "Spirit of the deceased does not attack family members",
+        "Family members are blessed with riches"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects belief that the deceased needs money for the journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "65. God has no human face in\n(BECE 2004 Q18)",
+      options: [
+        "Islam and Christianity",
+        "Islam and Traditional religion",
+        "Traditional religion and Christianity",
+        "Islam, Traditional religion and Christianity"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The three religions understand God as transcending ordinary human form."),
+
+  QuizQuestion(
+      question:
+          "66. The three main religions in Ghana believe in\n(BECE 2005 Q3)",
+      options: [
+        "Ancestors and witches",
+        "Holy scriptures",
+        "Angels and smaller gods",
+        "A supreme being"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Christianity, Islam and African Traditional Religion all affirm a Supreme Being."),
+
+  QuizQuestion(
+      question:
+          "67. For a man to greet an Akan chief, he must\n(BECE 2005 Q6)",
+      options: [
+        "Raise hands and bow down",
+        "Raise hands and pass by",
+        "Remove sandals and kneel down",
+        "Remove sandals and lower the cloth"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional Akan etiquette requires a man to show humility by removing his sandals and lowering his cloth."),
+
+  QuizQuestion(
+      question:
+          "68. Muslims throw stones during Hajj to\n(BECE 2005 Q7)",
+      options: [
+        "Keep Satan away from their lives",
+        "Commemorate Hagar's departure",
+        "Help them celebrate the Id-il-Adha",
+        "Remember Abraham's temptation"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The ritual symbolizes rejecting Satan and resisting temptation."),
+
+  QuizQuestion(
+      question:
+          "69. According to the Qur'an, a proud person\n(BECE 2005 Q11)",
+      options: [
+        "Never thinks he is better than others",
+        "Respects the opinion of others",
+        "Value the experiences of other people",
+        "Likes to tell other people what to do"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Pride may be expressed through controlling or looking down on other people."),
+
+  QuizQuestion(
+      question:
+          "70. The Bible teaches that people in authority must be\n(BECE 2005 Q13)",
+      options: ["Praised", "Served", "Respected", "Proud"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christian teaching encourages appropriate respect for legitimate authority."),
+
+  QuizQuestion(
+      question:
+          "71. The Janazah prayer is performed\n(BECE 2005 Q14)",
+      options: [
+        "During Friday prayers",
+        "When a Muslim die",
+        "When a Muslim is travelling",
+        "After the Ramadan fast"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the funeral prayer for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "72. The purpose of Salat is to enable a Muslim\n(BECE 2005 Q16)",
+      options: [
+        "Travel to Mecca",
+        "Have a pure heart",
+        "Become an Imam",
+        "Prepare for the Ramadan fast"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular Salat promotes spiritual purity and consciousness of Allah."),
+
+  QuizQuestion(
+      question:
+          "73. The traditional belief that the child needs no one to show him God means\n(BECE 2005 Q17)",
+      options: [
+        "God is with the child",
+        "God exists",
+        "The child knows God",
+        "The child talks of God"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The saying expresses the traditional belief that awareness of God is natural and innate."),
+
+  QuizQuestion(
+      question:
+          "74. The ninety-nine names of God can be found only in\n(BECE 2006 Q3)",
+      options: [
+        "Christianity and Islam",
+        "Christianity",
+        "Islam",
+        "African Traditional Religion"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Islam traditionally recognizes the ninety-nine beautiful names of Allah."),
+
+  QuizQuestion(
+      question:
+          "75. Trial by ordeal is a traditional practice whereby a person is\n(BECE 2006 Q4)",
+      options: [
+        "Summoned to a chief's palace",
+        "Proved innocent through painful test",
+        "Brought before a traditional priest",
+        "Accused of breaking state taboos"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Trial by ordeal traditionally tests guilt or innocence through a difficult or painful procedure."),
+
+  QuizQuestion(
+      question:
+          "76. Zakat is practice by which Muslim\n(BECE 2006 Q8)",
+      options: [
+        "Pray five times a day",
+        "Show concern for the poor",
+        "Offer sacrifice to Allah",
+        "Travel to Mecca every year"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides financial support for poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "77. The teaching of Mohammed is found in the\n(BECE 2006 Q12)",
+      options: ["Kalima", "Qur'an", "Hadith", "Sura"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Hadith records teachings, sayings and actions associated with Prophet Mohammed."),
+
+  QuizQuestion(
+      question:
+          "78. After the Isha prayer in the month of Ramadan, Muslims perform\n(BECE 2006 Q15)",
+      options: ["Tahajjud", "Fajr", "Tarawih", "Istisquah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tarawih prayers are performed at night during Ramadan after Isha."),
+
+  QuizQuestion(
+      question:
+          "79. A common feature of traditional prayer is that\n(BECE 2006 Q20)",
+      options: [
+        "Gods are always praised",
+        "People pray for other",
+        "Enemies are often cursed",
+        "People confess their sins to gods"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Some traditional prayers may include curses directed at enemies or wrongdoers."),
+
+  QuizQuestion(
+      question:
+          "80. Dirges are sung during\n(BECE 2006 Q35)",
+      options: ["Harvesting", "Outdoorings", "Funerals", "Festivals"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dirges are mourning songs commonly performed at funerals."),
+
+  QuizQuestion(
+      question:
+          "81. Isaac prayed for his wife Rebecca because, she\n(BECE 2007 Q6)",
+      options: [
+        "Had twins in her womb",
+        "Did not believe in God's promises",
+        "Suffered from her pregnancy",
+        "Was a barren woman"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Isaac prayed because Rebekah was unable to have children."),
+
+  QuizQuestion(
+      question:
+          "82. The practice whereby a Muslim gives a certain percentage of his wealth to the needy is called\n(BECE 2007 Q7)",
+      options: ["Sadaqah", "Zakat", "Hajj", "Sawn"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat is obligatory charitable giving based on qualifying wealth."),
+
+  QuizQuestion(
+      question:
+          "83. The belief in the oneness of Allah is known as\n(BECE 2007 Q11)",
+      options: ["Salat", "Tawhid", "Tawaf", "Zakat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tawhid is the Islamic doctrine of the oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "84. Muslims fast in the month of Ramadan in order to\n(BECE 2007 Q12)",
+      options: [
+        "Save food",
+        "Guard against evil",
+        "Keep the body fit",
+        "Honour the poor and needy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fasting develops self-control and helps believers guard against evil."),
+
+  QuizQuestion(
+      question:
+          "85. Constant prayers are offered among Muslims to enable them to\n(BECE 2007 Q14)",
+      options: [
+        "Be tolerant and clean",
+        "Become upright in life",
+        "Have humour and love",
+        "Become steadfast and patriotic"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer encourages upright and disciplined living."),
+
+  QuizQuestion(
+      question:
+          "86. The Holy Communion reminds Christians of Jesus'\n(BECE 2007 Q18)",
+      options: ["Resurrection", "Last supper", "Crucifixion", "Birth"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion recalls Jesus' Last Supper with His disciples."),
+
+  QuizQuestion(
+      question:
+          "87. A proverb is a wise saying meant to\n(BECE 2007 Q37)",
+      options: [
+        "Test people's endurance",
+        "Enrich one's language",
+        "Make people proud",
+        "Sing praises of men"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Proverbs enrich speech and communicate wisdom in concise form."),
+
+  QuizQuestion(
+      question:
+          "88. Folktales are important because, they\n(BECE 2007 Q37)",
+      options: [
+        "Teach about other people",
+        "Teach moral lessons",
+        "Make children happy",
+        "Are loved by grandparents"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Folktales are important tools for teaching moral values."),
+
+  QuizQuestion(
+      question:
+          "89. The main reason why Christians pray is to\n(BECE 2007 Q40)",
+      options: [
+        "Receive daily needs from God",
+        "Have God' protection",
+        "Overcome temptation",
+        "Have fellowship with God"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Prayer enables Christians to maintain fellowship and relationship with God."),
+
+  QuizQuestion(
+      question:
+          "90. The three main religions in Ghana teach that\n(BECE 2008 Q9)",
+      options: [
+        "Spirit plead on our behalf",
+        "Love and honesty are godliness",
+        "God will save the wrong doer",
+        "God is resting after creation"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Love and honesty are important moral values taught by the major religions."),
+
+  QuizQuestion(
+      question:
+          "91. A chapter of the Qur'an is called\n(BECE 2008 Q10)",
+      options: ["Ayah", "Hadith", "Surah", "Sunnah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A chapter of the Qur'an is called a Surah."),
+
+  QuizQuestion(
+      question:
+          "92. The essence of Zakat is to\n(BECE 2008 Q19)",
+      options: [
+        "Cater for the needy",
+        "Offer sacrifice to Allah",
+        "Spread the religion of Islam",
+        "Celebrate the Id festivals"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Zakat helps meet the needs of poor and vulnerable people."),
+
+  QuizQuestion(
+      question:
+          "93. The Gye Nyame symbol of Akans signifies that\n(BECE 2009 Q2)",
+      options: ["Everywhere", "All-powerful", "All-seeing", "All-loving"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Gye Nyame emphasizes the supremacy and power of God."),
+
+  QuizQuestion(
+      question:
+          "94. The oneness of Allah is known as.\n(BECE 2009 Q5)",
+      options: ["Tawhid", "Shahadah", "Shirk", "Tawaf"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Tawhid is belief in the absolute oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "95. Muslim face the east when praying because\n(BECE 2009 Q10)",
+      options: [
+        "The sun rises from the east",
+        "Of the position of the Kabah",
+        "The prophet came from the east",
+        "They believe that Allah is in the east"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims face the direction of the Ka'ba in Mecca during Salat."),
+
+  QuizQuestion(
+      question:
+          "96. Christians call the Friday on which Jesus was crucified Good Friday because, it\n(BECE 2009 Q11)",
+      options: [
+        "Marks the redemption from sin",
+        "Is a day on which they fast",
+        "Marks the beginning of East festivities",
+        "Shows the end of Jesus ministry on earth"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Good Friday commemorates Jesus' sacrificial death, which Christians associate with redemption from sin."),
+
+  QuizQuestion(
+      question:
+          "97. In traditional religion, burying the dead with belongings signifies that\n(BECE 2009 Q15)",
+      options: [
+        "There is life after death",
+        "Items are sent to the spiritual world",
+        "The dead pay for their journey",
+        "There is hunger in the spiritual world"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The practice reflects belief that existence continues after physical death."),
+
+  QuizQuestion(
+      question:
+          "98. Most Ghanaians name their children after their ancestors. This act reveals their belief in\n(BECE 2009 Q16)",
+      options: ["Child birth", "Reincarnation", "Destiny", "Spiritual power"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Naming children after ancestors may reflect belief in the return or continuity of ancestral identity."),
+
+  QuizQuestion(
+      question:
+          "99. Which of the following religious practices is observed by the three major religions in Ghana?\n(BECE 2009 Q17)",
+      options: ["Ancestral worship", "Animal sacrifice", "Charity", "Fasting"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Charity is encouraged in Christianity, Islam and African Traditional Religion."),
+
+  QuizQuestion(
+      question:
+          "100. The washing of feet, hands and face by Muslims before prayers is known as\n(BECE 2009 Q19)",
+      options: ["Janabah", "Nifas", "Wudu", "Janazah"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wudu is the ritual washing performed before Salat."),
+
+  QuizQuestion(
+      question:
+          "101. Story telling is an important event in a traditional home because it\n(BECE 2009 Q39)",
+      options: [
+        "Makes children creative",
+        "Teaches moral lessons",
+        "Keeps children awake",
+        "Brings people together"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Traditional stories are commonly used to teach moral lessons."),
+
+  QuizQuestion(
+      question:
+          "102. The outpouring of the Holy Spirit on Christians is marked by\n(BECE 2011 Q2)",
+      options: ["Ascension", "Resurrection", "Pentecost", "Passover"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Pentecost commemorates the coming of the Holy Spirit upon the disciples."),
+
+  QuizQuestion(
+      question:
+          "103. The congregational prayers observed by Muslims on Friday is\n(BECE 2011 Q3)",
+      options: ["Eid", "Jamah", "Janazah", "Zuhr"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The source uses 'Jamah' for the congregational Friday prayer context."),
+
+  QuizQuestion(
+      question:
+          "104. Islam shows concern for the needy and poor by practising\n(BECE 2011 Q5)",
+      options: ["Sawn", "Zakat", "Salat", "Kalimat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Zakat provides assistance to poor and needy people."),
+
+  QuizQuestion(
+      question:
+          "105. The Fajr Salat is observed at\n(BECE 2011 Q10)",
+      options: ["Dawn", "Noon", "Night", "Sunset"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fajr is the dawn prayer."),
+
+  QuizQuestion(
+      question:
+          "106. Christians share a common belief that\n(BECE 2011 Q11)",
+      options: [
+        "The Holy Spirit works with fire",
+        "Trust in Jesus Christ brings eternal life",
+        "One should pray to God directly",
+        "One who suffers in life will go to heaven"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Christianity teaches that faith in Jesus Christ is associated with salvation and eternal life."),
+
+  QuizQuestion(
+      question:
+          "107. The Islamic institution for reducing poverty is\n(BECE 2011 Q17)",
+      options: ["Zakat", "Salat", "Sawn", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Zakat redistributes wealth to support those in need."),
+
+  QuizQuestion(
+      question:
+          "108. The following practices apply to Traditional Religion except\n(BECE 2011 Q18)",
+      options: ["Libation", "Fasting", "Prayers", "Sacrifices"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation, prayer and sacrifice are common traditional practices; fasting is not generally emphasized in the same way."),
+
+  QuizQuestion(
+      question:
+          "109. The use of sand in the absence of water by a Muslim for purification is\n(BECE 2011 Q20)",
+      options: ["Taharah", "Tashahhud", "Tayammum", "Takbir"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tayammum is purification with clean earth or sand when water is unavailable."),
+
+  QuizQuestion(
+      question:
+          "110. Ablution is done before prayers in order to\n(BECE 2012 Q3)",
+      options: [
+        "Have prayers answered in time",
+        "Ensure purity of the body",
+        "Get closer to Allah",
+        "Win the favour of Allah"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution prepares the worshipper through ritual cleanliness before prayer."),
+
+  QuizQuestion(
+      question:
+          "111. The traditional man wears talismans in order to\n(BECE 2012 Q5)",
+      options: [
+        "Give birth to children",
+        "Become rich",
+        "Seek protection against enemies",
+        "Bring peace and love into his family"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Talismans are traditionally believed to provide spiritual protection."),
+
+  QuizQuestion(
+      question:
+          "112. The Holy Communion reminds Christians of Jesus'\n(BECE 2012 Q8)",
+      options: ["Birth", "Crucifixion", "Last supper", "Resurrection"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion commemorates Jesus' Last Supper with His disciples."),
+
+  QuizQuestion(
+      question:
+          "113. Ramadan is the\n(BECE 2012 Q9)",
+      options: [
+        "Feast of sacrifice",
+        "Month of fasting",
+        "Feast of breaking fast",
+        "Month of Hijra"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ramadan is the Islamic month of fasting."),
+
+  QuizQuestion(
+      question:
+          "114. In a prayer of confession, Christians\n(BECE 2012 Q16)",
+      options: [
+        "Adore God who created them",
+        "Say sorry to God for their sins",
+        "Ask for help in times of trouble",
+        "Give thanks for all the gifts they received"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Confession involves acknowledging sins and asking God for forgiveness."),
+
+  QuizQuestion(
+      question:
+          "115. A Muslim is a person who\n(BECE 2012 Q17)",
+      options: [
+        "Comes from Arabia",
+        "Visits Mecca annually",
+        "Submits to the will of Allah",
+        "Recites the Qur'an"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A Muslim is one who submits to the will of Allah."),
+
+  QuizQuestion(
+      question:
+          "116. The combination of the Fajr and Asr Prayers makes\n(BECE 2012 Q19)",
+      options: [
+        "Two rakats",
+        "Five rakats",
+        "Six rakats",
+        "Eight rakats"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Fajr has two rakats and Asr has four, giving a total of six."),
+
+  QuizQuestion(
+      question:
+          "117. The Janazah prayer is performed\n(BECE 2013 Q4)",
+      options: [
+        "When a Muslim is travelling",
+        "During Friday worship",
+        "After a Ramadan worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is performed for a deceased Muslim."),
+
+  QuizQuestion(
+      question:
+          "118. The outpouring of the Holy Spirit on Christians occurred during the\n(BECE 2013 Q5)",
+      options: ["Ascension", "Passover", "Pentecost", "Resurrection"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Holy Spirit came upon the disciples at Pentecost."),
+
+  QuizQuestion(
+      question:
+          "119. The teachings of Prophet Mohammed are found in\n(BECE 2013 Q9)",
+      options: ["Hadith", "Ijma", "Kalima", "Sura"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hadith preserves reports of Mohammed's teachings and actions."),
+
+  QuizQuestion(
+      question:
+          "120. Zakat is important in Islam because it\n(BECE 2013 Q13)",
+      options: [
+        "Is mentioned in the Qur'an",
+        "Is paid by the wealthy",
+        "Is a religious form of taxation",
+        "Reduce the suffering of the poor"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A central social purpose of Zakat is to support the poor and reduce hardship."),
+
+  QuizQuestion(
+      question:
+          "121. Praying regularly is important because it is a\n(BECE 2013 Q5)",
+      options: [
+        "Moral responsibility",
+        "Social responsibility",
+        "Political responsibility",
+        "Spiritual responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer is a spiritual responsibility of believers."),
+
+  QuizQuestion(
+      question:
+          "122. The congregational prayer observed by Muslims on Friday is\n(BECE 2013 Q16)",
+      options: ["Eid", "Janazah", "Jumu'ah", "Zuhr"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Jumu'ah is the Friday congregational prayer."),
+
+  QuizQuestion(
+      question:
+          "123. In traditional religion, it is taboo to\n(BECE 2013 Q17)",
+      options: [
+        "Bury the dead in town",
+        "Drink alcohol at funerals",
+        "Insult a chief or a god",
+        "Wear sandals at the graveyard"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Insulting a chief or deity is regarded as a serious traditional taboo."),
+
+  QuizQuestion(
+      question:
+          "124. Folktales are important because, they\n(BECE 2013 Q32)",
+      options: [
+        "Teach about other people",
+        "Are loved by grandparents",
+        "Make children happy",
+        "Teach moral lessons"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Folktales transmit moral values and cultural lessons."),
+
+  QuizQuestion(
+      question:
+          "125. In traditional societies, rules used to control the behaviour of members are known as\n(BECE 2013 Q34)",
+      options: ["Ancestral rites", "Puberty rites", "Taboos", "Totems"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Taboos regulate acceptable and forbidden behaviour in traditional society."),
+
+  QuizQuestion(
+      question:
+          "126. The Eucharist, in Christian worship, refers to\n(BECE 2014 Q2)",
+      options: [
+        "Prayer of thanksgiving",
+        "Preaching of sermons",
+        "The Holy Communion",
+        "Payment of tithes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist is another name for Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "127. Sadique in Islam means\n(BECE 2014 Q4)",
+      options: ["Courageous", "Righteous", "Truthful", "Patience"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Sadique or Siddiq refers to truthfulness."),
+
+  QuizQuestion(
+      question:
+          "128. The prayer which is said in the early afternoon by Muslims is\n(BECE 2014 Q9)",
+      options: ["Fajr", "Isha", "Maghrib", "Zuhr"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Zuhr is the midday or early afternoon prayer."),
+
+  QuizQuestion(
+      question:
+          "129. Traditional worshippers remember their ancestors by\n(BECE 2014 Q12)",
+      options: [
+        "Fasting and praying to them",
+        "Offering them food and drinks",
+        "Singing of songs and praises",
+        "Calling their names always"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Food and drink offerings are traditional ways of remembering and honouring ancestors."),
+
+  QuizQuestion(
+      question:
+          "130. Prayer enables the Muslim to\n(BECE 2014 Q13)",
+      options: [
+        "Punish his/her enemies",
+        "Become clean",
+        "Go to heaven",
+        "Receive gifts"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Prayer encourages spiritual and moral purity."),
+
+  QuizQuestion(
+      question:
+          "131. Dirges as a traditional song is sung to\n(BECE 2014 Q14)",
+      options: [
+        "Praise and hail chiefs",
+        "Hoot at people with evil spirit",
+        "Recreate and entertain people",
+        "Sympathize with bereaved families"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dirges express grief and sympathy with bereaved families."),
+
+  QuizQuestion(
+      question:
+          "132. It is the responsibility of a Muslim to make a pilgrimage to Mecca at least\n(BECE 2014 Q16)",
+      options: [
+        "Three times in life time",
+        "Twice in a life time",
+        "Once in a life time",
+        "Five times in a life time"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A Muslim who is physically and financially able is required to perform Hajj once in a lifetime."),
+
+  QuizQuestion(
+      question:
+          "133. In Islamic practice, Wudu is the\n(BECE 2014 Q18)",
+      options: [
+        "Intention to say salat",
+        "Preparation made after salat",
+        "Ritual washing before salat",
+        "Ritual washing after salat"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Wudu is ritual ablution performed before Salat."),
+
+  QuizQuestion(
+      question:
+          "134. What is the second pillar of Islam?\n(BECE 2015 Q3)",
+      options: ["Salat", "Sawn", "Zakat", "Hajj"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Salat, the five daily prayers, is the second pillar of Islam."),
+
+  QuizQuestion(
+      question:
+          "135. On what occasion does Muslims perform the Janazah prayer?\n(BECE 2015 Q4)",
+      options: [
+        "Before a Muslim travels",
+        "After observing a fast",
+        "During Friday worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the Islamic funeral prayer."),
+
+  QuizQuestion(
+      question:
+          "136. Going round the Ka'ba is an Islamic religious activity done during\n(BECE 2015 Q11)",
+      options: ["Eid-ul-Adha", "Eid-ul-Fitr", "Hajj", "Ramadan"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Tawaf around the Ka'ba is an important Hajj ritual."),
+
+  QuizQuestion(
+      question:
+          "137. Which Islamic prayer is observed at sunset\n(BECE 2015 Q12)",
+      options: ["Janazah", "Tarawih", "Isha", "Maghrib"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is performed immediately after sunset."),
+
+  QuizQuestion(
+      question:
+          "138. Traditionalists pray by means of\n(BECE 2015 Q13)",
+      options: [
+        "Music and dance",
+        "Spirit possession",
+        "Pouring libation",
+        "Divination"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is one of the main forms of traditional prayer."),
+
+  QuizQuestion(
+      question:
+          "139. In African Traditional Religion, the living dead are referred to as\n(BECE 2015 Q14)",
+      options: ["Bad spirits", "Witch doctors", "Ancestors", "Mediums"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are sometimes described as the living dead because they remain spiritually connected to the living."),
+
+  QuizQuestion(
+      question:
+          "140. The most important rite in Christian sacramental worship is the\n(BECE 2015 Q16)",
+      options: [
+        "Taking of the Holy Communion",
+        "Reading of the Old Testament",
+        "Reading of the New Testament",
+        "Collection of offertory and tithes"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Holy Communion is a central sacramental act in Christian worship."),
+
+  QuizQuestion(
+      question:
+          "141. Going round the Ka'ba is an Islamic religious activity done during the\n(BECE 2016 Q16)",
+      options: ["Eid-ul-Adha", "Eid-ul-Fitr", "Hajj", "Ramadan"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Going around the Ka'ba, or Tawaf, is performed during Hajj."),
+
+  QuizQuestion(
+      question:
+          "142. What is the second pillar of Islam?\n(BECE 2016 Q17)",
+      options: ["Hajj", "Salat", "Sawn", "Zakat"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Salat is the second pillar of Islam."),
+
+  QuizQuestion(
+      question:
+          "143. In the traditional society, the dead is buried with money to ensure that the\n(BECE 2016 Q18)",
+      options: [
+        "Deceased can pay the fare to the other world",
+        "Deceased can pay the gods and ancestors for protection",
+        "Spirit of the deceased does not attack the family members",
+        "Family members are blessed with riches"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The money is traditionally associated with the deceased's journey to the spirit world."),
+
+  QuizQuestion(
+      question:
+          "144. Traditional worshippers remember their ancestors by\n(BECE 2016 Q19)",
+      options: [
+        "Calling their names always",
+        "Fasting and praying to them",
+        "Offering drinks and food to them",
+        "Singing of songs and praises"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Food and drink offerings are used in traditional remembrance of ancestors."),
+
+  QuizQuestion(
+      question:
+          "145. The saying \"a child who knows how to wash his/her hands eats with the elderly\" means\n(BECE 2016 Q25)",
+      options: [
+        "Children should eat with the elderly",
+        "Children should wash their hands well before eating",
+        "That food is important for the growth of children",
+        "That it pays to be well-behaved"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The proverb teaches that good behaviour and proper conduct bring opportunities and honour."),
+
+  QuizQuestion(
+      question:
+          "146. The first pillar of Islam is the belief in\n(BECE 2017 Q16)",
+      options: ["Angels", "Oneness of God", "Prophets", "Revealed books"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah begins with belief in the oneness of Allah."),
+
+  QuizQuestion(
+      question:
+          "147. Praying regularly is important because it is a\n(BECE 2017 Q17)",
+      options: [
+        "Moral responsibility",
+        "Political responsibility",
+        "Social responsibility",
+        "Spiritual responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Prayer is a spiritual responsibility of believers."),
+
+  QuizQuestion(
+      question:
+          "148. Submission to the will of Allah in Islam brings\n(BECE 2017 Q22)",
+      options: [
+        "Life and comfort",
+        "Peace and purity",
+        "Unity and love",
+        "Wealth and joy"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Islam emphasizes peace and spiritual purity through submission to Allah."),
+
+  QuizQuestion(
+      question:
+          "149. Sadique in Islam means\n(BECE 2018 Q4)",
+      options: ["Courageous", "Patience", "Righteous", "Truthful"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Sadique means truthful."),
+
+  QuizQuestion(
+      question:
+          "150. The holy pilgrimage to Makkah by Muslims is known as\n(BECE 2018 Q5)",
+      options: ["Hajj", "Ijma", "Ru'ya", "Salat"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hajj is the pilgrimage to Makkah."),
+
+  QuizQuestion(
+      question:
+          "151. On what occasion do Muslims perform the Janazah prayer?\n(BECE 2018 Q15)",
+      options: [
+        "After observing fast",
+        "Before a Muslim travels",
+        "During Friday worship",
+        "When a Muslim dies"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is performed when a Muslim dies."),
+
+  QuizQuestion(
+      question:
+          "152. Which traditional prayer is offered when a vow or a pledge is fulfilled?\n(BECE 2018 Q16)",
+      options: ["Intercessory", "Supplication", "Thanksgiving", "Votive"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A votive prayer is connected with a vow or pledge."),
+
+  QuizQuestion(
+      question:
+          "153. Which Islamic prayer is observed at sunset?\n(BECE 2018 Q17)",
+      options: ["Isha", "Janazah", "Maghrib", "Tarawih"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Maghrib is the sunset prayer."),
+
+  QuizQuestion(
+      question:
+          "154. The act of going around the Ka'ba seven times during Hajj teaches\n(BECE 2018 Q18)",
+      options: ["Bravery", "Faireness", "Endurance", "Tolerance"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Performing the seven circuits requires endurance and perseverance."),
+
+  QuizQuestion(
+      question:
+          "155. The Eucharist in Christian worship refers to\n(BECE 2018 Q19)",
+      options: [
+        "Prayer of thanksgiving",
+        "Preaching of sermons",
+        "Payment of tithes",
+        "The Holy Communion"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist is the Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "156. Which of the following traditional practices can dehumanize the individual?\n(BECE 2019 Q14)",
+      options: [
+        "Festival rituals",
+        "Funeral rites",
+        "Libation prayers",
+        "Widowhood rites"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Some widowhood practices can subject individuals to degrading or harmful treatment."),
+
+  QuizQuestion(
+      question:
+          "157. Islamic practice of worship (Ibadah) is based on the\n(BECE 2019 Q15)",
+      options: [
+        "Five pillars of Islam",
+        "Nine rakats of salat",
+        "Seven events of hajj",
+        "Six teachings of Uthman"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The five pillars form the basic framework of Islamic worship and practice."),
+
+  QuizQuestion(
+      question:
+          "158. The word Amen is used in Christian and Islamic prayers because it\n(BECE 2019 Q16)",
+      options: [
+        "Attracts blessing to the people",
+        "Reveals God's promises",
+        "Enforces the request",
+        "Ensure confidence in the prayer"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Amen expresses affirmation and confidence in the prayer that has been offered."),
+
+  QuizQuestion(
+      question:
+          "159. Which group of believers usually conclude their prayers with a curse?\n(BECE 2019 Q17)",
+      options: ["Christians", "Muslims", "Traditionalists", "Buddhists"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Traditional prayers may sometimes conclude with curses against enemies or wrongdoers."),
+
+  QuizQuestion(
+      question:
+          "160. The practice of throwing stones during hajj is to\n(BECE 2019 Q25)",
+      options: [
+        "Protect Muslims from death",
+        "Achieve goals for the pilgrimage",
+        "Keep the devil away",
+        "Open the way to prosperity"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The stoning ritual symbolizes rejection of Satan."),
+
+  QuizQuestion(
+      question:
+          "161. Ablution before salat ensures\n(BECE 2019 Q19)",
+      options: [
+        "Peace with Allah always",
+        "Purity in communion with Allah",
+        "Receipt of prayer request",
+        "Healthy sanitation in the community"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution provides ritual purity before worship."),
+
+  QuizQuestion(
+      question:
+          "162. The Qur'an teaches that, anyone who not show mercy will not\n(BECE 2019 Q27)",
+      options: [
+        "Enter the mosque",
+        "Go to heaven",
+        "Be shown mercy",
+        "Live peaceful life"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The teaching emphasizes that those who show no mercy should not expect mercy."),
+
+  QuizQuestion(
+      question:
+          "163. The Akans believe that their sacred stool is the abode of the\n(BECE 2019 Q35)",
+      options: ["Lesser gods", "Ancestors", "Dwarfs", "Supreme Being"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sacred stools are traditionally associated with the spirits of ancestors."),
+
+  QuizQuestion(
+      question:
+          "164. Which of the following objects can be found in an Islamic religious home?\n(BECE 2019 Q36)",
+      options: ["Amulet", "Cross", "Rosary", "Tasba"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tasba or prayer beads may be used by Muslims for devotional remembrance."),
+
+  QuizQuestion(
+      question:
+          "165. The purity and uprightness of a Muslim depends on his or her\n(BECE 2018 Q19)",
+      options: [
+        "Celebration of Eid festival",
+        "Constant prayers",
+        "Quranic studies",
+        "Pilgrimage to Mecca"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Regular prayer promotes spiritual discipline, purity and upright conduct."),
+
+  QuizQuestion(
+      question:
+          "166. Which of the following options refers to Muslims' declaration of commitment?\n(BECE 2020 Q14)",
+      options: ["Adhan", "Hadith", "Sunnah", "Shahada"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah is the Muslim declaration of faith and commitment."),
+
+  QuizQuestion(
+      question:
+          "167. The last prayer recited at the cemetery during an Islamic burial is\n(BECE 2020 Q15)",
+      options: ["Janaza", "Jum'ah", "Asr", "Tarawil"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Janazah is the prayer associated with the funeral and burial of a Muslim."),
+
+  QuizQuestion(
+      question:
+          "168. Ka'bah in Mecca is important in Islamic worship because\n(BECE 2020 Q16)",
+      options: [
+        "It is the centre of God's revelation",
+        "Its direction is always faced at prayers",
+        "Prayers said there are promptly answered",
+        "The place is filled with angels"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Muslims face the Ka'ba, the qiblah, during Salat."),
+
+  QuizQuestion(
+      question:
+          "169. Libation is offered mainly to\n(BECE 2020 Q17)",
+      options: [
+        "Avoid attack from enemies",
+        "Make worship successful",
+        "Seek the favour of divinities",
+        "Quench the thirst of the gods"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Libation is offered to communicate with and seek favour from spiritual beings."),
+
+  QuizQuestion(
+      question:
+          "170. Non-religious songs are mostly centered on\n(BECE 2020 Q19)",
+      options: [
+        "Divinities",
+        "Moral values",
+        "Pleasure",
+        "Spiritual satisfaction"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Non-religious songs commonly focus on entertainment and pleasure rather than worship."),
+
+  QuizQuestion(
+      question:
+          "171. A practice that is common to the three major religions in Ghana is\n(BECE 2021 Q6)",
+      options: [
+        "Animal sacrifice",
+        "Regular prayers",
+        "Respects for taboos",
+        "Scripture studies"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Prayer is practiced in Christianity, Islam and African Traditional Religion."),
+
+  QuizQuestion(
+      question:
+          "172. To communicate to the object of worship on behalf of someone, one has to offer a prayer of\n(BECE 2021 Q13)",
+      options: [
+        "Confession",
+        "Intercession",
+        "Thanksgiving",
+        "Adoration"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Intercessory prayer is offered on behalf of another person."),
+
+  QuizQuestion(
+      question:
+          "173. The Muslim woman puts on a veil in order to\n(BECE 2021 Q35)",
+      options: [
+        "Avoid attack from rapist",
+        "Avoid exposure to the public",
+        "Hide her true identity",
+        "Protect herself from the rays of the sun"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The veil is associated with modesty and limiting inappropriate bodily exposure."),
+
+  QuizQuestion(
+      question:
+          "174. In traditional societies, anything that is forbidden is regarded as\n(BECE 2021 Q37)",
+      options: ["Holy", "Spiritual", "Taboo", "Totem"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A taboo is something prohibited by traditional rules or custom."),
+
+  QuizQuestion(
+      question:
+          "175. A sign of respect and humility is demonstrated during libation when the celebrant\n(BECE 2022 Q18)",
+      options: [
+        "Removes his sandals and keeps his chest bare",
+        "Invokes the gods with appellations",
+        "Squats and mentions the attributes of God",
+        "Slaughter animals as a sacrifice"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Removing sandals and adopting a humble appearance symbolizes respect during libation."),
+
+  QuizQuestion(
+      question:
+          "176. Ablution in Islam signifies\n(BECE 2022 Q19)",
+      options: ["Hard work", "Cleanliness", "Truthfulness", "Justice"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ablution symbolizes physical and ritual cleanliness before prayer."),
+
+  QuizQuestion(
+      question:
+          "177. Which of the following churches observes Sabbath on Saturdays?\n(BECE 2022 Q20)",
+      options: [
+        "Catholic Church",
+        "Presbyterian Church",
+        "Seventh Day Adventist Church",
+        "Muzama Disco Christo Church"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Seventh-day Adventists observe Saturday as the Sabbath."),
+
+  QuizQuestion(
+      question:
+          "178. The belief in magical powers influences the traditionalists to\n(BECE 2022 Q21)",
+      options: [
+        "Worship God every Sunday",
+        "Smear the body with clay",
+        "Wear charms and amulets",
+        "Dress with beads and jewels"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Charms and amulets are traditionally associated with spiritual or magical protection."),
+
+  QuizQuestion(
+      question:
+          "179. The practitioners of African Traditional Religion honour ancestors so as to\n(BECE 2022 Q22)",
+      options: [
+        "Receive protection and blessings",
+        "Have their faith increased",
+        "Behave well in the society",
+        "Become blameless and powerful"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ancestors are traditionally believed to provide protection and blessings to their descendants."),
+
+  QuizQuestion(
+      question:
+          "180. Dirges are sung to\n(BECE 2022 Q23)",
+      options: [
+        "Express happiness in life",
+        "Ask for forgiveness",
+        "Welcome a chief at a festival",
+        "Comfort the bereaved"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dirges express grief and provide comfort during mourning."),
+
+  QuizQuestion(
+      question:
+          "181. Religious songs are important because they\n(BECE 2022 Q24)",
+      options: [
+        "Deal with social issues",
+        "Entertain and amuse people",
+        "Strengthen people's spiritual growth",
+        "Help people achieve their goals"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Religious songs support worship and spiritual development."),
+
+  QuizQuestion(
+      question:
+          "182. One similarity between religious and non-religious songs is that both\n(BECE 2022 Q25)",
+      options: [
+        "Center on people's object of worship",
+        "Can help people to hope for eternal life",
+        "Deal with achievements of heroes in the society",
+        "Can help to control social behaviour"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Both types of songs can communicate values that influence and regulate social behaviour."),
+
+  QuizQuestion(
+      question:
+          "183. The bible contains words of inspiration from\n(BECE 2023 Q1)",
+      options: ["The prophets", "The spirit", "God", "Jesus"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Christians regard the Bible as inspired by God."),
+
+  QuizQuestion(
+      question:
+          "184. The gospels in the Bible describe the\n(BECE 2023 Q9)",
+      options: [
+        "Life and works of the apostles",
+        "Life and works of Jesus Christ",
+        "Deeds of the prophets",
+        "Spread of Christianity"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Gospels present the life, teachings, death and resurrection of Jesus Christ."),
+
+  QuizQuestion(
+      question:
+          "185. Which of the following persons is not mentioned in the Qur'an as the recipient of Zakat? The\n(BECE 2023 Q10)",
+      options: ["Traveller", "Needy", "Poor", "Imam"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Qur'anic categories of Zakat recipients include the poor, needy and stranded traveller, but not Imam as a category."),
+
+  QuizQuestion(
+      question:
+          "186. In Christian Religion, the Eucharist stands for\n(BECE 2023 Q11)",
+      options: ["Holy Communion", "Reconciliation", "Confirmation", "Initiation rite"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Eucharist refers to Holy Communion."),
+
+  QuizQuestion(
+      question:
+          "187. Which of the following life patterns is expected of Christians?\n(BECE 2023 Q23)",
+      options: [
+        "Worship, scripture study and evangelism",
+        "Fasting, alms giving and libation",
+        "Worship, evangelism and divination",
+        "Animal sacrifice, confession and scripture study"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Christian life includes worship, studying scripture and sharing the faith through evangelism."),
+
+  QuizQuestion(
+      question:
+          "188. Fajr is an Islamic prayer which is said at\n(BECE 2023 Q25)",
+      options: [
+        "Early afternoon",
+        "Late afternoon",
+        "Sunset",
+        "Dawn"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Fajr is the dawn prayer."),
+
+  QuizQuestion(
+      question:
+          "189. Traditional believers and Christians make use of religious songs because such songs help in\n(BECE 2023 Q27)",
+      options: [
+        "Invoking spiritual powers",
+        "Showing the believer's pride",
+        "Rewarding their enemies",
+        "Making people intelligent"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Religious songs are used in worship and may help believers invoke or connect with spiritual power."),
+
+  QuizQuestion(
+      question:
+          "190. The main form of prayer in Traditional Religion is through\n(BECE 2023 Q29)",
+      options: ["Chanting", "Libation", "Sacrifice", "Divination"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation is a principal form of traditional prayer."),
+
+  QuizQuestion(
+      question:
+          "191. The purpose of libation in Traditional Religion is to\n(BECE 2023 Q36)",
+      options: [
+        "Make a person holy",
+        "Revere the gods",
+        "Make sorcerers holy",
+        "Have enemies killed"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Libation is offered as a form of reverence and communication with divinities and ancestors."),
+
+  QuizQuestion(
+      question:
+          "192. The declaration of faith (Kalimatus Shahadah) is important in Islam because it\n(BECE 2023 Q39)",
+      options: [
+        "Teaches the worship of one God",
+        "Enhances performance of Salat in the mosque",
+        "Helps in the praying of Tashah",
+        "Protects the worshipper from demonic attacks"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Shahadah affirms the oneness of Allah and Mohammed as His messenger."),
+    ],
+  ),
+  "Religious & Moral Education JHS3 s5 ss2 - Substance Abuse and Decent Living": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+      question:
+      "1. Which type of substance is coffee?\n(BECE 2001 Q36)",
+      options: ["Stimulant", "Hard drug", "Common drug", "Beverage"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+      "Coffee contains caffeine, which is a stimulant that increases alertness."),
+QuizQuestion(
+question:
+"2. Which of the following is an example of a hard drug?\n(BECE 2002A Q35)",
+options: ["Chloroquine", "Coffee", "Alcohol", "Cocaine"],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Cocaine is classified as a hard drug because of its strong addictive and harmful effects."),
+
+QuizQuestion(
+question:
+"3. Which of the following reasons may promote drug abuse?\n(BECE 2002B Q39)",
+options: [
+"Showing pictures of victims of drug abuse",
+"Debate organized for students on hard drug abuse",
+"Taking the drugs without knowing the side effect",
+"Police dealing strictly with drug peddlers"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Ignorance about the harmful effects of drugs can contribute to drug abuse."),
+
+QuizQuestion(
+question:
+"4. The basis for describing some drugs as sedative is that they\n(BECE 2003 Q28)",
+options: [
+"Stimulate the user",
+"Turn to relax the nerves and reduce stress",
+"Make the user to feel high",
+"Protect the user from the physical effects of drugs"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Sedatives calm the nervous system and help reduce tension or stress."),
+
+QuizQuestion(
+question:
+"5. People lead decent lives in order to\n(BECE 2003 Q35)",
+options: [
+"Be praised for patriotism",
+"Be seen as kind and generous",
+"Promote health and peaceful conditions",
+"Promote peace"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Decent living promotes healthy behaviour and peaceful relationships in society."),
+
+QuizQuestion(
+question:
+"6. Substances that turn to relax the nerves and reduce stress are\n(BECE 2004 Q37)",
+options: ["Sedatives", "Stimulants", "Hard drugs", "Common drugs"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Sedatives reduce nervous activity and help a person relax."),
+
+QuizQuestion(
+question:
+"7. Self-medication means\n(BECE 2004 Q39)",
+options: [
+"Taking medicine prescribed by the doctor",
+"Buying drugs with prescription form",
+"Taking medicine given at the hospital",
+"Taking drugs without medical advice"
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Self-medication is the use of medicines without appropriate medical advice or prescription."),
+
+QuizQuestion(
+question:
+"8. In Ghana people are said to lead decent life when they\n(BECE 2005 Q26)",
+options: [
+"Shout in public for their right",
+"Make people respect them",
+"Weed around the compound",
+"Have leisure with friends"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Keeping the surroundings clean through activities such as weeding reflects responsible and decent living."),
+
+QuizQuestion(
+question:
+"9. Which of the following drugs is most commonly abused?\n(BECE 2005 Q33)",
+options: ["Cocaine", "Laxatives", "Tobacco", "Paracetamol"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Tobacco is a commonly abused substance because of widespread smoking and nicotine dependence."),
+
+QuizQuestion(
+question:
+"10. Which of the following is not an example of a stimulant?\n(BECE 2006 Q36)",
+options: ["Alcohol", "Cocaine", "Chloroquine", "Marijuana"],
+correctIndex: 0,
+difficulty: "Medium",
+explanation:
+"Alcohol is generally classified as a depressant rather than a stimulant."),
+
+QuizQuestion(
+question:
+"11. Boys and girls are to dress modestly and decently to show that they are\n(BECE 2006 Q40)",
+options: ["Truthful", "Honest", "Courteous", "Brilliant"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Modest and decent dressing is associated with courtesy and respectability."),
+
+QuizQuestion(
+question:
+"12. Which of the following is not a reason for living a decent life?\n(BECE 2007 Q36)",
+options: [
+"To earn the respect of people",
+"To gain the trust of others",
+"To receive praises from others",
+"To have a good name"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Living decently should promote good character, trust and respect rather than merely seeking praise."),
+
+QuizQuestion(
+question:
+"13. Smoking is discouraged because it\n(BECE 2008 Q38)",
+options: [
+"Results in respiratory problem",
+"Attracts the HIV virus",
+"Leads to sexual promiscuity",
+"Destroys the blood group of people"
+],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Smoking can damage the lungs and contribute to serious respiratory problems."),
+
+QuizQuestion(
+question:
+"14. Which of the following can be noticed in those who use drugs?\n(BECE 2009 Q33)",
+options: [
+"Quick response to questions in class",
+"Disrespect for authority",
+"Poor relationship with friends",
+"Involvement in communal activities"
+],
+correctIndex: 1,
+difficulty: "Medium",
+explanation:
+"Drug abuse may contribute to behavioural problems such as disrespect for authority."),
+
+QuizQuestion(
+question:
+"15. Which of the following is an effect of drug abuse?\n(BECE 2011 Q27)",
+options: ["Obedience", "Truancy", "Politeness", "Truthfulness"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Drug abuse can lead to truancy and other forms of irresponsible behaviour."),
+
+QuizQuestion(
+question:
+"16. People avoid dangerous substances in order to\n(BECE 2012 Q25)",
+options: [
+"Develop their potentials",
+"Stay healthy",
+"Study hard",
+"Be respected by society"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Avoiding dangerous substances helps protect a person's physical and mental health."),
+
+QuizQuestion(
+question:
+"17. A defensive mechanism that can help protect student against drug abuse is\n(BECE 2012 Q28)",
+options: [
+"To control one's temper",
+"Living a chaste life",
+"Refusing and saying no to drugs",
+"Reporting drug peddlers to the police"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Being assertive and refusing drugs is an effective way of resisting peer pressure and drug abuse."),
+
+QuizQuestion(
+question:
+"18. One danger associated with drug abuse is that it\n(BECE 2013 Q23)",
+options: [
+"Causes idleness",
+"Makes a person arrogant",
+"Destroys the blood group",
+"Can deform a person"
+],
+correctIndex: 3,
+difficulty: "Medium",
+explanation:
+"Drug abuse can cause serious physical and developmental harm to the body."),
+
+QuizQuestion(
+question:
+"19. People lead decent lives in order to\n(BECE 2013 Q27)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be ancestors"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent behaviour promotes harmony and peaceful relationships with others."),
+
+QuizQuestion(
+question:
+"20. A student must dress decently because it\n(BECE 2015 Q25)",
+options: [
+"Is a mark of intelligence",
+"Shows respect and politeness",
+"Enables one to gain favour from others",
+"Helps one to obey school rules"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Decent dressing demonstrates respect, modesty and politeness."),
+
+QuizQuestion(
+question:
+"21. People lead decent live in order to\n(BECE 2016 Q27)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be an ancestor"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent living helps promote peace and good relationships in society."),
+
+QuizQuestion(
+question:
+"22. Which of the following behaviours is an effect of drug abuse?\n(BECE 2016 Q28)",
+options: ["Obedience", "Politeness", "Truancy", "Truthfulness"],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Drug abuse can lead to truancy and neglect of school responsibilities."),
+
+QuizQuestion(
+question:
+"23. Looking simple and decent is a sign of\n(BECE 2017 Q18)",
+options: ["Comportment", "Faithfulness", "Tolerance", "Repentance"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Comportment refers to proper behaviour and presentation, including simple and decent appearance."),
+
+QuizQuestion(
+question:
+"24. Refusal to follow medical prescription may lead to\n(BECE 2018 Q33)",
+options: [
+"Disrespect for authorities",
+"Failure in life",
+"Reduction in wealth",
+"Substance abuse"
+],
+correctIndex: 3,
+difficulty: "Easy",
+explanation:
+"Using medicine contrary to medical instructions can result in misuse and substance abuse."),
+
+QuizQuestion(
+question:
+"25. A person must lead a decent life in order to\n(BECE 2020 Q32)",
+options: [
+"Be praised for patriotism",
+"Be seen as being kind",
+"Promote peaceful living",
+"Qualify to be an ancestor"
+],
+correctIndex: 2,
+difficulty: "Easy",
+explanation:
+"Decent living encourages harmony and peaceful coexistence."),
+
+QuizQuestion(
+question:
+"26. People abuse substance because of\n(BECE 2020 Q33)",
+options: ["Happiness", "Ignorance", "Problems", "Vengeance"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Ignorance about the dangers and effects of substances can contribute to their abuse."),
+
+QuizQuestion(
+question:
+"27. To avoid drug abuse, the student must\n(BECE 2021 Q10)",
+options: [
+"Exercise the body frequently",
+"Keep off bad friends",
+"Respect teachers and friends",
+"Attend worship meetings regularly"
+],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"Avoiding bad company reduces peer pressure and exposure to drug abuse."),
+
+QuizQuestion(
+question:
+"28. Living a decent life can earn you\n(BECE 2021 Q23)",
+options: ["Promotion", "Respect", "Success", "Wealth"],
+correctIndex: 1,
+difficulty: "Easy",
+explanation:
+"People who behave decently are more likely to earn the respect of others."),
+
+QuizQuestion(
+question:
+"29. Decent dressing and good eating habits show\n(BECE 2023 Q32)",
+options: [
+"That one is obedient to parents",
+"The particular community one comes from",
+"The level of training one has received",
+"That one belongs to a traditional society"
+],
+correctIndex: 2,
+difficulty: "Medium",
+explanation:
+"Good dressing and eating habits can reflect the discipline and training a person has received."),
+],
+  ),
+  "Religious & Moral Education JHS3 s6 ss1 - Objective Questions": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+question:
+"1. The statement that time is money, implies that time is\n(BECE 2005 Q38)",
+options: ["Precious", "Limitless", "Life", "Everything"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"The statement emphasizes that time is valuable and should be used wisely."),
+  QuizQuestion(
+      question:
+          "2. We contribute to church dues and offering to\n(BECE 2001 Q33)",
+      options: [
+        "Enable the church to develop spiritually",
+        "Promote deliverance service",
+        "Help pastors preach well",
+        "Help evangelize and care for the poor"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Church dues and offerings support evangelism and help the church care for people in need."),
+
+  QuizQuestion(
+      question:
+          "3. Hard work is most often crowned with\n(BECE 2007 Q24)",
+      options: ["Favours", "Success", "Popularity", "Obedience"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work commonly leads to success and achievement."),
+
+  QuizQuestion(
+      question:
+          "4. In school's speech and prize giving day, the best pupil is rewarded with a\n(BECE 2003 Q25)",
+      options: ["Book prizes", "Cash prize", "Testimonial", "Certificate"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Book prizes are traditionally given to outstanding pupils during school speech and prize-giving days."),
+
+  QuizQuestion(
+      question:
+          "5. The best way a worker can ask for a good salary is through\n(BECE 2008 Q26)",
+      options: ["Negotiation", "Confrontation", "Strike", "Threat"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Negotiation provides a peaceful and responsible way to discuss better wages."),
+
+  QuizQuestion(
+      question:
+          "6. It is a bad habit to use one's leisure time in\n(BECE 1999 Q28)",
+      options: [
+        "Reading a story book",
+        "Telling stories",
+        "Playing games",
+        "Gossiping about friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping is an unproductive and potentially harmful use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "7. A happy and prosperous life depends on\n(BECE 2002A Q31)",
+      options: ["Obedience", "Respect", "Courage", "Hardwork"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Hard work contributes to achievement, self-reliance and a prosperous life."),
+
+  QuizQuestion(
+      question:
+          "8. There is dignity in labour. This statement means\n(BECE 2006 Q25)",
+      options: [
+        "Only office work brings recognition",
+        "Some jobs are more dignified than others",
+        "We should work among all classes of people",
+        "We need to be proud of our work"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dignity in labour means that honest work deserves respect and people should take pride in their work."),
+
+  QuizQuestion(
+      question:
+          "9. The expression work and happiness implies one\n(BECE 2006 Q28)",
+      options: [
+        "Likes working always",
+        "Dances whilst working",
+        "Works whilst playing",
+        "Enjoys the fruit of his labour"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Work brings happiness when a person enjoys the benefits or fruits of his or her labour."),
+
+  QuizQuestion(
+      question:
+          "10. One of the benefits of working hard is\n(BECE 2001 Q40)",
+      options: [
+        "Putting up good house",
+        "Having leisure",
+        "Becoming financially self-reliant",
+        "Be popular and respectful"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hard work can enable a person to earn income and become financially self-reliant."),
+
+  QuizQuestion(
+      question:
+          "11. A happy and prosperous life depends on\n(BECE 2011 Q39)",
+      options: ["Obedience", "Hard work", "Respect", "Courage"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work is an important requirement for achieving a prosperous life."),
+
+  QuizQuestion(
+      question:
+          "12. Leisure time is used for\n(BECE 2004 Q28)",
+      options: [
+        "Playing games",
+        "Congregational worship",
+        "Doing house chores",
+        "Weeding the house"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Playing games is a recreational activity that can be undertaken during leisure time."),
+
+  QuizQuestion(
+      question:
+          "13. People normally save money in order to\n(BECE 1999 Q22)",
+      options: [
+        "Use their income wisely",
+        "Help the government to generate more revenue",
+        "Be generous to people",
+        "Prepare for the future"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Saving money provides resources for future needs and emergencies."),
+
+  QuizQuestion(
+      question:
+          "14. Good working habits include all the following except\n(BECE 2007 Q21)",
+      options: ["Honesty", "Reliability", "Commitment", "Faith"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Honesty, reliability and commitment are direct positive working habits, while faith is not specifically a working habit."),
+
+  QuizQuestion(
+      question:
+          "15. The term idleness in Religious and Moral Education means\n(BECE 2005 Q31)",
+      options: ["Having fun", "Enjoying siesta", "Wasting time", "Playing games"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Idleness involves wasting time instead of engaging in useful activities."),
+
+  QuizQuestion(
+      question:
+          "16. As pupils, we should use our leisure time to\n(BECE 2002A Q23)",
+      options: [
+        "Play games",
+        "Do our homework",
+        "Do household chores",
+        "Go to church"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Leisure time can appropriately be used for recreational activities such as playing games."),
+
+  QuizQuestion(
+      question:
+          "17. It is a bad habit to use one's leisure time in\n(BECE 2011 Q29)",
+      options: [
+        "Playing games",
+        "Telling stories",
+        "Reading story books",
+        "Gossiping about friends"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping about others is an improper use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following is the best way of handling money?\n(BECE 2002A Q39)",
+      options: [
+        "Keeping it under the breast",
+        "Tying it in a handkerchief",
+        "Crumpling it into a savings box",
+        "Folding it neatly into the pocket"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Money should be handled carefully and kept neatly rather than crumpled or stored unhygienically."),
+
+  QuizQuestion(
+      question:
+          "19. The best way to enjoy peace and success in life is to\n(BECE 2008 Q23)",
+      options: [
+        "Accumulate wealth",
+        "Fight for one's right always",
+        "Be very strict on others",
+        "Develop the spirit of responsibility"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Being responsible promotes good relationships, peace and success."),
+
+  QuizQuestion(
+      question:
+          "20. The importance of work is to help us to\n(BECE 2003 Q38)",
+      options: [
+        "Be honest in our daily activities",
+        "Plan our duties at all time",
+        "Be reliable in the society",
+        "Keep healthy and active minds"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Productive work keeps the body and mind active and contributes to well-being."),
+
+  QuizQuestion(
+      question:
+          "21. Which of the following is not true about money? It is\n(BECE 2008 Q27)",
+      options: [
+        "Owned by the state",
+        "The accepted means of exchange",
+        "The official currency of a country",
+        "The exchange goods for goods"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Exchanging goods directly for other goods is barter, not money."),
+
+  QuizQuestion(
+      question:
+          "22. The expression, work and happiness means\n(BECE 2002A Q24)",
+      options: [
+        "When one works, one becomes happy",
+        "Enjoying the fruits of one's labour",
+        "Singing whilst working",
+        "Always working"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Work and happiness refers to enjoying the benefits that result from one's labour."),
+
+  QuizQuestion(
+      question:
+          "23. The saying time is money, means\n(BECE 2012 Q31)",
+      options: [
+        "Time fetches money",
+        "More time spent on work, brings profit",
+        "Money is not gain without spending time",
+        "Good use of time brings profit"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Using time productively can produce useful and profitable results."),
+
+  QuizQuestion(
+      question:
+          "24. Leisure time is described as a time for\n(BECE 2001 Q30)",
+      options: [
+        "Scrubbing the toilet and the kitchen",
+        "Going to church to worship god",
+        "Attending school and doing homework",
+        "Playing indoor and outdoor games"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Leisure is free time that can be used for recreation such as indoor and outdoor games."),
+
+  QuizQuestion(
+      question:
+          "25. Work help us to become\n(BECE 2004 Q24)",
+      options: ["Reliable", "Sincere", "Healthy", "Courteous"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Work helps keep people physically and mentally active and healthy."),
+
+  QuizQuestion(
+      question:
+          "26. Humankind can learn a lot about the use of time from the\n(BECE 2006 Q37)",
+      options: ["Hare", "Ant", "Tortoise", "Bee"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The ant is commonly associated with diligence, preparation and productive use of time."),
+
+  QuizQuestion(
+      question:
+          "27. The most important requirement for a happy and prosperous life is\n(BECE 2007 Q24)",
+      options: ["Loyalty", "Respect", "Courage", "Hard work"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Hard work contributes significantly to achievement and prosperity."),
+
+  QuizQuestion(
+      question:
+          "28. In which way can money help spread germs?\n(BECE 2005 Q34)",
+      options: [
+        "Keeping it in a purse for a long period",
+        "Handling it with hands",
+        "Crumpling it in one's pockets",
+        "Keeping it in one's brassiere"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Keeping money close to the body in unhygienic places can contribute to contamination and the spread of germs."),
+
+  QuizQuestion(
+      question:
+          "29. Humankind work in order to\n(BECE 2012 Q39)",
+      options: [
+        "Go to heaven",
+        "Beloved by everyone",
+        "Win souls for Christ",
+        "Cater for one's basic needs"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "One important purpose of work is to earn resources needed to meet basic needs."),
+
+  QuizQuestion(
+      question:
+          "30. Workers go on strike to\n(BECE 2013 Q21)",
+      options: [
+        "Have some rest",
+        "Demand better conditions of service",
+        "Destroy company property",
+        "Attend political rallies"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Workers may strike to press for improved wages or other conditions of service."),
+
+  QuizQuestion(
+      question:
+          "31. Which of the following is not a positive attribute to work?\n(BECE 2013 Q26)",
+      options: ["Hard working", "Lateness", "Punctuality", "Truthfulness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Lateness is a negative work habit, unlike hard work, punctuality and truthfulness."),
+
+  QuizQuestion(
+      question:
+          "32. A wrong way to use one's leisure is\n(BECE 2013 Q33)",
+      options: ["Reading story books", "Gossiping", "Playing games", "Telling stories"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Gossiping is an inappropriate and potentially harmful use of leisure time."),
+
+  QuizQuestion(
+      question:
+          "33. A positive attitude towards work is\n(BECE 2014 Q31)",
+      options: ["Commitment", "Graciousness", "Intelligence", "Purity"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Commitment is a positive attitude that encourages dedication to one's work."),
+
+  QuizQuestion(
+      question:
+          "34. The most important requirement for a happy and prosperous life is\n(BECE 2014 Q5)",
+      options: ["Courage", "Hard work", "Loyalty", "Respect"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work is an important factor in achieving a happy and prosperous life."),
+
+  QuizQuestion(
+      question:
+          "35. In planning personal budget, it is necessary to ensure that\n(BECE 2014 Q36)",
+      options: [
+        "Expenditure is more than income",
+        "Income is more than expenditure",
+        "Expenditure equals income",
+        "Income is less than expenditure"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Keeping income above expenditure allows a person to save and avoid unnecessary financial difficulties."),
+
+  QuizQuestion(
+      question:
+          "36. Leisure is best used to\n(BECE 2014 Q38)",
+      options: [
+        "Perform house chores",
+        "Attend church service",
+        "Acquire new skills",
+        "Attend extra classes"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Leisure can be used productively to learn and acquire useful new skills."),
+
+  QuizQuestion(
+      question:
+          "37. Which of the following animals provides security to man?\n(BECE 2015 Q6)",
+      options: ["Goat", "Donkey", "Dog", "Cow"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Dogs are commonly used to guard homes and provide security."),
+
+  QuizQuestion(
+      question:
+          "38. Money is used wisely when\n(BECE 2015 Q32)",
+      options: [
+        "Things are bought on credit",
+        "It is spent on expensive things",
+        "It is spent on things budgeted for",
+        "It is spent on poor people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Following a budget helps ensure that money is spent according to planned needs."),
+
+  QuizQuestion(
+      question:
+          "39. Saving money helps the individual to\n(BECE 2015 Q35)",
+      options: [
+        "Plan for the future",
+        "Become rich overnight",
+        "Attend school regularly",
+        "Make more friends"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Savings provide financial resources for future needs and plans."),
+
+  QuizQuestion(
+      question:
+          "40. Which of the following activities best offer relaxation?\n(BECE 2015 Q38)",
+      options: ["Painting", "Eating", "Running", "Reading"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Reading can be a relaxing leisure activity that helps reduce stress and boredom."),
+
+  QuizQuestion(
+      question:
+          "41. Work done to earn income can be described as\n(BECE 2015 Q40)",
+      options: ["Home work", "Community work", "Occupational work", "School work"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Occupational work refers to work or employment undertaken to earn income."),
+
+  QuizQuestion(
+      question:
+          "42. Laziness always leads to\n(BECE 2016 Q33)",
+      options: ["Misunderstanding", "Misuse of wealth", "Sickness", "Waste of time"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Laziness prevents productive activity and therefore leads to wasted time."),
+
+  QuizQuestion(
+      question:
+          "43. Idleness means\n(BECE 2016 Q34)",
+      options: ["Enjoying siesta", "Doing nothing", "Having fun", "Playing games"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Idleness means remaining inactive or doing nothing productive."),
+
+  QuizQuestion(
+      question:
+          "44. Which of the following behavior is not a positive attitude to work?\n(BECE 2016 Q35)",
+      options: ["Hark work", "Lateness", "Punctuality", "Truthfulness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Lateness is a negative attitude to work because it shows poor time management and lack of punctuality."),
+
+  QuizQuestion(
+      question:
+          "45. Workers go on strike to\n(BECE 2016 Q36)",
+      options: [
+        "Attend political rallies",
+        "Demand better conditions of service",
+        "Destroy company property",
+        "Have some rest"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A strike may be used by workers to demand improvements in their conditions of service."),
+
+  QuizQuestion(
+      question:
+          "46. The best way of handling money is by\n(BECE 2016 Q38)",
+      options: [
+        "Writing scripture words on it",
+        "Crumpling it into our pockets",
+        "Holding it with wet hands",
+        "Holding it with clean hands"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Handling money with clean hands helps keep it clean and in good condition."),
+
+  QuizQuestion(
+      question:
+          "47. The saying, time is money means\n(BECE 2016 Q40)",
+      options: [
+        "Luck comes with time",
+        "Money can be made with time",
+        "Opportunities lost cannot be recovered",
+        "Wealth can be acquired with patience"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The saying emphasizes the value of time because opportunities lost through wasted time may not return."),
+
+  QuizQuestion(
+      question:
+          "48. To earn a living, one needs to be\n(BECE 2017 Q32)",
+      options: ["Healthy", "Hard working", "Prayerful", "Responsible"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work enables a person to engage productively in activities that generate income."),
+
+  QuizQuestion(
+      question:
+          "49. Which of the following best offers relaxation?\n(BECE 2017 Q35)",
+      options: ["Eating", "Painting", "Running", "Reading"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Reading can provide relaxation and help reduce stress during leisure time."),
+
+  QuizQuestion(
+      question:
+          "50. Saving money helps the individual to\n(BECE 2017 Q36)",
+      options: [
+        "Become rich overnight",
+        "Attend school regularly",
+        "Make more friends",
+        "Plan for the future"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Saving provides money that can be used for future plans, needs and emergencies."),
+
+  QuizQuestion(
+      question:
+          "51. The most important requirement for a happy and responsible life is\n(BECE 2017 Q37)",
+      options: ["Courage", "Hard work", "Loyalty", "Respect"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work promotes responsibility, achievement and self-reliance."),
+
+  QuizQuestion(
+      question:
+          "52. A positive attitude towards work is\n(BECE 2017 Q38)",
+      options: ["Commitment", "Graciousness", "Intelligence", "Purity"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Commitment means being dedicated and responsible toward one's work."),
+
+  QuizQuestion(
+      question:
+          "53. In planning personal budget, it is necessary to ensure that\n(BECE 2017 Q39)",
+      options: [
+        "Expenditure is equal to income",
+        "Expenditure is more than income",
+        "Income is less than expenditure",
+        "Income is more than expenditure"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A sound personal budget should keep expenditure below income so that some money can be saved."),
+
+  QuizQuestion(
+      question:
+          "54. Which of the following factors is a benefit of hard work?\n(BECE 2018 Q34)",
+      options: [
+        "Becoming financially sound",
+        "Becoming popular in town",
+        "Building the body size",
+        "Having time for leisure"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hard work can improve a person's financial position and promote self-reliance."),
+
+  QuizQuestion(
+      question:
+          "55. Work done to earn income can be described as\n(BECE 2018 Q36)",
+      options: [
+        "Community work",
+        "Home work",
+        "Occupational activity",
+        "School work"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Occupational activity is work performed as an occupation to earn income."),
+
+  QuizQuestion(
+      question:
+          "56. Lazy people get old very fast. This implies that hard work brings about\n(BECE 2019 Q25)",
+      options: ["Comfort", "Development", "Good health", "Great wealth"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Productive physical and mental activity can contribute to good health and an active life."),
+
+  QuizQuestion(
+      question:
+          "57. To succeed in academic work, the individual needs to engage in serious\n(BECE 2019 Q37)",
+      options: ["Farming", "Learning", "Prayers", "Discussions"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Serious learning and study are necessary for academic success."),
+
+  QuizQuestion(
+      question:
+          "58. Visits to tourist centres help students to\n(BECE 2019 Q39)",
+      options: [
+        "Become more adventurous",
+        "Make more friends",
+        "Overcome stress and boredom",
+        "Pass their examinations"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Recreational visits can provide relaxation and help reduce stress and boredom."),
+
+  QuizQuestion(
+      question:
+          "59. To work means using\n(BECE 2020 Q37)",
+      options: [
+        "Mental and moral power",
+        "Mental and physical power",
+        "Physical and moral effort",
+        "Spiritual and will power"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Work generally involves the use of mental or physical effort to accomplish a task."),
+
+  QuizQuestion(
+      question:
+          "60. Money offers comfort in life because it\n(BECE 2020 Q38)",
+      options: [
+        "Helps to make people popular",
+        "Makes people become honest",
+        "Helps in acquiring basic needs",
+        "Promotes fear of God in people"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Money enables people to obtain basic needs such as food, clothing and shelter."),
+
+  QuizQuestion(
+      question:
+          "61. The time wasted cannot be recovered. This saying means\n(BECE 2020 Q39)",
+      options: [
+        "Time cannot be recalled",
+        "Time is very precious",
+        "Opportunity missed is lost",
+        "Punctuality leads to success"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Time that is wasted may result in opportunities being permanently lost."),
+
+  QuizQuestion(
+      question:
+          "62. To relax and recover lost energy, one needs to\n(BECE 2021 Q2)",
+      options: [
+        "Check his or her pressure",
+        "Eat a well-balanced diet",
+        "Engage in healthy exercise",
+        "Have enough leisure"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Adequate leisure provides time for rest, relaxation and recovery of energy."),
+
+  QuizQuestion(
+      question:
+          "63. To achieve success in examination, one has to engage in\n(BECE 2021 Q11)",
+      options: ["Fasting", "Hard work", "Prayers", "Smartness"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Hard work through regular study and preparation is necessary for examination success."),
+
+  QuizQuestion(
+      question:
+          "64. Proper use of leisure helps the individual to\n(BECE 2021 Q15)",
+      options: ["Do god's work", "Earn money", "Remove boredom", "Work hard"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Healthy leisure activities provide recreation and help remove boredom."),
+
+  QuizQuestion(
+      question:
+          "65. The saying that money flies implies money\n(BECE 2021 Q22)",
+      options: [
+        "Can be spent easily",
+        "Can take you anywhere",
+        "Is controlled by the evil",
+        "Should be used wisely"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The saying suggests that money can disappear quickly through spending."),
+
+  QuizQuestion(
+      question:
+          "66. Money must be carefully handled because it\n(BECE 2021 Q38)",
+      options: [
+        "Can buy expensive things",
+        "Can easily get missing",
+        "Can make a person happy",
+        "Is expensive to print"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Money can easily be lost if it is not handled and stored carefully."),
+
+  QuizQuestion(
+      question:
+          "67. Immoral life style must be avoided because they may lead to the following situations except\n(BECE 2023 Q5)",
+      options: [
+        "Poverty",
+        "Dropping out of school",
+        "Premature parenting",
+        "High self-esteem"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "High self-esteem is a positive condition and is not a harmful consequence of an immoral lifestyle."),
+
+  QuizQuestion(
+      question:
+          "68. Idleness can be associated with\n(BECE 2023 Q15)",
+      options: ["Procrastination", "Laziness", "Mismanagement", "Leisure"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Idleness is closely associated with laziness and lack of productive activity."),
     ],
   ),
 };
