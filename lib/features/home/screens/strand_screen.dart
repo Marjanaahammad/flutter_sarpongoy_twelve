@@ -11,7 +11,8 @@ import 'contents/learn_screen.dart';
 import 'contents/quiz_screen.dart';
 
 class StrandScreen extends StatelessWidget {
-  const StrandScreen({super.key});
+  final bool isTeacher;
+  const StrandScreen({super.key, this.isTeacher = false});
 
   @override
   Widget build(BuildContext context) {
@@ -123,6 +124,7 @@ class StrandScreen extends StatelessWidget {
                                         strand,
                                         subStrand,
                                         controller,
+                                        isTeacher: isTeacher,
                                       ),
                                     ),
                                   ),
@@ -406,8 +408,9 @@ class StrandScreen extends StatelessWidget {
     Course course,
     Strand strand,
     SubStrand subStrand,
-    SidebarController controller,
-  ) {
+    SidebarController controller, {
+    bool isTeacher = false,
+  }) {
     final bool isBece = strand.title == "BECE";
     if (isBece) {
       final hasObjectives = lesson.quiz.questions.isNotEmpty;
@@ -462,6 +465,7 @@ class StrandScreen extends StatelessWidget {
                       isBece: true,
                     ),
                   ),
+                  isTeacher: isTeacher,
                 ),
               if (hasTheory)
                 _buildActivityCard(
@@ -482,6 +486,7 @@ class StrandScreen extends StatelessWidget {
                       isBece: true,
                     ),
                   ),
+                  isTeacher: isTeacher,
                 ),
             ],
           ),
@@ -535,6 +540,7 @@ class StrandScreen extends StatelessWidget {
                   gradeName: controller.selectedGrade.value,
                 ),
               ),
+              isTeacher: isTeacher,
             ),
             _buildActivityCard(
               "TEACH",
@@ -555,6 +561,7 @@ class StrandScreen extends StatelessWidget {
                   ),
                 );
               },
+              isTeacher: isTeacher,
             ),
             _buildActivityCard(
               "COMPLETE GUIDED PRACTICE",
@@ -575,6 +582,7 @@ class StrandScreen extends StatelessWidget {
                   ),
                 );
               },
+              isTeacher: isTeacher,
             ),
             _buildActivityCard(
               "IMPROVE YOURSELF THROUGH QUIZ",
@@ -595,6 +603,7 @@ class StrandScreen extends StatelessWidget {
                   ),
                 );
               },
+              isTeacher: isTeacher,
             ),
           ],
         ),
@@ -610,8 +619,9 @@ class StrandScreen extends StatelessWidget {
     Color color,
     Color borderColor,
     bool isLocked,
-    VoidCallback onTap,
-  ) {
+    VoidCallback onTap, {
+    bool isTeacher = false,
+  }) {
     return Container(
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(
@@ -653,32 +663,33 @@ class StrandScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Icon(
-                    Icons.check_circle,
-                    color: ((type == "Get Ready" &&
-                                lesson.getReadyDoneDate != null) ||
-                            (type == "Learn" && lesson.learnDoneDate != null) ||
-                            (type == "Practice" &&
-                                lesson.practiceDoneDate != null) ||
-                            (type == "Quiz" && lesson.quizDoneDate != null) ||
-                            (type == "Objectives" &&
-                                lesson.quizDoneDate != null) ||
-                            (type == "Theory" &&
-                                lesson.practiceDoneDate != null)
-                        ? const Color(0xFF019E2E)
-                        : Colors.grey.shade300),
-                    size: 25,
-                  ),
+                  if (!isTeacher)
+                    Icon(
+                      Icons.check_circle,
+                      color: ((type == "Get Ready" &&
+                                  lesson.getReadyDoneDate != null) ||
+                              (type == "Learn" && lesson.learnDoneDate != null) ||
+                              (type == "Practice" &&
+                                  lesson.practiceDoneDate != null) ||
+                              (type == "Quiz" && lesson.quizDoneDate != null) ||
+                              (type == "Objectives" &&
+                                  lesson.quizDoneDate != null) ||
+                              (type == "Theory" &&
+                                  lesson.practiceDoneDate != null)
+                          ? const Color(0xFF019E2E)
+                          : Colors.grey.shade300),
+                      size: 25,
+                    ),
                 ],
               ),
               const SizedBox(height: 12),
-              if (type == "Get Ready" && lesson.getReadyDoneDate != null)
+              if (!isTeacher && type == "Get Ready" && lesson.getReadyDoneDate != null)
                 _buildDoneRow(lesson.getReadyDoneDate!),
-              if (type == "Learn" && lesson.learnDoneDate != null)
+              if (!isTeacher && type == "Learn" && lesson.learnDoneDate != null)
                 _buildDoneRow(lesson.learnDoneDate!),
-              if (type == "Theory" && lesson.practiceDoneDate != null)
+              if (!isTeacher && type == "Theory" && lesson.practiceDoneDate != null)
                 _buildDoneRow(lesson.practiceDoneDate!),
-              if (type == "Practice" && lesson.practiceDoneDate != null)
+              if (!isTeacher && type == "Practice" && lesson.practiceDoneDate != null)
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -715,7 +726,7 @@ class StrandScreen extends StatelessWidget {
                       ),
                   ],
                 ),
-              if (type == "Objectives" && lesson.quizDoneDate != null)
+              if (!isTeacher && type == "Objectives" && lesson.quizDoneDate != null)
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -737,7 +748,7 @@ class StrandScreen extends StatelessWidget {
                       ),
                   ],
                 ),
-              if (type == "Quiz" && lesson.quizDoneDate != null)
+              if (!isTeacher && type == "Quiz" && lesson.quizDoneDate != null)
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [

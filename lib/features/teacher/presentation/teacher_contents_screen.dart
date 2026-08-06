@@ -21,7 +21,9 @@ class _TeacherContentsScreenState extends State<TeacherContentsScreen> {
   @override
   void initState() {
     super.initState();
-    _sidebarController = Get.find<SidebarController>();
+    _sidebarController = Get.isRegistered<SidebarController>()
+        ? Get.find<SidebarController>()
+        : Get.put(SidebarController());
   }
 
   @override
@@ -38,7 +40,7 @@ class _TeacherContentsScreenState extends State<TeacherContentsScreen> {
         child: Obx(() {
           final selectedCourse = _sidebarController.selectedCourse.value;
           if (selectedCourse != null) {
-            return const StrandScreen();
+            return const StrandScreen(isTeacher: true);
           }
 
           return SingleChildScrollView(
