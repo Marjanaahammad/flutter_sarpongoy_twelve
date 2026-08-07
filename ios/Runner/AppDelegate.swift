@@ -30,7 +30,7 @@ import UIKit
           print("[MDM] No managed config found — device is NOT enrolled in SimpleMDM")
         }
 
-        let serial = managed?["serial_number"] as? String ?? ""
+        let serial = managed?["device_serial_number"] as? String ?? ""
         print("[MDM] Resolved serial_number: '\(serial)'")
         result(serial)
       } else {
