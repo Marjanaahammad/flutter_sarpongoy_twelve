@@ -175,7 +175,7 @@ class TeacherSidebar extends StatelessWidget {
                     _SidebarTile(
                       icon: Icons.menu_book_outlined,
                       selectedIcon: Icons.menu_book,
-                      label: 'Contents',
+                      label: 'Content',
                       isSelected: selectedIndex == 6 || selectedCourse != null,
                       onTap: () {
                         sidebarController.resetToHome();

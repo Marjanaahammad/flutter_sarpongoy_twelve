@@ -9121,8 +9121,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Science JHS1 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
-      PracticeModel(
+  "Science JHS1 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -9384,8 +9383,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Science JHS2 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
-      PracticeModel(
+  "Science JHS2 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -9648,8 +9646,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS3 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis":
-      PracticeModel(
+  "Science JHS3 s2 ss1 - Water Cycle, Carbon & Nitrogen Cycles, and Photosynthesis": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -11108,8 +11105,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS1 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
-      PracticeModel(
+  "Science JHS1 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -11360,8 +11356,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Science JHS2 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
-      PracticeModel(
+  "Science JHS2 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -11613,8 +11608,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS3 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":
-      PracticeModel(
+  "Science JHS3 s3 ss1 - Mixed Systems (Food & Nutrition, Respiration, Dentition, Circulatory, Reproduction, Digestion)":PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -12703,8 +12697,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS1 s4 ss1 - Source, Forms, and Related Properties of Energy":
-      PracticeModel(
+  "Science JHS1 s4 ss1 - Source, Forms, and Related Properties of Energy": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
