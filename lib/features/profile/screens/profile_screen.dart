@@ -14,7 +14,6 @@ import 'package:flutter_sarpongoy_twelve/core/services/hive_storage_service.dart
 import 'package:flutter_sarpongoy_twelve/core/services/request_queue_service.dart';
 import 'package:flutter_sarpongoy_twelve/core/config/debug_print.dart';
 
-
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 
@@ -62,7 +61,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         }
 
         final student = _profileController.userInfo.value?.student;
-        final percentage = ((student?.averageScore ?? 0.0) / 10) * 100;
+        (student?.averageScore ?? 0.0).clamp(0.0, 100.0);
 
         return SingleChildScrollView(
           padding: const EdgeInsets.all(16),
@@ -240,14 +239,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 children: [
                   Expanded(
                     child: _statCard(
-                      "${(((student?.averageScore ?? 0.0) / 10) * 100).toStringAsFixed(1)}%",
+                      "${(student?.averageScore ?? 0.0).clamp(0.0, 100.0).toStringAsFixed(1)}%",
                       "Average Quiz Score",
                     ),
                   ),
                   const SizedBox(width: 12),
                   Expanded(
                     child: _statCard(
-                      ((student?.totalNumberOfMinutes ?? 0) / 60).toStringAsFixed(0),
+                      ((student?.totalNumberOfMinutes ?? 0) / 60)
+                          .toStringAsFixed(0),
                       "Total Number of Hours",
                     ),
                   ),

@@ -5,8 +5,8 @@ import 'dart:convert';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:get/get_instance/src/extension_instance.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart' hide FormData;
 import '../common/models/base_response.dart';
 import '../common/models/network_failure.dart';
 import '../common/models/network_success.dart';
@@ -15,6 +15,11 @@ import '../services/api_cache_service.dart';
 import '../services/auth_storage_service.dart';
 import '../services/connectivity_service.dart';
 import '../services/request_queue_service.dart';
+import '../services/hive_storage_service.dart';
+import '../database/database_service.dart';
+import '../../features/auth/screens/login_as_screen.dart';
+import '../../features/profile/controller/profile_controller.dart';
+import '../../features/sidebar/controller/sidebar_controller.dart';
 import 'dio_error_handler.dart';
 import '../config/debug_print.dart';
 
@@ -99,13 +104,75 @@ class ApiClient {
     return const Right(null);
   }
 
+  bool _isAuthEndpoint(String endpoint) {
+    final lower = endpoint.toLowerCase();
+    return lower.contains('/auth/login') ||
+        lower.contains('/auth/student/verify-security') ||
+        lower.contains('/auth/student/security-questions') ||
+        lower.contains('/auth/student/reset-password');
+  }
+
+  static bool _isSessionExpiredHandling = false;
+
+  Future<void> _handleSessionExpired() async {
+    if (_isSessionExpiredHandling) return;
+    _isSessionExpiredHandling = true;
+
+    try {
+      DPrint.warn("Session expired or token invalid. Performing auto-logout...");
+
+      // 1. Clear stored tokens & credentials
+      await _authStorageService.clearAuthData();
+
+      // 2. Clear physical databases & caches
+      try {
+        await DatabaseService.instance.clearAllData();
+        await HiveStorageService().clear();
+        await _cacheService.clearAllCache();
+        await RequestQueueService().clearQueue();
+      } catch (e) {
+        DPrint.error("Error clearing storage during session expiry: $e");
+      }
+
+      // 3. Reset in-memory controllers
+      if (Get.isRegistered<ProfileController>()) {
+        await Get.find<ProfileController>().clearData();
+      }
+      if (Get.isRegistered<SidebarController>()) {
+        await Get.find<SidebarController>().clearData();
+      }
+
+      // 4. Notify user
+      Get.snackbar(
+        "Session Expired",
+        "Your session has expired. Please log in again.",
+        snackPosition: SnackPosition.TOP,
+        backgroundColor: const Color(0xFFFF334B),
+        colorText: Colors.white,
+        duration: const Duration(seconds: 4),
+        margin: const EdgeInsets.all(12),
+        borderRadius: 8,
+      );
+
+      // 5. Redirect directly to Login screen
+      await Future.delayed(const Duration(milliseconds: 300));
+      Get.offAll(() => const LoginAsScreen());
+    } catch (e) {
+      DPrint.error("Session expired redirection error: $e");
+    } finally {
+      _isSessionExpiredHandling = false;
+    }
+  }
+
   /// Refresh token method
   Future<bool> _refreshToken() async {
     try {
       final refreshToken = await _authStorageService.getRefreshToken();
       DPrint.info("Refreshing ...");
 
-      if (refreshToken == null) {
+      if (refreshToken == null || refreshToken.isEmpty) {
+        DPrint.warn("No refresh token found. Logging out.");
+        _handleSessionExpired();
         return false;
       }
 
@@ -145,28 +212,15 @@ class ApiClient {
         return newAccessToken != null;
       }
 
-      // Navigate to login screen - you'll need to implement this based on your navigation
-      //await _logout();
+      DPrint.warn("Refresh token invalid or expired. Session expired.");
+      _handleSessionExpired();
       return false;
     } catch (e) {
       DPrint.log("Refresh token error: $e");
-      //await _logout();
+      _handleSessionExpired();
       return false;
     }
   }
-
-  // Future<void> _logout() async {
-  //   try {
-  //     // Clear stored tokens
-  //     await _authStorageService.clearAuthData();
-  //
-  //     // Delay navigation slightly to ensure UI is ready
-  //     await Future.delayed(Duration.zero);
-  //     Get.offAll(() => LoginScreen(), transition: Transition.leftToRight);
-  //   } catch (e) {
-  //     DPrint.error("Logout error: $e");
-  //   }
-  // }
 
   /// Main request method using Either
   Future<Either<NetworkFailure, NetworkSuccess<T>>> _request<T>({
@@ -285,31 +339,34 @@ class ApiClient {
       );
     } on DioException catch (error) {
       // DPrint.error("Api DioException : $error");
-      if (error.response?.statusCode == 401 && !_isRefreshing) {
-        _isRefreshing = true;
-        try {
-          if (await _refreshToken()) {
-            return _request<T>(
-              method: method,
-              endpoint: endpoint,
-              fromJsonT: fromJsonT,
-              data: data,
-              queryParameters: queryParameters,
-              options: options,
-              cancelToken: cancelToken,
-              onSendProgress: onSendProgress,
-              onReceiveProgress: onReceiveProgress,
-            );
+      if (error.response?.statusCode == 401 && !_isAuthEndpoint(endpoint)) {
+        if (!_isRefreshing) {
+          _isRefreshing = true;
+          try {
+            if (await _refreshToken()) {
+              return _request<T>(
+                method: method,
+                endpoint: endpoint,
+                fromJsonT: fromJsonT,
+                data: data,
+                queryParameters: queryParameters,
+                options: options,
+                cancelToken: cancelToken,
+                onSendProgress: onSendProgress,
+                onReceiveProgress: onReceiveProgress,
+              );
+            }
+          } finally {
+            _isRefreshing = false;
+            for (var completer in _pendingRequests) {
+              completer.complete();
+            }
+            _pendingRequests.clear();
           }
-        } finally {
-          _isRefreshing = false;
-          for (var completer in _pendingRequests) {
-            completer.complete();
-          }
-          _pendingRequests.clear();
         }
+        _handleSessionExpired();
       }
-      return Left(_handleDioError(error));
+      return Left(_handleDioError(error, endpoint: endpoint));
     } catch (e) {
       DPrint.log("Unexpected error: $e");
       return const Left(
@@ -658,7 +715,10 @@ class ApiClient {
   }
 
   /// Updated error handling to return NetworkFailure instead of ApiResult
-  NetworkFailure _handleDioError(DioException error) {
+  NetworkFailure _handleDioError(DioException error, {String? endpoint}) {
+    if (error.response?.statusCode == 401 && endpoint != null && !_isAuthEndpoint(endpoint)) {
+      _handleSessionExpired();
+    }
     // Check if we have a response with error details
     if (error.response != null) {
       if (kDebugMode) DPrint.log("** Dio Error: ${error.response!.data}");

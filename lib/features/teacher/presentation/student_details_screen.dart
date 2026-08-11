@@ -38,10 +38,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   @override
   void initState() {
     super.initState();
-     _noScreenshot.screenshotOff();
+    _noScreenshot.screenshotOff();
     _dashboardController = Get.find<TeacherDashboardController>();
     _profileController = Get.find<TeacherProfileController>();
-
 
     // Fetch subjects if not already loaded or always refresh
     _dashboardController.fetchSubject();
@@ -80,9 +79,12 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
           Expanded(
             child: Obx(() {
               final overviewTop = _dashboardController.studentOverviewTop.value;
-              final overviewBottom = _dashboardController.studentOverviewBottom.value;
+              final overviewBottom =
+                  _dashboardController.studentOverviewBottom.value;
 
-              if (overviewTop == null && overviewBottom == null && _dashboardController.isLoading.value) {
+              if (overviewTop == null &&
+                  overviewBottom == null &&
+                  _dashboardController.isLoading.value) {
                 return const Center(
                   child: CircularProgressIndicator(color: Color(0xFF019E2E)),
                 );
@@ -584,10 +586,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildSubjectDetailsSection(
-      GetStudentDetailsResponseModel? topData,
+  Widget _buildSubjectDetailsSection(GetStudentDetailsResponseModel? topData,
       GetStudentDetailsResponseModel? bottomData) {
-    
     final summary = topData?.overview?.summary;
 
     return Container(
@@ -779,7 +779,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                 reservedSize: 60,
                 interval: 4,
                 getTitlesWidget: (value, meta) {
-                  if (value % 4 != 0 || value > 12) return const SizedBox.shrink();
+                  if (value % 4 != 0 || value > 12)
+                    return const SizedBox.shrink();
                   return SideTitleWidget(
                     axisSide: meta.axisSide,
                     child: Text(
@@ -1051,7 +1052,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildBottomSection(GetStudentDetailsResponseModel? topData, GetStudentDetailsResponseModel? bottomData) {
+  Widget _buildBottomSection(GetStudentDetailsResponseModel? topData,
+      GetStudentDetailsResponseModel? bottomData) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -1065,7 +1067,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             borderRadius: BorderRadius.circular(16),
             border: Border.all(color: const Color(0xFFE5E7EB)),
           ),
-          child: _buildProgressChart(topData?.overview?.subjectProgress.where((p) {
+          child:
+              _buildProgressChart(topData?.overview?.subjectProgress.where((p) {
             if (_selectedSubjectName == null ||
                 _selectedSubjectName == 'All' ||
                 _selectedSubjectName == 'ALL') return true;
@@ -1073,10 +1076,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                 .toLowerCase()
                 .replaceAll('and', '&')
                 .trim();
-            final current = (p.subject ?? '')
-                .toLowerCase()
-                .replaceAll('and', '&')
-                .trim();
+            final current =
+                (p.subject ?? '').toLowerCase().replaceAll('and', '&').trim();
             return current == selected;
           }).toList()),
         ),
@@ -1282,8 +1283,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     children: [
                       _buildTableRow(
                         work.subject,
-                        '${work.practiceScore ?? 0}%',
-                        '${work.quizScore ?? 0}%',
+                        '${(work.practiceScore ?? 0).clamp(0, 100)}%',
+                        '${(work.quizScore ?? 0).clamp(0, 100)}%',
                         '${work.lesson.strand} - ${work.lesson.subStrand} (${work.lesson.lessonNumber})',
                         work.date,
                       ),
@@ -1656,9 +1657,6 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       ],
     );
   }
-  
-
-  
 
   Widget _buildQuizScoresSection(GetStudentDetailsResponseModel? data) {
     final courseWise = data?.overview.quizScoreTable ?? [];
