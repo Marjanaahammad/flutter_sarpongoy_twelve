@@ -51,7 +51,6 @@ dependencies:
   json_annotation: ^4.9.0
   equatable: ^2.0.8
   dartz: ^0.10.1
-  flutter_secure_storage: ^8.1.0
   # connectivity_plus: 2.3.9
   intl: ^0.20.2
   flutter_svg: ^2.1.0
@@ -75,6 +74,10 @@ dependencies:
 
   flutter_launcher_icons: "^0.13.1"
   provider: ^6.1.5+1
+
+  flutter_math_fork: ^0.7.4
+  flutter_secure_storage: ^10.3.1
+
   no_screenshot:
     path: lib/core/no_screenshot-development
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:flutter_sarpongoy_twelve/core/flutter_math_fork/lib/flutter_math.dart';
+import 'package:flutter_math_fork/flutter_math.dart';
 import 'package:flutter_sarpongoy_twelve/features/home/screens/contents/controller/practice_controller.dart';
 import 'package:get/get.dart';
 import 'package:flutter_sarpongoy_twelve/features/home/models/strand_model.dart';
