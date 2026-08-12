@@ -41,7 +41,7 @@ class AuthController extends BaseController {
   /// Managed App Configuration (iOS: com.apple.configuration.managed,
   /// Android: RestrictionsManager). Falls back to the platform's best
   /// available identifier when the device is not MDM-enrolled.
-  static const _mdmChannel = MethodChannel('com.sarpongoy.ilearnready/mdm_config');
+  static const _mdmChannel = MethodChannel('com.counteradnanvhai.com/mdm_config');
 
   Future<String> _getDeviceAddress() async {
     print('┌─ [DeviceSerial] Reading from SimpleMDM Managed App Config...');

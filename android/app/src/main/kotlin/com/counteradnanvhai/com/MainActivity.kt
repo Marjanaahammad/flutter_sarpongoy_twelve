@@ -1,4 +1,4 @@
-package com.sarpongoy.ilearnready
+package com.counteradnanvhai.com
 
 import android.content.RestrictionsManager
 import android.content.Context
@@ -8,7 +8,7 @@ import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
 
-    private val MDM_CHANNEL = "com.sarpongoy.ilearnready/mdm_config"
+    private val MDM_CHANNEL = "com.counteradnanvhai.com/mdm_config"
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)

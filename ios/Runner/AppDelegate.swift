@@ -15,7 +15,7 @@ import UIKit
     // NSUserDefaults under the key "com.apple.configuration.managed".
     let controller = window?.rootViewController as! FlutterViewController
     let mdmChannel = FlutterMethodChannel(
-      name: "com.sarpongoy.ilearnready/mdm_config",
+      name: "com.counteradnanvhai.com/mdm_config",
       binaryMessenger: controller.binaryMessenger
     )
 
