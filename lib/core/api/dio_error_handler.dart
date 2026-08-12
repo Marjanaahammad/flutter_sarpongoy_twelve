@@ -58,6 +58,7 @@ String dioErrorToUserMessage(DioException error) {
     case DioExceptionType.connectionError:
       return "No internet connection.";
     case DioExceptionType.unknown:
+    default:
       return "Something went wrong. Please try again.";
   }
 }

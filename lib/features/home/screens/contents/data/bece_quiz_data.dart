@@ -22378,8 +22378,8 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-  "Science JHS1 s2 ss1 - Nature of Soil, Photosynthesis & Earth Cycles":
-      QuizModel(
+  
+  "Science JHS1 s2 ss1 - Nature of Soil, Photosynthesis & Earth Cycles": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -23269,8 +23269,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-  "Science JHS2 s2 ss1 - Nature of Soil, Photosynthesis & Earth Cycles":
-      QuizModel(
+  "Science JHS2 s2 ss1 - Nature of Soil, Photosynthesis & Earth Cycles": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -24160,9 +24159,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-
-  "Science JHS3 s2 ss1 - Nature of Soil, Photosynthesis & Earth Cycles":
-      QuizModel(
+  "Science JHS3 s2 ss1 - Nature of Soil, Photosynthesis & Earth Cycles": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -25321,7 +25318,6 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-
   "Science JHS3 s2 ss2 - Life Cycle of Insects": QuizModel(
     audioPath: '',
     questions: [
@@ -25457,8 +25453,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
-  "Science JHS1 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production":
-      QuizModel(
+  "Science JHS1 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -25773,8 +25768,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-  "Science JHS3 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production":
-      QuizModel(
+  "Science JHS3 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -26089,8 +26083,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-  "Science JHS2 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production":
-      QuizModel(
+  "Science JHS2 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -26405,6 +26398,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
+  
   "Science JHS1 s2 ss4 - Animal Production": QuizModel(
     audioPath: '',
     questions: [
@@ -27069,8 +27063,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
-  "Science JHS1 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
-      QuizModel(
+  "Science JHS1 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -28132,9 +28125,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-
-  "Science JHS2 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
-      QuizModel(
+  "Science JHS2 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -29196,8 +29187,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-  "Science JHS3 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
-      QuizModel(
+  "Science JHS3 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -30722,7 +30712,6 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-
   "Science JHS2 s3 ss2 - Solar System": QuizModel(
     audioPath: '',
     questions: [
@@ -31185,7 +31174,6 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-
   "Science JHS3 s3 ss2 - Solar System": QuizModel(
     audioPath: '',
     questions: [
@@ -31649,8 +31637,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
-  "Science JHS1 s3 ss3 - Interactions in Ecosystems & Environmental Factors":
-      QuizModel(
+  "Science JHS1 s3 ss3 - Interactions in Ecosystems & Environmental Factors": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -32507,9 +32494,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-
-  "Science JHS3 s3 ss3 - Interactions in Ecosystems & Environmental Factors":
-      QuizModel(
+  "Science JHS3 s3 ss3 - Interactions in Ecosystems & Environmental Factors": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -33366,9 +33351,7 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
       ),
     ],
   ),
-
-  "Science JHS2 s3 ss3 - Interactions in Ecosystems & Environmental Factors":
-      QuizModel(
+  "Science JHS2 s3 ss3 - Interactions in Ecosystems & Environmental Factors": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -36240,8 +36223,927 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
-  "Science JHS3 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy":
-      QuizModel(
+  "Science JHS3 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Light energy is transferred through space to the Earth from the Sun by the process of        (BECE 1990 Q39)",
+        options: ["conduction", "convection", "radiation", "refraction"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Radiation transfers heat and light energy through space without requiring a material medium.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The mode of heat transfer involved in the heating of water in a bucket from the bottom until it boils is        (BECE 2000 Q28)",
+        options: [
+          "conduction only",
+          "convection only",
+          "radiation only",
+          "conduction and convection"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Heat passes through the bottom of the bucket by conduction and is then circulated through the water by convection.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Heat travels through a vacuum by a process known as        (BECE 1996 Q18)",
+        options: ["conduction", "convection", "radiation", "transmission"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Radiation can transfer heat through a vacuum because it does not require particles or a material medium.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The chief source of energy in the world today is        (BECE 1996 Q28)",
+        options: ["coal", "crude oil", "natural gas", "uranium", "water"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Crude oil has traditionally been one of the world's major sources of energy because it is processed into fuels such as petrol, diesel and kerosene.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following is a source of energy?        (BECE 2009 Q3)",
+        options: ["Electricity", "Heat", "Light", "Wood"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Wood is an energy source because its stored chemical energy can be released as heat when it burns.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following sources of energy is non-renewable?        (BECE 2010 Q25)",
+        options: ["Sun", "Waves", "Wind", "Wood"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Among the options given in the question, wood is treated as the non-renewable energy source when it is consumed faster than trees can be replaced.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following is an indirect source of light?        (BECE 1995 Q14)",
+        options: ["Torch light", "The sun", "Fire", "The moon", "Candle flame"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon does not produce its own light; it is visible because it reflects light from the Sun.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Energy stored in food is referred to as        (BECE 2017 Q15)",
+        options: [
+          "chemical energy",
+          "heat energy",
+          "solar energy",
+          "kinetic energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Food stores energy in chemical bonds, so the energy contained in food is called chemical energy.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following energy sources is/are renewable?\n\n"
+            "I. Solar\n\n"
+            "II. Crude oil\n\n"
+            "III. Wind        (BECE 2019 Q7)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Solar and wind energy are naturally replenished, while crude oil is a non-renewable fossil fuel.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following is an example of a non-renewable source of energy?        (BECE 2016 Q40)",
+        options: ["petroleum", "solar", "tide", "wind"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Petroleum is a fossil fuel that takes millions of years to form and cannot be replaced quickly once used.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Spectacles fitted with concave lenses are worn by people suffering from        (BECE 2006 Q16)",
+        options: [
+          "loss of accommodation",
+          "total blindness",
+          "long-sightedness",
+          "short-sightedness"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Concave lenses diverge light rays and are used to correct short-sightedness, also called myopia.",
+      ),
+      QuizQuestion(
+        question:
+            "12. A ray of light makes an angle of 20° with the surface of a plane mirror. Determine the angle of reflection.        (BECE 2001 Q16)",
+        options: ["20°", "50°", "70°", "90°", "120°"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The ray makes 20° with the mirror surface, so it makes 70° with the normal. The angle of reflection equals the angle of incidence, therefore it is 70°.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The best reason why a cooking pan should have a wooden handle is that wood is a        (BECE 1992 Q17)",
+        options: [
+          "good conductor of heat",
+          "bad conductor of heat",
+          "good radiator of heat",
+          "bad radiator of heat",
+          "good reflector of heat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Wood is a poor conductor of heat, so a wooden handle reduces the transfer of heat from the hot pan to the hand.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The darkest part of a shadow formed during an eclipse is called        (BECE 1996 Q9)",
+        options: [
+          "lunar eclipse",
+          "annular eclipse",
+          "penumbra",
+          "umbra",
+          "solar eclipse"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The umbra is the region of complete shadow where light from the source is totally blocked.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Plastic materials may be used to make the handles of cooking utensils because they are        (BECE 1998 Q31)",
+        options: [
+          "hard",
+          "poor conductors of heat",
+          "attractive",
+          "easy to wash",
+          "not poisonous"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Plastics are poor conductors of heat, so they help protect the hand from the heat of cooking utensils.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following pairs of energy sources is environmentally friendly?        (BECE 2024 Q30)",
+        options: [
+          "Wind and biogas",
+          "Biogas and thermal energy",
+          "Wind and coal",
+          "Coal and thermal energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind and biogas are cleaner energy sources that generally produce less environmental pollution than fossil fuels such as coal.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The form of energy produced from the nucleus of an atom is termed        (BECE 2014 Q10)",
+        options: [
+          "chemical energy",
+          "mechanical energy",
+          "nuclear energy",
+          "thermal energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Energy released from changes in the nucleus of an atom is called nuclear energy.",
+      ),
+      QuizQuestion(
+        question:
+            "18. The angle between an incident ray and a reflecting surface is 20°. Determine the angle of reflection.        (BECE 2008 Q7)",
+        options: ["60°", "70°", "90°", "110°"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The normal is perpendicular to the reflecting surface, so the angle of incidence is 90° − 20° = 70°. Therefore the angle of reflection is also 70°.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Liquids suitable for use in thermometers must not        (BECE 1995 Q16)",
+        options: [
+          "wet glass",
+          "have a low boiling point",
+          "have a high melting point",
+          "have a high density",
+          "expand"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A suitable thermometric liquid should not wet the glass so that it can move freely and give clear, accurate readings.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following statements about light is true?        (BECE 1998 Q23)",
+        options: [
+          "Light is reflected from polished surfaces",
+          "Light travels through opaque objects",
+          "Light passes through plane mirrors",
+          "The angle of incidence is between the normal and the reflected ray",
+          "The speed of light is less than that of sound"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Polished surfaces reflect light efficiently, which is why mirrors can form clear images.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following objects is a good conductor of heat?        (BECE 1991 Q3)",
+        options: ["Wood", "Rubber", "Copper", "Plastic", "Wool"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Copper is a metal and an excellent conductor of heat, unlike wood, rubber, plastic and wool.",
+      ),
+      QuizQuestion(
+        question: "22. The unit measurement of energy is        (BECE 2003 Q5)",
+        options: ["joule", "kelvin", "newton", "watt"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The SI unit of energy is the joule (J).",
+      ),
+      QuizQuestion(
+        question:
+            "23. The source of all forms of energy can be traced to        (BECE 2005 Q6)",
+        options: ["clouds", "earthquakes", "tides", "sunlight"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Most energy used on Earth can ultimately be traced to energy from the Sun.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Which of the following resource(s) does not produce energy?        (BECE 2016 Q40)",
+        options: ["Coal", "Sand", "Water", "Wind"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Sand is not normally used as an energy source, whereas coal, moving water and wind can be used to produce energy.",
+      ),
+      QuizQuestion(
+        question:
+            "25. A temperature controlling device which works using the principles of expansion and contraction is called a        (BECE 1998 Q31)",
+        options: [
+          "conduction",
+          "fuse",
+          "manometer",
+          "thermometer",
+          "thermostat"
+        ],
+        correctIndex: 4,
+        difficulty: "Easy",
+        explanation:
+            "A thermostat uses expansion and contraction, often of a bimetallic strip, to control temperature automatically.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The temperature of 20°C on the Kelvin scale is        (BECE 2000 Q14)",
+        options: ["253 K", "263 K", "273 K", "283 K", "293 K"],
+        correctIndex: 4,
+        difficulty: "Easy",
+        explanation:
+            "Kelvin temperature = Celsius temperature + 273. Therefore, 20 + 273 = 293 K.",
+      ),
+      QuizQuestion(
+        question: "27. A metal expands when there is        (BECE 2005 Q2)",
+        options: [
+          "an increase in heat energy",
+          "an increase in number of electrons",
+          "a decrease in potential energy",
+          "a decrease in distance between atoms"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "When a metal gains heat energy, its particles vibrate more strongly and their average separation increases, causing expansion.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Ventilation holes are made at the upper part of a door to allow air to rise by        (BECE 2006 Q4)",
+        options: ["convection", "conduction", "radiation", "reflection"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Warm air becomes less dense and rises, producing convection currents that allow it to escape through upper ventilation openings.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The mode of heat transfer in which no material is involved is known as        (BECE 2020 Q24)",
+        options: ["conduction", "convection", "expansion", "radiation"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation transfers heat through electromagnetic waves and does not require a material medium.",
+      ),
+      QuizQuestion(
+        question: "30. When gases are heated they        (BECE 2022 Q36)",
+        options: [
+          "melt",
+          "sublime",
+          "decrease in volume",
+          "decrease in intermolecular forces"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Heating a gas increases the kinetic energy of its particles, causing them to move farther apart and reducing the effective intermolecular forces between them.",
+      ),
+      QuizQuestion(
+        question:
+            "31. The angle between a ray of light and the surface it strikes is 30°. Calculate the angle of incidence.        (BECE 1992 Q36)",
+        options: ["120°", "210°", "90°", "60°", "30°"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The angle of incidence is measured from the normal. Since the normal is 90° to the surface, the angle of incidence is 90° − 30° = 60°.",
+      ),
+      QuizQuestion(
+        question:
+            "32. During an eclipse of the sun, the        (BECE 1993 Q40)",
+        options: [
+          "sun comes between earth and moon in a straight line",
+          "earth comes between sun and moon in a straight line",
+          "moon comes between sun and earth in a straight line",
+          "earth and the sun are on one side of the moon"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A solar eclipse occurs when the Moon moves between the Sun and the Earth and blocks some or all of the Sun's light.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The most sensitive organ of the eye to light rays is the        (BECE 1994 Q24)",
+        options: ["retina", "pupil", "cornea", "iris", "lens"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The retina contains light-sensitive cells called rods and cones that detect light and convert it into nerve impulses.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following controls the amount of light that enters the eyes?        (BECE 1998 Q28)",
+        options: [
+          "The cornea",
+          "The iris",
+          "The lens",
+          "The pupil",
+          "The retina"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The iris controls the size of the pupil and therefore regulates the amount of light entering the eye.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Spectacles fitted with converging lenses are used by people suffering from        (BECE 2000 Q40)",
+        options: [
+          "cataract",
+          "glaucoma",
+          "headache",
+          "long-sightedness",
+          "short-sightedness"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Converging or convex lenses are used to correct long-sightedness by helping light focus properly on the retina.",
+      ),
+      QuizQuestion(
+        question:
+            "36. An object is placed 20 cm in front of a plane mirror. The distance between the object and the image is        (BECE 2005 Q4)",
+        options: ["20 cm", "40 cm", "60 cm", "80 cm"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror forms an image the same distance behind the mirror as the object is in front. Therefore, the total distance is 20 cm + 20 cm = 40 cm.",
+      ),
+      QuizQuestion(
+        question:
+            "37. A stick placed in water appears to be bent because light travelling from the water to the air is        (BECE 2007 Q6)",
+        options: ["dispersed", "displaced", "refracted", "reflected"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light changes direction when it passes from water into air. This bending of light is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n\n"
+            "II. Sun\n\n"
+            "III. Firefly        (BECE 2008 Q3)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Sun produces its own light and a firefly produces light by bioluminescence. The Moon only reflects sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "39. The amount of light that enters the eye is reduced by the size of the        (BECE 2008 Q17)",
+        options: ["lens", "iris", "pupil", "retina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The amount of light entering the eye depends on the size of the pupil; a smaller pupil allows less light to enter.",
+      ),
+      QuizQuestion(
+        question:
+            "40. A material that allows a small amount of light energy to pass through it but cannot be seen through is referred to as        (BECE 2012 Q39)",
+        options: ["opaque", "reflective", "translucent", "transparent"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A translucent material allows some light to pass through but does not allow objects behind it to be seen clearly.",
+      ),
+    ],
+  ),
+  "Science JHS2 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Light energy is transferred through space to the Earth from the Sun by the process of        (BECE 1990 Q39)",
+        options: ["conduction", "convection", "radiation", "refraction"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Radiation transfers heat and light energy through space without requiring a material medium.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The mode of heat transfer involved in the heating of water in a bucket from the bottom until it boils is        (BECE 2000 Q28)",
+        options: [
+          "conduction only",
+          "convection only",
+          "radiation only",
+          "conduction and convection"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Heat passes through the bottom of the bucket by conduction and is then circulated through the water by convection.",
+      ),
+      QuizQuestion(
+        question:
+            "3. Heat travels through a vacuum by a process known as        (BECE 1996 Q18)",
+        options: ["conduction", "convection", "radiation", "transmission"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Radiation can transfer heat through a vacuum because it does not require particles or a material medium.",
+      ),
+      QuizQuestion(
+        question:
+            "4. The chief source of energy in the world today is        (BECE 1996 Q28)",
+        options: ["coal", "crude oil", "natural gas", "uranium", "water"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Crude oil has traditionally been one of the world's major sources of energy because it is processed into fuels such as petrol, diesel and kerosene.",
+      ),
+      QuizQuestion(
+        question:
+            "5. Which of the following is a source of energy?        (BECE 2009 Q3)",
+        options: ["Electricity", "Heat", "Light", "Wood"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Wood is an energy source because its stored chemical energy can be released as heat when it burns.",
+      ),
+      QuizQuestion(
+        question:
+            "6. Which of the following sources of energy is non-renewable?        (BECE 2010 Q25)",
+        options: ["Sun", "Waves", "Wind", "Wood"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Among the options given in the question, wood is treated as the non-renewable energy source when it is consumed faster than trees can be replaced.",
+      ),
+      QuizQuestion(
+        question:
+            "7. Which of the following is an indirect source of light?        (BECE 1995 Q14)",
+        options: ["Torch light", "The sun", "Fire", "The moon", "Candle flame"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The moon does not produce its own light; it is visible because it reflects light from the Sun.",
+      ),
+      QuizQuestion(
+        question:
+            "8. Energy stored in food is referred to as        (BECE 2017 Q15)",
+        options: [
+          "chemical energy",
+          "heat energy",
+          "solar energy",
+          "kinetic energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Food stores energy in chemical bonds, so the energy contained in food is called chemical energy.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following energy sources is/are renewable?\n\n"
+            "I. Solar\n\n"
+            "II. Crude oil\n\n"
+            "III. Wind        (BECE 2019 Q7)",
+        options: ["I only", "I and II only", "I and III only", "I, II and III"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Solar and wind energy are naturally replenished, while crude oil is a non-renewable fossil fuel.",
+      ),
+      QuizQuestion(
+        question:
+            "10. Which of the following is an example of a non-renewable source of energy?        (BECE 2016 Q40)",
+        options: ["petroleum", "solar", "tide", "wind"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Petroleum is a fossil fuel that takes millions of years to form and cannot be replaced quickly once used.",
+      ),
+      QuizQuestion(
+        question:
+            "11. Spectacles fitted with concave lenses are worn by people suffering from        (BECE 2006 Q16)",
+        options: [
+          "loss of accommodation",
+          "total blindness",
+          "long-sightedness",
+          "short-sightedness"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Concave lenses diverge light rays and are used to correct short-sightedness, also called myopia.",
+      ),
+      QuizQuestion(
+        question:
+            "12. A ray of light makes an angle of 20° with the surface of a plane mirror. Determine the angle of reflection.        (BECE 2001 Q16)",
+        options: ["20°", "50°", "70°", "90°", "120°"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The ray makes 20° with the mirror surface, so it makes 70° with the normal. The angle of reflection equals the angle of incidence, therefore it is 70°.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The best reason why a cooking pan should have a wooden handle is that wood is a        (BECE 1992 Q17)",
+        options: [
+          "good conductor of heat",
+          "bad conductor of heat",
+          "good radiator of heat",
+          "bad radiator of heat",
+          "good reflector of heat"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Wood is a poor conductor of heat, so a wooden handle reduces the transfer of heat from the hot pan to the hand.",
+      ),
+      QuizQuestion(
+        question:
+            "14. The darkest part of a shadow formed during an eclipse is called        (BECE 1996 Q9)",
+        options: [
+          "lunar eclipse",
+          "annular eclipse",
+          "penumbra",
+          "umbra",
+          "solar eclipse"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The umbra is the region of complete shadow where light from the source is totally blocked.",
+      ),
+      QuizQuestion(
+        question:
+            "15. Plastic materials may be used to make the handles of cooking utensils because they are        (BECE 1998 Q31)",
+        options: [
+          "hard",
+          "poor conductors of heat",
+          "attractive",
+          "easy to wash",
+          "not poisonous"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Plastics are poor conductors of heat, so they help protect the hand from the heat of cooking utensils.",
+      ),
+      QuizQuestion(
+        question:
+            "16. Which of the following pairs of energy sources is environmentally friendly?        (BECE 2024 Q30)",
+        options: [
+          "Wind and biogas",
+          "Biogas and thermal energy",
+          "Wind and coal",
+          "Coal and thermal energy"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Wind and biogas are cleaner energy sources that generally produce less environmental pollution than fossil fuels such as coal.",
+      ),
+      QuizQuestion(
+        question:
+            "17. The form of energy produced from the nucleus of an atom is termed        (BECE 2014 Q10)",
+        options: [
+          "chemical energy",
+          "mechanical energy",
+          "nuclear energy",
+          "thermal energy"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Energy released from changes in the nucleus of an atom is called nuclear energy.",
+      ),
+      QuizQuestion(
+        question:
+            "18. The angle between an incident ray and a reflecting surface is 20°. Determine the angle of reflection.        (BECE 2008 Q7)",
+        options: ["60°", "70°", "90°", "110°"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The normal is perpendicular to the reflecting surface, so the angle of incidence is 90° − 20° = 70°. Therefore the angle of reflection is also 70°.",
+      ),
+      QuizQuestion(
+        question:
+            "19. Liquids suitable for use in thermometers must not        (BECE 1995 Q16)",
+        options: [
+          "wet glass",
+          "have a low boiling point",
+          "have a high melting point",
+          "have a high density",
+          "expand"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A suitable thermometric liquid should not wet the glass so that it can move freely and give clear, accurate readings.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Which of the following statements about light is true?        (BECE 1998 Q23)",
+        options: [
+          "Light is reflected from polished surfaces",
+          "Light travels through opaque objects",
+          "Light passes through plane mirrors",
+          "The angle of incidence is between the normal and the reflected ray",
+          "The speed of light is less than that of sound"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Polished surfaces reflect light efficiently, which is why mirrors can form clear images.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following objects is a good conductor of heat?        (BECE 1991 Q3)",
+        options: ["Wood", "Rubber", "Copper", "Plastic", "Wool"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Copper is a metal and an excellent conductor of heat, unlike wood, rubber, plastic and wool.",
+      ),
+      QuizQuestion(
+        question: "22. The unit measurement of energy is        (BECE 2003 Q5)",
+        options: ["joule", "kelvin", "newton", "watt"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "The SI unit of energy is the joule (J).",
+      ),
+      QuizQuestion(
+        question:
+            "23. The source of all forms of energy can be traced to        (BECE 2005 Q6)",
+        options: ["clouds", "earthquakes", "tides", "sunlight"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Most energy used on Earth can ultimately be traced to energy from the Sun.",
+      ),
+      QuizQuestion(
+        question:
+            "24. Which of the following resource(s) does not produce energy?        (BECE 2016 Q40)",
+        options: ["Coal", "Sand", "Water", "Wind"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Sand is not normally used as an energy source, whereas coal, moving water and wind can be used to produce energy.",
+      ),
+      QuizQuestion(
+        question:
+            "25. A temperature controlling device which works using the principles of expansion and contraction is called a        (BECE 1998 Q31)",
+        options: [
+          "conduction",
+          "fuse",
+          "manometer",
+          "thermometer",
+          "thermostat"
+        ],
+        correctIndex: 4,
+        difficulty: "Easy",
+        explanation:
+            "A thermostat uses expansion and contraction, often of a bimetallic strip, to control temperature automatically.",
+      ),
+      QuizQuestion(
+        question:
+            "26. The temperature of 20°C on the Kelvin scale is        (BECE 2000 Q14)",
+        options: ["253 K", "263 K", "273 K", "283 K", "293 K"],
+        correctIndex: 4,
+        difficulty: "Easy",
+        explanation:
+            "Kelvin temperature = Celsius temperature + 273. Therefore, 20 + 273 = 293 K.",
+      ),
+      QuizQuestion(
+        question: "27. A metal expands when there is        (BECE 2005 Q2)",
+        options: [
+          "an increase in heat energy",
+          "an increase in number of electrons",
+          "a decrease in potential energy",
+          "a decrease in distance between atoms"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "When a metal gains heat energy, its particles vibrate more strongly and their average separation increases, causing expansion.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Ventilation holes are made at the upper part of a door to allow air to rise by        (BECE 2006 Q4)",
+        options: ["convection", "conduction", "radiation", "reflection"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Warm air becomes less dense and rises, producing convection currents that allow it to escape through upper ventilation openings.",
+      ),
+      QuizQuestion(
+        question:
+            "29. The mode of heat transfer in which no material is involved is known as        (BECE 2020 Q24)",
+        options: ["conduction", "convection", "expansion", "radiation"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Radiation transfers heat through electromagnetic waves and does not require a material medium.",
+      ),
+      QuizQuestion(
+        question: "30. When gases are heated they        (BECE 2022 Q36)",
+        options: [
+          "melt",
+          "sublime",
+          "decrease in volume",
+          "decrease in intermolecular forces"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Heating a gas increases the kinetic energy of its particles, causing them to move farther apart and reducing the effective intermolecular forces between them.",
+      ),
+      QuizQuestion(
+        question:
+            "31. The angle between a ray of light and the surface it strikes is 30°. Calculate the angle of incidence.        (BECE 1992 Q36)",
+        options: ["120°", "210°", "90°", "60°", "30°"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "The angle of incidence is measured from the normal. Since the normal is 90° to the surface, the angle of incidence is 90° − 30° = 60°.",
+      ),
+      QuizQuestion(
+        question:
+            "32. During an eclipse of the sun, the        (BECE 1993 Q40)",
+        options: [
+          "sun comes between earth and moon in a straight line",
+          "earth comes between sun and moon in a straight line",
+          "moon comes between sun and earth in a straight line",
+          "earth and the sun are on one side of the moon"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A solar eclipse occurs when the Moon moves between the Sun and the Earth and blocks some or all of the Sun's light.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The most sensitive organ of the eye to light rays is the        (BECE 1994 Q24)",
+        options: ["retina", "pupil", "cornea", "iris", "lens"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The retina contains light-sensitive cells called rods and cones that detect light and convert it into nerve impulses.",
+      ),
+      QuizQuestion(
+        question:
+            "34. Which of the following controls the amount of light that enters the eyes?        (BECE 1998 Q28)",
+        options: [
+          "The cornea",
+          "The iris",
+          "The lens",
+          "The pupil",
+          "The retina"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The iris controls the size of the pupil and therefore regulates the amount of light entering the eye.",
+      ),
+      QuizQuestion(
+        question:
+            "35. Spectacles fitted with converging lenses are used by people suffering from        (BECE 2000 Q40)",
+        options: [
+          "cataract",
+          "glaucoma",
+          "headache",
+          "long-sightedness",
+          "short-sightedness"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Converging or convex lenses are used to correct long-sightedness by helping light focus properly on the retina.",
+      ),
+      QuizQuestion(
+        question:
+            "36. An object is placed 20 cm in front of a plane mirror. The distance between the object and the image is        (BECE 2005 Q4)",
+        options: ["20 cm", "40 cm", "60 cm", "80 cm"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A plane mirror forms an image the same distance behind the mirror as the object is in front. Therefore, the total distance is 20 cm + 20 cm = 40 cm.",
+      ),
+      QuizQuestion(
+        question:
+            "37. A stick placed in water appears to be bent because light travelling from the water to the air is        (BECE 2007 Q6)",
+        options: ["dispersed", "displaced", "refracted", "reflected"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Light changes direction when it passes from water into air. This bending of light is called refraction.",
+      ),
+      QuizQuestion(
+        question:
+            "38. Which of the following bodies are natural sources of light?\n\n"
+            "I. Moon\n\n"
+            "II. Sun\n\n"
+            "III. Firefly        (BECE 2008 Q3)",
+        options: [
+          "I and II only",
+          "I and III only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The Sun produces its own light and a firefly produces light by bioluminescence. The Moon only reflects sunlight.",
+      ),
+      QuizQuestion(
+        question:
+            "39. The amount of light that enters the eye is reduced by the size of the        (BECE 2008 Q17)",
+        options: ["lens", "iris", "pupil", "retina"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The amount of light entering the eye depends on the size of the pupil; a smaller pupil allows less light to enter.",
+      ),
+      QuizQuestion(
+        question:
+            "40. A material that allows a small amount of light energy to pass through it but cannot be seen through is referred to as        (BECE 2012 Q39)",
+        options: ["opaque", "reflective", "translucent", "transparent"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A translucent material allows some light to pass through but does not allow objects behind it to be seen clearly.",
+      ),
+    ],
+  ),
+  "Science JHS1 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
@@ -36702,1410 +37604,2030 @@ r"Volume = 2\times P\times5 = 10P\text{ cm}^3.",
     ],
   ),
 
-  "Science JHS2 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy":
-      QuizModel(
+  "Science JHS1 s4 ss2 - Basic Electronics & Electricity": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-        question:
-            "1. Light energy is transferred through space to the Earth from the Sun by the process of        (BECE 1990 Q39)",
-        options: ["conduction", "convection", "radiation", "refraction"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Radiation transfers heat and light energy through space without requiring a material medium.",
-      ),
-      QuizQuestion(
-        question:
-            "2. The mode of heat transfer involved in the heating of water in a bucket from the bottom until it boils is        (BECE 2000 Q28)",
-        options: [
-          "conduction only",
-          "convection only",
-          "radiation only",
-          "conduction and convection"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Heat passes through the bottom of the bucket by conduction and is then circulated through the water by convection.",
-      ),
-      QuizQuestion(
-        question:
-            "3. Heat travels through a vacuum by a process known as        (BECE 1996 Q18)",
-        options: ["conduction", "convection", "radiation", "transmission"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Radiation can transfer heat through a vacuum because it does not require particles or a material medium.",
-      ),
-      QuizQuestion(
-        question:
-            "4. The chief source of energy in the world today is        (BECE 1996 Q28)",
-        options: ["coal", "crude oil", "natural gas", "uranium", "water"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Crude oil has traditionally been one of the world's major sources of energy because it is processed into fuels such as petrol, diesel and kerosene.",
-      ),
-      QuizQuestion(
-        question:
-            "5. Which of the following is a source of energy?        (BECE 2009 Q3)",
-        options: ["Electricity", "Heat", "Light", "Wood"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Wood is an energy source because its stored chemical energy can be released as heat when it burns.",
-      ),
-      QuizQuestion(
-        question:
-            "6. Which of the following sources of energy is non-renewable?        (BECE 2010 Q25)",
-        options: ["Sun", "Waves", "Wind", "Wood"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Among the options given in the question, wood is treated as the non-renewable energy source when it is consumed faster than trees can be replaced.",
-      ),
-      QuizQuestion(
-        question:
-            "7. Which of the following is an indirect source of light?        (BECE 1995 Q14)",
-        options: ["Torch light", "The sun", "Fire", "The moon", "Candle flame"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The moon does not produce its own light; it is visible because it reflects light from the Sun.",
-      ),
-      QuizQuestion(
-        question:
-            "8. Energy stored in food is referred to as        (BECE 2017 Q15)",
-        options: [
-          "chemical energy",
-          "heat energy",
-          "solar energy",
-          "kinetic energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Food stores energy in chemical bonds, so the energy contained in food is called chemical energy.",
-      ),
-      QuizQuestion(
-        question:
-            "9. Which of the following energy sources is/are renewable?\n\n"
-            "I. Solar\n\n"
-            "II. Crude oil\n\n"
-            "III. Wind        (BECE 2019 Q7)",
-        options: ["I only", "I and II only", "I and III only", "I, II and III"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Solar and wind energy are naturally replenished, while crude oil is a non-renewable fossil fuel.",
-      ),
-      QuizQuestion(
-        question:
-            "10. Which of the following is an example of a non-renewable source of energy?        (BECE 2016 Q40)",
-        options: ["petroleum", "solar", "tide", "wind"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Petroleum is a fossil fuel that takes millions of years to form and cannot be replaced quickly once used.",
-      ),
-      QuizQuestion(
-        question:
-            "11. Spectacles fitted with concave lenses are worn by people suffering from        (BECE 2006 Q16)",
-        options: [
-          "loss of accommodation",
-          "total blindness",
-          "long-sightedness",
-          "short-sightedness"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Concave lenses diverge light rays and are used to correct short-sightedness, also called myopia.",
-      ),
-      QuizQuestion(
-        question:
-            "12. A ray of light makes an angle of 20° with the surface of a plane mirror. Determine the angle of reflection.        (BECE 2001 Q16)",
-        options: ["20°", "50°", "70°", "90°", "120°"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The ray makes 20° with the mirror surface, so it makes 70° with the normal. The angle of reflection equals the angle of incidence, therefore it is 70°.",
-      ),
-      QuizQuestion(
-        question:
-            "13. The best reason why a cooking pan should have a wooden handle is that wood is a        (BECE 1992 Q17)",
-        options: [
-          "good conductor of heat",
-          "bad conductor of heat",
-          "good radiator of heat",
-          "bad radiator of heat",
-          "good reflector of heat"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Wood is a poor conductor of heat, so a wooden handle reduces the transfer of heat from the hot pan to the hand.",
-      ),
-      QuizQuestion(
-        question:
-            "14. The darkest part of a shadow formed during an eclipse is called        (BECE 1996 Q9)",
-        options: [
-          "lunar eclipse",
-          "annular eclipse",
-          "penumbra",
-          "umbra",
-          "solar eclipse"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The umbra is the region of complete shadow where light from the source is totally blocked.",
-      ),
-      QuizQuestion(
-        question:
-            "15. Plastic materials may be used to make the handles of cooking utensils because they are        (BECE 1998 Q31)",
-        options: [
-          "hard",
-          "poor conductors of heat",
-          "attractive",
-          "easy to wash",
-          "not poisonous"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Plastics are poor conductors of heat, so they help protect the hand from the heat of cooking utensils.",
-      ),
-      QuizQuestion(
-        question:
-            "16. Which of the following pairs of energy sources is environmentally friendly?        (BECE 2024 Q30)",
-        options: [
-          "Wind and biogas",
-          "Biogas and thermal energy",
-          "Wind and coal",
-          "Coal and thermal energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Wind and biogas are cleaner energy sources that generally produce less environmental pollution than fossil fuels such as coal.",
-      ),
-      QuizQuestion(
-        question:
-            "17. The form of energy produced from the nucleus of an atom is termed        (BECE 2014 Q10)",
-        options: [
-          "chemical energy",
-          "mechanical energy",
-          "nuclear energy",
-          "thermal energy"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Energy released from changes in the nucleus of an atom is called nuclear energy.",
-      ),
-      QuizQuestion(
-        question:
-            "18. The angle between an incident ray and a reflecting surface is 20°. Determine the angle of reflection.        (BECE 2008 Q7)",
-        options: ["60°", "70°", "90°", "110°"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "The normal is perpendicular to the reflecting surface, so the angle of incidence is 90° − 20° = 70°. Therefore the angle of reflection is also 70°.",
-      ),
-      QuizQuestion(
-        question:
-            "19. Liquids suitable for use in thermometers must not        (BECE 1995 Q16)",
-        options: [
-          "wet glass",
-          "have a low boiling point",
-          "have a high melting point",
-          "have a high density",
-          "expand"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "A suitable thermometric liquid should not wet the glass so that it can move freely and give clear, accurate readings.",
-      ),
-      QuizQuestion(
-        question:
-            "20. Which of the following statements about light is true?        (BECE 1998 Q23)",
-        options: [
-          "Light is reflected from polished surfaces",
-          "Light travels through opaque objects",
-          "Light passes through plane mirrors",
-          "The angle of incidence is between the normal and the reflected ray",
-          "The speed of light is less than that of sound"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Polished surfaces reflect light efficiently, which is why mirrors can form clear images.",
-      ),
-      QuizQuestion(
-        question:
-            "21. Which of the following objects is a good conductor of heat?        (BECE 1991 Q3)",
-        options: ["Wood", "Rubber", "Copper", "Plastic", "Wool"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Copper is a metal and an excellent conductor of heat, unlike wood, rubber, plastic and wool.",
-      ),
-      QuizQuestion(
-        question: "22. The unit measurement of energy is        (BECE 2003 Q5)",
-        options: ["joule", "kelvin", "newton", "watt"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation: "The SI unit of energy is the joule (J).",
-      ),
-      QuizQuestion(
-        question:
-            "23. The source of all forms of energy can be traced to        (BECE 2005 Q6)",
-        options: ["clouds", "earthquakes", "tides", "sunlight"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Most energy used on Earth can ultimately be traced to energy from the Sun.",
-      ),
-      QuizQuestion(
-        question:
-            "24. Which of the following resource(s) does not produce energy?        (BECE 2016 Q40)",
-        options: ["Coal", "Sand", "Water", "Wind"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Sand is not normally used as an energy source, whereas coal, moving water and wind can be used to produce energy.",
-      ),
-      QuizQuestion(
-        question:
-            "25. A temperature controlling device which works using the principles of expansion and contraction is called a        (BECE 1998 Q31)",
-        options: [
-          "conduction",
-          "fuse",
-          "manometer",
-          "thermometer",
-          "thermostat"
-        ],
-        correctIndex: 4,
-        difficulty: "Easy",
-        explanation:
-            "A thermostat uses expansion and contraction, often of a bimetallic strip, to control temperature automatically.",
-      ),
-      QuizQuestion(
-        question:
-            "26. The temperature of 20°C on the Kelvin scale is        (BECE 2000 Q14)",
-        options: ["253 K", "263 K", "273 K", "283 K", "293 K"],
-        correctIndex: 4,
-        difficulty: "Easy",
-        explanation:
-            "Kelvin temperature = Celsius temperature + 273. Therefore, 20 + 273 = 293 K.",
-      ),
-      QuizQuestion(
-        question: "27. A metal expands when there is        (BECE 2005 Q2)",
-        options: [
-          "an increase in heat energy",
-          "an increase in number of electrons",
-          "a decrease in potential energy",
-          "a decrease in distance between atoms"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "When a metal gains heat energy, its particles vibrate more strongly and their average separation increases, causing expansion.",
-      ),
-      QuizQuestion(
-        question:
-            "28. Ventilation holes are made at the upper part of a door to allow air to rise by        (BECE 2006 Q4)",
-        options: ["convection", "conduction", "radiation", "reflection"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Warm air becomes less dense and rises, producing convection currents that allow it to escape through upper ventilation openings.",
-      ),
-      QuizQuestion(
-        question:
-            "29. The mode of heat transfer in which no material is involved is known as        (BECE 2020 Q24)",
-        options: ["conduction", "convection", "expansion", "radiation"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Radiation transfers heat through electromagnetic waves and does not require a material medium.",
-      ),
-      QuizQuestion(
-        question: "30. When gases are heated they        (BECE 2022 Q36)",
-        options: [
-          "melt",
-          "sublime",
-          "decrease in volume",
-          "decrease in intermolecular forces"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Heating a gas increases the kinetic energy of its particles, causing them to move farther apart and reducing the effective intermolecular forces between them.",
-      ),
-      QuizQuestion(
-        question:
-            "31. The angle between a ray of light and the surface it strikes is 30°. Calculate the angle of incidence.        (BECE 1992 Q36)",
-        options: ["120°", "210°", "90°", "60°", "30°"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The angle of incidence is measured from the normal. Since the normal is 90° to the surface, the angle of incidence is 90° − 30° = 60°.",
-      ),
-      QuizQuestion(
-        question:
-            "32. During an eclipse of the sun, the        (BECE 1993 Q40)",
-        options: [
-          "sun comes between earth and moon in a straight line",
-          "earth comes between sun and moon in a straight line",
-          "moon comes between sun and earth in a straight line",
-          "earth and the sun are on one side of the moon"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A solar eclipse occurs when the Moon moves between the Sun and the Earth and blocks some or all of the Sun's light.",
-      ),
-      QuizQuestion(
-        question:
-            "33. The most sensitive organ of the eye to light rays is the        (BECE 1994 Q24)",
-        options: ["retina", "pupil", "cornea", "iris", "lens"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "The retina contains light-sensitive cells called rods and cones that detect light and convert it into nerve impulses.",
-      ),
-      QuizQuestion(
-        question:
-            "34. Which of the following controls the amount of light that enters the eyes?        (BECE 1998 Q28)",
-        options: [
-          "The cornea",
-          "The iris",
-          "The lens",
-          "The pupil",
-          "The retina"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "The iris controls the size of the pupil and therefore regulates the amount of light entering the eye.",
-      ),
-      QuizQuestion(
-        question:
-            "35. Spectacles fitted with converging lenses are used by people suffering from        (BECE 2000 Q40)",
-        options: [
-          "cataract",
-          "glaucoma",
-          "headache",
-          "long-sightedness",
-          "short-sightedness"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Converging or convex lenses are used to correct long-sightedness by helping light focus properly on the retina.",
-      ),
-      QuizQuestion(
-        question:
-            "36. An object is placed 20 cm in front of a plane mirror. The distance between the object and the image is        (BECE 2005 Q4)",
-        options: ["20 cm", "40 cm", "60 cm", "80 cm"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "A plane mirror forms an image the same distance behind the mirror as the object is in front. Therefore, the total distance is 20 cm + 20 cm = 40 cm.",
-      ),
-      QuizQuestion(
-        question:
-            "37. A stick placed in water appears to be bent because light travelling from the water to the air is        (BECE 2007 Q6)",
-        options: ["dispersed", "displaced", "refracted", "reflected"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Light changes direction when it passes from water into air. This bending of light is called refraction.",
-      ),
-      QuizQuestion(
-        question:
-            "38. Which of the following bodies are natural sources of light?\n\n"
-            "I. Moon\n\n"
-            "II. Sun\n\n"
-            "III. Firefly        (BECE 2008 Q3)",
-        options: [
-          "I and II only",
-          "I and III only",
-          "II and III only",
-          "I, II and III"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The Sun produces its own light and a firefly produces light by bioluminescence. The Moon only reflects sunlight.",
-      ),
-      QuizQuestion(
-        question:
-            "39. The amount of light that enters the eye is reduced by the size of the        (BECE 2008 Q17)",
-        options: ["lens", "iris", "pupil", "retina"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The amount of light entering the eye depends on the size of the pupil; a smaller pupil allows less light to enter.",
-      ),
-      QuizQuestion(
-        question:
-            "40. A material that allows a small amount of light energy to pass through it but cannot be seen through is referred to as        (BECE 2012 Q39)",
-        options: ["opaque", "reflective", "translucent", "transparent"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A translucent material allows some light to pass through but does not allow objects behind it to be seen clearly.",
-      ),
-    ],
-  ),
+question:
+"1. Which of the following devices requires the use of transistors in its operation?\n(BECE 2011 Q30)",
+options: ["Computer", "Electric heater", "Microphone", "Wall clock"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Computers use large numbers of transistors in their electronic circuits."),
 
-  "Science JHS1 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy":
-      QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-        question:
-            "1. Light energy is transferred through space to the Earth from the Sun by the process of        (BECE 1990 Q39)",
-        options: ["conduction", "convection", "radiation", "refraction"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Radiation transfers heat and light energy through space without requiring a material medium.",
-      ),
-      QuizQuestion(
-        question:
-            "2. The mode of heat transfer involved in the heating of water in a bucket from the bottom until it boils is        (BECE 2000 Q28)",
-        options: [
-          "conduction only",
-          "convection only",
-          "radiation only",
-          "conduction and convection"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Heat passes through the bottom of the bucket by conduction and is then circulated through the water by convection.",
-      ),
-      QuizQuestion(
-        question:
-            "3. Heat travels through a vacuum by a process known as        (BECE 1996 Q18)",
-        options: ["conduction", "convection", "radiation", "transmission"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Radiation can transfer heat through a vacuum because it does not require particles or a material medium.",
-      ),
-      QuizQuestion(
-        question:
-            "4. The chief source of energy in the world today is        (BECE 1996 Q28)",
-        options: ["coal", "crude oil", "natural gas", "uranium", "water"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Crude oil has traditionally been one of the world's major sources of energy because it is processed into fuels such as petrol, diesel and kerosene.",
-      ),
-      QuizQuestion(
-        question:
-            "5. Which of the following is a source of energy?        (BECE 2009 Q3)",
-        options: ["Electricity", "Heat", "Light", "Wood"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Wood is an energy source because its stored chemical energy can be released as heat when it burns.",
-      ),
-      QuizQuestion(
-        question:
-            "6. Which of the following sources of energy is non-renewable?        (BECE 2010 Q25)",
-        options: ["Sun", "Waves", "Wind", "Wood"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Among the options given in the question, wood is treated as the non-renewable energy source when it is consumed faster than trees can be replaced.",
-      ),
-      QuizQuestion(
-        question:
-            "7. Which of the following is an indirect source of light?        (BECE 1995 Q14)",
-        options: ["Torch light", "The sun", "Fire", "The moon", "Candle flame"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The moon does not produce its own light; it is visible because it reflects light from the Sun.",
-      ),
-      QuizQuestion(
-        question:
-            "8. Energy stored in food is referred to as        (BECE 2017 Q15)",
-        options: [
-          "chemical energy",
-          "heat energy",
-          "solar energy",
-          "kinetic energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Food stores energy in chemical bonds, so the energy contained in food is called chemical energy.",
-      ),
-      QuizQuestion(
-        question:
-            "9. Which of the following energy sources is/are renewable?\n\n"
-            "I. Solar\n\n"
-            "II. Crude oil\n\n"
-            "III. Wind        (BECE 2019 Q7)",
-        options: ["I only", "I and II only", "I and III only", "I, II and III"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Solar and wind energy are naturally replenished, while crude oil is a non-renewable fossil fuel.",
-      ),
-      QuizQuestion(
-        question:
-            "10. Which of the following is an example of a non-renewable source of energy?        (BECE 2016 Q40)",
-        options: ["petroleum", "solar", "tide", "wind"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Petroleum is a fossil fuel that takes millions of years to form and cannot be replaced quickly once used.",
-      ),
-      QuizQuestion(
-        question:
-            "11. Spectacles fitted with concave lenses are worn by people suffering from        (BECE 2006 Q16)",
-        options: [
-          "loss of accommodation",
-          "total blindness",
-          "long-sightedness",
-          "short-sightedness"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Concave lenses diverge light rays and are used to correct short-sightedness, also called myopia.",
-      ),
-      QuizQuestion(
-        question:
-            "12. A ray of light makes an angle of 20° with the surface of a plane mirror. Determine the angle of reflection.        (BECE 2001 Q16)",
-        options: ["20°", "50°", "70°", "90°", "120°"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The ray makes 20° with the mirror surface, so it makes 70° with the normal. The angle of reflection equals the angle of incidence, therefore it is 70°.",
-      ),
-      QuizQuestion(
-        question:
-            "13. The best reason why a cooking pan should have a wooden handle is that wood is a        (BECE 1992 Q17)",
-        options: [
-          "good conductor of heat",
-          "bad conductor of heat",
-          "good radiator of heat",
-          "bad radiator of heat",
-          "good reflector of heat"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Wood is a poor conductor of heat, so a wooden handle reduces the transfer of heat from the hot pan to the hand.",
-      ),
-      QuizQuestion(
-        question:
-            "14. The darkest part of a shadow formed during an eclipse is called        (BECE 1996 Q9)",
-        options: [
-          "lunar eclipse",
-          "annular eclipse",
-          "penumbra",
-          "umbra",
-          "solar eclipse"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The umbra is the region of complete shadow where light from the source is totally blocked.",
-      ),
-      QuizQuestion(
-        question:
-            "15. Plastic materials may be used to make the handles of cooking utensils because they are        (BECE 1998 Q31)",
-        options: [
-          "hard",
-          "poor conductors of heat",
-          "attractive",
-          "easy to wash",
-          "not poisonous"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Plastics are poor conductors of heat, so they help protect the hand from the heat of cooking utensils.",
-      ),
-      QuizQuestion(
-        question:
-            "16. Which of the following pairs of energy sources is environmentally friendly?        (BECE 2024 Q30)",
-        options: [
-          "Wind and biogas",
-          "Biogas and thermal energy",
-          "Wind and coal",
-          "Coal and thermal energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Wind and biogas are cleaner energy sources that generally produce less environmental pollution than fossil fuels such as coal.",
-      ),
-      QuizQuestion(
-        question:
-            "17. The form of energy produced from the nucleus of an atom is termed        (BECE 2014 Q10)",
-        options: [
-          "chemical energy",
-          "mechanical energy",
-          "nuclear energy",
-          "thermal energy"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Energy released from changes in the nucleus of an atom is called nuclear energy.",
-      ),
-      QuizQuestion(
-        question:
-            "18. The angle between an incident ray and a reflecting surface is 20°. Determine the angle of reflection.        (BECE 2008 Q7)",
-        options: ["60°", "70°", "90°", "110°"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "The normal is perpendicular to the reflecting surface, so the angle of incidence is 90° − 20° = 70°. Therefore the angle of reflection is also 70°.",
-      ),
-      QuizQuestion(
-        question:
-            "19. Liquids suitable for use in thermometers must not        (BECE 1995 Q16)",
-        options: [
-          "wet glass",
-          "have a low boiling point",
-          "have a high melting point",
-          "have a high density",
-          "expand"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "A suitable thermometric liquid should not wet the glass so that it can move freely and give clear, accurate readings.",
-      ),
-      QuizQuestion(
-        question:
-            "20. Which of the following statements about light is true?        (BECE 1998 Q23)",
-        options: [
-          "Light is reflected from polished surfaces",
-          "Light travels through opaque objects",
-          "Light passes through plane mirrors",
-          "The angle of incidence is between the normal and the reflected ray",
-          "The speed of light is less than that of sound"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Polished surfaces reflect light efficiently, which is why mirrors can form clear images.",
-      ),
-      QuizQuestion(
-        question:
-            "21. Which of the following objects is a good conductor of heat?        (BECE 1991 Q3)",
-        options: ["Wood", "Rubber", "Copper", "Plastic", "Wool"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Copper is a metal and an excellent conductor of heat, unlike wood, rubber, plastic and wool.",
-      ),
-      QuizQuestion(
-        question: "22. The unit measurement of energy is        (BECE 2003 Q5)",
-        options: ["joule", "kelvin", "newton", "watt"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation: "The SI unit of energy is the joule (J).",
-      ),
-      QuizQuestion(
-        question:
-            "23. The source of all forms of energy can be traced to        (BECE 2005 Q6)",
-        options: ["clouds", "earthquakes", "tides", "sunlight"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Most energy used on Earth can ultimately be traced to energy from the Sun.",
-      ),
-      QuizQuestion(
-        question:
-            "24. Which of the following resource(s) does not produce energy?        (BECE 2016 Q40)",
-        options: ["Coal", "Sand", "Water", "Wind"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Sand is not normally used as an energy source, whereas coal, moving water and wind can be used to produce energy.",
-      ),
-      QuizQuestion(
-        question:
-            "25. A temperature controlling device which works using the principles of expansion and contraction is called a        (BECE 1998 Q31)",
-        options: [
-          "conduction",
-          "fuse",
-          "manometer",
-          "thermometer",
-          "thermostat"
-        ],
-        correctIndex: 4,
-        difficulty: "Easy",
-        explanation:
-            "A thermostat uses expansion and contraction, often of a bimetallic strip, to control temperature automatically.",
-      ),
-      QuizQuestion(
-        question:
-            "26. The temperature of 20°C on the Kelvin scale is        (BECE 2000 Q14)",
-        options: ["253 K", "263 K", "273 K", "283 K", "293 K"],
-        correctIndex: 4,
-        difficulty: "Easy",
-        explanation:
-            "Kelvin temperature = Celsius temperature + 273. Therefore, 20 + 273 = 293 K.",
-      ),
-      QuizQuestion(
-        question: "27. A metal expands when there is        (BECE 2005 Q2)",
-        options: [
-          "an increase in heat energy",
-          "an increase in number of electrons",
-          "a decrease in potential energy",
-          "a decrease in distance between atoms"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "When a metal gains heat energy, its particles vibrate more strongly and their average separation increases, causing expansion.",
-      ),
-      QuizQuestion(
-        question:
-            "28. Ventilation holes are made at the upper part of a door to allow air to rise by        (BECE 2006 Q4)",
-        options: ["convection", "conduction", "radiation", "reflection"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Warm air becomes less dense and rises, producing convection currents that allow it to escape through upper ventilation openings.",
-      ),
-      QuizQuestion(
-        question:
-            "29. The mode of heat transfer in which no material is involved is known as        (BECE 2020 Q24)",
-        options: ["conduction", "convection", "expansion", "radiation"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Radiation transfers heat through electromagnetic waves and does not require a material medium.",
-      ),
-      QuizQuestion(
-        question: "30. When gases are heated they        (BECE 2022 Q36)",
-        options: [
-          "melt",
-          "sublime",
-          "decrease in volume",
-          "decrease in intermolecular forces"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Heating a gas increases the kinetic energy of its particles, causing them to move farther apart and reducing the effective intermolecular forces between them.",
-      ),
-      QuizQuestion(
-        question:
-            "31. The angle between a ray of light and the surface it strikes is 30°. Calculate the angle of incidence.        (BECE 1992 Q36)",
-        options: ["120°", "210°", "90°", "60°", "30°"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "The angle of incidence is measured from the normal. Since the normal is 90° to the surface, the angle of incidence is 90° − 30° = 60°.",
-      ),
-      QuizQuestion(
-        question:
-            "32. During an eclipse of the sun, the        (BECE 1993 Q40)",
-        options: [
-          "sun comes between earth and moon in a straight line",
-          "earth comes between sun and moon in a straight line",
-          "moon comes between sun and earth in a straight line",
-          "earth and the sun are on one side of the moon"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A solar eclipse occurs when the Moon moves between the Sun and the Earth and blocks some or all of the Sun's light.",
-      ),
-      QuizQuestion(
-        question:
-            "33. The most sensitive organ of the eye to light rays is the        (BECE 1994 Q24)",
-        options: ["retina", "pupil", "cornea", "iris", "lens"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "The retina contains light-sensitive cells called rods and cones that detect light and convert it into nerve impulses.",
-      ),
-      QuizQuestion(
-        question:
-            "34. Which of the following controls the amount of light that enters the eyes?        (BECE 1998 Q28)",
-        options: [
-          "The cornea",
-          "The iris",
-          "The lens",
-          "The pupil",
-          "The retina"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "The iris controls the size of the pupil and therefore regulates the amount of light entering the eye.",
-      ),
-      QuizQuestion(
-        question:
-            "35. Spectacles fitted with converging lenses are used by people suffering from        (BECE 2000 Q40)",
-        options: [
-          "cataract",
-          "glaucoma",
-          "headache",
-          "long-sightedness",
-          "short-sightedness"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Converging or convex lenses are used to correct long-sightedness by helping light focus properly on the retina.",
-      ),
-      QuizQuestion(
-        question:
-            "36. An object is placed 20 cm in front of a plane mirror. The distance between the object and the image is        (BECE 2005 Q4)",
-        options: ["20 cm", "40 cm", "60 cm", "80 cm"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "A plane mirror forms an image the same distance behind the mirror as the object is in front. Therefore, the total distance is 20 cm + 20 cm = 40 cm.",
-      ),
-      QuizQuestion(
-        question:
-            "37. A stick placed in water appears to be bent because light travelling from the water to the air is        (BECE 2007 Q6)",
-        options: ["dispersed", "displaced", "refracted", "reflected"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Light changes direction when it passes from water into air. This bending of light is called refraction.",
-      ),
-      QuizQuestion(
-        question:
-            "38. Which of the following bodies are natural sources of light?\n\n"
-            "I. Moon\n\n"
-            "II. Sun\n\n"
-            "III. Firefly        (BECE 2008 Q3)",
-        options: [
-          "I and II only",
-          "I and III only",
-          "II and III only",
-          "I, II and III"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The Sun produces its own light and a firefly produces light by bioluminescence. The Moon only reflects sunlight.",
-      ),
-      QuizQuestion(
-        question:
-            "39. The amount of light that enters the eye is reduced by the size of the        (BECE 2008 Q17)",
-        options: ["lens", "iris", "pupil", "retina"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The amount of light entering the eye depends on the size of the pupil; a smaller pupil allows less light to enter.",
-      ),
-      QuizQuestion(
-        question:
-            "40. A material that allows a small amount of light energy to pass through it but cannot be seen through is referred to as        (BECE 2012 Q39)",
-        options: ["opaque", "reflective", "translucent", "transparent"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A translucent material allows some light to pass through but does not allow objects behind it to be seen clearly.",
-      ),
-    ],
-  ),
+  QuizQuestion(
+      question:
+          "2. The majority charge carriers in a p-type semi-conductor are\n(BECE 2015 Q36)",
+      options: ["Electrons", "Holes", "Neutrons", "Protons"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Holes are the majority charge carriers in a p-type semiconductor."),
 
-  "Science JHS1 s4 ss2 - Electricity & Electronics": QuizModel(
-    audioPath: '',
-    questions: [
-      QuizQuestion(
-        question:
-            "1. Which of the following substances can be used as an electrical insulator?        (BECE 2002a Q11)",
-        options: ["Copper", "Graphite", "Plastic", "Zinc"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "Plastic is an electrical insulator because it does not allow electric current to pass through it easily.",
-      ),
-      QuizQuestion(
-        question:
-            "2. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the        (BECE 2005 Q3)",
-        options: ["earth wire", "lightning conductor", "fuse", "switch"],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "A fuse melts and opens the circuit when excessive current flows, thereby protecting the circuit and electrical appliances.",
-      ),
-      QuizQuestion(
-        question:
-            "3. The instrument used to measure current in an electric circuit is the        (BECE 2001 Q38)",
-        options: ["ammeter", "anemometer", "barometer", "thermometer"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "An ammeter is the instrument used to measure electric current in a circuit.",
-      ),
-      QuizQuestion(
-        question:
-            "4. A fuse is connected in an electric circuit to        (BECE 2006 Q6)",
-        options: [
-          "prevent electric shock",
-          "protect appliances",
-          "provide more current",
-          "increase the heat generated"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "A fuse protects electrical appliances by breaking the circuit when the current becomes dangerously high.",
-      ),
-      QuizQuestion(
-        question:
-            "5. In electrical circuits, the component that protects appliances against very high currents is the        (BECE 2022 Q31)",
-        options: ["capacitor", "fuse", "resistor", "switch"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "A fuse protects appliances by melting and interrupting the circuit when excessive current passes through it.",
-      ),
-      QuizQuestion(
-        question:
-            "6. A rheostat is used in an electrical circuit in order to        (BECE 2017 Q5)",
-        options: [
-          "increase electric current only",
-          "decrease electric current only",
-          "keep electric current constant",
-          "increase and decrease electric current"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "A rheostat is a variable resistor used to increase or decrease the current flowing through an electrical circuit.",
-      ),
-      QuizQuestion(
-        question:
-            "7. Which of the following conditions is not required for a current to flow through an electric circuit?        (BECE 2009 Q2)",
-        options: [
-          "The circuit should be closed",
-          "A battery must be present",
-          "There must be connecting wires",
-          "A bulb must be connected in the circuit"
-        ],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "A bulb is not essential for current to flow. A closed conducting path and a source of potential difference are required.",
-      ),
-      QuizQuestion(
-        question:
-            "8. In modern electrical wiring, the colour code for the live wire is        (BECE 2012 Q30)",
-        options: ["blue", "brown", "green", "greenish-yellow"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "In modern electrical wiring, the live wire is identified by the colour brown.",
-      ),
-      QuizQuestion(
-        question:
-            "9. Which of the following materials allows electric current to pass through easily?        (BECE 2013 Q16)",
-        options: ["Aluminium", "Carbon", "Glass", "Water"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Aluminium is a metal and a good electrical conductor, so it allows electric current to pass through it easily.",
-      ),
-      QuizQuestion(
-        question:
-            "10. Which of the following effects is not a result of illegal connection of electricity? It can        (BECE 2014 Q21)",
-        options: [
-          "lead to fire outbreaks",
-          "lead to frequent power cut-offs",
-          "insulate the lines and make them safe to climb",
-          "cause damage to electrical appliances"
-        ],
-        correctIndex: 2,
-        difficulty: "Medium",
-        explanation:
-            "Illegal electrical connections can cause fires, power interruptions and damage to appliances. They do not insulate power lines or make them safe to climb.",
-      ),
-      QuizQuestion(
-        question:
-            "11. What is the colour of the neutral wire in a three-pin plug?        (BECE 2016 Q5)",
-        options: ["blue", "brown", "green", "yellow"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "The neutral wire in a modern three-pin plug is identified by the colour blue.",
-      ),
-      QuizQuestion(
-        question:
-            "12. The instrument used to measure current in an electric circuit is the        (BECE 2017 Q3)",
-        options: ["ammeter", "photometer", "thermometer", "voltmeter"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "An ammeter measures the amount of electric current flowing through a circuit.",
-      ),
-      QuizQuestion(
-        question:
-            "13. The colour of the neutral wire in an electrical circuit is        (BECE 2019 Q14)",
-        options: ["blue", "brown", "green", "yellow"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "The neutral wire is coloured blue according to the modern electrical wiring colour code.",
-      ),
-      QuizQuestion(
-        question:
-            "14. The unit of potential difference is the        (BECE 2020 Q16)",
-        options: ["ampere", "watt", "ohm", "volt"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Potential difference is measured in volts using a voltmeter.",
-      ),
-      QuizQuestion(
-        question:
-            "15. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?        (BECE 2021 Q3)",
-        options: ["ammeter", "voltmeter", "ohmmeter", "galvanometer"],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation:
-            "A voltmeter is connected in parallel across a resistor or component to measure the potential difference across it.",
-      ),
-      QuizQuestion(
-        question:
-            "16. The current flowing through a resistor of resistance 10 Ω is 2.5 A. What is the potential difference between the terminals of the resistor?        (BECE 2021 Q7)",
-        options: ["1 V", "12.5 V", "25 V", "50 V"],
-        correctIndex: 2,
-        difficulty: "Medium",
-        explanation:
-            "Using Ohm's law, V = IR. Therefore, V = 2.5 A × 10 Ω = 25 V.",
-      ),
-      QuizQuestion(
-        question:
-            "17. It is not advisable to use old electrical gadgets because they        (BECE 2022 Q12)",
-        options: [
-          "are not efficient",
-          "are dangerous",
-          "produce sparks",
-          "waste energy"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Old electrical gadgets are often less energy-efficient and may consume more electricity than necessary, causing energy wastage.",
-      ),
+  QuizQuestion(
+      question:
+          "3. In an n-p-n transistor, the n-type collector is connected to the positive terminal of the battery thus making the\n(BECE 2011 Q11)",
+      options: [
+        "Base-collector junction reverse biased",
+        "Base-collector junction forward biased",
+        "Base-emitter junction reverse biased",
+        "Base-emitter junction forward biased"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "For normal active operation of an n-p-n transistor, the base-collector junction is reverse biased."),
+
+  QuizQuestion(
+      question:
+          "4. Which of the following statements about a transistor is correct?\n(BECE 2010 Q23)",
+      options: [
+        "It can be used to amplify current",
+        "It is similar to three diodes",
+        "It consists of two leads only",
+        "It has three junctions"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A transistor can be used as an amplifier to increase the strength of an electrical signal."),
+
+  QuizQuestion(
+      question:
+          "5. When the p-n junction of a transistor is reverse biased\n(BECE 2012 Q5)",
+      options: [
+        "Current flows from the p-type to the n-type",
+        "No current flows from the p-type to the n-type",
+        "Conduction of current occurs",
+        "Current flows from the n-type to the p-type"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A reverse-biased p-n junction ideally prevents current from flowing."),
+
+  QuizQuestion(
+      question:
+          "6. The arrow in the circuit symbol of either n-p-n or p-n-p is always on the\n(BECE 2012 Q10)",
+      options: ["Base lead", "Collector lead", "Emitter lead", "Receiver lead"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The arrow on a bipolar transistor symbol is always drawn on the emitter lead."),
+
+  QuizQuestion(
+      question:
+          "7. A transistor is said to operate in an active region when\n(BECE 2011 Q20)",
+      options: [
+        "One p-n junction is forward biased and the other is reverse biased",
+        "Base-emitter junction is reverse biased",
+        "Both p-n junctions are reverse biased",
+        "Base-collector junction is forward biased"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In the active region, the base-emitter junction is forward biased while the base-collector junction is reverse biased."),
+
+  QuizQuestion(
+      question:
+          "8. The lead of the transistor responsible for activation is the\n(BECE 2012 Q40)",
+      options: ["Amplifier", "Base", "Collector", "Emitter"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The base controls or activates the flow of current through a transistor."),
+
+  QuizQuestion(
+      question:
+          "9. Which of the following devices is made of semiconductor?\n(BECE 2014 Q26)",
+      options: ["Capacitor", "Inductor", "Resistor", "Transistor"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A transistor is a semiconductor device."),
+
+  QuizQuestion(
+      question:
+          "10. In electronic circuits, LEDs are used to indicate the absence or presence of\n(BECE 2014 Q34)",
+      options: [
+        "Emitter and collector",
+        "Electric current",
+        "P-n junction",
+        "Voltage source"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An LED lights when current flows through it and can therefore indicate the presence of current."),
+
+  QuizQuestion(
+      question:
+          "11. The process of increasing the strength of a signal using a transistor is known as\n(BECE 2015 Q7)",
+      options: ["Amplification", "Biasing", "Doping", "Switching"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Amplification is the process of increasing the strength of an electrical signal."),
+
+  QuizQuestion(
+      question:
+          "12. The number of p-n junctions in a transistor is\n(BECE 2015 Q36)",
+      options: ["1", "2", "3", "4"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A bipolar junction transistor has two p-n junctions."),
+
+  QuizQuestion(
+      question:
+          "13. The major charge carriers in p-type semiconductors are\n(BECE 2020 Q26)",
+      options: ["Anions", "Electrons", "Holes", "Neutrons"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holes are the majority charge carriers in p-type semiconductors."),
+
+  QuizQuestion(
+      question:
+          "14. Which of the following statements about the base of a transistor are correct? The base is\n\nI. made very thin.\nII. made wide.\nIII. responsible for activating the transistor.\nIV. made of n-type semiconductor.\n(BECE 2021 Q34)",
+      options: [
+        "I and III only",
+        "II and IV only",
+        "I, III and IV only",
+        "II, III and IV only"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The base is made very thin and controls or activates transistor operation. It is not always n-type because its type depends on whether the transistor is NPN or PNP."),
+
+  QuizQuestion(
+      question:
+          "15. A capacitor is connected in a series circuit with LED, a battery and a switch. When the circuit is closed, the LED\n(BECE 2022 Q7)",
+      options: [
+        "Comes on and stays on",
+        "Flashes and goes off",
+        "Does not come on",
+        "Flashes and stays on"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Current flows briefly while the capacitor charges, causing the LED to flash before going off."),
+
+  QuizQuestion(
+      question:
+          "16. The base of the N-P-N transistor normally\n(BECE 2023 Q33)",
+      options: [
+        "Is a p-type semi conductor",
+        "Is undoped semi conductor",
+        "Have electrons as majority charge carriers",
+        "Is an n-type semi conductor"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An NPN transistor consists of an n-type emitter, p-type base and n-type collector."),
+
+  QuizQuestion(
+      question:
+          "17. Which of the following is used to measure the potential difference across a resistor in an electrical circuit?\n(BECE 1994 Q27)",
+      options: ["A galvanometer", "A rheostat", "A meter bridge", "A voltmeter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter is used to measure potential difference across electrical components."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following instruments is used in measuring current in an electric circuit?\n(BECE 1995 Q33)",
+      options: ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An ammeter measures electric current."),
+
+  QuizQuestion(
+      question:
+          "19. The energy for lighting a torchlight comes from the\n(BECE 1997 Q39)",
+      options: ["Bulb", "Cell", "Filament", "Glass", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The cell supplies the electrical energy used by the torchlight."),
+
+  QuizQuestion(
+      question:
+          "20. Calculate the voltage across a wire of resistance 4 ohms if 3 amperes of current is passed through it.\n(BECE 1998 Q34)",
+      options: ["0.75 V", "1.00 V", "1.33 V", "7.00 V", "12.00 V"],
+      correctIndex: 4,
+      difficulty: "Easy",
+      explanation:
+          "Using Ohm's law, V = IR = 3 × 4 = 12 V."),
+
+  QuizQuestion(
+      question:
+          "21. Which of the following substances can be used as an electrical insulator?\n(BECE 2001 Q38)",
+      options: ["Copper", "Graphite", "Plastic", "Zinc"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Plastic does not allow electric current to pass through easily and is therefore an insulator."),
+
+  QuizQuestion(
+      question:
+          "22. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the\n(BECE 2005 Q3)",
+      options: ["Earth wire", "Fuse", "Lightning conductor", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse melts and breaks the circuit when excessive current flows."),
+
+  QuizQuestion(
+      question:
+          "23. A fuse is used in an electrical circuit to\n(BECE 2005 Q5)",
+      options: [
+        "Measure the energy used up",
+        "Protect appliances",
+        "Provide more current",
+        "Make sure current flows continuously"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse protects appliances from excessive current."),
+
+  QuizQuestion(
+      question:
+          "24. A fuse is connected in an electric circuit to\n(BECE 2006 Q6)",
+      options: [
+        "Prevent electric shock",
+        "Increase the current",
+        "Prevent current from increasing",
+        "Increase the heat generated"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A fuse interrupts the circuit when the current becomes dangerously high."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following conditions is not required for a current to flow through an electric circuit?\n(BECE 2008 Q5)",
+      options: [
+        "The circuit should be closed",
+        "A battery must be present",
+        "There must be connecting wires",
+        "A bulb must be connected in the circuit"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A bulb is not essential for current flow; a closed conducting path and source of potential difference are needed."),
+
+  QuizQuestion(
+      question:
+          "26. In electrical circuits, the component that protects appliances against very high currents is the\n(BECE 2009 Q2)",
+      options: ["Capacitor", "Fuse", "Resistor", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse protects electrical appliances by breaking the circuit when current becomes excessive."),
+
+  QuizQuestion(
+      question:
+          "27. In modern electrical wirings the colour code for the live wire is\n(BECE 2012 Q31)",
+      options: ["Blue", "Brown", "Green", "Green and yellow"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The modern colour code for the live wire is brown."),
+
+  QuizQuestion(
+      question:
+          "28. Which of the following materials allows electric current to pass through easily?\n(BECE 2012 Q36)",
+      options: ["Aluminium", "Carbon", "Glass", "Water"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Aluminium is a good electrical conductor."),
+
+  QuizQuestion(
+      question:
+          "29. Which of the following effects is not a result of illegal connection of electricity? It can\n(BECE 2013 Q30)",
+      options: [
+        "Lead to fire outbreak",
+        "Lead to frequent power cut-off",
+        "Increase the flow of current in the supply chain",
+        "Cause damage to electrical appliance"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The intended answer is that increasing current in the supply chain is not itself listed as a direct consequence in the same sense as fires, outages and appliance damage."),
+
+  QuizQuestion(
+      question:
+          "30. The importance of the fuse in an electrical circuit is to\n(BECE 2014 Q38)",
+      options: [
+        "Regulate the voltage",
+        "Prevent damage to electrical appliances",
+        "Alter the flow of current in the circuit",
+        "Minimize the use of current"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The fuse protects appliances from damage caused by excessive current."),
+
+  QuizQuestion(
+      question:
+          "31. What is the colour of the neutral wire in a three-pin plug?\n(BECE 2015 Q4)",
+      options: ["Blue", "Brown", "Green", "Yellow"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The neutral wire is colour-coded blue."),
+
+  QuizQuestion(
+      question:
+          "32. A rheostat is used in an electrical circuit in order to\n(BECE 2016 Q5)",
+      options: [
+        "Increase electric current only",
+        "Decrease electric current only",
+        "Keep electric current constant",
+        "Increase and decrease electric current"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A rheostat is a variable resistor used to increase or decrease current in a circuit."),
+
+  QuizQuestion(
+      question:
+          "33. The instrument used to measure current in an electric circuit is the\n(BECE 2017 Q5)",
+      options: ["Ammeter", "Photometer", "Thermometer", "Voltmeter"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An ammeter measures electric current."),
+
+  QuizQuestion(
+      question:
+          "34. The colour of the neutral wire in an electrical current is\n(BECE 2017 Q8)",
+      options: ["Blue", "Brown", "Green", "Yellow"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The standard colour for the neutral wire is blue."),
+
+  QuizQuestion(
+      question:
+          "35. The unit of potential difference is\n(BECE 2018 Q33)",
+      options: ["Ampere", "Watt", "Ohm", "Volt"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Potential difference is measured in volts."),
+
+  QuizQuestion(
+      question:
+          "36. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?\n(BECE 2020 Q16)",
+      options: ["Ammeter", "Voltmeter", "Ohmmeter", "Galvanometer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter is connected in parallel across the component whose potential difference is being measured."),
+
+  QuizQuestion(
+      question:
+          "37. The current flowing through a resistor of resistance 10 ohms is 2.5 A. What is the potential difference between the terminals of the resistor?\n(BECE 2021 Q3)",
+      options: ["4 V", "12.5 V", "25 V", "50 V"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Using V = IR, the potential difference is 2.5 × 10 = 25 V."),
+
+  QuizQuestion(
+      question:
+          "38. The instrument used to measure potential difference across a resistor is\n(BECE 2021 Q7)",
+      options: ["Ammeter", "Barometer", "Hydrometer", "Voltmeter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter measures potential difference across a resistor."),
+
+  QuizQuestion(
+      question:
+          "39. It is not advisable to use old electrical gadgets because they\n(BECE 2021 Q26)",
+      options: [
+        "Are not efficient",
+        "Are dangerous",
+        "Produce sparks",
+        "Waste energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Old or damaged electrical gadgets may have faulty insulation or wiring and can therefore be dangerous."),
+
+  QuizQuestion(
+      question:
+          "40. The current in a resistor is 3 A. If the resistance of the resistor is 4 ohms, determine the potential difference across the resistor.\n(BECE 2022 Q12)",
+      options: ["7.00 V", "1.33 V", "0.75 V", "12.00 V"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Using Ohm's law, V = IR = 3 × 4 = 12 V."),
+
+  QuizQuestion(
+      question:
+          "41. An electric bulb is rated 0.5 A, 120 V. Determine the power produced when the bulb is turned on.\n(BECE 2023 Q4)",
+      options: ["60 W", "30 W", "30 kW", "60 kW"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Power is P = VI = 120 × 0.5 = 60 W."),
+
+  QuizQuestion(
+      question:
+          "42. The unit inscribed on the bulb measures its\n(BECE 2024 Q14)",
+      options: ["Workdone", "Electricity", "Power", "Energy"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A bulb's wattage rating indicates its electrical power."),
+
+  QuizQuestion(
+      question:
+          "43. The 50 W bulb is likely to\n\nI. increase the brightness in the room.\nII. increase the amount of electricity consumed.\nIII. destroy the habitat of pests.\n(BECE 2024 Q30)",
+      options: [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A higher-power bulb can increase brightness and electrical energy consumption, but it does not necessarily destroy the habitat of pests."),
     ],
   ),
-  "Science JHS1 s4 ss3 - Forces and Energy": QuizModel(
+  "Science JHS2 s4 ss2 - Basic Electronics & Electricity": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
-        question:
-            "1. The type of energy obtained in food is referred to as        (BECE 2000 Q24)",
-        options: [
-          "chemical energy",
-          "electrical energy",
-          "heat energy",
-          "kinetic energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Food stores chemical energy in its chemical bonds. This energy is released during respiration for use by the body.",
-      ),
+question:
+"1. Which of the following devices requires the use of transistors in its operation?\n(BECE 2011 Q30)",
+options: ["Computer", "Electric heater", "Microphone", "Wall clock"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Computers use large numbers of transistors in their electronic circuits."),
+
+  QuizQuestion(
+      question:
+          "2. The majority charge carriers in a p-type semi-conductor are\n(BECE 2015 Q36)",
+      options: ["Electrons", "Holes", "Neutrons", "Protons"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Holes are the majority charge carriers in a p-type semiconductor."),
+
+  QuizQuestion(
+      question:
+          "3. In an n-p-n transistor, the n-type collector is connected to the positive terminal of the battery thus making the\n(BECE 2011 Q11)",
+      options: [
+        "Base-collector junction reverse biased",
+        "Base-collector junction forward biased",
+        "Base-emitter junction reverse biased",
+        "Base-emitter junction forward biased"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "For normal active operation of an n-p-n transistor, the base-collector junction is reverse biased."),
+
+  QuizQuestion(
+      question:
+          "4. Which of the following statements about a transistor is correct?\n(BECE 2010 Q23)",
+      options: [
+        "It can be used to amplify current",
+        "It is similar to three diodes",
+        "It consists of two leads only",
+        "It has three junctions"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A transistor can be used as an amplifier to increase the strength of an electrical signal."),
+
+  QuizQuestion(
+      question:
+          "5. When the p-n junction of a transistor is reverse biased\n(BECE 2012 Q5)",
+      options: [
+        "Current flows from the p-type to the n-type",
+        "No current flows from the p-type to the n-type",
+        "Conduction of current occurs",
+        "Current flows from the n-type to the p-type"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A reverse-biased p-n junction ideally prevents current from flowing."),
+
+  QuizQuestion(
+      question:
+          "6. The arrow in the circuit symbol of either n-p-n or p-n-p is always on the\n(BECE 2012 Q10)",
+      options: ["Base lead", "Collector lead", "Emitter lead", "Receiver lead"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The arrow on a bipolar transistor symbol is always drawn on the emitter lead."),
+
+  QuizQuestion(
+      question:
+          "7. A transistor is said to operate in an active region when\n(BECE 2011 Q20)",
+      options: [
+        "One p-n junction is forward biased and the other is reverse biased",
+        "Base-emitter junction is reverse biased",
+        "Both p-n junctions are reverse biased",
+        "Base-collector junction is forward biased"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In the active region, the base-emitter junction is forward biased while the base-collector junction is reverse biased."),
+
+  QuizQuestion(
+      question:
+          "8. The lead of the transistor responsible for activation is the\n(BECE 2012 Q40)",
+      options: ["Amplifier", "Base", "Collector", "Emitter"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The base controls or activates the flow of current through a transistor."),
+
+  QuizQuestion(
+      question:
+          "9. Which of the following devices is made of semiconductor?\n(BECE 2014 Q26)",
+      options: ["Capacitor", "Inductor", "Resistor", "Transistor"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A transistor is a semiconductor device."),
+
+  QuizQuestion(
+      question:
+          "10. In electronic circuits, LEDs are used to indicate the absence or presence of\n(BECE 2014 Q34)",
+      options: [
+        "Emitter and collector",
+        "Electric current",
+        "P-n junction",
+        "Voltage source"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An LED lights when current flows through it and can therefore indicate the presence of current."),
+
+  QuizQuestion(
+      question:
+          "11. The process of increasing the strength of a signal using a transistor is known as\n(BECE 2015 Q7)",
+      options: ["Amplification", "Biasing", "Doping", "Switching"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Amplification is the process of increasing the strength of an electrical signal."),
+
+  QuizQuestion(
+      question:
+          "12. The number of p-n junctions in a transistor is\n(BECE 2015 Q36)",
+      options: ["1", "2", "3", "4"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A bipolar junction transistor has two p-n junctions."),
+
+  QuizQuestion(
+      question:
+          "13. The major charge carriers in p-type semiconductors are\n(BECE 2020 Q26)",
+      options: ["Anions", "Electrons", "Holes", "Neutrons"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holes are the majority charge carriers in p-type semiconductors."),
+
+  QuizQuestion(
+      question:
+          "14. Which of the following statements about the base of a transistor are correct? The base is\n\nI. made very thin.\nII. made wide.\nIII. responsible for activating the transistor.\nIV. made of n-type semiconductor.\n(BECE 2021 Q34)",
+      options: [
+        "I and III only",
+        "II and IV only",
+        "I, III and IV only",
+        "II, III and IV only"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The base is made very thin and controls or activates transistor operation. It is not always n-type because its type depends on whether the transistor is NPN or PNP."),
+
+  QuizQuestion(
+      question:
+          "15. A capacitor is connected in a series circuit with LED, a battery and a switch. When the circuit is closed, the LED\n(BECE 2022 Q7)",
+      options: [
+        "Comes on and stays on",
+        "Flashes and goes off",
+        "Does not come on",
+        "Flashes and stays on"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Current flows briefly while the capacitor charges, causing the LED to flash before going off."),
+
+  QuizQuestion(
+      question:
+          "16. The base of the N-P-N transistor normally\n(BECE 2023 Q33)",
+      options: [
+        "Is a p-type semi conductor",
+        "Is undoped semi conductor",
+        "Have electrons as majority charge carriers",
+        "Is an n-type semi conductor"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An NPN transistor consists of an n-type emitter, p-type base and n-type collector."),
+
+  QuizQuestion(
+      question:
+          "17. Which of the following is used to measure the potential difference across a resistor in an electrical circuit?\n(BECE 1994 Q27)",
+      options: ["A galvanometer", "A rheostat", "A meter bridge", "A voltmeter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter is used to measure potential difference across electrical components."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following instruments is used in measuring current in an electric circuit?\n(BECE 1995 Q33)",
+      options: ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An ammeter measures electric current."),
+
+  QuizQuestion(
+      question:
+          "19. The energy for lighting a torchlight comes from the\n(BECE 1997 Q39)",
+      options: ["Bulb", "Cell", "Filament", "Glass", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The cell supplies the electrical energy used by the torchlight."),
+
+  QuizQuestion(
+      question:
+          "20. Calculate the voltage across a wire of resistance 4 ohms if 3 amperes of current is passed through it.\n(BECE 1998 Q34)",
+      options: ["0.75 V", "1.00 V", "1.33 V", "7.00 V", "12.00 V"],
+      correctIndex: 4,
+      difficulty: "Easy",
+      explanation:
+          "Using Ohm's law, V = IR = 3 × 4 = 12 V."),
+
+  QuizQuestion(
+      question:
+          "21. Which of the following substances can be used as an electrical insulator?\n(BECE 2001 Q38)",
+      options: ["Copper", "Graphite", "Plastic", "Zinc"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Plastic does not allow electric current to pass through easily and is therefore an insulator."),
+
+  QuizQuestion(
+      question:
+          "22. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the\n(BECE 2005 Q3)",
+      options: ["Earth wire", "Fuse", "Lightning conductor", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse melts and breaks the circuit when excessive current flows."),
+
+  QuizQuestion(
+      question:
+          "23. A fuse is used in an electrical circuit to\n(BECE 2005 Q5)",
+      options: [
+        "Measure the energy used up",
+        "Protect appliances",
+        "Provide more current",
+        "Make sure current flows continuously"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse protects appliances from excessive current."),
+
+  QuizQuestion(
+      question:
+          "24. A fuse is connected in an electric circuit to\n(BECE 2006 Q6)",
+      options: [
+        "Prevent electric shock",
+        "Increase the current",
+        "Prevent current from increasing",
+        "Increase the heat generated"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A fuse interrupts the circuit when the current becomes dangerously high."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following conditions is not required for a current to flow through an electric circuit?\n(BECE 2008 Q5)",
+      options: [
+        "The circuit should be closed",
+        "A battery must be present",
+        "There must be connecting wires",
+        "A bulb must be connected in the circuit"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A bulb is not essential for current flow; a closed conducting path and source of potential difference are needed."),
+
+  QuizQuestion(
+      question:
+          "26. In electrical circuits, the component that protects appliances against very high currents is the\n(BECE 2009 Q2)",
+      options: ["Capacitor", "Fuse", "Resistor", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse protects electrical appliances by breaking the circuit when current becomes excessive."),
+
+  QuizQuestion(
+      question:
+          "27. In modern electrical wirings the colour code for the live wire is\n(BECE 2012 Q31)",
+      options: ["Blue", "Brown", "Green", "Green and yellow"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The modern colour code for the live wire is brown."),
+
+  QuizQuestion(
+      question:
+          "28. Which of the following materials allows electric current to pass through easily?\n(BECE 2012 Q36)",
+      options: ["Aluminium", "Carbon", "Glass", "Water"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Aluminium is a good electrical conductor."),
+
+  QuizQuestion(
+      question:
+          "29. Which of the following effects is not a result of illegal connection of electricity? It can\n(BECE 2013 Q30)",
+      options: [
+        "Lead to fire outbreak",
+        "Lead to frequent power cut-off",
+        "Increase the flow of current in the supply chain",
+        "Cause damage to electrical appliance"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The intended answer is that increasing current in the supply chain is not itself listed as a direct consequence in the same sense as fires, outages and appliance damage."),
+
+  QuizQuestion(
+      question:
+          "30. The importance of the fuse in an electrical circuit is to\n(BECE 2014 Q38)",
+      options: [
+        "Regulate the voltage",
+        "Prevent damage to electrical appliances",
+        "Alter the flow of current in the circuit",
+        "Minimize the use of current"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The fuse protects appliances from damage caused by excessive current."),
+
+  QuizQuestion(
+      question:
+          "31. What is the colour of the neutral wire in a three-pin plug?\n(BECE 2015 Q4)",
+      options: ["Blue", "Brown", "Green", "Yellow"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The neutral wire is colour-coded blue."),
+
+  QuizQuestion(
+      question:
+          "32. A rheostat is used in an electrical circuit in order to\n(BECE 2016 Q5)",
+      options: [
+        "Increase electric current only",
+        "Decrease electric current only",
+        "Keep electric current constant",
+        "Increase and decrease electric current"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A rheostat is a variable resistor used to increase or decrease current in a circuit."),
+
+  QuizQuestion(
+      question:
+          "33. The instrument used to measure current in an electric circuit is the\n(BECE 2017 Q5)",
+      options: ["Ammeter", "Photometer", "Thermometer", "Voltmeter"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An ammeter measures electric current."),
+
+  QuizQuestion(
+      question:
+          "34. The colour of the neutral wire in an electrical current is\n(BECE 2017 Q8)",
+      options: ["Blue", "Brown", "Green", "Yellow"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The standard colour for the neutral wire is blue."),
+
+  QuizQuestion(
+      question:
+          "35. The unit of potential difference is\n(BECE 2018 Q33)",
+      options: ["Ampere", "Watt", "Ohm", "Volt"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Potential difference is measured in volts."),
+
+  QuizQuestion(
+      question:
+          "36. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?\n(BECE 2020 Q16)",
+      options: ["Ammeter", "Voltmeter", "Ohmmeter", "Galvanometer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter is connected in parallel across the component whose potential difference is being measured."),
+
+  QuizQuestion(
+      question:
+          "37. The current flowing through a resistor of resistance 10 ohms is 2.5 A. What is the potential difference between the terminals of the resistor?\n(BECE 2021 Q3)",
+      options: ["4 V", "12.5 V", "25 V", "50 V"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Using V = IR, the potential difference is 2.5 × 10 = 25 V."),
+
+  QuizQuestion(
+      question:
+          "38. The instrument used to measure potential difference across a resistor is\n(BECE 2021 Q7)",
+      options: ["Ammeter", "Barometer", "Hydrometer", "Voltmeter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter measures potential difference across a resistor."),
+
+  QuizQuestion(
+      question:
+          "39. It is not advisable to use old electrical gadgets because they\n(BECE 2021 Q26)",
+      options: [
+        "Are not efficient",
+        "Are dangerous",
+        "Produce sparks",
+        "Waste energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Old or damaged electrical gadgets may have faulty insulation or wiring and can therefore be dangerous."),
+
+  QuizQuestion(
+      question:
+          "40. The current in a resistor is 3 A. If the resistance of the resistor is 4 ohms, determine the potential difference across the resistor.\n(BECE 2022 Q12)",
+      options: ["7.00 V", "1.33 V", "0.75 V", "12.00 V"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Using Ohm's law, V = IR = 3 × 4 = 12 V."),
+
+  QuizQuestion(
+      question:
+          "41. An electric bulb is rated 0.5 A, 120 V. Determine the power produced when the bulb is turned on.\n(BECE 2023 Q4)",
+      options: ["60 W", "30 W", "30 kW", "60 kW"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Power is P = VI = 120 × 0.5 = 60 W."),
+
+  QuizQuestion(
+      question:
+          "42. The unit inscribed on the bulb measures its\n(BECE 2024 Q14)",
+      options: ["Workdone", "Electricity", "Power", "Energy"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A bulb's wattage rating indicates its electrical power."),
+
+  QuizQuestion(
+      question:
+          "43. The 50 W bulb is likely to\n\nI. increase the brightness in the room.\nII. increase the amount of electricity consumed.\nIII. destroy the habitat of pests.\n(BECE 2024 Q30)",
+      options: [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A higher-power bulb can increase brightness and electrical energy consumption, but it does not necessarily destroy the habitat of pests."),
+    ],
+  ),
+  "Science JHS3 s4 ss2 - Basic Electronics & Electricity": QuizModel(
+    audioPath: '',
+    questions: [
       QuizQuestion(
-        question:
-            "2. A ball is dropped from a height to the ground. The energy possessed by the ball just before it strikes the ground is called        (BECE 2002a Q8)",
-        options: [
-          "heat energy",
-          "kinetic energy",
-          "potential energy",
-          "sound energy"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Just before the ball strikes the ground, it is moving rapidly. The energy possessed by a moving object is kinetic energy.",
-      ),
+question:
+"1. Which of the following devices requires the use of transistors in its operation?\n(BECE 2011 Q30)",
+options: ["Computer", "Electric heater", "Microphone", "Wall clock"],
+correctIndex: 0,
+difficulty: "Easy",
+explanation:
+"Computers use large numbers of transistors in their electronic circuits."),
+
+  QuizQuestion(
+      question:
+          "2. The majority charge carriers in a p-type semi-conductor are\n(BECE 2015 Q36)",
+      options: ["Electrons", "Holes", "Neutrons", "Protons"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Holes are the majority charge carriers in a p-type semiconductor."),
+
+  QuizQuestion(
+      question:
+          "3. In an n-p-n transistor, the n-type collector is connected to the positive terminal of the battery thus making the\n(BECE 2011 Q11)",
+      options: [
+        "Base-collector junction reverse biased",
+        "Base-collector junction forward biased",
+        "Base-emitter junction reverse biased",
+        "Base-emitter junction forward biased"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "For normal active operation of an n-p-n transistor, the base-collector junction is reverse biased."),
+
+  QuizQuestion(
+      question:
+          "4. Which of the following statements about a transistor is correct?\n(BECE 2010 Q23)",
+      options: [
+        "It can be used to amplify current",
+        "It is similar to three diodes",
+        "It consists of two leads only",
+        "It has three junctions"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A transistor can be used as an amplifier to increase the strength of an electrical signal."),
+
+  QuizQuestion(
+      question:
+          "5. When the p-n junction of a transistor is reverse biased\n(BECE 2012 Q5)",
+      options: [
+        "Current flows from the p-type to the n-type",
+        "No current flows from the p-type to the n-type",
+        "Conduction of current occurs",
+        "Current flows from the n-type to the p-type"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A reverse-biased p-n junction ideally prevents current from flowing."),
+
+  QuizQuestion(
+      question:
+          "6. The arrow in the circuit symbol of either n-p-n or p-n-p is always on the\n(BECE 2012 Q10)",
+      options: ["Base lead", "Collector lead", "Emitter lead", "Receiver lead"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The arrow on a bipolar transistor symbol is always drawn on the emitter lead."),
+
+  QuizQuestion(
+      question:
+          "7. A transistor is said to operate in an active region when\n(BECE 2011 Q20)",
+      options: [
+        "One p-n junction is forward biased and the other is reverse biased",
+        "Base-emitter junction is reverse biased",
+        "Both p-n junctions are reverse biased",
+        "Base-collector junction is forward biased"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In the active region, the base-emitter junction is forward biased while the base-collector junction is reverse biased."),
+
+  QuizQuestion(
+      question:
+          "8. The lead of the transistor responsible for activation is the\n(BECE 2012 Q40)",
+      options: ["Amplifier", "Base", "Collector", "Emitter"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The base controls or activates the flow of current through a transistor."),
+
+  QuizQuestion(
+      question:
+          "9. Which of the following devices is made of semiconductor?\n(BECE 2014 Q26)",
+      options: ["Capacitor", "Inductor", "Resistor", "Transistor"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A transistor is a semiconductor device."),
+
+  QuizQuestion(
+      question:
+          "10. In electronic circuits, LEDs are used to indicate the absence or presence of\n(BECE 2014 Q34)",
+      options: [
+        "Emitter and collector",
+        "Electric current",
+        "P-n junction",
+        "Voltage source"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An LED lights when current flows through it and can therefore indicate the presence of current."),
+
+  QuizQuestion(
+      question:
+          "11. The process of increasing the strength of a signal using a transistor is known as\n(BECE 2015 Q7)",
+      options: ["Amplification", "Biasing", "Doping", "Switching"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Amplification is the process of increasing the strength of an electrical signal."),
+
+  QuizQuestion(
+      question:
+          "12. The number of p-n junctions in a transistor is\n(BECE 2015 Q36)",
+      options: ["1", "2", "3", "4"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A bipolar junction transistor has two p-n junctions."),
+
+  QuizQuestion(
+      question:
+          "13. The major charge carriers in p-type semiconductors are\n(BECE 2020 Q26)",
+      options: ["Anions", "Electrons", "Holes", "Neutrons"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Holes are the majority charge carriers in p-type semiconductors."),
+
+  QuizQuestion(
+      question:
+          "14. Which of the following statements about the base of a transistor are correct? The base is\n\nI. made very thin.\nII. made wide.\nIII. responsible for activating the transistor.\nIV. made of n-type semiconductor.\n(BECE 2021 Q34)",
+      options: [
+        "I and III only",
+        "II and IV only",
+        "I, III and IV only",
+        "II, III and IV only"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The base is made very thin and controls or activates transistor operation. It is not always n-type because its type depends on whether the transistor is NPN or PNP."),
+
+  QuizQuestion(
+      question:
+          "15. A capacitor is connected in a series circuit with LED, a battery and a switch. When the circuit is closed, the LED\n(BECE 2022 Q7)",
+      options: [
+        "Comes on and stays on",
+        "Flashes and goes off",
+        "Does not come on",
+        "Flashes and stays on"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Current flows briefly while the capacitor charges, causing the LED to flash before going off."),
+
+  QuizQuestion(
+      question:
+          "16. The base of the N-P-N transistor normally\n(BECE 2023 Q33)",
+      options: [
+        "Is a p-type semi conductor",
+        "Is undoped semi conductor",
+        "Have electrons as majority charge carriers",
+        "Is an n-type semi conductor"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An NPN transistor consists of an n-type emitter, p-type base and n-type collector."),
+
+  QuizQuestion(
+      question:
+          "17. Which of the following is used to measure the potential difference across a resistor in an electrical circuit?\n(BECE 1994 Q27)",
+      options: ["A galvanometer", "A rheostat", "A meter bridge", "A voltmeter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter is used to measure potential difference across electrical components."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following instruments is used in measuring current in an electric circuit?\n(BECE 1995 Q33)",
+      options: ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An ammeter measures electric current."),
+
+  QuizQuestion(
+      question:
+          "19. The energy for lighting a torchlight comes from the\n(BECE 1997 Q39)",
+      options: ["Bulb", "Cell", "Filament", "Glass", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The cell supplies the electrical energy used by the torchlight."),
+
+  QuizQuestion(
+      question:
+          "20. Calculate the voltage across a wire of resistance 4 ohms if 3 amperes of current is passed through it.\n(BECE 1998 Q34)",
+      options: ["0.75 V", "1.00 V", "1.33 V", "7.00 V", "12.00 V"],
+      correctIndex: 4,
+      difficulty: "Easy",
+      explanation:
+          "Using Ohm's law, V = IR = 3 × 4 = 12 V."),
+
+  QuizQuestion(
+      question:
+          "21. Which of the following substances can be used as an electrical insulator?\n(BECE 2001 Q38)",
+      options: ["Copper", "Graphite", "Plastic", "Zinc"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Plastic does not allow electric current to pass through easily and is therefore an insulator."),
+
+  QuizQuestion(
+      question:
+          "22. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the\n(BECE 2005 Q3)",
+      options: ["Earth wire", "Fuse", "Lightning conductor", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse melts and breaks the circuit when excessive current flows."),
+
+  QuizQuestion(
+      question:
+          "23. A fuse is used in an electrical circuit to\n(BECE 2005 Q5)",
+      options: [
+        "Measure the energy used up",
+        "Protect appliances",
+        "Provide more current",
+        "Make sure current flows continuously"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse protects appliances from excessive current."),
+
+  QuizQuestion(
+      question:
+          "24. A fuse is connected in an electric circuit to\n(BECE 2006 Q6)",
+      options: [
+        "Prevent electric shock",
+        "Increase the current",
+        "Prevent current from increasing",
+        "Increase the heat generated"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A fuse interrupts the circuit when the current becomes dangerously high."),
+
+  QuizQuestion(
+      question:
+          "25. Which of the following conditions is not required for a current to flow through an electric circuit?\n(BECE 2008 Q5)",
+      options: [
+        "The circuit should be closed",
+        "A battery must be present",
+        "There must be connecting wires",
+        "A bulb must be connected in the circuit"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A bulb is not essential for current flow; a closed conducting path and source of potential difference are needed."),
+
+  QuizQuestion(
+      question:
+          "26. In electrical circuits, the component that protects appliances against very high currents is the\n(BECE 2009 Q2)",
+      options: ["Capacitor", "Fuse", "Resistor", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fuse protects electrical appliances by breaking the circuit when current becomes excessive."),
+
+  QuizQuestion(
+      question:
+          "27. In modern electrical wirings the colour code for the live wire is\n(BECE 2012 Q31)",
+      options: ["Blue", "Brown", "Green", "Green and yellow"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The modern colour code for the live wire is brown."),
+
+  QuizQuestion(
+      question:
+          "28. Which of the following materials allows electric current to pass through easily?\n(BECE 2012 Q36)",
+      options: ["Aluminium", "Carbon", "Glass", "Water"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Aluminium is a good electrical conductor."),
+
+  QuizQuestion(
+      question:
+          "29. Which of the following effects is not a result of illegal connection of electricity? It can\n(BECE 2013 Q30)",
+      options: [
+        "Lead to fire outbreak",
+        "Lead to frequent power cut-off",
+        "Increase the flow of current in the supply chain",
+        "Cause damage to electrical appliance"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The intended answer is that increasing current in the supply chain is not itself listed as a direct consequence in the same sense as fires, outages and appliance damage."),
+
+  QuizQuestion(
+      question:
+          "30. The importance of the fuse in an electrical circuit is to\n(BECE 2014 Q38)",
+      options: [
+        "Regulate the voltage",
+        "Prevent damage to electrical appliances",
+        "Alter the flow of current in the circuit",
+        "Minimize the use of current"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The fuse protects appliances from damage caused by excessive current."),
+
+  QuizQuestion(
+      question:
+          "31. What is the colour of the neutral wire in a three-pin plug?\n(BECE 2015 Q4)",
+      options: ["Blue", "Brown", "Green", "Yellow"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The neutral wire is colour-coded blue."),
+
+  QuizQuestion(
+      question:
+          "32. A rheostat is used in an electrical circuit in order to\n(BECE 2016 Q5)",
+      options: [
+        "Increase electric current only",
+        "Decrease electric current only",
+        "Keep electric current constant",
+        "Increase and decrease electric current"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A rheostat is a variable resistor used to increase or decrease current in a circuit."),
+
+  QuizQuestion(
+      question:
+          "33. The instrument used to measure current in an electric circuit is the\n(BECE 2017 Q5)",
+      options: ["Ammeter", "Photometer", "Thermometer", "Voltmeter"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An ammeter measures electric current."),
+
+  QuizQuestion(
+      question:
+          "34. The colour of the neutral wire in an electrical current is\n(BECE 2017 Q8)",
+      options: ["Blue", "Brown", "Green", "Yellow"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The standard colour for the neutral wire is blue."),
+
+  QuizQuestion(
+      question:
+          "35. The unit of potential difference is\n(BECE 2018 Q33)",
+      options: ["Ampere", "Watt", "Ohm", "Volt"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Potential difference is measured in volts."),
+
+  QuizQuestion(
+      question:
+          "36. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?\n(BECE 2020 Q16)",
+      options: ["Ammeter", "Voltmeter", "Ohmmeter", "Galvanometer"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter is connected in parallel across the component whose potential difference is being measured."),
+
+  QuizQuestion(
+      question:
+          "37. The current flowing through a resistor of resistance 10 ohms is 2.5 A. What is the potential difference between the terminals of the resistor?\n(BECE 2021 Q3)",
+      options: ["4 V", "12.5 V", "25 V", "50 V"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Using V = IR, the potential difference is 2.5 × 10 = 25 V."),
+
+  QuizQuestion(
+      question:
+          "38. The instrument used to measure potential difference across a resistor is\n(BECE 2021 Q7)",
+      options: ["Ammeter", "Barometer", "Hydrometer", "Voltmeter"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A voltmeter measures potential difference across a resistor."),
+
+  QuizQuestion(
+      question:
+          "39. It is not advisable to use old electrical gadgets because they\n(BECE 2021 Q26)",
+      options: [
+        "Are not efficient",
+        "Are dangerous",
+        "Produce sparks",
+        "Waste energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Old or damaged electrical gadgets may have faulty insulation or wiring and can therefore be dangerous."),
+
+  QuizQuestion(
+      question:
+          "40. The current in a resistor is 3 A. If the resistance of the resistor is 4 ohms, determine the potential difference across the resistor.\n(BECE 2022 Q12)",
+      options: ["7.00 V", "1.33 V", "0.75 V", "12.00 V"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Using Ohm's law, V = IR = 3 × 4 = 12 V."),
+
+  QuizQuestion(
+      question:
+          "41. An electric bulb is rated 0.5 A, 120 V. Determine the power produced when the bulb is turned on.\n(BECE 2023 Q4)",
+      options: ["60 W", "30 W", "30 kW", "60 kW"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Power is P = VI = 120 × 0.5 = 60 W."),
+
+  QuizQuestion(
+      question:
+          "42. The unit inscribed on the bulb measures its\n(BECE 2024 Q14)",
+      options: ["Workdone", "Electricity", "Power", "Energy"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A bulb's wattage rating indicates its electrical power."),
+
+  QuizQuestion(
+      question:
+          "43. The 50 W bulb is likely to\n\nI. increase the brightness in the room.\nII. increase the amount of electricity consumed.\nIII. destroy the habitat of pests.\n(BECE 2024 Q30)",
+      options: [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A higher-power bulb can increase brightness and electrical energy consumption, but it does not necessarily destroy the habitat of pests."),
+    ],
+  ),
+  
+
+  "Science JHS1 s4 ss3 - Conversion and Conservation of Energy": QuizModel(
+    audioPath: '',
+    questions: [
       QuizQuestion(
-        question:
-            "3. Which of the following appliances transform(s) electrical energy into heat energy?\n\n"
-            "I. Swish oven\n"
-            "II. Hair drier\n"
-            "III. Refrigerator motor        (BECE 2001 Q15)",
-        options: [
-          "I only",
-          "I and II only",
-          "II and III only",
-          "I and III only"
-        ],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation:
-            "An electric oven and a hair drier convert electrical energy mainly into heat energy. A refrigerator motor mainly converts electrical energy into mechanical energy.",
-      ),
-      QuizQuestion(
-        question:
-            "4. When the brakes of a bicycle in motion are applied for a long time, the wheels become hot. This is because of a change of energy from        (BECE 2002b Q6)",
-        options: [
-          "kinetic energy to potential energy",
-          "potential energy to kinetic energy",
-          "potential energy to heat energy",
-          "kinetic energy to heat energy"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Friction between the brake pads and the wheel converts the bicycle's kinetic energy into heat energy.",
-      ),
-      QuizQuestion(
-        question:
-            "5. Which of the following materials transforms electrical energy into light energy?        (BECE 2000 Q17)",
-        options: ["Electric bell", "Filament", "Electric guitar", "Lantern"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "The filament in an electric bulb becomes very hot when current passes through it and produces light.",
-      ),
-      QuizQuestion(
-        question:
-            "6. A body of mass 50 kg falls through a height of 5 m. If the acceleration due to gravity is 10 m/s², calculate the potential energy.        (BECE 2002a Q10)",
-        options: ["50 J", "250 J", "500 J", "2500 J"],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "Potential energy = mass × gravitational acceleration × height. Therefore, PE = 50 kg × 10 m/s² × 5 m = 2500 J.",
-      ),
-      QuizQuestion(
-        question:
-            "7. The energy that causes the turbine of a hydroelectric plant to rotate is        (BECE 2000 Q23)",
-        options: [
-          "chemical energy",
-          "potential energy",
-          "electrical energy",
-          "kinetic energy"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Moving water possesses kinetic energy. This kinetic energy turns the turbine in a hydroelectric power plant.",
-      ),
-      QuizQuestion(
-        question:
-            "8. Which of the following energy transformations takes place at a hydroelectric power station?        (BECE 2003 Q6)",
-        options: [
-          "Potential energy → kinetic energy → electrical energy",
-          "Potential energy → sound energy → electrical energy",
-          "Kinetic energy → electrical energy → light energy",
-          "Electrical energy → light energy → heat energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Medium",
-        explanation:
-            "Stored water has potential energy. As it flows, this becomes kinetic energy, which is then converted into electrical energy by a generator.",
-      ),
-      QuizQuestion(
-        question: "9. The energy stored in food is        (BECE 2002b Q9)",
-        options: [
-          "electrostatic energy",
-          "chemical energy",
-          "solar energy",
-          "thermal energy"
-        ],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "Food stores chemical energy, which is released through respiration and used by living organisms.",
-      ),
-      QuizQuestion(
-        question:
-            "10. The energy possessed by a compressed spring is        (BECE 2002a Q7)",
-        options: [
-          "chemical energy",
-          "kinetic energy",
-          "magnetic energy",
-          "potential energy"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "A compressed spring stores elastic potential energy because of its changed shape.",
-      ),
-      QuizQuestion(
-        question:
-            "11. Which of the following devices converts chemical energy into electrical energy?        (BECE 2004 Q8)",
-        options: ["Dry cell", "Electric bulb", "Loudspeaker", "Microphone"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "A dry cell converts stored chemical energy into electrical energy through chemical reactions.",
-      ),
-      QuizQuestion(
-        question:
-            "12. Electricity is used by appliances to do work. This means that electricity is a form of        (BECE 2005 Q8)",
-        options: ["energy", "force", "generator", "machine"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "Energy is the capacity to do work. Since electricity enables appliances to perform work, it is a form of energy.",
-      ),
-      QuizQuestion(
-        question:
-            "13. Which of the following energy changes takes place in a ringing bell?        (BECE 2008 Q4)",
-        options: [
-          "Potential energy to kinetic energy",
-          "Potential energy to sound energy",
-          "Mechanical energy to sound energy",
-          "Sound energy to light energy"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "The vibrating parts of a bell possess mechanical energy, which is converted into sound energy.",
-      ),
-      QuizQuestion(
-        question:
-            "14. What kind of energy transformation takes place in an electric motor?        (BECE 2010 Q25)",
-        options: [
-          "Chemical energy to electrical energy",
-          "Chemical energy to mechanical energy",
-          "Electrical energy to heat energy",
-          "Electrical energy to mechanical energy"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "An electric motor uses electrical energy to produce movement, which is mechanical energy.",
-      ),
-      QuizQuestion(
-        question:
-            "15. In which of the following devices is electrical energy transformed into light energy?        (BECE 2006 Q32)",
-        options: ["Electric bell", "Fluorescent tube", "Heater", "Radio"],
-        correctIndex: 1,
-        difficulty: "Easy",
-        explanation:
-            "A fluorescent tube converts electrical energy mainly into light energy.",
-      ),
-      QuizQuestion(
-        question:
-            "16. Which of the following devices converts electrical energy into sound energy?        (BECE 2016 Q25)",
-        options: [
-          "Electrical heater",
-          "Electric fan",
-          "Washing machine",
-          "Loudspeaker"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "A loudspeaker converts electrical signals into vibrations that produce sound energy.",
-      ),
-      QuizQuestion(
-        question:
-            "17. The types of energy obtained when atoms are split or combined are        (BECE 2004 Q12)",
-        options: [
-          "chemical and electrical energy",
-          "heat and sound energy",
-          "heat and light energy",
-          "electrical and light energy"
-        ],
-        correctIndex: 2,
-        difficulty: "Medium",
-        explanation:
-            "Nuclear reactions release large amounts of energy, mainly in the forms of heat and light.",
-      ),
-      QuizQuestion(
-        question:
-            "18. When a mango is falling from a tree, its potential energy is changed to        (BECE 2005 Q7)",
-        options: [
-          "sound energy",
-          "heat energy",
-          "kinetic energy",
-          "chemical energy"
-        ],
-        correctIndex: 2,
-        difficulty: "Easy",
-        explanation:
-            "As the mango falls, its gravitational potential energy decreases and is converted into kinetic energy.",
-      ),
-      QuizQuestion(
-        question:
-            "19. The type of energy stored when an electric bulb is connected to a battery is        (BECE 2007 Q2)",
-        options: [
-          "chemical energy",
-          "electrical energy",
-          "heat energy",
-          "magnetic energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Medium",
-        explanation:
-            "A battery stores chemical energy, which is converted into electrical energy when the circuit is completed.",
-      ),
-      QuizQuestion(
-        question:
-            "20. The energy transformation that takes place in a car battery is        (BECE 2010 Q28)",
-        options: [
-          "electrical energy → chemical energy → light energy",
-          "electrical energy → chemical energy → electrical energy",
-          "chemical energy → electrical energy → light energy",
-          "chemical energy → electrical energy → mechanical energy"
-        ],
-        correctIndex: 1,
-        difficulty: "Medium",
-        explanation:
-            "During charging, a car battery converts electrical energy into chemical energy. During use, the stored chemical energy is converted back into electrical energy.",
-      ),
-      QuizQuestion(
-        question:
-            "21. Electricity produced directly from sunlight is obtained using devices known as solar cells. The energy transformation involved is        (BECE 2012 Q1)",
-        options: [
-          "light energy to electrical energy",
-          "electrical energy to heat energy",
-          "electrostatic energy to light energy",
-          "chemical energy to electrical energy"
-        ],
-        correctIndex: 0,
-        difficulty: "Medium",
-        explanation:
-            "Solar cells convert light energy from the Sun directly into electrical energy.",
-      ),
-      QuizQuestion(
-        question:
-            "22. Which of the following statements is true about a device that performs work?        (BECE 2012 Q18)",
-        options: [
-          "Its potential energy must increase",
-          "It increases the efficiency of energy",
-          "It produces less energy than it receives",
-          "It must be efficient"
-        ],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "A useful device should operate efficiently by converting as much of its input energy as possible into useful output energy.",
-      ),
-      QuizQuestion(
-        question:
-            "23. An object of mass 70 kg is raised through a vertical height of 15 m. Determine the object's potential energy at the top of the building. [g = 10 m/s²]        (BECE 2021 Q16)",
-        options: ["5,250 J", "1,050 J", "1,050 J", "10,500 J"],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "Potential energy = mass × gravitational acceleration × height. Therefore, PE = 70 kg × 10 m/s² × 15 m = 10,500 J.",
-      ),
+question:
+"1. A torchlight derives its energy from\n(BECE 1990 Q7)",
+options: ["Petrol", "Kerosene", "A magnet", "Gas oil", "A dry cell"],
+correctIndex: 4,
+difficulty: "Easy",
+explanation:
+"A torchlight is powered by a dry cell, which supplies electrical energy."),
+
+  QuizQuestion(
+      question:
+          "2. Which of the following energy changes takes place when a church bell is tolled?\n(BECE 1990 Q7)",
+      options: [
+        "Potential energy to kinetic energy",
+        "Kinetic energy to sound energy",
+        "Potential energy to sound energy",
+        "Chemical energy to heat energy",
+        "Sound energy to kinetic energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The moving bell has kinetic energy, which is converted mainly into sound energy."),
+
+  QuizQuestion(
+      question:
+          "3. A torchlight bulb lights up when connected to a dry cell. What type of energy is obtained from the cell?\n(BECE 1992 Q8)",
+      options: [
+        "Chemical energy",
+        "Light energy",
+        "Potential energy",
+        "Electrical energy",
+        "Heat energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A dry cell converts stored chemical energy into electrical energy."),
+
+  QuizQuestion(
+      question:
+          "4. A dam for generating power is connected across a river. What type of energy is possessed by the water behind the dam?\n(BECE 1993 Q23)",
+      options: [
+        "Kinetic energy",
+        "Potential energy",
+        "Electrical energy",
+        "Heat energy",
+        "Light energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Water stored at a height behind a dam possesses gravitational potential energy."),
+
+  QuizQuestion(
+      question:
+          "5. Which of the following is the energy possessed by an object placed on top of a table?\n(BECE 1994 Q18)",
+      options: [
+        "Kinetic energy",
+        "Electrical energy",
+        "Potential energy",
+        "Sound energy",
+        "Heat energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "An object raised above the ground possesses gravitational potential energy."),
+
+  QuizQuestion(
+      question:
+          "6. A car battery produces electrical energy from\n(BECE 1994 Q30)",
+      options: [
+        "Chemical energy",
+        "Sound energy",
+        "Kinetic energy",
+        "Heat energy",
+        "Potential energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A car battery converts stored chemical energy into electrical energy."),
+
+  QuizQuestion(
+      question:
+          "7. The law of conservation of energy states that energy can\n(BECE 1996 Q7)",
+      options: [
+        "Be created but not transformed",
+        "Be destroyed but not transformed",
+        "Neither be created nor transformed",
+        "Not be created but can be transformed",
+        "Neither be created nor destroyed, but only be transformed"
+      ],
+      correctIndex: 4,
+      difficulty: "Easy",
+      explanation:
+          "Energy cannot be created or destroyed; it can only be transformed from one form to another."),
+
+  QuizQuestion(
+      question:
+          "8. The type of energy stored in fuels is called\n(BECE 1996 Q25)",
+      options: [
+        "Light energy",
+        "Solar light",
+        "Electrical energy",
+        "Kinetic energy",
+        "Chemical energy"
+      ],
+      correctIndex: 4,
+      difficulty: "Easy",
+      explanation:
+          "Fuels store chemical energy in their chemical bonds."),
+
+  QuizQuestion(
+      question:
+          "9. An object at rest may have\n(BECE 1996 Q26)",
+      options: [
+        "Velocity",
+        "Momentum",
+        "Kinetic energy",
+        "Potential energy",
+        "Acceleration"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An object at rest can still possess potential energy because of its position or state."),
+
+  QuizQuestion(
+      question:
+          "10. When the palms of the hand are rubbed together, kinetic energy is changed to\n(BECE 1996 Q35)",
+      options: [
+        "Thermal energy",
+        "Potential energy",
+        "Solar energy",
+        "Elastic energy",
+        "Chemical energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Friction between the palms converts kinetic energy into heat or thermal energy."),
+
+  QuizQuestion(
+      question:
+          "11. According to the principle of conservation of energy, energy can\n(BECE 1997 Q7)",
+      options: [
+        "Be created and destroyed",
+        "Be created but not destroyed",
+        "Be destroyed but not created",
+        "Be reduced but not increased",
+        "Neither be created nor destroyed"
+      ],
+      correctIndex: 4,
+      difficulty: "Easy",
+      explanation:
+          "The conservation principle states that energy is neither created nor destroyed."),
+
+  QuizQuestion(
+      question:
+          "12. The food we eat undergoes slow oxidation in our bodies to produce heat. In this process\n(BECE 1997 Q32)",
+      options: [
+        "Chemical energy is converted to heat energy",
+        "Electrical energy is converted to heat energy",
+        "Kinetic energy is converted to heat energy",
+        "Mechanical energy is converted to heat energy",
+        "Potential energy is converted to heat energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Food stores chemical energy, which can be converted into heat during respiration."),
+
+  QuizQuestion(
+      question:
+          "13. A stone released from a catapult was able to kill a bird because\n(BECE 1997 Q35)",
+      options: [
+        "The stone had a lot of energy",
+        "The stone was sharp",
+        "There was tension in the stone",
+        "The rubber of the catapult was strong",
+        "The stone was big"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The moving stone possessed kinetic energy that enabled it to do work on impact."),
+
+  QuizQuestion(
+      question:
+          "14. In which of the following electrical appliances is electrical energy mainly converted to heat energy?\n(BECE 1997 Q38)",
+      options: [
+        "Cooker",
+        "Fan",
+        "Refrigerator",
+        "Tape recorder",
+        "Television set"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An electric cooker converts electrical energy mainly into heat energy."),
+
+  QuizQuestion(
+      question:
+          "15. The energy for lighting a torchlight bulb comes from the\n(BECE 1997 Q39)",
+      options: ["Bulb", "Cell", "Filament", "Glass", "Switch"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The cell supplies the electrical energy needed to light the bulb."),
+
+  QuizQuestion(
+      question:
+          "16. Which of the following energy changes takes place when a church bell is tolled?\n(BECE 1998 Q19)",
+      options: [
+        "Chemical energy is changed to sound energy",
+        "Kinetic energy is changed to sound energy",
+        "Potential energy is changed to sound energy",
+        "Thermal energy is changed to sound energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The motion of the bell provides kinetic energy which is converted to sound."),
+
+  QuizQuestion(
+      question:
+          "17. A car head lamp lights up when connected to a battery. What type of energy is obtained from the battery?\n(BECE 1999 Q20)",
+      options: [
+        "Chemical energy",
+        "Electrical energy",
+        "Heat energy",
+        "Light energy",
+        "Potential energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The battery supplies electrical energy to the headlamp."),
+
+  QuizQuestion(
+      question:
+          "18. Which of the following materials transforms electrical energy into light energy?\n(BECE 2000 Q17)",
+      options: [
+        "Electric bell",
+        "Filament bulb",
+        "Electric guitar",
+        "Lantern",
+        "Radio"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A filament bulb converts electrical energy mainly into light and heat."),
+
+  QuizQuestion(
+      question:
+          "19. The type of energy obtained in food is referred to as\n(BECE 2000 Q24)",
+      options: [
+        "Chemical energy",
+        "Electrical energy",
+        "Heat energy",
+        "Kinetic energy",
+        "Light energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Food stores energy in chemical form."),
+
+  QuizQuestion(
+      question:
+          "20. Which of the following appliances transform(s) electrical energy to heat energy?\n\nI. Swish oven\nII. Hair drier\nIII. Refrigerator motor\n(BECE 2001 Q15)",
+      options: [
+        "I only",
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "An oven and hair dryer convert electrical energy into heat, while a refrigerator motor mainly converts it into mechanical energy."),
+
+  QuizQuestion(
+      question:
+          "21. The energy that causes the turbine of hydroelectric plant to rotate is\n(BECE 2001 Q23)",
+      options: [
+        "Chemical energy",
+        "Potential energy",
+        "Electrical energy",
+        "Kinetic energy",
+        "Heat energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Moving water has kinetic energy, which rotates the turbine."),
+
+  QuizQuestion(
+      question:
+          "22. The energy possessed by a compressed spring is a\n(BECE 2002A Q7)",
+      options: [
+        "Chemical energy",
+        "Kinetic energy",
+        "Magnetic energy",
+        "Potential energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A compressed spring stores elastic potential energy."),
+
+  QuizQuestion(
+      question:
+          "23. A ball is dropped from a height to the ground. The energy possessed by the ball just before it strikes the ground is called\n(BECE 2002A Q8)",
+      options: [
+        "Heat energy",
+        "Kinetic energy",
+        "Potential energy",
+        "Sound energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Just before impact, the moving ball possesses mainly kinetic energy."),
+
+  QuizQuestion(
+      question:
+          "24. A body of mass 50 kg falls through a height of 5 m. If the acceleration due to gravity is 10 ms⁻², calculate the potential energy?\n(BECE 2002A Q10)",
+      options: ["50 J", "250 J", "500 J", "2500 J"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Potential energy = mgh = 50 × 10 × 5 = 2500 J."),
+
+  QuizQuestion(
+      question:
+          "25. When the brakes of a bicycle in motion are applied for a long time the wheels become hot. This is because of a change of energy from\n(BECE 2002B Q6)",
+      options: [
+        "Kinetic energy to potential energy",
+        "Potential energy to kinetic energy",
+        "Potential energy to heat energy",
+        "Kinetic energy to heat energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Friction in the brakes converts kinetic energy into heat energy."),
+
+  QuizQuestion(
+      question:
+          "26. The energy stored in food is\n(BECE 2002B Q9)",
+      options: [
+        "An electrostatic energy",
+        "A chemical energy",
+        "A solar energy",
+        "A thermal energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Food stores chemical energy."),
+
+  QuizQuestion(
+      question:
+          "27. Which of the following energy transformations takes place at a hydroelectric power station?\n(BECE 2003 Q6)",
+      options: [
+        "Potential energy → kinetic energy → electrical energy",
+        "Potential energy → sound energy → electrical energy",
+        "Kinetic energy → electrical energy → light energy",
+        "Electrical energy → light energy → heat energy"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Stored water has potential energy, which becomes kinetic energy and is then converted to electrical energy."),
+
+  QuizQuestion(
+      question:
+          "28. The types of energy produced when the hands are slightly rubbed against each other are\n(BECE 2004 Q2)",
+      options: [
+        "Chemical and electrical energy",
+        "Heat and sound energy",
+        "Heat and light energy",
+        "Electrical and light energy"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Friction between the hands produces heat and some sound energy."),
+
+  QuizQuestion(
+      question:
+          "29. Which of the following items converts chemical energy to electrical energy?\n(BECE 2004 Q5)",
+      options: ["Dry cell", "Electric bulb", "Loudspeaker", "Microphone"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A dry cell converts chemical energy into electrical energy."),
+
+  QuizQuestion(
+      question:
+          "30. When a mango is falling from a tree, its potential energy is changed to\n(BECE 2005 Q7)",
+      options: [
+        "Sound energy",
+        "Heat energy",
+        "Kinetic energy",
+        "Chemical energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "As the mango falls, gravitational potential energy is converted into kinetic energy."),
+
+  QuizQuestion(
+      question:
+          "31. Electricity is used by appliances to do work. This means that electricity is a form of\n(BECE 2005 Q8)",
+      options: ["Energy", "Force", "Generator", "Machine"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Energy is the ability to do work, so electricity is a form of energy."),
+
+  QuizQuestion(
+      question:
+          "32. The type of energy obtained when an electric bulb is connected to a battery is\n(BECE 2007 Q2)",
+      options: [
+        "Chemical energy",
+        "Electrical energy",
+        "Light energy",
+        "Magnetic energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The bulb converts electrical energy into light energy."),
+
+  QuizQuestion(
+      question:
+          "33. Which of the following energy changes takes place in a ringing bell?\n(BECE 2008 Q4)",
+      options: [
+        "Potential to kinetic",
+        "Potential to sound",
+        "Mechanical to sound",
+        "Sound to light"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The mechanical motion of the bell is converted into sound energy."),
+
+  QuizQuestion(
+      question:
+          "34. A solar cell produces electrical energy from\n(BECE 2009 Q7)",
+      options: ["Electromagnets", "Heat", "Light", "Sound"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A solar cell converts light energy into electrical energy."),
+
+  QuizQuestion(
+      question:
+          "35. The energy transformation that takes place in a car battery is\n(BECE 2010 Q28)",
+      options: [
+        "Electrical energy → chemical energy → light energy",
+        "Chemical energy → light energy → electrical energy",
+        "Chemical energy → electrical energy → light energy",
+        "Electrical energy → light energy → chemical energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The battery converts chemical energy into electrical energy, which may then be converted to light by the car lamps."),
+
+  QuizQuestion(
+      question:
+          "36. What kind of energy transformation takes place in an electric motor?\n(BECE 2011 Q8)",
+      options: [
+        "Chemical energy to electrical energy",
+        "Chemical energy to mechanical energy",
+        "Electrical energy to light energy",
+        "Electrical energy to mechanical energy"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An electric motor converts electrical energy into mechanical energy."),
+
+  QuizQuestion(
+      question:
+          "37. Which of the following devices converts electrical energy into sound energy?\n(BECE 2016 Q25)",
+      options: [
+        "Electric heater",
+        "Electric fan",
+        "Washing machine",
+        "Loudspeaker"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A loudspeaker converts electrical signals into sound energy."),
+
+  QuizQuestion(
+      question:
+          "38. In which of the following devices is electrical energy transformed into light energy?\n(BECE 2020 Q32)",
+      options: ["Electric bell", "Fluorescent tube", "Lantern", "Radio"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A fluorescent tube converts electrical energy mainly into light energy."),
+
+  QuizQuestion(
+      question:
+          "39. Determine the potential energy of a block of mass 2 kg placed on a building 10 m tall. [g = 10 ms⁻²]\n(BECE 2021 Q5)",
+      options: ["20 J", "50 J", "100 J", "200 J"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Potential energy = mgh = 2 × 10 × 10 = 200 J."),
+
+  QuizQuestion(
+      question:
+          "40. The energy transformation that takes place in a solar cell is\n(BECE 2022 Q1)",
+      options: [
+        "Light to chemical",
+        "Light to electrical",
+        "Electrical to heat",
+        "Electrical to light"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A solar cell converts light energy directly into electrical energy."),
+
+  QuizQuestion(
+      question:
+          "41. Which of the following statements are reasons for conserving energy?\n\nI. Insufficient production of energy\nII. Increasing demand of energy\nIII. Limiting production of carbon (IV) oxide.\n(BECE 2022 Q18)",
+      options: [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II and III"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Energy conservation helps address limited energy supply, rising demand and carbon dioxide emissions."),
+
+  QuizQuestion(
+      question:
+          "42. A pupil of mass 70 kg climbed a building of height 15 m. Determine the pupil's potential energy at the top of the building. [g = 10 ms⁻²]\n(BECE 2023 Q16)",
+      options: ["5,250 J", "700 J", "1,050 J", "10,500 J"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Potential energy = mgh = 70 × 10 × 15 = 10,500 J."),
+
+  QuizQuestion(
+      question:
+          "43. The energy transformation that occurs when sodium hydroxide is dissolved in water is\n(BECE 2024 Q12)",
+      options: [
+        "Chemical to light energy",
+        "Heat to kinetic energy",
+        "Chemical to heat energy",
+        "Heat to potential energy"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Dissolving sodium hydroxide in water is exothermic, so chemical energy is released as heat."),
+
+  QuizQuestion(
+      question:
+          "44. Which of the following electrical appliances can convert electrical energy to heat energy?\n\nI. Electrical iron\nII. Kettle\nIII. Water heater\n(BECE 2024 Q20)",
+      options: [
+        "I and III only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An electric iron, kettle and water heater all convert electrical energy into heat energy."),
+
+  QuizQuestion(
+      question:
+          "45. A mango of mass 2 kg hangs 15 m on top of a mango tree. Determine the value of the kinetic energy attained just before it hits the ground. [g = 10 ms⁻²]\n(BECE 2025 Q10)",
+      options: ["30.0 J", "225.0 J", "300.0 J", "3.0 J"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Ignoring air resistance, the initial potential energy becomes kinetic energy: KE = mgh = 2 × 10 × 15 = 300 J."),
+
+  QuizQuestion(
+      question:
+          "46. The S.I unit of energy is represented as\n(BECE 2025 Q26)",
+      options: ["Joule", "joule", "j", "Js"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The SI unit of energy is the joule, represented by the symbol J."),
     ],
   ),
 
