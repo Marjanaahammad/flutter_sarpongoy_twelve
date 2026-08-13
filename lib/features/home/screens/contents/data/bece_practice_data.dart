@@ -14011,7 +14011,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS1 s4 ss2 - Electricity & Electronics": PracticeModel(
+  "Science JHS1 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(

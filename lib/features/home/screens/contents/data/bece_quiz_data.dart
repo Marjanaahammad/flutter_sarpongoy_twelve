@@ -34542,12 +34542,245 @@ final Map<String, QuizModel> beceQuizData = {
     ],
   ),
 
-  "Science JHS1 s4 ss2 - Electricity & Electronics": QuizModel(
+  "Science JHS1 s4 ss2 - Basic Electronics & Electricity": QuizModel(
     audioPath: '',
     questions: [
       QuizQuestion(
         question:
-            "1. Which of the following substances can be used as an electrical insulator?        (BECE 2002a Q11)",
+            "1. Which of the following devices requires the use of transistors in its operation?        (BECE 2011 Q30)",
+        options: ["Computer", "Electric heater", "Microphone", "Wall clock"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A computer uses transistors as electronic switches in its circuits to process and control electrical signals.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The majority charge carriers in a p-type semi-conductor are        (BECE 2015 Q36)",
+        options: ["electrons.", "holes.", "neutrons.", "protons."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In a p-type semiconductor, holes are the majority charge carriers while electrons are the minority charge carriers.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In an n-p-n transistor, the n-type collector is connected to the positive terminal of the battery thus making the        (BECE 2011 Q11)",
+        options: [
+          "base-collector junction reverse biased.",
+          "base-collector junction forward biased.",
+          "base-emitter junction reverse biased.",
+          "base-emitter junction forward biased."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In normal operation of an n-p-n transistor, the collector is connected to the positive terminal, making the base-collector junction reverse biased.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following statements about a transistor is correct?        (BECE 2010 Q23)",
+        options: [
+          "It can be used to amplify current.",
+          "It is similar to three diodes.",
+          "It consists of two leads only.",
+          "It has three junctions."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A transistor can be used to amplify a weak electrical signal or current.",
+      ),
+      QuizQuestion(
+        question:
+            "5. When the p-n junction of a transistor is reverse biased        (BECE 2012 Q5)",
+        options: [
+          "current flows from the p-type to the n-type.",
+          "no current flows from the p-type to the n-type.",
+          "conduction of current occurs.",
+          "current flows from the n-type to the p-type."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A reverse-biased p-n junction prevents the normal flow of current across the junction.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The arrow in the circuit symbol of either n-p-n or p-n-p is always on the        (BECE 2012 Q10)",
+        options: [
+          "base lead.",
+          "collector lead.",
+          "emitter lead.",
+          "receiver lead."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The arrow in a transistor circuit symbol is always drawn on the emitter lead.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A transistor is said to operate in an active region when        (BECE 2011 Q20)",
+        options: [
+          "one p-n junction is forward biased and the other is reverse biased.",
+          "base-emitter junction is reverse biased.",
+          "both p-n junctions are reverse biased.",
+          "base-collector junction is forward biased."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In the active region, the base-emitter junction is forward biased while the base-collector junction is reverse biased.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The lead of the transistor responsible for activation is the        (BECE 2012 Q40)",
+        options: ["amplifier.", "base.", "collector.", "emitter."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The base controls the operation of a transistor and is responsible for activating it.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following devices is made of semiconductor?        (BECE 2014 Q26)",
+        options: ["Capacitor", "Inductor", "Resistor", "Transistor"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A transistor is a semiconductor device commonly made from materials such as silicon.",
+      ),
+      QuizQuestion(
+        question:
+            "10. In electronic circuits, LEDs are used to indicate the absence or presence of        (BECE 2014 Q34)",
+        options: [
+          "emitter and collector.",
+          "electric current.",
+          "p-n junction.",
+          "voltage source."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An LED lights when electric current passes through it, so it can indicate the presence or absence of current.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The process of increasing the strength of a signal using a transistor is known as        (BECE 2015 Q7)",
+        options: ["amplification.", "biasing.", "doping.", "switching."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Amplification is the process of increasing the strength or magnitude of an electrical signal.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The number of p-n junctions in a transistor is        (BECE 2015 Q36)",
+        options: ["1.", "2.", "3.", "4."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A bipolar transistor has two p-n junctions: the base-emitter junction and the base-collector junction.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The major charge carriers in p-type semiconductors are        (BECE 2020 Q26)",
+        options: ["anions.", "electrons.", "holes.", "neutrons."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Holes are the majority charge carriers in a p-type semiconductor.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements about the base of a transistor are correct? The base is\n\n"
+            "I. made very thin.\n\n"
+            "II. made wide.\n\n"
+            "III. responsible for activating the transistor.\n\n"
+            "IV. made of n-type semiconductor.        (BECE 2021 Q34)",
+        options: [
+          "I and III only",
+          "II and IV only",
+          "I, III and IV only",
+          "II, III and IV only"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The base of a transistor is made very thin and it controls or activates the transistor. It is not always n-type because its type depends on whether the transistor is NPN or PNP.",
+      ),
+      QuizQuestion(
+        question:
+            "15. A capacitor is connected in a series circuit with LED, a battery and a switch. When the circuit is closed, the LED        (BECE 2022 Q7)",
+        options: [
+          "comes on and stays on.",
+          "flashes and goes off.",
+          "does not come on.",
+          "flashes and stays on."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When the switch is closed, current flows briefly while the capacitor charges, causing the LED to flash and then go off.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The base of the N-P-N transistor normally        (BECE 2023 Q33)",
+        options: [
+          "is a p-type semi conductor.",
+          "is undoped semi conductor.",
+          "have electrons as majority charge carriers.",
+          "is an n-type semi conductor."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An N-P-N transistor consists of a thin p-type semiconductor base placed between two n-type regions.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following is used to measure the potential difference across a resistor in an electrical circuit?        (BECE 1994 Q27)",
+        options: [
+          "A galvanometer",
+          "A rheostat",
+          "A meter bridge",
+          "A voltmeter"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is used to measure the potential difference or voltage across a component in an electrical circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following instruments is used in measuring current in an electric circuit?        (BECE 1995 Q33)",
+        options: ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter is the instrument used to measure electric current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The energy for lighting a torchlight comes from the        (BECE 1997 Q39)",
+        options: ["bulb", "cell", "filament", "glass", "switch"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The cell stores chemical energy and supplies the electrical energy needed to light the torch.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Calculate the voltage across a wire of resistance 4 ohms if 3 amperes of current is passed through it.        (BECE 1998 Q34)",
+        options: ["0.75 V", "1.00 V", "1.33 V", "7.00 V", "12.00 V"],
+        correctIndex: 4,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 3 A × 4 Ω = 12 V.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following substances can be used as an electrical insulator?        (BECE 2001 Q38)",
         options: ["Copper", "Graphite", "Plastic", "Zinc"],
         correctIndex: 2,
         difficulty: "Easy",
@@ -34556,30 +34789,21 @@ final Map<String, QuizModel> beceQuizData = {
       ),
       QuizQuestion(
         question:
-            "2. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the        (BECE 2005 Q3)",
-        options: ["earth wire", "lightning conductor", "fuse", "switch"],
-        correctIndex: 2,
+            "22. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the        (BECE 2005 Q3)",
+        options: ["earth wire", "fuse", "lightning conductor", "switch"],
+        correctIndex: 1,
         difficulty: "Easy",
         explanation:
-            "A fuse melts and opens the circuit when excessive current flows, thereby protecting the circuit and electrical appliances.",
+            "A fuse melts and opens the circuit when excessive current flows, protecting the circuit and appliances.",
       ),
       QuizQuestion(
         question:
-            "3. The instrument used to measure current in an electric circuit is the        (BECE 2001 Q38)",
-        options: ["ammeter", "anemometer", "barometer", "thermometer"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "An ammeter is the instrument used to measure electric current in a circuit.",
-      ),
-      QuizQuestion(
-        question:
-            "4. A fuse is connected in an electric circuit to        (BECE 2006 Q6)",
+            "23. A fuse is used in an electrical circuit to        (BECE 2005 Q5)",
         options: [
-          "prevent electric shock",
-          "protect appliances",
-          "provide more current",
-          "increase the heat generated"
+          "measure the energy used up.",
+          "protect appliances.",
+          "provide more current.",
+          "make sure current flows continuously."
         ],
         correctIndex: 1,
         difficulty: "Easy",
@@ -34588,45 +34812,45 @@ final Map<String, QuizModel> beceQuizData = {
       ),
       QuizQuestion(
         question:
-            "5. In electrical circuits, the component that protects appliances against very high currents is the        (BECE 2022 Q31)",
-        options: ["capacitor", "fuse", "resistor", "switch"],
+            "24. A fuse is connected in an electric circuit to        (BECE 2006 Q6)",
+        options: [
+          "prevent electric shock.",
+          "increase the current.",
+          "prevent current from increasing.",
+          "increase the heat generated."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects the circuit by interrupting the flow when the current rises above a safe value.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following conditions is not required for a current to flow through an electric circuit?        (BECE 2008 Q5)",
+        options: [
+          "The circuit should be closed.",
+          "A battery must be present.",
+          "There must be connecting wires.",
+          "A bulb must be connected in the circuit."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A bulb is not necessary for current to flow. A closed conducting path and a source of potential difference are required.",
+      ),
+      QuizQuestion(
+        question:
+            "26. In electrical circuits, the component that protects appliances against very high currents is the        (BECE 2009 Q2)",
+        options: ["capacitor.", "fuse.", "resistor.", "switch."],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-            "A fuse protects appliances by melting and interrupting the circuit when excessive current passes through it.",
+            "A fuse protects appliances by melting and breaking the circuit when an excessive current flows.",
       ),
       QuizQuestion(
         question:
-            "6. A rheostat is used in an electrical circuit in order to        (BECE 2017 Q5)",
-        options: [
-          "increase electric current only",
-          "decrease electric current only",
-          "keep electric current constant",
-          "increase and decrease electric current"
-        ],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "A rheostat is a variable resistor used to increase or decrease the current flowing through an electrical circuit.",
-      ),
-      QuizQuestion(
-        question:
-            "7. Which of the following conditions is not required for a current to flow through an electric circuit?        (BECE 2009 Q2)",
-        options: [
-          "The circuit should be closed",
-          "A battery must be present",
-          "There must be connecting wires",
-          "A bulb must be connected in the circuit"
-        ],
-        correctIndex: 3,
-        difficulty: "Medium",
-        explanation:
-            "A bulb is not essential for current to flow. A closed conducting path and a source of potential difference are required.",
-      ),
-      QuizQuestion(
-        question:
-            "8. In modern electrical wiring, the colour code for the live wire is        (BECE 2012 Q30)",
-        options: ["blue", "brown", "green", "greenish-yellow"],
+            "27. In modern electrical wirings the colour code for the live wire is        (BECE 2012 Q31)",
+        options: ["blue.", "brown.", "green.", "green and yellow."],
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
@@ -34634,94 +34858,1136 @@ final Map<String, QuizModel> beceQuizData = {
       ),
       QuizQuestion(
         question:
-            "9. Which of the following materials allows electric current to pass through easily?        (BECE 2013 Q16)",
+            "28. Which of the following materials allows electric current to pass through easily?        (BECE 2012 Q36)",
         options: ["Aluminium", "Carbon", "Glass", "Water"],
         correctIndex: 0,
         difficulty: "Easy",
         explanation:
-            "Aluminium is a metal and a good electrical conductor, so it allows electric current to pass through it easily.",
+            "Aluminium is a metal and a good conductor of electricity, so electric current passes through it easily.",
       ),
       QuizQuestion(
         question:
-            "10. Which of the following effects is not a result of illegal connection of electricity? It can        (BECE 2014 Q21)",
+            "29. Which of the following effects is not a result of illegal connection of electricity? It can        (BECE 2013 Q30)",
         options: [
-          "lead to fire outbreaks",
-          "lead to frequent power cut-offs",
-          "insulate the lines and make them safe to climb",
-          "cause damage to electrical appliances"
+          "lead to fire outbreak.",
+          "lead to frequent power cut-off.",
+          "increase the flow of current in the supply chain.",
+          "cause damage to electrical appliance."
         ],
         correctIndex: 2,
-        difficulty: "Medium",
-        explanation:
-            "Illegal electrical connections can cause fires, power interruptions and damage to appliances. They do not insulate power lines or make them safe to climb.",
-      ),
-      QuizQuestion(
-        question:
-            "11. What is the colour of the neutral wire in a three-pin plug?        (BECE 2016 Q5)",
-        options: ["blue", "brown", "green", "yellow"],
-        correctIndex: 0,
         difficulty: "Easy",
         explanation:
-            "The neutral wire in a modern three-pin plug is identified by the colour blue.",
+            "Illegal electrical connections may cause fires, power interruptions and damage to appliances, but increasing the flow of current in the supply chain is not regarded as one of the stated harmful effects.",
       ),
       QuizQuestion(
         question:
-            "12. The instrument used to measure current in an electric circuit is the        (BECE 2017 Q3)",
-        options: ["ammeter", "photometer", "thermometer", "voltmeter"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "An ammeter measures the amount of electric current flowing through a circuit.",
-      ),
-      QuizQuestion(
-        question:
-            "13. The colour of the neutral wire in an electrical circuit is        (BECE 2019 Q14)",
-        options: ["blue", "brown", "green", "yellow"],
-        correctIndex: 0,
-        difficulty: "Easy",
-        explanation:
-            "The neutral wire is coloured blue according to the modern electrical wiring colour code.",
-      ),
-      QuizQuestion(
-        question:
-            "14. The unit of potential difference is the        (BECE 2020 Q16)",
-        options: ["ampere", "watt", "ohm", "volt"],
-        correctIndex: 3,
-        difficulty: "Easy",
-        explanation:
-            "Potential difference is measured in volts using a voltmeter.",
-      ),
-      QuizQuestion(
-        question:
-            "15. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?        (BECE 2021 Q3)",
-        options: ["ammeter", "voltmeter", "ohmmeter", "galvanometer"],
+            "30. The importance of the fuse in an electrical circuit is to        (BECE 2014 Q38)",
+        options: [
+          "regulate the voltage.",
+          "prevent damage to electrical appliances.",
+          "alter the flow of current in the circuit.",
+          "minimize the use of current."
+        ],
         correctIndex: 1,
-        difficulty: "Medium",
+        difficulty: "Easy",
         explanation:
-            "A voltmeter is connected in parallel across a resistor or component to measure the potential difference across it.",
+            "A fuse prevents damage to electrical appliances by breaking the circuit when excessive current flows.",
       ),
       QuizQuestion(
         question:
-            "16. The current flowing through a resistor of resistance 10 Ω is 2.5 A. What is the potential difference between the terminals of the resistor?        (BECE 2021 Q7)",
-        options: ["1 V", "12.5 V", "25 V", "50 V"],
-        correctIndex: 2,
-        difficulty: "Medium",
+            "31. What is the colour of the neutral wire in a three-pin plug?        (BECE 2015 Q4)",
+        options: ["Blue", "Brown", "Green", "Yellow"],
+        correctIndex: 0,
+        difficulty: "Easy",
         explanation:
-            "Using Ohm's law, V = IR. Therefore, V = 2.5 A × 10 Ω = 25 V.",
+            "The neutral wire in modern electrical wiring is identified by the colour blue.",
       ),
       QuizQuestion(
         question:
-            "17. It is not advisable to use old electrical gadgets because they        (BECE 2022 Q12)",
+            "32. A rheostat is used in an electrical circuit in order to        (BECE 2016 Q5)",
         options: [
-          "are not efficient",
-          "are dangerous",
-          "produce sparks",
-          "waste energy"
+          "increase electric current only.",
+          "decrease electric current only.",
+          "keep electric current constant.",
+          "increase and decrease electric current."
         ],
         correctIndex: 3,
         difficulty: "Easy",
         explanation:
-            "Old electrical gadgets are often less energy-efficient and may consume more electricity than necessary, causing energy wastage.",
+            "A rheostat is a variable resistor used to increase or decrease the resistance and thereby control the current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The instrument used to measure current in an electric circuit is the        (BECE 2017 Q5)",
+        options: ["ammeter.", "photometer.", "thermometer.", "voltmeter."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter is used to measure electric current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The colour of the neutral wire in an electrical current is        (BECE 2017 Q8)",
+        options: ["blue.", "brown.", "green.", "yellow."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The neutral wire in modern electrical wiring is colour-coded blue.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The unit of potential difference is        (BECE 2018 Q33)",
+        options: ["ampere.", "watt.", "ohm.", "volt."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The SI unit of potential difference is the volt (V).",
+      ),
+      QuizQuestion(
+        question:
+            "36. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?        (BECE 2020 Q16)",
+        options: ["Ammeter", "Voltmeter", "Ohmmeter", "Galvanometer"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is connected in parallel across a resistor or other component to measure the potential difference across it.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The current flowing through a resistor of resistance 10 ohms is 2.5 A. What is the potential difference between the terminals of the resistor?        (BECE 2021 Q3)",
+        options: ["4 V", "12.5 V", "25 V", "50 V"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 2.5 A × 10 Ω = 25 V.",
+      ),
+      QuizQuestion(
+        question:
+            "38. The instrument used to measure potential difference across a resistor is        (BECE 2021 Q7)",
+        options: ["ammeter.", "barometer.", "hydrometer.", "voltmeter."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is used to measure the potential difference across a resistor.",
+      ),
+      QuizQuestion(
+        question:
+            "39. It is not advisable to use old electrical gadgets because they        (BECE 2021 Q26)",
+        options: [
+          "are not efficient.",
+          "are dangerous.",
+          "produce sparks.",
+          "waste energy."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Old or faulty electrical gadgets can become dangerous because damaged components or insulation may cause electric shock, fire or other hazards.",
+      ),
+      QuizQuestion(
+        question:
+            "40. The current in a resistor is 3 A. If the resistance of the resistor is 4 ohms, determine the potential difference across the resistor.        (BECE 2022 Q12)",
+        options: ["7.00 V", "1.33 V", "0.75 V", "12.00 V"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 3 A × 4 Ω = 12 V.",
+      ),
+      QuizQuestion(
+        question:
+            "41. An electric bulb is rated 0.5 A, 120 V. Determine the power produced when the bulb is turned on.        (BECE 2023 Q4)",
+        options: ["60 W", "30 W", "30 kW", "60 kW"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Power, P = VI = 120 V × 0.5 A = 60 W.",
+      ),
+      QuizQuestion(
+        question:
+            "42. The unit inscribed on the bulb measures its        (BECE 2024 Q14)",
+        options: ["workdone.", "electricity.", "power.", "energy."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The wattage written on an electric bulb indicates its electrical power rating.",
+      ),
+      QuizQuestion(
+        question: "43. The 50 W bulb is likely to        (BECE 2024 Q30)\n\n"
+            "I. increase the brightness in the room.\n\n"
+            "II. increase the amount of electricity consumed.\n\n"
+            "III. destroy the habitat of pests.",
+        options: [
+          "I and III only",
+          "I and II only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A 50 W bulb can increase the brightness in a room and also increase the amount of electrical energy consumed. It does not destroy the habitat of pests.",
+      ),
+    ],
+  ),
+   "Science JHS2 s4 ss2 - Basic Electronics & Electricity": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following devices requires the use of transistors in its operation?        (BECE 2011 Q30)",
+        options: ["Computer", "Electric heater", "Microphone", "Wall clock"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A computer uses transistors as electronic switches in its circuits to process and control electrical signals.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The majority charge carriers in a p-type semi-conductor are        (BECE 2015 Q36)",
+        options: ["electrons.", "holes.", "neutrons.", "protons."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In a p-type semiconductor, holes are the majority charge carriers while electrons are the minority charge carriers.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In an n-p-n transistor, the n-type collector is connected to the positive terminal of the battery thus making the        (BECE 2011 Q11)",
+        options: [
+          "base-collector junction reverse biased.",
+          "base-collector junction forward biased.",
+          "base-emitter junction reverse biased.",
+          "base-emitter junction forward biased."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In normal operation of an n-p-n transistor, the collector is connected to the positive terminal, making the base-collector junction reverse biased.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following statements about a transistor is correct?        (BECE 2010 Q23)",
+        options: [
+          "It can be used to amplify current.",
+          "It is similar to three diodes.",
+          "It consists of two leads only.",
+          "It has three junctions."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A transistor can be used to amplify a weak electrical signal or current.",
+      ),
+      QuizQuestion(
+        question:
+            "5. When the p-n junction of a transistor is reverse biased        (BECE 2012 Q5)",
+        options: [
+          "current flows from the p-type to the n-type.",
+          "no current flows from the p-type to the n-type.",
+          "conduction of current occurs.",
+          "current flows from the n-type to the p-type."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A reverse-biased p-n junction prevents the normal flow of current across the junction.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The arrow in the circuit symbol of either n-p-n or p-n-p is always on the        (BECE 2012 Q10)",
+        options: [
+          "base lead.",
+          "collector lead.",
+          "emitter lead.",
+          "receiver lead."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The arrow in a transistor circuit symbol is always drawn on the emitter lead.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A transistor is said to operate in an active region when        (BECE 2011 Q20)",
+        options: [
+          "one p-n junction is forward biased and the other is reverse biased.",
+          "base-emitter junction is reverse biased.",
+          "both p-n junctions are reverse biased.",
+          "base-collector junction is forward biased."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In the active region, the base-emitter junction is forward biased while the base-collector junction is reverse biased.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The lead of the transistor responsible for activation is the        (BECE 2012 Q40)",
+        options: ["amplifier.", "base.", "collector.", "emitter."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The base controls the operation of a transistor and is responsible for activating it.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following devices is made of semiconductor?        (BECE 2014 Q26)",
+        options: ["Capacitor", "Inductor", "Resistor", "Transistor"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A transistor is a semiconductor device commonly made from materials such as silicon.",
+      ),
+      QuizQuestion(
+        question:
+            "10. In electronic circuits, LEDs are used to indicate the absence or presence of        (BECE 2014 Q34)",
+        options: [
+          "emitter and collector.",
+          "electric current.",
+          "p-n junction.",
+          "voltage source."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An LED lights when electric current passes through it, so it can indicate the presence or absence of current.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The process of increasing the strength of a signal using a transistor is known as        (BECE 2015 Q7)",
+        options: ["amplification.", "biasing.", "doping.", "switching."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Amplification is the process of increasing the strength or magnitude of an electrical signal.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The number of p-n junctions in a transistor is        (BECE 2015 Q36)",
+        options: ["1.", "2.", "3.", "4."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A bipolar transistor has two p-n junctions: the base-emitter junction and the base-collector junction.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The major charge carriers in p-type semiconductors are        (BECE 2020 Q26)",
+        options: ["anions.", "electrons.", "holes.", "neutrons."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Holes are the majority charge carriers in a p-type semiconductor.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements about the base of a transistor are correct? The base is\n\n"
+            "I. made very thin.\n\n"
+            "II. made wide.\n\n"
+            "III. responsible for activating the transistor.\n\n"
+            "IV. made of n-type semiconductor.        (BECE 2021 Q34)",
+        options: [
+          "I and III only",
+          "II and IV only",
+          "I, III and IV only",
+          "II, III and IV only"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The base of a transistor is made very thin and it controls or activates the transistor. It is not always n-type because its type depends on whether the transistor is NPN or PNP.",
+      ),
+      QuizQuestion(
+        question:
+            "15. A capacitor is connected in a series circuit with LED, a battery and a switch. When the circuit is closed, the LED        (BECE 2022 Q7)",
+        options: [
+          "comes on and stays on.",
+          "flashes and goes off.",
+          "does not come on.",
+          "flashes and stays on."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When the switch is closed, current flows briefly while the capacitor charges, causing the LED to flash and then go off.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The base of the N-P-N transistor normally        (BECE 2023 Q33)",
+        options: [
+          "is a p-type semi conductor.",
+          "is undoped semi conductor.",
+          "have electrons as majority charge carriers.",
+          "is an n-type semi conductor."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An N-P-N transistor consists of a thin p-type semiconductor base placed between two n-type regions.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following is used to measure the potential difference across a resistor in an electrical circuit?        (BECE 1994 Q27)",
+        options: [
+          "A galvanometer",
+          "A rheostat",
+          "A meter bridge",
+          "A voltmeter"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is used to measure the potential difference or voltage across a component in an electrical circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following instruments is used in measuring current in an electric circuit?        (BECE 1995 Q33)",
+        options: ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter is the instrument used to measure electric current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The energy for lighting a torchlight comes from the        (BECE 1997 Q39)",
+        options: ["bulb", "cell", "filament", "glass", "switch"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The cell stores chemical energy and supplies the electrical energy needed to light the torch.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Calculate the voltage across a wire of resistance 4 ohms if 3 amperes of current is passed through it.        (BECE 1998 Q34)",
+        options: ["0.75 V", "1.00 V", "1.33 V", "7.00 V", "12.00 V"],
+        correctIndex: 4,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 3 A × 4 Ω = 12 V.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following substances can be used as an electrical insulator?        (BECE 2001 Q38)",
+        options: ["Copper", "Graphite", "Plastic", "Zinc"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Plastic is an electrical insulator because it does not allow electric current to pass through it easily.",
+      ),
+      QuizQuestion(
+        question:
+            "22. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the        (BECE 2005 Q3)",
+        options: ["earth wire", "fuse", "lightning conductor", "switch"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse melts and opens the circuit when excessive current flows, protecting the circuit and appliances.",
+      ),
+      QuizQuestion(
+        question:
+            "23. A fuse is used in an electrical circuit to        (BECE 2005 Q5)",
+        options: [
+          "measure the energy used up.",
+          "protect appliances.",
+          "provide more current.",
+          "make sure current flows continuously."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects electrical appliances by breaking the circuit when the current becomes dangerously high.",
+      ),
+      QuizQuestion(
+        question:
+            "24. A fuse is connected in an electric circuit to        (BECE 2006 Q6)",
+        options: [
+          "prevent electric shock.",
+          "increase the current.",
+          "prevent current from increasing.",
+          "increase the heat generated."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects the circuit by interrupting the flow when the current rises above a safe value.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following conditions is not required for a current to flow through an electric circuit?        (BECE 2008 Q5)",
+        options: [
+          "The circuit should be closed.",
+          "A battery must be present.",
+          "There must be connecting wires.",
+          "A bulb must be connected in the circuit."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A bulb is not necessary for current to flow. A closed conducting path and a source of potential difference are required.",
+      ),
+      QuizQuestion(
+        question:
+            "26. In electrical circuits, the component that protects appliances against very high currents is the        (BECE 2009 Q2)",
+        options: ["capacitor.", "fuse.", "resistor.", "switch."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects appliances by melting and breaking the circuit when an excessive current flows.",
+      ),
+      QuizQuestion(
+        question:
+            "27. In modern electrical wirings the colour code for the live wire is        (BECE 2012 Q31)",
+        options: ["blue.", "brown.", "green.", "green and yellow."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In modern electrical wiring, the live wire is identified by the colour brown.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following materials allows electric current to pass through easily?        (BECE 2012 Q36)",
+        options: ["Aluminium", "Carbon", "Glass", "Water"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Aluminium is a metal and a good conductor of electricity, so electric current passes through it easily.",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following effects is not a result of illegal connection of electricity? It can        (BECE 2013 Q30)",
+        options: [
+          "lead to fire outbreak.",
+          "lead to frequent power cut-off.",
+          "increase the flow of current in the supply chain.",
+          "cause damage to electrical appliance."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Illegal electrical connections may cause fires, power interruptions and damage to appliances, but increasing the flow of current in the supply chain is not regarded as one of the stated harmful effects.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The importance of the fuse in an electrical circuit is to        (BECE 2014 Q38)",
+        options: [
+          "regulate the voltage.",
+          "prevent damage to electrical appliances.",
+          "alter the flow of current in the circuit.",
+          "minimize the use of current."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse prevents damage to electrical appliances by breaking the circuit when excessive current flows.",
+      ),
+      QuizQuestion(
+        question:
+            "31. What is the colour of the neutral wire in a three-pin plug?        (BECE 2015 Q4)",
+        options: ["Blue", "Brown", "Green", "Yellow"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The neutral wire in modern electrical wiring is identified by the colour blue.",
+      ),
+      QuizQuestion(
+        question:
+            "32. A rheostat is used in an electrical circuit in order to        (BECE 2016 Q5)",
+        options: [
+          "increase electric current only.",
+          "decrease electric current only.",
+          "keep electric current constant.",
+          "increase and decrease electric current."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A rheostat is a variable resistor used to increase or decrease the resistance and thereby control the current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The instrument used to measure current in an electric circuit is the        (BECE 2017 Q5)",
+        options: ["ammeter.", "photometer.", "thermometer.", "voltmeter."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter is used to measure electric current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The colour of the neutral wire in an electrical current is        (BECE 2017 Q8)",
+        options: ["blue.", "brown.", "green.", "yellow."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The neutral wire in modern electrical wiring is colour-coded blue.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The unit of potential difference is        (BECE 2018 Q33)",
+        options: ["ampere.", "watt.", "ohm.", "volt."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The SI unit of potential difference is the volt (V).",
+      ),
+      QuizQuestion(
+        question:
+            "36. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?        (BECE 2020 Q16)",
+        options: ["Ammeter", "Voltmeter", "Ohmmeter", "Galvanometer"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is connected in parallel across a resistor or other component to measure the potential difference across it.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The current flowing through a resistor of resistance 10 ohms is 2.5 A. What is the potential difference between the terminals of the resistor?        (BECE 2021 Q3)",
+        options: ["4 V", "12.5 V", "25 V", "50 V"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 2.5 A × 10 Ω = 25 V.",
+      ),
+      QuizQuestion(
+        question:
+            "38. The instrument used to measure potential difference across a resistor is        (BECE 2021 Q7)",
+        options: ["ammeter.", "barometer.", "hydrometer.", "voltmeter."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is used to measure the potential difference across a resistor.",
+      ),
+      QuizQuestion(
+        question:
+            "39. It is not advisable to use old electrical gadgets because they        (BECE 2021 Q26)",
+        options: [
+          "are not efficient.",
+          "are dangerous.",
+          "produce sparks.",
+          "waste energy."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Old or faulty electrical gadgets can become dangerous because damaged components or insulation may cause electric shock, fire or other hazards.",
+      ),
+      QuizQuestion(
+        question:
+            "40. The current in a resistor is 3 A. If the resistance of the resistor is 4 ohms, determine the potential difference across the resistor.        (BECE 2022 Q12)",
+        options: ["7.00 V", "1.33 V", "0.75 V", "12.00 V"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 3 A × 4 Ω = 12 V.",
+      ),
+      QuizQuestion(
+        question:
+            "41. An electric bulb is rated 0.5 A, 120 V. Determine the power produced when the bulb is turned on.        (BECE 2023 Q4)",
+        options: ["60 W", "30 W", "30 kW", "60 kW"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Power, P = VI = 120 V × 0.5 A = 60 W.",
+      ),
+      QuizQuestion(
+        question:
+            "42. The unit inscribed on the bulb measures its        (BECE 2024 Q14)",
+        options: ["workdone.", "electricity.", "power.", "energy."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The wattage written on an electric bulb indicates its electrical power rating.",
+      ),
+      QuizQuestion(
+        question: "43. The 50 W bulb is likely to        (BECE 2024 Q30)\n\n"
+            "I. increase the brightness in the room.\n\n"
+            "II. increase the amount of electricity consumed.\n\n"
+            "III. destroy the habitat of pests.",
+        options: [
+          "I and III only",
+          "I and II only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A 50 W bulb can increase the brightness in a room and also increase the amount of electrical energy consumed. It does not destroy the habitat of pests.",
+      ),
+    ],
+  ),
+   "Science JHS3 s4 ss2 - Basic Electronics & Electricity": QuizModel(
+    audioPath: '',
+    questions: [
+      QuizQuestion(
+        question:
+            "1. Which of the following devices requires the use of transistors in its operation?        (BECE 2011 Q30)",
+        options: ["Computer", "Electric heater", "Microphone", "Wall clock"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A computer uses transistors as electronic switches in its circuits to process and control electrical signals.",
+      ),
+      QuizQuestion(
+        question:
+            "2. The majority charge carriers in a p-type semi-conductor are        (BECE 2015 Q36)",
+        options: ["electrons.", "holes.", "neutrons.", "protons."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In a p-type semiconductor, holes are the majority charge carriers while electrons are the minority charge carriers.",
+      ),
+      QuizQuestion(
+        question:
+            "3. In an n-p-n transistor, the n-type collector is connected to the positive terminal of the battery thus making the        (BECE 2011 Q11)",
+        options: [
+          "base-collector junction reverse biased.",
+          "base-collector junction forward biased.",
+          "base-emitter junction reverse biased.",
+          "base-emitter junction forward biased."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In normal operation of an n-p-n transistor, the collector is connected to the positive terminal, making the base-collector junction reverse biased.",
+      ),
+      QuizQuestion(
+        question:
+            "4. Which of the following statements about a transistor is correct?        (BECE 2010 Q23)",
+        options: [
+          "It can be used to amplify current.",
+          "It is similar to three diodes.",
+          "It consists of two leads only.",
+          "It has three junctions."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A transistor can be used to amplify a weak electrical signal or current.",
+      ),
+      QuizQuestion(
+        question:
+            "5. When the p-n junction of a transistor is reverse biased        (BECE 2012 Q5)",
+        options: [
+          "current flows from the p-type to the n-type.",
+          "no current flows from the p-type to the n-type.",
+          "conduction of current occurs.",
+          "current flows from the n-type to the p-type."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A reverse-biased p-n junction prevents the normal flow of current across the junction.",
+      ),
+      QuizQuestion(
+        question:
+            "6. The arrow in the circuit symbol of either n-p-n or p-n-p is always on the        (BECE 2012 Q10)",
+        options: [
+          "base lead.",
+          "collector lead.",
+          "emitter lead.",
+          "receiver lead."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The arrow in a transistor circuit symbol is always drawn on the emitter lead.",
+      ),
+      QuizQuestion(
+        question:
+            "7. A transistor is said to operate in an active region when        (BECE 2011 Q20)",
+        options: [
+          "one p-n junction is forward biased and the other is reverse biased.",
+          "base-emitter junction is reverse biased.",
+          "both p-n junctions are reverse biased.",
+          "base-collector junction is forward biased."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "In the active region, the base-emitter junction is forward biased while the base-collector junction is reverse biased.",
+      ),
+      QuizQuestion(
+        question:
+            "8. The lead of the transistor responsible for activation is the        (BECE 2012 Q40)",
+        options: ["amplifier.", "base.", "collector.", "emitter."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The base controls the operation of a transistor and is responsible for activating it.",
+      ),
+      QuizQuestion(
+        question:
+            "9. Which of the following devices is made of semiconductor?        (BECE 2014 Q26)",
+        options: ["Capacitor", "Inductor", "Resistor", "Transistor"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A transistor is a semiconductor device commonly made from materials such as silicon.",
+      ),
+      QuizQuestion(
+        question:
+            "10. In electronic circuits, LEDs are used to indicate the absence or presence of        (BECE 2014 Q34)",
+        options: [
+          "emitter and collector.",
+          "electric current.",
+          "p-n junction.",
+          "voltage source."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An LED lights when electric current passes through it, so it can indicate the presence or absence of current.",
+      ),
+      QuizQuestion(
+        question:
+            "11. The process of increasing the strength of a signal using a transistor is known as        (BECE 2015 Q7)",
+        options: ["amplification.", "biasing.", "doping.", "switching."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Amplification is the process of increasing the strength or magnitude of an electrical signal.",
+      ),
+      QuizQuestion(
+        question:
+            "12. The number of p-n junctions in a transistor is        (BECE 2015 Q36)",
+        options: ["1.", "2.", "3.", "4."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A bipolar transistor has two p-n junctions: the base-emitter junction and the base-collector junction.",
+      ),
+      QuizQuestion(
+        question:
+            "13. The major charge carriers in p-type semiconductors are        (BECE 2020 Q26)",
+        options: ["anions.", "electrons.", "holes.", "neutrons."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Holes are the majority charge carriers in a p-type semiconductor.",
+      ),
+      QuizQuestion(
+        question:
+            "14. Which of the following statements about the base of a transistor are correct? The base is\n\n"
+            "I. made very thin.\n\n"
+            "II. made wide.\n\n"
+            "III. responsible for activating the transistor.\n\n"
+            "IV. made of n-type semiconductor.        (BECE 2021 Q34)",
+        options: [
+          "I and III only",
+          "II and IV only",
+          "I, III and IV only",
+          "II, III and IV only"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The base of a transistor is made very thin and it controls or activates the transistor. It is not always n-type because its type depends on whether the transistor is NPN or PNP.",
+      ),
+      QuizQuestion(
+        question:
+            "15. A capacitor is connected in a series circuit with LED, a battery and a switch. When the circuit is closed, the LED        (BECE 2022 Q7)",
+        options: [
+          "comes on and stays on.",
+          "flashes and goes off.",
+          "does not come on.",
+          "flashes and stays on."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "When the switch is closed, current flows briefly while the capacitor charges, causing the LED to flash and then go off.",
+      ),
+      QuizQuestion(
+        question:
+            "16. The base of the N-P-N transistor normally        (BECE 2023 Q33)",
+        options: [
+          "is a p-type semi conductor.",
+          "is undoped semi conductor.",
+          "have electrons as majority charge carriers.",
+          "is an n-type semi conductor."
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An N-P-N transistor consists of a thin p-type semiconductor base placed between two n-type regions.",
+      ),
+      QuizQuestion(
+        question:
+            "17. Which of the following is used to measure the potential difference across a resistor in an electrical circuit?        (BECE 1994 Q27)",
+        options: [
+          "A galvanometer",
+          "A rheostat",
+          "A meter bridge",
+          "A voltmeter"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is used to measure the potential difference or voltage across a component in an electrical circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "18. Which of the following instruments is used in measuring current in an electric circuit?        (BECE 1995 Q33)",
+        options: ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter is the instrument used to measure electric current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "19. The energy for lighting a torchlight comes from the        (BECE 1997 Q39)",
+        options: ["bulb", "cell", "filament", "glass", "switch"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "The cell stores chemical energy and supplies the electrical energy needed to light the torch.",
+      ),
+      QuizQuestion(
+        question:
+            "20. Calculate the voltage across a wire of resistance 4 ohms if 3 amperes of current is passed through it.        (BECE 1998 Q34)",
+        options: ["0.75 V", "1.00 V", "1.33 V", "7.00 V", "12.00 V"],
+        correctIndex: 4,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 3 A × 4 Ω = 12 V.",
+      ),
+      QuizQuestion(
+        question:
+            "21. Which of the following substances can be used as an electrical insulator?        (BECE 2001 Q38)",
+        options: ["Copper", "Graphite", "Plastic", "Zinc"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Plastic is an electrical insulator because it does not allow electric current to pass through it easily.",
+      ),
+      QuizQuestion(
+        question:
+            "22. A safety device which opens an electric circuit to prevent too much current from passing through the circuit is the        (BECE 2005 Q3)",
+        options: ["earth wire", "fuse", "lightning conductor", "switch"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse melts and opens the circuit when excessive current flows, protecting the circuit and appliances.",
+      ),
+      QuizQuestion(
+        question:
+            "23. A fuse is used in an electrical circuit to        (BECE 2005 Q5)",
+        options: [
+          "measure the energy used up.",
+          "protect appliances.",
+          "provide more current.",
+          "make sure current flows continuously."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects electrical appliances by breaking the circuit when the current becomes dangerously high.",
+      ),
+      QuizQuestion(
+        question:
+            "24. A fuse is connected in an electric circuit to        (BECE 2006 Q6)",
+        options: [
+          "prevent electric shock.",
+          "increase the current.",
+          "prevent current from increasing.",
+          "increase the heat generated."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects the circuit by interrupting the flow when the current rises above a safe value.",
+      ),
+      QuizQuestion(
+        question:
+            "25. Which of the following conditions is not required for a current to flow through an electric circuit?        (BECE 2008 Q5)",
+        options: [
+          "The circuit should be closed.",
+          "A battery must be present.",
+          "There must be connecting wires.",
+          "A bulb must be connected in the circuit."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A bulb is not necessary for current to flow. A closed conducting path and a source of potential difference are required.",
+      ),
+      QuizQuestion(
+        question:
+            "26. In electrical circuits, the component that protects appliances against very high currents is the        (BECE 2009 Q2)",
+        options: ["capacitor.", "fuse.", "resistor.", "switch."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse protects appliances by melting and breaking the circuit when an excessive current flows.",
+      ),
+      QuizQuestion(
+        question:
+            "27. In modern electrical wirings the colour code for the live wire is        (BECE 2012 Q31)",
+        options: ["blue.", "brown.", "green.", "green and yellow."],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "In modern electrical wiring, the live wire is identified by the colour brown.",
+      ),
+      QuizQuestion(
+        question:
+            "28. Which of the following materials allows electric current to pass through easily?        (BECE 2012 Q36)",
+        options: ["Aluminium", "Carbon", "Glass", "Water"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "Aluminium is a metal and a good conductor of electricity, so electric current passes through it easily.",
+      ),
+      QuizQuestion(
+        question:
+            "29. Which of the following effects is not a result of illegal connection of electricity? It can        (BECE 2013 Q30)",
+        options: [
+          "lead to fire outbreak.",
+          "lead to frequent power cut-off.",
+          "increase the flow of current in the supply chain.",
+          "cause damage to electrical appliance."
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Illegal electrical connections may cause fires, power interruptions and damage to appliances, but increasing the flow of current in the supply chain is not regarded as one of the stated harmful effects.",
+      ),
+      QuizQuestion(
+        question:
+            "30. The importance of the fuse in an electrical circuit is to        (BECE 2014 Q38)",
+        options: [
+          "regulate the voltage.",
+          "prevent damage to electrical appliances.",
+          "alter the flow of current in the circuit.",
+          "minimize the use of current."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A fuse prevents damage to electrical appliances by breaking the circuit when excessive current flows.",
+      ),
+      QuizQuestion(
+        question:
+            "31. What is the colour of the neutral wire in a three-pin plug?        (BECE 2015 Q4)",
+        options: ["Blue", "Brown", "Green", "Yellow"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The neutral wire in modern electrical wiring is identified by the colour blue.",
+      ),
+      QuizQuestion(
+        question:
+            "32. A rheostat is used in an electrical circuit in order to        (BECE 2016 Q5)",
+        options: [
+          "increase electric current only.",
+          "decrease electric current only.",
+          "keep electric current constant.",
+          "increase and decrease electric current."
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A rheostat is a variable resistor used to increase or decrease the resistance and thereby control the current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "33. The instrument used to measure current in an electric circuit is the        (BECE 2017 Q5)",
+        options: ["ammeter.", "photometer.", "thermometer.", "voltmeter."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "An ammeter is used to measure electric current in a circuit.",
+      ),
+      QuizQuestion(
+        question:
+            "34. The colour of the neutral wire in an electrical current is        (BECE 2017 Q8)",
+        options: ["blue.", "brown.", "green.", "yellow."],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "The neutral wire in modern electrical wiring is colour-coded blue.",
+      ),
+      QuizQuestion(
+        question:
+            "35. The unit of potential difference is        (BECE 2018 Q33)",
+        options: ["ampere.", "watt.", "ohm.", "volt."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "The SI unit of potential difference is the volt (V).",
+      ),
+      QuizQuestion(
+        question:
+            "36. Which of the following instruments is connected in parallel across a resistor in an electrical circuit?        (BECE 2020 Q16)",
+        options: ["Ammeter", "Voltmeter", "Ohmmeter", "Galvanometer"],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is connected in parallel across a resistor or other component to measure the potential difference across it.",
+      ),
+      QuizQuestion(
+        question:
+            "37. The current flowing through a resistor of resistance 10 ohms is 2.5 A. What is the potential difference between the terminals of the resistor?        (BECE 2021 Q3)",
+        options: ["4 V", "12.5 V", "25 V", "50 V"],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 2.5 A × 10 Ω = 25 V.",
+      ),
+      QuizQuestion(
+        question:
+            "38. The instrument used to measure potential difference across a resistor is        (BECE 2021 Q7)",
+        options: ["ammeter.", "barometer.", "hydrometer.", "voltmeter."],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "A voltmeter is used to measure the potential difference across a resistor.",
+      ),
+      QuizQuestion(
+        question:
+            "39. It is not advisable to use old electrical gadgets because they        (BECE 2021 Q26)",
+        options: [
+          "are not efficient.",
+          "are dangerous.",
+          "produce sparks.",
+          "waste energy."
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Old or faulty electrical gadgets can become dangerous because damaged components or insulation may cause electric shock, fire or other hazards.",
+      ),
+      QuizQuestion(
+        question:
+            "40. The current in a resistor is 3 A. If the resistance of the resistor is 4 ohms, determine the potential difference across the resistor.        (BECE 2022 Q12)",
+        options: ["7.00 V", "1.33 V", "0.75 V", "12.00 V"],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation: "Using Ohm's law, V = IR = 3 A × 4 Ω = 12 V.",
+      ),
+      QuizQuestion(
+        question:
+            "41. An electric bulb is rated 0.5 A, 120 V. Determine the power produced when the bulb is turned on.        (BECE 2023 Q4)",
+        options: ["60 W", "30 W", "30 kW", "60 kW"],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation: "Power, P = VI = 120 V × 0.5 A = 60 W.",
+      ),
+      QuizQuestion(
+        question:
+            "42. The unit inscribed on the bulb measures its        (BECE 2024 Q14)",
+        options: ["workdone.", "electricity.", "power.", "energy."],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "The wattage written on an electric bulb indicates its electrical power rating.",
+      ),
+      QuizQuestion(
+        question: "43. The 50 W bulb is likely to        (BECE 2024 Q30)\n\n"
+            "I. increase the brightness in the room.\n\n"
+            "II. increase the amount of electricity consumed.\n\n"
+            "III. destroy the habitat of pests.",
+        options: [
+          "I and III only",
+          "I and II only",
+          "II and III only",
+          "I, II and III"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "A 50 W bulb can increase the brightness in a room and also increase the amount of electrical energy consumed. It does not destroy the habitat of pests.",
       ),
     ],
   ),
