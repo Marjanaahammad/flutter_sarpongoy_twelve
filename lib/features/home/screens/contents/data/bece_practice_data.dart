@@ -10357,6 +10357,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+  
   "Science JHS1 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production":PracticeModel(
     audioPath: '',
     questions: [
@@ -11425,7 +11426,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Science JHS3 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production":PracticeModel(
     audioPath: '',
     questions: [
@@ -12295,8 +12295,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS1 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
-      PracticeModel(
+  "Science JHS1 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -12788,9 +12787,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
-  "Science JHS2 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
-      PracticeModel(
+  "Science JHS2 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -13282,9 +13279,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
-  "Science JHS3 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
-      PracticeModel(
+  "Science JHS3 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -13851,8 +13846,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS1 s3 ss3 - Interactions in Ecosystems & Environmental Factors":
-      PracticeModel(
+  "Science JHS1 s3 ss3 - Interactions in Ecosystems & Environmental Factors": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14194,8 +14188,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS2 s3 ss3 - Interactions in Ecosystems & Environmental Factors":
-      PracticeModel(
+  "Science JHS2 s3 ss3 - Interactions in Ecosystems & Environmental Factors":PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -14537,8 +14530,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS3 s3 ss3 - Interactions in Ecosystems & Environmental Factors":
-      PracticeModel(
+  "Science JHS3 s3 ss3 - Interactions in Ecosystems & Environmental Factors": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
@@ -15848,228 +15840,1477 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS1 s4 ss2 - Electricity & Electronics": PracticeModel(
+  "Science JHS1 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1 (BECE 2010 Q2(a))\n\n"
-            "What is a fuse?",
-        answer: "⦿ Answer:\n\n"
-            "A fuse is a thin wire or metal strip that melts and breaks the circuit when too much current flows through it.",
-        explanation: "",
-      ),
+scenario:
+"(a) What is a transistor? (BECE 2012 Q4a(i))",
+answer: "Correct Answer:\n"
+"⦿ A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n"
+"⦿ It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n"
+"⦿ It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(b) Give two uses of a transistor. (BECE 2012 Q4a(ii))",
+answer: "Correct Answer:\n"
+"⦿ Signal Amplification: It boosts weak incoming alternating signals (such as sound or radio frequencies) into stronger output signals without altering their original frequency profile.\n"
+"⦿ Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n"
+"⦿ Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(c) Name two types of transistors. (BECE 2013 Q6c(i))",
+answer: "Correct Answer:\n"
+"⦿ NPN Bipolar Junction Transistor\n"
+"⦿ PNP Bipolar Junction Transistor",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(d) Mention the junctions of a transistor. (BECE 2015 Q3a(i))",
+answer: "Correct Answer:\n"
+"⦿ Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n"
+"⦿ Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(e) Explain the term forward-bias of a p-n junction diode. (BECE 2017 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n"
+"⦿ The external potential opposes and overcomes the internal barrier potential of the depletion region.\n"
+"⦿ This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(f) What is the role of a capacitor in a circuit? (BECE 2020 Q6b(i))",
+answer: "Correct Answer:\n"
+"⦿ Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n"
+"⦿ Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n"
+"⦿ Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(g) (i) Explain the term active region as applied to transistors. (ii) State what happens in the active region of a transistor. (BECE 2022 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ Active Region Definition: The active region represents a operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n"
+"⦿ Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(h) (i) Define the term light emitting diode (LED). (ii) Mention two devices that use LED in their operation. (BECE 2024 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
+"⦿ Utilizing Devices:\n"
+" - Digital displays on electronic appliances and wristwatches\n"
+" - Visual traffic signals and pedestrian crossing lights\n"
+" - Smartphone screen backlights and camera indicator lamps\n"
+" - Energy-efficient indoor and outdoor illumination lamps",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(a) (i) What is an electrical insulator? (ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper. (BECE 1994 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
+"⦿ Static Attraction Mechanism:\n"
+" - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+" - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+" - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(b) (i) What is an electrical insulator? (ii) Mention three examples of insulator. (iii) Give two characteristics of an insulator that explain its behavior. (BECE 2003 Q3c)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n"
+"⦿ Examples:\n"
+" - Vulcanized rubber\n"
+" - Tempered glass\n"
+" - Dry wood\n"
+" - Rigid plastic (PVC)\n"
+" - Porcelain ceramic\n"
+"⦿ Key Behavioral Characteristics:\n"
+" - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+" - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(c) Give two differences between an electrical insulator and a conductor. (BECE 2006 Q5c(i) & BECE 2012 Q3b(i))",
+answer: "Correct Answer:\n"
+"⦿ Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n"
+"⦿ Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n"
+"⦿ Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(d) (i) What is a fuse? (ii) Explain why a fuse is used in an electrical circuit. (BECE 2010 Q5d)",
+answer: "Correct Answer:\n"
+"⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
+"⦿ Purpose and Function:\n"
+" - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+" - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+" - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(e) State two effects of illegal electrical connections in the home. (BECE 2012 Q3b(ii))",
+answer: "Correct Answer:\n"
+"⦿ Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n"
+"⦿ System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Plug Terminal Representations:\n"
+" - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+" - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+" - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+"⦿ Function of Fuse Box:\n"
+" - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+" - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(g) (i) What is an electrical conductor? (ii) List two substances that are insulators. (BECE 2015 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
+"⦿ Insulating Substances:\n"
+" - Pure dry rubber\n"
+" - Solid plastic polymers\n"
+" - Refined glass\n"
+" - Dry timber",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(h) State one substance that is an insulator. (BECE 2022 Q5d(ii))",
+answer: "Correct Answer:\n"
+"⦿ Dry wood (or rubber, glass, ceramic, plastic).",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(i) (i) Explain the term potential difference. (ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor. (BECE 2023 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Potential Difference Definition: Potential difference across two points in a circuit is the amount of work energy transferred per unit charge as electric charge moves between those two designated points.\n"
+"⦿ Step-by-Step Calculation:\n"
+"⦿ Step 1: Identify given parameters:\n"
+"⦿ Voltage (V)=250 V\n"
+"⦿ Resistance (R)=100 Ω\n"
+"⦿ Step 2: Apply Ohm's Law relation:\n"
+r"⦿ V=I×R⟹I=\frac{V}{R}"
+    "\n"
+"⦿ Step 3: Substitute values and calculate:\n"
+r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+    "\n"
+"⦿ The electric current flowing through the resistor is 2.5 A.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(j) State two household appliances that have fuse. (BECE 2023 Q3c(ii))",
+answer: "Correct Answer:\n"
+"⦿ Electric iron\n"
+"⦿ Microwave oven\n"
+"⦿ Refrigerator / Freezer unit\n"
+"⦿ Electric kettle\n"
+"⦿ Washing machine\n"
+"⦿ Television set",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(k) A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter. (i) Calculate the effective resistance in the circuit. (ii) Calculate the total current flowing through the closed circuit. (BECE 2024 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ (i) Effective Resistance Calculation:\n"
+"⦿ Step 1: State the formula for two parallel resistors:\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+    "\n"
+r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+"\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+    "\n"
+r"⦿ Step 3: Invert to solve for total resistance R_T:"
+    "\n"
+r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+    "\n"
+"⦿ (ii) Total Circuit Current Calculation:\n"
+"⦿ Step 1: State Ohm's Law for the whole circuit:\n"
+r"⦿ I=\frac{V}{R_T}"
+    "\n"
+r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
+    "\n"
+r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
+"\n"
+"⦿ The total current flowing through the closed circuit is 2.7 A.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
-            "(a) What is an electrical conductor?\n\n"
-            "(b) List two substances that are insulators.",
-        answer: "⦿ (a) Electrical conductor:\n\n"
-            "An electrical conductor is a material that allows electric current to flow through it easily.\n\n"
-            "⦿ (b) Substances that are insulators:\n\n"
-            "• Paper\n\n"
-            "• Rubber",
-        explanation: "",
-      ),
+scenario:
+"(a) What is a transistor? (BECE 2012 Q4a(i))",
+answer: "Correct Answer:\n"
+"⦿ A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n"
+"⦿ It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n"
+"⦿ It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(b) Give two uses of a transistor. (BECE 2012 Q4a(ii))",
+answer: "Correct Answer:\n"
+"⦿ Signal Amplification: It boosts weak incoming alternating signals (such as sound or radio frequencies) into stronger output signals without altering their original frequency profile.\n"
+"⦿ Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n"
+"⦿ Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(c) Name two types of transistors. (BECE 2013 Q6c(i))",
+answer: "Correct Answer:\n"
+"⦿ NPN Bipolar Junction Transistor\n"
+"⦿ PNP Bipolar Junction Transistor",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(d) Mention the junctions of a transistor. (BECE 2015 Q3a(i))",
+answer: "Correct Answer:\n"
+"⦿ Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n"
+"⦿ Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(e) Explain the term forward-bias of a p-n junction diode. (BECE 2017 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n"
+"⦿ The external potential opposes and overcomes the internal barrier potential of the depletion region.\n"
+"⦿ This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(f) What is the role of a capacitor in a circuit? (BECE 2020 Q6b(i))",
+answer: "Correct Answer:\n"
+"⦿ Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n"
+"⦿ Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n"
+"⦿ Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(g) (i) Explain the term active region as applied to transistors. (ii) State what happens in the active region of a transistor. (BECE 2022 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ Active Region Definition: The active region represents a operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n"
+"⦿ Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(h) (i) Define the term light emitting diode (LED). (ii) Mention two devices that use LED in their operation. (BECE 2024 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
+"⦿ Utilizing Devices:\n"
+" - Digital displays on electronic appliances and wristwatches\n"
+" - Visual traffic signals and pedestrian crossing lights\n"
+" - Smartphone screen backlights and camera indicator lamps\n"
+" - Energy-efficient indoor and outdoor illumination lamps",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(a) (i) What is an electrical insulator? (ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper. (BECE 1994 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
+"⦿ Static Attraction Mechanism:\n"
+" - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+" - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+" - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(b) (i) What is an electrical insulator? (ii) Mention three examples of insulator. (iii) Give two characteristics of an insulator that explain its behavior. (BECE 2003 Q3c)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n"
+"⦿ Examples:\n"
+" - Vulcanized rubber\n"
+" - Tempered glass\n"
+" - Dry wood\n"
+" - Rigid plastic (PVC)\n"
+" - Porcelain ceramic\n"
+"⦿ Key Behavioral Characteristics:\n"
+" - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+" - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(c) Give two differences between an electrical insulator and a conductor. (BECE 2006 Q5c(i) & BECE 2012 Q3b(i))",
+answer: "Correct Answer:\n"
+"⦿ Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n"
+"⦿ Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n"
+"⦿ Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(d) (i) What is a fuse? (ii) Explain why a fuse is used in an electrical circuit. (BECE 2010 Q5d)",
+answer: "Correct Answer:\n"
+"⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
+"⦿ Purpose and Function:\n"
+" - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+" - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+" - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(e) State two effects of illegal electrical connections in the home. (BECE 2012 Q3b(ii))",
+answer: "Correct Answer:\n"
+"⦿ Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n"
+"⦿ System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Plug Terminal Representations:\n"
+" - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+" - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+" - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+"⦿ Function of Fuse Box:\n"
+" - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+" - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(g) (i) What is an electrical conductor? (ii) List two substances that are insulators. (BECE 2015 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
+"⦿ Insulating Substances:\n"
+" - Pure dry rubber\n"
+" - Solid plastic polymers\n"
+" - Refined glass\n"
+" - Dry timber",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(h) State one substance that is an insulator. (BECE 2022 Q5d(ii))",
+answer: "Correct Answer:\n"
+"⦿ Dry wood (or rubber, glass, ceramic, plastic).",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(i) (i) Explain the term potential difference. (ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor. (BECE 2023 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Potential Difference Definition: Potential difference across two points in a circuit is the amount of work energy transferred per unit charge as electric charge moves between those two designated points.\n"
+"⦿ Step-by-Step Calculation:\n"
+"⦿ Step 1: Identify given parameters:\n"
+"⦿ Voltage (V)=250 V\n"
+"⦿ Resistance (R)=100 Ω\n"
+"⦿ Step 2: Apply Ohm's Law relation:\n"
+r"⦿ V=I×R⟹I=\frac{V}{R}"
+    "\n"
+"⦿ Step 3: Substitute values and calculate:\n"
+r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+    "\n"
+"⦿ The electric current flowing through the resistor is 2.5 A.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(j) State two household appliances that have fuse. (BECE 2023 Q3c(ii))",
+answer: "Correct Answer:\n"
+"⦿ Electric iron\n"
+"⦿ Microwave oven\n"
+"⦿ Refrigerator / Freezer unit\n"
+"⦿ Electric kettle\n"
+"⦿ Washing machine\n"
+"⦿ Television set",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(k) A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter. (i) Calculate the effective resistance in the circuit. (ii) Calculate the total current flowing through the closed circuit. (BECE 2024 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ (i) Effective Resistance Calculation:\n"
+"⦿ Step 1: State the formula for two parallel resistors:\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+    "\n"
+r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+"\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+    "\n"
+r"⦿ Step 3: Invert to solve for total resistance R_T:"
+    "\n"
+r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+    "\n"
+"⦿ (ii) Total Circuit Current Calculation:\n"
+"⦿ Step 1: State Ohm's Law for the whole circuit:\n"
+r"⦿ I=\frac{V}{R_T}"
+    "\n"
+r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
+    "\n"
+r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
+"\n"
+"⦿ The total current flowing through the closed circuit is 2.7 A.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2023 Q2(a))\n\n"
-            "(a) What is the importance of a fuse in an electrical appliance?\n\n"
-            "(b) State two household appliances that have a fuse.",
-        answer: "⦿ (a) Importance of a fuse:\n\n"
-            "A fuse protects an electrical appliance from damage and prevents electrical fires by melting and cutting off excessive current.\n\n"
-            "⦿ (b) Household appliances that have a fuse:\n\n"
-            "• Microwave\n\n"
-            "• Television",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2023 Q3(d))\n\n"
-            "Explain the term potential difference.",
-        answer: "⦿ Answer:\n\n"
-            "Potential difference is the amount of work done to move a unit charge from one point to another in an electrical circuit.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2012 Q4(a))\n\n"
-            "Give two uses of a transistor.",
-        answer: "⦿ Uses of a transistor:\n\n"
-            "• Signal amplification: It is used to amplify weak electrical signals.\n\n"
-            "• Electronic switching: It acts as an electronic switch in digital circuits.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2013 Q4(c))\n\n"
-            "Name two types of transistors.",
-        answer: "⦿ Types of transistors:\n\n"
-            "• NPN transistor\n\n"
-            "• PNP transistor",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2020 Q4(d)(ii))\n\n"
-            "What is the role of a capacitor in a circuit?",
-        answer: "⦿ Answer:\n\n"
-            "A capacitor stores electrical energy and releases it when needed. It can also be used to smooth current or voltage fluctuations in a circuit.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 8 (BECE 2022 Q2(b))\n\n"
-            "(a) Explain the term active region as applied to transistors.\n\n"
-            "(b) State what happens in the active region of a transistor.",
-        answer: "⦿ (a) Active region:\n\n"
-            "The active region is the operating region of a transistor in which the base-emitter junction is forward biased and the base-collector junction is reverse biased.\n\n"
-            "⦿ (b) What happens in the active region:\n\n"
-            "The transistor behaves as an amplifier in the active region.",
-        explanation: "",
-      ),
+scenario:
+"(a) What is a transistor? (BECE 2012 Q4a(i))",
+answer: "Correct Answer:\n"
+"⦿ A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n"
+"⦿ It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n"
+"⦿ It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(b) Give two uses of a transistor. (BECE 2012 Q4a(ii))",
+answer: "Correct Answer:\n"
+"⦿ Signal Amplification: It boosts weak incoming alternating signals (such as sound or radio frequencies) into stronger output signals without altering their original frequency profile.\n"
+"⦿ Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n"
+"⦿ Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(c) Name two types of transistors. (BECE 2013 Q6c(i))",
+answer: "Correct Answer:\n"
+"⦿ NPN Bipolar Junction Transistor\n"
+"⦿ PNP Bipolar Junction Transistor",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(d) Mention the junctions of a transistor. (BECE 2015 Q3a(i))",
+answer: "Correct Answer:\n"
+"⦿ Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n"
+"⦿ Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(e) Explain the term forward-bias of a p-n junction diode. (BECE 2017 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n"
+"⦿ The external potential opposes and overcomes the internal barrier potential of the depletion region.\n"
+"⦿ This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(f) What is the role of a capacitor in a circuit? (BECE 2020 Q6b(i))",
+answer: "Correct Answer:\n"
+"⦿ Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n"
+"⦿ Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n"
+"⦿ Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(g) (i) Explain the term active region as applied to transistors. (ii) State what happens in the active region of a transistor. (BECE 2022 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ Active Region Definition: The active region represents a operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n"
+"⦿ Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(h) (i) Define the term light emitting diode (LED). (ii) Mention two devices that use LED in their operation. (BECE 2024 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
+"⦿ Utilizing Devices:\n"
+" - Digital displays on electronic appliances and wristwatches\n"
+" - Visual traffic signals and pedestrian crossing lights\n"
+" - Smartphone screen backlights and camera indicator lamps\n"
+" - Energy-efficient indoor and outdoor illumination lamps",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(a) (i) What is an electrical insulator? (ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper. (BECE 1994 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
+"⦿ Static Attraction Mechanism:\n"
+" - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+" - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+" - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(b) (i) What is an electrical insulator? (ii) Mention three examples of insulator. (iii) Give two characteristics of an insulator that explain its behavior. (BECE 2003 Q3c)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n"
+"⦿ Examples:\n"
+" - Vulcanized rubber\n"
+" - Tempered glass\n"
+" - Dry wood\n"
+" - Rigid plastic (PVC)\n"
+" - Porcelain ceramic\n"
+"⦿ Key Behavioral Characteristics:\n"
+" - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+" - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(c) Give two differences between an electrical insulator and a conductor. (BECE 2006 Q5c(i) & BECE 2012 Q3b(i))",
+answer: "Correct Answer:\n"
+"⦿ Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n"
+"⦿ Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n"
+"⦿ Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(d) (i) What is a fuse? (ii) Explain why a fuse is used in an electrical circuit. (BECE 2010 Q5d)",
+answer: "Correct Answer:\n"
+"⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
+"⦿ Purpose and Function:\n"
+" - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+" - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+" - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(e) State two effects of illegal electrical connections in the home. (BECE 2012 Q3b(ii))",
+answer: "Correct Answer:\n"
+"⦿ Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n"
+"⦿ System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Plug Terminal Representations:\n"
+" - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+" - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+" - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+"⦿ Function of Fuse Box:\n"
+" - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+" - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(g) (i) What is an electrical conductor? (ii) List two substances that are insulators. (BECE 2015 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
+"⦿ Insulating Substances:\n"
+" - Pure dry rubber\n"
+" - Solid plastic polymers\n"
+" - Refined glass\n"
+" - Dry timber",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(h) State one substance that is an insulator. (BECE 2022 Q5d(ii))",
+answer: "Correct Answer:\n"
+"⦿ Dry wood (or rubber, glass, ceramic, plastic).",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(i) (i) Explain the term potential difference. (ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor. (BECE 2023 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Potential Difference Definition: Potential difference across two points in a circuit is the amount of work energy transferred per unit charge as electric charge moves between those two designated points.\n"
+"⦿ Step-by-Step Calculation:\n"
+"⦿ Step 1: Identify given parameters:\n"
+"⦿ Voltage (V)=250 V\n"
+"⦿ Resistance (R)=100 Ω\n"
+"⦿ Step 2: Apply Ohm's Law relation:\n"
+r"⦿ V=I×R⟹I=\frac{V}{R}"
+    "\n"
+"⦿ Step 3: Substitute values and calculate:\n"
+r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+    "\n"
+"⦿ The electric current flowing through the resistor is 2.5 A.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(j) State two household appliances that have fuse. (BECE 2023 Q3c(ii))",
+answer: "Correct Answer:\n"
+"⦿ Electric iron\n"
+"⦿ Microwave oven\n"
+"⦿ Refrigerator / Freezer unit\n"
+"⦿ Electric kettle\n"
+"⦿ Washing machine\n"
+"⦿ Television set",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"(k) A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter. (i) Calculate the effective resistance in the circuit. (ii) Calculate the total current flowing through the closed circuit. (BECE 2024 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ (i) Effective Resistance Calculation:\n"
+"⦿ Step 1: State the formula for two parallel resistors:\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+    "\n"
+r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+"\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+    "\n"
+r"⦿ Step 3: Invert to solve for total resistance R_T:"
+    "\n"
+r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+    "\n"
+"⦿ (ii) Total Circuit Current Calculation:\n"
+"⦿ Step 1: State Ohm's Law for the whole circuit:\n"
+r"⦿ I=\frac{V}{R_T}"
+    "\n"
+r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
+    "\n"
+r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
+"\n"
+"⦿ The total current flowing through the closed circuit is 2.7 A.",
+explanation: "",
+),
     ],
   ),
 
-  "Science JHS1 s4 ss3 - Forces and Energy": PracticeModel(
+  "Science JHS1 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1 (BECE 2010 Q2)\n\n"
-            "(a) State the name of the energy possessed by moving water.\n\n"
-            "(b) State the type of energy possessed by a body of mass 10 kg raised 15 m above the ground.\n\n"
-            "(c) Calculate the value of the energy.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Kinetic energy\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Potential energy\n\n"
-            "⦿ (c) Calculation:\n\n"
-            "• Potential Energy (P.E.) = mass × acceleration due to gravity × height\n\n"
-            "• P.E. = 10 kg × 10 m/s² × 15 m\n\n"
-            "• P.E. = 1500 J",
-        explanation: "",
-      ),
+scenario:
+"1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+"(a) A mango falling freely from a tree branch to the ground surface:\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"(c) Activating the power switch on a portable electric torchlight:",
+answer: "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+"⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+"⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+"⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+"(c) Activating the power switch on a portable electric torchlight:\n"
+"⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+"⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+answer: "Correct Answer:\n"
+"⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+"⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+"(BECE 1998 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Required Formula: P.E. = m × g × h\n"
+"⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+"⦿ Step-by-Step Substitution:\n"
+"⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+"⦿ P.E. = 2000 J\n"
+"⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+"(a) Determine its total potential energy with respect to the ground level.\n"
+"(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+"(BECE 2000 Q4d)",
+answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+"⦿ Governing Equation: P.E. = m × g × h\n"
+"⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+"⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+"(b) Evaluation of Kinetic Energy prior to impact:\n"
+"⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+"⦿ Therefore, K.E. = P.E. = 2400 J.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+"(a) Identify the exact form of energy held by the suspended coconut.\n"
+"(b) Calculate the magnitude of this energy.\n"
+"(BECE 2002A Q2d)",
+answer: "Correct Answer: (a) Energy Identification:\n"
+"⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+"(b) Magnitude Calculation:\n"
+"⦿ Governing Formula: P.E. = Weight × Height\n"
+"⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+"⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+"⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+"(a) An orange detaches and falls from a tree top down to the soil.\n"
+"(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+"(BECE 2003 Q1b)",
+answer: "Correct Answer: (a) Falling orange:\n"
+"⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+"⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+"(b) Craftsman driving a nail:\n"
+"⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+"⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+"(BECE 2003 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+"⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+"⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+"(a) right before release from its highest point;\n"
+"(b) at the exact midpoint of its vertical descent;\n"
+"(c) immediately prior to hitting the ground.",
+answer: "Correct Answer: (a) At maximum elevation:\n"
+"⦿ Gravitational potential energy exclusively.\n\n"
+"(b) At the descent midpoint:\n"
+"⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+"(c) Instantly before ground collision:\n"
+"⦿ Kinetic energy exclusively.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+"(a) Operating a portable dry cell battery;\n"
+"(b) Generating power through an active solar collector;\n"
+"(c) Running a domestic electric hotplate;\n"
+"(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+"(BECE 2013 Q2c)",
+answer: "Correct Answer: (a) Active dry cell battery:\n"
+"⦿ Chemical energy transforms into electrical energy.\n\n"
+"(b) Active solar collector panel:\n"
+"⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+"(c) Active electric hotplate:\n"
+"⦿ Electrical energy transforms into thermal energy.\n\n"
+"(d) Hammering metal:\n"
+"⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"10. Detail the energy conversions occurring in the following practical situations:\n"
+"(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+"(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+"(BECE 2015 Q2c)",
+answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+"⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+"⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+"(b) Speaking into a microphone:\n"
+"⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"11. (a) Provide a rigorous scientific definition of potential energy.\n"
+"(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+"(BECE 2018 Q3c)",
+answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+"⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+"(b) Computation of Kinetic Energy:\n"
+r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+    "\n"
+"⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+"⦿ Calculation Steps:\n"
+r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+    "\n"
+"⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+"⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+"(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+"(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+"(BECE 2019 Q3a)",
+answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+"⦿ Gravitational potential energy.\n\n"
+"(b) Mathematical Calculation:\n"
+"⦿ Formula: P.E. = m × g × h\n"
+"⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+"⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+"⦿ Result: The total energy gained equals 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+"(BECE 2025 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+"⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+"⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2012 Q4)\n\n"
-            "State the energy changes that take place in each of the following activities:\n\n"
-            "(i) A candle is lit with a matchstick.\n\n"
-            "(ii) An orange falls from a tree to the ground.\n\n"
-            "(iii) A battery is used in an electric circuit with a lighted filament.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Chemical energy → Heat energy + Light energy\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Potential energy → Kinetic energy → Sound energy\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Chemical energy → Electrical energy → Light energy + Heat energy",
-        explanation: "",
-      ),
+scenario:
+"1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+"(a) A mango falling freely from a tree branch to the ground surface:\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"(c) Activating the power switch on a portable electric torchlight:",
+answer: "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+"⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+"⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+"⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+"(c) Activating the power switch on a portable electric torchlight:\n"
+"⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+"⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+answer: "Correct Answer:\n"
+"⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+"⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+"(BECE 1998 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Required Formula: P.E. = m × g × h\n"
+"⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+"⦿ Step-by-Step Substitution:\n"
+"⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+"⦿ P.E. = 2000 J\n"
+"⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+"(a) Determine its total potential energy with respect to the ground level.\n"
+"(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+"(BECE 2000 Q4d)",
+answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+"⦿ Governing Equation: P.E. = m × g × h\n"
+"⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+"⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+"(b) Evaluation of Kinetic Energy prior to impact:\n"
+"⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+"⦿ Therefore, K.E. = P.E. = 2400 J.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+"(a) Identify the exact form of energy held by the suspended coconut.\n"
+"(b) Calculate the magnitude of this energy.\n"
+"(BECE 2002A Q2d)",
+answer: "Correct Answer: (a) Energy Identification:\n"
+"⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+"(b) Magnitude Calculation:\n"
+"⦿ Governing Formula: P.E. = Weight × Height\n"
+"⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+"⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+"⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+"(a) An orange detaches and falls from a tree top down to the soil.\n"
+"(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+"(BECE 2003 Q1b)",
+answer: "Correct Answer: (a) Falling orange:\n"
+"⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+"⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+"(b) Craftsman driving a nail:\n"
+"⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+"⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+"(BECE 2003 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+"⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+"⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+"(a) right before release from its highest point;\n"
+"(b) at the exact midpoint of its vertical descent;\n"
+"(c) immediately prior to hitting the ground.",
+answer: "Correct Answer: (a) At maximum elevation:\n"
+"⦿ Gravitational potential energy exclusively.\n\n"
+"(b) At the descent midpoint:\n"
+"⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+"(c) Instantly before ground collision:\n"
+"⦿ Kinetic energy exclusively.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+"(a) Operating a portable dry cell battery;\n"
+"(b) Generating power through an active solar collector;\n"
+"(c) Running a domestic electric hotplate;\n"
+"(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+"(BECE 2013 Q2c)",
+answer: "Correct Answer: (a) Active dry cell battery:\n"
+"⦿ Chemical energy transforms into electrical energy.\n\n"
+"(b) Active solar collector panel:\n"
+"⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+"(c) Active electric hotplate:\n"
+"⦿ Electrical energy transforms into thermal energy.\n\n"
+"(d) Hammering metal:\n"
+"⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"10. Detail the energy conversions occurring in the following practical situations:\n"
+"(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+"(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+"(BECE 2015 Q2c)",
+answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+"⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+"⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+"(b) Speaking into a microphone:\n"
+"⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"11. (a) Provide a rigorous scientific definition of potential energy.\n"
+"(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+"(BECE 2018 Q3c)",
+answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+"⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+"(b) Computation of Kinetic Energy:\n"
+r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+    "\n"
+"⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+"⦿ Calculation Steps:\n"
+r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+    "\n"
+"⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+"⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+"(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+"(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+"(BECE 2019 Q3a)",
+answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+"⦿ Gravitational potential energy.\n\n"
+"(b) Mathematical Calculation:\n"
+"⦿ Formula: P.E. = m × g × h\n"
+"⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+"⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+"⦿ Result: The total energy gained equals 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+"(BECE 2025 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+"⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+"⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2013 Q4)\n\n"
-            "Name four sources of chemical energy.",
-        answer: "⦿ Answer:\n\n"
-            "• Food\n\n"
-            "• Fossil fuel\n\n"
-            "• Dry-cell battery\n\n"
-            "• Chemical reactor",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2013 Q6)\n\n"
-            "State the energy transformation that takes place when a dry cell is in use.",
-        answer: "⦿ Answer:\n\n"
-            "• Chemical energy → Electrical energy",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2015 Q4)\n\n"
-            "What energy transformations take place in each of the following activities?\n\n"
-            "(i) Using a flashlight battery to produce light.\n\n"
-            "(ii) Using a microphone.\n\n"
-            "(iii) Using electrical energy to operate a bell.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Chemical energy → Electrical energy → Light energy + Heat energy\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Sound energy → Electrical energy\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Electrical energy → Mechanical energy → Sound energy",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2018 Q3)\n\n"
-            "(i) Define potential energy.\n\n"
-            "(ii) An object of mass 10 kg is moving with a velocity of 2 m/s. Calculate the kinetic energy of the object.",
-        answer: "⦿ (i) Definition of potential energy:\n\n"
-            "Potential energy is the energy possessed by a body by virtue of its position relative to other objects.\n\n"
-            "⦿ (ii) Calculation:\n\n"
-            "• Kinetic Energy (K.E.) = ½ × mass × velocity²\n\n"
-            "• K.E. = ½ × 10 kg × 2 m/s × 2 m/s\n\n"
-            "• K.E. = 20 J",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2019 Q3)\n\n"
-            "A body of mass 100 kg is raised to a height of 2 m above the ground.\n\n"
-            "(i) State the name of the energy possessed by the object because of its new position.\n\n"
-            "(ii) Calculate the value of this energy. [g = 10 m/s²]",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Potential energy\n\n"
-            "⦿ (ii) Calculation:\n\n"
-            "• Potential Energy (P.E.) = mass × acceleration due to gravity × height\n\n"
-            "• P.E. = m × g × h\n\n"
-            "• P.E. = 100 kg × 10 m/s² × 2 m\n\n"
-            "• P.E. = 2000 J",
-        explanation: "",
-      ),
+scenario:
+"1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+"(a) A mango falling freely from a tree branch to the ground surface:\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"(c) Activating the power switch on a portable electric torchlight:",
+answer: "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+"⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+"⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+"⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+"(c) Activating the power switch on a portable electric torchlight:\n"
+"⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+"⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+answer: "Correct Answer:\n"
+"⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+"⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+"(BECE 1998 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Required Formula: P.E. = m × g × h\n"
+"⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+"⦿ Step-by-Step Substitution:\n"
+"⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+"⦿ P.E. = 2000 J\n"
+"⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+"(a) Determine its total potential energy with respect to the ground level.\n"
+"(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+"(BECE 2000 Q4d)",
+answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+"⦿ Governing Equation: P.E. = m × g × h\n"
+"⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+"⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+"(b) Evaluation of Kinetic Energy prior to impact:\n"
+"⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+"⦿ Therefore, K.E. = P.E. = 2400 J.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+"(a) Identify the exact form of energy held by the suspended coconut.\n"
+"(b) Calculate the magnitude of this energy.\n"
+"(BECE 2002A Q2d)",
+answer: "Correct Answer: (a) Energy Identification:\n"
+"⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+"(b) Magnitude Calculation:\n"
+"⦿ Governing Formula: P.E. = Weight × Height\n"
+"⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+"⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+"⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+"(a) An orange detaches and falls from a tree top down to the soil.\n"
+"(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+"(BECE 2003 Q1b)",
+answer: "Correct Answer: (a) Falling orange:\n"
+"⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+"⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+"(b) Craftsman driving a nail:\n"
+"⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+"⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+"(BECE 2003 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+"⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+"⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+"(a) right before release from its highest point;\n"
+"(b) at the exact midpoint of its vertical descent;\n"
+"(c) immediately prior to hitting the ground.",
+answer: "Correct Answer: (a) At maximum elevation:\n"
+"⦿ Gravitational potential energy exclusively.\n\n"
+"(b) At the descent midpoint:\n"
+"⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+"(c) Instantly before ground collision:\n"
+"⦿ Kinetic energy exclusively.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+"(a) Operating a portable dry cell battery;\n"
+"(b) Generating power through an active solar collector;\n"
+"(c) Running a domestic electric hotplate;\n"
+"(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+"(BECE 2013 Q2c)",
+answer: "Correct Answer: (a) Active dry cell battery:\n"
+"⦿ Chemical energy transforms into electrical energy.\n\n"
+"(b) Active solar collector panel:\n"
+"⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+"(c) Active electric hotplate:\n"
+"⦿ Electrical energy transforms into thermal energy.\n\n"
+"(d) Hammering metal:\n"
+"⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"10. Detail the energy conversions occurring in the following practical situations:\n"
+"(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+"(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+"(BECE 2015 Q2c)",
+answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+"⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+"⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+"(b) Speaking into a microphone:\n"
+"⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"11. (a) Provide a rigorous scientific definition of potential energy.\n"
+"(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+"(BECE 2018 Q3c)",
+answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+"⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+"(b) Computation of Kinetic Energy:\n"
+r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+    "\n"
+"⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+"⦿ Calculation Steps:\n"
+r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+    "\n"
+"⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+"⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+"(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+"(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+"(BECE 2019 Q3a)",
+answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+"⦿ Gravitational potential energy.\n\n"
+"(b) Mathematical Calculation:\n"
+"⦿ Formula: P.E. = m × g × h\n"
+"⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+"⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+"⦿ Result: The total energy gained equals 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+"(BECE 2025 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+"⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+"⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
+explanation: "",
+),
     ],
   ),
 
-  "Science JHS1 s4 ss4 - Forces and Motion": PracticeModel(
+  "Science JHS1 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) State the SI unit of pressure.\n\n",
-        answer: "⦿ (a) Answer:\n\n"
-            "The SI unit of pressure is the pascal (Pa), which is equivalent to newton per square metre (N/m²).\n\n",
-        explanation: "",
-      ),
+scenario:
+"(a) Name four types of force. (BECE 1992 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Gravitational force\n"
+"⦿ Frictional force\n"
+"⦿ Electrostatic force\n"
+"⦿ Magnetic force",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(b) Give three applications of pressure in everyday life.\n\n",
-        answer: "⦿ (b) Answer :\n\n"
-            "• Sharp knives have small cutting edges, which produce high pressure and make cutting easier.\n\n"
-            "• Heavy vehicles and tractors have wide tyres to spread their weight over a larger area and reduce pressure on the ground.\n\n"
-            "• Buildings are constructed on wide foundations to spread their weight over a large area and prevent sinking or collapse.\n\n"
-            "• School bags have wide, padded straps to spread the load over the shoulders and reduce pressure.\n\n",
-        explanation: "",
-      ),
+scenario:
+"(b) Explain the term friction.",
+answer: "Correct Answer:\n"
+"⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
-            "(c) Explain why it is easier to cut meat with a sharp knife than with a blunt one.\n\n",
-        answer: "⦿ (c) Answer:\n\n"
-            "A sharp knife has a smaller cutting-edge area than a blunt knife. When the same force is applied, the smaller area produces greater pressure, allowing the knife to cut through the meat more easily.\n\n",
-        explanation: "",
-      ),
+scenario:
+"(c) Give two methods of reducing friction.",
+answer: "Correct Answer:\n"
+"⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+"⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+"⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 4\n\n"
-            "(d) Explain why a wide belt is worn by an athlete when lifting heavy weights.",
-        answer: "⦿ (d) Answer:\n\n"
-            "A wide belt spreads the force over a larger area of the abdomen and lower back. This reduces pressure on the body, supports the spine and helps prevent injury.",
-        explanation: "",
-      ),
+scenario:
+"(a) Define the term force. (BECE 1994 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 5\n\n"
-            "(a) State two ways in which friction can be reduced.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Apply lubricants such as oil, grease or graphite between surfaces in contact.\n\n"
-            "• Use rollers, wheels or ball bearings between moving surfaces.\n\n"
-            "• Streamline vehicles, aircraft and boats to reduce air or water resistance.\n\n"
-            "• Polish or smoothen surfaces in contact.\n\n",
-        explanation: "",
-      ),
+scenario:
+"(b) State three types of force.",
+answer: "Correct Answer:\n"
+"⦿ Frictional force\n"
+"⦿ Gravitational force\n"
+"⦿ Electrostatic force",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 6\n\n"
-            "(b) State three ways in which force can affect a body.",
-        answer: "⦿ (b) Answer:\n\n"
-            "• It can cause a stationary body to start moving.\n\n"
-            "• It can cause a moving body to slow down or stop.\n\n"
-            "• It can increase or decrease the speed of a moving body.\n\n"
-            "• It can change the direction of motion of a body.\n\n"
-            "• It can change the shape or size of a body.",
-        explanation: "",
-      ),
+scenario:
+"(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+"(i) surface tension;\n"
+"(ii) capillarity;\n"
+"(iii) viscosity.",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+"⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+"⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Why does water wet glass?",
+answer: "Correct Answer:\n"
+"⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+"⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+"⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+"⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+"⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+"⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+"⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 1998 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State one way in which surface tension can be useful to man.",
+answer: "Correct Answer:\n"
+"⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+"⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is capillary action? (BECE 1999 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State two processes which use capillary action.",
+answer: "Correct Answer:\n"
+"⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+"⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+"(a) 0.75 kgf\n"
+"(b) 1.33 kgf",
+answer: "Correct Answer:\n"
+"⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+"⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"What is an electrostatic force? (BECE 2000 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+explanation: ".",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2001 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name two household devices that make use of surface tension.",
+answer: "Correct Answer:\n"
+"⦿ Raincoats or umbrellas\n"
+"⦿ Camping canvas tents\n"
+"⦿ Liquid soap dispensers",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State four effects of a force on a body. (BECE 2005 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ It can cause a stationary object to start moving.\n"
+"⦿ It can accelerate or increase the velocity of a moving body.\n"
+"⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+"⦿ It can change the direction of motion of a body.\n"
+"⦿ It can alter the shape, size, or physical structure of an object.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2007 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain why the surface of water in a container is not flat but curved.",
+answer: "Correct Answer:\n"
+"⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define pressure. (BECE 2008 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three applications of pressure in everyday life.",
+answer: "Correct Answer:\n"
+"⦿ Pumping air into vehicle tires to maintain inflation.\n"
+"⦿ Sucking liquids upward through drinking straws.\n"
+"⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+"⦿ Cutting items easily using sharpened knife blades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+answer: "Correct Answer:\n"
+"⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+"⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+"⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+"(a) What type of force made the steel needle to float?",
+answer: "Correct Answer:\n"
+"⦿ Surface tension force.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name three substances that could be added to the water to make the steel needle to sink.",
+answer: "Correct Answer:\n"
+"⦿ Soap or liquid detergent\n"
+"⦿ Kerosene\n"
+"⦿ Engine oil or diesel",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Define pressure. (BECE 2017 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+"(a) area of the cuboid;\n"
+"(b) pressure exerted by the cuboid when it lies on its side.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Area: Multiply length by breadth (10 cm \\times 5 cm) to obtain 50 cm^2.\n"
+"⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+"(a) acceleration of the vehicle;\n"
+"(b) force that acts on the vehicle;\n"
+"(c) final momentum when the vehicle comes to a stop.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+"⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+"⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A force of 10 N} is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+explanation: "",
+),
     ],
   ),
 
