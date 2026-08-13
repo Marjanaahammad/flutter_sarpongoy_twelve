@@ -14015,72 +14015,681 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1 (BECE 2010 Q2(a))\n\n"
-            "What is a fuse?",
+        scenario: "QUESTION (a) (BECE 2012 Q4a(i)(ii))\n\n"
+            "What is a transistor?",
         answer: "⦿ Answer:\n\n"
-            "A fuse is a thin wire or metal strip that melts and breaks the circuit when too much current flows through it.",
+            "• A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n\n"
+            "• It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n\n"
+            "• It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2015 Q4(b))\n\n"
-            "(a) What is an electrical conductor?\n\n"
-            "(b) List two substances that are insulators.",
-        answer: "⦿ (a) Electrical conductor:\n\n"
-            "An electrical conductor is a material that allows electric current to flow through it easily.\n\n"
-            "⦿ (b) Substances that are insulators:\n\n"
-            "• Paper\n\n"
-            "• Rubber",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2023 Q2(a))\n\n"
-            "(a) What is the importance of a fuse in an electrical appliance?\n\n"
-            "(b) State two household appliances that have a fuse.",
-        answer: "⦿ (a) Importance of a fuse:\n\n"
-            "A fuse protects an electrical appliance from damage and prevents electrical fires by melting and cutting off excessive current.\n\n"
-            "⦿ (b) Household appliances that have a fuse:\n\n"
-            "• Microwave\n\n"
-            "• Television",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2023 Q3(d))\n\n"
-            "Explain the term potential difference.",
-        answer: "⦿ Answer:\n\n"
-            "Potential difference is the amount of work done to move a unit charge from one point to another in an electrical circuit.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2012 Q4(a))\n\n"
+        scenario: "QUESTION (b) (BECE 2012 Q4a(iii))\n\n"
             "Give two uses of a transistor.",
-        answer: "⦿ Uses of a transistor:\n\n"
-            "• Signal amplification: It is used to amplify weak electrical signals.\n\n"
-            "• Electronic switching: It acts as an electronic switch in digital circuits.",
+        answer: "⦿ Answer:\n\n"
+            "• Signal Amplification: It boosts weak incoming alternating signals such as sound or radio frequencies into stronger output signals without altering their original frequency profile.\n\n"
+            "• Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n\n"
+            "• Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2013 Q4(c))\n\n"
+        scenario: "QUESTION (c) (BECE 2013 Q6c(i))\n\n"
             "Name two types of transistors.",
-        answer: "⦿ Types of transistors:\n\n"
-            "• NPN transistor\n\n"
-            "• PNP transistor",
+        answer: "⦿ Answer:\n\n"
+            "• NPN Bipolar Junction Transistor\n\n"
+            "• PNP Bipolar Junction Transistor",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2020 Q4(d)(ii))\n\n"
+        scenario: "QUESTION (d) (BECE 2015 Q3a(ii))\n\n"
+            "Mention the junctions of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n\n"
+            "• Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (e) (BECE 2017 Q2d)\n\n"
+            "Explain the term forward-bias of a p-n junction diode.",
+        answer: "⦿ Answer:\n\n"
+            "• Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n\n"
+            "• The external potential opposes and overcomes the internal barrier potential of the depletion region.\n\n"
+            "• This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (f) (BECE 2020 Q6b(ii))\n\n"
             "What is the role of a capacitor in a circuit?",
         answer: "⦿ Answer:\n\n"
-            "A capacitor stores electrical energy and releases it when needed. It can also be used to smooth current or voltage fluctuations in a circuit.",
+            "• Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n\n"
+            "• Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n\n"
+            "• Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 8 (BECE 2022 Q2(b))\n\n"
-            "(a) Explain the term active region as applied to transistors.\n\n"
-            "(b) State what happens in the active region of a transistor.",
-        answer: "⦿ (a) Active region:\n\n"
-            "The active region is the operating region of a transistor in which the base-emitter junction is forward biased and the base-collector junction is reverse biased.\n\n"
-            "⦿ (b) What happens in the active region:\n\n"
-            "The transistor behaves as an amplifier in the active region.",
+        scenario: "QUESTION (g) (BECE 2022 Q2b)\n\n"
+            "(i) Explain the term active region as applied to transistors.\n\n"
+            "(ii) State what happens in the active region of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Active Region Definition: The active region represents an operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n\n"
+            "• (ii) Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (h) (BECE 2024 Q4c)\n\n"
+            "(i) Define the term light emitting diode (LED).\n\n"
+            "(ii) Mention two devices that use LED in their operation.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n\n"
+            "• (ii) Utilizing Devices:\n\n"
+            "   • Digital displays on electronic appliances and wristwatches\n\n"
+            "   • Visual traffic signals and pedestrian crossing lights\n\n"
+            "   • Smartphone screen backlights and camera indicator lamps\n\n"
+            "   • Energy-efficient indoor and outdoor illumination lamps",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (i) (BECE 1994 Q4c)\n\n"
+            "(i) What is an electrical insulator?\n\n"
+            "(ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n\n"
+            "• (ii) Static Attraction Mechanism:\n\n"
+            "   • Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n\n"
+            "   • This transfer causes the comb to accumulate net static electrical charges on its surface.\n\n"
+            "   • Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (j) (BECE 2003 Q3c)\n\n"
+            "(i) What is an electrical insulator?\n\n"
+            "(ii) Mention three examples of insulator.\n\n"
+            "(iii) Give two characteristics of an insulator that explain its behavior.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n\n"
+            "• (ii) Examples:\n\n"
+            "   • Vulcanized rubber\n\n"
+            "   • Tempered glass\n\n"
+            "   • Dry wood\n\n"
+            "   • Rigid plastic (PVC)\n\n"
+            "   • Porcelain ceramic\n\n"
+            "• (iii) Key Behavioral Characteristics:\n\n"
+            "   • Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n\n"
+            "   • Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (k) (BECE 2006 Q5c(i) & BECE 2012 Q3b(ii))\n\n"
+            "Give two differences between an electrical insulator and a conductor.",
+        answer: "⦿ Answer:\n\n"
+            "• Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n\n"
+            "• Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n\n"
+            "• Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (l) (BECE 2010 Q5d)\n\n"
+            "(i) What is a fuse?\n\n"
+            "(ii) Explain why a fuse is used in an electrical circuit.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n\n"
+            "• (ii) Purpose and Function:\n\n"
+            "   • It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n\n"
+            "   • When fault conditions such as short circuits or system overloads push current above safe limits, internal resistive heat melts the fuse element.\n\n"
+            "   • Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (m) (BECE 2012 Q3b(iii))\n\n"
+            "State two effects of illegal electrical connections in the home.",
+        answer: "⦿ Answer:\n\n"
+            "• Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n\n"
+            "• System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (n) (BECE 2013 Q4a)\n\n"
+            "(i) What do the symbols L, N and E represent in an electric plug?\n\n"
+            "(ii) What is the function of the fuse box in household electrical wiring?",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Plug Terminal Representations:\n\n"
+            "   • L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n\n"
+            "   • N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n\n"
+            "   • E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n\n"
+            "• (ii) Function of Fuse Box:\n\n"
+            "   • It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n\n"
+            "   • It houses circuit protection devices such as fuses or miniature circuit breakers that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (o) (BECE 2015 Q6b)\n\n"
+            "(i) What is an electrical conductor?\n\n"
+            "(ii) List two substances that are insulators.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Conductor: A material possessing abundant mobile charge carriers such as free electrons in metals or ions in electrolyte solutions that move freely when an electric potential difference is applied.\n\n"
+            "• (ii) Insulating Substances:\n\n"
+            "   • Pure dry rubber\n\n"
+            "   • Solid plastic polymers\n\n"
+            "   • Refined glass\n\n"
+            "   • Dry timber",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (p) (BECE 2022 Q5d(ii))\n\n"
+            "State one substance that is an insulator.",
+        answer: "⦿ Answer:\n\n"
+            "• Dry wood (or rubber, glass, ceramic, plastic).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (q) (BECE 2023 Q3b)\n\n"
+            "(i) Explain the term potential difference.\n\n"
+            "(ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Potential Difference Definition: Potential difference across two points in a circuit is the amount of work or energy transferred per unit charge as electric charge moves between those two designated points.\n\n"
+            "• (ii) Step-by-Step Calculation:\n\n"
+            "   • Step 1: Identify given parameters:\n\n"
+            "      Voltage (V) = 250 V\n\n"
+            "      Resistance (R) = 100 Ω\n\n"
+            "   • Step 2: Apply Ohm's Law relation:\n\n"
+            "      V = I × R\n\n"
+            "      I = V / R\n\n"
+            "   • Step 3: Substitute values and calculate:\n\n"
+            "      I = 250 V / 100 Ω\n\n"
+            "      I = 2.5 A\n\n"
+            "• The electric current flowing through the resistor is 2.5 A.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (r) (BECE 2023 Q3c(ii))\n\n"
+            "State two household appliances that have fuse.",
+        answer: "⦿ Answer:\n\n"
+            "• Electric iron\n\n"
+            "• Microwave oven\n\n"
+            "• Refrigerator / Freezer unit\n\n"
+            "• Electric kettle\n\n"
+            "• Washing machine\n\n"
+            "• Television set",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (s) (BECE 2024 Q5a)\n\n"
+            "A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter.\n\n"
+            "(i) Calculate the effective resistance in the circuit.\n\n"
+            "(ii) Calculate the total current flowing through the closed circuit.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Effective Resistance Calculation:\n\n"
+            "   • Step 1: State the formula for two parallel resistors:\n\n"
+            "      1/Rₜ = 1/R₁ + 1/R₂\n\n"
+            "   • Step 2: Substitute R₁ = 4 Ω and R₂ = 5 Ω:\n\n"
+            "      1/Rₜ = 1/4 + 1/5\n\n"
+            "      1/Rₜ = (5 + 4)/20 = 9/20\n\n"
+            "   • Step 3: Invert to solve for total resistance Rₜ:\n\n"
+            "      Rₜ = 20/9 Ω = 2 2/9 Ω ≈ 2.22 Ω\n\n"
+            "• (ii) Total Circuit Current Calculation:\n\n"
+            "   • Step 1: State Ohm's Law for the whole circuit:\n\n"
+            "      I = V/Rₜ\n\n"
+            "   • Step 2: Substitute V = 6 V and Rₜ = 20/9 Ω:\n\n"
+            "      I = 6 ÷ (20/9)\n\n"
+            "      I = (6 × 9)/20\n\n"
+            "      I = 54/20 = 2.7 A\n\n"
+            "• The total current flowing through the closed circuit is 2.7 A.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+   "Science JHS2 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION (a) (BECE 2012 Q4a(i)(ii))\n\n"
+            "What is a transistor?",
+        answer: "⦿ Answer:\n\n"
+            "• A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n\n"
+            "• It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n\n"
+            "• It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (b) (BECE 2012 Q4a(iii))\n\n"
+            "Give two uses of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• Signal Amplification: It boosts weak incoming alternating signals such as sound or radio frequencies into stronger output signals without altering their original frequency profile.\n\n"
+            "• Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n\n"
+            "• Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (c) (BECE 2013 Q6c(i))\n\n"
+            "Name two types of transistors.",
+        answer: "⦿ Answer:\n\n"
+            "• NPN Bipolar Junction Transistor\n\n"
+            "• PNP Bipolar Junction Transistor",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (d) (BECE 2015 Q3a(ii))\n\n"
+            "Mention the junctions of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n\n"
+            "• Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (e) (BECE 2017 Q2d)\n\n"
+            "Explain the term forward-bias of a p-n junction diode.",
+        answer: "⦿ Answer:\n\n"
+            "• Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n\n"
+            "• The external potential opposes and overcomes the internal barrier potential of the depletion region.\n\n"
+            "• This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (f) (BECE 2020 Q6b(ii))\n\n"
+            "What is the role of a capacitor in a circuit?",
+        answer: "⦿ Answer:\n\n"
+            "• Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n\n"
+            "• Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n\n"
+            "• Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (g) (BECE 2022 Q2b)\n\n"
+            "(i) Explain the term active region as applied to transistors.\n\n"
+            "(ii) State what happens in the active region of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Active Region Definition: The active region represents an operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n\n"
+            "• (ii) Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (h) (BECE 2024 Q4c)\n\n"
+            "(i) Define the term light emitting diode (LED).\n\n"
+            "(ii) Mention two devices that use LED in their operation.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n\n"
+            "• (ii) Utilizing Devices:\n\n"
+            "   • Digital displays on electronic appliances and wristwatches\n\n"
+            "   • Visual traffic signals and pedestrian crossing lights\n\n"
+            "   • Smartphone screen backlights and camera indicator lamps\n\n"
+            "   • Energy-efficient indoor and outdoor illumination lamps",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (i) (BECE 1994 Q4c)\n\n"
+            "(i) What is an electrical insulator?\n\n"
+            "(ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n\n"
+            "• (ii) Static Attraction Mechanism:\n\n"
+            "   • Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n\n"
+            "   • This transfer causes the comb to accumulate net static electrical charges on its surface.\n\n"
+            "   • Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (j) (BECE 2003 Q3c)\n\n"
+            "(i) What is an electrical insulator?\n\n"
+            "(ii) Mention three examples of insulator.\n\n"
+            "(iii) Give two characteristics of an insulator that explain its behavior.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n\n"
+            "• (ii) Examples:\n\n"
+            "   • Vulcanized rubber\n\n"
+            "   • Tempered glass\n\n"
+            "   • Dry wood\n\n"
+            "   • Rigid plastic (PVC)\n\n"
+            "   • Porcelain ceramic\n\n"
+            "• (iii) Key Behavioral Characteristics:\n\n"
+            "   • Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n\n"
+            "   • Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (k) (BECE 2006 Q5c(i) & BECE 2012 Q3b(ii))\n\n"
+            "Give two differences between an electrical insulator and a conductor.",
+        answer: "⦿ Answer:\n\n"
+            "• Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n\n"
+            "• Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n\n"
+            "• Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (l) (BECE 2010 Q5d)\n\n"
+            "(i) What is a fuse?\n\n"
+            "(ii) Explain why a fuse is used in an electrical circuit.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n\n"
+            "• (ii) Purpose and Function:\n\n"
+            "   • It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n\n"
+            "   • When fault conditions such as short circuits or system overloads push current above safe limits, internal resistive heat melts the fuse element.\n\n"
+            "   • Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (m) (BECE 2012 Q3b(iii))\n\n"
+            "State two effects of illegal electrical connections in the home.",
+        answer: "⦿ Answer:\n\n"
+            "• Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n\n"
+            "• System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (n) (BECE 2013 Q4a)\n\n"
+            "(i) What do the symbols L, N and E represent in an electric plug?\n\n"
+            "(ii) What is the function of the fuse box in household electrical wiring?",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Plug Terminal Representations:\n\n"
+            "   • L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n\n"
+            "   • N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n\n"
+            "   • E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n\n"
+            "• (ii) Function of Fuse Box:\n\n"
+            "   • It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n\n"
+            "   • It houses circuit protection devices such as fuses or miniature circuit breakers that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (o) (BECE 2015 Q6b)\n\n"
+            "(i) What is an electrical conductor?\n\n"
+            "(ii) List two substances that are insulators.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Conductor: A material possessing abundant mobile charge carriers such as free electrons in metals or ions in electrolyte solutions that move freely when an electric potential difference is applied.\n\n"
+            "• (ii) Insulating Substances:\n\n"
+            "   • Pure dry rubber\n\n"
+            "   • Solid plastic polymers\n\n"
+            "   • Refined glass\n\n"
+            "   • Dry timber",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (p) (BECE 2022 Q5d(ii))\n\n"
+            "State one substance that is an insulator.",
+        answer: "⦿ Answer:\n\n"
+            "• Dry wood (or rubber, glass, ceramic, plastic).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (q) (BECE 2023 Q3b)\n\n"
+            "(i) Explain the term potential difference.\n\n"
+            "(ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Potential Difference Definition: Potential difference across two points in a circuit is the amount of work or energy transferred per unit charge as electric charge moves between those two designated points.\n\n"
+            "• (ii) Step-by-Step Calculation:\n\n"
+            "   • Step 1: Identify given parameters:\n\n"
+            "      Voltage (V) = 250 V\n\n"
+            "      Resistance (R) = 100 Ω\n\n"
+            "   • Step 2: Apply Ohm's Law relation:\n\n"
+            "      V = I × R\n\n"
+            "      I = V / R\n\n"
+            "   • Step 3: Substitute values and calculate:\n\n"
+            "      I = 250 V / 100 Ω\n\n"
+            "      I = 2.5 A\n\n"
+            "• The electric current flowing through the resistor is 2.5 A.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (r) (BECE 2023 Q3c(ii))\n\n"
+            "State two household appliances that have fuse.",
+        answer: "⦿ Answer:\n\n"
+            "• Electric iron\n\n"
+            "• Microwave oven\n\n"
+            "• Refrigerator / Freezer unit\n\n"
+            "• Electric kettle\n\n"
+            "• Washing machine\n\n"
+            "• Television set",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (s) (BECE 2024 Q5a)\n\n"
+            "A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter.\n\n"
+            "(i) Calculate the effective resistance in the circuit.\n\n"
+            "(ii) Calculate the total current flowing through the closed circuit.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Effective Resistance Calculation:\n\n"
+            "   • Step 1: State the formula for two parallel resistors:\n\n"
+            "      1/Rₜ = 1/R₁ + 1/R₂\n\n"
+            "   • Step 2: Substitute R₁ = 4 Ω and R₂ = 5 Ω:\n\n"
+            "      1/Rₜ = 1/4 + 1/5\n\n"
+            "      1/Rₜ = (5 + 4)/20 = 9/20\n\n"
+            "   • Step 3: Invert to solve for total resistance Rₜ:\n\n"
+            "      Rₜ = 20/9 Ω = 2 2/9 Ω ≈ 2.22 Ω\n\n"
+            "• (ii) Total Circuit Current Calculation:\n\n"
+            "   • Step 1: State Ohm's Law for the whole circuit:\n\n"
+            "      I = V/Rₜ\n\n"
+            "   • Step 2: Substitute V = 6 V and Rₜ = 20/9 Ω:\n\n"
+            "      I = 6 ÷ (20/9)\n\n"
+            "      I = (6 × 9)/20\n\n"
+            "      I = 54/20 = 2.7 A\n\n"
+            "• The total current flowing through the closed circuit is 2.7 A.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+   "Science JHS3 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "QUESTION (a) (BECE 2012 Q4a(i)(ii))\n\n"
+            "What is a transistor?",
+        answer: "⦿ Answer:\n\n"
+            "• A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n\n"
+            "• It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n\n"
+            "• It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (b) (BECE 2012 Q4a(iii))\n\n"
+            "Give two uses of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• Signal Amplification: It boosts weak incoming alternating signals such as sound or radio frequencies into stronger output signals without altering their original frequency profile.\n\n"
+            "• Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n\n"
+            "• Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (c) (BECE 2013 Q6c(i))\n\n"
+            "Name two types of transistors.",
+        answer: "⦿ Answer:\n\n"
+            "• NPN Bipolar Junction Transistor\n\n"
+            "• PNP Bipolar Junction Transistor",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (d) (BECE 2015 Q3a(ii))\n\n"
+            "Mention the junctions of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n\n"
+            "• Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (e) (BECE 2017 Q2d)\n\n"
+            "Explain the term forward-bias of a p-n junction diode.",
+        answer: "⦿ Answer:\n\n"
+            "• Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n\n"
+            "• The external potential opposes and overcomes the internal barrier potential of the depletion region.\n\n"
+            "• This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (f) (BECE 2020 Q6b(ii))\n\n"
+            "What is the role of a capacitor in a circuit?",
+        answer: "⦿ Answer:\n\n"
+            "• Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n\n"
+            "• Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n\n"
+            "• Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (g) (BECE 2022 Q2b)\n\n"
+            "(i) Explain the term active region as applied to transistors.\n\n"
+            "(ii) State what happens in the active region of a transistor.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Active Region Definition: The active region represents an operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n\n"
+            "• (ii) Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (h) (BECE 2024 Q4c)\n\n"
+            "(i) Define the term light emitting diode (LED).\n\n"
+            "(ii) Mention two devices that use LED in their operation.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n\n"
+            "• (ii) Utilizing Devices:\n\n"
+            "   • Digital displays on electronic appliances and wristwatches\n\n"
+            "   • Visual traffic signals and pedestrian crossing lights\n\n"
+            "   • Smartphone screen backlights and camera indicator lamps\n\n"
+            "   • Energy-efficient indoor and outdoor illumination lamps",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (i) (BECE 1994 Q4c)\n\n"
+            "(i) What is an electrical insulator?\n\n"
+            "(ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n\n"
+            "• (ii) Static Attraction Mechanism:\n\n"
+            "   • Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n\n"
+            "   • This transfer causes the comb to accumulate net static electrical charges on its surface.\n\n"
+            "   • Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (j) (BECE 2003 Q3c)\n\n"
+            "(i) What is an electrical insulator?\n\n"
+            "(ii) Mention three examples of insulator.\n\n"
+            "(iii) Give two characteristics of an insulator that explain its behavior.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n\n"
+            "• (ii) Examples:\n\n"
+            "   • Vulcanized rubber\n\n"
+            "   • Tempered glass\n\n"
+            "   • Dry wood\n\n"
+            "   • Rigid plastic (PVC)\n\n"
+            "   • Porcelain ceramic\n\n"
+            "• (iii) Key Behavioral Characteristics:\n\n"
+            "   • Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n\n"
+            "   • Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (k) (BECE 2006 Q5c(i) & BECE 2012 Q3b(ii))\n\n"
+            "Give two differences between an electrical insulator and a conductor.",
+        answer: "⦿ Answer:\n\n"
+            "• Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n\n"
+            "• Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n\n"
+            "• Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (l) (BECE 2010 Q5d)\n\n"
+            "(i) What is a fuse?\n\n"
+            "(ii) Explain why a fuse is used in an electrical circuit.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n\n"
+            "• (ii) Purpose and Function:\n\n"
+            "   • It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n\n"
+            "   • When fault conditions such as short circuits or system overloads push current above safe limits, internal resistive heat melts the fuse element.\n\n"
+            "   • Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (m) (BECE 2012 Q3b(iii))\n\n"
+            "State two effects of illegal electrical connections in the home.",
+        answer: "⦿ Answer:\n\n"
+            "• Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n\n"
+            "• System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (n) (BECE 2013 Q4a)\n\n"
+            "(i) What do the symbols L, N and E represent in an electric plug?\n\n"
+            "(ii) What is the function of the fuse box in household electrical wiring?",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Plug Terminal Representations:\n\n"
+            "   • L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n\n"
+            "   • N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n\n"
+            "   • E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n\n"
+            "• (ii) Function of Fuse Box:\n\n"
+            "   • It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n\n"
+            "   • It houses circuit protection devices such as fuses or miniature circuit breakers that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (o) (BECE 2015 Q6b)\n\n"
+            "(i) What is an electrical conductor?\n\n"
+            "(ii) List two substances that are insulators.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Electrical Conductor: A material possessing abundant mobile charge carriers such as free electrons in metals or ions in electrolyte solutions that move freely when an electric potential difference is applied.\n\n"
+            "• (ii) Insulating Substances:\n\n"
+            "   • Pure dry rubber\n\n"
+            "   • Solid plastic polymers\n\n"
+            "   • Refined glass\n\n"
+            "   • Dry timber",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (p) (BECE 2022 Q5d(ii))\n\n"
+            "State one substance that is an insulator.",
+        answer: "⦿ Answer:\n\n"
+            "• Dry wood (or rubber, glass, ceramic, plastic).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (q) (BECE 2023 Q3b)\n\n"
+            "(i) Explain the term potential difference.\n\n"
+            "(ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Potential Difference Definition: Potential difference across two points in a circuit is the amount of work or energy transferred per unit charge as electric charge moves between those two designated points.\n\n"
+            "• (ii) Step-by-Step Calculation:\n\n"
+            "   • Step 1: Identify given parameters:\n\n"
+            "      Voltage (V) = 250 V\n\n"
+            "      Resistance (R) = 100 Ω\n\n"
+            "   • Step 2: Apply Ohm's Law relation:\n\n"
+            "      V = I × R\n\n"
+            "      I = V / R\n\n"
+            "   • Step 3: Substitute values and calculate:\n\n"
+            "      I = 250 V / 100 Ω\n\n"
+            "      I = 2.5 A\n\n"
+            "• The electric current flowing through the resistor is 2.5 A.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (r) (BECE 2023 Q3c(ii))\n\n"
+            "State two household appliances that have fuse.",
+        answer: "⦿ Answer:\n\n"
+            "• Electric iron\n\n"
+            "• Microwave oven\n\n"
+            "• Refrigerator / Freezer unit\n\n"
+            "• Electric kettle\n\n"
+            "• Washing machine\n\n"
+            "• Television set",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (s) (BECE 2024 Q5a)\n\n"
+            "A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter.\n\n"
+            "(i) Calculate the effective resistance in the circuit.\n\n"
+            "(ii) Calculate the total current flowing through the closed circuit.",
+        answer: "⦿ Answer:\n\n"
+            "• (i) Effective Resistance Calculation:\n\n"
+            "   • Step 1: State the formula for two parallel resistors:\n\n"
+            "      1/Rₜ = 1/R₁ + 1/R₂\n\n"
+            "   • Step 2: Substitute R₁ = 4 Ω and R₂ = 5 Ω:\n\n"
+            "      1/Rₜ = 1/4 + 1/5\n\n"
+            "      1/Rₜ = (5 + 4)/20 = 9/20\n\n"
+            "   • Step 3: Invert to solve for total resistance Rₜ:\n\n"
+            "      Rₜ = 20/9 Ω = 2 2/9 Ω ≈ 2.22 Ω\n\n"
+            "• (ii) Total Circuit Current Calculation:\n\n"
+            "   • Step 1: State Ohm's Law for the whole circuit:\n\n"
+            "      I = V/Rₜ\n\n"
+            "   • Step 2: Substitute V = 6 V and Rₜ = 20/9 Ω:\n\n"
+            "      I = 6 ÷ (20/9)\n\n"
+            "      I = (6 × 9)/20\n\n"
+            "      I = 54/20 = 2.7 A\n\n"
+            "• The total current flowing through the closed circuit is 2.7 A.",
         explanation: "",
       ),
     ],
