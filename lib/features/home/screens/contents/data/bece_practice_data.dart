@@ -17189,7 +17189,7 @@ scenario:
 "What is an electrostatic force? (BECE 2000 Q2a)",
 answer: "Correct Answer:\n"
 "⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
-explanation: ".",
+explanation: "",
 ),
       PracticeQuestion(
 scenario:
@@ -17288,7 +17288,7 @@ scenario:
 "(a) area of the cuboid;\n"
 "(b) pressure exerted by the cuboid when it lies on its side.",
 answer: "Correct Answer:\n"
-"⦿ Calculate Area: Multiply length by breadth (10 cm \\times 5 cm) to obtain 50 cm^2.\n"
+"⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
 "⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
 explanation: "",
 ),
@@ -17306,7 +17306,513 @@ explanation: "",
 ),
       PracticeQuestion(
 scenario:
-"A force of 10 N} is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+"A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Name four types of force. (BECE 1992 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Gravitational force\n"
+"⦿ Frictional force\n"
+"⦿ Electrostatic force\n"
+"⦿ Magnetic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain the term friction.",
+answer: "Correct Answer:\n"
+"⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) Give two methods of reducing friction.",
+answer: "Correct Answer:\n"
+"⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+"⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+"⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define the term force. (BECE 1994 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three types of force.",
+answer: "Correct Answer:\n"
+"⦿ Frictional force\n"
+"⦿ Gravitational force\n"
+"⦿ Electrostatic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+"(i) surface tension;\n"
+"(ii) capillarity;\n"
+"(iii) viscosity.",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+"⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+"⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Why does water wet glass?",
+answer: "Correct Answer:\n"
+"⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+"⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+"⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+"⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+"⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+"⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+"⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 1998 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State one way in which surface tension can be useful to man.",
+answer: "Correct Answer:\n"
+"⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+"⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is capillary action? (BECE 1999 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State two processes which use capillary action.",
+answer: "Correct Answer:\n"
+"⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+"⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+"(a) 0.75 kgf\n"
+"(b) 1.33 kgf",
+answer: "Correct Answer:\n"
+"⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+"⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"What is an electrostatic force? (BECE 2000 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2001 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name two household devices that make use of surface tension.",
+answer: "Correct Answer:\n"
+"⦿ Raincoats or umbrellas\n"
+"⦿ Camping canvas tents\n"
+"⦿ Liquid soap dispensers",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State four effects of a force on a body. (BECE 2005 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ It can cause a stationary object to start moving.\n"
+"⦿ It can accelerate or increase the velocity of a moving body.\n"
+"⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+"⦿ It can change the direction of motion of a body.\n"
+"⦿ It can alter the shape, size, or physical structure of an object.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2007 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain why the surface of water in a container is not flat but curved.",
+answer: "Correct Answer:\n"
+"⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define pressure. (BECE 2008 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three applications of pressure in everyday life.",
+answer: "Correct Answer:\n"
+"⦿ Pumping air into vehicle tires to maintain inflation.\n"
+"⦿ Sucking liquids upward through drinking straws.\n"
+"⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+"⦿ Cutting items easily using sharpened knife blades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+answer: "Correct Answer:\n"
+"⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+"⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+"⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+"(a) What type of force made the steel needle to float?",
+answer: "Correct Answer:\n"
+"⦿ Surface tension force.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name three substances that could be added to the water to make the steel needle to sink.",
+answer: "Correct Answer:\n"
+"⦿ Soap or liquid detergent\n"
+"⦿ Kerosene\n"
+"⦿ Engine oil or diesel",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Define pressure. (BECE 2017 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+"(a) area of the cuboid;\n"
+"(b) pressure exerted by the cuboid when it lies on its side.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+"⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+"(a) acceleration of the vehicle;\n"
+"(b) force that acts on the vehicle;\n"
+"(c) final momentum when the vehicle comes to a stop.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+"⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+"⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Name four types of force. (BECE 1992 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Gravitational force\n"
+"⦿ Frictional force\n"
+"⦿ Electrostatic force\n"
+"⦿ Magnetic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain the term friction.",
+answer: "Correct Answer:\n"
+"⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) Give two methods of reducing friction.",
+answer: "Correct Answer:\n"
+"⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+"⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+"⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define the term force. (BECE 1994 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three types of force.",
+answer: "Correct Answer:\n"
+"⦿ Frictional force\n"
+"⦿ Gravitational force\n"
+"⦿ Electrostatic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+"(i) surface tension;\n"
+"(ii) capillarity;\n"
+"(iii) viscosity.",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+"⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+"⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Why does water wet glass?",
+answer: "Correct Answer:\n"
+"⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+"⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+"⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+"⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+"⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+"⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+"⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 1998 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State one way in which surface tension can be useful to man.",
+answer: "Correct Answer:\n"
+"⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+"⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is capillary action? (BECE 1999 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State two processes which use capillary action.",
+answer: "Correct Answer:\n"
+"⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+"⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+"(a) 0.75 kgf\n"
+"(b) 1.33 kgf",
+answer: "Correct Answer:\n"
+"⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+"⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"What is an electrostatic force? (BECE 2000 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2001 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name two household devices that make use of surface tension.",
+answer: "Correct Answer:\n"
+"⦿ Raincoats or umbrellas\n"
+"⦿ Camping canvas tents\n"
+"⦿ Liquid soap dispensers",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State four effects of a force on a body. (BECE 2005 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ It can cause a stationary object to start moving.\n"
+"⦿ It can accelerate or increase the velocity of a moving body.\n"
+"⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+"⦿ It can change the direction of motion of a body.\n"
+"⦿ It can alter the shape, size, or physical structure of an object.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2007 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain why the surface of water in a container is not flat but curved.",
+answer: "Correct Answer:\n"
+"⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define pressure. (BECE 2008 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three applications of pressure in everyday life.",
+answer: "Correct Answer:\n"
+"⦿ Pumping air into vehicle tires to maintain inflation.\n"
+"⦿ Sucking liquids upward through drinking straws.\n"
+"⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+"⦿ Cutting items easily using sharpened knife blades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+answer: "Correct Answer:\n"
+"⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+"⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+"⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+"(a) What type of force made the steel needle to float?",
+answer: "Correct Answer:\n"
+"⦿ Surface tension force.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name three substances that could be added to the water to make the steel needle to sink.",
+answer: "Correct Answer:\n"
+"⦿ Soap or liquid detergent\n"
+"⦿ Kerosene\n"
+"⦿ Engine oil or diesel",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Define pressure. (BECE 2017 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+"(a) area of the cuboid;\n"
+"(b) pressure exerted by the cuboid when it lies on its side.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+"⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+"(a) acceleration of the vehicle;\n"
+"(b) force that acts on the vehicle;\n"
+"(c) final momentum when the vehicle comes to a stop.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+"⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+"⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
 answer: "Correct Answer:\n"
 "⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
 explanation: "",
@@ -17318,61 +17824,823 @@ explanation: "",
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) List five garden tools.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Rake\n\n"
-            "• Hoe\n\n"
-            "• Shears\n\n"
-            "• Axe\n\n"
-            "• Watering can\n\n"
-            "• Hand fork\n\n"
-            "• Dibber\n\n"
-            "• Secateurs",
-        explanation: "",
-      ),
+scenario:
+"(a) List four garden tools.",
+answer: "Correct Answer:\n"
+"⦿ Cutlass\n"
+"⦿ Hoe\n"
+"⦿ Rake\n"
+"⦿ Garden shears",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(b) Explain why a hoe is more suitable for weeding than a cutlass in crop farming.",
-        answer: "⦿ (b) Answer:\n\n"
-            "A hoe is more suitable for weeding because its wide blade helps to remove weeds from their roots, preventing them from growing back quickly.\n\n"
-            "A cutlass mainly cuts weeds at the surface, allowing them to regrow faster.",
-        explanation: "",
-      ),
+scenario:
+"(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+answer: "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+"⦿ Hoe\n"
+"⦿ Rake\n\n"
+"(ii) The functions of the selected implements:\n"
+"⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+"⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s4 ss5 - Agricultural Tools": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
-            "(c) State four ways of maintaining agricultural tools.",
-        answer: "⦿ (c) Answer:\n\n"
-            "• Use the right tool for the right purpose.\n\n"
-            "• Wash and clean tools after use.\n\n"
-            "• Sharpen tools with blades regularly.\n\n"
-            "• Apply oil to metal parts to prevent rust.\n\n"
-            "• Store tools in a dry place after cleaning.\n\n"
-            "• Regularly inspect broken or damaged handles and repair them.\n\n"
-            "• Fix or replace broken handles.",
-        explanation: "",
-      ),
+scenario:
+"(a) List four garden tools.",
+answer: "Correct Answer:\n"
+"⦿ Cutlass\n"
+"⦿ Hoe\n"
+"⦿ Rake\n"
+"⦿ Garden shears",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 4\n\n"
-            "(d) A farmer wants to dig holes for planting maize. Which tool should the farmer use and why?",
-        answer: "⦿ (d) Answer:\n\n"
-            "The farmer should use a dibber because it is designed to make small holes at the required depth.\n\n"
-            "It helps to place seeds at the correct depth without disturbing the surrounding soil.",
-        explanation: "",
-      ),
+scenario:
+"(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+answer: "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+"⦿ Hoe\n"
+"⦿ Rake\n\n"
+"(ii) The functions of the selected implements:\n"
+"⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+"⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s4 ss5 - Agricultural Tools": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 5\n\n"
-            "(e) Suggest two ways farmers can improve the efficiency of their cutlasses and hoes.",
-        answer: "⦿ (e) Answer:\n\n"
-            "• Sharpen the blades regularly to make cutting and digging easier.\n\n"
-            "• Use strong and durable handles to improve grip and control during use.\n\n"
-            "• Use the tools for their intended purposes.\n\n"
-            "• Wash and clean the tools immediately after use.",
-        explanation: "",
-      ),
+scenario:
+"(a) List four garden tools.",
+answer: "Correct Answer:\n"
+"⦿ Cutlass\n"
+"⦿ Hoe\n"
+"⦿ Rake\n"
+"⦿ Garden shears",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+answer: "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+"⦿ Hoe\n"
+"⦿ Rake\n\n"
+"(ii) The functions of the selected implements:\n"
+"⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+"⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+explanation: "",
+),
     ],
   ),
 
+  
+  "Science JHS1 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) (i) Define the terms humidity and wind.\n"
+"(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+"(BECE 1997 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+"⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+"⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+"⦿ **Instrument for measuring wind speed:** Anemometer.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four main factors which determine the climate of a place.\n"
+"(BECE 1999 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+"⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+"⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+"⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+"⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+"⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+"⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+"⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) What is the difference between climate and weather?\n"
+"(BECE 2010 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+"⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+"⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) State one use each of the following instruments used in the study of the weather:\n"
+"(i) rain gauge;\n"
+"(ii) hygrometer;\n"
+"(iii) anemometer.\n"
+"(BECE 2013 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+"⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+"⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+"(BECE 2014 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+"⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+"⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+"⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+"⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+"⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+"⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four weather measuring instruments.\n"
+"(BECE 2016 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ **Thermometer:** Monitors temperature conditions.\n"
+"⦿ **Rain gauge:** Records precipitation amounts.\n"
+"⦿ **Anemometer:** Measures wind velocity.\n"
+"⦿ **Barometer:** Determines atmospheric pressure.\n"
+"⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+"⦿ **Wind vane:** Tracks wind movement directions.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) What is weather?\n"
+"(ii) State two differences between weather and season.\n"
+"(BECE 2018 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+"⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+"⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+"⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+"(ii) Name two primary green-house gases associated with industrialization.\n"
+"(BECE 2025 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+"⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+"⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+"⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+"⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+"⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+"⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+"⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) (i) Define the terms humidity and wind.\n"
+"(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+"(BECE 1997 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+"⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+"⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+"⦿ **Instrument for measuring wind speed:** Anemometer.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four main factors which determine the climate of a place.\n"
+"(BECE 1999 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+"⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+"⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+"⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+"⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+"⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+"⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+"⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) What is the difference between climate and weather?\n"
+"(BECE 2010 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+"⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+"⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) State one use each of the following instruments used in the study of the weather:\n"
+"(i) rain gauge;\n"
+"(ii) hygrometer;\n"
+"(iii) anemometer.\n"
+"(BECE 2013 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+"⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+"⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+"(BECE 2014 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+"⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+"⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+"⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+"⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+"⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+"⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four weather measuring instruments.\n"
+"(BECE 2016 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ **Thermometer:** Monitors temperature conditions.\n"
+"⦿ **Rain gauge:** Records precipitation amounts.\n"
+"⦿ **Anemometer:** Measures wind velocity.\n"
+"⦿ **Barometer:** Determines atmospheric pressure.\n"
+"⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+"⦿ **Wind vane:** Tracks wind movement directions.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) What is weather?\n"
+"(ii) State two differences between weather and season.\n"
+"(BECE 2018 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+"⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+"⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+"⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+"(ii) Name two primary green-house gases associated with industrialization.\n"
+"(BECE 2025 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+"⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+"⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+"⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+"⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+"⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+"⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+"⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) (i) Define the terms humidity and wind.\n"
+"(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+"(BECE 1997 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+"⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+"⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+"⦿ **Instrument for measuring wind speed:** Anemometer.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four main factors which determine the climate of a place.\n"
+"(BECE 1999 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+"⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+"⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+"⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+"⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+"⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+"⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+"⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) What is the difference between climate and weather?\n"
+"(BECE 2010 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+"⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+"⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) State one use each of the following instruments used in the study of the weather:\n"
+"(i) rain gauge;\n"
+"(ii) hygrometer;\n"
+"(iii) anemometer.\n"
+"(BECE 2013 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+"⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+"⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+"(BECE 2014 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+"⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+"⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+"⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+"⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+"⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+"⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four weather measuring instruments.\n"
+"(BECE 2016 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ **Thermometer:** Monitors temperature conditions.\n"
+"⦿ **Rain gauge:** Records precipitation amounts.\n"
+"⦿ **Anemometer:** Measures wind velocity.\n"
+"⦿ **Barometer:** Determines atmospheric pressure.\n"
+"⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+"⦿ **Wind vane:** Tracks wind movement directions.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) What is weather?\n"
+"(ii) State two differences between weather and season.\n"
+"(BECE 2018 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+"⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+"⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+"⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+"(ii) Name two primary green-house gases associated with industrialization.\n"
+"(BECE 2025 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+"⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+"⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+"⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+"⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+"⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+"⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+"⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+explanation: "",
+),
+    ],
+  ),
+
+  "Science JHS1 s5 ss5 - Diffusion & Osmosis / Pests & Parasites": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+answer: "Correct Answer:\n"
+"⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+"⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Define the term osmosis. (BECE 1997 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+"⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+answer: "Correct Answer:\n",
+answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          ["Substance Involved", "Restricted strictly to the movement of water or solvent molecules.", "Applies to particles of any state of matter, including solids, liquids, and gases."],
+          ["Membrane Requirement", "Requires a semi-permeable membrane to separate the two regions.", "Occurs freely without requiring any biological or physical membrane barrier."],
+          ["Direction of Flow", "Water molecules travel from a dilute solution towards a more concentrated solution.", "Particles travel directly from an area of higher concentration towards an area of lower concentration."],
+          ["Medium Requirement", "Can only take place within a liquid medium.", "Occurs across gas phases, liquid solutions, and solid mixtures."],
+        ],
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+"⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+"⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+"(i) absorption of water by the roots of a plant\n"
+"(ii) movement of digested food from the small intestine into the bloodstream",
+answer: "Correct Answer:\n"
+"⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+"⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+"Examples:\n"
+"⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+"⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+"⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+"⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+answer: "Correct Answer:\n"
+"⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+"⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+"⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+"⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+"(i) ectoparasites\n"
+"(ii) endoparasites",
+answer: "Correct Answer:\n"
+"⦿ (i) **Ectoparasite control methods:**\n"
+"⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+"⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+"⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+"⦿ (ii) **Endoparasite control methods:**\n"
+"⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+"⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+"⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+answer: "Correct Answer:\n"
+"⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+"⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+"⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+"⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+answer: "Correct Answer:\n"
+"⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+"⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+answer: "Correct Answer:\n"
+"⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+"Advantages:\n"
+"⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+"⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s5 ss5 - Diffusion & Osmosis / Pests & Parasites": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+answer: "Correct Answer:\n"
+"⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+"⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Define the term osmosis. (BECE 1997 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+"⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+answer: "Correct Answer:\n",
+answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          ["Substance Involved", "Restricted strictly to the movement of water or solvent molecules.", "Applies to particles of any state of matter, including solids, liquids, and gases."],
+          ["Membrane Requirement", "Requires a semi-permeable membrane to separate the two regions.", "Occurs freely without requiring any biological or physical membrane barrier."],
+          ["Direction of Flow", "Water molecules travel from a dilute solution towards a more concentrated solution.", "Particles travel directly from an area of higher concentration towards an area of lower concentration."],
+          ["Medium Requirement", "Can only take place within a liquid medium.", "Occurs across gas phases, liquid solutions, and solid mixtures."],
+        ],
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+"⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+"⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+"(i) absorption of water by the roots of a plant\n"
+"(ii) movement of digested food from the small intestine into the bloodstream",
+answer: "Correct Answer:\n"
+"⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+"⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+"Examples:\n"
+"⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+"⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+"⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+"⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+answer: "Correct Answer:\n"
+"⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+"⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+"⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+"⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+"(i) ectoparasites\n"
+"(ii) endoparasites",
+answer: "Correct Answer:\n"
+"⦿ (i) **Ectoparasite control methods:**\n"
+"⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+"⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+"⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+"⦿ (ii) **Endoparasite control methods:**\n"
+"⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+"⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+"⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+answer: "Correct Answer:\n"
+"⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+"⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+"⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+"⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+answer: "Correct Answer:\n"
+"⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+"⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+answer: "Correct Answer:\n"
+"⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+"Advantages:\n"
+"⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+"⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s5 ss5 - Diffusion & Osmosis / Pests & Parasites": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+answer: "Correct Answer:\n"
+"⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+"⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Define the term osmosis. (BECE 1997 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+"⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+answer: "Correct Answer:\n",
+answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          ["Substance Involved", "Restricted strictly to the movement of water or solvent molecules.", "Applies to particles of any state of matter, including solids, liquids, and gases."],
+          ["Membrane Requirement", "Requires a semi-permeable membrane to separate the two regions.", "Occurs freely without requiring any biological or physical membrane barrier."],
+          ["Direction of Flow", "Water molecules travel from a dilute solution towards a more concentrated solution.", "Particles travel directly from an area of higher concentration towards an area of lower concentration."],
+          ["Medium Requirement", "Can only take place within a liquid medium.", "Occurs across gas phases, liquid solutions, and solid mixtures."],
+        ],
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+"⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+"⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+"(i) absorption of water by the roots of a plant\n"
+"(ii) movement of digested food from the small intestine into the bloodstream",
+answer: "Correct Answer:\n"
+"⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+"⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+"Examples:\n"
+"⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+"⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+"⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+"⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+answer: "Correct Answer:\n"
+"⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+"⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+"⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+"⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+"(i) ectoparasites\n"
+"(ii) endoparasites",
+answer: "Correct Answer:\n"
+"⦿ (i) **Ectoparasite control methods:**\n"
+"⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+"⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+"⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+"⦿ (ii) **Endoparasite control methods:**\n"
+"⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+"⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+"⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+answer: "Correct Answer:\n"
+"⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+"⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+"⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+"⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+answer: "Correct Answer:\n"
+"⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+"⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+answer: "Correct Answer:\n"
+"⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+"Advantages:\n"
+"⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+"⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+explanation: "",
+),
+    ],
+  ),
+
+
+
+
+  
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "Religious & Moral Education JHS1 s1 ss1 - Religion, God, His Creation and Attributes": PracticeModel(
     audioPath: '',
