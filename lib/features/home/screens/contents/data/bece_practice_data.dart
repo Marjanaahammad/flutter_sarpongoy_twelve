@@ -15669,172 +15669,172 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(i) What is energy?\n\n"
-            "(ii) Give two reasons why it is necessary to conserve energy.",
-        answer: "⦿ (i) What is energy?\n\n"
-            "Energy is defined as the ability or capacity to do work.\n\n"
-            "⦿ (ii) Reasons for conserving energy:\n\n"
-            "• It helps to lower household electricity and fuel bills.\n\n"
-            "• It reduces domestic electricity consumption and expenditure.\n\n"
-            "• It ensures that energy resources remain available for sustainable future use.\n\n"
-            "• It reduces a country's economic dependence on costly imported fuels.\n\n"
-            "• It minimises overloads and reduces mechanical strain on national power grids.",
+        scenario: "QUESTION (a) (BECE 1990 Q4(c)(iii))\n\n"
+            "Distinguish between heat and temperature and give their units.",
+        answer: "⦿ Answer:\n\n"
+            "• Heat serves as a form of kinetic energy that moves from one location or body to another due to a variance in thermal state. It is quantified using the SI unit joule (J).\n\n"
+            "• Temperature quantifies how hot or cold an object or environment is relative to an established scale. It is measured in kelvin (K) or degrees Celsius (°C).",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2021 Q5(b))\n\n"
-            "(i) Explain how energy from a windmill is obtained.\n\n"
-            "(ii) State one source of renewable energy.",
-        answer: "⦿ (i) How energy from a windmill is obtained:\n\n"
-            "• The energy in the wind is trapped by the blades of the windmill, causing them to turn.\n\n"
-            "• The rotating windmill is connected to an internal generator or turbine.\n\n"
-            "• The turbine converts the kinetic energy of the rotating blades into usable electrical energy.\n\n"
-            "⦿ (ii) Sources of renewable energy:\n\n"
-            "• Solar energy\n\n"
-            "• Wind energy\n\n"
-            "• Hydropower\n\n"
-            "• Biomass energy\n\n"
-            "• Tidal energy\n\n"
-            "• Wave energy",
+        scenario: "QUESTION (b) (BECE 1994 Q2b)\n\n"
+            "Answer the following questions on thermal energy transfer and insulation:\n\n"
+            "(i) By what process does the heat of the sun reach the earth?\n\n"
+            "(ii) An aluminium bowl placed on a table is filled with hot water. Name the processes by which heat is lost by the bowl.\n\n"
+            "(iii) Give one reason why wood is used as a handle for some cooking utensils.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Radiant thermal energy travels through space from the sun to the earth via electromagnetic waves in a process known as radiation.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Direct physical contact between the bowl surface, table, and air particles leads to thermal dissipation through conduction.\n\n"
+            "• Fluid movements within the surrounding air draw thermal energy away from the exposed surface via convection.\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Wood exhibits low thermal conductivity, acting as an effective insulator that prevents thermal energy from migrating across the handle and protecting hands from high temperatures.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2013 Q1(b))\n\n"
+        scenario: "QUESTION (c) (BECE 1996 Q4c)\n\n"
+            "Answer the following questions on heat properties and transmission:\n\n"
+            "(i) What happens to the temperature of water that is boiling in an open container?\n\n"
+            "(ii) Name the three processes by which heat is transmitted.\n\n"
+            "(iii) Name two applications of the expansion of solids in everyday life.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• The thermal level of boiling water in an unsealed vessel remains static at its boiling threshold throughout the vaporization phase, as added energy fuels phase transformation rather than temperature rise.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Conduction operates primarily within solid media through particle contact.\n\n"
+            "• Convection transports thermal energy across moving liquid or gas currents.\n\n"
+            "• Radiation conveys energy using electromagnetic waves without needing a material medium.\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Structural gaps positioned between successive railway lines accommodate metallic expansion during high atmospheric temperatures to prevent structural buckling.\n\n"
+            "• Bimetallic strips engineered into thermostat mechanisms flex upon thermal expansion to regulate current flow in heating appliances.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (d) (BECE 1997 Q1c)\n\n"
+            "Answer the following questions on thermal transfer and application devices:\n\n"
+            "(i) Name the three processes by which heat can be transferred.\n\n"
+            "(ii) Name three electrical appliances which use thermostat.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Heat migration proceeds through conduction, convection, and radiation.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Electric irons utilize internal thermostat switches to maintain target pressing temperatures.\n\n"
+            "• Refrigerators employ thermostats to trigger cooling cycles and maintain safe internal temperatures.\n\n"
+            "• Electric ovens rely on thermostat mechanisms to regulate heating elements for consistent cooking environments.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (e) (BECE 1997 Q3d)\n\n"
+            "Explain why it is better to wear white clothes than black clothes on a sunny day.",
+        answer: "⦿ Answer:\n\n"
+            "• Light fabrics possess a high reflection coefficient, bouncing incoming solar radiation away from the body to minimize thermal absorption.\n\n"
+            "• Dark fabrics absorb a broad spectrum of thermal radiation, converting absorbed radiant light into thermal energy that raises body temperature.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (f) (BECE 1998 Q3a)\n\n"
+            "Explain the following physical phenomena:\n\n"
+            "(i) Crackling noises are heard from a metal sheet roof when the weather becomes very hot.\n\n"
+            "(ii) Railway tracks are laid with gaps in between their ends.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Intense thermal exposure causes metal roofing sheets to expand rapidly against their fixings, generating mechanical friction that releases audible crackling sounds.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Open spacing between track sections creates necessary clearance for linear expansion when temperatures rise, preventing mechanical warping of the line.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (g) (BECE 2002A Q3d)\n\n"
+            "Answer the following questions regarding heat measurement:\n\n"
+            "(i) Distinguish between heat and temperature.\n\n"
+            "(ii) State the units of heat and temperature.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Heat represents total thermal energy transferred down a temperature gradient.\n\n"
+            "• Temperature reflects the average molecular kinetic energy indicating the intensity of hotness within a system.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Heat energy is expressed standardly in joules (J).\n\n"
+            "• Temperature is expressed standardly in kelvin (K) or degrees Celsius (°C).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (h) (BECE 2012 Q6d)\n\n"
+            "Give two differences between conduction and radiation of heat.",
+        answer: "⦿ Answer:\n\n"
+            "• Conduction necessitates physical material particles to transfer thermal kinetic energy, whereas radiation moves freely across empty vacuums via electromagnetic waves.\n\n"
+            "• Conduction relies on direct mechanical contact or proximity within media, whereas radiation transfers energy across distances without direct physical contact.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (i) (BECE 2013 Q5d)\n\n"
             "State the effect of heat on each of the following substances:\n\n"
-            "(i) plastics;\n\n"
-            "(ii) alcohol;\n\n"
-            "(iii) metal rod.",
-        answer: "⦿ (i) Plastics:\n\n"
-            "• Exposure to heat causes plastics to soften, melt or burn.\n\n"
-            "⦿ (ii) Alcohol:\n\n"
-            "• Exposure to heat causes alcohol to expand and evaporate rapidly.\n\n"
-            "⦿ (iii) Metal rod:\n\n"
-            "• Exposure to heat causes the metal rod to expand and conduct thermal energy along its length.",
+            "(i) plastics\n\n"
+            "(ii) alcohol\n\n"
+            "(iii) metal rod",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Applying thermal energy causes structural softening in thermoplastic materials, inducing phase change into liquid melt followed by thermal degradation or combustion upon continued heating.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Absorbing heat increases molecular kinetic energy in liquid alcohol, causing volumetric expansion, accelerated surface evaporation, and eventual boiling at its boiling point.\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Subjecting a metal rod to elevated temperatures causes dimensional expansion along its length and volume, leading eventually to liquid melting at its melting point.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2014 Q4(d))\n\n"
-            "State two properties of a good thermometric liquid.",
-        answer: "⦿ Properties of a good thermometric liquid:\n\n"
-            "• It must be opaque or highly visible inside the capillary tube.\n\n"
-            "• It must expand and contract uniformly with changes in temperature.\n\n"
-            "• It must possess a wide temperature range, with a high boiling point and a low freezing point.\n\n"
-            "• It must not wet or cling to the walls of the glass tube.",
+        scenario: "QUESTION (j) (BECE 2014 Q6d)\n\n"
+            "Answer the following questions on thermometric fluids:\n\n"
+            "(i) State two properties of a good thermometric liquid.\n\n"
+            "(ii) Give two examples of a good thermometric liquid.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• The liquid must expand linearly and predictably across a wide thermal operating domain.\n\n"
+            "• The fluid must maintain low adhesion properties, ensuring it does not cling to or wet internal glass capillary walls.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Mercury serves as a high-conductivity metallic fluid suitable for broad thermal measurements.\n\n"
+            "• Ethanol provides a suitable low-freezing-point liquid for lower range thermometric applications.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2021 Q4(b))\n\n"
-            "(i) Explain the term convection as applied to heat transfer.\n\n"
-            "(ii) Give two reasons why convection does not occur in solids.",
-        answer: "⦿ (i) Explanation of convection:\n\n"
-            "Convection is the transfer of heat through the actual bulk movement of particles in a fluid, such as a liquid or gas.\n\n"
-            "⦿ (ii) Reasons why convection does not occur in solids:\n\n"
-            "• Convection requires the free movement of matter, which is absent in solids.\n\n"
-            "• Particles in solids cannot flow or change positions like particles in liquids and gases.\n\n"
-            "• Solid particles are tightly packed in fixed positions and cannot move freely from place to place.\n\n"
-            "• Particles in solids transfer heat by vibrating and passing energy to neighbouring particles.",
+        scenario: "QUESTION (k) (BECE 2015 Q5c)\n\n"
+            "Answer the following questions on heat transfer mechanisms:\n\n"
+            "(i) List three modes of heat transfer.\n\n"
+            "(ii) Name the type of medium in which each mode of heat transfer you have listed in (i) takes place.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Conduction\n\n"
+            "• Convection\n\n"
+            "• Radiation\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Conduction occurs primarily within solid material structures.\n\n"
+            "• Convection requires fluid media, operating throughout liquids and gases.\n\n"
+            "• Radiation functions effectively across empty space vacuums as well as transparent media.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2012 Q3(b))\n\n"
-            "State two effects of heat on a substance.",
-        answer: "⦿ Effects of heat on a substance:\n\n"
-            "• It causes the substance to expand.\n\n"
-            "• It may cause a change of state, such as melting, boiling or evaporation.\n\n"
-            "• It increases the temperature and average kinetic energy of the particles of the substance.\n\n"
-            "• It may decrease the density of the substance as its volume increases.",
+        scenario: "QUESTION (l) (BECE 2021 Q4a)\n\n"
+            "Explain the term convection as applied to heat transfer. Give two reasons why convection does not occur in solids.",
+        answer: "⦿ Answer:\n\n"
+            "• Convection represents heat transfer within fluids driven by density variations, where heated, less dense fluid sections rise while colder, denser sections sink.\n\n"
+            "• Solid materials feature rigidly fixed atomic lattice structures held together by strong inter-particle forces, preventing bulk displacement of particles.\n\n"
+            "• Solid particles vibrate strictly around fixed equilibrium points rather than migrating across the medium to form convective currents.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2005 Q3(b))\n\n"
-            "State the laws of reflection.",
-        answer: "⦿ Laws of reflection:\n\n"
-            "• The angle of incidence is equal to the angle of reflection.\n\n"
-            "• The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.",
+        scenario: "QUESTION (m) (BECE 2022 Q3d)\n\n"
+            "Answer the following questions on heat effects and practical demonstrations:\n\n"
+            "(i) State two effects of heat on a substance.\n\n"
+            "(ii) Potassium permanganate crystals are dropped into a beaker of water and warmed:\n\n"
+            "    (α) State what would be observed.\n\n"
+            "    (β) State the phenomenon demonstrated in (α).",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Thermal energy input triggers physical phase changes, converting solids to liquids or liquids to gases.\n\n"
+            "• Heat intake increases internal thermal expansion, altering linear and volumetric dimensions while raising overall temperature.\n\n"
+            "⦿ (ii)(α) Answer:\n\n"
+            "• Deep purple streaks originate near the heated container floor and stream upward toward the surface before circulating down again.\n\n"
+            "⦿ (ii)(β) Answer:\n\n"
+            "• The fluid circulation visually demonstrates thermal convection currents operating within liquid.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 8 (BECE 2016 Q2(a))\n\n"
-            "(i) State the distinction between an opaque object and a translucent object.\n\n"
-            "(ii) Give one example each of an opaque object and a translucent object.",
-        answer:
-            "⦿ (i) Difference between an opaque object and a translucent object:\n\n"
-            "• Opaque object: An object that completely blocks light from passing through it. Objects cannot be seen through it, and it forms a dark shadow.\n\n"
-            "• Translucent object: An object that allows only some light to pass through it. Objects viewed through it appear blurred or unclear.\n\n"
-            "⦿ (ii) Examples of opaque objects:\n\n"
-            "• Brick wall\n\n"
-            "• Dense wood\n\n"
-            "• Human body\n\n"
-            "• Solid stone\n\n"
-            "• Unpolished metal\n\n"
-            "⦿ Examples of translucent objects:\n\n"
-            "• Frosted glass\n\n"
-            "• Thin plastic sheet\n\n"
-            "• Tracing paper\n\n"
-            "• Muddy water\n\n"
-            "• Oiled paper",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 9 (BECE 2009 Q4(c))\n\n"
-            "A certain pupil in a classroom can see clearly on the blackboard only when he sits at the front.\n\n"
-            "(i) State the eye defect the child is suffering from.\n\n"
-            "(ii) Explain why the child is unable to see clearly when he is far from the blackboard.\n\n"
-            "(iii) How can the eye defect be corrected?",
-        answer: "⦿ (i) Eye defect:\n\n"
-            "• Short-sightedness or myopia.\n\n"
-            "⦿ (ii) Explanation:\n\n"
-            "• The child is unable to see distant objects clearly because light rays from distant objects are focused in front of the retina instead of directly on it.\n\n"
-            "⦿ (iii) How the eye defect can be corrected:\n\n"
-            "• The child should wear spectacles fitted with diverging or concave lenses. These lenses diverge the light rays so that the image is focused correctly on the retina.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 10 (BECE 2011 Q3(b))\n\n"
-            "(i) What is reflection of light?\n\n"
-            "(ii) State two characteristics of the images formed by plane mirrors.",
-        answer: "⦿ (i) Reflection of light:\n\n"
-            "Reflection of light is the bouncing back of light rays when they strike a reflecting surface.\n\n"
-            "⦿ (ii) Characteristics of images formed by plane mirrors:\n\n"
-            "• The image is erect or upright.\n\n"
-            "• The image is virtual and cannot be formed on a screen.\n\n"
-            "• The image is laterally inverted.\n\n"
-            "• The image distance behind the mirror is equal to the object distance in front of the mirror.\n\n"
-            "• The image is the same size as the object.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 11 (BECE 2013 Q4(b))\n\n"
-            "Name two sources each of:\n\n"
-            "(i) natural light;\n\n"
-            "(ii) artificial light.",
-        answer: "⦿ (i) Sources of natural light:\n\n"
-            "• The Sun\n\n"
-            "• Stars\n\n"
-            "• Lightning\n\n"
-            "• Fireflies\n\n"
-            "• Deep-sea luminous organisms\n\n"
-            "⦿ (ii) Sources of artificial light:\n\n"
-            "• Burning coal\n\n"
-            "• Flashlight or torchlight\n\n"
-            "• Lighted match or wood fire\n\n"
-            "• Kerosene lamp\n\n"
-            "• Electric light bulb",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 12 (BECE 2022 Q4b)\n\n"
-            "(i) What an eclipse occurs?\n\n"
-            "(ii) Explain briefly why an eclipse occurs.\n\n"
-            "(iii) Name the two types of eclipse.",
-        answer: "⦿ (i) Meaning of an eclipse:\n\n"
-            "• An eclipse occurs when an astronomical body moves into the shadow of another body or has its light blocked by an intervening object.\n\n"
-            "⦿ (ii) Why an eclipse occurs:\n\n"
-            "• An eclipse occurs because light travels in a straight line (rectilinear propagation of light). When an opaque cosmic body (like the Earth or the Moon) passes directly between a light source and another body, it blocks the light rays and casts a dark shadow.\n\n"
-            "⦿ (iii) Two types of eclipse:\n\n"
-            "• Eclipse of the Moon (Lunar eclipse)\n\n"
-            "• Eclipse of the Sun (Solar eclipse)\n\n",
+        scenario: "QUESTION (n) (BECE 2025 Q5(c)(ii))\n\n"
+            "State three differences between heat and temperature.",
+        answer: "⦿ Answer:\n\n"
+            "• Heat represents energy transferred owing to a temperature difference, whereas temperature measures the relative degree of hotness or coldness of a body.\n\n"
+            "• Heat energy is measured in joules (J) using calorimetry, whereas temperature is measured in kelvin (K) or degrees Celsius (°C) using thermometric instruments.\n\n"
+            "• Heat energy depends directly on the total mass and molecular quantity of a sample, whereas temperature operates independently of sample mass.",
         explanation: "",
       ),
     ],
