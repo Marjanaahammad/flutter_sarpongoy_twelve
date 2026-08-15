@@ -13845,6 +13845,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+
   "Science JHS1 s3 ss3 - Interactions in Ecosystems & Environmental Factors": PracticeModel(
     audioPath: '',
     questions: [
@@ -14186,6 +14187,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+
   "Science JHS2 s3 ss3 - Interactions in Ecosystems & Environmental Factors":PracticeModel(
     audioPath: '',
     questions: [
@@ -14527,6 +14529,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+
   "Science JHS3 s3 ss3 - Interactions in Ecosystems & Environmental Factors": PracticeModel(
     audioPath: '',
     questions: [
@@ -15665,520 +15668,172 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(i) What is energy?\n\n"
-            "(ii) Give two reasons why it is necessary to conserve energy.",
-        answer: "⦿ (i) What is energy?\n\n"
-            "Energy is defined as the ability or capacity to do work.\n\n"
-            "⦿ (ii) Reasons for conserving energy:\n\n"
-            "• It helps to lower household electricity and fuel bills.\n\n"
-            "• It reduces domestic electricity consumption and expenditure.\n\n"
-            "• It ensures that energy resources remain available for sustainable future use.\n\n"
-            "• It reduces a country's economic dependence on costly imported fuels.\n\n"
-            "• It minimises overloads and reduces mechanical strain on national power grids.",
+        scenario: "QUESTION (a) (BECE 1990 Q4(c)(iii))\n\n"
+            "Distinguish between heat and temperature and give their units.",
+        answer: "⦿ Answer:\n\n"
+            "• Heat serves as a form of kinetic energy that moves from one location or body to another due to a variance in thermal state. It is quantified using the SI unit joule (J).\n\n"
+            "• Temperature quantifies how hot or cold an object or environment is relative to an established scale. It is measured in kelvin (K) or degrees Celsius (°C).",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2021 Q5(b))\n\n"
-            "(i) Explain how energy from a windmill is obtained.\n\n"
-            "(ii) State one source of renewable energy.",
-        answer: "⦿ (i) How energy from a windmill is obtained:\n\n"
-            "• The energy in the wind is trapped by the blades of the windmill, causing them to turn.\n\n"
-            "• The rotating windmill is connected to an internal generator or turbine.\n\n"
-            "• The turbine converts the kinetic energy of the rotating blades into usable electrical energy.\n\n"
-            "⦿ (ii) Sources of renewable energy:\n\n"
-            "• Solar energy\n\n"
-            "• Wind energy\n\n"
-            "• Hydropower\n\n"
-            "• Biomass energy\n\n"
-            "• Tidal energy\n\n"
-            "• Wave energy",
+        scenario: "QUESTION (b) (BECE 1994 Q2b)\n\n"
+            "Answer the following questions on thermal energy transfer and insulation:\n\n"
+            "(i) By what process does the heat of the sun reach the earth?\n\n"
+            "(ii) An aluminium bowl placed on a table is filled with hot water. Name the processes by which heat is lost by the bowl.\n\n"
+            "(iii) Give one reason why wood is used as a handle for some cooking utensils.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Radiant thermal energy travels through space from the sun to the earth via electromagnetic waves in a process known as radiation.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Direct physical contact between the bowl surface, table, and air particles leads to thermal dissipation through conduction.\n\n"
+            "• Fluid movements within the surrounding air draw thermal energy away from the exposed surface via convection.\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Wood exhibits low thermal conductivity, acting as an effective insulator that prevents thermal energy from migrating across the handle and protecting hands from high temperatures.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2013 Q1(b))\n\n"
+        scenario: "QUESTION (c) (BECE 1996 Q4c)\n\n"
+            "Answer the following questions on heat properties and transmission:\n\n"
+            "(i) What happens to the temperature of water that is boiling in an open container?\n\n"
+            "(ii) Name the three processes by which heat is transmitted.\n\n"
+            "(iii) Name two applications of the expansion of solids in everyday life.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• The thermal level of boiling water in an unsealed vessel remains static at its boiling threshold throughout the vaporization phase, as added energy fuels phase transformation rather than temperature rise.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Conduction operates primarily within solid media through particle contact.\n\n"
+            "• Convection transports thermal energy across moving liquid or gas currents.\n\n"
+            "• Radiation conveys energy using electromagnetic waves without needing a material medium.\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Structural gaps positioned between successive railway lines accommodate metallic expansion during high atmospheric temperatures to prevent structural buckling.\n\n"
+            "• Bimetallic strips engineered into thermostat mechanisms flex upon thermal expansion to regulate current flow in heating appliances.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (d) (BECE 1997 Q1c)\n\n"
+            "Answer the following questions on thermal transfer and application devices:\n\n"
+            "(i) Name the three processes by which heat can be transferred.\n\n"
+            "(ii) Name three electrical appliances which use thermostat.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Heat migration proceeds through conduction, convection, and radiation.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Electric irons utilize internal thermostat switches to maintain target pressing temperatures.\n\n"
+            "• Refrigerators employ thermostats to trigger cooling cycles and maintain safe internal temperatures.\n\n"
+            "• Electric ovens rely on thermostat mechanisms to regulate heating elements for consistent cooking environments.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (e) (BECE 1997 Q3d)\n\n"
+            "Explain why it is better to wear white clothes than black clothes on a sunny day.",
+        answer: "⦿ Answer:\n\n"
+            "• Light fabrics possess a high reflection coefficient, bouncing incoming solar radiation away from the body to minimize thermal absorption.\n\n"
+            "• Dark fabrics absorb a broad spectrum of thermal radiation, converting absorbed radiant light into thermal energy that raises body temperature.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (f) (BECE 1998 Q3a)\n\n"
+            "Explain the following physical phenomena:\n\n"
+            "(i) Crackling noises are heard from a metal sheet roof when the weather becomes very hot.\n\n"
+            "(ii) Railway tracks are laid with gaps in between their ends.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Intense thermal exposure causes metal roofing sheets to expand rapidly against their fixings, generating mechanical friction that releases audible crackling sounds.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Open spacing between track sections creates necessary clearance for linear expansion when temperatures rise, preventing mechanical warping of the line.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (g) (BECE 2002A Q3d)\n\n"
+            "Answer the following questions regarding heat measurement:\n\n"
+            "(i) Distinguish between heat and temperature.\n\n"
+            "(ii) State the units of heat and temperature.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Heat represents total thermal energy transferred down a temperature gradient.\n\n"
+            "• Temperature reflects the average molecular kinetic energy indicating the intensity of hotness within a system.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Heat energy is expressed standardly in joules (J).\n\n"
+            "• Temperature is expressed standardly in kelvin (K) or degrees Celsius (°C).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (h) (BECE 2012 Q6d)\n\n"
+            "Give two differences between conduction and radiation of heat.",
+        answer: "⦿ Answer:\n\n"
+            "• Conduction necessitates physical material particles to transfer thermal kinetic energy, whereas radiation moves freely across empty vacuums via electromagnetic waves.\n\n"
+            "• Conduction relies on direct mechanical contact or proximity within media, whereas radiation transfers energy across distances without direct physical contact.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "QUESTION (i) (BECE 2013 Q5d)\n\n"
             "State the effect of heat on each of the following substances:\n\n"
-            "(i) plastics;\n\n"
-            "(ii) alcohol;\n\n"
-            "(iii) metal rod.",
-        answer: "⦿ (i) Plastics:\n\n"
-            "• Exposure to heat causes plastics to soften, melt or burn.\n\n"
-            "⦿ (ii) Alcohol:\n\n"
-            "• Exposure to heat causes alcohol to expand and evaporate rapidly.\n\n"
-            "⦿ (iii) Metal rod:\n\n"
-            "• Exposure to heat causes the metal rod to expand and conduct thermal energy along its length.",
+            "(i) plastics\n\n"
+            "(ii) alcohol\n\n"
+            "(iii) metal rod",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Applying thermal energy causes structural softening in thermoplastic materials, inducing phase change into liquid melt followed by thermal degradation or combustion upon continued heating.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Absorbing heat increases molecular kinetic energy in liquid alcohol, causing volumetric expansion, accelerated surface evaporation, and eventual boiling at its boiling point.\n\n"
+            "⦿ (iii) Answer:\n\n"
+            "• Subjecting a metal rod to elevated temperatures causes dimensional expansion along its length and volume, leading eventually to liquid melting at its melting point.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2014 Q4(d))\n\n"
-            "State two properties of a good thermometric liquid.",
-        answer: "⦿ Properties of a good thermometric liquid:\n\n"
-            "• It must be opaque or highly visible inside the capillary tube.\n\n"
-            "• It must expand and contract uniformly with changes in temperature.\n\n"
-            "• It must possess a wide temperature range, with a high boiling point and a low freezing point.\n\n"
-            "• It must not wet or cling to the walls of the glass tube.",
+        scenario: "QUESTION (j) (BECE 2014 Q6d)\n\n"
+            "Answer the following questions on thermometric fluids:\n\n"
+            "(i) State two properties of a good thermometric liquid.\n\n"
+            "(ii) Give two examples of a good thermometric liquid.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• The liquid must expand linearly and predictably across a wide thermal operating domain.\n\n"
+            "• The fluid must maintain low adhesion properties, ensuring it does not cling to or wet internal glass capillary walls.\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Mercury serves as a high-conductivity metallic fluid suitable for broad thermal measurements.\n\n"
+            "• Ethanol provides a suitable low-freezing-point liquid for lower range thermometric applications.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2021 Q4(b))\n\n"
-            "(i) Explain the term convection as applied to heat transfer.\n\n"
-            "(ii) Give two reasons why convection does not occur in solids.",
-        answer: "⦿ (i) Explanation of convection:\n\n"
-            "Convection is the transfer of heat through the actual bulk movement of particles in a fluid, such as a liquid or gas.\n\n"
-            "⦿ (ii) Reasons why convection does not occur in solids:\n\n"
-            "• Convection requires the free movement of matter, which is absent in solids.\n\n"
-            "• Particles in solids cannot flow or change positions like particles in liquids and gases.\n\n"
-            "• Solid particles are tightly packed in fixed positions and cannot move freely from place to place.\n\n"
-            "• Particles in solids transfer heat by vibrating and passing energy to neighbouring particles.",
+        scenario: "QUESTION (k) (BECE 2015 Q5c)\n\n"
+            "Answer the following questions on heat transfer mechanisms:\n\n"
+            "(i) List three modes of heat transfer.\n\n"
+            "(ii) Name the type of medium in which each mode of heat transfer you have listed in (i) takes place.",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Conduction\n\n"
+            "• Convection\n\n"
+            "• Radiation\n\n"
+            "⦿ (ii) Answer:\n\n"
+            "• Conduction occurs primarily within solid material structures.\n\n"
+            "• Convection requires fluid media, operating throughout liquids and gases.\n\n"
+            "• Radiation functions effectively across empty space vacuums as well as transparent media.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2012 Q3(b))\n\n"
-            "State two effects of heat on a substance.",
-        answer: "⦿ Effects of heat on a substance:\n\n"
-            "• It causes the substance to expand.\n\n"
-            "• It may cause a change of state, such as melting, boiling or evaporation.\n\n"
-            "• It increases the temperature and average kinetic energy of the particles of the substance.\n\n"
-            "• It may decrease the density of the substance as its volume increases.",
+        scenario: "QUESTION (l) (BECE 2021 Q4a)\n\n"
+            "Explain the term convection as applied to heat transfer. Give two reasons why convection does not occur in solids.",
+        answer: "⦿ Answer:\n\n"
+            "• Convection represents heat transfer within fluids driven by density variations, where heated, less dense fluid sections rise while colder, denser sections sink.\n\n"
+            "• Solid materials feature rigidly fixed atomic lattice structures held together by strong inter-particle forces, preventing bulk displacement of particles.\n\n"
+            "• Solid particles vibrate strictly around fixed equilibrium points rather than migrating across the medium to form convective currents.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2005 Q3(b))\n\n"
-            "State the laws of reflection.",
-        answer: "⦿ Laws of reflection:\n\n"
-            "• The angle of incidence is equal to the angle of reflection.\n\n"
-            "• The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.",
+        scenario: "QUESTION (m) (BECE 2022 Q3d)\n\n"
+            "Answer the following questions on heat effects and practical demonstrations:\n\n"
+            "(i) State two effects of heat on a substance.\n\n"
+            "(ii) Potassium permanganate crystals are dropped into a beaker of water and warmed:\n\n"
+            "    (α) State what would be observed.\n\n"
+            "    (β) State the phenomenon demonstrated in (α).",
+        answer: "⦿ (i) Answer:\n\n"
+            "• Thermal energy input triggers physical phase changes, converting solids to liquids or liquids to gases.\n\n"
+            "• Heat intake increases internal thermal expansion, altering linear and volumetric dimensions while raising overall temperature.\n\n"
+            "⦿ (ii)(α) Answer:\n\n"
+            "• Deep purple streaks originate near the heated container floor and stream upward toward the surface before circulating down again.\n\n"
+            "⦿ (ii)(β) Answer:\n\n"
+            "• The fluid circulation visually demonstrates thermal convection currents operating within liquid.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 8 (BECE 2016 Q2(a))\n\n"
-            "(i) State the distinction between an opaque object and a translucent object.\n\n"
-            "(ii) Give one example each of an opaque object and a translucent object.",
-        answer:
-            "⦿ (i) Difference between an opaque object and a translucent object:\n\n"
-            "• Opaque object: An object that completely blocks light from passing through it. Objects cannot be seen through it, and it forms a dark shadow.\n\n"
-            "• Translucent object: An object that allows only some light to pass through it. Objects viewed through it appear blurred or unclear.\n\n"
-            "⦿ (ii) Examples of opaque objects:\n\n"
-            "• Brick wall\n\n"
-            "• Dense wood\n\n"
-            "• Human body\n\n"
-            "• Solid stone\n\n"
-            "• Unpolished metal\n\n"
-            "⦿ Examples of translucent objects:\n\n"
-            "• Frosted glass\n\n"
-            "• Thin plastic sheet\n\n"
-            "• Tracing paper\n\n"
-            "• Muddy water\n\n"
-            "• Oiled paper",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 9 (BECE 2009 Q4(c))\n\n"
-            "A certain pupil in a classroom can see clearly on the blackboard only when he sits at the front.\n\n"
-            "(i) State the eye defect the child is suffering from.\n\n"
-            "(ii) Explain why the child is unable to see clearly when he is far from the blackboard.\n\n"
-            "(iii) How can the eye defect be corrected?",
-        answer: "⦿ (i) Eye defect:\n\n"
-            "• Short-sightedness or myopia.\n\n"
-            "⦿ (ii) Explanation:\n\n"
-            "• The child is unable to see distant objects clearly because light rays from distant objects are focused in front of the retina instead of directly on it.\n\n"
-            "⦿ (iii) How the eye defect can be corrected:\n\n"
-            "• The child should wear spectacles fitted with diverging or concave lenses. These lenses diverge the light rays so that the image is focused correctly on the retina.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 10 (BECE 2011 Q3(b))\n\n"
-            "(i) What is reflection of light?\n\n"
-            "(ii) State two characteristics of the images formed by plane mirrors.",
-        answer: "⦿ (i) Reflection of light:\n\n"
-            "Reflection of light is the bouncing back of light rays when they strike a reflecting surface.\n\n"
-            "⦿ (ii) Characteristics of images formed by plane mirrors:\n\n"
-            "• The image is erect or upright.\n\n"
-            "• The image is virtual and cannot be formed on a screen.\n\n"
-            "• The image is laterally inverted.\n\n"
-            "• The image distance behind the mirror is equal to the object distance in front of the mirror.\n\n"
-            "• The image is the same size as the object.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 11 (BECE 2013 Q4(b))\n\n"
-            "Name two sources each of:\n\n"
-            "(i) natural light;\n\n"
-            "(ii) artificial light.",
-        answer: "⦿ (i) Sources of natural light:\n\n"
-            "• The Sun\n\n"
-            "• Stars\n\n"
-            "• Lightning\n\n"
-            "• Fireflies\n\n"
-            "• Deep-sea luminous organisms\n\n"
-            "⦿ (ii) Sources of artificial light:\n\n"
-            "• Burning coal\n\n"
-            "• Flashlight or torchlight\n\n"
-            "• Lighted match or wood fire\n\n"
-            "• Kerosene lamp\n\n"
-            "• Electric light bulb",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 12 (BECE 2022 Q4b)\n\n"
-            "(i) What an eclipse occurs?\n\n"
-            "(ii) Explain briefly why an eclipse occurs.\n\n"
-            "(iii) Name the two types of eclipse.",
-        answer: "⦿ (i) Meaning of an eclipse:\n\n"
-            "• An eclipse occurs when an astronomical body moves into the shadow of another body or has its light blocked by an intervening object.\n\n"
-            "⦿ (ii) Why an eclipse occurs:\n\n"
-            "• An eclipse occurs because light travels in a straight line (rectilinear propagation of light). When an opaque cosmic body (like the Earth or the Moon) passes directly between a light source and another body, it blocks the light rays and casts a dark shadow.\n\n"
-            "⦿ (iii) Two types of eclipse:\n\n"
-            "• Eclipse of the Moon (Lunar eclipse)\n\n"
-            "• Eclipse of the Sun (Solar eclipse)\n\n",
-        explanation: "",
-      ),
-    ],
-  ),
-  "Science JHS2 s4 ss1 - Source, Forms, and Related Properties of Energy": PracticeModel(
-    audioPath: '',
-    questions: [
-      PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(i) What is energy?\n\n"
-            "(ii) Give two reasons why it is necessary to conserve energy.",
-        answer: "⦿ (i) What is energy?\n\n"
-            "Energy is defined as the ability or capacity to do work.\n\n"
-            "⦿ (ii) Reasons for conserving energy:\n\n"
-            "• It helps to lower household electricity and fuel bills.\n\n"
-            "• It reduces domestic electricity consumption and expenditure.\n\n"
-            "• It ensures that energy resources remain available for sustainable future use.\n\n"
-            "• It reduces a country's economic dependence on costly imported fuels.\n\n"
-            "• It minimises overloads and reduces mechanical strain on national power grids.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2021 Q5(b))\n\n"
-            "(i) Explain how energy from a windmill is obtained.\n\n"
-            "(ii) State one source of renewable energy.",
-        answer: "⦿ (i) How energy from a windmill is obtained:\n\n"
-            "• The energy in the wind is trapped by the blades of the windmill, causing them to turn.\n\n"
-            "• The rotating windmill is connected to an internal generator or turbine.\n\n"
-            "• The turbine converts the kinetic energy of the rotating blades into usable electrical energy.\n\n"
-            "⦿ (ii) Sources of renewable energy:\n\n"
-            "• Solar energy\n\n"
-            "• Wind energy\n\n"
-            "• Hydropower\n\n"
-            "• Biomass energy\n\n"
-            "• Tidal energy\n\n"
-            "• Wave energy",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2013 Q1(b))\n\n"
-            "State the effect of heat on each of the following substances:\n\n"
-            "(i) plastics;\n\n"
-            "(ii) alcohol;\n\n"
-            "(iii) metal rod.",
-        answer: "⦿ (i) Plastics:\n\n"
-            "• Exposure to heat causes plastics to soften, melt or burn.\n\n"
-            "⦿ (ii) Alcohol:\n\n"
-            "• Exposure to heat causes alcohol to expand and evaporate rapidly.\n\n"
-            "⦿ (iii) Metal rod:\n\n"
-            "• Exposure to heat causes the metal rod to expand and conduct thermal energy along its length.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2014 Q4(d))\n\n"
-            "State two properties of a good thermometric liquid.",
-        answer: "⦿ Properties of a good thermometric liquid:\n\n"
-            "• It must be opaque or highly visible inside the capillary tube.\n\n"
-            "• It must expand and contract uniformly with changes in temperature.\n\n"
-            "• It must possess a wide temperature range, with a high boiling point and a low freezing point.\n\n"
-            "• It must not wet or cling to the walls of the glass tube.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2021 Q4(b))\n\n"
-            "(i) Explain the term convection as applied to heat transfer.\n\n"
-            "(ii) Give two reasons why convection does not occur in solids.",
-        answer: "⦿ (i) Explanation of convection:\n\n"
-            "Convection is the transfer of heat through the actual bulk movement of particles in a fluid, such as a liquid or gas.\n\n"
-            "⦿ (ii) Reasons why convection does not occur in solids:\n\n"
-            "• Convection requires the free movement of matter, which is absent in solids.\n\n"
-            "• Particles in solids cannot flow or change positions like particles in liquids and gases.\n\n"
-            "• Solid particles are tightly packed in fixed positions and cannot move freely from place to place.\n\n"
-            "• Particles in solids transfer heat by vibrating and passing energy to neighbouring particles.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2012 Q3(b))\n\n"
-            "State two effects of heat on a substance.",
-        answer: "⦿ Effects of heat on a substance:\n\n"
-            "• It causes the substance to expand.\n\n"
-            "• It may cause a change of state, such as melting, boiling or evaporation.\n\n"
-            "• It increases the temperature and average kinetic energy of the particles of the substance.\n\n"
-            "• It may decrease the density of the substance as its volume increases.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2005 Q3(b))\n\n"
-            "State the laws of reflection.",
-        answer: "⦿ Laws of reflection:\n\n"
-            "• The angle of incidence is equal to the angle of reflection.\n\n"
-            "• The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 8 (BECE 2016 Q2(a))\n\n"
-            "(i) State the distinction between an opaque object and a translucent object.\n\n"
-            "(ii) Give one example each of an opaque object and a translucent object.",
-        answer:
-            "⦿ (i) Difference between an opaque object and a translucent object:\n\n"
-            "• Opaque object: An object that completely blocks light from passing through it. Objects cannot be seen through it, and it forms a dark shadow.\n\n"
-            "• Translucent object: An object that allows only some light to pass through it. Objects viewed through it appear blurred or unclear.\n\n"
-            "⦿ (ii) Examples of opaque objects:\n\n"
-            "• Brick wall\n\n"
-            "• Dense wood\n\n"
-            "• Human body\n\n"
-            "• Solid stone\n\n"
-            "• Unpolished metal\n\n"
-            "⦿ Examples of translucent objects:\n\n"
-            "• Frosted glass\n\n"
-            "• Thin plastic sheet\n\n"
-            "• Tracing paper\n\n"
-            "• Muddy water\n\n"
-            "• Oiled paper",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 9 (BECE 2009 Q4(c))\n\n"
-            "A certain pupil in a classroom can see clearly on the blackboard only when he sits at the front.\n\n"
-            "(i) State the eye defect the child is suffering from.\n\n"
-            "(ii) Explain why the child is unable to see clearly when he is far from the blackboard.\n\n"
-            "(iii) How can the eye defect be corrected?",
-        answer: "⦿ (i) Eye defect:\n\n"
-            "• Short-sightedness or myopia.\n\n"
-            "⦿ (ii) Explanation:\n\n"
-            "• The child is unable to see distant objects clearly because light rays from distant objects are focused in front of the retina instead of directly on it.\n\n"
-            "⦿ (iii) How the eye defect can be corrected:\n\n"
-            "• The child should wear spectacles fitted with diverging or concave lenses. These lenses diverge the light rays so that the image is focused correctly on the retina.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 10 (BECE 2011 Q3(b))\n\n"
-            "(i) What is reflection of light?\n\n"
-            "(ii) State two characteristics of the images formed by plane mirrors.",
-        answer: "⦿ (i) Reflection of light:\n\n"
-            "Reflection of light is the bouncing back of light rays when they strike a reflecting surface.\n\n"
-            "⦿ (ii) Characteristics of images formed by plane mirrors:\n\n"
-            "• The image is erect or upright.\n\n"
-            "• The image is virtual and cannot be formed on a screen.\n\n"
-            "• The image is laterally inverted.\n\n"
-            "• The image distance behind the mirror is equal to the object distance in front of the mirror.\n\n"
-            "• The image is the same size as the object.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 11 (BECE 2013 Q4(b))\n\n"
-            "Name two sources each of:\n\n"
-            "(i) natural light;\n\n"
-            "(ii) artificial light.",
-        answer: "⦿ (i) Sources of natural light:\n\n"
-            "• The Sun\n\n"
-            "• Stars\n\n"
-            "• Lightning\n\n"
-            "• Fireflies\n\n"
-            "• Deep-sea luminous organisms\n\n"
-            "⦿ (ii) Sources of artificial light:\n\n"
-            "• Burning coal\n\n"
-            "• Flashlight or torchlight\n\n"
-            "• Lighted match or wood fire\n\n"
-            "• Kerosene lamp\n\n"
-            "• Electric light bulb",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 12 (BECE 2022 Q4b)\n\n"
-            "(i) What an eclipse occurs?\n\n"
-            "(ii) Explain briefly why an eclipse occurs.\n\n"
-            "(iii) Name the two types of eclipse.",
-        answer: "⦿ (i) Meaning of an eclipse:\n\n"
-            "• An eclipse occurs when an astronomical body moves into the shadow of another body or has its light blocked by an intervening object.\n\n"
-            "⦿ (ii) Why an eclipse occurs:\n\n"
-            "• An eclipse occurs because light travels in a straight line (rectilinear propagation of light). When an opaque cosmic body (like the Earth or the Moon) passes directly between a light source and another body, it blocks the light rays and casts a dark shadow.\n\n"
-            "⦿ (iii) Two types of eclipse:\n\n"
-            "• Eclipse of the Moon (Lunar eclipse)\n\n"
-            "• Eclipse of the Sun (Solar eclipse)\n\n",
-        explanation: "",
-      ),
-    ],
-  ),
-  "Science JHS3 s4 ss1 - Source, Forms, and Related Properties of Energy": PracticeModel(
-    audioPath: '',
-    questions: [
-      PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(i) What is energy?\n\n"
-            "(ii) Give two reasons why it is necessary to conserve energy.",
-        answer: "⦿ (i) What is energy?\n\n"
-            "Energy is defined as the ability or capacity to do work.\n\n"
-            "⦿ (ii) Reasons for conserving energy:\n\n"
-            "• It helps to lower household electricity and fuel bills.\n\n"
-            "• It reduces domestic electricity consumption and expenditure.\n\n"
-            "• It ensures that energy resources remain available for sustainable future use.\n\n"
-            "• It reduces a country's economic dependence on costly imported fuels.\n\n"
-            "• It minimises overloads and reduces mechanical strain on national power grids.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2021 Q5(b))\n\n"
-            "(i) Explain how energy from a windmill is obtained.\n\n"
-            "(ii) State one source of renewable energy.",
-        answer: "⦿ (i) How energy from a windmill is obtained:\n\n"
-            "• The energy in the wind is trapped by the blades of the windmill, causing them to turn.\n\n"
-            "• The rotating windmill is connected to an internal generator or turbine.\n\n"
-            "• The turbine converts the kinetic energy of the rotating blades into usable electrical energy.\n\n"
-            "⦿ (ii) Sources of renewable energy:\n\n"
-            "• Solar energy\n\n"
-            "• Wind energy\n\n"
-            "• Hydropower\n\n"
-            "• Biomass energy\n\n"
-            "• Tidal energy\n\n"
-            "• Wave energy",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2013 Q1(b))\n\n"
-            "State the effect of heat on each of the following substances:\n\n"
-            "(i) plastics;\n\n"
-            "(ii) alcohol;\n\n"
-            "(iii) metal rod.",
-        answer: "⦿ (i) Plastics:\n\n"
-            "• Exposure to heat causes plastics to soften, melt or burn.\n\n"
-            "⦿ (ii) Alcohol:\n\n"
-            "• Exposure to heat causes alcohol to expand and evaporate rapidly.\n\n"
-            "⦿ (iii) Metal rod:\n\n"
-            "• Exposure to heat causes the metal rod to expand and conduct thermal energy along its length.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2014 Q4(d))\n\n"
-            "State two properties of a good thermometric liquid.",
-        answer: "⦿ Properties of a good thermometric liquid:\n\n"
-            "• It must be opaque or highly visible inside the capillary tube.\n\n"
-            "• It must expand and contract uniformly with changes in temperature.\n\n"
-            "• It must possess a wide temperature range, with a high boiling point and a low freezing point.\n\n"
-            "• It must not wet or cling to the walls of the glass tube.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2021 Q4(b))\n\n"
-            "(i) Explain the term convection as applied to heat transfer.\n\n"
-            "(ii) Give two reasons why convection does not occur in solids.",
-        answer: "⦿ (i) Explanation of convection:\n\n"
-            "Convection is the transfer of heat through the actual bulk movement of particles in a fluid, such as a liquid or gas.\n\n"
-            "⦿ (ii) Reasons why convection does not occur in solids:\n\n"
-            "• Convection requires the free movement of matter, which is absent in solids.\n\n"
-            "• Particles in solids cannot flow or change positions like particles in liquids and gases.\n\n"
-            "• Solid particles are tightly packed in fixed positions and cannot move freely from place to place.\n\n"
-            "• Particles in solids transfer heat by vibrating and passing energy to neighbouring particles.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2012 Q3(b))\n\n"
-            "State two effects of heat on a substance.",
-        answer: "⦿ Effects of heat on a substance:\n\n"
-            "• It causes the substance to expand.\n\n"
-            "• It may cause a change of state, such as melting, boiling or evaporation.\n\n"
-            "• It increases the temperature and average kinetic energy of the particles of the substance.\n\n"
-            "• It may decrease the density of the substance as its volume increases.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2005 Q3(b))\n\n"
-            "State the laws of reflection.",
-        answer: "⦿ Laws of reflection:\n\n"
-            "• The angle of incidence is equal to the angle of reflection.\n\n"
-            "• The incident ray, the reflected ray and the normal at the point of incidence all lie in the same plane.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 8 (BECE 2016 Q2(a))\n\n"
-            "(i) State the distinction between an opaque object and a translucent object.\n\n"
-            "(ii) Give one example each of an opaque object and a translucent object.",
-        answer:
-            "⦿ (i) Difference between an opaque object and a translucent object:\n\n"
-            "• Opaque object: An object that completely blocks light from passing through it. Objects cannot be seen through it, and it forms a dark shadow.\n\n"
-            "• Translucent object: An object that allows only some light to pass through it. Objects viewed through it appear blurred or unclear.\n\n"
-            "⦿ (ii) Examples of opaque objects:\n\n"
-            "• Brick wall\n\n"
-            "• Dense wood\n\n"
-            "• Human body\n\n"
-            "• Solid stone\n\n"
-            "• Unpolished metal\n\n"
-            "⦿ Examples of translucent objects:\n\n"
-            "• Frosted glass\n\n"
-            "• Thin plastic sheet\n\n"
-            "• Tracing paper\n\n"
-            "• Muddy water\n\n"
-            "• Oiled paper",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 9 (BECE 2009 Q4(c))\n\n"
-            "A certain pupil in a classroom can see clearly on the blackboard only when he sits at the front.\n\n"
-            "(i) State the eye defect the child is suffering from.\n\n"
-            "(ii) Explain why the child is unable to see clearly when he is far from the blackboard.\n\n"
-            "(iii) How can the eye defect be corrected?",
-        answer: "⦿ (i) Eye defect:\n\n"
-            "• Short-sightedness or myopia.\n\n"
-            "⦿ (ii) Explanation:\n\n"
-            "• The child is unable to see distant objects clearly because light rays from distant objects are focused in front of the retina instead of directly on it.\n\n"
-            "⦿ (iii) How the eye defect can be corrected:\n\n"
-            "• The child should wear spectacles fitted with diverging or concave lenses. These lenses diverge the light rays so that the image is focused correctly on the retina.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 10 (BECE 2011 Q3(b))\n\n"
-            "(i) What is reflection of light?\n\n"
-            "(ii) State two characteristics of the images formed by plane mirrors.",
-        answer: "⦿ (i) Reflection of light:\n\n"
-            "Reflection of light is the bouncing back of light rays when they strike a reflecting surface.\n\n"
-            "⦿ (ii) Characteristics of images formed by plane mirrors:\n\n"
-            "• The image is erect or upright.\n\n"
-            "• The image is virtual and cannot be formed on a screen.\n\n"
-            "• The image is laterally inverted.\n\n"
-            "• The image distance behind the mirror is equal to the object distance in front of the mirror.\n\n"
-            "• The image is the same size as the object.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 11 (BECE 2013 Q4(b))\n\n"
-            "Name two sources each of:\n\n"
-            "(i) natural light;\n\n"
-            "(ii) artificial light.",
-        answer: "⦿ (i) Sources of natural light:\n\n"
-            "• The Sun\n\n"
-            "• Stars\n\n"
-            "• Lightning\n\n"
-            "• Fireflies\n\n"
-            "• Deep-sea luminous organisms\n\n"
-            "⦿ (ii) Sources of artificial light:\n\n"
-            "• Burning coal\n\n"
-            "• Flashlight or torchlight\n\n"
-            "• Lighted match or wood fire\n\n"
-            "• Kerosene lamp\n\n"
-            "• Electric light bulb",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION 12 (BECE 2022 Q4b)\n\n"
-            "(i) What an eclipse occurs?\n\n"
-            "(ii) Explain briefly why an eclipse occurs.\n\n"
-            "(iii) Name the two types of eclipse.",
-        answer: "⦿ (i) Meaning of an eclipse:\n\n"
-            "• An eclipse occurs when an astronomical body moves into the shadow of another body or has its light blocked by an intervening object.\n\n"
-            "⦿ (ii) Why an eclipse occurs:\n\n"
-            "• An eclipse occurs because light travels in a straight line (rectilinear propagation of light). When an opaque cosmic body (like the Earth or the Moon) passes directly between a light source and another body, it blocks the light rays and casts a dark shadow.\n\n"
-            "⦿ (iii) Two types of eclipse:\n\n"
-            "• Eclipse of the Moon (Lunar eclipse)\n\n"
-            "• Eclipse of the Sun (Solar eclipse)\n\n",
+        scenario: "QUESTION (n) (BECE 2025 Q5(c)(ii))\n\n"
+            "State three differences between heat and temperature.",
+        answer: "⦿ Answer:\n\n"
+            "• Heat represents energy transferred owing to a temperature difference, whereas temperature measures the relative degree of hotness or coldness of a body.\n\n"
+            "• Heat energy is measured in joules (J) using calorimetry, whereas temperature is measured in kelvin (K) or degrees Celsius (°C) using thermometric instruments.\n\n"
+            "• Heat energy depends directly on the total mass and molecular quantity of a sample, whereas temperature operates independently of sample mass.",
         explanation: "",
       ),
     ],
@@ -16187,7 +15842,7 @@ final Map<String, PracticeModel> becePracticeData = {
   "Science JHS1 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
     audioPath: '',
     questions: [
-        PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "(a) What is a transistor? (BECE 2012 Q4a(i))",
 answer: "Correct Answer:\n"
@@ -16253,10 +15908,10 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
 "⦿ Utilizing Devices:\n"
-"⦿ Digital displays on electronic appliances and wristwatches\n"
-"⦿ Visual traffic signals and pedestrian crossing lights\n"
-"⦿ Smartphone screen backlights and camera indicator lamps\n"
-"⦿ Energy-efficient indoor and outdoor illumination lamps",
+" - Digital displays on electronic appliances and wristwatches\n"
+" - Visual traffic signals and pedestrian crossing lights\n"
+" - Smartphone screen backlights and camera indicator lamps\n"
+" - Energy-efficient indoor and outdoor illumination lamps",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16265,9 +15920,9 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
 "⦿ Static Attraction Mechanism:\n"
-"⦿ Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
-"⦿ This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
-"⦿ Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+" - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+" - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+" - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16282,8 +15937,8 @@ answer: "Correct Answer:\n"
 " - Rigid plastic (PVC)\n"
 " - Porcelain ceramic\n"
 "⦿ Key Behavioral Characteristics:\n"
-"⦿ Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
-"⦿ Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+" - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+" - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16301,9 +15956,9 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
 "⦿ Purpose and Function:\n"
-"⦿ It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
-"⦿ When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
-"⦿ Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+" - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+" - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+" - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16319,12 +15974,12 @@ scenario:
 "(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
 answer: "Correct Answer:\n"
 "⦿ Plug Terminal Representations:\n"
-"⦿ L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
-"⦿ N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
-"⦿ E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+" - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+" - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+" - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
 "⦿ Function of Fuse Box:\n"
-"⦿ It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
-"⦿ It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+" - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+" - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16333,7 +15988,7 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
 "⦿ Insulating Substances:\n"
-" -  Pure dry rubber\n"
+" - Pure dry rubber\n"
 " - Solid plastic polymers\n"
 " - Refined glass\n"
 " - Dry timber",
@@ -16356,9 +16011,11 @@ answer: "Correct Answer:\n"
 "⦿ Voltage (V)=250 V\n"
 "⦿ Resistance (R)=100 Ω\n"
 "⦿ Step 2: Apply Ohm's Law relation:\n"
-r"⦿ V=I×R⟹I=\frac{V}{R}""\n"
+r"⦿ V=I×R⟹I=\frac{V}{R}"
+    "\n"
 "⦿ Step 3: Substitute values and calculate:\n"
-r"⦿ I=\frac{250V}{100Ω}=2.5 A""\n"
+r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+    "\n"
 "⦿ The electric current flowing through the resistor is 2.5 A.",
 explanation: "",
 ),
@@ -16380,28 +16037,33 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ (i) Effective Resistance Calculation:\n"
 "⦿ Step 1: State the formula for two parallel resistors:\n"
-r"⦿ \frac{1}{R_T} = \frac{1}{R_1} + \frac{1}{R_2}""\n"
-r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:""\n"
-r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5} = \frac{5}{20}+ \frac{4}{20}= \frac{9}{20}""\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+    "\n"
+r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+"\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+    "\n"
 r"⦿ Step 3: Invert to solve for total resistance R_T:"
     "\n"
-r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω""\n"
+r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+    "\n"
 "⦿ (ii) Total Circuit Current Calculation:\n"
 "⦿ Step 1: State Ohm's Law for the whole circuit:\n"
 r"⦿ I=\frac{V}{R_T}"
-"\n"
+    "\n"
 r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
-"\n"
+    "\n"
 r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
 "\n"
 "⦿ The total current flowing through the closed circuit is 2.7 A.",
 explanation: "",
-),    ],
+),
+    ],
   ),
   "Science JHS2 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
     audioPath: '',
     questions: [
-        PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "(a) What is a transistor? (BECE 2012 Q4a(i))",
 answer: "Correct Answer:\n"
@@ -16467,10 +16129,10 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
 "⦿ Utilizing Devices:\n"
-"⦿ Digital displays on electronic appliances and wristwatches\n"
-"⦿ Visual traffic signals and pedestrian crossing lights\n"
-"⦿ Smartphone screen backlights and camera indicator lamps\n"
-"⦿ Energy-efficient indoor and outdoor illumination lamps",
+" - Digital displays on electronic appliances and wristwatches\n"
+" - Visual traffic signals and pedestrian crossing lights\n"
+" - Smartphone screen backlights and camera indicator lamps\n"
+" - Energy-efficient indoor and outdoor illumination lamps",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16479,9 +16141,9 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
 "⦿ Static Attraction Mechanism:\n"
-"⦿ Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
-"⦿ This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
-"⦿ Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+" - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+" - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+" - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16496,8 +16158,8 @@ answer: "Correct Answer:\n"
 " - Rigid plastic (PVC)\n"
 " - Porcelain ceramic\n"
 "⦿ Key Behavioral Characteristics:\n"
-"⦿ Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
-"⦿ Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+" - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+" - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16515,9 +16177,9 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
 "⦿ Purpose and Function:\n"
-"⦿ It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
-"⦿ When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
-"⦿ Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+" - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+" - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+" - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16533,12 +16195,12 @@ scenario:
 "(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
 answer: "Correct Answer:\n"
 "⦿ Plug Terminal Representations:\n"
-"⦿ L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
-"⦿ N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
-"⦿ E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+" - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+" - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+" - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
 "⦿ Function of Fuse Box:\n"
-"⦿ It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
-"⦿ It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+" - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+" - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16547,7 +16209,7 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
 "⦿ Insulating Substances:\n"
-" -  Pure dry rubber\n"
+" - Pure dry rubber\n"
 " - Solid plastic polymers\n"
 " - Refined glass\n"
 " - Dry timber",
@@ -16570,9 +16232,11 @@ answer: "Correct Answer:\n"
 "⦿ Voltage (V)=250 V\n"
 "⦿ Resistance (R)=100 Ω\n"
 "⦿ Step 2: Apply Ohm's Law relation:\n"
-r"⦿ V=I×R⟹I=\frac{V}{R}""\n"
+r"⦿ V=I×R⟹I=\frac{V}{R}"
+    "\n"
 "⦿ Step 3: Substitute values and calculate:\n"
-r"⦿ I=\frac{250V}{100Ω}=2.5 A""\n"
+r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+    "\n"
 "⦿ The electric current flowing through the resistor is 2.5 A.",
 explanation: "",
 ),
@@ -16594,28 +16258,33 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ (i) Effective Resistance Calculation:\n"
 "⦿ Step 1: State the formula for two parallel resistors:\n"
-r"⦿ \frac{1}{R_T} = \frac{1}{R_1} + \frac{1}{R_2}""\n"
-r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:""\n"
-r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5} = \frac{5}{20}+ \frac{4}{20}= \frac{9}{20}""\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+    "\n"
+r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+"\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+    "\n"
 r"⦿ Step 3: Invert to solve for total resistance R_T:"
     "\n"
-r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω""\n"
+r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+    "\n"
 "⦿ (ii) Total Circuit Current Calculation:\n"
 "⦿ Step 1: State Ohm's Law for the whole circuit:\n"
 r"⦿ I=\frac{V}{R_T}"
-"\n"
+    "\n"
 r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
-"\n"
+    "\n"
 r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
 "\n"
 "⦿ The total current flowing through the closed circuit is 2.7 A.",
 explanation: "",
-),    ],
+),
+    ],
   ),
   "Science JHS3 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
     audioPath: '',
     questions: [
-        PracticeQuestion(
+      PracticeQuestion(
 scenario:
 "(a) What is a transistor? (BECE 2012 Q4a(i))",
 answer: "Correct Answer:\n"
@@ -16681,10 +16350,10 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
 "⦿ Utilizing Devices:\n"
-"⦿ Digital displays on electronic appliances and wristwatches\n"
-"⦿ Visual traffic signals and pedestrian crossing lights\n"
-"⦿ Smartphone screen backlights and camera indicator lamps\n"
-"⦿ Energy-efficient indoor and outdoor illumination lamps",
+" - Digital displays on electronic appliances and wristwatches\n"
+" - Visual traffic signals and pedestrian crossing lights\n"
+" - Smartphone screen backlights and camera indicator lamps\n"
+" - Energy-efficient indoor and outdoor illumination lamps",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16693,9 +16362,9 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
 "⦿ Static Attraction Mechanism:\n"
-"⦿ Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
-"⦿ This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
-"⦿ Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+" - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+" - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+" - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16710,8 +16379,8 @@ answer: "Correct Answer:\n"
 " - Rigid plastic (PVC)\n"
 " - Porcelain ceramic\n"
 "⦿ Key Behavioral Characteristics:\n"
-"⦿ Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
-"⦿ Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+" - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+" - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16729,9 +16398,9 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
 "⦿ Purpose and Function:\n"
-"⦿ It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
-"⦿ When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
-"⦿ Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+" - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+" - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+" - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16747,12 +16416,12 @@ scenario:
 "(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
 answer: "Correct Answer:\n"
 "⦿ Plug Terminal Representations:\n"
-"⦿ L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
-"⦿ N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
-"⦿ E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+" - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+" - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+" - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
 "⦿ Function of Fuse Box:\n"
-"⦿ It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
-"⦿ It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+" - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+" - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
 explanation: "",
 ),
 PracticeQuestion(
@@ -16761,7 +16430,7 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
 "⦿ Insulating Substances:\n"
-" -  Pure dry rubber\n"
+" - Pure dry rubber\n"
 " - Solid plastic polymers\n"
 " - Refined glass\n"
 " - Dry timber",
@@ -16784,9 +16453,11 @@ answer: "Correct Answer:\n"
 "⦿ Voltage (V)=250 V\n"
 "⦿ Resistance (R)=100 Ω\n"
 "⦿ Step 2: Apply Ohm's Law relation:\n"
-r"⦿ V=I×R⟹I=\frac{V}{R}""\n"
+r"⦿ V=I×R⟹I=\frac{V}{R}"
+    "\n"
 "⦿ Step 3: Substitute values and calculate:\n"
-r"⦿ I=\frac{250V}{100Ω}=2.5 A""\n"
+r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+    "\n"
 "⦿ The electric current flowing through the resistor is 2.5 A.",
 explanation: "",
 ),
@@ -16808,282 +16479,1343 @@ scenario:
 answer: "Correct Answer:\n"
 "⦿ (i) Effective Resistance Calculation:\n"
 "⦿ Step 1: State the formula for two parallel resistors:\n"
-r"⦿ \frac{1}{R_T} = \frac{1}{R_1} + \frac{1}{R_2}""\n"
-r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:""\n"
-r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5} = \frac{5}{20}+ \frac{4}{20}= \frac{9}{20}""\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+    "\n"
+r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+"\n"
+r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+    "\n"
 r"⦿ Step 3: Invert to solve for total resistance R_T:"
     "\n"
-r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω""\n"
+r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+    "\n"
 "⦿ (ii) Total Circuit Current Calculation:\n"
 "⦿ Step 1: State Ohm's Law for the whole circuit:\n"
 r"⦿ I=\frac{V}{R_T}"
-"\n"
+    "\n"
 r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
-"\n"
+    "\n"
 r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
 "\n"
 "⦿ The total current flowing through the closed circuit is 2.7 A.",
 explanation: "",
-),    ],
+),
+    ],
   ),
 
   "Science JHS1 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
     audioPath: '',
     questions: [
-        PracticeQuestion(
+      PracticeQuestion(
 scenario:
-"(a) Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
-"(i) A mango falling freely from a tree branch to the ground surface:\n"
-"(ii) A wooden worker striking a metal nail using a claw hammer:\n"
-"(iii) Activating the power switch on a portable electric torchlight:",
-answer: "Correct Answer: (i) Answer:\n"
+"1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+"(a) A mango falling freely from a tree branch to the ground surface:\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"(c) Activating the power switch on a portable electric torchlight:",
+answer: "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
 "⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
 "⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
-"(ii) Answer:\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
 "⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
 "⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
-"(iii) Answer:\n"
+"(c) Activating the power switch on a portable electric torchlight:\n"
 "⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
 "⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
-explanation: ".",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+"2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
 answer: "Correct Answer:\n"
 "⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
 "⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
-explanation: ".",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-r"(a) An object possessing a mass of 100\text{ kg} is positioned on a platform 2\text{ m} above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10\text{ ms}^{-2}]",
+"3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+"(BECE 1998 Q4d)",
 answer: "Correct Answer:\n"
-"⦿ Required Formula:\n"
-r"P.E. = m \times g \times h"
-"\n"
-"⦿ Identified Parameters:\n"
-"⦿ Mass (m) = 100 kg"
-    "\n"
-"⦿ Gravitational acceleration (g) = 10 ms^{-2}\n"
-"⦿ Height (h) = 2 m\n"
+"⦿ Required Formula: P.E. = m × g × h\n"
+"⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
 "⦿ Step-by-Step Substitution:\n"
-r"P.E. = 100 kg \times 10 ms^{-2} \times 2 m = 2000 J"
-"\n"
-"⦿ Conclusive Result:\n"
-"⦿ The total energy stored in the object due to its position equals exactly 2000 Joules.",
-explanation: ".",
+"⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+"⦿ P.E. = 2000 J\n"
+"⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn. Calculate its total potential energy with respect to the ground level. [g = 10 ms^{-2}]\n"
-"(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth.",
-answer: "Correct Answer: (a) Answer:\n"
-"⦿ Governing Equation:\n"
-r"P.E. = m \times g \times h"
-    "\n"
-"⦿ Input Values:\n"
-"⦿ m = 12.0 kg\n"
-"⦿ g = 10 ms^{-2}\n"
-"⦿ h = 20.0 m\n"
-"⦿ Evaluation:\n"
-r"P.E. = 12.0 \times 10 \times 20.0 = 2400 J"
-    "\n\n"
-"(b) Answer:\n"
+"4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+"(a) Determine its total potential energy with respect to the ground level.\n"
+"(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+"(BECE 2000 Q4d)",
+answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+"⦿ Governing Equation: P.E. = m × g × h\n"
+"⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+"⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+"(b) Evaluation of Kinetic Energy prior to impact:\n"
 "⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
-"⦿ Therefore:\n"
-"K.E. = P.E. = 2400 J",
-explanation: ".",
+"⦿ Therefore, K.E. = P.E. = 2400 J.",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface. Identify the exact form of energy held by the suspended coconut.\n"
-"(b) Calculate the magnitude of this energy.",
-answer: "Correct Answer: (a) Answer:\n"
+"5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+"(a) Identify the exact form of energy held by the suspended coconut.\n"
+"(b) Calculate the magnitude of this energy.\n"
+"(BECE 2002A Q2d)",
+answer: "Correct Answer: (a) Energy Identification:\n"
 "⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
-"(b) Answer:\n"
-"⦿ Governing Formula:\n"
-r"P.E. = Weight \times Height"
-"\n"
-"⦿ Input Values:\n"
-"⦿ Weight = 50 N\n"
-"⦿ Height = 15 m\n"
-"⦿ Execution:\n"
-"P.E. = 50 N \times 15\ m = 750 J\n"
-"⦿ Conclusive Value:\n"
-"⦿ The energy possessed equals 750 Joules.",
-explanation: ".",
+"(b) Magnitude Calculation:\n"
+"⦿ Governing Formula: P.E. = Weight × Height\n"
+"⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+"⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+"⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) Outline the step-by-step energy transitions occurring when an orange detaches and falls from a tree top down to the soil.\n"
-"(b) Outline the step-by-step energy transitions occurring when a craftsman strikes an upright nail using an elevated hammer.",
-answer: "Correct Answer: (a) Answer:\n"
+"6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+"(a) An orange detaches and falls from a tree top down to the soil.\n"
+"(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+"(BECE 2003 Q1b)",
+answer: "Correct Answer: (a) Falling orange:\n"
 "⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
 "⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
-"(b) Answer:\n"
+"(b) Craftsman driving a nail:\n"
 "⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
 "⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
-explanation: ".",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) Enumerate three distinct physical sources capable of storing chemical energy.",
+"7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+"(BECE 2003 Q4d)",
 answer: "Correct Answer:\n"
 "⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
 "⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
 "⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
-explanation: ".",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock right before release from its highest point.\n"
-"(b) Specify the primary forms of energy held by the rock at the exact midpoint of its vertical descent.\n"
-"(c) Specify the primary forms of energy held by the rock immediately prior to hitting the ground.",
-answer: "Correct Answer: (a) Answer:\n"
+"8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+"(a) right before release from its highest point;\n"
+"(b) at the exact midpoint of its vertical descent;\n"
+"(c) immediately prior to hitting the ground.",
+answer: "Correct Answer: (a) At maximum elevation:\n"
 "⦿ Gravitational potential energy exclusively.\n\n"
-"(b) Answer:\n"
+"(b) At the descent midpoint:\n"
 "⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
-"(c) Answer:\n"
+"(c) Instantly before ground collision:\n"
 "⦿ Kinetic energy exclusively.",
-explanation: ".",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) Clearly describe the primary energy transformation that takes place during each of these four events:\n"
-"(i) Operating a portable dry cell battery:\n"
-"(ii) Generating power through an active solar collector:\n"
-"(iii) Running a domestic electric hotplate:\n"
-"(iv) Pounding a cold piece of metal repeatedly with a heavy hammer:",
-answer: "Correct Answer: (i) Answer:\n"
+"9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+"(a) Operating a portable dry cell battery;\n"
+"(b) Generating power through an active solar collector;\n"
+"(c) Running a domestic electric hotplate;\n"
+"(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+"(BECE 2013 Q2c)",
+answer: "Correct Answer: (a) Active dry cell battery:\n"
 "⦿ Chemical energy transforms into electrical energy.\n\n"
-"(ii) Answer:\n"
+"(b) Active solar collector panel:\n"
 "⦿ Radiant light energy transforms directly into electrical energy.\n\n"
-"(iii) Answer:\n"
+"(c) Active electric hotplate:\n"
 "⦿ Electrical energy transforms into thermal energy.\n\n"
-"(iv) Answer:\n"
+"(d) Hammering metal:\n"
 "⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
-explanation: ".",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) Detail the energy conversions occurring when utilizing a dry cell battery to illuminate a handheld flashlight.\n"
-"(b) Detail the energy conversions occurring when employing an electric microphone to amplify voice delivery to an audience.",
-answer: "Correct Answer: (a) Answer:\n"
+"10. Detail the energy conversions occurring in the following practical situations:\n"
+"(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+"(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+"(BECE 2015 Q2c)",
+answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
 "⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
 "⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
-"(b) Answer:\n"
+"(b) Speaking into a microphone:\n"
 "⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
-explanation: ".",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) Provide a rigorous scientific definition of potential energy.\n"
-"(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms^{-1}. Compute its total kinetic energy.",
-answer: "Correct Answer: (a) Answer:\n"
+"11. (a) Provide a rigorous scientific definition of potential energy.\n"
+"(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+"(BECE 2018 Q3c)",
+answer: "Correct Answer: (a) Definition of Potential Energy:\n"
 "⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
-"(b) Answer:\n"
-"⦿ Formula:\n"
-r"K.E. = \frac{1}{2} \times m \times v^2"
+"(b) Computation of Kinetic Energy:\n"
+r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
     "\n"
-"⦿ Given Values:\n"
-"⦿ Mass (m) = 10 kg\n"
-"⦿ Speed (v) = 2\ ms^{-1}\n"
+"⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
 "⦿ Calculation Steps:\n"
-"K.E. = \frac{1}{2} \times 10 kg \times (2 ms^{-1})^2\n"
-r"K.E. = 0.5 \times 10 \times 4 = 20 J"
+r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
     "\n"
-"⦿ Final Answer:\n"
-"⦿ The moving body possesses 20 Joules of kinetic energy.",
-explanation: ".",
+"⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+"⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground. State the name of the energy acquired by the object owing to its updated elevation.\n"
-"(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]",
-answer: "Correct Answer: (a) Answer:\n"
+"12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+"(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+"(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+"(BECE 2019 Q3a)",
+answer: "Correct Answer: (a) Name of Acquired Energy:\n"
 "⦿ Gravitational potential energy.\n\n"
-"(b) Answer:\n"
-"⦿ Formula:\n"
-r"P.E. = m \times g \times h\n"
-"⦿ Variables:\n"
-"⦿ m = 100 kg\n"
-"⦿ g = 10 ms^{-2}\n"
-"⦿ h = 2 m\n"
-"⦿ Execution:\n"
-r"P.E. = 100 \times 10 \times 2 = 2000 J\n"
-"⦿ Result:\n"
-"⦿ The total energy gained equals 2000 Joules.",
-explanation: ".",
+"(b) Mathematical Calculation:\n"
+"⦿ Formula: P.E. = m × g × h\n"
+"⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+"⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+"⦿ Result: The total energy gained equals 2000 Joules.",
+explanation: "",
 ),
 PracticeQuestion(
 scenario:
-"(a) Highlight three effective practical measures that households can adopt to conserve electrical energy.",
+"13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+"(BECE 2025 Q2a)",
 answer: "Correct Answer:\n"
 "⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
 "⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
 "⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
-explanation: ".",
+explanation: "",
 ),
-
     ],
   ),
-
-  "Science JHS1 s4 ss4 - Forces and Motion": PracticeModel(
+  "Science JHS2 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) State the SI unit of pressure.\n\n",
-        answer: "⦿ (a) Answer:\n\n"
-            "The SI unit of pressure is the pascal (Pa), which is equivalent to newton per square metre (N/m²).\n\n",
-        explanation: "",
-      ),
+scenario:
+"1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+"(a) A mango falling freely from a tree branch to the ground surface:\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"(c) Activating the power switch on a portable electric torchlight:",
+answer: "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+"⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+"⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+"⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+"(c) Activating the power switch on a portable electric torchlight:\n"
+"⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+"⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+answer: "Correct Answer:\n"
+"⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+"⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+"(BECE 1998 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Required Formula: P.E. = m × g × h\n"
+"⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+"⦿ Step-by-Step Substitution:\n"
+"⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+"⦿ P.E. = 2000 J\n"
+"⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+"(a) Determine its total potential energy with respect to the ground level.\n"
+"(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+"(BECE 2000 Q4d)",
+answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+"⦿ Governing Equation: P.E. = m × g × h\n"
+"⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+"⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+"(b) Evaluation of Kinetic Energy prior to impact:\n"
+"⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+"⦿ Therefore, K.E. = P.E. = 2400 J.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+"(a) Identify the exact form of energy held by the suspended coconut.\n"
+"(b) Calculate the magnitude of this energy.\n"
+"(BECE 2002A Q2d)",
+answer: "Correct Answer: (a) Energy Identification:\n"
+"⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+"(b) Magnitude Calculation:\n"
+"⦿ Governing Formula: P.E. = Weight × Height\n"
+"⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+"⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+"⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+"(a) An orange detaches and falls from a tree top down to the soil.\n"
+"(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+"(BECE 2003 Q1b)",
+answer: "Correct Answer: (a) Falling orange:\n"
+"⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+"⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+"(b) Craftsman driving a nail:\n"
+"⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+"⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+"(BECE 2003 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+"⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+"⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+"(a) right before release from its highest point;\n"
+"(b) at the exact midpoint of its vertical descent;\n"
+"(c) immediately prior to hitting the ground.",
+answer: "Correct Answer: (a) At maximum elevation:\n"
+"⦿ Gravitational potential energy exclusively.\n\n"
+"(b) At the descent midpoint:\n"
+"⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+"(c) Instantly before ground collision:\n"
+"⦿ Kinetic energy exclusively.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+"(a) Operating a portable dry cell battery;\n"
+"(b) Generating power through an active solar collector;\n"
+"(c) Running a domestic electric hotplate;\n"
+"(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+"(BECE 2013 Q2c)",
+answer: "Correct Answer: (a) Active dry cell battery:\n"
+"⦿ Chemical energy transforms into electrical energy.\n\n"
+"(b) Active solar collector panel:\n"
+"⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+"(c) Active electric hotplate:\n"
+"⦿ Electrical energy transforms into thermal energy.\n\n"
+"(d) Hammering metal:\n"
+"⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"10. Detail the energy conversions occurring in the following practical situations:\n"
+"(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+"(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+"(BECE 2015 Q2c)",
+answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+"⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+"⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+"(b) Speaking into a microphone:\n"
+"⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"11. (a) Provide a rigorous scientific definition of potential energy.\n"
+"(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+"(BECE 2018 Q3c)",
+answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+"⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+"(b) Computation of Kinetic Energy:\n"
+r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+    "\n"
+"⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+"⦿ Calculation Steps:\n"
+r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+    "\n"
+"⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+"⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+"(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+"(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+"(BECE 2019 Q3a)",
+answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+"⦿ Gravitational potential energy.\n\n"
+"(b) Mathematical Calculation:\n"
+"⦿ Formula: P.E. = m × g × h\n"
+"⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+"⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+"⦿ Result: The total energy gained equals 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+"(BECE 2025 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+"⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+"⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(b) Give three applications of pressure in everyday life.\n\n",
-        answer: "⦿ (b) Answer :\n\n"
-            "• Sharp knives have small cutting edges, which produce high pressure and make cutting easier.\n\n"
-            "• Heavy vehicles and tractors have wide tyres to spread their weight over a larger area and reduce pressure on the ground.\n\n"
-            "• Buildings are constructed on wide foundations to spread their weight over a large area and prevent sinking or collapse.\n\n"
-            "• School bags have wide, padded straps to spread the load over the shoulders and reduce pressure.\n\n",
-        explanation: "",
-      ),
+scenario:
+"1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+"(a) A mango falling freely from a tree branch to the ground surface:\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"(c) Activating the power switch on a portable electric torchlight:",
+answer: "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+"⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+"⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+"(b) A wooden worker striking a metal nail using a claw hammer:\n"
+"⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+"⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+"(c) Activating the power switch on a portable electric torchlight:\n"
+"⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+"⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+answer: "Correct Answer:\n"
+"⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+"⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+"(BECE 1998 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Required Formula: P.E. = m × g × h\n"
+"⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+"⦿ Step-by-Step Substitution:\n"
+"⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+"⦿ P.E. = 2000 J\n"
+"⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+"(a) Determine its total potential energy with respect to the ground level.\n"
+"(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+"(BECE 2000 Q4d)",
+answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+"⦿ Governing Equation: P.E. = m × g × h\n"
+"⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+"⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+"(b) Evaluation of Kinetic Energy prior to impact:\n"
+"⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+"⦿ Therefore, K.E. = P.E. = 2400 J.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+"(a) Identify the exact form of energy held by the suspended coconut.\n"
+"(b) Calculate the magnitude of this energy.\n"
+"(BECE 2002A Q2d)",
+answer: "Correct Answer: (a) Energy Identification:\n"
+"⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+"(b) Magnitude Calculation:\n"
+"⦿ Governing Formula: P.E. = Weight × Height\n"
+"⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+"⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+"⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+"(a) An orange detaches and falls from a tree top down to the soil.\n"
+"(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+"(BECE 2003 Q1b)",
+answer: "Correct Answer: (a) Falling orange:\n"
+"⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+"⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+"(b) Craftsman driving a nail:\n"
+"⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+"⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+"(BECE 2003 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+"⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+"⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+"(a) right before release from its highest point;\n"
+"(b) at the exact midpoint of its vertical descent;\n"
+"(c) immediately prior to hitting the ground.",
+answer: "Correct Answer: (a) At maximum elevation:\n"
+"⦿ Gravitational potential energy exclusively.\n\n"
+"(b) At the descent midpoint:\n"
+"⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+"(c) Instantly before ground collision:\n"
+"⦿ Kinetic energy exclusively.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+"(a) Operating a portable dry cell battery;\n"
+"(b) Generating power through an active solar collector;\n"
+"(c) Running a domestic electric hotplate;\n"
+"(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+"(BECE 2013 Q2c)",
+answer: "Correct Answer: (a) Active dry cell battery:\n"
+"⦿ Chemical energy transforms into electrical energy.\n\n"
+"(b) Active solar collector panel:\n"
+"⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+"(c) Active electric hotplate:\n"
+"⦿ Electrical energy transforms into thermal energy.\n\n"
+"(d) Hammering metal:\n"
+"⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"10. Detail the energy conversions occurring in the following practical situations:\n"
+"(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+"(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+"(BECE 2015 Q2c)",
+answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+"⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+"⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+"(b) Speaking into a microphone:\n"
+"⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"11. (a) Provide a rigorous scientific definition of potential energy.\n"
+"(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+"(BECE 2018 Q3c)",
+answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+"⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+"(b) Computation of Kinetic Energy:\n"
+r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+    "\n"
+"⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+"⦿ Calculation Steps:\n"
+r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+    "\n"
+"⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+"⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+"(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+"(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+"(BECE 2019 Q3a)",
+answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+"⦿ Gravitational potential energy.\n\n"
+"(b) Mathematical Calculation:\n"
+"⦿ Formula: P.E. = m × g × h\n"
+"⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+"⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+"⦿ Result: The total energy gained equals 2000 Joules.",
+explanation: "",
+),
+PracticeQuestion(
+scenario:
+"13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+"(BECE 2025 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+"⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+"⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
+explanation: "",
+),
+    ],
+  ),
+
+  "Science JHS1 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
-            "(c) Explain why it is easier to cut meat with a sharp knife than with a blunt one.\n\n",
-        answer: "⦿ (c) Answer:\n\n"
-            "A sharp knife has a smaller cutting-edge area than a blunt knife. When the same force is applied, the smaller area produces greater pressure, allowing the knife to cut through the meat more easily.\n\n",
-        explanation: "",
-      ),
+scenario:
+"(a) Name four types of force. (BECE 1992 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Gravitational force\n"
+"⦿ Frictional force\n"
+"⦿ Electrostatic force\n"
+"⦿ Magnetic force",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 4\n\n"
-            "(d) Explain why a wide belt is worn by an athlete when lifting heavy weights.",
-        answer: "⦿ (d) Answer:\n\n"
-            "A wide belt spreads the force over a larger area of the abdomen and lower back. This reduces pressure on the body, supports the spine and helps prevent injury.",
-        explanation: "",
-      ),
+scenario:
+"(b) Explain the term friction.",
+answer: "Correct Answer:\n"
+"⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 5\n\n"
-            "(a) State two ways in which friction can be reduced.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Apply lubricants such as oil, grease or graphite between surfaces in contact.\n\n"
-            "• Use rollers, wheels or ball bearings between moving surfaces.\n\n"
-            "• Streamline vehicles, aircraft and boats to reduce air or water resistance.\n\n"
-            "• Polish or smoothen surfaces in contact.\n\n",
-        explanation: "",
-      ),
+scenario:
+"(c) Give two methods of reducing friction.",
+answer: "Correct Answer:\n"
+"⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+"⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+"⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 6\n\n"
-            "(b) State three ways in which force can affect a body.",
-        answer: "⦿ (b) Answer:\n\n"
-            "• It can cause a stationary body to start moving.\n\n"
-            "• It can cause a moving body to slow down or stop.\n\n"
-            "• It can increase or decrease the speed of a moving body.\n\n"
-            "• It can change the direction of motion of a body.\n\n"
-            "• It can change the shape or size of a body.",
-        explanation: "",
-      ),
+scenario:
+"(a) Define the term force. (BECE 1994 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three types of force.",
+answer: "Correct Answer:\n"
+"⦿ Frictional force\n"
+"⦿ Gravitational force\n"
+"⦿ Electrostatic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+"(i) surface tension;\n"
+"(ii) capillarity;\n"
+"(iii) viscosity.",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+"⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+"⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Why does water wet glass?",
+answer: "Correct Answer:\n"
+"⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+"⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+"⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+"⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+"⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+"⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+"⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 1998 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State one way in which surface tension can be useful to man.",
+answer: "Correct Answer:\n"
+"⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+"⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is capillary action? (BECE 1999 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State two processes which use capillary action.",
+answer: "Correct Answer:\n"
+"⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+"⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+"(a) 0.75 kgf\n"
+"(b) 1.33 kgf",
+answer: "Correct Answer:\n"
+"⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+"⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"What is an electrostatic force? (BECE 2000 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2001 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name two household devices that make use of surface tension.",
+answer: "Correct Answer:\n"
+"⦿ Raincoats or umbrellas\n"
+"⦿ Camping canvas tents\n"
+"⦿ Liquid soap dispensers",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State four effects of a force on a body. (BECE 2005 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ It can cause a stationary object to start moving.\n"
+"⦿ It can accelerate or increase the velocity of a moving body.\n"
+"⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+"⦿ It can change the direction of motion of a body.\n"
+"⦿ It can alter the shape, size, or physical structure of an object.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2007 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain why the surface of water in a container is not flat but curved.",
+answer: "Correct Answer:\n"
+"⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define pressure. (BECE 2008 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three applications of pressure in everyday life.",
+answer: "Correct Answer:\n"
+"⦿ Pumping air into vehicle tires to maintain inflation.\n"
+"⦿ Sucking liquids upward through drinking straws.\n"
+"⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+"⦿ Cutting items easily using sharpened knife blades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+answer: "Correct Answer:\n"
+"⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+"⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+"⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+"(a) What type of force made the steel needle to float?",
+answer: "Correct Answer:\n"
+"⦿ Surface tension force.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name three substances that could be added to the water to make the steel needle to sink.",
+answer: "Correct Answer:\n"
+"⦿ Soap or liquid detergent\n"
+"⦿ Kerosene\n"
+"⦿ Engine oil or diesel",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Define pressure. (BECE 2017 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+"(a) area of the cuboid;\n"
+"(b) pressure exerted by the cuboid when it lies on its side.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+"⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+"(a) acceleration of the vehicle;\n"
+"(b) force that acts on the vehicle;\n"
+"(c) final momentum when the vehicle comes to a stop.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+"⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+"⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Name four types of force. (BECE 1992 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Gravitational force\n"
+"⦿ Frictional force\n"
+"⦿ Electrostatic force\n"
+"⦿ Magnetic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain the term friction.",
+answer: "Correct Answer:\n"
+"⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) Give two methods of reducing friction.",
+answer: "Correct Answer:\n"
+"⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+"⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+"⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define the term force. (BECE 1994 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three types of force.",
+answer: "Correct Answer:\n"
+"⦿ Frictional force\n"
+"⦿ Gravitational force\n"
+"⦿ Electrostatic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+"(i) surface tension;\n"
+"(ii) capillarity;\n"
+"(iii) viscosity.",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+"⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+"⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Why does water wet glass?",
+answer: "Correct Answer:\n"
+"⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+"⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+"⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+"⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+"⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+"⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+"⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 1998 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State one way in which surface tension can be useful to man.",
+answer: "Correct Answer:\n"
+"⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+"⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is capillary action? (BECE 1999 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State two processes which use capillary action.",
+answer: "Correct Answer:\n"
+"⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+"⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+"(a) 0.75 kgf\n"
+"(b) 1.33 kgf",
+answer: "Correct Answer:\n"
+"⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+"⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"What is an electrostatic force? (BECE 2000 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2001 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name two household devices that make use of surface tension.",
+answer: "Correct Answer:\n"
+"⦿ Raincoats or umbrellas\n"
+"⦿ Camping canvas tents\n"
+"⦿ Liquid soap dispensers",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State four effects of a force on a body. (BECE 2005 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ It can cause a stationary object to start moving.\n"
+"⦿ It can accelerate or increase the velocity of a moving body.\n"
+"⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+"⦿ It can change the direction of motion of a body.\n"
+"⦿ It can alter the shape, size, or physical structure of an object.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2007 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain why the surface of water in a container is not flat but curved.",
+answer: "Correct Answer:\n"
+"⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define pressure. (BECE 2008 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three applications of pressure in everyday life.",
+answer: "Correct Answer:\n"
+"⦿ Pumping air into vehicle tires to maintain inflation.\n"
+"⦿ Sucking liquids upward through drinking straws.\n"
+"⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+"⦿ Cutting items easily using sharpened knife blades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+answer: "Correct Answer:\n"
+"⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+"⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+"⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+"(a) What type of force made the steel needle to float?",
+answer: "Correct Answer:\n"
+"⦿ Surface tension force.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name three substances that could be added to the water to make the steel needle to sink.",
+answer: "Correct Answer:\n"
+"⦿ Soap or liquid detergent\n"
+"⦿ Kerosene\n"
+"⦿ Engine oil or diesel",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Define pressure. (BECE 2017 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+"(a) area of the cuboid;\n"
+"(b) pressure exerted by the cuboid when it lies on its side.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+"⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+"(a) acceleration of the vehicle;\n"
+"(b) force that acts on the vehicle;\n"
+"(c) final momentum when the vehicle comes to a stop.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+"⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+"⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Name four types of force. (BECE 1992 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Gravitational force\n"
+"⦿ Frictional force\n"
+"⦿ Electrostatic force\n"
+"⦿ Magnetic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain the term friction.",
+answer: "Correct Answer:\n"
+"⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) Give two methods of reducing friction.",
+answer: "Correct Answer:\n"
+"⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+"⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+"⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define the term force. (BECE 1994 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three types of force.",
+answer: "Correct Answer:\n"
+"⦿ Frictional force\n"
+"⦿ Gravitational force\n"
+"⦿ Electrostatic force",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+"(i) surface tension;\n"
+"(ii) capillarity;\n"
+"(iii) viscosity.",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+"⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+"⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Why does water wet glass?",
+answer: "Correct Answer:\n"
+"⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+"⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+"⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+answer: "Correct Answer:\n"
+"⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+"⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+"⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+"⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+"⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 1998 Q1b)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State one way in which surface tension can be useful to man.",
+answer: "Correct Answer:\n"
+"⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+"⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is capillary action? (BECE 1999 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State two processes which use capillary action.",
+answer: "Correct Answer:\n"
+"⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+"⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+"(a) 0.75 kgf\n"
+"(b) 1.33 kgf",
+answer: "Correct Answer:\n"
+"⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+"⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"What is an electrostatic force? (BECE 2000 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2001 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name two household devices that make use of surface tension.",
+answer: "Correct Answer:\n"
+"⦿ Raincoats or umbrellas\n"
+"⦿ Camping canvas tents\n"
+"⦿ Liquid soap dispensers",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"State four effects of a force on a body. (BECE 2005 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ It can cause a stationary object to start moving.\n"
+"⦿ It can accelerate or increase the velocity of a moving body.\n"
+"⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+"⦿ It can change the direction of motion of a body.\n"
+"⦿ It can alter the shape, size, or physical structure of an object.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) What is surface tension? (BECE 2007 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Explain why the surface of water in a container is not flat but curved.",
+answer: "Correct Answer:\n"
+"⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Define pressure. (BECE 2008 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) State three applications of pressure in everyday life.",
+answer: "Correct Answer:\n"
+"⦿ Pumping air into vehicle tires to maintain inflation.\n"
+"⦿ Sucking liquids upward through drinking straws.\n"
+"⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+"⦿ Cutting items easily using sharpened knife blades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+answer: "Correct Answer:\n"
+"⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+"⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+"⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+"(a) What type of force made the steel needle to float?",
+answer: "Correct Answer:\n"
+"⦿ Surface tension force.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Name three substances that could be added to the water to make the steel needle to sink.",
+answer: "Correct Answer:\n"
+"⦿ Soap or liquid detergent\n"
+"⦿ Kerosene\n"
+"⦿ Engine oil or diesel",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"Define pressure. (BECE 2017 Q3b)",
+answer: "Correct Answer:\n"
+"⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+"(a) area of the cuboid;\n"
+"(b) pressure exerted by the cuboid when it lies on its side.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+"⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+"(a) acceleration of the vehicle;\n"
+"(b) force that acts on the vehicle;\n"
+"(c) final momentum when the vehicle comes to a stop.",
+answer: "Correct Answer:\n"
+"⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+"⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+"⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+answer: "Correct Answer:\n"
+"⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+explanation: "",
+),
     ],
   ),
 
@@ -17091,61 +17823,823 @@ explanation: ".",
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) List five garden tools.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Rake\n\n"
-            "• Hoe\n\n"
-            "• Shears\n\n"
-            "• Axe\n\n"
-            "• Watering can\n\n"
-            "• Hand fork\n\n"
-            "• Dibber\n\n"
-            "• Secateurs",
-        explanation: "",
-      ),
+scenario:
+"(a) List four garden tools.",
+answer: "Correct Answer:\n"
+"⦿ Cutlass\n"
+"⦿ Hoe\n"
+"⦿ Rake\n"
+"⦿ Garden shears",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(b) Explain why a hoe is more suitable for weeding than a cutlass in crop farming.",
-        answer: "⦿ (b) Answer:\n\n"
-            "A hoe is more suitable for weeding because its wide blade helps to remove weeds from their roots, preventing them from growing back quickly.\n\n"
-            "A cutlass mainly cuts weeds at the surface, allowing them to regrow faster.",
-        explanation: "",
-      ),
+scenario:
+"(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+answer: "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+"⦿ Hoe\n"
+"⦿ Rake\n\n"
+"(ii) The functions of the selected implements:\n"
+"⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+"⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s4 ss5 - Agricultural Tools": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
-            "(c) State four ways of maintaining agricultural tools.",
-        answer: "⦿ (c) Answer:\n\n"
-            "• Use the right tool for the right purpose.\n\n"
-            "• Wash and clean tools after use.\n\n"
-            "• Sharpen tools with blades regularly.\n\n"
-            "• Apply oil to metal parts to prevent rust.\n\n"
-            "• Store tools in a dry place after cleaning.\n\n"
-            "• Regularly inspect broken or damaged handles and repair them.\n\n"
-            "• Fix or replace broken handles.",
-        explanation: "",
-      ),
+scenario:
+"(a) List four garden tools.",
+answer: "Correct Answer:\n"
+"⦿ Cutlass\n"
+"⦿ Hoe\n"
+"⦿ Rake\n"
+"⦿ Garden shears",
+explanation: "",
+),
       PracticeQuestion(
-        scenario: "QUESTION 4\n\n"
-            "(d) A farmer wants to dig holes for planting maize. Which tool should the farmer use and why?",
-        answer: "⦿ (d) Answer:\n\n"
-            "The farmer should use a dibber because it is designed to make small holes at the required depth.\n\n"
-            "It helps to place seeds at the correct depth without disturbing the surrounding soil.",
-        explanation: "",
-      ),
+scenario:
+"(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+answer: "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+"⦿ Hoe\n"
+"⦿ Rake\n\n"
+"(ii) The functions of the selected implements:\n"
+"⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+"⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s4 ss5 - Agricultural Tools": PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "QUESTION 5\n\n"
-            "(e) Suggest two ways farmers can improve the efficiency of their cutlasses and hoes.",
-        answer: "⦿ (e) Answer:\n\n"
-            "• Sharpen the blades regularly to make cutting and digging easier.\n\n"
-            "• Use strong and durable handles to improve grip and control during use.\n\n"
-            "• Use the tools for their intended purposes.\n\n"
-            "• Wash and clean the tools immediately after use.",
-        explanation: "",
-      ),
+scenario:
+"(a) List four garden tools.",
+answer: "Correct Answer:\n"
+"⦿ Cutlass\n"
+"⦿ Hoe\n"
+"⦿ Rake\n"
+"⦿ Garden shears",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+answer: "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+"⦿ Hoe\n"
+"⦿ Rake\n\n"
+"(ii) The functions of the selected implements:\n"
+"⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+"⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+explanation: "",
+),
     ],
   ),
 
+  
+  "Science JHS1 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) (i) Define the terms humidity and wind.\n"
+"(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+"(BECE 1997 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+"⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+"⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+"⦿ **Instrument for measuring wind speed:** Anemometer.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four main factors which determine the climate of a place.\n"
+"(BECE 1999 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+"⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+"⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+"⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+"⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+"⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+"⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+"⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) What is the difference between climate and weather?\n"
+"(BECE 2010 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+"⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+"⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) State one use each of the following instruments used in the study of the weather:\n"
+"(i) rain gauge;\n"
+"(ii) hygrometer;\n"
+"(iii) anemometer.\n"
+"(BECE 2013 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+"⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+"⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+"(BECE 2014 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+"⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+"⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+"⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+"⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+"⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+"⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four weather measuring instruments.\n"
+"(BECE 2016 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ **Thermometer:** Monitors temperature conditions.\n"
+"⦿ **Rain gauge:** Records precipitation amounts.\n"
+"⦿ **Anemometer:** Measures wind velocity.\n"
+"⦿ **Barometer:** Determines atmospheric pressure.\n"
+"⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+"⦿ **Wind vane:** Tracks wind movement directions.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) What is weather?\n"
+"(ii) State two differences between weather and season.\n"
+"(BECE 2018 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+"⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+"⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+"⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+"(ii) Name two primary green-house gases associated with industrialization.\n"
+"(BECE 2025 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+"⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+"⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+"⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+"⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+"⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+"⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+"⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) (i) Define the terms humidity and wind.\n"
+"(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+"(BECE 1997 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+"⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+"⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+"⦿ **Instrument for measuring wind speed:** Anemometer.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four main factors which determine the climate of a place.\n"
+"(BECE 1999 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+"⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+"⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+"⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+"⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+"⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+"⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+"⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) What is the difference between climate and weather?\n"
+"(BECE 2010 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+"⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+"⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) State one use each of the following instruments used in the study of the weather:\n"
+"(i) rain gauge;\n"
+"(ii) hygrometer;\n"
+"(iii) anemometer.\n"
+"(BECE 2013 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+"⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+"⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+"(BECE 2014 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+"⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+"⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+"⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+"⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+"⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+"⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four weather measuring instruments.\n"
+"(BECE 2016 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ **Thermometer:** Monitors temperature conditions.\n"
+"⦿ **Rain gauge:** Records precipitation amounts.\n"
+"⦿ **Anemometer:** Measures wind velocity.\n"
+"⦿ **Barometer:** Determines atmospheric pressure.\n"
+"⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+"⦿ **Wind vane:** Tracks wind movement directions.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) What is weather?\n"
+"(ii) State two differences between weather and season.\n"
+"(BECE 2018 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+"⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+"⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+"⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+"(ii) Name two primary green-house gases associated with industrialization.\n"
+"(BECE 2025 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+"⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+"⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+"⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+"⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+"⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+"⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+"⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) (i) Define the terms humidity and wind.\n"
+"(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+"(BECE 1997 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+"⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+"⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+"⦿ **Instrument for measuring wind speed:** Anemometer.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four main factors which determine the climate of a place.\n"
+"(BECE 1999 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+"⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+"⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+"⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+"⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+"⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+"⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+"⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) What is the difference between climate and weather?\n"
+"(BECE 2010 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+"⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+"⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) State one use each of the following instruments used in the study of the weather:\n"
+"(i) rain gauge;\n"
+"(ii) hygrometer;\n"
+"(iii) anemometer.\n"
+"(BECE 2013 Q6b)",
+answer: "Correct Answer:\n"
+"⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+"⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+"⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State two elements of climate.\n"
+"(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+"(BECE 2014 Q4d)",
+answer: "Correct Answer:\n"
+"⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+"⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+"⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+"⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+"⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+"⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+"⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) Name four weather measuring instruments.\n"
+"(BECE 2016 Q2a)",
+answer: "Correct Answer:\n"
+"⦿ **Thermometer:** Monitors temperature conditions.\n"
+"⦿ **Rain gauge:** Records precipitation amounts.\n"
+"⦿ **Anemometer:** Measures wind velocity.\n"
+"⦿ **Barometer:** Determines atmospheric pressure.\n"
+"⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+"⦿ **Wind vane:** Tracks wind movement directions.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) What is weather?\n"
+"(ii) State two differences between weather and season.\n"
+"(BECE 2018 Q4c)",
+answer: "Correct Answer:\n"
+"⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+"⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+"⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+"⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+"(ii) Name two primary green-house gases associated with industrialization.\n"
+"(BECE 2025 Q2c)",
+answer: "Correct Answer:\n"
+"⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+"⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+"⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+"⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+"⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+"⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+"⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+"⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+explanation: "",
+),
+    ],
+  ),
+
+  "Science JHS1 s5 ss5 - Diffusion & Osmosis / Pests & Parasites": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+answer: "Correct Answer:\n"
+"⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+"⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Define the term osmosis. (BECE 1997 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+"⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+answer: "Correct Answer:\n",
+answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          ["Substance Involved", "Restricted strictly to the movement of water or solvent molecules.", "Applies to particles of any state of matter, including solids, liquids, and gases."],
+          ["Membrane Requirement", "Requires a semi-permeable membrane to separate the two regions.", "Occurs freely without requiring any biological or physical membrane barrier."],
+          ["Direction of Flow", "Water molecules travel from a dilute solution towards a more concentrated solution.", "Particles travel directly from an area of higher concentration towards an area of lower concentration."],
+          ["Medium Requirement", "Can only take place within a liquid medium.", "Occurs across gas phases, liquid solutions, and solid mixtures."],
+        ],
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+"⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+"⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+"(i) absorption of water by the roots of a plant\n"
+"(ii) movement of digested food from the small intestine into the bloodstream",
+answer: "Correct Answer:\n"
+"⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+"⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+"Examples:\n"
+"⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+"⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+"⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+"⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+answer: "Correct Answer:\n"
+"⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+"⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+"⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+"⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+"(i) ectoparasites\n"
+"(ii) endoparasites",
+answer: "Correct Answer:\n"
+"⦿ (i) **Ectoparasite control methods:**\n"
+"⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+"⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+"⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+"⦿ (ii) **Endoparasite control methods:**\n"
+"⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+"⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+"⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+answer: "Correct Answer:\n"
+"⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+"⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+"⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+"⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+answer: "Correct Answer:\n"
+"⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+"⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+answer: "Correct Answer:\n"
+"⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+"Advantages:\n"
+"⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+"⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS2 s5 ss5 - Diffusion & Osmosis / Pests & Parasites": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+answer: "Correct Answer:\n"
+"⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+"⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Define the term osmosis. (BECE 1997 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+"⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+answer: "Correct Answer:\n",
+answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          ["Substance Involved", "Restricted strictly to the movement of water or solvent molecules.", "Applies to particles of any state of matter, including solids, liquids, and gases."],
+          ["Membrane Requirement", "Requires a semi-permeable membrane to separate the two regions.", "Occurs freely without requiring any biological or physical membrane barrier."],
+          ["Direction of Flow", "Water molecules travel from a dilute solution towards a more concentrated solution.", "Particles travel directly from an area of higher concentration towards an area of lower concentration."],
+          ["Medium Requirement", "Can only take place within a liquid medium.", "Occurs across gas phases, liquid solutions, and solid mixtures."],
+        ],
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+"⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+"⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+"(i) absorption of water by the roots of a plant\n"
+"(ii) movement of digested food from the small intestine into the bloodstream",
+answer: "Correct Answer:\n"
+"⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+"⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+"Examples:\n"
+"⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+"⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+"⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+"⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+answer: "Correct Answer:\n"
+"⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+"⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+"⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+"⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+"(i) ectoparasites\n"
+"(ii) endoparasites",
+answer: "Correct Answer:\n"
+"⦿ (i) **Ectoparasite control methods:**\n"
+"⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+"⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+"⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+"⦿ (ii) **Endoparasite control methods:**\n"
+"⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+"⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+"⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+answer: "Correct Answer:\n"
+"⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+"⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+"⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+"⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+answer: "Correct Answer:\n"
+"⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+"⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+answer: "Correct Answer:\n"
+"⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+"Advantages:\n"
+"⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+"⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+explanation: "",
+),
+    ],
+  ),
+  "Science JHS3 s5 ss5 - Diffusion & Osmosis / Pests & Parasites": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+scenario:
+"(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+answer: "Correct Answer:\n"
+"⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+"⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(b) Define the term osmosis. (BECE 1997 Q1a)",
+answer: "Correct Answer:\n"
+"⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+"⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+answer: "Correct Answer:\n",
+answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          ["Substance Involved", "Restricted strictly to the movement of water or solvent molecules.", "Applies to particles of any state of matter, including solids, liquids, and gases."],
+          ["Membrane Requirement", "Requires a semi-permeable membrane to separate the two regions.", "Occurs freely without requiring any biological or physical membrane barrier."],
+          ["Direction of Flow", "Water molecules travel from a dilute solution towards a more concentrated solution.", "Particles travel directly from an area of higher concentration towards an area of lower concentration."],
+          ["Medium Requirement", "Can only take place within a liquid medium.", "Occurs across gas phases, liquid solutions, and solid mixtures."],
+        ],
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+answer: "Correct Answer:\n"
+"⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+"⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+"⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+"(i) absorption of water by the roots of a plant\n"
+"(ii) movement of digested food from the small intestine into the bloodstream",
+answer: "Correct Answer:\n"
+"⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+"⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+answer: "Correct Answer:\n"
+"⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+"Examples:\n"
+"⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+"⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+"⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+answer: "Correct Answer:\n"
+"⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+"⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+answer: "Correct Answer:\n"
+"⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+"⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+"⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+"⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+"(i) ectoparasites\n"
+"(ii) endoparasites",
+answer: "Correct Answer:\n"
+"⦿ (i) **Ectoparasite control methods:**\n"
+"⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+"⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+"⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+"⦿ (ii) **Endoparasite control methods:**\n"
+"⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+"⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+"⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+answer: "Correct Answer:\n"
+"⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+"⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+"⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+"⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+answer: "Correct Answer:\n"
+"⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+answer: "Correct Answer:\n"
+"⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+"⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+explanation: "",
+),
+      PracticeQuestion(
+scenario:
+"(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+answer: "Correct Answer:\n"
+"⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+"Advantages:\n"
+"⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+"⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+explanation: "",
+),
+    ],
+  ),
+
+
+
+
+  
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
   "Religious & Moral Education JHS1 s1 ss1 - Religion, God, His Creation and Attributes": PracticeModel(
     audioPath: '',

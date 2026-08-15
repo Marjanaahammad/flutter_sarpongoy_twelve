@@ -259,9 +259,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                   width: 120,
                   height: 120,
                   color: const Color(0xFFF0F0F0),
-                  child: (student?.picture?.url ?? '').isNotEmpty
+                  child: (student?.picture.url ?? '').isNotEmpty
                       ? Image.network(
-                          student!.picture!.url!,
+                          student!.picture.url,
                           fit: BoxFit.cover,
                           errorBuilder: (context, error, stackTrace) =>
                               _buildFallbackAvatar(120, 60),
