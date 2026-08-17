@@ -1,4 +1,6 @@
 import 'package:flutter_sarpongoy_twelve/features/splash/screens/splash_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_sarpongoy_twelve/features/profile/models/request/help_support_request_model.dart';
 import 'package:flutter_sarpongoy_twelve/features/teacher_profile/data/model/teacher_get_profile_response_model.dart';
 import 'package:get/get.dart';
 
@@ -67,6 +69,43 @@ class TeacherProfileController extends BaseController {
         await fetchProfile(); // This already handles setLoading(false)
         _multiFormDataManager.clear();
         setError(success.message);
+      },
+    );
+  }
+
+  Future<bool> helpSupport(String subject, String description) async {
+    setLoading(true);
+    final request = HelpSupportRequestModel(
+      subject: subject,
+      description: description,
+    );
+    final result = await _profileRepository.helpAndSupport(request);
+
+    return result.fold(
+      (fail) {
+        setLoading(false);
+        setError(fail.message);
+        DPrint.log('help support failed: ${fail.message}');
+        Get.snackbar(
+          'Error',
+          fail.message,
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.red,
+          colorText: Colors.white,
+        );
+        return false;
+      },
+      (success) {
+        setLoading(false);
+        DPrint.log('help support success: ${success.message}');
+        Get.snackbar(
+          'Success',
+          'Your concern has been submitted successfully.',
+          snackPosition: SnackPosition.BOTTOM,
+          backgroundColor: Colors.green,
+          colorText: Colors.white,
+        );
+        return true;
       },
     );
   }

@@ -20,93 +20,100 @@ class MethodChannelNoScreenshot extends NoScreenshotPlatform {
   @override
   Stream<ScreenshotSnapshot> get screenshotStream {
     _cachedStream ??= eventChannel.receiveBroadcastStream().map(
-      (event) =>
-          ScreenshotSnapshot.fromMap(jsonDecode(event) as Map<String, dynamic>),
-    );
+          (event) => ScreenshotSnapshot.fromMap(
+              jsonDecode(event) as Map<String, dynamic>),
+        );
     return _cachedStream!;
   }
 
   @override
   Future<bool> toggleScreenshot() async {
-    final result = await methodChannel.invokeMethod<bool>(
-      toggleScreenShotConst,
-    );
-    return result ?? false;
+    return _invokeBool(toggleScreenShotConst);
   }
 
   @override
   Future<bool> screenshotOff() async {
-    final result = await methodChannel.invokeMethod<bool>(screenShotOffConst);
-    return result ?? false;
+    return _invokeBool(screenShotOffConst);
   }
 
   @override
   Future<bool> screenshotOn() async {
-    final result = await methodChannel.invokeMethod<bool>(screenShotOnConst);
-    return result ?? false;
+    return _invokeBool(screenShotOnConst);
   }
 
   @override
   Future<bool> toggleScreenshotWithImage() async {
-    final result = await methodChannel.invokeMethod<bool>(screenSetImage);
-    return result ?? false;
+    return _invokeBool(screenSetImage);
   }
 
   @override
   Future<bool> toggleScreenshotWithBlur({double blurRadius = 30.0}) async {
-    final result = await methodChannel.invokeMethod<bool>(screenSetBlur, {
+    return _invokeBool(screenSetBlur, {
       'radius': blurRadius,
     });
-    return result ?? false;
   }
 
   @override
   Future<bool> toggleScreenshotWithColor({int color = 0xFF000000}) async {
-    final result = await methodChannel.invokeMethod<bool>(screenSetColor, {
+    return _invokeBool(screenSetColor, {
       'color': color,
     });
-    return result ?? false;
   }
 
   @override
   Future<bool> screenshotWithImage() async {
-    final result = await methodChannel.invokeMethod<bool>(screenEnableImage);
-    return result ?? false;
+    return _invokeBool(screenEnableImage);
   }
 
   @override
   Future<bool> screenshotWithBlur({double blurRadius = 30.0}) async {
-    final result = await methodChannel.invokeMethod<bool>(screenEnableBlur, {
+    return _invokeBool(screenEnableBlur, {
       'radius': blurRadius,
     });
-    return result ?? false;
   }
 
   @override
   Future<bool> screenshotWithColor({int color = 0xFF000000}) async {
-    final result = await methodChannel.invokeMethod<bool>(screenEnableColor, {
+    return _invokeBool(screenEnableColor, {
       'color': color,
     });
-    return result ?? false;
   }
 
   @override
   Future<void> startScreenshotListening() {
-    return methodChannel.invokeMethod<void>(startScreenshotListeningConst);
+    return _invokeVoid(startScreenshotListeningConst);
   }
 
   @override
   Future<void> stopScreenshotListening() {
-    return methodChannel.invokeMethod<void>(stopScreenshotListeningConst);
+    return _invokeVoid(stopScreenshotListeningConst);
   }
 
   @override
   Future<void> startScreenRecordingListening() {
-    return methodChannel.invokeMethod<void>(startScreenRecordingListeningConst);
+    return _invokeVoid(startScreenRecordingListeningConst);
   }
 
   @override
   Future<void> stopScreenRecordingListening() {
-    return methodChannel.invokeMethod<void>(stopScreenRecordingListeningConst);
+    return _invokeVoid(stopScreenRecordingListeningConst);
+  }
+
+  Future<bool> _invokeBool(String method,
+      [Map<String, dynamic>? arguments]) async {
+    try {
+      final result = await methodChannel.invokeMethod<bool>(method, arguments);
+      return result ?? false;
+    } on MissingPluginException {
+      return false;
+    }
+  }
+
+  Future<void> _invokeVoid(String method) async {
+    try {
+      await methodChannel.invokeMethod<void>(method);
+    } on MissingPluginException {
+      return;
+    }
   }
 }

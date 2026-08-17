@@ -332,52 +332,27 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  "${data?.student?.studentName ?? 'Student'}'s Progress Sheet",
-                  style: const TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w500,
-                    color: Color(0xFF263451),
-                  ),
-                ),
-                const SizedBox(height: 4),
-                const Text(
-                  'Select subject and see the progress',
-                  style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w500,
-                    color: Color(0xFF6C6C6C),
-                  ),
-                ),
-              ],
-            ),
-            // Time Period Filter
-            _buildFilterDropdown(
-              value: _selectedTimePeriod,
-              options: data?.filters?.timePeriods ??
-                  [
-                    "Today",
-                    "Past Week",
-                    "Past 1 Month",
-                    "Past 3 Months",
-                    "Past 6 Months",
-                    "Past Year"
-                  ],
-              onSelected: (value) {
-                setState(() {
-                  _selectedTimePeriod = value;
-                });
-                _refreshDataTop();
-              },
-            ),
-          ],
+        _buildProgressSheetTitle(
+          data,
+          trailing: _buildFilterDropdown(
+            value: _selectedTimePeriod,
+            isCompact: true,
+            options: data?.filters?.timePeriods ??
+                [
+                  "Today",
+                  "Past Week",
+                  "Past 1 Month",
+                  "Past 3 Months",
+                  "Past 6 Months",
+                  "Past Year"
+                ],
+            onSelected: (value) {
+              setState(() {
+                _selectedTimePeriod = value;
+              });
+              _refreshDataTop();
+            },
+          ),
         ),
         const SizedBox(height: 16),
         Obx(() {
@@ -431,6 +406,48 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
+  Widget _buildProgressSheetTitle(
+    GetStudentDetailsResponseModel? data, {
+    Widget? trailing,
+  }) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          "${data?.student?.studentName ?? 'Student'}'s Progress Sheet",
+          style: const TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.w500,
+            color: Color(0xFF263451),
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
+        const SizedBox(height: 4),
+        Row(
+          children: [
+            const Expanded(
+              child: Text(
+                'Select subject and see the progress',
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w500,
+                  color: Color(0xFF6C6C6C),
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            if (trailing != null) ...[
+              const SizedBox(width: 8),
+              trailing,
+            ],
+          ],
+        ),
+      ],
+    );
+  }
+
   String _getSubjectIcon(String? subjectName) {
     if (subjectName == null) return 'assets/images/eglishIcon.png';
     final name = subjectName.toLowerCase();
@@ -470,6 +487,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     required String value,
     required List<String> options,
     required Function(String) onSelected,
+    bool isCompact = false,
   }) {
     return PopupMenuButton<String>(
       offset: const Offset(0, 45),
@@ -504,26 +522,34 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         }).toList();
       },
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        constraints: BoxConstraints(maxWidth: isCompact ? 120 : 180),
+        padding: EdgeInsets.symmetric(
+          horizontal: isCompact ? 10 : 16,
+          vertical: isCompact ? 5 : 8,
+        ),
         decoration: BoxDecoration(
           color: const Color(0xFF019E2E),
-          borderRadius: BorderRadius.circular(6),
+          borderRadius: BorderRadius.circular(isCompact ? 4 : 6),
         ),
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(
-              value,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 14,
-                fontWeight: FontWeight.w500,
+            Flexible(
+              child: Text(
+                value,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: isCompact ? 11 : 14,
+                  fontWeight: FontWeight.w500,
+                ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
             ),
-            const SizedBox(width: 8),
-            const Icon(
+            SizedBox(width: isCompact ? 4 : 8),
+            Icon(
               Icons.keyboard_arrow_down,
-              size: 18,
+              size: isCompact ? 14 : 18,
               color: Colors.white,
             ),
           ],
@@ -1020,22 +1046,26 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   Widget _buildStatBox(String title, String value, Color color) {
     return Expanded(
       child: Container(
-        height: 91,
+        constraints: const BoxConstraints(minHeight: 91),
         width: 248.5,
-        padding: const EdgeInsets.symmetric(vertical: 16),
+        padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 8),
         decoration: BoxDecoration(
           color: color,
           borderRadius: BorderRadius.circular(4),
         ),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               title,
               style: const TextStyle(
-                fontSize: 16,
+                fontSize: 13,
                 fontWeight: FontWeight.w500,
                 color: Color(0xFF000000),
               ),
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
             ),
             const SizedBox(height: 4),
             Text(
@@ -1045,6 +1075,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF1E1E1E),
               ),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
             ),
           ],
         ),
@@ -1153,10 +1186,15 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text(
-              'Most Recent Activity',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+            const Expanded(
+              child: Text(
+                'Most Recent Activity',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
             ),
+            const SizedBox(width: 12),
             PopupMenuButton<String>(
               color: Colors.white,
               onSelected: (value) {
@@ -1186,6 +1224,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     .toList();
               },
               child: Container(
+                constraints: const BoxConstraints(maxWidth: 190),
                 padding: const EdgeInsets.symmetric(
                   horizontal: 10,
                   vertical: 4,
@@ -1197,12 +1236,16 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      _selectedPeriod,
-                      style: const TextStyle(
-                        color: Color(0xFF000000),
-                        fontSize: 12,
-                        fontWeight: FontWeight.w500,
+                    Flexible(
+                      child: Text(
+                        _selectedPeriod,
+                        style: const TextStyle(
+                          color: Color(0xFF000000),
+                          fontSize: 12,
+                          fontWeight: FontWeight.w500,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                       ),
                     ),
                     const SizedBox(width: 4),

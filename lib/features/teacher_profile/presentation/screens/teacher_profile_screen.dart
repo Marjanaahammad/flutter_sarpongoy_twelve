@@ -24,36 +24,45 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
     TeacherProfileController(),
   );
 
-  // Controller for form fields (using dummy values from image)
   final TextEditingController _firstNameController = TextEditingController();
   final TextEditingController _lastNameController = TextEditingController();
-  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _userIdController = TextEditingController();
   final TextEditingController _phoneController = TextEditingController();
   final TextEditingController _bioController = TextEditingController();
+  late final Worker _profileWorker;
 
   @override
   void initState() {
     super.initState();
-    // Pre-populate if data already exists
     if (_controller.userInfo.value != null) {
       _updateControllers();
     } else {
-      // Fetch profile data when screen opens
       _controller.fetchProfile();
     }
-    // Listen for changes and populate fields when data arrives
-    ever(_controller.userInfo, (_) => _updateControllers());
+    _profileWorker = ever(_controller.userInfo, (_) => _updateControllers());
   }
 
   void _updateControllers() {
     final user = _controller.userInfo.value?.user;
+    final teacher = _controller.userInfo.value?.teacher;
     if (user != null) {
-      _firstNameController.text = user.firstName ?? '';
+      _firstNameController.text = user.firstName ?? teacher?.name ?? '';
       _lastNameController.text = user.lastName ?? '';
-      _emailController.text = user.userId ?? '';
+      _userIdController.text = user.userId ?? '';
       _phoneController.text = user.phone ?? '';
       _bioController.text = user.bio ?? '';
     }
+  }
+
+  @override
+  void dispose() {
+    _profileWorker.dispose();
+    _firstNameController.dispose();
+    _lastNameController.dispose();
+    _userIdController.dispose();
+    _phoneController.dispose();
+    _bioController.dispose();
+    super.dispose();
   }
 
   @override
@@ -229,7 +238,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          const Text(
             'Personal Information',
             style: TextStyle(
               fontSize: 24,
@@ -253,7 +262,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
           Row(
             children: [
               Expanded(
-                child: _buildTextField('Email Address', _emailController),
+                child: _buildTextField('User ID', _userIdController),
               ),
               const SizedBox(width: 30),
               Expanded(child: _buildTextField('Phone', _phoneController)),
@@ -261,53 +270,6 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
           ),
           const SizedBox(height: 20),
           _buildTextField('Bio', _bioController, maxLines: 5),
-          const SizedBox(height: 32),
-          Center(
-            child: Container(
-              width: 280,
-              height: 48,
-              decoration: BoxDecoration(
-                gradient: const LinearGradient(
-                  colors: [Color(0xFF0FCE46), Color(0xFF006A2A)],
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                ),
-                borderRadius: BorderRadius.circular(4),
-              ),
-              child: ElevatedButton(
-                onPressed: () {
-                  _controller.updateProfile(
-                    _firstNameController.text,
-                    _lastNameController.text,
-                    _phoneController.text,
-                    _bioController.text,
-                  );
-                },
-                style:
-                    ElevatedButton.styleFrom(
-                      backgroundColor: Colors.transparent,
-                      shadowColor: Colors.transparent,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(4),
-                      ),
-                    ).copyWith(
-                      shape: WidgetStateProperty.all(
-                        RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(4),
-                        ),
-                      ),
-                    ),
-                child: Text(
-                  'Save changes',
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w500,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-            ),
-          ),
         ],
       ),
     );
@@ -332,6 +294,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
         const SizedBox(height: 8),
         TextField(
           controller: controller,
+          readOnly: true,
           maxLines: maxLines,
           cursorColor: const Color(0xFF0FCE46),
           decoration: InputDecoration(
@@ -425,8 +388,8 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
               final subject = subjects[index];
               final isAssigned = courses.any(
                 (c) => (c.name as String).toLowerCase().contains(
-                  (subject['name'] as String).toLowerCase(),
-                ),
+                      (subject['name'] as String).toLowerCase(),
+                    ),
               );
 
               return SizedBox(
@@ -506,7 +469,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
                 imagePath: 'assets/images/privacy.png',
                 bgColor: const Color(0xFFE57373),
                 title: 'Privacy Policy',
-                subtitle: 'Control who can see your progress',
+                subtitle: 'Terms of use',
                 onTap: widget.onPrivacyPolicyTap,
               ),
               Divider(
@@ -518,7 +481,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
               _buildSettingsTile(
                 imagePath: 'assets/images/help.png',
                 bgColor: const Color(0xFF7986CB),
-                title: 'Help and support',
+                title: 'Help and Support',
                 subtitle: 'Get help anytime.',
                 onTap: widget.onHelpSupportTap,
               ),
@@ -558,7 +521,6 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
           color: Colors.black,
         ),
       ),
-
       subtitle: Text(
         subtitle,
         style: TextStyle(

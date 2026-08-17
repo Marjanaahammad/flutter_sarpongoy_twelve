@@ -244,18 +244,6 @@ class TeacherDashboardController extends BaseController {
     ever(currentPage, (_) {
       _updateStudentInfo();
     });
-
-    // First fetch global totals to capture initialCounters
-    fetchDashboard(
-      gradeLevel: 'All',
-      timePeriod: 'Past Year',
-    );
-
-    fetchDashboard(
-      subject: 'English',
-      gradeLevel: 'All',
-      timePeriod: 'Past Year',
-    );
   }
 
   Future<void> fetchDashboard({
