@@ -20,8 +20,6 @@ class StudentOverviewScreen extends StatefulWidget {
   State<StudentOverviewScreen> createState() => _StudentOverviewScreenState();
 }
 
-
-
 class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
   final TeacherProfileController _profileController =
       Get.find<TeacherProfileController>();
@@ -36,8 +34,6 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
     super.initState();
     _noScreenshot.screenshotOff();
   }
-
-
 
   @override
   void dispose() {
@@ -468,7 +464,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                   children: [
                     const Text(
                       'Filters',
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
                     ),
                     GestureDetector(
                       onTap: () => Get.back(),
@@ -568,7 +565,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                           Icons.keyboard_arrow_down,
                           color: Colors.black,
                         ),
-                        style: const TextStyle(color: Colors.black, fontSize: 14),
+                        style:
+                            const TextStyle(color: Colors.black, fontSize: 14),
                         items: grades
                             .map(
                               (g) => DropdownMenuItem(value: g, child: Text(g)),
@@ -601,7 +599,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                           Icons.keyboard_arrow_down,
                           color: Colors.black,
                         ),
-                        style: const TextStyle(color: Colors.black, fontSize: 14),
+                        style:
+                            const TextStyle(color: Colors.black, fontSize: 14),
                         items: subjects
                             .map(
                               (s) => DropdownMenuItem(value: s, child: Text(s)),
@@ -624,7 +623,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                       child: TextField(
                         controller: minScoreController,
                         cursorColor: Colors.black,
-                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        keyboardType: const TextInputType.numberWithOptions(
+                            decimal: true),
                         decoration: InputDecoration(
                           hintText: 'Min',
                           hintStyle: const TextStyle(
@@ -637,7 +637,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),
-                            borderSide: const BorderSide(color: Color(0xFF22C55E)),
+                            borderSide:
+                                const BorderSide(color: Color(0xFF22C55E)),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),
@@ -664,7 +665,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                       child: TextField(
                         controller: maxScoreController,
                         cursorColor: Colors.black,
-                        keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                        keyboardType: const TextInputType.numberWithOptions(
+                            decimal: true),
                         decoration: InputDecoration(
                           hintText: 'Max',
                           hintStyle: const TextStyle(
@@ -677,7 +679,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                           ),
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),
-                            borderSide: const BorderSide(color: Color(0xFF22C55E)),
+                            borderSide:
+                                const BorderSide(color: Color(0xFF22C55E)),
                           ),
                           focusedBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(8),

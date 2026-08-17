@@ -2866,27 +2866,30 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-  "Math JHS2 s4 ss1 - Vectors and Measurement": PracticeModel(
+
+  "Math JHS2 s4 ss1 - Data": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1 (BECE 1991 Q4)\n"
-            "The heights in centimetres of 10 school children are as follows:\n"
-            "165, 165, 155, 159, 174, 154, 169, 155, 155, 150\n"
+        scenario:
+            "Question 1: The heights in centimetres of 10 school children are as follows:\n"
+            "165, 165, 155, 159, 174, 154, 169, 155, 155, 150\n\n"
             "(a) Make a frequency table for the data.\n"
-            "(b) Use your table to find the mode and the median of the distribution.",
-        answer: "Correct Answer:\n"
-            "(a) Frequency Table:\n\n"
-            "Height (cm) | Tally | Frequency (f)\n"
-            "150 | / | 1\n"
-            "154 | / | 1\n"
-            "155 | /// | 3\n"
-            "159 | / | 1\n"
-            "165 | // | 2\n"
-            "169 | / | 1\n"
-            "174 | / | 1\n"
-            "Total |  | 10\n\n"
-            "(b) Finding the Mode and Median:\n\n"
+            "(b) Use your table to find the mode and the median of the distribution.\n"
+            "(BECE 1991 Q4)",
+        answer: "⦿ (a) Frequency Table:\n",
+        answerTableHeaders: ["Height (cm)", "Tally", "Frequency (f)"],
+        answerTableData: [
+          ["150", "/", "1"],
+          ["154", "/", "1"],
+          ["155", "///", "3"],
+          ["159", "/", "1"],
+          ["165", "//", "2"],
+          ["169", "/", "1"],
+          ["174", "/", "1"],
+          ["Total", "", "10"],
+        ],
+        explanation: "(b) Finding the Mode and Median:\n\n"
             "⦿ i) Mode:\n"
             "The mode is 155 cm, since it is the height with the highest frequency.\n\n"
             "⦿ ii) Median:\n"
@@ -2897,443 +2900,363 @@ final Map<String, PracticeModel> becePracticeData = {
             "\n\n"
             r"Adding frequencies from the top row downward shows the 5^{\text{th}} position is 155 cm and the 6^{\text{th}} position is 159 cm."
             "\n\n"
-            r"\text{Median} = \frac{155 + 159}{2} = \frac{314}{2} = 157\text{ cm}",
-        explanation: "",
+            r"\text{Median} = \frac{155 + 159}{2} = \frac{314}{2} = 157 cm",
       ),
       PracticeQuestion(
-        scenario: "Question 2 (BECE 2002B Q5)\n"
-            "The following are the marks obtained by pupils in a test:\n"
-            "2, 3, 5, 2, 3, 4, 2, 3, 5, 3, 5, 3, 2, 4, 5, 2, 4, 3, 1, 1, 3, 4, 2, 3, 4, 5, 3, 4, 3, 2\n"
+        scenario:
+            "Question 2: The following are the marks obtained by pupils in a test:\n"
+            "2, 3, 5, 2, 3, 4, 2, 3, 5, 3, 5, 3, 2, 4, 5, 2, 4, 3, 1, 1, 3, 4, 2, 3, 4, 5, 3, 4, 3, 2\n\n"
             "(a) Copy and complete the frequency table.\n"
             "(b) Find the mean of the distribution.\n"
-            "(c) If a pupil is selected at random from the form, what is the probability that he/she scored 4 marks?",
-        answer: "Correct Answer:\n"
-            "(a) Completed Table:\n\n"
-            "Score (x) | Tally | Frequency (f) | fx\n"
-            "1 | /// | 3 | 3\n"
-            "2 | ///// // | 7 | 14\n"
-            "3 | ///// ///// | 10 | 30\n"
-            "4 | ///// // | 7 | 28\n"
-            "5 | /// | 3 | 15\n"
-            r"Total |  | \sum f = 30 | \sum fx = 90"
-            "\n\n"
-            "⦿ (b) Mean:\n"
+            "(c) If a pupil is selected at random from the form, what is the probability that he/she scored 4 marks?\n"
+            "(BECE 2002B Q5)",
+        answer: "⦿ (a) Completed Table:\n",
+        answerTableHeaders: ["Score (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["1", "//", "3", "3"],
+          ["2", "///// //", "7", "14"],
+          ["3", "///// /////", "10", "30"],
+          ["4", "///// //", "7", "28"],
+          ["5", "///", "3", "15"],
+          ["Total", "", r"\sum f = 30", r"\sum fx = 90"],
+        ],
+        explanation: "(b) Mean:\n\n"
             r"\text{Mean, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{90}{30} = 3"
             "\n\n"
-            "⦿ (c) Probability of scoring 4 marks:\n"
+            "(c) Probability of scoring 4 marks:\n\n"
             r"\text{Probability} = \frac{\text{Number of pupils who scored 4 marks}}{\text{Total number of pupils}} = \frac{7}{30}",
-        explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 3 (BECE 2005 Q6)\n"
-            "The following marks were obtained by pupils in a test.\n"
-            "6, 4, 8, 2, 8, 6, 8, 8, 8, 10, 8, 9, 8, 6, 10, 2, 2, 6, 6, 6\n"
+        scenario:
+            "Question 3: The following marks were obtained by pupils in a test.\n"
+            "6, 4, 8, 2, 8, 6, 8, 8, 8, 10, 8, 9, 8, 6, 10, 2, 2, 6, 6, 6\n\n"
             "(a) Construct a frequency distribution table for the data.\n"
             "(b) What is the modal mark?\n"
             "(c) Calculate the mean mark.\n"
             "(d) How many pupils scored more than 6 marks?\n"
-            "(e) What is the probability that a student chosen at random obtained 2 marks?",
-        answer: "Correct Answer:\n"
-            "(a) Frequency Distribution Table:\n\n"
-            "Marks (x) | Tally | Frequency (f) | fx\n"
-            "2 | /// | 3 | 6\n"
-            "4 | / | 1 | 4\n"
-            "6 | ///// / | 6 | 36\n"
-            "8 | ///// // | 7 | 56\n"
-            "9 | / | 1 | 9\n"
-            "10 | // | 2 | 20\n"
-            r"Total |  | \sum f = 20 | \sum fx = 131"
-            "\n\n"
-            "⦿ (b) Modal mark:\n"
+            "(e) What is the probability that a student chosen at random obtained 2 marks?\n"
+            "(BECE 2005 Q6)",
+        answer: "⦿ (a) Frequency Distribution Table:\n",
+        answerTableHeaders: ["Marks (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["2", "///", "3", "6"],
+          ["4", "/", "1", "4"],
+          ["6", "///// /", "6", "36"],
+          ["8", "///// //", "7", "56"],
+          ["9", "/", "1", "9"],
+          ["10", "//", "2", "20"],
+          ["Total", "", r"\sum f = 20", r"\sum fx = 131"],
+        ],
+        explanation: "(b) Modal mark:\n"
             "The modal mark is 8 since the mark 8 has the highest frequency.\n\n"
-            "⦿ (c) Mean mark:\n"
+            "(c) Mean mark:\n\n"
             r"\text{Mean, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{131}{20} = 6.55"
             "\n\n"
-            "⦿ (d) Pupils who scored more than 6 marks:\n"
-            "Those who scored more than 6 marks scored either 8, 9, or 10.\n"
-            r"\text{Number of pupils} = 7 + 1 + 2 = 10\text{ pupils}"
+            "(d) Pupils who scored more than 6 marks:\n"
+            "Those who scored more than 6 marks scored either 8, 9, or 10.\n\n"
+            r"\text{Number of pupils} = 7 + 1 + 2 = 10 pupils"
             "\n\n"
-            "⦿ (e) Probability that a student obtained 2 marks:\n"
+            "(e) Probability that a student obtained 2 marks:\n\n"
             r"\text{Probability} = \frac{\text{Number of students who obtained 2 marks}}{\text{Total number of students}} = \frac{3}{20}",
-        explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 4 (BECE 2009 Q2)\n"
-            "The table below shows the scores of some students in an examination.\n\n"
-            "Scores | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10\n"
-            "Frequency | 3 | 5 | 3 | 2 | 7 | 6 | 5 | 4 | 2 | 2 | 1\n\n"
+        scenario:
+            "Question 4: The table below shows the scores of some students in an examination.\n\n"
+            "Scores       1 2 3\n"
+            "Frequency  3 5 3\n"
             "From the table, find:\n"
             "(a) how many students wrote the examination;\n"
             "(b) the modal score;\n"
             "(c) the number of students that scored 7 or more;\n"
-            "(d) the mean score correct to one decimal place.",
-        answer: "Correct Answer:\n"
-            "⦿ (a) Number of students who wrote the examination:\n"
-            r"\text{Total} = 3 + 5 + 3 + 2 + 7 + 6 + 5 + 4 + 2 + 2 + 1 = 40\text{ students}"
+            "(d) the mean score correct to one decimal place.\n"
+            "(BECE 2009 Q2)",
+        answer:
+            "Correct Answer: \n(a) Number of students who wrote the examination:\n\n"
+            r"\text{Total} = 3 + 5 + 3 + 2 + 7 + 6 + 5 + 4 + 2 + 2 + 1 = 40 students"
             "\n\n"
-            "⦿ (b) Modal score:\n"
+            "(b) Modal score:\n"
             "The modal score is 4, since it is the score with the highest frequency.\n\n"
-            "⦿ (c) Number of students who scored 7 or more:\n"
-            r"\text{Total} = 4 + 2 + 2 + 1 = 9\text{ students}"
+            "(c) Number of students who scored 7 or more:\n\n"
+            r"\text{Total} = 4 + 2 + 2 + 1 = 9 students"
+            "\n"
+            "(d) Mean score calculation: \n",
+        answerTableHeaders: ["Scores (x)", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["0", "3", "0"],
+          ["1", "5", "5"],
+          ["2", "3", "6"],
+          ["3", "2", "6"],
+          ["4", "7", "28"],
+          ["5", "6", "30"],
+          ["6", "5", "30"],
+          ["7", "4", "28"],
+          ["8", "2", "16"],
+          ["9", "2", "18"],
+          ["10", "1", "10"],
+          ["Total", r"\sum f = 40", r"\sum fx = 177"],
+        ],
+        explanation: "\n\n"
+            "(d) Mean score calculation:\n\n"
+            r"\sum f = 40"
+            "\n"
+            r"\sum fx = 177"
             "\n\n"
-            "⦿ (d) Mean score calculation:\n\n"
-            "Scores (x) | Frequency (f) | fx\n"
-            "0 | 3 | 0\n"
-            "1 | 5 | 5\n"
-            "2 | 3 | 6\n"
-            "3 | 2 | 6\n"
-            "4 | 7 | 28\n"
-            "5 | 6 | 30\n"
-            "6 | 5 | 30\n"
-            "7 | 4 | 28\n"
-            "8 | 2 | 16\n"
-            "9 | 2 | 18\n"
-            "10 | 1 | 10\n"
-            r"Total | \sum f = 40 | \sum fx = 177"
-            "\n\n"
-            r"\text{Mean score, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{177}{40} = 4.425 \approx 4.4\text{ (to 1 decimal place)}",
-        explanation: "",
+            r"\text{Mean score, } \bar{x} = \frac{\sum fx}{\sum f} = \frac{177}{40} = 4.425 \approx 4.4 (to 1 decimal place)",
       ),
       PracticeQuestion(
-        scenario: "Question 5 (BECE 2012 Q4)\n"
-            "The marks scored by some students in a Mathematics test are as follows:\n"
-            "3, 3, 5, 6, 3, 4, 7, 8, 3, 4, 5, 4, 7, 4, 3, 7, 4, 6, 4, 8, 3, 4, 5, 4, 6, 3, 8, 4, 5, 6, 4, 5\n"
+        scenario:
+            "Question 5: The marks scored by some students in a Mathematics test are as follows:\n"
+            "3, 3, 5, 6, 3, 4, 7, 8, 3, 4, 5, 4, 7, 4, 3, 7, 4, 6, 4, 8, 3, 4, 5, 4, 6, 3, 8, 4, 5, 6, 4, 5\n\n"
             "(a) Construct a frequency distribution table for the scores.\n"
             "(b) Using the table, find for the distribution, the:\n"
             "(i) mode;\n"
             "(ii) mean, correct to one decimal place;\n"
-            "(iii) median.",
-        answer: "Correct Answer:\n"
-            "(a) Frequency Distribution Table:\n\n"
-            "Marks (x) | Tally | Frequency (f) | fx\n"
-            "3 | ///// / | 6 | 18\n"
-            "4 | ///// //// | 9 | 36\n"
-            "5 | ///// | 5 | 25\n"
-            "6 | //// | 4 | 24\n"
-            "7 | /// | 3 | 21\n"
-            "8 | /// | 3 | 24\n"
-            r"Total |  | \sum f = 30 | \sum fx = 148"
-            "\n\n"
-            "(b) Statutory Calculations:\n\n"
+            "(iii) median.\n"
+            "(BECE 2012 Q4)",
+        answer: "⦿ (a) Frequency Distribution Table:\n",
+        answerTableHeaders: ["Marks (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["3", "///// /", "6", "18"],
+          ["4", "///// ////", "9", "36"],
+          ["5", "/////", "5", "25"],
+          ["6", "////", "4", "24"],
+          ["7", "///", "3", "21"],
+          ["8", "///", "3", "24"],
+          ["Total", "", r"\sum f = 30", r"\sum fx = 148"],
+        ],
+        explanation: "(b) Statutory Calculations:\n\n"
             "⦿ (i) Mode:\n"
             "From the table, the mode is 4.\n\n"
             "⦿ (ii) Mean:\n"
-            r"\text{Mean} = \frac{\sum fx}{\sum f} = \frac{148}{30} = 4.933 \approx 4.9\text{ (to 1 decimal place)}"
+            r"\text{Mean} = \frac{\sum fx}{\sum f} = \frac{148}{30} = 4.933 \approx 4.9 (to 1 decimal place)"
             "\n\n"
             "⦿ (iii) Median:\n"
             r"Total frequency is 30. Half of 30 is equal to 15. Therefore, the median is the average of the 15^{\text{th}} and 16^{\text{th}} marks."
             "\n\n"
             "Accumulating the frequencies from the top down shows both positions fall into the score category of 5.\n\n"
             r"\text{Median} = \frac{5 + 5}{2} = 5",
-        explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 6 (BECE 2017 Q4a)\n"
-            "The table below shows the ages of students admitted in a hospital.\n\n"
-            "Age (years) | 10 | 11 | 12 | 13 | 14 | 15\n"
-            "Number of students | 5 | 1 | 7 | 10 | 3 | 4\n\n"
+        scenario:
+            "Question 6: The table below shows the ages of students admitted in a hospital.\n"
+            "Age (years)                    10  11  12  13  14  15\n"
+            "Number of students         5   1    7  10  3   4\n"
             "Use the information to answer the following questions:\n"
             "(i) What is the modal age?\n"
-            "(ii) Calculate, correct to two decimal places, the mean age of the students.",
-        answer: "Correct Answer:\n"
-            "⦿ (i) Modal Age:\n"
-            "The modal age is 13, since it has the highest frequency of 10.\n\n"
-            "⦿ (ii) Mean Age Calculation:\n\n"
-            "Age (x) | Freq (f) | fx\n"
-            "10 | 5 | 50\n"
-            "11 | 1 | 11\n"
-            "12 | 7 | 84\n"
-            "13 | 10 | 130\n"
-            "14 | 3 | 42\n"
-            "15 | 4 | 60\n"
-            r"Total | \sum f = 30 | \sum fx = 377"
-            "\n\n"
-            r"\text{Mean age} = \frac{\sum fx}{\sum f} = \frac{377}{30} = 12.5667 \approx 12.57\text{ years}",
-        explanation: "",
+            "(ii) Calculate, correct to two decimal places, the mean age of the students.\n"
+            "(BECE 2017 Q4a)",
+        answer: "Correct Answer: (i) Modal Age: \n"
+            "The modal age is 13, since it has the highest frequency of 10.\n"
+            "(ii) Mean Age Calculation:\n",
+        answerTableHeaders: ["Age (x)", "Freq (f)", "fx"],
+        answerTableData: [
+          ["10", "5", "50"],
+          ["11", "1", "11"],
+          ["12", "7", "84"],
+          ["13", "10", "130"],
+          ["14", "3", "42"],
+          ["15", "4", "60"],
+          ["Total", r"\sum f = 30", r"\sum fx = 377"],
+        ],
+        explanation: "\n\n"
+            r"\text{Mean age} = \frac{\sum fx}{\sum f} = \frac{377}{30} = 12.5667 \approx 12.57 years",
       ),
       PracticeQuestion(
-        scenario: "Question 7 (BECE 2019 Q6)\n"
-            "The marks obtained by students in a class test were:\n"
-            "4, 8, 7, 6, 7, 2, 1, 7, 4, 7, 3, 7, 6, 4, 3, 7, 5, 2, 7, 2, 5, 4, 8, 3, 2\n"
+        scenario:
+            "Question 7: The marks obtained by students in a class test were:\n"
+            "4, 8, 7, 6, 7, 2, 1, 7, 4, 7, 3, 7, 6, 4, 3, 7, 5, 2, 7, 2, 5, 4, 8, 3, 2\n\n"
             "(a) Construct a frequency distribution table for the data.\n"
             "(b) Find the:\n"
             "(i) mode of the distribution;\n"
             "(ii) median mark of the test;\n"
-            "(iii) mean mark.",
-        answer: "Correct Answer:\n"
-            "(a) Frequency Distribution Table:\n\n"
-            "Marks (x) | Tally | Frequency (f) | fx\n"
-            "1 | / | 1 | 1\n"
-            "2 | //// | 4 | 8\n"
-            "3 | /// | 3 | 9\n"
-            "4 | //// | 4 | 16\n"
-            "5 | // | 2 | 10\n"
-            "6 | // | 2 | 12\n"
-            "7 | ///// // | 7 | 49\n"
-            "8 | // | 2 | 16\n"
-            r"Total |  | \sum f = 25 | \sum fx = 121"
-            "\n\n"
-            "(b) Statutory Calculations:\n\n"
+            "(iii) mean mark.\n"
+            "(BECE 2019 Q6)",
+        answer: "⦿ (a) Frequency Distribution Table:\n",
+        answerTableHeaders: ["Marks (x)", "Tally", "Frequency (f)", "fx"],
+        answerTableData: [
+          ["1", "/", "1", "1"],
+          ["2", "////", "4", "8"],
+          ["3", "///", "3", "9"],
+          ["4", "////", "4", "16"],
+          ["5", "//", "2", "10"],
+          ["6", "//", "2", "12"],
+          ["7", "///// //", "7", "49"],
+          ["8", "//", "2", "16"],
+          ["Total", "", "25", "121"],
+        ],
+        explanation: "(b) Statutory Calculations:\n\n"
             "⦿ (i) Mode:\n"
             "The mode is 7 since it has the highest frequency of 7.\n\n"
             "⦿ (ii) Median:\n"
-            r"\text{Median position} = \frac{1}{2}(\sum f + 1)^{\text{th}} = \frac{1}{2}(25 + 1)^{\text{th}} = 13^{\text{th}}\text{ position}"
+            r"\text{Median position} = \frac{1}{2}(\sum f + 1)^{\text{th}} = \frac{1}{2}(25 + 1)^{\text{th}} = 13^{\text{th}}position"
             "\n\n"
             r"Tracking cumulative frequencies down the table shows that the count reaches the 13^{\text{th}} position at a mark value of 5."
             "\n\n"
             "⦿ (iii) Mean mark:\n"
             r"\text{Mean mark } (\bar{x}) = \frac{\sum fx}{\sum f} = \frac{121}{25} = 4\frac{21}{25} = 4.84",
-        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS2 s4 ss2 - Chance or Probability": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "Question 1: A bag contains 70 pencils out of which 15 are green and 30 blue.\n"
+            "(i) How many pencils of other colours are in the bag?\n"
+            "(ii) A pencil is selected from the bag at random. What is the probability that it is blue?\n"
+            "(BECE 2006 Q2b)",
+        answer: "⦿ Step-by-Step Solution:\n",
+        explanation:
+            "⦿ Find the total number of green and blue pencils combined: Add the given values together.\n"
+            "Green pencils + Blue pencils = 15 + 30 = 45\n\n"
+            "⦿ Calculate pencils of other colours: Subtract the combined green and blue pencils from the grand total.\n"
+            "Other colours = 70 - 45 = 25 pencils\n\n"
+            "⦿ State the blue probability framework: Set up the general probability formula.\n"
+            r"P(blue pencil) = \frac{\text{Number of blue pencils}}{\text{Total number of pencils in bag}}"
+            "\n\n"
+            "⦿ Substitute and simplify: Insert the values and reduce the resulting fraction by a common factor of 10.\n"
+            r"P(blue pencil) = \frac{30}{70} = \frac{3}{7}",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 2: A crate of minerals containing ten bottles of Coca Cola and fourteen bottles of Fanta was given to some children for a birthday party. If a child chooses a drink at random from the crate, find the probability that it was Fanta.\n"
+            "(BECE 2016 Q5c)",
+        answer: "⦿ Step-by-Step Solution:\n",
+        explanation:
+            "⦿ Identify item totals: Explicitly log the quantities provided in the question.\n"
+            "Number of Coca Cola bottles (n(Coca Cola)) = 10\n"
+            "Number of Fanta bottles (n(Fanta)) = 14\n\n"
+            "⦿ Determine the sample space: Sum all individual item pools to get the total outcome possibilities.\n"
+            "Total number of bottles = 10 + 14 = 24\n\n"
+            "⦿ Establish the probability equation: Build the structural fraction.\n"
+            r"P(a child chooses Fanta) = \frac{\text{Number of Fanta bottles}}{\text{Total number of bottles}}"
+            "\n\n"
+            "⦿ Reduce to lowest terms: Divide both numbers by their highest common divisor, which is 2.\n"
+            r"P(a child chooses Fanta) = \frac{14}{24} = \frac{7}{12}",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 3: In a class of 30 students, five wear glasses. If a student is selected at random from the class, what is the probability that the student does not wear glasses?\n"
+            "(BECE 2025 Q5b)",
+        answer: "⦿ Step-by-Step Solution:\n",
+        explanation:
+            "⦿ Note known criteria: Write down the direct facts provided.\n"
+            "Total number of students = 30\n"
+            "Number of students who wear glasses = 5\n\n"
+            "⦿ Calculate the remaining subset: Subtract the group who wear glasses from the total class population to identify those who do not.\n"
+            "Number of students who do not wear glasses = 30 - 5 = 25\n\n"
+            "⦿ Formulate probability metric: Place the desired outcome group over the complete potential target size.\n"
+            r"P(student does not wear glasses) = \frac{\text{Number of students who do not wear glasses}}{\text{Total number of students}}"
+            "\n\n"
+            "⦿ Reduce final value: Simplify the fraction by dividing both parts by 5.\n"
+            r"P(student does not wear glasses) = \frac{25}{30} = \frac{5}{6}",
       ),
     ],
   ),
 
-  "Math JHS3 s1 ss1 - Number and Numeration Systems": PracticeModel(
+  "Math JHS3 s1 ss1 - Number and Numeration System": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "1.Question: Write 356.07 in standard form.",
-        answer:
-            "**Correct Answer**\n\n ⦿ Standard form is structured as A × 10ⁿ, where 1 ≤ A < 10 and n is an integer.\n"
-            "⦿ Shift the decimal point 2 places to the left to place it after the first non-zero digit (3).\n"
-            "⦿ Multiplying the resulting number 3.5607 by 10² preserves its exact original value.\n\n"
-            "356.07 = 3.5607 × 10²",
+        scenario:
+            "Question 1: In an examination, 50 candidates sat for either Mathematics or English Language. 60% passed in Mathematics and 48% passed in English Language. If each candidate passed in at least one of the subjects, find the number of candidates who passed in:\n"
+            "(i) Mathematics\n"
+            "(ii) English Language\n"
+            "(BECE 2016 Q1a)",
+        answer: "⦿ Step 1: Write down the given totals and percentages.\n"
+            "The total number of candidates is n(U) = 50.\n"
+            "The percentage who passed Mathematics is 60%.\n"
+            "The percentage who passed English Language is 48%.\n\n"
+            "⦿ Step 2: Calculate the number of candidates for Mathematics.\n"
+            "Use the percentage formula:\n"
+            r"\text{Number of candidates} = \frac{60}{100} \times 50"
+            "\n\n"
+            "Simplify the calculation by dividing 50 into 100:\n"
+            r"\text{Number of candidates} = 6 \times 5 = 30"
+            "\n\n"
+            "Therefore, 30 candidates passed Mathematics.\n\n"
+            "⦿ Step 3: Calculate the number of candidates for English Language.\n"
+            "Use the percentage formula:\n"
+            r"\text{Number of candidates} = \frac{48}{100} \times 50"
+            "\n\n"
+            "Simplify the expression:\n"
+            r"\text{Number of candidates} = \frac{48}{2} = 24"
+            "\n\n"
+            "Therefore, 24 candidates passed English Language.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "2. Question: Which of the following numbers is the prime number greater than 23?",
-        answer:
-            "**Correct Answer**\n\n⦿ A prime number is an integer greater than 1 with exactly two distinct factors: 1 and the number itself.\n"
-            "⦿ 17: Prime, but less than 23.\n"
-            "⦿ 24: Even and composite (divisible by 2, 3, etc.).\n"
-            "⦿ 25: Ends in 5 and composite (divisible by 5).\n"
-            "⦿ 29: Only has factors 1 and 29. Since 29 is greater than 23, it is the correct answer.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "3.Question: Write 4687.02 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Locate the first non-zero digit, which is 4.\n"
-            "⦿ Move the decimal point 3 positions to the left so that it rests between 4 and 6.\n"
-            "⦿ Multiply the new decimal by 10³ to represent the three-place shift.\n\n"
-            "4687.02 = 4.68702 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "4.Question: Correct 0.02751 to three decimal places.",
-        answer:
-            "**Correct Answer**\n\n⦿ Count to the third digit after the decimal point (7).\n"
-            "⦿ Examine the critical target digit to its right in the fourth decimal place (5).\n"
-            "⦿ Since this digit is 5 or greater, round the third decimal place digit up by adding 1 (7 + 1 = 8).\n"
-            "⦿ This results in 0.028.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "5. Question: Write 1342 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ The whole number 1342 has an implicit decimal point at the end: 1342.0.\n"
-            "⦿ Shift the decimal point 3 places to the left to place it after the leading digit.\n"
-            "⦿ Multiply the resulting value by 10³ to maintain numeric equivalence.\n\n"
-            "1342 = 1.342 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "6. Question: Express 2345 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Identify the implicit decimal point at the unit's right: 2345.0.\n"
-            "⦿ Shift the decimal point 3 places to the left to obtain 2.345.\n"
-            "⦿ Balance the shift by multiplying by 10³.\n\n"
-            "2345 = 2.345 × 10³",
+            "Question 2: Using the information calculated in Question 1, if each candidate passed in at least one of the subjects, calculate the number of candidates who passed in both subjects.\n"
+            "(BECE 2016 Q1c(i))",
+        answer: "⦿ Step 1: Define a variable for the unknown intersection.\n"
+            "Let the number of candidates who passed both subjects be represented by x.\n\n"
+            "⦿ Step 2: Establish the expressions for the individual regions.\n"
+            "Candidates who passed Mathematics only is given by 30 - x.\n"
+            "Candidates who passed English Language only is given by 24 - x.\n\n"
+            "⦿ Step 3: Formulate a linear equation using the total count.\n"
+            "Since every candidate passed at least one subject, add the distinct regions together to equal the universal total of 50:\n"
+            "(30 - x) + x + (24 - x) = 50\n\n"
+            "⦿ Step 4: Solve the algebraic equation step-by-step.\n"
+            "Combine the constant values and clean up the variable terms:\n"
+            "30 + 24 - x = 50\n"
+            "54 - x = 50\n\n"
+            "Group the constants on the right-hand side:\n"
+            "-x = 50 - 54\n"
+            "-x = -4\n"
+            "x = 4\n\n"
+            "Therefore, 4 candidates passed both subjects.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "7 Question: Write GH₵35,632.00 correct to the nearest thousand cedis.",
+            "Question 3: Using the information calculated above, find the number of candidates who passed Mathematics only.\n"
+            "(BECE 2016 Q1c(ii))",
         answer:
-            "**Correct Answer**\n\n⦿ Identify the digit in the thousands position (5).\n"
-            "⦿ Examine the adjacent digit to its right in the hundreds place (6).\n"
-            "⦿ Because 6 is greater than or equal to 5, round the thousands place up by 1 (5 + 1 = 6) and replace all subsequent digits with zero.\n"
-            "⦿ This gives GH₵36,000.00.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "8. Question: Write 83000 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Begin at the implicit decimal point (83000.0) and shift it 4 places to the left.\n"
-            "⦿ This positions the decimal point to produce 8.3.\n"
-            "⦿ Multiply by 10⁴ to account for the four-digit shift.\n\n"
-            "83000 = 8.3 × 10⁴",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "9.Question: Which of the following is not a prime number?",
-        answer: "**Correct Answer**\n\n⦿ Review the factors of each option:\n"
-            "⦿ 3, 5, 7: Each of these numbers only has two factors (1 and itself). They are prime.\n"
-            "⦿ 9: Has more than two factors (1, 3, and 9). Therefore, 9 is a composite number and is not prime.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "10.Question: Express 2474.5 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Shift the visible decimal 3 positions to the left so it sits immediately behind the first digit (2).\n"
-            "⦿ This shift corresponds to a positive power factor of 10³.\n"
-            "2474.5 = 2.4745 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "11.Question: Write 78910 correct to the nearest thousand.",
-        answer:
-            "**Correct Answer**\n\n⦿ Focus on the thousands digit (8) and evaluate the hundreds digit directly to its right (9).\n"
-            "⦿ Since 9 is 5 or greater, round up by adding 1 to the thousands place (8 + 1 = 9).\n"
-            "⦿ Set the hundreds, tens, and units places to zero to yield 79,000.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "12.Question: Express 962 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Starting with the implicit decimal point at 962.0, shift it 2 places to the left.\n"
-            "⦿ The resulting expression is scaled with an exponent value of 2.\n"
-            "962 = 9.62 × 10²",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "13. Question: Round 8921465 to the nearest hundred.",
-        answer: "**Correct Answer**\n\n⦿ Locate the hundreds place digit (4).\n"
-            "⦿ Look at the tens digit directly to its right (6).\n"
-            "⦿ Since 6 ≥ 5, round up by adding 1 to the hundreds place (4 + 1 = 5).\n"
-            "⦿ Replace all subsequent digits with zero to obtain 8,921,500.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "14. Question: Write the number 34.1 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Move the decimal point 1 place to the left to get a value between 1 and 10.\n"
-            "⦿ This gives 3.41, which must be multiplied by 10¹ (equivalent to 10).\n"
-            "34.1 = 3.41 × 10¹",
+            "⦿ Step 1: Identify the formula for the single-subject region.\n"
+            "The formula to find the number of students who passed Mathematics only is:\n"
+            r"\text{Mathematics only} = n(\text{Mathematics}) - n(Both Subjects)"
+            "\n\n"
+            "⦿ Step 2: Substitute the known numerical values.\n"
+            "From our previous answers, n(Mathematics) = 30 and the overlap value is x = 4.\n"
+            r"\text{Mathematics only} = 30 - 4"
+            "\n"
+            r"\text{Mathematics only} = 26"
+            "\n\n"
+            "Therefore, 26 candidates passed Mathematics only.",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "15.Question: Which of the following is an even prime number?",
-        answer:
-            "**Correct Answer**\n\n⦿ A prime number is a positive integer with exactly two factors (1 and itself).\n"
-            "⦿ All even numbers greater than 2 are divisible by 2, meaning they have at least three factors (1, 2, and themselves) and are composite.\n"
-            "⦿ Therefore, the number 2 is the only even prime number in existence.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "16. Question: Write 2340000 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Shift the implicit decimal point from the end of the number 6 places to the left to reach 2.34.\n"
-            "⦿ This corresponds directly to scaling the number by a factor of 10⁶.\n"
-            "2340000 = 2.34 × 10⁶",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "17.Question: Express 4037 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Move the implicit decimal point at 4037.0 exactly 3 places to the left.\n"
-            "⦿ This results in 4.037 scaled by 10³.\n"
-            "4037 = 4.037 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "18.Question: Write 3560 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Shift the implicit decimal point 3 places to the left to create 3.56.\n"
-            "⦿ The scale factor for this shift is represented by 10³.\n"
-            "3560 = 3.56 × 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "19.Question: Which of the following numbers is an integer?",
-        answer:
-            "**Correct Answer**\n\n⦿ An integer is any positive or negative whole number, including zero. It cannot contain fractional or decimal parts.\n"
-            "⦿ The values -5/4 and -2/3 are fractions, and 0.5 is a decimal.\n"
-            "⦿ The value -1 is a whole negative number, which makes it a member of the set of integers.",
+            "Question 4: P = {factors of 30} and Q = {multiples of 5 less than 40}. Find P ∩ Q.\n"
+            "(BECE 2014 Q1a)",
+        answer: "⦿ Step 1: List the full member elements of set P.\n"
+            "Find all whole numbers that divide perfectly into 30:\n"
+            "P = {1, 2, 3, 5, 6, 10, 15, 30}\n\n"
+            "⦿ Step 2: List the full member elements of set Q.\n"
+            "Find the positive numbers obtained by multiplying 5, making sure they stay strictly below 40:\n"
+            "Q = {5, 10, 15, 20, 25, 30, 35}\n\n"
+            "⦿ Step 3: Identify the common elements to determine the intersection.\n"
+            "Compare both listed elements and select those that match across both sets:\n"
+            "The matching numbers are 5, 10, 15, and 30.\n\n"
+            "Combine these matching members into a final set expression:\n"
+            "P ∩ Q = {5, 10, 15, 30}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "20. Question: Which of the following is arranged in ascending order?",
+            "Question 5: Given that ξ = {1, 2, 3, 4, …, 18}, A = {prime numbers}, and B = {odd numbers greater than 3}, list the members of set A and set B.\n"
+            "(BECE 2003 Q1a)",
         answer:
-            "**Correct Answer**\n\n⦿ Ascending order requires sorting numbers from the smallest value to the largest.\n"
-            "⦿ Compare the values in option A: -10, -7, 4.2, 9.\n"
-            "⦿ On a number line, -10 is further left than -7, so -10 < -7.\n"
-            "⦿ Any negative number is smaller than a positive number, so -7 < 4.2.\n"
-            "⦿ Finally, 4.2 < 9. Thus, option A is correctly sorted.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "21.Question: Express 134.78 correct to the nearest tenth.",
-        answer:
-            "**Correct Answer**\n\n⦿ Locate the tenths place digit, which is the first position after the decimal point (7).\n"
-            "⦿ Look at the hundredths digit to its right (8).\n"
-            "⦿ Since 8 ≥ 5, round up by adding 1 to the tenths place (7 + 1 = 8).\n"
-            "⦿ Drop all trailing digits to get 134.8.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "22. Question: Express 625.13 in standard form.",
-        answer:
-            "**Correct Answer**\n\n⦿ Shift the decimal point 2 places to the left to secure a leading digit between 1 and 10.\n"
-            "⦿ This produces 6.2513, which must be multiplied by 10².\n\n"
-            "625.13 = 6.2513 × 10²",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "23. Question: Which of the following is the largest set?",
-        answer:
-            "**Correct Answer**\n\n⦿ Let us examine the inclusion relationships of the sets of numbers:\n"
-            "⦿ The set of Natural Numbers ({1, 2, 3, ...}) and Whole Numbers ({0, 1, 2, ...}) are fully nested within the set of Integers.\n"
-            "⦿ The set of Composite numbers is a small subset of the Natural Numbers.\n"
-            "⦿ Because the set of Integers includes all positive whole numbers, negative whole numbers, and zero, it is the largest set among the choices.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "24. Question: Correct 48,947.2547 to the nearest hundred.",
-        answer:
-            "**Correct Answer**\n\n⦿ Identify the digit in the hundreds place (9).\n"
-            "⦿ Examine the digit in the tens place immediately to its right (4).\n"
-            "⦿ Since 4 < 5, we round down. This means the hundreds digit remains 9, and the remaining whole number places are replaced with zero.\n"
-            "⦿ Mathematically, this yields 48,900.\n"
-            "⦿ Note on exam key: The book answer key lists Option D (49,000), which corresponds to rounding up to the nearest thousand instead of the nearest hundred, or carrying over a round-up.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "25. Question: Arrange the following integers from the least to the highest: 4, 9, -10, 7 and 2.",
-        answer:
-            "**Correct Answer**\n\n⦿ Order the given values {4, 9, -10, 7, 2} from left to right on a number line.\n"
-            "⦿ The negative integer -10 is the smallest number.\n"
-            "⦿ Arranging the remaining positive integers gives 2, 4, 7, 9.\n"
-            "⦿ The complete ascending sequence is -10, 2, 4, 7, 9.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "26.Question: Which of the following is not an integer?",
-        answer:
-            "**Correct Answer**\n\n⦿ Integers must be clean whole units with no fractional or decimal parts.\n"
-            "⦿ The values 1, -5, and 0 are all whole units.\n"
-            "⦿ The value 0.5 is a decimal representing a half-fraction, so it is not an integer.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "27. Question: Which of the following numbers is the largest?",
-        answer:
-            "**Correct Answer**\n\n⦿ When comparing negative numbers, the value with the smallest absolute value lies closest to zero on the number line.\n"
-            "⦿ Among -70, -50, -3, and -2, the number -2 is furthest to the right.\n"
-            "⦿ Thus, -2 has the largest value.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "28. Question: Find the largest value of these numbers: -1, 0, -6, -3.",
-        answer:
-            "**Correct Answer**\n\n⦿ Any value of zero or positive integers is greater than any negative integer.\n"
-            "⦿ Because all other options (-1, -6, -3) lie to the left of zero on the number line, 0 is the largest of these numbers.",
+            "⦿ Step 1: Evaluate the absolute limits set by the universal boundary.\n"
+            "All items must come from the inclusive scope starting at 1 up to a final limit of 18.\n\n"
+            "⦿ Step 2: Filter out the prime numbers for set A.\n"
+            "Identify elements that have exactly two distinct factors (itself and 1). Remember that 1 is not a prime number.\n"
+            "A = {2, 3, 5, 7, 11, 13, 17}\n\n"
+            "⦿ Step 3: Filter out the odd numbers for set B.\n"
+            "Identify numbers not divisible by 2 that are strictly greater than 3, staying within the upper limit of 18.\n"
+            "B = {5, 7, 9, 11, 13, 15, 17}",
         explanation: "",
       ),
     ],
@@ -3343,111 +3266,66 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-            "1.Question: A ribbon 3m long is to be cut into strips of length 14cm.     (BECE 2002 Q1b)\n"
-            "(a) How many strips of length 14cm were cut?\n"
-            "(b) What length of ribbon remained?",
-        answer:
-            "**Correct Answer**\n\n ⦿ Step 1: Convert the total length of the ribbon into centimetres.\nTo compare the measurements easily, "
-            "we must work with the same units. Since 1m = 100cm, we convert 3m as follows:\n"
-            "Total length of ribbon = 3 x 100cm = 300cm\n\n"
-            "⦿ Step 2: Determine the number of strips of length 14cm that can be cut.\nWe divide the total length of the ribbon in centimetres (300cm) by the length of one strip (14cm):\n\n"
-            r"Number of strips = \frac{300}{14}"
-            "\nLet us perform the division: 300 ÷ 14 = 21 with a remainder of 6\n"
-            "Therefore, the number of complete strips cut is 21 strips.\n\n"
-            "⦿ Step 3: Determine the remaining length of the ribbon.\n"
-            "The remainder from our division represents the leftover piece of ribbon that is too short to make another full 14cm strip:\n"
-            "Leftover remainder = 6\n"
-            "Therefore, the length of ribbon that remained is 6 cm.",
+            "Question 1: Copy and complete the magic square so that the sum of numbers in each row or column or diagonal is 18.\n"
+            "(BECE 2013 Q5b)",
+        answer: "⦿ Step 1: Complete the bottom row\n"
+            "The numbers given in the bottom row are 7 and 8. Let the third missing number in this row be x.\n"
+            "Set up the addition equation: 7 + 8 + x = 18\n"
+            "Simplify the known values: 15 + x = 18\n"
+            "Isolate x: x = 18 - 15 = 3\n"
+            "The complete bottom row values are 7, 8, 3.\n\n"
+            "⦿ Step 2: Verify the middle column\n"
+            "The vertical column contains 4, 6, and 8.\n"
+            "Check the sum: 4 + 6 + 8 = 18. This confirms the target magic sum is consistent across operations.\n\n"
+            "⦿ Step 3: Complete the principal diagonal\n"
+            "Follow the diagonal from the bottom-left to the top-right corner. The numbers along this path are 7, 6, and a missing top-right cell value y.\n"
+            "Set up the addition equation: 7 + 6 + y = 18\n"
+            "Simplify the known values: 13 + y = 18\n"
+            "Isolate y: y = 18 - 13 = 5\n"
+            "The top-right corner cell value is 5.\n\n"
+            "⦿ Step 4: Complete the top row\n"
+            "The horizontal path across the top consists of a missing top-left value z, followed by 4 and 5.\n"
+            "Set up the addition equation: z + 4 + 5 = 18\n"
+            "Simplify the known values: z + 9 = 18\n"
+            "Isolate z: z = 18 - 9 = 9\n"
+            "The top-left corner cell value is 9.\n\n"
+            "⦿ Step 5: Complete the left column\n"
+            "The vertical column on the left contains 9, a missing middle cell value w, and 7.\n"
+            "Set up the addition equation: 9 + w + 7 = 18\n"
+            "Simplify the known values: 16 + w = 18\n"
+            "Isolate w: w = 18 - 16 = 2\n"
+            "The middle-left cell value is 2.\n\n"
+            "⦿ Step 6: Complete the middle row\n"
+            "The remaining horizontal path contains 2, 6, and a final missing cell value v.\n"
+            "Set up the addition equation: 2 + 6 + v = 18\n"
+            "Simplify the known values: 8 + v = 18\n"
+            "Isolate v: v = 18 - 8 = 10\n"
+            "The middle-right cell value is 10.\n\n"
+            "Completed Magic Square Grid:\n",
+        answerTableHeaders: ["", "", ""],
+        answerTableData: [
+          ["9", "4", "5"],
+          ["2", "6", "10"],
+          ["7", "8", "3"],
+        ],
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "2. Question: A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?    (BECE 2002 Q1c)",
-        answer:
-            "**Correct Answer**\n\n⦿ Step 1: Calculate the total number of sweets shared.\n"
-            "We are told that 8 children received 30 sweets each. To find the total pool of sweets, we multiply the number of children by the amount each child received:\n"
-            "Total number of sweets = 8 x 30 = 240 sweets\n\n"
-            "⦿ Step 2: Calculate how many sweets each child receives when shared among 12 children.\n"
-            "Now, the same pool of 240 sweets is shared equally among a new total of 12 children. We divide the total sweets by the new number of children:\n"
-            r"Sweets received per child = \frac{240}{12}"
-            "\nSweets received per child = 20 sweets"
-            "\nEach child will receive 20 sweets.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "3.Question: Find the Least Common Multiple (L.C.M) of 9, 18 and 16.      (BECE 2002 Q2b)",
-        answer: "**Correct Answer**\n\n"
-            "⦿ Step 1: Write down the prime factorisation for each number.\n"
-            "For 9:               9 = 3 x 3 = 3^2\n"
-            "For 18:              18 = 2 x 3 x 3 = 2 x 3^2\n"
-            "For 16:              16 = 2 x 2 x 2 x 2 = 2^4\n\n"
-            "⦿ Step 2: Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
-            "The prime factor 2 appears. The highest power of 2 is 2^4 (from 16).\n"
-            "The prime factor 3 appears. The highest power of 3 is 3^2 (from 9 and 18).\n\n"
-            "⦿ Step 3: Multiply these highest powers together to find the L.C.M.\n"
-            "L.C.M = 2^4 x 3^2\n"
-            "L.C.M = 16 x 9\n"
-            "L.C.M = 144",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "4.Question: A man had three GH₵50.00, seven GH₵20.00 and five GH₵10.00 notes in his pocket. He bought a bicycle for GH₵150.00 and two mobile phones at GH₵80.00 each. How many GH₵20.00 and GH₵10.00 notes did he have left?       (BECE 2013 Q5a)",
-        answer:
-            "**Correct Answer**\n\n⦿ Step 1: Calculate the total amount of money the man had in his pocket.\n"
-            "We find the value of each set of notes and sum them up:\n"
-            "Three GH₵50.00 notes:3 x GH₵50.00 = GH₵150.00\n"
-            "Seven GH₵20.00 notes:7 x GH₵20.00 = GH₵140.00\n"
-            "Five GH₵10.00 notes:5 x GH₵10.00 = GH₵50.00\n"
-            "Total amount in pocket = GH₵150.00 + GH₵140.00 + GH₵50.00 = GH₵340.00\n\n"
-            "⦿ Step 2: Calculate the total cost of the purchases.\n"
-            "One bicycle:   Cost = GH₵150.00\n"
-            "Two mobile phones at GH₵80.00 each:    Cost = 2 x GH₵80.00 = GH₵160.00\n"
-            "Total spending =     GH₵150.00 + GH₵160.00 = GH₵310.00\n\n"
-            "⦿ Step 3: Calculate the cash left over.\n"
-            "Remaining cash = Total amount in pocket - Total spending\n"
-            "Remaining cash = GH₵340.00 - GH₵310.00 = GH₵30.00\n\n"
-            "⦿ Step 4: Determine the combination of notes left.\n"
-            "     1. The bicycle cost exactly GH₵150.00. The man can pay for this using his three GH₵50.00 notes (3 x GH₵50.00 = GH₵150.00).\n"
-            "     2.The two mobile phones cost GH₵160.00. To pay this, he must use his remaining notes:He uses all seven of his GH₵20.00 notes:\n"
-            "       7 x GH₵20.00 = GH₵140.00\n"
-            "He still needs to pay: GH₵160.00 - GH₵140.00 = GH₵20.00\n"
-            "He covers this remaining GH₵20.00 by using two of his GH₵10.00 notes (2 x GH₵10.00 = GH₵20.00).\n\n"
-            "⦿ Step 5: Count the final notes left in his pocket.\n"
-            "⦁ He spent all 7 of his GH₵20.00 notes.\n"
-            "⦁ He spent 2 of his 5 GH₵10.00 notes, leaving 3 notes.\n"
-            "⦁ Therefore, the man was left with zero GH₵20.00 notes and three GH₵10.00 notes (which equals the remaining GH₵30.00).",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "5. Question: Find the sum of all the factors of 24.        (BECE 2013 Q5c)",
-        answer: "**Correct Answer**\n\n⦿ Step 1: Find all the factors of 24.\n"
-            "The factors of 24 are the whole numbers that divide into 24 exactly without leaving a remainder:\n"
-            "Factors = {1, 2, 3, 4, 6, 8, 12, 24}\n\n"
-            "⦿ Step 2: Add all these factors together.\n"
-            "Sum = 1 + 2 + 3 + 4 + 6 + 8 + 12 + 24\n"
-            "Sum = 60\n"
-            "The sum of all the factors of 24 is 60.\n",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "6. Question: Find the Least Common Multiple (LCM) of the following numbers: 3, 5 and 9.        (BECE 2019 Q1b)",
-        answer:
-            "**Correct Answer**\n\n⦿ Step 1: Write down the prime factorisation for each number.\n"
-            "For 3:  3 = 3^1\n"
-            "For 5:5 = 5^1\n"
-            "For 9:9 = 3 x 3 = 3^2\n\n"
-            "⦿ Step 2: Identify the highest power of each prime factor present in any of the numbers.\n"
-            "    ⦁ The prime factor 3 appears. The highest power is 3^2 (from 9).\n"
-            "    ⦁ The prime factor 5 appears. The highest power is 5^1 (from 5).\n\n"
-            "⦿ Step 3: Multiply these highest powers together to find the L.C.M.\n"
-            "L.C.M = 3^2 x 5^1\n"
-            "L.C.M = 9 x 5\n"
-            "L.C.M = 45\n"
-            "The Least Common Multiple of 3, 5, and 9 is 45.",
+            "Question 2: A doctor treated 2,000 patients over a period of time. If he worked for 5 hours a day and spent 15 minutes on each patient, how many days did the doctor spend to treat all the patients?\n"
+            "(BECE 2016 Q3a)",
+        answer: "⦿ Step 1: Convert the daily working hours into minutes\n"
+            "The doctor works a shift of 5 hours per day. Since 1 hour is equivalent to 60 minutes, calculate the total daily minutes available:\n"
+            "Daily working time = 5 hours × 60 minutes/hour = 300 minutes\n\n"
+            "⦿ Step 2: Find the total number of patients treated in a single day\n"
+            "The doctor dedicates exactly 15 minutes to each individual patient. Divide the total daily working minutes by the time spent per patient:\n"
+            r"\text{Patients treated per day} = \frac{300 \text{ minutes}}{15 \text{ minutes/patient}} = 20 \text{ patients}"
+            "\n\n"
+            "⦿ Step 3: Calculate the total number of days required to complete all treatments\n"
+            "The total workload consists of 2,000 patients. Divide the total number of patients by the daily treatment rate to determine the duration:\n"
+            r"\text{Total days required} = \frac{2,000 \text{ total patients}}{20 \text{ patients/day}} = 100 \text{ days}"
+            "\n\n"
+            "Therefore, the doctor spent exactly 100 days to complete treatments for all the patients.",
         explanation: "",
       ),
     ],
@@ -3456,483 +3334,2627 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario:
-            "Question 1: (a) If a shop sells a pencil at ₵500.00 and a pen at ₵2,000.00:\n\n(i) If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?\n\n(ii) The price of a pencil is increased by 20% and a pen by 10%. Find how much she will pay for 10 pencils and 8 pens.\n(BECE 2002B Q2)",
-        answer: "⦿ (i) Total cost for original quantities:\n"
-            "⦁ Find the total spent on pencils: Multiply 8 pencils by the individual cost of ₵500.00.\n"
-            "Cost of pencils = 8 × ₵500.00 = ₵4,000.00\n\n"
-            "⦁ Find the total spent on pens: Multiply 5 pens by the individual cost of ₵2,000.00.\n"
-            "Cost of pens = 5 × ₵2,000.00 = ₵10,000.00\n\n"
-            "⦁ Calculate the final sum:\n"
-            "Total Paid = ₵4,000.00 + ₵10,000.00 = ₵14,000.00\n\n"
-            "⦿ (ii) Total cost after price increases:\n"
-            "⦁ Find the increased price of a pencil: Add 20% of the original price to itself.\n\n"
-            r"Increase amount = \frac{20}{100} × ₵500.00 = ₵100.00"
-            "\nNew price per pencil = ₵500.00 + ₵100.00 = ₵600.00\n\n"
-            "⦁ Find the increased price of a pen: Add 10% of the original price to itself.\n\n"
-            r"Increase amount = \frac{10}{100} × ₵2,000.00 = ₵200.00"
-            "\nNew price per pen = ₵2,000.00 + ₵200.00 = ₵2,200.00\n\n"
-            "⦁ Calculate the new total cost for 10 pencils and 8 pens:\n\n"
-            "Cost of 10 pencils = 10 × ₵600.00 = ₵6,000.00\n"
-            "Cost of 8 pens = 8 × ₵2,200.00 = ₵17,600.00\n"
-            "New Total Paid = ₵6,000.00 + ₵17,600.00 = ₵23,600.00",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 2: Evaluate 5\frac{1}{15} − 2\frac{2}{3} + 1\frac{5}{12}.     (BECE 2006 Q6b(i))",
-        answer: "⦿ Convert the mixed numbers to improper fractions:\n"
-            r"5\frac{1}{15} = \frac{(5 x 15) + 1}{15} = \frac{76}{15}"
-            "\n\n"
-            r"2\frac{2}{3} = \frac{(2 × 3) + 2}{3} = \frac{8}{3}"
-            "\n\n"
-            r"1\frac{5}{12} = \frac{(1 × 12) + 5}{12} = \frac{17}{12}"
-            "\n\n"
-            "⦿ Express the standard equation:\n"
-            r"\frac{76}{15} − \frac{8}{3} + \frac{17}{12}"
-            "\n"
-            "⦿ Find the Lowest Common Multiple (LCM):\n"
-            "      The LCM of the denominators 15, 3, and 12 is 60.\n\n"
-            "⦿ Combine fractions under a single denominator:\n\n"
-            r"\frac{76(4) − 8(20) + 17(5)}{60}"
-            "\n\n"
-            r"= \frac{304 − 160 + 85}{60}"
-            "\n\n"
-            r"= \frac{144 + 85}{60} = \frac{229}{60}"
-            "\n\n"
-            "⦿ Convert back to a mixed fraction:\n"
-            r"\frac{229}{60} = 3\frac{49}{60}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 3: Simplify 7\frac{1}{3} − 4\frac{5}{6} + 2\frac{3}{8}.       (BECE 2008 Q6b)",
-        answer: "⦿ Convert the mixed fractions into improper fractions:\n\n"
-            r"7\frac{1}{3} = \frac{22}{3}, 4\frac{5}{6} = \frac{29}{6}, 2\frac{3}{8} = \frac{19}{8}"
-            "\n\n"
-            "⦿ Write down the expression:\n\n"
-            r"\frac{22}{3} − \frac{29}{6} + \frac{19}{8}"
-            "\n\n"
-            "⦿ Determine the LCM:\n"
-            "      The LCM of 3, 6, and 8 is 24.\n\n"
-            "⦿ Adjust and simplify the numerators:\n\n"
-            r"\frac{22(8) − 29(4) + 19(3)}{24}"
-            "\n\n"
-            r"= \frac{176 − 116 + 57}{24}"
-            "\n\n"
-            r"= \frac{60 + 57}{24} = \frac{117}{24}"
-            "\n\n"
-            "⦿ Reduce the fraction and convert to a mixed number:\n"
-            "⦿ Divide numerator and denominator by 3:\n"
-            r"\frac{(117 ÷ 3)}{(24 ÷ 3)} = \frac{39}{8}"
-            "\n"
-            "⦿ Convert to mixed format:\n"
-            r"\frac{39}{8} = 4\frac{7}{8}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 4: Simplify \frac{(1200 x 1260)}{800} and write your answer in standard form.       (BECE 2009 Q1a)",
-        answer: "⦿ Eliminate trailing zeros to simplify the fraction:\n\n"
-            r"\frac{(1200 x 1260)}{800} = \frac{(12 x 1260)}{8}"
-            "\n\n"
-            "⦿ Simplify the factors of 12 and 8 by dividing by 4:\n\n"
-            r"\frac{(3 x 1260)}{2}"
-            "\n\n"
-            "⦿ Complete the division of 1260 by 2:\n\n"
-            "3 x 630 = 1890\n\n"
-            "⦿ Convert the product into standard scientific notation:\n\n"
-            "1890 = 1.89 x 10³",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 5: An amount of GH₵4,200.00 was shared between Aba and Kwame. If Aba had \frac{5}{7} of the amount:"
-            "\n(i) How much did Kwame receive?\n"
-            "(ii) What percentage of Aba's share did Kwame receive?(BECE 2012 Q1b)",
-        answer: "⦿ (i) Calculate Kwame's portion:\n"
-            "⦁ Find Aba's share of the total:\n\n"
-            r"Aba’s Share = \frac{5}{7} x GH₵4,200.00 = 5 x GH₵600.00 = GH₵3,000.00"
-            "\n\n"
-            "⦿ Deduct Aba's share from the total amount to find Kwame's share:\n\n"
-            "Kwame’s Share = GH₵4,200.00 − GH₵3,000.00 = GH₵1,200.00\n\n"
-            "⦿ (ii) Find Kwame's share as a percentage of Aba's share:\n"
-            "⦿ Construct the percentage fraction:\n\n"
-            r"Percentage = \frac{Kwame’s share}{Aba’s share} x 100%"
-            "\n\n"
-            r"Percentage = \frac{1200}{3000} x 100% = \frac{12}{30} x 100% = \frac{2}{5} x 100% = 40%",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 6: Arrange \frac{8}{9}, \frac{2}{18}, \frac{10}{16} in ascending order of magnitude.     (BECE 2012 Q6(a)(ii))",
+        scenario: "Question 1: Simplify "
+            r"\frac{1}{2}\text{ of }6\frac{1}{4} + (2\frac{4}{5} - 1\frac{1}{3})"
+            "\n(BECE 2000 Q1a)",
         answer:
-            "⦿ Identify the Lowest Common Multiple (LCM) of the denominators:\n"
-            "⦿ The LCM of 9, 18, and 16 is 144.\n\n"
-            "⦿ Convert each fraction to have the common denominator of 144:\n"
-            r"⦁ Convert \frac{8}{9}:"
+            "⦿ Step 1: Convert mixed fractions to improper fractions and solve the 'of' operation\n"
+            r"\frac{1}{2} \times \frac{25}{4} + (\frac{14}{5} - \frac{4}{3})"
             "\n\n"
-            r"\frac{8 x 16}{9 x 16} = \frac{128}{144}"
+            r"= \frac{25}{8} + (\frac{14}{5} - \frac{4}{3})"
             "\n\n"
-            r"⦿ Convert \frac{2}{18}:"
+            "⦿ Step 2: Solve the expressions inside the grouping parentheses\n"
+            "Find a common denominator for 5 and 3, which is 15:\n"
+            r"= \frac{25}{8} + (\frac{42-20}{15})"
             "\n\n"
-            r"\frac{2 x 8}{18 x 8} = \frac{16}{144}"
+            r"= \frac{25}{8} + \frac{22}{15}"
             "\n\n"
-            r"⦿ Convert \frac{10}{16}:"
-            '\n\n'
-            r"\frac{10 x 9}{16 x 9} = \frac{90}{144}"
-            "\n\n"
-            "⦿ Compare the numerators to order them from smallest to largest:\n\n"
-            r"16 < 90 < 128 ⇒ \frac{16}{144} < \frac{90}{144} < \frac{128}{144}"
-            "\n\n"
-            "⦿ Rewrite with original fractions:\n\n"
-            r"\frac{2}{18}, \frac{10}{16}, \frac{8}{9}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 7: Simplify 6(3\frac{5}{6} − 1\frac{1}{4}).       (BECE 2013 Q5a)",
-        answer:
-            "⦿ Work inside the parentheses first by converting mixed fractions to improper fractions:\n\n"
-            r"3\frac{5}{6} = \frac{23}{6}, 1\frac{1}{4} = \frac{5}{4}"
-            "\n\n"
-            "⦿ Find a common denominator of 12 to subtract the fractions:\n\n"
-            r"\frac{23}{6} − \frac{5}{4} = \frac{23(2) − 5(3)}{12} = \frac{(46 − 15)}{12} = \frac{31}{12}"
-            "\n\n"
-            "⦿ Multiply the resulting fraction by the coefficient of 6 outside the parentheses:\n\n"
-            r"Result = 6 x \frac{31}{12} = \frac{31}{2}"
-            "\n\n"
-            "⦿ Convert the final improper fraction to a mixed number:\n\n"
-            r"\frac{31}{2} = 15\frac{1}{2}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 8:A passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 2 kg, and 1.5 kg along with a main suitcase:\n\n(i) Find the excess weight of his luggage if the fourth bag makes the total weight 22.0 kg.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.\n(BECE 2016 Q2b)",
-        answer: "⦿ (i) Calculate the difference in allowed weight:\n"
-            "⦿ Deduct the maximum limit of 20 kg from the actual accumulated weight of 22.0 kg:\n\n"
-            "Excess weight = 22.0 kg − 20 kg = 2.0 kg\n\n"
-            "⦿ (ii) Calculate the percentage value:\n"
-            "⦿ Set up the excess weight over the total permitted weight limit:\n\n"
-            r"Percentage excess = \frac{2.0}{20} x 100% = \frac{1}{10} x 100% = 10%",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 9:(a) Express 250% as a fraction in its lowest term.\n"
-            r"(b) Simplify: 2 + (\frac{15}{64} ÷ \frac{6}{7}).       (BECE 2019 Q4a and Q4c)",
-        answer: "⦿ (a) Convert 250% to its simplest fraction form:\n"
-            "     ⦁ Write the percentage out of 100:\n\n"
-            "250/100\n\n"
-            "⦿ Simplify by dividing both parts by their greatest common factor (50):\n\n"
-            r"\frac{250 ÷ 50)}{100 ÷ 50} = \frac{5}{2} = 2\frac{1}{2}"
-            "\n\n"
-            "⦿ (b) Process the bracket operation first:\n"
-            "     ⦁ To divide by a fraction, multiply by its reciprocal:\n\n"
-            r"\frac{15}{64} ÷ \frac{6}{7} = \frac{15}{64} x \frac{7}{6}"
-            "\n\n"
-            "⦿ Simplify the fraction multiplication by dividing 15 and 6 by 3:\n\n"
-            r"\frac{5}{64} x \frac{7}{2} = \frac{35}{128}"
-            "\n\n"
-            "⦿ Add the integer 2 to the fraction:\n\n"
-            r"2 + \frac{35}{128} = 2\frac{35}{128}",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 10:Express \frac{13}{15} − \frac{7}{10} as a percentage.       (BECE 2020 Q3a)",
-        answer: "⦿ Simplify the subtraction of fractions:\n"
-            "     ⦁ The Lowest Common Multiple of 15 and 10 is 30.\n"
-            "⦿ Standardise the numerators:\n\n"
-            r"\frac{13}{15} − \frac{7}{10} = \frac{13(2) − 7(3)}{30} = \frac{26 − 21}{30} = \frac{5}{30}"
-            "\n\n"
-            "⦿ Simplify the fraction:\n\n"
-            r"\frac{5}{30} = \frac{1}{6}"
-            "\n\n"
-            "⦿ Convert the fraction to a percentage:\n"
-            r"⦿ Multiply \frac{1}{6} by 100%:"
-            "\n\n"
-            r"\frac{1}{6} x 100% = \frac{100}{6}% = \frac{50}{3}% = 16\frac{2}{3}% (or 16.67%)",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 11: Antwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?(BECE 2021 Q4a)",
-        answer: "⦿ Identify the quantity of ripe mangoes:\n"
-            "⦿ Subtract the 7 unripe mangoes from the initial total of 25 mangoes:\n\n"
-            "Ripe mangoes = 25 − 7 = 18\n\n"
-            "⦿ Calculate the percentage representation:\n"
-            "⦿ Create the proportion of ripe mangoes over total mangoes and multiply by 100%:\n\n"
-            r"Percentage = \frac{18}{25} x 100% = 18 x 4% = 72%",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            r"Question 12: Simplify: 1\frac{3}{4} − 2\frac{5}{6} − 1\frac{9}{10} + 4\frac{7}{8}.      (BECE 2023 Q1b)",
-        answer: "⦿ Rewrite mixed numbers as improper fractions:\n\n"
-            r"1\frac{3}{4} = \frac{7}{4}, 2\frac{5}{6} = \frac{17}{6}, 1\frac{9}{10} = \frac{19}{10}, 4\frac{7}{8} = \frac{39}{8}"
-            "\n\n"
-            "⦿ Set up the structural expression:\n\n"
-            r"\frac{7}{4} − \frac{17}{6} − \frac{19}{10} + \frac{39}{8}"
+            "⦿ Step 3: Find a common denominator to add the remaining fractions\n"
+            "Find the lowest common multiple for 8 and 15, which is 120:\n"
+            r"= \frac{375 + 176}{120}"
             "\n"
-            "⦿ Evaluate using the LCM of the denominators:\n"
-            "⦿ Find the LCM of 4, 6, 10, and 8, which is 120.\n"
-            "⦿ Apply multiplier adjustment to numerators:\n\n"
-            r"\frac{7(30) − 17(20) − 19(12) + 39(15)}{120}"
+            r"= \frac{551}{120}"
             "\n\n"
-            r"= \frac{210 − 340 − 228 + 585}{120}"
+            "⦿ Step 4: Convert the improper fraction back into a final mixed number\n"
+            r"= 4\frac{71}{120}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 2: A man spent "
+            r"\frac{1}{4}"
+            " of his monthly salary on rent, "
+            r"\frac{2}{5}"
+            " on food and "
+            r"\frac{1}{6}"
+            " on books. If he still had ₵55,000 left, what was his monthly salary?\n"
+            "(BECE 2006 Q5a)",
+        answer: "⦿ Step 1: Find the total fractional share spent on expenses\n"
+            r"\text{Fraction spent} = \frac{1}{4} + \frac{2}{5} + \frac{1}{6}"
+            "\n"
+            "Using the common denominator of 60:\n"
+            r"= \frac{15 + 24 + 10}{60} = \frac{49}{60}"
             "\n\n"
-            "⦿ Consolidate values in the numerator:\n"
-            "⦿ 210 − 340 = −130\n"
-            "⦿ −130 − 228 = −358\n"
-            "⦿ −358 + 585 = 227\n\n"
-            "⦿ Express in final mixed fraction format:\n\n"
-            r"\frac{227}{120} = 1\frac{107}{120}",
+            "⦿ Step 2: Deduct the spent fraction from the whole unit to find the remaining fraction\n"
+            r"\text{Fraction remaining} = 1 - \frac{49}{60} = \frac{11}{60}"
+            "\n\n"
+            "⦿ Step 3: Set up an algebraic equation where x represents the total monthly salary\n"
+            r"\frac{11}{60} \times x = 55,000"
+            "\n"
+            r"x = 55,000 \times \frac{60}{11}"
+            "\n"
+            r"x = 5,000 \times 60"
+            "\n"
+            r"x = 300,000"
+            "\n"
+            r"\therefore \text{His total monthly salary was ₵300,000.00}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 3: In a school, "
+            r"\frac{7}{10}"
+            " of the pupils like Mathematics. Half of those pupils who like Mathematics are girls. If there are 240 pupils altogether in the school, how many girls like Mathematics?\n"
+            "(BECE 2008 Q1b)",
+        answer:
+            "⦿ Step 1: Determine the number of pupils who like Mathematics overall\n"
+            r"\text{Total pupils liking Mathematics} = \frac{7}{10} \times 240"
+            "\n"
+            r"= 7 \times 24 = 168 pupils"
+            "\n\n"
+            "⦿ Step 2: Extract the fraction representing the girls from that subtotal\n"
+            r"\text{Number of girls} = \frac{1}{2} \times 168"
+            "\n"
+            r"= 84"
+            "\n"
+            r"\therefore \text{84 girls like Mathematics inside the school.}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 4: A boy spent "
+            r"\frac{3}{8}"
+            " of his money and had GH₵15.00 left. How much did he have?\n"
+            "(BECE 2011 Q3c)",
+        answer:
+            "⦿ Step 1: Find the leftover fraction out of the total allowance\n"
+            r"\text{Fraction remaining} = 1 - \frac{3}{8} = \frac{5}{8}"
+            "\n\n"
+            "⦿ Step 2: Equate the fraction remaining to the actual structural balance cash amount\n"
+            "Let the initial total sum of money be represented by M.\n"
+            r"\frac{5}{8} \times M = \text{GH₵15}"
+            "\n"
+            r"M = 15 \times \frac{8}{5}"
+            "\n"
+            r"M = 3 \times 8 = 24"
+            "\n"
+            r"\therefore \text{The boy originally possessed GH₵24.00}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 13: If 15% of the length of a rope is 720 metres, find half of the length of the rope.\n(BECE 2024 Q3c)",
-        answer: "⦿ Determine the total length (100%) of the rope first:\n"
-            "⦿ If 15% corresponds to 720 m, calculate 100%:\n\n"
-            r"Total length = (100% / 15%) x 720 m = \frac{100}{15} x 720 m"
+            "Question 5: Kojo had 1,800 bags of rice in stock for sale. In January he sold "
+            r"\frac{2}{3}"
+            " of it. In February, he sold "
+            r"\frac{3}{4}"
+            " of what was left.\n"
+            "(i) What fraction of the stock of rice did he sell\n"
+            "(a) in February?\n"
+            "(b) in January and February?\n"
+            "(ii) How many bags of rice were left unsold by the end of February?\n"
+            "(BECE 2014 Q6c)",
+        answer:
+            "⦿ Step 1: Figure out sales and distribution units for January\n"
+            r"\text{January sales} = \frac{2}{3} \times 1,800 = 1,200 bags"
+            "\n"
+            r"\text{Bags remaining after January} = 1,800 - 1,200 = 600 bags"
             "\n\n"
-            "⦿ Simplify the multiplication and division:\n\n"
-            "720 ÷ 15 = 48 ⇒ Total length = 100 x 48 = 4,800 m\n\n"
-            "⦿ Find half of this total length:\n\n"
-            r"Half length = \frac{1}{2} x 4,800 m = 2,400 m",
+            "⦿ Step 2: Calculate the specific distribution volume sold in February\n"
+            r"\text{February sales} = \frac{3}{4} \times 600 = 450 bags"
+            "\n\n"
+            "⦿ Step 3: Solve part (i)(a) to find the fractional representation for February\n"
+            r"\text{Fraction sold in February} = \frac{\text{February sales}}{\text{Total stock}} = \frac{450}{1,800} = \frac{1}{4}"
+            "\n\n"
+            "⦿ Step 4: Solve part (i)(b) to get the combined fractional value for both months\n"
+            r"\text{Total bags sold} = 1,200 + 450 = 1,650 bags"
+            "\n"
+            r"\text{Combined fraction sold} = \frac{1,650}{1,800} = \frac{11}{12}"
+            "\n\n"
+            "⦿ Step 5: Solve part (ii) to locate total leftover inventory\n"
+            r"\text{Unsold stock remaining} = 1,800 - 1,650 = 150 bags",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 6: Simplify: "
+            r"(\frac{2}{15} + \frac{2}{5}) + (\frac{9}{10} \times \frac{4}{3}) + (\frac{1}{5} \div \frac{1}{4})"
+            "\n(BECE 2018 Q2b)",
+        answer:
+            "⦿ Step 1: Simplify individual expressions inside each set of parentheses\n"
+            "Parentheses 1 (Addition): "
+            r"\frac{2}{15} + \frac{6}{15} = \frac{8}{15}"
+            "\n\n"
+            "Parentheses 2 (Multiplication): "
+            r"\frac{9}{10} \times \frac{4}{3} = \frac{3 \times 2}{5 \times 1} = \frac{6}{5}"
+            "\n"
+            "Parentheses 3 (Division): "
+            r"\frac{1}{5} \times \frac{4}{1} = \frac{4}{5}"
+            "\n\n"
+            "⦿ Step 2: Combine the values and apply operations using a common denominator (15)\n"
+            r"\frac{8}{15} + \frac{6}{5} + \frac{4}{5} = \frac{8 + 18 + 12}{15}"
+            "\n\n"
+            r"= \frac{38}{15}"
+            "\n\n"
+            "⦿ Step 3: Restructure into a standard mixed numerical form\n"
+            r"= 2\frac{8}{15}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 7: The total area of a school compound is "
+            r"900\frac{1}{2}\,\text{m}^2"
+            ". The school has Administration and Classroom block, Library, School Park, Roads and Walkways. The areas of the Administration and Classroom block, Library and School Park are "
+            r"300\frac{1}{4}\,\text{m}^2"
+            ", "
+            r"200\frac{1}{2}\,\text{m}^2"
+            ", and "
+            r"120\frac{1}{8}\,\text{m}^2"
+            " respectively. Find the area covered by Roads and Walkways altogether.\n"
+            "(BECE 2024 Q5b)",
+        answer:
+            "⦿ Step 1: Convert the initial compound boundaries into improper fraction targets\n"
+            r"\text{Total structural compound area} = 900\frac{1}{2} = \frac{1,801}{2}\,\text{m}^2"
+            "\n\n"
+            "⦿ Step 2: Accumulate and sum all defined facility values\n"
+            r"\text{Combined institutional area} = 300\frac{1}{4} + 200\frac{1}{2} + 120\frac{1}{8}"
+            "\n"
+            r"= \frac{1,201}{4} + \frac{401}{2} + \frac{961}{8}"
+            "\n\n"
+            "Using the common denominator 8:\n\n"
+            r"= \frac{2,402 + 1,604 + 961}{8} = \frac{4,967}{8}\,\text{m}^2"
+            "\n\n"
+            "⦿ Step 3: Extract the remaining balance space dedicated to access paths\n"
+            r"\text{Roads and Walkways area} = \frac{1,801}{2} - \frac{4,967}{8}"
+            "\n\n"
+            r"= \frac{7,204 - 4,967}{8} = \frac{2,237}{8}\,\text{m}^2"
+            "\n\n"
+            "⦿ Step 4: Return value back to proper fractional presentation forms\n"
+            r"= 279\frac{5}{8}\,\text{m}^2",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 14: A polytank contains 4,500 litres of water and 1/5 of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?    (BECE 2025 Q3b)",
-        answer: "⦿ (i) Find the exact cleaning volume used:\n"
-            "⦿ Multiply the fractional usage by the total liquid storage amount:\n\n"
-            r"Volume used = \frac{1}{5} x 4,500 litres = 900 litres"
+            "Question 8: A father shared his piece of land to his three children. The first child had "
+            r"\frac{2}{5}"
+            " of the land and the second had 5 acres more than the first. If the third child had 20 acres, find how many acres of land the:\n"
+            "(i) father shared;\n"
+            "(ii) first child received;\n"
+            "(iii) second child received.\n"
+            "(BECE 2025 Q4b)",
+        answer:
+            "⦿ Step 1: Formulate an algebraic equation utilizing variable x for the complete property profile\n"
+            r"\text{First child} = \frac{2}{5}x"
+            "\n"
+            r"\text{Second child} = \frac{2}{5}x + 5"
+            "\n"
+            r"\text{Third child} = 20"
+            "\n"
+            r"\frac{2}{5}x + (\frac{2}{5}x + 5) + 20 = x"
             "\n\n"
-            "⦿ (ii) Find the remaining volume percentage:\n"
-            "⦿ Calculate the volume remaining in the polytank:\n\n"
-            "Volume remaining = 4,500 litres − 900 litres = 3,600 litres\n\n"
-            "⦿ Convert the remaining volume to a percentage of the total original volume:\n\n"
-            r"Percentage left = \frac{3,600}{4,500} x 100%"
+            "⦿ Step 2: Group like terms and cancel fractional values out by scaling through by factor 5\n"
+            r"2x + 2x + 25 + 100 = 5x"
+            "\n"
+            r"4x + 125 = 5x"
+            "\n"
+            r"125 = 5x - 4x"
+            "\n"
+            r"x = 125"
+            "\n"
+            r"\therefore \text{(i) Total land size shared by the father equals 125 acres}"
             "\n\n"
-            "⦿ Simplify by dividing both parts by their common factor of 900:\n\n"
-            r"Percentage left = \frac{4}{5} x 100% = 4 x 20% = 80%"
+            "⦿ Step 3: Determine real scale shares for remaining children elements\n"
+            r"\text{(ii) First child's share} = \frac{2}{5} \times 125 = 50 acres"
+            "\n"
+            r"\text{(iii) Second child's share} = 50 + 5 = 55 acres",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 9: A farmer uses "
+            r"\frac{1}{3}"
+            " of his land to plant cassava, "
+            r"\frac{2}{5}"
+            " of the remaining land to plant maize and the rest vegetables. If vegetables cover an area of 10 acres, what is the total area of the farmer's land?\n"
+            "(BECE 2015B Q1b)",
+        answer:
+            "⦿ Step 1: Isolate the remaining asset balance fraction after planting cassava\n"
+            r"\text{Remaining fraction} = 1 - \frac{1}{3} = \frac{2}{3}"
             "\n\n"
-            r"⦿ Alternative verification: If \frac{1}{5} is used, then 1 − \frac{1}{5} = \frac{4}{5} remains. Converting \frac{4}{5} to a percentage yields \frac{4}{5} x 100% = 80%.",
+            "⦿ Step 2: Evaluate the exact proportion allocated for maize crop fields\n"
+            r"\text{Maize allocation} = \frac{2}{5} \times \frac{2}{3} = \frac{4}{15}"
+            "\n\n"
+            "⦿ Step 3: Establish the final remainder portion belonging to vegetables\n"
+            r"\text{Vegetables fraction} = 1 - (\frac{1}{3} + \frac{4}{15})"
+            "\n"
+            "Using 15 as the common denominator:\n"
+            r"= 1 - (\frac{5+4}{15}) = 1 - \frac{9}{15} = \frac{6}{15} = \frac{2}{5}"
+            "\n\n"
+            "⦿ Step 4: Scale the fractional share up to get total land dimensions\n"
+            r"\frac{2}{5} \text{ of Total Land} = 10 acres"
+            "\n"
+            r"\text{Total Land Area} = 10 \times \frac{5}{2} = 5 \times 5 = 25 acres"
+            "\n"
+            r"\therefore \text{The complete total area of the farmer's land is 25 acres.}",
         explanation: "",
       ),
     ],
   ),
-  "Math JHS3 s1 ss4 - Number: Ratios and Proportion": PracticeModel(
+  "Math JHS3 s1 ss4 - Ratios and Proportion": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
         scenario:
-            r"Question 1: Three school children share some oranges as follows: Akwasi gets \frac{1}{3} of the total, and the remainder is shared between Abena and Jantuah in the ratio 3:2. If Jantuah gets 24 oranges, how many does Akwasi get?"
-            "\n(BECE 1991 Q1b)",
-        answer: "⦿ Define the variable:\n"
-            "⦁ Let the total number of oranges be y.\n\n"
-            "⦿ Calculate Akwasi's share:\n"
-            r"⦁ Akwasi's share = \frac{1}{3} × y"
+            "Question 1: A landlady rented out her house for ₵240,000.00 for one year. During the year she paid 15% of the rent as income tax. She also paid 25% of the rent as property tax and spent ₵10,000.00 on repairs. Calculate:\n"
+            "(a) the landlady's total expenses;\n"
+            "(b) the remainder of the rent after the landlady's expenses;\n"
+            "(c) the percentage of the rent spent on repairs.\n"
+            "(BECE 1992 Q2)",
+        answer: "⦿ (a)\n"
+            r"\text{Expenditure on Income tax} = \frac{15}{100} \times ₵240,000.00 = ₵36,000.00"
             "\n\n"
-            "⦿ Find the remainder:\n"
-            r"⦁ Remainder = y - \frac{1}{3}y = \frac{2}{3}y"
+            r"\text{Expenditure on Property tax} = \frac{25}{100} \times ₵240,000.00 = ₵60,000.00"
             "\n\n"
-            "⦿ Share the remainder:\n"
-            "⦁ Abena : Jantuah = 3 : 2\n"
-            "⦁ Total parts = 3 + 2 = 5\n"
-            r"⦁ Jantuah's share = \frac{2}{5} × \frac{2}{3}y"
+            "Expenditure on repairs = ¢10,000.00\n\n"
+            r"\text{Total expenses} = ₵36,000.00 + ₵60,000.00 + ₵10,000.00 = ₵106,000.00"
             "\n\n"
-            "⦿ Form the equation:\n"
-            r"\frac{2}{5} × \frac{2}{3}y = 24"
+            "⦿ (b)\n"
+            "Remainder of rent after expenses = Rent - Total expenses\n\n"
+            r"\text{Remainder of rent after expenses} = ₵240,000.00 - ₵106,000.00 = ₵134,000.00"
+            "\n\n"
+            "⦿ (c)\n"
+            r"\text{Percentage of rent spent on repairs} = \frac{10,000}{240,000} \times 100\% = 4.167\%",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 2: A man deposited ₵350,000.00 in his account in a bank. A simple interest of 4% per annum was paid on his deposit. Calculate the total amount at the end of 4 years.\n"
+            "(BECE 1996 Q2a)",
+        answer:
+            r"Principal, P = ₵350,000.00, Rate, R = 4\%, Time, T = 4 \text{ years}"
+            "\n\n"
+            r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+            "\n\n"
+            r"I = \frac{350,000 \times 4 \times 4}{100} = ₵56,000.00"
+            "\n\n"
+            "Total amount at the end of 4 years = Principal + Interest\n\n"
+            r"\text{Total amount} = ₵350,000.00 + ₵56,000.00 = ₵406,000.00",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 3: Ama was granted a loan of ₵800,000.00 by a bank. The rate of interest was 42% per annum.\n"
+            "(a) Calculate:\n"
+            "(i) the interest at the end of the year.\n"
+            "(ii) the total amount Ama had to pay at the end of the year.\n"
+            "(b) If she had to pay ¢200,000 monthly, then the total amount she had to pay at the end of 12 months (1 year) = ₵200,000 × 12 = ₵2,400,000.00. Given the same conditions as in (a) above, calculate the amount she took.\n"
+            "(BECE 2000 Q3)",
+        answer: "⦿ (a)(i)\n"
+            r"Principal, P = ₵800,000, Rate, R = 42\%, Time, T = 1 \text{ year}"
+            "\n\n"
+            r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+            "\n\n"
+            r"I = \frac{800,000 \times 42 \times 1}{100} = ₵336,000.00"
+            "\n\n"
+            "⦿ (a)(ii)\n"
+            "Total amount to be paid at the end of the year = Principal + Interest\n\n"
+            r"\text{Total amount to be paid at the end of the year} = ₵800,000 + ₵336,000 = ₵1,136,000.00"
+            "\n\n"
+            "⦿ (b)\n"
+            r"\text{Total amount paid over 12 months} = ₵200,000 \times 12 = ₵2,400,000.00"
+            "\n\n"
+            r"\text{Amount she had to pay} = P + I"
             "\n"
-            r"\frac{4}{15}y = 24"
+            r"2,400,000 = P + \frac{P \times 42 \times 1}{100}"
+            "\n"
+            r"2,400,000 = P + 0.42P"
+            "\n"
+            r"2,400,000 = 1.42P"
+            "\n"
+            r"P = \frac{2,400,000}{1.42} = 1,690,140.85"
             "\n\n"
-            "⦿ Solve for y:\n"
-            "4y = 24 × 15 = 360\n"
-            "y = 360 ÷ 4 = 90 oranges\n\n"
-            "⦿ Calculate Akwasi's share:\n"
-            r"Akwasi's share = \frac{1}{3} × 90 = 30 oranges"
+            r"\therefore \text{Amount she took} = \text{Principal} = ₵1,690,140.85"
             "\n\n"
-            "Answer = 30 oranges",
+            r"(Note: if using the alternative fraction path matching page 351's structural framework, 2,400,000 = P + \frac{25P}{200} \Rightarrow 480,000,000 = 225P \Rightarrow P = ₵2,133,333.33)",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 2: The cost of sending a telegram is ₵500.00 for the first 12 words and ₵25.00 for every extra word. Find the cost of sending a telegram containing 20 words.\n(BECE 1996 Q2b)",
-        answer: "⦿ Cost of the first 12 words:\n"
-            "⦁ = ₵500.00\n\n"
-            "⦿ Calculate the extra words:\n"
-            "⦁ Extra words = 20 - 12 = 8 words\n\n"
-            "⦿ Cost of extra words:\n"
-            "⦁ = 8 × ₵25.00 = ₵200.00\n\n"
-            "⦿ Calculate the total cost:\n"
-            "⦁ Total Cost = ₵500.00 + ₵200.00 = ₵700.00\n\n"
-            "Answer = ₵700.00",
+            "Question 4: A trader took a loan of ₵1,800,000.00 at an interest of "
+            r"12\frac{1}{2}\%"
+            " percent per annum. It was agreed that the loan and the interest must be paid in one year equal monthly installments.\n"
+            "(a) Calculate:\n"
+            "(i) the interest on the loan.\n"
+            "(ii) the amount to be paid at the end of the year.\n"
+            "(iii) the monthly installment.\n"
+            "(b) Another trader took a loan at the same rate interest and conditions. If she had to pay ₵200,000.00 monthly installments, find to the nearest cedi, how much she took.\n"
+            "(BECE 2002 Q2)",
+        answer: "⦿ (a)(i)\n"
+            r"Principal, P = ₵1,800,000, Rate, R = 12\frac{1}{2}\% = \frac{25}{2}\%, Time, T = 1 \text{ yr}"
+            "\n\n"
+            r"\text{Interest, } I = \frac{P \times R \times T}{100} = \frac{1,800,000 \times \frac{25}{2} \times 1}{100}"
+            "\n\n"
+            r"I = 9,000 \times 25 = ₵225,000.00"
+            "\n\n"
+            r"\therefore \text{The interest on the loan is } ₵225,000.00"
+            "\n\n"
+            "⦿ (a)(ii)\n"
+            "Amount to be paid at the end of the year = Principal + Interest\n\n"
+            r"\text{Amount to be paid at the end of the year} = ₵1,800,000 + ₵225,000 = ₵2,025,000.00"
+            "\n\n"
+            "⦿ (a)(iii)\n"
+            r"\text{Monthly installment} = \frac{\text{Amount to be paid}}{12 \text{ months}} = \frac{2,025,000}{12} = ₵168,750"
+            "\n\n"
+            "⦿ (b)\n"
+            r"\text{Total amount paid over 12 months} = ₵200,000 \times 12 = ₵2,400,000.00"
+            "\n\n"
+            r"\text{Amount she had to pay} = P + I"
+            "\n\n"
+            r"2,400,000 = P + \frac{P \times \frac{25}{2} \times 1}{100}"
+            "\n\n"
+            r"2,400,000 = P + \frac{25P}{200}"
+            "\n\n"
+            "Multiply through by 200:\n"
+            "480,000,000 = 200P + 25P\n"
+            "480,000,000 = 225P\n"
+            r"P = \frac{480,000,000}{225} = 2,133,333.33"
+            "\n\n"
+            r"\therefore \text{Amount she took} = \text{Principal} = ₵2,133,333 \text{ (to the nearest cedi)}",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            r"Question 3: Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got \frac{1}{4} of the oranges. Esi and Yaw shared the remainder in the ratio 3:2 respectively."
-            "\n\n(i) Find how many oranges Esi received.\n(ii) How many more oranges did Yaw receive than Kwabena?\n(BECE 2001 Q2b)",
-        answer: "⦿ Calculate Kwabena's share:\n"
-            r"⦁ Kwabena's share = \frac{1}{4} × 160 = 40 oranges"
+            "Question 5: It is estimated that the population of a village increases by 10 percent every five years. If the population of the village is 150,000 this year, what will be the estimated population ten years from now?\n"
+            "(BECE 2002 Q4c)",
+        answer: "Population now = 150,000\n\n"
+            r"\text{Population in 5 years' time} = 10\% \text{ of } 150,000 + 150,000"
             "\n\n"
-            "⦿ Find the remainder:\n"
-            "⦁ Remaining oranges = 160 - 40 = 120 oranges\n\n"
-            "⦿ Total ratio parts:\n"
-            "⦁ 3 + 2 = 5 parts\n\n"
-            "⦿ (i) Find Esi's share:\n"
-            r"⦁ Esi's share = \frac{3}{5} × 120 = 72 oranges"
+            r"\text{Population in 5 years' time} = (\frac{10}{100} \times 150,000) + 150,000 = 15,000 + 150,000 = 165,000"
             "\n\n"
-            "⦿ (ii) Find Yaw's share:\n"
-            r"⦁ Yaw's share = \frac{2}{5} × 120 = 48 oranges"
-            "\n\n"
-            "⦁ Difference = 48 - 40 = 8 oranges\n\n"
-            "(i) Answer = 72 oranges\n"
-            "(ii) Answer = 8 oranges",
+            r"\text{Population in 10 years' time} = (\frac{10}{100} \times 165,000) + 165,000 = 16,500 + 165,000 = 181,500",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 4: Three numbers are in the ratio 2:3:4 and their average is 36.\n\n(i) Calculate the sum of the three numbers.\n(ii) Find the greatest number.\n(BECE 2002A Q1a)",
-        answer: "⦿ (i) Calculate the sum:\n"
-            "⦁ Average = Sum ÷ 3\n"
-            "⦁ Sum = 36 × 3 = 108\n\n"
-            "⦿ (ii) Find the greatest number:\n"
-            "⦁ Total ratio parts = 2 + 3 + 4 = 9\n"
-            r"⦁ Greatest number = \frac{4}{9} × 108 = 48"
+            "Question 6: Ama and Kofi shared the profit earned from their business in the ratio 3:4. The profit was ₵1,743,000. Find how much of the profit each person received.\n"
+            "(BECE 2004 Q3a)",
+        answer: "Ratio = Ama : Kofi = 3 : 4\n\n"
+            "Total ratio = 3 + 4 = 7\n\n"
+            "Total profit shared = ₵1,743,000\n\n"
+            r"\text{Ama's share} = \frac{3}{7} \times ₵1,743,000 = ₵747,000"
             "\n\n"
-            "(i) Answer = 108\n"
-            "(ii) Answer = 48",
+            r"\text{Kofi's share} = \frac{4}{7} \times ₵1,743,000 = ₵996,000",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 5: A boy has enough money to buy 14 pencils at ₵450.00 each. How many erasers costing ₵300.00 each can he buy with the same amount of money?\n(BECE 2005 Q1a)",
-        answer: "⦿ Calculate the total money:\n"
-            "⦁ Total money = 14 × ₵450.00 = ₵6,300.00\n\n"
-            "⦿ Let y be the number of erasers.\n\n"
-            "⦁ 300 × y = 6,300\n"
-            "⦁ y = 6,300 ÷ 300 = 21\n\n"
-            "Answer = 21 erasers",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 6: The ratio of men to women in a village is 12:25. If there are 120 men:\n\n(i) How many women are there?\n(ii) What is the total number of men and women?\n(BECE 2006 Q2a)",
-        answer: "⦿ (i) Find the number of women:\n"
-            "⦁ Let x represent the number of women.\n\n"
-            r"⦁ \frac{120}{x} = \frac{12}{25}"
+            "Question 7: A woman borrowed ₵2,000,000.00 from a bank at a rate of 15% per annum simple interest for 2 years.\n"
+            "(a) Find:\n"
+            "(i) the interest for the 2 years.\n"
+            "(ii) amount paid after 2 years.\n"
+            "(b) She used the ₵2,000,000.00 to purchase a fridge and sold it at a profit of 45%. Find the selling price of the fridge.\n"
+            "(c) If she used the amount raised from the sale of the fridge to pay for the bank loan and interest, find how much is left.\n"
+            "(BECE 2005 Q4)",
+        answer: "⦿ (a)(i)\n"
+            r"\text{Interest, } I = \frac{P \times R \times T}{100}"
             "\n\n"
-            "⦁ 12x = 120 × 25\n"
-            "⦁ x = (120 × 25) ÷ 12 = 250 women\n\n"
-            "⦿ (ii) Find the total population:\n"
-            "⦁ Total = Men + Women\n"
-            "⦁ Total = 120 + 250 = 370 people\n\n"
-            "(i) Answer = 250 women\n"
-            "(ii) Answer = 370 people",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 7: Mr. Jones used 173 units of electricity last month. If the charge for the first 110 units was ₵150 per unit and ₵200 per unit for the rest, calculate the total bill for Mr. Jones.\n(BECE 2007 Q5a)",
-        answer: "⦿ Calculate the cost of the first 110 units:\n"
-            "⦁ 110 × ₵150 = ₵16,500.00\n\n"
-            "⦿ Calculate the remaining units:\n"
-            "⦁ Remaining units = 173 - 110 = 63 units\n\n"
-            "⦿ Calculate the cost of the remaining units:\n"
-            "⦁ 63 × ₵200 = ₵12,600.00\n\n"
-            "⦿ Calculate the total bill:\n"
-            "⦁ Total Bill = ₵16,500.00 + ₵12,600.00 = ₵29,100.00\n\n"
-            "Answer = ₵29,100.00",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 8: A typist charges 28Gp for the first five sheets and 8Gp for each additional sheet she types. How much will she charge for typing 36 sheets?\n(BECE 2008 Q1c)",
-        answer: "⦿ Charge for the first 5 sheets:\n"
-            "⦁ = 28Gp\n\n"
-            "⦿ Calculate the additional sheets:\n"
-            "⦁ 36 - 5 = 31 sheets\n\n"
-            "⦿ Calculate the charge for the additional sheets:\n"
-            "⦁ 31 × 8Gp = 248Gp\n\n"
-            "⦿ Calculate the total charge:\n"
-            "⦁ 28Gp + 248Gp = 276Gp\n\n"
-            "⦿ Convert to Ghana Cedis:\n"
-            "⦁ 276Gp ÷ 100 = GH¢2.76\n\n"
-            "Answer = GH¢2.76",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario:
-            "Question 9: The ratio of the sheep to goats on a farm is 4:7. If there are 1,428 sheep, find how many goats are on the farm.\n(BECE 2009 Q4a)",
-        answer: "⦿ Let y represent the number of goats.\n\n"
-            r"⦁ \frac{1428}{y} = \frac{4}{7}"
+            r"I = \frac{2,000,000 \times 15 \times 2}{100} = ₵600,000.00"
             "\n\n"
-            "⦁ 4y = 1,428 × 7\n"
-            "⦁ 4y = 9,996\n"
-            "⦁ y = 9,996 ÷ 4 = 2,499 goats\n\n"
-            "Answer = 2,499 goats",
+            "⦿ (a)(ii)\n"
+            "Amount paid after 2 years = Principal + Interest\n\n"
+            r"\text{Amount paid after 2 years} = ₵2,000,000 + ₵600,000 = ₵2,600,000.00"
+            "\n\n"
+            "⦿ (b)\n"
+            "Percentage of cost price = 100%\n"
+            "Percentage of selling price = 100% + 45% = 145%\n\n"
+            r"100\% = ₵2,000,000"
+            "\n"
+            r"\Rightarrow 145\% = \frac{145\%}{100\%} \times ₵2,000,000 = ₵2,900,000.00"
+            "\n\n"
+            r"\therefore \text{The SP of the fridge is } ₵2,900,000.00"
+            "\n\n"
+            "Alternative method:\n"
+            r"\text{SP} = \frac{100 + P\%}{100} \times CP"
+            "\n\n"
+            r"\text{SP} = \frac{100 + 45}{100} \times ₵2,000,000"
+            "\n\n"
+            r"\text{SP} = \frac{145}{100} \times ₵2,000,000 = ₵2,900,000.00"
+            "\n\n"
+            "⦿ (c)\n"
+            "Amount paid after 2 years = ₵2,600,000\n"
+            "Amount raised = ₵2,900,000\n\n"
+            r"\therefore \text{Amount left after bank loan is paid} = ₵2,900,000 - ₵2,600,000 = ₵300,000.00",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 8: Find the simple interest on ₵880,000.00 for "
+            r"2\frac{1}{2}"
+            " years at "
+            r"3\frac{1}{4}\%"
+            " per annum.\n"
+            "(BECE 2006 Q4b)",
+        answer:
+            r"P = ₵880,000, R = 3\frac{1}{4}\% = \frac{13}{4}\%, T = 2\frac{1}{2} \text{ yrs} = \frac{5}{2} \text{ yrs}"
+            "\n\n"
+            r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+            "\n\n"
+            r"I = \frac{880,000 \times \frac{13}{4} \times \frac{5}{2}}{100}"
+            "\n\n"
+            r"I = \frac{110,000 \times 13 \times 5}{100 \times 2}"
+            "\n\n"
+            r"I = \frac{1100 \times 13 \times 5}{2} = 550 \times 13 \times 5 = ₵35,750.00",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 10: The selling price of a gas cooker is GH¢450.00. If a customer is allowed a discount of 20%, calculate the:\n\n(i) Discount.\n(ii) Amount paid by the customer.\n(BECE 2016 Q4b)",
-        answer: "⦿ (i) Calculate the discount:\n"
-            r"⦁ Discount = \frac{20}{100} × 450.00 = GH¢90.00"
+            "Question 9: Akosua was granted a loan of GH₵96.00. The interest rate was 24% per annum. Calculate the:\n"
+            "(i) interest at the end the year;\n"
+            "(ii) total amount she had to pay at the end of the year;\n"
+            "(iii) amount she still owes, if Akosua was able to pay only GH₵60.00 at the end of the year.\n"
+            "(BECE 2008 Q3b)",
+        answer: "⦿ (i) "
+            r"P = GH₵96.00, R = 24\%, T = 1 \text{ year}"
             "\n\n"
-            "⦿ (ii) Calculate the amount paid:\n"
-            "⦁ Amount Paid = Selling Price - Discount\n"
-            "⦁ Amount Paid = GH¢450.00 - GH¢90.00 = GH¢360.00\n\n"
-            "(i) Answer = GH¢90.00\n"
-            "(ii) Answer = GH¢360.00",
+            r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+            "\n\n"
+            r"I = \frac{96 \times 24 \times 1}{100} = \frac{2304}{100} = GH₵23.04"
+            "\n\n"
+            "⦿ (ii) "
+            "Total amount to be paid at the end of the year = P + I\n\n"
+            r"\text{Total amount to be paid} = GH₵96.00 + GH₵23.04 = GH₵119.04"
+            "\n\n"
+            "⦿ (iii) "
+            r"\text{Amount she still owes} = GH₵119.04 - GH₵60 = GH₵59.04",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 10: The simple interest formula, "
+            r"I = \frac{PTR}{100}"
+            " gives the interest I, on a principal, P invested at a rate, R per annum for time, T years.\n"
+            "(i) Find the simple interest on GH₵3,600.00 at 15% per annum for 2 years.\n"
+            "(ii) Make R the subject of the simple interest formula.\n"
+            "(iii) At what rate per annum will GH₵6,000.00 earn GH₵2,400.00 simple interest in 2 years?\n"
+            "(BECE 2009 Q5b)",
+        answer: "⦿ (i) "
+            r"P = GH₵3,600.00, R = 15\%, T = 2 \text{ years}"
+            "\n\n"
+            r"\text{Interest, } I = \frac{PTR}{100} = \frac{3600 \times 2 \times 15}{100} = GH₵1080"
+            "\n\n"
+            "⦿ (ii) "
+            r"I = \frac{PTR}{100} \Rightarrow PTR = 100I"
+            "\n\n"
+            r"\Rightarrow R = \frac{100I}{PT}"
+            "\n\n"
+            "⦿ (iii) "
+            r"R = \frac{100 \times 2400}{6000 \times 2} = \frac{240}{12} = 20\%",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 11: A property worth GH₵10,480.00 is shared between a widow and her 10 children in the ratio 1:4 respectively. The children shared their portion equally. Find each child's share.\n(BECE 2018 Q5a)",
-        answer: "⦿ Determine the total ratio parts:\n"
-            "⦁ Total parts = 1 + 4 = 5 parts\n\n"
-            "⦿ Calculate the children's total share:\n"
-            r"⦁ Children's share = \frac{4}{5} × GH₵10,480.00 = GH₵8,384.00"
+            "Question 11: A trader saves GH₵200.00 for 3 years at 12% simple interest per annum. What will be the total amount in the trader's account at the end of the 3 years?\n"
+            "(BECE 2014 Q1b)",
+        answer: r"P = GH₵ 200, T = 3 \text{ yrs}, R = 12\%"
             "\n\n"
-            "⦿ Calculate each child's share:\n"
-            "⦁ Each child's share = GH₵8,384.00 ÷ 10 = GH₵838.40\n\n"
-            "Answer = GH₵838.40",
+            r"\text{Interest, } I = \frac{P \times R \times T}{100} = \frac{200 \times 12 \times 3}{100} = GH₵ 72"
+            "\n\n"
+            r"\text{Total amount in the trader's account} = P + I = 200 + 72 = GH₵ 272.00",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 12: The ratio of boys to girls in a school is 12:25. If there are 120 boys, find:\n\n(i) How many girls are in the school?\n(ii) What is the total number of boys and girls in the school?\n(BECE 2019 Q2b)",
-        answer: "⦿ (i) Find the number of girls:\n"
-            "⦁ Let x represent the number of girls.\n\n"
-            r"⦁ \frac{120}{x} = \frac{12}{25}"
+            "Question 12: The Value Added Tax (VAT) paid by a man on a deep freezer was GH₵90.00. If VAT was charged at 15%:\n"
+            "(i) what was the price of the deep freezer?\n"
+            "(ii) how much did the man pay including VAT?\n"
+            "(BECE 2015A Q4a)",
+        answer: "⦿ (i) "
+            "Cost of the freezer = 100%\n\n"
+            r"If 15\% = GH₵ 90"
             "\n\n"
-            "⦁ 12x = 120 × 25\n"
-            "⦁ x = (120 × 25) ÷ 12 = 250 girls\n\n"
-            "⦿ (ii) Calculate the total number of students:\n"
-            "⦁ Total = Boys + Girls\n"
-            "⦁ Total = 120 + 250 = 370 students\n\n"
-            "(i) Answer = 250 girls\n"
-            "(ii) Answer = 370 students",
+            r"100\% = \frac{100\%}{15\%} \times GH₵ 90 = GH₵ 600.00"
+            "\n\n"
+            r"The price of the deep freezer was GH₵ 600.00"
+            "\n\n"
+            "Alternative method:\n"
+            "Let the cost of the freezer be x\n\n"
+            r"\frac{15}{100} \times x = 90 \Rightarrow \frac{15x}{100} = 90"
+            "\n\n"
+            r"\Rightarrow 15x = 9000 \Rightarrow x = \frac{9000}{15} = 600"
+            "\n\n"
+            "⦿ (ii) "
+            r"\text{VAT} = GH₵ 90"
+            "\n"
+            r"\text{Cost of freezer} = GH₵ 600"
+            "\n\n"
+            r"\text{Amount paid by the man including VAT} = GH₵ 600 + GH₵ 90 = GH₵ 690.00",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 13: A salesman gets a commission of "
+            r"5\frac{1}{2}\%"
+            " of the value of items he sells. The salesman sells 12 textbooks at GH₵25.00 per book, 3 scientific calculators at GH₵50.00 per calculator and 8 packets of Bic pens at GH₵50.00 per packet. Calculate the salesman's commission.\n"
+            "(BECE 2022 Q3c)",
+        answer: r"\text{Sales on textbooks} = 12 \times 25 = GH₵ 300"
+            "\n\n"
+            r"\text{Sales on calculators} = 3 \times 50 = GH₵ 150"
+            "\n"
+            r"(Source solution notes dynamic as 3 \times 20 = 150)"
+            "\n\n"
+            r"\text{Sales on Bic pens} = 8 \times 50 = GH₵ 400"
+            "\n\n"
+            r"\text{Total sales} = 300 + 150 + 400 = GH₵ 850"
+            "\n\n"
+            r"\text{Commission} = 5\frac{1}{2}\% \text{ of sales}"
+            "\n\n"
+            r"= \frac{5\frac{1}{2}}{100} \times 850 = \frac{\frac{11}{2}}{100} \times 850"
+            "\n\n"
+            r"= \frac{11}{200} \times 850 = GH₵ 46.75",
         explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 13: Esi and Kofi shared an amount of GH₵21,000.00 in the ratio 2:5 respectively. How much more did Kofi receive than Esi?\n(BECE 2020 Q2c)",
-        answer: "⦿ Determine the total ratio parts:\n"
-            "⦁ Total parts = 2 + 5 = 7 parts\n\n"
-            "⦿ Calculate Esi's share:\n"
-            r"⦁ Esi's share = \frac{2}{7} × GH₵21,000.00 = GH₵6,000.00"
+            "Question 14: Gifty and Justina shared an amount of GH₵418.00. If Gifty had 20% more than Justina, how much did Justina receive?\n"
+            "(BECE 2023 Q3c)",
+        answer: "Total amount = GH₵418\n\n"
+            r"\text{Difference in shares} = \frac{20}{100} \times 418 = GH₵ 83.60"
             "\n\n"
-            "⦿ Calculate Kofi's share:\n"
-            r"⦁ Kofi's share = \frac{5}{7} × GH₵21,000.00 = GH₵15,000.00"
+            "Let Justina's share = x\n\n"
+            r"\Rightarrow \text{Gifty's share} = x + 83.60"
             "\n\n"
-            "⦿ Calculate how much more Kofi received:\n"
-            "⦁ Difference = GH₵15,000.00 - GH₵6,000.00 = GH₵9,000.00\n\n"
-            "Answer = GH¢₵9,000.00",
+            "Hence x + (x + 83.60) = 418\n"
+            "2x + 83.60 = 418\n"
+            "2x = 418 - 83.60\n"
+            "2x = 334.40\n"
+            r"x = \frac{334.40}{2} = 167.20"
+            "\n\n"
+            r"Justina's share is GH₵ 167.20",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 15: Madam Esi used "
+            r"\frac{1}{4}"
+            " and "
+            r"\frac{2}{3}"
+            " of her x acres of land to cultivate mangoes and oranges respectively.\n"
+            "(b) If madam Esi used 20 more acres of land to cultivate oranges than mangoes, find the value of x.\n"
+            "(c) How many acres of land was used to cultivate mangoes?\n"
+            "(d) Calculate, correct to the nearest whole number, the percentage of the land that was not used.\n"
+            "(BECE 2023 Q5)",
+        answer: "Total land size = x acres\n\n"
+            r"\text{Number of acres used for mangoes} = \frac{1}{4}x"
+            "\n\n"
+            r"\text{Number of acres used for oranges} = \frac{2}{3}x"
+            "\n\n"
+            "⦿ (b) "
+            "Land for oranges - Land for mangoes = 20\n\n"
+            r"\therefore \frac{2}{3}x - \frac{1}{4}x = 20"
+            "\n\n"
+            "Multiplying through by the LCM (12):\n"
+            r"12\left(\frac{2}{3}x\right) - 12\left(\frac{1}{4}x\right) = 12(20)"
+            "\n"
+            "8x - 3x = 240\n"
+            "5x = 240\n"
+            r"x = \frac{240}{5} = 48"
+            "\n\n"
+            "⦿ (c) "
+            r"\text{Acres of land used for mangoes} = \frac{1}{4} \times 48 = 12 \text{ acres}"
+            "\n\n"
+            "⦿ (d) "
+            r"\text{Acres of land for oranges} = \frac{2}{3} \times 48 = 32 \text{ acres}"
+            "\n\n"
+            r"\therefore \text{Acres of land that was not used} = 48 - 12 - 32 = 4"
+            "\n\n"
+            r"\therefore \text{Percentage of land not used} = \frac{4}{48} \times 100\% = 8.33\%"
+            "\n"
+            r"= 8\% \text{ (nearest whole number)}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 16: A woman borrowed GH₵5,300.00 to pay for her child's university fees. If she borrowed at a rate of 8% simple interest per annum for 9 months, find the interest paid.\n"
+            "(BECE 2025 Q4a)",
+        answer:
+            r"P = GH₵ 5,300, R = 8\%, T = \frac{9}{12} \text{ yr} = \frac{3}{4} \text{ yr}"
+            "\n\n"
+            r"\text{Interest, } I = \frac{P \times R \times T}{100}"
+            "\n\n"
+            r"\therefore I = \frac{5,300 \times 8 \times \frac{3}{4}}{100} = \frac{5,300 \times 2 \times 3}{100} = GH₵ 318",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Math JHS3 s2 ss2 - Algebraic Expressions": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "Question 1: Make t the subject of the relation "
+            r"v = u + at"
+            ".\n"
+            "(BECE 1992 Q1b)",
+        answer: "Start with the given formula:\n"
+            r"v = u + at"
+            "\n\n"
+            "Subtract u from both sides of the equation to isolate the term containing t:\n"
+            r"v - u = at"
+            "\n\n"
+            "Divide both sides by a to solve for t:\n"
+            r"\frac{v - u}{a} = t"
+            "\n\n"
+            "Rearrange the equation to place t on the left hand side:\n"
+            r"t = \frac{v - u}{a}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 2: Given that "
+            r"f = \frac{vu}{v + u}"
+            ", find v if f = 20 and u = 5.\n"
+            "(BECE 1996 Q1c)",
+        answer: "Write down the initial relation:\n"
+            r"f = \frac{vu}{v + u}"
+            "\n\n"
+            "Substitute the given values f = 20 and u = 5 into the formula:\n"
+            r"20 = \frac{v(5)}{v + 5}"
+            "\n\n"
+            r"20 = \frac{5v}{v + 5}"
+            "\n\n"
+            "Clear the fraction by multiplying both sides by (v + 5):\n"
+            r"20(v + 5) = 5v"
+            "\n\n"
+            "Expand the brackets on the left hand side:\n"
+            r"20v + 100 = 5v"
+            "\n\n"
+            "Group the terms with v by subtracting 20v from both sides:\n"
+            r"100 = 5v - 20v"
+            "\n"
+            r"100 = -15v"
+            "\n\n"
+            "Divide both sides by -15 to isolate v:\n"
+            r"v = -\frac{100}{15}"
+            "\n\n"
+            "Simplify the fraction by dividing the numerator and denominator by their highest common factor, 5:\n"
+            r"v = -\frac{20}{3} = -6\frac{2}{3}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 3: If 2y - 5x + 10 = 0, find:\n"
+            "(i) y, when x = 2\n"
+            "(ii) x, when y = 5\n"
+            "(BECE 1997 Q3a)",
+        answer: "⦿ (i) When x = 2:\n"
+            "Substitute x = 2 into the given linear equation:\n"
+            r"2y - 5(2) + 10 = 0"
+            "\n"
+            r"2y - 10 + 10 = 0"
+            "\n\n"
+            "Simplify the terms:\n"
+            r"2y = 0"
+            "\n\n"
+            "Solve for y:\n"
+            r"y = \frac{0}{2} = 0"
+            "\n\n"
+            "⦿ (ii) When y = 5:\n"
+            "Substitute y = 5 into the given equation:\n"
+            r"2(5) - 5x + 10 = 0"
+            "\n"
+            r"10 - 5x + 10 = 0"
+            "\n\n"
+            "Combine the numeric values:\n"
+            r"10 + 10 - 5x = 0"
+            "\n"
+            r"20 - 5x = 0"
+            "\n\n"
+            "Move the variable term to the other side to make it positive:\n"
+            r"20 = 5x"
+            "\n\n"
+            "Divide both sides by 5:\n"
+            r"x = \frac{20}{5} = 4",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 4: If "
+            r"3y = 2x^2 - 3x + 7"
+            ", find y, when x = 5.\n"
+            "(BECE 2000 Q1c)",
+        answer: "Start with the equation:\n"
+            r"3y = 2x^2 - 3x + 7"
+            "\n\n"
+            "Substitute x = 5 into the expression:\n"
+            r"3y = 2(5)^2 - 3(5) + 7"
+            "\n\n"
+            "Evaluate the exponent first:\n"
+            r"3y = 2(25) - 15 + 7"
+            "\n\n"
+            "Complete the multiplication and simplify the terms from left to right:\n"
+            r"3y = 50 - 15 + 7"
+            "\n"
+            r"3y = 35 + 7"
+            "\n"
+            r"3y = 42"
+            "\n\n"
+            "Divide by 3 to isolate y:\n"
+            r"y = \frac{42}{3} = 14",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 5: If 2n - 5m + 10 = 0, find:\n"
+            "(i) m, when n = 2\n"
+            "(ii) n, when m = 5\n"
+            "(BECE 2003 Q2a)",
+        answer: "⦿ (i) When n = 2:\n"
+            "Substitute n = 2 into the given formula:\n"
+            r"2(2) - 5m + 10 = 0"
+            "\n"
+            r"4 - 5m + 10 = 0"
+            "\n\n"
+            "Group the constants together:\n"
+            r"14 - 5m = 0"
+            "\n\n"
+            "Isolate the variable term:\n"
+            r"-5m = -14"
+            "\n\n"
+            "Divide both sides by -5:\n"
+            r"m = \frac{-14}{-5} = \frac{14}{5} = 2\frac{4}{5}"
+            "\n\n"
+            "⦿ (ii) When m = 5:\n"
+            "Substitute m = 5 into the equation:\n"
+            r"2n - 5(5) + 10 = 0"
+            "\n"
+            r"2n - 25 + 10 = 0"
+            "\n\n"
+            "Combine the constants:\n"
+            r"2n - 15 = 0"
+            "\n\n"
+            "Add 15 to both sides:\n"
+            r"2n = 15"
+            "\n\n"
+            "Divide both sides by 2:\n"
+            r"n = \frac{15}{2} = 7\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 6: Make q the subject of the equation "
+            r"t = \frac{1}{p} + \frac{1}{q}"
+            ".\n"
+            "(BECE 2004 Q1b)",
+        answer: "State the original equation:\n"
+            r"t = \frac{1}{p} + \frac{1}{q}"
+            "\n\n"
+            "Combine the right hand side terms by finding a common denominator, which is pq:\n"
+            r"t = \frac{q + p}{pq}"
+            "\n\n"
+            "Clear the fractional layout by cross-multiplying across the equality sign:\n"
+            r"pqt = q + p"
+            "\n\n"
+            "Collect all terms that contain the target variable q on one side of the equation:\n"
+            r"pqt - q = p"
+            "\n\n"
+            "Factor out the common variable q on the left hand side:\n"
+            r"q(pt - 1) = p"
+            "\n\n"
+            "Isolate q completely by dividing both sides by the bracketed term (pt - 1):\n"
+            r"q = \frac{p}{pt - 1}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 7: Make h the subject of "
+            r"V = \frac{1}{3}\pi r^2 h"
+            ".\n"
+            "(BECE 2011 Q1b)",
+        answer: "State the expression:\n"
+            r"V = \frac{1}{3}\pi r^2 h"
+            "\n\n"
+            "Clear the denominator by multiplying both sides of the equation by 3:\n"
+            r"3V = \pi r^2 h"
+            "\n\n"
+            "Divide both sides by "
+            r"\pi r^2"
+            " to leave h by itself:\n"
+            r"\frac{3V}{\pi r^2} = h"
+            "\n\n"
+            "Rearrange the final answer format clearly:\n"
+            r"h = \frac{3V}{\pi r^2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 8: The cost (P), in Ghana cedis, of producing n items is given by the formula, "
+            r"P = \frac{3}{4}n + 1800"
+            ". Find the:\n"
+            "(i) cost of producing 2,000 items;\n"
+            "(ii) number of items that will be produced with GH₵2,400.00;\n"
+            "(iii) cost when no items are produced.\n"
+            "(BECE 2016 Q2a)",
+        answer: "⦿ (i) Cost of producing 2,000 items:\n"
+            "Identify the target variable values (n = 2000) and apply them to the formula:\n"
+            r"P = \frac{3}{4}(2000) + 1800"
+            "\n\n"
+            "Calculate the multiplication value:\n"
+            r"P = 3(500) + 1800"
+            "\n"
+            r"P = 1500 + 1800"
+            "\n\n"
+            "Add the values together to find the cost:\n"
+            "P = GH₵3,300\n\n"
+            "⦿ (ii) Number of items produced with GH₵2,400.00:\n"
+            "Substitute P = 2400 into the formula:\n"
+            r"2400 = \frac{3}{4}n + 1800"
+            "\n\n"
+            "Isolate the variable term by subtracting 1800 from both sides:\n"
+            r"2400 - 1800 = \frac{3}{4}n"
+            "\n"
+            r"600 = \frac{3}{4}n"
+            "\n\n"
+            "Clear the fractional denominator by multiplying both sides by 4:\n"
+            r"3n = 600 \times 4"
+            "\n"
+            r"3n = 2400"
+            "\n\n"
+            "Divide by 3 to find the number of items:\n"
+            r"n = \frac{2400}{3} = 800 items"
+            "\n\n"
+            "⦿ (iii) Cost when no items are produced:\n"
+            "Substitute n = 0 into the formula equation:\n"
+            r"P = \frac{3}{4}(0) + 1800"
+            "\n"
+            r"P = 0 + 1800"
+            "\n\n"
+            "Determine the final fixed base cost value:\n"
+            "P = GH₵1,800",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 9:\n"
+            "(i) Make r the subject of the relation: "
+            r"y = \frac{x - r}{x + r}"
+            "\n"
+            "(ii) From (i), find the value of r when y = 3 and x = 10.\n"
+            "(BECE 2018 Q3b)",
+        answer: "⦿ (i) Make r the subject:\n"
+            "Start with the relation:\n"
+            r"y = \frac{x - r}{x + r}"
+            "\n\n"
+            "Cross-multiply to eliminate the fractional side:\n"
+            r"y(x + r) = x - r"
+            "\n\n"
+            "Expand the bracket on the left hand side:\n"
+            r"xy + ry = x - r"
+            "\n\n"
+            "Group all terms containing the target letter r on the left side and everything else on the right:\n"
+            r"ry + r = x - xy"
+            "\n\n"
+            "Factor out the shared variable r:\n"
+            r"r(y + 1) = x - xy"
+            "\n\n"
+            "Divide both sides by (y + 1) to get the final transformed relation:\n"
+            r"r = \frac{x - xy}{y + 1}"
+            "\n\n"
+            "⦿ (ii) Find the value of r when y = 3 and x = 10:\n"
+            "Substitute the provided numerical numbers into the structured formula from part (i):\n"
+            r"r = \frac{10 - 10(3)}{3 + 1}"
+            "\n\n"
+            "Simplify the numerator calculation and the denominator calculation:\n"
+            r"r = \frac{10 - 30}{4}"
+            "\n\n"
+            r"r = \frac{-20}{4}"
+            "\n\n"
+            "Reduce to a final single value answer:\n"
+            r"r = -5",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 10: Given that "
+            r"m = \frac{r - s}{2nr}"
+            ",\n"
+            "(i) make r the subject of the relation.\n"
+            "(ii) find the value of r when s = 117, m = 2 and n = -3.\n"
+            "(BECE 2020 Q5c)",
+        answer: "⦿ (i) Make r the subject:\n"
+            "Start with the expression:\n"
+            r"m = \frac{r - s}{2nr}"
+            "\n\n"
+            "Clear the fraction layout by cross-multiplying:\n"
+            r"m(2nr) = r - s"
+            "\n"
+            r"2mnr = r - s"
+            "\n\n"
+            "Re-group all terms that contain r on one side of the equal sign:\n"
+            r"r - 2mnr = s"
+            "\n\n"
+            "Factor out the single common variable factor r:\n"
+            r"r(1 - 2mn) = s"
+            "\n\n"
+            "Divide by the entire bracketed expression to get r alone:\n"
+            r"r = \frac{s}{1 - 2mn}"
+            "\n\n"
+            "⦿ (ii) Find the value of r when s = 117, m = 2, and n = -3:\n"
+            "Substitute the numerical values carefully into the rearranged formula:\n"
+            r"r = \frac{117}{1 - 2(2)(-3)}"
+            "\n\n"
+            "Simplify the expressions inside the denominator term:\n\n"
+            r"r = \frac{117}{1 - (-12)}"
+            "\n\n"
+            r"r = \frac{117}{1 + 12}"
+            "\n\n"
+            r"r = \frac{117}{13}"
+            "\n\n"
+            "Divide to compute the final integer:\n"
+            r"r = 9",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 11: The cost (C) in Ghana cedis of producing a book of x pages is given by C = 25 + 0.6x.\n"
+            "(i) Find the cost of producing a book with 220 pages.\n"
+            "(ii) How many pages are in a book produced at a cost of GH¢145.00?\n"
+            "(BECE 2021 Q5c)",
+        answer: "⦿ (i) Find the cost when x = 220 pages:\n"
+            "Write the formula down:\n"
+            r"C = 25 + 0.6x"
+            "\n\n"
+            "Plug in x = 220:\n"
+            r"C = 25 + 0.6(220)"
+            "\n\n"
+            "Multiply the numbers:\n"
+            r"C = 25 + 132"
+            "\n\n"
+            "Add the values together to find the total financial cost:\n"
+            "C = GH¢157\n\n"
+            "⦿ (ii) Find the number of pages when C = 145:\n"
+            "Substitute C = 145 into the cost equation:\n"
+            r"145 = 25 + 0.6x"
+            "\n\n"
+            "Subtract 25 from both sides to isolate the variable term:\n"
+            r"145 - 25 = 0.6x"
+            "\n"
+            r"120 = 0.6x"
+            "\n\n"
+            "Clear the decimal by multiplying both sides by 10:\n"
+            r"120 \times 10 = 6x"
+            "\n"
+            r"1200 = 6x"
+            "\n\n"
+            "Divide both sides by 6 to compute the number of pages:\n"
+            r"x = \frac{1200}{6} = 200 pages",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 12: Given the relation "
+            r"L = \frac{2(m^2 - n^2)}{4(m + n)}"
+            "\n"
+            "(i) simplify L;\n"
+            "(ii) find the value of L when m = 2 and n = 3.\n"
+            "(BECE 2022 Q3a)",
+        answer: "⦿ (i) Simplify L:\n"
+            "State the original algebraic fraction:\n"
+            r"L = \frac{2(m^2 - n^2)}{4(m + n)}"
+            "\n\n"
+            "Factorize the difference of two squares expression in the numerator:\n"
+            r"m^2 - n^2 = (m + n)(m - n)"
+            "\n\n"
+            "Substitute this factorized form back into the equation:\n"
+            r"L = \frac{2(m + n)(m - n)}{4(m + n)}"
+            "\n\n"
+            "Cancel out the common binomial factor (m + n) from both the numerator and the denominator:\n"
+            r"L = \frac{2(m - n)}{4}"
+            "\n\n"
+            "Reduce the remaining numerical fraction "
+            r"\frac{2}{4}"
+            " to its simplest form "
+            r"\frac{1}{2}"
+            ":\n"
+            r"L = \frac{m - n}{2}"
+            "\n\n"
+            "⦿ (ii) Find the value of L when m = 2 and n = 3:\n"
+            "Apply the given numeric choices to our simplified final formula expression from part (i):\n"
+            r"L = \frac{2 - 3}{2}"
+            "\n\n"
+            "Compute the value directly:\n"
+            r"L = -\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 13: If "
+            r"\frac{1}{y} = 3k - \frac{2}{x}"
+            ",\n"
+            "(i) make y the subject of the relation.\n"
+            "(ii) using the result in (i), find the value of y when x = -1 and k = 2.\n"
+            "(BECE 2025 Q1b)",
+        answer: "⦿ (i) Make y the subject of the relation:\n"
+            "Write out the mathematical expression:\n"
+            r"\frac{1}{y} = 3k - \frac{2}{x}"
+            "\n\n"
+            "Find the common denominator for the terms on the right hand side to write them as a single combined fraction:\n"
+            r"\frac{1}{y} = \frac{3kx - 2}{x}"
+            "\n\n"
+            "Invert both sides of the equation (take the reciprocal) to find the explicit expression for y:\n"
+            r"y = \frac{x}{3kx - 2}"
+            "\n\n"
+            "⦿ (ii) Find the value of y when x = -1 and k = 2:\n"
+            "Substitute the provided numbers directly into the newly constructed subject expression from part (i):\n"
+            r"y = \frac{-1}{3(2)(-1) - 2}"
+            "\n\n"
+            "Multiply the numbers out inside the denominator:\n"
+            r"y = \frac{-1}{-6 - 2}"
+            "\n\n"
+            r"y = \frac{-1}{-8}"
+            "\n\n"
+            "Cancel out the signs to finish:\n"
+            r"y = \frac{1}{8}",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS3 s2 ss3 - Variables and Equations": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "Question 1: Find the solution set of "
+            r"x + 3 > 19 - 3x"
+            ", where x is a real number.\n"
+            "(BECE 1990 Q2c)",
+        answer:
+            "Group terms containing x on the left and constant numbers on the right by adding 3x and subtracting 3 from both sides:\n"
+            r"x + 3x > 19 - 3"
+            "\n\n"
+            "Simplify both sides of the inequality:\n"
+            r"4x > 16"
+            "\n\n"
+            "Divide both sides by 4:\n"
+            r"\frac{4x}{4} > \frac{16}{4}"
+            "\n"
+            r"x > 4"
+            "\n\n"
+            "The final solution set is:\n"
+            r"\{x : x > 4\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 2: Solve "
+            r"\frac{x}{4} + \frac{3}{5} = \frac{3x}{2} - 2"
+            ".\n"
+            "(BECE 1990 Q2b)",
+        answer:
+            "Find the Least Common Multiple (LCM) of the denominators 4, 5, and 2, which is 20.\n\n"
+            "Multiply every term on both sides by 20 to clear the fractions:\n"
+            r"20\left(\frac{x}{4}\right) + 20\left(\frac{3}{5}\right) = 20\left(\frac{3x}{2}\right) - 20(2)"
+            "\n\n"
+            "Simplify each term:\n"
+            r"5(x) + 4(3) = 10(3x) - 40"
+            "\n"
+            r"5x + 12 = 30x - 40"
+            "\n\n"
+            "Rearrange the terms by grouping x variables on the left and constants on the right:\n"
+            r"5x - 30x = -40 - 12"
+            "\n\n"
+            "Combine like terms:\n"
+            r"-25x = -52"
+            "\n\n"
+            "Divide both sides by -25:\n"
+            r"x = \frac{-52}{-25} = \frac{52}{25} = 2\frac{2}{25}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 3: Solve the equation "
+            r"\frac{2x - 1}{3} - \frac{x - 2}{4} = 1"
+            ".\n"
+            "(BECE 1991 Q3a)",
+        answer: "Find the LCM of the denominators 3 and 4, which is 12.\n\n"
+            "Multiply through both sides of the equation by 12:\n"
+            r"12(\frac{2x-1}{3}) - 12(\frac{x-2}{4}) = 12(1)"
+            "\n\n"
+            "Cancel out the denominators:\n"
+            r"4(2x - 1) - 3(x - 2) = 12"
+            "\n\n"
+            "Expand the brackets carefully, noting the negative sign distribution:\n"
+            r"8x - 4 - 3x + 6 = 12"
+            "\n\n"
+            "Group and combine like terms on the left side:\n"
+            r"5x + 2 = 12"
+            "\n\n"
+            "Subtract 2 from both sides:\n"
+            r"5x = 12 - 2"
+            "\n"
+            r"5x = 10"
+            "\n\n"
+            "Divide both sides by 5:\n"
+            r"x = \frac{10}{5} = 2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 4: Solve "
+            r"5 - 2x > x + 2"
+            ", where x is a real number.\n"
+            "(BECE 1992 Q1a)",
+        answer:
+            "Group the x variables on the left side and the constants on the right side:\n"
+            r"-2x - x > 2 - 5"
+            "\n\n"
+            "Combine like terms:\n"
+            r"-3x > -3"
+            "\n\n"
+            "Divide both sides by -3. Because you are dividing by a negative number, the direction of the inequality sign reverses:\n"
+            r"\frac{-3x}{-3} < \frac{-3}{-3}"
+            "\n"
+            r"x < 1",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 5: Find the truth set of the equation "
+            r"\frac{2}{3}(3y - 1) - (y + 2) = \frac{1}{3}"
+            ".\n"
+            "(BECE 1992 Q1b)",
+        answer:
+            "Multiply the entire equation through by 3 to eliminate the fractional denominators:\n"
+            r"3[\frac{2}{3}(3y - 1)] - 3(y + 2) = 3(\frac{1}{3})"
+            "\n"
+            r"2(3y - 1) - 3(y + 2) = 1"
+            "\n\n"
+            "Expand the brackets:\n"
+            r"6y - 2 - 3y - 6 = 1"
+            "\n\n"
+            "Combine like terms on the left side:\n"
+            r"3y - 8 = 1"
+            "\n\n"
+            "Add 8 to both sides:\n"
+            r"3y = 1 + 8"
+            "\n"
+            r"3y = 9"
+            "\n\n"
+            "Divide by 3:\n"
+            r"y = \frac{9}{3} = 3"
+            "\n\n"
+            "The final truth set is:\n"
+            r"\{y : y = 3\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 6: Solve "
+            r"5(a - 5) - \frac{1}{2}(2a + 6) = 4"
+            ".\n"
+            "(BECE 1993 Q1b)",
+        answer: "Multiply every term through by 2 to clear the fraction:\n"
+            r"2 \times 5(a - 5) - 2 \times \frac{1}{2}(2a + 6) = 2 \times 4"
+            "\n"
+            r"10(a - 5) - 1(2a + 6) = 8"
+            "\n\n"
+            "Expand the brackets:\n"
+            r"10a - 50 - 2a - 6 = 8"
+            "\n\n"
+            "Combine like terms on the left side:\n"
+            r"8a - 56 = 8"
+            "\n\n"
+            "Add 56 to both sides:\n"
+            r"8a = 8 + 56"
+            "\n"
+            r"8a = 64"
+            "\n\n"
+            "Divide both sides by 8:\n"
+            r"a = \frac{64}{8} = 8",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 7: Find the truth set of "
+            r"2x - 6 \leq 5(3 - x)"
+            ".\n"
+            "(BECE 1994 Q1b)",
+        answer: "Expand the bracket on the right side:\n"
+            r"2x - 6 \leq 15 - 5x"
+            "\n\n"
+            "Group the variable terms on the left side and constants on the right side:\n"
+            r"2x + 5x \leq 15 + 6"
+            "\n\n"
+            "Combine like terms:\n"
+            r"7x \leq 21"
+            "\n\n"
+            "Divide both sides by 7:\n"
+            r"\frac{7x}{7} \leq \frac{21}{7}"
+            "\n"
+            r"x \leq 3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 8: The sum of the ages of two brothers Kofi and Kweku is 35 years. Kofi's age is two-thirds of Kweku's age. Find their ages.\n"
+            "(BECE 1995 Q1b)",
+        answer: "Let Kweku's age be represented by x.\n\n"
+            "Express Kofi's age as "
+            r"\frac{2}{3}x"
+            ".\n\n"
+            "Write out the sum equation:\n"
+            r"x + \frac{2}{3}x = 35"
+            "\n\n"
+            "Multiply through the entire equation by 3 to eliminate the fraction:\n"
+            r"3(x) + 3\left(\frac{2}{3}x\right) = 3(35)"
+            "\n"
+            r"3x + 2x = 105"
+            "\n\n"
+            "Combine like terms:\n"
+            r"5x = 105"
+            "\n\n"
+            "Divide both sides by 5 to find Kweku's age:\n"
+            r"x = \frac{105}{5} = 21"
+            "\n\n"
+            "Substitute x = 21 to calculate Kofi's age:\n"
+            r"\text{Kofi's age} = \frac{2}{3} \times 21 = 2 \times 7 = 14"
+            "\n\n"
+            "Final Answer: Kweku is 21 years old and Kofi is 14 years old.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 9: Kojo is n years old now.\n"
+            "(i) How old was he 5 years ago?\n"
+            "(ii) How old will he be 10 years from now?\n"
+            "(iii) If his age in 10 years' time will be four times his age 5 years ago, how old is he now?\n"
+            "(BECE 1996 Q1a)",
+        answer: "⦿ (i) Age 5 years ago is:\n"
+            r"(n - 5) years old"
+            "\n\n"
+            "⦿ (ii) Age 10 years from now is:\n"
+            r"(n + 10) years old"
+            "\n\n"
+            "⦿ (iii) Set up the equation based on the given word problem criteria:\n"
+            r"n + 10 = 4(n - 5)"
+            "\n\n"
+            "Expand the bracket on the right side:\n"
+            r"n + 10 = 4n - 20"
+            "\n\n"
+            "Rearrange terms to group the n variables together:\n"
+            r"n - 4n = -20 - 10"
+            "\n"
+            r"-3n = -30"
+            "\n\n"
+            "Divide both sides by -3:\n"
+            r"n = \frac{-30}{-3} = 10"
+            "\n\n"
+            "Kojo is 10 years old now.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 10: Solve the inequality "
+            r"5x - 3(x - 1) \geq 39"
+            ".\n"
+            "(BECE 1997 Q1c)",
+        answer: "Expand the bracket carefully, multiplying through by -3:\n"
+            r"5x - 3x + 3 \geq 39"
+            "\n\n"
+            "Combine the like variable terms:\n"
+            r"2x + 3 \geq 39"
+            "\n\n"
+            "Subtract 3 from both sides:\n"
+            r"2x \geq 39 - 3"
+            "\n"
+            r"2x \geq 36"
+            "\n\n"
+            "Divide both sides by 2:\n"
+            r"\frac{2x}{2} \geq \frac{36}{2}"
+            "\n"
+            r"x \geq 18",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 11: Solve "
+            r"3x - 9 \geq 12(x - 3)"
+            ".\n"
+            "(BECE 1998 Q1b)",
+        answer: "Expand the bracket on the right side:\n"
+            r"3x - 9 \geq 12x - 36"
+            "\n\n"
+            "Move all variable terms to one side and constants to the other side:\n"
+            r"3x - 12x \geq -36 + 9"
+            "\n\n"
+            "Combine like terms:\n"
+            r"-9x \geq -27"
+            "\n\n"
+            "Divide both sides by -9 and reverse the inequality sign direction:\n"
+            r"\frac{-9x}{-9} \leq \frac{-27}{-9}"
+            "\n"
+            r"x \leq 3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 12: Kofi and Kojo were given φ38,000.00 to share. Kojo had φ7,500.00 more than Kofi. Find:\n"
+            "(i) Kofi's share\n"
+            "(ii) Kojo's share\n"
+            "(BECE 1999 Q1a)",
+        answer: "Let Kofi's share be x.\n\n"
+            "Kojo's share is represented as x + 7,500.\n\n"
+            "Set up the total equation:\n"
+            r"x + (7,500 + x) = 38,000"
+            "\n\n"
+            "Combine like terms:\n"
+            r"2x + 7,500 = 38,000"
+            "\n\n"
+            "Subtract 7,500 from both sides:\n"
+            r"2x = 38,000 - 7,500 = 30,500"
+            "\n\n"
+            "Divide both sides by 2:\n"
+            r"x = \frac{30,500}{2} = 15,250"
+            "\n\n"
+            "Individual totals are calculated as:\n"
+            "(i) Kofi's share = φ15,250.00\n"
+            "(ii) Kojo's share = 15,250 + 7,500 = φ22,750.00",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 13: Solve the inequality "
+            r"\frac{2x - 1}{4} - \frac{x - 2}{3} > 1"
+            ".\n"
+            "(BECE 1999 Q2a)",
+        answer: "Find the LCM of the denominators 4 and 3, which is 12.\n\n"
+            "Multiply through every term on both sides by 12:\n"
+            r"12(\frac{2x-1}{4}) - 12(\frac{x-2}{3}) > 12(1)"
+            "\n\n"
+            "Simplify terms to clear the denominators:\n"
+            r"3(2x - 1) - 4(x - 2) > 12"
+            "\n\n"
+            "Expand the brackets carefully:\n"
+            r"6x - 3 - 4x + 8 > 12"
+            "\n\n"
+            "Combine like terms on the left side:\n"
+            r"2x + 5 > 12"
+            "\n\n"
+            "Subtract 5 from both sides:\n"
+            r"2x > 12 - 5 = 7"
+            "\n\n"
+            "Divide both sides by 2:\n"
+            r"x > \frac{7}{2} \quad \text{or} \quad x > 3\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 14: Solve the equation "
+            r"\frac{1}{3}(x + 3) - 2(x - 5) = 4\frac{1}{3}"
+            ".\n"
+            "(BECE 2000 Q1b)",
+        answer:
+            "Convert the mixed fraction on the right side to an improper fraction:\n"
+            r"4\frac{1}{3} = \frac{13}{3}"
+            "\n\n"
+            "Write the rewritten equation:\n"
+            r"\frac{1}{3}(x + 3) - 2(x - 5) = \frac{13}{3}"
+            "\n\n"
+            "Multiply every single term through by 3 to eliminate fractions:\n"
+            r"3 \times \frac{1}{3}(x + 3) - 3 \times 2(x - 5) = 3 \times \frac{13}{3}"
+            "\n"
+            r"(x + 3) - 6(x - 5) = 13"
+            "\n\n"
+            "Expand the brackets:\n"
+            r"x + 3 - 6x + 30 = 13"
+            "\n\n"
+            "Combine like terms on the left side:\n"
+            r"-5x + 33 = 13"
+            "\n\n"
+            "Subtract 33 from both sides:\n"
+            r"-5x = 13 - 33 = -20"
+            "\n\n"
+            "Divide by -5:\n"
+            r"x = \frac{-20}{-5} = 4",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 15: Solve the inequality "
+            r"\frac{2x - 2}{4} - \frac{2x - 1}{3} \leq 1"
+            ".\n"
+            "(BECE 2001 Q1b)",
+        answer: "Find the LCM of denominators 4 and 3, which is 12.\n\n"
+            "Multiply through both sides by 12:\n"
+            r"12(\frac{2x-2}{4}) - 12(\frac{2x-1}{3}) \leq 12(1)"
+            "\n\n"
+            "Cancel out the denominators:\n"
+            r"3(2x - 2) - 4(2x - 1) \leq 12"
+            "\n\n"
+            "Expand the brackets:\n"
+            r"6x - 6 - 8x + 4 \leq 12"
+            "\n\n"
+            "Combine like terms:\n"
+            r"-2x - 2 \leq 12"
+            "\n\n"
+            "Add 2 to both sides:\n"
+            r"-2x \leq 12 + 2 = 14"
+            "\n\n"
+            "Divide both sides by -2 and reverse the inequality sign direction:\n"
+            r"x \geq \frac{14}{-2} = -7",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 16: Solve the inequality "
+            r"\frac{5x - 3}{6} - \frac{2x - 4}{4} < 2"
+            ".\n"
+            "(BECE 2002B Q4a)",
+        answer: "Find the LCM of denominators 6 and 4, which is 24.\n\n"
+            "Multiply every term on both sides by 24:\n"
+            r"24(\frac{5x-3}{6}) - 24(\frac{2x-4}{4}) < 24(2)"
+            "\n\n"
+            "Simplify the terms:\n"
+            r"4(5x - 3) - 6(2x - 4) < 48"
+            "\n\n"
+            "Expand the brackets carefully:\n"
+            r"20x - 12 - 12x + 24 < 48"
+            "\n\n"
+            "Combine like terms on the left side:\n"
+            r"8x + 12 < 48"
+            "\n\n"
+            "Subtract 12 from both sides:\n"
+            r"8x < 48 - 12 = 36"
+            "\n\n"
+            "Divide both sides by 8:\n"
+            r"x < \frac{36}{8}"
+            "\n\n"
+            "Simplify the fraction by dividing the numerator and denominator by 4:\n"
+            r"x < \frac{9}{2} \quad \text{or} \quad x < 4\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 17: Find the solution set of the inequality "
+            r"x - \frac{1}{3} \leq \frac{1}{5}"
+            ", if the domain is the set {-2, -1, 0, 1, 2}.\n"
+            "(BECE 2003 Q4b)",
+        answer: "Find the LCM of the denominators 3 and 5, which is 15.\n\n"
+            "Multiply through by 15 to remove the fractions:\n"
+            r"15(x) - 15(\frac{1}{3}) \leq 15(\frac{1}{5})"
+            "\n"
+            r"15x - 5 \leq 3"
+            "\n\n"
+            "Add 5 to both sides:\n"
+            r"15x \leq 3 + 5 = 8"
+            "\n\n"
+            "Divide both sides by 15:\n"
+            r"x \leq \frac{8}{15}"
+            "\n\n"
+            "Check which elements from the domain set {-2, -1, 0, 1, 2} are less than or equal to "
+            r"\frac{8}{15}"
+            ":\n"
+            "-2, -1, and 0 satisfy the condition, while 1 and 2 do not.\n\n"
+            "The selected solution set is:\n"
+            r"\{-2, -1, 0\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 18: Solve for x in the inequality "
+            r"\frac{2}{3}(2x + 3) \leq 8\frac{2}{3}"
+            ".\n"
+            "(BECE 2004 Q4b)",
+        answer:
+            "Convert the mixed fraction on the right side to an improper fraction:\n"
+            r"8\frac{2}{3} = \frac{26}{3}"
+            "\n\n"
+            "Rewrite the inequality layout:\n"
+            r"\frac{2}{3}(2x + 3) \leq \frac{26}{3}"
+            "\n\n"
+            "Multiply both sides by 3 to clear the denominators:\n"
+            r"2(2x + 3) \leq 26"
+            "\n\n"
+            "Expand the bracket:\n"
+            r"4x + 6 \leq 26"
+            "\n\n"
+            "Subtract 6 from both sides:\n"
+            r"4x \leq 26 - 6 = 20"
+            "\n\n"
+            "Divide both sides by 4:\n"
+            r"x \leq \frac{20}{4} = 5",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 19: Solve "
+            r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq 1\frac{1}{4}"
+            ".\n"
+            "(BECE 2006 Q2c)",
+        answer: "Convert the mixed fraction to an improper fraction:\n"
+            r"1\frac{1}{4} = \frac{5}{4}"
+            "\n\n"
+            "Write the rewritten equation setup:\n"
+            r"\frac{1}{3}(x - 1) - \frac{1}{2}(x - 3) \leq \frac{5}{4}"
+            "\n\n"
+            "Find the LCM of denominators 3, 2, and 4, which is 12.\n\n"
+            "Multiply every expression group by 12:\n"
+            r"12 \times \frac{1}{3}(x - 1) - 12 \times \frac{1}{2}(x - 3) \leq 12 \times \frac{5}{4}"
+            "\n"
+            r"4(x - 1) - 6(x - 3) \leq 3(5)"
+            "\n\n"
+            "Expand the expressions:\n"
+            r"4x - 4 - 6x + 18 \leq 15"
+            "\n\n"
+            "Combine like terms on the left side:\n"
+            r"-2x + 14 \leq 15"
+            "\n\n"
+            "Subtract 14 from both sides:\n"
+            r"-2x \leq 15 - 14 = 1"
+            "\n\n"
+            "Divide by -2 and reverse the inequality layout symbol direction:\n"
+            r"x \geq -\frac{1}{2}"
+            "\n\n"
+            "The absolute solution set expression is:\n"
+            r"\{x : x \geq -\frac{1}{2}\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 20: Find the truth set of "
+            r"\frac{x - 3}{3} \leq \frac{1}{2} + x"
+            ".\n"
+            "(BECE 2007 Q2c)",
+        answer: "Find the LCM of the denominators 3 and 2, which is 6.\n\n"
+            "Multiply every term on both sides by 6:\n"
+            r"6(\frac{x-3}{3}) \leq 6(\frac{1}{2}) + 6(x)"
+            "\n\n"
+            "Simplify the expressions:\n"
+            r"2(x - 3) \leq 3 + 6x"
+            "\n\n"
+            "Expand the bracket:\n"
+            r"2x - 6 \leq 3 + 6x"
+            "\n\n"
+            "Group the variable terms on the left side and constants on the right side:\n"
+            r"2x - 6x \leq 3 + 6"
+            "\n"
+            r"-4x \leq 9"
+            "\n\n"
+            "Divide both sides by -4 and reverse the direction of the inequality sign:\n"
+            r"x \geq \frac{9}{-4} = -2\frac{1}{4}"
+            "\n\n"
+            "The final truth set is:\n"
+            r"\{x : x \geq -2\frac{1}{4}\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 21: Find the value of x if "
+            r"\frac{3x - 2}{5}"
+            " is greater than "
+            r"\frac{1 - 4x}{10}"
+            " by 5.\n"
+            "(BECE 2008 Q2b)",
+        answer: "Set up the text definition as a mathematical formula:\n"
+            r"\frac{3x - 2}{5} = \frac{1 - 4x}{10} + 5"
+            "\n\n"
+            "Find the LCM of denominators 5 and 10, which is 10.\n\n"
+            "Multiply every term through by 10:\n"
+            r"10(\frac{3x-2}{5}) = 10(\frac{1-4x}{10}) + 10(5)"
+            "\n\n"
+            "Simplify the terms to clear the denominators:\n"
+            r"2(3x - 2) = 1(1 - 4x) + 50"
+            "\n\n"
+            "Expand the expressions:\n"
+            r"6x - 4 = 1 - 4x + 50 = 51 - 4x"
+            "\n\n"
+            "Move the variable terms to the left side and constants to the right side:\n"
+            r"6x + 4x = 51 + 4"
+            "\n"
+            r"10x = 55"
+            "\n\n"
+            "Divide both sides by 10:\n"
+            r"x = \frac{55}{10} = 5.5",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 22: Solve "
+            r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + 2\frac{3}{4}"
+            ".\n"
+            "(BECE 2010 Q5a)",
+        answer: "Convert the mixed fraction to an improper fraction:\n"
+            r"2\frac{3}{4} = \frac{11}{4}"
+            "\n\n"
+            "Write out the clear term groupings:\n"
+            r"\frac{4x - 3}{2} = \frac{8x - 10}{8} + \frac{11}{4}"
+            "\n\n"
+            "Find the LCM of denominators 2, 8, and 4, which is 8.\n\n"
+            "Multiply through every single term by 8:\n"
+            r"8(\frac{4x-3}{2}) = 8(\frac{8x-10}{8}) + 8(\frac{11}{4})"
+            "\n\n"
+            "Clear out fraction denominators:\n"
+            r"4(4x - 3) = 1(8x - 10) + 2(11)"
+            "\n\n"
+            "Expand brackets and run arithmetic:\n"
+            r"16x - 12 = 8x - 10 + 22 = 8x + 12"
+            "\n\n"
+            "Group variables on the left side and constant numbers on the right side:\n"
+            r"16x - 8x = 12 + 12"
+            "\n"
+            r"8x = 24"
+            "\n\n"
+            "Divide both sides by 8:\n"
+            r"x = \frac{24}{8} = 3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 23: Solve the inequality "
+            r"\frac{1}{3}x + 1\frac{2}{3} < \frac{-3}{4}x - \frac{1}{2}"
+            ".\n"
+            "(BECE 2011 Q2b)",
+        answer: "Convert the mixed fraction into an improper fraction:\n"
+            r"1\frac{2}{3} = \frac{5}{3}"
+            "\n\n"
+            "Rewrite the structural layout:\n"
+            r"\frac{1}{3}x + \frac{5}{3} < \frac{-3}{4}x - \frac{1}{2}"
+            "\n\n"
+            "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
+            "Multiply every term on both sides by 12:\n"
+            r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{-3}{4}x\right) - 12\left(\frac{1}{2}\right)"
+            "\n\n"
+            "Simplify each item:\n"
+            r"4x + 20 < -9x - 6"
+            "\n\n"
+            "Group variables on the left side and constants on the right side:\n"
+            r"4x + 9x < -6 - 20"
+            "\n"
+            r"13x < -26"
+            "\n\n"
+            "Divide both sides by 13:\n"
+            r"x < \frac{-26}{13} = -2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 24: Solve the inequality "
+            r"2x - 1\frac{1}{2} \geq 5x - 6"
+            ".\n"
+            "(BECE 2013 Q1b)",
+        answer: "Convert the mixed fraction into an improper fraction:\n"
+            r"1\frac{1}{2} = \frac{3}{2}"
+            "\n\n"
+            "Rewrite the expression line:\n"
+            r"2x - \frac{3}{2} \geq 5x - 6"
+            "\n\n"
+            "Multiply every term on both sides by 2 to remove fraction layouts:\n"
+            r"2(2x) - 2\left(\frac{3}{2}\right) \geq 2(5x) - 2(6)"
+            "\n"
+            r"4x - 3 \geq 10x - 12"
+            "\n\n"
+            "Group variables on the left side and constant values on the right side:\n"
+            r"4x - 10x \geq -12 + 3"
+            "\n"
+            r"-6x \geq -9"
+            "\n\n"
+            "Divide both sides by -6 and reverse the inequality sign layout:\n"
+            r"\frac{-6x}{-6} \leq \frac{-9}{-6} \implies x \leq \frac{9}{6}"
+            "\n\n"
+            "Reduce to lowest terms by dividing by 3:\n"
+            r"x \leq \frac{3}{2} \quad \text{or} \quad x \leq 1\frac{1}{2}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 25: Solve for x, if "
+            r"\frac{1}{3}x + 1\frac{2}{3} < \frac{3}{4}x - \frac{1}{2}"
+            ".\n"
+            "(BECE 2014 Q3a)",
+        answer: "Convert the mixed fraction to an improper fraction:\n"
+            r"1\frac{2}{3} = \frac{5}{3}"
+            "\n\n"
+            "Rewrite the setup:\n"
+            r"\frac{1}{3}x + \frac{5}{3} < \frac{3}{4}x - \frac{1}{2}"
+            "\n\n"
+            "Find the LCM of denominators 3, 4, and 2, which is 12.\n\n"
+            "Multiply every single term group by 12:\n"
+            r"12\left(\frac{1}{3}x\right) + 12\left(\frac{5}{3}\right) < 12\left(\frac{3}{4}x\right) - 12\left(\frac{1}{2}\right)"
+            "\n\n"
+            "Clear fractions:\n"
+            r"4x + 20 < 9x - 6"
+            "\n\n"
+            "Collect x values on the left side:\n"
+            r"4x - 9x < -6 - 20"
+            "\n"
+            r"-5x < -26"
+            "\n\n"
+            "Divide both sides by -5 and flip the inequality layout symbol direction:\n"
+            r"x > \frac{-26}{-5} \implies x > \frac{26}{5} \quad \text{or} \quad x > 5\frac{1}{5}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 26: Solve "
+            r"\frac{3x + 2}{3} - \frac{3 - x}{8} = \frac{1}{6}"
+            ".\n"
+            "(BECE 2015A Q1b)",
+        answer: "Find the LCM of denominators 3, 8, and 6, which is 24.\n\n"
+            "Multiply every term on both sides by 24:\n"
+            r"24(\frac{3x+2}{3}) - 24(\frac{3-x}{8}) = 24(\frac{1}{6})"
+            "\n\n"
+            "Cancel out denominators:\n"
+            r"8(3x + 2) - 3(3 - x) = 4(1)"
+            "\n\n"
+            "Expand the brackets carefully:\n"
+            r"24x + 16 - 9 + 3x = 4"
+            "\n\n"
+            "Combine like terms on the left side:\n"
+            r"27x + 7 = 4"
+            "\n\n"
+            "Subtract 7 from both sides:\n"
+            r"27x = 4 - 7 = -3"
+            "\n\n"
+            "Divide both sides by 27:\n"
+            r"x = \frac{-3}{27}"
+            "\n\n"
+            "Reduce fraction to lowest terms by dividing by 3:\n"
+            r"x = -\frac{1}{9}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 27: Solve for x, if "
+            r"2 - \frac{3}{5}x \leq 1\frac{1}{3}"
+            ".\n"
+            "(BECE 2015B Q2a)",
+        answer: "Convert mixed fraction into improper fraction:\n"
+            r"1\frac{1}{3} = \frac{4}{3}"
+            "\n\n"
+            "Rewrite the expression:\n"
+            r"2 - \frac{3}{5}x \leq \frac{4}{3}"
+            "\n\n"
+            "Find the LCM of denominators 5 and 3, which is 15.\n\n"
+            "Multiply every term on both sides by 15:\n"
+            r"15(2) - 15\left(\frac{3}{5}x\right) \leq 15\left(\frac{4}{3}\right)"
+            "\n\n"
+            "Simplify the terms:\n"
+            r"30 - 9x \leq 20"
+            "\n\n"
+            "Subtract 30 from both sides:\n"
+            r"-9x \leq 20 - 30 = -10"
+            "\n\n"
+            "Divide both sides by -9 and reverse the inequality sign layout direction:\n"
+            r"x \geq \frac{-10}{-9} \implies x \geq \frac{10}{9} \quad \text{or} \quad x \geq 1\frac{1}{9}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 28: Two consecutive odd numbers are such that seven times the smaller, subtracted from nine times the bigger, give 144. Find the two numbers.\n"
+            "(BECE 2017 Q2a)",
+        answer: "Let the smaller consecutive odd number be x.\n\n"
+            "Let the larger consecutive odd number be x + 2.\n\n"
+            "Form the equation based on the text narrative context:\n"
+            r"9(x + 2) - 7x = 144"
+            "\n\n"
+            "Expand the bracket:\n"
+            r"9x + 18 - 7x = 144"
+            "\n\n"
+            "Combine variable terms on the left side:\n"
+            r"2x + 18 = 144"
+            "\n\n"
+            "Subtract 18 from both sides:\n"
+            r"2x = 144 - 18 = 126"
+            "\n\n"
+            "Divide both sides by 2 to isolate x:\n"
+            r"x = \frac{126}{2} = 63"
+            "\n\n"
+            "Individual consecutive metrics are determined as:\n"
+            "The first odd number (smaller) = 63\n"
+            "The second odd number (bigger) = 63 + 2 = 65\n\n"
+            "Final Answer: The two consecutive odd numbers are 63 and 65.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 29: Solve the inequality "
+            r"\frac{3}{4}(x + 1) + 1 \leq \frac{1}{2}(x - 2) + 5"
+            ".\n"
+            "(BECE 2017 Q6b(i))",
+        answer: "Find the LCM of denominators 4 and 2, which is 4.\n\n"
+            "Multiply every unique term group on both sides by 4:\n"
+            r"4[\frac{3}{4}(x+1)] + 4(1) \leq 4[\frac{1}{2}(x-2)] + 4(5)"
+            "\n\n"
+            "Clear out the fractions:\n"
+            r"3(x + 1) + 4 \leq 2(x - 2) + 20"
+            "\n\n"
+            "Expand the brackets:\n"
+            r"3x + 3 + 4 \leq 2x - 4 + 20"
+            "\n\n"
+            "Combine constant values on both sides:\n"
+            r"3x + 7 \leq 2x + 16"
+            "\n\n"
+            "Group variable terms on the left and constant values on the right side:\n"
+            r"3x - 2x \leq 16 - 7 \implies x \leq 9",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 30: Solve the inequality "
+            r"5x - 3 \geq \frac{15x - 11}{2}"
+            ".\n"
+            "(BECE 2018 Q1a)",
+        answer:
+            "Multiply both sides of the inequality by 2 to remove fraction denominators on the right side:\n"
+            r"2(5x - 3) \geq 15x - 11"
+            "\n\n"
+            "Expand terms:\n"
+            r"10x - 6 \geq 15x - 11"
+            "\n\n"
+            "Move variable terms to the left side and constants to the right side:\n"
+            r"10x - 15x \geq -11 + 6"
+            "\n\n"
+            "Combine like terms:\n"
+            r"-5x \geq -5"
+            "\n\n"
+            "Divide both sides by -5 and flip the inequality sign layout direction:\n"
+            r"\frac{-5x}{-5} \leq \frac{-5}{-5} \implies x \leq 1",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 31: If "
+            r"\frac{p + 2q}{p} = \frac{7}{5}"
+            ", find the value of "
+            r"\frac{q}{p}"
+            ", where p ≠ 0.\n"
+            "(BECE 2019 Q1c)",
+        answer: "Cross-multiply to remove fraction lines:\n"
+            r"5(p + 2q) = 7p"
+            "\n\n"
+            "Expand brackets on the left side:\n"
+            r"5p + 10q = 7p"
+            "\n\n"
+            "Shift 5p to group variables on the right side:\n"
+            r"10q = 7p - 5p = 2p"
+            "\n\n"
+            "Divide both sides by 2q to isolate the variable ratio layout:\n"
+            r"\frac{10q}{2q} = \frac{2p}{2q} \implies 5 = \frac{p}{q}"
+            "\n\n"
+            "Take the reciprocal of both sides to get the final required fraction value:\n"
+            r"\frac{q}{p} = \frac{1}{5}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 32: Solve "
+            r"\frac{4x + 5}{5} + \frac{x - 3}{4} = -1"
+            ".\n"
+            "(BECE 2019 Q2a)",
+        answer: "Find the LCM of the denominators 5 and 4, which is 20.\n\n"
+            "Multiply through every term on both sides by 20:\n"
+            r"20(\frac{4x+5}{5}) + 20(\frac{x-3}{4}) = 20(-1)"
+            "\n\n"
+            "Simplify terms to remove fractions:\n"
+            r"4(4x + 5) + 5(x - 3) = -20"
+            "\n\n"
+            "Expand brackets completely:\n"
+            r"16x + 20 + 5x - 15 = -20"
+            "\n\n"
+            "Combine variables and numbers on the left side:\n"
+            r"21x + 5 = -20"
+            "\n\n"
+            "Subtract 5 from both sides:\n"
+            r"21x = -20 - 5 = -25"
+            "\n\n"
+            "Divide both sides by 21:\n"
+            r"x = -\frac{25}{21} \quad \text{or} \quad x = -1\frac{4}{21}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 33: Solve "
+            r"\frac{2x + 3}{3} + 2x = 10"
+            ".\n"
+            "(BECE 2020 Q2a)",
+        answer:
+            "Multiply through every term in the equation by 3 to eliminate the fraction denominator:\n"
+            r"3(\frac{2x+3}{3}) + 3(2x) = 3(10)"
+            "\n"
+            r"(2x + 3) + 6x = 30"
+            "\n\n"
+            "Combine like variable terms on the left side:\n"
+            r"8x + 3 = 30"
+            "\n\n"
+            "Subtract 3 from both sides:\n"
+            r"8x = 30 - 3 = 27"
+            "\n\n"
+            "Divide both sides by 8:\n"
+            r"x = \frac{27}{8} \quad \text{or} \quad x = 3\frac{3}{8}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 34: In a fishing community of 9,400 people, the number of women exceeds the number of men by 1,500. Find the ratio of men to women in the community.\n"
+            "(BECE 2020 Q3c)",
+        answer: "Let the total number of men be x.\n\n"
+            "Express the number of women as x + 1,500.\n\n"
+            "Write down the population sum formula:\n"
+            r"x + (x + 1,500) = 9,400"
+            "\n\n"
+            "Combine like terms:\n"
+            r"2x + 1,500 = 9,400"
+            "\n\n"
+            "Subtract 1,500 from both sides:\n"
+            r"2x = 9,400 - 1,500 = 7,900"
+            "\n\n"
+            "Divide by 2 to determine the male population:\n"
+            r"x = \frac{7,900}{2} = 3,950 men"
+            "\n\n"
+            "Find the female population using substitution:\n"
+            r"\text{Number of women} = 3,950 + 1,500 = 5,450 women"
+            "\n\n"
+            "Determine the simplified numerical distribution ratio:\n"
+            r"\text{Ratio} = 3,950 : 5,450"
+            "\n\n"
+            "Divide by 10, then divide by 5 to fully reduce the ratio:\n"
+            r"\text{Ratio} = 79 : 109",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 35: Solve: "
+            r"\frac{6}{4p - 1} = \frac{4}{3(p + 4)}"
+            ".\n"
+            "(BECE 2021 Q2b)",
+        answer: "Expand the denominator on the right side:\n"
+            r"\frac{6}{4p - 1} = \frac{4}{3p + 12}"
+            "\n\n"
+            "Cross-multiply to eliminate the fractions:\n"
+            r"6(3p + 12) = 4(4p - 1)"
+            "\n\n"
+            "Expand brackets on both sides:\n"
+            r"18p + 72 = 16p - 4"
+            "\n\n"
+            "Shift variable terms to the left side and constants to the right side:\n"
+            r"18p - 16p = -4 - 72"
+            "\n\n"
+            "Combine like terms:\n"
+            r"2p = -76"
+            "\n\n"
+            "Divide both sides by 2:\n"
+            r"p = \frac{-76}{2} = -38",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 36: Fred is (x - 1) years old now. How old:\n"
+            "(i) was he 4 years ago?\n"
+            "(ii) will he be 8 years from now?\n"
+            "(iii) If Fred's age in 8 years' time will be three times his age 4 years ago, find Fred's present age.\n"
+            "(BECE 2022 Q4a)",
+        answer: "⦿ (i) Subtract 4 from his current age formula:\n"
+            r"\text{Age 4 years ago} = (x - 1) - 4 = (x - 5) years old"
+            "\n\n"
+            "⦿ (ii) Add 8 to his current age formula:\n"
+            r"\text{Age 8 years from now} = (x - 1) + 8 = (x + 7) years old"
+            "\n\n"
+            "⦿ (iii) Set up the equation matching the problem constraints:\n"
+            r"x + 7 = 3(x - 5)"
+            "\n\n"
+            "Expand the bracket on the right side:\n"
+            r"x + 7 = 3x - 15"
+            "\n\n"
+            "Isolate variable x:\n"
+            r"x - 3x = -15 - 7 \implies -2x = -22 \implies x = 11"
+            "\n\n"
+            "Calculate Fred's current present age by substitution:\n"
+            r"\text{Fred's present age} = 11 - 1 = 10 years old",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 37: Solve "
+            r"\frac{4}{3x} = 7 - \frac{3}{x}"
+            ".\n"
+            "(BECE 2022 Q3b)",
+        answer: "Identify the LCM of denominators 3x and x, which is 3x.\n\n"
+            "Multiply every term on both sides by 3x:\n"
+            r"3x\left(\frac{4}{3x}\right) = 3x(7) - 3x\left(\frac{3}{x}\right)"
+            "\n\n"
+            "Clear fraction denominators:\n"
+            r"4 = 21x - 9"
+            "\n\n"
+            "Add 9 to both sides:\n"
+            r"4 + 9 = 21x \implies 13 = 21x"
+            "\n\n"
+            "Divide both sides by 21 to solve for x:\n"
+            r"x = \frac{13}{21}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 38: Find the truth set of "
+            r"\frac{x - 1}{2} \leq \frac{1}{2} + x"
+            ".\n"
+            "(BECE 2022 Q5c(i))",
+        answer:
+            "Multiply every term on both sides by 2 to clear out fractions:\n"
+            r"2(\frac{x-1}{2}) \leq 2(\frac{1}{2}) + 2(x)"
+            "\n"
+            r"x - 1 \leq 1 + 2x"
+            "\n\n"
+            "Move the variable terms to the left side and constants to the right side:\n"
+            r"x - 2x \leq 1 + 1"
+            "\n\n"
+            "Combine like terms:\n"
+            r"-x \leq 2"
+            "\n\n"
+            "Divide both sides by -1 and reverse the inequality sign layout direction:\n"
+            r"x \geq -2"
+            "\n\n"
+            "The final truth set is:\n"
+            r"\{x : x \geq -2\}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 39: If "
+            r"4m - 2(3 + 2m) + m(2m + 4) = 0"
+            ", find the values of m.\n"
+            "(BECE 2023 Q4a)",
+        answer: "Expand the brackets carefully:\n"
+            r"4m - 6 - 4m + 2m^2 + 4m = 0"
+            "\n\n"
+            "Group and combine like terms:\n"
+            r"2m^2 + 4m - 6 = 0"
+            "\n\n"
+            "Divide the entire equation by 2 to simplify:\n"
+            r"m^2 + 2m - 3 = 0"
+            "\n\n"
+            "Factorize the quadratic trinomial:\n"
+            r"m^2 - m + 3m - 3 = 0"
+            "\n"
+            r"m(m - 1) + 3(m - 1) = 0"
+            "\n"
+            r"(m + 3)(m - 1) = 0"
+            "\n\n"
+            "Solve for m by setting each factor equal to zero:\n"
+            r"m + 3 = 0 \implies m = -3"
+            "\n"
+            r"m - 1 = 0 \implies m = 1"
+            "\n\n"
+            "Final Answer: m = -3 or m = 1.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Math JHS3 s3 ss1 - Shapes and Space": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "Question 1: Each of the interior angles of a regular polygon is "
+            r"140^\circ"
+            ". How many sides have it?\n"
+            "(BECE 1997 Q5b)",
+        answer: "Let the number of sides of the regular polygon be n.\n\n"
+            "Write down the formula for the single interior angle of a regular polygon:\n"
+            r"\text{Interior Angle} = \frac{180(n - 2)}{n}"
+            "\n\n"
+            "Substitute the given value of "
+            r"140^\circ"
+            " into the formula:\n"
+            r"140 = \frac{180(n - 2)}{n}"
+            "\n\n"
+            "Multiply both sides by n to eliminate the fraction:\n"
+            r"140n = 180(n - 2)"
+            "\n\n"
+            "Expand the expression on the right side of the equation:\n"
+            r"140n = 180n - 360"
+            "\n\n"
+            "Rearrange the terms to solve for n by grouping like terms together:\n"
+            r"140n - 180n = -360"
+            "\n"
+            r"-40n = -360"
+            "\n\n"
+            "Divide both sides by -40:\n"
+            r"n = \frac{-360}{-40}"
+            "\n"
+            r"n = 9"
+            "\n\n"
+            "Conclusion: The regular polygon has 9 sides.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 2: Three interior angles of a pentagon are "
+            r"100^\circ"
+            ", "
+            r"120^\circ"
+            " and "
+            r"108^\circ"
+            ". Find the size of each of the remaining two angles, if one of them is three times the other.\n"
+            "(BECE 2015 Q2b)",
+        answer: "A pentagon is a polygon with 5 sides (n = 5).\n\n"
+            "Calculate the total sum of all interior angles inside a pentagon using the formula:\n"
+            r"\text{Sum of interior angles} = 180(n - 2)"
+            "\n\n"
+            r"\text{Sum of interior angles} = 180(5 - 2) = 180 \times 3 = 540^\circ"
+            "\n\n"
+            "Let the smaller unknown angle be designated as x.\n\n"
+            "Since the other remaining angle is three times larger, designate it as 3x.\n\n"
+            "Set up a comprehensive equation adding all five interior angles to reach the total sum of "
+            r"540^\circ"
+            ":\n"
+            r"100^\circ + 120^\circ + 108^\circ + x + 3x = 540^\circ"
+            "\n\n"
+            "Simplify the left side by adding the constant terms and combining the variable terms:\n"
+            r"328^\circ + 4x = 540^\circ"
+            "\n\n"
+            "Isolate the variable term by subtracting "
+            r"328^\circ"
+            " from both sides:\n"
+            r"4x = 540^\circ - 328^\circ"
+            "\n"
+            r"4x = 212^\circ"
+            "\n\n"
+            "Find the value of x by dividing both sides by 4:\n"
+            r"x = \frac{212^\circ}{4}"
+            "\n"
+            r"x = 53^\circ"
+            "\n\n"
+            "Calculate the final remaining angle by multiplying the value of x by 3:\n"
+            r"3x = 3 \times 53^\circ = 159^\circ"
+            "\n\n"
+            "Conclusion: The sizes of the remaining two interior angles are "
+            r"53^\circ"
+            " and "
+            r"159^\circ"
+            ".",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 3: The sum of the interior angles of a regular polygon is "
+            r"900^\circ"
+            ". Find the number of sides of the polygon.\n"
+            "(BECE 2018 Q4a)",
+        answer: "Let the number of sides of the regular polygon be n.\n\n"
+            "Use the formula for the sum of the interior angles of any polygon:\n"
+            r"\text{Sum of interior angles} = (n - 2) \times 180^\circ"
+            "\n\n"
+            "Set the formula equal to the total provided sum of "
+            r"900^\circ"
+            ":\n"
+            r"900^\circ = (n - 2) \times 180^\circ"
+            "\n\n"
+            "Expand the terms inside the parentheses:\n"
+            r"900 = 180n - 360"
+            "\n\n"
+            "Move the constant term to the left side to isolate the n variable term:\n"
+            r"900 + 360 = 180n"
+            "\n"
+            r"1260 = 180n"
+            "\n\n"
+            "Divide both sides by 180 to isolate n:\n"
+            r"n = \frac{1260}{180}"
+            "\n"
+            r"n = 7"
+            "\n\n"
+            "Conclusion: The regular polygon has 7 sides.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Math JHS3 s3 ss2 - Measurement": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "Question 1: The volume of a cylinder is "
+            r"220 cm^3"
+            ", the radius of the cross section is "
+            r"2.5 cm"
+            ". Find the height of the cylinder.\n"
+            r"Take \pi = \frac{22}{7}"
+            "\n(BECE 1997 Q5a)",
+        answer: "State the primary formula for the volume of a cylinder:\n"
+            r"\text{Volume} = \pi r^2 h"
+            "\n\n"
+            "Substitute the values provided (Volume = 220, r = 2.5):\n"
+            r"220 = \frac{22}{7} \times (2.5)^2 \times h"
+            "\n\n"
+            "Evaluate the exponent configuration:\n"
+            r"220 = \frac{22}{7} \times 6.25 \times h"
+            "\n\n"
+            "Multiply both sides by 7 to eliminate the fraction denominator:\n"
+            r"1540 = 137.5 \times h"
+            "\n\n"
+            "Divide by 137.5 to isolate the variable h:\n"
+            r"h = \frac{1540}{137.5} = 11.2 cm",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 2: The base radius of a closed cylinder is "
+            r"4 m"
+            " and height of "
+            r"7 m"
+            ". Calculate the total surface area.\n"
+            r"Take \pi = \frac{22}{7}"
+            "\n(BECE 1998 Q5b)",
+        answer:
+            "Establish the complete surface configuration expression for a solid closed cylinder structure:\n"
+            r"\text{Total Surface Area} = 2\pi r^2 + 2\pi rh"
+            "\n\n"
+            "Input the numerical attributes (r = 4, h = 7):\n"
+            r"\text{Total Surface Area} = (2 \times \frac{22}{7} \times 4^2) + (2 \times \frac{22}{7} \times 4 \times 7)"
+            "\n\n"
+            "Compute individual area parts systematically:\n"
+            "Circular top and bottom surfaces: "
+            r"2 \times \frac{22}{7} \times 16 = \frac{704}{7} \approx 100.57 m^2"
+            "\n"
+            "Main wrap curved boundary surface: "
+            r"2 \times 22 \times 4 = 176 m^2"
+            "\n\n"
+            "Combine the evaluated area components:\n"
+            r"\text{Total Surface Area} = 100.57 + 176 = 276.57 m^2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 3: A cylinder closed at one end has radius "
+            r"7 m"
+            " and height "
+            r"20 cm"
+            ".\n"
+            "(i) Find its total surface area.\n"
+            "(ii) If the cylinder is filled with water to a depth of "
+            r"5 cm"
+            ", calculate the volume of water in it.\n"
+            r"Take \pi = \frac{22}{7}"
+            "\n(BECE 2001 Q5a)",
+        answer: "⦿ (i) Total surface area calculation:\n"
+            "Define the structure matching a cylinder open at one side (consisting of only one circle face):\n"
+            r"\text{Total Surface Area} = \pi r^2 + 2\pi rh"
+            "\n\n"
+            "Set parameters (r = 7, h = 20):\n"
+            r"\text{Total Surface Area} = (\frac{22}{7} \times 7 \times 7) + (2 \times \frac{22}{7} \times 7 \times 20)"
+            "\n\n"
+            "Simplify terms linearly:\n"
+            r"\text{Total Surface Area} = 154 + 880 = 1034 cm^2"
+            "\n\n"
+            "⦿ (ii) Water content calculation:\n"
+            "Express volume relative to liquid height level "
+            r"(h_{\text{water}} = 5)"
+            ":\n"
+            r"\text{Volume of water} = \pi r^2 h_{\text{water}}"
+            "\n\n"
+            "Execute standard multiplication patterns:\n"
+            r"\text{Volume of water} = \frac{22}{7} \times 7 \times 7 \times 5 = 22 \times 7 \times 5 = 770 cm^3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 4: A rectangular water tank has length "
+            r"60 cm"
+            ", width "
+            r"45 cm"
+            " and height "
+            r"50 cm"
+            ". Find,\n"
+            "(i) the total surface area of the tank when closed.\n"
+            "(ii) the volume of the tank.\n"
+            "(iii) the height of the water in the tank, if the tank contains "
+            r"81,000 cm^3"
+            " of water.\n"
+            "(BECE 2004 Q3b)",
+        answer: "⦿ (i) Enclosed flat panel area:\n"
+            "Work with the standard formula for six exterior faces of a rectangular solid layout:\n"
+            r"\text{Total Surface Area} = 2(lh + lw + hw)"
+            "\n\n"
+            "Process internal product groupings:\n"
+            r"\text{Total Surface Area} = 2[(60 \times 50) + (60 \times 45) + (50 \times 45)]"
+            "\n"
+            r"\text{Total Surface Area} = 2[3000 + 2700 + 2250] = 2[7950] = 15,900 cm^2"
+            "\n\n"
+            "⦿ (ii) Capacity calculation:\n"
+            "Find spatial limits via regular three-dimensional coordinate values multiplied directly:\n"
+            r"\text{Volume} = 60 \times 45 \times 50 = 135,000 cm^3"
+            "\n\n"
+            "⦿ (iii) Internal liquid height analysis:\n"
+            "Equate water capacity configuration equations using the identical constant layout footprint:\n"
+            r"81,000 = 60 \times 45 \times h_{\text{water}}"
+            "\n"
+            r"81,000 = 2700 \times h_{\text{water}}"
+            "\n"
+            r"h_{\text{water}} = \frac{81,000}{2700} = 30 cm}",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 5: A water tank in the form of a cuboid of height "
+            r"22 cm"
+            " and a rectangular base of length "
+            r"7 cm"
+            " and width "
+            r"5 cm"
+            " is filled with water. The water is then poured into a cylindrical container of diameter "
+            r"14 cm"
+            ". Calculate the height of the water in the cylindrical container.\n"
+            r"Take \pi = \frac{22}{7}"
+            "\n(BECE 2007 Q2a)",
+        answer:
+            "⦿ Step 1: Evaluate liquid quantity volume stored initially within the cuboid box parameters:\n"
+            r"\text{Volume} = 7 \times 5 \times 22 = 770 cm^3"
+            "\n\n"
+            "⦿ Step 2: Transmit width definitions into exact radial radius specifications:\n"
+            r"\text{Radius } (r) = \frac{14}{2} = 7 cm"
+            "\n\n"
+            "⦿ Step 3: Map the unchanging fluid amount profile over to the destination layout system:\n"
+            r"\text{Volume of cylinder} = \pi r^2 h_{\text{cylinder}}"
+            "\n"
+            r"770 = \frac{22}{7} \times 7 \times 7 \times h_{\text{cylinder}}"
+            "\n"
+            r"770 = 154 \times h_{\text{cylinder}}"
+            "\n"
+            r"h_{\text{cylinder}} = \frac{770}{154} = 5 cm",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 6: A rectangular tank of length "
+            r"22 cm"
+            ", width "
+            r"9 cm"
+            " and height "
+            r"16 cm"
+            " is filled with water. The water is poured into a cylindrical container of radius "
+            r"6 cm"
+            ". Calculate the\n"
+            "(i) volume of the rectangular tank.\n"
+            "(ii) depth of water in the cylindrical container.\n"
+            r"Take \pi = \frac{22}{7}"
+            "\n(BECE 2010 Q3c)",
+        answer: "⦿ (i) Rectangular solid containment calculation:\n"
+            "Execute standard dimension multiplying equations:\n"
+            r"\text{Volume} = 22 \times 9 \times 16 = 3168 cm^3"
+            "\n\n"
+            "⦿ (ii) Circular container height translation:\n"
+            "Equalise fluid space values between the two alternate geometries:\n"
+            r"3168 = \frac{22}{7} \times 6^2 \times h"
+            "\n"
+            r"3168 = \frac{22}{7} \times 36 \times h"
+            "\n\n"
+            "Isolate variable equations with inverse processes:\n"
+            r"3168 \times 7 = 792 \times h"
+            "\n"
+            r"22176 = 792 \times h \implies h = \frac{22176}{792} = 28 cm",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 7: A box has length "
+            r"8.0 cm"
+            ", width "
+            r"5.0 cm"
+            " and height "
+            r"10.0 cm"
+            ". Find the:\n"
+            "(i) total surface area of the box.\n"
+            "(ii) the volume of the box.\n"
+            "(BECE 2014 Q4)",
+        answer: "⦿ (i) Total Surface Area calculations:\n"
+            "Apply structural geometric formulas:\n"
+            r"\text{Total Surface Area} = 2(lh + lw + hw)"
+            "\n\n"
+            "Process parameters (l = 8.0, w = 5.0, h = 10.0):\n"
+            r"\text{Total Surface Area} = 2[(8 \times 10) + (8 \times 5) + (10 \times 5)]"
+            "\n"
+            r"\text{Total Surface Area} = 2[80 + 40 + 50] = 2[170] = 340 cm^2"
+            "\n\n"
+            "⦿ (ii) Total internal capacity measurement:\n"
+            "Compute spatial metrics directly:\n"
+            r"\text{Volume} = 8.0 \times 5.0 \times 10.0 = 400 cm^3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 8: A container is "
+            r"24 m"
+            " long, "
+            r"9 m"
+            " wide and "
+            r"8 m"
+            " high. How many books can it hold if each book is "
+            r"20 cm"
+            " long, "
+            r"16 cm"
+            " wide and "
+            r"6 cm"
+            " thick?\n"
+            "(BECE 2015A Q1c)",
+        answer:
+            "⦿ Step 1: Align all linear units correctly using standard metric balance rules "
+            r"(1 m = 100 cm)"
+            ":\n"
+            r"\text{Length} = 24 \times 100 = 2400 cm"
+            "\n"
+            r"\text{Width} = 9 \times 100 = 900 cm"
+            "\n"
+            r"\text{Height} = 8 \times 100 = 800 cm"
+            "\n\n"
+            "⦿ Step 2: Formulate total room space limitations:\n"
+            r"\text{Volume of container} = 2400 \times 900 \times 800 = 1,728,000,000 cm^3"
+            "\n\n"
+            "⦿ Step 3: Evaluate space demands for a single cargo item unit:\n"
+            r"\text{Volume of one book} = 20 \times 16 \times 6 = 1920 cm^3"
+            "\n\n"
+            "⦿ Step 4: Resolve unit allocations completely:\n"
+            r"\text{Number of books} = \frac{1,728,000,000}{1920} = 900,000 books",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 9: A cylinder which has a height of "
+            r"90 cm"
+            " and diameter "
+            r"14 cm"
+            " is closed at both ends. Find:\n"
+            "(i) its total surface area;\n"
+            "(ii) the volume of the cylinder.\n"
+            r"Take \pi = \frac{22}{7}"
+            "\n(BECE 2015A Q5a)",
+        answer: "Preliminary radius finding:\n"
+            r"r = \frac{14}{2} = 7 cm"
+            "\n\n"
+            "⦿ (i) Solid closed cylinder material coverage:\n"
+            "Set structural equations up matching two identical circle lids plus curved wrappers:\n"
+            r"\text{Total Surface Area} = 2\pi r^2 + 2\pi rh"
+            "\n\n"
+            "Distribute parameter details:\n"
+            r"\text{Total Surface Area} = (2 \times \frac{22}{7} \times 7^2) + (2 \times \frac{22}{7} \times 7 \times 90)"
+            "\n"
+            r"\text{Total Surface Area} = 308 + 3960 = 4268 cm^2"
+            "\n\n"
+            "⦿ (ii) Main envelope storage metric:\n"
+            "Find internal capabilities via typical area base equations scaled by altitude:\n"
+            r"\text{Volume} = \frac{22}{7} \times 7^2 \times 90 = 22 \times 7 \times 90 = 13,860 cm^3",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 10: The volume of a cylinder closed at one end is "
+            r"1056 cm^3"
+            ". If its height is "
+            r"21 cm"
+            ", find its:\n"
+            "(i) diameter;\n"
+            "(ii) total surface area.\n"
+            "(BECE 2015B Q5b)",
+        answer: "⦿ (i) Diameter evaluation sequences:\n"
+            "Connect capacity values to uncover unknown radial variables:\n"
+            r"1056 = \frac{22}{7} \times r^2 \times 21 \implies 1056 = 66r^2"
+            "\n\n"
+            "Find square root factors:\n"
+            r"r^2 = \frac{1056}{66} = 16 \implies r = \sqrt{16} = 4 cm"
+            "\n\n"
+            "Double base lengths to reveal final span measurements:\n"
+            r"\text{Diameter} = 2 \times 4 = 8 cm"
+            "\n\n"
+            "⦿ (ii) Surface analysis profile:\n"
+            "Apply modified five-wall target definitions (one end closed configuration models):\n"
+            r"\text{Total Surface Area} = \pi r^2 + 2\pi rh"
+            "\n\n"
+            "Aggregate evaluated expressions:\n"
+            r"\text{Total Surface Area} = (\frac{22}{7} \times 4^2) + (2 \times \frac{22}{7} \times 4 \times 21) = 50.286 + 528 = 578.286 cm^2",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 11: A cylindrical container of height "
+            r"28 cm"
+            " and diameter "
+            r"18 cm"
+            " is filled with water. The water is then poured into another container with a rectangular base of length "
+            r"27 cm"
+            " and width "
+            r"11 cm"
+            ". Calculate the depth of the water in the container.\n"
+            r"Take \pi = \frac{22}{7}"
+            "\n(BECE 2020 Q4c)",
+        answer:
+            "⦿ Step 1: Track down basic circular dimensions before establishing total source capacity quantities:\n"
+            r"r = \frac{18}{2} = 9 cm"
+            "\n"
+            r"\text{Volume} = \frac{22}{7} \times 9^2 \times 28 = 22 \times 81 \times 4 = 6804 cm^3"
+            "\n\n"
+            "⦿ Step 2: Map liquid contents precisely against target rectangular dimensions:\n"
+            r"\text{Volume} = l \times w \times h"
+            "\n"
+            r"6804 = 27 \times 11 \times h_{\text{depth}}"
+            "\n"
+            r"6804 = 297 \times h_{\text{depth}}"
+            "\n\n"
+            "⦿ Step 3: Apply basic division tools to isolate absolute liquid balance thresholds:\n"
+            r"h_{\text{depth}} = \frac{6804}{297} = 23 cm",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Math JHS3 s4 ss1 - Data": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "Question 1: The average age of a family of eight is 30 years. The average age of the six children in the family is 19 years. If the mother is four years younger than the father, calculate the age of the father.\n"
+            "(BECE 2006 Q5b)",
+        answer: "Calculate total sum of family ages:\n"
+            r"\text{Sum of ages of family} = 30 \times 8 = 240 years"
+            "\n\n"
+            "Calculate total sum of children's ages:\n"
+            r"\text{Sum of ages of children} = 19 \times 6 = 114 years"
+            "\n\n"
+            "Determine combined parents' ages by subtraction:\n"
+            r"\text{Combined age of father and mother} = 240 - 114 = 126 years"
+            "\n\n"
+            "Formulate algebraic expression based on relationship logic:\n"
+            "Let the mother's age be x.\n"
+            "The father's age is x + 4.\n\n"
+            "Combine terms and isolate variable array:\n"
+            r"(x + 4) + x = 126"
+            "\n"
+            r"2x + 4 = 126"
+            "\n"
+            r"2x = 126 - 4"
+            "\n"
+            r"2x = 122"
+            "\n"
+            r"x = \frac{122}{2} = 61"
+            "\n\n"
+            "Add the offset value to find final absolute target age:\n"
+            r"\text{Father's age} = 61 + 4 = 65 years",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 2: The marks scored by four students in a Mathematics test are as follows: Esi – 92, Seth – 85, Mary – 65, Efe – x.\n"
+            "(a) Write down an expression for the mean (average) of the marks.\n"
+            "(b) If the mean is less than 80, write a linear inequality for the information.\n"
+            "(c) Find the possible marks Efe scored in the test. Represent your answer on the number line.\n"
+            "(BECE 2010 Q4c)",
+        answer: "⦿ (a) Sum all target fields over the total elements count:\n"
+            r"\text{Mean} = \frac{92 + 85 + 65 + x}{4}"
+            "\n\n"
+            "⦿ (b) Translate condition text directly into inequality format:\n"
+            r"\frac{92 + 85 + 65 + x}{4} < 80"
+            "\n\n"
+            "⦿ (c) Process algebraic reduction steps sequentially:\n"
+            "Simplify the numerator parameters:\n"
+            r"\frac{242 + x}{4} < 80"
+            "\n\n"
+            "Multiply across to eliminate fractional denominator:\n"
+            r"242 + x < 320"
+            "\n\n"
+            "Isolate variable array to state range restrictions:\n"
+            r"x < 320 - 242"
+            "\n"
+            r"x < 78"
+            "\n\n"
+            "Since an examination mark boundaries cannot be lower than zero, state complete notation format:\n"
+            r"0 \le x < 78",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 3:\n"
+            "(a) Ama scored 82, 74 and 90 in three tests. What mark should she score in the fourth test, so that her average mark for the four tests would be 85?\n"
+            "(b) What was her median score in the four tests?\n"
+            "(BECE 2014 Q2a)",
+        answer: "⦿ (a) Set up base statistical tracking formula structure:\n"
+            "Let the fourth score be x.\n"
+            r"\frac{82 + 74 + 90 + x}{4} = 85"
+            "\n\n"
+            "Accumulate active known integer units:\n"
+            r"\frac{246 + x}{4} = 85"
+            "\n\n"
+            "Multiply across balance line:\n"
+            r"246 + x = 340"
+            "\n"
+            r"x = 340 - 246 = 94"
+            "\n\n"
+            "⦿ (b) Sequence existing fields in ascending order magnitude:\n"
+            r"74, 82, 90, 94"
+            "\n\n"
+            "Locate central matching dual coordinates and compute mean baseline:\n"
+            r"\text{Median score} = \frac{82 + 90}{2} = \frac{172}{2} = 86",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 4: The average of the numbers 5, 7, 2, 6, x, (x + 1), 7 and 4 is 5. Find the value of x.\n"
+            "(BECE 2015A Q4b)",
+        answer: "Formulate system equation spanning 8 data nodes:\n"
+            r"\frac{5 + 7 + 2 + 6 + x + (x + 1) + 7 + 4}{8} = 5"
+            "\n\n"
+            "Collect separate terms for numeric constants and dynamic variables:\n"
+            r"\frac{32 + 2x}{8} = 5"
+            "\n\n"
+            "Multiply system values to isolate functional variables balance:\n"
+            r"32 + 2x = 40"
+            "\n"
+            r"2x = 40 - 32"
+            "\n"
+            r"2x = 8"
+            "\n"
+            r"x = \frac{8}{2} = 4",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 5: The median of the ordered set of observations 2, 3, (4m - 3), (3m + 1), 11 and 13 in ascending order is 6. Find the value of m.\n"
+            "(BECE 2022 Q1c)",
+        answer:
+            "Locate middle position markers within the even data array size:\n"
+            "Third position element = 4m - 3\n"
+            "Fourth position element = 3m + 1\n\n"
+            "Map central average structure to target standard baseline:\n"
+            r"\frac{(4m - 3) + (3m + 1)}{2} = 6"
+            "\n\n"
+            "Consolidate numerator components directly:\n"
+            r"\frac{7m - 2}{2} = 6"
+            "\n\n"
+            "Use cross-multiplication logic to break down structure:\n"
+            r"7m - 2 = 12"
+            "\n"
+            r"7m = 12 + 2"
+            "\n"
+            r"7m = 14"
+            "\n"
+            r"m = \frac{14}{7} = 2",
         explanation: "",
       ),
     ],
@@ -8164,6 +10186,7 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
+
   "Science JHS1 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production":
       PracticeModel(
     audioPath: '',
@@ -9234,7 +11257,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Science JHS3 s2 ss3 - Classification of Crop Plants, Life Cycle of Flowering Plants & Crop Production":
       PracticeModel(
     audioPath: '',
@@ -10598,7 +12620,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Science JHS2 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
       PracticeModel(
     audioPath: '',
@@ -11092,7 +13113,6 @@ final Map<String, PracticeModel> becePracticeData = {
       ),
     ],
   ),
-
   "Science JHS3 s3 ss1 - Respiratory System, Circulatory System, Excretory System, Dentition, and Digestion in Humans":
       PracticeModel(
     audioPath: '',
@@ -13483,359 +15503,7 @@ final Map<String, PracticeModel> becePracticeData = {
     ],
   ),
 
-  "Science JHS1 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy":
-      PracticeModel(
-    audioPath: '',
-    questions: [
-      PracticeQuestion(
-        scenario: "QUESTION (a) (BECE 1990 Q4(c)(iii))\n\n"
-            "Distinguish between heat and temperature and give their units.",
-        answer: "⦿ Answer:\n\n"
-            "• Heat serves as a form of kinetic energy that moves from one location or body to another due to a variance in thermal state. It is quantified using the SI unit joule (J).\n\n"
-            "• Temperature quantifies how hot or cold an object or environment is relative to an established scale. It is measured in kelvin (K) or degrees Celsius (°C).",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (b) (BECE 1994 Q2b)\n\n"
-            "Answer the following questions on thermal energy transfer and insulation:\n\n"
-            "(i) By what process does the heat of the sun reach the earth?\n\n"
-            "(ii) An aluminium bowl placed on a table is filled with hot water. Name the processes by which heat is lost by the bowl.\n\n"
-            "(iii) Give one reason why wood is used as a handle for some cooking utensils.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Radiant thermal energy travels through space from the sun to the earth via electromagnetic waves in a process known as radiation.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Direct physical contact between the bowl surface, table, and air particles leads to thermal dissipation through conduction.\n\n"
-            "• Fluid movements within the surrounding air draw thermal energy away from the exposed surface via convection.\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Wood exhibits low thermal conductivity, acting as an effective insulator that prevents thermal energy from migrating across the handle and protecting hands from high temperatures.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (c) (BECE 1996 Q4c)\n\n"
-            "Answer the following questions on heat properties and transmission:\n\n"
-            "(i) What happens to the temperature of water that is boiling in an open container?\n\n"
-            "(ii) Name the three processes by which heat is transmitted.\n\n"
-            "(iii) Name two applications of the expansion of solids in everyday life.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• The thermal level of boiling water in an unsealed vessel remains static at its boiling threshold throughout the vaporization phase, as added energy fuels phase transformation rather than temperature rise.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Conduction operates primarily within solid media through particle contact.\n\n"
-            "• Convection transports thermal energy across moving liquid or gas currents.\n\n"
-            "• Radiation conveys energy using electromagnetic waves without needing a material medium.\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Structural gaps positioned between successive railway lines accommodate metallic expansion during high atmospheric temperatures to prevent structural buckling.\n\n"
-            "• Bimetallic strips engineered into thermostat mechanisms flex upon thermal expansion to regulate current flow in heating appliances.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (d) (BECE 1997 Q1c)\n\n"
-            "Answer the following questions on thermal transfer and application devices:\n\n"
-            "(i) Name the three processes by which heat can be transferred.\n\n"
-            "(ii) Name three electrical appliances which use thermostat.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Heat migration proceeds through conduction, convection, and radiation.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Electric irons utilize internal thermostat switches to maintain target pressing temperatures.\n\n"
-            "• Refrigerators employ thermostats to trigger cooling cycles and maintain safe internal temperatures.\n\n"
-            "• Electric ovens rely on thermostat mechanisms to regulate heating elements for consistent cooking environments.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (e) (BECE 1997 Q3d)\n\n"
-            "Explain why it is better to wear white clothes than black clothes on a sunny day.",
-        answer: "⦿ Answer:\n\n"
-            "• Light fabrics possess a high reflection coefficient, bouncing incoming solar radiation away from the body to minimize thermal absorption.\n\n"
-            "• Dark fabrics absorb a broad spectrum of thermal radiation, converting absorbed radiant light into thermal energy that raises body temperature.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (f) (BECE 1998 Q3a)\n\n"
-            "Explain the following physical phenomena:\n\n"
-            "(i) Crackling noises are heard from a metal sheet roof when the weather becomes very hot.\n\n"
-            "(ii) Railway tracks are laid with gaps in between their ends.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Intense thermal exposure causes metal roofing sheets to expand rapidly against their fixings, generating mechanical friction that releases audible crackling sounds.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Open spacing between track sections creates necessary clearance for linear expansion when temperatures rise, preventing mechanical warping of the line.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (g) (BECE 2002A Q3d)\n\n"
-            "Answer the following questions regarding heat measurement:\n\n"
-            "(i) Distinguish between heat and temperature.\n\n"
-            "(ii) State the units of heat and temperature.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Heat represents total thermal energy transferred down a temperature gradient.\n\n"
-            "• Temperature reflects the average molecular kinetic energy indicating the intensity of hotness within a system.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Heat energy is expressed standardly in joules (J).\n\n"
-            "• Temperature is expressed standardly in kelvin (K) or degrees Celsius (°C).",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (h) (BECE 2012 Q6d)\n\n"
-            "Give two differences between conduction and radiation of heat.",
-        answer: "⦿ Answer:\n\n"
-            "• Conduction necessitates physical material particles to transfer thermal kinetic energy, whereas radiation moves freely across empty vacuums via electromagnetic waves.\n\n"
-            "• Conduction relies on direct mechanical contact or proximity within media, whereas radiation transfers energy across distances without direct physical contact.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (i) (BECE 2013 Q5d)\n\n"
-            "State the effect of heat on each of the following substances:\n\n"
-            "(i) plastics\n\n"
-            "(ii) alcohol\n\n"
-            "(iii) metal rod",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Applying thermal energy causes structural softening in thermoplastic materials, inducing phase change into liquid melt followed by thermal degradation or combustion upon continued heating.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Absorbing heat increases molecular kinetic energy in liquid alcohol, causing volumetric expansion, accelerated surface evaporation, and eventual boiling at its boiling point.\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Subjecting a metal rod to elevated temperatures causes dimensional expansion along its length and volume, leading eventually to liquid melting at its melting point.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (j) (BECE 2014 Q6d)\n\n"
-            "Answer the following questions on thermometric fluids:\n\n"
-            "(i) State two properties of a good thermometric liquid.\n\n"
-            "(ii) Give two examples of a good thermometric liquid.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• The liquid must expand linearly and predictably across a wide thermal operating domain.\n\n"
-            "• The fluid must maintain low adhesion properties, ensuring it does not cling to or wet internal glass capillary walls.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Mercury serves as a high-conductivity metallic fluid suitable for broad thermal measurements.\n\n"
-            "• Ethanol provides a suitable low-freezing-point liquid for lower range thermometric applications.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (k) (BECE 2015 Q5c)\n\n"
-            "Answer the following questions on heat transfer mechanisms:\n\n"
-            "(i) List three modes of heat transfer.\n\n"
-            "(ii) Name the type of medium in which each mode of heat transfer you have listed in (i) takes place.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Conduction\n\n"
-            "• Convection\n\n"
-            "• Radiation\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Conduction occurs primarily within solid material structures.\n\n"
-            "• Convection requires fluid media, operating throughout liquids and gases.\n\n"
-            "• Radiation functions effectively across empty space vacuums as well as transparent media.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (l) (BECE 2021 Q4a)\n\n"
-            "Explain the term convection as applied to heat transfer. Give two reasons why convection does not occur in solids.",
-        answer: "⦿ Answer:\n\n"
-            "• Convection represents heat transfer within fluids driven by density variations, where heated, less dense fluid sections rise while colder, denser sections sink.\n\n"
-            "• Solid materials feature rigidly fixed atomic lattice structures held together by strong inter-particle forces, preventing bulk displacement of particles.\n\n"
-            "• Solid particles vibrate strictly around fixed equilibrium points rather than migrating across the medium to form convective currents.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (m) (BECE 2022 Q3d)\n\n"
-            "Answer the following questions on heat effects and practical demonstrations:\n\n"
-            "(i) State two effects of heat on a substance.\n\n"
-            "(ii) Potassium permanganate crystals are dropped into a beaker of water and warmed:\n\n"
-            "    (α) State what would be observed.\n\n"
-            "    (β) State the phenomenon demonstrated in (α).",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Thermal energy input triggers physical phase changes, converting solids to liquids or liquids to gases.\n\n"
-            "• Heat intake increases internal thermal expansion, altering linear and volumetric dimensions while raising overall temperature.\n\n"
-            "⦿ (ii)(α) Answer:\n\n"
-            "• Deep purple streaks originate near the heated container floor and stream upward toward the surface before circulating down again.\n\n"
-            "⦿ (ii)(β) Answer:\n\n"
-            "• The fluid circulation visually demonstrates thermal convection currents operating within liquid.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (n) (BECE 2025 Q5(c)(ii))\n\n"
-            "State three differences between heat and temperature.",
-        answer: "⦿ Answer:\n\n"
-            "• Heat represents energy transferred owing to a temperature difference, whereas temperature measures the relative degree of hotness or coldness of a body.\n\n"
-            "• Heat energy is measured in joules (J) using calorimetry, whereas temperature is measured in kelvin (K) or degrees Celsius (°C) using thermometric instruments.\n\n"
-            "• Heat energy depends directly on the total mass and molecular quantity of a sample, whereas temperature operates independently of sample mass.",
-        explanation: "",
-      ),
-    ],
-  ),
-
-  "Science JHS2 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy":
-      PracticeModel(
-    audioPath: '',
-    questions: [
-      PracticeQuestion(
-        scenario: "QUESTION (a) (BECE 1990 Q4(c)(iii))\n\n"
-            "Distinguish between heat and temperature and give their units.",
-        answer: "⦿ Answer:\n\n"
-            "• Heat serves as a form of kinetic energy that moves from one location or body to another due to a variance in thermal state. It is quantified using the SI unit joule (J).\n\n"
-            "• Temperature quantifies how hot or cold an object or environment is relative to an established scale. It is measured in kelvin (K) or degrees Celsius (°C).",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (b) (BECE 1994 Q2b)\n\n"
-            "Answer the following questions on thermal energy transfer and insulation:\n\n"
-            "(i) By what process does the heat of the sun reach the earth?\n\n"
-            "(ii) An aluminium bowl placed on a table is filled with hot water. Name the processes by which heat is lost by the bowl.\n\n"
-            "(iii) Give one reason why wood is used as a handle for some cooking utensils.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Radiant thermal energy travels through space from the sun to the earth via electromagnetic waves in a process known as radiation.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Direct physical contact between the bowl surface, table, and air particles leads to thermal dissipation through conduction.\n\n"
-            "• Fluid movements within the surrounding air draw thermal energy away from the exposed surface via convection.\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Wood exhibits low thermal conductivity, acting as an effective insulator that prevents thermal energy from migrating across the handle and protecting hands from high temperatures.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (c) (BECE 1996 Q4c)\n\n"
-            "Answer the following questions on heat properties and transmission:\n\n"
-            "(i) What happens to the temperature of water that is boiling in an open container?\n\n"
-            "(ii) Name the three processes by which heat is transmitted.\n\n"
-            "(iii) Name two applications of the expansion of solids in everyday life.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• The thermal level of boiling water in an unsealed vessel remains static at its boiling threshold throughout the vaporization phase, as added energy fuels phase transformation rather than temperature rise.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Conduction operates primarily within solid media through particle contact.\n\n"
-            "• Convection transports thermal energy across moving liquid or gas currents.\n\n"
-            "• Radiation conveys energy using electromagnetic waves without needing a material medium.\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Structural gaps positioned between successive railway lines accommodate metallic expansion during high atmospheric temperatures to prevent structural buckling.\n\n"
-            "• Bimetallic strips engineered into thermostat mechanisms flex upon thermal expansion to regulate current flow in heating appliances.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (d) (BECE 1997 Q1c)\n\n"
-            "Answer the following questions on thermal transfer and application devices:\n\n"
-            "(i) Name the three processes by which heat can be transferred.\n\n"
-            "(ii) Name three electrical appliances which use thermostat.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Heat migration proceeds through conduction, convection, and radiation.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Electric irons utilize internal thermostat switches to maintain target pressing temperatures.\n\n"
-            "• Refrigerators employ thermostats to trigger cooling cycles and maintain safe internal temperatures.\n\n"
-            "• Electric ovens rely on thermostat mechanisms to regulate heating elements for consistent cooking environments.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (e) (BECE 1997 Q3d)\n\n"
-            "Explain why it is better to wear white clothes than black clothes on a sunny day.",
-        answer: "⦿ Answer:\n\n"
-            "• Light fabrics possess a high reflection coefficient, bouncing incoming solar radiation away from the body to minimize thermal absorption.\n\n"
-            "• Dark fabrics absorb a broad spectrum of thermal radiation, converting absorbed radiant light into thermal energy that raises body temperature.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (f) (BECE 1998 Q3a)\n\n"
-            "Explain the following physical phenomena:\n\n"
-            "(i) Crackling noises are heard from a metal sheet roof when the weather becomes very hot.\n\n"
-            "(ii) Railway tracks are laid with gaps in between their ends.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Intense thermal exposure causes metal roofing sheets to expand rapidly against their fixings, generating mechanical friction that releases audible crackling sounds.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Open spacing between track sections creates necessary clearance for linear expansion when temperatures rise, preventing mechanical warping of the line.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (g) (BECE 2002A Q3d)\n\n"
-            "Answer the following questions regarding heat measurement:\n\n"
-            "(i) Distinguish between heat and temperature.\n\n"
-            "(ii) State the units of heat and temperature.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Heat represents total thermal energy transferred down a temperature gradient.\n\n"
-            "• Temperature reflects the average molecular kinetic energy indicating the intensity of hotness within a system.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Heat energy is expressed standardly in joules (J).\n\n"
-            "• Temperature is expressed standardly in kelvin (K) or degrees Celsius (°C).",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (h) (BECE 2012 Q6d)\n\n"
-            "Give two differences between conduction and radiation of heat.",
-        answer: "⦿ Answer:\n\n"
-            "• Conduction necessitates physical material particles to transfer thermal kinetic energy, whereas radiation moves freely across empty vacuums via electromagnetic waves.\n\n"
-            "• Conduction relies on direct mechanical contact or proximity within media, whereas radiation transfers energy across distances without direct physical contact.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (i) (BECE 2013 Q5d)\n\n"
-            "State the effect of heat on each of the following substances:\n\n"
-            "(i) plastics\n\n"
-            "(ii) alcohol\n\n"
-            "(iii) metal rod",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Applying thermal energy causes structural softening in thermoplastic materials, inducing phase change into liquid melt followed by thermal degradation or combustion upon continued heating.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Absorbing heat increases molecular kinetic energy in liquid alcohol, causing volumetric expansion, accelerated surface evaporation, and eventual boiling at its boiling point.\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Subjecting a metal rod to elevated temperatures causes dimensional expansion along its length and volume, leading eventually to liquid melting at its melting point.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (j) (BECE 2014 Q6d)\n\n"
-            "Answer the following questions on thermometric fluids:\n\n"
-            "(i) State two properties of a good thermometric liquid.\n\n"
-            "(ii) Give two examples of a good thermometric liquid.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• The liquid must expand linearly and predictably across a wide thermal operating domain.\n\n"
-            "• The fluid must maintain low adhesion properties, ensuring it does not cling to or wet internal glass capillary walls.\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Mercury serves as a high-conductivity metallic fluid suitable for broad thermal measurements.\n\n"
-            "• Ethanol provides a suitable low-freezing-point liquid for lower range thermometric applications.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (k) (BECE 2015 Q5c)\n\n"
-            "Answer the following questions on heat transfer mechanisms:\n\n"
-            "(i) List three modes of heat transfer.\n\n"
-            "(ii) Name the type of medium in which each mode of heat transfer you have listed in (i) takes place.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Conduction\n\n"
-            "• Convection\n\n"
-            "• Radiation\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Conduction occurs primarily within solid material structures.\n\n"
-            "• Convection requires fluid media, operating throughout liquids and gases.\n\n"
-            "• Radiation functions effectively across empty space vacuums as well as transparent media.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (l) (BECE 2021 Q4a)\n\n"
-            "Explain the term convection as applied to heat transfer. Give two reasons why convection does not occur in solids.",
-        answer: "⦿ Answer:\n\n"
-            "• Convection represents heat transfer within fluids driven by density variations, where heated, less dense fluid sections rise while colder, denser sections sink.\n\n"
-            "• Solid materials feature rigidly fixed atomic lattice structures held together by strong inter-particle forces, preventing bulk displacement of particles.\n\n"
-            "• Solid particles vibrate strictly around fixed equilibrium points rather than migrating across the medium to form convective currents.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (m) (BECE 2022 Q3d)\n\n"
-            "Answer the following questions on heat effects and practical demonstrations:\n\n"
-            "(i) State two effects of heat on a substance.\n\n"
-            "(ii) Potassium permanganate crystals are dropped into a beaker of water and warmed:\n\n"
-            "    (α) State what would be observed.\n\n"
-            "    (β) State the phenomenon demonstrated in (α).",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Thermal energy input triggers physical phase changes, converting solids to liquids or liquids to gases.\n\n"
-            "• Heat intake increases internal thermal expansion, altering linear and volumetric dimensions while raising overall temperature.\n\n"
-            "⦿ (ii)(α) Answer:\n\n"
-            "• Deep purple streaks originate near the heated container floor and stream upward toward the surface before circulating down again.\n\n"
-            "⦿ (ii)(β) Answer:\n\n"
-            "• The fluid circulation visually demonstrates thermal convection currents operating within liquid.",
-        explanation: "",
-      ),
-      PracticeQuestion(
-        scenario: "QUESTION (n) (BECE 2025 Q5(c)(ii))\n\n"
-            "State three differences between heat and temperature.",
-        answer: "⦿ Answer:\n\n"
-            "• Heat represents energy transferred owing to a temperature difference, whereas temperature measures the relative degree of hotness or coldness of a body.\n\n"
-            "• Heat energy is measured in joules (J) using calorimetry, whereas temperature is measured in kelvin (K) or degrees Celsius (°C) using thermometric instruments.\n\n"
-            "• Heat energy depends directly on the total mass and molecular quantity of a sample, whereas temperature operates independently of sample mass.",
-        explanation: "",
-      ),
-    ],
-  ),
-
-  "Science JHS3 s4 ss1 - Sources and Forms of Energy / Light Energy / Heat Energy":
+  "Science JHS1 s4 ss1 - Source, Forms, and Related Properties of Energy":
       PracticeModel(
     audioPath: '',
     questions: [
@@ -14015,831 +15683,1920 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION (a) (BECE 2012 Q4a(i)(ii))\n\n"
-            "What is a transistor?",
-        answer: "⦿ Answer:\n\n"
-            "• A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n\n"
-            "• It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n\n"
-            "• It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+        scenario: "(a) What is a transistor? (BECE 2012 Q4a(i))",
+        answer: "Correct Answer:\n"
+            "⦿ A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n"
+            "⦿ It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n"
+            "⦿ It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (b) (BECE 2012 Q4a(iii))\n\n"
-            "Give two uses of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• Signal Amplification: It boosts weak incoming alternating signals such as sound or radio frequencies into stronger output signals without altering their original frequency profile.\n\n"
-            "• Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n\n"
-            "• Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+        scenario: "(b) Give two uses of a transistor. (BECE 2012 Q4a(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Signal Amplification: It boosts weak incoming alternating signals (such as sound or radio frequencies) into stronger output signals without altering their original frequency profile.\n"
+            "⦿ Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n"
+            "⦿ Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (c) (BECE 2013 Q6c(i))\n\n"
-            "Name two types of transistors.",
-        answer: "⦿ Answer:\n\n"
-            "• NPN Bipolar Junction Transistor\n\n"
-            "• PNP Bipolar Junction Transistor",
+        scenario: "(c) Name two types of transistors. (BECE 2013 Q6c(i))",
+        answer: "Correct Answer:\n"
+            "⦿ NPN Bipolar Junction Transistor\n"
+            "⦿ PNP Bipolar Junction Transistor",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (d) (BECE 2015 Q3a(ii))\n\n"
-            "Mention the junctions of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n\n"
-            "• Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+        scenario:
+            "(d) Mention the junctions of a transistor. (BECE 2015 Q3a(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n"
+            "⦿ Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (e) (BECE 2017 Q2d)\n\n"
-            "Explain the term forward-bias of a p-n junction diode.",
-        answer: "⦿ Answer:\n\n"
-            "• Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n\n"
-            "• The external potential opposes and overcomes the internal barrier potential of the depletion region.\n\n"
-            "• This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+        scenario:
+            "(e) Explain the term forward-bias of a p-n junction diode. (BECE 2017 Q2d)",
+        answer: "Correct Answer:\n"
+            "⦿ Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n"
+            "⦿ The external potential opposes and overcomes the internal barrier potential of the depletion region.\n"
+            "⦿ This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (f) (BECE 2020 Q6b(ii))\n\n"
-            "What is the role of a capacitor in a circuit?",
-        answer: "⦿ Answer:\n\n"
-            "• Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n\n"
-            "• Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n\n"
-            "• Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+        scenario:
+            "(f) What is the role of a capacitor in a circuit? (BECE 2020 Q6b(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n"
+            "⦿ Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n"
+            "⦿ Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (g) (BECE 2022 Q2b)\n\n"
-            "(i) Explain the term active region as applied to transistors.\n\n"
-            "(ii) State what happens in the active region of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Active Region Definition: The active region represents an operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n\n"
-            "• (ii) Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+        scenario:
+            "(g) (i) Explain the term active region as applied to transistors. (ii) State what happens in the active region of a transistor. (BECE 2022 Q2b)",
+        answer: "Correct Answer:\n"
+            "⦿ Active Region Definition: The active region represents a operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n"
+            "⦿ Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (h) (BECE 2024 Q4c)\n\n"
-            "(i) Define the term light emitting diode (LED).\n\n"
-            "(ii) Mention two devices that use LED in their operation.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n\n"
-            "• (ii) Utilizing Devices:\n\n"
-            "   • Digital displays on electronic appliances and wristwatches\n\n"
-            "   • Visual traffic signals and pedestrian crossing lights\n\n"
-            "   • Smartphone screen backlights and camera indicator lamps\n\n"
-            "   • Energy-efficient indoor and outdoor illumination lamps",
+        scenario:
+            "(h) (i) Define the term light emitting diode (LED). (ii) Mention two devices that use LED in their operation. (BECE 2024 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
+            "⦿ Utilizing Devices:\n"
+            " - Digital displays on electronic appliances and wristwatches\n"
+            " - Visual traffic signals and pedestrian crossing lights\n"
+            " - Smartphone screen backlights and camera indicator lamps\n"
+            " - Energy-efficient indoor and outdoor illumination lamps",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (i) (BECE 1994 Q4c)\n\n"
-            "(i) What is an electrical insulator?\n\n"
-            "(ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n\n"
-            "• (ii) Static Attraction Mechanism:\n\n"
-            "   • Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n\n"
-            "   • This transfer causes the comb to accumulate net static electrical charges on its surface.\n\n"
-            "   • Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+        scenario:
+            "(a) (i) What is an electrical insulator? (ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper. (BECE 1994 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
+            "⦿ Static Attraction Mechanism:\n"
+            " - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+            " - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+            " - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (j) (BECE 2003 Q3c)\n\n"
-            "(i) What is an electrical insulator?\n\n"
-            "(ii) Mention three examples of insulator.\n\n"
-            "(iii) Give two characteristics of an insulator that explain its behavior.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n\n"
-            "• (ii) Examples:\n\n"
-            "   • Vulcanized rubber\n\n"
-            "   • Tempered glass\n\n"
-            "   • Dry wood\n\n"
-            "   • Rigid plastic (PVC)\n\n"
-            "   • Porcelain ceramic\n\n"
-            "• (iii) Key Behavioral Characteristics:\n\n"
-            "   • Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n\n"
-            "   • Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+        scenario:
+            "(b) (i) What is an electrical insulator? (ii) Mention three examples of insulator. (iii) Give two characteristics of an insulator that explain its behavior. (BECE 2003 Q3c)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n"
+            "⦿ Examples:\n"
+            " - Vulcanized rubber\n"
+            " - Tempered glass\n"
+            " - Dry wood\n"
+            " - Rigid plastic (PVC)\n"
+            " - Porcelain ceramic\n"
+            "⦿ Key Behavioral Characteristics:\n"
+            " - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+            " - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (k) (BECE 2006 Q5c(i) & BECE 2012 Q3b(ii))\n\n"
-            "Give two differences between an electrical insulator and a conductor.",
-        answer: "⦿ Answer:\n\n"
-            "• Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n\n"
-            "• Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n\n"
-            "• Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+        scenario:
+            "(c) Give two differences between an electrical insulator and a conductor. (BECE 2006 Q5c(i) & BECE 2012 Q3b(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n"
+            "⦿ Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n"
+            "⦿ Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (l) (BECE 2010 Q5d)\n\n"
-            "(i) What is a fuse?\n\n"
-            "(ii) Explain why a fuse is used in an electrical circuit.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n\n"
-            "• (ii) Purpose and Function:\n\n"
-            "   • It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n\n"
-            "   • When fault conditions such as short circuits or system overloads push current above safe limits, internal resistive heat melts the fuse element.\n\n"
-            "   • Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+        scenario:
+            "(d) (i) What is a fuse? (ii) Explain why a fuse is used in an electrical circuit. (BECE 2010 Q5d)",
+        answer: "Correct Answer:\n"
+            "⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
+            "⦿ Purpose and Function:\n"
+            " - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+            " - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+            " - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (m) (BECE 2012 Q3b(iii))\n\n"
-            "State two effects of illegal electrical connections in the home.",
-        answer: "⦿ Answer:\n\n"
-            "• Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n\n"
-            "• System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+        scenario:
+            "(e) State two effects of illegal electrical connections in the home. (BECE 2012 Q3b(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n"
+            "⦿ System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (n) (BECE 2013 Q4a)\n\n"
-            "(i) What do the symbols L, N and E represent in an electric plug?\n\n"
-            "(ii) What is the function of the fuse box in household electrical wiring?",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Plug Terminal Representations:\n\n"
-            "   • L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n\n"
-            "   • N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n\n"
-            "   • E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n\n"
-            "• (ii) Function of Fuse Box:\n\n"
-            "   • It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n\n"
-            "   • It houses circuit protection devices such as fuses or miniature circuit breakers that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+        scenario:
+            "(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
+        answer: "Correct Answer:\n"
+            "⦿ Plug Terminal Representations:\n"
+            " - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+            " - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+            " - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+            "⦿ Function of Fuse Box:\n"
+            " - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+            " - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (o) (BECE 2015 Q6b)\n\n"
-            "(i) What is an electrical conductor?\n\n"
-            "(ii) List two substances that are insulators.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Conductor: A material possessing abundant mobile charge carriers such as free electrons in metals or ions in electrolyte solutions that move freely when an electric potential difference is applied.\n\n"
-            "• (ii) Insulating Substances:\n\n"
-            "   • Pure dry rubber\n\n"
-            "   • Solid plastic polymers\n\n"
-            "   • Refined glass\n\n"
-            "   • Dry timber",
+        scenario:
+            "(g) (i) What is an electrical conductor? (ii) List two substances that are insulators. (BECE 2015 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
+            "⦿ Insulating Substances:\n"
+            " - Pure dry rubber\n"
+            " - Solid plastic polymers\n"
+            " - Refined glass\n"
+            " - Dry timber",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (p) (BECE 2022 Q5d(ii))\n\n"
-            "State one substance that is an insulator.",
-        answer: "⦿ Answer:\n\n"
-            "• Dry wood (or rubber, glass, ceramic, plastic).",
+        scenario:
+            "(h) State one substance that is an insulator. (BECE 2022 Q5d(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Dry wood (or rubber, glass, ceramic, plastic).",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (q) (BECE 2023 Q3b)\n\n"
-            "(i) Explain the term potential difference.\n\n"
-            "(ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Potential Difference Definition: Potential difference across two points in a circuit is the amount of work or energy transferred per unit charge as electric charge moves between those two designated points.\n\n"
-            "• (ii) Step-by-Step Calculation:\n\n"
-            "   • Step 1: Identify given parameters:\n\n"
-            "      Voltage (V) = 250 V\n\n"
-            "      Resistance (R) = 100 Ω\n\n"
-            "   • Step 2: Apply Ohm's Law relation:\n\n"
-            "      V = I × R\n\n"
-            "      I = V / R\n\n"
-            "   • Step 3: Substitute values and calculate:\n\n"
-            "      I = 250 V / 100 Ω\n\n"
-            "      I = 2.5 A\n\n"
-            "• The electric current flowing through the resistor is 2.5 A.",
+        scenario:
+            "(i) (i) Explain the term potential difference. (ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor. (BECE 2023 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Potential Difference Definition: Potential difference across two points in a circuit is the amount of work energy transferred per unit charge as electric charge moves between those two designated points.\n"
+            "⦿ Step-by-Step Calculation:\n"
+            "⦿ Step 1: Identify given parameters:\n"
+            "⦿ Voltage (V)=250 V\n"
+            "⦿ Resistance (R)=100 Ω\n"
+            "⦿ Step 2: Apply Ohm's Law relation:\n"
+            r"⦿ V=I×R⟹I=\frac{V}{R}"
+            "\n"
+            "⦿ Step 3: Substitute values and calculate:\n"
+            r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+            "\n"
+            "⦿ The electric current flowing through the resistor is 2.5 A.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (r) (BECE 2023 Q3c(ii))\n\n"
-            "State two household appliances that have fuse.",
-        answer: "⦿ Answer:\n\n"
-            "• Electric iron\n\n"
-            "• Microwave oven\n\n"
-            "• Refrigerator / Freezer unit\n\n"
-            "• Electric kettle\n\n"
-            "• Washing machine\n\n"
-            "• Television set",
+        scenario:
+            "(j) State two household appliances that have fuse. (BECE 2023 Q3c(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Electric iron\n"
+            "⦿ Microwave oven\n"
+            "⦿ Refrigerator / Freezer unit\n"
+            "⦿ Electric kettle\n"
+            "⦿ Washing machine\n"
+            "⦿ Television set",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (s) (BECE 2024 Q5a)\n\n"
-            "A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter.\n\n"
-            "(i) Calculate the effective resistance in the circuit.\n\n"
-            "(ii) Calculate the total current flowing through the closed circuit.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Effective Resistance Calculation:\n\n"
-            "   • Step 1: State the formula for two parallel resistors:\n\n"
-            "      1/Rₜ = 1/R₁ + 1/R₂\n\n"
-            "   • Step 2: Substitute R₁ = 4 Ω and R₂ = 5 Ω:\n\n"
-            "      1/Rₜ = 1/4 + 1/5\n\n"
-            "      1/Rₜ = (5 + 4)/20 = 9/20\n\n"
-            "   • Step 3: Invert to solve for total resistance Rₜ:\n\n"
-            "      Rₜ = 20/9 Ω = 2 2/9 Ω ≈ 2.22 Ω\n\n"
-            "• (ii) Total Circuit Current Calculation:\n\n"
-            "   • Step 1: State Ohm's Law for the whole circuit:\n\n"
-            "      I = V/Rₜ\n\n"
-            "   • Step 2: Substitute V = 6 V and Rₜ = 20/9 Ω:\n\n"
-            "      I = 6 ÷ (20/9)\n\n"
-            "      I = (6 × 9)/20\n\n"
-            "      I = 54/20 = 2.7 A\n\n"
-            "• The total current flowing through the closed circuit is 2.7 A.",
+        scenario:
+            "(k) A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter. (i) Calculate the effective resistance in the circuit. (ii) Calculate the total current flowing through the closed circuit. (BECE 2024 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ (i) Effective Resistance Calculation:\n"
+            "⦿ Step 1: State the formula for two parallel resistors:\n"
+            r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+            "\n"
+            r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+            "\n"
+            r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+            "\n"
+            r"⦿ Step 3: Invert to solve for total resistance R_T:"
+            "\n"
+            r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+            "\n"
+            "⦿ (ii) Total Circuit Current Calculation:\n"
+            "⦿ Step 1: State Ohm's Law for the whole circuit:\n"
+            r"⦿ I=\frac{V}{R_T}"
+            "\n"
+            r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
+            "\n"
+            r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
+            "\n"
+            "⦿ The total current flowing through the closed circuit is 2.7 A.",
         explanation: "",
       ),
     ],
   ),
-
   "Science JHS2 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION (a) (BECE 2012 Q4a(i)(ii))\n\n"
-            "What is a transistor?",
-        answer: "⦿ Answer:\n\n"
-            "• A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n\n"
-            "• It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n\n"
-            "• It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+        scenario: "(a) What is a transistor? (BECE 2012 Q4a(i))",
+        answer: "Correct Answer:\n"
+            "⦿ A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n"
+            "⦿ It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n"
+            "⦿ It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (b) (BECE 2012 Q4a(iii))\n\n"
-            "Give two uses of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• Signal Amplification: It boosts weak incoming alternating signals such as sound or radio frequencies into stronger output signals without altering their original frequency profile.\n\n"
-            "• Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n\n"
-            "• Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+        scenario: "(b) Give two uses of a transistor. (BECE 2012 Q4a(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Signal Amplification: It boosts weak incoming alternating signals (such as sound or radio frequencies) into stronger output signals without altering their original frequency profile.\n"
+            "⦿ Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n"
+            "⦿ Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (c) (BECE 2013 Q6c(i))\n\n"
-            "Name two types of transistors.",
-        answer: "⦿ Answer:\n\n"
-            "• NPN Bipolar Junction Transistor\n\n"
-            "• PNP Bipolar Junction Transistor",
+        scenario: "(c) Name two types of transistors. (BECE 2013 Q6c(i))",
+        answer: "Correct Answer:\n"
+            "⦿ NPN Bipolar Junction Transistor\n"
+            "⦿ PNP Bipolar Junction Transistor",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (d) (BECE 2015 Q3a(ii))\n\n"
-            "Mention the junctions of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n\n"
-            "• Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+        scenario:
+            "(d) Mention the junctions of a transistor. (BECE 2015 Q3a(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n"
+            "⦿ Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (e) (BECE 2017 Q2d)\n\n"
-            "Explain the term forward-bias of a p-n junction diode.",
-        answer: "⦿ Answer:\n\n"
-            "• Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n\n"
-            "• The external potential opposes and overcomes the internal barrier potential of the depletion region.\n\n"
-            "• This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+        scenario:
+            "(e) Explain the term forward-bias of a p-n junction diode. (BECE 2017 Q2d)",
+        answer: "Correct Answer:\n"
+            "⦿ Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n"
+            "⦿ The external potential opposes and overcomes the internal barrier potential of the depletion region.\n"
+            "⦿ This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (f) (BECE 2020 Q6b(ii))\n\n"
-            "What is the role of a capacitor in a circuit?",
-        answer: "⦿ Answer:\n\n"
-            "• Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n\n"
-            "• Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n\n"
-            "• Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+        scenario:
+            "(f) What is the role of a capacitor in a circuit? (BECE 2020 Q6b(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n"
+            "⦿ Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n"
+            "⦿ Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (g) (BECE 2022 Q2b)\n\n"
-            "(i) Explain the term active region as applied to transistors.\n\n"
-            "(ii) State what happens in the active region of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Active Region Definition: The active region represents an operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n\n"
-            "• (ii) Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+        scenario:
+            "(g) (i) Explain the term active region as applied to transistors. (ii) State what happens in the active region of a transistor. (BECE 2022 Q2b)",
+        answer: "Correct Answer:\n"
+            "⦿ Active Region Definition: The active region represents a operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n"
+            "⦿ Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (h) (BECE 2024 Q4c)\n\n"
-            "(i) Define the term light emitting diode (LED).\n\n"
-            "(ii) Mention two devices that use LED in their operation.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n\n"
-            "• (ii) Utilizing Devices:\n\n"
-            "   • Digital displays on electronic appliances and wristwatches\n\n"
-            "   • Visual traffic signals and pedestrian crossing lights\n\n"
-            "   • Smartphone screen backlights and camera indicator lamps\n\n"
-            "   • Energy-efficient indoor and outdoor illumination lamps",
+        scenario:
+            "(h) (i) Define the term light emitting diode (LED). (ii) Mention two devices that use LED in their operation. (BECE 2024 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
+            "⦿ Utilizing Devices:\n"
+            " - Digital displays on electronic appliances and wristwatches\n"
+            " - Visual traffic signals and pedestrian crossing lights\n"
+            " - Smartphone screen backlights and camera indicator lamps\n"
+            " - Energy-efficient indoor and outdoor illumination lamps",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (i) (BECE 1994 Q4c)\n\n"
-            "(i) What is an electrical insulator?\n\n"
-            "(ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n\n"
-            "• (ii) Static Attraction Mechanism:\n\n"
-            "   • Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n\n"
-            "   • This transfer causes the comb to accumulate net static electrical charges on its surface.\n\n"
-            "   • Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+        scenario:
+            "(a) (i) What is an electrical insulator? (ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper. (BECE 1994 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
+            "⦿ Static Attraction Mechanism:\n"
+            " - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+            " - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+            " - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (j) (BECE 2003 Q3c)\n\n"
-            "(i) What is an electrical insulator?\n\n"
-            "(ii) Mention three examples of insulator.\n\n"
-            "(iii) Give two characteristics of an insulator that explain its behavior.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n\n"
-            "• (ii) Examples:\n\n"
-            "   • Vulcanized rubber\n\n"
-            "   • Tempered glass\n\n"
-            "   • Dry wood\n\n"
-            "   • Rigid plastic (PVC)\n\n"
-            "   • Porcelain ceramic\n\n"
-            "• (iii) Key Behavioral Characteristics:\n\n"
-            "   • Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n\n"
-            "   • Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+        scenario:
+            "(b) (i) What is an electrical insulator? (ii) Mention three examples of insulator. (iii) Give two characteristics of an insulator that explain its behavior. (BECE 2003 Q3c)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n"
+            "⦿ Examples:\n"
+            " - Vulcanized rubber\n"
+            " - Tempered glass\n"
+            " - Dry wood\n"
+            " - Rigid plastic (PVC)\n"
+            " - Porcelain ceramic\n"
+            "⦿ Key Behavioral Characteristics:\n"
+            " - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+            " - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (k) (BECE 2006 Q5c(i) & BECE 2012 Q3b(ii))\n\n"
-            "Give two differences between an electrical insulator and a conductor.",
-        answer: "⦿ Answer:\n\n"
-            "• Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n\n"
-            "• Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n\n"
-            "• Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+        scenario:
+            "(c) Give two differences between an electrical insulator and a conductor. (BECE 2006 Q5c(i) & BECE 2012 Q3b(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n"
+            "⦿ Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n"
+            "⦿ Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (l) (BECE 2010 Q5d)\n\n"
-            "(i) What is a fuse?\n\n"
-            "(ii) Explain why a fuse is used in an electrical circuit.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n\n"
-            "• (ii) Purpose and Function:\n\n"
-            "   • It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n\n"
-            "   • When fault conditions such as short circuits or system overloads push current above safe limits, internal resistive heat melts the fuse element.\n\n"
-            "   • Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+        scenario:
+            "(d) (i) What is a fuse? (ii) Explain why a fuse is used in an electrical circuit. (BECE 2010 Q5d)",
+        answer: "Correct Answer:\n"
+            "⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
+            "⦿ Purpose and Function:\n"
+            " - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+            " - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+            " - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (m) (BECE 2012 Q3b(iii))\n\n"
-            "State two effects of illegal electrical connections in the home.",
-        answer: "⦿ Answer:\n\n"
-            "• Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n\n"
-            "• System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+        scenario:
+            "(e) State two effects of illegal electrical connections in the home. (BECE 2012 Q3b(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n"
+            "⦿ System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (n) (BECE 2013 Q4a)\n\n"
-            "(i) What do the symbols L, N and E represent in an electric plug?\n\n"
-            "(ii) What is the function of the fuse box in household electrical wiring?",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Plug Terminal Representations:\n\n"
-            "   • L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n\n"
-            "   • N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n\n"
-            "   • E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n\n"
-            "• (ii) Function of Fuse Box:\n\n"
-            "   • It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n\n"
-            "   • It houses circuit protection devices such as fuses or miniature circuit breakers that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+        scenario:
+            "(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
+        answer: "Correct Answer:\n"
+            "⦿ Plug Terminal Representations:\n"
+            " - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+            " - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+            " - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+            "⦿ Function of Fuse Box:\n"
+            " - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+            " - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (o) (BECE 2015 Q6b)\n\n"
-            "(i) What is an electrical conductor?\n\n"
-            "(ii) List two substances that are insulators.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Conductor: A material possessing abundant mobile charge carriers such as free electrons in metals or ions in electrolyte solutions that move freely when an electric potential difference is applied.\n\n"
-            "• (ii) Insulating Substances:\n\n"
-            "   • Pure dry rubber\n\n"
-            "   • Solid plastic polymers\n\n"
-            "   • Refined glass\n\n"
-            "   • Dry timber",
+        scenario:
+            "(g) (i) What is an electrical conductor? (ii) List two substances that are insulators. (BECE 2015 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
+            "⦿ Insulating Substances:\n"
+            " - Pure dry rubber\n"
+            " - Solid plastic polymers\n"
+            " - Refined glass\n"
+            " - Dry timber",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (p) (BECE 2022 Q5d(ii))\n\n"
-            "State one substance that is an insulator.",
-        answer: "⦿ Answer:\n\n"
-            "• Dry wood (or rubber, glass, ceramic, plastic).",
+        scenario:
+            "(h) State one substance that is an insulator. (BECE 2022 Q5d(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Dry wood (or rubber, glass, ceramic, plastic).",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (q) (BECE 2023 Q3b)\n\n"
-            "(i) Explain the term potential difference.\n\n"
-            "(ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Potential Difference Definition: Potential difference across two points in a circuit is the amount of work or energy transferred per unit charge as electric charge moves between those two designated points.\n\n"
-            "• (ii) Step-by-Step Calculation:\n\n"
-            "   • Step 1: Identify given parameters:\n\n"
-            "      Voltage (V) = 250 V\n\n"
-            "      Resistance (R) = 100 Ω\n\n"
-            "   • Step 2: Apply Ohm's Law relation:\n\n"
-            "      V = I × R\n\n"
-            "      I = V / R\n\n"
-            "   • Step 3: Substitute values and calculate:\n\n"
-            "      I = 250 V / 100 Ω\n\n"
-            "      I = 2.5 A\n\n"
-            "• The electric current flowing through the resistor is 2.5 A.",
+        scenario:
+            "(i) (i) Explain the term potential difference. (ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor. (BECE 2023 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Potential Difference Definition: Potential difference across two points in a circuit is the amount of work energy transferred per unit charge as electric charge moves between those two designated points.\n"
+            "⦿ Step-by-Step Calculation:\n"
+            "⦿ Step 1: Identify given parameters:\n"
+            "⦿ Voltage (V)=250 V\n"
+            "⦿ Resistance (R)=100 Ω\n"
+            "⦿ Step 2: Apply Ohm's Law relation:\n"
+            r"⦿ V=I×R⟹I=\frac{V}{R}"
+            "\n"
+            "⦿ Step 3: Substitute values and calculate:\n"
+            r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+            "\n"
+            "⦿ The electric current flowing through the resistor is 2.5 A.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (r) (BECE 2023 Q3c(ii))\n\n"
-            "State two household appliances that have fuse.",
-        answer: "⦿ Answer:\n\n"
-            "• Electric iron\n\n"
-            "• Microwave oven\n\n"
-            "• Refrigerator / Freezer unit\n\n"
-            "• Electric kettle\n\n"
-            "• Washing machine\n\n"
-            "• Television set",
+        scenario:
+            "(j) State two household appliances that have fuse. (BECE 2023 Q3c(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Electric iron\n"
+            "⦿ Microwave oven\n"
+            "⦿ Refrigerator / Freezer unit\n"
+            "⦿ Electric kettle\n"
+            "⦿ Washing machine\n"
+            "⦿ Television set",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (s) (BECE 2024 Q5a)\n\n"
-            "A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter.\n\n"
-            "(i) Calculate the effective resistance in the circuit.\n\n"
-            "(ii) Calculate the total current flowing through the closed circuit.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Effective Resistance Calculation:\n\n"
-            "   • Step 1: State the formula for two parallel resistors:\n\n"
-            "      1/Rₜ = 1/R₁ + 1/R₂\n\n"
-            "   • Step 2: Substitute R₁ = 4 Ω and R₂ = 5 Ω:\n\n"
-            "      1/Rₜ = 1/4 + 1/5\n\n"
-            "      1/Rₜ = (5 + 4)/20 = 9/20\n\n"
-            "   • Step 3: Invert to solve for total resistance Rₜ:\n\n"
-            "      Rₜ = 20/9 Ω = 2 2/9 Ω ≈ 2.22 Ω\n\n"
-            "• (ii) Total Circuit Current Calculation:\n\n"
-            "   • Step 1: State Ohm's Law for the whole circuit:\n\n"
-            "      I = V/Rₜ\n\n"
-            "   • Step 2: Substitute V = 6 V and Rₜ = 20/9 Ω:\n\n"
-            "      I = 6 ÷ (20/9)\n\n"
-            "      I = (6 × 9)/20\n\n"
-            "      I = 54/20 = 2.7 A\n\n"
-            "• The total current flowing through the closed circuit is 2.7 A.",
+        scenario:
+            "(k) A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter. (i) Calculate the effective resistance in the circuit. (ii) Calculate the total current flowing through the closed circuit. (BECE 2024 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ (i) Effective Resistance Calculation:\n"
+            "⦿ Step 1: State the formula for two parallel resistors:\n"
+            r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+            "\n"
+            r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+            "\n"
+            r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+            "\n"
+            r"⦿ Step 3: Invert to solve for total resistance R_T:"
+            "\n"
+            r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+            "\n"
+            "⦿ (ii) Total Circuit Current Calculation:\n"
+            "⦿ Step 1: State Ohm's Law for the whole circuit:\n"
+            r"⦿ I=\frac{V}{R_T}"
+            "\n"
+            r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
+            "\n"
+            r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
+            "\n"
+            "⦿ The total current flowing through the closed circuit is 2.7 A.",
         explanation: "",
       ),
     ],
   ),
-
   "Science JHS3 s4 ss2 - Basic Electronics & Electricity": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION (a) (BECE 2012 Q4a(i)(ii))\n\n"
-            "What is a transistor?",
-        answer: "⦿ Answer:\n\n"
-            "• A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n\n"
-            "• It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n\n"
-            "• It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
+        scenario: "(a) What is a transistor? (BECE 2012 Q4a(i))",
+        answer: "Correct Answer:\n"
+            "⦿ A transistor is a three-terminal solid-state semiconductor component manufactured to manage electrical energy flow.\n"
+            "⦿ It regulates large voltages or currents across two of its leads in response to a smaller controlling signal fed into its third lead.\n"
+            "⦿ It operates primarily as an active circuit component capable of amplifying signals or switching electrical states.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (b) (BECE 2012 Q4a(iii))\n\n"
-            "Give two uses of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• Signal Amplification: It boosts weak incoming alternating signals such as sound or radio frequencies into stronger output signals without altering their original frequency profile.\n\n"
-            "• Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n\n"
-            "• Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
+        scenario: "(b) Give two uses of a transistor. (BECE 2012 Q4a(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Signal Amplification: It boosts weak incoming alternating signals (such as sound or radio frequencies) into stronger output signals without altering their original frequency profile.\n"
+            "⦿ Non-Mechanical Switching: It functions as an electronic switch that opens or closes current pathways rapidly without using moving mechanical parts.\n"
+            "⦿ Current and Voltage Regulation: It controls and maintains steady output voltage or current levels within sensitive power supply units.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (c) (BECE 2013 Q6c(i))\n\n"
-            "Name two types of transistors.",
-        answer: "⦿ Answer:\n\n"
-            "• NPN Bipolar Junction Transistor\n\n"
-            "• PNP Bipolar Junction Transistor",
+        scenario: "(c) Name two types of transistors. (BECE 2013 Q6c(i))",
+        answer: "Correct Answer:\n"
+            "⦿ NPN Bipolar Junction Transistor\n"
+            "⦿ PNP Bipolar Junction Transistor",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (d) (BECE 2015 Q3a(ii))\n\n"
-            "Mention the junctions of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n\n"
-            "• Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
+        scenario:
+            "(d) Mention the junctions of a transistor. (BECE 2015 Q3a(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Base-Emitter Junction: The boundary interface formed between the central base region and the emitter region.\n"
+            "⦿ Base-Collector Junction: The boundary interface formed between the central base region and the collector region.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (e) (BECE 2017 Q2d)\n\n"
-            "Explain the term forward-bias of a p-n junction diode.",
-        answer: "⦿ Answer:\n\n"
-            "• Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n\n"
-            "• The external potential opposes and overcomes the internal barrier potential of the depletion region.\n\n"
-            "• This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
+        scenario:
+            "(e) Explain the term forward-bias of a p-n junction diode. (BECE 2017 Q2d)",
+        answer: "Correct Answer:\n"
+            "⦿ Forward-bias is an electrical configuration where an external direct voltage source is connected across a p-n junction such that its positive terminal connects to the p-type material and its negative terminal connects to the n-type material.\n"
+            "⦿ The external potential opposes and overcomes the internal barrier potential of the depletion region.\n"
+            "⦿ This bias narrowing shrinks the depletion width, enabling majority charge carriers to cross the junction easily and establish continuous electric current flow.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (f) (BECE 2020 Q6b(ii))\n\n"
-            "What is the role of a capacitor in a circuit?",
-        answer: "⦿ Answer:\n\n"
-            "• Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n\n"
-            "• Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n\n"
-            "• Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
+        scenario:
+            "(f) What is the role of a capacitor in a circuit? (BECE 2020 Q6b(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Energy Storage: It accumulates and stores electrical energy electrostatically across opposing conducting plates separated by an insulating dielectric.\n"
+            "⦿ Supply Smoothing: It releases stored energy back into the system during brief power drops, smoothing out unwanted voltage spikes or ripple fluctuations in converted direct current.\n"
+            "⦿ Current Surging Protection: It delivers temporary bursts of current required by specific components during initial power-up sequences.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (g) (BECE 2022 Q2b)\n\n"
-            "(i) Explain the term active region as applied to transistors.\n\n"
-            "(ii) State what happens in the active region of a transistor.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Active Region Definition: The active region represents an operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n\n"
-            "• (ii) Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
+        scenario:
+            "(g) (i) Explain the term active region as applied to transistors. (ii) State what happens in the active region of a transistor. (BECE 2022 Q2b)",
+        answer: "Correct Answer:\n"
+            "⦿ Active Region Definition: The active region represents a operational bias state where a transistor's base-emitter junction remains forward-biased while its base-collector junction remains reverse-biased.\n"
+            "⦿ Behavior in Active Region: The component operates linearly as an amplifier, where minute alterations in base input current induce proportionally larger linear changes in collector current flow.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (h) (BECE 2024 Q4c)\n\n"
-            "(i) Define the term light emitting diode (LED).\n\n"
-            "(ii) Mention two devices that use LED in their operation.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n\n"
-            "• (ii) Utilizing Devices:\n\n"
-            "   • Digital displays on electronic appliances and wristwatches\n\n"
-            "   • Visual traffic signals and pedestrian crossing lights\n\n"
-            "   • Smartphone screen backlights and camera indicator lamps\n\n"
-            "   • Energy-efficient indoor and outdoor illumination lamps",
+        scenario:
+            "(h) (i) Define the term light emitting diode (LED). (ii) Mention two devices that use LED in their operation. (BECE 2024 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ LED Definition: A light emitting diode is a specialized semiconductor p-n junction diode designed to emit optical radiation (light energy) when electric current flows through it in the forward-biased direction.\n"
+            "⦿ Utilizing Devices:\n"
+            " - Digital displays on electronic appliances and wristwatches\n"
+            " - Visual traffic signals and pedestrian crossing lights\n"
+            " - Smartphone screen backlights and camera indicator lamps\n"
+            " - Energy-efficient indoor and outdoor illumination lamps",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (i) (BECE 1994 Q4c)\n\n"
-            "(i) What is an electrical insulator?\n\n"
-            "(ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n\n"
-            "• (ii) Static Attraction Mechanism:\n\n"
-            "   • Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n\n"
-            "   • This transfer causes the comb to accumulate net static electrical charges on its surface.\n\n"
-            "   • Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
+        scenario:
+            "(a) (i) What is an electrical insulator? (ii) Explain why a comb rubbed vigorously on dry hair attracts small pieces of paper. (BECE 1994 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Insulator: An insulator is any material whose atomic structure firmly binds its valence electrons to its atomic nuclei, preventing free electron movement and offering exceptionally high electrical resistance to current flow.\n"
+            "⦿ Static Attraction Mechanism:\n"
+            " - Mechanical friction generated by rubbing transfers mobile electrons between dry hair and the plastic comb.\n"
+            " - This transfer causes the comb to accumulate net static electrical charges on its surface.\n"
+            " - Bringing the charged comb close to lightweight neutral paper fragments causes local electrostatic induction, pulling opposing surface charges toward the comb and creating an attractive force strong enough to lift the paper.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (j) (BECE 2003 Q3c)\n\n"
-            "(i) What is an electrical insulator?\n\n"
-            "(ii) Mention three examples of insulator.\n\n"
-            "(iii) Give two characteristics of an insulator that explain its behavior.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n\n"
-            "• (ii) Examples:\n\n"
-            "   • Vulcanized rubber\n\n"
-            "   • Tempered glass\n\n"
-            "   • Dry wood\n\n"
-            "   • Rigid plastic (PVC)\n\n"
-            "   • Porcelain ceramic\n\n"
-            "• (iii) Key Behavioral Characteristics:\n\n"
-            "   • Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n\n"
-            "   • Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
+        scenario:
+            "(b) (i) What is an electrical insulator? (ii) Mention three examples of insulator. (iii) Give two characteristics of an insulator that explain its behavior. (BECE 2003 Q3c)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Insulator: A substance that strongly resists the passage of electric charges under normal working voltages due to its lack of free charge carriers.\n"
+            "⦿ Examples:\n"
+            " - Vulcanized rubber\n"
+            " - Tempered glass\n"
+            " - Dry wood\n"
+            " - Rigid plastic (PVC)\n"
+            " - Porcelain ceramic\n"
+            "⦿ Key Behavioral Characteristics:\n"
+            " - Tight Valence Binding: Valence electrons are bound strongly to parent atoms, leaving virtually no free charges to participate in conduction.\n"
+            " - Broad Energy Band Gap: A substantial forbidden energy gap separates the filled valence band from the empty conduction band, preventing thermal excitation of electrons into mobile energy levels.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (k) (BECE 2006 Q5c(i) & BECE 2012 Q3b(ii))\n\n"
-            "Give two differences between an electrical insulator and a conductor.",
-        answer: "⦿ Answer:\n\n"
-            "• Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n\n"
-            "• Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n\n"
-            "• Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
+        scenario:
+            "(c) Give two differences between an electrical insulator and a conductor. (BECE 2006 Q5c(i) & BECE 2012 Q3b(i))",
+        answer: "Correct Answer:\n"
+            "⦿ Charge Carrier Availability: Conductors contain high concentrations of mobile free electrons capable of drifting under applied electric fields, whereas insulators lack mobile free charges.\n"
+            "⦿ Level of Electrical Resistance: Conductors display low electrical resistivity allowing easy current flow, whereas insulators possess high electrical resistivity that blocks current.\n"
+            "⦿ Band Gap Structure: Conductors feature overlapping or closely positioned conduction and valence energy bands, whereas insulators feature wide forbidden energy gaps.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (l) (BECE 2010 Q5d)\n\n"
-            "(i) What is a fuse?\n\n"
-            "(ii) Explain why a fuse is used in an electrical circuit.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n\n"
-            "• (ii) Purpose and Function:\n\n"
-            "   • It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n\n"
-            "   • When fault conditions such as short circuits or system overloads push current above safe limits, internal resistive heat melts the fuse element.\n\n"
-            "   • Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
+        scenario:
+            "(d) (i) What is a fuse? (ii) Explain why a fuse is used in an electrical circuit. (BECE 2010 Q5d)",
+        answer: "Correct Answer:\n"
+            "⦿ Fuse Definition: A safety device consisting of a short piece of metallic wire with a precise low melting point mounted within a protective housing.\n"
+            "⦿ Purpose and Function:\n"
+            " - It acts as a sacrificial weak link designed to safeguard connected appliances and wiring systems from structural overcurrent damage.\n"
+            " - When fault conditions (such as short circuits or system overloads) push current above safe limits, internal resistive heat melts the fuse element.\n"
+            " - Melting severs the electrical pathway instantly, isolating downstream equipment and preventing electrical fires.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (m) (BECE 2012 Q3b(iii))\n\n"
-            "State two effects of illegal electrical connections in the home.",
-        answer: "⦿ Answer:\n\n"
-            "• Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n\n"
-            "• System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
+        scenario:
+            "(e) State two effects of illegal electrical connections in the home. (BECE 2012 Q3b(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Circuit Overloading & Fire Hazards: Unmonitored taps bypass designed protective breakers, causing severe thermal overload on service lines that frequently leads to insulation breakdown and structural electrical fires.\n"
+            "⦿ System Instability & Appliance Damage: Uncontrolled load distribution induces severe line voltage fluctuations, causing brownouts, unannounced power outages, and permanent breakdown of domestic electronics.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (n) (BECE 2013 Q4a)\n\n"
-            "(i) What do the symbols L, N and E represent in an electric plug?\n\n"
-            "(ii) What is the function of the fuse box in household electrical wiring?",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Plug Terminal Representations:\n\n"
-            "   • L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n\n"
-            "   • N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n\n"
-            "   • E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n\n"
-            "• (ii) Function of Fuse Box:\n\n"
-            "   • It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n\n"
-            "   • It houses circuit protection devices such as fuses or miniature circuit breakers that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
+        scenario:
+            "(f) (i) What do the symbols L, N and E represent in an electric plug? (ii) What is the function of the fuse box in household electrical wiring? (BECE 2013 Q4a)",
+        answer: "Correct Answer:\n"
+            "⦿ Plug Terminal Representations:\n"
+            " - L (Live): Identifies the active conductor carrying alternating current from the distribution grid to the appliance.\n"
+            " - N (Neutral): Identifies the return conductor that completes the electrical loop back to the supply source at near-zero potential.\n"
+            " - E (Earth): Identifies the dedicated safety ground conductor connecting metallic appliance casings directly to the physical earth.\n"
+            "⦿ Function of Fuse Box:\n"
+            " - It serves as the primary distribution safety point where incoming main power is separated into individual sub-circuits.\n"
+            " - It houses circuit protection devices (fuses or miniature circuit breakers) that monitor and automatically disconnect specific branch circuits whenever fault currents or overloads occur.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (o) (BECE 2015 Q6b)\n\n"
-            "(i) What is an electrical conductor?\n\n"
-            "(ii) List two substances that are insulators.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Electrical Conductor: A material possessing abundant mobile charge carriers such as free electrons in metals or ions in electrolyte solutions that move freely when an electric potential difference is applied.\n\n"
-            "• (ii) Insulating Substances:\n\n"
-            "   • Pure dry rubber\n\n"
-            "   • Solid plastic polymers\n\n"
-            "   • Refined glass\n\n"
-            "   • Dry timber",
+        scenario:
+            "(g) (i) What is an electrical conductor? (ii) List two substances that are insulators. (BECE 2015 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ Electrical Conductor: A material possessing abundant mobile charge carriers (such as free electrons in metals or ions in electrolyte solutions) that move freely when an electric potential difference is applied.\n"
+            "⦿ Insulating Substances:\n"
+            " - Pure dry rubber\n"
+            " - Solid plastic polymers\n"
+            " - Refined glass\n"
+            " - Dry timber",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (p) (BECE 2022 Q5d(ii))\n\n"
-            "State one substance that is an insulator.",
-        answer: "⦿ Answer:\n\n"
-            "• Dry wood (or rubber, glass, ceramic, plastic).",
+        scenario:
+            "(h) State one substance that is an insulator. (BECE 2022 Q5d(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Dry wood (or rubber, glass, ceramic, plastic).",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (q) (BECE 2023 Q3b)\n\n"
-            "(i) Explain the term potential difference.\n\n"
-            "(ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Potential Difference Definition: Potential difference across two points in a circuit is the amount of work or energy transferred per unit charge as electric charge moves between those two designated points.\n\n"
-            "• (ii) Step-by-Step Calculation:\n\n"
-            "   • Step 1: Identify given parameters:\n\n"
-            "      Voltage (V) = 250 V\n\n"
-            "      Resistance (R) = 100 Ω\n\n"
-            "   • Step 2: Apply Ohm's Law relation:\n\n"
-            "      V = I × R\n\n"
-            "      I = V / R\n\n"
-            "   • Step 3: Substitute values and calculate:\n\n"
-            "      I = 250 V / 100 Ω\n\n"
-            "      I = 2.5 A\n\n"
-            "• The electric current flowing through the resistor is 2.5 A.",
+        scenario:
+            "(i) (i) Explain the term potential difference. (ii) The potential difference across the terminals of a 100 Ω resistor is 250 V. Calculate the current flowing through the resistor. (BECE 2023 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Potential Difference Definition: Potential difference across two points in a circuit is the amount of work energy transferred per unit charge as electric charge moves between those two designated points.\n"
+            "⦿ Step-by-Step Calculation:\n"
+            "⦿ Step 1: Identify given parameters:\n"
+            "⦿ Voltage (V)=250 V\n"
+            "⦿ Resistance (R)=100 Ω\n"
+            "⦿ Step 2: Apply Ohm's Law relation:\n"
+            r"⦿ V=I×R⟹I=\frac{V}{R}"
+            "\n"
+            "⦿ Step 3: Substitute values and calculate:\n"
+            r"⦿ I=\frac{250V}{100Ω}=2.5 A"
+            "\n"
+            "⦿ The electric current flowing through the resistor is 2.5 A.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (r) (BECE 2023 Q3c(ii))\n\n"
-            "State two household appliances that have fuse.",
-        answer: "⦿ Answer:\n\n"
-            "• Electric iron\n\n"
-            "• Microwave oven\n\n"
-            "• Refrigerator / Freezer unit\n\n"
-            "• Electric kettle\n\n"
-            "• Washing machine\n\n"
-            "• Television set",
+        scenario:
+            "(j) State two household appliances that have fuse. (BECE 2023 Q3c(ii))",
+        answer: "Correct Answer:\n"
+            "⦿ Electric iron\n"
+            "⦿ Microwave oven\n"
+            "⦿ Refrigerator / Freezer unit\n"
+            "⦿ Electric kettle\n"
+            "⦿ Washing machine\n"
+            "⦿ Television set",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION (s) (BECE 2024 Q5a)\n\n"
-            "A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter.\n\n"
-            "(i) Calculate the effective resistance in the circuit.\n\n"
-            "(ii) Calculate the total current flowing through the closed circuit.",
-        answer: "⦿ Answer:\n\n"
-            "• (i) Effective Resistance Calculation:\n\n"
-            "   • Step 1: State the formula for two parallel resistors:\n\n"
-            "      1/Rₜ = 1/R₁ + 1/R₂\n\n"
-            "   • Step 2: Substitute R₁ = 4 Ω and R₂ = 5 Ω:\n\n"
-            "      1/Rₜ = 1/4 + 1/5\n\n"
-            "      1/Rₜ = (5 + 4)/20 = 9/20\n\n"
-            "   • Step 3: Invert to solve for total resistance Rₜ:\n\n"
-            "      Rₜ = 20/9 Ω = 2 2/9 Ω ≈ 2.22 Ω\n\n"
-            "• (ii) Total Circuit Current Calculation:\n\n"
-            "   • Step 1: State Ohm's Law for the whole circuit:\n\n"
-            "      I = V/Rₜ\n\n"
-            "   • Step 2: Substitute V = 6 V and Rₜ = 20/9 Ω:\n\n"
-            "      I = 6 ÷ (20/9)\n\n"
-            "      I = (6 × 9)/20\n\n"
-            "      I = 54/20 = 2.7 A\n\n"
-            "• The total current flowing through the closed circuit is 2.7 A.",
+        scenario:
+            "(k) A 6 V power supply is connected across a parallel combination of a 4 Ω resistor and a 5 Ω resistor connected to an ammeter. (i) Calculate the effective resistance in the circuit. (ii) Calculate the total current flowing through the closed circuit. (BECE 2024 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ (i) Effective Resistance Calculation:\n"
+            "⦿ Step 1: State the formula for two parallel resistors:\n"
+            r"⦿ \frac{1}{R_T}=\frac{1}{R_1}+\frac{1}{R_2}"
+            "\n"
+            r"⦿ Step 2: Substitute R_1=4 Ω and R_2=5 Ω:"
+            "\n"
+            r"⦿ \frac{1}{R_T}=\frac{1}{4}+\frac{1}{5}=\frac{5}{20}+\frac{4}{20}=\frac{9}{20}"
+            "\n"
+            r"⦿ Step 3: Invert to solve for total resistance R_T:"
+            "\n"
+            r"⦿ R_T=\frac{20}{9} Ω≈2.22 Ω"
+            "\n"
+            "⦿ (ii) Total Circuit Current Calculation:\n"
+            "⦿ Step 1: State Ohm's Law for the whole circuit:\n"
+            r"⦿ I=\frac{V}{R_T}"
+            "\n"
+            r"⦿ Step 2: Substitute V=6 V and R_T=\frac{20}{9} Ω:"
+            "\n"
+            r"⦿ I=\frac{6}{\frac{20}{9}}=2.7 A"
+            "\n"
+            "⦿ The total current flowing through the closed circuit is 2.7 A.",
         explanation: "",
       ),
     ],
   ),
 
-  "Science JHS1 s4 ss3 - Forces and Energy": PracticeModel(
+  "Science JHS1 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1 (BECE 2010 Q2)\n\n"
-            "(a) State the name of the energy possessed by moving water.\n\n"
-            "(b) State the type of energy possessed by a body of mass 10 kg raised 15 m above the ground.\n\n"
-            "(c) Calculate the value of the energy.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Kinetic energy\n\n"
-            "⦿ (b) Answer:\n\n"
-            "• Potential energy\n\n"
-            "⦿ (c) Calculation:\n\n"
-            "• Potential Energy (P.E.) = mass × acceleration due to gravity × height\n\n"
-            "• P.E. = 10 kg × 10 m/s² × 15 m\n\n"
-            "• P.E. = 1500 J",
+        scenario:
+            "1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+            "(a) A mango falling freely from a tree branch to the ground surface:\n"
+            "(b) A wooden worker striking a metal nail using a claw hammer:\n"
+            "(c) Activating the power switch on a portable electric torchlight:",
+        answer:
+            "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+            "⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+            "⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+            "(b) A wooden worker striking a metal nail using a claw hammer:\n"
+            "⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+            "⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+            "(c) Activating the power switch on a portable electric torchlight:\n"
+            "⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+            "⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2 (BECE 2012 Q4)\n\n"
-            "State the energy changes that take place in each of the following activities:\n\n"
-            "(i) A candle is lit with a matchstick.\n\n"
-            "(ii) An orange falls from a tree to the ground.\n\n"
-            "(iii) A battery is used in an electric circuit with a lighted filament.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Chemical energy → Heat energy + Light energy\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Potential energy → Kinetic energy → Sound energy\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Chemical energy → Electrical energy → Light energy + Heat energy",
+        scenario:
+            "2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+        answer: "Correct Answer:\n"
+            "⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+            "⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3 (BECE 2013 Q4)\n\n"
-            "Name four sources of chemical energy.",
-        answer: "⦿ Answer:\n\n"
-            "• Food\n\n"
-            "• Fossil fuel\n\n"
-            "• Dry-cell battery\n\n"
-            "• Chemical reactor",
+        scenario:
+            "3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+            "(BECE 1998 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Required Formula: P.E. = m × g × h\n"
+            "⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+            "⦿ Step-by-Step Substitution:\n"
+            "⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+            "⦿ P.E. = 2000 J\n"
+            "⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4 (BECE 2013 Q6)\n\n"
-            "State the energy transformation that takes place when a dry cell is in use.",
-        answer: "⦿ Answer:\n\n"
-            "• Chemical energy → Electrical energy",
+        scenario:
+            "4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+            "(a) Determine its total potential energy with respect to the ground level.\n"
+            "(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+            "(BECE 2000 Q4d)",
+        answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+            "⦿ Governing Equation: P.E. = m × g × h\n"
+            "⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+            "⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+            "(b) Evaluation of Kinetic Energy prior to impact:\n"
+            "⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+            "⦿ Therefore, K.E. = P.E. = 2400 J.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 5 (BECE 2015 Q4)\n\n"
-            "What energy transformations take place in each of the following activities?\n\n"
-            "(i) Using a flashlight battery to produce light.\n\n"
-            "(ii) Using a microphone.\n\n"
-            "(iii) Using electrical energy to operate a bell.",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Chemical energy → Electrical energy → Light energy + Heat energy\n\n"
-            "⦿ (ii) Answer:\n\n"
-            "• Sound energy → Electrical energy\n\n"
-            "⦿ (iii) Answer:\n\n"
-            "• Electrical energy → Mechanical energy → Sound energy",
+        scenario:
+            "5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+            "(a) Identify the exact form of energy held by the suspended coconut.\n"
+            "(b) Calculate the magnitude of this energy.\n"
+            "(BECE 2002A Q2d)",
+        answer: "Correct Answer: (a) Energy Identification:\n"
+            "⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+            "(b) Magnitude Calculation:\n"
+            "⦿ Governing Formula: P.E. = Weight × Height\n"
+            "⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+            "⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+            "⦿ Conclusive Value: The energy possessed equals 750 Joules.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 6 (BECE 2018 Q3)\n\n"
-            "(i) Define potential energy.\n\n"
-            "(ii) An object of mass 10 kg is moving with a velocity of 2 m/s. Calculate the kinetic energy of the object.",
-        answer: "⦿ (i) Definition of potential energy:\n\n"
-            "Potential energy is the energy possessed by a body by virtue of its position relative to other objects.\n\n"
-            "⦿ (ii) Calculation:\n\n"
-            "• Kinetic Energy (K.E.) = ½ × mass × velocity²\n\n"
-            "• K.E. = ½ × 10 kg × 2 m/s × 2 m/s\n\n"
-            "• K.E. = 20 J",
+        scenario:
+            "6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+            "(a) An orange detaches and falls from a tree top down to the soil.\n"
+            "(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+            "(BECE 2003 Q1b)",
+        answer: "Correct Answer: (a) Falling orange:\n"
+            "⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+            "⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+            "(b) Craftsman driving a nail:\n"
+            "⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+            "⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 7 (BECE 2019 Q3)\n\n"
-            "A body of mass 100 kg is raised to a height of 2 m above the ground.\n\n"
-            "(i) State the name of the energy possessed by the object because of its new position.\n\n"
-            "(ii) Calculate the value of this energy. [g = 10 m/s²]",
-        answer: "⦿ (i) Answer:\n\n"
-            "• Potential energy\n\n"
-            "⦿ (ii) Calculation:\n\n"
-            "• Potential Energy (P.E.) = mass × acceleration due to gravity × height\n\n"
-            "• P.E. = m × g × h\n\n"
-            "• P.E. = 100 kg × 10 m/s² × 2 m\n\n"
-            "• P.E. = 2000 J",
+        scenario:
+            "7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+            "(BECE 2003 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+            "⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+            "⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+            "(a) right before release from its highest point;\n"
+            "(b) at the exact midpoint of its vertical descent;\n"
+            "(c) immediately prior to hitting the ground.",
+        answer: "Correct Answer: (a) At maximum elevation:\n"
+            "⦿ Gravitational potential energy exclusively.\n\n"
+            "(b) At the descent midpoint:\n"
+            "⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+            "(c) Instantly before ground collision:\n"
+            "⦿ Kinetic energy exclusively.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+            "(a) Operating a portable dry cell battery;\n"
+            "(b) Generating power through an active solar collector;\n"
+            "(c) Running a domestic electric hotplate;\n"
+            "(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+            "(BECE 2013 Q2c)",
+        answer: "Correct Answer: (a) Active dry cell battery:\n"
+            "⦿ Chemical energy transforms into electrical energy.\n\n"
+            "(b) Active solar collector panel:\n"
+            "⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+            "(c) Active electric hotplate:\n"
+            "⦿ Electrical energy transforms into thermal energy.\n\n"
+            "(d) Hammering metal:\n"
+            "⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "10. Detail the energy conversions occurring in the following practical situations:\n"
+            "(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+            "(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+            "(BECE 2015 Q2c)",
+        answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+            "⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+            "⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+            "(b) Speaking into a microphone:\n"
+            "⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "11. (a) Provide a rigorous scientific definition of potential energy.\n"
+            "(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+            "(BECE 2018 Q3c)",
+        answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+            "⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+            "(b) Computation of Kinetic Energy:\n"
+            r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+            "\n"
+            "⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+            "⦿ Calculation Steps:\n"
+            r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+            "\n"
+            "⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+            "⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+            "(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+            "(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+            "(BECE 2019 Q3a)",
+        answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+            "⦿ Gravitational potential energy.\n\n"
+            "(b) Mathematical Calculation:\n"
+            "⦿ Formula: P.E. = m × g × h\n"
+            "⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+            "⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+            "⦿ Result: The total energy gained equals 2000 Joules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+            "(BECE 2025 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+            "⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+            "⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+            "(a) A mango falling freely from a tree branch to the ground surface:\n"
+            "(b) A wooden worker striking a metal nail using a claw hammer:\n"
+            "(c) Activating the power switch on a portable electric torchlight:",
+        answer:
+            "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+            "⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+            "⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+            "(b) A wooden worker striking a metal nail using a claw hammer:\n"
+            "⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+            "⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+            "(c) Activating the power switch on a portable electric torchlight:\n"
+            "⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+            "⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+        answer: "Correct Answer:\n"
+            "⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+            "⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+            "(BECE 1998 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Required Formula: P.E. = m × g × h\n"
+            "⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+            "⦿ Step-by-Step Substitution:\n"
+            "⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+            "⦿ P.E. = 2000 J\n"
+            "⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+            "(a) Determine its total potential energy with respect to the ground level.\n"
+            "(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+            "(BECE 2000 Q4d)",
+        answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+            "⦿ Governing Equation: P.E. = m × g × h\n"
+            "⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+            "⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+            "(b) Evaluation of Kinetic Energy prior to impact:\n"
+            "⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+            "⦿ Therefore, K.E. = P.E. = 2400 J.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+            "(a) Identify the exact form of energy held by the suspended coconut.\n"
+            "(b) Calculate the magnitude of this energy.\n"
+            "(BECE 2002A Q2d)",
+        answer: "Correct Answer: (a) Energy Identification:\n"
+            "⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+            "(b) Magnitude Calculation:\n"
+            "⦿ Governing Formula: P.E. = Weight × Height\n"
+            "⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+            "⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+            "⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+            "(a) An orange detaches and falls from a tree top down to the soil.\n"
+            "(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+            "(BECE 2003 Q1b)",
+        answer: "Correct Answer: (a) Falling orange:\n"
+            "⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+            "⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+            "(b) Craftsman driving a nail:\n"
+            "⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+            "⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+            "(BECE 2003 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+            "⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+            "⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+            "(a) right before release from its highest point;\n"
+            "(b) at the exact midpoint of its vertical descent;\n"
+            "(c) immediately prior to hitting the ground.",
+        answer: "Correct Answer: (a) At maximum elevation:\n"
+            "⦿ Gravitational potential energy exclusively.\n\n"
+            "(b) At the descent midpoint:\n"
+            "⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+            "(c) Instantly before ground collision:\n"
+            "⦿ Kinetic energy exclusively.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+            "(a) Operating a portable dry cell battery;\n"
+            "(b) Generating power through an active solar collector;\n"
+            "(c) Running a domestic electric hotplate;\n"
+            "(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+            "(BECE 2013 Q2c)",
+        answer: "Correct Answer: (a) Active dry cell battery:\n"
+            "⦿ Chemical energy transforms into electrical energy.\n\n"
+            "(b) Active solar collector panel:\n"
+            "⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+            "(c) Active electric hotplate:\n"
+            "⦿ Electrical energy transforms into thermal energy.\n\n"
+            "(d) Hammering metal:\n"
+            "⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "10. Detail the energy conversions occurring in the following practical situations:\n"
+            "(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+            "(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+            "(BECE 2015 Q2c)",
+        answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+            "⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+            "⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+            "(b) Speaking into a microphone:\n"
+            "⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "11. (a) Provide a rigorous scientific definition of potential energy.\n"
+            "(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+            "(BECE 2018 Q3c)",
+        answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+            "⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+            "(b) Computation of Kinetic Energy:\n"
+            r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+            "\n"
+            "⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+            "⦿ Calculation Steps:\n"
+            r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+            "\n"
+            "⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+            "⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+            "(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+            "(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+            "(BECE 2019 Q3a)",
+        answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+            "⦿ Gravitational potential energy.\n\n"
+            "(b) Mathematical Calculation:\n"
+            "⦿ Formula: P.E. = m × g × h\n"
+            "⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+            "⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+            "⦿ Result: The total energy gained equals 2000 Joules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+            "(BECE 2025 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+            "⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+            "⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s4 ss3 - Conversion and Conservation of Energy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario:
+            "1. Detail the specific energy conversions that occur throughout each of the following scenarios:\n"
+            "(a) A mango falling freely from a tree branch to the ground surface:\n"
+            "(b) A wooden worker striking a metal nail using a claw hammer:\n"
+            "(c) Activating the power switch on a portable electric torchlight:",
+        answer:
+            "Correct Answer: (a) A mango falling freely from a tree branch to the ground surface:\n"
+            "⦿ As the fruit drops, its stored gravitational potential energy is progressively converted into kinetic energy.\n"
+            "⦿ At the exact moment of collision with the soil, this motion energy undergoes a final conversion into acoustic energy and thermal energy.\n\n"
+            "(b) A wooden worker striking a metal nail using a claw hammer:\n"
+            "⦿ The kinetic energy transferred from the swinging hammer is imparted into the head of the nail.\n"
+            "⦿ Upon impact, this mechanical energy converts rapidly into acoustic energy and thermal energy.\n\n"
+            "(c) Activating the power switch on a portable electric torchlight:\n"
+            "⦿ The chemical energy preserved within the dry cell initiates a flow of electric current, yielding electrical energy.\n"
+            "⦿ When this current traverses the bulb filament, it is converted into radiant light energy accompanied by thermal energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "2. A young boy hurls a pebble directly upward into the atmosphere. Explain the sequence of energy shifts that take place as the pebble descends back to Earth.",
+        answer: "Correct Answer:\n"
+            "⦿ Throughout its downward trajectory, the gravitational potential energy accumulated at maximum elevation continuously transforms into kinetic energy.\n"
+            "⦿ Upon coming into physical contact with the ground, this kinetic energy dissipates as acoustic energy alongside thermal energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "3. An object possessing a mass of 100 kg is positioned on a platform 2 m above floor level. Compute the exact potential energy held by the object relative to the surface. [g = 10 ms^{-2}]\n"
+            "(BECE 1998 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Required Formula: P.E. = m × g × h\n"
+            "⦿ Identified Parameters: Mass (m) = 100 kg, Gravitational acceleration (g) = 10 ms^{-2}, Height (h) = 2 m\n"
+            "⦿ Step-by-Step Substitution:\n"
+            "⦿ P.E. = 100 kg × 10 ms^{-2} × 2 m\n"
+            "⦿ P.E. = 2000 J\n"
+            "⦿ Conclusive Result: The total energy stored in the object due to its position equals exactly 2000 Joules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "4. A solid mass measuring 12.0 kg rests on a branch of an orange tree at an elevation of 20.0 metres above the lawn.\n"
+            "(a) Determine its total potential energy with respect to the ground level.\n"
+            "(b) Supposing the mass drops freely from this elevation, evaluate its kinetic energy right before striking the earth. [g = 10 ms^{-2}]\n"
+            "(BECE 2000 Q4d)",
+        answer: "Correct Answer: (a) Calculation of Potential Energy:\n"
+            "⦿ Governing Equation: P.E. = m × g × h\n"
+            "⦿ Input Values: m = 12.0 kg, g = 10 ms^{-2}, h = 20.0 m\n"
+            "⦿ Evaluation: P.E. = 12.0 × 10 × 20.0 = 2400 J\n\n"
+            "(b) Evaluation of Kinetic Energy prior to impact:\n"
+            "⦿ Based on the fundamental principle of energy conservation, in the absence of air resistance, the entirety of the potential energy stored at the apex converts into kinetic energy at the bottom of the fall.\n"
+            "⦿ Therefore, K.E. = P.E. = 2400 J.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "5. A mature coconut having a weight of 50 N hangs suspended from a palm tree 15 m above the ground surface.\n"
+            "(a) Identify the exact form of energy held by the suspended coconut.\n"
+            "(b) Calculate the magnitude of this energy.\n"
+            "(BECE 2002A Q2d)",
+        answer: "Correct Answer: (a) Energy Identification:\n"
+            "⦿ The hanging fruit possesses gravitational potential energy owing to its elevated spatial position relative to the ground.\n\n"
+            "(b) Magnitude Calculation:\n"
+            "⦿ Governing Formula: P.E. = Weight × Height\n"
+            "⦿ Input Values: Weight = 50 N, Height = 15 m\n"
+            "⦿ Execution: P.E. = 50 N × 15 m = 750 J\n"
+            "⦿ Conclusive Value: The energy possessed equals 750 Joules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "6. Outline the step-by-step energy transitions occurring within each of the specified actions:\n"
+            "(a) An orange detaches and falls from a tree top down to the soil.\n"
+            "(b) A craftsman strikes an upright nail using an elevated hammer.\n"
+            "(BECE 2003 Q1b)",
+        answer: "Correct Answer: (a) Falling orange:\n"
+            "⦿ The initial potential energy stored in the fruit converts into kinetic energy as it accelerates downward.\n"
+            "⦿ Upon contacting the earth, the kinetic energy shifts into acoustic energy and thermal energy.\n\n"
+            "(b) Craftsman driving a nail:\n"
+            "⦿ The potential energy accumulated by raising the hammer changes to kinetic energy during the downward stroke.\n"
+            "⦿ This motion energy transfers into the nail head, becoming sound energy and thermal energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "7. Enumerate three distinct physical sources capable of storing chemical energy.\n"
+            "(BECE 2003 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Nutritional foodstuffs consumed by organisms, including carbohydrates and plant materials.\n"
+            "⦿ Hydrocarbon fuel sources such as crude oil, petrol, diesel, and natural gas deposits.\n"
+            "⦿ Electrochemical storage devices, including dry cell batteries and rechargeable lead-acid accumulators.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "8. A rock sample is released from an elevated position. Specify the primary forms of energy held by the rock:\n"
+            "(a) right before release from its highest point;\n"
+            "(b) at the exact midpoint of its vertical descent;\n"
+            "(c) immediately prior to hitting the ground.",
+        answer: "Correct Answer: (a) At maximum elevation:\n"
+            "⦿ Gravitational potential energy exclusively.\n\n"
+            "(b) At the descent midpoint:\n"
+            "⦿ A simultaneous combination of remaining potential energy and developed kinetic energy.\n\n"
+            "(c) Instantly before ground collision:\n"
+            "⦿ Kinetic energy exclusively.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "9. Clearly describe the primary energy transformation that takes place during each of these four events:\n"
+            "(a) Operating a portable dry cell battery;\n"
+            "(b) Generating power through an active solar collector;\n"
+            "(c) Running a domestic electric hotplate;\n"
+            "(d) Pounding a cold piece of metal repeatedly with a heavy hammer.\n"
+            "(BECE 2013 Q2c)",
+        answer: "Correct Answer: (a) Active dry cell battery:\n"
+            "⦿ Chemical energy transforms into electrical energy.\n\n"
+            "(b) Active solar collector panel:\n"
+            "⦿ Radiant light energy transforms directly into electrical energy.\n\n"
+            "(c) Active electric hotplate:\n"
+            "⦿ Electrical energy transforms into thermal energy.\n\n"
+            "(d) Hammering metal:\n"
+            "⦿ Mechanical kinetic energy transforms into acoustic energy and thermal energy within the metal.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "10. Detail the energy conversions occurring in the following practical situations:\n"
+            "(a) Utilizing a dry cell battery to illuminate a handheld flashlight.\n"
+            "(b) Employing an electric microphone to amplify voice delivery to an audience.\n"
+            "(BECE 2015 Q2c)",
+        answer: "Correct Answer: (a) Operating a handheld flashlight:\n"
+            "⦿ Chemical energy stored in the battery cell converts into electrical current within the circuit.\n"
+            "⦿ This electrical current converts into radiant light energy and thermal energy inside the lamp filament.\n\n"
+            "(b) Speaking into a microphone:\n"
+            "⦿ Acoustic sound energy created by human vocal cords converts into modulated electrical signals within the transducer.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "11. (a) Provide a rigorous scientific definition of potential energy.\n"
+            "(b) A body having a mass of 10 kg travels forward with a uniform speed of 2 ms-1. Compute its total kinetic energy.\n"
+            "(BECE 2018 Q3c)",
+        answer: "Correct Answer: (a) Definition of Potential Energy:\n"
+            "⦿ Potential energy represents the stored capacity to do work retained within an object as a consequence of its vertical elevation, structural compression, or physical state.\n\n"
+            "(b) Computation of Kinetic Energy:\n"
+            r"⦿ Formula: K.E. = \frac{1}{2} × m × v2"
+            "\n"
+            "⦿ Given Values: Mass (m) = 10 kg, Speed (v) = 2 ms^{-1}\n"
+            "⦿ Calculation Steps:\n"
+            r"⦿ K.E. = \frac{1}{2} × 10 kg × (2 ms^{-1})2"
+            "\n"
+            "⦿ K.E. = 0.5 × 10 × 4 = 20 J\n"
+            "⦿ Final Answer: The moving body possesses 20 Joules of kinetic energy.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "12. A solid object of mass 100 kg is lifted vertically to a ledge located 2 m above ground.\n"
+            "(a) State the name of the energy acquired by the object owing to its updated elevation.\n"
+            "(b) Calculate the numerical value of this stored energy. [g = 10 ms^{-2}]\n"
+            "(BECE 2019 Q3a)",
+        answer: "Correct Answer: (a) Name of Acquired Energy:\n"
+            "⦿ Gravitational potential energy.\n\n"
+            "(b) Mathematical Calculation:\n"
+            "⦿ Formula: P.E. = m × g × h\n"
+            "⦿ Variables: m = 100 kg, g = 10 ms-2, h = 2 m\n"
+            "⦿ Execution: P.E. = 100 × 10 × 2 = 2000 J\n"
+            "⦿ Result: The total energy gained equals 2000 Joules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "13. Highlight three effective practical measures that households can adopt to conserve electrical energy.\n"
+            "(BECE 2025 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ Switch off electric lamps and lighting fixtures whenever vacating empty domestic spaces.\n"
+            "⦿ Unplug electrical appliances and electronic adapters from power outlets when they are not in active operation.\n"
+            "⦿ Plan household chores efficiently by ironing clothes in large combined batches rather than individual garments.",
         explanation: "",
       ),
     ],
   ),
 
-  "Science JHS1 s4 ss4 - Forces and Motion": PracticeModel(
+  "Science JHS1 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) State the SI unit of pressure.\n\n",
-        answer: "⦿ (a) Answer:\n\n"
-            "The SI unit of pressure is the pascal (Pa), which is equivalent to newton per square metre (N/m²).\n\n",
+        scenario: "(a) Name four types of force. (BECE 1992 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Gravitational force\n"
+            "⦿ Frictional force\n"
+            "⦿ Electrostatic force\n"
+            "⦿ Magnetic force",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(b) Give three applications of pressure in everyday life.\n\n",
-        answer: "⦿ (b) Answer :\n\n"
-            "• Sharp knives have small cutting edges, which produce high pressure and make cutting easier.\n\n"
-            "• Heavy vehicles and tractors have wide tyres to spread their weight over a larger area and reduce pressure on the ground.\n\n"
-            "• Buildings are constructed on wide foundations to spread their weight over a large area and prevent sinking or collapse.\n\n"
-            "• School bags have wide, padded straps to spread the load over the shoulders and reduce pressure.\n\n",
+        scenario: "(b) Explain the term friction.",
+        answer: "Correct Answer:\n"
+            "⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
-            "(c) Explain why it is easier to cut meat with a sharp knife than with a blunt one.\n\n",
-        answer: "⦿ (c) Answer:\n\n"
-            "A sharp knife has a smaller cutting-edge area than a blunt knife. When the same force is applied, the smaller area produces greater pressure, allowing the knife to cut through the meat more easily.\n\n",
+        scenario: "(c) Give two methods of reducing friction.",
+        answer: "Correct Answer:\n"
+            "⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+            "⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+            "⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4\n\n"
-            "(d) Explain why a wide belt is worn by an athlete when lifting heavy weights.",
-        answer: "⦿ (d) Answer:\n\n"
-            "A wide belt spreads the force over a larger area of the abdomen and lower back. This reduces pressure on the body, supports the spine and helps prevent injury.",
+        scenario: "(a) Define the term force. (BECE 1994 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 5\n\n"
-            "(a) State two ways in which friction can be reduced.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Apply lubricants such as oil, grease or graphite between surfaces in contact.\n\n"
-            "• Use rollers, wheels or ball bearings between moving surfaces.\n\n"
-            "• Streamline vehicles, aircraft and boats to reduce air or water resistance.\n\n"
-            "• Polish or smoothen surfaces in contact.\n\n",
+        scenario: "(b) State three types of force.",
+        answer: "Correct Answer:\n"
+            "⦿ Frictional force\n"
+            "⦿ Gravitational force\n"
+            "⦿ Electrostatic force",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 6\n\n"
-            "(b) State three ways in which force can affect a body.",
-        answer: "⦿ (b) Answer:\n\n"
-            "• It can cause a stationary body to start moving.\n\n"
-            "• It can cause a moving body to slow down or stop.\n\n"
-            "• It can increase or decrease the speed of a moving body.\n\n"
-            "• It can change the direction of motion of a body.\n\n"
-            "• It can change the shape or size of a body.",
+        scenario: "(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+            "(i) surface tension;\n"
+            "(ii) capillarity;\n"
+            "(iii) viscosity.",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+            "⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+            "⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Why does water wet glass?",
+        answer: "Correct Answer:\n"
+            "⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+        answer: "Correct Answer:\n"
+            "⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+            "⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+            "⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+        answer: "Correct Answer:\n"
+            "⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+            "⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+            "⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+            "⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+            "⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 1998 Q1b)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) State one way in which surface tension can be useful to man.",
+        answer: "Correct Answer:\n"
+            "⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+            "⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is capillary action? (BECE 1999 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State two processes which use capillary action.",
+        answer: "Correct Answer:\n"
+            "⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+            "⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+            "(a) 0.75 kgf\n"
+            "(b) 1.33 kgf",
+        answer: "Correct Answer:\n"
+            "⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+            "⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "What is an electrostatic force? (BECE 2000 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 2001 Q1a)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Name two household devices that make use of surface tension.",
+        answer: "Correct Answer:\n"
+            "⦿ Raincoats or umbrellas\n"
+            "⦿ Camping canvas tents\n"
+            "⦿ Liquid soap dispensers",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "State four effects of a force on a body. (BECE 2005 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ It can cause a stationary object to start moving.\n"
+            "⦿ It can accelerate or increase the velocity of a moving body.\n"
+            "⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+            "⦿ It can change the direction of motion of a body.\n"
+            "⦿ It can alter the shape, size, or physical structure of an object.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 2007 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Explain why the surface of water in a container is not flat but curved.",
+        answer: "Correct Answer:\n"
+            "⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Define pressure. (BECE 2008 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State three applications of pressure in everyday life.",
+        answer: "Correct Answer:\n"
+            "⦿ Pumping air into vehicle tires to maintain inflation.\n"
+            "⦿ Sucking liquids upward through drinking straws.\n"
+            "⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+            "⦿ Cutting items easily using sharpened knife blades.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+        answer: "Correct Answer:\n"
+            "⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+            "⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+            "⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+            "(a) What type of force made the steel needle to float?",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension force.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Name three substances that could be added to the water to make the steel needle to sink.",
+        answer: "Correct Answer:\n"
+            "⦿ Soap or liquid detergent\n"
+            "⦿ Kerosene\n"
+            "⦿ Engine oil or diesel",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Define pressure. (BECE 2017 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+            "(a) area of the cuboid;\n"
+            "(b) pressure exerted by the cuboid when it lies on its side.",
+        answer: "Correct Answer:\n"
+            "⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+            "⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+            "(a) acceleration of the vehicle;\n"
+            "(b) force that acts on the vehicle;\n"
+            "(c) final momentum when the vehicle comes to a stop.",
+        answer: "Correct Answer:\n"
+            "⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+            "⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+            "⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+        answer: "Correct Answer:\n"
+            "⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) Name four types of force. (BECE 1992 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Gravitational force\n"
+            "⦿ Frictional force\n"
+            "⦿ Electrostatic force\n"
+            "⦿ Magnetic force",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Explain the term friction.",
+        answer: "Correct Answer:\n"
+            "⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(c) Give two methods of reducing friction.",
+        answer: "Correct Answer:\n"
+            "⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+            "⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+            "⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Define the term force. (BECE 1994 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State three types of force.",
+        answer: "Correct Answer:\n"
+            "⦿ Frictional force\n"
+            "⦿ Gravitational force\n"
+            "⦿ Electrostatic force",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+            "(i) surface tension;\n"
+            "(ii) capillarity;\n"
+            "(iii) viscosity.",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+            "⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+            "⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Why does water wet glass?",
+        answer: "Correct Answer:\n"
+            "⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+        answer: "Correct Answer:\n"
+            "⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+            "⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+            "⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+        answer: "Correct Answer:\n"
+            "⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+            "⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+            "⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+            "⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+            "⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 1998 Q1b)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) State one way in which surface tension can be useful to man.",
+        answer: "Correct Answer:\n"
+            "⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+            "⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is capillary action? (BECE 1999 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State two processes which use capillary action.",
+        answer: "Correct Answer:\n"
+            "⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+            "⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+            "(a) 0.75 kgf\n"
+            "(b) 1.33 kgf",
+        answer: "Correct Answer:\n"
+            "⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+            "⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "What is an electrostatic force? (BECE 2000 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 2001 Q1a)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Name two household devices that make use of surface tension.",
+        answer: "Correct Answer:\n"
+            "⦿ Raincoats or umbrellas\n"
+            "⦿ Camping canvas tents\n"
+            "⦿ Liquid soap dispensers",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "State four effects of a force on a body. (BECE 2005 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ It can cause a stationary object to start moving.\n"
+            "⦿ It can accelerate or increase the velocity of a moving body.\n"
+            "⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+            "⦿ It can change the direction of motion of a body.\n"
+            "⦿ It can alter the shape, size, or physical structure of an object.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 2007 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Explain why the surface of water in a container is not flat but curved.",
+        answer: "Correct Answer:\n"
+            "⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Define pressure. (BECE 2008 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State three applications of pressure in everyday life.",
+        answer: "Correct Answer:\n"
+            "⦿ Pumping air into vehicle tires to maintain inflation.\n"
+            "⦿ Sucking liquids upward through drinking straws.\n"
+            "⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+            "⦿ Cutting items easily using sharpened knife blades.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+        answer: "Correct Answer:\n"
+            "⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+            "⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+            "⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+            "(a) What type of force made the steel needle to float?",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension force.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Name three substances that could be added to the water to make the steel needle to sink.",
+        answer: "Correct Answer:\n"
+            "⦿ Soap or liquid detergent\n"
+            "⦿ Kerosene\n"
+            "⦿ Engine oil or diesel",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Define pressure. (BECE 2017 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+            "(a) area of the cuboid;\n"
+            "(b) pressure exerted by the cuboid when it lies on its side.",
+        answer: "Correct Answer:\n"
+            "⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+            "⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+            "(a) acceleration of the vehicle;\n"
+            "(b) force that acts on the vehicle;\n"
+            "(c) final momentum when the vehicle comes to a stop.",
+        answer: "Correct Answer:\n"
+            "⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+            "⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+            "⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+        answer: "Correct Answer:\n"
+            "⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s4 ss4 - Force and Motion, Machines, Magnetism": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) Name four types of force. (BECE 1992 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Gravitational force\n"
+            "⦿ Frictional force\n"
+            "⦿ Electrostatic force\n"
+            "⦿ Magnetic force",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Explain the term friction.",
+        answer: "Correct Answer:\n"
+            "⦿ Friction is defined as an opposing force that comes into play whenever two solid surfaces move or attempt to move relative to each other while in contact.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(c) Give two methods of reducing friction.",
+        answer: "Correct Answer:\n"
+            "⦿ Applying lubricants such as oil or grease to sliding contact points.\n"
+            "⦿ Fitting ball bearings or roller bearings between moving parts.\n"
+            "⦿ Smoothing or polishing contacting surfaces to minimize surface roughness.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Define the term force. (BECE 1994 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ A force is defined as a push or a pull exerted on an object that alters or tends to alter its state of rest or uniform straight-line movement.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State three types of force.",
+        answer: "Correct Answer:\n"
+            "⦿ Frictional force\n"
+            "⦿ Gravitational force\n"
+            "⦿ Electrostatic force",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Explain each of the following terms: (BECE 1995 Q1)\n"
+            "(i) surface tension;\n"
+            "(ii) capillarity;\n"
+            "(iii) viscosity.",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the property of a liquid that causes its exposed boundary layer to behave like a stretched elastic membrane, resulting from cohesive intermolecular forces.\n"
+            "⦿ Capillarity refers to the spontaneous movement of a liquid upward or downward through a narrow tube or microscopic pores due to the balance of adhesive and cohesive forces.\n"
+            "⦿ Viscosity is the internal frictional resistance within a fluid that opposes the relative motion of adjacent fluid layers.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Why does water wet glass?",
+        answer: "Correct Answer:\n"
+            "⦿ Water wets glass because the adhesive forces of attraction between water molecules and glass molecules are stronger than the cohesive forces holding the water molecules together.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "State two examples of everyday observations which can be explained in terms of capillary action. (BECE 1997 Q1b)",
+        answer: "Correct Answer:\n"
+            "⦿ The gradual upward draw of liquid fuel along the wick of a kerosene lamp.\n"
+            "⦿ The absorption of liquid spills by blotting paper or paper towels.\n"
+            "⦿ The movement of groundwater upward through soil pore spaces to reach plant root zones.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Describe an experiment you performed to compare the viscosity of two liquids A and B. (BECE 1997 Q2d)",
+        answer: "Correct Answer:\n"
+            "⦿ Pour liquid A into a measuring cylinder and liquid B into an identical cylinder to equal depth levels.\n"
+            "⦿ Release one identical metal sphere gently from the top liquid level of cylinder A and simultaneously start a stopwatch.\n"
+            "⦿ Record the time duration taken for the ball to reach the base of the cylinder.\n"
+            "⦿ Repeat the exact same release procedure for cylinder B and record the fall time.\n"
+            "⦿ The cylinder in which the metal sphere takes a longer duration to sink to the bottom contains the liquid with higher viscosity.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 1998 Q1b)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is defined as the force acting along the boundary surface of a liquid that pulls the surface molecules inward, causing the exposed liquid surface to act like an elastic skin.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) State one way in which surface tension can be useful to man.",
+        answer: "Correct Answer:\n"
+            "⦿ It enables water to form a continuous film over rainproof fabrics like canvas tents or umbrellas, preventing water droplets from penetrating through tiny pore spaces.\n"
+            "⦿ It allows small aquatic organisms to remain supported on liquid surfaces.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is capillary action? (BECE 1999 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ Capillary action is the natural rise or depression of a liquid column inside a tiny bore tube or porous substrate.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State two processes which use capillary action.",
+        answer: "Correct Answer:\n"
+            "⦿ The absorption of moisture by cotton towels or sponge materials.\n"
+            "⦿ The drawing of liquid ink into porous paper fibers during writing or blotting.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Convert the following weights expressed in kilogram force (kgf) to newton (N): (BECE 1999 Q3c)\n"
+            "(a) 0.75 kgf\n"
+            "(b) 1.33 kgf",
+        answer: "Correct Answer:\n"
+            "⦿ For 0.75 kgf: Multiply 0.75 by 10 to obtain 7.5 N.\n"
+            "⦿ For 1.33 kgf: Multiply 1.33 by 10 to obtain 13.3 N.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "What is an electrostatic force? (BECE 2000 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ An electrostatic force is the non-contact force of attraction or repulsion exerted between stationary electrical charges.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 2001 Q1a)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the tendency of a liquid surface to shrink into the minimum possible surface area due to cohesive molecular forces, causing the surface to behave like a stretched membrane.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Name two household devices that make use of surface tension.",
+        answer: "Correct Answer:\n"
+            "⦿ Raincoats or umbrellas\n"
+            "⦿ Camping canvas tents\n"
+            "⦿ Liquid soap dispensers",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "State four effects of a force on a body. (BECE 2005 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ It can cause a stationary object to start moving.\n"
+            "⦿ It can accelerate or increase the velocity of a moving body.\n"
+            "⦿ It can decelerate, slow down, or bring a moving body to a complete halt.\n"
+            "⦿ It can change the direction of motion of a body.\n"
+            "⦿ It can alter the shape, size, or physical structure of an object.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) What is surface tension? (BECE 2007 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension is the elastic property of liquid surfaces brought about by cohesive forces between fluid molecules.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Explain why the surface of water in a container is not flat but curved.",
+        answer: "Correct Answer:\n"
+            "⦿ The surface curves forming a meniscus because the adhesive attraction between the water molecules and the container wall is stronger than the cohesive attraction among the water molecules themselves, pulling liquid edges upward along the wall.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Define pressure. (BECE 2008 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ Pressure is defined as the force exerted perpendicularly per unit surface area.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) State three applications of pressure in everyday life.",
+        answer: "Correct Answer:\n"
+            "⦿ Pumping air into vehicle tires to maintain inflation.\n"
+            "⦿ Sucking liquids upward through drinking straws.\n"
+            "⦿ Applying hydraulic jacks or fluid brake systems in automobiles.\n"
+            "⦿ Cutting items easily using sharpened knife blades.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Explain why it is easier to cut a piece of yam with a sharp knife than with a blunt knife. (BECE 2014 Q3e)",
+        answer: "Correct Answer:\n"
+            "⦿ A sharpened blade has a very tiny cross-sectional contact area along its edge.\n"
+            "⦿ When a force is applied, this small surface area concentrates the force to generate a very high pressure, allowing the knife to slice through the yam easily.\n"
+            "⦿ A blunt edge has a broader surface area, distributing the force and producing insufficient pressure.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "A steel needle carefully placed on the surface of water floats. (BECE 2014 Q4b)\n"
+            "(a) What type of force made the steel needle to float?",
+        answer: "Correct Answer:\n"
+            "⦿ Surface tension force.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(b) Name three substances that could be added to the water to make the steel needle to sink.",
+        answer: "Correct Answer:\n"
+            "⦿ Soap or liquid detergent\n"
+            "⦿ Kerosene\n"
+            "⦿ Engine oil or diesel",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Define pressure. (BECE 2017 Q3b)",
+        answer: "Correct Answer:\n"
+            "⦿ Pressure is the measure of force applied perpendicular to a given surface area, expressed mathematically as Pressure = Force / Area.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "If a cuboid of weight 100 N, has sides 5 cm by 10 cm, calculate the: (BECE 2021 Q6c)\n"
+            "(a) area of the cuboid;\n"
+            "(b) pressure exerted by the cuboid when it lies on its side.",
+        answer: "Correct Answer:\n"
+            "⦿ Calculate Area: Multiply length by breadth (10 cm\\times 5 cm) to obtain 50 cm^2.\n"
+            "⦿ Calculate Pressure: Divide force (100 N) by area (50 cm^2) to obtain 2 N/cm^2 (or 20,000 N/m^2).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "The mass of a vehicle accelerates to 150 ms^{-1} and travels at 100 ms^{-1}. The mass of the vehicle is 1000 kg and travels in 10 s, calculate the: (BECE 2024 Q3c)\n"
+            "(a) acceleration of the vehicle;\n"
+            "(b) force that acts on the vehicle;\n"
+            "(c) final momentum when the vehicle comes to a stop.",
+        answer: "Correct Answer:\n"
+            "⦿ Calculate Acceleration: Subtract initial velocity (100 ms^{-1}) from final velocity (150 ms^{-1}) and divide by time (10 s) to obtain 5 ms^{-2}.\n"
+            "⦿ Calculate Force: Multiply mass (1000 kg) by acceleration (5 ms^{-2}) to obtain 5000 N.\n"
+            "⦿ Calculate Final Momentum: When at rest, velocity is 0 ms^{-1}, so multiplying mass (1000 kg) by zero gives 0 kg ms^{-1}.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "A force of 10 N is exerted on a piece of yam using a knife of cross-sectional area 1\\times 10^{-3} m^2. Determine the pressure exerted. (BECE 2025 Q4a)",
+        answer: "Correct Answer:\n"
+            "⦿ Divide force (10 N) by area (1\\times 10^{-3} m^2) to calculate a pressure of 10,000 N/m^2 (or 10,000 Pa).",
         explanation: "",
       ),
     ],
@@ -14849,102 +17606,867 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "QUESTION 1\n\n"
-            "(a) List five garden tools.",
-        answer: "⦿ (a) Answer:\n\n"
-            "• Rake\n\n"
-            "• Hoe\n\n"
-            "• Shears\n\n"
-            "• Axe\n\n"
-            "• Watering can\n\n"
-            "• Hand fork\n\n"
-            "• Dibber\n\n"
-            "• Secateurs",
+        scenario: "(a) List four garden tools.",
+        answer: "Correct Answer:\n"
+            "⦿ Cutlass\n"
+            "⦿ Hoe\n"
+            "⦿ Rake\n"
+            "⦿ Garden shears",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 2\n\n"
-            "(b) Explain why a hoe is more suitable for weeding than a cutlass in crop farming.",
-        answer: "⦿ (b) Answer:\n\n"
-            "A hoe is more suitable for weeding because its wide blade helps to remove weeds from their roots, preventing them from growing back quickly.\n\n"
-            "A cutlass mainly cuts weeds at the surface, allowing them to regrow faster.",
+        scenario:
+            "(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+        answer:
+            "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+            "⦿ Hoe\n"
+            "⦿ Rake\n\n"
+            "(ii) The functions of the selected implements:\n"
+            "⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+            "⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s4 ss5 - Agricultural Tools": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) List four garden tools.",
+        answer: "Correct Answer:\n"
+            "⦿ Cutlass\n"
+            "⦿ Hoe\n"
+            "⦿ Rake\n"
+            "⦿ Garden shears",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 3\n\n"
-            "(c) State four ways of maintaining agricultural tools.",
-        answer: "⦿ (c) Answer:\n\n"
-            "• Use the right tool for the right purpose.\n\n"
-            "• Wash and clean tools after use.\n\n"
-            "• Sharpen tools with blades regularly.\n\n"
-            "• Apply oil to metal parts to prevent rust.\n\n"
-            "• Store tools in a dry place after cleaning.\n\n"
-            "• Regularly inspect broken or damaged handles and repair them.\n\n"
-            "• Fix or replace broken handles.",
+        scenario:
+            "(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+        answer:
+            "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+            "⦿ Hoe\n"
+            "⦿ Rake\n\n"
+            "(ii) The functions of the selected implements:\n"
+            "⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+            "⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s4 ss5 - Agricultural Tools": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) List four garden tools.",
+        answer: "Correct Answer:\n"
+            "⦿ Cutlass\n"
+            "⦿ Hoe\n"
+            "⦿ Rake\n"
+            "⦿ Garden shears",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 4\n\n"
-            "(d) A farmer wants to dig holes for planting maize. Which tool should the farmer use and why?",
-        answer: "⦿ (d) Answer:\n\n"
-            "The farmer should use a dibber because it is designed to make small holes at the required depth.\n\n"
-            "It helps to place seeds at the correct depth without disturbing the surrounding soil.",
+        scenario:
+            "(b) A student was tasked to prepare a raised nursery bed for nursing tomato seeds: (i) Suggest two simple tools that could be used in the nursery bed preparation; (ii) State one function each of the tools listed in (i).",
+        answer:
+            "Correct Answer: (i) Implements suitable for preparing the nursery plot include:\n"
+            "⦿ Hoe\n"
+            "⦿ Rake\n\n"
+            "(ii) The functions of the selected implements:\n"
+            "⦿ Hoe: Used for breaking and digging soil, as well as clearing unwanted weeds from the land.\n"
+            "⦿ Rake: Used for levelling the seedbed surface and removing stones, leaves, or loose debris.",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) (i) Define the terms humidity and wind.\n"
+            "(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+            "(BECE 1997 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+            "⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+            "⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+            "⦿ **Instrument for measuring wind speed:** Anemometer.",
         explanation: "",
       ),
       PracticeQuestion(
-        scenario: "QUESTION 5\n\n"
-            "(e) Suggest two ways farmers can improve the efficiency of their cutlasses and hoes.",
-        answer: "⦿ (e) Answer:\n\n"
-            "• Sharpen the blades regularly to make cutting and digging easier.\n\n"
-            "• Use strong and durable handles to improve grip and control during use.\n\n"
-            "• Use the tools for their intended purposes.\n\n"
-            "• Wash and clean the tools immediately after use.",
+        scenario:
+            "(a) Name four main factors which determine the climate of a place.\n"
+            "(BECE 1999 Q1c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+            "⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+            "⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+            "⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+            "⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+            "⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+            "⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+            "⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) State two elements of climate.\n"
+            "(ii) What is the difference between climate and weather?\n"
+            "(BECE 2010 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+            "⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+            "⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) State one use each of the following instruments used in the study of the weather:\n"
+            "(i) rain gauge;\n"
+            "(ii) hygrometer;\n"
+            "(iii) anemometer.\n"
+            "(BECE 2013 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+            "⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+            "⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) State two elements of climate.\n"
+            "(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+            "(BECE 2014 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+            "⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+            "⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+            "⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+            "⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+            "⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+            "⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Name four weather measuring instruments.\n"
+            "(BECE 2016 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ **Thermometer:** Monitors temperature conditions.\n"
+            "⦿ **Rain gauge:** Records precipitation amounts.\n"
+            "⦿ **Anemometer:** Measures wind velocity.\n"
+            "⦿ **Barometer:** Determines atmospheric pressure.\n"
+            "⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+            "⦿ **Wind vane:** Tracks wind movement directions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) What is weather?\n"
+            "(ii) State two differences between weather and season.\n"
+            "(BECE 2018 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+            "⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+            "⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+            "⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+            "(ii) Name two primary green-house gases associated with industrialization.\n"
+            "(BECE 2025 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+            "⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+            "⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+            "⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+            "⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+            "⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+            "⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+            "⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) (i) Define the terms humidity and wind.\n"
+            "(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+            "(BECE 1997 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+            "⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+            "⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+            "⦿ **Instrument for measuring wind speed:** Anemometer.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) Name four main factors which determine the climate of a place.\n"
+            "(BECE 1999 Q1c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+            "⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+            "⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+            "⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+            "⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+            "⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+            "⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+            "⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) State two elements of climate.\n"
+            "(ii) What is the difference between climate and weather?\n"
+            "(BECE 2010 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+            "⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+            "⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) State one use each of the following instruments used in the study of the weather:\n"
+            "(i) rain gauge;\n"
+            "(ii) hygrometer;\n"
+            "(iii) anemometer.\n"
+            "(BECE 2013 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+            "⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+            "⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) State two elements of climate.\n"
+            "(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+            "(BECE 2014 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+            "⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+            "⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+            "⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+            "⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+            "⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+            "⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Name four weather measuring instruments.\n"
+            "(BECE 2016 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ **Thermometer:** Monitors temperature conditions.\n"
+            "⦿ **Rain gauge:** Records precipitation amounts.\n"
+            "⦿ **Anemometer:** Measures wind velocity.\n"
+            "⦿ **Barometer:** Determines atmospheric pressure.\n"
+            "⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+            "⦿ **Wind vane:** Tracks wind movement directions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) What is weather?\n"
+            "(ii) State two differences between weather and season.\n"
+            "(BECE 2018 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+            "⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+            "⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+            "⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+            "(ii) Name two primary green-house gases associated with industrialization.\n"
+            "(BECE 2025 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+            "⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+            "⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+            "⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+            "⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+            "⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+            "⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+            "⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s5 ss4 - Weather and Climate / Green Economy": PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) (i) Define the terms humidity and wind.\n"
+            "(ii) Name the instruments used to measure humidity and the speed of wind.\n"
+            "(BECE 1997 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ **Humidity:** Refers to the concentration of water vapour held within atmospheric air.\n"
+            "⦿ **Wind:** Describes atmospheric air moving dynamically across the environment.\n"
+            "⦿ **Instrument for measuring humidity:** Hygrometer.\n"
+            "⦿ **Instrument for measuring wind speed:** Anemometer.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) Name four main factors which determine the climate of a place.\n"
+            "(BECE 1999 Q1c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Temperature:** The degree of atmospheric warmth recorded over long periods.\n"
+            "⦿ **Rainfall:** The frequency and quantity of liquid precipitation received by an area.\n"
+            "⦿ **Wind:** The movement patterns and speeds of atmospheric air currents.\n"
+            "⦿ **Vegetation:** The density and types of plant life covering the landscape.\n"
+            "⦿ **Humidity:** The prevalence of invisible water vapour in the surrounding atmosphere.\n"
+            "⦿ **Sunlight:** The intensity and duration of solar radiation reaching the surface.\n"
+            "⦿ **Latitude:** The distance of a geographical position north or south of the equator.\n"
+            "⦿ **Altitude:** The height of a land mass relative to mean sea level.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) State two elements of climate.\n"
+            "(ii) What is the difference between climate and weather?\n"
+            "(BECE 2010 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Elements of climate:** Key parameters include temperature, rainfall, humidity, wind velocity, atmospheric pressure, and sunlight intensity.\n"
+            "⦿ **Weather definition:** Represents short-term changes in local atmospheric conditions recorded across hours or days.\n"
+            "⦿ **Climate definition:** Represents long-term trends of environmental conditions calculated from extended data collected over decades.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) State one use each of the following instruments used in the study of the weather:\n"
+            "(i) rain gauge;\n"
+            "(ii) hygrometer;\n"
+            "(iii) anemometer.\n"
+            "(BECE 2013 Q6b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Rain gauge:** Captures and evaluates the exact volume of liquid precipitation collected over a specific timeframe.\n"
+            "⦿ **Hygrometer:** Calculates the relative proportion of moisture vapour within atmospheric air.\n"
+            "⦿ **Anemometer:** Measures the speed and kinetic energy of moving air currents.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) State two elements of climate.\n"
+            "(ii) Name the equipment used to measure each of the elements stated in (i) above.\n"
+            "(BECE 2014 Q4d)",
+        answer: "Correct Answer:\n"
+            "⦿ **Temperature:** Evaluated using a thermometer to determine thermal conditions.\n"
+            "⦿ **Rainfall:** Measured using a rain gauge to collect liquid precipitation values.\n"
+            "⦿ **Humidity:** Assessed using a hygrometer to record atmospheric moisture content.\n"
+            "⦿ **Wind direction:** Determined using a wind vane to indicate air current pathways.\n"
+            "⦿ **Wind speed:** Calculated using an anemometer to monitor air flow movement.\n"
+            "⦿ **Light intensity:** Recorded using a photometer to measure solar radiation levels.\n"
+            "⦿ **Atmospheric pressure:** Monitored using a barometer to track air weight forces.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) Name four weather measuring instruments.\n"
+            "(BECE 2016 Q2a)",
+        answer: "Correct Answer:\n"
+            "⦿ **Thermometer:** Monitors temperature conditions.\n"
+            "⦿ **Rain gauge:** Records precipitation amounts.\n"
+            "⦿ **Anemometer:** Measures wind velocity.\n"
+            "⦿ **Barometer:** Determines atmospheric pressure.\n"
+            "⦿ **Hygrometer:** Evaluates air humidity levels.\n"
+            "⦿ **Wind vane:** Tracks wind movement directions.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(a) (i) What is weather?\n"
+            "(ii) State two differences between weather and season.\n"
+            "(BECE 2018 Q4c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Weather definition:** Weather represents the short-term physical state of the local atmosphere monitored over brief periods.\n"
+            "⦿ **Timeframe difference:** Weather undergoes rapid shifts within hours or days, whereas a season endures for several continuous months.\n"
+            "⦿ **Geographic scope:** Weather affects specific local environments, while a season spans large regional territories.\n"
+            "⦿ **Primary cause:** Weather is driven by fluctuating local air masses, whereas seasons are governed by global planetary movements around the Sun.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(a) (i) State four activities that could be undertaken to ensure a green economy in Ghana.\n"
+            "(ii) Name two primary green-house gases associated with industrialization.\n"
+            "(BECE 2025 Q2c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Waste management:** Creating structured recycling channels to minimize environmental refuse.\n"
+            "⦿ **Clean energy development:** Investing directly in renewable power sources like solar and wind technology.\n"
+            "⦿ **Climate adjustment measures:** Implementing long-term strategies to withstand changing weather patterns.\n"
+            "⦿ **Public health support:** Funding healthcare systems to improve population well-being and resilience.\n"
+            "⦿ **Resource conservation:** Using materials and natural assets efficiently to curb ecological destruction.\n"
+            "⦿ **Forest restoration:** Conducting tree planting initiatives to preserve existing natural ecosystems.\n"
+            "⦿ **Sustainable transport:** Deploying public transit fleets and electric vehicles to lower carbon outputs.\n"
+            "⦿ **Primary greenhouse gases:** Carbon dioxide (CO2​), Methane (CH4​), and Nitrous oxide (N2​O).",
+        explanation: "",
+      ),
+    ],
+  ),
+
+  "Science JHS1 s5 ss5 - Diffusion & Osmosis / Pests & Parasites":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+        answer: "Correct Answer:\n"
+            "⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+            "⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Define the term osmosis. (BECE 1997 Q1a)",
+        answer: "Correct Answer:\n"
+            "⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+            "⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+        answer: "Correct Answer:\n",
+        answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          [
+            "Substance Involved",
+            "Restricted strictly to the movement of water or solvent molecules.",
+            "Applies to particles of any state of matter, including solids, liquids, and gases."
+          ],
+          [
+            "Membrane Requirement",
+            "Requires a semi-permeable membrane to separate the two regions.",
+            "Occurs freely without requiring any biological or physical membrane barrier."
+          ],
+          [
+            "Direction of Flow",
+            "Water molecules travel from a dilute solution towards a more concentrated solution.",
+            "Particles travel directly from an area of higher concentration towards an area of lower concentration."
+          ],
+          [
+            "Medium Requirement",
+            "Can only take place within a liquid medium.",
+            "Occurs across gas phases, liquid solutions, and solid mixtures."
+          ],
+        ],
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+            "⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+            "⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+            "(i) absorption of water by the roots of a plant\n"
+            "(ii) movement of digested food from the small intestine into the bloodstream",
+        answer: "Correct Answer:\n"
+            "⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+            "⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+        answer: "Correct Answer:\n"
+            "⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+            "Examples:\n"
+            "⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+            "⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+            "⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+            "⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+        answer: "Correct Answer:\n"
+            "⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+            "⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+            "⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+            "⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+            "(i) ectoparasites\n"
+            "(ii) endoparasites",
+        answer: "Correct Answer:\n"
+            "⦿ (i) **Ectoparasite control methods:**\n"
+            "⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+            "⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+            "⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+            "⦿ (ii) **Endoparasite control methods:**\n"
+            "⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+            "⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+            "⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+            "⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+            "⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+            "⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+        answer: "Correct Answer:\n"
+            "⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+        answer: "Correct Answer:\n"
+            "⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+            "⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+            "Advantages:\n"
+            "⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+            "⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS2 s5 ss5 - Diffusion & Osmosis / Pests & Parasites":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+        answer: "Correct Answer:\n"
+            "⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+            "⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Define the term osmosis. (BECE 1997 Q1a)",
+        answer: "Correct Answer:\n"
+            "⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+            "⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+        answer: "Correct Answer:\n",
+        answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          [
+            "Substance Involved",
+            "Restricted strictly to the movement of water or solvent molecules.",
+            "Applies to particles of any state of matter, including solids, liquids, and gases."
+          ],
+          [
+            "Membrane Requirement",
+            "Requires a semi-permeable membrane to separate the two regions.",
+            "Occurs freely without requiring any biological or physical membrane barrier."
+          ],
+          [
+            "Direction of Flow",
+            "Water molecules travel from a dilute solution towards a more concentrated solution.",
+            "Particles travel directly from an area of higher concentration towards an area of lower concentration."
+          ],
+          [
+            "Medium Requirement",
+            "Can only take place within a liquid medium.",
+            "Occurs across gas phases, liquid solutions, and solid mixtures."
+          ],
+        ],
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+            "⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+            "⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+            "(i) absorption of water by the roots of a plant\n"
+            "(ii) movement of digested food from the small intestine into the bloodstream",
+        answer: "Correct Answer:\n"
+            "⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+            "⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+        answer: "Correct Answer:\n"
+            "⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+            "Examples:\n"
+            "⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+            "⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+            "⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+            "⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+        answer: "Correct Answer:\n"
+            "⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+            "⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+            "⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+            "⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+            "(i) ectoparasites\n"
+            "(ii) endoparasites",
+        answer: "Correct Answer:\n"
+            "⦿ (i) **Ectoparasite control methods:**\n"
+            "⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+            "⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+            "⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+            "⦿ (ii) **Endoparasite control methods:**\n"
+            "⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+            "⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+            "⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+            "⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+            "⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+            "⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+        answer: "Correct Answer:\n"
+            "⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+        answer: "Correct Answer:\n"
+            "⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+            "⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+            "Advantages:\n"
+            "⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+            "⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
+        explanation: "",
+      ),
+    ],
+  ),
+  "Science JHS3 s5 ss5 - Diffusion & Osmosis / Pests & Parasites":
+      PracticeModel(
+    audioPath: '',
+    questions: [
+      PracticeQuestion(
+        scenario: "(a) Explain the term diffusion. (BECE 1995 Q1a[i])",
+        answer: "Correct Answer:\n"
+            "⦿ Diffusion represents the net physical movement of individual particles, including atoms, ions, or molecules, migrating from a zone higher in concentration towards a region lower in concentration.\n"
+            "⦿ The mechanism relies upon the intrinsic kinetic energy possessed by the particles, persisting continuously until an even distribution across the space is fully established.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "(b) Define the term osmosis. (BECE 1997 Q1a)",
+        answer: "Correct Answer:\n"
+            "⦿ Osmosis is defined as the net movement of water molecules passing through a semi-permeable membrane from a region containing a higher concentration of water to one of a lower water concentration.\n"
+            "⦿ It can equally be described as the selective movement of solvent molecules migrating from a less concentrated solution into a more concentrated solution across a selectively permeable membrane barrier.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(c) In a tabular form, state three differences between osmosis and diffusion. (BECE 2018 Q4b)",
+        answer: "Correct Answer:\n",
+        answerTableHeaders: ["Parameter", "Osmosis", "Diffusion"],
+        answerTableData: [
+          [
+            "Substance Involved",
+            "Restricted strictly to the movement of water or solvent molecules.",
+            "Applies to particles of any state of matter, including solids, liquids, and gases."
+          ],
+          [
+            "Membrane Requirement",
+            "Requires a semi-permeable membrane to separate the two regions.",
+            "Occurs freely without requiring any biological or physical membrane barrier."
+          ],
+          [
+            "Direction of Flow",
+            "Water molecules travel from a dilute solution towards a more concentrated solution.",
+            "Particles travel directly from an area of higher concentration towards an area of lower concentration."
+          ],
+          [
+            "Medium Requirement",
+            "Can only take place within a liquid medium.",
+            "Occurs across gas phases, liquid solutions, and solid mixtures."
+          ],
+        ],
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(d) Explain briefly why a tomato plant is likely to wilt if too much fertilizer is applied to it. (BECE 2012 Q3a)",
+        answer: "Correct Answer:\n"
+            "⦿ Excessive application of fertilizer dramatically elevates the dissolved solute level within the surrounding soil water, generating a hypertonic environment relative to the interior of the plant's root cells.\n"
+            "⦿ Water within the root system responds by exiting the cells into the soil via osmosis, moving along the concentration gradient from higher internal water potential to lower external water potential.\n"
+            "⦿ This loss of internal fluid diminishes turgor pressure within the plant tissue, causing the stem and leaves to lose structural rigidity and ultimately wilt.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(e) Classify each of the following processes as diffusion or osmosis: (BECE 2020 Q5b[ii])\n"
+            "(i) absorption of water by the roots of a plant\n"
+            "(ii) movement of digested food from the small intestine into the bloodstream",
+        answer: "Correct Answer:\n"
+            "⦿ (i) The uptake of soil water by plant root hair cells takes place through **osmosis**.\n"
+            "⦿ (ii) The transfer of broken-down food nutrients across the intestinal lining into blood capillaries proceeds by **diffusion**.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(f) What is a parasite? Give two examples of parasites and their hosts. (BECE 1994 Q1c)",
+        answer: "Correct Answer:\n"
+            "⦿ A parasite is defined as any living organism that establishes a living relationship on or within a host organism, acquiring vital sustenance and accommodation while inflicting measurable harm upon the host.\n\n"
+            "Examples:\n"
+            "⦿ **Tapeworm**: Operates as an internal parasite residing inside the digestive tracts of humans, pigs, or cattle.\n"
+            "⦿ **Dodder**: Functions as a parasitic plant that attaches itself to stems of host vegetation like milk bush.\n"
+            "⦿ **Tick**: Serves as an external parasite clinging to the outer skin surface of canine or bovine hosts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(g) Give two differences between a parasite and a vector. (BECE 2005 Q5a)",
+        answer: "Correct Answer:\n"
+            "⦿ A parasite directly feeds on or extracts vital biological resources from its host to cause direct physiological damage, whereas a vector primarily acts as an intermediary agent that transfers disease-causing pathogens from infected entities to fresh hosts.\n"
+            "⦿ Parasites usually require prolonged residence on or inside the host organism for continuous survival, whereas vectors typically interact briefly with host bodies solely to transmit pathogens or source a meal.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(h) Write down the names of three endo-parasites and their hosts. (BECE 2005 Q5a[ii])",
+        answer: "Correct Answer:\n"
+            "⦿ **Plasmodium**: Uses human blood cells and tissues as its primary host environment.\n"
+            "⦿ **Tapeworm**: Inhabits the intestinal cavities of cattle, swine, and humans.\n"
+            "⦿ **Hookworm**: Takes up residence inside the mucosal lining of the human small intestine.\n"
+            "⦿ **Guinea worm**: Inhabits subcutaneous tissues within infected human hosts.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(i) Mention two methods of controlling each of the following types of pests of farm animals: (BECE 2010 Q4a[ii])\n"
+            "(i) ectoparasites\n"
+            "(ii) endoparasites",
+        answer: "Correct Answer:\n"
+            "⦿ (i) **Ectoparasite control methods:**\n"
+            "⦿ Dipping or spraying livestock periodically using chemical acaricides or specialized antiparasitic formulations.\n"
+            "⦿ Practicing structured pasture rotation to eliminate parasites awaiting hosts on unmanaged grazing land.\n"
+            "⦿ Manually removing visible parasites, such as ticks, directly from the skin of animals.\n"
+            "⦿ (ii) **Endoparasite control methods:**\n"
+            "⦿ Administering targeted deworming drugs or anthelmintics to livestock on a scheduled maintenance cycle.\n"
+            "⦿ Ensuring farm animals access only clean, uncontaminated drinking supplies to prevent intake of parasitic eggs or cysts.\n"
+            "⦿ Managing pastures by keeping animals off damp grass during early hours when larvae are most active.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(j) Mention four classes of insect pests based on their feeding habits. (BECE 2013 Q4b)",
+        answer: "Correct Answer:\n"
+            "⦿ **Biting and chewing insects**: Equipped with strong mandibles adapted for cutting, shredding, and consuming plant foliage and stems (such as grasshoppers or locusts).\n"
+            "⦿ **Piercing and sucking insects**: Possess specialized mouthparts designed to puncture plant or animal tissues to extract sap or bodily fluids (such as aphids or mosquitoes).\n"
+            "⦿ **Boring insects**: Capable of tunneling directly into seeds, crop stems, or harvested grain to feed internally (such as stem borers or weevils).\n"
+            "⦿ **Rasping and sucking insects**: Abrasively scrape surface tissue off plant structures before absorbing released cellular juices (such as thrips).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(k) Give one example of a chemical method of controlling pests on crop farms. (BECE 2017 Q6d[ii])",
+        answer: "Correct Answer:\n"
+            "⦿ Applying formulated chemical agents, such as spraying synthetic insecticides or fungicides onto crop fields to suppress pest populations.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(l) Differentiate between pests and parasites as used in agriculture, giving an example of each. (BECE 2018 Q2b)",
+        answer: "Correct Answer:\n"
+            "⦿ A **pest** encompasses any living organism that brings about physical destruction, yield reduction, or impairment to agricultural crops, livestock, or stored farm produce (such as grain weevils or armyworms).\n"
+            "⦿ A **parasite** refers specifically to an organism that derives its required nutrients directly at the continuous expense and harm of a host plant or animal on which it lives (such as ticks or dodder plants).",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "(m) What is Integrated Pest Management (IPM)? State two advantages of practicing integrated pest management. (BECE 2020 Q6c)",
+        answer: "Correct Answer:\n"
+            "⦿ **Integrated Pest Management (IPM)** represents an ecological approach to agricultural protection that combines physical, biological, cultural, and precise chemical strategies to suppress pest numbers below damaging thresholds.\n\n"
+            "Advantages:\n"
+            "⦿ It minimizes reliance on broad-spectrum chemical pesticides, substantially reducing toxic residues left behind on harvested crops and surrounding soil environments.\n"
+            "⦿ It offers long-term cost savings while preventing pest species from rapidly developing physiological resistance against chemical treatments.",
         explanation: "",
       ),
     ],
   ),
 
   // ─── RELIGIOUS & MORAL EDUCATION ──────────────────────────────────────
-  "Religious & Moral Education JHS1 s1 ss1 - God, His Creation and Attributes":
+  "Religious & Moral Education JHS1 s1 ss1 - Religion, God, His Creation and Attributes":
       PracticeModel(
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) State five things created by God. \n "
+        scenario: "Question 1: (a) State five things created by God.\n"
             "(b) Explain the usefulness of any three of them to mankind.\n"
             "(BECE 1999 Q1)",
-        answer: "Correct Answer: (a) Answer: Animals\n"
-            "⦿ Trees or Plants\n"
-            "⦿ Light (sun, moon and stars)\n"
+        answer: "Correct Answer: (a) Five things created by God:\n"
+            "⦿ Animals\n"
+            "⦿ Trees and plants\n"
+            "⦿ Light (the sun, moon and stars)\n"
             "⦿ Water bodies\n"
             "⦿ Land\n\n"
-            "Answer: \n"
-            "Animals:   ⦿ Some animals and their products serve as food for mankind.\n"
-            "   ⦿ Strong animals like donkeys and camels help to transport people and things to places.\n"
-            "   ⦿ Bulls help to plough farm lands.\n"
-            "   ⦿ Animals like dogs, monkeys, parrots and geese can be good security guards.\n\n"
-            "Trees or Plants: "
-            "   ⦿  Most plants and their fruits serve as sources of food for mankind.\n"
-            "   ⦿ The stems, roots, leaves and barks of some plants serve as medicine and ingredients for preparation of medicines for mankind.\n"
-            "   ⦿ Some plants, called ornamental plants, are used to beautify the environments due to their attractive nature.\n"
-            "   ⦿ Plants provide oxygen for mankind.\n"
-            "   ⦿ Plants serve as shelter for mankind.\n"
-            "   ⦿ Furniture and building materials are derived from plants.\n\n"
-            "Light (moon, sun and stars):"
-            "   ⦿ They help us to see the power of God.\n"
-            "   ⦿ They enable mankind to calculate times and seasons.\n"
-            "   ⦿ They help us to get directions.\n"
-            "   ⦿ They make it possible for mankind to see.\n\n"
-            "Water bodies:"
-            "   ⦿ They provide us with water for irrigation purposes.\n"
-            "   ⦿ Water bodies can serve as means of transportation.\n"
-            "   ⦿ Salt is generated from the sea water.\n"
-            "   ⦿ They serve as source of good drinking water for mankind.\n\n"
-            "Land:"
-            "   ⦿ They serve as living abode or place for mankind.\n"
-            "   ⦿ Precious minerals like gold, silver, diamond, bauxite, etc mined from the land are used to manufacture tools and ornaments.\n"
-            "   ⦿ It serves as source of habitat for animals that provide food for mankind.\n"
-            "   ⦿ It supports the growth of plants which further provides food and herbs for mankind.",
+            "(b) Usefulness of three of these to mankind:\n"
+            "⦿ Animals: Many creatures and what they produce give people food to eat. Working animals such as donkeys and camels are used to carry goods and passengers from place to place, while oxen are used to plough fields. Certain animals, including dogs and geese, are kept to guard homes and property.\n"
+            "⦿ Water bodies: Rivers, lakes and seas supply water needed to irrigate farmland, and can also be used as routes for moving people and goods. Sea water is processed to produce salt, which is used for both drinking-water treatment and other everyday purposes.\n"
+            "⦿ Land: The earth provides the ground on which people live and build their homes. Valuable resources such as gold, silver, diamonds and bauxite are dug from the earth and turned into tools, jewellery and other useful items. Land also supports the growth of plants, which in turn provide food and medicine for humankind.",
         explanation: ".",
       ),
       PracticeQuestion(
@@ -14952,188 +18474,109 @@ final Map<String, PracticeModel> becePracticeData = {
             "Question 2: (a) Narrate the story of creation in the Bible.\n"
             "(b) Mention three attributes of God which can be learnt from the story.\n"
             "(BECE 2001 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ On the first day: God created Heaven and Earth filled with darkness. He separated the light, which He called day from the darkness He called night.\n"
-            "⦿ On the second day: He created the firmament (which is the sky) among the water on the earth. He used the sky to divide the waters above the sky and below it.\n"
-            "⦿ On the third day: He gathered the waters below the sky and called it the seas and created a dry land called the Earth, which He made plants of all kinds to grow on.\n"
-            "⦿ On the fourth day: He created the sun, moon and stars that produce light to control the days and the nights, seasons and years. The sun for the day, moon and stars for the night.\n"
-            "⦿ On the fifth day: He created the birds, all the winged animals and animals in the seas and blessed them to reproduce their kinds.\n"
-            "⦿ On the sixth day: He created other animals which were not created on the fifth day and created human being (male and female) and gave them dominion over all that He created and blessed them to reproduce to replenish the earth.\n"
-            "⦿ On the seventh day: He rested after seeing that all He created was good.\n\n"
-            "(b) Answer: \n"
-            "⦿ God is omnipotent: God is all powerful and almighty who can do all things according his will.\n"
-            "⦿ God is omniscient: God is all knowing.\n"
-            "⦿ God is all loving: God loves all that he has created.\n"
-            "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
+        answer: "Correct Answer: (a) The story of creation:\n"
+            "⦿ Day one: God brought the heavens and the earth into being out of darkness. He separated light from darkness, naming the light \"day\" and the darkness \"night.\"\n"
+            "⦿ Day two: God formed a space, the sky, between the waters, dividing those above from those below.\n"
+            "⦿ Day three: God gathered the waters beneath the sky into one place, allowing dry ground to appear, which He named \"earth,\" while the gathered waters became the \"seas.\" He then commanded vegetation to spring up on the land.\n"
+            "⦿ Day four: God set the sun, moon and stars in place to give light, mark seasons, and distinguish day from night.\n"
+            "⦿ Day five: God filled the seas with living creatures and filled the skies with birds, blessing them to multiply.\n"
+            "⦿ Day six: God created land animals, and finally made humankind, male and female, in His own image, giving them authority over all other living things.\n"
+            "⦿ Day seven: Having completed His work and seen that it was good, God rested.\n\n"
+            "(b) Three attributes of God learnt from the story:\n"
+            "⦿ Omnipotence: God is all-powerful, able to bring an entire universe into being simply by speaking.\n"
+            "⦿ Omniscience: God's wisdom and knowledge are shown in how orderly and purposeful the whole process of creation was.\n"
+            "⦿ All-loving nature: God's care is shown through His concern that everything He made was good, and through His blessing of living things to multiply and flourish.",
         explanation: ".",
       ),
       PracticeQuestion(
-        scenario: "Question 3: (a) What is revelation in Islam?\n"
-            "(b) Identify the importance of revelation to the Muslim.\n"
+        scenario:
+            "Question 3: (a) Explain any three attributes of God from the Islamic point of view.\n"
+            "(b) State the importance of revelation to the Muslim.\n"
             "(BECE 2002A Q3)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "In Islam, revelation simply means making known the hidden things about Allah and his will to mankind (Muslims). It is believed that this revelation comes through angels, divine inspiration, Allah's word and visions.\n\n"
-            "Answer: (b)\n"
-            "⦿ It reveals the Islamic values and virtues.\n"
-            "⦿ It reveals the truth about Allah and his will in the world in the form of commandment.\n"
-            "⦿ It teaches the Muslim how to worship and serve Allah.\n"
-            "⦿ It reveals the promise of Allah to Muslims.\n"
-            "⦿ It teaches Muslims how to treat others.",
+        answer: "Correct Answer: (a) Three attributes of God in Islam:\n"
+            "⦿ Truthful and virtuous: He reveals what is right and just in the world.\n"
+            "⦿ Merciful: He shows compassion towards His creation.\n"
+            "⦿ Guide: He teaches Muslims how they ought to live and worship.\n\n"
+            "(b) Importance of revelation to the Muslim:\n"
+            "⦿ It shows Muslims the truth about Allah and His will for humankind.\n"
+            "⦿ It reveals the character and virtues of Allah and teaches proper family conduct, similar to how a parent guides a child.\n"
+            "⦿ It clarifies what is expected of the believer in worship and daily life.\n"
+            "⦿ It confirms that death is the final departure from this world, and that another life follows.\n"
+            "⦿ It shows Muslims how to treat one another fairly and kindly.\n"
+            "⦿ Through the Prophet, revelation gave the Muslim community tools to distinguish right from wrong and to govern their affairs justly.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 4: (a) Narrate one African Traditional story on creation.\n"
-            "(b) Explain any three attributes of God in the creation story.\n"
+            "Question 4: Narrate one African Traditional story on creation.\n"
             "(BECE 2003 Q3)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "An Ewe traditional myth on creation:\n"
-            "⦿ The Ewe traditionalists believe that God (Mawu) created all things in the world.\n"
-            "⦿ It is believed that before creation, the earth was void, without form and was filled with darkness.\n"
-            "⦿ God then created human beings out of clay and water after creating the earth.\n"
-            "⦿ He created the soul to give man life and to act as a guardian spirit.\n"
-            "⦿ The soul of every human being was commanded to return to God after death to receive either a reward or punishment, depending on the life one lived on earth.\n"
-            "⦿ It is also believed that after some time, God could not create any human beings because of scarcity of clay; therefore, he uses dead bodies to create new ones, thus the resemblance of children to their parents.\n"
-            "⦿ It is also believed that because of disturbances and troubles from human beings God moved up into the sky.\n"
-            "⦿ After His departure, he sent his eldest son, Lisa with a sword to clear the forest to make tools.\n"
-            "⦿ God used those tools made by Lisa to divide the world among his sons.\n"
-            "⦿ One was to control the sky; that is, thunder and light.\n"
-            "⦿ Another was to control all the creatures. Specifically, the beasts, birds and trees were to be controlled by some of His sons.\n\n"
-            "OR\n\n"
-            "An Akan traditional myth on creation:\n"
-            "⦿ According to Akan traditionalists, God first created the Court Crier (Essen). He represents order.\n"
-            "⦿ He then created the earth and plants.\n"
-            "⦿ He made the sky, the rivers and plants in that order.\n"
-            "⦿ He made animals and all other living things.\n"
-            "⦿ Next to be created was human beings to feed on both plants and animals.\n"
-            "⦿ They also believe that because God wanted human beings to be protected, he created the spirits.\n"
-            "⦿ These spirits are believed to be in the forests, water bodies and on mountains.\n"
-            "⦿ He then created the drummer (Okyerema) who represents knowledge.\n"
-            "⦿ He finally created death. Thus, the institution on the fact that death is the end of life on earth.\n\n"
-            "Answer: (b)\n"
-            "⦿ God is omnipotent: God is all powerful and almighty who can do all things according his will.\n"
-            "⦿ God is omniscient: God is all knowing.\n"
-            "⦿ God is all loving: God loves all that he has created.\n"
-            "⦿ God is Omnipresent: God is everywhere and sees everything everywhere.",
+        answer: "Correct Answer: An Ewe traditional account of creation:\n"
+            "⦿ According to Ewe traditional belief, the Supreme God, referred to as Mawu, brought everything into existence.\n"
+            "⦿ Before creation, the earth was formless and covered in complete darkness.\n"
+            "⦿ God formed human beings out of clay, breathing life and a guardian spirit into each one.\n"
+            "⦿ This guiding spirit was believed to accompany every person, urging them towards good conduct and warning them against wrongdoing.\n"
+            "⦿ When a person eventually died, this spirit would return to God, either to receive a reward for a virtuous life or to face punishment, depending on how that person had lived.\n"
+            "⦿ The Ewe held that human beings possess both physical bodies and spirits, and that after death, spirits would continue to exist in forests, on mountain tops, or wherever they were believed to dwell.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 5: (a) Explain the usefulness of the following as created by God:\n"
-            "(i) plants;\n"
-            "(ii) sea, moon, stars.\n"
-            "(b) What four steps can you take to preserve the plants in the environment?\n"
+            "Question 5: (a) Explain the usefulness of the following to man: (i) the sea, (ii) the moon and stars.\n"
+            "(b) State four steps you can take to preserve plants in the environment.\n"
             "(BECE 2004 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "(i) Usefulness of plants:\n"
-            "⦿ Most plants and their fruits serve as sources of food for mankind.\n"
-            "⦿ The stems, roots, leaves and barks of some plants serve as medicine and ingredients for preparation of medicines for mankind.\n"
-            "⦿ Some plants, called ornamental plants, are used to beautify the environments due to their attractive nature.\n"
-            "⦿ Plants provide oxygen for mankind.\n"
-            "⦿ Plants serve as shelter for mankind.\n"
-            "⦿ Furniture and building materials are derived from plants.\n\n"
-            "(ii) Usefulness of the sea:\n"
-            "⦿ It is a source of mineral salts.\n"
-            "⦿ It is a living place or habitat for some animals like the fishes etc.\n"
-            "⦿ It serves as a means of transportation.\n"
-            "⦿ It serves as a source of food.\n\n"
-            "Usefulness of the moon and stars:\n"
-            "⦿ They help us to see the power of God.\n"
-            "⦿ They enable mankind to calculate times and seasons.\n"
-            "⦿ They help us to get directions.\n"
-            "⦿ They make it possible for mankind to see.\n\n"
-            "Answer: (b)\n"
-            "⦿ Educating people about the need to preserve trees.\n"
-            "⦿ Passing bye-laws to check the problem of indiscriminate felling of trees.\n"
-            "⦿ Avoiding activities likely to cause bushfires.\n"
-            "⦿ Reducing the level of pollution in the atmosphere if it cannot be prevented.\n"
-            "⦿ Checking the habit of allowing cattle to over-graze and sand winning which can destroy the plants.\n"
-            "⦿ Practising afforestation to replace any fallen tree.",
+        answer: "Correct Answer: (a) Usefulness:\n"
+            "⦿ The sea: It provides a source of minerals and serves as a home for fish and other marine life. It is also used as a means of transporting goods and people.\n"
+            "⦿ The moon and stars: They act as sources of light, help people to work out direction at night, and are used to calculate seasons and mark the passing of time.\n\n"
+            "(b) Four ways to preserve plants in the environment:\n"
+            "⦿ Educate people about the importance of protecting trees.\n"
+            "⦿ Introduce local by-laws that discourage the careless cutting down of trees.\n"
+            "⦿ Encourage citizens to plant more trees to replace those that are lost.\n"
+            "⦿ Discourage the practice of indiscriminate bush burning.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 6: (a) Explain four human activities which have negatively affected God's beautiful creation.\n"
+            "Question 6: (a) Explain four human activities that have negatively affected God's creation.\n"
             "(b) State four ways by which you can protect God's creation.\n"
             "(BECE 2005 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The use of chemicals such as D.D.T for fishing: This destroys other living organisms in water bodies.\n"
-            "⦿ Indiscriminate cutting down of trees for fuel: This act can lead to loss of the useful vegetation and desertification.\n"
-            "⦿ Uncontrolled mining: This activity destroys the landscape and makes it difficult to cultivate food crops on the land.\n"
-            "⦿ Bush burning: This pollutes the atmosphere with carbon monoxide and other toxic gases which are harmful to living organisms.\n\n"
-            "Answer: (b)\n"
-            "⦿ Mobilising members of the community to embark on tree planting exercises.\n"
-            "⦿ Avoid indiscriminate bush burning in order to conserve wild life.\n"
-            "⦿ Preserve the forest by educating the general public about the effects of excessive felling of trees.\n"
-            "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
+        answer:
+            "Correct Answer: (a) Harmful human activities affecting creation:\n"
+            "⦿ Use of harmful chemicals: Substances such as DDT used in fishing kill aquatic life indiscriminately.\n"
+            "⦿ Uncontrolled mining: Illegal, small-scale mining destroys land and vegetation, and is difficult to reverse once damage is done.\n"
+            "⦿ Bush burning: This pollutes the atmosphere with carbon monoxide and other harmful gases, and destroys food crops in the process.\n"
+            "⦿ Indiscriminate felling of trees: Cutting down forests for timber and other purposes without proper regulation damages habitats for many living things.\n\n"
+            "(b) Four ways to protect God's creation:\n"
+            "⦿ Educate community members about responsible tree planting.\n"
+            "⦿ Avoid cutting down trees carelessly or without replacement.\n"
+            "⦿ Prevent excessive bush burning, which harms the general environment.\n"
+            "⦿ Reduce the pollution of air and water with smoke and harmful waste.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 7: (a) Explain five attributes of God in the Christian point of view.\n"
-            "(b) State two moral implication of the attributes of God mentioned in (a).\n"
+            "Question 7: (a) Explain five attributes of God from the Christian point of view.\n"
+            "(b) State two moral implications of any of the attributes mentioned in (a).\n"
             "(BECE 2006 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Eternal or Everlasting or Immortal: God was not made and He is the self-existing one now and forever.\n"
-            "⦿ Omniscient: God is able to discern right from wrong in the heart of men. He is all knowing.\n"
-            "⦿ Omnipresent: Christians believe that God is present everywhere.\n"
-            "⦿ Omnipotent: Christians see God as all-powerful and ever-powerful because they believe that His power is greater than all other powers.\n"
-            "⦿ Creator: Christians see God as the creator because they believe that He created the world and everything in it.\n"
-            "⦿ All-wise: God is the most sensible (wisest) being and nobody is greater than God in wisdom and understanding.\n"
-            "⦿ Generous or Kind: God is always willing to offer or give freely.\n"
-            "⦿ Supreme/Perfect/Final Judge: God's judgment or rule is complete or the best.\n"
-            "⦿ Loving God: God has a strong feeling of deep affection for His people.\n"
-            "⦿ Source of life and death: God is the originator of life and death.\n"
-            "⦿ Protector: God takes care of His creatures, including man.\n"
-            "⦿ Righteous God: God is morally upright and good.\n"
-            "⦿ Dependable: God can be relied on for one's breakthrough.\n"
-            "⦿ Provider: God supplies the needs of human kind.\n"
-            "⦿ Sustainer: God manages or directs the universe and everything in it.\n\n"
-            "Answer: (b)\n"
-            "⦿ God is loving and kind; therefore, we must also show love, mercy and kindness toward our neighbours.\n"
-            "⦿ God is the owner of life and death or everything, He must therefore be worshipped. We must also respect and value life.\n"
-            "⦿ God is a good judge; we cannot escape His judgment.\n"
-            "⦿ God is good or perfect or morally upright. He hates sin; we must therefore flee from sin in order to get closer to Him.\n"
-            "⦿ God is all-powerful; He has power to control the world and everything in it. We should therefore communicate with Him for protection.\n"
-            "⦿ God knows what is in the heart of men; so, we must avoid hypocrisy, approach Him for guidance.\n"
-            "⦿ God is patient; we must therefore take our time in doing things and not rush after worldly pleasures.\n"
-            "⦿ God is everywhere; therefore our sins can never go unnoticed by Him.\n"
-            "⦿ God is reliable; so we can depend on Him for all our needs.",
+        answer: "Correct Answer: (a) Five attributes of God:\n"
+            "⦿ Eternal or Everlasting (Immortal): God has always existed and will exist forever; He was never created.\n"
+            "⦿ Omniscient: God knows everything, including what is hidden in a person's heart.\n"
+            "⦿ Omnipresent: God is present everywhere at the same time.\n"
+            "⦿ Omnipotent: Christians believe God's power surpasses that of anything else that exists.\n"
+            "⦿ Sustainer: God continues to hold together and direct the whole universe.\n\n"
+            "(b) Two moral implications:\n"
+            "⦿ Because God sees and knows everything, believers must live uprightly and avoid sin, even where no other person is watching.\n"
+            "⦿ Since God is loving and merciful, Christians are expected to show love, mercy and kindness to their neighbours in turn.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
             "Question 8: (a) Narrate the creation story according to the Qur'an.\n"
-            "(b) State three ways in which humankind is useful to God.\n"
             "(BECE 2008 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The Qur'an states that Allah created the world and everything in it in six days.\n"
-            "⦿ Creation was by divine command, God said \"let there be and it was\".\n"
-            "⦿ Allah created the sun and moon to give man light during the day and night.\n"
-            "⦿ Allah created the heaven and earth so that man can know His power and majesty.\n"
-            "⦿ According to the Qur'an, humankind was created in stages or step by step or gradually or systematically.\n"
-            "⦿ Humankind was created from the mixture of male and female seminal fluid or secretions (Q53:45-46).\n"
-            "⦿ Adam was the first man to be created, followed by Hawa.\n"
-            "⦿ After fertilization the resulting organism settles in the mother's uterus like a seed (Q23:45-46).\n"
-            "⦿ Humankind's creation through reproduction began with the delivery of Hawa (Eve), the wife of Adam of their first set of twins.\n"
-            "⦿ It involves a congealed blood or clot stage or dust, sperm drop, blood clot.\n"
-            "⦿ It spans through adulthood and old age stage - child, adult, old person.\n"
-            "⦿ Humankind was created in the best form.\n"
-            "⦿ The creation of humankind shows how powerful Allah is.\n"
-            "⦿ In this way there will always be the existence of humankind on the earth till the end of time.\n"
-            "⦿ Allah created out of nothing.\n"
-            "⦿ Allah created the universe through his wisdom and goodness.\n\n"
-            "Answer: (b)\n"
-            "⦿ It was for the sake of humankind that the entire universe was created.\n"
-            "⦿ Humankind shares in God's creative activity.\n"
-            "⦿ Man is to display the attributes of God and be at peace with all creatures.\n"
-            "⦿ Humankind has dominion over all that God has created.\n"
-            "⦿ Humankind is the vicegerent or representative on earth.\n"
-            "⦿ Humankind takes care of and ensures the proper upkeep of God's creation (e.g environment, animals, etc.)\n"
-            "⦿ They serve and worship God.\n"
-            "⦿ They ensure the continuation of human creation by marrying and giving birth to offsprings.\n"
-            "⦿ Humankind obeys God's commandment on earth.\n"
-            "⦿ Humankind also ensures that God's creation such as fruits, herbs, plants, etc. do not become useless by using them for food, medicine, etc.",
+        answer: "Correct Answer: (a) The Qur'anic creation story:\n"
+            "⦿ According to the Qur'an, Allah created the heavens and the earth in six stages by His command alone, without any hardship, simply by saying to something, \"let there be,\" and it came into existence.\n"
+            "⦿ Creation happened gradually and in proper order rather than all at once.\n"
+            "⦿ Human beings were formed from a mixture of dust and fluid, which developed further as Allah shaped it and breathed His spirit into it, and thus Adam, the first man, came to be.\n"
+            "⦿ Humankind is believed to develop from a small drop of fluid, through stages inside the mother's womb, becoming first a clinging mass, then a lump resembling chewed flesh, then bones which are then covered with muscle, before finally being born as a fully formed baby, who then grows through infancy into adulthood and eventually old age.",
         explanation: ".",
       ),
       PracticeQuestion(
@@ -15141,71 +18584,35 @@ final Map<String, PracticeModel> becePracticeData = {
             "Question 9: (a) Narrate the covenant God made with Abraham.\n"
             "(b) What three lessons can be learnt from God's covenant?\n"
             "(BECE 2009 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ At the age of 75, God asked Abram to leave his country and family for the land of Canaan.\n"
-            "⦿ Abram was promised many descendants who would become a great nation.\n"
-            "⦿ God will bless Abram and make his name famous.\n"
-            "⦿ God will bless those who bless him and curse those who curse him.\n"
-            "⦿ Abram built an altar (at the Oak of Moreh) and worshipped God. (Gen. 15)\n"
-            "⦿ God promised Abram of His divine protection and a great deal of rewards.\n"
-            "⦿ Abram however became worried because he did not have a son of his own.\n"
-            "⦿ God again promised Abram of his own biological son and his descendant would be as numerous as the stars of the sky.\n"
-            "⦿ God directed Abram to perform an animal sacrifice as a sign that the promise would be fulfilled.\n"
-            "⦿ Abram had a dream which revealed that his descendants would be strangers in a foreign land and forced into slavery for 400 years after which they will have their freedom.\n"
-            "⦿ Abram was promised a long life (ripe old age) and a peaceful death. (Gen.17)\n"
-            "⦿ The Lord revealed Himself to Abram again at the age of ninety-nine (99) and declared that he is the Almighty God (El-Shaddai).\n"
-            "⦿ God told Abram to be obedient to Him and do what was right.\n"
-            "⦿ God further promised Abram that He would make him fruitful and great of nations or kings shall come from him or the land of Canaan shall belong to his descendants forever.\n"
-            "⦿ Abram accepted the covenant by falling on his face.\n"
-            "⦿ God changed Abram's name to Abraham and that of Sarai to Sarah.\n"
-            "⦿ Sarah was also to give birth to a son in her old age.\n"
-            "⦿ The new relationship (covenant) was extended to his descendants including Isaac, Ishmael and those yet unborn.\n"
-            "⦿ Abraham and his descendants were instructed to institute circumcision for every male child (on the 8th day of birth), anyone who is not circumcised must be separated from the society.\n"
-            "⦿ The covenant marked the beginning of a new relationship between God and Israel.\n\n"
-            "Answer: (b)\n"
-            "⦿ Assurance of God's protection upkeep of His people.\n"
-            "⦿ God can change a person's personality.\n"
-            "⦿ God is Almighty (El Shaddai).\n"
-            "⦿ Faith, if not accompanied by action, is dead.\n"
-            "⦿ God is ready to fulfill all His promises to humankind / we must be ready to fulfill the promise we make to people / covenants or promises must be respected.\n"
-            "⦿ God decides who to call and use to achieve his objectives.\n"
-            "⦿ Obedience to God and the elderly attracts blessing.\n"
-            "⦿ We must exercise patience as we wait on God or patience brings success in life.\n"
-            "⦿ Faith and trust are necessary for our interaction with God.\n"
-            "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
+        answer: "Correct Answer: (a) The covenant with Abraham:\n"
+            "⦿ When Abraham was seventy-five years old, God spoke to him and instructed him to leave his homeland and his family in order to travel to a land God would show him.\n"
+            "⦿ God promised that He would make Abraham into a great nation, bless him, and make his name well known, so that Abraham himself would become a blessing to others.\n"
+            "⦿ God also promised to bless anyone who treated Abraham well and to curse anyone who mistreated him, and declared that through Abraham every family on earth would ultimately be blessed.\n"
+            "⦿ Later, when Abraham was ninety-nine, God appeared to him again, describing Himself as God Almighty, and asked Abraham to live faithfully and blamelessly before Him.\n"
+            "⦿ God renewed His covenant, promising that Abraham would be the ancestor of many nations and that kings would descend from him.\n"
+            "⦿ As part of the covenant, God changed Abram's name to Abraham and promised to give him and his descendants the land of Canaan forever, declaring that He would be their God.\n"
+            "⦿ In return, God required that Abraham and every male among his descendants be circumcised as the sign of this everlasting covenant, including newborn baby boys on the eighth day after birth.\n"
+            "⦿ God also told Abraham that his wife would now be called Sarah, and that despite her old age, she would bear him a son, whom God would also bless.\n\n"
+            "(b) Three lessons from the covenant:\n"
+            "⦿ God keeps His promises, even when human circumstances, such as old age, seem to make fulfilment impossible.\n"
+            "⦿ Obedience and faithfulness to God are essential in maintaining a covenant relationship with Him.\n"
+            "⦿ A covenant with God establishes a lasting, binding relationship between God and His people, carrying responsibilities that pass down through generations.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 10: (a) Outline two uses each of the following things created by God:\n"
-            "(i) rivers;\n"
-            "(ii) sun;\n"
-            "(iii) plants.\n"
+            "Question 10: (a) Outline two uses each of the following things created by God: (i) rivers, (ii) sun, (iii) plants.\n"
             "(b) State four ways by which God's creation can be protected.\n"
             "(BECE 2013 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "(i) Uses of rivers:\n"
-            "⦿ They provide us with water for irrigation purposes.\n"
-            "⦿ Water bodies can serve as means of transportation.\n"
-            "⦿ Salt is generated from the sea water.\n"
-            "⦿ They serve as source of good drinking water for mankind.\n\n"
-            "(ii) Uses of the sun:\n"
-            "⦿ It helps us to see the power of God.\n"
-            "⦿ It enables mankind to calculate times and seasons.\n"
-            "⦿ It helps us to get directions.\n"
-            "⦿ It makes it possible for mankind to see.\n\n"
-            "(iii) Uses of plants:\n"
-            "⦿ Most plants and their fruits serve as sources of food for mankind.\n"
-            "⦿ The stems, roots, leaves and barks of some plants serve as medicine and ingredients for preparation of medicines for mankind.\n"
-            "⦿ Some plants, called ornamental plants, are used to beautify the environments due to their attractive nature.\n"
-            "⦿ Plants provide oxygen for mankind.\n"
-            "⦿ Plants serve as shelter for mankind.\n"
-            "⦿ Furniture and building materials are derived from plants.\n\n"
-            "Answer: (b)\n"
-            "⦿ Mobilising members of the community to embark on tree planting exercises.\n"
-            "⦿ Avoid indiscriminate bush burning in order to conserve wild life.\n"
-            "⦿ Preserve the forest by educating the general public about the effects of excessive felling of trees.\n"
-            "⦿ Avoid polluting the atmosphere with smoke and other toxic (poisonous) gases.",
+        answer: "Correct Answer: (a) Uses:\n"
+            "⦿ Rivers: Provide water for drinking and for irrigating farmland; used as a means of transport for people and goods.\n"
+            "⦿ Sun: Gives light to see by during the day; provides warmth that supports plant growth and life on earth.\n"
+            "⦿ Plants: Serve as a source of food; provide raw materials for building and for making medicine.\n\n"
+            "(b) Four ways to protect God's creation:\n"
+            "⦿ Avoid the indiscriminate felling of trees.\n"
+            "⦿ Discourage excessive and uncontrolled bush burning.\n"
+            "⦿ Educate the general public on caring for the forest and the effects of pollution.\n"
+            "⦿ Avoid polluting the atmosphere with smoke and other harmful, poisonous substances.",
         explanation: ".",
       ),
       PracticeQuestion(
@@ -15213,118 +18620,56 @@ final Map<String, PracticeModel> becePracticeData = {
             "Question 11: (a) Narrate the Dagomba traditional story of creation.\n"
             "(b) State three attributes of God according to the Akan.\n"
             "(BECE 2018 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The Great Chief (God) called \"Naawuni\" created the heaven and earth and all things in them in six (6) days.\n"
-            "⦿ He also created the spirits and the other lesser gods called \"Bola\" to serve as His messengers. They were to also serve as intermediary between Him and humanity.\n"
-            "⦿ Naawuni then rested on the seventh day after creation.\n"
-            "⦿ Naawuni also gave laws and principles to humanity as a guide to enable them avoid sin.\n"
-            "⦿ Those who live righteous lives will be rewarded by Naawuni.\n"
-            "⦿ The righteous will inherit the heaven when they die, but evil doers will go to hell where they will burn forever in an unquenchable fire.\n"
-            "⦿ The Dagombas are grateful to Him to the extent that He takes precedence in everything they do.\n\n"
-            "Answer: (b)\n"
-            "⦿ Eternal/Everlasting/Immortal: God was not made and He is the self-existing one now and forever.\n"
-            "⦿ Omniscient: God is able to discern right from wrong in the heart of men. He is all knowing.\n"
-            "⦿ Omnipresent: Christians believe that God is present everywhere.\n"
-            "⦿ Omnipotent: Christians see God as all-powerful and ever-powerful because they believe that His power is greater than all other powers.\n"
-            "⦿ Creator: Christians see God as the creator because they believe that He created the world and everything in it.\n"
-            "⦿ All-wise: God is the most sensible (wisest) being and nobody is greater than God in wisdom and understanding.\n"
-            "⦿ Generous or Kind: God is always willing to offer or give freely.\n"
-            "⦿ Supreme or Perfect or Final Judge: God's judgment or rule is complete or the best.\n"
-            "⦿ Loving God: God has a strong feeling of deep affection for His people.\n"
-            "⦿ Source of life and death: God is the originator of life and death.",
+        answer: "Correct Answer: (a) The Dagomba traditional story:\n"
+            "⦿ In Dagomba tradition, the Supreme Being, known as Naawuni, is regarded as the great, all-powerful ruler of heaven and earth, whose power exceeds that of every other being.\n"
+            "⦿ Naawuni is believed to have created the heavens and the earth, along with everything within them, over the course of six days, resting on the seventh.\n"
+            "⦿ It is also held that Naawuni created lesser spirits, referred to as \"Bola,\" to act as intermediaries between Himself and humankind, and that these lesser gods serve as His messengers.\n\n"
+            "(b) Three attributes of God according to the Akan:\n"
+            "⦿ Omnipresent: God is believed to be everywhere at once.\n"
+            "⦿ Omniscient: God is regarded as all-knowing, able to see what is wrong in a person's heart.\n"
+            "⦿ All-wise: God is seen as the most sensible being, whose judgement and understanding are greater than anyone else's.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
             "Question 12: (a) Narrate the covenant God made with Abraham.\n"
-            "(b) What three lessons can be learnt from God's covenant with Abraham?\n"
+            "(b) State three reasons for which God's covenant with Abraham can be considered important.\n"
             "(BECE 2018 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ At the age of 75, God asked Abram to leave his country and family for the land of Canaan.\n"
-            "⦿ Abram was promised many descendants who would become a great nation.\n"
-            "⦿ God will bless Abram and make his name famous.\n"
-            "⦿ God will bless those who bless him and curse those who curse him.\n"
-            "⦿ Abram built an altar (at the Oak of Moreh) and worshipped God. (Gen. 15)\n"
-            "⦿ God promised Abram of His divine protection and a great deal of rewards.\n"
-            "⦿ Abram however became worried because he did not have a son of his own.\n"
-            "⦿ God again promised Abram of his own biological son and his descendant would be as numerous as the stars of the sky.\n"
-            "⦿ God directed Abram to perform an animal sacrifice as a sign that the promise would be fulfilled.\n"
-            "⦿ Abram had a dream which revealed that his descendants would be strangers in a foreign land and forced into slavery for 400 years after which they will have their freedom.\n"
-            "⦿ Abram was promised a long life (ripe old age) and a peaceful death. (Gen.17)\n"
-            "⦿ The Lord revealed Himself to Abram again at the age of ninety-nine (99) and declared that he is the Almighty God (El-Shaddai).\n"
-            "⦿ God told Abram to be obedient to Him and do what was right.\n"
-            "⦿ God further promised Abram that He would make him fruitful and great of nations or kings shall come from him or the land of Canaan shall belong to his descendants forever.\n"
-            "⦿ Abram accepted the covenant by falling on his face.\n"
-            "⦿ God changed Abram's name to Abraham and that of Sarai to Sarah.\n"
-            "⦿ Sarah was also to give birth to a son in her old age.\n"
-            "⦿ The new relationship (covenant) was extended to his descendants including Isaac, Ishmael and those yet unborn.\n"
-            "⦿ Abraham and his descendants were instructed to institute circumcision for every male child (on the 8th day of birth), anyone who is not circumcised must be separated from the society.\n"
-            "⦿ The covenant marked the beginning of a new relationship between God and Israel.\n\n"
-            "Answer: (b)\n"
-            "⦿ Assurance of God's protection upkeep of His people.\n"
-            "⦿ God can change a person's personality.\n"
-            "⦿ God is Almighty (El Shaddai).\n"
-            "⦿ Faith, if not accompanied by action, is dead.\n"
-            "⦿ God is ready to fulfill all His promises to humankind / we must be ready to fulfill the promise we make to people / covenants or promises must be respected.\n"
-            "⦿ God decides who to call and use to achieve his objectives.\n"
-            "⦿ Obedience to God and the elderly attracts blessing.\n"
-            "⦿ We must exercise patience as we wait on God or patience brings success in life.\n"
-            "⦿ Faith and trust are necessary for our interaction with God.\n"
-            "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Refer to Question 9(a) above for the full narration of the covenant God made with Abraham.\n\n"
+            "(b) Reasons the covenant is important:\n"
+            "⦿ It assured Abraham and his descendants of God's continual protection.\n"
+            "⦿ It gave humankind the responsibility to act as caretakers of God's creation on earth.\n"
+            "⦿ It established a lasting, personal bond of faith, obedience and blessing between God and Abraham's descendants.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 13: (a) Describe how God created mankind according to the Bible.\n"
-            "(b) State three reasons for which mankind was created.\n"
+            "Question 13: (a) Narrate how God created mankind according to the Bible.\n"
+            "(b) State four responsibilities of man according to God's creation.\n"
             "(BECE 2020 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ God created man on the sixth day.\n"
-            "⦿ He created male (Adam) and female (Eve).\n"
-            "⦿ He created them in His own image and likeness.\n"
-            "⦿ God blessed them and charged them to procreate (give birth) and fill the earth.\n"
-            "⦿ God gave man authority or dominion over all creation.\n"
-            "⦿ God created the man from clay/dust/sand.\n"
-            "⦿ God gave them plants for food.\n"
-            "⦿ God breathed into Adam's nostrils the breath of life in them and man became a living soul.\n"
-            "⦿ God kept man in the Garden of Eden to care for it.\n"
-            "⦿ God charged man to name all the animals.\n"
-            "⦿ Man was alone so God created a helper for him.\n"
-            "⦿ God put man into deep sleep and took one of his ribs.\n"
-            "⦿ God used the rib from the man to create the woman for the man as his helper.\n"
-            "⦿ Man was happy and called her Eve.\n\n"
-            "Answer: (b)\n"
-            "⦿ To serve or worship God.\n"
-            "⦿ To take control of God's creation (to have dominion over the creation).\n"
-            "⦿ To protect God's creation / stewardship.\n"
-            "⦿ To continue with God's creation, i.e. procreation, farming, etc. for survival.\n"
-            "⦿ To develop God's creation through science and technology e.g. rearing animals, medicine and space explorations.",
+        answer: "Correct Answer: (a) How God created mankind:\n"
+            "⦿ Before creation began, the earth had no shape and was covered in complete darkness, with God's spirit moving over the waters.\n"
+            "⦿ God then brought light into being, separating it from darkness, and named them \"day\" and \"night.\"\n"
+            "⦿ Later, He formed the sky to divide the waters above from those below, and gathered the waters on earth to reveal dry land, upon which vegetation began to grow.\n"
+            "⦿ God then set the sun to govern the day and the moon and stars to govern the night, using them to mark seasons, days and years.\n"
+            "⦿ On the sixth day, having already filled the seas and skies with living creatures, God formed human beings, male and female, in His own likeness, and gave them charge over all the animals and the whole earth.\n\n"
+            "(b) Four responsibilities of man towards God's creation:\n"
+            "⦿ Reproduction: Humankind is responsible for procreating and ensuring the continuation of human life.\n"
+            "⦿ Farming: People are expected to engage in agricultural activity to produce food for themselves and others.\n"
+            "⦿ Animal husbandry: Man is responsible for rearing animals such as sheep, cattle and poultry to provide food for the community.\n"
+            "⦿ Environmental care: Man must look after rivers, lakes, streams and the wider environment, and avoid polluting them through activities such as improper waste disposal.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 14: (a) Narrate how God created lights according to the Bible.\n"
-            "(b) State four responsibilities of man toward God's creation.\n"
+            "Question 14: (a) Narrate how God created the lights according to the Bible.\n"
             "(BECE 2021 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ God created lights on the first day.\n"
-            "⦿ Before creation, the world was formless, void or empty.\n"
-            "⦿ Darkness was upon the face of the earth.\n"
-            "⦿ God's spirit was moving over the face of the waters.\n"
-            "⦿ God said let there be light and there was light.\n"
-            "⦿ God separated the light from the darkness.\n"
-            "⦿ This created day and night.\n"
-            "⦿ The light He called day and the darkness called night.\n"
-            "⦿ On the fourth day God created the sun, moon, and the stars.\n"
-            "⦿ The sun was to rule the day while the moon and stars the night.\n"
-            "⦿ The luminaries were to determine the times, signs.\n"
-            "⦿ God saw the light He created to be good.\n\n"
-            "Answer: (b)\n"
-            "⦿ Man is responsible for reproduction or procreation to ensure human existence. He is to marry and give birth to children to ensure continuity of family and society.\n"
-            "⦿ Man is responsible to engage in farming activities to produce the needs of humankind such as food. He is to farm and provide food such as cassava, cocoyam, tomatoes, orange, etc, to feed humankind.\n"
-            "⦿ Man is responsible to engage in rearing of animals such as sheep, cattle, poultry, etc, to supply the other needs of human survival.\n"
-            "⦿ Man is responsible to ensure conservation of plants and animal species or wildlife. He is to engage in afforestation and plant trees to protect the environment.\n"
-            "⦿ Man is responsible to ensure promote environmental cleanliness / preservation of water bodies such as rivers, lakes, streams, etc and protect human human and animal polluted through human and animal activities like washing, bathing or defecating into water bodies.",
+        answer: "Correct Answer: (a) The creation of the lights:\n"
+            "⦿ On the fourth day of creation, God commanded that lights appear in the sky to separate day from night, and to serve as signs marking seasons, days and years.\n"
+            "⦿ He made two great lights: the greater one, the sun, to govern the day, and the lesser one, the moon, to govern the night, along with the stars.\n"
+            "⦿ God placed them in the sky to give light upon the earth, to rule over both day and night, and to divide light from darkness.\n"
+            "⦿ Having done this, God saw that it was good.",
         explanation: ".",
       ),
       PracticeQuestion(
@@ -15332,38 +18677,10 @@ final Map<String, PracticeModel> becePracticeData = {
             "Question 15: (a) Narrate the covenant God made with Abraham.\n"
             "(b) State three lessons that can be learnt from the covenant.\n"
             "(BECE 2022 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ At the age of 75, God asked Abram to leave his country and family for the land of Canaan.\n"
-            "⦿ Abram was promised many descendants who would become a great nation.\n"
-            "⦿ God will bless Abram and make his name famous.\n"
-            "⦿ God will bless those who bless him and curse those who curse him.\n"
-            "⦿ Abram built an altar (at the Oak of Moreh) and worshipped God. (Gen. 15)\n"
-            "⦿ God promised Abram of His divine protection and a great deal of rewards.\n"
-            "⦿ Abram however became worried because he did not have a son of his own.\n"
-            "⦿ God again promised Abram of his own biological son and his descendant would be as numerous as the stars of the sky.\n"
-            "⦿ God directed Abram to perform an animal sacrifice as a sign that the promise would be fulfilled.\n"
-            "⦿ Abram had a dream which revealed that his descendants would be strangers in a foreign land and forced into slavery for 400 years after which they will have their freedom.\n"
-            "⦿ Abram was promised a long life (ripe old age) and a peaceful death. (Gen.17)\n"
-            "⦿ The Lord revealed Himself to Abram again at the age of ninety-nine (99) and declared that he is the Almighty God (El-Shaddai).\n"
-            "⦿ God told Abram to be obedient to Him and do what was right.\n"
-            "⦿ God further promised Abram that He would make him fruitful and great of nations or kings shall come from him or the land of Canaan shall belong to his descendants forever.\n"
-            "⦿ Abram accepted the covenant by falling on his face.\n"
-            "⦿ God changed Abram's name to Abraham and that of Sarai to Sarah.\n"
-            "⦿ Sarah was also to give birth to a son in her old age.\n"
-            "⦿ The new relationship (covenant) was extended to his descendants including Isaac, Ishmael and those yet unborn.\n"
-            "⦿ Abraham and his descendants were instructed to institute circumcision for every male child (on the 8th day of birth), anyone who is not circumcised must be separated from the society.\n"
-            "⦿ The covenant marked the beginning of a new relationship between God and Israel.\n\n"
-            "Answer: (b)\n"
-            "⦿ Assurance of God's protection upkeep of His people.\n"
-            "⦿ God can change a person's personality.\n"
-            "⦿ God is Almighty (El Shaddai).\n"
-            "⦿ Faith, if not accompanied by action, is dead.\n"
-            "⦿ God is ready to fulfill all His promises to humankind / we must be ready to fulfill the promise we make to people / covenants or promises must be respected.\n"
-            "⦿ God decides who to call and use to achieve his objectives.\n"
-            "⦿ Obedience to God and the elderly attracts blessing.\n"
-            "⦿ We must exercise patience as we wait on God or patience brings success in life.\n"
-            "⦿ Faith and trust are necessary for our interaction with God.\n"
-            "⦿ God is gracious; He gives to man as and when He wants or God provides for our needs.",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Refer to Question 9(a) above.\n\n"
+            " (b)\n"
+            "⦿ Refer to Question 9(b) above.",
         explanation: ".",
       ),
     ],
@@ -15374,145 +18691,241 @@ final Map<String, PracticeModel> becePracticeData = {
     questions: [
       PracticeQuestion(
         scenario:
-            "Question 1: (a) Describe the traditional festival celebrated by your community.\n"
-            "(b) Give three reasons why the festival is celebrated.\n"
-            "(BECE 1999 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "In the Akan community, the Akwasidae festival is celebrated on a Sunday once every six weeks. It is one of the two key periodic celebrations, the other being Awukudae which falls on a Wednesday.\n"
-            "⦿ On the day of the celebration, a series of rituals and activities are performed to honour the ancestors.\n"
-            "⦿ The celebration begins on the eve of the festival, known as Dapaah, when the state drummers or stool drummers perform the \"Awakening\" by beating the drums at the chief's palace.\n"
-            "⦿ Through this drumming, the master drummers call upon the spirits of the ancestor drummers, recite the history of the state, and praise the Supreme Being and the deities.\n"
-            "⦿ In the early morning of the Adae day, the chief, his elders, and the stool bearers enter the stool room in a customary manner.\n"
-            "⦿ In the stool room, the chief greets the ancestors, pours libation, and offers requests for himself, his elders, and the entire community. He then offers drinks for the spirits and returns to his seat for the public celebrations.\n"
-            "⦿ Drums are beaten, horns are blown, and people gather to witness the event.\n"
-            "⦿ As part of the celebrations, a sheep is slaughtered and its blood is smeared on the ancestral stools.\n"
-            "⦿ Pieces of meat are also placed on the stools as a food offering to the ancestral spirits.\n"
-            "⦿ The chief then gives some of the food to the ancestral spirits in the stool room and later tastes some of the food first before giving some to the people present with him in the stool room.\n"
-            "⦿ He leaves the rest to the spirit and returns to sit in state for the public celebration.\n"
-            "⦿ After offering food to the ancestors, the chief presents gifts to the people.\n"
-            "⦿ Later in the evening, the chief and his elders sit to settle disputes among families and family lines.\n\n"
-            "Answer: (b)\n"
-            "⦿ **To promote peace and unity**: Festivals allow people to come together to resolve long-standing disputes and strengthen social ties.\n"
-            "⦿ **To remember the ancestors**: Celebrations provide a designated time to cleanse the ancestral stools, offer food and drinks, and show gratitude to the ancestors.\n"
-            "⦿ **To showcase cultural heritage**: It gives the community an opportunity to display their rich culture through historical drumming, traditional attire, songs, and dances.",
-        explanation: ".",
+            "Question 1: (a) Describe the traditional festival celebrated in your community.\n"
+            "(b) List three reasons why the festival is celebrated.\n"
+            "(BECE 1999 Q1)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ I reside in an Akan community where the main traditional celebration is the Adae festival.\n"
+            "⦿ This observance features two primary cycles: the Akwasidae, which takes place on a Sunday, and the Awukudae, which occurs on a Wednesday.\n"
+            "⦿ The preceding day, referred to as “Dapaah” or “Awukudae Dapaah,” is dedicated to making preparations and purifying the environment. During these preparatory moments, people travel back to their hometowns, clear pathways, gather household supplies, and prepare offerings for the traditional rites.\n"
+            "⦿ On the evening prior to the main event, the stool drummer beats the talking drum—known as the “Awakening”—to officially announce the upcoming celebration to the community.\n"
+            "⦿ In his recitations, the drummer details the raw materials used to craft the drums, acknowledges the ancestral drummers, and narrates the historical traditions of the state.\n"
+            "⦿ Early on the morning of the Adae, the traditional chief, accompanied by elders and the stool bearer, enters the sacred stool room in a formal, customary manner.\n"
+            "⦿ In keeping with custom, the chief calls upon the ancestors, invoking them by name while offering libations and presenting drinks to honor the spirits and seek their return to their seats of authority.\n"
+            "⦿ Traditional drums are beaten while ancestral songs are sung, accompanied by ceremonial dancing.\n"
+            "⦿ As part of the rites, a ritual sheep is slaughtered, and its blood is smeared on the ancestral stools, after which a special meal is prepared using a portion of the meat.\n"
+            "⦿ The chief proceeds into the stool room once more to offer a portion of this food to the ancestral spirits, sampling some himself before leaving the remainder for the spirits and returning to his seat.\n"
+            "⦿ Throughout the day, the chief petitions the spirits and ancestors to shower blessings upon the people, guard them against harm, and grant a bountiful harvest at the conclusion of every season.\n"
+            "⦿ Following these rituals, the chief and his council sit in state to settle lingering disputes among families and community members.\n\n"
+            "(b) \n"
+            "⦿ To honor, remember, and seek continuous guidance and protection from the ancestral spirits and traditional gods.\n"
+            "⦿ To cleanse and purify the ancestral stools, royal equipment, and the entire community of any spiritual contamination.\n"
+            "⦿ To promote peace, resolve local disputes, and foster unity and togetherness among family members and citizens.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 2: (a) What is Eid-ul-Adha?\n"
+            "(b) Explain how it is observed in your community.\n"
+            "(BECE 2003 Q2)",
+        answer: "Correct Answer: (a) "
+            "\n"
+            "⦿ Eid-ul-Adha is one of the principal Islamic festivals celebrated annually on the 10th day of Zul-Hijjah, the twelfth month of the Islamic lunar calendar.\n"
+            "⦿ It is known as the Feast of Sacrifice, celebrated to commemorate the willingness and devotion of Prophet Ibrahim (Abraham) to sacrifice his son Ishmael in obedience to God's command, before Allah provided a ram to replace the child.\n\n"
+            "(b) "
+            "\n"
+            "⦿ Muslims begin the period by engaging in charitable acts, ensuring those who are financially less fortunate are enabled to offer sacrifices to Allah.\n"
+            "⦿ On the morning of the festival, congregants gather in white attire at an open prayer ground (the Eid ground) to perform special communal prayers led by the Imam.\n"
+            "⦿ After the sermon and prayers conclude, a healthy domestic animal, typically a sheep, goat, or cow, is slaughtered in accordance with Islamic prescribed guidelines.\n"
+            "⦿ The sacrificial meat is divided into three parts: one portion is retained by the family, another portion is given to friends and relatives, and the final portion is distributed to the poor, needy, and destitute.\n"
+            "⦿ Families prepare elaborate meals, share food across the neighborhood, exchange gifts, and visit friends and relatives to celebrate unity and brotherly love.",
+        explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 2: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
+            "Question 3: (a) List five traditional festivals in Ghana and indicate where they are celebrated.\n"
+            "(b) Explain five reasons why festivals are celebrated.\n"
+            "(BECE 2012 Q2 / BECE 2018 Q3)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Odwira festival: Celebrated by the people of Akwapim, Aburi, and Amanokrom.\n"
+            "⦿ Homowo festival: Celebrated by the Ga people of Accra and surrounding areas.\n"
+            "⦿ Hogbetsotso festival: Celebrated by the Anlo-Ewes in the Volta Region (Anloga).\n"
+            "⦿ Aboakyer festival: Celebrated by the Efutu people of Winneba.\n"
+            "⦿ Fetu Afahye festival: Celebrated by the Oguaa people of Cape Coast.\n\n"
+            "(b) \n"
+            "⦿ To foster peace, unity, and friendliness: Festivals bring community members, traditional leaders, and visitors together, providing a platform to settle disputes, restore peace, and strengthen social harmony.\n"
+            "⦿ To remember important historical events and ancestors: They serve as an annual occasion to recall historical milestones, victories, migrations, and to pay tribute to ancestral spirits for their contributions to the society.\n"
+            "⦿ To preserve and promote cultural heritage: Celebrations showcase traditional drumming, dancing, regalia, oral histories, and customs, thereby passing cultural values down to younger generations.\n"
+            "⦿ To purify the community and religious objects: Festivals feature sacred cleansing rituals designed to purify traditional stools, shrines, and community grounds of bad omens and spiritual dirt.\n"
+            "⦿ To plan and execute developmental projects: Key stakeholders, citizens, and non-resident community members gather during festivals to discuss local developmental needs, raise funds, and execute projects for community progress.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 4: (a) List any four agricultural festivals and indicate where they are celebrated in Ghana.\n"
+            "(b) Explain four ways traditional festivals are important to your community.\n"
             "(BECE 2016 Q1)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ **Homowo**: Celebrated by the Ga-Adangme of the Greater Accra Region.\n"
-            "⦿ **Kundum**: Celebrated by the Ahantas and Nzemas of the Western Region.\n"
-            "⦿ **Odwira**: Celebrated by the Akuapems of the Eastern Region.\n"
-            "⦿ **Hogbetsotso**: Celebrated by the Anlo Ewes of the Volta Region.",
-        explanation: ".",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Kundum festival: Celebrated by the Ahanta and Nzema people.\n"
+            "⦿ Yam festival (Tedudu): Celebrated by the people of Ho, Peki, and Hohoe.\n"
+            "⦿ Bakatue festival: Celebrated by the people of Elmina.\n"
+            "⦿ Homowo festival: Celebrated by the Ga people.\n\n"
+            "(b) \n"
+            "⦿ Economic development and fundraising: Festivals attract tourists, dignitaries, and citizens from afar, boosting local trade and generating funds for infrastructural projects such as schools and health centers.\n"
+            "⦿ Social reunion and family bonding: They afford long-separated family members and non-resident citizens the opportunity to return home, reconnect, and rebuild family relationships.\n"
+            "⦿ Promoting moral and spiritual values: By engaging in acts of thanksgiving, reconciliation, and self-examination, individuals are inspired to maintain high moral standards and align with ancestral guidance.\n"
+            "⦿ Promoting tourism: The rich cultural displays, traditional regalia, and historical reenactments draw domestic and international tourists, showcasing the community to the wider world.",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 3: (a) Describe how Christians celebrate Easter.\n"
-            "(b) Explain five reasons why festivals are celebrated in Ghana.\n"
-            "(BECE 2012 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Christians celebrate Easter to commemorate the death and resurrection of Jesus Christ.\n"
-            "⦿ On Good Friday, Christians attend church services to remember when Jesus was crucified.\n"
-            "⦿ They pray and thank God for giving His son to die for their sins.\n"
-            "⦿ Some churches organize conventions or special burial services for Jesus Christ to show they are sad and mourning.\n"
-            "⦿ Special prayers are said and regular church services are organized by orthodox churches like the Roman Catholic, Presbyterian, and Methodist.\n"
-            "⦿ The following Sunday is believed to be the day that Jesus rose from the dead, making it the most joyous moment for every Christian.\n"
-            "⦿ On Easter Sunday, church members put on beautiful festive clothes, which are usually white, to express their joy in the resurrection of Jesus Christ.\n"
-            "⦿ They sing special hymns to express their happiness, and some churches organize picnics where they cook and eat with their loved ones and give gifts to one another.\n\n"
-            "Answer: (b)\n"
-            "⦿ **To remember past important events**: Festivals allow people to recall major events in their history, such as the deliverance from hunger or ancestral migrations.\n"
-            "⦿ **To renew loyalty to the chief**: Subjects use the festival periods to pledge allegiance and show respect to their traditional leaders.\n"
-            "⦿ **To raise funds for development**: Festivals bring both local residents and non-residents together to plan projects and pool financial resources for community growth.\n"
-            "⦿ **To preserve and promote tradition**: They provide a platform to transfer historical knowledge, customs, and practices to the younger generation.\n"
-            "⦿ **To seek blessings and protection**: They serve as a holy period to ask God, the deities, or the ancestors for peace, good health, and a successful harvest.",
-        explanation: ".",
+        scenario: "Question 5: (a) Describe how Christians celebrate Easter.\n"
+            "(b) State four reasons for which Easter festival is important to the Christian.\n"
+            "(BECE 2018 Q3 / BECE 2012 Q2b)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Easter is celebrated in late March or early April to mark the death and resurrection of Jesus Christ.\n"
+            "⦿ The observance begins with Good Friday services where Christians wear dark or sober clothing to reflect on the suffering, crucifixion, and death of Jesus Christ for human sins.\n"
+            "⦿ Special church services continue through Holy Saturday, leading into Easter Sunday, which is the most joyful day of the celebration.\n"
+            "⦿ On Easter Sunday, believers dress in bright white clothing to symbolize victory over death and the resurrection of Christ, singing joyful hymns and praises.\n"
+            "⦿ The period is marked by holding conventions, crusade meetings, sharing special meals, and exchanging gifts among loved ones and the needy.\n\n"
+            "(b) \n"
+            "⦿ Reminds believers of Christ's resurrection: It confirms the core foundation of the Christian faith—that Jesus Christ conquered death and is alive.\n"
+            "⦿ Assurance of salvation and forgiveness: It reassures Christians that their sins are forgiven through the sacrificial death and victory of Jesus Christ.\n"
+            "⦿ Promotes unity and fellowship: It brings believers from various denominations together in large conventions, joint services, and shared activities.\n"
+            "⦿ Encourages love and reconciliation: The season inspires Christians to forgive others, show mercy, share with the less fortunate, and renew their commitment to live holy lives.",
+        explanation: "",
       ),
       PracticeQuestion(
-        scenario: "Question 4: (a) What is Eid-ul-Adha?\n"
-            "(b) Explain how it is observed by your community.\n"
-            "(BECE 2015 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Eid-ul-Adha is one of the Islamic festivals celebrated by Muslims worldwide to remember Abraham’s absolute submission and faithfulness to Allah when he was tested to offer his son Ishmael for a sacrifice.\n\n"
-            "Answer: (b)\n"
-            "⦿ It is celebrated on the 10th day of Zul-Hijjah, which is the month of pilgrimage on the Islamic calendar.\n"
-            "⦿ During this period, Muslims the world over who are financially sound are expected to make a sacrifice of a sheep to Allah.\n"
-            "⦿ Before the sheep is slaughtered for the sacrifice, the head of the butcher is placed on the animal and the prescribed prayer is recited.\n"
-            "⦿ The meat of the animal or its worth in cash must be given as alms to the poor or used in philanthropic projects.\n"
-            "⦿ The first part is divided into families, the second part is divided among neighbours, and the third part is divided among beggars and the destitute.",
-        explanation: ".",
-      ),
-      PracticeQuestion(
-        scenario: "Question 5: (a) Mention four causes of death.\n"
-            "(b) Give four reasons why death rites are performed.\n"
-            "(BECE 2011 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Old age.\n"
-            "⦿ Sickness/diseases (e.g., malaria, accidents, etc.).\n"
-            "⦿ Natural disasters (e.g., earthquakes, floods).\n"
-            "⦿ Murder or war.\n\n"
-            "Answer: (b)\n"
-            "⦿ **To respect the dead**: Death rites constitute separation rites from this physical world and initiation into the spiritual world.\n"
-            "⦿ **To show sympathy**: They are occasions for paying last respects to the dead and showing sympathy to the bereaved family.\n"
-            "⦿ **To encourage good moral lives**: They are occasions used to encourage people to lead good lives in order to be welcomed in the next world.\n"
-            "⦿ **To help the deceased become an ancestor**: Traditionally, funeral rites give the dead the opportunity to become ancestors and look over the living.",
-        explanation: ".",
+        scenario: "Question 6: (a) Narrate the story of Hogbetsotso festival.\n"
+            "(b) State three reasons for which festivals are celebrated.\n"
+            "(BECE 2022 Q2)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ The Hogbetsotso festival commemorates the historical escape of the Anlo-Ewe people from the tyrannical rule of King Agorkorli at Notsie in present-day Togo.\n"
+            "⦿ King Agorkorli subjected the Anlo people to harsh punishment and forced labor, such as compelling them to mix mud with thorn branches and broken glass to erect a massive mud wall around his kingdom.\n"
+            "⦿ To escape this cruelty, the Anlo people devised a clever plan: the women threw leftover wastewater against one section of the mud wall over a long period, softening the structure.\n"
+            "⦿ During a grand night of feast and heavy drumming organized to distract the King and his guards, a brave hunter named Tegbe Tsali used a ceremonial sword to breach the softened mud wall.\n"
+            "⦿ The people slipped out of the town through the opening, walking backwards to confuse their pursuers into believing that incoming travelers had made the footprints.\n"
+            "⦿ Led by their spiritual leaders and forebears, they journeyed until they safely crossed the Volta River and settled in their current homeland at Anloga.\n\n"
+            "(b) \n"
+            "⦿ To express gratitude to God, traditional deities, and ancestors for protection, health, and bumper harvests throughout the year.\n"
+            "⦿ To preserve and transmit historical events, bravery, and cultural values to younger generations.\n"
+            "⦿ To promote community development, reconcile conflicting parties, and strengthen peaceful relationships.",
+        explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 6: (a) Give four reasons why a naming ceremony is important in your community.\n"
-            "(b) List four factors to be considered in choosing a name for a child.\n"
+            "Question 7: (a) Explain briefly four reasons for which one must show commitment to friends.\n"
+            "(BECE 2022 Q4b)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ It attracts divine blessings: Demonstrating genuine care and loyalty toward friends reflects godly love and attracts God's favor and goodwill into one's life.\n"
+            "⦿ It prevents misunderstandings and resolves conflicts: Faithful commitment fosters open communication, empathy, and mutual respect, reducing friction and helping friends resolve issues peacefully.\n"
+            "⦿ It promotes tolerance and acceptance of differences: Loyal friends accept each other's flaws, differing opinions, and unique personalities, building a supportive and harmonious bond.\n"
+            "⦿ It provides emotional support and inner peace: Knowing that one has reliable friends brings comfort during difficult times, builds self-confidence, and promotes overall mental well-being.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 8: (a) What is puberty?\n"
+            "(b) What is the importance of this rite to the people in your community?\n"
+            "(BECE 2000 Q1)",
+        answer: "Correct Answer: (a)\n"
+            "⦿ Puberty is the physical, physiological, and emotional transition period during which a child's body undergoes biological changes to attain sexual maturity and reproductive capacity.\n"
+            "⦿ It typically occurs between the ages of 10 and 19 years, marking the boundary between childhood and adulthood.\n\n"
+            "(b)\n"
+            "⦿ Promotes moral uprightness and chastity: It encourages young boys and girls to refrain from pre-marital sexual activities and avoid unwanted teenage pregnancies.\n"
+            "⦿ Prepares youth for adulthood and marriage: Initiates receive practical instruction regarding family responsibilities, home management, personal hygiene, and moral living.\n"
+            "⦿ Brings honor to parents and families: Successfully undergoing puberty rites without prior pregnancy brings immense pride, respect, and social dignity to the initiate's family.\n"
+            "⦿ Preserves cultural identity: It teaches young individuals the customs, taboos, values, and traditions of their community.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 9: (a) Give four reasons why a naming ceremony is important in your community.\n"
+            "(b) Identify three factors to be considered in choosing a name for a child.\n"
             "(BECE 2005 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ **Gives identity**: It gives the child an identity as a human being in the society.\n"
-            "⦿ **Provides financial support**: It provides financial support as it brings the family and friends together to make donations of money and items to the parents.\n"
-            "⦿ **Welcomes the child**: Through the joy and merrymaking, the child is formally welcomed into the family and the community at large.\n"
-            "⦿ **Promotes unity**: It promotes unity and solidarity among family members and friends.\n\n"
-            "Answer: (b)\n"
-            "⦿ **Week day**: The week and day on which the child was born.\n"
-            "⦿ **Family circumstances**: The occasion or period or circumstances under which the child was born.\n"
-            "⦿ **Gender**: Whether the child is a male or female.\n"
-            "⦿ **Birth order**: The order of birth (e.g., Panyin, Kakra, Mansa).",
-        explanation: ".",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Gives identity to the newborn: It formally assigns a unique personal, family, or ancestral name to the child, recognizing them as an official member of the family and wider society.\n"
+            "⦿ Welcomes the child into the human world: It marks the physical transition of the baby from the spiritual realm into the living human community.\n"
+            "⦿ Instills moral uprightness: The symbolic use of water and alcohol teaches the child the vital importance of honesty, truthfulness, and integrity throughout life.\n"
+            "⦿ Strengthens family and social bonds: The occasion gathers extended family members, friends, and well-wishers to offer prayers, support, and gifts to the parents and child.\n\n"
+            "(b) \n"
+            "⦿ Day of birth: The specific day of the week the baby was born (e.g., Kwadwo for a Monday-born male or Abena for a Tuesday-born female).\n"
+            "⦿ Circumstance of birth: Special situations surrounding the birth, such as being born as twins (e.g., Ata/Ataa) or position among siblings (e.g., Tetteh or Mansa).\n"
+            "⦿ Ancestral character and family lineage: Names of virtuous ancestors or respected living relatives are selected to encourage the child to emulate their good deeds.",
+        explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 7: (a) Describe how marriage ceremony is performed in Islam.\n"
+            "Question 10: (a) Describe how marriage ceremony is performed in Islam.\n"
             "(b) State three things which make marriage successful.\n"
             "(BECE 2007 Q2)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ In Islam, young boys and girls are not supposed to have any kind of relationship before marriage.\n"
-            "⦿ The selection of marriage partner is initiated in two ways; either by the man himself or his family.\n"
-            "⦿ Individuals may make their own choices, but these must find the approval of parents and family members.\n"
-            "⦿ A formal matrimonial guardian must manage the process on behalf of the bride.\n"
-            "⦿ The bride price (Mahra or Sadaki) in the form of money, kola nuts, and other gifts is paid to the girl's parents, especially to the mother. All the data show that they agree to the marriage contract.\n"
-            "⦿ A wedding ceremony (Nikah) is performed by a licensed Islamic priest an Imam or a Malam almost immediately after the payment of the bride price.\n"
-            "⦿ There is a reading of marriage vows (Nikah contract), and a making of marriage vows if the couple are asked three times if they agreed to be married.\n"
-            "⦿ The Imam reads from the fourth chapter (Surat) of the Quran to outline the importance of marriage and the duties and responsibilities of the parties.\n"
-            "⦿ This is followed by a wedding feast or feasting (Walima).\n\n"
-            "Answer: (b)\n"
-            "⦿ **Love and understanding**: Partners must share mutual care and compromise.\n"
-            "⦿ **Faithfulness and honesty**: Being open and loyal keeps the relationship strong.\n"
-            "⦿ **Effective communication**: Resolving conflicts peacefully through talking prevents misunderstandings.",
-        explanation: ".",
+        answer: "Correct Answer: (a) \n"
+            "⦿ The process commences with the proposal and formal consent seeking, where the groom's family approaches the bride's parents to state their intent.\n"
+            "⦿ Necessary background checks are conducted by both families to ensure compatibility and moral uprightness.\n"
+            "⦿ A legal guardian (Wali) represents the bride during negotiations to protect her rights.\n"
+            "⦿ The groom presents the dowry (Mahr or Sadaq)—a mandatory gift of money, property, or valuable goods direct to the bride.\n"
+            "⦿ The solemnization ceremony (Nikah) is officiated by an Islamic scholar or Imam in the presence of at least two sane Muslim male witnesses.\n"
+            "⦿ The Imam delivers a sermon (Khutbah) highlighting the sacred responsibilities of marriage, recites verses from the Holy Qur'an, and oversees the exchange of vows.\n"
+            "⦿ The ceremony concludes with a joyous wedding feast (Walimah) hosted to share food, pray, and celebrate the union with the community.\n\n"
+            "(b) \n"
+            "⦿ Effective communication and openness: Spouses must maintain honest, respectful, and regular dialogue to resolve misunderstandings and build mutual trust.\n"
+            "⦿ Mutual love, respect, and forgiveness: Demonstrating care, valuing each other's opinions, and readily forgiving mistakes keeps the relationship strong and peaceful.\n"
+            "⦿ Financial prudence and shared responsibility: Couples must work together to manage household finances transparently and fulfill their marital duties.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario: "Question 11: (a) Mention four causes of death.\n"
+            "(b) Give four reasons why death rites are performed.\n"
+            "(BECE 2011 Q3)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Sickness and diseases: Severe medical conditions such as malaria, cancer, heart problems, or HIV/AIDS.\n"
+            "⦿ Natural disasters: Calamities like severe floods, earthquakes, or landslides.\n"
+            "⦿ Accidents: Unfortunate occurrences including road traffic crashes, domestic mishaps, or industrial accidents.\n"
+            "⦿ Old age: Natural degradation of bodily organs as a person grows very old.\n\n"
+            "(b) \n"
+            "⦿ To ensure a peaceful passage for the deceased: Rites help the soul of the departed transition smoothly into the spiritual realm to join the ancestors.\n"
+            "⦿ To console the bereaved family: Ceremonies bring community members together to offer financial, physical, and emotional support to the mourning relatives.\n"
+            "⦿ To show final respect and honor: Performing proper rites demonstrates deep affection and gratitude for the life and contributions of the deceased.\n"
+            "⦿ To remind the living of their mortality: Funeral gatherings prompt individuals to reflect on their own lives, encouraging them to live morally and responsibly.",
+        explanation: "",
       ),
       PracticeQuestion(
         scenario:
-            "Question 8: (a) Explain four major causes of death in your country.\n"
-            "(b) What four steps can be taken to prevent such deaths?\n"
+            "Question 12: (a) State four physical changes that occur during puberty.\n"
+            "(b) What four moral problems confront the adolescent?\n"
+            "(BECE 2012 Q1)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Rapid growth in height and weight: Adolescents experience a noticeable surge in physical stature and overall body frame.\n"
+            "⦿ Development of bodily hair: Growth of hair in the armpits, pubic areas, and facial hair in males.\n"
+            "⦿ Voice alterations: Voice deepens noticeably in boys, while girls develop a higher-pitched voice.\n"
+            "⦿ Development of secondary sexual characteristics: Enlargement of breasts and widening of hips in girls; broadening of shoulders and chest development in boys.\n\n"
+            "(b) \n"
+            "⦿ Pressure toward pre-marital sexual activity: Heightened sexual urges and negative peer influence can push adolescents toward risky sexual behavior.\n"
+            "⦿ Substance abuse and addiction: Curiosity or bad company may expose youth to experimenting with alcohol, tobacco, or illegal drugs.\n"
+            "⦿ Rebellion against authority: A strong desire for independence can lead to disrespect or disobedience toward parents, teachers, and elders.\n"
+            "⦿ Examination malpractice and dishonesty: Temptations to engage in cheating or shortcuts to achieve success due to academic pressure.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 13: (a) State four factors that can be considered when choosing a name for a child.\n"
+            "(b) Explain four reasons for which naming ceremony is important in your community.\n"
             "(BECE 2021 Q3)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Diseases: Death is caused by illnesses or sicknesses such as HIV/AIDS, high blood pressure, cancer, diabetes, malaria, etc.\n"
-            "⦿ Accidents: Fatal incidents on roads, water, or job sites claim many lives.\n"
-            "⦿ Natural disasters: Occurrences of natural disasters such as flooding, earthquakes, tsunamis, etc.\n"
-            "⦿ Hunger/poverty: Shortage of food as well as extreme poverty can cause people to die, leading to malnutrition, starvation, etc.\n\n"
-            "Answer: (b)\n"
-            "⦿ **Personal hygiene**: People should practice personal hygiene such as bathing twice a day, washing hands before eating, weeding around houses, etc.\n"
-            "⦿ **Immunization**: Children should be immunized against the six killer diseases such as tetanus, measles, poliomyelitis, etc. to prevent death.\n"
-            "⦿ **Eating a balanced diet**: People should eat foods that contain the right amount of nutrients like vitamins, calcium, carbohydrates, etc. to prevent diseases.\n"
-            "⦿ **Regular medical check-ups**: People should seek regular check-ups from professional medical assistants to enable early treatment.",
-        explanation: ".",
+        answer: "Correct Answer: (a) \n"
+            "⦿ The day of the week the child was born: Choosing names corresponding to specific days (e.g., Koffi for a Friday-born boy).\n"
+            "⦿ Family or ancestral background: Naming the baby after respected grandparents or elders to preserve family heritage.\n"
+            "⦿ Circumstance surrounding the birth: Events occurring at birth, such as being born after long periods of waiting or during specific events.\n"
+            "⦿ Religious affiliation: Selecting biblical, Islamic, or traditional names that reflect the faith and values of the parents.\n\n"
+            "(b) \n"
+            "⦿ Provides formal identity: It confers a recognized name upon the infant, making them an official persona in society.\n"
+            "⦿ Incorporates the child into the family structure: It formally welcomes the baby as a legitimate member of the extended lineage and community.\n"
+            "⦿ Teaches core moral virtues: Symbolic rites performed during the event encourage the child to uphold truth, integrity, and good character.\n"
+            "⦿ Fosters community support: Well-wishers gather to bestow blessings, offer guidance, and present gifts to support the child's upbringing.",
+        explanation: "",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 14: (a) Explain four major causes of death in your country.\n"
+            "(b) What four steps can be taken to prevent such deaths?\n"
+            "(BECE 2023 Q3)",
+        answer: "Correct Answer: (a) \n"
+            "⦿ Preventable diseases and poor healthcare: Conditions like malaria, typhoid, hypertension, and diabetes cause high mortality due to late diagnosis or limited medical facilities.\n"
+            "⦿ Road traffic accidents: Reckless driving, poorly maintained vehicles, and inadequate road infrastructure lead to frequent loss of lives.\n"
+            "⦿ Substance abuse and unhealthy lifestyle: Excessive consumption of alcohol, drug abuse, and poor nutrition contribute significantly to organ failure and fatal illnesses.\n"
+            "⦿ Environmental pollution and unsafe conditions: Contaminated water sources, improper waste disposal, and exposure to harmful industrial chemicals cause life-threatening health issues.\n\n"
+            "(b) \n"
+            "⦿ Adopting personal hygiene and healthy habits: Exercising regularly, eating balanced diets, and keeping household surroundings clean.\n"
+            "⦿ Enforcing strict road safety regulations: Authorities must maintain roads, inspect vehicles strictly, and penalize reckless driving.\n"
+            "⦿ Seeking regular medical check-ups: Visiting health centers promptly for screenings and proper medical treatment instead of self-medication.\n"
+            "⦿ Promoting public education: Raising awareness about the dangers of drug abuse, poor sanitation, and risky behaviors.",
+        explanation: "",
       ),
     ],
   ),
@@ -15521,293 +18934,522 @@ final Map<String, PracticeModel> becePracticeData = {
     audioPath: '',
     questions: [
       PracticeQuestion(
-        scenario: "Question 1: (a) Describe the nuclear family system.\n"
-            "(b) Describe the extended family system.\n"
-            "(c) Mention three advantages of the nuclear family system.\n"
-            "(d) Mention three advantages of the extended family system.\n"
-            "(BECE 2007 Q6)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ The nuclear family consists of the father, mother, and children.\n"
-            "⦿ The father is the head of the family.\n"
-            "⦿ The size of the family is relatively small.\n"
-            "⦿ Control of the family lies in the hands of the father.\n"
-            "⦿ The father is responsible for all matters concerning the welfare of the family.\n\n"
-            "Answer: (b)\n"
-            "⦿ An extended family is one where several nuclear families, e.g., grandparents, uncles, aunts, etc., live together.\n"
-            "⦿ Relatives may be paternal or maternal, i.e., either from the father's side or the mother's side.\n"
-            "⦿ Common to the system are common ancestors, names, family property, taboos, symbols, etc.\n"
-            "⦿ It has a common head or leader who gives guidance to religious matters or property division.\n"
-            "⦿ The system is headed by the family head or Abusuapanin.\n\n"
-            "Answer: (c)\n"
-            "⦿ Children are better educated as compared to those in the extended family.\n"
-            "⦿ Children feel better secured because of the presence of their parents.\n"
-            "⦿ Children are clearly monitored, guided, and cared for.\n"
-            "⦿ Family assets are shared among members of the nuclear family.\n"
-            "⦿ Children are provided with the necessary affection.\n"
-            "⦿ Parent-child relationship is very close.\n"
-            "⦿ Children are not overburdened with work to support the family.\n"
-            "⦿ It is easy to make a decision concerning the family.\n\n"
-            "Answer: (d)\n"
-            "⦿ It helps us to know our relationships with God.\n"
-            "⦿ It promotes peace or harmony or obedience to God's commandment.\n"
-            "⦿ It promotes resource mobilizations.\n"
-            "⦿ It fulfils God's commandment and direction.\n"
-            "⦿ It promotes progress and development of the family.\n"
-            "⦿ Members are protected by each other.\n"
-            "⦿ The poor and elderly are supported financially by other family members.\n"
-            "⦿ It gives children a sense of belonging.\n"
-            "⦿ It brings unity among family members.",
+        scenario: "Question 1: (a) Explain the nuclear family system.\n"
+            "(b) State the obligations of each member of the family.\n"
+            "(BECE 1999 Q7)",
+        answer: "Correct Answer: (a) The nuclear family system:\n"
+            "⦿ The nuclear family is a small family unit consisting only of a father, a mother and their children living together. The father is recognised as the head of this family unit.\n\n"
+            "(b) Obligations of each member of the family:\n"
+            "⦿ Duties of the father:\n"
+            "⦿ He is responsible for providing food, clothing and a home for his family.\n"
+            "⦿ He sees to the spiritual growth, physical wellbeing, moral upbringing, schooling and health of his family.\n"
+            "⦿ He leads and takes charge of the household.\n"
+            "⦿ He corrects the children whenever they misbehave or stray from good conduct.\n"
+            "⦿ He acts as a guide and adviser to family members.\n\n"
+            "⦿ Duties of the mother:\n"
+            "⦿ She oversees the daily running of the home and its chores.\n"
+            "⦿ She assists the father financially and materially in caring for the family.\n"
+            "⦿ She bathes and looks after the youngest and eldest members of the household.\n"
+            "⦿ She teaches the children good values and proper behaviour.\n"
+            "⦿ She takes on the father's responsibilities within the home whenever he is away.\n\n"
+            "⦿ Duties of the children:\n"
+            "⦿ They show respect and obey their parents.\n"
+            "⦿ They help with errands their parents send them on.\n"
+            "⦿ The older children assist in looking after their younger siblings.\n"
+            "⦿ They help their mother with household tasks.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario: "Question 2: (a) Describe the extended family system.\n"
+            "(b) Mention three advantages and three disadvantages of the extended family system.\n"
+            "(BECE 2000 Q8)",
+        answer: "Correct Answer: (a) The extended family system:\n"
+            "⦿ An extended family goes beyond the father, mother and children to include other relatives such as uncles, aunts, cousins, nephews and grandparents living as one family unit.\n\n"
+            "(b) Advantages of the extended family:\n"
+            "⦿ Family members support and assist each other whenever the need arises.\n"
+            "⦿ Grandparents can help their children raise the grandchildren.\n"
+            "⦿ Members become better acquainted with their wider relatives.\n\n"
+            "Disadvantages of the extended family:\n"
+            "⦿ Individual members enjoy very little privacy.\n"
+            "⦿ The head of the family faces heavy pressure from dependants.\n"
+            "⦿ Wealthier members may be resented or envied by others in the family over material matters.\n"
+            "⦿ Minor disagreements can cause frequent quarrels.\n"
+            "⦿ Some parents lose authority over their children owing to confusion about who is responsible for discipline.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 2: (a) State four features of traditional religious homes.\n"
-            "(b) State four benefits that can be derived from interacting with members of other religions.\n"
-            "(BECE 2011 Q6)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Members learn about their religion together.\n"
-            "⦿ The extended family members live together.\n"
-            "⦿ Offering of libation and traditional religious sacrifice and divination are common.\n"
-            "⦿ Adult members of the family take care to ensure the religious and moral upbringing of the children.\n"
-            "⦿ Images and statues of gods and religious objects like charms and amulets are kept by members.\n"
-            "⦿ There are numerous taboos to be obeyed by members.\n"
-            "⦿ In the evening, the children group themselves up to listen to folk stories and folktales or sing songs and play games.\n"
-            "⦿ They also learn about their traditional customs and traditions.\n"
-            "⦿ Members in the traditional home live to help the needy.\n"
-            "⦿ Traditional religious festivals are celebrated in traditional homes and neighbourhoods.\n\n"
-            "Answer: (b)\n"
-            "⦿ It promotes peaceful coexistence, tolerance, and peace among people in the country.\n"
-            "⦿ It helps to strengthen religious faith in the country.\n"
-            "⦿ It provides an avenue to appreciate each other.\n"
-            "⦿ It brings about respect of the rights of all groups in the country.\n"
-            "⦿ It encourages support for each other.\n"
-            "⦿ It gives an assurance of safety among people.\n"
-            "⦿ It helps to ensure development in the country.",
+            "Question 3: (a) State three reasons why children should be obedient to (i) parents; (ii) teachers.\n"
+            "(b) Mention any four rules that are expected to be obeyed in your school.\n"
+            "(BECE 2002 Q8)",
+        answer:
+            "Correct Answer: (a) Reasons children should obey their parents:\n"
+            "⦿ Obedience to parents is instructed by God and carries a promise of reward.\n"
+            "⦿ It brings joy and pride to parents.\n"
+            "⦿ It helps children avoid the consequences of wrongdoing.\n\n"
+            "Reasons children should obey their teachers:\n"
+            "⦿ Teachers act as guardians for pupils while they are at school.\n"
+            "⦿ It builds a warm and cooperative relationship between pupils and teachers.\n"
+            "⦿ It creates a favourable atmosphere in which learning can take place effectively.\n\n"
+            "(b) School rules to be obeyed:\n"
+            "⦿ Pupils must arrive at school on time and attend regularly.\n"
+            "⦿ Pupils must be truthful and refrain from lying.\n"
+            "⦿ No pupil should bully or fight with a classmate.\n"
+            "⦿ Pupils should keep the school compound clean and tidy.\n"
+            "⦿ Pupils must dress in the prescribed school uniform.\n"
+            "⦿ No pupil should destroy school property.\n"
+            "⦿ Younger pupils should not be treated unfairly by older ones.\n"
+            "⦿ Pupils must pay attention and behave properly during lessons.\n"
+            "⦿ No pupil should cheat during examinations.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 3: (a) List four factors that promote good family relationship.\n"
-            "(b) Explain any four benefits/healthy relationship among family members.\n"
+            "Question 4: Explain five disadvantages of belonging to the extended family.\n"
+            "(BECE 2003 Q8)",
+        answer:
+            "Correct Answer: Five disadvantages of belonging to the extended family:\n"
+            "⦿ Members can find it easier to escape blame or punishment for wrongdoing since responsibility is shared.\n"
+            "⦿ Wealthier relatives may be burdened financially by poorer members who depend on them.\n"
+            "⦿ Disputes can arise more easily among such a large group of relatives, particularly over property and inheritance.\n"
+            "⦿ The system can discourage individual members from working hard, since they expect support regardless of effort.\n"
+            "⦿ Children may not receive as much individual attention and discipline as they would in a smaller family unit.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 5: (a) Explain the two main family systems in Ghana.\n"
+            "(BECE 2007 Q8)",
+        answer: "Correct Answer: (a) The two main family systems in Ghana:\n"
+            "⦿ The Nuclear Family: This consists of a father, a mother and their children living together as a self-contained unit, with the father usually recognised as head of the household.\n"
+            "⦿ The Extended Family: This is a wider network built around a common ancestor, taking in relatives such as grandparents, uncles, aunts, cousins and nephews, who all consider themselves one family. It may be headed by a family chief or the eldest relative in the lineage.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario: "Question 6: (a) Describe the nuclear family system.\n"
+            "(b) Mention three advantages of the nuclear family.\n"
+            "(BECE 2011 Q7)",
+        answer: "Correct Answer: (a) The nuclear family system:\n"
+            "⦿ The nuclear family is made up of only a father, mother and their children, forming a compact family group that lives together.\n\n"
+            "(b) Advantages of the nuclear family:\n"
+            "⦿ Children generally receive a better standard of upbringing and moral training.\n"
+            "⦿ Children in this system tend to enjoy better religious instruction from their parents.\n"
+            "⦿ Children feel more secure and protected because of the constant presence of their parents.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 7: Explain four features of traditional religious homes.\n"
+            "(BECE 2014 Q3)",
+        answer:
+            "Correct Answer: Four features of traditional religious homes:\n"
+            "⦿ Family members are taught about traditional beliefs and moral values as they grow up together.\n"
+            "⦿ Traditional religious practices are visible in the home through the use of items such as amulets, sacred objects and ritual symbols.\n"
+            "⦿ Members observe and grow accustomed to household taboos linked to their traditional beliefs.\n"
+            "⦿ The household actively takes part in traditional celebrations, storytelling and festivals as ways of passing on culture to children.\n"
+            "⦿ Traditional values and customs are learned and reinforced continually within the home environment.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 8: (a) State three main reasons each why rules and regulations are useful (i) at home; (ii) in the community.\n"
+            "(b) Outline four benefits of taking instructions from elders.\n"
+            "(BECE 2014 Q6)",
+        answer: "Correct Answer: (a) Reasons rules are useful at home:\n"
+            "⦿ They help shape good behaviour in children, such as avoiding rude language, fighting or gossip.\n"
+            "⦿ They enable children to complete their household chores properly.\n"
+            "⦿ They instil discipline within the family.\n"
+            "⦿ They reduce conflict among family members.\n"
+            "⦿ They teach children to distinguish between right and wrong conduct.\n\n"
+            "Reasons rules and regulations are useful in the community:\n"
+            "⦿ They prevent disorder and confusion within society.\n"
+            "⦿ They allow people to live safely and happily together.\n"
+            "⦿ They promote peace, harmony and development in society.\n"
+            "⦿ They help everyone work towards common goals as a community.\n"
+            "⦿ They help maintain discipline within the wider society.\n"
+            "⦿ They allow society to function smoothly and avoid unnecessary punishment.\n"
+            "⦿ They encourage cooperation and teamwork among community members.\n"
+            "⦿ They support community members in observing accepted customs and local laws.\n\n"
+            "(b) Benefits of taking instructions from elders:\n"
+            "⦿ They help prevent disorder and confusion in society.\n"
+            "⦿ They shape good character and proper conduct.\n"
+            "⦿ They earn one love and admiration from other people.\n"
+            "⦿ They bring blessings and favour from God, parents and elders.\n"
+            "⦿ They increase one's chances of becoming a good leader in future.\n"
+            "⦿ They lead to a long and fulfilling life, in keeping with God's promise.\n"
+            "⦿ They help one become dependable and responsible in life.\n"
+            "⦿ They may result in rewards, gifts or recognition.\n"
+            "⦿ They contribute to peace and progress in society.\n"
+            "⦿ They earn one honour and respect within the family.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 9: (a) List four factors that promote good family relationships.\n"
+            "(b) Explain any four benefits of healthy relationships among family members.\n"
             "(BECE 2014 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Being obedient to parents and grandparents.\n"
-            "⦿ Giving support to parents and grandparents.\n"
-            "⦿ Helping parents with household chores.\n"
-            "⦿ Learning to forgive one another.\n"
-            "⦿ Showing love, kindness, appreciation, and mercy to members of the household.\n"
-            "⦿ Showing respect to parents and elders in the household.\n"
-            "⦿ Allowing free and open discussions on issues before taking decisions.\n\n"
-            "Answer: (b)\n"
-            "⦿ It helps us to grow our relationships with God.\n"
-            "⦿ It promotes peace or harmony or obedience to God's commandment.\n"
-            "⦿ It promotes resource mobilizations.\n"
-            "⦿ It fulfils God's commandment and direction.\n"
-            "⦿ It promotes progress and development of the family.\n"
-            "⦿ Members are protected by each other.\n"
-            "⦿ The poor and elderly are supported financially by other family members.\n"
-            "⦿ It gives children a sense of belonging.\n"
-            "⦿ It brings unity among family members.",
+        answer:
+            "Correct Answer: (a) Factors that promote good family relationships:\n"
+            "⦿ Being obedient towards parents and grandparents.\n"
+            "⦿ Offering support to parents and grandparents.\n"
+            "⦿ Helping with household chores.\n"
+            "⦿ Being willing to forgive one another.\n\n"
+            "(b) Benefits of healthy relationships among family members:\n"
+            "⦿ It strengthens the bond members share with God.\n"
+            "⦿ It brings about peace and stability within the household.\n"
+            "⦿ It encourages members to pool resources together.\n"
+            "⦿ It helps the family fulfil God's commandments and guidance.\n"
+            "⦿ It contributes to the family's overall progress and development.\n"
+            "⦿ Members look out for and protect one another.\n"
+            "⦿ Wealthier members financially support poorer or elderly relatives.\n"
+            "⦿ It gives every member a sense of truly belonging.\n"
+            "⦿ It creates unity among family members.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 4: (a) State any four duties a child must perform in the family.\n"
+            "Question 10: (a) State any four duties a child must perform in the family.\n"
             "(b) Explain any four reasons why an individual needs to constantly examine himself or herself.\n"
             "(BECE 2016 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Running errands in the house.\n"
-            "⦿ Maintenance of home and performing household chores.\n"
-            "⦿ Assisting parents to undertake economic activities at home.\n"
-            "⦿ Taking care of younger siblings.\n"
-            "⦿ Obedience to parents and elders.\n"
-            "⦿ Reporting bad deeds of other siblings in the house and the society.\n\n"
-            "Answer: (b)\n"
-            "⦿ To avoid the repetition of the same mistakes.\n"
-            "⦿ To accept responsibility for your actions.\n"
-            "⦿ For avoidance of false accusations.\n"
-            "⦿ To build good and healthy relationships.\n"
-            "⦿ Regret one's bad deeds.\n"
-            "⦿ It helps to be law abiding and overcome poverty.\n"
-            "⦿ To avoid consultation with unnecessary mediums e.g. spiritualities, etc.\n"
-            "⦿ For the discovery of one's weakness and strengths.\n"
-            "⦿ To avoid deception by people with dubious characters.",
+        answer: "Correct Answer: (a) Duties of a child in the family:\n"
+            "⦿ Running errands within the home.\n"
+            "⦿ Keeping the home tidy and helping with chores.\n"
+            "⦿ Assisting parents with income-generating work at home.\n"
+            "⦿ Caring for and supporting younger siblings.\n"
+            "⦿ Obeying parents and elder siblings.\n"
+            "⦿ Reporting any misconduct by siblings to parents.\n"
+            "⦿ Respecting parents, elders and siblings alike.\n\n"
+            "(b) Reasons for self-examination:\n"
+            "⦿ To avoid repeating past mistakes.\n"
+            "⦿ To take ownership of one's own actions.\n"
+            "⦿ To prevent being wrongly accused of things one did not do.\n"
+            "⦿ To build strong and healthy relationships with others.\n"
+            "⦿ To feel remorse for past wrongs and make amends.\n"
+            "⦿ To avoid being unfair or unjust towards others.\n"
+            "⦿ To develop patience and avoid laziness.\n"
+            "⦿ To resist consulting untrustworthy sources such as fortune tellers or mediums.\n"
+            "⦿ To gain insight into one's own weaknesses and strengths.\n"
+            "⦿ To avoid being deceived by dishonest people.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 5: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
+            "Question 11: (a) Outline four ways of promoting good relationships among family members.\n"
+            "(b) State three reasons each for being obedient to (i) parents; (ii) teachers.\n"
+            "(BECE 2017 Q7)",
+        answer:
+            "Correct Answer: (a) Ways of promoting good relationships among family members:\n"
+            "⦿ Refer to Question 9(a) above (BECE 2014 Q7a).\n\n"
+            "(b) Reasons for being obedient to parents and teachers:\n"
+            "⦿ Refer to Question 3(a) above (BECE 2002 Q8a).",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 12: Describe four problems that may arise if parents and children refuse to perform their duties.\n"
             "(BECE 2018 Q7)",
-        answer: "Correct Answer:\n"
-            "⦿ The entire family suffers when parents and children refuse to perform their duties.\n"
-            "⦿ There will be disagreement, conflict, and disunity among family members if parents and children refuse to perform their duties.\n"
-            "⦿ Parents and children who refuse to perform their duties become standard-bearers of disappointment and a burden to the society.\n"
-            "⦿ When parents and children refuse to perform their duties, they become a liability to both old and young.",
+        answer:
+            "Correct Answer: Four problems that may arise if parents and children refuse to perform their duties:\n"
+            "⦿ Society as a whole suffers when parents and children neglect their responsibilities.\n"
+            "⦿ Refusal to perform duties creates disagreement and division within the family.\n"
+            "⦿ Parents and children who avoid their duties tend to grow lazy over time, which can spread resentment and hostility within the household.\n"
+            "⦿ Neglecting family duties leaves parents and children disappointed and can become a burden on wider society.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 6: (a) In what four ways can people from different religions co-exist peacefully?\n"
-            "(b) State four importance of peaceful co-existence among people?\n"
+            "Question 13: (a) List four factors that promote good family relationships.\n"
+            "(b) Explain any four benefits of healthy relationships among family members.\n"
+            "(BECE 2019 Q7)",
+        answer:
+            "Correct Answer: (a) Factors that promote good family relationships:\n"
+            "⦿ Refer to Question 9(a) above (BECE 2014 Q7a).\n\n"
+            "(b) Benefits of healthy relationships among family members:\n"
+            "⦿ Refer to Question 9(b) above (BECE 2014 Q7b).",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 14: Identify four rules that are expected to be obeyed in your school.\n"
+            "(BECE 2021 Q7a)",
+        answer:
+            "Correct Answer: Four rules that are expected to be obeyed in your school:\n"
+            "⦿ Refer to Question 3(b) above (BECE 2002 Q8b).",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 15: (a) In what four ways can people from different religions co-exist peacefully?\n"
+            "(b) State four importance of peaceful co-existence among people.\n"
             "(BECE 2022 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Good interactions between them: People from different religious groups must interact well with each other to ensure peaceful co-existence among them. They should understand and relate well with each other to prevent any form of misunderstanding for peace and unity to prevail among them.\n"
-            "⦿ Organization of games and sports among religious groups: The followers of the religious groups in Ghana, namely Muslims, Christians, and Traditionalists, can organize inter-religious games such as football or indoor games like oware, ludo, \"tag of peace\", etc., to promote peaceful co-existence among them. This will enable them relate and understand themselves better.\n"
-            "⦿ Appreciating each other's religion: Religious groups in Ghana should respect and appreciate the beliefs and practices of each other. This will help to ensure peaceful co-existence among them.\n"
-            "⦿ Using dialogue to solve religious problems: Religious groups must use dialogue to settle religious problems in the country. This will enable the parties involved to fully take part in the process, listen to each order's concerns, and resolve the issues affecting them to bring peace in the country.\n"
-            "⦿ Proper interpretation of scriptures/religious beliefs: Religious groups should ensure that their scriptures or beliefs and practices are properly interpreted and explained to people. This will enhance understanding of religious beliefs and practices and promote harmonious living among religious groups in the country.\n"
-            "⦿ Coming together for communal labour/common project: Leaders of the religious groups should entreat their members to participate in communal labour in their areas. This brings Muslims and Christians, children, and family members to erase any misconception in their minds and appreciate each other's religious practices and beliefs.\n\n"
-            "Answer: (b)\n"
-            "⦿ Peaceful co-existence brings tolerance and peace among people in the country.\n"
-            "⦿ Peaceful co-existence among people helps to strengthen religious faith in the country.\n"
-            "⦿ Peaceful co-existence among people provides an avenue to appreciate each other.\n"
-            "⦿ Peaceful co-existence among people brings about respect of the rights of all groups in the country.\n"
-            "⦿ Peaceful co-existence among people encourages support for each other.\n"
-            "⦿ It also gives an assurance of safety among people.\n"
-            "⦿ Peaceful co-existence among people helps to ensure development in the country.",
+        answer:
+            "Correct Answer: (a) Ways people from different religions can co-exist peacefully:\n"
+            "⦿ Positive engagement between groups: Different religious communities need to relate well with one another to maintain peace. Doing so helps them understand each other and prevents misunderstandings from disrupting unity.\n"
+            "⦿ Joint sporting and social activities: Followers of Christianity, Islam and Traditional religion can organise shared events, such as football matches or games like oware and \"tag of peace\", to help members understand and relate to one another better.\n"
+            "⦿ Mutual respect for each other's faith: Religious communities should value and honour one another's beliefs and customs, which helps maintain peace in the country.\n"
+            "⦿ Tolerance of one another's practices: Religious groups should accept each other's beliefs and customs. For example, Christians tolerating the pouring of libation by Traditionalists as a form of worship helps maintain harmony.\n"
+            "⦿ Joint participation in festivals: Communities should take part in one another's religious celebrations. For example, Muslims joining Christians for Christmas and Easter, and Christians joining Muslims for Eid celebrations, strengthens peaceful coexistence.\n"
+            "⦿ Strengthening religious and moral education: Schools should give greater emphasis to Religious and Moral Education, helping pupils understand and appreciate the beliefs and practices of various religious groups.\n"
+            "⦿ Encouraging interfaith relationships: People should be encouraged to build relationships and even marriages across religious lines, which helps promote coexistence.\n"
+            "⦿ Using dialogue to resolve disagreements: Religious groups should discuss disputes openly, allowing all parties to be heard and their concerns addressed, so that peace can be restored.\n"
+            "⦿ Ensuring beliefs are properly understood: Religious bodies should make sure their teachings and scriptures are correctly explained to followers, which improves understanding among different faiths.\n"
+            "⦿ Coming together for community projects: Leaders of the various faiths should encourage joint participation in community labour, bringing Christians, Muslims and Traditionalists together and fostering peaceful coexistence.\n\n"
+            "(b) Importance of peaceful coexistence:\n"
+            "⦿ It fosters tolerance and peace throughout the country.\n"
+            "⦿ It strengthens people's religious faith and conviction.\n"
+            "⦿ It gives each religious group the chance to learn about and appreciate the others.\n"
+            "⦿ It safeguards the rights of every group in the country.\n"
+            "⦿ It provides people with mutual support and encouragement.\n"
+            "⦿ It offers a sense of safety and security among the population.\n"
+            "⦿ It contributes to the overall development of the nation.",
         explanation: ".",
       ),
+    ],
+  ),
+  "Religious & Moral Education JHS1 s3 ss3 - Rights, Duties, and Religious Youth Organizations":
+      PracticeModel(
+    audioPath: '',
+    questions: [
       PracticeQuestion(
-        scenario: "Question 7: (a) Mention three school rules.\n"
-            "(b) Why are rules and regulations important in a school?\n"
-            "(BECE 1999 Q4)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Be punctual and regular at school.\n"
-            "⦿ Be obedient to school authorities.\n"
-            "⦿ Do their homework and present them at given times.\n"
-            "⦿ Pay part of all cleaning and other school exercises.\n"
-            "⦿ Protect school properties.\n"
-            "⦿ Comport themselves both on school compounds and in classroom.\n"
-            "⦿ Report bad behaviours to school authorities.\n"
-            "⦿ Dress decently during school hours.\n\n"
-            "Answer: (b)\n"
-            "⦿ They help to maintain law and order.\n"
-            "⦿ They guide people to work in unity.\n"
-            "⦿ They also help to reduce crime rate.\n"
-            "⦿ They help us to achieve goals and objectives.\n"
-            "⦿ They serve as checks to restrict people from doing bad things according to laid down rules and regulations.\n"
-            "⦿ In order to be successful in life.\n"
-            "⦿ To be accepted by the society.\n"
-            "⦿ To bring about national peace and discipline in the society.\n"
-            "⦿ In order to avoid punishment.",
+        scenario:
+            "Question 1: (a) Mention three school rules and three regulations at home.\n"
+            "(b) Why are rules and regulations important?",
+        answer: "Correct Answer: (a) School Rules:\n"
+            "⦿ Learners are required to arrive on campus on time and maintain consistent daily attendance.\n"
+            "⦿ Students must complete all assigned academic work and hand in tasks by the specified deadline.\n"
+            "⦿ School property, furniture, and learning materials must be handled with care to prevent damage.\n\n"
+            "Home Regulations:\n"
+            "⦿ Domestic chores allocated to every family member must be executed with diligence.\n"
+            "⦿ Children are expected to address parents, guardians, and elders with courtesy and respect.\n"
+            "⦿ Household bedtimes must be strictly observed so everyone gets adequate rest.\n\n"
+            "(b) Importance of Rules and Regulations:\n"
+            "⦿ They establish an orderly framework that upholds law and maintains social discipline.\n"
+            "⦿ They foster a harmonious environment by encouraging people to live and work together cooperatively.\n"
+            "⦿ They reduce crime rates, curb misconduct, and protect individuals from harm within the community.\n"
+            "⦿ They guide personal behavior, helping individuals recognize social boundaries and make responsible choices.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 8: (a) What are the responsibilities of a child in the home and the school?\n"
-            "(b) Why is it necessary for you to perform these duties?\n"
-            "(BECE 2001 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Grown-up children should take care of younger ones.\n"
-            "⦿ Children must assist in household chores e.g. cooking, washing, etc.\n"
-            "⦿ Children must help their parents in their businesses.\n"
-            "⦿ Children are morally responsible to obey elderly people at home.\n"
-            "⦿ Participating in communal labour.\n"
-            "⦿ Fetching water and dishes.\n"
-            "⦿ Washing clothes and utensils.\n"
-            "⦿ Safely people in the community.\n"
-            "⦿ Children are responsible to submit to all religious values in the community.\n\n"
-            "Answer: (b)\n"
-            "⦿ To show respect for parents and elders.\n"
-            "⦿ To earn trust and favor.\n"
-            "⦿ To build good habits and character.\n"
-            "⦿ To ensure smooth running of the home and school environment.\n"
-            "⦿ To prepare for future adult responsibilities.",
+            "Question 2: (a) What are the responsibilities of a child in the home?\n"
+            "(b) Why is it necessary for you to perform your responsibility?",
+        answer: "Correct Answer: (a) Responsibilities of a Child in the Home:\n"
+            "⦿ Supporting parents by looking after younger siblings and ensuring their safety.\n"
+            "⦿ Performing routine domestic chores such as sweeping rooms, tidying up, and washing utensils.\n"
+            "⦿ Carrying out errands given by parents and older family members willingly and promptly.\n"
+            "⦿ Showing honour, deference, and obedience to parents and guardians at all times.\n"
+            "⦿ Fetching domestic water supplies and keeping household surroundings clean.\n\n"
+            "(b) Necessity of Performing Responsibilities:\n"
+            "⦿ It demonstrates filial devotion, respect, and gratitude toward one's parents.\n"
+            "⦿ It lightens the daily workload on parents, ensuring smooth running of the home.\n"
+            "⦿ It builds personal character, self-discipline, and practical life skills for the child's future.\n"
+            "⦿ It promotes family unity, peace, and mutual trust within the household.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 9: (a) State four reasons why people avoid responsibilities.\n"
-            "(b) Explain four reasons why rules and regulations are important.\n"
-            "(BECE 2008 Q7)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Tiredness or difficulty.\n"
-            "⦿ People's bad influence.\n"
-            "⦿ Fear of criticism or confidence.\n"
-            "⦿ Pride.\n"
-            "⦿ Laziness.\n"
-            "⦿ Selfishness.\n"
-            "⦿ Fear of failure.\n\n"
-            "Answer: (b)\n"
-            "⦿ They help to maintain law and order.\n"
-            "⦿ They guide people to work in unity.\n"
-            "⦿ They also help to reduce crime rate.\n"
-            "⦿ They help us to achieve goals and objectives.\n"
-            "⦿ They serve as checks to restrict people from doing bad things according to laid down rules and regulations.\n"
-            "⦿ In order to be successful in life.\n"
-            "⦿ To be accepted by the society.\n"
-            "⦿ To bring about national peace and discipline in the society.\n"
-            "⦿ In order to avoid punishment.",
+            "Question 3: Explain the responsibilities of a child in the community.",
+        answer:
+            "Correct Answer: Responsibilities of a Child in the Community:\n"
+            "⦿ Participating actively in communal labor projects, such as clearing overgrown brush and sweeping public areas.\n"
+            "⦿ Maintaining environmental cleanliness by disposing of rubbish in designated bins and unblocking gutters.\n"
+            "⦿ Showing politeness, deference, and courtesy to all community leaders and elders.\n"
+            "⦿ Protecting public assets and infrastructure from vandalism or careless destruction.\n"
+            "⦿ Safeguarding local water bodies, footpaths, and shared facilities against pollution and misuse.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario: "Question 4: (a) What is human right?\n"
+            "(b) Describe any three rights of the child can be protected.",
+        answer: "Correct Answer: (a) Definition of Human Rights:\n"
+            "⦿ Human rights are fundamental entitlements and freedoms inherent to every human being from birth, backed by legal standards to ensure dignity and justice.\n\n"
+            "(b) Protection of Specific Rights of the Child:\n"
+            "⦿ Right to Life: Every child possesses an inherent entitlement to exist. Laws strictly forbid unlawful harm or the termination of life, guaranteeing statutory protection from birth.\n"
+            "⦿ Right to Education: Children have an absolute entitlement to formal learning. State policies mandate parents and guardians to enrol school-age children in educational institutions.\n"
+            "⦿ Protection Against Abuse: Children are legally shielded from physical, emotional, or sexual exploitation, allowing child protection agencies to intervene whenever abuse occurs.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 10: State five rules that govern behaviour in the classroom.\n"
-            "(BECE 2018 Q8)",
-        answer: "Correct Answer:\n"
-            "⦿ Do not steal or cheat in class.\n"
-            "⦿ Do not disturb or talk in class.\n"
-            "⦿ Do not fight in class.\n"
-            "⦿ Do not call out nicknames in class.\n"
-            "⦿ Do not sleep in class.\n"
-            "⦿ Do not insult a colleague in a classroom.",
+            "Question 5: (a) Explain five moral responsibilities of parents.\n"
+            "(b) What four duties is a pupil expected to perform in school?",
+        answer: "Correct Answer: (a) Moral Responsibilities of Parents:\n"
+            "⦿ Providing wholesome food, safe shelter, and decent clothing to ensure the physical development of the child.\n"
+            "⦿ Instilling sound moral values, social etiquette, and good character through consistent personal guidance.\n"
+            "⦿ Securing access to quality formal education and supplying necessary instructional materials.\n"
+            "⦿ Ensuring comprehensive healthcare, medical care, and proper protection against diseases.\n"
+            "⦿ Offering emotional warmth, security, and constructive correction when a child misbehaves.\n\n"
+            "(b) Duties Expected of a Pupil in School:\n"
+            "⦿ Paying total attention during classroom lessons and completing all assigned coursework accurately.\n"
+            "⦿ Participating cheerfully in school maintenance tasks, including sweeping and weeding the campus.\n"
+            "⦿ Demonstrating respect toward school heads, teachers, prefects, and fellow students.\n"
+            "⦿ Complying fully with institutional regulations, including attendance, dress codes, and code of conduct.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario: "Question 6: (a) What are human rights?\n"
+            "(b) Explain any five forms of human rights.",
+        answer: "Correct Answer: (a) Definition of Human Rights:\n"
+            "⦿ Human rights refer to the basic claims, privileges, and liberties to which every person is naturally entitled, ensuring that everyone lives with dignity, security, and equality.\n\n"
+            "(b) Five Forms of Human Rights:\n"
+            "⦿ Right to Life: The essential entitlement of every human being to live safely without fear of unlawful death or harm.\n"
+            "⦿ Right to Education: The privilege enabling every individual to acquire knowledge, skills, and values through formal schooling.\n"
+            "⦿ Right to Personal Liberty and Security: Freedom from arbitrary arrest, unlawful detention, or unsafe living conditions.\n"
+            "⦿ Freedom of Speech and Expression: The liberty to share thoughts, express beliefs, and present views publicly within lawful boundaries.\n"
+            "⦿ Freedom of Worship: The entitlement of every citizen to adopt, practice, or observe any spiritual faith or religion without persecution.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario: "Question 7: (a) Mention any five classroom rules.\n"
+            "(b) Give four reasons why rules and regulation are important.",
+        answer: "Correct Answer: (a) Five Classroom Rules:\n"
+            "⦿ Pupils must avoid unnecessary talking, loud chatter, or disruptive actions while lessons are underway.\n"
+            "⦿ Classmates must show respect to one another and avoid verbal insults or physical fights.\n"
+            "⦿ Students are required to maintain a tidy learning environment by keeping desks and floors clean.\n"
+            "⦿ Academic dishonesty, including copying answers during tests or quizzes, is strictly forbidden.\n"
+            "⦿ Learners must obtain formal approval from the teacher before stepping out of the classroom.\n\n"
+            "(b) Importance of Rules and Regulations:\n"
+            "⦿ They preserve order, structure, and academic focus within learning institutions.\n"
+            "⦿ They safeguard students, teaching staff, and equipment from physical harm or damage.\n"
+            "⦿ They cultivate personal discipline, accountability, and healthy habits essential for adulthood.\n"
+            "⦿ They ensure fair treatment, justice, and equal opportunity for every student.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 8: (a) State four responsibilities of a child to the parents.\n"
+            "(b) Give four reasons why people avoid responsibilities.",
+        answer:
+            "Correct Answer: (a) Four Responsibilities of a Child to Parents:\n"
+            "⦿ Demonstrating respect, honor, and obedience to parental instructions and advice.\n"
+            "⦿ Executing domestic tasks and errands promptly whenever requested by parents.\n"
+            "⦿ Assisting with home chores like cooking, washing, sweeping, and fetching water.\n"
+            "⦿ Assisting parents in running their family trade, business, or farm after school hours.\n\n"
+            "(b) Four Reasons Why People Avoid Responsibilities:\n"
+            "⦿ Laziness or an unwillingness to invest time and energy into performing assigned duties.\n"
+            "⦿ Physical or mental fatigue, leading to low drive and poor commitment.\n"
+            "⦿ Negative peer influence that encourages negligence, bad habits, and misconduct.\n"
+            "⦿ Fear of failure or anxiety over being criticized if tasks are not performed perfectly.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario: "Question 9: (a) What are human rights?\n"
+            "(b) Explain any four of the human rights.",
+        answer: "Correct Answer: (a) Definition of Human Rights:\n"
+            "⦿ Human rights are essential liberties and legal protections inherent to all human beings from birth, designed to ensure fairness, freedom, and human dignity.\n\n"
+            "(b) Four Human Rights Explained:\n"
+            "⦿ Right to Life: The primary entitlement guaranteeing that no individual's life can be taken away unlawfully.\n"
+            "⦿ Right to Equality Before the Law: The principle that every citizen receives identical legal protection and fair trial rights without discrimination.\n"
+            "⦿ Right to Freedom of Movement: The liberty of every individual to travel unhindered across the nation and choose where to live.\n"
+            "⦿ Right to Own Property: The legal entitlement enabling individuals to acquire, own, and protect private land or possessions.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 10: (a) State five rules that govern behaviour in the classroom.\n"
+            "(b) Explain five reasons for which rules and regulations must be obeyed.",
+        answer: "Correct Answer: (a) Five Rules Governing Classroom Behavior:\n"
+            "⦿ Eating, chewing, or drinking during class presentations is strictly prohibited.\n"
+            "⦿ Cheating, whispering, or using unauthorized notes during examinations is forbidden.\n"
+            "⦿ Students must raise their hands and be recognized before contributing to discussions.\n"
+            "⦿ Using abusive language, teasing, or mocking classmates is strictly disallowed.\n"
+            "⦿ Learners must stay in their designated seats and stay focused throughout the instructional period.\n\n"
+            "(b) Five Reasons Why Rules Must Be Obeyed:\n"
+            "⦿ To foster an environment that maximizes teaching efficiency and academic success.\n"
+            "⦿ To prevent conflict, misunderstanding, and chaotic behavior among individuals.\n"
+            "⦿ To protect public facilities, instructional materials, and school assets from damage.\n"
+            "⦿ To build mutual respect, safety, and social harmony within the wider community.\n"
+            "⦿ To help individuals avoid disciplinary action, legal penalties, or formal punishment.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario: "Question 11: (a) What are Religious Youth Organizations?\n"
-            "(b) Mention any five functions of such youth organizations in youth community.\n"
-            "(BECE 1999 Q8)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ Religious Youth Organizations are youth groups in religious bodies, denominations, or institutions set up to unite and see to the spiritual, moral, social and material welfare of the youth.\n"
-            "⦿ Examples of such Youth Organizations are: Boys and Girls Brigades (BB and GB), Young People's Guild (YPG), Catholic Youth Organization (CYO), Ahmadiyya Muslim Youth Organization (AMYO), Asafo Youth Movement.\n\n"
-            "Answer: (b)\n"
-            "⦿ It unearths creative qualities, skills, and talents in its members. For example, leadership skills.\n"
-            "⦿ A religious youth organization helps to promote the spirit of unity, co-operation, brotherliness, etc. among its members.\n"
-            "⦿ It helps to instruct members in the moral teachings in the religion under which they operate e.g. debates, quizzes and scripture study.\n"
-            "⦿ It assists its members to lead good moral lifestyles or lead good lives.\n"
-            "⦿ It provides a platform for its members to discuss their faith and well-being.\n"
-            "⦿ It encourages cultural development projects.\n"
-            "⦿ Its members assist the poor and the needy with financial and material resources.\n"
-            "⦿ Its members help to ensure peaceful co-existence among people.\n"
-            "⦿ They help to keep the environment clean by organizing clean-up exercises, e.g., communal labour, etc.\n"
-            "⦿ It provides the forum for discussing youth problems.",
+            "(b) Mention any five functions of such youth organization in youth community.",
+        answer:
+            "Correct Answer: (a) Definition of Religious Youth Organizations:\n"
+            "⦿ Religious Youth Organizations are organized groups formed within religious bodies or faith communities to unite young people for spiritual growth, moral development, social service, and leadership training.\n\n"
+            "(b) Five Functions of Religious Youth Organizations:\n"
+            "⦿ Discovering and honing creative talents and leadership potentials among young members.\n"
+            "⦿ Instilling moral discipline, ethical behavior, and religious doctrines into young minds.\n"
+            "⦿ Building strong fellowship, unity, and mutual support networks among youth.\n"
+            "⦿ Organizing environmental sanitation exercises and community development projects.\n"
+            "⦿ Conducting educational seminars, quizzes, and workshops to widen intellectual horizons.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 12: State four reasons why Religious Youth Organizations are formed.\n"
-            "(BECE 2012 Q8)",
-        answer: "Correct Answer:\n"
-            "⦿ They bring the youth together to organize their social programs.\n"
-            "⦿ Their programs such as get-togethers, sports, and games help to encourage the youth to live in harmony as one people in the society.\n"
-            "⦿ They teach moral values such as love, truthfulness, patriotism, sincerity, etc. The youth are taught to accept acceptable social and moral values such as honesty, hard work, truthfulness, patriotism, sincerity, etc. This is done to prepare the youth to become morally upright and live responsibly in the society.\n"
-            "⦿ They incorporate the youth into the church.\n"
-            "⦿ They redirect the energy of the youth into positive work.\n"
-            "⦿ They teach the youth to acquire leadership skills.",
+            "Question 12: Explain the aim and functions of any one Youth Organization.",
+        answer:
+            "Correct Answer: Chosen Organization: Catholic Youth Organization (CYO)\n"
+            "⦿ Aim: To organize Catholic youth into a united body, promoting spiritual maturity, moral living, and dedicated Christian service to the church and nation.\n\n"
+            "Functions:\n"
+            "⦿ Teaching young members Christian doctrines, scripture knowledge, and church traditions.\n"
+            "⦿ Organizing voluntary community work, such as cleaning public institutions and aiding the needy.\n"
+            "⦿ Training young people in practical leadership and civic responsibility through structured roles.\n"
+            "⦿ Promoting healthy sports, recreational camping, and cultural activities for youth development.",
         explanation: ".",
       ),
       PracticeQuestion(
         scenario:
-            "Question 13: (a) Outline four reasons why Religious Youth Organizations were formed.\n"
-            "(b) State four benefits of joining Religious Youth Organizations.\n"
-            "(BECE 2017 Q8)",
-        answer: "Correct Answer: (a) Answer:\n"
-            "⦿ They bring the youth together to organize their social programs.\n"
-            "⦿ Their programs such as get-togethers, sports, and games help to encourage the youth to live in harmony as one people in the society.\n"
-            "⦿ They teach moral values such as love, truthfulness, patriotism, sincerity, etc.\n"
-            "⦿ They incorporate the youth into the church.\n"
-            "⦿ They redirect the energy of the youth into positive work.\n"
-            "⦿ They teach the youth to acquire leadership skills.\n\n"
-            "Answer: (b)\n"
-            "⦿ Religious tolerance and peaceful co-existence.\n"
-            "⦿ Self-confidence.\n"
-            "⦿ Leadership training.\n"
-            "⦿ Promotion of culture.\n"
-            "⦿ Proper use of leisure time.\n"
-            "⦿ Spiritual, physical, and health needs.\n"
-            "⦿ Moral values.",
+            "Question 13: (a) Explain five functions of religious youth organizations.\n"
+            "(b) What two problems do Religious Youth Organizations face?",
+        answer:
+            "Correct Answer: (a) Five Functions of Religious Youth Organizations:\n"
+            "⦿ Providing a dedicated platform for young individuals to deepen their faith and spiritual life.\n"
+            "⦿ Preparing young members to take up responsible leadership roles within the church and society.\n"
+            "⦿ Protecting youth from engaging in social vices like drug abuse through moral education.\n"
+            "⦿ Leading community clean-up initiatives to promote public health and hygiene.\n"
+            "⦿ Extending charitable assistance, food items, and care to vulnerable community members.\n\n"
+            "(b) Two Challenges Faced by Religious Youth Organizations:\n"
+            "⦿ Severe financial constraints and limited funds to execute planned projects.\n"
+            "⦿ Low commitment levels or irregular meeting attendance due to busy academic and work schedules.",
         explanation: ".",
-      )
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 14: (a) Describe four activities of any religious youth organization.\n"
+            "(b) Identify four benefits of joining a religious youth organization.",
+        answer:
+            "Correct Answer: (a) Four Activities of a Religious Youth Organization (e.g., Boys' and Girls' Brigade):\n"
+            "⦿ Holding regular Bible study sessions, prayer hours, and devotions.\n"
+            "⦿ Engaging in drill practices, physical fitness routines, and outdoor camps.\n"
+            "⦿ Conducting public sanitation drives in medical facilities, markets, and streets.\n"
+            "⦿ Executing evangelical campaigns, community outreach, and social welfare programs.\n\n"
+            "(b) Four Benefits of Joining a Religious Youth Organization:\n"
+            "⦿ Developing strong moral values, ethical character, and spiritual understanding.\n"
+            "⦿ Acquiring practical skills in public speaking, decision-making, and leadership.\n"
+            "⦿ Building positive, enduring friendships with disciplined and supportive peers.\n"
+            "⦿ Utilizing spare time constructively while avoiding harmful social vices.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 15: (a) Outline four reasons why Religious Youth Organizations are formed.\n"
+            "(b) State four benefits of joining Religious Youth Organizations.",
+        answer:
+            "Correct Answer: (a) Four Reasons for Forming Religious Youth Organizations:\n"
+            "⦿ To mobilize young people for active involvement in religious and community duties.\n"
+            "⦿ To shield youth from negative societal influences by grounding them in moral discipline.\n"
+            "⦿ To groom young believers for future leadership responsibilities in civic and church affairs.\n"
+            "⦿ To promote unity, love, and cooperation among young members of the faith.\n\n"
+            "(b) Four Benefits of Membership:\n"
+            "⦿ Access to practical opportunities for developing organizational and management abilities.\n"
+            "⦿ Cultivation of personal integrity, honesty, and healthy self-confidence.\n"
+            "⦿ Experiencing spiritual enrichment and acquiring a thorough understanding of faith principles.\n"
+            "⦿ Receiving emotional support, mentorship, and guidance during personal difficulties.",
+        explanation: ".",
+      ),
+      PracticeQuestion(
+        scenario:
+            "Question 16: Describe four functions which Religious Youth Organizations perform in your community.",
+        answer:
+            "Correct Answer: Four functions which Religious Youth Organizations perform in the community:\n"
+            "⦿ Promoting Moral Uprightness: They teach ethical values like honesty, respect, and discipline to keep youth away from crime and delinquency.\n"
+            "⦿ Community Cleaning Services: They organize periodic clean-up exercises to clear choked drains and sweep public facilities like markets and health centers.\n"
+            "⦿ Leadership Training: They offer practical leadership experience by appointing members to manage committee tasks, programs, and projects.\n"
+            "⦿ Charity and Social Support: They provide relief items, financial assistance, and visitation to orphans, the elderly, and the sick.",
+        explanation: ".",
+      ),
     ],
   ),
   "Religious & Moral Education JHS1 s4 ss1 - Islamic Prophets / Caliphs / Personalities":

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../core/services/auth_storage_service.dart';
 import '../../auth/screens/login_as_screen.dart';
+import '../../sidebar/controller/sidebar_controller.dart';
 import '../../splash/screens/splash_screen.dart';
 
 class TeacherSidebar extends StatelessWidget {
@@ -108,6 +109,10 @@ class TeacherSidebar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final sidebarController = Get.isRegistered<SidebarController>()
+        ? Get.find<SidebarController>()
+        : Get.put(SidebarController());
+
     return Container(
       width: 250,
       color: Colors.white,
@@ -116,7 +121,10 @@ class TeacherSidebar extends StatelessWidget {
           const SizedBox(height: 24),
           // ── Logo ──
           GestureDetector(
-            onTap: () => onItemSelected(0),
+            onTap: () {
+              sidebarController.resetToHome();
+              onItemSelected(0);
+            },
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Image.asset(
@@ -126,28 +134,154 @@ class TeacherSidebar extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(height: 48),
-
-          // ── Dashboard ──
-          _SidebarTile(
-            icon: Icons.dashboard_outlined,
-            selectedIcon: Icons.dashboard,
-            label: 'Dashboard',
-            isSelected: selectedIndex == 0,
-            onTap: () => onItemSelected(0),
-          ),
           const SizedBox(height: 24),
 
-          // ── Student Overview ──
-          _SidebarTile(
-            icon: Icons.people_outline,
-            selectedIcon: Icons.people,
-            label: 'Student Overview',
-            isSelected: selectedIndex == 1,
-            onTap: () => onItemSelected(1),
-          ),
+          // ── Scrollable Tiles ──
+          Expanded(
+            child: SingleChildScrollView(
+              child: Obx(() {
+                final selectedCourse = sidebarController.selectedCourse.value;
 
-          const Spacer(),
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // ── Dashboard ──
+                    _SidebarTile(
+                      icon: Icons.dashboard_outlined,
+                      selectedIcon: Icons.dashboard,
+                      label: 'Dashboard',
+                      isSelected: selectedIndex == 0 && selectedCourse == null,
+                      onTap: () {
+                        sidebarController.resetToHome();
+                        onItemSelected(0);
+                      },
+                    ),
+                    const SizedBox(height: 16),
+
+                    // ── Student Overview ──
+                    _SidebarTile(
+                      icon: Icons.people_outline,
+                      selectedIcon: Icons.people,
+                      label: 'Student Overview',
+                      isSelected: selectedIndex == 1 && selectedCourse == null,
+                      onTap: () {
+                        sidebarController.resetToHome();
+                        onItemSelected(1);
+                      },
+                    ),
+                    const SizedBox(height: 16),
+
+                    // ── Contents ──
+                    _SidebarTile(
+                      icon: Icons.menu_book_outlined,
+                      selectedIcon: Icons.menu_book,
+                      label: 'Content',
+                      isSelected: selectedIndex == 6 || selectedCourse != null,
+                      onTap: () {
+                        sidebarController.resetToHome();
+                        onItemSelected(6);
+                      },
+                    ),
+
+                    // ── Strands & BECE under Contents ──
+                    if (selectedCourse != null) ...[
+                      const SizedBox(height: 8),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 20, right: 12),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: List.generate(selectedCourse.strands.length, (index) {
+                            final strand = selectedCourse.strands[index];
+                            final isStrandSelected =
+                                sidebarController.selectedStrandIndex.value == index;
+
+                            return Padding(
+                              padding: const EdgeInsets.only(bottom: 6),
+                              child: InkWell(
+                                onTap: () {
+                                  sidebarController.changeStrand(index);
+                                  onItemSelected(6);
+                                },
+                                borderRadius: BorderRadius.circular(8),
+                                child: Container(
+                                  padding: const EdgeInsets.symmetric(
+                                    vertical: 8,
+                                    horizontal: 10,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: isStrandSelected
+                                        ? const Color(0xFFE8F5E9)
+                                        : Colors.transparent,
+                                    borderRadius: BorderRadius.circular(8),
+                                    border: isStrandSelected
+                                        ? Border.all(
+                                            color: const Color(0xFF079938),
+                                            width: 1.2,
+                                          )
+                                        : Border.all(
+                                            color: Colors.grey.shade300,
+                                            width: 0.8,
+                                          ),
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      Icon(
+                                        isStrandSelected
+                                            ? Icons.check_circle
+                                            : Icons.circle_outlined,
+                                        size: 16,
+                                        color: isStrandSelected
+                                            ? const Color(0xFF079938)
+                                            : Colors.grey.shade600,
+                                      ),
+                                      const SizedBox(width: 8),
+                                      Expanded(
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              strand.title,
+                                              style: TextStyle(
+                                                fontSize: 13,
+                                                fontWeight: isStrandSelected
+                                                    ? FontWeight.bold
+                                                    : FontWeight.w500,
+                                                color: isStrandSelected
+                                                    ? const Color(0xFF079938)
+                                                    : Colors.black87,
+                                              ),
+                                            ),
+                                            if (strand.subtitle.isNotEmpty)
+                                              Text(
+                                                strand.subtitle,
+                                                style: TextStyle(
+                                                  fontSize: 10,
+                                                  color: isStrandSelected
+                                                      ? const Color(0xFF079938)
+                                                          .withOpacity(0.8)
+                                                      : Colors.grey.shade600,
+                                                ),
+                                                maxLines: 1,
+                                                overflow: TextOverflow.ellipsis,
+                                              ),
+                                          ],
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            );
+                          }),
+                        ),
+                      ),
+                    ],
+                  ],
+                );
+              }),
+            ),
+          ),
 
           // ── Log out ──
           Padding(

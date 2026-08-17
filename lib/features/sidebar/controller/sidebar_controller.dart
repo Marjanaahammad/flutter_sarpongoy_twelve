@@ -372,17 +372,20 @@ class SidebarController extends GetxController {
                   beceObjectives.lastAttemptScore != null &&
                   beceObjectives.totalQuestions != null &&
                   beceObjectives.totalQuestions! > 0) {
-                int percentage = ((beceObjectives.lastAttemptScore! /
-                            beceObjectives.totalQuestions!) *
-                        100)
-                    .round();
+                double lastScore = (beceObjectives.lastAttemptScore ?? 0).toDouble();
+                double totalQ = (beceObjectives.totalQuestions ?? 1).toDouble();
+                double pct = (totalQ > 0 && lastScore <= totalQ)
+                    ? (lastScore / totalQ) * 100
+                    : lastScore;
+                int percentage = pct.round().clamp(0, 100);
                 quizScoreStr = "$percentage%";
 
                 if (beceObjectives.firstAttemptScore != null) {
-                  int originalPercentage = ((beceObjectives.firstAttemptScore! /
-                              beceObjectives.totalQuestions!) *
-                          100)
-                      .round();
+                  double firstScore = beceObjectives.firstAttemptScore!.toDouble();
+                  double origPct = (totalQ > 0 && firstScore <= totalQ)
+                      ? (firstScore / totalQ) * 100
+                      : firstScore;
+                  int originalPercentage = origPct.round().clamp(0, 100);
                   quizOriginalScoreStr = "$originalPercentage%";
                 }
               }
@@ -494,16 +497,20 @@ class SidebarController extends GetxController {
                   independent.score != null &&
                   independent.totalQuestions != null &&
                   independent.totalQuestions! > 0) {
-                int percentage =
-                    ((independent.score! / independent.totalQuestions!) * 100)
-                        .round();
+                double scoreVal = (independent.score ?? 0).toDouble();
+                double totalQ = (independent.totalQuestions ?? 1).toDouble();
+                double pct = (totalQ > 0 && scoreVal <= totalQ)
+                    ? (scoreVal / totalQ) * 100
+                    : scoreVal;
+                int percentage = pct.round().clamp(0, 100);
                 practiceScoreStr = "$percentage%";
 
                 if (independent.originalScore != null) {
-                  int originalPercentage = ((independent.originalScore! /
-                              independent.totalQuestions!) *
-                          100)
-                      .round();
+                  double origScore = independent.originalScore!.toDouble();
+                  double origPct = (totalQ > 0 && origScore <= totalQ)
+                      ? (origScore / totalQ) * 100
+                      : origScore;
+                  int originalPercentage = origPct.round().clamp(0, 100);
                   practiceOriginalScoreStr = "$originalPercentage%";
                 }
               }
@@ -514,14 +521,20 @@ class SidebarController extends GetxController {
                   quiz.score != null &&
                   quiz.totalQuestions != null &&
                   quiz.totalQuestions! > 0) {
-                int percentage =
-                    ((quiz.score! / quiz.totalQuestions!) * 100).round();
+                double scoreVal = (quiz.score ?? 0).toDouble();
+                double totalQ = (quiz.totalQuestions ?? 1).toDouble();
+                double pct = (totalQ > 0 && scoreVal <= totalQ)
+                    ? (scoreVal / totalQ) * 100
+                    : scoreVal;
+                int percentage = pct.round().clamp(0, 100);
                 quizScoreStr = "$percentage%";
 
                 if (quiz.originalScore != null) {
-                  int originalPercentage =
-                      ((quiz.originalScore! / quiz.totalQuestions!) * 100)
-                          .round();
+                  double origScore = quiz.originalScore!.toDouble();
+                  double origPct = (totalQ > 0 && origScore <= totalQ)
+                      ? (origScore / totalQ) * 100
+                      : origScore;
+                  int originalPercentage = origPct.round().clamp(0, 100);
                   quizOriginalScoreStr = "$originalPercentage%";
                 }
               }
@@ -690,23 +703,59 @@ class SidebarController extends GetxController {
         .toList();
 
     // Practice
-    final practiceRecords =
-        courseProgress.where((p) => p.activityType == 'independent').toList();
-    int practiceTotal = 0;
-    int practiceCorrect = 0;
-    for (var p in practiceRecords) {
-      practiceTotal += (p.totalQuestions ?? 0).toInt();
-      practiceCorrect += (p.score ?? 0).toInt();
+    final practiceRecords = courseProgress
+        .where((p) =>
+            p.activityType.toLowerCase() == 'independent' ||
+            p.activityType.toLowerCase() == 'guided_practice')
+        .toList();
+    int practicePercentage = 0;
+    if (practiceRecords.isNotEmpty) {
+      double totalPct = 0;
+      int count = 0;
+      for (var p in practiceRecords) {
+        final totalQ = (p.totalQuestions ?? 0).toDouble();
+        final scoreVal = (p.score ?? 0).toDouble();
+        if (totalQ > 0 || scoreVal > 0) {
+          double pct;
+          if (totalQ > 0 && scoreVal <= totalQ) {
+            pct = (scoreVal / totalQ) * 100;
+          } else {
+            pct = scoreVal;
+          }
+          totalPct += pct.clamp(0.0, 100.0);
+          count++;
+        }
+      }
+      if (count > 0) {
+        practicePercentage = (totalPct / count).round().clamp(0, 100);
+      }
     }
 
     // Quiz
-    final quizRecords =
-        courseProgress.where((p) => p.activityType == 'quiz').toList();
-    int quizTotal = 0;
-    int quizCorrect = 0;
-    for (var p in quizRecords) {
-      quizTotal += (p.totalQuestions ?? 0).toInt();
-      quizCorrect += (p.score ?? 0).toInt();
+    final quizRecords = courseProgress
+        .where((p) => p.activityType.toLowerCase() == 'quiz')
+        .toList();
+    int quizPercentage = 0;
+    if (quizRecords.isNotEmpty) {
+      double totalPct = 0;
+      int count = 0;
+      for (var p in quizRecords) {
+        final totalQ = (p.totalQuestions ?? 0).toDouble();
+        final scoreVal = (p.score ?? 0).toDouble();
+        if (totalQ > 0 || scoreVal > 0) {
+          double pct;
+          if (totalQ > 0 && scoreVal <= totalQ) {
+            pct = (scoreVal / totalQ) * 100;
+          } else {
+            pct = scoreVal;
+          }
+          totalPct += pct.clamp(0.0, 100.0);
+          count++;
+        }
+      }
+      if (count > 0) {
+        quizPercentage = (totalPct / count).round().clamp(0, 100);
+      }
     }
 
     // Strands finished
@@ -723,11 +772,8 @@ class SidebarController extends GetxController {
       }
     });
 
-    String practicePercent = practiceTotal > 0
-        ? "${((practiceCorrect / practiceTotal) * 100).round()}%"
-        : "0%";
-    String quizPercent =
-        quizTotal > 0 ? "${((quizCorrect / quizTotal) * 100).round()}%" : "0%";
+    String practicePercent = "$practicePercentage%";
+    String quizPercent = "$quizPercentage%";
 
     return {
       "practice": practicePercent,

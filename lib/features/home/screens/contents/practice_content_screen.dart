@@ -60,19 +60,19 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
             LayoutBuilder(
               builder: (context, constraints) {
                 return SingleChildScrollView(
-                  child: ConstrainedBox(
+                  child: Container(
                     constraints: BoxConstraints(
                       minHeight: constraints.maxHeight,
                     ),
-                    child: IntrinsicHeight(
-                      child: Padding(
-                        padding: const EdgeInsets.all(20.0),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: controller.isBece
-                              ? CrossAxisAlignment.start
-                              : CrossAxisAlignment.center,
-                          children: [
+                    alignment: Alignment.center,
+                    child: Padding(
+                      padding: const EdgeInsets.all(20.0),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: controller.isBece
+                            ? CrossAxisAlignment.start
+                            : CrossAxisAlignment.center,
+                        children: [
                             const SizedBox(height: 30),
                             Obx(() {
                               if (controller.questions.isEmpty) {
@@ -106,14 +106,29 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                           padding: const EdgeInsets.all(
                                             35.0,
                                           ),
-                                          child: _buildFormattedText(
-                                            question.scenario,
-                                            style: const TextStyle(
-                                              fontSize: 24,
-                                              fontWeight: FontWeight.w500,
-                                              color: Colors.black,
-                                            ),
-                                            textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
+                                          child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              _buildFormattedText(
+                                                question.scenario,
+                                                style: const TextStyle(
+                                                  fontSize: 24,
+                                                  fontWeight: FontWeight.w500,
+                                                  color: Colors.black,
+                                                ),
+                                                textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
+                                              ),
+                                              if (controller.isBece &&
+                                                  question.tableData != null &&
+                                                  question.tableData!.isNotEmpty)
+                                                Padding(
+                                                  padding: const EdgeInsets.only(top: 20),
+                                                  child: _buildTable(
+                                                    question.tableHeaders,
+                                                    question.tableData!,
+                                                  ),
+                                                ),
+                                            ],
                                           ),
                                         ),
                                       ),
@@ -197,14 +212,42 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                           padding: const EdgeInsets.all(
                                             20.0,
                                           ),
-                                          child: _buildFormattedText(
-                                            question.answer,
-                                            style: const TextStyle(
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.w500,
-                                              color: Color(0xFF14357A),
-                                            ),
-                                            textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
+                                          child: Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              _buildFormattedText(
+                                                question.answer,
+                                                style: const TextStyle(
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.w500,
+                                                  color: Color(0xFF14357A),
+                                                ),
+                                                textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
+                                              ),
+                                              if (controller.isBece &&
+                                                  question.answerTableData != null &&
+                                                  question.answerTableData!.isNotEmpty)
+                                                Padding(
+                                                  padding: const EdgeInsets.only(top: 16),
+                                                  child: _buildTable(
+                                                    question.answerTableHeaders,
+                                                    question.answerTableData!,
+                                                  ),
+                                                ),
+                                              if (question.explanation.isNotEmpty)
+                                                Padding(
+                                                  padding: const EdgeInsets.only(top: 16),
+                                                  child: _buildFormattedText(
+                                                    question.explanation,
+                                                    style: const TextStyle(
+                                                      fontSize: 20,
+                                                      fontWeight: FontWeight.w500,
+                                                      color: Color(0xFF14357A),
+                                                    ),
+                                                    textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
+                                                  ),
+                                                ),
+                                            ],
                                           ),
                                         ),
                                       ),
@@ -321,8 +364,7 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                         ),
                       ),
                     ),
-                  ),
-                );
+                  );
               },
             ),
             Obx(() {
@@ -543,6 +585,98 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
       TextSpan(children: spans),
       textAlign:
           textAlign ?? (controller.isBece ? TextAlign.left : TextAlign.center),
+    );
+  }
+
+  /// Builds a styled table matching BECE practice UI for any number of columns and rows.
+  Widget _buildTable(
+    List<String>? headers,
+    List<List<String>> rows,
+  ) {
+    if (rows.isEmpty && (headers == null || headers.isEmpty)) {
+      return const SizedBox.shrink();
+    }
+
+    int maxCols = headers?.length ?? 0;
+    for (final row in rows) {
+      if (row.length > maxCols) {
+        maxCols = row.length;
+      }
+    }
+
+    if (maxCols == 0) return const SizedBox.shrink();
+
+    List<String> padRow(List<String> row) {
+      if (row.length >= maxCols) return row;
+      return [...row, ...List.filled(maxCols - row.length, '')];
+    }
+
+    final tableWidget = Table(
+      defaultColumnWidth: const FlexColumnWidth(1),
+      border: TableBorder(
+        horizontalInside: BorderSide(
+          color: Colors.grey.shade400,
+          width: 1,
+        ),
+        verticalInside: BorderSide(
+          color: Colors.grey.shade300,
+          width: 1,
+        ),
+      ),
+      children: [
+        if (headers != null && headers.isNotEmpty)
+          _dynamicTableRow(padRow(headers), isHeader: true),
+        for (final row in rows)
+          _dynamicTableRow(padRow(row), isHeader: false),
+      ],
+    );
+
+    return Container(
+      width: double.infinity,
+      decoration: BoxDecoration(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(8),
+      ),
+      clipBehavior: Clip.antiAlias,
+      child: maxCols > 4
+          ? SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: ConstrainedBox(
+                constraints: BoxConstraints(minWidth: maxCols * 90.0),
+                child: tableWidget,
+              ),
+            )
+          : tableWidget,
+    );
+  }
+
+  TableRow _dynamicTableRow(
+    List<String> cells, {
+    bool isHeader = false,
+  }) {
+    final textStyle = TextStyle(
+      fontSize: 15,
+      fontWeight: isHeader ? FontWeight.bold : FontWeight.normal,
+      color: isHeader ? Colors.white : Colors.black,
+    );
+
+    return TableRow(
+      decoration: isHeader
+          ? const BoxDecoration(color: Color(0xFF0D0D1A))
+          : null,
+      children: cells.map((value) {
+        return Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 8,
+            vertical: 12,
+          ),
+          child: _buildFormattedText(
+            value,
+            style: textStyle,
+            textAlign: TextAlign.center,
+          ),
+        );
+      }).toList(),
     );
   }
 }

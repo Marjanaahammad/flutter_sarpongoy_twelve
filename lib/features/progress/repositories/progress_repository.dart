@@ -1,11 +1,19 @@
 import '../../../core/database/database_service.dart';
 import '../../../core/config/debug_print.dart';
+import '../../../core/services/auth_storage_service.dart';
 import '../models/progress_model.dart';
 
 class ProgressRepository {
   final _dbService = DatabaseService.instance;
+  final _authStorageService = AuthStorageService();
 
   Future<int> saveProgress(ActivityProgress progress) async {
+    final role = await _authStorageService.getRole();
+    if (role?.toLowerCase() == 'teacher') {
+      DPrint.info('Teacher view: skipping progress save to local database');
+      return 0;
+    }
+
     final db = await _dbService.database;
 
     // Check if progress already exists for this lesson, type and sub-activity
