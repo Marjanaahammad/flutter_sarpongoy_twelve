@@ -111,8 +111,8 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
                           const SizedBox(height: 24),
 
                           // ── Assign course Section ──
-                          _buildAssignCourseSection(teacher?.courses ?? []),
-                          const SizedBox(height: 24),
+                          // _buildAssignCourseSection(teacher?.courses ?? []),
+                          // const SizedBox(height: 24),
 
                           // ── Account Settings Section ──
                           _buildAccountSettingsSection(),
@@ -285,7 +285,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
       children: [
         Text(
           label,
-          style: TextStyle(
+          style:  const TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.w500,
             color: Color(0xFF181919),
@@ -317,7 +317,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
             filled: true,
             fillColor: Colors.white,
           ),
-          style: TextStyle(
+          style: const TextStyle(
             fontSize: 16,
             color: Color(0xFF575757),
             fontWeight: FontWeight.w400,
