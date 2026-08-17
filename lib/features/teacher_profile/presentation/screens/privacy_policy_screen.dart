@@ -1,9 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:get/get.dart';
 
-class PrivacyPolicyScreen extends StatelessWidget {
-  final VoidCallback onBack;
-  const PrivacyPolicyScreen({super.key, required this.onBack});
+import '../controller/profile_controller.dart';
+
+class TeacherPrivacyPolicyScreen extends StatelessWidget {
+  final VoidCallback? onBack;
+  final TeacherProfileController _profileController =
+      Get.put(TeacherProfileController());
+
+  TeacherPrivacyPolicyScreen({super.key, this.onBack}) {
+    if (_profileController.userInfo.value == null) {
+      _profileController.fetchProfile();
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -18,93 +27,296 @@ class PrivacyPolicyScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // ── Header ──
-                  Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      IconButton(
-                        onPressed: onBack,
-                        icon: Container(
-                          padding: const EdgeInsets.all(4),
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            border: Border.all(color: Color(0xFF000000), width: 1.5),
-                          ),
-                          child: const Icon(Icons.arrow_back,
-                              size: 30, color: Color(0xFF000000)),
-                        ),
-                      ),
-                      Expanded(
-                        child: Column(
-                          children: [
-                            Text(
-                              'Privacy Policy',
-                              style: TextStyle(
-                                fontSize: 32,
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFF000000),
-                              ),
-                            ),
-                            Text(
-                              'Control who can see your progress',
-                              style: TextStyle(
-                                fontSize: 18,
-                                color: const Color(0xFF000000),
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      const SizedBox(width: 48), // Spacer to balance back button
-                    ],
+                  _buildHeader(),
+                  const SizedBox(height: 32),
+                  _buildBodyText(
+                    "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.",
                   ),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 12),
+                  _buildBodyText(
+                    "We use Your Personal Data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.",
+                  ),
+                  const SizedBox(height: 24),
+                  _buildSectionHeader("Interpretation and Definitions"),
+                  _buildSubHeader("Interpretation"),
+                  _buildBodyText(
+                    "The words whose initial letters are capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildSubHeader("Definitions"),
+                  _buildBodyText("For the purposes of this Privacy Policy:"),
+                  const SizedBox(height: 8),
+                  _buildBullet("Account",
+                      "means a unique account created for You to access our Service or parts of our Service."),
+                  _buildBullet("Application",
+                      "refers to iLearnReady, the software program provided by the Company."),
+                  _buildBullet("Company",
+                      "referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Privacy Policy, refers to iLearnReady."),
+                  _buildBullet(
+                      "Country", "refers to: Illinois, United States."),
+                  _buildBullet("Device",
+                      "means any device that can access the Service such as a computer, a cell phone or a digital tablet."),
+                  _buildBullet("Personal Data",
+                      "is any information that relates to an identified or identifiable individual."),
+                  _buildBullet("Service", "refers to the Application."),
+                  _buildBullet("Usage Data",
+                      "refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself."),
+                  _buildBullet("You",
+                      "means the individual accessing or using the Service, or the company or other legal entity on behalf of which such individual is accessing or using the Service."),
+                  const SizedBox(height: 24),
+                  _buildSectionHeader(
+                      "Collecting and Using Your Personal Data"),
+                  _buildSubHeader("Types of Data Collected"),
+                  _buildSubHeader2("Personal Data"),
+                  _buildBodyText(
+                    "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. This may include, but is not limited to, your name, grade level, school name, and student ID.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildSubHeader2("Usage Data"),
+                  _buildBodyText(
+                    "Usage Data is collected automatically when using the Service. It may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildBodyText(
+                    "When You access the Service by or through a mobile device, We may collect certain information automatically, including the type of mobile device You use, Your mobile device's unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, and other diagnostic data.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildSubHeader2(
+                      "Information Collected while Using the Application"),
+                  _buildBodyText(
+                    "While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission: pictures and other information from your Device's camera and photo library. You can enable or disable access to this information at any time through Your Device settings.",
+                  ),
+                  const SizedBox(height: 20),
+                  _buildSubHeader("Use of Your Personal Data"),
+                  _buildBodyText(
+                      "The Company may use Personal Data for the following purposes:"),
+                  const SizedBox(height: 8),
+                  _buildBullet("To provide and maintain our Service",
+                      "including to monitor the usage of our Service."),
+                  _buildBullet("To manage Your Account",
+                      "to manage Your registration as a user of the Service."),
+                  _buildBullet("For the performance of a contract",
+                      "the development, compliance and undertaking of the purchase contract for products or services You have purchased through the Service."),
+                  _buildBullet("To contact You",
+                      "by email, telephone calls, SMS, or other equivalent forms of electronic communication regarding updates or informative communications related to the Service."),
+                  _buildBullet("To provide You",
+                      "with news, special offers, and general information about other goods, services and events which We offer."),
+                  _buildBullet("To manage Your requests",
+                      "to attend and manage Your requests to Us."),
+                  _buildBullet("For business transfers",
+                      "to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets."),
+                  _buildBullet("For other purposes",
+                      "such as data analysis, identifying usage trends, and evaluating and improving our Service, products, and your experience."),
+                  const SizedBox(height: 12),
+                  _buildBodyText(
+                      "We may share Your Personal Data in the following situations:"),
+                  const SizedBox(height: 8),
+                  _buildBullet("With Service Providers",
+                      "to monitor and analyze the use of our Service and to contact You."),
+                  _buildBullet("For business transfers",
+                      "in connection with any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business."),
+                  _buildBullet("With Affiliates",
+                      "in which case we will require those affiliates to honor this Privacy Policy."),
+                  _buildBullet("With business partners",
+                      "to offer You certain products, services or promotions."),
+                  _buildBullet("With Your consent",
+                      "We may disclose Your Personal Data for any other purpose with Your consent."),
+                  const SizedBox(height: 20),
+                  _buildSubHeader("Retention of Your Personal Data"),
+                  _buildBodyText(
+                    "The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies.",
+                  ),
+                  const SizedBox(height: 8),
+                  _buildBullet("Account Information",
+                      "retained for the duration of your account relationship plus up to 24 months after account closure."),
+                  _buildBullet("Application usage statistics",
+                      "up to 24 months to understand feature adoption and service improvements."),
+                  _buildBullet("Server logs (IP addresses, access times)",
+                      "up to 24 months for security monitoring and troubleshooting."),
+                  const SizedBox(height: 8),
+                  _buildBodyText(
+                    "We may retain Personal Data beyond the periods stated above for legal obligations, legal claims, explicit user requests, or technical limitations in backup systems.",
+                  ),
+                  const SizedBox(height: 20),
+                  _buildSubHeader("Transfer of Your Personal Data"),
+                  _buildBodyText(
+                    "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ from those of Your jurisdiction.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildBodyText(
+                    "The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy, and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place.",
+                  ),
+                  const SizedBox(height: 20),
+                  _buildSubHeader("Delete Your Personal Data"),
+                  _buildBodyText(
+                    "You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You. You may update, amend, or delete Your information at any time by signing in to Your Account and visiting the account settings section. You may also contact Us to request access to, correct, or delete any Personal Data that You have provided to Us.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildBodyText(
+                    "Please note that We may need to retain certain information when we have a legal obligation or lawful basis to do so.",
+                  ),
+                  const SizedBox(height: 24),
+                  _buildSectionHeader("Disclosure of Your Personal Data"),
+                  _buildSubHeader("Business Transactions"),
+                  _buildBodyText(
+                    "If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildSubHeader("Law Enforcement"),
+                  _buildBodyText(
+                    "Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildSubHeader("Other Legal Requirements"),
+                  _buildBodyText(
+                      "The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:"),
+                  const SizedBox(height: 8),
+                  _buildSimpleBullet("Comply with a legal obligation"),
+                  _buildSimpleBullet(
+                      "Protect and defend the rights or property of the Company"),
+                  _buildSimpleBullet(
+                      "Prevent or investigate possible wrongdoing in connection with the Service"),
+                  _buildSimpleBullet(
+                      "Protect the personal safety of Users of the Service or the public"),
+                  _buildSimpleBullet("Protect against legal liability"),
+                  const SizedBox(height: 20),
+                  _buildSubHeader("Security of Your Personal Data"),
+                  _buildBodyText(
+                    "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially reasonable means to protect Your Personal Data, We cannot guarantee its absolute security.",
+                  ),
+                  const SizedBox(height: 24),
+                  _buildSectionHeader("Children's Privacy"),
+                  _buildBodyText(
+                    "Our Service does not address anyone under the age of 16. We do not knowingly collect personally identifiable information from anyone under the age of 16. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 16 without verification of parental consent, We take steps to remove that information from Our servers.",
+                  ),
+                  const SizedBox(height: 24),
+                  _buildSectionHeader("Links to Other Websites"),
+                  _buildBodyText(
+                    "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.",
+                  ),
+                  const SizedBox(height: 24),
+                  _buildSectionHeader("Changes to this Privacy Policy"),
+                  _buildBodyText(
+                    "We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the \"Last updated\" date at the top of this Privacy Policy.",
+                  ),
+                  const SizedBox(height: 12),
+                  _buildBodyText(
+                    "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.",
+                  ),
+                  const SizedBox(height: 24),
+                  _buildSectionHeader("Contact Us"),
+                  _buildBodyText(
+                      "If you have any questions about this Privacy Policy, You can contact us:"),
+                  const SizedBox(height: 8),
+                  _buildSimpleBullet(
+                      "By visiting our Support Page within the app"),
+                  _buildSimpleBullet(
+                      "By visiting: https://apps.apple.com/gb/app/ilearnready/id6761988618"),
+                  const SizedBox(height: 40),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 
-                  // ── Content Sections ──
-                  _buildSectionTitle('Purpose'),
-                  _buildSectionContent(
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper ipsum in aliquet sollicitudin. Proin vitae neque at sem dapibus congue in sed risus. Pellentesque a augue in est iaculis maximus. Integer sit amet sagittis tortor, ac pellentesque felis. Duis elementum ex iaculis, aliquet massa nec, ullamcorper mi. Maecenas quis malesuada turpis. Praesent purus dui, dictum eget luctus ultrices, euismod pulvinar dui. Praesent ornare efficitur metus gravida egestas.',
+  Widget _buildHeader() {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        IconButton(
+          onPressed: onBack ?? () => Get.back(),
+          icon: Container(
+            padding: const EdgeInsets.all(4),
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              border: Border.all(color: const Color(0xFF000000), width: 1.5),
+            ),
+            child: const Icon(
+              Icons.arrow_back,
+              size: 30,
+              color: Color(0xFF000000),
+            ),
+          ),
+        ),
+        const Expanded(
+          child: Column(
+            children: [
+              Text(
+                'Privacy Policy',
+                style: TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.w500,
+                  color: Color(0xFF000000),
+                ),
+              ),
+              Text(
+                'Last updated: April 15, 2026',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Color(0xFF000000),
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(width: 48),
+      ],
+    );
+  }
+
+  Widget _buildSubHeader(String title) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 12.0, bottom: 6.0),
+      child: Text(
+        title,
+        style: const TextStyle(
+          fontSize: 15,
+          fontWeight: FontWeight.w600,
+          color: Colors.black,
+        ),
+      ),
+    );
+  }
+
+  Widget _buildSubHeader2(String title) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 8.0, bottom: 4.0),
+      child: Text(
+        title,
+        style: TextStyle(
+          fontSize: 14,
+          fontWeight: FontWeight.w600,
+          color: Colors.black.withOpacity(0.85),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildBullet(String label, String text) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 6.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text("• ", style: TextStyle(fontSize: 14, height: 1.5)),
+          Expanded(
+            child: RichText(
+              text: TextSpan(
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Colors.black.withOpacity(0.8),
+                  height: 1.5,
+                ),
+                children: [
+                  TextSpan(
+                    text: "$label: ",
+                    style: const TextStyle(fontWeight: FontWeight.w600),
                   ),
-                  const SizedBox(height: 19),
-                  _buildSectionTitle('Introduction'),
-                  _buildSectionContent(
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper ipsum in aliquet sollicitudin. Proin vitae neque at sem dapibus congue in sed risus. Pellentesque a augue in est iaculis maximus. Integer sit amet sagittis tortor, ac pellentesque felis. Duis elementum ex iaculis, aliquet massa nec, ullamcorper mi. Maecenas quis malesuada turpis. Praesent purus dui, dictum eget luctus ultrices, euismod pulvinar dui. Praesent ornare efficitur metus gravida egestas.\n\n'
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper ipsum in aliquet sollicitudin. Proin vitae neque at sem dapibus congue in sed risus. Pellentesque a augue in est iaculis maximus. Integer sit amet sagittis tortor, ac pellentesque felis. Duis elementum ex iaculis, aliquet massa nec, ullamcorper mi. Maecenas quis malesuada turpis. Praesent purus dui, dictum eget luctus ultrices, euismod pulvinar dui. Praesent ornare efficitur metus gravida egestas.\n\n'
-                    'Sed varius velit lacus, sit amet convallis ligula feugiat ac. Integer a justo ac mi accumsan pulvinar ultricies at dui. Suspendisse pharetra velit in purus ultrices, non sollicitudin urna maximus. Quisque scelerisque molestie turpis, et lacinia purus pharetra eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut felis erat, varius id massa vitae, sollicitudin pharetra turpis. Curabitur facilisis ante in lobortis luctus. Proin in lectus tellus. Sed eget placerat dolor, sagittis posuere ex. Fusce dapibus ipsum ante, vitae condimentum mi bibendum at. Sed vitae elit mauris. Maecenas varius lectus eu tellus maximus, nec cursus tortor efficitur. Nunc nec consequat metus.',
-                  ),
-                  _buildSectionContent(
-                    'Nam faucibus vestibulum dictum. Duis malesuada mi est. Ut justo velit, gravida quis laoreet sit amet, cursus quis est. Sed lobortis purus quis enim placerat cursus. Sed a est porttitor, aliquet arcu quis, hendrerit dui. Nullam vitae rhoncus purus. Nam iaculis arcu et leo lobortis, ut vestibulum elit tristique. Nunc rhoncus porttitor leo eget aliquet.',
-                  ),
-                  _buildSectionContent(
-                    'Integer at mattis erat, nec iaculis arcu. Phasellus pretium euismod maximus. Proin tincidunt, ligula in cursus aliquam, sapien mi condimentum nisi, fringilla dignissim massa metus et nunc. Cras at tellus nibh. Sed elementum eros pretium ex malesuada, at maximus dolor venenatis. Phasellus condimentum facilisis congue. Nunc feugiat nisi vel libero interdum, rutrum maximus nisl mattis. Phasellus convallis nulla sem, eu commodo tortor porta eget. Mauris elementum lobortis mi, ut volutpat nibh congue eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec semper nisi lorem, et pulvinar lorem congue eu. Nam ornare, magna non lacinia commodo, quam massa aliquet augue, vel tincidunt massa elit sed odio.',
-                  ),
-                  _buildSectionContent(
-                    'Integer at mattis erat, nec iaculis arcu. Phasellus pretium euismod maximus. Proin tincidunt, ligula in cursus aliquam, sapien mi condimentum nisi, fringilla dignissim massa metus et nunc. Cras at tellus nibh. Sed elementum eros pretium ex malesuada, at maximus dolor venenatis. Phasellus condimentum facilisis congue. Nunc feugiat nisi vel libero interdum, rutrum maximus nisl mattis. Phasellus convallis nulla sem, eu commodo tortor porta eget. Mauris elementum lobortis mi, ut volutpat nibh congue eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec semper nisi lorem, et pulvinar lorem congue eu. Nam ornare, magna non lacinia commodo, quam massa aliquet augue, vel tincidunt massa elit sed odio.',
-                  ),
-                  _buildSectionContent(
-                    'Integer at mattis erat, nec iaculis arcu. Phasellus pretium euismod maximus. Proin tincidunt, ligula in cursus aliquam, sapien mi condimentum nisi, fringilla dignissim massa metus et nunc. Cras at tellus nibh. Sed elementum eros pretium ex malesuada, at maximus dolor venenatis. Phasellus condimentum facilisis congue. Nunc feugiat nisi vel libero interdum, rutrum maximus nisl mattis. Phasellus convallis nulla sem, eu commodo tortor porta eget. Mauris elementum lobortis mi, ut volutpat nibh congue eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec semper nisi lorem, et pulvinar lorem congue eu. Nam ornare, magna non lacinia commodo, quam massa aliquet augue, vel tincidunt massa elit sed odio.',
-                  ),
-                  const SizedBox(height: 19),
-                  _buildSectionTitle('Changes to This Policy'),
-                  _buildSectionContent(
-                    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper ipsum in aliquet sollicitudin. Proin vitae neque at sem dapibus congue in sed risus. Pellentesque a augue in est iaculis maximus. Integer sit amet sagittis tortor, ac pellentesque felis. Duis elementum ex iaculis, aliquet massa nec, ullamcorper mi. Maecenas quis malesuada turpis. Praesent purus dui, dictum eget luctus ultrices, euismod pulvinar dui. Praesent ornare efficitur metus gravida egestas.',
-                  ),
-                  const SizedBox(height: 19),
-                  _buildSectionTitle('Contact Us'),
-                  _buildSectionContent('For privacy-related questions:'),
-                  GestureDetector(
-                    onTap: () {},
-                    child: Text(
-                      'contact@inspectorspath.com',
-                      style: GoogleFonts.poppins(
-                        fontSize: 14,
-                        color: const Color(0xFF3B82F6),
-                        fontWeight: FontWeight.w400,
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 48),
+                  TextSpan(text: text),
                 ],
               ),
             ),
@@ -124,60 +336,99 @@ class PrivacyPolicyScreen extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          // const SizedBox(width: 12),
-          Row(
-            children: [
-              const Text(
-                'Albert Flores',
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.w500,
-                  color: Color(0xFF111111),
+          Obx(() {
+            final user = _profileController.userInfo.value?.user;
+            final teacher = _profileController.userInfo.value?.teacher;
+            final imageUrl = teacher?.picture?.url;
+
+            return Row(
+              children: [
+                Text(
+                  user?.name ?? teacher?.name ?? 'Loading...',
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                    color: Color(0xFF111111),
+                  ),
                 ),
-              ),
-              const SizedBox(width: 13),
-              ClipOval(
-                child: Image.asset(
-                  'assets/images/avatarIcon.png',
-                  height: 44,
-                  width: 44,
-                  fit: BoxFit.cover,
+                const SizedBox(width: 13),
+                ClipOval(
+                  child: (imageUrl ?? '').isNotEmpty
+                      ? Image.network(
+                          imageUrl!,
+                          height: 44,
+                          width: 44,
+                          fit: BoxFit.cover,
+                          errorBuilder: (context, error, stackTrace) =>
+                              _buildFallbackAvatar(),
+                        )
+                      : _buildFallbackAvatar(),
                 ),
+              ],
+            );
+          }),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildFallbackAvatar() {
+    return Container(
+      height: 44,
+      width: 44,
+      decoration: const BoxDecoration(
+        color: Color(0xFFE5E7EB),
+        shape: BoxShape.circle,
+      ),
+      child: const Icon(Icons.person, size: 24, color: Color(0xFF6B7280)),
+    );
+  }
+
+  Widget _buildSimpleBullet(String text) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 4.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text("• ", style: TextStyle(fontSize: 14, height: 1.5)),
+          Expanded(
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: 14,
+                color: Colors.black.withOpacity(0.8),
+                height: 1.5,
               ),
-            ],
+            ),
           ),
         ],
       ),
     );
   }
 
-  Widget _buildSectionTitle(String title) {
+  Widget _buildSectionHeader(String title) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 8),
+      padding: const EdgeInsets.only(bottom: 8.0),
       child: Text(
         title,
-        style: TextStyle(
-          fontSize: 32,
-          fontWeight: FontWeight.w500,
-          color: const Color(0xFF000000),
+        style: const TextStyle(
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+          color: Colors.black,
         ),
       ),
     );
   }
 
-  Widget _buildSectionContent(String content) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 12),
-      child: Text(
-        content,
-        style: TextStyle(
-          fontSize: 18,
-          color: const Color(0xFF000000),
-          height: 1.4,
-          fontWeight: FontWeight.w400,
-        ),
+  Widget _buildBodyText(String text) {
+    return Text(
+      text,
+      textAlign: TextAlign.justify,
+      style: TextStyle(
+        fontSize: 14,
+        color: Colors.black.withOpacity(0.8),
+        height: 1.5,
       ),
     );
   }
 }
-

@@ -1,7 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -37,7 +36,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
     'Past Year',
   ];
 
-  final RxString _selectedSubject = 'English'.obs;
+  final RxString _selectedSubject = 'All'.obs;
   final RxString _selectedGradeLevel = 'All'.obs;
   final RxString _selectedTimePeriod = 'Past Year'.obs;
 
@@ -53,7 +52,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       _profileController.fetchProfile();
     }
     _dashboardController.fetchDashboard(
-      subject: 'English',
+      subject: 'All',
       gradeLevel: 'All',
       timePeriod: 'Past Year',
     );
@@ -88,7 +87,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
                 _selectedTimePeriod.value = data.filters?.timePeriod ?? 'Today';
               }
               if (_selectedSubject.value.isEmpty) {
-                _selectedSubject.value = data.filters?.subject ?? 'English';
+                _selectedSubject.value = data.filters?.subject ?? 'All';
               }
               return SingleChildScrollView(
                 padding: const EdgeInsets.symmetric(
@@ -285,6 +284,7 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   }
 
   String _mapToApiSubject(String friendlyName) {
+    if (friendlyName.toLowerCase() == 'all') return 'All';
     if (friendlyName == 'Social Studies') return 'Social Studies';
     if (friendlyName.replaceAll('\n', ' ') == 'Religious and Moral Studies') {
       return 'Religious and Moral Education';
@@ -306,12 +306,17 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
       if (_selectedSubject.value == 'RME') {
         Future.microtask(
             () => _selectedSubject.value = 'Religious and Moral\nStudies');
+      } else if (_selectedSubject.value == 'ALL') {
+        Future.microtask(() => _selectedSubject.value = 'All');
+      } else if (_selectedSubject.value == 'Religious and Moral Education') {
+        Future.microtask(
+            () => _selectedSubject.value = 'Religious and Moral\nStudies');
       } else if (_selectedSubject.value == 'Social Science') {
         Future.microtask(() => _selectedSubject.value = 'Social Studies');
       } else if (_selectedSubject.value == 'Mathematics') {
         Future.microtask(() => _selectedSubject.value = 'Math');
       } else if (_selectedSubject.value.isEmpty) {
-        Future.microtask(() => _selectedSubject.value = 'English');
+        Future.microtask(() => _selectedSubject.value = 'All');
       }
     }
 
@@ -354,9 +359,11 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   }
 
   Widget _buildGradeLevelSelector(TeacherDashboardResponse data) {
-    final grades = (data.filters?.gradeLevels ?? []).isNotEmpty
-        ? data.filters!.gradeLevels!
-        : _gradeLevels;
+    final grades = ((data.filters?.gradeLevels ?? []).isNotEmpty
+            ? data.filters!.gradeLevels!
+            : _gradeLevels)
+        .map((grade) => grade.toUpperCase() == 'ALL' ? 'All' : grade)
+        .toList();
 
     if (grades.isNotEmpty && !grades.contains(_selectedGradeLevel.value)) {
       Future.microtask(() => _selectedGradeLevel.value = grades.first);

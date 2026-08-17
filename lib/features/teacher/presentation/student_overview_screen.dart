@@ -225,121 +225,156 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
   }
 
   Widget _buildHeader() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const Column(
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final isNarrow = constraints.maxWidth < 620;
+        final title = _buildHeaderTitle();
+        final actions = _buildHeaderActions(isNarrow: isNarrow);
+
+        if (isNarrow) {
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              title,
+              const SizedBox(height: 16),
+              SizedBox(width: double.infinity, child: actions),
+            ],
+          );
+        }
+
+        return Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Expanded(child: title),
+            const SizedBox(width: 24),
+            actions,
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _buildHeaderTitle() {
+    return const Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Student Overview',
+          style: TextStyle(
+            fontSize: 24,
+            fontWeight: FontWeight.w600,
+            color: Color(0xFF181919),
+          ),
+        ),
+        SizedBox(height: 4),
+        Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              'Dashboard',
+              style: TextStyle(
+                color: Color(0xFF6C6C6C),
+                fontSize: 16,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            Icon(
+              Icons.chevron_right,
+              size: 16,
+              color: Color(0xFF727272),
+            ),
             Text(
               'Student Overview',
               style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.w600,
-                color: Color(0xFF181919),
+                color: Color(0xFF6C6C6C),
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
               ),
             ),
-            SizedBox(height: 4),
-            Row(
-              children: [
-                Text(
-                  'Dashboard',
-                  style: TextStyle(
-                    color: Color(0xFF6C6C6C),
-                    fontSize: 16,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-                Icon(
-                  Icons.chevron_right,
-                  size: 16,
-                  color: Color(0xFF727272),
-                ),
-                Text(
-                  'Student Overview',
-                  style: TextStyle(
-                    color: Color(0xFF6C6C6C),
-                    fontSize: 14,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
-        Row(
-          children: [
-            Container(
-              width: 240,
-              height: 44,
-              decoration: BoxDecoration(
-                border: Border.all(color: const Color(0xFF727272)),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Row(
-                children: [
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: TextField(
-                      controller: _dashboardController.searchController,
-                      cursorColor: Colors.black,
-                      onChanged: (value) {
-                        _dashboardController.searchQuery.value = value;
-                      },
-                      decoration: const InputDecoration(
-                        hintText: 'Search',
-                        hintStyle: TextStyle(
-                          color: Color(0xFF6C6C6C),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w300,
-                        ),
-                        border: InputBorder.none,
-                        isDense: true,
-                        contentPadding: EdgeInsets.zero,
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: 60,
-                    height: 44,
-                    decoration: const BoxDecoration(
-                      color: Color(0xFF008302),
-                      borderRadius: BorderRadius.only(
-                        topRight: Radius.circular(8),
-                        bottomRight: Radius.circular(8),
-                      ),
-                    ),
-                    child: const Icon(
-                      Icons.search,
-                      color: Colors.white,
-                      size: 15,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(width: 12),
-            InkWell(
-              onTap: () => _showFilterDialog(Get.context!),
-              child: Container(
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  border: Border.all(color: const Color(0xFF008E32)),
-                  borderRadius: BorderRadius.circular(4),
-                ),
-                child: const Icon(
-                  Icons.tune,
-                  color: Color(0xFF00B023),
-                  size: 20,
-                ),
-              ),
-            ),
-            const SizedBox(width: 12),
-            _buildSortButton(),
           ],
         ),
       ],
+    );
+  }
+
+  Widget _buildHeaderActions({required bool isNarrow}) {
+    return Row(
+      children: [
+        if (isNarrow)
+          Expanded(child: _buildSearchField())
+        else
+          SizedBox(width: 240, child: _buildSearchField()),
+        const SizedBox(width: 12),
+        InkWell(
+          onTap: () => _showFilterDialog(Get.context!),
+          child: Container(
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              border: Border.all(color: const Color(0xFF008E32)),
+              borderRadius: BorderRadius.circular(4),
+            ),
+            child: const Icon(
+              Icons.tune,
+              color: Color(0xFF00B023),
+              size: 20,
+            ),
+          ),
+        ),
+        const SizedBox(width: 12),
+        _buildSortButton(),
+      ],
+    );
+  }
+
+  Widget _buildSearchField() {
+    return Container(
+      height: 44,
+      decoration: BoxDecoration(
+        border: Border.all(color: const Color(0xFF727272)),
+        borderRadius: BorderRadius.circular(8),
+      ),
+      child: Row(
+        children: [
+          const SizedBox(width: 12),
+          Expanded(
+            child: TextField(
+              controller: _dashboardController.searchController,
+              cursorColor: Colors.black,
+              onChanged: (value) {
+                _dashboardController.searchQuery.value = value;
+              },
+              decoration: const InputDecoration(
+                hintText: 'Search',
+                hintStyle: TextStyle(
+                  color: Color(0xFF6C6C6C),
+                  fontSize: 14,
+                  fontWeight: FontWeight.w300,
+                ),
+                border: InputBorder.none,
+                isDense: true,
+                contentPadding: EdgeInsets.zero,
+              ),
+            ),
+          ),
+          Container(
+            width: 60,
+            height: 44,
+            decoration: const BoxDecoration(
+              color: Color(0xFF008302),
+              borderRadius: BorderRadius.only(
+                topRight: Radius.circular(8),
+                bottomRight: Radius.circular(8),
+              ),
+            ),
+            child: const Icon(
+              Icons.search,
+              color: Colors.white,
+              size: 15,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -758,7 +793,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                 children: [
                   _buildTableRow(
                     item.studentName,
-                    item.id,
+                    item.userId,
                     item.gradeLevel,
                     item.status.toLowerCase() == 'active',
                     item.avgQuizScore,
@@ -785,7 +820,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF181919),
-                fontSize: 15,
+                fontSize: 12,
               ),
             ),
           ),
@@ -798,7 +833,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                 style: TextStyle(
                   fontWeight: FontWeight.w700,
                   color: Color(0xFF181919),
-                  fontSize: 15,
+                  fontSize: 12,
                 ),
               ),
             ),
@@ -810,7 +845,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF181919),
-                fontSize: 15,
+                fontSize: 12,
               ),
             ),
           ),
@@ -823,7 +858,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                 style: TextStyle(
                   fontWeight: FontWeight.w700,
                   color: Color(0xFF181919),
-                  fontSize: 15,
+                  fontSize: 12,
                 ),
               ),
             ),
@@ -835,8 +870,9 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 color: Color(0xFF181919),
-                fontSize: 15,
+                fontSize: 12,
               ),
+              softWrap: true,
             ),
           ),
           const Expanded(
@@ -877,7 +913,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                   child: Text(
                     name,
                     style: const TextStyle(
-                      fontSize: 14,
+                      fontSize: 13,
                       color: Color(0xFF3B3B3B),
                       fontWeight: FontWeight.w400,
                     ),
@@ -931,7 +967,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                 isActive ? 'Active' : 'Inactive',
                 style: TextStyle(
                   color: isActive ? Colors.green : Colors.orange,
-                  fontSize: 10,
+                  fontSize: 9,
                   fontWeight: FontWeight.bold,
                 ),
                 textAlign: TextAlign.center,
@@ -969,7 +1005,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Color(0xFF0066FF),
-                  fontSize: 15,
+                  fontSize: 13,
                   fontWeight: FontWeight.w500,
                   decoration: TextDecoration.underline,
                   decorationColor: Color(0xFF0066FF),

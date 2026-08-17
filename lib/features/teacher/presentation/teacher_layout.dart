@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sarpongoy_twelve/features/teacher_profile/presentation/screens/privacy_policy_screen.dart';
 
 import 'teacher_dashboard_screen.dart';
 import 'student_overview_screen.dart';
 import 'student_details_screen.dart';
 import 'teacher_contents_screen.dart';
 import '../../teacher_profile/presentation/screens/teacher_profile_screen.dart';
-import '../../teacher_profile/presentation/screens/privacy_policy_screen.dart';
+
 import '../../teacher_profile/presentation/screens/help_support_screen.dart';
 import 'teacher_sidebar.dart';
 
@@ -32,7 +33,8 @@ class _TeacherLayoutState extends State<TeacherLayout> {
           ),
 
           // ── Divider line ──
-          const VerticalDivider(width: 1, thickness: 1, color: Color(0xFFE0E0E0)),
+          const VerticalDivider(
+              width: 1, thickness: 1, color: Color(0xFFE0E0E0)),
 
           // ── Main content ──
           Expanded(
@@ -64,7 +66,7 @@ class _TeacherLayoutState extends State<TeacherLayout> {
           onHelpSupportTap: () => setState(() => _selectedIndex = 4),
         );
       case 3:
-        return PrivacyPolicyScreen(
+        return TeacherPrivacyPolicyScreen(
           onBack: () => setState(() => _selectedIndex = 2),
         );
       case 4:
