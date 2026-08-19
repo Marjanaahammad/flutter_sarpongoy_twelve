@@ -119,14 +119,13 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
   }
 
   Widget _buildStatCards() {
-    final meta = _dashboardController.studentInfo.value?.meta;
     return Row(
       children: [
         _buildStatCard(
           'Total Students',
-          _dashboardController.userInfo.value?.counters?.totalStudents
-                  ?.toString() ??
-              (_dashboardController.studentInfo.value?.meta?.total.toString() ??
+          _dashboardController.userInfo.value?.counters.totalStudents
+                  .toString() ??
+              (_dashboardController.studentInfo.value?.meta.total.toString() ??
                   '0'),
           '', // No change data in model
           const Color(0xFF00B023),
@@ -773,6 +772,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
 
   Widget _buildTable() {
     final items = _dashboardController.filteredStudents;
+    final isLoading = _dashboardController.isStudentListLoading.value;
     return Container(
       decoration: BoxDecoration(
         border: Border.all(color: const Color(0xFFE4E4E4)),
@@ -782,7 +782,16 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
         children: [
           _buildTableHeader(),
           const Divider(height: 1, color: Color(0xFFF0F0F0)),
-          if (items.isEmpty)
+          if (isLoading)
+            const SizedBox(
+              height: 160,
+              child: Center(
+                child: CircularProgressIndicator(
+                  color: Color(0xFF019E2E),
+                ),
+              ),
+            )
+          else if (items.isEmpty)
             const Padding(
               padding: EdgeInsets.all(24.0),
               child: Text('No students found'),
@@ -792,6 +801,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
               (item) => Column(
                 children: [
                   _buildTableRow(
+                    item.id,
                     item.studentName,
                     item.userId,
                     item.gradeLevel,
@@ -852,7 +862,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
           Expanded(
             flex: 18,
             child: Padding(
-              padding: const EdgeInsets.only(left: 12.0),
+              padding: EdgeInsets.only(left: 12.0),
               child: Text(
                 'Status',
                 style: TextStyle(
@@ -875,7 +885,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
               softWrap: true,
             ),
           ),
-          const Expanded(
+          Expanded(
             flex: 10,
             child: SizedBox.shrink(),
           ),
@@ -885,6 +895,7 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
   }
 
   Widget _buildTableRow(
+    String studentId,
     String name,
     String userId,
     String grade,
@@ -996,8 +1007,8 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
             child: InkWell(
               onTap: () {
                 if (widget.onViewDetails != null) {
-                  DPrint.log("viewing student details for $userId");
-                  widget.onViewDetails!(userId);
+                  DPrint.log("viewing student details for $studentId");
+                  widget.onViewDetails!(studentId);
                 }
               },
               child: const Text(

@@ -35,6 +35,41 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   String? _selectedSubjectName;
   final _noScreenshot = NoScreenshot.instance;
 
+  bool get _hasSelectedSubject =>
+      _selectedSubjectName != null && !_isAllSubject(_selectedSubjectName);
+
+  bool _isAllSubject(String? subject) {
+    final normalized = subject?.trim().toLowerCase();
+    return normalized == null || normalized.isEmpty || normalized == 'all';
+  }
+
+  String _normalizeSubjectName(String? subject) {
+    final normalized = (subject ?? '')
+        .trim()
+        .toLowerCase()
+        .replaceAll('&', 'and')
+        .replaceAll(RegExp(r'\s+'), ' ');
+
+    if (normalized == 'mathematics') return 'math';
+    if (normalized == 'social science') return 'social studies';
+    if (normalized == 'religious and moral studies') {
+      return 'religious and moral education';
+    }
+
+    return normalized;
+  }
+
+  bool _matchesSelectedSubject(String? subject) {
+    if (!_hasSelectedSubject) return true;
+
+    final selected = _normalizeSubjectName(_selectedSubjectName);
+    final current = _normalizeSubjectName(subject);
+
+    return current == selected ||
+        current.contains(selected) ||
+        selected.contains(current);
+  }
+
   @override
   void initState() {
     super.initState();
@@ -1101,17 +1136,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             border: Border.all(color: const Color(0xFFE5E7EB)),
           ),
           child:
-              _buildProgressChart(topData?.overview?.subjectProgress.where((p) {
-            if (_selectedSubjectName == null ||
-                _selectedSubjectName == 'All' ||
-                _selectedSubjectName == 'ALL') return true;
-            final selected = _selectedSubjectName!
-                .toLowerCase()
-                .replaceAll('and', '&')
-                .trim();
-            final current =
-                (p.subject ?? '').toLowerCase().replaceAll('and', '&').trim();
-            return current == selected;
+              _buildProgressChart(topData?.overview.subjectProgress.where((p) {
+            return _matchesSelectedSubject(p.subject);
           }).toList()),
         ),
 
@@ -1286,21 +1312,11 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             child: Column(
               children: () {
                 final filteredItems = recentWorks?.where((work) {
-                      final selectedSub = _selectedPeriod
-                          .toLowerCase()
-                          .trim()
-                          .replaceAll('and', '&');
+                      final selectedSub =
+                          _normalizeSubjectName(_selectedPeriod);
                       if (selectedSub == "all") return true;
 
-                      final workSub = work.subject
-                          .toLowerCase()
-                          .trim()
-                          .replaceAll('and', '&');
-
-                      if (selectedSub == "science") {
-                        return workSub == "science";
-                      }
-
+                      final workSub = _normalizeSubjectName(work.subject);
                       return workSub == selectedSub ||
                           workSub.contains(selectedSub) ||
                           selectedSub.contains(workSub);
@@ -1535,6 +1551,16 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   }
 
   Widget _buildProgressChart(List<SubjectProgress>? subjectProgress) {
+    if (_hasSelectedSubject &&
+        (subjectProgress == null || subjectProgress.isEmpty)) {
+      subjectProgress = [
+        SubjectProgress(
+          subject: _selectedSubjectName!,
+          completionRate: 0,
+        ),
+      ];
+    }
+
     if (subjectProgress == null || subjectProgress.isEmpty) {
       return const Center(child: Text('No progress data available'));
     }
@@ -1702,7 +1728,22 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   }
 
   Widget _buildQuizScoresSection(GetStudentDetailsResponseModel? data) {
-    final courseWise = data?.overview.quizScoreTable ?? [];
+    var courseWise = data?.overview.quizScoreTable ?? [];
+    if (_hasSelectedSubject) {
+      courseWise = courseWise
+          .where((item) => _matchesSelectedSubject(item.subject))
+          .toList();
+
+      if (courseWise.isEmpty) {
+        courseWise = [
+          QuizScoreTable(
+            subject: _selectedSubjectName!,
+            avgFirstAttempt: 0,
+            avgLatestAttempt: 0,
+          ),
+        ];
+      }
+    }
 
     // ─── DEBUG: Print quiz score table data ───────────────────────────────────
     DPrint.log('─── Quiz Score Table Debug ───');
