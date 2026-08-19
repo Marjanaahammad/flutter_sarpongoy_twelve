@@ -17,6 +17,7 @@ class TeacherDashboardController extends BaseController {
 
   final Rxn<GetTeacherStudentResponseModel> studentInfo =
       Rxn<GetTeacherStudentResponseModel>();
+  final RxBool isStudentListLoading = false.obs;
 
   final Rxn<SubjectListResponseModel> subInfo = Rxn<SubjectListResponseModel>();
 
@@ -265,7 +266,7 @@ class TeacherDashboardController extends BaseController {
       (success) {
         userInfo.value = success.data;
         if (initialCounters.value == null) {
-          initialCounters.value = success.data?.counters;
+          initialCounters.value = success.data.counters;
         }
         DPrint.log(success.message);
       },
@@ -273,25 +274,30 @@ class TeacherDashboardController extends BaseController {
   }
 
   Future<void> fetchStudent({int? page, int? limit}) async {
-    final result = await _teacherRepository.fetchStudent(
-      page: 1,
-      limit: 10000,
-      sortBy: sortBy.value == 'none' ? null : sortBy.value,
-      order: sortBy.value == 'none' ? null : sortOrder.value.toLowerCase(),
-    );
+    isStudentListLoading.value = true;
+    try {
+      final result = await _teacherRepository.fetchStudent(
+        page: 1,
+        limit: 10000,
+        sortBy: sortBy.value == 'none' ? null : sortBy.value,
+        order: sortBy.value == 'none' ? null : sortOrder.value.toLowerCase(),
+      );
 
-    result.fold(
-      (fail) {
-        setError(fail.message);
-        DPrint.log('data fetch failed');
-      },
-      (success) {
-        _allStudents = success.data.items;
-        currentPage.value = page ?? 1;
-        _updateStudentInfo();
-        DPrint.log(success.message);
-      },
-    );
+      result.fold(
+        (fail) {
+          setError(fail.message);
+          DPrint.log('data fetch failed');
+        },
+        (success) {
+          _allStudents = success.data.items;
+          currentPage.value = page ?? 1;
+          _updateStudentInfo();
+          DPrint.log(success.message);
+        },
+      );
+    } finally {
+      isStudentListLoading.value = false;
+    }
   }
 
   Future<void> fetchSubject() async {

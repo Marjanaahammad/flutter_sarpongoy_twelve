@@ -102,9 +102,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                           error,
                                           stackTrace,
                                         ) =>
-                                            Icon(Icons.person_outline_rounded),
+                                            const Icon(Icons.person_outline_rounded),
                                       )
-                                    : Icon(Icons.person_outline_rounded),
+                                    : const Icon(Icons.person_outline_rounded),
                               ),
                             );
                           });
@@ -125,8 +125,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
 
-                SizedBox(height: 24),
-                Text(
+                const SizedBox(height: 24),
+                const Text(
                   'Subjects',
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
@@ -134,12 +134,12 @@ class _HomeScreenState extends State<HomeScreen> {
                     color: Color(0xFFA53A00),
                   ),
                 ),
-                SizedBox(height: 24),
+                const SizedBox(height: 24),
 
                 // Subject Cards Grid
-                SubjectGridScreen(),
+                const SubjectGridScreen(),
 
-                SizedBox(height: 24),
+                const SizedBox(height: 24),
               ],
             ),
           ),

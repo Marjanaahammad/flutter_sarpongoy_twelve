@@ -12,15 +12,18 @@ class AppInitializer {
   static Future<void> initializeApp() async {
     WidgetsFlutterBinding.ensureInitialized();
 
-
     // Limit total image cache
     PaintingBinding.instance.imageCache.maximumSize = 100; // 100 images
     PaintingBinding.instance.imageCache.maximumSizeBytes = 100 << 20; // 100 MB
 
-    await SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
-    ]);
+    try {
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.portraitDown,
+      ]);
+    } on PlatformException catch (error) {
+      debugPrint('Could not lock orientation: ${error.message}');
+    }
 
     await HiveStorageService.init();
     try {

@@ -104,7 +104,7 @@ class _HelpSupportScreenState extends State<HelpSupportScreen> {
                                 child: Column(
                                   children: [
                                     Text(
-                                      'Help and support',
+                                      'Help and Support',
                                       style: TextStyle(
                                         fontSize: 32,
                                         fontWeight: FontWeight.w500,

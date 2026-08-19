@@ -211,7 +211,7 @@ class TeacherPrivacyPolicyScreen extends StatelessWidget {
                   _buildSimpleBullet(
                       "By visiting our Support Page within the app"),
                   _buildSimpleBullet(
-                      "By visiting: https://apps.apple.com/gb/app/ilearnready/id6761988618"),
+                      "By visiting: https://ilearnready.com/"),
                   const SizedBox(height: 40),
                 ],
               ),

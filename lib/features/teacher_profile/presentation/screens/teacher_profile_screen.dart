@@ -206,13 +206,13 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
             children: [
               Text(
                 name,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w600,
                   color: Color(0xFF181919),
                 ),
               ),
-              Text(
+              const Text(
                 'Teacher',
                 style: TextStyle(
                   fontSize: 18,
@@ -334,42 +334,42 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
       {
         'name': 'English',
         'icon': 'assets/images/eglishIcon.png',
-        'color': Color(0xFFE8F5E9),
+        'color': const Color(0xFFE8F5E9),
       },
       {
         'name': 'Science',
         'icon': 'assets/images/scienceIcon.png',
-        'color': Color(0xFFF3E5F5),
+        'color': const Color(0xFFF3E5F5),
       },
       {
         'name': 'Math',
         'icon': 'assets/images/mathIcon.png',
-        'color': Color(0xFFE3F2FD),
+        'color': const Color(0xFFE3F2FD),
       },
       {
         'name': 'Social',
         'icon': 'assets/images/socialIcon.png',
-        'color': Color(0xFFFFF3E0),
+        'color': const Color(0xFFFFF3E0),
       },
       {
         'name': 'Religious',
         'icon': 'assets/images/relIcon.png',
-        'color': Color(0xFFFFFDE7),
+        'color': const Color(0xFFFFFDE7),
       },
     ];
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        const Text(
           'Assign course',
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w500,
-            color: const Color(0xFF263451),
+            color: Color(0xFF263451),
           ),
         ),
-        Text(
+        const Text(
           'Assigned Subjects for the Teacher',
           style: TextStyle(
             fontSize: 16,
@@ -439,12 +439,12 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        const Text(
           'Account Settings',
           style: TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w500,
-            color: const Color(0xFF003D81),
+            color: Color(0xFF003D81),
           ),
         ),
         const SizedBox(height: 16),
@@ -459,7 +459,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
               BoxShadow(
                 color: Colors.black.withOpacity(0.25),
                 blurRadius: 8,
-                offset: Offset(0, 4),
+                offset: const Offset(0, 4),
               ),
             ],
           ),
@@ -475,7 +475,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
               Divider(
                 height: 1,
                 indent: 64,
-                color: Color(0xFF808080).withOpacity(0.55),
+                color: const Color(0xFF808080).withOpacity(0.55),
               ),
               const SizedBox(height: 7),
               _buildSettingsTile(
@@ -500,22 +500,15 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
     VoidCallback? onTap,
   }) {
     return ListTile(
-      leading: Container(
-        // padding: const EdgeInsets.all(8),
-        // decoration: BoxDecoration(
-        //   color: bgColor.withOpacity(0.1),
-        //   borderRadius: BorderRadius.circular(8),
-        // ),
-        child: Image.asset(
-          imagePath,
-          height: 40,
-          width: 40,
-          fit: BoxFit.contain,
-        ),
+      leading: Image.asset(
+        imagePath,
+        height: 40,
+        width: 40,
+        fit: BoxFit.contain,
       ),
       title: Text(
         title,
-        style: TextStyle(
+        style: const TextStyle(
           fontSize: 18,
           fontWeight: FontWeight.w500,
           color: Colors.black,
@@ -523,7 +516,7 @@ class _TeacherProfileScreenState extends State<TeacherProfileScreen> {
       ),
       subtitle: Text(
         subtitle,
-        style: TextStyle(
+        style: const TextStyle(
           fontSize: 14,
           color: Color(0xFF1E1E1E),
           fontWeight: FontWeight.w400,
