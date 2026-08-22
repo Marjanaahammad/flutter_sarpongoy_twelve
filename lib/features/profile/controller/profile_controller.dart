@@ -18,6 +18,8 @@ import '../repositories/profile_repo.dart';
 import '../../../core/database/database_service.dart';
 import '../../../core/services/hive_storage_service.dart';
 
+import '../../sidebar/controller/sidebar_controller.dart';
+
 class ProfileController extends BaseController {
   final _profileRepository = Get.find<ProfileRepository>();
   final _profileStorageService = Get.find<ProfileStorageService>();
@@ -37,6 +39,9 @@ class ProfileController extends BaseController {
     final localProfile = await _profileStorageService.getProfile();
     if (localProfile != null) {
       userInfo.value = localProfile;
+      if (Get.isRegistered<SidebarController>()) {
+        Get.find<SidebarController>().syncSelectedGradeWithUserProfile();
+      }
       DPrint.log('Loaded profile from local storage');
     }
   }
@@ -54,6 +59,9 @@ class ProfileController extends BaseController {
       (success) {
         userInfo.value = success.data;
         _profileStorageService.saveProfile(success.data);
+        if (Get.isRegistered<SidebarController>()) {
+          Get.find<SidebarController>().syncSelectedGradeWithUserProfile();
+        }
         DPrint.log(success.message);
         setLoading(false);
       },
