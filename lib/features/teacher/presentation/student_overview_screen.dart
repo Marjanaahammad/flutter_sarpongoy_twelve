@@ -123,9 +123,9 @@ class _StudentOverviewScreenState extends State<StudentOverviewScreen> {
       children: [
         _buildStatCard(
           'Total Students',
-          _dashboardController.userInfo.value?.counters.totalStudents
-                  .toString() ??
-              (_dashboardController.studentInfo.value?.meta.total.toString() ??
+          _dashboardController.studentInfo.value?.meta.total.toString() ??
+              (_dashboardController.userInfo.value?.counters.totalStudents
+                      .toString() ??
                   '0'),
           '', // No change data in model
           const Color(0xFF00B023),
