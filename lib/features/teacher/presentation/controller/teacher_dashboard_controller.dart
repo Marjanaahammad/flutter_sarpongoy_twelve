@@ -342,11 +342,13 @@ class TeacherDashboardController extends BaseController {
   Future<void> fetchStudentDetailsBottom(
     String studentId, {
     String? gradeLevel,
+    String? timePeriod,
     String? subject,
   }) async {
     final result = await _teacherRepository.fetchStudentDetails(
       studentId,
       gradeLevel: gradeLevel,
+      timePeriod: timePeriod,
       subject: subject,
     );
 
