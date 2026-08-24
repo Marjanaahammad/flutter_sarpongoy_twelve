@@ -28,9 +28,8 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   late final TeacherDashboardController _dashboardController;
   late final TeacherProfileController _profileController;
 
-  String _selectedPeriod =
-      'All'; // This is for local subject filtering in Recent Activity
-  String _selectedTimePeriod = 'Past 1 Month';
+  String _selectedRecentActivitySubject = 'All';
+  String _selectedTimePeriod = 'Past Year';
   String _selectedGradeLevel = 'ALL';
   String? _selectedSubjectName;
   final _noScreenshot = NoScreenshot.instance;
@@ -70,6 +69,10 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
         selected.contains(current);
   }
 
+  String _timePeriodForApi(String value) {
+    return value == 'Past Year' ? 'Past 1 Year' : value;
+  }
+
   @override
   void initState() {
     super.initState();
@@ -84,11 +87,12 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     if (widget.studentId != null) {
       _dashboardController.fetchStudentDetailsTop(
         widget.studentId!,
-        timePeriod: _selectedTimePeriod,
+        timePeriod: _timePeriodForApi(_selectedTimePeriod),
       );
       _dashboardController.fetchStudentDetailsBottom(
         widget.studentId!,
         gradeLevel: _selectedGradeLevel,
+        timePeriod: _timePeriodForApi(_selectedTimePeriod),
       );
     }
 
@@ -414,7 +418,6 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     onTap: () {
                       setState(() {
                         _selectedSubjectName = subject.name;
-                        _selectedPeriod = subject.name!;
                       });
                       _refreshDataTop();
                       _refreshDataBottom();
@@ -597,7 +600,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     if (widget.studentId != null) {
       _dashboardController.fetchStudentDetailsTop(
         widget.studentId!,
-        timePeriod: _selectedTimePeriod,
+        timePeriod: _timePeriodForApi(_selectedTimePeriod),
         subject: _selectedSubjectName,
       );
     }
@@ -608,6 +611,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
       _dashboardController.fetchStudentDetailsBottom(
         widget.studentId!,
         gradeLevel: _selectedGradeLevel,
+        timePeriod: _timePeriodForApi(_selectedTimePeriod),
         subject: _selectedSubjectName,
       );
     }
@@ -1125,23 +1129,23 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        /// TOP SIDE – Progress Chart
-        Container(
-          height: 528,
-          width: double.infinity,
-          padding: const EdgeInsets.all(24),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: const Color(0xFFE5E7EB)),
-          ),
-          child:
-              _buildProgressChart(topData?.overview.subjectProgress.where((p) {
-            return _matchesSelectedSubject(p.subject);
-          }).toList()),
-        ),
+        // /// TOP SIDE – Progress Chart
+        // Container(
+        //   height: 528,
+        //   width: double.infinity,
+        //   padding: const EdgeInsets.all(24),
+        //   decoration: BoxDecoration(
+        //     color: Colors.white,
+        //     borderRadius: BorderRadius.circular(16),
+        //     border: Border.all(color: const Color(0xFFE5E7EB)),
+        //   ),
+        //   child:
+        //       _buildProgressChart(topData?.overview.subjectProgress.where((p) {
+        //     return _matchesSelectedSubject(p.subject);
+        //   }).toList()),
+        // ),
 
-        const SizedBox(height: 24),
+        // const SizedBox(height: 24),
 
         /// BOTTOM SIDE – Recent Work
         Container(
@@ -1225,7 +1229,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               color: Colors.white,
               onSelected: (value) {
                 setState(() {
-                  _selectedPeriod = value;
+                  _selectedRecentActivitySubject = value;
                   _selectedSubjectName = value == 'All' ? null : value;
                 });
                 _refreshDataTop();
@@ -1264,7 +1268,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                   children: [
                     Flexible(
                       child: Text(
-                        _selectedPeriod,
+                        _selectedRecentActivitySubject,
                         style: const TextStyle(
                           color: Color(0xFF000000),
                           fontSize: 12,
@@ -1313,7 +1317,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               children: () {
                 final filteredItems = recentWorks?.where((work) {
                       final selectedSub =
-                          _normalizeSubjectName(_selectedPeriod);
+                          _normalizeSubjectName(_selectedRecentActivitySubject);
                       if (selectedSub == "all") return true;
 
                       final workSub = _normalizeSubjectName(work.subject);
@@ -1324,7 +1328,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     [];
 
                 DPrint.log(
-                    "Recent Activity Filter: $_selectedPeriod, Found: ${filteredItems.length} items");
+                    "Recent Activity Filter: $_selectedRecentActivitySubject, Found: ${filteredItems.length} items");
 
                 if (filteredItems.isEmpty) {
                   return [
@@ -1508,25 +1512,25 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   }
 
   /// Reusable Y-axis label column
-  Widget _buildYAxisLabels({bool visible = true}) {
-    return Visibility(
-      visible: visible,
-      maintainSize: true,
-      maintainAnimation: true,
-      maintainState: true,
-      child: const Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          Text('100%', style: TextStyle(fontSize: 12)),
-          Text('75%', style: TextStyle(fontSize: 12)),
-          Text('50%', style: TextStyle(fontSize: 12)),
-          Text('25%', style: TextStyle(fontSize: 12)),
-          Text('0%', style: TextStyle(fontSize: 12)),
-        ],
-      ),
-    );
-  }
+  // Widget _buildYAxisLabels({bool visible = true}) {
+  //   return Visibility(
+  //     visible: visible,
+  //     maintainSize: true,
+  //     maintainAnimation: true,
+  //     maintainState: true,
+  //     child: const Column(
+  //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  //       crossAxisAlignment: CrossAxisAlignment.end,
+  //       children: [
+  //         Text('100%', style: TextStyle(fontSize: 12)),
+  //         Text('75%', style: TextStyle(fontSize: 12)),
+  //         Text('50%', style: TextStyle(fontSize: 12)),
+  //         Text('25%', style: TextStyle(fontSize: 12)),
+  //         Text('0%', style: TextStyle(fontSize: 12)),
+  //       ],
+  //     ),
+  //   );
+  // }
 
   bool _isWithinPeriod(String? dateStr, String period) {
     if (dateStr == null) return false;
@@ -1550,96 +1554,96 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     }
   }
 
-  Widget _buildProgressChart(List<SubjectProgress>? subjectProgress) {
-    if (_hasSelectedSubject &&
-        (subjectProgress == null || subjectProgress.isEmpty)) {
-      subjectProgress = [
-        SubjectProgress(
-          subject: _selectedSubjectName!,
-          completionRate: 0,
-        ),
-      ];
-    }
+  // Widget _buildProgressChart(List<SubjectProgress>? subjectProgress) {
+  //   if (_hasSelectedSubject &&
+  //       (subjectProgress == null || subjectProgress.isEmpty)) {
+  //     subjectProgress = [
+  //       SubjectProgress(
+  //         subject: _selectedSubjectName!,
+  //         completionRate: 0,
+  //       ),
+  //     ];
+  //   }
 
-    if (subjectProgress == null || subjectProgress.isEmpty) {
-      return const Center(child: Text('No progress data available'));
-    }
+  //   if (subjectProgress == null || subjectProgress.isEmpty) {
+  //     return const Center(child: Text('No progress data available'));
+  //   }
 
-    return Column(
-      children: [
-        /// CHART AREA (only bars + grid)
-        Expanded(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              /// Y AXIS
-              _buildYAxisLabels(),
+  //   return Column(
+  //     children: [
+  //       /// CHART AREA (only bars + grid)
+  //       Expanded(
+  //         child: Row(
+  //           crossAxisAlignment: CrossAxisAlignment.stretch,
+  //           children: [
+  //             /// Y AXIS
+  //             // _buildYAxisLabels(),
 
-              const SizedBox(width: 20),
+  //             // const SizedBox(width: 20),
 
-              /// GRID + BARS
-              Expanded(
-                child: Stack(
-                  clipBehavior: Clip.none,
-                  children: [
-                    /// Horizontal grid lines
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: List.generate(
-                        5,
-                        (_) => Container(
-                          height: 1,
-                          color: const Color(0xFFE5E7EB),
-                        ),
-                      ),
-                    ),
+  //             /// GRID + BARS
+  //             Expanded(
+  //               child: Stack(
+  //                 clipBehavior: Clip.none,
+  //                 children: [
+  //                   /// Horizontal grid lines
+  //                   Column(
+  //                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  //                     children: List.generate(
+  //                       5,
+  //                       (_) => Container(
+  //                         height: 1,
+  //                         color: const Color(0xFFE5E7EB),
+  //                       ),
+  //                     ),
+  //                   ),
 
-                    /// PROGRESS BARS
-                    Row(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: subjectProgress.map((progress) {
-                        return Expanded(
-                          child: _buildBar(
-                            (progress.completionRate ?? 0).toInt(),
-                            _getSubjectColor(progress.subject),
-                          ),
-                        );
-                      }).toList(),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
+  //                   /// PROGRESS BARS
+  //                   Row(
+  //                     crossAxisAlignment: CrossAxisAlignment.stretch,
+  //                     children: subjectProgress.map((progress) {
+  //                       return Expanded(
+  //                         child: _buildBar(
+  //                           (progress.completionRate ?? 0).toInt(),
+  //                           _getSubjectColor(progress.subject),
+  //                         ),
+  //                       );
+  //                     }).toList(),
+  //                   ),
+  //                 ],
+  //               ),
+  //             ),
+  //           ],
+  //         ),
+  //       ),
 
-        const SizedBox(height: 8),
+  //       const SizedBox(height: 8),
 
-        /// ICON ROW
-        Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            _buildYAxisLabels(visible: false),
-            const SizedBox(width: 20),
-            Expanded(
-              child: Row(
-                children: subjectProgress.map((progress) {
-                  return Expanded(
-                    child: _buildBottomIcon(
-                      progress.subject ?? '',
-                      _getSubjectLogo(progress.subject),
-                      _getSubjectColor(progress.subject),
-                      (progress.completionRate ?? 0).toInt(),
-                    ),
-                  );
-                }).toList(),
-              ),
-            ),
-          ],
-        ),
-      ],
-    );
-  }
+  //       /// ICON ROW
+  //       Row(
+  //         crossAxisAlignment: CrossAxisAlignment.start,
+  //         children: [
+  //           // _buildYAxisLabels(visible: false),
+  //           const SizedBox(width: 20),
+  //           Expanded(
+  //             child: Row(
+  //               children: subjectProgress.map((progress) {
+  //                 return Expanded(
+  //                   child: _buildBottomIcon(
+  //                     progress.subject ?? '',
+  //                     _getSubjectLogo(progress.subject),
+  //                     _getSubjectColor(progress.subject),
+  //                     (progress.completionRate ?? 0).toInt(),
+  //                   ),
+  //                 );
+  //               }).toList(),
+  //             ),
+  //           ),
+  //         ],
+  //       ),
+  //     ],
+  //   );
+  // }
 
   Color _getSubjectColor(String? subject) {
     if (subject == null) return Colors.black;
