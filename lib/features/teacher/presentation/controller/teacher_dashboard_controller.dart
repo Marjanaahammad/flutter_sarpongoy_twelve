@@ -45,6 +45,7 @@ class TeacherDashboardController extends BaseController {
   List<StudentItem> _allStudents = [];
   final RxInt currentPage = 1.obs;
   static const int pageSize = 10;
+  static const int _studentFetchPageSize = 100;
 
   List<StudentItem> get filteredStudents {
     return studentInfo.value?.items ?? [];
@@ -276,25 +277,57 @@ class TeacherDashboardController extends BaseController {
   Future<void> fetchStudent({int? page, int? limit}) async {
     isStudentListLoading.value = true;
     try {
-      final result = await _teacherRepository.fetchStudent(
-        page: 1,
-        limit: 10000,
-        sortBy: sortBy.value == 'none' ? null : sortBy.value,
-        order: sortBy.value == 'none' ? null : sortOrder.value.toLowerCase(),
-      );
+      final fetchedStudents = <StudentItem>[];
+      var fetchPage = 1;
+      var totalPages = 1;
+      var hasError = false;
+      final requestLimit = limit != null && limit > _studentFetchPageSize
+          ? limit
+          : _studentFetchPageSize;
+      String? successMessage;
 
-      result.fold(
-        (fail) {
-          setError(fail.message);
-          DPrint.log('data fetch failed');
-        },
-        (success) {
-          _allStudents = success.data.items;
-          currentPage.value = page ?? 1;
-          _updateStudentInfo();
-          DPrint.log(success.message);
-        },
-      );
+      while (fetchPage <= totalPages) {
+        final result = await _teacherRepository.fetchStudent(
+          page: fetchPage,
+          limit: requestLimit,
+          sortBy: sortBy.value == 'none' ? null : sortBy.value,
+          order: sortBy.value == 'none' ? null : sortOrder.value.toLowerCase(),
+        );
+
+        result.fold(
+          (fail) {
+            hasError = true;
+            setError(fail.message);
+            DPrint.log('data fetch failed');
+          },
+          (success) {
+            final data = success.data;
+            final responseLimit =
+                data.meta.limit > 0 ? data.meta.limit : _studentFetchPageSize;
+            final pagesFromTotal = data.meta.total <= 0
+                ? 1
+                : (data.meta.total / responseLimit).ceil();
+
+            fetchedStudents.addAll(data.items);
+            totalPages = data.meta.totalPages > pagesFromTotal
+                ? data.meta.totalPages
+                : pagesFromTotal;
+            successMessage = success.message;
+          },
+        );
+
+        if (hasError) break;
+        fetchPage++;
+      }
+
+      if (!hasError) {
+        _allStudents = fetchedStudents;
+        currentPage.value = page ?? 1;
+        _updateStudentInfo();
+        if (successMessage != null) {
+          DPrint.log(successMessage!);
+        }
+      }
     } finally {
       isStudentListLoading.value = false;
     }
