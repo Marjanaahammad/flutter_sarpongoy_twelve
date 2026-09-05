@@ -284,7 +284,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         child: _settingTile(
                           'assets/images/g1553.png',
                           "Privacy Policy",
-                          'Control who can see your progress',
+                          'Terms of use',
                         ),
                       ),
                       const Padding(
@@ -297,7 +297,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         },
                         child: _settingTile(
                           'assets/images/translate_6574812 1.png',
-                          "Help and support",
+                          "Help and Support",
                           'Get help anytime.',
                         ),
                       ),

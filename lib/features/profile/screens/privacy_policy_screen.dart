@@ -226,7 +226,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                       _buildBodyText("If you have any questions about this Privacy Policy, You can contact us:"),
                       const SizedBox(height: 8),
                       _buildSimpleBullet("By visiting our Support Page within the app"),
-                      _buildSimpleBullet("By visiting: https://admin-dashboard-sarpongoy.vercel.app"),
+                      _buildSimpleBullet("By visiting: https://apps.apple.com/gb/app/ilearnready/id6761988618"),
                       const SizedBox(height: 40),
                     ],
                   ),

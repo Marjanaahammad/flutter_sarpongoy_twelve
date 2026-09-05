@@ -215,15 +215,28 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                           child: Column(
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
-                                              _buildFormattedText(
-                                                question.answer,
-                                                style: const TextStyle(
-                                                  fontSize: 20,
-                                                  fontWeight: FontWeight.w500,
-                                                  color: Color(0xFF14357A),
-                                                ),
-                                                textAlign: controller.isBece ? TextAlign.start : TextAlign.center,
-                                              ),
+                                              controller.isBece &&
+                                                      _isBeceEnglishLetter(
+                                                        question.answer,
+                                                      )
+                                                  ? _buildBeceEnglishLetter(
+                                                      question.answer,
+                                                    )
+                                                  : _buildFormattedText(
+                                                      question.answer,
+                                                      style: const TextStyle(
+                                                        fontSize: 20,
+                                                        fontWeight:
+                                                            FontWeight.w500,
+                                                        color:
+                                                            Color(0xFF14357A),
+                                                      ),
+                                                      textAlign:
+                                                          controller.isBece
+                                                              ? TextAlign.start
+                                                              : TextAlign
+                                                                  .center,
+                                                    ),
                                               if (controller.isBece &&
                                                   question.answerTableData != null &&
                                                   question.answerTableData!.isNotEmpty)
@@ -585,6 +598,77 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
       TextSpan(children: spans),
       textAlign:
           textAlign ?? (controller.isBece ? TextAlign.left : TextAlign.center),
+    );
+  }
+
+  bool _isBeceEnglishLetter(String answer) {
+    return answer
+        .split(RegExp(r'\n\s*\n'))
+        .map((paragraph) => paragraph.trim().toLowerCase())
+        .any((paragraph) => paragraph.startsWith('dear '));
+  }
+
+  Widget _buildBeceEnglishLetter(String answer) {
+    final paragraphs = answer
+        .split(RegExp(r'\n\s*\n'))
+        .map((paragraph) => paragraph
+            .split('\n')
+            .map((line) => line.trim())
+            .where((line) => line.isNotEmpty)
+            .join('\n'))
+        .where((paragraph) => paragraph.isNotEmpty)
+        .toList();
+
+    const letterStyle = TextStyle(
+      fontSize: 18,
+      height: 1.15,
+      color: Colors.black,
+      fontFamily: 'Times New Roman',
+    );
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        for (var index = 0; index < paragraphs.length; index++)
+          Padding(
+            padding: EdgeInsets.only(
+              bottom: index == paragraphs.length - 1 ? 0 : 13,
+            ),
+            child: _buildBeceEnglishLetterParagraph(
+              paragraphs[index],
+              index,
+              letterStyle,
+            ),
+          ),
+      ],
+    );
+  }
+
+  Widget _buildBeceEnglishLetterParagraph(
+    String paragraph,
+    int index,
+    TextStyle style,
+  ) {
+    final isSenderAddress = index == 0;
+    final isSubject = paragraph == paragraph.toUpperCase() &&
+        paragraph.length > 8 &&
+        !paragraph.contains('\n');
+
+    if (isSubject) {
+      return Text(
+        paragraph,
+        textAlign: TextAlign.center,
+        style: style.copyWith(
+          fontWeight: FontWeight.bold,
+          decoration: TextDecoration.underline,
+        ),
+      );
+    }
+
+    return _buildFormattedText(
+      paragraph,
+      style: style,
+      textAlign: isSenderAddress ? TextAlign.end : TextAlign.start,
     );
   }
 

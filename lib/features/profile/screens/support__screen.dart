@@ -150,7 +150,7 @@ class _SupportScreenState extends State<SupportScreen> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     const Text(
-                                      "Help and support",
+                                      "Help and Support",
                                       style: TextStyle(
                                         fontSize: 32,
                                         fontWeight: FontWeight.w500,
