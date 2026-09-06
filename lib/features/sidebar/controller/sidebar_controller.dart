@@ -16,6 +16,7 @@ import '../../progress/repositories/progress_repository.dart';
 import '../../progress/models/progress_model.dart';
 import '../../progress/repositories/bece_progress_repository.dart';
 import '../../progress/models/bece_progress_model.dart';
+import '../../profile/controller/profile_controller.dart';
 import 'package:intl/intl.dart';
 import '../../../core/config/debug_print.dart';
 
@@ -24,6 +25,55 @@ class SidebarController extends GetxController {
   Rxn<Course> selectedCourse = Rxn<Course>();
   RxInt selectedStrandIndex = 0.obs;
   RxString selectedGrade = "JHS 1".obs;
+
+  String get userBackendGrade {
+    if (Get.isRegistered<ProfileController>()) {
+      final profileCtrl = Get.find<ProfileController>();
+      final studentGrade = profileCtrl.userInfo.value?.student.gradeLevel;
+      if (studentGrade != null && studentGrade.trim().isNotEmpty) {
+        return studentGrade.trim();
+      }
+    }
+    return "";
+  }
+
+  bool isGradeUnlocked(String targetGrade) {
+    final userGrade = userBackendGrade;
+    if (userGrade.isEmpty) return true;
+
+    int parseGradeRank(String gradeStr) {
+      final normalized = gradeStr.trim().toUpperCase().replaceAll(' ', '');
+      if (normalized.contains('JHS1') || normalized.contains('JHS-1') || normalized == '1') return 1;
+      if (normalized.contains('JHS2') || normalized.contains('JHS-2') || normalized == '2') return 2;
+      if (normalized.contains('JHS3') || normalized.contains('JHS-3') || normalized == '3') return 3;
+      return 999;
+    }
+
+    final userRank = parseGradeRank(userGrade);
+    final targetRank = parseGradeRank(targetGrade);
+
+    return targetRank <= userRank;
+  }
+
+  void syncSelectedGradeWithUserProfile() {
+    final userGrade = userBackendGrade;
+    if (userGrade.isNotEmpty) {
+      final normalized = userGrade.trim().toUpperCase().replaceAll(' ', '');
+      String formattedGrade = "JHS 1";
+      if (normalized.contains('JHS1') || normalized.contains('1')) {
+        formattedGrade = "JHS 1";
+      } else if (normalized.contains('JHS2') || normalized.contains('2')) {
+        formattedGrade = "JHS 2";
+      } else if (normalized.contains('JHS3') || normalized.contains('3')) {
+        formattedGrade = "JHS 3";
+      }
+
+      if (!isGradeUnlocked(selectedGrade.value) || selectedGrade.value.isEmpty) {
+        selectedGrade.value = formattedGrade;
+      }
+    }
+  }
+
   final RxString selectedTotalCompletionGrade = "All".obs;
   final RxString selectedChartGrade = "All".obs;
   RxString strandSearchText = "".obs;
@@ -239,6 +289,13 @@ class SidebarController extends GetxController {
   @override
   void onInit() {
     super.onInit();
+    if (Get.isRegistered<ProfileController>()) {
+      ever(Get.find<ProfileController>().userInfo, (_) {
+        syncSelectedGradeWithUserProfile();
+      });
+    }
+    syncSelectedGradeWithUserProfile();
+
     ever(selectedGrade, (_) {
       selectedStrandIndex.value = 0;
       refreshCourses();
@@ -314,6 +371,7 @@ class SidebarController extends GetxController {
 
   Future<void> loadActualProgress() async {
     final dateFormat = DateFormat('d MMMM, y h:mm a');
+    final bool isGradeLocked = !isGradeUnlocked(selectedGrade.value);
 
     // Build a complete updated list of courses to update RxList once at the end
     final List<Course> updatedAllCourses = [];
@@ -417,7 +475,7 @@ class SidebarController extends GetxController {
                   subStrandName: subStrand.title,
                   lessonNumber: (updatedLessons.length + 1).toString(),
                   gradeName: selectedGrade.value,
-                  isLocked: false,
+                  isLocked: isGradeLocked,
                   isCompleted: isLessonCompleted,
                 ),
               );
@@ -590,7 +648,7 @@ class SidebarController extends GetxController {
                   subStrandName: subStrand.title,
                   lessonNumber: (updatedLessons.length + 1).toString(),
                   gradeName: selectedGrade.value,
-                  isLocked: false,
+                  isLocked: isGradeLocked,
                   isCompleted: isLessonCompleted,
                 ),
               );
@@ -603,7 +661,7 @@ class SidebarController extends GetxController {
           strand.copyWith(
             subStrands: updatedSubStrands,
             isCompleted: allLessonsInStrandCompleted,
-            isLocked: false,
+            isLocked: isGradeLocked,
           ),
         );
       }
@@ -2783,7 +2841,7 @@ class SidebarController extends GetxController {
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
-      final isStrandLocked = false;
+      final isStrandLocked = !isGradeUnlocked(grade);
       final currentStrandData = strandsData[sIndex];
       final subStrandsRaw =
           currentStrandData["subStrands"] as List<Map<String, dynamic>>;
@@ -8537,6 +8595,7 @@ class SidebarController extends GetxController {
                 title: "Lesson ${lIndex + 1}",
                 topic: topicName,
                 isCompleted: false,
+                isLocked: isStrandLocked,
                 getReady: getReadyData,
                 learn: learnData,
                 practice: practiceData,
@@ -8550,6 +8609,7 @@ class SidebarController extends GetxController {
     });
 
     if (includeBece) {
+      final bool isBeceLocked = !isGradeUnlocked(grade);
       List<SubStrand> beceSubStrands = [];
 
       for (int sIndex = 0; sIndex < generatedStrands.length; sIndex++) {
@@ -8669,6 +8729,7 @@ class SidebarController extends GetxController {
                 subStrandName: normalStrand.title,
                 lessonNumber: ssNumber.toString(),
                 gradeName: grade,
+                isLocked: isBeceLocked,
                 getReady: defaultGetReadyData,
                 learn: defaultLearnData,
                 quiz: matchedQuiz,
@@ -8695,7 +8756,7 @@ class SidebarController extends GetxController {
           title: "BECE",
           subtitle: "Past Exam",
           isCompleted: false,
-          isLocked: false,
+          isLocked: isBeceLocked,
           subStrands: beceSubStrands,
         ),
       );
@@ -8712,6 +8773,17 @@ class SidebarController extends GetxController {
   }
 
   void selectCourse(Course course) {
+    if (!isGradeUnlocked(selectedGrade.value)) {
+      Get.snackbar(
+        "Grade Locked",
+        "${selectedGrade.value} content is locked for your grade level.",
+        snackPosition: SnackPosition.TOP,
+        backgroundColor: Colors.redAccent,
+        colorText: Colors.white,
+        duration: const Duration(seconds: 2),
+      );
+      return;
+    }
     selectedCourse.value = course;
     selectedStrandIndex.value = 0; // Default to first strand
     selectedIndex.value = -1; // Switch to course view
@@ -8724,12 +8796,20 @@ class SidebarController extends GetxController {
   }
 
   void changeStrand(int index) {
-    // final course = selectedCourse.value;
-    // if (course != null && index >= 0 && index < course.strands.length) {
-    //   if (course.strands[index].isLocked) {
-    //     return;
-    //   }
-    // }
+    final course = selectedCourse.value;
+    if (course != null && index >= 0 && index < course.strands.length) {
+      if (course.strands[index].isLocked || !isGradeUnlocked(selectedGrade.value)) {
+        Get.snackbar(
+          "Grade Locked",
+          "${selectedGrade.value} content is locked for your grade level.",
+          snackPosition: SnackPosition.TOP,
+          backgroundColor: Colors.redAccent,
+          colorText: Colors.white,
+          duration: const Duration(seconds: 2),
+        );
+        return;
+      }
+    }
     selectedStrandIndex.value = index;
     strandSearchController.clear();
     strandSearchText.value = "";

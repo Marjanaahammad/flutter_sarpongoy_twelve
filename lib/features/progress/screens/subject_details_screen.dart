@@ -100,14 +100,46 @@ class SubjectDetailsScreen extends StatelessWidget {
                         ),
                         onChanged: (String? newValue) {
                           if (newValue != null) {
+                            if (!sidebarController.isGradeUnlocked(newValue)) {
+                              Get.snackbar(
+                                "Grade Locked",
+                                "$newValue is locked for your grade level.",
+                                snackPosition: SnackPosition.TOP,
+                                backgroundColor: Colors.redAccent,
+                                colorText: Colors.white,
+                                duration: const Duration(seconds: 2),
+                              );
+                              return;
+                            }
                             sidebarController.selectedGrade.value = newValue;
                           }
                         },
                         items: <String>['JHS 1', 'JHS 2', 'JHS 3']
                             .map<DropdownMenuItem<String>>((String value) {
+                          final isUnlocked =
+                              sidebarController.isGradeUnlocked(value);
                           return DropdownMenuItem<String>(
                             value: value,
-                            child: Text(value),
+                            child: Row(
+                              children: [
+                                Text(
+                                  value,
+                                  style: TextStyle(
+                                    color: isUnlocked
+                                        ? Colors.black
+                                        : Colors.grey,
+                                  ),
+                                ),
+                                if (!isUnlocked) ...[
+                                  const SizedBox(width: 8),
+                                  const Icon(
+                                    Icons.lock,
+                                    size: 16,
+                                    color: Colors.grey,
+                                  ),
+                                ],
+                              ],
+                            ),
                           );
                         }).toList(),
                       ),

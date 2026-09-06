@@ -290,21 +290,36 @@ class StrandScreen extends StatelessWidget {
                       _buildGradeChip(
                         "JHS1",
                         controller.selectedGrade.value == "JHS 1",
+                        controller.isGradeUnlocked("JHS 1"),
                         () {
+                          if (!controller.isGradeUnlocked("JHS 1")) {
+                            _showLockedSnackbar("JHS 1");
+                            return;
+                          }
                           controller.selectedGrade.value = "JHS 1";
                         },
                       ),
                       _buildGradeChip(
                         "JHS2",
                         controller.selectedGrade.value == "JHS 2",
+                        controller.isGradeUnlocked("JHS 2"),
                         () {
+                          if (!controller.isGradeUnlocked("JHS 2")) {
+                            _showLockedSnackbar("JHS 2");
+                            return;
+                          }
                           controller.selectedGrade.value = "JHS 2";
                         },
                       ),
                       _buildGradeChip(
                         "JHS3",
                         controller.selectedGrade.value == "JHS 3",
+                        controller.isGradeUnlocked("JHS 3"),
                         () {
+                          if (!controller.isGradeUnlocked("JHS 3")) {
+                            _showLockedSnackbar("JHS 3");
+                            return;
+                          }
                           controller.selectedGrade.value = "JHS 3";
                         },
                       ),
@@ -375,7 +390,23 @@ class StrandScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildGradeChip(String label, bool isSelected, VoidCallback onTap) {
+  void _showLockedSnackbar(String gradeName) {
+    Get.snackbar(
+      "Grade Locked",
+      "$gradeName is locked for your grade level.",
+      snackPosition: SnackPosition.TOP,
+      backgroundColor: Colors.redAccent,
+      colorText: Colors.white,
+      duration: const Duration(seconds: 2),
+    );
+  }
+
+  Widget _buildGradeChip(
+    String label,
+    bool isSelected,
+    bool isUnlocked,
+    VoidCallback onTap,
+  ) {
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -383,21 +414,40 @@ class StrandScreen extends StatelessWidget {
         width: 60,
         margin: const EdgeInsets.only(right: 8),
         decoration: BoxDecoration(
-          color: isSelected ? const Color(0xFF019E2E) : Colors.white,
+          color: isSelected
+              ? const Color(0xFF019E2E)
+              : (isUnlocked ? Colors.white : Colors.grey.shade200),
           borderRadius: BorderRadius.circular(100),
           border: Border.all(
-            color: isSelected ? const Color(0xFF019E2E) : Colors.grey[300]!,
+            color: isSelected
+                ? const Color(0xFF019E2E)
+                : (isUnlocked ? Colors.grey[300]! : Colors.grey[400]!),
           ),
         ),
-        child: Center(
-          child: Text(
-            label,
-            style: TextStyle(
-              color: isSelected ? Colors.white : Colors.black,
-              fontSize: 14,
-              fontWeight: FontWeight.w400,
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            Text(
+              label,
+              style: TextStyle(
+                color: isSelected
+                    ? Colors.white
+                    : (isUnlocked ? Colors.black : Colors.grey[500]),
+                fontSize: 14,
+                fontWeight: FontWeight.w400,
+              ),
             ),
-          ),
+            if (!isUnlocked)
+              Positioned(
+                top: 6,
+                right: 6,
+                child: Icon(
+                  Icons.lock_rounded,
+                  size: 13,
+                  color: Colors.grey[600],
+                ),
+              ),
+          ],
         ),
       ),
     );
@@ -879,7 +929,15 @@ class StrandScreen extends StatelessWidget {
     bool isLocked = false,
   }) {
     return GestureDetector(
-      onTap: isLocked ? null : onTap,
+      onTap: () {
+        if (isLocked) {
+          _showLockedSnackbar(
+            Get.find<SidebarController>().selectedGrade.value,
+          );
+          return;
+        }
+        onTap();
+      },
       child: Container(
         height: 40,
         padding: const EdgeInsets.symmetric(vertical: 8),
