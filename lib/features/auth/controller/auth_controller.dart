@@ -15,6 +15,8 @@ import 'package:flutter_sarpongoy_twelve/features/profile/controller/profile_con
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/create_new_password_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/profile/screens/profile_screen.dart';
 import 'package:flutter_sarpongoy_twelve/features/teacher/presentation/teacher_layout.dart';
+import 'package:flutter_sarpongoy_twelve/features/teacher_profile/presentation/controller/profile_controller.dart'
+    as teacher_profile;
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/src/extension_instance.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
@@ -41,7 +43,8 @@ class AuthController extends BaseController {
   /// Managed App Configuration (iOS: com.apple.configuration.managed,
   /// Android: RestrictionsManager). Falls back to the platform's best
   /// available identifier when the device is not MDM-enrolled.
-  static const _mdmChannel = MethodChannel('com.sarpongoy.ilearnready/mdm_config');
+  static const _mdmChannel =
+      MethodChannel('com.sarpongoy.ilearnready/mdm_config');
 
   Future<String> _getDeviceAddress() async {
     print('┌─ [DeviceSerial] Reading from SimpleMDM Managed App Config...');
@@ -54,7 +57,8 @@ class AuthController extends BaseController {
         print('└─ [DeviceSerial] ✅ MDM serial number: $serial');
         return serial;
       } else {
-        print('│  [DeviceSerial] ⚠️  MDM returned empty — device is NOT enrolled in SimpleMDM.');
+        print(
+            '│  [DeviceSerial] ⚠️  MDM returned empty — device is NOT enrolled in SimpleMDM.');
       }
     } catch (e) {
       print('│  [DeviceSerial] ❌ MDM channel error: $e');
@@ -67,7 +71,8 @@ class AuthController extends BaseController {
       if (Platform.isAndroid) {
         final info = await deviceInfo.androidInfo;
         final serial = info.serialNumber;
-        final id = (serial.isNotEmpty && serial != 'unknown') ? serial : info.id;
+        final id =
+            (serial.isNotEmpty && serial != 'unknown') ? serial : info.id;
         print('└─ [DeviceSerial] ⚠️  Fallback Android ID: $id');
         return id;
       } else if (Platform.isIOS) {
@@ -82,13 +87,12 @@ class AuthController extends BaseController {
     return '';
   }
 
-
   Future<void> login(
-      RememberMeController? rememberMeController, {
-        required String userId,
-        required String password,
-        required String label,
-      }) async {
+    RememberMeController? rememberMeController, {
+    required String userId,
+    required String password,
+    required String label,
+  }) async {
     final serial_number = await _getDeviceAddress();
     print('══════════════════════════════════════════════');
     print('[DeviceSerial] VALUE SENT TO API → mac_id: $serial_number');
@@ -100,13 +104,12 @@ class AuthController extends BaseController {
       mac_id: serial_number,
     );
 
-
     final result = await _authRepo.login(request);
 
     DPrint.log("Login Response ${result.isRight()}");
 
     result.fold(
-          (fail) {
+      (fail) {
         setError(fail.message);
         setLoading(false);
 
@@ -125,7 +128,7 @@ class AuthController extends BaseController {
           borderRadius: 10,
         );
       },
-          (success) async {
+      (success) async {
         // Extract user data
         final user = success.data.user;
 
@@ -178,6 +181,15 @@ class AuthController extends BaseController {
             Get.offAll(() => const SecurityCheckScreen());
           }
         } else {
+          // TeacherProfileController is registered at app startup and can retain
+          // the previous teacher's profile after logout. Clear that cached value
+          // and reload it only after the new teacher token has been stored.
+          if (Get.isRegistered<teacher_profile.TeacherProfileController>()) {
+            final teacherProfileController =
+                Get.find<teacher_profile.TeacherProfileController>();
+            teacherProfileController.clearProfile();
+            await teacherProfileController.fetchProfile();
+          }
           Get.offAll(() => const TeacherLayout());
         }
       },

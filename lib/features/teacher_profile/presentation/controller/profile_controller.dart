@@ -18,6 +18,10 @@ class TeacherProfileController extends BaseController {
   final Rxn<TeacherProfileResponseModel> userInfo =
       Rxn<TeacherProfileResponseModel>();
 
+  void clearProfile() {
+    userInfo.value = null;
+  }
+
   // @override
   // void onInit() {
   //   super.onInit();

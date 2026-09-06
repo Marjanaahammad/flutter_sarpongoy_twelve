@@ -418,6 +418,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     onTap: () {
                       setState(() {
                         _selectedSubjectName = subject.name;
+                        // Recent Work must use the same subject as the main
+                        // subject cards; otherwise it can remain on "All".
+                        _selectedRecentActivitySubject = subject.name ?? 'All';
                       });
                       _refreshDataTop();
                       _refreshDataBottom();
@@ -715,6 +718,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
             width: double.infinity,
             child: _buildAreaChart(
               bottomData?.overview.monthlyActivity,
+              summary?.avgDailyHours ?? 0.0,
             ),
           ),
           const SizedBox(height: 16),
@@ -787,7 +791,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     );
   }
 
-  Widget _buildAreaChart(MonthlyActivity? activity) {
+  Widget _buildAreaChart(MonthlyActivity? activity, double avgDailyHours) {
     if (activity == null || activity.months.isEmpty) {
       return const Center(child: Text('No data for this subject'));
     }
@@ -905,7 +909,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               spots: months.asMap().entries.map((entry) {
                 return FlSpot(
                   entry.key.toDouble(),
-                  entry.value.avgDailyHours.toDouble(),
+                  entry.value.avgDailyHours > 0 ? avgDailyHours : 0,
                 );
               }).toList(),
               isCurved: true,
@@ -1185,6 +1189,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
 
   Widget _buildRecentWorkSection(GetStudentDetailsResponseModel? data) {
     final recentWorks = data?.overview?.recentWork;
+    final activeRecentWorkSubject = _hasSelectedSubject
+        ? _selectedSubjectName!
+        : _selectedRecentActivitySubject;
 
     // ─── DEBUG: Print recent work data ────────────────────────────────────────
     DPrint.log('─── Recent Work Debug ───');
@@ -1225,69 +1232,69 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               ),
             ),
             const SizedBox(width: 12),
-            PopupMenuButton<String>(
-              color: Colors.white,
-              onSelected: (value) {
-                setState(() {
-                  _selectedRecentActivitySubject = value;
-                  _selectedSubjectName = value == 'All' ? null : value;
-                });
-                _refreshDataTop();
-                _refreshDataBottom();
-              },
-              itemBuilder: (context) {
-                final options = ["All", ...availableSubjects];
-                return options
-                    .map(
-                      (option) => PopupMenuItem<String>(
-                        value: option,
-                        child: Text(
-                          option,
-                          style: const TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w500,
-                            color: Color(0xFF000000),
-                          ),
-                        ),
-                      ),
-                    )
-                    .toList();
-              },
-              child: Container(
-                constraints: const BoxConstraints(maxWidth: 190),
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 10,
-                  vertical: 4,
-                ),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(6),
-                  border: Border.all(color: const Color(0xFF22C55E)),
-                ),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Flexible(
-                      child: Text(
-                        _selectedRecentActivitySubject,
-                        style: const TextStyle(
-                          color: Color(0xFF000000),
-                          fontSize: 12,
-                          fontWeight: FontWeight.w500,
-                        ),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                    const SizedBox(width: 4),
-                    const Icon(
-                      Icons.keyboard_arrow_down,
-                      size: 16,
-                      color: Color(0xFF000000),
-                    ),
-                  ],
-                ),
-              ),
-            ),
+            // PopupMenuButton<String>(
+            //   color: Colors.white,
+            //   onSelected: (value) {
+            //     setState(() {
+            //       _selectedRecentActivitySubject = value;
+            //       _selectedSubjectName = value == 'All' ? null : value;
+            //     });
+            //     _refreshDataTop();
+            //     _refreshDataBottom();
+            //   },
+            //   itemBuilder: (context) {
+            //     final options = ["All", ...availableSubjects];
+            //     return options
+            //         .map(
+            //           (option) => PopupMenuItem<String>(
+            //             value: option,
+            //             child: Text(
+            //               option,
+            //               style: const TextStyle(
+            //                 fontSize: 13,
+            //                 fontWeight: FontWeight.w500,
+            //                 color: Color(0xFF000000),
+            //               ),
+            //             ),
+            //           ),
+            //         )
+            //         .toList();
+            //   },
+            //   child: Container(
+            //     constraints: const BoxConstraints(maxWidth: 190),
+            //     padding: const EdgeInsets.symmetric(
+            //       horizontal: 10,
+            //       vertical: 4,
+            //     ),
+            //     decoration: BoxDecoration(
+            //       borderRadius: BorderRadius.circular(6),
+            //       border: Border.all(color: const Color(0xFF22C55E)),
+            //     ),
+            //     child: Row(
+            //       mainAxisSize: MainAxisSize.min,
+            //       children: [
+            //         Flexible(
+            //           child: Text(
+            //             activeRecentWorkSubject,
+            //             style: const TextStyle(
+            //               color: Color(0xFF000000),
+            //               fontSize: 12,
+            //               fontWeight: FontWeight.w500,
+            //             ),
+            //             maxLines: 1,
+            //             overflow: TextOverflow.ellipsis,
+            //           ),
+            //         ),
+            //         const SizedBox(width: 4),
+            //         const Icon(
+            //           Icons.keyboard_arrow_down,
+            //           size: 16,
+            //           color: Color(0xFF000000),
+            //         ),
+            //       ],
+            //     ),
+            //   ),
+            // ),
           ],
         ),
 
@@ -1317,7 +1324,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
               children: () {
                 final filteredItems = recentWorks?.where((work) {
                       final selectedSub =
-                          _normalizeSubjectName(_selectedRecentActivitySubject);
+                          _normalizeSubjectName(activeRecentWorkSubject);
                       if (selectedSub == "all") return true;
 
                       final workSub = _normalizeSubjectName(work.subject);
@@ -1328,7 +1335,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
                     [];
 
                 DPrint.log(
-                    "Recent Activity Filter: $_selectedRecentActivitySubject, Found: ${filteredItems.length} items");
+                    "Recent Activity Filter: $activeRecentWorkSubject, Found: ${filteredItems.length} items");
 
                 if (filteredItems.isEmpty) {
                   return [

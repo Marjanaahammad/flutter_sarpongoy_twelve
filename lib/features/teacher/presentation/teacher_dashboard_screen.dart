@@ -44,10 +44,11 @@ class _TeacherDashboardScreenState extends State<TeacherDashboardScreen> {
   void initState() {
     super.initState();
     _noScreenshot.screenshotOff();
-    _profileController = Get.put(TeacherProfileController());
+    _profileController = Get.find<TeacherProfileController>();
     _dashboardController = Get.put(TeacherDashboardController());
 
-    // Fetch profile and dashboard if not already loaded
+    // The login flow refreshes the profile after storing the current token.
+    // Fetch again only when this screen is reached without profile data.
     if (_profileController.userInfo.value == null) {
       _profileController.fetchProfile();
     }
