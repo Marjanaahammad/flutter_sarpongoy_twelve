@@ -33,6 +33,7 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
   String _selectedGradeLevel = 'ALL';
   String? _selectedSubjectName;
   final _noScreenshot = NoScreenshot.instance;
+  bool _noAssignedSubjectsDialogShown = false;
 
   bool get _hasSelectedSubject =>
       _selectedSubjectName != null && !_isAllSubject(_selectedSubjectName);
@@ -80,26 +81,84 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> {
     _dashboardController = Get.find<TeacherDashboardController>();
     _profileController = Get.find<TeacherProfileController>();
 
-    // Fetch subjects if not already loaded or always refresh
-    _dashboardController.fetchSubject();
-
-    // Fetch student overview if studentId is provided
     if (widget.studentId != null) {
-      _dashboardController.fetchStudentDetailsTop(
-        widget.studentId!,
-        timePeriod: _timePeriodForApi(_selectedTimePeriod),
-      );
-      _dashboardController.fetchStudentDetailsBottom(
-        widget.studentId!,
-        gradeLevel: _selectedGradeLevel,
-        timePeriod: _timePeriodForApi(_selectedTimePeriod),
-      );
+      _loadStudentDetails();
     }
 
     // Fetch profile if not already loaded
     if (_profileController.userInfo.value == null) {
       _profileController.fetchProfile();
     }
+  }
+
+  Future<void> _loadStudentDetails() async {
+    final studentId = widget.studentId;
+    if (studentId == null) return;
+
+    // Load student identity first, so the student name and ID remain visible
+    // behind the dialog.
+    await Future.wait([
+      _dashboardController.fetchStudentDetailsTop(
+        studentId,
+        timePeriod: _timePeriodForApi(_selectedTimePeriod),
+      ),
+      _dashboardController.fetchStudentDetailsBottom(
+        studentId,
+        gradeLevel: _selectedGradeLevel,
+        timePeriod: _timePeriodForApi(_selectedTimePeriod),
+      ),
+    ]);
+
+    final subjectResponse = await _dashboardController.fetchSubject();
+    if (!mounted || subjectResponse == null ||
+        !(subjectResponse.data?.isEmpty ?? true) ||
+        _noAssignedSubjectsDialogShown) {
+      return;
+    }
+
+    _noAssignedSubjectsDialogShown = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _showNoAssignedSubjectsDialog();
+    });
+  }
+
+  void _showNoAssignedSubjectsDialog() {
+    showDialog<void>(
+      context: context,
+      barrierDismissible: false,
+      builder: (dialogContext) => AlertDialog(
+        backgroundColor: Colors.white,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        title: const Text(
+          'No Subject Assigned',
+          style: TextStyle(
+            color: Color(0xFF000000),
+            fontSize: 20,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        content: const Text(
+          'No subject is assigned to this teacher. Assign a subject before viewing student details.',
+          style: TextStyle(
+            color: Color(0xFF000000),
+            fontSize: 14,
+            height: 1.45,
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(dialogContext).pop(),
+            child: const Text(
+              'OK',
+              style: TextStyle(
+                color: Color(0xFF019E2E),
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   //  @override

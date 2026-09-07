@@ -333,17 +333,19 @@ class TeacherDashboardController extends BaseController {
     }
   }
 
-  Future<void> fetchSubject() async {
+  Future<SubjectListResponseModel?> fetchSubject() async {
     final result = await _teacherRepository.fetchSubject();
 
-    result.fold(
+    return result.fold(
       (fail) {
         setError(fail.message);
         DPrint.log('data fetch failed');
+        return null;
       },
       (success) {
         subInfo.value = success.data;
         DPrint.log(success.message);
+        return success.data;
       },
     );
   }
