@@ -1,8 +1,8 @@
 class ApiConstants {
   /// [Base Configuration]
-  static const String baseDomain = 'http://10.10.26.122:5008'; // Noyon Office
+  // static const String baseDomain = 'http://10.10.26.122:5008'; // Noyon Office
   //static const String baseDomain = 'http://localhost:5004'; // Noyon Office
-    // static const String baseDomain = 'https://api.ilearnready.com'; // Noyon Office
+    static const String baseDomain = 'https://api.ilearnready.com'; // Noyon Office
   static const String baseUrl = '$baseDomain/api/v1';
 
   // /// [Headers]
