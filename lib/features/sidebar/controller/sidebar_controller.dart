@@ -365,6 +365,34 @@ class SidebarController extends GetxController {
           selectedGrade.value,
         ),
       ),
+      Course(
+        title: "CAREER",
+        image: 'assets/images/careerIcon.png',
+        color: const Color(0xFFEAFBFD),
+        textColor: const Color(0xFF149BAD),
+        strands: const [],
+      ),
+      Course(
+        title: "COMPUTING",
+        image: 'assets/images/tech_icon.png',
+        color: const Color(0xFFFFF4EA),
+        textColor: const Color(0xFFB75235),
+        strands: const [],
+      ),
+      Course(
+        title: "CREATIVE ARTS",
+        image: 'assets/images/arts_icon.png',
+        color: const Color(0xFFFAF2FF),
+        textColor: const Color(0xFF7132A8),
+        strands: const [],
+      ),
+      Course(
+        title: "FRENCH",
+        image: 'assets/images/french_icon.png',
+        color: const Color(0xFFFFF0F0),
+        textColor: const Color(0xFFB52C2C),
+        strands: const [],
+      ),
     ]);
     await loadActualProgress();
   }
@@ -8780,6 +8808,17 @@ class SidebarController extends GetxController {
         snackPosition: SnackPosition.TOP,
         backgroundColor: Colors.redAccent,
         colorText: Colors.white,
+        duration: const Duration(seconds: 2),
+      );
+      return;
+    }
+    if (course.strands.isEmpty) {
+      Get.snackbar(
+        "Content Coming Soon",
+        "${course.title} lessons will be available soon.",
+        snackPosition: SnackPosition.TOP,
+        backgroundColor: course.color,
+        colorText: course.textColor,
         duration: const Duration(seconds: 2),
       );
       return;
