@@ -21,6 +21,435 @@ import 'package:intl/intl.dart';
 import '../../../core/config/debug_print.dart';
 
 class SidebarController extends GetxController {
+  static const List<Map<String, dynamic>> _careerCourseData = [
+    {
+      "subtitle": "PERSONAL HYGIENE AND FOOD HYGIENE",
+      "subStrands": [
+        {
+          "subtitle": "PERSONAL HYGIENE AND FOOD HYGIENE",
+          "topics": [
+            "The Need to Stay Healthy",
+            "Ways of Maintaining Personal Hygiene",
+            "Food Hygiene Practices"
+          ],
+        },
+      ],
+    },
+    {
+      "subtitle": "MATERIALS FOR PRODUCTION",
+      "subStrands": [
+        {
+          "subtitle": "MATERIALS FOR PRODUCTION",
+          "topics": ["Introduction to Materials for Production"],
+        },
+      ],
+    },
+    {
+      "subtitle": "Tools, Equipment and Processes",
+      "subStrands": [
+        {
+          "subtitle": "Tools, Equipment and Processes",
+          "topics": ["Introduction to Tools, Equipment and Processes"],
+        },
+      ],
+    },
+    {
+      "subtitle": "Technology",
+      "subStrands": [
+        {
+          "subtitle": "Technology",
+          "topics": ["Introduction to Technology"],
+        },
+      ],
+    },
+    {
+      "subtitle": "DESIGNING AND MAKING OF ARTEFACTS/PRODUCTS",
+      "subStrands": [
+        {
+          "subtitle": "DESIGNING AND MAKING OF ARTEFACTS/PRODUCTS",
+          "topics": ["Introduction to Designing and Making Products"],
+        },
+      ],
+    },
+    {
+      "subtitle": "ENTREPRENEURIAL SKILLS",
+      "subStrands": [
+        {
+          "subtitle": "ENTREPRENEURIAL SKILLS",
+          "topics": ["Introduction to Entrepreneurial Skills"],
+        },
+      ],
+    },
+  ];
+
+  static const Map<String, Map<String, List<Map<String, dynamic>>>>
+      _additionalCourseData = {
+    "JHS 1": {
+      "CAREER": _careerCourseData,
+      "COMPUTING": [
+        {
+          "subtitle": "INTRODUCTION TO COMPUTING",
+          "subStrands": [
+            {
+              "subtitle": "COMPONENTS OF COMPUTERS AND COMPUTER SYSTEMS",
+              "topics": [
+                "Fourth-Generation Computers",
+                "Input Devices",
+                "Output Devices",
+                "Storage Devices and Media",
+                "Latest Windows Operating System Features",
+                "File Management Techniques",
+              ],
+            },
+            {
+              "subtitle": "TECHNOLOGY IN THE COMMUNITY",
+              "topics": [
+                "Technology Tools for Learning",
+                "Demonstrating the Use of Technology Tools",
+                "Benefits of Using Technology Tools in Learning",
+                "Negative Impacts of Computers and Computer Use on the Environment",
+                "Environmentally Responsible Computing Practices",
+                "Creating Components from Disposed Computer Parts",
+              ],
+            },
+            {
+              "subtitle": "HEALTH AND SAFETY IN THE USE OF ICT TOOLS",
+              "topics": [
+                "Computing-Related Health Hazards and Preventive Measures",
+                "Safety Measures in Using ICT Tools",
+                "Workstation Health Risk Assessment and Mitigation",
+                "Workstation Safety Measures and Hazard Mitigation",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "PRODUCTIVITY SOFTWARE",
+          "subStrands": [
+            {
+              "subtitle": "INTRODUCTION TO WORD PROCESSING",
+              "topics": [
+                "Importance of Word Processing Software",
+                "Inserting, Selecting, Deleting, and Moving Text",
+                "Finding, Replacing Content, and Undoing Edited Changes",
+                "Spell Check, Content Translation, and Language Setting",
+                "Text Decoration, Text Case, Text Size, and Colour",
+                "Paragraph Alignment, Indentation, Bullets, Line Spacing, and Shadin",
+                "Setting Tabs and Applying Tab Formatting",
+              ],
+            },
+            {
+              "subtitle": " INTRODUCTION TO PRESENTATION SOFTWARE",
+              "topics": [
+                "Importance and Applications of Presentation Software",
+                "Exploring the Microsoft PowerPoint Interface, Themes, and Proofing Tools",
+                "Inserting Special Characters and Designing a Multi-Slide Presentation Using the Insert Ribbon",
+                "Formatting Text: Case, Size, Colour, and Decoration",
+                "Paragraph Formatting: Alignment, Indentation, Borders, and Shading",
+                "Using the Slide Master, Design Templates, and Delivering a 5-Slide Presentation",
+              ],
+            },
+            {
+              "subtitle": " INTRODUCTION TO ELECTRONIC SPREADSHEET",
+              "topics": [
+                "Importance of Electronic Spreadsheets",
+                "Features of the MS-Excel Interface",
+                "Setting Cell Datatypes",
+                "Align Text, Merge & Wrap, Borders and Shades",
+                "Adjust Margins and Set Page Orientation",
+                "Setting Up Headers and Footers",
+                "The AutoFill Function in MS-Excel",
+                "Creating Spreadsheet Formulas"
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "COMMUNICATION NETWORKS",
+          "subStrands": [
+            {
+              "subtitle": "COMPUTER NETWORKS",
+              "topics": [
+                "NETWORK TOPOLOGIES AND HARDWARE",
+                "TYPES OF NETWORKS",
+                "ENTREPRENEURIAL OPPORTUNITIES IN NETWORKING",
+              ],
+            },
+            {
+              "subtitle": "INTERNET AND SOCIAL MEDIA",
+              "topics": [
+                "TYPES AND USES OF SOCIAL MEDIA SITES",
+                "ELECTRONIC MAIL FEATURES (ATTACHMENT AND ADDRESS BOOK)",
+              ],
+            },
+            {
+              "subtitle": "INFORMATION SECURITY",
+              "topics": [
+                "KEY PRINCIPLES OF INFORMATION SECURITY",
+                "INTELLECTUAL PROPERTY RIGHTS AND LEGAL ISSUES",
+                "INFORMATION SECURITY FORENSIC AUDITING AND CRIMINAL LAWS AGAINST OFFENDERS",
+              ],
+            },
+            {
+              "subtitle": "WEB TECHNOLOGIES",
+              "topics": [
+                "Importance of the Web in Learning (Virtual Learning Environments)",
+                "Exploring Open Learning Websites in the Classroom",
+                "Techniques for Evaluating Web Pages",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "COMPUTATIONAL THINKING",
+          "subStrands": [
+            {
+              "subtitle": "INTRODUCTION TO PROGRAMMING",
+              "topics": [
+                "Programming Terminologies",
+                "Data Types",
+                "Constants and Variables",
+              ],
+            },
+            {
+              "subtitle": "ALGORITHM",
+              "topics": [
+                "FUNDAMENTAL CONCEPTS OF ALGORITHMS AND CONTROL STRUCTURES",
+                "PERFORMING A LINEAR SEARCH",
+              ],
+            },
+            {
+              "subtitle": "ROBOTICS",
+              "topics": [
+                "Applications, Prospects, and Challenges of Robots in Society",
+              ],
+            },
+            {
+              "subtitle": "ARTIFICIAL INTELLIGENCE",
+              "topics": [
+                "INTRODUCTION TO ARTIFICIAL INTELLIGENCE AND KEY TECHNOLOGIES",
+              ],
+            },
+          ],
+        },
+      ],
+      "CREATIVE ARTS": [
+        {
+          "subtitle": "VISUAL ARTS",
+          "subStrands": [
+            {
+              "subtitle": "ELEMENTS AND MATERIALS",
+              "topics": [
+                "Elements of Art and Design",
+                "Exploring Local Art Materials",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "PERFORMING ARTS",
+          "subStrands": [
+            {
+              "subtitle": "MUSIC, DANCE AND DRAMA",
+              "topics": [
+                "Introduction to Rhythm and Movement",
+                "Storytelling and Drama",
+              ],
+            },
+          ],
+        },
+      ],
+      "FRENCH": [
+        {
+          "subtitle": "ORAL COMMUNICATION",
+          "subStrands": [
+            {
+              "subtitle": "EVERYDAY CONVERSATION",
+              "topics": [
+                "Greetings and Introductions",
+                "Talking About Myself and My Family",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "READING AND WRITING",
+          "subStrands": [
+            {
+              "subtitle": "FOUNDATIONAL FRENCH",
+              "topics": [
+                "French Sounds and Simple Words",
+                "Writing Simple Sentences",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    "JHS 2": {
+      "CAREER": _careerCourseData,
+      "COMPUTING": [
+        {
+          "subtitle": "PRODUCTIVITY SOFTWARE",
+          "subStrands": [
+            {
+              "subtitle": "CREATING DIGITAL CONTENT",
+              "topics": [
+                "Working with Documents and Presentations",
+                "Introduction to Spreadsheets",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "NETWORKS AND PROGRAMMING",
+          "subStrands": [
+            {
+              "subtitle": "CONNECTED AND LOGICAL SYSTEMS",
+              "topics": [
+                "Computer Networks and the Internet",
+                "Algorithms and Block-Based Programming",
+              ],
+            },
+          ],
+        },
+      ],
+      "CREATIVE ARTS": [
+        {
+          "subtitle": "DESIGN AND MAKING",
+          "subStrands": [
+            {
+              "subtitle": "CREATIVE DESIGN PROCESSES",
+              "topics": [
+                "Developing Ideas Through Drawing",
+                "Creating Art from Local Materials",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "PERFORMANCE AND APPRECIATION",
+          "subStrands": [
+            {
+              "subtitle": "GHANAIAN CREATIVE EXPRESSION",
+              "topics": [
+                "Traditional Music and Dance",
+                "Planning a Short Dramatic Performance",
+              ],
+            },
+          ],
+        },
+      ],
+      "FRENCH": [
+        {
+          "subtitle": "DAILY COMMUNICATION",
+          "subStrands": [
+            {
+              "subtitle": "SCHOOL AND COMMUNITY",
+              "topics": [
+                "Talking About School Life",
+                "Asking for and Giving Directions",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "LANGUAGE STRUCTURES",
+          "subStrands": [
+            {
+              "subtitle": "VOCABULARY AND GRAMMAR",
+              "topics": [
+                "Describing People and Places",
+                "Writing Short Messages in French",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    "JHS 3": {
+      "CAREER": _careerCourseData,
+      "COMPUTING": [
+        {
+          "subtitle": "DATA AND PROGRAMMING",
+          "subStrands": [
+            {
+              "subtitle": "SOLVING PROBLEMS WITH COMPUTERS",
+              "topics": [
+                "Organising and Analysing Data",
+                "Designing and Testing a Program",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "DIGITAL CITIZENSHIP",
+          "subStrands": [
+            {
+              "subtitle": "SECURITY AND RESPONSIBILITY",
+              "topics": [
+                "Cybersecurity and Data Privacy",
+                "Responsible Use of Digital Media",
+              ],
+            },
+          ],
+        },
+      ],
+      "CREATIVE ARTS": [
+        {
+          "subtitle": "CREATIVE PROJECTS",
+          "subStrands": [
+            {
+              "subtitle": "PLANNING, MAKING AND PRESENTING",
+              "topics": [
+                "Planning a Creative Arts Project",
+                "Producing and Presenting an Artwork",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "ARTS AND SOCIETY",
+          "subStrands": [
+            {
+              "subtitle": "CULTURE AND CREATIVE INDUSTRIES",
+              "topics": [
+                "The Arts and Ghanaian Identity",
+                "Careers in the Creative Industries",
+              ],
+            },
+          ],
+        },
+      ],
+      "FRENCH": [
+        {
+          "subtitle": "FUNCTIONAL FRENCH",
+          "subStrands": [
+            {
+              "subtitle": "REAL-LIFE COMMUNICATION",
+              "topics": [
+                "Shopping, Travel and Services",
+                "Expressing Opinions and Plans",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "READING AND WRITING",
+          "subStrands": [
+            {
+              "subtitle": "CONNECTED TEXTS",
+              "topics": [
+                "Reading Short French Passages",
+                "Writing Letters and Short Paragraphs",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  };
+
   RxInt selectedIndex = 0.obs; // -1 means course view
   Rxn<Course> selectedCourse = Rxn<Course>();
   RxInt selectedStrandIndex = 0.obs;
@@ -43,9 +472,15 @@ class SidebarController extends GetxController {
 
     int parseGradeRank(String gradeStr) {
       final normalized = gradeStr.trim().toUpperCase().replaceAll(' ', '');
-      if (normalized.contains('JHS1') || normalized.contains('JHS-1') || normalized == '1') return 1;
-      if (normalized.contains('JHS2') || normalized.contains('JHS-2') || normalized == '2') return 2;
-      if (normalized.contains('JHS3') || normalized.contains('JHS-3') || normalized == '3') return 3;
+      if (normalized.contains('JHS1') ||
+          normalized.contains('JHS-1') ||
+          normalized == '1') return 1;
+      if (normalized.contains('JHS2') ||
+          normalized.contains('JHS-2') ||
+          normalized == '2') return 2;
+      if (normalized.contains('JHS3') ||
+          normalized.contains('JHS-3') ||
+          normalized == '3') return 3;
       return 999;
     }
 
@@ -68,7 +503,8 @@ class SidebarController extends GetxController {
         formattedGrade = "JHS 3";
       }
 
-      if (!isGradeUnlocked(selectedGrade.value) || selectedGrade.value.isEmpty) {
+      if (!isGradeUnlocked(selectedGrade.value) ||
+          selectedGrade.value.isEmpty) {
         selectedGrade.value = formattedGrade;
       }
     }
@@ -314,6 +750,10 @@ class SidebarController extends GetxController {
       "Math",
       "Social Studies",
       "Religious & Moral Education",
+      "Career",
+      "Computing",
+      "Creative Arts",
+      "French"
     ]) {
       selectedActivityStatsFilters[title] = "Today";
     }
@@ -370,28 +810,44 @@ class SidebarController extends GetxController {
         image: 'assets/images/careerIcon.png',
         color: const Color(0xFFEAFBFD),
         textColor: const Color(0xFF149BAD),
-        strands: const [],
+        strands: _generateDummyStrands(
+          "CAREER",
+          selectedGrade.value,
+          includeBece: false,
+        ),
       ),
       Course(
         title: "COMPUTING",
         image: 'assets/images/tech_icon.png',
         color: const Color(0xFFFFF4EA),
         textColor: const Color(0xFFB75235),
-        strands: const [],
+        strands: _generateDummyStrands(
+          "COMPUTING",
+          selectedGrade.value,
+          includeBece: false,
+        ),
       ),
       Course(
         title: "CREATIVE ARTS",
         image: 'assets/images/arts_icon.png',
         color: const Color(0xFFFAF2FF),
         textColor: const Color(0xFF7132A8),
-        strands: const [],
+        strands: _generateDummyStrands(
+          "CREATIVE ARTS",
+          selectedGrade.value,
+          includeBece: false,
+        ),
       ),
       Course(
         title: "FRENCH",
         image: 'assets/images/french_icon.png',
         color: const Color(0xFFFFF0F0),
         textColor: const Color(0xFFB52C2C),
-        strands: const [],
+        strands: _generateDummyStrands(
+          "FRENCH",
+          selectedGrade.value,
+          includeBece: false,
+        ),
       ),
     ]);
     await loadActualProgress();
@@ -458,7 +914,8 @@ class SidebarController extends GetxController {
                   beceObjectives.lastAttemptScore != null &&
                   beceObjectives.totalQuestions != null &&
                   beceObjectives.totalQuestions! > 0) {
-                double lastScore = (beceObjectives.lastAttemptScore ?? 0).toDouble();
+                double lastScore =
+                    (beceObjectives.lastAttemptScore ?? 0).toDouble();
                 double totalQ = (beceObjectives.totalQuestions ?? 1).toDouble();
                 double pct = (totalQ > 0 && lastScore <= totalQ)
                     ? (lastScore / totalQ) * 100
@@ -467,7 +924,8 @@ class SidebarController extends GetxController {
                 quizScoreStr = "$percentage%";
 
                 if (beceObjectives.firstAttemptScore != null) {
-                  double firstScore = beceObjectives.firstAttemptScore!.toDouble();
+                  double firstScore =
+                      beceObjectives.firstAttemptScore!.toDouble();
                   double origPct = (totalQ > 0 && firstScore <= totalQ)
                       ? (firstScore / totalQ) * 100
                       : firstScore;
@@ -1592,7 +2050,9 @@ class SidebarController extends GetxController {
             },
             {
               "subtitle": "TOURISM",
-              "topics": ["THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT"],
+              "topics": [
+                "THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT"
+              ],
             },
           ],
         },
@@ -1710,6 +2170,7 @@ class SidebarController extends GetxController {
           ],
         },
       ],
+      ..._additionalCourseData["JHS 1"]!,
     };
 
     final Map<String, List<Map<String, dynamic>>> jhs2CourseData = {
@@ -2285,6 +2746,7 @@ class SidebarController extends GetxController {
           ],
         },
       ],
+      ..._additionalCourseData["JHS 2"]!,
     };
 
     final Map<String, List<Map<String, dynamic>>> jhs3CourseData = {
@@ -2346,7 +2808,7 @@ class SidebarController extends GetxController {
               "subtitle": "GRAMMAR",
               "topics": [
                 "NOUN PHRASES AND THEIR FUNCTIONS",
-            "COMPLEX PHRASAL VERBS",
+                "COMPLEX PHRASAL VERBS",
                 "ADJECTIVE PHRASES AND THEIR ORDER",
                 "ADVERBIAL PHRASES AND THEIR FUNCTIONS",
                 "CONDITIONAL SENTENCES (TYPE 3)",
@@ -2859,6 +3321,7 @@ class SidebarController extends GetxController {
           ],
         },
       ],
+      ..._additionalCourseData["JHS 3"]!,
     };
 
     final strandsData = grade == "JHS 2"
@@ -2898,6 +3361,83 @@ class SidebarController extends GetxController {
               var practiceData = defaultPracticeData;
               var independentPracticeData = defaultIndependentQuizData;
               var quizData = defaultQuizData;
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                practiceData = computingJhs1S1Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss1Lesson1IndependentQuizData;
+                quizData = computingJhs1S1Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                practiceData = computingJhs1S1Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss1Lesson2IndependentQuizData;
+                quizData = computingJhs1S1Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                practiceData = computingJhs1S1Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss1Lesson3IndependentQuizData;
+                quizData = computingJhs1S1Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                practiceData = computingJhs1S1Ss1Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss1Lesson4IndependentQuizData;
+                quizData = computingJhs1S1Ss1Lesson4QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 4) {
+                practiceData = computingJhs1S1Ss1Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss1Lesson5IndependentQuizData;
+                quizData = computingJhs1S1Ss1Lesson5QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 5) {
+                practiceData = computingJhs1S1Ss1Lesson6PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss1Lesson6IndependentQuizData;
+                quizData = computingJhs1S1Ss1Lesson6QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs1S1Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs1S1Ss2Lesson1QuizData;
+              }
 
               // if (grade == "JHS 2" &&
               //     courseTitle == "English" &&
@@ -4424,7 +4964,6 @@ class SidebarController extends GetxController {
                 practiceData = jhs3s3ss1Lesson2PracticeData;
                 independentPracticeData = jhs3s3ss1Lesson2IndependentQuizData;
                 quizData = jhs3s3ss1Lesson2QuizData;
-
               }
               if (grade == "JHS 3" &&
                   courseTitle == "English" &&
@@ -8837,7 +9376,8 @@ class SidebarController extends GetxController {
   void changeStrand(int index) {
     final course = selectedCourse.value;
     if (course != null && index >= 0 && index < course.strands.length) {
-      if (course.strands[index].isLocked || !isGradeUnlocked(selectedGrade.value)) {
+      if (course.strands[index].isLocked ||
+          !isGradeUnlocked(selectedGrade.value)) {
         Get.snackbar(
           "Grade Locked",
           "${selectedGrade.value} content is locked for your grade level.",

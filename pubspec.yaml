@@ -1141,6 +1141,13 @@ flutter:
     - assets/audio/english/ENGLISH JHS1 S4 SS2 L1/
     - assets/images/social_studies/social studies jhs1 s5 ss3 l1/
     - assets/audio/social_studies/social studies jhs1 s5 ss3 l1/
+    - assets/audio/computing/JHS1_s1_ss1_L1/
+    - assets/audio/computing/JHS1_s1_ss1_L2/
+    - assets/audio/computing/JHS1_s1_ss1_L3/
+    - assets/audio/computing/JHS1_s1_ss1_L4/
+    - assets/audio/computing/JHS1_s1_ss1_L5/
+    - assets/audio/computing/JHS1_s1_ss1_L6/
+    - assets/audio/computing/JHS1_s1_ss2_L1/
 
   #   - images/a_dot_ham.jpeg
 

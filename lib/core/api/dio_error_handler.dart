@@ -49,6 +49,8 @@ String dioErrorToUserMessage(DioException error) {
       return "Request timed out. Please check your network.";
     case DioExceptionType.receiveTimeout:
       return "Server took too long to respond.";
+    case DioExceptionType.transformTimeout:
+      return "Processing the server response timed out. Please try again.";
     case DioExceptionType.badCertificate:
       return "Invalid server certificate.";
     case DioExceptionType.badResponse:

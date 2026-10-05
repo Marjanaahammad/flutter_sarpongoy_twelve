@@ -247,7 +247,8 @@ class _PracticeContentScreenState extends State<PracticeContentScreen> {
                                                     question.answerTableData!,
                                                   ),
                                                 ),
-                                              if (question.explanation.isNotEmpty)
+                                              if (controller.isBece &&
+                                                  question.explanation.isNotEmpty)
                                                 Padding(
                                                   padding: const EdgeInsets.only(top: 16),
                                                   child: _buildFormattedText(

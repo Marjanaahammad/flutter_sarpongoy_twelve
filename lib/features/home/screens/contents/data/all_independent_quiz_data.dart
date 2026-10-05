@@ -1,6 +1,7 @@
 import '../model/independent_practice_model.dart';
 
-final IndependentPracticeModel defaultIndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel defaultIndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -56,7 +57,430 @@ final IndependentPracticeModel defaultIndependentQuizData = IndependentPracticeM
     ),
   ],
 );
-final IndependentPracticeModel ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+
+final IndependentPracticeModel computingJhs1S1Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which fabrication technology enabled fourth-generation computers to house millions of transistors on a single chip?",
+      options: [
+        "Vacuum tube circuitry",
+        "Large-Scale Integration",
+        "Discrete transistor wiring",
+        "Magnetic core arrangement",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Large-Scale Integration",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What was the designation of the first single-chip commercial microprocessor, introduced in 1971?",
+      options: [
+        "Intel 8086",
+        "Zilog Z80",
+        "Intel 4004",
+        "AMD 2901",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Intel 4004",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which component of the processor is directly responsible for evaluating whether one value is greater than another?",
+      options: [
+        "Control Unit",
+        "System Clock",
+        "Register Array",
+        "Arithmetic Logic Unit",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Arithmetic Logic Unit",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the primary function of the Control Unit in a computer system?",
+      options: [
+        "Directing data flow",
+        "Adding numbers",
+        "Storing user files",
+        "Cooling the CPU",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Directing data flow",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss1_L2/7.  INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following computer hardware devices is classified as a manual input device?",
+      options: [
+        "Barcode scanner",
+        "Document flatbed",
+        "Computer keyboard",
+        "Temperature sensor",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "C",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which specialized input device is primarily used to mark objective multiple-choice answer sheets?",
+      options: [
+        "Magnetic reader",
+        "Optical Mark Reader",
+        "Concept keyboard",
+        "Document scanner",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "B",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is a major advantage of automatic input devices over manual input devices?",
+      options: [
+        "Faster data entry",
+        "Lower device cost",
+        "Higher text freedom",
+        "Simpler repair work",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which device converts physical paper certificates and photographs into digital computer files?",
+      options: [
+        "Laser plotter",
+        "Optical scanner",
+        "Gamepad control",
+        "Video projector",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "B",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which output hardware device draws continuous vector lines using drafting pens on wide-format materials?",
+      options: [
+        "Laser printer",
+        "Optical scanner",
+        "Graphing plotter",
+        "Multimedia unit",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What makes a pico projector especially valuable for field workers traveling to off-grid rural communities?",
+      options: [
+        "Heavy metal body",
+        "High-volume horns",
+        "Built-in batteries",
+        "High paper capacity",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which plotter design rolls the drafting paper over a cylinder while the pen moves across horizontally?",
+      options: [
+        "Flatbed plotter",
+        "Drum plotter",
+        "Sheetfed scanner",
+        "Optical projector",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why must classroom curtains often be closed when using a multimedia data projector?",
+      options: [
+        "To protect the lamp",
+        "To boost speaker sound",
+        "To shield the network",
+        "To improve image contrast",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss1_L4/7.  INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What unit of measurement indicates the rotational platter speed of a magnetic hard disk drive?",
+      options: [
+        "Bits Per Second",
+        "Megahertz Cycles",
+        "Revolutions Per Minute",
+        "Gigabytes Per Track",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the standard data storage capacity of a single-layer Digital Versatile Disc?",
+      options: [
+        "700 Megabytes",
+        "4.7 Gigabytes",
+        "25 Gigabytes",
+        "50 Gigabytes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do full-sized 3.5-inch external hard drives require a dedicated external power adapter?",
+      options: [
+        "USB ports cannot supply enough power",
+        "They have no internal circuit boards",
+        "They must recharge internal batteries",
+        "They only connect through HDMI ports",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which optical storage medium uses a blue-violet laser to achieve single-layer capacities of 25 Gigabytes?",
+      options: [
+        "Compact Disc",
+        "Mini Disc",
+        "Digital Versatile Disc",
+        "Blu-ray Disc",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss1_L5/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which Windows taskbar component allows users to switch between open applications and manage multiple virtual desktops?",
+      options: [
+        "The system clock",
+        "The Task View button",
+        "The device manager",
+        "The recycle bin icon",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What action triggers a live preview thumbnail of an active program window to appear above the taskbar?",
+      options: [
+        "Double-clicking the clock",
+        "Dragging the desktop folder",
+        "Hovering the mouse over its icon",
+        "Pressing the delete key twice",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Where is the Show Desktop button located to activate the temporal peeking feature in Windows?",
+      options: [
+        "Extreme far-right of taskbar",
+        "Top-left corner of screen",
+        "Inside the control panel",
+        "Directly below start button",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens to open application windows when you move your mouse cursor away from the Show Desktop button after peeking?",
+      options: [
+        "They are permanently closed",
+        "They are deleted from memory",
+        "They move to the recycle bin",
+        "They restore to visible state",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss1_L6/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following represents the most appropriate and professional file naming practice for a computing project draft?",
+      options: [
+        "proj*final!!?.docx",
+        "20261028_Computing_v1.docx",
+        "My School Work File Notes",
+        "document 1 new updated copy",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which common file extension denotes an uncompressed or standard digital audio sound file?",
+      options: [
+        ".xlsx",
+        ".wav",
+        ".pptx",
+        ".html",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which Windows user account level is best suited for school students to prevent accidental changes to system settings?",
+      options: [
+        "Standard User Account",
+        "Master Network Root",
+        "Full Administrator",
+        "System Kernel Account",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which file permission allows a student to open and view a document while strictly preventing them from modifying or deleting it?",
+      options: [
+        "Write Permission",
+        "Full Control",
+        "Modify Permission",
+        "Read Permission",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following technology tools is best suited for computing mathematical formulas and plotting sales charts?",
+      options: [
+        "Spreadsheet program",
+        "Virtual museum site",
+        "Word-building game",
+        "Presentation slides",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Spreadsheet program",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which software tool enables a student to design an interactive animated story using snap-together graphical blocks?",
+      options: [
+        "Open Exhibits",
+        "Scratch editor",
+        "Microsoft Excel",
+        "CrossCraze app",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Scratch editor",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A student wants to deliver a project report with bold bullet points, clear images, and audio clips for the class. Which tool is ideal?",
+      options: [
+        "Spreadsheet Calc",
+        "Virtual gallery",
+        "Presentation app",
+        "Scrabble board",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Presentation app",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does an online virtual museum assist a learner studying Ghanaian traditional heritage?",
+      options: [
+        "It calculates the total cost of historical gold weights.",
+        "It corrects grammar errors made during historical essays.",
+        "It translates local proverbs into foreign coding scripts.",
+        "It provides interactive digital exhibits of cultural items.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "It provides interactive digital exhibits of cultural items.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -129,7 +553,8 @@ final IndependentPracticeModel ss1Lesson2IndependentQuizData = IndependentPracti
     ),
   ],
 );
-final IndependentPracticeModel ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -181,7 +606,8 @@ final IndependentPracticeModel ss1Lesson3IndependentQuizData = IndependentPracti
     ),
   ],
 );
-final IndependentPracticeModel ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -244,7 +670,8 @@ final IndependentPracticeModel ss1Lesson4IndependentQuizData = IndependentPracti
     ),
   ],
 );
-final IndependentPracticeModel ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/ss2_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -299,7 +726,8 @@ final IndependentPracticeModel ss2Lesson1IndependentQuizData = IndependentPracti
     ),
   ],
 );
-final IndependentPracticeModel ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/ss2_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -358,7 +786,8 @@ final IndependentPracticeModel ss2Lesson2IndependentQuizData = IndependentPracti
     ),
   ],
 );
-final IndependentPracticeModel ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l1/6. Guided Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -397,7 +826,8 @@ final IndependentPracticeModel ss3Lesson1IndependentQuizData = IndependentPracti
   ],
 );
 
-final IndependentPracticeModel s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s2ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss1_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -458,7 +888,8 @@ final IndependentPracticeModel s2ss1Lesson1IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s2ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss1_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -517,7 +948,8 @@ final IndependentPracticeModel s2ss1Lesson2IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s2ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss1_l3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -572,11 +1004,14 @@ final IndependentPracticeModel s2ss1Lesson3IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/6. independent_practice.m4a',
+final IndependentPracticeModel s2ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/english jhs1 s2 ss1 l4/6. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following statements from a news article is a verifiable fact?",
+        question:
+            "1. Which of the following statements from a news article is a verifiable fact?",
         options: [
           "Cocoa farming is the most enjoyable job in Ghana.",
           "Ghana is one of the leading exporters of cocoa beans in the world.",
@@ -585,11 +1020,11 @@ final IndependentPracticeModel s2ss1Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "A fact is a statement that can be checked and verified. Ghana's role as a leading cocoa exporter is a verifiable fact."
-    ),
-
+        explanation:
+            "A fact is a statement that can be checked and verified. Ghana's role as a leading cocoa exporter is a verifiable fact."),
     IndependentPracticeQuestion(
-        question: "2. If an author writes a letter defending a factory that pollutes a local river but completely avoids mentioning the water pollution, the author is showing:",
+        question:
+            "2. If an author writes a letter defending a factory that pollutes a local river but completely avoids mentioning the water pollution, the author is showing:",
         options: [
           "Textual evidence",
           "Accurate sequencing",
@@ -598,11 +1033,11 @@ final IndependentPracticeModel s2ss1Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 3,
         difficulty: "Hard",
-        explanation: "Bias by omission happens when important facts are deliberately left out to influence the reader."
-    ),
-
+        explanation:
+            "Bias by omission happens when important facts are deliberately left out to influence the reader."),
     IndependentPracticeQuestion(
-        question: "3. Read this statement: \"The headteacher spoke for forty-five minutes at the PTA meeting, which was an incredibly boring presentation.\" Which part of the statement is an opinion?",
+        question:
+            "3. Read this statement: \"The headteacher spoke for forty-five minutes at the PTA meeting, which was an incredibly boring presentation.\" Which part of the statement is an opinion?",
         options: [
           "The headteacher spoke at a meeting.",
           "The meeting was a PTA meeting.",
@@ -611,11 +1046,11 @@ final IndependentPracticeModel s2ss1Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "\"The presentation was incredibly boring\" is an opinion because it expresses a personal judgment rather than a verifiable fact."
-    ),
-
+        explanation:
+            "\"The presentation was incredibly boring\" is an opinion because it expresses a personal judgment rather than a verifiable fact."),
     IndependentPracticeQuestion(
-        question: "4. When providing a personal response to an article about community sanitation, what must you include to make your response valid?",
+        question:
+            "4. When providing a personal response to an article about community sanitation, what must you include to make your response valid?",
         options: [
           "A drawing of the setting",
           "Specific textual evidence to support your views",
@@ -624,11 +1059,12 @@ final IndependentPracticeModel s2ss1Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "A valid personal response should be supported with evidence from the text to justify your opinions."
-    ),
+        explanation:
+            "A valid personal response should be supported with evidence from the text to justify your opinions."),
   ],
 );
-final IndependentPracticeModel s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s2ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s2_ss2_l1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -685,7 +1121,8 @@ final IndependentPracticeModel s2ss2Lesson1IndependentQuizData = IndependentPrac
   ],
 );
 
-final IndependentPracticeModel s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l1/6_independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -731,7 +1168,8 @@ final IndependentPracticeModel s3ss1Lesson1IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -782,7 +1220,8 @@ final IndependentPracticeModel s3ss1Lesson2IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -827,7 +1266,8 @@ final IndependentPracticeModel s3ss1Lesson3IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -860,7 +1300,8 @@ final IndependentPracticeModel s3ss1Lesson4IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel s3ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/s3_ss1_l5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -897,48 +1338,31 @@ final IndependentPracticeModel s3ss1Lesson5IndependentQuizData = IndependentPrac
     ),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L6/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. You can go to the library, ________ you can finish your work at home.",
-        options: [
-          "and",
-          "or",
-          "but",
-          "so"
-        ],
+        question:
+            "1. You can go to the library, ________ you can finish your work at home.",
+        options: ["and", "or", "but", "so"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "or"
-    ),
-
+        explanation: "or"),
     IndependentPracticeQuestion(
-        question: "2. The GPRTU drivers were on strike, ________ the roads were very quiet.",
-        options: [
-          "or",
-          "but",
-          "so",
-          "and"
-        ],
+        question:
+            "2. The GPRTU drivers were on strike, ________ the roads were very quiet.",
+        options: ["or", "but", "so", "and"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "so"
-    ),
-
+        explanation: "so"),
     IndependentPracticeQuestion(
         question: "3. Esi bought mangoes, ________ she forgot to buy oranges.",
-        options: [
-          "but",
-          "so",
-          "or",
-          "for"
-        ],
+        options: ["but", "so", "or", "for"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "but"
-    ),
-
+        explanation: "but"),
     IndependentPracticeQuestion(
         question: "4. Which of these is a compound sentence?",
         options: [
@@ -949,12 +1373,13 @@ final IndependentPracticeModel s3ss1Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The teacher arrived, and the lesson began."
-    ),
+        explanation: "The teacher arrived, and the lesson began."),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L7/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is an Independent Clause?",
@@ -966,24 +1391,17 @@ final IndependentPracticeModel s3ss1Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The headmaster gave a speech."
-    ),
-
+        explanation: "The headmaster gave a speech."),
     IndependentPracticeQuestion(
-        question: "2. Choose the best word to start this dependent clause: \"________ it was raining, the football match continued.\"",
-        options: [
-          "And",
-          "But",
-          "Although",
-          "So"
-        ],
+        question:
+            "2. Choose the best word to start this dependent clause: \"________ it was raining, the football match continued.\"",
+        options: ["And", "But", "Although", "So"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Although"
-    ),
-
+        explanation: "Although"),
     IndependentPracticeQuestion(
-        question: "3. \"We will go to the beach if the weather is clear.\" What is the dependent clause?",
+        question:
+            "3. \"We will go to the beach if the weather is clear.\" What is the dependent clause?",
         options: [
           "We will go",
           "to the beach",
@@ -992,9 +1410,7 @@ final IndependentPracticeModel s3ss1Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "if the weather is clear"
-    ),
-
+        explanation: "if the weather is clear"),
     IndependentPracticeQuestion(
         question: "4. Which sentence is punctuated correctly?",
         options: [
@@ -1005,124 +1421,75 @@ final IndependentPracticeModel s3ss1Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Since I have no money, I cannot buy the kenkey."
-    ),
+        explanation: "Since I have no money, I cannot buy the kenkey."),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L8/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L8/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following is a Proper Noun?",
-        options: [
-          "country",
-          "Accra",
-          "river",
-          "mountain"
-        ],
+        options: ["country", "Accra", "river", "mountain"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Accra"
-    ),
-
+        explanation: "Accra"),
     IndependentPracticeQuestion(
         question: "2. The farmer has ten ________ in his pen.",
-        options: [
-          "sheeps",
-          "sheep",
-          "sheepes",
-          "shoop"
-        ],
+        options: ["sheeps", "sheep", "sheepes", "shoop"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "sheep"
-    ),
-
+        explanation: "sheep"),
     IndependentPracticeQuestion(
         question: "3. My ________ hurt after walking to the market.",
-        options: [
-          "foots",
-          "feets",
-          "feet",
-          "footes"
-        ],
+        options: ["foots", "feets", "feet", "footes"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "feet"
-    ),
-
+        explanation: "feet"),
     IndependentPracticeQuestion(
         question: "4. Please put the ________ on the table.",
-        options: [
-          "knifes",
-          "knive",
-          "knives",
-          "knifing"
-        ],
+        options: ["knifes", "knive", "knives", "knifing"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "knives"
-    ),
+        explanation: "knives"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson9IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L9/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L9/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. \"That bag over there belongs to me. It is ________.\"",
-        options: [
-          "mine",
-          "my",
-          "me",
-          "myself"
-        ],
+        options: ["mine", "my", "me", "myself"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "mine"
-    ),
-
+        explanation: "mine"),
     IndependentPracticeQuestion(
         question: "2. \"The children are playing by ________ in the garden.\"",
-        options: [
-          "theirselves",
-          "themselves",
-          "himself",
-          "ourselves"
-        ],
+        options: ["theirselves", "themselves", "himself", "ourselves"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "themselves"
-    ),
-
+        explanation: "themselves"),
     IndependentPracticeQuestion(
         question: "3. \"________ of these two books do you want to read?\"",
-        options: [
-          "Who",
-          "Which",
-          "Whom",
-          "This"
-        ],
+        options: ["Who", "Which", "Whom", "This"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Which"
-    ),
-
+        explanation: "Which"),
     IndependentPracticeQuestion(
         question: "4. \"Take ________ oranges and put them in the basket.\"",
-        options: [
-          "this",
-          "that",
-          "these",
-          "them"
-        ],
+        options: ["this", "that", "these", "them"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "these"
-    ),
+        explanation: "these"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson10IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L10/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson10IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L10/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which sentence has the adjective in the correct place?",
@@ -1134,136 +1501,81 @@ final IndependentPracticeModel s3ss1Lesson10IndependentQuizData = IndependentPra
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The tall boy is my brother."
-    ),
-
+        explanation: "The tall boy is my brother."),
     IndependentPracticeQuestion(
         question: "2. \"The banku ________ sour if it stays too long.\"",
-        options: [
-          "looks",
-          "sounds",
-          "tastes",
-          "feels"
-        ],
+        options: ["looks", "sounds", "tastes", "feels"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "tastes"
-    ),
-
+        explanation: "tastes"),
     IndependentPracticeQuestion(
         question: "3. \"Ama is a ________ girl.\"",
-        options: [
-          "beautifully",
-          "beauty",
-          "beautiful",
-          "beautify"
-        ],
+        options: ["beautifully", "beauty", "beautiful", "beautify"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "beautiful"
-    ),
-
+        explanation: "beautiful"),
     IndependentPracticeQuestion(
-        question: "4. In the sentence \"The music sounds great,\" what is the sense verb?",
-        options: [
-          "Music",
-          "Sounds",
-          "Great",
-          "The"
-        ],
+        question:
+            "4. In the sentence \"The music sounds great,\" what is the sense verb?",
+        options: ["Music", "Sounds", "Great", "The"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sounds"
-    ),
+        explanation: "Sounds"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson11IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L11/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson11IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L11/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. \"Look! The baby _______ to walk.\"",
-        options: [
-          "is trying",
-          "tries",
-          "has tried",
-          "have been trying"
-        ],
+        options: ["is trying", "tries", "has tried", "have been trying"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "2. \"We _______ lived in Kumasi for ten years.\"",
-        options: [
-          "are",
-          "have",
-          "has",
-          "were"
-        ],
+        options: ["are", "have", "has", "were"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. \"Ama _______ her teeth twice a day.\"",
-        options: [
-          "is brushing",
-          "have brushed",
-          "brushes",
-          "brushing"
-        ],
+        options: ["is brushing", "have brushed", "brushes", "brushing"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. \"I am tired because I _______ for the test all night.\"",
-        options: [
-          "study",
-          "am studying",
-          "have been studying",
-          "has studied"
-        ],
+        options: ["study", "am studying", "have been studying", "has studied"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson12IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L12/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson12IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L12/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"Last night, Esi _______ a delicious fante fante for dinner.\"",
-        options: [
-          "cooks",
-          "was cooking",
-          "cooked",
-          "had cooked"
-        ],
+        question:
+            "1. \"Last night, Esi _______ a delicious fante fante for dinner.\"",
+        options: ["cooks", "was cooking", "cooked", "had cooked"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. \"The students _______ quietly when the headmaster entered.\"",
-        options: [
-          "were working",
-          "had worked",
-          "worked",
-          "are working"
-        ],
+        question:
+            "2. \"The students _______ quietly when the headmaster entered.\"",
+        options: ["were working", "had worked", "worked", "are working"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. \"By the time the rain started, we _______ already _______ the cocoa beans.\"",
+        question:
+            "3. \"By the time the rain started, we _______ already _______ the cocoa beans.\"",
         options: [
           "were; covering",
           "have; covered",
@@ -1272,65 +1584,40 @@ final IndependentPracticeModel s3ss1Lesson12IndependentQuizData = IndependentPra
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. \"I _______ to school every day when I lived in the village.\"",
-        options: [
-          "was walking",
-          "had walked",
-          "walked",
-          "walk"
-        ],
+        question:
+            "4. \"I _______ to school every day when I lived in the village.\"",
+        options: ["was walking", "had walked", "walked", "walk"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson13IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/7. Independent Practice .m4a',
+final IndependentPracticeModel s3ss1Lesson13IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L13/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. \"The driver drove _______ through the heavy rain.\"",
-        options: [
-          "careful",
-          "carefully",
-          "caring",
-          "cares"
-        ],
+        options: ["careful", "carefully", "caring", "cares"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. In \"The food was incredibly tasty,\" what does 'incredibly' modify?",
-        options: [
-          "The food",
-          "was",
-          "tasty (adjective)",
-          "tasty (verb)"
-        ],
+        question:
+            "2. In \"The food was incredibly tasty,\" what does 'incredibly' modify?",
+        options: ["The food", "was", "tasty (adjective)", "tasty (verb)"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. \"He finished his work _______.\"",
-        options: [
-          "yesterday",
-          "green",
-          "table",
-          "happy"
-        ],
+        options: ["yesterday", "green", "table", "happy"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "4. \"The student answered the question _______ _______.\"",
         options: [
@@ -1341,15 +1628,17 @@ final IndependentPracticeModel s3ss1Lesson13IndependentQuizData = IndependentPra
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson14IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L14/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson14IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L14/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"You can have _______ tea _______ coffee, but not both.\"",
+        question:
+            "1. \"You can have _______ tea _______ coffee, but not both.\"",
         options: [
           "neither...nor",
           "not only...but also",
@@ -1358,65 +1647,41 @@ final IndependentPracticeModel s3ss1Lesson14IndependentQuizData = IndependentPra
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. \"The match was cancelled _______ the pitch was flooded.\"",
-        options: [
-          "so",
-          "because",
-          "but",
-          "although"
-        ],
+        question:
+            "2. \"The match was cancelled _______ the pitch was flooded.\"",
+        options: ["so", "because", "but", "although"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. \"_______ the GPRTU is on strike, the roads are very quiet.\"",
-        options: [
-          "Whereas",
-          "Since",
-          "But",
-          "Or"
-        ],
+        question:
+            "3. \"_______ the GPRTU is on strike, the roads are very quiet.\"",
+        options: ["Whereas", "Since", "But", "Or"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. \"I will call you _______ I arrive at the station.\"",
-        options: [
-          "before",
-          "after",
-          "and",
-          "nor"
-        ],
+        options: ["before", "after", "and", "nor"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson15IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L15/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson15IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L15/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"The headmaster spoke _______ the entire teaching staff.\"",
-        options: [
-          "in front of",
-          "on behalf of",
-          "due to",
-          "out of"
-        ],
+        question:
+            "1. \"The headmaster spoke _______ the entire teaching staff.\"",
+        options: ["in front of", "on behalf of", "due to", "out of"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. \"We arrived at the stadium _______ for the kickoff.\"",
         options: [
@@ -1427,22 +1692,13 @@ final IndependentPracticeModel s3ss1Lesson15IndependentQuizData = IndependentPra
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "3. \"The village is _______ the big river.\"",
-        options: [
-          "on account of",
-          "near to",
-          "in spite of",
-          "by dint of"
-        ],
+        options: ["on account of", "near to", "in spite of", "by dint of"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. \"He succeeded _______ hard work.\"",
         options: [
@@ -1453,124 +1709,78 @@ final IndependentPracticeModel s3ss1Lesson15IndependentQuizData = IndependentPra
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s3ss1Lesson16IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS1 L16/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss1Lesson16IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS1 L16/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"I saw _______ elephant at the Mole National Park yesterday.\"",
-        options: [
-          "a",
-          "an",
-          "the",
-          "those"
-        ],
+        question:
+            "1. \"I saw _______ elephant at the Mole National Park yesterday.\"",
+        options: ["a", "an", "the", "those"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. \"Is _______ your bag on the floor next to you?\"",
-        options: [
-          "this",
-          "that",
-          "these",
-          "those"
-        ],
+        options: ["this", "that", "these", "those"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. \"The children are wearing _______ new school uniforms.\"",
-        options: [
-          "our",
-          "his",
-          "their",
-          "its"
-        ],
+        question:
+            "3. \"The children are wearing _______ new school uniforms.\"",
+        options: ["our", "his", "their", "its"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. \"_______ cat is very fat. An apple fell from the tree is yours.\"",
-        options: [
-          "This",
-          "These",
-          "That",
-          "Those"
-        ],
+        question:
+            "4. \"_______ cat is very fat. An apple fell from the tree is yours.\"",
+        options: ["This", "These", "That", "Those"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. My uncle lives in Tamale.",
-        options: [
-          "?",
-          "!",
-          ".",
-          ","
-        ],
+        options: ["?", "!", ".", ","],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "2. Would you like some jollof rice for lunch__",
-        options: [
-          "!",
-          "?",
-          ".",
-          ","
-        ],
+        options: ["!", "?", ".", ","],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Ei__ That is a very big tilapia!",
-        options: [
-          ",",
-          ".",
-          "?",
-          "!"
-        ],
+        options: [",", ".", "?", "!"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
         question: "4. We need to buy bread, eggs __ milk, and sugar.",
-        options: [
-          "!",
-          ".",
-          ",",
-          "?"
-        ],
+        options: ["!", ".", ",", "?"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s3ss2Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS2 L2/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. my friend kojo is from ho.",
@@ -1582,54 +1792,35 @@ final IndependentPracticeModel s3ss2Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Is it raining in _______?",
-        options: [
-          "accra",
-          "Accra",
-          "aCcra",
-          "ACCRA"
-        ],
+        options: ["accra", "Accra", "aCcra", "ACCRA"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Next _______ is a public holiday.",
-        options: [
-          "friday",
-          "Friday",
-          "FRIDAY",
-          "fridaY"
-        ],
+        options: ["friday", "Friday", "FRIDAY", "fridaY"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. My sister and _______ went to the shop.",
-        options: [
-          "i",
-          "Me",
-          "I",
-          "mE"
-        ],
+        options: ["i", "Me", "I", "mE"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Efua's phone screen is cracked. She says, \"I need some advice. I’ve no idea what to do.\" Which is the best response?",
+        question:
+            "1. Efua's phone screen is cracked. She says, \"I need some advice. I’ve no idea what to do.\" Which is the best response?",
         options: [
           "Why did you break it?",
           "My advice would be to take it to the repairer at Circle.",
@@ -1638,11 +1829,10 @@ final IndependentPracticeModel s3ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Mensa wants to improve his English. He asks you, \"What do you think I should do?\" Which response uses a correct advice phrase?",
+        question:
+            "2. Mensa wants to improve his English. He asks you, \"What do you think I should do?\" Which response uses a correct advice phrase?",
         options: [
           "You need to read more.",
           "One thing you could do is join the school's debating club.",
@@ -1651,11 +1841,10 @@ final IndependentPracticeModel s3ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Abena is deciding which dress to wear for a wedding. She asks, \"Do you think I should wear the kente or the lace?\" How are you giving her advice?",
+        question:
+            "3. Abena is deciding which dress to wear for a wedding. She asks, \"Do you think I should wear the kente or the lace?\" How are you giving her advice?",
         options: [
           "Both are very nice.",
           "The kente is better.",
@@ -1664,11 +1853,10 @@ final IndependentPracticeModel s3ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Yaw is lost in the market. He asks, \"What would you do if you were me?\" What is the most helpful advice?",
+        question:
+            "4. Yaw is lost in the market. He asks, \"What would you do if you were me?\" What is the most helpful advice?",
         options: [
           "Don't get lost next time.",
           "What you need to do is find a police officer and ask for directions.",
@@ -1677,15 +1865,17 @@ final IndependentPracticeModel s3ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L2/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS3 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Kojo: \"We should go to the Black Star Square for our field trip.\" Esi: \"________. It is a very historic place for Ghana.\"",
+        question:
+            "1. Kojo: \"We should go to the Black Star Square for our field trip.\" Esi: \"________. It is a very historic place for Ghana.\"",
         options: [
           "I see things differently",
           "I tend to disagree",
@@ -1694,11 +1884,10 @@ final IndependentPracticeModel s3ss3Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Teacher: \"I believe every student should learn to play a musical instrument.\" Student: \"________. However, some students might prefer sports instead.\"",
+        question:
+            "2. Teacher: \"I believe every student should learn to play a musical instrument.\" Student: \"________. However, some students might prefer sports instead.\"",
         options: [
           "I tend to agree with you",
           "I agree up to a point",
@@ -1707,11 +1896,10 @@ final IndependentPracticeModel s3ss3Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Adwoa: \"The market will be too crowded on Saturday.\" Kofi: \"________. I think if we go early, it will be fine.\"",
+        question:
+            "3. Adwoa: \"The market will be too crowded on Saturday.\" Kofi: \"________. I think if we go early, it will be fine.\"",
         options: [
           "I'm with you on that point",
           "That's a good idea",
@@ -1720,11 +1908,10 @@ final IndependentPracticeModel s3ss3Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
-        question: "4. Which phrase shows you partially agree but still have a different thought?",
+        question:
+            "4. Which phrase shows you partially agree but still have a different thought?",
         options: [
           "I tend to agree with you.",
           "I'm with you on that point.",
@@ -1733,15 +1920,17 @@ final IndependentPracticeModel s3ss3Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S3 SS3 L3/7. Independent Practice.m4a',
+final IndependentPracticeModel s3ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S3 SS3 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Ekua saw a small crack in her bucket but ignored it. A week later, the bucket broke completely. Which proverb fits this?",
+        question:
+            "1. Ekua saw a small crack in her bucket but ignored it. A week later, the bucket broke completely. Which proverb fits this?",
         options: [
           "Birds of a feather flock together.",
           "A stitch in time saves nine.",
@@ -1750,10 +1939,10 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Kwame spends all his time with troublemakers and now he is in trouble too. This is an example of:",
+        question:
+            "2. Kwame spends all his time with troublemakers and now he is in trouble too. This is an example of:",
         options: [
           "Look before you leap.",
           "Don't count your chickens before they are hatched.",
@@ -1762,8 +1951,7 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. Which sentence uses a proverb correctly?",
         options: [
@@ -1774,8 +1962,7 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. What is the meaning of \"Practice makes perfect\"?",
         options: [
@@ -1786,55 +1973,39 @@ final IndependentPracticeModel s3ss3Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
 
-final IndependentPracticeModel s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/english jhs1 s4 ss2 l1/7. independent_practice.m4a',
+final IndependentPracticeModel s4ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/english jhs1 s4 ss2 l1/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Choose the best word to complete the sentence: \"I will not go to the cinema ________ my father gives me the money for the ticket.\"",
-        options: [
-          "so that",
-          "unless",
-          "because",
-          "while"
-        ],
+        question:
+            "1. Choose the best word to complete the sentence: \"I will not go to the cinema ________ my father gives me the money for the ticket.\"",
+        options: ["so that", "unless", "because", "while"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Which pronoun best replaces the bracketed words? \"The boys are playing football. [The boys] are very talented.\"",
-        options: [
-          "He",
-          "It",
-          "They",
-          "Them"
-        ],
+        question:
+            "2. Which pronoun best replaces the bracketed words? \"The boys are playing football. [The boys] are very talented.\"",
+        options: ["He", "It", "They", "Them"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. Choose the correct connector to show the order of events: \"______, wash the rice. Next, put it in the pot with water.\"",
-        options: [
-          "Firstly",
-          "Moreover",
-          "However",
-          "Therefore"
-        ],
+        question:
+            "3. Choose the correct connector to show the order of events: \"______, wash the rice. Next, put it in the pot with water.\"",
+        options: ["Firstly", "Moreover", "However", "Therefore"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "4. Which sentence uses punctuation correctly to show a pause between two connected ideas?",
+        question:
+            "4. Which sentence uses punctuation correctly to show a pause between two connected ideas?",
         options: [
           "I like Kenkey, but I prefer Fufu.",
           "I like Kenkey but I prefer Fufu?",
@@ -1843,12 +2014,13 @@ final IndependentPracticeModel s4ss1Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L2/ENGLISH JHS1 S4 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which sentence uses the sense of 'smell' best?",
@@ -1860,37 +2032,23 @@ final IndependentPracticeModel s4ss1Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Choose the most vivid verb to replace 'went': \"The tired farmer ______ back to his hut after a long day.\"",
-        options: [
-          "ran",
-          "went",
-          "plodded",
-          "jumped"
-        ],
+        question:
+            "2. Choose the most vivid verb to replace 'went': \"The tired farmer ______ back to his hut after a long day.\"",
+        options: ["ran", "went", "plodded", "jumped"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. Which of these is a 'dominant impression' for a library?",
-        options: [
-          "Noisy",
-          "Green",
-          "Tranquil",
-          "Fast"
-        ],
+        options: ["Noisy", "Green", "Tranquil", "Fast"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. To describe a tall building from 'bottom to top,' what should you mention first?",
+        question:
+            "4. To describe a tall building from 'bottom to top,' what should you mention first?",
         options: [
           "The roof",
           "The windows on the third floor",
@@ -1899,26 +2057,21 @@ final IndependentPracticeModel s4ss1Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L3/ENGLISH JHS1 S4 SS1 L3 ( 5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Choose the best connector: \"I finished my homework. ________, I went outside to play with my friends.\"",
-        options: [
-          "Since",
-          "Afterwards",
-          "While",
-          "Until"
-        ],
+        question:
+            "1. Choose the best connector: \"I finished my homework. ________, I went outside to play with my friends.\"",
+        options: ["Since", "Afterwards", "While", "Until"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Which sentence uses a time clause correctly?",
         options: [
@@ -1929,38 +2082,27 @@ final IndependentPracticeModel s4ss1Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. \"The students waited ________ the headmaster finished his speech.\"",
-        options: [
-          "then",
-          "until",
-          "soon",
-          "suddenly"
-        ],
+        question:
+            "3. \"The students waited ________ the headmaster finished his speech.\"",
+        options: ["then", "until", "soon", "suddenly"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. What is the best word to show a sequence? \"First, add water. ________, add the salt.\"",
-        options: [
-          "Next",
-          "Although",
-          "Because",
-          "Unless"
-        ],
+        question:
+            "4. What is the best word to show a sequence? \"First, add water. ________, add the salt.\"",
+        options: ["Next", "Although", "Because", "Unless"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L4/ENGLISH JHS1 S4 SS1 L4 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which sentence uses a place clause correctly?",
@@ -1972,22 +2114,14 @@ final IndependentPracticeModel s4ss1Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Choose the best manner clause: \"Please write the letters ________ I have shown you on the chalkboard.\"",
-        options: [
-          "where",
-          "as",
-          "until",
-          "because"
-        ],
+        question:
+            "2. Choose the best manner clause: \"Please write the letters ________ I have shown you on the chalkboard.\"",
+        options: ["where", "as", "until", "because"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Which is the most logical sequence for making tea?",
         options: [
@@ -1998,28 +2132,23 @@ final IndependentPracticeModel s4ss1Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. \"Keep walking ________ the road ends at the river.\"",
-        options: [
-          "wherever",
-          "until",
-          "the way",
-          "as if"
-        ],
+        options: ["wherever", "until", "the way", "as if"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L5/ENGLISH JHS1 S4 SS1 L5 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which is the best topic sentence for a letter about school sports?",
+        question:
+            "1. Which is the best topic sentence for a letter about school sports?",
         options: [
           "Football is played with a ball and twenty-two players.",
           "Our school needs a new sports kit because the old ones are torn.",
@@ -2028,54 +2157,38 @@ final IndependentPracticeModel s4ss1Lesson5IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Choose the best connector for a second argument: \"Mobile phones help us stay in touch with parents. ________, they can be used for research.\"",
-        options: [
-          "However",
-          "Furthermore",
-          "Although",
-          "Unless"
-        ],
+        question:
+            "2. Choose the best connector for a second argument: \"Mobile phones help us stay in touch with parents. ________, they can be used for research.\"",
+        options: ["However", "Furthermore", "Although", "Unless"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. \"________ some people think homework is boring, it helps us master what we learned in class.\"",
-        options: [
-          "Because",
-          "While",
-          "So that",
-          "Since"
-        ],
+        question:
+            "3. \"________ some people think homework is boring, it helps us master what we learned in class.\"",
+        options: ["Because", "While", "So that", "Since"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. \"We must protect our water bodies ________ we have clean water to drink in the future.\"",
-        options: [
-          "although",
-          "so that",
-          "unless",
-          "while"
-        ],
+        question:
+            "4. \"We must protect our water bodies ________ we have clean water to drink in the future.\"",
+        options: ["although", "so that", "unless", "while"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS1 L6/ENGLISH JHS1 S4 SS1 L6 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which sentence is best for the start of a formal explanation about the library rules?",
+        question:
+            "1. Which sentence is best for the start of a formal explanation about the library rules?",
         options: [
           "We have some books in the room over there.",
           "This document explains the regulations for using the school library.",
@@ -2084,9 +2197,7 @@ final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. In a notice, what does 'Venue' mean?",
         options: [
@@ -2097,22 +2208,14 @@ final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. Choose the most formal synonym: \"Please ________ your parents about the meeting.\"",
-        options: [
-          "tell",
-          "chat with",
-          "inform",
-          "holla at"
-        ],
+        question:
+            "3. Choose the most formal synonym: \"Please ________ your parents about the meeting.\"",
+        options: ["tell", "chat with", "inform", "holla at"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. What is the correct logical order for an explanation?",
         options: [
@@ -2123,15 +2226,17 @@ final IndependentPracticeModel s4ss1Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/English jhs1 s4 ss2 l0/7. independent_practice.m4a',
+final IndependentPracticeModel s4ss2Lesson0IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/English jhs1 s4 ss2 l0/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following sentences is written from a first-person point of view?",
+        question:
+            "1. Which of the following sentences is written from a first-person point of view?",
         options: [
           "Kwesi ran as fast as he could to catch the trotro.",
           "They decided to visit the Kakum National Park.",
@@ -2140,24 +2245,19 @@ final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A first-person point of view uses pronouns like 'I' or 'we'."
-    ),
-
+        explanation:
+            "A first-person point of view uses pronouns like 'I' or 'we'."),
     IndependentPracticeQuestion(
-        question: "2. Which word is a precise verb that could replace the underlined word to show someone moving unsteadily: 'The injured player went off the pitch'?",
-        options: [
-          "Staggered",
-          "Ran",
-          "Strode",
-          "Walked"
-        ],
+        question:
+            "2. Which word is a precise verb that could replace the underlined word to show someone moving unsteadily: 'The injured player went off the pitch'?",
+        options: ["Staggered", "Ran", "Strode", "Walked"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "'Staggered' is a precise verb that shows unsteady movement, often because of injury or weakness."
-    ),
-
+        explanation:
+            "'Staggered' is a precise verb that shows unsteady movement, often because of injury or weakness."),
     IndependentPracticeQuestion(
-        question: "3. Identify the phrase that appeals primarily to the sense of sound.",
+        question:
+            "3. Identify the phrase that appeals primarily to the sense of sound.",
         options: [
           "The bitter taste of the medicine",
           "The piercing shriek of the whistle",
@@ -2166,11 +2266,11 @@ final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'The piercing shriek of the whistle' appeals to the sense of hearing."
-    ),
-
+        explanation:
+            "'The piercing shriek of the whistle' appeals to the sense of hearing."),
     IndependentPracticeQuestion(
-        question: "4. What is the main goal of the revision stage in narrative writing?",
+        question:
+            "4. What is the main goal of the revision stage in narrative writing?",
         options: [
           "To copy the text into a completely new notebook.",
           "To improve the meaning, sensory details, and emotional impact of the text.",
@@ -2179,28 +2279,26 @@ final IndependentPracticeModel s4ss2Lesson0IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Revision improves the content by making the writing clearer, richer, and more engaging."
-    ),
-
+        explanation:
+            "Revision improves the content by making the writing clearer, richer, and more engaging."),
     IndependentPracticeQuestion(
-        question: "5. Which word acts as a connector of sequence to show a sudden change in time?",
-        options: [
-          "Beautifully",
-          "Because",
-          "Instantly",
-          "Although"
-        ],
+        question:
+            "5. Which word acts as a connector of sequence to show a sudden change in time?",
+        options: ["Beautifully", "Because", "Instantly", "Although"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "'Instantly' is a sequence connector that shows something happened immediately or suddenly."
-    ),
+        explanation:
+            "'Instantly' is a sequence connector that shows something happened immediately or suddenly."),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/6. independent_practice.m4a',
+final IndependentPracticeModel s4ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/6. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is an example of an imperative used in an advert?",
+        question:
+            "1. Which of the following is an example of an imperative used in an advert?",
         options: [
           "The car is very fast.",
           "Do you like fast cars?",
@@ -2209,9 +2307,7 @@ final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "2. Why do advertisers use repetition in their writing?",
         options: [
@@ -2222,11 +2318,10 @@ final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Which sentence uses the simple present tense to state a timeless fact about a product?",
+        question:
+            "3. Which sentence uses the simple present tense to state a timeless fact about a product?",
         options: [
           "I bought this soap yesterday.",
           "This soap will clean your clothes.",
@@ -2235,11 +2330,10 @@ final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which of these would be the best Target Market for an advert about a new brand of football boots?",
+        question:
+            "4. Which of these would be the best Target Market for an advert about a new brand of football boots?",
         options: [
           "Grandparents living in the village.",
           "Young athletes and football fans.",
@@ -2248,26 +2342,20 @@ final IndependentPracticeModel s4ss2Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L2/ENGLISH JHS1 S4 SS2 L2 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following is an example of a quantifier?",
-        options: [
-          "Carefully",
-          "Three cups",
-          "Quickly",
-          "Red"
-        ],
+        options: ["Carefully", "Three cups", "Quickly", "Red"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Why is the Aim important in a process text?",
         options: [
@@ -2278,24 +2366,16 @@ final IndependentPracticeModel s4ss2Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. Which word is a connector of sequence?",
-        options: [
-          "Beautifully",
-          "Because",
-          "Finally",
-          "Although"
-        ],
+        options: ["Beautifully", "Because", "Finally", "Although"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which sentence uses the simple present tense correctly for an instruction?",
+        question:
+            "4. Which sentence uses the simple present tense correctly for an instruction?",
         options: [
           "I was boiling the water.",
           "You boil the water.",
@@ -2304,11 +2384,10 @@ final IndependentPracticeModel s4ss2Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "5. What is the best way to present a list of materials for a recipe?",
+        question:
+            "5. What is the best way to present a list of materials for a recipe?",
         options: [
           "In a long, complicated paragraph.",
           "Using bullet points or a list.",
@@ -2317,15 +2396,17 @@ final IndependentPracticeModel s4ss2Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L3/ENGLISH JHS1 S4 SS2 L3 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is an appropriate subscription for an informal letter?",
+        question:
+            "1. Which of the following is an appropriate subscription for an informal letter?",
         options: [
           "Yours faithfully,",
           "Yours sincerely,",
@@ -2334,11 +2415,10 @@ final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Why do we use first-person pronouns in an informal letter?",
+        question:
+            "2. Why do we use first-person pronouns in an informal letter?",
         options: [
           "Because we are talking about ourselves and our experiences.",
           "Because it is a school rule.",
@@ -2347,9 +2427,7 @@ final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "3. Where does the date go in an informal letter?",
         options: [
@@ -2360,11 +2438,10 @@ final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Which sentence uses a contraction to sound more conversational?",
+        question:
+            "4. Which sentence uses a contraction to sound more conversational?",
         options: [
           "I am going to the market.",
           "I'm going to the market.",
@@ -2373,9 +2450,7 @@ final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "5. What should you sign at the end of an informal letter?",
         options: [
@@ -2386,15 +2461,17 @@ final IndependentPracticeModel s4ss2Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L4/ENGLISH JHS1 S4 SS2 L4 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which subscription is required for a formal letter starting with \"Dear Sir\"?",
+        question:
+            "1. Which subscription is required for a formal letter starting with \"Dear Sir\"?",
         options: [
           "Yours ever,",
           "Your friend,",
@@ -2403,11 +2480,10 @@ final IndependentPracticeModel s4ss2Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Why should you avoid using contractions like \"won't\" in a formal letter?",
+        question:
+            "2. Why should you avoid using contractions like \"won't\" in a formal letter?",
         options: [
           "Because they are too difficult to spell.",
           "To maintain a serious and professional tone.",
@@ -2416,11 +2492,10 @@ final IndependentPracticeModel s4ss2Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. What should follow your signature at the end of a formal letter?",
+        question:
+            "3. What should follow your signature at the end of a formal letter?",
         options: [
           "Your nickname.",
           "Your phone number only.",
@@ -2429,41 +2504,31 @@ final IndependentPracticeModel s4ss2Lesson4IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a correct salutation for an official you do not know personally?",
-        options: [
-          "Hey there,",
-          "Dearest Manager,",
-          "Dear Sir,",
-          "To my boss,"
-        ],
+        question:
+            "4. Which of these is a correct salutation for an official you do not know personally?",
+        options: ["Hey there,", "Dearest Manager,", "Dear Sir,", "To my boss,"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "5. Where is the writer's address located in a formal letter?",
-        options: [
-          "Top left.",
-          "Bottom right.",
-          "Top right.",
-          "Bottom left."
-        ],
+        question:
+            "5. Where is the writer's address located in a formal letter?",
+        options: ["Top left.", "Bottom right.", "Top right.", "Bottom left."],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L5/ENGLISH JHS1 S4 SS2 L5 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these should you always record at the top of your notes?",
+        question:
+            "1. Which of these should you always record at the top of your notes?",
         options: [
           "Your favourite food",
           "The title and the date",
@@ -2472,11 +2537,10 @@ final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Why is it better to use bullet points instead of long paragraphs for notes?",
+        question:
+            "2. Why is it better to use bullet points instead of long paragraphs for notes?",
         options: [
           "Because they are faster to write and easier to read later.",
           "Because paragraphs are not allowed in JHS.",
@@ -2485,9 +2549,7 @@ final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPrac
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "3. What is a mnemonic?",
         options: [
@@ -2498,11 +2560,10 @@ final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. When taking notes while a teacher is speaking, you should:",
+        question:
+            "4. When taking notes while a teacher is speaking, you should:",
         options: [
           "Try to write down every single word.",
           "Only write down the jokes the teacher tells.",
@@ -2511,9 +2572,7 @@ final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "5. What does it mean to organize ideas in note-taking?",
         options: [
@@ -2524,15 +2583,17 @@ final IndependentPracticeModel s4ss2Lesson5IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss2Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L6/ENGLISH JHS1 S4 SS2 L6 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is the best heading for a school notice?",
+        question:
+            "1. Which of the following is the best heading for a school notice?",
         options: [
           "Something is happening",
           "DRAMA CLUB ANNOUNCEMENT",
@@ -2541,9 +2602,7 @@ final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. What does 'Visual Hierarchy' mean in poster design?",
         options: [
@@ -2554,11 +2613,10 @@ final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. When designing a notice for a voluntary cleaning exercise, what tone should you use?",
+        question:
+            "3. When designing a notice for a voluntary cleaning exercise, what tone should you use?",
         options: [
           "Silly and joking",
           "Angry and shouting",
@@ -2567,11 +2625,10 @@ final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which detail is essential for a poster about a football match?",
+        question:
+            "4. Which detail is essential for a poster about a football match?",
         options: [
           "The name of the referee's dog.",
           "The date and time of the kick-off.",
@@ -2580,9 +2637,7 @@ final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "5. Why are bullet points useful on a notice?",
         options: [
@@ -2593,12 +2648,13 @@ final IndependentPracticeModel s4ss2Lesson6IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss2Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L7/ENGLISH JHS1 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is the main purpose of the by-line in an article?",
@@ -2610,11 +2666,10 @@ final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Why is it important to use electronic resources like web pages when researching?",
+        question:
+            "2. Why is it important to use electronic resources like web pages when researching?",
         options: [
           "Because books are no longer useful.",
           "To find the most up-to-date information and diverse views.",
@@ -2623,11 +2678,10 @@ final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. When writing an article about gender and inclusion, you should:",
+        question:
+            "3. When writing an article about gender and inclusion, you should:",
         options: [
           "Only talk about boys' experiences.",
           "Ignore the topic as it is too difficult.",
@@ -2636,11 +2690,10 @@ final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a 'call to action' suitable for a conclusion?",
+        question:
+            "4. Which of these is a 'call to action' suitable for a conclusion?",
         options: [
           "Once upon a time, there was a school.",
           "I hope you enjoyed reading this.",
@@ -2649,11 +2702,10 @@ final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "5. Sorting and classifying ideas during the planning stage helps to:",
+        question:
+            "5. Sorting and classifying ideas during the planning stage helps to:",
         options: [
           "Make the article as long as possible.",
           "Ensure the article is logically organised and easy to follow.",
@@ -2662,12 +2714,13 @@ final IndependentPracticeModel s4ss2Lesson7IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss2Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS2 L8/ENGLISH JHS1 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Why should you avoid long paragraphs in a dialogue?",
@@ -2679,9 +2732,7 @@ final IndependentPracticeModel s4ss2Lesson8IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Which sentence is punctuated correctly?",
         options: [
@@ -2692,11 +2743,10 @@ final IndependentPracticeModel s4ss2Lesson8IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. What does it mean to be consistent with characters' voices?",
+        question:
+            "3. What does it mean to be consistent with characters' voices?",
         options: [
           "Everyone in the story should speak exactly the same.",
           "A character should maintain their personality and style of speech.",
@@ -2705,24 +2755,17 @@ final IndependentPracticeModel s4ss2Lesson8IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. In a dialogue script, what usually follows the character's name?",
-        options: [
-          "A full stop",
-          "A question mark",
-          "A colon (:)",
-          "A comma"
-        ],
+        question:
+            "4. In a dialogue script, what usually follows the character's name?",
+        options: ["A full stop", "A question mark", "A colon (:)", "A comma"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "5. \"Say the dialogue out loud\" is a good strategy because:",
+        question:
+            "5. \"Say the dialogue out loud\" is a good strategy because:",
         options: [
           "It helps you check if the conversation sounds natural and flows well.",
           "It helps you practice your acting skills.",
@@ -2731,15 +2774,17 @@ final IndependentPracticeModel s4ss2Lesson8IndependentQuizData = IndependentPrac
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s4ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S4 SS3 L1/ENGLISH JHS1 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a 'trigger' to help make your notes more memorable?",
+        question:
+            "1. Which of these is a 'trigger' to help make your notes more memorable?",
         options: [
           "Copying the entire table exactly.",
           "Using small drawings or different colors.",
@@ -2748,11 +2793,10 @@ final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is the purpose of checking 'headings' in a data table?",
+        question:
+            "2. What is the purpose of checking 'headings' in a data table?",
         options: [
           "To see who wrote the document.",
           "To find the date of publication.",
@@ -2761,11 +2805,10 @@ final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. After writing a description of a graph, why should you proofread your work?",
+        question:
+            "3. After writing a description of a graph, why should you proofread your work?",
         options: [
           "To make the text longer.",
           "To ensure the writing makes sense and is accurate.",
@@ -2774,11 +2817,10 @@ final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. How can you represent data visually other than using a table?",
+        question:
+            "4. How can you represent data visually other than using a table?",
         options: [
           "By writing a long letter.",
           "By creating a flow chart or illustration.",
@@ -2787,53 +2829,36 @@ final IndependentPracticeModel s4ss3Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
 
-final IndependentPracticeModel s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s5ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S5 SS1 L1/ENGLISH JHS1 S5 SS1 L1 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In the story Sosu and the Bukari Boys, the events take place in a local Ghanaian community. Which literary element does this describe?",
-        options: [
-          "Plot",
-          "Character",
-          "Setting",
-          "Climax"
-        ],
+        question:
+            "1. In the story Sosu and the Bukari Boys, the events take place in a local Ghanaian community. Which literary element does this describe?",
+        options: ["Plot", "Character", "Setting", "Climax"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. If you are describing the \"most exciting part\" or the \"turning point\" of a story like The Generous Hunter, which part of the plot are you identifying?",
-        options: [
-          "Introduction",
-          "Climax",
-          "Resolution",
-          "Setting"
-        ],
+        question:
+            "2. If you are describing the \"most exciting part\" or the \"turning point\" of a story like The Generous Hunter, which part of the plot are you identifying?",
+        options: ["Introduction", "Climax", "Resolution", "Setting"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. In The Old Man and His Children, the old man uses sticks to teach his sons a lesson about unity. The old man and his sons are examples of:",
-        options: [
-          "Settings",
-          "Plots",
-          "Narrators",
-          "Characters"
-        ],
+        question:
+            "3. In The Old Man and His Children, the old man uses sticks to teach his sons a lesson about unity. The old man and his sons are examples of:",
+        options: ["Settings", "Plots", "Narrators", "Characters"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
         question: "4. Which of these is an example of a setting?",
         options: [
@@ -2844,11 +2869,10 @@ final IndependentPracticeModel s5ss1Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "5. When we compare the plot of two different stories, what are we looking at?",
+        question:
+            "5. When we compare the plot of two different stories, what are we looking at?",
         options: [
           "The names of the people in the stories",
           "The sequence of events that happen in both",
@@ -2857,26 +2881,21 @@ final IndependentPracticeModel s5ss1Lesson1IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s5ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "\"The Kejetia market is like a maze.\" This sentence is an example of:",
-        options: [
-          "Personification",
-          "Simile",
-          "Alliteration",
-          "Metaphor"
-        ],
+        question:
+            "\"The Kejetia market is like a maze.\" This sentence is an example of:",
+        options: ["Personification", "Simile", "Alliteration", "Metaphor"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Which of the following is an example of alliteration?",
         options: [
@@ -2887,37 +2906,23 @@ final IndependentPracticeModel s5ss1Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. When a poet writes \"the engine coughed and died,\" which device are they using?",
-        options: [
-          "Personification",
-          "Assonance",
-          "Simile",
-          "Metaphor"
-        ],
+        question:
+            "3. When a poet writes \"the engine coughed and died,\" which device are they using?",
+        options: ["Personification", "Assonance", "Simile", "Metaphor"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "4. \"Life is a journey.\" This is an example of a:",
-        options: [
-          "Simile",
-          "Personification",
-          "Metaphor",
-          "Alliteration"
-        ],
+        options: ["Simile", "Personification", "Metaphor", "Alliteration"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "5. What is the main difference between a simile and a metaphor?",
+        question:
+            "5. What is the main difference between a simile and a metaphor?",
         options: [
           "A simile uses \"like\" or \"as,\" but a metaphor does not.",
           "A metaphor uses \"like\" or \"as,\" but a simile does not.",
@@ -2926,39 +2931,28 @@ final IndependentPracticeModel s5ss1Lesson2IndependentQuizData = IndependentPrac
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel s5ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS1 S5 SS1 L3/ENGLISH JHS1 S5 SS1 L3 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which type of oral narrative explains the religious origins of the world or the actions of gods?",
-        options: [
-          "Folktale",
-          "Legend",
-          "Myth",
-          "Lullaby"
-        ],
+        question:
+            "1. Which type of oral narrative explains the religious origins of the world or the actions of gods?",
+        options: ["Folktale", "Legend", "Myth", "Lullaby"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. A story about the historical bravery of Yaa Asantewaa during a war is best described as a:",
-        options: [
-          "Myth",
-          "Legend",
-          "Dirge",
-          "Folktale"
-        ],
+        question:
+            "2. A story about the historical bravery of Yaa Asantewaa during a war is best described as a:",
+        options: ["Myth", "Legend", "Dirge", "Folktale"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. What is the main purpose of a lullaby?",
         options: [
@@ -2969,11 +2963,10 @@ final IndependentPracticeModel s5ss1Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which of these is an example of traditional drama in Ghana?",
+        question:
+            "4. Which of these is an example of traditional drama in Ghana?",
         options: [
           "Reading a textbook in a library",
           "A puberty rite ceremony like Dipo",
@@ -2982,9 +2975,7 @@ final IndependentPracticeModel s5ss1Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "5. Oral literature is primarily passed down through:",
         options: [
@@ -2995,12 +2986,12 @@ final IndependentPracticeModel s5ss1Lesson3IndependentQuizData = IndependentPrac
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
 
-final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS2 S1 SS1 L1/6. Independent Practice.m4a',
   questions: [
@@ -3058,7 +3049,8 @@ final IndependentPracticeModel jhs2s1ss1Lesson1IndependentQuizData = Independent
             "When someone stops talking and looks at you expectantly, it usually means they are giving you the turn to speak or respond."),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/2. JHS2 S1 SS1 L2/7. Independent Practice.m4a',
   questions: [
@@ -3115,7 +3107,8 @@ final IndependentPracticeModel jhs2s1ss1Lesson2IndependentQuizData = Independent
             "We use 'Honourable' to show respect and to use the correct formal register when speaking to a government official."),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/3. JHS2 S1 SS1 L3/7. Independent Practice.m4a',
   questions: [
@@ -3177,7 +3170,8 @@ final IndependentPracticeModel jhs2s1ss1Lesson3IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/4. JHS2 S1 SS1 L4/7. Independent Practice.m4a',
   questions: [
@@ -3229,7 +3223,8 @@ final IndependentPracticeModel jhs2s1ss1Lesson4IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/5. JHS2 S1 SS1 L5/7. Independent Practice.m4a',
   questions: [
@@ -3289,7 +3284,8 @@ final IndependentPracticeModel jhs2s1ss1Lesson5IndependentQuizData = Independent
   ],
 );
 
-final IndependentPracticeModel jhs2s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/6. JHS2 S1 SS2 L1/6. Independent Practice.m4a',
   questions: [
@@ -3345,7 +3341,8 @@ final IndependentPracticeModel jhs2s1ss2Lesson1IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/7. JHS2 S1 SS2 L2/6. Independent Practice.m4a',
   questions: [
@@ -3408,7 +3405,8 @@ final IndependentPracticeModel jhs2s1ss2Lesson2IndependentQuizData = Independent
   ],
 );
 
-final IndependentPracticeModel jhs2s1ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/8. JHS2 S1 SS3 L1/6. Independent Practice.m4a',
   questions: [
@@ -3448,7 +3446,8 @@ final IndependentPracticeModel jhs2s1ss3Lesson1IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/9. JHS2 S1 SS3 L2/6. Independent Practice.m4a',
   questions: [
@@ -3491,7 +3490,8 @@ final IndependentPracticeModel jhs2s1ss3Lesson2IndependentQuizData = Independent
     ),
   ],
 );
-final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/10. JHS2 S1 SS3 L3/6. Independent Practice.m4a',
   questions: [
@@ -3542,11 +3542,14 @@ final IndependentPracticeModel jhs2s1ss3Lesson3IndependentQuizData = Independent
   ],
 );
 
-final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l1/7. independent practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs2 s2 ss1 l1/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. You are reading a text about \"The Smelting of Iron at Tatale.\" Which detail would create the strongest visual image in your mind?",
+        question:
+            "1. You are reading a text about \"The Smelting of Iron at Tatale.\" Which detail would create the strongest visual image in your mind?",
         options: [
           "Iron ore has been mined for many decades.",
           "The process takes place in different regions of the country.",
@@ -3555,11 +3558,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The description of red-hot iron flowing like glowing lava creates the strongest mental image."
-    ),
-
+        explanation:
+            "The description of red-hot iron flowing like glowing lava creates the strongest mental image."),
     IndependentPracticeQuestion(
-        question: "2. If you are monitoring your understanding and realize you do not know the basic facts of a paragraph, what should you do?",
+        question:
+            "2. If you are monitoring your understanding and realize you do not know the basic facts of a paragraph, what should you do?",
         options: [
           "Read faster to get to the end of the chapter.",
           "Stop, re-read the section closely to find the basic information, and fix your mental picture.",
@@ -3568,11 +3571,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Good readers monitor their understanding by stopping and rereading when something is unclear."
-    ),
-
+        explanation:
+            "Good readers monitor their understanding by stopping and rereading when something is unclear."),
     IndependentPracticeQuestion(
-        question: "3. Text: \"To stop coastal erosion in Keta, the government constructed a massive sea defense wall. They placed thousands of heavy, interlocking volcanic rocks along the shoreline to break the force of the giant Atlantic waves.\" Which is a complex detail explaining how the wall works?",
+        question:
+            "3. Text: \"To stop coastal erosion in Keta, the government constructed a massive sea defense wall. They placed thousands of heavy, interlocking volcanic rocks along the shoreline to break the force of the giant Atlantic waves.\" Which is a complex detail explaining how the wall works?",
         options: [
           "The wall is located along the shoreline in Keta.",
           "The government funded the project.",
@@ -3581,11 +3584,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "This option explains the mechanism by which the sea defense wall reduces wave energy."
-    ),
-
+        explanation:
+            "This option explains the mechanism by which the sea defense wall reduces wave energy."),
     IndependentPracticeQuestion(
-        question: "4. Why is underlining main ideas a helpful strategy when reading non-fiction?",
+        question:
+            "4. Why is underlining main ideas a helpful strategy when reading non-fiction?",
         options: [
           "It makes the text look colourful on your iPad screen.",
           "It highlights the core ideas so you can track how the text is structured.",
@@ -3594,15 +3597,18 @@ final IndependentPracticeModel jhs2s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Underlining main ideas helps readers identify and organize the most important information."
-    ),
+        explanation:
+            "Underlining main ideas helps readers identify and organize the most important information."),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. An article is titled \"The Rise of Electric Tro-tros in Kumasi.\" Before reading, what is a \"thought-provoking\" question you should ask?",
+        question:
+            "1. An article is titled \"The Rise of Electric Tro-tros in Kumasi.\" Before reading, what is a \"thought-provoking\" question you should ask?",
         options: [
           "How many wheels does a tro-tro usually have?",
           "Where can I buy a cheap bicycle in Kumasi?",
@@ -3611,11 +3617,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "How will charging stations work in a busy station like Kejetia?"
-    ),
-
+        explanation:
+            "How will charging stations work in a busy station like Kejetia?"),
     IndependentPracticeQuestion(
-        question: "2. If you are reading about \"Traditional Ghanaian Architecture,\" which prior knowledge would be most helpful?",
+        question:
+            "2. If you are reading about \"Traditional Ghanaian Architecture,\" which prior knowledge would be most helpful?",
         options: [
           "Knowing the rules of a local football match.",
           "Understanding how mud huts and thatch roofs are built in the village.",
@@ -3624,11 +3630,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Understanding how mud huts and thatch roofs are built in the village."
-    ),
-
+        explanation:
+            "Understanding how mud huts and thatch roofs are built in the village."),
     IndependentPracticeQuestion(
-        question: "3. A news report begins: \"Heavy rains have caused the Odaw River to overflow its banks.\" What is the most logical prediction for the next sentence?",
+        question:
+            "3. A news report begins: \"Heavy rains have caused the Odaw River to overflow its banks.\" What is the most logical prediction for the next sentence?",
         options: [
           "Residents in nearby areas are being warned of potential flooding.",
           "The government is planning to build a new airport in Tamale.",
@@ -3637,11 +3643,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Residents in nearby areas are being warned of potential flooding."
-    ),
-
+        explanation:
+            "Residents in nearby areas are being warned of potential flooding."),
     IndependentPracticeQuestion(
-        question: "4. You predict that a text about \"Solar Energy in Ghana\" will talk about the high cost of panels. After reading, you find it only talks about the benefits for hospitals. What should you do?",
+        question:
+            "4. You predict that a text about \"Solar Energy in Ghana\" will talk about the high cost of panels. After reading, you find it only talks about the benefits for hospitals. What should you do?",
         options: [
           "Stop reading because your prediction was wrong.",
           "Ignore the text and stick to your own opinion.",
@@ -3650,15 +3656,18 @@ final IndependentPracticeModel jhs2s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Adjust your understanding to focus on the medical benefits of solar power."
-    ),
+        explanation:
+            "Adjust your understanding to focus on the medical benefits of solar power."),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which type of question asks you to use your own life experiences rather than the text?",
+        question:
+            "1. Which type of question asks you to use your own life experiences rather than the text?",
         options: [
           "Right There",
           "Think and Search",
@@ -3667,11 +3676,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
-        question: "2. You are reading a science text about \"The Life Cycle of a Mosquito.\" What is a good \"Think and Search\" question?",
+        question:
+            "2. You are reading a science text about \"The Life Cycle of a Mosquito.\" What is a good \"Think and Search\" question?",
         options: [
           "What color is a mosquito?",
           "What are the four stages of the cycle described in the passage?",
@@ -3680,11 +3688,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. In a text about the \"Year of Return,\" the author mentions that thousands of people visited Ghana. A \"Right There\" question would be:",
+        question:
+            "3. In a text about the \"Year of Return,\" the author mentions that thousands of people visited Ghana. A \"Right There\" question would be:",
         options: [
           "Why did people want to visit?",
           "How did the visitors feel?",
@@ -3693,11 +3700,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. If a question asks you to \"Relate the key words in the question to the text,\" what are you doing?",
+        question:
+            "4. If a question asks you to \"Relate the key words in the question to the text,\" what are you doing?",
         options: [
           "Making a drawing.",
           "Monitoring your comprehension.",
@@ -3706,26 +3712,21 @@ final IndependentPracticeModel jhs2s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which feature would you use to find the definition of a bold word used in the text?",
-        options: [
-          "Table of Contents",
-          "Glossary",
-          "Index",
-          "Heading"
-        ],
+        question:
+            "1. Which feature would you use to find the definition of a bold word used in the text?",
+        options: ["Table of Contents", "Glossary", "Index", "Heading"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Why do authors use Bold or Italic text in non-fiction?",
         options: [
@@ -3736,11 +3737,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. You want to see a list of all the chapters in your \"Social Studies\" book. Where should you look?",
+        question:
+            "3. You want to see a list of all the chapters in your \"Social Studies\" book. Where should you look?",
         options: [
           "The Index",
           "The Caption",
@@ -3749,9 +3749,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
         question: "4. How does a heading help you as a reader?",
         options: [
@@ -3762,15 +3760,17 @@ final IndependentPracticeModel jhs2s2ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"The student's handwriting was illegible; the teacher could not read a single word of the essay.\" What does illegible mean?",
+        question:
+            "1. \"The student's handwriting was illegible; the teacher could not read a single word of the essay.\" What does illegible mean?",
         options: [
           "Very beautiful",
           "Difficult or impossible to read",
@@ -3779,11 +3779,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. \"Unlike the dilapidated old school building, the new one was strong and modern.\" What clue is used here?",
+        question:
+            "2. \"Unlike the dilapidated old school building, the new one was strong and modern.\" What clue is used here?",
         options: [
           "A synonym",
           "An example",
@@ -3792,11 +3791,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. \"In addition,\" \"Furthermore,\" and \"Moreover\" are examples of:",
+        question:
+            "3. \"In addition,\" \"Furthermore,\" and \"Moreover\" are examples of:",
         options: [
           "Topic sentences",
           "Cohesive devices",
@@ -3805,9 +3803,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. Which of these is a \"Topic Sentence\"?",
         options: [
@@ -3818,15 +3814,17 @@ final IndependentPracticeModel jhs2s2ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Why is silent reading often better for comprehension than reading aloud?",
+        question:
+            "1. Why is silent reading often better for comprehension than reading aloud?",
         options: [
           "It is faster and allows the brain to focus entirely on meaning.",
           "It is more fun to do with friends.",
@@ -3835,11 +3833,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "2. If a question asks you to \"compare\" two ideas in a text, what should you do?",
+        question:
+            "2. If a question asks you to \"compare\" two ideas in a text, what should you do?",
         options: [
           "Only look at the first sentence.",
           "Look for ways the ideas are similar and ways they are different.",
@@ -3848,11 +3845,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. You are reading a passage about the \"Success of Ghana’s National Health Insurance Scheme.\" What would be a complex question to ask?",
+        question:
+            "3. You are reading a passage about the \"Success of Ghana’s National Health Insurance Scheme.\" What would be a complex question to ask?",
         options: [
           "What year did the scheme start?",
           "What does the acronym NHIS stand for?",
@@ -3861,11 +3857,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. When answering a complex question, what is the best strategy if you are stuck?",
+        question:
+            "4. When answering a complex question, what is the best strategy if you are stuck?",
         options: [
           "Guess any answer to finish quickly.",
           "Skip the question and move to the next.",
@@ -3874,15 +3869,17 @@ final IndependentPracticeModel jhs2s2ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Claim: The forest in the story is dangerous. Which sentence is the best evidence?",
+        question:
+            "1. Claim: The forest in the story is dangerous. Which sentence is the best evidence?",
         options: [
           "The forest was full of tall, green trees.",
           "Many people went there to pick mushrooms.",
@@ -3891,11 +3888,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. If you use the phrase \"The author states that...\" what are you doing?",
+        question:
+            "2. If you use the phrase \"The author states that...\" what are you doing?",
         options: [
           "Writing a new story.",
           "Citing textual evidence.",
@@ -3904,11 +3900,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Text: \"Ama's eyes filled with tears as she looked at her broken pottery.\" Which is the best interpretation?",
+        question:
+            "3. Text: \"Ama's eyes filled with tears as she looked at her broken pottery.\" Which is the best interpretation?",
         options: [
           "Ama is very angry at her pottery.",
           "Ama is upset because her hard work was destroyed.",
@@ -3917,9 +3912,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. Why is it important to provide evidence in your answers?",
         options: [
@@ -3930,15 +3923,17 @@ final IndependentPracticeModel jhs2s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. A text describes how a village built a new library by everyone donating a few cedis. What is a good theme for this?",
+        question:
+            "1. A text describes how a village built a new library by everyone donating a few cedis. What is a good theme for this?",
         options: [
           "Reading is difficult.",
           "Many small contributions can achieve a big goal.",
@@ -3947,11 +3942,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. If the theme of a story is \"Honesty is the best policy,\" which situation shows this theme in action?",
+        question:
+            "2. If the theme of a story is \"Honesty is the best policy,\" which situation shows this theme in action?",
         options: [
           "A student hides a broken window so they don't get in trouble.",
           "A trader tells a customer the true weight of the fish, even if it means a lower price.",
@@ -3960,11 +3954,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Which of these is a supporting detail for the main idea: \"Ghana is a leader in cocoa production\"?",
+        question:
+            "3. Which of these is a supporting detail for the main idea: \"Ghana is a leader in cocoa production\"?",
         options: [
           "Ghana is located in West Africa.",
           "Many people in Ghana enjoy eating fufu.",
@@ -3973,9 +3966,7 @@ final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. Why do we \"apply\" themes to different situations?",
         options: [
@@ -3986,15 +3977,17 @@ final IndependentPracticeModel jhs2s2ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L8/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. An article is titled \"Why Every Student Should Learn to Code.\" What is the author’s likely point of view?",
+        question:
+            "1. An article is titled \"Why Every Student Should Learn to Code.\" What is the author’s likely point of view?",
         options: [
           "Technology is a waste of time.",
           "Coding is a valuable skill for the future.",
@@ -4003,11 +3996,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. If a text mentions that \"Street hawkers were cleared from the pavement to make the city look tidy,\" who would have a negative point of view of this action?",
+        question:
+            "2. If a text mentions that \"Street hawkers were cleared from the pavement to make the city look tidy,\" who would have a negative point of view of this action?",
         options: [
           "A tourist visiting the city.",
           "The city authorities.",
@@ -4016,11 +4008,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. Which phrase is used to show a connection between the text and your life?",
+        question:
+            "3. Which phrase is used to show a connection between the text and your life?",
         options: [
           "\"The author says...\"",
           "\"In my experience in my community...\"",
@@ -4029,11 +4020,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Why should a reader identify \"different viewpoints\" in a text?",
+        question:
+            "4. Why should a reader identify \"different viewpoints\" in a text?",
         options: [
           "To make the reading take longer.",
           "To understand the complexity of an issue and see all sides.",
@@ -4042,15 +4032,17 @@ final IndependentPracticeModel jhs2s2ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L9/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. The prefix \"re-\" usually means \"again.\" What does it mean to reforest a part of the Ashanti region?",
+        question:
+            "1. The prefix \"re-\" usually means \"again.\" What does it mean to reforest a part of the Ashanti region?",
         options: [
           "To cut down all the trees.",
           "To plant trees again where they used to be.",
@@ -4059,37 +4051,24 @@ final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. The root word is \"Employ.\" Which word describes a person who works for a company?",
-        options: [
-          "Employer",
-          "Employment",
-          "Employee",
-          "Unemployed"
-        ],
+        question:
+            "2. The root word is \"Employ.\" Which word describes a person who works for a company?",
+        options: ["Employer", "Employment", "Employee", "Unemployed"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. Which suffix would you add to the word \"Organize\" to describe a group like the \"World Health Organization\"?",
-        options: [
-          "-ly",
-          "-ness",
-          "-ation",
-          "-ful"
-        ],
+        question:
+            "3. Which suffix would you add to the word \"Organize\" to describe a group like the \"World Health Organization\"?",
+        options: ["-ly", "-ness", "-ation", "-ful"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. In the sentence \"The Chief spoke wisely to the villagers,\" what does the suffix \"-ly\" tell us?",
+        question:
+            "4. In the sentence \"The Chief spoke wisely to the villagers,\" what does the suffix \"-ly\" tell us?",
         options: [
           "It tells us who spoke.",
           "It tells us how the Chief spoke.",
@@ -4098,41 +4077,31 @@ final IndependentPracticeModel jhs2s2ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson11IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson11IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S2 SS1 L10/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which word best fits a historical context about the end of British rule?",
-        options: [
-          "Shopping",
-          "Independence",
-          "Weather",
-          "Football"
-        ],
+        question:
+            "1. Which word best fits a historical context about the end of British rule?",
+        options: ["Shopping", "Independence", "Weather", "Football"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. \"The Great Hall at the University of Ghana is an immense building.\" What is a synonym for immense?",
-        options: [
-          "Small",
-          "Very large",
-          "Colorful",
-          "Old"
-        ],
+        question:
+            "2. \"The Great Hall at the University of Ghana is an immense building.\" What is a synonym for immense?",
+        options: ["Small", "Very large", "Colorful", "Old"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. \"The Constitution is the supreme law of the land.\" What does supreme imply here?",
+        question:
+            "3. \"The Constitution is the supreme law of the land.\" What does supreme imply here?",
         options: [
           "It is the most important and highest power.",
           "It is a very long book.",
@@ -4141,11 +4110,10 @@ final IndependentPracticeModel jhs2s2ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "4. Which sentence uses the word \"diverse\" correctly in a cultural context?",
+        question:
+            "4. Which sentence uses the word \"diverse\" correctly in a cultural context?",
         options: [
           "Ghana has a diverse range of ethnic groups, each with unique traditions.",
           "I ate a diverse for lunch today.",
@@ -4154,15 +4122,17 @@ final IndependentPracticeModel jhs2s2ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel jhs2s2ss1Lesson12IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs2 s2 ss1 l12/7. independent practice.m4a',
+final IndependentPracticeModel jhs2s2ss1Lesson12IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs2 s2 ss1 l12/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What should you do with examples and stories when writing an objective summary of a paragraph?",
+        question:
+            "1. What should you do with examples and stories when writing an objective summary of a paragraph?",
         options: [
           "Copy them down exactly as they are written.",
           "Leave them out because they are supporting details, not the main idea.",
@@ -4171,11 +4141,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A summary includes only the main ideas. Supporting examples and stories are usually omitted."
-    ),
-
+        explanation:
+            "A summary includes only the main ideas. Supporting examples and stories are usually omitted."),
     IndependentPracticeQuestion(
-        question: "2. Passage: \"Traditional agriculture remains vital to Ghana's economy. Cocoa farming alone employs over eight hundred thousand farmers, while crops like cassava, yams, and plantains feed millions of families across the sixteen regions.\" What is the best central idea of this text?",
+        question:
+            "2. Passage: \"Traditional agriculture remains vital to Ghana's economy. Cocoa farming alone employs over eight hundred thousand farmers, while crops like cassava, yams, and plantains feed millions of families across the sixteen regions.\" What is the best central idea of this text?",
         options: [
           "Cassava is a delicious food used for making fufu.",
           "Ghana has exactly sixteen administrative regions.",
@@ -4184,11 +4154,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The paragraph focuses on the importance of traditional agriculture to Ghana's economy and food security."
-    ),
-
+        explanation:
+            "The paragraph focuses on the importance of traditional agriculture to Ghana's economy and food security."),
     IndependentPracticeQuestion(
-        question: "3. Why should you use your own words when writing a summary?",
+        question:
+            "3. Why should you use your own words when writing a summary?",
         options: [
           "To change the meaning of what the author wrote.",
           "To show that you understand the main ideas.",
@@ -4197,11 +4167,11 @@ final IndependentPracticeModel jhs2s2ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Using your own words demonstrates that you understand the author's main ideas."
-    ),
-
+        explanation:
+            "Using your own words demonstrates that you understand the author's main ideas."),
     IndependentPracticeQuestion(
-        question: "4. Which detail from a passage about the Akosombo Dam is unnecessary for a short summary paragraph?",
+        question:
+            "4. Which detail from a passage about the Akosombo Dam is unnecessary for a short summary paragraph?",
         options: [
           "The dam generates electricity for Ghana.",
           "The construction of the dam created the Volta Lake.",
@@ -4210,42 +4180,34 @@ final IndependentPracticeModel jhs2s2ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The engineer's hardhat is an unimportant detail that does not contribute to the main ideas of a summary."
-    ),
+        explanation:
+            "The engineer's hardhat is an unimportant detail that does not contribute to the main ideas of a summary."),
   ],
 );
 
-final IndependentPracticeModel jhs2s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l1/7. independent_practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs2 s3 ss1 l1/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. The market women bought several new ________ to store their items.",
-        options: [
-          "toolboxes",
-          "toolsbox",
-          "toolboxex",
-          "toolsboxes"
-        ],
+        question:
+            "1. The market women bought several new ________ to store their items.",
+        options: ["toolboxes", "toolsbox", "toolboxex", "toolsboxes"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "The correct plural of 'toolbox' is 'toolboxes'."
-    ),
-
+        explanation: "The correct plural of 'toolbox' is 'toolboxes'."),
     IndependentPracticeQuestion(
-        question: "2. Three ________ were direct witnesses to the trotro accident at the intersection.",
-        options: [
-          "passers-by",
-          "passer-bys",
-          "passers-bys",
-          "passer-byes"
-        ],
+        question:
+            "2. Three ________ were direct witnesses to the trotro accident at the intersection.",
+        options: ["passers-by", "passer-bys", "passers-bys", "passer-byes"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "In the compound noun 'passer-by', the main noun 'passer' takes the plural form: 'passers-by'."
-    ),
-
+        explanation:
+            "In the compound noun 'passer-by', the main noun 'passer' takes the plural form: 'passers-by'."),
     IndependentPracticeQuestion(
-        question: "3. Which of the following sentences uses the correct plural form of an open compound noun?",
+        question:
+            "3. Which of the following sentences uses the correct plural form of an open compound noun?",
         options: [
           "All the bus drivers went on strike today.",
           "All the buses driver went on strike today.",
@@ -4254,11 +4216,10 @@ final IndependentPracticeModel jhs2s3ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "The correct plural compound noun is 'bus drivers'."
-    ),
-
+        explanation: "The correct plural compound noun is 'bus drivers'."),
     IndependentPracticeQuestion(
-        question: "4. My two ________ gathered at our family house for the Akwasidae festival.",
+        question:
+            "4. My two ________ gathered at our family house for the Akwasidae festival.",
         options: [
           "brothers-in-laws",
           "brother-in-laws",
@@ -4267,54 +4228,42 @@ final IndependentPracticeModel jhs2s3ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The correct plural of 'brother-in-law' is 'brothers-in-law'."
-    ),
+        explanation:
+            "The correct plural of 'brother-in-law' is 'brothers-in-law'."),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l2/7. independent practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs2 s3 ss1 l2/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. The carpenter ________ repaired our school desks did an excellent job.",
-        options: [
-          "which",
-          "whom",
-          "whose",
-          "who"
-        ],
+        question:
+            "1. The carpenter ________ repaired our school desks did an excellent job.",
+        options: ["which", "whom", "whose", "who"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "'Who' is the correct relative pronoun because it refers to the subject (the carpenter)."
-    ),
-
+        explanation:
+            "'Who' is the correct relative pronoun because it refers to the subject (the carpenter)."),
     IndependentPracticeQuestion(
-        question: "2. This is the bicycle ________ my father bought for me from the market.",
-        options: [
-          "who",
-          "that",
-          "whom",
-          "whose"
-        ],
+        question:
+            "2. This is the bicycle ________ my father bought for me from the market.",
+        options: ["who", "that", "whom", "whose"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'That' correctly introduces a relative clause referring to a thing (the bicycle)."
-    ),
-
+        explanation:
+            "'That' correctly introduces a relative clause referring to a thing (the bicycle)."),
     IndependentPracticeQuestion(
-        question: "3. The farmer, ________ tractor broke down yesterday, had to walk to his farm.",
-        options: [
-          "whose",
-          "which",
-          "that",
-          "who"
-        ],
+        question:
+            "3. The farmer, ________ tractor broke down yesterday, had to walk to his farm.",
+        options: ["whose", "which", "that", "who"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "'Whose' shows possession, indicating that the tractor belongs to the farmer."
-    ),
-
+        explanation:
+            "'Whose' shows possession, indicating that the tractor belongs to the farmer."),
     IndependentPracticeQuestion(
-        question: "4. Choose the correct relative pronoun to join these sentences: 'I found the key. It was lost.'",
+        question:
+            "4. Choose the correct relative pronoun to join these sentences: 'I found the key. It was lost.'",
         options: [
           "I found the key who was lost.",
           "I found the key whom was lost.",
@@ -4323,15 +4272,18 @@ final IndependentPracticeModel jhs2s3ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "'That' is the correct relative pronoun for referring to the thing (the key)."
-    ),
+        explanation:
+            "'That' is the correct relative pronoun for referring to the thing (the key)."),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l3/7. independent practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs2 s3 ss1 l3/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which sentence uses an adjective to describe a rural setting?",
+        question:
+            "1. Which sentence uses an adjective to describe a rural setting?",
         options: [
           "We walked through a noisy, congested street.",
           "We walked through a green, peaceful valley.",
@@ -4340,11 +4292,11 @@ final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Green' and 'peaceful' are adjectives that describe a typical rural setting."
-    ),
-
+        explanation:
+            "'Green' and 'peaceful' are adjectives that describe a typical rural setting."),
     IndependentPracticeQuestion(
-        question: "2. Identify the sentence that contrasts opposing sides using precise adjectives.",
+        question:
+            "2. Identify the sentence that contrasts opposing sides using precise adjectives.",
         options: [
           "The tall player passed the football to the other tall player.",
           "The aggressive attackers struggled against the disciplined defenders.",
@@ -4353,41 +4305,34 @@ final IndependentPracticeModel jhs2s3ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "'Aggressive' and 'disciplined' are precise adjectives that clearly contrast the two opposing sides."
-    ),
-
+        explanation:
+            "'Aggressive' and 'disciplined' are precise adjectives that clearly contrast the two opposing sides."),
     IndependentPracticeQuestion(
-        question: "3. \"The chief sat majestically on a ________ stool.\" Choose the most appropriate material adjective.",
-        options: [
-          "heavy",
-          "golden",
-          "historic",
-          "beautiful"
-        ],
+        question:
+            "3. \"The chief sat majestically on a ________ stool.\" Choose the most appropriate material adjective.",
+        options: ["heavy", "golden", "historic", "beautiful"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Golden' is a material adjective describing what the stool is made of or its material appearance."
-    ),
-
+        explanation:
+            "'Golden' is a material adjective describing what the stool is made of or its material appearance."),
     IndependentPracticeQuestion(
-        question: "4. In the sentence, \"The traditional priest wore a smock made of coarse fabric,\" the word \"coarse\" describes the:",
-        options: [
-          "Priest",
-          "Smock",
-          "Fabric",
-          "Traditional"
-        ],
+        question:
+            "4. In the sentence, \"The traditional priest wore a smock made of coarse fabric,\" the word \"coarse\" describes the:",
+        options: ["Priest", "Smock", "Fabric", "Traditional"],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "'Coarse' describes the texture of the fabric, making 'fabric' the correct answer."
-    ),
+        explanation:
+            "'Coarse' describes the texture of the fabric, making 'fabric' the correct answer."),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs2 s3 ss1 l4/7. independent practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs2 s3 ss1 l4/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Choose the future progressive form to complete the sentence: \"At this time tomorrow, we ________ our final English exam.\"",
+        question:
+            "1. Choose the future progressive form to complete the sentence: \"At this time tomorrow, we ________ our final English exam.\"",
         options: [
           "will write",
           "will be writing",
@@ -4396,11 +4341,11 @@ final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The future progressive ('will be writing') describes an action that will be in progress at a specific time in the future."
-    ),
-
+        explanation:
+            "The future progressive ('will be writing') describes an action that will be in progress at a specific time in the future."),
     IndependentPracticeQuestion(
-        question: "2. \"By the time the headteacher arrives, the students ________ cleaning the compound.\" Fill in the blank with the future perfect form.",
+        question:
+            "2. \"By the time the headteacher arrives, the students ________ cleaning the compound.\" Fill in the blank with the future perfect form.",
         options: [
           "will have finished",
           "will be finishing",
@@ -4409,11 +4354,11 @@ final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "The future perfect ('will have finished') shows an action that will be completed before another future event."
-    ),
-
+        explanation:
+            "The future perfect ('will have finished') shows an action that will be completed before another future event."),
     IndependentPracticeQuestion(
-        question: "3. Identify the tense of the bolded verb: \"By December, Ama will have been working at the bank for a whole year.\"",
+        question:
+            "3. Identify the tense of the bolded verb: \"By December, Ama will have been working at the bank for a whole year.\"",
         options: [
           "Future simple",
           "Future progressive",
@@ -4422,9 +4367,8 @@ final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 3,
         difficulty: "Medium",
-        explanation: "'Will have been working' is in the future perfect progressive tense because it emphasizes the duration of an action up to a future point."
-    ),
-
+        explanation:
+            "'Will have been working' is in the future perfect progressive tense because it emphasizes the duration of an action up to a future point."),
     IndependentPracticeQuestion(
         question: "4. Which sentence uses the future simple form correctly?",
         options: [
@@ -4435,28 +4379,25 @@ final IndependentPracticeModel jhs2s3ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The future simple tense is formed with 'will + base verb': 'will travel'."
-    ),
+        explanation:
+            "The future simple tense is formed with 'will + base verb': 'will travel'."),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Identify the adverb modifying an adjective in this sentence: \"The waakye was extremely spicy today.\"",
-        options: [
-          "Today",
-          "Extremely",
-          "Spicy",
-          "Waakye"
-        ],
+        question:
+            "1. Identify the adverb modifying an adjective in this sentence: \"The waakye was extremely spicy today.\"",
+        options: ["Today", "Extremely", "Spicy", "Waakye"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Extremely"
-    ),
-
+        explanation: "Extremely"),
     IndependentPracticeQuestion(
-        question: "2. In the phrase \"More than fifty students,\" the words \"more than\" are modifying:",
+        question:
+            "2. In the phrase \"More than fifty students,\" the words \"more than\" are modifying:",
         options: [
           "A cardinal numeral",
           "An indefinite pronoun",
@@ -4465,11 +4406,10 @@ final IndependentPracticeModel jhs2s3ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A cardinal numeral"
-    ),
-
+        explanation: "A cardinal numeral"),
     IndependentPracticeQuestion(
-        question: "3. Which sentence contains an adverb modifying another adverb?",
+        question:
+            "3. Which sentence contains an adverb modifying another adverb?",
         options: [
           "He ran very quickly.",
           "She is a very tall girl.",
@@ -4478,97 +4418,66 @@ final IndependentPracticeModel jhs2s3ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "He ran very quickly."
-    ),
-
+        explanation: "He ran very quickly."),
     IndependentPracticeQuestion(
-        question: "4. Choose the adverb that modifies a preposition in this sentence: \"The plane flew directly over the stadium.\"",
-        options: [
-          "Flew",
-          "Over",
-          "Directly",
-          "Stadium"
-        ],
+        question:
+            "4. Choose the adverb that modifies a preposition in this sentence: \"The plane flew directly over the stadium.\"",
+        options: ["Flew", "Over", "Directly", "Stadium"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Directly"
-    ),
+        explanation: "Directly"),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which preposition shows movement in this sentence: \"The cat jumped off the wall\"?",
-        options: [
-          "The",
-          "Cat",
-          "Off",
-          "Wall"
-        ],
+        question:
+            "1. Which preposition shows movement in this sentence: \"The cat jumped off the wall\"?",
+        options: ["The", "Cat", "Off", "Wall"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Off"
-    ),
-
+        explanation: "Off"),
     IndependentPracticeQuestion(
-        question: "2. Identify the preposition of time in this sentence: \"We will meet at four o'clock.\"",
-        options: [
-          "At",
-          "We",
-          "Meet",
-          "O'clock"
-        ],
+        question:
+            "2. Identify the preposition of time in this sentence: \"We will meet at four o'clock.\"",
+        options: ["At", "We", "Meet", "O'clock"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "At"
-    ),
-
+        explanation: "At"),
     IndependentPracticeQuestion(
-        question: "3. \"Kofi went into the bank.\" What does the preposition \"into\" represent?",
-        options: [
-          "Agent",
-          "Place",
-          "Instrument",
-          "Direction"
-        ],
+        question:
+            "3. \"Kofi went into the bank.\" What does the preposition \"into\" represent?",
+        options: ["Agent", "Place", "Instrument", "Direction"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Direction"
-    ),
-
+        explanation: "Direction"),
     IndependentPracticeQuestion(
-        question: "4. \"The house was built by my grandfather.\" The word \"by\" is a preposition of:",
-        options: [
-          "Instrument",
-          "Agent",
-          "Movement",
-          "Time"
-        ],
+        question:
+            "4. \"The house was built by my grandfather.\" The word \"by\" is a preposition of:",
+        options: ["Instrument", "Agent", "Movement", "Time"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Agent"
-    ),
+        explanation: "Agent"),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S3 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Direct: \"I am going to Kejetia,\" said Kwame. Reported: Kwame said that he _______ going to Kejetia.",
-        options: [
-          "is",
-          "was",
-          "were",
-          "am"
-        ],
+        question:
+            "1. Direct: \"I am going to Kejetia,\" said Kwame. Reported: Kwame said that he _______ going to Kejetia.",
+        options: ["is", "was", "were", "am"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "was"
-    ),
-
+        explanation: "was"),
     IndependentPracticeQuestion(
-        question: "2. Which is the correct reported version of \"Do you have a pen?\" asked Esi.",
+        question:
+            "2. Which is the correct reported version of \"Do you have a pen?\" asked Esi.",
         options: [
           "Esi asked if I had a pen.",
           "Esi asked do I have a pen?",
@@ -4577,11 +4486,10 @@ final IndependentPracticeModel jhs2s3ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Esi asked if I had a pen."
-    ),
-
+        explanation: "Esi asked if I had a pen."),
     IndependentPracticeQuestion(
-        question: "3. Report this news headline: The President said, \"I will visit the hospital.\"",
+        question:
+            "3. Report this news headline: The President said, \"I will visit the hospital.\"",
         options: [
           "The President said he visits the hospital.",
           "The President said I will visit the hospital.",
@@ -4590,9 +4498,7 @@ final IndependentPracticeModel jhs2s3ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The President said he would visit the hospital."
-    ),
-
+        explanation: "The President said he would visit the hospital."),
     IndependentPracticeQuestion(
         question: "4. \"When does the bus leave?\" reported becomes:",
         options: [
@@ -4603,71 +4509,48 @@ final IndependentPracticeModel jhs2s3ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "He asked when the bus left."
-    ),
+        explanation: "He asked when the bus left."),
   ],
 );
-final IndependentPracticeModel jhs2s3ss1Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s3ss1Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. \"The weather is very hot today, _______?\"",
-        options: [
-          "is it?",
-          "isn't it?",
-          "it is?",
-          "doesn't it?"
-        ],
+        options: ["is it?", "isn't it?", "it is?", "doesn't it?"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "isn't it?"
-    ),
-
+        explanation: "isn't it?"),
     IndependentPracticeQuestion(
         question: "2. \"You won't forget to bring the money, _______?\"",
-        options: [
-          "will you?",
-          "won't you?",
-          "do you?",
-          "can you?"
-        ],
+        options: ["will you?", "won't you?", "do you?", "can you?"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "will you?"
-    ),
-
+        explanation: "will you?"),
     IndependentPracticeQuestion(
         question: "3. \"They have finished the project, _______?\"",
-        options: [
-          "haven't they?",
-          "have they?",
-          "don't they?",
-          "did they?"
-        ],
+        options: ["haven't they?", "have they?", "don't they?", "did they?"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "haven't they?"
-    ),
-
+        explanation: "haven't they?"),
     IndependentPracticeQuestion(
         question: "4. \"Musa speaks Dagbani fluently, _______?\"",
-        options: [
-          "does he?",
-          "speak he?",
-          "doesn't he?",
-          "isn't he?"
-        ],
+        options: ["does he?", "speak he?", "doesn't he?", "isn't he?"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "doesn't he?"
-    ),
+        explanation: "doesn't he?"),
   ],
 );
-final IndependentPracticeModel jhs2s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS2 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s3ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S3 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which sentence correctly shows that a bicycle belongs to Akosua?",
+        question:
+            "1. Which sentence correctly shows that a bicycle belongs to Akosua?",
         options: [
           "Akosua's bicycle is new.",
           "Akosuas' bicycle is new.",
@@ -4676,11 +4559,10 @@ final IndependentPracticeModel jhs2s3ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Akosua's bicycle is new."
-    ),
-
+        explanation: "Akosua's bicycle is new."),
     IndependentPracticeQuestion(
-        question: "2. Choose the sentence that uses a colon correctly for time.",
+        question:
+            "2. Choose the sentence that uses a colon correctly for time.",
         options: [
           "The bus leaves at 6;30 am.",
           "The bus leaves at 6'30 am.",
@@ -4689,9 +4571,7 @@ final IndependentPracticeModel jhs2s3ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The bus leaves at 6:30 am."
-    ),
-
+        explanation: "The bus leaves at 6:30 am."),
     IndependentPracticeQuestion(
         question: "3. Which of these sentences uses a semi-colon correctly?",
         options: [
@@ -4702,39 +4582,27 @@ final IndependentPracticeModel jhs2s3ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "I like mangoes; I hate pawpaw."
-    ),
-
+        explanation: "I like mangoes; I hate pawpaw."),
     IndependentPracticeQuestion(
         question: "4. How do you write \"is not\" as a contraction?",
-        options: [
-          "Is'nt",
-          "Isnt'",
-          "Isn't",
-          "I'snt"
-        ],
+        options: ["Is'nt", "Isnt'", "Isn't", "I'snt"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Isn't"
-    ),
+        explanation: "Isn't"),
   ],
 );
-final IndependentPracticeModel jhs2s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS3 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s3ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S3 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which word is a synonym for 'Courageous' as used in a story about a Ghanaian hero?",
-        options: [
-          "Fearful",
-          "Brave",
-          "Quiet",
-          "Strong"
-        ],
+        question:
+            "1. Which word is a synonym for 'Courageous' as used in a story about a Ghanaian hero?",
+        options: ["Fearful", "Brave", "Quiet", "Strong"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Brave"
-    ),
-
+        explanation: "Brave"),
     IndependentPracticeQuestion(
         question: "2. Which of these pairs represents an antonym relationship?",
         options: [
@@ -4745,98 +4613,69 @@ final IndependentPracticeModel jhs2s3ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Generous : Stingy"
-    ),
-
+        explanation: "Generous : Stingy"),
     IndependentPracticeQuestion(
-        question: "3. Complete the analogy: 'Omo Tuo' is to 'Rice' as 'Banku' is to ________.",
-        options: [
-          "Yam",
-          "Corn",
-          "Soup",
-          "Fish"
-        ],
+        question:
+            "3. Complete the analogy: 'Omo Tuo' is to 'Rice' as 'Banku' is to ________.",
+        options: ["Yam", "Corn", "Soup", "Fish"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Corn"
-    ),
-
+        explanation: "Corn"),
     IndependentPracticeQuestion(
-        question: "4. Which word has the most positive connotation to describe someone who saves money?",
-        options: [
-          "Thrifty",
-          "Miserly",
-          "Stingy",
-          "Mean"
-        ],
+        question:
+            "4. Which word has the most positive connotation to describe someone who saves money?",
+        options: ["Thrifty", "Miserly", "Stingy", "Mean"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Thrifty"
-    ),
+        explanation: "Thrifty"),
   ],
 );
 
-final IndependentPracticeModel jhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/5.Independent Practice(updated).m4a',
+final IndependentPracticeModel jhs2s4ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS1 L1/5.Independent Practice(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which connector best completes this sentence? \"_____ the rain was heavy, the taxi driver arrived on time.\"",
-        options: [
-          "Because",
-          "Although",
-          "Unless",
-          "Since"
-        ],
+        question:
+            "1. Which connector best completes this sentence? \"_____ the rain was heavy, the taxi driver arrived on time.\"",
+        options: ["Because", "Although", "Unless", "Since"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Although is used to show contrast between two ideas."
-    ),
-
+        explanation: "Although is used to show contrast between two ideas."),
     IndependentPracticeQuestion(
-        question: "2. Choose the best pronoun to replace the underlined word: \"The girls finished their homework, so the girls went to play netball.\"",
-        options: [
-          "she",
-          "them",
-          "they",
-          "us"
-        ],
+        question:
+            "2. Choose the best pronoun to replace the underlined word: \"The girls finished their homework, so the girls went to play netball.\"",
+        options: ["she", "them", "they", "us"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The pronoun 'they' correctly replaces the plural noun 'the girls'."
-    ),
-
+        explanation:
+            "The pronoun 'they' correctly replaces the plural noun 'the girls'."),
     IndependentPracticeQuestion(
-        question: "3. Which word best connects these two ideas? \"I am saving my money _____ I can buy a new bicycle.\"",
-        options: [
-          "so that",
-          "although",
-          "unless",
-          "while"
-        ],
+        question:
+            "3. Which word best connects these two ideas? \"I am saving my money _____ I can buy a new bicycle.\"",
+        options: ["so that", "although", "unless", "while"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "'So that' expresses purpose or intention."
-    ),
-
+        explanation: "'So that' expresses purpose or intention."),
     IndependentPracticeQuestion(
-        question: "4. Choose the best word to show a result: \"The bridge was broken; _____, we had to take the long way round.\"",
-        options: [
-          "however",
-          "because",
-          "therefore",
-          "but"
-        ],
+        question:
+            "4. Choose the best word to show a result: \"The bridge was broken; _____, we had to take the long way round.\"",
+        options: ["however", "because", "therefore", "but"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "'Therefore' is used to show the result or consequence of a situation."
-    ),
+        explanation:
+            "'Therefore' is used to show the result or consequence of a situation."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/5.INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS1 L2/5.INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is an example of an anecdote hook for an essay on \"Honesty\"?",
+        question:
+            "1. Which of these is an example of an anecdote hook for an essay on \"Honesty\"?",
         options: [
           "Honesty is defined as being truthful at all times.",
           "My mother always says that honesty is the best policy.",
@@ -4845,22 +4684,16 @@ final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An anecdote hook begins with a short personal story to capture the reader's attention."
-    ),
-
+        explanation:
+            "An anecdote hook begins with a short personal story to capture the reader's attention."),
     IndependentPracticeQuestion(
-        question: "2. Which connector best shows a cause and effect relationship in an introduction?",
-        options: [
-          "Nevertheless",
-          "Consequently",
-          "Although",
-          "Provided that"
-        ],
+        question:
+            "2. Which connector best shows a cause and effect relationship in an introduction?",
+        options: ["Nevertheless", "Consequently", "Although", "Provided that"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Consequently' is used to show the result or effect of a cause."
-    ),
-
+        explanation:
+            "'Consequently' is used to show the result or effect of a cause."),
     IndependentPracticeQuestion(
         question: "3. What is the main purpose of an introductory paragraph?",
         options: [
@@ -4871,11 +4704,11 @@ final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An introductory paragraph should engage the reader and introduce the main topic."
-    ),
-
+        explanation:
+            "An introductory paragraph should engage the reader and introduce the main topic."),
     IndependentPracticeQuestion(
-        question: "4. Which sentence follows logically after: \"Computers have changed the way we learn\"?",
+        question:
+            "4. Which sentence follows logically after: \"Computers have changed the way we learn\"?",
         options: [
           "My uncle lives in a very large house in Kumasi.",
           "Therefore, many schools now use tablets in the classroom.",
@@ -4884,12 +4717,14 @@ final IndependentPracticeModel jhs2s4ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The second sentence logically follows by showing a result of computers changing the way we learn."
-    ),
+        explanation:
+            "The second sentence logically follows by showing a result of computers changing the way we learn."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/5. INDEPENDENT PRACTICE(Updated).m4a',
+final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS1 L3/5. INDEPENDENT PRACTICE(Updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following contains a relative clause?",
@@ -4901,11 +4736,11 @@ final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A relative clause gives more information about a noun and usually begins with words like 'that', 'which', or 'who'."
-    ),
-
+        explanation:
+            "A relative clause gives more information about a noun and usually begins with words like 'that', 'which', or 'who'."),
     IndependentPracticeQuestion(
-        question: "2. Identify the noun phrase in this sentence: \"The delicious hot jollof rice was finished quickly.\"",
+        question:
+            "2. Identify the noun phrase in this sentence: \"The delicious hot jollof rice was finished quickly.\"",
         options: [
           "was finished quickly",
           "finished quickly",
@@ -4914,11 +4749,11 @@ final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A noun phrase consists of a noun and the words that describe or modify it."
-    ),
-
+        explanation:
+            "A noun phrase consists of a noun and the words that describe or modify it."),
     IndependentPracticeQuestion(
-        question: "3. Which sentence is expanded using an adverbial phrase of time?",
+        question:
+            "3. Which sentence is expanded using an adverbial phrase of time?",
         options: [
           "He ran to the shop.",
           "He ran with his friend.",
@@ -4927,11 +4762,11 @@ final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The phrase 'before the sun rose' tells when the action happened, making it an adverbial phrase of time."
-    ),
-
+        explanation:
+            "The phrase 'before the sun rose' tells when the action happened, making it an adverbial phrase of time."),
     IndependentPracticeQuestion(
-        question: "4. In the sentence \"The girl **with the long braids** is my sister,\" the bold text is:",
+        question:
+            "4. In the sentence \"The girl **with the long braids** is my sister,\" the bold text is:",
         options: [
           "A relative clause",
           "An adjectival phrase",
@@ -4940,15 +4775,18 @@ final IndependentPracticeModel jhs2s4ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The phrase **with the long braids** describes the noun 'girl', so it is an adjectival phrase."
-    ),
+        explanation:
+            "The phrase **with the long braids** describes the noun 'girl', so it is an adjectival phrase."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L1/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these sentences is written in the first-person point of view?",
+        question:
+            "1. Which of these sentences is written in the first-person point of view?",
         options: [
           "Kwame went to the shop.",
           "I felt very excited.",
@@ -4957,35 +4795,24 @@ final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "First-person point of view uses pronouns such as 'I', 'me', and 'we'."
-    ),
-
+        explanation:
+            "First-person point of view uses pronouns such as 'I', 'me', and 'we'."),
     IndependentPracticeQuestion(
-        question: "2. Which word is an adverb used to describe how an action was carried out?",
-        options: [
-          "Beautiful",
-          "Quietly",
-          "Orange",
-          "Market"
-        ],
+        question:
+            "2. Which word is an adverb used to describe how an action was carried out?",
+        options: ["Beautiful", "Quietly", "Orange", "Market"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Quietly' is an adverb because it describes how an action is performed."
-    ),
-
+        explanation:
+            "'Quietly' is an adverb because it describes how an action is performed."),
     IndependentPracticeQuestion(
-        question: "3. Which connector is best used to show the final event in a sequence?",
-        options: [
-          "Finally",
-          "Suddenly",
-          "Initially",
-          "Meanwhile"
-        ],
+        question:
+            "3. Which connector is best used to show the final event in a sequence?",
+        options: ["Finally", "Suddenly", "Initially", "Meanwhile"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "'Finally' is used to introduce the last event in a sequence."
-    ),
-
+        explanation:
+            "'Finally' is used to introduce the last event in a sequence."),
     IndependentPracticeQuestion(
         question: "4. Which phrase uses a preposition to show the setting?",
         options: [
@@ -4996,41 +4823,34 @@ final IndependentPracticeModel jhs2s4ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "'Beside' is a preposition showing location, making 'Beside the Volta Lake' a phrase that describes the setting."
-    ),
+        explanation:
+            "'Beside' is a preposition showing location, making 'Beside the Volta Lake' a phrase that describes the setting."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L2/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which word best describes a market that is full of people and activity?",
-        options: [
-          "Ancient",
-          "Bustling",
-          "Boring",
-          "Silent"
-        ],
+        question:
+            "1. Which word best describes a market that is full of people and activity?",
+        options: ["Ancient", "Bustling", "Boring", "Silent"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Bustling' describes a place that is full of busy activity and people."
-    ),
-
+        explanation:
+            "'Bustling' describes a place that is full of busy activity and people."),
     IndependentPracticeQuestion(
-        question: "2. Identify the sensory word in this sentence: \"The shimmering lake looked like silver in the moonlight.\"",
-        options: [
-          "Looked",
-          "Lake",
-          "Shimmering",
-          "Like"
-        ],
+        question:
+            "2. Identify the sensory word in this sentence: \"The shimmering lake looked like silver in the moonlight.\"",
+        options: ["Looked", "Lake", "Shimmering", "Like"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "'Shimmering' is a sensory word because it helps the reader imagine how the lake looked."
-    ),
-
+        explanation:
+            "'Shimmering' is a sensory word because it helps the reader imagine how the lake looked."),
     IndependentPracticeQuestion(
-        question: "3. Which sentence uses an adverbial phrase to describe how someone moved?",
+        question:
+            "3. Which sentence uses an adverbial phrase to describe how someone moved?",
         options: [
           "The boy is tall.",
           "He ran with great speed.",
@@ -5039,11 +4859,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The phrase 'with great speed' is an adverbial phrase describing how he ran."
-    ),
-
+        explanation:
+            "The phrase 'with great speed' is an adverbial phrase describing how he ran."),
     IndependentPracticeQuestion(
-        question: "4. Which of these describes an event using a \"stellar\" adjective?",
+        question:
+            "4. Which of these describes an event using a \"stellar\" adjective?",
         options: [
           "The common rain fell.",
           "We had a stellar performance.",
@@ -5052,9 +4872,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Stellar' is an adjective meaning excellent or outstanding."
-    ),
-
+        explanation:
+            "'Stellar' is an adjective meaning excellent or outstanding."),
     IndependentPracticeQuestion(
         question: "5. Which prepositional phrase tells us where the bird is?",
         options: [
@@ -5065,28 +4884,26 @@ final IndependentPracticeModel jhs2s4ss2Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "'In the mango tree' is a prepositional phrase showing the bird's location."
-    ),
+        explanation:
+            "'In the mango tree' is a prepositional phrase showing the bird's location."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L3/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a mental verb used to convey a viewpoint?",
-        options: [
-          "Run",
-          "Believe",
-          "Jump",
-          "Write"
-        ],
+        question:
+            "1. Which of these is a mental verb used to convey a viewpoint?",
+        options: ["Run", "Believe", "Jump", "Write"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Believe' is a mental verb because it expresses a thought, opinion, or viewpoint."
-    ),
-
+        explanation:
+            "'Believe' is a mental verb because it expresses a thought, opinion, or viewpoint."),
     IndependentPracticeQuestion(
-        question: "2. What is the purpose of the \"Selling Points\" in an advertisement?",
+        question:
+            "2. What is the purpose of the \"Selling Points\" in an advertisement?",
         options: [
           "To list the names of all the shop employees.",
           "To provide the date the business started.",
@@ -5095,9 +4912,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Selling points highlight the advantages of a product and explain why it is better than competing products."
-    ),
-
+        explanation:
+            "Selling points highlight the advantages of a product and explain why it is better than competing products."),
     IndependentPracticeQuestion(
         question: "3. Which sentence is in the simple present tense?",
         options: [
@@ -5108,24 +4924,18 @@ final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The simple present tense describes actions or facts that are generally true or happen regularly."
-    ),
-
+        explanation:
+            "The simple present tense describes actions or facts that are generally true or happen regularly."),
     IndependentPracticeQuestion(
         question: "4. Which of these is a phrasal verb?",
-        options: [
-          "Beautiful",
-          "Quickly",
-          "Pick up",
-          "Large"
-        ],
+        options: ["Beautiful", "Quickly", "Pick up", "Large"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "'Pick up' is a phrasal verb because it combines a verb with a particle to create a new meaning."
-    ),
-
+        explanation:
+            "'Pick up' is a phrasal verb because it combines a verb with a particle to create a new meaning."),
     IndependentPracticeQuestion(
-        question: "5. In an advertisement for a football match, what would be an effective \"Call to Action\"?",
+        question:
+            "5. In an advertisement for a football match, what would be an effective \"Call to Action\"?",
         options: [
           "The grass is green.",
           "Many people like football.",
@@ -5134,15 +4944,18 @@ final IndependentPracticeModel jhs2s4ss2Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A call to action encourages the audience to take immediate action, such as buying tickets."
-    ),
+        explanation:
+            "A call to action encourages the audience to take immediate action, such as buying tickets."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L4/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the first thing you should do in a problem-solution paragraph?",
+        question:
+            "1. What is the first thing you should do in a problem-solution paragraph?",
         options: [
           "Ask for money.",
           "Clearly identify the problem.",
@@ -5151,9 +4964,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A problem-solution paragraph begins by clearly identifying the problem that needs to be solved."
-    ),
-
+        explanation:
+            "A problem-solution paragraph begins by clearly identifying the problem that needs to be solved."),
     IndependentPracticeQuestion(
         question: "2. If a solution is \"feasible,\" what does that mean?",
         options: [
@@ -5164,11 +4976,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A feasible solution is one that can realistically be carried out."
-    ),
-
+        explanation:
+            "A feasible solution is one that can realistically be carried out."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is a \"cost-effective\" solution for light not reaching a classroom?",
+        question:
+            "3. Which of these is a \"cost-effective\" solution for light not reaching a classroom?",
         options: [
           "Building a new school.",
           "Cleaning the windows and trimming nearby trees.",
@@ -5177,11 +4989,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Cleaning windows and trimming nearby trees is an affordable and effective way to let more light into a classroom."
-    ),
-
+        explanation:
+            "Cleaning windows and trimming nearby trees is an affordable and effective way to let more light into a classroom."),
     IndependentPracticeQuestion(
-        question: "4. Who might provide evidence or an \"expert opinion\" for a solution about school health?",
+        question:
+            "4. Who might provide evidence or an \"expert opinion\" for a solution about school health?",
         options: [
           "A student from another town.",
           "The school nurse or a local doctor.",
@@ -5190,9 +5002,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A school nurse or local doctor is a qualified expert who can provide reliable health advice."
-    ),
-
+        explanation:
+            "A school nurse or local doctor is a qualified expert who can provide reliable health advice."),
     IndependentPracticeQuestion(
         question: "5. What is an \"objection\" in writing?",
         options: [
@@ -5203,15 +5014,18 @@ final IndependentPracticeModel jhs2s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An objection is a reason someone may disagree with or question your proposed solution."
-    ),
+        explanation:
+            "An objection is a reason someone may disagree with or question your proposed solution."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L5/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which salutation is most appropriate for a letter to a Headteacher whose name you do not know?",
+        question:
+            "1. Which salutation is most appropriate for a letter to a Headteacher whose name you do not know?",
         options: [
           "Hi Teacher",
           "Dear Sir/Madam",
@@ -5220,9 +5034,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Dear Sir/Madam\" is the correct formal salutation when the recipient's name is unknown."
-    ),
-
+        explanation:
+            "\"Dear Sir/Madam\" is the correct formal salutation when the recipient's name is unknown."),
     IndependentPracticeQuestion(
         question: "2. What is the main purpose of a formal \"Notice\"?",
         options: [
@@ -5233,11 +5046,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A formal notice is used to inform people about important rules, events, or schedules."
-    ),
-
+        explanation:
+            "A formal notice is used to inform people about important rules, events, or schedules."),
     IndependentPracticeQuestion(
-        question: "3. Which sign-off should be used if you started your letter with \"Dear Mr. Mensah\"?",
+        question:
+            "3. Which sign-off should be used if you started your letter with \"Dear Mr. Mensah\"?",
         options: [
           "Yours faithfully",
           "Yours sincerely",
@@ -5246,9 +5059,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Yours sincerely\" is the correct sign-off when you know the recipient's name."
-    ),
-
+        explanation:
+            "\"Yours sincerely\" is the correct sign-off when you know the recipient's name."),
     IndependentPracticeQuestion(
         question: "4. In an advertisement, the \"overt\" message is:",
         options: [
@@ -5259,11 +5071,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The overt message is the clear, direct message that is openly communicated."
-    ),
-
+        explanation:
+            "The overt message is the clear, direct message that is openly communicated."),
     IndependentPracticeQuestion(
-        question: "5. What should always be included at the bottom of a notice?",
+        question:
+            "5. What should always be included at the bottom of a notice?",
         options: [
           "The price of the notice.",
           "A list of all your hobbies.",
@@ -5272,26 +5084,23 @@ final IndependentPracticeModel jhs2s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A notice should end with the writer's name and position to show who issued it."
-    ),
+        explanation:
+            "A notice should end with the writer's name and position to show who issued it."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L6/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which paper size is most common for a small, hand-held flyer?",
-        options: [
-          "A1",
-          "A5",
-          "A0",
-          "A2"
-        ],
+        question:
+            "1. Which paper size is most common for a small, hand-held flyer?",
+        options: ["A1", "A5", "A0", "A2"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A5 is a common paper size for small hand-held flyers because it is compact and easy to distribute."
-    ),
-
+        explanation:
+            "A5 is a common paper size for small hand-held flyers because it is compact and easy to distribute."),
     IndependentPracticeQuestion(
         question: "2. What is the purpose of a \"Slogan\" on a poster?",
         options: [
@@ -5302,11 +5111,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A slogan is a short, memorable phrase designed to attract attention and communicate the main message."
-    ),
-
+        explanation:
+            "A slogan is a short, memorable phrase designed to attract attention and communicate the main message."),
     IndependentPracticeQuestion(
-        question: "3. In a brochure for a \"Cleaning Exercise,\" which of these is a benefit?",
+        question:
+            "3. In a brochure for a \"Cleaning Exercise,\" which of these is a benefit?",
         options: [
           "The exercise starts at 6:00 AM.",
           "We will use brooms and shovels.",
@@ -5315,11 +5124,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Cleaning stagnant water helps prevent mosquito breeding and reduces the risk of malaria."
-    ),
-
+        explanation:
+            "Cleaning stagnant water helps prevent mosquito breeding and reduces the risk of malaria."),
     IndependentPracticeQuestion(
-        question: "4. Which of these should be bolded to make it stand out on a flyer?",
+        question:
+            "4. Which of these should be bolded to make it stand out on a flyer?",
         options: [
           "The name of the printer.",
           "The date and time of the event.",
@@ -5328,11 +5137,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The date and time are key details that should stand out so readers can quickly find the event information."
-    ),
-
+        explanation:
+            "The date and time are key details that should stand out so readers can quickly find the event information."),
     IndependentPracticeQuestion(
-        question: "5. Why should you use a logo on your informational materials?",
+        question:
+            "5. Why should you use a logo on your informational materials?",
         options: [
           "To make the flyer heavier.",
           "To help people recognize your group or brand easily.",
@@ -5341,28 +5150,26 @@ final IndependentPracticeModel jhs2s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A logo helps people quickly recognize and remember your organization or brand."
-    ),
+        explanation:
+            "A logo helps people quickly recognize and remember your organization or brand."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/5. INDEPENDENT PRACTICE(update).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L7/5. INDEPENDENT PRACTICE(update).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which tool is best for sorting and classifying ideas before you start writing?",
-        options: [
-          "A ruler",
-          "A T-chart",
-          "A dictionary",
-          "A calculator"
-        ],
+        question:
+            "1. Which tool is best for sorting and classifying ideas before you start writing?",
+        options: ["A ruler", "A T-chart", "A dictionary", "A calculator"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A T-chart helps organize and classify ideas before writing."
-    ),
-
+        explanation:
+            "A T-chart helps organize and classify ideas before writing."),
     IndependentPracticeQuestion(
-        question: "2. What should you do if you find information that is not relevant to your topic?",
+        question:
+            "2. What should you do if you find information that is not relevant to your topic?",
         options: [
           "Include it anyway to make the article longer.",
           "Put it in the headline.",
@@ -5371,11 +5178,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Irrelevant information should be removed to keep the writing focused and clear."
-    ),
-
+        explanation:
+            "Irrelevant information should be removed to keep the writing focused and clear."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is an example of an \"electronic resource\"?",
+        question:
+            "3. Which of these is an example of an \"electronic resource\"?",
         options: [
           "A school textbook",
           "A newspaper from 1990",
@@ -5384,11 +5191,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An educational website on a tablet is an electronic resource because it is accessed digitally."
-    ),
-
+        explanation:
+            "An educational website on a tablet is an electronic resource because it is accessed digitally."),
     IndependentPracticeQuestion(
-        question: "4. If you want to express a personal view to your class in a fun way, what format could you use?",
+        question:
+            "4. If you want to express a personal view to your class in a fun way, what format could you use?",
         options: [
           "A formal business letter",
           "A rap poem or jingle",
@@ -5397,11 +5204,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A rap poem or jingle is a creative way to express personal ideas and opinions."
-    ),
-
+        explanation:
+            "A rap poem or jingle is a creative way to express personal ideas and opinions."),
     IndependentPracticeQuestion(
-        question: "5. What is the purpose of grouping ideas into units or paragraphs?",
+        question:
+            "5. What is the purpose of grouping ideas into units or paragraphs?",
         options: [
           "To make the page look colorful.",
           "To organize main ideas and supporting details clearly.",
@@ -5410,15 +5217,18 @@ final IndependentPracticeModel jhs2s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Grouping ideas into paragraphs helps organize information logically and makes it easier to understand."
-    ),
+        explanation:
+            "Grouping ideas into paragraphs helps organize information logically and makes it easier to understand."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L8/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Where do the names of the characters go in a dialogue script?",
+        question:
+            "1. Where do the names of the characters go in a dialogue script?",
         options: [
           "At the end of every sentence.",
           "On the left side of the page.",
@@ -5427,9 +5237,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "In a dialogue script, character names are written on the left side of the page."
-    ),
-
+        explanation:
+            "In a dialogue script, character names are written on the left side of the page."),
     IndependentPracticeQuestion(
         question: "2. What punctuation mark follows the character's name?",
         options: [
@@ -5440,11 +5249,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A colon is placed after a character's name before their dialogue."
-    ),
-
+        explanation:
+            "A colon is placed after a character's name before their dialogue."),
     IndependentPracticeQuestion(
-        question: "3. How do we show that a character should perform a specific action, like sitting down?",
+        question:
+            "3. How do we show that a character should perform a specific action, like sitting down?",
         options: [
           "Use capital letters for the whole sentence.",
           "Write the action in brackets ( ).",
@@ -5453,9 +5262,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Actions or stage directions are written in brackets in a dialogue script."
-    ),
-
+        explanation:
+            "Actions or stage directions are written in brackets in a dialogue script."),
     IndependentPracticeQuestion(
         question: "4. What does the word \"interlocutors\" mean?",
         options: [
@@ -5466,9 +5274,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Interlocutors are the people who take part in a conversation or dialogue."
-    ),
-
+        explanation:
+            "Interlocutors are the people who take part in a conversation or dialogue."),
     IndependentPracticeQuestion(
         question: "5. When should you start a new line in a dialogue?",
         options: [
@@ -5479,12 +5286,14 @@ final IndependentPracticeModel jhs2s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A new line should begin whenever a different character starts speaking to keep the dialogue clear."
-    ),
+        explanation:
+            "A new line should begin whenever a different character starts speaking to keep the dialogue clear."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/5. INDEPENDENT PRACTICE(updated).m4a',
+final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS2 L9/5. INDEPENDENT PRACTICE(updated).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What are the three main parts of a speech?",
@@ -5496,11 +5305,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A well-structured speech has three main parts: the introduction, the body, and the conclusion."
-    ),
-
+        explanation:
+            "A well-structured speech has three main parts: the introduction, the body, and the conclusion."),
     IndependentPracticeQuestion(
-        question: "2. A speech that uses facts and logic to prove a point is using:",
+        question:
+            "2. A speech that uses facts and logic to prove a point is using:",
         options: [
           "A narrative appeal",
           "A logical appeal",
@@ -5509,11 +5318,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A logical appeal uses facts, evidence, and reasoning to persuade the audience."
-    ),
-
+        explanation:
+            "A logical appeal uses facts, evidence, and reasoning to persuade the audience."),
     IndependentPracticeQuestion(
-        question: "3. In which part of the speech do you give the most detailed information?",
+        question:
+            "3. In which part of the speech do you give the most detailed information?",
         options: [
           "The Introduction",
           "The Body",
@@ -5522,9 +5331,8 @@ final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The body of a speech contains the main ideas, explanations, and supporting details."
-    ),
-
+        explanation:
+            "The body of a speech contains the main ideas, explanations, and supporting details."),
     IndependentPracticeQuestion(
         question: "4. Which of these is a \"persuasive\" goal for a speech?",
         options: [
@@ -5535,11 +5343,11 @@ final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A persuasive speech aims to convince the audience to think or act in a certain way."
-    ),
-
+        explanation:
+            "A persuasive speech aims to convince the audience to think or act in a certain way."),
     IndependentPracticeQuestion(
-        question: "5. What should you do in the \"Introduction\" of a manifesto speech?",
+        question:
+            "5. What should you do in the \"Introduction\" of a manifesto speech?",
         options: [
           "Tell the audience what you are going to tell them.",
           "Ask for money.",
@@ -5548,15 +5356,18 @@ final IndependentPracticeModel jhs2s4ss2Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The introduction should introduce the topic and tell the audience what the speech will be about."
-    ),
+        explanation:
+            "The introduction should introduce the topic and tell the audience what the speech will be about."),
   ],
 );
-final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/5. INDEPENDENT PRACTICE(Updated).m4a',
+final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S4 SS3 L1/5. INDEPENDENT PRACTICE(Updated).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. A graph shows that plastic waste in the ocean has doubled in five years. Which sentence best uses this information?",
+        question:
+            "1. A graph shows that plastic waste in the ocean has doubled in five years. Which sentence best uses this information?",
         options: [
           "Plastic waste is very bad for the fish in the sea.",
           "We must recycle because the graph shows plastic waste has doubled.",
@@ -5565,11 +5376,11 @@ final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The best answer directly uses the information provided by the graph to support a conclusion."
-    ),
-
+        explanation:
+            "The best answer directly uses the information provided by the graph to support a conclusion."),
     IndependentPracticeQuestion(
-        question: "2. A table lists \"Banku\" as the most popular lunch in a school. How should you write this?",
+        question:
+            "2. A table lists \"Banku\" as the most popular lunch in a school. How should you write this?",
         options: [
           "Banku is a very delicious meal from Ghana.",
           "Most students like Banku more than any other food.",
@@ -5578,11 +5389,11 @@ final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "This sentence accurately reports the information presented in the table."
-    ),
-
+        explanation:
+            "This sentence accurately reports the information presented in the table."),
     IndependentPracticeQuestion(
-        question: "3. If a map shows that a road is flooded during the rainy season, what is the best advice to write?",
+        question:
+            "3. If a map shows that a road is flooded during the rainy season, what is the best advice to write?",
         options: [
           "Avoid that road in the rainy season as shown on the map.",
           "It is important to wear boots when it is raining.",
@@ -5591,11 +5402,11 @@ final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The advice is based directly on the information shown by the map."
-    ),
-
+        explanation:
+            "The advice is based directly on the information shown by the map."),
     IndependentPracticeQuestion(
-        question: "4. A figure shows the parts of a plant: roots, stem, and leaves. Which statement is supported by the figure?",
+        question:
+            "4. A figure shows the parts of a plant: roots, stem, and leaves. Which statement is supported by the figure?",
         options: [
           "Plants need sunlight and water to grow tall.",
           "The figure identifies the roots and stem as parts of a plant.",
@@ -5604,16 +5415,18 @@ final IndependentPracticeModel jhs2s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The figure directly identifies the labeled parts of the plant, including the roots and stem."
-    ),
+        explanation:
+            "The figure directly identifies the labeled parts of the plant, including the roots and stem."),
   ],
 );
 
-final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/english/JHS2 S5 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In the story, why was the father unable to break the bundle of sticks?",
+        question:
+            "1. In the story, why was the father unable to break the bundle of sticks?",
         options: [
           "The sticks were made of iron.",
           "The sticks were wet and bendy.",
@@ -5622,11 +5435,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The bundle of sticks was too strong to break because the sticks were tied together."
-    ),
-
+        explanation:
+            "The bundle of sticks was too strong to break because the sticks were tied together."),
     IndependentPracticeQuestion(
-        question: "2. Which Ghanaian proverb best matches the moral of this story?",
+        question:
+            "2. Which Ghanaian proverb best matches the moral of this story?",
         options: [
           "One head does not go into council.",
           "A bird that flies off the earth settles on an ant-hill.",
@@ -5635,11 +5448,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The proverb teaches that people achieve more when they work together."
-    ),
-
+        explanation:
+            "The proverb teaches that people achieve more when they work together."),
     IndependentPracticeQuestion(
-        question: "3. What happens to the sticks when they are untied and shared individually?",
+        question:
+            "3. What happens to the sticks when they are untied and shared individually?",
         options: [
           "They become harder to break.",
           "They are easily broken by the sons.",
@@ -5648,11 +5461,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Each stick is easy to break when separated, showing the importance of unity."
-    ),
-
+        explanation:
+            "Each stick is easy to break when separated, showing the importance of unity."),
     IndependentPracticeQuestion(
-        question: "4. Why did the father choose to use sticks to teach his lesson?",
+        question:
+            "4. Why did the father choose to use sticks to teach his lesson?",
         options: [
           "He wanted his sons to go and gather firewood.",
           "He was a carpenter by profession.",
@@ -5661,11 +5474,12 @@ final IndependentPracticeModel jhs2s5ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The sticks provided a simple demonstration showing that unity brings strength."
-    ),
+        explanation:
+            "The sticks provided a simple demonstration showing that unity brings strength."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s5ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/english/JHS2 S5 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -5678,37 +5492,27 @@ final IndependentPracticeModel jhs2s5ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The poem teaches that God belongs to everyone and cannot be limited to one colour or race."
-    ),
-
+        explanation:
+            "The poem teaches that God belongs to everyone and cannot be limited to one colour or race."),
     IndependentPracticeQuestion(
-        question: "2. Which word best describes a poem that tries to convince the reader of a specific viewpoint?",
-        options: [
-          "Narrative",
-          "Argumentative",
-          "Humorous",
-          "Musical"
-        ],
+        question:
+            "2. Which word best describes a poem that tries to convince the reader of a specific viewpoint?",
+        options: ["Narrative", "Argumentative", "Humorous", "Musical"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "An argumentative poem presents reasons to persuade readers to accept a particular viewpoint."
-    ),
-
+        explanation:
+            "An argumentative poem presents reasons to persuade readers to accept a particular viewpoint."),
     IndependentPracticeQuestion(
-        question: "3. If someone believes their race is the only one God loves, they are ignoring the theme of:",
-        options: [
-          "Stanzas",
-          "Rhyme",
-          "Universality",
-          "Punctuation"
-        ],
+        question:
+            "3. If someone believes their race is the only one God loves, they are ignoring the theme of:",
+        options: ["Stanzas", "Rhyme", "Universality", "Punctuation"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Universality means that God's love is for all people, regardless of race or background."
-    ),
-
+        explanation:
+            "Universality means that God's love is for all people, regardless of race or background."),
     IndependentPracticeQuestion(
-        question: "4. What does the poet suggest happens when we give God a single colour?",
+        question:
+            "4. What does the poet suggest happens when we give God a single colour?",
         options: [
           "We make God more powerful.",
           "We create a beautiful painting.",
@@ -5717,28 +5521,25 @@ final IndependentPracticeModel jhs2s5ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The poem suggests that giving God a single colour limits our understanding of His universal love."
-    ),
+        explanation:
+            "The poem suggests that giving God a single colour limits our understanding of His universal love."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s5ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/english/JHS2 S5 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the name of the dramatic style created by Efua Sutherland?",
-        options: [
-          "Shakespearean",
-          "Anansegoro",
-          "Opera",
-          "Pantomime"
-        ],
+        question:
+            "1. What is the name of the dramatic style created by Efua Sutherland?",
+        options: ["Shakespearean", "Anansegoro", "Opera", "Pantomime"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Efua Sutherland created Anansegoro, a Ghanaian dramatic style based on Ananse stories."
-    ),
-
+        explanation:
+            "Efua Sutherland created Anansegoro, a Ghanaian dramatic style based on Ananse stories."),
     IndependentPracticeQuestion(
-        question: "2. Why does Ananse send photos of Anansewa to four different Chiefs?",
+        question:
+            "2. Why does Ananse send photos of Anansewa to four different Chiefs?",
         options: [
           "He wants to show off her photography skills.",
           "He wants to collect \"out-of-dooring\" gifts.",
@@ -5747,22 +5548,16 @@ final IndependentPracticeModel jhs2s5ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Ananse sends the photos to several chiefs to receive gifts and wealth from each of them."
-    ),
-
+        explanation:
+            "Ananse sends the photos to several chiefs to receive gifts and wealth from each of them."),
     IndependentPracticeQuestion(
-        question: "3. When a character speaks their secret thoughts alone on stage, it is called a:",
-        options: [
-          "Dialogue",
-          "Chorus",
-          "Soliloquy",
-          "Mboguo"
-        ],
+        question:
+            "3. When a character speaks their secret thoughts alone on stage, it is called a:",
+        options: ["Dialogue", "Chorus", "Soliloquy", "Mboguo"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A soliloquy is a speech in which a character reveals their private thoughts while alone on stage."
-    ),
-
+        explanation:
+            "A soliloquy is a speech in which a character reveals their private thoughts while alone on stage."),
     IndependentPracticeQuestion(
         question: "4. What is the role of the Storyteller in the play?",
         options: [
@@ -5773,11 +5568,12 @@ final IndependentPracticeModel jhs2s5ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Storyteller guides the audience, explains events, and connects them with the actors and the story."
-    ),
+        explanation:
+            "The Storyteller guides the audience, explains events, and connects them with the actors and the story."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/english/JHS2 S5 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -5790,9 +5586,7 @@ final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Adjoa is seven years old in the story."
-    ),
-
+        explanation: "Adjoa is seven years old in the story."),
     IndependentPracticeQuestion(
         question: "2. What was Nana's main concern about Adjoa's legs?",
         options: [
@@ -5803,11 +5597,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Nana believed Adjoa's legs were too thin to support the responsibilities of womanhood."
-    ),
-
+        explanation:
+            "Nana believed Adjoa's legs were too thin to support the responsibilities of womanhood."),
     IndependentPracticeQuestion(
-        question: "3. In which event did Adjoa prove her \"spindly\" legs were useful?",
+        question:
+            "3. In which event did Adjoa prove her \"spindly\" legs were useful?",
         options: [
           "A dancing competition",
           "A farming contest",
@@ -5816,9 +5610,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Adjoa proved her legs were strong and useful by winning a school running race."
-    ),
-
+        explanation:
+            "Adjoa proved her legs were strong and useful by winning a school running race."),
     IndependentPracticeQuestion(
         question: "4. What is the \"point of view\" of this story?",
         options: [
@@ -5829,11 +5622,12 @@ final IndependentPracticeModel jhs2s5ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The story is told from Adjoa's perspective using the first-person point of view."
-    ),
+        explanation:
+            "The story is told from Adjoa's perspective using the first-person point of view."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/english/JHS2 S5 SS1 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -5846,11 +5640,10 @@ final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The poem \"Desert Rivers\" was written by Lade Wosornu."
-    ),
-
+        explanation: "The poem \"Desert Rivers\" was written by Lade Wosornu."),
     IndependentPracticeQuestion(
-        question: "2. What does the \"River\" represent in the poem's metaphor?",
+        question:
+            "2. What does the \"River\" represent in the poem's metaphor?",
         options: [
           "A source of malaria",
           "A person's hidden talents and potential",
@@ -5859,9 +5652,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The river symbolizes the hidden talents, abilities, and potential within a person."
-    ),
-
+        explanation:
+            "The river symbolizes the hidden talents, abilities, and potential within a person."),
     IndependentPracticeQuestion(
         question: "3. What does the word \"subterranean\" mean?",
         options: [
@@ -5872,11 +5664,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Subterranean\" means existing or located beneath the surface of the earth."
-    ),
-
+        explanation:
+            "\"Subterranean\" means existing or located beneath the surface of the earth."),
     IndependentPracticeQuestion(
-        question: "4. According to the poem, why should we not judge a \"desert\"?",
+        question:
+            "4. According to the poem, why should we not judge a \"desert\"?",
         options: [
           "Because the sand is too hot.",
           "Because it might have a powerful river beneath it.",
@@ -5885,12 +5677,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The poem teaches that appearances can be misleading because hidden strength or potential may exist beneath the surface."
-    ),
+        explanation:
+            "The poem teaches that appearances can be misleading because hidden strength or potential may exist beneath the surface."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is the central question asked in the poem?",
@@ -5902,24 +5696,19 @@ final IndependentPracticeModel jhs2s5ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The poem centers on the question of God's colour to show that God belongs to everyone."
-    ),
-
+        explanation:
+            "The poem centers on the question of God's colour to show that God belongs to everyone."),
     IndependentPracticeQuestion(
-        question: "2. Which word describes a poem that presents a debate or a point of view?",
-        options: [
-          "Narrative",
-          "Argumentative",
-          "Lullaby",
-          "Mystery"
-        ],
+        question:
+            "2. Which word describes a poem that presents a debate or a point of view?",
+        options: ["Narrative", "Argumentative", "Lullaby", "Mystery"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "An argumentative poem presents ideas and reasons to persuade readers about a particular viewpoint."
-    ),
-
+        explanation:
+            "An argumentative poem presents ideas and reasons to persuade readers about a particular viewpoint."),
     IndependentPracticeQuestion(
-        question: "3. According to the poet, why do people see God as having their own skin colour?",
+        question:
+            "3. According to the poet, why do people see God as having their own skin colour?",
         options: [
           "Because they saw a photo of Him.",
           "Because they imagine God based on themselves.",
@@ -5928,9 +5717,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The poet suggests that people imagine God in their own image, including their own skin colour."
-    ),
-
+        explanation:
+            "The poet suggests that people imagine God in their own image, including their own skin colour."),
     IndependentPracticeQuestion(
         question: "4. The theme of \"Universality\" means that God:",
         options: [
@@ -5941,12 +5729,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Universality means that God's love and care extend to all people, regardless of race or background."
-    ),
+        explanation:
+            "Universality means that God's love and care extend to all people, regardless of race or background."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is a \"Scribbler\" in the context of this poem?",
@@ -5958,9 +5748,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "In the poem, a scribbler represents a writer or a person with creative ideas."
-    ),
-
+        explanation:
+            "In the poem, a scribbler represents a writer or a person with creative ideas."),
     IndependentPracticeQuestion(
         question: "2. What is the main \"enemy\" of the Scribbler in the poem?",
         options: [
@@ -5971,22 +5760,15 @@ final IndependentPracticeModel jhs2s5ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The poem warns that procrastination prevents people from turning their ideas into reality."
-    ),
-
+        explanation:
+            "The poem warns that procrastination prevents people from turning their ideas into reality."),
     IndependentPracticeQuestion(
         question: "3. Giving human qualities to a \"dream\" is an example of:",
-        options: [
-          "Alliteration.",
-          "Personification.",
-          "Rhyming.",
-          "A title."
-        ],
+        options: ["Alliteration.", "Personification.", "Rhyming.", "A title."],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Personification is a figure of speech that gives human qualities to non-human things, such as a dream."
-    ),
-
+        explanation:
+            "Personification is a figure of speech that gives human qualities to non-human things, such as a dream."),
     IndependentPracticeQuestion(
         question: "4. What is the poet's advice to the reader?",
         options: [
@@ -5997,12 +5779,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The poet encourages readers to act on their ideas instead of delaying them."
-    ),
+        explanation:
+            "The poet encourages readers to act on their ideas instead of delaying them."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L8/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of \"The Dilemma of a Ghost\"?",
@@ -6014,9 +5798,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"The Dilemma of a Ghost\" was written by Ama Ata Aidoo."
-    ),
-
+        explanation:
+            "\"The Dilemma of a Ghost\" was written by Ama Ata Aidoo."),
     IndependentPracticeQuestion(
         question: "2. What does the term \"Been-to\" mean in the play?",
         options: [
@@ -6027,11 +5810,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "In the play, a 'Been-to' is someone who has travelled overseas, especially for education."
-    ),
-
+        explanation:
+            "In the play, a 'Been-to' is someone who has travelled overseas, especially for education."),
     IndependentPracticeQuestion(
-        question: "3. What is the main cause of the conflict over children in the play?",
+        question:
+            "3. What is the main cause of the conflict over children in the play?",
         options: [
           "Eulalie does not like children.",
           "Ato and Eulalie use birth control but don't tell the family.",
@@ -6040,9 +5823,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The conflict arises because Ato and Eulalie secretly use birth control, which the family does not understand."
-    ),
-
+        explanation:
+            "The conflict arises because Ato and Eulalie secretly use birth control, which the family does not understand."),
     IndependentPracticeQuestion(
         question: "4. Where is Eulalie originally from?",
         options: [
@@ -6053,12 +5835,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Eulalie is an African American woman from the United States of America."
-    ),
+        explanation:
+            "Eulalie is an African American woman from the United States of America."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L9/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the play \"Anowa\"?",
@@ -6070,9 +5854,7 @@ final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Anowa\" is a famous play written by Ama Ata Aidoo."
-    ),
-
+        explanation: "\"Anowa\" is a famous play written by Ama Ata Aidoo."),
     IndependentPracticeQuestion(
         question: "2. Which characters form the \"Chorus\" in the play?",
         options: [
@@ -6083,11 +5865,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The Old Man and The Old Woman serve as the Chorus, commenting on events throughout the play."
-    ),
-
+        explanation:
+            "The Old Man and The Old Woman serve as the Chorus, commenting on events throughout the play."),
     IndependentPracticeQuestion(
-        question: "3. What is the main reason Anowa's mother is unhappy with her?",
+        question:
+            "3. What is the main reason Anowa's mother is unhappy with her?",
         options: [
           "Anowa refuses to go to school.",
           "Anowa refuses to help with the cooking.",
@@ -6096,9 +5878,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Anowa's mother is unhappy because Anowa refuses to marry the man selected for her."
-    ),
-
+        explanation:
+            "Anowa's mother is unhappy because Anowa refuses to marry the man selected for her."),
     IndependentPracticeQuestion(
         question: "4. When is the play \"Anowa\" set?",
         options: [
@@ -6109,12 +5890,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The events of \"Anowa\" take place in the 1870s in the Gold Coast (present-day Ghana)."
-    ),
+        explanation:
+            "The events of \"Anowa\" take place in the 1870s in the Gold Coast (present-day Ghana)."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L10/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What was the main problem the Old Man wanted to solve?",
@@ -6126,11 +5909,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Old Man wanted to teach his sons to stop quarrelling and live in unity."
-    ),
-
+        explanation:
+            "The Old Man wanted to teach his sons to stop quarrelling and live in unity."),
     IndependentPracticeQuestion(
-        question: "2. What happened when the sons tried to break the sticks while they were tied in a bundle?",
+        question:
+            "2. What happened when the sons tried to break the sticks while they were tied in a bundle?",
         options: [
           "The sticks snapped instantly.",
           "The twine broke but the sticks didn't.",
@@ -6139,9 +5922,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The bundle of sticks could not be broken, showing that unity gives strength."
-    ),
-
+        explanation:
+            "The bundle of sticks could not be broken, showing that unity gives strength."),
     IndependentPracticeQuestion(
         question: "3. What does a \"single stick\" symbolize in this story?",
         options: [
@@ -6152,11 +5934,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A single stick represents a person who is alone and easily overcome."
-    ),
-
+        explanation:
+            "A single stick represents a person who is alone and easily overcome."),
     IndependentPracticeQuestion(
-        question: "4. The moral of the story is best summarized by which phrase?",
+        question:
+            "4. The moral of the story is best summarized by which phrase?",
         options: [
           "Practice makes perfect.",
           "Unity is strength.",
@@ -6165,12 +5947,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The story teaches that people are stronger when they work together in unity."
-    ),
+        explanation:
+            "The story teaches that people are stronger when they work together in unity."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L11/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the short story \"Ripples\"?",
@@ -6182,11 +5966,10 @@ final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Ripples\" was written by Peter Paul Adolinama."
-    ),
-
+        explanation: "\"Ripples\" was written by Peter Paul Adolinama."),
     IndependentPracticeQuestion(
-        question: "2. What was the \"pebble\" or the initial cause of the problems in the story?",
+        question:
+            "2. What was the \"pebble\" or the initial cause of the problems in the story?",
         options: [
           "A natural disaster",
           "A teenage marriage and dropping out of school",
@@ -6195,11 +5978,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The story compares the effects of teenage marriage and leaving school to ripples caused by a pebble in water."
-    ),
-
+        explanation:
+            "The story compares the effects of teenage marriage and leaving school to ripples caused by a pebble in water."),
     IndependentPracticeQuestion(
-        question: "3. In the story, who feels the \"ripples\" of Ama's early choices?",
+        question:
+            "3. In the story, who feels the \"ripples\" of Ama's early choices?",
         options: [
           "Only Ama herself",
           "Ama and her daughter",
@@ -6208,9 +5991,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Both Ama and her daughter experience the long-term consequences of Ama's early decisions."
-    ),
-
+        explanation:
+            "Both Ama and her daughter experience the long-term consequences of Ama's early decisions."),
     IndependentPracticeQuestion(
         question: "4. What is the primary moral lesson of the story?",
         options: [
@@ -6221,12 +6003,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The story teaches that the choices we make today can have lasting effects on our lives and the lives of others."
-    ),
+        explanation:
+            "The story teaches that the choices we make today can have lasting effects on our lives and the lives of others."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L12/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the poem \"Makola\"?",
@@ -6238,24 +6022,18 @@ final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The poem \"Makola\" was written by Theresa Ennin."
-    ),
-
+        explanation: "The poem \"Makola\" was written by Theresa Ennin."),
     IndependentPracticeQuestion(
-        question: "2. Which poetic device uses words that mimic natural sounds?",
-        options: [
-          "Metaphor",
-          "Onomatopoeia",
-          "Stanza",
-          "Alliteration"
-        ],
+        question:
+            "2. Which poetic device uses words that mimic natural sounds?",
+        options: ["Metaphor", "Onomatopoeia", "Stanza", "Alliteration"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Onomatopoeia is the use of words that imitate natural sounds."
-    ),
-
+        explanation:
+            "Onomatopoeia is the use of words that imitate natural sounds."),
     IndependentPracticeQuestion(
-        question: "3. \"The scorching sun bit into the skin of the traders.\" This is an example of:",
+        question:
+            "3. \"The scorching sun bit into the skin of the traders.\" This is an example of:",
         options: [
           "Auditory imagery",
           "Tactile imagery (Touch)",
@@ -6264,11 +6042,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The description appeals to the sense of touch, making it an example of tactile imagery."
-    ),
-
+        explanation:
+            "The description appeals to the sense of touch, making it an example of tactile imagery."),
     IndependentPracticeQuestion(
-        question: "4. What is the primary purpose of sensory imagery in \"Makola\"?",
+        question:
+            "4. What is the primary purpose of sensory imagery in \"Makola\"?",
         options: [
           "To make the poem longer.",
           "To help the reader experience the market through their senses.",
@@ -6277,12 +6055,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sensory imagery helps readers vividly experience the sights, sounds, smells, and feelings of the Makola market."
-    ),
+        explanation:
+            "Sensory imagery helps readers vividly experience the sights, sounds, smells, and feelings of the Makola market."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson13IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson13IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L13/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of \"A Day's Wait\"?",
@@ -6294,22 +6074,16 @@ final IndependentPracticeModel jhs2s5ss1Lesson13IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"A Day's Wait\" is a short story written by Ernest Hemingway."
-    ),
-
+        explanation:
+            "\"A Day's Wait\" is a short story written by Ernest Hemingway."),
     IndependentPracticeQuestion(
-        question: "2. What was Schatz's actual temperature on the Fahrenheit scale?",
-        options: [
-          "44 degrees",
-          "98 degrees",
-          "102 degrees",
-          "212 degrees"
-        ],
+        question:
+            "2. What was Schatz's actual temperature on the Fahrenheit scale?",
+        options: ["44 degrees", "98 degrees", "102 degrees", "212 degrees"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Schatz's temperature was 102°F, but he mistakenly thought it was fatal because he confused Fahrenheit with Celsius."
-    ),
-
+        explanation:
+            "Schatz's temperature was 102°F, but he mistakenly thought it was fatal because he confused Fahrenheit with Celsius."),
     IndependentPracticeQuestion(
         question: "3. What does it mean to be \"Stoic\"?",
         options: [
@@ -6320,9 +6094,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson13IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A stoic person remains calm and shows little emotion even during pain or hardship."
-    ),
-
+        explanation:
+            "A stoic person remains calm and shows little emotion even during pain or hardship."),
     IndependentPracticeQuestion(
         question: "4. Why did Schatz cry easily the day after the fever?",
         options: [
@@ -6333,12 +6106,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson13IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "After realizing he was not going to die, Schatz released the emotional strain he had been holding inside."
-    ),
+        explanation:
+            "After realizing he was not going to die, Schatz released the emotional strain he had been holding inside."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson14IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson14IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L14/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the poem \"Mama is a Sunrise\"?",
@@ -6350,22 +6125,16 @@ final IndependentPracticeModel jhs2s5ss1Lesson14IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Mama is a Sunrise\" was written by Evelyn Tooley Hunt."
-    ),
-
+        explanation:
+            "\"Mama is a Sunrise\" was written by Evelyn Tooley Hunt."),
     IndependentPracticeQuestion(
-        question: "2. Which literary device is used in the title \"Mama is a Sunrise\"?",
-        options: [
-          "Simile",
-          "Metaphor",
-          "Onomatopoeia",
-          "Alliteration"
-        ],
+        question:
+            "2. Which literary device is used in the title \"Mama is a Sunrise\"?",
+        options: ["Simile", "Metaphor", "Onomatopoeia", "Alliteration"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The title is a metaphor because it directly compares Mama to a sunrise without using 'like' or 'as'."
-    ),
-
+        explanation:
+            "The title is a metaphor because it directly compares Mama to a sunrise without using 'like' or 'as'."),
     IndependentPracticeQuestion(
         question: "3. What does the mother \"nudge\" in the poem?",
         options: [
@@ -6376,9 +6145,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson14IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The poem describes Mama gently waking the sleepy world, especially her children, to begin the day."
-    ),
-
+        explanation:
+            "The poem describes Mama gently waking the sleepy world, especially her children, to begin the day."),
     IndependentPracticeQuestion(
         question: "4. What is the \"tone\" of this poem?",
         options: [
@@ -6389,12 +6157,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson14IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The poem has an appreciative and loving tone as it celebrates a mother's warmth, care, and importance."
-    ),
+        explanation:
+            "The poem has an appreciative and loving tone as it celebrates a mother's warmth, care, and importance."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L15/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who wrote the story \"The Generous Hunter\"?",
@@ -6406,9 +6176,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"The Generous Hunter\" was written by Kaakyire Akosombo Nyantakyi."
-    ),
-
+        explanation:
+            "\"The Generous Hunter\" was written by Kaakyire Akosombo Nyantakyi."),
     IndependentPracticeQuestion(
         question: "2. What is the \"Climax\" of a story?",
         options: [
@@ -6419,9 +6188,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The climax is the highest point of excitement or the major turning point in a story."
-    ),
-
+        explanation:
+            "The climax is the highest point of excitement or the major turning point in a story."),
     IndependentPracticeQuestion(
         question: "3. Why did the hunter share his food with the old man?",
         options: [
@@ -6432,9 +6200,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The hunter shared his food because he felt compassion for the hungry old man."
-    ),
-
+        explanation:
+            "The hunter shared his food because he felt compassion for the hungry old man."),
     IndependentPracticeQuestion(
         question: "4. What is the main theme of this story?",
         options: [
@@ -6445,12 +6212,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson15IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The story teaches that kindness and generosity are rewarded."
-    ),
+        explanation:
+            "The story teaches that kindness and generosity are rewarded."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson16IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson16IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L16/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the poem \"A Minor Bird\"?",
@@ -6462,24 +6231,17 @@ final IndependentPracticeModel jhs2s5ss1Lesson16IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"A Minor Bird\" is a poem written by Robert Frost."
-    ),
-
+        explanation: "\"A Minor Bird\" is a poem written by Robert Frost."),
     IndependentPracticeQuestion(
         question: "2. A pair of rhyming lines in a poem is called a:",
-        options: [
-          "Stanza",
-          "Couplet",
-          "Chorus",
-          "Metaphor"
-        ],
+        options: ["Stanza", "Couplet", "Chorus", "Metaphor"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A couplet is a pair of consecutive lines that rhyme with each other."
-    ),
-
+        explanation:
+            "A couplet is a pair of consecutive lines that rhyme with each other."),
     IndependentPracticeQuestion(
-        question: "3. What action does the speaker take to get rid of the bird?",
+        question:
+            "3. What action does the speaker take to get rid of the bird?",
         options: [
           "He throws a stone at it.",
           "He claps his hands at it.",
@@ -6488,9 +6250,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson16IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The speaker claps his hands in an attempt to make the bird stop singing."
-    ),
-
+        explanation:
+            "The speaker claps his hands in an attempt to make the bird stop singing."),
     IndependentPracticeQuestion(
         question: "4. What is the main theme of the poem?",
         options: [
@@ -6501,12 +6262,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson16IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The poem teaches tolerance, reminding us to respect nature even when it inconveniences us."
-    ),
+        explanation:
+            "The poem teaches tolerance, reminding us to respect nature even when it inconveniences us."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L17/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of \"Sosu and the Bukari Boys\"?",
@@ -6518,9 +6281,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Sosu and the Bukari Boys\" was written by Lawrence Darmani."
-    ),
-
+        explanation:
+            "\"Sosu and the Bukari Boys\" was written by Lawrence Darmani."),
     IndependentPracticeQuestion(
         question: "2. What is the \"Moral Conflict\" in the story?",
         options: [
@@ -6531,9 +6293,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sosu faces a moral conflict between doing what is right and giving in to the bad influence of the Bukari Boys."
-    ),
-
+        explanation:
+            "Sosu faces a moral conflict between doing what is right and giving in to the bad influence of the Bukari Boys."),
     IndependentPracticeQuestion(
         question: "3. What does \"Integrity\" mean?",
         options: [
@@ -6544,9 +6305,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Integrity means being honest and consistently following strong moral values."
-    ),
-
+        explanation:
+            "Integrity means being honest and consistently following strong moral values."),
     IndependentPracticeQuestion(
         question: "4. What role do the Bukari Boys play in Sosu's life?",
         options: [
@@ -6557,12 +6317,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson17IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Bukari Boys act as antagonists by encouraging Sosu to make wrong choices."
-    ),
+        explanation:
+            "The Bukari Boys act as antagonists by encouraging Sosu to make wrong choices."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson18IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson18IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L18/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the poem \"A Wreath of Tears\"?",
@@ -6574,9 +6336,7 @@ final IndependentPracticeModel jhs2s5ss1Lesson18IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"A Wreath of Tears\" was written by Kobena Eyi Acquah."
-    ),
-
+        explanation: "\"A Wreath of Tears\" was written by Kobena Eyi Acquah."),
     IndependentPracticeQuestion(
         question: "2. What is a \"Wreath\"?",
         options: [
@@ -6587,9 +6347,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson18IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A wreath is a circular arrangement of flowers, often used at funerals to honour the dead."
-    ),
-
+        explanation:
+            "A wreath is a circular arrangement of flowers, often used at funerals to honour the dead."),
     IndependentPracticeQuestion(
         question: "3. What does the \"circle\" of the wreath represent?",
         options: [
@@ -6600,25 +6359,22 @@ final IndependentPracticeModel jhs2s5ss1Lesson18IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The circular shape of the wreath symbolizes eternity and the unending nature of love and remembrance."
-    ),
-
+        explanation:
+            "The circular shape of the wreath symbolizes eternity and the unending nature of love and remembrance."),
     IndependentPracticeQuestion(
-        question: "4. The repetition of the same consonant sound at the start of words is called:",
-        options: [
-          "Metaphor",
-          "Alliteration",
-          "Personification",
-          "Rhyme"
-        ],
+        question:
+            "4. The repetition of the same consonant sound at the start of words is called:",
+        options: ["Metaphor", "Alliteration", "Personification", "Rhyme"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Alliteration is the repetition of the same initial consonant sound in nearby words."
-    ),
+        explanation:
+            "Alliteration is the repetition of the same initial consonant sound in nearby words."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson19IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson19IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L19/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the poem \"Sleep Without Wake\"?",
@@ -6630,9 +6386,7 @@ final IndependentPracticeModel jhs2s5ss1Lesson19IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Sleep Without Wake\" was written by A. A. Amoako."
-    ),
-
+        explanation: "\"Sleep Without Wake\" was written by A. A. Amoako."),
     IndependentPracticeQuestion(
         question: "2. What is a \"euphemism\"?",
         options: [
@@ -6643,38 +6397,28 @@ final IndependentPracticeModel jhs2s5ss1Lesson19IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A euphemism is a polite or indirect expression used instead of a harsh or unpleasant one."
-    ),
-
+        explanation:
+            "A euphemism is a polite or indirect expression used instead of a harsh or unpleasant one."),
     IndependentPracticeQuestion(
         question: "3. In the poem, \"Sleep without wake\" is a euphemism for:",
-        options: [
-          "Being very tired.",
-          "Death.",
-          "Dreaming.",
-          "Laziness."
-        ],
+        options: ["Being very tired.", "Death.", "Dreaming.", "Laziness."],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The phrase \"Sleep without wake\" is used as a euphemism for death."
-    ),
-
+        explanation:
+            "The phrase \"Sleep without wake\" is used as a euphemism for death."),
     IndependentPracticeQuestion(
-        question: "4. A poem or song that expresses grief for the dead is called a:",
-        options: [
-          "Sonnet",
-          "Dirge",
-          "Limerick",
-          "Narrative"
-        ],
+        question:
+            "4. A poem or song that expresses grief for the dead is called a:",
+        options: ["Sonnet", "Dirge", "Limerick", "Narrative"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A dirge is a poem or song that mourns the dead."
-    ),
+        explanation: "A dirge is a poem or song that mourns the dead."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson20IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson20IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L20/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of the original \"Oliver Twist\"?",
@@ -6686,11 +6430,11 @@ final IndependentPracticeModel jhs2s5ss1Lesson20IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Oliver Twist\" is a famous novel written by Charles Dickens."
-    ),
-
+        explanation:
+            "\"Oliver Twist\" is a famous novel written by Charles Dickens."),
     IndependentPracticeQuestion(
-        question: "2. What is the famous sentence Oliver says at the workhouse?",
+        question:
+            "2. What is the famous sentence Oliver says at the workhouse?",
         options: [
           "\"I want to go home.\"",
           "\"Please, sir, I want some more.\"",
@@ -6699,9 +6443,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson20IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Oliver's famous request, \"Please, sir, I want some more,\" is one of the best-known lines in English literature."
-    ),
-
+        explanation:
+            "Oliver's famous request, \"Please, sir, I want some more,\" is one of the best-known lines in English literature."),
     IndependentPracticeQuestion(
         question: "3. What is a \"Workhouse\" in the context of the story?",
         options: [
@@ -6712,25 +6455,22 @@ final IndependentPracticeModel jhs2s5ss1Lesson20IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A workhouse was an institution where poor people lived and worked under strict and difficult conditions."
-    ),
-
+        explanation:
+            "A workhouse was an institution where poor people lived and worked under strict and difficult conditions."),
     IndependentPracticeQuestion(
-        question: "4. What theme is shown by Oliver staying honest despite his poverty?",
-        options: [
-          "Greed",
-          "Resilience and Integrity",
-          "Laziness",
-          "Fear"
-        ],
+        question:
+            "4. What theme is shown by Oliver staying honest despite his poverty?",
+        options: ["Greed", "Resilience and Integrity", "Laziness", "Fear"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Oliver's honesty and courage despite hardship demonstrate resilience and integrity."
-    ),
+        explanation:
+            "Oliver's honesty and courage despite hardship demonstrate resilience and integrity."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson21IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson21IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L21/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Who is the author of \"Home Sweet Home\"?",
@@ -6742,22 +6482,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson21IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Home Sweet Home\" was written by Ken Saro-Wiwa."
-    ),
-
+        explanation: "\"Home Sweet Home\" was written by Ken Saro-Wiwa."),
     IndependentPracticeQuestion(
-        question: "2. What is the name of the village the narrator is returning to?",
-        options: [
-          "Accra",
-          "Dukana",
-          "Kumasi",
-          "Lagos"
-        ],
+        question:
+            "2. What is the name of the village the narrator is returning to?",
+        options: ["Accra", "Dukana", "Kumasi", "Lagos"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The narrator returns to his home village of Dukana."
-    ),
-
+        explanation: "The narrator returns to his home village of Dukana."),
     IndependentPracticeQuestion(
         question: "3. The story is told from which \"Point of View\"?",
         options: [
@@ -6768,9 +6500,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson21IndependentQuizData = Independen
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The story is narrated in the first-person point of view using \"I\"."
-    ),
-
+        explanation:
+            "The story is narrated in the first-person point of view using \"I\"."),
     IndependentPracticeQuestion(
         question: "4. What does the word \"Nostalgia\" mean?",
         options: [
@@ -6781,12 +6512,14 @@ final IndependentPracticeModel jhs2s5ss1Lesson21IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Nostalgia is a warm, sentimental feeling or longing for the past."
-    ),
+        explanation:
+            "Nostalgia is a warm, sentimental feeling or longing for the past."),
   ],
 );
-final IndependentPracticeModel jhs2s5ss1Lesson22IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs2s5ss1Lesson22IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS2 S5 SS1 L22/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is the main conflict at the beginning of the story?",
@@ -6798,22 +6531,16 @@ final IndependentPracticeModel jhs2s5ss1Lesson22IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The story begins when the children discover a baby bird that has fallen from its nest and needs help."
-    ),
-
+        explanation:
+            "The story begins when the children discover a baby bird that has fallen from its nest and needs help."),
     IndependentPracticeQuestion(
-        question: "2. Which literary device is used when characters speak to each other?",
-        options: [
-          "Stanza",
-          "Dialogue",
-          "Rhyme",
-          "Rhythm"
-        ],
+        question:
+            "2. Which literary device is used when characters speak to each other?",
+        options: ["Stanza", "Dialogue", "Rhyme", "Rhythm"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Dialogue is the conversation between characters in a story."
-    ),
-
+        explanation:
+            "Dialogue is the conversation between characters in a story."),
     IndependentPracticeQuestion(
         question: "3. What happens during the \"Resolution\" of the story?",
         options: [
@@ -6824,9 +6551,8 @@ final IndependentPracticeModel jhs2s5ss1Lesson22IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "At the resolution, Pepe recovers, becomes strong enough to fly, and returns to the wild."
-    ),
-
+        explanation:
+            "At the resolution, Pepe recovers, becomes strong enough to fly, and returns to the wild."),
     IndependentPracticeQuestion(
         question: "4. What is the primary lesson (theme) of this story?",
         options: [
@@ -6837,12 +6563,13 @@ final IndependentPracticeModel jhs2s5ss1Lesson22IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The story teaches the importance of showing compassion and kindness toward nature and animals."
-    ),
+        explanation:
+            "The story teaches the importance of showing compassion and kindness toward nature and animals."),
   ],
 );
 
-final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -6900,7 +6627,8 @@ final IndependentPracticeModel jhs3s1ss1Lesson1IndependentQuizData = Independent
             "Global issues affect people around the world. Gender equality and women's rights is a global issue, unlike local or personal matters."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/2. JHS3 S1 SS1 L2/7. Independent Practice.m4a',
   questions: [
@@ -6957,7 +6685,8 @@ final IndependentPracticeModel jhs3s1ss1Lesson2IndependentQuizData = Independent
             "To maintain a formal register in a heated debate, it is important to stay calm and use polite, professional language."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/3. JHS3 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -7004,7 +6733,8 @@ final IndependentPracticeModel jhs3s1ss2Lesson1IndependentQuizData = Independent
             "Making an inference means using clues from the speaker and your own experience to understand a hidden or implied meaning."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/4. JHS3 S1 SS3 L1/7. Independent Practice.m4a',
   questions: [
@@ -7037,7 +6767,8 @@ final IndependentPracticeModel jhs3s1ss3Lesson1IndependentQuizData = Independent
             "The word 'School' is mono-syllabic as it has only one syllable."),
   ],
 );
-final IndependentPracticeModel jhs3s1ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s1ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/english/5. JHS3 S1 SS3 L2/7. Independent Practice.m4a',
   questions: [
@@ -7089,11 +6820,14 @@ final IndependentPracticeModel jhs3s1ss3Lesson2IndependentQuizData = Independent
   ],
 );
 
-final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/englsh jhs3 s2 ss1 l1/7. independent_practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/englsh jhs3 s2 ss1 l1/7. independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "\"Kwame loved reading sports magazines. Last Saturday, he bought a new magazine at the market for 15 Cedis. His main goal was to learn about the training routine of Ghana's national football team. He spent two hours reading in his room and took notes on their daily exercises.\""
+        question:
+            "\"Kwame loved reading sports magazines. Last Saturday, he bought a new magazine at the market for 15 Cedis. His main goal was to learn about the training routine of Ghana's national football team. He spent two hours reading in his room and took notes on their daily exercises.\""
             "1. What was Kwame's learning purpose when he started reading the magazine?",
         options: [
           "To find out the price of the magazine.",
@@ -7103,11 +6837,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Kwame's purpose for reading was to learn about the national team's training routine."
-    ),
-
+        explanation:
+            "Kwame's purpose for reading was to learn about the national team's training routine."),
     IndependentPracticeQuestion(
-        question: "2. Which detail from the text shows that Kwame was reading for knowledge and not just passing time?",
+        question:
+            "2. Which detail from the text shows that Kwame was reading for knowledge and not just passing time?",
         options: [
           "He bought the magazine at the market.",
           "He took notes on their daily exercises.",
@@ -7116,11 +6850,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Taking notes shows that Kwame was actively learning and trying to remember important information."
-    ),
-
+        explanation:
+            "Taking notes shows that Kwame was actively learning and trying to remember important information."),
     IndependentPracticeQuestion(
-        question: "3. If Kwame wants to check if he achieved his reading goal, what should he do?",
+        question:
+            "3. If Kwame wants to check if he achieved his reading goal, what should he do?",
         options: [
           "Buy another magazine next Saturday.",
           "Review the notes he took to see if they explain the training routine.",
@@ -7129,11 +6863,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Reviewing his notes helps him confirm whether he learned what he intended to learn."
-    ),
-
+        explanation:
+            "Reviewing his notes helps him confirm whether he learned what he intended to learn."),
     IndependentPracticeQuestion(
-        question: "4. Why is this text considered an example of independent reading?",
+        question:
+            "4. Why is this text considered an example of independent reading?",
         options: [
           "Kwame's teacher forced him to write an essay about it.",
           "Kwame chose to buy and read the magazine on his own for his own learning goals.",
@@ -7142,15 +6876,18 @@ final IndependentPracticeModel jhs3s2ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Independent reading happens when a person chooses reading materials and reads them for personal learning or enjoyment."
-    ),
+        explanation:
+            "Independent reading happens when a person chooses reading materials and reads them for personal learning or enjoyment."),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l2/7. independent practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs3 s2 ss1 l2/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "Passage:\"A flyer printed by an unknown group claims: 'Computers are destroying the minds of our youth! Anyone who uses a computer for more than ten minutes will completely lose the ability to read books. Parents must ban all screens immediately!'\"\n"
+        question:
+            "Passage:\"A flyer printed by an unknown group claims: 'Computers are destroying the minds of our youth! Anyone who uses a computer for more than ten minutes will completely lose the ability to read books. Parents must ban all screens immediately!'\"\n"
             "1. What is the primary weakness in the reasoning of the flyer?",
         options: [
           "It doesn't mention the price of computers in Ghana.",
@@ -7160,9 +6897,8 @@ final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "The flyer relies on exaggerated claims that are not supported by reliable evidence."
-    ),
-
+        explanation:
+            "The flyer relies on exaggerated claims that are not supported by reliable evidence."),
     IndependentPracticeQuestion(
         question: "2. How would you rate the credibility of this flyer?",
         options: [
@@ -7173,11 +6909,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "A source with an unknown author and unsupported extreme claims has low credibility."
-    ),
-
+        explanation:
+            "A source with an unknown author and unsupported extreme claims has low credibility."),
     IndependentPracticeQuestion(
-        question: "3. Which of the following statements represents a more balanced viewpoint on the same topic?",
+        question:
+            "3. Which of the following statements represents a more balanced viewpoint on the same topic?",
         options: [
           "Computers are perfect and have absolutely no disadvantages.",
           "Computers are highly useful tools for research, though excessive screen time can cause eye strain.",
@@ -7186,11 +6922,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "A balanced viewpoint recognizes both the benefits and the possible drawbacks of technology."
-    ),
-
+        explanation:
+            "A balanced viewpoint recognizes both the benefits and the possible drawbacks of technology."),
     IndependentPracticeQuestion(
-        question: "4. If a student reads this flyer and immediately throws away their school tablet, what critical reading step did they fail to perform?",
+        question:
+            "4. If a student reads this flyer and immediately throws away their school tablet, what critical reading step did they fail to perform?",
         options: [
           "Counting the number of exclamation marks.",
           "Spelling all the words correctly in their mind.",
@@ -7199,15 +6935,17 @@ final IndependentPracticeModel jhs3s2ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Critical readers evaluate the credibility and reasoning of a source before making decisions based on it."
-    ),
+        explanation:
+            "Critical readers evaluate the credibility and reasoning of a source before making decisions based on it."),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l3/7.independent practice',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. You are gathering research from various media sources for a school project. Which of the following would be considered the most credible source for an article on national economic growth?",
+        question:
+            "1. You are gathering research from various media sources for a school project. Which of the following would be considered the most credible source for an article on national economic growth?",
         options: [
           "A viral comment under a YouTube dance video.",
           "An official, signed report from the Ghana Statistical Service.",
@@ -7216,11 +6954,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Official reports from recognized institutions are reliable, evidence-based sources of information."
-    ),
-
+        explanation:
+            "Official reports from recognized institutions are reliable, evidence-based sources of information."),
     IndependentPracticeQuestion(
-        question: "2. Read this media snippet: \"The local council is terrible and completely corrupt! They never do anything right, and everyone hates their new plan.\" What is the main weakness of this text type?",
+        question:
+            "2. Read this media snippet: \"The local council is terrible and completely corrupt! They never do anything right, and everyone hates their new plan.\" What is the main weakness of this text type?",
         options: [
           "It is too long to read.",
           "It lacks headings.",
@@ -7229,11 +6967,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The statement relies on emotional language and unsupported claims rather than objective evidence."
-    ),
-
+        explanation:
+            "The statement relies on emotional language and unsupported claims rather than objective evidence."),
     IndependentPracticeQuestion(
-        question: "3. A health article contains five long paragraphs explaining how to prevent malaria, but it has no headings, no bold text, and no pictures. Which improvement would help a reader skim the text for details?",
+        question:
+            "3. A health article contains five long paragraphs explaining how to prevent malaria, but it has no headings, no bold text, and no pictures. Which improvement would help a reader skim the text for details?",
         options: [
           "Translating the article into British English.",
           "Adding bold subheadings like \"Use Mosquito Nets\" and \"Clear Standing Water\" above the relevant sections.",
@@ -7242,11 +6980,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Clear subheadings help readers quickly locate key information when skimming."
-    ),
-
+        explanation:
+            "Clear subheadings help readers quickly locate key information when skimming."),
     IndependentPracticeQuestion(
-        question: "4. Which text type is specifically designed to present a fast, objective, fact-based overview of an event that happened yesterday?",
+        question:
+            "4. Which text type is specifically designed to present a fast, objective, fact-based overview of an event that happened yesterday?",
         options: [
           "A feature article profile.",
           "A traditional folktale narrative.",
@@ -7255,15 +6993,18 @@ final IndependentPracticeModel jhs3s2ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A news report presents recent events in a factual, objective, and timely manner."
-    ),
+        explanation:
+            "A news report presents recent events in a factual, objective, and timely manner."),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/eng jhs3 s2 ss1 l4/7. independent practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/eng jhs3 s2 ss1 l4/7. independent practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "Passage:\"An educational article argues: 'To protect our environment, all schools should go completely paperless. Students must do 100% of their reading, writing, and examinations on digital tablets. This will save thousands of trees every year.'\"\n"
+        question:
+            "Passage:\"An educational article argues: 'To protect our environment, all schools should go completely paperless. Students must do 100% of their reading, writing, and examinations on digital tablets. This will save thousands of trees every year.'\"\n"
             "1. What is the author's main point of view in this passage?",
         options: [
           "Trees are not important for school compounds.",
@@ -7273,11 +7014,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "The author's main viewpoint is that digitalisation can help protect trees and the environment."
-    ),
-
+        explanation:
+            "The author's main viewpoint is that digitalisation can help protect trees and the environment."),
     IndependentPracticeQuestion(
-        question: "2. Consider your personal experience with school infrastructure. What major challenge does the author's perspective ignore?",
+        question:
+            "2. Consider your personal experience with school infrastructure. What major challenge does the author's perspective ignore?",
         options: [
           "The name of the school principal.",
           "The price of local uniform materials.",
@@ -7286,11 +7027,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "A practical challenge to full digitalisation is unreliable electricity and difficulty charging devices."
-    ),
-
+        explanation:
+            "A practical challenge to full digitalisation is unreliable electricity and difficulty charging devices."),
     IndependentPracticeQuestion(
-        question: "3. Which of the following represents the most expanded and practical idea that combines the text's goal with real-life constraints?",
+        question:
+            "3. Which of the following represents the most expanded and practical idea that combines the text's goal with real-life constraints?",
         options: [
           "Schools should completely reject all technology and only use paper.",
           "Schools should use digital tablets where possible, but maintain paper books as backups to ensure learning continues during power cuts.",
@@ -7299,11 +7040,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Hard",
-        explanation: "This option balances environmental goals with practical challenges such as unreliable electricity."
-    ),
-
+        explanation:
+            "This option balances environmental goals with practical challenges such as unreliable electricity."),
     IndependentPracticeQuestion(
-        question: "4. When you share your interpretation of this text with a classmate and they point out a new idea you missed, this process is called:",
+        question:
+            "4. When you share your interpretation of this text with a classmate and they point out a new idea you missed, this process is called:",
         options: [
           "Direct app entry.",
           "Peer review.",
@@ -7312,71 +7053,52 @@ final IndependentPracticeModel jhs3s2ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Peer review involves discussing ideas with others to improve understanding and identify points you may have missed."
-    ),
+        explanation:
+            "Peer review involves discussing ideas with others to improve understanding and identify points you may have missed."),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Scan this list for the capital of the Northern Region: ",
-        options: [
-          "Accra",
-          "Cape Coast",
-          "Tamale",
-          "Kumasi"
-        ],
+        options: ["Accra", "Cape Coast", "Tamale", "Kumasi"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Which technique would you use if you want to find the specific year Ghana gained independence in a long history book?",
-        options: [
-          "Skimming",
-          "Scanning",
-          "Singing",
-          "Guessing"
-        ],
+        question:
+            "2. Which technique would you use if you want to find the specific year Ghana gained independence in a long history book?",
+        options: ["Skimming", "Scanning", "Singing", "Guessing"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. In a newspaper, you read the headlines and the first sentence of each article to see which one is interesting. You are:",
-        options: [
-          "Scanning",
-          "Skimming",
-          "Dreaming",
-          "Investigating"
-        ],
+        question:
+            "3. In a newspaper, you read the headlines and the first sentence of each article to see which one is interesting. You are:",
+        options: ["Scanning", "Skimming", "Dreaming", "Investigating"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. \"The clinic is open from Monday to Friday, 8 AM to 5 PM. On Saturdays, it opens at 9 AM and closes at 12 PM. It is closed on Sundays.\" What time does the clinic close on Saturday?",
-        options: [
-          "8 AM",
-          "5 PM",
-          "9 AM",
-          "12 PM"
-        ],
+        question:
+            "4. \"The clinic is open from Monday to Friday, 8 AM to 5 PM. On Saturdays, it opens at 9 AM and closes at 12 PM. It is closed on Sundays.\" What time does the clinic close on Saturday?",
+        options: ["8 AM", "5 PM", "9 AM", "12 PM"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
+        explanation: "D"),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"Because the bridge over the Pra River was broken, the travellers had to use a canoe.\" What is the Cause?",
+        question:
+            "1. \"Because the bridge over the Pra River was broken, the travellers had to use a canoe.\" What is the Cause?",
         options: [
           "The travellers used a canoe.",
           "The travellers were tired.",
@@ -7385,11 +7107,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. \"Yaw found a wallet full of Cedis on the floor of the Kejetia Market. He looked around for the owner.\" Predict what Yaw will do next if he is an honest person:",
+        question:
+            "2. \"Yaw found a wallet full of Cedis on the floor of the Kejetia Market. He looked around for the owner.\" Predict what Yaw will do next if he is an honest person:",
         options: [
           "He will hide the money in his pocket.",
           "He will buy a new phone immediately.",
@@ -7398,24 +7119,16 @@ final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. Which word often signals a Comparison pattern?",
-        options: [
-          "Because",
-          "Similarly",
-          "Suddenly",
-          "Finally"
-        ],
+        options: ["Because", "Similarly", "Suddenly", "Finally"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. \"The sun came out after the heavy rain. Soon, the puddles on the school field began to disappear.\" What is the Relationship?",
+        question:
+            "4. \"The sun came out after the heavy rain. Soon, the puddles on the school field began to disappear.\" What is the Relationship?",
         options: [
           "Comparison",
           "Chronological",
@@ -7424,15 +7137,17 @@ final IndependentPracticeModel jhs3s2ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"Kofi, Esi, and Mansa all go to the library every Saturday to study.\" Which is a valid generalisation?",
+        question:
+            "1. \"Kofi, Esi, and Mansa all go to the library every Saturday to study.\" Which is a valid generalisation?",
         options: [
           "All children in the world love to study on Saturdays.",
           "Some students in this group are dedicated to their studies.",
@@ -7441,9 +7156,7 @@ final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Which of these is a faulty generalisation?",
         options: [
@@ -7454,11 +7167,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. You read a story about a community that came together to clean up a local beach. How would you modify this situation to fit your own school?",
+        question:
+            "3. You read a story about a community that came together to clean up a local beach. How would you modify this situation to fit your own school?",
         options: [
           "We could organise a \"Clean-Up Day\" for our school compound.",
           "We could go to the beach every day instead of school.",
@@ -7467,11 +7179,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "4. \"The rainy season in Ghana usually starts in April and ends in July.\" This is a:",
+        question:
+            "4. \"The rainy season in Ghana usually starts in April and ends in July.\" This is a:",
         options: [
           "Faulty generalisation.",
           "Valid generalisation.",
@@ -7480,12 +7191,13 @@ final IndependentPracticeModel jhs3s2ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these would most likely be an Expository text?",
@@ -7497,22 +7209,14 @@ final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. A text that uses words like \"First,\" \"Secondly,\" and \"Finally\" to explain how to wash a car is:",
-        options: [
-          "Narrative.",
-          "Procedural.",
-          "Expository.",
-          "A Poem."
-        ],
+        question:
+            "2. A text that uses words like \"First,\" \"Secondly,\" and \"Finally\" to explain how to wash a car is:",
+        options: ["Narrative.", "Procedural.", "Expository.", "A Poem."],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. What is the primary purpose of a Narrative text?",
         options: [
@@ -7523,11 +7227,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. \"The mischievous monkey grabbed the banana and climbed the tall mahogany tree.\" This style of writing is:",
+        question:
+            "4. \"The mischievous monkey grabbed the banana and climbed the tall mahogany tree.\" This style of writing is:",
         options: [
           "Formal and technical.",
           "Short and numbered.",
@@ -7536,15 +7239,17 @@ final IndependentPracticeModel jhs3s2ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L8/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "Abena’s first day at the boarding house was a whirlwind of activity. She struggled to carry her heavy trunk and chop box up the stairs. While the other girls laughed and chatted, Abena sat on her bunk, clutching a small photo of her family in Sunyani."
+        question:
+            "Abena’s first day at the boarding house was a whirlwind of activity. She struggled to carry her heavy trunk and chop box up the stairs. While the other girls laughed and chatted, Abena sat on her bunk, clutching a small photo of her family in Sunyani."
             "1. Scan for the Main Idea: What is this passage primarily about?",
         options: [
           "Abena's favorite food in her chop box.",
@@ -7554,22 +7259,13 @@ final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "2. Skim for Detail: Where is Abena's family from?",
-        options: [
-          "Accra",
-          "Sunyani",
-          "Kumasi",
-          "Cape Coast"
-        ],
+        options: ["Accra", "Sunyani", "Kumasi", "Cape Coast"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Relate to Experience: Why is Abena clutching the photo?",
         options: [
@@ -7580,11 +7276,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. If you were in Abena's position, what is the first thing you would do to feel better?",
+        question:
+            "4. If you were in Abena's position, what is the first thing you would do to feel better?",
         options: [
           "Cry and go back home immediately.",
           "Open the chop box and eat all the shito.",
@@ -7593,15 +7288,17 @@ final IndependentPracticeModel jhs3s2ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L9/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"The sun was a golden coin in the sky, promising a day of wealth and joy.\" What is the effect of this metaphor?",
+        question:
+            "1. \"The sun was a golden coin in the sky, promising a day of wealth and joy.\" What is the effect of this metaphor?",
         options: [
           "It makes the reader feel sad and poor.",
           "It makes the reader feel hopeful and happy.",
@@ -7610,11 +7307,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "It makes the reader feel hopeful and happy."
-    ),
-
+        explanation: "It makes the reader feel hopeful and happy."),
     IndependentPracticeQuestion(
-        question: "2. Which literary device is used in the phrase: \"The raging, monstrous storm destroyed the village\"?",
+        question:
+            "2. Which literary device is used in the phrase: \"The raging, monstrous storm destroyed the village\"?",
         options: [
           "Simile",
           "Rhyme",
@@ -7623,11 +7319,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Strong Word Choice (Diction)"
-    ),
-
+        explanation: "Strong Word Choice (Diction)"),
     IndependentPracticeQuestion(
-        question: "3. A writer uses very long, complicated words in a story about a confused student. The purpose is likely to:",
+        question:
+            "3. A writer uses very long, complicated words in a story about a confused student. The purpose is likely to:",
         options: [
           "Show off how many words the writer knows.",
           "Make the reader feel as confused as the student.",
@@ -7636,11 +7331,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Make the reader feel as confused as the student."
-    ),
-
+        explanation: "Make the reader feel as confused as the student."),
     IndependentPracticeQuestion(
-        question: "4. \"The classroom was as quiet as a grave.\" How does this simile make the reader feel?",
+        question:
+            "4. \"The classroom was as quiet as a grave.\" How does this simile make the reader feel?",
         options: [
           "Excited for a party.",
           "Nervous or uneasy because it is too quiet.",
@@ -7649,16 +7343,17 @@ final IndependentPracticeModel jhs3s2ss1Lesson10IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Nervous or uneasy because it is too quiet."
-    ),
+        explanation: "Nervous or uneasy because it is too quiet."),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson11IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel jhs3s2ss1Lesson11IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
-  'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/7. Independent Practice.m4a',
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In a story, a character finally washes their dirty clothes after a long period of trouble. The clean white clothes most likely symbolise:",
+        question:
+            "1. In a story, a character finally washes their dirty clothes after a long period of trouble. The clean white clothes most likely symbolise:",
         options: [
           "The character's love for fashion.",
           "A new beginning or a fresh start.",
@@ -7667,11 +7362,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A new beginning or a fresh start."
-    ),
-
+        explanation: "A new beginning or a fresh start."),
     IndependentPracticeQuestion(
-        question: "2. Which of the following sentences uses sensory imagery for sound?",
+        question:
+            "2. Which of the following sentences uses sensory imagery for sound?",
         options: [
           "The fante kenkey was wrapped tightly in dried corn husks.",
           "The sunset turned the sky into a sea of purple and gold.",
@@ -7680,11 +7374,11 @@ final IndependentPracticeModel jhs3s2ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The sharp clink-clink of the blacksmith’s hammer echoed through the village."
-    ),
-
+        explanation:
+            "The sharp clink-clink of the blacksmith’s hammer echoed through the village."),
     IndependentPracticeQuestion(
-        question: "3. 'The city of Accra never sleeps.' This sentence is an example of:",
+        question:
+            "3. 'The city of Accra never sleeps.' This sentence is an example of:",
         options: [
           "A simile.",
           "Symbolism.",
@@ -7693,11 +7387,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Personification."
-    ),
-
+        explanation: "Personification."),
     IndependentPracticeQuestion(
-        question: "4. 'Kweku is a lion on the football pitch.' What does this metaphor suggest about Kweku?",
+        question:
+            "4. 'Kweku is a lion on the football pitch.' What does this metaphor suggest about Kweku?",
         options: [
           "Kweku likes to eat meat after a match.",
           "Kweku is very fast but gets tired easily.",
@@ -7706,28 +7399,23 @@ final IndependentPracticeModel jhs3s2ss1Lesson11IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Kweku is brave and powerful when he plays."
-    ),
+        explanation: "Kweku is brave and powerful when he plays."),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson12IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson12IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which word belongs to the ICT register?",
-        options: [
-          "Photosynthesis",
-          "Keyboard",
-          "Ingredient",
-          "Constitution"
-        ],
+        options: ["Photosynthesis", "Keyboard", "Ingredient", "Constitution"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Keyboard"
-    ),
-
+        explanation: "Keyboard"),
     IndependentPracticeQuestion(
-        question: "2. \"The fisherman used a trawl to catch many tilapia at once.\" What does trawl most likely mean based on the context?",
+        question:
+            "2. \"The fisherman used a trawl to catch many tilapia at once.\" What does trawl most likely mean based on the context?",
         options: [
           "A type of large fishing net",
           "A very fast boat",
@@ -7736,38 +7424,27 @@ final IndependentPracticeModel jhs3s2ss1Lesson12IndependentQuizData = Independen
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A type of large fishing net"
-    ),
-
+        explanation: "A type of large fishing net"),
     IndependentPracticeQuestion(
-        question: "3. Replace the underlined words with a technical term: \"The plant is making its own food using sunlight.\"",
-        options: [
-          "Respiration",
-          "Digestion",
-          "Photosynthesis",
-          "Fermentation"
-        ],
+        question:
+            "3. Replace the underlined words with a technical term: \"The plant is making its own food using sunlight.\"",
+        options: ["Respiration", "Digestion", "Photosynthesis", "Fermentation"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Photosynthesis"
-    ),
-
+        explanation: "Photosynthesis"),
     IndependentPracticeQuestion(
-        question: "4. If you are writing an essay about the history of Ghana, which word are you most likely to use?",
-        options: [
-          "Software",
-          "Colonisation",
-          "Molecule",
-          "Penalty"
-        ],
+        question:
+            "4. If you are writing an essay about the history of Ghana, which word are you most likely to use?",
+        options: ["Software", "Colonisation", "Molecule", "Penalty"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Colonisation"
-    ),
+        explanation: "Colonisation"),
   ],
 );
-final IndependentPracticeModel jhs3s2ss1Lesson13IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss1Lesson13IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. If \"cycle\" means wheel, what is a tricycle?",
@@ -7779,11 +7456,10 @@ final IndependentPracticeModel jhs3s2ss1Lesson13IndependentQuizData = Independen
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "A bike with three wheels."
-    ),
-
+        explanation: "A bike with three wheels."),
     IndependentPracticeQuestion(
-        question: "2. \"The student was disrespectful to the elder.\" Based on the prefix \"dis-\", what does this mean?",
+        question:
+            "2. \"The student was disrespectful to the elder.\" Based on the prefix \"dis-\", what does this mean?",
         options: [
           "The student was very kind.",
           "The student showed a lack of respect.",
@@ -7792,24 +7468,17 @@ final IndependentPracticeModel jhs3s2ss1Lesson13IndependentQuizData = Independen
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The student showed a lack of respect."
-    ),
-
+        explanation: "The student showed a lack of respect."),
     IndependentPracticeQuestion(
-        question: "3. Which word has the nuance of being very happy and excited?",
-        options: [
-          "Content",
-          "Okay",
-          "Jubilant",
-          "Calm"
-        ],
+        question:
+            "3. Which word has the nuance of being very happy and excited?",
+        options: ["Content", "Okay", "Jubilant", "Calm"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Jubilant"
-    ),
-
+        explanation: "Jubilant"),
     IndependentPracticeQuestion(
-        question: "4. The word \"portable\" comes from the root \"port\" (to carry). What is a portable radio?",
+        question:
+            "4. The word \"portable\" comes from the root \"port\" (to carry). What is a portable radio?",
         options: [
           "A radio that is very heavy.",
           "A radio that only works at home.",
@@ -7818,15 +7487,17 @@ final IndependentPracticeModel jhs3s2ss1Lesson13IndependentQuizData = Independen
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A radio that can be easily carried around."
-    ),
+        explanation: "A radio that can be easily carried around."),
   ],
 );
-final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS2 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S2 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is the most objective way to start a summary?",
+        question:
+            "1. Which of the following is the most objective way to start a summary?",
         options: [
           "I really liked how the author described...",
           "The article argues that...",
@@ -7835,11 +7506,10 @@ final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The article argues that..."
-    ),
-
+        explanation: "The article argues that..."),
     IndependentPracticeQuestion(
-        question: "2. When summarising a text about the Akosombo Dam, which detail is a \"Main Idea\"?",
+        question:
+            "2. When summarising a text about the Akosombo Dam, which detail is a \"Main Idea\"?",
         options: [
           "The dam provides a large portion of Ghana's electricity.",
           "There are many trees near the water.",
@@ -7848,9 +7518,8 @@ final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The dam provides a large portion of Ghana's electricity."
-    ),
-
+        explanation:
+            "The dam provides a large portion of Ghana's electricity."),
     IndependentPracticeQuestion(
         question: "3. An objective summary should always be:",
         options: [
@@ -7861,11 +7530,10 @@ final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Shorter than the original and free of bias."
-    ),
-
+        explanation: "Shorter than the original and free of bias."),
     IndependentPracticeQuestion(
-        question: "4. If a text mentions that a farmer in Tamale grows yams, maize, and millet to feed his family, what is the best summary?",
+        question:
+            "4. If a text mentions that a farmer in Tamale grows yams, maize, and millet to feed his family, what is the best summary?",
         options: [
           "The farmer prefers maize over yams.",
           "Farming in Tamale is a very difficult job.",
@@ -7874,16 +7542,18 @@ final IndependentPracticeModel jhs3s2ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A farmer in Tamale grows various crops for subsistence."
-    ),
+        explanation: "A farmer in Tamale grows various crops for subsistence."),
   ],
 );
 
-final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"**The small village near the Volta River** is very peaceful.\" What is the function of the bold phrase?",
+        question:
+            "1. \"**The small village near the Volta River** is very peaceful.\" What is the function of the bold phrase?",
         options: [
           "Direct Object",
           "Subject",
@@ -7892,11 +7562,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. \"Esi bought **some fresh mangoes** from the market.\" What is the function of the bold phrase?",
+        question:
+            "2. \"Esi bought **some fresh mangoes** from the market.\" What is the function of the bold phrase?",
         options: [
           "Subject",
           "Apposition",
@@ -7905,11 +7574,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
-        question: "3. \"The trophy was given to **the fastest runner in the school**.\" What is the function of the bold phrase?",
+        question:
+            "3. \"The trophy was given to **the fastest runner in the school**.\" What is the function of the bold phrase?",
         options: [
           "Object of Preposition",
           "Subject",
@@ -7918,11 +7586,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "4. \"My uncle, **a famous musician in Accra**, is coming to visit.\" What is the function of the bold phrase?",
+        question:
+            "4. \"My uncle, **a famous musician in Accra**, is coming to visit.\" What is the function of the bold phrase?",
         options: [
           "Subject",
           "Direct Object",
@@ -7931,12 +7598,13 @@ final IndependentPracticeModel jhs3s3ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L2/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which is the correct order?",
@@ -7948,9 +7616,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Choose the best description for a setting:",
         options: [
@@ -7961,9 +7627,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "3. Amma bought a __________ bag.",
         options: [
@@ -7974,9 +7638,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. The man __________ crawled out of the mudslide.",
         options: [
@@ -7987,28 +7649,24 @@ final IndependentPracticeModel jhs3s3ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L3/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. The student had to __________ a story because he forgot his homework.",
-        options: [
-          "come after",
-          "blow up",
-          "make up",
-          "come along"
-        ],
+        question:
+            "1. The student had to __________ a story because he forgot his homework.",
+        options: ["come after", "blow up", "make up", "come along"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. What does \"put off\" mean in this sentence: \"The festival was put off until next month\"?",
+        question:
+            "2. What does \"put off\" mean in this sentence: \"The festival was put off until next month\"?",
         options: [
           "To cancel forever",
           "To start early",
@@ -8017,41 +7675,29 @@ final IndependentPracticeModel jhs3s3ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
         question: "3. \"Ama is very tall; she really __________ her father.\"",
-        options: [
-          "takes after",
-          "blows up",
-          "comes after",
-          "makes up"
-        ],
+        options: ["takes after", "blows up", "comes after", "makes up"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "4. How is your new garden __________?",
-        options: [
-          "making up",
-          "coming along",
-          "blowing up",
-          "taking after"
-        ],
+        options: ["making up", "coming along", "blowing up", "taking after"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L4/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"The ceremony will begin at exactly ten o'clock.\" What is the function of this phrase?",
+        question:
+            "1. \"The ceremony will begin at exactly ten o'clock.\" What is the function of this phrase?",
         options: [
           "Describe How",
           "Describe Why",
@@ -8060,54 +7706,38 @@ final IndependentPracticeModel jhs3s3ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. \"The cat jumped over the compound wall.\" This phrase describes:",
-        options: [
-          "Place",
-          "Manner",
-          "Reason",
-          "Time"
-        ],
+        question:
+            "2. \"The cat jumped over the compound wall.\" This phrase describes:",
+        options: ["Place", "Manner", "Reason", "Time"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. \"She spoke in a very soft whisper.\" This phrase describes:",
-        options: [
-          "Why",
-          "How",
-          "When",
-          "Where"
-        ],
+        question:
+            "3. \"She spoke in a very soft whisper.\" This phrase describes:",
+        options: ["Why", "How", "When", "Where"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. \"He saved his money to travel to Kumasi.\" This phrase describes:",
-        options: [
-          "Time",
-          "Place",
-          "Manner",
-          "Purpose"
-        ],
+        question:
+            "4. \"He saved his money to travel to Kumasi.\" This phrase describes:",
+        options: ["Time", "Place", "Manner", "Purpose"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
+        explanation: "D"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L5/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L5/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. If we __________ to the Kejetia Market earlier, we __________ the fresh bread.",
+        question:
+            "1. If we __________ to the Kejetia Market earlier, we __________ the fresh bread.",
         options: [
           "have gone / would buy",
           "had gone / would have bought",
@@ -8116,11 +7746,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. You __________ the goal if you __________ the ball harder.",
+        question:
+            "2. You __________ the goal if you __________ the ball harder.",
         options: [
           "would have scored / had kicked",
           "would score / had kicked",
@@ -8129,11 +7758,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. If the driver __________ more carefully, the accident __________.",
+        question:
+            "3. If the driver __________ more carefully, the accident __________.",
         options: [
           "had driven / wouldn't happen",
           "drove / wouldn't have happened",
@@ -8142,11 +7770,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. I __________ you a gift if I __________ it was your birthday.",
+        question:
+            "4. I __________ you a gift if I __________ it was your birthday.",
         options: [
           "would have given / had known",
           "would give / had known",
@@ -8155,39 +7782,28 @@ final IndependentPracticeModel jhs3s3ss1Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L6/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L6/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. The man __________ stole the bag was caught by the police.",
-        options: [
-          "who",
-          "which",
-          "whose",
-          "whom"
-        ],
+        question:
+            "1. The man __________ stole the bag was caught by the police.",
+        options: ["who", "which", "whose", "whom"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "2. Accra, __________ is the capital of Ghana, is very crowded.",
-        options: [
-          "that",
-          "who",
-          "which",
-          "whose"
-        ],
+        question:
+            "2. Accra, __________ is the capital of Ghana, is very crowded.",
+        options: ["that", "who", "which", "whose"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. Which sentence is punctuated correctly?",
         options: [
@@ -8198,28 +7814,23 @@ final IndependentPracticeModel jhs3s3ss1Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. This is the book __________ I told you about.",
-        options: [
-          "who",
-          "whose",
-          "whom",
-          "that"
-        ],
+        options: ["who", "whose", "whom", "that"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
+        explanation: "D"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L7/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L7/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which part is the Predicate? \"The colourful kente cloth was made in Bonwire.\"",
+        question:
+            "1. Which part is the Predicate? \"The colourful kente cloth was made in Bonwire.\"",
         options: [
           "The colourful kente cloth",
           "was made in Bonwire",
@@ -8228,11 +7839,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Identify the Subject: \"My little brother likes to eat jollof rice.\"",
+        question:
+            "2. Identify the Subject: \"My little brother likes to eat jollof rice.\"",
         options: [
           "My little brother",
           "likes to eat",
@@ -8241,11 +7851,10 @@ final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. In the sentence \"The sun **shines brightly**,\" the bold text is:",
+        question:
+            "3. In the sentence \"The sun **shines brightly**,\" the bold text is:",
         options: [
           "The Subject",
           "The Predicate",
@@ -8254,9 +7863,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. Which sentence has the Subject underlined correctly?",
         options: [
@@ -8267,15 +7874,17 @@ final IndependentPracticeModel jhs3s3ss1Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L8/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L8/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Change to Passive: \"The weaver made a beautiful basket.\"",
+        question:
+            "1. Change to Passive: \"The weaver made a beautiful basket.\"",
         options: [
           "A beautiful basket made the weaver.",
           "A beautiful basket was made by the weaver.",
@@ -8284,9 +7893,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Which sentence is in the Active Voice?",
         options: [
@@ -8297,9 +7904,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. Change to Passive: \"The farmer grows cocoa.\"",
         options: [
@@ -8310,9 +7915,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "4. \"The bridge was built in 1960.\" Why is this passive?",
         options: [
@@ -8323,12 +7926,13 @@ final IndependentPracticeModel jhs3s3ss1Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss1Lesson9IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS1 L9/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss1Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS1 L9/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. \"I am feeling ill,\" said the student.",
@@ -8340,9 +7944,7 @@ final IndependentPracticeModel jhs3s3ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. \"We are going to Accra tomorrow,\" they told us.",
         options: [
@@ -8353,22 +7955,13 @@ final IndependentPracticeModel jhs3s3ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "3. Which word usually replaces \"this\" in reported speech?",
-        options: [
-          "those",
-          "these",
-          "that",
-          "then"
-        ],
+        options: ["those", "these", "that", "then"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. \"I have finished my homework,\" Kofi said.",
         options: [
@@ -8379,15 +7972,17 @@ final IndependentPracticeModel jhs3s3ss1Lesson9IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS2 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS2 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which sentence correctly uses a hyphen for a compound description?",
+        question:
+            "1. Which sentence correctly uses a hyphen for a compound description?",
         options: [
           "The well known doctor arrived.",
           "The well-known doctor arrived.",
@@ -8396,11 +7991,10 @@ final IndependentPracticeModel jhs3s3ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Where should brackets be placed in this sentence? Ama our class prefect is very kind.",
+        question:
+            "2. Where should brackets be placed in this sentence? Ama our class prefect is very kind.",
         options: [
           "Ama (our class prefect) is very kind.",
           "(Ama) our class prefect is very kind.",
@@ -8409,9 +8003,7 @@ final IndependentPracticeModel jhs3s3ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "3. Choose the correct way to write this fraction.",
         options: [
@@ -8422,41 +8014,31 @@ final IndependentPracticeModel jhs3s3ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which mark is used to show a sudden break or interruption in a thought?",
-        options: [
-          "Hyphen",
-          "Bracket",
-          "Dash",
-          "Full stop"
-        ],
+        question:
+            "4. Which mark is used to show a sudden break or interruption in a thought?",
+        options: ["Hyphen", "Bracket", "Dash", "Full stop"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS3 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. The headteacher was furious when he saw the broken window; he was so angry his face turned red.",
-        options: [
-          "Happy",
-          "Calm",
-          "Angry",
-          "Tired"
-        ],
+        question:
+            "1. The headteacher was furious when he saw the broken window; he was so angry his face turned red.",
+        options: ["Happy", "Calm", "Angry", "Tired"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. The football match was postponed until next week because the pitch was flooded with rain.",
+        question:
+            "2. The football match was postponed until next week because the pitch was flooded with rain.",
         options: [
           "Started early",
           "Cancelled forever",
@@ -8465,124 +8047,81 @@ final IndependentPracticeModel jhs3s3ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. The path was perilous, but the road was safe for the students to walk on.",
-        options: [
-          "Beautiful",
-          "Dangerous",
-          "Short",
-          "Wide"
-        ],
+        question:
+            "3. The path was perilous, but the road was safe for the students to walk on.",
+        options: ["Beautiful", "Dangerous", "Short", "Wide"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Esi is a very cautious driver; she is always careful to look both ways at the junction.",
-        options: [
-          "Fast",
-          "Careful",
-          "Reckless",
-          "Brave"
-        ],
+        question:
+            "4. Esi is a very cautious driver; she is always careful to look both ways at the junction.",
+        options: ["Fast", "Careful", "Reckless", "Brave"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel jhs3s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S3 SS3 L2/6. Independent Practice.m4a',
+final IndependentPracticeModel jhs3s3ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S3 SS3 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. The gold miners in Obuasi provide a lot of ________ for the country.",
-        options: [
-          "labor",
-          "laber",
-          "labour",
-          "labuor"
-        ],
+        question:
+            "1. The gold miners in Obuasi provide a lot of ________ for the country.",
+        options: ["labor", "laber", "labour", "labuor"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "2. Kojo was ________ to Accra when his bus broke down.",
-        options: [
-          "traveling",
-          "travelling",
-          "travelin",
-          "traweling"
-        ],
+        options: ["traveling", "travelling", "travelin", "traweling"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. I did not ________ that the bank was closed on Saturdays.",
-        options: [
-          "realise",
-          "realize",
-          "relise",
-          "realizee"
-        ],
+        question:
+            "3. I did not ________ that the bank was closed on Saturdays.",
+        options: ["realise", "realize", "relise", "realizee"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "4. The ________ of the cloth was a beautiful Kente pattern.",
-        options: [
-          "centar",
-          "center",
-          "centre",
-          "sentre"
-        ],
+        options: ["centar", "center", "centre", "sentre"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
 
-final IndependentPracticeModel jhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS1 L1/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which conjunction best completes this sentence? \"We will go to the farm ________ it rains.\"",
-        options: [
-          "although",
-          "unless",
-          "so that",
-          "and"
-        ],
+        question:
+            "1. Which conjunction best completes this sentence? \"We will go to the farm ________ it rains.\"",
+        options: ["although", "unless", "so that", "and"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Unless\" means 'except if,' making it the correct conjunction in the sentence."
-    ),
-
+        explanation:
+            "\"Unless\" means 'except if,' making it the correct conjunction in the sentence."),
     IndependentPracticeQuestion(
-        question: "2. Which word best joins these ideas to show a result? \"The bridge was broken; ________, we could not cross the river.\"",
-        options: [
-          "furthermore",
-          "however",
-          "consequently",
-          "similarly"
-        ],
+        question:
+            "2. Which word best joins these ideas to show a result? \"The bridge was broken; ________, we could not cross the river.\"",
+        options: ["furthermore", "however", "consequently", "similarly"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Consequently\" is a transition word used to show a result or effect."
-    ),
-
+        explanation:
+            "\"Consequently\" is a transition word used to show a result or effect."),
     IndependentPracticeQuestion(
-        question: "3. Identify the **non-defining relative clause** in this sentence: \"My uncle, who works at GCB Bank, is coming to visit.\"",
+        question:
+            "3. Identify the **non-defining relative clause** in this sentence: \"My uncle, who works at GCB Bank, is coming to visit.\"",
         options: [
           "My uncle is coming",
           "works at GCB Bank",
@@ -8591,39 +8130,30 @@ final IndependentPracticeModel jhs3s4ss1Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Who works at GCB Bank\" is a non-defining relative clause because it provides extra information about the uncle."
-    ),
-
+        explanation:
+            "\"Who works at GCB Bank\" is a non-defining relative clause because it provides extra information about the uncle."),
     IndependentPracticeQuestion(
-        question: "4. Which transitional device is best for ordering ideas in a recipe for Jollof rice?",
-        options: [
-          "In spite of",
-          "Firstly",
-          "Nevertheless",
-          "On the contrary"
-        ],
+        question:
+            "4. Which transitional device is best for ordering ideas in a recipe for Jollof rice?",
+        options: ["In spite of", "Firstly", "Nevertheless", "On the contrary"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Firstly\" is used to introduce the first step in a sequence or process."
-    ),
+        explanation:
+            "\"Firstly\" is used to introduce the first step in a sequence or process."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS1 L2/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which word is best to start the first body paragraph?",
-        options: [
-          "Therefore",
-          "Firstly",
-          "Nevertheless",
-          "However"
-        ],
+        options: ["Therefore", "Firstly", "Nevertheless", "However"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Firstly\" is the best transitional word to introduce the first main point in a body paragraph."
-    ),
-
+        explanation:
+            "\"Firstly\" is the best transitional word to introduce the first main point in a body paragraph."),
     IndependentPracticeQuestion(
         question: "2. Which sentence uses a relative clause to add detail?",
         options: [
@@ -8634,22 +8164,16 @@ final IndependentPracticeModel jhs3s4ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Who loves swimming\" is a relative clause that provides extra information about 'my brother.'"
-    ),
-
+        explanation:
+            "\"Who loves swimming\" is a relative clause that provides extra information about 'my brother.'"),
     IndependentPracticeQuestion(
-        question: "3. Choose the best connector to show a sudden change: \"We were playing ludo ________ it started to pour with rain.\"",
-        options: [
-          "after",
-          "next",
-          "suddenly",
-          "finally"
-        ],
+        question:
+            "3. Choose the best connector to show a sudden change: \"We were playing ludo ________ it started to pour with rain.\"",
+        options: ["after", "next", "suddenly", "finally"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Suddenly\" is used to indicate an unexpected or abrupt event."
-    ),
-
+        explanation:
+            "\"Suddenly\" is used to indicate an unexpected or abrupt event."),
     IndependentPracticeQuestion(
         question: "4. Which of these is a conclusion?",
         options: [
@@ -8660,39 +8184,31 @@ final IndependentPracticeModel jhs3s4ss1Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"In the end, it was a day I will never forget\" clearly summarizes and concludes the narrative."
-    ),
+        explanation:
+            "\"In the end, it was a day I will never forget\" clearly summarizes and concludes the narrative."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS1 L3/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which word best joins these ideas in a letter to a friend? \"I wanted to visit you, ________ I didn't have enough Cedis for the trotro.\"",
-        options: [
-          "therefore",
-          "but",
-          "consequently",
-          "furthermore"
-        ],
+        question:
+            "1. Which word best joins these ideas in a letter to a friend? \"I wanted to visit you, ________ I didn't have enough Cedis for the trotro.\"",
+        options: ["therefore", "but", "consequently", "furthermore"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"But\" shows a contrast between wanting to visit and not having enough money."
-    ),
-
+        explanation:
+            "\"But\" shows a contrast between wanting to visit and not having enough money."),
     IndependentPracticeQuestion(
-        question: "2. To show a result in a formal letter, which phrase is most appropriate?",
-        options: [
-          "And so",
-          "As a result",
-          "Then",
-          "Like"
-        ],
+        question:
+            "2. To show a result in a formal letter, which phrase is most appropriate?",
+        options: ["And so", "As a result", "Then", "Like"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"As a result\" is a formal connector used to show the outcome of an action or situation."
-    ),
-
+        explanation:
+            "\"As a result\" is a formal connector used to show the outcome of an action or situation."),
     IndependentPracticeQuestion(
         question: "3. Which of these shows paragraph unity?",
         options: [
@@ -8703,11 +8219,11 @@ final IndependentPracticeModel jhs3s4ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Paragraph unity means that every sentence contributes to and supports a single main idea."
-    ),
-
+        explanation:
+            "Paragraph unity means that every sentence contributes to and supports a single main idea."),
     IndependentPracticeQuestion(
-        question: "4. Identify the adjectival phrase in this sentence: \"The tall, leafy palm trees provide great shade.\"",
+        question:
+            "4. Identify the adjectival phrase in this sentence: \"The tall, leafy palm trees provide great shade.\"",
         options: [
           "provide great shade",
           "The tall, leafy palm trees",
@@ -8716,28 +8232,26 @@ final IndependentPracticeModel jhs3s4ss1Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"The tall, leafy palm trees\" is the noun phrase modified by the adjectives 'tall' and 'leafy', functioning as the adjectival phrase in the given options."
-    ),
+        explanation:
+            "\"The tall, leafy palm trees\" is the noun phrase modified by the adjectives 'tall' and 'leafy', functioning as the adjectival phrase in the given options."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS1 L4/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which word is best to link a summary of a problem to its solution?",
-        options: [
-          "Similarly",
-          "However",
-          "Therefore",
-          "For example"
-        ],
+        question:
+            "1. Which word is best to link a summary of a problem to its solution?",
+        options: ["Similarly", "However", "Therefore", "For example"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Therefore\" is used to introduce a logical result or solution based on a problem."
-    ),
-
+        explanation:
+            "\"Therefore\" is used to introduce a logical result or solution based on a problem."),
     IndependentPracticeQuestion(
-        question: "2. A good summary should be ________ than the original text.",
+        question:
+            "2. A good summary should be ________ than the original text.",
         options: [
           "Longer and more detailed",
           "The same length",
@@ -8746,11 +8260,11 @@ final IndependentPracticeModel jhs3s4ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A summary presents the main ideas briefly, so it should be shorter and more concise than the original text."
-    ),
-
+        explanation:
+            "A summary presents the main ideas briefly, so it should be shorter and more concise than the original text."),
     IndependentPracticeQuestion(
-        question: "3. When summarising, what should you do with the topic sentence?",
+        question:
+            "3. When summarising, what should you do with the topic sentence?",
         options: [
           "Delete it.",
           "Rewrite it in your own words.",
@@ -8759,11 +8273,11 @@ final IndependentPracticeModel jhs3s4ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "When summarising, you should restate the topic sentence in your own words while keeping its original meaning."
-    ),
-
+        explanation:
+            "When summarising, you should restate the topic sentence in your own words while keeping its original meaning."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a noun phrase used to summarize \"The market which is located at Kejetia\"?",
+        question:
+            "4. Which of these is a noun phrase used to summarize \"The market which is located at Kejetia\"?",
         options: [
           "The market is big.",
           "The Kejetia Market.",
@@ -8772,15 +8286,18 @@ final IndependentPracticeModel jhs3s4ss1Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"The Kejetia Market\" is a noun phrase that briefly identifies and summarizes the market."
-    ),
+        explanation:
+            "\"The Kejetia Market\" is a noun phrase that briefly identifies and summarizes the market."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L1/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which sentence uses multiple powerful adjectives to describe a forest?",
+        question:
+            "1. Which sentence uses multiple powerful adjectives to describe a forest?",
         options: [
           "The forest had a lot of trees and was very green.",
           "It was a big, dark, and quiet forest.",
@@ -8789,9 +8306,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Ancient,\" \"towering,\" and \"emerald-green\" are vivid, powerful adjectives that create a strong image of the forest."
-    ),
-
+        explanation:
+            "\"Ancient,\" \"towering,\" and \"emerald-green\" are vivid, powerful adjectives that create a strong image of the forest."),
     IndependentPracticeQuestion(
         question: "2. Identify the sentence that uses frontloading for effect.",
         options: [
@@ -8802,11 +8318,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The descriptive phrase \"Golden and blinding\" is placed at the beginning to create emphasis before introducing the subject."
-    ),
-
+        explanation:
+            "The descriptive phrase \"Golden and blinding\" is placed at the beginning to create emphasis before introducing the subject."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is an example of climactic sentence structure?",
+        question:
+            "3. Which of these is an example of climactic sentence structure?",
         options: [
           "He ate an apple, an orange, and a banana.",
           "The wind whispered, then whistled, then howled with rage.",
@@ -8815,11 +8331,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The actions build in intensity from whispered to whistled to howled, creating a climactic effect."
-    ),
-
+        explanation:
+            "The actions build in intensity from whispered to whistled to howled, creating a climactic effect."),
     IndependentPracticeQuestion(
-        question: "4. Which sentence uses selective detail to describe a hardworking farmer?",
+        question:
+            "4. Which sentence uses selective detail to describe a hardworking farmer?",
         options: [
           "The farmer was wearing a shirt and trousers today.",
           "He was a very tall man who liked to farm a lot.",
@@ -8828,12 +8344,14 @@ final IndependentPracticeModel jhs3s4ss2Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The description focuses on specific details—his hard, calloused palms—to emphasize years of hard work."
-    ),
+        explanation:
+            "The description focuses on specific details—his hard, calloused palms—to emphasize years of hard work."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L2/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is the best example of backstory?",
@@ -8845,9 +8363,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Backstory provides important information about a character's past that helps explain who they are or why they act the way they do."
-    ),
-
+        explanation:
+            "Backstory provides important information about a character's past that helps explain who they are or why they act the way they do."),
     IndependentPracticeQuestion(
         question: "2. Identify the foreshadowing in this passage:",
         options: [
@@ -8858,9 +8375,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Foreshadowing gives hints about events that will happen later in the story. The gathering storm clouds suggest future trouble."
-    ),
-
+        explanation:
+            "Foreshadowing gives hints about events that will happen later in the story. The gathering storm clouds suggest future trouble."),
     IndependentPracticeQuestion(
         question: "3. Which sentence uses emotive details to show excitement?",
         options: [
@@ -8871,41 +8387,34 @@ final IndependentPracticeModel jhs3s4ss2Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The sentence uses vivid physical and emotional details to help the reader feel the character's excitement."
-    ),
-
+        explanation:
+            "The sentence uses vivid physical and emotional details to help the reader feel the character's excitement."),
     IndependentPracticeQuestion(
-        question: "4. A story about a wedding suddenly shows a scene of the couple as elderly people sitting on a porch years later. This is:",
-        options: [
-          "Flashback",
-          "Backstory",
-          "Flash-forward",
-          "Foreshadowing"
-        ],
+        question:
+            "4. A story about a wedding suddenly shows a scene of the couple as elderly people sitting on a porch years later. This is:",
+        options: ["Flashback", "Backstory", "Flash-forward", "Foreshadowing"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A flash-forward jumps ahead in time to show events that happen later in the story."
-    ),
+        explanation:
+            "A flash-forward jumps ahead in time to show events that happen later in the story."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L3/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a mental verb used to express a viewpoint?",
-        options: [
-          "Running",
-          "Believe",
-          "Quickly",
-          "Ghana"
-        ],
+        question:
+            "1. Which of these is a mental verb used to express a viewpoint?",
+        options: ["Running", "Believe", "Quickly", "Ghana"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Believe\" is a mental verb because it expresses a thought, opinion, or viewpoint."
-    ),
-
+        explanation:
+            "\"Believe\" is a mental verb because it expresses a thought, opinion, or viewpoint."),
     IndependentPracticeQuestion(
-        question: "2. Identify the sentence using the simple present tense for a fact.",
+        question:
+            "2. Identify the sentence using the simple present tense for a fact.",
         options: [
           "Ghana will have a holiday tomorrow.",
           "Ghana is located in West Africa.",
@@ -8914,9 +8423,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The simple present tense is used to state general truths and facts. 'Ghana is located in West Africa' is a factual statement."
-    ),
-
+        explanation:
+            "The simple present tense is used to state general truths and facts. 'Ghana is located in West Africa' is a factual statement."),
     IndependentPracticeQuestion(
         question: "3. In a rejoinder, where should your own address be placed?",
         options: [
@@ -8927,25 +8435,22 @@ final IndependentPracticeModel jhs3s4ss2Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "In a formal rejoinder, the writer's address is written at the top right corner of the page."
-    ),
-
+        explanation:
+            "In a formal rejoinder, the writer's address is written at the top right corner of the page."),
     IndependentPracticeQuestion(
-        question: "4. Which modal verb is best for \"hedging\" (making a suggestion less aggressive)?",
-        options: [
-          "Must",
-          "Will",
-          "Might",
-          "Always"
-        ],
+        question:
+            "4. Which modal verb is best for \"hedging\" (making a suggestion less aggressive)?",
+        options: ["Must", "Will", "Might", "Always"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Might\" expresses possibility and softens suggestions, making them less forceful."
-    ),
+        explanation:
+            "\"Might\" expresses possibility and softens suggestions, making them less forceful."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L4/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which sentence is written in objective language?",
@@ -8957,9 +8462,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Objective language presents facts without personal opinions or emotions. The sentence states only factual information."
-    ),
-
+        explanation:
+            "Objective language presents facts without personal opinions or emotions. The sentence states only factual information."),
     IndependentPracticeQuestion(
         question: "2. To vividly describe a situation, you should:",
         options: [
@@ -8970,11 +8474,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Specific sensory details help readers clearly imagine a scene while keeping the description accurate."
-    ),
-
+        explanation:
+            "Specific sensory details help readers clearly imagine a scene while keeping the description accurate."),
     IndependentPracticeQuestion(
-        question: "3. Reports should be devoid of personal bias. What does this mean?",
+        question:
+            "3. Reports should be devoid of personal bias. What does this mean?",
         options: [
           "You should include your own opinion.",
           "You should only write about people you like.",
@@ -8983,11 +8487,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A report should be objective by avoiding personal opinions and presenting only factual information."
-    ),
-
+        explanation:
+            "A report should be objective by avoiding personal opinions and presenting only factual information."),
     IndependentPracticeQuestion(
-        question: "4. Which of the following helps to organise an informative text logically?",
+        question:
+            "4. Which of the following helps to organise an informative text logically?",
         options: [
           "Mixing all your ideas into one long paragraph.",
           "Using headings and numbered lists.",
@@ -8996,15 +8500,18 @@ final IndependentPracticeModel jhs3s4ss2Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Headings and numbered lists make information easier to follow and organize logically."
-    ),
+        explanation:
+            "Headings and numbered lists make information easier to follow and organize logically."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L5/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is a key feature of a formal letter?",
+        question:
+            "1. Which of the following is a key feature of a formal letter?",
         options: [
           "Using many emojis to show feelings.",
           "Using clear section headings and a formal layout.",
@@ -9013,9 +8520,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A formal letter follows a proper layout and uses clear sections with professional language."
-    ),
-
+        explanation:
+            "A formal letter follows a proper layout and uses clear sections with professional language."),
     IndependentPracticeQuestion(
         question: "2. What should you do during the proofreading stage?",
         options: [
@@ -9026,11 +8532,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Proofreading involves checking and correcting errors to improve clarity, meaning, grammar, and overall effectiveness."
-    ),
-
+        explanation:
+            "Proofreading involves checking and correcting errors to improve clarity, meaning, grammar, and overall effectiveness."),
     IndependentPracticeQuestion(
-        question: "3. Which sign-off is most appropriate for a business letter to someone you do not know by name?",
+        question:
+            "3. Which sign-off is most appropriate for a business letter to someone you do not know by name?",
         options: [
           "Best wishes,",
           "See ya later,",
@@ -9039,11 +8545,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Yours faithfully,\" is the correct formal closing when the recipient's name is unknown."
-    ),
-
+        explanation:
+            "\"Yours faithfully,\" is the correct formal closing when the recipient's name is unknown."),
     IndependentPracticeQuestion(
-        question: "4. A written record of the decisions made during a meeting is called:",
+        question:
+            "4. A written record of the decisions made during a meeting is called:",
         options: [
           "An Agenda.",
           "A Business Letter.",
@@ -9052,12 +8558,14 @@ final IndependentPracticeModel jhs3s4ss2Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Meeting minutes are the official written record of what was discussed and decided during a meeting."
-    ),
+        explanation:
+            "Meeting minutes are the official written record of what was discussed and decided during a meeting."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/independent_practice.m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L6/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is the purpose of a slogan on a poster?",
@@ -9069,9 +8577,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A slogan is a short, memorable phrase used to attract attention and help people remember a message or brand."
-    ),
-
+        explanation:
+            "A slogan is a short, memorable phrase used to attract attention and help people remember a message or brand."),
     IndependentPracticeQuestion(
         question: "2. When writing an invitation, what does RSVP mean?",
         options: [
@@ -9082,9 +8589,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "RSVP asks the invited person to reply and let the host know whether they will attend."
-    ),
-
+        explanation:
+            "RSVP asks the invited person to reply and let the host know whether they will attend."),
     IndependentPracticeQuestion(
         question: "3. In an email, the Subject Line should be:",
         options: [
@@ -9095,9 +8601,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The subject line briefly summarizes the purpose or topic of the email."
-    ),
-
+        explanation:
+            "The subject line briefly summarizes the purpose or topic of the email."),
     IndependentPracticeQuestion(
         question: "4. Which of these should be included on a business flyer?",
         options: [
@@ -9108,15 +8613,18 @@ final IndependentPracticeModel jhs3s4ss2Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A business flyer should highlight the key benefits, services, or special offers to attract customers."
-    ),
+        explanation:
+            "A business flyer should highlight the key benefits, services, or special offers to attract customers."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L7/ENGLISH JHS3 S4 SS2 L7 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a formal response to a newspaper issue?",
+        question:
+            "1. Which of these is a formal response to a newspaper issue?",
         options: [
           "A diary entry",
           "A Letter to the Editor",
@@ -9125,9 +8633,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A Letter to the Editor is a formal way to express opinions or respond to issues published in a newspaper."
-    ),
-
+        explanation:
+            "A Letter to the Editor is a formal way to express opinions or respond to issues published in a newspaper."),
     IndependentPracticeQuestion(
         question: "2. What is a Case Study?",
         options: [
@@ -9138,11 +8645,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A case study is an in-depth investigation of a particular person, event, problem, or situation."
-    ),
-
+        explanation:
+            "A case study is an in-depth investigation of a particular person, event, problem, or situation."),
     IndependentPracticeQuestion(
-        question: "3. Where would you most likely find an article written for an online audience?",
+        question:
+            "3. Where would you most likely find an article written for an online audience?",
         options: [
           "A printed textbook",
           "A Webzine",
@@ -9151,9 +8658,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A webzine is an online magazine designed specifically for internet readers."
-    ),
-
+        explanation:
+            "A webzine is an online magazine designed specifically for internet readers."),
     IndependentPracticeQuestion(
         question: "4. Short reports for publication should always be:",
         options: [
@@ -9164,12 +8670,14 @@ final IndependentPracticeModel jhs3s4ss2Lesson7IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Published reports should be well-organized and based on accurate facts so readers can trust the information."
-    ),
+        explanation:
+            "Published reports should be well-organized and based on accurate facts so readers can trust the information."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS2 L8/ENGLISH JHS3 S4 SS2 L8 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these uses emotive adjectives?",
@@ -9181,11 +8689,11 @@ final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "\"Magnificent\" and \"courageous\" are emotive adjectives that create strong positive feelings."
-    ),
-
+        explanation:
+            "\"Magnificent\" and \"courageous\" are emotive adjectives that create strong positive feelings."),
     IndependentPracticeQuestion(
-        question: "2. \"I have a dream that one day...\" is a famous example of:",
+        question:
+            "2. \"I have a dream that one day...\" is a famous example of:",
         options: [
           "A shopping list.",
           "Powerful imagery and repetition.",
@@ -9194,9 +8702,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Martin Luther King Jr.'s repeated phrase \"I have a dream\" is a classic example of repetition used to create emphasis and memorable imagery."
-    ),
-
+        explanation:
+            "Martin Luther King Jr.'s repeated phrase \"I have a dream\" is a classic example of repetition used to create emphasis and memorable imagery."),
     IndependentPracticeQuestion(
         question: "3. What does \"Tripling\" mean in a speech?",
         options: [
@@ -9207,9 +8714,8 @@ final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Tripling is a rhetorical technique that uses three related words, phrases, or ideas to make a speech more memorable and persuasive."
-    ),
-
+        explanation:
+            "Tripling is a rhetorical technique that uses three related words, phrases, or ideas to make a speech more memorable and persuasive."),
     IndependentPracticeQuestion(
         question: "4. In the Conclusion of a speech, you should:",
         options: [
@@ -9220,15 +8726,18 @@ final IndependentPracticeModel jhs3s4ss2Lesson8IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The conclusion should briefly summarize the main points and leave the audience with a clear final message."
-    ),
+        explanation:
+            "The conclusion should briefly summarize the main points and leave the audience with a clear final message."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L1/ENGLISH JHS3 S4 SS3 L1 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Kofi is researching the different types of transport used by students to get to school in Kumasi. Which of these is a 'focused question'?",
+        question:
+            "1. Kofi is researching the different types of transport used by students to get to school in Kumasi. Which of these is a 'focused question'?",
         options: [
           "Do you like coming to school?",
           "What is the most common colour of a trotro?",
@@ -9237,11 +8746,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A focused question directly addresses the research topic by asking about the specific types of transport students use."
-    ),
-
+        explanation:
+            "A focused question directly addresses the research topic by asking about the specific types of transport students use."),
     IndependentPracticeQuestion(
-        question: "2. Abena is looking at a website to find the price of Kenkey in different regions. What should she do while reading?",
+        question:
+            "2. Abena is looking at a website to find the price of Kenkey in different regions. What should she do while reading?",
         options: [
           "Memorise everything and close the laptop.",
           "Record her findings and the website name immediately.",
@@ -9250,11 +8759,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Recording both the information and its source helps keep accurate research notes and allows proper referencing."
-    ),
-
+        explanation:
+            "Recording both the information and its source helps keep accurate research notes and allows proper referencing."),
     IndependentPracticeQuestion(
-        question: "3. If you include a list of 'References' at the end of your project, what are you avoiding?",
+        question:
+            "3. If you include a list of 'References' at the end of your project, what are you avoiding?",
         options: [
           "Good grades.",
           "Plagiarism.",
@@ -9263,11 +8772,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "References give credit to the original sources of information and help prevent plagiarism."
-    ),
-
+        explanation:
+            "References give credit to the original sources of information and help prevent plagiarism."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is the best way to present information gathered from different local bread bakers?",
+        question:
+            "4. Which of these is the best way to present information gathered from different local bread bakers?",
         options: [
           "A list of unorganised notes.",
           "A story about your favorite bread.",
@@ -9276,41 +8785,34 @@ final IndependentPracticeModel jhs3s4ss3Lesson1IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A well-organized report with headings and references presents research clearly and professionally."
-    ),
+        explanation:
+            "A well-organized report with headings and references presents research clearly and professionally."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel jhs3s4ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Kwame speaks to his teacher using \"Please, Sir\" and \"Thank you, Madam.\" Which element of characterisation is this?",
-        options: [
-          "Appearance",
-          "Speech",
-          "Actions",
-          "Others' opinions"
-        ],
+        question:
+            "1. Kwame speaks to his teacher using \"Please, Sir\" and \"Thank you, Madam.\" Which element of characterisation is this?",
+        options: ["Appearance", "Speech", "Actions", "Others' opinions"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A character's words and the way they speak reveal their personality, manners, and attitude."
-    ),
-
+        explanation:
+            "A character's words and the way they speak reveal their personality, manners, and attitude."),
     IndependentPracticeQuestion(
-        question: "2. A character in a story always shares his 'bofrot' with the children on his street who have no breakfast. This shows the character is:",
-        options: [
-          "Greedy",
-          "Lazy",
-          "Kind-hearted",
-          "Proud"
-        ],
+        question:
+            "2. A character in a story always shares his 'bofrot' with the children on his street who have no breakfast. This shows the character is:",
+        options: ["Greedy", "Lazy", "Kind-hearted", "Proud"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Sharing food with others in need shows kindness and generosity."
-    ),
-
+        explanation:
+            "Sharing food with others in need shows kindness and generosity."),
     IndependentPracticeQuestion(
-        question: "3. If a character enters a scene with sweat on their brow and dirt under their fingernails, what is the author showing through 'Appearance'?",
+        question:
+            "3. If a character enters a scene with sweat on their brow and dirt under their fingernails, what is the author showing through 'Appearance'?",
         options: [
           "The character has been resting.",
           "The character has been doing hard physical work.",
@@ -9319,11 +8821,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sweat and dirty fingernails are physical clues that suggest the character has been working hard."
-    ),
-
+        explanation:
+            "Sweat and dirty fingernails are physical clues that suggest the character has been working hard."),
     IndependentPracticeQuestion(
-        question: "4. Why would a writer have other characters talk about a 'ghost' that haunts the village?",
+        question:
+            "4. Why would a writer have other characters talk about a 'ghost' that haunts the village?",
         options: [
           "To make the story longer.",
           "To build fear and character reputation before the 'ghost' appears.",
@@ -9332,11 +8834,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "What other characters say can build suspense and shape the reader's expectations before a character appears."
-    ),
-
+        explanation:
+            "What other characters say can build suspense and shape the reader's expectations before a character appears."),
     IndependentPracticeQuestion(
-        question: "5. Which of these is the most effective way to show a character is angry without saying \"he was angry\"?",
+        question:
+            "5. Which of these is the most effective way to show a character is angry without saying \"he was angry\"?",
         options: [
           "Describing his neatly combed hair.",
           "Showing him slamming a door and shouting at his brother.",
@@ -9345,15 +8847,18 @@ final IndependentPracticeModel jhs3s4ss3Lesson2IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A character's actions and dialogue effectively show emotions instead of directly telling the reader."
-    ),
+        explanation:
+            "A character's actions and dialogue effectively show emotions instead of directly telling the reader."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L2/ENGLISH JHS3 S4 SS3 L2 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the main difference between a monologue and a dialogue?",
+        question:
+            "1. What is the main difference between a monologue and a dialogue?",
         options: [
           "A monologue is written, but a dialogue is spoken.",
           "A monologue involves one person, while a dialogue involves two or more.",
@@ -9362,11 +8867,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A monologue is spoken by one character, while a dialogue is a conversation between two or more characters."
-    ),
-
+        explanation:
+            "A monologue is spoken by one character, while a dialogue is a conversation between two or more characters."),
     IndependentPracticeQuestion(
-        question: "2. In a play script, how should a character's name be written?",
+        question:
+            "2. In a play script, how should a character's name be written?",
         options: [
           "In small letters with a comma.",
           "At the end of the sentence.",
@@ -9375,9 +8880,8 @@ final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Character names in play scripts are usually written in capital letters followed by a colon before their dialogue."
-    ),
-
+        explanation:
+            "Character names in play scripts are usually written in capital letters followed by a colon before their dialogue."),
     IndependentPracticeQuestion(
         question: "3. Which of these is a dialogue?",
         options: [
@@ -9388,9 +8892,8 @@ final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A dialogue is a conversation between two or more people, such as a teacher and a student talking."
-    ),
-
+        explanation:
+            "A dialogue is a conversation between two or more people, such as a teacher and a student talking."),
     IndependentPracticeQuestion(
         question: "4. What is the purpose of a stage direction?",
         options: [
@@ -9401,11 +8904,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Stage directions guide the actors by explaining their actions, movements, or emotions during the play."
-    ),
-
+        explanation:
+            "Stage directions guide the actors by explaining their actions, movements, or emotions during the play."),
     IndependentPracticeQuestion(
-        question: "5. Which punctuation mark is used after a character's name in a script?",
+        question:
+            "5. Which punctuation mark is used after a character's name in a script?",
         options: [
           "Full stop (.)",
           "Comma (,)",
@@ -9414,15 +8917,18 @@ final IndependentPracticeModel jhs3s4ss3Lesson3IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A colon is placed after a character's name to introduce that character's spoken lines."
-    ),
+        explanation:
+            "A colon is placed after a character's name to introduce that character's spoken lines."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L4/ENGLISH JHS3 S4 SS3 L4 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which part of a story is usually the most exciting turning point?",
+        question:
+            "1. Which part of a story is usually the most exciting turning point?",
         options: [
           "The Introduction",
           "The Climax",
@@ -9431,11 +8937,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The climax is the most exciting and important turning point in a story where the main conflict reaches its highest point."
-    ),
-
+        explanation:
+            "The climax is the most exciting and important turning point in a story where the main conflict reaches its highest point."),
     IndependentPracticeQuestion(
-        question: "2. A biography of Yaa Asantewaa would most likely follow which sequence?",
+        question:
+            "2. A biography of Yaa Asantewaa would most likely follow which sequence?",
         options: [
           "Random events with no order.",
           "Starting from her final battle and ending with her birth.",
@@ -9444,11 +8950,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Biographies are usually written in chronological order, beginning with a person's early life and continuing through major life events."
-    ),
-
+        explanation:
+            "Biographies are usually written in chronological order, beginning with a person's early life and continuing through major life events."),
     IndependentPracticeQuestion(
-        question: "3. What is the purpose of the 'Resolution' in a sequence of events?",
+        question:
+            "3. What is the purpose of the 'Resolution' in a sequence of events?",
         options: [
           "To introduce a new problem.",
           "To show how the conflict is settled and end the story.",
@@ -9457,11 +8963,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The resolution explains how the main problem is solved and brings the story to a satisfying conclusion."
-    ),
-
+        explanation:
+            "The resolution explains how the main problem is solved and brings the story to a satisfying conclusion."),
     IndependentPracticeQuestion(
-        question: "4. In a play script, how are major changes in time or location usually shown?",
+        question:
+            "4. In a play script, how are major changes in time or location usually shown?",
         options: [
           "By changing the font size.",
           "By starting a new 'Scene' or 'Act.'",
@@ -9470,39 +8976,31 @@ final IndependentPracticeModel jhs3s4ss3Lesson4IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A new scene or act usually signals a change in setting, time, or major stage action."
-    ),
-
+        explanation:
+            "A new scene or act usually signals a change in setting, time, or major stage action."),
     IndependentPracticeQuestion(
-        question: "5. If two stories both end with a celebration in a Ghanaian village, they share a similar:",
-        options: [
-          "Climax",
-          "Resolution",
-          "Conflict",
-          "Setting only"
-        ],
+        question:
+            "5. If two stories both end with a celebration in a Ghanaian village, they share a similar:",
+        options: ["Climax", "Resolution", "Conflict", "Setting only"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A celebration at the end of a story is part of the resolution because it happens after the conflict has been solved."
-    ),
+        explanation:
+            "A celebration at the end of a story is part of the resolution because it happens after the conflict has been solved."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss3Lesson5IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (5. INDEPENDENT PRACTICE).m4a',
+final IndependentPracticeModel jhs3s4ss3Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L5/ENGLISH JHS3 S4 SS3 L5 (5. INDEPENDENT PRACTICE).m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. \"The classroom was a zoo during the break period.\" This is an example of:",
-        options: [
-          "Simile",
-          "Metaphor",
-          "Personification",
-          "Idiom"
-        ],
+        question:
+            "1. \"The classroom was a zoo during the break period.\" This is an example of:",
+        options: ["Simile", "Metaphor", "Personification", "Idiom"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A metaphor compares two unlike things directly without using 'like' or 'as'."
-    ),
-
+        explanation:
+            "A metaphor compares two unlike things directly without using 'like' or 'as'."),
     IndependentPracticeQuestion(
         question: "2. Which sentence uses a simile?",
         options: [
@@ -9513,24 +9011,19 @@ final IndependentPracticeModel jhs3s4ss3Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A simile compares two things using the words 'like' or 'as'."
-    ),
-
+        explanation:
+            "A simile compares two things using the words 'like' or 'as'."),
     IndependentPracticeQuestion(
-        question: "3. In the sentence \"The waves danced along the shore,\" which device is used?",
-        options: [
-          "Idiom",
-          "Metaphor",
-          "Personification",
-          "Simile"
-        ],
+        question:
+            "3. In the sentence \"The waves danced along the shore,\" which device is used?",
+        options: ["Idiom", "Metaphor", "Personification", "Simile"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Personification gives human actions or qualities to non-human things, such as waves 'dancing'."
-    ),
-
+        explanation:
+            "Personification gives human actions or qualities to non-human things, such as waves 'dancing'."),
     IndependentPracticeQuestion(
-        question: "4. If someone says \"Break a leg\" before you go on stage for a play, they mean:",
+        question:
+            "4. If someone says \"Break a leg\" before you go on stage for a play, they mean:",
         options: [
           "They want you to get hurt.",
           "You should be careful.",
@@ -9539,28 +9032,25 @@ final IndependentPracticeModel jhs3s4ss3Lesson5IndependentQuizData = Independent
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "\"Break a leg\" is an idiom commonly used in theatre to wish someone good luck before a performance."
-    ),
-
+        explanation:
+            "\"Break a leg\" is an idiom commonly used in theatre to wish someone good luck before a performance."),
     IndependentPracticeQuestion(
         question: "5. \"He is as busy as a bee.\" This comparison is a:",
-        options: [
-          "Personification",
-          "Metaphor",
-          "Simile",
-          "Narrative"
-        ],
+        options: ["Personification", "Metaphor", "Simile", "Narrative"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The phrase uses 'as...as' to compare two things, making it a simile."
-    ),
+        explanation:
+            "The phrase uses 'as...as' to compare two things, making it a simile."),
   ],
 );
-final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (5. INDEPENDENT PRACTICE) .m4a',
+final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (5. INDEPENDENT PRACTICE) .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Anansi tries to keep all the wisdom in the world in a pot, but the pot breaks and the wisdom spreads to everyone. What is the theme?",
+        question:
+            "1. Anansi tries to keep all the wisdom in the world in a pot, but the pot breaks and the wisdom spreads to everyone. What is the theme?",
         options: [
           "Wisdom is dangerous.",
           "Knowledge should be shared, not hidden.",
@@ -9569,9 +9059,8 @@ final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The story teaches that knowledge is most valuable when it is shared with others rather than kept by one person."
-    ),
-
+        explanation:
+            "The story teaches that knowledge is most valuable when it is shared with others rather than kept by one person."),
     IndependentPracticeQuestion(
         question: "2. Which of these is a 'Theme' and NOT a 'Plot'?",
         options: [
@@ -9582,22 +9071,16 @@ final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A theme is the main message or lesson of a story, while a plot is the sequence of events."
-    ),
-
+        explanation:
+            "A theme is the main message or lesson of a story, while a plot is the sequence of events."),
     IndependentPracticeQuestion(
-        question: "3. If a film uses bright, cheerful music and shows people dancing together at a festival, what theme is likely being shown?",
-        options: [
-          "Sadness",
-          "Loneliness",
-          "Cultural Joy and Unity",
-          "Fear"
-        ],
+        question:
+            "3. If a film uses bright, cheerful music and shows people dancing together at a festival, what theme is likely being shown?",
+        options: ["Sadness", "Loneliness", "Cultural Joy and Unity", "Fear"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Cheerful music and people celebrating together suggest the theme of cultural joy and unity."
-    ),
-
+        explanation:
+            "Cheerful music and people celebrating together suggest the theme of cultural joy and unity."),
     IndependentPracticeQuestion(
         question: "4. When you 'adapt' a theme into a new story, you are:",
         options: [
@@ -9608,11 +9091,11 @@ final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Adapting a theme means creating a different story while keeping the same central idea or lesson."
-    ),
-
+        explanation:
+            "Adapting a theme means creating a different story while keeping the same central idea or lesson."),
     IndependentPracticeQuestion(
-        question: "5. Which ICT tool is best for typing and organising a story about the theme of 'Honesty'?",
+        question:
+            "5. Which ICT tool is best for typing and organising a story about the theme of 'Honesty'?",
         options: [
           "A calculator",
           "A word processing app on your iPad",
@@ -9621,8 +9104,8 @@ final IndependentPracticeModel jhs3s4ss3Lesson6IndependentQuizData = Independent
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A word processing app is designed for writing, editing, and organising stories and other documents."
-    ),
+        explanation:
+            "A word processing app is designed for writing, editing, and organising stories and other documents."),
   ],
 );
 
@@ -12481,8 +11964,7 @@ final IndependentPracticeModel RMEjhs3s1ss1Lesson2IndependentQuizData =
       'assets/audio/RME/2. RME JHS3 S1 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-      question:
-          "1. The vastness of the universe gives testimony to God as:",
+      question: "1. The vastness of the universe gives testimony to God as:",
       options: [
         "A student.",
         "The Creator.",
@@ -12706,7 +12188,8 @@ final IndependentPracticeModel RMEjhs3s1ss2Lesson3IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/RME/1. RME JHS3 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -12764,7 +12247,8 @@ final IndependentPracticeModel RMEjhs3s2ss1Lesson1IndependentQuizData = Independ
     ),
   ],
 );
-final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/RME/2. RME JHS3 S2 SS1 L2/6. Independent Practice.m4a',
   questions: [
@@ -12826,8 +12310,10 @@ final IndependentPracticeModel RMEjhs3s2ss1Lesson2IndependentQuizData = Independ
     ),
   ],
 );
-final IndependentPracticeModel RMEjhs3s2ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/RME/3. RME JHS3 S2 SS1 L3/8. Independent Practice .m4a',
+final IndependentPracticeModel RMEjhs3s2ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/RME/3. RME JHS3 S2 SS1 L3/8. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
       question:
@@ -14132,8 +13618,10 @@ final IndependentPracticeModel SSjhs1s4ss1Lesson1IndependentQuizData =
   ],
 );
 
-final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/social_studies/1. SOCIAL STUDIES JHS1 S5 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Human Resource Development is the process of:",
@@ -14188,8 +13676,10 @@ final IndependentPracticeModel SSjhs1s5ss1Lesson1IndependentQuizData = Independe
             "An apprentice learning dressmaking from a master tailor is an example of training for a specific job.")
   ],
 );
-final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-      audioPath: 'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/7. Independent Practice.m4a',
+final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/social_studies/2. SOCIAL STUDIES JHS1 S5 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question:
@@ -14235,12 +13725,13 @@ final IndependentPracticeModel SSjhs1s5ss2Lesson1IndependentQuizData = Independe
             "The standard compulsory retirement age to receive a full old-age pension from SSNIT is 60 years.")
   ],
 );
-final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-      audioPath: 'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/8. indepent_practice.m4a',
+final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s5 ss3 l1/8. indepent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question:
-        "1. What is the main difference between tourism and leisure?",
+        question: "1. What is the main difference between tourism and leisure?",
         options: [
           "Tourism is only for rich people, while leisure is for everyone.",
           "Tourism involves travelling, while leisure is about how you use your free time.",
@@ -14250,10 +13741,10 @@ final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData = Independe
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Tourism involves travelling, while leisure is about how you use your free time."),
+            "Tourism involves travelling, while leisure is about how you use your free time."),
     IndependentPracticeQuestion(
         question:
-        "2. Which of the following is a challenge facing the tourism industry in Ghana?",
+            "2. Which of the following is a challenge facing the tourism industry in Ghana?",
         options: [
           "Having too many beautiful waterfalls",
           "High patronage by all Ghanaians",
@@ -14263,10 +13754,10 @@ final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData = Independe
         correctIndex: 2,
         difficulty: "Easy",
         explanation:
-        "Poor infrastructure like bad roads to sites is a challenge facing the tourism industry in Ghana."),
+            "Poor infrastructure like bad roads to sites is a challenge facing the tourism industry in Ghana."),
     IndependentPracticeQuestion(
         question:
-        "3. Why would a group of Muslims travel from Kumasi to Larabanga?",
+            "3. Why would a group of Muslims travel from Kumasi to Larabanga?",
         options: [
           "For medical surgery",
           "For religious purposes",
@@ -14276,10 +13767,9 @@ final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData = Independe
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "A group of Muslims would travel from Kumasi to Larabanga for religious purposes."),
+            "A group of Muslims would travel from Kumasi to Larabanga for religious purposes."),
     IndependentPracticeQuestion(
-        question:
-        "4. How does tourism promote local craft industries?",
+        question: "4. How does tourism promote local craft industries?",
         options: [
           "It forces artists to stop carving",
           "It provides a market for tourists to buy carvings and Kente",
@@ -14289,15 +13779,18 @@ final IndependentPracticeModel SSjhs1s5ss3Lesson1IndependentQuizData = Independe
         correctIndex: 1,
         difficulty: "Easy",
         explanation:
-        "Tourism promotes local craft industries by providing a market for tourists to buy carvings and Kente."),
+            "Tourism promotes local craft industries by providing a market for tourists to buy carvings and Kente."),
   ],
 );
 
-final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/independent_practice.m4a',
+final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l1/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Who served as the independent chairman of the official commission appointed in March 1948 to investigate the causes of the Accra riots?",
+        question:
+            "1. Who served as the independent chairman of the official commission appointed in March 1948 to investigate the causes of the Accra riots?",
         options: [
           "Andrew Aiken Watson",
           "Sir Charles Noble Arden-Clarke",
@@ -14306,24 +13799,17 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData = Independe
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "2. Which major town was not mentioned as one of the primary urban centers where mass looting and civil disturbances rapidly spread after 28th February 1948?",
-        options: [
-          "Sunyani",
-          "Koforidua",
-          "Cape Coast",
-          "Sekondi"
-        ],
+        question:
+            "2. Which major town was not mentioned as one of the primary urban centers where mass looting and civil disturbances rapidly spread after 28th February 1948?",
+        options: ["Sunyani", "Koforidua", "Cape Coast", "Sekondi"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. The three ex-servicemen who were tragically shot dead at the Christiansborg crossroads were marching peacefully to present a formal petition to which colonial official?",
+        question:
+            "3. The three ex-servicemen who were tragically shot dead at the Christiansborg crossroads were marching peacefully to present a formal petition to which colonial official?",
         options: [
           "Major Imray",
           "Governor Alan Burns",
@@ -14332,11 +13818,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData = Independe
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which of the following was a direct political outcome recommended by the Watson Commission report of June 1948?",
+        question:
+            "4. Which of the following was a direct political outcome recommended by the Watson Commission report of June 1948?",
         options: [
           "The immediate declaration of complete independence for the colony",
           "The drafting of a completely new constitution to replace the Burns Constitution",
@@ -14345,15 +13830,17 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson1IndependentQuizData = Independe
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/independent_practice.m4a',
+final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l2/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. On which historic date did Dr. Kwame Nkrumah officially break away from the UGCC and launch the Convention People's Party at the Old Polo Grounds in Accra?",
+        question:
+            "1. On which historic date did Dr. Kwame Nkrumah officially break away from the UGCC and launch the Convention People's Party at the Old Polo Grounds in Accra?",
         options: [
           "28th February 1948",
           "12th June 1949",
@@ -14362,11 +13849,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData = Independe
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Which prominent CPP leader served as the party's General Secretary, helping organize its administrative structures after returning from studies in the United Kingdom?",
+        question:
+            "2. Which prominent CPP leader served as the party's General Secretary, helping organize its administrative structures after returning from studies in the United Kingdom?",
         options: [
           "Kojo Botsio",
           "Ebenezer Ako Adjei",
@@ -14375,11 +13861,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData = Independe
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. The term \"veranda boys\" was originally used by wealthy political elites to describe which group of people within the Gold Coast?",
+        question:
+            "3. The term \"veranda boys\" was originally used by wealthy political elites to describe which group of people within the Gold Coast?",
         options: [
           "Highly trained British military and security officers",
           "Ordinary, working-class citizens, youth, and low-wage laborers",
@@ -14388,11 +13873,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData = Independe
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. What was the official slogan of the Convention People's Party, designed to inspire continuous progress toward liberation?",
+        question:
+            "4. What was the official slogan of the Convention People's Party, designed to inspire continuous progress toward liberation?",
         options: [
           "Self-government within the shortest possible time",
           "Freedom and Justice forever",
@@ -14401,15 +13885,17 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson2IndependentQuizData = Independe
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel SSjhs1s6ss1Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/independent_practice.m4a',
+final IndependentPracticeModel SSjhs1s6ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l3/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Who served as the prominent African High Court Judge who chaired the 1949 constitutional advisory committee?",
+        question:
+            "1. Who served as the prominent African High Court Judge who chaired the 1949 constitutional advisory committee?",
         options: [
           "Sir Charles Noble Arden-Clarke",
           "Sir James Henley Coussey",
@@ -14418,11 +13904,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson3IndependentQuizData = Independe
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. How many contested legislative seats did the Convention People's Party (CPP) win during the first historic general elections in February 1951?",
+        question:
+            "2. How many contested legislative seats did the Convention People's Party (CPP) win during the first historic general elections in February 1951?",
         options: [
           "Three seats",
           "Seventy-two seats",
@@ -14431,24 +13916,17 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson3IndependentQuizData = Independe
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. The National Liberation Movement (NLM), which strongly opposed the CPP's centralist vision, was formed in which prominent city?",
-        options: [
-          "Sekondi",
-          "Tamale",
-          "Accra",
-          "Kumasi"
-        ],
+        question:
+            "3. The National Liberation Movement (NLM), which strongly opposed the CPP's centralist vision, was formed in which prominent city?",
+        options: ["Sekondi", "Tamale", "Accra", "Kumasi"],
         correctIndex: 3,
         difficulty: "Medium",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
-        question: "4. What was the primary reason why the British government insisted on holding a final general election in July 1956?",
+        question:
+            "4. What was the primary reason why the British government insisted on holding a final general election in July 1956?",
         options: [
           "To choose a brand-new national flag and national anthem for the country",
           "To settle the intense constitutional conflict between a centralized and a federal system of government",
@@ -14457,15 +13935,17 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson3IndependentQuizData = Independe
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/independent_practice.m4a',
+final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/social_studies/social studies jhs1 s6 ss1 l4/independent_practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which specific system of government did Ghana adopt under its 1957 Independence Constitution?",
+        question:
+            "1. Which specific system of government did Ghana adopt under its 1957 Independence Constitution?",
         options: [
           "An absolute military dictatorship",
           "A traditional federal system led by regional chiefs",
@@ -14474,11 +13954,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData = Independe
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Who served as the official representative of the British Monarch in Ghana, holding the position of Governor-General during the late 1950 transition years?",
+        question:
+            "2. Who served as the official representative of the British Monarch in Ghana, holding the position of Governor-General during the late 1950 transition years?",
         options: [
           "Major General Alexander Paley",
           "Lord Listowel",
@@ -14487,11 +13966,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData = Independe
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Which prominent Ghanaian official held the vital portfolio of Minister of Finance, managing the new nation's economic budget between 1957 and 1960?",
+        question:
+            "3. Which prominent Ghanaian official held the vital portfolio of Minister of Finance, managing the new nation's economic budget between 1957 and 1960?",
         options: [
           "Komla Agbeli Gbedemah",
           "Kojo Botsio",
@@ -14500,11 +13978,10 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData = Independe
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "4. What major political milestone occurred in July 1960, officially ending the power-sharing arrangement with the British government?",
+        question:
+            "4. What major political milestone occurred in July 1960, officially ending the power-sharing arrangement with the British government?",
         options: [
           "Ghana returned to total British colonial rule",
           "Ghana adopted a federal system under the NLM",
@@ -14513,8 +13990,7 @@ final IndependentPracticeModel SSjhs1s6ss1Lesson4IndependentQuizData = Independe
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
 
@@ -16494,7 +15970,8 @@ final IndependentPracticeModel SSjhs3s6ss1Lesson4IndependentQuizData =
 );
 
 ///Science
-final IndependentPracticeModel Scijhs1s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS1 S1 SS1 L1/6. Independent Practice.m4a',
   questions: [
@@ -16540,7 +16017,8 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson1IndependentQuizData = Independ
             "In solids, particles are tightly packed in a fixed and orderly arrangement."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/2. JHS1 S1 SS1 L2/6. Independent Practice.m4a',
   questions: [
@@ -16585,7 +16063,8 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson2IndependentQuizData = Independ
             "Petrol is a fuel that provides energy to run car engines."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/3. JHS1 S1 SS1 L3/6. Independent Practice.m4a',
   questions: [
@@ -16629,7 +16108,8 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson3IndependentQuizData = Independ
         explanation: "Boiled yam is a solid food that provides energy."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/4. JHS1 S1 SS1 L4/6. Independent Practice.m4a',
   questions: [
@@ -16675,7 +16155,8 @@ final IndependentPracticeModel Scijhs1s1ss1Lesson4IndependentQuizData = Independ
   ],
 );
 
-final IndependentPracticeModel Scijhs1s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/5. JHS1 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -16719,7 +16200,8 @@ final IndependentPracticeModel Scijhs1s1ss2Lesson1IndependentQuizData = Independ
         explanation: "Animal cell vacuoles are usually small and temporary."),
   ],
 );
-final IndependentPracticeModel Scijhs1s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s1ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/6. JHS1 S1 SS2 L2/7. Independent Practice.m4a',
   questions: [
@@ -16762,7 +16244,8 @@ final IndependentPracticeModel Scijhs1s1ss2Lesson2IndependentQuizData = Independ
   ],
 );
 
-final IndependentPracticeModel Scijhs1s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s2ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS1 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -16776,11 +16259,11 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The Gulf of Guinea is a major surface water source in Ghana."
-    ),
-
+        explanation:
+            "The Gulf of Guinea is a major surface water source in Ghana."),
     IndependentPracticeQuestion(
-        question: "2. What is the name of the process where water vapour cools down to form clouds?",
+        question:
+            "2. What is the name of the process where water vapour cools down to form clouds?",
         options: [
           "Condensation",
           "Evaporation",
@@ -16789,11 +16272,11 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Condensation happens when water vapour cools and changes into tiny water droplets to form clouds."
-    ),
-
+        explanation:
+            "Condensation happens when water vapour cools and changes into tiny water droplets to form clouds."),
     IndependentPracticeQuestion(
-        question: "3. In the water cycle, what follows the stage of precipitation?",
+        question:
+            "3. In the water cycle, what follows the stage of precipitation?",
         options: [
           "Vapour rises",
           "Water collects",
@@ -16802,11 +16285,11 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "After precipitation, water collects in rivers, lakes, oceans, and other water bodies."
-    ),
-
+        explanation:
+            "After precipitation, water collects in rivers, lakes, oceans, and other water bodies."),
     IndependentPracticeQuestion(
-        question: "4. Why is the water cycle described as a \"repeated pattern\"?",
+        question:
+            "4. Why is the water cycle described as a \"repeated pattern\"?",
         options: [
           "It only happens in the rainy season.",
           "It moves water in a continuous loop.",
@@ -16815,15 +16298,18 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The water cycle is continuous because water keeps moving through evaporation, condensation, precipitation, and collection."
-    ),
+        explanation:
+            "The water cycle is continuous because water keeps moving through evaporation, condensation, precipitation, and collection."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/2. JHS1 S2 SS1 L2/6. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/2. JHS1 S2 SS1 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Why is rainwater usually fresh even if it evaporates from the salty sea?",
+        question:
+            "1. Why is rainwater usually fresh even if it evaporates from the salty sea?",
         options: [
           "The salt stays behind during evaporation.",
           "The clouds add sugar to the water.",
@@ -16832,11 +16318,11 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "During evaporation, only water changes into vapour while the salt remains behind."
-    ),
-
+        explanation:
+            "During evaporation, only water changes into vapour while the salt remains behind."),
     IndependentPracticeQuestion(
-        question: "2. What do we call the level of water stored deep under the ground?",
+        question:
+            "2. What do we call the level of water stored deep under the ground?",
         options: [
           "The River Pra",
           "The Water Table",
@@ -16845,9 +16331,8 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The water table is the underground level where water is stored."
-    ),
-
+        explanation:
+            "The water table is the underground level where water is stored."),
     IndependentPracticeQuestion(
         question: "3. How does the water cycle assist in farming?",
         options: [
@@ -16858,11 +16343,11 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Water helps carry nutrients from the soil to plant roots, supporting healthy crop growth."
-    ),
-
+        explanation:
+            "Water helps carry nutrients from the soil to plant roots, supporting healthy crop growth."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a result of the water cycle regulating the weather?",
+        question:
+            "4. Which of these is a result of the water cycle regulating the weather?",
         options: [
           "The price of yams in the market.",
           "The colors of the Ghanaian flag.",
@@ -16871,71 +16356,55 @@ final IndependentPracticeModel Scijhs1s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The water cycle affects rainfall and helps create rainy and dry seasons."
-    ),
+        explanation:
+            "The water cycle affects rainfall and helps create rainy and dry seasons."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/3. JHS1 S2 SS2 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/3. JHS1 S2 SS2 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which stage comes immediately after the egg hatches?",
-        options: [
-          "Adult",
-          "Larva",
-          "Pupa",
-          "Eggshell"
-        ],
+        options: ["Adult", "Larva", "Pupa", "Eggshell"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "After the egg hatches, the insect enters the larva stage."
-    ),
-
+        explanation:
+            "After the egg hatches, the insect enters the larva stage."),
     IndependentPracticeQuestion(
-        question: "2. What is the common Ghanaian name for the larva of a housefly?",
-        options: [
-          "Caterpillar",
-          "Tadpole",
-          "Maggot",
-          "Mosquito"
-        ],
+        question:
+            "2. What is the common Ghanaian name for the larva of a housefly?",
+        options: ["Caterpillar", "Tadpole", "Maggot", "Mosquito"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The larva of a housefly is commonly called a maggot."
-    ),
-
+        explanation: "The larva of a housefly is commonly called a maggot."),
     IndependentPracticeQuestion(
-        question: "3. The hard, brown shell formed during the third stage of the life cycle is called the...",
-        options: [
-          "Puparium",
-          "Egg case",
-          "Cocoon",
-          "Wing sac"
-        ],
+        question:
+            "3. The hard, brown shell formed during the third stage of the life cycle is called the...",
+        options: ["Puparium", "Egg case", "Cocoon", "Wing sac"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The hard brown covering formed in the pupa stage is called the puparium."
-    ),
-
+        explanation:
+            "The hard brown covering formed in the pupa stage is called the puparium."),
     IndependentPracticeQuestion(
-        question: "4. How many stages are there in the complete life cycle of a housefly?",
-        options: [
-          "Two stages",
-          "Three stages",
-          "Four stages",
-          "Five stages"
-        ],
+        question:
+            "4. How many stages are there in the complete life cycle of a housefly?",
+        options: ["Two stages", "Three stages", "Four stages", "Five stages"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The housefly life cycle has four stages: egg, larva, pupa, and adult."
-    ),
+        explanation:
+            "The housefly life cycle has four stages: egg, larva, pupa, and adult."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/4. JHS1 S2 SS2 L2/6. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/4. JHS1 S2 SS2 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is the most effective way to prevent flies from breeding in your home?",
+        question:
+            "1. Which of these is the most effective way to prevent flies from breeding in your home?",
         options: [
           "Leaving food on the table",
           "Keeping dustbins tightly covered",
@@ -16944,9 +16413,8 @@ final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Keeping dustbins tightly covered prevents flies from accessing places to breed."
-    ),
-
+        explanation:
+            "Keeping dustbins tightly covered prevents flies from accessing places to breed."),
     IndependentPracticeQuestion(
         question: "2. Houseflies are a menace because they carry...",
         options: [
@@ -16957,11 +16425,11 @@ final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Houseflies carry pathogens such as germs and bacteria that can spread diseases."
-    ),
-
+        explanation:
+            "Houseflies carry pathogens such as germs and bacteria that can spread diseases."),
     IndependentPracticeQuestion(
-        question: "3. Using a fly swatter to kill a fly is an example of which control method?",
+        question:
+            "3. Using a fly swatter to kill a fly is an example of which control method?",
         options: [
           "Biological control",
           "Chemical control",
@@ -16970,9 +16438,8 @@ final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A fly swatter physically removes or kills the fly, so it is a physical control method."
-    ),
-
+        explanation:
+            "A fly swatter physically removes or kills the fly, so it is a physical control method."),
     IndependentPracticeQuestion(
         question: "4. Why do flies prefer to land on rotten food and manure?",
         options: [
@@ -16983,28 +16450,26 @@ final IndependentPracticeModel Scijhs1s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Flies are attracted to rotten food and manure because they feed there and lay their eggs."
-    ),
+        explanation:
+            "Flies are attracted to rotten food and manure because they feed there and lay their eggs."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss3Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/5. JHS1 S2 SS3 L1/6. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/5. JHS1 S2 SS3 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a common local example of an organic plant nutrient?",
-        options: [
-          "Urea pellets",
-          "Poultry dung",
-          "NPK powder",
-          "Liquid spray"
-        ],
+        question:
+            "1. Which of these is a common local example of an organic plant nutrient?",
+        options: ["Urea pellets", "Poultry dung", "NPK powder", "Liquid spray"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Poultry dung is an organic nutrient source because it comes from animal waste."
-    ),
-
+        explanation:
+            "Poultry dung is an organic nutrient source because it comes from animal waste."),
     IndependentPracticeQuestion(
-        question: "2. Where do plants primarily get Carbon, Hydrogen, and Oxygen?",
+        question:
+            "2. Where do plants primarily get Carbon, Hydrogen, and Oxygen?",
         options: [
           "Only from soil",
           "Air and water",
@@ -17013,9 +16478,8 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Plants mainly get Carbon from air and Hydrogen and Oxygen from water."
-    ),
-
+        explanation:
+            "Plants mainly get Carbon from air and Hydrogen and Oxygen from water."),
     IndependentPracticeQuestion(
         question: "3. What is a major characteristic of inorganic fertilisers?",
         options: [
@@ -17026,11 +16490,11 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Inorganic fertilisers are chemically manufactured, making them man-made."
-    ),
-
+        explanation:
+            "Inorganic fertilisers are chemically manufactured, making them man-made."),
     IndependentPracticeQuestion(
-        question: "4. Which nutrient source is best for improving the soil’s ability to hold water?",
+        question:
+            "4. Which nutrient source is best for improving the soil’s ability to hold water?",
         options: [
           "Muriate of potash",
           "Ammonium nitrate",
@@ -17039,15 +16503,18 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Well-made compost improves soil structure and helps the soil retain water."
-    ),
+        explanation:
+            "Well-made compost improves soil structure and helps the soil retain water."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/6. JHS1 S2 SS3 L2/6. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/6. JHS1 S2 SS3 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these best describes the physical appearance of NPK fertiliser?",
+        question:
+            "1. Which of these best describes the physical appearance of NPK fertiliser?",
         options: [
           "Dark, moist, and bulky",
           "Hard, uniform granules",
@@ -17056,9 +16523,8 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "NPK fertiliser is commonly seen as hard, uniform granules."
-    ),
-
+        explanation:
+            "NPK fertiliser is commonly seen as hard, uniform granules."),
     IndependentPracticeQuestion(
         question: "2. What is the \"Ring Method\" primarily used for?",
         options: [
@@ -17069,11 +16535,11 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The Ring Method is used to apply fertiliser around individual plants."
-    ),
-
+        explanation:
+            "The Ring Method is used to apply fertiliser around individual plants."),
     IndependentPracticeQuestion(
-        question: "3. Which application method involves placing fertiliser in a row next to the plants?",
+        question:
+            "3. Which application method involves placing fertiliser in a row next to the plants?",
         options: [
           "Side Dressing",
           "Broadcasting",
@@ -17082,11 +16548,11 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Side dressing involves applying fertiliser in rows beside growing plants."
-    ),
-
+        explanation:
+            "Side dressing involves applying fertiliser in rows beside growing plants."),
     IndependentPracticeQuestion(
-        question: "4. Which type of nutrient source usually requires the largest volume for a garden?",
+        question:
+            "4. Which type of nutrient source usually requires the largest volume for a garden?",
         options: [
           "Liquid Urea",
           "NPK Granules",
@@ -17095,12 +16561,14 @@ final IndependentPracticeModel Scijhs1s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Organic manure is bulky and usually needed in larger amounts than chemical fertilisers."
-    ),
+        explanation:
+            "Organic manure is bulky and usually needed in larger amounts than chemical fertilisers."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss4Lesson1IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/7. JHS1 S2 SS4 L1/8. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/7. JHS1 S2 SS4 L1/8. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is a characteristic of the N'dama cattle?",
@@ -17112,9 +16580,8 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "N'dama cattle are typically brown and do not have a hump."
-    ),
-
+        explanation:
+            "N'dama cattle are typically brown and do not have a hump."),
     IndependentPracticeQuestion(
         question: "2. The Yankasa sheep is easily identified by which feature?",
         options: [
@@ -17125,11 +16592,11 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Yankasa sheep are known for the black patches around their eyes and nose."
-    ),
-
+        explanation:
+            "Yankasa sheep are known for the black patches around their eyes and nose."),
     IndependentPracticeQuestion(
-        question: "3. Which goat breed is tall with long, flapping ears and lives in dry areas?",
+        question:
+            "3. Which goat breed is tall with long, flapping ears and lives in dry areas?",
         options: [
           "West African Dwarf",
           "Sokoto Red",
@@ -17138,11 +16605,11 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The Sahelian (Maure) goat is tall with long ears and is adapted to dry climates."
-    ),
-
+        explanation:
+            "The Sahelian (Maure) goat is tall with long ears and is adapted to dry climates."),
     IndependentPracticeQuestion(
-        question: "4. Why are West African Dwarf goats popular in Ghanaian villages?",
+        question:
+            "4. Why are West African Dwarf goats popular in Ghanaian villages?",
         options: [
           "They are the tallest goats in the world.",
           "They are small, hardy, and have many kids.",
@@ -17151,26 +16618,23 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "West African Dwarf goats are hardy, easy to keep, and reproduce well."
-    ),
+        explanation:
+            "West African Dwarf goats are hardy, easy to keep, and reproduce well."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss4Lesson2IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/8. JHS1 S2 SS4 L2/7. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/8. JHS1 S2 SS4 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these organs is known as the \"true stomach\" in a cow?",
-        options: [
-          "Rumen",
-          "Reticulum",
-          "Omasum",
-          "Abomasum"
-        ],
+        question:
+            "1. Which of these organs is known as the \"true stomach\" in a cow?",
+        options: ["Rumen", "Reticulum", "Omasum", "Abomasum"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "The abomasum is called the true stomach because it functions like the stomach of monogastric animals."
-    ),
-
+        explanation:
+            "The abomasum is called the true stomach because it functions like the stomach of monogastric animals."),
     IndependentPracticeQuestion(
         question: "2. What is a major difference between a Rabbit and a Sheep?",
         options: [
@@ -17181,9 +16645,8 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A rabbit has a simple stomach, while a sheep has a four-chambered stomach."
-    ),
-
+        explanation:
+            "A rabbit has a simple stomach, while a sheep has a four-chambered stomach."),
     IndependentPracticeQuestion(
         question: "3. All poultry have which of the following features?",
         options: [
@@ -17194,25 +16657,20 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "All poultry are birds, and birds have feathers."
-    ),
-
+        explanation: "All poultry are birds, and birds have feathers."),
     IndependentPracticeQuestion(
         question: "4. Which animal is a monogastric?",
-        options: [
-          "Goat",
-          "Pig",
-          "Cattle",
-          "Sheep"
-        ],
+        options: ["Goat", "Pig", "Cattle", "Sheep"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A pig is monogastric because it has a single-chambered stomach."
-    ),
+        explanation:
+            "A pig is monogastric because it has a single-chambered stomach."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss4Lesson3IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/9. JHS1 S2 SS4 L3/7. Independent Practice.m4a',
+final IndependentPracticeModel Scijhs1s2ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/9. JHS1 S2 SS4 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is a commercial use of animals?",
@@ -17224,67 +16682,47 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Selling milk to a factory is a business activity, making it a commercial use of animals."
-    ),
-
+        explanation:
+            "Selling milk to a factory is a business activity, making it a commercial use of animals."),
     IndependentPracticeQuestion(
         question: "2. What is the name given to the meat of a pig?",
-        options: [
-          "Beef",
-          "Mutton",
-          "Chevon",
-          "Pork"
-        ],
+        options: ["Beef", "Mutton", "Chevon", "Pork"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Meat obtained from pigs is called pork."
-    ),
-
+        explanation: "Meat obtained from pigs is called pork."),
     IndependentPracticeQuestion(
-        question: "3. Which animal by-product is commonly used to improve soil fertility in Ghana?",
-        options: [
-          "Feathers",
-          "Manure",
-          "Leather",
-          "Fur"
-        ],
+        question:
+            "3. Which animal by-product is commonly used to improve soil fertility in Ghana?",
+        options: ["Feathers", "Manure", "Leather", "Fur"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Manure is commonly added to soil to improve fertility and plant growth."
-    ),
-
+        explanation:
+            "Manure is commonly added to soil to improve fertility and plant growth."),
     IndependentPracticeQuestion(
-        question: "4. Which animal is often used in laboratories for medical research?",
-        options: [
-          "Cattle",
-          "Rabbit",
-          "Sheep",
-          "Goat"
-        ],
+        question:
+            "4. Which animal is often used in laboratories for medical research?",
+        options: ["Cattle", "Rabbit", "Sheep", "Goat"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Rabbits are commonly used in medical and scientific research laboratories."
-    ),
+        explanation:
+            "Rabbits are commonly used in medical and scientific research laboratories."),
   ],
 );
-final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData = IndependentPracticeModel(
-  audioPath: 'assets/audio/science/10. JHS1 S2 SS4 L4/7. Independent Practice .m4a',
+final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/science/10. JHS1 S2 SS4 L4/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which animal is most commonly matched with the commercial production of bacon?",
-        options: [
-          "Sheep",
-          "Goat",
-          "Pig",
-          "Cattle"
-        ],
+        question:
+            "1. Which animal is most commonly matched with the commercial production of bacon?",
+        options: ["Sheep", "Goat", "Pig", "Cattle"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Bacon is produced from pigs."
-    ),
-
+        explanation: "Bacon is produced from pigs."),
     IndependentPracticeQuestion(
-        question: "2. Which of the following is a by-product of the poultry industry?",
+        question:
+            "2. Which of the following is a by-product of the poultry industry?",
         options: [
           "Leather belts",
           "Draft power",
@@ -17293,11 +16731,11 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Feathers from poultry are used to make products such as feather dusters."
-    ),
-
+        explanation:
+            "Feathers from poultry are used to make products such as feather dusters."),
     IndependentPracticeQuestion(
-        question: "3. Why might a farmer in a rural area prefer cattle over pigs for land preparation?",
+        question:
+            "3. Why might a farmer in a rural area prefer cattle over pigs for land preparation?",
         options: [
           "Cattle can pull ploughs.",
           "Cattle lay larger eggs.",
@@ -17306,11 +16744,11 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Cattle are strong animals that can be used to pull ploughs for farming."
-    ),
-
+        explanation:
+            "Cattle are strong animals that can be used to pull ploughs for farming."),
     IndependentPracticeQuestion(
-        question: "4. Which by-product is used in the manufacturing of traditional Ghanaian drums like the Gome or Donno?",
+        question:
+            "4. Which by-product is used in the manufacturing of traditional Ghanaian drums like the Gome or Donno?",
         options: [
           "Poultry feathers",
           "Animal skins/hides",
@@ -17319,12 +16757,13 @@ final IndependentPracticeModel Scijhs1s2ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Animal skins and hides are used to cover traditional drums."
-    ),
+        explanation:
+            "Animal skins and hides are used to cover traditional drums."),
   ],
 );
 
-final IndependentPracticeModel Scijhs1s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -17337,9 +16776,7 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Bacon is produced from pigs."
-    ),
-
+        explanation: "Bacon is produced from pigs."),
     IndependentPracticeQuestion(
         question: "2. Why is food compared to the petrol used in a vehicle?",
         options: [
@@ -17350,41 +16787,33 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Feathers from poultry are used to make products such as feather dusters."
-    ),
-
+        explanation:
+            "Feathers from poultry are used to make products such as feather dusters."),
     IndependentPracticeQuestion(
-        question: "3. A child who does not eat enough food may stop growing tall. This is because food is needed for:",
-        options: [
-          "Protection",
-          "Digestion",
-          "Body building",
-          "Temperature"
-        ],
+        question:
+            "3. A child who does not eat enough food may stop growing tall. This is because food is needed for:",
+        options: ["Protection", "Digestion", "Body building", "Temperature"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Cattle are strong animals that can be used to pull ploughs for farming."
-    ),
-
+        explanation:
+            "Cattle are strong animals that can be used to pull ploughs for farming."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a local Ghanaian example of a food source?",
-        options: [
-          "Plastic",
-          "Cassava",
-          "Sand",
-          "Petrol"
-        ],
+        question:
+            "4. Which of these is a local Ghanaian example of a food source?",
+        options: ["Plastic", "Cassava", "Sand", "Petrol"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Animal skins and hides are used to cover traditional drums."
-    ),
+        explanation:
+            "Animal skins and hides are used to cover traditional drums."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which part of the alimentary canal connects the mouth to the stomach?",
+        question:
+            "1. Which part of the alimentary canal connects the mouth to the stomach?",
         options: [
           "Small intestine",
           "Large intestine",
@@ -17393,35 +16822,20 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "2. What is the name of the enzyme found in saliva?",
-        options: [
-          "Pepsin",
-          "Ptyalin",
-          "Insulin",
-          "Rennin"
-        ],
+        options: ["Pepsin", "Ptyalin", "Insulin", "Rennin"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. In which organ is hydrochloric acid produced to help digestion?",
-        options: [
-          "The mouth",
-          "The liver",
-          "The stomach",
-          "The anus"
-        ],
+        question:
+            "3. In which organ is hydrochloric acid produced to help digestion?",
+        options: ["The mouth", "The liver", "The stomach", "The anus"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. What happens to food in the small intestine?",
         options: [
@@ -17432,15 +16846,16 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the final form of oils and fats after digestion is complete?",
+        question:
+            "1. What is the final form of oils and fats after digestion is complete?",
         options: [
           "Amino acids",
           "Simple sugars",
@@ -17449,11 +16864,10 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Which part of the body is primarily responsible for absorbing nutrients?",
+        question:
+            "2. Which part of the body is primarily responsible for absorbing nutrients?",
         options: [
           "The mouth",
           "Small intestine",
@@ -17462,37 +16876,24 @@ final IndependentPracticeModel Scijhs1s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Proteins are broken down into which of the following?",
-        options: [
-          "Glucose",
-          "Fatty acids",
-          "Saliva",
-          "Amino acids"
-        ],
+        options: ["Glucose", "Fatty acids", "Saliva", "Amino acids"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
-        question: "4. What do we call the tiny, finger-like projections that soak up food?",
-        options: [
-          "Villi",
-          "Teeth",
-          "Enzymes",
-          "Muscles"
-        ],
+        question:
+            "4. What do we call the tiny, finger-like projections that soak up food?",
+        options: ["Villi", "Teeth", "Enzymes", "Muscles"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS2 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -17505,11 +16906,10 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The inner planets are Mercury, Venus, Earth, and Mars."
-    ),
-
+        explanation: "The inner planets are Mercury, Venus, Earth, and Mars."),
     IndependentPracticeQuestion(
-        question: "2. What is a common physical property of all four inner planets?",
+        question:
+            "2. What is a common physical property of all four inner planets?",
         options: [
           "They all possess very thick rings.",
           "They all have solid, rocky surfaces.",
@@ -17518,9 +16918,8 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "All inner planets have solid rocky surfaces unlike the gas giants."
-    ),
-
+        explanation:
+            "All inner planets have solid rocky surfaces unlike the gas giants."),
     IndependentPracticeQuestion(
         question: "3. In which galaxy is our solar system located?",
         options: [
@@ -17531,11 +16930,10 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Our solar system is part of the Milky Way Galaxy."
-    ),
-
+        explanation: "Our solar system is part of the Milky Way Galaxy."),
     IndependentPracticeQuestion(
-        question: "4. What determines the path of movement for the inner planets?",
+        question:
+            "4. What determines the path of movement for the inner planets?",
         options: [
           "The magnetic pull of the North Pole.",
           "The gravitational pull of the Sun.",
@@ -17544,15 +16942,17 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Sun’s gravitational pull keeps the inner planets moving in their orbits."
-    ),
+        explanation:
+            "The Sun’s gravitational pull keeps the inner planets moving in their orbits."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS2 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. How long does it take Mercury to complete one orbit around the Sun?",
+        question:
+            "1. How long does it take Mercury to complete one orbit around the Sun?",
         options: [
           "365 Earth days",
           "225 Earth days",
@@ -17561,11 +16961,11 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mercury completes one orbit around the Sun in about 88 Earth days."
-    ),
-
+        explanation:
+            "Mercury completes one orbit around the Sun in about 88 Earth days."),
     IndependentPracticeQuestion(
-        question: "2. Which gas is primarily responsible for trapping heat on Venus?",
+        question:
+            "2. Which gas is primarily responsible for trapping heat on Venus?",
         options: [
           "Oxygen gas",
           "Carbon dioxide",
@@ -17574,24 +16974,19 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Carbon dioxide creates a strong greenhouse effect on Venus."
-    ),
-
+        explanation:
+            "Carbon dioxide creates a strong greenhouse effect on Venus."),
     IndependentPracticeQuestion(
-        question: "3. Which planet is the only one besides Uranus to show retrograde rotation?",
-        options: [
-          "Mercury",
-          "Earth",
-          "Mars",
-          "Venus"
-        ],
+        question:
+            "3. Which planet is the only one besides Uranus to show retrograde rotation?",
+        options: ["Mercury", "Earth", "Mars", "Venus"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Venus rotates in the opposite direction compared to most planets."
-    ),
-
+        explanation:
+            "Venus rotates in the opposite direction compared to most planets."),
     IndependentPracticeQuestion(
-        question: "4. Why does Mercury experience extremely cold temperatures at night?",
+        question:
+            "4. Why does Mercury experience extremely cold temperatures at night?",
         options: [
           "It is too far from the Sun.",
           "It is covered in thick ice.",
@@ -17600,28 +16995,24 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mercury lacks a thick atmosphere to trap heat during the night."
-    ),
-
+        explanation:
+            "Mercury lacks a thick atmosphere to trap heat during the night."),
     IndependentPracticeQuestion(
         question: "5. In what direction does the Sun rise on the planet Venus?",
-        options: [
-          "The North",
-          "The South",
-          "The West",
-          "The East"
-        ],
+        options: ["The North", "The South", "The West", "The East"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Because Venus rotates retrograde, the Sun appears to rise in the west."
-    ),
+        explanation:
+            "Because Venus rotates retrograde, the Sun appears to rise in the west."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS2 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which planet is the only one in the solar system known to have liquid water?",
+        question:
+            "1. Which planet is the only one in the solar system known to have liquid water?",
         options: [
           "The planet Mars",
           "The planet Venus",
@@ -17630,11 +17021,11 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Earth is the only known planet with stable liquid water on its surface."
-    ),
-
+        explanation:
+            "Earth is the only known planet with stable liquid water on its surface."),
     IndependentPracticeQuestion(
-        question: "2. What is the name of the largest volcano found on the surface of Mars?",
+        question:
+            "2. What is the name of the largest volcano found on the surface of Mars?",
         options: [
           "Mount Adajato",
           "Olympus Mons",
@@ -17643,9 +17034,8 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Olympus Mons is the largest volcano in the solar system and is located on Mars."
-    ),
-
+        explanation:
+            "Olympus Mons is the largest volcano in the solar system and is located on Mars."),
     IndependentPracticeQuestion(
         question: "3. How many moons does the planet Mars have orbiting it?",
         options: [
@@ -17656,24 +17046,18 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mars has two small moons named Phobos and Deimos."
-    ),
-
+        explanation: "Mars has two small moons named Phobos and Deimos."),
     IndependentPracticeQuestion(
-        question: "4. What is the approximate length of one full rotation (a day) on Mars?",
-        options: [
-          "12.0 hours",
-          "24.6 hours",
-          "88.0 hours",
-          "365.2 hours"
-        ],
+        question:
+            "4. What is the approximate length of one full rotation (a day) on Mars?",
+        options: ["12.0 hours", "24.6 hours", "88.0 hours", "365.2 hours"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A day on Mars lasts about 24.6 hours, which is similar to Earth."
-    ),
-
+        explanation:
+            "A day on Mars lasts about 24.6 hours, which is similar to Earth."),
     IndependentPracticeQuestion(
-        question: "5. Which layer of Earth's atmosphere protects us from harmful UV radiation?",
+        question:
+            "5. Which layer of Earth's atmosphere protects us from harmful UV radiation?",
         options: [
           "The iron layer",
           "The water layer",
@@ -17682,11 +17066,12 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The ozone layer absorbs most of the Sun’s harmful ultraviolet radiation."
-    ),
+        explanation:
+            "The ozone layer absorbs most of the Sun’s harmful ultraviolet radiation."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS2 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -17699,11 +17084,10 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mars is a rocky terrestrial planet, not a gas giant."
-    ),
-
+        explanation: "Mars is a rocky terrestrial planet, not a gas giant."),
     IndependentPracticeQuestion(
-        question: "2. What are the two main gases that make up the outer planets?",
+        question:
+            "2. What are the two main gases that make up the outer planets?",
         options: [
           "Oxygen and Nitrogen",
           "Hydrogen and Helium",
@@ -17712,9 +17096,8 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The outer planets are mainly composed of hydrogen and helium gases."
-    ),
-
+        explanation:
+            "The outer planets are mainly composed of hydrogen and helium gases."),
     IndependentPracticeQuestion(
         question: "3. Which planet is unique because it rotates on its side?",
         options: [
@@ -17725,9 +17108,8 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Uranus rotates on its side due to its extreme axial tilt."
-    ),
-
+        explanation:
+            "Uranus rotates on its side due to its extreme axial tilt."),
     IndependentPracticeQuestion(
         question: "4. Which planet is located the furthest from the Sun?",
         options: [
@@ -17738,11 +17120,10 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Neptune is the outermost planet in the solar system."
-    ),
-
+        explanation: "Neptune is the outermost planet in the solar system."),
     IndependentPracticeQuestion(
-        question: "5. What is a common feature shared by all four outer planets?",
+        question:
+            "5. What is a common feature shared by all four outer planets?",
         options: [
           "They all have solid rock surfaces.",
           "They all have systems of rings.",
@@ -17751,15 +17132,17 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "All four outer planets have ring systems surrounding them."
-    ),
+        explanation:
+            "All four outer planets have ring systems surrounding them."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS2 L5/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which object should be placed at the very centre of your solar system model?",
+        question:
+            "1. Which object should be placed at the very centre of your solar system model?",
         options: [
           "The planet Earth",
           "The bright Sun",
@@ -17768,37 +17151,25 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Sun is at the centre of the solar system."
-    ),
-
+        explanation: "The Sun is at the centre of the solar system."),
     IndependentPracticeQuestion(
-        question: "2. You are painting your planets. Which colour is best for the planet Mars?",
-        options: [
-          "Bright Blue",
-          "Deep Green",
-          "Reddish Brown",
-          "Dark Purple"
-        ],
+        question:
+            "2. You are painting your planets. Which colour is best for the planet Mars?",
+        options: ["Bright Blue", "Deep Green", "Reddish Brown", "Dark Purple"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mars is known as the Red Planet because of its reddish-brown appearance."
-    ),
-
+        explanation:
+            "Mars is known as the Red Planet because of its reddish-brown appearance."),
     IndependentPracticeQuestion(
-        question: "3. When arranging the planets, which one comes immediately after Earth?",
-        options: [
-          "Venus",
-          "Jupiter",
-          "Mars",
-          "Saturn"
-        ],
+        question:
+            "3. When arranging the planets, which one comes immediately after Earth?",
+        options: ["Venus", "Jupiter", "Mars", "Saturn"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mars comes immediately after Earth in the solar system."
-    ),
-
+        explanation: "Mars comes immediately after Earth in the solar system."),
     IndependentPracticeQuestion(
-        question: "4. What is the best way to represent the 'Gas Giants' compared to 'Inner Planets'?",
+        question:
+            "4. What is the best way to represent the 'Gas Giants' compared to 'Inner Planets'?",
         options: [
           "Make them much smaller.",
           "Make them much larger.",
@@ -17807,11 +17178,11 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Gas giants are much larger than the inner rocky planets."
-    ),
-
+        explanation:
+            "Gas giants are much larger than the inner rocky planets."),
     IndependentPracticeQuestion(
-        question: "5. Which of these materials would be best for showing an elliptical orbit path?",
+        question:
+            "5. Which of these materials would be best for showing an elliptical orbit path?",
         options: [
           "A heavy square box",
           "A piece of stiff string",
@@ -17820,11 +17191,12 @@ final IndependentPracticeModel Scijhs1s3ss2Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A piece of stiff string can be shaped to represent an elliptical orbit path."
-    ),
+        explanation:
+            "A piece of stiff string can be shaped to represent an elliptical orbit path."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS3 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -17837,9 +17209,8 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An ecosystem includes living and non-living things interacting together."
-    ),
-
+        explanation:
+            "An ecosystem includes living and non-living things interacting together."),
     IndependentPracticeQuestion(
         question: "2. What do we call an ecosystem that is found on land?",
         options: [
@@ -17850,11 +17221,10 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A terrestrial ecosystem is an ecosystem found on land."
-    ),
-
+        explanation: "A terrestrial ecosystem is an ecosystem found on land."),
     IndependentPracticeQuestion(
-        question: "3. Which of the following is a natural aquatic ecosystem in Ghana?",
+        question:
+            "3. Which of the following is a natural aquatic ecosystem in Ghana?",
         options: [
           "A garden in Kumasi.",
           "The Gulf of Guinea.",
@@ -17863,11 +17233,10 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Gulf of Guinea is a natural aquatic ecosystem."
-    ),
-
+        explanation: "The Gulf of Guinea is a natural aquatic ecosystem."),
     IndependentPracticeQuestion(
-        question: "4. Why are arboreal ecosystems unique compared to terrestrial ones?",
+        question:
+            "4. Why are arboreal ecosystems unique compared to terrestrial ones?",
         options: [
           "They are found under the ground.",
           "They only exist in salt water.",
@@ -17876,54 +17245,37 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Arboreal ecosystems are found mainly in tree canopies."
-    ),
+        explanation: "Arboreal ecosystems are found mainly in tree canopies."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS3 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is a biotic component of a forest?",
-        options: [
-          "The sunlight",
-          "The damp soil",
-          "The fungi",
-          "The wind"
-        ],
+        options: ["The sunlight", "The damp soil", "The fungi", "The wind"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Fungi are living organisms, making them biotic components of a forest."
-    ),
-
+        explanation:
+            "Fungi are living organisms, making them biotic components of a forest."),
     IndependentPracticeQuestion(
         question: "2. Which instrument is used to measure an abiotic factor?",
-        options: [
-          "A microscope",
-          "A rain gauge",
-          "A ruler",
-          "A calculator"
-        ],
+        options: ["A microscope", "A rain gauge", "A ruler", "A calculator"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A rain gauge measures rainfall, which is an abiotic factor."
-    ),
-
+        explanation:
+            "A rain gauge measures rainfall, which is an abiotic factor."),
     IndependentPracticeQuestion(
-        question: "3. Which abiotic factor is most important for a plant to make food?",
-        options: [
-          "Large rocks",
-          "The sunlight",
-          "Small insects",
-          "Earthworms"
-        ],
+        question:
+            "3. Which abiotic factor is most important for a plant to make food?",
+        options: ["Large rocks", "The sunlight", "Small insects", "Earthworms"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Plants use sunlight during photosynthesis to make food."
-    ),
-
+        explanation: "Plants use sunlight during photosynthesis to make food."),
     IndependentPracticeQuestion(
-        question: "4. If a scientist is studying the 'salinity' of the ocean, what are they measuring?",
+        question:
+            "4. If a scientist is studying the 'salinity' of the ocean, what are they measuring?",
         options: [
           "A biotic factor",
           "A living fish",
@@ -17932,15 +17284,17 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Salinity refers to the amount of salt in water, which is an abiotic factor."
-    ),
+        explanation:
+            "Salinity refers to the amount of salt in water, which is an abiotic factor."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS3 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which feature would you most likely find on an aquatic animal?",
+        question:
+            "1. Which feature would you most likely find on an aquatic animal?",
         options: [
           "Thick fur for warmth",
           "Streamlined body",
@@ -17949,11 +17303,11 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Aquatic animals often have streamlined bodies to help them move easily through water."
-    ),
-
+        explanation:
+            "Aquatic animals often have streamlined bodies to help them move easily through water."),
     IndependentPracticeQuestion(
-        question: "2. Why do many arboreal animals have long tails or sharp claws?",
+        question:
+            "2. Why do many arboreal animals have long tails or sharp claws?",
         options: [
           "To swim faster",
           "To stay cool",
@@ -17962,52 +17316,38 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Long tails and sharp claws help arboreal animals climb and move safely in trees."
-    ),
-
+        explanation:
+            "Long tails and sharp claws help arboreal animals climb and move safely in trees."),
     IndependentPracticeQuestion(
-        question: "3. A Mahogany tree in a forest is a producer in which ecosystem?",
-        options: [
-          "Terrestrial",
-          "Arboreal",
-          "Aquatic",
-          "Artificial"
-        ],
+        question:
+            "3. A Mahogany tree in a forest is a producer in which ecosystem?",
+        options: ["Terrestrial", "Arboreal", "Aquatic", "Artificial"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A Mahogany tree is a producer found in a terrestrial ecosystem."
-    ),
-
+        explanation:
+            "A Mahogany tree is a producer found in a terrestrial ecosystem."),
     IndependentPracticeQuestion(
-        question: "4. Which of these organisms is adapted to live in a terrestrial environment?",
-        options: [
-          "A shark",
-          "A sea turtle",
-          "A savanna lion",
-          "A tree monkey"
-        ],
+        question:
+            "4. Which of these organisms is adapted to live in a terrestrial environment?",
+        options: ["A shark", "A sea turtle", "A savanna lion", "A tree monkey"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A savanna lion is adapted to living in a land-based terrestrial environment."
-    ),
+        explanation:
+            "A savanna lion is adapted to living in a land-based terrestrial environment."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss3Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss3Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS3 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which abiotic factor do plants use to make their own food?",
-        options: [
-          "Oxygen gas",
-          "Sunlight",
-          "Earthworms",
-          "Fallen leaves"
-        ],
+        question:
+            "1. Which abiotic factor do plants use to make their own food?",
+        options: ["Oxygen gas", "Sunlight", "Earthworms", "Fallen leaves"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Plants use sunlight during photosynthesis to make their own food."
-    ),
-
+        explanation:
+            "Plants use sunlight during photosynthesis to make their own food."),
     IndependentPracticeQuestion(
         question: "2. How does a forest help prevent soil from washing away?",
         options: [
@@ -18018,9 +17358,7 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Plant roots help hold soil together and reduce erosion."
-    ),
-
+        explanation: "Plant roots help hold soil together and reduce erosion."),
     IndependentPracticeQuestion(
         question: "3. What is the result of animals breathing in an ecosystem?",
         options: [
@@ -18031,11 +17369,11 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Animals release carbon dioxide (CO2) during respiration."
-    ),
-
+        explanation:
+            "Animals release carbon dioxide (CO2) during respiration."),
     IndependentPracticeQuestion(
-        question: "4. If a pond dries up due to heat, what happens to the aquatic life?",
+        question:
+            "4. If a pond dries up due to heat, what happens to the aquatic life?",
         options: [
           "They grow wings",
           "They will die out",
@@ -18044,15 +17382,17 @@ final IndependentPracticeModel Scijhs1s3ss3Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Aquatic organisms may die when their water habitat dries up."
-    ),
+        explanation:
+            "Aquatic organisms may die when their water habitat dries up."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS4 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the period called when land is left to rest in Land Rotation?",
+        question:
+            "1. What is the period called when land is left to rest in Land Rotation?",
         options: [
           "Resting season",
           "Fallow period",
@@ -18061,11 +17401,11 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The fallow period is the time when land is left to rest and regain fertility."
-    ),
-
+        explanation:
+            "The fallow period is the time when land is left to rest and regain fertility."),
     IndependentPracticeQuestion(
-        question: "2. In which system would you see a farmer using compost and biological pest control?",
+        question:
+            "2. In which system would you see a farmer using compost and biological pest control?",
         options: [
           "Organic farming",
           "Mixed cropping",
@@ -18074,11 +17414,11 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Organic farming uses compost and natural pest control methods instead of chemicals."
-    ),
-
+        explanation:
+            "Organic farming uses compost and natural pest control methods instead of chemicals."),
     IndependentPracticeQuestion(
-        question: "3. Which system involves a definite order of planting different crops on the same plot?",
+        question:
+            "3. Which system involves a definite order of planting different crops on the same plot?",
         options: [
           "Mixed cropping",
           "Land rotation",
@@ -18087,11 +17427,11 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Crop rotation involves planting different crops in a planned sequence."
-    ),
-
+        explanation:
+            "Crop rotation involves planting different crops in a planned sequence."),
     IndependentPracticeQuestion(
-        question: "4. A farmer who keeps poultry and grows vegetables on the same land is practicing:",
+        question:
+            "4. A farmer who keeps poultry and grows vegetables on the same land is practicing:",
         options: [
           "Mixed cropping",
           "Organic farming",
@@ -18100,15 +17440,17 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Mixed farming combines crop cultivation with animal rearing on the same farm."
-    ),
+        explanation:
+            "Mixed farming combines crop cultivation with animal rearing on the same farm."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS4 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which category best describes a farm that moves to a new location every few years?",
+        question:
+            "1. Which category best describes a farm that moves to a new location every few years?",
         options: [
           "Permanent system",
           "Shifting system",
@@ -18117,11 +17459,11 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A shifting system involves moving farming activities from one location to another after some years."
-    ),
-
+        explanation:
+            "A shifting system involves moving farming activities from one location to another after some years."),
     IndependentPracticeQuestion(
-        question: "2. Mixed Farming is best categorised as an 'integrated' system because it joins:",
+        question:
+            "2. Mixed Farming is best categorised as an 'integrated' system because it joins:",
         options: [
           "Two different types of soil",
           "Two different types of tools",
@@ -18130,11 +17472,11 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mixed farming combines crop production and livestock rearing on the same farm."
-    ),
-
+        explanation:
+            "Mixed farming combines crop production and livestock rearing on the same farm."),
     IndependentPracticeQuestion(
-        question: "3. Systems like Organic Farming are categorised based on their:",
+        question:
+            "3. Systems like Organic Farming are categorised based on their:",
         options: [
           "Location in the country",
           "Size of the farm plot",
@@ -18143,11 +17485,11 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Organic farming is classified based on the use of natural inputs instead of synthetic chemicals."
-    ),
-
+        explanation:
+            "Organic farming is classified based on the use of natural inputs instead of synthetic chemicals."),
     IndependentPracticeQuestion(
-        question: "4. In a high-population area of Ghana, which system is most common?",
+        question:
+            "4. In a high-population area of Ghana, which system is most common?",
         options: [
           "Land rotation",
           "Forest clearing",
@@ -18156,15 +17498,17 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Crop rotation is commonly practiced in densely populated areas where land is limited."
-    ),
+        explanation:
+            "Crop rotation is commonly practiced in densely populated areas where land is limited."),
   ],
 );
-final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S3 SS4 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which system is most useful for keeping a permanent plot of land fertile without chemicals?",
+        question:
+            "1. Which system is most useful for keeping a permanent plot of land fertile without chemicals?",
         options: [
           "Land rotation",
           "Single cropping",
@@ -18173,11 +17517,11 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Crop rotation helps maintain soil fertility naturally without using chemicals."
-    ),
-
+        explanation:
+            "Crop rotation helps maintain soil fertility naturally without using chemicals."),
     IndependentPracticeQuestion(
-        question: "2. A farmer who wants to avoid water pollution should choose which system?",
+        question:
+            "2. A farmer who wants to avoid water pollution should choose which system?",
         options: [
           "Organic farming",
           "Chemical farming",
@@ -18186,9 +17530,8 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Organic farming avoids harmful chemicals that can pollute water sources."
-    ),
-
+        explanation:
+            "Organic farming avoids harmful chemicals that can pollute water sources."),
     IndependentPracticeQuestion(
         question: "3. The primary merit of Mixed Cropping is:",
         options: [
@@ -18199,9 +17542,8 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Mixed cropping reduces the risk of total crop failure by growing different crops together."
-    ),
-
+        explanation:
+            "Mixed cropping reduces the risk of total crop failure by growing different crops together."),
     IndependentPracticeQuestion(
         question: "4. What is a demerit of Organic Farming?",
         options: [
@@ -18212,29 +17554,25 @@ final IndependentPracticeModel Scijhs1s3ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Organic farming often requires more labour and careful management."
-    ),
+        explanation:
+            "Organic farming often requires more labour and careful management."),
   ],
 );
 
-final IndependentPracticeModel Scijhs1s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is the standard unit used to measure energy?",
-        options: [
-          "Metres",
-          "Joules",
-          "Litres",
-          "Grams"
-        ],
+        question:
+            "1. Which of the following is the standard unit used to measure energy?",
+        options: ["Metres", "Joules", "Litres", "Grams"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Joules is the standard SI unit used to measure energy."
-    ),
-
+        explanation: "Joules is the standard SI unit used to measure energy."),
     IndependentPracticeQuestion(
-        question: "2. What form of energy is found in the food we eat, such as fufu or kenkey?",
+        question:
+            "2. What form of energy is found in the food we eat, such as fufu or kenkey?",
         options: [
           "Nuclear Energy",
           "Light Energy",
@@ -18243,11 +17581,11 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The chemical energy in food is released during digestion to fuel the body."
-    ),
-
+        explanation:
+            "The chemical energy in food is released during digestion to fuel the body."),
     IndependentPracticeQuestion(
-        question: "3. A car is racing along the motorway from Accra to Tema. What type of energy does the moving car have?",
+        question:
+            "3. A car is racing along the motorway from Accra to Tema. What type of energy does the moving car have?",
         options: [
           "Kinetic Energy",
           "Stored Energy",
@@ -18256,11 +17594,11 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A moving car has kinetic energy because it is in motion."
-    ),
-
+        explanation:
+            "A moving car has kinetic energy because it is in motion."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is the correct way to calculate Mechanical Energy?",
+        question:
+            "4. Which of these is the correct way to calculate Mechanical Energy?",
         options: [
           "PE minus KE",
           "PE divided by KE",
@@ -18269,28 +17607,25 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Mechanical Energy is the sum of Potential Energy (PE) and Kinetic Energy (KE)."
-    ),
+        explanation:
+            "Mechanical Energy is the sum of Potential Energy (PE) and Kinetic Energy (KE)."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which appliance is specifically used to provide Heat Energy for cooking?",
-        options: [
-          "A radio",
-          "A fridge",
-          "A gas stove",
-          "A computer"
-        ],
+        question:
+            "1. Which appliance is specifically used to provide Heat Energy for cooking?",
+        options: ["A radio", "A fridge", "A gas stove", "A computer"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A gas stove is used to provide heat energy for cooking food."
-    ),
-
+        explanation:
+            "A gas stove is used to provide heat energy for cooking food."),
     IndependentPracticeQuestion(
-        question: "2. If two students are running at the same speed, but one is heavier than the other, who has more Kinetic Energy?",
+        question:
+            "2. If two students are running at the same speed, but one is heavier than the other, who has more Kinetic Energy?",
         options: [
           "The lighter student",
           "Both are the same",
@@ -18299,110 +17634,76 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Kinetic Energy depends on mass and speed; the heavier student has more kinetic energy."
-    ),
-
+        explanation:
+            "Kinetic Energy depends on mass and speed; the heavier student has more kinetic energy."),
     IndependentPracticeQuestion(
-        question: "3. Which factor does NOT affect the Potential Energy of a stone?",
-        options: [
-          "Its mass",
-          "Its color",
-          "Its height",
-          "Gravity"
-        ],
+        question:
+            "3. Which factor does NOT affect the Potential Energy of a stone?",
+        options: ["Its mass", "Its color", "Its height", "Gravity"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Potential energy depends on mass, height, and gravity; color has no effect."
-    ),
-
+        explanation:
+            "Potential energy depends on mass, height, and gravity; color has no effect."),
     IndependentPracticeQuestion(
-        question: "4. A torchlight uses the energy from a battery to produce which form of energy?",
-        options: [
-          "Sound",
-          "Nuclear",
-          "Light",
-          "Mechanical"
-        ],
+        question:
+            "4. A torchlight uses the energy from a battery to produce which form of energy?",
+        options: ["Sound", "Nuclear", "Light", "Mechanical"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A torch converts chemical energy from the battery into light energy."
-    ),
+        explanation:
+            "A torch converts chemical energy from the battery into light energy."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Calculate the PE of a 10kg box placed 5m above the ground. (g=10)",
-        options: [
-          "50 J",
-          "500 J",
-          "100 J",
-          "15 J"
-        ],
+        question:
+            "1. Calculate the PE of a 10kg box placed 5m above the ground. (g=10)",
+        options: ["50 J", "500 J", "100 J", "15 J"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Potential Energy (PE) = mass × gravity × height = 10 × 10 × 5 = 500 J."
-    ),
-
+        explanation:
+            "Potential Energy (PE) = mass × gravity × height = 10 × 10 × 5 = 500 J."),
     IndependentPracticeQuestion(
-        question: "2. A boy with a mass of 40kg is running at 1m/s. What is his Kinetic Energy?",
-        options: [
-          "40 J",
-          "80 J",
-          "20 J",
-          "10 J"
-        ],
+        question:
+            "2. A boy with a mass of 40kg is running at 1m/s. What is his Kinetic Energy?",
+        options: ["40 J", "80 J", "20 J", "10 J"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Kinetic Energy (KE) = 0.5 × mass × velocity² = 0.5 × 40 × 1² = 20 J."
-    ),
-
+        explanation:
+            "Kinetic Energy (KE) = 0.5 × mass × velocity² = 0.5 × 40 × 1² = 20 J."),
     IndependentPracticeQuestion(
-        question: "3. Which value is always used for gravity (g) in our JHS science problems?",
-        options: [
-          "5",
-          "10",
-          "100",
-          "0"
-        ],
+        question:
+            "3. Which value is always used for gravity (g) in our JHS science problems?",
+        options: ["5", "10", "100", "0"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The standard approximation for gravity in Junior High School problems is 10 m/s²."
-    ),
-
+        explanation:
+            "The standard approximation for gravity in Junior High School problems is 10 m/s²."),
     IndependentPracticeQuestion(
         question: "4. What is the KE of a 2kg ball moving at 4m/s?",
-        options: [
-          "8 J",
-          "32 J",
-          "16 J",
-          "64 J"
-        ],
+        options: ["8 J", "32 J", "16 J", "64 J"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "KE = 0.5 × mass × velocity² = 0.5 × 2 × 4² = 16 J."
-    ),
+        explanation: "KE = 0.5 × mass × velocity² = 0.5 × 2 × 4² = 16 J."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these materials is the best conductor of heat?",
-        options: [
-          "Plastic",
-          "Copper",
-          "Wood",
-          "Rubber"
-        ],
+        options: ["Plastic", "Copper", "Wood", "Rubber"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Copper is a very good conductor of heat compared to plastic, wood, or rubber."
-    ),
-
+        explanation:
+            "Copper is a very good conductor of heat compared to plastic, wood, or rubber."),
     IndependentPracticeQuestion(
-        question: "2. In which state of matter does convection primarily occur?",
+        question:
+            "2. In which state of matter does convection primarily occur?",
         options: [
           "Solids only",
           "Empty space only",
@@ -18411,24 +17712,19 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Convection occurs in liquids and gases, where fluid movement transfers heat."
-    ),
-
+        explanation:
+            "Convection occurs in liquids and gases, where fluid movement transfers heat."),
     IndependentPracticeQuestion(
-        question: "3. How does the heat from a bonfire reach a person sitting 2 metres away?",
-        options: [
-          "Radiation",
-          "Conduction",
-          "Insulation",
-          "Friction"
-        ],
+        question:
+            "3. How does the heat from a bonfire reach a person sitting 2 metres away?",
+        options: ["Radiation", "Conduction", "Insulation", "Friction"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Heat from a bonfire travels through radiation, which does not require a medium."
-    ),
-
+        explanation:
+            "Heat from a bonfire travels through radiation, which does not require a medium."),
     IndependentPracticeQuestion(
-        question: "4. Why are the handles of many Ghanaian cooking pots made of wood or plastic?",
+        question:
+            "4. Why are the handles of many Ghanaian cooking pots made of wood or plastic?",
         options: [
           "They are good conductors",
           "They are good insulators",
@@ -18437,15 +17733,17 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Wood and plastic are good insulators, so handles do not get hot easily."
-    ),
+        explanation:
+            "Wood and plastic are good insulators, so handles do not get hot easily."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the scientific term for light traveling in a straight line?",
+        question:
+            "1. What is the scientific term for light traveling in a straight line?",
         options: [
           "Reflection",
           "Refraction",
@@ -18454,11 +17752,11 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Rectilinear propagation describes light traveling in straight lines."
-    ),
-
+        explanation:
+            "Rectilinear propagation describes light traveling in straight lines."),
     IndependentPracticeQuestion(
-        question: "2. Which type of surface produces a clear, sharp reflection?",
+        question:
+            "2. Which type of surface produces a clear, sharp reflection?",
         options: [
           "A rough wooden door",
           "A smooth, polished mirror",
@@ -18467,166 +17765,114 @@ final IndependentPracticeModel Scijhs1s4ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A smooth, polished mirror produces a clear and sharp reflection."
-    ),
-
+        explanation:
+            "A smooth, polished mirror produces a clear and sharp reflection."),
     IndependentPracticeQuestion(
-        question: "3. Refraction occurs because light changes its ________ when it moves from air into water.",
-        options: [
-          "Color",
-          "Speed",
-          "Size",
-          "Weight"
-        ],
+        question:
+            "3. Refraction occurs because light changes its ________ when it moves from air into water.",
+        options: ["Color", "Speed", "Size", "Weight"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Refraction happens due to a change in the speed of light when it passes from one medium to another."
-    ),
-
+        explanation:
+            "Refraction happens due to a change in the speed of light when it passes from one medium to another."),
     IndependentPracticeQuestion(
-        question: "4. If the angle of incidence on a mirror is 30 degrees, what is the angle of reflection?",
-        options: [
-          "60 degrees",
-          "90 degrees",
-          "30 degrees",
-          "0 degrees"
-        ],
+        question:
+            "4. If the angle of incidence on a mirror is 30 degrees, what is the angle of reflection?",
+        options: ["60 degrees", "90 degrees", "30 degrees", "0 degrees"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The angle of reflection equals the angle of incidence."
-    ),
+        explanation: "The angle of reflection equals the angle of incidence."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Dispersion is the process of splitting ________ light into seven colors.",
-        options: [
-          "Black",
-          "White",
-          "Green",
-          "Red"
-        ],
+        question:
+            "1. Dispersion is the process of splitting ________ light into seven colors.",
+        options: ["Black", "White", "Green", "Red"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Dispersion occurs when white light splits into its seven component colors."
-    ),
-
+        explanation:
+            "Dispersion occurs when white light splits into its seven component colors."),
     IndependentPracticeQuestion(
-        question: "2. Which of these objects acts as a prism to create a rainbow in the sky?",
-        options: [
-          "A bird",
-          "A cloud",
-          "A raindrop",
-          "A leaf"
-        ],
+        question:
+            "2. Which of these objects acts as a prism to create a rainbow in the sky?",
+        options: ["A bird", "A cloud", "A raindrop", "A leaf"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Raindrops refract and disperse light to form a rainbow."
-    ),
-
+        explanation: "Raindrops refract and disperse light to form a rainbow."),
     IndependentPracticeQuestion(
-        question: "3. What color comes immediately after Yellow in the ROYGBIV sequence?",
-        options: [
-          "Blue",
-          "Orange",
-          "Green",
-          "Indigo"
-        ],
+        question:
+            "3. What color comes immediately after Yellow in the ROYGBIV sequence?",
+        options: ["Blue", "Orange", "Green", "Indigo"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "In the ROYGBIV sequence, Green comes after Yellow."
-    ),
-
+        explanation: "In the ROYGBIV sequence, Green comes after Yellow."),
     IndependentPracticeQuestion(
-        question: "4. What is the band of seven colors produced by dispersion called?",
-        options: [
-          "A shadow",
-          "A reflection",
-          "A spectrum",
-          "A prism"
-        ],
+        question:
+            "4. What is the band of seven colors produced by dispersion called?",
+        options: ["A shadow", "A reflection", "A spectrum", "A prism"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The seven-color band produced by dispersion is called a spectrum."
-    ),
+        explanation:
+            "The seven-color band produced by dispersion is called a spectrum."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a common fuel used at the Aboadze Thermal Plant?",
-        options: [
-          "Uranium ore",
-          "Natural gas",
-          "Firewood",
-          "Solar salt"
-        ],
+        question:
+            "1. Which of these is a common fuel used at the Aboadze Thermal Plant?",
+        options: ["Uranium ore", "Natural gas", "Firewood", "Solar salt"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Natural gas is commonly used as fuel at the Aboadze Thermal Plant."
-    ),
-
+        explanation:
+            "Natural gas is commonly used as fuel at the Aboadze Thermal Plant."),
     IndependentPracticeQuestion(
-        question: "2. In nuclear electricity generation, which element is commonly split to release energy?",
-        options: [
-          "Hydrogen",
-          "Nitrogen",
-          "Uranium",
-          "Carbon"
-        ],
+        question:
+            "2. In nuclear electricity generation, which element is commonly split to release energy?",
+        options: ["Hydrogen", "Nitrogen", "Uranium", "Carbon"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Uranium nuclei are split in nuclear reactors to release energy."
-    ),
-
+        explanation:
+            "Uranium nuclei are split in nuclear reactors to release energy."),
     IndependentPracticeQuestion(
-        question: "3. What is the name of the machine that specifically converts mechanical spinning into electricity?",
-        options: [
-          "Generator",
-          "Turbine",
-          "Boiler",
-          "Reactor"
-        ],
+        question:
+            "3. What is the name of the machine that specifically converts mechanical spinning into electricity?",
+        options: ["Generator", "Turbine", "Boiler", "Reactor"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A generator converts mechanical energy from spinning into electrical energy."
-    ),
-
+        explanation:
+            "A generator converts mechanical energy from spinning into electrical energy."),
     IndependentPracticeQuestion(
-        question: "4. The word 'Thermal' in electricity generation refers to which of the following?",
-        options: [
-          "Cold water",
-          "Wind power",
-          "Heat energy",
-          "Sound waves"
-        ],
+        question:
+            "4. The word 'Thermal' in electricity generation refers to which of the following?",
+        options: ["Cold water", "Wind power", "Heat energy", "Sound waves"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Thermal energy refers to heat energy used in generating electricity."
-    ),
+        explanation:
+            "Thermal energy refers to heat energy used in generating electricity."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which gas is the main cause of the 'blanket effect' that traps heat around the Earth?",
-        options: [
-          "Oxygen",
-          "Carbon Dioxide",
-          "Nitrogen",
-          "Hydrogen"
-        ],
+        question:
+            "1. Which gas is the main cause of the 'blanket effect' that traps heat around the Earth?",
+        options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Carbon dioxide contributes significantly to the greenhouse effect, trapping heat around Earth."
-    ),
-
+        explanation:
+            "Carbon dioxide contributes significantly to the greenhouse effect, trapping heat around Earth."),
     IndependentPracticeQuestion(
-        question: "2. What is a major disadvantage of nuclear power compared to solar power?",
+        question:
+            "2. What is a major disadvantage of nuclear power compared to solar power?",
         options: [
           "It produces too much smoke.",
           "It uses too much sunlight.",
@@ -18635,11 +17881,11 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Nuclear power produces radioactive waste, which requires careful disposal and management."
-    ),
-
+        explanation:
+            "Nuclear power produces radioactive waste, which requires careful disposal and management."),
     IndependentPracticeQuestion(
-        question: "3. How can a Junior High School student help reduce the pollution from power plants?",
+        question:
+            "3. How can a Junior High School student help reduce the pollution from power plants?",
         options: [
           "By building a new power plant.",
           "By using more electricity at night.",
@@ -18648,28 +17894,25 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Switching off lights and devices when not in use reduces electricity demand and pollution from power plants."
-    ),
-
+        explanation:
+            "Switching off lights and devices when not in use reduces electricity demand and pollution from power plants."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is considered a 'Clean' or 'Renewable' energy source?",
-        options: [
-          "Crude oil",
-          "Natural gas",
-          "Solar energy",
-          "Coal power"
-        ],
+        question:
+            "4. Which of these is considered a 'Clean' or 'Renewable' energy source?",
+        options: ["Crude oil", "Natural gas", "Solar energy", "Coal power"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Solar energy is renewable and does not pollute, unlike fossil fuels."
-    ),
+        explanation:
+            "Solar energy is renewable and does not pollute, unlike fossil fuels."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which leg of an LED should be connected toward the positive terminal of the battery?",
+        question:
+            "1. Which leg of an LED should be connected toward the positive terminal of the battery?",
         options: [
           "The shorter leg",
           "The thicker leg",
@@ -18678,9 +17921,8 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The longer leg of an LED is the anode, which should connect to the positive terminal."
-    ),
-
+        explanation:
+            "The longer leg of an LED is the anode, which should connect to the positive terminal."),
     IndependentPracticeQuestion(
         question: "2. What happens to the circuit when the switch is 'Open'?",
         options: [
@@ -18691,41 +17933,33 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Opening the switch breaks the circuit, stopping the flow of electricity."
-    ),
-
+        explanation:
+            "Opening the switch breaks the circuit, stopping the flow of electricity."),
     IndependentPracticeQuestion(
-        question: "3. In a standard school experiment, two 1.5V dry cells are joined to provide how much total voltage?",
-        options: [
-          "1.0 Volts",
-          "1.5 Volts",
-          "4.5 Volts",
-          "3.0 Volts"
-        ],
+        question:
+            "3. In a standard school experiment, two 1.5V dry cells are joined to provide how much total voltage?",
+        options: ["1.0 Volts", "1.5 Volts", "4.5 Volts", "3.0 Volts"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Connecting two 1.5V cells in series gives a total of 3.0 Volts."
-    ),
-
+        explanation:
+            "Connecting two 1.5V cells in series gives a total of 3.0 Volts."),
     IndependentPracticeQuestion(
-        question: "4. Which component is used to protect an LED from receiving too much current?",
-        options: [
-          "A capacitor",
-          "A resistor",
-          "A switch",
-          "A wire"
-        ],
+        question:
+            "4. Which component is used to protect an LED from receiving too much current?",
+        options: ["A capacitor", "A resistor", "A switch", "A wire"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A resistor limits the current flowing through an LED to prevent damage."
-    ),
+        explanation:
+            "A resistor limits the current flowing through an LED to prevent damage."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the primary job of the Resistor in a circuit with an LED?",
+        question:
+            "1. What is the primary job of the Resistor in a circuit with an LED?",
         options: [
           "To make the battery last longer",
           "To protect the LED from too much current",
@@ -18734,9 +17968,8 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The resistor limits the current to prevent the LED from burning out."
-    ),
-
+        explanation:
+            "The resistor limits the current to prevent the LED from burning out."),
     IndependentPracticeQuestion(
         question: "2. How does an LED 'depend' on the battery?",
         options: [
@@ -18747,11 +17980,11 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The LED requires the battery's electrical push to light up."
-    ),
-
+        explanation:
+            "The LED requires the battery's electrical push to light up."),
     IndependentPracticeQuestion(
-        question: "3. In a simple circuit, what happens if the switch is 'Open'?",
+        question:
+            "3. In a simple circuit, what happens if the switch is 'Open'?",
         options: [
           "The resistor gets very hot",
           "The LED shines at maximum brightness",
@@ -18760,41 +17993,31 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Opening the switch breaks the circuit, stopping current flow."
-    ),
-
+        explanation:
+            "Opening the switch breaks the circuit, stopping current flow."),
     IndependentPracticeQuestion(
-        question: "4. Which component acts as a 'one-way valve' for electricity?",
-        options: [
-          "The Switch",
-          "The Resistor",
-          "The Diode",
-          "The Battery"
-        ],
+        question:
+            "4. Which component acts as a 'one-way valve' for electricity?",
+        options: ["The Switch", "The Resistor", "The Diode", "The Battery"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A diode allows current to flow in only one direction."
-    ),
+        explanation: "A diode allows current to flow in only one direction."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS2 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which color in the resistor code represents the number 2?",
-        options: [
-          "Black",
-          "Brown",
-          "Red",
-          "Orange"
-        ],
+        question:
+            "1. Which color in the resistor code represents the number 2?",
+        options: ["Black", "Brown", "Red", "Orange"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "In resistor color codes, Red represents the number 2."
-    ),
-
+        explanation: "In resistor color codes, Red represents the number 2."),
     IndependentPracticeQuestion(
-        question: "2. The silver or white band on a diode indicates which terminal?",
+        question:
+            "2. The silver or white band on a diode indicates which terminal?",
         options: [
           "The Anode (Positive)",
           "The Cathode (Negative)",
@@ -18803,9 +18026,8 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The silver or white band marks the cathode (negative) terminal of a diode."
-    ),
-
+        explanation:
+            "The silver or white band marks the cathode (negative) terminal of a diode."),
     IndependentPracticeQuestion(
         question: "3. What does an inductor store its energy in?",
         options: [
@@ -18816,11 +18038,11 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An inductor stores energy in its magnetic field when current flows through it."
-    ),
-
+        explanation:
+            "An inductor stores energy in its magnetic field when current flows through it."),
     IndependentPracticeQuestion(
-        question: "4. If a resistor has a Gold band at the end, what does this represent?",
+        question:
+            "4. If a resistor has a Gold band at the end, what does this represent?",
         options: [
           "The price of the part",
           "The tolerance (accuracy)",
@@ -18829,15 +18051,17 @@ final IndependentPracticeModel Scijhs1s4ss2Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A gold band on a resistor indicates its tolerance, showing how accurate its resistance value is."
-    ),
+        explanation:
+            "A gold band on a resistor indicates its tolerance, showing how accurate its resistance value is."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS3 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which statement best describes the Law of Conservation of Energy?",
+        question:
+            "1. Which statement best describes the Law of Conservation of Energy?",
         options: [
           "Energy is created by batteries",
           "Energy cannot be transformed",
@@ -18846,11 +18070,11 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed."
-    ),
-
+        explanation:
+            "The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed."),
     IndependentPracticeQuestion(
-        question: "2. In a working torch, what form does the energy take while moving through the wires?",
+        question:
+            "2. In a working torch, what form does the energy take while moving through the wires?",
         options: [
           "Chemical energy",
           "Electrical energy",
@@ -18859,11 +18083,11 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Energy in the wires of a torch is in the form of electrical energy."
-    ),
-
+        explanation:
+            "Energy in the wires of a torch is in the form of electrical energy."),
     IndependentPracticeQuestion(
-        question: "3. When energy changes from one form to another, the total amount of energy...",
+        question:
+            "3. When energy changes from one form to another, the total amount of energy...",
         options: [
           "Stays the same",
           "Increases slowly",
@@ -18872,9 +18096,8 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The total energy remains constant, consistent with the Law of Conservation of Energy."
-    ),
-
+        explanation:
+            "The total energy remains constant, consistent with the Law of Conservation of Energy."),
     IndependentPracticeQuestion(
         question: "4. What is the final energy conversion in a radio?",
         options: [
@@ -18885,11 +18108,11 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A radio converts electrical energy into sound energy."
-    ),
+        explanation: "A radio converts electrical energy into sound energy."),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS3 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -18902,11 +18125,10 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Chemical to Mechanical"
-    ),
-
+        explanation: "Chemical to Mechanical"),
     IndependentPracticeQuestion(
-        question: "2. Which of the following items is designed specifically to produce Sound energy?",
+        question:
+            "2. Which of the following items is designed specifically to produce Sound energy?",
         options: [
           "An electric iron",
           "A ceiling fan",
@@ -18915,11 +18137,10 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A loudspeaker"
-    ),
-
+        explanation: "A loudspeaker"),
     IndependentPracticeQuestion(
-        question: "3. In a hydroelectric dam like Akosombo, the energy of falling water is used to create:",
+        question:
+            "3. In a hydroelectric dam like Akosombo, the energy of falling water is used to create:",
         options: [
           "Sound energy",
           "Electrical energy",
@@ -18928,11 +18149,10 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Electrical energy"
-    ),
-
+        explanation: "Electrical energy"),
     IndependentPracticeQuestion(
-        question: "4. Which energy conversion occurs when you switch on a television?",
+        question:
+            "4. Which energy conversion occurs when you switch on a television?",
         options: [
           "Electrical to Light and Sound",
           "Chemical to Heat only",
@@ -18941,15 +18161,16 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Electrical to Light and Sound"
-    ),
+        explanation: "Electrical to Light and Sound"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS3 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which type of light bulb is best for energy conservation?",
+        question:
+            "1. Which type of light bulb is best for energy conservation?",
         options: [
           "Old filament bulbs",
           "High-heat bulbs",
@@ -18958,9 +18179,7 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Energy-saving LED bulbs"
-    ),
-
+        explanation: "Energy-saving LED bulbs"),
     IndependentPracticeQuestion(
         question: "2. What does it mean to use energy 'judiciously'?",
         options: [
@@ -18971,9 +18190,7 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Using it carefully and wisely"
-    ),
-
+        explanation: "Using it carefully and wisely"),
     IndependentPracticeQuestion(
         question: "3. Keeping the refrigerator door open for a long time...",
         options: [
@@ -18984,11 +18201,10 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Wastes energy"
-    ),
-
+        explanation: "Wastes energy"),
     IndependentPracticeQuestion(
-        question: "4. In Ghana, which organization helps us identify efficient appliances?",
+        question:
+            "4. In Ghana, which organization helps us identify efficient appliances?",
         options: [
           "The Water Company",
           "The Energy Commission",
@@ -18997,28 +18213,23 @@ final IndependentPracticeModel Scijhs1s4ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Energy Commission"
-    ),
+        explanation: "The Energy Commission"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS4 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the term for an object's resistance to change its motion?",
-        options: [
-          "Friction",
-          "Inertia",
-          "Gravity",
-          "Velocity"
-        ],
+        question:
+            "1. What is the term for an object's resistance to change its motion?",
+        options: ["Friction", "Inertia", "Gravity", "Velocity"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Inertia"
-    ),
-
+        explanation: "Inertia"),
     IndependentPracticeQuestion(
-        question: "2. If a stationary object starts to move, what must have happened?",
+        question:
+            "2. If a stationary object starts to move, what must have happened?",
         options: [
           "Forces became balanced",
           "The mass decreased",
@@ -19027,9 +18238,7 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An unbalanced force acted"
-    ),
-
+        explanation: "An unbalanced force acted"),
     IndependentPracticeQuestion(
         question: "3. Which object has the most inertia?",
         options: [
@@ -19040,11 +18249,10 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A fully loaded truck"
-    ),
-
+        explanation: "A fully loaded truck"),
     IndependentPracticeQuestion(
-        question: "4. A ball rolls across a smooth floor and eventually stops. What caused it to stop?",
+        question:
+            "4. A ball rolls across a smooth floor and eventually stops. What caused it to stop?",
         options: [
           "The ball ran out of force",
           "The ball's inertia ended",
@@ -19053,15 +18261,16 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An unbalanced force (friction)"
-    ),
+        explanation: "An unbalanced force (friction)"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS4 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. According to Newton, an object will keep its same motion unless:",
+        question:
+            "1. According to Newton, an object will keep its same motion unless:",
         options: [
           "It gets tired",
           "An unbalanced force acts on it",
@@ -19070,11 +18279,10 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "An unbalanced force acts on it"
-    ),
-
+        explanation: "An unbalanced force acts on it"),
     IndependentPracticeQuestion(
-        question: "2. A ball is rolling at 2 meters per second. If no forces act on it, what will its speed be in 10 minutes?",
+        question:
+            "2. A ball is rolling at 2 meters per second. If no forces act on it, what will its speed be in 10 minutes?",
         options: [
           "0 meters per second",
           "1 meter per second",
@@ -19083,41 +18291,28 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "2 meters per second"
-    ),
-
+        explanation: "2 meters per second"),
     IndependentPracticeQuestion(
         question: "3. Newton’s First Law is also known as the Law of:",
-        options: [
-          "Gravity",
-          "Friction",
-          "Speed",
-          "Inertia"
-        ],
+        options: ["Gravity", "Friction", "Speed", "Inertia"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Inertia"
-    ),
-
+        explanation: "Inertia"),
     IndependentPracticeQuestion(
         question: "4. If an object is \"at rest,\" what is its velocity?",
-        options: [
-          "Zero",
-          "Constant",
-          "Increasing",
-          "Decreasing"
-        ],
+        options: ["Zero", "Constant", "Increasing", "Decreasing"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Zero"
-    ),
+        explanation: "Zero"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS4 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the main purpose of a seatbelt in terms of physics?",
+        question:
+            "1. What is the main purpose of a seatbelt in terms of physics?",
         options: [
           "To make the car go faster",
           "To provide an unbalanced force to stop your body",
@@ -19126,11 +18321,10 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "To provide an unbalanced force to stop your body"
-    ),
-
+        explanation: "To provide an unbalanced force to stop your body"),
     IndependentPracticeQuestion(
-        question: "2. When a car hits a wall and stops, why do unbelted passengers fly forward?",
+        question:
+            "2. When a car hits a wall and stops, why do unbelted passengers fly forward?",
         options: [
           "The wall pulls them forward",
           "The car pushes them forward",
@@ -19139,9 +18333,7 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Their inertia keeps them moving"
-    ),
-
+        explanation: "Their inertia keeps them moving"),
     IndependentPracticeQuestion(
         question: "3. Why should heavy loads on a truck be tied down securely?",
         options: [
@@ -19152,11 +18344,10 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "To prevent them from moving due to inertia"
-    ),
-
+        explanation: "To prevent them from moving due to inertia"),
     IndependentPracticeQuestion(
-        question: "4. If you are holding a cup of water in a car and the driver turns left, which way does the water splash?",
+        question:
+            "4. If you are holding a cup of water in a car and the driver turns left, which way does the water splash?",
         options: [
           "It splashes to the left",
           "It splashes to the right",
@@ -19165,11 +18356,11 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "It splashes to the right"
-    ),
+        explanation: "It splashes to the right"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss4Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss4Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS4 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -19182,9 +18373,7 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A steel paperclip"
-    ),
-
+        explanation: "A steel paperclip"),
     IndependentPracticeQuestion(
         question: "2. Where is the magnetic force strongest on a bar magnet?",
         options: [
@@ -19195,9 +18384,7 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "At the North and South poles"
-    ),
-
+        explanation: "At the North and South poles"),
     IndependentPracticeQuestion(
         question: "3. What happens when a North pole meets a South pole?",
         options: [
@@ -19208,11 +18395,10 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "They attract"
-    ),
-
+        explanation: "They attract"),
     IndependentPracticeQuestion(
-        question: "4. A magnet that only works when electricity is flowing is called:",
+        question:
+            "4. A magnet that only works when electricity is flowing is called:",
         options: [
           "A permanent magnet",
           "A natural magnet",
@@ -19221,54 +18407,37 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An electromagnet"
-    ),
+        explanation: "An electromagnet"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss4Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss4Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS4 L5/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which simple machine consists of a rope and a grooved wheel?",
-        options: [
-          "Wedge",
-          "Lever",
-          "Pulley",
-          "Screw"
-        ],
+        question:
+            "1. Which simple machine consists of a rope and a grooved wheel?",
+        options: ["Wedge", "Lever", "Pulley", "Screw"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Pulley"
-    ),
-
+        explanation: "Pulley"),
     IndependentPracticeQuestion(
-        question: "2. A pair of scissors is an example of which simple machine?",
-        options: [
-          "Inclined plane",
-          "Lever",
-          "Wheel and axle",
-          "Screw"
-        ],
+        question:
+            "2. A pair of scissors is an example of which simple machine?",
+        options: ["Inclined plane", "Lever", "Wheel and axle", "Screw"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Lever"
-    ),
-
+        explanation: "Lever"),
     IndependentPracticeQuestion(
-        question: "3. Which machine is used to hold two pieces of wood together permanently?",
-        options: [
-          "Wedge",
-          "Pulley",
-          "Lever",
-          "Screw"
-        ],
+        question:
+            "3. Which machine is used to hold two pieces of wood together permanently?",
+        options: ["Wedge", "Pulley", "Lever", "Screw"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Screw"
-    ),
-
+        explanation: "Screw"),
     IndependentPracticeQuestion(
-        question: "4. A ramp used by workers to load a trotro is an example of:",
+        question:
+            "4. A ramp used by workers to load a trotro is an example of:",
         options: [
           "An inclined plane",
           "A wheel and axle",
@@ -19277,39 +18446,25 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "An inclined plane"
-    ),
+        explanation: "An inclined plane"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss4Lesson6IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss4Lesson6IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS4 L6/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. In a Second Class lever, what is located in the middle?",
-        options: [
-          "The Fulcrum",
-          "The Load",
-          "The Effort",
-          "The Handle"
-        ],
+        options: ["The Fulcrum", "The Load", "The Effort", "The Handle"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Load"
-    ),
-
+        explanation: "The Load"),
     IndependentPracticeQuestion(
         question: "2. A see-saw is an example of which class of lever?",
-        options: [
-          "First Class",
-          "Second Class",
-          "Third Class",
-          "Fourth Class"
-        ],
+        options: ["First Class", "Second Class", "Third Class", "Fourth Class"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "First Class"
-    ),
-
+        explanation: "First Class"),
     IndependentPracticeQuestion(
         question: "3. Which class of lever is a fishing rod?",
         options: [
@@ -19320,11 +18475,10 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Third Class"
-    ),
-
+        explanation: "Third Class"),
     IndependentPracticeQuestion(
-        question: "4. A nutcracker, where the nut is placed between the hinge and the handles, is a:",
+        question:
+            "4. A nutcracker, where the nut is placed between the hinge and the handles, is a:",
         options: [
           "First Class lever",
           "Second Class lever",
@@ -19333,41 +18487,28 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Second Class lever"
-    ),
+        explanation: "Second Class lever"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss4Lesson7IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss4Lesson7IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS4 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is the unit used to measure work?",
-        options: [
-          "Newtons",
-          "Kilograms",
-          "Joules",
-          "Meters"
-        ],
+        options: ["Newtons", "Kilograms", "Joules", "Meters"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Joules"
-    ),
-
+        explanation: "Joules"),
     IndependentPracticeQuestion(
         question: "2. The work you do on a machine is called:",
-        options: [
-          "Work Output",
-          "Work Input",
-          "Efficiency",
-          "Friction"
-        ],
+        options: ["Work Output", "Work Input", "Efficiency", "Friction"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Work Input"
-    ),
-
+        explanation: "Work Input"),
     IndependentPracticeQuestion(
-        question: "3. Why is the efficiency of a machine always less than 100%?",
+        question:
+            "3. Why is the efficiency of a machine always less than 100%?",
         options: [
           "Because of gravity",
           "Because of friction",
@@ -19376,11 +18517,10 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson7IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Because of friction"
-    ),
-
+        explanation: "Because of friction"),
     IndependentPracticeQuestion(
-        question: "4. Which of these helps to increase the efficiency of a machine?",
+        question:
+            "4. Which of these helps to increase the efficiency of a machine?",
         options: [
           "Adding grease to moving parts",
           "Making the machine heavier",
@@ -19389,15 +18529,16 @@ final IndependentPracticeModel Scijhs1s4ss4Lesson7IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Adding grease to moving parts"
-    ),
+        explanation: "Adding grease to moving parts"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss5Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS5 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which tool is most suitable for transporting five heavy bags of cocoa beans?",
+        question:
+            "1. Which tool is most suitable for transporting five heavy bags of cocoa beans?",
         options: [
           "A large watering can",
           "A sturdy wheelbarrow",
@@ -19406,11 +18547,10 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A sturdy wheelbarrow"
-    ),
-
+        explanation: "A sturdy wheelbarrow"),
     IndependentPracticeQuestion(
-        question: "2. What is the best way to prevent a garden fork from rusting?",
+        question:
+            "2. What is the best way to prevent a garden fork from rusting?",
         options: [
           "Leave it in the rain",
           "Wash it with salty water",
@@ -19419,9 +18559,7 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Rub oil on the metal"
-    ),
-
+        explanation: "Rub oil on the metal"),
     IndependentPracticeQuestion(
         question: "3. When handing a sickle to a classmate, you should:",
         options: [
@@ -19432,28 +18570,23 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Give it handle-first"
-    ),
-
+        explanation: "Give it handle-first"),
     IndependentPracticeQuestion(
-        question: "4. Which tool is specifically designed for making mounds to plant yams?",
-        options: [
-          "Hand trowel",
-          "Garden rake",
-          "Farming hoe",
-          "Pickaxe"
-        ],
+        question:
+            "4. Which tool is specifically designed for making mounds to plant yams?",
+        options: ["Hand trowel", "Garden rake", "Farming hoe", "Pickaxe"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Farming hoe"
-    ),
+        explanation: "Farming hoe"),
   ],
 );
-final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S4 SS5 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is the most organized way to store a cutlass in a shed?",
+        question:
+            "1. Which of these is the most organized way to store a cutlass in a shed?",
         options: [
           "Leaning against a door",
           "Lying on a damp floor",
@@ -19462,11 +18595,10 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Hanging on a wall hook"
-    ),
-
+        explanation: "Hanging on a wall hook"),
     IndependentPracticeQuestion(
-        question: "2. What is the main benefit of returning a borrowed tool in better condition?",
+        question:
+            "2. What is the main benefit of returning a borrowed tool in better condition?",
         options: [
           "It makes the tool heavier",
           "It builds community trust",
@@ -19475,9 +18607,7 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "It builds community trust"
-    ),
-
+        explanation: "It builds community trust"),
     IndependentPracticeQuestion(
         question: "3. Which problem can usually be fixed by a student at home?",
         options: [
@@ -19488,11 +18618,10 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Loose wheelbarrow bolt"
-    ),
-
+        explanation: "Loose wheelbarrow bolt"),
     IndependentPracticeQuestion(
-        question: "4. Why is it bad to store agricultural tools on a dirt floor?",
+        question:
+            "4. Why is it bad to store agricultural tools on a dirt floor?",
         options: [
           "They might grow roots",
           "Moisture causes rusting",
@@ -19501,12 +18630,12 @@ final IndependentPracticeModel Scijhs1s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Moisture causes rusting"
-    ),
+        explanation: "Moisture causes rusting"),
   ],
 );
 
-final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -19519,9 +18648,7 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Dirty laundry water is a type of liquid waste."
-    ),
-
+        explanation: "Dirty laundry water is a type of liquid waste."),
     IndependentPracticeQuestion(
         question: "2. What does it mean to 'Reduce' waste?",
         options: [
@@ -19532,9 +18659,8 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Reducing waste means creating less rubbish in the first place."
-    ),
-
+        explanation:
+            "Reducing waste means creating less rubbish in the first place."),
     IndependentPracticeQuestion(
         question: "3. Which method involves turning kitchen waste into soil?",
         options: [
@@ -19545,9 +18671,8 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Organic composting turns kitchen and other organic waste into nutrient-rich compost."
-    ),
-
+        explanation:
+            "Organic composting turns kitchen and other organic waste into nutrient-rich compost."),
     IndependentPracticeQuestion(
         question: "4. Why is electronic waste (E-waste) dangerous?",
         options: [
@@ -19558,15 +18683,17 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "E-waste contains harmful chemicals that can pollute the environment and affect human health."
-    ),
+        explanation:
+            "E-waste contains harmful chemicals that can pollute the environment and affect human health."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the very first step in a waste management project?",
+        question:
+            "1. What is the very first step in a waste management project?",
         options: [
           "Burning the waste",
           "Researching the area",
@@ -19575,9 +18702,8 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Researching the area helps identify the waste problem before planning a solution."
-    ),
-
+        explanation:
+            "Researching the area helps identify the waste problem before planning a solution."),
     IndependentPracticeQuestion(
         question: "2. Why should you use gloves during a clean-up?",
         options: [
@@ -19588,11 +18714,11 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Gloves protect your hands from germs, dirt, and harmful materials during clean-up activities."
-    ),
-
+        explanation:
+            "Gloves protect your hands from germs, dirt, and harmful materials during clean-up activities."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is a good 'Conclusion' for a school report?",
+        question:
+            "3. Which of these is a good 'Conclusion' for a school report?",
         options: [
           "The sun was very hot",
           "We found five old pens",
@@ -19601,9 +18727,8 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A good conclusion provides a recommendation or summarizes what should be done next."
-    ),
-
+        explanation:
+            "A good conclusion provides a recommendation or summarizes what should be done next."),
     IndependentPracticeQuestion(
         question: "4. What does 'sorting at the source' mean?",
         options: [
@@ -19614,52 +18739,38 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sorting at the source means separating different types of waste where they are produced."
-    ),
+        explanation:
+            "Sorting at the source means separating different types of waste where they are produced."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which state of matter is used in Plasma Gasification to break down waste?",
-        options: [
-          "Solid",
-          "Liquid",
-          "Plasma",
-          "Gas"
-        ],
+        question:
+            "1. Which state of matter is used in Plasma Gasification to break down waste?",
+        options: ["Solid", "Liquid", "Plasma", "Gas"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Plasma gasification uses plasma, the fourth state of matter, to break down waste at extremely high temperatures."
-    ),
-
+        explanation:
+            "Plasma gasification uses plasma, the fourth state of matter, to break down waste at extremely high temperatures."),
     IndependentPracticeQuestion(
-        question: "2. What are the tiny chemicals used by bacteria to 'eat' biodegradable waste?",
-        options: [
-          "Rocks",
-          "Enzymes",
-          "Plastics",
-          "Metals"
-        ],
+        question:
+            "2. What are the tiny chemicals used by bacteria to 'eat' biodegradable waste?",
+        options: ["Rocks", "Enzymes", "Plastics", "Metals"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Bacteria use enzymes to break down biodegradable waste during decomposition."
-    ),
-
+        explanation:
+            "Bacteria use enzymes to break down biodegradable waste during decomposition."),
     IndependentPracticeQuestion(
-        question: "3. What is the final, nutrient-rich product of composting called?",
-        options: [
-          "Plastic",
-          "Humus",
-          "Syngas",
-          "Ash"
-        ],
+        question:
+            "3. What is the final, nutrient-rich product of composting called?",
+        options: ["Plastic", "Humus", "Syngas", "Ash"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Humus is the nutrient-rich material produced after organic waste has fully decomposed."
-    ),
-
+        explanation:
+            "Humus is the nutrient-rich material produced after organic waste has fully decomposed."),
     IndependentPracticeQuestion(
         question: "4. Why is incineration used for medical waste from clinics?",
         options: [
@@ -19670,41 +18781,32 @@ final IndependentPracticeModel Scijhs1s5ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Incineration destroys harmful pathogens and safely disposes of infectious medical waste."
-    ),
+        explanation:
+            "Incineration destroys harmful pathogens and safely disposes of infectious medical waste."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS2 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these nutrients is the primary source of immediate energy for a student?",
-        options: [
-          "Proteins",
-          "Vitamins",
-          "Carbohydrates",
-          "Minerals"
-        ],
+        question:
+            "1. Which of these nutrients is the primary source of immediate energy for a student?",
+        options: ["Proteins", "Vitamins", "Carbohydrates", "Minerals"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Carbohydrates are the body's main source of immediate energy."
-    ),
-
+        explanation:
+            "Carbohydrates are the body's main source of immediate energy."),
     IndependentPracticeQuestion(
-        question: "2. Scurvy is a deficiency disease that is caused by the lack of which nutrient?",
-        options: [
-          "Vitamin A",
-          "Vitamin C",
-          "Vitamin D",
-          "Vitamin K"
-        ],
+        question:
+            "2. Scurvy is a deficiency disease that is caused by the lack of which nutrient?",
+        options: ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Scurvy is caused by a deficiency of Vitamin C."
-    ),
-
+        explanation: "Scurvy is caused by a deficiency of Vitamin C."),
     IndependentPracticeQuestion(
-        question: "3. Which local food is the best source of protein to prevent Kwashiorkor?",
+        question:
+            "3. Which local food is the best source of protein to prevent Kwashiorkor?",
         options: [
           "Boiled yam",
           "Fried plantain",
@@ -19713,41 +18815,33 @@ final IndependentPracticeModel Scijhs1s5ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Steamed fish is rich in protein, which helps prevent Kwashiorkor."
-    ),
-
+        explanation:
+            "Steamed fish is rich in protein, which helps prevent Kwashiorkor."),
     IndependentPracticeQuestion(
-        question: "4. A person who finds it difficult to see in dim light likely lacks which vitamin?",
-        options: [
-          "Vitamin A",
-          "Vitamin B",
-          "Vitamin C",
-          "Vitamin D"
-        ],
+        question:
+            "4. A person who finds it difficult to see in dim light likely lacks which vitamin?",
+        options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Vitamin A deficiency can cause night blindness, making it difficult to see in dim light."
-    ),
+        explanation:
+            "Vitamin A deficiency can cause night blindness, making it difficult to see in dim light."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these terms describes a disease that has spread across the entire world?",
-        options: [
-          "Local infection",
-          "Regional flu",
-          "Pandemic",
-          "Epidemic"
-        ],
+        question:
+            "1. Which of these terms describes a disease that has spread across the entire world?",
+        options: ["Local infection", "Regional flu", "Pandemic", "Epidemic"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A pandemic is a disease outbreak that spreads across many countries or the entire world."
-    ),
-
+        explanation:
+            "A pandemic is a disease outbreak that spreads across many countries or the entire world."),
     IndependentPracticeQuestion(
-        question: "2. What is the most effective way to kill viruses on your hands after touching a surface?",
+        question:
+            "2. What is the most effective way to kill viruses on your hands after touching a surface?",
         options: [
           "Wiping them on cloth",
           "Washing with soap",
@@ -19756,24 +18850,19 @@ final IndependentPracticeModel Scijhs1s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Washing your hands with soap effectively removes and kills many germs and viruses."
-    ),
-
+        explanation:
+            "Washing your hands with soap effectively removes and kills many germs and viruses."),
     IndependentPracticeQuestion(
-        question: "3. Which symptom is most commonly associated with COVID-19 but NOT usually the flu?",
-        options: [
-          "Loss of taste",
-          "Running nose",
-          "High fever",
-          "Body pains"
-        ],
+        question:
+            "3. Which symptom is most commonly associated with COVID-19 but NOT usually the flu?",
+        options: ["Loss of taste", "Running nose", "High fever", "Body pains"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Loss of taste or smell is a symptom that is commonly associated with COVID-19."
-    ),
-
+        explanation:
+            "Loss of taste or smell is a symptom that is commonly associated with COVID-19."),
     IndependentPracticeQuestion(
-        question: "4. How does the H1N1 (Swine Flu) virus primarily spread between humans?",
+        question:
+            "4. How does the H1N1 (Swine Flu) virus primarily spread between humans?",
         options: [
           "Eating cooked pork",
           "Through the soil",
@@ -19782,15 +18871,17 @@ final IndependentPracticeModel Scijhs1s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "H1N1 primarily spreads through respiratory droplets when an infected person coughs, sneezes, or talks."
-    ),
+        explanation:
+            "H1N1 primarily spreads through respiratory droplets when an infected person coughs, sneezes, or talks."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which international scientist is famous for the discovery of the first antibiotic, Penicillin?",
+        question:
+            "1. Which international scientist is famous for the discovery of the first antibiotic, Penicillin?",
         options: [
           "Albert Einstein",
           "Charles Darwin",
@@ -19799,11 +18890,11 @@ final IndependentPracticeModel Scijhs1s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Alexander Fleming discovered penicillin, the world's first antibiotic, in 1928."
-    ),
-
+        explanation:
+            "Alexander Fleming discovered penicillin, the world's first antibiotic, in 1928."),
     IndependentPracticeQuestion(
-        question: "2. Which Ghanaian scientist was the first female quiz mistress of the National Science and Maths Quiz?",
+        question:
+            "2. Which Ghanaian scientist was the first female quiz mistress of the National Science and Maths Quiz?",
         options: [
           "Prof. Ibok Oduro",
           "Prof. Ewurama Addy",
@@ -19812,22 +18903,16 @@ final IndependentPracticeModel Scijhs1s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Prof. Ewurama Addy was the first female quiz mistress of the National Science and Maths Quiz."
-    ),
-
+        explanation:
+            "Prof. Ewurama Addy was the first female quiz mistress of the National Science and Maths Quiz."),
     IndependentPracticeQuestion(
-        question: "3. In which city is the National Cardiothoracic Center located?",
-        options: [
-          "Kumasi",
-          "Tamale",
-          "Takoradi",
-          "Accra"
-        ],
+        question:
+            "3. In which city is the National Cardiothoracic Center located?",
+        options: ["Kumasi", "Tamale", "Takoradi", "Accra"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "The National Cardiothoracic Center is located in Accra, Ghana."
-    ),
-
+        explanation:
+            "The National Cardiothoracic Center is located in Accra, Ghana."),
     IndependentPracticeQuestion(
         question: "4. What is the main focus of a Meteorologist?",
         options: [
@@ -19838,28 +18923,24 @@ final IndependentPracticeModel Scijhs1s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A meteorologist studies the atmosphere and weather to understand and predict weather conditions."
-    ),
+        explanation:
+            "A meteorologist studies the atmosphere and weather to understand and predict weather conditions."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS4 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which gas is primarily released when a car burns petrol?",
-        options: [
-          "Oxygen",
-          "Carbon dioxide",
-          "Nitrogen",
-          "Hydrogen"
-        ],
+        options: ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Burning petrol releases carbon dioxide, a greenhouse gas that contributes to climate change."
-    ),
-
+        explanation:
+            "Burning petrol releases carbon dioxide, a greenhouse gas that contributes to climate change."),
     IndependentPracticeQuestion(
-        question: "2. What is the main problem caused by the 'greenhouse effect'?",
+        question:
+            "2. What is the main problem caused by the 'greenhouse effect'?",
         options: [
           "The Earth gets colder",
           "It rains every day",
@@ -19868,22 +18949,15 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The greenhouse effect traps heat in the atmosphere, causing global temperatures to rise."
-    ),
-
+        explanation:
+            "The greenhouse effect traps heat in the atmosphere, causing global temperatures to rise."),
     IndependentPracticeQuestion(
         question: "3. Which of these is a renewable energy source?",
-        options: [
-          "Crude oil",
-          "Natural gas",
-          "Firewood",
-          "Sunlight"
-        ],
+        options: ["Crude oil", "Natural gas", "Firewood", "Sunlight"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Sunlight is a renewable energy source because it is naturally replenished."
-    ),
-
+        explanation:
+            "Sunlight is a renewable energy source because it is naturally replenished."),
     IndependentPracticeQuestion(
         question: "4. How does planting trees help the environment?",
         options: [
@@ -19894,15 +18968,17 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Trees absorb carbon dioxide from the atmosphere, helping to reduce greenhouse gases."
-    ),
+        explanation:
+            "Trees absorb carbon dioxide from the atmosphere, helping to reduce greenhouse gases."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS4 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What happens to heat rays (infrared) when they hit greenhouse gases?",
+        question:
+            "1. What happens to heat rays (infrared) when they hit greenhouse gases?",
         options: [
           "They turn into oxygen",
           "They are reflected back to Earth",
@@ -19911,11 +18987,11 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Greenhouse gases trap heat by reflecting or re-radiating infrared radiation back toward the Earth's surface."
-    ),
-
+        explanation:
+            "Greenhouse gases trap heat by reflecting or re-radiating infrared radiation back toward the Earth's surface."),
     IndependentPracticeQuestion(
-        question: "2. Which of these is a way to reduce methane gas in the environment?",
+        question:
+            "2. Which of these is a way to reduce methane gas in the environment?",
         options: [
           "Burning more plastic",
           "Cutting down old forests",
@@ -19924,11 +19000,11 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Proper waste management helps reduce methane emissions from decomposing organic waste."
-    ),
-
+        explanation:
+            "Proper waste management helps reduce methane emissions from decomposing organic waste."),
     IndependentPracticeQuestion(
-        question: "3. The process of planting trees where there were none before is called...",
+        question:
+            "3. The process of planting trees where there were none before is called...",
         options: [
           "Deforestation",
           "Urbanization",
@@ -19937,11 +19013,11 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Afforestation is the planting of trees in areas where there were previously no forests."
-    ),
-
+        explanation:
+            "Afforestation is the planting of trees in areas where there were previously no forests."),
     IndependentPracticeQuestion(
-        question: "4. Why is the greenhouse effect actually necessary for life on Earth?",
+        question:
+            "4. Why is the greenhouse effect actually necessary for life on Earth?",
         options: [
           "It makes the sky blue",
           "It keeps the Earth warm enough",
@@ -19950,15 +19026,17 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The natural greenhouse effect keeps Earth warm enough to support life."
-    ),
+        explanation:
+            "The natural greenhouse effect keeps Earth warm enough to support life."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS4 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the first step in designing a local energy project?",
+        question:
+            "1. What is the first step in designing a local energy project?",
         options: [
           "Buying expensive tools",
           "Observing a local problem",
@@ -19967,11 +19045,11 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The first step in any project is identifying and observing the problem that needs to be solved."
-    ),
-
+        explanation:
+            "The first step in any project is identifying and observing the problem that needs to be solved."),
     IndependentPracticeQuestion(
-        question: "2. Which material would be most 'sustainable' for building a wind turbine blade in a village?",
+        question:
+            "2. Which material would be most 'sustainable' for building a wind turbine blade in a village?",
         options: [
           "Imported heavy steel",
           "New expensive plastic",
@@ -19980,9 +19058,8 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Local treated bamboo is a sustainable material because it is renewable, locally available, and environmentally friendly."
-    ),
-
+        explanation:
+            "Local treated bamboo is a sustainable material because it is renewable, locally available, and environmentally friendly."),
     IndependentPracticeQuestion(
         question: "3. Why do we build a 'prototype' or small model first?",
         options: [
@@ -19993,11 +19070,11 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A prototype allows designers to test and improve an idea before building the final product."
-    ),
-
+        explanation:
+            "A prototype allows designers to test and improve an idea before building the final product."),
     IndependentPracticeQuestion(
-        question: "4. A project that uses 'Biomass' for energy would most likely use...",
+        question:
+            "4. A project that uses 'Biomass' for energy would most likely use...",
         options: [
           "Wind from the sea",
           "Sunlight from above",
@@ -20006,39 +19083,30 @@ final IndependentPracticeModel Scijhs1s5ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Biomass energy is produced from organic materials such as food waste, crop residues, and other plant matter."
-    ),
+        explanation:
+            "Biomass energy is produced from organic materials such as food waste, crop residues, and other plant matter."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss5Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS5 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which landform is described as a large area of flat, low-lying land?",
-        options: [
-          "Mountain",
-          "Plateau",
-          "Plain",
-          "Valley"
-        ],
+        question:
+            "1. Which landform is described as a large area of flat, low-lying land?",
+        options: ["Mountain", "Plateau", "Plain", "Valley"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A plain is a large area of flat or gently rolling, low-lying land."
-    ),
-
+        explanation:
+            "A plain is a large area of flat or gently rolling, low-lying land."),
     IndependentPracticeQuestion(
-        question: "2. Which of these animals is most likely to be found in a forest on a mountain slope?",
-        options: [
-          "Zebra",
-          "Monkey",
-          "Ostrich",
-          "Lion"
-        ],
+        question:
+            "2. Which of these animals is most likely to be found in a forest on a mountain slope?",
+        options: ["Zebra", "Monkey", "Ostrich", "Lion"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Monkeys commonly live in forests on mountain slopes where there are many trees."
-    ),
-
+        explanation:
+            "Monkeys commonly live in forests on mountain slopes where there are many trees."),
     IndependentPracticeQuestion(
         question: "3. What is a key feature of a plateau?",
         options: [
@@ -20049,39 +19117,29 @@ final IndependentPracticeModel Scijhs1s5ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A plateau is an area of high land with a broad, flat top."
-    ),
-
+        explanation:
+            "A plateau is an area of high land with a broad, flat top."),
     IndependentPracticeQuestion(
-        question: "4. Which plant is famous for storing water in its trunk in the plains?",
-        options: [
-          "Mahogany",
-          "Odum",
-          "Baobab",
-          "Wawa"
-        ],
+        question:
+            "4. Which plant is famous for storing water in its trunk in the plains?",
+        options: ["Mahogany", "Odum", "Baobab", "Wawa"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The baobab tree stores water in its thick trunk, helping it survive in dry environments."
-    ),
+        explanation:
+            "The baobab tree stores water in its thick trunk, helping it survive in dry environments."),
   ],
 );
-final IndependentPracticeModel Scijhs1s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs1s5ss5Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS1 S5 SS5 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. In Mutualism, how many organisms benefit?",
-        options: [
-          "None",
-          "Only one",
-          "Both",
-          "Only the host"
-        ],
+        options: ["None", "Only one", "Both", "Only the host"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "In mutualism, both organisms benefit from the relationship."
-    ),
-
+        explanation:
+            "In mutualism, both organisms benefit from the relationship."),
     IndependentPracticeQuestion(
         question: "2. Which of these is an example of Predation?",
         options: [
@@ -20092,9 +19150,8 @@ final IndependentPracticeModel Scijhs1s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Predation is a relationship in which one organism hunts and eats another."
-    ),
-
+        explanation:
+            "Predation is a relationship in which one organism hunts and eats another."),
     IndependentPracticeQuestion(
         question: "3. Why is mistletoe considered a parasite on a cocoa tree?",
         options: [
@@ -20105,25 +19162,20 @@ final IndependentPracticeModel Scijhs1s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mistletoe is a parasite because it takes water and nutrients from the cocoa tree."
-    ),
-
+        explanation:
+            "Mistletoe is a parasite because it takes water and nutrients from the cocoa tree."),
     IndependentPracticeQuestion(
         question: "4. What is the organism that a parasite lives on called?",
-        options: [
-          "The Guest",
-          "The Host",
-          "The Prey",
-          "The Partner"
-        ],
+        options: ["The Guest", "The Host", "The Prey", "The Partner"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The host is the organism that provides food or shelter for the parasite."
-    ),
+        explanation:
+            "The host is the organism that provides food or shelter for the parasite."),
   ],
 );
 
-final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS2 S1 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -20148,7 +19200,8 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson1IndependentQuizData = Independ
             "In a sugar solution, water is the solvent because it dissolves the sugar."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/2. JHS2 S1 SS1 L2/7. Independent Practice.m4a',
   questions: [
@@ -20195,7 +19248,8 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson2IndependentQuizData = Independ
             "Residue is the solid left behind on the filter paper after filtration."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/3. JHS2 S1 SS1 L3/7. Independent Practice.m4a',
   questions: [
@@ -20243,7 +19297,8 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson3IndependentQuizData = Independ
             "The electron is the lightest subatomic particle among the three."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/4. JHS2 S1 SS1 L4/7. Independent Practice.m4a',
   questions: [
@@ -20287,7 +19342,8 @@ final IndependentPracticeModel Scijhs2s1ss1Lesson4IndependentQuizData = Independ
   ],
 );
 
-final IndependentPracticeModel Scijhs2s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/5. JHS2 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -20341,7 +19397,8 @@ final IndependentPracticeModel Scijhs2s1ss2Lesson1IndependentQuizData = Independ
             "The cell membrane controls what enters and leaves the cell."),
   ],
 );
-final IndependentPracticeModel Scijhs2s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s1ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/6. JHS2 S1 SS2 L2/7. Independent Practice.m4a',
   questions: [
@@ -20398,11 +19455,13 @@ final IndependentPracticeModel Scijhs2s1ss2Lesson2IndependentQuizData = Independ
   ],
 );
 
-final IndependentPracticeModel Scijhs2s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which process is responsible for taking carbon out of the atmosphere?",
+        question:
+            "1. Which process is responsible for taking carbon out of the atmosphere?",
         options: [
           "Respiration",
           "Combustion",
@@ -20411,24 +19470,19 @@ final IndependentPracticeModel Scijhs2s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Photosynthesis removes carbon dioxide from the atmosphere and uses it to make food in plants."
-    ),
-
+        explanation:
+            "Photosynthesis removes carbon dioxide from the atmosphere and uses it to make food in plants."),
     IndependentPracticeQuestion(
-        question: "2. What gas do humans and animals release during respiration?",
-        options: [
-          "Oxygen",
-          "Carbon (IV) Oxide",
-          "Nitrogen",
-          "Hydrogen"
-        ],
+        question:
+            "2. What gas do humans and animals release during respiration?",
+        options: ["Oxygen", "Carbon (IV) Oxide", "Nitrogen", "Hydrogen"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Humans and animals release carbon dioxide, also called Carbon (IV) Oxide, during respiration."
-    ),
-
+        explanation:
+            "Humans and animals release carbon dioxide, also called Carbon (IV) Oxide, during respiration."),
     IndependentPracticeQuestion(
-        question: "3. In the carbon cycle, what role do bacteria and fungi play when an organism dies?",
+        question:
+            "3. In the carbon cycle, what role do bacteria and fungi play when an organism dies?",
         options: [
           "They create solar energy",
           "They stop the cycle",
@@ -20437,9 +19491,8 @@ final IndependentPracticeModel Scijhs2s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Bacteria and fungi decompose dead organisms and return carbon to the environment."
-    ),
-
+        explanation:
+            "Bacteria and fungi decompose dead organisms and return carbon to the environment."),
     IndependentPracticeQuestion(
         question: "4. Which of these is a local example of combustion?",
         options: [
@@ -20450,28 +19503,25 @@ final IndependentPracticeModel Scijhs2s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Burning charcoal is an example of combustion because fuel reacts with oxygen to release heat."
-    ),
+        explanation:
+            "Burning charcoal is an example of combustion because fuel reacts with oxygen to release heat."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these gases is primarily responsible for the greenhouse effect?",
-        options: [
-          "Nitrogen",
-          "Carbon (IV) Oxide",
-          "Oxygen",
-          "Argon"
-        ],
+        question:
+            "1. Which of these gases is primarily responsible for the greenhouse effect?",
+        options: ["Nitrogen", "Carbon (IV) Oxide", "Oxygen", "Argon"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Carbon (IV) Oxide is a greenhouse gas that traps heat in the atmosphere."
-    ),
-
+        explanation:
+            "Carbon (IV) Oxide is a greenhouse gas that traps heat in the atmosphere."),
     IndependentPracticeQuestion(
-        question: "2. What would happen to a food chain if the carbon cycle stopped?",
+        question:
+            "2. What would happen to a food chain if the carbon cycle stopped?",
         options: [
           "Animals would grow faster",
           "Plants would produce more",
@@ -20480,11 +19530,11 @@ final IndependentPracticeModel Scijhs2s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Without the carbon cycle, plants and animals would not get the carbon needed for life, causing food chains to fail."
-    ),
-
+        explanation:
+            "Without the carbon cycle, plants and animals would not get the carbon needed for life, causing food chains to fail."),
     IndependentPracticeQuestion(
-        question: "3. What is the effect of 'deforestation' on the environment?",
+        question:
+            "3. What is the effect of 'deforestation' on the environment?",
         options: [
           "It increases oxygen levels",
           "It cools down the Earth",
@@ -20493,9 +19543,8 @@ final IndependentPracticeModel Scijhs2s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Deforestation reduces the number of trees that absorb carbon dioxide, increasing carbon in the atmosphere."
-    ),
-
+        explanation:
+            "Deforestation reduces the number of trees that absorb carbon dioxide, increasing carbon in the atmosphere."),
     IndependentPracticeQuestion(
         question: "4. Why is the carbon cycle considered a 'regulator'?",
         options: [
@@ -20506,15 +19555,17 @@ final IndependentPracticeModel Scijhs2s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The carbon cycle helps regulate the balance of gases and temperature on Earth."
-    ),
+        explanation:
+            "The carbon cycle helps regulate the balance of gases and temperature on Earth."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS2 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. At which stage does the Anopheles mosquito undergo internal changes without feeding?",
+        question:
+            "1. At which stage does the Anopheles mosquito undergo internal changes without feeding?",
         options: [
           "The Egg Stage",
           "The Larva Stage",
@@ -20523,11 +19574,11 @@ final IndependentPracticeModel Scijhs2s2ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The pupa stage is the resting stage where the mosquito changes internally without feeding."
-    ),
-
+        explanation:
+            "The pupa stage is the resting stage where the mosquito changes internally without feeding."),
     IndependentPracticeQuestion(
-        question: "2. Which of the following is a positive economic importance of the mosquito?",
+        question:
+            "2. Which of the following is a positive economic importance of the mosquito?",
         options: [
           "Spreading parasites",
           "Pollinating flowers",
@@ -20536,11 +19587,11 @@ final IndependentPracticeModel Scijhs2s2ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Some mosquitoes help in pollinating flowers while feeding on nectar."
-    ),
-
+        explanation:
+            "Some mosquitoes help in pollinating flowers while feeding on nectar."),
     IndependentPracticeQuestion(
-        question: "3. Where is the most likely place to find a 'raft' of mosquito eggs?",
+        question:
+            "3. Where is the most likely place to find a 'raft' of mosquito eggs?",
         options: [
           "On dry sandy soil",
           "Inside a fast river",
@@ -20549,24 +19600,19 @@ final IndependentPracticeModel Scijhs2s2ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Mosquitoes usually lay eggs in stagnant dirty water such as choked gutters."
-    ),
-
+        explanation:
+            "Mosquitoes usually lay eggs in stagnant dirty water such as choked gutters."),
     IndependentPracticeQuestion(
-        question: "4. Which animal is part of the food chain that eats mosquito larvae?",
-        options: [
-          "A house cat",
-          "A small fish",
-          "A large goat",
-          "A fruit bat"
-        ],
+        question:
+            "4. Which animal is part of the food chain that eats mosquito larvae?",
+        options: ["A house cat", "A small fish", "A large goat", "A fruit bat"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Small fish feed on mosquito larvae in water bodies."
-    ),
+        explanation: "Small fish feed on mosquito larvae in water bodies."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -20579,24 +19625,19 @@ final IndependentPracticeModel Scijhs2s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Environmental control involves removing mosquito breeding places such as stagnant water in gutters."
-    ),
-
+        explanation:
+            "Environmental control involves removing mosquito breeding places such as stagnant water in gutters."),
     IndependentPracticeQuestion(
-        question: "2. Which parasite is carried by the female Anopheles mosquito?",
-        options: [
-          "Bacteria",
-          "Plasmodium",
-          "Virus",
-          "Fungi"
-        ],
+        question:
+            "2. Which parasite is carried by the female Anopheles mosquito?",
+        options: ["Bacteria", "Plasmodium", "Virus", "Fungi"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The female Anopheles mosquito carries the Plasmodium parasite that causes malaria."
-    ),
-
+        explanation:
+            "The female Anopheles mosquito carries the Plasmodium parasite that causes malaria."),
     IndependentPracticeQuestion(
-        question: "3. What is a disadvantage of using chemical control (spraying)?",
+        question:
+            "3. What is a disadvantage of using chemical control (spraying)?",
         options: [
           "It is very slow",
           "It can pollute the air",
@@ -20605,11 +19646,11 @@ final IndependentPracticeModel Scijhs2s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Chemical spraying can pollute the environment and affect air quality."
-    ),
-
+        explanation:
+            "Chemical spraying can pollute the environment and affect air quality."),
     IndependentPracticeQuestion(
-        question: "4. How does genetic control help reduce the mosquito population?",
+        question:
+            "4. How does genetic control help reduce the mosquito population?",
         options: [
           "It feeds the mosquitoes",
           "It makes mosquitoes faster",
@@ -20618,28 +19659,25 @@ final IndependentPracticeModel Scijhs2s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Genetic control reduces mosquito populations by preventing successful reproduction."
-    ),
+        explanation:
+            "Genetic control reduces mosquito populations by preventing successful reproduction."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which type of seed bed is most suitable for growing rice?",
-        options: [
-          "Flat bed",
-          "Raised bed",
-          "Sunken bed",
-          "Hard ground"
-        ],
+        question:
+            "1. Which type of seed bed is most suitable for growing rice?",
+        options: ["Flat bed", "Raised bed", "Sunken bed", "Hard ground"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Rice grows well in waterlogged conditions, so a sunken bed is most suitable."
-    ),
-
+        explanation:
+            "Rice grows well in waterlogged conditions, so a sunken bed is most suitable."),
     IndependentPracticeQuestion(
-        question: "2. Why is a raised bed (ridge) useful during the rainy season in Ghana?",
+        question:
+            "2. Why is a raised bed (ridge) useful during the rainy season in Ghana?",
         options: [
           "It traps all the water",
           "It prevents root rotting",
@@ -20648,22 +19686,14 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Raised beds improve drainage and help prevent roots from rotting."
-    ),
-
+        explanation:
+            "Raised beds improve drainage and help prevent roots from rotting."),
     IndependentPracticeQuestion(
         question: "3. Which of these crops is commonly grown on a flat bed?",
-        options: [
-          "Maize",
-          "Carrot",
-          "Rice",
-          "Yam"
-        ],
+        options: ["Maize", "Carrot", "Rice", "Yam"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Maize is commonly planted on flat seed beds."
-    ),
-
+        explanation: "Maize is commonly planted on flat seed beds."),
     IndependentPracticeQuestion(
         question: "4. What is the primary purpose of a seed bed?",
         options: [
@@ -20674,39 +19704,28 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A seed bed provides suitable conditions for seeds to germinate and grow well."
-    ),
+        explanation:
+            "A seed bed provides suitable conditions for seeds to germinate and grow well."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS3 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these crops is usually planted using suckers?",
-        options: [
-          "Maize",
-          "Plantain",
-          "Cowpea",
-          "Tomato"
-        ],
+        options: ["Maize", "Plantain", "Cowpea", "Tomato"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Plantain is commonly propagated using suckers."
-    ),
-
+        explanation: "Plantain is commonly propagated using suckers."),
     IndependentPracticeQuestion(
-        question: "2. What is the best method for planting maize in a large flat field?",
-        options: [
-          "Transplanting",
-          "Drilling",
-          "Direct Sowing",
-          "Mulching"
-        ],
+        question:
+            "2. What is the best method for planting maize in a large flat field?",
+        options: ["Transplanting", "Drilling", "Direct Sowing", "Mulching"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Direct sowing is commonly used for planting maize in large fields."
-    ),
-
+        explanation:
+            "Direct sowing is commonly used for planting maize in large fields."),
     IndependentPracticeQuestion(
         question: "3. Why do we plant carrots on raised beds?",
         options: [
@@ -20717,28 +19736,25 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Raised beds provide loose soil that allows carrot roots to grow long and straight."
-    ),
-
+        explanation:
+            "Raised beds provide loose soil that allows carrot roots to grow long and straight."),
     IndependentPracticeQuestion(
-        question: "4. When a farmer uses a stick to make a hole for a seed, what is this called?",
-        options: [
-          "Drilling",
-          "Dibbling",
-          "Ploughing",
-          "Flooding"
-        ],
+        question:
+            "4. When a farmer uses a stick to make a hole for a seed, what is this called?",
+        options: ["Drilling", "Dibbling", "Ploughing", "Flooding"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Dibbling is the method of making holes in the soil for planting seeds."
-    ),
+        explanation:
+            "Dibbling is the method of making holes in the soil for planting seeds."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS3 L3/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which tool is best for measuring the height of a tall maize plant?",
+        question:
+            "1. Which tool is best for measuring the height of a tall maize plant?",
         options: [
           "A small spoon",
           "A measuring tape",
@@ -20747,11 +19763,11 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A measuring tape is used to measure the height or length of objects such as maize plants."
-    ),
-
+        explanation:
+            "A measuring tape is used to measure the height or length of objects such as maize plants."),
     IndependentPracticeQuestion(
-        question: "2. What are we measuring when we count the number of tomatoes on a plant?",
+        question:
+            "2. What are we measuring when we count the number of tomatoes on a plant?",
         options: [
           "Plant height",
           "Root length",
@@ -20760,11 +19776,11 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Counting tomatoes helps measure how successful the plant is at fruit production."
-    ),
-
+        explanation:
+            "Counting tomatoes helps measure how successful the plant is at fruit production."),
     IndependentPracticeQuestion(
-        question: "3. If you want to show how a plant grew over four weeks, which is best to use?",
+        question:
+            "3. If you want to show how a plant grew over four weeks, which is best to use?",
         options: [
           "A school bell",
           "A growth table",
@@ -20773,11 +19789,11 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A growth table helps record and compare plant growth over time."
-    ),
-
+        explanation:
+            "A growth table helps record and compare plant growth over time."),
     IndependentPracticeQuestion(
-        question: "4. Why might a plant in a flooded flat bed have yellow leaves and no flowers?",
+        question:
+            "4. Why might a plant in a flooded flat bed have yellow leaves and no flowers?",
         options: [
           "It is too happy",
           "It has too much water",
@@ -20786,15 +19802,17 @@ final IndependentPracticeModel Scijhs2s2ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Too much water can damage roots and prevent healthy growth, causing yellow leaves and poor flowering."
-    ),
+        explanation:
+            "Too much water can damage roots and prevent healthy growth, causing yellow leaves and poor flowering."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS4 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is a characteristic of dry roughages?",
+        question:
+            "1. Which of the following is a characteristic of dry roughages?",
         options: [
           "They have 10% dry matter.",
           "They are very low in fibre.",
@@ -20803,9 +19821,8 @@ final IndependentPracticeModel Scijhs2s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Dry roughages contain a high amount of dry matter, usually about 90%."
-    ),
-
+        explanation:
+            "Dry roughages contain a high amount of dry matter, usually about 90%."),
     IndependentPracticeQuestion(
         question: "2. Which feed is an example of a protein-rich concentrate?",
         options: [
@@ -20816,22 +19833,16 @@ final IndependentPracticeModel Scijhs2s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Groundnut cake is rich in protein and commonly used in animal feed."
-    ),
-
+        explanation:
+            "Groundnut cake is rich in protein and commonly used in animal feed."),
     IndependentPracticeQuestion(
-        question: "3. Animals like cattle and goats that eat high-fibre grass are called:",
-        options: [
-          "Ruminants.",
-          "Concentrates.",
-          "Legumes.",
-          "Cereals."
-        ],
+        question:
+            "3. Animals like cattle and goats that eat high-fibre grass are called:",
+        options: ["Ruminants.", "Concentrates.", "Legumes.", "Cereals."],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Cattle and goats are ruminants because they digest fibrous plants using a multi-chambered stomach."
-    ),
-
+        explanation:
+            "Cattle and goats are ruminants because they digest fibrous plants using a multi-chambered stomach."),
     IndependentPracticeQuestion(
         question: "4. Why is maize classified as an energy-rich concentrate?",
         options: [
@@ -20842,26 +19853,22 @@ final IndependentPracticeModel Scijhs2s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Maize is rich in starch, which provides energy to animals."
-    ),
+        explanation:
+            "Maize is rich in starch, which provides energy to animals."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS4 L2/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which nutrient provides the most concentrated source of energy?",
-        options: [
-          "Proteins",
-          "Carbohydrates",
-          "Fats and Oils",
-          "Fibre"
-        ],
+        question:
+            "1. Which nutrient provides the most concentrated source of energy?",
+        options: ["Proteins", "Carbohydrates", "Fats and Oils", "Fibre"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Fats and oils provide the most concentrated source of energy for animals."
-    ),
-
+        explanation:
+            "Fats and oils provide the most concentrated source of energy for animals."),
     IndependentPracticeQuestion(
         question: "2. Fish meal and blood meal are excellent sources of:",
         options: [
@@ -20872,11 +19879,11 @@ final IndependentPracticeModel Scijhs2s2ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Fish meal and blood meal are rich in animal protein used in livestock feeding."
-    ),
-
+        explanation:
+            "Fish meal and blood meal are rich in animal protein used in livestock feeding."),
     IndependentPracticeQuestion(
-        question: "3. What happens to extra carbohydrates that an animal does not use immediately?",
+        question:
+            "3. What happens to extra carbohydrates that an animal does not use immediately?",
         options: [
           "It is turned into protein.",
           "It is stored as fat.",
@@ -20885,67 +19892,47 @@ final IndependentPracticeModel Scijhs2s2ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Unused carbohydrates are commonly stored in the body as fat."
-    ),
-
+        explanation:
+            "Unused carbohydrates are commonly stored in the body as fat."),
     IndependentPracticeQuestion(
-        question: "4. Which of these Ghanaian crops is a primary source of carbohydrates?",
-        options: [
-          "Soya bean",
-          "Groundnut",
-          "Cotton seed",
-          "Sorghum"
-        ],
+        question:
+            "4. Which of these Ghanaian crops is a primary source of carbohydrates?",
+        options: ["Soya bean", "Groundnut", "Cotton seed", "Sorghum"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Sorghum is a cereal crop and an important source of carbohydrates."
-    ),
+        explanation:
+            "Sorghum is a cereal crop and an important source of carbohydrates."),
   ],
 );
-final IndependentPracticeModel Scijhs2s2ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s2ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S2 SS4 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following is a fat-soluble vitamin?",
-        options: [
-          "Vitamin B",
-          "Vitamin C",
-          "Vitamin A",
-          "Vitamin Salt"
-        ],
+        options: ["Vitamin B", "Vitamin C", "Vitamin A", "Vitamin Salt"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Vitamin A is a fat-soluble vitamin stored in the body's fatty tissues."
-    ),
-
+        explanation:
+            "Vitamin A is a fat-soluble vitamin stored in the body's fatty tissues."),
     IndependentPracticeQuestion(
         question: "2. What is a common source of calcium for poultry in Ghana?",
-        options: [
-          "Maize bran",
-          "Oyster shells",
-          "Cassava peels",
-          "Palm oil"
-        ],
+        options: ["Maize bran", "Oyster shells", "Cassava peels", "Palm oil"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Oyster shells are rich in calcium and are commonly added to poultry feed."
-    ),
-
+        explanation:
+            "Oyster shells are rich in calcium and are commonly added to poultry feed."),
     IndependentPracticeQuestion(
-        question: "3. Which mineral is essential for healthy blood and carrying oxygen?",
-        options: [
-          "Calcium",
-          "Iron",
-          "Phosphorus",
-          "Sodium"
-        ],
+        question:
+            "3. Which mineral is essential for healthy blood and carrying oxygen?",
+        options: ["Calcium", "Iron", "Phosphorus", "Sodium"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Iron is needed for the formation of haemoglobin which carries oxygen in the blood."
-    ),
-
+        explanation:
+            "Iron is needed for the formation of haemoglobin which carries oxygen in the blood."),
     IndependentPracticeQuestion(
-        question: "4. A lack of Vitamin A in cattle can lead to which condition?",
+        question:
+            "4. A lack of Vitamin A in cattle can lead to which condition?",
         options: [
           "Soft eggshells",
           "Night blindness",
@@ -20954,141 +19941,95 @@ final IndependentPracticeModel Scijhs2s2ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Vitamin A deficiency can cause night blindness in animals."
-    ),
+        explanation:
+            "Vitamin A deficiency can cause night blindness in animals."),
   ],
 );
 
-final IndependentPracticeModel Scijhs2s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s3ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S3 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which part of the tooth is located exactly at the gum line?",
-        options: [
-          "The pulp",
-          "The neck",
-          "The root",
-          "The bone"
-        ],
+        question:
+            "1. Which part of the tooth is located exactly at the gum line?",
+        options: ["The pulp", "The neck", "The root", "The bone"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The neck of the tooth is the part located at the gum line."
-    ),
-
+        explanation:
+            "The neck of the tooth is the part located at the gum line."),
     IndependentPracticeQuestion(
-        question: "2. Which of these layers is the hardest substance in the human body?",
-        options: [
-          "The dentine",
-          "The cement",
-          "The enamel",
-          "The pulp"
-        ],
+        question:
+            "2. Which of these layers is the hardest substance in the human body?",
+        options: ["The dentine", "The cement", "The enamel", "The pulp"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Enamel is the hardest substance in the human body."
-    ),
-
+        explanation: "Enamel is the hardest substance in the human body."),
     IndependentPracticeQuestion(
-        question: "3. The blood vessels and nerves of a tooth are found in the...",
-        options: [
-          "Cementum",
-          "Enamel",
-          "Dentine",
-          "Pulp"
-        ],
+        question:
+            "3. The blood vessels and nerves of a tooth are found in the...",
+        options: ["Cementum", "Enamel", "Dentine", "Pulp"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "The pulp contains the tooth’s blood vessels and nerves."
-    ),
-
+        explanation: "The pulp contains the tooth’s blood vessels and nerves."),
     IndependentPracticeQuestion(
         question: "4. Which part of the tooth acts as an anchor in the jaw?",
-        options: [
-          "The crown",
-          "The neck",
-          "The root",
-          "The gum"
-        ],
+        options: ["The crown", "The neck", "The root", "The gum"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The root holds the tooth firmly in the jawbone."
-    ),
+        explanation: "The root holds the tooth firmly in the jawbone."),
   ],
 );
-final IndependentPracticeModel Scijhs2s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s3ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S3 SS1 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which type of tooth is specifically used for tearing food?",
-        options: [
-          "Molar",
-          "Incisor",
-          "Canine",
-          "Premolar"
-        ],
+        question:
+            "1. Which type of tooth is specifically used for tearing food?",
+        options: ["Molar", "Incisor", "Canine", "Premolar"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Canines are sharp teeth mainly used for tearing food."
-    ),
-
+        explanation: "Canines are sharp teeth mainly used for tearing food."),
     IndependentPracticeQuestion(
-        question: "2. A chisel-shaped tooth used for biting and cutting is called...",
-        options: [
-          "An incisor",
-          "A molar",
-          "A canine",
-          "A premolar"
-        ],
+        question:
+            "2. A chisel-shaped tooth used for biting and cutting is called...",
+        options: ["An incisor", "A molar", "A canine", "A premolar"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Incisors are chisel-shaped teeth used for cutting and biting food."
-    ),
-
+        explanation:
+            "Incisors are chisel-shaped teeth used for cutting and biting food."),
     IndependentPracticeQuestion(
-        question: "3. How many canines does a human typically have in the lower jaw?",
-        options: [
-          "Four",
-          "Two",
-          "Six",
-          "Eight"
-        ],
+        question:
+            "3. How many canines does a human typically have in the lower jaw?",
+        options: ["Four", "Two", "Six", "Eight"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Humans usually have two canines in the lower jaw."
-    ),
-
+        explanation: "Humans usually have two canines in the lower jaw."),
     IndependentPracticeQuestion(
-        question: "4. Which teeth have a wide, flat surface for heavy grinding?",
-        options: [
-          "Canines",
-          "Incisors",
-          "Premolars",
-          "Molars"
-        ],
+        question:
+            "4. Which teeth have a wide, flat surface for heavy grinding?",
+        options: ["Canines", "Incisors", "Premolars", "Molars"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Molars have broad flat surfaces that help grind food."
-    ),
+        explanation: "Molars have broad flat surfaces that help grind food."),
   ],
 );
-final IndependentPracticeModel Scijhs2s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s3ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S3 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which substance is produced by bacteria when they eat sugar?",
-        options: [
-          "Calcium",
-          "Enamel",
-          "Acid",
-          "Oxygen"
-        ],
+        question:
+            "1. Which substance is produced by bacteria when they eat sugar?",
+        options: ["Calcium", "Enamel", "Acid", "Oxygen"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Bacteria produce acid when they feed on sugar, which can damage teeth."
-    ),
-
+        explanation:
+            "Bacteria produce acid when they feed on sugar, which can damage teeth."),
     IndependentPracticeQuestion(
-        question: "2. The best way to remove food particles from between the teeth is...",
+        question:
+            "2. The best way to remove food particles from between the teeth is...",
         options: [
           "Rinsing with water",
           "Using a toothpick",
@@ -21097,22 +20038,15 @@ final IndependentPracticeModel Scijhs2s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Flossing helps remove food particles and plaque from between the teeth."
-    ),
-
+        explanation:
+            "Flossing helps remove food particles and plaque from between the teeth."),
     IndependentPracticeQuestion(
         question: "3. Gum disease is often caused by the build-up of...",
-        options: [
-          "Plaque",
-          "Fluoride",
-          "Saliva",
-          "Water"
-        ],
+        options: ["Plaque", "Fluoride", "Saliva", "Water"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Plaque build-up can lead to gum disease if not properly removed."
-    ),
-
+        explanation:
+            "Plaque build-up can lead to gum disease if not properly removed."),
     IndependentPracticeQuestion(
         question: "4. How often should a student ideally brush their teeth?",
         options: [
@@ -21123,54 +20057,39 @@ final IndependentPracticeModel Scijhs2s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Dentists recommend brushing teeth at least twice a day."
-    ),
+        explanation: "Dentists recommend brushing teeth at least twice a day."),
   ],
 );
-final IndependentPracticeModel Scijhs2s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s3ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S3 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which planet is known as the largest in our solar system?",
-        options: [
-          "Saturn",
-          "Uranus",
-          "Jupiter",
-          "Neptune"
-        ],
+        question:
+            "1. Which planet is known as the largest in our solar system?",
+        options: ["Saturn", "Uranus", "Jupiter", "Neptune"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Jupiter is the largest planet in the solar system."
-    ),
-
+        explanation: "Jupiter is the largest planet in the solar system."),
     IndependentPracticeQuestion(
-        question: "2. Uranus and Neptune are specifically classified as what type of planets?",
-        options: [
-          "Gas Giants",
-          "Ice Giants",
-          "Rock Giants",
-          "Blue Giants"
-        ],
+        question:
+            "2. Uranus and Neptune are specifically classified as what type of planets?",
+        options: ["Gas Giants", "Ice Giants", "Rock Giants", "Blue Giants"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Uranus and Neptune are known as Ice Giants because of their icy compositions."
-    ),
-
+        explanation:
+            "Uranus and Neptune are known as Ice Giants because of their icy compositions."),
     IndependentPracticeQuestion(
-        question: "3. How many Earths could approximately fit inside the volume of Jupiter?",
-        options: [
-          "100 Earths",
-          "500 Earths",
-          "1,300 Earths",
-          "5,000 Earths"
-        ],
+        question:
+            "3. How many Earths could approximately fit inside the volume of Jupiter?",
+        options: ["100 Earths", "500 Earths", "1,300 Earths", "5,000 Earths"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "About 1,300 Earths could fit inside Jupiter due to its enormous size."
-    ),
-
+        explanation:
+            "About 1,300 Earths could fit inside Jupiter due to its enormous size."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a reason why life cannot exist on the outer planets?",
+        question:
+            "4. Which of these is a reason why life cannot exist on the outer planets?",
         options: [
           "Too much sunlight",
           "Extreme high pressure",
@@ -21179,15 +20098,17 @@ final IndependentPracticeModel Scijhs2s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The outer planets have extremely high pressure and harsh conditions unsuitable for life."
-    ),
+        explanation:
+            "The outer planets have extremely high pressure and harsh conditions unsuitable for life."),
   ],
 );
-final IndependentPracticeModel Scijhs2s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s3ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S3 SS3 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which process do plants use to turn sunlight into food energy?",
+        question:
+            "1. Which process do plants use to turn sunlight into food energy?",
         options: [
           "Respiration",
           "Evaporation",
@@ -21196,11 +20117,11 @@ final IndependentPracticeModel Scijhs2s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Plants use photosynthesis to convert sunlight into food energy."
-    ),
-
+        explanation:
+            "Plants use photosynthesis to convert sunlight into food energy."),
     IndependentPracticeQuestion(
-        question: "2. What is the primary reason animals would die if the sun disappeared?",
+        question:
+            "2. What is the primary reason animals would die if the sun disappeared?",
         options: [
           "They would get lost in the dark",
           "They would have no plants to eat",
@@ -21209,11 +20130,11 @@ final IndependentPracticeModel Scijhs2s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Without the sun, plants could not survive, removing the main food source for animals."
-    ),
-
+        explanation:
+            "Without the sun, plants could not survive, removing the main food source for animals."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is a direct result of the sun's heat on our water bodies?",
+        question:
+            "3. Which of these is a direct result of the sun's heat on our water bodies?",
         options: [
           "The water becomes very salty",
           "Fish grow much larger sizes",
@@ -21222,11 +20143,11 @@ final IndependentPracticeModel Scijhs2s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The sun’s heat causes water to evaporate, which helps form rain."
-    ),
-
+        explanation:
+            "The sun’s heat causes water to evaporate, which helps form rain."),
     IndependentPracticeQuestion(
-        question: "4. Why is the sun called the 'primary source' of energy in an ecosystem?",
+        question:
+            "4. Why is the sun called the 'primary source' of energy in an ecosystem?",
         options: [
           "It is the biggest object seen",
           "It provides the first energy",
@@ -21235,15 +20156,17 @@ final IndependentPracticeModel Scijhs2s3ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The sun provides the initial source of energy for nearly all ecosystems."
-    ),
+        explanation:
+            "The sun provides the initial source of energy for nearly all ecosystems."),
   ],
 );
-final IndependentPracticeModel Scijhs2s3ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s3ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S3 SS4 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which farming system involves leaving a piece of land to rest after a period of use?",
+        question:
+            "1. Which farming system involves leaving a piece of land to rest after a period of use?",
         options: [
           "Mixed Cropping",
           "Mixed Farming",
@@ -21252,11 +20175,11 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Land rotation involves leaving land to rest so that it can regain fertility."
-    ),
-
+        explanation:
+            "Land rotation involves leaving land to rest so that it can regain fertility."),
     IndependentPracticeQuestion(
-        question: "2. What is a major advantage of practicing organic farming in Ghana?",
+        question:
+            "2. What is a major advantage of practicing organic farming in Ghana?",
         options: [
           "It requires more chemicals",
           "It protects water bodies",
@@ -21265,11 +20188,11 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Organic farming helps protect rivers and other water bodies from chemical pollution."
-    ),
-
+        explanation:
+            "Organic farming helps protect rivers and other water bodies from chemical pollution."),
     IndependentPracticeQuestion(
-        question: "3. In Mixed Farming, what is the main purpose of the animals involved?",
+        question:
+            "3. In Mixed Farming, what is the main purpose of the animals involved?",
         options: [
           "To compete for the crops",
           "To create more weeding",
@@ -21278,11 +20201,11 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Animals in mixed farming provide manure that helps improve soil fertility."
-    ),
-
+        explanation:
+            "Animals in mixed farming provide manure that helps improve soil fertility."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a common crop combination found in Ghanaian Mixed Cropping?",
+        question:
+            "4. Which of these is a common crop combination found in Ghanaian Mixed Cropping?",
         options: [
           "Maize and poultry birds",
           "Land fallow and forest",
@@ -21291,15 +20214,17 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Plantain and cocoyam are commonly grown together in mixed cropping systems."
-    ),
+        explanation:
+            "Plantain and cocoyam are commonly grown together in mixed cropping systems."),
   ],
 );
-final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S3 SS4 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What do animals primarily provide to help crops grow better?",
+        question:
+            "1. What do animals primarily provide to help crops grow better?",
         options: [
           "Shade from the rain",
           "Natural fertilizer",
@@ -21308,11 +20233,11 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Animals provide manure, which acts as a natural fertilizer for crops."
-    ),
-
+        explanation:
+            "Animals provide manure, which acts as a natural fertilizer for crops."),
     IndependentPracticeQuestion(
-        question: "2. Which of these is a crop residue that can be fed to livestock?",
+        question:
+            "2. Which of these is a crop residue that can be fed to livestock?",
         options: [
           "Fresh maize cobs",
           "Cassava tubers",
@@ -21321,11 +20246,11 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Dried bean husks are crop residues commonly used as livestock feed."
-    ),
-
+        explanation:
+            "Dried bean husks are crop residues commonly used as livestock feed."),
     IndependentPracticeQuestion(
-        question: "3. How does having both crops and animals provide 'security' for a Ghanaian farmer?",
+        question:
+            "3. How does having both crops and animals provide 'security' for a Ghanaian farmer?",
         options: [
           "It makes the farm smaller",
           "It requires more chemicals",
@@ -21334,11 +20259,11 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Having both crops and animals provides multiple sources of income and food."
-    ),
-
+        explanation:
+            "Having both crops and animals provides multiple sources of income and food."),
     IndependentPracticeQuestion(
-        question: "4. Why are legumes like cowpeas useful in a crop rotation system?",
+        question:
+            "4. Why are legumes like cowpeas useful in a crop rotation system?",
         options: [
           "They use all the water",
           "They add nitrogen to soil",
@@ -21347,12 +20272,13 @@ final IndependentPracticeModel Scijhs2s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Legumes help improve soil fertility by adding nitrogen to the soil."
-    ),
+        explanation:
+            "Legumes help improve soil fertility by adding nitrogen to the soil."),
   ],
 );
 
-final IndependentPracticeModel Scijhs2s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -21365,11 +20291,11 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A glowing electric bulb converts electrical energy into light energy."
-    ),
-
+        explanation:
+            "A glowing electric bulb converts electrical energy into light energy."),
     IndependentPracticeQuestion(
-        question: "2. According to the Law of Conservation of Energy, energy can be:",
+        question:
+            "2. According to the Law of Conservation of Energy, energy can be:",
         options: [
           "Created easily",
           "Totally destroyed",
@@ -21378,9 +20304,8 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Energy cannot be created or destroyed; it can only be transformed from one form to another."
-    ),
-
+        explanation:
+            "Energy cannot be created or destroyed; it can only be transformed from one form to another."),
     IndependentPracticeQuestion(
         question: "3. What energy is stored in the dry cells of a torchlight?",
         options: [
@@ -21391,11 +20316,11 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Dry cells store chemical energy, which is converted into electrical energy when used."
-    ),
-
+        explanation:
+            "Dry cells store chemical energy, which is converted into electrical energy when used."),
     IndependentPracticeQuestion(
-        question: "4. When you clap your hands, kinetic energy is converted mostly into:",
+        question:
+            "4. When you clap your hands, kinetic energy is converted mostly into:",
         options: [
           "Chemical energy",
           "Electrical energy",
@@ -21404,15 +20329,17 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Clapping converts the kinetic energy of moving hands mainly into sound energy."
-    ),
+        explanation:
+            "Clapping converts the kinetic energy of moving hands mainly into sound energy."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS1 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which device is used to convert mechanical energy into electrical energy?",
+        question:
+            "1. Which device is used to convert mechanical energy into electrical energy?",
         options: [
           "A light bulb",
           "A generator",
@@ -21421,11 +20348,11 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A generator converts mechanical energy into electrical energy."
-    ),
-
+        explanation:
+            "A generator converts mechanical energy into electrical energy."),
     IndependentPracticeQuestion(
-        question: "2. What form of energy is possessed by water held behind the Akosombo Dam?",
+        question:
+            "2. What form of energy is possessed by water held behind the Akosombo Dam?",
         options: [
           "Sound energy",
           "Kinetic energy",
@@ -21434,11 +20361,10 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Water stored at a height has potential energy."
-    ),
-
+        explanation: "Water stored at a height has potential energy."),
     IndependentPracticeQuestion(
-        question: "3. Solar panels are important because they convert light energy into:",
+        question:
+            "3. Solar panels are important because they convert light energy into:",
         options: [
           "Chemical energy",
           "Electrical energy",
@@ -21447,11 +20373,11 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Solar panels convert light energy directly into electrical energy."
-    ),
-
+        explanation:
+            "Solar panels convert light energy directly into electrical energy."),
     IndependentPracticeQuestion(
-        question: "4. In a wind turbine, the moving wind provides which type of energy?",
+        question:
+            "4. In a wind turbine, the moving wind provides which type of energy?",
         options: [
           "Kinetic energy",
           "Potential energy",
@@ -21460,28 +20386,24 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Moving wind possesses kinetic energy, which turns the turbine blades."
-    ),
+        explanation:
+            "Moving wind possesses kinetic energy, which turns the turbine blades."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of these is a non-renewable source of energy?",
-        options: [
-          "Sunlight",
-          "Crude oil",
-          "Wind",
-          "Biogas"
-        ],
+        options: ["Sunlight", "Crude oil", "Wind", "Biogas"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Crude oil is a non-renewable energy source because it takes millions of years to form."
-    ),
-
+        explanation:
+            "Crude oil is a non-renewable energy source because it takes millions of years to form."),
     IndependentPracticeQuestion(
-        question: "2. Renewable energy is often called \"clean\" energy because it:",
+        question:
+            "2. Renewable energy is often called \"clean\" energy because it:",
         options: [
           "Is very expensive",
           "Never gets dirty",
@@ -21490,22 +20412,15 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Renewable energy sources generally produce much less pollution than fossil fuels."
-    ),
-
+        explanation:
+            "Renewable energy sources generally produce much less pollution than fossil fuels."),
     IndependentPracticeQuestion(
         question: "3. Which source of energy comes from animal waste?",
-        options: [
-          "Natural gas",
-          "Coal",
-          "Biogas",
-          "Petrol"
-        ],
+        options: ["Natural gas", "Coal", "Biogas", "Petrol"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Biogas is produced from animal waste and other organic materials."
-    ),
-
+        explanation:
+            "Biogas is produced from animal waste and other organic materials."),
     IndependentPracticeQuestion(
         question: "4. Coal and Petrol are called non-renewable because they:",
         options: [
@@ -21516,11 +20431,12 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Coal and petrol take millions of years to form and cannot be replaced quickly."
-    ),
+        explanation:
+            "Coal and petrol take millions of years to form and cannot be replaced quickly."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS1 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -21533,11 +20449,11 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sustainability means using resources wisely so they remain available for future generations."
-    ),
-
+        explanation:
+            "Sustainability means using resources wisely so they remain available for future generations."),
     IndependentPracticeQuestion(
-        question: "2. What is a major challenge of using solar energy in Ghana?",
+        question:
+            "2. What is a major challenge of using solar energy in Ghana?",
         options: [
           "The sun is too cold",
           "It is only available at night",
@@ -21546,9 +20462,8 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "One challenge of solar energy systems is the high cost of batteries used for energy storage."
-    ),
-
+        explanation:
+            "One challenge of solar energy systems is the high cost of batteries used for energy storage."),
     IndependentPracticeQuestion(
         question: "3. Which action helps manage hydro energy sustainably?",
         options: [
@@ -21559,11 +20474,11 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Planting trees along riverbanks helps protect water sources and supports sustainable hydro energy."
-    ),
-
+        explanation:
+            "Planting trees along riverbanks helps protect water sources and supports sustainable hydro energy."),
     IndependentPracticeQuestion(
-        question: "4. Why do we need to manage renewable energy if it is \"renewable\"?",
+        question:
+            "4. Why do we need to manage renewable energy if it is \"renewable\"?",
         options: [
           "Because it can still be wasted",
           "Because it is illegal to use",
@@ -21572,41 +20487,30 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Renewable energy resources should still be managed carefully because energy can be wasted through inefficient use."
-    ),
+        explanation:
+            "Renewable energy resources should still be managed carefully because energy can be wasted through inefficient use."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS1 L5/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What is the standard unit for measuring heat?",
-        options: [
-          "Kelvin",
-          "Celsius",
-          "Joule",
-          "Degree"
-        ],
+        options: ["Kelvin", "Celsius", "Joule", "Degree"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Heat is a form of energy, and its SI unit is the joule (J)."
-    ),
-
+        explanation:
+            "Heat is a form of energy, and its SI unit is the joule (J)."),
     IndependentPracticeQuestion(
         question: "2. Which instrument is used to measure temperature?",
-        options: [
-          "Calorimeter",
-          "Thermometer",
-          "Barometer",
-          "Anemometer"
-        ],
+        options: ["Calorimeter", "Thermometer", "Barometer", "Anemometer"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A thermometer is used to measure temperature."
-    ),
-
+        explanation: "A thermometer is used to measure temperature."),
     IndependentPracticeQuestion(
-        question: "3. Heat always flows from an object at a higher temperature to one at a:",
+        question:
+            "3. Heat always flows from an object at a higher temperature to one at a:",
         options: [
           "Lower temperature",
           "Same temperature",
@@ -21615,9 +20519,8 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Heat naturally flows from a hotter object to a colder object."
-    ),
-
+        explanation:
+            "Heat naturally flows from a hotter object to a colder object."),
     IndependentPracticeQuestion(
         question: "4. Temperature is defined as the:",
         options: [
@@ -21628,15 +20531,17 @@ final IndependentPracticeModel Scijhs2s4ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Temperature measures the average kinetic energy of the particles in a substance."
-    ),
+        explanation:
+            "Temperature measures the average kinetic energy of the particles in a substance."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a major source of hydro-electric power in Ghana?",
+        question:
+            "1. Which of these is a major source of hydro-electric power in Ghana?",
         options: [
           "Aboadze Plant",
           "Akosombo Dam",
@@ -21645,84 +20550,60 @@ final IndependentPracticeModel Scijhs2s4ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Akosombo Dam is one of Ghana's major sources of hydro-electric power."
-    ),
-
+        explanation:
+            "The Akosombo Dam is one of Ghana's major sources of hydro-electric power."),
     IndependentPracticeQuestion(
-        question: "2. What do we call the tall metal towers that hold high-voltage cables?",
-        options: [
-          "Pylons",
-          "Transformers",
-          "Substations",
-          "Generators"
-        ],
+        question:
+            "2. What do we call the tall metal towers that hold high-voltage cables?",
+        options: ["Pylons", "Transformers", "Substations", "Generators"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Pylons are tall structures used to support high-voltage power transmission lines."
-    ),
-
+        explanation:
+            "Pylons are tall structures used to support high-voltage power transmission lines."),
     IndependentPracticeQuestion(
         question: "3. What is the standard safe voltage for homes in Ghana?",
-        options: [
-          "400,000V",
-          "13,000V",
-          "240V",
-          "12V"
-        ],
+        options: ["400,000V", "13,000V", "240V", "12V"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The standard mains electricity supply for homes in Ghana is approximately 240 volts."
-    ),
+        explanation:
+            "The standard mains electricity supply for homes in Ghana is approximately 240 volts."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. What unit do we use to measure capacitance?",
-        options: [
-          "Ohms",
-          "Farads",
-          "Volts",
-          "Amps"
-        ],
+        options: ["Ohms", "Farads", "Volts", "Amps"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Capacitance is measured in farads (F)."
-    ),
-
+        explanation: "Capacitance is measured in farads (F)."),
     IndependentPracticeQuestion(
-        question: "2. Which component only allows electricity to flow in one direction?",
-        options: [
-          "Resistor",
-          "Capacitor",
-          "Diode",
-          "Battery"
-        ],
+        question:
+            "2. Which component only allows electricity to flow in one direction?",
+        options: ["Resistor", "Capacitor", "Diode", "Battery"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A diode allows electric current to flow in only one direction."
-    ),
-
+        explanation:
+            "A diode allows electric current to flow in only one direction."),
     IndependentPracticeQuestion(
-        question: "3. What is the insulating material inside a capacitor called?",
-        options: [
-          "Conductor",
-          "Electrode",
-          "Dielectric",
-          "P-N Junction"
-        ],
+        question:
+            "3. What is the insulating material inside a capacitor called?",
+        options: ["Conductor", "Electrode", "Dielectric", "P-N Junction"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The insulating material between the plates of a capacitor is called the dielectric."
-    ),
+        explanation:
+            "The insulating material between the plates of a capacitor is called the dielectric."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is the best way to conserve electricity in a Ghanaian classroom?",
+        question:
+            "1. Which of the following is the best way to conserve electricity in a Ghanaian classroom?",
         options: [
           "Leaving the fans on during the break.",
           "Using incandescent (yellow) bulbs.",
@@ -21731,11 +20612,11 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Switching off lights when it is sunny helps save electricity by using natural daylight."
-    ),
-
+        explanation:
+            "Switching off lights when it is sunny helps save electricity by using natural daylight."),
     IndependentPracticeQuestion(
-        question: "2. According to the Law of Conservation of Energy, energy can be...",
+        question:
+            "2. According to the Law of Conservation of Energy, energy can be...",
         options: [
           "Created during a very fast reaction.",
           "Changed from one form to another.",
@@ -21744,11 +20625,11 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Energy cannot be created or destroyed; it can only be transformed from one form to another."
-    ),
-
+        explanation:
+            "Energy cannot be created or destroyed; it can only be transformed from one form to another."),
     IndependentPracticeQuestion(
-        question: "3. In a hydroelectric power station like Akosombo, what is the primary conversion?",
+        question:
+            "3. In a hydroelectric power station like Akosombo, what is the primary conversion?",
         options: [
           "Heat energy into light energy.",
           "Sound energy into heat energy.",
@@ -21757,11 +20638,11 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Hydroelectric power stations convert the kinetic energy of moving water into electrical energy."
-    ),
-
+        explanation:
+            "Hydroelectric power stations convert the kinetic energy of moving water into electrical energy."),
     IndependentPracticeQuestion(
-        question: "4. Why are greenhouse gases like carbon dioxide considered harmful to the environment?",
+        question:
+            "4. Why are greenhouse gases like carbon dioxide considered harmful to the environment?",
         options: [
           "They make the air too cold to breathe.",
           "They contribute to global warming.",
@@ -21770,28 +20651,25 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Greenhouse gases trap heat in the atmosphere, contributing to global warming and climate change."
-    ),
+        explanation:
+            "Greenhouse gases trap heat in the atmosphere, contributing to global warming and climate change."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS3 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these gases is most responsible for trapping heat in the atmosphere?",
-        options: [
-          "Oxygen",
-          "Carbon Dioxide",
-          "Hydrogen",
-          "Nitrogen"
-        ],
+        question:
+            "1. Which of these gases is most responsible for trapping heat in the atmosphere?",
+        options: ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Carbon dioxide is a major greenhouse gas that traps heat in the Earth's atmosphere."
-    ),
-
+        explanation:
+            "Carbon dioxide is a major greenhouse gas that traps heat in the Earth's atmosphere."),
     IndependentPracticeQuestion(
-        question: "2. What is the best title for a poster about energy conservation in Ghana?",
+        question:
+            "2. What is the best title for a poster about energy conservation in Ghana?",
         options: [
           "How to Build a Big Dam",
           "The History of Electricity",
@@ -21800,11 +20678,11 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A poster about energy conservation should encourage people to save energy and protect the environment."
-    ),
-
+        explanation:
+            "A poster about energy conservation should encourage people to save energy and protect the environment."),
     IndependentPracticeQuestion(
-        question: "3. Global warming can lead to which of the following in West Africa?",
+        question:
+            "3. Global warming can lead to which of the following in West Africa?",
         options: [
           "More predictable farming seasons",
           "A decrease in the Earth's temperature",
@@ -21813,11 +20691,11 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Global warming increases the risk of extreme weather events, including severe flooding."
-    ),
-
+        explanation:
+            "Global warming increases the risk of extreme weather events, including severe flooding."),
     IndependentPracticeQuestion(
-        question: "4. During an energy audit, you find an old fridge with a loose door. This is an example of...",
+        question:
+            "4. During an energy audit, you find an old fridge with a loose door. This is an example of...",
         options: [
           "Efficient energy conversion",
           "Energy conservation",
@@ -21826,15 +20704,17 @@ final IndependentPracticeModel Scijhs2s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A loose fridge door allows cold air to escape, causing unnecessary energy waste."
-    ),
+        explanation:
+            "A loose fridge door allows cold air to escape, causing unnecessary energy waste."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS4 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is the best definition of a complex machine?",
+        question:
+            "1. Which of these is the best definition of a complex machine?",
         options: [
           "A tool with no moving parts.",
           "A tool made of two or more simple machines.",
@@ -21843,11 +20723,11 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A complex machine is made up of two or more simple machines working together."
-    ),
-
+        explanation:
+            "A complex machine is made up of two or more simple machines working together."),
     IndependentPracticeQuestion(
-        question: "2. Which simple machine is found in a stapler to help it pierce through paper?",
+        question:
+            "2. Which simple machine is found in a stapler to help it pierce through paper?",
         options: [
           "An inclined plane",
           "A pulley system",
@@ -21856,11 +20736,11 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The sharp metal staple acts as a wedge, helping it pierce through paper."
-    ),
-
+        explanation:
+            "The sharp metal staple acts as a wedge, helping it pierce through paper."),
     IndependentPracticeQuestion(
-        question: "3. In a bicycle, what is the main function of the chain and gears?",
+        question:
+            "3. In a bicycle, what is the main function of the chain and gears?",
         options: [
           "They act as a lever to steer.",
           "They act as a wedge to cut.",
@@ -21869,11 +20749,11 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The chain and gears work together like a pulley system to transfer motion and move the bicycle."
-    ),
-
+        explanation:
+            "The chain and gears work together like a pulley system to transfer motion and move the bicycle."),
     IndependentPracticeQuestion(
-        question: "4. Why do we use complex machines instead of only simple machines for big tasks?",
+        question:
+            "4. Why do we use complex machines instead of only simple machines for big tasks?",
         options: [
           "They make the work even easier.",
           "They are much smaller in size.",
@@ -21882,11 +20762,12 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Complex machines combine simple machines to make work easier and more efficient."
-    ),
+        explanation:
+            "Complex machines combine simple machines to make work easier and more efficient."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS4 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -21899,11 +20780,11 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Soft iron is easily magnetized and demagnetized, making it ideal for temporary magnets."
-    ),
-
+        explanation:
+            "Soft iron is easily magnetized and demagnetized, making it ideal for temporary magnets."),
     IndependentPracticeQuestion(
-        question: "2. In the Electrical Method, what happens to the nail when the battery is removed?",
+        question:
+            "2. In the Electrical Method, what happens to the nail when the battery is removed?",
         options: [
           "It stays a magnet forever.",
           "It becomes much stronger.",
@@ -21912,9 +20793,8 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "When the battery is removed, the electromagnet loses its magnetic field and the nail loses its magnetism."
-    ),
-
+        explanation:
+            "When the battery is removed, the electromagnet loses its magnetic field and the nail loses its magnetism."),
     IndependentPracticeQuestion(
         question: "3. Which of these devices uses a magnet to show direction?",
         options: [
@@ -21925,11 +20805,11 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A magnetic compass uses a magnetized needle that aligns with Earth's magnetic field."
-    ),
-
+        explanation:
+            "A magnetic compass uses a magnetized needle that aligns with Earth's magnetic field."),
     IndependentPracticeQuestion(
-        question: "4. How many magnets are used in the Divided Stroking Method?",
+        question:
+            "4. How many magnets are used in the Divided Stroking Method?",
         options: [
           "Exactly two magnets.",
           "Only one magnet.",
@@ -21938,15 +20818,17 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The Divided Stroking Method uses two magnets stroked from the center toward opposite ends."
-    ),
+        explanation:
+            "The Divided Stroking Method uses two magnets stroked from the center toward opposite ends."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS4 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these factors determines how much an object will accelerate when pulled by a magnet?",
+        question:
+            "1. Which of these factors determines how much an object will accelerate when pulled by a magnet?",
         options: [
           "The colour of the magnet",
           "The mass of the object",
@@ -21955,11 +20837,11 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "According to Newton's Second Law, the mass of an object affects how much it accelerates when a force is applied."
-    ),
-
+        explanation:
+            "According to Newton's Second Law, the mass of an object affects how much it accelerates when a force is applied."),
     IndependentPracticeQuestion(
-        question: "2. According to Newton's Second Law, what is the formula for Force?",
+        question:
+            "2. According to Newton's Second Law, what is the formula for Force?",
         options: [
           "Force = Mass + Acceleration",
           "Force = Mass ÷ Acceleration",
@@ -21968,24 +20850,19 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Newton's Second Law states that Force equals Mass multiplied by Acceleration (F = ma)."
-    ),
-
+        explanation:
+            "Newton's Second Law states that Force equals Mass multiplied by Acceleration (F = ma)."),
     IndependentPracticeQuestion(
-        question: "3. If a magnet pulls a toy car and it speeds up quickly, we say it has high...",
-        options: [
-          "Insulation",
-          "Acceleration",
-          "Evaporation",
-          "Reflection"
-        ],
+        question:
+            "3. If a magnet pulls a toy car and it speeds up quickly, we say it has high...",
+        options: ["Insulation", "Acceleration", "Evaporation", "Reflection"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Acceleration is the rate at which an object's velocity changes."
-    ),
-
+        explanation:
+            "Acceleration is the rate at which an object's velocity changes."),
     IndependentPracticeQuestion(
-        question: "4. Why does a heavy iron plate move slowly when a small magnet pulls it?",
+        question:
+            "4. Why does a heavy iron plate move slowly when a small magnet pulls it?",
         options: [
           "Because it has a large mass.",
           "Because it has a small mass.",
@@ -21994,52 +20871,38 @@ final IndependentPracticeModel Scijhs2s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A larger mass requires more force to achieve the same acceleration, so it moves more slowly when pulled by a small magnet."
-    ),
+        explanation:
+            "A larger mass requires more force to achieve the same acceleration, so it moves more slowly when pulled by a small magnet."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss5Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS5 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which tool features a long metal blade and is commonly used in Ghana for weeding and harvesting?",
-        options: [
-          "Hand Trowel",
-          "Cutlass",
-          "Pickaxe",
-          "Rake"
-        ],
+        question:
+            "1. Which tool features a long metal blade and is commonly used in Ghana for weeding and harvesting?",
+        options: ["Hand Trowel", "Cutlass", "Pickaxe", "Rake"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A cutlass is commonly used in Ghana for weeding, clearing bushes, and harvesting crops."
-    ),
-
+        explanation:
+            "A cutlass is commonly used in Ghana for weeding, clearing bushes, and harvesting crops."),
     IndependentPracticeQuestion(
-        question: "2. If you need to break up very hard, stony ground, which tool is the best choice?",
-        options: [
-          "Watering Can",
-          "Hand Fork",
-          "Pickaxe",
-          "Shovel"
-        ],
+        question:
+            "2. If you need to break up very hard, stony ground, which tool is the best choice?",
+        options: ["Watering Can", "Hand Fork", "Pickaxe", "Shovel"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A pickaxe is designed to break up hard, compacted, or stony ground."
-    ),
-
+        explanation:
+            "A pickaxe is designed to break up hard, compacted, or stony ground."),
     IndependentPracticeQuestion(
-        question: "3. Which tool is designed with metal teeth to help level the soil?",
-        options: [
-          "Rake",
-          "Spade",
-          "Axe",
-          "Hoe"
-        ],
+        question:
+            "3. Which tool is designed with metal teeth to help level the soil?",
+        options: ["Rake", "Spade", "Axe", "Hoe"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A rake has metal teeth that are used to level soil and gather debris."
-    ),
-
+        explanation:
+            "A rake has metal teeth that are used to level soil and gather debris."),
     IndependentPracticeQuestion(
         question: "4. What is the main use of a watering can on the farm?",
         options: [
@@ -22050,15 +20913,17 @@ final IndependentPracticeModel Scijhs2s4ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "A watering can is used to sprinkle water gently onto plants and seedlings."
-    ),
+        explanation:
+            "A watering can is used to sprinkle water gently onto plants and seedlings."),
   ],
 );
-final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S4 SS5 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which motion is most effective when using a hoe to clear weeds?",
+        question:
+            "1. Which motion is most effective when using a hoe to clear weeds?",
         options: [
           "Pushing away from the body",
           "A pulling motion toward the body",
@@ -22067,11 +20932,11 @@ final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A hoe is most effective when used with a pulling motion toward the body to cut and remove weeds."
-    ),
-
+        explanation:
+            "A hoe is most effective when used with a pulling motion toward the body to cut and remove weeds."),
     IndependentPracticeQuestion(
-        question: "2. To avoid back pain while digging with a shovel, you should:",
+        question:
+            "2. To avoid back pain while digging with a shovel, you should:",
         options: [
           "Bend only at the waist",
           "Use your foot to push the blade down",
@@ -22080,9 +20945,8 @@ final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Using your foot to push the shovel blade into the soil reduces strain on your back and makes digging easier."
-    ),
-
+        explanation:
+            "Using your foot to push the shovel blade into the soil reduces strain on your back and makes digging easier."),
     IndependentPracticeQuestion(
         question: "3. When is the best time to use a sprayer on your crops?",
         options: [
@@ -22093,11 +20957,11 @@ final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Spraying is most effective when the air is calm and still because the spray can reach the target plants without drifting away."
-    ),
-
+        explanation:
+            "Spraying is most effective when the air is calm and still because the spray can reach the target plants without drifting away."),
     IndependentPracticeQuestion(
-        question: "4. What is the correct way to hold an axe when felling a small tree?",
+        question:
+            "4. What is the correct way to hold an axe when felling a small tree?",
         options: [
           "With one hand at the very top",
           "With both hands gripping the handle firmly",
@@ -22106,16 +20970,18 @@ final IndependentPracticeModel Scijhs2s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "An axe should be held with both hands gripping the handle firmly to maintain control and safety."
-    ),
+        explanation:
+            "An axe should be held with both hands gripping the handle firmly to maintain control and safety."),
   ],
 );
 
-final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the primary meaning of 'Reduce' in waste management?",
+        question:
+            "1. What is the primary meaning of 'Reduce' in waste management?",
         options: [
           "Burning rubbish in a pit",
           "Making less waste daily",
@@ -22124,9 +20990,7 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Which of these is an example of 'Reusing' an item?",
         options: [
@@ -22137,11 +21001,10 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. Why is recycling metal scrap better than throwing it away?",
+        question:
+            "3. Why is recycling metal scrap better than throwing it away?",
         options: [
           "It makes the scrap heavier",
           "It creates new materials",
@@ -22150,9 +21013,7 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. Which item is commonly recycled in Ghana to make bowls?",
         options: [
@@ -22163,15 +21024,16 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the first step in managing waste in a new community?",
+        question:
+            "1. What is the first step in managing waste in a new community?",
         options: [
           "Buying a truck",
           "Conducting a survey",
@@ -22180,11 +21042,10 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Which of these is the best place to put a new rubbish bin?",
+        question:
+            "2. Which of these is the best place to put a new rubbish bin?",
         options: [
           "Inside a dark forest",
           "In a quiet bedroom",
@@ -22193,11 +21054,10 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. If you see \"pure water\" sachets everywhere, which \"R\" should you suggest to a recycling company?",
+        question:
+            "3. If you see \"pure water\" sachets everywhere, which \"R\" should you suggest to a recycling company?",
         options: [
           "Reducing oxygen",
           "Reusing the air",
@@ -22206,9 +21066,7 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. Why should a student write a report after a clean-up?",
         options: [
@@ -22219,9 +21077,7 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "5. What is \"Organic Waste\" primarily made of?",
         options: [
@@ -22232,11 +21088,11 @@ final IndependentPracticeModel Scijhs2s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -22249,11 +21105,10 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. What is the most effective way to prevent the spread of Measles in a community?",
+        question:
+            "2. What is the most effective way to prevent the spread of Measles in a community?",
         options: [
           "Washing hands often",
           "Getting vaccinated",
@@ -22262,9 +21117,7 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. How does HIV impact the economy of Ghana?",
         options: [
@@ -22275,11 +21128,10 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a way to prevent the transmission of Hepatitis?",
+        question:
+            "4. Which of these is a way to prevent the transmission of Hepatitis?",
         options: [
           "Sharing a drinking cup",
           "Using screened blood",
@@ -22288,11 +21140,11 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -22305,11 +21157,10 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Why is living far from a health clinic considered a risk factor?",
+        question:
+            "2. Why is living far from a health clinic considered a risk factor?",
         options: [
           "People get bored",
           "No vaccinations",
@@ -22318,9 +21169,7 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Which behaviour increases the risk of spreading HIV?",
         options: [
@@ -22331,9 +21180,7 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. Which situation describes 'poor sanitation'?",
         options: [
@@ -22344,15 +21191,16 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Bacteria are described as 'single-celled.' What does this mean?",
+        question:
+            "1. Bacteria are described as 'single-celled.' What does this mean?",
         options: [
           "They have many hearts",
           "They live alone",
@@ -22361,22 +21209,13 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "2. Which of these is a common symptom of Food Poisoning?",
-        options: [
-          "Stiff neck",
-          "Stomach cramps",
-          "Yellow eyes",
-          "Hair loss"
-        ],
+        options: ["Stiff neck", "Stomach cramps", "Yellow eyes", "Hair loss"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. How does Meningitis bacteria usually enter a new person?",
         options: [
@@ -22387,28 +21226,22 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "4. Which tool is needed to see a single bacterium?",
-        options: [
-          "Sunglasses",
-          "Magnifying glass",
-          "Microscope",
-          "Telescope"
-        ],
+        options: ["Sunglasses", "Magnifying glass", "Microscope", "Telescope"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS2 L4/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which action is an example of individual prevention for food poisoning?",
+        question:
+            "1. Which action is an example of individual prevention for food poisoning?",
         options: [
           "Building a hospital",
           "Washing hands with soap",
@@ -22417,11 +21250,10 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is the best way for a student to prevent Gonorrhoea?",
+        question:
+            "2. What is the best way for a student to prevent Gonorrhoea?",
         options: [
           "Drinking clean water",
           "Practising abstinence",
@@ -22430,11 +21262,10 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Why does the government provide free Meningitis vaccines?",
+        question:
+            "3. Why does the government provide free Meningitis vaccines?",
         options: [
           "To make people sleep",
           "To give nurses jobs",
@@ -22443,11 +21274,10 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which of these helps manage the environment to reduce disease?",
+        question:
+            "4. Which of these helps manage the environment to reduce disease?",
         options: [
           "Leaving rubbish heaps",
           "Clearing blocked gutters",
@@ -22456,11 +21286,11 @@ final IndependentPracticeModel Scijhs2s5ss2Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -22473,24 +21303,17 @@ final IndependentPracticeModel Scijhs2s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. When we use scientific knowledge to create a gadget like a digital camera, we are creating:",
-        options: [
-          "Technology",
-          "Innovation",
-          "Pure Science",
-          "Observation"
-        ],
+        question:
+            "2. When we use scientific knowledge to create a gadget like a digital camera, we are creating:",
+        options: ["Technology", "Innovation", "Pure Science", "Observation"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. Introducing a new method to deliver medical supplies to remote villages using drones is an example of:",
+        question:
+            "3. Introducing a new method to deliver medical supplies to remote villages using drones is an example of:",
         options: [
           "Basic Science",
           "Innovation",
@@ -22499,11 +21322,10 @@ final IndependentPracticeModel Scijhs2s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Why are Science, Technology, and Innovation considered 'interrelated'?",
+        question:
+            "4. Why are Science, Technology, and Innovation considered 'interrelated'?",
         options: [
           "They are exactly the same thing",
           "They never work at the same time",
@@ -22512,15 +21334,16 @@ final IndependentPracticeModel Scijhs2s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS3 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a modern advancement in the Ghanaian healthcare sector?",
+        question:
+            "1. Which of these is a modern advancement in the Ghanaian healthcare sector?",
         options: [
           "Using a wooden mortar",
           "Magnetic Resonance Imaging (MRI)",
@@ -22529,11 +21352,10 @@ final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. How does 'Digital Communication' (like email) help the environment?",
+        question:
+            "2. How does 'Digital Communication' (like email) help the environment?",
         options: [
           "It makes the internet faster",
           "It uses more electricity",
@@ -22542,11 +21364,10 @@ final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. What is a major negative environmental impact of old computers?",
+        question:
+            "3. What is a major negative environmental impact of old computers?",
         options: [
           "They take up too much desk space",
           "They leak toxic chemicals (E-waste)",
@@ -22555,11 +21376,10 @@ final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Which Ghanaian energy source is considered an 'advancement' that is good for the environment?",
+        question:
+            "4. Which Ghanaian energy source is considered an 'advancement' that is good for the environment?",
         options: [
           "Burning dried wood",
           "Using diesel generators",
@@ -22568,28 +21388,23 @@ final IndependentPracticeModel Scijhs2s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS4 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the average period used to determine the climate of a place?",
-        options: [
-          "5 years",
-          "10 years",
-          "30 years",
-          "50 years"
-        ],
+        question:
+            "1. What is the average period used to determine the climate of a place?",
+        options: ["5 years", "10 years", "30 years", "50 years"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. Which of these is a direct result of the melting of polar ice caps?",
+        question:
+            "2. Which of these is a direct result of the melting of polar ice caps?",
         options: [
           "More bushfires",
           "Higher sea levels",
@@ -22598,24 +21413,17 @@ final IndependentPracticeModel Scijhs2s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. A sudden heavy rainstorm in Kumasi that lasts for two hours is an example of:",
-        options: [
-          "Climate",
-          "Weather",
-          "Mitigation",
-          "Adaptation"
-        ],
+        question:
+            "3. A sudden heavy rainstorm in Kumasi that lasts for two hours is an example of:",
+        options: ["Climate", "Weather", "Mitigation", "Adaptation"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. How does climate change affect the rainfall pattern in Ghana?",
+        question:
+            "4. How does climate change affect the rainfall pattern in Ghana?",
         options: [
           "Rains become predictable",
           "Rains happen every day",
@@ -22624,52 +21432,34 @@ final IndependentPracticeModel Scijhs2s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss5Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS5 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which soil type feels very smooth when wet and can be easily moulded?",
-        options: [
-          "Sandy soil",
-          "Loamy soil",
-          "Clay soil",
-          "Rocky soil"
-        ],
+        question:
+            "1. Which soil type feels very smooth when wet and can be easily moulded?",
+        options: ["Sandy soil", "Loamy soil", "Clay soil", "Rocky soil"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. What is the term for the soil's ability to hold onto water?",
-        options: [
-          "Drainage",
-          "Texture",
-          "Retention",
-          "Erosion"
-        ],
+        question:
+            "2. What is the term for the soil's ability to hold onto water?",
+        options: ["Drainage", "Texture", "Retention", "Erosion"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. Which soil is a mixture of sand, clay, and decayed organic matter?",
-        options: [
-          "Silt",
-          "Loam",
-          "Gravel",
-          "Mud"
-        ],
+        question:
+            "3. Which soil is a mixture of sand, clay, and decayed organic matter?",
+        options: ["Silt", "Loam", "Gravel", "Mud"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "4. Why does water drain fastest through sandy soil?",
         options: [
@@ -22680,26 +21470,20 @@ final IndependentPracticeModel Scijhs2s5ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss5Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS5 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the process called when water moves into plant roots?",
-        options: [
-          "Evaporation",
-          "Osmosis",
-          "Digestion",
-          "Respiration"
-        ],
+        question:
+            "1. What is the process called when water moves into plant roots?",
+        options: ["Evaporation", "Osmosis", "Digestion", "Respiration"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. The \"Soil Solution\" is a mixture of water and:",
         options: [
@@ -22710,9 +21494,7 @@ final IndependentPracticeModel Scijhs2s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. What happens during \"Leaching\"?",
         options: [
@@ -22723,67 +21505,42 @@ final IndependentPracticeModel Scijhs2s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Which part of the plant is responsible for the most water absorption?",
-        options: [
-          "The leaves",
-          "The flowers",
-          "The root hairs",
-          "The stem"
-        ],
+        question:
+            "4. Which part of the plant is responsible for the most water absorption?",
+        options: ["The leaves", "The flowers", "The root hairs", "The stem"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel Scijhs2s5ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs2s5ss5Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS2 S5 SS5 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which type of rock is formed from cooling lava or magma?",
-        options: [
-          "Sedimentary",
-          "Metamorphic",
-          "Igneous",
-          "Sandstone"
-        ],
+        options: ["Sedimentary", "Metamorphic", "Igneous", "Sandstone"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. What is the process of breaking rocks into smaller pieces called?",
-        options: [
-          "Erosion",
-          "Weathering",
-          "Melting",
-          "Polishing"
-        ],
+        question:
+            "2. What is the process of breaking rocks into smaller pieces called?",
+        options: ["Erosion", "Weathering", "Melting", "Polishing"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Marble is an example of which rock type?",
-        options: [
-          "Igneous",
-          "Metamorphic",
-          "Sedimentary",
-          "Volcanic"
-        ],
+        options: ["Igneous", "Metamorphic", "Sedimentary", "Volcanic"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. When a rock changes because of acid in rainwater, it is called:",
+        question:
+            "4. When a rock changes because of acid in rainwater, it is called:",
         options: [
           "Physical weathering",
           "Biological weathering",
@@ -22792,12 +21549,12 @@ final IndependentPracticeModel Scijhs2s5ss5Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
 
-final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/1. JHS3 S1 SS1 L1/7. Independent Practice.m4a',
   questions: [
@@ -22855,7 +21612,8 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson1IndependentQuizData =  Indepen
             "Ethanoic acid, found in vinegar, is mainly used for preserving food and cooking."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/2. JHS3 S1 SS1 L2/6. Independent Practice.m4a',
   questions: [
@@ -22898,7 +21656,8 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson2IndependentQuizData = Independ
             "ZnO is named zinc oxide according to IUPAC naming rules."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/3. JHS3 S1 SS1 L3/7. Independent Practice.m4a',
   questions: [
@@ -22948,7 +21707,8 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson3IndependentQuizData = Independ
         explanation: "Vinegar is acidic, so it turns blue litmus paper red."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/4. JHS3 S1 SS1 L4/7. Independent Practice.m4a',
   questions: [
@@ -22995,7 +21755,8 @@ final IndependentPracticeModel Scijhs3s1ss1Lesson4IndependentQuizData = Independ
   ],
 );
 
-final IndependentPracticeModel Scijhs3s1ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/5. JHS3 S1 SS2 L1/7. Independent Practice.m4a',
   questions: [
@@ -23048,7 +21809,8 @@ final IndependentPracticeModel Scijhs3s1ss2Lesson1IndependentQuizData = Independ
             "Stem cells have the ability to develop into many different cell types."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/6. JHS3 S1 SS2 L2/7. Independent Practice.m4a',
   questions: [
@@ -23100,7 +21862,8 @@ final IndependentPracticeModel Scijhs3s1ss2Lesson2IndependentQuizData = Independ
             "Epidermal cells are transparent to allow sunlight to pass through and reach the photosynthetic cells (mesophyll) inside the leaf."),
   ],
 );
-final IndependentPracticeModel Scijhs3s1ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s1ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       'assets/audio/science/7. JHS3 S1 SS2 L3/7. Independent Practice.m4a',
   questions: [
@@ -23154,11 +21917,13 @@ final IndependentPracticeModel Scijhs3s1ss2Lesson3IndependentQuizData = Independ
   ],
 );
 
-final IndependentPracticeModel Scijhs3s2ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS1 L1/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these processes is responsible for turning ammonia into nitrates?",
+        question:
+            "1. Which of these processes is responsible for turning ammonia into nitrates?",
         options: [
           "Assimilation",
           "Nitrification",
@@ -23167,37 +21932,27 @@ final IndependentPracticeModel Scijhs3s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Nitrification is the process where ammonia is converted into nitrates by bacteria."
-    ),
-
+        explanation:
+            "Nitrification is the process where ammonia is converted into nitrates by bacteria."),
     IndependentPracticeQuestion(
-        question: "2. What form of nitrogen do most plants absorb through their roots?",
-        options: [
-          "Nitrogen gas",
-          "Nitrites",
-          "Nitrates",
-          "Ammonia"
-        ],
+        question:
+            "2. What form of nitrogen do most plants absorb through their roots?",
+        options: ["Nitrogen gas", "Nitrites", "Nitrates", "Ammonia"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Most plants absorb nitrogen mainly in the form of nitrates through their roots."
-    ),
-
+        explanation:
+            "Most plants absorb nitrogen mainly in the form of nitrates through their roots."),
     IndependentPracticeQuestion(
-        question: "3. Which natural event can 'fix' nitrogen using high heat and energy?",
-        options: [
-          "Heavy rainfall",
-          "Bush burning",
-          "Sea breezes",
-          "Lightning"
-        ],
+        question:
+            "3. Which natural event can 'fix' nitrogen using high heat and energy?",
+        options: ["Heavy rainfall", "Bush burning", "Sea breezes", "Lightning"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Lightning provides enough energy to convert nitrogen gas into usable nitrogen compounds."
-    ),
-
+        explanation:
+            "Lightning provides enough energy to convert nitrogen gas into usable nitrogen compounds."),
     IndependentPracticeQuestion(
-        question: "4. Which organism is mainly responsible for the process of ammonification?",
+        question:
+            "4. Which organism is mainly responsible for the process of ammonification?",
         options: [
           "Green plants",
           "Decomposers",
@@ -23206,15 +21961,17 @@ final IndependentPracticeModel Scijhs3s2ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Decomposers break down dead organisms and waste materials, releasing ammonia into the soil."
-    ),
+        explanation:
+            "Decomposers break down dead organisms and waste materials, releasing ammonia into the soil."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS1 L2/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which part of a plant is nitrogen most essential for producing?",
+        question:
+            "1. Which part of a plant is nitrogen most essential for producing?",
         options: [
           "Flower scent",
           "Leaf chlorophyll",
@@ -23223,24 +21980,19 @@ final IndependentPracticeModel Scijhs3s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Nitrogen is essential for producing chlorophyll, which helps plants make food through photosynthesis."
-    ),
-
+        explanation:
+            "Nitrogen is essential for producing chlorophyll, which helps plants make food through photosynthesis."),
     IndependentPracticeQuestion(
-        question: "2. What are the 'building blocks' of protein that contain nitrogen?",
-        options: [
-          "Sugar cubes",
-          "Water drops",
-          "Amino acids",
-          "Salt crystals"
-        ],
+        question:
+            "2. What are the 'building blocks' of protein that contain nitrogen?",
+        options: ["Sugar cubes", "Water drops", "Amino acids", "Salt crystals"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Proteins are made up of amino acids, which contain nitrogen."
-    ),
-
+        explanation:
+            "Proteins are made up of amino acids, which contain nitrogen."),
     IndependentPracticeQuestion(
-        question: "3. Which farming practice helps to add nitrogen back into the soil?",
+        question:
+            "3. Which farming practice helps to add nitrogen back into the soil?",
         options: [
           "Bush burning",
           "Cutting trees",
@@ -23249,11 +22001,11 @@ final IndependentPracticeModel Scijhs3s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Beans and other legumes help add nitrogen to the soil through nitrogen fixation."
-    ),
-
+        explanation:
+            "Beans and other legumes help add nitrogen to the soil through nitrogen fixation."),
     IndependentPracticeQuestion(
-        question: "4. What happens to nitrogen in plants when a forest is cleared and burned?",
+        question:
+            "4. What happens to nitrogen in plants when a forest is cleared and burned?",
         options: [
           "It enters the soil",
           "It turns to smoke",
@@ -23262,28 +22014,25 @@ final IndependentPracticeModel Scijhs3s2ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "When plants are burned, nitrogen compounds are released into the air as gases and smoke."
-    ),
+        explanation:
+            "When plants are burned, nitrogen compounds are released into the air as gases and smoke."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS2 L1/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. How many distinct stages are found in the life cycle of a grasshopper?",
-        options: [
-          "Two stages",
-          "Three stages",
-          "Four stages",
-          "Five stages"
-        ],
+        question:
+            "1. How many distinct stages are found in the life cycle of a grasshopper?",
+        options: ["Two stages", "Three stages", "Four stages", "Five stages"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A grasshopper passes through three stages: egg, nymph, and adult."
-    ),
-
+        explanation:
+            "A grasshopper passes through three stages: egg, nymph, and adult."),
     IndependentPracticeQuestion(
-        question: "2. Which of these follows the correct order of the grasshopper life cycle?",
+        question:
+            "2. Which of these follows the correct order of the grasshopper life cycle?",
         options: [
           "Egg → Adult → Nymph",
           "Nymph → Egg → Adult",
@@ -23292,11 +22041,11 @@ final IndependentPracticeModel Scijhs3s2ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The correct order of the grasshopper life cycle is egg → nymph → adult."
-    ),
-
+        explanation:
+            "The correct order of the grasshopper life cycle is egg → nymph → adult."),
     IndependentPracticeQuestion(
-        question: "3. What is the scientific term for the baby grasshopper that hatches from the egg?",
+        question:
+            "3. What is the scientific term for the baby grasshopper that hatches from the egg?",
         options: [
           "It is called a larva.",
           "It is called a pupa.",
@@ -23305,11 +22054,11 @@ final IndependentPracticeModel Scijhs3s2ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The young grasshopper that hatches from the egg is called a nymph."
-    ),
-
+        explanation:
+            "The young grasshopper that hatches from the egg is called a nymph."),
     IndependentPracticeQuestion(
-        question: "4. Why is the grasshopper's life cycle described as 'incomplete'?",
+        question:
+            "4. Why is the grasshopper's life cycle described as 'incomplete'?",
         options: [
           "It lacks a pupa stage.",
           "It lacks an egg stage.",
@@ -23318,15 +22067,17 @@ final IndependentPracticeModel Scijhs3s2ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Grasshoppers undergo incomplete metamorphosis because they do not have a pupa stage."
-    ),
+        explanation:
+            "Grasshoppers undergo incomplete metamorphosis because they do not have a pupa stage."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS2 L2/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is a 'biological' method of controlling grasshoppers?",
+        question:
+            "1. Which of the following is a 'biological' method of controlling grasshoppers?",
         options: [
           "Spraying chemicals",
           "Using a tractor to till soil",
@@ -23335,11 +22086,11 @@ final IndependentPracticeModel Scijhs3s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Keeping guinea fowls on the farm is a biological control method because the birds feed on grasshoppers."
-    ),
-
+        explanation:
+            "Keeping guinea fowls on the farm is a biological control method because the birds feed on grasshoppers."),
     IndependentPracticeQuestion(
-        question: "2. What is the primary reason humans in some cultures eat grasshoppers?",
+        question:
+            "2. What is the primary reason humans in some cultures eat grasshoppers?",
         options: [
           "They are a good source of protein.",
           "They taste like chocolate.",
@@ -23348,9 +22099,8 @@ final IndependentPracticeModel Scijhs3s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Grasshoppers are eaten in some cultures because they are rich in protein."
-    ),
-
+        explanation:
+            "Grasshoppers are eaten in some cultures because they are rich in protein."),
     IndependentPracticeQuestion(
         question: "3. How do grasshopper droppings help the environment?",
         options: [
@@ -23361,28 +22111,24 @@ final IndependentPracticeModel Scijhs3s2ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Grasshopper droppings decompose and add nutrients back into the soil."
-    ),
-
+        explanation:
+            "Grasshopper droppings decompose and add nutrients back into the soil."),
     IndependentPracticeQuestion(
-        question: "4. When grasshoppers move in a massive group to find food, what is this group called?",
-        options: [
-          "A school",
-          "A pack",
-          "A swarm",
-          "A pride"
-        ],
+        question:
+            "4. When grasshoppers move in a massive group to find food, what is this group called?",
+        options: ["A school", "A pack", "A swarm", "A pride"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A large moving group of grasshoppers is called a swarm."
-    ),
+        explanation: "A large moving group of grasshoppers is called a swarm."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS3 L1/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following describes the stage where a crop is ready for its intended use?",
+        question:
+            "1. Which of the following describes the stage where a crop is ready for its intended use?",
         options: [
           "Germination stage",
           "Maturation stage",
@@ -23391,24 +22137,19 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The maturation stage is when a crop is fully developed and ready for harvesting or use."
-    ),
-
+        explanation:
+            "The maturation stage is when a crop is fully developed and ready for harvesting or use."),
     IndependentPracticeQuestion(
-        question: "2. Which soil type is most likely to delay the maturation of a crop because it stays too wet?",
-        options: [
-          "Sandy soil",
-          "Loamy soil",
-          "Clay soil",
-          "Silty soil"
-        ],
+        question:
+            "2. Which soil type is most likely to delay the maturation of a crop because it stays too wet?",
+        options: ["Sandy soil", "Loamy soil", "Clay soil", "Silty soil"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Clay soil holds a lot of water, which can delay crop maturation."
-    ),
-
+        explanation:
+            "Clay soil holds a lot of water, which can delay crop maturation."),
     IndependentPracticeQuestion(
-        question: "3. What do we call the signs like size, colour, and texture used to identify a mature crop?",
+        question:
+            "3. What do we call the signs like size, colour, and texture used to identify a mature crop?",
         options: [
           "Growth markers",
           "Maturity indices",
@@ -23417,28 +22158,25 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Maturity indices are the characteristics used to determine if a crop is mature."
-    ),
-
+        explanation:
+            "Maturity indices are the characteristics used to determine if a crop is mature."),
     IndependentPracticeQuestion(
-        question: "4. Which seedbed preparation is best for speeding up the growth of vegetables?",
-        options: [
-          "Flat ground",
-          "Sunken beds",
-          "Hardened soil",
-          "Raised beds"
-        ],
+        question:
+            "4. Which seedbed preparation is best for speeding up the growth of vegetables?",
+        options: ["Flat ground", "Sunken beds", "Hardened soil", "Raised beds"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Raised beds improve drainage and soil conditions, helping vegetables grow faster."
-    ),
+        explanation:
+            "Raised beds improve drainage and soil conditions, helping vegetables grow faster."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS3 L2/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which stage of cowpea is most suitable for making Waakye?",
+        question:
+            "1. Which stage of cowpea is most suitable for making Waakye?",
         options: [
           "Flowering stage",
           "Immature stage",
@@ -23447,11 +22185,11 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Cowpea used for making Waakye is usually harvested at the mature dry stage."
-    ),
-
+        explanation:
+            "Cowpea used for making Waakye is usually harvested at the mature dry stage."),
     IndependentPracticeQuestion(
-        question: "2. What is the primary use of green, immature maize in Ghana?",
+        question:
+            "2. What is the primary use of green, immature maize in Ghana?",
         options: [
           "Milling into flour",
           "Roasting and boiling",
@@ -23460,9 +22198,8 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Green immature maize is commonly roasted or boiled for food in Ghana."
-    ),
-
+        explanation:
+            "Green immature maize is commonly roasted or boiled for food in Ghana."),
     IndependentPracticeQuestion(
         question: "3. Why is it difficult to use immature cassava for food?",
         options: [
@@ -23473,11 +22210,11 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Immature cassava contains low starch, making it less suitable for food preparation."
-    ),
-
+        explanation:
+            "Immature cassava contains low starch, making it less suitable for food preparation."),
     IndependentPracticeQuestion(
-        question: "4. At which stage does a pepper reach its maximum spiciness for soup?",
+        question:
+            "4. At which stage does a pepper reach its maximum spiciness for soup?",
         options: [
           "Seedling stage",
           "Immature stage",
@@ -23486,28 +22223,25 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Pepper becomes hottest and most suitable for soup at the mature red stage."
-    ),
+        explanation:
+            "Pepper becomes hottest and most suitable for soup at the mature red stage."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS3 L3/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which term describes how much an animal or human enjoys the taste and texture of a mature crop?",
-        options: [
-          "Acidity",
-          "Palatability",
-          "Toxicity",
-          "Humidity"
-        ],
+        question:
+            "1. Which term describes how much an animal or human enjoys the taste and texture of a mature crop?",
+        options: ["Acidity", "Palatability", "Toxicity", "Humidity"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Palatability refers to how pleasant or acceptable food tastes to humans or animals."
-    ),
-
+        explanation:
+            "Palatability refers to how pleasant or acceptable food tastes to humans or animals."),
     IndependentPracticeQuestion(
-        question: "2. Harvesting at the correct maturity stage for long-distance transport helps to:",
+        question:
+            "2. Harvesting at the correct maturity stage for long-distance transport helps to:",
         options: [
           "Make the truck faster",
           "Change the crop's color",
@@ -23516,11 +22250,11 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Correct harvesting time reduces damage, bruising, and rotting during transportation."
-    ),
-
+        explanation:
+            "Correct harvesting time reduces damage, bruising, and rotting during transportation."),
     IndependentPracticeQuestion(
-        question: "3. What is a common local method used in Ghana to check if a watermelon is mature?",
+        question:
+            "3. What is a common local method used in Ghana to check if a watermelon is mature?",
         options: [
           "Using a thermometer",
           "Tapping for a hollow sound",
@@ -23529,11 +22263,11 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Farmers often tap a watermelon and listen for a hollow sound to determine maturity."
-    ),
-
+        explanation:
+            "Farmers often tap a watermelon and listen for a hollow sound to determine maturity."),
     IndependentPracticeQuestion(
-        question: "4. Why is the nutritional value highest at the correct maturity stage?",
+        question:
+            "4. Why is the nutritional value highest at the correct maturity stage?",
         options: [
           "The plant has finished its work",
           "The plant is starting to die",
@@ -23542,15 +22276,17 @@ final IndependentPracticeModel Scijhs3s2ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "At the correct maturity stage, crops have fully developed their nutrients and food reserves."
-    ),
+        explanation:
+            "At the correct maturity stage, crops have fully developed their nutrients and food reserves."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS4 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is the primary reason for grinding maize before feeding it to poultry?",
+        question:
+            "1. Which of the following is the primary reason for grinding maize before feeding it to poultry?",
         options: [
           "To change the colour of the feed.",
           "To make the feed easier to digest.",
@@ -23559,11 +22295,11 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Grinding maize makes the feed easier for poultry to digest and utilize."
-    ),
-
+        explanation:
+            "Grinding maize makes the feed easier for poultry to digest and utilize."),
     IndependentPracticeQuestion(
-        question: "2. A farmer uses fishmeal and cotton seed cake in a feed mix. What is the main purpose of these?",
+        question:
+            "2. A farmer uses fishmeal and cotton seed cake in a feed mix. What is the main purpose of these?",
         options: [
           "To provide energy for movement.",
           "To provide vitamins for eyesight.",
@@ -23572,65 +22308,46 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Fishmeal and cotton seed cake are rich protein sources used for animal growth and body repair."
-    ),
-
+        explanation:
+            "Fishmeal and cotton seed cake are rich protein sources used for animal growth and body repair."),
     IndependentPracticeQuestion(
-        question: "3. Which method involves using heat to improve the flavour and safety of animal feed ingredients?",
-        options: [
-          "Roasting",
-          "Chopping",
-          "Grinding",
-          "Bagging"
-        ],
+        question:
+            "3. Which method involves using heat to improve the flavour and safety of animal feed ingredients?",
+        options: ["Roasting", "Chopping", "Grinding", "Bagging"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Roasting uses heat to improve flavour and reduce harmful substances in feed ingredients."
-    ),
-
+        explanation:
+            "Roasting uses heat to improve flavour and reduce harmful substances in feed ingredients."),
     IndependentPracticeQuestion(
-        question: "4. Which ingredient is the most common source of calcium for farm animals in Ghana?",
-        options: [
-          "Sorghum",
-          "Cassava",
-          "Maize",
-          "Shells"
-        ],
+        question:
+            "4. Which ingredient is the most common source of calcium for farm animals in Ghana?",
+        options: ["Sorghum", "Cassava", "Maize", "Shells"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Shells such as oyster shells are commonly used as calcium sources for farm animals."
-    ),
+        explanation:
+            "Shells such as oyster shells are commonly used as calcium sources for farm animals."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS4 L2/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which group of animals is best adapted to eating bulky, fibrous feeds like hay?",
-        options: [
-          "Poultry",
-          "Ruminants",
-          "Monogastrics",
-          "Humans"
-        ],
+        question:
+            "1. Which group of animals is best adapted to eating bulky, fibrous feeds like hay?",
+        options: ["Poultry", "Ruminants", "Monogastrics", "Humans"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Ruminants are adapted to digest bulky fibrous feeds because of their specialized stomach system."
-    ),
-
+        explanation:
+            "Ruminants are adapted to digest bulky fibrous feeds because of their specialized stomach system."),
     IndependentPracticeQuestion(
-        question: "2. What is the name of the organ in a chicken that grinds food because the bird has no teeth?",
-        options: [
-          "Rumen",
-          "Stomach",
-          "Gizzard",
-          "Crop"
-        ],
+        question:
+            "2. What is the name of the organ in a chicken that grinds food because the bird has no teeth?",
+        options: ["Rumen", "Stomach", "Gizzard", "Crop"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The gizzard grinds food mechanically in birds since they do not have teeth."
-    ),
-
+        explanation:
+            "The gizzard grinds food mechanically in birds since they do not have teeth."),
     IndependentPracticeQuestion(
         question: "3. A pig is classified as a monogastric because it has:",
         options: [
@@ -23641,67 +22358,49 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Monogastric animals such as pigs have a single-chambered stomach."
-    ),
-
+        explanation:
+            "Monogastric animals such as pigs have a single-chambered stomach."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a concentrated feed typically given to poultry for energy?",
-        options: [
-          "Dried grass",
-          "Maize mash",
-          "Fresh leaves",
-          "Rice straw"
-        ],
+        question:
+            "4. Which of these is a concentrated feed typically given to poultry for energy?",
+        options: ["Dried grass", "Maize mash", "Fresh leaves", "Rice straw"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Maize mash is an energy-rich concentrate commonly fed to poultry."
-    ),
+        explanation:
+            "Maize mash is an energy-rich concentrate commonly fed to poultry."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS4 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which nutrient is found in the highest percentage in 'Starter' feeds compared to 'Finisher' feeds?",
-        options: [
-          "Water",
-          "Fiber",
-          "Salt",
-          "Protein"
-        ],
+        question:
+            "1. Which nutrient is found in the highest percentage in 'Starter' feeds compared to 'Finisher' feeds?",
+        options: ["Water", "Fiber", "Salt", "Protein"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Starter feeds contain higher protein levels to support rapid growth in young animals."
-    ),
-
+        explanation:
+            "Starter feeds contain higher protein levels to support rapid growth in young animals."),
     IndependentPracticeQuestion(
-        question: "2. At what age does a poultry bird typically stop eating Starter Mash and move to Grower Mash?",
-        options: [
-          "24 hours",
-          "6 weeks",
-          "1 year",
-          "2 years"
-        ],
+        question:
+            "2. At what age does a poultry bird typically stop eating Starter Mash and move to Grower Mash?",
+        options: ["24 hours", "6 weeks", "1 year", "2 years"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Poultry birds are usually switched from Starter Mash to Grower Mash at about 6 weeks of age."
-    ),
-
+        explanation:
+            "Poultry birds are usually switched from Starter Mash to Grower Mash at about 6 weeks of age."),
     IndependentPracticeQuestion(
-        question: "'Creep feed' is specifically designed for which type of animal?",
-        options: [
-          "Old cows",
-          "Young piglets",
-          "Adult goats",
-          "Laying hens"
-        ],
+        question:
+            "'Creep feed' is specifically designed for which type of animal?",
+        options: ["Old cows", "Young piglets", "Adult goats", "Laying hens"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Creep feed is specially formulated for young piglets to support early growth."
-    ),
-
+        explanation:
+            "Creep feed is specially formulated for young piglets to support early growth."),
     IndependentPracticeQuestion(
-        question: "4. What is the main goal of providing 'Finisher' feed to a broiler chicken?",
+        question:
+            "4. What is the main goal of providing 'Finisher' feed to a broiler chicken?",
         options: [
           "To help it lay eggs.",
           "To make it grow feathers.",
@@ -23710,15 +22409,17 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Finisher feed is given to broilers mainly to increase body weight before market."
-    ),
+        explanation:
+            "Finisher feed is given to broilers mainly to increase body weight before market."),
   ],
 );
-final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S2 SS4 L4/7. Independent Practice .m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the main reason for using a feeding trough instead of scattering feed on the floor?",
+        question:
+            "1. What is the main reason for using a feeding trough instead of scattering feed on the floor?",
         options: [
           "It makes the farm look more expensive.",
           "It reduces feed waste and contamination.",
@@ -23727,11 +22428,11 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Feeding troughs help reduce feed waste and prevent contamination from dirt and droppings."
-    ),
-
+        explanation:
+            "Feeding troughs help reduce feed waste and prevent contamination from dirt and droppings."),
     IndependentPracticeQuestion(
-        question: "2. If a farmer wants to prevent his breeding pigs from getting too fat, which method should he use?",
+        question:
+            "2. If a farmer wants to prevent his breeding pigs from getting too fat, which method should he use?",
         options: [
           "Ad-libitum feeding",
           "No feeding at all",
@@ -23740,9 +22441,8 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Restricted feeding controls the amount of feed given to prevent breeding pigs from becoming overweight."
-    ),
-
+        explanation:
+            "Restricted feeding controls the amount of feed given to prevent breeding pigs from becoming overweight."),
     IndependentPracticeQuestion(
         question: "3. Which of these is a 'Mortality Record' used for?",
         options: [
@@ -23753,11 +22453,11 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A mortality record is used to keep track of the number of animals that die on the farm."
-    ),
-
+        explanation:
+            "A mortality record is used to keep track of the number of animals that die on the farm."),
     IndependentPracticeQuestion(
-        question: "4. Why is it important to clean water troughs every single day?",
+        question:
+            "4. Why is it important to clean water troughs every single day?",
         options: [
           "To prevent the spread of diseases.",
           "To make the water turn blue.",
@@ -23766,16 +22466,18 @@ final IndependentPracticeModel Scijhs3s2ss4Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Cleaning water troughs daily helps prevent germs and diseases from spreading among animals."
-    ),
+        explanation:
+            "Cleaning water troughs daily helps prevent germs and diseases from spreading among animals."),
   ],
 );
 
-final IndependentPracticeModel Scijhs3s3ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS1 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which part of the blood makes up the largest percentage of its volume?",
+        question:
+            "1. Which part of the blood makes up the largest percentage of its volume?",
         options: [
           "Red blood cells",
           "White blood cells",
@@ -23784,11 +22486,11 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Blood plasma is the largest component of blood, making up about 55% of its volume."
-    ),
-
+        explanation:
+            "Blood plasma is the largest component of blood, making up about 55% of its volume."),
     IndependentPracticeQuestion(
-        question: "2. What is the main function of the White Blood Cells in the human body?",
+        question:
+            "2. What is the main function of the White Blood Cells in the human body?",
         options: [
           "To carry oxygen",
           "To fight germs",
@@ -23797,41 +22499,33 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "White blood cells are responsible for protecting the body against infections and germs."
-    ),
-
+        explanation:
+            "White blood cells are responsible for protecting the body against infections and germs."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is NOT one of the three main pillars of the circulatory system?",
-        options: [
-          "The stomach",
-          "The vessels",
-          "The heart",
-          "The blood"
-        ],
+        question:
+            "3. Which of these is NOT one of the three main pillars of the circulatory system?",
+        options: ["The stomach", "The vessels", "The heart", "The blood"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The stomach is part of the digestive system, not the circulatory system."
-    ),
-
+        explanation:
+            "The stomach is part of the digestive system, not the circulatory system."),
     IndependentPracticeQuestion(
-        question: "4. What name is given to the protein that helps red blood cells carry oxygen?",
-        options: [
-          "Plasma cell",
-          "Leukocyte",
-          "Haemoglobin",
-          "Thrombocyte"
-        ],
+        question:
+            "4. What name is given to the protein that helps red blood cells carry oxygen?",
+        options: ["Plasma cell", "Leukocyte", "Haemoglobin", "Thrombocyte"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Haemoglobin is the protein in red blood cells that binds and transports oxygen."
-    ),
+        explanation:
+            "Haemoglobin is the protein in red blood cells that binds and transports oxygen."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which chamber of the heart has the thickest muscular wall?",
+        question:
+            "1. Which chamber of the heart has the thickest muscular wall?",
         options: [
           "Right Atrium",
           "Left Atrium",
@@ -23840,11 +22534,11 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "The left ventricle has the thickest muscular wall because it pumps blood to the entire body."
-    ),
-
+        explanation:
+            "The left ventricle has the thickest muscular wall because it pumps blood to the entire body."),
     IndependentPracticeQuestion(
-        question: "2. What is the main purpose of valves located inside the heart and veins?",
+        question:
+            "2. What is the main purpose of valves located inside the heart and veins?",
         options: [
           "To speed up blood flow",
           "To prevent backflow of blood",
@@ -23853,41 +22547,31 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Valves prevent the backflow of blood, ensuring it moves in one direction."
-    ),
-
+        explanation:
+            "Valves prevent the backflow of blood, ensuring it moves in one direction."),
     IndependentPracticeQuestion(
-        question: "3. Which type of blood vessel carries blood back towards the heart?",
-        options: [
-          "Veins",
-          "Arteries",
-          "Capillaries",
-          "Aorta"
-        ],
+        question:
+            "3. Which type of blood vessel carries blood back towards the heart?",
+        options: ["Veins", "Arteries", "Capillaries", "Aorta"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Veins carry deoxygenated blood back to the heart."
-    ),
-
+        explanation: "Veins carry deoxygenated blood back to the heart."),
     IndependentPracticeQuestion(
         question: "4. The top two chambers of the heart are known as the:",
-        options: [
-          "Ventricles",
-          "Septums",
-          "Atria",
-          "Valves"
-        ],
+        options: ["Ventricles", "Septums", "Atria", "Valves"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The atria are the top two chambers of the heart that receive blood from the body and lungs."
-    ),
+        explanation:
+            "The atria are the top two chambers of the heart that receive blood from the body and lungs."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS1 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a major risk factor for developing High Blood Pressure?",
+        question:
+            "1. Which of these is a major risk factor for developing High Blood Pressure?",
         options: [
           "Eating too many green vegetables",
           "Regular dancing and walking",
@@ -23896,9 +22580,8 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Excessive salt intake can increase blood pressure, making it a major risk factor."
-    ),
-
+        explanation:
+            "Excessive salt intake can increase blood pressure, making it a major risk factor."),
     IndependentPracticeQuestion(
         question: "2. What happens to the brain during a stroke?",
         options: [
@@ -23909,9 +22592,8 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "During a stroke, part of the brain loses its blood supply, causing damage."
-    ),
-
+        explanation:
+            "During a stroke, part of the brain loses its blood supply, causing damage."),
     IndependentPracticeQuestion(
         question: "3. Which lifestyle choice helps prevent heart failure?",
         options: [
@@ -23922,11 +22604,11 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Maintaining a healthy body weight reduces strain on the heart and helps prevent heart failure."
-    ),
-
+        explanation:
+            "Maintaining a healthy body weight reduces strain on the heart and helps prevent heart failure."),
     IndependentPracticeQuestion(
-        question: "4. How much exercise is generally recommended for a healthy heart?",
+        question:
+            "4. How much exercise is generally recommended for a healthy heart?",
         options: [
           "5 minutes once a month",
           "30 minutes on most days",
@@ -23935,15 +22617,17 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Most health guidelines recommend at least 30 minutes of moderate exercise on most days for heart health."
-    ),
+        explanation:
+            "Most health guidelines recommend at least 30 minutes of moderate exercise on most days for heart health."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS1 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In which part of the cell does internal (cellular) respiration primarily take place?",
+        question:
+            "1. In which part of the cell does internal (cellular) respiration primarily take place?",
         options: [
           "The nucleus",
           "The cell wall",
@@ -23952,11 +22636,11 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Cellular respiration primarily occurs in the mitochondria, producing energy for the cell."
-    ),
-
+        explanation:
+            "Cellular respiration primarily occurs in the mitochondria, producing energy for the cell."),
     IndependentPracticeQuestion(
-        question: "2. Which type of respiration occurs when there is plenty of oxygen available?",
+        question:
+            "2. Which type of respiration occurs when there is plenty of oxygen available?",
         options: [
           "Anaerobic respiration",
           "Aerobic respiration",
@@ -23965,24 +22649,19 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Aerobic respiration requires oxygen to produce energy efficiently."
-    ),
-
+        explanation:
+            "Aerobic respiration requires oxygen to produce energy efficiently."),
     IndependentPracticeQuestion(
-        question: "3. What is the name of the energy molecule produced during respiration?",
-        options: [
-          "Glucose",
-          "Haemoglobin",
-          "ATP",
-          "Plasma"
-        ],
+        question:
+            "3. What is the name of the energy molecule produced during respiration?",
+        options: ["Glucose", "Haemoglobin", "ATP", "Plasma"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "ATP (adenosine triphosphate) is the main energy-carrying molecule produced during respiration."
-    ),
-
+        explanation:
+            "ATP (adenosine triphosphate) is the main energy-carrying molecule produced during respiration."),
     IndependentPracticeQuestion(
-        question: "4. During exhalation, what are we primarily removing from our bodies?",
+        question:
+            "4. During exhalation, what are we primarily removing from our bodies?",
         options: [
           "Oxygen and Glucose",
           "Carbon Dioxide and Water vapor",
@@ -23991,54 +22670,39 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "During exhalation, carbon dioxide and water vapor are expelled from the body."
-    ),
+        explanation:
+            "During exhalation, carbon dioxide and water vapor are expelled from the body."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS1 L5/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which structure is commonly known as the 'Voice Box'?",
-        options: [
-          "Pharynx",
-          "Trachea",
-          "Larynx",
-          "Bronchi"
-        ],
+        options: ["Pharynx", "Trachea", "Larynx", "Bronchi"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The larynx is commonly referred to as the voice box because it houses the vocal cords."
-    ),
-
+        explanation:
+            "The larynx is commonly referred to as the voice box because it houses the vocal cords."),
     IndependentPracticeQuestion(
-        question: "2. What are the tiny air sacs where gas exchange actually takes place?",
-        options: [
-          "Bronchioles",
-          "Alveoli",
-          "Capillaries",
-          "Nostrils"
-        ],
+        question:
+            "2. What are the tiny air sacs where gas exchange actually takes place?",
+        options: ["Bronchioles", "Alveoli", "Capillaries", "Nostrils"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Gas exchange occurs in the alveoli, where oxygen enters the blood and carbon dioxide leaves."
-    ),
-
+        explanation:
+            "Gas exchange occurs in the alveoli, where oxygen enters the blood and carbon dioxide leaves."),
     IndependentPracticeQuestion(
         question: "3. The trachea branches into two tubes called the:",
-        options: [
-          "Bronchi",
-          "Alveoli",
-          "Larynx",
-          "Epiglottis"
-        ],
+        options: ["Bronchi", "Alveoli", "Larynx", "Epiglottis"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The trachea divides into the left and right bronchi, leading to each lung."
-    ),
-
+        explanation:
+            "The trachea divides into the left and right bronchi, leading to each lung."),
     IndependentPracticeQuestion(
-        question: "4. Why is the left lung slightly smaller than the right lung?",
+        question:
+            "4. Why is the left lung slightly smaller than the right lung?",
         options: [
           "To make room for the stomach",
           "To make room for the heart",
@@ -24047,41 +22711,32 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The left lung is smaller to accommodate the space taken up by the heart."
-    ),
+        explanation:
+            "The left lung is smaller to accommodate the space taken up by the heart."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS1 L6/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which muscle is a large, sheet-like muscle located at the base of the chest?",
-        options: [
-          "Bicep",
-          "Heart",
-          "Diaphragm",
-          "Trachea"
-        ],
+        question:
+            "1. Which muscle is a large, sheet-like muscle located at the base of the chest?",
+        options: ["Bicep", "Heart", "Diaphragm", "Trachea"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The diaphragm is a large, sheet-like muscle located at the base of the chest, essential for breathing."
-    ),
-
+        explanation:
+            "The diaphragm is a large, sheet-like muscle located at the base of the chest, essential for breathing."),
     IndependentPracticeQuestion(
         question: "2. During exhalation, the diaphragm becomes:",
-        options: [
-          "Flat",
-          "Dome-shaped",
-          "Square",
-          "Circular"
-        ],
+        options: ["Flat", "Dome-shaped", "Square", "Circular"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "During exhalation, the diaphragm relaxes and becomes dome-shaped to help push air out of the lungs."
-    ),
-
+        explanation:
+            "During exhalation, the diaphragm relaxes and becomes dome-shaped to help push air out of the lungs."),
     IndependentPracticeQuestion(
-        question: "3. What is the function of the fluid between the pleural membranes?",
+        question:
+            "3. What is the function of the fluid between the pleural membranes?",
         options: [
           "To provide oxygen",
           "To reduce friction",
@@ -24090,9 +22745,8 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The pleural fluid reduces friction between the lungs and chest wall during breathing."
-    ),
-
+        explanation:
+            "The pleural fluid reduces friction between the lungs and chest wall during breathing."),
     IndependentPracticeQuestion(
         question: "4. When the intercostal muscles relax, the ribcage moves:",
         options: [
@@ -24103,15 +22757,17 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "When intercostal muscles relax, the ribcage moves downwards and inwards to assist exhalation."
-    ),
+        explanation:
+            "When intercostal muscles relax, the ribcage moves downwards and inwards to assist exhalation."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS1 L7/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which system is responsible for bringing oxygen into the body from the atmosphere?",
+        question:
+            "1. Which system is responsible for bringing oxygen into the body from the atmosphere?",
         options: [
           "Circulatory System",
           "Digestive System",
@@ -24120,9 +22776,8 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson7IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The respiratory system is responsible for taking in oxygen from the air and expelling carbon dioxide."
-    ),
-
+        explanation:
+            "The respiratory system is responsible for taking in oxygen from the air and expelling carbon dioxide."),
     IndependentPracticeQuestion(
         question: "2. How does oxygen move from the lungs into the blood?",
         options: [
@@ -24133,37 +22788,28 @@ final IndependentPracticeModel Scijhs3s3ss1Lesson7IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Oxygen diffuses through the alveolar walls into the blood in the capillaries."
-    ),
-
+        explanation:
+            "Oxygen diffuses through the alveolar walls into the blood in the capillaries."),
     IndependentPracticeQuestion(
-        question: "3. What does the blood transport to the lungs to be removed from the body?",
-        options: [
-          "Oxygen",
-          "Glucose",
-          "Carbon Dioxide",
-          "Pure Water"
-        ],
+        question:
+            "3. What does the blood transport to the lungs to be removed from the body?",
+        options: ["Oxygen", "Glucose", "Carbon Dioxide", "Pure Water"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Blood carries carbon dioxide from the body to the lungs for removal."
-    ),
-
+        explanation:
+            "Blood carries carbon dioxide from the body to the lungs for removal."),
     IndependentPracticeQuestion(
-        question: "4. Which organ acts as the pump that moves oxygenated blood to the rest of the body?",
-        options: [
-          "The Lungs",
-          "The Trachea",
-          "The Heart",
-          "The Liver"
-        ],
+        question:
+            "4. Which organ acts as the pump that moves oxygenated blood to the rest of the body?",
+        options: ["The Lungs", "The Trachea", "The Heart", "The Liver"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The heart pumps oxygenated blood throughout the body via the circulatory system."
-    ),
+        explanation:
+            "The heart pumps oxygenated blood throughout the body via the circulatory system."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS2 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -24176,9 +22822,8 @@ final IndependentPracticeModel Scijhs3s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Comets are often called 'dirty snowballs' because they are composed of ice and dust."
-    ),
-
+        explanation:
+            "Comets are often called 'dirty snowballs' because they are composed of ice and dust."),
     IndependentPracticeQuestion(
         question: "2. Where is the Asteroid Belt located?",
         options: [
@@ -24189,9 +22834,8 @@ final IndependentPracticeModel Scijhs3s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The Asteroid Belt lies between the orbits of Mars and Jupiter."
-    ),
-
+        explanation:
+            "The Asteroid Belt lies between the orbits of Mars and Jupiter."),
     IndependentPracticeQuestion(
         question: "3. What is the main material found in an asteroid?",
         options: [
@@ -24202,39 +22846,28 @@ final IndependentPracticeModel Scijhs3s3ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Asteroids are primarily made of rock and metal."
-    ),
-
+        explanation: "Asteroids are primarily made of rock and metal."),
     IndependentPracticeQuestion(
         question: "4. Which part of a comet always points away from the Sun?",
-        options: [
-          "The Nucleus",
-          "The Coma",
-          "The Center",
-          "The Tail"
-        ],
+        options: ["The Nucleus", "The Coma", "The Center", "The Tail"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "A comet's tail always points away from the Sun due to the solar wind."
-    ),
+        explanation:
+            "A comet's tail always points away from the Sun due to the solar wind."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. A meteoroid that has entered the Earth's atmosphere and produced a streak of light is called a:",
-        options: [
-          "Planet",
-          "Meteor",
-          "Comet",
-          "Meteorite"
-        ],
+        question:
+            "1. A meteoroid that has entered the Earth's atmosphere and produced a streak of light is called a:",
+        options: ["Planet", "Meteor", "Comet", "Meteorite"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A meteoroid entering Earth's atmosphere and producing a streak of light is called a meteor."
-    ),
-
+        explanation:
+            "A meteoroid entering Earth's atmosphere and producing a streak of light is called a meteor."),
     IndependentPracticeQuestion(
         question: "2. What causes the bright light of a meteor?",
         options: [
@@ -24245,41 +22878,31 @@ final IndependentPracticeModel Scijhs3s3ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The bright light of a meteor is caused by friction with the air as it enters the atmosphere."
-    ),
-
+        explanation:
+            "The bright light of a meteor is caused by friction with the air as it enters the atmosphere."),
     IndependentPracticeQuestion(
-        question: "3. A space rock that has successfully landed on the Earth's surface is a:",
-        options: [
-          "Meteorite",
-          "Meteoroid",
-          "Asteroid",
-          "Meteor"
-        ],
+        question:
+            "3. A space rock that has successfully landed on the Earth's surface is a:",
+        options: ["Meteorite", "Meteoroid", "Asteroid", "Meteor"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A meteorite is a space rock that reaches the Earth's surface without completely burning up."
-    ),
-
+        explanation:
+            "A meteorite is a space rock that reaches the Earth's surface without completely burning up."),
     IndependentPracticeQuestion(
         question: "4. Most meteoroids are formed from fragments of:",
-        options: [
-          "The Sun",
-          "The Moon",
-          "Clouds",
-          "Asteroids"
-        ],
+        options: ["The Sun", "The Moon", "Clouds", "Asteroids"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Most meteoroids are formed from fragments of asteroids."
-    ),
+        explanation: "Most meteoroids are formed from fragments of asteroids."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS2 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a requirement for BOTH a planet and a dwarf planet?",
+        question:
+            "1. Which of these is a requirement for BOTH a planet and a dwarf planet?",
         options: [
           "Must have at least ten moons",
           "Must be made entirely of gold",
@@ -24288,9 +22911,7 @@ final IndependentPracticeModel Scijhs3s3ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Both planets and dwarf planets must orbit the Sun."
-    ),
-
+        explanation: "Both planets and dwarf planets must orbit the Sun."),
     IndependentPracticeQuestion(
         question: "2. Where is the dwarf planet Eris located?",
         options: [
@@ -24301,9 +22922,8 @@ final IndependentPracticeModel Scijhs3s3ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Eris is a dwarf planet located in the outer Solar System."
-    ),
-
+        explanation:
+            "Eris is a dwarf planet located in the outer Solar System."),
     IndependentPracticeQuestion(
         question: "3. What shape is a dwarf planet?",
         options: [
@@ -24314,84 +22934,59 @@ final IndependentPracticeModel Scijhs3s3ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Dwarf planets are nearly spherical in shape due to self-gravity."
-    ),
-
+        explanation:
+            "Dwarf planets are nearly spherical in shape due to self-gravity."),
     IndependentPracticeQuestion(
         question: "4. Which of these is NOT a recognized dwarf planet?",
-        options: [
-          "Pluto",
-          "Eris",
-          "Ceres",
-          "Jupiter"
-        ],
+        options: ["Pluto", "Eris", "Ceres", "Jupiter"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Jupiter is a full-fledged planet, not a dwarf planet."
-    ),
+        explanation: "Jupiter is a full-fledged planet, not a dwarf planet."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is a biotic component of an ecosystem?",
-        options: [
-          "Fertile soil",
-          "River water",
-          "Fungi spores",
-          "Golden sun"
-        ],
+        question:
+            "1. Which of the following is a biotic component of an ecosystem?",
+        options: ["Fertile soil", "River water", "Fungi spores", "Golden sun"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Fungi spores are living components, making them biotic elements of an ecosystem."
-    ),
-
+        explanation:
+            "Fungi spores are living components, making them biotic elements of an ecosystem."),
     IndependentPracticeQuestion(
-        question: "2. What is the main source of energy for almost all ecosystems?",
-        options: [
-          "Rainfall",
-          "Sunlight",
-          "Oxygen",
-          "Wind"
-        ],
+        question:
+            "2. What is the main source of energy for almost all ecosystems?",
+        options: ["Rainfall", "Sunlight", "Oxygen", "Wind"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sunlight provides energy for photosynthesis, which supports nearly all ecosystems."
-    ),
-
+        explanation:
+            "Sunlight provides energy for photosynthesis, which supports nearly all ecosystems."),
     IndependentPracticeQuestion(
-        question: "3. Which term describes the Gulf of Guinea off the coast of Accra?",
-        options: [
-          "Terrestrial",
-          "Freshwater",
-          "Marine",
-          "Abiotic"
-        ],
+        question:
+            "3. Which term describes the Gulf of Guinea off the coast of Accra?",
+        options: ["Terrestrial", "Freshwater", "Marine", "Abiotic"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "The Gulf of Guinea is a marine environment."
-    ),
-
+        explanation: "The Gulf of Guinea is a marine environment."),
     IndependentPracticeQuestion(
-        question: "4. A specific place where an organism lives naturally is called its:",
-        options: [
-          "Community",
-          "Population",
-          "Ecosystem",
-          "Habitat"
-        ],
+        question:
+            "4. A specific place where an organism lives naturally is called its:",
+        options: ["Community", "Population", "Ecosystem", "Habitat"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "A habitat is the natural home of an organism."
-    ),
+        explanation: "A habitat is the natural home of an organism."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS3 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which organism is always at the very beginning of a food chain?",
+        question:
+            "1. Which organism is always at the very beginning of a food chain?",
         options: [
           "Primary consumer",
           "Tertiary consumer",
@@ -24400,9 +22995,8 @@ final IndependentPracticeModel Scijhs3s3ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Green plants are producers and always form the base of a food chain."
-    ),
-
+        explanation:
+            "Green plants are producers and always form the base of a food chain."),
     IndependentPracticeQuestion(
         question: "2. What does the arrow in a food chain represent?",
         options: [
@@ -24413,22 +23007,15 @@ final IndependentPracticeModel Scijhs3s3ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Arrows in a food chain show the flow of energy from one organism to another."
-    ),
-
+        explanation:
+            "Arrows in a food chain show the flow of energy from one organism to another."),
     IndependentPracticeQuestion(
         question: "3. Which of these is a decomposer often found in Ghana?",
-        options: [
-          "Mushroom",
-          "Vulture",
-          "Antelope",
-          "Termite"
-        ],
+        options: ["Mushroom", "Vulture", "Antelope", "Termite"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Mushrooms break down dead organic matter, acting as decomposers."
-    ),
-
+        explanation:
+            "Mushrooms break down dead organic matter, acting as decomposers."),
     IndependentPracticeQuestion(
         question: "4. A food web is more realistic than a food chain because:",
         options: [
@@ -24439,15 +23026,17 @@ final IndependentPracticeModel Scijhs3s3ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A food web shows multiple feeding relationships, reflecting real ecosystems."
-    ),
+        explanation:
+            "A food web shows multiple feeding relationships, reflecting real ecosystems."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS3 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which human activity is the main cause of muddy, brown rivers in Ghana?",
+        question:
+            "1. Which human activity is the main cause of muddy, brown rivers in Ghana?",
         options: [
           "Sustainable fishing",
           "Illegal mining (Galamsey)",
@@ -24456,9 +23045,8 @@ final IndependentPracticeModel Scijhs3s3ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Illegal mining, known as Galamsey, causes soil erosion, leading to muddy rivers."
-    ),
-
+        explanation:
+            "Illegal mining, known as Galamsey, causes soil erosion, leading to muddy rivers."),
     IndependentPracticeQuestion(
         question: "2. What is a negative effect of bush burning?",
         options: [
@@ -24469,11 +23057,11 @@ final IndependentPracticeModel Scijhs3s3ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Bush burning destroys beneficial soil organisms that help maintain soil fertility."
-    ),
-
+        explanation:
+            "Bush burning destroys beneficial soil organisms that help maintain soil fertility."),
     IndependentPracticeQuestion(
-        question: "3. Why are bees and butterflies important to the balance of a farm ecosystem?",
+        question:
+            "3. Why are bees and butterflies important to the balance of a farm ecosystem?",
         options: [
           "They eat all the weeds",
           "They help plants reproduce",
@@ -24482,11 +23070,11 @@ final IndependentPracticeModel Scijhs3s3ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Bees and butterflies pollinate plants, aiding reproduction and maintaining ecosystem balance."
-    ),
-
+        explanation:
+            "Bees and butterflies pollinate plants, aiding reproduction and maintaining ecosystem balance."),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a 'natural' interference in an ecosystem?",
+        question:
+            "4. Which of these is a 'natural' interference in an ecosystem?",
         options: [
           "Pesticide spraying",
           "Plastic pollution",
@@ -24495,11 +23083,12 @@ final IndependentPracticeModel Scijhs3s3ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Volcanic eruptions occur naturally and can disrupt ecosystems without human intervention."
-    ),
+        explanation:
+            "Volcanic eruptions occur naturally and can disrupt ecosystems without human intervention."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS4 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -24512,11 +23101,11 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Cassava peelings are plant-based and can be used as organic manure."
-    ),
-
+        explanation:
+            "Cassava peelings are plant-based and can be used as organic manure."),
     IndependentPracticeQuestion(
-        question: "2. What is the main benefit of adding organic manure to sandy soil?",
+        question:
+            "2. What is the main benefit of adding organic manure to sandy soil?",
         options: [
           "To make the soil very salty",
           "To change the color to red",
@@ -24525,11 +23114,11 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Organic manure improves the water retention capacity of sandy soils."
-    ),
-
+        explanation:
+            "Organic manure improves the water retention capacity of sandy soils."),
     IndependentPracticeQuestion(
-        question: "3. Which type of manure involves leaving kitchen scraps in a heap to rot?",
+        question:
+            "3. Which type of manure involves leaving kitchen scraps in a heap to rot?",
         options: [
           "Farmyard manure",
           "Green manure",
@@ -24538,11 +23127,11 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Compost manure is made by decomposing organic scraps in heaps."
-    ),
-
+        explanation:
+            "Compost manure is made by decomposing organic scraps in heaps."),
     IndependentPracticeQuestion(
-        question: "4. A farmer plows fresh, growing legumes into the soil. This is called:",
+        question:
+            "4. A farmer plows fresh, growing legumes into the soil. This is called:",
         options: [
           "Green manure",
           "Animal manure",
@@ -24551,15 +23140,17 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Green manure involves plowing fresh leguminous crops into the soil to improve fertility."
-    ),
+        explanation:
+            "Green manure involves plowing fresh leguminous crops into the soil to improve fertility."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS4 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is 'litter' in the context of preparing Farmyard Manure?",
+        question:
+            "1. What is 'litter' in the context of preparing Farmyard Manure?",
         options: [
           "Plastic waste found in the pen",
           "Bedding material like straw or dry grass",
@@ -24568,11 +23159,11 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "'Litter' refers to the bedding material such as straw or dry grass used in preparing farmyard manure."
-    ),
-
+        explanation:
+            "'Litter' refers to the bedding material such as straw or dry grass used in preparing farmyard manure."),
     IndependentPracticeQuestion(
-        question: "2. Which of these is the correct order for the Pit Method of composting?",
+        question:
+            "2. Which of these is the correct order for the Pit Method of composting?",
         options: [
           "Move waste from Pit D to Pit A",
           "Keep waste in Pit A until it is finished",
@@ -24581,9 +23172,8 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "In the Pit Method, waste is moved sequentially from Pit A to B, then C, then D to ensure proper composting."
-    ),
-
+        explanation:
+            "In the Pit Method, waste is moved sequentially from Pit A to B, then C, then D to ensure proper composting."),
     IndependentPracticeQuestion(
         question: "3. Why is moisture important in a compost heap?",
         options: [
@@ -24594,11 +23184,11 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Moisture supports the activity of microorganisms which break down organic material in the compost."
-    ),
-
+        explanation:
+            "Moisture supports the activity of microorganisms which break down organic material in the compost."),
     IndependentPracticeQuestion(
-        question: "4. Which material is used as a 'cover' for a compost heap to keep heat in?",
+        question:
+            "4. Which material is used as a 'cover' for a compost heap to keep heat in?",
         options: [
           "Broad leaves or old sacks",
           "Large stones or rocks",
@@ -24607,11 +23197,12 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Broad leaves or old sacks are used to cover compost heaps to retain heat and aid decomposition."
-    ),
+        explanation:
+            "Broad leaves or old sacks are used to cover compost heaps to retain heat and aid decomposition."),
   ],
 );
-final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S3 SS4 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -24624,9 +23215,8 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Fully cured manure has a dark brown or black color, indicating decomposition is complete."
-    ),
-
+        explanation:
+            "Fully cured manure has a dark brown or black color, indicating decomposition is complete."),
     IndependentPracticeQuestion(
         question: "2. What is the main reason for 'sieving' manure before use?",
         options: [
@@ -24637,9 +23227,8 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sieving removes large un-decomposed materials, making the manure finer and easier to use."
-    ),
-
+        explanation:
+            "Sieving removes large un-decomposed materials, making the manure finer and easier to use."),
     IndependentPracticeQuestion(
         question: "3. If manure is used BEFORE it is cured, what might happen?",
         options: [
@@ -24650,29 +23239,26 @@ final IndependentPracticeModel Scijhs3s3ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Using uncured manure can burn plant roots due to high nitrogen content."
-    ),
-
+        explanation:
+            "Using uncured manure can burn plant roots due to high nitrogen content."),
     IndependentPracticeQuestion(
-        question: "4. Which sense is BEST for checking if manure has a 'forest floor' smell?",
-        options: [
-          "Sight",
-          "Touch",
-          "Taste",
-          "Smell"
-        ],
+        question:
+            "4. Which sense is BEST for checking if manure has a 'forest floor' smell?",
+        options: ["Sight", "Touch", "Taste", "Smell"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "The sense of smell helps identify the 'forest floor' odor, indicating well-decomposed manure."
-    ),
+        explanation:
+            "The sense of smell helps identify the 'forest floor' odor, indicating well-decomposed manure."),
   ],
 );
 
-final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these habits is the best way to save electricity at home?",
+        question:
+            "1. Which of these habits is the best way to save electricity at home?",
         options: [
           "Leaving the TV on while you do your homework.",
           "Ironing your school uniform every single morning.",
@@ -24681,11 +23267,11 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Switching off fans when they are not needed helps reduce electricity consumption."
-    ),
-
+        explanation:
+            "Switching off fans when they are not needed helps reduce electricity consumption."),
     IndependentPracticeQuestion(
-        question: "2. What is the benefit of using LED bulbs instead of incandescent bulbs?",
+        question:
+            "2. What is the benefit of using LED bulbs instead of incandescent bulbs?",
         options: [
           "LED bulbs use less energy to give the same light.",
           "LED bulbs are much cheaper to buy in the market.",
@@ -24694,11 +23280,11 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "LED bulbs are more energy-efficient and produce the same amount of light using less electricity."
-    ),
-
+        explanation:
+            "LED bulbs are more energy-efficient and produce the same amount of light using less electricity."),
     IndependentPracticeQuestion(
-        question: "3. To save energy while cooking on an electric stove, you should:",
+        question:
+            "3. To save energy while cooking on an electric stove, you should:",
         options: [
           "Use a pot that is much smaller than the burner.",
           "Keep the lid off so you can see the food cooking.",
@@ -24707,9 +23293,8 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Flat-bottomed pots that cover the burner transfer heat more efficiently and reduce energy waste."
-    ),
-
+        explanation:
+            "Flat-bottomed pots that cover the burner transfer heat more efficiently and reduce energy waste."),
     IndependentPracticeQuestion(
         question: "4. How does 'ironing in bulk' help a family save money?",
         options: [
@@ -24720,15 +23305,17 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Ironing many clothes at once reduces repeated heating and cooling of the iron, saving energy and money."
-    ),
+        explanation:
+            "Ironing many clothes at once reduces repeated heating and cooling of the iron, saving energy and money."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is an economic benefit of energy conservation?",
+        question:
+            "1. Which of these is an economic benefit of energy conservation?",
         options: [
           "Making the house look very dark at night.",
           "Paying less money for electricity bills.",
@@ -24737,9 +23324,8 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Energy conservation reduces electricity usage, which helps lower electricity bills."
-    ),
-
+        explanation:
+            "Energy conservation reduces electricity usage, which helps lower electricity bills."),
     IndependentPracticeQuestion(
         question: "2. How does conserving energy help to fight climate change?",
         options: [
@@ -24750,9 +23336,8 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Using less energy reduces the need for fossil fuels, which helps lower greenhouse gas emissions."
-    ),
-
+        explanation:
+            "Using less energy reduces the need for fossil fuels, which helps lower greenhouse gas emissions."),
     IndependentPracticeQuestion(
         question: "3. Sustainable energy use means using power in a way that:",
         options: [
@@ -24763,11 +23348,11 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Sustainable energy use ensures that energy resources remain available for future generations."
-    ),
-
+        explanation:
+            "Sustainable energy use ensures that energy resources remain available for future generations."),
     IndependentPracticeQuestion(
-        question: "4. Why is energy conservation important for Ghanaian hospitals?",
+        question:
+            "4. Why is energy conservation important for Ghanaian hospitals?",
         options: [
           "It helps doctors sleep better during their break.",
           "It makes the hospital walls look much cleaner.",
@@ -24776,52 +23361,34 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Reliable energy use helps ensure that essential medical equipment can operate without interruption."
-    ),
+        explanation:
+            "Reliable energy use helps ensure that essential medical equipment can operate without interruption."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. A sound system uses 0.5A of current on a 240V supply. What is its power?",
-        options: [
-          "120 Watts",
-          "240 Watts",
-          "480 Watts",
-          "0.5 Watts"
-        ],
+        question:
+            "1. A sound system uses 0.5A of current on a 240V supply. What is its power?",
+        options: ["120 Watts", "240 Watts", "480 Watts", "0.5 Watts"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Power = Voltage × Current = 240V × 0.5A = 120W."
-    ),
-
+        explanation: "Power = Voltage × Current = 240V × 0.5A = 120W."),
     IndependentPracticeQuestion(
         question: "2. How many Watts are in 4.5 Kilowatts?",
-        options: [
-          "45 Watts",
-          "450 Watts",
-          "4,500 Watts",
-          "45,000 Watts"
-        ],
+        options: ["45 Watts", "450 Watts", "4,500 Watts", "45,000 Watts"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "1 Kilowatt = 1,000 Watts, so 4.5 kW = 4,500 W."
-    ),
-
+        explanation: "1 Kilowatt = 1,000 Watts, so 4.5 kW = 4,500 W."),
     IndependentPracticeQuestion(
-        question: "3. An 800W microwave is used for 2 hours. What is the energy in kWh?",
-        options: [
-          "1,600 kWh",
-          "16.0 kWh",
-          "1.6 kWh",
-          "0.8 kWh"
-        ],
+        question:
+            "3. An 800W microwave is used for 2 hours. What is the energy in kWh?",
+        options: ["1,600 kWh", "16.0 kWh", "1.6 kWh", "0.8 kWh"],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Energy = Power (kW) × Time (h) = 0.8 × 2 = 1.6 kWh."
-    ),
-
+        explanation: "Energy = Power (kW) × Time (h) = 0.8 × 2 = 1.6 kWh."),
     IndependentPracticeQuestion(
         question: "4. Which formula is used to find Energy consumed?",
         options: [
@@ -24832,11 +23399,12 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Electrical energy consumed is calculated by multiplying power in kilowatts by time in hours."
-    ),
+        explanation:
+            "Electrical energy consumed is calculated by multiplying power in kilowatts by time in hours."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS1 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -24849,9 +23417,8 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A pinhole camera works because light travels in straight lines."
-    ),
-
+        explanation:
+            "A pinhole camera works because light travels in straight lines."),
     IndependentPracticeQuestion(
         question: "2. The image formed in a pinhole camera is always:",
         options: [
@@ -24862,11 +23429,11 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The image formed by a pinhole camera is real and inverted (upside down)."
-    ),
-
+        explanation:
+            "The image formed by a pinhole camera is real and inverted (upside down)."),
     IndependentPracticeQuestion(
-        question: "3. What happens to the image if the pinhole is made much larger?",
+        question:
+            "3. What happens to the image if the pinhole is made much larger?",
         options: [
           "It becomes much sharper.",
           "It disappears completely.",
@@ -24875,11 +23442,11 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A larger pinhole allows more light through, making the image brighter but less sharp."
-    ),
-
+        explanation:
+            "A larger pinhole allows more light through, making the image brighter but less sharp."),
     IndependentPracticeQuestion(
-        question: "4. In a pinhole camera, light from the top of an object hits:",
+        question:
+            "4. In a pinhole camera, light from the top of an object hits:",
         options: [
           "The middle of the screen.",
           "The top of the screen.",
@@ -24888,11 +23455,12 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Because light travels in straight lines, light from the top of the object reaches the bottom of the screen, creating an inverted image."
-    ),
+        explanation:
+            "Because light travels in straight lines, light from the top of the object reaches the bottom of the screen, creating an inverted image."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS1 L5/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -24905,24 +23473,18 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A shadow can only form when there is a source of light that is blocked by an object."
-    ),
-
+        explanation:
+            "A shadow can only form when there is a source of light that is blocked by an object."),
     IndependentPracticeQuestion(
         question: "2. The darkest part of a shadow is known as the:",
-        options: [
-          "Penumbra",
-          "Eclipse",
-          "Reflection",
-          "Umbra"
-        ],
+        options: ["Penumbra", "Eclipse", "Reflection", "Umbra"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "The umbra is the darkest central part of a shadow where all light is blocked."
-    ),
-
+        explanation:
+            "The umbra is the darkest central part of a shadow where all light is blocked."),
     IndependentPracticeQuestion(
-        question: "3. A \"Point Source\" of light usually produces a shadow with:",
+        question:
+            "3. A \"Point Source\" of light usually produces a shadow with:",
         options: [
           "Only a Penumbra.",
           "Only an Umbra.",
@@ -24931,11 +23493,11 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A point source of light produces a sharp shadow consisting only of an umbra."
-    ),
-
+        explanation:
+            "A point source of light produces a sharp shadow consisting only of an umbra."),
     IndependentPracticeQuestion(
-        question: "4. Why do the edges of shadows look blurry under fluorescent lights?",
+        question:
+            "4. Why do the edges of shadows look blurry under fluorescent lights?",
         options: [
           "Because of the Penumbra.",
           "Because light is bending.",
@@ -24944,15 +23506,17 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Fluorescent lights are extended light sources that create a penumbra, making shadow edges appear blurry."
-    ),
+        explanation:
+            "Fluorescent lights are extended light sources that create a penumbra, making shadow edges appear blurry."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS1 L6/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In a Solar Eclipse, what is the correct order of the celestial bodies?",
+        question:
+            "1. In a Solar Eclipse, what is the correct order of the celestial bodies?",
         options: [
           "Earth — Sun — Moon",
           "Sun — Moon — Earth",
@@ -24961,37 +23525,26 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A solar eclipse occurs when the Moon moves between the Sun and the Earth."
-    ),
-
+        explanation:
+            "A solar eclipse occurs when the Moon moves between the Sun and the Earth."),
     IndependentPracticeQuestion(
         question: "2. A Lunar Eclipse can only happen during which moon phase?",
-        options: [
-          "New Moon",
-          "Half Moon",
-          "Full Moon",
-          "Crescent Moon"
-        ],
+        options: ["New Moon", "Half Moon", "Full Moon", "Crescent Moon"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A lunar eclipse can only occur during a Full Moon when the Earth is between the Sun and the Moon."
-    ),
-
+        explanation:
+            "A lunar eclipse can only occur during a Full Moon when the Earth is between the Sun and the Moon."),
     IndependentPracticeQuestion(
-        question: "3. What colour does the moon often appear during a total lunar eclipse?",
-        options: [
-          "Bright Green",
-          "Dark Blue",
-          "Reddish-orange",
-          "Pure White"
-        ],
+        question:
+            "3. What colour does the moon often appear during a total lunar eclipse?",
+        options: ["Bright Green", "Dark Blue", "Reddish-orange", "Pure White"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "During a total lunar eclipse, the Moon often appears reddish-orange due to sunlight being filtered through Earth's atmosphere."
-    ),
-
+        explanation:
+            "During a total lunar eclipse, the Moon often appears reddish-orange due to sunlight being filtered through Earth's atmosphere."),
     IndependentPracticeQuestion(
-        question: "4. Why is it dangerous to look at a Solar Eclipse without protection?",
+        question:
+            "4. Why is it dangerous to look at a Solar Eclipse without protection?",
         options: [
           "The Moon reflects too much light.",
           "The Sun's rays can burn your retina.",
@@ -25000,11 +23553,12 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Looking directly at the Sun during a solar eclipse can permanently damage the retina and harm your eyesight."
-    ),
+        explanation:
+            "Looking directly at the Sun during a solar eclipse can permanently damage the retina and harm your eyesight."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS1 L7/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -25017,24 +23571,18 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson7IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Refraction is the bending of light as it passes from one medium to another."
-    ),
-
+        explanation:
+            "Refraction is the bending of light as it passes from one medium to another."),
     IndependentPracticeQuestion(
         question: "2. Light travels fastest in which of the following?",
-        options: [
-          "Water",
-          "Glass",
-          "Air",
-          "Diamond"
-        ],
+        options: ["Water", "Glass", "Air", "Diamond"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Light travels fastest in air compared to water, glass, and diamond."
-    ),
-
+        explanation:
+            "Light travels fastest in air compared to water, glass, and diamond."),
     IndependentPracticeQuestion(
-        question: "3. An object underwater appears to be at a different place. This is:",
+        question:
+            "3. An object underwater appears to be at a different place. This is:",
         options: [
           "Real position",
           "Inverted position",
@@ -25043,28 +23591,24 @@ final IndependentPracticeModel Scijhs3s4ss1Lesson7IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Due to refraction, objects underwater appear at an apparent position different from their real position."
-    ),
-
+        explanation:
+            "Due to refraction, objects underwater appear at an apparent position different from their real position."),
     IndependentPracticeQuestion(
         question: "4. A glass lens can focus light because of:",
-        options: [
-          "Refraction",
-          "Magnetism",
-          "Conduction",
-          "Insulation"
-        ],
+        options: ["Refraction", "Magnetism", "Conduction", "Insulation"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A lens focuses light by refracting (bending) the light rays."
-    ),
+        explanation:
+            "A lens focuses light by refracting (bending) the light rays."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which device is designed specifically to turn electrical energy into heat energy?",
+        question:
+            "1. Which device is designed specifically to turn electrical energy into heat energy?",
         options: [
           "An electric fan",
           "A radio speaker",
@@ -25073,11 +23617,11 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An electric iron is specifically designed to convert electrical energy into heat energy."
-    ),
-
+        explanation:
+            "An electric iron is specifically designed to convert electrical energy into heat energy."),
     IndependentPracticeQuestion(
-        question: "2. What happens to the current in a circuit if the resistance is increased while the voltage stays the same?",
+        question:
+            "2. What happens to the current in a circuit if the resistance is increased while the voltage stays the same?",
         options: [
           "Current increases",
           "Current decreases",
@@ -25086,11 +23630,11 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "According to Ohm's Law (I = V/R), increasing resistance while keeping voltage constant causes the current to decrease."
-    ),
-
+        explanation:
+            "According to Ohm's Law (I = V/R), increasing resistance while keeping voltage constant causes the current to decrease."),
     IndependentPracticeQuestion(
-        question: "3. In which type of circuit does electricity have multiple paths to follow?",
+        question:
+            "3. In which type of circuit does electricity have multiple paths to follow?",
         options: [
           "A series circuit",
           "A closed circuit",
@@ -25099,11 +23643,11 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A parallel circuit provides multiple paths for electric current to flow."
-    ),
-
+        explanation:
+            "A parallel circuit provides multiple paths for electric current to flow."),
     IndependentPracticeQuestion(
-        question: "4. A 6V battery is connected to a 3Ω resistor. What is the current flowing through it?",
+        question:
+            "4. A 6V battery is connected to a 3Ω resistor. What is the current flowing through it?",
         options: [
           "Two Amperes",
           "Nine Amperes",
@@ -25112,15 +23656,16 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Using Ohm's Law, I = V/R = 6V ÷ 3Ω = 2A."
-    ),
+        explanation: "Using Ohm's Law, I = V/R = 6V ÷ 3Ω = 2A."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. In which direction does a diode allow electricity to flow?",
+        question:
+            "1. In which direction does a diode allow electricity to flow?",
         options: [
           "Both directions",
           "In no direction",
@@ -25129,22 +23674,14 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A diode allows electric current to flow in only one direction."
-    ),
-
+        explanation:
+            "A diode allows electric current to flow in only one direction."),
     IndependentPracticeQuestion(
         question: "2. What is the name of the positive terminal of a diode?",
-        options: [
-          "The Cathode",
-          "The Anode",
-          "The Resistor",
-          "The Capacitor"
-        ],
+        options: ["The Cathode", "The Anode", "The Resistor", "The Capacitor"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The anode is the positive terminal of a diode."
-    ),
-
+        explanation: "The anode is the positive terminal of a diode."),
     IndependentPracticeQuestion(
         question: "3. Why do we use a resistor with an LED in a 6V circuit?",
         options: [
@@ -25155,11 +23692,11 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A resistor limits the current flowing through the LED and protects it from damage."
-    ),
-
+        explanation:
+            "A resistor limits the current flowing through the LED and protects it from damage."),
     IndependentPracticeQuestion(
-        question: "4. Which material is used to make electronic components like diodes?",
+        question:
+            "4. Which material is used to make electronic components like diodes?",
         options: [
           "Semi-conductor",
           "Pure insulator",
@@ -25168,11 +23705,11 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Diodes and many electronic components are made from semiconductor materials such as silicon."
-    ),
-
+        explanation:
+            "Diodes and many electronic components are made from semiconductor materials such as silicon."),
     IndependentPracticeQuestion(
-        question: "5. What happens to a capacitor when it is connected to a power source?",
+        question:
+            "5. What happens to a capacitor when it is connected to a power source?",
         options: [
           "It burns up",
           "It stores charge",
@@ -25181,15 +23718,17 @@ final IndependentPracticeModel Scijhs3s4ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A capacitor stores electrical charge when connected to a power source."
-    ),
+        explanation:
+            "A capacitor stores electrical charge when connected to a power source."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS3 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is the best definition of energy conversion?",
+        question:
+            "1. Which of these is the best definition of energy conversion?",
         options: [
           "Creating new energy from nothing",
           "Changing energy from form to form",
@@ -25198,11 +23737,11 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Energy conversion is the process of changing energy from one form to another."
-    ),
-
+        explanation:
+            "Energy conversion is the process of changing energy from one form to another."),
     IndependentPracticeQuestion(
-        question: "2. When a ceiling fan is switched on, what is the primary energy conversion?",
+        question:
+            "2. When a ceiling fan is switched on, what is the primary energy conversion?",
         options: [
           "Heat energy to kinetic energy",
           "Sound energy to light energy",
@@ -25211,11 +23750,11 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A ceiling fan converts electrical energy into mechanical energy to rotate its blades."
-    ),
-
+        explanation:
+            "A ceiling fan converts electrical energy into mechanical energy to rotate its blades."),
     IndependentPracticeQuestion(
-        question: "4. Which energy form is found in a piece of firewood before it is burnt?",
+        question:
+            "4. Which energy form is found in a piece of firewood before it is burnt?",
         options: [
           "Potential energy",
           "Chemical energy",
@@ -25224,11 +23763,11 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Firewood stores chemical energy, which is released when it burns."
-    ),
-
+        explanation:
+            "Firewood stores chemical energy, which is released when it burns."),
     IndependentPracticeQuestion(
-        question: "5. In a school bell that rings, kinetic energy is mainly converted into:",
+        question:
+            "5. In a school bell that rings, kinetic energy is mainly converted into:",
         options: [
           "Sound energy",
           "Light energy",
@@ -25237,15 +23776,17 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "The movement (kinetic energy) of the bell produces sound energy when it rings."
-    ),
+        explanation:
+            "The movement (kinetic energy) of the bell produces sound energy when it rings."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS3 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which Ghanaian household item primarily converts electrical energy into mechanical energy?",
+        question:
+            "1. Which Ghanaian household item primarily converts electrical energy into mechanical energy?",
         options: [
           "An electric iron",
           "A ceiling fan",
@@ -25254,11 +23795,11 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A ceiling fan converts electrical energy into mechanical energy by rotating its blades."
-    ),
-
+        explanation:
+            "A ceiling fan converts electrical energy into mechanical energy by rotating its blades."),
     IndependentPracticeQuestion(
-        question: "2. What is the main reason for letting hot food cool before putting it in a freezer?",
+        question:
+            "2. What is the main reason for letting hot food cool before putting it in a freezer?",
         options: [
           "To keep the food fresh",
           "To save electrical energy",
@@ -25267,11 +23808,11 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Allowing hot food to cool first reduces the workload on the freezer and helps save electrical energy."
-    ),
-
+        explanation:
+            "Allowing hot food to cool first reduces the workload on the freezer and helps save electrical energy."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is a direct application of solar energy conversion?",
+        question:
+            "3. Which of these is a direct application of solar energy conversion?",
         options: [
           "Burning charcoal for cooking",
           "Using a hand-cranked generator",
@@ -25280,9 +23821,8 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A sun-cell converts solar energy directly into electrical energy to power devices such as calculators."
-    ),
-
+        explanation:
+            "A sun-cell converts solar energy directly into electrical energy to power devices such as calculators."),
     IndependentPracticeQuestion(
         question: "4. Energy conservation is best described as:",
         options: [
@@ -25293,11 +23833,11 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Energy conservation means using energy efficiently and reducing unnecessary waste."
-    ),
-
+        explanation:
+            "Energy conservation means using energy efficiently and reducing unnecessary waste."),
     IndependentPracticeQuestion(
-        question: "5. When a television is on, which two forms of energy are being produced from electricity?",
+        question:
+            "5. When a television is on, which two forms of energy are being produced from electricity?",
         options: [
           "Sound and Light",
           "Heat and Chemical",
@@ -25306,28 +23846,24 @@ final IndependentPracticeModel Scijhs3s4ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A television converts electrical energy mainly into light and sound energy."
-    ),
+        explanation:
+            "A television converts electrical energy mainly into light and sound energy."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS4 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following is the standard unit for measuring pressure?",
-        options: [
-          "Newton",
-          "Pascal",
-          "Metre",
-          "Joule"
-        ],
+        question:
+            "1. Which of the following is the standard unit for measuring pressure?",
+        options: ["Newton", "Pascal", "Metre", "Joule"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The standard SI unit of pressure is the Pascal (Pa)."
-    ),
-
+        explanation: "The standard SI unit of pressure is the Pascal (Pa)."),
     IndependentPracticeQuestion(
-        question: "2. What happens to pressure if the area is doubled while the force remains the same?",
+        question:
+            "2. What happens to pressure if the area is doubled while the force remains the same?",
         options: [
           "It stays same",
           "It is doubled",
@@ -25336,24 +23872,19 @@ final IndependentPracticeModel Scijhs3s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Pressure = Force ÷ Area. If the area doubles and the force remains the same, the pressure is halved."
-    ),
-
+        explanation:
+            "Pressure = Force ÷ Area. If the area doubles and the force remains the same, the pressure is halved."),
     IndependentPracticeQuestion(
-        question: "3. Which tool is used specifically to measure atmospheric pressure?",
-        options: [
-          "Thermometer",
-          "Hygrometer",
-          "Barometer",
-          "Voltmeter"
-        ],
+        question:
+            "3. Which tool is used specifically to measure atmospheric pressure?",
+        options: ["Thermometer", "Hygrometer", "Barometer", "Voltmeter"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "A barometer is an instrument used to measure atmospheric pressure."
-    ),
-
+        explanation:
+            "A barometer is an instrument used to measure atmospheric pressure."),
     IndependentPracticeQuestion(
-        question: "4. Why do camels have wide feet to help them walk in the desert?",
+        question:
+            "4. Why do camels have wide feet to help them walk in the desert?",
         options: [
           "To run faster",
           "To look bigger",
@@ -25362,15 +23893,17 @@ final IndependentPracticeModel Scijhs3s4ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Wide feet spread the camel's weight over a larger area, reducing pressure on the sand."
-    ),
+        explanation:
+            "Wide feet spread the camel's weight over a larger area, reducing pressure on the sand."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS4 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. According to Newton’s Third Law, forces always act in ______.",
+        question:
+            "1. According to Newton’s Third Law, forces always act in ______.",
         options: [
           "Groups of three",
           "Single units",
@@ -25379,24 +23912,19 @@ final IndependentPracticeModel Scijhs3s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Newton’s Third Law states that forces always occur in action-reaction pairs."
-    ),
-
+        explanation:
+            "Newton’s Third Law states that forces always occur in action-reaction pairs."),
     IndependentPracticeQuestion(
-        question: "2. If a 500 N girl pushes a wall with 50 N, how much force does the wall exert back?",
-        options: [
-          "0 N",
-          "50 N",
-          "450 N",
-          "500 N"
-        ],
+        question:
+            "2. If a 500 N girl pushes a wall with 50 N, how much force does the wall exert back?",
+        options: ["0 N", "50 N", "450 N", "500 N"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "According to Newton’s Third Law, the wall exerts an equal and opposite force of 50 N."
-    ),
-
+        explanation:
+            "According to Newton’s Third Law, the wall exerts an equal and opposite force of 50 N."),
     IndependentPracticeQuestion(
-        question: "3. In which direction does the reaction force act compared to the action force?",
+        question:
+            "3. In which direction does the reaction force act compared to the action force?",
         options: [
           "Same direction",
           "Upward only",
@@ -25405,52 +23933,35 @@ final IndependentPracticeModel Scijhs3s4ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Action and reaction forces are equal in magnitude and act in opposite directions."
-    ),
-
+        explanation:
+            "Action and reaction forces are equal in magnitude and act in opposite directions."),
     IndependentPracticeQuestion(
         question: "4. A bird flies by pushing its wings against the ______.",
-        options: [
-          "Trees",
-          "Ground",
-          "Water",
-          "Air"
-        ],
+        options: ["Trees", "Ground", "Water", "Air"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "A bird pushes air downward with its wings, and the air pushes the bird upward."
-    ),
+        explanation:
+            "A bird pushes air downward with its wings, and the air pushes the bird upward."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss4Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS4 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the force required to move a 2 kg book at an acceleration of 5 m/s²?",
-        options: [
-          "2 N",
-          "5 N",
-          "7 N",
-          "10 N"
-        ],
+        question:
+            "1. What is the force required to move a 2 kg book at an acceleration of 5 m/s²?",
+        options: ["2 N", "5 N", "7 N", "10 N"],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "Using F = ma, Force = 2 kg × 5 m/s² = 10 N."
-    ),
-
+        explanation: "Using F = ma, Force = 2 kg × 5 m/s² = 10 N."),
     IndependentPracticeQuestion(
-        question: "2. If a force of 50 N is applied to a mass of 10 kg, what is the acceleration?",
-        options: [
-          "5 m/s²",
-          "10 m/s²",
-          "40 m/s²",
-          "500 m/s²"
-        ],
+        question:
+            "2. If a force of 50 N is applied to a mass of 10 kg, what is the acceleration?",
+        options: ["5 m/s²", "10 m/s²", "40 m/s²", "500 m/s²"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "Using a = F/m, Acceleration = 50 N ÷ 10 kg = 5 m/s²."
-    ),
-
+        explanation: "Using a = F/m, Acceleration = 50 N ÷ 10 kg = 5 m/s²."),
     IndependentPracticeQuestion(
         question: "3. Momentum is the product of which two quantities?",
         options: [
@@ -25461,41 +23972,31 @@ final IndependentPracticeModel Scijhs3s4ss4Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Momentum is calculated as mass × velocity."
-    ),
-
+        explanation: "Momentum is calculated as mass × velocity."),
     IndependentPracticeQuestion(
-        question: "4. Which unit is used to measure mass in the F = ma formula?",
-        options: [
-          "Grams",
-          "Newtons",
-          "Kilograms",
-          "Litres"
-        ],
+        question:
+            "4. Which unit is used to measure mass in the F = ma formula?",
+        options: ["Grams", "Newtons", "Kilograms", "Litres"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "In the SI system, mass is measured in kilograms (kg)."
-    ),
+        explanation: "In the SI system, mass is measured in kilograms (kg)."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss5Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS5 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a common material used for the handles of Ghanaian farm tools?",
-        options: [
-          "Glass",
-          "Wood",
-          "Paper",
-          "Fabric"
-        ],
+        question:
+            "1. Which of these is a common material used for the handles of Ghanaian farm tools?",
+        options: ["Glass", "Wood", "Paper", "Fabric"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Wood is commonly used for farm tool handles because it is strong, durable, and comfortable to hold."
-    ),
-
+        explanation:
+            "Wood is commonly used for farm tool handles because it is strong, durable, and comfortable to hold."),
     IndependentPracticeQuestion(
-        question: "2. What is the main reason metal is used for the blade of a cutlass?",
+        question:
+            "2. What is the main reason metal is used for the blade of a cutlass?",
         options: [
           "It is very light",
           "It can stay sharp",
@@ -25504,11 +24005,11 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Metal is used for cutlass blades because it can be sharpened and retain a sharp cutting edge."
-    ),
-
+        explanation:
+            "Metal is used for cutlass blades because it can be sharpened and retain a sharp cutting edge."),
     IndependentPracticeQuestion(
-        question: "3. How is a metal tang usually secured inside a wooden tool handle?",
+        question:
+            "3. How is a metal tang usually secured inside a wooden tool handle?",
         options: [
           "Using thin glue",
           "Using metal pins",
@@ -25517,11 +24018,11 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Metal pins are commonly used to secure the tang firmly inside a wooden handle."
-    ),
-
+        explanation:
+            "Metal pins are commonly used to secure the tang firmly inside a wooden handle."),
     IndependentPracticeQuestion(
-        question: "4. Which tool is most likely to be made entirely of plastic or rubber?",
+        question:
+            "4. Which tool is most likely to be made entirely of plastic or rubber?",
         options: [
           "Digging spade",
           "Garden rake",
@@ -25530,28 +24031,25 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Watering cans are often made entirely from plastic because they are lightweight and resistant to water damage."
-    ),
-
+        explanation:
+            "Watering cans are often made entirely from plastic because they are lightweight and resistant to water damage."),
     IndependentPracticeQuestion(
-        question: "5. A local blacksmith uses scrap metal to make a hoe. This metal is used for the:",
-        options: [
-          "Long handle",
-          "Tool's head",
-          "Grip area",
-          "Pivot point"
-        ],
+        question:
+            "5. A local blacksmith uses scrap metal to make a hoe. This metal is used for the:",
+        options: ["Long handle", "Tool's head", "Grip area", "Pivot point"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The metal is used to make the hoe's head, which performs the digging and cutting work."
-    ),
+        explanation:
+            "The metal is used to make the hoe's head, which performs the digging and cutting work."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss5Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS5 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the very first step in making a simple agricultural tool?",
+        question:
+            "1. What is the very first step in making a simple agricultural tool?",
         options: [
           "Sharpening the edge",
           "Designing the tool",
@@ -25560,24 +24058,19 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The first step in making any tool is designing it before manufacturing begins."
-    ),
-
+        explanation:
+            "The first step in making any tool is designing it before manufacturing begins."),
     IndependentPracticeQuestion(
-        question: "2. Which activity involves using heat to make metal easier to bend and shape?",
-        options: [
-          "Finishing",
-          "Designing",
-          "Forging",
-          "Riveting"
-        ],
+        question:
+            "2. Which activity involves using heat to make metal easier to bend and shape?",
+        options: ["Finishing", "Designing", "Forging", "Riveting"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Forging uses heat to soften metal so it can be shaped into the desired form."
-    ),
-
+        explanation:
+            "Forging uses heat to soften metal so it can be shaped into the desired form."),
     IndependentPracticeQuestion(
-        question: "3. Which of these is a safety precaution specifically for protecting your eyes?",
+        question:
+            "3. Which of these is a safety precaution specifically for protecting your eyes?",
         options: [
           "Wearing gloves",
           "Wearing goggles",
@@ -25586,11 +24079,11 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Safety goggles protect the eyes from sparks, dust, and flying particles."
-    ),
-
+        explanation:
+            "Safety goggles protect the eyes from sparks, dust, and flying particles."),
     IndependentPracticeQuestion(
-        question: "4. When a craftsman cannot find the right type of metal and must use a weaker one, this is a:",
+        question:
+            "4. When a craftsman cannot find the right type of metal and must use a weaker one, this is a:",
         options: [
           "Safety rule",
           "Design choice",
@@ -25599,41 +24092,33 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "A manufacturing constraint is a limitation that affects how a product can be made."
-    ),
+        explanation:
+            "A manufacturing constraint is a limitation that affects how a product can be made."),
   ],
 );
-final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S4 SS5 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which part of the hand trowel is pushed into the wooden handle to connect them?",
-        options: [
-          "The socket",
-          "The tang",
-          "The rivet",
-          "The blade"
-        ],
+        question:
+            "1. Which part of the hand trowel is pushed into the wooden handle to connect them?",
+        options: ["The socket", "The tang", "The rivet", "The blade"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The tang is the metal extension that fits into the wooden handle to connect the parts."
-    ),
-
+        explanation:
+            "The tang is the metal extension that fits into the wooden handle to connect the parts."),
     IndependentPracticeQuestion(
-        question: "2. What tool is used to give a hand trowel blade its curved shape?",
-        options: [
-          "A large saw",
-          "A hammer",
-          "A paint brush",
-          "A wooden wedge"
-        ],
+        question:
+            "2. What tool is used to give a hand trowel blade its curved shape?",
+        options: ["A large saw", "A hammer", "A paint brush", "A wooden wedge"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "A hammer is used during shaping and forging to form the curved blade of a hand trowel."
-    ),
-
+        explanation:
+            "A hammer is used during shaping and forging to form the curved blade of a hand trowel."),
     IndependentPracticeQuestion(
-        question: "3. During hoe manufacturing, what is the \"anvil\" used for?",
+        question:
+            "3. During hoe manufacturing, what is the \"anvil\" used for?",
         options: [
           "Heating the iron",
           "Painting the tool",
@@ -25642,22 +24127,16 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "An anvil provides a hard surface on which heated metal is hammered into shape."
-    ),
-
+        explanation:
+            "An anvil provides a hard surface on which heated metal is hammered into shape."),
     IndependentPracticeQuestion(
-        question: "4. What is the final step before a tool is considered \"ready for the farm\"?",
-        options: [
-          "Designing",
-          "Cutting",
-          "Testing",
-          "Forging"
-        ],
+        question:
+            "4. What is the final step before a tool is considered \"ready for the farm\"?",
+        options: ["Designing", "Cutting", "Testing", "Forging"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "Testing ensures the tool is safe, strong, and ready for use before it is distributed."
-    ),
-
+        explanation:
+            "Testing ensures the tool is safe, strong, and ready for use before it is distributed."),
     IndependentPracticeQuestion(
         question: "5. In the assembly of a hoe, where does the handle go?",
         options: [
@@ -25668,16 +24147,18 @@ final IndependentPracticeModel Scijhs3s4ss5Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "The wooden handle is inserted into the socket of the hoe head during assembly."
-    ),
+        explanation:
+            "The wooden handle is inserted into the socket of the hoe head during assembly."),
   ],
 );
 
-final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS1 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the following items is best suited for the composting process?",
+        question:
+            "1. Which of the following items is best suited for the composting process?",
         options: [
           "Empty tin of milk",
           "Scraps of yam peels",
@@ -25686,9 +24167,7 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. What is the primary goal of the recycling process?",
         options: [
@@ -25699,11 +24178,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. In the process of composting, what causes the organic matter to break down?",
+        question:
+            "3. In the process of composting, what causes the organic matter to break down?",
         options: [
           "High-pressure machines",
           "Industrial melting heat",
@@ -25712,11 +24190,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "4. Which material is considered 'inorganic' and should be sent for recycling rather than composting?",
+        question:
+            "4. Which material is considered 'inorganic' and should be sent for recycling rather than composting?",
         options: [
           "Dried plantain leaves",
           "Rotten mango fruits",
@@ -25725,15 +24202,16 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
+        explanation: "D"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS1 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which principle is most essential for the success of a compost pit?",
+        question:
+            "1. Which principle is most essential for the success of a compost pit?",
         options: [
           "High-pressure compression",
           "Biological decomposition",
@@ -25742,11 +24220,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. In incineration, what is the main result of applying high thermal energy to waste?",
+        question:
+            "2. In incineration, what is the main result of applying high thermal energy to waste?",
         options: [
           "It turns into new plastic",
           "It increases in total weight",
@@ -25755,11 +24232,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. Recycling glass depends on the ability of the material to undergo:",
+        question:
+            "3. Recycling glass depends on the ability of the material to undergo:",
         options: [
           "A change in physical state",
           "Permanent evaporation",
@@ -25768,11 +24244,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "4. Which of these is a 'worker' in the biological process of waste management?",
+        question:
+            "4. Which of these is a 'worker' in the biological process of waste management?",
         options: [
           "Industrial incinerator",
           "Sorting machine",
@@ -25781,15 +24256,16 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
+        explanation: "C"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS1 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these activities is a primary part of conducting a waste audit?",
+        question:
+            "1. Which of these activities is a primary part of conducting a waste audit?",
         options: [
           "Burning all waste to see the smoke",
           "Sorting waste into different categories",
@@ -25798,11 +24274,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. If a waste management system is described as 'efficient,' it means that:",
+        question:
+            "2. If a waste management system is described as 'efficient,' it means that:",
         options: [
           "The bins are always broken",
           "People ignore the waste rules",
@@ -25811,11 +24286,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. What is the main purpose of 'Sorting' during a waste audit?",
+        question:
+            "3. What is the main purpose of 'Sorting' during a waste audit?",
         options: [
           "To make the rubbish look beautiful",
           "To identify the types of materials produced",
@@ -25824,11 +24298,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. A challenge to waste management effectiveness in many Ghanaian communities is:",
+        question:
+            "4. A challenge to waste management effectiveness in many Ghanaian communities is:",
         options: [
           "Having too many recycling factories",
           "Lack of transport to move collected waste",
@@ -25837,28 +24310,23 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS1 L4/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the scientific term for liquid chemicals draining from a waste pile into the ground?",
-        options: [
-          "Melting",
-          "Leaching",
-          "Evaporating",
-          "Composting"
-        ],
+        question:
+            "1. What is the scientific term for liquid chemicals draining from a waste pile into the ground?",
+        options: ["Melting", "Leaching", "Evaporating", "Composting"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. How does waste in gutters contribute to flooding during the rainy season in Ghana?",
+        question:
+            "2. How does waste in gutters contribute to flooding during the rainy season in Ghana?",
         options: [
           "It makes the water flow faster",
           "It chokes the drains and blocks water",
@@ -25867,24 +24335,17 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Which gas is released by rotting waste in landfills that contributes to global warming?",
-        options: [
-          "Oxygen",
-          "Methane",
-          "Nitrogen",
-          "Helium"
-        ],
+        question:
+            "3. Which gas is released by rotting waste in landfills that contributes to global warming?",
+        options: ["Oxygen", "Methane", "Nitrogen", "Helium"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Open burning of municipal solid waste is harmful primarily because it:",
+        question:
+            "4. Open burning of municipal solid waste is harmful primarily because it:",
         options: [
           "Makes the ground too cold",
           "Releases toxic fumes into the air",
@@ -25893,39 +24354,27 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson4IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS1 L5/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of the 3Rs is being practiced when a shoemaker uses old car tyres to make the soles of sandals?",
-        options: [
-          "Reducing",
-          "Reusing",
-          "Rejecting",
-          "Rotting"
-        ],
+        question:
+            "1. Which of the 3Rs is being practiced when a shoemaker uses old car tyres to make the soles of sandals?",
+        options: ["Reducing", "Reusing", "Rejecting", "Rotting"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is the primary product of 'Anaerobic Digestion' that can be used as fuel?",
-        options: [
-          "Liquid plastic",
-          "Biogas",
-          "Solar energy",
-          "Metal scrap"
-        ],
+        question:
+            "2. What is the primary product of 'Anaerobic Digestion' that can be used as fuel?",
+        options: ["Liquid plastic", "Biogas", "Solar energy", "Metal scrap"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Sustainable development means managing waste so that:",
         options: [
@@ -25936,11 +24385,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Which innovative process uses extremely high heat to turn waste into a gas called 'syngas'?",
+        question:
+            "4. Which innovative process uses extremely high heat to turn waste into a gas called 'syngas'?",
         options: [
           "Composting",
           "Plasma Gasification",
@@ -25949,15 +24397,16 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson5IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS1 L6/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Old computers, broken televisions, and used charging cables are all examples of:",
+        question:
+            "1. Old computers, broken televisions, and used charging cables are all examples of:",
         options: [
           "Organic Waste",
           "Electronic Waste",
@@ -25966,11 +24415,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is a major 'Positive' in Ghana's current waste management system?",
+        question:
+            "2. What is a major 'Positive' in Ghana's current waste management system?",
         options: [
           "Everyone throws trash in gutters",
           "Private companies helping with collection",
@@ -25979,11 +24427,10 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Why is 'sorting waste at home' currently a challenge in many Ghanaian households?",
+        question:
+            "3. Why is 'sorting waste at home' currently a challenge in many Ghanaian households?",
         options: [
           "There is too much space for bins",
           "Most people use a single bin for everything",
@@ -25992,41 +24439,29 @@ final IndependentPracticeModel Scijhs3s5ss1Lesson6IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Which category of waste includes food scraps and household packaging?",
-        options: [
-          "Industrial",
-          "Municipal/Domestic",
-          "Medical",
-          "Electronic"
-        ],
+        question:
+            "4. Which category of waste includes food scraps and household packaging?",
+        options: ["Industrial", "Municipal/Domestic", "Medical", "Electronic"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS2 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
         question: "1. Which of the following is a non-communicable disease?",
-        options: [
-          "Measles",
-          "Diabetes",
-          "Influenza",
-          "Chickenpox"
-        ],
+        options: ["Measles", "Diabetes", "Influenza", "Chickenpox"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is a common risk factor for developing hypertension?",
+        question:
+            "2. What is a common risk factor for developing hypertension?",
         options: [
           "Eating too much salt",
           "Drinking clean water",
@@ -26035,11 +24470,10 @@ final IndependentPracticeModel Scijhs3s5ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. Which symptom is specifically associated with diabetes mellitus?",
+        question:
+            "3. Which symptom is specifically associated with diabetes mellitus?",
         options: [
           "A red, itchy skin rash",
           "Frequent night urination",
@@ -26048,15 +24482,16 @@ final IndependentPracticeModel Scijhs3s5ss2Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS2 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. According to the WHO, health is a state of complete physical, mental, and...",
+        question:
+            "1. According to the WHO, health is a state of complete physical, mental, and...",
         options: [
           "Financial wealth",
           "Social well-being",
@@ -26065,24 +24500,17 @@ final IndependentPracticeModel Scijhs3s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Which of these is a common environmental disease in Ghana spread by mosquitoes?",
-        options: [
-          "Malaria",
-          "Tuberculosis",
-          "Hypertension",
-          "Diabetes"
-        ],
+        question:
+            "2. Which of these is a common environmental disease in Ghana spread by mosquitoes?",
+        options: ["Malaria", "Tuberculosis", "Hypertension", "Diabetes"],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "3. What is the most effective way to prevent the spread of Cholera?",
+        question:
+            "3. What is the most effective way to prevent the spread of Cholera?",
         options: [
           "Wearing a heavy jacket",
           "Drinking treated water",
@@ -26091,15 +24519,16 @@ final IndependentPracticeModel Scijhs3s5ss2Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS2 L3/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the main cause of the infection known as Ringworm?",
+        question:
+            "1. What is the main cause of the infection known as Ringworm?",
         options: [
           "A small parasite worm",
           "A type of fungus",
@@ -26108,9 +24537,7 @@ final IndependentPracticeModel Scijhs3s5ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Where is Candidiasis most likely to cause white patches?",
         options: [
@@ -26121,9 +24548,7 @@ final IndependentPracticeModel Scijhs3s5ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "3. Which habit best prevents fungal infections of the feet?",
         options: [
@@ -26134,15 +24559,16 @@ final IndependentPracticeModel Scijhs3s5ss2Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS3 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which process is used in the dairy industry to kill harmful bacteria in milk?",
+        question:
+            "1. Which process is used in the dairy industry to kill harmful bacteria in milk?",
         options: [
           "Fermentation",
           "Pasteurisation",
@@ -26151,22 +24577,14 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What gas is produced by yeast during the process of fermentation in bread making?",
-        options: [
-          "Oxygen",
-          "Nitrogen",
-          "Carbon dioxide",
-          "Hydrogen"
-        ],
+        question:
+            "2. What gas is produced by yeast during the process of fermentation in bread making?",
+        options: ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "3. Which industry produces hoes, cutlasses, and coalpots?",
         options: [
@@ -26177,11 +24595,10 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
-        question: "4. The process of turning liquid sea water into solid salt crystals using the sun is called:",
+        question:
+            "4. The process of turning liquid sea water into solid salt crystals using the sun is called:",
         options: [
           "Homogenisation",
           "Fermentation",
@@ -26190,15 +24607,16 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
+        explanation: "D"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS3 L2/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is the best definition of an \"Industry\"?",
+        question:
+            "1. Which of these is the best definition of an \"Industry\"?",
         options: [
           "A single shop in the market",
           "A group of firms making one product",
@@ -26207,9 +24625,7 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
         question: "2. Indigenous industries in Ghana usually rely on:",
         options: [
@@ -26220,9 +24636,7 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
         question: "3. Which of the following is a modern industry in Ghana?",
         options: [
@@ -26233,11 +24647,10 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. The main reason modern industries can produce more goods than indigenous ones is:",
+        question:
+            "4. The main reason modern industries can produce more goods than indigenous ones is:",
         options: [
           "They have more workers",
           "They use faster machines",
@@ -26246,15 +24659,16 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS3 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which process gives Kenkey its characteristic sour taste?",
+        question:
+            "1. Which process gives Kenkey its characteristic sour taste?",
         options: [
           "Saponification",
           "Distillation",
@@ -26263,11 +24677,10 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. What is the purpose of roasting the Gari over a fire at the end of production?",
+        question:
+            "2. What is the purpose of roasting the Gari over a fire at the end of production?",
         options: [
           "To make it turn green",
           "To add more water to it",
@@ -26276,11 +24689,10 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "3. In \"Alata Samina\" production, what provides the alkali needed for the reaction?",
+        question:
+            "3. In \"Alata Samina\" production, what provides the alkali needed for the reaction?",
         options: [
           "Clear river water",
           "Burnt cocoa pod or wood ash",
@@ -26289,24 +24701,18 @@ final IndependentPracticeModel Scijhs3s5ss3Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Which process is used to separate alcohol from a fermented mixture based on boiling points?",
-        options: [
-          "Saponification",
-          "Distillation",
-          "Filtration",
-          "Milling"
-        ],
+        question:
+            "4. Which process is used to separate alcohol from a fermented mixture based on boiling points?",
+        options: ["Saponification", "Distillation", "Filtration", "Milling"],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS4 L1/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -26319,11 +24725,10 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is the main greenhouse gas released by burning petrol?",
+        question:
+            "2. What is the main greenhouse gas released by burning petrol?",
         options: [
           "Carbon dioxide",
           "Pure oxygen",
@@ -26332,9 +24737,7 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
-
+        explanation: "A"),
     IndependentPracticeQuestion(
         question: "3. Which action best describes a 'Green Economy'?",
         options: [
@@ -26345,9 +24748,7 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. Why are orbital changes considered natural factors?",
         options: [
@@ -26358,15 +24759,16 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS4 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which Ghanaian region is home to a major solar power plant?",
+        question:
+            "1. Which Ghanaian region is home to a major solar power plant?",
         options: [
           "Greater Accra",
           "Upper West",
@@ -26375,11 +24777,10 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is the name of the global agreement to stop the Earth from warming?",
+        question:
+            "2. What is the name of the global agreement to stop the Earth from warming?",
         options: [
           "The Ghana Deal",
           "The Paris Agreement",
@@ -26388,11 +24789,10 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Which of these is a 'best practice' used by many countries to manage waste?",
+        question:
+            "3. Which of these is a 'best practice' used by many countries to manage waste?",
         options: [
           "Burning plastic",
           "Dumping in rivers",
@@ -26401,9 +24801,7 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
         question: "4. Why do countries compare their climate data?",
         options: [
@@ -26414,15 +24812,16 @@ final IndependentPracticeModel Scijhs3s5ss4Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS5 L1/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which of these is a common agricultural use for dried plant leaves?",
+        question:
+            "1. Which of these is a common agricultural use for dried plant leaves?",
         options: [
           "Making metal hoes",
           "Building tractor engines",
@@ -26431,11 +24830,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "C"
-    ),
-
+        explanation: "C"),
     IndependentPracticeQuestion(
-        question: "2. What is the main agricultural benefit of 'nitrogen-fixing' roots found in beans?",
+        question:
+            "2. What is the main agricultural benefit of 'nitrogen-fixing' roots found in beans?",
         options: [
           "They make the soil wetter",
           "They improve soil fertility",
@@ -26444,11 +24842,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. A farmer uses the stem of a sugarcane plant to grow another sugarcane plant. This is called:",
+        question:
+            "3. A farmer uses the stem of a sugarcane plant to grow another sugarcane plant. This is called:",
         options: [
           "Soil erosion",
           "Pest control",
@@ -26457,11 +24854,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 3,
         difficulty: "Easy",
-        explanation: "D"
-    ),
-
+        explanation: "D"),
     IndependentPracticeQuestion(
-        question: "4. Which tree stem is commonly used in Ghana for making sturdy tool handles?",
+        question:
+            "4. Which tree stem is commonly used in Ghana for making sturdy tool handles?",
         options: [
           "Rose flower",
           "Wawa or Mahogany",
@@ -26470,15 +24866,16 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson1IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS5 L2/7. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. Which plant part is most commonly woven to create flexible chairs and baskets?",
+        question:
+            "1. Which plant part is most commonly woven to create flexible chairs and baskets?",
         options: [
           "Soft flower petals",
           "Rattan stems",
@@ -26487,11 +24884,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. What is a major non-agricultural use of plant roots in many Ghanaian communities?",
+        question:
+            "2. What is a major non-agricultural use of plant roots in many Ghanaian communities?",
         options: [
           "Making tractor fuel",
           "Traditional herbal medicine",
@@ -26500,11 +24896,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. In Ghana, why might a food vendor use large green leaves to wrap Waakye?",
+        question:
+            "3. In Ghana, why might a food vendor use large green leaves to wrap Waakye?",
         options: [
           "To make the food taste like meat",
           "To provide natural packaging",
@@ -26513,11 +24908,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. Bamboo is often used in construction because its stem is:",
+        question:
+            "4. Bamboo is often used in construction because its stem is:",
         options: [
           "Soft and easy to eat",
           "Strong and durable",
@@ -26526,15 +24920,16 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson2IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
+        explanation: "B"),
   ],
 );
-final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/science/JHS3 S5 SS5 L3/6. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
-        question: "1. What is the first step in making a wooden handle for a farm tool?",
+        question:
+            "1. What is the first step in making a wooden handle for a farm tool?",
         options: [
           "Painting it bright red",
           "Selecting a straight branch",
@@ -26543,11 +24938,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "2. Why should rattan stems be soaked in water before weaving a basket?",
+        question:
+            "2. Why should rattan stems be soaked in water before weaving a basket?",
         options: [
           "To make them change colour",
           "To make them flexible",
@@ -26556,11 +24950,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "3. Which of these is the most important factor when sun-drying grass for hay?",
+        question:
+            "3. Which of these is the most important factor when sun-drying grass for hay?",
         options: [
           "Keeping the grass in the shade",
           "Turning the grass regularly",
@@ -26569,11 +24962,10 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "B"
-    ),
-
+        explanation: "B"),
     IndependentPracticeQuestion(
-        question: "4. To create a bouquet that lasts, how should you cut the flower stems?",
+        question:
+            "4. To create a bouquet that lasts, how should you cut the flower stems?",
         options: [
           "At a slanted angle",
           "Using only your hands",
@@ -26582,13 +24974,13 @@ final IndependentPracticeModel Scijhs3s5ss5Lesson3IndependentQuizData = Independ
         ],
         correctIndex: 0,
         difficulty: "Easy",
-        explanation: "A"
-    ),
+        explanation: "A"),
   ],
 );
 
 ///Math
-final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel MATHjhs1s1ss1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/math/1. JHS1 S1 SS1/4. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(
@@ -26935,7 +25327,8 @@ final IndependentPracticeModel MATHjhs1s3ss1IndependentQuizData =
         explanation: "A compass is used to draw arcs in constructions."),
   ],
 );
-final IndependentPracticeModel MATHjhs1s3ss2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel MATHjhs1s3ss2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath: 'assets/audio/math/2. JHS1 S3 SS2/4. Independent Practice.m4a',
   questions: [
     IndependentPracticeQuestion(

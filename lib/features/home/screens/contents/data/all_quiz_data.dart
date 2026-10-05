@@ -130,6 +130,1019 @@ final QuizModel defaultQuizData = QuizModel(
     ),
   ],
 );
+
+final QuizModel computingJhs1S1Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which generation of computers introduced the microprocessor to the world?",
+      options: [
+        "Fourth generation",
+        "Third generation",
+        "Second generation",
+        "First generation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fourth-generation computing began with the integration of processors onto microchips.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What raw material is primarily used to manufacture microchips?",
+      options: ["Copper", "Silicon", "Silver", "Carbon"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Silicon is the semiconductor material used to produce microchips and integrated circuits.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which unit within the Central Processing Unit carries out basic arithmetic operations such as addition and division?",
+      options: [
+        "System bus",
+        "Flash chip",
+        "Control unit",
+        "Arithmetic logic unit",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Arithmetic and Logic Unit performs mathematical operations and logical evaluations.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How did Very Large-Scale Integration affect the physical footprint of computer systems?",
+      options: [
+        "Made computers much smaller",
+        "Made computers heavier to move",
+        "Required entire rooms for setup",
+        "Prevented computers from networking",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Packing millions of transistors onto tiny microchips allowed computers to become small desktop and portable devices.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In what year did Intel release the first commercial microprocessor?",
+      options: ["1985", "1965", "1971", "1990"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Intel 4004 microprocessor was introduced in the year 1971.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which part of the CPU directs electronic traffic and manages instruction execution across hardware?",
+      options: [
+        "Random Access Memory",
+        "Read Only Memory",
+        "The Control Unit",
+        "The Graphics Card",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Control Unit interprets instructions and directs the coordination of all computer subsystems.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What primary advantage did fourth-generation personal computers offer over earlier systems?",
+      options: [
+        "Greater heat output",
+        "Higher operating cost",
+        "Need for large teams",
+        "Higher speed and lower price",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Fourth-generation systems are significantly faster, more accurate, and much less costly to produce and purchase.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is the microprocessor often referred to as the brain of the computer system?",
+      options: [
+        "It stores paper documents",
+        "It prints physical receipts",
+        "It delivers network power",
+        "It directs operations and data",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The microprocessor controls and executes instructions for all connected hardware components.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What operation is performed when a computer checks whether 85 is greater than 50?",
+      options: [
+        "Logical comparison",
+        "Program debugging",
+        "Arithmetic addition",
+        "Memory formatting",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Comparing two values to find if one is greater than, less than, or equal to the other is a logical operation handled by the ALU.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term describes the integration of millions of transistors onto a single microchip?",
+      options: [
+        "Discrete Component Wiring",
+        "Very Large-Scale Integration",
+        "Vacuum Tube Multiplication",
+        "Magnetic Relay Automation",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "VLSI stands for Very Large-Scale Integration, which allows millions of components to fit on one microchip.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is an example of an automatic input device?",
+      options: [
+        "Barcode scanner",
+        "Desktop mouse",
+        "QWERTY keyboard",
+        "Handheld gamepad",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A barcode scanner captures data directly without requiring individual character typing.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why are keyboards widely used despite being slower than automated scanners?",
+      options: [
+        "They produce paper copies",
+        "They allow flexible text entry",
+        "They never break down",
+        "They require no electricity",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Keyboards provide complete flexibility to enter any combination of words, numbers, and symbols.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which device is designed specifically to capture video game directional commands and player motions?",
+      options: [
+        "Thermal printer",
+        "Flatbed scanner",
+        "Barcode reader",
+        "Game controller",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gamepads and joysticks are specialized manual input devices for controlling video games.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What technology reads the special magnetic numbers printed at the bottom of banking cheques?",
+      options: [
+        "Magnetic Ink Character Reader",
+        "Optical Mark Recognition Device",
+        "High Resolution Digital Camera",
+        "Handheld Laser Barcode Scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "MICR devices detect magnetic ink patterns on cheques to process bank transactions securely.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens when a barcode reader attempts to scan a torn or crumpled product label?",
+      options: [
+        "It guesses the price",
+        "It prints a fresh barcode",
+        "It fails to read the code",
+        "It shuts down the computer",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Automatic optical scanners cannot decode data if the physical barcode lines are obscured or torn.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which input device uses a sensitive pad that senses finger movement and taps on laptop computers?",
+      options: [
+        "Wireless plotter",
+        "Document feeder",
+        "Built-in touchpad",
+        "Optical character",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A touchpad is a manual pointing device built into laptops to control the cursor.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following is a primary disadvantage of manual data entry?",
+      options: [
+        "Cannot enter any numbers",
+        "Requires high-cost lasers",
+        "Damaged by dirty labels",
+        "Susceptible to human errors",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Manual typing over long periods leads to fatigue and transcription mistakes.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does an Optical Mark Reader detect answers on an objective test sheet?",
+      options: [
+        "By reading audio speech",
+        "By weighing paper sheets",
+        "By sensing heat levels",
+        "By detecting pencil marks",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "An OMR system shines light to detect the position of graphite pencil marks on paper.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the primary operational role of an input hardware device?",
+      options: [
+        "Sending data to processor",
+        "Displaying finished reports",
+        "Storing files permanently",
+        "Printing colour graphics",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Input devices capture raw instructions and data from users or items and send them to the CPU.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which hardware device is best suited for converting physical photo prints into digital image files?",
+      options: [
+        "Optical mouse",
+        "Flatbed scanner",
+        "Concept board",
+        "Barcode reader",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Flatbed photo scanners capture high-resolution digital copies of paper documents and photographs.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which type of plotter holds the drawing sheet stationary on a flat bed while mechanical pens move across it?",
+      options: [
+        "Flatbed plotter",
+        "Drum plotter",
+        "Laser scanner",
+        "Rotating unit",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In a flatbed plotter, the paper or material rests flat on a table surface while pens sketch across both axes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What primary limitation affects the built-in audio system of most pocket pico projectors?",
+      options: [
+        "Requires paper tapes",
+        "Has very low volume",
+        "Uses too much power",
+        "Cannot play any sound",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Due to their miniature pocket size, pico projectors have tiny internal speakers with limited volume output.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which output device is best suited for projecting a teacher's screen to an assembly of three hundred students?",
+      options: [
+        "Flatbed scanner",
+        "Inkjet printer",
+        "Desktop monitor",
+        "Data projector",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Multimedia data projectors are engineered to cast large, bright displays across auditoriums and classrooms.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary difference in drawing technique between a vector plotter and an ordinary paper printer?",
+      options: [
+        "Plotters draw lines",
+        "Plotters use dots",
+        "Printers use blades",
+        "Printers use knives",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Plotters move pens along mathematical paths to draw smooth continuous lines rather than spraying dot matrices.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are pico projectors considered far more energy-efficient than traditional classroom projectors?",
+      options: [
+        "They use hot lamps",
+        "They lack processors",
+        "They use LED lights",
+        "They run on fuel oil",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Pico projectors rely on low-power, cool-running Light Emitting Diodes rather than power-hungry halogen bulbs.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which group of professionals relies most heavily on graphing plotters for their day-to-day work output?",
+      options: [
+        "Hotel receptionists",
+        "Supermarket cashiers",
+        "Architects and engineers",
+        "Assembly hall cleaners",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Architects, structural engineers, and cartographers use plotters to produce high-precision plans and maps.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens to a projected image when a multimedia data projector is used in direct sunlight?",
+      options: [
+        "The colors get darker",
+        "The image will freeze",
+        "The sound gets louder",
+        "The image gets washed out",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Direct ambient light overwhelms the projector's beam, destroying image contrast and readability.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What major hardware capability allows a pico projector to operate in remote villages without an electrical connection?",
+      options: [
+        "Solar glass casing",
+        "Wind motor blades",
+        "Built-in fuel cell",
+        "Rechargeable battery",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "An internal rechargeable battery enables portable presentation use without connection to mains electricity.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following materials can be fed into flatbed plotters for direct drafting and signage cutting?",
+      options: [
+        "Cardboard and plastic",
+        "Wet cement slabs",
+        "Heavy water tanks",
+        "Liquid glass jars",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Flatbed plotters can hold rigid materials such as poster boards, acrylic, and cardboard securely on their tables.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is another common name used to refer to a multimedia data projector?",
+      options: [
+        "Photo documenter",
+        "Digital video projector",
+        "Magnetic data writer",
+        "Sound frequency mixer",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Multimedia projectors are commonly referred to as data projectors or digital video projectors.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of memory buffer temporarily stores recently read disk data to speed up drive access?",
+      options: [
+        "Disk cache",
+        "Flash BIOS",
+        "CMOS chip",
+        "Virtual swap",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Disk caching holds frequently requested data in fast memory chips to avoid mechanical read delays.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the typical storage capacity of a standard audio or data Compact Disc?",
+      options: [
+        "120 Megabytes",
+        "700 Megabytes",
+        "4.7 Gigabytes",
+        "8.5 Gigabytes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A standard commercial CD holds approximately 700 Megabytes of digital data.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which optical disc format allows data to be written once by the user and permanently prevents accidental deletion?",
+      options: [
+        "BD-RE",
+        "CD-RW",
+        "DVD-RAM",
+        "DVD-R",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Discs designated with a simple -R can be written to once, preserving data permanently without erasure.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How does a portable 2.5-inch external hard drive receive electrical power to spin its internal drive?",
+      options: [
+        "Through the USB cable",
+        "From an internal motor",
+        "From a wall plug lead",
+        "From a solar cell face",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Portable hard drives are bus-powered, drawing required electrical current directly through the host USB connection.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which rotational speed represents a typical high-performance mechanical hard drive used in enterprise servers?",
+      options: [
+        "1,200 RPM",
+        "3,600 RPM",
+        "15,000 RPM",
+        "54,000 RPM",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "High-end enterprise server drives operate at extreme rotational velocities of 10,000 to 15,000 RPM.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does a Blu-ray disc hold substantially more data than a standard DVD of the exact same physical diameter?",
+      options: [
+        "It has thicker plastic",
+        "It is made of pure gold",
+        "It uses blue-violet lasers",
+        "It spins in both ways",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Blu-ray uses a shorter wavelength blue-violet laser, which focuses on much tighter track pits than red DVD lasers.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which property describes a secondary storage device that retains all its saved data when power is disconnected?",
+      options: [
+        "Dynamic",
+        "Volatile",
+        "Virtual",
+        "Non-volatile",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Non-volatile memory devices retain stored binary data permanently regardless of whether electric power is supplied.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens to data stamped onto a CD-ROM disc during factory manufacturing?",
+      options: [
+        "It can be formatted",
+        "It can be overwritten",
+        "It can be edited later",
+        "It can only be read",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "CD-ROM stands for Compact Disc Read-Only Memory; its tracks are permanently moulded and cannot be modified.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following hard disk drive components reads and writes magnetic data across the spinning platters?",
+      options: [
+        "The read-write head",
+        "The cooling fan blade",
+        "The power cable port",
+        "The external mounting",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The electromagnetic read-write head hovers over the spinning platter surface to detect and alter magnetic charges.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term designates an optical disc format that can be erased and rewritten multiple times?",
+      options: [
+        "CD-ROM",
+        "CD-RW",
+        "DVD-R",
+        "BD-ROM",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The RW designation identifies rewritable optical media that can be recorded, erased, and re-used.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature on the modern Windows Start screen displays dynamic, real-time information such as live news or weather?",
+      options: [
+        "Live interactive tiles",
+        "Fixed system shortcuts",
+        "Static wallpaper images",
+        "Basic command consoles",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Live tiles update dynamically to present real-time information without requiring the app to be opened.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual effect occurs across open windows during temporal peeking on the Windows desktop?",
+      options: [
+        "Windows turn black",
+        "Windows turn transparent",
+        "Windows are closed",
+        "Windows get renamed",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Temporal peeking makes open windows see-through, letting the user view the desktop beneath.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which taskbar utility enables a user to search for local files, computer settings, and web results directly?",
+      options: [
+        "System battery gauge",
+        "Audio volume mixer",
+        "Virtual network tool",
+        "Windows search box",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The taskbar search box allows immediate searching across local storage, system tools, and the web.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary operational purpose of the Task View button situated on the Windows taskbar?",
+      options: [
+        "Managing virtual desktops",
+        "Adjusting display brightness",
+        "Burning files to optical disc",
+        "Formatting secondary storage",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Task View displays all running application windows and lets users organize multiple virtual workspaces.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens when you hover your mouse pointer over an active application icon located on the taskbar?",
+      options: [
+        "The program will uninstall",
+        "The screen resets to black",
+        "A preview thumbnail appears",
+        "The computer shuts down now",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hovering over an active taskbar button displays a floating miniature thumbnail of that window.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where on the Windows taskbar is the notification area (system tray) situated?",
+      options: [
+        "In the center of the bar",
+        "Behind the start button",
+        "At the extreme far right",
+        "In the top display margin",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The system tray notification area sits at the far right of the taskbar, displaying the clock and background apps.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why would a student choose to pin frequently used applications directly onto the Windows taskbar?",
+      options: [
+        "To reduce computer heat",
+        "To boost internet speed",
+        "To save battery runtime",
+        "For quick single-click launch",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Pinned applications remain permanently on the taskbar, allowing instant launching with one click.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a user permanently close a running window directly from its floating preview thumbnail?",
+      options: [
+        "By typing exit on keys",
+        "By dragging it to trash",
+        "By restarting the system",
+        "By clicking its red cross",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Each preview thumbnail includes a small close button in its upper-right corner to exit the program directly.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What key advantage does temporal peeking offer compared to manually clicking the Show Desktop button?",
+      options: [
+        "Leaves windows undisturbed",
+        "Prints current screen view",
+        "Scans system for malware",
+        "Increases processor clock",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Temporal peeking allows a temporary transparent look at the desktop without minimizing or rearranging open windows.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term defines the primary on-screen workspace that houses application shortcuts and files upon logging in?",
+      options: [
+        "The task manager",
+        "The Windows desktop",
+        "The control console",
+        "The command terminal",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The desktop is the fundamental graphical workspace displayed after logging into Windows.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of a file extension attached to the end of a filename?",
+      options: [
+        "Identifies format and app",
+        "Speeds up internet access",
+        "Cleans up temporary memory",
+        "Deletes unneeded subfolders",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "File extensions indicate the file's data type and determine which application opens it.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which character is recommended to replace blank spaces between words in professional file names?",
+      options: [
+        "Asterisk mark",
+        "Underscore line",
+        "Question symbol",
+        "Forward slash",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Underscores or hyphens should be used instead of spaces to ensure file naming consistency across operating systems.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which file extension identifies a presentation slide deck created in Microsoft PowerPoint?",
+      options: [
+        ".mp3",
+        ".txt",
+        ".avi",
+        ".pptx",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The .pptx extension denotes modern Microsoft PowerPoint presentation files.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which file permission grants a user the ability to view, alter, add, and delete files inside a folder?",
+      options: [
+        "Modify permission",
+        "Read-only control",
+        "Execute permission",
+        "System verify lock",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Modify permission allows viewing, updating, and deleting files within the specified folder.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What type of user account has full administrative authority to install programs and adjust system security?",
+      options: [
+        "Guest account",
+        "Child account",
+        "Administrator account",
+        "Standard user",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Administrator accounts possess complete authority to manage programs, hardware settings, and user privileges.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why should special characters such as slashes or question marks be avoided in filenames?",
+      options: [
+        "They consume too much memory",
+        "They drain laptop battery life",
+        "System reserved characters",
+        "They change text to numbers",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Operating systems reserve symbols like slashes and question marks for internal directory paths and commands.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following file extensions denotes a portable document format file used for digital reading?",
+      options: [
+        ".mp4",
+        ".wav",
+        ".exe",
+        ".pdf",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The .pdf extension denotes Portable Document Format files commonly used for digital textbooks and documents.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the primary operational benefit of creating a hierarchical folder structure on a computer?",
+      options: [
+        "Cools down the hard drive",
+        "Recharges computer batteries",
+        "Stops electrical power cuts",
+        "Systematic file retrieval",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Organizing files into folders and subfolders allows quick, logical searching and prevents screen clutter.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What account type is specifically designed with family safety settings and activity tracking enabled?",
+      options: [
+        "Child account",
+        "Guest account",
+        "Root account",
+        "Domain admin",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Child accounts include built-in safety controls, web filtering, and activity reports.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which standard file permission level allows running executable program applications and scripts?",
+      options: [
+        "Write only",
+        "Read and Execute",
+        "List contents",
+        "Change ownership",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Read & Execute permission allows users to view files and run application programs.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L1/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary function of a spreadsheet program in an educational setting?",
+      options: [
+        "Displaying slide shows for public speaking",
+        "Creating block-based computer animation",
+        "Organising data and calculating formulas",
+        "Playing multiplayer vocabulary challenges",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Spreadsheets are designed to hold numerical data in cells and compute values automatically using mathematical formulas.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following is a direct educational benefit of playing digital word-building games?",
+      options: [
+        "Expanding active vocabulary and spelling",
+        "Producing animated video game graphics",
+        "Connecting internet cables to hardware",
+        "Drawing three-dimensional bar charts",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Word games like Scrabble prompt students to recall, spell, and discover new words using given letter tiles.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following software applications is classified as a spreadsheet tool?",
+      options: [
+        "Keynote slides",
+        "Wordfeud mobile",
+        "Pachyderm web",
+        "Microsoft Excel",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft Excel is a standard spreadsheet program used worldwide for calculations and numerical organisation.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A JHS student wants to explain the life cycle of a flowering plant using visual slides on a projector. Which application is best?",
+      options: [
+        "Google Slides",
+        "LibreOffice Calc",
+        "Scratch editor",
+        "Classic Scrabble",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Google Slides is a presentation tool specifically built to organize text, diagrams, and media for audience viewing.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are virtual museum platforms valuable for rural schools located far from national historical sites?",
+      options: [
+        "They make physical museum trips completely illegal.",
+        "They remove historical artifacts from local palaces.",
+        "They replace classroom teachers with robot guides.",
+        "They display cultural collections via web access.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Virtual museums allow students in any location with internet access to observe, study, and research cultural artifacts remotely.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which programming tool allows students to create games by dragging and snapping code blocks together?",
+      options: [
+        "Scratch",
+        "Visme",
+        "Omeka",
+        "Prezi",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Scratch is a block-based coding environment designed to teach programming concepts visually without syntax errors.",
+    ),
+    QuizQuestion(
+      question:
+          "7. In what way does presentation software improve a student's communication skills?",
+      options: [
+        "It calculates numbers without user direction.",
+        "It structures ideas visually to engage audiences.",
+        "It checks network cables for signal latency.",
+        "It repairs damaged hard drive storage units.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Presentation slides provide organized visual aids that help speakers deliver clear, engaging, and well-structured project talks.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which pair of technology tools is correctly matched with its primary school subject area?",
+      options: [
+        "Spreadsheets in Mathematics and Scrabble in English",
+        "Virtual museums in Sports and Spreadsheets in Art",
+        "Presentation tools in Music and Scratch in Typing",
+        "Word puzzles in Science and Spreadsheets in French",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheets are used for calculations and data in Mathematics, while word-building games develop vocabulary in English Language.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a student use a spreadsheet program to manage a small school enterprise project?",
+      options: [
+        "By drawing freehand artistic portraits of buyers.",
+        "By recording voice notes for radio announcements.",
+        "By writing long descriptive stories about goods.",
+        "By tracking expenses and revenue with formulas.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheets help manage finances by tabulating costs, revenues, and profits using automated mathematical calculations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes block-based coding environments particularly useful for beginner Computing learners?",
+      options: [
+        "They eliminate syntax errors through visual blocks.",
+        "They require typing complex lines of text code.",
+        "They run only when connected to large printers.",
+        "They restrict learners to simple number tables.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Visual coding tools like Scratch use colour-coded interlocking blocks, allowing students to learn logic without typing errors.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [
@@ -1223,7 +2236,8 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/7. quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. Which of these sentences represents a pure statement of fact?",
+        question:
+            "1. Which of these sentences represents a pure statement of fact?",
         options: [
           "High school education should focus only on science.",
           "The capital city of the Greater Accra Region is Accra.",
@@ -1232,9 +2246,8 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The location of the capital is a geographic fact that can be verified."
-    ),
-
+        explanation:
+            "The location of the capital is a geographic fact that can be verified."),
     QuizQuestion(
         question: "2. An opinion is best defined as:",
         options: [
@@ -1245,11 +2258,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Opinions are subjective and express individual attitudes."
-    ),
-
+        explanation:
+            "Opinions are subjective and express individual attitudes."),
     QuizQuestion(
-        question: "3. Read this paragraph: \"The government built a new clinic in the district. This wonderful project will automatically solve every health issue we face.\" What does the word \"wonderful\" signal to the reader?",
+        question:
+            "3. Read this paragraph: \"The government built a new clinic in the district. This wonderful project will automatically solve every health issue we face.\" What does the word \"wonderful\" signal to the reader?",
         options: [
           "A neutral, unbiased fact.",
           "The author's positive attitude and personal opinion.",
@@ -1258,11 +2271,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Descriptive words like \"wonderful\" reveal emotional evaluation and subjective attitude."
-    ),
-
+        explanation:
+            "Descriptive words like \"wonderful\" reveal emotional evaluation and subjective attitude."),
     QuizQuestion(
-        question: "4. Why is it important to research or identify an author's bias in an article?",
+        question:
+            "4. Why is it important to research or identify an author's bias in an article?",
         options: [
           "To check if the text has any typographical features.",
           "To find out how many pages the author wrote.",
@@ -1271,11 +2284,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Recognizing bias helps a reader assess the fairness and balance of non-fiction texts."
-    ),
-
+        explanation:
+            "Recognizing bias helps a reader assess the fairness and balance of non-fiction texts."),
     QuizQuestion(
-        question: "5. What does it mean to give a \"personal response\" to a non-literary text?",
+        question:
+            "5. What does it mean to give a \"personal response\" to a non-literary text?",
         options: [
           "Copying the entire text down by hand into your notebook.",
           "Expressing your own critical thoughts and perspectives on the reading.",
@@ -1284,11 +2297,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "A personal response is the reader's active, critical engagement with the text's arguments."
-    ),
-
+        explanation:
+            "A personal response is the reader's active, critical engagement with the text's arguments."),
     QuizQuestion(
-        question: "6. If you state that an author supports renewable energy, which of the following acts as the best textual evidence?",
+        question:
+            "6. If you state that an author supports renewable energy, which of the following acts as the best textual evidence?",
         options: [
           "Pointing out that the text is printed in italics.",
           "Explaining that the article has three main paragraphs.",
@@ -1297,11 +2310,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "High",
-        explanation: "Direct quotes that match the claim provide direct textual evidence."
-    ),
-
+        explanation:
+            "Direct quotes that match the claim provide direct textual evidence."),
     QuizQuestion(
-        question: "7. A text that presents an interview with a doctor, a patient, and a pharmaceutical manufacturer is showing:",
+        question:
+            "7. A text that presents an interview with a doctor, a patient, and a pharmaceutical manufacturer is showing:",
         options: [
           "A lack of structural pattern.",
           "Different viewpoints on a health topic.",
@@ -1310,11 +2323,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Including multiple roles provides diverse viewpoints on the central issue."
-    ),
-
+        explanation:
+            "Including multiple roles provides diverse viewpoints on the central issue."),
     QuizQuestion(
-        question: "8. Which phrase contains a clear indicator of a writer's bias or opinion?",
+        question:
+            "8. Which phrase contains a clear indicator of a writer's bias or opinion?",
         options: [
           "\"According to the national census data...\"",
           "\"The construction project started in May...\"",
@@ -1323,11 +2336,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "\"In my view\" and \"completely useless\" explicitly signal subjective opinion."
-    ),
-
+        explanation:
+            "\"In my view\" and \"completely useless\" explicitly signal subjective opinion."),
     QuizQuestion(
-        question: "9. How does an author's choice of words contribute to the meaning of a non-fiction text?",
+        question:
+            "9. How does an author's choice of words contribute to the meaning of a non-fiction text?",
         options: [
           "It only changes the typographical layout of the page.",
           "It sets the tone, reveals their intentions, and displays their underlying attitude.",
@@ -1336,11 +2349,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Word choice transmits the author's emotional stance and perspective to the reader."
-    ),
-
+        explanation:
+            "Word choice transmits the author's emotional stance and perspective to the reader."),
     QuizQuestion(
-        question: "10. If you read an article where the writer states facts but uses an angry tone, what should a skilled Reading Detective do?",
+        question:
+            "10. If you read an article where the writer states facts but uses an angry tone, what should a skilled Reading Detective do?",
         options: [
           "Stop reading the text immediately.",
           "Separate the factual information from the angry opinions and biases.",
@@ -1349,8 +2362,8 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Balanced critical reading means pulling apart objective facts from emotional delivery."
-    ),
+        explanation:
+            "Balanced critical reading means pulling apart objective facts from emotional delivery."),
   ],
 );
 final QuizModel s2ss2Lesson1QuizData = QuizModel(
@@ -4207,24 +5220,19 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Personal narratives focus on real, past personal events."
-    ),
-
+        explanation:
+            "Personal narratives focus on real, past personal events."),
     QuizQuestion(
-        question: "2. Which pronoun are you most likely to see in a first-person narrative?",
-        options: [
-          "He",
-          "They",
-          "I",
-          "She"
-        ],
+        question:
+            "2. Which pronoun are you most likely to see in a first-person narrative?",
+        options: ["He", "They", "I", "She"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "First-person narratives use 'I' to tell the speaker's own story."
-    ),
-
+        explanation:
+            "First-person narratives use 'I' to tell the speaker's own story."),
     QuizQuestion(
-        question: "3. \"The hot, spicy aroma of fresh jollof rice drifted across the yard.\" This sentence appeals to which senses?",
+        question:
+            "3. \"The hot, spicy aroma of fresh jollof rice drifted across the yard.\" This sentence appeals to which senses?",
         options: [
           "Touch and Sight",
           "Sound and Taste",
@@ -4233,24 +5241,19 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "\"Aroma\" appeals to smell, and \"spicy\" implies taste."
-    ),
-
+        explanation:
+            "\"Aroma\" appeals to smell, and \"spicy\" implies taste."),
     QuizQuestion(
-        question: "4. Which word is a precise verb describing how an action was carried out?",
-        options: [
-          "Did",
-          "Whispered",
-          "Went",
-          "Got"
-        ],
+        question:
+            "4. Which word is a precise verb describing how an action was carried out?",
+        options: ["Did", "Whispered", "Went", "Got"],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Whispered\" is a highly precise way of describing speaking quietly."
-    ),
-
+        explanation:
+            "\"Whispered\" is a highly precise way of describing speaking quietly."),
     QuizQuestion(
-        question: "5. Why are connectors of sequence vital in a personal narrative?",
+        question:
+            "5. Why are connectors of sequence vital in a personal narrative?",
         options: [
           "They make the sentences longer.",
           "They maintain a logical, chronological flow of events for the reader.",
@@ -4259,11 +5262,10 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Connectors guide the timeline of the story smoothly."
-    ),
-
+        explanation: "Connectors guide the timeline of the story smoothly."),
     QuizQuestion(
-        question: "6. In the phrase \"the old school building behind the tall church steeple,\" the bolded text is:",
+        question:
+            "6. In the phrase \"the old school building behind the tall church steeple,\" the bolded text is:",
         options: [
           "A first-person pronoun.",
           "A precise technical verb.",
@@ -4272,9 +5274,8 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "It uses the preposition 'behind' to clarify the location."
-    ),
-
+        explanation:
+            "It uses the preposition 'behind' to clarify the location."),
     QuizQuestion(
         question: "7. What should a writer do during the proofreading step?",
         options: [
@@ -4285,9 +5286,8 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Proofreading focuses on mechanical accuracy and self-correction."
-    ),
-
+        explanation:
+            "Proofreading focuses on mechanical accuracy and self-correction."),
     QuizQuestion(
         question: "8. Which sentence creates the most vivid mental picture?",
         options: [
@@ -4298,11 +5298,11 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Hard",
-        explanation: "It uses specific nouns, active verbs, and rich sensory details."
-    ),
-
+        explanation:
+            "It uses specific nouns, active verbs, and rich sensory details."),
     QuizQuestion(
-        question: "9. If a narrative passage makes the reader feel deep excitement or suspense, it has succeeded in creating an effective:",
+        question:
+            "9. If a narrative passage makes the reader feel deep excitement or suspense, it has succeeded in creating an effective:",
         options: [
           "Technical layout.",
           "Audience reaction or emotional effect.",
@@ -4311,11 +5311,11 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Hard",
-        explanation: "Good narratives aim to evoke a targeted emotional reaction from the audience."
-    ),
-
+        explanation:
+            "Good narratives aim to evoke a targeted emotional reaction from the audience."),
     QuizQuestion(
-        question: "10. Which phrase is an example of an adjective phrase producing a vivid description?",
+        question:
+            "10. Which phrase is an example of an adjective phrase producing a vivid description?",
         options: [
           "Running very quickly",
           "Over the moon",
@@ -4324,13 +5324,12 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Hard",
-        explanation: "\"Shimmering, ice-cold\" functions as a rich adjective phrase describing the noun."
-    ),
+        explanation:
+            "\"Shimmering, ice-cold\" functions as a rich adjective phrase describing the noun."),
   ],
 );
 final QuizModel s4ss2Lesson1QuizData = QuizModel(
-  audioPath:
-      'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/7. quiz.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/7. quiz.m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the primary purpose of an advertisement?",
@@ -7211,9 +8210,8 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Visualisation transforms descriptive text into cognitive mental images."
-    ),
-
+        explanation:
+            "Visualisation transforms descriptive text into cognitive mental images."),
     QuizQuestion(
         question: "2. When monitoring a text, what should you look for first?",
         options: [
@@ -7224,11 +8222,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Comprehension builds from basic facts up to complex concepts."
-    ),
-
+        explanation:
+            "Comprehension builds from basic facts up to complex concepts."),
     QuizQuestion(
-        question: "3. Which sentence contains the most descriptive words to help you form a mental picture?",
+        question:
+            "3. Which sentence contains the most descriptive words to help you form a mental picture?",
         options: [
           "The agriculture sector is very important.",
           "Farmers grow crops in many districts.",
@@ -7237,11 +8235,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Adjectives like golden-yellow, ripe, and high pyramids trigger sensory imagery."
-    ),
-
+        explanation:
+            "Adjectives like golden-yellow, ripe, and high pyramids trigger sensory imagery."),
     QuizQuestion(
-        question: "4. If a text introduces a complex scientific process, a master reader will:",
+        question:
+            "4. If a text introduces a complex scientific process, a master reader will:",
         options: [
           "Skip the paragraph entirely.",
           "Ensure they understand the basic terms before analyzing the detailed steps.",
@@ -7250,11 +8248,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Monitoring means managing cognitive load by step-by-step understanding."
-    ),
-
+        explanation:
+            "Monitoring means managing cognitive load by step-by-step understanding."),
     QuizQuestion(
-        question: "5. A text states: \"The Kejetia market was a sea of moving heads, bright umbrellas, and loud arguments.\" What is the main idea being added to the text's meaning?",
+        question:
+            "5. A text states: \"The Kejetia market was a sea of moving heads, bright umbrellas, and loud arguments.\" What is the main idea being added to the text's meaning?",
         options: [
           "The market is located in Kumasi.",
           "The market was incredibly crowded, vibrant, and busy.",
@@ -7263,9 +8261,8 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "The visual metaphors add up to a meaning of high density and activity."
-    ),
-
+        explanation:
+            "The visual metaphors add up to a meaning of high density and activity."),
     QuizQuestion(
         question: "6. What does \"meaningful interaction with text\" mean?",
         options: [
@@ -7276,24 +8273,18 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Active engagement prevents passive reading and boosts recall."
-    ),
-
+        explanation:
+            "Active engagement prevents passive reading and boosts recall."),
     QuizQuestion(
-        question: "7. You read: \"The dry Harmattan wind blew fine, white dust across the savannah, making everyone's skin dry and itchy.\" Which sense is targeted by \"dry and itchy skin\"?",
-        options: [
-          "Sight",
-          "Touch/Feeling",
-          "Hearing",
-          "Taste"
-        ],
+        question:
+            "7. You read: \"The dry Harmattan wind blew fine, white dust across the savannah, making everyone's skin dry and itchy.\" Which sense is targeted by \"dry and itchy skin\"?",
+        options: ["Sight", "Touch/Feeling", "Hearing", "Taste"],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Itchy skin is a tactile, physical sensation."
-    ),
-
+        explanation: "Itchy skin is a tactile, physical sensation."),
     QuizQuestion(
-        question: "8. When moving from basic to complex information, complex information usually explains:",
+        question:
+            "8. When moving from basic to complex information, complex information usually explains:",
         options: [
           "The font style used in the book.",
           "The 'how' and 'why' behind the basic facts.",
@@ -7302,11 +8293,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Complex information deepens understanding by adding mechanics, causes, and structures."
-    ),
-
+        explanation:
+            "Complex information deepens understanding by adding mechanics, causes, and structures."),
     QuizQuestion(
-        question: "9. If your mental movie of a text becomes confused or blank, this is a sign that:",
+        question:
+            "9. If your mental movie of a text becomes confused or blank, this is a sign that:",
         options: [
           "Your iPad is broken.",
           "You need to pause, monitor your understanding, and re-read the last clear section.",
@@ -7315,11 +8306,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "A broken mental image indicates a breakdown in comprehension that requires remediation."
-    ),
-
+        explanation:
+            "A broken mental image indicates a breakdown in comprehension that requires remediation."),
     QuizQuestion(
-        question: "10. How do underlined main ideas \"add to meaning\" in a non-fiction text?",
+        question:
+            "10. How do underlined main ideas \"add to meaning\" in a non-fiction text?",
         options: [
           "They make the summary much longer than necessary.",
           "They show the logical connection between the different steps or points in the text.",
@@ -7328,8 +8319,8 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Underlining main ideas exposes the structural framework of the text's argument."
-    ),
+        explanation:
+            "Underlining main ideas exposes the structural framework of the text's argument."),
   ],
 );
 final QuizModel jhs2s2ss1Lesson2QuizData = QuizModel(
@@ -8607,9 +9598,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The central idea represents the core focus of the writing."
-    ),
-
+        explanation:
+            "The central idea represents the core focus of the writing."),
     QuizQuestion(
         question: "2. When writing a summary, you must eliminate:",
         options: [
@@ -8620,9 +9610,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Summaries filter out decorative text to present only the key points."
-    ),
-
+        explanation:
+            "Summaries filter out decorative text to present only the key points."),
     QuizQuestion(
         question: "3. Stating details \"in your own words\" means you:",
         options: [
@@ -8633,11 +9622,10 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Paraphrasing demonstrates processing and comprehension."
-    ),
-
+        explanation: "Paraphrasing demonstrates processing and comprehension."),
     QuizQuestion(
-        question: "4. \"Kofi woke up early, washed his uniform, polished his shoes, packed his notebooks, and walked quickly to school.\" What is the central idea?",
+        question:
+            "4. \"Kofi woke up early, washed his uniform, polished his shoes, packed his notebooks, and walked quickly to school.\" What is the central idea?",
         options: [
           "Kofi washed his uniform carefully.",
           "Kofi prepared himself and went to school.",
@@ -8646,9 +9634,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Going to school is the primary action that connects all the preparatory tasks."
-    ),
-
+        explanation:
+            "Going to school is the primary action that connects all the preparatory tasks."),
     QuizQuestion(
         question: "5. An objective summary should never include:",
         options: [
@@ -8659,11 +9646,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Objective summaries must remain completely neutral and factual."
-    ),
-
+        explanation:
+            "Objective summaries must remain completely neutral and factual."),
     QuizQuestion(
-        question: "6. Which of the following is considered \"unnecessary information\" in a text about cocoa production?",
+        question:
+            "6. Which of the following is considered \"unnecessary information\" in a text about cocoa production?",
         options: [
           "The total tons of cocoa exported annually.",
           "A story about a specific farmer's dog named Bobby.",
@@ -8672,11 +9659,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "A personal story about a pet is an anecdotal detail that does not change the core topic."
-    ),
-
+        explanation:
+            "A personal story about a pet is an anecdotal detail that does not change the core topic."),
     QuizQuestion(
-        question: "7. Where is the central idea of a paragraph most frequently located?",
+        question:
+            "7. Where is the central idea of a paragraph most frequently located?",
         options: [
           "In the glossary at the back.",
           "In a footnote at the bottom.",
@@ -8685,11 +9672,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "Topic sentences serve to introduce the main thought of the paragraph."
-    ),
-
+        explanation:
+            "Topic sentences serve to introduce the main thought of the paragraph."),
     QuizQuestion(
-        question: "8. Read this sentence: \"The market women protect their fresh vegetables from the blazing afternoon sun by using large umbrellas.\" Summarize this in your own words.",
+        question:
+            "8. Read this sentence: \"The market women protect their fresh vegetables from the blazing afternoon sun by using large umbrellas.\" Summarize this in your own words.",
         options: [
           "Umbrellas are sold in large numbers at the market.",
           "Traders shield their produce from solar heat.",
@@ -8698,11 +9685,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "This accurately preserves the meaning while replacing vocabulary appropriately."
-    ),
-
+        explanation:
+            "This accurately preserves the meaning while replacing vocabulary appropriately."),
     QuizQuestion(
-        question: "9. If a summary is just as long as the original passage, what went wrong?",
+        question:
+            "9. If a summary is just as long as the original passage, what went wrong?",
         options: [
           "The student forgot to eliminate unnecessary details.",
           "The student used too many synonyms.",
@@ -8711,9 +9698,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Failure to filter out non-essential information keeps the text at its original length."
-    ),
-
+        explanation:
+            "Failure to filter out non-essential information keeps the text at its original length."),
     QuizQuestion(
         question: "10. Analyzing supporting ideas helps you to:",
         options: [
@@ -8724,8 +9710,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Supporting ideas act as the structural pillars for the central thesis."
-    ),
+        explanation:
+            "Supporting ideas act as the structural pillars for the central thesis."),
   ],
 );
 
@@ -8733,20 +9719,16 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What is the correct plural form of the closed compound noun \"sunflower\"?",
-        options: [
-          "sunflowers",
-          "sunflower",
-          "sunsflowers",
-          "sunfloweres"
-        ],
+        question:
+            "1. What is the correct plural form of the closed compound noun \"sunflower\"?",
+        options: ["sunflowers", "sunflower", "sunsflowers", "sunfloweres"],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "Closed compounds take the plural ending at the very end of the word."
-    ),
-
+        explanation:
+            "Closed compounds take the plural ending at the very end of the word."),
     QuizQuestion(
-        question: "2. Identify the correct plural form: \"The office hired two new ________.\"",
+        question:
+            "2. Identify the correct plural form: \"The office hired two new ________.\"",
         options: [
           "data analysts",
           "datas analyst",
@@ -8755,11 +9737,11 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "\"Analyst\" is the principal noun, so it receives the plural suffix."
-    ),
-
+        explanation:
+            "\"Analyst\" is the principal noun, so it receives the plural suffix."),
     QuizQuestion(
-        question: "3. Choose the sentence that contains a grammatically correct plural hyphenated noun.",
+        question:
+            "3. Choose the sentence that contains a grammatically correct plural hyphenated noun.",
         options: [
           "We watched the beautiful sunsets-by the beach.",
           "The commanders-in-chief held an emergency meeting.",
@@ -8768,9 +9750,8 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "\"Commander\" is the principal noun, so it correctly becomes \"commanders-in-chief\"."
-    ),
-
+        explanation:
+            "\"Commander\" is the principal noun, so it correctly becomes \"commanders-in-chief\"."),
     QuizQuestion(
         question: "4. What is the plural form of \"post office\"?",
         options: [
@@ -8781,37 +9762,27 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "\"Office\" is the main noun being described, so it takes the plural \"-s.\""
-    ),
-
+        explanation:
+            "\"Office\" is the main noun being described, so it takes the plural \"-s.\""),
     QuizQuestion(
-        question: "5. \"The compound was filled with dead ________.\" Fill in the blank.",
-        options: [
-          "rose-bushes",
-          "roses-bush",
-          "rose-bush",
-          "roses-bushes"
-        ],
+        question:
+            "5. \"The compound was filled with dead ________.\" Fill in the blank.",
+        options: ["rose-bushes", "roses-bush", "rose-bush", "roses-bushes"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "\"Bush\" is the principal noun, which takes \"-es\" to form the plural \"bushes.\""
-    ),
-
+        explanation:
+            "\"Bush\" is the principal noun, which takes \"-es\" to form the plural \"bushes.\""),
     QuizQuestion(
-        question: "6. Select the correct plural form for the word \"looker-on\".",
-        options: [
-          "looker-ons",
-          "lookers-on",
-          "lookers-ons",
-          "looker-ones"
-        ],
+        question:
+            "6. Select the correct plural form for the word \"looker-on\".",
+        options: ["looker-ons", "lookers-on", "lookers-ons", "looker-ones"],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "\"Looker\" is the noun performing the action, so it becomes \"lookers-on.\""
-    ),
-
+        explanation:
+            "\"Looker\" is the noun performing the action, so it becomes \"lookers-on.\""),
     QuizQuestion(
-        question: "7. \"All our ________ are clean and ready for the journey.\"",
+        question:
+            "7. \"All our ________ are clean and ready for the journey.\"",
         options: [
           "travel bags",
           "travels bag",
@@ -8820,24 +9791,19 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "\"Bag\" is the main item, making \"travel bags\" correct."
-    ),
-
+        explanation:
+            "\"Bag\" is the main item, making \"travel bags\" correct."),
     QuizQuestion(
-        question: "8. Which of these is the correct plural spelling for \"blackboard\"?",
-        options: [
-          "blackboards",
-          "blacksboard",
-          "blackboardes",
-          "blacksboards"
-        ],
+        question:
+            "8. Which of these is the correct plural spelling for \"blackboard\"?",
+        options: ["blackboards", "blacksboard", "blackboardes", "blacksboards"],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "As a solid compound noun, the plural suffix goes at the end."
-    ),
-
+        explanation:
+            "As a solid compound noun, the plural suffix goes at the end."),
     QuizQuestion(
-        question: "9. \"We need to invite all the ________ to the family meeting.\"",
+        question:
+            "9. \"We need to invite all the ________ to the family meeting.\"",
         options: [
           "sister-in-laws",
           "sisters-in-law",
@@ -8846,80 +9812,52 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Sister\" is the primary noun that must be pluralised."
-    ),
-
+        explanation: "\"Sister\" is the primary noun that must be pluralised."),
     QuizQuestion(
-        question: "10. What is the plural form of the open compound \"ice cream\"?",
-        options: [
-          "ices cream",
-          "ice creams",
-          "ices creams",
-          "ice creames"
-        ],
+        question:
+            "10. What is the plural form of the open compound \"ice cream\"?",
+        options: ["ices cream", "ice creams", "ices creams", "ice creames"],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Cream\" is the principal word modified by \"ice,\" so it takes the plural ending."
-    ),
+        explanation:
+            "\"Cream\" is the principal word modified by \"ice,\" so it takes the plural ending."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. \"The woman ________ sells the sweet waakye is very friendly.\"",
-        options: [
-          "which",
-          "whose",
-          "who",
-          "that"
-        ],
+        question:
+            "1. \"The woman ________ sells the sweet waakye is very friendly.\"",
+        options: ["which", "whose", "who", "that"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "The clause describes a human subject, so who is correct."
-    ),
-
+        explanation:
+            "The clause describes a human subject, so who is correct."),
     QuizQuestion(
-        question: "2. \"The house ________ roof was destroyed by the storm belongs to the chief.\"",
-        options: [
-          "whose",
-          "who",
-          "which",
-          "that"
-        ],
+        question:
+            "2. \"The house ________ roof was destroyed by the storm belongs to the chief.\"",
+        options: ["whose", "who", "which", "that"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Whose indicates the house's possession of the roof."
-    ),
-
+        explanation: "Whose indicates the house's possession of the roof."),
     QuizQuestion(
-        question: "3. Which pronoun correctly completes this sentence: \"The pen ________ you lent me writes smoothly\"?",
-        options: [
-          "who",
-          "whom",
-          "whose",
-          "which"
-        ],
+        question:
+            "3. Which pronoun correctly completes this sentence: \"The pen ________ you lent me writes smoothly\"?",
+        options: ["who", "whom", "whose", "which"],
         correctIndex: 3,
         difficulty: "Low",
-        explanation: "A pen is an object, so it requires which."
-    ),
-
+        explanation: "A pen is an object, so it requires which."),
     QuizQuestion(
-        question: "4. \"The children ________ came to the party played many games.\"",
-        options: [
-          "which",
-          "who",
-          "whose",
-          "whom"
-        ],
+        question:
+            "4. \"The children ________ came to the party played many games.\"",
+        options: ["which", "who", "whose", "whom"],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Who is used for human plural subjects like children."
-    ),
-
+        explanation: "Who is used for human plural subjects like children."),
     QuizQuestion(
-        question: "5. Identify the correct sentence that joins: \"The phone is expensive. It is on the table.\"",
+        question:
+            "5. Identify the correct sentence that joins: \"The phone is expensive. It is on the table.\"",
         options: [
           "The phone who is on the table is expensive.",
           "The phone that is on the table is expensive.",
@@ -8928,63 +9866,42 @@ final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "That correctly introduces the clause for the non-human object."
-    ),
-
+        explanation:
+            "That correctly introduces the clause for the non-human object."),
     QuizQuestion(
-        question: "6. \"The fisherman ________ boat capsized was saved by the villagers.\"",
-        options: [
-          "who",
-          "that",
-          "whose",
-          "which"
-        ],
+        question:
+            "6. \"The fisherman ________ boat capsized was saved by the villagers.\"",
+        options: ["who", "that", "whose", "which"],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The boat belonged to the fisherman, requiring the possessive whose."
-    ),
-
+        explanation:
+            "The boat belonged to the fisherman, requiring the possessive whose."),
     QuizQuestion(
-        question: "7. \"I saw the elephant ________ escaped from the Mole National Park.\"",
-        options: [
-          "who",
-          "whom",
-          "which",
-          "whose"
-        ],
+        question:
+            "7. \"I saw the elephant ________ escaped from the Mole National Park.\"",
+        options: ["who", "whom", "which", "whose"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "Animals are categorized as non-human entities, requiring which."
-    ),
-
+        explanation:
+            "Animals are categorized as non-human entities, requiring which."),
     QuizQuestion(
-        question: "8. \"The uniform ________ I wore yesterday is now in the washing machine.\"",
-        options: [
-          "that",
-          "who",
-          "whom",
-          "whose"
-        ],
+        question:
+            "8. \"The uniform ________ I wore yesterday is now in the washing machine.\"",
+        options: ["that", "who", "whom", "whose"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "That is appropriate for an item of clothing."
-    ),
-
+        explanation: "That is appropriate for an item of clothing."),
     QuizQuestion(
-        question: "9. \"The driver ________ the police stopped was driving too fast.\"",
-        options: [
-          "which",
-          "whom",
-          "whose",
-          "that"
-        ],
+        question:
+            "9. \"The driver ________ the police stopped was driving too fast.\"",
+        options: ["which", "whom", "whose", "that"],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "The driver is the object receiving the action of the police stopping them, making whom correct."
-    ),
-
+        explanation:
+            "The driver is the object receiving the action of the police stopping them, making whom correct."),
     QuizQuestion(
-        question: "10. Find the correct way to join: \"We love stories. They have happy endings.\"",
+        question:
+            "10. Find the correct way to join: \"We love stories. They have happy endings.\"",
         options: [
           "We love stories who have happy endings.",
           "We love stories whom have happy endings.",
@@ -8993,8 +9910,8 @@ final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 3,
         difficulty: "High",
-        explanation: "Stories are non-human concepts, so that joins the independent thoughts properly."
-    ),
+        explanation:
+            "Stories are non-human concepts, so that joins the independent thoughts properly."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
@@ -9002,45 +9919,30 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
         question: "1. Which adjective best describes a serene setting?",
-        options: [
-          "Bustling",
-          "Peaceful",
-          "Industrial",
-          "Rowdy"
-        ],
+        options: ["Bustling", "Peaceful", "Industrial", "Rowdy"],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "\"Peaceful\" directly aligns with the calm nature of a serene environment."
-    ),
-
+        explanation:
+            "\"Peaceful\" directly aligns with the calm nature of a serene environment."),
     QuizQuestion(
-        question: "2. Identify the material adjective in this sentence: \"She packed the smoked tilapia into a plastic container.\"",
-        options: [
-          "Smoked",
-          "Tilapia",
-          "Plastic",
-          "Container"
-        ],
+        question:
+            "2. Identify the material adjective in this sentence: \"She packed the smoked tilapia into a plastic container.\"",
+        options: ["Smoked", "Tilapia", "Plastic", "Container"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "\"Plastic\" describes the physical material that the container is made of."
-    ),
-
+        explanation:
+            "\"Plastic\" describes the physical material that the container is made of."),
     QuizQuestion(
-        question: "3. \"The captain of the local team had a ________ expression, while the visiting captain looked terrified.\" Fill in the blank to contrast the opposing sides.",
-        options: [
-          "confident",
-          "tall",
-          "young",
-          "Ghanaian"
-        ],
+        question:
+            "3. \"The captain of the local team had a ________ expression, while the visiting captain looked terrified.\" Fill in the blank to contrast the opposing sides.",
+        options: ["confident", "tall", "young", "Ghanaian"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "\"Confident\" contrasts directly with the opponent's \"terrified\" expression."
-    ),
-
+        explanation:
+            "\"Confident\" contrasts directly with the opponent's \"terrified\" expression."),
     QuizQuestion(
-        question: "4. Which sentence describes an urban environment using precise adjectives?",
+        question:
+            "4. Which sentence describes an urban environment using precise adjectives?",
         options: [
           "The remote village had small mud houses.",
           "The dense forest was full of ancient trees.",
@@ -9049,24 +9951,19 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "\"Crowded\" and \"towering\" accurately depict the characteristics of a city metropolis."
-    ),
-
+        explanation:
+            "\"Crowded\" and \"towering\" accurately depict the characteristics of a city metropolis."),
     QuizQuestion(
-        question: "5. In the text, \"The dancer wore a vibrant and flowery dress,\" the bolded words are describing a:",
-        options: [
-          "Participant",
-          "Material/Object",
-          "Setting",
-          "Conflict"
-        ],
+        question:
+            "5. In the text, \"The dancer wore a vibrant and flowery dress,\" the bolded words are describing a:",
+        options: ["Participant", "Material/Object", "Setting", "Conflict"],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The adjectives modify \"dress,\" which is a textile object worn by the participant."
-    ),
-
+        explanation:
+            "The adjectives modify \"dress,\" which is a textile object worn by the participant."),
     QuizQuestion(
-        question: "6. \"The two debate teams faced each other; one was exceptionally eloquent while the other was completely unprepared.\" The bolded words describe:",
+        question:
+            "6. \"The two debate teams faced each other; one was exceptionally eloquent while the other was completely unprepared.\" The bolded words describe:",
         options: [
           "Opposing sides",
           "Physical materials",
@@ -9075,11 +9972,11 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "The terms compare the capabilities of the two competing groups."
-    ),
-
+        explanation:
+            "The terms compare the capabilities of the two competing groups."),
     QuizQuestion(
-        question: "7. Find the sentence that uses a textile adjective correctly.",
+        question:
+            "7. Find the sentence that uses a textile adjective correctly.",
         options: [
           "He bought a new electronic device.",
           "She purchased a smooth silk scarf.",
@@ -9088,11 +9985,11 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Silk\" is a specific textile/fabric used to describe the scarf."
-    ),
-
+        explanation:
+            "\"Silk\" is a specific textile/fabric used to describe the scarf."),
     QuizQuestion(
-        question: "8. \"We spent our holidays in a secluded and picturesque coastal village.\" These adjectives describe a:",
+        question:
+            "8. \"We spent our holidays in a secluded and picturesque coastal village.\" These adjectives describe a:",
         options: [
           "Material item",
           "Rival group",
@@ -9101,24 +9998,19 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "\"Secluded\" and \"picturesque\" establish a descriptive rural/natural background scene."
-    ),
-
+        explanation:
+            "\"Secluded\" and \"picturesque\" establish a descriptive rural/natural background scene."),
     QuizQuestion(
-        question: "9. Identify the word functioning as an adjective here: \"The wooden bridge broke under the weight of the truck.\"",
-        options: [
-          "Bridge",
-          "Weight",
-          "Wooden",
-          "Truck"
-        ],
+        question:
+            "9. Identify the word functioning as an adjective here: \"The wooden bridge broke under the weight of the truck.\"",
+        options: ["Bridge", "Weight", "Wooden", "Truck"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "\"Wooden\" specifies the material of the bridge, acting as an adjective."
-    ),
-
+        explanation:
+            "\"Wooden\" specifies the material of the bridge, acting as an adjective."),
     QuizQuestion(
-        question: "10. \"The bushy-haired wrestler easily overpowered his bald opponent.\" What are these adjectives highlighting?",
+        question:
+            "10. \"The bushy-haired wrestler easily overpowered his bald opponent.\" What are these adjectives highlighting?",
         options: [
           "The location of the match",
           "The contrasting features of opposing participants",
@@ -9127,15 +10019,16 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "They describe the physical head features of the two opposing athletes."
-    ),
+        explanation:
+            "They describe the physical head features of the two opposing athletes."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. \"Next week, the president ________ the new school block.\" Use the future simple form.",
+        question:
+            "1. \"Next week, the president ________ the new school block.\" Use the future simple form.",
         options: [
           "will open",
           "will be opening",
@@ -9144,9 +10037,7 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "Will open represents a straightforward future action."
-    ),
-
+        explanation: "Will open represents a straightforward future action."),
     QuizQuestion(
         question: "2. Identify the future progressive sentence:",
         options: [
@@ -9157,11 +10048,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Will be visiting shows a continuous action in future time."
-    ),
-
+        explanation:
+            "Will be visiting shows a continuous action in future time."),
     QuizQuestion(
-        question: "3. \"By six o'clock, Esi ________ cooking the jollof rice.\" Fill in the blank using the future perfect tense.",
+        question:
+            "3. \"By six o'clock, Esi ________ cooking the jollof rice.\" Fill in the blank using the future perfect tense.",
         options: [
           "will cook",
           "will be cooking",
@@ -9170,11 +10061,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Will have cooked shows the action will be complete before the six o'clock deadline."
-    ),
-
+        explanation:
+            "Will have cooked shows the action will be complete before the six o'clock deadline."),
     QuizQuestion(
-        question: "4. What is the verb structure for the future perfect progressive tense?",
+        question:
+            "4. What is the verb structure for the future perfect progressive tense?",
         options: [
           "will + base verb",
           "will be + verb-ing",
@@ -9183,11 +10074,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 3,
         difficulty: "Medium",
-        explanation: "Option D shows the correct combination of auxiliary elements for this continuous aspect."
-    ),
-
+        explanation:
+            "Option D shows the correct combination of auxiliary elements for this continuous aspect."),
     QuizQuestion(
-        question: "5. \"We shall be doing our homework when you return.\" The bolded verb is in the:",
+        question:
+            "5. \"We shall be doing our homework when you return.\" The bolded verb is in the:",
         options: [
           "Future simple",
           "Future progressive",
@@ -9196,11 +10087,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Shall be doing matches the future progressive structure."
-    ),
-
+        explanation:
+            "Shall be doing matches the future progressive structure."),
     QuizQuestion(
-        question: "6. \"By next month, my father ________ this old tractor for ten years.\" Use the future perfect progressive form.",
+        question:
+            "6. \"By next month, my father ________ this old tractor for ten years.\" Use the future perfect progressive form.",
         options: [
           "will have been using",
           "will be using",
@@ -9209,9 +10100,8 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "High",
-        explanation: "This form properly matches the duration marker \"for ten years\" looking up to a future point."
-    ),
-
+        explanation:
+            "This form properly matches the duration marker \"for ten years\" looking up to a future point."),
     QuizQuestion(
         question: "7. Select the future perfect sentence:",
         options: [
@@ -9222,11 +10112,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Will have cleared represents a completed action in the future."
-    ),
-
+        explanation:
+            "Will have cleared represents a completed action in the future."),
     QuizQuestion(
-        question: "8. \"I will wash my clothes tonight.\" What type of future event does this describe?",
+        question:
+            "8. \"I will wash my clothes tonight.\" What type of future event does this describe?",
         options: [
           "A completed future milestone",
           "An ongoing duration of time",
@@ -9235,11 +10125,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "This is a future simple structure stating a basic intention or upcoming act."
-    ),
-
+        explanation:
+            "This is a future simple structure stating a basic intention or upcoming act."),
     QuizQuestion(
-        question: "9. Complete the sentence: \"They ________ for three hours by the time the bus arrives.\"",
+        question:
+            "9. Complete the sentence: \"They ________ for three hours by the time the bus arrives.\"",
         options: [
           "will wait",
           "will be waiting",
@@ -9248,11 +10138,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "High",
-        explanation: "The presence of a duration (\"for three hours\") ending at a future event requires the future perfect progressive tense."
-    ),
-
+        explanation:
+            "The presence of a duration (\"for three hours\") ending at a future event requires the future perfect progressive tense."),
     QuizQuestion(
-        question: "10. \"He will have been washing his hands for a minute by then.\" Identify the tense.",
+        question:
+            "10. \"He will have been washing his hands for a minute by then.\" Identify the tense.",
         options: [
           "Future perfect progressive",
           "Future progressive",
@@ -9261,8 +10151,8 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "The construction uses will have been followed by an \"-ing\" action word."
-    ),
+        explanation:
+            "The construction uses will have been followed by an \"-ing\" action word."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson5QuizData = QuizModel(
@@ -14946,11 +15836,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Independent reading builds self-directed language skills and knowledge."
-    ),
-
+        explanation:
+            "Independent reading builds self-directed language skills and knowledge."),
     QuizQuestion(
-        question: "2. Which of the following is a clear example of setting a reading purpose for information?",
+        question:
+            "2. Which of the following is a clear example of setting a reading purpose for information?",
         options: [
           "I am going to read this comic book to laugh at the jokes.",
           "I am going to read this science chapter to find out how solar panels work.",
@@ -14959,9 +15849,8 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Wanting to know how solar panels work is a clear informational goal."
-    ),
-
+        explanation:
+            "Wanting to know how solar panels work is a clear informational goal."),
     QuizQuestion(
         question: "3. What does it mean to choose an \"age-appropriate\" text?",
         options: [
@@ -14972,11 +15861,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Age-appropriate means the text complexity matches the student's developmental stage."
-    ),
-
+        explanation:
+            "Age-appropriate means the text complexity matches the student's developmental stage."),
     QuizQuestion(
-        question: "4. If you come across a paragraph that you do not understand while reading alone, you should:",
+        question:
+            "4. If you come across a paragraph that you do not understand while reading alone, you should:",
         options: [
           "Close the book and stop reading completely.",
           "Skip the paragraph and hope it wasn't important.",
@@ -14985,11 +15874,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "Re-reading is the primary self-monitoring strategy for comprehension."
-    ),
-
+        explanation:
+            "Re-reading is the primary self-monitoring strategy for comprehension."),
     QuizQuestion(
-        question: "5. \"Kofi set a purpose to find the date of the independence match in a sports article.\" What strategy should he use?",
+        question:
+            "5. \"Kofi set a purpose to find the date of the independence match in a sports article.\" What strategy should he use?",
         options: [
           "Read every single word from the first page very slowly.",
           "Scan the text quickly looking specifically for numbers and months.",
@@ -14998,11 +15887,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Scanning for specific formats (like dates) satisfies this specific purpose quickly."
-    ),
-
+        explanation:
+            "Scanning for specific formats (like dates) satisfies this specific purpose quickly."),
     QuizQuestion(
-        question: "6. Which of these is a reading purpose focused entirely on enjoyment?",
+        question:
+            "6. Which of these is a reading purpose focused entirely on enjoyment?",
         options: [
           "Reading a manual to learn how to fix an iPad screen.",
           "Reading an exciting folk tale about Ananse before bed.",
@@ -15011,11 +15900,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Folk tales read before bed are typically selected for entertainment and pleasure."
-    ),
-
+        explanation:
+            "Folk tales read before bed are typically selected for entertainment and pleasure."),
     QuizQuestion(
-        question: "7. Why is it helpful to preview a text's title and illustrations before you begin reading?",
+        question:
+            "7. Why is it helpful to preview a text's title and illustrations before you begin reading?",
         options: [
           "It helps you activate your prior knowledge and prepare your mind for the topic.",
           "It lets you finish the book without actually reading the text.",
@@ -15024,11 +15913,10 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Previewing sets expectations and frames comprehension."
-    ),
-
+        explanation: "Previewing sets expectations and frames comprehension."),
     QuizQuestion(
-        question: "8. If a comprehension question asks about the location of a story, what type of evidence are you scanning for?",
+        question:
+            "8. If a comprehension question asks about the location of a story, what type of evidence are you scanning for?",
         options: [
           "Action verbs like running or jumping.",
           "Numbers representing a specific year.",
@@ -15037,11 +15925,10 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Locations are represented by geographical proper nouns."
-    ),
-
+        explanation: "Locations are represented by geographical proper nouns."),
     QuizQuestion(
-        question: "9. \"Mansa wanted to read a biography to find out how Efua Sutherland contributed to Ghanaian theatre.\" Mansa is reading for:",
+        question:
+            "9. \"Mansa wanted to read a biography to find out how Efua Sutherland contributed to Ghanaian theatre.\" Mansa is reading for:",
         options: [
           "Pure entertainment only.",
           "Knowledge and information.",
@@ -15050,11 +15937,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Learning about a historical figure's contributions is an informational pursuit."
-    ),
-
+        explanation:
+            "Learning about a historical figure's contributions is an informational pursuit."),
     QuizQuestion(
-        question: "10. What is the final step you should take to ensure you have answered a comprehension question accurately?",
+        question:
+            "10. What is the final step you should take to ensure you have answered a comprehension question accurately?",
         options: [
           "Pick the option that has the longest text.",
           "Cross-check your answer directly with the evidence provided in the text.",
@@ -15063,15 +15950,16 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Verifying with textual evidence guarantees objective accuracy."
-    ),
+        explanation:
+            "Verifying with textual evidence guarantees objective accuracy."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What does it mean to determine the \"credibility\" of a text?",
+        question:
+            "1. What does it mean to determine the \"credibility\" of a text?",
         options: [
           "To measure how heavy the book is.",
           "To evaluate how trustworthy and reliable the information is.",
@@ -15080,11 +15968,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Credibility is the measure of accuracy and trustworthiness in a source."
-    ),
-
+        explanation:
+            "Credibility is the measure of accuracy and trustworthiness in a source."),
     QuizQuestion(
-        question: "2. Which of the following sources would be considered MOST credible for a report on malaria prevention?",
+        question:
+            "2. Which of the following sources would be considered MOST credible for a report on malaria prevention?",
         options: [
           "A message forwarded on a family chat group.",
           "An official publication by the World Health Organisation.",
@@ -15093,11 +15981,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The WHO is an authoritative international health body, making it highly credible."
-    ),
-
+        explanation:
+            "The WHO is an authoritative international health body, making it highly credible."),
     QuizQuestion(
-        question: "3. \"We must stop building roads because cars create noise, and noise makes everyone completely insane.\" This is an example of:",
+        question:
+            "3. \"We must stop building roads because cars create noise, and noise makes everyone completely insane.\" This is an example of:",
         options: [
           "Strong, fact-based reasoning.",
           "A balanced viewpoint.",
@@ -15106,11 +15994,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The claim that noise makes everyone completely insane is a massive, illogical leap."
-    ),
-
+        explanation:
+            "The claim that noise makes everyone completely insane is a massive, illogical leap."),
     QuizQuestion(
-        question: "4. Why is it useful to read texts that contain viewpoints different from your own?",
+        question:
+            "4. Why is it useful to read texts that contain viewpoints different from your own?",
         options: [
           "It forces you to change your mind completely.",
           "It helps you understand different perspectives and sharpens your critical thinking.",
@@ -15119,11 +16007,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Exposure to multiple perspectives builds comprehensive understanding and empathy."
-    ),
-
+        explanation:
+            "Exposure to multiple perspectives builds comprehensive understanding and empathy."),
     QuizQuestion(
-        question: "5. A text states: \"Plastic bags are convenient for carrying goods, but they clog our drainage networks and cause flooding.\" This text presents:",
+        question:
+            "5. A text states: \"Plastic bags are convenient for carrying goods, but they clog our drainage networks and cause flooding.\" This text presents:",
         options: [
           "A one-sided attack on plastic manufacturers.",
           "A balanced view showing both a benefit and a drawback.",
@@ -15132,24 +16020,19 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "It acknowledges the utility (convenience) alongside the environmental downside (flooding)."
-    ),
-
+        explanation:
+            "It acknowledges the utility (convenience) alongside the environmental downside (flooding)."),
     QuizQuestion(
-        question: "6. Which word in a text should make a reader cautious about the author's objectivity?",
-        options: [
-          "Furthermore",
-          "According to",
-          "Always",
-          "For instance"
-        ],
+        question:
+            "6. Which word in a text should make a reader cautious about the author's objectivity?",
+        options: ["Furthermore", "According to", "Always", "For instance"],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Absolute words like \"Always\" or \"Never\" often signal a lack of objective nuance."
-    ),
-
+        explanation:
+            "Absolute words like \"Always\" or \"Never\" often signal a lack of objective nuance."),
     QuizQuestion(
-        question: "7. If an article about Ghanaian history does not list any dates, authors, or primary references, its credibility is:",
+        question:
+            "7. If an article about Ghanaian history does not list any dates, authors, or primary references, its credibility is:",
         options: [
           "Enhanced because it is clean.",
           "Weakened due to lack of verifiable evidence.",
@@ -15158,11 +16041,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Trustworthy history depends on verifiable references and primary data."
-    ),
-
+        explanation:
+            "Trustworthy history depends on verifiable references and primary data."),
     QuizQuestion(
-        question: "8. An author writes an article arguing that school fees should be doubled, but hides the fact that they own five private schools. The author has a:",
+        question:
+            "8. An author writes an article arguing that school fees should be doubled, but hides the fact that they own five private schools. The author has a:",
         options: [
           "Very high credibility rating.",
           "Conflict of interest that biases their viewpoint.",
@@ -15171,11 +16054,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "A hidden personal benefit biases an author's objectivity."
-    ),
-
+        explanation:
+            "A hidden personal benefit biases an author's objectivity."),
     QuizQuestion(
-        question: "9. \"The government should support local weavers because it preserves our cultural heritage and creates economic stability for rural artisans.\" This argument uses:",
+        question:
+            "9. \"The government should support local weavers because it preserves our cultural heritage and creates economic stability for rural artisans.\" This argument uses:",
         options: [
           "Sound reasoning supported by clear cultural and economic benefits.",
           "Faulty reasoning based on fear.",
@@ -15184,11 +16067,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "High",
-        explanation: "The reasoning connects the policy directly to logical, positive outcomes."
-    ),
-
+        explanation:
+            "The reasoning connects the policy directly to logical, positive outcomes."),
     QuizQuestion(
-        question: "10. What is the ultimate goal of reflecting on how a text impacts self-understanding?",
+        question:
+            "10. What is the ultimate goal of reflecting on how a text impacts self-understanding?",
         options: [
           "To legalise arguments in the classroom.",
           "To become a passive consumer of information.",
@@ -15197,15 +16080,16 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "High",
-        explanation: "Critical reflection transforms reading from simple decoding into active, independent thought."
-    ),
+        explanation:
+            "Critical reflection transforms reading from simple decoding into active, independent thought."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What is the meaning of the word \"disseminate\" in media studies?",
+        question:
+            "1. What is the meaning of the word \"disseminate\" in media studies?",
         options: [
           "To keep information completely secret.",
           "To spread or distribute information widely to the public.",
@@ -15214,11 +16098,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Dissemination refers to the act of spreading information across channels."
-    ),
-
+        explanation:
+            "Dissemination refers to the act of spreading information across channels."),
     QuizQuestion(
-        question: "2. Which of the following represents a structural critique of a text?",
+        question:
+            "2. Which of the following represents a structural critique of a text?",
         options: [
           "The author misspelled the word \"receive.\"",
           "The article is written as a wall of text and needs clear subheadings to be readable.",
@@ -15227,11 +16111,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Structural critiques deal with the layout, formatting, and organization of the content."
-    ),
-
+        explanation:
+            "Structural critiques deal with the layout, formatting, and organization of the content."),
     QuizQuestion(
-        question: "3. Why do feature articles use a different style compared to standard news reports?",
+        question:
+            "3. Why do feature articles use a different style compared to standard news reports?",
         options: [
           "Because feature articles are written only for teachers.",
           "To explore the deeper, personal human stories behind a topic rather than just the immediate facts.",
@@ -15240,11 +16124,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Feature articles prioritize depth, context, and human elements over breaking news brevity."
-    ),
-
+        explanation:
+            "Feature articles prioritize depth, context, and human elements over breaking news brevity."),
     QuizQuestion(
-        question: "4. Imagine you need to disseminate information to JHS students on how to navigate our offline learning app. What is the BEST text type and approach?",
+        question:
+            "4. Imagine you need to disseminate information to JHS students on how to navigate our offline learning app. What is the BEST text type and approach?",
         options: [
           "A sixty-page legal document detailing software licensing.",
           "A concise, procedural step-by-step guide with clear visual icons matching the app interface.",
@@ -15253,11 +16137,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Procedural text combined with visual aids perfectly matches an instructional goal for an app."
-    ),
-
+        explanation:
+            "Procedural text combined with visual aids perfectly matches an instructional goal for an app."),
     QuizQuestion(
-        question: "5. An article claims: \"A new study shows standard farming techniques are completely useless.\" Upon review, you see the study only tested three plants in a single box. You have just evaluated the text's:",
+        question:
+            "5. An article claims: \"A new study shows standard farming techniques are completely useless.\" Upon review, you see the study only tested three plants in a single box. You have just evaluated the text's:",
         options: [
           "Spelling accuracy.",
           "Capitalisation choices.",
@@ -15266,11 +16150,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Checking the sample size and scope of research directly measures the validity of the evidence."
-    ),
-
+        explanation:
+            "Checking the sample size and scope of research directly measures the validity of the evidence."),
     QuizQuestion(
-        question: "6. Which media channel is best optimized for an audience of busy market traders who are constantly on the move?",
+        question:
+            "6. Which media channel is best optimized for an audience of busy market traders who are constantly on the move?",
         options: [
           "A long, academic essay published on a university website.",
           "Audio notices broadcast over market loudspeakers or clear local radio segments.",
@@ -15279,11 +16163,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Audio messages cater perfectly to audiences who cannot look at screens while working."
-    ),
-
+        explanation:
+            "Audio messages cater perfectly to audiences who cannot look at screens while working."),
     QuizQuestion(
-        question: "7. \"The daily newspaper published an article written by the chief editor explicitly supporting a new educational policy.\" This text type is an:",
+        question:
+            "7. \"The daily newspaper published an article written by the chief editor explicitly supporting a new educational policy.\" This text type is an:",
         options: [
           "Expository science report.",
           "Editorial / Opinion piece.",
@@ -15292,11 +16176,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Editorials reflect the specific perspectives and opinions of the publication's leadership."
-    ),
-
+        explanation:
+            "Editorials reflect the specific perspectives and opinions of the publication's leadership."),
     QuizQuestion(
-        question: "8. What is a primary sign of low credibility in a digital media article?",
+        question:
+            "8. What is a primary sign of low credibility in a digital media article?",
         options: [
           "The presence of a clear author name and publication date.",
           "The use of extreme clickbait headlines that do not match the facts inside the text.",
@@ -15305,11 +16189,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Clickbait headlines intentionally mislead readers, signaling low editorial integrity."
-    ),
-
+        explanation:
+            "Clickbait headlines intentionally mislead readers, signaling low editorial integrity."),
     QuizQuestion(
-        question: "9. How can a writer improve a text-to-speech script designed for automated audio narration?",
+        question:
+            "9. How can a writer improve a text-to-speech script designed for automated audio narration?",
         options: [
           "By adding complex mathematical formulas directly into the sentence.",
           "By using natural, conversational language and removing awkward abbreviations or symbols.",
@@ -15318,11 +16202,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "TTS optimization requires smooth, predictable prose that reads naturally to a listener."
-    ),
-
+        explanation:
+            "TTS optimization requires smooth, predictable prose that reads naturally to a listener."),
     QuizQuestion(
-        question: "10. You notice a news article only interviews the owner of a company and completely ignores the complaints of the community workers. Your critique should highlight a lack of:",
+        question:
+            "10. You notice a news article only interviews the owner of a company and completely ignores the complaints of the community workers. Your critique should highlight a lack of:",
         options: [
           "Font color variety.",
           "Balance and multiple perspectives.",
@@ -15331,15 +16215,16 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Fair journalism requires presenting multiple sides of a dispute to avoid single-source bias."
-    ),
+        explanation:
+            "Fair journalism requires presenting multiple sides of a dispute to avoid single-source bias."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What does it mean to \"expand an idea\" in reading comprehension?",
+        question:
+            "1. What does it mean to \"expand an idea\" in reading comprehension?",
         options: [
           "To write the exact same sentence using a much larger font size.",
           "To combine information from the text with other perspectives and personal knowledge to build a deeper understanding.",
@@ -15348,11 +16233,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Expansion involves building context and synthesis around core textual ideas."
-    ),
-
+        explanation:
+            "Expansion involves building context and synthesis around core textual ideas."),
     QuizQuestion(
-        question: "2. Why do authors have different perspectives on the same topic?",
+        question:
+            "2. Why do authors have different perspectives on the same topic?",
         options: [
           "Because they are using different types of tablets.",
           "Because their viewpoints are shaped by their unique backgrounds, interests, and experiences.",
@@ -15361,11 +16246,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Individual background and purpose directly shape a writer's point of view."
-    ),
-
+        explanation:
+            "Individual background and purpose directly shape a writer's point of view."),
     QuizQuestion(
-        question: "3. Read this text: \"Tourism brings massive wealth and international attention to historical sites like the Elmina Castle.\" What is the author's perspective?",
+        question:
+            "3. Read this text: \"Tourism brings massive wealth and international attention to historical sites like the Elmina Castle.\" What is the author's perspective?",
         options: [
           "Tourism has zero benefits for Ghana.",
           "Tourism is highly positive for our historic sites and economy.",
@@ -15374,11 +16259,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The use of \"massive wealth\" and \"attention\" signals a highly positive perspective."
-    ),
-
+        explanation:
+            "The use of \"massive wealth\" and \"attention\" signals a highly positive perspective."),
     QuizQuestion(
-        question: "4. If the text says tourism is perfect, but you know that overcrowded tourist crowds sometimes leave plastic litter at Elmina Castle, your perspective:",
+        question:
+            "4. If the text says tourism is perfect, but you know that overcrowded tourist crowds sometimes leave plastic litter at Elmina Castle, your perspective:",
         options: [
           "Is completely wrong and should be ignored.",
           "Contrasts with the text by highlighting a hidden problem.",
@@ -15387,9 +16272,8 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Personal knowledge provides a counterpoint that builds a more critical view."
-    ),
-
+        explanation:
+            "Personal knowledge provides a counterpoint that builds a more critical view."),
     QuizQuestion(
         question: "5. What is the definition of \"synthesis\" in reading?",
         options: [
@@ -15400,11 +16284,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Synthesis is the creative assembly of multiple conceptual components."
-    ),
-
+        explanation:
+            "Synthesis is the creative assembly of multiple conceptual components."),
     QuizQuestion(
-        question: "6. Which statement shows a successful synthesis of these two ideas: (1) Market trading brings income, (2) Market trading takes up time that children should use for school.",
+        question:
+            "6. Which statement shows a successful synthesis of these two ideas: (1) Market trading brings income, (2) Market trading takes up time that children should use for school.",
         options: [
           "\"Market trading is completely bad and should be banned.\"",
           "\"Children should only work and forget about going to school.\"",
@@ -15413,11 +16297,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "This option balances and integrates both structural points into a single solution."
-    ),
-
+        explanation:
+            "This option balances and integrates both structural points into a single solution."),
     QuizQuestion(
-        question: "7. An article states that high-speed train networks are essential for Ghana's development. A student notes that building trains costs billions of Cedis that could fix local clinics. What is the student doing?",
+        question:
+            "7. An article states that high-speed train networks are essential for Ghana's development. A student notes that building trains costs billions of Cedis that could fix local clinics. What is the student doing?",
         options: [
           "Skimming for specific definitions.",
           "Evaluating the text by comparing its viewpoint with economic realities.",
@@ -15426,11 +16310,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "The student is contrasting the text's ambition with practical budget limitations."
-    ),
-
+        explanation:
+            "The student is contrasting the text's ambition with practical budget limitations."),
     QuizQuestion(
-        question: "8. Why is \"peer review\" highly effective for expanding ideas?",
+        question:
+            "8. Why is \"peer review\" highly effective for expanding ideas?",
         options: [
           "It allows one student to do all the work for the group.",
           "It exposes you to different viewpoints and interpretations that you might not have considered yourself.",
@@ -15439,11 +16323,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Group discussion breaks individual bias and opens new analytical pathways."
-    ),
-
+        explanation:
+            "Group discussion breaks individual bias and opens new analytical pathways."),
     QuizQuestion(
-        question: "9. \"The author believes city life is superior because of entertainment, whereas I believe village life is better because of peace and community.\" This sentence demonstrates:",
+        question:
+            "9. \"The author believes city life is superior because of entertainment, whereas I believe village life is better because of peace and community.\" This sentence demonstrates:",
         options: [
           "A faulty generalisation using absolute terms.",
           "An analysis of contrasting perspectives.",
@@ -15452,11 +16336,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "The sentence explicitly structures a comparison between the author's view and the reader's view."
-    ),
-
+        explanation:
+            "The sentence explicitly structures a comparison between the author's view and the reader's view."),
     QuizQuestion(
-        question: "10. When you add your own relevant life experiences to a text's main arguments to reach a mature conclusion, you are behaving like an:",
+        question:
+            "10. When you add your own relevant life experiences to a text's main arguments to reach a mature conclusion, you are behaving like an:",
         options: [
           "Active, critical reader.",
           "Offline application user who skips lessons.",
@@ -15465,8 +16349,8 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "High",
-        explanation: "Critical, active reading requires moving beyond passivity to integrate text with life."
-    ),
+        explanation:
+            "Critical, active reading requires moving beyond passivity to integrate text with life."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson5QuizData = QuizModel(
@@ -16222,25 +17106,25 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      '1. "The soup smelled like a garden of fresh peppers and onions." Which technique is used here?',
+          '1. "The soup smelled like a garden of fresh peppers and onions." Which technique is used here?',
       options: ["Personification", "Simile", "Metaphor", "Symbolism"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      'The use of the word "like" to compare the smell of the soup to a garden makes this a simile.',
+          'The use of the word "like" to compare the smell of the soup to a garden makes this a simile.',
     ),
     QuizQuestion(
       question:
-      '2. If a writer describes the "velvet softness of a Kente loom," which sense are they appealing to?',
+          '2. If a writer describes the "velvet softness of a Kente loom," which sense are they appealing to?',
       options: ["Sight", "Smell", "Touch", "Taste"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      '"Softness" and "velvet" are textures that we perceive through the sense of touch.',
+          '"Softness" and "velvet" are textures that we perceive through the sense of touch.',
     ),
     QuizQuestion(
       question:
-      '3. "The moon was a silver cedi in the sky." This is an example of a:',
+          '3. "The moon was a silver cedi in the sky." This is an example of a:',
       options: [
         "Metaphor",
         "Simile",
@@ -16250,11 +17134,11 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      'This is a metaphor because it says the moon was a cedi, comparing them directly without using "like" or "as."',
+          'This is a metaphor because it says the moon was a cedi, comparing them directly without using "like" or "as."',
     ),
     QuizQuestion(
       question:
-      '4. In many cultures, a white dove is a symbol of peace. If a dove flies over a battlefield in a story, what is the author likely suggesting?',
+          '4. In many cultures, a white dove is a symbol of peace. If a dove flies over a battlefield in a story, what is the author likely suggesting?',
       options: [
         "The soldiers are hungry for birds",
         "The weather is about to change",
@@ -16264,20 +17148,20 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'Symbols represent bigger ideas; a dove represents the hope for the end of conflict.',
+          'Symbols represent bigger ideas; a dove represents the hope for the end of conflict.',
     ),
     QuizQuestion(
       question:
-      '5. "The waves lashed out at the shore in anger." This is an example of:',
+          '5. "The waves lashed out at the shore in anger." This is an example of:',
       options: ["Simile", "Metaphor", "Personification", "Symbolism"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Anger" and "lashing out" are human emotions and actions given to the ocean waves.',
+          '"Anger" and "lashing out" are human emotions and actions given to the ocean waves.',
     ),
     QuizQuestion(
       question:
-      '6. Which sentence contains imagery that appeals to the sense of TASTE?',
+          '6. Which sentence contains imagery that appeals to the sense of TASTE?',
       options: [
         "The drums beat a steady rhythm for the dancers",
         "The bitter juice of the neem leaf made Abena gag",
@@ -16287,11 +17171,11 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      '"Bitter" and the reaction to juice relate directly to the sense of taste.',
+          '"Bitter" and the reaction to juice relate directly to the sense of taste.',
     ),
     QuizQuestion(
       question:
-      '7. "My brother is a giant." In a literal sense, this is impossible. Figuratively, it means:',
+          '7. "My brother is a giant." In a literal sense, this is impossible. Figuratively, it means:',
       options: [
         "The brother is actually a mythical creature",
         "The brother is very tall or influential",
@@ -16301,7 +17185,7 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      'As a metaphor, "giant" describes the brother\'s impressive height or status.',
+          'As a metaphor, "giant" describes the brother\'s impressive height or status.',
     ),
     QuizQuestion(
       question: '8. Why do writers use sensory imagery?',
@@ -16314,20 +17198,20 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'Imagery is used to engage the reader\'s imagination and make the text more immersive.',
+          'Imagery is used to engage the reader\'s imagination and make the text more immersive.',
     ),
     QuizQuestion(
       question:
-      '9. "The dry grass crunched under his sandals." Which sense is this appealing to?',
+          '9. "The dry grass crunched under his sandals." Which sense is this appealing to?',
       options: ["Sight", "Sound", "Taste", "Smell"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      '"Crunched" is an onomatopoeic word that describes a specific sound.',
+          '"Crunched" is an onomatopoeic word that describes a specific sound.',
     ),
     QuizQuestion(
       question:
-      '10. Read this: "Abena carried her grandmother’s old Bible everywhere, even though she couldn\'t read yet." What might the Bible symbolise?',
+          '10. Read this: "Abena carried her grandmother’s old Bible everywhere, even though she couldn\'t read yet." What might the Bible symbolise?',
       options: [
         "A heavy weight she has to carry",
         "Her connection to her grandmother’s faith and memory",
@@ -16337,7 +17221,7 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      'An heirloom like a Bible often symbolises family heritage, tradition, and spiritual connection.',
+          'An heirloom like a Bible often symbolises family heritage, tradition, and spiritual connection.',
     ),
   ],
 );
@@ -16346,7 +17230,7 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which of these is a technical term for the money a person earns from work?",
+          "1. Which of these is a technical term for the money a person earns from work?",
       options: ["Gift", "Pocket money", "Income", "Dash"],
       correctIndex: 2,
       difficulty: "Low",
@@ -16363,20 +17247,20 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      'In a scientific register, "cell" specifically refers to biological units.',
+          'In a scientific register, "cell" specifically refers to biological units.',
     ),
     QuizQuestion(
       question:
-      "3. 'The judge gave his final decision at the end of the trial.' What is the technical legal term for 'decision'?",
+          "3. 'The judge gave his final decision at the end of the trial.' What is the technical legal term for 'decision'?",
       options: ["Opinion", "Guess", "Verdict", "Story"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Verdict" is the specific term used in a legal register for a judge\'s decision.',
+          '"Verdict" is the specific term used in a legal register for a judge\'s decision.',
     ),
     QuizQuestion(
       question:
-      "4. Which register is used in this sentence: 'The router's IP address needs to be configured for the network'?",
+          "4. Which register is used in this sentence: 'The router's IP address needs to be configured for the network'?",
       options: [
         "Agriculture",
         "ICT",
@@ -16386,7 +17270,7 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      'Words like "router," "IP address," and "network" belong to the ICT domain.',
+          'Words like "router," "IP address," and "network" belong to the ICT domain.',
     ),
     QuizQuestion(
       question: "5. To 'hibernate' in the animal kingdom means to:",
@@ -16399,20 +17283,20 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Hibernate" is a technical biological term for seasonal dormancy.',
+          '"Hibernate" is a technical biological term for seasonal dormancy.',
     ),
     QuizQuestion(
       question:
-      "6. If a text is about 'Climate Change,' which word would be considered academic vocabulary?",
+          "6. If a text is about 'Climate Change,' which word would be considered academic vocabulary?",
       options: ["Weather", "Hot", "Precipitation", "Rain"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Precipitation" is the academic term for any form of water falling from the sky.',
+          '"Precipitation" is the academic term for any form of water falling from the sky.',
     ),
     QuizQuestion(
       question:
-      "7. 'The President signed the amendment to the law.' What does amendment mean?",
+          "7. 'The President signed the amendment to the law.' What does amendment mean?",
       options: [
         "A picture of the law",
         "A formal change or addition to a document",
@@ -16422,11 +17306,11 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      'In political and legal registers, an amendment is a formal change.',
+          'In political and legal registers, an amendment is a formal change.',
     ),
     QuizQuestion(
       question:
-      "8. Which sentence uses the right register for a cookery (Home Economics) lesson?",
+          "8. Which sentence uses the right register for a cookery (Home Economics) lesson?",
       options: [
         "Put the stuff in the hot water",
         "Submerge the vegetables in boiling water to blanch them",
@@ -16436,11 +17320,11 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      '"Submerge" and "blanch" are technical terms used in professional cooking.',
+          '"Submerge" and "blanch" are technical terms used in professional cooking.',
     ),
     QuizQuestion(
       question:
-      "9. The word 'inflation' is a technical term used in which subject?",
+          "9. The word 'inflation' is a technical term used in which subject?",
       options: [
         "Physical Education",
         "Integrated Science",
@@ -16450,11 +17334,11 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      'Inflation refers to the rise in prices and is an economic term.',
+          'Inflation refers to the rise in prices and is an economic term.',
     ),
     QuizQuestion(
       question:
-      "10. Why is it important to use technical vocabulary in school assignments?",
+          "10. Why is it important to use technical vocabulary in school assignments?",
       options: [
         "To make the teacher spend more time marking",
         "To show that you are better than your classmates",
@@ -16464,7 +17348,7 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'Technical vocabulary allows for precision and demonstrates subject mastery.',
+          'Technical vocabulary allows for precision and demonstrates subject mastery.',
     ),
   ],
 );
@@ -16473,7 +17357,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      '1. What does the prefix "multi-" mean in words like "multicultural" or "multiply"?',
+          '1. What does the prefix "multi-" mean in words like "multicultural" or "multiply"?',
       options: ["None", "One", "Many", "Small"],
       correctIndex: 2,
       difficulty: "Low",
@@ -16481,16 +17365,16 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '2. Which word is a "synonym" (has a similar meaning) for wealthy, but suggests even more money?',
+          '2. Which word is a "synonym" (has a similar meaning) for wealthy, but suggests even more money?',
       options: ["Comfortable", "Rich", "Affluent", "Poor"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'While "rich" is common, "affluent" is a more academic term suggesting great wealth.',
+          'While "rich" is common, "affluent" is a more academic term suggesting great wealth.',
     ),
     QuizQuestion(
       question:
-      '3. "The mango was inedible." If "edible" means you can eat it, what does "inedible" mean?',
+          '3. "The mango was inedible." If "edible" means you can eat it, what does "inedible" mean?',
       options: [
         "It is very delicious",
         "It cannot be eaten",
@@ -16503,7 +17387,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '4. If a character is described as cautious, how are they acting?',
+          '4. If a character is described as cautious, how are they acting?',
       options: [
         "Very brave and reckless",
         "Very angry and loud",
@@ -16513,7 +17397,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Cautious" is connected to the word "caution," which means care.',
+          '"Cautious" is connected to the word "caution," which means care.',
     ),
     QuizQuestion(
       question: '5. What is the root word in "Unhappiness"?',
@@ -16524,7 +17408,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '6. Which word describes a small, gentle wind (a nuance of "wind")?',
+          '6. Which word describes a small, gentle wind (a nuance of "wind")?',
       options: ["Gale", "Hurricane", "Breeze", "Storm"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -16532,7 +17416,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '7. "The girl was fearless during the storm." What does this tell us?',
+          '7. "The girl was fearless during the storm." What does this tell us?',
       options: [
         "She was very afraid",
         "She had no fear",
@@ -16545,7 +17429,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '8. In the word "Geography," "geo" means earth and "graph" means to write or draw. What is geography?',
+          '8. In the word "Geography," "geo" means earth and "graph" means to write or draw. What is geography?',
       options: [
         "The study of the stars",
         "The study of ancient kings",
@@ -16555,7 +17439,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "High",
       explanation:
-      'Connecting the two Greek roots reveals the meaning of the subject.',
+          'Connecting the two Greek roots reveals the meaning of the subject.',
     ),
     QuizQuestion(
       question: '9. Which word suggests a lack of hope?',
@@ -16563,11 +17447,11 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      'Again, the suffix "-less" indicates the absence of the root word.',
+          'Again, the suffix "-less" indicates the absence of the root word.',
     ),
     QuizQuestion(
       question:
-      '10. "Kwame was exhausted after the football match." How is this different from being "tired"?',
+          '10. "Kwame was exhausted after the football match." How is this different from being "tired"?',
       options: [
         "It means he is ready to play again",
         "It means he is only a little bit sleepy",
@@ -19415,7 +20299,7 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
         "Make the speaker sound bored.",
         "Emphasize an important point so the audience remembers it.",
         "Make the speech exactly one hour long.",
-            "Make it more annoying"
+        "Make it more annoying"
       ],
       correctIndex: 1,
       difficulty: "Medium",
@@ -20093,7 +20977,8 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
   ],
 );
 final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ) .m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ) .m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the definition of a 'Theme' in literature?",
@@ -34968,12 +35853,12 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Tourism is the ______ highest foreign exchange earner for Ghana.",
+          "1. Tourism is the ______ highest foreign exchange earner for Ghana.",
       options: ["First", "Second", "Third", "Fourth"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "According to the textbook, tourism ranks as the fourth highest earner of foreign exchange.",
+          "According to the textbook, tourism ranks as the fourth highest earner of foreign exchange.",
     ),
     QuizQuestion(
       question: "2. Which site is famous for its canopy walkway?",
@@ -34986,11 +35871,11 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Kakum National Park is well-known for its suspended canopy walkway.",
+          "Kakum National Park is well-known for its suspended canopy walkway.",
     ),
     QuizQuestion(
       question:
-      "3. A person who travels from Germany to visit the Elmina Castle is a/an:",
+          "3. A person who travels from Germany to visit the Elmina Castle is a/an:",
       options: [
         "Internal tourist",
         "Domestic tourist",
@@ -35000,7 +35885,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Someone travelling from another country is an international tourist.",
+          "Someone travelling from another country is an international tourist.",
     ),
     QuizQuestion(
       question: "4. In which region can we find the Boti Falls?",
@@ -35025,7 +35910,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Maintaining cleanliness makes sites more attractive to visitors.",
+          "Maintaining cleanliness makes sites more attractive to visitors.",
     ),
     QuizQuestion(
       question: "6. What is \"Leisure\"?",
@@ -35037,21 +35922,15 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation:
-      "Leisure is time spent away from work or duties for rest.",
+      explanation: "Leisure is time spent away from work or duties for rest.",
     ),
     QuizQuestion(
       question: "7. Which tourist site is Ghana's only natural lake?",
-      options: [
-        "Lake Volta",
-        "Lake Bosomtwe",
-        "Weija Dam",
-        "Akosombo Dam"
-      ],
+      options: ["Lake Volta", "Lake Bosomtwe", "Weija Dam", "Akosombo Dam"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Lake Bosomtwe in the Ashanti Region is the only natural lake in Ghana.",
+          "Lake Bosomtwe in the Ashanti Region is the only natural lake in Ghana.",
     ),
     QuizQuestion(
       question: "8. Tourism helps the government because it generates:",
@@ -35064,7 +35943,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The government earns revenue from taxes paid by businesses in the tourism sector.",
+          "The government earns revenue from taxes paid by businesses in the tourism sector.",
     ),
     QuizQuestion(
       question: "9. The Larabanga Mosque is located in which region?",
@@ -35077,10 +35956,11 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "The Larabanga Mosque, the oldest in Ghana, is in the Savannah Region.",
+          "The Larabanga Mosque, the oldest in Ghana, is in the Savannah Region.",
     ),
     QuizQuestion(
-      question: "10. What can happen if tourists are cheated or treated poorly?",
+      question:
+          "10. What can happen if tourists are cheated or treated poorly?",
       options: [
         "More tourists will come to help",
         "It will discourage others from visiting",
@@ -35090,7 +35970,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Poor treatment of tourists gives the country a bad reputation and stops others from coming.",
+          "Poor treatment of tourists gives the country a bad reputation and stops others from coming.",
     ),
   ],
 );
@@ -58789,7 +59669,8 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       explanation: "Diameter = 2 × Radius = 20 cm.",
     ),
     QuizQuestion(
-      question: "3. Find the area of a triangle with base 10 cm and height 6 cm.",
+      question:
+          "3. Find the area of a triangle with base 10 cm and height 6 cm.",
       options: ["60 cm²", "30 cm²", "16 cm²", "15 cm²"],
       correctIndex: 1,
       difficulty: "Easy",
@@ -60353,7 +61234,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Multiply x by both x and 5.",
     ),
-
     QuizQuestion(
       question: r"2. Simplify \frac{3p}{4} − \frac{p}{4}",
       options: [r"\frac{p}{4}", r"p", r"\frac{p}{2}", "2p"],
@@ -60361,7 +61241,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"\frac{2p}{4} reduces to \frac{p}{2}.",
     ),
-
     QuizQuestion(
       question: "3. Evaluate 3k − 10 if k = 4.",
       options: ["12", "2", "-2", "7"],
@@ -60369,41 +61248,32 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "3(4) − 10 = 12 − 10 = 2.",
     ),
-
     QuizQuestion(
       question: "4. Factorise 15xy + 10x",
-      options: [
-        "10x(y + 1)",
-        "5(3xy + 2)",
-        "5x(3y + 2)",
-        "5x(3y + 5)"
-      ],
+      options: ["10x(y + 1)", "5(3xy + 2)", "5x(3y + 2)", "5x(3y + 5)"],
       correctIndex: 2,
       difficulty: "Med",
       explanation: "5x is the HCF of both terms.",
     ),
-
     QuizQuestion(
       question: "5. What is the value of (a + 4)(a + 1)?",
-      options: [
-        "a² + 4a + 4",
-        "a² + 5a + 5",
-        "a² + 4a + 5",
-        "a² + 5a + 4"
-      ],
+      options: ["a² + 4a + 4", "a² + 5a + 5", "a² + 4a + 5", "a² + 5a + 4"],
       correctIndex: 3,
       difficulty: "Med",
       explanation: "Using FOIL: a² + 1a + 4a + 4.",
     ),
-
     QuizQuestion(
       question: r"6. Simplify \frac{2}{x} ÷ \frac{x}{5}",
-      options: [r"\frac{2x}{5}", r"\frac{2}{5}", r"\frac{x}{10}", r"\frac{2}{5x}"],
+      options: [
+        r"\frac{2x}{5}",
+        r"\frac{2}{5}",
+        r"\frac{x}{10}",
+        r"\frac{2}{5x}"
+      ],
       correctIndex: 1,
       difficulty: "Med",
       explanation: "The x terms cancel out.",
     ),
-
     QuizQuestion(
       question: "7. If x = −2, what is x²?",
       options: ["-4", "2", "-2", "4"],
@@ -60411,7 +61281,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: "A negative number squared is always positive.",
     ),
-
     QuizQuestion(
       question: "8. Factorise by grouping: ax + ay + bx + by",
       options: [
@@ -60424,7 +61293,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "a(x + y) + b(x + y) = (a + b)(x + y).",
     ),
-
     QuizQuestion(
       question: r"9. Simplify \frac{10a}{3} ÷ \frac{5a}{6}",
       options: ["4", "2", r"\frac{1}{4}", "5"],
@@ -60432,7 +61300,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: r"\frac{10a}{3} × \frac{6}{5a} = \frac{60a}{15a} = 4.",
     ),
-
     QuizQuestion(
       question: "10. What is 2(L + W) when L = 10, W = 5?",
       options: ["25", "15", "20", "30"],
@@ -60440,7 +61307,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "2(15) = 30.",
     ),
-
     QuizQuestion(
       question: "11. Expand (x − 5)(x + 5)",
       options: ["x² − 25", "x² + 25", "x² − 10", "x² + 10"],
@@ -60448,7 +61314,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "The middle terms −5x and +5x cancel.",
     ),
-
     QuizQuestion(
       question: "12. Factorise 49 − 7k",
       options: ["7k(7 − 1)", "7(7 + k)", "7(7 − k)", "49(1 − k)"],
@@ -60456,7 +61321,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "7 is the common factor.",
     ),
-
     QuizQuestion(
       question: r"13. Find the value of \frac{20}{x} + 5 when x = 2",
       options: ["10", "15", "25", "30"],
@@ -60464,7 +61328,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "10 + 5 = 15.",
     ),
-
     QuizQuestion(
       question: "14. Multiply m/3 × 6/m²",
       options: [r"\frac{2}{m}", "2m", r"\frac{m}{2}", r"\frac{6m}{3}"],
@@ -60472,7 +61335,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: "\frac{6m}{3m²} simplifies to \frac{2}{m}.",
     ),
-
     QuizQuestion(
       question: "15. Factorise y² − 3y",
       options: ["3(y − 1)", "y(y + 3)", "y²(1 − 3)", "y(y − 3)"],
@@ -60480,7 +61342,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "y is the common factor.",
     ),
-
     QuizQuestion(
       question: "16. If a = 3, b = 2, find a² + b²",
       options: ["10", "25", "13", "12"],
@@ -60488,7 +61349,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "9 + 4 = 13.",
     ),
-
     QuizQuestion(
       question: r"17. Simplify \frac{x}{2} − \frac{x}{4}",
       options: [r"\frac{x}{4}", r"\frac{x}{2}", "0", "x"],
@@ -60496,7 +61356,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{2x}{4} − \frac{x}{4} = \frac{x}{4}.",
     ),
-
     QuizQuestion(
       question: "18. Expand 2(3x − 4y)",
       options: ["6x − 4y", "5x − 6y", "6x − 8y", "6x + 8y"],
@@ -60504,7 +61363,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Multiply 2 by both terms.",
     ),
-
     QuizQuestion(
       question: "19. Factorise ab + ac + b + c",
       options: [
@@ -60517,7 +61375,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: "a(b + c) + 1(b + c) = (a + 1)(b + c).",
     ),
-
     QuizQuestion(
       question: "20. Evaluate 10 − (x + 2) when x = 5",
       options: ["7", "13", "5", "3"],

@@ -703,12 +703,15 @@ class _IndependentQuizScreenState extends State<IndependentQuizScreen> {
           ),
         ));
       } else {
-        bool isMath = isEnvironment ||
-            part.contains('^') ||
-            part.contains('\\') ||
-            part.contains(RegExp(r'_[0-9a-zA-Z{]')) ||
-            part.contains('times') ||
-            part.contains('div');
+        final isFileName =
+            RegExp(r'^\S+\.[a-zA-Z0-9]{1,10}[,;:!?)]*$').hasMatch(part);
+        bool isMath = !isFileName &&
+            (isEnvironment ||
+                part.contains('^') ||
+                part.contains('\\') ||
+                part.contains(RegExp(r'_[0-9a-zA-Z{]')) ||
+                part.contains('times') ||
+                part.contains('div'));
 
         if (isMath) {
           if (isEnvironment) {
