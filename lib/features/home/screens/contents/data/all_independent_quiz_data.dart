@@ -479,6 +479,306 @@ final IndependentPracticeModel computingJhs1S1Ss2Lesson1IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs1S1Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss2_L2/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the very first character you must type into a spreadsheet cell when creating a formula?",
+      options: [
+        "An exclamation mark",
+        "A forward slash",
+        "An equals sign",
+        "A question mark",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "An equals sign",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which practical action best helps an audience follow along during a presentation slide show?",
+      options: [
+        "Reading long paragraphs directly from the screen.",
+        "Using concise bullet points alongside clear images.",
+        "Adding ten different transition sounds per slide.",
+        "Filling every slide with dense unformatted text.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Using concise bullet points alongside clear images.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which browser feature allows a presenter to locate a specific carving quickly inside a virtual museum?",
+      options: [
+        "The volume slider",
+        "The screen brightness",
+        "The search bar",
+        "The refresh button",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The search bar",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is it beneficial to demonstrate a digital tool in front of the whole class?",
+      options: [
+        "It replaces the need for any school examinations.",
+        "It prevents other students from using the device.",
+        "It permanently saves the battery life of tablets.",
+        "It builds digital skills and public speaking confidence.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It builds digital skills and public speaking confidence.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss2_L3/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following is a major educational advantage of spreadsheet software in Mathematics?",
+      options: [
+        "It generates automated formulas to solve complex problems.",
+        "It translates spoken English into indigenous dialects.",
+        "It checks physical computer monitors for dust build-up.",
+        "It prints full-colour paper textbook covers automatically.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It generates automated formulas to solve complex problems.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How does presentation software directly improve the classroom learning environment?",
+      options: [
+        "By replacing the classroom teacher with audio recordings.",
+        "By making lessons lively, engaging, and easy to follow.",
+        "By switching off electrical power in the computer lab.",
+        "By deleting old digital project files automatically.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "By making lessons lively, engaging, and easy to follow.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which benefit is gained from playing digital vocabulary games such as Scrabble?",
+      options: [
+        "Repairing damaged network router cables in school.",
+        "Lowering the overall battery capacity of tablets.",
+        "Improving spelling precision and dictionary usage.",
+        "Formatting hard drive storage units in computing.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Improving spelling precision and dictionary usage.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why are virtual museum platforms valuable for schools located far from urban centres?",
+      options: [
+        "They allow students to design commercial shopping apps.",
+        "They provide free transport buses to physical museums.",
+        "They run complex spreadsheet formulas during classes.",
+        "They grant remote access to cultural heritage exhibits.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "They grant remote access to cultural heritage exhibits.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss2_L4/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What term is used to describe discarded, outdated, or broken computer hardware and accessories?",
+      options: [
+        "Cyber software",
+        "Electronic waste",
+        "Natural compost",
+        "Network latency",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Electronic waste",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which toxic heavy metal found inside cathode-ray tube monitors and circuit boards poisons groundwater?",
+      options: [
+        "Pure gold",
+        "Aluminium",
+        "Lead metal",
+        "Table salt",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Lead metal",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does discharging untreated industrial factory wastewater from chip manufacturing harm the environment?",
+      options: [
+        "It generates renewable electricity for schools.",
+        "It clears dust off desktop computer screens.",
+        "It speeds up the processing power of tablets.",
+        "It pollutes rivers and destroys aquatic life.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It pollutes rivers and destroys aquatic life.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which atmospheric gas released from burning fossil fuels during computer manufacturing drives global warming?",
+      options: [
+        "Carbon dioxide",
+        "Pure oxygen gas",
+        "Inert helium gas",
+        "Liquid nitrogen",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Carbon dioxide",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss2_L5/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following actions is an effective way to avoid wasting electricity in a computer lab?",
+      options: [
+        "Setting computer display monitors to full brightness.",
+        "Turning off system units and monitors after class.",
+        "Leaving desktop units running overnight on standby.",
+        "Running multiple video games simultaneously on lab tablets.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Turning off system units and monitors after class.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          '2. What does the concept of the "Three Rs" stand for in responsible environmental management?',
+      options: [
+        "Remove, Release, and Rebuild",
+        "Run, Reformat, and Reboot",
+        "Reduce, Reuse, and Recycle",
+        "Record, Replace, and Restore",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Reduce, Reuse, and Recycle",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why should a country restrict the importation of obsolete, half-damaged computers?",
+      options: [
+        "To stop schools from using modern educational tools.",
+        "To prevent ports from collecting legal customs duties.",
+        "To increase the price of brand-new spreadsheet software.",
+        "To avoid turning the country into an electronic dump.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "To avoid turning the country into an electronic dump.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How can an older, slow desktop computer be reused responsibly instead of being thrown away?",
+      options: [
+        "By burning its plastic case to extract scrap wires.",
+        "By upgrading its internal components and donating it.",
+        "By throwing it into a municipal rubbish collection pit.",
+        "By dumping its power supply into a nearby river stream.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "By upgrading its internal components and donating it.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss2Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss2_L6/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What should a student do immediately upon encountering a cracked, leaking battery inside discarded hardware?",
+      options: [
+        "Wash the leaking battery thoroughly under cold tap water.",
+        "Isolate it safely for professional hazardous disposal.",
+        "Crush the battery casing using a workshop hammer tool.",
+        "Glue the battery directly onto a decorative pencil stand.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Isolate it safely for professional hazardous disposal.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which tool is used in industrial facilities to separate steel fragments from shredded computer waste?",
+      options: [
+        "High-powered industrial magnets",
+        "Hand-held wooden yardsticks",
+        "Chemical acid dissolving pools",
+        "Household paper filter sheets",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "High-powered industrial magnets",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which discarded computer part is best suited to form the rigid main body of an upcycled desk organizer?",
+      options: [
+        "Flexible internal ribbon cables",
+        "Stripped power cord copper wires",
+        "Empty metal optical drive casing",
+        "Broken glass cathode-ray screens",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Empty metal optical drive casing",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is open-air bonfire burning forbidden during the recycling of electronic scrap?",
+      options: [
+        "It consumes too much clean treated freshwater.",
+        "It releases thick toxic smoke and heavy metal fumes.",
+        "It speeds up the processing performance of tablets.",
+        "It permanently formats operating system hard drives.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It releases thick toxic smoke and heavy metal fumes.",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',

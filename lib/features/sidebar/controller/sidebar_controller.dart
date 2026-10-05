@@ -290,25 +290,150 @@ class SidebarController extends GetxController {
       "CAREER": _careerCourseData,
       "COMPUTING": [
         {
-          "subtitle": "PRODUCTIVITY SOFTWARE",
+          "subtitle": "INTRODUCTION TO COMPUTING",
           "subStrands": [
             {
-              "subtitle": "CREATING DIGITAL CONTENT",
+              "subtitle": "COMPONENTS OF COMPUTERS AND COMPUTER SYSTEMS",
               "topics": [
-                "Working with Documents and Presentations",
-                "Introduction to Spreadsheets",
+                "The Fifth Generation of Computers and Emerging Technologies",
+                "Direct Data Entry Devices",
+                "Specialized Output Devices and Modern Printers",
+                "Modern Secondary Storage Devices and Flash Technologies",
+                "Exploring Desktop Features and the Charms Bar",
+                "Drive and File Management Techniques",
+              ],
+            },
+            {
+              "subtitle": "TECHNOLOGY IN THE COMMUNITY",
+              "topics": [
+                "Computer Accessibility and Assistive Technologies",
+                "Portable Computing Devices in Everyday Life",
+              ],
+            },
+            {
+              "subtitle": "HEALTH AND SAFETY IN THE USE OF ICT TOOLS",
+              "topics": [
+                "HEALTH ISSUES AT COMPUTER WORKSTATIONS",
+                "SAFETY MEASURES IN RISK REDUCTION AT WORKSTATIONS",
               ],
             },
           ],
         },
         {
-          "subtitle": "NETWORKS AND PROGRAMMING",
+          "subtitle": "PRODUCTIVITY SOFTWARE",
           "subStrands": [
             {
-              "subtitle": "CONNECTED AND LOGICAL SYSTEMS",
+              "subtitle": "INTRODUCTION TO WORD PROCESSING",
               "topics": [
-                "Computer Networks and the Internet",
-                "Algorithms and Block-Based Programming",
+                "CREATING TABLES AND HYPERLINKS IN WORD PROCESSING",
+                "MERGING, SPLITTING, FORMULAS, BORDERS, AND SHADES",
+                "PAGE FORMATTING (PAGE ADJUSTMENT, HEADERS, FOOTERS, PAGE NUMBERS, BREAKS, AND ORIENTATIONS)",
+              ],
+            },
+            {
+              "subtitle": "INTRODUCTION TO PRESENTATION",
+              "topics": [
+                "Inserting, Capturing, and Formatting Pictures in Presentation Slides",
+                "Adding, Editing, Formatting, and Grouping Shapes",
+                "Adding Text to Shapes and Arranging Shapes",
+              ],
+            },
+            {
+              "subtitle": "INTRODUCTION TO DESKTOP PUBLISHING",
+              "topics": [
+                "Importance of Desktop Publishing Software (DTP)",
+                "Creating and Saving a Document from Blank or Pre-Designed Templates",
+                "Using Commands in MS-Publisher Ribbons",
+                "Changing Orientation and Margins of a Document",
+                "Adding and Modifying Pictures from Different Sources",
+                "Adding and Modifying Text",
+                "Creating and Presenting Publisher Documents",
+              ],
+            },
+            {
+              "subtitle": "INTRODUCTION TO ELECTRONIC SPREADSHEET",
+              "topics": [
+                "Performing Operations Using Functions and Built-in Functions",
+                "Demonstrating How to Create Complex Formulas",
+                "Demonstrating How to Copy Formulas and References",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "COMMUNICATION NETWORKS",
+          "subStrands": [
+            {
+              "subtitle": "COMPUTER NETWORKS",
+              "topics": [
+                "DATA COMMUNICATION MODELS FOR NETWORKS",
+                "THE INTERNET, WORLD WIDE WEB, AND IP ADDRESSES",
+              ],
+            },
+            {
+              "subtitle": "INTERNET AND SOCIAL MEDIA",
+              "topics": [
+                "TYPES OF SOCIAL MEDIA SITES AND PLATFORMS",
+                "ELECTRONIC MAIL – ATTACHING DOCUMENTS AND MANAGING FILES",
+                "ELECTRONIC MAIL – USING THE ADDRESS BOOK AND MANAGING CONTACTS",
+              ],
+            },
+            {
+              "subtitle": "INFORMATION SECURITY",
+              "topics": [
+                "Nature of Four Major Data Threats",
+                "Protection Methods Against Data Threats",
+              ],
+            },
+            {
+              "subtitle": "WEB TECHNOLOGIES",
+              "topics": [
+                "Effective Search Techniques in a Web Browser",
+                "Exploring Multiple Search Engines",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "COMPUTATIONAL THINKING",
+          "subStrands": [
+            {
+              "subtitle": "INTRODUCTION TO PROGRAMMING",
+              "topics": [
+                "Basic Programming Concepts and Operator Notations",
+                "Using Comparison and Logical Operators in Block-Based Coding",
+                "Writing and Evaluating Algorithms and Expressions",
+                "Creating Variables and Executing Basic Programs in Scratch",
+                "Practical Applications of Comparison and Logical Blocks in Scratch",
+                ""
+              ],
+            },
+            {
+              "subtitle": "ALGORITHMS",
+              "topics": [
+                "B8.4.2.1.1 - Applying Variables, Expressions, Assignment Statements, and Operator Precedence (BODMAS)",
+                "B8.4.2.1.2 - Describing and Using Sequence, Selection, and Iteration Statements, and Naming Conventions",
+                "B8.4.2.1.3 - Representing Algorithms Using Pseudocode and Flowcharts",
+                "B8.4.2.1.4 - Implementing Selection Statements and Branching Logic",
+                "Iteration Statements and Looping Structures (FOR, WHILE, REPEAT UNTIL)",
+              ],
+            },
+            {
+              "subtitle": "ROBOTICS",
+              "topics": [
+                "Principles of Robot Components",
+                "Real-World Applications and Environmental Sensing",
+                "Robot Programming and Movement Control",
+                "Robot Kits and Assembly Practices",
+              ],
+            },
+            {
+              "subtitle": "ARTIFICIAL INTELLIGENCE",
+              "topics": [
+                "Artificial Neural Networks and Comparing Intelligences",
+                "Strong and Weak Artificial Intelligence",
+                "B8.4.4.1.3 - Hologram Science and 3D Mixed Reality Intelligence",
+                "B8.4.4.1.4 - Comparing Limitations and Capabilities of Human, Animal, and Machine Intelligence",
               ],
             },
           ],
@@ -371,25 +496,134 @@ class SidebarController extends GetxController {
       "CAREER": _careerCourseData,
       "COMPUTING": [
         {
-          "subtitle": "DATA AND PROGRAMMING",
+          "subtitle": "INTRODUCTION TO COMPUTING",
           "subStrands": [
             {
-              "subtitle": "SOLVING PROBLEMS WITH COMPUTERS",
+              "subtitle": "COMPONENTS OF COMPUTERS AND COMPUTER SYSTEMS",
               "topics": [
-                "Organising and Analysing Data",
-                "Designing and Testing a Program",
+                "Trends in the Next Generation of Computers",
+                "The Concept of Perceptual Computing",
+                "Output Devices: Wearable Displays, E-Paper, E-Books, and Kindle",
+                "Modern Storage Systems: Network, Cloud, Smart Cards, Holographic, and Enterprise Storage",
+                "Computer Personalisation: Desktop Icons and Mouse Pointers",
+                "Hardware and File Management Techniques: Device Drivers and Plug-and-Play",
+              ],
+            },
+            {
+              "subtitle": "TECHNOLOGY IN THE COMMUNITY(COMMUNICATION)",
+              "topics": [
+                "Evaluating Community Problems Solved with Technology",
+                "Proposing Technological Solutions to Community Problems",
+                "Designing the Selected Solution",
+              ],
+            },
+            {
+              "subtitle": "HEALTH AND SAFETY IN THE USE OF ICT TOOLS",
+              "topics": [
+                "Evaluating Health Issues and Ergonomics at Computer Workstations",
+                "Evaluating Safety Risk Reduction and Managing Heat Generated by Machines",
               ],
             },
           ],
         },
         {
-          "subtitle": "DIGITAL CITIZENSHIP",
+          "subtitle": "PRODUCTIVITY SOFTWARE",
           "subStrands": [
             {
-              "subtitle": "SECURITY AND RESPONSIBILITY",
+              "subtitle": "INTRODUCTION TO WORD PROCESSING",
               "topics": [
-                "Cybersecurity and Data Privacy",
-                "Responsible Use of Digital Media",
+                "Adding Pictures, Screenshots, and Screen Clippings",
+                "Demonstrating the Use of SmartArt",
+                "Adding Multimedia, Charts, and Hyperlinks",
+              ],
+            },
+            {
+              "subtitle": "INTRODUCTION TO PRESENTATION",
+              "topics": [
+                "Adding Pictures and Inserting Screenshots",
+                "Animating Slides and Applying Transitions",
+                "Adding Multimedia, Tables, and Charts",
+              ],
+            },
+            {
+              "subtitle": "INTRODUCTION TO DESKTOP PUBLISHING",
+              "topics": [
+                "Creating and Presenting a Desktop Published Document",
+                "Describing a Desktop Published Document",
+                "Evaluating a Desktop Published Document",
+              ],
+            },
+            {
+              "subtitle": "INTRODUCTION TO ELECTRONIC SPREADSHEET",
+              "topics": [
+                "Data Filtering, Sorting, and Validation",
+                "Styles, Themes, Templates, and Macros",
+                "Data Tables, Pivot Tables, Charts, and Pivot Charts",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "COMMUNICATION NETWORKS",
+          "subStrands": [
+            {
+              "subtitle": "COMPUTER NETWORKS",
+              "topics": [
+                "E-Commerce and Cashless Systems",
+                "Justifying eLearning Potentials",
+              ],
+            },
+            {
+              "subtitle": "INTERNET AND SOCIAL MEDIA",
+              "topics": [
+                "Advantages and Risks of Social Media, and Email Communication",
+              ],
+            },
+            {
+              "subtitle": "INFORMATION SECURITY",
+              "topics": [
+                "CYBERBULLYING, CYBERSTALKING, DIGITAL FOOTPRINT AND DIGITAL SHADOW",
+                "INFORMATION HACKING TECHNIQUES ON THE INTERNET",
+              ],
+            },
+            {
+              "subtitle": "WEB TECHNOLOGIES",
+              "topics": [
+                "EXAMINE THE IMPORTANCE OF CREATING BLOGS",
+                "DEVELOP A BLOG FOR THE SCHOOL OR A SOCIAL CLUB",
+                "EXPLORE THE STEPS IN PUBLISHING A BLOG",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "COMPUTATIONAL THINKING",
+          "subStrands": [
+            {
+              "subtitle": "INTRODUCTION TO PROGRAMMING",
+              "topics": [
+                "Converting Decimal, Binary, and Hexadecimal Data and Performing Binary Arithmetic",
+                "Exploring Integrated Development Environment (IDE) Tools and Block-Based Programming",
+                "Exploring Web Development Programmes to Create a Simple Website",
+              ],
+            },
+            {
+              "subtitle": "ALGORITHM",
+              "topics": [
+                "CONSTRUCTING ALGORITHMS USING SEQUENCE, SELECTION, AND ITERATION",
+                "TRANSLATING BETWEEN FLOWCHARTS AND PSEUDOCODE",
+              ],
+            },
+            {
+              "subtitle": "ROBOTICS",
+              "topics": [
+                "Constructing a Robot Artefact and Asimov's Laws of Robotics",
+              ],
+            },
+            {
+              "subtitle": "ARTIFICIAL INTELLIGENCE",
+              "topics": [
+                "Knowledge-Based Systems and Classical Artificial Intelligence",
               ],
             },
           ],
@@ -3437,6 +3671,61 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     computingJhs1S1Ss2Lesson1IndependentQuizData;
                 quizData = computingJhs1S1Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                practiceData = computingJhs1S1Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss2Lesson2IndependentQuizData;
+                quizData = computingJhs1S1Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                practiceData = computingJhs1S1Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss2Lesson3IndependentQuizData;
+                quizData = computingJhs1S1Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 3) {
+                practiceData = computingJhs1S1Ss2Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss2Lesson4IndependentQuizData;
+                quizData = computingJhs1S1Ss2Lesson4QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 4) {
+                practiceData = computingJhs1S1Ss2Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss2Lesson5IndependentQuizData;
+                quizData = computingJhs1S1Ss2Lesson5QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 5) {
+                practiceData = computingJhs1S1Ss2Lesson6PracticeData;
+                independentPracticeData =
+                    computingJhs1S1Ss2Lesson6IndependentQuizData;
+                quizData = computingJhs1S1Ss2Lesson6QuizData;
               }
 
               // if (grade == "JHS 2" &&

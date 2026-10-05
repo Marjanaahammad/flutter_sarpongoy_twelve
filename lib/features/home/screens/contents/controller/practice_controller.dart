@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_sarpongoy_twelve/features/home/screens/contents/model/practice_model.dart';
 import 'package:flutter_sarpongoy_twelve/features/home/models/strand_model.dart';
@@ -11,6 +13,8 @@ import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
 
 class PracticeController extends GetxController {
+  static Future<void> _assetLoadQueue = Future<void>.value();
+
   final AudioPlayer _player = AudioPlayer();
   final ProgressRepository _progressRepo = Get.find<ProgressRepository>();
   bool isBece = false;
@@ -92,7 +96,15 @@ class PracticeController extends GetxController {
       return;
     }
 
-    await loadAudio(model.audioPath);
+    final audioLoaded = await loadAudio(model.audioPath);
+
+    if (isClosed) return;
+
+    if (!audioLoaded) {
+      showBanner.value = false;
+      await startQuestionFlow();
+      return;
+    }
 
     showBanner.value = true;
     _player.play();
@@ -118,33 +130,80 @@ class PracticeController extends GetxController {
     }
   }
 
-  Future<void> loadAudio(String assetPath) async {
-    try {
-      await _player.setAsset(assetPath);
+  Future<bool> loadAudio(String assetPath) async {
+    final loadResult = _assetLoadQueue.then((_) async {
+      if (isClosed) return false;
+      return _loadAudioInternal(assetPath);
+    });
 
-      _player.durationStream.listen((d) {
-        duration.value = d ?? Duration.zero;
-      });
+    _assetLoadQueue = loadResult.then<void>((_) {});
+    return loadResult;
+  }
 
-      _player.positionStream.listen((p) {
-        position.value = p;
-      });
+  Future<bool> _loadAudioInternal(String assetPath) async {
+    for (var attempt = 0; attempt < 2; attempt++) {
+      try {
+        await _player.setAsset(assetPath);
 
-      _player.playerStateStream.listen((state) {
-        isPlaying.value = state.playing;
+        _player.durationStream.listen((d) {
+          duration.value = d ?? Duration.zero;
+        });
 
-        if (state.processingState == ProcessingState.completed) {
-          if (!isLooping.value) {
-            showBanner.value = false;
-            _player.pause();
-            _player.seek(Duration.zero);
-            startQuestionFlow();
+        _player.positionStream.listen((p) {
+          position.value = p;
+        });
+
+        _player.playerStateStream.listen((state) {
+          isPlaying.value = state.playing;
+
+          if (state.processingState == ProcessingState.completed) {
+            if (!isLooping.value) {
+              showBanner.value = false;
+              _player.pause();
+              _player.seek(Duration.zero);
+              startQuestionFlow();
+            }
           }
+        });
+
+        return true;
+      } on PlayerException catch (e) {
+        final shouldRetry = e.code == -11849 && attempt == 0;
+        if (!shouldRetry) {
+          debugPrint("Error loading audio ($assetPath): $e");
+          return false;
         }
-      });
-    } catch (e) {
-      debugPrint("Error loading audio ($assetPath): $e");
+
+        debugPrint(
+          "Audio cache failed for $assetPath; clearing it and retrying once.",
+        );
+
+        try {
+          await _player.stop();
+          await AudioPlayer.clearAssetCache();
+        } catch (cacheError) {
+          debugPrint("Error clearing audio asset cache: $cacheError");
+        }
+      } on FileSystemException catch (e) {
+        final shouldRetry = e.osError?.errorCode == 17 && attempt == 0;
+        if (!shouldRetry) {
+          debugPrint("Error loading audio ($assetPath): $e");
+          return false;
+        }
+
+        debugPrint(
+          "Audio cache file already exists for $assetPath; waiting and retrying once.",
+        );
+        await Future<void>.delayed(const Duration(milliseconds: 150));
+
+        if (isClosed) return false;
+      } catch (e) {
+        debugPrint("Error loading audio ($assetPath): $e");
+        return false;
+      }
     }
+
+    return false;
   }
 
   Future<void> startQuestionFlow() async {

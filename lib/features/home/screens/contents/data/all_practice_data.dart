@@ -240,6 +240,157 @@ final PracticeModel computingJhs1S1Ss2Lesson1PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs1S1Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L2/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: What sequential steps should a student follow to calculate the total sum of five numbers in a spreadsheet during a classroom demonstration?",
+      answer:
+          "Correct Answer: The student clicks an empty cell below the numbers, types an equals sign, enters the SUM formula with the cell range in brackets, and presses the Enter key.",
+      explanation:
+          "Explanation: Starting with the equals sign activates formula mode, and the SUM command instructs the program to add all values in the selected cell range automatically.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: How should a group structure their presentation slides to deliver an effective demonstration to their peers?",
+      answer:
+          "Correct Answer: The group should use a title slide, concise bullet points for main ideas, clear supporting images, and enter Slide Show mode while presenting.",
+      explanation:
+          "Explanation: Slides are visual aids designed to keep the audience engaged; using short bullet points and relevant pictures prevents cognitive overload and supports the speaker.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: During a virtual museum demonstration, how does a student show specific details of an ancient artifact to the class?",
+      answer:
+          "Correct Answer: The student uses the zoom tool to enlarge fine textures, rotates the three-dimensional model, and clicks information hotspots to read curator notes.",
+      explanation:
+          "Explanation: Virtual museum controls allow users to manipulate digital objects interactively and access verified background history without touching the physical object.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S1Ss2Lesson3PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss2_L3/6. Guided Practice_updated.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: In what ways does using a spreadsheet program benefit a student conducting a science experiment on plant growth rates?",
+      answer:
+          "Correct Answer: The student can record daily plant height measurements in structured cells, use formulas to compute weekly growth averages, and produce line graphs to identify growth trends.",
+      explanation:
+          "Explanation: Spreadsheets automate arithmetic calculations and transform raw measurement numbers into clear visual graphs for scientific analysis.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain how presentation software helps shy students become more confident during classroom project presentations.",
+      answer:
+          "Correct Answer: Presentation slides provide structured visual bullet points that guide the speaker through their ideas, reducing speech anxiety and keeping the audience focused on the topic.",
+      explanation:
+          "Explanation: Having organized visual prompts on screen prevents speakers from forgetting their talking points, resulting in clearer delivery and greater self-assurance.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What academic advantages do students gain from exploring a virtual museum during a Social Studies lesson?",
+      answer:
+          "Correct Answer: Students observe detailed three-dimensional views of historical artifacts, read curator accounts, and access primary source materials without travelling to distant physical sites.",
+      explanation:
+          "Explanation: Virtual museums provide accessible, interactive cultural archives that enrich research, support historical inquiry, and enhance learning engagement.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S1Ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L4/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: What is electronic waste, and why does dumping it into unlined landfills pose an environmental threat?",
+      answer:
+          "Correct Answer: Electronic waste refers to discarded or broken computing equipment; dumping it in landfills allows toxic heavy metals like lead and mercury to leach into the soil and groundwater.",
+      explanation:
+          "Explanation: Unlike biodegradable materials, computers contain persistent heavy metals and hazardous chemicals that wash into local water systems when exposed to rain in open dumps.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: How does the burning of discarded computer cables at electronic scrap sites pollute the surrounding air?",
+      answer:
+          "Correct Answer: Burning computer plastics releases thick toxic fumes, including carbon monoxide and sulfur dioxide, producing atmospheric pollution and smog.",
+      explanation:
+          "Explanation: Open burning of synthetic insulation releases hazardous industrial gases into the atmosphere, creating dangerous air quality for nearby human communities and driving climate change.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain two distinct health hazards faced by individuals who manually dismantle and burn computer components without protective equipment.",
+      answer:
+          "Correct Answer: Inhaling toxic chemical fumes can cause respiratory diseases and lung cancer, while direct heavy metal contamination can lead to kidney disease and brain damage.",
+      explanation:
+          "Explanation: Toxic chemicals like cadmium, lead, and mercury enter the body through inhalation and direct skin contact, damaging internal organs and cognitive function.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S1Ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L5/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: How does lengthening the replacement cycle of school computers help preserve the natural environment?",
+      answer:
+          "Correct Answer: Lengthening the replacement cycle reduces overall electronic waste generation and curbs the mining of raw natural resources needed to manufacture new computers.",
+      explanation:
+          "Explanation: When schools maintain existing devices for longer periods, fewer machines are dumped into landfills, which directly reduces both manufacturing pollution and resource depletion.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: What practical measures can be implemented at Agbogbloshie to protect scrap workers and the local community from toxic pollution?",
+      answer:
+          "Correct Answer: Establishing a formal recycling centre with mechanical stripping tools, providing protective gear, and banning the open burning of electronic cables.",
+      explanation:
+          "Explanation: Formal recycling centres extract metals safely through mechanical means rather than open fires, preventing the release of toxic air pollutants and heavy metal contamination.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: In what ways does passing an e-waste management bill support national environmental conservation?",
+      answer:
+          "Correct Answer: An e-waste bill creates enforceable legal penalties against improper disposal, restricts imports of broken electronics, and mandates certified recycling systems.",
+      explanation:
+          "Explanation: Legislation gives authorities the legal power to regulate the electronic trade, stop illegal scrap dumping, and hold manufacturers responsible for safe product disposal.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S1Ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L6/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why must students wear safety goggles and thick cut-resistant gloves when dismantling discarded computer system units?",
+      answer:
+          "Correct Answer: Safety goggles protect the eyes from flying debris or dust, while thick gloves protect the hands from sharp metal edges and glass shards.",
+      explanation:
+          "Explanation: Computer casings often contain thin stamped sheet metal with razor-sharp edges and brittle plastic clips that can fracture and cause injury during disassembly.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Which dangerous components must be carefully extracted and isolated before computer scrap is shredded or repurposed?",
+      answer:
+          "Correct Answer: Rechargeable batteries, toner cartridges, and mercury-containing display tubes or lamps must be isolated.",
+      explanation:
+          "Explanation: These specific components contain concentrated heavy metals and hazardous chemical residues that contaminate the environment if crushed or broken.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: How does building a desk accessory from discarded hardware benefit both the student and the local environment?",
+      answer:
+          "Correct Answer: It provides the student with a useful, cost-free organizational tool while diverting non-biodegradable plastics and metals away from landfills.",
+      explanation:
+          "Explanation: Creative upcycling extends the functional life of manufactured materials, reducing the demand for new plastic products and decreasing local trash accumulation.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [

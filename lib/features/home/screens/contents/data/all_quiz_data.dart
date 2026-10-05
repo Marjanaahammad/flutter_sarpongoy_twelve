@@ -1143,6 +1143,736 @@ final QuizModel computingJhs1S1Ss2Lesson1QuizData = QuizModel(
   ],
 );
 
+final QuizModel computingJhs1S1Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which step must be taken first before inserting a bar chart in a spreadsheet?",
+      options: [
+        "Deleting all column headings in the sheet.",
+        "Highlighting the relevant table data cells.",
+        "Shutting down the computer monitor screen.",
+        "Disconnecting the local network Wi-Fi router.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A spreadsheet requires you to select the specific data range you want to visualize before generating a chart.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of launching full-screen Slide Show mode during a class talk?",
+      options: [
+        "It maximizes slide visibility for the audience.",
+        "It prints out hard copies for every classmate.",
+        "It translates spoken English into French text.",
+        "It prevents any future edits to the slide file.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Slide Show mode hides menus and toolbars so that the audience can focus entirely on the full-screen visual content.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which formula correctly adds numerical values from cell B2 to cell B6 in a spreadsheet?",
+      options: [
+        "=ADD(B2:B6)",
+        "=TOTAL(B2:B6)",
+        "=CALC(B2:B6)",
+        "=SUM(B2:B6)",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The standard formula function used across modern spreadsheet software to calculate totals is SUM.",
+    ),
+    QuizQuestion(
+      question:
+          "4. When demonstrating a virtual museum, what allows a student to inspect the backside of a sculpture?",
+      options: [
+        "Refreshing the web browser tab continuously.",
+        "Rotating the interactive 3D exhibit model.",
+        "Increasing the computer speaker volume level.",
+        "Switching the display monitor colour balance.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Virtual museum portals provide 3D controls that allow users to rotate digital artifacts fully in any direction.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which slide design choice ensures that text is easy to read across the classroom?",
+      options: [
+        "Dark font placed against a light background.",
+        "Light yellow font placed on a white slide.",
+        "Blinking sentences written in full capitals.",
+        "Entire textbook pages copied onto one slide.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "High visual contrast, such as dark lettering on a light background, ensures readability across distance.",
+    ),
+    QuizQuestion(
+      question:
+          '6. What occurs if a student enters "=B3+B4" into a spreadsheet cell and presses Enter?',
+      options: [
+        "The cell displays the combined sum of both cells.",
+        "The program closes the active workbook file.",
+        "The software deletes both cells permanently.",
+        "The screen displays an unformatted line chart.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The equals sign triggers formula execution, adding the two numeric values together and showing the result.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How can a presenter discover curator notes about an artifact inside a virtual museum?",
+      options: [
+        "By clicking interactive digital info markers.",
+        "By typing an equals formula in the web address.",
+        "By restarting the tablet operating software.",
+        "By inserting a new blank presentation slide.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Information hotspots or markers within virtual exhibits open pop-up cards containing curator explanations.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should presenters use short bullet points instead of long paragraphs on slides?",
+      options: [
+        "Bullet points allow audience members to read quickly.",
+        "Software programs crash when paragraphs are added.",
+        "Projectors cannot display lowercase letters clearly.",
+        "Tablets automatically delete lengthy sentences.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Concise bullet points help the audience capture key ideas quickly without distracting them from the speaker.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the best way to prepare for a group software demonstration in school?",
+      options: [
+        "Let one person do all the work silently.",
+        "Skip practice and read notes for the first time.",
+        "Memorise the entire textbook word for word.",
+        "Rehearse the steps and assign roles to members.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Practicing tool navigation and assigning specific tasks ensures smooth, confident group presentations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which action should be taken if a number is entered incorrectly into a spreadsheet cell?",
+      options: [
+        "Discard the computer and purchase a new one.",
+        "Click the cell, type the correct value, and press Enter.",
+        "Format the entire worksheet as a line graph.",
+        "Shut down the electrical power to the school lab.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheet cells are fully editable; selecting a cell and entering the new value updates all linked formulas automatically.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How do spreadsheet applications assist learners during data analysis tasks?",
+      options: [
+        "They correct punctuation in English essay paragraphs.",
+        "They prevent monitors from drawing excessive power.",
+        "They generate instant graphical charts from raw data.",
+        "They replace internet modems during school closures.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Spreadsheets allow users to convert numerical tables into visual charts, facilitating rapid data analysis.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is a direct educational benefit of using presentation slides during group talks?",
+      options: [
+        "Increasing visual impact and audience attention.",
+        "Eliminating all homework assignments for pupils.",
+        "Formatting solid-state hard drives on laptops.",
+        "Converting written text into computer viruses.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Presentation slides organize ideas with text and graphics, making oral presentations clearer and more engaging.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does playing digital word games like Scrabble benefit a student's language development?",
+      options: [
+        "It teaches learners how to assemble power plugs.",
+        "It converts word documents into spreadsheet cells.",
+        "It speeds up the cooling fan inside desktop units.",
+        "It develops vocabulary breadth and spelling skills.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Digital word games encourage active word construction, expanding vocabulary and reinforcing correct spelling.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In what way do virtual museums support independent student research?",
+      options: [
+        "By enabling students to examine primary cultural artifacts.",
+        "By providing printed paper textbooks to every home.",
+        "By charging students high entry fees for each view.",
+        "By shutting down internet links to public libraries.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Virtual museums give learners access to authentic historical artifacts and curator documentation for independent study.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is graphical representation in spreadsheets superior to long lists of numbers?",
+      options: [
+        "It consumes zero battery energy on portable devices.",
+        "It makes trends and comparisons easier to interpret.",
+        "It prevents any user from modifying spreadsheet data.",
+        "It removes the need for teachers to set exam tests.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Graphs visually illustrate patterns, spikes, and declines in data far more intuitively than raw tables of numbers.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which benefit explains why teachers encourage the use of presentation tools for class projects?",
+      options: [
+        "Slides build student speaking confidence and focus.",
+        "Slides turn off computer monitors during presentations.",
+        "Slides prevent audience members from asking questions.",
+        "Slides replace the need to research project topics.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Preparing and delivering slide shows helps students organize their thoughts and speak with greater confidence.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a spreadsheet program help a student running a small school snack business?",
+      options: [
+        "By writing fictional adventure stories for customers.",
+        "By broadcasting live radio announcements to schools.",
+        "By tracking expenses and computing profits accurately.",
+        "By designing physical clay pots for storing drinks.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheets automate financial calculations, allowing students to record revenues, track expenses, and view profit margins.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What intellectual skill is strengthened through competitive digital word games?",
+      options: [
+        "Strategic thinking and problem-solving abilities.",
+        "Hardware soldering and circuit board fabrication.",
+        "Manual physical typing speed on old typewriters.",
+        "Electrical circuit maintenance in power systems.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Word puzzle games require players to evaluate letter combinations strategically to maximise their scores.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How do digital learning tools facilitate distance education?",
+      options: [
+        "By requiring learners to walk to physical libraries.",
+        "By stopping students from communicating with peers.",
+        "By permanently erasing old school lesson archives.",
+        "By sharing educational resources and slides online.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Digital tools and presentation platforms allow teachers and students to interact and share learning materials remotely.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes virtual museum exploration particularly helpful during historical project work?",
+      options: [
+        "It allows learners to evaluate authentic research items.",
+        "It replaces historical facts with animated cartoons.",
+        "It locks student tablets so they cannot be reused.",
+        "It prints paper certificates for completing games.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Virtual museums provide access to high-resolution photographs, curator notes, and verified historical records for research.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What happens when toxic heavy metals from computer scrap seep into community soil?",
+      options: [
+        "They contaminate groundwater used for drinking.",
+        "They increase the processing speed of laptops.",
+        "They help farm crops grow taller and faster.",
+        "They convert open fields into nature reserves.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Toxic metals like mercury and lead dissolve in rainwater, soaking into soil and polluting underground drinking water.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which severe medical condition is directly linked to inhaling fumes from burning e-waste?",
+      options: [
+        "Fractured limbs",
+        "Common malaria",
+        "Mild toothache",
+        "Lung cancer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Toxic gases and particulate matter from burning plastics and metals cause severe respiratory disease and lung cancer.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does the massive demand for new computers affect natural global resources?",
+      options: [
+        "It accelerates deforestation and mineral mining.",
+        "It reduces the total amount of e-waste produced.",
+        "It eliminates industrial noise from all factories.",
+        "It naturally replaces fossil fuels with rainwater.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Sourcing raw materials for electronics requires aggressive mining and land clearance, leading to resource depletion.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is open burning of computer parts considered an irresponsible disposal method?",
+      options: [
+        "It releases poisonous gases into the atmosphere.",
+        "It cools down global atmospheric temperatures.",
+        "It requires too much clean treated freshwater.",
+        "It makes computer hardware run twice as fast.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Open burning releases toxic air pollutants like dioxins, carbon monoxide, and heavy metal ash into the environment.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which bodily organ suffers severe damage when workers are exposed to electronic toxins?",
+      options: [
+        "Stomach muscles",
+        "Kidney organ",
+        "Knee joints",
+        "Shoulder bones",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Heavy metals like lead and cadmium accumulate inside human kidneys, causing chronic organ failure.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does clearing forests to build computer assembly plants impact wildlife ecology?",
+      options: [
+        "It destroys natural animal habitats and shelters.",
+        "It creates abundant new food supplies for birds.",
+        "It protects endangered species from wildfires.",
+        "It stops atmospheric air pollution permanently.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Habitat destruction forces wildlife from their natural ecosystems, disrupting food chains and reducing biodiversity.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following is considered a component of e-waste when discarded?",
+      options: [
+        "Ripe mango skins",
+        "Wooden classroom desks",
+        "Broken CRT monitors",
+        "Cotton school uniforms",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Old computer display units and electronic monitors constitute hazardous e-waste when thrown out.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of pollution is produced by heavy shredders operating inside recycling depots?",
+      options: [
+        "Noise pollution",
+        "Genetic mutation",
+        "Thermal inversion",
+        "Radiation decay",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Industrial shredders, sorting machines, and manufacturing tools generate loud noise pollution that can cause stress and hearing loss.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why does high electricity consumption by computers contribute to climate change?",
+      options: [
+        "Electricity freezes greenhouse gases in clouds.",
+        "Power grids absorb all ambient solar radiation.",
+        "Most power plants burn fossil fuels for power.",
+        "Electric wires absorb harmful factory pollutants.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Much of the world's electricity still relies on burning coal, oil, and gas, releasing carbon emissions that drive global warming.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which toxic element found in electronic hardware is notorious for causing brain damage?",
+      options: [
+        "Silicon crystal",
+        "Copper wiring",
+        "Iron metal",
+        "Lead element",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Lead is a potent neurotoxin found in electronic solder and cathode-ray tubes that can cause irreversible brain damage.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L5/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which habit directly reduces power consumption in a computer laboratory?",
+      options: [
+        "Leaving monitors on standby all weekend long.",
+        "Turning off devices when they are not in use.",
+        "Setting display screens to maximum brightness.",
+        "Disconnecting cooling fans inside processors.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Shutting down machines completely eliminates idle electricity use and lowers overall energy consumption.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the safest way to dispose of damaged computer components?",
+      options: [
+        "Delivering them to certified recycling depots.",
+        "Throwing them into common school rubbish bins.",
+        "Burning cables in open pits behind the house.",
+        "Burying broken lithium batteries under garden soil.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Certified recyclers dismantle electronics properly, recovering raw materials without polluting the surrounding environment.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does passing national e-waste legislation protect the public?",
+      options: [
+        "It forbids the use of spreadsheets in offices.",
+        "It bans students from playing computer word games.",
+        "It penalizes improper disposal of electronic waste.",
+        "It forces schools to replace working tablets yearly.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Legislation establishes regulatory standards and penalties that deter unsafe dumping and illegal electronic burning.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which measure helps eliminate hazardous open burning at Agbogbloshie?",
+      options: [
+        "Banning all computers from entering Ghana.",
+        "Distributing lighter fluid to informal scrap yards.",
+        "Providing mechanical wire-stripping tools.",
+        "Digging open drainage trenches into Korle Lagoon.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Providing scrap workers with mechanical wire strippers enables copper recovery without burning plastic coatings.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why should schools upgrade existing computers rather than buying new models?",
+      options: [
+        "It reduces electronic waste and saves resources.",
+        "Newer computers never support educational tools.",
+        "Older computers consume zero electrical power.",
+        "Upgrading hardware slows down network speed.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Upgrading hardware extends device lifespans, curbing e-waste generation and saving financial and natural resources.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary objective of public education campaigns regarding e-waste?",
+      options: [
+        "Raising awareness of chemical toxicity in scrap.",
+        "Convincing citizens to abandon modern technology.",
+        "Encouraging people to bury toxic batteries at home.",
+        "Teaching workers how to melt computer wires faster.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Educating communities helps people understand the health hazards of heavy metals and encourages responsible disposal.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which form of clean power helps reduce computer greenhouse emissions?",
+      options: [
+        "Firewood bonfires",
+        "Solar electricity",
+        "Diesel generator",
+        "Coal incineration",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Solar power generates electricity without burning fossil fuels, lowering carbon emissions linked to device use.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What practice prevents vampire power drain from electronics?",
+      options: [
+        "Unplugging adapters when charging is finished.",
+        "Cleaning monitor screens with a moist cloth.",
+        "Installing antivirus software onto the hard disk.",
+        "Leaving laptop chargers connected day and night.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Unplugging charging bricks from wall sockets stops them from continuously consuming standby electricity.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a community ensure that functioning pre-owned computers are not wasted?",
+      options: [
+        "By burning their outer shells at rubbish dumps.",
+        "By throwing them into coastal lagoon waters.",
+        "By burying them in municipal landfill trenches.",
+        "By donating them to needy schools and libraries.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Donating working electronics extends their useful lifecycle and provides educational access to underserved groups.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is importing severely damaged computers problematic for a country?",
+      options: [
+        "It turns into immediate e-waste upon arrival.",
+        "It lowers the cost of internet bandwidth nationwide.",
+        "It speeds up the cooling performance of servers.",
+        "It provides free clean drinking water to cities.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Half-broken or obsolete electronics cannot be repaired easily and rapidly end up in local waste dumps.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L6/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the very first procedure carried out when scrap computers arrive at an industrial recycling plant?",
+      options: [
+        "Melting down all components in a hot furnace.",
+        "Crushing system cases without sorting materials.",
+        "Recording inventory and sorting the equipment.",
+        "Dumping all incoming boxes into open lagoons.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Receiving, cataloguing, and sorting equipment allows recyclers to separate reusable devices from scrap streams.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which non-hazardous computer component can be safely handled by students to build a classroom craft project?",
+      options: [
+        "Detached plastic keyboard keycaps",
+        "Leaking nickel-cadmium batteries",
+        "Loose toxic chemical printer toner",
+        "Cracked cathode-ray picture tubes",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Clean plastic keycaps are non-hazardous, safe to handle, and ideal for creative decorative projects.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why must sharp metal edges of discarded drive casings be filed down before project assembly?",
+      options: [
+        "To reduce the weight of the metal for air travel.",
+        "To convert sheet aluminium into magnetic steel.",
+        "To increase the electrical conductivity of brass.",
+        "To prevent painful cuts and injuries to the user.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Filing down stamped metal edges removes dangerous burrs and ensures the finished item is safe to handle.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What safety equipment should students always wear when sorting through computer hardware scrap?",
+      options: [
+        "Heavy cut-resistant work gloves",
+        "Lightweight woollen winter scarves",
+        "Rubber swimming fins and snorkels",
+        "Loose silk shirts with open sleeves",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Cut-resistant gloves protect hands from jagged metal edges, glass fragments, and abrasive surfaces.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How do industrial recycling depots separate non-ferrous metals like copper and aluminium from plastic flakes?",
+      options: [
+        "By employing hand-held magnifiers on conveyers.",
+        "By using eddy-current and water density baths.",
+        "By burning the mixtures in open field bonfires.",
+        "By leaving piles in outdoor rain pits to dissolve.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Density tanks float light plastics while eddy currents deflect non-ferrous metals for clean sorting.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which practice ensures that electronic scrap collection does not harm the surrounding community?",
+      options: [
+        "Gathering hardware from repair shops and schools.",
+        "Burning plastic wires on open community fields.",
+        "Burying swollen battery cells near garden crops.",
+        "Dumping discarded monitors into freshwater rivers.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Collecting outdated units directly from repairers and schools prevents them from reaching open landfills or fire pits.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the primary ecological benefit of transforming disposed computer casings into useful home objects?",
+      options: [
+        "It speeds up the national internet connectivity.",
+        "It replaces classroom teachers with microchips.",
+        "It permanently increases rainfall in the forest.",
+        "It reduces the volume of solid waste in dumps.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Repurposing durable metal and plastic casings keeps non-biodegradable waste out of municipal dumps.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of machine is used to chop stripped electronic metal and plastic shells into tiny bits?",
+      options: [
+        "Industrial mechanical shredder",
+        "Automated optical document scanner",
+        "Hand-cranked classroom pencil sharpener",
+        "Household clothes washing tumble dryer",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Heavy shredding machines grind rigid housings down to facilitate automated sorting and melting.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are cathode-ray tube display monitors classified as hazardous computer waste?",
+      options: [
+        "They produce loud music when disconnected.",
+        "They contain significant amounts of toxic lead.",
+        "They absorb excessive atmospheric solar heat.",
+        "They dissolve completely upon contact with air.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Cathode-ray tubes contain large amounts of lead in the funnel glass to block X-rays, making them toxic waste.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How can an old, non-functional computer cooling fan be repurposed in a student design project?",
+      options: [
+        "As a pen separator or rotating craft display.",
+        "As an electrical battery charger for tablets.",
+        "As a substitute for clear microscope lenses.",
+        "As a replacement for high-voltage power plugs.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Cleaned fan bodies and circular grills provide physical compartments or spinning elements for craft designs.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [
