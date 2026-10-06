@@ -391,6 +391,370 @@ final PracticeModel computingJhs1S1Ss2Lesson6PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs1S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss3_L1/6. Guided Practice updated.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why a learner who types continuously for several hours without taking breaks might experience sharp pain in the wrists and forearms.",
+      answer:
+          "Correct Answer: The student is experiencing Repetitive Strain Injury (RSI) caused by continuous, repetitive finger and wrist movements that inflame the tendons and strain the nerves.",
+      explanation:
+          "Explanation: Repeating the exact same typing motions without wrist support or rest compresses the nerves and overworks forearm tendons, leading to swelling and wrist stiffness.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe two adjustments a student can make to their computer screen to prevent visual fatigue and headaches.",
+      answer:
+          "Correct Answer: Position the screen at or slightly below eye level, and adjust the brightness and tilt to eliminate reflections and glare.",
+      explanation:
+          "Explanation: Positioning the screen correctly keeps neck muscles relaxed, while reducing excessive brightness and glare stops eye muscles from overworking.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State how an ICT learner can avoid chronic lower back pain during long computer sessions.",
+      answer:
+          "Correct Answer: Sit upright with the back supported firmly by the chair backrest, keep feet flat on the floor, and take regular standing breaks.",
+      explanation:
+          "Explanation: Maintaining an upright ergonomic posture keeps the spine in natural alignment and prevents muscle strain across the lumbar back region.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Why is it dangerous to listen to computer audio or music through earphones at maximum volume during practical lab lessons?",
+      answer:
+          "Correct Answer: Excessive sound volume transmits intense acoustic vibrations that can permanently damage sensory hair cells in the inner ear, leading to hearing impairment.",
+      explanation:
+          "Explanation: Loud audio creates high pressure inside the ear canal, causing irreversible sensorineural hearing loss over prolonged periods.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why eating kenkey or drinking fruit juice directly over a computer keyboard is considered a major laboratory hazard.",
+      answer:
+          "Correct Answer: Liquids spilled onto a keyboard can leak into electronic circuits, causing short circuits, equipment breakdown, and potential electric shocks to the user.",
+      explanation:
+          "Explanation: Conductive fluids bridge internal electrical pathways, damaging microchips and creating live current paths to external surfaces.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: State two hazards that can occur when power cables are left trailing across computer laboratory aisles.",
+      answer:
+          "Correct Answer: Students and teachers can trip and fall, and heavy computer equipment can be yanked off desks onto the floor.",
+      explanation:
+          "Explanation: Unsecured cables catch on passing feet, leading to personal injury and destructive drops for expensive monitors and system units.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What should a student do immediately if they spot bare, exposed copper wires on an ICT device power cord?",
+      answer:
+          "Correct Answer: Do not touch the damaged cable, keep others away from the desk, and report the hazard immediately to the teacher.",
+      explanation:
+          "Explanation: Exposed copper wires carry live electrical currents that cause electric shock, meaning only trained personnel should isolate and replace them.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Why is it dangerous to plug numerous high-powered computing devices and accessories into a single wall extension board?",
+      answer:
+          "Correct Answer: Overloading an extension board pulls excessive electrical current, causing the wiring to overheat and potentially ignite a fire.",
+      explanation:
+          "Explanation: Electrical circuits are rated for specific maximum current loads, and exceeding these thresholds melts insulation and sparks electrical fires.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S1Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L3/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the first step an ICT student should take upon discovering that their chair causes severe lower back stiffness during class.",
+      answer:
+          "Correct Answer: Assess the chair setup and adjust the seat height and backrest so that the lower back is supported firmly and feet rest flat on the floor.",
+      explanation:
+          "Explanation: Proper lumbar support and correct chair height maintain the spine's natural curve and reduce tension on lower back muscles.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe two specific workstation adjustments a learner can make to eliminate constant screen glare caused by laboratory lighting.",
+      answer:
+          "Correct Answer: Tilt the computer screen slightly forward or backward, and close window blinds or adjust ambient room lighting.",
+      explanation:
+          "Explanation: Changing the monitor angle diverts reflected light away from the eyes, while shading windows eliminates harsh incoming sunlight.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State how a student should resolve wrist fatigue caused by having no space in front of the keyboard on a crowded desk.",
+      answer:
+          "Correct Answer: Clear away desk clutter and push the keyboard back to create at least ten centimetres of clear forearm resting space.",
+      explanation:
+          "Explanation: Providing adequate space in front of the keys allows forearms and wrists to remain straight and supported while typing.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Why must a workstation risk assessment always include an inspection of electrical power cables and wall plugs?",
+      answer:
+          "Correct Answer: To identify frayed insulation, loose wires, or overloaded circuits that could cause electrical shocks or fire outbreaks.",
+      explanation:
+          "Explanation: Electrical hazards can be invisible until touched; early detection ensures faulty components are repaired before accidents happen.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S1Ss3Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L4/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the difference between eliminating a workstation hazard and minimizing a workstation risk.",
+      answer:
+          "Correct Answer: Eliminating a hazard means completely removing the dangerous source, whereas minimizing a risk means using protective safeguards or adjustments to lower the chance of injury when the hazard cannot be fully removed.",
+      explanation:
+          "Explanation: Removal of a broken electrical cord eliminates the shock hazard, whereas using an anti-glare screen filter minimizes visual fatigue from an active display.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: State two specific safety adjustments you should make to an ICT chair to maximize comfort and protect the spine.",
+      answer:
+          "Correct Answer: Adjust the seat height so feet rest flat on the floor with knees at 90 degrees, and position the backrest cushion to firmly support the lumbar curve of the lower back.",
+      explanation:
+          "Explanation: Proper chair height maintains leg blood flow, while correct lumbar support preserves the spine's natural alignment and prevents muscle strain.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe two practical measures that can be taken in a computer lab to prevent students from slipping on wet floors.",
+      answer:
+          "Correct Answer: Mop up liquid spills immediately and display a visible yellow wet-floor warning sign until the tiles are completely dry.",
+      explanation:
+          "Explanation: Prompt cleaning dries slick moisture, while clear safety signs alert users to walk cautiously, preventing accidental falls.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Why is it important to re-position heavy computing devices away from table perimeters toward the center of the desk?",
+      answer:
+          "Correct Answer: Re-positioning devices inward keeps them stable and prevents them from falling off the edge if someone bumps the desk or catches a trailing wire.",
+      explanation:
+          "Explanation: Securing devices away from edges prevents expensive hardware breakage and protects learners from impact injuries caused by falling equipment.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L1/5. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A school clerk wants to store student report cards electronically instead of keeping large stacks of paper files in an old wooden cupboard. State one key reason why digitising these records with a word processor is advantageous.",
+      answer:
+          "Correct Answer: Digitising records protects them from physical decay, dampness, pest damage, and accidental loss.",
+      explanation:
+          "Explanation: Paper documents easily deteriorate over time due to humidity, mold, and termites. Digital files created with a word processor remain permanently clean and can be safely backed up on storage media.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Kwame is preparing an application letter for a teaching job. Explain how using a word processor helps him present a professional impression compared to handwriting the letter.",
+      answer:
+          "Correct Answer: It ensures neat formatting and eliminates visible handwriting erasures, smudges, and spelling errors.",
+      explanation:
+          "Explanation: Word processors provide automated spelling checkers and neat font styling, ensuring the document is legible, well-aligned, and free of untidy corrections.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Identify two common word processing applications that can be used on a computer to write an essay.",
+      answer:
+          "Correct Answer: Microsoft Word and Google Docs (or LibreOffice Writer).",
+      explanation:
+          "Explanation: Both Microsoft Word and Google Docs are specialized application software programs built specifically for drafting, formatting, and saving text documents.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L2/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student types a paragraph and wants to move the concluding sentence to the opening line. Describe the two key keyboard shortcuts needed to move this text using the clipboard.",
+      answer:
+          "Correct Answer: Press Ctrl + X to cut the selected sentence, then press Ctrl + V to paste it at the beginning.",
+      explanation:
+          "Explanation: Ctrl + X removes the text from its original position and stores it on the Clipboard, while Ctrl + V inserts that stored text into the new cursor location.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the practical difference between pressing the Backspace key and pressing the Delete key when editing a word on screen.",
+      answer:
+          "Correct Answer: The Backspace key deletes characters to the left of the cursor, while the Delete key removes characters to the right of the cursor.",
+      explanation:
+          "Explanation: Both keys erase text, but they move in opposite directions relative to the blinking cursor's position.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What happens to existing text when you type new words while Microsoft Word is set to Overtype mode?",
+      answer:
+          "Correct Answer: The new characters type directly over and replace the existing characters to the right of the cursor.",
+      explanation:
+          "Explanation: In Overtype mode, instead of shifting existing text forward, new typing overwrites existing letters one by one.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L3/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          'Question 1: A student wants to search for the word "Parliament" across an eight-page social studies document without reading line by line. Describe how to open the Navigation Pane to perform this search using the keyboard.',
+      answer:
+          'Correct Answer: Press the keyboard shortcut Ctrl + F to open the Navigation Pane and type "Parliament" into the search box.',
+      explanation:
+          "Explanation: Ctrl + F immediately displays the Navigation Pane on the left side of the screen, allowing users to type search terms and view highlighted results across the whole document.",
+    ),
+    PracticeQuestion(
+      scenario:
+          'Question 2: Explain the difference between clicking "Replace" and clicking "Replace All" in the Find and Replace dialog box.',
+      answer:
+          'Correct Answer: "Replace" modifies only the currently highlighted occurrence, while "Replace All" automatically updates every occurrence throughout the entire document at once.',
+      explanation:
+          "Explanation: Clicking Replace allows the user to approve changes one by one, whereas Replace All applies the substitution across the whole document in a single action.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: While formatting a letter, you accidentally clear a large table of data. What immediate action should you take to restore the table without retyping it?",
+      answer:
+          "Correct Answer: Press Ctrl + Z or click the Undo button on the Quick Access Toolbar.",
+      explanation:
+          "Explanation: The Undo command reverses the most recent action, immediately bringing back deleted content into its original position.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss1Lesson4PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L4/6. Guided Practice update.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: While typing an English composition, a student notices a red wavy line beneath a word, but the spelling checker does not highlight a nearby grammatical error. Explain the difference between what a red wavy line and a green wavy line indicate.",
+      answer:
+          "Correct Answer: A red wavy line flags a misspelled word, whereas a green wavy line flags a grammatical mistake.",
+      explanation:
+          "Explanation: Red wavy lines show that a word does not match any entry in the active dictionary, while green wavy lines identify problems with sentence structure or punctuation rules.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A student wants to replace an overused word with a suitable synonym to improve their essay. Describe the quickest way to do this using the mouse without opening the ribbon tabs.",
+      answer:
+          "Correct Answer: Right-click the word, point to Synonyms in the menu, and select a replacement word.",
+      explanation:
+          "Explanation: Right-clicking any typed word opens a contextual pop-up menu featuring direct synonym suggestions from the integrated Thesaurus.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe the steps needed to convert a highlighted English paragraph into French using Microsoft Word's translation feature.",
+      answer:
+          "Correct Answer: Go to the Review tab, click Translate in the Language group, select Translate Selected Text, choose French as the target language, and click Insert.",
+      explanation:
+          "Explanation: Under the Review tab, the Translate Selected Text command opens the Translator pane, where you select your target language and insert the translated content.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L5/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student typed an entire assignment heading using small letters by mistake. Describe how the student can change the heading to all capital letters without deleting and retyping the words.",
+      answer:
+          "Correct Answer: Highlight the heading, click the Change Case button on the Home tab, and select UPPERCASE.",
+      explanation:
+          "Explanation: The Change Case command in the Font group allows users to convert selected text directly into full capital letters without retyping.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the visual difference between applying the Font Color tool and applying the Text Highlight Color tool to a phrase.",
+      answer:
+          "Correct Answer: Font Color changes the colour of the letter characters themselves, while Text Highlight Color places a bright background shade behind the characters.",
+      explanation:
+          "Explanation: Font Color alters the ink of the text, whereas Text Highlight Color simulates using a fluorescent highlighter pen over the text.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the standard keyboard shortcuts used to apply Bold decoration and Italic decoration to selected words.",
+      answer:
+          "Correct Answer: Press Ctrl + B for Bold and Ctrl + I for Italic.",
+      explanation:
+          "Explanation: Ctrl + B darkens and thickens selected characters, while Ctrl + I slants them forward to the right.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L6/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student is typing an essay and wants the left and right margins of the body paragraphs to be straight and even, just like in a printed textbook. State the alignment setting and its keyboard shortcut required to achieve this.",
+      answer:
+          "Correct Answer: Justify alignment, using the keyboard shortcut Ctrl + J.",
+      explanation:
+          "Explanation: Justify alignment distributes text evenly between margins so that both the left and right edges are straight.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the practical difference between using the Increase Indent command and pressing the Spacebar repeatedly to shift a paragraph.",
+      answer:
+          "Correct Answer: Increase Indent shifts the entire paragraph evenly by a set tab stop (half an inch) at once, whereas using the Spacebar creates uneven, irregular spacing.",
+      explanation:
+          "Explanation: Increase Indent applies uniform paragraph indentation throughout the document, keeping text properly aligned.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a student can create a highlighted callout box around an important club rule using the Paragraph group tools.",
+      answer:
+          "Correct Answer: Select the text, click the Borders button to apply an Outside Border, and click the Shading paint bucket to apply a light background colour.",
+      explanation:
+          "Explanation: Combining an outside border with background shading encloses the selected paragraph in a neat, tinted frame.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss1Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L7/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student is typing a menu list for a school canteen and needs all prices in Ghana Cedis to align perfectly along their decimal points. Name the specific tab stop required and describe how it aligns numbers.",
+      answer:
+          "Correct Answer: The Decimal Tab; it aligns numeric values vertically along their decimal points regardless of how many digits precede or follow the point.",
+      explanation:
+          "Explanation: The Decimal Tab ensures that currency values and decimal fractions line up along the decimal point, maintaining neat vertical columns.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the function of a Tab Leader when designing a Table of Contents in Microsoft Word.",
+      answer:
+          "Correct Answer: A Tab Leader automatically fills the empty space between the text and the next tab stop with a pattern such as dots, dashes, or a solid line.",
+      explanation:
+          "Explanation: Tab leaders bridge wide gaps between headings and page numbers, making it easy for the reader's eye to follow the line across the page.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a user can reveal hidden tab characters and spaces on screen to inspect document formatting.",
+      answer:
+          "Correct Answer: Click the Show/Hide button (the pilcrow symbol, ¶) in the Paragraph group on the Home tab.",
+      explanation:
+          "Explanation: Activating the Show/Hide tool displays non-printing marks, showing spaces as dots and tab jumps as small right-pointing arrows.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [

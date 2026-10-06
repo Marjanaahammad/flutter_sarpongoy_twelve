@@ -1873,6 +1873,1610 @@ final QuizModel computingJhs1S1Ss2Lesson6QuizData = QuizModel(
   ],
 );
 
+final QuizModel computingJhs1S1Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L1/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which computing hazard is directly triggered by continuous, high-volume sound from Public Address systems or earphones?",
+      options: [
+        "Hearing impairment",
+        "Muscle tendon strain",
+        "Visual eye fatigue",
+        "Spinal nerve damage",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Prolonged exposure to loud sound waves through earphones or PA speakers damages sensitive ear structures and impairs hearing.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual exercise should a computer user practice every twenty minutes to relax tired eye muscles?",
+      options: [
+        "Look at distant targets",
+        "Close eyes for an hour",
+        "Turn off room lights",
+        "Rub the eyelids firmly",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The 20-20-20 rule instructs users to look at an object 20 feet away for 20 seconds to relieve ciliary muscle tension.",
+    ),
+    QuizQuestion(
+      question:
+          "3. When setting up an ergonomic workstation chair, how should a learner position their feet for proper blood flow?",
+      options: [
+        "Lifted off the ground",
+        "Flat against the floor",
+        "Crossed at the knees",
+        "Folded under the seat",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Placing feet flat on the floor keeps the lower body stable, prevents knee constriction, and aids steady blood circulation.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What injury often develops when a student types with bent wrists on a hard desk edge without rest breaks?",
+      options: [
+        "Myopic astigmatism",
+        "Sudden hearing loss",
+        "Carpal tunnel issue",
+        "Chronic lumbar curve",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Awkward wrist angles during repetitive typing pinch the median nerve, leading to carpal tunnel syndrome and wrist pain.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which habit helps prevent stiffness in the legs and improves blood flow during long computer lab sessions?",
+      options: [
+        "Slumping down in the seat",
+        "Leaving feet unsupported",
+        "Leaning forward on knees",
+        "Standing up and marching",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Standing up and marching on the spot or walking around every hour activates leg muscles and boosts venous blood return.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What should a student do if direct afternoon sunlight creates harsh glare across a desktop monitor?",
+      options: [
+        "Turn up monitor contrast",
+        "Increase screen lighting",
+        "Adjust the monitor tilt",
+        "Move closer to display",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tilting the screen slightly away from incident light or adjusting window blinds eliminates distracting surface glare.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which sitting posture is most likely to cause severe upper and lower back pain over time?",
+      options: [
+        "Sitting tall in the chair",
+        "Supporting lower spine",
+        "Keeping shoulders relaxed",
+        "Slouching towards screen",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Slouching curves the spine unnaturally, putting heavy mechanical stress on lumbar muscles and spinal discs.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a student effectively stretch their forearm tendons after thirty minutes of typing?",
+      options: [
+        "Push hands with palms out",
+        "Clench fists very tightly",
+        "Keep fingers bent inwards",
+        "Rest elbows on desk edge",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Interlocking fingers and pressing the palms outward gently extends and decompresses the flexor tendons of the wrists.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the primary cause of eye strain among students using mobile tablets in dark rooms?",
+      options: [
+        "Excessive screen contrast",
+        "Low headphone volume",
+        "Sitting too far away",
+        "Weak wireless signal",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A stark contrast between a bright digital screen and a dark surrounding room forces eyes to constantly strain to balance light levels.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why must school computer lab chairs provide adequate support for the lower lumbar region of the back?",
+      options: [
+        "To prevent screen glare",
+        "To maintain ear balance",
+        "To improve wrist speed",
+        "To preserve spine curves",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Lumbar support reinforces the natural inward curvature of the lower spine, preventing chronic aches and muscle fatigue.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What hazard is most likely when drinks are kept beside open computer cooling vents?",
+      options: [
+        "Permanent circuit damage",
+        "Low monitor refresh rates",
+        "Better system performance",
+        "Soft keyboard button clicks",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Liquids entering computer vents settle onto circuit boards, causing fatal electronic short circuits and component corrosion.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What should you do if an ICT power cable has a cracked outer casing and exposed wires?",
+      options: [
+        "Report the cord to a teacher",
+        "Cover it with ordinary papers",
+        "Keep using the frayed plug",
+        "Wash the cable with hot water",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Frayed or damaged cords present a severe shock hazard and must be reported immediately for professional replacement.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What protective installation keeps floor walkways safe from loose trailing computer cords?",
+      options: [
+        "Wet paper towels on carpet",
+        "Cable trunking and raceways",
+        "Uncovered desk power strips",
+        "Loose extension wire loops",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Rigid trunking or cable ducts house loose cables securely, eliminating tripping hazards and wire damage.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why must students never touch the positive and negative terminals of a damaged wire?",
+      options: [
+        "It slows mouse cursor speed",
+        "It decreases monitor contrast",
+        "It causes severe electric shocks",
+        "It corrupts operating files",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Touching live terminals closes an electrical path through your body, causing severe electric shock and thermal burns.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What dangerous condition occurs when an overloaded extension strip becomes hot to the touch?",
+      options: [
+        "Screen visual flickering",
+        "Faster network downloads",
+        "Damaged keyboard mechanics",
+        "Fire from melted insulation",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Overloaded circuits draw extreme current, causing wires to overheat, melt protective insulation, and ignite fires.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does tripping over a stretched monitor power cord commonly cause equipment loss?",
+      options: [
+        "It drains the backup battery",
+        "It corrupts document software",
+        "It pulls devices off desk tops",
+        "It changes the monitor contrast",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A snagged trailing cable exerts strong physical force, pulling heavy hardware off desks down onto the hard floor.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which measure is the safest protocol when a beverage spills across an active computer desk?",
+      options: [
+        "Wipe it while typing notes",
+        "Blow hot air on the sockets",
+        "Shake the monitor dry fast",
+        "Switch off mains wall power",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Isolating mains power from the wall prevents electric shocks before anyone approaches or cleans the wet workstation.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the primary function of the third earth pin found on computer electrical plugs?",
+      options: [
+        "It grounds stray fault current",
+        "It boosts screen refresh rate",
+        "It prevents dust on keyboards",
+        "It doubles processor power",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The earth pin channels unexpected fault current directly into the ground, safeguarding users from dangerous chassis shocks.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are food items and open water sachets prohibited inside modern computer laboratories?",
+      options: [
+        "They produce bright reflections",
+        "They disrupt safe clean setups",
+        "They drain battery backup units",
+        "They lower headphone sound levels",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Keeping food and liquids away protects electronic components from spills, pests, and internal electrical shorting.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What hazard is created when multiple school desks are crowded over power cables in walkways?",
+      options: [
+        "Poor indoor lighting levels",
+        "Increased computer eye strain",
+        "Weak wireless router signal",
+        "Physical trips and cord wear",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Pinching wires under furniture damages protective insulation and creates dangerous tripping hazards across open aisles.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the recommended screen viewing distance during a workstation setup assessment?",
+      options: [
+        "Roughly one arm's length",
+        "Five centimetres away",
+        "Across the classroom aisle",
+        "Pressed against your chest",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Placing the monitor an arm's length away keeps text comfortably readable without straining eye focusing muscles.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which action should be taken if your feet do not touch the floor when your chair is adjusted for typing?",
+      options: [
+        "Let feet dangle freely",
+        "Place a sturdy footrest",
+        "Slouch down in the seat",
+        "Sit on folded legs daily",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using a firm footrest supports the thighs and feet, relieving pressure on the underside of knees and improving circulation.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What should a student inspect to ensure electrical safety at their desk before powering on equipment?",
+      options: [
+        "Screen display resolution",
+        "Cable insulation integrity",
+        "Volume levels on speakers",
+        "Desktop wallpaper theme",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Checking that cable insulation is intact and plugs are undamaged prevents electrical shocks and fire hazards.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How can a learner minimize persistent screen glare caused by overhead classroom fluorescent tubes?",
+      options: [
+        "Increase monitor brightness",
+        "Move closer to the screen",
+        "Tilt screen slightly downward",
+        "Turn off the computer unit",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tilting the screen changes the angle of reflection, redirecting overhead glare away from the student's eyes.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the safest way to correct power leads that stretch across a student walking route?",
+      options: [
+        "Cover cables with notebooks",
+        "Tape wires loosely to chairs",
+        "Leave wires alone on carpet",
+        "Route cords through trunking",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Enclosing loose power cables inside protective rigid trunking or floor ducts prevents tripping and cable damage.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why should there be at least ten centimetres of clear space in front of the keyboard on a desk?",
+      options: [
+        "To place heavy cold drinks",
+        "To stack multiple textbooks",
+        "To support wrists and arms",
+        "To balance portable speakers",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Space in front of the keyboard allows typists to rest their forearms comfortably during natural typing pauses.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which sign indicates that an electrical workstation socket is dangerously overloaded?",
+      options: [
+        "Sharp display picture",
+        "Crisp headphone audio",
+        "Quiet processor cooling fan",
+        "Hot plug and burning smell",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Excessive electrical current creates abnormal heat, melting socket plastic and producing a distinct burning odor.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What posture adjustment prevents neck strain when working from a computer document?",
+      options: [
+        "Keep head upright and centered",
+        "Bend head down to desk level",
+        "Lean head sideways on hands",
+        "Twist neck sharply all day",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Keeping the head balanced over the shoulders eliminates unnatural mechanical strain on cervical neck muscles.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What environmental factor in an ICT room should be evaluated to prevent stuffiness and drowsiness?",
+      options: [
+        "Proper room air ventilation",
+        "Speaker bass sound balance",
+        "Mouse pad texture surface",
+        "Desktop font style choice",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Good ventilation and air circulation ensure fresh air supply, preventing fatigue and maintaining high alertness.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should you do if an ICT chair has a damaged, non-locking backrest that flops backward?",
+      options: [
+        "Sit without leaning back",
+        "Slouch forward over desk",
+        "Place big books on chair",
+        "Replace it with a firm chair",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A broken backrest offers zero lumbar support; replacing it with an adjustable, firm chair protects spinal alignment.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What should be done when an ICT hazard cannot be completely eliminated from the working environment?",
+      options: [
+        "Minimize the risk level",
+        "Ignore the safety issue",
+        "Turn off all computers",
+        "Remove all lab furniture",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "When hazards cannot be removed entirely, applying protective measures minimizes the risk of physical injury.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How should a student adjust their workstation chair backrest to prevent chronic lower back ache?",
+      options: [
+        "Align with lumbar curve",
+        "Remove backrest cushion",
+        "Tilt it backward fully",
+        "Lock it upright stiffly",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Aligning the backrest to support the lumbar curve preserves natural spinal posture and stops muscle strain.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What safety step ensures that heavy desktop monitors do not fall and cause physical injury?",
+      options: [
+        "Balance on table edges",
+        "Re-position to stable center",
+        "Tilt screen onto keyboard",
+        "Stack on plastic folders",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Moving heavy equipment inward onto flat, stable desk surfaces prevents accidental falls from desk bumps.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the safest way to keep computer lab walkways clear of slipping and tripping hazards?",
+      options: [
+        "Leave bookbags in aisles",
+        "Place cords across doors",
+        "Store bags on side shelves",
+        "Spread loose cables out",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Placing backpacks and personal items on designated shelves keeps walkways clear of tripping obstacles.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which action effectively minimizes visual fatigue caused by overhead lamp glare on display screens?",
+      options: [
+        "Increase screen contrast",
+        "Sit closer to the glass",
+        "Shut eyes while typing",
+        "Tilt the screen slightly",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Tilting the screen changes the reflective angle, redirecting harsh ceiling light glare away from your eyes.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why should computer lab chairs feature a five-point base with smooth-rolling castors?",
+      options: [
+        "To speed up typing tasks",
+        "To lower power use in lab",
+        "To provide stable mobility",
+        "To reduce computer screen heat",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A five-point castor base gives steady balance and allows smooth rotation without risk of tipping over.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What should a student do immediately upon noticing a puddle of water near the computer lab door?",
+      options: [
+        "Step through it quickly",
+        "Cover it with notebooks",
+        "Walk away without notice",
+        "Clean it and place a sign",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Wiping up puddles promptly and setting out a caution sign prevents students from slipping on smooth tiles.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How should a student adjust their seat height relative to their computer desk?",
+      options: [
+        "Keep thighs level to floor",
+        "Let knees dangle loosely",
+        "Raise seat to highest pin",
+        "Sit as low as possible",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Setting seat height so thighs are parallel to the floor and feet rest flat supports healthy blood circulation.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What measure should be used when computer power cables must cross an unavoidable walking area?",
+      options: [
+        "Secure cords in trunking",
+        "Suspend cords with string",
+        "Cover wires with cardboard",
+        "Leave cords loose on tiles",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Housing cords inside rigid floor trunking or cable raceways stops users from catching their feet on bare wires.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why must classroom air conditioning or ventilation be kept active during computing lessons?",
+      options: [
+        "To lower audio sound volume",
+        "To boost mouse cursor speeds",
+        "To eliminate screen glare",
+        "To maintain fresh air flow",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Good ventilation dissipates heat from computer hardware and provides fresh air, preventing drowsiness and stuffiness.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L1/7. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of computer software is a word processor classified as?",
+      options: [
+        "Application software",
+        "System device driver",
+        "Firmware controller",
+        "Utility maintenance",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A word processor is application software designed to help users perform specific productive tasks like writing and editing text documents.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following programs is an open-source word processor available at no cost?",
+      options: [
+        "Windows Media",
+        "Adobe Premiere",
+        "LibreOffice Writer",
+        "AutoCAD Designer",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "LibreOffice Writer is a free and open-source word processing program available to everyone.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is digital text storage superior to keeping paper files in an office?",
+      options: [
+        "Consumes more space",
+        "Needs physical ink",
+        "Tears very easily",
+        "Resists pest decay",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Digital documents do not suffer physical damage from termites, dampness, or rot like paper records.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which program runs directly inside a web browser to allow collaborative online writing?",
+      options: [
+        "Google Docs",
+        "Corel Paint",
+        "WinRAR Tool",
+        "MS Paintbrush",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Google Docs is a cloud-based word processor accessible via internet browsers for collaborative writing.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the main advantage of editing a draft document on a computer screen?",
+      options: [
+        "Text cannot print",
+        "Changes occur fast",
+        "Paper costs double",
+        "Files delete alone",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Users can modify, erase, and rearrange words on screen instantly before printing.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which accessory program built into Windows can be used for basic, unformatted text editing?",
+      options: [
+        "Calculator",
+        "Sound Deck",
+        "Disk Clean",
+        "Notepad App",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Notepad is a basic text editor integrated into the Windows operating system for plain text editing.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What action should a clerk take to prevent unauthorized staff from opening a confidential letter?",
+      options: [
+        "Encrypt with code",
+        "Lock with password",
+        "Hide desktop icon",
+        "Lower screen light",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Word processors offer password protection features to restrict document access to authorized users.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which item can be inserted into a word document to enhance its visual appeal?",
+      options: [
+        "Graphic pictures",
+        "Power cables plug",
+        "Memory chip card",
+        "Motherboard slot",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Word processors allow users to insert images, shapes, and charts directly into text pages.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which statement best describes how a word processor improves writing efficiency?",
+      options: [
+        "Replaces keyboard",
+        "Halts electricity",
+        "Speeds correction",
+        "Shuts down screen",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Tools like automated search, spell check, and text replacement drastically cut down the time needed to fix mistakes.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following is NOT an example of a word processing application?",
+      options: [
+        "Microsoft Word",
+        "Apache Writer",
+        "Google Docs App",
+        "VLC Media Player",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "VLC Media Player is a multimedia player used for playing video and audio files, not for processing text.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does a blinking vertical line on an active Microsoft Word document page represent?",
+      options: [
+        "The active insertion point",
+        "The bottom paper boundary",
+        "The graphic drawing canvas",
+        "The system security scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The blinking vertical line indicates the insertion point where typed text will appear on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which key on the keyboard removes the character situated directly to the right of the cursor?",
+      options: [
+        "Spacebar",
+        "Shift Key",
+        "Delete",
+        "Enter",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Delete key removes text located immediately to the right of the cursor position.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does Microsoft Word respond to new typing when Overtype mode is switched on?",
+      options: [
+        "It highlights all lines",
+        "It pushes text forward",
+        "It locks the document",
+        "It overwrites old text",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "In Overtype mode, newly typed characters overwrite and replace existing characters directly in front of the cursor.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Where can a user right-click to quickly view or toggle the active Overtype status indicator?",
+      options: [
+        "On the status bar",
+        "On the title bar",
+        "On the scroll bar",
+        "On the dialog box",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Right-clicking the Status Bar at the bottom of the Word window allows users to enable and view the Overtype/Insert indicator.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which command should a student choose from the Editing group to highlight an entire essay instantly?",
+      options: [
+        "Select All",
+        "Find Word",
+        "Replace",
+        "Redo All",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Select All command under the Editing group highlights all content throughout the active document.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the keyboard shortcut used to paste previously cut or copied text into a new location?",
+      options: [
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + P",
+        "Ctrl + S",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + V is the universal shortcut to paste content from the clipboard into the document.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens when you select a paragraph with the mouse and immediately press the Delete key?",
+      options: [
+        "The font size enlarges",
+        "The whole block erases",
+        "The text shifts right",
+        "The page saves on disk",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pressing Delete or Backspace while text is highlighted erases the entire highlighted selection at once.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where is cut text temporarily stored inside the computer before being pasted?",
+      options: [
+        "In the memory cache",
+        "On the flash drive",
+        "On the clipboard",
+        "In the recycle bin",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Clipboard is the temporary holding area in system memory used for cut or copied text and objects.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which mouse action highlights a specific word or sentence across the document screen?",
+      options: [
+        "Scrolling wheel down",
+        "Right-clicking space",
+        "Double-tapping file",
+        "Dragging over letters",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Clicking and dragging the mouse pointer across characters highlights and selects them.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Under which main ribbon tab can you find the primary Cut, Copy, and Paste commands?",
+      options: [
+        "View Tab",
+        "Home Tab",
+        "Review Tab",
+        "Layout Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Clipboard group containing Cut, Copy, and Paste is situated under the Home tab.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What feature appears on the left side of the screen when you press Ctrl + F in Microsoft Word?",
+      options: [
+        "The Navigation Pane",
+        "The Word Options Box",
+        "The File Print View",
+        "The Styles Gallery",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Pressing Ctrl + F opens the Navigation Pane on the left margin to facilitate quick document searches.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which keyboard shortcut combination reverses the most recent editing action performed?",
+      options: [
+        "Ctrl + V",
+        "Ctrl + Z",
+        "Ctrl + C",
+        "Ctrl + X",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + Z is the standard shortcut for the Undo function to reverse mistakes.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What does Microsoft Word do when you enter a search term into the Navigation Pane?",
+      options: [
+        "Erases every match",
+        "Prints the active page",
+        "Closes down the app",
+        "Highlights every match",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Word locates and highlights all matching words in the document body so they are easy to spot.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which command restores an action that was just reversed by the Undo function?",
+      options: [
+        "The Redo command",
+        "The Cut operation",
+        "The Paste command",
+        "The Save function",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Redo re-applies an action that was reversed using the Undo tool.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where on the Word window is the Quick Access Toolbar typically located?",
+      options: [
+        "Along the bottom",
+        "At the very top",
+        "Inside the ruler",
+        "In the scroll bar",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Quick Access Toolbar sits at the top left of the application window, holding shortcut icons like Save and Undo.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which button in the Find and Replace box substitutes every occurrence across the document at once?",
+      options: [
+        "Replace Next",
+        "Find All Now",
+        "Replace All",
+        "Select Whole",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Replace All substitutes all matching words throughout the document in one single step.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the purpose of the drop-down arrow located right beside the Undo button?",
+      options: [
+        "To close the active file",
+        "To pick multiple undos",
+        "To create a new table",
+        "To set document margins",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Clicking the drop-down arrow displays a list of recent edits so you can undo several actions at once.",
+    ),
+    QuizQuestion(
+      question:
+          '8. What should you type into the "Find what" field when using the Replace dialog box?',
+      options: [
+        "The existing target text",
+        "The replacement sentence",
+        "The author user account",
+        "The target font size",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          'The "Find what" field requires the existing word or phrase currently in the document that you wish to locate.',
+    ),
+    QuizQuestion(
+      question:
+          "9. Which keyboard shortcut redoes an action that was undone in Microsoft Word?",
+      options: [
+        "Ctrl + A",
+        "Ctrl + B",
+        "Ctrl + R",
+        "Ctrl + Y",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Ctrl + Y is the standard keyboard shortcut to Redo or repeat an action.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is the Replace All command considered more efficient than manual document correction?",
+      options: [
+        "It saves disk drive space",
+        "It prevents file piracy",
+        "It checks network cables",
+        "It saves editing time",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Replace All makes dozens of changes across pages instantly, eliminating the need to read and edit each word manually.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of error is indicated by a red wavy line beneath a typed word in Microsoft Word?",
+      options: [
+        "Misspelled word",
+        "Paragraph indent",
+        "Line space error",
+        "Page border flaw",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A red wavy underline signals that a word is misspelled or not found in the application dictionary.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which reference tool in Microsoft Word provides lists of both synonyms and antonyms?",
+      options: [
+        "Page Layout",
+        "Word Art Deck",
+        "The Thesaurus",
+        "The Calculator",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Thesaurus is specifically designed to suggest synonyms and antonyms for selected words.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What should a user do when Microsoft Word flags a local Ghanaian surname as misspelled?",
+      options: [
+        "Shut the program",
+        "Clear the screen",
+        "Delete the text",
+        "Choose Ignore All",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          'Choosing "Ignore" or "Ignore All" tells Word to overlook words not present in standard international dictionaries.',
+    ),
+    QuizQuestion(
+      question:
+          "4. Under which ribbon group on the Review tab will you find the Spelling & Grammar tool?",
+      options: [
+        "Proofing Group",
+        "Tracking Group",
+        "Language Group",
+        "Comments Group",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Proofing group hosts the Spelling & Grammar checker, Thesaurus, and Word Count tools.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What does a green wavy line beneath a sentence in Microsoft Word represent?",
+      options: [
+        "Font size failure",
+        "Grammatical fault",
+        "Network loss alert",
+        "File saving error",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Green wavy lines indicate grammatical mistakes, improper syntax, or punctuation errors.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which button must you click in the Translator pane to place translated words into your file?",
+      options: [
+        "Update Button",
+        "Insert Button",
+        "Delete Button",
+        "Format Button",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Clicking the Insert button replaces the original text with the newly translated version from the pane.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Where can you configure proofing settings so Word checks spelling automatically as you type?",
+      options: [
+        "Under View Tab",
+        "In Help Windows",
+        "In Word Options",
+        "On Page Layouts",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Word Options dialog box, located under the File tab, contains the Proofing configuration settings.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a student view quick synonym suggestions for a word using only mouse clicks?",
+      options: [
+        "Right-click word",
+        "Scroll wheel down",
+        "Drag over margin",
+        "Double-click rule",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Right-clicking any typed word opens a shortcut menu displaying direct synonym alternatives.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature translates an entire document into another language in a duplicate file?",
+      options: [
+        "Language Setting",
+        "Proofing Checker",
+        "AutoCorrect Pane",
+        "Translate Document",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Translate Document option under the Language group converts the entire file into a designated target language.",
+    ),
+    QuizQuestion(
+      question:
+          '10. What type of error is indicated when a user types "sea" instead of "see" in a sentence?',
+      options: [
+        "Hardware fault",
+        "Keyboard failure",
+        "Contextual error",
+        "Translation defect",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "When a validly spelled word is used incorrectly in context, Word flags it as a contextual error with a blue wavy line.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L5/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which text decoration thickens characters to give them a darker, heavier appearance?",
+      options: [
+        "Bold command",
+        "Italic style",
+        "Underline",
+        "Subscript",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Bold command darkens and thickens characters to create visual emphasis.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which case setting capitalizes only the very first letter of a typed sentence?",
+      options: [
+        "Lowercase",
+        "Sentence case",
+        "UPPERCASE",
+        "Toggle case",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sentence case capitalizes the first character of the sentence and keeps subsequent words lowercase.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What visual effect does the Italic command apply to selected text?",
+      options: [
+        "Adds yellow lines",
+        "Doubles letter size",
+        "Erases all spaces",
+        "Slants text forward",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Applying Italic slants characters gently to the right.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which tool applies a bright, coloured background strip behind selected characters?",
+      options: [
+        "Text Highlight Color",
+        "Font Typeface Style",
+        "Paragraph Margin Box",
+        "Format Painter Brush",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Text Highlight Color tool places a bright background tint behind characters.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the typical recommended font size range for regular body text in school documents?",
+      options: [
+        "4 to 6 points",
+        "10 to 12 points",
+        "24 to 32 points",
+        "48 to 72 points",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Standard body text is typically formatted between 10 and 12 points for optimal readability.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What icon represents the Change Case command in the Font group on the Home tab?",
+      options: [
+        "Blue arrow bar",
+        "Yellow marker",
+        "Letter pair Aa",
+        "Paint roller",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Change Case command is symbolized by an uppercase and lowercase letter pair, Aa.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which keyboard shortcut combination applies the Italic style to highlighted text?",
+      options: [
+        "Ctrl + I",
+        "Ctrl + T",
+        "Ctrl + K",
+        "Ctrl + J",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + I is the standard shortcut to italicize selected text.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which option reverses capital letters to small letters and small letters to capitals?",
+      options: [
+        "Sentence case",
+        "Lowercase",
+        "UPPERCASE",
+        "tOGGLE cASE",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Toggle case inverts the capitalization state of every highlighted character.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a user clear an unwanted fluorescent background from highlighted text?",
+      options: [
+        "Press Backspace",
+        "Choose Undo Font",
+        "Select No Color",
+        "Turn off monitor",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Opening the Text Highlight Color menu and selecting No Color removes existing highlights.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which button in the Font group allows you to change the actual colour of the text characters?",
+      options: [
+        "Shading bucket",
+        "Border button",
+        "Line spacing",
+        "Font Color",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Font Color command alters the direct color of the text characters.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L6/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which alignment format aligns text flush against both the left and right margins evenly?",
+      options: [
+        "Justify",
+        "Center",
+        "Right",
+        "Left",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Justify distributes text evenly so that both edges form neat vertical lines against the margins.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the keyboard shortcut combination used to align selected text to the right margin?",
+      options: [
+        "Ctrl + J",
+        "Ctrl + R",
+        "Ctrl + C",
+        "Ctrl + T",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + R aligns text directly against the right margin of the page.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which tool should a student use to place small graphical dots before each item in a list?",
+      options: [
+        "Highlight tool",
+        "Border button",
+        "WordArt tool",
+        "Bullets command",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Bullets command in the Paragraph group formats items into a clean bulleted list.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary function of the Line Spacing command in Microsoft Word?",
+      options: [
+        "Change vertical gaps",
+        "Adjust letter colours",
+        "Draw table columns",
+        "Clear document cache",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Line spacing controls the amount of vertical space between lines of text in a paragraph.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which tool draws clean horizontal or vertical dividing lines around selected paragraphs?",
+      options: [
+        "Shading tool",
+        "Borders button",
+        "Italic style",
+        "Text case",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Borders command places framing lines around words, paragraphs, or pages.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What feature allows you to open advanced paragraph spacing and indentation settings?",
+      options: [
+        "Navigation Pane",
+        "Status Bar Menu",
+        "Dialogue Launcher",
+        "Quick Access Bar",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Clicking the Dialogue Box Launcher arrow at the bottom of the Paragraph group opens the full settings box.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which command moves a selected paragraph one-half inch closer to the left margin?",
+      options: [
+        "Align Center",
+        "Justify Text",
+        "Add Bullets",
+        "Decrease Indent",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Decrease Indent shifts text back toward the left margin by one tab stop.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which alignment format is standard for typing the sender's address in formal Ghanaian letters?",
+      options: [
+        "Align Right",
+        "Align Left",
+        "Justify Both",
+        "Center Line",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In formal letters, the sender's address and date are conventionally aligned to the right margin.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when you apply Shading to a selected paragraph of text?",
+      options: [
+        "Text is italicized",
+        "Letters turn bold",
+        "Background fills",
+        "Lines are numbered",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Shading fills the background area behind the paragraph with a chosen tint.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the standard keyboard shortcut combination for aligning text along the left margin?",
+      options: [
+        "Ctrl + E",
+        "Ctrl + R",
+        "Ctrl + J",
+        "Ctrl + L",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ctrl + L sets selected text to left alignment.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L7/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where is the Tab Selector box located on the Microsoft Word application window?",
+      options: [
+        "Left of ruler",
+        "Under status bar",
+        "Inside title bar",
+        "Near scroll arrow",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Tab Selector sits at the far left intersection of the horizontal and vertical rulers.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which tab stop format aligns typed characters symmetrically under the ruler marker?",
+      options: [
+        "Right Tab",
+        "Center Tab",
+        "Decimal Tab",
+        "Bar Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A Center Tab positions typed text so that it expands evenly to the left and right beneath the marker.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How can a user completely remove an unwanted tab stop from the horizontal ruler?",
+      options: [
+        "Right-click icon",
+        "Hit backspace key",
+        "Press escape once",
+        "Drag it off ruler",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Clicking a tab stop marker and dragging it downwards off the ruler removes it from the document.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which tool automatically fills the blank horizontal gap between two tab stops with dots?",
+      options: [
+        "Tab Leader",
+        "Line Spacer",
+        "Font Styler",
+        "Word Highlighter",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Tab leaders fill empty spacing between tab stops with lines of dots, dashes, or solid lines.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What non-printing symbol is used to represent a regular space when Show/Hide is enabled?",
+      options: [
+        "Wavy line",
+        "Small dot",
+        "Curly brace",
+        "Dollar sign",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Turning on Show/Hide displays normal keyboard spaces as small raised dots.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which tab stop type ensures that currency values align precisely along their decimal points?",
+      options: [
+        "Left Tab",
+        "Bar Tab",
+        "Decimal Tab",
+        "Center Tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Decimal Tab aligns numeric figures along the decimal point.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What keyboard key moves the blinking cursor forward to the next tab stop on the page?",
+      options: [
+        "Spacebar",
+        "Shift Key",
+        "Control Key",
+        "The Tab Key",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Pressing the Tab key leaps the insertion point forward to the nearest active tab stop.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which tab stop format aligns the trailing end of a word flush against the ruler marker?",
+      options: [
+        "Right Tab",
+        "Left Tab",
+        "Center Tab",
+        "Decimal Tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A Right Tab aligns the right-hand edge of the text directly at the tab position.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when you drag an active tab stop marker left or right along the ruler?",
+      options: [
+        "Changes font size",
+        "Deletes all text",
+        "Repositions text",
+        "Underlines lines",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Dragging a tab marker along the ruler dynamically moves all associated text aligned at that tab stop.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which button in the Paragraph group toggles the visibility of hidden formatting symbols?",
+      options: [
+        "Justify",
+        "Bullets",
+        "Shading",
+        "Show/Hide",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Show/Hide button (pilcrow symbol, ¶) reveals non-printing marks like spaces, tabs, and paragraph returns.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [

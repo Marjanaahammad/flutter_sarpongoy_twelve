@@ -779,6 +779,666 @@ final IndependentPracticeModel computingJhs1S1Ss2Lesson6IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs1S1Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss3_L1/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the study of arranging equipment and workplace conditions so people can work comfortably and safely called?",
+      options: [
+        "Ergonomics",
+        "Automation",
+        "Informatics",
+        "Cybernetics",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Ergonomics",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which health condition causes blurred vision, dry eyes, and headaches from prolonged monitor usage?",
+      options: [
+        "Carpal tunnel syndrome",
+        "Computer vision syndrome",
+        "Repetitive strain disorder",
+        "Acoustic ear trauma",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Computer vision syndrome",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. To maintain a safe ergonomic posture, where should the top of a computer screen be positioned relative to your head?",
+      options: [
+        "Directly above the head",
+        "At the level of the chest",
+        "At or slightly below eyes",
+        "Well below desk surface",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "At or slightly below eyes",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which action should a student take during long computer sessions to prevent Repetitive Strain Injury in the wrists?",
+      options: [
+        "Rest wrists on sharp edges",
+        "Type faster without pausing",
+        "Bend hands backwards daily",
+        "Perform gentle wrist rotations",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Perform gentle wrist rotations",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the safest way to organize electrical power cables running across a computer laboratory floor?",
+      options: [
+        "Enclose cables in trunking",
+        "Leave wires loose on carpet",
+        "Stretch cords tightly high",
+        "Tie wires to metal table legs",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Enclose cables in trunking",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What immediate risk happens when water is spilled directly onto an active electronic circuit board?",
+      options: [
+        "Increased monitor resolution",
+        "Severe electronic short circuits",
+        "Rapid battery charging speed",
+        "Lower processor temperature",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Severe electronic short circuits",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why should users never connect multiple heavy-draw appliances to a single wall socket adaptor?",
+      options: [
+        "It reduces screen display glare",
+        "It clears network storage cache",
+        "It prevents electrical fire hazards",
+        "It speeds up keyboard keystrokes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It prevents electrical fire hazards",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which action is essential before connecting any ICT equipment to an electrical power outlet?",
+      options: [
+        "Check cords for damaged casing",
+        "Turn up monitor brightness fully",
+        "Wipe system with damp wet cloths",
+        "Remove the third grounding pin",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Check cords for damaged casing",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss3_L3/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary objective of carrying out a workstation health risk assessment?",
+      options: [
+        "Identify and fix lab hazards",
+        "Increase internet upload speeds",
+        "Install modern gaming software",
+        "Double computer memory size",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Identify and fix lab hazards",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How should a student adjust their workstation monitor to prevent chronic neck stiffness?",
+      options: [
+        "Place it directly on the floor",
+        "Position top of screen at eyes",
+        "Mount it high toward ceiling",
+        "Push it far off to one side",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Position top of screen at eyes",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which method effectively prevents wrist soreness and tendon strain while using a mouse?",
+      options: [
+        "Twist wrists outward constantly",
+        "Use the mouse from your lap",
+        "Keep mouse close to keyboard",
+        "Rest wrist on sharp table edges",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Keep mouse close to keyboard",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What action should be taken if a risk assessment reveals a loose electrical cord with frayed copper wires?",
+      options: [
+        "Wrap paper around exposed wires",
+        "Continue using the computer plug",
+        "Push the frayed cable out of sight",
+        "Report it for safe replacement",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Report it for safe replacement",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S1Ss3Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s1_ss3_L4/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary action taken when an identified workplace hazard can be completely removed from a computer lab?",
+      options: [
+        "Hazard elimination",
+        "Software backup",
+        "Screen adjustment",
+        "Network caching",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Hazard elimination",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which adjustment should be made to an ICT chair if a user's legs are dangling unsupported above the floor?",
+      options: [
+        "Elevate armrests fully",
+        "Lower seat or use footrest",
+        "Remove the chair backrest",
+        "Tilt the seat forward",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Lower seat or use footrest",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How can a student eliminate the danger of tripping over power cords running between desk rows?",
+      options: [
+        "Tie cords to chair legs",
+        "Cover wires with paper",
+        "Route cords in floor ducts",
+        "Stretch cords across aisles",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Route cords in floor ducts",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What safety measure should be taken immediately after mopping liquid off a smooth laboratory tile floor?",
+      options: [
+        "Turn off room lighting",
+        "Close all ceiling fans",
+        "Stack extra wooden desks",
+        "Put up a wet-floor sign",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Put up a wet-floor sign",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L1/6. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following is the primary purpose of word processing software?",
+      options: [
+        "Browsing online websites",
+        "Creating digital text files",
+        "Repairing system hardware",
+        "Calculating monthly wages",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Creating digital text files",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which software program is a widely used word processor in schools and offices?",
+      options: [
+        "Microsoft Word",
+        "VLC Media Player",
+        "Corel PaintShop",
+        "Google Chrome Web",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Microsoft Word",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does a word processor protect confidential documents from unauthorized access?",
+      options: [
+        "Deleting old files",
+        "Adding dark shades",
+        "Applying a password",
+        "Changing font styles",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Applying a password",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which feature in a word processor helps users correct misspelled words quickly?",
+      options: [
+        "Formula evaluator",
+        "Slide show viewer",
+        "Spell check engine",
+        "Sound volume mixer",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Spell check engine",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L2/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which keyboard key removes the character located directly to the left of the insertion cursor?",
+      options: [
+        "Delete",
+        "Escape",
+        "Backspace",
+        "Enter",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Backspace",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which group on the Home tab contains the Select command used to highlight document content?",
+      options: [
+        "Editing",
+        "Styles",
+        "Font",
+        "Pages",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Editing",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the standard keyboard shortcut combination used to cut selected text in Word?",
+      options: [
+        "Ctrl + C",
+        "Ctrl + X",
+        "Ctrl + V",
+        "Ctrl + Z",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Ctrl + X",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens when you highlight a sentence and immediately press the primary mouse button over it to slide it elsewhere?",
+      options: [
+        "It converts to an image",
+        "It opens the print pane",
+        "It gets permanently lost",
+        "It drags to the new spot",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It drags to the new spot",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L3/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which keyboard shortcut combination opens the Find tool in Microsoft Word?",
+      options: [
+        "Ctrl + S",
+        "Ctrl + P",
+        "Ctrl + F",
+        "Ctrl + E",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ctrl + F",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which ribbon group on the Home tab hosts both the Find and Replace commands?",
+      options: [
+        "Editing",
+        "Font",
+        "Styles",
+        "Paragraph",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Editing",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the main function of the Undo command in Microsoft Word?",
+      options: [
+        "Save a duplicate copy",
+        "Reverse the last edit",
+        "Highlight the text",
+        "Print out the page",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Reverse the last edit",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which keyboard shortcut combination opens the Find and Replace dialog box directly?",
+      options: [
+        "Ctrl + U",
+        "Ctrl + N",
+        "Ctrl + K",
+        "Ctrl + H",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ctrl + H",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L4/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab contains the Proofing and Language groups in Microsoft Word?",
+      options: [
+        "Layout Tab",
+        "Review Tab",
+        "Insert Tab",
+        "Design Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Review Tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What does a blue wavy underline beneath a word represent in Microsoft Word?",
+      options: [
+        "Font size mistake",
+        "Spacing alignment",
+        "Contextual error",
+        "Page margin alert",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Contextual error",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the primary function of the built-in Thesaurus tool?",
+      options: [
+        "Count page words",
+        "Find word synonyms",
+        "Draw visual shapes",
+        "Save document copy",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Find word synonyms",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which command allows you to convert a selected paragraph into a foreign language?",
+      options: [
+        "AutoCorrect Text",
+        "Replace All Words",
+        "Track All Changes",
+        "Translate Selected",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Translate Selected",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L5/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon group on the Home tab hosts font size, font colour, and bold commands?",
+      options: [
+        "Styles",
+        "Font",
+        "Editing",
+        "Paragraph",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Font",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which keyboard shortcut combination applies an underline directly beneath selected text?",
+      options: [
+        "Ctrl + U",
+        "Ctrl + B",
+        "Ctrl + I",
+        "Ctrl + E",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Ctrl + U",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the unit of measurement used to specify font size in Microsoft Word?",
+      options: [
+        "Millimetres",
+        "Pixels",
+        "Points",
+        "Inches",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Points",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which case option capitalizes only the starting letter of each word in a selected phrase?",
+      options: [
+        "Sentence case",
+        "UPPERCASE",
+        "tOGGLE cASE",
+        "Capitalize Each Word",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Capitalize Each Word",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L6/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which keyboard shortcut combination centers selected text between document margins?",
+      options: [
+        "Ctrl + L",
+        "Ctrl + E",
+        "Ctrl + R",
+        "Ctrl + J",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Ctrl + E",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which ribbon group on the Home tab hosts Bullets, Line Spacing, and Alignment commands?",
+      options: [
+        "Paragraph",
+        "Editing",
+        "Styles",
+        "Font",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Paragraph",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What tool in Microsoft Word applies a background colour behind an entire paragraph?",
+      options: [
+        "Font Color",
+        "Text Case",
+        "Shading",
+        "Underline",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Shading",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How far does the Increase Indent command shift selected text to the right by default?",
+      options: [
+        "Two whole inches",
+        "One full pixel",
+        "Three tab stops",
+        "One-half inch",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "One-half inch",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss1_L7/7. Independent Practice.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the default distance between standard tab stops across a page in Microsoft Word?",
+      options: [
+        "One whole inch",
+        "One-half inch",
+        "Two centimetres",
+        "Three inches",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "One-half inch",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which ribbon tab contains the checkbox required to display the horizontal and vertical rulers?",
+      options: [
+        "Insert Tab",
+        "Review Tab",
+        "View Tab",
+        "Layout Tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "View Tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which tab stop type inserts a continuous vertical line to separate document columns visually?",
+      options: [
+        "Center Tab",
+        "Right Tab",
+        "Decimal Tab",
+        "Bar Tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Bar Tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does a tab stop jump appear on the screen when formatting marks are switched on?",
+      options: [
+        "Right arrow",
+        "Hollow circle",
+        "Small black dot",
+        "Vertical line",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Right arrow",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',

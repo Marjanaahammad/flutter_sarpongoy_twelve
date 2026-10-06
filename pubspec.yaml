@@ -1153,6 +1153,17 @@ flutter:
     - assets/audio/computing/JHS1_s1_ss2_L4/
     - assets/audio/computing/JHS1_s1_ss2_L5/
     - assets/audio/computing/JHS1_s1_ss2_L6/
+    - assets/audio/computing/JHS1_s1_ss3_L1/
+    - assets/audio/computing/JHS1_s1_ss3_L2/
+    - assets/audio/computing/JHS1_s1_ss3_L3/
+    - assets/audio/computing/JHS1_s1_ss3_L4/
+    - assets/audio/computing/JHS1_s2_ss1_L1/
+    - assets/audio/computing/JHS1_s2_ss1_L2/
+    - assets/audio/computing/JHS1_s2_ss1_L3/
+    - assets/audio/computing/JHS1_s2_ss1_L4/
+    - assets/audio/computing/JHS1_s2_ss1_L5/
+    - assets/audio/computing/JHS1_s2_ss1_L6/
+    - assets/audio/computing/JHS1_s2_ss1_L7/
 
   #   - images/a_dot_ham.jpeg
 
