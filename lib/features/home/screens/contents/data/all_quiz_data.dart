@@ -3477,6 +3477,879 @@ final QuizModel computingJhs1S2Ss1Lesson7QuizData = QuizModel(
   ],
 );
 
+final QuizModel computingJhs1S2Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L1/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which program is an example of specialized presentation software?",
+      options: [
+        "Microsoft PowerPoint",
+        "Microsoft Word",
+        "Microsoft Access",
+        "Microsoft Excel",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft PowerPoint is an application designed specifically for creating and displaying presentations, whereas Word is for word processing and Excel is for spreadsheets.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary role of the multimedia facility in presentation software?",
+      options: [
+        "Scanning storage drives for computer viruses",
+        "Inserting graphics, audio, and video clips",
+        "Checking grammatical rules across paragraphs",
+        "Calculating numerical formulas in worksheets",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The multimedia tool allows users to add non-text content, such as pictures, audio, and video recordings, directly into slides.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which presentation tool is developed specifically for Apple devices like iPads and Mac computers?",
+      options: [
+        "Google Slides",
+        "Corel Presentations",
+        "Apache Impress",
+        "Apple Keynote",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Keynote is Apple’s proprietary presentation software, optimized for macOS and iPadOS platforms.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student wants to give a talk on road safety in Accra. How does presentation software assist the audience?",
+      options: [
+        "It presents key safety tips through clear visual slides",
+        "It replaces the need for the student to speak aloud",
+        "It translates every spoken word into five languages",
+        "It prevents any student from asking follow-up questions",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Presentation slides support oral communication by highlighting main concepts and visuals, helping listeners retain the message.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which application is free, open-source software that includes an application for creating slide shows?",
+      options: [
+        "Adobe Photoshop Suite",
+        "Google Workspace Pro",
+        "LibreOffice Impress",
+        "CorelDRAW Graphics",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "LibreOffice Impress is a well-known free and open-source presentation tool used on various operating systems.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does presentation software support the simultaneous use of language skills in the classroom?",
+      options: [
+        "It forces listeners to write down every word",
+        "It limits student work to silent typing only",
+        "It removes the requirement to listen to peers",
+        "It blends reading, viewing, and oral speech",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Presentations combine visual text to read, spoken commentary to hear, and visual media to observe, reinforcing multiple communication channels.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the basic individual page called within a presentation document?",
+      options: [
+        "A slide",
+        "A sheet",
+        "A canvas",
+        "A ledger",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In presentation software, each distinct electronic display page is termed a slide.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why might a business team choose Google Slides over an offline desktop application?",
+      options: [
+        "It operates without using any screen display",
+        "It enables multiple users to collaborate online",
+        "It requires no internet connectivity at all",
+        "It prints slides faster than any other tool",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Google Slides is cloud-based, allowing team members to edit and review the same presentation document simultaneously from different locations.",
+    ),
+    QuizQuestion(
+      question: "9. What is the primary function of the slide show view?",
+      options: [
+        "Editing default system font settings",
+        "Installing third-party hardware devices",
+        "Compressing image sizes on hard drives",
+        "Displaying slides sequentially to viewers",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The slide show view is the presentation mode where completed slides are shown one after another on full screen.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following tasks is best suited for presentation software rather than a spreadsheet program?",
+      options: [
+        "Calculating monthly business expenditures",
+        "Creating a database of student test scores",
+        "Delivering a visual speech to a large group",
+        "Writing an official three-page business letter",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Presentation software is specifically built to deliver visual, media-supported talks to an audience, unlike spreadsheets which handle numerical calculation.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which section of the PowerPoint interface contains commands grouped under tabs like Home, Insert, and Design?",
+      options: [
+        "The Ribbon system",
+        "The Scroll bar track",
+        "The Status display bar",
+        "The File storage folder",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Ribbon organizes all primary editing commands into tabs and groups across the top of the application window.",
+    ),
+    QuizQuestion(
+      question: "2. What visual element defines a PowerPoint theme?",
+      options: [
+        "A collection of audio clips",
+        "Unified colours, fonts, effects",
+        "A list of computer programs",
+        "A set of security passwords",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A theme is a predefined package of matching colours, typography, and styling effects applied across slides.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which ribbon tab must you open to run a spelling check on your slides?",
+      options: [
+        "Home tab",
+        "Insert tab",
+        "Review tab",
+        "Design tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Review ribbon contains the Proofing group, which includes the spell checking utility.",
+    ),
+    QuizQuestion(
+      question:
+          '4. A learner in Tema wants to find an alternative word for "happy." Which feature helps them find it?',
+      options: [
+        "Slide Transition",
+        "Screen Magnifier",
+        "SmartArt Graphic",
+        "The Thesaurus",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Thesaurus provides a list of synonyms and antonyms for any selected term.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How does a template differ from a blank presentation theme?",
+      options: [
+        "Templates include pre-built layouts",
+        "Templates cannot have text boxes",
+        "Templates disable all font colours",
+        "Templates only work on Macintosh",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Templates supply ready-made slide structures, content layouts, and sample slides in addition to theme styling.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where is the Slide Thumbnail pane positioned by default in Microsoft PowerPoint?",
+      options: [
+        "Along the top border",
+        "Across the bottom edge",
+        "On the right window side",
+        "On the left window side",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Slide Thumbnail pane is situated on the left side of the workspace, providing an ordered overview of all slides.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which command tab is used to choose and download a new template when starting a project?",
+      options: [
+        "The File menu tab",
+        "The View ribbon tab",
+        "The Draw ribbon tab",
+        "The Help support tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          'New presentations based on templates are selected by going to the File tab and choosing "New".',
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when you select a new theme from the Design tab in PowerPoint?",
+      options: [
+        "It deletes every image on the slide",
+        "It updates styling on all slides",
+        "It saves the presentation as a PDF",
+        "It closes the application window",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Applying a theme automatically updates the background, font choices, and palette across all slides in the deck.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which toolbar provides immediate access to frequently used commands like Save and Undo?",
+      options: [
+        "Bottom Status Toolbar",
+        "Slide Master Control",
+        "Drawing Shapes Group",
+        "Quick Access Toolbar",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Quick Access Toolbar, located in the upper-left area above the Ribbon, provides one-click access to tools like Save, Undo, and Redo.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why would a teacher encourage students to use the Review tab before presenting?",
+      options: [
+        "To adjust monitor screen contrast",
+        "To convert slides into audio songs",
+        "To eliminate spelling mistakes",
+        "To increase computer sound volume",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Review tab provides proofing tools to correct typos, refine phrasing, and verify grammatical clarity.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Why do presentation designers use the Symbol command instead of typing regular keyboard keys?",
+      options: [
+        "To insert marks not found on standard keyboards",
+        "To enlarge the physical dimensions of the monitor",
+        "To change the operating system background picture",
+        "To spell check every paragraph in the slide deck",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Symbol feature gives users access to hundreds of special characters, fractions, and symbols that are omitted from standard physical keyboards.",
+    ),
+    QuizQuestion(
+      question: "2. Which group on the Insert ribbon contains the Symbol tool?",
+      options: [
+        "The Media group",
+        "The Symbols group",
+        "The Links group",
+        "The Slides group",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Symbol command is located inside the Symbols group, situated at the far right end of the Insert ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where should the presenter's name and topic title be placed in a standard presentation structure?",
+      options: [
+        "On the middle summary slide",
+        "On the concluding slide seven",
+        "Inside the Review tab menu",
+        "On the initial title slide",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Slide one serves as the title slide, intended to establish the topic and introduce the speaker to the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student wants to insert a division sign into a science calculation on a slide. Which subset should they open?",
+      options: [
+        "Currency Symbols",
+        "Geometric Dingbats",
+        "Mathematical Operators",
+        "Box Drawing Characters",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Mathematical Operators subset organizes standard calculation and relationship signs, such as division, multiplication, and inequality marks.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens immediately after you select a symbol and click the Insert button in the dialogue box?",
+      options: [
+        "The character appears at the active cursor spot",
+        "The presentation document saves and shuts down",
+        "All existing text on the current slide is cleared",
+        "The application switches to full-screen show view",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking Insert places the selected special character right where the insertion point cursor is located inside the active text placeholder.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which tool under the Insert ribbon enables learners to organize numerical data into grid boxes?",
+      options: [
+        "WordArt styling",
+        "Audio recorder",
+        "Zoom window",
+        "Table feature",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Table feature inserts rows and columns to display numbers, schedules, and text comparisons neatly.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do slides three, four, and five function within a planned seven-slide presentation?",
+      options: [
+        "They deliver the core body facts and media",
+        "They provide blank placeholder slides for notes",
+        "They list only the slide printing parameters",
+        "They repeat the exact title slide information",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The middle slides of a presentation form the body, carrying the detailed facts, data tables, and illustrations supporting the central theme.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which feature on the Insert ribbon allows you to add stylized, decorative headings to a slide?",
+      options: [
+        "Screen capture",
+        "WordArt gallery",
+        "Hyperlink tool",
+        "Action button",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "WordArt creates decorative text styles and typography effects that help major slide headings stand out.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the main benefit of organizing a presentation into seven structured slides rather than putting all facts on one slide?",
+      options: [
+        "It consumes maximum computer storage space",
+        "It prevents the audience from reading any text",
+        "It requires the presenter to speak much faster",
+        "It guides the audience through ideas smoothly",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Distributing content across structured slides breaks information into logical chunks, preventing cognitive overload for listeners.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If the Symbol command appears greyed out and unclickable on your screen, what is the most likely cause?",
+      options: [
+        "The computer monitor is not running at high resolution",
+        "The PowerPoint application is not connected to the internet",
+        "The cursor is not placed inside an active text placeholder",
+        "The slide does not currently contain any pictures or tables",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Symbol button only becomes active when your cursor is positioned inside an editable text box or shape placeholder.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which text case option should you select to capitalize the first letter of every single word in a slide title?",
+      options: [
+        "Capitalize Each Word",
+        "Standard sentence case",
+        "Complete lowercase case",
+        "Full UPPERCASE option",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          'The "Capitalize Each Word" option applies title casing by capitalizing the initial character of each word in the selection.',
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual change occurs when you apply the Text Shadow decoration to slide text?",
+      options: [
+        "The font size shrinks by half",
+        "A soft shadow appears behind letters",
+        "The text changes into a bullet list",
+        "All characters convert to small case",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Text Shadow tool adds a subtle drop shadow behind characters, helping text stand out against coloured slide backgrounds.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where on the PowerPoint ribbon will you find the Font size, Font colour, and Bold commands?",
+      options: [
+        "Review tab under Proofing",
+        "Insert tab under Media",
+        "View tab under Master Views",
+        "Home tab under Font group",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Font group containing size, typeface, colour, and decoration controls is located under the Home ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          '4. A learner accidentally leaves the caps lock on while typing and gets "gHANA." Which tool quickly reverses it?',
+      options: [
+        "The Thesaurus finder",
+        "The Slide Master view",
+        "The SmartArt gallery",
+        "The tOGGLE cASE command",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "tOGGLE cASE inverts the casing of every selected character, turning lowercase to uppercase and uppercase to lowercase.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is it inadvisable to use light yellow text on a white slide background?",
+      options: [
+        "The poor contrast makes reading hard",
+        "Yellow text causes computers to stall",
+        "White backgrounds delete coloured text",
+        "Yellow text disables all animations",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Effective visual presentation requires strong contrast between text and background so information remains readable.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which icon in the Font group is clicked to slant selected text to the right for emphasis?",
+      options: [
+        "The Underline icon (U)",
+        "The Font Color icon (A)",
+        "The Bold text icon (B)",
+        "The Italic icon (I)",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Italic command slants selected characters to the right, commonly used for quotations or scientific terms.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What must you always do before clicking any font formatting or decoration command?",
+      options: [
+        "Select the specific text to format",
+        "Save the presentation to a USB drive",
+        "Change the entire slide layout theme",
+        "Switch the application language setting",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Formatting tools only affect active selections, meaning users must highlight the desired text first.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How do the Increase and Decrease Font Size buttons assist a presenter during slide creation?",
+      options: [
+        "They change the colour palette directly",
+        "They adjust text size in preset steps",
+        "They insert new rows into data tables",
+        "They run a spelling check on the slide",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "These one-touch companion buttons scale highlighted text up or down through standard preset point increments without manually typing numbers.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which typeface category is generally preferred for slide presentations viewed on a digital projector?",
+      options: [
+        "Heavy gothic calligraphy fonts",
+        "Ornate cursive handwriting fonts",
+        "Narrow compact decorative fonts",
+        "Clean sans-serif fonts like Calibri",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Clean sans-serif fonts such as Calibri and Arial provide maximum legibility across digital displays and classroom projectors.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following describes the function of the Strikethrough decoration tool?",
+      options: [
+        "It underlines words with double lines",
+        "It draws a horizontal line across text",
+        "It converts text into an audio file",
+        "It moves selected text to the next slide",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Strikethrough tool draws a horizontal line straight through the centre of the selected text characters to show deleted or superseded items.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which alignment option places every line of a title squarely in the middle of a text box?",
+      options: [
+        "Centre alignment",
+        "Justify alignment",
+        "Right alignment",
+        "Left alignment",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Centre alignment positions text evenly between the left and right margins of the text frame, making it ideal for headings.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which tool applies a coloured background fill inside a selected text frame?",
+      options: [
+        "Shape Outline",
+        "Shape Fill",
+        "Text Shadow",
+        "Font Color",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Shape Fill applies background colour shading inside the boundaries of a shape or text box.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A student wants to format a formal three-line quotation with even margins on both sides. What tool should they use?",
+      options: [
+        "Align Text Bottom",
+        "Strikethrough Font",
+        "The Thesaurus",
+        "Justify alignment",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Justify command adjusts character and word spacing so that text aligns flush with both the left and right margins.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens to a bulleted line when you press the Tab key on your keyboard?",
+      options: [
+        "The indent shifts text to the right",
+        "The slide is permanently removed",
+        "The text turns into uppercase",
+        "The application prints the page",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Pressing the Tab key inside a bulleted list increases the indent level, moving the text inward to the right.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which command under the Home tab allows you to rotate text ninety degrees within a shape?",
+      options: [
+        "Text Direction",
+        "Change Case",
+        "SmartArt Shape",
+        "Font Decoration",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Text Direction allows users to rotate text sideways by ninety degrees, two hundred and seventy degrees, or display stacked letters.",
+    ),
+    QuizQuestion(
+      question:
+          '6. How does adjusting the "Weight" in the Shape Outline menu alter a text box border?',
+      options: [
+        "It rotates the border sideways",
+        "It translates the label language",
+        "It changes line colour to blue",
+        "It changes border line thickness",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Weight setting under Shape Outline controls the thickness or width of the border line.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why do presenters use indentation when creating bulleted study lists?",
+      options: [
+        "To show sub-topics under main headings",
+        "To double the file size of the slide deck",
+        "To lock the presentation against edits",
+        "To hide the text during a slide show",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Indenting sub-points creates visual hierarchy, making it clear which details support the primary heading.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where is the Paragraph group located on the Microsoft PowerPoint interface?",
+      options: [
+        "Under the Review ribbon tab",
+        "Under the Home ribbon tab",
+        "Under the View ribbon tab",
+        "Under the File menu tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Paragraph group, containing alignment, list, and spacing tools, is situated under the Home ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which command adjusts text to sit specifically along the bottom boundary of a text box?",
+      options: [
+        "Align Text Top",
+        "Shape Fill Bottom",
+        "Decrease Indent",
+        "Align Text Bottom",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Align Text tool provides vertical alignment controls: Top, Middle, and Bottom.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What visual error occurs if you apply dark purple Shape Fill behind dark black text?",
+      options: [
+        "The computer monitor resolution resets",
+        "The text box expands off the screen edge",
+        "The text becomes nearly invisible to viewers",
+        "The spelling checker highlights every word",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Dark text placed over a dark background destroys contrast, making the text almost unreadable to an audience.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of the Slide Master in Microsoft PowerPoint?",
+      options: [
+        "Controlling universal presentation formatting",
+        "Scanning presentation files for malware",
+        "Translating slide text into foreign speech",
+        "Printing paper handouts for all listeners",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Slide Master is the top slide in the layout hierarchy that stores design specifications and applies them universally across the entire presentation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which ribbon tab must you open to locate the Master Views group?",
+      options: [
+        "The Home tab",
+        "The View tab",
+        "The File tab",
+        "The Draw tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The View tab houses the Master Views group, containing the Slide Master, Handout Master, and Notes Master.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is using the Slide Master more efficient than formatting slides one by one?",
+      options: [
+        "It doubles computer processing speed",
+        "It converts presentations into webpages",
+        "It prevents any file from being saved",
+        "It applies changes to all slides at once",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Changes made on the Slide Master instantly update all associated slides, saving substantial time and ensuring complete design consistency.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student wants to change the default background colour for all slide layouts. Where should this be edited?",
+      options: [
+        "On the Slide Sorter display",
+        "Inside the WordArt gallery",
+        "Under the Thesaurus window",
+        "On the top Slide Master slide",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Modifying the top Slide Master in the hierarchy automatically applies the new background styling to all subordinate layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary function of the final slide in a planned 5-slide presentation?",
+      options: [
+        "Summarizing main points and taking questions",
+        "Displaying the primary topic title and name",
+        "Providing raw unformatted numerical tables",
+        "Showing only the computer hardware details",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The concluding slide provides a summary of key takeaways and provides a clean visual backdrop while the presenter takes questions from the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which ribbon tab allows you to switch design themes and modify colour variants?",
+      options: [
+        "The Review tab",
+        "The Insert tab",
+        "The Help tab",
+        "The Design tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Design ribbon contains the Themes and Variants galleries, allowing users to alter palettes, fonts, and background styles.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a design template differ from a single blank slide?",
+      options: [
+        "It includes ready-made layouts and themes",
+        "It cannot contain text or picture boxes",
+        "It requires an internet link to open",
+        "It deletes previous slides on startup",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Templates provide pre-built slide structures, content layouts, and coordinated themes designed for specific presentation needs.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What should a presenter avoid doing while delivering a classroom presentation?",
+      options: [
+        "Maintaining eye contact with the class",
+        "Reading all slide text word for word",
+        "Explaining diagrams in their own voice",
+        "Answering questions after finishing",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Effective presenters use slides as visual signposts and explain concepts in their own words rather than reading bullet points verbatim.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature appears on the ribbon when Slide Master view is activated?",
+      options: [
+        "A dedicated Slide Master tab",
+        "A new internet search browser",
+        "An automatic video recording tool",
+        "A document translation toolbar",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Activating Master view opens a contextual Slide Master tab on the Ribbon containing controls for layouts, placeholders, and closing the view.",
+    ),
+    QuizQuestion(
+      question:
+          "10. In a 5-slide presentation on community sanitation, what content best fits Slide 3?",
+      options: [
+        "The presenter's name and school name",
+        "A blank screen waiting for questions",
+        "Key facts, challenges, and bullet points",
+        "The desktop computer settings menu",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Slide 3 is part of the core body of the presentation, where main concepts, supporting bullet points, and data are presented.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [

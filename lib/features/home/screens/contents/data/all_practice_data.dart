@@ -755,6 +755,230 @@ final PracticeModel computingJhs1S2Ss1Lesson7PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs1S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Define what presentation software is in your own words.",
+      answer:
+          "Correct Answer: Presentation software is an application program used to create, organize, and show digital slides containing text, images, and other media to an audience.",
+      explanation:
+          "Explanation: A complete definition must highlight that it is an application software package and that its primary purpose is displaying structured slides to communicate ideas.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Identify the three essential components that enable a user to produce and deliver a digital slide show.",
+      answer:
+          "Correct Answer: A text editor, a facility for inserting graphics and multimedia, and a slide show display system.",
+      explanation:
+          "Explanation: These three features allow a user to type and format written words, embed supporting visuals or audio, and project the finished slides sequentially.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two advantages of using presentation software over traditional cardboard charts during a class project.",
+      answer:
+          "Correct Answer: Digital slides allow the inclusion of multimedia such as audio or video, and they can be easily edited without wasting physical materials.",
+      explanation:
+          "Explanation: Unlike paper posters, electronic slides support dynamic media elements and allow instant corrections to text, layouts, and colours.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Name two common presentation packages other than Microsoft PowerPoint.",
+      answer: "Correct Answer: Google Slides and Apple Keynote.",
+      explanation:
+          "Explanation: Google Slides and Apple Keynote are widely recognized presentation applications alongside options such as LibreOffice Impress and Corel Presentations.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L2/6. Guided Practice.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the practical difference between a PowerPoint theme and a PowerPoint template.",
+      answer:
+          "Correct Answer: A theme provides unified colours, fonts, and visual effects, whereas a template includes a theme plus pre-made slide layouts and content structures.",
+      explanation:
+          "Explanation: A theme controls visual style across slides, while a template provides a complete pre-built presentation framework including sample slides and placeholder text.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Under which ribbon tab will you find the tools to check spelling and access the thesaurus?",
+      answer: "Correct Answer: The Review tab.",
+      explanation:
+          "Explanation: The Review ribbon contains the Proofing group, which houses the Spelling and Grammar check as well as the Thesaurus.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe the function of the Slide Thumbnail pane located on the left side of the PowerPoint window.",
+      answer:
+          "Correct Answer: It displays small numbered previews of all slides, allowing users to navigate between slides and rearrange their sequence.",
+      explanation:
+          "Explanation: The thumbnail pane provides an overview of the presentation structure and makes it easy to jump between or reorder slides.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: How does using the Thesaurus tool improve the quality of a student's presentation text?",
+      answer:
+          "Correct Answer: It provides synonyms to prevent word repetition and helps choose more precise vocabulary for slide notes.",
+      explanation:
+          "Explanation: By offering synonyms and antonyms, the Thesaurus allows learners to replace overused words with stronger, more accurate terms.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: List the steps required to insert a special currency symbol into a text box in Microsoft PowerPoint.",
+      answer:
+          "Correct Answer: Click where the symbol should appear, click the Insert tab, select Symbol in the Symbols group, choose the symbol from the dialogue box, and click Insert.",
+      explanation:
+          "Explanation: Placing the cursor sets the target location, while opening the Symbol dialogue box via the Insert ribbon allows users to select and insert the required character directly into the text.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the purpose of using the Subset drop-down menu inside the Symbol dialogue box.",
+      answer:
+          "Correct Answer: It filters the large list of symbols into specific categories, making it faster to locate needed characters.",
+      explanation:
+          "Explanation: The subset menu groups characters into organized categories such as Currency Symbols, Arrows, or Mathematical Operators so users do not have to search through the entire character set.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Name two tools found on the Insert ribbon that help communicate numerical or process information visually.",
+      answer: "Correct Answer: The Table tool and SmartArt graphics.",
+      explanation:
+          "Explanation: Tables organize structured numeric or text data into rows and columns, while SmartArt visually illustrates sequences, cycles, and hierarchical processes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: What is the recommended function of the final slide in a structured seven-slide presentation?",
+      answer:
+          "Correct Answer: It provides a closing thank-you note and invites the audience to ask questions or discuss the presentation.",
+      explanation:
+          "Explanation: The concluding slide creates an orderly finish to the talk and provides a clean visual backdrop while the presenter answers questions from listeners.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          'Question 1: Describe how the "Sentence case" option modifies a selected line of text in Microsoft PowerPoint.',
+      answer:
+          "Correct Answer: Sentence case automatically capitalises only the very first letter of the first word, leaving all other letters in lowercase unless they are proper nouns.",
+      explanation:
+          "Explanation: This feature mirrors standard grammatical rules for writing sentences in English, ensuring that only the initial character of the opening word is capitalised.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain why visual contrast is essential when choosing font colours for presentation slides.",
+      answer:
+          "Correct Answer: High visual contrast between the text colour and the slide background ensures that words remain clear and easily legible from a distance.",
+      explanation:
+          "Explanation: If text colour is too similar to the background colour, words blend into the canvas and become unreadable to the audience.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the steps to increase the font size of a heading on a PowerPoint slide without typing a number in the font size box.",
+      answer:
+          "Correct Answer: Highlight the heading text, go to the Font group under the Home ribbon, and repeatedly click the Increase Font Size button.",
+      explanation:
+          "Explanation: The Increase Font Size button steps the text size up through standard preset increments each time it is clicked.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Name two common text decoration tools found in the Font group and state when each should be used.",
+      answer:
+          "Correct Answer: Bold is used to emphasize key terms or statistics, and Italic is used to format book titles or scientific names.",
+      explanation:
+          "Explanation: Both features are toggles in the Font group that modify font appearance to draw attention or indicate specific writing conventions.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L5/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the visual difference between Centre alignment and Justify alignment on a PowerPoint slide.",
+      answer:
+          "Correct Answer: Centre alignment places each line in the middle of the box, whereas Justify stretches spacing so text lines touch both left and right margins evenly.",
+      explanation:
+          "Explanation: Centre alignment leaves uneven edges on both sides while centering content, whereas Justify creates straight, even margins on both sides of a paragraph.",
+    ),
+    PracticeQuestion(
+      scenario:
+          'Question 2: Describe what happens when you highlight a bulleted point and click the "Increase Indent" button.',
+      answer:
+          "Correct Answer: The text shifts further to the right and is demoted to a secondary sub-level.",
+      explanation:
+          "Explanation: Increasing the indent moves text inward from the left margin, indicating that it is a supporting sub-point of the item above.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Where on the PowerPoint ribbon can you find tools to add background shading and outline borders to a text box?",
+      answer:
+          "Correct Answer: In the Drawing group on the Home ribbon, or under the Shape Format tab.",
+      explanation:
+          "Explanation: The Drawing group contains the Shape Fill (shading) and Shape Outline (border) commands for styling containers.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Why is it important to choose a pale background shade when applying Shape Fill behind dark body text?",
+      answer:
+          "Correct Answer: A light shade ensures high visual contrast so dark text remains readable to the audience.",
+      explanation:
+          "Explanation: Placing dark text over a dark fill destroys contrast, making words unreadable from a distance.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss2Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L6/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the primary advantage of making formatting changes on the Slide Master rather than on individual slides.",
+      answer:
+          "Correct Answer: Changes made on the Slide Master apply automatically and consistently across every slide in the presentation with a single action.",
+      explanation:
+          "Explanation: Editing the Slide Master updates themes, logos, fonts, and backgrounds globally, eliminating repetitive manual edits and preventing formatting inconsistencies.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Under which ribbon tab is the command to open the Slide Master view located?",
+      answer: "Correct Answer: The View tab.",
+      explanation:
+          "Explanation: The View ribbon contains the Master Views group, which houses the Slide Master, Handout Master, and Notes Master tools.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a presenter returns to the normal editing workspace after modifying the Slide Master.",
+      answer:
+          "Correct Answer: Click the Close Master View button on the Slide Master ribbon tab.",
+      explanation:
+          "Explanation: When working in Master view, a dedicated Slide Master tab appears with a red Close Master View command button to return to Normal view.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Outline the recommended purpose of Slide 4 in a structured five-slide classroom presentation.",
+      answer:
+          "Correct Answer: To provide visual evidence or an illustrated case study using pictures, tables, or diagrams.",
+      explanation:
+          "Explanation: Slide 4 serves as the practical or visual demonstration slide, reinforcing the conceptual facts presented on earlier slides.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [

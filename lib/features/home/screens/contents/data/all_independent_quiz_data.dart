@@ -1439,6 +1439,445 @@ final IndependentPracticeModel computingJhs1S2Ss1Lesson7IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs1S2Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which feature of a presentation package is used to enter headings and bulleted sentences on a slide?",
+      options: [
+        "Slide transition selector",
+        "Built-in text editor",
+        "Media compression tool",
+        "Web browser extension",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "B",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of the following is a cloud-based presentation tool that allows collaborative editing inside a web browser?",
+      options: [
+        "Corel Presentations",
+        "Microsoft Paint",
+        "Google Slides",
+        "Apple Keynote",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "C",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do public speakers commonly use presentation software rather than reading written essays aloud?",
+      options: [
+        "Slides replace the speaker completely",
+        "Slides automatically silence the room",
+        "Slides cost nothing to develop",
+        "Slides make key facts visually clear",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "D",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which item represents an external resource that can be linked directly inside a presentation slide?",
+      options: [
+        "Internet website link",
+        "Computer power cable",
+        "Monitor stand fixture",
+        "External keyboard key",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What happens when you run the slide show display system in a presentation package?",
+      options: [
+        "It converts all text into an audio file",
+        "It projects slides in full-screen order",
+        "It deletes older slides from the drive",
+        "It prints the slides on A4 bond paper",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "B",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss2_L2/7. Independent Practice update.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which area of the PowerPoint window displays the name of the active presentation file?",
+      options: [
+        "The Slide Thumbnail pane",
+        "The top Title Bar",
+        "The bottom Status Bar",
+        "The central Slide Pane",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The top Title Bar",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. To apply a coordinated colour and font scheme to all slides at once, which tab should you click?",
+      options: [
+        "The File tab",
+        "The Insert tab",
+        "The Design tab",
+        "The Review tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The Design tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What tool should a student open to find a synonym for a word in their presentation?",
+      options: [
+        "Language translator",
+        "WordArt gallery",
+        "Animation painter",
+        "Built-in Thesaurus",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Built-in Thesaurus",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Where do you find pre-built presentation templates when starting a brand new project?",
+      options: [
+        "Under File, then New",
+        "Under the View tab",
+        "Inside the Font group",
+        "Inside the Draw ribbon",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Under File, then New",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the primary function of the Spelling tool under the Review tab?",
+      options: [
+        "Counting the total words on a slide",
+        "Finding and correcting typo errors ",
+        "Changing text font style to italics",
+        "Translating slides into new languages",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Spelling tool identifies misspelled words and suggests corrections to help remove typing errors from presentation slides.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss2_L3/7.  INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. On which ribbon tab is the command for inserting special characters located?",
+      options: [
+        "The View tab",
+        "The Insert tab",
+        "The Design tab",
+        "The Review tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Insert tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which category in the Symbol dialogue box should you open to locate foreign money signs?",
+      options: [
+        "Arrows and pointers",
+        "Latin supplement",
+        "Currency Symbols",
+        "Box drawing forms",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Currency Symbols",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What must you do on a slide before the Symbol command can place a character?",
+      options: [
+        "Position the cursor inside a text box",
+        "Change the presentation colour theme",
+        "Apply a slide transition animation",
+        "Save the presentation file to disk",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Position the cursor inside a text box",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which Insert ribbon tool is best suited for showing a sequence of steps in a cycle?",
+      options: [
+        "SmartArt diagram",
+        "Document footer",
+        "Equation builder",
+        "Slide thumbnail",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "SmartArt diagram",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the primary role of the second slide in a seven-slide presentation plan?",
+      options: [
+        "Showing full references",
+        "Stating talk objectives",
+        "Displaying the end credits",
+        "Listing audience names",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Stating talk objectives",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss2_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which command button on the Home tab allows you to switch all highlighted text into capital letters without retyping?",
+      options: [
+        "The Font Color palette",
+        "The Change Case tool",
+        "The Text Direction icon",
+        "The Clear Formatting key",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Change Case tool",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Under which ribbon tab is the primary Font group located in Microsoft PowerPoint?",
+      options: [
+        "The Design tab",
+        "The Insert tab",
+        "The Home tab",
+        "The Review tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The Home tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which font size range is most suitable for main slide headings projected in a classroom?",
+      options: [
+        "10 to 14 points",
+        "12 to 16 points",
+        "18 to 22 points",
+        "32 to 44 points",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "32 to 44 points",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          '4. What is the effect of clicking the "B" icon in the Font group on highlighted text?',
+      options: [
+        "It makes the text bold",
+        "It converts text to blue",
+        "It deletes the text box",
+        "It aligns text to border",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It makes the text bold",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. To ensure high contrast on a dark navy blue background, which font colour should you choose?",
+      options: [
+        "Dark charcoal grey",
+        "Crisp white or yellow",
+        "Deep forest green",
+        "Dark royal purple",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Crisp white or yellow",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss2_L5/7.  INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which horizontal alignment is the standard default for body paragraphs in PowerPoint?",
+      options: [
+        "Right alignment",
+        "Left alignment",
+        "Justified alignment",
+        "Centred alignment",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Left alignment",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which command adjusts text so that both the left and right edges form straight, even margins?",
+      options: [
+        "Align Text Top",
+        "Text Direction",
+        "Justify tool",
+        "Decrease Indent",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Justify tool",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What tool should a student click to add an outline border around an active text box?",
+      options: [
+        "Shape Outline",
+        "Change Case",
+        "WordArt Style",
+        "Master Views",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Shape Outline",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which ribbon group houses the commands for Align Left, Centre, and Increase Indent?",
+      options: [
+        "The Font group",
+        "The Proofing group",
+        "The Symbols group",
+        "The Paragraph group",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The Paragraph group",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the effect of clicking the Decrease Indent button on a second-level bullet point?",
+      options: [
+        "It moves text to the left margin",
+        "It deletes the selected bullet text",
+        "It changes the font to boldface",
+        "It applies a shaded background",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It moves text to the left margin",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss2Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss2_L6/7. INDEPENDENT PRACTICE update.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which feature allows you to place a school logo onto all slides simultaneously?",
+      options: [
+        "The Slide Sorter",
+        "The Slide Master",
+        "The Animation Pane",
+        "The Thesaurus Tool",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Slide Master",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Under which ribbon group on the View tab is the Slide Master command found?",
+      options: [
+        "The Presentation Views",
+        "The Zoom Group",
+        "The Master Views",
+        "The Show Group",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The Master Views",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens to existing slides when you change the font style on the top Slide Master?",
+      options: [
+        "All matching slide fonts update",
+        "All text boxes are deleted",
+        "The slides convert into video",
+        "The font size resets to ten points",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "All matching slide fonts update",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which slide in a five-slide presentation plan is specifically reserved for introducing the topic and speaker?",
+      options: [
+        "Slide 1 (Title Slide)",
+        "Slide 2 (Introduction)",
+        "Slide 3 (Body Data)",
+        "Slide 5 (Summary)",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Slide 1 (Title Slide)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What button must you click when you finish making edits inside the Slide Master view?",
+      options: [
+        "Clear Formatting",
+        "Close Master View",
+        "New Slide Layout",
+        "Revert All Changes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Close Master View",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',
