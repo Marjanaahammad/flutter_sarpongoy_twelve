@@ -1878,6 +1878,706 @@ final IndependentPracticeModel computingJhs1S2Ss2Lesson6IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs1S2Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which feature allows a spreadsheet to update totals instantly after an entry changes?",
+      options: [
+        "Manual spell checking",
+        "Automatic recalculation",
+        "Text alignment control",
+        "Screen zoom adjustment",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Automatic recalculation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is formed at the intersection of a vertical column and a horizontal row?",
+      options: [
+        "A cell",
+        "A menu",
+        "A tab",
+        "A bar",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A cell",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which of the following is an example of an electronic spreadsheet application?",
+      options: [
+        "Microsoft Word",
+        "Adobe Photoshop",
+        "LibreOffice Calc",
+        "Google Chrome",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "LibreOffice Calc",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How do electronic spreadsheets primarily assist users during data presentation?",
+      options: [
+        "By creating visual charts",
+        "By printing paper memos",
+        "By browsing public sites",
+        "By recording voice notes",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "By creating visual charts",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which area of the Excel screen contains menu tabs such as Home, Insert, and Page Layout?",
+      options: [
+        "The Status Bar",
+        "The Ribbon",
+        "The Scroll Bar",
+        "The Sheet Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Ribbon",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the cell reference for a cell situated in the third column and fifth row?",
+      options: [
+        "3E",
+        "5C",
+        "C5",
+        "E3",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "C5",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which keyboard key confirms entry and immediately shifts the active selection to the cell directly below?",
+      options: [
+        "Enter",
+        "Escape",
+        "Shift",
+        "Space",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Enter",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens to a cell's existing contents when you select it and press the Delete key?",
+      options: [
+        "The column is removed",
+        "The formatting resets",
+        "The data is cleared",
+        "The window shuts down",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The data is cleared",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the default datatype applied to all newly opened worksheet cells?",
+      options: [
+        "Accounting format",
+        "General format",
+        "Short Date format",
+        "Percentage format",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "General format",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which datatype should you select to display raw figures with monetary symbols and decimal pesewas?",
+      options: [
+        "Time",
+        "Text",
+        "Currency",
+        "Scientific",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Currency",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. If you enter the value 0.25 into a cell and apply Percentage formatting, what appears on screen?",
+      options: [
+        "25%",
+        "0.25%",
+        "2.50%",
+        "250%",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "25%",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Where on the Excel Ribbon is the Number Format drop-down menu located?",
+      options: [
+        "The View tab",
+        "The Insert tab",
+        "The Home tab",
+        "The Data tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The Home tab",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss3Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L4/7.  INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which command combines multiple highlighted cells into one large cell and centres the text?",
+      options: [
+        "Middle Align",
+        "Merge & Center",
+        "Wrap Text",
+        "AutoFill",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Merge & Center",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What command prevents long text labels from spilling over into neighbouring empty cells?",
+      options: [
+        "Wrap Text",
+        "Cell Shading",
+        "Number Format",
+        "Thick Border",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Wrap Text",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. On which Ribbon tab are the Alignment and Font groups located in Microsoft Excel?",
+      options: [
+        "Page Layout",
+        "Review tab",
+        "Home tab",
+        "View tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Home tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which tool uses a paint bucket icon to apply a coloured background to selected cells?",
+      options: [
+        "Font Color",
+        "Border Style",
+        "Fill Color",
+        "Format Cells",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Fill Color",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss3Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L5/7. INDEPENDENT PRACTICE update.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which page orientation is the default layout when opening a new spreadsheet?",
+      options: [
+        "Square layout",
+        "Portrait orientation",
+        "Circular layout",
+        "Landscape orientation",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Portrait orientation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the blank space along the edges of a printed worksheet called?",
+      options: [
+        "Page margin",
+        "Dialog launcher",
+        "Ribbon tab",
+        "Active range",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Page margin",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. On which Ribbon tab are the Margins and Orientation tools situated?",
+      options: [
+        "Formulas tab",
+        "Review tab",
+        "Page Layout tab",
+        "Insert tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Page Layout tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which worksheet view shows blue lines marking where printed pages split?",
+      options: [
+        "Reading View",
+        "Normal View",
+        "Page Break Preview",
+        "Web Layout View",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Page Break Preview",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss3Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L6/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. In which margin of a printed worksheet does a header appear?",
+      options: [
+        "The left margin",
+        "The top margin",
+        "The right margin",
+        "The bottom margin",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The top margin",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which ribbon tab contains the Header & Footer command inside the Text group?",
+      options: [
+        "The Insert tab",
+        "The Review tab",
+        "The View tab",
+        "The Data tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Insert tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens to the worksheet view when you click the Header & Footer command on the Ribbon?",
+      options: [
+        "It enters Normal View",
+        "It opens Web Layout View",
+        "It switches to Page Layout View",
+        "It launches Full Screen mode",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It switches to Page Layout View",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which tool inserts an automated element that tracks sequential numbers across multi-page printouts?",
+      options: [
+        "File Path tool",
+        "Sheet Name tool",
+        "Page Number tool",
+        "Document Title tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Page Number tool",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss3Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L7/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which tool is used to quickly drag and duplicate series of data across adjacent cells?",
+      options: [
+        "The Zoom Slider",
+        "The Fill Handle",
+        "The Formula Bar",
+        "The Ribbon Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Fill Handle",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. If you type \"Monday\" in a cell and drag the Fill Handle down four cells, what will be the final cell's value?",
+      options: [
+        "Friday",
+        "Thursday",
+        "Tuesday",
+        "Sunday",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Friday",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What mouse pointer shape indicates that the Fill Handle is ready to be dragged?",
+      options: [
+        "An hourglass icon",
+        "A four-way arrow",
+        "A thin black plus sign",
+        "A blinking vertical line",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A thin black plus sign",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. To generate the sequence 10, 20, 30, 40, how many initial values must you enter and select before dragging?",
+      options: [
+        "Four initial values",
+        "Three initial values",
+        "Two initial values",
+        "One initial value",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Two initial values",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S2Ss3Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L8/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What character must always precede a calculation expression in an Excel worksheet?",
+      options: [
+        "The number symbol (#)",
+        "The equal sign (=)",
+        "The plus sign (+)",
+        "The at symbol (@)",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The equal sign (=)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which arithmetic symbol is used to perform division in a spreadsheet formula?",
+      options: [
+        "Colon (:)",
+        "Hyphen (-)",
+        "Forward slash (/)",
+        "Asterisk (*)",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Forward slash (/)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. If you enter 50*2 into a cell without an equal sign, what will appear on the screen?",
+      options: [
+        "100",
+        "#VALUE!",
+        "50*2",
+        "0",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "50*2",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following formulas correctly calculates the product of cell B3 and cell C3?",
+      options: [
+        "=B3*C3",
+        "=B3xC3",
+        "B3*C3",
+        "=B3+C3",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "=B3*C3",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which network device directs data packets across different external networks based on logical internet protocol addresses?",
+      options: [
+        "Router",
+        "Switch",
+        "Server",
+        "Repeater",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Router",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What critical problem occurs when a terminator is removed from the backbone cable of a bus topology?",
+      options: [
+        "Total power supply surges across the drop line",
+        "Signal reflection bounces back and collides",
+        "The intelligent switch overheats and reboots",
+        "Workstations automatically become mesh hubs",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Signal reflection bounces back and collides",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which physical topology requires each computer node to be connected to exactly two neighbouring devices in a closed path?",
+      options: [
+        "Star topology",
+        "Mesh topology",
+        "Ring topology",
+        "Tree topology",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ring topology",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the major vulnerability of implementing a star topology inside an administrative office?",
+      options: [
+        "Adding new client workstations requires running new backbone cables",
+        "Any broken patch cable immediately shuts down every office machine",
+        "Workstations must pass electronic tokens before transmitting data",
+        "Failure of the central switch disrupts the entire connected network",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Failure of the central switch disrupts the entire connected network",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Which topology provides direct point-to-point connections between every pair of nodes, offering maximum fault tolerance?",
+      options: [
+        "Linear bus",
+        "Full mesh",
+        "Open ring",
+        "Star hub",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Full mesh",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which network type is specifically intended to connect personal devices within a range of about ten metres?",
+      options: [
+        "Metropolitan Area Network",
+        "Wide Area Network",
+        "Personal Area Network",
+        "Storage Area Network",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Personal Area Network",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What type of network typically connects computers within a single school computer laboratory or administrative office?",
+      options: [
+        "Local Area Network",
+        "Metropolitan Area Network",
+        "Wide Area Network",
+        "Storage Area Network",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Local Area Network",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which transmission media are most frequently used to carry long-distance Wide Area Network communication across continents?",
+      options: [
+        "Unshielded twisted pair copper lines",
+        "Undersea fiber cables and satellites",
+        "Short-range wireless Bluetooth chips",
+        "Standard desktop drop cables in labs",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Undersea fiber cables and satellites",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. A network that connects multiple university faculty buildings, libraries, and hostels across one continuous school ground is a:",
+      options: [
+        "Personal Area Network",
+        "Storage Area Network",
+        "Wide Area Network",
+        "Campus Area Network",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Campus Area Network",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the primary function of a dedicated Storage Area Network in an enterprise computing centre?",
+      options: [
+        "Linking student smartphones to wireless headsets",
+        "Connecting high-capacity disk storage to servers",
+        "Providing free public internet access in a city",
+        "Absorbing reflected electrical signals at ports",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Connecting high-capacity disk storage to servers",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following is a primary educational benefit of deploying a computer network inside a junior high school?",
+      options: [
+        "Eliminating the need to teach computing in classrooms",
+        "Allowing teachers and students to share files and printers",
+        "Preventing teachers from using external internet links",
+        "Ensuring client computers operate without power sources",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Allowing teachers and students to share files and printers",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What serious hazard does a business face when its computer network lacks proper security and firewall controls?",
+      options: [
+        "Unauthorised hackers may steal private corporate data",
+        "Twisted pair cables automatically stop carrying data",
+        "Central server hard disks become permanent routers",
+        "Physical network switches convert into analog hubs",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Unauthorised hackers may steal private corporate data",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which entrepreneurial venture specifically leverages networked communications to provide retail banking and money transfer services?",
+      options: [
+        "Coaxial cable manufacturing workshop",
+        "Desktop keyboard assembly factory",
+        "Mobile money agent agency kiosk",
+        "Network terminator salvage shop",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Mobile money agent agency kiosk",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why does the installation of a corporate network represent a major financial consideration for small business owners?",
+      options: [
+        "Purchasing servers, switches, and wiring requires capital",
+        "Networks require business owners to discard all computers",
+        "Local Area Networks cannot operate inside commercial towns",
+        "Every connected node requires an independent internet mast",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Purchasing servers, switches, and wiring requires capital",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. An ICT graduate who configures Wi-Fi equipment and runs data cabling for private corporate offices is working as a:",
+      options: [
+        "Software copyright attorney",
+        "Network cabling technician",
+        "Manual paper file archivist",
+        "Graphic textbook illustrator",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Network cabling technician",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',

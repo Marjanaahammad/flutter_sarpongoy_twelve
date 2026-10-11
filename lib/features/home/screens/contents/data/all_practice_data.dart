@@ -979,6 +979,337 @@ final PracticeModel computingJhs1S2Ss2Lesson6PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs1S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Define an electronic spreadsheet in your own words.",
+      answer:
+          "Correct Answer: An electronic spreadsheet is an application program that arranges data into a grid of rows and columns to perform calculations, organise information, and analyse numbers.",
+      explanation:
+          "Explanation: The response must state that it is software using a grid of rows and columns for storing, calculating, or analysing data.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the role of a cell within an electronic spreadsheet.",
+      answer:
+          "Correct Answer: A cell is the rectangular space formed where a row and a column intersect, used to store text, numerical values, or formulas.",
+      explanation:
+          "Explanation: Cells act as individual storage containers for data points and are identified by their column letter and row number.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two practical benefits of using a spreadsheet rather than a traditional paper ledger.",
+      answer:
+          "Correct Answer: Spreadsheets calculate figures with automated speed and accuracy, and they automatically recalculate results whenever source data changes.",
+      explanation:
+          "Explanation: Mentioning automated calculation speed, error reduction, automatic recalculation, or chart generation highlights the main differences from paper.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the difference between the function of the Name Box and the Formula Bar.",
+      answer:
+          "Correct Answer: The Name Box shows the address of the selected active cell, whereas the Formula Bar displays and allows editing of the data or formula inside that cell.",
+      explanation:
+          "Explanation: Responses must identify that the Name Box indicates cell location or coordinate, while the Formula Bar displays cell content for input or editing.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe how columns and rows are labelled on a standard worksheet.",
+      answer:
+          "Correct Answer: Columns are labelled vertically with alphabetical letters, while rows are labelled horizontally with numbers.",
+      explanation:
+          "Explanation: Columns use letters such as A, B, C, and rows use sequential numbers such as 1, 2, 3.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What is the operational difference between the Cut command and the Copy command when moving cell data?",
+      answer:
+          "Correct Answer: Cut removes the data from its original location when pasted elsewhere, whereas Copy leaves the original data unchanged and duplicates it.",
+      explanation:
+          "Explanation: Cut relocates data, while Copy creates an identical duplicate in another cell.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain what happens to the visual appearance of a number when you apply the Currency datatype.",
+      answer:
+          "Correct Answer: Applying the Currency datatype adds a currency symbol directly before the number and displays fixed decimal places for cents or pesewas.",
+      explanation:
+          "Explanation: The response must identify that a currency symbol is attached and standard decimal places are displayed for financial values.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe how text labels and numeric values align inside a spreadsheet cell by default.",
+      answer:
+          "Correct Answer: Text labels align to the left side of the cell by default, whereas numeric values align to the right side.",
+      explanation:
+          "Explanation: Default horizontal alignment places text on the left and numeric values on the right.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Outline the steps required to change the datatype of a cell using the Home tab on the Ribbon.",
+      answer:
+          "Correct Answer: Select the target cell, click the Number Format drop-down menu in the Number group on the Home tab, and select the desired format.",
+      explanation:
+          "Explanation: Steps must include selecting the cell, navigating to the Number group on the Home tab, and picking the new format from the drop-down list.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss3Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the difference between horizontal text alignment and vertical text alignment inside a cell.",
+      answer:
+          "Correct Answer: Horizontal alignment controls whether text sits against the left, centre, or right of a cell, while vertical alignment controls whether text sits at the top, middle, or bottom of a cell.",
+      explanation:
+          "Explanation: The response must clearly distinguish side-to-side positioning from top-to-bottom positioning within the cell boundaries.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe how the Wrap Text command helps manage long cell labels without widening table columns.",
+      answer:
+          "Correct Answer: Wrap Text breaks long lines of text into multiple vertical lines within the same cell by expanding the row height, preventing words from overflowing into adjacent columns.",
+      explanation:
+          "Explanation: Responses should highlight that text is displayed on multiple lines inside one cell and that column width remains unchanged while row height adjusts.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Why is it necessary to apply borders to a worksheet table before printing it onto paper?",
+      answer:
+          "Correct Answer: The default grey worksheet gridlines do not normally appear in print, so applying borders creates visible lines that separate data rows and columns clearly.",
+      explanation:
+          "Explanation: The explanation must state that standard on-screen gridlines are non-printing guidelines by default, making manual borders necessary for printed clarity.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss3Lesson5PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s2_ss3_L5/6. GUIDED PRACTICE update.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Define page margins and state why adjusting them is helpful when formatting a worksheet for printing.",
+      answer:
+          "Correct Answer: Page margins are the empty spaces between the worksheet data and the edges of the printed paper, and adjusting them helps fit more columns onto a single page or provides space for binding.",
+      explanation:
+          "Explanation: Responses must state that margins represent blank border spacing and that adjustments help manage print space and prevent data spillover.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Compare Portrait and Landscape page orientations in terms of page dimensions and document suitability.",
+      answer:
+          "Correct Answer: Portrait orientation makes the page taller than it is wide and suits narrow tables with many rows, whereas Landscape makes the page wider than it is tall and suits broad tables with many columns.",
+      explanation:
+          "Explanation: Responses must identify that Portrait is vertical (taller than wide) and Landscape is horizontal (wider than tall).",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain the practical advantage of using Page Break Preview before issuing a print command.",
+      answer:
+          "Correct Answer: Page Break Preview displays exact blue page division lines, allowing the user to see page cut-offs and drag lines to fit data onto fewer sheets.",
+      explanation:
+          "Explanation: The answer must mention visible page break indicators and the ability to preview or adjust page boundaries before physical printing.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss3Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L6/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the difference between a header and a footer in terms of page positioning and common uses.",
+      answer:
+          "Correct Answer: A header is positioned in the top margin of a printed worksheet and typically displays titles or institution names, whereas a footer is positioned in the bottom margin and usually displays page numbers, dates, or file names.",
+      explanation:
+          "Explanation: Responses must identify that headers sit in the top margin while footers sit in the bottom margin, and state typical content found in each.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Why do headers and footers not appear on screen when a user is working in Normal View?",
+      answer:
+          "Correct Answer: Normal View is designed for data entry and calculation on an endless grid, so headers and footers only display when switching to Page Layout View or Print Preview where page margins are shown.",
+      explanation:
+          "Explanation: The response must explain that Normal View focuses on the raw editing grid without showing page boundaries or printing margins.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe what happens when a user inserts the Current Date element into a footer box.",
+      answer:
+          "Correct Answer: The software places a dynamic code in the footer that reads the system clock and automatically displays the current calendar date whenever the document is viewed in Page Layout View or printed.",
+      explanation:
+          "Explanation: Responses should highlight that the date is dynamic and updates automatically based on the system calendar.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss3Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L7/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Describe what the Fill Handle looks like and state where it is located on an active cell.",
+      answer:
+          "Correct Answer: The Fill Handle is a small solid square located at the bottom-right corner of an active cell or selected cell range.",
+      explanation:
+          "Explanation: The response must identify that it is a small square and is situated at the bottom-right corner of the active cell border.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain why two consecutive numbers must be entered before using AutoFill to generate an odd number sequence.",
+      answer:
+          "Correct Answer: Two numbers are needed to establish the step pattern or mathematical interval (such as adding two), preventing Excel from simply copying the initial digit.",
+      explanation:
+          "Explanation: Responses should highlight that the software requires two data points to detect the mathematical rule or interval of the series.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What happens to the mouse pointer when it is placed directly over the Fill Handle?",
+      answer:
+          "Correct Answer: The standard thick white cross pointer transforms into a thin, black plus sign (`+`).",
+      explanation:
+          "Explanation: The answer must mention the visual change from the default pointer to a thin black plus sign.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S2Ss3Lesson8PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L8/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why every formula in Microsoft Excel must start with the equal sign (=).",
+      answer:
+          "Correct Answer: The equal sign signals to the spreadsheet that the following characters form an active mathematical calculation rather than plain text or a label.",
+      explanation:
+          "Explanation: The response must state that the equal sign informs the software to evaluate and calculate the expression instead of displaying it as static text.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe the advantage of using cell references such as =A1+A2 instead of hardcoded numbers like =10+20.",
+      answer:
+          "Correct Answer: Using cell references enables automatic recalculation, meaning the formula updates its result dynamically whenever the values inside those cells change.",
+      explanation:
+          "Explanation: Responses should highlight dynamic updating and automatic recalculation when source data is edited.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the correct computing keyboard symbols used for multiplication and division operations.",
+      answer:
+          "Correct Answer: Multiplication uses the asterisk symbol (*), and division uses the forward slash symbol (/).",
+      explanation:
+          "Explanation: Responses must identify the asterisk (*) for multiplication and the forward slash (/) for division.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the specific role of a terminator in a linear bus network topology, and state what occurs if it is missing.",
+      answer:
+          "Correct Answer: A terminator is installed at both open ends of the central backbone cable to absorb electrical signals when they reach the end of the line. If terminators are missing, signals bounce back along the cable, causing packet collisions that corrupt data and disrupt transmission.",
+      explanation:
+          "Explanation: Electrical pulses on a bus wire travel in both directions toward the extremities. Without a resistive terminator to absorb the pulse energy, signal reflection occurs, producing interference that halts effective communication.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Contrast the data transmission handling of a network hub with that of an intelligent network switch.",
+      answer:
+          "Correct Answer: A hub broadcasts all incoming data packets to every single port and device connected to it regardless of destination. An intelligent switch reads the specific destination hardware address on each packet and forwards it only to the intended recipient device.",
+      explanation:
+          "Explanation: Hubs operate blindly without examining traffic, causing high data congestion and reduced bandwidth across the network. Switches preserve network performance by isolating communication pathways between source and destination nodes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe why a star topology is significantly easier to troubleshoot and maintain in a school laboratory compared to a bus topology.",
+      answer:
+          "Correct Answer: In a star topology, each workstation possesses its own individual cable link connected to a central switch. If one cable fails, only that single workstation goes offline, while in a bus topology, any break along the main backbone cable shuts down the entire network.",
+      explanation:
+          "Explanation: Fault isolation allows network administrators to unplug and replace a damaged client cable without interrupting other users working in the room.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the essential difference between a Personal Area Network and a Local Area Network in terms of physical range and typical devices.",
+      answer:
+          "Correct Answer: A Personal Area Network covers an individual space of approximately ten metres to connect personal gadgets such as phones, wireless headsets, and tablets. A Local Area Network covers an entire room, building, or school campus, interconnecting multiple desktop workstations, servers, and shared printers.",
+      explanation:
+          "Explanation: PANs facilitate short-range data exchange between personal peripherals, whereas LANs provide shared computing resources and data services to multiple users across a defined facility.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe how a Metropolitan Area Network serves a municipal government operating across different suburbs of a city.",
+      answer:
+          "Correct Answer: A Metropolitan Area Network interconnects the distinct Local Area Networks of various municipal administrative buildings across the city. It utilizes high-speed links provided by telecommunications providers, allowing staff in separate suburbs to access central public databases without physical travel.",
+      explanation:
+          "Explanation: MANs bridge the geographic gap between single-building LANs and nationwide WANs by enabling citywide data sharing for public agencies and commercial firms.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Why is the global internet categorized as a Wide Area Network rather than a Local Area Network?",
+      answer:
+          "Correct Answer: The internet spans across national boundaries, oceans, and continents rather than being confined to a single room or building. It relies on global telecommunications infrastructure such as undersea cables, satellites, and microwave towers owned by multiple international providers.",
+      explanation:
+          "Explanation: Wide Area Networks are defined by broad geographic coverage and reliance on external public telecommunication carriers rather than private local wiring.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State two tangible benefits that a district hospital gains by transitioning from paper records to a Local Area Network.",
+      answer:
+          "Correct Answer: A district hospital can instantly share digital patient medical histories between examination rooms and diagnostic laboratories, reducing patient waiting times. It also secures centralized electronic health records against physical damage while enabling doctors to share research data across departments.",
+      explanation:
+          "Explanation: LANs eliminate the slow and error-prone process of manually carrying paper files across hospital wards, speeding up patient care.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain why system downtime on a central server poses a significant operational risk for a commercial enterprise.",
+      answer:
+          "Correct Answer: Because all client computers depend on the central server for files, database lookups, and transaction processing, a server failure halts work across the entire enterprise. Employees cannot generate customer invoices or verify stock levels, resulting in lost revenue and operational delays.",
+      explanation:
+          "Explanation: Centralized architectures mean that failures at the core disruption point ripple across every dependent terminal on the network.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a young entrepreneur can establish a profitable business helping students check examination results and school placements.",
+      answer:
+          "Correct Answer: An entrepreneur can set up an ICT support kiosk using a networked personal computer, an internet router, and a printer. By guiding candidates through national education portals to access result slips and school placement documents for a small service fee, the owner builds a viable enterprise.",
+      explanation:
+          "Explanation: Providing structured internet access and printing services fulfills high community demand during national examination release cycles.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [

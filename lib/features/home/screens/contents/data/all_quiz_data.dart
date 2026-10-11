@@ -4350,6 +4350,1612 @@ final QuizModel computingJhs1S2Ss2Lesson6QuizData = QuizModel(
   ],
 );
 
+final QuizModel computingJhs1S2Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the fundamental structure used by electronic spreadsheets to organise information?",
+      options: [
+        "A numbered list of paragraphs",
+        "A grid of rows and columns",
+        "A set of overlapping slides",
+        "A collection of audio tracks",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Spreadsheets arrange data strictly in intersecting horizontal rows and vertical columns.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which office application is specifically built to compute numerical data and produce charts?",
+      options: [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Adobe Acrobat",
+        "Mozilla Firefox",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft Excel is a dedicated spreadsheet software designed for numerical calculation and data analysis.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In an electronic spreadsheet, what is the specific name of the box that stores individual data?",
+      options: [
+        "Block",
+        "Frame",
+        "Cell",
+        "Panel",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A cell is the rectangular unit formed by the intersection of a row and a column.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is an electronic spreadsheet preferred over a manual paper ledger for school accounts?",
+      options: [
+        "It consumes more electricity",
+        "It requires paper and erasers",
+        "It operates only with keyboards",
+        "It prevents calculation errors",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Spreadsheets use automated formulas, eliminating human arithmetic mistakes common in manual calculations.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of the following software programs is a free, open-source spreadsheet package?",
+      options: [
+        "LibreOffice Calc",
+        "Microsoft Outlook",
+        "Corel VideoStudio",
+        "Google Chrome Web",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "LibreOffice Calc is an open-source productivity program available without licence fees.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What takes place in a worksheet when an input value tied to a calculation formula is edited?",
+      options: [
+        "The sheet deletes the table",
+        "The entire device turns off",
+        "The application locks cells",
+        "The answer updates instantly",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Spreadsheets feature automatic recalculation, updating dependent formulas the moment values change.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which spreadsheet package runs inside a web browser and allows multiple users to edit together?",
+      options: [
+        "Google Sheets",
+        "Windows Media",
+        "Adobe Reader",
+        "Paint 3D App",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Google Sheets is a cloud-based spreadsheet program that supports live real-time collaboration.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A trader in Tamale wants to check which goods earned the most profit this month. Which tool should she use?",
+      options: [
+        "Font colour palette",
+        "Data sorting feature",
+        "Document margin tool",
+        "Screen brightness bar",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Sorting allows users to arrange numbers in ascending or descending order to identify top and bottom values.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature best helps a headmistress present term attendance figures quickly at a PTA meeting?",
+      options: [
+        "Dark screen mode",
+        "High-speed typing",
+        "Graphical charts",
+        "Desktop shortcuts",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Graphical capabilities such as bar and pie charts visually display patterns and summary statistics clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following tasks is an electronic spreadsheet least suited to perform?",
+      options: [
+        "Preparing school annual budgets",
+        "Computing student marks averages",
+        "Editing long literary novels",
+        "Tracking canteen sales records",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Word processors are built for long narrative writing, whereas spreadsheets specialise in numeric data and tables.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which component of the Excel interface displays the cell address of the currently active cell?",
+      options: [
+        "Dialog Box Launcher",
+        "Formula Bar",
+        "Quick Access Bar",
+        "Name Box",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Name Box, located to the left of the Formula Bar, displays the reference of the active cell.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How is a vertical division of an electronic spreadsheet identified on screen?",
+      options: [
+        "By an alphabetical letter",
+        "By a positive integer",
+        "By a punctuation mark",
+        "By a Roman numeral",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Columns run vertically and are headed by letters such as A, B, C, and so on.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What indicates on the worksheet that a specific cell is selected and ready for data entry?",
+      options: [
+        "A flashing arrow pointer",
+        "A dotted yellow circle",
+        "A heavy dark border",
+        "A coloured diagonal line",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The active cell is outlined with a bold, dark rectangular border to show it is currently selected.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student needs to fix one wrong character in a long cell label without retyping the entire text. What should they do?",
+      options: [
+        "Double-click the cell",
+        "Press the Delete key",
+        "Tap the Spacebar key",
+        "Click the Sheet Tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Double-clicking a cell or clicking inside the Formula Bar activates the cursor for partial text edits.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which shortcut combination allows a user to duplicate data from one cell into another location?",
+      options: [
+        "Ctrl + X and Ctrl + P",
+        "Ctrl + C and Ctrl + V",
+        "Ctrl + Z and Ctrl + Y",
+        "Ctrl + A and Ctrl + S",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Ctrl + C copies the selected data to the clipboard, and Ctrl + V pastes it into the chosen destination cell.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where on the Excel screen can a user read the full content or underlying calculation of an active cell?",
+      options: [
+        "The Status Bar",
+        "The Title Bar",
+        "The Zoom Slider",
+        "The Formula Bar",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Formula Bar shows the raw data, text, or formula contained within the active cell.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the correct term for a group of two or more adjacent cells highlighted across a worksheet?",
+      options: [
+        "Cell range",
+        "Cell frame",
+        "Cell block",
+        "Cell union",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A contiguous group or block of selected cells in a spreadsheet is referred to as a cell range.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens to the original source cell when a user moves data using the Cut and Paste technique?",
+      options: [
+        "It stays fully intact",
+        "It is deleted completely",
+        "It turns dark yellow",
+        "It becomes locked shut",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Cut command removes data from its initial position so it can be placed into the destination cell.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which area at the bottom edge of the Excel interface lets you navigate between multiple worksheets?",
+      options: [
+        "Quick Access Bar",
+        "Ribbon Menu Bar",
+        "Worksheet Tabs",
+        "Main Formula Bar",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Sheet tabs sit near the bottom left and let users click to switch between different sheets in a workbook.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If a user selects cell D6, which column letter and row number does this intersection represent?",
+      options: [
+        "Column 6 and Row 4",
+        "Column 4 and Row D",
+        "Column 6 and Row D",
+        "Column D and Row 6",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A cell name combines the column letter first, followed immediately by the row number.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which datatype automatically aligns currency symbols and decimal points in a straight vertical line?",
+      options: [
+        "Percentage",
+        "General",
+        "Text",
+        "Accounting",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Accounting format aligns currency symbols on the left and decimal points vertically down columns for clean balance sheets.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the main reason for assigning the Date datatype to a column of calendar entries?",
+      options: [
+        "It enables chronological sorting",
+        "It doubles the row height",
+        "It underlines every heading",
+        "It locks the computer screen",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Proper date datatypes ensure the software treats entries as valid dates, allowing accurate calendar sorting and calculations.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What dialog box opens when you right-click a cell and need comprehensive formatting choices?",
+      options: [
+        "Formula Setup Box",
+        "Format Cells Box",
+        "Page Setup Launcher",
+        "Insert Function Box",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Right-clicking a cell and selecting \"Format Cells\" opens the full formatting dialog window.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student types the value 50 into a cell. Which format will display this value as 50.00?",
+      options: [
+        "General",
+        "Text",
+        "Time",
+        "Number",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Number format allows users to define explicit decimal places, displaying integers with trailing zeros.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When entering a school telephone number like 0244123456, why does General format drop the leading zero?",
+      options: [
+        "It treats digits as a numeric value",
+        "It only accepts eight characters",
+        "It requires an email address",
+        "It flags all zeros as errors",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "General format interprets digits mathematically, and numbers do not retain non-significant leading zeros.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does an electronic spreadsheet align standard alphabetic text inside a cell by default?",
+      options: [
+        "Centred horizontally",
+        "Aligned to the left",
+        "Aligned to the right",
+        "Justified along both",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Text entries default to left alignment, whereas numeric entries default to right alignment.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which date style spells out the name of the month in full on the worksheet?",
+      options: [
+        "Long Date format",
+        "Short Date format",
+        "Julian Date format",
+        "Native Date format",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Long Date option displays dates fully written out, including the day of the week and full month name.",
+    ),
+    QuizQuestion(
+      question:
+          "8. On which ribbon tab will you find the primary drop-down menu for setting cell formats?",
+      options: [
+        "Formulas tab",
+        "Review tab",
+        "Home tab",
+        "View tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Number formatting group and its type selector drop-down sit directly on the Home tab.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A canteen records daily opening hours as 08:30 AM. Which datatype is most appropriate?",
+      options: [
+        "Fraction format",
+        "Currency format",
+        "Scientific format",
+        "Time format",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Time format is designed specifically for displaying clock hours, minutes, and AM or PM designations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If a cell displays 8 Cedis and 50 pesewas as 8.5, which format should be applied to show 8.50 Cedis properly?",
+      options: [
+        "Currency",
+        "General",
+        "Text",
+        "Percentage",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Applying the Currency format appends the monetary unit and enforces two decimal places for currency.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which tool should a student use to place a table title evenly across columns A, B, C, and D?",
+      options: [
+        "Wrap Text",
+        "Merge Across",
+        "AutoFit Column",
+        "Merge & Center",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Merge & Center merges the highlighted cells into a single wide cell and centres the text horizontally across that range.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What occurs to a selected cell when the Wrap Text feature is toggled on?",
+      options: [
+        "Text spans multiple lines",
+        "The font size shrinks to fit",
+        "The column width triples",
+        "The text turns into uppercase",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Wrap Text displays long strings across multiple lines inside a cell by increasing row height rather than column width.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which vertical alignment command centres cell content between the upper and lower row borders?",
+      options: [
+        "Top Align",
+        "Bottom Align",
+        "Middle Align",
+        "Center Align",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Middle Align adjusts content vertically so that it sits midway between the top and bottom edges of the cell.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why are borders applied manually to a spreadsheet table before it is printed out?",
+      options: [
+        "Borders prevent formula calculation bugs",
+        "Borders compress file size for printing",
+        "Screen gridlines do not print by default",
+        "Screen text cannot be read without lines",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "On-screen worksheet gridlines are non-printable guide marks; explicit borders must be formatted to print visible lines.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which border style is traditionally applied beneath the final total in accounting sheets?",
+      options: [
+        "Double Bottom Border",
+        "Diagonal Cross Border",
+        "Dotted Left Border",
+        "Single Top Border",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A double bottom line beneath a calculation total is standard accounting notation indicating a completed final balance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which command restores a merged block back into its original individual cells?",
+      options: [
+        "Split Column",
+        "Clear Formats",
+        "Reset Cells",
+        "Unmerge Cells",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Unmerge Cells command splits a previously merged block back into its separate constituent grid cells.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A teacher wants to highlight the top three scores in a class list. Which tool is best suited?",
+      options: [
+        "Cell Shading (Fill Color)",
+        "Sheet Orientation",
+        "Margins Adjustment",
+        "Unmerge Formatting",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Shading fills the background of selected cells with distinct colours, allowing key records or headers to stand out.",
+    ),
+    QuizQuestion(
+      question:
+          "8. On which ribbon tab are the Merge & Center and Wrap Text commands located?",
+      options: [
+        "Page Layout tab",
+        "Home tab",
+        "Formulas tab",
+        "Data tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Both Merge & Center and Wrap Text reside in the Alignment group situated directly on the Home tab.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens to the remaining text if you merge multiple cells that each contain data?",
+      options: [
+        "All text from every cell is concatenated",
+        "Only the upper-left cell data is kept",
+        "All data across the selection is erased",
+        "The application displays a formula error",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Merging cells with multiple entries retains only the contents of the upper-left cell while discarding the rest.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does the Orientation command in the Alignment group alter the appearance of cell text?",
+      options: [
+        "It changes the language font family",
+        "It translates text into numerical data",
+        "It flips numbers into decimal pesewas",
+        "It rotates text diagonally or vertically",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Orientation tool rotates characters to angle upward, angle downward, or run vertically inside the cell.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L5/8. QUIZ update.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which page orientation turns a printed worksheet horizontally so that it is wider than it is tall?",
+      options: [
+        "Letter orientation",
+        "Bookfold orientation",
+        "Portrait orientation",
+        "Landscape orientation",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Landscape orientation rotates the page horizontally, making the printable area wider than it is tall.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which margin preset provides the smallest border spacing to fit maximum data columns onto a page?",
+      options: [
+        "Narrow preset",
+        "Normal preset",
+        "Center preset",
+        "Wide preset",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Narrow margin preset reduces white space along all four edges, maximizing printable space for broad tables.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In which group on the Page Layout tab are Margins and Orientation located?",
+      options: [
+        "Themes group",
+        "Page Setup group",
+        "Sheet Options group",
+        "Arrange group",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Page Setup group houses essential printing controls including Margins, Orientation, Size, and Print Area.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student has a table with ten columns of sports day scores. Which orientation will prevent columns from splitting?",
+      options: [
+        "Grid orientation",
+        "Vertical orientation",
+        "Portrait orientation",
+        "Landscape orientation",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Landscape orientation provides wider horizontal space, allowing multi-column tables to fit on a single page.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which dialog box opens when a user needs to type custom margin values in centimetres?",
+      options: [
+        "Page Setup dialog box",
+        "Format Cells dialog box",
+        "Insert Object dialog box",
+        "Zoom Settings dialog box",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Selecting \"Custom Margins\" from the Margins menu launches the Page Setup dialog box.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which view displays the worksheet as realistic paper pages including visible headers, footers, and margins?",
+      options: [
+        "Outline View",
+        "Web View",
+        "Normal View",
+        "Page Layout View",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Page Layout View shows the worksheet broken into pages with margins, headers, and footers clearly visible.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Where on the Excel screen can you quickly toggle between Normal, Page Layout, and Page Break Preview?",
+      options: [
+        "The Status Bar",
+        "The Formula Bar",
+        "The Name Box",
+        "The Title Bar",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The view shortcut buttons sit at the bottom right corner of the Excel window along the Status Bar.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why would a teacher choose the Wide margin preset for a school report document?",
+      options: [
+        "To shrink text size automatically",
+        "To leave room for binding or filing",
+        "To fit twenty columns on one page",
+        "To force the printer to print in colour",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Wide margins provide extra white space around the perimeter, which is ideal for stapling or ring-binding pages.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when a user clicks and drags a blue divider line in Page Break Preview?",
+      options: [
+        "It deletes the column data",
+        "It changes cell datatypes",
+        "It repositions the page boundary",
+        "It underlines text headings",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Dragging blue division lines adjusts where page breaks occur, changing which cells appear on each printed sheet.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A table has two columns: \"Student Name\" and \"Attendance Status\", with seventy rows. Which layout is most appropriate?",
+      options: [
+        "Portrait orientation",
+        "Landscape orientation",
+        "Banner orientation",
+        "Slide orientation",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A narrow table with only two columns but many vertical rows is best presented in Portrait orientation.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which area along the bottom margin of a printed worksheet is used to display page numbers and timestamps?",
+      options: [
+        "Header",
+        "Margin line",
+        "Scroll bar",
+        "Footer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A footer is the dedicated area at the bottom margin of each printed page that displays page numbers, dates, and other document details.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How many distinct sections are provided inside each header and footer area across the page width?",
+      options: [
+        "Three sections",
+        "Four sections",
+        "Two sections",
+        "Five sections",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Headers and footers are divided into three distinct clickable alignment sections: left, centre, and right.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Under which group on the Insert tab will you locate the Header & Footer command?",
+      options: [
+        "Tables group",
+        "Text group",
+        "Links group",
+        "Charts group",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Header & Footer command resides inside the Text group on the Insert ribbon tab.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why are headers and footers invisible when working in standard Normal View?",
+      options: [
+        "Normal View deletes all text formatting",
+        "Normal View runs only without formulas",
+        "Normal View disables all printer drivers",
+        "Normal View hides margins and page breaks",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Normal View presents a continuous grid without displaying margins, headers, footers, or page boundaries.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which element code should a teacher insert to ensure printed mark sheets display the exact day of printing?",
+      options: [
+        "Page Number",
+        "Sheet Name",
+        "Current Date",
+        "File Size",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Current Date command inserts an automated date code that updates dynamically based on the system calendar.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which tab appears on the Ribbon whenever a user clicks inside a header or footer box?",
+      options: [
+        "Design tab",
+        "Formulas tab",
+        "Review tab",
+        "Data tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking inside any header or footer box opens the contextual Header & Footer Design tab on the Ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which navigation button on the Design tab jumps the cursor from the header straight to the footer?",
+      options: [
+        "Go to Footer",
+        "Jump to Bottom",
+        "Scroll Down Box",
+        "Next Section",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The \"Go to Footer\" command in the Navigation group moves the user directly from the top header to the bottom footer.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A bursar wants the printed sheet to identify the computer file name automatically. Which button is used?",
+      options: [
+        "File Size",
+        "File Name",
+        "User Login",
+        "Hard Drive",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The File Name tool inserts a dynamic code that displays the saved digital workbook name in the header or footer.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In which view can a student edit worksheet cell data while viewing headers and footers simultaneously?",
+      options: [
+        "Normal View",
+        "Reading View",
+        "Page Layout View",
+        "Web Preview",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Page Layout View shows margins, headers, and footers clearly while still allowing direct cell editing on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What happens when you combine the Page Number and Number of Pages elements in a footer?",
+      options: [
+        "It generates a total sum formula",
+        "It clears all footer formatting",
+        "It links to an external browser",
+        "It prints formats like Page 1 of 5",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Combining the Page Number and Number of Pages tools displays the current page alongside the total page count.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L7/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What feature in Microsoft Excel automatically fills adjacent cells with sequential data following a pattern?",
+      options: [
+        "Spell Check",
+        "Page Break",
+        "Text Wrapping",
+        "AutoFill",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "AutoFill is the dedicated spreadsheet feature used to populate series of numbers, dates, or text lists automatically.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where on the border of a selected active cell is the Fill Handle located?",
+      options: [
+        "Bottom-right corner",
+        "Upper-left corner",
+        "Exact center point",
+        "Upper-right corner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Fill Handle appears as a small square positioned at the lower-right corner of the active cell border.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What happens when a user types \"January\" into a cell and drags the Fill Handle downwards across five cells?",
+      options: [
+        "Excel displays an error code",
+        "Excel fills months through June",
+        "Excel duplicates \"January\" five times",
+        "Excel converts the text into numbers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Months of the year are recognized as a predefined sequence, so AutoFill automatically generates the succeeding months.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student types 3 in cell A1 and 6 in cell A2. What value appears in cell A3 if she selects both and uses AutoFill?",
+      options: [
+        "7",
+        "8",
+        "12",
+        "9",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "AutoFill detects a step interval of plus three (multiples of three), so the next number generated is nine.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which symbol appears on screen when the mouse pointer is positioned correctly over the Fill Handle?",
+      options: [
+        "A white open hand",
+        "A thick white cross",
+        "A thin black plus sign",
+        "A double horizontal line",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The mouse pointer transforms into a slender black crosshair or plus sign (+) when hovering over the Fill Handle.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does typing only the number \"5\" and dragging the Fill Handle often result in the number 5 repeating down the column?",
+      options: [
+        "Numbers cannot be used with AutoFill",
+        "The worksheet is locked against edits",
+        "A single number does not show a pattern",
+        "Excel only supports text sequences",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Without a second number to establish an increment interval, Excel defaults to copying the single value.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A teacher enters \"01/03/2026\" into a cell. What does AutoFill do when dragged down three adjacent rows?",
+      options: [
+        "Increments the date day by day",
+        "Multiplies the year by three",
+        "Erases the original date entry",
+        "Changes the format to text",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "AutoFill recognizes standard date datatypes and increments sequential calendar dates by one day per cell.",
+    ),
+    QuizQuestion(
+      question:
+          "8. To generate a list of odd numbers (1, 3, 5, 7), which two numbers should be entered into the initial cells?",
+      options: [
+        "0 and 2",
+        "1 and 3",
+        "1 and 2",
+        "3 and 6",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Entering 1 and 3 establishes a pattern of adding two to each odd integer.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In which directions can the Fill Handle be dragged to populate a series across a worksheet?",
+      options: [
+        "Vertically and horizontally",
+        "Diagonally across cells only",
+        "In circular loops around cells",
+        "Only from right to left",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The Fill Handle can be dragged vertically down columns or up rows, and horizontally across columns to the right or left.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What happens if you drag the Fill Handle through seven cells after typing the abbreviation \"Fri\"?",
+      options: [
+        "It repeats \"Fri\" seven times",
+        "It clears the target range",
+        "It displays a syntax error",
+        "It fills abbreviated days and cycles",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "AutoFill extends short day names (Sat, Sun, Mon...) and seamlessly loops back when reaching the end of the week.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L8/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What symbol is required at the very start of every spreadsheet formula?",
+      options: [
+        "Asterisk (*)",
+        "Greater-than (>)",
+        "Ampersand (&)",
+        "Equal sign (=)",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Every formula in an electronic spreadsheet must begin with an equal sign (=) to prompt calculation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which keyboard operator is used to multiply two values together in a formula?",
+      options: [
+        "Asterisk (*)",
+        "Letter X (x)",
+        "Caret (^)",
+        "Plus sign (+)",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The asterisk symbol (*) is the standard arithmetic multiplication operator in spreadsheet applications.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where can you view the original equation of a cell while the grid shows the calculated answer?",
+      options: [
+        "The Status Bar",
+        "The Formula Bar",
+        "The Name Box",
+        "The Sheet Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Formula Bar displays the underlying formula of the active cell, even when the cell displays the computed result.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student enters =B1+B2 into cell B3. What happens if the value in cell B1 is increased?",
+      options: [
+        "The formula clears itself",
+        "The computer shows an error",
+        "Cell B3 locks against edits",
+        "Cell B3 updates automatically",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Spreadsheets use automatic recalculation to update results dynamically when referenced cell values change.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which formula correctly divides the total value in cell F10 by the number 4?",
+      options: [
+        "=F10/4",
+        r"=F10\backslash 4",
+        "=F10:4",
+        "=F10-4",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Division expressions in spreadsheets use the forward slash operator (/) followed by the divisor.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is writing =A1+A2 superior to entering =500+250 in a school account sheet?",
+      options: [
+        "It allows dynamic data changes",
+        "It requires less disk memory",
+        "It changes font styles automatically",
+        "It hides numbers from other viewers",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Cell references allow dynamic updates, automatically recalculating totals when input values change.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What occurs if a user types 12/3 into a spreadsheet cell without entering an equal sign?",
+      options: [
+        "Excel displays the number 4",
+        "Excel treats it as a calendar date",
+        "Excel shuts down immediately",
+        "Excel produces a division error",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Without an equal sign, entering numbers with slashes causes Excel to interpret the entry as text or a calendar date.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which formula calculates total cost if unit price is in cell C2 and quantity is in cell D2?",
+      options: [
+        "=C2+D2",
+        "=C2*D2",
+        "=C2/D2",
+        "=C2-D2",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Multiplying the unit price by the quantity purchased (=C2*D2) gives the total cost.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a student select cell addresses quickly while writing a formula without typing them?",
+      options: [
+        "Double-clicking the Ribbon tab",
+        "Right-clicking the desktop icon",
+        "Clicking target cells with mouse",
+        "Pressing the spacebar repeated times",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Point-and-click selection allows users to click target cells directly to insert their addresses into a formula.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What does a cell display if a user types =40-15 and presses the Enter key?",
+      options: [
+        "=40-15",
+        "40-15",
+        "25",
+        "55",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Starting with an equal sign computes the subtraction expression directly, displaying the answer 25.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of a central server node within a school local computer network?",
+      options: [
+        "Storing files and providing shared network services to client nodes",
+        "Terminating stray electrical signals running across long drop lines",
+        "Connecting unshielded twisted pair cables directly into wall plugs",
+        "Broadcasting data frames indiscriminately to every laboratory port",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A server provides shared files, resources, and administrative control to connected client computers on a network.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why does a network switch provide higher communication efficiency than an older network hub?",
+      options: [
+        "It forwards data only to the specific intended destination address",
+        "It connects computers without requiring any physical network cables",
+        "It retransmits all arriving data packets across every single device",
+        "It automatically absorbs stray signals at both cable extremities",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Switches inspect the target address of each data packet and route traffic strictly to the designated node.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which statement correctly describes the operation of a physical linear bus network topology?",
+      options: [
+        "All nodes link directly to an intelligent central distribution switch",
+        "Every device connects to a single continuous shared backbone cable",
+        "Every single computer maintains a private direct cable to all others",
+        "Computers circulate messages in an endless loop using a ring token",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A bus topology attaches all client computers and peripherals directly to one common central backbone line.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In a token ring network, what mechanism allows a workstation to initiate data transmission across the loop?",
+      options: [
+        "Sending an alert ping across every connected port simultaneously",
+        "Waiting for the central hub to issue an electronic control address",
+        "Gaining exclusive possession of the circulating electronic token",
+        "Connecting directly through a dedicated full-duplex coaxial line",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Workstations in a ring topology can only transmit data frames onto the shared loop while possessing the active token.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens to a star network if the individual cable connecting an ICT student desktop is severed?",
+      options: [
+        "All network computers shut down communication immediately",
+        "The central network switch stops operating until replaced",
+        "Data packets reverse travel directions across the backbone",
+        "Only that specific student desktop loses network connection",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Star topologies isolate cable faults; damage to one node's cable affects only that individual device.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which network topology requires the greatest total length of cabling when linking ten computers together?",
+      options: [
+        "Bus topology",
+        "Star topology",
+        "Ring topology",
+        "Mesh topology",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A full mesh requires dedicated links between every pair of nodes, consuming vastly more physical cable than other layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why are terminators mandatory at both physical ends of a linear bus network cable?",
+      options: [
+        "They supply electrical current to keep passive hub ports fully powered",
+        "They absorb outbound signals to stop disruptive line reflections",
+        "They convert analog copper cable pulses into fast optical signals",
+        "They assign dynamic network protocol numbers to connected clients",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Terminators absorb signal energy at cable ends, preventing signal bounce that causes packet corruption.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A district hospital needs a reliable network where broken cables cannot interrupt patient data flow. Which layout is best?",
+      options: [
+        "Bus topology",
+        "Ring topology",
+        "Star topology",
+        "Mesh topology",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Mesh topologies offer redundant connections, allowing traffic to reroute dynamically if a line fails.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the chief operational risk of relying on a star network across a regional bank branch?",
+      options: [
+        "A fault in the central switch disables communication for every node",
+        "Adding extra client devices requires reinstalling the entire network",
+        "Signal collisions occur frequently whenever two computers transmit",
+        "The system cannot transmit data without using physical copper wires",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The central switch or hub in a star topology represents a single point of failure for the entire system.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term defines any physical electronic equipment connected to a computer network system?",
+      options: [
+        "Token",
+        "Cable",
+        "Node",
+        "Bus",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Any identifiable device participating in network communication—such as a computer, printer, or server—is a node.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which network classification covers an entire urban city by interconnecting multiple local area networks?",
+      options: [
+        "Metropolitan Area Network",
+        "Personal Area Network",
+        "Storage Area Network",
+        "Campus Area Network",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A Metropolitan Area Network (MAN) bridges multiple local networks across a single city or municipality.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What technology is most commonly utilized to establish wireless connections within a Personal Area Network?",
+      options: [
+        "Coaxial transmission line",
+        "Undersea fiber optic trunk",
+        "Microwave satellite uplink",
+        "Bluetooth wireless standard",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Bluetooth is the standard short-range wireless radio technology used to create PAN connections between personal gadgets.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which characteristic is typical of a Local Area Network operated by a private junior high school?",
+      options: [
+        "It spans across multiple foreign continents",
+        "It is privately owned by the institution",
+        "It relies exclusively on orbital satellites",
+        "It operates only within a ten-metre radius",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "LANs are usually owned, operated, and maintained privately by the organisation that uses them.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following is recognized as the largest and most widely accessed Wide Area Network in the world?",
+      options: [
+        "The global public internet",
+        "A bank head office SAN",
+        "A university campus CAN",
+        "A regional district MAN",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The internet is a worldwide collection of interconnected networks spanning the entire planet, making it the supreme WAN.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why would a corporate data centre implement a dedicated Storage Area Network alongside its regular network?",
+      options: [
+        "To allow mobile phones to pair using Bluetooth",
+        "To eliminate the need for central computer hubs",
+        "To isolate heavy data storage and backup traffic",
+        "To route municipal office documents across town",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "SANs isolate massive file transfers and disk backups to preserve user bandwidth on the main local network.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does a Wireless Local Area Network differ from a traditional wired Local Area Network?",
+      options: [
+        "It connects devices across multiple countries",
+        "It requires terminators at both line limits",
+        "It handles only block-level database drives",
+        "It transmits data using radio frequency waves",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A WLAN uses Wi-Fi radio frequencies rather than copper cables to connect workstations to an access point.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which geographic network spans an entire continent and links branch offices across multiple nations?",
+      options: [
+        "Wide Area Network",
+        "Local Area Network",
+        "Personal Area Network",
+        "Storage Area Network",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "WANs cross national, continental, and international boundaries to link distant facilities.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A secondary school links its administration block, library, and dormitory blocks across its compound. This forms a:",
+      options: [
+        "Personal Area Network",
+        "Campus Area Network",
+        "Wide Area Network",
+        "Storage Area Network",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A Campus Area Network (CAN) joins separate LANs across a single contiguous school or corporate site.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What key limitation prevents standard Local Area Network cabling from being used across a metropolitan city?",
+      options: [
+        "Ethernet cables have strict physical distance limits",
+        "Personal mobile phones cannot support local switches",
+        "Ring topologies cannot transmit token data packets",
+        "Storage drives cannot read internet network codes",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Copper Ethernet cables suffer signal degradation over long distances, making them unsuitable for citywide spans without public carrier lines.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What type of network is created when an instructor links a smartphone to a portable Bluetooth printer on a desk?",
+      options: [
+        "Campus Area Network",
+        "Wide Area Network",
+        "Local Area Network",
+        "Personal Area Network",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Connecting personal peripherals over a short distance creates a Personal Area Network (PAN).",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How does a networked point-of-sale terminal system benefit a retail merchant in an urban shopping market?",
+      options: [
+        "It tracks product sales and updates store inventory lists automatically",
+        "It eliminates all utility electricity expenses for retail shop owners",
+        "It converts standard personal computers into dedicated storage drives",
+        "It ensures customer payments bypass banking regulation networks",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Networked point-of-sale systems record transactions quickly, generate customer invoices, and adjust inventory records in real time.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What constitutes a major operational challenge when managing a busy hospital computer network?",
+      options: [
+        "Electronic medical scans consume significantly less storage space",
+        "Medical workers can access patient histories from ward terminals",
+        "Network traffic bottlenecks can delay urgent patient consultations",
+        "Digital prescription orders reach hospital dispensaries promptly",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Heavy network congestion or slow transmission can delay doctors from retrieving vital patient records during medical emergencies.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which business activity uses network connectivity to assist junior high school graduates every academic year?",
+      options: [
+        "Assembling unshielded copper patch cords for foreign export",
+        "Processing online school selections and printing exam result slips",
+        "Repairing damaged high-voltage power lines across rural areas",
+        "Manufacturing plastic casing components for network switch boxes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Online result checking and school placement registrations are widely accessed consumer networking services provided by local ICT kiosks.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why does server downtime create severe disruptions inside a networked educational institution?",
+      options: [
+        "Workstations lose access to shared files, lesson packs, and grading systems",
+        "Connected desktop computers permanently lose their physical network cords",
+        "Classroom projector screens switch automatically to television stations",
+        "Peripheral laser printers begin broadcasting signals across the city",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A crashed server cuts off client workstations from centralized curriculum resources, student databases, and school administrative tools.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary commercial role of an authorised mobile money merchant in a local neighborhood?",
+      options: [
+        "Providing physical server storage facilities to secondary schools",
+        "Installing undersea communication fiber trunks across waterways",
+        "Conducting digital deposits, cash withdrawals, and electronic bill payments",
+        "Inspecting private computers for compliance with network topologies",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mobile money agents leverage telecommunication networks to process financial transactions, transfers, and utility payments for community members.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A major company allows workers to perform daily tasks from home via an encrypted internet connection. This is known as:",
+      options: [
+        "Standalone hardware processing",
+        "Physical cable loop termination",
+        "Central server loop switching",
+        "Networked remote telecommuting",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Telecommuting relies on secure internet and wide area network links to allow staff to work productively outside traditional company offices.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which security risk arises when school computers are interconnected without proper user authentication controls?",
+      options: [
+        "Workstations automatically double their available physical memory",
+        "Network routers convert incoming digital signals into paper prints",
+        "Client cables experience spontaneous electrical power fluctuations",
+        "Unauthorised users may access and alter confidential academic records",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Without user authentication and permissions, unauthorized parties can access, tamper with, or delete confidential institutional files.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a technician generate ongoing entrepreneurial income after setting up an office network?",
+      options: [
+        "Providing scheduled system maintenance, security updates, and repairs",
+        "Disconnecting the client computers so staff work without cables",
+        "Confiscating shared office printers to prevent staff paper usage",
+        "Replacing local area network wiring with individual personal cables",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Providing routine maintenance, data backup oversight, and hardware troubleshooting provides regular service fee income for technical network contractors.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What economic benefit does a private health clinic realize by linking its laboratory and consultation rooms?",
+      options: [
+        "Diagnostic test reports are shared electronically without physical messenger delays",
+        "The clinic no longer needs qualified medical physicians to attend to sick patients",
+        "Personal area network devices eliminate all future hardware replacement costs",
+        "Clinical staff can run hospital machinery without local electrical power sources",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Electronic data transmission reduces staff transit time, eliminates paper messenger costs, and speeds up clinical consultations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which career role is responsible for overseeing, securing, and maintaining an organization's computer networks?",
+      options: [
+        "Mechanical vehicle technician",
+        "Graphic print typesetter",
+        "Network system administrator",
+        "Ledger accounting bookkeeper",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A network administrator configures routers and switches, manages security, monitors traffic, and ensures uninterrupted network operations.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [
