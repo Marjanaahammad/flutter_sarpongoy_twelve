@@ -5956,6 +5956,2195 @@ final QuizModel computingJhs1S3Ss1Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel computingJhs1S3Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following platforms is primarily designed for microblogging?",
+      options: [
+        "Twitter",
+        "YouTube",
+        "Myspace",
+        "Spotify",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Twitter is built specifically for broadcasting short updates called tweets, making it a microblogging platform.",
+    ),
+    QuizQuestion(
+      question: "2. What is the main role of a social networking site?",
+      options: [
+        "Formatting hard drives",
+        "Compiling code scripts",
+        "Connecting people online",
+        "Editing system registries",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Social networks are developed to connect individuals, groups, and organisations across virtual communities.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A teacher wants to share formal curriculum credentials with employers. Which site is best suited for this?",
+      options: [
+        "Reddit",
+        "Tumblr",
+        "Twitch",
+        "LinkedIn",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "LinkedIn is dedicated to professional profiles, work history, and employment networking.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why do public safety agencies in Ghana use microblogs during emergency situations?",
+      options: [
+        "To broadcast immediate alerts",
+        "To print paper announcements",
+        "To design physical noticeboards",
+        "To store large backup databases",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Microblogs deliver rapid, short messages directly to public feeds, making them ideal for urgent updates.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What term is used to describe a brief update posted on the Twitter platform?",
+      options: [
+        "Album",
+        "Tweet",
+        "Thread",
+        "Canvas",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Individual short text posts published on Twitter are known as tweets.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which detail is unsafe to publish on an open social media account?",
+      options: [
+        "Favourite subject",
+        "Preferred book",
+        "Personal hobby",
+        "Private residence",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Posting your home address or location compromises personal safety and privacy.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which social networking application connects accounts directly through mobile contact lists?",
+      options: [
+        "WhatsApp",
+        "Pinterest",
+        "Blogger",
+        "DeviantArt",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "WhatsApp authenticates users through their active mobile telephone numbers to build message contacts.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does microblogging differ fundamentally from long-form traditional blogging?",
+      options: [
+        "It requires satellite dishes",
+        "It costs thousands of Cedis",
+        "It uses short content entries",
+        "It excludes mobile telephone use",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Microblogging focuses on short, concise entries rather than detailed, lengthy articles.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following websites represents a recognised microblogging platform?",
+      options: [
+        "Quora",
+        "Vimeo",
+        "Medium",
+        "Tumblr",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tumblr is designed for short-form multimedia microblogging alongside platforms like Twitter.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student wants to establish an online study discussion circle for a school class. Which platform is best suited for this?",
+      options: [
+        "Flickr",
+        "Soundcloud",
+        "WhatsApp",
+        "WordPress",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "WhatsApp allows users to assemble private groups for messaging, sharing documents, and collaborative study.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which field contains the email address of the person creating and sending the email?",
+      options: [
+        "From field",
+        "Subject line",
+        "Trash folder",
+        "Spam filter",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The From field identifies the sender who generated the electronic message.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why is it beneficial to store contact records inside an email address book?",
+      options: [
+        "Speeds up internet connection",
+        "Cleans physical screen glass",
+        "Eliminates memorising addresses",
+        "Removes malicious virus files",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The address book stores contact details so users do not have to memorise complex addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A student wants to send an essay file alongside a short message. What tool is used?",
+      options: [
+        "Device reboot",
+        "Font resize",
+        "Screen capture",
+        "File attachment",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "File attachments allow separate external documents to travel alongside an email message.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which recipient addressing field allows all readers to see every listed address?",
+      options: [
+        "Carbon Copy",
+        "Secure Socket",
+        "System Proxy",
+        "Private Key",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "All email addresses written in the Carbon Copy (Cc) field are visible to every recipient.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens when you select the Reply command on an incoming message?",
+      options: [
+        "The email is deleted",
+        "A response goes to sender",
+        "The computer turns off",
+        "The inbox is locked up",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Reply command addresses a new response directly to the original sender.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When would a school secretary choose Bcc over Cc when sending a message?",
+      options: [
+        "To increase font brightness",
+        "To speed up typing velocity",
+        "To translate text to Twi",
+        "To keep email addresses secret",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Bcc conceals recipient addresses from everyone else, ensuring complete contact privacy.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which icon must a user click to add a spreadsheet file to an email draft?",
+      options: [
+        "Paperclip",
+        "Scissors",
+        "Envelope",
+        "Bookmark",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The paperclip icon is the standard button used to attach files to an email.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the main function of the Forward command in an email client?",
+      options: [
+        "Deleting old spam messages",
+        "Printing physical hard copies",
+        "Passing an email to others",
+        "Backing up hard disk drives",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Forwarding lets you take a message you received and pass it on to a different recipient.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the danger of placing hundreds of public contacts into the To field?",
+      options: [
+        "It ruins monitor screens",
+        "It deletes the operating system",
+        "It causes battery drainage",
+        "It exposes private contacts",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Placing multiple recipients in the To or Cc field exposes private contact details to everyone.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does an email address book assist when typing into the To box?",
+      options: [
+        "Corrects grammar syntax",
+        "Suggests saved contacts",
+        "Translates local slang",
+        "Calculates math sums",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The address book automatically suggests saved matching contacts as soon as typing begins.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L1/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does the acronym CIA stand for in information security?",
+      options: [
+        "Confidentiality, Integrity, Availability",
+        "Computation, Integration, Authorisation",
+        "Cryptography, Identification, Accessing",
+        "Communication, Inspection, Authenticity",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In information security, the CIA Triad represents the foundational model consisting of Confidentiality, Integrity, and Availability.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A student discovers their teacher's terminal unlocked and adds ten marks to their class score. Which principle is violated?",
+      options: [
+        "Scalability",
+        "Availability",
+        "Redundancy",
+        "Integrity",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Integrity is violated whenever data is modified, altered, or forged without proper authorisation.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which mechanism provides the most reliable protection for maintaining system availability during blackouts?",
+      options: [
+        "Uninterruptible power supply units",
+        "Strong alphanumeric account passwords",
+        "Complex symmetric encryption algorithms",
+        "Write-protection attributes on local files",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "An Uninterruptible Power Supply (UPS) provides emergency battery electricity during main power outages, keeping critical devices running without interruption.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which situation describes a direct breach of data confidentiality?",
+      options: [
+        "A power outage shuts down a local lab network",
+        "A stranger reads your personal SMS banking alert",
+        "A virus corrupts a flash drive storing documents",
+        "A backup hard drive runs out of storage space",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Confidentiality is compromised when unauthorized parties gain sight or access to private information.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which action is specifically designed to protect data integrity on a shared network drive?",
+      options: [
+        "Sharing one common login among all workers",
+        "Turning off monitors when leaving the office",
+        "Setting file permissions to read-only mode",
+        "Buying extra display monitors for computers",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Read-only access permissions allow users to examine files while preventing them from editing, altering, or overwriting existing entries.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the consequence of failing to implement system availability controls?",
+      options: [
+        "Private documents are published to the web",
+        "Authorized users cannot perform their tasks",
+        "File contents are altered without detection",
+        "Stored text documents become encrypted keys",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "When availability fails, systems go offline, preventing authorized users from reaching the data and services they need.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which security practice safeguards both confidentiality and integrity when transmitting files?",
+      options: [
+        "Screen magnifiers",
+        "Surge protectors",
+        "Cloud encryption",
+        "Hardware cleaning",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Modern encryption protocols scramble data to hide it from unauthorized eyes while using cryptographic hashes to reveal any tampering during transit.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is writing your mobile money PIN on the back of your phone dangerous?",
+      options: [
+        "It causes the battery to discharge rapidly",
+        "It corrupts the mobile money menu software",
+        "It stops the SIM card connecting to masts",
+        "It compromises the confidentiality of funds",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Writing down a private PIN makes it visible to anyone who picks up or steals the device, directly destroying confidentiality.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A computer laboratory technician schedules automatic weekly data backups to an external server. Which principle does this support?",
+      options: [
+        "Confidentiality",
+        "Availability",
+        "Authenticity",
+        "Authorization",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Backups ensure that data remains retrievable and available even after hardware failure, file corruption, or accidental deletion.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes an information system genuinely secure according to modern computing standards?",
+      options: [
+        "Focusing solely on confidential credentials",
+        "Maximizing download speeds above all others",
+        "Disabling network connections permanently",
+        "Balancing confidentiality, integrity, and access",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A completely secure system must balance all three elements of the CIA Triad; ignoring any single component leaves the system vulnerable.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L2/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What legal right grants an inventor exclusive control over a novel mechanical device or process?",
+      options: [
+        "Patent",
+        "Trademark",
+        "Copyright",
+        "Plagiarism",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A patent is granted specifically for new, functional technical inventions, designs, and industrial processes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which software type allows free use indefinitely without providing access to the underlying source code?",
+      options: [
+        "Crippleware",
+        "Freeware",
+        "Commercial",
+        "Shareware",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Freeware can be downloaded and used at no charge for an unlimited period, although the developer retains full copyright.",
+    ),
+    QuizQuestion(
+      question:
+          "3. An unauthorized distributor burns copies of Ghanaian movies onto DVD discs to sell on public buses. What crime is being committed?",
+      options: [
+        "Crippleware",
+        "Patent filing",
+        "Trade secrecy",
+        "Media piracy",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Digital and media piracy involves the unauthorized duplication, distribution, or commercial sale of copyrighted creative works.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What distinguishes shareware from regular freeware applications?",
+      options: [
+        "Shareware functions for a limited trial span",
+        "Shareware can never be downloaded online",
+        "Shareware requires no payment at any stage",
+        "Shareware lacks legal copyright protection",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Shareware is provided on a temporary trial basis; once the evaluation window ends, users must pay to continue using it.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which legal consequence can a court enforce against a business convicted of large-scale software piracy?",
+      options: [
+        "Forcing the business to hire new computer staff",
+        "Compelling the firm to rewrite all its software",
+        "Awarding monetary damages and seizing devices",
+        "Removing internet cables from the local district",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Courts can order the payment of financial damages, levy heavy fines, and confiscate equipment used in intellectual property offenses.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does a soft drink producer protect its beverage formulation as a trade secret rather than filing a public patent?",
+      options: [
+        "Trade secrets expire within two calendar weeks",
+        "Trade secrets remain hidden without publishing",
+        "Trade secrets allow anyone to copy the formula",
+        "Trade secrets cost more money than state patents",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Patents require inventors to disclose technical details publicly, whereas trade secrets remain confidential as long as the business protects them internally.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which practice represents a legitimate and ethical way to acquire computer software?",
+      options: [
+        "Purchasing an official license from the vendor",
+        "Downloading cracked activation keys from forums",
+        "Borrowing a friend's setup disc without consent",
+        "Removing the developer's name from source code",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Purchasing a genuine software license directly supports the creators and legally authorizes you to run the program.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of software provides full access during installation but blocks the file saving command until paid for?",
+      options: [
+        "Malware",
+        "Firmware",
+        "Shareware",
+        "Crippleware",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Crippleware deliberately disables vital program functions, such as printing or saving, until the user purchases an upgrade key.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A factory prints another company's well-known brand logo on inferior headphones to mislead shoppers. What illegal act is this?",
+      options: [
+        "Open sourcing",
+        "Public domain",
+        "Counterfeiting",
+        "Cloud caching",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Counterfeiting is the fraudulent manufacturing of fake items that use established trademarks to deceive buyers into thinking the product is genuine.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the primary societal benefit of upholding intellectual property regulations in Ghana?",
+      options: [
+        "It allows consumers to take any digital work free",
+        "It restricts school students from writing software",
+        "It forces every tech firm to charge higher prices",
+        "It encourages innovation and rewards inventors",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "IP laws ensure that inventors and creators receive recognition and fair financial rewards, which stimulates research, innovation, and economic development.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L3/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the first formal phase carried out during an information security forensic investigation?",
+      options: [
+        "Identification of potential digital evidence sources",
+        "Deleting suspicious user accounts from the server",
+        "Formatting hard drives to remove destructive viruses",
+        "Publishing forensic findings across national newspapers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A forensic investigation begins with identification, which involves locating all electronic devices, logs, and storage drives that hold relevant evidence.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What legal offense is committed when an entity collects personal information without registering with the Data Protection Commission?",
+      options: [
+        "Patent infringement",
+        "Trademark counterfeiting",
+        "Software crippleware",
+        "Breach of the Data Protection Act",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Under Ghana's Data Protection Act, 2012 (Act 843), processing personal records without formal registration as a data controller constitutes a statutory breach punishable by law.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do forensic investigators use hardware write-blockers when copying seized computer storage drives?",
+      options: [
+        "To prevent any alteration of the original digital media",
+        "To speed up internet download rates during the analysis",
+        "To compress video files into smaller backup archives",
+        "To charge laptop batteries while running diagnostic checks",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Write-blockers ensure that data can only be read from the suspect drive, preventing accidental modifications or metadata alterations so evidence remains court-admissible.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which common public practice represents an overlooked community data security breach in Ghana?",
+      options: [
+        "Requiring students to wear school uniforms",
+        "Displaying unattended visitor logbooks at security gates",
+        "Switching off computer monitors at night",
+        "Installing licensed antivirus definitions on lab tablets",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Open, unmonitored visitor registers allow any member of the public to view, record, or photograph private names, telephone numbers, and addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the statutory role of the Data Protection Commission in Ghana?",
+      options: [
+        "Setting commercial retail prices for foreign desktop computers",
+        "Repairing municipal electrical grids after lightning strikes",
+        "Regulating the processing of personal data and enforcing compliance",
+        "Manufacturing licensed tablets for secondary school students",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Data Protection Commission is the national body established under Act 843 to register data controllers, protect individual privacy, and enforce compliance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What maximum prison sentence can a Ghanaian court impose under summary conviction for selling another person's personal data?",
+      options: [
+        "Up to six calendar months",
+        "A term of not more than two years",
+        "Exactly fifteen calendar years",
+        "Life imprisonment with hard labor",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Under the Data Protection Act, 2012, individuals convicted on summary conviction of selling or offering to sell personal data face a fine, imprisonment for a term of not more than two years, or both.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which action preserves the integrity of digital logs when investigating an unauthorized server intrusion?",
+      options: [
+        "Archiving bit-by-bit forensic image copies immediately",
+        "Editing server timestamps to correct minor clerical errors",
+        "Installing cracked software utilities to clean system files",
+        "Overwriting temporary log folders to clear storage space",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Taking an immediate bit-by-bit forensic image of the storage media ensures that original system event logs and file timestamps are frozen in their exact state.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A rogue computer clerk sells a registered hospital patient directory to an insurance marketing agency. What legal consequence applies?",
+      options: [
+        "The clerk is awarded a state innovation subsidy",
+        "The hospital is exempted from future data audits",
+        "The insurance agency receives free national patents",
+        "The clerk faces criminal prosecution, fines, and prison",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Unlawfully selling personal information is a criminal offense under Act 843 that exposes the offender to arrest, substantial fines, and custodial imprisonment.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why must an organization comply promptly with an enforcement notice issued by the Data Protection Commission?",
+      options: [
+        "Non-compliance guarantees immediate corporate bankruptcy",
+        "Failure to comply is a criminal offense carrying statutory sanctions",
+        "Compliance automatically eliminates all network server viruses",
+        "It allows the organization to pirate commercial office software",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Disobeying an official enforcement notice from the Data Protection Commission is a direct statutory offense that leads to court prosecution, fines, or imprisonment.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes electronic evidence gathered by a forensic investigator admissible in a court of law?",
+      options: [
+        "Printing all computer documents on colored paper sheets",
+        "Uploading the evidence to social media discussion boards",
+        "Maintaining an unbroken, documented chain of custody",
+        "Translating source code into local spoken dialects",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "To be accepted in court, forensic evidence must have an unbroken chain of custody proving that the data was collected lawfully and preserved without tampering.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L1/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does the educational abbreviation VLE stand for in computer studies?",
+      options: [
+        "Virtual Learning Environment",
+        "Variable Local Enterprise",
+        "Visual Language Engine",
+        "Verified Link Exchange",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "VLE stands for Virtual Learning Environment, an online system designed to support teaching and learning.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which item is essential for a student connecting to a web-based learning portal?",
+      options: [
+        "Digital printer scanner",
+        "External sound amplifier",
+        "Graphic design plotter",
+        "Functional internet access",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A student requires an internet connection along with a web-enabled device to access web-hosted VLE resources.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does a VLE support inclusive education for learners who take longer to absorb concepts?",
+      options: [
+        "It locks lesson modules after one reading.",
+        "It permits unlimited review of notes.",
+        "It reduces examination marks for delays.",
+        "It removes difficult topics from view.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Self-paced digital learning allows students to revisit notes, presentations, and exercises as many times as necessary to master the topic.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which benefit describes studying through a digital platform during severe road disruptions?",
+      options: [
+        "Complete suspension of all study programmes",
+        "Uninterrupted learning from safe home spaces",
+        "Mandatory transfer to distant boarding halls",
+        "Automatic cancellation of academic records",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "VLEs allow educational activities to proceed uninterrupted even when environmental factors prevent travel to school buildings.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What action must a student typically perform to gain access to their personal VLE portal?",
+      options: [
+        "Enter private account login credentials",
+        "Purchase an entirely new tablet device",
+        "Format the entire internal storage drive",
+        "Install a brand-new operating software",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Entering a registered username and password authenticates the student and opens their personalized dashboard.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How do discussion forums inside a virtual classroom aid student learning?",
+      options: [
+        "They limit communication to teachers only.",
+        "They permanently erase student responses.",
+        "They enable collaborative peer discussions.",
+        "They convert digital text into paper sheets.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Discussion forums give students a digital space to exchange viewpoints, solve study questions together, and learn collaboratively.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which statement accurately describes a major advantage of web-based education?",
+      options: [
+        "It permits skill acquisition outside regular rooms.",
+        "It restricts reading exclusively to printed paper.",
+        "It stops teachers from evaluating homework tasks.",
+        "It prevents pupils from reviewing past modules.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Web learning allows individuals to acquire academic knowledge and practical technical skills without entering a traditional physical classroom.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of file can a teacher upload to a VLE to assist visual learners?",
+      options: [
+        "Recorded instructional video demonstration",
+        "Plain text motherboard configuration script",
+        "Unformatted system dynamic link library",
+        "Binary code hardware control program file",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Instructional video demonstrations provide visual and auditory explanations of complex topics, catering to varied learning preferences.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why do schools often combine physical classroom sessions with web-based VLE resources?",
+      options: [
+        "To double the total cost of paper stationery",
+        "To prevent learners from asking questions",
+        "To enrich learning with blended materials",
+        "To eliminate teacher involvement entirely",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Blending physical lessons with online resources offers students richer learning experiences, continuous access to content, and structured support.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student completes an online assessment on a VLE and sees their score instantly. Which advantage does this highlight?",
+      options: [
+        "Slower communication across school departments",
+        "Instantaneous evaluation and prompt feedback",
+        "Reduced opportunity to correct wrong answers",
+        "Higher consumption of physical exercise books",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Automated grading on VLE platforms provides immediate feedback, allowing students to identify mistakes and learn without delay.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which open learning platform is famous for free interactive video lessons in mathematics and science?",
+      options: [
+        "Khan Academy",
+        "Silicon Circuit",
+        "Network Gateway",
+        "Graphic Adapter",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Khan Academy offers free instructional videos and tailored exercises designed for school-level learning.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What educational feature distinguishes open learning websites from ordinary commercial websites?",
+      options: [
+        "Constant commercial advertisements",
+        "Structured courses and practice quizzes",
+        "Compulsory shopping cart checkouts",
+        "Locked access for unregistered readers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Open learning platforms organize educational materials into structured modules, exercises, and assessments.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which open learning platform offers free certificate courses in workplace skills and technology?",
+      options: [
+        "Alison Learning",
+        "Compact Disk",
+        "Memory Cache",
+        "Digital Router",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Alison provides free online certificate and diploma courses focusing on career, workplace, and technical skills.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How do video tutorials on platforms like Edx and Coursera help visual learners understand tough topics?",
+      options: [
+        "By deleting student notes after lessons",
+        "By displaying animated diagrams and models",
+        "By printing paper test sheets overnight",
+        "By disabling tablet screen touch sensors",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Animated diagrams and visual demonstrations help learners grasp scientific and technical concepts clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is open courseware considered cost-effective for families in Ghanaian communities?",
+      options: [
+        "It requires costly specialized hardware.",
+        "It charges high fees for each examination.",
+        "It demands regular textbook replacements.",
+        "It offers free access to study materials.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Open educational platforms allow learners to download and view study materials without paying expensive textbook fees.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What can a teacher do with Saylor Academy's open educational materials for classroom teaching?",
+      options: [
+        "Erase school computer software libraries.",
+        "Prevent students from studying on tablets.",
+        "Adapt and reuse lessons for student needs.",
+        "Lock lesson materials with private passwords.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Saylor Academy provides open-access materials that educators can freely adapt, modify, and reuse for their classes.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which tool inside an open learning site lets students ask tutors questions about weekly assignments?",
+      options: [
+        "Interactive student discussion forums",
+        "Unformatted machine language registers",
+        "Automated screen contrast controllers",
+        "Internal hardware power supply cords",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Discussion forums enable learners to post questions, interact with tutors, and collaborate with peers online.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How do open learning websites ensure students can verify what they have learned in a course?",
+      options: [
+        "By enforcing mandatory sports training",
+        "By mailing paper letters to home villages",
+        "By disabling web browsers after testing",
+        "By providing digital assessment quizzes",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Integrated quizzes and end-of-module tests evaluate student understanding and track academic progress.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are digital learning platforms faster at providing current scientific discoveries than printed books?",
+      options: [
+        "Printed books change their text weekly.",
+        "Digital content can be updated instantly.",
+        "Paper printing takes only five minutes.",
+        "Digital websites never change any facts.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Web administrators can edit and update digital learning materials instantly as soon as new information emerges.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student completes an entire module on Coursera during vacation. What does the platform often provide upon completion?",
+      options: [
+        "A brand new desktop computer tower",
+        "A free high-speed broadband router",
+        "A physical metal trophy for display",
+        "A verifiable digital completion badge",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Many open platforms provide downloadable or verifiable digital completion certificates and badges upon passing course requirements.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which technique determines if a web author has the expertise to write on a topic?",
+      options: [
+        "Credibility of the author",
+        "Battery charging speed",
+        "Processor cycle rate",
+        "Resolution of display",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Credibility examines whether the author possesses relevant qualifications and professional expertise.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A website loaded with pop-up advertisements and non-functional buttons shows poor what?",
+      options: [
+        "Color saturation value",
+        "Audio recording volume",
+        "Screen panel thickness",
+        "Functionality of design",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Functionality measures how reliably and smoothly a website operates under user interaction.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is checking the publication date vital when researching digital networking topics?",
+      options: [
+        "Older cables weigh much more",
+        "Technology facts change fast",
+        "Modern screens consume power",
+        "Historic dates help typing",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Technology evolves rapidly; checking currency ensures you do not rely on outdated or obsolete standards.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What should you do if an online article makes an extraordinary scientific claim without proof?",
+      options: [
+        "Share it across social media",
+        "Memorize it for your exam",
+        "Use it in class presentations",
+        "Cross-check trusted sources",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Accuracy requires verifying unproven claims against established, trusted educational references.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which clue strongly suggests that an author is credible and trustworthy?",
+      options: [
+        "Recognized academic degrees",
+        "Use of dramatic clickbait",
+        "Anonymous publisher status",
+        "Frequent spelling blunders",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Authors with recognized academic qualifications or professional institutional roles offer higher credibility.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does evaluating Content help a student writing an academic research report?",
+      options: [
+        "It changes computer fonts",
+        "It saves battery recharge",
+        "It verifies topic relevance",
+        "It resets browser history",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Content evaluation confirms whether information directly covers your research topic in adequate depth.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which web element provides immediate evidence of high accuracy in a research article?",
+      options: [
+        "Verified bibliography list",
+        "Loud background video sound",
+        "Bright neon styling banner",
+        "Automatic screen scrolling",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Providing verifiable citations and reference bibliographies demonstrates transparent and accurate research.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What does a web page containing many broken hyperlinks typically indicate?",
+      options: [
+        "Modern cloud configuration",
+        "High cybersecurity defense",
+        "Optimal server connection",
+        "Neglected site maintenance",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Numerous broken links indicate that web administrators have neglected routine upkeep and updates.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why is an objective educational website superior to a subjective promotional website?",
+      options: [
+        "It provides gaming cheats",
+        "It presents unbiased facts",
+        "It sells physical products",
+        "It hides its author details",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Objective websites present balanced, neutral facts rather than biased opinions or sales pitches.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student sees two dates on a webpage: Published 2012, Revised 2026. Which date shows currency?",
+      options: [
+        "The original server build",
+        "The latest revision year",
+        "The domain expiry date",
+        "The calendar copyright end",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The latest revision date indicates when the content was last checked and refreshed for modern accuracy.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the general term for human-written computer instructions before they are translated?",
+      options: [
+        "System storage",
+        "Native driver",
+        "Source code",
+        "Machine state",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Source code is the original text written by a human programmer in a programming language before compilation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which term refers to the structured grammar rules that govern how code must be written?",
+      options: [
+        "Syntax",
+        "Binary",
+        "Output",
+        "Memory",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Syntax defines the strict grammatical rules, symbols, and spelling required by a specific programming language.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What process involves searching for, isolating, and fixing mistakes found within software code?",
+      options: [
+        "Inverting",
+        "Indexing",
+        "Formatting",
+        "Debugging",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Debugging is the diagnostic procedure of locating and resolving software errors or bugs.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is an Integrated Development Environment (IDE) primarily used for by developers?",
+      options: [
+        "Writing, editing, compiling, and testing program code in a unified window",
+        "Connecting desktop computers to local wireless area networks automatically",
+        "Cleaning dust from hardware components inside computer towers regularly",
+        "Designing physical circuit boards and soldering silicon microchips together",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "An IDE combines code editing, compiling, and testing capabilities into one unified software application.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What number system forms the foundation of all machine language instructions?",
+      options: [
+        "Base eight numbers",
+        "Base ten decimals",
+        "Base six numerals",
+        "Base two binaries",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Machine language operates on base-two binary digits consisting entirely of zeros and ones.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does a computer program differ fundamentally from a general algorithm?",
+      options: [
+        "A program is written in executable code while an algorithm is a conceptual plan",
+        "A program handles only numbers while an algorithm handles text and characters",
+        "A program cannot have any mistakes while an algorithm always contains errors",
+        "A program runs without hardware while an algorithm needs electrical power",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "An algorithm is an abstract method for solving a problem, whereas a program is that method expressed in programming code.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why does a computer refuse to run source code that contains an unresolved syntax error?",
+      options: [
+        "The computer loses power when invalid commands are read",
+        "The compiler cannot parse or interpret incorrect grammar",
+        "The monitor automatically shuts off during errors",
+        "The hard disk drive fills up with temporary data",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The compiler requires strict adherence to grammar rules; any syntax violation prevents successful translation into machine code.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What role does a programmer perform when developing computer software?",
+      options: [
+        "Fabricating silicon processors inside clean manufacturing plants",
+        "Designing and writing instructions that direct computer operations",
+        "Selling consumer desktop computers and accessories in retail shops",
+        "Laying telecommunication cables across cities and local communities",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A programmer creates, tests, and maintains the sequences of instructions that instruct computers on how to operate.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens to source code during the compilation phase of software execution?",
+      options: [
+        "It is turned into high-level human speech",
+        "It is saved as an uneditable paper copy",
+        "It is published directly to local websites",
+        "It is converted into native machine language",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A compiler transforms high-level source code into low-level machine code that the computer can execute directly.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term refers to an ordered set of instructions that a computer follows to finish a task?",
+      options: [
+        "Computer Program",
+        "Peripheral Unit",
+        "System Enclosure",
+        "Terminal Console",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A computer program is a sequence of precise instructions executed by a computer to accomplish a defined job.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What data type is best suited for storing a person's telephone contact number like \"0244123456\"?",
+      options: [
+        "String",
+        "Integer",
+        "Float",
+        "Boolean",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Telephone numbers often begin with leading zeros and are not used in mathematical calculations, so they should be stored as strings.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which data type would you select to store a learner's exam grade written as a single letter 'A'?",
+      options: [
+        "Integer",
+        "Float",
+        "Boolean",
+        "Character",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A single letter or symbol represents a character data type.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What data type is created when multiple characters are enclosed inside double quotation marks?",
+      options: [
+        "Boolean",
+        "Float",
+        "String",
+        "Integer",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A sequence of characters enclosed within quotation marks forms a string.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why does an athlete's race completion time of 10.45 seconds require a floating-point data type?",
+      options: [
+        "It represents fractional seconds with decimal precision",
+        "It represents whole seconds counted without decimals",
+        "It represents an alphabetic name spoken by runners",
+        "It represents an on-and-off state in digital timing",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The race time contains a decimal point representing fractional parts of a second, which requires a float.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In a school database, which field is most appropriately defined as an integer data type?",
+      options: [
+        "Price of school uniform in Cedis and pesewas",
+        "Total number of enrolled students in a class",
+        "Full residential town name of each learner",
+        "Current payment status showing fees cleared",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The count of enrolled students is a discrete, whole number with no decimal values, making it an integer.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary role of Boolean data types in writing computer program logic?",
+      options: [
+        "Formatting user display screens with colourful margins",
+        "Translating human code into electrical binary signals",
+        "Controlling program flow and decisions using True or False",
+        "Storing long sentences and paragraphs for study guides",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Booleans evaluate conditions to True or False, enabling conditional branches and decision-making in code.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What error occurs if a programmer attempts to perform arithmetic addition between an integer and a text string?",
+      options: [
+        "Network failure",
+        "Power drop error",
+        "Display blackout",
+        "Data type mismatch",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Computers cannot perform direct mathematical operations across incompatible types like text strings and integers, resulting in a type mismatch error.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following items represents a single character data type?",
+      options: [
+        "Kumasi",
+        "'M'",
+        "350",
+        "7.9",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A single letter enclosed in single quotes is a character data type.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What data type should represent whether a student has paid their ICT laboratory fee?",
+      options: [
+        "Boolean",
+        "Integer",
+        "Float",
+        "String",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fee payment status is a binary condition: paid (True) or unpaid (False), which is perfectly handled by a Boolean.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following examples best represents a floating-point data type in everyday life?",
+      options: [
+        "The count of textbooks distributed to a JHS classroom",
+        "The single letter grade assigned on an end-of-term test",
+        "The official home town name where a student resides",
+        "The measured body temperature of a student in degrees Celsius",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Body temperature requires decimal values (such as 36.8°C), which requires a floating-point data type.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What happens if a computer program attempts to overwrite the stored value of a constant during execution?",
+      options: [
+        "The variable changes type",
+        "The value updates safely",
+        "The compiler raises an error",
+        "The computer memory resets",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Constants are read-only; any programmatic attempt to change their assigned value results in a compilation error.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following represents a major advantage of using variables instead of constants in software?",
+      options: [
+        "Variables allow programs to process changing input data",
+        "Variables guarantee that software code never has any bugs",
+        "Variables remove the requirement for computer processors",
+        "Variables permanently lock numerical values into hardware",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Variables enable programs to receive dynamic user inputs and manipulate data during execution.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What action is being performed when a programmer writes int student_count; in source code?",
+      options: [
+        "Initialising a constant",
+        "Declaring a variable",
+        "Accessing an operator",
+        "Debugging an error",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Stating the data type and the name of a variable without assigning an immediate value is variable declaration.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In an educational quiz application, which piece of data must be stored inside a variable?",
+      options: [
+        "Total time allowed for the test",
+        "Official title of the exam paper",
+        "Standard pass mark for the test",
+        "Current running score of the user",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The user's score increases as correct answers are submitted, so it must be stored in a variable.",
+    ),
+    QuizQuestion(
+      question:
+          r"5. Why is it beneficial to declare the value of Pi ($3.142$) as a constant rather than a variable?",
+      options: [
+        "To prevent accidental modifications to the value during math calculations",
+        "To allow users to alter the geometric value while the program runs",
+        "To speed up internet download rates across local wireless networks",
+        "To convert the decimal number automatically into a text character",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Declaring fixed mathematical constants protects them from being overwritten accidentally elsewhere in the code.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What statement best describes the initialisation of a variable in computer programming?",
+      options: [
+        "Assigning an initial value to a declared variable for the first time",
+        "Erasing all program statements stored on the computer's hard drive",
+        "Printing the completed program output onto physical sheets of paper",
+        "Translating human source instructions into pure binary machine language",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Initialisation refers specifically to giving a variable its first assigned value before it is processed.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does using variables improve code reusability when calculating monthly electricity bills?",
+      options: [
+        "It converts all electricity values into text characters",
+        "It requires a completely new program for each customer",
+        "It locks the customer balance so it can never be paid off",
+        "It allows the same billing formula to process many different meter readings",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "By storing meter readings in variables, one formula can calculate bills for thousands of different households.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which term refers to reading and using the stored data of a variable in a calculation?",
+      options: [
+        "Truncating",
+        "Accessing",
+        "Compiling",
+        "Branching",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Retrieving or referencing the contents of a variable for use in an operation is called accessing.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following real-world data points should be stored as a variable in a mobile banking app?",
+      options: [
+        "The official headquarters city of the bank",
+        "The national banking license identification",
+        "The standard currency symbol of the nation",
+        "The remaining balance of the user's account",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Bank account balances change after deposits and withdrawals, so they must be stored in variables.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What keyword is commonly used in programming languages to establish a constant?",
+      options: [
+        "Loop",
+        "Char",
+        "Const",
+        "Print",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Many programming languages use the keyword const to declare an immutable constant.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary definition of an algorithm in computing?",
+      options: [
+        "A random set of numbers created by computers",
+        "A physical hardware component inside a PC",
+        "An error that prevents software from starting",
+        "A step-by-step set of rules to solve a task",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An algorithm is a precise, ordered sequence of instructions formulated to solve a specific problem or complete a process.",
+    ),
+    QuizQuestion(
+      question:
+          "2. When an application displays an icon instead of code, this is:",
+      options: [
+        "Abstraction",
+        "Iteration",
+        "Selection",
+        "Sequencing",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Abstraction hides complex underlying implementation details and displays only what is necessary for user interaction.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A student divides an end-of-term study timetable by subject. This is:",
+      options: [
+        "Iteration",
+        "Selection",
+        "Decomposition",
+        "Abstraction",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Breaking a large workload into smaller, manageable individual study components is an exact application of decomposition.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which control structure runs instructions strictly one after another?",
+      options: [
+        "Selection",
+        "Sequence",
+        "Looping",
+        "Branch",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A sequential control structure executes statements in order, line by line, without jumping or repeating.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Evaluating whether a test score is 50 or above to decide a pass uses:",
+      options: [
+        "Iteration",
+        "Abstraction",
+        "Selection",
+        "Sequence",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Selection evaluates a conditional statement to decide between two distinct outcomes, such as pass or fail.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A loop that adds 2 Cedis into a piggy bank every day for a week is:",
+      options: [
+        "Iteration",
+        "Selection",
+        "Searching",
+        "Switching",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Iteration refers to repeating a block of instructions across a fixed count or until a condition is fulfilled.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why must instructions in a linear sequence be carefully ordered?",
+      options: [
+        "Changing order disrupts logic and final output",
+        "Computers only read programs that are sorted",
+        "Unsorted code deletes storage memory banks",
+        "Loops fail to work when lines are ordered",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Sequential algorithms rely strictly on previous steps being completed correctly before the subsequent step executes.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when an iteration structure lacks a valid exit condition?",
+      options: [
+        "The algorithm completes within one single step",
+        "The algorithm chooses a new branch pathway",
+        "The code terminates and prompts user inputs",
+        "The code loops infinitely and freezes system",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Without a stopping condition, a loop never terminates, resulting in an infinite loop that locks up processor resources.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which statement best illustrates abstraction in a school timetable?",
+      options: [
+        "Omitting teacher shoe size to list subjects",
+        "Breaking the school term into smaller weeks",
+        "Checking student presence every day at 8 AM",
+        "Moving from assembly straight to the class",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Abstraction removes irrelevant personal characteristics like shoe size, keeping only necessary details like subjects and times.",
+    ),
+    QuizQuestion(
+      question:
+          "10. An algorithm checking if a customer has 10 Cedis before sale uses:",
+      options: [
+        "Iteration",
+        "Sorting",
+        "Looping",
+        "Selection",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Checking whether an account or purse holds enough money is a condition check, which is the definition of selection.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How does a linear search examine items stored in a dataset?",
+      options: [
+        "It checks every item sequentially",
+        "It jumps directly to middle values",
+        "It checks only even index numbers",
+        "It selects items completely at random",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A linear search operates sequentially, checking each element one after another from the first position to the last.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which sequence represents numbers sorted in decreasing order?",
+      options: [
+        "10, 25, 40, 65",
+        "88, 64, 32, 16",
+        "15, 30, 20, 45",
+        "40, 50, 70, 90",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Decreasing order starts with the largest value and steps downwards to progressively smaller values.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In the array [18, 24, 32, 40], what value is stored at index 2?",
+      options: [
+        "18",
+        "24",
+        "32",
+        "40",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Counting from zero: index 0 is 18, index 1 is 24, and index 2 is 32.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is another common name for the linear search algorithm?",
+      options: [
+        "Indexed search algorithm",
+        "Binary search algorithm",
+        "Hashing search algorithm",
+        "Sequential search algorithm",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Linear search is also called sequential search because it processes elements one after another in sequence.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How many comparisons does linear search need to find 50 in [10, 20, 50, 80]?",
+      options: [
+        "Exactly 3 comparisons",
+        "Exactly 1 comparison",
+        "Exactly 4 comparisons",
+        "Exactly 2 comparisons",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The algorithm checks 10 (first), checks 20 (second), and matches 50 on the third comparison.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where does a linear search begin checking elements in an array?",
+      options: [
+        "At the highest value in list",
+        "At the middle of the dataset",
+        "At the final index location",
+        "At the first element, index 0",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A standard linear search begins at the leftmost item, which corresponds to index 0.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why can linear search be used on an unsorted list of names?",
+      options: [
+        "It only checks every third item",
+        "It inspects each item one by one",
+        "It requires keys to be in order",
+        "It sorts values before searching",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Linear search does not require prior sorting because it inspects every item individually regardless of order.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the index of the last element in an array of size 9?",
+      options: [
+        "Index 9",
+        "Index 0",
+        "Index 8",
+        "Index 1",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Because arrays start counting at 0, an array with 9 elements occupies indices 0 through 8.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which sorting order arranges items from smallest to largest?",
+      options: [
+        "Increasing order",
+        "Decreasing order",
+        "Descending order",
+        "Arbitrary order",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Increasing or ascending order places the lowest numerical values first and builds up to the highest.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If target 99 is compared to [12, 34, 56], what is the outcome?",
+      options: [
+        "Found at position zero",
+        "Found at position three",
+        "System restarts search",
+        "Value is not in the list",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The algorithm checks all three elements, finds no match, and terminates reporting that the target is absent.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What makes a robotic machine fundamentally different from an ordinary mechanical tool such as a hand drill?",
+      options: [
+        "It is programmable and carries out complex tasks automatically",
+        "It is constructed entirely of wood and operates without wires",
+        "It requires continuous physical turning by a human operator",
+        "It cannot function if connected to any electronic circuitry",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A robot contains a programmable controller that executes complex routines without continuous manual guidance, whereas basic mechanical tools require constant human physical effort.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following tasks represents an application of robotics within the healthcare sector?",
+      options: [
+        "Sorting raw mineral ore in underground mining shafts",
+        "Tilling extensive agricultural fields for grain crops",
+        "Weaving traditional textiles on mechanical handlooms",
+        "Disinfecting hospital wards with pulsed ultraviolet rays",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Automated mobile sanitisation robots travel through hospital rooms to destroy pathogens with ultraviolet light, reducing infection risks for patients and healthcare staff.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do fire rescue and security teams utilise specialized tactical robots in dangerous disaster zones?",
+      options: [
+        "Tactical robots allow human rescue personnel to stay out of deadly environments",
+        "Tactical robots are cheap toys that can be abandoned anywhere without financial loss",
+        "Tactical robots run indefinitely without needing batteries or maintenance checks",
+        "Tactical robots make moral decisions independently during emergency rescues",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Deploying robots to inspect collapsed buildings, defuse explosive devices, or extinguish naval fires keeps human responders out of immediate mortal danger.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which discipline is not one of the primary foundational fields that combine to form robotics?",
+      options: [
+        "Computer science",
+        "Mechanical engineering",
+        "Classical astrology",
+        "Electrical engineering",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Robotics is an interdisciplinary field integrating computer science, mechanical engineering, and electrical electronics; astrology is an unscientific belief system.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What operational advantage does a robotic arm offer over a human worker on a car paint line?",
+      options: [
+        "It paints with uniform thickness and avoids inhaling hazardous solvent fumes",
+        "It costs nothing to install and requires no routine software maintenance",
+        "It negotiates salary raises and demands shorter working hours every week",
+        "It changes colour choices spontaneously without following programmed code",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Industrial painting robots apply paint coats with extreme consistency while keeping human lungs safe from poisonous paint particles and toxic chemical vapours.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A commercial bakery in Kumasi wants to automate bread packaging. What is a key financial obstacle they will encounter?",
+      options: [
+        "The bakery will be forced to buy flour that costs twice as much per bag",
+        "The initial purchase, setup, and maintenance costs of robots are very high",
+        "The bakery will permanently lose access to all municipal water supplies",
+        "The automated machinery will produce too many varieties of bread at once",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The capital required to purchase, configure, and service industrial robotic systems represents a substantial barrier for most commercial enterprises.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do educational companion robots support children diagnosed with developmental conditions such as autism?",
+      options: [
+        "By prescribing powerful medications directly to the children in school",
+        "By enforcing harsh disciplinary measures whenever pupils make errors",
+        "By grading end of term paper scripts faster than certified headteachers",
+        "By offering predictable, patient interactions that reduce social stress",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Humanoid educational robots provide predictable, minimally expressive, and patient responses that help autistic learners build communication skills comfortably.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What technical challenge arises when a factory installs robots without training local engineering staff?",
+      options: [
+        "The factory is unable to repair mechanical faults or update program instructions",
+        "The factory building immediately collapses due to software data processing",
+        "The robots begin communicating using spoken human languages automatically",
+        "The factory products immediately double in weight before customer packaging",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Operating and fixing advanced robotics requires specialised technical knowledge; without trained local technicians, minor faults cause lengthy shutdowns.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following risks is directly associated with connecting industrial robots to computer networks?",
+      options: [
+        "The machines produce goods that become completely invisible to the human eye",
+        "The robots convert all their metallic parts into soft plastic during operation",
+        "The robotic systems become vulnerable to cyber attacks and remote tampering",
+        "The factory facility loses its physical connection to the municipal road network",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Any networked robotic equipment can be targeted by unauthorized digital attacks, allowing malicious actors to halt machinery or alter physical commands.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why can a robotic system never completely replace a human medical doctor or nurse?",
+      options: [
+        "Robots cannot execute physical movements with high spatial accuracy",
+        "Robots are completely unable to lift objects that weigh more than one kilogram",
+        "Robots consume too much drinking water during daily clinic appointments",
+        "Robots lack human empathy, moral reasoning, and genuine bedside compassion",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "While robotic arms assist with surgical cutting and room sanitisation, they lack consciousness, moral judgment, and the warmth of human emotional connection.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss4_L1/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A delivery business analyzes historical parcel deliveries to discover customer patterns. Which computational method is being applied?",
+      options: [
+        "Virtual Reality Systems",
+        "Video Gamification Model",
+        "Artificial Data Mining",
+        "Circuit Board Soldering",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Analyzing vast quantities of past operational records to reveal hidden operational patterns is known as data mining.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the general term for machines programmed to simulate human cognitive functions such as reasoning and problem-solving?",
+      options: [
+        "Artificial Intelligence",
+        "Central System Storage",
+        "Mechanical Automation",
+        "Digital Word Processing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Artificial Intelligence is the branch of computing dedicated to building machines capable of human-like perception, reasoning, and decision-making.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A regional mining firm uses an autonomous robotic rover to inspect deep, unstable rock tunnels. What primary societal benefit does this demonstrate?",
+      options: [
+        "Decreasing general internet connectivity fees.",
+        "Making mining company logos look attractive.",
+        "Replacing all computer software with hardware.",
+        "Safeguarding human laborers from toxic hazards.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Using autonomous robots to handle high-risk subterranean inspections protects human miners from life-threatening rockfalls and poison gases.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which technology allows algorithms to inspect large datasets and automatically improve operational performance without manual reprogramming?",
+      options: [
+        "Web Browser Cache",
+        "Machine Learning",
+        "Manual Bookkeeping",
+        "Screen Resolution",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Machine learning algorithms continuously train on data inputs to enhance performance and accuracy without requiring human developers to rewrite code.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which branch of artificial intelligence is constructed with interconnected nodes modeled directly on the biological neural structures of human brains?",
+      options: [
+        "Artificial Neural Networks",
+        "Computer Monitor Displays",
+        "Universal Serial Bus Hubs",
+        "Electronic Battery Cells",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Artificial Neural Networks are computational networks specifically structured with node layers that emulate human biological brain cells.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An aspiring pilot sits inside a closed simulator cockpit wearing a headset that completely replaces real surroundings with a digital sky. Which tool is this?",
+      options: [
+        "Spreadsheet Ledger",
+        "Augmented Reality",
+        "Word Transcription",
+        "Virtual Reality",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Because the physical world is entirely blocked out and replaced by a three-dimensional digital simulation, this setup is Virtual Reality.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A mobile learning platform introduces weekly badges, points, and score leaderboards to motivate students. What method is being utilized?",
+      options: [
+        "Cloud Data Archiving",
+        "Hardware Maintenance",
+        "Software Gamification",
+        "System Cable Routing",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Incorporating game design components like scoreboards and digital trophies into non-game learning environments is known as gamification.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does artificial intelligence assist medical doctors working within hospital diagnostic units?",
+      options: [
+        "By identifying disease signs on diagnostic scans.",
+        "By generating paper receipts for medical fees.",
+        "By manufacturing metal beds for hospital wards.",
+        "By dispensing cool drinking water to visitors.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "AI diagnostic systems review patient scans and laboratory samples rapidly to alert physicians to early indicators of illness.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A student uses a mobile phone camera to view a textbook page, and animated digital skeletons appear standing directly on the paper. What technology is this?",
+      options: [
+        "Operating File System",
+        "Augmented Reality",
+        "Storage Defragmenter",
+        "Central Data Registry",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Augmented Reality projects interactive digital elements and 3D animations directly over the real physical environment seen through a lens.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why do modern commercial banks use machine learning models to inspect mobile money transactions?",
+      options: [
+        "To increase the screen brightness of cash machines.",
+        "To print monthly paper receipts at higher speeds.",
+        "To clean dirt off the keyboards inside bank lobbies.",
+        "To detect fraudulent account activity immediately.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Machine learning algorithms recognize sudden deviations from normal spending habits and block suspicious withdrawals before funds are stolen.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [

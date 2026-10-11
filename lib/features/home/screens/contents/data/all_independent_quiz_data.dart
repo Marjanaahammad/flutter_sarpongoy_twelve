@@ -2578,6 +2578,987 @@ final IndependentPracticeModel computingJhs1S3Ss1Lesson3IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs1S3Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which platform is primarily classified as a professional networking service?",
+      options: [
+        "TikTok",
+        "LinkedIn",
+        "Snapchat",
+        "Pinterest",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "LinkedIn",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary defining characteristic of a microblogging service?",
+      options: [
+        "Posts are strictly limited to short, concise messages",
+        "Users can only upload full-length audio tracks",
+        "Accounts require a verified banking credential",
+        "Access is restricted exclusively to desktop computers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Posts are strictly limited to short, concise messages",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which application requires a mobile telephone number to establish an account and connect with contacts?",
+      options: [
+        "WhatsApp",
+        "Wikipedia",
+        "WordPress",
+        "SlideShare",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "WhatsApp",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following is considered safe practice when creating a public social media profile?",
+      options: [
+        "Displaying your daily home route",
+        "Sharing your primary school gate key",
+        "Using a secure and private password",
+        "Publishing your parent banking details",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Using a secure and private password",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which universal graphic icon is clicked to attach an external file to an email?",
+      options: [
+        "Magnifying glass",
+        "Speaker symbol",
+        "Metal paperclip",
+        "Padlock icon",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Metal paperclip",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary role of the Subject field in an electronic mail window?",
+      options: [
+        "Summarising message content",
+        "Encrypting system storage",
+        "Formatting device memory",
+        "Entering account passwords",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Summarising message content",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens to email addresses placed in the Blind Carbon Copy (Bcc) field?",
+      options: [
+        "They are converted to links",
+        "They are hidden from viewers",
+        "They are erased permanently",
+        "They are shared on web feeds",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "They are hidden from viewers",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which email command sends an existing received message to an entirely new reader?",
+      options: [
+        "Refresh",
+        "Forward",
+        "Archive",
+        "Discard",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Forward",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss3_L1/8. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary role of confidentiality in an information security system?",
+      options: [
+        "Allowing all public users to view records freely",
+        "Ensuring that systems never experience downtime",
+        "Restricting data access to authorized users only",
+        "Preventing accidental deletion of critical files",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Restricting data access to authorized users only",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which security principle is directly violated when a malicious user alters numbers on a spreadsheet?",
+      options: [
+        "Availability",
+        "Integrity",
+        "Redundancy",
+        "Scalability",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Integrity",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A hospital database remains offline for six hours following a network router breakdown. Which pillar is affected?",
+      options: [
+        "Confidentiality",
+        "Authentication",
+        "Cryptography",
+        "Availability",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Availability",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which technical measure is primarily employed to maintain data confidentiality across open networks?",
+      options: [
+        "Data encryption",
+        "Defragmentation",
+        "Power generators",
+        "Disk compression",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Data encryption",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Why do IT administrators store regular offline backups of administrative school files?",
+      options: [
+        "To stop learners looking at screens",
+        "To boost computer processing speeds",
+        "To compress unused software packages",
+        "To restore lost data after crashes",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "To restore lost data after crashes",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss3_L2/8. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which form of legal protection gives an author exclusive rights over literary and musical creations?",
+      options: [
+        "Patent",
+        "Trademark",
+        "Copyright",
+        "Trade secret",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Copyright",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the defining feature of software categorized as crippleware?",
+      options: [
+        "It expires completely after thirty days of use",
+        "Essential features are locked until users pay",
+        "It comes packaged with public open-source code",
+        "It installs malicious tracking viruses secretly",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Essential features are locked until users pay",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A computer company registers a distinctive emblem to ensure buyers recognize its hardware. What is this emblem called?",
+      options: [
+        "A patent",
+        "A license",
+        "A copyright",
+        "A trademark",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A trademark",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is downloading pirated software from unverified internet websites dangerous for your tablet?",
+      options: [
+        "It consumes too much household electricity",
+        "It regularly contains destructive malware",
+        "It permanently dims the device brightness",
+        "It changes the operating system language",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It regularly contains destructive malware",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. How does freeware differ primarily from commercial proprietary software?",
+      options: [
+        "Freeware is provided at no monetary cost",
+        "Freeware never runs on personal computers",
+        "Freeware cannot be copyrighted by authors",
+        "Freeware requires expensive renewal fees",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Freeware is provided at no monetary cost",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss3_L3/8. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary role of an information security forensic auditor during an investigation?",
+      options: [
+        "Writing computer games for primary schools",
+        "Selling consumer electronics at discounted prices",
+        "Collecting and analyzing digital evidence for courts",
+        "Designing promotional graphic banners for websites",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Collecting and analyzing digital evidence for courts",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which statutory legislation serves as Ghana's primary law for safeguarding personal data privacy?",
+      options: [
+        "The Copyright Act of 1957",
+        "The Data Protection Act, 2012",
+        "The Telecommunications Act of 1990",
+        "The National Educational Charter of 2005",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Data Protection Act, 2012",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the official statutory body responsible for regulating data controllers in Ghana?",
+      options: [
+        "Environmental Protection Agency",
+        "National Petroleum Authority",
+        "Data Protection Commission",
+        "Minerals Commission of Ghana",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Data Protection Commission",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is discarding un-shredded continuous assessment sheets into an open bin a data security breach?",
+      options: [
+        "It consumes too much space in local dumpsters",
+        "It exposes students' private marks to unauthorized people",
+        "It causes paper shortages across the school district",
+        "It permanently damages office computer keyboards",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It exposes students' private marks to unauthorized people",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What legal sanction can a Ghanaian court impose on a person convicted of unlawfully selling personal data?",
+      options: [
+        "Compulsory community tree planting",
+        "Free broadband internet installation",
+        "Confiscation of secondary school certificates",
+        "A monetary fine and custodial prison sentence",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A monetary fine and custodial prison sentence",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss4_L1/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What primary function does a Virtual Learning Environment serve in modern education?",
+      options: [
+        "It manufactures computer hardware parts.",
+        "It provides a web platform for schooling.",
+        "It replaces electric power transmission.",
+        "It prints physical hardcopy textbooks.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It provides a web platform for schooling.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How does self-paced learning on a web platform assist a Junior High School learner?",
+      options: [
+        "It forces students to finish within minutes.",
+        "It allows students to study at their speed.",
+        "It forbids learners from repeating tests.",
+        "It prevents learners from taking any breaks.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It allows students to study at their speed.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which tool inside a VLE allows classmates to discuss a group project online?",
+      options: [
+        "System memory cleaner",
+        "Power supply unit",
+        "Digital message board",
+        "Hardware driver updater",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Digital message board",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is e-learning considered a flexible approach to secondary school education?",
+      options: [
+        "It requires constant travel to distant towns.",
+        "It restricts study strictly to school hours.",
+        "It lets pupils access study materials anywhere.",
+        "It demands expensive physical paper notebooks.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It lets pupils access study materials anywhere.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss4_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which statement best defines an open learning website in digital computing?",
+      options: [
+        "A paid application for downloading music files.",
+        "An online portal offering accessible study courses.",
+        "A system tool used to repair damaged printers.",
+        "A social platform built solely for gaming clips.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An online portal offering accessible study courses.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which open learning platform collaborates with world universities to provide specialised online courses?",
+      options: [
+        "Central Processing Unit",
+        "Power Distribution Unit",
+        "Coursera Learning Portal",
+        "System Motherboard Bus",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Coursera Learning Portal",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does Saylor Academy assist independent learners who want to study without tuition fees?",
+      options: [
+        "By mailing paper test papers through post.",
+        "By restricting lesson access to daytime only.",
+        "By offering open, self-paced online courses.",
+        "By selling computer accessories to students.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "By offering open, self-paced online courses.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What primary advantage do open educational resources offer to basic schools across Ghana?",
+      options: [
+        "They require expensive monthly subscriptions.",
+        "They make high-quality lessons freely reachable.",
+        "They replace all standard classroom teachers.",
+        "They function only on large mainframe systems.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "They make high-quality lessons freely reachable.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S3Ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s3_ss4_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What does the Currency technique evaluate when examining an educational web page?",
+      options: [
+        "The local monetary exchange rate",
+        "How recently content was updated",
+        "The total cost of buying the domain",
+        "The banking payment options used",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "How recently content was updated",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which feature indicates that a web article is objective and unbiased?",
+      options: [
+        "Heavy commercial sales banners",
+        "Frequent personal angry rants",
+        "Balanced facts with evidence",
+        "Anonymous author publications",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Balanced facts with evidence",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How can a student confirm that scientific data found online is accurate?",
+      options: [
+        "Trusting the first search result",
+        "Ignoring all source citations",
+        "Cross-checking trusted references",
+        "Reading user forum comments only",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Cross-checking trusted references",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which situation shows a failure in web page functionality?",
+      options: [
+        "Fast page loading speeds",
+        "Multiple non-working broken links",
+        "Clear and legible font choices",
+        "Working internal site search bars",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Multiple non-working broken links",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S4Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s4_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What term describes a set of step-by-step instructions designed to solve a specific problem?",
+      options: [
+        "Compiler",
+        "Algorithm",
+        "Debugger",
+        "Hardware",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Algorithm",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What name is given to an error in a computer program that produces an unintended outcome?",
+      options: [
+        "Syntax",
+        "Binary",
+        "Output",
+        "Bug",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Bug",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which software tool translates an entire high-level program into machine instructions at once?",
+      options: [
+        "Compiler",
+        "Browser",
+        "Monitor",
+        "Scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Compiler",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What term refers to the native binary language understood directly by computer central processing units?",
+      options: [
+        "Python code",
+        "Script file",
+        "Machine code",
+        "Markup text",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Machine code",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S4Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s4_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which data type is most appropriate for recording the number of desks in a classroom?",
+      options: [
+        "Float",
+        "Integer",
+        "Boolean",
+        "String",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Integer",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What data type should be used to store a student's full residential address?",
+      options: [
+        "Character",
+        "Integer",
+        "Boolean",
+        "String",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "String",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which of the following values represents a floating-point data type?",
+      options: [
+        "58.75",
+        "4200",
+        "'W'",
+        "True",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "58.75",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What are the only two possible values that a Boolean data type can store?",
+      options: [
+        "Positive or negative",
+        "Letter or number",
+        "True or False",
+        "Float or Integer",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "True or False",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S4Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s4_ss1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What term describes a named memory location whose value can be modified during program execution?",
+      options: [
+        "Constant",
+        "Variable",
+        "Keyword",
+        "Operator",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Variable",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of the following values is best declared as a constant in a school grading app?",
+      options: [
+        "Student name",
+        "Total score",
+        "Attendance",
+        "Maximum mark",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Maximum mark",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What process occurs when a programmer assigns a variable its very first starting value?",
+      options: [
+        "Initialisation",
+        "Compilation",
+        "Deletion",
+        "Termination",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Initialisation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which operator symbol is standardly used to assign a value into a variable in programming?",
+      options: [
+        "Plus sign (+)",
+        "Colon sign (:)",
+        "Equal sign (=)",
+        "Tilde sign (~)",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Equal sign (=)",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S4Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s4_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which technique breaks a complex project into smaller sub-tasks?",
+      options: [
+        "Abstraction",
+        "Decomposition",
+        "Compilation",
+        "Termination",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Decomposition",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What defines a sequential algorithm structure in computing?",
+      options: [
+        "Repeating lines until a timer stops",
+        "Choosing paths using if statements",
+        "Executing code lines top-to-bottom",
+        "Skipping code sections at random",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Executing code lines top-to-bottom",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Filtering out unnecessary details to highlight core items is called:",
+      options: [
+        "Abstraction",
+        "Decryption",
+        "Iteration",
+        "Selection",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Abstraction",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which real-life scenario represents an iteration structure?",
+      options: [
+        "Choosing tea or fresh koko drink",
+        "Wearing a cap after your uniform",
+        "Ringing the school bell five times",
+        "Writing down a single pupil name",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ringing the school bell five times",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What happens when a selection condition is evaluated in a program?",
+      options: [
+        "The entire program stops executing",
+        "One specific branch path is chosen",
+        "All lines run simultaneously once",
+        "The code loops without stopping",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "One specific branch path is chosen",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S4Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s4_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What index position holds the first item of an array in standard programming?",
+      options: [
+        "Position minus one",
+        "Position zero",
+        "Position one",
+        "Position ten",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Position zero",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which search method inspects elements one by one from beginning to end?",
+      options: [
+        "Binary search",
+        "Random search",
+        "Linear search",
+        "Bubble search",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Linear search",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens when a linear search detects the requested target value?",
+      options: [
+        "It outputs the index and stops",
+        "It deletes the located value",
+        "It restarts from the beginning",
+        "It sorts the remaining values",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It outputs the index and stops",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which number list is arranged in strictly increasing order?",
+      options: [
+        "90, 70, 50, 30",
+        "12, 19, 34, 45",
+        "50, 20, 80, 10",
+        "15, 12, 18, 22",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "12, 19, 34, 45",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. If a linear search checks 8 items without finding a match, the target is:",
+      options: [
+        "Present at index zero",
+        "Hidden in the processor",
+        "Not in the searched list",
+        "Duplicate in the memory",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Not in the searched list",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S4Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s4_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following best describes the core capability of a robotic machine?",
+      options: [
+        "It is a manual mechanical tool that requires permanent human steering",
+        "It is a programmable device capable of carrying out tasks automatically",
+        "It is an ordinary electrical motor that rotates without programmed instructions",
+        "It is a passive display monitor designed solely to output processed text",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "It is a programmable device capable of carrying out tasks automatically",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What primary advantage does an automated surgical robot provide inside an operating theatre?",
+      options: [
+        "It completely replaces the need for any human medical specialists",
+        "It prescribes drug formulas without consulting qualified physicians",
+        "It enables microscopic surgical precision and reduces patient recovery times",
+        "It functions without requiring any source of electrical power supply",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "It enables microscopic surgical precision and reduces patient recovery times",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do industrial manufacturing facilities deploy automated robotic arms along assembly lines?",
+      options: [
+        "To increase production speed while maintaining consistent output quality",
+        "To eliminate all safety rules and regulations within the factory facility",
+        "To raise operational expenses and slow down packaging operations",
+        "To avoid using computers and modern control systems during manufacturing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "To increase production speed while maintaining consistent output quality",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following is a major societal challenge resulting from rapid robotic automation?",
+      options: [
+        "Factory workspaces become much cleaner and far less noisy for technicians",
+        "Routine manual factory workers risk losing their jobs to automated machines",
+        "Manufactured consumer goods become too identical and reliable for users",
+        "Production lines run continuously overnight without needing regular breaks",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Routine manual factory workers risk losing their jobs to automated machines",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs1S4Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS1_s4_ss4_L1/8. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What primary feature distinguishes an artificial intelligence system from a standard non-intelligent computer program?",
+      options: [
+        "It requires solar panels to function reliably.",
+        "It learns from data to improve future actions.",
+        "It operates entirely without using electricity.",
+        "It prints physical reports on paper documents.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It learns from data to improve future actions.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which area of computing relies on stacked layers of interconnected nodes to process complex inputs like human speech?",
+      options: [
+        "Spreadsheet Design",
+        "Hard Disk Formatting",
+        "Cable Network Wiring",
+        "Deep Neural Learning",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Deep Neural Learning",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. An architecture student views a vacant plot of land through a phone screen and observes a digital 3D house model placed over the grass. Which technology is in use?",
+      options: [
+        "Augmented Reality",
+        "Virtual Simulation",
+        "Database Extraction",
+        "Network Gamifying",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Augmented Reality",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why do modern industrial factories deploy intelligent robotic machines in hazardous manufacturing zones?",
+      options: [
+        "To reduce the electrical power consumed by lighting.",
+        "To eliminate safety dangers to human staff members.",
+        "To guarantee that every piece of machinery looks new.",
+        "To increase the volume of paper files generated daily.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "To eliminate safety dangers to human staff members.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the primary role of data analytics and mining within a large commercial enterprise?",
+      options: [
+        "Discovering valuable trends within raw collections.",
+        "Repairing damaged power cords on office monitors.",
+        "Cleaning mechanical dirt off desktop system units.",
+        "Connecting wireless printer cables inside offices.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Discovering valuable trends within raw collections.",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',

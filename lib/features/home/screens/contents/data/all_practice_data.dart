@@ -1310,6 +1310,465 @@ final PracticeModel computingJhs1S3Ss1Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs1S3Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State the main functional difference between a social networking site such as Facebook and a microblogging platform such as Twitter.",
+      answer:
+          "Correct Answer: A social networking site focuses on building relationships and sharing detailed multimedia among connected contacts, whereas a microblogging platform focuses on broadcasting brief, rapid public updates to an open audience.",
+      explanation:
+          "Explanation: Social networks emphasise two-way social connections and rich media sharing, while microblogs are designed for concise text broadcasts and immediate news dissemination.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain why a professional carpenter in Takoradi would choose LinkedIn rather than WhatsApp to attract commercial building contractors.",
+      answer:
+          "Correct Answer: LinkedIn provides a structured public profile for displaying formal trade qualifications, business credentials, and work history to commercial organisations, whereas WhatsApp is designed for direct messaging with existing contacts.",
+      explanation:
+          "Explanation: LinkedIn is tailored for career development and B2B corporate connections, making it more effective for finding corporate partners who do not already possess your phone number.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe two digital safety practices a Junior High School learner must follow when using social networking applications.",
+      answer:
+          "Correct Answer: A learner should keep personal account passwords strictly secret and refrain from posting sensitive personal details such as home locations or telephone numbers on public profiles.",
+      explanation:
+          "Explanation: Protecting credentials prevents unauthorised account takeovers, and withholding private location data protects students from external security risks.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the operational difference between using the Reply command and using the Forward command when dealing with an email message.",
+      answer:
+          "Correct Answer: The Reply command sends a direct response back to the sender of the original message, whereas the Forward command sends a duplicate copy of the received message to a different third-party recipient.",
+      explanation:
+          "Explanation: Reply targets the person who wrote the original email, while Forward redirects the existing conversation thread to someone new who was not part of the initial exchange.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe a scenario where a school administrator should use Blind Carbon Copy (Bcc) instead of Carbon Copy (Cc) when emailing parents.",
+      answer:
+          "Correct Answer: When sending a general school fee circular to hundreds of parents, using Bcc hides all parent email addresses from each other, thereby protecting family privacy.",
+      explanation:
+          "Explanation: Cc displays all recipient addresses openly, while Bcc conceals the entire recipient list, preventing spam and safeguarding private contact details.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how the email address book assists a user when composing a new electronic mail message.",
+      answer:
+          "Correct Answer: The address book stores saved contact information and automatically suggests matching email addresses as soon as the user begins typing a recipient's name.",
+      explanation:
+          "Explanation: This feature eliminates the need to memorise complex email strings and prevents typographical delivery errors.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L1/7. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A commercial bank clerk leaves a customer ledger open on the counter while stepping away for lunch, allowing waiting customers to read account balances. Identify the specific information security principle that has been compromised, and justify your answer.",
+      answer: "Correct Answer: Confidentiality has been compromised.",
+      explanation:
+          "Explanation: Confidentiality requires that private data is viewed only by authorised individuals. Allowing unauthorized customers to inspect private account balances breaches privacy, even though no data was modified or deleted.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: During a storm, an unshielded power surge hits a school administrative desktop, corrupting the final grading spreadsheet and replacing valid marks with scrambled text characters. State the information security principle affected, and provide a solution to prevent this issue.",
+      answer: "Correct Answer: The principle affected is Integrity.",
+      explanation:
+          "Explanation: Integrity deals with keeping data accurate, complete, and uncorrupted. The storm scrambled the marks, destroying data accuracy. Installing surge protectors and maintaining external file backups preserves data integrity.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A national examination registration website crashes repeatedly on the deadline day because thousands of candidates are attempting to log in simultaneously, preventing students from completing registration. Name the affected security principle, and state how administrators can fix it.",
+      answer: "Correct Answer: The affected principle is Availability.",
+      explanation:
+          "Explanation: Availability ensures that systems and services remain reachable and functional for authorised users whenever needed. Upgrading server capacity and utilizing load-balancing servers prevents traffic crashes.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L2/7. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A web programmer in Cape Coast invents an entirely new data compression algorithm that reduces video transmission bandwidth by eighty percent. Explain whether the programmer should seek a copyright or a patent to protect this technical discovery, and justify your choice.",
+      answer:
+          "Correct Answer: The programmer should seek a patent for the compression algorithm.",
+      explanation:
+          "Explanation: A patent specifically protects novel technological inventions, methods, and practical functional processes. While copyright protects the written code as literary work, a patent prevents competitors from copying the underlying technical process or method.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: An educational app displays a notice that users may access all learning modules for twenty-one days without payment, after which the application will lock until an activation fee is settled. Identify this software distribution model and define its main characteristic.",
+      answer: "Correct Answer: This distribution model is shareware.",
+      explanation:
+          "Explanation: Shareware provides complete software functionality on a trial basis for an evaluation period, requiring the user to pay for an official license once the trial period ends.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain two ways in which distributing cracked computer software through illegal downloads harms the national economy of Ghana.",
+      answer:
+          "Correct Answer: It deprives local software developers of earned income and reduces government tax revenues.",
+      explanation:
+          "Explanation: Piracy strips software creators of legitimate profits needed to expand businesses, while informal unrecorded pirated transactions evade national taxes that fund public infrastructure.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L3/7. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the primary purpose of creating a forensic image of a hard disk using a write-blocker before an investigator begins searching for evidence of a security breach.",
+      answer:
+          "Correct Answer: To preserve the original electronic evidence in an unaltered state.",
+      explanation:
+          "Explanation: A forensic image creates an exact bit-by-bit duplicate of the storage media while the write-blocker prevents accidental modification. Conducting analysis on the duplicate preserves the integrity of the original evidence so it remains legally admissible in court.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A private basic school in Takoradi collects pupil health records and parent contact details but refuses to register with the Data Protection Commission. State whether the school has broken the law, name the specific statute involved, and identify the regulatory body.",
+      answer:
+          "Correct Answer: Yes, the school has broken the law under the Data Protection Act, 2012 (Act 843), which is regulated by the Data Protection Commission.",
+      explanation:
+          "Explanation: Act 843 legally mandates all data controllers who collect and process personal data to register formally with the Data Protection Commission. Operating without registration is an offense liable to a fine or custodial sentence.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Identify two common data security breaches that occur in Ghanaian communities that people regularly overlook, and explain why each poses a privacy risk.",
+      answer:
+          "Correct Answer: Unattended paper visitor registers at security checkpoints and dumping un-shredded official school or medical documents into open rubbish heaps.",
+      explanation:
+          "Explanation: Open visitor registers allow strangers to copy down private names, addresses, and phone numbers. Discarding un-shredded papers allows scavenging third parties to recover private academic, financial, or medical records, leading to identity theft and harassment.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L1/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student in Tema wants to review a difficult computing topic late in the evening when the school building is closed. Which feature of a Virtual Learning Environment makes this possible?\nA. Timed playground access\nB. Round-the-clock lesson availability\nC. Paper-based homework distribution\nD. Compulsory morning assembly attendance",
+      answer: "Correct Answer: B. Round-the-clock lesson availability",
+      explanation:
+          "Explanation: VLEs store educational materials on web servers, allowing students to access notes and tutorials at any time of day from home.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Kofi feels nervous answering questions aloud in front of his peers during regular class hours. How does a VLE directly support a learner like Kofi?\nA. It eliminates all end-of-term evaluations.\nB. It provides private channels for questions.\nC. It forces students to speak on live video.\nD. It cancels all teacher-student communications.",
+      answer: "Correct Answer: B. It provides private channels for questions.",
+      explanation:
+          "Explanation: Online learning environments offer private messaging and individual quizzes, allowing shy learners to participate and seek help without peer pressure.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A basic school in Sunyani wishes to adopt e-learning using a standard VLE platform. Which task can a teacher perform directly inside this digital environment?\nA. Inspecting physical student uniforms\nB. Repairing broken wooden desk benches\nC. Uploading weekly quizzes and worksheets\nD. Providing hot school meals to students",
+      answer: "Correct Answer: C. Uploading weekly quizzes and worksheets",
+      explanation:
+          "Explanation: Teachers use VLE platforms to publish instructional materials, assign homework tasks, and administer digital assessments to learners over the web.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A Junior High School pupil in Bolgatanga wants to practice basic algebra using free interactive video lessons and immediate progress tracking. Which open learning platform is best suited for this task?\nA. Khan Academy\nB. Ethernet Switch\nC. Hard Disk Drive\nD. Computer Monitor",
+      answer: "Correct Answer: A. Khan Academy",
+      explanation:
+          "Explanation: Khan Academy is widely recognised for providing free instructional videos and self-paced interactive exercises across school subjects like mathematics.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: How does the use of multimedia materials on open learning websites benefit a classroom student?\nA. It locks screen brightness at maximum levels.\nB. It combines audio and video for easy learning.\nC. It forces learners to write in physical ink.\nD. It deletes saved browser search histories.",
+      answer:
+          "Correct Answer: B. It combines audio and video for easy learning.",
+      explanation:
+          "Explanation: Multimedia elements like videos, spoken audio, and diagrams make concepts easier to comprehend and retain compared to plain text alone.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Why do schools encourage learners to use open learning websites alongside regular textbooks?\nA. To eliminate all teacher jobs permanently.\nB. To reduce physical storage inside classrooms.\nC. To provide free and updated learning content.\nD. To slow down internet connections in schools.",
+      answer:
+          "Correct Answer: C. To provide free and updated learning content.",
+      explanation:
+          "Explanation: Open learning platforms give students free access to modern, up-to-date educational materials that support classroom instruction.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S3Ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student in Tamale reads a web article on renewable energy that contains numerous spelling errors and zero reference citations. Which evaluation technique does this webpage fail?\nA. Digital graphic animation\nB. Accuracy of information\nC. Screen brightness control\nD. Storage capacity testing",
+      answer: "Correct Answer: B. Accuracy of information",
+      explanation:
+          "Explanation: Accuracy checks whether information is true, verifiable, and free from careless spelling or factual errors.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Yaw clicks on three hyperlinks within an online computing guide, but every click displays an error message. Which aspect of the webpage is deficient?\nA. Audio speaker loudness\nB. Functionality of the site\nC. Electric current flow\nD. Computer monitor size",
+      answer: "Correct Answer: B. Functionality of the site",
+      explanation:
+          "Explanation: Broken links, unresponsive buttons, and system errors indicate poor functionality and website maintenance.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Why should a learner check the author's educational background before accepting facts from an online article?\nA. To determine physical weight\nB. To evaluate page credibility\nC. To format computer storage\nD. To set the browser language",
+      answer: "Correct Answer: B. To evaluate page credibility",
+      explanation:
+          "Explanation: Credibility evaluates the author's qualifications, expertise, and institutional background to establish trust.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S4Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the clear difference between an algorithm and a computer program.",
+      answer:
+          "Correct Answer: An algorithm is a step-by-step logical plan or procedure designed to solve a problem regardless of programming language, whereas a computer program is the actual implementation of that plan written in a specific coding language that a computer can run.",
+      explanation:
+          "Explanation: An algorithm provides the conceptual steps in plain language or pseudocode, while a program is the concrete machine-executable code.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Why is a compiler necessary when executing a program written in a high-level language?",
+      answer:
+          "Correct Answer: A compiler is necessary because computers cannot directly execute human-readable words or high-level source code; the compiler translates that code into machine language consisting of binary zeros and ones that the processor executes.",
+      explanation:
+          "Explanation: Without a compiler or interpreter, computer hardware cannot interpret English-based commands.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a programmer identifies a bug and carries out debugging in their project.",
+      answer:
+          "Correct Answer: A programmer identifies a bug when an application crashes, flags a syntax error, or outputs wrong results; they carry out debugging by reading through the code, locating the specific line with the error, and correcting the logic or grammar.",
+      explanation:
+          "Explanation: Debugging is the complete troubleshooting cycle of detecting an error, finding its root cause in the source code, and repairing it.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S4Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why the price of items in a supermarket, such as 14.75 Cedis, should be stored as a float instead of an integer.",
+      answer:
+          "Correct Answer: Supermarket prices contain fractional currency units known as pesewas, which require decimal values; a float supports decimal points, whereas an integer only holds whole numbers and would drop the pesewas.",
+      explanation:
+          "Explanation: Integers truncate or drop decimal fractions. To maintain monetary precision with pesewas, a floating-point data type must be used.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe the fundamental difference between a character data type and a string data type, giving an example of each.",
+      answer:
+          "Correct Answer: A character stores only a single individual letter, number, or symbol (such as 'A'), whereas a string stores a sequence or collection of multiple characters joined together (such as \"Accra\").",
+      explanation:
+          "Explanation: A character has a length of one symbol, while a string is a combined sequence of zero or more characters.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A school attendance app records whether a student is present or absent each morning. Identify the most suitable data type for this task and explain why.",
+      answer:
+          "Correct Answer: The most suitable data type is Boolean, because attendance is a two-state condition where a student is either present (True) or absent (False).",
+      explanation:
+          "Explanation: When an outcome has only two mutually exclusive states, a Boolean is the most efficient and logical data type to represent it.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S4Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State the key difference between a constant and a variable in a computer program, providing one real-life example of each.",
+      answer:
+          "Correct Answer: A constant is a named storage value that cannot be changed during program execution (such as the number of months in a year, which is 12), whereas a variable is a named storage location whose value can be altered at any time (such as a person's current age or bank balance).",
+      explanation:
+          "Explanation: Constants remain fixed throughout the life of the program, while variables are designed to be modified dynamically.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the two-step process of preparing a variable using declaration and initialisation.",
+      answer:
+          "Correct Answer: Declaring a variable involves defining its data type and assigning it an identifier name to reserve space in memory, while initialisation involves giving that declared variable its very first initial value using the assignment operator.",
+      explanation:
+          "Explanation: Declaration sets up the storage location's structure and label, whereas initialisation places the first value inside it.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two reasons why using variables is more advantageous than using constants when writing interactive software.",
+      answer:
+          "Correct Answer: First, variables allow program values to be updated and manipulated dynamically during execution; second, variables enable code reusability because the same logic can process different user inputs.",
+      explanation:
+          "Explanation: Variables make software flexible and responsive to user input, unlike rigid constants that require program rewriting to handle different values.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S4Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the difference between decomposition and abstraction when solving a computational problem.",
+      answer:
+          "Correct Answer: Decomposition breaks down a large problem into smaller sub-problems, whereas abstraction removes unnecessary details to focus only on essential information.",
+      explanation:
+          "Explanation: Decomposition divides a task into smaller, manageable pieces to reduce overall complexity. Abstraction simplifies a problem by hiding background implementation details so the programmer can concentrate strictly on the relevant facts.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe why a daily routine of ironing clothes before putting them on represents a sequential structure.",
+      answer:
+          "Correct Answer: It represents a sequence because the instructions follow an unbranched, fixed order where each action must occur one after another.",
+      explanation:
+          "Explanation: A sequence executes linearly from start to finish without branching or skipping steps. Ironing the garment must happen before wearing it; reversing the order defeats the purpose of the activity.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Give a practical Ghanaian school example of how selection is used to determine student attendance rewards.",
+      answer:
+          "Correct Answer: If a student arrives at school before 7:30 AM, they receive a punctuality token; otherwise, they receive a late mark.",
+      explanation:
+          "Explanation: Selection uses an \"if-then-else\" conditional check. The student’s arrival time is compared against the cut-off time to decide which specific outcome is applied.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: How does an iteration structure know when to stop repeating its designated steps?",
+      answer:
+          "Correct Answer: An iteration structure stops repeating when its specified termination condition is met or evaluates to false.",
+      explanation:
+          "Explanation: Repetition loops require a stopping condition to prevent them from running forever. Once the condition is satisfied, the program terminates the loop and moves to the next instruction.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S4Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why does an array containing six elements end at index position 5 rather than index position 6?",
+      answer:
+          "Correct Answer: Arrays use zero-based indexing, meaning counting begins at 0, so six elements occupy positions 0 through 5.",
+      explanation:
+          "Explanation: In programming, the first item is located at index 0. For a list of size N, the indices run from 0 to N minus 1. Therefore, six items span indices 0, 1, 2, 3, 4, and 5.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain what a linear search algorithm does when the searched target value is not present in the array.",
+      answer:
+          "Correct Answer: The algorithm compares the target with every item from start to finish and reports that the item is not found.",
+      explanation:
+          "Explanation: A linear search must inspect all elements sequentially before concluding that an item is absent. If no match is detected after the final index, it returns an unsuccessful search result.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Given the list [14, 28, 7, 42, 35], trace the comparisons required to locate the target number 7 using a linear search.",
+      answer:
+          "Correct Answer: Compare 7 to 14 at index 0, then compare 7 to 28 at index 1, then compare 7 to 7 at index 2 to find a match.",
+      explanation:
+          "Explanation: Linear search checks each element in sequence. It fails the match at index 0, fails at index 1, and succeeds on the third comparison at index 2, halting the algorithm.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: How does arranging class test scores in decreasing order assist a headteacher in reviewing academic performance?",
+      answer:
+          "Correct Answer: Decreasing order places the highest scores at the beginning and the lowest at the end, making top achievers immediately visible.",
+      explanation:
+          "Explanation: Sorting data from highest to lowest allows administrators to instantly spot top performers, evaluate cut-off marks, and see where remedial support is required.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S4Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State two reasons why an automobile manufacturing plant would prefer using robotic arms rather than human workers for welding vehicle frames.",
+      answer:
+          "Correct Answer: Robotic arms deliver higher welding precision with zero fatigue, and they protect human workers from dangerous sparks, heat, and toxic fumes.",
+      explanation:
+          "Explanation: Robots execute identical physical paths continuously without tiring, ensuring consistent weld strength across every chassis. Taking humans away from open welding arcs also eliminates severe occupational safety hazards.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain one significant way an interactive robot can support teaching and learning in a basic school classroom.",
+      answer:
+          "Correct Answer: An interactive robot introduces foundational coding concepts through practical movement and offers patient, structured engagement for learners with special educational needs.",
+      explanation:
+          "Explanation: Educational robots allow students to input directional commands and observe the results immediately, turning abstract programming logic into clear visual action while supporting children who need structured learning environments.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe two major infrastructure and technical challenges a commercial enterprise in Ghana might face after acquiring advanced industrial robots.",
+      answer:
+          "Correct Answer: The company may face frequent disruptions from unstable electrical power supplies and difficulty finding local technicians qualified to service and program the robots.",
+      explanation:
+          "Explanation: Robotic units demand constant electricity to run smoothly, and power surges can damage sensitive microcontrollers. Additionally, advanced maintenance requires specialised computing and engineering skills that may be scarce locally, leading to expensive downtime.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs1S4Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss4_L1/7. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A community clinic in a farming village uses software that reviews microscope photos of blood smears to identify malaria parasites. Which area of artificial intelligence does this system illustrate?\nA. Artificial Neural Networks\nB. Virtual Reality Systems\nC. Data Warehousing Storage\nD. Computer Game Mechanics",
+      answer: "Correct Answer: A. Artificial Neural Networks",
+      explanation:
+          "Explanation: The software analyzes image patterns through interconnected nodes that mirror biological neurons, making Artificial Neural Networks the correct choice.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A secondary school student wears digital goggles that display a fully digital historical fort, hiding the actual classroom from view. Which technology is being utilized in this scenario?\nA. Augmented Reality Systems\nB. Virtual Reality Experience\nC. Artificial Data Analytics\nD. Automated Machine Learning",
+      answer: "Correct Answer: B. Virtual Reality Experience",
+      explanation:
+          "Explanation: Virtual Reality replaces the physical environment completely with an interactive computer-generated world, whereas Augmented Reality would show digital items over the real room.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: An educational mobile app awards bronze stars, digital badges, and points to pupils whenever they finish their weekly computing assignments. What concept does this reward method represent?\nA. Network Administration\nB. Deep Machine Learning\nC. Software Gamification\nD. Database Warehousing",
+      answer: "Correct Answer: C. Software Gamification",
+      explanation:
+          "Explanation: Gamification applies game elements such as points, stars, and achievement badges to non-game activities like school homework to boost student motivation.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: A commercial supermarket chain runs computer software across three years of customer checkout receipts to identify which food supplies sell fastest before festive holidays. Which process is being executed?\nA. Artificial Data Mining\nB. Virtual Reality Setup\nC. Computer Neural Nodes\nD. Hardware Gamification",
+      answer: "Correct Answer: A. Artificial Data Mining",
+      explanation:
+          "Explanation: Discovering hidden patterns, trends, and buying relationships across massive sets of historical transaction data is the definition of data mining.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [
