@@ -3559,6 +3559,1797 @@ final IndependentPracticeModel computingJhs1S4Ss4Lesson1IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs2S1Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which microchip technology allows millions of transistors to fit on a single chip in fifth-generation computers?",
+      options: [
+        "Small Scale Integration",
+        "Ultra Large Scale Integration",
+        "Medium Scale Integration",
+        "Discrete Component Layout",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Ultra Large Scale Integration",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What allows a qubit to represent both 0 and 1 simultaneously in quantum computing?",
+      options: [
+        "High clock speed",
+        "Binary digit code",
+        "Superposition state",
+        "Optical laser beam",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Superposition state",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does parallel processing hardware execute instructions?",
+      options: [
+        "Across multiple processors at once",
+        "By saving all tasks to magnetic tape",
+        "In a strict single-file sequence",
+        "By deleting old memory registers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Across multiple processors at once",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the primary function of Natural Language Processing in modern computers?",
+      options: [
+        "Cooling down internal microchips",
+        "Regulating electrical current",
+        "Cleaning physical disk storage",
+        "Understanding human voice commands",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Understanding human voice commands",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What component inside a graphics tablet detects the position and pressure of the stylus pen?",
+      options: [
+        "Optical laser reflector",
+        "Embedded wire sensor grid",
+        "Rotating rubber tracking ball",
+        "High resolution thermal camera",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Embedded wire sensor grid",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How does a magnetic card reader extract information from a credit card?",
+      options: [
+        "By heating the plastic card surface",
+        "By scanning a printed two-digit code",
+        "By detecting magnetic field patterns",
+        "By broadcasting ultrasound vibrations",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "By detecting magnetic field patterns",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which feature gives QR codes an advantage over traditional one-dimensional barcodes?",
+      options: [
+        "Storing data in two dimensions",
+        "Requiring heavy laser equipment",
+        "Using permanent liquid chemicals",
+        "Working solely without computers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Storing data in two dimensions",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which technology allows identification tags to be read wirelessly through non-metallic packaging?",
+      options: [
+        "Dot matrix impact printing",
+        "Optical character recognition",
+        "Daisy wheel impact striking",
+        "Radio frequency identification",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Radio frequency identification",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which specialized output device creates raised dot patterns on heavy paper for visually impaired readers?",
+      options: [
+        "Flatbed document scanner",
+        "Braille printer embosser",
+        "Solid wax transfer printer",
+        "Optical mark page reader",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Braille printer embosser",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which printing mechanism uses tiny nozzles to spray microscopic droplets of liquid ink onto paper?",
+      options: [
+        "Daisy wheel impact striker",
+        "Direct thermal receipt unit",
+        "Non-impact inkjet printer",
+        "Mechanical pin embosser",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Non-impact inkjet printer",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is a common disadvantage associated with receipts produced by thermal point-of-sale printers?",
+      options: [
+        "The printed text fades over time",
+        "They require heavy metal printhead pins",
+        "The ink smudges instantly when wet",
+        "They consume huge amounts of wax",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The printed text fades over time",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does a 3D printer fabricate a solid physical object from a digital CAD file?",
+      options: [
+        "By chiselling away unwanted stone",
+        "By burning holes into paper sheets",
+        "By dipping fabric in liquid dye",
+        "By layering material additively",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "By layering material additively",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss1_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What primary electronic characteristic makes flash memory non-volatile?",
+      options: [
+        "It stores data using rotating magnetic tape",
+        "It requires water cooling to function safely",
+        "It preserves stored information without electrical power",
+        "It deletes files whenever computers restart",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It preserves stored information without electrical power",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which flash memory architecture stores exactly two bits of data within each memory cell?",
+      options: [
+        "Single-Level Cell (SLC)",
+        "Multi-Level Cell (MLC)",
+        "Triple-Level Cell (TLC)",
+        "Quad-Level Cell (QLC)",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Multi-Level Cell (MLC)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which storage component is integrated with flash chips inside a standard USB pen drive?",
+      options: [
+        "High-speed Universal Serial Bus interface",
+        "Motorized spinning magnetic disk platter",
+        "Daisy wheel physical letter striker",
+        "Thermal heat sensitive chemical ribbon",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "High-speed Universal Serial Bus interface",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does a hybrid hard drive (SSHD) organize data between its internal components?",
+      options: [
+        "It converts all files into Braille codes",
+        "It deletes old data every fifteen minutes",
+        "It routes all network traffic to the cloud",
+        "It caches frequent files on fast flash",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It caches frequent files on fast flash",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss1_L5/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. On which edge of the computer screen does the Charms bar menu typically appear?",
+      options: [
+        "The top horizontal menu bar",
+        "The right-hand vertical edge",
+        "The bottom taskbar notification",
+        "The left-hand application dock",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The right-hand vertical edge",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which symbol represents the Search feature on the Charms bar menu?",
+      options: [
+        "Interconnected circular rings",
+        "Standard mechanical gear cog",
+        "Classic magnifying glass icon",
+        "Four pane window company logo",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Classic magnifying glass icon",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What action does the Share charm allow a user to perform from an active window?",
+      options: [
+        "Transmit web links and photos",
+        "Defragment internal hard drives",
+        "Format external storage disks",
+        "Clean physical printer rollers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Transmit web links and photos",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does the mouse pointer trigger the Charms bar without using keyboard shortcuts?",
+      options: [
+        "By clicking repeatedly in the center",
+        "By right-clicking the recycle bin icon",
+        "By double-clicking the taskbar clock",
+        "By hovering in the screen corners",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "By hovering in the screen corners",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss1_L6/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What does a disk defragmentation utility do to fragmented files stored on a hard disk platter?",
+      options: [
+        "It permanently deletes empty text files",
+        "It reorganizes pieces into contiguous clusters",
+        "It burns files onto thermal receipt paper",
+        "It converts data into two-dimensional barcodes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It reorganizes pieces into contiguous clusters",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which compression method allows a compressed file to be restored exactly to its original state?",
+      options: [
+        "Lossless file compression",
+        "Lossy visual reduction",
+        "Solid ink wax transfer",
+        "Direct thermal printing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Lossless file compression",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the primary benefit of dividing a physical hard drive into separate logical partitions?",
+      options: [
+        "Increasing mechanical platter rotation speed",
+        "Cooling internal processor socket circuits",
+        "Isolating system files from user documents",
+        "Preventing physical drops from breaking cables",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Isolating system files from user documents",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why should users avoid running defragmentation utilities on solid-state drives?",
+      options: [
+        "It permanently changes drive letters",
+        "It locks user files with complex passwords",
+        "It causes excessive wear without speed benefits",
+        "It turns memory chips into magnetic stripes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It causes excessive wear without speed benefits",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which accessibility setting prevents accidental repetitive keystrokes caused by unsteady hands?",
+      options: [
+        "Screen Magnifier",
+        "Filter Keys",
+        "Mouse Keys",
+        "High Contrast Mode",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Filter Keys",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What type of device uses refreshable raised pins to deliver tactile output to a user?",
+      options: [
+        "Braille display unit",
+        "Screen magnifier tool",
+        "Pneumatic foot pedal",
+        "Flatbed image scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Braille display unit",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which technology translates an audio track of an online lesson into synchronised screen text?",
+      options: [
+        "Voice synthesis",
+        "Audio descriptor",
+        "Closed captioning",
+        "Sticky key utility",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Closed captioning",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. A physical frame placed over a computer keyboard with holes cut out over individual keys is known as a:",
+      options: [
+        "Braille keyboard pad",
+        "Keyboard keyguard",
+        "Pneumatic switch box",
+        "Tactile pointing device",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Keyboard keyguard",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Which assistive device allows a user with high-level paralysis to control a computer using breath pressure?",
+      options: [
+        "Trackball mouse",
+        "Head wand stick",
+        "Sip-and-puff switch",
+        "Ergonomic keyboard",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Sip-and-puff switch",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which portable computing device typically features a clamshell folding design with a physical keyboard and trackpad?",
+      options: [
+        "Laptop computer",
+        "Slate tablet PC",
+        "Touch smartwatch",
+        "Feature handset",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Laptop computer",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What wireless technology is commonly used to pair a smartwatch directly with a nearby smartphone?",
+      options: [
+        "Satellite dish",
+        "Bluetooth link",
+        "Ethernet cable",
+        "Infrared ray",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Bluetooth link",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What educational advantage does a tablet computer offer over traditional printed textbooks?",
+      options: [
+        "It works without an electrical charge",
+        "It cannot ever be damaged or scratched",
+        "It holds hundreds of books in one place",
+        "It prevents all forms of study distraction",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It holds hundreds of books in one place",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which sensor inside a portable device allows navigation software to determine geographic location?",
+      options: [
+        "Light barometer",
+        "Voice microphone",
+        "Sound resonator",
+        "GPS receiver",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "GPS receiver",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is a major personal challenge associated with the excessive use of portable computing devices?",
+      options: [
+        "High water loss",
+        "Physical eye strain",
+        "Rapid heart growth",
+        "Lower bone density",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Physical eye strain",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which type of malicious program disguises itself as useful, legitimate software while performing hidden destructive actions?",
+      options: [
+        "Trojan horse",
+        "Web crawler",
+        "Search engine",
+        "Screen reader",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Trojan horse",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary characteristic of a collaborative wiki website?",
+      options: [
+        "It permits only one person to post articles",
+        "It allows multiple users to edit its content",
+        "It requires cash payment before reading pages",
+        "It operates completely without web connections",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It allows multiple users to edit its content",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which cyber threat covertly tracks user keystrokes to steal sensitive account passwords and PINs?",
+      options: [
+        "Cloud backup",
+        "Wiki editor",
+        "Spyware tool",
+        "Filter key",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Spyware tool",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How are regular journal entries typically organised and displayed on a personal blog?",
+      options: [
+        "In alphabetical order by the title words",
+        "By random selection each time page opens",
+        "By the total number of words in each post",
+        "In reverse chronological publication order",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "In reverse chronological publication order",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the primary objective of a malicious Denial-of-Service cyberattack?",
+      options: [
+        "To upgrade the storage capacity of servers",
+        "To overwhelm servers so services go offline",
+        "To correct grammatical errors on web pages",
+        "To physically steal monitors from workplaces",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "To overwhelm servers so services go offline",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary benefit of applying the 20-20-20 rule during continuous computer work?",
+      options: [
+        "It eliminates dust settling on the keyboard surface",
+        "It relaxes internal eye muscles to prevent fatigue",
+        "It increases processing speed on the computer hard drive",
+        "It prevents electrical sockets from heating up quickly",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It relaxes internal eye muscles to prevent fatigue",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which sitting configuration provides the best ergonomic support for a student's spine?",
+      options: [
+        "Perching forward on the edge of the seat at seventy degrees",
+        "Hunching over the desk with crossed legs above the floor",
+        "Leaning back against lumbar support at one hundred degrees",
+        "Slouching low into the chair with feet tucked under the seat",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Leaning back against lumbar support at one hundred degrees",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Where should the top border of a desktop monitor be positioned relative to the user?",
+      options: [
+        "Exactly level with the user's horizontal eye line",
+        "Thirty centimetres above the top of the user's head",
+        "Positioned flat on the desk below the keyboard plate",
+        "Tilted upward near the ceiling to raise neck muscles",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Exactly level with the user's horizontal eye line",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why should reference documents be placed in an upright document holder during data entry?",
+      options: [
+        "To prevent the document from absorbing moisture on the desk",
+        "To avoid unnatural downward bending and twisting of the neck",
+        "To allow classmates seated opposite to inspect the paper notes",
+        "To make sure printed letters appear darker in bright sunlight",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "To avoid unnatural downward bending and twisting of the neck",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S1Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s1_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the safest maximum volume setting recommended for using headphones or earpieces?",
+      options: [
+        "Exactly eighty-five percent of maximum",
+        "Below sixty percent of maximum scale",
+        "Pushed fully to ninety-five percent power",
+        "Set high enough to cancel street sirens",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Below sixty percent of maximum scale",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What optical problem occurs when bright sunlight shines directly onto a glossy computer display?",
+      options: [
+        "Screen glare that causes optical fatigue",
+        "Rapid overheating of internal display chips",
+        "Complete loss of network internet signal",
+        "Accumulation of static dust on the keys",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Screen glare that causes optical fatigue",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why should trailing extension cables across classroom floors be covered with hazard tape?",
+      options: [
+        "To prevent the copper wires from leaking ink",
+        "To improve the download speed of lab computers",
+        "To prevent students from tripping over leads",
+        "To absorb high-voltage magnetic radiation",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "To prevent students from tripping over leads",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What safety feature makes a trailing multi-socket unit safer than a stacked block adaptor?",
+      options: [
+        "It magnifies the incoming domestic voltage",
+        "It contains an internal fuse to stop overloads",
+        "It allows unlimited high-power appliances",
+        "It operates without any copper connections",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It contains an internal fuse to stop overloads",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab must you click first to insert a new table or add a hyperlink into a document?",
+      options: [
+        "Home tab",
+        "Insert tab",
+        "View tab",
+        "Review tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Insert tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What keyboard shortcut opens the Insert Hyperlink dialogue box in Microsoft Word?",
+      options: [
+        "Ctrl + H",
+        "Ctrl + J",
+        "Ctrl + K",
+        "Ctrl + L",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ctrl + K",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What cursor appearance indicates that you can drag to resize a table column manually?",
+      options: [
+        "A four-pointed cross arrow",
+        "A double-headed horizontal arrow",
+        "A blinking vertical beam",
+        "A solid diagonal pencil",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A double-headed horizontal arrow",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which rule must be strictly followed when creating a new bookmark name in Microsoft Word?",
+      options: [
+        "The name must not contain spaces",
+        "The name must start with numbers",
+        "The name must have ten characters",
+        "The name must end with a full stop",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The name must not contain spaces",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab contains the tools to merge cells, split cells, and insert mathematical formulas in a table?",
+      options: [
+        "Home tab",
+        "Layout tab",
+        "Design tab",
+        "Insert tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Layout tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What positional argument should you write inside =SUM() to add numbers located across a row to the left?",
+      options: [
+        "=SUM(ROW)",
+        "=SUM(BACK)",
+        "=SUM(LEFT)",
+        "=SUM(PREV)",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "=SUM(LEFT)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which tool on the Table Design tab is used to apply background fill colour to selected table cells?",
+      options: [
+        "Shading tool",
+        "Highlighter",
+        "Font Color",
+        "Border Style",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Shading tool",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the effect of clicking the Increase Indent button on selected paragraph text?",
+      options: [
+        "It makes line spacing double",
+        "It widens the table border",
+        "It changes font size bigger",
+        "It moves text away from margin",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It moves text away from margin",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab contains the tools for changing page orientation and inserting section breaks?",
+      options: [
+        "Home tab",
+        "Layout tab",
+        "Review tab",
+        "View tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Layout tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the standard keyboard shortcut used to insert an immediate page break in Microsoft Word?",
+      options: [
+        "Alt + Enter",
+        "Shift + Enter",
+        "Ctrl + Enter",
+        "Tab + Enter",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Ctrl + Enter",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Where on a page does a header appear by default when activated in a word processor?",
+      options: [
+        "Inside top margin",
+        "Across center page",
+        "Inside left margin",
+        "Inside bottom margin",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Inside top margin",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which orientation format is widest horizontally and best suited for displaying wide tables?",
+      options: [
+        "Portrait format",
+        "Vertical format",
+        "Columnar format",
+        "Landscape format",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Landscape format",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which command should a student click to place an image stored on a pen drive onto a slide?",
+      options: [
+        "Shapes",
+        "Pictures",
+        "SmartArt",
+        "WordArt",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Pictures",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What visual indicator appears around an image immediately after clicking on it on a slide?",
+      options: [
+        "Red motion path markers",
+        "Sizing handles on the frame",
+        "A blinking vertical cursor",
+        "Bright yellow highlight bars",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sizing handles on the frame",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which tool allows a user to cut away distracting background objects along the edges of an image?",
+      options: [
+        "The Crop button",
+        "The Rotate tool",
+        "The Align command",
+        "The Group command",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Crop button",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which action allows a presenter to tilt an inserted photograph on a slide by thirty degrees?",
+      options: [
+        "Dragging a side sizing handle",
+        "Double clicking the center point",
+        "Dragging the round rotation arrow",
+        "Pressing the keyboard delete key",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Dragging the round rotation arrow",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What happens to cropped image areas when the delete cropped areas option is checked in compression?",
+      options: [
+        "They are saved into a folder",
+        "They are hidden behind the slide",
+        "They are permanently erased",
+        "They are converted into shapes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "They are permanently erased",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which command on the Format tab changes the interior colour of an active shape?",
+      options: [
+        "Shape Fill tool",
+        "Shape Outline tool",
+        "Picture Border tool",
+        "Text Effects button",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Shape Fill tool",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What must a presenter do to type text directly inside a newly inserted shape?",
+      options: [
+        "Convert shape to art",
+        "Click and begin typing",
+        "Draw an oval on it",
+        "Double click slide view",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Click and begin typing",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which ribbon command moves an overlapping shape one level downward in the stack?",
+      options: [
+        "Bring Forward",
+        "Align Center",
+        "Send Backward",
+        "Rotate Left",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Send Backward",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which tool separates a combined group of shapes back into individual objects?",
+      options: [
+        "Crop command",
+        "Delete handle",
+        "Clear option",
+        "Ungroup tool",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ungroup tool",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Under which ribbon tab is the Shapes drop-down menu situated in presentation software?",
+      options: [
+        "View ribbon tab",
+        "Insert ribbon tab",
+        "Review ribbon tab",
+        "Design ribbon tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Insert ribbon tab",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon group on the Format tab houses the Align and Distribute tools?",
+      options: [
+        "The Arrange group",
+        "The WordArt group",
+        "The Size tools group",
+        "The Insert group",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Arrange group",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What must a user click to place text at a custom offset position on a slide?",
+      options: [
+        "The Edit Points tool",
+        "The Text Box command",
+        "The Crop Picture tool",
+        "The Screen Clip tool",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Text Box command",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which alignment command makes a horizontal row of shapes sit at the same height?",
+      options: [
+        "Align Left command",
+        "Align Right option",
+        "Align Top command",
+        "Align Center tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Align Top command",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which tool adjusts the spaces between three or more objects in a column equally?",
+      options: [
+        "Bring to Front",
+        "Send Backward",
+        "Change Shapes",
+        "Distribute Vertically",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Distribute Vertically",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What happens to a shape's text when a user replaces the shape using Change Shape?",
+      options: [
+        "All text is retained.",
+        "Text gets deleted.",
+        "Text turns into art.",
+        "Font size doubles up.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "All text is retained.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary function of desktop publishing software?",
+      options: [
+        "Entering and calculating numerical data in electronic sheets",
+        "Creating visual page layouts combining text and graphic items",
+        "Scanning storage drives to identify and remove malicious virus code",
+        "Translating computer source code into binary machine instructions",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Creating visual page layouts combining text and graphic items",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which professional in the traditional manual publishing process was responsible for physically arranging lead type or text strips?",
+      options: [
+        "A typesetter",
+        "A network engineer",
+        "A systems analyst",
+        "A hardware repairer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A typesetter",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which software application is an example of an open-source desktop publishing tool?",
+      options: [
+        "Adobe InDesign",
+        "Microsoft Word",
+        "LibreOffice Draw",
+        "Microsoft Publisher",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "LibreOffice Draw",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does the use of master pages help a student designing a multi-page school magazine?",
+      options: [
+        "It converts printed text into audio files automatically",
+        "It increases the internet speed needed to upload files",
+        "It replaces the computer operating system with new code",
+        "It keeps repeated elements uniform across all pages",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It keeps repeated elements uniform across all pages",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Which publication is most appropriately created using a desktop publishing application?",
+      options: [
+        "An event flyer announcing a community football match",
+        "A personal diary containing simple handwritten thoughts",
+        "An unformatted single-page formal application letter",
+        "A plain numerical list of student examination scores",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An event flyer announcing a community football match",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which menu tab is clicked first to access the option to create a new publication in Microsoft Publisher?",
+      options: [
+        "View menu tab",
+        "File menu tab",
+        "Review menu tab",
+        "Mailings menu tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "File menu tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What page orientation is best suited for an official school report positioned vertically?",
+      options: [
+        "Portrait orientation",
+        "Landscape orientation",
+        "Diagonal orientation",
+        "Rotated orientation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Portrait orientation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which built-in file extension is automatically applied to files saved in Microsoft Publisher?",
+      options: [
+        ".docx file format",
+        ".xlsx file format",
+        ".pub file format",
+        ".pptx file format",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: ".pub file format",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens when you select a pre-designed template from Microsoft Publisher?",
+      options: [
+        "The computer deletes all older files from the drive",
+        "A ready-made layout with styles and sample text opens",
+        "The operating system restarts the computer instantly",
+        "A blank text document appears without any margins",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A ready-made layout with styles and sample text opens",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Which file name demonstrates the best practice for saving a school sports programme?",
+      options: [
+        "Flyer",
+        "NewDocument1",
+        "Sports_Day_Programme_2026",
+        "Homework_final_final_done",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Sports_Day_Programme_2026",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss3_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab must you click to run an automated spelling check on your publication?",
+      options: [
+        "Page Design tab",
+        "Review menu tab",
+        "Mailings tab",
+        "View ribbon tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Review menu tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Under which ribbon group on the Home tab can a student find the Draw Text Box command?",
+      options: [
+        "The Objects group",
+        "The Clipboard set",
+        "The Editing panel",
+        "The Tracking tools",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Objects group",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens when a designer selects a new colour scheme from the Page Design tab?",
+      options: [
+        "The computer deletes all current text boxes",
+        "The entire document switches to new colours",
+        "The operating system restarts automatically",
+        "The publication is saved to an external disk",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The entire document switches to new colours",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which feature on the View tab allows a student to inspect two facing pages together on the screen?",
+      options: [
+        "Single Page view",
+        "Scratch Area view",
+        "Master Page view",
+        "Two-Page Spread",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Two-Page Spread",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Which task is best carried out using commands on the Mailings tab?",
+      options: [
+        "Producing customized prize certificates for 80 students",
+        "Selecting an alternative adjective using the Thesaurus",
+        "Drawing guide lines along the margins of the work",
+        "Rotating an imported photographic image by 90 degrees",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Producing customized prize certificates for 80 students",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss3Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss3_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab must you click to change the margins or page orientation of a publication?",
+      options: [
+        "Review ribbon tab",
+        "Page Design tab",
+        "Mailings menu tab",
+        "View ribbon panel",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Page Design tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What page orientation is positioned horizontally wider than it is tall?",
+      options: [
+        "Landscape layout",
+        "Portrait alignment",
+        "Inverted margin set",
+        "Rotated axis mode",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Landscape layout",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What do the faint blue lines inside the workspace of Microsoft Publisher indicate?",
+      options: [
+        "Computer processing errors",
+        "Margin guide boundaries",
+        "The battery power levels",
+        "Active internet connections",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Margin guide boundaries",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which margin preset provides the smallest border space to allow maximum content on a single page?",
+      options: [
+        "The Wide preset",
+        "The Moderate preset",
+        "The Custom guide set",
+        "The Narrow preset",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The Narrow preset",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the purpose of adding a gutter margin to a multi-page school magazine?",
+      options: [
+        "It prevents content from being hidden by the binding spine",
+        "It converts black-and-white photos into full colour",
+        "It speeds up the internet upload of the completed file",
+        "It replaces all English text with translated dialect",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It prevents content from being hidden by the binding spine",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss3Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss3_L5/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon group on the Insert tab contains the command to insert pictures from a computer drive?",
+      options: [
+        "The Tracking group",
+        "Illustrations group",
+        "The Header group",
+        "The Page Setup set",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Illustrations group",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the purpose of clicking the Crop button on the Picture Tools Format tab?",
+      options: [
+        "To cut away unwanted outer borders of a photograph",
+        "To convert normal text into spoken teacher audio",
+        "To translate the document from English into Twi",
+        "To save the file directly to an external flash drive",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "To cut away unwanted outer borders of a photograph",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which text wrapping style causes paragraphs to flow around the natural curved silhouette of an object?",
+      options: [
+        "Straight line mode",
+        "Tight wrapping style",
+        "Top and Bottom only",
+        "Through canvas mode",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Tight wrapping style",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How can a student make a solid white background of a company logo invisible on a coloured flyer?",
+      options: [
+        "By restarting the computer monitor",
+        "By deleting all fonts from the drive",
+        "By increasing the page margin size",
+        "By using Set Transparent Color",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "By using Set Transparent Color",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Which command moves a selected picture from underneath a solid shape to the visible top surface?",
+      options: [
+        "Bring Forward command",
+        "Send to Scratch Area",
+        "Clear Format Painter",
+        "Group Objects button",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Bring Forward command",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss3Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss3_L6/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which command must be used to create an area for typing text onto a blank Publisher canvas?",
+      options: [
+        "The Picture Placeholder tool",
+        "The Draw Text Box command",
+        "The Page Orientation button",
+        "The Master Page Setup menu",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Draw Text Box command",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which typeface is an example of a serif font suitable for reading long body paragraphs?",
+      options: [
+        "Times New Roman font",
+        "Arial Black typeface",
+        "Comic Sans typography",
+        "Impact decorative type",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Times New Roman font",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens when text typed into a text box exceeds the physical dimensions of the frame?",
+      options: [
+        "The computer permanently erases the entire document",
+        "The extra text overflows and is temporarily hidden",
+        "The operating system shuts down the local computer",
+        "The text converts automatically into an audio file",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The extra text overflows and is temporarily hidden",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which typographic feature enlarges the opening letter of an article across multiple lines?",
+      options: [
+        "Outline shadow effect",
+        "Kerning spacing guide",
+        "Subscript number code",
+        "The Drop Cap command",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The Drop Cap command",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What does the mouse pointer change into when the Create Link command is clicked?",
+      options: [
+        "A small pitcher icon",
+        "A magnifying glass tool",
+        "A blinking pencil symbol",
+        "A rotating blue circle",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A small pitcher icon",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss3Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss3_L7/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which element should be the largest and most prominent visual feature on an event flyer?",
+      options: [
+        "The printer copyright statement",
+        "The main event headline banner",
+        "The ticket vendor bank details",
+        "The complete list of committee members",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The main event headline banner",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How many standard business cards does Microsoft Publisher typically format on a single A4 sheet?",
+      options: [
+        "Ten business cards",
+        "Two business cards",
+        "Fifty business cards",
+        "One hundred business cards",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Ten business cards",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which publication format is most suitable for inviting dignitaries to an anniversary speech day?",
+      options: [
+        "A pocket business card",
+        "A folded invitation card",
+        "An unformatted single-line memo",
+        "A horizontal spreadsheet table",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A folded invitation card",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What term on an invitation card indicates the contact information for confirming attendance?",
+      options: [
+        "HTML",
+        "BIOS",
+        "ASCII",
+        "RSVP",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "RSVP",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the main benefit of exporting a completed Publisher document as a PDF before emailing?",
+      options: [
+        "It ensures the design appears unchanged on any device",
+        "It increases the physical weight of printed sheets",
+        "It deletes all inserted photographs permanently",
+        "It changes the currency from Cedis to foreign money",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It ensures the design appears unchanged on any device",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss4_L1/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which character must always be typed first to signal to the spreadsheet that you are entering a function or a formula?",
+      options: [
+        "Plus sign (+)",
+        "Colon (:)",
+        "Equals sign (=)",
+        "Hash sign (#)",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Equals sign (=)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which built-in spreadsheet function calculates the arithmetic mean of a selected list of numbers?",
+      options: [
+        "TOTAL",
+        "AVERAGE",
+        "MEDIAN",
+        "SUM",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "AVERAGE",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A student needs to add values in cells C1, C2, C3, C4, and C5. Which of the following is the correct built-in function to perform this task?",
+      options: [
+        "=ADD(C1:C5)",
+        "=SUM(C1-C5)",
+        "=TOTAL(C1:C5)",
+        "=SUM(C1:C5)",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "=SUM(C1:C5)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which function should an administrator use to count how many teachers have paid more than 100 Cedis towards the staff welfare fund?",
+      options: [
+        "COUNTIF",
+        "COUNTA",
+        "MAX",
+        "SUM",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "COUNTIF",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss4_L2/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which arithmetic operation will a spreadsheet always perform first in an unbracketed formula?",
+      options: [
+        "Addition",
+        "Multiplication",
+        "Subtraction",
+        "Division",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Division",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What will be the calculated result of entering the formula =(4+6)*3-5 into a cell?",
+      options: [
+        "19",
+        "25",
+        "17",
+        "31",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "25",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which formula correctly calculates a student's percentage mark if their raw score is in cell B5 and the total possible mark of 80 is in cell C5?",
+      options: [
+        "=(B5/C5)*100",
+        "=(C5/B5)*100",
+        "=B5*(C5/100)",
+        "=(B5*C5)/10",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "=(B5/C5)*100",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. If an agent's sales total is in cell E10 and the commission rate is 4%, which formula correctly computes the commission amount?",
+      options: [
+        "=E10/0.04",
+        "=E10+0.04",
+        "=E10*0.04",
+        "=E10-0.04",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "=E10*0.04",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S2Ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s2_ss4_L3/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which symbol is used in electronic spreadsheets to create an absolute cell reference?",
+      options: [
+        "Percentage sign (%)",
+        "Ampersand sign (&)",
+        "Dollar sign (\$)",
+        "Asterisk sign (*)",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Dollar sign (\$)",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What does the error code #DIV/0! mean when it appears in a spreadsheet cell?",
+      options: [
+        "The text font is too large for the cell.",
+        "A formula is trying to divide by zero or a blank cell.",
+        "The application cannot locate a deleted column.",
+        "The worksheet has run out of memory.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A formula is trying to divide by zero or a blank cell.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which feature allows you to quickly replicate a formula down a column by clicking and dragging the bottom right corner of the active cell?",
+      options: [
+        "Fill Handle",
+        "Format Painter",
+        "AutoCorrect",
+        "Name Box",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Fill Handle",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. If cell B2 contains =A1+5 and is copied to cell C3, what will the formula become under relative referencing?",
+      options: [
+        "=A1+5",
+        "=B1+5",
+        "=A2+5",
+        "=B2+5",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "=B2+5",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',

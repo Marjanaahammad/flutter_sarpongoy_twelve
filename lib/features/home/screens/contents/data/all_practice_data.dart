@@ -1769,6 +1769,913 @@ final PracticeModel computingJhs1S4Ss4Lesson1PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs2S1Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain how quantum bits, or qubits, differ from classical bits used in traditional computers.",
+      answer:
+          "Correct Answer: Classical bits can only exist as either a 0 or a 1, whereas qubits can exist as 0, 1, or both states simultaneously due to superposition.",
+      explanation:
+          "Explanation: Traditional computing relies on a two-state system (binary digits 0 and 1). Qubits take advantage of quantum physics to represent combinations of both values at the same time, allowing quantum computers to process massive calculations simultaneously.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Why is parallel processing more effective than serial processing for complex computing tasks like weather forecasting and Artificial Intelligence?",
+      answer:
+          "Correct Answer: Parallel processing breaks a task into smaller parts and solves them simultaneously across multiple processors, whereas serial processing executes instructions one after another.",
+      explanation:
+          "Explanation: Weather models and AI algorithms involve billions of variables. Serial processing creates long delays because each calculation must wait for the preceding one to finish. Parallel processing divides the workload across multiple processing cores to achieve results in a fraction of the time.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Give two practical ways Artificial Intelligence software is applied in modern society.",
+      answer:
+          "Correct Answer: AI is used for detecting fraudulent financial transactions and powering facial recognition security systems at transit stations and airports.",
+      explanation:
+          "Explanation: AI programs can analyze transaction data patterns to stop theft on digital banking platforms and match facial biometric markers against security databases to verify identities quickly.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why is a graphics tablet preferred over a standard mouse when creating detailed digital artwork?",
+      answer:
+          "Correct Answer: A graphics tablet uses a pressure-sensitive stylus that mimics real drawing tools, allowing fine control over stroke thickness and precision.",
+      explanation:
+          "Explanation: A standard computer mouse is designed for pointing and clicking, making precise hand movements difficult. A graphics tablet detects stylus pressure and tilt through electromagnetic signals, providing natural handwriting and drawing control.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the main operational advantage of an RFID reader over an optical barcode scanner.",
+      answer:
+          "Correct Answer: An RFID reader uses radio waves to read tags wirelessly from a distance without needing a direct optical line of sight.",
+      explanation:
+          "Explanation: Barcode scanners require an unobstructed visual line between the red laser beam and the printed symbol. RFID signals penetrate packaging materials, allowing multiple items to be scanned simultaneously even when hidden inside boxes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two practical applications of Quick Response (QR) codes in everyday Ghanaian life.",
+      answer:
+          "Correct Answer: Directing users to educational resource websites and facilitating contactless digital payments at retail shops.",
+      explanation:
+          "Explanation: QR codes hold thousands of characters and can be scanned with any smartphone camera, making them ideal for opening web links or initiating cashless payments instantly.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why are dot matrix impact printers still used in banking and commercial billing offices despite being loud and slow?",
+      answer:
+          "Correct Answer: They exert physical impact pressure, which allows them to print multi-part carbon copy receipts and invoices simultaneously.",
+      explanation:
+          "Explanation: Non-impact printers like inkjets spray ink without touching the page, meaning they cannot make copies through carbon paper. The physical pins of a dot matrix printer strike with enough force to duplicate the text onto carbon sheets underneath.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain how a thermal receipt printer produces text on paper without using liquid ink cartridges or toner powder.",
+      answer:
+          "Correct Answer: The printer's heated printhead elements apply heat directly to chemically treated paper, causing the coating to turn black where touched.",
+      explanation:
+          "Explanation: Thermal printers use heat-sensitive paper. Microscopic heating pins selectively warm the surface, triggering a chemical reaction that creates dark characters without ink ribbons or fluid.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What is the primary difference between traditional two-dimensional printing and three-dimensional (3D) printing?",
+      answer:
+          "Correct Answer: Traditional printers place flat marks on paper, while 3D printers deposit material layer by layer to construct a physical, three-dimensional object.",
+      explanation:
+          "Explanation: 2D printing transfers ink or toner onto planar surfaces. 3D printing is an additive manufacturing method that stacks successive cross-sectional layers of plastic, resin, or metal to produce functional physical items.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why is a solid-state drive (SSD) much less susceptible to physical damage from drops than a traditional hard disk drive (HDD)?",
+      answer:
+          "Correct Answer: An SSD contains zero moving mechanical parts or spinning platters, whereas an HDD relies on delicate motorized platters and floating heads that can crash upon impact.",
+      explanation:
+          "Explanation: Mechanical hard drives use magnetic platters spinning at thousands of revolutions per minute. A physical drop causes the read-and-write head to collide with the platter, destroying data sectors. SSDs use solid semiconductor memory chips that withstand physical shocks and vibrations without mechanical failure.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the structural difference and performance trade-off between Single-Level Cell (SLC) and Triple-Level Cell (TLC) flash memory.",
+      answer:
+          "Correct Answer: SLC stores one bit per cell, offering faster speeds, greater endurance, and higher cost, whereas TLC stores three bits per cell, offering higher data density and lower cost at the expense of slower speeds and shorter lifespans.",
+      explanation:
+          "Explanation: SLC memory only needs to differentiate between two electrical voltage states (0 or 1), making it exceptionally fast and durable for mission-critical tasks. TLC packs eight voltage states into each cell to hold three bits, increasing storage capacity per chip while reducing operating speeds and endurance cycles.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: How does an intelligent controller in a hybrid hard drive (SSHD) improve computer boot times while keeping drive costs low?",
+      answer:
+          "Correct Answer: It caches frequently accessed boot and operating system files onto a small, fast internal solid-state memory buffer, while storing large, rarely opened files on inexpensive spinning magnetic platters.",
+      explanation:
+          "Explanation: SSHDs bridge speed and affordability. The micro-controller detects operating system files loaded at startup and keeps them on the flash portion for high-speed retrieval, allowing the computer to boot fast without the expense of an all-flash drive.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L5/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Which physical keyboard shortcut can be used to summon the Charms bar instantly on a computer screen?",
+      answer:
+          "Correct Answer: The Windows logo key pressed together with the letter C (Windows + C).",
+      explanation:
+          "Explanation: Pressing the Windows key and C simultaneously triggers the operating system to display the vertical Charms overlay on the right-hand edge of the active screen.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the specific function of the Devices charm when working with external hardware.",
+      answer:
+          "Correct Answer: The Devices charm manages connections to external equipment such as secondary monitors, classroom projectors, printers, and synced mobile devices.",
+      explanation:
+          "Explanation: Instead of navigating complex device manager windows, the Devices charm allows users to stream their display, route prints, or sync external peripherals directly from the active window.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two essential system controls that can be adjusted immediately using the Settings charm.",
+      answer:
+          "Correct Answer: Connecting to a Wi-Fi wireless network and adjusting the speaker volume levels.",
+      explanation:
+          "Explanation: The Settings charm provides a unified dashboard featuring quick controls for Wi-Fi networks, audio volume, display brightness, system notifications, keyboard input language, and power options.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L6/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why does disk defragmentation improve the performance of a mechanical hard disk drive but provide no benefit to a solid-state drive?",
+      answer:
+          "Correct Answer: Mechanical hard disk drives have moving read-write heads that slow down when accessing scattered sectors, whereas solid-state drives access memory cells electronically with zero mechanical latency.",
+      explanation:
+          "Explanation: Mechanical drives suffer physical seek delays when jumping across scattered fragments on spinning platters. Defragmentation reassembles these files contiguously. SSDs have no moving parts and read all memory cells at uniform electronic speeds, meaning defragmentation offers no speed benefit and causes unnecessary cell wear.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Differentiate between lossless file compression and lossy file compression, citing an appropriate use for each.",
+      answer:
+          "Correct Answer: Lossless compression reduces file size while retaining every original byte for exact reconstruction (used for text documents), whereas lossy compression permanently removes redundant data for smaller file sizes (used for photos and audio).",
+      explanation:
+          "Explanation: Lossless compression is necessary for text, spreadsheets, and program files where missing data corrupts the file. Lossy compression discards subtle sensory details that human eyes or ears do not notice, making it ideal for web images and music files.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain how partitioning a hard disk protects student assignments if the computer operating system becomes corrupted.",
+      answer:
+          "Correct Answer: Partitioning isolates the operating system on one logical volume (such as Drive C) while keeping personal files on a separate volume (such as Drive D), allowing the system partition to be formatted without affecting user data.",
+      explanation:
+          "Explanation: Because the operating system treats each partition as an independent drive, system repairs, reinstalls, or drive formats executed on Drive C do not alter, overwrite, or delete personal files stored on Drive D.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain how Sticky Keys assist a computer user with limited hand mobility, and describe the specific problem this feature solves.",
+      answer:
+          "Correct Answer: Sticky Keys is an operating system accessibility feature that allows modifier keys such as Shift, Ctrl, Alt, or the Windows key to remain active after being pressed once. This solves the problem for individuals who can only type with one finger, a mouth stick, or one hand, eliminating the physical requirement of having to press and hold two or more keys at the same time to execute commands or capital letters.",
+      explanation:
+          "Explanation: Standard typing often requires multi-key combinations (e.g., Ctrl + C to copy). Users with physical limitations cannot execute these simultaneous key presses. Sticky Keys serialises the action so keys can be pressed sequentially.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe the difference between a screen reader and a screen magnifier, stating the primary group of users each tool is designed to support.",
+      answer:
+          "Correct Answer: A screen reader is software that converts text, icons, and menus into synthesized audio speech or tactile output on a refreshable Braille display, primarily supporting individuals who are totally blind. In contrast, a screen magnifier visually enlarges the display contents, text, and images on the monitor, primarily supporting individuals who have low vision or visual impairments but can still see enlarged graphics.",
+      explanation:
+          "Explanation: While both tools aid visual accessibility, screen readers replace visual output with auditory or tactile output, whereas screen magnifiers enhance existing visual output by increasing size and contrast.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A student with severe physical paralysis cannot move their hands or feet but has full cognitive and speech ability. Identify two distinct assistive technologies that could allow this student to produce a written report on a computer.",
+      answer:
+          "Correct Answer: Two assistive technologies that could be used are speech recognition (voice-to-text) software and a sip-and-puff switch system (or head-tracking system). Speech recognition allows the student to dictate their text and commands directly using their voice, while a sip-and-puff switch allows input via breath control through a small tube.",
+      explanation:
+          "Explanation: Both technologies completely bypass the requirement of using upper limbs to type or move a mouse, relying instead on speech or controlled respiration to input data into the computer system.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain two ways portable computing devices have improved commerce and trade for small business owners in local communities.",
+      answer:
+          "Correct Answer: First, portable computing devices allow business owners to accept secure digital payments such as mobile money directly on their phones, reducing the need to carry physical cash and lowering the risk of theft. Second, they enable traders to communicate instantly with suppliers and customers, track orders, and monitor stock levels in real time from anywhere without being confined to a physical shop.",
+      explanation:
+          "Explanation: Mobile devices provide instant electronic connectivity and cashless financial transactions, enabling entrepreneurs to operate flexibly and safely without expensive office infrastructure.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe how a smartwatch tracks a user's physical activity and state one practical health benefit it provides.",
+      answer:
+          "Correct Answer: A smartwatch tracks physical activity using built-in biometric sensors and motion detectors, such as optical sensors that measure heart rate and accelerometers that count steps and movement. A practical health benefit is that it encourages regular physical exercise by tracking daily walking targets and alerting the user if they have been sedentary for too long.",
+      explanation:
+          "Explanation: Smartwatches continuously collect physical movement and biological data through skin-contact sensors, translating physical effort into actionable health metrics displayed on screen.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two disadvantages of adopting a Bring Your Own Device (BYOD) approach in a school setting, and suggest how one of these issues can be addressed.",
+      answer:
+          "Correct Answer: Two disadvantages are that students can become easily distracted by non-educational apps or social media during lesson hours, and students from less affluent backgrounds may feel excluded if their families cannot afford modern devices. The distraction issue can be managed by setting clear classroom device rules and utilizing school software that restricts entertainment apps during study sessions.",
+      explanation:
+          "Explanation: BYOD environments introduce distractions and potential digital inequality. Strong digital usage policies and controlled classroom networks help keep students focused on academic tasks.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss2_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why information obtained from a collaborative wiki should be verified with authoritative sources before being cited in school research.",
+      answer:
+          "Correct Answer: Information on a collaborative wiki should be verified because wikis allow anyone with internet access to add, edit, or delete content. As a result, an article may contain factual inaccuracies, personal bias, or recent vandalism that has not yet been caught and corrected by platform moderators.",
+      explanation:
+          "Explanation: Wikis are open-editing platforms. Because they do not require formal peer review before changes go live, students must corroborate wiki information using established textbooks or official academic sources.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe how a Denial-of-Service (DoS) attack disrupts an online service, and identify who is affected.",
+      answer:
+          "Correct Answer: A Denial-of-Service attack disrupts an online service by flooding the targeted web server or network with an overwhelming volume of artificial connection requests. This saturates the server's processing capacity and bandwidth, causing the website to crash or become unresponsive to legitimate users attempting to access the service.",
+      explanation:
+          "Explanation: DoS attacks do not usually steal data directly; instead, they target service availability, preventing normal customers, students, or staff from utilizing online resources.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What is phishing, and what two practical steps can an internet user take to avoid falling victim to it?",
+      answer:
+          "Correct Answer: Phishing is a fraudulent cyberattack where attackers send deceptive messages or fake website links disguised as legitimate entities to trick users into revealing confidential information like passwords or banking details. Two practical precautions are checking the sender's actual web address before clicking links and never entering sensitive login details into unverified pop-up forms.",
+      explanation:
+          "Explanation: Phishing exploits human trust rather than system flaws. Careful verification of sender identities and using multi-factor authentication prevent unauthorized account access.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why a computer user should take micro-breaks before physical tiredness or neck pain becomes noticeable.",
+      answer:
+          "Correct Answer: Micro-breaks must be taken proactively to prevent muscle stiffness and eye strain before physical damage occurs. Waiting until pain appears means the body is already experiencing fatigue and strain.",
+      explanation:
+          "Explanation: Taking short pauses every twenty to thirty minutes allows blood circulation to refresh muscles and eye tissues continuously. If a user waits for pain to signal a break, physical strain and reduced productivity have already set in.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe two physical adjustments a student must make to maintain correct spinal and arm posture while seated at a computer desk.",
+      answer:
+          "Correct Answer: The student must sit with the lower back firmly supported by a chair reclined slightly between one hundred and one hundred and ten degrees, while forearms remain parallel to the desk with elbows at a ninety-degree angle.",
+      explanation:
+          "Explanation: Reclining slightly with lumbar support removes excessive compressive stress from spinal discs, while keeping elbows at a right angle prevents shoulder tension and keeps wrists in a safe, neutral position.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two health problems that arise when a student transcribes text from a sheet of paper lying flat on a desk, and explain how a document holder resolves them.",
+      answer:
+          "Correct Answer: Placing paper flat causes neck strain from repeated downward twisting and eye fatigue from constant refocusing. A document holder props the paper upright beside the monitor, keeping the neck straight and the viewing distance uniform.",
+      explanation:
+          "Explanation: Positioning reference documents at the same height and distance as the computer screen eliminates awkward cervical twisting and allows the eyes to transition between text and screen without straining internal focusing muscles.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain how the arm's-length headphone test is conducted and state why it protects a user's hearing.",
+      answer:
+          "Correct Answer: Hold the headphones out in front of you at arm's length while playing audio. If the music is audible from that distance, the volume is dangerously excessive and must be reduced below sixty percent to avoid permanent inner ear damage.",
+      explanation:
+          "Explanation: Acoustic energy decreases rapidly over distance. If sound waves leaking from earpieces remain audible at an arm's length of sixty centimetres, the sound pressure entering the ear canal exceeds safe thresholds of eighty-five decibels, risking irreversible sensory hair cell destruction.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Contrast the functional benefits of using anti-glare spectacles against using an anti-glare screen filter.",
+      answer:
+          "Correct Answer: An anti-glare screen filter attaches directly to a specific monitor to diffuse reflections and prevent physical scratches. Anti-glare spectacles are worn by the user, providing personal glare and blue-light protection across multiple different screens and mobile devices.",
+      explanation:
+          "Explanation: While a display filter provides dedicated protection and physical scratch resistance for a single stationary monitor, anti-glare spectacles provide portable visual protection that travels with the student across desktop computers, tablets, and phones.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State two hazards created by plugging block multi-plug adaptors into wall sockets, and explain how a trailing extension lead eliminates these dangers.",
+      answer:
+          "Correct Answer: Block adaptors exert physical leverage that loosens socket pins, causing resistance heating, and lack internal fuses to prevent overloading. A trailing extension lead rests flat on the floor, removing socket strain, and incorporates internal fuse protection.",
+      explanation:
+          "Explanation: Stacking heavy multi-plug adapters forces the socket faceplate downward, creating poor electrical contacts that generate intense heat and spark fires. Trailing units rest safely on the floor and spread the load across fused sockets.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Describe the step-by-step process of inserting a new table with 4 columns and 5 rows into a Microsoft Word document using the Table dialogue box.",
+      answer:
+          "Correct Answer: Click on the Insert tab on the ribbon, select the Table icon, and click on \"Insert Table...\". In the dialogue box that appears, enter 4 for the number of columns and 5 for the number of rows, then click the OK button.",
+      explanation:
+          "Explanation: Accessing the dedicated dialogue box under the Insert tab provides numeric entry fields to specify the exact column and row dimensions needed before drawing the table on the page.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain how a student can adjust the width of a specific column to an exact measurement of 4.5 centimetres using the Table Properties menu.",
+      answer:
+          "Correct Answer: Click inside the column to be resized and open the Layout tab on the ribbon. Select Properties in the Table group, click on the Column tab in the window, tick the Preferred width box, enter 4.5 cm, and click OK.",
+      explanation:
+          "Explanation: While manual dragging can adjust column width roughly, opening Table Properties under the Layout tab allows precise numeric dimensions to be applied.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the difference between linking text to an external web page and linking text to an internal document bookmark.",
+      answer:
+          "Correct Answer: Linking to an external web page requires entering an external website URL in the Address box of the Hyperlink window, whereas linking to a bookmark points to an internal named marker within the same document using the \"Place in This Document\" option.",
+      explanation:
+          "Explanation: External links direct the reader outside the word processor to an internet resource, while bookmarks support internal, non-linear navigation between different headings in the current file.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Describe the procedure for combining three adjacent cells in the top row of a Microsoft Word table into a single title cell.",
+      answer:
+          "Correct Answer: Drag the mouse pointer across the three adjacent cells to highlight them, click on the Layout tab under Table Tools on the ribbon, and select the Merge Cells command in the Merge group.",
+      explanation:
+          "Explanation: Highlighting adjacent cells and activating the Merge Cells tool removes the dividing boundaries between them, producing one unified cell across the columns.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain how cell referencing operates inside a Microsoft Word table and how cell C2 is determined.",
+      answer:
+          "Correct Answer: Columns are lettered alphabetically from left to right starting with A, and rows are numbered sequentially from top to bottom starting with 1. Cell C2 represents the intersection of the third column, which is column C, and the second horizontal row, which is row 2.",
+      explanation:
+          "Explanation: Word uses the standard spreadsheet grid coordinate model where alphabetical letters signify vertical columns and numbers signify horizontal rows.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the steps to calculate the total of an entire column of numbers inside a table using an automated formula.",
+      answer:
+          "Correct Answer: Place the insertion cursor inside the empty cell at the bottom of the column, click the Layout tab, choose Formula in the Data group, ensure the expression =SUM(ABOVE) is displayed in the formula box, and click OK.",
+      explanation:
+          "Explanation: The Formula tool reads the positional keyword ABOVE and automatically calculates the mathematical sum of all numeric values situated directly above that cell.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss1_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the key functional difference between inserting a standard page break and inserting a section break in a multi-page document.",
+      answer:
+          "Correct Answer: A standard page break simply forces following text onto the top of the next page while keeping all page layout rules identical, whereas a section break creates an independent formatting boundary that allows different page orientations, distinct headers, or unique page numbering styles to be applied within the same document.",
+      explanation:
+          "Explanation: Standard page breaks only handle text flow, while section breaks divide the file into distinct administrative zones with independent page setup properties.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe the step-by-step process of inserting automated page numbers at the bottom center of every page in Microsoft Word.",
+      answer:
+          "Correct Answer: Click on the Insert tab on the ribbon, select Page Number in the Header and Footer group, hover the pointer over Bottom of Page, and choose the style that positions the number in the center alignment.",
+      explanation:
+          "Explanation: Using the dedicated Page Number tool under the Insert tab ensures an automated field code is placed that calculates sequential page numbering across all pages automatically.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the steps required to change the orientation of a single page containing a wide table to landscape while keeping surrounding pages in portrait.",
+      answer:
+          "Correct Answer: Place the cursor immediately before the table, click the Layout tab, select Breaks, and insert a Next Page Section Break; then place the cursor after the table and insert another Next Page Section Break; finally, click inside the table section, open Layout, click Orientation, and select Landscape.",
+      explanation:
+          "Explanation: Placing section breaks before and after the table isolates that page into its own section, allowing its orientation to change to landscape without affecting the portrait layout of preceding and succeeding pages.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State the specific tab on the ribbon and the group name you must open to insert a picture from your computer into a presentation slide.",
+      answer: "Correct Answer: The Insert tab and the Images group.",
+      explanation:
+          "Explanation: All media insertion tools, including Pictures, Screenshots, and Photo Albums, are gathered under the Images group within the Insert tab.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain why you should always drag a corner sizing handle rather than a side handle when resizing a photograph on a slide.",
+      answer:
+          "Correct Answer: Dragging a corner handle preserves the picture's aspect ratio, preventing the image from becoming distorted, stretched, or squashed.",
+      explanation:
+          "Explanation: Corner handles adjust both height and width at the same proportion, while side handles stretch or compress only one dimension.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how the Screen Clipping feature differs from inserting a standard whole-window screenshot.",
+      answer:
+          "Correct Answer: A standard screenshot captures an entire open window, whereas Screen Clipping allows the user to select and capture a specific cropped portion of the screen.",
+      explanation:
+          "Explanation: Screen Clipping freezes the desktop and provides a crosshair tool so you can draw a box around only the exact area you want to paste onto the slide.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Identify two benefits of using the Compress Pictures tool on slides that contain several digital photographs.",
+      answer:
+          "Correct Answer: It reduces the overall file size of the presentation and permanently removes discarded cropped data.",
+      explanation:
+          "Explanation: Compression lowers image resolution to a suitable display standard and deletes hidden cropped pixels, making the presentation easier to save and share.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State the ribbon tab and group name you must open to insert geometric shapes or block arrows onto a presentation slide.",
+      answer: "Correct Answer: The Insert tab and the Illustrations group.",
+      explanation:
+          "Explanation: All illustration tools, including Shapes, SmartArt, and Charts, are organized under the Illustrations group within the Insert tab.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the quickest way to replace an existing shape on a slide with a different shape without deleting the text typed inside it.",
+      answer:
+          "Correct Answer: Select the shape, click Edit Shape on the Format tab, choose Change Shape, and click the new shape icon.",
+      explanation:
+          "Explanation: Using the Change Shape command updates the shape's geometry immediately while preserving its dimensions, formatting, and typed text.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a student can select four separate shapes across a slide at the same time.",
+      answer:
+          "Correct Answer: Press and hold down the Shift key (or Ctrl key) while clicking on each of the four shapes one after another.",
+      explanation:
+          "Explanation: Holding down the Shift or Ctrl modifier key allows the user to add multiple objects to a single active selection.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: State the primary advantage of grouping multiple diagram shapes into a single unit.",
+      answer:
+          "Correct Answer: Grouping allows all shapes to be moved, resized, or formatted together as one single object without disrupting their alignment.",
+      explanation:
+          "Explanation: When objects are grouped, they share a single bounding box, preventing individual components from accidentally shifting out of position.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss2_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State the quickest method for adding text inside a newly drawn circle on a presentation slide.",
+      answer:
+          "Correct Answer: Click directly on the circle to select it and begin typing on the keyboard.",
+      explanation:
+          "Explanation: Presentation shapes act as native text containers; clicking any shape allows direct typing without inserting extra objects.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the difference between the Align Left command and the Distribute Horizontally command.",
+      answer:
+          "Correct Answer: Align Left lines up the left borders of selected objects along a vertical line, whereas Distribute Horizontally creates equal spaces between objects across a horizontal row.",
+      explanation:
+          "Explanation: Alignment adjusts position along an axis, while distribution adjusts the empty spacing between three or more shapes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a student can position a large coloured rectangle behind several text boxes that are currently hidden underneath it.",
+      answer:
+          "Correct Answer: Select the large rectangle, go to the Arrange group on the Format tab, and click Send to Back.",
+      explanation:
+          "Explanation: The Send to Back command moves the active object to the very bottom layer of the slide stack, placing all other items on top of it.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Why must a user select at least three shapes before using the Distribute Vertically tool?",
+      answer:
+          "Correct Answer: The software needs two outer boundary shapes to measure the total distance before evening out the spaces between the objects in between.",
+      explanation:
+          "Explanation: Distributing requires at least three items so that two remain fixed at the ends while the interior shapes are shifted to make the gaps equal.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the main difference between a standard word processor and desktop publishing software.",
+      answer:
+          "Correct Answer: A word processor is primarily designed for drafting, editing, and formatting continuous text documents, whereas desktop publishing software focuses on precise page layout, graphic composition, and visual element placement.",
+      explanation:
+          "Explanation: While word processors can hold basic images, DTP programs treat all elements as movable frames, giving full control over typography, borders, and complex multi-column page arrangements.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Identify two ways desktop publishing software changed how publications were produced before computers were used.",
+      answer:
+          "Correct Answer: It eliminated manual cutting and pasting of text strips onto layout boards, and it allowed a single designer to handle the entire production process on one computer rather than requiring a large team of manual typesetters and artists.",
+      explanation:
+          "Explanation: In the past, layout errors required physical re-typing and manual re-gluing. DTP software allows instant digital corrections, saving substantial time, labour, and financial expense.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: List two examples of commercial desktop publishing software packages commonly used in the computing industry.",
+      answer: "Correct Answer: Microsoft Publisher and Adobe InDesign.",
+      explanation:
+          "Explanation: Both are commercial software packages built specifically for designing publications, with Publisher serving general office and school needs and InDesign serving high-end professional printing and publishing.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Why would a local business owner prefer to use a pre-designed DTP template to create a promotional flyer?",
+      answer:
+          "Correct Answer: A pre-designed template provides a ready-made structure with balanced fonts and colour schemes, allowing the user to create professional-looking publications quickly without advanced design training.",
+      explanation:
+          "Explanation: Templates save valuable business time because the owner only needs to replace placeholder text and images with their own local details and prices.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: State the main advantage of starting a publication with a pre-designed template instead of a blank publication.",
+      answer:
+          "Correct Answer: A pre-designed template provides a ready-made structure with coordinated fonts, colour schemes, and margins, saving design time and effort.",
+      explanation:
+          "Explanation: Starting from blank requires designing all borders, frames, and colour palettes manually, whereas a template only requires replacing placeholder content.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Distinguish between Portrait orientation and Landscape orientation.",
+      answer:
+          "Correct Answer: In Portrait orientation, the document page is positioned vertically taller than it is wide, while in Landscape orientation, the page is positioned horizontally wider than it is tall.",
+      explanation:
+          "Explanation: Portrait is commonly used for letters and text books, whereas Landscape is preferred for wide tables, landscape posters, and certificates.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Why should a student avoid naming a saved publication \"Publication1\" or \"Doc\"?",
+      answer:
+          "Correct Answer: Default names make it difficult to locate, identify, or organise files quickly among other documents stored on the computer.",
+      explanation:
+          "Explanation: Using descriptive names containing the creator's name, project title, and date ensures smooth file management and prevents accidental overwriting.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: What is the function of the \"Save As\" command compared to the \"Save\" command when working on a publication?",
+      answer:
+          "Correct Answer: \"Save As\" allows the user to specify a new file name and destination folder for an initial or duplicate file, while \"Save\" updates existing changes to the current file path.",
+      explanation:
+          "Explanation: When opening a new document, \"Save As\" must be used first to establish where the document will live and what it will be called.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why the Draw Text Box command on the Home tab is essential when creating a publication in Microsoft Publisher.",
+      answer:
+          "Correct Answer: The Draw Text Box command is essential because Microsoft Publisher does not allow direct typing onto the canvas; all text must be contained inside movable frames.",
+      explanation:
+          "Explanation: Unlike standard word processors where typing starts automatically, DTP requires frames so text blocks can be positioned, layered, and moved independently.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Identify two commands found under the Page Design tab that affect the overall appearance of a document.",
+      answer:
+          "Correct Answer: Orientation (in the Page Setup group) and Schemes (in the Schemes group).",
+      explanation:
+          "Explanation: Orientation alters the horizontal or vertical direction of the canvas, while Schemes changes colour palettes and font groupings across all pages.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe the primary function of the Mail Merge Wizard located on the Mailings tab.",
+      answer:
+          "Correct Answer: The Mail Merge Wizard guides the user through linking a publication template to a recipient database to automatically produce personalised copies.",
+      explanation:
+          "Explanation: It saves significant time by merging external records into preset merge fields instead of typing individual copies manually.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Distinguish between the purpose of the Review tab and the purpose of the View tab in Microsoft Publisher.",
+      answer:
+          "Correct Answer: The Review tab is used for proofreading, spelling checks, and vocabulary, whereas the View tab controls workspace display options, zoom levels, and layout guides.",
+      explanation:
+          "Explanation: The Review tab modifies content accuracy, while the View tab only changes how the workspace appears on screen without altering the final printout.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss3Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the practical difference between changing the orientation of a page and rotating an object on that page.",
+      answer:
+          "Correct Answer: Changing page orientation shifts the printable direction of the entire sheet between Portrait and Landscape, whereas rotating an object turns a single picture, shape, or text box around without affecting the underlying page layout.",
+      explanation:
+          "Explanation: Orientation modifies the width and height layout of the whole canvas, while rotation applies only to a selected item on the screen.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Why are margins represented by blue dotted boundary lines on the Microsoft Publisher canvas?",
+      answer:
+          "Correct Answer: The blue dotted lines show the safe printable workspace, alerting the user to keep all important text and graphics inside the boundary so they are not cut off during printing.",
+      explanation:
+          "Explanation: Printers require mechanical space along the edge of the paper; placing objects beyond the blue margin guide risks clipped text or missing graphics.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Identify two situations where a student would choose Landscape orientation over Portrait orientation.",
+      answer:
+          "Correct Answer: When designing a wide multi-column sports timetable or when creating an official award certificate.",
+      explanation:
+          "Explanation: Both items require greater horizontal width to accommodate wide content rows or balanced horizontal borders without compressing items vertically.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Describe what a gutter margin is and explain why it is essential when designing multi-page bound booklets.",
+      answer:
+          "Correct Answer: A gutter margin is an extra blank space added to the inside binding edge of a publication to prevent text and images from being swallowed or hidden when pages are stapled, sewn, or glued.",
+      explanation:
+          "Explanation: Without a gutter margin, content near the inner spine becomes obscured by the curve of the paper and the binding seam.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss3Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L5/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the practical benefit of using a Picture Placeholder when designing a publication page.",
+      answer:
+          "Correct Answer: A Picture Placeholder reserves an exact space and dimension on the canvas for a graphic before the final picture is available, allowing text formatting and page design to proceed without disruption.",
+      explanation:
+          "Explanation: Placeholders maintain layout structure and geometry, letting the user simply click and insert the real picture file later without rearranging surrounding content.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe what happens when an author crops a picture in Microsoft Publisher.",
+      answer:
+          "Correct Answer: Cropping trims away unwanted outer edges or background areas of an image while preserving the scale and detail of the central subject.",
+      explanation:
+          "Explanation: Unlike resizing, which stretches or shrinks the entire image, cropping removes peripheral distractions to focus on the essential visual element.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Distinguish between the \"Square\" and \"Tight\" text wrapping options.",
+      answer:
+          "Correct Answer: \"Square\" text wrapping forces surrounding sentences to border the rectangular outer boundary of the picture frame, whereas \"Tight\" text wrapping allows sentences to flow closely along the irregular outer contour of the graphic subject itself.",
+      explanation:
+          "Explanation: Square creates a straight rectangular margin around the graphic, while Tight follows organic curves and silhouettes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: How does the \"Send Backward\" command resolve issues with overlapping objects on a page?",
+      answer:
+          "Correct Answer: The \"Send Backward\" command moves a selected object one layer down in the stack, allowing text or pictures positioned behind it to become visible in front.",
+      explanation:
+          "Explanation: Publisher handles multiple overlapping items through layering; sending an obscuring object backward reorders the stack so foreground content is not hidden.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss3Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L6/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why an author cannot immediately start typing text onto a blank Microsoft Publisher canvas without drawing a text box first.",
+      answer:
+          "Correct Answer: Publisher uses a frame-based design model where all textual content must be contained within movable boundaries to allow independent positioning, rotation, and layering.",
+      explanation:
+          "Explanation: Unlike word processors that treat the page as continuous lines, DTP software requires frames so text blocks can be manipulated without altering other page elements.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Distinguish between a serif font and a sans-serif font, providing one typical design use for each.",
+      answer:
+          "Correct Answer: Serif fonts have decorative strokes or feet at the ends of character lines and suit long body paragraphs, while sans-serif fonts lack decorative strokes and suit bold titles and signage.",
+      explanation:
+          "Explanation: Typefaces like Times New Roman provide horizontal reading momentum for articles, whereas clean typefaces like Arial offer maximum visibility on flyers and posters.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: What does a red indicator handle with an ellipsis signify at the corner of a text box?",
+      answer:
+          "Correct Answer: It indicates text overflow, meaning there is additional text stored in the frame that cannot fit within its current dimensions.",
+      explanation:
+          "Explanation: The software preserves the excess text in memory rather than deleting it, alerting the user to resize the box or link it to another frame.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: Describe the practical steps required to link an overflowing text box to an empty text box on another page.",
+      answer:
+          "Correct Answer: Draw a new text box on the target page, select the overflowing text box, click Create Link on the Text Box Tools Format tab, and click the pitcher cursor inside the new text box.",
+      explanation:
+          "Explanation: This connects the two containers dynamically so text flows seamlessly between them as additions or deletions occur.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss3Lesson7PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L7/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why visual hierarchy is essential when laying out an event promotional flyer.",
+      answer:
+          "Correct Answer: Visual hierarchy ensures that key details—such as the headline, date, and venue—stand out prominently so the reader can grasp the core announcement within seconds.",
+      explanation:
+          "Explanation: Without visual hierarchy, all text elements compete equally for attention, making the flyer look cluttered and causing viewers to overlook essential details.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Identify three essential contact details that must appear on a standard corporate business card.",
+      answer:
+          "Correct Answer: The individual's full name and job title, a telephone contact number, and an official email address or office location.",
+      explanation:
+          "Explanation: A business card serves as a portable networking tool, requiring clear and accurate channels for prospective clients to reach the cardholder.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe what a student should check during a test print before producing hundreds of copies of a folded invitation card.",
+      answer:
+          "Correct Answer: The student should check page alignment, ensure margins are not cut off, verify fold lines, and confirm that text on inside panels is correctly oriented.",
+      explanation:
+          "Explanation: Test printing catches formatting errors and physical alignment flaws early, preventing costly waste of paper and printer ink.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: State two advantages of presenting a school publication via cloud sharing rather than physical printing alone.",
+      answer:
+          "Correct Answer: Cloud sharing eliminates physical printing costs and allows audiences anywhere in the world to access the publication instantly on digital devices.",
+      explanation:
+          "Explanation: Storing documents on cloud platforms like Google Drive or OneDrive provides instant global access without consuming paper or requiring postal delivery.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss4_L1/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the difference between typing the formula =A1+A2+A3+A4 and typing the function =SUM(A1:A4) in a spreadsheet.",
+      answer:
+          "Correct Answer: The formula =A1+A2+A3+A4 is a manual, user-created calculation requiring each cell address and arithmetic operator to be typed individually. The function =SUM(A1:A4) is a built-in pre-programmed calculation that uses a command name and a cell range to add all the values automatically.",
+      explanation:
+          "Explanation: While both give the exact same numerical result, a function is faster, easier to maintain, and less prone to typing errors when working with large blocks of contiguous cells.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A teacher enters test marks for ten pupils in cells D2 to D11. Eight pupils have numerical scores, one cell contains the text \"ILL\", and one cell is completely blank. What result will =COUNT(D2:D11) give, and what result will =COUNTA(D2:D11) give?",
+      answer:
+          "Correct Answer: =COUNT(D2:D11) will return 8, while =COUNTA(D2:D11) will return 9.",
+      explanation:
+          "Explanation: COUNT tallies only cells containing numerical values, ignoring text and blanks (8 marks). COUNTA tallies all non-empty cells, meaning it counts both the 8 numerical scores and the text label \"ILL\", ignoring only the one blank cell.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Write down the exact function syntax to find the lowest sales figure recorded in a school canteen ledger between cell E5 and cell E25.",
+      answer: "Correct Answer: =MIN(E5:E25)",
+      explanation:
+          "Explanation: Every spreadsheet calculation must start with an equals sign. MIN is the built-in function name for minimum value, and the cell range E5:E25 is enclosed inside round brackets.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: What is the difference between contiguous and non-contiguous cell ranges in a spreadsheet, and how are their formulas written differently?",
+      answer:
+          "Correct Answer: Contiguous cells are adjacent to each other in an unbroken block and are written using a colon between the start and end cells (for example, B2:B10). Non-contiguous cells are separated across the sheet and are written with commas separating each individual cell or range (for example, B2, D5, F8).",
+      explanation:
+          "Explanation: The colon indicates a continuous range from start to finish, whereas the comma functions as a union operator to combine isolated cells into one calculation.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss4_L2/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A trader buys goods worth 800 Cedis recorded in cell B3. A transport fee of 50 Cedis in cell B4 is added, and then an overall supplier discount of 10% stored in cell C1 (0.10) is deducted from the total. Write a single complex formula to calculate the final amount the trader pays.",
+      answer: "Correct Answer: =(B3+B4)*(1-C1) or =(B3+B4)-((B3+B4)*C1)",
+      explanation:
+          "Explanation: The goods cost and transport fee must be summed first inside brackets (B3+B4). To subtract ten percent, the total is multiplied by (1-C1) (representing ninety percent), or the calculated discount amount is subtracted from that initial sum. Without brackets, the multiplication operator would evaluate before the addition.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain why the formula =A1+B1/2 produces a completely different result from =(A1+B1)/2, and describe which one correctly finds the average of two numbers.",
+      answer:
+          "Correct Answer: =A1+B1/2 divides only cell B1 by 2 first according to operator precedence and adds A1 to that quotient. =(A1+B1)/2 forces the spreadsheet to add A1 and B1 together first inside the brackets before dividing the sum by 2. The formula =(A1+B1)/2 correctly computes the average.",
+      explanation:
+          "Explanation: In spreadsheet arithmetic, division has higher priority than addition. Brackets are necessary to override this default order and ensure the sum of both numbers is obtained before division takes place.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A sales executive sells 60 desktop computers at 4,000 Cedis each. The sales quantity is in cell C4, the unit price is in D4, and the executive's commission rate of 3% is stored in cell F1 (0.03). Write the complex formula to determine the commission payable.",
+      answer: "Correct Answer: =(C4*D4)*F1",
+      explanation:
+          "Explanation: The total sales value is determined by multiplying quantity by price (C4*D4). That total is then multiplied by the commission rate in F1 to produce the final commission payout.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: A farmer takes an agricultural loan of 12,000 Cedis (cell B2) for 3 years (cell B3) at an annual interest rate of 8% (stored as 8 in cell B4). Write the spreadsheet formula to calculate the total simple interest due.",
+      answer: "Correct Answer: =(B2*B4*B3)/100",
+      explanation:
+          "Explanation: Simple interest is calculated as (Principal × Rate × Time) / 100. Because the interest rate is stored as a whole number (8) rather than a percentage or decimal, the product of the three cells inside brackets must be divided by 100.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S2Ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss4_L3/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A formula in cell C2 is written as =A2*B2. If this cell is replicated down to cell C5, what will the formula look like in cell C5, and what type of cell referencing made this possible?",
+      answer:
+          "Correct Answer: The formula in cell C5 will be =A5*B5, and this is made possible by relative cell referencing.",
+      explanation:
+          "Explanation: Relative cell references adjust automatically based on their position. As the formula moves down three rows from row 2 to row 5, the row numbers in both A2 and B2 increase by three, becoming A5 and B5.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A clerk enters the formula =C4*\$G\$1 into cell D4. Describe what happens to both cell references when the formula is copied down to cell D10.",
+      answer:
+          "Correct Answer: The relative reference C4 will change dynamically to C10, while the absolute reference \$G\$1 will remain completely unchanged as \$G\$1.",
+      explanation:
+          "Explanation: The dollar signs in \$G\$1 lock both the column and row coordinates, keeping it fixed on cell G1 during replication. The unlocked relative reference C4 changes automatically as it moves down the rows.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: While calculating terminal marks, Ama sees the error #NAME? displayed in cell E2. What is the most probable cause of this error, and how can she fix it?",
+      answer:
+          "Correct Answer: The function name in the formula was misspelt (for example, typing =AVRAGE(A2:D2) instead of =AVERAGE(A2:D2)) or quotation marks were omitted around a text string. She can fix it by opening the formula bar and correcting the spelling of the function name.",
+      explanation:
+          "Explanation: The #NAME? error specifically indicates that the spreadsheet cannot identify or parse the text command entered into the formula.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: In a loan repayment schedule, explain how the opening balance for month 2 (cell C13) is linked to month 1 (cell G12), and why this linking is essential for accurate calculations.",
+      answer:
+          "Correct Answer: Cell C13 is linked by entering the formula =G12. This linking is essential because the opening balance of any period must equal the remaining closing balance after principal deductions from the previous period.",
+      explanation:
+          "Explanation: Referencing the previous closing balance ensures that the loan balance decreases progressively each month as payments are made, without needing to re-enter balances manually.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [

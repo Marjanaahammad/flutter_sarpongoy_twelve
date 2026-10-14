@@ -308,6 +308,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Computer Accessibility and Assistive Technologies",
                 "Portable Computing Devices in Everyday Life",
+                "Issues Associated with Online Services"
               ],
             },
             {
@@ -405,7 +406,6 @@ class SidebarController extends GetxController {
                 "Writing and Evaluating Algorithms and Expressions",
                 "Creating Variables and Executing Basic Programs in Scratch",
                 "Practical Applications of Comparison and Logical Blocks in Scratch",
-                ""
               ],
             },
             {
@@ -434,6 +434,7 @@ class SidebarController extends GetxController {
                 "Strong and Weak Artificial Intelligence",
                 "B8.4.4.1.3 - Hologram Science and 3D Mixed Reality Intelligence",
                 "B8.4.4.1.4 - Comparing Limitations and Capabilities of Human, Animal, and Machine Intelligence",
+                "B8.4.4.1.5 - Review and Synthesis of Artificial Intelligence Concepts"
               ],
             },
           ],
@@ -4199,6 +4200,303 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     computingJhs1S4Ss4Lesson1IndependentQuizData;
                 quizData = computingJhs1S4Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S1Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss1Lesson1IndependentQuizData;
+                quizData = computingJhs2S1Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S1Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss1Lesson2IndependentQuizData;
+                quizData = computingJhs2S1Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S1Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss1Lesson3IndependentQuizData;
+                quizData = computingJhs2S1Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                practiceData = computingJhs2S1Ss1Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss1Lesson4IndependentQuizData;
+                quizData = computingJhs2S1Ss1Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 4) {
+                practiceData = computingJhs2S1Ss1Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss1Lesson5IndependentQuizData;
+                quizData = computingJhs2S1Ss1Lesson5QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 5) {
+                practiceData = computingJhs2S1Ss1Lesson6PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss1Lesson6IndependentQuizData;
+                quizData = computingJhs2S1Ss1Lesson6QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S1Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs2S1Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S1Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss2Lesson2IndependentQuizData;
+                quizData = computingJhs2S1Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S1Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss2Lesson3IndependentQuizData;
+                quizData = computingJhs2S1Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S1Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss3Lesson1IndependentQuizData;
+                quizData = computingJhs2S1Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S1Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S1Ss3Lesson2IndependentQuizData;
+                quizData = computingJhs2S1Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S2Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss1Lesson1IndependentQuizData;
+                quizData = computingJhs2S2Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S2Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss1Lesson2IndependentQuizData;
+                quizData = computingJhs2S2Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S2Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss1Lesson3IndependentQuizData;
+                quizData = computingJhs2S2Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S2Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs2S2Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S2Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss2Lesson2IndependentQuizData;
+                quizData = computingJhs2S2Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S2Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss2Lesson3IndependentQuizData;
+                quizData = computingJhs2S2Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S2Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss3Lesson1IndependentQuizData;
+                quizData = computingJhs2S2Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S2Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss3Lesson2IndependentQuizData;
+                quizData = computingJhs2S2Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S2Ss3Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss3Lesson3IndependentQuizData;
+                quizData = computingJhs2S2Ss3Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 3) {
+                practiceData = computingJhs2S2Ss3Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss3Lesson4IndependentQuizData;
+                quizData = computingJhs2S2Ss3Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 4) {
+                practiceData = computingJhs2S2Ss3Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss3Lesson5IndependentQuizData;
+                quizData = computingJhs2S2Ss3Lesson5QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 5) {
+                practiceData = computingJhs2S2Ss3Lesson6PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss3Lesson6IndependentQuizData;
+                quizData = computingJhs2S2Ss3Lesson6QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 6) {
+                practiceData = computingJhs2S2Ss3Lesson7PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss3Lesson7IndependentQuizData;
+                quizData = computingJhs2S2Ss3Lesson7QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S2Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss4Lesson1IndependentQuizData;
+                quizData = computingJhs2S2Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S2Ss4Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss4Lesson2IndependentQuizData;
+                quizData = computingJhs2S2Ss4Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S2Ss4Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S2Ss4Lesson3IndependentQuizData;
+                quizData = computingJhs2S2Ss4Lesson3QuizData;
               }
 
               // if (grade == "JHS 2" &&

@@ -654,6 +654,18 @@ class _QuizScreenState extends State<QuizScreen> {
     return result;
   }
 
+  bool _isPlainUnderscoreIdentifier(String text) {
+    final cleanText = text.replaceFirst(RegExp(r'[,;:!?)]*$'), '');
+    final isUnderscoreIdentifier = RegExp(
+      r'^[a-zA-Z0-9]+(?:_[a-zA-Z0-9]+)+$',
+    ).hasMatch(cleanText);
+    final isSimpleMathSubscript = RegExp(
+      r'^[a-zA-Z]_(?:[a-zA-Z0-9]|[0-9]+)$',
+    ).hasMatch(cleanText);
+
+    return isUnderscoreIdentifier && !isSimpleMathSubscript;
+  }
+
   Widget _buildFormattedText(String text, {required TextStyle style}) {
     final List<InlineSpan> spans = [];
 
@@ -692,12 +704,14 @@ class _QuizScreenState extends State<QuizScreen> {
           ),
         ));
       } else {
-        bool isMath = isEnvironment ||
-            part.contains('^') ||
-            part.contains('\\') ||
-            part.contains(RegExp(r'_[0-9a-zA-Z{]')) ||
-            part.contains('times') ||
-            part.contains('div');
+        final isPlainUnderscoreIdentifier = _isPlainUnderscoreIdentifier(part);
+        bool isMath = !isPlainUnderscoreIdentifier &&
+            (isEnvironment ||
+                part.contains('^') ||
+                part.contains('\\') ||
+                part.contains(RegExp(r'_[0-9a-zA-Z{]')) ||
+                part.contains('times') ||
+                part.contains('div'));
 
         if (isMath) {
           if (isEnvironment) {
