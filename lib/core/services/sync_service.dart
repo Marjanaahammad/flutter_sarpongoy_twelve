@@ -50,8 +50,8 @@ class SyncService extends GetxService {
 
       if (result.isLeft()) {
         result.fold(
-              (failure) => DPrint.log('Pull sync failed: ${failure.message}'),
-              (_) {},
+          (failure) => DPrint.log('Pull sync failed: ${failure.message}'),
+          (_) {},
         );
         return 0;
       }
@@ -59,29 +59,33 @@ class SyncService extends GetxService {
       // Extract the activity list from the success result
       List<ActivityProgress> activities = [];
       result.fold(
-            (_) {},
-            (success) => activities = success.data,
+        (_) {},
+        (success) => activities = success.data,
       );
 
       DPrint.log('Pulled ${activities.length} records from backend');
 
       // Save all pulled records to local DB (marked as synced)
       for (final activity in activities) {
-        await _progressRepo.saveProgress(activity.copyWith(syncStatus: 1));
+        await _progressRepo.saveProgress(
+          activity.copyWith(syncStatus: 1),
+          fromBackend: true,
+        );
       }
 
       if (activities.isNotEmpty) {
         // Update last_synced_date for next launch
         await db.putSetting(
           KeyConstants.lastSyncedDate,
-          DateTime.now().toIso8601String(),
+          DateTime.now().toUtc().toIso8601String(),
         );
         DPrint.log('Pull sync complete. last_synced_date updated.');
       } else if (since != null) {
         // We had a since-date but got 0 records — the stored date may be stale/invalid.
         // Clear it so the next launch re-fetches everything from scratch.
         await db.deleteSetting(KeyConstants.lastSyncedDate);
-        DPrint.log('No records returned for since=$since — cleared last_synced_date for full re-fetch next launch.');
+        DPrint.log(
+            'No records returned for since=$since — cleared last_synced_date for full re-fetch next launch.');
       } else {
         DPrint.log('Pull sync complete. No new records from backend.');
       }
@@ -143,11 +147,12 @@ class SyncService extends GetxService {
     Map<String, dynamic> hoursData,
   ) {
     return {
-      'timestamp': DateTime.now().toIso8601String(),
+      'timestamp': DateTime.now().toUtc().toIso8601String(),
       'grade_name': Get.find<SidebarController>().selectedGrade.value,
-      'activityMinutes':
-          hoursData['activityMinutes'], // total study minutes across all subjects
-      'subject_minutes': hoursData['subject_minutes'], // per-subject minutes breakdown
+      'activityMinutes': hoursData[
+          'activityMinutes'], // total study minutes across all subjects
+      'subject_minutes':
+          hoursData['subject_minutes'], // per-subject minutes breakdown
       'progress_data': progress.map((p) => p.toMap()).toList(),
     };
   }

@@ -5350,6 +5350,737 @@ final IndependentPracticeModel computingJhs2S2Ss4Lesson3IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs2S3Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which layer of the OSI model interacts directly with end-user software applications like web browsers?",
+      options: [
+        "Transport Layer",
+        "Application Layer",
+        "Data Link Layer",
+        "Presentation Layer",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Application Layer",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which network hardware device operates primarily at the Network Layer to determine data paths?",
+      options: [
+        "Network router",
+        "Wireless mouse",
+        "Computer screen",
+        "Power connector",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Network router",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the primary role of the Presentation Layer in network communication?",
+      options: [
+        "It generates electrical signals for copper cables.",
+        "It manages physical port connections on switches.",
+        "It routes packets between different city networks.",
+        "It handles data formatting, compression, and encryption.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It handles data formatting, compression, and encryption.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. At which layer of the OSI model are network switches primarily categorized?",
+      options: [
+        "Session Layer",
+        "Physical Layer",
+        "Data Link Layer",
+        "Application Layer",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Data Link Layer",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the maximum value that any single number group can have in a standard IPv4 address?",
+      options: [
+        "Up to 128",
+        "Up to 255",
+        "Up to 512",
+        "Up to 999",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Up to 255",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which phrase correctly describes the primary role of the Domain Name System?",
+      options: [
+        "It protects computers against incoming battery power surges.",
+        "It converts names of websites into numerical IP addresses.",
+        "It physically attaches copper cables into school wall ports.",
+        "It speeds up the cooling fans found inside local servers.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It converts names of websites into numerical IP addresses.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How many total binary bits are used to construct an Internet Protocol version four address?",
+      options: [
+        "Exactly 16 bits",
+        "Exactly 64 bits",
+        "Exactly 32 bits",
+        "Exactly 8 bits",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Exactly 32 bits",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which option represents a service running over the Internet rather than the physical network itself?",
+      options: [
+        "The World Wide Web",
+        "A fibre optic wire",
+        "A local network hub",
+        "A hardware router",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The World Wide Web",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss2_L1/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following platforms is categorized strictly as a photo sharing and visual discovery service?",
+      options: [
+        "YouTube",
+        "Pinterest",
+        "Vimeo",
+        "Periscope",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Pinterest",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary operational feature of the multimedia messages transmitted over Snapchat?",
+      options: [
+        "Permanent cloud storage",
+        "Universal public access",
+        "Automatic video billing",
+        "Automatic disappearance",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Automatic disappearance",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do visual artists and film educators frequently select Vimeo over standard public video networks?",
+      options: [
+        "Ad-free high definition",
+        "Free mobile telephone data",
+        "Mandatory photo galleries",
+        "Disappearing video files",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Ad-free high definition",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. A student who wants to receive automatic alerts whenever their favourite educational channel uploads a tutorial should click what on YouTube?",
+      options: [
+        "Dislike button",
+        "Account block",
+        "Subscribe tool",
+        "Delete profile",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Subscribe tool",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which standard email interface button must a user click to add a saved document into an outgoing message?",
+      options: [
+        "Reply button",
+        "Delete button",
+        "Attach button",
+        "Archive button",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Attach button",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary technical benefit of converting an assignment into a Portable Document Format (PDF) file before emailing it?",
+      options: [
+        "It doubles file storage size",
+        "It preserves original layouts",
+        "It deletes all pictures inside",
+        "It allows random editing online",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It preserves original layouts",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the typical maximum attachment size limit enforced by major free webmail providers like Gmail?",
+      options: [
+        "Ten gigabytes",
+        "Five kilobytes",
+        "One terabyte",
+        "Twenty-five megabytes",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Twenty-five megabytes",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why should students avoid opening email attachments sent by unrecognized or suspicious email senders?",
+      options: [
+        "Files may carry harmful malware",
+        "Screens will automatically dim",
+        "Keyboards will stop typing text",
+        "Emails will convert into videos",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Files may carry harmful malware",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What name is commonly given to the address book tool in modern webmail platforms like Microsoft 365?",
+      options: ["Monitor", "People", "Printer", "Scanner"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "People",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which essential piece of information must be entered when creating a new contact for sending electronic mail?",
+      options: [
+        "Email address",
+        "Physical home address",
+        "Personal bank account",
+        "Favourite meal choice",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Email address",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What action should a user take to place a highlighted contact into the recipient bar from the address book list?",
+      options: [
+        "Press restart",
+        "Format storage",
+        "Click plus sign",
+        "Shut down tablet",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Click plus sign",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens when you send an email to an address that contains a single typing mistake in its domain name?",
+      options: [
+        "Delivery will fail",
+        "Screen brightness dims",
+        "The tablet will reboot",
+        "Text changes to speech",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Delivery will fail",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss3_L1/8. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. A company web server stops responding because it is flooded with millions of artificial connection requests. Which threat does this represent?",
+      options: [
+        "Interruption",
+        "Interception",
+        "Modification",
+        "Fabrication",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Interruption",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which data threat is primarily an attack against confidentiality, where data is viewed or copied without authorization?",
+      options: [
+        "Interruption",
+        "Interception",
+        "Modification",
+        "Fabrication",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Interception",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. When an attacker intercepts an email and changes the bank account number before forwarding it, what threat has occurred?",
+      options: [
+        "Fabrication",
+        "Interruption",
+        "Modification",
+        "Interception",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Modification",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Inserting a counterfeit student record into a school examination portal without authorization is an example of what?",
+      options: [
+        "Interruption",
+        "Interception",
+        "Modification",
+        "Fabrication",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Fabrication",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss3_L2/8. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which security process scrambles plain text into unreadable cipher text before transmission?",
+      options: [
+        "Decryption",
+        "Encryption",
+        "Authorisation",
+        "Authentication",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Encryption",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. A security system prompts a teacher for a password and then sends an SMS verification code. What is this called?",
+      options: [
+        "System Interruption",
+        "Data Modification",
+        "Record Fabrication",
+        "Two-Factor Authentication",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Two-Factor Authentication",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Restricting a student account so it can view term marks but cannot alter recorded grades is an example of what?",
+      options: [
+        "Authorisation",
+        "Decryption",
+        "Interception",
+        "Interruption",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Authorisation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which protection method is most effective at preventing intercepted communication packets from being read?",
+      options: [
+        "Interruption",
+        "Fabrication",
+        "Encryption",
+        "Modification",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Encryption",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss4_L1/7. INDEPENDENT PRACTICE update.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which search query ensures that the phrase \"climate change\" appears as an exact sequence on every returned website?",
+      options: [
+        "climate change",
+        "{climate change}",
+        "\"climate change\"",
+        "+climate +change"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "\"climate change\"",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary function of the uppercase AND operator when placed between two search keywords?",
+      options: [
+        "It substitutes the first keyword with the second.",
+        "It excludes the second word from your search results.",
+        "It finds pages containing either one word or both.",
+        "It requires both terms to be present on the page."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It requires both terms to be present on the page.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A student wants web pages discussing solar energy in Ghana but wants to avoid any articles about grid power. Which search string is correct?",
+      options: [
+        "solar energy Ghana NOT grid",
+        "solar OR energy OR Ghana grid",
+        "\"solar energy\" AND Ghana AND grid",
+        "solar energy +Ghana +grid system"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "solar energy Ghana NOT grid",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is typing correct spelling vital when entering keywords into a web browser search engine?",
+      options: [
+        "Misspelled keywords cause the browser to switch off.",
+        "Search engines can return incorrect or zero results.",
+        "Web browsers will charge your mobile data account.",
+        "Incorrect spelling changes your computer password."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Search engines can return incorrect or zero results.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Which symbol can be attached directly to the front of an unwanted keyword to remove it from search results?",
+      options: [
+        "The question mark (?)",
+        "The ampersand sign (&)",
+        "The percentage symbol (%)",
+        "The standard minus sign (-)"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The standard minus sign (-)",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S3Ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss4_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What name is given to the automated software programs that search engines send across the web to discover content?",
+      options: [
+        "Web browsers",
+        "Web firewalls",
+        "Web security",
+        "Web crawlers"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Web crawlers",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Why do two different search engines often display different results for the exact same search query?",
+      options: [
+        "Tablets change keyboard layouts randomly.",
+        "Every engine indexes its own page collection.",
+        "Internet service cables mix up text words.",
+        "Web monitors display colours differently."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Every engine indexes its own page collection.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which of the following is a major search engine widely used to locate information across the World Wide Web?",
+      options: ["Adobe Reader", "VLC Player", "Microsoft Bing", "Corel Draw"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Microsoft Bing",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the primary benefit of using more than one search engine when conducting academic project research?",
+      options: [
+        "It exposes you to diverse sources of facts.",
+        "It completely stops tablet battery usage.",
+        "It deletes unwanted files from your memory.",
+        "It converts text directly into video clips."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It exposes you to diverse sources of facts.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. When a search engine spider finds a new webpage on the internet, what does it do with that page information? ",
+      options: [
+        "It stores the details in its web database.",
+        "It blocks the website from public viewers.",
+        "It erases the text from the host server.",
+        "It sells the computer hardware instantly."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It exposes you to diverse sources of facts.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which data type should be used to store a student's final percentage mark of 78.5%?",
+      options: ["Integer", "Float", "Boolean", "String"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Float",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which programming operator is used to test whether two values are identical?",
+      options: ["!=", ":=", "==", "="],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "==",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which operator represents standard multiplication on a computer keyboard?",
+      options: ["*", "x", "^", "%"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "*",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What will be stored in the variable total after executing total = (6 + 4) * 3?",
+      options: ["18", "42", "13", "30"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "30",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss1_L2/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What type of data value is always returned when a computer evaluates a comparison operator like 10 > 5?",
+      options: ["An Integer", "A Boolean", "A String", "A Float"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A Boolean",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. If a variable price = 25, what will the expression price < 20 evaluate to?",
+      options: ["False", "True", "25", "20"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "False",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which logical operator will evaluate to True only when both input conditions are true?",
+      options: ["OR", "NOT", "AND", "IF"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "AND",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the effect of wrapping a True condition inside a NOT logical operator block?",
+      options: [
+        "It turns it into False.",
+        "It keeps it as True.",
+        "It deletes the variable.",
+        "It converts it into a string.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It turns it into False.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss1_L3/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. According to operator precedence rules in programming, which operation is always evaluated first?",
+      options: ["Addition", "Multiplication", "Brackets", "Subtraction"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Brackets",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What will be the result of evaluating the expression (7 + 3) * 4?",
+      options: ["40", "19", "31", "28"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "40",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. If x = 4 and y = 2, what is the result of the expression x * y + 8 / 2?",
+      options: ["12", "16", "10", "8"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "12",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. In what order are multiplication and division evaluated when they appear together in an unbracketed expression?",
+      options: [
+        "Right to left",
+        "Left to right",
+        "Random order",
+        "Bottom to top"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Left to right",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss1_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which block category in Scratch contains the controls used to create and manage variables?",
+      options: ["Motion", "Variables", "Looks", "Sounds"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Variables",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the default sprite displayed when you start a new Scratch project?",
+      options: ["A dog", "A cat", "A ball", "A star"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A cat",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which block should you use if you want to overwrite an existing variable value with a fixed starting number?",
+      options: [
+        "set [var] to [value]",
+        "change [var] by [value]",
+        "join [text]",
+        "if [condition] then",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "set [var] to [value]",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. If lives = 3 and the script executes change lives by -1, what is the new value of lives?",
+      options: ["4", "2", "3", "-3"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "2",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',

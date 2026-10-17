@@ -12085,6 +12085,1691 @@ final QuizModel computingJhs2S2Ss4Lesson3QuizData = QuizModel(
   ],
 );
 
+final QuizModel computingJhs2S3Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How many distinct functional layers make up the Open Systems Interconnection model?",
+      options: [
+        "Exactly five layers",
+        "Exactly seven layers",
+        "Exactly three layers",
+        "Exactly eight layers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The standard OSI reference model is structured into seven distinct architectural layers numbered 1 through 7.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which layer converts digital data bits into raw electrical voltages, light pulses, or radio signals?",
+      options: [
+        "Physical Layer",
+        "Network Layer",
+        "Session Layer",
+        "Transport Layer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Physical Layer sits at Layer 1 and handles the transmission of unstructured bit streams across physical media.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What benefit does the concept of interoperability provide to computer network owners?",
+      options: [
+        "Devices from different vendors connect and function together smoothly.",
+        "Computers consume less electrical power during peak daylight hours.",
+        "Internet service providers eliminate monthly subscription fees easily.",
+        "Network cables become immune to accidental physical wire cuts.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Interoperability ensures hardware and software built by different manufacturers work together using standard protocols.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which layer breaks large files into smaller segments and controls flow using TCP?",
+      options: [
+        "Network Layer",
+        "Physical Layer",
+        "Session Layer",
+        "Transport Layer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Transport Layer coordinates end-to-end data delivery, reordering, and segmentation between communicating hosts.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A technician notices an ethernet cable is unplugged from the wall socket. Which layer has the fault?",
+      options: [
+        "Session Layer",
+        "Application Layer",
+        "Presentation Layer",
+        "Physical Layer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Physical cables, connectors, and electrical circuits are all classified under Layer 1, the Physical Layer.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which layer manages the opening, active dialogue maintenance, and closure of application connections?",
+      options: [
+        "Session Layer",
+        "Network Layer",
+        "Physical Layer",
+        "Transport Layer",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Session Layer is responsible for establishing, coordinating, and terminating communication sessions between remote programs.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Data encryption and syntax conversion are primary responsibilities of which OSI layer?",
+      options: [
+        "Transport Layer",
+        "Physical Layer",
+        "Presentation Layer",
+        "Network Layer",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Presentation Layer translates data formats between the network and the application while managing encryption tasks.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is it helpful for technicians to use a layered troubleshooting approach on a faulty network?",
+      options: [
+        "It isolates problems methodically from physical cables up to software.",
+        "It completely removes the requirement for hardware routers and switches.",
+        "It speeds up the processing frequency of individual computer processors.",
+        "It allows any non-networked office machine to connect without cables.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Layered troubleshooting lets technicians verify physical connectivity before checking complex logical or application settings.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which device inspects incoming data frames and forwards them within a local network at Layer 2?",
+      options: [
+        "Network switch",
+        "Display monitor",
+        "Electric router",
+        "Thermal printer",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Network switches operate at the Data Link Layer, forwarding frames between local devices using hardware addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which OSI layer is responsible for determining the optimal path for packets across multiple networks?",
+      options: [
+        "Physical Layer",
+        "Application Layer",
+        "Presentation Layer",
+        "Network Layer",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Network Layer uses logical routing protocols and routers to direct packets across different interconnected networks.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What separator character is used between number groups in a standard IPv4 address?",
+      options: [
+        "A full stop",
+        "A semicolon",
+        "A percentage",
+        "A forward slash",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "IPv4 addresses are written in dotted decimal notation, separating four decimal number groups with full stops.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which network service translates friendly website names into destination IP addresses?",
+      options: [
+        "File transfer tool",
+        "Domain Name System",
+        "Power supply unit",
+        "Local backup drive",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Domain Name System matches human-friendly URLs to the numeric IP addresses needed for routing.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the fundamental difference between the Internet and the World Wide Web?",
+      options: [
+        "The Internet is a web browser while the Web is an operating system.",
+        "The Internet is only used in schools while the Web is for banks.",
+        "The Internet is a local cable while the Web is a wireless battery.",
+        "The Internet is the physical network and the Web is a service on it.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Internet is the global physical infrastructure of connected computers, while the Web is a service that shares linked pages across it.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How many bits of data make up a modern Internet Protocol version six address?",
+      options: [
+        "Exactly 32 bits",
+        "Exactly 64 bits",
+        "Exactly 96 bits",
+        "Exactly 128 bits",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "An IPv6 address is constructed using 128 bits, providing a massively expanded pool of unique addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of the following examples represents a valid format for an IPv4 address?",
+      options: [
+        "196.0.1.180",
+        "300.12.5.990",
+        "12.800.44.11",
+        "45.99.280.14",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A valid IPv4 address contains four groups of numbers between 0 and 255 separated by full stops.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is the Domain Name System compared to a traditional telephone directory?",
+      options: [
+        "It connects callers directly through an old manual switchboard.",
+        "It converts names into contact numbers needed to reach targets.",
+        "It charges callers per minute when sending text messages abroad.",
+        "It prints hardcopy paper booklets for school computer rooms.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Just as a phonebook matches a person's name with their phone number, DNS matches domain names with numerical IP addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How are the eight character groups separated in an IPv6 address string?",
+      options: [
+        "By blank spaces",
+        "By question marks",
+        "By colon symbols",
+        "By dollar signs",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "IPv6 addresses are written using hexadecimal notation separated into groups by colon characters.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What primary factor forced the global transition from IPv4 toward IPv6?",
+      options: [
+        "Available unique addresses were exhausted by new devices.",
+        "Computer monitors could no longer display four-part numbers.",
+        "Internet service providers banned all decimal numbering codes.",
+        "Fibre optic glass cables rejected signals carrying thirty-two bits.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The explosive growth of personal computers, smartphones, and connected devices exhausted the roughly 4.3 billion addresses in IPv4.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following applications operates over the internet without being part of the World Wide Web?",
+      options: [
+        "A browser displaying an online news article",
+        "An interactive digital catalogue webpage",
+        "A standalone email client software program",
+        "A classroom website showing school term dates",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Direct email protocols, file transfers, and voice calls use the internet infrastructure without relying on the World Wide Web.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What total number of unique addresses can be created using the 32-bit IPv4 system?",
+      options: [
+        "About two hundred thousand",
+        "About twelve million total",
+        "About four point three billion",
+        "About nine hundred trillion",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "2 to the power of 32 provides approximately 4,294,967,296 unique address combinations.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L1/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which characteristic uniquely defines a private account profile on the Instagram platform?",
+      options: [
+        "Approved viewers only",
+        "Free mobile phone credit",
+        "Unlimited video storage",
+        "Hidden account passwords",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A private profile requires the account owner to manually review and approve follow requests before users can inspect uploaded photos.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What primary feature distinguishes live streaming tools like Facebook Live from standard YouTube uploads?",
+      options: [
+        "High monthly licensing",
+        "Real-time broadcasting",
+        "Removal of all comments",
+        "Complete loss of storage",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Live streaming transmits live audio-video data in real time as the event unfolds, rather than publishing pre-recorded media files.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which social platform uses electronic pinboards to collect and hyperlink web project ideas?",
+      options: [
+        "Snapchat",
+        "Periscope",
+        "Pinterest",
+        "Instagram",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Pinterest allows users to categorise visual bookmarks called pins into themed thematic boards linking directly to external sites.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens to photos sent as direct visual messages within the standard Snapchat interface?",
+      options: [
+        "Copied to all contacts",
+        "Transferred to Pinterest",
+        "Published to television",
+        "Erased after viewing",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Snapchat is engineered around ephemeral messaging, meaning personal photo messages are automatically removed once viewed by the recipient.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which platform was originally launched as a dedicated photo sharing service using square formats?",
+      options: [
+        "Instagram",
+        "Vimeo",
+        "Periscope",
+        "YouTube",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Instagram debuted as a photo-centric platform highlighting square picture formats, artistic filters, and image sharing.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An ICT teacher wants to organize past classroom practical recordings into an accessible study series. Which YouTube tool accomplishes this?",
+      options: [
+        "Ephemeral camera lenses",
+        "The playlist directory",
+        "Personal contact books",
+        "Temporary direct chats",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "YouTube playlists allow channel managers to sequence multiple instructional videos together under a single topic heading for easy navigation.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does Vimeo primarily fund its operations without displaying regular commercial banner ads?",
+      options: [
+        "Mandatory viewer fines",
+        "Paid user subscriptions",
+        "Hardware device sales",
+        "National tax subventions",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Vimeo relies on creator software subscription tiers rather than running commercial advertisements before or during hosted media clips.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which feature on Instagram allows users to post casual photos that automatically vanish after a day?",
+      options: [
+        "Permanent albums",
+        "Public catalogues",
+        "The story archive",
+        "The stories feature",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Instagram Stories allow account holders to share photo and video moments sequentially, which automatically expire twenty-four hours after posting.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why must students exercise caution before publishing school images to public social media accounts?",
+      options: [
+        "Anyone can view them",
+        "Cameras will overheat",
+        "Cloud memory is closed",
+        "All filters are banned",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Media posted to public profiles can be discovered, viewed, and downloaded by any internet user across the globe without verification.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What core media element separates YouTube from platforms like Pinterest and Flickr?",
+      options: [
+        "Static photographs",
+        "Printable documents",
+        "Text spreadsheet files",
+        "Dynamic motion videos",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "YouTube is fundamentally an audio-video hosting platform, whereas platforms like Pinterest specialize in static photographic bookmarks.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What graphical symbol is universally used on email toolbars to represent attaching a file?",
+      options: [
+        "An open book",
+        "A metal key",
+        "A scissors mark",
+        "A paperclip shape",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The paperclip icon is the international visual symbol used in email clients to indicate the file attachment tool.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which file format should a pupil choose to prevent layout changes when an examiner views the file?",
+      options: [
+        "Portable Document Format",
+        "Plain text note document",
+        "Compressed audio recording",
+        "Dynamic spreadsheet table",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A PDF preserves all original fonts, margins, diagrams, and structures regardless of the operating system or application used to open it.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What occurs when an email attachment exceeds the maximum file size limit allowed by the email provider?",
+      options: [
+        "The computer will restart",
+        "The upload will be rejected",
+        "The monitor screen freezes",
+        "The file turns into an image",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "If an attached file exceeds the service provider's threshold (such as 25 MB), the system blocks the upload and prevents delivery.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which action should a student take to read a received document quickly without saving it locally?",
+      options: [
+        "Discard message",
+        "Forward contact",
+        "Preview document",
+        "Download file",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The preview function displays the file's contents directly inside the email viewer without writing data to the device storage.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where are files typically transferred when you select the Download option on an email attachment?",
+      options: [
+        "The local storage drive",
+        "The sender's memory card",
+        "The email provider office",
+        "The display monitor screen",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Downloading fetches the file over the network and saves a local copy directly onto your device's internal storage.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What safety measure should be practiced when receiving an unexpected attachment from an unfamiliar address?",
+      options: [
+        "Forward it to your classmates",
+        "Download and run it right away",
+        "Delete it without opening files",
+        "Change your computer password",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Attachments from unknown sources may contain viruses or malware; deleting or ignoring them prevents potential device infection.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which dialogue window appears immediately after selecting the \"Browse this computer\" option in an email client?",
+      options: [
+        "The file explorer window",
+        "The web browser history",
+        "The network password box",
+        "The sound equalizer panel",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking browse opens the operating system's file explorer dialogue so the user can navigate storage folders and pick files.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the main reason for compressing a folder containing multiple large project photographs before emailing?",
+      options: [
+        "To sharpen the colour saturation",
+        "To convert photos into audio clips",
+        "To lock the computer file system",
+        "To reduce the total file data size",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Compressing files packs the data tightly to reduce its overall size in megabytes, ensuring it stays under email attachment limits.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Where is the attached file usually listed within an email message before the user presses the send button?",
+      options: [
+        "Below the subject line field",
+        "Inside the contact phone book",
+        "On the external computer mouse",
+        "Across the operating desktop",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Email composer interfaces display confirmed attached file cards directly beneath the subject field or at the base of the message pane.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If an ICT project file is seventy megabytes, what is the best method to deliver it to a teacher via email?",
+      options: [
+        "Rename file into plain text",
+        "Send a cloud link via email",
+        "Turn off the computer screen",
+        "Print out the computer codes",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Because a 70 MB file exceeds standard email size ceilings (25 MB), uploading it to cloud storage and emailing the link is the correct approach.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the main role of the address book inside an electronic mail application?",
+      options: [
+        "To save virus definitions",
+        "To compute test averages",
+        "To generate slide graphics",
+        "To store contact details",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An address book functions as a built-in database that preserves contact names, email addresses, and phone numbers for convenient retrieval.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which action launches the contact selection directory while drafting a new message?",
+      options: [
+        "Clicking To button",
+        "Pressing hard drive",
+        "Ejecting the screen",
+        "Tapping the battery",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The \"To\" label adjacent to the recipient bar operates as an interactive button that opens the address book directory.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following contains the three minimum fields needed to record a usable contact for email?",
+      options: [
+        "Name, age, town",
+        "First, last, email",
+        "School, food, sex",
+        "Class, club, city",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A reliable digital contact requires at least the first name, surname, and destination email address.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is selecting addresses from a contact list safer than typing them out manually?",
+      options: [
+        "It protects screen glass",
+        "It clears system storage",
+        "It prevents typing errors",
+        "It speeds internet data",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Using stored contacts eliminates typographical errors, ensuring the message reaches the intended inbox without bounce-backs.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What button confirms newly inputted recipient information into the address book?",
+      options: [
+        "The cancel control",
+        "The discard tool",
+        "The escape button",
+        "The create button",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Clicking Create (or Save) permanently stores the new contact record into the account directory.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where can users locate the People app icon inside Microsoft 365 services?",
+      options: [
+        "In app launcher menu",
+        "Inside trash folder",
+        "On printer housing",
+        "Behind tablet battery",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The People application is accessed via the primary application launcher grid located on the main interface navigation bar.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which symbol is commonly clicked within the contact picker to add someone to the To field?",
+      options: [
+        "Division slash sign",
+        "The plus sign mark",
+        "Question mark symbol",
+        "Percentage sign icon",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Clicking the plus (+) sign adjacent to a contact entry transfers their email address into the active recipient list.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following is considered an optional data field when creating a new contact?",
+      options: [
+        "First name record",
+        "Account password",
+        "Contact email box",
+        "Workplace company",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Company name, job title, and extra notes are optional fields that can be left blank, whereas name and email are primary.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How does an email client help when you start typing a saved friend's name into the recipient bar?",
+      options: [
+        "It suggests matches",
+        "It silences speaker",
+        "It locks keyboard keys",
+        "It changes system font",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Modern email programs feature auto-completion, suggesting matching names directly from your address book as you type.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should a student do after entering contact details into a new entry form?",
+      options: [
+        "Clear web cache files",
+        "Remove the tablet cover",
+        "Unplug network router",
+        "Click the save button",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Clicking Save commits the entered contact fields to permanent storage; closing the window without saving discards the data.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss3_L1/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A clinic database server crashes because a computer virus deleted the main operating system files. Which security threat occurred?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The attack made the medical database unavailable to doctors by crashing the server, which defines interruption.",
+    ),
+    QuizQuestion(
+      question:
+          "2. An unauthorized intruder uses network packet sniffing tools to read confidential emails passing over an office wireless network. What threat is this?",
+      options: ["Interruption", "Modification", "Fabrication", "Interception"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The intruder is silently capturing and reading private transmission packets without changing them, which is interception.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A rogue employee changes the grade of an English test in the school database from forty to eighty-five percent. What data threat occurred?",
+      options: ["Interruption", "Fabrication", "Modification", "Interception"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Changing existing legitimate information into altered figures without authorization is an act of modification.",
+    ),
+    QuizQuestion(
+      question:
+          "4. An attacker generates and sends completely counterfeit electronic purchase orders using an invented company email identity. What threat is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Creating new false messages or fake records to deceive the receiver is the defining feature of fabrication.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A merchant's point-of-sale terminal cable is cut deliberately, preventing customers from paying for groceries electronically. What is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The physical damage stops the payment service from operating, which is an interruption to system availability.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A hacker monitors an online payment session and collects bank card credentials while transactions travel to the payment gateway. What threat is this?",
+      options: ["Modification", "Interception", "Fabrication", "Interruption"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tapping into communication paths to copy secret information during transmission is classified as interception.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Ransomware scrambles all administrative documents on a school laptop into unreadable gibberish, demanding money to reverse the damage. Which threat is this?",
+      options: ["Interception", "Fabrication", "Modification", "Interruption"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Maliciously altering file contents through unauthorized encryption damages data integrity, representing modification.",
+    ),
+    QuizQuestion(
+      question:
+          "8. An unknown person adds a fake administrative user account with root privileges to a district library computer system. What threat is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Inserting a non-existent, counterfeit account into an operating system is an attack on authenticity through fabrication.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A cyber attack swamps a regional utility portal with junk data packets so customers cannot top up their electricity meters online. What is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Flooding a network service to take it offline denies legitimate access to electricity meter top-ups, which is interruption.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A dishonest contractor replaces a signed government contract file on an office desktop with a rewritten version having higher payment fees. What threat is this?",
+      options: ["Fabrication", "Modification", "Interruption", "Interception"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Altering genuine terms within an established official document compromises original content through modification.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss3_L2/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which mechanism converts scrambled cipher text back into its original readable plain text format?",
+      options: ["Decryption", "Encryption", "Fabrication", "Interruption"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Decryption uses a matching cryptographic key to restore scrambled cipher text back into readable plain text.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A biometric finger scanner used to confirm a teacher's identity at an attendance kiosk is an example of what?",
+      options: [
+        "Modification",
+        "Authentication",
+        "Interruption",
+        "Authorisation"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Biometric scans verify that an individual is indeed the authorized user claiming that identity, which is authentication.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What security control maps most effectively to defending against data interception across a wireless network?",
+      options: ["Fabrication", "Interruption", "Encryption", "Modification"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Encryption scrambles data so that even if network packets are intercepted mid-transit, they remain unreadable cipher text.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A school IT administrator revokes write permissions on database tables to stop staff from changing student scores. What threat is reduced?",
+      options: ["Interruption", "Interception", "Decryption", "Modification"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Restricting write permissions through authorisation stops unauthorized tampering or alteration of existing data records.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which protection method determines whether an already logged-in employee has permission to format an office storage drive?",
+      options: ["Authorisation", "Fabrication", "Decryption", "Interruption"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Authorisation governs the specific actions, privileges, and boundaries granted to a verified account.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does strong multi-factor authentication prevent a fabrication threat on an educational server?",
+      options: [
+        "It scrambles the hard drive so that nobody can read files",
+        "It stops impostors from creating counterfeit user accounts",
+        "It deletes old backup archives to free up disk memory",
+        "It interrupts data signals when transmission cables break"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Requiring multiple verified factors stops unauthorized outsiders from logging in and generating false or counterfeit accounts.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What status does ordinary digital text hold before it is passed through an encryption algorithm?",
+      options: [
+        "Cipher text",
+        "Scrambled text",
+        "Plain text",
+        "Encrypted text"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Plain text is the original, unencrypted, readable message or dataset before cryptographic transformation occurs.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Maintaining off-site backups and installing anti-malware tools maps primarily to defending against which threat?",
+      options: ["Interception", "Modification", "Fabrication", "Interruption"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Backups and anti-malware software ensure system availability can be quickly recovered if a crash or outage occurs.",
+    ),
+    QuizQuestion(
+      question:
+          "9. When a web browser displays an HTTPS padlock, what protection is active to secure user passwords in transit?",
+      options: [
+        "Transport Encryption",
+        "Hardware Interruption",
+        "User Account Fabrication",
+        "Database Modification"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The padlock and HTTPS prefix indicate that active data transit encryption is shielding communication from eavesdroppers.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If an intruder intercepts an encrypted database file without the private key, what prevents them from reading the data?",
+      options: [
+        "The system executes a denial of service interruption",
+        "The text remains an undecryptable scrambled cipher",
+        "The file automatically fabricates a new admin user",
+        "The operating system corrupts the original plain text"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Without the appropriate decryption key, encrypted data remains unreadable cipher text that cannot be interpreted.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss4_L1/9. QUIZ update.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which operator expands search results by allowing pages that contain either of two specified terms to appear?",
+      options: [
+        "The OR operator",
+        "The NOT operator",
+        "The AND operator",
+        "The FOR operator"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The OR operator allows the search engine to return web documents that contain either one of the keywords or both of them together.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens if you type the query: \"Lake Volta\" transportation into a search engine?",
+      options: [
+        "The engine ignores Volta and searches only lakes.",
+        "The engine deletes pages with transportation info.",
+        "The engine searches for pages with boats in Asia.",
+        "The engine finds that exact phrase plus transport."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Double quotation marks force the exact phrase Lake Volta to be present, while transportation can appear elsewhere on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why should searchers avoid entering long conversational questions into an internet search engine?",
+      options: [
+        "Conversational text locks the operating system.",
+        "Extra filler words distract from the core topics.",
+        "Long sentences permanently damage tablet memory.",
+        "Internet providers block questions with verbs."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Conversational filler words like \"can you tell me\" add unnecessary terms that reduce the precision of web search engines.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which search technique is most effective when searching for an exact title of a Ghanaian literary novel?",
+      options: [
+        "Capitalizing every single letter in every word.",
+        "Inserting plus signs between every single letter.",
+        "Placing double quotation marks around the title.",
+        "Placing the title inside square angled brackets."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Enclosing an exact title in quotation marks guarantees that the search engine matches the full phrase in that exact order.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which query best finds information on timber or cocoa export in Ghana while excluding illegal logging?",
+      options: [
+        "(timber OR cocoa) AND Ghana NOT \"illegal logging\"",
+        "timber AND cocoa AND Ghana AND \"illegal logging\"",
+        "timber OR cocoa OR Ghana OR \"illegal logging\" now",
+        "(timber AND cocoa) NOT Ghana OR \"illegal logging\""
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The grouped terms allow either crop, the AND operator includes Ghana, and the NOT operator successfully removes illegal logging.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the main role of parentheses when writing complex internet search queries?",
+      options: [
+        "To hide your personal search history from users.",
+        "To convert regular web text into computer code.",
+        "To speed up the physical broadband connection.",
+        "To group related terms and control search order."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Parentheses group items together, telling the search engine to process the inner condition first before applying other operators.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does the minus sign (-) function when placed immediately before a word with no space?",
+      options: [
+        "It highlights the chosen word in bright yellow.",
+        "It excludes that term from all returned results.",
+        "It translates the chosen term into local Twi.",
+        "It downloads all images related to that topic."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A minus sign attached directly to a word acts as a negation operator, removing any web page containing that word from the results.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is a key benefit of using Boolean operators during academic research on a tablet?",
+      options: [
+        "They make your battery last significantly longer.",
+        "They eliminate the need for an internet service.",
+        "They filter out clutter and save research time.",
+        "They automatically write student project essays."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Boolean operators refine search parameters, filtering out thousands of irrelevant pages and locating precise information quickly.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A student enters the search: bauxite AND mining AND \"Awaso\". What will the search engine display?",
+      options: [
+        "Pages containing all three of these terms together.",
+        "Only pages that discuss general bauxite minerals.",
+        "Pages about Awaso that never mention any mining.",
+        "All websites created in the Western North Region."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Because the AND operator connects all components, a page must feature bauxite, mining, and the exact term Awaso to be displayed.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following describes the most precise approach to starting a research query on web browsers?",
+      options: [
+        "Entering a single broad word and reading pages.",
+        "Typing a full paragraph copied from a syllabus.",
+        "Asking the browser questions in casual English.",
+        "Identifying specific keywords and checking spelling.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Successful searching begins by identifying the core technical terms of your topic and ensuring every word is spelled correctly.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss4_L2/8. QUIZ ios.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is an internet search engine database index?",
+      options: [
+        "A digital library of stored web pages.",
+        "A list of computer hardware prices.",
+        "A program used to print exam papers.",
+        "A physical cable connecting two cities."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A search engine index is a vast database where copies of crawled web pages and their contents are stored for quick retrieval.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which software tool must a student use first to open and display any search engine website?",
+      options: [
+        "An operating system file compiler.",
+        "A spreadsheet table calculator.",
+        "A graphical presentation editor.",
+        "An application called a web browser."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A web browser is the application program required to connect to the internet and display search engine websites like Google or Bing.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following search engines was originally structured to prioritise natural language question queries?",
+      options: ["Ask.com", "Linux OS", "Ethernet", "Apache"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ask.com was designed specifically to answer queries presented as plain language questions rather than simple keyword lists.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why might a valuable local research article fail to show up in a specific search engine's results?",
+      options: [
+        "The tablet screen brightness is too low.",
+        "The engine spider has not crawled the site.",
+        "The author wrote the essay using a pencil.",
+        "The school computer has a broken mouse pad."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "If a search engine's crawler or spider has not yet visited and indexed a particular web page, that page cannot appear in search results.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When comparing search engines, what rule must you follow to ensure your observation is fair and accurate?",
+      options: [
+        "Use the exact same search query on each.",
+        "Search on completely different weekdays.",
+        "Turn off your internet router between tests.",
+        "Change your user name for every new query."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Entering identical keywords and operators into both search engines ensures that any difference in results comes from the engines themselves.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which search engine is owned and operated by Microsoft as an alternative to Google?",
+      options: ["Safari", "Chrome", "Bing", "Opera"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Bing is Microsoft's web search engine, developed to provide web, image, video, and map searches.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a search engine algorithm decide which websites to show on your screen first?",
+      options: [
+        "By selecting websites that charge money.",
+        "By evaluating relevance to your keywords.",
+        "By choosing files with the shortest names.",
+        "By measuring the age of your web browser."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Algorithms evaluate numerous ranking factors, including keyword placement, content quality, and relevance, to order the results.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What danger arises from relying exclusively on a single search engine for all school research?",
+      options: [
+        "You may get trapped in a narrow bubble.",
+        "Your internet monthly bill will triple.",
+        "Your tablet screen will lock permanently.",
+        "Your web browser will delete your files."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Relying on one search engine exposes you only to that platform's ranking preferences, potentially hiding valuable perspectives.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should you do if your search on Google returns only irrelevant or commercial websites?",
+      options: [
+        "Stop your school research immediately.",
+        "Switch to another engine such as Bing.",
+        "Buy an expensive new laptop computer.",
+        "Delete the web browser from your tablet."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "If one search engine fails to produce useful results, switching to an alternative engine like Bing or Yahoo can yield better findings.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the primary action carried out by a web crawler during an internet traverse?",
+      options: [
+        "It writes examination papers for students.",
+        "It detects broken computer power supplies.",
+        "It repairs cracked liquid crystal screens.",
+        "It discovers and indexes online web pages."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Web crawlers systematically scan web pages across the internet, collecting text and hyperlinks to build the search engine's index.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following values can be stored inside a Boolean variable?",
+      options: ["False", "24.50", "Ghana", "-1200"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Boolean variables can only store one of two logical states: True or False.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of declaring a value as a constant in a program?",
+      options: [
+        "It speeds up the computer processor.",
+        "It clears temporary cache memory.",
+        "It allows values to change dynamically.",
+        "It prevents values from being altered."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Constants are explicitly defined so their assigned values remain fixed throughout program execution.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the result of the programming expression 15 + 5 * 2?",
+      options: ["40", "25", "30", "50"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Multiplication precedes addition. Thus, 5 * 2 = 10, and 15 + 10 = 25.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following represents an inequality comparison in programming?",
+      options: ["!=", "==", "->", "**"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The symbol != (or <> in some environments) tests whether two items are not equal.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which logical operator requires only one condition to be true for the whole expression to evaluate to true?",
+      options: ["AND", "NOT", "OR", "XOR"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The OR operator produces True whenever at least one of its conditions evaluates to true.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Consider the following statements: k = 4; followed by k = k * 3;. What is the final value of k?",
+      options: ["7", "1", "4", "12"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The expression on the right multiplies the current value (4) by 3 to get 12, which is then stored back into k.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What type of data is represented by the value \"Junior High School\"?",
+      options: ["A String", "An Integer", "A Float", "A Boolean"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Any sequence of characters enclosed within quotation marks is classified as a string data type.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where are active program variables temporarily stored during program execution?",
+      options: [
+        "Optical DVD drive",
+        "Secondary flash disk",
+        "Random access memory",
+        "Read only memory chip"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Variables reside in the computer's volatile main memory (RAM) while instructions are actively being run.",
+    ),
+    QuizQuestion(
+      question: "9. What will the expression (12 / 3) + (2 * 4) evaluate to?",
+      options: ["20", "14", "16", "12"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Brackets are evaluated first: 12 / 3 = 4 and 2 * 4 = 8. Adding them together gives 4 + 8 = 12.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If score = 15, what does the comparison expression score >= 20 evaluate to?",
+      options: ["20", "15", "True", "False"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Since 15 is not greater than or equal to 20, the comparison evaluates to False.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L2/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What shape are comparison blocks in Scratch programming to show they output true or false values?",
+      options: [
+        "Circular badge",
+        "Rectangular box",
+        "Hexagonal shape",
+        "Triangular wedge"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Comparison blocks feature pointed hexagonal borders indicating they hold Boolean values for conditional slots.",
+    ),
+    QuizQuestion(
+      question:
+          "2. If mark = 72, what does the comparison expression mark == 72 evaluate to?",
+      options: ["72", "False", "True", "0"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The double equals sign checks equality; since mark equals 72, the comparison is True.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Consider the expression (10 < 5) AND (20 > 15). What is the final evaluated result?",
+      options: ["True", "False", "10", "15"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The first condition (10 < 5) is false. Because an AND operator requires both sides to be true, the entire expression evaluates to False.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which symbol or operator is commonly used in programming to check if two values are not equal?",
+      options: ["==", "!=", "=>", "&&"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The inequality operator != tests whether two values differ from each other.",
+    ),
+    QuizQuestion(
+      question:
+          "5. If temperature = 35, what does the expression (temperature > 30) OR (temperature < 20) evaluate to?",
+      options: ["False", "35", "True", "30"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The first condition (35 > 30) is true. Since it is an OR operation, meeting one condition is enough to make the whole expression True.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What does the NOT logical operator do when placed before a condition that evaluates to False?",
+      options: [
+        "It leaves it as False.",
+        "It converts it to True.",
+        "It causes a syntax error.",
+        "It resets the variable value."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The NOT operator inverts whatever Boolean value follows it, turning False into True.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following expressions will evaluate to True when a variable score is exactly equal to 100?",
+      options: ["score < 100", "score != 100", "score >= 100", "score > 100"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The operator >= means greater than or equal to, which matches an exact value of 100.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why are logical operators essential when designing complex interactive software games or apps?",
+      options: [
+        "They make background music play louder.",
+        "They allow programs to test multiple criteria before making decisions.",
+        "They compress image file sizes.",
+        "They replace the need for variables."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Logical operators combine multiple checks so software can respond intelligently to complex user inputs and game states.",
+    ),
+    QuizQuestion(
+      question: "9. Evaluate the following compound expression: NOT (10 > 5).",
+      options: ["True", "10", "5", "False"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The inner expression 10 > 5 is True. Applying NOT inverts it, resulting in False.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Suppose an amusement park ride requires a visitor's height to be greater than 120 cm AND their age to be at least 12 years. Which logical operator connects these two checks?",
+      options: ["OR", "AND", "NOT", "DIV"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Because both height and age requirements must be met simultaneously, the AND operator must be used.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L3/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of tracing an algorithm during software development?",
+      options: [
+        "To increase screen brightness",
+        "To manually check variable changes and logic step by step",
+        "To compress image files",
+        "To format computer hardware disks"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tracing allows programmers to follow execution flow and verify that variables hold expected values at every line.",
+    ),
+    QuizQuestion(
+      question: "2. Evaluate the programming expression: 5 + 3 * 2.",
+      options: ["16", "13", "11", "10"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Multiplication precedes addition. Thus, 3 * 2 = 6, and 5 + 6 = 11.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What will be the final value of val after executing val = (10 - 4) + (2 * 3)?",
+      options: ["12", "18", "10", "16"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Evaluate both sets of brackets first: (10 - 4) = 6 and (2 * 3) = 6. Then add them together: 6 + 6 = 12.",
+    ),
+    QuizQuestion(
+      question: "4. Which of the following expressions evaluates to 20?",
+      options: ["5 + 5 * 3", "(5 + 5) * 2", "10 - 2 * 4", "20 / 2 + 5 * 2"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Brackets force 5 + 5 = 10, and multiplying by 2 gives 20.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In programming, how are multiple addition and subtraction operations evaluated when no brackets are present?",
+      options: [
+        "Right to left",
+        "Left to right",
+        "Highest number first",
+        "Lowest number first"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Addition and subtraction operators share equal precedence and are evaluated sequentially from left to right.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Consider the following statements: x = 2; x = x + 3; x = x * 2;. What is the final value of x?",
+      options: ["7", "10", "5", "12"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "First x becomes 2. Then x + 3 makes x equal to 5. Finally, 5 * 2 updates x to 10.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why does the expression 12 / 4 * 3 evaluate to 9 rather than 1?",
+      options: [
+        "Division and multiplication have equal precedence, so they are evaluated left to right (12 / 4 = 3, then 3 * 3 = 9).",
+        "Multiplication always happens before division.",
+        "Addition is performed implicitly.",
+        "The computer rounds up all fractions."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Multiplication and division operators are evaluated from left to right, meaning 12 / 4 is processed before multiplying by 3.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the result of evaluating NOT (5 == 5) AND (10 > 2)?",
+      options: ["True", "10", "False", "5"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The inner expression 5 == 5 is True, which NOT inverts to False. Because the left side of the AND is False, the entire expression evaluates to False.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If p = 8 and q = 4, what does the expression (p + q) / (p - q) evaluate to?",
+      options: ["2", "3", "4", "1"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Brackets evaluate first: 8 + 4 = 12 and 8 - 4 = 4. Then 12 / 4 = 3.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What error occurs if a programmer forgets to close a parenthesis in a mathematical expression within code?",
+      options: [
+        "A syntax error because the expression structure is incomplete.",
+        "The computer automatically deletes the variable.",
+        "The program runs twice as fast.",
+        "The background color changes."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Unmatched brackets violate programming language syntax rules, preventing the code from compiling or running.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where is Scratch developed and maintained as a free educational programming environment?",
+      options: [
+        "Massachusetts Institute of Technology",
+        "Stanford University",
+        "Oxford University",
+        "University of Ghana"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Scratch is a block-based programming environment created by MIT.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens when you select \"For all sprites\" when creating a variable in Scratch?",
+      options: [
+        "The variable becomes accessible globally across all scripts and sprites in the project.",
+        "The variable is permanently deleted.",
+        "The variable converts into a string data type.",
+        "The computer shuts down."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Global scope allows any sprite or backdrop in the project to read and modify the variable.",
+    ),
+    QuizQuestion(
+      question:
+          "3. If a variable named score holds 20, what will its value be after executing change score by 10?",
+      options: ["10", "20", "30", "200"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The change block adds the specified amount to the current value: 20 + 10 = 30.",
+    ),
+    QuizQuestion(
+      question: "4. Why should variable names avoid containing blank spaces?",
+      options: [
+        "Blank spaces increase audio narration speed.",
+        "Blank spaces cause syntax errors because code parsers interpret them as word separators.",
+        "Blank spaces turn variables into constants.",
+        "Blank spaces clear the RAM cache."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Programming languages require continuous identifier names to parse statements correctly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which block execution replaces an old variable value entirely with a new one?",
+      options: [
+        "set [variable] to [value]",
+        "change [variable] by [value]",
+        "repeat [10]",
+        "wait [1] secs"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The set assignment block overwrites existing memory data with the specified value.",
+    ),
+    QuizQuestion(
+      question: "6. What is the primary function of sprites in Scratch?",
+      options: [
+        "They serve as interactive characters or graphical objects on the stage.",
+        "They compile text code into machine language.",
+        "They measure computer processor temperature.",
+        "They format external USB drives."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Sprites are the visual objects programmed to move, speak, and interact on the Scratch screen.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If a variable is set to \"For this sprite only\", who can access it?",
+      options: [
+        "Every sprite in the project",
+        "Only the specific sprite for which it was created",
+        "Only the web browser background",
+        "External cloud servers"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Local scoping restricts variable visibility solely to the parent sprite.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Consider the following block sequence: set items to 5; change items by 3; change items to items - 2;. What is the final value of items?",
+      options: ["6", "8", "3", "5"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Initial value is 5. Adding 3 makes it 8. Setting it to 8 - 2 results in 6.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following is an example of a well-formatted variable name adhering to programming conventions?",
+      options: ["student score", "studentScore", "1stScore", "SCORE HERE"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using camel case (studentScore) avoids invalid spaces while keeping names descriptive.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why are variables crucial when designing interactive quiz games in Scratch?",
+      options: [
+        "They allow the game to store, track, and update changing player scores and states.",
+        "They make background music play continuously.",
+        "They compress image file sizes for faster loading.",
+        "They replace all comparison operators."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Variables provide temporary memory storage needed to keep track of dynamic game data.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [

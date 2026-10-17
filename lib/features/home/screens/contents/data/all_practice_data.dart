@@ -2676,6 +2676,397 @@ final PracticeModel computingJhs2S2Ss4Lesson3PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs2S3Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why is the OSI model important for companies that manufacture computer networking hardware?",
+      answer:
+          "Correct Answer: It provides a universal standard that ensures hardware from different manufacturers can connect and communicate reliably without compatibility conflicts.",
+      explanation:
+          "Explanation: Without standard models like the OSI framework, vendors would build conflicting communication systems, preventing mixed-brand networks from functioning together.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the primary difference between the roles of the Transport Layer and the Physical Layer.",
+      answer:
+          "Correct Answer: The Transport Layer breaks data into segments and manages reliable delivery, while the Physical Layer converts bits into electrical, optical, or radio signals over cables and air.",
+      explanation:
+          "Explanation: Layer 4 focuses on logical flow control and data segmentation, whereas Layer 1 is responsible for the actual hardware transmission of raw signals across physical media.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: How does the OSI model help a network technician diagnose an internet connection failure in a school computer lab?",
+      answer:
+          "Correct Answer: It allows the technician to troubleshoot systematically from Layer 1 cables up to Layer 7 software applications to isolate the problem.",
+      explanation:
+          "Explanation: A technician can quickly check if physical cables or power are working before wasting time reconfiguring web browsers or operating system network settings.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss1Lesson2PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss1_L2/6. GUIDED PRACTICE update.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why the Internet and the World Wide Web are not identical terms.",
+      answer:
+          "Correct Answer: The Internet is the underlying physical network of devices, while the World Wide Web is an information service of pages running on that network.",
+      explanation:
+          "Explanation: The Internet consists of physical cables and networking hardware, whereas the Web is a software system of linked documents accessed via web browsers.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Why was it necessary to develop IPv6 when IPv4 was already working effectively?",
+      answer:
+          "Correct Answer: The massive increase in internet-connected devices exhausted the four point three billion addresses available under the IPv4 standard.",
+      explanation:
+          "Explanation: IPv4 is limited to thirty-two bits, creating a global shortage that required IPv6 and its one hundred and twenty-eight-bit address space.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Describe how a Domain Name Server functions similarly to a telephone contact book.",
+      answer:
+          "Correct Answer: A DNS server maps human-friendly website names to numerical IP addresses just like a phonebook pairs names with telephone numbers.",
+      explanation:
+          "Explanation: Users only need to remember easy website names because the DNS server looks up the numeric destination address needed by computer hardware.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L1/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A graphic arts student in Ho wants to organise a digital album of fabric embroidery patterns collected from different websites for future project inspiration. Which type of social media platform should she select, and why?",
+      answer:
+          "Correct Answer: Pinterest, because it provides digital pinboards designed to organise and bookmark web images using direct hyperlinks.",
+      explanation:
+          "Explanation: Pinterest specializes in visual bookmarking, enabling users to categorise instructional images onto topic boards that preserve links back to the original source materials.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A school debating club in Sunyani plans to broadcast their grand inter-school debate final in real time so parents and alumni can watch the speeches live and post instant reactions. Which platform format meets this need?",
+      answer:
+          "Correct Answer: Facebook Live, because it streams real-time mobile video broadcasts and supports instantaneous audience commentary.",
+      explanation:
+          "Explanation: Real-time event broadcasting requires live streaming functionality such as Facebook Live, whereas standard photo sharing platforms only support pre-captured or static imagery.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the primary difference between a public profile and a private profile on photo sharing platforms like Instagram.",
+      answer:
+          "Correct Answer: A public profile allows anyone on the internet to view posts, whereas a private profile requires owner approval for each follower.",
+      explanation:
+          "Explanation: Account visibility settings control access to personal media; private configurations protect student privacy by restricting media viewing exclusively to confirmed connections.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student needs to submit a formal essay to her teacher so that the margins, headings, and page borders appear exactly identical regardless of the device the teacher uses. Which document file format should she use, and why?",
+      answer:
+          "Correct Answer: Portable Document Format (PDF), because it preserves layout and formatting across all devices without requiring the original authoring program.",
+      explanation:
+          "Explanation: Unlike editable text files which may reformat based on local software settings, a PDF locks the visual presentation in place for universal viewing.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: When composing an email in an application like Microsoft Outlook, what icon universally represents the command used to attach a file from your computer storage?",
+      answer: "Correct Answer: A paperclip icon.",
+      explanation:
+          "Explanation: The paperclip is the standard graphical interface icon used globally across email clients to signify attaching an external document to an email message.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain the operational difference between clicking \"Preview\" on an email attachment and clicking \"Download\".",
+      answer:
+          "Correct Answer: Preview displays the file directly inside the browser for quick reading, while Download saves a permanent copy to local storage.",
+      explanation:
+          "Explanation: Previewing is an instant read-only display that saves local storage space, whereas downloading copies the full file to the device's storage drive for offline access.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Why is it beneficial for a school computer club to store member email addresses inside an address book rather than copying them from a paper list every week?",
+      answer:
+          "Correct Answer: It prevents spelling errors in addresses and saves time by letting users select contacts directly.",
+      explanation:
+          "Explanation: An address book automates entry, eliminating common typographical errors that cause email delivery failures while significantly speeding up message composition.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: When creating a new contact entry in an email application like Outlook, what are the three essential text fields that should always be completed?",
+      answer:
+          "Correct Answer: The first name, the surname, and the email address.",
+      explanation:
+          "Explanation: While other fields like phone numbers or job titles are optional, the person's name and valid email address are necessary to identify and route emails to them.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: State the function of clicking directly on the \"To\" button in an email composition window.",
+      answer:
+          "Correct Answer: It opens the address book directory so the user can select saved contacts.",
+      explanation:
+          "Explanation: Clicking the \"To\" button launches the contact picker interface, allowing users to search and insert saved recipient addresses without manual keyboard typing.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss3_L1/7. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A junior high school headmaster finds that the school fee collection database has been completely locked by an unknown malicious program, preventing staff from opening student payment records. Identify the specific data threat demonstrated here and explain your answer.",
+      answer: "Correct Answer: Interruption.",
+      explanation:
+          "Explanation: The malicious program has made the fee records unavailable to the school staff who have legitimate authorization to access them. Because system availability is cut off, it represents an interruption attack.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: While travelling on a commercial bus, a passenger connects to an open Wi-Fi network. A stranger on the same network captures the passenger's private email messages without stopping them from being delivered. Identify the data threat and state why it fits this scenario.",
+      answer: "Correct Answer: Interception.",
+      explanation:
+          "Explanation: The attacker viewed and copied confidential messages during network transmission without interfering with the delivery of the message to its destination. This is unauthorized reading or eavesdropping, which defines interception.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A dishonest clerk secretly adjusts the final price on a school supplies delivery note stored on an office computer from 450 Cedis to 950 Cedis before printing it. Which data threat has occurred? Explain your reasoning.",
+      answer: "Correct Answer: Modification.",
+      explanation:
+          "Explanation: The original, legitimate figures were altered and corrupted by an unauthorized individual. Because the existing information was changed, the integrity of the data was destroyed through modification.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 4: An unauthorized intruder gains access to a municipal council computer and creates five non-existent vendor accounts to issue automated payment cheques. State the specific data threat involved and explain your choice.",
+      answer: "Correct Answer: Fabrication.",
+      explanation:
+          "Explanation: The intruder created and inserted completely counterfeit accounts into the computer system rather than adjusting existing vendor files. Introducing fake items to deceive authenticity constitutes fabrication.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss3_L2/7. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A regional hospital network in Sunyani prevents unauthorized visitors from reading patient lab results sent across internal wireless routers. Identify the primary protection method used to keep transmitted records confidential and explain how it operates.",
+      answer: "Correct Answer: Encryption (and Decryption).",
+      explanation:
+          "Explanation: Encryption scrambles readable patient records into cipher text before transmission across the wireless network. Only receiving computers holding the matching private decryption key can unscramble the message, keeping the data completely private from network interceptors.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the practical difference between authentication and authorisation using an automated junior high school library catalog system as an example.",
+      answer:
+          "Correct Answer: Authentication verifies user identity, while authorisation controls user rights.",
+      explanation:
+          "Explanation: Authentication occurs when a student logs into the catalog system using their registered student ID number and secret password. Authorisation occurs after login, when the system allows the student to borrow books and view search records, but prevents them from editing book records or deleting library fee invoices.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A retail store manager in Tema notices that a dismissed employee attempted to create five counterfeit supplier accounts on the store server. State the protection method that should have been enforced to prevent this fabrication attack and explain how it works.",
+      answer:
+          "Correct Answer: Authorisation combined with immediate account deactivation.",
+      explanation:
+          "Explanation: Proper authorisation controls ensure that only current, verified system administrators have rights to create new accounts. Disabling login credentials immediately upon an employee's departure revokes access rights, preventing them from fabricating new accounts or records.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss4Lesson1PracticeData = PracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s3_ss4_L1/6. GUIDED PRACTICE update.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A JHS 2 student wants to research gold mining practices in Obuasi. However, the search results keep showing news reports about illegal surface mining known as galamsey, which the student does not want. How should the student structure the search terms to solve this issue?",
+      answer:
+          'Correct Answer: The student should enter: "gold mining" AND Obuasi NOT galamsey (or "gold mining" AND Obuasi -galamsey).',
+      explanation:
+          "Explanation: Using quotation marks ensures the phrase gold mining is treated as a single concept. Adding AND Obuasi guarantees the location is included. Applying the NOT operator or minus sign immediately before galamsey filters out all unwanted articles discussing illegal surface mining.",
+    ),
+    PracticeQuestion(
+      scenario:
+          'Question 2: Explain why placing quotation marks around the phrase "Akosombo Dam electricity generation" produces fewer, more useful web pages than typing the same words without quotation marks.',
+      answer:
+          "Correct Answer: Quotation marks force the search engine to find those exact four words in that precise order. Without quotes, the engine returns millions of pages where the words appear separately in unrelated contexts.",
+      explanation:
+          "Explanation: When entered without quotes, any page mentioning dams in other countries or basic electricity definitions might appear. Enclosing the entire sequence in quotation marks requires all four terms to sit together as a continuous phrase, eliminating irrelevant pages.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: A student wants to find information on traditional festivals in the Central Region, specifically looking for either Fetu Afahye or Aboakyer, but wants to make sure the festival is tied to tourism. How can brackets and the OR operator be used to achieve this?",
+      answer:
+          'Correct Answer: The student should write: ("Fetu Afahye" OR Aboakyer) AND tourism.',
+      explanation:
+          "Explanation: Placing the two festival names inside brackets separated by the OR operator allows the search engine to accept either cultural event. The AND operator then requires that whichever festival is found, the page must also discuss tourism.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S3Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss4_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: A student in Cape Coast is researching historical trade routes across West Africa. When using one search engine, the top results only show tourist hotel bookings and commercial travel agencies. What practical step should the student take using another search engine to find academic history sources?",
+      answer:
+          "Correct Answer: The student should enter the exact research query into an alternative search engine, such as Bing, Yahoo, or Google, to see different indexed pages and academic sources.",
+      explanation:
+          "Explanation: Different search engines maintain their own databases and use different ranking formulas. If one engine prioritises commercial tourism websites, switching to an alternative platform can immediately surface educational and historical archives that were ranked lower on the first engine.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain the role of software spiders or crawlers and how their activities cause two search engines to display different results for the same keyword.",
+      answer:
+          "Correct Answer: Web spiders continuously traverse the internet to index web pages into private databases. Because spiders from different companies visit different sites at different times, their databases contain different pages and produce varying results.",
+      explanation:
+          "Explanation: Google and Microsoft operate independent spiders that crawl the web separately. If a spider from one service has not crawled a specific Ghanaian university website, that engine cannot display the page, whereas another engine whose spider visited the site will list it.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Two students enter the search phrase \"climate change effects\" agriculture Ghana into Google and Ask.com. Why is comparing the findings from both platforms better than relying entirely on one?",
+      answer:
+          "Correct Answer: Comparing results allows students to gather a wider range of sources, combining official policy documents with community question forums for a more complete study.",
+      explanation:
+          "Explanation: One engine may prioritise formal scientific reports while the other highlights practical community discussions. Synthesising information from both search engines ensures students do not miss essential viewpoints or data.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain the key functional difference between a variable and a constant in a computer program.",
+      answer:
+          "Correct Answer: A variable is a named memory location whose stored value can change during program execution, whereas a constant holds a fixed value that cannot be altered once defined.",
+      explanation:
+          "Explanation: Variables are used for dynamic values like scores or counters. Constants prevent accidental changes to values that must remain fixed, such as tax rates or physical constants.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A student writes the code statement x = x + 5;. Explain how a programming language interprets this line, and why it is valid in coding even though it is invalid in basic algebra.",
+      answer:
+          "Correct Answer: In programming, = is the assignment operator, not an equality sign. The computer evaluates the expression on the right by adding 5 to the current value of x, then stores the result back into x.",
+      explanation:
+          "Explanation: In mathematics, x = x + 5 implies a number equals itself plus five, which is impossible. In coding, the statement updates the stored value of the variable.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Evaluate the following programming expression step by step using operator precedence: 20 - 4 * 3 + 2.",
+      answer: "Correct Answer: 10",
+      explanation:
+          "Explanation: Under operator precedence rules, multiplication has higher priority than addition and subtraction. First, calculate 4 * 3 = 12. The expression becomes 20 - 12 + 2. Evaluating addition and subtraction from left to right: 20 - 12 = 8, and 8 + 2 = 10.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L2/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why comparison operators in block-based programming environments like Scratch are shaped as hexagons rather than rectangles.",
+      answer:
+          "Correct Answer: Hexagonal blocks are specially shaped to fit exclusively into matching hexagonal slots found inside conditional control blocks like IF ... THEN statements.",
+      explanation:
+          "Explanation: The unique shape prevents programmers from placing incompatible blocks—like mathematical text or plain strings—where a true-or-false Boolean condition is required.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Given that a variable score = 45, evaluate the compound logical expression (score > 50) OR (score < 60) and explain the result.",
+      answer:
+          "Correct Answer: The expression evaluates to True because although score > 50 is false, the second condition score < 60 is true, and the OR operator requires only one condition to be true.",
+      explanation:
+          "Explanation: When using an OR operator, if at least one side evaluates to true, the entire combined logical expression results in True.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain the exact functional difference between the AND operator and the OR operator when evaluating two Boolean conditions.",
+      answer:
+          "Correct Answer: The AND operator requires all connected conditions to be true for the result to be true, whereas the OR operator requires only one condition to be true.",
+      explanation:
+          "Explanation: AND is strict and yields false if any single part fails, while OR is inclusive and yields true if any single part succeeds.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L3/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Given the code snippet a = 3; b = 5; c = 3 * (5 - 3) * 2;, trace the execution steps and state the final value stored in variable c.",
+      answer: "Correct Answer: The final value stored in c is 12.",
+      explanation:
+          "Explanation: First, evaluate the brackets: 5 - 3 = 2. Then perform the multiplications from left to right: 3 * 2 = 6, and 6 * 2 = 12.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Explain why a programmer must use parentheses when writing a complex arithmetic expression in a programming language like Python or JavaScript.",
+      answer:
+          "Correct Answer: Parentheses override standard operator precedence, ensuring that specific additions or subtractions are calculated before multiplication or division takes place.",
+      explanation:
+          "Explanation: Without brackets, computers automatically execute multiplication and division first, which can alter the intended mathematical logic of an equation.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Evaluate the expression 20 - 15 / 5 - 3 step by step using operator precedence rules.",
+      answer: "Correct Answer: The expression evaluates to 14.",
+      explanation:
+          "Explanation: Division takes priority over subtraction. First, calculate 15 / 5 = 3. The expression becomes 20 - 3 - 3. Evaluating from left to right: 20 - 3 = 17, and 17 - 3 = 14.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why variable names in programming languages should not contain spaces, and describe how programmers format multi-word names instead.",
+      answer:
+          "Correct Answer: Spaces break the syntax parser because computers interpret whitespace as a separator between separate instructions, so programmers use combined words or camel case (e.g., learnerAge).",
+      explanation:
+          "Explanation: Programming syntax rules require identifiers to be single continuous strings of text, making descriptive formatting essential for readability.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: A student initializes a variable with set points to 10; and subsequently executes change points by 5;. State the final value stored in points and explain the operation.",
+      answer:
+          "Correct Answer: The final value stored is 15, because the change block adds 5 to the existing value of 10.",
+      explanation:
+          "Explanation: The set block establishes the baseline value, while the change block performs an incremental addition update.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain the functional difference between setting a variable scope to \"For all sprites\" versus \"For this sprite only\" in Scratch.",
+      answer:
+          "Correct Answer: \"For all sprites\" makes the variable globally accessible across the entire project, whereas \"For this sprite only\" restricts access exclusively to the active sprite.",
+      explanation:
+          "Explanation: Scope management prevents unintended data interference between different independent characters or objects in a game.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [

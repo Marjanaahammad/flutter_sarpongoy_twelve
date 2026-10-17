@@ -64,9 +64,29 @@ class ActivityProgress {
       'quiz_original_score': activityType == 'quiz' ? originalScore : null,
       'total_questions': totalQuestions,
       'activity_minutes': activityMinutes,
-      'last_updated': lastUpdated.toIso8601String(),
+      'last_updated': lastUpdated.toUtc().toIso8601String(),
       'sync_status': syncStatus,
     };
+  }
+
+  /// Local actions are new attempts even when a legacy server clock is ahead.
+  /// Keep their revision newer so a subsequent pull cannot undo the new score.
+  ActivityProgress? resolveUpdate(
+    ActivityProgress existing, {
+    required bool fromBackend,
+  }) {
+    final incomingTime = lastUpdated.toUtc();
+    final existingTime = existing.lastUpdated.toUtc();
+    if (fromBackend) {
+      return incomingTime.isBefore(existingTime) ? null : this;
+    }
+    return copyWith(
+      originalScore: existing.originalScore ?? originalScore,
+      lastUpdated: incomingTime.isAfter(existingTime)
+          ? incomingTime
+          : existingTime.add(const Duration(milliseconds: 1)),
+      syncStatus: 0,
+    );
   }
 
   factory ActivityProgress.fromMap(Map<String, dynamic> map) {

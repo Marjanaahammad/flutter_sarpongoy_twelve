@@ -7,7 +7,10 @@ class ProgressRepository {
   final _dbService = DatabaseService.instance;
   final _authStorageService = AuthStorageService();
 
-  Future<int> saveProgress(ActivityProgress progress) async {
+  Future<int> saveProgress(
+    ActivityProgress progress, {
+    bool fromBackend = false,
+  }) async {
     final role = await _authStorageService.getRole();
     if (role?.toLowerCase() == 'teacher') {
       DPrint.info('Teacher view: skipping progress save to local database');
@@ -32,10 +35,11 @@ class ProgressRepository {
       final existingProgress =
           ActivityProgress.fromMap(existing.first as Map<String, dynamic>);
 
-      // Comparison using UTC to be safe across timezones/formats
-      if (progress.lastUpdated
-          .toUtc()
-          .isBefore(existingProgress.lastUpdated.toUtc())) {
+      final update = progress.resolveUpdate(
+        existingProgress,
+        fromBackend: fromBackend,
+      );
+      if (update == null) {
         DPrint.info(
             'Skipping save: Incoming data (${progress.lastUpdated}) is older than existing record (${existingProgress.lastUpdated})');
         return existing.first['id'] as int;
@@ -44,7 +48,7 @@ class ProgressRepository {
       // Update existing record
       return await db.update(
         'activity_progress',
-        progress.toMap(),
+        update.toMap(),
         where: 'id = ?',
         whereArgs: [existing.first['id'] as int],
       );
