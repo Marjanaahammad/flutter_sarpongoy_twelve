@@ -8,6 +8,7 @@ import 'package:flutter_sarpongoy_twelve/features/home/screens/contents/model/in
 import 'package:flutter_sarpongoy_twelve/features/progress/models/progress_model.dart';
 import 'package:flutter_sarpongoy_twelve/features/progress/repositories/progress_repository.dart';
 import 'package:flutter_sarpongoy_twelve/core/services/sync_service.dart';
+import '../model/independent_question_state.dart';
 
 class IndependentController extends GetxController {
   final AudioPlayer _player = AudioPlayer();
@@ -36,6 +37,14 @@ class IndependentController extends GetxController {
   final RxBool isSecondFailPending = false.obs;
   final RxBool isRevealState = false.obs;
   final RxList<int> incorrectOptionIndices = <int>[].obs;
+  final Map<int, IndependentQuestionState> _questionStates = {};
+  bool _isChecking = false;
+  int _attemptVersion = 0;
+
+  IndependentQuestionState get _currentState => _questionStates.putIfAbsent(
+        currentQuestionIndex.value,
+        IndependentQuestionState.new,
+      );
 
   late IndependentPracticeModel model;
   late String lessonId;
@@ -68,11 +77,19 @@ class IndependentController extends GetxController {
     subStrandName = subStrand;
     lessonNumber = number;
     gradeName = grade;
+    _attemptVersion++;
+    _questionStates.clear();
+    _isChecking = false;
+    currentQuestionIndex.value = 0;
+    correctAnswersCount.value = 0;
+    showFinalResults.value = false;
+    resetQuestionState();
     startIndependentSequence();
   }
 
   @override
   void onClose() {
+    _attemptVersion++;
     _player.dispose();
     super.onClose();
   }
@@ -117,17 +134,26 @@ class IndependentController extends GetxController {
   }
 
   void selectOption(int index) {
-    if (!isChecked.value) {
-      selectedOptionIndex.value = index;
-      showCheckButton.value = true;
+    if (_isChecking ||
+        index < 0 ||
+        index >= questions[currentQuestionIndex.value].options.length) {
+      return;
     }
+    _currentState.select(index);
+    resetQuestionState();
+    _calculateScore();
   }
 
   void checkAnswer() {
-    if (selectedOptionIndex.value == -1) return;
-
+    if (_isChecking) return;
+    final state = _currentState;
     final question = questions[currentQuestionIndex.value];
-    bool isCorrect = selectedOptionIndex.value == question.correctIndex;
+    if (!state.check(question.correctIndex)) return;
+    final isCorrect = state.correct;
+    final questionIndex = currentQuestionIndex.value;
+    final attemptVersion = _attemptVersion;
+    _isChecking = true;
+    showCheckButton.value = false;
 
     Get.dialog(
       Center(
@@ -147,51 +173,34 @@ class IndependentController extends GetxController {
     );
 
     Future.delayed(const Duration(seconds: 2), () {
+      if (attemptVersion != _attemptVersion) return;
       if (Get.isDialogOpen ?? false) Get.back();
-
-      if (isCorrect) {
-        isChecked.value = true;
-        showCheckButton.value = false;
-        isCorrectState.value = true;
-        correctAnswersCount.value++;
-        showDifficulty.value = true;
-        showExplanation.value = true;
-        showNextButton.value = true;
-      } else {
-        isChecked.value = true;
-        showCheckButton.value = false;
-        isCorrectState.value = false;
-
-        if (incorrectOptionIndices.length == 1) {
-          isSecondFailPending.value = true;
-        }
-      }
+      _isChecking = false;
+      _calculateScore();
+      if (currentQuestionIndex.value == questionIndex) resetQuestionState();
     });
   }
 
   void handleContinue() {
-    isSecondFailPending.value = false;
-    isRevealState.value = true;
-    showNextButton.value = true;
-    showDifficulty.value = true;
-    showExplanation.value = true;
+    if (_isChecking) return;
+    _currentState.reveal();
+    resetQuestionState();
+    _calculateScore();
   }
 
   void tryAgain() {
-    if (selectedOptionIndex.value != -1) {
-      incorrectOptionIndices.add(selectedOptionIndex.value);
-    }
-    isChecked.value = false;
-    isCorrectState.value = false;
-    selectedOptionIndex.value = -1;
-    showCheckButton.value = false;
+    if (_isChecking) return;
+    _currentState.retry();
+    resetQuestionState();
   }
 
   void nextQuestion() {
+    if (_isChecking || !_currentState.canContinue) return;
     if (currentQuestionIndex.value < questions.length - 1) {
       currentQuestionIndex.value++;
       resetQuestionState();
     } else {
+      _calculateScore();
       _saveFinalProgress();
       showFinalResults.value = true;
     }
@@ -227,6 +236,7 @@ class IndependentController extends GetxController {
   }
 
   void previousQuestion() {
+    if (_isChecking) return;
     if (currentQuestionIndex.value > 0) {
       currentQuestionIndex.value--;
       resetQuestionState();
@@ -234,17 +244,26 @@ class IndependentController extends GetxController {
   }
 
   void resetQuestionState() {
-    selectedOptionIndex.value = -1;
-    showDifficulty.value = false;
-    showExplanation.value = false;
-    showNextButton.value = false;
-    isChecked.value = false;
-    showCheckButton.value = false;
-    isCorrectState.value = false;
+    final state = _currentState;
+    selectedOptionIndex.value = state.selectedOption;
+    showDifficulty.value = state.canContinue;
+    showExplanation.value = state.canContinue;
+    showNextButton.value = state.canContinue;
+    isChecked.value = state.checked;
+    showCheckButton.value = state.selectedOption >= 0 &&
+        !state.checked &&
+        !state.revealed &&
+        !state.secondFailPending;
+    isCorrectState.value = state.correct;
     isForcedCorrect.value = false;
-    isSecondFailPending.value = false;
-    isRevealState.value = false;
-    incorrectOptionIndices.clear();
+    isSecondFailPending.value = state.secondFailPending;
+    isRevealState.value = state.revealed;
+    incorrectOptionIndices.assignAll(state.incorrectOptions);
+  }
+
+  void _calculateScore() {
+    correctAnswersCount.value =
+        _questionStates.values.where((state) => state.earnsPoint).length;
   }
 
   String getFeedbackMessage() {
