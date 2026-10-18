@@ -130,6 +130,13646 @@ final QuizModel defaultQuizData = QuizModel(
     ),
   ],
 );
+
+final QuizModel computingJhs1S1Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which generation of computers introduced the microprocessor to the world?",
+      options: [
+        "Fourth generation",
+        "Third generation",
+        "Second generation",
+        "First generation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fourth-generation computing began with the integration of processors onto microchips.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What raw material is primarily used to manufacture microchips?",
+      options: ["Copper", "Silicon", "Silver", "Carbon"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Silicon is the semiconductor material used to produce microchips and integrated circuits.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which unit within the Central Processing Unit carries out basic arithmetic operations such as addition and division?",
+      options: [
+        "System bus",
+        "Flash chip",
+        "Control unit",
+        "Arithmetic logic unit",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Arithmetic and Logic Unit performs mathematical operations and logical evaluations.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How did Very Large-Scale Integration affect the physical footprint of computer systems?",
+      options: [
+        "Made computers much smaller",
+        "Made computers heavier to move",
+        "Required entire rooms for setup",
+        "Prevented computers from networking",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Packing millions of transistors onto tiny microchips allowed computers to become small desktop and portable devices.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In what year did Intel release the first commercial microprocessor?",
+      options: ["1985", "1965", "1971", "1990"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Intel 4004 microprocessor was introduced in the year 1971.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which part of the CPU directs electronic traffic and manages instruction execution across hardware?",
+      options: [
+        "Random Access Memory",
+        "Read Only Memory",
+        "The Control Unit",
+        "The Graphics Card",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Control Unit interprets instructions and directs the coordination of all computer subsystems.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What primary advantage did fourth-generation personal computers offer over earlier systems?",
+      options: [
+        "Greater heat output",
+        "Higher operating cost",
+        "Need for large teams",
+        "Higher speed and lower price",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Fourth-generation systems are significantly faster, more accurate, and much less costly to produce and purchase.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is the microprocessor often referred to as the brain of the computer system?",
+      options: [
+        "It stores paper documents",
+        "It prints physical receipts",
+        "It delivers network power",
+        "It directs operations and data",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The microprocessor controls and executes instructions for all connected hardware components.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What operation is performed when a computer checks whether 85 is greater than 50?",
+      options: [
+        "Logical comparison",
+        "Program debugging",
+        "Arithmetic addition",
+        "Memory formatting",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Comparing two values to find if one is greater than, less than, or equal to the other is a logical operation handled by the ALU.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term describes the integration of millions of transistors onto a single microchip?",
+      options: [
+        "Discrete Component Wiring",
+        "Very Large-Scale Integration",
+        "Vacuum Tube Multiplication",
+        "Magnetic Relay Automation",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "VLSI stands for Very Large-Scale Integration, which allows millions of components to fit on one microchip.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is an example of an automatic input device?",
+      options: [
+        "Barcode scanner",
+        "Desktop mouse",
+        "QWERTY keyboard",
+        "Handheld gamepad",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A barcode scanner captures data directly without requiring individual character typing.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why are keyboards widely used despite being slower than automated scanners?",
+      options: [
+        "They produce paper copies",
+        "They allow flexible text entry",
+        "They never break down",
+        "They require no electricity",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Keyboards provide complete flexibility to enter any combination of words, numbers, and symbols.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which device is designed specifically to capture video game directional commands and player motions?",
+      options: [
+        "Thermal printer",
+        "Flatbed scanner",
+        "Barcode reader",
+        "Game controller",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Gamepads and joysticks are specialized manual input devices for controlling video games.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What technology reads the special magnetic numbers printed at the bottom of banking cheques?",
+      options: [
+        "Magnetic Ink Character Reader",
+        "Optical Mark Recognition Device",
+        "High Resolution Digital Camera",
+        "Handheld Laser Barcode Scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "MICR devices detect magnetic ink patterns on cheques to process bank transactions securely.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens when a barcode reader attempts to scan a torn or crumpled product label?",
+      options: [
+        "It guesses the price",
+        "It prints a fresh barcode",
+        "It fails to read the code",
+        "It shuts down the computer",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Automatic optical scanners cannot decode data if the physical barcode lines are obscured or torn.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which input device uses a sensitive pad that senses finger movement and taps on laptop computers?",
+      options: [
+        "Wireless plotter",
+        "Document feeder",
+        "Built-in touchpad",
+        "Optical character",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A touchpad is a manual pointing device built into laptops to control the cursor.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following is a primary disadvantage of manual data entry?",
+      options: [
+        "Cannot enter any numbers",
+        "Requires high-cost lasers",
+        "Damaged by dirty labels",
+        "Susceptible to human errors",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Manual typing over long periods leads to fatigue and transcription mistakes.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does an Optical Mark Reader detect answers on an objective test sheet?",
+      options: [
+        "By reading audio speech",
+        "By weighing paper sheets",
+        "By sensing heat levels",
+        "By detecting pencil marks",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "An OMR system shines light to detect the position of graphite pencil marks on paper.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the primary operational role of an input hardware device?",
+      options: [
+        "Sending data to processor",
+        "Displaying finished reports",
+        "Storing files permanently",
+        "Printing colour graphics",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Input devices capture raw instructions and data from users or items and send them to the CPU.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which hardware device is best suited for converting physical photo prints into digital image files?",
+      options: [
+        "Optical mouse",
+        "Flatbed scanner",
+        "Concept board",
+        "Barcode reader",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Flatbed photo scanners capture high-resolution digital copies of paper documents and photographs.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which type of plotter holds the drawing sheet stationary on a flat bed while mechanical pens move across it?",
+      options: [
+        "Flatbed plotter",
+        "Drum plotter",
+        "Laser scanner",
+        "Rotating unit",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In a flatbed plotter, the paper or material rests flat on a table surface while pens sketch across both axes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What primary limitation affects the built-in audio system of most pocket pico projectors?",
+      options: [
+        "Requires paper tapes",
+        "Has very low volume",
+        "Uses too much power",
+        "Cannot play any sound",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Due to their miniature pocket size, pico projectors have tiny internal speakers with limited volume output.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which output device is best suited for projecting a teacher's screen to an assembly of three hundred students?",
+      options: [
+        "Flatbed scanner",
+        "Inkjet printer",
+        "Desktop monitor",
+        "Data projector",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Multimedia data projectors are engineered to cast large, bright displays across auditoriums and classrooms.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary difference in drawing technique between a vector plotter and an ordinary paper printer?",
+      options: [
+        "Plotters draw lines",
+        "Plotters use dots",
+        "Printers use blades",
+        "Printers use knives",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Plotters move pens along mathematical paths to draw smooth continuous lines rather than spraying dot matrices.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are pico projectors considered far more energy-efficient than traditional classroom projectors?",
+      options: [
+        "They use hot lamps",
+        "They lack processors",
+        "They use LED lights",
+        "They run on fuel oil",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Pico projectors rely on low-power, cool-running Light Emitting Diodes rather than power-hungry halogen bulbs.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which group of professionals relies most heavily on graphing plotters for their day-to-day work output?",
+      options: [
+        "Hotel receptionists",
+        "Supermarket cashiers",
+        "Architects and engineers",
+        "Assembly hall cleaners",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Architects, structural engineers, and cartographers use plotters to produce high-precision plans and maps.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens to a projected image when a multimedia data projector is used in direct sunlight?",
+      options: [
+        "The colors get darker",
+        "The image will freeze",
+        "The sound gets louder",
+        "The image gets washed out",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Direct ambient light overwhelms the projector's beam, destroying image contrast and readability.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What major hardware capability allows a pico projector to operate in remote villages without an electrical connection?",
+      options: [
+        "Solar glass casing",
+        "Wind motor blades",
+        "Built-in fuel cell",
+        "Rechargeable battery",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "An internal rechargeable battery enables portable presentation use without connection to mains electricity.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following materials can be fed into flatbed plotters for direct drafting and signage cutting?",
+      options: [
+        "Cardboard and plastic",
+        "Wet cement slabs",
+        "Heavy water tanks",
+        "Liquid glass jars",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Flatbed plotters can hold rigid materials such as poster boards, acrylic, and cardboard securely on their tables.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is another common name used to refer to a multimedia data projector?",
+      options: [
+        "Photo documenter",
+        "Digital video projector",
+        "Magnetic data writer",
+        "Sound frequency mixer",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Multimedia projectors are commonly referred to as data projectors or digital video projectors.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of memory buffer temporarily stores recently read disk data to speed up drive access?",
+      options: [
+        "Disk cache",
+        "Flash BIOS",
+        "CMOS chip",
+        "Virtual swap",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Disk caching holds frequently requested data in fast memory chips to avoid mechanical read delays.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the typical storage capacity of a standard audio or data Compact Disc?",
+      options: [
+        "120 Megabytes",
+        "700 Megabytes",
+        "4.7 Gigabytes",
+        "8.5 Gigabytes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A standard commercial CD holds approximately 700 Megabytes of digital data.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which optical disc format allows data to be written once by the user and permanently prevents accidental deletion?",
+      options: [
+        "BD-RE",
+        "CD-RW",
+        "DVD-RAM",
+        "DVD-R",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Discs designated with a simple -R can be written to once, preserving data permanently without erasure.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How does a portable 2.5-inch external hard drive receive electrical power to spin its internal drive?",
+      options: [
+        "Through the USB cable",
+        "From an internal motor",
+        "From a wall plug lead",
+        "From a solar cell face",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Portable hard drives are bus-powered, drawing required electrical current directly through the host USB connection.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which rotational speed represents a typical high-performance mechanical hard drive used in enterprise servers?",
+      options: [
+        "1,200 RPM",
+        "3,600 RPM",
+        "15,000 RPM",
+        "54,000 RPM",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "High-end enterprise server drives operate at extreme rotational velocities of 10,000 to 15,000 RPM.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does a Blu-ray disc hold substantially more data than a standard DVD of the exact same physical diameter?",
+      options: [
+        "It has thicker plastic",
+        "It is made of pure gold",
+        "It uses blue-violet lasers",
+        "It spins in both ways",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Blu-ray uses a shorter wavelength blue-violet laser, which focuses on much tighter track pits than red DVD lasers.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which property describes a secondary storage device that retains all its saved data when power is disconnected?",
+      options: [
+        "Dynamic",
+        "Volatile",
+        "Virtual",
+        "Non-volatile",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Non-volatile memory devices retain stored binary data permanently regardless of whether electric power is supplied.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens to data stamped onto a CD-ROM disc during factory manufacturing?",
+      options: [
+        "It can be formatted",
+        "It can be overwritten",
+        "It can be edited later",
+        "It can only be read",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "CD-ROM stands for Compact Disc Read-Only Memory; its tracks are permanently moulded and cannot be modified.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following hard disk drive components reads and writes magnetic data across the spinning platters?",
+      options: [
+        "The read-write head",
+        "The cooling fan blade",
+        "The power cable port",
+        "The external mounting",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The electromagnetic read-write head hovers over the spinning platter surface to detect and alter magnetic charges.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term designates an optical disc format that can be erased and rewritten multiple times?",
+      options: [
+        "CD-ROM",
+        "CD-RW",
+        "DVD-R",
+        "BD-ROM",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The RW designation identifies rewritable optical media that can be recorded, erased, and re-used.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature on the modern Windows Start screen displays dynamic, real-time information such as live news or weather?",
+      options: [
+        "Live interactive tiles",
+        "Fixed system shortcuts",
+        "Static wallpaper images",
+        "Basic command consoles",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Live tiles update dynamically to present real-time information without requiring the app to be opened.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual effect occurs across open windows during temporal peeking on the Windows desktop?",
+      options: [
+        "Windows turn black",
+        "Windows turn transparent",
+        "Windows are closed",
+        "Windows get renamed",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Temporal peeking makes open windows see-through, letting the user view the desktop beneath.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which taskbar utility enables a user to search for local files, computer settings, and web results directly?",
+      options: [
+        "System battery gauge",
+        "Audio volume mixer",
+        "Virtual network tool",
+        "Windows search box",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The taskbar search box allows immediate searching across local storage, system tools, and the web.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary operational purpose of the Task View button situated on the Windows taskbar?",
+      options: [
+        "Managing virtual desktops",
+        "Adjusting display brightness",
+        "Burning files to optical disc",
+        "Formatting secondary storage",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Task View displays all running application windows and lets users organize multiple virtual workspaces.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens when you hover your mouse pointer over an active application icon located on the taskbar?",
+      options: [
+        "The program will uninstall",
+        "The screen resets to black",
+        "A preview thumbnail appears",
+        "The computer shuts down now",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Hovering over an active taskbar button displays a floating miniature thumbnail of that window.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where on the Windows taskbar is the notification area (system tray) situated?",
+      options: [
+        "In the center of the bar",
+        "Behind the start button",
+        "At the extreme far right",
+        "In the top display margin",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The system tray notification area sits at the far right of the taskbar, displaying the clock and background apps.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why would a student choose to pin frequently used applications directly onto the Windows taskbar?",
+      options: [
+        "To reduce computer heat",
+        "To boost internet speed",
+        "To save battery runtime",
+        "For quick single-click launch",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Pinned applications remain permanently on the taskbar, allowing instant launching with one click.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a user permanently close a running window directly from its floating preview thumbnail?",
+      options: [
+        "By typing exit on keys",
+        "By dragging it to trash",
+        "By restarting the system",
+        "By clicking its red cross",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Each preview thumbnail includes a small close button in its upper-right corner to exit the program directly.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What key advantage does temporal peeking offer compared to manually clicking the Show Desktop button?",
+      options: [
+        "Leaves windows undisturbed",
+        "Prints current screen view",
+        "Scans system for malware",
+        "Increases processor clock",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Temporal peeking allows a temporary transparent look at the desktop without minimizing or rearranging open windows.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term defines the primary on-screen workspace that houses application shortcuts and files upon logging in?",
+      options: [
+        "The task manager",
+        "The Windows desktop",
+        "The control console",
+        "The command terminal",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The desktop is the fundamental graphical workspace displayed after logging into Windows.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss1_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of a file extension attached to the end of a filename?",
+      options: [
+        "Identifies format and app",
+        "Speeds up internet access",
+        "Cleans up temporary memory",
+        "Deletes unneeded subfolders",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "File extensions indicate the file's data type and determine which application opens it.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which character is recommended to replace blank spaces between words in professional file names?",
+      options: [
+        "Asterisk mark",
+        "Underscore line",
+        "Question symbol",
+        "Forward slash",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Underscores or hyphens should be used instead of spaces to ensure file naming consistency across operating systems.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which file extension identifies a presentation slide deck created in Microsoft PowerPoint?",
+      options: [
+        ".mp3",
+        ".txt",
+        ".avi",
+        ".pptx",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The .pptx extension denotes modern Microsoft PowerPoint presentation files.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which file permission grants a user the ability to view, alter, add, and delete files inside a folder?",
+      options: [
+        "Modify permission",
+        "Read-only control",
+        "Execute permission",
+        "System verify lock",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Modify permission allows viewing, updating, and deleting files within the specified folder.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What type of user account has full administrative authority to install programs and adjust system security?",
+      options: [
+        "Guest account",
+        "Child account",
+        "Administrator account",
+        "Standard user",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Administrator accounts possess complete authority to manage programs, hardware settings, and user privileges.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why should special characters such as slashes or question marks be avoided in filenames?",
+      options: [
+        "They consume too much memory",
+        "They drain laptop battery life",
+        "System reserved characters",
+        "They change text to numbers",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Operating systems reserve symbols like slashes and question marks for internal directory paths and commands.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following file extensions denotes a portable document format file used for digital reading?",
+      options: [
+        ".mp4",
+        ".wav",
+        ".exe",
+        ".pdf",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The .pdf extension denotes Portable Document Format files commonly used for digital textbooks and documents.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the primary operational benefit of creating a hierarchical folder structure on a computer?",
+      options: [
+        "Cools down the hard drive",
+        "Recharges computer batteries",
+        "Stops electrical power cuts",
+        "Systematic file retrieval",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Organizing files into folders and subfolders allows quick, logical searching and prevents screen clutter.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What account type is specifically designed with family safety settings and activity tracking enabled?",
+      options: [
+        "Child account",
+        "Guest account",
+        "Root account",
+        "Domain admin",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Child accounts include built-in safety controls, web filtering, and activity reports.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which standard file permission level allows running executable program applications and scripts?",
+      options: [
+        "Write only",
+        "Read and Execute",
+        "List contents",
+        "Change ownership",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Read & Execute permission allows users to view files and run application programs.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L1/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary function of a spreadsheet program in an educational setting?",
+      options: [
+        "Displaying slide shows for public speaking",
+        "Creating block-based computer animation",
+        "Organising data and calculating formulas",
+        "Playing multiplayer vocabulary challenges",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Spreadsheets are designed to hold numerical data in cells and compute values automatically using mathematical formulas.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following is a direct educational benefit of playing digital word-building games?",
+      options: [
+        "Expanding active vocabulary and spelling",
+        "Producing animated video game graphics",
+        "Connecting internet cables to hardware",
+        "Drawing three-dimensional bar charts",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Word games like Scrabble prompt students to recall, spell, and discover new words using given letter tiles.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following software applications is classified as a spreadsheet tool?",
+      options: [
+        "Keynote slides",
+        "Wordfeud mobile",
+        "Pachyderm web",
+        "Microsoft Excel",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft Excel is a standard spreadsheet program used worldwide for calculations and numerical organisation.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A JHS student wants to explain the life cycle of a flowering plant using visual slides on a projector. Which application is best?",
+      options: [
+        "Google Slides",
+        "LibreOffice Calc",
+        "Scratch editor",
+        "Classic Scrabble",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Google Slides is a presentation tool specifically built to organize text, diagrams, and media for audience viewing.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are virtual museum platforms valuable for rural schools located far from national historical sites?",
+      options: [
+        "They make physical museum trips completely illegal.",
+        "They remove historical artifacts from local palaces.",
+        "They replace classroom teachers with robot guides.",
+        "They display cultural collections via web access.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Virtual museums allow students in any location with internet access to observe, study, and research cultural artifacts remotely.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which programming tool allows students to create games by dragging and snapping code blocks together?",
+      options: [
+        "Scratch",
+        "Visme",
+        "Omeka",
+        "Prezi",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Scratch is a block-based coding environment designed to teach programming concepts visually without syntax errors.",
+    ),
+    QuizQuestion(
+      question:
+          "7. In what way does presentation software improve a student's communication skills?",
+      options: [
+        "It calculates numbers without user direction.",
+        "It structures ideas visually to engage audiences.",
+        "It checks network cables for signal latency.",
+        "It repairs damaged hard drive storage units.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Presentation slides provide organized visual aids that help speakers deliver clear, engaging, and well-structured project talks.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which pair of technology tools is correctly matched with its primary school subject area?",
+      options: [
+        "Spreadsheets in Mathematics and Scrabble in English",
+        "Virtual museums in Sports and Spreadsheets in Art",
+        "Presentation tools in Music and Scratch in Typing",
+        "Word puzzles in Science and Spreadsheets in French",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheets are used for calculations and data in Mathematics, while word-building games develop vocabulary in English Language.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a student use a spreadsheet program to manage a small school enterprise project?",
+      options: [
+        "By drawing freehand artistic portraits of buyers.",
+        "By recording voice notes for radio announcements.",
+        "By writing long descriptive stories about goods.",
+        "By tracking expenses and revenue with formulas.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheets help manage finances by tabulating costs, revenues, and profits using automated mathematical calculations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes block-based coding environments particularly useful for beginner Computing learners?",
+      options: [
+        "They eliminate syntax errors through visual blocks.",
+        "They require typing complex lines of text code.",
+        "They run only when connected to large printers.",
+        "They restrict learners to simple number tables.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Visual coding tools like Scratch use colour-coded interlocking blocks, allowing students to learn logic without typing errors.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which step must be taken first before inserting a bar chart in a spreadsheet?",
+      options: [
+        "Deleting all column headings in the sheet.",
+        "Highlighting the relevant table data cells.",
+        "Shutting down the computer monitor screen.",
+        "Disconnecting the local network Wi-Fi router.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A spreadsheet requires you to select the specific data range you want to visualize before generating a chart.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of launching full-screen Slide Show mode during a class talk?",
+      options: [
+        "It maximizes slide visibility for the audience.",
+        "It prints out hard copies for every classmate.",
+        "It translates spoken English into French text.",
+        "It prevents any future edits to the slide file.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Slide Show mode hides menus and toolbars so that the audience can focus entirely on the full-screen visual content.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which formula correctly adds numerical values from cell B2 to cell B6 in a spreadsheet?",
+      options: [
+        "=ADD(B2:B6)",
+        "=TOTAL(B2:B6)",
+        "=CALC(B2:B6)",
+        "=SUM(B2:B6)",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The standard formula function used across modern spreadsheet software to calculate totals is SUM.",
+    ),
+    QuizQuestion(
+      question:
+          "4. When demonstrating a virtual museum, what allows a student to inspect the backside of a sculpture?",
+      options: [
+        "Refreshing the web browser tab continuously.",
+        "Rotating the interactive 3D exhibit model.",
+        "Increasing the computer speaker volume level.",
+        "Switching the display monitor colour balance.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Virtual museum portals provide 3D controls that allow users to rotate digital artifacts fully in any direction.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which slide design choice ensures that text is easy to read across the classroom?",
+      options: [
+        "Dark font placed against a light background.",
+        "Light yellow font placed on a white slide.",
+        "Blinking sentences written in full capitals.",
+        "Entire textbook pages copied onto one slide.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "High visual contrast, such as dark lettering on a light background, ensures readability across distance.",
+    ),
+    QuizQuestion(
+      question:
+          '6. What occurs if a student enters "=B3+B4" into a spreadsheet cell and presses Enter?',
+      options: [
+        "The cell displays the combined sum of both cells.",
+        "The program closes the active workbook file.",
+        "The software deletes both cells permanently.",
+        "The screen displays an unformatted line chart.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The equals sign triggers formula execution, adding the two numeric values together and showing the result.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How can a presenter discover curator notes about an artifact inside a virtual museum?",
+      options: [
+        "By clicking interactive digital info markers.",
+        "By typing an equals formula in the web address.",
+        "By restarting the tablet operating software.",
+        "By inserting a new blank presentation slide.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Information hotspots or markers within virtual exhibits open pop-up cards containing curator explanations.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should presenters use short bullet points instead of long paragraphs on slides?",
+      options: [
+        "Bullet points allow audience members to read quickly.",
+        "Software programs crash when paragraphs are added.",
+        "Projectors cannot display lowercase letters clearly.",
+        "Tablets automatically delete lengthy sentences.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Concise bullet points help the audience capture key ideas quickly without distracting them from the speaker.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the best way to prepare for a group software demonstration in school?",
+      options: [
+        "Let one person do all the work silently.",
+        "Skip practice and read notes for the first time.",
+        "Memorise the entire textbook word for word.",
+        "Rehearse the steps and assign roles to members.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Practicing tool navigation and assigning specific tasks ensures smooth, confident group presentations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which action should be taken if a number is entered incorrectly into a spreadsheet cell?",
+      options: [
+        "Discard the computer and purchase a new one.",
+        "Click the cell, type the correct value, and press Enter.",
+        "Format the entire worksheet as a line graph.",
+        "Shut down the electrical power to the school lab.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheet cells are fully editable; selecting a cell and entering the new value updates all linked formulas automatically.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How do spreadsheet applications assist learners during data analysis tasks?",
+      options: [
+        "They correct punctuation in English essay paragraphs.",
+        "They prevent monitors from drawing excessive power.",
+        "They generate instant graphical charts from raw data.",
+        "They replace internet modems during school closures.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Spreadsheets allow users to convert numerical tables into visual charts, facilitating rapid data analysis.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is a direct educational benefit of using presentation slides during group talks?",
+      options: [
+        "Increasing visual impact and audience attention.",
+        "Eliminating all homework assignments for pupils.",
+        "Formatting solid-state hard drives on laptops.",
+        "Converting written text into computer viruses.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Presentation slides organize ideas with text and graphics, making oral presentations clearer and more engaging.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does playing digital word games like Scrabble benefit a student's language development?",
+      options: [
+        "It teaches learners how to assemble power plugs.",
+        "It converts word documents into spreadsheet cells.",
+        "It speeds up the cooling fan inside desktop units.",
+        "It develops vocabulary breadth and spelling skills.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Digital word games encourage active word construction, expanding vocabulary and reinforcing correct spelling.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In what way do virtual museums support independent student research?",
+      options: [
+        "By enabling students to examine primary cultural artifacts.",
+        "By providing printed paper textbooks to every home.",
+        "By charging students high entry fees for each view.",
+        "By shutting down internet links to public libraries.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Virtual museums give learners access to authentic historical artifacts and curator documentation for independent study.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is graphical representation in spreadsheets superior to long lists of numbers?",
+      options: [
+        "It consumes zero battery energy on portable devices.",
+        "It makes trends and comparisons easier to interpret.",
+        "It prevents any user from modifying spreadsheet data.",
+        "It removes the need for teachers to set exam tests.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Graphs visually illustrate patterns, spikes, and declines in data far more intuitively than raw tables of numbers.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which benefit explains why teachers encourage the use of presentation tools for class projects?",
+      options: [
+        "Slides build student speaking confidence and focus.",
+        "Slides turn off computer monitors during presentations.",
+        "Slides prevent audience members from asking questions.",
+        "Slides replace the need to research project topics.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Preparing and delivering slide shows helps students organize their thoughts and speak with greater confidence.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a spreadsheet program help a student running a small school snack business?",
+      options: [
+        "By writing fictional adventure stories for customers.",
+        "By broadcasting live radio announcements to schools.",
+        "By tracking expenses and computing profits accurately.",
+        "By designing physical clay pots for storing drinks.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheets automate financial calculations, allowing students to record revenues, track expenses, and view profit margins.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What intellectual skill is strengthened through competitive digital word games?",
+      options: [
+        "Strategic thinking and problem-solving abilities.",
+        "Hardware soldering and circuit board fabrication.",
+        "Manual physical typing speed on old typewriters.",
+        "Electrical circuit maintenance in power systems.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Word puzzle games require players to evaluate letter combinations strategically to maximise their scores.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How do digital learning tools facilitate distance education?",
+      options: [
+        "By requiring learners to walk to physical libraries.",
+        "By stopping students from communicating with peers.",
+        "By permanently erasing old school lesson archives.",
+        "By sharing educational resources and slides online.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Digital tools and presentation platforms allow teachers and students to interact and share learning materials remotely.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes virtual museum exploration particularly helpful during historical project work?",
+      options: [
+        "It allows learners to evaluate authentic research items.",
+        "It replaces historical facts with animated cartoons.",
+        "It locks student tablets so they cannot be reused.",
+        "It prints paper certificates for completing games.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Virtual museums provide access to high-resolution photographs, curator notes, and verified historical records for research.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What happens when toxic heavy metals from computer scrap seep into community soil?",
+      options: [
+        "They contaminate groundwater used for drinking.",
+        "They increase the processing speed of laptops.",
+        "They help farm crops grow taller and faster.",
+        "They convert open fields into nature reserves.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Toxic metals like mercury and lead dissolve in rainwater, soaking into soil and polluting underground drinking water.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which severe medical condition is directly linked to inhaling fumes from burning e-waste?",
+      options: [
+        "Fractured limbs",
+        "Common malaria",
+        "Mild toothache",
+        "Lung cancer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Toxic gases and particulate matter from burning plastics and metals cause severe respiratory disease and lung cancer.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does the massive demand for new computers affect natural global resources?",
+      options: [
+        "It accelerates deforestation and mineral mining.",
+        "It reduces the total amount of e-waste produced.",
+        "It eliminates industrial noise from all factories.",
+        "It naturally replaces fossil fuels with rainwater.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Sourcing raw materials for electronics requires aggressive mining and land clearance, leading to resource depletion.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is open burning of computer parts considered an irresponsible disposal method?",
+      options: [
+        "It releases poisonous gases into the atmosphere.",
+        "It cools down global atmospheric temperatures.",
+        "It requires too much clean treated freshwater.",
+        "It makes computer hardware run twice as fast.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Open burning releases toxic air pollutants like dioxins, carbon monoxide, and heavy metal ash into the environment.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which bodily organ suffers severe damage when workers are exposed to electronic toxins?",
+      options: [
+        "Stomach muscles",
+        "Kidney organ",
+        "Knee joints",
+        "Shoulder bones",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Heavy metals like lead and cadmium accumulate inside human kidneys, causing chronic organ failure.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does clearing forests to build computer assembly plants impact wildlife ecology?",
+      options: [
+        "It destroys natural animal habitats and shelters.",
+        "It creates abundant new food supplies for birds.",
+        "It protects endangered species from wildfires.",
+        "It stops atmospheric air pollution permanently.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Habitat destruction forces wildlife from their natural ecosystems, disrupting food chains and reducing biodiversity.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following is considered a component of e-waste when discarded?",
+      options: [
+        "Ripe mango skins",
+        "Wooden classroom desks",
+        "Broken CRT monitors",
+        "Cotton school uniforms",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Old computer display units and electronic monitors constitute hazardous e-waste when thrown out.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of pollution is produced by heavy shredders operating inside recycling depots?",
+      options: [
+        "Noise pollution",
+        "Genetic mutation",
+        "Thermal inversion",
+        "Radiation decay",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Industrial shredders, sorting machines, and manufacturing tools generate loud noise pollution that can cause stress and hearing loss.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why does high electricity consumption by computers contribute to climate change?",
+      options: [
+        "Electricity freezes greenhouse gases in clouds.",
+        "Power grids absorb all ambient solar radiation.",
+        "Most power plants burn fossil fuels for power.",
+        "Electric wires absorb harmful factory pollutants.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Much of the world's electricity still relies on burning coal, oil, and gas, releasing carbon emissions that drive global warming.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which toxic element found in electronic hardware is notorious for causing brain damage?",
+      options: [
+        "Silicon crystal",
+        "Copper wiring",
+        "Iron metal",
+        "Lead element",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Lead is a potent neurotoxin found in electronic solder and cathode-ray tubes that can cause irreversible brain damage.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L5/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which habit directly reduces power consumption in a computer laboratory?",
+      options: [
+        "Leaving monitors on standby all weekend long.",
+        "Turning off devices when they are not in use.",
+        "Setting display screens to maximum brightness.",
+        "Disconnecting cooling fans inside processors.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Shutting down machines completely eliminates idle electricity use and lowers overall energy consumption.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the safest way to dispose of damaged computer components?",
+      options: [
+        "Delivering them to certified recycling depots.",
+        "Throwing them into common school rubbish bins.",
+        "Burning cables in open pits behind the house.",
+        "Burying broken lithium batteries under garden soil.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Certified recyclers dismantle electronics properly, recovering raw materials without polluting the surrounding environment.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does passing national e-waste legislation protect the public?",
+      options: [
+        "It forbids the use of spreadsheets in offices.",
+        "It bans students from playing computer word games.",
+        "It penalizes improper disposal of electronic waste.",
+        "It forces schools to replace working tablets yearly.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Legislation establishes regulatory standards and penalties that deter unsafe dumping and illegal electronic burning.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which measure helps eliminate hazardous open burning at Agbogbloshie?",
+      options: [
+        "Banning all computers from entering Ghana.",
+        "Distributing lighter fluid to informal scrap yards.",
+        "Providing mechanical wire-stripping tools.",
+        "Digging open drainage trenches into Korle Lagoon.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Providing scrap workers with mechanical wire strippers enables copper recovery without burning plastic coatings.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why should schools upgrade existing computers rather than buying new models?",
+      options: [
+        "It reduces electronic waste and saves resources.",
+        "Newer computers never support educational tools.",
+        "Older computers consume zero electrical power.",
+        "Upgrading hardware slows down network speed.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Upgrading hardware extends device lifespans, curbing e-waste generation and saving financial and natural resources.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary objective of public education campaigns regarding e-waste?",
+      options: [
+        "Raising awareness of chemical toxicity in scrap.",
+        "Convincing citizens to abandon modern technology.",
+        "Encouraging people to bury toxic batteries at home.",
+        "Teaching workers how to melt computer wires faster.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Educating communities helps people understand the health hazards of heavy metals and encourages responsible disposal.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which form of clean power helps reduce computer greenhouse emissions?",
+      options: [
+        "Firewood bonfires",
+        "Solar electricity",
+        "Diesel generator",
+        "Coal incineration",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Solar power generates electricity without burning fossil fuels, lowering carbon emissions linked to device use.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What practice prevents vampire power drain from electronics?",
+      options: [
+        "Unplugging adapters when charging is finished.",
+        "Cleaning monitor screens with a moist cloth.",
+        "Installing antivirus software onto the hard disk.",
+        "Leaving laptop chargers connected day and night.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Unplugging charging bricks from wall sockets stops them from continuously consuming standby electricity.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a community ensure that functioning pre-owned computers are not wasted?",
+      options: [
+        "By burning their outer shells at rubbish dumps.",
+        "By throwing them into coastal lagoon waters.",
+        "By burying them in municipal landfill trenches.",
+        "By donating them to needy schools and libraries.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Donating working electronics extends their useful lifecycle and provides educational access to underserved groups.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is importing severely damaged computers problematic for a country?",
+      options: [
+        "It turns into immediate e-waste upon arrival.",
+        "It lowers the cost of internet bandwidth nationwide.",
+        "It speeds up the cooling performance of servers.",
+        "It provides free clean drinking water to cities.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Half-broken or obsolete electronics cannot be repaired easily and rapidly end up in local waste dumps.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss2_L6/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the very first procedure carried out when scrap computers arrive at an industrial recycling plant?",
+      options: [
+        "Melting down all components in a hot furnace.",
+        "Crushing system cases without sorting materials.",
+        "Recording inventory and sorting the equipment.",
+        "Dumping all incoming boxes into open lagoons.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Receiving, cataloguing, and sorting equipment allows recyclers to separate reusable devices from scrap streams.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which non-hazardous computer component can be safely handled by students to build a classroom craft project?",
+      options: [
+        "Detached plastic keyboard keycaps",
+        "Leaking nickel-cadmium batteries",
+        "Loose toxic chemical printer toner",
+        "Cracked cathode-ray picture tubes",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Clean plastic keycaps are non-hazardous, safe to handle, and ideal for creative decorative projects.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why must sharp metal edges of discarded drive casings be filed down before project assembly?",
+      options: [
+        "To reduce the weight of the metal for air travel.",
+        "To convert sheet aluminium into magnetic steel.",
+        "To increase the electrical conductivity of brass.",
+        "To prevent painful cuts and injuries to the user.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Filing down stamped metal edges removes dangerous burrs and ensures the finished item is safe to handle.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What safety equipment should students always wear when sorting through computer hardware scrap?",
+      options: [
+        "Heavy cut-resistant work gloves",
+        "Lightweight woollen winter scarves",
+        "Rubber swimming fins and snorkels",
+        "Loose silk shirts with open sleeves",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Cut-resistant gloves protect hands from jagged metal edges, glass fragments, and abrasive surfaces.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How do industrial recycling depots separate non-ferrous metals like copper and aluminium from plastic flakes?",
+      options: [
+        "By employing hand-held magnifiers on conveyers.",
+        "By using eddy-current and water density baths.",
+        "By burning the mixtures in open field bonfires.",
+        "By leaving piles in outdoor rain pits to dissolve.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Density tanks float light plastics while eddy currents deflect non-ferrous metals for clean sorting.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which practice ensures that electronic scrap collection does not harm the surrounding community?",
+      options: [
+        "Gathering hardware from repair shops and schools.",
+        "Burning plastic wires on open community fields.",
+        "Burying swollen battery cells near garden crops.",
+        "Dumping discarded monitors into freshwater rivers.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Collecting outdated units directly from repairers and schools prevents them from reaching open landfills or fire pits.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the primary ecological benefit of transforming disposed computer casings into useful home objects?",
+      options: [
+        "It speeds up the national internet connectivity.",
+        "It replaces classroom teachers with microchips.",
+        "It permanently increases rainfall in the forest.",
+        "It reduces the volume of solid waste in dumps.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Repurposing durable metal and plastic casings keeps non-biodegradable waste out of municipal dumps.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of machine is used to chop stripped electronic metal and plastic shells into tiny bits?",
+      options: [
+        "Industrial mechanical shredder",
+        "Automated optical document scanner",
+        "Hand-cranked classroom pencil sharpener",
+        "Household clothes washing tumble dryer",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Heavy shredding machines grind rigid housings down to facilitate automated sorting and melting.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are cathode-ray tube display monitors classified as hazardous computer waste?",
+      options: [
+        "They produce loud music when disconnected.",
+        "They contain significant amounts of toxic lead.",
+        "They absorb excessive atmospheric solar heat.",
+        "They dissolve completely upon contact with air.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Cathode-ray tubes contain large amounts of lead in the funnel glass to block X-rays, making them toxic waste.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How can an old, non-functional computer cooling fan be repurposed in a student design project?",
+      options: [
+        "As a pen separator or rotating craft display.",
+        "As an electrical battery charger for tablets.",
+        "As a substitute for clear microscope lenses.",
+        "As a replacement for high-voltage power plugs.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Cleaned fan bodies and circular grills provide physical compartments or spinning elements for craft designs.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L1/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which computing hazard is directly triggered by continuous, high-volume sound from Public Address systems or earphones?",
+      options: [
+        "Hearing impairment",
+        "Muscle tendon strain",
+        "Visual eye fatigue",
+        "Spinal nerve damage",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Prolonged exposure to loud sound waves through earphones or PA speakers damages sensitive ear structures and impairs hearing.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual exercise should a computer user practice every twenty minutes to relax tired eye muscles?",
+      options: [
+        "Look at distant targets",
+        "Close eyes for an hour",
+        "Turn off room lights",
+        "Rub the eyelids firmly",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The 20-20-20 rule instructs users to look at an object 20 feet away for 20 seconds to relieve ciliary muscle tension.",
+    ),
+    QuizQuestion(
+      question:
+          "3. When setting up an ergonomic workstation chair, how should a learner position their feet for proper blood flow?",
+      options: [
+        "Lifted off the ground",
+        "Flat against the floor",
+        "Crossed at the knees",
+        "Folded under the seat",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Placing feet flat on the floor keeps the lower body stable, prevents knee constriction, and aids steady blood circulation.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What injury often develops when a student types with bent wrists on a hard desk edge without rest breaks?",
+      options: [
+        "Myopic astigmatism",
+        "Sudden hearing loss",
+        "Carpal tunnel issue",
+        "Chronic lumbar curve",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Awkward wrist angles during repetitive typing pinch the median nerve, leading to carpal tunnel syndrome and wrist pain.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which habit helps prevent stiffness in the legs and improves blood flow during long computer lab sessions?",
+      options: [
+        "Slumping down in the seat",
+        "Leaving feet unsupported",
+        "Leaning forward on knees",
+        "Standing up and marching",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Standing up and marching on the spot or walking around every hour activates leg muscles and boosts venous blood return.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What should a student do if direct afternoon sunlight creates harsh glare across a desktop monitor?",
+      options: [
+        "Turn up monitor contrast",
+        "Increase screen lighting",
+        "Adjust the monitor tilt",
+        "Move closer to display",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tilting the screen slightly away from incident light or adjusting window blinds eliminates distracting surface glare.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which sitting posture is most likely to cause severe upper and lower back pain over time?",
+      options: [
+        "Sitting tall in the chair",
+        "Supporting lower spine",
+        "Keeping shoulders relaxed",
+        "Slouching towards screen",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Slouching curves the spine unnaturally, putting heavy mechanical stress on lumbar muscles and spinal discs.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a student effectively stretch their forearm tendons after thirty minutes of typing?",
+      options: [
+        "Push hands with palms out",
+        "Clench fists very tightly",
+        "Keep fingers bent inwards",
+        "Rest elbows on desk edge",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Interlocking fingers and pressing the palms outward gently extends and decompresses the flexor tendons of the wrists.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the primary cause of eye strain among students using mobile tablets in dark rooms?",
+      options: [
+        "Excessive screen contrast",
+        "Low headphone volume",
+        "Sitting too far away",
+        "Weak wireless signal",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A stark contrast between a bright digital screen and a dark surrounding room forces eyes to constantly strain to balance light levels.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why must school computer lab chairs provide adequate support for the lower lumbar region of the back?",
+      options: [
+        "To prevent screen glare",
+        "To maintain ear balance",
+        "To improve wrist speed",
+        "To preserve spine curves",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Lumbar support reinforces the natural inward curvature of the lower spine, preventing chronic aches and muscle fatigue.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What hazard is most likely when drinks are kept beside open computer cooling vents?",
+      options: [
+        "Permanent circuit damage",
+        "Low monitor refresh rates",
+        "Better system performance",
+        "Soft keyboard button clicks",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Liquids entering computer vents settle onto circuit boards, causing fatal electronic short circuits and component corrosion.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What should you do if an ICT power cable has a cracked outer casing and exposed wires?",
+      options: [
+        "Report the cord to a teacher",
+        "Cover it with ordinary papers",
+        "Keep using the frayed plug",
+        "Wash the cable with hot water",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Frayed or damaged cords present a severe shock hazard and must be reported immediately for professional replacement.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What protective installation keeps floor walkways safe from loose trailing computer cords?",
+      options: [
+        "Wet paper towels on carpet",
+        "Cable trunking and raceways",
+        "Uncovered desk power strips",
+        "Loose extension wire loops",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Rigid trunking or cable ducts house loose cables securely, eliminating tripping hazards and wire damage.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why must students never touch the positive and negative terminals of a damaged wire?",
+      options: [
+        "It slows mouse cursor speed",
+        "It decreases monitor contrast",
+        "It causes severe electric shocks",
+        "It corrupts operating files",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Touching live terminals closes an electrical path through your body, causing severe electric shock and thermal burns.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What dangerous condition occurs when an overloaded extension strip becomes hot to the touch?",
+      options: [
+        "Screen visual flickering",
+        "Faster network downloads",
+        "Damaged keyboard mechanics",
+        "Fire from melted insulation",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Overloaded circuits draw extreme current, causing wires to overheat, melt protective insulation, and ignite fires.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does tripping over a stretched monitor power cord commonly cause equipment loss?",
+      options: [
+        "It drains the backup battery",
+        "It corrupts document software",
+        "It pulls devices off desk tops",
+        "It changes the monitor contrast",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A snagged trailing cable exerts strong physical force, pulling heavy hardware off desks down onto the hard floor.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which measure is the safest protocol when a beverage spills across an active computer desk?",
+      options: [
+        "Wipe it while typing notes",
+        "Blow hot air on the sockets",
+        "Shake the monitor dry fast",
+        "Switch off mains wall power",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Isolating mains power from the wall prevents electric shocks before anyone approaches or cleans the wet workstation.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the primary function of the third earth pin found on computer electrical plugs?",
+      options: [
+        "It grounds stray fault current",
+        "It boosts screen refresh rate",
+        "It prevents dust on keyboards",
+        "It doubles processor power",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The earth pin channels unexpected fault current directly into the ground, safeguarding users from dangerous chassis shocks.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are food items and open water sachets prohibited inside modern computer laboratories?",
+      options: [
+        "They produce bright reflections",
+        "They disrupt safe clean setups",
+        "They drain battery backup units",
+        "They lower headphone sound levels",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Keeping food and liquids away protects electronic components from spills, pests, and internal electrical shorting.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What hazard is created when multiple school desks are crowded over power cables in walkways?",
+      options: [
+        "Poor indoor lighting levels",
+        "Increased computer eye strain",
+        "Weak wireless router signal",
+        "Physical trips and cord wear",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Pinching wires under furniture damages protective insulation and creates dangerous tripping hazards across open aisles.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the recommended screen viewing distance during a workstation setup assessment?",
+      options: [
+        "Roughly one arm's length",
+        "Five centimetres away",
+        "Across the classroom aisle",
+        "Pressed against your chest",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Placing the monitor an arm's length away keeps text comfortably readable without straining eye focusing muscles.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which action should be taken if your feet do not touch the floor when your chair is adjusted for typing?",
+      options: [
+        "Let feet dangle freely",
+        "Place a sturdy footrest",
+        "Slouch down in the seat",
+        "Sit on folded legs daily",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using a firm footrest supports the thighs and feet, relieving pressure on the underside of knees and improving circulation.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What should a student inspect to ensure electrical safety at their desk before powering on equipment?",
+      options: [
+        "Screen display resolution",
+        "Cable insulation integrity",
+        "Volume levels on speakers",
+        "Desktop wallpaper theme",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Checking that cable insulation is intact and plugs are undamaged prevents electrical shocks and fire hazards.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How can a learner minimize persistent screen glare caused by overhead classroom fluorescent tubes?",
+      options: [
+        "Increase monitor brightness",
+        "Move closer to the screen",
+        "Tilt screen slightly downward",
+        "Turn off the computer unit",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tilting the screen changes the angle of reflection, redirecting overhead glare away from the student's eyes.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the safest way to correct power leads that stretch across a student walking route?",
+      options: [
+        "Cover cables with notebooks",
+        "Tape wires loosely to chairs",
+        "Leave wires alone on carpet",
+        "Route cords through trunking",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Enclosing loose power cables inside protective rigid trunking or floor ducts prevents tripping and cable damage.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why should there be at least ten centimetres of clear space in front of the keyboard on a desk?",
+      options: [
+        "To place heavy cold drinks",
+        "To stack multiple textbooks",
+        "To support wrists and arms",
+        "To balance portable speakers",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Space in front of the keyboard allows typists to rest their forearms comfortably during natural typing pauses.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which sign indicates that an electrical workstation socket is dangerously overloaded?",
+      options: [
+        "Sharp display picture",
+        "Crisp headphone audio",
+        "Quiet processor cooling fan",
+        "Hot plug and burning smell",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Excessive electrical current creates abnormal heat, melting socket plastic and producing a distinct burning odor.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What posture adjustment prevents neck strain when working from a computer document?",
+      options: [
+        "Keep head upright and centered",
+        "Bend head down to desk level",
+        "Lean head sideways on hands",
+        "Twist neck sharply all day",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Keeping the head balanced over the shoulders eliminates unnatural mechanical strain on cervical neck muscles.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What environmental factor in an ICT room should be evaluated to prevent stuffiness and drowsiness?",
+      options: [
+        "Proper room air ventilation",
+        "Speaker bass sound balance",
+        "Mouse pad texture surface",
+        "Desktop font style choice",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Good ventilation and air circulation ensure fresh air supply, preventing fatigue and maintaining high alertness.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should you do if an ICT chair has a damaged, non-locking backrest that flops backward?",
+      options: [
+        "Sit without leaning back",
+        "Slouch forward over desk",
+        "Place big books on chair",
+        "Replace it with a firm chair",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A broken backrest offers zero lumbar support; replacing it with an adjustable, firm chair protects spinal alignment.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S1Ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s1_ss3_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What should be done when an ICT hazard cannot be completely eliminated from the working environment?",
+      options: [
+        "Minimize the risk level",
+        "Ignore the safety issue",
+        "Turn off all computers",
+        "Remove all lab furniture",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "When hazards cannot be removed entirely, applying protective measures minimizes the risk of physical injury.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How should a student adjust their workstation chair backrest to prevent chronic lower back ache?",
+      options: [
+        "Align with lumbar curve",
+        "Remove backrest cushion",
+        "Tilt it backward fully",
+        "Lock it upright stiffly",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Aligning the backrest to support the lumbar curve preserves natural spinal posture and stops muscle strain.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What safety step ensures that heavy desktop monitors do not fall and cause physical injury?",
+      options: [
+        "Balance on table edges",
+        "Re-position to stable center",
+        "Tilt screen onto keyboard",
+        "Stack on plastic folders",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Moving heavy equipment inward onto flat, stable desk surfaces prevents accidental falls from desk bumps.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the safest way to keep computer lab walkways clear of slipping and tripping hazards?",
+      options: [
+        "Leave bookbags in aisles",
+        "Place cords across doors",
+        "Store bags on side shelves",
+        "Spread loose cables out",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Placing backpacks and personal items on designated shelves keeps walkways clear of tripping obstacles.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which action effectively minimizes visual fatigue caused by overhead lamp glare on display screens?",
+      options: [
+        "Increase screen contrast",
+        "Sit closer to the glass",
+        "Shut eyes while typing",
+        "Tilt the screen slightly",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Tilting the screen changes the reflective angle, redirecting harsh ceiling light glare away from your eyes.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why should computer lab chairs feature a five-point base with smooth-rolling castors?",
+      options: [
+        "To speed up typing tasks",
+        "To lower power use in lab",
+        "To provide stable mobility",
+        "To reduce computer screen heat",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A five-point castor base gives steady balance and allows smooth rotation without risk of tipping over.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What should a student do immediately upon noticing a puddle of water near the computer lab door?",
+      options: [
+        "Step through it quickly",
+        "Cover it with notebooks",
+        "Walk away without notice",
+        "Clean it and place a sign",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Wiping up puddles promptly and setting out a caution sign prevents students from slipping on smooth tiles.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How should a student adjust their seat height relative to their computer desk?",
+      options: [
+        "Keep thighs level to floor",
+        "Let knees dangle loosely",
+        "Raise seat to highest pin",
+        "Sit as low as possible",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Setting seat height so thighs are parallel to the floor and feet rest flat supports healthy blood circulation.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What measure should be used when computer power cables must cross an unavoidable walking area?",
+      options: [
+        "Secure cords in trunking",
+        "Suspend cords with string",
+        "Cover wires with cardboard",
+        "Leave cords loose on tiles",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Housing cords inside rigid floor trunking or cable raceways stops users from catching their feet on bare wires.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why must classroom air conditioning or ventilation be kept active during computing lessons?",
+      options: [
+        "To lower audio sound volume",
+        "To boost mouse cursor speeds",
+        "To eliminate screen glare",
+        "To maintain fresh air flow",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Good ventilation dissipates heat from computer hardware and provides fresh air, preventing drowsiness and stuffiness.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L1/7. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of computer software is a word processor classified as?",
+      options: [
+        "Application software",
+        "System device driver",
+        "Firmware controller",
+        "Utility maintenance",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A word processor is application software designed to help users perform specific productive tasks like writing and editing text documents.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following programs is an open-source word processor available at no cost?",
+      options: [
+        "Windows Media",
+        "Adobe Premiere",
+        "LibreOffice Writer",
+        "AutoCAD Designer",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "LibreOffice Writer is a free and open-source word processing program available to everyone.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is digital text storage superior to keeping paper files in an office?",
+      options: [
+        "Consumes more space",
+        "Needs physical ink",
+        "Tears very easily",
+        "Resists pest decay",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Digital documents do not suffer physical damage from termites, dampness, or rot like paper records.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which program runs directly inside a web browser to allow collaborative online writing?",
+      options: [
+        "Google Docs",
+        "Corel Paint",
+        "WinRAR Tool",
+        "MS Paintbrush",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Google Docs is a cloud-based word processor accessible via internet browsers for collaborative writing.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the main advantage of editing a draft document on a computer screen?",
+      options: [
+        "Text cannot print",
+        "Changes occur fast",
+        "Paper costs double",
+        "Files delete alone",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Users can modify, erase, and rearrange words on screen instantly before printing.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which accessory program built into Windows can be used for basic, unformatted text editing?",
+      options: [
+        "Calculator",
+        "Sound Deck",
+        "Disk Clean",
+        "Notepad App",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Notepad is a basic text editor integrated into the Windows operating system for plain text editing.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What action should a clerk take to prevent unauthorized staff from opening a confidential letter?",
+      options: [
+        "Encrypt with code",
+        "Lock with password",
+        "Hide desktop icon",
+        "Lower screen light",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Word processors offer password protection features to restrict document access to authorized users.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which item can be inserted into a word document to enhance its visual appeal?",
+      options: [
+        "Graphic pictures",
+        "Power cables plug",
+        "Memory chip card",
+        "Motherboard slot",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Word processors allow users to insert images, shapes, and charts directly into text pages.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which statement best describes how a word processor improves writing efficiency?",
+      options: [
+        "Replaces keyboard",
+        "Halts electricity",
+        "Speeds correction",
+        "Shuts down screen",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Tools like automated search, spell check, and text replacement drastically cut down the time needed to fix mistakes.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following is NOT an example of a word processing application?",
+      options: [
+        "Microsoft Word",
+        "Apache Writer",
+        "Google Docs App",
+        "VLC Media Player",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "VLC Media Player is a multimedia player used for playing video and audio files, not for processing text.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does a blinking vertical line on an active Microsoft Word document page represent?",
+      options: [
+        "The active insertion point",
+        "The bottom paper boundary",
+        "The graphic drawing canvas",
+        "The system security scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The blinking vertical line indicates the insertion point where typed text will appear on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which key on the keyboard removes the character situated directly to the right of the cursor?",
+      options: [
+        "Spacebar",
+        "Shift Key",
+        "Delete",
+        "Enter",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Delete key removes text located immediately to the right of the cursor position.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does Microsoft Word respond to new typing when Overtype mode is switched on?",
+      options: [
+        "It highlights all lines",
+        "It pushes text forward",
+        "It locks the document",
+        "It overwrites old text",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "In Overtype mode, newly typed characters overwrite and replace existing characters directly in front of the cursor.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Where can a user right-click to quickly view or toggle the active Overtype status indicator?",
+      options: [
+        "On the status bar",
+        "On the title bar",
+        "On the scroll bar",
+        "On the dialog box",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Right-clicking the Status Bar at the bottom of the Word window allows users to enable and view the Overtype/Insert indicator.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which command should a student choose from the Editing group to highlight an entire essay instantly?",
+      options: [
+        "Select All",
+        "Find Word",
+        "Replace",
+        "Redo All",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Select All command under the Editing group highlights all content throughout the active document.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the keyboard shortcut used to paste previously cut or copied text into a new location?",
+      options: [
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + P",
+        "Ctrl + S",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + V is the universal shortcut to paste content from the clipboard into the document.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens when you select a paragraph with the mouse and immediately press the Delete key?",
+      options: [
+        "The font size enlarges",
+        "The whole block erases",
+        "The text shifts right",
+        "The page saves on disk",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pressing Delete or Backspace while text is highlighted erases the entire highlighted selection at once.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where is cut text temporarily stored inside the computer before being pasted?",
+      options: [
+        "In the memory cache",
+        "On the flash drive",
+        "On the clipboard",
+        "In the recycle bin",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Clipboard is the temporary holding area in system memory used for cut or copied text and objects.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which mouse action highlights a specific word or sentence across the document screen?",
+      options: [
+        "Scrolling wheel down",
+        "Right-clicking space",
+        "Double-tapping file",
+        "Dragging over letters",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Clicking and dragging the mouse pointer across characters highlights and selects them.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Under which main ribbon tab can you find the primary Cut, Copy, and Paste commands?",
+      options: [
+        "View Tab",
+        "Home Tab",
+        "Review Tab",
+        "Layout Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Clipboard group containing Cut, Copy, and Paste is situated under the Home tab.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What feature appears on the left side of the screen when you press Ctrl + F in Microsoft Word?",
+      options: [
+        "The Navigation Pane",
+        "The Word Options Box",
+        "The File Print View",
+        "The Styles Gallery",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Pressing Ctrl + F opens the Navigation Pane on the left margin to facilitate quick document searches.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which keyboard shortcut combination reverses the most recent editing action performed?",
+      options: [
+        "Ctrl + V",
+        "Ctrl + Z",
+        "Ctrl + C",
+        "Ctrl + X",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + Z is the standard shortcut for the Undo function to reverse mistakes.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What does Microsoft Word do when you enter a search term into the Navigation Pane?",
+      options: [
+        "Erases every match",
+        "Prints the active page",
+        "Closes down the app",
+        "Highlights every match",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Word locates and highlights all matching words in the document body so they are easy to spot.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which command restores an action that was just reversed by the Undo function?",
+      options: [
+        "The Redo command",
+        "The Cut operation",
+        "The Paste command",
+        "The Save function",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Redo re-applies an action that was reversed using the Undo tool.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where on the Word window is the Quick Access Toolbar typically located?",
+      options: [
+        "Along the bottom",
+        "At the very top",
+        "Inside the ruler",
+        "In the scroll bar",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Quick Access Toolbar sits at the top left of the application window, holding shortcut icons like Save and Undo.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which button in the Find and Replace box substitutes every occurrence across the document at once?",
+      options: [
+        "Replace Next",
+        "Find All Now",
+        "Replace All",
+        "Select Whole",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Replace All substitutes all matching words throughout the document in one single step.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the purpose of the drop-down arrow located right beside the Undo button?",
+      options: [
+        "To close the active file",
+        "To pick multiple undos",
+        "To create a new table",
+        "To set document margins",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Clicking the drop-down arrow displays a list of recent edits so you can undo several actions at once.",
+    ),
+    QuizQuestion(
+      question:
+          '8. What should you type into the "Find what" field when using the Replace dialog box?',
+      options: [
+        "The existing target text",
+        "The replacement sentence",
+        "The author user account",
+        "The target font size",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          'The "Find what" field requires the existing word or phrase currently in the document that you wish to locate.',
+    ),
+    QuizQuestion(
+      question:
+          "9. Which keyboard shortcut redoes an action that was undone in Microsoft Word?",
+      options: [
+        "Ctrl + A",
+        "Ctrl + B",
+        "Ctrl + R",
+        "Ctrl + Y",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Ctrl + Y is the standard keyboard shortcut to Redo or repeat an action.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is the Replace All command considered more efficient than manual document correction?",
+      options: [
+        "It saves disk drive space",
+        "It prevents file piracy",
+        "It checks network cables",
+        "It saves editing time",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Replace All makes dozens of changes across pages instantly, eliminating the need to read and edit each word manually.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of error is indicated by a red wavy line beneath a typed word in Microsoft Word?",
+      options: [
+        "Misspelled word",
+        "Paragraph indent",
+        "Line space error",
+        "Page border flaw",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A red wavy underline signals that a word is misspelled or not found in the application dictionary.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which reference tool in Microsoft Word provides lists of both synonyms and antonyms?",
+      options: [
+        "Page Layout",
+        "Word Art Deck",
+        "The Thesaurus",
+        "The Calculator",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Thesaurus is specifically designed to suggest synonyms and antonyms for selected words.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What should a user do when Microsoft Word flags a local Ghanaian surname as misspelled?",
+      options: [
+        "Shut the program",
+        "Clear the screen",
+        "Delete the text",
+        "Choose Ignore All",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          'Choosing "Ignore" or "Ignore All" tells Word to overlook words not present in standard international dictionaries.',
+    ),
+    QuizQuestion(
+      question:
+          "4. Under which ribbon group on the Review tab will you find the Spelling & Grammar tool?",
+      options: [
+        "Proofing Group",
+        "Tracking Group",
+        "Language Group",
+        "Comments Group",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Proofing group hosts the Spelling & Grammar checker, Thesaurus, and Word Count tools.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What does a green wavy line beneath a sentence in Microsoft Word represent?",
+      options: [
+        "Font size failure",
+        "Grammatical fault",
+        "Network loss alert",
+        "File saving error",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Green wavy lines indicate grammatical mistakes, improper syntax, or punctuation errors.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which button must you click in the Translator pane to place translated words into your file?",
+      options: [
+        "Update Button",
+        "Insert Button",
+        "Delete Button",
+        "Format Button",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Clicking the Insert button replaces the original text with the newly translated version from the pane.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Where can you configure proofing settings so Word checks spelling automatically as you type?",
+      options: [
+        "Under View Tab",
+        "In Help Windows",
+        "In Word Options",
+        "On Page Layouts",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Word Options dialog box, located under the File tab, contains the Proofing configuration settings.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a student view quick synonym suggestions for a word using only mouse clicks?",
+      options: [
+        "Right-click word",
+        "Scroll wheel down",
+        "Drag over margin",
+        "Double-click rule",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Right-clicking any typed word opens a shortcut menu displaying direct synonym alternatives.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature translates an entire document into another language in a duplicate file?",
+      options: [
+        "Language Setting",
+        "Proofing Checker",
+        "AutoCorrect Pane",
+        "Translate Document",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Translate Document option under the Language group converts the entire file into a designated target language.",
+    ),
+    QuizQuestion(
+      question:
+          '10. What type of error is indicated when a user types "sea" instead of "see" in a sentence?',
+      options: [
+        "Hardware fault",
+        "Keyboard failure",
+        "Contextual error",
+        "Translation defect",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "When a validly spelled word is used incorrectly in context, Word flags it as a contextual error with a blue wavy line.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L5/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which text decoration thickens characters to give them a darker, heavier appearance?",
+      options: [
+        "Bold command",
+        "Italic style",
+        "Underline",
+        "Subscript",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Bold command darkens and thickens characters to create visual emphasis.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which case setting capitalizes only the very first letter of a typed sentence?",
+      options: [
+        "Lowercase",
+        "Sentence case",
+        "UPPERCASE",
+        "Toggle case",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sentence case capitalizes the first character of the sentence and keeps subsequent words lowercase.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What visual effect does the Italic command apply to selected text?",
+      options: [
+        "Adds yellow lines",
+        "Doubles letter size",
+        "Erases all spaces",
+        "Slants text forward",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Applying Italic slants characters gently to the right.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which tool applies a bright, coloured background strip behind selected characters?",
+      options: [
+        "Text Highlight Color",
+        "Font Typeface Style",
+        "Paragraph Margin Box",
+        "Format Painter Brush",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Text Highlight Color tool places a bright background tint behind characters.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the typical recommended font size range for regular body text in school documents?",
+      options: [
+        "4 to 6 points",
+        "10 to 12 points",
+        "24 to 32 points",
+        "48 to 72 points",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Standard body text is typically formatted between 10 and 12 points for optimal readability.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What icon represents the Change Case command in the Font group on the Home tab?",
+      options: [
+        "Blue arrow bar",
+        "Yellow marker",
+        "Letter pair Aa",
+        "Paint roller",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Change Case command is symbolized by an uppercase and lowercase letter pair, Aa.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which keyboard shortcut combination applies the Italic style to highlighted text?",
+      options: [
+        "Ctrl + I",
+        "Ctrl + T",
+        "Ctrl + K",
+        "Ctrl + J",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + I is the standard shortcut to italicize selected text.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which option reverses capital letters to small letters and small letters to capitals?",
+      options: [
+        "Sentence case",
+        "Lowercase",
+        "UPPERCASE",
+        "tOGGLE cASE",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Toggle case inverts the capitalization state of every highlighted character.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a user clear an unwanted fluorescent background from highlighted text?",
+      options: [
+        "Press Backspace",
+        "Choose Undo Font",
+        "Select No Color",
+        "Turn off monitor",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Opening the Text Highlight Color menu and selecting No Color removes existing highlights.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which button in the Font group allows you to change the actual colour of the text characters?",
+      options: [
+        "Shading bucket",
+        "Border button",
+        "Line spacing",
+        "Font Color",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Font Color command alters the direct color of the text characters.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L6/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which alignment format aligns text flush against both the left and right margins evenly?",
+      options: [
+        "Justify",
+        "Center",
+        "Right",
+        "Left",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Justify distributes text evenly so that both edges form neat vertical lines against the margins.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the keyboard shortcut combination used to align selected text to the right margin?",
+      options: [
+        "Ctrl + J",
+        "Ctrl + R",
+        "Ctrl + C",
+        "Ctrl + T",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ctrl + R aligns text directly against the right margin of the page.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which tool should a student use to place small graphical dots before each item in a list?",
+      options: [
+        "Highlight tool",
+        "Border button",
+        "WordArt tool",
+        "Bullets command",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Bullets command in the Paragraph group formats items into a clean bulleted list.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary function of the Line Spacing command in Microsoft Word?",
+      options: [
+        "Change vertical gaps",
+        "Adjust letter colours",
+        "Draw table columns",
+        "Clear document cache",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Line spacing controls the amount of vertical space between lines of text in a paragraph.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which tool draws clean horizontal or vertical dividing lines around selected paragraphs?",
+      options: [
+        "Shading tool",
+        "Borders button",
+        "Italic style",
+        "Text case",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Borders command places framing lines around words, paragraphs, or pages.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What feature allows you to open advanced paragraph spacing and indentation settings?",
+      options: [
+        "Navigation Pane",
+        "Status Bar Menu",
+        "Dialogue Launcher",
+        "Quick Access Bar",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Clicking the Dialogue Box Launcher arrow at the bottom of the Paragraph group opens the full settings box.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which command moves a selected paragraph one-half inch closer to the left margin?",
+      options: [
+        "Align Center",
+        "Justify Text",
+        "Add Bullets",
+        "Decrease Indent",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Decrease Indent shifts text back toward the left margin by one tab stop.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which alignment format is standard for typing the sender's address in formal Ghanaian letters?",
+      options: [
+        "Align Right",
+        "Align Left",
+        "Justify Both",
+        "Center Line",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In formal letters, the sender's address and date are conventionally aligned to the right margin.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when you apply Shading to a selected paragraph of text?",
+      options: [
+        "Text is italicized",
+        "Letters turn bold",
+        "Background fills",
+        "Lines are numbered",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Shading fills the background area behind the paragraph with a chosen tint.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the standard keyboard shortcut combination for aligning text along the left margin?",
+      options: [
+        "Ctrl + E",
+        "Ctrl + R",
+        "Ctrl + J",
+        "Ctrl + L",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ctrl + L sets selected text to left alignment.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss1Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss1_L7/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where is the Tab Selector box located on the Microsoft Word application window?",
+      options: [
+        "Left of ruler",
+        "Under status bar",
+        "Inside title bar",
+        "Near scroll arrow",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Tab Selector sits at the far left intersection of the horizontal and vertical rulers.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which tab stop format aligns typed characters symmetrically under the ruler marker?",
+      options: [
+        "Right Tab",
+        "Center Tab",
+        "Decimal Tab",
+        "Bar Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A Center Tab positions typed text so that it expands evenly to the left and right beneath the marker.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How can a user completely remove an unwanted tab stop from the horizontal ruler?",
+      options: [
+        "Right-click icon",
+        "Hit backspace key",
+        "Press escape once",
+        "Drag it off ruler",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Clicking a tab stop marker and dragging it downwards off the ruler removes it from the document.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which tool automatically fills the blank horizontal gap between two tab stops with dots?",
+      options: [
+        "Tab Leader",
+        "Line Spacer",
+        "Font Styler",
+        "Word Highlighter",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Tab leaders fill empty spacing between tab stops with lines of dots, dashes, or solid lines.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What non-printing symbol is used to represent a regular space when Show/Hide is enabled?",
+      options: [
+        "Wavy line",
+        "Small dot",
+        "Curly brace",
+        "Dollar sign",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Turning on Show/Hide displays normal keyboard spaces as small raised dots.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which tab stop type ensures that currency values align precisely along their decimal points?",
+      options: [
+        "Left Tab",
+        "Bar Tab",
+        "Decimal Tab",
+        "Center Tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Decimal Tab aligns numeric figures along the decimal point.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What keyboard key moves the blinking cursor forward to the next tab stop on the page?",
+      options: [
+        "Spacebar",
+        "Shift Key",
+        "Control Key",
+        "The Tab Key",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Pressing the Tab key leaps the insertion point forward to the nearest active tab stop.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which tab stop format aligns the trailing end of a word flush against the ruler marker?",
+      options: [
+        "Right Tab",
+        "Left Tab",
+        "Center Tab",
+        "Decimal Tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A Right Tab aligns the right-hand edge of the text directly at the tab position.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when you drag an active tab stop marker left or right along the ruler?",
+      options: [
+        "Changes font size",
+        "Deletes all text",
+        "Repositions text",
+        "Underlines lines",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Dragging a tab marker along the ruler dynamically moves all associated text aligned at that tab stop.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which button in the Paragraph group toggles the visibility of hidden formatting symbols?",
+      options: [
+        "Justify",
+        "Bullets",
+        "Shading",
+        "Show/Hide",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Show/Hide button (pilcrow symbol, ¶) reveals non-printing marks like spaces, tabs, and paragraph returns.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L1/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which program is an example of specialized presentation software?",
+      options: [
+        "Microsoft PowerPoint",
+        "Microsoft Word",
+        "Microsoft Access",
+        "Microsoft Excel",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft PowerPoint is an application designed specifically for creating and displaying presentations, whereas Word is for word processing and Excel is for spreadsheets.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary role of the multimedia facility in presentation software?",
+      options: [
+        "Scanning storage drives for computer viruses",
+        "Inserting graphics, audio, and video clips",
+        "Checking grammatical rules across paragraphs",
+        "Calculating numerical formulas in worksheets",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The multimedia tool allows users to add non-text content, such as pictures, audio, and video recordings, directly into slides.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which presentation tool is developed specifically for Apple devices like iPads and Mac computers?",
+      options: [
+        "Google Slides",
+        "Corel Presentations",
+        "Apache Impress",
+        "Apple Keynote",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Keynote is Apple’s proprietary presentation software, optimized for macOS and iPadOS platforms.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student wants to give a talk on road safety in Accra. How does presentation software assist the audience?",
+      options: [
+        "It presents key safety tips through clear visual slides",
+        "It replaces the need for the student to speak aloud",
+        "It translates every spoken word into five languages",
+        "It prevents any student from asking follow-up questions",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Presentation slides support oral communication by highlighting main concepts and visuals, helping listeners retain the message.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which application is free, open-source software that includes an application for creating slide shows?",
+      options: [
+        "Adobe Photoshop Suite",
+        "Google Workspace Pro",
+        "LibreOffice Impress",
+        "CorelDRAW Graphics",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "LibreOffice Impress is a well-known free and open-source presentation tool used on various operating systems.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does presentation software support the simultaneous use of language skills in the classroom?",
+      options: [
+        "It forces listeners to write down every word",
+        "It limits student work to silent typing only",
+        "It removes the requirement to listen to peers",
+        "It blends reading, viewing, and oral speech",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Presentations combine visual text to read, spoken commentary to hear, and visual media to observe, reinforcing multiple communication channels.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the basic individual page called within a presentation document?",
+      options: [
+        "A slide",
+        "A sheet",
+        "A canvas",
+        "A ledger",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In presentation software, each distinct electronic display page is termed a slide.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why might a business team choose Google Slides over an offline desktop application?",
+      options: [
+        "It operates without using any screen display",
+        "It enables multiple users to collaborate online",
+        "It requires no internet connectivity at all",
+        "It prints slides faster than any other tool",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Google Slides is cloud-based, allowing team members to edit and review the same presentation document simultaneously from different locations.",
+    ),
+    QuizQuestion(
+      question: "9. What is the primary function of the slide show view?",
+      options: [
+        "Editing default system font settings",
+        "Installing third-party hardware devices",
+        "Compressing image sizes on hard drives",
+        "Displaying slides sequentially to viewers",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The slide show view is the presentation mode where completed slides are shown one after another on full screen.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following tasks is best suited for presentation software rather than a spreadsheet program?",
+      options: [
+        "Calculating monthly business expenditures",
+        "Creating a database of student test scores",
+        "Delivering a visual speech to a large group",
+        "Writing an official three-page business letter",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Presentation software is specifically built to deliver visual, media-supported talks to an audience, unlike spreadsheets which handle numerical calculation.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which section of the PowerPoint interface contains commands grouped under tabs like Home, Insert, and Design?",
+      options: [
+        "The Ribbon system",
+        "The Scroll bar track",
+        "The Status display bar",
+        "The File storage folder",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Ribbon organizes all primary editing commands into tabs and groups across the top of the application window.",
+    ),
+    QuizQuestion(
+      question: "2. What visual element defines a PowerPoint theme?",
+      options: [
+        "A collection of audio clips",
+        "Unified colours, fonts, effects",
+        "A list of computer programs",
+        "A set of security passwords",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A theme is a predefined package of matching colours, typography, and styling effects applied across slides.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which ribbon tab must you open to run a spelling check on your slides?",
+      options: [
+        "Home tab",
+        "Insert tab",
+        "Review tab",
+        "Design tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Review ribbon contains the Proofing group, which includes the spell checking utility.",
+    ),
+    QuizQuestion(
+      question:
+          '4. A learner in Tema wants to find an alternative word for "happy." Which feature helps them find it?',
+      options: [
+        "Slide Transition",
+        "Screen Magnifier",
+        "SmartArt Graphic",
+        "The Thesaurus",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Thesaurus provides a list of synonyms and antonyms for any selected term.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How does a template differ from a blank presentation theme?",
+      options: [
+        "Templates include pre-built layouts",
+        "Templates cannot have text boxes",
+        "Templates disable all font colours",
+        "Templates only work on Macintosh",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Templates supply ready-made slide structures, content layouts, and sample slides in addition to theme styling.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where is the Slide Thumbnail pane positioned by default in Microsoft PowerPoint?",
+      options: [
+        "Along the top border",
+        "Across the bottom edge",
+        "On the right window side",
+        "On the left window side",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Slide Thumbnail pane is situated on the left side of the workspace, providing an ordered overview of all slides.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which command tab is used to choose and download a new template when starting a project?",
+      options: [
+        "The File menu tab",
+        "The View ribbon tab",
+        "The Draw ribbon tab",
+        "The Help support tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          'New presentations based on templates are selected by going to the File tab and choosing "New".',
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when you select a new theme from the Design tab in PowerPoint?",
+      options: [
+        "It deletes every image on the slide",
+        "It updates styling on all slides",
+        "It saves the presentation as a PDF",
+        "It closes the application window",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Applying a theme automatically updates the background, font choices, and palette across all slides in the deck.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which toolbar provides immediate access to frequently used commands like Save and Undo?",
+      options: [
+        "Bottom Status Toolbar",
+        "Slide Master Control",
+        "Drawing Shapes Group",
+        "Quick Access Toolbar",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Quick Access Toolbar, located in the upper-left area above the Ribbon, provides one-click access to tools like Save, Undo, and Redo.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why would a teacher encourage students to use the Review tab before presenting?",
+      options: [
+        "To adjust monitor screen contrast",
+        "To convert slides into audio songs",
+        "To eliminate spelling mistakes",
+        "To increase computer sound volume",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Review tab provides proofing tools to correct typos, refine phrasing, and verify grammatical clarity.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L3/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Why do presentation designers use the Symbol command instead of typing regular keyboard keys?",
+      options: [
+        "To insert marks not found on standard keyboards",
+        "To enlarge the physical dimensions of the monitor",
+        "To change the operating system background picture",
+        "To spell check every paragraph in the slide deck",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Symbol feature gives users access to hundreds of special characters, fractions, and symbols that are omitted from standard physical keyboards.",
+    ),
+    QuizQuestion(
+      question: "2. Which group on the Insert ribbon contains the Symbol tool?",
+      options: [
+        "The Media group",
+        "The Symbols group",
+        "The Links group",
+        "The Slides group",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Symbol command is located inside the Symbols group, situated at the far right end of the Insert ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where should the presenter's name and topic title be placed in a standard presentation structure?",
+      options: [
+        "On the middle summary slide",
+        "On the concluding slide seven",
+        "Inside the Review tab menu",
+        "On the initial title slide",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Slide one serves as the title slide, intended to establish the topic and introduce the speaker to the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student wants to insert a division sign into a science calculation on a slide. Which subset should they open?",
+      options: [
+        "Currency Symbols",
+        "Geometric Dingbats",
+        "Mathematical Operators",
+        "Box Drawing Characters",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Mathematical Operators subset organizes standard calculation and relationship signs, such as division, multiplication, and inequality marks.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens immediately after you select a symbol and click the Insert button in the dialogue box?",
+      options: [
+        "The character appears at the active cursor spot",
+        "The presentation document saves and shuts down",
+        "All existing text on the current slide is cleared",
+        "The application switches to full-screen show view",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking Insert places the selected special character right where the insertion point cursor is located inside the active text placeholder.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which tool under the Insert ribbon enables learners to organize numerical data into grid boxes?",
+      options: [
+        "WordArt styling",
+        "Audio recorder",
+        "Zoom window",
+        "Table feature",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Table feature inserts rows and columns to display numbers, schedules, and text comparisons neatly.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do slides three, four, and five function within a planned seven-slide presentation?",
+      options: [
+        "They deliver the core body facts and media",
+        "They provide blank placeholder slides for notes",
+        "They list only the slide printing parameters",
+        "They repeat the exact title slide information",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The middle slides of a presentation form the body, carrying the detailed facts, data tables, and illustrations supporting the central theme.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which feature on the Insert ribbon allows you to add stylized, decorative headings to a slide?",
+      options: [
+        "Screen capture",
+        "WordArt gallery",
+        "Hyperlink tool",
+        "Action button",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "WordArt creates decorative text styles and typography effects that help major slide headings stand out.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the main benefit of organizing a presentation into seven structured slides rather than putting all facts on one slide?",
+      options: [
+        "It consumes maximum computer storage space",
+        "It prevents the audience from reading any text",
+        "It requires the presenter to speak much faster",
+        "It guides the audience through ideas smoothly",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Distributing content across structured slides breaks information into logical chunks, preventing cognitive overload for listeners.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If the Symbol command appears greyed out and unclickable on your screen, what is the most likely cause?",
+      options: [
+        "The computer monitor is not running at high resolution",
+        "The PowerPoint application is not connected to the internet",
+        "The cursor is not placed inside an active text placeholder",
+        "The slide does not currently contain any pictures or tables",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Symbol button only becomes active when your cursor is positioned inside an editable text box or shape placeholder.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which text case option should you select to capitalize the first letter of every single word in a slide title?",
+      options: [
+        "Capitalize Each Word",
+        "Standard sentence case",
+        "Complete lowercase case",
+        "Full UPPERCASE option",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          'The "Capitalize Each Word" option applies title casing by capitalizing the initial character of each word in the selection.',
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual change occurs when you apply the Text Shadow decoration to slide text?",
+      options: [
+        "The font size shrinks by half",
+        "A soft shadow appears behind letters",
+        "The text changes into a bullet list",
+        "All characters convert to small case",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Text Shadow tool adds a subtle drop shadow behind characters, helping text stand out against coloured slide backgrounds.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where on the PowerPoint ribbon will you find the Font size, Font colour, and Bold commands?",
+      options: [
+        "Review tab under Proofing",
+        "Insert tab under Media",
+        "View tab under Master Views",
+        "Home tab under Font group",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Font group containing size, typeface, colour, and decoration controls is located under the Home ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          '4. A learner accidentally leaves the caps lock on while typing and gets "gHANA." Which tool quickly reverses it?',
+      options: [
+        "The Thesaurus finder",
+        "The Slide Master view",
+        "The SmartArt gallery",
+        "The tOGGLE cASE command",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "tOGGLE cASE inverts the casing of every selected character, turning lowercase to uppercase and uppercase to lowercase.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is it inadvisable to use light yellow text on a white slide background?",
+      options: [
+        "The poor contrast makes reading hard",
+        "Yellow text causes computers to stall",
+        "White backgrounds delete coloured text",
+        "Yellow text disables all animations",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Effective visual presentation requires strong contrast between text and background so information remains readable.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which icon in the Font group is clicked to slant selected text to the right for emphasis?",
+      options: [
+        "The Underline icon (U)",
+        "The Font Color icon (A)",
+        "The Bold text icon (B)",
+        "The Italic icon (I)",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Italic command slants selected characters to the right, commonly used for quotations or scientific terms.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What must you always do before clicking any font formatting or decoration command?",
+      options: [
+        "Select the specific text to format",
+        "Save the presentation to a USB drive",
+        "Change the entire slide layout theme",
+        "Switch the application language setting",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Formatting tools only affect active selections, meaning users must highlight the desired text first.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How do the Increase and Decrease Font Size buttons assist a presenter during slide creation?",
+      options: [
+        "They change the colour palette directly",
+        "They adjust text size in preset steps",
+        "They insert new rows into data tables",
+        "They run a spelling check on the slide",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "These one-touch companion buttons scale highlighted text up or down through standard preset point increments without manually typing numbers.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which typeface category is generally preferred for slide presentations viewed on a digital projector?",
+      options: [
+        "Heavy gothic calligraphy fonts",
+        "Ornate cursive handwriting fonts",
+        "Narrow compact decorative fonts",
+        "Clean sans-serif fonts like Calibri",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Clean sans-serif fonts such as Calibri and Arial provide maximum legibility across digital displays and classroom projectors.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following describes the function of the Strikethrough decoration tool?",
+      options: [
+        "It underlines words with double lines",
+        "It draws a horizontal line across text",
+        "It converts text into an audio file",
+        "It moves selected text to the next slide",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Strikethrough tool draws a horizontal line straight through the centre of the selected text characters to show deleted or superseded items.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which alignment option places every line of a title squarely in the middle of a text box?",
+      options: [
+        "Centre alignment",
+        "Justify alignment",
+        "Right alignment",
+        "Left alignment",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Centre alignment positions text evenly between the left and right margins of the text frame, making it ideal for headings.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which tool applies a coloured background fill inside a selected text frame?",
+      options: [
+        "Shape Outline",
+        "Shape Fill",
+        "Text Shadow",
+        "Font Color",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Shape Fill applies background colour shading inside the boundaries of a shape or text box.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A student wants to format a formal three-line quotation with even margins on both sides. What tool should they use?",
+      options: [
+        "Align Text Bottom",
+        "Strikethrough Font",
+        "The Thesaurus",
+        "Justify alignment",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Justify command adjusts character and word spacing so that text aligns flush with both the left and right margins.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens to a bulleted line when you press the Tab key on your keyboard?",
+      options: [
+        "The indent shifts text to the right",
+        "The slide is permanently removed",
+        "The text turns into uppercase",
+        "The application prints the page",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Pressing the Tab key inside a bulleted list increases the indent level, moving the text inward to the right.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which command under the Home tab allows you to rotate text ninety degrees within a shape?",
+      options: [
+        "Text Direction",
+        "Change Case",
+        "SmartArt Shape",
+        "Font Decoration",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Text Direction allows users to rotate text sideways by ninety degrees, two hundred and seventy degrees, or display stacked letters.",
+    ),
+    QuizQuestion(
+      question:
+          '6. How does adjusting the "Weight" in the Shape Outline menu alter a text box border?',
+      options: [
+        "It rotates the border sideways",
+        "It translates the label language",
+        "It changes line colour to blue",
+        "It changes border line thickness",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Weight setting under Shape Outline controls the thickness or width of the border line.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why do presenters use indentation when creating bulleted study lists?",
+      options: [
+        "To show sub-topics under main headings",
+        "To double the file size of the slide deck",
+        "To lock the presentation against edits",
+        "To hide the text during a slide show",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Indenting sub-points creates visual hierarchy, making it clear which details support the primary heading.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where is the Paragraph group located on the Microsoft PowerPoint interface?",
+      options: [
+        "Under the Review ribbon tab",
+        "Under the Home ribbon tab",
+        "Under the View ribbon tab",
+        "Under the File menu tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Paragraph group, containing alignment, list, and spacing tools, is situated under the Home ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which command adjusts text to sit specifically along the bottom boundary of a text box?",
+      options: [
+        "Align Text Top",
+        "Shape Fill Bottom",
+        "Decrease Indent",
+        "Align Text Bottom",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Align Text tool provides vertical alignment controls: Top, Middle, and Bottom.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What visual error occurs if you apply dark purple Shape Fill behind dark black text?",
+      options: [
+        "The computer monitor resolution resets",
+        "The text box expands off the screen edge",
+        "The text becomes nearly invisible to viewers",
+        "The spelling checker highlights every word",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Dark text placed over a dark background destroys contrast, making the text almost unreadable to an audience.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss2Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss2_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of the Slide Master in Microsoft PowerPoint?",
+      options: [
+        "Controlling universal presentation formatting",
+        "Scanning presentation files for malware",
+        "Translating slide text into foreign speech",
+        "Printing paper handouts for all listeners",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Slide Master is the top slide in the layout hierarchy that stores design specifications and applies them universally across the entire presentation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which ribbon tab must you open to locate the Master Views group?",
+      options: [
+        "The Home tab",
+        "The View tab",
+        "The File tab",
+        "The Draw tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The View tab houses the Master Views group, containing the Slide Master, Handout Master, and Notes Master.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is using the Slide Master more efficient than formatting slides one by one?",
+      options: [
+        "It doubles computer processing speed",
+        "It converts presentations into webpages",
+        "It prevents any file from being saved",
+        "It applies changes to all slides at once",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Changes made on the Slide Master instantly update all associated slides, saving substantial time and ensuring complete design consistency.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student wants to change the default background colour for all slide layouts. Where should this be edited?",
+      options: [
+        "On the Slide Sorter display",
+        "Inside the WordArt gallery",
+        "Under the Thesaurus window",
+        "On the top Slide Master slide",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Modifying the top Slide Master in the hierarchy automatically applies the new background styling to all subordinate layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary function of the final slide in a planned 5-slide presentation?",
+      options: [
+        "Summarizing main points and taking questions",
+        "Displaying the primary topic title and name",
+        "Providing raw unformatted numerical tables",
+        "Showing only the computer hardware details",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The concluding slide provides a summary of key takeaways and provides a clean visual backdrop while the presenter takes questions from the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which ribbon tab allows you to switch design themes and modify colour variants?",
+      options: [
+        "The Review tab",
+        "The Insert tab",
+        "The Help tab",
+        "The Design tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Design ribbon contains the Themes and Variants galleries, allowing users to alter palettes, fonts, and background styles.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a design template differ from a single blank slide?",
+      options: [
+        "It includes ready-made layouts and themes",
+        "It cannot contain text or picture boxes",
+        "It requires an internet link to open",
+        "It deletes previous slides on startup",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Templates provide pre-built slide structures, content layouts, and coordinated themes designed for specific presentation needs.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What should a presenter avoid doing while delivering a classroom presentation?",
+      options: [
+        "Maintaining eye contact with the class",
+        "Reading all slide text word for word",
+        "Explaining diagrams in their own voice",
+        "Answering questions after finishing",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Effective presenters use slides as visual signposts and explain concepts in their own words rather than reading bullet points verbatim.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature appears on the ribbon when Slide Master view is activated?",
+      options: [
+        "A dedicated Slide Master tab",
+        "A new internet search browser",
+        "An automatic video recording tool",
+        "A document translation toolbar",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Activating Master view opens a contextual Slide Master tab on the Ribbon containing controls for layouts, placeholders, and closing the view.",
+    ),
+    QuizQuestion(
+      question:
+          "10. In a 5-slide presentation on community sanitation, what content best fits Slide 3?",
+      options: [
+        "The presenter's name and school name",
+        "A blank screen waiting for questions",
+        "Key facts, challenges, and bullet points",
+        "The desktop computer settings menu",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Slide 3 is part of the core body of the presentation, where main concepts, supporting bullet points, and data are presented.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the fundamental structure used by electronic spreadsheets to organise information?",
+      options: [
+        "A numbered list of paragraphs",
+        "A grid of rows and columns",
+        "A set of overlapping slides",
+        "A collection of audio tracks",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Spreadsheets arrange data strictly in intersecting horizontal rows and vertical columns.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which office application is specifically built to compute numerical data and produce charts?",
+      options: [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Adobe Acrobat",
+        "Mozilla Firefox",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft Excel is a dedicated spreadsheet software designed for numerical calculation and data analysis.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In an electronic spreadsheet, what is the specific name of the box that stores individual data?",
+      options: [
+        "Block",
+        "Frame",
+        "Cell",
+        "Panel",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A cell is the rectangular unit formed by the intersection of a row and a column.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is an electronic spreadsheet preferred over a manual paper ledger for school accounts?",
+      options: [
+        "It consumes more electricity",
+        "It requires paper and erasers",
+        "It operates only with keyboards",
+        "It prevents calculation errors",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Spreadsheets use automated formulas, eliminating human arithmetic mistakes common in manual calculations.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of the following software programs is a free, open-source spreadsheet package?",
+      options: [
+        "LibreOffice Calc",
+        "Microsoft Outlook",
+        "Corel VideoStudio",
+        "Google Chrome Web",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "LibreOffice Calc is an open-source productivity program available without licence fees.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What takes place in a worksheet when an input value tied to a calculation formula is edited?",
+      options: [
+        "The sheet deletes the table",
+        "The entire device turns off",
+        "The application locks cells",
+        "The answer updates instantly",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Spreadsheets feature automatic recalculation, updating dependent formulas the moment values change.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which spreadsheet package runs inside a web browser and allows multiple users to edit together?",
+      options: [
+        "Google Sheets",
+        "Windows Media",
+        "Adobe Reader",
+        "Paint 3D App",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Google Sheets is a cloud-based spreadsheet program that supports live real-time collaboration.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A trader in Tamale wants to check which goods earned the most profit this month. Which tool should she use?",
+      options: [
+        "Font colour palette",
+        "Data sorting feature",
+        "Document margin tool",
+        "Screen brightness bar",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Sorting allows users to arrange numbers in ascending or descending order to identify top and bottom values.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature best helps a headmistress present term attendance figures quickly at a PTA meeting?",
+      options: [
+        "Dark screen mode",
+        "High-speed typing",
+        "Graphical charts",
+        "Desktop shortcuts",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Graphical capabilities such as bar and pie charts visually display patterns and summary statistics clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following tasks is an electronic spreadsheet least suited to perform?",
+      options: [
+        "Preparing school annual budgets",
+        "Computing student marks averages",
+        "Editing long literary novels",
+        "Tracking canteen sales records",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Word processors are built for long narrative writing, whereas spreadsheets specialise in numeric data and tables.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L2/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which component of the Excel interface displays the cell address of the currently active cell?",
+      options: [
+        "Dialog Box Launcher",
+        "Formula Bar",
+        "Quick Access Bar",
+        "Name Box",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Name Box, located to the left of the Formula Bar, displays the reference of the active cell.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How is a vertical division of an electronic spreadsheet identified on screen?",
+      options: [
+        "By an alphabetical letter",
+        "By a positive integer",
+        "By a punctuation mark",
+        "By a Roman numeral",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Columns run vertically and are headed by letters such as A, B, C, and so on.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What indicates on the worksheet that a specific cell is selected and ready for data entry?",
+      options: [
+        "A flashing arrow pointer",
+        "A dotted yellow circle",
+        "A heavy dark border",
+        "A coloured diagonal line",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The active cell is outlined with a bold, dark rectangular border to show it is currently selected.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student needs to fix one wrong character in a long cell label without retyping the entire text. What should they do?",
+      options: [
+        "Double-click the cell",
+        "Press the Delete key",
+        "Tap the Spacebar key",
+        "Click the Sheet Tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Double-clicking a cell or clicking inside the Formula Bar activates the cursor for partial text edits.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which shortcut combination allows a user to duplicate data from one cell into another location?",
+      options: [
+        "Ctrl + X and Ctrl + P",
+        "Ctrl + C and Ctrl + V",
+        "Ctrl + Z and Ctrl + Y",
+        "Ctrl + A and Ctrl + S",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Ctrl + C copies the selected data to the clipboard, and Ctrl + V pastes it into the chosen destination cell.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where on the Excel screen can a user read the full content or underlying calculation of an active cell?",
+      options: [
+        "The Status Bar",
+        "The Title Bar",
+        "The Zoom Slider",
+        "The Formula Bar",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Formula Bar shows the raw data, text, or formula contained within the active cell.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the correct term for a group of two or more adjacent cells highlighted across a worksheet?",
+      options: [
+        "Cell range",
+        "Cell frame",
+        "Cell block",
+        "Cell union",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A contiguous group or block of selected cells in a spreadsheet is referred to as a cell range.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens to the original source cell when a user moves data using the Cut and Paste technique?",
+      options: [
+        "It stays fully intact",
+        "It is deleted completely",
+        "It turns dark yellow",
+        "It becomes locked shut",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Cut command removes data from its initial position so it can be placed into the destination cell.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which area at the bottom edge of the Excel interface lets you navigate between multiple worksheets?",
+      options: [
+        "Quick Access Bar",
+        "Ribbon Menu Bar",
+        "Worksheet Tabs",
+        "Main Formula Bar",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Sheet tabs sit near the bottom left and let users click to switch between different sheets in a workbook.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If a user selects cell D6, which column letter and row number does this intersection represent?",
+      options: [
+        "Column 6 and Row 4",
+        "Column 4 and Row D",
+        "Column 6 and Row D",
+        "Column D and Row 6",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A cell name combines the column letter first, followed immediately by the row number.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which datatype automatically aligns currency symbols and decimal points in a straight vertical line?",
+      options: [
+        "Percentage",
+        "General",
+        "Text",
+        "Accounting",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Accounting format aligns currency symbols on the left and decimal points vertically down columns for clean balance sheets.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the main reason for assigning the Date datatype to a column of calendar entries?",
+      options: [
+        "It enables chronological sorting",
+        "It doubles the row height",
+        "It underlines every heading",
+        "It locks the computer screen",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Proper date datatypes ensure the software treats entries as valid dates, allowing accurate calendar sorting and calculations.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What dialog box opens when you right-click a cell and need comprehensive formatting choices?",
+      options: [
+        "Formula Setup Box",
+        "Format Cells Box",
+        "Page Setup Launcher",
+        "Insert Function Box",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Right-clicking a cell and selecting \"Format Cells\" opens the full formatting dialog window.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student types the value 50 into a cell. Which format will display this value as 50.00?",
+      options: [
+        "General",
+        "Text",
+        "Time",
+        "Number",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Number format allows users to define explicit decimal places, displaying integers with trailing zeros.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When entering a school telephone number like 0244123456, why does General format drop the leading zero?",
+      options: [
+        "It treats digits as a numeric value",
+        "It only accepts eight characters",
+        "It requires an email address",
+        "It flags all zeros as errors",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "General format interprets digits mathematically, and numbers do not retain non-significant leading zeros.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does an electronic spreadsheet align standard alphabetic text inside a cell by default?",
+      options: [
+        "Centred horizontally",
+        "Aligned to the left",
+        "Aligned to the right",
+        "Justified along both",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Text entries default to left alignment, whereas numeric entries default to right alignment.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which date style spells out the name of the month in full on the worksheet?",
+      options: [
+        "Long Date format",
+        "Short Date format",
+        "Julian Date format",
+        "Native Date format",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Long Date option displays dates fully written out, including the day of the week and full month name.",
+    ),
+    QuizQuestion(
+      question:
+          "8. On which ribbon tab will you find the primary drop-down menu for setting cell formats?",
+      options: [
+        "Formulas tab",
+        "Review tab",
+        "Home tab",
+        "View tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Number formatting group and its type selector drop-down sit directly on the Home tab.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A canteen records daily opening hours as 08:30 AM. Which datatype is most appropriate?",
+      options: [
+        "Fraction format",
+        "Currency format",
+        "Scientific format",
+        "Time format",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Time format is designed specifically for displaying clock hours, minutes, and AM or PM designations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If a cell displays 8 Cedis and 50 pesewas as 8.5, which format should be applied to show 8.50 Cedis properly?",
+      options: [
+        "Currency",
+        "General",
+        "Text",
+        "Percentage",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Applying the Currency format appends the monetary unit and enforces two decimal places for currency.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L4/8. Quiz.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which tool should a student use to place a table title evenly across columns A, B, C, and D?",
+      options: [
+        "Wrap Text",
+        "Merge Across",
+        "AutoFit Column",
+        "Merge & Center",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Merge & Center merges the highlighted cells into a single wide cell and centres the text horizontally across that range.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What occurs to a selected cell when the Wrap Text feature is toggled on?",
+      options: [
+        "Text spans multiple lines",
+        "The font size shrinks to fit",
+        "The column width triples",
+        "The text turns into uppercase",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Wrap Text displays long strings across multiple lines inside a cell by increasing row height rather than column width.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which vertical alignment command centres cell content between the upper and lower row borders?",
+      options: [
+        "Top Align",
+        "Bottom Align",
+        "Middle Align",
+        "Center Align",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Middle Align adjusts content vertically so that it sits midway between the top and bottom edges of the cell.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why are borders applied manually to a spreadsheet table before it is printed out?",
+      options: [
+        "Borders prevent formula calculation bugs",
+        "Borders compress file size for printing",
+        "Screen gridlines do not print by default",
+        "Screen text cannot be read without lines",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "On-screen worksheet gridlines are non-printable guide marks; explicit borders must be formatted to print visible lines.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which border style is traditionally applied beneath the final total in accounting sheets?",
+      options: [
+        "Double Bottom Border",
+        "Diagonal Cross Border",
+        "Dotted Left Border",
+        "Single Top Border",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A double bottom line beneath a calculation total is standard accounting notation indicating a completed final balance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which command restores a merged block back into its original individual cells?",
+      options: [
+        "Split Column",
+        "Clear Formats",
+        "Reset Cells",
+        "Unmerge Cells",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Unmerge Cells command splits a previously merged block back into its separate constituent grid cells.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A teacher wants to highlight the top three scores in a class list. Which tool is best suited?",
+      options: [
+        "Cell Shading (Fill Color)",
+        "Sheet Orientation",
+        "Margins Adjustment",
+        "Unmerge Formatting",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Shading fills the background of selected cells with distinct colours, allowing key records or headers to stand out.",
+    ),
+    QuizQuestion(
+      question:
+          "8. On which ribbon tab are the Merge & Center and Wrap Text commands located?",
+      options: [
+        "Page Layout tab",
+        "Home tab",
+        "Formulas tab",
+        "Data tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Both Merge & Center and Wrap Text reside in the Alignment group situated directly on the Home tab.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens to the remaining text if you merge multiple cells that each contain data?",
+      options: [
+        "All text from every cell is concatenated",
+        "Only the upper-left cell data is kept",
+        "All data across the selection is erased",
+        "The application displays a formula error",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Merging cells with multiple entries retains only the contents of the upper-left cell while discarding the rest.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does the Orientation command in the Alignment group alter the appearance of cell text?",
+      options: [
+        "It changes the language font family",
+        "It translates text into numerical data",
+        "It flips numbers into decimal pesewas",
+        "It rotates text diagonally or vertically",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Orientation tool rotates characters to angle upward, angle downward, or run vertically inside the cell.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L5/8. QUIZ update.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which page orientation turns a printed worksheet horizontally so that it is wider than it is tall?",
+      options: [
+        "Letter orientation",
+        "Bookfold orientation",
+        "Portrait orientation",
+        "Landscape orientation",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Landscape orientation rotates the page horizontally, making the printable area wider than it is tall.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which margin preset provides the smallest border spacing to fit maximum data columns onto a page?",
+      options: [
+        "Narrow preset",
+        "Normal preset",
+        "Center preset",
+        "Wide preset",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Narrow margin preset reduces white space along all four edges, maximizing printable space for broad tables.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In which group on the Page Layout tab are Margins and Orientation located?",
+      options: [
+        "Themes group",
+        "Page Setup group",
+        "Sheet Options group",
+        "Arrange group",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Page Setup group houses essential printing controls including Margins, Orientation, Size, and Print Area.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student has a table with ten columns of sports day scores. Which orientation will prevent columns from splitting?",
+      options: [
+        "Grid orientation",
+        "Vertical orientation",
+        "Portrait orientation",
+        "Landscape orientation",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Landscape orientation provides wider horizontal space, allowing multi-column tables to fit on a single page.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which dialog box opens when a user needs to type custom margin values in centimetres?",
+      options: [
+        "Page Setup dialog box",
+        "Format Cells dialog box",
+        "Insert Object dialog box",
+        "Zoom Settings dialog box",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Selecting \"Custom Margins\" from the Margins menu launches the Page Setup dialog box.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which view displays the worksheet as realistic paper pages including visible headers, footers, and margins?",
+      options: [
+        "Outline View",
+        "Web View",
+        "Normal View",
+        "Page Layout View",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Page Layout View shows the worksheet broken into pages with margins, headers, and footers clearly visible.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Where on the Excel screen can you quickly toggle between Normal, Page Layout, and Page Break Preview?",
+      options: [
+        "The Status Bar",
+        "The Formula Bar",
+        "The Name Box",
+        "The Title Bar",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The view shortcut buttons sit at the bottom right corner of the Excel window along the Status Bar.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why would a teacher choose the Wide margin preset for a school report document?",
+      options: [
+        "To shrink text size automatically",
+        "To leave room for binding or filing",
+        "To fit twenty columns on one page",
+        "To force the printer to print in colour",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Wide margins provide extra white space around the perimeter, which is ideal for stapling or ring-binding pages.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when a user clicks and drags a blue divider line in Page Break Preview?",
+      options: [
+        "It deletes the column data",
+        "It changes cell datatypes",
+        "It repositions the page boundary",
+        "It underlines text headings",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Dragging blue division lines adjusts where page breaks occur, changing which cells appear on each printed sheet.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A table has two columns: \"Student Name\" and \"Attendance Status\", with seventy rows. Which layout is most appropriate?",
+      options: [
+        "Portrait orientation",
+        "Landscape orientation",
+        "Banner orientation",
+        "Slide orientation",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A narrow table with only two columns but many vertical rows is best presented in Portrait orientation.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which area along the bottom margin of a printed worksheet is used to display page numbers and timestamps?",
+      options: [
+        "Header",
+        "Margin line",
+        "Scroll bar",
+        "Footer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A footer is the dedicated area at the bottom margin of each printed page that displays page numbers, dates, and other document details.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How many distinct sections are provided inside each header and footer area across the page width?",
+      options: [
+        "Three sections",
+        "Four sections",
+        "Two sections",
+        "Five sections",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Headers and footers are divided into three distinct clickable alignment sections: left, centre, and right.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Under which group on the Insert tab will you locate the Header & Footer command?",
+      options: [
+        "Tables group",
+        "Text group",
+        "Links group",
+        "Charts group",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Header & Footer command resides inside the Text group on the Insert ribbon tab.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why are headers and footers invisible when working in standard Normal View?",
+      options: [
+        "Normal View deletes all text formatting",
+        "Normal View runs only without formulas",
+        "Normal View disables all printer drivers",
+        "Normal View hides margins and page breaks",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Normal View presents a continuous grid without displaying margins, headers, footers, or page boundaries.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which element code should a teacher insert to ensure printed mark sheets display the exact day of printing?",
+      options: [
+        "Page Number",
+        "Sheet Name",
+        "Current Date",
+        "File Size",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Current Date command inserts an automated date code that updates dynamically based on the system calendar.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which tab appears on the Ribbon whenever a user clicks inside a header or footer box?",
+      options: [
+        "Design tab",
+        "Formulas tab",
+        "Review tab",
+        "Data tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking inside any header or footer box opens the contextual Header & Footer Design tab on the Ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which navigation button on the Design tab jumps the cursor from the header straight to the footer?",
+      options: [
+        "Go to Footer",
+        "Jump to Bottom",
+        "Scroll Down Box",
+        "Next Section",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The \"Go to Footer\" command in the Navigation group moves the user directly from the top header to the bottom footer.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A bursar wants the printed sheet to identify the computer file name automatically. Which button is used?",
+      options: [
+        "File Size",
+        "File Name",
+        "User Login",
+        "Hard Drive",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The File Name tool inserts a dynamic code that displays the saved digital workbook name in the header or footer.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In which view can a student edit worksheet cell data while viewing headers and footers simultaneously?",
+      options: [
+        "Normal View",
+        "Reading View",
+        "Page Layout View",
+        "Web Preview",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Page Layout View shows margins, headers, and footers clearly while still allowing direct cell editing on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What happens when you combine the Page Number and Number of Pages elements in a footer?",
+      options: [
+        "It generates a total sum formula",
+        "It clears all footer formatting",
+        "It links to an external browser",
+        "It prints formats like Page 1 of 5",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Combining the Page Number and Number of Pages tools displays the current page alongside the total page count.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L7/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What feature in Microsoft Excel automatically fills adjacent cells with sequential data following a pattern?",
+      options: [
+        "Spell Check",
+        "Page Break",
+        "Text Wrapping",
+        "AutoFill",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "AutoFill is the dedicated spreadsheet feature used to populate series of numbers, dates, or text lists automatically.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where on the border of a selected active cell is the Fill Handle located?",
+      options: [
+        "Bottom-right corner",
+        "Upper-left corner",
+        "Exact center point",
+        "Upper-right corner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Fill Handle appears as a small square positioned at the lower-right corner of the active cell border.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What happens when a user types \"January\" into a cell and drags the Fill Handle downwards across five cells?",
+      options: [
+        "Excel displays an error code",
+        "Excel fills months through June",
+        "Excel duplicates \"January\" five times",
+        "Excel converts the text into numbers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Months of the year are recognized as a predefined sequence, so AutoFill automatically generates the succeeding months.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student types 3 in cell A1 and 6 in cell A2. What value appears in cell A3 if she selects both and uses AutoFill?",
+      options: [
+        "7",
+        "8",
+        "12",
+        "9",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "AutoFill detects a step interval of plus three (multiples of three), so the next number generated is nine.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which symbol appears on screen when the mouse pointer is positioned correctly over the Fill Handle?",
+      options: [
+        "A white open hand",
+        "A thick white cross",
+        "A thin black plus sign",
+        "A double horizontal line",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The mouse pointer transforms into a slender black crosshair or plus sign (+) when hovering over the Fill Handle.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does typing only the number \"5\" and dragging the Fill Handle often result in the number 5 repeating down the column?",
+      options: [
+        "Numbers cannot be used with AutoFill",
+        "The worksheet is locked against edits",
+        "A single number does not show a pattern",
+        "Excel only supports text sequences",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Without a second number to establish an increment interval, Excel defaults to copying the single value.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A teacher enters \"01/03/2026\" into a cell. What does AutoFill do when dragged down three adjacent rows?",
+      options: [
+        "Increments the date day by day",
+        "Multiplies the year by three",
+        "Erases the original date entry",
+        "Changes the format to text",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "AutoFill recognizes standard date datatypes and increments sequential calendar dates by one day per cell.",
+    ),
+    QuizQuestion(
+      question:
+          "8. To generate a list of odd numbers (1, 3, 5, 7), which two numbers should be entered into the initial cells?",
+      options: [
+        "0 and 2",
+        "1 and 3",
+        "1 and 2",
+        "3 and 6",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Entering 1 and 3 establishes a pattern of adding two to each odd integer.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In which directions can the Fill Handle be dragged to populate a series across a worksheet?",
+      options: [
+        "Vertically and horizontally",
+        "Diagonally across cells only",
+        "In circular loops around cells",
+        "Only from right to left",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The Fill Handle can be dragged vertically down columns or up rows, and horizontally across columns to the right or left.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What happens if you drag the Fill Handle through seven cells after typing the abbreviation \"Fri\"?",
+      options: [
+        "It repeats \"Fri\" seven times",
+        "It clears the target range",
+        "It displays a syntax error",
+        "It fills abbreviated days and cycles",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "AutoFill extends short day names (Sat, Sun, Mon...) and seamlessly loops back when reaching the end of the week.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S2Ss3Lesson8QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s2_ss3_L8/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What symbol is required at the very start of every spreadsheet formula?",
+      options: [
+        "Asterisk (*)",
+        "Greater-than (>)",
+        "Ampersand (&)",
+        "Equal sign (=)",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Every formula in an electronic spreadsheet must begin with an equal sign (=) to prompt calculation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which keyboard operator is used to multiply two values together in a formula?",
+      options: [
+        "Asterisk (*)",
+        "Letter X (x)",
+        "Caret (^)",
+        "Plus sign (+)",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The asterisk symbol (*) is the standard arithmetic multiplication operator in spreadsheet applications.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where can you view the original equation of a cell while the grid shows the calculated answer?",
+      options: [
+        "The Status Bar",
+        "The Formula Bar",
+        "The Name Box",
+        "The Sheet Tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Formula Bar displays the underlying formula of the active cell, even when the cell displays the computed result.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student enters =B1+B2 into cell B3. What happens if the value in cell B1 is increased?",
+      options: [
+        "The formula clears itself",
+        "The computer shows an error",
+        "Cell B3 locks against edits",
+        "Cell B3 updates automatically",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Spreadsheets use automatic recalculation to update results dynamically when referenced cell values change.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which formula correctly divides the total value in cell F10 by the number 4?",
+      options: [
+        "=F10/4",
+        r"=F10\backslash 4",
+        "=F10:4",
+        "=F10-4",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Division expressions in spreadsheets use the forward slash operator (/) followed by the divisor.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is writing =A1+A2 superior to entering =500+250 in a school account sheet?",
+      options: [
+        "It allows dynamic data changes",
+        "It requires less disk memory",
+        "It changes font styles automatically",
+        "It hides numbers from other viewers",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Cell references allow dynamic updates, automatically recalculating totals when input values change.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What occurs if a user types 12/3 into a spreadsheet cell without entering an equal sign?",
+      options: [
+        "Excel displays the number 4",
+        "Excel treats it as a calendar date",
+        "Excel shuts down immediately",
+        "Excel produces a division error",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Without an equal sign, entering numbers with slashes causes Excel to interpret the entry as text or a calendar date.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which formula calculates total cost if unit price is in cell C2 and quantity is in cell D2?",
+      options: [
+        "=C2+D2",
+        "=C2*D2",
+        "=C2/D2",
+        "=C2-D2",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Multiplying the unit price by the quantity purchased (=C2*D2) gives the total cost.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a student select cell addresses quickly while writing a formula without typing them?",
+      options: [
+        "Double-clicking the Ribbon tab",
+        "Right-clicking the desktop icon",
+        "Clicking target cells with mouse",
+        "Pressing the spacebar repeated times",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Point-and-click selection allows users to click target cells directly to insert their addresses into a formula.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What does a cell display if a user types =40-15 and presses the Enter key?",
+      options: [
+        "=40-15",
+        "40-15",
+        "25",
+        "55",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Starting with an equal sign computes the subtraction expression directly, displaying the answer 25.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of a central server node within a school local computer network?",
+      options: [
+        "Storing files and providing shared network services to client nodes",
+        "Terminating stray electrical signals running across long drop lines",
+        "Connecting unshielded twisted pair cables directly into wall plugs",
+        "Broadcasting data frames indiscriminately to every laboratory port",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A server provides shared files, resources, and administrative control to connected client computers on a network.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why does a network switch provide higher communication efficiency than an older network hub?",
+      options: [
+        "It forwards data only to the specific intended destination address",
+        "It connects computers without requiring any physical network cables",
+        "It retransmits all arriving data packets across every single device",
+        "It automatically absorbs stray signals at both cable extremities",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Switches inspect the target address of each data packet and route traffic strictly to the designated node.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which statement correctly describes the operation of a physical linear bus network topology?",
+      options: [
+        "All nodes link directly to an intelligent central distribution switch",
+        "Every device connects to a single continuous shared backbone cable",
+        "Every single computer maintains a private direct cable to all others",
+        "Computers circulate messages in an endless loop using a ring token",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A bus topology attaches all client computers and peripherals directly to one common central backbone line.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In a token ring network, what mechanism allows a workstation to initiate data transmission across the loop?",
+      options: [
+        "Sending an alert ping across every connected port simultaneously",
+        "Waiting for the central hub to issue an electronic control address",
+        "Gaining exclusive possession of the circulating electronic token",
+        "Connecting directly through a dedicated full-duplex coaxial line",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Workstations in a ring topology can only transmit data frames onto the shared loop while possessing the active token.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens to a star network if the individual cable connecting an ICT student desktop is severed?",
+      options: [
+        "All network computers shut down communication immediately",
+        "The central network switch stops operating until replaced",
+        "Data packets reverse travel directions across the backbone",
+        "Only that specific student desktop loses network connection",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Star topologies isolate cable faults; damage to one node's cable affects only that individual device.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which network topology requires the greatest total length of cabling when linking ten computers together?",
+      options: [
+        "Bus topology",
+        "Star topology",
+        "Ring topology",
+        "Mesh topology",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A full mesh requires dedicated links between every pair of nodes, consuming vastly more physical cable than other layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why are terminators mandatory at both physical ends of a linear bus network cable?",
+      options: [
+        "They supply electrical current to keep passive hub ports fully powered",
+        "They absorb outbound signals to stop disruptive line reflections",
+        "They convert analog copper cable pulses into fast optical signals",
+        "They assign dynamic network protocol numbers to connected clients",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Terminators absorb signal energy at cable ends, preventing signal bounce that causes packet corruption.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A district hospital needs a reliable network where broken cables cannot interrupt patient data flow. Which layout is best?",
+      options: [
+        "Bus topology",
+        "Ring topology",
+        "Star topology",
+        "Mesh topology",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Mesh topologies offer redundant connections, allowing traffic to reroute dynamically if a line fails.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the chief operational risk of relying on a star network across a regional bank branch?",
+      options: [
+        "A fault in the central switch disables communication for every node",
+        "Adding extra client devices requires reinstalling the entire network",
+        "Signal collisions occur frequently whenever two computers transmit",
+        "The system cannot transmit data without using physical copper wires",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The central switch or hub in a star topology represents a single point of failure for the entire system.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term defines any physical electronic equipment connected to a computer network system?",
+      options: [
+        "Token",
+        "Cable",
+        "Node",
+        "Bus",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Any identifiable device participating in network communication—such as a computer, printer, or server—is a node.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which network classification covers an entire urban city by interconnecting multiple local area networks?",
+      options: [
+        "Metropolitan Area Network",
+        "Personal Area Network",
+        "Storage Area Network",
+        "Campus Area Network",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A Metropolitan Area Network (MAN) bridges multiple local networks across a single city or municipality.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What technology is most commonly utilized to establish wireless connections within a Personal Area Network?",
+      options: [
+        "Coaxial transmission line",
+        "Undersea fiber optic trunk",
+        "Microwave satellite uplink",
+        "Bluetooth wireless standard",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Bluetooth is the standard short-range wireless radio technology used to create PAN connections between personal gadgets.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which characteristic is typical of a Local Area Network operated by a private junior high school?",
+      options: [
+        "It spans across multiple foreign continents",
+        "It is privately owned by the institution",
+        "It relies exclusively on orbital satellites",
+        "It operates only within a ten-metre radius",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "LANs are usually owned, operated, and maintained privately by the organisation that uses them.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following is recognized as the largest and most widely accessed Wide Area Network in the world?",
+      options: [
+        "The global public internet",
+        "A bank head office SAN",
+        "A university campus CAN",
+        "A regional district MAN",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The internet is a worldwide collection of interconnected networks spanning the entire planet, making it the supreme WAN.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why would a corporate data centre implement a dedicated Storage Area Network alongside its regular network?",
+      options: [
+        "To allow mobile phones to pair using Bluetooth",
+        "To eliminate the need for central computer hubs",
+        "To isolate heavy data storage and backup traffic",
+        "To route municipal office documents across town",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "SANs isolate massive file transfers and disk backups to preserve user bandwidth on the main local network.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does a Wireless Local Area Network differ from a traditional wired Local Area Network?",
+      options: [
+        "It connects devices across multiple countries",
+        "It requires terminators at both line limits",
+        "It handles only block-level database drives",
+        "It transmits data using radio frequency waves",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A WLAN uses Wi-Fi radio frequencies rather than copper cables to connect workstations to an access point.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which geographic network spans an entire continent and links branch offices across multiple nations?",
+      options: [
+        "Wide Area Network",
+        "Local Area Network",
+        "Personal Area Network",
+        "Storage Area Network",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "WANs cross national, continental, and international boundaries to link distant facilities.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A secondary school links its administration block, library, and dormitory blocks across its compound. This forms a:",
+      options: [
+        "Personal Area Network",
+        "Campus Area Network",
+        "Wide Area Network",
+        "Storage Area Network",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A Campus Area Network (CAN) joins separate LANs across a single contiguous school or corporate site.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What key limitation prevents standard Local Area Network cabling from being used across a metropolitan city?",
+      options: [
+        "Ethernet cables have strict physical distance limits",
+        "Personal mobile phones cannot support local switches",
+        "Ring topologies cannot transmit token data packets",
+        "Storage drives cannot read internet network codes",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Copper Ethernet cables suffer signal degradation over long distances, making them unsuitable for citywide spans without public carrier lines.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What type of network is created when an instructor links a smartphone to a portable Bluetooth printer on a desk?",
+      options: [
+        "Campus Area Network",
+        "Wide Area Network",
+        "Local Area Network",
+        "Personal Area Network",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Connecting personal peripherals over a short distance creates a Personal Area Network (PAN).",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How does a networked point-of-sale terminal system benefit a retail merchant in an urban shopping market?",
+      options: [
+        "It tracks product sales and updates store inventory lists automatically",
+        "It eliminates all utility electricity expenses for retail shop owners",
+        "It converts standard personal computers into dedicated storage drives",
+        "It ensures customer payments bypass banking regulation networks",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Networked point-of-sale systems record transactions quickly, generate customer invoices, and adjust inventory records in real time.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What constitutes a major operational challenge when managing a busy hospital computer network?",
+      options: [
+        "Electronic medical scans consume significantly less storage space",
+        "Medical workers can access patient histories from ward terminals",
+        "Network traffic bottlenecks can delay urgent patient consultations",
+        "Digital prescription orders reach hospital dispensaries promptly",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Heavy network congestion or slow transmission can delay doctors from retrieving vital patient records during medical emergencies.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which business activity uses network connectivity to assist junior high school graduates every academic year?",
+      options: [
+        "Assembling unshielded copper patch cords for foreign export",
+        "Processing online school selections and printing exam result slips",
+        "Repairing damaged high-voltage power lines across rural areas",
+        "Manufacturing plastic casing components for network switch boxes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Online result checking and school placement registrations are widely accessed consumer networking services provided by local ICT kiosks.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why does server downtime create severe disruptions inside a networked educational institution?",
+      options: [
+        "Workstations lose access to shared files, lesson packs, and grading systems",
+        "Connected desktop computers permanently lose their physical network cords",
+        "Classroom projector screens switch automatically to television stations",
+        "Peripheral laser printers begin broadcasting signals across the city",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A crashed server cuts off client workstations from centralized curriculum resources, student databases, and school administrative tools.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary commercial role of an authorised mobile money merchant in a local neighborhood?",
+      options: [
+        "Providing physical server storage facilities to secondary schools",
+        "Installing undersea communication fiber trunks across waterways",
+        "Conducting digital deposits, cash withdrawals, and electronic bill payments",
+        "Inspecting private computers for compliance with network topologies",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mobile money agents leverage telecommunication networks to process financial transactions, transfers, and utility payments for community members.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A major company allows workers to perform daily tasks from home via an encrypted internet connection. This is known as:",
+      options: [
+        "Standalone hardware processing",
+        "Physical cable loop termination",
+        "Central server loop switching",
+        "Networked remote telecommuting",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Telecommuting relies on secure internet and wide area network links to allow staff to work productively outside traditional company offices.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which security risk arises when school computers are interconnected without proper user authentication controls?",
+      options: [
+        "Workstations automatically double their available physical memory",
+        "Network routers convert incoming digital signals into paper prints",
+        "Client cables experience spontaneous electrical power fluctuations",
+        "Unauthorised users may access and alter confidential academic records",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Without user authentication and permissions, unauthorized parties can access, tamper with, or delete confidential institutional files.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a technician generate ongoing entrepreneurial income after setting up an office network?",
+      options: [
+        "Providing scheduled system maintenance, security updates, and repairs",
+        "Disconnecting the client computers so staff work without cables",
+        "Confiscating shared office printers to prevent staff paper usage",
+        "Replacing local area network wiring with individual personal cables",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Providing routine maintenance, data backup oversight, and hardware troubleshooting provides regular service fee income for technical network contractors.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What economic benefit does a private health clinic realize by linking its laboratory and consultation rooms?",
+      options: [
+        "Diagnostic test reports are shared electronically without physical messenger delays",
+        "The clinic no longer needs qualified medical physicians to attend to sick patients",
+        "Personal area network devices eliminate all future hardware replacement costs",
+        "Clinical staff can run hospital machinery without local electrical power sources",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Electronic data transmission reduces staff transit time, eliminates paper messenger costs, and speeds up clinical consultations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which career role is responsible for overseeing, securing, and maintaining an organization's computer networks?",
+      options: [
+        "Mechanical vehicle technician",
+        "Graphic print typesetter",
+        "Network system administrator",
+        "Ledger accounting bookkeeper",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A network administrator configures routers and switches, manages security, monitors traffic, and ensures uninterrupted network operations.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following platforms is primarily designed for microblogging?",
+      options: [
+        "Twitter",
+        "YouTube",
+        "Myspace",
+        "Spotify",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Twitter is built specifically for broadcasting short updates called tweets, making it a microblogging platform.",
+    ),
+    QuizQuestion(
+      question: "2. What is the main role of a social networking site?",
+      options: [
+        "Formatting hard drives",
+        "Compiling code scripts",
+        "Connecting people online",
+        "Editing system registries",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Social networks are developed to connect individuals, groups, and organisations across virtual communities.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A teacher wants to share formal curriculum credentials with employers. Which site is best suited for this?",
+      options: [
+        "Reddit",
+        "Tumblr",
+        "Twitch",
+        "LinkedIn",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "LinkedIn is dedicated to professional profiles, work history, and employment networking.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why do public safety agencies in Ghana use microblogs during emergency situations?",
+      options: [
+        "To broadcast immediate alerts",
+        "To print paper announcements",
+        "To design physical noticeboards",
+        "To store large backup databases",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Microblogs deliver rapid, short messages directly to public feeds, making them ideal for urgent updates.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What term is used to describe a brief update posted on the Twitter platform?",
+      options: [
+        "Album",
+        "Tweet",
+        "Thread",
+        "Canvas",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Individual short text posts published on Twitter are known as tweets.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which detail is unsafe to publish on an open social media account?",
+      options: [
+        "Favourite subject",
+        "Preferred book",
+        "Personal hobby",
+        "Private residence",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Posting your home address or location compromises personal safety and privacy.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which social networking application connects accounts directly through mobile contact lists?",
+      options: [
+        "WhatsApp",
+        "Pinterest",
+        "Blogger",
+        "DeviantArt",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "WhatsApp authenticates users through their active mobile telephone numbers to build message contacts.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does microblogging differ fundamentally from long-form traditional blogging?",
+      options: [
+        "It requires satellite dishes",
+        "It costs thousands of Cedis",
+        "It uses short content entries",
+        "It excludes mobile telephone use",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Microblogging focuses on short, concise entries rather than detailed, lengthy articles.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following websites represents a recognised microblogging platform?",
+      options: [
+        "Quora",
+        "Vimeo",
+        "Medium",
+        "Tumblr",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tumblr is designed for short-form multimedia microblogging alongside platforms like Twitter.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student wants to establish an online study discussion circle for a school class. Which platform is best suited for this?",
+      options: [
+        "Flickr",
+        "Soundcloud",
+        "WhatsApp",
+        "WordPress",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "WhatsApp allows users to assemble private groups for messaging, sharing documents, and collaborative study.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which field contains the email address of the person creating and sending the email?",
+      options: [
+        "From field",
+        "Subject line",
+        "Trash folder",
+        "Spam filter",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The From field identifies the sender who generated the electronic message.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why is it beneficial to store contact records inside an email address book?",
+      options: [
+        "Speeds up internet connection",
+        "Cleans physical screen glass",
+        "Eliminates memorising addresses",
+        "Removes malicious virus files",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The address book stores contact details so users do not have to memorise complex addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A student wants to send an essay file alongside a short message. What tool is used?",
+      options: [
+        "Device reboot",
+        "Font resize",
+        "Screen capture",
+        "File attachment",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "File attachments allow separate external documents to travel alongside an email message.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which recipient addressing field allows all readers to see every listed address?",
+      options: [
+        "Carbon Copy",
+        "Secure Socket",
+        "System Proxy",
+        "Private Key",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "All email addresses written in the Carbon Copy (Cc) field are visible to every recipient.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens when you select the Reply command on an incoming message?",
+      options: [
+        "The email is deleted",
+        "A response goes to sender",
+        "The computer turns off",
+        "The inbox is locked up",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Reply command addresses a new response directly to the original sender.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When would a school secretary choose Bcc over Cc when sending a message?",
+      options: [
+        "To increase font brightness",
+        "To speed up typing velocity",
+        "To translate text to Twi",
+        "To keep email addresses secret",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Bcc conceals recipient addresses from everyone else, ensuring complete contact privacy.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which icon must a user click to add a spreadsheet file to an email draft?",
+      options: [
+        "Paperclip",
+        "Scissors",
+        "Envelope",
+        "Bookmark",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The paperclip icon is the standard button used to attach files to an email.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the main function of the Forward command in an email client?",
+      options: [
+        "Deleting old spam messages",
+        "Printing physical hard copies",
+        "Passing an email to others",
+        "Backing up hard disk drives",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Forwarding lets you take a message you received and pass it on to a different recipient.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the danger of placing hundreds of public contacts into the To field?",
+      options: [
+        "It ruins monitor screens",
+        "It deletes the operating system",
+        "It causes battery drainage",
+        "It exposes private contacts",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Placing multiple recipients in the To or Cc field exposes private contact details to everyone.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does an email address book assist when typing into the To box?",
+      options: [
+        "Corrects grammar syntax",
+        "Suggests saved contacts",
+        "Translates local slang",
+        "Calculates math sums",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The address book automatically suggests saved matching contacts as soon as typing begins.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L1/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does the acronym CIA stand for in information security?",
+      options: [
+        "Confidentiality, Integrity, Availability",
+        "Computation, Integration, Authorisation",
+        "Cryptography, Identification, Accessing",
+        "Communication, Inspection, Authenticity",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In information security, the CIA Triad represents the foundational model consisting of Confidentiality, Integrity, and Availability.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A student discovers their teacher's terminal unlocked and adds ten marks to their class score. Which principle is violated?",
+      options: [
+        "Scalability",
+        "Availability",
+        "Redundancy",
+        "Integrity",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Integrity is violated whenever data is modified, altered, or forged without proper authorisation.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which mechanism provides the most reliable protection for maintaining system availability during blackouts?",
+      options: [
+        "Uninterruptible power supply units",
+        "Strong alphanumeric account passwords",
+        "Complex symmetric encryption algorithms",
+        "Write-protection attributes on local files",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "An Uninterruptible Power Supply (UPS) provides emergency battery electricity during main power outages, keeping critical devices running without interruption.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which situation describes a direct breach of data confidentiality?",
+      options: [
+        "A power outage shuts down a local lab network",
+        "A stranger reads your personal SMS banking alert",
+        "A virus corrupts a flash drive storing documents",
+        "A backup hard drive runs out of storage space",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Confidentiality is compromised when unauthorized parties gain sight or access to private information.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which action is specifically designed to protect data integrity on a shared network drive?",
+      options: [
+        "Sharing one common login among all workers",
+        "Turning off monitors when leaving the office",
+        "Setting file permissions to read-only mode",
+        "Buying extra display monitors for computers",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Read-only access permissions allow users to examine files while preventing them from editing, altering, or overwriting existing entries.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the consequence of failing to implement system availability controls?",
+      options: [
+        "Private documents are published to the web",
+        "Authorized users cannot perform their tasks",
+        "File contents are altered without detection",
+        "Stored text documents become encrypted keys",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "When availability fails, systems go offline, preventing authorized users from reaching the data and services they need.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which security practice safeguards both confidentiality and integrity when transmitting files?",
+      options: [
+        "Screen magnifiers",
+        "Surge protectors",
+        "Cloud encryption",
+        "Hardware cleaning",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Modern encryption protocols scramble data to hide it from unauthorized eyes while using cryptographic hashes to reveal any tampering during transit.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is writing your mobile money PIN on the back of your phone dangerous?",
+      options: [
+        "It causes the battery to discharge rapidly",
+        "It corrupts the mobile money menu software",
+        "It stops the SIM card connecting to masts",
+        "It compromises the confidentiality of funds",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Writing down a private PIN makes it visible to anyone who picks up or steals the device, directly destroying confidentiality.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A computer laboratory technician schedules automatic weekly data backups to an external server. Which principle does this support?",
+      options: [
+        "Confidentiality",
+        "Availability",
+        "Authenticity",
+        "Authorization",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Backups ensure that data remains retrievable and available even after hardware failure, file corruption, or accidental deletion.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes an information system genuinely secure according to modern computing standards?",
+      options: [
+        "Focusing solely on confidential credentials",
+        "Maximizing download speeds above all others",
+        "Disabling network connections permanently",
+        "Balancing confidentiality, integrity, and access",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A completely secure system must balance all three elements of the CIA Triad; ignoring any single component leaves the system vulnerable.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L2/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What legal right grants an inventor exclusive control over a novel mechanical device or process?",
+      options: [
+        "Patent",
+        "Trademark",
+        "Copyright",
+        "Plagiarism",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A patent is granted specifically for new, functional technical inventions, designs, and industrial processes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which software type allows free use indefinitely without providing access to the underlying source code?",
+      options: [
+        "Crippleware",
+        "Freeware",
+        "Commercial",
+        "Shareware",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Freeware can be downloaded and used at no charge for an unlimited period, although the developer retains full copyright.",
+    ),
+    QuizQuestion(
+      question:
+          "3. An unauthorized distributor burns copies of Ghanaian movies onto DVD discs to sell on public buses. What crime is being committed?",
+      options: [
+        "Crippleware",
+        "Patent filing",
+        "Trade secrecy",
+        "Media piracy",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Digital and media piracy involves the unauthorized duplication, distribution, or commercial sale of copyrighted creative works.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What distinguishes shareware from regular freeware applications?",
+      options: [
+        "Shareware functions for a limited trial span",
+        "Shareware can never be downloaded online",
+        "Shareware requires no payment at any stage",
+        "Shareware lacks legal copyright protection",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Shareware is provided on a temporary trial basis; once the evaluation window ends, users must pay to continue using it.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which legal consequence can a court enforce against a business convicted of large-scale software piracy?",
+      options: [
+        "Forcing the business to hire new computer staff",
+        "Compelling the firm to rewrite all its software",
+        "Awarding monetary damages and seizing devices",
+        "Removing internet cables from the local district",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Courts can order the payment of financial damages, levy heavy fines, and confiscate equipment used in intellectual property offenses.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does a soft drink producer protect its beverage formulation as a trade secret rather than filing a public patent?",
+      options: [
+        "Trade secrets expire within two calendar weeks",
+        "Trade secrets remain hidden without publishing",
+        "Trade secrets allow anyone to copy the formula",
+        "Trade secrets cost more money than state patents",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Patents require inventors to disclose technical details publicly, whereas trade secrets remain confidential as long as the business protects them internally.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which practice represents a legitimate and ethical way to acquire computer software?",
+      options: [
+        "Purchasing an official license from the vendor",
+        "Downloading cracked activation keys from forums",
+        "Borrowing a friend's setup disc without consent",
+        "Removing the developer's name from source code",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Purchasing a genuine software license directly supports the creators and legally authorizes you to run the program.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of software provides full access during installation but blocks the file saving command until paid for?",
+      options: [
+        "Malware",
+        "Firmware",
+        "Shareware",
+        "Crippleware",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Crippleware deliberately disables vital program functions, such as printing or saving, until the user purchases an upgrade key.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A factory prints another company's well-known brand logo on inferior headphones to mislead shoppers. What illegal act is this?",
+      options: [
+        "Open sourcing",
+        "Public domain",
+        "Counterfeiting",
+        "Cloud caching",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Counterfeiting is the fraudulent manufacturing of fake items that use established trademarks to deceive buyers into thinking the product is genuine.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the primary societal benefit of upholding intellectual property regulations in Ghana?",
+      options: [
+        "It allows consumers to take any digital work free",
+        "It restricts school students from writing software",
+        "It forces every tech firm to charge higher prices",
+        "It encourages innovation and rewards inventors",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "IP laws ensure that inventors and creators receive recognition and fair financial rewards, which stimulates research, innovation, and economic development.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss3_L3/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the first formal phase carried out during an information security forensic investigation?",
+      options: [
+        "Identification of potential digital evidence sources",
+        "Deleting suspicious user accounts from the server",
+        "Formatting hard drives to remove destructive viruses",
+        "Publishing forensic findings across national newspapers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A forensic investigation begins with identification, which involves locating all electronic devices, logs, and storage drives that hold relevant evidence.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What legal offense is committed when an entity collects personal information without registering with the Data Protection Commission?",
+      options: [
+        "Patent infringement",
+        "Trademark counterfeiting",
+        "Software crippleware",
+        "Breach of the Data Protection Act",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Under Ghana's Data Protection Act, 2012 (Act 843), processing personal records without formal registration as a data controller constitutes a statutory breach punishable by law.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do forensic investigators use hardware write-blockers when copying seized computer storage drives?",
+      options: [
+        "To prevent any alteration of the original digital media",
+        "To speed up internet download rates during the analysis",
+        "To compress video files into smaller backup archives",
+        "To charge laptop batteries while running diagnostic checks",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Write-blockers ensure that data can only be read from the suspect drive, preventing accidental modifications or metadata alterations so evidence remains court-admissible.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which common public practice represents an overlooked community data security breach in Ghana?",
+      options: [
+        "Requiring students to wear school uniforms",
+        "Displaying unattended visitor logbooks at security gates",
+        "Switching off computer monitors at night",
+        "Installing licensed antivirus definitions on lab tablets",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Open, unmonitored visitor registers allow any member of the public to view, record, or photograph private names, telephone numbers, and addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the statutory role of the Data Protection Commission in Ghana?",
+      options: [
+        "Setting commercial retail prices for foreign desktop computers",
+        "Repairing municipal electrical grids after lightning strikes",
+        "Regulating the processing of personal data and enforcing compliance",
+        "Manufacturing licensed tablets for secondary school students",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Data Protection Commission is the national body established under Act 843 to register data controllers, protect individual privacy, and enforce compliance.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What maximum prison sentence can a Ghanaian court impose under summary conviction for selling another person's personal data?",
+      options: [
+        "Up to six calendar months",
+        "A term of not more than two years",
+        "Exactly fifteen calendar years",
+        "Life imprisonment with hard labor",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Under the Data Protection Act, 2012, individuals convicted on summary conviction of selling or offering to sell personal data face a fine, imprisonment for a term of not more than two years, or both.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which action preserves the integrity of digital logs when investigating an unauthorized server intrusion?",
+      options: [
+        "Archiving bit-by-bit forensic image copies immediately",
+        "Editing server timestamps to correct minor clerical errors",
+        "Installing cracked software utilities to clean system files",
+        "Overwriting temporary log folders to clear storage space",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Taking an immediate bit-by-bit forensic image of the storage media ensures that original system event logs and file timestamps are frozen in their exact state.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A rogue computer clerk sells a registered hospital patient directory to an insurance marketing agency. What legal consequence applies?",
+      options: [
+        "The clerk is awarded a state innovation subsidy",
+        "The hospital is exempted from future data audits",
+        "The insurance agency receives free national patents",
+        "The clerk faces criminal prosecution, fines, and prison",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Unlawfully selling personal information is a criminal offense under Act 843 that exposes the offender to arrest, substantial fines, and custodial imprisonment.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why must an organization comply promptly with an enforcement notice issued by the Data Protection Commission?",
+      options: [
+        "Non-compliance guarantees immediate corporate bankruptcy",
+        "Failure to comply is a criminal offense carrying statutory sanctions",
+        "Compliance automatically eliminates all network server viruses",
+        "It allows the organization to pirate commercial office software",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Disobeying an official enforcement notice from the Data Protection Commission is a direct statutory offense that leads to court prosecution, fines, or imprisonment.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes electronic evidence gathered by a forensic investigator admissible in a court of law?",
+      options: [
+        "Printing all computer documents on colored paper sheets",
+        "Uploading the evidence to social media discussion boards",
+        "Maintaining an unbroken, documented chain of custody",
+        "Translating source code into local spoken dialects",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "To be accepted in court, forensic evidence must have an unbroken chain of custody proving that the data was collected lawfully and preserved without tampering.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L1/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does the educational abbreviation VLE stand for in computer studies?",
+      options: [
+        "Virtual Learning Environment",
+        "Variable Local Enterprise",
+        "Visual Language Engine",
+        "Verified Link Exchange",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "VLE stands for Virtual Learning Environment, an online system designed to support teaching and learning.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which item is essential for a student connecting to a web-based learning portal?",
+      options: [
+        "Digital printer scanner",
+        "External sound amplifier",
+        "Graphic design plotter",
+        "Functional internet access",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A student requires an internet connection along with a web-enabled device to access web-hosted VLE resources.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does a VLE support inclusive education for learners who take longer to absorb concepts?",
+      options: [
+        "It locks lesson modules after one reading.",
+        "It permits unlimited review of notes.",
+        "It reduces examination marks for delays.",
+        "It removes difficult topics from view.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Self-paced digital learning allows students to revisit notes, presentations, and exercises as many times as necessary to master the topic.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which benefit describes studying through a digital platform during severe road disruptions?",
+      options: [
+        "Complete suspension of all study programmes",
+        "Uninterrupted learning from safe home spaces",
+        "Mandatory transfer to distant boarding halls",
+        "Automatic cancellation of academic records",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "VLEs allow educational activities to proceed uninterrupted even when environmental factors prevent travel to school buildings.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What action must a student typically perform to gain access to their personal VLE portal?",
+      options: [
+        "Enter private account login credentials",
+        "Purchase an entirely new tablet device",
+        "Format the entire internal storage drive",
+        "Install a brand-new operating software",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Entering a registered username and password authenticates the student and opens their personalized dashboard.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How do discussion forums inside a virtual classroom aid student learning?",
+      options: [
+        "They limit communication to teachers only.",
+        "They permanently erase student responses.",
+        "They enable collaborative peer discussions.",
+        "They convert digital text into paper sheets.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Discussion forums give students a digital space to exchange viewpoints, solve study questions together, and learn collaboratively.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which statement accurately describes a major advantage of web-based education?",
+      options: [
+        "It permits skill acquisition outside regular rooms.",
+        "It restricts reading exclusively to printed paper.",
+        "It stops teachers from evaluating homework tasks.",
+        "It prevents pupils from reviewing past modules.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Web learning allows individuals to acquire academic knowledge and practical technical skills without entering a traditional physical classroom.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of file can a teacher upload to a VLE to assist visual learners?",
+      options: [
+        "Recorded instructional video demonstration",
+        "Plain text motherboard configuration script",
+        "Unformatted system dynamic link library",
+        "Binary code hardware control program file",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Instructional video demonstrations provide visual and auditory explanations of complex topics, catering to varied learning preferences.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why do schools often combine physical classroom sessions with web-based VLE resources?",
+      options: [
+        "To double the total cost of paper stationery",
+        "To prevent learners from asking questions",
+        "To enrich learning with blended materials",
+        "To eliminate teacher involvement entirely",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Blending physical lessons with online resources offers students richer learning experiences, continuous access to content, and structured support.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student completes an online assessment on a VLE and sees their score instantly. Which advantage does this highlight?",
+      options: [
+        "Slower communication across school departments",
+        "Instantaneous evaluation and prompt feedback",
+        "Reduced opportunity to correct wrong answers",
+        "Higher consumption of physical exercise books",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Automated grading on VLE platforms provides immediate feedback, allowing students to identify mistakes and learn without delay.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which open learning platform is famous for free interactive video lessons in mathematics and science?",
+      options: [
+        "Khan Academy",
+        "Silicon Circuit",
+        "Network Gateway",
+        "Graphic Adapter",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Khan Academy offers free instructional videos and tailored exercises designed for school-level learning.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What educational feature distinguishes open learning websites from ordinary commercial websites?",
+      options: [
+        "Constant commercial advertisements",
+        "Structured courses and practice quizzes",
+        "Compulsory shopping cart checkouts",
+        "Locked access for unregistered readers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Open learning platforms organize educational materials into structured modules, exercises, and assessments.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which open learning platform offers free certificate courses in workplace skills and technology?",
+      options: [
+        "Alison Learning",
+        "Compact Disk",
+        "Memory Cache",
+        "Digital Router",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Alison provides free online certificate and diploma courses focusing on career, workplace, and technical skills.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How do video tutorials on platforms like Edx and Coursera help visual learners understand tough topics?",
+      options: [
+        "By deleting student notes after lessons",
+        "By displaying animated diagrams and models",
+        "By printing paper test sheets overnight",
+        "By disabling tablet screen touch sensors",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Animated diagrams and visual demonstrations help learners grasp scientific and technical concepts clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is open courseware considered cost-effective for families in Ghanaian communities?",
+      options: [
+        "It requires costly specialized hardware.",
+        "It charges high fees for each examination.",
+        "It demands regular textbook replacements.",
+        "It offers free access to study materials.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Open educational platforms allow learners to download and view study materials without paying expensive textbook fees.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What can a teacher do with Saylor Academy's open educational materials for classroom teaching?",
+      options: [
+        "Erase school computer software libraries.",
+        "Prevent students from studying on tablets.",
+        "Adapt and reuse lessons for student needs.",
+        "Lock lesson materials with private passwords.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Saylor Academy provides open-access materials that educators can freely adapt, modify, and reuse for their classes.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which tool inside an open learning site lets students ask tutors questions about weekly assignments?",
+      options: [
+        "Interactive student discussion forums",
+        "Unformatted machine language registers",
+        "Automated screen contrast controllers",
+        "Internal hardware power supply cords",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Discussion forums enable learners to post questions, interact with tutors, and collaborate with peers online.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How do open learning websites ensure students can verify what they have learned in a course?",
+      options: [
+        "By enforcing mandatory sports training",
+        "By mailing paper letters to home villages",
+        "By disabling web browsers after testing",
+        "By providing digital assessment quizzes",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Integrated quizzes and end-of-module tests evaluate student understanding and track academic progress.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are digital learning platforms faster at providing current scientific discoveries than printed books?",
+      options: [
+        "Printed books change their text weekly.",
+        "Digital content can be updated instantly.",
+        "Paper printing takes only five minutes.",
+        "Digital websites never change any facts.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Web administrators can edit and update digital learning materials instantly as soon as new information emerges.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student completes an entire module on Coursera during vacation. What does the platform often provide upon completion?",
+      options: [
+        "A brand new desktop computer tower",
+        "A free high-speed broadband router",
+        "A physical metal trophy for display",
+        "A verifiable digital completion badge",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Many open platforms provide downloadable or verifiable digital completion certificates and badges upon passing course requirements.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S3Ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s3_ss4_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which technique determines if a web author has the expertise to write on a topic?",
+      options: [
+        "Credibility of the author",
+        "Battery charging speed",
+        "Processor cycle rate",
+        "Resolution of display",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Credibility examines whether the author possesses relevant qualifications and professional expertise.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A website loaded with pop-up advertisements and non-functional buttons shows poor what?",
+      options: [
+        "Color saturation value",
+        "Audio recording volume",
+        "Screen panel thickness",
+        "Functionality of design",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Functionality measures how reliably and smoothly a website operates under user interaction.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is checking the publication date vital when researching digital networking topics?",
+      options: [
+        "Older cables weigh much more",
+        "Technology facts change fast",
+        "Modern screens consume power",
+        "Historic dates help typing",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Technology evolves rapidly; checking currency ensures you do not rely on outdated or obsolete standards.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What should you do if an online article makes an extraordinary scientific claim without proof?",
+      options: [
+        "Share it across social media",
+        "Memorize it for your exam",
+        "Use it in class presentations",
+        "Cross-check trusted sources",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Accuracy requires verifying unproven claims against established, trusted educational references.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which clue strongly suggests that an author is credible and trustworthy?",
+      options: [
+        "Recognized academic degrees",
+        "Use of dramatic clickbait",
+        "Anonymous publisher status",
+        "Frequent spelling blunders",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Authors with recognized academic qualifications or professional institutional roles offer higher credibility.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does evaluating Content help a student writing an academic research report?",
+      options: [
+        "It changes computer fonts",
+        "It saves battery recharge",
+        "It verifies topic relevance",
+        "It resets browser history",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Content evaluation confirms whether information directly covers your research topic in adequate depth.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which web element provides immediate evidence of high accuracy in a research article?",
+      options: [
+        "Verified bibliography list",
+        "Loud background video sound",
+        "Bright neon styling banner",
+        "Automatic screen scrolling",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Providing verifiable citations and reference bibliographies demonstrates transparent and accurate research.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What does a web page containing many broken hyperlinks typically indicate?",
+      options: [
+        "Modern cloud configuration",
+        "High cybersecurity defense",
+        "Optimal server connection",
+        "Neglected site maintenance",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Numerous broken links indicate that web administrators have neglected routine upkeep and updates.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why is an objective educational website superior to a subjective promotional website?",
+      options: [
+        "It provides gaming cheats",
+        "It presents unbiased facts",
+        "It sells physical products",
+        "It hides its author details",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Objective websites present balanced, neutral facts rather than biased opinions or sales pitches.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A student sees two dates on a webpage: Published 2012, Revised 2026. Which date shows currency?",
+      options: [
+        "The original server build",
+        "The latest revision year",
+        "The domain expiry date",
+        "The calendar copyright end",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The latest revision date indicates when the content was last checked and refreshed for modern accuracy.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the general term for human-written computer instructions before they are translated?",
+      options: [
+        "System storage",
+        "Native driver",
+        "Source code",
+        "Machine state",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Source code is the original text written by a human programmer in a programming language before compilation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which term refers to the structured grammar rules that govern how code must be written?",
+      options: [
+        "Syntax",
+        "Binary",
+        "Output",
+        "Memory",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Syntax defines the strict grammatical rules, symbols, and spelling required by a specific programming language.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What process involves searching for, isolating, and fixing mistakes found within software code?",
+      options: [
+        "Inverting",
+        "Indexing",
+        "Formatting",
+        "Debugging",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Debugging is the diagnostic procedure of locating and resolving software errors or bugs.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is an Integrated Development Environment (IDE) primarily used for by developers?",
+      options: [
+        "Writing, editing, compiling, and testing program code in a unified window",
+        "Connecting desktop computers to local wireless area networks automatically",
+        "Cleaning dust from hardware components inside computer towers regularly",
+        "Designing physical circuit boards and soldering silicon microchips together",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "An IDE combines code editing, compiling, and testing capabilities into one unified software application.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What number system forms the foundation of all machine language instructions?",
+      options: [
+        "Base eight numbers",
+        "Base ten decimals",
+        "Base six numerals",
+        "Base two binaries",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Machine language operates on base-two binary digits consisting entirely of zeros and ones.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does a computer program differ fundamentally from a general algorithm?",
+      options: [
+        "A program is written in executable code while an algorithm is a conceptual plan",
+        "A program handles only numbers while an algorithm handles text and characters",
+        "A program cannot have any mistakes while an algorithm always contains errors",
+        "A program runs without hardware while an algorithm needs electrical power",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "An algorithm is an abstract method for solving a problem, whereas a program is that method expressed in programming code.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why does a computer refuse to run source code that contains an unresolved syntax error?",
+      options: [
+        "The computer loses power when invalid commands are read",
+        "The compiler cannot parse or interpret incorrect grammar",
+        "The monitor automatically shuts off during errors",
+        "The hard disk drive fills up with temporary data",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The compiler requires strict adherence to grammar rules; any syntax violation prevents successful translation into machine code.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What role does a programmer perform when developing computer software?",
+      options: [
+        "Fabricating silicon processors inside clean manufacturing plants",
+        "Designing and writing instructions that direct computer operations",
+        "Selling consumer desktop computers and accessories in retail shops",
+        "Laying telecommunication cables across cities and local communities",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A programmer creates, tests, and maintains the sequences of instructions that instruct computers on how to operate.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens to source code during the compilation phase of software execution?",
+      options: [
+        "It is turned into high-level human speech",
+        "It is saved as an uneditable paper copy",
+        "It is published directly to local websites",
+        "It is converted into native machine language",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A compiler transforms high-level source code into low-level machine code that the computer can execute directly.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which term refers to an ordered set of instructions that a computer follows to finish a task?",
+      options: [
+        "Computer Program",
+        "Peripheral Unit",
+        "System Enclosure",
+        "Terminal Console",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A computer program is a sequence of precise instructions executed by a computer to accomplish a defined job.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What data type is best suited for storing a person's telephone contact number like \"0244123456\"?",
+      options: [
+        "String",
+        "Integer",
+        "Float",
+        "Boolean",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Telephone numbers often begin with leading zeros and are not used in mathematical calculations, so they should be stored as strings.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which data type would you select to store a learner's exam grade written as a single letter 'A'?",
+      options: [
+        "Integer",
+        "Float",
+        "Boolean",
+        "Character",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A single letter or symbol represents a character data type.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What data type is created when multiple characters are enclosed inside double quotation marks?",
+      options: [
+        "Boolean",
+        "Float",
+        "String",
+        "Integer",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A sequence of characters enclosed within quotation marks forms a string.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why does an athlete's race completion time of 10.45 seconds require a floating-point data type?",
+      options: [
+        "It represents fractional seconds with decimal precision",
+        "It represents whole seconds counted without decimals",
+        "It represents an alphabetic name spoken by runners",
+        "It represents an on-and-off state in digital timing",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The race time contains a decimal point representing fractional parts of a second, which requires a float.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In a school database, which field is most appropriately defined as an integer data type?",
+      options: [
+        "Price of school uniform in Cedis and pesewas",
+        "Total number of enrolled students in a class",
+        "Full residential town name of each learner",
+        "Current payment status showing fees cleared",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The count of enrolled students is a discrete, whole number with no decimal values, making it an integer.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary role of Boolean data types in writing computer program logic?",
+      options: [
+        "Formatting user display screens with colourful margins",
+        "Translating human code into electrical binary signals",
+        "Controlling program flow and decisions using True or False",
+        "Storing long sentences and paragraphs for study guides",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Booleans evaluate conditions to True or False, enabling conditional branches and decision-making in code.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What error occurs if a programmer attempts to perform arithmetic addition between an integer and a text string?",
+      options: [
+        "Network failure",
+        "Power drop error",
+        "Display blackout",
+        "Data type mismatch",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Computers cannot perform direct mathematical operations across incompatible types like text strings and integers, resulting in a type mismatch error.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following items represents a single character data type?",
+      options: [
+        "Kumasi",
+        "'M'",
+        "350",
+        "7.9",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A single letter enclosed in single quotes is a character data type.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What data type should represent whether a student has paid their ICT laboratory fee?",
+      options: [
+        "Boolean",
+        "Integer",
+        "Float",
+        "String",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fee payment status is a binary condition: paid (True) or unpaid (False), which is perfectly handled by a Boolean.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following examples best represents a floating-point data type in everyday life?",
+      options: [
+        "The count of textbooks distributed to a JHS classroom",
+        "The single letter grade assigned on an end-of-term test",
+        "The official home town name where a student resides",
+        "The measured body temperature of a student in degrees Celsius",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Body temperature requires decimal values (such as 36.8°C), which requires a floating-point data type.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What happens if a computer program attempts to overwrite the stored value of a constant during execution?",
+      options: [
+        "The variable changes type",
+        "The value updates safely",
+        "The compiler raises an error",
+        "The computer memory resets",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Constants are read-only; any programmatic attempt to change their assigned value results in a compilation error.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following represents a major advantage of using variables instead of constants in software?",
+      options: [
+        "Variables allow programs to process changing input data",
+        "Variables guarantee that software code never has any bugs",
+        "Variables remove the requirement for computer processors",
+        "Variables permanently lock numerical values into hardware",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Variables enable programs to receive dynamic user inputs and manipulate data during execution.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What action is being performed when a programmer writes int student_count; in source code?",
+      options: [
+        "Initialising a constant",
+        "Declaring a variable",
+        "Accessing an operator",
+        "Debugging an error",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Stating the data type and the name of a variable without assigning an immediate value is variable declaration.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In an educational quiz application, which piece of data must be stored inside a variable?",
+      options: [
+        "Total time allowed for the test",
+        "Official title of the exam paper",
+        "Standard pass mark for the test",
+        "Current running score of the user",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The user's score increases as correct answers are submitted, so it must be stored in a variable.",
+    ),
+    QuizQuestion(
+      question:
+          r"5. Why is it beneficial to declare the value of Pi ($3.142$) as a constant rather than a variable?",
+      options: [
+        "To prevent accidental modifications to the value during math calculations",
+        "To allow users to alter the geometric value while the program runs",
+        "To speed up internet download rates across local wireless networks",
+        "To convert the decimal number automatically into a text character",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Declaring fixed mathematical constants protects them from being overwritten accidentally elsewhere in the code.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What statement best describes the initialisation of a variable in computer programming?",
+      options: [
+        "Assigning an initial value to a declared variable for the first time",
+        "Erasing all program statements stored on the computer's hard drive",
+        "Printing the completed program output onto physical sheets of paper",
+        "Translating human source instructions into pure binary machine language",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Initialisation refers specifically to giving a variable its first assigned value before it is processed.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does using variables improve code reusability when calculating monthly electricity bills?",
+      options: [
+        "It converts all electricity values into text characters",
+        "It requires a completely new program for each customer",
+        "It locks the customer balance so it can never be paid off",
+        "It allows the same billing formula to process many different meter readings",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "By storing meter readings in variables, one formula can calculate bills for thousands of different households.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which term refers to reading and using the stored data of a variable in a calculation?",
+      options: [
+        "Truncating",
+        "Accessing",
+        "Compiling",
+        "Branching",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Retrieving or referencing the contents of a variable for use in an operation is called accessing.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following real-world data points should be stored as a variable in a mobile banking app?",
+      options: [
+        "The official headquarters city of the bank",
+        "The national banking license identification",
+        "The standard currency symbol of the nation",
+        "The remaining balance of the user's account",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Bank account balances change after deposits and withdrawals, so they must be stored in variables.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What keyword is commonly used in programming languages to establish a constant?",
+      options: [
+        "Loop",
+        "Char",
+        "Const",
+        "Print",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Many programming languages use the keyword const to declare an immutable constant.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary definition of an algorithm in computing?",
+      options: [
+        "A random set of numbers created by computers",
+        "A physical hardware component inside a PC",
+        "An error that prevents software from starting",
+        "A step-by-step set of rules to solve a task",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An algorithm is a precise, ordered sequence of instructions formulated to solve a specific problem or complete a process.",
+    ),
+    QuizQuestion(
+      question:
+          "2. When an application displays an icon instead of code, this is:",
+      options: [
+        "Abstraction",
+        "Iteration",
+        "Selection",
+        "Sequencing",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Abstraction hides complex underlying implementation details and displays only what is necessary for user interaction.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A student divides an end-of-term study timetable by subject. This is:",
+      options: [
+        "Iteration",
+        "Selection",
+        "Decomposition",
+        "Abstraction",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Breaking a large workload into smaller, manageable individual study components is an exact application of decomposition.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which control structure runs instructions strictly one after another?",
+      options: [
+        "Selection",
+        "Sequence",
+        "Looping",
+        "Branch",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A sequential control structure executes statements in order, line by line, without jumping or repeating.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Evaluating whether a test score is 50 or above to decide a pass uses:",
+      options: [
+        "Iteration",
+        "Abstraction",
+        "Selection",
+        "Sequence",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Selection evaluates a conditional statement to decide between two distinct outcomes, such as pass or fail.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A loop that adds 2 Cedis into a piggy bank every day for a week is:",
+      options: [
+        "Iteration",
+        "Selection",
+        "Searching",
+        "Switching",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Iteration refers to repeating a block of instructions across a fixed count or until a condition is fulfilled.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why must instructions in a linear sequence be carefully ordered?",
+      options: [
+        "Changing order disrupts logic and final output",
+        "Computers only read programs that are sorted",
+        "Unsorted code deletes storage memory banks",
+        "Loops fail to work when lines are ordered",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Sequential algorithms rely strictly on previous steps being completed correctly before the subsequent step executes.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when an iteration structure lacks a valid exit condition?",
+      options: [
+        "The algorithm completes within one single step",
+        "The algorithm chooses a new branch pathway",
+        "The code terminates and prompts user inputs",
+        "The code loops infinitely and freezes system",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Without a stopping condition, a loop never terminates, resulting in an infinite loop that locks up processor resources.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which statement best illustrates abstraction in a school timetable?",
+      options: [
+        "Omitting teacher shoe size to list subjects",
+        "Breaking the school term into smaller weeks",
+        "Checking student presence every day at 8 AM",
+        "Moving from assembly straight to the class",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Abstraction removes irrelevant personal characteristics like shoe size, keeping only necessary details like subjects and times.",
+    ),
+    QuizQuestion(
+      question:
+          "10. An algorithm checking if a customer has 10 Cedis before sale uses:",
+      options: [
+        "Iteration",
+        "Sorting",
+        "Looping",
+        "Selection",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Checking whether an account or purse holds enough money is a condition check, which is the definition of selection.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How does a linear search examine items stored in a dataset?",
+      options: [
+        "It checks every item sequentially",
+        "It jumps directly to middle values",
+        "It checks only even index numbers",
+        "It selects items completely at random",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A linear search operates sequentially, checking each element one after another from the first position to the last.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which sequence represents numbers sorted in decreasing order?",
+      options: [
+        "10, 25, 40, 65",
+        "88, 64, 32, 16",
+        "15, 30, 20, 45",
+        "40, 50, 70, 90",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Decreasing order starts with the largest value and steps downwards to progressively smaller values.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In the array [18, 24, 32, 40], what value is stored at index 2?",
+      options: [
+        "18",
+        "24",
+        "32",
+        "40",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Counting from zero: index 0 is 18, index 1 is 24, and index 2 is 32.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is another common name for the linear search algorithm?",
+      options: [
+        "Indexed search algorithm",
+        "Binary search algorithm",
+        "Hashing search algorithm",
+        "Sequential search algorithm",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Linear search is also called sequential search because it processes elements one after another in sequence.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How many comparisons does linear search need to find 50 in [10, 20, 50, 80]?",
+      options: [
+        "Exactly 3 comparisons",
+        "Exactly 1 comparison",
+        "Exactly 4 comparisons",
+        "Exactly 2 comparisons",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The algorithm checks 10 (first), checks 20 (second), and matches 50 on the third comparison.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where does a linear search begin checking elements in an array?",
+      options: [
+        "At the highest value in list",
+        "At the middle of the dataset",
+        "At the final index location",
+        "At the first element, index 0",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A standard linear search begins at the leftmost item, which corresponds to index 0.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why can linear search be used on an unsorted list of names?",
+      options: [
+        "It only checks every third item",
+        "It inspects each item one by one",
+        "It requires keys to be in order",
+        "It sorts values before searching",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Linear search does not require prior sorting because it inspects every item individually regardless of order.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the index of the last element in an array of size 9?",
+      options: [
+        "Index 9",
+        "Index 0",
+        "Index 8",
+        "Index 1",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Because arrays start counting at 0, an array with 9 elements occupies indices 0 through 8.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which sorting order arranges items from smallest to largest?",
+      options: [
+        "Increasing order",
+        "Decreasing order",
+        "Descending order",
+        "Arbitrary order",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Increasing or ascending order places the lowest numerical values first and builds up to the highest.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If target 99 is compared to [12, 34, 56], what is the outcome?",
+      options: [
+        "Found at position zero",
+        "Found at position three",
+        "System restarts search",
+        "Value is not in the list",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The algorithm checks all three elements, finds no match, and terminates reporting that the target is absent.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What makes a robotic machine fundamentally different from an ordinary mechanical tool such as a hand drill?",
+      options: [
+        "It is programmable and carries out complex tasks automatically",
+        "It is constructed entirely of wood and operates without wires",
+        "It requires continuous physical turning by a human operator",
+        "It cannot function if connected to any electronic circuitry",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A robot contains a programmable controller that executes complex routines without continuous manual guidance, whereas basic mechanical tools require constant human physical effort.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following tasks represents an application of robotics within the healthcare sector?",
+      options: [
+        "Sorting raw mineral ore in underground mining shafts",
+        "Tilling extensive agricultural fields for grain crops",
+        "Weaving traditional textiles on mechanical handlooms",
+        "Disinfecting hospital wards with pulsed ultraviolet rays",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Automated mobile sanitisation robots travel through hospital rooms to destroy pathogens with ultraviolet light, reducing infection risks for patients and healthcare staff.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do fire rescue and security teams utilise specialized tactical robots in dangerous disaster zones?",
+      options: [
+        "Tactical robots allow human rescue personnel to stay out of deadly environments",
+        "Tactical robots are cheap toys that can be abandoned anywhere without financial loss",
+        "Tactical robots run indefinitely without needing batteries or maintenance checks",
+        "Tactical robots make moral decisions independently during emergency rescues",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Deploying robots to inspect collapsed buildings, defuse explosive devices, or extinguish naval fires keeps human responders out of immediate mortal danger.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which discipline is not one of the primary foundational fields that combine to form robotics?",
+      options: [
+        "Computer science",
+        "Mechanical engineering",
+        "Classical astrology",
+        "Electrical engineering",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Robotics is an interdisciplinary field integrating computer science, mechanical engineering, and electrical electronics; astrology is an unscientific belief system.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What operational advantage does a robotic arm offer over a human worker on a car paint line?",
+      options: [
+        "It paints with uniform thickness and avoids inhaling hazardous solvent fumes",
+        "It costs nothing to install and requires no routine software maintenance",
+        "It negotiates salary raises and demands shorter working hours every week",
+        "It changes colour choices spontaneously without following programmed code",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Industrial painting robots apply paint coats with extreme consistency while keeping human lungs safe from poisonous paint particles and toxic chemical vapours.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A commercial bakery in Kumasi wants to automate bread packaging. What is a key financial obstacle they will encounter?",
+      options: [
+        "The bakery will be forced to buy flour that costs twice as much per bag",
+        "The initial purchase, setup, and maintenance costs of robots are very high",
+        "The bakery will permanently lose access to all municipal water supplies",
+        "The automated machinery will produce too many varieties of bread at once",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The capital required to purchase, configure, and service industrial robotic systems represents a substantial barrier for most commercial enterprises.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do educational companion robots support children diagnosed with developmental conditions such as autism?",
+      options: [
+        "By prescribing powerful medications directly to the children in school",
+        "By enforcing harsh disciplinary measures whenever pupils make errors",
+        "By grading end of term paper scripts faster than certified headteachers",
+        "By offering predictable, patient interactions that reduce social stress",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Humanoid educational robots provide predictable, minimally expressive, and patient responses that help autistic learners build communication skills comfortably.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What technical challenge arises when a factory installs robots without training local engineering staff?",
+      options: [
+        "The factory is unable to repair mechanical faults or update program instructions",
+        "The factory building immediately collapses due to software data processing",
+        "The robots begin communicating using spoken human languages automatically",
+        "The factory products immediately double in weight before customer packaging",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Operating and fixing advanced robotics requires specialised technical knowledge; without trained local technicians, minor faults cause lengthy shutdowns.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following risks is directly associated with connecting industrial robots to computer networks?",
+      options: [
+        "The machines produce goods that become completely invisible to the human eye",
+        "The robots convert all their metallic parts into soft plastic during operation",
+        "The robotic systems become vulnerable to cyber attacks and remote tampering",
+        "The factory facility loses its physical connection to the municipal road network",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Any networked robotic equipment can be targeted by unauthorized digital attacks, allowing malicious actors to halt machinery or alter physical commands.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why can a robotic system never completely replace a human medical doctor or nurse?",
+      options: [
+        "Robots cannot execute physical movements with high spatial accuracy",
+        "Robots are completely unable to lift objects that weigh more than one kilogram",
+        "Robots consume too much drinking water during daily clinic appointments",
+        "Robots lack human empathy, moral reasoning, and genuine bedside compassion",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "While robotic arms assist with surgical cutting and room sanitisation, they lack consciousness, moral judgment, and the warmth of human emotional connection.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs1S4Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS1_s4_ss4_L1/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A delivery business analyzes historical parcel deliveries to discover customer patterns. Which computational method is being applied?",
+      options: [
+        "Virtual Reality Systems",
+        "Video Gamification Model",
+        "Artificial Data Mining",
+        "Circuit Board Soldering",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Analyzing vast quantities of past operational records to reveal hidden operational patterns is known as data mining.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the general term for machines programmed to simulate human cognitive functions such as reasoning and problem-solving?",
+      options: [
+        "Artificial Intelligence",
+        "Central System Storage",
+        "Mechanical Automation",
+        "Digital Word Processing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Artificial Intelligence is the branch of computing dedicated to building machines capable of human-like perception, reasoning, and decision-making.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A regional mining firm uses an autonomous robotic rover to inspect deep, unstable rock tunnels. What primary societal benefit does this demonstrate?",
+      options: [
+        "Decreasing general internet connectivity fees.",
+        "Making mining company logos look attractive.",
+        "Replacing all computer software with hardware.",
+        "Safeguarding human laborers from toxic hazards.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Using autonomous robots to handle high-risk subterranean inspections protects human miners from life-threatening rockfalls and poison gases.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which technology allows algorithms to inspect large datasets and automatically improve operational performance without manual reprogramming?",
+      options: [
+        "Web Browser Cache",
+        "Machine Learning",
+        "Manual Bookkeeping",
+        "Screen Resolution",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Machine learning algorithms continuously train on data inputs to enhance performance and accuracy without requiring human developers to rewrite code.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which branch of artificial intelligence is constructed with interconnected nodes modeled directly on the biological neural structures of human brains?",
+      options: [
+        "Artificial Neural Networks",
+        "Computer Monitor Displays",
+        "Universal Serial Bus Hubs",
+        "Electronic Battery Cells",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Artificial Neural Networks are computational networks specifically structured with node layers that emulate human biological brain cells.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An aspiring pilot sits inside a closed simulator cockpit wearing a headset that completely replaces real surroundings with a digital sky. Which tool is this?",
+      options: [
+        "Spreadsheet Ledger",
+        "Augmented Reality",
+        "Word Transcription",
+        "Virtual Reality",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Because the physical world is entirely blocked out and replaced by a three-dimensional digital simulation, this setup is Virtual Reality.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A mobile learning platform introduces weekly badges, points, and score leaderboards to motivate students. What method is being utilized?",
+      options: [
+        "Cloud Data Archiving",
+        "Hardware Maintenance",
+        "Software Gamification",
+        "System Cable Routing",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Incorporating game design components like scoreboards and digital trophies into non-game learning environments is known as gamification.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does artificial intelligence assist medical doctors working within hospital diagnostic units?",
+      options: [
+        "By identifying disease signs on diagnostic scans.",
+        "By generating paper receipts for medical fees.",
+        "By manufacturing metal beds for hospital wards.",
+        "By dispensing cool drinking water to visitors.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "AI diagnostic systems review patient scans and laboratory samples rapidly to alert physicians to early indicators of illness.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A student uses a mobile phone camera to view a textbook page, and animated digital skeletons appear standing directly on the paper. What technology is this?",
+      options: [
+        "Operating File System",
+        "Augmented Reality",
+        "Storage Defragmenter",
+        "Central Data Registry",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Augmented Reality projects interactive digital elements and 3D animations directly over the real physical environment seen through a lens.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why do modern commercial banks use machine learning models to inspect mobile money transactions?",
+      options: [
+        "To increase the screen brightness of cash machines.",
+        "To print monthly paper receipts at higher speeds.",
+        "To clean dirt off the keyboards inside bank lobbies.",
+        "To detect fraudulent account activity immediately.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Machine learning algorithms recognize sudden deviations from normal spending habits and block suspicious withdrawals before funds are stolen.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which component represents the basic unit of information in a quantum computer?",
+      options: [
+        "Quantum bit (qubit)",
+        "Classical binary byte",
+        "Silicon transistor gate",
+        "Magnetic memory sector",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The qubit is the fundamental unit of quantum data, replacing the classical bit used in standard computers.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which technological advancement is directly associated with fifth-generation computer systems?",
+      options: [
+        "Magnetic drum storage",
+        "Vacuum tube circuitry",
+        "Paper punch card input",
+        "Artificial Intelligence",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The fifth generation is defined by the integration of Artificial Intelligence, parallel processing, and machine learning.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the name of Google's experimental quantum processor tested in 2019?",
+      options: [
+        "Pascal",
+        "Sycamore",
+        "Eniac",
+        "Watson",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Sycamore is Google's 53-qubit quantum processor that achieved quantum supremacy in benchmark tests.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How does parallel processing differ primarily from traditional serial processing?",
+      options: [
+        "It processes many tasks concurrently",
+        "It runs solely on magnetic tape drives",
+        "It operates using only one single core",
+        "It limits data flow to one direction",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Parallel processing divides a workload across multiple execution units to process data at the same time.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What major operational benefit do superconducting materials provide to processing hardware?",
+      options: [
+        "Mechanical gear movement",
+        "Lower data security risks",
+        "Zero electrical resistance",
+        "Cheaper plastic casing costs",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Superconductors transmit electricity without resistance at extremely cold temperatures, eliminating heat buildup.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which application uses Artificial Intelligence to identify financial fraud in real time?",
+      options: [
+        "Manual receipt counting",
+        "Paper ledger archiving",
+        "Offline cash tallying",
+        "Mobile money monitoring",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Financial networks use AI algorithms to scan transaction flows and flag fraudulent account activity instantly.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What software technology allows a smartphone to comprehend spoken English or local speech?",
+      options: [
+        "Natural Language Processing",
+        "Basic optical disk driver",
+        "Disk defragmentation tool",
+        "Static memory allocation",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Natural Language Processing allows computers to parse, interpret, and generate human spoken and written language.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why do quantum computers require specialized cryogenic cooling setups?",
+      options: [
+        "To melt internal solder connections",
+        "To keep qubits stable and isolated",
+        "To eliminate the need for software",
+        "To increase standard cable length",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Qubits are sensitive to ambient thermal noise, requiring temperatures near absolute zero to maintain quantum coherence.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What hardware feature allows a multiprocessor motherboard to coordinate several CPUs effectively?",
+      options: [
+        "Low speed serial ports",
+        "Manual reset switches",
+        "Shared central memory bus",
+        "Single pin power ribbons",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Multiprocessor motherboards use shared memory buses so all active processing units can exchange instructions rapidly.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following tasks is an everyday example of Artificial Intelligence at work?",
+      options: [
+        "Typing words on a keyboard",
+        "Cleaning a monitor display",
+        "Plugging in a power cable",
+        "Facial biometric recognition",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Facial recognition uses computer vision algorithms to map and match facial geometry automatically.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which device is best suited for a digital artist sketching freehand illustrations on a computer?",
+      options: [
+        "Graphics tablet with stylus",
+        "Magnetic stripe card reader",
+        "Flatbed document page scanner",
+        "Handheld barcode beam scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Graphics tablets provide a natural drawing surface and pressure-sensitive stylus tailored for digital artwork.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What physical property allows a magnetic stripe on an ID card to store student data?",
+      options: [
+        "Chemical dye reaction",
+        "Optical light refraction",
+        "Tiny metallic heat dots",
+        "Magnetized iron particles",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Magnetic stripes contain microscopic iron-based particles aligned to store encoded digital characters.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which direct data entry tool reads information using a focused laser or light beam?",
+      options: [
+        "Graphics drawing tablet",
+        "Optical card reader unit",
+        "Radio frequency receiver",
+        "Standard mechanical keyboard",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Optical card readers use optical beams to detect variations in reflective tracks on the card surface.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary purpose of direct data entry devices in computing systems?",
+      options: [
+        "Transferring data without typing",
+        "Printing hard copies of reports",
+        "Cleaning dust from memory slots",
+        "Preventing device battery drain",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Direct data entry devices feed data straight into a computer without manual human keyboard input.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are QR codes more versatile than standard one-dimensional barcodes?",
+      options: [
+        "They cost nothing to produce",
+        "They work without electricity",
+        "They hold much more information",
+        "They require specialized lenses",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Two-dimensional QR codes can hold thousands of characters compared to simple linear barcodes.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which technology enables passenger luggage to be tracked through airport gates without visual line of sight?",
+      options: [
+        "Dot matrix print ribbons",
+        "Thermal paper print heads",
+        "Manual paper manifest forms",
+        "Radio frequency identification",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "RFID tags communicate via radio waves, which easily pass through luggage bags and containers.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What signal interaction occurs when a stylus touches the surface of an active graphics tablet?",
+      options: [
+        "Electromagnetic signal transfer",
+        "Acoustic sonic sound echo wave",
+        "Chemical ribbon colour burning",
+        "Direct thermal liquid expansion",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The stylus transmits electromagnetic signals that are picked up by the grid of wires under the pad surface.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which component inside an RFID tag sends stored information back to the reader?",
+      options: [
+        "Mechanical roller wheel",
+        "Integrated miniature antenna",
+        "Thermal wax ink ribbon",
+        "Magnetic disc drive platter",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The tag's internal antenna captures energy from the reader's signal and transmits its stored data back.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when an electric coil inside a magnetic reader encounters moving card stripe particles?",
+      options: [
+        "The stripe permanently erases",
+        "The card surface heats to boiling",
+        "A small voltage is induced inside",
+        "The plastic card changes colour",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Moving magnetic particles induce a tiny voltage across the reader's pickup coil, which is converted into binary data.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which device allows a smartphone to quickly open a website printed on a public health poster?",
+      options: [
+        "Magnetic swipe reader",
+        "Daisy wheel print unit",
+        "Optical card reader slot",
+        "Built-in QR code scanner",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Smartphone cameras paired with QR reader software scan the matrix code and open the encoded web link immediately.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which printer uses physical pins to strike an inked ribbon against paper to create carbon copies?",
+      options: [
+        "Dot matrix printer",
+        "Solid wax printer",
+        "Liquid inkjet unit",
+        "Direct thermal unit",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Dot matrix impact printers use pins to punch against an ink ribbon, transferring marks through multi-part carbon sheets.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What raw material form is used by solid-ink wax printers to generate high-gloss documents?",
+      options: [
+        "High-pressure toner powder",
+        "Liquid solvent dye bottles",
+        "Conductive metallic ribbon",
+        "Solid blocks of dyed wax",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Solid-ink printers melt blocks of solid resin-based wax to transfer vibrant, durable colour onto the medium.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which output device produces tactile embossed pages for individuals who read using touch?",
+      options: [
+        "Desktop thermal printer",
+        "Braille printer embosser",
+        "Continuous line printer",
+        "Solid wax colour printer",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Braille embossers press raised dots into heavy paper to produce tactile Braille text.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why are thermal printers widely preferred in portable point-of-sale terminals and cash registers?",
+      options: [
+        "They print silently and quickly",
+        "They hold large wax reservoirs",
+        "They print on thick metal plates",
+        "They punch carbon copies easily",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Thermal printers are quiet, fast, and compact because they activate heat-sensitive paper without ink or mechanical hammers.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which medical application demonstrates the direct utility of modern 3D printers?",
+      options: [
+        "Scanning internal eye lenses",
+        "Checking blood pressure rates",
+        "Creating custom prosthetics",
+        "Measuring body temperature",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "3D printers manufacture personalized, patient-specific prosthetic limbs and surgical models layer by layer.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What type of paper is strictly required for a direct thermal printer to produce readable text?",
+      options: [
+        "Perforated carbon copy paper",
+        "Heavy embossed card stock",
+        "Transparent synthetic plastic",
+        "Heat-sensitive chemical paper",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Direct thermal printers require chemically treated paper that darkens when exposed to heat from the printhead.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which manufacturing principle describes the operational method used by standard 3D printers?",
+      options: [
+        "Additive material layering",
+        "Subtractive laser grinding",
+        "High pressure drop forging",
+        "Chemical surface leaching",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "3D printing is additive manufacturing, building objects by depositing material in successive layers.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does an inkjet printer transfer coloured photographs onto plain paper surfaces?",
+      options: [
+        "By stamping shaped metal types",
+        "By spraying liquid ink drops",
+        "By burning thermal chemicals",
+        "By embossing paper with pins",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Inkjet printheads contain fine nozzles that propel microscopic droplets of liquid ink onto the paper.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are solid wax prints considered more environmentally friendly than traditional toner cartridges?",
+      options: [
+        "They use toxic industrial solvents",
+        "They consume massive electric power",
+        "They eliminate plastic cartridge waste",
+        "They require constant battery swaps",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Solid wax blocks melt entirely with no bulky plastic cartridge shells left behind to discard.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which legacy impact printer uses a petal-shaped rotating element to produce typewriter-quality letters?",
+      options: [
+        "Dot matrix printhead unit",
+        "Solid wax thermal printer",
+        "Liquid inkjet photo unit",
+        "Daisy wheel impact printer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Daisy wheel printers use a rotating wheel where each \"petal\" holds a raised letter that strikes an inked ribbon.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which storage technology uses flash memory chips to achieve microsecond data access latency?",
+      options: [
+        "Solid-state memory storage",
+        "Paper punch card systems",
+        "Mechanical tape cassettes",
+        "Spinning magnetic platters",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Solid-state flash storage relies on non-volatile electronic chips rather than mechanical arms, delivering microsecond retrieval speeds.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary physical advantage of solid-state drives over traditional hard disk drives?",
+      options: [
+        "Higher mechanical spin speed",
+        "Louder operational fan noise",
+        "Cheaper price per gigabyte",
+        "Complete absence of moving parts",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "SSDs contain no motors, spinning platters, or movable read-and-write heads, making them shock-resistant and silent.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How many bits of digital data can a Single-Level Cell (SLC) flash memory cell store?",
+      options: [
+        "Four bits of binary data",
+        "One single bit of data",
+        "Eight bits of binary data",
+        "Three bits of binary data",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Single-Level Cell (SLC) flash memory stores exactly one bit (0 or 1) in each cell, maximizing speed and lifespan.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which external device connects flash memory cards to computers lacking integrated card slots?",
+      options: [
+        "Multi-card flash reader",
+        "Impact dot matrix printer",
+        "Optical character scanner",
+        "Graphics digitizer tablet",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Flash memory card readers provide physical contact slots to transfer data between removable memory cards and computers.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which high-speed interface protocol connects modern solid-state drives directly to the motherboard bus?",
+      options: [
+        "Parallel printer port",
+        "Legacy floppy ribbon",
+        "Non-Volatile Memory Express",
+        "Analogue audio jack",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "NVMe (Non-Volatile Memory Express) allows SSDs to communicate directly across high-speed bus lanes on the motherboard.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What type of flash memory architecture is commonly used in consumer tablets for maximum density?",
+      options: [
+        "Single-Level Cell flash",
+        "Dual magnetic core wire",
+        "Liquid mercury delay tank",
+        "Triple-Level Cell flash",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "TLC flash stores three bits per cell, allowing consumer tablets and smartphones to achieve high storage capacities at affordable prices.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does an integrated controller in a hybrid hard drive (SSHD) determine which files to cache?",
+      options: [
+        "It tracks frequent data usage",
+        "It deletes large video clips",
+        "It encrypts all text files",
+        "It alphabetizes folder names",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The controller in an SSHD continuously analyzes access frequency, placing frequently loaded files into the flash cache.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why are embedded flash memory chips preferred over traditional hard drives in modern smartphones?",
+      options: [
+        "They produce loud alarm tones",
+        "They are compact and shockproof",
+        "They require large motor fans",
+        "They run on magnetic ribbons",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Smartphones require ultra-compact, energy-efficient, and shock-resistant storage that cannot be supplied by mechanical drives.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What physical medium holds the bulk secondary data inside a hybrid hard drive (SSHD)?",
+      options: [
+        "Thermal chemically treated paper",
+        "Removable ultraviolet disc layers",
+        "Rotating magnetic disk platters",
+        "Synthetic resin solid wax blocks",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "An SSHD pairs a small solid-state cache with traditional rotating magnetic disk platters that provide large, economical bulk storage.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What protective layer covers the internal printed circuit board of a durable USB thumb drive?",
+      options: [
+        "Exposed copper wire braiding",
+        "Liquid crystal glass panel",
+        "Perforated cardboard binder",
+        "Insulated plastic or rubber case",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "USB drives are enclosed in insulated plastic or rubber cases to prevent short circuits and shield components from physical impact.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which key combination immediately opens the Charms bar on a computer screen?",
+      options: [
+        "Windows logo key plus letter C",
+        "Control key plus letter P",
+        "Shift key plus letter Z",
+        "Alt key plus letter F",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Pressing Windows key + C opens the Charms overlay directly from any screen.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which icon in the Charms bar enables users to send a web address to an email recipient?",
+      options: [
+        "The Devices peripheral charm",
+        "The Start central home charm",
+        "The Settings network charm",
+        "The Share connection charm",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Share charm connects active app content directly to messaging, email, and social apps without manual copying.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How many primary quick-access icons are located along the Charms bar?",
+      options: [
+        "Seven primary interface icons",
+        "Exactly five primary icons",
+        "Ten primary interface icons",
+        "Three primary interface icons",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Charms bar contains five distinct tools: Search, Share, Start, Devices, and Settings.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What hardware device can be configured quickly through the Devices charm?",
+      options: [
+        "An external classroom projector",
+        "A CPU internal cooling heatsink",
+        "A motherboard system bus trace",
+        "A solid state drive controller",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Devices charm manages physical connections to external displays, projectors, printers, and synced devices.",
+    ),
+    QuizQuestion(
+      question: "5. Which charm icon is depicted by a mechanical gear symbol?",
+      options: [
+        "The Start operating system charm",
+        "The Search application charm",
+        "The Settings configuration charm",
+        "The Devices hardware charm",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The gear symbol represents the Settings charm, housing volume, brightness, power, and network toggles.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which system setting can be adjusted directly from the Settings charm panel?",
+      options: [
+        "Desktop case screw tension",
+        "Monitor glass chemical purity",
+        "Cable rubber coating density",
+        "Wireless local network selection",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Opening the Settings charm reveals network access points, volume sliders, screen brightness, and power controls.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens when a user clicks the Start charm while working inside an application?",
+      options: [
+        "It returns to the main Start screen",
+        "It formats the primary hard drive",
+        "It uninstalls all desktop games",
+        "It prints the current screen view",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Start charm acts as a universal home button, returning the user directly to the primary Start interface.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why was the Charms bar originally introduced into graphical user interfaces?",
+      options: [
+        "To replace physical keyboard typing",
+        "To optimize touch-screen gestures",
+        "To speed up magnetic platter spin",
+        "To eliminate computer power units",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The Charms bar was designed primarily for swipe-in gestures from the edge of touch screens on tablets and 2-in-1 laptops.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which charm would a student select to find a lost presentation file on a computer?",
+      options: [
+        "The Devices peripheral charm",
+        "The Share connection charm",
+        "The Search lookup charm",
+        "The Start central charm",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Search charm scans local storage, applications, and web resources to locate files and apps quickly.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How did interface designers address traditional mouse users who disliked corner hovering?",
+      options: [
+        "By removing mouse hardware entirely",
+        "By deleting all search functionality",
+        "By locking the screen permanently",
+        "By integrating tools into taskbars",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "In subsequent operating systems, designers moved search bars and quick action toggles directly onto the visible taskbar and Start menu.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss1_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What occurs when an operating system saves parts of a file into scattered, non-adjacent disk clusters?",
+      options: [
+        "File data fragmentation",
+        "Lossless file reduction",
+        "Drive volume formatting",
+        "Additive manufacturing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Fragmentation happens when files are split across non-contiguous physical sectors of a storage drive.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which file compression technique permanently discards imperceptible details to save space?",
+      options: [
+        "Lossless text packaging",
+        "Simple volume creation",
+        "Dynamic bus allocation",
+        "Lossy media compression",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Lossy compression permanently removes redundant visual or audio data to produce smaller file sizes.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What system utility is used in Windows to create, shrink, and format hard disk partitions?",
+      options: [
+        "Network Charms Bar",
+        "Disk Management tool",
+        "Braille Print Setup",
+        "Audio Mixer Console",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Disk Management tool within Computer Management is used to configure physical drive partitions and logical volumes.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How does disk defragmentation improve read performance on mechanical hard disk drives?",
+      options: [
+        "It places scattered files into continuous blocks",
+        "It replaces spinning magnetic disks with flash",
+        "It wipes all personal folders from Drive C",
+        "It accelerates internet connection speeds",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Defragmentation brings scattered file segments together in continuous disk sectors, reducing mechanical head movement.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is lossless compression strictly required when archiving software code and spreadsheets?",
+      options: [
+        "It turns text into audio narration",
+        "It reduces drive temperatures",
+        "It preserves every single byte accurately",
+        "It eliminates the need for partitions",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Lossless compression guarantees that data can be reconstructed byte-for-byte without corruption or missing characters.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary purpose of creating separate partitions like Drive C and Drive D?",
+      options: [
+        "Increasing physical screen size",
+        "Allowing faster USB transfers",
+        "Cleaning dust off drive platters",
+        "Separating system data from user files",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Partitioning isolates the operating system from user documents, safeguarding files if the system partition fails.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why does defragmenting a solid-state drive fail to provide performance improvements?",
+      options: [
+        "SSDs access memory cells electronically with zero mechanical seek delay",
+        "SSDs store information solely on magnetic tapes that cannot be organized",
+        "SSDs run exclusively on mechanical motors that spin faster than defragmenters",
+        "SSDs can only store files inside lossy compressed archive folders",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "SSDs have no physical moving heads or spinning platters; electronic memory chips access all sectors at uniform speeds.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which file extension typically identifies a compressed archive containing multiple files?",
+      options: [
+        "An audio MP3 music file",
+        "A compressed ZIP archive file",
+        "A plain TXT document note",
+        "A raw BMP graphic bitmap",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "ZIP files are standard compressed archive folders that combine and compress multiple files into a single bundle.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What user credential level is strictly required to create or modify drive partitions?",
+      options: [
+        "Guest visitor access",
+        "Standard student profile",
+        "System administrator rights",
+        "Read-only internet account",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Partitioning changes disk structures and requires administrative privileges to prevent unauthorized changes.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What term describes an independent logical division of a physical storage drive?",
+      options: [
+        "A mechanical drive spindle",
+        "A physical magnetic platter",
+        "An optical pickup laser",
+        "A logical drive volume",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A partition is configured as an independent logical volume, designated by drive letters such as C, D, or E.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What primary function does speech recognition software provide for computer accessibility?",
+      options: [
+        "It converts spoken words directly into typed digital text",
+        "It translates computer display text into spoken output",
+        "It magnifies small screen elements for weak eyesight",
+        "It prevents repetitive inputs from shaky finger taps",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Speech recognition interprets acoustic vocal signals spoken into a microphone and translates them into machine-readable digital text or commands.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which assistive technology directly aids an individual living with profound deafness?",
+      options: [
+        "Large-format key displays",
+        "Screen reading applications",
+        "Refreshable Braille devices",
+        "Visual screen flash alerts",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "For individuals who cannot hear system beeps and alerts, converting auditory signals into visual screen flashes or banners provides essential notification.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the main purpose of an operating system's Sticky Keys accessibility feature?",
+      options: [
+        "It locks the computer when the keyboard is idle",
+        "It allows modifier keys to be pressed one by one",
+        "It enlarges the mouse pointer during web navigation",
+        "It speeds up the repeat rate of pressed letter keys",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sticky Keys enables sequential single-finger typing of shortcut combinations like Ctrl, Shift, or Alt, helping users who cannot hold multiple keys simultaneously.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student who has severe difficulty distinguishing red text from green text has which condition?",
+      options: [
+        "Total blindness",
+        "Motor impairment",
+        "Colour blindness",
+        "Auditory weakness",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Colour blindness is a sensory condition affecting the eye's cones, making it difficult to differentiate specific hues such as red and green.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which hardware device is most suitable for a student who can only use a computer using foot motion?",
+      options: [
+        "Keyguard frame",
+        "Head wand stick",
+        "Refreshable pad",
+        "Foot mouse pedal",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Foot pedals and foot-operated mice allow users who do not have upper limb mobility to control cursor navigation and mouse clicks using their feet.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary function of a screen reader application such as NVDA or JAWS?",
+      options: [
+        "It converts on-screen text into synthesized speech",
+        "It enlarges screen areas up to sixteen times size",
+        "It cleans keyboard dirt to ensure steady connection",
+        "It allows speech commands to open software tools",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Screen readers read text and underlying interface metadata aloud using text-to-speech engines or route the data to Braille displays.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why are adjustable-height desks important for digital inclusion in an ICT laboratory?",
+      options: [
+        "They keep computers cool by elevating desktop fans",
+        "They allow students of all heights to type faster",
+        "They prevent monitors from shaking during use",
+        "They enable wheelchair users to fit at workstations",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Adjustable-height tables can be elevated to allow wheelchair armrests and footrests to clear the desk frame, providing proper posture and physical access.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which technology enables a person with quadriparesis to type using controlled breathing?",
+      options: [
+        "Sip-and-puff switch",
+        "Virtual screen reader",
+        "Inverted color screen",
+        "High-contrast keyboard",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Sip-and-puff technology converts air pressure generated by inhaling and exhaling through a mouthpiece into electrical signals that simulate keystrokes or mouse clicks.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How does high-contrast mode assist a learner who has partial visual impairment?",
+      options: [
+        "It reads out document sentences via loudspeakers",
+        "It sharpens letter boundaries using stark colours",
+        "It translates voice into text files on the screen",
+        "It ignores repeated taps from trembling fingers",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "High-contrast modes invert colour palettes (e.g., white text on black background), making interface elements distinct and easier to read for low-vision users.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What role does a keyguard play when installed over a physical computer keyboard?",
+      options: [
+        "It locks keys so unauthorized users cannot type",
+        "It translates standard English letters to Braille",
+        "It amplifies keystrokes for individuals with hearing loss",
+        "It guides fingers to avoid striking neighboring keys",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Keyguards provide a stable, perforated surface above the keyboard, allowing users with limited motor control or tremors to press individual keys cleanly.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature primarily allows portable computing devices to operate away from wall sockets?",
+      options: [
+        "Rechargeable battery power",
+        "High-speed broadband link",
+        "Anti-glare display panel",
+        "Aluminium protective case",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Portable computing devices rely on internal rechargeable batteries to power internal components without needing continuous mains electrical connections.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of Bring Your Own Device (BYOD) policies in modern education?",
+      options: [
+        "To stop learners from using computers at home",
+        "To permit personal devices for class learning",
+        "To replace every classroom teacher with robots",
+        "To ban internet access throughout school labs",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "BYOD policies allow students to bring their own laptops, tablets, or phones into school for educational activities and research projects.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following is a direct health benefit provided by modern smartwatches?",
+      options: [
+        "They cure acute bacterial infections",
+        "They eliminate all muscular fatigue",
+        "They monitor daily steps and heart rate",
+        "They replace clean domestic drinking water",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Smartwatches contain optical and motion sensors that track pulse rates, walking steps, and physical movement to encourage healthy living habits.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why are portable devices particularly useful for traders and farmers in remote rural areas?",
+      options: [
+        "They eliminate all production farming expenses",
+        "They automatically plough agricultural farmland",
+        "They provide instant access to mobile payments",
+        "They run indefinitely without charging batteries",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Mobile financial applications enable rural farmers and market traders to conduct cashless payments and verify prices without visiting distant physical banks.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which portable computing tool is best suited for typing lengthy formal research documents?",
+      options: [
+        "Smart wristband",
+        "Miniature pager",
+        "Fitness tracker",
+        "Laptop computer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Laptops feature integrated full-sized physical keyboards and desktop operating systems that make long-form document creation and word processing efficient.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What operational risk is heightened when workers use personal mobile devices for company tasks?",
+      options: [
+        "Device theft and data leakage risks",
+        "Immediate destruction of batteries",
+        "Loss of all cellular signal towers",
+        "Permanent damage to computer audio",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Portable devices carry sensitive business files and credentials outside office firewalls, increasing the danger of data loss through theft or hacking.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What term describes compact computing gadgets worn directly on clothing or the human body?",
+      options: [
+        "Wearable computing devices",
+        "Fixed desktop workstations",
+        "Centralized mainframes",
+        "External network switches",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Wearable technology refers to computing devices such as smartwatches, fitness rings, and smart glasses that are worn directly against the body.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can constant notifications on portable devices harm a student's academic progress?",
+      options: [
+        "They disrupt study time and reduce focus",
+        "They corrupt all digital text files",
+        "They overheat school tablet batteries",
+        "They erase saved cloud homework data",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Frequent pop-ups and message alerts fracture concentration, interrupting cognitive focus and slowing down learning retention during study sessions.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which characteristic makes a tablet computer distinct from a standard laptop computer?",
+      options: [
+        "It cannot connect to wireless networks",
+        "It depends primarily on touch input",
+        "It requires mains wall power always",
+        "It lacks an internal processing chip",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Tablets are slate devices that rely mainly on touchscreen interaction and on-screen keyboards rather than standard folding clamshell physical keyboards.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What security measure should be taken to prevent unauthorized access if a smartphone is lost?",
+      options: [
+        "Leaving the phone screen permanently unlocked",
+        "Sharing access passcodes with all close friends",
+        "Disabling all security passwords and screen locks",
+        "Setting biometric locks and secure screen pins",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Securing devices with biometric authentication (fingerprints or face recognition) and strong PIN codes prevents unauthorised people from accessing personal data if lost.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss2_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What danger arises when students accept online wiki claims without cross-referencing authoritative sources?",
+      options: [
+        "They risk recording inaccurate or biased facts",
+        "Their computer monitor will break down entirely",
+        "The web browser will delete local backup disks",
+        "The operating system will lock the keyboard",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Because wikis can be edited by any web user, articles can temporarily contain misleading statements, errors, or vandalism.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which cyber threat uses deceptive messages to lure victims into revealing private banking credentials?",
+      options: [
+        "Cloud syncing",
+        "Voice dictation",
+        "File indexing",
+        "Phishing scam",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Phishing uses forged electronic communications imitating banks or legitimate institutions to steal secret passwords and financial details.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What makes a computer worm particularly dangerous across networked school laboratories?",
+      options: [
+        "It requires physical floppy disks to run",
+        "It replicates and spreads without human aid",
+        "It physically detaches monitor power cables",
+        "It only affects computers that are shut down",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Unlike ordinary viruses that need users to open an infected program, worms spread automatically across connected network links.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is oversharing private personal details on social media platforms considered a major risk?",
+      options: [
+        "It consumes all mobile battery life at once",
+        "It slows down regional internet tower cables",
+        "It exposes individuals to identity data theft",
+        "It permanently erases saved text documents",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Revealing sensitive personal details online allows identity thieves to answer security questions, impersonate accounts, or commit fraud.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which online service is primarily designed to locate indexed web pages matching specific user queries?",
+      options: [
+        "Social network",
+        "Microblog app",
+        "Cloud repository",
+        "Search engine",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Search engines like Google crawl, index, and organize web content so users can find specific topics by entering keywords.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What form of attack floods a network server with excessive artificial traffic to bring it down?",
+      options: [
+        "Denial-of-Service attack",
+        "Hardware keyguard breach",
+        "Screen magnifier failure",
+        "Software speech synthesis",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A Denial-of-Service (DoS) attack overwhelms targeted servers with fake connection requests until the server crashes.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does adware compromise a computer user's digital browsing experience?",
+      options: [
+        "It cleans temporary internet cache records",
+        "It raises screen brightness during nighttime",
+        "It floods screens with unwanted advertisements",
+        "It speeds up large educational file downloads",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Adware is malicious software designed to display intrusive advertisements, pop-up banners, and redirect search queries without consent.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What distinguishing feature separates personal blogs from institutional news websites?",
+      options: [
+        "Blogs reflect individual opinions without formal review",
+        "Blogs are strictly printed onto physical daily newspapers",
+        "Blogs cannot support pictures, diagrams, or recorded video",
+        "Blogs are only accessible through local offline networks",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Blogs represent personal viewpoints, reflections, and commentary that generally bypass the strict editorial verification required by formal news organisations.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What software tool is primarily deployed to detect, isolate, and remove malware from a computer?",
+      options: [
+        "Screen reader program",
+        "Anti-virus application",
+        "Video conference tool",
+        "Presentation manager",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Anti-virus and anti-malware software scans storage drives to identify, quarantine, and eliminate harmful viruses, worms, and Trojans.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What security practice helps protect an online email account even if the password is leaked?",
+      options: [
+        "Reusing the same password for all websites",
+        "Disabling spam filtering in your inbox tab",
+        "Storing unencrypted passwords on public wikis",
+        "Activating multi-factor authentication steps",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Multi-factor authentication requires a second verification step (like an SMS code or authenticator prompt), preventing unauthorised access even when passwords are compromised.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What physical symptom is most commonly associated with continuous mouse use without breaks?",
+      options: [
+        "Pain and stiffness in the wrist joint",
+        "Reduced hearing volume in both ears",
+        "Excessive dryness along the fingernails",
+        "Blisters forming on the palms of the hands",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Extended mouse use without rests forces repetitive tendon motion, causing inflammation and wrist ache.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How often should a computer user pause to gaze at an object six metres away?",
+      options: [
+        "Once every four hours of work",
+        "After finishing an entire project",
+        "Every twenty minutes of viewing",
+        "Only when eyes start stinging",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The 20-20-20 rule requires pausing every twenty minutes to look at an object twenty feet away for twenty seconds.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What should a student do if their feet cannot reach the floor while sitting at an ICT desk?",
+      options: [
+        "Rest both feet squarely upon a sturdy footrest",
+        "Hook both ankles tightly around the chair wheels",
+        "Sit cross-legged on top of the seat cushion base",
+        "Allow legs to dangle freely to relax the knees",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A footrest supports the feet firmly, preventing reduced blood circulation and unnecessary thigh strain.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the recommended angle for a chair backrest to minimize spinal disc pressure?",
+      options: [
+        "Exactly seventy degrees leaning forward",
+        "Between one hundred and one hundred and ten",
+        "Exactly forty-five degrees leaning back",
+        "A rigid straight vertical of ninety degrees",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Leaning slightly backward between 100° and 110° provides optimal support and reduces spinal compression.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is placing a printed document flat beside the keyboard considered bad practice?",
+      options: [
+        "It blocks the cooling vents of the system unit",
+        "It causes ink to rub off onto the computer desk",
+        "It forces the neck to bend and twist repeatedly",
+        "It prevents the computer keyboard from typing fast",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Flat documents force the user to repeatedly tilt and twist their neck sideways, causing severe cervical strain.",
+    ),
+    QuizQuestion(
+      question:
+          "6. At what distance should a user position a computer monitor for optimal eye comfort?",
+      options: [
+        "An arm's length away from the body",
+        "Ten centimetres away from the nose",
+        "Two full metres away from the desk",
+        "As close as possible to read text",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An arm's length (about 50 to 70 centimetres) prevents eye strain while keeping screen text clearly legible.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What type of rest schedule is most effective during long computer study sessions?",
+      options: [
+        "Continuous typing with one long lunch break",
+        "Working until muscle cramps demand a full stop",
+        "Short frequent pauses taken during each hour",
+        "Skipping breaks completely to finish homework",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Regular short breaks are far more effective at reducing physical strain and fatigue than occasional long breaks.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How should wrists be held when typing on a standard computer keyboard?",
+      options: [
+        "Resting heavily on the sharp edge of the desk",
+        "Bent sharply downward toward the chair cushion",
+        "Curved upward toward the computer monitor frame",
+        "Held straight and level in a neutral alignment",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Keeping wrists straight and neutral prevents nerve compression and tendon inflammation in the carpal tunnel.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What primary health risk is eliminated by using an upright document holder?",
+      options: [
+        "Overheating of internal computer power units",
+        "Tripping over trailing computer electric cords",
+        "Repeated muscle strain along the back and neck",
+        "Accidental static shock from the mouse casing",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Document holders place reading materials at eye level, removing the strain of twisting and bending the neck.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why should micro-breaks be taken before a computer operator feels tired?",
+      options: [
+        "Muscles perform better when rested in advance",
+        "It allows software updates to install rapidly",
+        "Operating systems freeze if left unmonitored",
+        "Keyboards require cooling pauses every hour",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Proactive breaks prevent the onset of physical fatigue and maintain sustained mental concentration.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S1Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s1_ss3_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What decibel threshold is recognized by health authorities as the danger line for permanent hearing loss?",
+      options: [
+        "Continuous sound levels above eighty-five decibels",
+        "Whispering sounds occurring at thirty decibels",
+        "Regular rainfall sounds registering at fifty decibels",
+        "Normal quiet conversations held at forty decibels",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The World Health Organization identifies sounds above 85 decibels as hazardous to long-term hearing.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which method allows a student to quickly confirm whether headphone audio is too loud?",
+      options: [
+        "Checking whether the audio cable feels warm",
+        "Holding the headphones outward at arm's length",
+        "Asking the teacher to shout across the ICT room",
+        "Setting the device equalizer to maximum bass",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "If music is clearly audible when held an arm's length away, the volume level is dangerously high.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What physical eye condition is directly triggered by persistent screen glare?",
+      options: [
+        "Complete detachment of the eye iris muscle",
+        "Severe eye strain accompanied by headaches",
+        "Permanent loss of color vision perception",
+        "Rapid development of dark eyelid freckles",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Glare forces pupils to constantly contract, causing severe eye fatigue and headaches.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is a unique advantage of using anti-glare spectacles over a monitor screen filter?",
+      options: [
+        "Spectacles increase the monitor's processing power",
+        "Spectacles work across multiple screens and devices",
+        "Spectacles eliminate the need for computer mouse pads",
+        "Spectacles make display screens entirely waterproof",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Anti-glare glasses protect the user across computer monitors, laptops, and mobile phone screens alike.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are wall-mounted block multi-plug adaptors considered dangerous fire hazards?",
+      options: [
+        "They pull too little current to operate appliances",
+        "They make connected monitors display blurry images",
+        "Their heavy physical weight creates loose socket pins",
+        "They attract lightning strikes into computer labs",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Heavy block adaptors lever out of wall sockets, causing loose contacts, resistance heating, and fires.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the safest piece of equipment for powering multiple computing workstations?",
+      options: [
+        "A trailing multi-socket unit with fuse protection",
+        "A series of three block adaptors linked together",
+        "Bare copper wires pushed straight into socket holes",
+        "A single unshielded thin domestic extension cable",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Trailing units rest safely on the ground and use internal fuses to avoid overloading the wall socket.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the standard maximum power rating for most standard thirteen-ampere wall sockets?",
+      options: [
+        "Five hundred watts total electrical load",
+        "One thousand watts total electrical load",
+        "One thousand five hundred watts electrical load",
+        "Approximately three thousand watts maximum load",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Standard 13-amp wall sockets in standard domestic networks support up to approximately 3,000 watts.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How should long trailing electrical cords across computer lab floors be treated?",
+      options: [
+        "Suspended loosely in mid-air using paper clips",
+        "Covered completely with wet cloth during class",
+        "Tucked underneath the fabric floor carpet edges",
+        "Secured firmly to the floor using hazard tape",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Taping down cables with durable hazard tape prevents students from tripping over loose leads.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What secondary benefit does a fitted monitor screen filter provide to hardware?",
+      options: [
+        "It shields the monitor glass against physical scratches",
+        "It increases the refresh rate of graphic processors",
+        "It doubles the brightness output of weak backlights",
+        "It prevents internal hard drives from corrupting",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In addition to diffusing glare, an attached screen protector safeguards the display from surface scratches.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should a student do if an electrical wall adaptor feels noticeably hot?",
+      options: [
+        "Immediately disconnect appliances and alert the teacher",
+        "Spray cold water onto the socket to drop the heat",
+        "Wrap insulating tape around the warm plastic casing",
+        "Push more plugs into the unit to draw out current",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A hot adaptor indicates dangerous resistance heating and must be disconnected immediately to stop a fire.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the structural intersection of a single row and column in a table called?",
+      options: [
+        "A grid junction",
+        "A data block",
+        "A table cell",
+        "A sheet margin",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The individual rectangular box formed where a vertical column crosses a horizontal row is defined as a cell.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which tool allows existing text separated by tabs to be instantly placed into a table?",
+      options: [
+        "Convert Text to Table",
+        "AutoFormat Table Style",
+        "Quick Styles Generator",
+        "Text Box Framing Grid",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Convert Text to Table command analyzes separating characters like commas or tabs and builds corresponding rows and columns.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Under which ribbon tab is the Table Properties button located after selecting a table?",
+      options: [
+        "The Layout tab",
+        "The Design tab",
+        "The Review tab",
+        "The Insert tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "When a table is selected, contextual tabs appear; the Layout tab contains alignment, sizing, and properties controls.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens to hyperlinked text in Microsoft Word by default when created?",
+      options: [
+        "It turns into bold green text",
+        "It is displayed in capital letters",
+        "It gains a solid yellow highlight",
+        "It turns blue with an underline",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Word processors automatically format active hyperlinks in blue font colour with an underline to identify clickable text.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which option under Table AutoFit resizes columns to fit the longest text entry inside?",
+      options: [
+        "AutoFit to Content",
+        "AutoFit to Columns",
+        "AutoFit to Margins",
+        "AutoFit to Window",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "AutoFit to Content evaluates the length of the data in each cell and adjusts the column width so no space is wasted.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why would a writer insert internal bookmarks inside an extensive multi-page report?",
+      options: [
+        "To lock document sections",
+        "To enable fast navigation",
+        "To compress the file size",
+        "To protect editing rights",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Bookmarks act as internal location targets, allowing hyperlinks to jump readers directly to specific headings without manual scrolling.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Where on the screen can you drag markers to adjust column width manually?",
+      options: [
+        "The status line",
+        "The ribbon pane",
+        "The scroll bar",
+        "The ruler bar",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The horizontal ruler bar shows column divider markers that can be dragged directly to adjust table widths.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which button inside the Insert Hyperlink dialogue targets a section within the open file?",
+      options: [
+        "Existing File or Web Page",
+        "Place in This Document",
+        "Create New Document",
+        "E-mail Address Link",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Selecting \"Place in This Document\" displays all established headings and bookmarks present in the active document.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should you do to open a hyperlink while editing inside Microsoft Word on a computer?",
+      options: [
+        "Double tap the spacebar",
+        "Press Shift while typing",
+        "Press Alt and tap Return",
+        "Hold Ctrl and click link",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "In Microsoft Word's editing view, users hold down the Ctrl key while clicking on a hyperlink to follow the pathway.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which setting on the Column tab of Table Properties allows numeric column measurement?",
+      options: [
+        "Set fixed length",
+        "Column auto width",
+        "Preferred width",
+        "Minimum height",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Ticking the \"Preferred width\" checkbox lets users input exact dimensions in centimetres or inches for selected columns.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which command allows you to subdivide an existing table cell into multiple smaller rows or columns?",
+      options: [
+        "Divide Grid",
+        "Break Table",
+        "Split Cells",
+        "Section Cell",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Split Cells command opens a dialogue box permitting users to divide an individual cell into designated numbers of rows and columns.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the cell reference for the intersection of the second column and the third row in a table?",
+      options: [
+        "Cell B3",
+        "Cell 3B",
+        "Cell C2",
+        "Cell 2C",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Columns are assigned letters starting with A, making the second column B; rows are numbered, making the third row 3. The coordinate is therefore B3.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which formula correctly finds the average of all numbers positioned directly above the active cell?",
+      options: [
+        "=MEAN(OVER)",
+        "=AVERAGE(ABOVE)",
+        "=AVG(UPWARDS)",
+        "=TOTAL(TOP)",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "In Word tables, the function =AVERAGE() paired with the positional keyword ABOVE computes the arithmetic mean of the numbers above.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Under which group on the Home tab can you find line spacing and paragraph indentation tools?",
+      options: [
+        "Font group",
+        "Styles group",
+        "Editing group",
+        "Paragraph group",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Paragraph group on the Home tab houses controls for text alignment, list bullets, indentations, borders, and line spacing.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What does the button with a small diagonal arrow at the corner of a ribbon group open?",
+      options: [
+        "A dialogue box launcher",
+        "A screen magnifier tool",
+        "An automatic help manual",
+        "A document save shortcut",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Clicking the dialogue box launcher opens a comprehensive settings window providing full access to all advanced parameters for that group.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What happens when you select three adjacent cells in a row and click the Merge Cells button?",
+      options: [
+        "The row gets deleted",
+        "Cells unite as one cell",
+        "Table text disappears",
+        "New borders are drawn",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Merging cells joins selected neighbouring cells together into a single continuous cell by clearing the inner dividing borders.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which function should be entered into the Formula dialogue box to discover the highest mark in a list?",
+      options: [
+        "=TOP(ABOVE)",
+        "=HIGH(ABOVE)",
+        "=PEAK(ABOVE)",
+        "=MAX(ABOVE)",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The =MAX() mathematical function returns the maximum or highest numerical value within the specified range of cells.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which setting adjusts the vertical clearance between individual lines of printed text in a paragraph?",
+      options: [
+        "Margin alignment",
+        "Line spacing",
+        "Indent setting",
+        "Letter tracking",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Line spacing determines the amount of vertical white space separating successive lines of typed text within a paragraph.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Where is the Formula tool button situated inside Microsoft Word when a table is active?",
+      options: [
+        "Layout tab, Data group",
+        "Insert tab, Math group",
+        "Review tab, Calc group",
+        "View tab, Sheets group",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Under Table Tools, navigating to the Layout tab displays the Data group on the far right, which contains the Formula command.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which action should you take to remove all internal and external lines from a table without losing text?",
+      options: [
+        "Clear cell contents",
+        "Select Delete Table",
+        "Press Cut on ribbon",
+        "Choose No Border",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Selecting \"No Border\" from the Borders menu hides all border lines while keeping the tabular layout and all contained text intact.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary function of a footer in a word-processed document?",
+      options: [
+        "Highlight body text",
+        "Check word spellings",
+        "Display bottom notes",
+        "Enlarge font styles",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Footers reside in the bottom margin of pages to show repeating details like page numbers, dates, or file titles.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What quick action opens the header and footer editing area directly from the page canvas?",
+      options: [
+        "Double-click margin",
+        "Right-click center",
+        "Press spacebar twice",
+        "Triple-click paragraph",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Double-clicking inside the top or bottom margin immediately activates the contextual Header and Footer tools.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which break type begins a brand new section on the very same page without pushing text to a new sheet?",
+      options: [
+        "Page Break",
+        "Continuous Break",
+        "Column Break",
+        "Text Wrapping Break",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "A Continuous section break divides sections at the insertion point while keeping subsequent text on the same page.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which page orientation has a vertical height that is noticeably greater than its horizontal width?",
+      options: [
+        "Landscape",
+        "Horizontal",
+        "Panoramic",
+        "Portrait",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Portrait orientation positions the page upright so that the height is longer than the width, standard for reading documents.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why should automated page numbers be inserted using the Insert menu rather than typed manually?",
+      options: [
+        "Numbers update across pages",
+        "Text changes to bold font",
+        "File size is compressed",
+        "Margin lines turn invisible",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Automated page number fields calculate and display the correct sequential number dynamically on every page.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which button on the Home tab allows you to see hidden page breaks and section break markers?",
+      options: [
+        "Find and Replace",
+        "Show or Hide button",
+        "Format Painter",
+        "Text Effects",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Clicking the Show/Hide formatting marks icon reveals non-printing symbols, including page breaks and section breaks.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Under which tab on the ribbon will you find the Header, Footer, and Page Number commands?",
+      options: [
+        "Home tab",
+        "Design tab",
+        "Layout tab",
+        "Insert tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Insert tab houses the Header and Footer group, which contains commands to insert headers, footers, and page numbers.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What must be placed before and after a page to isolate it for a different orientation layout?",
+      options: [
+        "Text Box frames",
+        "Bookmark flags",
+        "Section breaks",
+        "Hyperlink tags",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Section breaks establish independent formatting zones, making it possible to change the orientation of an isolated section.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which setting inside Format Page Numbers allows a document to start numbering from page five?",
+      options: [
+        "Continue numbering",
+        "Start at setting",
+        "Include chapter",
+        "Set fixed digit",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Entering a specific number into the \"Start at\" field within Format Page Numbers forces numbering to begin at that chosen value.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What button on the ribbon closes the header editing mode and returns focus to the main text?",
+      options: [
+        "Exit Document",
+        "Hide Margins",
+        "Save Layout",
+        "Close Header and Footer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Close Header and Footer button located on the contextual ribbon tab deactivates the header/footer view.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which ribbon tab contains the Images group used for adding pictures and taking screenshots?",
+      options: [
+        "The Insert ribbon tab",
+        "The Review ribbon tab",
+        "The Design ribbon tab",
+        "The Layout ribbon tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Insert tab houses tools for introducing external content, including the Images group with Pictures, Screenshot, and Photo Album.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens if a student resizes a photo by dragging only the handle located on its right edge?",
+      options: [
+        "The image rotates clockwise.",
+        "The image stretches sideways.",
+        "The image keeps its proportion.",
+        "The image gets cropped neatly.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Dragging a side handle changes only one dimension, distorting the aspect ratio and making the image appear unnaturally stretched or squashed.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which PowerPoint feature enables a user to build a complete slide deck of many photos at once?",
+      options: [
+        "Action Buttons",
+        "Shapes Gallery",
+        "SmartArt Graphic",
+        "New Photo Album",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Photo Album tool under the Insert tab automates the insertion and layout of multiple photographs across multiple slides.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which tool should a student choose to capture a tiny corner of an open web browser window?",
+      options: [
+        "Screen Clipping tool",
+        "Full Photo Album tool",
+        "Custom Shape Art tool",
+        "Auto Sizing Frame tool",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Screen Clipping allows the user to click and drag a specific boundary around any part of the computer screen.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is it beneficial to apply image compression before sending a presentation via email?",
+      options: [
+        "It turns pictures to shapes.",
+        "It raises print resolution.",
+        "It adds black frame borders.",
+        "It reduces total file size.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Compressing pictures lowers their pixel density and deletes cropped areas, producing a smaller file that transmits quickly across networks.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where is the circular rotation handle situated when a user selects a photograph on a slide?",
+      options: [
+        "Inside the status bar line",
+        "Near the bottom left corner",
+        "Above the top center border",
+        "Under the lower right corner",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The rotation arrow is positioned just above the top centre edge of any selected image or shape.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which gallery on the Picture Format tab provides pre-built visual borders, shadows, and frames?",
+      options: [
+        "Picture Styles gallery",
+        "WordArt Styles gallery",
+        "Drawing Canvas gallery",
+        "Slide Themes group",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Picture Styles provide one-click presets that add frames, reflections, bevels, and drop shadows to selected images.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What keyboard key can a user press to complete and exit an active cropping operation cleanly?",
+      options: [
+        "The Shift button",
+        "The Enter key",
+        "The Spacebar key",
+        "The Escape key",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Pressing the Escape (Esc) key or clicking outside the image boundary finalizes the crop and dismisses the cropping handles.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which target resolution option in the Compress Pictures tool is best for email attachments?",
+      options: [
+        "HD resolution 330 ppi",
+        "Print output 220 ppi",
+        "E-mail output 96 ppi",
+        "Web output 150 ppi",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The 96 ppi (pixels per inch) target output produces the smallest possible file size, making it ideal for sharing across email connections.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which tool on the ribbon allows a student to change the colour and thickness of a photo frame?",
+      options: [
+        "Shape Fill tool",
+        "Picture Effects",
+        "Align Objects tool",
+        "Picture Border tool",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Picture Border command allows users to customize outline colour, line weight, and dashes around an image.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature on the Format tab replaces a circle with a diamond while preserving the text inside?",
+      options: [
+        "The Change Shape command",
+        "The Reset Picture button",
+        "The Grouping shapes tool",
+        "The Insert WordArt command",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Change Shape option under Edit Shape swaps the shape geometry without erasing any text entered inside the object.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where should a student look to find the command used to modify the thickness of a shape border?",
+      options: [
+        "Format Shape Effects",
+        "Format Shape Outline",
+        "Insert Shapes group",
+        "Slide Themes options",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Shape Outline tool controls the border colour, dash style, and line weight of a shape.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which key should a user press and hold to select several distinct shapes across a slide?",
+      options: [
+        "The Alt keyboard key",
+        "The Tab keyboard key",
+        "The Esc keyboard key",
+        "The Shift keyboard key",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Holding down the Shift key (or Ctrl key) while clicking allows you to select multiple objects simultaneously.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which command sends a selected shape completely behind every other overlapping object on the slide?",
+      options: [
+        "Send to Back tool",
+        "Align Left command",
+        "Group Shapes button",
+        "Edit Points option",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Send to Back moves the active object to the very bottom layer of the slide stack.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens immediately when you combine four independent shapes into a single group?",
+      options: [
+        "All text inside gets erased.",
+        "The shapes merge into one colour.",
+        "All shapes drop behind slides.",
+        "They share a single bounding box.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Grouping places a unified bounding box and sizing handles around all selected shapes, allowing them to move and scale together.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Under which group on the Insert tab will you locate the Shapes drop-down button?",
+      options: [
+        "The Media group",
+        "The Text group",
+        "The Illustrations group",
+        "The Links group",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Illustrations group on the Insert tab contains visual elements like Shapes, SmartArt, and Charts.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the correct action to draw an inserted shape onto the slide canvas after selecting it from the menu?",
+      options: [
+        "Click and drag the mouse",
+        "Right click on status bar",
+        "Scroll the mouse wheel down",
+        "Double tap the Enter key",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "After selecting a shape from the gallery, you click and drag the crosshair across the slide canvas to define its size and position.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which ribbon tool should you click to apply pre-set coordinated colour schemes and borders to a shape?",
+      options: [
+        "Bring Forward option",
+        "Shape Styles gallery",
+        "Screen Clipping tool",
+        "Compress Images tool",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Shape Styles gallery provides one-click visual themes that style the fill, outline, and effects of a shape simultaneously.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What command allows a user to edit shapes separately after they have previously been joined together?",
+      options: [
+        "The Crop option",
+        "The Reset command",
+        "The Ungroup command",
+        "The Align tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Ungroup command breaks a grouped object back down into its independent individual components.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Where does text appear by default when a presenter types directly inside a basic shape?",
+      options: [
+        "Rotated at the outer top edge",
+        "Outside along the lower border",
+        "Off-screen in a separate file",
+        "Centred right inside the shape",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Modern presentation software automatically positions typed text centred inside the boundaries of an active shape.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss2_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which command should a student select to make the horizontal gaps between four process cards identical?",
+      options: [
+        "Distribute Horizontally",
+        "Align Top boundaries",
+        "Bring Forward layers",
+        "Group Shapes together",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Distribute Horizontally measures the space between the leftmost and rightmost shapes and evens out the gaps between the shapes in between.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the minimum number of shapes a presenter must select to use the Distribute options?",
+      options: [
+        "Exactly five shapes",
+        "At least three shapes",
+        "Only one single shape",
+        "Exactly two shapes",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Distribute needs at least three objects: two to serve as outer anchors and at least one interior object to be balanced between them.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does a student select four different shapes positioned across a slide at the same time?",
+      options: [
+        "Double tap the slide view",
+        "Press Enter on each item",
+        "Scroll the mouse wheel down",
+        "Hold Shift while clicking",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Holding the Shift key or Ctrl key while clicking on objects adds each item to the active selection.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which action moves an overlapping picture to the very bottom layer behind all shapes and text?",
+      options: [
+        "Click the Send to Back tool",
+        "Click the Align Center tool",
+        "Click the Crop button once",
+        "Click the Rotate 90 command",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Send to Back moves the selected object to the lowest layer in the slide's stacking order.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What command lines up several shapes along their vertical middle points?",
+      options: [
+        "Send Backward command",
+        "Distribute Horizontally",
+        "Bring Forward option",
+        "Align Center command",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Align Center lines up the vertical centre axes of all selected shapes.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where does text appear when typed directly into an inserted banner shape?",
+      options: [
+        "Centred inside the banner",
+        "On the title master slide",
+        "Outside along bottom edge",
+        "Hidden in note pane view",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Text typed directly into any shape appears automatically centred within its boundaries.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which tool from the Insert Shapes group lets a presenter place text anywhere on a slide?",
+      options: [
+        "Text Box tool",
+        "Rotate arrow",
+        "Shape Styles",
+        "Picture Border",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Text Box command lets you draw a custom container for typing notes and labels anywhere on a slide.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which ribbon tab contains the Arrange group with the Align and Distribute tools?",
+      options: [
+        "The View tab",
+        "The Format tab",
+        "The Review tab",
+        "The Design tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Format tab (Shape Format or Picture Format) contains the Arrange group, which includes alignment and layering tools.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What command moves an object one single step higher in the stacking order of overlapping shapes?",
+      options: [
+        "Align Top command",
+        "Send to Back tool",
+        "Bring Forward tool",
+        "Distribute option",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Bring Forward shifts an object up one layer in the stack, while Bring to Front brings it all the way to the top.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How can a user exit text entry mode after typing inside a shape or text box?",
+      options: [
+        "Double click slide master",
+        "Drag any corner handle",
+        "Press Shift and Delete",
+        "Click an empty slide area",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Clicking away onto an open, empty area of the slide confirms the text and exits text editing mode.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which software package is widely recognised as an industry standard for professional commercial publishing?",
+      options: [
+        "Adobe InDesign",
+        "Windows Explorer",
+        "Microsoft Access",
+        "Notepad Editor",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Adobe InDesign is the leading commercial software used worldwide by professional publishers to produce magazines, books, and sophisticated print layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What major benefit did desktop publishing bring to small business enterprises?",
+      options: [
+        "It eliminated the requirement to maintain accounts in Cedis",
+        "It allowed them to produce quality marketing flyers in-house",
+        "It enabled computers to run without electrical power supplies",
+        "It removed the need to use a mouse or keyboard on the computer",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "DTP software lets small businesses produce brochures, price lists, and business cards without paying expensive external agencies.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In desktop publishing, what term describes a pre-formatted layout that saves production time?",
+      options: [
+        "Algorithm",
+        "Spreadsheet",
+        "Template",
+        "Macro",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A template is a pre-designed layout containing preset margins, colour schemes, and font styles that users can quickly customise.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How did document production occur before the introduction of desktop publishing software?",
+      options: [
+        "Computers wrote, proofread, and printed text automatically",
+        "Digital laser printers generated documents from cloud databases",
+        "Web servers published online pages to mobile phones instantly",
+        "Teams physically pasted text columns and photos onto boards",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional production involved manual paste-up where typists, artists, and typesetters physically cut and glued elements onto paper sheets.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which file type is best crafted in desktop publishing rather than a plain text editor?",
+      options: [
+        "A multi-column brochure with school pictures and maps",
+        "A single paragraph typed message left on a noticeboard",
+        "A basic text list containing three shopping items",
+        "A short batch script running system command lines",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Multi-column layouts containing photos and graphics require the exact element positioning and formatting tools provided by DTP software.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why are objects in desktop publishing software placed inside distinct boxes or frames?",
+      options: [
+        "To prevent computer monitor screens from flickering",
+        "To allow elements to be moved and arranged independently",
+        "To permanently lock the computer keyboard from misuse",
+        "To convert text letters into binary numerical digits",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Placing content inside frames allows authors to position, resize, format, and layer text and graphics freely anywhere on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which program belongs to the group of dedicated desktop publishing applications?",
+      options: [
+        "Microsoft Excel",
+        "Microsoft Paint",
+        "QuarkXPress",
+        "VLC Media Player",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "QuarkXPress is a dedicated commercial desktop publishing tool widely used for commercial page layout and magazine production.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is a primary reason for using desktop publishing software to create business cards?",
+      options: [
+        "It automatically deposits monthly profits into a bank account",
+        "It produces a web link that works without internet connections",
+        "It ensures that the computer hard drive does not run out of space",
+        "It provides precise page measurements and balanced layouts",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Business cards require exact dimensions, professional alignment of contact details, and precise positioning of company logos.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which term refers to the pre-set colour groupings available in DTP programs to maintain harmony?",
+      options: [
+        "Colour schemes",
+        "Screen resolutions",
+        "System registries",
+        "Network protocols",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Colour schemes in DTP provide complementary palettes of colours that keep publications visually pleasing and unified.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why does desktop publishing software improve communication in school publications?",
+      options: [
+        "It restricts students from viewing images on classroom displays",
+        "It prevents printing devices from producing hard paper copies",
+        "It translates all English publications into binary numbers",
+        "It makes information visually clear, neat, and engaging",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Professional layouts, clear typography, and balanced graphics capture attention and make important announcements easier to read and understand.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where can a user access additional blank page dimensions such as folded greeting cards?",
+      options: [
+        "More Blank Page Sizes",
+        "Computer Control Panel",
+        "Taskbar Notification Area",
+        "Desktop Recycle Bin",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Clicking \"More Blank Page Sizes\" opens the template gallery containing specialized dimensions like folded greeting cards and index sheets.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which keyboard shortcut allows a user to save ongoing modifications to a document quickly?",
+      options: [
+        "Pressing the keys Ctrl and P",
+        "Pressing the keys Ctrl and S",
+        "Pressing the keys Ctrl and Z",
+        "Pressing the keys Ctrl and X",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Pressing Ctrl + S executes the standard Save command to store recent updates immediately to the active file.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why would a graphic designer start a project using a blank publication instead of a template?",
+      options: [
+        "To prevent the computer monitor from losing power",
+        "To avoid installing printer driver software files",
+        "To have complete control over every layout element",
+        "To automatically format the document into Cedis",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A blank layout provides an empty canvas where the creator has total freedom over every frame, margin, colour, and font.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What term describes positioning a page horizontally so its width exceeds its height?",
+      options: [
+        "Vertical alignment",
+        "Column distribution",
+        "Inverted margin",
+        "Landscape orientation",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Landscape orientation positions the page horizontally so that the longest side runs across the top and bottom.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which command must be selected to save an active file under a brand-new name or folder?",
+      options: [
+        "Save As command",
+        "Print Preview tab",
+        "Cut command",
+        "Undo button",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Save As command prompts the user to define a new storage location and filename for a publication.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the chief purpose of using pre-designed templates when deadlines are tight?",
+      options: [
+        "They eliminate the need to attach a mouse device",
+        "They reduce design time by providing ready layouts",
+        "They convert monochrome printers into colour units",
+        "They encrypt personal documents against viral codes",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Templates feature pre-arranged text frames, decorative elements, and balanced margins, speeding up document delivery.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which file name is the most appropriate when saving a school science exhibition flyer?",
+      options: [
+        "Flyer",
+        "Document123",
+        "Science_Exhibition_Flyer_2026",
+        "Temporary_Saved_File_Here",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Descriptive names including the project topic, document type, and year make future identification efficient and straightforward.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What special layout option should be chosen to produce a four-sided invitation card?",
+      options: [
+        "Continuous single sheet",
+        "Wide horizontal banner",
+        "Plain web page format",
+        "Folded card layout",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Selecting a Folded Card layout sets up four coordinated panels designed to fold neatly like a greeting or invitation card.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which part of the Publisher window contains the command to create a new file?",
+      options: [
+        "The backstage File menu",
+        "The bottom status counter",
+        "The vertical side scrollbar",
+        "The drawing canvas border",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking the File tab opens the backstage view where the \"New\" option is housed.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the primary risk of working on a publication without saving it periodically?",
+      options: [
+        "The desktop computer screen brightness fades away",
+        "The computer keyboard letters will stop printing",
+        "The operating system will delete peripheral tools",
+        "Unsaved edits are lost during unexpected shutdowns",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "If a sudden power interruption or system crash happens before saving, all unsaved progress is lost from memory.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which ribbon tab contains the tools to change page margins, orientation, and colour schemes?",
+      options: [
+        "The Page Design tab",
+        "The Mailings group",
+        "The Review ribbon",
+        "The Help options",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Page Design tab houses commands for page setup, orientation, margins, and colour palettes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where can a student turn on visual layout rulers to assist with precise object placement?",
+      options: [
+        "Review ribbon tab",
+        "View ribbon panel",
+        "Home ribbon group",
+        "Insert ribbon tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The View tab contains the Show/Hide checkboxes for rulers, guidelines, and boundaries.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the primary benefit of the Mail Merge tool located on the Mailings tab?",
+      options: [
+        "It converts printed text into spoken audio files",
+        "It prevents the computer from overheating easily",
+        "It produces mass personalised copies automatically",
+        "It replaces all graphic frames with text letters",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Mail Merge links a document to a recipient list to generate batches of personalised letters or certificates.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which ribbon tab houses the built-in Thesaurus used for finding alternative vocabulary?",
+      options: [
+        "Page Design tab",
+        "Home ribbon tab",
+        "Mailings menu",
+        "The Review tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Review tab holds proofing tools, including Spelling, Research, and the Thesaurus.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which tool on the Home tab is used to arrange overlapping graphics on top of each other?",
+      options: [
+        "The Bring Forward tool",
+        "The Page Layout guide",
+        "The Spelling check tool",
+        "The Screen Zoom slider",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Bring Forward and Send Backward in the Arrange group reorder overlapping objects on the canvas.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does checking the Boundaries box in the View tab help a student while designing?",
+      options: [
+        "It applies extra ink to the edges of printed pages",
+        "It reveals the hidden border outlines of all frames",
+        "It removes unwanted grammatical errors from text",
+        "It links the file to an external recipient list",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Boundaries display faint lines showing the edges of text boxes and pictures, making positioning easier.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What command on the Page Design tab applies repeating headers across all pages?",
+      options: [
+        "Mail Merge tool",
+        "Format Painter",
+        "Master Pages",
+        "Object Boundary",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Master Pages allow users to define repeating design elements like headers, footers, and page numbers once for the entire publication.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which command from the Mailings tab shows actual recipient data in merge fields?",
+      options: [
+        "Delete Field item",
+        "Format Background",
+        "Align Objects menu",
+        "Preview Results",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Clicking Preview Results replaces merge field codes with real names from the recipient list.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which group on the Page Design tab allows users to select pre-coordinated font styles?",
+      options: [
+        "The Schemes group",
+        "The Clipboard group",
+        "The Tracking group",
+        "The Layout set",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The Schemes group contains coordinated font and colour schemes that can be applied to the document with one click.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How do commands under the View tab differ from those under the Page Design tab?",
+      options: [
+        "View tab tools alter the printer driver settings permanently",
+        "Page Design tools only work when an external drive is attached",
+        "View tools change only the printed margins of the final document",
+        "View tools affect only screen display without changing the printout",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "View tab commands change visual workspace aids (such as rulers or zoom), while Page Design commands modify actual layout properties.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where can a designer enter custom margin measurements down to the exact centimetre?",
+      options: [
+        "Margin Guides dialog box",
+        "System Control Panel area",
+        "Taskbar Notification tray",
+        "File Properties menu link",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Clicking Custom Margins opens the Margin Guides dialog box where specific top, bottom, left, and right measurements can be typed.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which orientation is most appropriate for printing an official single-page formal letter?",
+      options: [
+        "Landscape page setting",
+        "Portrait page setting",
+        "Horizontal spread mode",
+        "Freeform canvas angle",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Portrait orientation is standard for official correspondence, books, and formal letters because text reads naturally down a tall page.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What term describes the additional margin added along the inside edge of a bound publication?",
+      options: [
+        "Header space",
+        "Footer indent",
+        "Gutter margin",
+        "Bleed border",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The gutter is extra space allocated along the binding edge to stop text and images from being swallowed in the spine.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why should a student keep text boxes inside the blue margin boundary lines in Publisher?",
+      options: [
+        "Outside text is permanently encrypted by the operating system",
+        "Outside text automatically doubles the total page count",
+        "The computer will shut down if objects touch canvas borders",
+        "Desktop printers may cut off items placed beyond the margins",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Physical printers cannot print to the absolute edge of the paper; placing items outside the margin line risks cut-off content.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which standard preset sets all four margins equally to 2.54 centimetres?",
+      options: [
+        "Wide margin preset",
+        "Narrow margin guide",
+        "Moderate layout set",
+        "Compact spacing mode",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Wide margin preset assigns 2.54 centimetres (1 inch) to the top, bottom, left, and right borders.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What happens when you switch a document from Portrait to Landscape orientation?",
+      options: [
+        "The printer automatically runs out of coloured ink",
+        "The width becomes greater than the vertical height",
+        "The operating system deletes all imported pictures",
+        "The text boxes change their language to Latin",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Switching to Landscape repositions the sheet horizontally so that the width exceeds the vertical height.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Under which ribbon group on the Page Design tab can you find the Margins button?",
+      options: [
+        "The Schemes group",
+        "The Template set",
+        "Page Setup group",
+        "The Pages section",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Margins, Orientation, and Size are all located inside the Page Setup group on the Page Design tab.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which problem is caused by omitting a gutter margin in a 40-page stapled booklet?",
+      options: [
+        "The font style changes automatically to Comic Sans",
+        "The document file size increases on the hard disk",
+        "The printer generates blank sheets between pages",
+        "Text near the inner fold becomes obscured and unreadable",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Without a gutter margin, text near the fold gets bound into the seam, making it difficult or impossible to read.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How does the Moderate margin preset differ from the Narrow margin preset?",
+      options: [
+        "Moderate has larger margin measurements than Narrow",
+        "Moderate only applies to publications set in Cedis",
+        "Moderate removes the need for physical paper sheets",
+        "Moderate automatically rotates imported images",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Moderate uses 1.27 cm top/bottom and 1.91 cm left/right, whereas Narrow uses 0.64 cm on all sides.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why should orientation and margins be established before adding extensive content?",
+      options: [
+        "Changing them later automatically deletes all user accounts",
+        "Changing them later requires re-entering software licenses",
+        "Changing them later disconnects all local area networks",
+        "Changing them later can disrupt the positions of text boxes",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Changing page dimensions or margins after building a document alters the layout boundaries and forces manual readjustment of all frames.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss3Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature allows a designer to reserve a designated graphic space on a page before obtaining the actual image?",
+      options: [
+        "Picture Placeholder",
+        "Document Boundary",
+        "Ruler Guide Marker",
+        "Layout Margin Line",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A Picture Placeholder draws an empty graphic frame that locks in layout geometry until the real photo is inserted.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens when an author increases the contrast of an inserted photograph?",
+      options: [
+        "The text wrapping switches automatically to Square",
+        "The difference between light and dark tones expands",
+        "The file extension changes from dot pub to dot docx",
+        "The picture is moved immediately to the Scratch Area",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Boosting contrast deepens dark shadows and brightens highlights, expanding tonal separation across the image.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which tool enables a student to search the internet for images directly within Microsoft Publisher?",
+      options: [
+        "Local Drive Explorer",
+        "Master Page Gallery",
+        "Online Pictures tool",
+        "The Thesaurus search",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Online Pictures command connects to search engines like Bing to find and insert online graphics.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why would a designer use the \"Edit Wrap Points\" command on an irregularly shaped picture?",
+      options: [
+        "To prevent the document from consuming printer ink",
+        "To translate all English labels into Cedis currency",
+        "To double the speed of local network data transfers",
+        "To adjust how closely text curves around an object",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Edit Wrap Points provides movable nodes along the boundary so text follows intricate curves precisely.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which contextual ribbon tab appears when a picture on the Publisher canvas is selected?",
+      options: [
+        "Picture Tools Format",
+        "Master Layout Design",
+        "Database Mailings tab",
+        "Review Proofing panel",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Clicking any graphic activates the Picture Tools Format tab containing dedicated image modification controls.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the main difference between resizing a picture and cropping it?",
+      options: [
+        "Resizing rotates the image while cropping mirrors it",
+        "Cropping removes outer parts while resizing changes scale",
+        "Cropping changes brightness while resizing changes tone",
+        "Resizing deletes frames while cropping adds borders",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Resizing enlarges or shrinks the entire picture, whereas cropping clips away outer portions to reframe the content.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Under which ribbon group on the Format tab is the Wrap Text command located?",
+      options: [
+        "The Picture Styles set",
+        "The Adjustments panel",
+        "The Arrange group",
+        "The Page Setup set",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Wrap Text, Bring Forward, and Send Backward are all situated in the Arrange group.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the danger of placing an image over text without applying a text wrap setting?",
+      options: [
+        "The computer processor permanently shuts down",
+        "The picture file becomes corrupted on the disk",
+        "The operating system uninstalls the printer",
+        "The picture will cover and obscure the text",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Without text wrapping, the image layer sits directly over underlying text boxes, hiding sentences from view.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which command changes a full-colour picture into a subtle grayscale or single-colour tone?",
+      options: [
+        "The Recolor command",
+        "The Crop tool button",
+        "Align Objects command",
+        "Reset Picture layout",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The Recolor tool applies uniform colour tints, such as grayscale, sepia, or monochrome washes, to inserted images.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When multiple graphics overlap, which command sends an item all the way to the lowest layer?",
+      options: [
+        "Bring to Front tool",
+        "Rotate Object handle",
+        "Align Left command",
+        "Send to Back command",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Send to Back places the selected graphic behind all other overlapping objects on the canvas in one step.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss3Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which ribbon tab contains the basic font formatting tools such as bold, italics, and font size?",
+      options: [
+        "The Home ribbon tab",
+        "The View ribbon panel",
+        "The Mailings menu tab",
+        "Page Design setup set",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Home tab houses common text styling commands inside the Font and Paragraph groups.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual marker indicates that a text box contains hidden overflow text?",
+      options: [
+        "A green checkmark appears in the header area",
+        "A handle with an ellipsis appears at the bottom",
+        "The text box changes its border to dashed grey",
+        "The whole computer screen flashes bright yellow",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An indicator box with an ellipsis (...) appears when text exceeds the printable boundary of the text box.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why are sans-serif typefaces like Arial commonly chosen for large advertising headlines?",
+      options: [
+        "They consume less memory space on the hard drive",
+        "They prevent desktop printers from misfeeding paper",
+        "Their clean stroke edges are easily read from a distance",
+        "They translate English words into local languages",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sans-serif fonts have simple, clean letterforms that remain sharp and legible on banners, posters, and signs.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How can an author tilt a text box to run diagonally across the corner of a publication?",
+      options: [
+        "By pressing the keyboard shortcut Ctrl and Delete",
+        "By adjusting the page orientation from the View tab",
+        "By changing the system language to British English",
+        "By dragging the circular rotation handle at the top",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dragging the circular rotation handle allows users to rotate text frames to any desired angle.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which command links two text boxes together to manage overflowing paragraphs?",
+      options: [
+        "Create Link command",
+        "Combine Shapes tool",
+        "Group Objects button",
+        "Align Center command",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Create Link tool connects an overflowing box to an empty one, letting text flow smoothly across frames.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What happens to text in overflow if the author does not link the text box to another frame?",
+      options: [
+        "It converts into numeric figures in Ghana Cedis",
+        "It remains hidden and will not appear on printouts",
+        "It shifts automatically into the computer clipboard",
+        "It overwrites background graphics on the canvas",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Hidden overflow text stays in the document file but does not display on screen or appear on printed sheets.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which tool transforms ordinary text into decorative graphic art with shadows and outlines?",
+      options: [
+        "Drop Cap command",
+        "Thesaurus panel",
+        "WordArt feature",
+        "Master Page guide",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "WordArt creates styled text elements featuring 3D effects, gradients, shadows, and contoured outlines.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the defining characteristic of a serif typeface like Garamond or Times New Roman?",
+      options: [
+        "Letters are displayed only as capitalised symbols",
+        "Letters are drawn without any straight baseline",
+        "Letters are replaced with abstract shape markers",
+        "Letters have small decorative strokes on stroke ends",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Serifs are the small finishing strokes projecting from the main stems of letterforms.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Under which contextual tab can a designer find advanced typography tools like ligatures?",
+      options: [
+        "Text Box Tools Format",
+        "Picture Tools Format",
+        "Database Mailings tab",
+        "Layout Guides menu",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Selecting a text frame reveals the Text Box Tools Format tab, which houses the Typography group.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why does linking text boxes benefit an editor making late changes to a school newsletter?",
+      options: [
+        "It converts printed text into encrypted code files",
+        "It prevents printing devices from running out of ink",
+        "It increases computer network speeds during uploads",
+        "It adjusts text flow across all columns automatically",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "If content is edited, added, or deleted, linked boxes reflow text dynamically across pages without manual re-pasting.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss3Lesson7QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss3_L7/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which design principle arranges elements so the most critical announcement catches attention first?",
+      options: [
+        "Visual hierarchy",
+        "Hardware caching",
+        "Memory buffering",
+        "Binary processing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Visual hierarchy organises layout elements by importance, using size, contrast, and placement to guide the eye.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why is a test print strongly recommended before mass-producing a multi-panel folded brochure?",
+      options: [
+        "To permanently remove the printer driver software",
+        "To check paper fold alignment and margin spacing",
+        "To automatically encrypt the document on the disk",
+        "To convert monochrome print into colour graphics",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A physical test print allows the creator to confirm that folded panels align properly and that no text is clipped by printer margins.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which publication is explicitly designed to fit inside a pocket or wallet for professional networking?",
+      options: [
+        "An event poster",
+        "A wall calendar",
+        "A business card",
+        "A news booklet",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Business cards are compact publications formatted specifically for convenient storage in pockets and wallets.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary commercial purpose of a print advertisement placed in a magazine?",
+      options: [
+        "To test the speed of local network connections",
+        "To provide instructions on installing system updates",
+        "To back up operating system files to the cloud",
+        "To promote products and encourage customer sales",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Advertisements are persuasive notices intended to showcase products or services and generate customer interest and sales.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which cloud platform allows authors to share publications via interactive online web links?",
+      options: [
+        "Microsoft OneDrive",
+        "Windows Task Manager",
+        "BIOS Configuration Menu",
+        "Hardware Device Manager",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft OneDrive and Google Drive provide cloud storage and link-sharing features for digital publications.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which combination of font styles best suits an elegant, formal anniversary invitation card?",
+      options: [
+        "Monospaced code fonts paired with bold headlines",
+        "Serif or script fonts paired with balanced borders",
+        "Random cartoon typefaces in multiple bright colours",
+        "Solid capitalised gothic fonts across all paragraphs",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Elegant script and serif typefaces convey prestige, formality, and tradition, making them ideal for formal invitations.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What should an author do when an advertisement contains multiple product pictures and prices?",
+      options: [
+        "Place all images directly on top of each other",
+        "Delete all contact details to create blank space",
+        "Group related pictures and prices into neat sections",
+        "Change the paper size to a continuous banner",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Organizing products into clear visual blocks or grid panels helps readers compare items and prices without confusion.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does publishing a document digitally to a website compare with paper printing?",
+      options: [
+        "Digital delivery limits distribution to one reader",
+        "Digital delivery permanently locks the screen colors",
+        "Digital delivery requires physical cutting and folding",
+        "Digital delivery allows instant global distribution",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Web and cloud delivery enables publications to reach worldwide audiences instantly without physical printing or shipping expenses.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which detail is considered non-essential on the front face of a compact business card?",
+      options: [
+        "A complete four-paragraph corporate history essay",
+        "The professional job title of the cardholder",
+        "An official company telephone contact number",
+        "The registered brand name or company logo",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Due to limited surface area, business cards must focus only on core contact identity; long essays belong in brochures.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why should ticket prices and dates on event flyers be formatted with prominent weighting?",
+      options: [
+        "Printers cannot register text written in regular fonts",
+        "It prevents the document from generating overflow boxes",
+        "Operating systems require dates to format page margins",
+        "Crucial event details must be spotted quickly by readers",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Prospective attendees must be able to spot date, time, venue, and cost immediately to make attendance decisions.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss4_L1/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary difference between a formula and a function in an electronic spreadsheet?",
+      options: [
+        "A formula is created by the user, while a function is built into the application.",
+        "A formula uses letters only, whereas a function works exclusively with numbers.",
+        "A formula never needs an equals sign, but a function must always begin with one.",
+        "A formula operates on words, while a function processes financial values only.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A formula is written directly by the user with specific operators, whereas a function is an existing, pre-programmed routine within the software.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following formulas represents non-contiguous cell referencing?",
+      options: [
+        "=SUM(A1:A20)",
+        "=SUM(C2:G2)",
+        "=SUM(B3, E3, H3)",
+        "=SUM(D1:D10)",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Non-contiguous referencing joins separated cells using commas rather than a continuous colon range.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which function would you use to find the highest score obtained in an inter-schools quiz competition?",
+      options: [
+        "TOP",
+        "HIGH",
+        "LARGE",
+        "MAX",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The MAX function evaluates a numerical cell range and returns the greatest value.",
+    ),
+    QuizQuestion(
+      question:
+          "4. An IT club register has twenty member names written in cells A1 to A20. Which function counts how many names are in the list?",
+      options: [
+        "=COUNTA(A1:A20)",
+        "=COUNT(A1:A20)",
+        "=TOTAL(A1:A20)",
+        "=COUNTIF(A1:A20)",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Member names are text data. COUNT counts only numbers, while COUNTA counts any non-empty cell containing text or values.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A trader in Makola market tracks weekly sales across cells B2 to B8. Which formula correctly finds the average sales figure?",
+      options: [
+        "=SUM(B2:B8)/AVERAGE",
+        "=AVERAGE(B2:B8)",
+        "=MEAN(B2:B8)",
+        "=DIVIDE(B2:B8)",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The standard function to compute the arithmetic mean is AVERAGE.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the purpose of the colon symbol (:) when entering a function like =SUM(F1:F15)?",
+      options: [
+        "It divides cell F1 by F15.",
+        "It acts as a comma operator.",
+        "It defines a contiguous range of cells.",
+        "It formats the cells as currency.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The colon specifies an unbroken contiguous range running from the first cell to the last cell.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A sports teacher wishes to find the slowest time recorded in a 100-metre race stored in cells C2 to C30. What function must be used?",
+      options: [
+        "LEAST",
+        "MIN",
+        "BOTTOM",
+        "MAX",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "In racing, a slower time is represented by a larger number of seconds, so finding the slowest runner requires identifying the largest number using MAX.",
+    ),
+    QuizQuestion(
+      question:
+          "8. When using the Insert Function feature, what is the name of the dialogue window that guides you to enter cell ranges and parameters?",
+      options: [
+        "Function Arguments",
+        "Formula Builder List",
+        "Calculation Manager",
+        "Cell Range Navigator",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Function Arguments dialogue box provides input boxes and descriptions for each parameter required by the function.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which formula correctly counts how many junior high school classes have more than 40 students enrolled across cells E2 to E12?",
+      options: [
+        '=COUNTIF(E2:E12, ">40")',
+        "=COUNT(E2:E12 > 40)",
+        '=SUMIF(E2:E12, ">40")',
+        "=COUNTA(E2:E12, 40)",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "COUNTIF takes two arguments separated by a comma: the evaluation range and the criteria enclosed in quotation marks.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What happens if you type SUM(D1:D10) into a cell without entering the equals sign first?",
+      options: [
+        "The computer calculates the total automatically.",
+        "An error message pops up and shuts the program.",
+        "The cell displays the formula as plain text.",
+        "The application converts the input to zero.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Without the leading equals sign, the electronic spreadsheet does not recognise an instruction as a calculation and treats it as standard text.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss4_L2/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What makes a formula in an electronic spreadsheet classified as complex?",
+      options: [
+        "It uses more than one arithmetic operator.",
+        "It contains numbers larger than one thousand.",
+        "It references cells located on different sheets.",
+        "It is written entirely in capital letters.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A simple formula carries out a single operation, while a complex formula combines two or more arithmetic operations in one expression.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the main reason for enclosing a calculation within brackets in a formula?",
+      options: [
+        "To convert the calculated result into text.",
+        "To hide the formula from other users.",
+        "To override the standard order of operations.",
+        "To duplicate the cell value across a row.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Operations enclosed in brackets take priority and are evaluated before any outside operations.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the value evaluated by the spreadsheet for the formula =12+8/2?",
+      options: [
+        "10",
+        "20",
+        "14",
+        "16",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Under standard operator hierarchy, division happens before addition; 8 divided by 2 equals 4, and 12 plus 4 equals 16.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A trader enters =20-5*2+4 without brackets. What value will be displayed?",
+      options: [
+        "14",
+        "34",
+        "26",
+        "18",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Multiplication happens first: 5 × 2 = 10. The expression becomes 20 - 10 + 4. Working from left to right, 20 - 10 = 10, and 10 + 4 = 14.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In cell D6, an accountant types =(A6+B6+C6)/3. What does this formula calculate?",
+      options: [
+        "The total sum of three cells.",
+        "The average of three cells.",
+        "The tax payable on three cells.",
+        "The difference between cells.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Adding three cell values inside brackets and dividing the total by 3 calculates the arithmetic mean or average.",
+    ),
+    QuizQuestion(
+      question:
+          "6. To calculate simple interest with Principal in B1, Rate in B2, and Time in B3, which formula is correct if the rate is entered as a percentage cell?",
+      options: [
+        "=B1+B2+B3",
+        "=(B1*B2)/B3",
+        "=B1*B2/100",
+        "=B1*B2*B3",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "When the interest rate cell is already formatted as a percentage (for example, 5% or 0.05), the spreadsheet handles the division by 100 internally, making =B1*B2*B3 correct.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A boutique owner wants to find the 15% Value Added Tax on a subtotal of 400 Cedis in cell G4. Which formula accomplishes this?",
+      options: [
+        "=G4+0.15",
+        "=G4*0.15",
+        "=G4/0.15",
+        "=G4-0.15",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Multiplying a base amount by a decimal rate like 0.15 computes fifteen percent of that total.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A sales representative sells items at unit price C2 and quantity D2. They receive a commission rate stored in E2. Which formula correctly computes their payout?",
+      options: [
+        "=(C2+D2)*E2",
+        "=(C2/D2)*E2",
+        "=(C2-D2)*E2",
+        "=(C2*D2)*E2",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Total revenue is quantity times unit price (C2*D2). Multiplying this product by the commission rate E2 gives the commission earned.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What will the spreadsheet display if you enter the formula =(6+4)*(8-3)?",
+      options: [
+        "50",
+        "35",
+        "70",
+        "45",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Both bracketed operations are computed first: (6 + 4) = 10 and (8 - 3) = 5. Then the products are multiplied: 10 × 5 = 50.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A worker receives an hourly wage in B2 and works hours in C2. Any hours over 40 receive double pay. Which formula correctly represents pay for 45 hours worked?",
+      options: [
+        "=(B2*40)+(B2*2*5)",
+        "=(B2*45)*2",
+        "=B2+(40*2*5)",
+        "=(B2+40)*(2+5)",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The standard 40 hours are paid at regular rate (B2*40), while the 5 overtime hours are paid at double the rate (B2*2*5). Both terms are added together.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S2Ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s2_ss4_L3/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of cell referencing adjusts automatically when a formula is copied to another cell?",
+      options: [
+        "Relative referencing",
+        "Absolute referencing",
+        "Static referencing",
+        "External referencing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Relative references change their row and column coordinates relative to the new cell position where the formula is pasted.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A student deletes column D, which was referenced in cell E5 as =C5+D5. What error will now appear in cell E5?",
+      options: [
+        "#NAME?",
+        "#NULL!",
+        "#REF!",
+        "#VALUE!",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The #REF! error occurs when a formula refers to a cell or column that has been deleted or moved.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following displays a mixed cell reference where only the column is locked?",
+      options: [
+        "B\$4",
+        "\$B\$4",
+        "B4",
+        "\$B4",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A dollar sign placed directly before the column letter (\$B4) locks the column while allowing the row number to adjust freely.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is indicated when a spreadsheet displays a series of hash marks like ##### in a cell?",
+      options: [
+        "The column width is too narrow to display the number.",
+        "The formula has an incorrect mathematical operator.",
+        "A text string has been divided by a numeric value.",
+        "The computer has lost internet connectivity.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "When numerical or date content exceeds the physical width of a cell column, the program displays ##### until the column is expanded.",
+    ),
+    QuizQuestion(
+      question: "5. What does the error #VALUE! signify in a worksheet?",
+      options: [
+        "A cell address has been misspelt in the formula bar.",
+        "An incorrect data type is used in a mathematical operation.",
+        "A number is being divided by zero or an empty space.",
+        "A contiguous range has omitted the colon separator.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "#VALUE! occurs when a mathematical formula encounters incompatible data types, such as attempting to add text to a number.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is absolute referencing used in simple loan calculations?",
+      options: [
+        "To hide interest rates from banking customers.",
+        "To allow the loan duration to change every month.",
+        "To lock configuration values like the annual rate.",
+        "To convert local currency into foreign denominations.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Configuration values such as the annual interest rate or number of payments reside in single cells and must remain locked when replicating calculations down the schedule.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If the formula in F2 is =\$A\$1*C2, what formula will result when copied to F4?",
+      options: [
+        "=\$A\$3*C4",
+        "=\$A\$1*C2",
+        "=A1*C4",
+        "=\$A\$1*C4",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The absolute reference \$A\$1 remains anchored, while the relative reference C2 changes to C4 as it moves down two rows.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What does a small green triangle in the upper-left corner of a cell represent?",
+      options: [
+        "The worksheet has been saved successfully to cloud storage.",
+        "A potential formula error or inconsistency has been flagged.",
+        "The cell contains an active macro or external website link.",
+        "The cell has been locked against editing by other users.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A green triangle flags an inconsistent formula or potential calculation issue that differs from adjacent cells.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What does the error #NULL! indicate in a spreadsheet formula?",
+      options: [
+        "An incorrect range operator or space was used between cells.",
+        "The formula bar was cleared before pressing the enter key.",
+        "A negative number was used inside a square root function.",
+        "A cell reference was deleted from the underlying sheet.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "#NULL! is generated when an intersection operator (a space) is used between ranges that do not actually intersect, often due to an omitted colon or comma.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A user types =SUUM(B1:B10) into a cell. Which error will be displayed?",
+      options: [
+        "#REF!",
+        "#DIV/0!",
+        "#VALUE!",
+        "#NAME?",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Because SUUM is not a recognized function name, the spreadsheet flags the input with #NAME?.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How many distinct functional layers make up the Open Systems Interconnection model?",
+      options: [
+        "Exactly five layers",
+        "Exactly seven layers",
+        "Exactly three layers",
+        "Exactly eight layers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The standard OSI reference model is structured into seven distinct architectural layers numbered 1 through 7.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which layer converts digital data bits into raw electrical voltages, light pulses, or radio signals?",
+      options: [
+        "Physical Layer",
+        "Network Layer",
+        "Session Layer",
+        "Transport Layer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Physical Layer sits at Layer 1 and handles the transmission of unstructured bit streams across physical media.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What benefit does the concept of interoperability provide to computer network owners?",
+      options: [
+        "Devices from different vendors connect and function together smoothly.",
+        "Computers consume less electrical power during peak daylight hours.",
+        "Internet service providers eliminate monthly subscription fees easily.",
+        "Network cables become immune to accidental physical wire cuts.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Interoperability ensures hardware and software built by different manufacturers work together using standard protocols.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which layer breaks large files into smaller segments and controls flow using TCP?",
+      options: [
+        "Network Layer",
+        "Physical Layer",
+        "Session Layer",
+        "Transport Layer",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Transport Layer coordinates end-to-end data delivery, reordering, and segmentation between communicating hosts.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A technician notices an ethernet cable is unplugged from the wall socket. Which layer has the fault?",
+      options: [
+        "Session Layer",
+        "Application Layer",
+        "Presentation Layer",
+        "Physical Layer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Physical cables, connectors, and electrical circuits are all classified under Layer 1, the Physical Layer.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which layer manages the opening, active dialogue maintenance, and closure of application connections?",
+      options: [
+        "Session Layer",
+        "Network Layer",
+        "Physical Layer",
+        "Transport Layer",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Session Layer is responsible for establishing, coordinating, and terminating communication sessions between remote programs.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Data encryption and syntax conversion are primary responsibilities of which OSI layer?",
+      options: [
+        "Transport Layer",
+        "Physical Layer",
+        "Presentation Layer",
+        "Network Layer",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Presentation Layer translates data formats between the network and the application while managing encryption tasks.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is it helpful for technicians to use a layered troubleshooting approach on a faulty network?",
+      options: [
+        "It isolates problems methodically from physical cables up to software.",
+        "It completely removes the requirement for hardware routers and switches.",
+        "It speeds up the processing frequency of individual computer processors.",
+        "It allows any non-networked office machine to connect without cables.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Layered troubleshooting lets technicians verify physical connectivity before checking complex logical or application settings.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which device inspects incoming data frames and forwards them within a local network at Layer 2?",
+      options: [
+        "Network switch",
+        "Display monitor",
+        "Electric router",
+        "Thermal printer",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Network switches operate at the Data Link Layer, forwarding frames between local devices using hardware addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which OSI layer is responsible for determining the optimal path for packets across multiple networks?",
+      options: [
+        "Physical Layer",
+        "Application Layer",
+        "Presentation Layer",
+        "Network Layer",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Network Layer uses logical routing protocols and routers to direct packets across different interconnected networks.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What separator character is used between number groups in a standard IPv4 address?",
+      options: [
+        "A full stop",
+        "A semicolon",
+        "A percentage",
+        "A forward slash",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "IPv4 addresses are written in dotted decimal notation, separating four decimal number groups with full stops.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which network service translates friendly website names into destination IP addresses?",
+      options: [
+        "File transfer tool",
+        "Domain Name System",
+        "Power supply unit",
+        "Local backup drive",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The Domain Name System matches human-friendly URLs to the numeric IP addresses needed for routing.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the fundamental difference between the Internet and the World Wide Web?",
+      options: [
+        "The Internet is a web browser while the Web is an operating system.",
+        "The Internet is only used in schools while the Web is for banks.",
+        "The Internet is a local cable while the Web is a wireless battery.",
+        "The Internet is the physical network and the Web is a service on it.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Internet is the global physical infrastructure of connected computers, while the Web is a service that shares linked pages across it.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How many bits of data make up a modern Internet Protocol version six address?",
+      options: [
+        "Exactly 32 bits",
+        "Exactly 64 bits",
+        "Exactly 96 bits",
+        "Exactly 128 bits",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "An IPv6 address is constructed using 128 bits, providing a massively expanded pool of unique addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which of the following examples represents a valid format for an IPv4 address?",
+      options: [
+        "196.0.1.180",
+        "300.12.5.990",
+        "12.800.44.11",
+        "45.99.280.14",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A valid IPv4 address contains four groups of numbers between 0 and 255 separated by full stops.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is the Domain Name System compared to a traditional telephone directory?",
+      options: [
+        "It connects callers directly through an old manual switchboard.",
+        "It converts names into contact numbers needed to reach targets.",
+        "It charges callers per minute when sending text messages abroad.",
+        "It prints hardcopy paper booklets for school computer rooms.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Just as a phonebook matches a person's name with their phone number, DNS matches domain names with numerical IP addresses.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How are the eight character groups separated in an IPv6 address string?",
+      options: [
+        "By blank spaces",
+        "By question marks",
+        "By colon symbols",
+        "By dollar signs",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "IPv6 addresses are written using hexadecimal notation separated into groups by colon characters.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What primary factor forced the global transition from IPv4 toward IPv6?",
+      options: [
+        "Available unique addresses were exhausted by new devices.",
+        "Computer monitors could no longer display four-part numbers.",
+        "Internet service providers banned all decimal numbering codes.",
+        "Fibre optic glass cables rejected signals carrying thirty-two bits.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The explosive growth of personal computers, smartphones, and connected devices exhausted the roughly 4.3 billion addresses in IPv4.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following applications operates over the internet without being part of the World Wide Web?",
+      options: [
+        "A browser displaying an online news article",
+        "An interactive digital catalogue webpage",
+        "A standalone email client software program",
+        "A classroom website showing school term dates",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Direct email protocols, file transfers, and voice calls use the internet infrastructure without relying on the World Wide Web.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What total number of unique addresses can be created using the 32-bit IPv4 system?",
+      options: [
+        "About two hundred thousand",
+        "About twelve million total",
+        "About four point three billion",
+        "About nine hundred trillion",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "2 to the power of 32 provides approximately 4,294,967,296 unique address combinations.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L1/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which characteristic uniquely defines a private account profile on the Instagram platform?",
+      options: [
+        "Approved viewers only",
+        "Free mobile phone credit",
+        "Unlimited video storage",
+        "Hidden account passwords",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A private profile requires the account owner to manually review and approve follow requests before users can inspect uploaded photos.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What primary feature distinguishes live streaming tools like Facebook Live from standard YouTube uploads?",
+      options: [
+        "High monthly licensing",
+        "Real-time broadcasting",
+        "Removal of all comments",
+        "Complete loss of storage",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Live streaming transmits live audio-video data in real time as the event unfolds, rather than publishing pre-recorded media files.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which social platform uses electronic pinboards to collect and hyperlink web project ideas?",
+      options: [
+        "Snapchat",
+        "Periscope",
+        "Pinterest",
+        "Instagram",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Pinterest allows users to categorise visual bookmarks called pins into themed thematic boards linking directly to external sites.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens to photos sent as direct visual messages within the standard Snapchat interface?",
+      options: [
+        "Copied to all contacts",
+        "Transferred to Pinterest",
+        "Published to television",
+        "Erased after viewing",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Snapchat is engineered around ephemeral messaging, meaning personal photo messages are automatically removed once viewed by the recipient.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which platform was originally launched as a dedicated photo sharing service using square formats?",
+      options: [
+        "Instagram",
+        "Vimeo",
+        "Periscope",
+        "YouTube",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Instagram debuted as a photo-centric platform highlighting square picture formats, artistic filters, and image sharing.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An ICT teacher wants to organize past classroom practical recordings into an accessible study series. Which YouTube tool accomplishes this?",
+      options: [
+        "Ephemeral camera lenses",
+        "The playlist directory",
+        "Personal contact books",
+        "Temporary direct chats",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "YouTube playlists allow channel managers to sequence multiple instructional videos together under a single topic heading for easy navigation.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does Vimeo primarily fund its operations without displaying regular commercial banner ads?",
+      options: [
+        "Mandatory viewer fines",
+        "Paid user subscriptions",
+        "Hardware device sales",
+        "National tax subventions",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Vimeo relies on creator software subscription tiers rather than running commercial advertisements before or during hosted media clips.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which feature on Instagram allows users to post casual photos that automatically vanish after a day?",
+      options: [
+        "Permanent albums",
+        "Public catalogues",
+        "The story archive",
+        "The stories feature",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Instagram Stories allow account holders to share photo and video moments sequentially, which automatically expire twenty-four hours after posting.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why must students exercise caution before publishing school images to public social media accounts?",
+      options: [
+        "Anyone can view them",
+        "Cameras will overheat",
+        "Cloud memory is closed",
+        "All filters are banned",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Media posted to public profiles can be discovered, viewed, and downloaded by any internet user across the globe without verification.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What core media element separates YouTube from platforms like Pinterest and Flickr?",
+      options: [
+        "Static photographs",
+        "Printable documents",
+        "Text spreadsheet files",
+        "Dynamic motion videos",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "YouTube is fundamentally an audio-video hosting platform, whereas platforms like Pinterest specialize in static photographic bookmarks.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What graphical symbol is universally used on email toolbars to represent attaching a file?",
+      options: [
+        "An open book",
+        "A metal key",
+        "A scissors mark",
+        "A paperclip shape",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The paperclip icon is the international visual symbol used in email clients to indicate the file attachment tool.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which file format should a pupil choose to prevent layout changes when an examiner views the file?",
+      options: [
+        "Portable Document Format",
+        "Plain text note document",
+        "Compressed audio recording",
+        "Dynamic spreadsheet table",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A PDF preserves all original fonts, margins, diagrams, and structures regardless of the operating system or application used to open it.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What occurs when an email attachment exceeds the maximum file size limit allowed by the email provider?",
+      options: [
+        "The computer will restart",
+        "The upload will be rejected",
+        "The monitor screen freezes",
+        "The file turns into an image",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "If an attached file exceeds the service provider's threshold (such as 25 MB), the system blocks the upload and prevents delivery.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which action should a student take to read a received document quickly without saving it locally?",
+      options: [
+        "Discard message",
+        "Forward contact",
+        "Preview document",
+        "Download file",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The preview function displays the file's contents directly inside the email viewer without writing data to the device storage.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where are files typically transferred when you select the Download option on an email attachment?",
+      options: [
+        "The local storage drive",
+        "The sender's memory card",
+        "The email provider office",
+        "The display monitor screen",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Downloading fetches the file over the network and saves a local copy directly onto your device's internal storage.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What safety measure should be practiced when receiving an unexpected attachment from an unfamiliar address?",
+      options: [
+        "Forward it to your classmates",
+        "Download and run it right away",
+        "Delete it without opening files",
+        "Change your computer password",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Attachments from unknown sources may contain viruses or malware; deleting or ignoring them prevents potential device infection.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which dialogue window appears immediately after selecting the \"Browse this computer\" option in an email client?",
+      options: [
+        "The file explorer window",
+        "The web browser history",
+        "The network password box",
+        "The sound equalizer panel",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking browse opens the operating system's file explorer dialogue so the user can navigate storage folders and pick files.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the main reason for compressing a folder containing multiple large project photographs before emailing?",
+      options: [
+        "To sharpen the colour saturation",
+        "To convert photos into audio clips",
+        "To lock the computer file system",
+        "To reduce the total file data size",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Compressing files packs the data tightly to reduce its overall size in megabytes, ensuring it stays under email attachment limits.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Where is the attached file usually listed within an email message before the user presses the send button?",
+      options: [
+        "Below the subject line field",
+        "Inside the contact phone book",
+        "On the external computer mouse",
+        "Across the operating desktop",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Email composer interfaces display confirmed attached file cards directly beneath the subject field or at the base of the message pane.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If an ICT project file is seventy megabytes, what is the best method to deliver it to a teacher via email?",
+      options: [
+        "Rename file into plain text",
+        "Send a cloud link via email",
+        "Turn off the computer screen",
+        "Print out the computer codes",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Because a 70 MB file exceeds standard email size ceilings (25 MB), uploading it to cloud storage and emailing the link is the correct approach.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss2_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the main role of the address book inside an electronic mail application?",
+      options: [
+        "To save virus definitions",
+        "To compute test averages",
+        "To generate slide graphics",
+        "To store contact details",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "An address book functions as a built-in database that preserves contact names, email addresses, and phone numbers for convenient retrieval.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which action launches the contact selection directory while drafting a new message?",
+      options: [
+        "Clicking To button",
+        "Pressing hard drive",
+        "Ejecting the screen",
+        "Tapping the battery",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The \"To\" label adjacent to the recipient bar operates as an interactive button that opens the address book directory.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following contains the three minimum fields needed to record a usable contact for email?",
+      options: [
+        "Name, age, town",
+        "First, last, email",
+        "School, food, sex",
+        "Class, club, city",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A reliable digital contact requires at least the first name, surname, and destination email address.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is selecting addresses from a contact list safer than typing them out manually?",
+      options: [
+        "It protects screen glass",
+        "It clears system storage",
+        "It prevents typing errors",
+        "It speeds internet data",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Using stored contacts eliminates typographical errors, ensuring the message reaches the intended inbox without bounce-backs.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What button confirms newly inputted recipient information into the address book?",
+      options: [
+        "The cancel control",
+        "The discard tool",
+        "The escape button",
+        "The create button",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Clicking Create (or Save) permanently stores the new contact record into the account directory.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where can users locate the People app icon inside Microsoft 365 services?",
+      options: [
+        "In app launcher menu",
+        "Inside trash folder",
+        "On printer housing",
+        "Behind tablet battery",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The People application is accessed via the primary application launcher grid located on the main interface navigation bar.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which symbol is commonly clicked within the contact picker to add someone to the To field?",
+      options: [
+        "Division slash sign",
+        "The plus sign mark",
+        "Question mark symbol",
+        "Percentage sign icon",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Clicking the plus (+) sign adjacent to a contact entry transfers their email address into the active recipient list.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following is considered an optional data field when creating a new contact?",
+      options: [
+        "First name record",
+        "Account password",
+        "Contact email box",
+        "Workplace company",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Company name, job title, and extra notes are optional fields that can be left blank, whereas name and email are primary.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How does an email client help when you start typing a saved friend's name into the recipient bar?",
+      options: [
+        "It suggests matches",
+        "It silences speaker",
+        "It locks keyboard keys",
+        "It changes system font",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Modern email programs feature auto-completion, suggesting matching names directly from your address book as you type.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should a student do after entering contact details into a new entry form?",
+      options: [
+        "Clear web cache files",
+        "Remove the tablet cover",
+        "Unplug network router",
+        "Click the save button",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Clicking Save commits the entered contact fields to permanent storage; closing the window without saving discards the data.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss3_L1/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A clinic database server crashes because a computer virus deleted the main operating system files. Which security threat occurred?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The attack made the medical database unavailable to doctors by crashing the server, which defines interruption.",
+    ),
+    QuizQuestion(
+      question:
+          "2. An unauthorized intruder uses network packet sniffing tools to read confidential emails passing over an office wireless network. What threat is this?",
+      options: ["Interruption", "Modification", "Fabrication", "Interception"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The intruder is silently capturing and reading private transmission packets without changing them, which is interception.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A rogue employee changes the grade of an English test in the school database from forty to eighty-five percent. What data threat occurred?",
+      options: ["Interruption", "Fabrication", "Modification", "Interception"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Changing existing legitimate information into altered figures without authorization is an act of modification.",
+    ),
+    QuizQuestion(
+      question:
+          "4. An attacker generates and sends completely counterfeit electronic purchase orders using an invented company email identity. What threat is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Creating new false messages or fake records to deceive the receiver is the defining feature of fabrication.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A merchant's point-of-sale terminal cable is cut deliberately, preventing customers from paying for groceries electronically. What is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The physical damage stops the payment service from operating, which is an interruption to system availability.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A hacker monitors an online payment session and collects bank card credentials while transactions travel to the payment gateway. What threat is this?",
+      options: ["Modification", "Interception", "Fabrication", "Interruption"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tapping into communication paths to copy secret information during transmission is classified as interception.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Ransomware scrambles all administrative documents on a school laptop into unreadable gibberish, demanding money to reverse the damage. Which threat is this?",
+      options: ["Interception", "Fabrication", "Modification", "Interruption"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Maliciously altering file contents through unauthorized encryption damages data integrity, representing modification.",
+    ),
+    QuizQuestion(
+      question:
+          "8. An unknown person adds a fake administrative user account with root privileges to a district library computer system. What threat is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Inserting a non-existent, counterfeit account into an operating system is an attack on authenticity through fabrication.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A cyber attack swamps a regional utility portal with junk data packets so customers cannot top up their electricity meters online. What is this?",
+      options: ["Interruption", "Interception", "Modification", "Fabrication"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Flooding a network service to take it offline denies legitimate access to electricity meter top-ups, which is interruption.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A dishonest contractor replaces a signed government contract file on an office desktop with a rewritten version having higher payment fees. What threat is this?",
+      options: ["Fabrication", "Modification", "Interruption", "Interception"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Altering genuine terms within an established official document compromises original content through modification.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss3_L2/9. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which mechanism converts scrambled cipher text back into its original readable plain text format?",
+      options: ["Decryption", "Encryption", "Fabrication", "Interruption"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Decryption uses a matching cryptographic key to restore scrambled cipher text back into readable plain text.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A biometric finger scanner used to confirm a teacher's identity at an attendance kiosk is an example of what?",
+      options: [
+        "Modification",
+        "Authentication",
+        "Interruption",
+        "Authorisation"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Biometric scans verify that an individual is indeed the authorized user claiming that identity, which is authentication.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What security control maps most effectively to defending against data interception across a wireless network?",
+      options: ["Fabrication", "Interruption", "Encryption", "Modification"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Encryption scrambles data so that even if network packets are intercepted mid-transit, they remain unreadable cipher text.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A school IT administrator revokes write permissions on database tables to stop staff from changing student scores. What threat is reduced?",
+      options: ["Interruption", "Interception", "Decryption", "Modification"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Restricting write permissions through authorisation stops unauthorized tampering or alteration of existing data records.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which protection method determines whether an already logged-in employee has permission to format an office storage drive?",
+      options: ["Authorisation", "Fabrication", "Decryption", "Interruption"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Authorisation governs the specific actions, privileges, and boundaries granted to a verified account.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does strong multi-factor authentication prevent a fabrication threat on an educational server?",
+      options: [
+        "It scrambles the hard drive so that nobody can read files",
+        "It stops impostors from creating counterfeit user accounts",
+        "It deletes old backup archives to free up disk memory",
+        "It interrupts data signals when transmission cables break"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Requiring multiple verified factors stops unauthorized outsiders from logging in and generating false or counterfeit accounts.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What status does ordinary digital text hold before it is passed through an encryption algorithm?",
+      options: [
+        "Cipher text",
+        "Scrambled text",
+        "Plain text",
+        "Encrypted text"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Plain text is the original, unencrypted, readable message or dataset before cryptographic transformation occurs.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Maintaining off-site backups and installing anti-malware tools maps primarily to defending against which threat?",
+      options: ["Interception", "Modification", "Fabrication", "Interruption"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Backups and anti-malware software ensure system availability can be quickly recovered if a crash or outage occurs.",
+    ),
+    QuizQuestion(
+      question:
+          "9. When a web browser displays an HTTPS padlock, what protection is active to secure user passwords in transit?",
+      options: [
+        "Transport Encryption",
+        "Hardware Interruption",
+        "User Account Fabrication",
+        "Database Modification"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The padlock and HTTPS prefix indicate that active data transit encryption is shielding communication from eavesdroppers.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If an intruder intercepts an encrypted database file without the private key, what prevents them from reading the data?",
+      options: [
+        "The system executes a denial of service interruption",
+        "The text remains an undecryptable scrambled cipher",
+        "The file automatically fabricates a new admin user",
+        "The operating system corrupts the original plain text"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Without the appropriate decryption key, encrypted data remains unreadable cipher text that cannot be interpreted.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss4_L1/9. QUIZ update.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which operator expands search results by allowing pages that contain either of two specified terms to appear?",
+      options: [
+        "The OR operator",
+        "The NOT operator",
+        "The AND operator",
+        "The FOR operator"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The OR operator allows the search engine to return web documents that contain either one of the keywords or both of them together.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens if you type the query: \"Lake Volta\" transportation into a search engine?",
+      options: [
+        "The engine ignores Volta and searches only lakes.",
+        "The engine deletes pages with transportation info.",
+        "The engine searches for pages with boats in Asia.",
+        "The engine finds that exact phrase plus transport."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Double quotation marks force the exact phrase Lake Volta to be present, while transportation can appear elsewhere on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why should searchers avoid entering long conversational questions into an internet search engine?",
+      options: [
+        "Conversational text locks the operating system.",
+        "Extra filler words distract from the core topics.",
+        "Long sentences permanently damage tablet memory.",
+        "Internet providers block questions with verbs."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Conversational filler words like \"can you tell me\" add unnecessary terms that reduce the precision of web search engines.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which search technique is most effective when searching for an exact title of a Ghanaian literary novel?",
+      options: [
+        "Capitalizing every single letter in every word.",
+        "Inserting plus signs between every single letter.",
+        "Placing double quotation marks around the title.",
+        "Placing the title inside square angled brackets."
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Enclosing an exact title in quotation marks guarantees that the search engine matches the full phrase in that exact order.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which query best finds information on timber or cocoa export in Ghana while excluding illegal logging?",
+      options: [
+        "(timber OR cocoa) AND Ghana NOT \"illegal logging\"",
+        "timber AND cocoa AND Ghana AND \"illegal logging\"",
+        "timber OR cocoa OR Ghana OR \"illegal logging\" now",
+        "(timber AND cocoa) NOT Ghana OR \"illegal logging\""
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The grouped terms allow either crop, the AND operator includes Ghana, and the NOT operator successfully removes illegal logging.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the main role of parentheses when writing complex internet search queries?",
+      options: [
+        "To hide your personal search history from users.",
+        "To convert regular web text into computer code.",
+        "To speed up the physical broadband connection.",
+        "To group related terms and control search order."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Parentheses group items together, telling the search engine to process the inner condition first before applying other operators.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does the minus sign (-) function when placed immediately before a word with no space?",
+      options: [
+        "It highlights the chosen word in bright yellow.",
+        "It excludes that term from all returned results.",
+        "It translates the chosen term into local Twi.",
+        "It downloads all images related to that topic."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A minus sign attached directly to a word acts as a negation operator, removing any web page containing that word from the results.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is a key benefit of using Boolean operators during academic research on a tablet?",
+      options: [
+        "They make your battery last significantly longer.",
+        "They eliminate the need for an internet service.",
+        "They filter out clutter and save research time.",
+        "They automatically write student project essays."
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Boolean operators refine search parameters, filtering out thousands of irrelevant pages and locating precise information quickly.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A student enters the search: bauxite AND mining AND \"Awaso\". What will the search engine display?",
+      options: [
+        "Pages containing all three of these terms together.",
+        "Only pages that discuss general bauxite minerals.",
+        "Pages about Awaso that never mention any mining.",
+        "All websites created in the Western North Region."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Because the AND operator connects all components, a page must feature bauxite, mining, and the exact term Awaso to be displayed.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following describes the most precise approach to starting a research query on web browsers?",
+      options: [
+        "Entering a single broad word and reading pages.",
+        "Typing a full paragraph copied from a syllabus.",
+        "Asking the browser questions in casual English.",
+        "Identifying specific keywords and checking spelling.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Successful searching begins by identifying the core technical terms of your topic and ensuring every word is spelled correctly.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S3Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s3_ss4_L2/8. QUIZ ios.m4a',
+  questions: [
+    QuizQuestion(
+      question: "1. What is an internet search engine database index?",
+      options: [
+        "A digital library of stored web pages.",
+        "A list of computer hardware prices.",
+        "A program used to print exam papers.",
+        "A physical cable connecting two cities."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A search engine index is a vast database where copies of crawled web pages and their contents are stored for quick retrieval.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which software tool must a student use first to open and display any search engine website?",
+      options: [
+        "An operating system file compiler.",
+        "A spreadsheet table calculator.",
+        "A graphical presentation editor.",
+        "An application called a web browser."
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A web browser is the application program required to connect to the internet and display search engine websites like Google or Bing.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following search engines was originally structured to prioritise natural language question queries?",
+      options: ["Ask.com", "Linux OS", "Ethernet", "Apache"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ask.com was designed specifically to answer queries presented as plain language questions rather than simple keyword lists.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why might a valuable local research article fail to show up in a specific search engine's results?",
+      options: [
+        "The tablet screen brightness is too low.",
+        "The engine spider has not crawled the site.",
+        "The author wrote the essay using a pencil.",
+        "The school computer has a broken mouse pad."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "If a search engine's crawler or spider has not yet visited and indexed a particular web page, that page cannot appear in search results.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When comparing search engines, what rule must you follow to ensure your observation is fair and accurate?",
+      options: [
+        "Use the exact same search query on each.",
+        "Search on completely different weekdays.",
+        "Turn off your internet router between tests.",
+        "Change your user name for every new query."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Entering identical keywords and operators into both search engines ensures that any difference in results comes from the engines themselves.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which search engine is owned and operated by Microsoft as an alternative to Google?",
+      options: ["Safari", "Chrome", "Bing", "Opera"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Bing is Microsoft's web search engine, developed to provide web, image, video, and map searches.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a search engine algorithm decide which websites to show on your screen first?",
+      options: [
+        "By selecting websites that charge money.",
+        "By evaluating relevance to your keywords.",
+        "By choosing files with the shortest names.",
+        "By measuring the age of your web browser."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Algorithms evaluate numerous ranking factors, including keyword placement, content quality, and relevance, to order the results.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What danger arises from relying exclusively on a single search engine for all school research?",
+      options: [
+        "You may get trapped in a narrow bubble.",
+        "Your internet monthly bill will triple.",
+        "Your tablet screen will lock permanently.",
+        "Your web browser will delete your files."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Relying on one search engine exposes you only to that platform's ranking preferences, potentially hiding valuable perspectives.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should you do if your search on Google returns only irrelevant or commercial websites?",
+      options: [
+        "Stop your school research immediately.",
+        "Switch to another engine such as Bing.",
+        "Buy an expensive new laptop computer.",
+        "Delete the web browser from your tablet."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "If one search engine fails to produce useful results, switching to an alternative engine like Bing or Yahoo can yield better findings.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the primary action carried out by a web crawler during an internet traverse?",
+      options: [
+        "It writes examination papers for students.",
+        "It detects broken computer power supplies.",
+        "It repairs cracked liquid crystal screens.",
+        "It discovers and indexes online web pages."
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Web crawlers systematically scan web pages across the internet, collecting text and hyperlinks to build the search engine's index.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following values can be stored inside a Boolean variable?",
+      options: ["False", "24.50", "Ghana", "-1200"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Boolean variables can only store one of two logical states: True or False.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of declaring a value as a constant in a program?",
+      options: [
+        "It speeds up the computer processor.",
+        "It clears temporary cache memory.",
+        "It allows values to change dynamically.",
+        "It prevents values from being altered."
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Constants are explicitly defined so their assigned values remain fixed throughout program execution.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the result of the programming expression 15 + 5 * 2?",
+      options: ["40", "25", "30", "50"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Multiplication precedes addition. Thus, 5 * 2 = 10, and 15 + 10 = 25.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following represents an inequality comparison in programming?",
+      options: ["!=", "==", "->", "**"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The symbol != (or <> in some environments) tests whether two items are not equal.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which logical operator requires only one condition to be true for the whole expression to evaluate to true?",
+      options: ["AND", "NOT", "OR", "XOR"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The OR operator produces True whenever at least one of its conditions evaluates to true.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Consider the following statements: k = 4; followed by k = k * 3;. What is the final value of k?",
+      options: ["7", "1", "4", "12"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The expression on the right multiplies the current value (4) by 3 to get 12, which is then stored back into k.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What type of data is represented by the value \"Junior High School\"?",
+      options: ["A String", "An Integer", "A Float", "A Boolean"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Any sequence of characters enclosed within quotation marks is classified as a string data type.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where are active program variables temporarily stored during program execution?",
+      options: [
+        "Optical DVD drive",
+        "Secondary flash disk",
+        "Random access memory",
+        "Read only memory chip"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Variables reside in the computer's volatile main memory (RAM) while instructions are actively being run.",
+    ),
+    QuizQuestion(
+      question: "9. What will the expression (12 / 3) + (2 * 4) evaluate to?",
+      options: ["20", "14", "16", "12"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Brackets are evaluated first: 12 / 3 = 4 and 2 * 4 = 8. Adding them together gives 4 + 8 = 12.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If score = 15, what does the comparison expression score >= 20 evaluate to?",
+      options: ["20", "15", "True", "False"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Since 15 is not greater than or equal to 20, the comparison evaluates to False.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L2/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What shape are comparison blocks in Scratch programming to show they output true or false values?",
+      options: [
+        "Circular badge",
+        "Rectangular box",
+        "Hexagonal shape",
+        "Triangular wedge"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Comparison blocks feature pointed hexagonal borders indicating they hold Boolean values for conditional slots.",
+    ),
+    QuizQuestion(
+      question:
+          "2. If mark = 72, what does the comparison expression mark == 72 evaluate to?",
+      options: ["72", "False", "True", "0"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The double equals sign checks equality; since mark equals 72, the comparison is True.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Consider the expression (10 < 5) AND (20 > 15). What is the final evaluated result?",
+      options: ["True", "False", "10", "15"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The first condition (10 < 5) is false. Because an AND operator requires both sides to be true, the entire expression evaluates to False.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which symbol or operator is commonly used in programming to check if two values are not equal?",
+      options: ["==", "!=", "=>", "&&"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The inequality operator != tests whether two values differ from each other.",
+    ),
+    QuizQuestion(
+      question:
+          "5. If temperature = 35, what does the expression (temperature > 30) OR (temperature < 20) evaluate to?",
+      options: ["False", "35", "True", "30"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The first condition (35 > 30) is true. Since it is an OR operation, meeting one condition is enough to make the whole expression True.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What does the NOT logical operator do when placed before a condition that evaluates to False?",
+      options: [
+        "It leaves it as False.",
+        "It converts it to True.",
+        "It causes a syntax error.",
+        "It resets the variable value."
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The NOT operator inverts whatever Boolean value follows it, turning False into True.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following expressions will evaluate to True when a variable score is exactly equal to 100?",
+      options: ["score < 100", "score != 100", "score >= 100", "score > 100"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The operator >= means greater than or equal to, which matches an exact value of 100.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why are logical operators essential when designing complex interactive software games or apps?",
+      options: [
+        "They make background music play louder.",
+        "They allow programs to test multiple criteria before making decisions.",
+        "They compress image file sizes.",
+        "They replace the need for variables."
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Logical operators combine multiple checks so software can respond intelligently to complex user inputs and game states.",
+    ),
+    QuizQuestion(
+      question: "9. Evaluate the following compound expression: NOT (10 > 5).",
+      options: ["True", "10", "5", "False"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The inner expression 10 > 5 is True. Applying NOT inverts it, resulting in False.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Suppose an amusement park ride requires a visitor's height to be greater than 120 cm AND their age to be at least 12 years. Which logical operator connects these two checks?",
+      options: ["OR", "AND", "NOT", "DIV"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Because both height and age requirements must be met simultaneously, the AND operator must be used.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L3/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of tracing an algorithm during software development?",
+      options: [
+        "To increase screen brightness",
+        "To manually check variable changes and logic step by step",
+        "To compress image files",
+        "To format computer hardware disks"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tracing allows programmers to follow execution flow and verify that variables hold expected values at every line.",
+    ),
+    QuizQuestion(
+      question: "2. Evaluate the programming expression: 5 + 3 * 2.",
+      options: ["16", "13", "11", "10"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Multiplication precedes addition. Thus, 3 * 2 = 6, and 5 + 6 = 11.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What will be the final value of val after executing val = (10 - 4) + (2 * 3)?",
+      options: ["12", "18", "10", "16"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Evaluate both sets of brackets first: (10 - 4) = 6 and (2 * 3) = 6. Then add them together: 6 + 6 = 12.",
+    ),
+    QuizQuestion(
+      question: "4. Which of the following expressions evaluates to 20?",
+      options: ["5 + 5 * 3", "(5 + 5) * 2", "10 - 2 * 4", "20 / 2 + 5 * 2"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Brackets force 5 + 5 = 10, and multiplying by 2 gives 20.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In programming, how are multiple addition and subtraction operations evaluated when no brackets are present?",
+      options: [
+        "Right to left",
+        "Left to right",
+        "Highest number first",
+        "Lowest number first"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Addition and subtraction operators share equal precedence and are evaluated sequentially from left to right.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Consider the following statements: x = 2; x = x + 3; x = x * 2;. What is the final value of x?",
+      options: ["7", "10", "5", "12"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "First x becomes 2. Then x + 3 makes x equal to 5. Finally, 5 * 2 updates x to 10.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why does the expression 12 / 4 * 3 evaluate to 9 rather than 1?",
+      options: [
+        "Division and multiplication have equal precedence, so they are evaluated left to right (12 / 4 = 3, then 3 * 3 = 9).",
+        "Multiplication always happens before division.",
+        "Addition is performed implicitly.",
+        "The computer rounds up all fractions."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Multiplication and division operators are evaluated from left to right, meaning 12 / 4 is processed before multiplying by 3.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the result of evaluating NOT (5 == 5) AND (10 > 2)?",
+      options: ["True", "10", "False", "5"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The inner expression 5 == 5 is True, which NOT inverts to False. Because the left side of the AND is False, the entire expression evaluates to False.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If p = 8 and q = 4, what does the expression (p + q) / (p - q) evaluate to?",
+      options: ["2", "3", "4", "1"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Brackets evaluate first: 8 + 4 = 12 and 8 - 4 = 4. Then 12 / 4 = 3.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What error occurs if a programmer forgets to close a parenthesis in a mathematical expression within code?",
+      options: [
+        "A syntax error because the expression structure is incomplete.",
+        "The computer automatically deletes the variable.",
+        "The program runs twice as fast.",
+        "The background color changes."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Unmatched brackets violate programming language syntax rules, preventing the code from compiling or running.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where is Scratch developed and maintained as a free educational programming environment?",
+      options: [
+        "Massachusetts Institute of Technology",
+        "Stanford University",
+        "Oxford University",
+        "University of Ghana"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Scratch is a block-based programming environment created by MIT.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What happens when you select \"For all sprites\" when creating a variable in Scratch?",
+      options: [
+        "The variable becomes accessible globally across all scripts and sprites in the project.",
+        "The variable is permanently deleted.",
+        "The variable converts into a string data type.",
+        "The computer shuts down."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Global scope allows any sprite or backdrop in the project to read and modify the variable.",
+    ),
+    QuizQuestion(
+      question:
+          "3. If a variable named score holds 20, what will its value be after executing change score by 10?",
+      options: ["10", "20", "30", "200"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The change block adds the specified amount to the current value: 20 + 10 = 30.",
+    ),
+    QuizQuestion(
+      question: "4. Why should variable names avoid containing blank spaces?",
+      options: [
+        "Blank spaces increase audio narration speed.",
+        "Blank spaces cause syntax errors because code parsers interpret them as word separators.",
+        "Blank spaces turn variables into constants.",
+        "Blank spaces clear the RAM cache."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Programming languages require continuous identifier names to parse statements correctly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which block execution replaces an old variable value entirely with a new one?",
+      options: [
+        "set [variable] to [value]",
+        "change [variable] by [value]",
+        "repeat [10]",
+        "wait [1] secs"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The set assignment block overwrites existing memory data with the specified value.",
+    ),
+    QuizQuestion(
+      question: "6. What is the primary function of sprites in Scratch?",
+      options: [
+        "They serve as interactive characters or graphical objects on the stage.",
+        "They compile text code into machine language.",
+        "They measure computer processor temperature.",
+        "They format external USB drives."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Sprites are the visual objects programmed to move, speak, and interact on the Scratch screen.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If a variable is set to \"For this sprite only\", who can access it?",
+      options: [
+        "Every sprite in the project",
+        "Only the specific sprite for which it was created",
+        "Only the web browser background",
+        "External cloud servers"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Local scoping restricts variable visibility solely to the parent sprite.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Consider the following block sequence: set items to 5; change items by 3; change items to items - 2;. What is the final value of items?",
+      options: ["6", "8", "3", "5"],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Initial value is 5. Adding 3 makes it 8. Setting it to 8 - 2 results in 6.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following is an example of a well-formatted variable name adhering to programming conventions?",
+      options: ["student score", "studentScore", "1stScore", "SCORE HERE"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using camel case (studentScore) avoids invalid spaces while keeping names descriptive.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why are variables crucial when designing interactive quiz games in Scratch?",
+      options: [
+        "They allow the game to store, track, and update changing player scores and states.",
+        "They make background music play continuously.",
+        "They compress image file sizes for faster loading.",
+        "They replace all comparison operators."
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Variables provide temporary memory storage needed to keep track of dynamic game data.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [
@@ -1223,7 +14863,8 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/english/english jhs1 s2 ss1 l4/7. quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. Which of these sentences represents a pure statement of fact?",
+        question:
+            "1. Which of these sentences represents a pure statement of fact?",
         options: [
           "High school education should focus only on science.",
           "The capital city of the Greater Accra Region is Accra.",
@@ -1232,9 +14873,8 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The location of the capital is a geographic fact that can be verified."
-    ),
-
+        explanation:
+            "The location of the capital is a geographic fact that can be verified."),
     QuizQuestion(
         question: "2. An opinion is best defined as:",
         options: [
@@ -1245,11 +14885,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Opinions are subjective and express individual attitudes."
-    ),
-
+        explanation:
+            "Opinions are subjective and express individual attitudes."),
     QuizQuestion(
-        question: "3. Read this paragraph: \"The government built a new clinic in the district. This wonderful project will automatically solve every health issue we face.\" What does the word \"wonderful\" signal to the reader?",
+        question:
+            "3. Read this paragraph: \"The government built a new clinic in the district. This wonderful project will automatically solve every health issue we face.\" What does the word \"wonderful\" signal to the reader?",
         options: [
           "A neutral, unbiased fact.",
           "The author's positive attitude and personal opinion.",
@@ -1258,11 +14898,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Descriptive words like \"wonderful\" reveal emotional evaluation and subjective attitude."
-    ),
-
+        explanation:
+            "Descriptive words like \"wonderful\" reveal emotional evaluation and subjective attitude."),
     QuizQuestion(
-        question: "4. Why is it important to research or identify an author's bias in an article?",
+        question:
+            "4. Why is it important to research or identify an author's bias in an article?",
         options: [
           "To check if the text has any typographical features.",
           "To find out how many pages the author wrote.",
@@ -1271,11 +14911,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Recognizing bias helps a reader assess the fairness and balance of non-fiction texts."
-    ),
-
+        explanation:
+            "Recognizing bias helps a reader assess the fairness and balance of non-fiction texts."),
     QuizQuestion(
-        question: "5. What does it mean to give a \"personal response\" to a non-literary text?",
+        question:
+            "5. What does it mean to give a \"personal response\" to a non-literary text?",
         options: [
           "Copying the entire text down by hand into your notebook.",
           "Expressing your own critical thoughts and perspectives on the reading.",
@@ -1284,11 +14924,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "A personal response is the reader's active, critical engagement with the text's arguments."
-    ),
-
+        explanation:
+            "A personal response is the reader's active, critical engagement with the text's arguments."),
     QuizQuestion(
-        question: "6. If you state that an author supports renewable energy, which of the following acts as the best textual evidence?",
+        question:
+            "6. If you state that an author supports renewable energy, which of the following acts as the best textual evidence?",
         options: [
           "Pointing out that the text is printed in italics.",
           "Explaining that the article has three main paragraphs.",
@@ -1297,11 +14937,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "High",
-        explanation: "Direct quotes that match the claim provide direct textual evidence."
-    ),
-
+        explanation:
+            "Direct quotes that match the claim provide direct textual evidence."),
     QuizQuestion(
-        question: "7. A text that presents an interview with a doctor, a patient, and a pharmaceutical manufacturer is showing:",
+        question:
+            "7. A text that presents an interview with a doctor, a patient, and a pharmaceutical manufacturer is showing:",
         options: [
           "A lack of structural pattern.",
           "Different viewpoints on a health topic.",
@@ -1310,11 +14950,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Including multiple roles provides diverse viewpoints on the central issue."
-    ),
-
+        explanation:
+            "Including multiple roles provides diverse viewpoints on the central issue."),
     QuizQuestion(
-        question: "8. Which phrase contains a clear indicator of a writer's bias or opinion?",
+        question:
+            "8. Which phrase contains a clear indicator of a writer's bias or opinion?",
         options: [
           "\"According to the national census data...\"",
           "\"The construction project started in May...\"",
@@ -1323,11 +14963,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "\"In my view\" and \"completely useless\" explicitly signal subjective opinion."
-    ),
-
+        explanation:
+            "\"In my view\" and \"completely useless\" explicitly signal subjective opinion."),
     QuizQuestion(
-        question: "9. How does an author's choice of words contribute to the meaning of a non-fiction text?",
+        question:
+            "9. How does an author's choice of words contribute to the meaning of a non-fiction text?",
         options: [
           "It only changes the typographical layout of the page.",
           "It sets the tone, reveals their intentions, and displays their underlying attitude.",
@@ -1336,11 +14976,11 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Word choice transmits the author's emotional stance and perspective to the reader."
-    ),
-
+        explanation:
+            "Word choice transmits the author's emotional stance and perspective to the reader."),
     QuizQuestion(
-        question: "10. If you read an article where the writer states facts but uses an angry tone, what should a skilled Reading Detective do?",
+        question:
+            "10. If you read an article where the writer states facts but uses an angry tone, what should a skilled Reading Detective do?",
         options: [
           "Stop reading the text immediately.",
           "Separate the factual information from the angry opinions and biases.",
@@ -1349,8 +14989,8 @@ final QuizModel s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Balanced critical reading means pulling apart objective facts from emotional delivery."
-    ),
+        explanation:
+            "Balanced critical reading means pulling apart objective facts from emotional delivery."),
   ],
 );
 final QuizModel s2ss2Lesson1QuizData = QuizModel(
@@ -4207,24 +17847,19 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Personal narratives focus on real, past personal events."
-    ),
-
+        explanation:
+            "Personal narratives focus on real, past personal events."),
     QuizQuestion(
-        question: "2. Which pronoun are you most likely to see in a first-person narrative?",
-        options: [
-          "He",
-          "They",
-          "I",
-          "She"
-        ],
+        question:
+            "2. Which pronoun are you most likely to see in a first-person narrative?",
+        options: ["He", "They", "I", "She"],
         correctIndex: 2,
         difficulty: "Easy",
-        explanation: "First-person narratives use 'I' to tell the speaker's own story."
-    ),
-
+        explanation:
+            "First-person narratives use 'I' to tell the speaker's own story."),
     QuizQuestion(
-        question: "3. \"The hot, spicy aroma of fresh jollof rice drifted across the yard.\" This sentence appeals to which senses?",
+        question:
+            "3. \"The hot, spicy aroma of fresh jollof rice drifted across the yard.\" This sentence appeals to which senses?",
         options: [
           "Touch and Sight",
           "Sound and Taste",
@@ -4233,24 +17868,19 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "\"Aroma\" appeals to smell, and \"spicy\" implies taste."
-    ),
-
+        explanation:
+            "\"Aroma\" appeals to smell, and \"spicy\" implies taste."),
     QuizQuestion(
-        question: "4. Which word is a precise verb describing how an action was carried out?",
-        options: [
-          "Did",
-          "Whispered",
-          "Went",
-          "Got"
-        ],
+        question:
+            "4. Which word is a precise verb describing how an action was carried out?",
+        options: ["Did", "Whispered", "Went", "Got"],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Whispered\" is a highly precise way of describing speaking quietly."
-    ),
-
+        explanation:
+            "\"Whispered\" is a highly precise way of describing speaking quietly."),
     QuizQuestion(
-        question: "5. Why are connectors of sequence vital in a personal narrative?",
+        question:
+            "5. Why are connectors of sequence vital in a personal narrative?",
         options: [
           "They make the sentences longer.",
           "They maintain a logical, chronological flow of events for the reader.",
@@ -4259,11 +17889,10 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Connectors guide the timeline of the story smoothly."
-    ),
-
+        explanation: "Connectors guide the timeline of the story smoothly."),
     QuizQuestion(
-        question: "6. In the phrase \"the old school building behind the tall church steeple,\" the bolded text is:",
+        question:
+            "6. In the phrase \"the old school building behind the tall church steeple,\" the bolded text is:",
         options: [
           "A first-person pronoun.",
           "A precise technical verb.",
@@ -4272,9 +17901,8 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "It uses the preposition 'behind' to clarify the location."
-    ),
-
+        explanation:
+            "It uses the preposition 'behind' to clarify the location."),
     QuizQuestion(
         question: "7. What should a writer do during the proofreading step?",
         options: [
@@ -4285,9 +17913,8 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Easy",
-        explanation: "Proofreading focuses on mechanical accuracy and self-correction."
-    ),
-
+        explanation:
+            "Proofreading focuses on mechanical accuracy and self-correction."),
     QuizQuestion(
         question: "8. Which sentence creates the most vivid mental picture?",
         options: [
@@ -4298,11 +17925,11 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Hard",
-        explanation: "It uses specific nouns, active verbs, and rich sensory details."
-    ),
-
+        explanation:
+            "It uses specific nouns, active verbs, and rich sensory details."),
     QuizQuestion(
-        question: "9. If a narrative passage makes the reader feel deep excitement or suspense, it has succeeded in creating an effective:",
+        question:
+            "9. If a narrative passage makes the reader feel deep excitement or suspense, it has succeeded in creating an effective:",
         options: [
           "Technical layout.",
           "Audience reaction or emotional effect.",
@@ -4311,11 +17938,11 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Hard",
-        explanation: "Good narratives aim to evoke a targeted emotional reaction from the audience."
-    ),
-
+        explanation:
+            "Good narratives aim to evoke a targeted emotional reaction from the audience."),
     QuizQuestion(
-        question: "10. Which phrase is an example of an adjective phrase producing a vivid description?",
+        question:
+            "10. Which phrase is an example of an adjective phrase producing a vivid description?",
         options: [
           "Running very quickly",
           "Over the moon",
@@ -4324,13 +17951,12 @@ final QuizModel s4ss2Lesson0QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Hard",
-        explanation: "\"Shimmering, ice-cold\" functions as a rich adjective phrase describing the noun."
-    ),
+        explanation:
+            "\"Shimmering, ice-cold\" functions as a rich adjective phrase describing the noun."),
   ],
 );
 final QuizModel s4ss2Lesson1QuizData = QuizModel(
-  audioPath:
-      'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/7. quiz.m4a',
+  audioPath: 'assets/audio/english/ENGLISH JHS1 S4 SS2 L1/7. quiz.m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the primary purpose of an advertisement?",
@@ -7211,9 +20837,8 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Visualisation transforms descriptive text into cognitive mental images."
-    ),
-
+        explanation:
+            "Visualisation transforms descriptive text into cognitive mental images."),
     QuizQuestion(
         question: "2. When monitoring a text, what should you look for first?",
         options: [
@@ -7224,11 +20849,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Comprehension builds from basic facts up to complex concepts."
-    ),
-
+        explanation:
+            "Comprehension builds from basic facts up to complex concepts."),
     QuizQuestion(
-        question: "3. Which sentence contains the most descriptive words to help you form a mental picture?",
+        question:
+            "3. Which sentence contains the most descriptive words to help you form a mental picture?",
         options: [
           "The agriculture sector is very important.",
           "Farmers grow crops in many districts.",
@@ -7237,11 +20862,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Adjectives like golden-yellow, ripe, and high pyramids trigger sensory imagery."
-    ),
-
+        explanation:
+            "Adjectives like golden-yellow, ripe, and high pyramids trigger sensory imagery."),
     QuizQuestion(
-        question: "4. If a text introduces a complex scientific process, a master reader will:",
+        question:
+            "4. If a text introduces a complex scientific process, a master reader will:",
         options: [
           "Skip the paragraph entirely.",
           "Ensure they understand the basic terms before analyzing the detailed steps.",
@@ -7250,11 +20875,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Monitoring means managing cognitive load by step-by-step understanding."
-    ),
-
+        explanation:
+            "Monitoring means managing cognitive load by step-by-step understanding."),
     QuizQuestion(
-        question: "5. A text states: \"The Kejetia market was a sea of moving heads, bright umbrellas, and loud arguments.\" What is the main idea being added to the text's meaning?",
+        question:
+            "5. A text states: \"The Kejetia market was a sea of moving heads, bright umbrellas, and loud arguments.\" What is the main idea being added to the text's meaning?",
         options: [
           "The market is located in Kumasi.",
           "The market was incredibly crowded, vibrant, and busy.",
@@ -7263,9 +20888,8 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "The visual metaphors add up to a meaning of high density and activity."
-    ),
-
+        explanation:
+            "The visual metaphors add up to a meaning of high density and activity."),
     QuizQuestion(
         question: "6. What does \"meaningful interaction with text\" mean?",
         options: [
@@ -7276,24 +20900,18 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Active engagement prevents passive reading and boosts recall."
-    ),
-
+        explanation:
+            "Active engagement prevents passive reading and boosts recall."),
     QuizQuestion(
-        question: "7. You read: \"The dry Harmattan wind blew fine, white dust across the savannah, making everyone's skin dry and itchy.\" Which sense is targeted by \"dry and itchy skin\"?",
-        options: [
-          "Sight",
-          "Touch/Feeling",
-          "Hearing",
-          "Taste"
-        ],
+        question:
+            "7. You read: \"The dry Harmattan wind blew fine, white dust across the savannah, making everyone's skin dry and itchy.\" Which sense is targeted by \"dry and itchy skin\"?",
+        options: ["Sight", "Touch/Feeling", "Hearing", "Taste"],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Itchy skin is a tactile, physical sensation."
-    ),
-
+        explanation: "Itchy skin is a tactile, physical sensation."),
     QuizQuestion(
-        question: "8. When moving from basic to complex information, complex information usually explains:",
+        question:
+            "8. When moving from basic to complex information, complex information usually explains:",
         options: [
           "The font style used in the book.",
           "The 'how' and 'why' behind the basic facts.",
@@ -7302,11 +20920,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Complex information deepens understanding by adding mechanics, causes, and structures."
-    ),
-
+        explanation:
+            "Complex information deepens understanding by adding mechanics, causes, and structures."),
     QuizQuestion(
-        question: "9. If your mental movie of a text becomes confused or blank, this is a sign that:",
+        question:
+            "9. If your mental movie of a text becomes confused or blank, this is a sign that:",
         options: [
           "Your iPad is broken.",
           "You need to pause, monitor your understanding, and re-read the last clear section.",
@@ -7315,11 +20933,11 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "A broken mental image indicates a breakdown in comprehension that requires remediation."
-    ),
-
+        explanation:
+            "A broken mental image indicates a breakdown in comprehension that requires remediation."),
     QuizQuestion(
-        question: "10. How do underlined main ideas \"add to meaning\" in a non-fiction text?",
+        question:
+            "10. How do underlined main ideas \"add to meaning\" in a non-fiction text?",
         options: [
           "They make the summary much longer than necessary.",
           "They show the logical connection between the different steps or points in the text.",
@@ -7328,8 +20946,8 @@ final QuizModel jhs2s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Underlining main ideas exposes the structural framework of the text's argument."
-    ),
+        explanation:
+            "Underlining main ideas exposes the structural framework of the text's argument."),
   ],
 );
 final QuizModel jhs2s2ss1Lesson2QuizData = QuizModel(
@@ -8607,9 +22225,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The central idea represents the core focus of the writing."
-    ),
-
+        explanation:
+            "The central idea represents the core focus of the writing."),
     QuizQuestion(
         question: "2. When writing a summary, you must eliminate:",
         options: [
@@ -8620,9 +22237,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Summaries filter out decorative text to present only the key points."
-    ),
-
+        explanation:
+            "Summaries filter out decorative text to present only the key points."),
     QuizQuestion(
         question: "3. Stating details \"in your own words\" means you:",
         options: [
@@ -8633,11 +22249,10 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Paraphrasing demonstrates processing and comprehension."
-    ),
-
+        explanation: "Paraphrasing demonstrates processing and comprehension."),
     QuizQuestion(
-        question: "4. \"Kofi woke up early, washed his uniform, polished his shoes, packed his notebooks, and walked quickly to school.\" What is the central idea?",
+        question:
+            "4. \"Kofi woke up early, washed his uniform, polished his shoes, packed his notebooks, and walked quickly to school.\" What is the central idea?",
         options: [
           "Kofi washed his uniform carefully.",
           "Kofi prepared himself and went to school.",
@@ -8646,9 +22261,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Going to school is the primary action that connects all the preparatory tasks."
-    ),
-
+        explanation:
+            "Going to school is the primary action that connects all the preparatory tasks."),
     QuizQuestion(
         question: "5. An objective summary should never include:",
         options: [
@@ -8659,11 +22273,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Objective summaries must remain completely neutral and factual."
-    ),
-
+        explanation:
+            "Objective summaries must remain completely neutral and factual."),
     QuizQuestion(
-        question: "6. Which of the following is considered \"unnecessary information\" in a text about cocoa production?",
+        question:
+            "6. Which of the following is considered \"unnecessary information\" in a text about cocoa production?",
         options: [
           "The total tons of cocoa exported annually.",
           "A story about a specific farmer's dog named Bobby.",
@@ -8672,11 +22286,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "A personal story about a pet is an anecdotal detail that does not change the core topic."
-    ),
-
+        explanation:
+            "A personal story about a pet is an anecdotal detail that does not change the core topic."),
     QuizQuestion(
-        question: "7. Where is the central idea of a paragraph most frequently located?",
+        question:
+            "7. Where is the central idea of a paragraph most frequently located?",
         options: [
           "In the glossary at the back.",
           "In a footnote at the bottom.",
@@ -8685,11 +22299,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "Topic sentences serve to introduce the main thought of the paragraph."
-    ),
-
+        explanation:
+            "Topic sentences serve to introduce the main thought of the paragraph."),
     QuizQuestion(
-        question: "8. Read this sentence: \"The market women protect their fresh vegetables from the blazing afternoon sun by using large umbrellas.\" Summarize this in your own words.",
+        question:
+            "8. Read this sentence: \"The market women protect their fresh vegetables from the blazing afternoon sun by using large umbrellas.\" Summarize this in your own words.",
         options: [
           "Umbrellas are sold in large numbers at the market.",
           "Traders shield their produce from solar heat.",
@@ -8698,11 +22312,11 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "This accurately preserves the meaning while replacing vocabulary appropriately."
-    ),
-
+        explanation:
+            "This accurately preserves the meaning while replacing vocabulary appropriately."),
     QuizQuestion(
-        question: "9. If a summary is just as long as the original passage, what went wrong?",
+        question:
+            "9. If a summary is just as long as the original passage, what went wrong?",
         options: [
           "The student forgot to eliminate unnecessary details.",
           "The student used too many synonyms.",
@@ -8711,9 +22325,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Failure to filter out non-essential information keeps the text at its original length."
-    ),
-
+        explanation:
+            "Failure to filter out non-essential information keeps the text at its original length."),
     QuizQuestion(
         question: "10. Analyzing supporting ideas helps you to:",
         options: [
@@ -8724,8 +22337,8 @@ final QuizModel jhs2s2ss1Lesson12QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Supporting ideas act as the structural pillars for the central thesis."
-    ),
+        explanation:
+            "Supporting ideas act as the structural pillars for the central thesis."),
   ],
 );
 
@@ -8733,20 +22346,16 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L1/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What is the correct plural form of the closed compound noun \"sunflower\"?",
-        options: [
-          "sunflowers",
-          "sunflower",
-          "sunsflowers",
-          "sunfloweres"
-        ],
+        question:
+            "1. What is the correct plural form of the closed compound noun \"sunflower\"?",
+        options: ["sunflowers", "sunflower", "sunsflowers", "sunfloweres"],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "Closed compounds take the plural ending at the very end of the word."
-    ),
-
+        explanation:
+            "Closed compounds take the plural ending at the very end of the word."),
     QuizQuestion(
-        question: "2. Identify the correct plural form: \"The office hired two new ________.\"",
+        question:
+            "2. Identify the correct plural form: \"The office hired two new ________.\"",
         options: [
           "data analysts",
           "datas analyst",
@@ -8755,11 +22364,11 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "\"Analyst\" is the principal noun, so it receives the plural suffix."
-    ),
-
+        explanation:
+            "\"Analyst\" is the principal noun, so it receives the plural suffix."),
     QuizQuestion(
-        question: "3. Choose the sentence that contains a grammatically correct plural hyphenated noun.",
+        question:
+            "3. Choose the sentence that contains a grammatically correct plural hyphenated noun.",
         options: [
           "We watched the beautiful sunsets-by the beach.",
           "The commanders-in-chief held an emergency meeting.",
@@ -8768,9 +22377,8 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "\"Commander\" is the principal noun, so it correctly becomes \"commanders-in-chief\"."
-    ),
-
+        explanation:
+            "\"Commander\" is the principal noun, so it correctly becomes \"commanders-in-chief\"."),
     QuizQuestion(
         question: "4. What is the plural form of \"post office\"?",
         options: [
@@ -8781,37 +22389,27 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "\"Office\" is the main noun being described, so it takes the plural \"-s.\""
-    ),
-
+        explanation:
+            "\"Office\" is the main noun being described, so it takes the plural \"-s.\""),
     QuizQuestion(
-        question: "5. \"The compound was filled with dead ________.\" Fill in the blank.",
-        options: [
-          "rose-bushes",
-          "roses-bush",
-          "rose-bush",
-          "roses-bushes"
-        ],
+        question:
+            "5. \"The compound was filled with dead ________.\" Fill in the blank.",
+        options: ["rose-bushes", "roses-bush", "rose-bush", "roses-bushes"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "\"Bush\" is the principal noun, which takes \"-es\" to form the plural \"bushes.\""
-    ),
-
+        explanation:
+            "\"Bush\" is the principal noun, which takes \"-es\" to form the plural \"bushes.\""),
     QuizQuestion(
-        question: "6. Select the correct plural form for the word \"looker-on\".",
-        options: [
-          "looker-ons",
-          "lookers-on",
-          "lookers-ons",
-          "looker-ones"
-        ],
+        question:
+            "6. Select the correct plural form for the word \"looker-on\".",
+        options: ["looker-ons", "lookers-on", "lookers-ons", "looker-ones"],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "\"Looker\" is the noun performing the action, so it becomes \"lookers-on.\""
-    ),
-
+        explanation:
+            "\"Looker\" is the noun performing the action, so it becomes \"lookers-on.\""),
     QuizQuestion(
-        question: "7. \"All our ________ are clean and ready for the journey.\"",
+        question:
+            "7. \"All our ________ are clean and ready for the journey.\"",
         options: [
           "travel bags",
           "travels bag",
@@ -8820,24 +22418,19 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "\"Bag\" is the main item, making \"travel bags\" correct."
-    ),
-
+        explanation:
+            "\"Bag\" is the main item, making \"travel bags\" correct."),
     QuizQuestion(
-        question: "8. Which of these is the correct plural spelling for \"blackboard\"?",
-        options: [
-          "blackboards",
-          "blacksboard",
-          "blackboardes",
-          "blacksboards"
-        ],
+        question:
+            "8. Which of these is the correct plural spelling for \"blackboard\"?",
+        options: ["blackboards", "blacksboard", "blackboardes", "blacksboards"],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "As a solid compound noun, the plural suffix goes at the end."
-    ),
-
+        explanation:
+            "As a solid compound noun, the plural suffix goes at the end."),
     QuizQuestion(
-        question: "9. \"We need to invite all the ________ to the family meeting.\"",
+        question:
+            "9. \"We need to invite all the ________ to the family meeting.\"",
         options: [
           "sister-in-laws",
           "sisters-in-law",
@@ -8846,80 +22439,52 @@ final QuizModel jhs2s3ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Sister\" is the primary noun that must be pluralised."
-    ),
-
+        explanation: "\"Sister\" is the primary noun that must be pluralised."),
     QuizQuestion(
-        question: "10. What is the plural form of the open compound \"ice cream\"?",
-        options: [
-          "ices cream",
-          "ice creams",
-          "ices creams",
-          "ice creames"
-        ],
+        question:
+            "10. What is the plural form of the open compound \"ice cream\"?",
+        options: ["ices cream", "ice creams", "ices creams", "ice creames"],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Cream\" is the principal word modified by \"ice,\" so it takes the plural ending."
-    ),
+        explanation:
+            "\"Cream\" is the principal word modified by \"ice,\" so it takes the plural ending."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L2/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. \"The woman ________ sells the sweet waakye is very friendly.\"",
-        options: [
-          "which",
-          "whose",
-          "who",
-          "that"
-        ],
+        question:
+            "1. \"The woman ________ sells the sweet waakye is very friendly.\"",
+        options: ["which", "whose", "who", "that"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "The clause describes a human subject, so who is correct."
-    ),
-
+        explanation:
+            "The clause describes a human subject, so who is correct."),
     QuizQuestion(
-        question: "2. \"The house ________ roof was destroyed by the storm belongs to the chief.\"",
-        options: [
-          "whose",
-          "who",
-          "which",
-          "that"
-        ],
+        question:
+            "2. \"The house ________ roof was destroyed by the storm belongs to the chief.\"",
+        options: ["whose", "who", "which", "that"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Whose indicates the house's possession of the roof."
-    ),
-
+        explanation: "Whose indicates the house's possession of the roof."),
     QuizQuestion(
-        question: "3. Which pronoun correctly completes this sentence: \"The pen ________ you lent me writes smoothly\"?",
-        options: [
-          "who",
-          "whom",
-          "whose",
-          "which"
-        ],
+        question:
+            "3. Which pronoun correctly completes this sentence: \"The pen ________ you lent me writes smoothly\"?",
+        options: ["who", "whom", "whose", "which"],
         correctIndex: 3,
         difficulty: "Low",
-        explanation: "A pen is an object, so it requires which."
-    ),
-
+        explanation: "A pen is an object, so it requires which."),
     QuizQuestion(
-        question: "4. \"The children ________ came to the party played many games.\"",
-        options: [
-          "which",
-          "who",
-          "whose",
-          "whom"
-        ],
+        question:
+            "4. \"The children ________ came to the party played many games.\"",
+        options: ["which", "who", "whose", "whom"],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Who is used for human plural subjects like children."
-    ),
-
+        explanation: "Who is used for human plural subjects like children."),
     QuizQuestion(
-        question: "5. Identify the correct sentence that joins: \"The phone is expensive. It is on the table.\"",
+        question:
+            "5. Identify the correct sentence that joins: \"The phone is expensive. It is on the table.\"",
         options: [
           "The phone who is on the table is expensive.",
           "The phone that is on the table is expensive.",
@@ -8928,63 +22493,42 @@ final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "That correctly introduces the clause for the non-human object."
-    ),
-
+        explanation:
+            "That correctly introduces the clause for the non-human object."),
     QuizQuestion(
-        question: "6. \"The fisherman ________ boat capsized was saved by the villagers.\"",
-        options: [
-          "who",
-          "that",
-          "whose",
-          "which"
-        ],
+        question:
+            "6. \"The fisherman ________ boat capsized was saved by the villagers.\"",
+        options: ["who", "that", "whose", "which"],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The boat belonged to the fisherman, requiring the possessive whose."
-    ),
-
+        explanation:
+            "The boat belonged to the fisherman, requiring the possessive whose."),
     QuizQuestion(
-        question: "7. \"I saw the elephant ________ escaped from the Mole National Park.\"",
-        options: [
-          "who",
-          "whom",
-          "which",
-          "whose"
-        ],
+        question:
+            "7. \"I saw the elephant ________ escaped from the Mole National Park.\"",
+        options: ["who", "whom", "which", "whose"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "Animals are categorized as non-human entities, requiring which."
-    ),
-
+        explanation:
+            "Animals are categorized as non-human entities, requiring which."),
     QuizQuestion(
-        question: "8. \"The uniform ________ I wore yesterday is now in the washing machine.\"",
-        options: [
-          "that",
-          "who",
-          "whom",
-          "whose"
-        ],
+        question:
+            "8. \"The uniform ________ I wore yesterday is now in the washing machine.\"",
+        options: ["that", "who", "whom", "whose"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "That is appropriate for an item of clothing."
-    ),
-
+        explanation: "That is appropriate for an item of clothing."),
     QuizQuestion(
-        question: "9. \"The driver ________ the police stopped was driving too fast.\"",
-        options: [
-          "which",
-          "whom",
-          "whose",
-          "that"
-        ],
+        question:
+            "9. \"The driver ________ the police stopped was driving too fast.\"",
+        options: ["which", "whom", "whose", "that"],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "The driver is the object receiving the action of the police stopping them, making whom correct."
-    ),
-
+        explanation:
+            "The driver is the object receiving the action of the police stopping them, making whom correct."),
     QuizQuestion(
-        question: "10. Find the correct way to join: \"We love stories. They have happy endings.\"",
+        question:
+            "10. Find the correct way to join: \"We love stories. They have happy endings.\"",
         options: [
           "We love stories who have happy endings.",
           "We love stories whom have happy endings.",
@@ -8993,8 +22537,8 @@ final QuizModel jhs2s3ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 3,
         difficulty: "High",
-        explanation: "Stories are non-human concepts, so that joins the independent thoughts properly."
-    ),
+        explanation:
+            "Stories are non-human concepts, so that joins the independent thoughts properly."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
@@ -9002,45 +22546,30 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
   questions: [
     QuizQuestion(
         question: "1. Which adjective best describes a serene setting?",
-        options: [
-          "Bustling",
-          "Peaceful",
-          "Industrial",
-          "Rowdy"
-        ],
+        options: ["Bustling", "Peaceful", "Industrial", "Rowdy"],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "\"Peaceful\" directly aligns with the calm nature of a serene environment."
-    ),
-
+        explanation:
+            "\"Peaceful\" directly aligns with the calm nature of a serene environment."),
     QuizQuestion(
-        question: "2. Identify the material adjective in this sentence: \"She packed the smoked tilapia into a plastic container.\"",
-        options: [
-          "Smoked",
-          "Tilapia",
-          "Plastic",
-          "Container"
-        ],
+        question:
+            "2. Identify the material adjective in this sentence: \"She packed the smoked tilapia into a plastic container.\"",
+        options: ["Smoked", "Tilapia", "Plastic", "Container"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "\"Plastic\" describes the physical material that the container is made of."
-    ),
-
+        explanation:
+            "\"Plastic\" describes the physical material that the container is made of."),
     QuizQuestion(
-        question: "3. \"The captain of the local team had a ________ expression, while the visiting captain looked terrified.\" Fill in the blank to contrast the opposing sides.",
-        options: [
-          "confident",
-          "tall",
-          "young",
-          "Ghanaian"
-        ],
+        question:
+            "3. \"The captain of the local team had a ________ expression, while the visiting captain looked terrified.\" Fill in the blank to contrast the opposing sides.",
+        options: ["confident", "tall", "young", "Ghanaian"],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "\"Confident\" contrasts directly with the opponent's \"terrified\" expression."
-    ),
-
+        explanation:
+            "\"Confident\" contrasts directly with the opponent's \"terrified\" expression."),
     QuizQuestion(
-        question: "4. Which sentence describes an urban environment using precise adjectives?",
+        question:
+            "4. Which sentence describes an urban environment using precise adjectives?",
         options: [
           "The remote village had small mud houses.",
           "The dense forest was full of ancient trees.",
@@ -9049,24 +22578,19 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "\"Crowded\" and \"towering\" accurately depict the characteristics of a city metropolis."
-    ),
-
+        explanation:
+            "\"Crowded\" and \"towering\" accurately depict the characteristics of a city metropolis."),
     QuizQuestion(
-        question: "5. In the text, \"The dancer wore a vibrant and flowery dress,\" the bolded words are describing a:",
-        options: [
-          "Participant",
-          "Material/Object",
-          "Setting",
-          "Conflict"
-        ],
+        question:
+            "5. In the text, \"The dancer wore a vibrant and flowery dress,\" the bolded words are describing a:",
+        options: ["Participant", "Material/Object", "Setting", "Conflict"],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The adjectives modify \"dress,\" which is a textile object worn by the participant."
-    ),
-
+        explanation:
+            "The adjectives modify \"dress,\" which is a textile object worn by the participant."),
     QuizQuestion(
-        question: "6. \"The two debate teams faced each other; one was exceptionally eloquent while the other was completely unprepared.\" The bolded words describe:",
+        question:
+            "6. \"The two debate teams faced each other; one was exceptionally eloquent while the other was completely unprepared.\" The bolded words describe:",
         options: [
           "Opposing sides",
           "Physical materials",
@@ -9075,11 +22599,11 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "The terms compare the capabilities of the two competing groups."
-    ),
-
+        explanation:
+            "The terms compare the capabilities of the two competing groups."),
     QuizQuestion(
-        question: "7. Find the sentence that uses a textile adjective correctly.",
+        question:
+            "7. Find the sentence that uses a textile adjective correctly.",
         options: [
           "He bought a new electronic device.",
           "She purchased a smooth silk scarf.",
@@ -9088,11 +22612,11 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "\"Silk\" is a specific textile/fabric used to describe the scarf."
-    ),
-
+        explanation:
+            "\"Silk\" is a specific textile/fabric used to describe the scarf."),
     QuizQuestion(
-        question: "8. \"We spent our holidays in a secluded and picturesque coastal village.\" These adjectives describe a:",
+        question:
+            "8. \"We spent our holidays in a secluded and picturesque coastal village.\" These adjectives describe a:",
         options: [
           "Material item",
           "Rival group",
@@ -9101,24 +22625,19 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "\"Secluded\" and \"picturesque\" establish a descriptive rural/natural background scene."
-    ),
-
+        explanation:
+            "\"Secluded\" and \"picturesque\" establish a descriptive rural/natural background scene."),
     QuizQuestion(
-        question: "9. Identify the word functioning as an adjective here: \"The wooden bridge broke under the weight of the truck.\"",
-        options: [
-          "Bridge",
-          "Weight",
-          "Wooden",
-          "Truck"
-        ],
+        question:
+            "9. Identify the word functioning as an adjective here: \"The wooden bridge broke under the weight of the truck.\"",
+        options: ["Bridge", "Weight", "Wooden", "Truck"],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "\"Wooden\" specifies the material of the bridge, acting as an adjective."
-    ),
-
+        explanation:
+            "\"Wooden\" specifies the material of the bridge, acting as an adjective."),
     QuizQuestion(
-        question: "10. \"The bushy-haired wrestler easily overpowered his bald opponent.\" What are these adjectives highlighting?",
+        question:
+            "10. \"The bushy-haired wrestler easily overpowered his bald opponent.\" What are these adjectives highlighting?",
         options: [
           "The location of the match",
           "The contrasting features of opposing participants",
@@ -9127,15 +22646,16 @@ final QuizModel jhs2s3ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "They describe the physical head features of the two opposing athletes."
-    ),
+        explanation:
+            "They describe the physical head features of the two opposing athletes."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS2 S3 SS1 L4/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. \"Next week, the president ________ the new school block.\" Use the future simple form.",
+        question:
+            "1. \"Next week, the president ________ the new school block.\" Use the future simple form.",
         options: [
           "will open",
           "will be opening",
@@ -9144,9 +22664,7 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Low",
-        explanation: "Will open represents a straightforward future action."
-    ),
-
+        explanation: "Will open represents a straightforward future action."),
     QuizQuestion(
         question: "2. Identify the future progressive sentence:",
         options: [
@@ -9157,11 +22675,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Will be visiting shows a continuous action in future time."
-    ),
-
+        explanation:
+            "Will be visiting shows a continuous action in future time."),
     QuizQuestion(
-        question: "3. \"By six o'clock, Esi ________ cooking the jollof rice.\" Fill in the blank using the future perfect tense.",
+        question:
+            "3. \"By six o'clock, Esi ________ cooking the jollof rice.\" Fill in the blank using the future perfect tense.",
         options: [
           "will cook",
           "will be cooking",
@@ -9170,11 +22688,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Will have cooked shows the action will be complete before the six o'clock deadline."
-    ),
-
+        explanation:
+            "Will have cooked shows the action will be complete before the six o'clock deadline."),
     QuizQuestion(
-        question: "4. What is the verb structure for the future perfect progressive tense?",
+        question:
+            "4. What is the verb structure for the future perfect progressive tense?",
         options: [
           "will + base verb",
           "will be + verb-ing",
@@ -9183,11 +22701,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 3,
         difficulty: "Medium",
-        explanation: "Option D shows the correct combination of auxiliary elements for this continuous aspect."
-    ),
-
+        explanation:
+            "Option D shows the correct combination of auxiliary elements for this continuous aspect."),
     QuizQuestion(
-        question: "5. \"We shall be doing our homework when you return.\" The bolded verb is in the:",
+        question:
+            "5. \"We shall be doing our homework when you return.\" The bolded verb is in the:",
         options: [
           "Future simple",
           "Future progressive",
@@ -9196,11 +22714,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Shall be doing matches the future progressive structure."
-    ),
-
+        explanation:
+            "Shall be doing matches the future progressive structure."),
     QuizQuestion(
-        question: "6. \"By next month, my father ________ this old tractor for ten years.\" Use the future perfect progressive form.",
+        question:
+            "6. \"By next month, my father ________ this old tractor for ten years.\" Use the future perfect progressive form.",
         options: [
           "will have been using",
           "will be using",
@@ -9209,9 +22727,8 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "High",
-        explanation: "This form properly matches the duration marker \"for ten years\" looking up to a future point."
-    ),
-
+        explanation:
+            "This form properly matches the duration marker \"for ten years\" looking up to a future point."),
     QuizQuestion(
         question: "7. Select the future perfect sentence:",
         options: [
@@ -9222,11 +22739,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Will have cleared represents a completed action in the future."
-    ),
-
+        explanation:
+            "Will have cleared represents a completed action in the future."),
     QuizQuestion(
-        question: "8. \"I will wash my clothes tonight.\" What type of future event does this describe?",
+        question:
+            "8. \"I will wash my clothes tonight.\" What type of future event does this describe?",
         options: [
           "A completed future milestone",
           "An ongoing duration of time",
@@ -9235,11 +22752,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "This is a future simple structure stating a basic intention or upcoming act."
-    ),
-
+        explanation:
+            "This is a future simple structure stating a basic intention or upcoming act."),
     QuizQuestion(
-        question: "9. Complete the sentence: \"They ________ for three hours by the time the bus arrives.\"",
+        question:
+            "9. Complete the sentence: \"They ________ for three hours by the time the bus arrives.\"",
         options: [
           "will wait",
           "will be waiting",
@@ -9248,11 +22765,11 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "High",
-        explanation: "The presence of a duration (\"for three hours\") ending at a future event requires the future perfect progressive tense."
-    ),
-
+        explanation:
+            "The presence of a duration (\"for three hours\") ending at a future event requires the future perfect progressive tense."),
     QuizQuestion(
-        question: "10. \"He will have been washing his hands for a minute by then.\" Identify the tense.",
+        question:
+            "10. \"He will have been washing his hands for a minute by then.\" Identify the tense.",
         options: [
           "Future perfect progressive",
           "Future progressive",
@@ -9261,8 +22778,8 @@ final QuizModel jhs2s3ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "The construction uses will have been followed by an \"-ing\" action word."
-    ),
+        explanation:
+            "The construction uses will have been followed by an \"-ing\" action word."),
   ],
 );
 final QuizModel jhs2s3ss1Lesson5QuizData = QuizModel(
@@ -14946,11 +28463,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Independent reading builds self-directed language skills and knowledge."
-    ),
-
+        explanation:
+            "Independent reading builds self-directed language skills and knowledge."),
     QuizQuestion(
-        question: "2. Which of the following is a clear example of setting a reading purpose for information?",
+        question:
+            "2. Which of the following is a clear example of setting a reading purpose for information?",
         options: [
           "I am going to read this comic book to laugh at the jokes.",
           "I am going to read this science chapter to find out how solar panels work.",
@@ -14959,9 +28476,8 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Wanting to know how solar panels work is a clear informational goal."
-    ),
-
+        explanation:
+            "Wanting to know how solar panels work is a clear informational goal."),
     QuizQuestion(
         question: "3. What does it mean to choose an \"age-appropriate\" text?",
         options: [
@@ -14972,11 +28488,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Age-appropriate means the text complexity matches the student's developmental stage."
-    ),
-
+        explanation:
+            "Age-appropriate means the text complexity matches the student's developmental stage."),
     QuizQuestion(
-        question: "4. If you come across a paragraph that you do not understand while reading alone, you should:",
+        question:
+            "4. If you come across a paragraph that you do not understand while reading alone, you should:",
         options: [
           "Close the book and stop reading completely.",
           "Skip the paragraph and hope it wasn't important.",
@@ -14985,11 +28501,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Low",
-        explanation: "Re-reading is the primary self-monitoring strategy for comprehension."
-    ),
-
+        explanation:
+            "Re-reading is the primary self-monitoring strategy for comprehension."),
     QuizQuestion(
-        question: "5. \"Kofi set a purpose to find the date of the independence match in a sports article.\" What strategy should he use?",
+        question:
+            "5. \"Kofi set a purpose to find the date of the independence match in a sports article.\" What strategy should he use?",
         options: [
           "Read every single word from the first page very slowly.",
           "Scan the text quickly looking specifically for numbers and months.",
@@ -14998,11 +28514,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Scanning for specific formats (like dates) satisfies this specific purpose quickly."
-    ),
-
+        explanation:
+            "Scanning for specific formats (like dates) satisfies this specific purpose quickly."),
     QuizQuestion(
-        question: "6. Which of these is a reading purpose focused entirely on enjoyment?",
+        question:
+            "6. Which of these is a reading purpose focused entirely on enjoyment?",
         options: [
           "Reading a manual to learn how to fix an iPad screen.",
           "Reading an exciting folk tale about Ananse before bed.",
@@ -15011,11 +28527,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Folk tales read before bed are typically selected for entertainment and pleasure."
-    ),
-
+        explanation:
+            "Folk tales read before bed are typically selected for entertainment and pleasure."),
     QuizQuestion(
-        question: "7. Why is it helpful to preview a text's title and illustrations before you begin reading?",
+        question:
+            "7. Why is it helpful to preview a text's title and illustrations before you begin reading?",
         options: [
           "It helps you activate your prior knowledge and prepare your mind for the topic.",
           "It lets you finish the book without actually reading the text.",
@@ -15024,11 +28540,10 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "Medium",
-        explanation: "Previewing sets expectations and frames comprehension."
-    ),
-
+        explanation: "Previewing sets expectations and frames comprehension."),
     QuizQuestion(
-        question: "8. If a comprehension question asks about the location of a story, what type of evidence are you scanning for?",
+        question:
+            "8. If a comprehension question asks about the location of a story, what type of evidence are you scanning for?",
         options: [
           "Action verbs like running or jumping.",
           "Numbers representing a specific year.",
@@ -15037,11 +28552,10 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Locations are represented by geographical proper nouns."
-    ),
-
+        explanation: "Locations are represented by geographical proper nouns."),
     QuizQuestion(
-        question: "9. \"Mansa wanted to read a biography to find out how Efua Sutherland contributed to Ghanaian theatre.\" Mansa is reading for:",
+        question:
+            "9. \"Mansa wanted to read a biography to find out how Efua Sutherland contributed to Ghanaian theatre.\" Mansa is reading for:",
         options: [
           "Pure entertainment only.",
           "Knowledge and information.",
@@ -15050,11 +28564,11 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Learning about a historical figure's contributions is an informational pursuit."
-    ),
-
+        explanation:
+            "Learning about a historical figure's contributions is an informational pursuit."),
     QuizQuestion(
-        question: "10. What is the final step you should take to ensure you have answered a comprehension question accurately?",
+        question:
+            "10. What is the final step you should take to ensure you have answered a comprehension question accurately?",
         options: [
           "Pick the option that has the longest text.",
           "Cross-check your answer directly with the evidence provided in the text.",
@@ -15063,15 +28577,16 @@ final QuizModel jhs3s2ss1Lesson1QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Verifying with textual evidence guarantees objective accuracy."
-    ),
+        explanation:
+            "Verifying with textual evidence guarantees objective accuracy."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L5/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What does it mean to determine the \"credibility\" of a text?",
+        question:
+            "1. What does it mean to determine the \"credibility\" of a text?",
         options: [
           "To measure how heavy the book is.",
           "To evaluate how trustworthy and reliable the information is.",
@@ -15080,11 +28595,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Credibility is the measure of accuracy and trustworthiness in a source."
-    ),
-
+        explanation:
+            "Credibility is the measure of accuracy and trustworthiness in a source."),
     QuizQuestion(
-        question: "2. Which of the following sources would be considered MOST credible for a report on malaria prevention?",
+        question:
+            "2. Which of the following sources would be considered MOST credible for a report on malaria prevention?",
         options: [
           "A message forwarded on a family chat group.",
           "An official publication by the World Health Organisation.",
@@ -15093,11 +28608,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The WHO is an authoritative international health body, making it highly credible."
-    ),
-
+        explanation:
+            "The WHO is an authoritative international health body, making it highly credible."),
     QuizQuestion(
-        question: "3. \"We must stop building roads because cars create noise, and noise makes everyone completely insane.\" This is an example of:",
+        question:
+            "3. \"We must stop building roads because cars create noise, and noise makes everyone completely insane.\" This is an example of:",
         options: [
           "Strong, fact-based reasoning.",
           "A balanced viewpoint.",
@@ -15106,11 +28621,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "The claim that noise makes everyone completely insane is a massive, illogical leap."
-    ),
-
+        explanation:
+            "The claim that noise makes everyone completely insane is a massive, illogical leap."),
     QuizQuestion(
-        question: "4. Why is it useful to read texts that contain viewpoints different from your own?",
+        question:
+            "4. Why is it useful to read texts that contain viewpoints different from your own?",
         options: [
           "It forces you to change your mind completely.",
           "It helps you understand different perspectives and sharpens your critical thinking.",
@@ -15119,11 +28634,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Exposure to multiple perspectives builds comprehensive understanding and empathy."
-    ),
-
+        explanation:
+            "Exposure to multiple perspectives builds comprehensive understanding and empathy."),
     QuizQuestion(
-        question: "5. A text states: \"Plastic bags are convenient for carrying goods, but they clog our drainage networks and cause flooding.\" This text presents:",
+        question:
+            "5. A text states: \"Plastic bags are convenient for carrying goods, but they clog our drainage networks and cause flooding.\" This text presents:",
         options: [
           "A one-sided attack on plastic manufacturers.",
           "A balanced view showing both a benefit and a drawback.",
@@ -15132,24 +28647,19 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "It acknowledges the utility (convenience) alongside the environmental downside (flooding)."
-    ),
-
+        explanation:
+            "It acknowledges the utility (convenience) alongside the environmental downside (flooding)."),
     QuizQuestion(
-        question: "6. Which word in a text should make a reader cautious about the author's objectivity?",
-        options: [
-          "Furthermore",
-          "According to",
-          "Always",
-          "For instance"
-        ],
+        question:
+            "6. Which word in a text should make a reader cautious about the author's objectivity?",
+        options: ["Furthermore", "According to", "Always", "For instance"],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Absolute words like \"Always\" or \"Never\" often signal a lack of objective nuance."
-    ),
-
+        explanation:
+            "Absolute words like \"Always\" or \"Never\" often signal a lack of objective nuance."),
     QuizQuestion(
-        question: "7. If an article about Ghanaian history does not list any dates, authors, or primary references, its credibility is:",
+        question:
+            "7. If an article about Ghanaian history does not list any dates, authors, or primary references, its credibility is:",
         options: [
           "Enhanced because it is clean.",
           "Weakened due to lack of verifiable evidence.",
@@ -15158,11 +28668,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Trustworthy history depends on verifiable references and primary data."
-    ),
-
+        explanation:
+            "Trustworthy history depends on verifiable references and primary data."),
     QuizQuestion(
-        question: "8. An author writes an article arguing that school fees should be doubled, but hides the fact that they own five private schools. The author has a:",
+        question:
+            "8. An author writes an article arguing that school fees should be doubled, but hides the fact that they own five private schools. The author has a:",
         options: [
           "Very high credibility rating.",
           "Conflict of interest that biases their viewpoint.",
@@ -15171,11 +28681,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "A hidden personal benefit biases an author's objectivity."
-    ),
-
+        explanation:
+            "A hidden personal benefit biases an author's objectivity."),
     QuizQuestion(
-        question: "9. \"The government should support local weavers because it preserves our cultural heritage and creates economic stability for rural artisans.\" This argument uses:",
+        question:
+            "9. \"The government should support local weavers because it preserves our cultural heritage and creates economic stability for rural artisans.\" This argument uses:",
         options: [
           "Sound reasoning supported by clear cultural and economic benefits.",
           "Faulty reasoning based on fear.",
@@ -15184,11 +28694,11 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "High",
-        explanation: "The reasoning connects the policy directly to logical, positive outcomes."
-    ),
-
+        explanation:
+            "The reasoning connects the policy directly to logical, positive outcomes."),
     QuizQuestion(
-        question: "10. What is the ultimate goal of reflecting on how a text impacts self-understanding?",
+        question:
+            "10. What is the ultimate goal of reflecting on how a text impacts self-understanding?",
         options: [
           "To legalise arguments in the classroom.",
           "To become a passive consumer of information.",
@@ -15197,15 +28707,16 @@ final QuizModel jhs3s2ss1Lesson2QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "High",
-        explanation: "Critical reflection transforms reading from simple decoding into active, independent thought."
-    ),
+        explanation:
+            "Critical reflection transforms reading from simple decoding into active, independent thought."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L6/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What is the meaning of the word \"disseminate\" in media studies?",
+        question:
+            "1. What is the meaning of the word \"disseminate\" in media studies?",
         options: [
           "To keep information completely secret.",
           "To spread or distribute information widely to the public.",
@@ -15214,11 +28725,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Dissemination refers to the act of spreading information across channels."
-    ),
-
+        explanation:
+            "Dissemination refers to the act of spreading information across channels."),
     QuizQuestion(
-        question: "2. Which of the following represents a structural critique of a text?",
+        question:
+            "2. Which of the following represents a structural critique of a text?",
         options: [
           "The author misspelled the word \"receive.\"",
           "The article is written as a wall of text and needs clear subheadings to be readable.",
@@ -15227,11 +28738,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Structural critiques deal with the layout, formatting, and organization of the content."
-    ),
-
+        explanation:
+            "Structural critiques deal with the layout, formatting, and organization of the content."),
     QuizQuestion(
-        question: "3. Why do feature articles use a different style compared to standard news reports?",
+        question:
+            "3. Why do feature articles use a different style compared to standard news reports?",
         options: [
           "Because feature articles are written only for teachers.",
           "To explore the deeper, personal human stories behind a topic rather than just the immediate facts.",
@@ -15240,11 +28751,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Feature articles prioritize depth, context, and human elements over breaking news brevity."
-    ),
-
+        explanation:
+            "Feature articles prioritize depth, context, and human elements over breaking news brevity."),
     QuizQuestion(
-        question: "4. Imagine you need to disseminate information to JHS students on how to navigate our offline learning app. What is the BEST text type and approach?",
+        question:
+            "4. Imagine you need to disseminate information to JHS students on how to navigate our offline learning app. What is the BEST text type and approach?",
         options: [
           "A sixty-page legal document detailing software licensing.",
           "A concise, procedural step-by-step guide with clear visual icons matching the app interface.",
@@ -15253,11 +28764,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Procedural text combined with visual aids perfectly matches an instructional goal for an app."
-    ),
-
+        explanation:
+            "Procedural text combined with visual aids perfectly matches an instructional goal for an app."),
     QuizQuestion(
-        question: "5. An article claims: \"A new study shows standard farming techniques are completely useless.\" Upon review, you see the study only tested three plants in a single box. You have just evaluated the text's:",
+        question:
+            "5. An article claims: \"A new study shows standard farming techniques are completely useless.\" Upon review, you see the study only tested three plants in a single box. You have just evaluated the text's:",
         options: [
           "Spelling accuracy.",
           "Capitalisation choices.",
@@ -15266,11 +28777,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "Checking the sample size and scope of research directly measures the validity of the evidence."
-    ),
-
+        explanation:
+            "Checking the sample size and scope of research directly measures the validity of the evidence."),
     QuizQuestion(
-        question: "6. Which media channel is best optimized for an audience of busy market traders who are constantly on the move?",
+        question:
+            "6. Which media channel is best optimized for an audience of busy market traders who are constantly on the move?",
         options: [
           "A long, academic essay published on a university website.",
           "Audio notices broadcast over market loudspeakers or clear local radio segments.",
@@ -15279,11 +28790,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Audio messages cater perfectly to audiences who cannot look at screens while working."
-    ),
-
+        explanation:
+            "Audio messages cater perfectly to audiences who cannot look at screens while working."),
     QuizQuestion(
-        question: "7. \"The daily newspaper published an article written by the chief editor explicitly supporting a new educational policy.\" This text type is an:",
+        question:
+            "7. \"The daily newspaper published an article written by the chief editor explicitly supporting a new educational policy.\" This text type is an:",
         options: [
           "Expository science report.",
           "Editorial / Opinion piece.",
@@ -15292,11 +28803,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Editorials reflect the specific perspectives and opinions of the publication's leadership."
-    ),
-
+        explanation:
+            "Editorials reflect the specific perspectives and opinions of the publication's leadership."),
     QuizQuestion(
-        question: "8. What is a primary sign of low credibility in a digital media article?",
+        question:
+            "8. What is a primary sign of low credibility in a digital media article?",
         options: [
           "The presence of a clear author name and publication date.",
           "The use of extreme clickbait headlines that do not match the facts inside the text.",
@@ -15305,11 +28816,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Clickbait headlines intentionally mislead readers, signaling low editorial integrity."
-    ),
-
+        explanation:
+            "Clickbait headlines intentionally mislead readers, signaling low editorial integrity."),
     QuizQuestion(
-        question: "9. How can a writer improve a text-to-speech script designed for automated audio narration?",
+        question:
+            "9. How can a writer improve a text-to-speech script designed for automated audio narration?",
         options: [
           "By adding complex mathematical formulas directly into the sentence.",
           "By using natural, conversational language and removing awkward abbreviations or symbols.",
@@ -15318,11 +28829,11 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "TTS optimization requires smooth, predictable prose that reads naturally to a listener."
-    ),
-
+        explanation:
+            "TTS optimization requires smooth, predictable prose that reads naturally to a listener."),
     QuizQuestion(
-        question: "10. You notice a news article only interviews the owner of a company and completely ignores the complaints of the community workers. Your critique should highlight a lack of:",
+        question:
+            "10. You notice a news article only interviews the owner of a company and completely ignores the complaints of the community workers. Your critique should highlight a lack of:",
         options: [
           "Font color variety.",
           "Balance and multiple perspectives.",
@@ -15331,15 +28842,16 @@ final QuizModel jhs3s2ss1Lesson3QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "Fair journalism requires presenting multiple sides of a dispute to avoid single-source bias."
-    ),
+        explanation:
+            "Fair journalism requires presenting multiple sides of a dispute to avoid single-source bias."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
   audioPath: 'assets/audio/english/ENGLISH JHS3 S2 SS1 L7/8. Quiz.m4a',
   questions: [
     QuizQuestion(
-        question: "1. What does it mean to \"expand an idea\" in reading comprehension?",
+        question:
+            "1. What does it mean to \"expand an idea\" in reading comprehension?",
         options: [
           "To write the exact same sentence using a much larger font size.",
           "To combine information from the text with other perspectives and personal knowledge to build a deeper understanding.",
@@ -15348,11 +28860,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Expansion involves building context and synthesis around core textual ideas."
-    ),
-
+        explanation:
+            "Expansion involves building context and synthesis around core textual ideas."),
     QuizQuestion(
-        question: "2. Why do authors have different perspectives on the same topic?",
+        question:
+            "2. Why do authors have different perspectives on the same topic?",
         options: [
           "Because they are using different types of tablets.",
           "Because their viewpoints are shaped by their unique backgrounds, interests, and experiences.",
@@ -15361,11 +28873,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "Individual background and purpose directly shape a writer's point of view."
-    ),
-
+        explanation:
+            "Individual background and purpose directly shape a writer's point of view."),
     QuizQuestion(
-        question: "3. Read this text: \"Tourism brings massive wealth and international attention to historical sites like the Elmina Castle.\" What is the author's perspective?",
+        question:
+            "3. Read this text: \"Tourism brings massive wealth and international attention to historical sites like the Elmina Castle.\" What is the author's perspective?",
         options: [
           "Tourism has zero benefits for Ghana.",
           "Tourism is highly positive for our historic sites and economy.",
@@ -15374,11 +28886,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Low",
-        explanation: "The use of \"massive wealth\" and \"attention\" signals a highly positive perspective."
-    ),
-
+        explanation:
+            "The use of \"massive wealth\" and \"attention\" signals a highly positive perspective."),
     QuizQuestion(
-        question: "4. If the text says tourism is perfect, but you know that overcrowded tourist crowds sometimes leave plastic litter at Elmina Castle, your perspective:",
+        question:
+            "4. If the text says tourism is perfect, but you know that overcrowded tourist crowds sometimes leave plastic litter at Elmina Castle, your perspective:",
         options: [
           "Is completely wrong and should be ignored.",
           "Contrasts with the text by highlighting a hidden problem.",
@@ -15387,9 +28899,8 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Personal knowledge provides a counterpoint that builds a more critical view."
-    ),
-
+        explanation:
+            "Personal knowledge provides a counterpoint that builds a more critical view."),
     QuizQuestion(
         question: "5. What is the definition of \"synthesis\" in reading?",
         options: [
@@ -15400,11 +28911,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Synthesis is the creative assembly of multiple conceptual components."
-    ),
-
+        explanation:
+            "Synthesis is the creative assembly of multiple conceptual components."),
     QuizQuestion(
-        question: "6. Which statement shows a successful synthesis of these two ideas: (1) Market trading brings income, (2) Market trading takes up time that children should use for school.",
+        question:
+            "6. Which statement shows a successful synthesis of these two ideas: (1) Market trading brings income, (2) Market trading takes up time that children should use for school.",
         options: [
           "\"Market trading is completely bad and should be banned.\"",
           "\"Children should only work and forget about going to school.\"",
@@ -15413,11 +28924,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 2,
         difficulty: "Medium",
-        explanation: "This option balances and integrates both structural points into a single solution."
-    ),
-
+        explanation:
+            "This option balances and integrates both structural points into a single solution."),
     QuizQuestion(
-        question: "7. An article states that high-speed train networks are essential for Ghana's development. A student notes that building trains costs billions of Cedis that could fix local clinics. What is the student doing?",
+        question:
+            "7. An article states that high-speed train networks are essential for Ghana's development. A student notes that building trains costs billions of Cedis that could fix local clinics. What is the student doing?",
         options: [
           "Skimming for specific definitions.",
           "Evaluating the text by comparing its viewpoint with economic realities.",
@@ -15426,11 +28937,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "The student is contrasting the text's ambition with practical budget limitations."
-    ),
-
+        explanation:
+            "The student is contrasting the text's ambition with practical budget limitations."),
     QuizQuestion(
-        question: "8. Why is \"peer review\" highly effective for expanding ideas?",
+        question:
+            "8. Why is \"peer review\" highly effective for expanding ideas?",
         options: [
           "It allows one student to do all the work for the group.",
           "It exposes you to different viewpoints and interpretations that you might not have considered yourself.",
@@ -15439,11 +28950,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "Medium",
-        explanation: "Group discussion breaks individual bias and opens new analytical pathways."
-    ),
-
+        explanation:
+            "Group discussion breaks individual bias and opens new analytical pathways."),
     QuizQuestion(
-        question: "9. \"The author believes city life is superior because of entertainment, whereas I believe village life is better because of peace and community.\" This sentence demonstrates:",
+        question:
+            "9. \"The author believes city life is superior because of entertainment, whereas I believe village life is better because of peace and community.\" This sentence demonstrates:",
         options: [
           "A faulty generalisation using absolute terms.",
           "An analysis of contrasting perspectives.",
@@ -15452,11 +28963,11 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 1,
         difficulty: "High",
-        explanation: "The sentence explicitly structures a comparison between the author's view and the reader's view."
-    ),
-
+        explanation:
+            "The sentence explicitly structures a comparison between the author's view and the reader's view."),
     QuizQuestion(
-        question: "10. When you add your own relevant life experiences to a text's main arguments to reach a mature conclusion, you are behaving like an:",
+        question:
+            "10. When you add your own relevant life experiences to a text's main arguments to reach a mature conclusion, you are behaving like an:",
         options: [
           "Active, critical reader.",
           "Offline application user who skips lessons.",
@@ -15465,8 +28976,8 @@ final QuizModel jhs3s2ss1Lesson4QuizData = QuizModel(
         ],
         correctIndex: 0,
         difficulty: "High",
-        explanation: "Critical, active reading requires moving beyond passivity to integrate text with life."
-    ),
+        explanation:
+            "Critical, active reading requires moving beyond passivity to integrate text with life."),
   ],
 );
 final QuizModel jhs3s2ss1Lesson5QuizData = QuizModel(
@@ -16222,25 +29733,25 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      '1. "The soup smelled like a garden of fresh peppers and onions." Which technique is used here?',
+          '1. "The soup smelled like a garden of fresh peppers and onions." Which technique is used here?',
       options: ["Personification", "Simile", "Metaphor", "Symbolism"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      'The use of the word "like" to compare the smell of the soup to a garden makes this a simile.',
+          'The use of the word "like" to compare the smell of the soup to a garden makes this a simile.',
     ),
     QuizQuestion(
       question:
-      '2. If a writer describes the "velvet softness of a Kente loom," which sense are they appealing to?',
+          '2. If a writer describes the "velvet softness of a Kente loom," which sense are they appealing to?',
       options: ["Sight", "Smell", "Touch", "Taste"],
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      '"Softness" and "velvet" are textures that we perceive through the sense of touch.',
+          '"Softness" and "velvet" are textures that we perceive through the sense of touch.',
     ),
     QuizQuestion(
       question:
-      '3. "The moon was a silver cedi in the sky." This is an example of a:',
+          '3. "The moon was a silver cedi in the sky." This is an example of a:',
       options: [
         "Metaphor",
         "Simile",
@@ -16250,11 +29761,11 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Medium",
       explanation:
-      'This is a metaphor because it says the moon was a cedi, comparing them directly without using "like" or "as."',
+          'This is a metaphor because it says the moon was a cedi, comparing them directly without using "like" or "as."',
     ),
     QuizQuestion(
       question:
-      '4. In many cultures, a white dove is a symbol of peace. If a dove flies over a battlefield in a story, what is the author likely suggesting?',
+          '4. In many cultures, a white dove is a symbol of peace. If a dove flies over a battlefield in a story, what is the author likely suggesting?',
       options: [
         "The soldiers are hungry for birds",
         "The weather is about to change",
@@ -16264,20 +29775,20 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'Symbols represent bigger ideas; a dove represents the hope for the end of conflict.',
+          'Symbols represent bigger ideas; a dove represents the hope for the end of conflict.',
     ),
     QuizQuestion(
       question:
-      '5. "The waves lashed out at the shore in anger." This is an example of:',
+          '5. "The waves lashed out at the shore in anger." This is an example of:',
       options: ["Simile", "Metaphor", "Personification", "Symbolism"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Anger" and "lashing out" are human emotions and actions given to the ocean waves.',
+          '"Anger" and "lashing out" are human emotions and actions given to the ocean waves.',
     ),
     QuizQuestion(
       question:
-      '6. Which sentence contains imagery that appeals to the sense of TASTE?',
+          '6. Which sentence contains imagery that appeals to the sense of TASTE?',
       options: [
         "The drums beat a steady rhythm for the dancers",
         "The bitter juice of the neem leaf made Abena gag",
@@ -16287,11 +29798,11 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      '"Bitter" and the reaction to juice relate directly to the sense of taste.',
+          '"Bitter" and the reaction to juice relate directly to the sense of taste.',
     ),
     QuizQuestion(
       question:
-      '7. "My brother is a giant." In a literal sense, this is impossible. Figuratively, it means:',
+          '7. "My brother is a giant." In a literal sense, this is impossible. Figuratively, it means:',
       options: [
         "The brother is actually a mythical creature",
         "The brother is very tall or influential",
@@ -16301,7 +29812,7 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      'As a metaphor, "giant" describes the brother\'s impressive height or status.',
+          'As a metaphor, "giant" describes the brother\'s impressive height or status.',
     ),
     QuizQuestion(
       question: '8. Why do writers use sensory imagery?',
@@ -16314,20 +29825,20 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'Imagery is used to engage the reader\'s imagination and make the text more immersive.',
+          'Imagery is used to engage the reader\'s imagination and make the text more immersive.',
     ),
     QuizQuestion(
       question:
-      '9. "The dry grass crunched under his sandals." Which sense is this appealing to?',
+          '9. "The dry grass crunched under his sandals." Which sense is this appealing to?',
       options: ["Sight", "Sound", "Taste", "Smell"],
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      '"Crunched" is an onomatopoeic word that describes a specific sound.',
+          '"Crunched" is an onomatopoeic word that describes a specific sound.',
     ),
     QuizQuestion(
       question:
-      '10. Read this: "Abena carried her grandmother’s old Bible everywhere, even though she couldn\'t read yet." What might the Bible symbolise?',
+          '10. Read this: "Abena carried her grandmother’s old Bible everywhere, even though she couldn\'t read yet." What might the Bible symbolise?',
       options: [
         "A heavy weight she has to carry",
         "Her connection to her grandmother’s faith and memory",
@@ -16337,7 +29848,7 @@ final QuizModel jhs3s2ss1Lesson11QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      'An heirloom like a Bible often symbolises family heritage, tradition, and spiritual connection.',
+          'An heirloom like a Bible often symbolises family heritage, tradition, and spiritual connection.',
     ),
   ],
 );
@@ -16346,7 +29857,7 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Which of these is a technical term for the money a person earns from work?",
+          "1. Which of these is a technical term for the money a person earns from work?",
       options: ["Gift", "Pocket money", "Income", "Dash"],
       correctIndex: 2,
       difficulty: "Low",
@@ -16363,20 +29874,20 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      'In a scientific register, "cell" specifically refers to biological units.',
+          'In a scientific register, "cell" specifically refers to biological units.',
     ),
     QuizQuestion(
       question:
-      "3. 'The judge gave his final decision at the end of the trial.' What is the technical legal term for 'decision'?",
+          "3. 'The judge gave his final decision at the end of the trial.' What is the technical legal term for 'decision'?",
       options: ["Opinion", "Guess", "Verdict", "Story"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Verdict" is the specific term used in a legal register for a judge\'s decision.',
+          '"Verdict" is the specific term used in a legal register for a judge\'s decision.',
     ),
     QuizQuestion(
       question:
-      "4. Which register is used in this sentence: 'The router's IP address needs to be configured for the network'?",
+          "4. Which register is used in this sentence: 'The router's IP address needs to be configured for the network'?",
       options: [
         "Agriculture",
         "ICT",
@@ -16386,7 +29897,7 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      'Words like "router," "IP address," and "network" belong to the ICT domain.',
+          'Words like "router," "IP address," and "network" belong to the ICT domain.',
     ),
     QuizQuestion(
       question: "5. To 'hibernate' in the animal kingdom means to:",
@@ -16399,20 +29910,20 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Hibernate" is a technical biological term for seasonal dormancy.',
+          '"Hibernate" is a technical biological term for seasonal dormancy.',
     ),
     QuizQuestion(
       question:
-      "6. If a text is about 'Climate Change,' which word would be considered academic vocabulary?",
+          "6. If a text is about 'Climate Change,' which word would be considered academic vocabulary?",
       options: ["Weather", "Hot", "Precipitation", "Rain"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Precipitation" is the academic term for any form of water falling from the sky.',
+          '"Precipitation" is the academic term for any form of water falling from the sky.',
     ),
     QuizQuestion(
       question:
-      "7. 'The President signed the amendment to the law.' What does amendment mean?",
+          "7. 'The President signed the amendment to the law.' What does amendment mean?",
       options: [
         "A picture of the law",
         "A formal change or addition to a document",
@@ -16422,11 +29933,11 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      'In political and legal registers, an amendment is a formal change.',
+          'In political and legal registers, an amendment is a formal change.',
     ),
     QuizQuestion(
       question:
-      "8. Which sentence uses the right register for a cookery (Home Economics) lesson?",
+          "8. Which sentence uses the right register for a cookery (Home Economics) lesson?",
       options: [
         "Put the stuff in the hot water",
         "Submerge the vegetables in boiling water to blanch them",
@@ -16436,11 +29947,11 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "High",
       explanation:
-      '"Submerge" and "blanch" are technical terms used in professional cooking.',
+          '"Submerge" and "blanch" are technical terms used in professional cooking.',
     ),
     QuizQuestion(
       question:
-      "9. The word 'inflation' is a technical term used in which subject?",
+          "9. The word 'inflation' is a technical term used in which subject?",
       options: [
         "Physical Education",
         "Integrated Science",
@@ -16450,11 +29961,11 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Low",
       explanation:
-      'Inflation refers to the rise in prices and is an economic term.',
+          'Inflation refers to the rise in prices and is an economic term.',
     ),
     QuizQuestion(
       question:
-      "10. Why is it important to use technical vocabulary in school assignments?",
+          "10. Why is it important to use technical vocabulary in school assignments?",
       options: [
         "To make the teacher spend more time marking",
         "To show that you are better than your classmates",
@@ -16464,7 +29975,7 @@ final QuizModel jhs3s2ss1Lesson12QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'Technical vocabulary allows for precision and demonstrates subject mastery.',
+          'Technical vocabulary allows for precision and demonstrates subject mastery.',
     ),
   ],
 );
@@ -16473,7 +29984,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      '1. What does the prefix "multi-" mean in words like "multicultural" or "multiply"?',
+          '1. What does the prefix "multi-" mean in words like "multicultural" or "multiply"?',
       options: ["None", "One", "Many", "Small"],
       correctIndex: 2,
       difficulty: "Low",
@@ -16481,16 +29992,16 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '2. Which word is a "synonym" (has a similar meaning) for wealthy, but suggests even more money?',
+          '2. Which word is a "synonym" (has a similar meaning) for wealthy, but suggests even more money?',
       options: ["Comfortable", "Rich", "Affluent", "Poor"],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      'While "rich" is common, "affluent" is a more academic term suggesting great wealth.',
+          'While "rich" is common, "affluent" is a more academic term suggesting great wealth.',
     ),
     QuizQuestion(
       question:
-      '3. "The mango was inedible." If "edible" means you can eat it, what does "inedible" mean?',
+          '3. "The mango was inedible." If "edible" means you can eat it, what does "inedible" mean?',
       options: [
         "It is very delicious",
         "It cannot be eaten",
@@ -16503,7 +30014,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '4. If a character is described as cautious, how are they acting?',
+          '4. If a character is described as cautious, how are they acting?',
       options: [
         "Very brave and reckless",
         "Very angry and loud",
@@ -16513,7 +30024,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-      '"Cautious" is connected to the word "caution," which means care.',
+          '"Cautious" is connected to the word "caution," which means care.',
     ),
     QuizQuestion(
       question: '5. What is the root word in "Unhappiness"?',
@@ -16524,7 +30035,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '6. Which word describes a small, gentle wind (a nuance of "wind")?',
+          '6. Which word describes a small, gentle wind (a nuance of "wind")?',
       options: ["Gale", "Hurricane", "Breeze", "Storm"],
       correctIndex: 2,
       difficulty: "Medium",
@@ -16532,7 +30043,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '7. "The girl was fearless during the storm." What does this tell us?',
+          '7. "The girl was fearless during the storm." What does this tell us?',
       options: [
         "She was very afraid",
         "She had no fear",
@@ -16545,7 +30056,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
     ),
     QuizQuestion(
       question:
-      '8. In the word "Geography," "geo" means earth and "graph" means to write or draw. What is geography?',
+          '8. In the word "Geography," "geo" means earth and "graph" means to write or draw. What is geography?',
       options: [
         "The study of the stars",
         "The study of ancient kings",
@@ -16555,7 +30066,7 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "High",
       explanation:
-      'Connecting the two Greek roots reveals the meaning of the subject.',
+          'Connecting the two Greek roots reveals the meaning of the subject.',
     ),
     QuizQuestion(
       question: '9. Which word suggests a lack of hope?',
@@ -16563,11 +30074,11 @@ final QuizModel jhs3s2ss1Lesson13QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Low",
       explanation:
-      'Again, the suffix "-less" indicates the absence of the root word.',
+          'Again, the suffix "-less" indicates the absence of the root word.',
     ),
     QuizQuestion(
       question:
-      '10. "Kwame was exhausted after the football match." How is this different from being "tired"?',
+          '10. "Kwame was exhausted after the football match." How is this different from being "tired"?',
       options: [
         "It means he is ready to play again",
         "It means he is only a little bit sleepy",
@@ -19415,7 +32926,7 @@ final QuizModel jhs3s4ss2Lesson8QuizData = QuizModel(
         "Make the speaker sound bored.",
         "Emphasize an important point so the audience remembers it.",
         "Make the speech exactly one hour long.",
-            "Make it more annoying"
+        "Make it more annoying"
       ],
       correctIndex: 1,
       difficulty: "Medium",
@@ -20093,7 +33604,8 @@ final QuizModel jhs3s4ss3Lesson5QuizData = QuizModel(
   ],
 );
 final QuizModel jhs3s4ss3Lesson6QuizData = QuizModel(
-  audioPath: 'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ) .m4a',
+  audioPath:
+      'assets/audio/english/ENGLISH JHS3 S4 SS3 L6/ENGLISH JHS3 S4 SS3 L6 (6. QUIZ) .m4a',
   questions: [
     QuizQuestion(
       question: "1. What is the definition of a 'Theme' in literature?",
@@ -34968,12 +48480,12 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-      "1. Tourism is the ______ highest foreign exchange earner for Ghana.",
+          "1. Tourism is the ______ highest foreign exchange earner for Ghana.",
       options: ["First", "Second", "Third", "Fourth"],
       correctIndex: 3,
       difficulty: "Medium",
       explanation:
-      "According to the textbook, tourism ranks as the fourth highest earner of foreign exchange.",
+          "According to the textbook, tourism ranks as the fourth highest earner of foreign exchange.",
     ),
     QuizQuestion(
       question: "2. Which site is famous for its canopy walkway?",
@@ -34986,11 +48498,11 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-      "Kakum National Park is well-known for its suspended canopy walkway.",
+          "Kakum National Park is well-known for its suspended canopy walkway.",
     ),
     QuizQuestion(
       question:
-      "3. A person who travels from Germany to visit the Elmina Castle is a/an:",
+          "3. A person who travels from Germany to visit the Elmina Castle is a/an:",
       options: [
         "Internal tourist",
         "Domestic tourist",
@@ -35000,7 +48512,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Someone travelling from another country is an international tourist.",
+          "Someone travelling from another country is an international tourist.",
     ),
     QuizQuestion(
       question: "4. In which region can we find the Boti Falls?",
@@ -35025,7 +48537,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-      "Maintaining cleanliness makes sites more attractive to visitors.",
+          "Maintaining cleanliness makes sites more attractive to visitors.",
     ),
     QuizQuestion(
       question: "6. What is \"Leisure\"?",
@@ -35037,21 +48549,15 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation:
-      "Leisure is time spent away from work or duties for rest.",
+      explanation: "Leisure is time spent away from work or duties for rest.",
     ),
     QuizQuestion(
       question: "7. Which tourist site is Ghana's only natural lake?",
-      options: [
-        "Lake Volta",
-        "Lake Bosomtwe",
-        "Weija Dam",
-        "Akosombo Dam"
-      ],
+      options: ["Lake Volta", "Lake Bosomtwe", "Weija Dam", "Akosombo Dam"],
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Lake Bosomtwe in the Ashanti Region is the only natural lake in Ghana.",
+          "Lake Bosomtwe in the Ashanti Region is the only natural lake in Ghana.",
     ),
     QuizQuestion(
       question: "8. Tourism helps the government because it generates:",
@@ -35064,7 +48570,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "The government earns revenue from taxes paid by businesses in the tourism sector.",
+          "The government earns revenue from taxes paid by businesses in the tourism sector.",
     ),
     QuizQuestion(
       question: "9. The Larabanga Mosque is located in which region?",
@@ -35077,10 +48583,11 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 0,
       difficulty: "Hard",
       explanation:
-      "The Larabanga Mosque, the oldest in Ghana, is in the Savannah Region.",
+          "The Larabanga Mosque, the oldest in Ghana, is in the Savannah Region.",
     ),
     QuizQuestion(
-      question: "10. What can happen if tourists are cheated or treated poorly?",
+      question:
+          "10. What can happen if tourists are cheated or treated poorly?",
       options: [
         "More tourists will come to help",
         "It will discourage others from visiting",
@@ -35090,7 +48597,7 @@ final QuizModel SSjhs1s5ss3Lesson1QuizData = QuizModel(
       correctIndex: 1,
       difficulty: "Medium",
       explanation:
-      "Poor treatment of tourists gives the country a bad reputation and stops others from coming.",
+          "Poor treatment of tourists gives the country a bad reputation and stops others from coming.",
     ),
   ],
 );
@@ -58789,7 +72296,8 @@ final QuizModel MATHjhs1s3ss2QuizData = QuizModel(
       explanation: "Diameter = 2 × Radius = 20 cm.",
     ),
     QuizQuestion(
-      question: "3. Find the area of a triangle with base 10 cm and height 6 cm.",
+      question:
+          "3. Find the area of a triangle with base 10 cm and height 6 cm.",
       options: ["60 cm²", "30 cm²", "16 cm²", "15 cm²"],
       correctIndex: 1,
       difficulty: "Easy",
@@ -60353,7 +73861,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Multiply x by both x and 5.",
     ),
-
     QuizQuestion(
       question: r"2. Simplify \frac{3p}{4} − \frac{p}{4}",
       options: [r"\frac{p}{4}", r"p", r"\frac{p}{2}", "2p"],
@@ -60361,7 +73868,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: r"\frac{2p}{4} reduces to \frac{p}{2}.",
     ),
-
     QuizQuestion(
       question: "3. Evaluate 3k − 10 if k = 4.",
       options: ["12", "2", "-2", "7"],
@@ -60369,41 +73875,32 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "3(4) − 10 = 12 − 10 = 2.",
     ),
-
     QuizQuestion(
       question: "4. Factorise 15xy + 10x",
-      options: [
-        "10x(y + 1)",
-        "5(3xy + 2)",
-        "5x(3y + 2)",
-        "5x(3y + 5)"
-      ],
+      options: ["10x(y + 1)", "5(3xy + 2)", "5x(3y + 2)", "5x(3y + 5)"],
       correctIndex: 2,
       difficulty: "Med",
       explanation: "5x is the HCF of both terms.",
     ),
-
     QuizQuestion(
       question: "5. What is the value of (a + 4)(a + 1)?",
-      options: [
-        "a² + 4a + 4",
-        "a² + 5a + 5",
-        "a² + 4a + 5",
-        "a² + 5a + 4"
-      ],
+      options: ["a² + 4a + 4", "a² + 5a + 5", "a² + 4a + 5", "a² + 5a + 4"],
       correctIndex: 3,
       difficulty: "Med",
       explanation: "Using FOIL: a² + 1a + 4a + 4.",
     ),
-
     QuizQuestion(
       question: r"6. Simplify \frac{2}{x} ÷ \frac{x}{5}",
-      options: [r"\frac{2x}{5}", r"\frac{2}{5}", r"\frac{x}{10}", r"\frac{2}{5x}"],
+      options: [
+        r"\frac{2x}{5}",
+        r"\frac{2}{5}",
+        r"\frac{x}{10}",
+        r"\frac{2}{5x}"
+      ],
       correctIndex: 1,
       difficulty: "Med",
       explanation: "The x terms cancel out.",
     ),
-
     QuizQuestion(
       question: "7. If x = −2, what is x²?",
       options: ["-4", "2", "-2", "4"],
@@ -60411,7 +73908,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: "A negative number squared is always positive.",
     ),
-
     QuizQuestion(
       question: "8. Factorise by grouping: ax + ay + bx + by",
       options: [
@@ -60424,7 +73920,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "a(x + y) + b(x + y) = (a + b)(x + y).",
     ),
-
     QuizQuestion(
       question: r"9. Simplify \frac{10a}{3} ÷ \frac{5a}{6}",
       options: ["4", "2", r"\frac{1}{4}", "5"],
@@ -60432,7 +73927,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: r"\frac{10a}{3} × \frac{6}{5a} = \frac{60a}{15a} = 4.",
     ),
-
     QuizQuestion(
       question: "10. What is 2(L + W) when L = 10, W = 5?",
       options: ["25", "15", "20", "30"],
@@ -60440,7 +73934,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "2(15) = 30.",
     ),
-
     QuizQuestion(
       question: "11. Expand (x − 5)(x + 5)",
       options: ["x² − 25", "x² + 25", "x² − 10", "x² + 10"],
@@ -60448,7 +73941,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "The middle terms −5x and +5x cancel.",
     ),
-
     QuizQuestion(
       question: "12. Factorise 49 − 7k",
       options: ["7k(7 − 1)", "7(7 + k)", "7(7 − k)", "49(1 − k)"],
@@ -60456,7 +73948,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "7 is the common factor.",
     ),
-
     QuizQuestion(
       question: r"13. Find the value of \frac{20}{x} + 5 when x = 2",
       options: ["10", "15", "25", "30"],
@@ -60464,7 +73955,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "10 + 5 = 15.",
     ),
-
     QuizQuestion(
       question: "14. Multiply m/3 × 6/m²",
       options: [r"\frac{2}{m}", "2m", r"\frac{m}{2}", r"\frac{6m}{3}"],
@@ -60472,7 +73962,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: "\frac{6m}{3m²} simplifies to \frac{2}{m}.",
     ),
-
     QuizQuestion(
       question: "15. Factorise y² − 3y",
       options: ["3(y − 1)", "y(y + 3)", "y²(1 − 3)", "y(y − 3)"],
@@ -60480,7 +73969,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "y is the common factor.",
     ),
-
     QuizQuestion(
       question: "16. If a = 3, b = 2, find a² + b²",
       options: ["10", "25", "13", "12"],
@@ -60488,7 +73976,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: "9 + 4 = 13.",
     ),
-
     QuizQuestion(
       question: r"17. Simplify \frac{x}{2} − \frac{x}{4}",
       options: [r"\frac{x}{4}", r"\frac{x}{2}", "0", "x"],
@@ -60496,7 +73983,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Med",
       explanation: r"\frac{2x}{4} − \frac{x}{4} = \frac{x}{4}.",
     ),
-
     QuizQuestion(
       question: "18. Expand 2(3x − 4y)",
       options: ["6x − 4y", "5x − 6y", "6x − 8y", "6x + 8y"],
@@ -60504,7 +73990,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "Low",
       explanation: "Multiply 2 by both terms.",
     ),
-
     QuizQuestion(
       question: "19. Factorise ab + ac + b + c",
       options: [
@@ -60517,7 +74002,6 @@ final QuizModel MATHjhs2s2ss2QuizData = QuizModel(
       difficulty: "High",
       explanation: "a(b + c) + 1(b + c) = (a + 1)(b + c).",
     ),
-
     QuizQuestion(
       question: "20. Evaluate 10 − (x + 2) when x = 5",
       options: ["7", "13", "5", "3"],
