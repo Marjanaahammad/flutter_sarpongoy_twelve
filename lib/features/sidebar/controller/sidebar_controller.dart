@@ -30,7 +30,7 @@ class SidebarController extends GetxController {
           "topics": [
             "The Need to Stay Healthy",
             "Ways of Maintaining Personal Hygiene",
-            "Food Hygiene Practices"
+            "Food Hygiene Practices",
           ],
         },
       ],
@@ -83,7 +83,7 @@ class SidebarController extends GetxController {
   ];
 
   static const Map<String, Map<String, List<Map<String, dynamic>>>>
-      _additionalCourseData = {
+  _additionalCourseData = {
     "JHS 1": {
       "CAREER": _careerCourseData,
       "COMPUTING": [
@@ -159,7 +159,7 @@ class SidebarController extends GetxController {
                 "Adjust Margins and Set Page Orientation",
                 "Setting Up Headers and Footers",
                 "The AutoFill Function in MS-Excel",
-                "Creating Spreadsheet Formulas"
+                "Creating Spreadsheet Formulas",
               ],
             },
           ],
@@ -308,7 +308,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Computer Accessibility and Assistive Technologies",
                 "Portable Computing Devices in Everyday Life",
-                "Issues Associated with Online Services"
+                "Issues Associated with Online Services",
               ],
             },
             {
@@ -434,7 +434,7 @@ class SidebarController extends GetxController {
                 "Strong and Weak Artificial Intelligence",
                 "B8.4.4.1.3 - Hologram Science and 3D Mixed Reality Intelligence",
                 "B8.4.4.1.4 - Comparing Limitations and Capabilities of Human, Animal, and Machine Intelligence",
-                "B8.4.4.1.5 - Review and Synthesis of Artificial Intelligence Concepts"
+                "B8.4.4.1.5 - Review and Synthesis of Artificial Intelligence Concepts",
               ],
             },
           ],
@@ -709,13 +709,16 @@ class SidebarController extends GetxController {
       final normalized = gradeStr.trim().toUpperCase().replaceAll(' ', '');
       if (normalized.contains('JHS1') ||
           normalized.contains('JHS-1') ||
-          normalized == '1') return 1;
+          normalized == '1')
+        return 1;
       if (normalized.contains('JHS2') ||
           normalized.contains('JHS-2') ||
-          normalized == '2') return 2;
+          normalized == '2')
+        return 2;
       if (normalized.contains('JHS3') ||
           normalized.contains('JHS-3') ||
-          normalized == '3') return 3;
+          normalized == '3')
+        return 3;
       return 999;
     }
 
@@ -790,20 +793,28 @@ class SidebarController extends GetxController {
               .where((p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
               .toList();
 
-          final hasGetReady = lessonProgress.any((p) =>
-              p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
-          final hasLearn = lessonProgress.any((p) =>
-              p.activityType.toLowerCase() == 'learn' &&
-              p.subActivity ==
-                  'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
-              p.isCompleted);
-          final hasPractice = lessonProgress.any((p) =>
-              p.activityType.toLowerCase() == 'guided_practice' &&
-              p.isCompleted);
-          final hasIndependent = lessonProgress.any((p) =>
-              p.activityType.toLowerCase() == 'independent' && p.isCompleted);
+          final hasGetReady = lessonProgress.any(
+            (p) => p.activityType.toLowerCase() == 'get_ready' && p.isCompleted,
+          );
+          final hasLearn = lessonProgress.any(
+            (p) =>
+                p.activityType.toLowerCase() == 'learn' &&
+                p.subActivity ==
+                    'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
+                p.isCompleted,
+          );
+          final hasPractice = lessonProgress.any(
+            (p) =>
+                p.activityType.toLowerCase() == 'guided_practice' &&
+                p.isCompleted,
+          );
+          final hasIndependent = lessonProgress.any(
+            (p) =>
+                p.activityType.toLowerCase() == 'independent' && p.isCompleted,
+          );
           final hasQuiz = lessonProgress.any(
-              (p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
+            (p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted,
+          );
 
           if (hasGetReady &&
               hasLearn &&
@@ -884,24 +895,35 @@ class SidebarController extends GetxController {
               final String normalizedTopic = lesson.topic.trim().toLowerCase();
               final lessonProgress = globalProgressCache
                   .where(
-                      (p) => p.lessonId.trim().toLowerCase() == normalizedTopic)
+                    (p) => p.lessonId.trim().toLowerCase() == normalizedTopic,
+                  )
                   .toList();
 
-              final hasGetReady = lessonProgress.any((p) =>
-                  p.activityType.toLowerCase() == 'get_ready' && p.isCompleted);
-              final hasLearn = lessonProgress.any((p) =>
-                  p.activityType.toLowerCase() == 'learn' &&
-                  p.subActivity ==
-                      'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
-                  p.isCompleted);
-              final hasPractice = lessonProgress.any((p) =>
-                  p.activityType.toLowerCase() == 'guided_practice' &&
-                  p.isCompleted);
-              final hasIndependent = lessonProgress.any((p) =>
-                  p.activityType.toLowerCase() == 'independent' &&
-                  p.isCompleted);
-              final hasQuiz = lessonProgress.any((p) =>
-                  p.activityType.toLowerCase() == 'quiz' && p.isCompleted);
+              final hasGetReady = lessonProgress.any(
+                (p) =>
+                    p.activityType.toLowerCase() == 'get_ready' &&
+                    p.isCompleted,
+              );
+              final hasLearn = lessonProgress.any(
+                (p) =>
+                    p.activityType.toLowerCase() == 'learn' &&
+                    p.subActivity ==
+                        'part_${String.fromCharCode(96 + lesson.learn.parts.length)}' &&
+                    p.isCompleted,
+              );
+              final hasPractice = lessonProgress.any(
+                (p) =>
+                    p.activityType.toLowerCase() == 'guided_practice' &&
+                    p.isCompleted,
+              );
+              final hasIndependent = lessonProgress.any(
+                (p) =>
+                    p.activityType.toLowerCase() == 'independent' &&
+                    p.isCompleted,
+              );
+              final hasQuiz = lessonProgress.any(
+                (p) => p.activityType.toLowerCase() == 'quiz' && p.isCompleted,
+              );
 
               if (hasGetReady &&
                   hasLearn &&
@@ -988,7 +1010,7 @@ class SidebarController extends GetxController {
       "Career",
       "Computing",
       "Creative Arts",
-      "French"
+      "French",
     ]) {
       selectedActivityStatsFilters[title] = "Today";
     }
@@ -1115,32 +1137,36 @@ class SidebarController extends GetxController {
               final String normalStrandTitle = subStrand.title;
               final String normalSubStrandTitle = lesson.topic;
 
-              final beceObjectives = allBeceProgress.firstWhereOrNull((p) =>
-                  p.courseName.toLowerCase() == course.title.toLowerCase() &&
-                  p.strandName.toLowerCase() ==
-                      normalStrandTitle.toLowerCase() &&
-                  p.subStrandName.toLowerCase() ==
-                      normalSubStrandTitle.toLowerCase() &&
-                  p.gradeName == selectedGrade.value &&
-                  p.activityType == 'objectives' &&
-                  p.lastAttemptScore != null &&
-                  p.lastQuestionIndex != null &&
-                  p.totalQuestions != null &&
-                  p.totalQuestions! > 0 &&
-                  p.lastQuestionIndex! >= p.totalQuestions!);
+              final beceObjectives = allBeceProgress.firstWhereOrNull(
+                (p) =>
+                    p.courseName.toLowerCase() == course.title.toLowerCase() &&
+                    p.strandName.toLowerCase() ==
+                        normalStrandTitle.toLowerCase() &&
+                    p.subStrandName.toLowerCase() ==
+                        normalSubStrandTitle.toLowerCase() &&
+                    p.gradeName == selectedGrade.value &&
+                    p.activityType == 'objectives' &&
+                    p.lastAttemptScore != null &&
+                    p.lastQuestionIndex != null &&
+                    p.totalQuestions != null &&
+                    p.totalQuestions! > 0 &&
+                    p.lastQuestionIndex! >= p.totalQuestions!,
+              );
 
-              final beceTheory = allBeceProgress.firstWhereOrNull((p) =>
-                  p.courseName.toLowerCase() == course.title.toLowerCase() &&
-                  p.strandName.toLowerCase() ==
-                      normalStrandTitle.toLowerCase() &&
-                  p.subStrandName.toLowerCase() ==
-                      normalSubStrandTitle.toLowerCase() &&
-                  p.gradeName == selectedGrade.value &&
-                  p.activityType == 'theory' &&
-                  p.lastQuestionIndex != null &&
-                  p.totalQuestions != null &&
-                  p.totalQuestions! > 0 &&
-                  p.lastQuestionIndex! >= p.totalQuestions!);
+              final beceTheory = allBeceProgress.firstWhereOrNull(
+                (p) =>
+                    p.courseName.toLowerCase() == course.title.toLowerCase() &&
+                    p.strandName.toLowerCase() ==
+                        normalStrandTitle.toLowerCase() &&
+                    p.subStrandName.toLowerCase() ==
+                        normalSubStrandTitle.toLowerCase() &&
+                    p.gradeName == selectedGrade.value &&
+                    p.activityType == 'theory' &&
+                    p.lastQuestionIndex != null &&
+                    p.totalQuestions != null &&
+                    p.totalQuestions! > 0 &&
+                    p.lastQuestionIndex! >= p.totalQuestions!,
+              );
 
               String? quizScoreStr;
               String? quizOriginalScoreStr;
@@ -1149,8 +1175,8 @@ class SidebarController extends GetxController {
                   beceObjectives.lastAttemptScore != null &&
                   beceObjectives.totalQuestions != null &&
                   beceObjectives.totalQuestions! > 0) {
-                double lastScore =
-                    (beceObjectives.lastAttemptScore ?? 0).toDouble();
+                double lastScore = (beceObjectives.lastAttemptScore ?? 0)
+                    .toDouble();
                 double totalQ = (beceObjectives.totalQuestions ?? 1).toDouble();
                 double pct = (totalQ > 0 && lastScore <= totalQ)
                     ? (lastScore / totalQ) * 100
@@ -1159,8 +1185,8 @@ class SidebarController extends GetxController {
                 quizScoreStr = "$percentage%";
 
                 if (beceObjectives.firstAttemptScore != null) {
-                  double firstScore =
-                      beceObjectives.firstAttemptScore!.toDouble();
+                  double firstScore = beceObjectives.firstAttemptScore!
+                      .toDouble();
                   double origPct = (totalQ > 0 && firstScore <= totalQ)
                       ? (firstScore / totalQ) * 100
                       : firstScore;
@@ -1174,7 +1200,7 @@ class SidebarController extends GetxController {
 
               final isLessonCompleted = (hasQuiz || hasPractice)
                   ? ((!hasQuiz || beceObjectives != null) &&
-                      (!hasPractice || beceTheory != null))
+                        (!hasPractice || beceTheory != null))
                   : true;
 
               if (!isLessonCompleted) {
@@ -1206,20 +1232,27 @@ class SidebarController extends GetxController {
 
               // Fetch all progress for this lesson from cache to avoid multiple queries
               final lessonProgress = globalProgressCache
-                  .where((p) =>
-                      p.lessonId.trim().toLowerCase() ==
-                      normalizedTopic.toLowerCase())
+                  .where(
+                    (p) =>
+                        p.lessonId.trim().toLowerCase() ==
+                        normalizedTopic.toLowerCase(),
+                  )
                   .toList();
 
               // Filter for each activity type (case-insensitive check for safety)
               final getReadyProgress = lessonProgress
-                  .where((p) =>
-                      p.activityType.toLowerCase() == 'get_ready' &&
-                      p.isCompleted)
+                  .where(
+                    (p) =>
+                        p.activityType.toLowerCase() == 'get_ready' &&
+                        p.isCompleted,
+                  )
                   .toList();
               final learnProgress = lessonProgress
-                  .where((p) =>
-                      p.activityType.toLowerCase() == 'learn' && p.isCompleted)
+                  .where(
+                    (p) =>
+                        p.activityType.toLowerCase() == 'learn' &&
+                        p.isCompleted,
+                  )
                   .toList();
 
               ActivityProgress? practice;
@@ -1231,16 +1264,16 @@ class SidebarController extends GetxController {
                 final type = p.activityType.toLowerCase();
                 if (type == 'guided_practice') {
                   if (practice == null ||
-                      p.lastUpdated
-                          .toUtc()
-                          .isAfter(practice.lastUpdated.toUtc())) {
+                      p.lastUpdated.toUtc().isAfter(
+                        practice.lastUpdated.toUtc(),
+                      )) {
                     practice = p;
                   }
                 } else if (type == 'independent') {
                   if (independent == null ||
-                      p.lastUpdated
-                          .toUtc()
-                          .isAfter(independent.lastUpdated.toUtc())) {
+                      p.lastUpdated.toUtc().isAfter(
+                        independent.lastUpdated.toUtc(),
+                      )) {
                     independent = p;
                   }
                 } else if (type == 'quiz') {
@@ -1326,7 +1359,8 @@ class SidebarController extends GetxController {
                     'part_${String.fromCharCode(96 + lesson.learn.parts.length)}',
               );
 
-              final isLessonCompleted = latestGetReady != null &&
+              final isLessonCompleted =
+                  latestGetReady != null &&
                   hasFinishedLastLearnPart &&
                   practice != null &&
                   independent != null &&
@@ -1346,11 +1380,13 @@ class SidebarController extends GetxController {
                       : null,
                   practiceDoneDate: () {
                     if (independent != null && practice != null) {
-                      return dateFormat.format(independent.lastUpdated
-                              .toUtc()
-                              .isAfter(practice.lastUpdated.toUtc())
-                          ? independent.lastUpdated
-                          : practice.lastUpdated);
+                      return dateFormat.format(
+                        independent.lastUpdated.toUtc().isAfter(
+                              practice.lastUpdated.toUtc(),
+                            )
+                            ? independent.lastUpdated
+                            : practice.lastUpdated,
+                      );
                     } else if (independent != null) {
                       return dateFormat.format(independent.lastUpdated);
                     } else if (practice != null) {
@@ -1360,8 +1396,9 @@ class SidebarController extends GetxController {
                   }(),
                   practiceScore: practiceScoreStr,
                   practiceOriginalScore: practiceOriginalScoreStr,
-                  quizDoneDate:
-                      quiz != null ? dateFormat.format(quiz.lastUpdated) : null,
+                  quizDoneDate: quiz != null
+                      ? dateFormat.format(quiz.lastUpdated)
+                      : null,
                   quizScore: quizScoreStr,
                   quizOriginalScore: quizOriginalScoreStr,
                   courseName: course.title,
@@ -1483,9 +1520,11 @@ class SidebarController extends GetxController {
 
     // Practice
     final practiceRecords = courseProgress
-        .where((p) =>
-            p.activityType.toLowerCase() == 'independent' ||
-            p.activityType.toLowerCase() == 'guided_practice')
+        .where(
+          (p) =>
+              p.activityType.toLowerCase() == 'independent' ||
+              p.activityType.toLowerCase() == 'guided_practice',
+        )
         .toList();
     int practicePercentage = 0;
     if (practiceRecords.isNotEmpty) {
@@ -1626,8 +1665,9 @@ class SidebarController extends GetxController {
     final activityCount = courseProgress.length;
 
     // Quiz Score
-    final quizRecords =
-        courseProgress.where((p) => p.activityType == 'quiz').toList();
+    final quizRecords = courseProgress
+        .where((p) => p.activityType == 'quiz')
+        .toList();
     double avgQuizScore = 0;
     if (quizRecords.isNotEmpty) {
       double totalPercent = 0;
@@ -1655,8 +1695,9 @@ class SidebarController extends GetxController {
       }
     }
     final totalHours = (totalMinutes / 60).toStringAsFixed(1);
-    final avgDailyHours =
-        (totalMinutes / (60 * daysInPeriod)).toStringAsFixed(2);
+    final avgDailyHours = (totalMinutes / (60 * daysInPeriod)).toStringAsFixed(
+      2,
+    );
 
     return {
       "activityCount": activityCount,
@@ -1763,8 +1804,9 @@ class SidebarController extends GetxController {
           .toList();
 
       final count = dayProgress.length;
-      final quizRecords =
-          dayProgress.where((p) => p.activityType == 'quiz').toList();
+      final quizRecords = dayProgress
+          .where((p) => p.activityType == 'quiz')
+          .toList();
       double score = 0;
       if (quizRecords.isNotEmpty) {
         double total = 0;
@@ -1804,8 +1846,11 @@ class SidebarController extends GetxController {
     return dailyStats;
   }
 
-  List<Strand> _generateDummyStrands(String courseTitle, String grade,
-      {bool includeBece = true}) {
+  List<Strand> _generateDummyStrands(
+    String courseTitle,
+    String grade, {
+    bool includeBece = true,
+  }) {
     final Map<String, List<Map<String, dynamic>>> courseData = {
       "English": [
         {
@@ -1842,7 +1887,7 @@ class SidebarController extends GetxController {
                 "BECOMING A READING DETECTIVE",
                 "BECOMING A FICTION DETECTIVE (INFERENCE AND QUESTIONS)",
                 "THE ARCHITECTS OF READING (TEXT STRUCTURES)",
-                "THE FACT-CHECKING DETECTIVE (NON-FICTION ANALYSIS)"
+                "THE FACT-CHECKING DETECTIVE (NON-FICTION ANALYSIS)",
               ],
             },
             {
@@ -1900,7 +1945,7 @@ class SidebarController extends GetxController {
                 "NARRATIVE WRITING – TELLING A STORY",
                 "GIVING DIRECTIONS AND INSTRUCTIONS",
                 "PERSUASIVE WRITING – THE POWER OF ARGUMENT",
-                "EXPOSITORY WRITING – NOTICES AND EXPLANATIONS"
+                "EXPOSITORY WRITING – NOTICES AND EXPLANATIONS",
               ],
             },
             {
@@ -1989,7 +2034,7 @@ class SidebarController extends GetxController {
                 "Domestic Animals and Their Breeds",
                 "Similarities and Differences Among Domestic Animals",
                 "Domestic and Commercial Uses of Animals",
-                "Observing and Comparing Animal Uses"
+                "Observing and Comparing Animal Uses",
               ],
             },
           ],
@@ -2002,7 +2047,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "The Concept of Food and Why We Eat",
                 "Stages of Digestion in Humans",
-                "End Products of Digestion and Absorption"
+                "End Products of Digestion and Absorption",
               ],
             },
             {
@@ -2012,7 +2057,7 @@ class SidebarController extends GetxController {
                 "Properties and Motions of Mercury and Venus",
                 "Properties and Motions of Earth and Mars",
                 "The Outer Planets (The Gas Giants)",
-                "Building a Model of the Solar System"
+                "Building a Model of the Solar System",
               ],
             },
             {
@@ -2021,7 +2066,7 @@ class SidebarController extends GetxController {
                 "Ecosystem as a Self-Sustaining Unit",
                 "Identifying And Listing the Components (Biotic and Abiotic) of Each Category of Ecosystem.",
                 "Differentiating Among Organisms in the Different Ecosystems (Terrestrial, Aquatic, and Arboreal).",
-                "How The Components (Biotic and Abiotic) of the Different Ecosystems Affect One Another."
+                "How The Components (Biotic and Abiotic) of the Different Ecosystems Affect One Another.",
               ],
             },
             {
@@ -2029,7 +2074,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Differences Among Farming Systems",
                 "Categorising Farming Systems",
-                "Usefulness of Different Farming Systems"
+                "Usefulness of Different Farming Systems",
               ],
             },
             // {
@@ -2049,7 +2094,7 @@ class SidebarController extends GetxController {
                 "Mathematical Expressions for Potential and Kinetic Energy",
                 "Heat Transfer in Various Media (Conduction, Convection, and Radiation)",
                 "Characteristics of Light (Straight-line travel, Reflection, and Refraction)",
-                "Dispersion of Light"
+                "Dispersion of Light",
               ],
             },
             {
@@ -2059,7 +2104,7 @@ class SidebarController extends GetxController {
                 "IMPACT OF ELECTRICITY GENERATION ON THE ENVIRONMENT",
                 "ASSEMBLING BASIC ELECTRONIC COMPONENTS",
                 "COMPONENT FUNCTIONS AND INTERDEPENDENCE",
-                "ADVANCED COMPONENT FUNCTIONS (RESISTORS, DIODES, AND INDUCTORS)"
+                "ADVANCED COMPONENT FUNCTIONS (RESISTORS, DIODES, AND INDUCTORS)",
               ],
             },
             {
@@ -2067,7 +2112,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "The Principle of Conservation and Conversion of Energy",
                 "Everyday Conversion of Energy into Useable Forms",
-                "Conserving Energy for the Future"
+                "Conserving Energy for the Future",
               ],
             },
             {
@@ -2079,7 +2124,7 @@ class SidebarController extends GetxController {
                 "Behavior of Magnets and Their Uses",
                 "Identifying Simple Machines",
                 "Types and Functions of Levers",
-                "Work Input, Output, and Efficiency"
+                "Work Input, Output, and Efficiency",
               ],
             },
             {
@@ -2099,14 +2144,14 @@ class SidebarController extends GetxController {
               "topics": [
                 "Introduction to Waste and Management Practices",
                 "Planning and Reporting a Clean-up Project",
-                'The Science of Waste and Disposal'
+                'The Science of Waste and Disposal',
               ],
             },
             {
               "subtitle": "HUMAN HEALTH",
               "topics": [
                 "Food Nutrients and Deficiency Diseases",
-                "Viral Diseases (COVID-19, Ebola, and H1N1)"
+                "Viral Diseases (COVID-19, Ebola, and H1N1)",
               ],
             },
             {
@@ -2118,14 +2163,14 @@ class SidebarController extends GetxController {
               "topics": [
                 "Sustainable Energy Choices and Scientific Ideas",
                 "The Greenhouse Effect and How to Minimise It",
-                "Designing a Project for Local Energy Sustainability"
+                "Designing a Project for Local Energy Sustainability",
               ],
             },
             {
               "subtitle": "UNDERSTANDING THE ENVIRONMENT",
               "topics": [
                 "Plants and Animals in Different Landforms",
-                "Nature of Associations among Plants and Animals"
+                "Nature of Associations among Plants and Animals",
               ],
             },
           ],
@@ -2286,7 +2331,7 @@ class SidebarController extends GetxController {
             {
               "subtitle": "TOURISM",
               "topics": [
-                "THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT"
+                "THE ROLE OF TOURISM AND LEISURE IN GHANA’S DEVELOPMENT",
               ],
             },
           ],
@@ -2300,7 +2345,7 @@ class SidebarController extends GetxController {
                 "THE ACCELERATION OF INDEPENDENCE AFTER THE 1948 RIOTS,",
                 "THE FORMATION OF THE CONVENTION PEOPLE'S PARTY (1949)",
                 "THE COUSSEY COMMITTEE AND THE ELECTIONS OF 1951, 1954, AND 1956",
-                "THE NATURE OF GOVERNMENT FROM 1957 TO 1960"
+                "THE NATURE OF GOVERNMENT FROM 1957 TO 1960",
               ],
             },
           ],
@@ -2457,7 +2502,7 @@ class SidebarController extends GetxController {
                 "EXAMINING CONNECTIONS AND OTHER POINTS OF VIEW",
                 "USING DERIVATION TO EXPAND VOCABULARY",
                 "INTEGRATING GRADE-LEVEL VOCABULARY IN CONTEXT",
-                "DETERMINING THE CENTRAL IDEA AND SUPPORTING IDEAS"
+                "DETERMINING THE CENTRAL IDEA AND SUPPORTING IDEAS",
               ],
             },
           ],
@@ -2475,7 +2520,7 @@ class SidebarController extends GetxController {
                 "KNOWLEDGE OF ADVERBS",
                 "USE OF PREPOSITIONS",
                 "REPORTED SPEECH",
-                "QUESTION TAGS"
+                "QUESTION TAGS",
               ],
             },
             {
@@ -2496,7 +2541,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "CREATING COHESIVE PARAGRAPHS",
                 "INTRODUCTORY PARAGRAPHS AND HOOKS",
-                "EXPANDING SENTENCES WITH PHRASES AND CLAUSES"
+                "EXPANDING SENTENCES WITH PHRASES AND CLAUSES",
               ],
             },
             {
@@ -2510,7 +2555,7 @@ class SidebarController extends GetxController {
                 "COMPOSING NOTES, BROCHURES, AND FLYERS",
                 "WRITING ARTICLES FOR SCHOOL MAGAZINES",
                 "CREATING DIALOGUES",
-                "COMPOSING SPEECHES"
+                "COMPOSING SPEECHES",
               ],
             },
             {
@@ -2546,7 +2591,7 @@ class SidebarController extends GetxController {
                 "MOURNING A MOTHER IN \"SLEEP WITHOUT WAKE\" BY A. A. AMOAKO",
                 "SURVIVAL AND RESILIENCE IN \"OLIVER TWIST\"",
                 "RETURNING TO ROOTS IN \"HOME SWEET HOME\" BY KEN SARO-WIWA",
-                "COMPASSION IN \"DEBBIE, SANDY AND PEPE\""
+                "COMPASSION IN \"DEBBIE, SANDY AND PEPE\"",
               ],
             },
           ],
@@ -2581,14 +2626,14 @@ class SidebarController extends GetxController {
               "subtitle": "EARTH SCIENCE",
               "topics": [
                 "The Process of the Carbon Cycle",
-                "The Role of the Carbon Cycle to the Environment"
+                "The Role of the Carbon Cycle to the Environment",
               ],
             },
             {
               "subtitle": "LIFE CYCLE OF ORGANISMS",
               "topics": [
                 "The Life Cycle of the Anopheles Mosquito",
-                "Impact and Control of the Anopheles Mosquito"
+                "Impact and Control of the Anopheles Mosquito",
               ],
             },
             {
@@ -2596,7 +2641,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Exploring Seed Beds in the Community",
                 "Planting Different Types of Crops on Different Seed Beds",
-                "Comparing Crop Growth in Different Seed Beds"
+                "Comparing Crop Growth in Different Seed Beds",
               ],
             },
             {
@@ -2604,7 +2649,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Types of Animal Feed",
                 "Nutrients in Animal Feed (Proteins, Carbohydrates, and Fats)",
-                "Vitamins and Minerals (The Protective Nutrients)"
+                "Vitamins and Minerals (The Protective Nutrients)",
               ],
             },
           ],
@@ -2617,14 +2662,12 @@ class SidebarController extends GetxController {
               "topics": [
                 "Parts of a Mammalian Tooth",
                 "Types and Functions of Teeth",
-                "Tooth and Gum Decay (Causes and Prevention)"
+                "Tooth and Gum Decay (Causes and Prevention)",
               ],
             },
             {
               "subtitle": "THE SOLAR SYSTEM",
-              "topics": [
-                "The Outer Planets and Their Properties",
-              ],
+              "topics": ["The Outer Planets and Their Properties"],
             },
             {
               "subtitle": "ECOSYSTEM",
@@ -2634,7 +2677,7 @@ class SidebarController extends GetxController {
               "subtitle": "FARMING SYSTEMS",
               "topics": [
                 "Types of crops, animals and land combinations for the different farming systems",
-                "Usefulness of Different Crops and Animals in Farming Systems"
+                "Usefulness of Different Crops and Animals in Farming Systems",
               ],
             },
           ],
@@ -2649,21 +2692,21 @@ class SidebarController extends GetxController {
                 "The Importance of Energy Conversion",
                 "Renewable and Non-Renewable Energy",
                 "Managing Renewable Energy Sustainably",
-                "Heat and Temperature"
+                "Heat and Temperature",
               ],
             },
             {
               "subtitle": "ELECTRICITY AND ELECTRONICS",
               "topics": [
                 "Electricity Transmission",
-                "Capacitors and Electronic Components"
+                "Capacitors and Electronic Components",
               ],
             },
             {
               "subtitle": "CONVERSION AND CONSERVATION OF ENERGY",
               "topics": [
                 "Importance of Energy Conversion and Conservation",
-                "Environmental Impact and Energy Auditing"
+                "Environmental Impact and Energy Auditing",
               ],
             },
             {
@@ -2671,14 +2714,14 @@ class SidebarController extends GetxController {
               "topics": [
                 "Understanding Complex Machines",
                 "Making Magnets and Their Applications",
-                "Magnetic Force and Newton’s Second Law of Motion"
+                "Magnetic Force and Newton’s Second Law of Motion",
               ],
             },
             {
               "subtitle": "AGRICULTURAL TOOLS",
               "topics": [
                 "Identifying Basic Agricultural Tools",
-                "Using Basic Agricultural Tools Effectively"
+                "Using Basic Agricultural Tools Effectively",
               ],
             },
           ],
@@ -2690,7 +2733,7 @@ class SidebarController extends GetxController {
               "subtitle": "WASTE MANAGEMENT",
               "topics": [
                 "Sustainable Waste Management Practices",
-                "Applying Waste Management in the Community"
+                "Applying Waste Management in the Community",
               ],
             },
             {
@@ -2699,14 +2742,14 @@ class SidebarController extends GetxController {
                 "Common Communicable Diseases",
                 "Risk Factors of Communicable Diseases",
                 "The Nature of Bacterial Diseases",
-                "Prevention and Management of Bacterial Diseases"
+                "Prevention and Management of Bacterial Diseases",
               ],
             },
             {
               "subtitle": "SCIENCE AND INDUSTRY",
               "topics": [
                 "The Link Between Science, Technology, and Innovation",
-                "Technological Advancements and the Ghanaian Environment"
+                "Technological Advancements and the Ghanaian Environment",
               ],
             },
             {
@@ -2718,7 +2761,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Physical Properties of Soils",
                 "How Plants Absorb Water and Nutrients",
-                "Rocks as Origins of Soil"
+                "Rocks as Origins of Soil",
               ],
             },
           ],
@@ -3050,7 +3093,7 @@ class SidebarController extends GetxController {
                 "DEFINING AND NON-DEFINING RELATIVE CLAUSES",
                 "SUBJECT AND PREDICATE",
                 "ACTIVE AND PASSIVE VOICE",
-                "REPORTED SPEECH"
+                "REPORTED SPEECH",
               ],
             },
             {
@@ -3061,7 +3104,7 @@ class SidebarController extends GetxController {
               "subtitle": "VOCABULARY",
               "topics": [
                 "INTERPRETING VOCABULARY IN CONTEXT",
-                "SPELLING CONVENTIONS AND DICTIONARY USAGE"
+                "SPELLING CONVENTIONS AND DICTIONARY USAGE",
               ],
             },
           ],
@@ -3075,7 +3118,7 @@ class SidebarController extends GetxController {
                 "BUILDING COHESIVE PARAGRAPHS",
                 "TELLING TALES: WRITING NARRATIVE ESSAYS",
                 "LETTER WRITING WITH COHESION",
-                "THE ART OF SUMMARISING"
+                "THE ART OF SUMMARISING",
               ],
             },
             {
@@ -3088,7 +3131,7 @@ class SidebarController extends GetxController {
                 "FORMAL WRITING FOR SPECIFIC LIFE SITUATIONS",
                 "CREATING SHORT TEXTS FOR DIFFERENT AUDIENCES",
                 "WRITING ARTICLES FOR PUBLICATION",
-                "COMPOSING SPEECHES"
+                "COMPOSING SPEECHES",
               ],
             },
             {
@@ -3099,9 +3142,9 @@ class SidebarController extends GetxController {
                 "MONOLOGUES AND DIALOGUES IN PLAY SCRIPTS",
                 "SEQUENCING EVENTS IN TEXTS AND MEDIA",
                 "USING LITERARY DEVICES (IMAGERY) IN TEXTS",
-                "ANALYSING COMMON THEMES IN TEXTS"
-              ]
-            }
+                "ANALYSING COMMON THEMES IN TEXTS",
+              ],
+            },
           ],
         },
       ],
@@ -3135,14 +3178,14 @@ class SidebarController extends GetxController {
               "subtitle": "EARTH SCIENCES",
               "topics": [
                 "The Process of the Nitrogen Cycle",
-                "Importance of the Nitrogen Cycle"
+                "Importance of the Nitrogen Cycle",
               ],
             },
             {
               "subtitle": "LIFE CYCLE OF ORGANISMS",
               "topics": [
                 "The Life Cycle of the Grasshopper",
-                "How Grasshoppers Affect Humans"
+                "How Grasshoppers Affect Humans",
               ],
             },
             {
@@ -3150,7 +3193,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Maturation of Crops in Different Soils",
                 "Uses of Crops at Different Maturity Stages",
-                "Importance of Knowing Maturity Stages"
+                "Importance of Knowing Maturity Stages",
               ],
             },
             {
@@ -3159,7 +3202,7 @@ class SidebarController extends GetxController {
                 "Ingredients and preparation of feed for domestic and commercial animals",
                 "SELECTING FEED FOR DIFFERENT ANIMAL GROUPS",
                 "FEEDING FOR GROWTH STAGES",
-                "FEEDING PRACTICES AND RECORD KEEPING"
+                "FEEDING PRACTICES AND RECORD KEEPING",
               ],
             },
           ],
@@ -3176,7 +3219,7 @@ class SidebarController extends GetxController {
                 "The Concept of Respiration",
                 "Structure and Functions of the Respiratory System",
                 "The Mechanism of Breathing (Inhalation and Exhalation)",
-                "How the Respiratory and Circulatory Systems Work Together"
+                "How the Respiratory and Circulatory Systems Work Together",
               ],
             },
             {
@@ -3184,7 +3227,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Non-Planetary Bodies: Asteroids and Comets",
                 "Space Rocks: Meteoroids, Meteors, and Meteorites",
-                "The Dwarf Planets: Small but Mighty"
+                "The Dwarf Planets: Small but Mighty",
               ],
             },
             {
@@ -3192,7 +3235,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "HABITATS AND ECOSYSTEMS",
                 "FOOD CHAINS AND FOOD WEBS",
-                "ECOSYSTEM BALANCE AND INTERFERENCES"
+                "ECOSYSTEM BALANCE AND INTERFERENCES",
               ],
             },
             {
@@ -3200,7 +3243,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Sources and Types of Manure",
                 "Demonstrating the Preparation of Manure",
-                "Treating and Curing Manure (B9.3.4.1.3)"
+                "Treating and Curing Manure (B9.3.4.1.3)",
               ],
             },
           ],
@@ -3217,21 +3260,21 @@ class SidebarController extends GetxController {
                 "Image Formation in Cameras",
                 "The Formation of Shadows",
                 "The Formation of an Eclipse",
-                "The Application of Light Energy (Refraction)"
+                "The Application of Light Energy (Refraction)",
               ],
             },
             {
               "subtitle": "ELECTRICITY AND ELECTRONICS",
               "topics": [
                 "Energy Transformation and Ohm’s Law",
-                "Electronic Components (Diodes, LEDs, and Capacitors)"
+                "Electronic Components (Diodes, LEDs, and Capacitors)",
               ],
             },
             {
               "subtitle": "CONVERSION AND CONSERVATION OF ENERGY",
               "topics": [
                 "Energy Conversion and the Law of Conservation",
-                "Applications of Energy Conversion and Conservation"
+                "Applications of Energy Conversion and Conservation",
               ],
             },
             {
@@ -3239,7 +3282,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Understanding Pressure",
                 "Newton’s Third Law of Motion",
-                "Newton's Second Law and Momentum (F = ma)"
+                "Newton's Second Law and Momentum (F = ma)",
               ],
             },
             {
@@ -3247,7 +3290,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Materials for Making Agricultural Tools",
                 "Processes and Precautions in Making Tools",
-                "Manufacturing Simple Agricultural Tools"
+                "Manufacturing Simple Agricultural Tools",
               ],
             },
           ],
@@ -3263,7 +3306,7 @@ class SidebarController extends GetxController {
                 "Auditing and Assessing Waste Management Effectiveness",
                 "The Environmental Impact of Waste",
                 "Innovative Waste Management for Sustainable Development",
-                "Waste Types and Management Practices in Ghana"
+                "Waste Types and Management Practices in Ghana",
               ],
             },
             {
@@ -3271,7 +3314,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Non-Communicable Diseases (NCDs)",
                 "Concepts of Health and Common Diseases",
-                "Fungal Diseases (Ringworm and Candidiasis)"
+                "Fungal Diseases (Ringworm and Candidiasis)",
               ],
             },
             {
@@ -3279,14 +3322,14 @@ class SidebarController extends GetxController {
               "topics": [
                 "Scientific Concepts in Local Industries",
                 "Modern vs. Indigenous Industries",
-                "Scientific Processes in Indigenous Industries"
+                "Scientific Processes in Indigenous Industries",
               ],
             },
             {
               "subtitle": "CLIMATE CHANGE AND GREEN ECONOMY",
               "topics": [
                 "Factors Influencing Climate Change",
-                "Climate Change Actions in Ghana and the World"
+                "Climate Change Actions in Ghana and the World",
               ],
             },
             {
@@ -3294,7 +3337,7 @@ class SidebarController extends GetxController {
               "topics": [
                 "Agricultural Uses of Plant Parts",
                 "Non-Agricultural Uses of Plant Parts",
-                "Creating and Demonstrating Plant Part Uses"
+                "Creating and Demonstrating Plant Part Uses",
               ],
             },
           ],
@@ -3562,8 +3605,8 @@ class SidebarController extends GetxController {
     final strandsData = grade == "JHS 2"
         ? (jhs2CourseData[courseTitle] ?? jhs2CourseData["English"]!)
         : grade == "JHS 3"
-            ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
-            : (courseData[courseTitle] ?? courseData["English"]!);
+        ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
+        : (courseData[courseTitle] ?? courseData["English"]!);
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
@@ -4640,6 +4683,588 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     computingJhs2S4Ss1Lesson4IndependentQuizData;
                 quizData = computingJhs2S4Ss1Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 4) {
+                practiceData = computingJhs2S4Ss1Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss1Lesson5IndependentQuizData;
+                quizData = computingJhs2S4Ss1Lesson5QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S4Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs2S4Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S4Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss2Lesson2IndependentQuizData;
+                quizData = computingJhs2S4Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S4Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss2Lesson3IndependentQuizData;
+                quizData = computingJhs2S4Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 3) {
+                practiceData = computingJhs2S4Ss2Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss2Lesson4IndependentQuizData;
+                quizData = computingJhs2S4Ss2Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 4) {
+                practiceData = computingJhs2S4Ss2Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss2Lesson5IndependentQuizData;
+                quizData = computingJhs2S4Ss2Lesson5QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S4Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss3Lesson1IndependentQuizData;
+                quizData = computingJhs2S4Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S4Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss3Lesson2IndependentQuizData;
+                quizData = computingJhs2S4Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S4Ss3Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss3Lesson3IndependentQuizData;
+                quizData = computingJhs2S4Ss3Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 3) {
+                practiceData = computingJhs2S4Ss3Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss3Lesson4IndependentQuizData;
+                quizData = computingJhs2S4Ss3Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                practiceData = computingJhs2S4Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss4Lesson1IndependentQuizData;
+                quizData = computingJhs2S4Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                practiceData = computingJhs2S4Ss4Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss4Lesson2IndependentQuizData;
+                quizData = computingJhs2S4Ss4Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                practiceData = computingJhs2S4Ss4Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss4Lesson3IndependentQuizData;
+                quizData = computingJhs2S4Ss4Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 3) {
+                practiceData = computingJhs2S4Ss4Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss4Lesson4IndependentQuizData;
+                quizData = computingJhs2S4Ss4Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 4) {
+                practiceData = computingJhs2S4Ss4Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs2S4Ss4Lesson5IndependentQuizData;
+                quizData = computingJhs2S4Ss4Lesson5QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S1Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss1Lesson1IndependentQuizData;
+                quizData = computingJhs3S1Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S1Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss1Lesson2IndependentQuizData;
+                quizData = computingJhs3S1Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S1Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss1Lesson3IndependentQuizData;
+                quizData = computingJhs3S1Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                practiceData = computingJhs3S1Ss1Lesson4PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss1Lesson4IndependentQuizData;
+                quizData = computingJhs3S1Ss1Lesson4QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 4) {
+                practiceData = computingJhs3S1Ss1Lesson5PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss1Lesson5IndependentQuizData;
+                quizData = computingJhs3S1Ss1Lesson5QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 5) {
+                practiceData = computingJhs3S1Ss1Lesson6PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss1Lesson6IndependentQuizData;
+                quizData = computingJhs3S1Ss1Lesson6QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S1Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs3S1Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S1Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss2Lesson2IndependentQuizData;
+                quizData = computingJhs3S1Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S1Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss2Lesson3IndependentQuizData;
+                quizData = computingJhs3S1Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S1Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss3Lesson1IndependentQuizData;
+                quizData = computingJhs3S1Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S1Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S1Ss3Lesson2IndependentQuizData;
+                quizData = computingJhs3S1Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S2Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss1Lesson1IndependentQuizData;
+                quizData = computingJhs3S2Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S2Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss1Lesson2IndependentQuizData;
+                quizData = computingJhs3S2Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S2Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss1Lesson3IndependentQuizData;
+                quizData = computingJhs3S2Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S2Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs3S2Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S2Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss2Lesson2IndependentQuizData;
+                quizData = computingJhs3S2Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S2Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss2Lesson3IndependentQuizData;
+                quizData = computingJhs3S2Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S2Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss3Lesson1IndependentQuizData;
+                quizData = computingJhs3S2Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S2Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss3Lesson2IndependentQuizData;
+                quizData = computingJhs3S2Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S2Ss3Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss3Lesson3IndependentQuizData;
+                quizData = computingJhs3S2Ss3Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S2Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss4Lesson1IndependentQuizData;
+                quizData = computingJhs3S2Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S2Ss4Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss4Lesson2IndependentQuizData;
+                quizData = computingJhs3S2Ss4Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S2Ss4Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S2Ss4Lesson3IndependentQuizData;
+                quizData = computingJhs3S2Ss4Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S3Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss1Lesson1IndependentQuizData;
+                quizData = computingJhs3S3Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S3Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss1Lesson2IndependentQuizData;
+                quizData = computingJhs3S3Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S3Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs3S3Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S3Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss3Lesson1IndependentQuizData;
+                quizData = computingJhs3S3Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S3Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss3Lesson2IndependentQuizData;
+                quizData = computingJhs3S3Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S3Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss4Lesson1IndependentQuizData;
+                quizData = computingJhs3S3Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S3Ss4Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss4Lesson2IndependentQuizData;
+                quizData = computingJhs3S3Ss4Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S3Ss4Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S3Ss4Lesson3IndependentQuizData;
+                quizData = computingJhs3S3Ss4Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S4Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S4Ss1Lesson1IndependentQuizData;
+                quizData = computingJhs3S4Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S4Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S4Ss1Lesson2IndependentQuizData;
+                quizData = computingJhs3S4Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                practiceData = computingJhs3S4Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    computingJhs3S4Ss1Lesson3IndependentQuizData;
+                quizData = computingJhs3S4Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S4Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S4Ss2Lesson1IndependentQuizData;
+                quizData = computingJhs3S4Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                practiceData = computingJhs3S4Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    computingJhs3S4Ss2Lesson2IndependentQuizData;
+                quizData = computingJhs3S4Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S4Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S4Ss3Lesson1IndependentQuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "COMPUTING" &&
+                  sIndex == 3 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                practiceData = computingJhs3S4Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    computingJhs3S4Ss4Lesson1IndependentQuizData;
+                quizData = computingJhs3S4Ss4Lesson1QuizData;
               }
 
               // if (grade == "JHS 2" &&
@@ -10386,16 +11011,18 @@ class SidebarController extends GetxController {
         final normalStrand = generatedStrands[sIndex];
 
         List<Lesson> beceLessonsForStrand = [];
-        for (int ssIndex = 0;
-            ssIndex < normalStrand.subStrands.length;
-            ssIndex++) {
+        for (
+          int ssIndex = 0;
+          ssIndex < normalStrand.subStrands.length;
+          ssIndex++
+        ) {
           final normalSubStrand = normalStrand.subStrands[ssIndex];
 
           final String gradeClean = grade.replaceAll(' ', '');
           final int sNumber = sIndex + 1;
           final int ssNumber = ssIndex + 1;
-          final String normalizedSubStrandTitle =
-              normalSubStrand.subtitle.trim();
+          final String normalizedSubStrandTitle = normalSubStrand.subtitle
+              .trim();
 
           // Subject name aliases
           final List<String> subjectAliases = [
@@ -10480,8 +11107,9 @@ class SidebarController extends GetxController {
 
           // Extract display name: strip all prefix tokens, keep only the custom name after " - "
           String displaySubStrandName = normalSubStrand.subtitle;
-          final String rawKey =
-              matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
+          final String rawKey = matchedQuizKey.isNotEmpty
+              ? matchedQuizKey
+              : matchedPracticeKey;
           if (rawKey.isNotEmpty) {
             if (rawKey.contains(" - ")) {
               displaySubStrandName = rawKey.split(" - ").last.trim();

@@ -13770,6 +13770,7433 @@ final QuizModel computingJhs2S4Ss1Lesson4QuizData = QuizModel(
   ],
 );
 
+final QuizModel computingJhs2S4Ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What color are the logical operator blocks (AND, OR, NOT) in the Scratch block palette?",
+      options: ["Orange", "Green", "Blue", "Purple"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Operator blocks in Scratch are color-coded green to distinguish them from motion, looks, and variable blocks.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why are conditional control blocks shaped with indented slots?",
+      options: [
+        "To hold blocks that should only run when the condition is met",
+        "To store background music tracks",
+        "To compress image files",
+        "To measure execution speed",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The C-shaped indentation of an IF block wraps around the instructions that execute conditionally.",
+    ),
+    QuizQuestion(
+      question:
+          "3. If you want a game script to run only when a player's score is greater than 50 AND their lives are greater than 0, which block should you use to combine these checks?",
+      options: [
+        "The AND operator block",
+        "The SET variable block",
+        "The CHANGE block",
+        "The WAIT block",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The AND operator combines multiple criteria so all must be satisfied for the script to run.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What type of value is generated when a nested combination of comparison and logical blocks is evaluated?",
+      options: [
+        "A string text value",
+        "A Boolean value (True or False)",
+        "An integer score",
+        "A float coordinate",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Comparison and logical operations always resolve to a strict Boolean true or false result.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How do you place a comparison block inside a logical AND operator block in Scratch?",
+      options: [
+        "By typing its text on a keyboard",
+        "By dragging and dropping it into one of the operator's empty hexagonal slots",
+        "By deleting the sprite",
+        "By restarting the application",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Scratch uses drag-and-drop mechanics to nest blocks into matching slots.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What happens if the condition inside an IF block evaluates to False during program execution?",
+      options: [
+        "The computer shuts down.",
+        "The blocks nested inside the IF statement are skipped.",
+        "The score automatically doubles.",
+        "The sprite disappears permanently.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Conditional statements only execute their enclosed scripts when the evaluated condition is true.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which operator should you use if you want an event to trigger when at least one of two conditions is met?",
+      options: ["AND", "OR", "NOT", "SET"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The OR operator evaluates to true if either or both input conditions are satisfied.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is testing individual condition blocks during development important for young programmers?",
+      options: [
+        "It helps identify logic errors and verifies whether expressions return expected true/false values.",
+        "It changes the background color of the stage.",
+        "It increases processor speed.",
+        "It converts sprites into variables.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Live testing allows developers to inspect block states and catch bugs early.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Consider a script with an IF block checking NOT (score == 0). When does this condition evaluate to True?",
+      options: [
+        "When the score is exactly zero",
+        "When the score is anything other than zero",
+        "When the score is negative ten",
+        "When the program starts",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The inner check score == 0 is false when the score is non-zero, and NOT inverts it to true.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What role do comparison operators play when connected to control structures in block-based programming?",
+      options: [
+        "They serve as the decision-making bridge that tests data to determine program flow.",
+        "They provide audio narration scripts.",
+        "They format employee payroll sheets.",
+        "They draw graphical sprites on screen.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Comparison operators evaluate runtime data to give control structures the Boolean values they need to make decisions.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which rule dictates the strict order of mathematical operations inside a computer program?",
+      options: ["BODMAS rule", "Loop counter", "Input method", "Print syntax"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Computers rely on the standard BODMAS sequence to evaluate expressions accurately.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What term describes a named storage location in RAM that holds modifiable data?",
+      options: [
+        "Constant box",
+        "Variable item",
+        "Graphic icon",
+        "Output screen"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "3. When evaluating an expression like result = 7 - 9 / 25, what operation is executed first?",
+      options: ["Subtraction", "Division", "Addition", "Multiplication"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following best defines an assignment statement?",
+      options: [
+        "Asking a user name",
+        "Storing values into memory",
+        "Deleting old program files",
+        "Drawing a flowchart shape",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "5. In computer arithmetic, why are parentheses or brackets evaluated first?",
+      options: [
+        "To slow execution",
+        "To override precedence",
+        "To clear the screen",
+        "To format text output",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "6. If a variable named score is assigned the value 50, what type of data is typically stored?",
+      options: [
+        "Integer number",
+        "Audio stream file",
+        "Hardware driver",
+        "Network address",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which part of the BODMAS acronym comes immediately after Brackets?",
+      options: ["Subtraction", "Division", "Orders", "Addition"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens to the old value stored in a variable when a new assignment statement updates it?",
+      options: [
+        "It remains saved forever",
+        "It is overwritten and lost",
+        "It moves to the printer",
+        "It doubles automatically",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Assigning a new value replaces whatever data was previously held in that memory location.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which programming component combines variables and operators to compute a new value?",
+      options: [
+        "An expression",
+        "A stop symbol",
+        "A border line",
+        "An output cord"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why must software developers choose clear and meaningful names for their variables?",
+      options: [
+        "To make files larger",
+        "To improve code readability",
+        "To speed up internet",
+        "To hide secret data",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Descriptive variable names help programmers understand what data is being stored.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What term describes the execution of steps one after another in a straight line?",
+      options: ["Sequence", "Selection", "Iteration", "Constant"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Sequence represents the standard linear flow of basic program instructions.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which statement allows a program to test a condition and choose between alternative actions?",
+      options: [
+        "Selection statement",
+        "Sequence block",
+        "Iteration loop",
+        "Print instruction",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Selection statements use conditions to direct program execution along specific branching paths.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is another common term used in programming to describe iteration or loops?",
+      options: ["Branching", "Looping", "Assignment", "Declaring"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Iteration involves cycling through a set of instructions repeatedly.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of these variable naming examples uses proper camelCase convention?",
+      options: ["firstname", "firstName", "FIRST-NAME", "first name"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "camelCase capitalizes the first letter of inner words while keeping the initial letter lowercase.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are constants used instead of variables for certain fixed values?",
+      options: [
+        "To allow user inputs",
+        "To prevent accidental changes",
+        "To speed up screens",
+        "To delete old files",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Constants secure data integrity by ensuring values remain unchanged throughout execution.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which character is commonly permitted in variable names to separate words instead of spaces?",
+      options: ["Hyphen sign", "Underscore", "Question mark", "Forward slash"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Underscores are accepted in variable names to enhance readability where spaces are prohibited.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following is an example of an iteration construct?",
+      options: ["IF-THEN block", "FOR loop", "Assignment sign", "Stop symbol"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "FOR loops execute repeated actions for a set number of iterations.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What error occurs if a variable name starts with an integer digit?",
+      options: [
+        "Syntax error",
+        "Audio failure",
+        "Network timeout",
+        "Printer jam"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Programming languages reject identifiers starting with numbers because they violate core naming rules.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which keyword is typically associated with conditional branching in selection statements?",
+      options: ["REPEAT", "IF", "TOTAL", "START"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The IF statement evaluates conditions to determine program execution flow.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which naming practice helps team collaboration when writing complex algorithms?",
+      options: [
+        "Using random letters",
+        "Descriptive naming conventions",
+        "Omitting all spaces",
+        "Using single numbers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Meaningful and descriptive names make code much easier for other programmers to read and understand.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which shape represents a decision-making condition in a flowchart?",
+      options: [
+        "Diamond shape",
+        "Oval boundary",
+        "Rectangle box",
+        "Parallelogram"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The diamond shape is universally used for conditional branching where choices are evaluated.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of writing pseudocode before coding?",
+      options: [
+        "To format computer monitors",
+        "To plan logic in plain text",
+        "To speed up Wi-Fi",
+        "To delete virus files",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Pseudocode allows developers to map out their program steps clearly without syntax restrictions.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which flowchart shape represents data input and output operations?",
+      options: ["Rectangle", "Parallelogram", "Oval", "Diamond"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Parallelograms handle data entering or leaving the algorithm flow.",
+    ),
+    QuizQuestion(
+      question:
+          "4. In pseudocode representation, what does the symbol <- signify?",
+      options: [
+        "Subtracting values",
+        "Assigning a value",
+        "Ending the program",
+        "Comparing numbers",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The left-pointing arrow denotes placing an evaluated value into a variable container.",
+    ),
+    QuizQuestion(
+      question: "5. Why are directional arrows critical in flowchart diagrams?",
+      options: [
+        "To color the page",
+        "To show execution flow order",
+        "To count total loops",
+        "To fix syntax bugs",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Arrows connect shapes to indicate the precise sequence in which instructions are executed.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which shape would you use in a flowchart to calculate the sum of two exam scores?",
+      options: ["Rectangle", "Oval", "Parallelogram", "Diamond"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Mathematical processing and calculations are housed inside rectangular flowchart blocks.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following is an advantage of pseudocode over actual programming code?",
+      options: [
+        "It requires a compiler",
+        "It is language-independent",
+        "It executes hardware instructions",
+        "It formats graphic displays",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Pseudocode focuses strictly on logical problem-solving rather than the specific rules of a single programming language.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What symbol marks the absolute beginning of any standard flowchart?",
+      options: [
+        "Start oval",
+        "Input parallelogram",
+        "Process rectangle",
+        "Decision diamond",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Program execution always originates from an entry oval labeled Start.",
+    ),
+    QuizQuestion(
+      question:
+          "9. If a program needs to display a calculated total score on a tablet screen, which flowchart symbol is used?",
+      options: ["Rectangle", "Parallelogram", "Diamond", "Oval"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Output display instructions are represented by parallelogram shapes.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How do flowcharts assist software development teams working in groups?",
+      options: [
+        "By replacing hardware devices",
+        "By providing a clear visual map",
+        "By encrypting source files",
+        "By increasing internet speed",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Visual diagrams help team members communicate design logic clearly before writing code.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss2Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of selection statement executes instructions only when the condition is true?",
+      options: ["IF statement", "FOR loop", "Input box", "Stop oval"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A standard IF statement runs its block only upon a true evaluation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which keyword represents the alternative pathway when a conditional test fails in branching logic?",
+      options: ["THEN", "ELSE", "REPEAT", "START"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The ELSE clause catches all cases where the primary condition evaluates to false.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In a flowchart, what do the outgoing paths from a decision diamond represent?",
+      options: [
+        "Speed limits",
+        "True and False outcomes",
+        "Variable storage sizes",
+        "Printer connections",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Flowchart diamonds branch execution based on whether conditions are true or false.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which relational operator checks if two values are completely identical?",
+      options: [
+        "Assignment arrow",
+        "Equal to operator",
+        "Division slash",
+        "Input prompt",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Equality operators compare values to verify if they match.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are selection statements essential in modern software applications?",
+      options: [
+        "To increase file sizes",
+        "To enable decision-making logic",
+        "To format screen colors",
+        "To delete old cache files",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Selection statements allow programs to adapt and respond dynamically to different inputs.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What shape is used in flowcharts to enclose conditional branching tests?",
+      options: ["Diamond", "Rectangle", "Oval", "Parallelogram"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The diamond shape is the standard symbol for decisions.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If a program checks if score >= 50, what type of expression is being evaluated?",
+      options: [
+        "A conditional expression",
+        "A print statement",
+        "An assignment action",
+        "A file deletion",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The expression uses relational operators to test a numerical condition.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What occurs if an IF condition evaluates to false and there is no ELSE branch provided?",
+      options: [
+        "The program stops",
+        "The code inside the IF block is skipped",
+        "An error deletes the file",
+        "The loop runs forever",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Without an ELSE branch, the program simply bypasses the conditional block and continues.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which component is required to compare two separate variables in a selection condition?",
+      options: [
+        "Relational operator",
+        "Stop symbol",
+        "Output screen",
+        "Print command"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Relational operators compare variables and values within conditions.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does proper indentation help when writing nested selection statements?",
+      options: [
+        "It speeds up processors",
+        "It improves code readability and structure",
+        "It connects Wi-Fi routers",
+        "It changes text colors",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Clear indentation makes complex branching logic much easier to read and debug.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss2Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which term describes the automated repetition of statements in an algorithm?",
+      options: ["Iteration", "Selection", "Assignment", "Sequence"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Iteration represents the automated looping process in programming.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which loop is classified as an unconditional loop for set repetitions?",
+      options: [
+        "WHILE loop",
+        "FOR loop",
+        "REPEAT UNTIL loop",
+        "Decision block"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "FOR loops execute for a predetermined number of iterations.",
+    ),
+    QuizQuestion(
+      question: "3. Where is the condition tested in a WHILE loop?",
+      options: [
+        "At the start of the loop",
+        "At the very end",
+        "After program exit",
+        "Inside the printer",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "WHILE loops evaluate their expression before running code.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which loop structure tests its condition at the end after running at least once?",
+      options: [
+        "FOR loop",
+        "WHILE loop",
+        "REPEAT UNTIL loop",
+        "Assignment loop"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "REPEAT UNTIL checks its terminating condition at the bottom.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are iteration statements preferred over writing duplicate code lines?",
+      options: [
+        "They slow down the processor",
+        "They increase file sizes",
+        "They require more memory",
+        "They save time and memory",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Loops streamline code structure and reduce unnecessary duplication.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What controls the number of repetitions inside a standard FOR loop?",
+      options: [
+        "A counter variable",
+        "A print statement",
+        "A random number",
+        "An output screen",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A counter tracks progress across each pass of a FOR loop.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens if the starting condition of a WHILE loop evaluates to false immediately?",
+      options: [
+        "The loop runs twice",
+        "The loop body never executes",
+        "The program crashes",
+        "An error deletes files",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Initial false evaluations prevent entry into a WHILE loop body.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which programming block uses a conditional test at the bottom to terminate repetition?",
+      options: [
+        "Start oval",
+        "Assignment line",
+        "Input box",
+        "REPEAT UNTIL conditional block",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "REPEAT UNTIL structures loop until their bottom condition is met.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In pseudocode iteration examples, what manages the running tally of added numbers?",
+      options: [
+        "A stop symbol",
+        "A flowchart arrow",
+        "A total variable accumulator",
+        "A print command",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Accumulator variables track cumulative totals inside looping operations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does a loop benefit software efficiency in processing student records?",
+      options: [
+        "By deleting old user accounts",
+        "By connecting wireless routers",
+        "By formatting monitor displays",
+        "By automating repetitive calculations across records",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Iteration allows programs to process large datasets without manual repetition.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which integrated circuit on the controller board houses the processing power for executing robot programs?",
+      options: [
+        "Microcontroller chip",
+        "Ultrasonic sound transceiver module",
+        "Infrared motion detection sensor board",
+        "Pneumatic fluid pressure regulator valve",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The microcontroller chip is soldered onto the circuit board and contains the integrated circuits responsible for executing program instructions.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What type of sensor uses emitted sound echoes to measure proximity to physical barriers?",
+      options: [
+        "Light-dependent photoresistor component",
+        "Ultrasonic distance measuring sensor",
+        "Soil moisture testing metal probe prong",
+        "Magnetic field strength detection unit",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ultrasonic sensors emit high-frequency sound waves that bounce off nearby objects to calculate distance.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which programming environments are commonly used to write code for educational robot controller boards?",
+      options: [
+        "Microsoft Word and Excel spreadsheets",
+        "Adobe Photoshop and Illustrator tools",
+        "Scratch block-based and Python text",
+        "Web browser HTML and CSS style sheets",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Robot programs can be written in text-based languages like Python or block-based environments like Scratch.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How does a line-following robot use its infrared sensors to stay on a dark track?",
+      options: [
+        "By listening for audio frequency tones",
+        "By measuring atmospheric air pressure",
+        "By recording ambient temperature shifts",
+        "By detecting reflected light differences",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Line-following sensors use infrared light to measure the difference in light reflection between a dark track and a white surface.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which component is primarily responsible for converting electrical energy into mechanical rotation to drive wheels?",
+      options: [
+        "Electric motor unit",
+        "Ultrasonic echo transceiver module",
+        "Microcontroller processing circuit",
+        "Pneumatic hydraulic cylinder piston",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Motors provide the essential rotational power needed to drive robot wheels independently.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the main purpose of pneumatic or hydraulic pistons in advanced robotic systems?",
+      options: [
+        "Compiling block-based programming code",
+        "Controlling movement of robotic arms",
+        "Measuring ambient sound decibel levels",
+        "Detecting ultraviolet radiation rays",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Hydraulic and pneumatic pistons are used to control movement and lift items on robotic arms.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which sensor would be best suited for an automated street lighting system that turns on at night?",
+      options: [
+        "Gas leakage and smoke detector chip",
+        "Magnetic field metal detector probe",
+        "Light sensor photoresistor",
+        "Ultrasonic sound distance module",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Light sensors can determine whether it is day or night to automatically control street lighting.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How is a compiled program typically transferred from a computer to an Arduino controller board?",
+      options: [
+        "Through Bluetooth wireless pairing audio",
+        "By mailing micro SD memory cards out",
+        "Via infrared remote control signals",
+        "Through a connected USB cable",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Programs are uploaded to the controller board via a USB cable connected to a computer.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the primary role of a touch or bumper sensor when a mobile robot collides with a wall?",
+      options: [
+        "Sending an input signal to stop",
+        "Measuring the exact humidity of air",
+        "Recording ambient sound noise levels",
+        "Calculating atmospheric pressure drops",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Bump sensors act as physical contact switches that provide input signals to the controller when obstacles are encountered.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which device is used in agricultural irrigation projects to detect dry soil conditions for automated watering?",
+      options: [
+        "Ultrasonic sound reflection counter",
+        "Infrared motion heat signature detector",
+        "Decibel sound level measurement meter",
+        "Soil moisture sensor probe",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Moisture sensors use prongs placed in the soil to detect water levels and trigger automated irrigation systems.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which sensor is used in water and chemical testing laboratories to measure liquid acidity or alkalinity?",
+      options: [
+        "Gas concentration smoke detector",
+        "pH level testing sensor probe",
+        "Magnetic field strength monitor",
+        "Ultrasonic distance sound module",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "pH sensors are placed in liquids to read and send accurate digital pH measurements to the controller.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How do airport automated luggage handling systems direct passenger bags to the correct airplane?",
+      options: [
+        "By reading tags using sensors",
+        "By measuring soil moisture levels",
+        "By tracking ambient room temperature",
+        "By testing liquid acidity levels",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Automated baggage systems use sensors to read luggage tags and direct them to appropriate departure points.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What physical property does a soil moisture sensor monitor to determine watering needs?",
+      options: [
+        "Atmospheric pressure changes",
+        "Electrical current between prongs",
+        "Ambient sound decibel levels",
+        "Infrared radiation heat signatures",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The electrical current between the sensor prongs changes depending on how wet or dry the soil is.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which device is commonly used in weather stations to record environmental warmth and moisture?",
+      options: [
+        "Temperature and humidity sensors",
+        "Photoelectric conveyor box counters",
+        "Magnetic metal detector prongs",
+        "Ultrasonic obstacle distance units",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Temperature and humidity sensors read environmental conditions and can plot changes over time.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What safety role do sensors play in industrial gas or water pipelines?",
+      options: [
+        "Translating block-based code",
+        "Ensuring optimum flow and detecting leaks",
+        "Programming microcontrollers via USB",
+        "Adjusting robot wheel speeds",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pressure and flow sensors monitor pipelines to maintain optimum flow and detect potential leaks.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which sensor detects human presence by picking up infrared radiation or body heat?",
+      options: [
+        "Soil moisture testing probe",
+        "Infrared motion sensor",
+        "pH liquid testing electrode",
+        "Magnetic field strength meter",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Infrared motion sensors pick up infrared radiation given off by human bodies to trigger alarms or lights.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do automated street lights know when to switch on in the evening?",
+      options: [
+        "By detecting low light levels via photoresistors",
+        "By measuring high soil moisture levels",
+        "By listening for high decibel vehicle sounds",
+        "By tracking gas pressure drops",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Light sensors register light levels to determine whether it is day or night and switch lights accordingly.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the primary function of smoke and gas sensors in home safety systems?",
+      options: [
+        "Counting packages on factory belts",
+        "Detecting hazardous gases and smoke",
+        "Measuring atmospheric humidity",
+        "Guiding line-following robots",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Gas sensors output increasing voltage to trigger alarms when detecting smoke or gas leaks.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are sensors placed on machinery in modern manufacturing plants?",
+      options: [
+        "To program microcontrollers",
+        "To detect overheating and vibration",
+        "To write Python software code",
+        "To upload files via USB cables",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Sensors in machinery detect overheating, unusual vibration, and oil levels to ensure safe operation.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which sensor type can be used to detect ferrous metal objects or measure magnetic proximity?",
+      options: [
+        "Magnetic field strength sensor",
+        "Ultrasonic sound distance sensor",
+        "Soil moisture testing probe",
+        "Photoresistor light sensor",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Magnetic field sensors determine how near or far a magnet is and can detect metal objects.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which text-based programming language is commonly used alongside Arduino hardware for advanced robot control?",
+      options: [
+        "Microsoft Word formatting text",
+        "Arduino C programming language",
+        "HTML web page design code",
+        "Adobe Photoshop script tools",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Programs can be written in text-based languages such as Arduino C or Python.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of testing a robot immediately after uploading new movement code?",
+      options: [
+        "To check for logic and movement errors",
+        "To recharge the internal battery pack",
+        "To clean dust off ultrasonic sensors",
+        "To test soil moisture levels",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Testing allows developers to observe physical execution and debug any programming errors.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does a robot know when to stop moving forward when it approaches an obstacle in its path?",
+      options: [
+        "By reading soil pH balance levels",
+        "By receiving sensor input data",
+        "By measuring atmospheric air pressure",
+        "By testing liquid temperature changes",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Robots process environmental data from sensors to react and alter their actions.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following is a block-based programming environment designed for easy educational robot coding?",
+      options: [
+        "Scratch and mBlock",
+        "Python text compiler",
+        "Arduino C command line",
+        "USB serial driver tool",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Scratch and mBlock provide block-based environments that make coding easy for students.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What physical component connects the computer to the robot controller for program uploading?",
+      options: [
+        "Pneumatic piston cylinder",
+        "USB communication cable",
+        "Infrared motion sensor",
+        "Soil moisture metal prong",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Programs are transferred from the computer to the controller via a USB cable.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why are independent motors essential for a wheeled mobile robot's navigation?",
+      options: [
+        "They allow variable steering control",
+        "They measure ambient room temperature",
+        "They detect flammable gas leaks",
+        "They compile text programming code",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Independent motors let the robot move forward, reverse, and turn by varying individual wheel speeds.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Where are the program instructions permanently stored once successfully uploaded to the robot?",
+      options: [
+        "Battery power supply pack",
+        "Microcontroller chip memory",
+        "Ultrasonic sound transducer",
+        "External USB connector port",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Once uploaded, the program runs from the microcontroller chip on the controller board.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of steering occurs when a robot's left wheels turn faster than its right wheels?",
+      options: [
+        "Straight-line reverse motion",
+        "Differential turning maneuver",
+        "Atmospheric pressure testing",
+        "Ultrasonic distance calculation",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Varying the speeds of independent motors creates differential steering to steer the robot.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which tool helps students visualize code logic without memorizing complex syntax rules?",
+      options: [
+        "Block-based software environments",
+        "Text-based C compilers",
+        "USB transfer cables",
+        "Microcontroller circuits",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Block-based programming makes coding accessible by using visual building blocks.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should a student do if their robot moves in the wrong direction during testing?",
+      options: [
+        "Throw away the robot kit",
+        "Debug and modify the program code",
+        "Replace the battery pack immediately",
+        "Change the classroom lighting",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "When movement errors occur, the programmer must debug and adjust the code.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss3Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following is an example of a pre-packaged educational robot kit?",
+      options: [
+        "Microsoft Word document",
+        "Lego EV3 or mBot kit",
+        "Arduino C compiler tool",
+        "Python script interpreter",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Educational robots can come as pre-packaged kits like Lego EV3 or mBot.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the very first physical component you typically secure when building a mobile robot chassis?",
+      options: [
+        "Chassis structural base frame",
+        "USB programming transfer cable",
+        "Microcontroller processing chip",
+        "Ultrasonic sound wave sensor",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Assembly starts by securing the chassis base, which acts as the foundation for all parts.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why should students inspect power connections and battery packs before executing robot routines?",
+      options: [
+        "To compile block-based programming code",
+        "To measure atmospheric air humidity",
+        "To ensure safe electrical operation",
+        "To test soil pH acidity levels",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Inspecting power connections ensures safe and reliable electrical performance during testing.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How can builders mount components if they choose not to use a standard commercial robot kit?",
+      options: [
+        "By writing Python text editor scripts",
+        "By connecting USB cables to laptops",
+        "By reading soil moisture prong data",
+        "By using 3D printers or custom bodies",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Builders can use 3D printers or custom-built bodies if they do not purchase a standard kit.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is a key benefit of working in teams during robot assembly and testing activities?",
+      options: [
+        "Eliminating the need for controllers",
+        "Dividing tasks like wiring and coding",
+        "Replacing all sensors with batteries",
+        "Removing the need for USB cables",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Group collaboration allows students to divide tasks effectively between hardware and software.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which component provides stability and balance alongside the main powered drive motors?",
+      options: [
+        "Microcontroller chips",
+        "Ultrasonic sensors",
+        "Supporting caster wheels",
+        "USB communication ports",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Caster wheels work alongside motors to support and balance the mobile robot base.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What safety issue can arise from poor cable management inside a mobile robot?",
+      options: [
+        "Increasing microcontroller clock speed",
+        "Generating infrared light signals",
+        "Altering soil moisture readings",
+        "Tangling in gears or blocking wheels",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Unsecured wires can tangle in moving parts, causing mechanical jams.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which type of board is commonly linked with separate components when building a custom robot?",
+      options: [
+        "Arduino or Raspberry Pi board",
+        "Microsoft Excel spreadsheet",
+        "Adobe Photoshop graphic tool",
+        "HTML web browser page",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Builders can link separate hardware components to controller boards like Arduino or Raspberry Pi.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should a student do if a newly assembled robot fails to move when powered on?",
+      options: [
+        "Throw away the entire robot kit",
+        "Replace the classroom lighting fixtures",
+        "Change the block programming language",
+        "Check motor wiring and power supply",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Troubleshooting involves inspecting wiring, power connections, and code execution.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why do robot kits include structural brackets and screws along with electronic modules?",
+      options: [
+        "To securely mount parts onto the chassis",
+        "To upload programs via USB cables",
+        "To measure ambient room temperature",
+        "To test liquid acidity levels",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Kits provide brackets and screws to physically secure electronic modules and motors to the structural frame.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L1/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which system is designed to function similarly to the human brain by processing signals through interconnected nodes?",
+      options: [
+        "A simple calculator program",
+        "An Artificial Neural Network",
+        "A basic text editor application",
+        "A standard mechanical printer",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary foundation of animal intelligence according to computing concepts?",
+      options: [
+        "Complex abstract mathematics",
+        "Innate instinct and survival",
+        "Software programming codes",
+        "Digital database queries",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do machines lack the emotional bias that humans experience?",
+      options: [
+        "They process data purely based on facts and logic",
+        "They have feelings that cancel out stress",
+        "They are programmed to always feel happy",
+        "They possess human-like consciousness",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following is a characteristic feature of human intelligence?",
+      options: [
+        "Operating without any memory",
+        "Using wisdom and learning from emotional experiences",
+        "Executing code lines without deviation",
+        "Processing millions of inputs instantly",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "5. How do Artificial Neural Networks improve their performance over time?",
+      options: [
+        "By resting when the computer is turned off",
+        "By adjusting their internal connections when mistakes are corrected",
+        "By downloading updates from human teachers daily",
+        "By replacing their hardware components automatically",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question: "6. What role do emotions play when humans make decisions?",
+      options: [
+        "They have no impact on our daily choices",
+        "They often shape our choices alongside facts and attitudes",
+        "They completely prevent us from thinking logically",
+        "They are simulated using computer chips",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which statement correctly compares machine intelligence with human intelligence?",
+      options: [
+        "Machines can experience grief and joy just like humans",
+        "Machines operate in a predictable, mechanical manner without consciousness",
+        "Machines create their own original moral philosophies",
+        "Machines learn entirely through biological evolution",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when handwriting recognition software encounters an error?",
+      options: [
+        "It deletes the entire software program permanently",
+        "It learns from the correction to recognize characters better next time",
+        "It shuts down until a human rewrites the code",
+        "It asks an animal to verify the text shape",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which factor limits animal intelligence compared to human intelligence?",
+      options: [
+        "Animals cannot engage in complex abstract reasoning or debate",
+        "Animals process data faster than modern supercomputers",
+        "Animals rely too heavily on digital spreadsheets",
+        "Animals suffer from frequent software bugs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "10. In what way are machine decisions different from human decisions?",
+      options: [
+        "Machines always make emotional choices under pressure",
+        "Machines are free from prejudice and personal feelings",
+        "Machines use intuition to solve unexpected social problems",
+        "Machines rely on personal life experiences and wisdom",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which type of artificial intelligence is currently found in everyday smartphone applications and self-driving car software?",
+      options: [
+        "Strong artificial intelligence",
+        "Weak artificial intelligence",
+        "Conscious artificial intelligence",
+        "Emotional artificial intelligence",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why are systems like Siri and Alexa considered examples of weak artificial intelligence?",
+      options: [
+        "They are programmed to solve specific tasks and lack independent consciousness",
+        "They run entirely without electricity or batteries",
+        "They possess true human feelings and creative thoughts",
+        "They can rewrite their own core hardware components",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which statement best describes the current state of strong artificial intelligence?",
+      options: [
+        "It is widely used in Ghanaian primary and junior high schools.",
+        "It remains a theoretical concept that has not yet been achieved.",
+        "It controls all commercial banking networks globally.",
+        "It is standard software pre-installed on mobile phones.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "4. What capability would a true strong artificial intelligence system possess?",
+      options: [
+        "The ability to mimic human cognitive abilities and general reasoning",
+        "The skill to calculate basic spreadsheet formulas instantly",
+        "The function to print documents on physical paper",
+        "The power to store music files on a memory card",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "5. How do mixed reality devices like Microsoft HoloLens allow users to engage with holograms?",
+      options: [
+        "By locking images flat onto a computer monitor screen",
+        "By using light to place 3D virtual objects into the real world for physical interaction",
+        "By converting typed text into spoken audio files",
+        "By translating local languages into foreign dialects",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "6. What happens when a weak AI system is asked a question outside its pre-programmed database?",
+      options: [
+        "It feels confused and changes its own core programming.",
+        "It invents a completely new emotion to express its feelings.",
+        "It cannot find a match and fails to provide the requested answer.",
+        "It automatically upgrades itself into strong AI.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following relies on weak artificial intelligence to operate safely on public roads?",
+      options: [
+        "A traditional bicycle with manual pedals",
+        "A self-driving car system focused on specific navigation routes",
+        "A wooden cart pushed by hand through a market",
+        "A non-motorized wheelbarrow used on a farm",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "8. In mixed reality environments, what role do holographic controls play?",
+      options: [
+        "They allow users to interact with virtual items using touch, air buttons, and sliders.",
+        "They prevent any digital data from being seen by human eyes.",
+        "They replace the need for electrical power sources.",
+        "They convert physical objects into text documents.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature separates human cognitive abilities from current machine technology?",
+      options: [
+        "The ability to process factual data quickly",
+        "The presence of true self-awareness, spontaneous thought, and genuine emotion",
+        "The capacity to store thousands of digital files",
+        "The speed of executing mathematical algorithms",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why do computer scientists distinguish between weak AI and strong AI?",
+      options: [
+        "To measure whether a system has narrow task automation or full human-like cognitive scope",
+        "To determine how much electrical power a computer monitor consumes",
+        "To calculate the physical weight of a tablet computer",
+        "To check how many students are logged into a classroom network",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L3/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What optical principle is used to create the spatial depth seen in holograms?",
+      options: [
+        "Light wave projection and interference patterns",
+        "Manual ink printing on paper sheets",
+        "Magnetic tape storage rotation",
+        "Heat dissipation through computer fans",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which feature distinguishes a hologram from a standard 2D image on a television screen?",
+      options: [
+        "The ability to walk around it and observe different sides",
+        "The requirement of black-and-white ink cartridges",
+        "The total absence of any visible light",
+        "The need for a heavy metal frame",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "3. What role does mixed reality play in modern technological applications?",
+      options: [
+        "It replaces physical textbooks with interactive 3D models in real spaces.",
+        "It slows down computer processing speeds intentionally.",
+        "It converts color displays into monochrome text.",
+        "It prevents users from viewing digital graphics.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which device is a well-known example of mixed reality technology used for holograms?",
+      options: [
+        "Microsoft HoloLens",
+        "A standard pocket calculator",
+        "An analog wall clock",
+        "A basic wired computer mouse",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "5. How do mixed reality headsets allow users to control holographic elements?",
+      options: [
+        "Through spatial buttons, sliders, and hand tracking",
+        "By pulling physical strings attached to a screen",
+        "By blowing air across the computer keyboard",
+        "By inserting plastic cards into a slot",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "6. In a mixed reality setup, how do virtual objects relate to the physical room?",
+      options: [
+        "They float independently and blend seamlessly into the real environment.",
+        "They disappear whenever a person blinks their eyes.",
+        "They transform into paper documents instantly.",
+        "They attach themselves permanently to ceiling fans.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why is hologram science considered an important advancement in computing?",
+      options: [
+        "It allows complex 3D data to be visualized and interacted with naturally.",
+        "It reduces the cost of electricity bills for schools.",
+        "It eliminates the need for any software programming.",
+        "It makes computer hardware completely weightless.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when a user moves around a holographic projection in an MR environment?",
+      options: [
+        "They can view different perspectives and hidden angles of the 3D object.",
+        "The image turns into a flat black line.",
+        "The computer system shuts down automatically.",
+        "The projection relocates to another room.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which environment is created when virtual reality graphics are overlaid directly onto real-world scenes?",
+      options: [
+        "Mixed reality",
+        "Text-based programming",
+        "Offline database storage",
+        "Mechanical automation",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "10. How do interactive controls enhance the experience of viewing holograms?",
+      options: [
+        "They let users manipulate, rotate, and resize the digital models smoothly.",
+        "They lock the image so it can never be changed.",
+        "They convert visual graphics into spoken audio clips.",
+        "They reduce the image resolution to save battery.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss4Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which type of intelligence is characterized by high levels of creativity and emotional awareness?",
+      options: [
+        "Machine intelligence operating on binary code",
+        "Human intelligence involving knowledge and wisdom",
+        "Automated spreadsheet calculation software",
+        "Hard drive data storage systems",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the main operational basis for animal intelligence in the natural world?",
+      options: [
+        "Complex software programming scripts",
+        "Instinct and survival behaviors",
+        "High-speed microprocessors",
+        "Digital cloud databases",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following is a recognized limitation of machine intelligence?",
+      options: [
+        "They get tired and sleepy after working for eight hours.",
+        "They lack true self-awareness, empathy, and unscripted common sense.",
+        "They cannot perform simple addition without a human holding them.",
+        "They run entirely on biological food energy.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why might a human decision sometimes be less objective than a machine calculation?",
+      options: [
+        "Because human choices can be influenced by emotions, stress, and personal prejudice",
+        "Because humans have built-in cooling fans",
+        "Because humans store all memories on magnetic tape",
+        "Because humans operate strictly on numerical data inputs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is a major capability that sets machines apart from both humans and animals?",
+      options: [
+        "The ability to feel physical pain when touching hot objects",
+        "The capacity to process massive datasets at high speeds without fatigue",
+        "The skill to hunt for food using natural instincts",
+        "The talent to write emotional poetry from personal heartbreak",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "6. What prevents animals from building advanced computer networks like humans do?",
+      options: [
+        "They lack the necessary physical fur color.",
+        "They do not possess complex abstract thought or symbolic technological reasoning.",
+        "They spend all their time sleeping during the day.",
+        "They refuse to use electricity under any circumstance.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do machines react when they encounter a completely unfamiliar problem outside their programming?",
+      options: [
+        "They invent a brilliant new philosophy to solve it.",
+        "They fail to find a match and cannot improvise true understanding.",
+        "They feel deeply confused and cry for help.",
+        "They automatically upgrade their hardware components.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which attribute is shared by both humans and animals when learning from mistakes?",
+      options: [
+        "Writing down notes in a digital word processor",
+        "Adapting future actions based on past experiences and feedback",
+        "Upgrading internal microchip processors annually",
+        "Transferring files across a wireless local network",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is a distinct advantage of human cognitive processing over rigid machine programming?",
+      options: [
+        "The ability to adapt smoothly to unexpected, unscripted real-world situations",
+        "The speed of calculating ten million equations per second",
+        "The total absence of personal feelings or bias",
+        "The capacity to store petabytes of data in a tiny microchip",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which statement best summarizes the comparison between human, animal, and machine intelligence?",
+      options: [
+        "All three forms of intelligence operate using identical biological brain cells.",
+        "Each possesses unique capabilities and limitations shaped by biology, instinct, or digital design.",
+        "Machines are superior to humans and animals in every single category imaginable.",
+        "Animals and machines are completely identical in their cognitive thought processes.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+  ],
+);
+
+final QuizModel computingJhs2S4Ss4Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L5/7. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which system architecture is inspired by biological neural pathways to handle complex data patterns?",
+      options: [
+        "Artificial Neural Networks",
+        "Basic mechanical calculators",
+        "Simple text file directories",
+        "Analog clock gear assemblies",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "2. What distinguishes animal intelligence from machine intelligence?",
+      options: [
+        "Animals rely on natural instincts and biological learning, while machines use programmed data logic.",
+        "Animals process millions of numbers faster than supercomputers.",
+        "Animals run entirely on electrical battery power.",
+        "Animals lack any form of environmental awareness.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is strong artificial intelligence considered a theoretical concept today?",
+      options: [
+        "Because machines with true human cognitive abilities and self-awareness do not yet exist.",
+        "Because no computer has ever been connected to the internet.",
+        "Because weak AI software is illegal to use in schools.",
+        "Because computers lack any electrical power sources.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "4. How do mixed reality headsets project holograms into a room?",
+      options: [
+        "By printing paper photos on a desktop printer",
+        "By using light wave projections to blend 3D virtual objects into physical space",
+        "By locking images flat onto a computer monitor",
+        "By turning off all room lights completely",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is a major capability of human intelligence that machines struggle to replicate?",
+      options: [
+        "Fast multiplication of large numbers",
+        "Creative, emotional, and unscripted problem-solving in novel situations",
+        "Operating for days without rest",
+        "Storing terabytes of raw numbers on a disk",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which category includes everyday applications like speech recognition and navigation apps?",
+      options: [
+        "Strong artificial intelligence",
+        "Weak (narrow) artificial intelligence",
+        "Holographic mixed reality",
+        "Biological animal instinct",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens when an Artificial Neural Network is trained with corrected user inputs?",
+      options: [
+        "It deletes its entire database permanently.",
+        "It adjusts its internal connections to improve future accuracy.",
+        "It transforms into a mechanical machine.",
+        "It stops working until manually reset.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which limitation is shared by both humans and machines, though for different reasons?",
+      options: [
+        "Humans experience fatigue and emotional bias, while machines lack common sense and general adaptability.",
+        "Both require physical food and water to function.",
+        "Both possess identical biological brain cells.",
+        "Both operate at identical nano-second processing speeds.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "9. What role do gesture controls play in mixed reality environments?",
+      options: [
+        "They allow users to manipulate, resize, and inspect 3D holograms naturally.",
+        "They shut down the operating system.",
+        "They convert visual displays into spoken audio files.",
+        "They lock the screen against any movement.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does machine intelligence benefit modern business and education?",
+      options: [
+        "By executing repetitive, data-heavy tasks rapidly and consistently without getting tired",
+        "By feeling genuine empathy for students taking exams",
+        "By inventing new moral philosophies independently",
+        "By replacing all physical buildings with virtual rooms",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which processing method splits a single large calculation across multiple processor cores simultaneously?",
+      options: [
+        "Parallel processing architecture",
+        "Sequential command processing",
+        "Single instruction pipelining",
+        "Standalone magnetic execution",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Parallel processing divides large tasks into distinct parts and executes them at the same time across several processor cores.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What name is given to the physical phenomenon where two entangled particles remain linked across distance?",
+      options: [
+        "Binary compilation",
+        "Quantum entanglement",
+        "Thermal resistance",
+        "Magnetic conduction",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Quantum entanglement creates an interconnected state where actions on one qubit instantaneously affect another entangled qubit.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How many functioning qubits were built into Google's Sycamore quantum processor chip?",
+      options: ["32 qubits", "48 qubits", "53 qubits", "64 qubits"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Sycamore quantum processor engineered by Google featured a lattice array containing 53 operational qubits.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What emerging hardware technology uses electron spin rather than electrical charge to process information?",
+      options: [
+        "Silicon thermistors",
+        "Liquid crystal arrays",
+        "Vacuum tubes systems",
+        "Spintronics devices",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Spintronics harnesses the spin of electrons to transfer and process data without generating the extreme heat seen in silicon circuits.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why do classical computers encounter physical engineering limits as microchip components get smaller?",
+      options: [
+        "Excessive heat and electrical leak",
+        "Insufficient digital monitor sizes",
+        "Low software programming languages",
+        "Lack of operating system platforms",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Shrinking classical silicon microchips causes significant heat build-up and resistance, limiting how much faster they can safely run.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the estimated time a classical supercomputer would require to solve Sycamore's benchmark calculation?",
+      options: [
+        "Roughly six months",
+        "About fifty years",
+        "Five hundred days",
+        "Around 10,000 years",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Google calculated that the Summit supercomputer would need approximately 10,000 years to execute the same workload Sycamore finished in 200 seconds.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What distinct state can a quantum qubit occupy that a classical computing bit cannot?",
+      options: [
+        "Constant electrical grounding",
+        "Superposition of two states",
+        "Permanent zero value storage",
+        "Complete mechanical isolation",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Classical bits must be 0 or 1, whereas qubits can exist in a superposition that represents both values at the same time.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does optical computing improve data transfer speeds inside modern electronic storage systems?",
+      options: [
+        "By using beams of focused light",
+        "By heating copper wire circuits",
+        "By compressing text characters",
+        "By rotating physical disk drives",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Optical computing systems use light beams to transfer data swiftly while consuming significantly less electrical power.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What physical housing condition is required to maintain stability in modern quantum processing chips?",
+      options: [
+        "High humidity greenhouse units",
+        "Open air ceiling ventilations",
+        "Direct sunlight exposure paths",
+        "Extremely cold cryostat systems",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Quantum chips must be kept in extremely cold cryostats near absolute zero to prevent heat from destabilising subatomic qubits.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does the computational capacity of a quantum computer increase as you add more qubits?",
+      options: [
+        "Capacity grows exponentially",
+        "Capacity decreases gradually",
+        "Capacity increases uniformly",
+        "Capacity stays fully constant",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Each added qubit doubles the number of states that can be represented simultaneously, leading to an exponential increase in processing capacity.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary objective of perceptual computing technology?",
+      options: [
+        "Making machines interact like humans",
+        "Increasing the physical weight of PCs",
+        "Replacing hard drives with flash units",
+        "Removing power cables from monitors",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Perceptual computing aims to allow computers to perceive the surrounding physical world and interact through natural human behaviors.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which peripheral hardware device is least essential when operating a perceptual computing system?",
+      options: [
+        "High-definition web camera",
+        "Physical computer mouse",
+        "Omnidirectional audio mic",
+        "Spatial depth sensor array",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Because perceptual computing relies on direct human actions like voice and gestures, traditional input tools like a mouse become optional.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How do modern autonomous vehicles benefit directly from perceptual computing capabilities?",
+      options: [
+        "They avoid burning any motor engine fuel",
+        "They repaint their external metal doors",
+        "They replace all four inflated wheel tyres",
+        "They detect traffic and emergency sirens",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Perceptual systems allow self-driving vehicles to identify moving road hazards, crosswalks, pedestrians, and emergency vehicle sounds.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What major obstacle prevents AI assistants from communicating with full human emotional maturity?",
+      options: [
+        "Lack of human common sense",
+        "Very low processor bandwidth",
+        "Insufficient display brightness",
+        "High electrical battery charge",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Computers lack human common sense and cannot easily interpret subtle social context, humor, or human emotional states.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which security and social dilemma has intensified due to advanced speech and visual synthesis?",
+      options: [
+        "Discerning real humans from bots",
+        "Lowering internet download speed",
+        "Cleaning dusty monitor screens",
+        "Connecting printer data cables",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "As perceptual systems model voice and facial expressions accurately, it becomes difficult for users to confirm whether an audio or video is authentic.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What natural human trait does a perceptual computing system evaluate to determine user focus?",
+      options: [
+        "Fingernail growth patterns",
+        "Eye gaze and head direction",
+        "Footwear leather thickness",
+        "Haircut style and coloration",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Perceptual devices track gaze direction and facial orientation to recognize what the user is paying attention to in the room.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does real-time transcription software assist doctors working with patients in clinics?",
+      options: [
+        "It records and summarizes conversations",
+        "It charges higher hospital visitor fees",
+        "It turns off clinic lighting systems",
+        "It repairs broken examination beds",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Speech recognition allows medical systems to transcribe consultations instantly, freeing healthcare professionals to focus entirely on patient care.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What kind of hardware materials are being developed to support next-generation perceptual computing loads?",
+      options: [
+        "High-speed plastic conductors",
+        "Low-cost wooden chassis frames",
+        "Novel superconductor chips",
+        "Standard paper thermal coils",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Next-generation systems explore advanced superconductor materials to manage heavy data transfers and sensory workloads efficiently.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following actions is an example of perceptual computing in gaming?",
+      options: [
+        "Swapping monitor power cables",
+        "Pressing the spacebar rapidly",
+        "Wiping dust off a game console",
+        "Moving your arms to steer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Using arm motions or body movement captured by a depth camera to control in-game characters is a classic perceptual computing application.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What sensory feature allows a perceptual computing device to operate without manual typing?",
+      options: [
+        "Speech recognition systems",
+        "Liquid crystal glass pixels",
+        "Copper circuit motherboards",
+        "Removable magnetic cartridges",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Speech recognition systems process and interpret spoken voice commands, eliminating the need to physically type out words on a keyboard.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_S1_SS1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What physical quality makes electronic paper easy to read outside under direct sunlight?",
+      options: [
+        "Reflects surrounding daylight",
+        "Emits high blue backlight rays",
+        "Heats the outer glass surface",
+        "Uses fluorescent bulbs inside",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "E-paper does not use a glare-causing backlight; it reflects ambient light naturally, just like printed ink on physical paper.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which component allows smart eyewear like Google Glass to display images before the eye?",
+      options: [
+        "Cathode ray tube assembly",
+        "Miniature prism projector",
+        "Mechanical paper roller feed",
+        "Liquid crystal projection bulb",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Google Glass uses a tiny display projector paired with an optical prism to float digital visuals into the wearer's line of sight.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What type of electrical charge attracts negatively charged black pigment to the top surface in e-paper?",
+      options: [
+        "Alternating current grounding",
+        "Strong neutral resistance",
+        "Positive electrical charge",
+        "Constant thermal friction",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Because opposite charges attract, a positive charge applied to the top electrode pulls negatively charged black pigment particles to the surface.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What major operational benefit do wearable displays provide to factory assembly engineers?",
+      options: [
+        "Eliminates all sound signals",
+        "Reduces factory room heating",
+        "Replaces mechanical fasteners",
+        "Hands-free data accessibility",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Wearable displays allow workers to view technical diagrams and instructions while keeping both hands completely free for tools.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What feature enables an e-reader user to determine the meaning of an unfamiliar word instantly?",
+      options: [
+        "Integrated lookup dictionary",
+        "External optical disc drive",
+        "Wired paper printing cable",
+        "Voice recording microphone",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Dedicated e-readers include built-in dictionaries that display definitions when a reader taps or highlights a word on screen.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why are standard e-readers unsuitable for watching high-definition internet videos?",
+      options: [
+        "Batteries discharge rapidly",
+        "Screen lacks touch control",
+        "Internal storage is full",
+        "Slow display refresh rates",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "E-paper displays rely on the physical movement of micro-particles, which is too slow to render the rapid frame rates needed for video.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens to the text shown on an e-paper screen when the battery is completely disconnected?",
+      options: [
+        "Screen turns bright yellow",
+        "The text remains displayed",
+        "Pixels flash bright white",
+        "Glass cracks across lines",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "E-paper is bi-stable, meaning micro-particles remain in place without electrical current, leaving the last image visible on screen.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What primary advantage does a digital e-book offer over a printed paper textbook?",
+      options: [
+        "Compact digital portability",
+        "Permanent binding glue edge",
+        "Heavy cardboard cover protection",
+        "Physical paper smell preservation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "E-books allow readers to carry thousands of titles on a single compact digital device without the bulk and weight of physical books.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which feature on an e-reader helps reduce visual fatigue during long nighttime reading sessions?",
+      options: [
+        "High intensity strobe lamp",
+        "Heavy reflective silver foil",
+        "Loud speaker voice alert",
+        "Absence of blue backlight",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Traditional e-paper displays do not beam blue backlight directly into the reader's eyes, significantly reducing eye strain.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How do users typically issue navigation instructions to Google Glass during active tasks?",
+      options: [
+        "Natural spoken voice commands",
+        "Wireless foot pedal clicks",
+        "Typing on desktop keypads",
+        "Twisting external metal knobs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Wearable smart glasses feature voice recognition, allowing wearers to navigate menus and trigger camera actions hands-free.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss1Lesson4QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L4/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is a major advantage of using cloud storage systems over local hard drives?",
+      options: [
+        "Universal online file access",
+        "Eliminates screen reflections",
+        "Works without battery power",
+        "Faster typing on keyboards",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Cloud storage allows users to upload, access, and synchronise their data from any internet-connected computer anywhere in the world.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which electronic hardware component is embedded directly inside a standard smart card?",
+      options: [
+        "Mechanical gear wheel",
+        "Microprocessor and memory",
+        "Miniature cooling blower",
+        "Rechargeable liquid cell",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A smart card contains an integrated microprocessor and memory chip that stores credentials, processes data, and handles encryption.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which cloud platform is engineered and provided by Microsoft for online data storage?",
+      options: [
+        "Apple iCloud Drive",
+        "Amazon Prime Vault",
+        "Microsoft OneDrive",
+        "Dropbox Web Cabinet",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft OneDrive is the cloud storage and file synchronisation service developed and maintained by Microsoft.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What light source is split to write data patterns inside holographic storage media?",
+      options: [
+        "Fluorescent tube light",
+        "Incandescent glass lamp",
+        "Concentrated laser beams",
+        "Ultraviolet solar rays",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Holographic storage splits laser beams into signal and reference beams to write three-dimensional interference pages inside a recording medium.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What full term does the technical storage acronym RAID stand for in computing?",
+      options: [
+        "Redundant Array of Independent Disks",
+        "Rapid Access for Internal Drivers",
+        "Random Allocation of Integrated Data",
+        "Remote Architecture for Internet Devices",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "RAID stands for Redundant Array of Independent Disks, combining physical drives to provide data protection and performance improvements.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What critical system component is required in large quantities to run a high-demand media server?",
+      options: [
+        "Thermal ribbon cartridges",
+        "Large amounts of memory",
+        "Extra computer mouse balls",
+        "Heavy mechanical disk locks",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Media servers require substantial Random Access Memory (RAM) and network bandwidth to stream heavy audio and video files without lag.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What distinct operational requirement is mandatory to access personal cloud storage files?",
+      options: [
+        "High voltage wall socket",
+        "Active internet connection",
+        "Dedicated optical scanner",
+        "External cooling ice pack",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Cloud storage services host data on remote web servers, requiring an active internet connection to download, upload, or sync files.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How do contactless smart cards generate power to transmit information over short distances?",
+      options: [
+        "Reader electromagnetic field",
+        "Internal miniature turbines",
+        "Household electrical cables",
+        "Direct solar panel exposure",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The card reader creates an electromagnetic field that induces a tiny electrical current inside the card's internal antenna, powering the chip.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What capability distinguishes holographic storage from traditional DVDs and Blu-ray discs?",
+      options: [
+        "Erases files when powered",
+        "Weighs several kilograms",
+        "Stores data in full volume",
+        "Burns magnetic paper tape",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Unlike surface-only media, holographic systems record data throughout the full 3D volume of the medium, enabling massive storage densities.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why do corporate networks configure dedicated Network Attached Storage (NAS) units?",
+      options: [
+        "Centralised shared access",
+        "Free domestic electrical power",
+        "Eliminates computer screens",
+        "Permanent hardware cooling",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "NAS devices provide centralised file storage and backup capabilities that multiple networked computers can share and access concurrently.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss1Lesson5QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L5/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which default system desktop icon represents access to local hard disks and removable drives?",
+      options: [
+        "This PC",
+        "Web News",
+        "Game Pad",
+        "Chat Box",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The This PC icon provides direct access to installed internal drives, storage partitions, and attached removable storage media.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What setting should you activate if you frequently lose sight of the pointer during movement?",
+      options: [
+        "Permanent sound alert",
+        "Display pointer trails",
+        "Automatic restart mode",
+        "High resolution camera",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Enabling pointer trails creates a visible visual tail behind the moving cursor, making it easy to track on low-contrast screens.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where is the Desktop icon settings link located inside Windows 10 Settings?",
+      options: [
+        "Network status menu",
+        "Audio playback card",
+        "Related Settings area",
+        "System recovery tools",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Desktop icon settings link is found under the Related Settings section inside the Themes panel of Personalisation.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why would a computer user select an Extra Large cursor scheme in Mouse Properties?",
+      options: [
+        "To reduce battery heat",
+        "To boost internet rate",
+        "To compress photo size",
+        "To improve readability",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Extra-large schemes enlarge cursor icons to make them clearly visible for individuals with visual impairments or on large displays.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens to your files when you change the Recycle Bin desktop icon graphic?",
+      options: [
+        "All files stay completely safe",
+        "Old folders are purged forever",
+        "File names are inverted to code",
+        "The hard disk partition resets",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Changing a desktop icon only alters the visual shortcut graphic; it does not delete or change any stored files or folders.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which feature automatically adjusts cursor sensitivity based on how rapidly the user moves the mouse?",
+      options: [
+        "Dynamic color invert",
+        "Auto screen lock mode",
+        "Fast hardware cooling",
+        "Enhance pointer precision",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Enhance pointer precision modifies acceleration dynamically, providing fine control during slow movements and speed during fast motions.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which file extension format is commonly used for custom Windows mouse cursor graphics?",
+      options: [
+        "Audio wave track file",
+        "System cursor file (.cur)",
+        "Compressed video media",
+        "Plain text notepad doc",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Static mouse cursors in Windows use the .cur file extension format, while animated cursors use the .ani extension format.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What setting keeps the mouse pointer from obstructing text as you type an essay?",
+      options: [
+        "Hide pointer while typing",
+        "Lock keyboard character keys",
+        "Disconnect mouse USB cable",
+        "Minimize word processor app",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Checking Hide pointer while typing temporarily conceals the cursor while keystrokes are entered, keeping the typing area clear.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What button must you click in Desktop Icon Settings to restore default system graphics?",
+      options: [
+        "Delete System Cache",
+        "Format Primary Drive",
+        "Restore Default icon",
+        "Close Desktop Session",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Clicking the Restore Default button reverts any custom icon back to its original pre-installed Windows appearance.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What tab in Mouse Properties lets left-handed users switch primary and secondary button functions?",
+      options: [
+        "Buttons tab",
+        "Pointer tab",
+        "Display tab",
+        "Sensors tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The Buttons tab in Mouse Properties allows users to swap button configuration so the right button acts as primary click for left-handed users.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss1Lesson6QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L6/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of a video graphics driver inside a modern personal computer?",
+      options: [
+        "Controls visual screen display",
+        "Cleans mechanical cooling fans",
+        "Powers external speakers units",
+        "Formats secondary hard drives",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The video graphics driver enables the operating system to utilize the graphics card, controlling display output, resolution, and refresh rate.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What administrative utility allows users to check whether attached hardware has missing drivers?",
+      options: [
+        "Task Scheduler",
+        "Device Manager",
+        "Registry Editor",
+        "Resource Monitor",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Windows Device Manager lists all installed hardware components and highlights malfunctioning devices with warning icons when drivers are missing.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What core benefit does Plug-and-Play technology provide when connecting external peripherals?",
+      options: [
+        "Permanent internet access",
+        "Lower electrical pricing",
+        "Automatic hardware detection",
+        "Free cloud storage space",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Plug-and-Play allows the computer to detect and configure attached devices automatically without requiring manual jumpers or hardware configuration.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which peripheral hardware device typically relies on Plug-and-Play for instant connectivity?",
+      options: [
+        "Uninterruptible power unit",
+        "Internal computer bus line",
+        "Direct current cooling fan",
+        "Standard USB optical mouse",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Standard USB mice use built-in Plug-and-Play drivers, enabling them to operate immediately once connected to a USB port.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why do operating systems include generic drivers for basic input devices like keyboards?",
+      options: [
+        "Immediate input functionality",
+        "Erasing corrupted text files",
+        "Faster wireless internet rates",
+        "Blocking malicious web attacks",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Generic drivers allow basic input devices to function immediately so users can operate the machine without having to install third-party software first.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What file format is frequently used by manufacturers to distribute driver installation packages?",
+      options: [
+        "Plain bitmap picture (.bmp)",
+        "Hypertext markup page (.htm)",
+        "Audio waveform track (.wav)",
+        "Executable setup file (.exe)",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Manufacturers package device drivers within executable setup files (.exe) or zip archives containing driver information files (.inf).",
+    ),
+    QuizQuestion(
+      question:
+          "7. What action should a technician take first when an attached webcam fails to produce video?",
+      options: [
+        "Replace the computer display",
+        "Inspect the webcam driver",
+        "Format the system hard drive",
+        "Purchase a brand-new laptop",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "When hardware fails to function, checking its driver status in Device Manager is the standard first troubleshooting step.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when you right-click a hardware device in Device Manager and choose Update driver?",
+      options: [
+        "Starts the driver update wizard",
+        "Turns off the main power supply",
+        "Erases user desktop wallpaper",
+        "Converts the file system to FAT",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Selecting Update driver launches the update wizard, allowing you to search online automatically or browse local files for driver updates.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why must old or corrupt drivers sometimes be uninstalled before installing a replacement driver?",
+      options: [
+        "Prevent software conflicts",
+        "Reduce room air temperature",
+        "Clean computer casing dust",
+        "Increase physical RAM chips",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Corrupt or conflicting driver files can cause hardware instability; removing them ensures that the new driver installs cleanly.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which technical abbreviation designates modern hardware devices that configure automatically?",
+      options: [
+        "USB",
+        "GUI",
+        "ROM",
+        "PnP",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "PnP stands for Plug-and-Play, the industry standard that enables automated hardware detection and driver configuration.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A district assembly notices that refuse skips overflow before municipal waste trucks arrive to empty them. Which computing tool best addresses this operational issue?",
+      options: [
+        "Heavy hydraulic compactors installed inside refuse trucks",
+        "Ultrasonic fill-level sensors that send automated dispatch alerts",
+        "Word processing software to type quarterly sanitary bylaws",
+        "Spreadsheet applications installed on stationary home computers",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Ultrasonic IoT fill-level sensors measure refuse levels inside bins and automatically dispatch collection trucks only when skips are nearly full, preventing unsanitary overflow.",
+    ),
+    QuizQuestion(
+      question:
+          "2. An agricultural cooperative wants to help vegetable farmers sell produce directly to city restaurants. What type of digital solution directly eliminates the communication barrier?",
+      options: [
+        "An offline desktop word processor used to type daily invoices",
+        "A mobile marketplace platform matching farmers with buyers",
+        "A graphic design suite creating paper flyers for distribution",
+        "An automated industrial tractor with mechanical soil tillers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A mobile marketplace application allows direct interaction and transparent trade between rural farmers and commercial food buyers, cutting out costly middlemen.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following issues represents an infrastructure deficit that computing software cannot directly fix?",
+      options: [
+        "Absence of clean piped water supply in a rural town",
+        "Lack of real-time wholesale pricing for crop sales",
+        "Inefficient medical record retrieval in district clinics",
+        "Delayed delivery of student terminal examination results",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Physical water pipe networks require civil engineering and piping infrastructure; computing can monitor water flow and detect leaks, but it cannot manufacture or lay physical water mains.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A regional hospital needs to confirm whether an outlying village clinic has remaining doses of anti-snake venom serum. Which system provides this visibility without requiring manual road travel?",
+      options: [
+        "Printing monthly stock summaries in regional news publications",
+        "Purchasing heavy diesel courier vans for weekly depot checks",
+        "Dispatching clinic staff on public transit buses every morning",
+        "Deploying a cloud-synchronized digital inventory database",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A synchronized digital inventory system updates supply counts whenever items are dispensed, allowing regional health supervisors to monitor clinic stock levels remotely in real time.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why do developers of community welfare applications frequently choose SMS over web apps in rural districts?",
+      options: [
+        "SMS transmission operates reliably across basic GSM cell networks",
+        "SMS platforms display rich high-definition video advertisements",
+        "SMS protocols require expensive quarterly data subscriptions",
+        "SMS services only function on premium modern smartphone models",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "SMS requires no high-speed data connection or smartphone hardware, operating across standard cellular signal bands accessible to nearly all mobile phone owners.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A basic school in a remote location has four tablets but no cellular internet signal. What setup ensures learners still benefit from digital computing resources?",
+      options: [
+        "Connecting the tablets to wired telephone lines running to town",
+        "Running heavy underground cables across neighbouring communities",
+        "Pausing all computer lessons until commercial towers are erected",
+        "Installing offline-first educational packages onto tablet storage",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Offline-first software pre-installs textbooks, lesson simulations, and practice questions directly onto local flash memory, letting students study without live internet connectivity.",
+    ),
+    QuizQuestion(
+      question:
+          "7. District disease surveillance officers need to locate communities experiencing sudden increases in cholera cases. Which computing technology is most effective for this task?",
+      options: [
+        "Geographic Information Systems with digital heat-mapping",
+        "Slide presentation software with custom slide transitions",
+        "Audio recording software to capture patient doctor interviews",
+        "Desktop publishing applications to create community newsletters",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "GIS tools combine health reporting records with geographic coordinates to generate visual maps, showing authorities exactly where infection clusters are multiplying.",
+    ),
+    QuizQuestion(
+      question:
+          "8. When evaluating whether a community problem can be resolved using computing technology, what is the most critical question to ask first?",
+      options: [
+        "Can the challenge be addressed by moving or processing information?",
+        "How many high-end desktop computers can the assembly purchase?",
+        "Can the technical team paint all the computing labs blue?",
+        "Which foreign software brand is currently the most expensive?",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Computing is fundamentally an information-processing discipline; evaluating feasibility starts by determining whether the root bottleneck is an information or communication deficit.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A community transport union struggles to organize passenger schedules for long-distance travel, leading to passenger overcrowding and vehicle delays. How does computing resolve this challenge?",
+      options: [
+        "Widening highway toll lanes leading out of the transport terminal",
+        "Deploying traffic wardens with whistles along municipal streets",
+        "Building larger parking spaces for unregistered private minibuses",
+        "Implementing a centralized digital seat reservation system",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A centralized digital booking and seat reservation engine coordinates passenger ticketing ahead of time, preventing overcrowding and ensuring buses dispatch on structured schedules.",
+    ),
+    QuizQuestion(
+      question:
+          "10. An electrical technician wants to monitor solar streetlights in five remote villages without driving to each village every night. Which computing architecture enables this?",
+      options: [
+        "Installing local paper logbooks inside each individual street pole",
+        "Hiring night watchmen to physically telephone headquarters hourly",
+        "Setting up IoT sensors transmitting operational status via cellular telemetry",
+        "Running extended copper audio cables from each lamp to regional offices",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Internet of Things (IoT) sensors fitted to solar panels can measure battery voltage and lamp status, transmitting telemetry alerts over mobile networks when maintenance is needed.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A rural health centre wants to improve childhood immunization attendance across eight surrounding villages. Which computing solution should be proposed?",
+      options: [
+        "Automated SMS reminders sent to registered parents before clinic dates",
+        "Streaming weekly medical lectures on high-definition video web channels",
+        "Installing desktop computer towers in every single remote family home",
+        "Running loudspeaker announcements from moving trucks along main roads",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Automated SMS notifications reach parents directly on their personal mobile phones without requiring internet access or travel expenses, significantly cutting down missed vaccine appointments.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A district assembly wants to minimize paper waste and streamline business permit applications for local shop owners. What is the most effective digital proposal?",
+      options: [
+        "Purchasing ten heavy commercial photocopying machines for town halls",
+        "Deploying a unified online web portal and mobile permit application form",
+        "Printing large volumes of blank paper forms to distribute at bus stops",
+        "Hiring additional clerks to manually rewrite all records into ledger books",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A centralized web and mobile application portal allows shop owners to submit documents and fees digitally, eliminating paper waste and processing delays.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the strongest reason to propose an offline-first learning system for a community school with unstable electrical supply?",
+      options: [
+        "It functions entirely without live internet connectivity and uses low power",
+        "It allows learners to stream foreign movies and play online multiplayer games",
+        "It requires continuous connection to international cloud data centres",
+        "It displays bright decorative animations continuously throughout the day",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Offline-first systems store educational materials locally, enabling steady, uninterrupted study on battery-powered devices even during electrical blackouts and network outages.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A community cooperative notices that farmers receive low prices for cassava because they lack access to prevailing wholesale market rates. Which technology solution should be pitched?",
+      options: [
+        "Building a large physical television studio to broadcast weekly crop news",
+        "Distributing paper price catalogues through post offices once every month",
+        "Designing an animated video game teaching children how to plant cassava",
+        "Launching a USSD market price platform accessible on basic mobile phones",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A USSD pricing engine provides instant, real-time market data across standard feature phones, enabling farmers to negotiate competitive rates before selling their harvest.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When structuring a formal technology proposal, what is the role of the system architecture flow?",
+      options: [
+        "Detailing the names and home addresses of all junior software developers",
+        "Listing all the commercial shops selling electronic cables in the district",
+        "Charting the exact pathway data travels from user input to final output",
+        "Recommending the brand of paint used on the community computer room walls",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The architecture flow visually maps how data inputs are processed, stored, and retrieved across hardware and software systems, demonstrating operational feasibility.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A student team prepares a slide deck to present their water leak detection system to the town council. What should be featured on the final slide to encourage action?",
+      options: [
+        "A list of all historical computer operating systems released since 1980",
+        "A collection of unrelated cartoon illustrations downloaded from the web",
+        "A complex mathematical proof explaining how binary digits store numbers",
+        "A clear call to action outlining project next steps, budget, and timeline",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A professional presentation closes with a clear call to action that outlines project milestones, estimated costs, and immediate steps for community adoption.",
+    ),
+    QuizQuestion(
+      question:
+          "7. A team proposes deploying aerial drones to deliver critical medical supplies across rivers. What operational risk must be addressed in the proposal?",
+      options: [
+        "Severe adverse weather conditions disrupting automated flight paths",
+        "Excessive paper waste generated by printing drone pilot flight cards",
+        "Lack of decorative paint colours matching local town council buildings",
+        "Inability of drones to store text files inside basic classroom tables",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Drones are vulnerable to severe headwinds and torrential rainstorms; a sound proposal must detail flight weather thresholds and alternative ground dispatch plans.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should proposals for community apps incorporate local language audio prompts?",
+      options: [
+        "To make the digital application compatible with foreign desktop machines",
+        "To ensure accessibility for community members who cannot read English text",
+        "To increase the memory size of the software program on modern handsets",
+        "To make sure the application displays properly on monochrome calculators",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Local language voice prompts remove literacy barriers, allowing non-literate community members to navigate services confidently and independently.",
+    ),
+    QuizQuestion(
+      question:
+          "9. A community library wants to propose converting its physical archives into a digital catalogue. What primary benefit should be highlighted to the funding committee?",
+      options: [
+        "Doubling the physical footprint needed to store paper file boxes on desks",
+        "Requiring all community readers to purchase high-end desktop hardware",
+        "Eliminating all student examinations across the surrounding municipality",
+        "Enabling multiple readers to search and access learning resources instantly",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Digital catalogues preserve rare books and permit multiple users to locate and read educational materials simultaneously without wearing out physical copies.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which proposal represents the most sustainable waste management tracking system for a growing urban market?",
+      options: [
+        "Solar IoT trash sensors alerting dispatchers when bins reach capacity",
+        "Stationing five full-time clerks next to bins with manual paper registers",
+        "Relying on passersby to verbally shout when waste begins overflowing",
+        "Printing weekly warning leaflets to distribute to passing vehicle drivers",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Solar-powered IoT sensors provide automated, accurate fill-level data without requiring recurring manual labor or paper logs, ensuring timely waste collection.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss2_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which design choice best supports non-literate community members using a mobile welfare application?",
+      options: [
+        "Incorporating spoken local audio prompts alongside intuitive icons",
+        "Displaying long paragraphs of technical explanations in tiny font",
+        "Removing all visual graphics to reduce device memory usage",
+        "Requiring users to type complex alphanumeric commands on screens",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Combining recognizable graphical icons with spoken audio in local languages allows users who cannot read text to navigate the system easily and independently.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What does an oval symbol represent when drawing a formal software system flowchart?",
+      options: [
+        "A conditional decision point that splits the program path",
+        "The starting or ending point of a system process or journey",
+        "An arithmetic calculation that adds two numerical values",
+        "A manual file typing task performed on a desktop keyboard",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In standard flowchart modeling, ovals (or rounded rectangles) represent terminators, indicating the precise beginning or end of a logical process.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A team is designing a spreadsheet database to record daily solar lamp repairs across seven schools. Which field is best suited as a unique record identifier?",
+      options: [
+        "Name of School Principal",
+        "Date Repair Completed",
+        "Solar Panel Serial Number",
+        "Colour of Lamp Enclosure",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A hardware serial number is unique to each solar device, preventing confusion when recording maintenance and inventory status across multiple schools.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is setting data validation rules critical when designing community data collection forms?",
+      options: [
+        "It prevents users from submitting invalid, incomplete, or corrupted records",
+        "It automatically doubles the internet download speeds of mobile devices",
+        "It translates all typed text into decorative visual fonts instantly",
+        "It ensures that mobile screens never turn off during nighttime use",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Data validation rules enforce format constraints (such as preventing letters in phone number fields), ensuring only clean, usable data enters the system.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When preparing an informational brochure to teach community elders how to use an SMS healthcare alert service, what should the designer prioritize?",
+      options: [
+        "Complex programming logic explaining backend database architecture",
+        "High-level mathematical proofs detailing mobile network encryption",
+        "Large fonts, clear step-by-step illustrations, and simple plain language",
+        "Lengthy legal agreements printed in very fine, low-contrast text",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A public user guide must be accessible to ordinary citizens, relying on clear step-by-step numbers, bold fonts, and simple language rather than technical jargon.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A student team uses presentation software to pitch their smart sanitation sensor design to the district assembly. What should be the primary focus of the first slide?",
+      options: [
+        "A detailed financial balance sheet listing five years of repairs",
+        "An exhaustive biography of every single software engineer involved",
+        "Complex electronic circuit board diagrams with voltage numbers",
+        "A clear project title, team member names, and school institution",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The opening slide sets the professional tone by introducing the project name, the design team members, and their school or institution clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What role does peer feedback play after students present their initial system design sketches in class?",
+      options: [
+        "It identifies navigation flaws so the team can iteratively improve usability",
+        "It allows teachers to discard student work and assign paper textbooks",
+        "It permanently locks software blueprints against any future revisions",
+        "It forces developers to switch to completely unrelated project themes",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Constructive peer review uncovers interface confusion and workflow gaps, giving design teams the insights needed to refine their solution before deployment.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should touch buttons on a mobile tablet application designed for classroom use be generously sized?",
+      options: [
+        "To increase the memory size of the graphic image files stored on tablets",
+        "To allow learners to tap targets easily without accidental missed taps",
+        "To consume more electrical battery power when tablets are operating",
+        "To make sure the tablet display screen cannot be rotated sideways",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Large touch targets improve usability on touchscreen devices, preventing user frustration caused by mis-taps and awkward finger positioning.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In a system flowchart, what does a diamond shape represent?",
+      options: [
+        "An external document printed by a connected laser printer",
+        "A physical hardware device connected to an electric wall outlet",
+        "A manual data typing step performed using a standard keyboard",
+        "A decision point that branches the flow into alternative paths",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Flowchart diamonds symbolize conditional tests (decision logic) that branch the execution into \"Yes\" or \"No\" routes based on incoming data conditions.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which tool is most effective for summarizing the core problem, technological design, and community benefits into a single visual poster?",
+      options: [
+        "A detailed spreadsheet file containing three hundred raw data rows",
+        "A single well-structured infographic combining graphics and brief text",
+        "An unformatted plain text document running across twenty-five pages",
+        "An audio sound clip with background music and no visual elements",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "An infographic synthesizes data points, design illustrations, and key outcomes into a single cohesive visual overview that communicates project value immediately.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What long-term health condition is defined as the painful inflammation of fibrous cords connecting muscle to bone due to repetitive wrist actions?",
+      options: [
+        "Tendinitis",
+        "Asthenopia",
+        "Bronchitis",
+        "Scoliosis",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Tendinitis is the inflammation of the tendons resulting from repetitive motions and awkward joint angles during prolonged typing or mouse work.",
+    ),
+    QuizQuestion(
+      question:
+          "2. An office clerk in Tema spends eight hours daily gripping a flat standard mouse and reports burning wrist pain. Which ergonomic device should he adopt?",
+      options: [
+        "A mechanical trackball keypad",
+        "An ergonomic vertical mouse",
+        "A widescreen touch monitor",
+        "A wireless numeric keyboard",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A contoured vertical ergonomic mouse maintains the forearm and wrist in an upright, neutral handshake position, relieving pressure on the carpal tunnel.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why should an ICT lab manager avoid positioning desktop computer monitors directly opposite open, unshaded windows?",
+      options: [
+        "The monitor display will overheat very rapidly under the sun",
+        "Strong sunlight enters from behind, making the device crack",
+        "Dust from outside enters the cooling vents of the CPU chassis",
+        "Incoming sunlight creates blinding reflections across the screen",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Placing a monitor with its screen facing a window causes severe glare and specular reflection, making on-screen characters illegible and straining the eyes.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary function of an adjustable ergonomic document holder at an office workstation?",
+      options: [
+        "It automatically checks all your printed pages for grammatical errors",
+        "It keeps papers at monitor level to eliminate repetitive neck bending",
+        "It prevents the computer keyboard from overheating during intensive use",
+        "It stores extra stationery items safely inside the computer laboratory",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Paper stands hold reference documents upright in the user's direct line of sight, preventing the constant downward tilting and twisting of the neck.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which visual symptom is directly associated with working in an ICT room with inadequate lighting or severe screen glare?",
+      options: [
+        "Carpal tunnel",
+        "Sprained neck",
+        "Eye strain",
+        "Tendinitis",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Asthenopia, or eye strain, manifests as tired, dry, or irritated eyes, blurred vision, and headaches caused by harsh glare or poor room illumination.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How should a student adjust their computer monitor to minimise reflections originating from overhead fluorescent ceiling strip lights?",
+      options: [
+        "Tilt the screen slightly downward",
+        "Push the screen far back on desk",
+        "Raise the screen brightness to maximum",
+        "Rotate the monitor vertically upward",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Tilting the top edge of the monitor slightly forward and downward angles the reflection of overhead lights toward the desk surface rather than into the user's eyes.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does an ergonomic split keyboard fundamentally differ from a standard desktop keyboard in its design layout?",
+      options: [
+        "It replaces mechanical keys with an electronic glass touch surface",
+        "It has larger keycaps printed with very high contrast dark letters",
+        "It separates the keys into two angled halves to match wrist alignment",
+        "It incorporates a built-in cooling system to dissipate typing warmth",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Split keyboards divide the keys into two angled clusters, allowing hands and wrists to point forward naturally without lateral wrist bending.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where should rows of computer workstations ideally be arranged in relation to overhead fluorescent lighting banks?",
+      options: [
+        "Facing directly into the fluorescent tubes",
+        "Running directly underneath the light lines",
+        "Positioned between the overhead light rows",
+        "Stacked vertically toward the light fixtures",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Positioning desks parallel and between overhead lighting banks prevents direct downward glare onto the monitors and keyboard surfaces.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What simple adjustment can a student make to screen settings to prevent eye fatigue when working late in a dimly lit study room?",
+      options: [
+        "Increase colour saturation to full",
+        "Increase screen resolution levels",
+        "Turn off contrast adjustments fully",
+        "Lower screen brightness comfortably",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Matching screen brightness to ambient lighting prevents harsh contrast, which forces the iris muscles to strain while reading.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the core meaning of the term \"musculoskeletal disorder\" when used in workstation health evaluations?",
+      options: [
+        "A disease caused by inhaling dust particles inside computer labs",
+        "An injury affecting muscles, tendons, nerves, and spinal joints",
+        "A sudden electrical shock received from ungrounded computing wires",
+        "A loss of vision caused by staring at high-definition displays",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Musculoskeletal disorders refer to physical conditions and injuries affecting muscles, tendons, ligaments, nerves, and supportive structures due to physical strain.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S1Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss3_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What fundamental scientific principle explains why electrical power consumed by a computer system is converted into thermal energy?",
+      options: [
+        "The law of conservation of energy",
+        "The law of universal gravity",
+        "The law of conservation of mass",
+        "The theory of molecular relativity",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The law of conservation of energy states that energy cannot be destroyed, meaning unused electrical power running through resistive circuits transforms into heat.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary danger of allowing dense dust layers to accumulate over internal computer fans and heat sinks?",
+      options: [
+        "The system hard drive completely loses all its stored documents",
+        "Dust blocks airflow and traps heat, accelerating hardware wear",
+        "Keyboard buttons become uncalibrated and type incorrect letters",
+        "The monitor display permanently inverts its background colours",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Dust acts as an insulating blanket and chokes airflow, preventing heat sinks from dissipating heat and leading to overheating and component failure.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How many watts of electrical power are equivalent to exactly one kilowatt?",
+      options: [
+        "10 watts",
+        "100 watts",
+        "500 watts",
+        "1,000 watts",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The prefix \"kilo\" represents one thousand, so one kilowatt equals 1,000 watts of electrical power.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why should desktop computer towers never be pushed directly flush against a solid wall or enclosed in tight wooden cabinetry?",
+      options: [
+        "Ground vibrations from concrete walls interfere with digital mouse tracking",
+        "Blocked vents cannot expel hot air or draw in cool air for components",
+        "Solid walls attract magnetic charges that disrupt wireless networking signals",
+        "Computer casing metals react chemically with wall paint and cause rust",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Computer towers require open clearance around air vents to circulate cool ambient air across components and expel hot air outwards.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What immediate symptom indicates that a computer CPU is undergoing thermal throttling due to excessive heat?",
+      options: [
+        "The computer screen rotates upside down automatically",
+        "The system audio output doubles its volume level",
+        "The operating system performance becomes very sluggish",
+        "The network connection switches to airplane mode",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Thermal throttling slows down CPU clock cycles to reduce heat generation, causing visible system sluggishness, lag, and temporary freezing.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which practical action helps lower workstation heat levels in a school computer lab without air conditioning?",
+      options: [
+        "Opening windows and using ceiling fans for cross-ventilation",
+        "Stacking heavy paper notebooks directly over computer vents",
+        "Placing several desktop towers side by side in tight contact",
+        "Covering power supply cables with thick plastic insulation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Opening windows allows warm air to escape and fresh air to enter, creating cross-ventilation that dissipates accumulated machine heat.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Approximately how much electrical power does an active heavy-duty office laser printer typically consume while running?",
+      options: [
+        "300 to 500 watts",
+        "5 to 10 watts",
+        "1,500 to 3,000 watts",
+        "10 to 20 watts",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Active office laser printers require significant heating energy to melt toner onto paper, typically consuming between 300 and 500 watts.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why do portable computing devices such as tablets produce significantly less heat than full-sized desktop computers?",
+      options: [
+        "Tablets use low-power microprocessors designed for energy efficiency",
+        "Tablets have large internal water-cooling reservoirs built inside them",
+        "Tablets do not use electrical current to process digital information",
+        "Tablets run entirely on solar energy absorbed through glass screens",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Mobile devices utilize specialized low-wattage, energy-efficient microchips designed to operate on minimal battery power, generating minimal heat.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What tool is safest and most effective for clearing dust from sensitive cooling vents and fans inside a computer case?",
+      options: [
+        "A moist kitchen sponge soaked in soapy tap water",
+        "An industrial metal scraper with sharpened edges",
+        "A can of clean compressed air or soft anti-static brush",
+        "A standard household water hose set to low pressure",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Compressed air and anti-static brushes safely dislodge dust particles without introducing moisture or static electricity that could ruin circuits.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What safety risk can arise if high-heat computing equipment is operated in cluttered spaces filled with paper stacks?",
+      options: [
+        "Microprocessors will begin generating high levels of toxic fumes",
+        "Electrical cords will spontaneously reverse their polarity order",
+        "Internal storage hard drives will physically melt into liquid",
+        "Trapped heat and electrical faults can ignite flammable materials",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Poor heat dissipation combined with flammable paper clutter and high electrical loads creates a serious potential fire hazard.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which keyboard key captures a snapshot of everything currently displayed on your monitor?",
+      options: [
+        "Backspace key",
+        "Caps Lock key",
+        "Escape setup",
+        "Print Screen",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Print Screen key copies the entire monitor display straight into the computer's memory.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Under which group on the Insert tab will you find both the Pictures and Screenshot commands?",
+      options: [
+        "Illustrations",
+        "Page setup box",
+        "Paragraph set",
+        "Document views",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Illustrations group holds commands for pictures, shapes, SmartArt, and screenshots.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What happens to your monitor display immediately after clicking the Screen Clipping tool?",
+      options: [
+        "Screen turns black",
+        "Display goes white",
+        "Screen turns opaque",
+        "System shuts down",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Microsoft Word temporarily frosts over the screen to allow custom area selection.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why should a student include relevant illustrations or screenshots in a school project report?",
+      options: [
+        "To aid understanding",
+        "To fill empty space",
+        "To increase storage",
+        "To replace all text",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Visual aids support the written text and make information significantly easier to understand.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which keyboard combination allows you to capture only the active application window?",
+      options: [
+        "Shift + PrtScn",
+        "Alt + PrintScreen",
+        "Tab + PrintScrn",
+        "Ctrl + PrtScreen",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Holding Alt while pressing Print Screen targets only the currently active program window.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When selecting a custom area during a screen clipping, what action inserts the image into Word?",
+      options: [
+        "Pressing the Esc key",
+        "Double-clicking icon",
+        "Right-clicking space",
+        "Releasing mouse drag",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Once you finish dragging the selection box, releasing the mouse button completes the capture.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What temporary storage location holds copied screen captures before they are pasted into Word?",
+      options: [
+        "System clipboard",
+        "Document footer",
+        "Local flash disc",
+        "The recycle bin",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The clipboard is the operating system's internal temporary buffer for copied data.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where will an inserted picture or clip art appear when you first add it to your document?",
+      options: [
+        "Top of first page",
+        "End of document",
+        "Margin border line",
+        "At cursor position",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "New images are automatically placed exactly where the blinking cursor is positioned.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What appears in the Screenshot drop-down gallery before clicking the Screen Clipping tool?",
+      options: [
+        "Open web browsers",
+        "Available windows",
+        "Saved photographs",
+        "Recent typography",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The gallery displays thumbnails of all open application windows currently running on the system.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which tool should a student choose to extract only a tiny logo from a wide website window?",
+      options: [
+        "Format painter",
+        "Full print screen",
+        "Screen clipping",
+        "SmartArt graphic",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Screen clipping allows the user to define and capture a specific rectangular sub-section.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which SmartArt category should a student select to present the sequential steps of cooking banku?",
+      options: [
+        "Hierarchy",
+        "Relationship",
+        "Matrix style",
+        "Process chart",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Process diagrams are specifically designed to illustrate step-by-step workflows and procedures.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where on the Ribbon is the SmartArt command located in Microsoft Word?",
+      options: [
+        "The Insert tab",
+        "The Review tab",
+        "The Design tab",
+        "The Layout tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "SmartArt resides inside the Illustrations group under the Insert tab.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What visual diagram type illustrates continuous sequences that repeat without ending?",
+      options: [
+        "Linear process",
+        "Pyramid diagram",
+        "Cycle diagram",
+        "Matrix layout",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Cycle layouts show circular relationships where the ending stage loops back to the start.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which tool allows users to type all SmartArt bullet points in a side-by-side list view?",
+      options: [
+        "The Text Pane",
+        "Footnote box",
+        "Navigation tab",
+        "Formula window",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The Text Pane lets you edit all labels and bullet points in an organized list format.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary benefit of replacing plain bullet points with a SmartArt graphic?",
+      options: [
+        "Increases files",
+        "Visual clarity",
+        "Saves printing",
+        "Locks documents",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "SmartArt visually summarizes complex information, making documents easier to read and comprehend.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which command on the contextual design tab adds another box to an existing SmartArt diagram?",
+      options: [
+        "New Document",
+        "Insert Header",
+        "Reset Picture",
+        "Add Shape box",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Add Shape button inserts extra geometric nodes into your existing SmartArt structure.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which category of SmartArt would you select to display the family tree of an Akan royal lineage?",
+      options: [
+        "The Hierarchy",
+        "Process layout",
+        "Cycle diagram",
+        "Continuous list",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Hierarchies display tree structures and genealogical descents clearly.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What special feature allows certain SmartArt layouts to hold photographs directly inside the shapes?",
+      options: [
+        "Table styles",
+        "WordArt lines",
+        "Screen clipping",
+        "Picture holders",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Picture placeholder shapes contain designated icons allowing direct insertion of images.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What dialogue box appears on the screen immediately after clicking the SmartArt icon?",
+      options: [
+        "Font Formatting",
+        "SmartArt Graphic",
+        "Page Setup Menu",
+        "Print Properties",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Word opens the Choose a SmartArt Graphic dialogue box to let the user select a template.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How does Microsoft Word handle oversized text typed into a small SmartArt shape?",
+      options: [
+        "Hides all text",
+        "Truncates words",
+        "Shrinks the font",
+        "Deletes the node",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "SmartArt shapes dynamically scale font sizes downward so the text fits comfortably inside.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which ribbon group houses the command used to embed a live web video?",
+      options: [
+        "Media group",
+        "Header block",
+        "Font styling",
+        "Page margins",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Online Video tool is located inside the Media group on the Insert tab.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual indicator typically appears on hyperlinked text in Microsoft Word?",
+      options: [
+        "Yellow border",
+        "Blue underline",
+        "Red italic box",
+        "Bold black dots",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Word automatically styles active hyperlinks with blue text and a single continuous underline.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which tool should a student select to present comparison percentages of cocoa harvests?",
+      options: [
+        "Drop Cap style",
+        "Screen capture",
+        "Data chart",
+        "Header banner",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Charts are designed specifically to display proportional data, percentages, and numerical comparisons.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Under which group on the Insert tab is the Object tool located for inserting audio?",
+      options: [
+        "Illustrations",
+        "Page setup box",
+        "Document views",
+        "The Text group",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Object tool used for embedding external sound files is located within the Text group.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the name of the readable phrase that users click on to navigate a web link?",
+      options: [
+        "Display text",
+        "Network port",
+        "Root address",
+        "System source",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Display text is the human-readable wording visible on the page that masks the destination URL.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What user action allows an embedded audio file to be heard from inside a Word document?",
+      options: [
+        "Right-clicking line",
+        "Dragging the icon",
+        "Pressing spacebar",
+        "Double-clicking",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Double-clicking the embedded audio speaker icon commands the operating system to play the track.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which chart style is best suited to show a school sports club budget breakdown?",
+      options: [
+        "The Pie chart",
+        "Line graph",
+        "Scatter plot",
+        "Area diagram",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Pie charts illustrate proportional parts that compose a complete single whole.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Where is the new chart data typed immediately after picking a chart format?",
+      options: [
+        "A text box",
+        "The Excel grid",
+        "Status bar area",
+        "A blank footer",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Microsoft Word opens a connected Excel datasheet grid to receive the chart categories and values.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What button appears over an inserted animated GIF to start its movement on the screen?",
+      options: [
+        "Loop command",
+        "Skip control",
+        "Play button",
+        "Zoom toggle",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Microsoft Word includes a Play icon on inserted GIFs to start the animation playback.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How can a user change the web destination address of an existing hyperlink in Word?",
+      options: [
+        "Clear formatting",
+        "Delete paragraph",
+        "Edit Hyperlink",
+        "Replace document",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Right-clicking the link and selecting Edit Hyperlink opens the dialogue box to adjust the target URL.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature captures a complete snapshot of another open program window directly onto your active slide?",
+      options: [
+        "Screen Clipping",
+        "Action Button",
+        "SmartArt Shape",
+        "Screenshot",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The Screenshot button displays thumbnails of open windows to insert an entire snapshot with one click.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where on the ribbon can you locate the Pictures and Screenshot commands in presentation software?",
+      options: [
+        "Under the Images group on Insert",
+        "Under the Window group on View",
+        "Under the Slides group on Home",
+        "Under the Page group on Design",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Both tools reside within the Images group situated directly on the Insert tab.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What must you do before using Screen Clipping to capture an excerpt from an open electronic document?",
+      options: [
+        "Print the electronic document page",
+        "Place that document window behind",
+        "Reinstall the presentation program",
+        "Close down all running applications",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Screen Clipping captures whatever window is layered directly behind the presentation workspace.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why does the Online Pictures tool filter search results using Creative Commons licenses?",
+      options: [
+        "To lower overall file download size",
+        "To ensure images match slide colour",
+        "To avoid breaking legal copyright",
+        "To increase computer processing pace",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Creative Commons licensing provides legal rights to use digital media without copyright infringement.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which pointer shape appears on screen when you are ready to drag and define a screen clipping area?",
+      options: [
+        "Dark crosshair pointer",
+        "Standard blinking bar",
+        "Rotating circle symbol",
+        "Double horizontal arrow",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Once the screen turns white, the pointer turns into a crosshair allowing you to draw a crop boundary.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When inserting an image from an external flash drive, which button inside the Images group should you click?",
+      options: [
+        "Photo Album",
+        "Online Picture",
+        "Screen Clipping",
+        "Pictures",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Pictures command opens a file dialogue box to browse local and removable storage drives.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What happens immediately when you release your mouse button after dragging over a screen clipping region?",
+      options: [
+        "The clipped image lands on slide",
+        "The presentation program reboots",
+        "The target window closes forever",
+        "The desktop opens a browser window",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Releasing the mouse completes the crop and automatically inserts the selected visual onto the active slide.",
+    ),
+    QuizQuestion(
+      question:
+          "8. If your computer has no internet access, which picture insertion method remains fully operational?",
+      options: [
+        "Cloud photo repository search",
+        "Local drive picture insertion",
+        "Online library picture insert",
+        "Web search engine integration",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Inserting stored pictures from internal disks or flash drives works entirely offline without internet.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should a student do first before inserting any graphic onto a specific presentation slide?",
+      options: [
+        "Change screen display resolution",
+        "Save the presentation to desktop",
+        "Select the target slide in pane",
+        "Disconnect every peripheral item",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "You must select the desired slide first so the presentation software knows where to place the image.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which tool should a student choose to extract only a small logo from a webpage displayed on screen?",
+      options: [
+        "Web hyperlink command",
+        "Full window screenshot",
+        "Slide transition effect",
+        "Screen clipping feature",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Screen clipping allows the user to select and crop a specific rectangular portion rather than capturing the whole window.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which animation category allows a drawn graphic of a fishing canoe to travel across a map of Lake Volta along a custom line?",
+      options: [
+        "Emphasis effect",
+        "Entrance style",
+        "Motion path",
+        "Exit command",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Motion paths define a specific spatial path across the slide canvas for an object to follow during a presentation.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which command on the ribbon allows a student to review how animations behave without launching the full-screen slide show?",
+      options: [
+        "The Preview command",
+        "The Slide Sorter tool",
+        "The Outline View mode",
+        "The Reading View pane",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The Preview button on both the Animations and Transitions tabs plays back the applied effects directly on the active canvas.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do presentation designers advise against using multiple loud sound effects and rapid animations on every single slide?",
+      options: [
+        "It disables the computer mouse",
+        "It deletes the saved slide deck",
+        "It requires an optical drive",
+        "It distracts the main audience",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Excessive animation and sound overwhelm the audience and draw their focus away from the core educational message.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Where does a user click to adjust the specific flight direction of an entrance animation from left to right?",
+      options: [
+        "The Layout button",
+        "The Effect Options",
+        "The Format Painter",
+        "The Selection Pane",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Effect Options menu allows you to modify properties like direction, angle, and shape boundaries for an active animation.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What happens to a non-printing sequence number badge when you run a presentation in full-screen Slide Show mode?",
+      options: [
+        "It remains invisible",
+        "It turns bright yellow",
+        "It flashes continuously",
+        "It moves to the corner",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Sequence numbers are editing aids designed exclusively for the presenter workspace and never appear during an actual slide show.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which ribbon tab must you access to animate a specific title text box on a slide?",
+      options: [
+        "The Review tab",
+        "The Design tab",
+        "The Insert tab",
+        "The Animations tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "All effects applied to individual text boxes, shapes, and images are located within the Animations tab.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the primary function of an Exit animation when presenting a slide?",
+      options: [
+        "To zoom into the slide title",
+        "To take an object off the screen",
+        "To change an image border colour",
+        "To advance to the final slide deck",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Exit animations govern how an item leaves the slide workspace, making it disappear from view while the presentation continues.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a pupil identify whether a slide in the thumbnail pane has an active transition applied to it?",
+      options: [
+        "A star symbol appears",
+        "A red dot is displayed",
+        "The slide gets larger",
+        "The text turns to bold",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A small play star indicator appears beneath the slide number in the slide thumbnail pane when a transition or animation is present.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the proper method for removing an animation without deleting the actual text or visual object from the slide?",
+      options: [
+        "Cut the slide in the sorter",
+        "Close down the entire file",
+        "Press the clear format tool",
+        "Delete the sequence number",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Clicking the small numbered tag beside the object and pressing Delete removes the animation instruction while keeping the content.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which transition group includes modest and clean movements such as Fade, Push, and Wipe?",
+      options: [
+        "The Dynamic group",
+        "The Exciting group",
+        "The Subtle group",
+        "The Complex group",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Subtle transition group contains professional, gentle movements that transition between slides without drawing excessive attention.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss2Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss2_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What must a user do to input numerical values into a specific box within an inserted presentation table?",
+      options: [
+        "Reopen the main master view",
+        "Click the cell and type data",
+        "Drag the entire slide border",
+        "Select the ribbon design tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Clicking directly inside any individual table cell places the blinking insertion cursor, allowing text or numerical entry.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which chart category is most effective for demonstrating the market share percentages of cocoa exporters in Ghana?",
+      options: [
+        "A Pie chart",
+        "A Line chart",
+        "A Flow chart",
+        "An Area chart",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Pie charts represent proportions and percentages of a whole, making them ideal for market share distributions.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which ribbon tab provides commands to insert or delete rows and columns in an existing slide table?",
+      options: [
+        "The Transitions ribbon tab",
+        "The Slide Show ribbon tab",
+        "The Animations ribbon tab",
+        "The Table Tools Layout tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The contextual Table Tools Layout tab manages structural modifications, such as adding or removing table rows and columns.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens to an embedded chart after a student modifies sample data inside the pop-up spreadsheet window?",
+      options: [
+        "The chart redraws automatically",
+        "The chart gets deleted permanently",
+        "The presentation file closes down",
+        "The entire slide turns completely grey",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "The presentation chart is dynamically linked to the pop-up datasheet; updating values refreshes visual elements immediately.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which control item on the media playback bar allows a presenter to skip ahead to a specific timestamp in a video clip?",
+      options: [
+        "The volume balance icon",
+        "The full screen toggler",
+        "The rewind button icon",
+        "The timeline scrub slider",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Dragging the scrub slider along the media timeline advances or rewinds playback to any exact timestamp in the file.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Where on the ribbon can you find the Chart button to insert visual data graphics?",
+      options: [
+        "The Text group on the View tab",
+        "The Media group on the Insert tab",
+        "The Illustrations group on Insert",
+        "The Slides group on the Home tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The Chart tool is located within the Illustrations group situated on the Insert ribbon tab.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How can a student move an entire table to a new location on the presentation canvas without changing its dimensions?",
+      options: [
+        "Drag the outer table border",
+        "Double click the centre cell",
+        "Press the escape key on board",
+        "Right click the slide footer",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clicking and dragging the outer boundary border allows you to freely move the complete table frame anywhere on the slide.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which multimedia feature enables a student to play recorded speeches directly from their slides without switching windows?",
+      options: [
+        "Embedded audio player tool",
+        "Desktop screen clipping tool",
+        "External browser extension",
+        "Operating system start bar",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Inserting an audio file embeds a media player directly on the slide, allowing playback without leaving the application.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the fastest way to insert a table on a slide that already displays an empty content placeholder box?",
+      options: [
+        "Draw table using freehand lines",
+        "Paste values from word pad app",
+        "Click the placeholder table icon",
+        "Convert text box into smart art",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Standard content placeholder boxes include a direct Table icon that prompts for rows and columns in one click.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should a presenter do after finishing editing their numbers in the small chart spreadsheet window?",
+      options: [
+        "Restart the computer system",
+        "Delete the presentation slide",
+        "Reinstall the office package",
+        "Close the spreadsheet window",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Closing the spreadsheet window finishes data entry, leaving the updated chart embedded cleanly on the slide.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature provides ready-made layouts, fonts, and colour schemes for quick design work?",
+      options: [
+        "A publication template",
+        "The system taskbar",
+        "A document footnote",
+        "The operating system",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Templates contain pre-built design schemes that allow users to generate documents rapidly.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What occurs when text exceeds the physical space available in a desktop publishing text frame?",
+      options: [
+        "The software closes",
+        "Text overflow begins",
+        "The entire file corrupts",
+        "The system restarts",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Excess content triggers an overflow, holding hidden text in memory until frames are linked.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where does desktop publishing software store text that overflows a text frame before linking?",
+      options: [
+        "In the recycling bin",
+        "On the computer desktop",
+        "In software memory",
+        "Inside an external drive",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The publishing application stores surplus text safely in temporary memory until a target frame is selected.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which document is typically designed as a compact single-page item to announce an event or service?",
+      options: [
+        "A hardbound library novel",
+        "An extensive financial report",
+        "An encyclopaedia volume",
+        "A promotional paper flyer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Flyers are single-page promotional publications distributed to advertise events or services.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which element is best used to reserve space on a layout before actual photographs are chosen?",
+      options: [
+        "Picture placeholder",
+        "System screen saver",
+        "Horizontal scrollbar",
+        "Document status line",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Picture placeholders hold position and size boundaries for images to be inserted later.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What visual icon does the cursor become when connecting two frames using the linking tool?",
+      options: [
+        "A bright paintbrush",
+        "An upright magnifying glass",
+        "A small pouring jug",
+        "A blinking pointer line",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The cursor transforms into a pouring jug icon indicating readiness to deposit text into another frame.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the main advantage of desktop publishing software over basic word processors?",
+      options: [
+        "It requires no electrical power",
+        "It has precise object placement",
+        "It prevents all typing mistakes",
+        "It automatically writes essays",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "DTP software allows free positioning, layering, and manipulation of individual text and graphic frames.",
+    ),
+    QuizQuestion(
+      question:
+          "8. When designing a multi-page school booklet, which tab on the Ribbon is used to add new pages?",
+      options: [
+        "Home",
+        "View",
+        "Review",
+        "Insert",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "New blank or duplicate pages are added through the Pages group located on the Insert tab.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why would a designer choose to create a blank document instead of using a built-in template?",
+      options: [
+        "To build custom dimensions",
+        "To make text appear blurry",
+        "To stop the printer working",
+        "To delete installed fonts",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Blank publications allow full customisation of page height, width, and unconstrained layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which formatting tool allows designers to create decorative, styled, and curved headlines?",
+      options: [
+        "Spell checker",
+        "Screen capture",
+        "Status indicator",
+        "WordArt feature",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "WordArt is used to create stylized, decorative, and curved typography for eye-catching titles.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss3_L2/8. Quiz2.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of invisible layout grids in publishing software?",
+      options: [
+        "To ensure object alignment",
+        "To add colour to borders",
+        "To encrypt personal files",
+        "To scan system disk drives",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Grids provide rows and columns that assist in positioning text and images uniformly.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which mechanical error occurs when a proper noun begins with a small letter?",
+      options: [
+        "Text box overflow fault",
+        "Faulty capitalisation error",
+        "Wrong colour scheme choice",
+        "Broken frame link problem",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Mechanics include the proper capitalisation of sentences and proper nouns.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What happens when too many clashing colours are applied across a single document?",
+      options: [
+        "Font sizes increase auto",
+        "File printing accelerates",
+        "Text becomes hard to read",
+        "Margins disappear on page",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Clashing hues create visual noise that degrades legibility and reader focus.",
+    ),
+    QuizQuestion(
+      question:
+          "4. How does dividing long text into multiple vertical columns help the reader?",
+      options: [
+        "It changes file type",
+        "It deletes extra pages",
+        "It hides all mechanics",
+        "It reduces visual fatigue",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Shorter line lengths across columns allow the human eye to track text comfortably.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the term for predetermined shades used to promote an organisation's brand?",
+      options: [
+        "Corporate colours",
+        "System clip arts",
+        "Screen resolutions",
+        "Dynamic hyperlinks",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Corporate colours represent a company's visual style and public branding.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why must factual statements and event dates be thoroughly verified before publication?",
+      options: [
+        "To fill up blank pages",
+        "To select new typefaces",
+        "To guarantee accuracy",
+        "To compress photo memory",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Accurate content maintains trust and prevents misinformation or legal trouble.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What visual effect does adequate white space create in a desktop publication?",
+      options: [
+        "High printer ink usage",
+        "A clean balanced layout",
+        "Blurry graphical shapes",
+        "Instant network sharing",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "White space gives breathing space to layout elements, preventing clutter.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which menu on the Ribbon contains the tools for checking spelling and researching terms?",
+      options: [
+        "Page Design",
+        "File Settings",
+        "Format Shapes",
+        "Review Tab",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Review tab houses proofing tools such as the spell checker and research pane.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What does examining the position of text and images in a peer document describe?",
+      options: [
+        "The page layout",
+        "The central processor",
+        "The network speed",
+        "The system battery",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Describing object placement examines the layout structure of the publication.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What risk arises if an advertisement contains serious punctuation and grammatical errors?",
+      options: [
+        "Page links disconnect",
+        "Software ceases running",
+        "Screen brightness drops",
+        "Public trust declines",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Errors in mechanics damage credibility and diminish reader confidence.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss3Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss3_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does visual hierarchy establish across a published document layout?",
+      options: [
+        "A logical path of visual importance",
+        "The cost of shipping printed booklets",
+        "The battery life of digital tablets",
+        "The file encryption security password",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Visual hierarchy organizes content so readers naturally encounter the most vital information first.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which aspect of a document is evaluated when checking capitalization and punctuation?",
+      options: [
+        "Frame overflow",
+        "Written mechanics",
+        "Column margins",
+        "Picture filters",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Mechanics cover technical writing rules including grammar, spelling, punctuation, and capitalization.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is white space an important criterion during a layout evaluation?",
+      options: [
+        "It uses up leftover paper stock",
+        "It deletes unwanted paragraphs",
+        "It prevents clutter and aids focus",
+        "It locks the text boxes in position",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "White space provides essential breathing room that keeps pages legible, balanced, and uncluttered.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What serious risk occurs when an advertisement contains inaccurate contact numbers?",
+      options: [
+        "The display resolution diminishes",
+        "Tablet operating systems shut down",
+        "Printer ribbons tear during printing",
+        "Customers cannot reach the business",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Content accuracy is critical; faulty contact details directly prevent prospective clients from making contact.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which criterion evaluates whether a funeral notice has a respectful and dignified appearance?",
+      options: [
+        "Appropriateness for the purpose",
+        "Processor speed of the computer",
+        "Screen refresh rate of the tablet",
+        "Memory capacity of the system disc",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Appropriateness judges whether tone, colour, and visual styling honour the specific cultural occasion.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What visual flaw occurs when light green writing is placed on a yellow background?",
+      options: [
+        "Sudden frame overflow",
+        "Automatic font resizing",
+        "Very poor visual contrast",
+        "Unwanted text hyphenation",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Pairing two light hues together produces weak contrast, making the typography strenuous to decipher.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the primary consequence of distributing a brochure filled with spelling errors?",
+      options: [
+        "The paper changes shape",
+        "Credibility and trust decline",
+        "Colours print in reverse",
+        "Page links detach safely",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Grammatical and typographical blunders severely undermine the professionalism and authority of the publisher.",
+    ),
+    QuizQuestion(
+      question:
+          "8. When evaluating text formatting, what problem arises from using eight different fonts on one flyer?",
+      options: [
+        "File memory is cleared",
+        "Printer heads overheat",
+        "Text boxes unlink auto",
+        "A chaotic, messy layout",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Mixing too many contrasting fonts causes visual confusion and disrupts reading flow.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which standard is assessed when judging the alignment of columns and margins?",
+      options: [
+        "Overall page layout",
+        "Battery usage rate",
+        "Network link latency",
+        "System audio volume",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Layout evaluation assesses the spatial arrangement, alignment, margins, and geometric balance of page objects.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How should an evaluator judge an educational study guide that uses clear headings and legible columns?",
+      options: [
+        "Low on accessibility",
+        "Defective in margins",
+        "Unsuitable for readers",
+        "Well suited for purpose",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Scholarly publications that prioritize legibility, structure, and clarity successfully achieve their educational purpose.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss4_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which spreadsheet component represents a single horizontal row of related data about one person?",
+      options: [
+        "A record",
+        "A column",
+        "A formula",
+        "A header",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A horizontal row containing complete details for an individual is called a record.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary function of applying data validation to a spreadsheet cell?",
+      options: [
+        "To hide blank rows from view",
+        "To prevent data entry errors",
+        "To calculate averages faster",
+        "To format font and row colour",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Data validation sets restrictions that prevent users from entering invalid or incorrect data.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which feature allows you to display only the rows that satisfy specific conditions without deleting others?",
+      options: [
+        "AutoFormat",
+        "Find Replace",
+        "Text Wrapping",
+        "Data Filtering",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Data filtering isolates matching records and hides non-matching rows without deleting them.",
+    ),
+    QuizQuestion(
+      question:
+          "4. When creating a drop-down list in the Data Validation window, which option must be selected under Allow?",
+      options: [
+        "List",
+        "Time",
+        "Date",
+        "Text",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Choosing List in the Allow setting enables the creation of an in-cell drop-down selection menu.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How does a structured table handle a new formula entered into a newly created column cell?",
+      options: [
+        "It rejects all new manual calculations",
+        "It duplicates it down the whole column",
+        "It clears data stored across other rows",
+        "It flags the formula as an input error",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Structured tables automatically replicate formulas down the entire column for all records.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which dialogue tab in Data Validation allows you to write guidance notes shown when a cell is selected?",
+      options: [
+        "Settings",
+        "Error Alert",
+        "Input Message",
+        "Clear All",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Input Message tab is used to configure instructional text that appears when the cell is active.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the correct term for organising student names alphabetically from A through to Z?",
+      options: [
+        "Ascending sort",
+        "Descending sort",
+        "Conditional rule",
+        "Validation filter",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Sorting alphabetically from A to Z is known as an ascending sort.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why is an unstructured table generally less efficient for managing large data collections?",
+      options: [
+        "It cannot store any numeric information",
+        "It limits entry to only ten total rows",
+        "It lacks automated column-based tools",
+        "It requires internet access to operate",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Unstructured tables lack automatic structured references, auto-fill formulas, and built-in table tools.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What symbol appears on column headers in a structured table to allow rapid sorting and filtering?",
+      options: [
+        "Plus symbol",
+        "Hash mark",
+        "Colon mark",
+        "Drop arrow",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Structured tables automatically place drop-down filter arrows on every column header.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which tool ensures that a user only enters numbers between 1 and 100 for an exam score column?",
+      options: [
+        "Cell Merge",
+        "AutoSum Rule",
+        "Data Validation",
+        "Descending Sort",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Data validation can enforce whole number criteria between specified minimum and maximum bounds.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss4_L2/8. QUIZ update.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which feature formats cells automatically based on whether they meet specific numerical conditions?",
+      options: [
+        "Conditional Formatting",
+        "Text Wrapping",
+        "Freeze Panes",
+        "Macro Player",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Conditional formatting automatically applies colour or font styles when a cell satisfies a specified rule.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What three design elements are controlled across an entire workbook by selecting an overall Theme?",
+      options: [
+        "Print areas, margins, and paper orientation",
+        "Colours, typography fonts, and shape effects",
+        "Formulas, cell validation, and password locks",
+        "Slicers, pivot tables, and chart calculations",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Document themes coordinate colours, fonts, and graphic effects throughout the workbook.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which file type allows you to open a pre-configured sheet containing built-in designs and formulas?",
+      options: [
+        "Plain text file",
+        "System driver",
+        "Web script",
+        "Workbook template",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A template provides a ready-made structure with layout, styles, and formulas already in place.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the main purpose of creating and running a macro in spreadsheet software?",
+      options: [
+        "Automating repetitive tasks",
+        "Encrypting personal user data",
+        "Checking language spelling",
+        "Translating local languages",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Macros record and execute sequences of commands to automate repetitive actions quickly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Under which ribbon tab can a student locate the Macros command group to record new actions?",
+      options: [
+        "Insert",
+        "View",
+        "Review",
+        "Home",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The Macros command group is found under the View tab (as well as the Developer tab) on the ribbon.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why would an instructional designer use built-in Cell Styles rather than manual formatting?",
+      options: [
+        "It removes all formulas from the sheet",
+        "It reduces total file storage to zero",
+        "It ensures consistent styling across cells",
+        "It disables printing of student tables",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Cell styles allow users to apply consistent colours, borders, and typography across worksheets in one click.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which practical step links a recorded macro directly to an on-screen graphical button?",
+      options: [
+        "Right-click shape and Assign Macro",
+        "Double-click the formula bar entry",
+        "Press Shift and Delete simultaneously",
+        "Convert the entire sheet to PDF format",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Right-clicking a drawn shape and choosing Assign Macro allows the shape to act as an execution button.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens if you open a pre-designed calendar template from the File New menu?",
+      options: [
+        "Existing system data is erased",
+        "Your operating system shuts down",
+        "A fresh pre-built workbook opens",
+        "The spreadsheet requires coding",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Selecting a template creates a new, independent workbook instance containing ready-to-use layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What does the conditional formatting rule \"Highlight Cells - Greater Than\" do to values above a target number?",
+      options: [
+        "Deletes them immediately",
+        "Converts them into zero",
+        "Moves them to new columns",
+        "Applies chosen fill colours",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The Greater Than rule applies chosen formatting (such as colour fills) to cells with values exceeding the set limit.",
+    ),
+    QuizQuestion(
+      question: "10. Which statement correctly contrasts a macro with a template?",
+      options: [
+        "A template only works when online",
+        "A macro cannot use keystroke clicks",
+        "A template is a file for printing only",
+        "A macro executes an automated action",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A macro is an automated sequence of actions, whereas a template is a pre-structured starting file.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S2Ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss4_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which tool provides an interactive summary of large data sets without altering original rows?",
+      options: [
+        "Pivot Table",
+        "Print Setup",
+        "Spell Check",
+        "Text Wrap",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A Pivot Table summarises, analyses, and explores complex datasets interactively.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where should a numerical fee amount be placed in the PivotTable Fields pane to calculate totals?",
+      options: [
+        "Filters zone",
+        "Values zone",
+        "Rows zone",
+        "Columns zone",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Fields placed in the Values area are mathematically aggregated using functions like Sum or Average.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which component functions as an interactive visual filtering tool for Pivot Tables?",
+      options: [
+        "Gridline",
+        "Formula",
+        "Header",
+        "Slicer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Slicers are floating visual buttons used to filter datasets quickly and interactively.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the most suitable chart type for comparing enrolment counts across three school grades?",
+      options: [
+        "Column chart",
+        "Scatter plot",
+        "Stock chart",
+        "Radar graph",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Column charts provide clear vertical bar comparisons between distinct discrete categories.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How does a Pivot Chart react when you drag a new field into the linked Pivot Table?",
+      options: [
+        "It freezes completely",
+        "It updates dynamically",
+        "It deletes all labels",
+        "It resets to defaults",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Pivot Charts are dynamically connected to Pivot Tables and update their presentation immediately when fields change.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Under which ribbon tab can a student find the command to insert a Pivot Chart?",
+      options: [
+        "Review",
+        "View",
+        "Insert",
+        "Home",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The Insert tab hosts the tools for creating tables, pivot tables, charts, and pivot charts.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the primary visual benefit of presenting summary data using a graphical chart?",
+      options: [
+        "Patterns and trends become quick to identify",
+        "Formulas are completely eliminated from the sheet",
+        "The file size becomes zero bytes in storage",
+        "Numbers cannot be modified by any future viewer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Charts allow viewers to detect comparisons, trends, and patterns much faster than reading raw data rows.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which mathematical calculation is applied by default when a numeric field is dropped into Values?",
+      options: [
+        "Median",
+        "Product",
+        "Sum",
+        "Mode",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Spreadsheets automatically calculate the Sum when numeric data fields are placed in the Values area.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens to original records in a source data table when you manipulate a Pivot Table?",
+      options: [
+        "They are shifted to column Z",
+        "They are erased after grouping",
+        "They are converted into text",
+        "They remain completely intact",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Pivot Tables create an analytical summary report without modifying or deleting the underlying raw data records.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How can a user filter a Pivot Table to display only male or female student records?",
+      options: [
+        "Reinstall the program",
+        "Delete the table rows",
+        "Use a Gender Slicer",
+        "Merge all title cells",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Adding a Slicer for the Gender field allows users to filter the table display with a single click.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question: "1. What is the main function of an e-commerce shopping website?",
+      options: [
+        "Enabling commercial trade through internet platforms.",
+        "Writing source code for network router hardware.",
+        "Designing physical classrooms for distant schools.",
+        "Cleaning computer motherboards in repair offices.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "E-commerce refers directly to conducting retail trade, purchases, and payments across computer networks.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which scenario represents a common risk of relying purely on paper cash transactions?",
+      options: [
+        "Loss of mobile network data bundles during peak hours.",
+        "Permanent loss of funds through theft or physical damage.",
+        "Expiration of secret PIN codes inside the bank database.",
+        "Automatic reversal of mistaken online electronic payments.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Physical cash can be dropped, burned, or stolen, whereas digital balances remain secure inside accounts.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How is a standard mobile money account primarily accessed by a user on a mobile device?",
+      options: [
+        "By inserting a special optical disk into an external player.",
+        "By scanning paper documents at a local government department.",
+        "Through a registered SIM card tied to a private secret PIN.",
+        "By connecting a desktop computer to a local area network port.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Mobile money utilizes the subscriber's SIM identity and requires a private PIN to authorize transfers.",
+    ),
+    QuizQuestion(
+      question: "4. What distinguishes a debit card from a standard credit card?",
+      options: [
+        "Debit cards print payment receipts on thermal paper rolls.",
+        "Debit cards work only inside physical banking headquarters.",
+        "Debit cards make payments using radio frequency antennas only.",
+        "Debit cards draw money directly from an existing bank deposit.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Debit cards deduct money directly from your bank balance, while credit cards provide a borrowed line of credit.",
+    ),
+    QuizQuestion(
+      question: "5. Why is a One-Time Password useful during online card checkout?",
+      options: [
+        "It confirms the identity of the account holder via mobile alert.",
+        "It increases the internet speed of the home wireless router.",
+        "It converts bank deposits into foreign fiat cash automatically.",
+        "It reduces delivery shipping fees charged by online merchants.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A one-time password ensures that only the person holding the registered phone can approve the online charge.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which component allows a smartphone to read a merchant's payment QR code?",
+      options: [
+        "An internal speaker generating sound waves.",
+        "An integrated camera using scanning software.",
+        "An audio microphone capturing voice prompts.",
+        "A removable storage card storing image files.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The smartphone camera captures the optical matrix pattern, and the payment app decodes the merchant details.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What type of payment technology enables tap-to-pay functionality on modern transaction cards?",
+      options: [
+        "Magnetic cassette recording technology.",
+        "High-voltage electrical circuit wiring.",
+        "Contactless near-field communication chips.",
+        "Optical laser disc reading components.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Contactless cards contain tiny radio antennas that communicate with payment terminals at close range.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why do many retail businesses in Ghana prefer accepting QR code payments?",
+      options: [
+        "They eliminate the need for costly card swiping hardware terminals.",
+        "They allow shops to print their own national legal paper currency.",
+        "They bypass all digital telecommunications connections entirely.",
+        "They make delivery trucks travel faster across rural trade routes.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Merchants can simply print a QR code on paper or a counter sticker, avoiding expensive electronic card readers.",
+    ),
+    QuizQuestion(
+      question: "9. Which description best characterizes the cryptocurrency Bitcoin?",
+      options: [
+        "A paper banknote issued exclusively by central treasury banks.",
+        "A plastic transaction card usable only at local automated tellers.",
+        "A local cooperative savings scheme managed by community elders.",
+        "A digital medium of exchange secured by distributed cryptography.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Bitcoin is a decentralised digital currency operating across computers using cryptographic records.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which benefit is gained when moving from cash payments to an electronic settlement network?",
+      options: [
+        "Complete elimination of all digital network authentication steps.",
+        "Faster transaction speeds and clear verifiable transfer records.",
+        "Permanent exemption from national telecommunication network charges.",
+        "Automatic delivery of all consumer goods within thirty seconds.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Electronic networks provide immediate transaction confirmation and produce digital audit trails for both parties.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term eLearning stand for in educational computing?",
+      options: [
+        "Electronic learning using digital devices and network services.",
+        "Elementary literacy taught through manual typewriter machines.",
+        "External lectures recorded purely on analogue cassette tapes.",
+        "Electrical laboratories installed in rural secondary schools.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "eLearning refers to education delivered through digital hardware, software, and electronic networks.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which tool is primarily used by schools to host course content, assignments, and digital gradebooks?",
+      options: [
+        "A personal computer power unit.",
+        "A virtual learning environment.",
+        "A graphic video rendering card.",
+        "A desktop audio microphone port.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Virtual Learning Environments like Moodle and Google Classroom manage course distribution and coursework assessment.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why are interactive e-books considered advantageous over traditional printed textbooks?",
+      options: [
+        "They function without needing any battery power or display hardware.",
+        "They are made strictly of thick waterproof laminated paper sheets.",
+        "They incorporate multimedia like video clips and searchable content.",
+        "They prevent students from highlighting critical lines of textbook text.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "E-books integrate interactive elements such as embedded media clips and automated word searches.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What role do video conferencing applications serve in remote education environments?",
+      options: [
+        "They automatically generate printed paper certificates for graduates.",
+        "They replace all local network cabling with high-speed radio towers.",
+        "They repair broken laptop screens through remote signal diagnostics.",
+        "They allow teachers and learners to hold live virtual class sessions.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Video conferencing programs like Zoom and Teams support live visual and verbal interaction between distant learners.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which capability is a defining feature of collaborative cloud document platforms?",
+      options: [
+        "Simultaneous multi-user editing on one hosted document file.",
+        "Automatic deletion of all project files upon logging off the web.",
+        "Converting text files directly into analogue radio transmissions.",
+        "Restricting file access exclusively to a single designated laptop.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Cloud services like Google Docs allow multiple team members to edit and review the same document at the same time.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is a major personal habit required for a student to succeed in an online learning programme?",
+      options: [
+        "Avoiding all electronic communication with course instructors.",
+        "Relying entirely on classmates to complete graded weekly tests.",
+        "Refusing to take digital notes during recorded video lectures.",
+        "Practising self-discipline and managing study time effectively.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Without a teacher physically present, students need strong personal motivation and disciplined schedules to keep up.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why would a document owner assign \"View only\" permissions when sharing a project file?",
+      options: [
+        "To allow recipients to delete chapters they find unnecessary.",
+        "To invite external users to rewrite the entire research project.",
+        "To let others read the work without altering any existing content.",
+        "To format the document automatically into a spreadsheet file.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "\"View only\" permissions ensure readers can view the file while preventing any unauthorized changes or deletions.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does an ad-hoc computer network assist learners in sharing school resources?",
+      options: [
+        "It connects nearby devices directly without fixed network infrastructure.",
+        "It connects personal tablets directly to deep undersea fiber cables.",
+        "It charges portable computer batteries over short-range radio signals.",
+        "It prints copies of shared lesson plans without using liquid ink.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Ad-hoc networks allow nearby devices to link directly using Wi-Fi or Bluetooth to exchange files without a central router.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which situation represents a common disadvantage associated with electronic learning?",
+      options: [
+        "Unlimited physical space required to store electronic tablet files.",
+        "Inability to access educational content from different locations.",
+        "Excessive physical exhaustion from carrying lightweight devices.",
+        "Feelings of isolation due to reduced face-to-face peer interaction.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Studying remotely on computers can lead to a sense of social isolation if learners do not interact regularly with peers.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which platform is an example of a cloud storage service used for collaborative learning?",
+      options: [
+        "Microsoft Paint design studio.",
+        "Google Drive cloud storage.",
+        "Windows Media audio player.",
+        "Adobe Premiere video cutter.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Google Drive is a widely used cloud storage system that enables file hosting, sharing, and team collaboration.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What automated text is typically placed at the front of an email subject line when you reply to a message?",
+      options: [
+        "Re:",
+        "Fwd:",
+        "Sub:",
+        "End:",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Email clients automatically insert \"Re:\" into the subject field to indicate that the message is a reply to the original correspondence.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which of the following describes the most secure practice when interacting with unknown users on social platforms?",
+      options: [
+        "Sharing your home telephone number when politely asked",
+        "Accepting all friend requests to expand your network",
+        "Declining to share personal details with online strangers",
+        "Arranging private meetings without telling your parents",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Keeping personal details private protects users from impersonation, fraud, and physical danger from unknown online profiles.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the name given to the ongoing trail of data, photos, and messages left behind by an individual online?",
+      options: [
+        "Network gateway",
+        "Search directory",
+        "Domain address",
+        "Digital footprint",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A digital footprint refers to the permanent record of all digital content, comments, and posts associated with a specific person on the internet.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why should a student avoid sending an email with \"Reply All\" when only the sender needs to see the answer?",
+      options: [
+        "It permanently deletes the message thread",
+        "It clutters the inboxes of all other recipients",
+        "It blocks the sender from viewing the message",
+        "It disconnects the computer network connection",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Using \"Reply All\" unnecessarily distributes personal or irrelevant messages to all original recipients, cluttering their inboxes.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which action represents a clear civic benefit of using social media within a Ghanaian community?",
+      options: [
+        "Organising youth volunteers for a town clean-up",
+        "Spending whole nights playing interactive games",
+        "Spreading unverified gossip about school tutors",
+        "Creating fake user profiles to tease classmates",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Social media allows communities to quickly mobilise support, raise civic awareness, and coordinate beneficial local projects like town clean-ups.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What should you do first if a cyberbully begins sending threatening comments to your account?",
+      options: [
+        "Write back angry responses to defend yourself",
+        "Forward the messages to all of your classmates",
+        "Save proof, block the user, and inform an adult",
+        "Post the person's phone number on public boards",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Preserving screenshot evidence, blocking the abusive account, and seeking adult support stops harassment safely without escalation.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a commercial farm benefit directly from creating an official business profile on social networks?",
+      options: [
+        "It removes the need to pay internet service fees",
+        "It automatically handles all farm harvesting work",
+        "It guarantees free electrical power for machines",
+        "It advertises fresh produce to nearby customers",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Businesses use social media as an affordable advertising channel to reach local customers and receive orders directly.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following describes an email feature that passes an incoming email to a third party?",
+      options: [
+        "Forward",
+        "Reply",
+        "Archive",
+        "Refresh",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The \"Forward\" feature transmits a received message along with its attachments to a new email address.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What prefix is standardly added to an email subject line when a message is forwarded to a new reader?",
+      options: [
+        "Res:",
+        "Fwd:",
+        "Rep:",
+        "New:",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Email systems automatically place the abbreviation \"Fwd:\" at the beginning of the subject line to denote a forwarded message.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why do social media companies design notifications, continuous feeds, and short video streams?",
+      options: [
+        "To reduce the electrical power consumed by phones",
+        "To teach students advanced computer programming",
+        "To prevent unknown users from accessing accounts",
+        "To maximise user attention and engagement on apps",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Platforms use algorithmic feeds and notifications to retain user engagement for as long as possible, which can lead to excessive screen time.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss3Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss3_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following online practices is the most effective way to protect personal safety on public social media platforms?",
+      options: [
+        "Publishing your mobile phone number on your public profile.",
+        "Keeping your profile private and hiding personal contact data.",
+        "Accepting connection requests from every unfamiliar internet user.",
+        "Posting live location updates whenever you walk home from school.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Keeping profile settings private restricts your shared images, personal updates, and contact details to verified acquaintances, preventing hostile strangers or cyberstalkers from tracking your movements.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A secondary school leaver was rejected from a competitive scholarship programme due to offensive comments posted years earlier on an online platform. What key characteristic of online data does this outcome demonstrate?",
+      options: [
+        "Digital materials are completely wiped whenever a phone battery dies.",
+        "Material shared across networks can be permanently stored or archived.",
+        "Information placed on public websites can only be seen for thirty days.",
+        "Web browsers automatically alter all old comments into positive words.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Material published to the web is routinely archived, indexed, or preserved via screenshots across external servers, making complete removal extremely difficult and impacting future opportunities.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What critical step differentiates a responsible response to cyberbullying from a response that worsens the conflict?",
+      options: [
+        "Preserving evidence and refusing to trade insults with the aggressor.",
+        "Writing an aggressive public rebuttal to intimidate the offender.",
+        "Organising a physical confrontation with the sender after school hours.",
+        "Sharing the hurtful message across several new public social channels.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Retaliating online escalates hostility and provides the aggressor with more attention, whereas preserving evidence and blocking communication allows authorities to resolve the matter safely.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following actions constitutes an act of cyberstalking rather than simple casual communication?",
+      options: [
+        "Sending an occasional email to a school teacher submitting a project.",
+        "Submitting a polite comment on an educational mathematics video.",
+        "Forwarding an official school announcement to a classmate via phone.",
+        "Continually tracking and sending threatening messages to someone online.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Cyberstalking involves repetitive, deliberate surveillance and unwanted communication designed to intimidate, harass, or frighten a specific individual or organisation.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why are automated server logs and browsing histories classified as a digital shadow rather than a digital footprint?",
+      options: [
+        "They are created intentionally by the user when composing an email.",
+        "They can only be accessed using physical optical character scanners.",
+        "They are recorded in the background without active user publication.",
+        "They represent public video files uploaded directly by digital artists.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A digital shadow consists of data captured passively by network hardware, service providers, and web servers during internet sessions without the user deliberately authoring that data.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A user downloads a mobile application, and without requesting permission, the app transmits the device's exact coordinates to an external analytics server. What type of digital record does this background tracking generate?",
+      options: [
+        "An active digital footprint",
+        "An encrypted blog post",
+        "An open audio podcast",
+        "A passive digital shadow",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Because the device coordinates were collected quietly in the background without explicit, conscious publishing by the user, this record forms part of their passive digital shadow.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What should a student do if an unidentified online contact repeatedly sends intimidating messages demanding private photographs?",
+      options: [
+        "Save evidence, report to a trusted adult, and notify the police.",
+        "Comply with the requests in order to make the person stop writing.",
+        "Delete the chat history completely so nobody knows it happened.",
+        "Forward the messages to younger siblings across the family house.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Threatening demands constitute serious harassment and criminal behaviour; securing evidence and involving parents, school heads, or police officers ensures protection and legal investigation.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How can a Junior High School student actively build a positive digital footprint that assists their future educational prospects?",
+      options: [
+        "Sharing pirated movies and commercial music on social platforms.",
+        "Posting comments using insulting pseudonyms on class notice boards.",
+        "Publishing useful class study summaries and digital art projects.",
+        "Participating in anonymous online debates involving offensive insults.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Actively publishing constructive academic work, creative projects, and helpful study aids creates a public digital portfolio that displays diligence, skill, and strong character.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why do cyberbullies often display more hostility online than they would in a regular classroom setting?",
+      options: [
+        "Computer network cables automatically generate intense aggression.",
+        "Mobile device touchscreens prevent users from typing calm phrases.",
+        "Digital tools allow users to post anonymously without face-to-face contact.",
+        "School rules strictly forbid teachers from advising students online.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The perceived barrier of digital screens and the ability to hide behind anonymous or fake accounts leads individuals to engage in hurtful behaviour they would avoid in face-to-face settings.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following entities is legally empowered to investigate and address severe cases of cyberstalking and digital harassment in Ghana?",
+      options: [
+        "The international postal package sorting office.",
+        "Local commercial radio stations and music hubs.",
+        "The national cinema and theatre review council.",
+        "Law enforcement agencies and the Ghana Police Service.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Cyberstalking is a criminal offence involving privacy invasion and threats; hence, formal investigation and prosecution fall under the jurisdiction of law enforcement authorities.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss3Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss3_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What type of cyber attack uses an army of infected zombie computers known as a botnet to overwhelm a target web server with artificial traffic?",
+      options: [
+        "A Distributed Denial of Service attack",
+        "A brute force password guessing attack",
+        "An unauthorized audio eavesdropping script",
+        "An automated keylogger extraction attack",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A DDoS attack coordinates thousands of malware-infected devices, known as a botnet or zombies, to flood a target web server with massive traffic volumes until it becomes unavailable to legitimate users.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why does a rootkit present a more dangerous challenge to system administrators than most common viruses?",
+      options: [
+        "It consumes large quantities of physical printing paper inside the laboratory",
+        "It completely eliminates the need for computer systems to utilize electricity",
+        "It operates with deep system privileges and actively conceals its presence",
+        "It converts digital computer files into physical analogue radio transmissions",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Rootkits embed themselves deep within operating system kernels, securing administrator privileges while disguising their files and processes to evade standard antivirus detection tools.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following actions is the most effective safeguard against password discovery through automated brute force attacks?",
+      options: [
+        "Using a single, easily remembered common dictionary word",
+        "Creating long, complex passwords containing varied characters",
+        "Writing your private system password on the classroom wall",
+        "Sharing your personal access codes with all fellow students",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Brute force software relies on systematic guessing algorithms; complex passwords containing uppercase letters, lowercase letters, numbers, and symbols vastly expand the possible combinations, making computational guessing impractical.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A user receives a text message on their mobile phone claiming their national identification card must be validated by clicking an unknown web link. What specific form of social engineering is this?",
+      options: [
+        "Keylogger surveillance",
+        "Packet eavesdropping",
+        "Rootkit installation",
+        "Mobile phone smishing",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Smishing is a social engineering attack that specifically uses cellular Short Message Service text messages to trick mobile phone users into sharing sensitive personal data or clicking malicious links.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What deceptive mechanism is deployed during a ClickJacking attack on an infected web page?",
+      options: [
+        "An attacker hides an actionable link underneath a transparent visual layer",
+        "An automated script physically removes all keys from the physical keyboard",
+        "The computer screen completely changes its display resolution permanently",
+        "The monitor physically disconnects its power cables from the wall socket",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "ClickJacking tricks users into executing unintended actions by placing an invisible or transparent malicious layer directly over seemingly harmless clickable page elements.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does strong end-to-end data encryption protect users against eavesdropping attacks across public networks?",
+      options: [
+        "It ensures that only users with valid physical library cards access the web",
+        "It converts the physical monitor display into an ultra-low power configuration",
+        "It completely terminates all wireless communication across the entire nation",
+        "It renders intercepted data packets unreadable to unauthorized sniffers",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Encryption scrambles network data packets into complex mathematical code, ensuring that even if an eavesdropper intercepts the traffic using a sniffer, the contents cannot be read without the proper decryption key.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which malicious software category appears to the user as a harmless or desirable application while concealing a harmful payload?",
+      options: [
+        "A trojan program",
+        "A domain name cache",
+        "A network firewall",
+        "A secure web browser",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Trojans disguise themselves as helpful, authentic software, such as media players or games, to trick users into installing them, after which their hidden malicious code activates.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What occurs when an attacker executes a pharming attack against an internet user?",
+      options: [
+        "The attacker harvests physical crops using automated drone technology",
+        "The attacker shuts down all cellular network base stations in a region",
+        "The user is redirected to a counterfeit website despite typing the correct URL",
+        "The user receives a free hardware keyboard replacement in the postal mail",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Pharming corrupts host files or domain naming processes to misdirect users to a fraudulent website, even when the user has entered the completely correct web address into their browser.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the safest practice when you need to access personal financial or academic services while travelling in town?",
+      options: [
+        "Connect your mobile device to any free, unverified public Wi-Fi hotspot",
+        "Use a secure cellular connection or a verified, encrypted private network",
+        "Share your private login password with the nearest public shopkeeper",
+        "Post your account login credentials onto an open community notice board",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Public Wi-Fi access points can easily be spoofed or monitored by hackers; accessing sensitive personal or financial accounts should always be done via trusted cellular data or encrypted networks.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should a student do immediately upon identifying common phishing indicators in an electronic mail message?",
+      options: [
+        "Forward the email to all school friends to see if they can win a prize",
+        "Reply to the sender demanding they provide their physical home address",
+        "Enter their private system password to check if the link actually works",
+        "Do not click any links, delete the message, and inform the teacher",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Engaging with a phishing email risks account compromise or malware infection; the safe response is to avoid clicking links or attachments, delete the communication, and report it to an authority.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss4_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What primary characteristic defines the layout of posts on a standard blog homepage?",
+      options: [
+        "Articles are sorted strictly by overall word count",
+        "The most recent article appears at the very top",
+        "Content is arranged according to file size order",
+        "Older entries are permanently fixed at the top",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Blogs organize posts in reverse chronological order so that the freshest updates greet visitors first.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A student publishes weekly essays on computer programming. How does this practice assist future scholarship applications?",
+      options: [
+        "It serves as concrete proof of independent study and subject mastery",
+        "It removes the need to submit academic transcripts to institutions",
+        "It automatically guarantees a full cash award from internet firms",
+        "It grants official government exemption from all end-of-term exams",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "An ongoing blog acts as a visible digital portfolio that demonstrates real competence, self-discipline, and deep subject interest.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which item is an essential practice of responsible digital citizenship when running a public blog?",
+      options: [
+        "Deleting every reader comment that asks a challenging question",
+        "Copying complete articles from online encyclopaedias without credit",
+        "Refusing to verify news facts before sharing them with readers",
+        "Moderating offensive remarks and citing all external factual facts",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Responsible digital citizens check their sources for accuracy and maintain a safe, constructive environment in the comments section.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is a blog considered dynamic whereas a standard informational website is often static?",
+      options: [
+        "Blogs update content regularly while static websites rarely change",
+        "Static websites can only display black and white textual characters",
+        "Blogs do not require any connection to a functional web network",
+        "Static sites are exclusively designed to operate on tablet computers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Dynamic websites such as blogs change often with frequent new posts, whereas static sites display unchanging information for long periods.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How can a community youth club in Tamale best use a blog to improve local sanitation habits?",
+      options: [
+        "By selling private reader contact information to external agencies",
+        "By publishing step-by-step guides on waste sorting and cleanups",
+        "By restricting reading permissions exclusively to executive members",
+        "By disabling all image uploads to keep the platform plain and bare",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Blogs are effective advocacy tools because they allow community groups to publish informative guides, announcements, and success stories that educate the public.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An aspiring food entrepreneur in Kumasi wants to attract customers for a new catering brand. How does a blog support this goal?",
+      options: [
+        "It replaces the legal need to prepare clean and safe cooked food",
+        "It forces internet providers to deliver free mobile data to users",
+        "It shares recipes and food stories that build consumer confidence",
+        "It stops all other local catering businesses from trading online",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Publishing high-quality recipes, hygiene standards, and food stories demonstrates expertise and attracts enthusiastic, trusting customers.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the primary role of the comments section located below a published blog article?",
+      options: [
+        "It allows visitors to share views and interact with the writer",
+        "It functions as the central location for storing system files",
+        "It automatically backs up the database to an external memory",
+        "It encrypts the author's personal credentials against hackers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The comments section promotes two-way communication by allowing the audience to ask questions, share perspectives, and engage with the author.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which factor is most likely to cause a blog to lose its regular readership over time?",
+      options: [
+        "Using clearly written sentences and accurate factual evidence",
+        "Adding high-resolution photographs that illustrate key ideas",
+        "Replying politely to constructive questions asked by readers",
+        "Failing to publish fresh updates for several consecutive months",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A blog relies on regular, engaging updates; if the author stops posting new material, readers will stop visiting the page.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How can a successful tech blogger in Ghana turn high site traffic into legitimate financial income?",
+      options: [
+        "By charging readers hidden fees every time they click a hyperlink",
+        "By displaying verified business adverts and writing partner reviews",
+        "By demanding monthly cash contributions from random web visitors",
+        "By taking complete ownership of the visitor's private device data",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Bloggers monetize their traffic through legitimate digital advertising networks, sponsored posts, and commercial partnerships.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is writing for a blog often more motivating for students than writing a private notebook essay?",
+      options: [
+        "Blog articles are evaluated only by automated artificial software",
+        "Students do not need to use punctuation or correct spelling online",
+        "Having a genuine public audience gives the work purpose and value",
+        "Online publishing guarantees that every post will become famous fast",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Knowing that peers, teachers, and an authentic audience can read and appreciate their work gives students a strong sense of purpose and pride.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss4Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss4_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which component of a blog page appears consistently at the very bottom and typically displays copyright notices and official school contact details?",
+      options: [
+        "The sidebar",
+        "The header bar",
+        "The post feed",
+        "The page footer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The footer sits at the base of every page to present permanent organizational details, terms, and contact information.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why should a school sports club include high-quality captioned photographs in its blog posts?",
+      options: [
+        "To break up long text blocks and visually showcase student achievements",
+        "To eliminate the need to write any explanatory match descriptions at all",
+        "To consume all the internet data bundles belonging to visiting readers",
+        "To stop external web browsers from indexing the school website online",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Media elements make pages engaging and give visual evidence of school activities while supporting the written story.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is a template or theme in the context of website development platforms?",
+      options: [
+        "A specialized hardware component inside a tablet screen",
+        "A physical printer cable used to link classroom devices",
+        "A pre-designed layout that controls visual fonts and styling",
+        "A security password required to unlock a tablet computer",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A theme or template provides pre-set styling, fonts, and structural layouts, enabling quick website construction.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A student club wants to collect feedback from readers without exposing the patron's private telephone number. Which feature should they add?",
+      options: [
+        "A secure digital contact form block",
+        "A public display of private records",
+        "A full list of student home addresses",
+        "A link that downloads device contacts",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A contact form allows site visitors to submit inquiries directly into the administrator's dashboard while preserving privacy.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where on a blog page would you most commonly find widgets such as a recent comments list, a search bar, and post category tags?",
+      options: [
+        "Inside the image tag",
+        "Within the page sidebar",
+        "Under the login script",
+        "Inside the video player",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Sidebars are built specifically to hold helpful widgets, category links, search tools, and secondary navigation items.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When planning content for a new school club blog, why is it critical to establish an editorial schedule for publishing updates?",
+      options: [
+        "To ensure that content remains fresh, relevant, and engaging for visitors",
+        "To prevent the web hosting platform from permanently deleting the tablet",
+        "To force the local electricity company to maintain continuous power lines",
+        "To satisfy international legal rules that mandate daily internet posting",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Consistent publishing keeps readers returning and ensures the blog remains an active, reliable source of school information.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following actions best helps maintain visual harmony when styling a school blog?",
+      options: [
+        "Choosing colours that align with the school uniform and readable fonts",
+        "Using ten contrasting font faces and flashing background animations",
+        "Uploading massive uncropped images that stretch across text borders",
+        "Hiding all navigation menus so that visitors must guess where to click",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Visual harmony relies on disciplined styling, including consistent school colours, clean spacing, and legible typography.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What role does a visual block editor play during the creation of a blog post?",
+      options: [
+        "It completely removes the need to have an active web browser installed",
+        "It allows authors to add and arrange text, pictures, and buttons visually",
+        "It prevents students from correcting spelling errors before publishing",
+        "It automatically formats classroom exercise books into hardback novels",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Block editors simplify page design by letting creators insert modular content units such as paragraphs, headers, and media visually.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why is an 'About Us' page essential for a newly created social club blog?",
+      options: [
+        "It is the only place on the blog where photographs are permitted",
+        "It automatically calculates the club's monthly financial budget",
+        "It informs readers about the club's history, mission, and officers",
+        "It stops visitors from leaving any critical feedback on club posts",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The 'About Us' page establishes authority and context by clearly stating who runs the club and what its mission is.",
+    ),
+    QuizQuestion(
+      question:
+          "10. If a school club chooses a free hosting plan, how is their website address typically structured?",
+      options: [
+        "As a direct government domain with an automatic national credential",
+        "As an unreadable series of encrypted numbers known only to servers",
+        "As a physical memory address linking straight to the school router",
+        "As a branded subdomain that includes the hosting platform's name",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Free tiers on platforms like WordPress or Blogger typically assign subdomains that incorporate the platform's brand name.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S3Ss4Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss4_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What does the 'Preview' feature in a blogging tool allow an author to accomplish?",
+      options: [
+        "See how the post appears to readers before making it live",
+        "Transmit the raw blog database directly to internet servers",
+        "Change the physical screen resolution of the school tablet",
+        "Download paid software programs without entering passwords",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The preview mode renders an accurate simulation of the live post so authors can catch formatting errors prior to launch.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why is setting a blog post to 'Public' visibility suitable for a school sports tournament recap?",
+      options: [
+        "It completely blocks all mobile phones from opening the post",
+        "It allows parents, students, and the community to read it",
+        "It prevents readers from reading any of the match scores",
+        "It charges every reader a fee before they can see the post",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Public posts are accessible to any web user, making it ideal for celebrating school achievements with the wider community.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following actions best illustrates effective proofreading of an online blog post?",
+      options: [
+        "Changing the background colours continuously during live viewing",
+        "Checking that facts, punctuation, and name spellings are correct",
+        "Deleting every paragraph that contains more than twelve words",
+        "Adding fifty random web hyperlinks to unverified external sites",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Proofreading involves reviewing written content carefully to eliminate grammatical mistakes, typing errors, and factual inaccuracies.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary danger of publishing a blog post without reviewing reader comments before they appear on the site?",
+      options: [
+        "The tablet computer will permanently shut down its battery",
+        "Unfiltered spam and hurtful remarks could harm the community",
+        "The blog platform will automatically fine the school money",
+        "All published articles will be rewritten into other languages",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Without moderation, blogs can become exposed to commercial spam bots, inappropriate language, or cyberbullying.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How does clicking the 'Launch' or 'Publish' button alter the status of an article?",
+      options: [
+        "It permanently locks the document so it can never be edited",
+        "It turns a private draft into an active, accessible web post",
+        "It transfers physical ownership of the tablet to the platform",
+        "It wipes out all older articles saved in the school archives",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Publishing moves content from a private draft state to live publication on the internet.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An ICT club wants to share an end-of-year quiz only with registered club members. Which visibility option should they choose?",
+      options: [
+        "Open public distribution to all web visitors worldwide",
+        "Unlisted status that changes the site URL every hour",
+        "Password protection shared only with club members",
+        "Full permanent deletion from the web server database",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Password protection ensures that only individuals provided with the correct password can view the post contents.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the recommended response when a visitor leaves a polite, constructive correction in your blog comments?",
+      options: [
+        "Delete the comment and permanently ban the user from reading",
+        "Retaliate by writing an angry post insulting the visitor's school",
+        "Report the visitor to local law enforcement authorities at once",
+        "Thank the reader, verify the fact, and update the blog post",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Constructive feedback should be welcomed; acknowledging corrections politely and updating content demonstrates professional digital authorship.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should images included in a published blog post always include concise descriptive captions?",
+      options: [
+        "Captions provide context so readers understand what is shown",
+        "Web platforms refuse to display photos that do not have text",
+        "Captions automatically convert still photos into audio files",
+        "Adding captions prevents other devices from saving the picture",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Captions give essential context to visual media, explaining who, what, or where is depicted in the photograph.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What function does the 'Update' button perform after changes are made to an already published blog post?",
+      options: [
+        "It changes the registered school email address on the site",
+        "It creates a brand new blog site with a different domain",
+        "It saves recent edits and displays the revised post online",
+        "It resets the site back to its original blank starter page",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The Update button saves modifications made to a live post and immediately reflects those revisions to site visitors.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following strategies most effectively converts one-time blog visitors into regular community readers?",
+      options: [
+        "Forcing visitors to enter personal mobile numbers to exit",
+        "Disabling all post categories and hiding the search bar",
+        "Publishing poor drafts without checking any typing errors",
+        "Publishing relevant posts consistently and responding kindly",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Regular posting schedules combined with engaging, respectful interactions in the comments build a loyal and active readership.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S4Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary reason why digital computers use the binary number system?",
+      options: [
+        "Transistors operate in two distinct electrical states",
+        "Binary math uses fewer digits than decimal formats",
+        "Computer screens only display two primary colours",
+        "Text characters cannot be processed by other bases",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Computers are built from electronic switches that can only be either turned fully on (1) or turned fully off (0).",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the result of adding the binary values 0001₂ and 0001₂?",
+      options: [
+        "0011₂",
+        "0000₂",
+        "0100₂",
+        "0010₂",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "In binary addition, 1 + 1 = 10₂, which leaves 0 in the units column and carries 1 to the next column, producing 0010₂.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Convert the decimal number 10 into its hexadecimal notation.",
+      options: [
+        "A",
+        "B",
+        "C",
+        "F",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Hexadecimal represents values 0 through 9 as numerals, and replaces the decimal value 10 with the uppercase letter A.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the decimal equivalent of the binary number 00010100₂?",
+      options: [
+        "16",
+        "18",
+        "20",
+        "24",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Adding the active binary column values: 16 + 4 = 20.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the binary representation of the decimal integer 7?",
+      options: [
+        "0110₂",
+        "0101₂",
+        "1001₂",
+        "0111₂",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Repeatedly dividing 7 by 2 produces remainders 1, 1, 1, which corresponds to 4 + 2 + 1 = 7 in decimal.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the decimal value of the hexadecimal number 1A₁₆?",
+      options: [
+        "16",
+        "26",
+        "20",
+        "32",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Hexadecimal letter A represents 10. Expanding place values: (1 × 16) + (10 × 1) = 16 + 10 = 26.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the binary sum of 0110₂ and 0011₂?",
+      options: [
+        "1001₂",
+        "1010₂",
+        "1100₂",
+        "0111₂",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In binary, 0110₂ (6) plus 0011₂ (3) equals 1001₂, which is 9 in decimal.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which hexadecimal digit corresponds to the 4-bit nibble 1111₂?",
+      options: [
+        "C",
+        "D",
+        "E",
+        "F",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Binary 1111₂ = 8 + 4 + 2 + 1 = 15, which is represented in base 16 by the letter F.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the result of binary addition when three 1 bits are added in a single column?",
+      options: [
+        "Write 0, carry 0",
+        "Write 1, carry 1",
+        "Write 0, carry 1",
+        "Write 1, carry 0",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "In binary arithmetic, 1 + 1 + 1 = 3 in decimal, which is written as 11₂ (write 1 and carry 1 to the next column).",
+    ),
+    QuizQuestion(
+      question:
+          "10. Convert the binary number 1100₂ directly into hexadecimal.",
+      options: [
+        "A",
+        "B",
+        "C",
+        "D",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Binary 1100₂ equals decimal 12 (8 + 4), which translates to the letter C in base 16.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S4Ss1Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss1_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary function of an Integrated Development Environment (IDE) in software programming?",
+      options: [
+        "It combines coding, debugging, and testing tools in one software",
+        "It speeds up the typing speed of programmers automatically",
+        "It replaces computer hardware with cloud network servers",
+        "It removes the need for computer processors to run software",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An IDE provides a unified interface incorporating a code editor, compiler or interpreter, debugger, and output display to streamline software construction.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which block category in Scratch contains blocks used to repeat a specific set of instructions multiple times?",
+      options: [
+        "Looks blocks",
+        "Motion blocks",
+        "Operator blocks",
+        "Control blocks",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Control blocks include loop mechanisms such as \"repeat 10\" and \"forever\" to run enclosed scripts multiple times.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do introductory programming classes often use Scratch rather than text-based languages like C++?",
+      options: [
+        "Visual blocks prevent errors caused by typing and syntax mistakes",
+        "Graphical coding blocks require no memory from computer systems",
+        "Block programs do not require translation into binary code",
+        "Text languages cannot perform basic arithmetic calculations",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Scratch uses drag-and-drop interlocking blocks that enforce correct structure, helping students master algorithmic logic without stumbling over typing or syntax errors.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What tool within an IDE is specifically designed to help programmers trace and fix errors in their code?",
+      options: [
+        "Compiler",
+        "Debugger",
+        "Text Editor",
+        "File Browser",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A debugger allows a software developer to monitor code execution, inspect variable values, and locate logical errors or system crashes.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In Scratch, which block category allows a sprite to ask a question and wait for the user to type a reply?",
+      options: [
+        "Motion",
+        "Looks",
+        "Sensing",
+        "Events",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Sensing blocks include the \"ask [What's your name?] and wait\" command, which stores user keyboard input into a default \"answer\" variable.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What happens to a program script in Scratch when the user clicks the green flag icon above the stage?",
+      options: [
+        "The IDE deletes all unused sprites currently on the stage",
+        "All scripts starting with the green flag event block begin executing",
+        "The stage coordinates reset permanently to x = 100 and y = 100",
+        "The compiler translates the code and halts program operation",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The green flag serves as the primary execution trigger for all scripts anchored to the \"when green flag clicked\" hat block.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following best describes the role of a variable within a computer program?",
+      options: [
+        "An image file that moves across the stage screen during runtime",
+        "A keyboard key used to start the execution of a game script",
+        "A dedicated memory space that stores data that can change over time",
+        "A command block that permanently locks values from being modified",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A variable is a named location in memory designed to hold data—such as scores, counts, or user names—that can be updated during execution.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which color code and category in Scratch is responsible for modifying speech bubbles, costumes, and sprite visibility?",
+      options: [
+        "Blue Motion blocks",
+        "Gold Control blocks",
+        "Green Operator blocks",
+        "Purple Looks blocks",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Looks blocks are purple and manage visual elements such as costumes, backdrops, graphic effects, and speech/thought bubbles.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What mathematical operation is performed by the green Scratch block shaped like an oval with an asterisk (*) between two input spaces?",
+      options: [
+        "Subtraction of values",
+        "Multiplication of values",
+        "Division of two numbers",
+        "Addition of two numbers",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "In programming and computing notations, the asterisk symbol (*) represents multiplication.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Where in the Scratch interface does a programmer snap blocks together to build instruction algorithms?",
+      options: [
+        "The Sprite Palette",
+        "The Output Stage",
+        "The Costumes Editor",
+        "The Scripting Area",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The scripting area is the large central canvas where code blocks are dragged from the palette and linked together to form executable scripts.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S4Ss1Lesson3QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss1_L3/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary role of a Content Management System (CMS) or visual web builder?",
+      options: [
+        "It simplifies web design using templates and blocks",
+        "It converts audio recordings into binary code",
+        "It replaces internet service provider connections",
+        "It builds microchips inside computer processors",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Visual website builders allow users to create and manage web content visually without writing code manually.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where should a web designer place main navigation links for the best user experience?",
+      options: [
+        "Hidden inside footer copyright notices",
+        "Scattered randomly across image blocks",
+        "Inside body paragraphs as normal text",
+        "Prominently in or near the header area",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Placing navigation links in the header ensures that visitors can find and access major sections of the website immediately upon landing on the page.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which web building step allows a creator to view page responsiveness across mobile screens?",
+      options: [
+        "Using the Preview feature",
+        "Deleting extra media blocks",
+        "Choosing a paid web domain",
+        "Updating server IP settings",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The preview mode simulates desktop, tablet, and mobile views to confirm layout responsiveness before publication.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What characteristic distinguishes a static website from a dynamic website?",
+      options: [
+        "Static sites require daily database updates",
+        "Static content remains stable until edited",
+        "Static sites cannot contain pictures or text",
+        "Static pages only run on offline processors",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A static webpage displays fixed informational content that changes only when the website administrator directly edits and updates the page.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the purpose of selecting a website domain name?",
+      options: [
+        "It installs the operating system on hardware",
+        "It provides a unique web address for users",
+        "It translates English into binary machine code",
+        "It designs graphic banners for the hero section",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A domain name acts as the readable address that visitors type into their browsers to find a specific website.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which element is typically placed in the hero section at the top of a homepage?",
+      options: [
+        "Extensive legal terms and condition lists",
+        "Server configuration scripts and raw code",
+        "A bold headline paired with a key image",
+        "A full directory of external web hyperlinks",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The hero section uses an engaging visual image and clear headline to state the primary purpose of the website.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why are templates useful when designing a website for a local sports club?",
+      options: [
+        "They give a structured layout with styled fonts",
+        "They eliminate the need for an internet link",
+        "They block unauthorized visitors from viewing",
+        "They write the club articles automatically",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Templates provide pre-set page structures, colour themes, and typographic palettes, ensuring the website looks polished and consistent.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What button must a designer click in an editor to push saved changes live to the internet?",
+      options: [
+        "Delete Site",
+        "Undo Edit",
+        "Exit Editor",
+        "Publish",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Clicking Publish transfers the edited web content to the live server, making it accessible to visitors worldwide.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What setting icon is typically clicked in modern web builders to modify page titles or featured images?",
+      options: [
+        "Trash bin icon",
+        "Gear or cog icon",
+        "Magnifying glass",
+        "Sound speaker icon",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "The gear or cog icon opens page-level settings, allowing developers to set page attributes, metadata, and featured images.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following is an example of an open visual web development platform?",
+      options: [
+        "Scratch IDE",
+        "Python Shell",
+        "WordPress",
+        "Basic Compiler",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "WordPress is a popular web development and content management platform used to create and host websites.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S4Ss2Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss2_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which flowchart symbol represents the starting or ending point of an algorithm?",
+      options: [
+        "Oval terminator symbol",
+        "Diamond decision shape",
+        "Rectangle process box",
+        "Parallelogram data box",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An oval or rounded rectangle terminator marks where an algorithm begins and concludes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary danger of writing an algorithm whose steps are arranged in an incorrect sequence?",
+      options: [
+        "Variable renaming",
+        "Incorrect answers",
+        "Hardware failures",
+        "Screen distortion",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Step sequence dictates logic; rearranging steps causes erroneous outputs or operational failure.",
+    ),
+    QuizQuestion(
+      question:
+          "3. When should a programmer choose a FOR loop instead of a condition-controlled WHILE loop?",
+      options: [
+        "When repetitions are known",
+        "When loops execute forever",
+        "When conditions are unknown",
+        "When no inputs are present",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "FOR loops are count-controlled and used when the total number of iterations is known before looping begins.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which statement correctly describes how an IF-THEN-ELSE selection statement operates in an algorithm?",
+      options: [
+        "It executes both branches",
+        "It runs commands backwards",
+        "It loops code ten times",
+        "It selects one of two paths",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "IF-THEN-ELSE evaluates a condition and runs the first block if true, or the alternate block if false.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In pseudocode, why is indentation applied to the lines of code written inside IF blocks and loops?",
+      options: [
+        "To stop loop executions",
+        "To speed up calculation",
+        "To show statement scope",
+        "To define input storage",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Indentation clearly marks which statements belong inside a specific selection condition or iteration loop.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Consider an algorithm counting tally marks: Counter starts at 1, increases by 1 each loop, and stops when Counter equals 5. How many times does the loop run?",
+      options: [
+        "Exactly six total times",
+        "Exactly four total times",
+        "Exactly five total times",
+        "Exactly three total times",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The counter processes through values 1, 2, 3, 4, and 5, executing the internal statements exactly five times.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which component of an algorithm ensures that instructions execute efficiently in the shortest possible time?",
+      options: [
+        "Eliminating spare steps",
+        "Adding extra variables",
+        "Increasing loop counts",
+        "Doubling decision boxes",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Removing unnecessary or redundant instructions optimizes an algorithm for faster execution.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A kiosk machine checks if a balance is at least 2 Cedis before dispensing water. What type of construct is this?",
+      options: [
+        "Sorting operation",
+        "Selection construct",
+        "Iteration loop test",
+        "Sequential storage",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Testing whether an account balance meets a numeric threshold to decide an action is a selection construct.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens if a WHILE loop's tested condition is false before the algorithm ever reaches the loop?",
+      options: [
+        "The computer will restart",
+        "The algorithm halts fully",
+        "The loop runs just once",
+        "The loop is skipped over",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Because a WHILE loop tests its condition at the very beginning, a false condition means the loop body is bypassed entirely.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What must connect flowchart symbols to demonstrate the exact sequential progression of algorithmic logic?",
+      options: [
+        "Numeric indices",
+        "Dotted dividers",
+        "Solid data bars",
+        "Flowline arrows",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Directional arrows, called flowlines, explicitly indicate the progression path from one flowchart operation to the next.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S4Ss2Lesson2QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss2_L2/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which flowchart symbol represents the pseudocode statement INPUT customerName?",
+      options: [
+        "Parallelogram",
+        "Rectangle box",
+        "Diamond shape",
+        "Oval terminator",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A parallelogram is standard for input and output operations in flowcharts.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What does the pseudocode statement SET count = count + 1 become when drawn in a flowchart?",
+      options: [
+        "A diamond test",
+        "A process box",
+        "An oval symbol",
+        "A data symbol",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Updating a variable or performing arithmetic is a process, represented by a rectangle.",
+    ),
+    QuizQuestion(
+      question:
+          "3. When converting an IF-THEN-ELSE statement into a flowchart, what must originate from the decision diamond?",
+      options: [
+        "A single flowline",
+        "Four input lines",
+        "Three return loops",
+        "Two tagged branches",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A decision diamond must produce two outgoing branches representing True and False conditions.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which pseudocode block matches a flowchart where an arrow leaves a process box and points upward to a decision diamond above it?",
+      options: [
+        "An IF construct",
+        "A linear sequence",
+        "A WHILE iteration",
+        "A STOP command",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Re-evaluating a condition located before the body of code represents a pre-test WHILE loop.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary role of indentation when translating a flowchart decision branch into pseudocode statements?",
+      options: [
+        "Shows statements inside the branch",
+        "Makes code execute much faster",
+        "Connects variables to hardware",
+        "Eliminates mathematical errors",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Indentation visually establishes which lines of code belong inside the selection or iteration block.",
+    ),
+    QuizQuestion(
+      question:
+          "6. A flowchart shows a diamond labeled Is marks >= 50?. Which pseudocode statement translates this correctly?",
+      options: [
+        "SET marks = 50",
+        "OUTPUT marks >= 50",
+        "WHILE marks = 50",
+        "IF marks >= 50 THEN",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A conditional diamond evaluating a threshold maps directly to an IF-THEN conditional statement.",
+    ),
+    QuizQuestion(
+      question:
+          "7. When converting pseudocode with nested IF statements into a flowchart, what visual structure appears in the diagram?",
+      options: [
+        "Diamonds inside branch paths",
+        "Multiple starting ovals",
+        "Flowlines without arrows",
+        "Parallel process panels",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Nested conditions appear as subsequent decision diamonds situated along the branch of an earlier diamond.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which pseudocode instruction translates to an oval terminator symbol at the conclusion of an algorithm?",
+      options: [
+        "REPEAT",
+        "STOP",
+        "INPUT",
+        "ELSE",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The terminator oval at the end of a flowchart translates to STOP or END.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What must happen where the \"True\" and \"False\" branches of an IF-THEN-ELSE flowchart finish their unique operations?",
+      options: [
+        "Both must terminate at Stop",
+        "Both must return to Start",
+        "They merge before next step",
+        "They form an infinite loop",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Branch paths converge back into a single common flowline before continuing to subsequent steps.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is it beneficial to design a flowchart before translating it into written pseudocode or programming code?",
+      options: [
+        "It makes computers unnecessary",
+        "It replaces algorithm testing",
+        "It writes program files alone",
+        "It visualises the logic flow",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Flowcharts provide a visual map of the program logic, making it easy to identify design flaws and branches.",
+    ),
+  ],
+);
+
+final QuizModel computingJhs3S4Ss4Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss4_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the main role of the inference engine in a classical knowledge-based expert system?",
+      options: [
+        "It applies logical rules to input data to reach a valid conclusion.",
+        "It connects computer terminals across high-speed campus networks.",
+        "It recharges backup batteries during long electricity blackouts.",
+        "It formats optical storage disks before storing student databases.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The inference engine applies stored IF-THEN rules to submitted facts to deduce answers.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which historical computer system demonstrated artificial intelligence by defeating world chess champion Garry Kasparov?",
+      options: [
+        "MYCIN medical assistant",
+        "Deep Blue chess system",
+        "Encarta encyclopedia",
+        "Internist diagnostic tool",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Deep Blue was a chess-playing computer designed by IBM that defeated world champion Garry Kasparov in a match in 1997.",
+    ),
+    QuizQuestion(
+      question:
+          "3. In an agricultural advisory system, what does the IF portion of an IF-THEN rule evaluate?",
+      options: [
+        "The operating system version",
+        "The cost of electrical power",
+        "The input farm field factors",
+        "The physical weight of tablet",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The IF statement tests the specific conditions, such as weather patterns or plant symptoms, before triggering an action.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is a major operational limitation of a classical, purely rule-based expert system?",
+      options: [
+        "It fails when handling problems not covered by programmed rules.",
+        "It requires direct internet access to evaluate mathematical logic.",
+        "It cannot display text outputs on modern portable digital screens.",
+        "It requires liquid coolant solutions to operate in tropical rooms.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Classical expert systems can only make decisions within the boundaries of their hardcoded rules and cannot adapt to unforeseen cases.",
+    ),
+    QuizQuestion(
+      question:
+          "5. A rural health worker uses an iPad app to record pulse rates and skin rashes to obtain treatment guidance. What system type is being queried?",
+      options: [
+        "An optical drawing program",
+        "A file management program",
+        "A database backup manager",
+        "A telemedicine advice app",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Entering medical signs into a software app to receive diagnostic support is a standard telemedicine expert system application.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When training a vision model using Teachable Machine, what data does the user capture to teach the computer?",
+      options: [
+        "Image samples of objects",
+        "Compiled binary system files",
+        "Raw motherboard voltages",
+        "Formatted storage sectors",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Teachable Machine uses sets of webcam or uploaded image samples to train computer vision models.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does machine learning differ fundamentally from classical expert systems when establishing decision patterns?",
+      options: [
+        "It deletes past records whenever new system updates arrive.",
+        "It identifies patterns from data instead of using hand-built rules.",
+        "It prevents users from interacting with graphics on displays.",
+        "It requires manual rewiring of computer circuits for each task.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Rather than depending on hand-coded IF-THEN rules, machine learning algorithms discover patterns and build models from gathered training data.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which statement represents a correctly formatted IF-THEN control rule for an automated banking credit program?",
+      options: [
+        "READ account balance THEN PRINT monthly statement TO printer.",
+        "FOR EACH loan customer DO verify resident address AND contact.",
+        "WHILE credit score is low DO send reminder email TO customer.",
+        "IF savings balance < 500 GHS THEN reject loan ELSE approve loan.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Option D correctly follows the conditional rule logic: IF a condition is met, THEN execute an action, with an optional ELSE path.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are knowledge bases in expert systems constructed with help from human specialists?",
+      options: [
+        "To make software installation faster across local network routers.",
+        "To capture proven domain rules and real professional experience.",
+        "To reduce electrical energy consumption during processing cycles.",
+        "To prevent computer monitors from showing graphic display errors.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Human specialists provide the verified rules, insights, and facts that form the system's knowledge base.",
+    ),
+    QuizQuestion(
+      question:
+          "10. In a computer vision project identifying healthy versus infected cassava leaves, what is the purpose of collecting diverse leaf photographs?",
+      options: [
+        "To cool the internal camera sensor during daylight video recording.",
+        "To speed up broadband network speeds across regional mobile towers.",
+        "To provide enough visual data for the model to distinguish patterns.",
+        "To format memory drives prior to running system security updates.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Training machine learning models requires diverse image samples so the algorithm can reliably generalize and recognize visual differences.",
+    ),
+  ],
+);
+
 final QuizModel ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l2/8. Quiz.m4a',
   questions: [

@@ -6081,6 +6081,3242 @@ final IndependentPracticeModel computingJhs2S4Ss1Lesson4IndependentQuizData =
   ],
 );
 
+final IndependentPracticeModel computingJhs2S4Ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss1_L5/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which category in Scratch contains the hexagonal AND, OR, and NOT blocks?",
+      options: ["Operators", "Motion", "Looks", "Variables"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What happens when you snap a comparison block into an IF ... THEN control structure?",
+      options: [
+        "The sprite changes its costume color.",
+        "The program evaluates the condition to control script execution.",
+        "The variable score resets to zero.",
+        "The project file saves automatically.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How many input slots are available inside a standard logical AND block in Scratch?",
+      options: ["One", "Three", "Two", "Four"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What visual feedback does Scratch give when you click on an active comparison block during program execution?",
+      options: [
+        "It plays a sound effect.",
+        "It opens a speech bubble showing True or False.",
+        "It deletes the variable.",
+        "It exports the code to text.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary purpose of a variable in a computer program?",
+      options: [
+        "To display text on the screen",
+        "To store data that can change",
+        "To stop program execution",
+        "To connect network cables",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "To store data that can change",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which symbol is typically used in pseudocode to assign a value to a variable?",
+      options: [
+        "An arrow pointing left",
+        "A question mark icon",
+        "A colon with a dash",
+        "A percentage sign",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An arrow pointing left",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. In the BODMAS rule used by computers, which operation is evaluated before multiplication?",
+      options: [
+        "Addition of numbers",
+        "Subtraction steps",
+        "Division processes",
+        "Random selection",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Division processes",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. If a program executes the statement itemPrice = 20, what does the computer do?",
+      options: [
+        "Prints twenty books",
+        "Deletes the memory box",
+        "Stores 20 in itemPrice",
+        "Multiplies price by two",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Stores 20 in itemPrice",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which control structure executes instructions one after another in a straight line?",
+      options: [
+        "Selection block",
+        "Sequence structure",
+        "Iteration loop",
+        "Random branch",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sequence structure",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which programming statement is used to repeat a block of code multiple times?",
+      options: [
+        "Iteration statement",
+        "Sequence statement",
+        "Assignment statement",
+        "Output statement",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Iteration statement",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which of the following variable names is invalid according to programming rules?",
+      options: ["item_price", "2ndNumber", "totalScore", "studentName"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "2ndNumber",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What type of memory storage holds a value that cannot change once assigned?",
+      options: ["A variable", "A constant", "An input box", "A loop counter"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A constant",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which geometric shape is used in a flowchart to indicate the Start and Stop points?",
+      options: [
+        "Rectangle box",
+        "Oval shape",
+        "Diamond symbol",
+        "Parallelogram",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Oval shape",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What term describes a simple, human-readable text method used to plan an algorithm?",
+      options: [
+        "Pseudocode",
+        "Binary code",
+        "Hardware driver",
+        "Syntax error",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Pseudocode",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which flowchart shape is used to represent mathematical calculations and processing tasks?",
+      options: [
+        "Oval",
+        "Rectangle",
+        "Parallelogram",
+        "Diamond",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Rectangle",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which symbol is typically used in pseudocode to assign a computed value to a variable?",
+      options: [
+        "An arrow pointing left",
+        "A question mark",
+        "A colon punctuation",
+        "A division slash",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An arrow pointing left",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss2_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which control structure allows a program to choose between alternative actions based on a condition?",
+      options: [
+        "Sequence block",
+        "Selection statement",
+        "Assignment line",
+        "Start symbol",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Selection statement",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What happens in an IF-ELSE statement if the tested condition evaluates to false?",
+      options: [
+        "The program crashes",
+        "The code inside the ELSE block runs",
+        "The computer shuts down",
+        "The loop restarts",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The code inside the ELSE block runs",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which flowchart shape is universally used to evaluate conditional decisions?",
+      options: [
+        "Rectangle box",
+        "Parallelogram",
+        "Diamond shape",
+        "Oval boundary",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Diamond shape",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following is an example of a relational operator used in conditions?",
+      options: [
+        "Assignment arrow",
+        "Greater than sign",
+        "Print command",
+        "Start boundary",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Greater than sign",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss2_L5/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which type of loop is typically used when the exact number of repetitions is known?",
+      options: ["WHILE loop", "FOR loop", "REPEAT UNTIL loop", "Infinite loop"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "FOR loop",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Where does a WHILE loop test its terminating condition?",
+      options: [
+        "At the start of the loop",
+        "At the very end",
+        "Only after crashing",
+        "Outside the program",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "At the start of the loop",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is another common programming term used to describe iteration?",
+      options: ["Branching", "Looping", "Assignment", "Selection"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Looping",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which loop structure guarantees that its statements run at least once before checking a condition?",
+      options: ["FOR loop", "WHILE loop", "REPEAT UNTIL loop", "Selection block"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "REPEAT UNTIL loop",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which component of a robot is considered its \"brain\" for processing instructions?",
+      options: [
+        "Ultrasonic sensor",
+        "Controller board",
+        "Pneumatic piston",
+        "DC drive motor",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Controller board",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary function of an ultrasonic sensor on an educational robot?",
+      options: [
+        "Measuring soil moisture",
+        "Detecting ground color",
+        "Detecting obstacle distance",
+        "Converting rotary motion",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Detecting obstacle distance",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which mechanical part converts the rotational motion of a motor into linear motion for a robotic arm?",
+      options: [
+        "Rack and gear system",
+        "Independent wheel",
+        "Microcontroller chip",
+        "Power supply jack",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Rack and gear system",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How do independent motors on opposite sides of a two-wheeled robot allow it to turn?",
+      options: [
+        "By reversing power supply",
+        "By varying wheel speeds",
+        "By emitting sound waves",
+        "By changing air pressure",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "By varying wheel speeds",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which sensor type is best suited for detecting dry soil conditions in an automated farm setup?",
+      options: [
+        "Ultrasonic distance module",
+        "Soil moisture probe",
+        "Magnetic field sensor",
+        "Infrared motion detector",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Soil moisture probe",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. How do photoelectric sensors assist factory conveyor systems?",
+      options: [
+        "By measuring air humidity levels",
+        "By counting passing boxes and spacing",
+        "By heating liquid storage tanks",
+        "By testing soil pH balance",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "By counting passing boxes and spacing",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What purpose do photoresistor light sensors serve in municipal street lighting?",
+      options: [
+        "Detecting gas pipeline leaks",
+        "Measuring magnetic field strength",
+        "Determining day and night cycles",
+        "Tracking airport luggage tags",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Determining day and night cycles",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which sensor can be used to detect smoke or butane gas leaks in a building?",
+      options: [
+        "Gas sensor",
+        "Ultrasonic sensor",
+        "pH testing probe",
+        "Soil moisture prong",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Gas sensor",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss3_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which programming environment is most suitable for beginners using visual snap-together blocks?",
+      options: [
+        "Python text editor",
+        "mBlock environment",
+        "Arduino C compiler",
+        "Microcontroller firmware",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "mBlock environment",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How is a completed program transferred from a desktop computer to a robot controller board?",
+      options: [
+        "Via connected USB cable",
+        "Through infrared motion beams",
+        "By soil moisture test prongs",
+        "Using pneumatic pressure pipes",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Via connected USB cable",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens when a two-wheeled robot varies the speed of its left motor compared to its right motor?",
+      options: [
+        "It measures ambient humidity",
+        "It executes a steering turn",
+        "It tests soil pH balance",
+        "It detects gas leaks in pipes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It executes a steering turn",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Where is the uploaded program stored on the controller board so the robot can operate independently?",
+      options: [
+        "Ultrasonic sensor module",
+        "Independent drive motor",
+        "Microcontroller chip",
+        "USB connector port",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Microcontroller chip",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss3Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss3_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary advantage of using a pre-packaged educational robot kit like mBot?",
+      options: [
+        "It includes all matching parts",
+        "It prints 3D plastic bodies",
+        "It eliminates microcontrollers",
+        "It requires no battery power",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It includes all matching parts",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which component serves as the structural foundation when assembling a mobile robot?",
+      options: [
+        "USB upload cable",
+        "Chassis frame base",
+        "Ultrasonic sensor module",
+        "Microcontroller chip",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Chassis frame base",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What can happen if loose wires are not properly managed during robot assembly?",
+      options: [
+        "They improve battery voltage",
+        "They program microcontrollers",
+        "They can jam moving wheels",
+        "They measure soil moisture",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "They can jam moving wheels",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why are caster wheels often added alongside drive motors on a mobile robot?",
+      options: [
+        "To provide balance and stability",
+        "To process code instructions",
+        "To emit ultrasonic sound waves",
+        "To test liquid pH levels",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "To provide balance and stability",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss4_L1/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What inspires the architecture of an Artificial Neural Network?",
+      options: [
+        "The structure of the human brain",
+        "The layout of a computer motherboard",
+        "The network design of the internet",
+        "The mechanical gears in a clock",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The structure of the human brain",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which of the following best describes animal intelligence?",
+      options: [
+        "Purely mechanical computation",
+        "Driven mostly by instinct and survival",
+        "Based on complex financial data",
+        "Dependent on software algorithms",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Driven mostly by instinct and survival",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. How do machines process information compared to humans?",
+      options: [
+        "Using emotional intuition",
+        "Based purely on facts and data",
+        "Through biological brain cells",
+        "By relying on gut feelings",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Based purely on facts and data",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is a key advantage of machine intelligence over humans?",
+      options: [
+        "They feel empathy for users",
+        "They can handle massive amounts of data without fatigue",
+        "They possess true personal wisdom",
+        "They make decisions based on moral values",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "They can handle massive amounts of data without fatigue",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss4_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is another common term used to describe weak artificial intelligence?",
+      options: [
+        "General intelligence",
+        "Narrow artificial intelligence",
+        "Conscious processing",
+        "Biological computing",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Narrow artificial intelligence",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of the following is a real-world example of weak artificial intelligence?",
+      options: [
+        "A machine with true human self-awareness",
+        "A smartphone navigation and voice command tool",
+        "A sentient robot that makes its own life goals",
+        "An artificial brain with independent emotions",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A smartphone navigation and voice command tool",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the current developmental status of strong artificial intelligence?",
+      options: [
+        "It is installed on every modern computer.",
+        "It is used daily by banks and hospitals.",
+        "It does not exist in its true form yet.",
+        "It has completely replaced human teachers.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It does not exist in its true form yet.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What technologies are combined to create mixed reality?",
+      options: [
+        "Virtual reality and augmented reality",
+        "Text editors and spreadsheet formulas",
+        "Audio speakers and mechanical gears",
+        "Radio waves and cable television",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Virtual reality and augmented reality",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss4_L3/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary characteristic that makes a hologram different from a flat photo?",
+      options: [
+        "It has three-dimensional depth and can be viewed from multiple angles.",
+        "It can only be printed out on physical paper.",
+        "It requires no light sources whatsoever to operate.",
+        "It runs exclusively on manual mechanical gears.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "It has three-dimensional depth and can be viewed from multiple angles.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which technologies are integrated to form mixed reality?",
+      options: [
+        "Spreadsheets and word processors",
+        "Virtual reality and augmented reality",
+        "Electric motors and copper wiring",
+        "Audio speakers and microphones",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Virtual reality and augmented reality",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How do users typically interact with holographic objects in mixed reality systems?",
+      options: [
+        "By using hand gestures, voice commands, and spatial sliders",
+        "By typing code into a mainframe terminal",
+        "By painting physical walls with wet brush strokes",
+        "By turning manual dials on a wooden box",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "By using hand gestures, voice commands, and spatial sliders",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Where are virtual objects placed in a mixed reality environment?",
+      options: [
+        "Locked permanently inside a computer hard drive",
+        "Integrated directly into the user's real-world physical surroundings",
+        "Hidden away from human sight entirely",
+        "Printed onto standard exercise books",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Integrated directly into the user's real-world physical surroundings",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss4Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss4_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is a primary capability of human intelligence compared to machines?",
+      options: [
+        "Processing billions of numbers per nanosecond instantly",
+        "Applying creativity, emotional insight, and abstract reasoning",
+        "Operating continuously without needing any rest or sleep",
+        "Executing digital code lines without a single error",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Applying creativity, emotional insight, and abstract reasoning",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which factor represents a major limitation of animal intelligence?",
+      options: [
+        "The complete lack of any survival instincts in nature",
+        "Inability to engage in complex abstract reasoning and technological creation",
+        "Excessive dependence on digital computer servers",
+        "Inability to learn any behaviors from environmental rewards",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Inability to engage in complex abstract reasoning and technological creation",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What is a key strength of machine intelligence?",
+      options: [
+        "Feeling genuine empathy for human users",
+        "Processing massive amounts of data rapidly and consistently",
+        "Possessing spontaneous personal life goals",
+        "Using biological intuition to make social choices",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Processing massive amounts of data rapidly and consistently",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How do human emotions impact decision-making according to computing studies?",
+      options: [
+        "They completely prevent any logical processing from occurring.",
+        "They can sometimes cloud facts or cause stress, acting as a human limitation.",
+        "They automatically convert human brains into computer processors.",
+        "They guarantee that every decision made is mathematically perfect.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "They can sometimes cloud facts or cause stress, acting as a human limitation.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs2S4Ss4Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss4_L5/6. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the primary function of an Artificial Neural Network?",
+      options: [
+        "To simulate brain-like data processing and learn from errors",
+        "To physically clean computer hardware components",
+        "To generate electrical power for mobile devices",
+        "To replace biological human teachers in schools",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "To simulate brain-like data processing and learn from errors",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which classification applies to modern smartphone voice assistants?",
+      options: [
+        "Strong artificial intelligence",
+        "Weak artificial intelligence",
+        "Sentient machine consciousness",
+        "Biological animal intelligence",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Weak artificial intelligence",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What defines mixed reality technology?",
+      options: [
+        "The complete isolation of digital files from physical screens",
+        "The merging of virtual elements into physical environments for 3D interaction",
+        "The conversion of color graphics into black-and-white text",
+        "The manual typing of computer programming code",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The merging of virtual elements into physical environments for 3D interaction",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How do machines process information differently from humans and animals?",
+      options: [
+        "By using emotional intuition and personal life experiences",
+        "By executing high-speed, predictable computations without fatigue",
+        "By relying entirely on natural survival instincts",
+        "By experiencing stress and physical exhaustion",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "By executing high-speed, predictable computations without fatigue",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the fundamental unit of information used in quantum computing?",
+      options: ["Qubit", "Microbit", "Binary bit", "Megabyte"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Qubit",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which quantum mechanical property allows a qubit to represent values of zero and one at the same time?",
+      options: ["Resistance", "Reflection", "Superposition", "Transmission"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Superposition",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does a computer system carry out parallel processing during complex calculations?",
+      options: [
+        "By using higher screen refresh rates",
+        "By executing tasks across many cores",
+        "By converting files into binary code",
+        "By storing data on magnetic platters",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "By executing tasks across many cores",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How long did Google's Sycamore quantum processor take to complete its benchmark test in 2019?",
+      options: ["2.5 days", "100 hours", "10 years", "200 seconds"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "200 seconds",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following is considered a primary input method in perceptual computing?",
+      options: [
+        "Physical punch card reader",
+        "Mechanical typewriter key",
+        "Natural body gesture",
+        "Magnetic tape track roller",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Natural body gesture",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How does real-time translation powered by perceptual computing assist international communication?",
+      options: [
+        "By printing text pages in black ink",
+        "By interpreting speech instantly",
+        "By locking the computer desktop screen",
+        "By deleting old foreign voice files",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "By interpreting speech instantly",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which human characteristic do current perceptual computing systems struggle to replicate?",
+      options: [
+        "Common sense reasoning",
+        "Digital calculation speed",
+        "Image storage capacity",
+        "Binary file transmission",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Common sense reasoning",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why do perceptual systems reduce reliance on standard computer peripherals?",
+      options: [
+        "They make screens entirely invisible",
+        "They double internal storage space",
+        "They use direct natural actions",
+        "They stop internet network traffic",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "They use direct natural actions",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_S1_SS1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which output device is designed to project information directly into a user's field of vision?",
+      options: [
+        "Wearable display",
+        "Dot matrix printer",
+        "Flatbed scanner unit",
+        "Magnetic tape streamer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Wearable display",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Why does an electronic paper display consume significantly less electrical energy than an LCD screen?",
+      options: [
+        "It generates its own power",
+        "It only uses power on refresh",
+        "It requires darkness to run",
+        "It uses mechanical ink rollers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It only uses power on refresh",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What physical component inside an e-paper screen moves to create dark and light text areas?",
+      options: [
+        "Charged pigment particles",
+        "Heated miniature lamps",
+        "Liquid chemical ribbons",
+        "High pressure water jets",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Charged pigment particles",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following is a key limitation of standard dedicated e-readers like the Kindle?",
+      options: [
+        "Inability to store text files",
+        "Very short battery lifespan",
+        "Heavy weight of the hardware",
+        "Slower display refresh rate",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Slower display refresh rate",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss1_L4/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which popular platform provides consumer cloud storage accessible over the internet?",
+      options: [
+        "Google Drive",
+        "Adobe Reader",
+        "Corel Painter",
+        "Mozilla Fox",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Google Drive",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What wireless communication technology allows contactless smart cards to exchange data?",
+      options: [
+        "Infrared optical glass",
+        "Mechanical gear lever",
+        "Radio frequency waves",
+        "High pressure acoustic",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Radio frequency waves",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What physical recording medium does holographic storage use to record digital information?",
+      options: [
+        "Magnetic iron cassette",
+        "Three-dimensional volume",
+        "Thin thermal paper roll",
+        "Perforated cardboard tab",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Three-dimensional volume",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the primary function of a RAID storage setup in large computer systems?",
+      options: [
+        "Lowers monitor power use",
+        "Cleans computer fans fast",
+        "Stops virus infections now",
+        "Protects data from failure",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Protects data from failure",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss1_L5/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which Windows Settings menu category contains the Themes configuration options?",
+      options: [
+        "Personalisation",
+        "Network Devices",
+        "Account Recovery",
+        "Privacy Security",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Personalisation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which tab in the Mouse Properties window allows you to select a different pointer scheme?",
+      options: [
+        "Hardware",
+        "Wheel tab",
+        "Pointers",
+        "Buttons",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Pointers",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens when you adjust the Motion slider towards the Slow setting in Mouse Properties?",
+      options: [
+        "Pointer moves less per physical push",
+        "Mouse clicks turn completely silent",
+        "Monitor screen dims automatically",
+        "System memory usage doubles rapidly",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Pointer moves less per physical push",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which keyboard key can be configured to reveal the cursor location with circular rings?",
+      options: [
+        "The Space key",
+        "The Shift key",
+        "The Enter key",
+        "The CTRL key",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The CTRL key",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss1_L6/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What type of software acts as a translator between an operating system and physical hardware?",
+      options: [
+        "Device driver",
+        "Web browser",
+        "Word processor",
+        "Antivirus tool",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Device driver",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of the following devices is a standard example of Plug-and-Play computer hardware?",
+      options: [
+        "Motherboard slot",
+        "CPU silicon core",
+        "USB flash drive",
+        "Power supply cord",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "USB flash drive",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which Windows utility is specifically designed to manage, update, and uninstall hardware drivers?",
+      options: [
+        "Paint Editor",
+        "Device Manager",
+        "Media Player",
+        "Notepad Viewer",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Device Manager",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens when you uninstall a device driver and select the option to delete its driver software?",
+      options: [
+        "Monitor screen locks",
+        "Keyboard keys change",
+        "Computer hard disk formats",
+        "Driver is removed from system",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Driver is removed from system",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which community problem is best suited for a computing solution?",
+      options: [
+        "Patching physical potholes along an asphalt road",
+        "Tracking daily attendance and exam scores in schools",
+        "Digging deep drainage trenches along school paths",
+        "Repairing cracked foundation walls of a classroom",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Tracking daily attendance and exam scores in schools",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Why are USSD codes widely preferred over mobile smartphone apps for rural community reporting?",
+      options: [
+        "USSD works on simple feature phones without internet data",
+        "USSD codes display animated three-dimensional graphics",
+        "USSD downloads large video tutorials directly to phones",
+        "USSD functions only when connected to high-speed broadband",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "USSD works on simple feature phones without internet data",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the primary role of Geographic Information Systems in public health management?",
+      options: [
+        "Producing digital music for community health broadcasts",
+        "Printing prescription labels on medical supply bottles",
+        "Mapping infection outbreaks to deploy medical resources",
+        "Regulating voltage supplied to community hospital beds",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Mapping infection outbreaks to deploy medical resources",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. A community library wants to introduce digital tablets for junior high school students. Which feature is most important given frequent electrical cuts?",
+      options: [
+        "Bright neon casing with decorative coloured lights",
+        "Heavy metal stands that lock tablets to study desks",
+        "Long battery life with preloaded offline content",
+        "Constant live connection to international cloud servers",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Long battery life with preloaded offline content",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which proposal best addresses textbook shortages in rural basic schools without internet access?",
+      options: [
+        "Streaming high-definition science lectures over live social video feeds",
+        "Deploying offline-first digital tablets preloaded with curriculum texts",
+        "Printing and airfreighting glossy magazines to students every fortnight",
+        "Installing desktop computers that function only with satellite dishes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Deploying offline-first digital tablets preloaded with curriculum texts",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary purpose of an executive summary in a technology solution proposal?",
+      options: [
+        "Listing all complex computer programming scripts used in the software",
+        "Providing a brief overview of the problem, solution, and community outcome",
+        "Displaying high-resolution photographs of all project team members",
+        "Outlining the complete historical background of global computer systems",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Providing a brief overview of the problem, solution, and community outcome",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A fishing community needs prompt alerts regarding dangerous offshore sea currents. Which delivery channel is most practical for local fishers?",
+      options: [
+        "Publishing weekly PDF updates on an international marine research blog",
+        "Displaying animated graphics on an indoor computer lab projection wall",
+        "Broadcasting automated SMS and voice messages to standard mobile phones",
+        "Printing full-colour notices to paste on distant municipal noticeboards",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Broadcasting automated SMS and voice messages to standard mobile phones",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. When pitching a computing solution to local community leaders, what should the presenter emphasize?",
+      options: [
+        "How the digital system directly improves daily life and saves resources",
+        "The exact programming language syntax used to write the application",
+        "How much more expensive the digital equipment is compared to paper tools",
+        "Complex engineering diagrams that only software specialists understand",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "How the digital system directly improves daily life and saves resources",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary purpose of creating wireframes during the early stages of app design?",
+      options: [
+        "To finalize the retail cash price of the completed software",
+        "To plan screen layouts, button positions, and user journeys",
+        "To write computer code instructions directly into the hardware",
+        "To print hundreds of decorative flyers for classroom walls",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "To plan screen layouts, button positions, and user journeys",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which standard flowchart symbol is used to represent an operational action or data processing step?",
+      options: [
+        "A rounded oval shape",
+        "A diamond polygon",
+        "A solid rectangle",
+        "A triangle marker",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A solid rectangle",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why should a mobile application designed for rural health workers incorporate local caching?",
+      options: [
+        "To allow data entry to continue smoothly when cell signal drops",
+        "To download large foreign musical tracks onto mobile devices",
+        "To display dynamic animations whenever a nurse opens a folder",
+        "To force mobile devices to restart every two hours of operation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "To allow data entry to continue smoothly when cell signal drops",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the recommended slide length for a student presentation deck pitching a completed technology design?",
+      options: [
+        "Exactly one slide displaying a single photo",
+        "Over fifty slides containing detailed code",
+        "Around ten slides covering all key areas",
+        "At least one hundred slides with audio files",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Around ten slides covering all key areas",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary objective of applying ergonomics when setting up a computer workstation?",
+      options: [
+        "To make computer equipment operate at much faster processing speeds",
+        "To design workspaces that fit the natural posture and safety of users",
+        "To lower the monthly electrical consumption of computer peripherals",
+        "To make office furniture look modern and attractive to all visitors",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "To design workspaces that fit the natural posture and safety of users",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which health problem occurs when repetitive typing causes inflammation in the wrist's median nerve tunnel?",
+      options: [
+        "Muscular tendinitis",
+        "Chronic asthenopia",
+        "Migraine headache",
+        "Carpal tunnel syndrome",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Carpal tunnel syndrome",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does an ergonomic split keyboard reduce physical strain for a typist compared to a standard keyboard?",
+      options: [
+        "It divides keys into two angled sections to keep wrists straight",
+        "It reduces the total number of keys required to enter alphabets",
+        "It has heavily cushioned buttons that require no physical touch",
+        "It enables hands to remain close together while typing sentences",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "It divides keys into two angled sections to keep wrists straight",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is an adjustable paper stand beneficial when transcribing written text into a computer word processor?",
+      options: [
+        "It completely eliminates all reflections coming from window glass",
+        "It keeps papers flat on the desk so pages never blow away in air",
+        "It holds papers at eye level to prevent frequent neck bending",
+        "It automatically scans the printed page directly onto your screen",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "It holds papers at eye level to prevent frequent neck bending",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the most suitable way to position a computer desk relative to large laboratory windows?",
+      options: [
+        "With the monitor screen directly facing the window",
+        "With the back of the monitor directly against glass",
+        "With the monitor placed at a right angle to windows",
+        "With the desk tilted directly toward the direct sun",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "With the monitor placed at a right angle to windows",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S1Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s1_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Why do computers and peripheral devices produce heat energy while they are switched on and performing work?",
+      options: [
+        "Software code creates physical friction when executing calculations",
+        "High voltage cables transfer warm air directly from power generators",
+        "Electronic resistance transforms a portion of electricity into heat",
+        "Display monitors draw hot outdoor sunlight into internal processors",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Electronic resistance transforms a portion of electricity into heat",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What unit of measurement is standardly used to indicate the electrical power consumption rating of a computing device?",
+      options: [
+        "Litres",
+        "Watts",
+        "Metres",
+        "Pascals",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Watts",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which of the following ICT tools typically produces the highest amount of operational heat during continuous active use?",
+      options: [
+        "Low-power tablet computer",
+        "High-speed laser printer",
+        "Portable laptop keyboard",
+        "Handheld digital barcode scanner",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "High-speed laser printer",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What automatic protective action does a modern computer processor take when its internal temperature exceeds safe operating limits?",
+      options: [
+        "It switches off display colours to conserve cold battery power",
+        "It speeds up system calculations to finish open tasks rapidly",
+        "It instantly deletes background applications to free memory",
+        "It reduces operating speed or powers down to avoid damage",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "It reduces operating speed or powers down to avoid damage",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What is the recommended minimum clearance distance to leave around computer casing vents to maintain safe airflow?",
+      options: [
+        "10 to 15 centimetres",
+        "1 to 2 millimetres",
+        "2 to 3 metres",
+        "Exactly 50 inches",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "10 to 15 centimetres",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab in Microsoft Word contains the tools for inserting pictures, screenshots, and screen clippings?",
+      options: [
+        "Home",
+        "View",
+        "Insert",
+        "Review",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Insert",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Where does the operating system temporarily store an image captured with the Print Screen key before it is pasted?",
+      options: [
+        "Hard drive",
+        "Clipboard",
+        "Taskbar",
+        "Desktop",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Clipboard",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which keyboard shortcut is used to paste a captured screenshot into an open document?",
+      options: [
+        "Ctrl + C",
+        "Ctrl + Z",
+        "Ctrl + X",
+        "Ctrl + V",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ctrl + V",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What visual change happens to the mouse pointer immediately after selecting the Screen Clipping command?",
+      options: [
+        "It turns into a dark crosshair",
+        "It becomes a rotating hourglass",
+        "It changes to a vertical beam",
+        "It turns into a pointing finger",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "It turns into a dark crosshair",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab contains the SmartArt tool in Microsoft Word?",
+      options: [
+        "View",
+        "Home",
+        "Insert",
+        "Review",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Insert",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which category of SmartArt is best suited to display the ranking of prefects in a school?",
+      options: [
+        "Matrix",
+        "Hierarchy",
+        "Pyramid",
+        "Cycle",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Hierarchy",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens automatically to text when you type a long sentence inside a SmartArt shape?",
+      options: [
+        "Shape deletes",
+        "Page breaks",
+        "Error sounds",
+        "Font shrinks",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Font shrinks",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which ribbon group houses the SmartArt command within the Insert tab?",
+      options: [
+        "Illustrations",
+        "Paragraph group",
+        "Page setup area",
+        "Header and footer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Illustrations",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon group on the Insert tab contains the command to insert a Chart?",
+      options: [
+        "Page setup area",
+        "Document views",
+        "Paragraph group",
+        "Illustrations",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Illustrations",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What integrated software window opens to receive numerical values when a Chart is inserted?",
+      options: [
+        "Access database",
+        "Microsoft Excel",
+        "Notepad editor",
+        "Paint utility",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Microsoft Excel",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which image format supports short repeating animations when viewed on a computer monitor?",
+      options: [
+        "BMP",
+        "PNG",
+        "GIF",
+        "PDF",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "GIF",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which keyboard key must be held down while clicking a hyperlink in Word to open the target website?",
+      options: [
+        "Shift",
+        "Tab",
+        "Alt",
+        "Ctrl",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ctrl",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab contains the tools used for adding local photos, online images, and screen clippings in presentation software?",
+      options: [
+        "Home tab",
+        "View tab",
+        "Insert tab",
+        "Design tab",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Insert tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What visual change happens across your monitor immediately after you click the Screen Clipping tool?",
+      options: [
+        "The active screen turns frosted white",
+        "The presentation window closes down",
+        "The desktop display shuts off completely",
+        "The screen displays an empty text window",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The active screen turns frosted white",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which requirement is compulsory before you can search for and insert graphics using the Online Pictures feature?",
+      options: [
+        "An active internet network link",
+        "An attached external optical drive",
+        "A high-resolution optical scanner",
+        "A registered local email profile",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An active internet network link",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the fastest way to add a picture to a slide that already contains an empty layout placeholder?",
+      options: [
+        "Drag the file onto the status bar",
+        "Click the picture icon in the box",
+        "Press the escape key on the board",
+        "Paste the file path in normal view",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Click the picture icon in the box",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which animation category should a student select to make an existing image change colour or pulse during an oral delivery?",
+      options: [
+        "Motion Path",
+        "Emphasis",
+        "Entrance",
+        "Transition",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Emphasis",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What does a small number badge situated next to an object on the presentation canvas represent?",
+      options: [
+        "The font size of the text",
+        "The total file size in megabytes",
+        "The order of the animation sequence",
+        "The overall duration of the slide show",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The order of the animation sequence",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which ribbon tab must you open to apply a visual movement effect that happens when moving from slide 3 to slide 4?",
+      options: [
+        "Transitions tab",
+        "Animations tab",
+        "Slide Show tab",
+        "Review tab",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Transitions tab",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which option in the transition gallery should you select if you want a slide to appear instantly without any motion?",
+      options: [
+        "Split",
+        "Push",
+        "Wipe",
+        "None",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "None",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon group on the Insert tab contains the commands for placing audio and video files onto a slide?",
+      options: [
+        "The Tables group",
+        "The Media group",
+        "The Links group",
+        "The Text group",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Media group",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What window opens immediately beside your slide when you insert a new chart into a presentation?",
+      options: [
+        "A web browser window",
+        "An audio editing tool",
+        "A small spreadsheet window",
+        "A slide layout selector",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A small spreadsheet window",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which on-screen handle should a user drag to enlarge the overall dimensions of an inserted data table?",
+      options: [
+        "A table sizing handle",
+        "The slide scroll bar",
+        "The taskbar start icon",
+        "The media volume knob",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A table sizing handle",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which action allows you to adjust the sound output level of an inserted video during slide show playback?",
+      options: [
+        "Pressing the insert key",
+        "Dragging the volume slider",
+        "Minimising the main deck",
+        "Deleting the media frame",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dragging the volume slider",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary purpose of a picture placeholder in a desktop published document?",
+      options: [
+        "It permanently locks all font formatting across the page",
+        "It reserves a specific space on the page for an image",
+        "It translates foreign text into local Ghanaian languages",
+        "It checks the entire document for grammatical inaccuracies",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "It reserves a specific space on the page for an image",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which tool is used to make text automatically continue from one frame into another frame?",
+      options: [
+        "Text Box Link",
+        "Format Painter",
+        "Mail Merge",
+        "Page Break",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Text Box Link",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. When creating an advertisement with unique dimensions, which menu option should be selected?",
+      options: [
+        "Insert Shapes",
+        "AutoCorrect",
+        "Page Setup",
+        "Picture Clip",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Page Setup",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What does the mouse pointer change into after clicking the Create Link command?",
+      options: [
+        "An hourglass",
+        "A pair of scissors",
+        "A crosshair ruler",
+        "A small pouring jug",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A small pouring jug",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What term describes the empty areas surrounding text boxes and images on a page?",
+      options: [
+        "Document scratchboard",
+        "Intentional white space",
+        "Background watermark",
+        "Master page placeholder",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Intentional white space",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which elements comprise the underlying structure used to align publication objects?",
+      options: [
+        "Hidden software macros",
+        "Taskbar scroll buttons",
+        "Column and row gridlines",
+        "Standard header footers",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Column and row gridlines",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do established businesses use standard corporate colour schemes?",
+      options: [
+        "To maintain brand identity",
+        "To increase file storage sizes",
+        "To bypass antivirus software",
+        "To hide typing spelling errors",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "To maintain brand identity",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which tool assists designers in detecting misspelled words before printing?",
+      options: [
+        "Color Accent Palette",
+        "Page Orientation Tool",
+        "Object Grouping Feature",
+        "Automated Spell Checker",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Automated Spell Checker",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss3_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary focus when evaluating the mechanics of a desktop published document?",
+      options: [
+        "The download speed of web links",
+        "Grammar, spelling, and punctuation",
+        "The cost of printer ink cartridges",
+        "The physical dimensions of the monitor",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Grammar, spelling, and punctuation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which combination provides the strongest visual contrast for body text?",
+      options: [
+        "Yellow text on light grey paper",
+        "Dark black text on pale paper",
+        "Pale pink lettering on white boxes",
+        "Light blue text on light green blocks",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dark black text on pale paper",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why should a designer limit a publication to two or three complementary colours?",
+      options: [
+        "To avoid visual chaos and distraction",
+        "To speed up the typing keyboard speed",
+        "To decrease the battery power of tablets",
+        "To automatically correct spelling errors",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "To avoid visual chaos and distraction",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What does a critique of design appropriateness judge?",
+      options: [
+        "The speed of the internal cooling fan",
+        "The brand name of the publishing laptop",
+        "How well the style fits the purpose",
+        "The storage capacity of the hard drive",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "How well the style fits the purpose",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss4_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which key combination automatically converts an active data range into a structured table?",
+      options: [
+        "Ctrl + S",
+        "Ctrl + T",
+        "Ctrl + P",
+        "Ctrl + V",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Ctrl + T",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What occurs when an invalid entry is typed into a cell protected by a Stop Error Alert?",
+      options: [
+        "The value is converted to a decimal",
+        "The value gets highlighted in green",
+        "The entry is rejected and not stored",
+        "The spreadsheet automatically closes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The entry is rejected and not stored",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which sequence correctly describes numerical data arranged in descending order?",
+      options: [
+        "Alphabetical from letter A to Z",
+        "Chronological from oldest to newest",
+        "Values moving from smallest to largest",
+        "Values moving from highest to lowest",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Values moving from highest to lowest",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens to rows that do not match the active filter criteria applied to a column?",
+      options: [
+        "They are shifted to the last sheet",
+        "They are hidden from the current view",
+        "They are erased from system storage",
+        "They are highlighted in bold red text",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "They are hidden from the current view",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss4_L2/7. GUIDED.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab contains the options for changing workbook Themes?",
+      options: [
+        "Formulas",
+        "Page Layout",
+        "Review",
+        "Data",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Page Layout",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary benefit of using a pre-built spreadsheet template?",
+      options: [
+        "It connects the file to an external database",
+        "It automatically repairs computer hardware",
+        "It saves time by providing pre-made layouts",
+        "It prevents all users from saving changes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It saves time by providing pre-made layouts",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which menu command must be clicked immediately after completing the actions you wish to automate in a macro?",
+      options: [
+        "Save As Template",
+        "Delete Macro",
+        "Pause Playback",
+        "Stop Recording",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Stop Recording",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What happens when you apply a predefined Cell Style to a group of selected cells?",
+      options: [
+        "The cells are locked from future editing",
+        "Multiple formatting settings apply at once",
+        "All numbers are converted into text format",
+        "The selected rows are hidden from view",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Multiple formatting settings apply at once",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S2Ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s2_ss4_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which ribbon tab contains the tools to insert a new Pivot Table or standard Chart?",
+      options: [
+        "Page Layout",
+        "Insert",
+        "Review",
+        "Formulas",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Insert",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What happens to a linked Pivot Chart when you filter categories inside its associated Pivot Table?",
+      options: [
+        "The chart is permanently removed from the sheet",
+        "The chart converts automatically into a plain text file",
+        "The chart updates its visual display to reflect the filter",
+        "The chart locks against any further visual edits",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The chart updates its visual display to reflect the filter",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which area in the PivotTable Fields pane determines the vertical row labels of your summary?",
+      options: [
+        "Formulas",
+        "Legends",
+        "Values",
+        "Rows",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Rows",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the primary function of a Slicer when applied to a Pivot Table or Pivot Chart?",
+      options: [
+        "It protects the file using a master password",
+        "It provides interactive buttons for filtering data",
+        "It checks the worksheet for grammar errors",
+        "It converts numerical values into local currency",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It provides interactive buttons for filtering data",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What primary role does an e-commerce platform perform in a modern digital economy?",
+      options: [
+        "It replaces computer operating systems with point of sale software.",
+        "It enables the buying and selling of items across computer networks.",
+        "It repairs damaged local network cables inside commercial bank premises.",
+        "It converts analogue television signals into high-definition web video.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "It enables the buying and selling of items across computer networks.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which feature provides security when authorizing a remote transaction card purchase on the web?",
+      options: [
+        "A public social media account link.",
+        "A printed business receipt voucher.",
+        "A temporary one-time SMS password.",
+        "An optical barcode tracking number.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A temporary one-time SMS password.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does a Quick Response code store transaction data compared to a traditional linear barcode?",
+      options: [
+        "It stores electronic signals in magnetic tape ribbons.",
+        "It records audible frequencies using sound waves.",
+        "It keeps data only on plastic smart card chips.",
+        "It organizes data points across two dimensions.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "It organizes data points across two dimensions.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which statement correctly identifies a fundamental feature of the digital currency Bitcoin?",
+      options: [
+        "It operates across decentralised networks without a central authority.",
+        "It requires printing on standard watermarked central bank paper notes.",
+        "It functions only when a physical debit card chip touches the terminal.",
+        "It is backed directly by metal gold reserves inside a commercial vault.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "It operates across decentralised networks without a central authority.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which statement describes the core concept of distance learning through electronic systems?",
+      options: [
+        "Students must relocate permanently to live on a physical university campus.",
+        "Teachers print thousands of paper examination sheets for distribution by van.",
+        "Learning takes place remotely using computer networks and digital devices.",
+        "Schools abandon all computational devices in favor of chalkboard instruction.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Learning takes place remotely using computer networks and digital devices.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What primary technical limitation can disrupt a student's participation in live online classes?",
+      options: [
+        "Unstable internet connectivity and irregular electrical power supply.",
+        "Having an excessive number of printed reference manuals in the room.",
+        "Using a standard keyboard instead of an optical projection system.",
+        "Accessing digital library books that do not require monthly payments.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Unstable internet connectivity and irregular electrical power supply.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which online service is designed specifically to store files remotely and support group collaboration?",
+      options: [
+        "An optical flatbed image scanner.",
+        "A local offline graphics processor.",
+        "A mechanical matrix printer ribbon.",
+        "A cloud drive platform like OneDrive.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A cloud drive platform like OneDrive.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does real-time document collaboration benefit students working together on a joint report?",
+      options: [
+        "It allows multiple learners to edit the same file simultaneously.",
+        "It forces students to share one physical keyboard inside the room.",
+        "It prevents all group members from reading the final submitted text.",
+        "It deletes old versions of assignments every twenty-four hours.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "It allows multiple learners to edit the same file simultaneously.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following actions is the most effective way to secure a personal social media account from unauthorised access?",
+      options: [
+        "Sharing account passwords only with close friends",
+        "Configuring account profile settings to fully public",
+        "Using a strong password and enabling privacy settings",
+        "Turning off antivirus protection on mobile devices",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Using a strong password and enabling privacy settings",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary function of the \"Forward\" feature in an electronic mail application?",
+      options: [
+        "Deleting unwanted messages from the system inbox",
+        "Responding directly to the original sender's note",
+        "Sending a received email to a brand new recipient",
+        "Returning a rejected message back to the postmaster",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Sending a received email to a brand new recipient",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which situation illustrates a major risk of spending excessive, uncontrolled hours on social media platforms?",
+      options: [
+        "Improved typing speed during daily class lessons",
+        "Severe neglect of school studies and family chores",
+        "Lower monthly data charges on mobile smartphones",
+        "Faster transmission of electronic homework files",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Severe neglect of school studies and family chores",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. When an email user selects \"Reply All\", who receives the new message that is sent?",
+      options: [
+        "Only the sender of the original incoming message",
+        "Only people whose names are saved in the contact list",
+        "The original sender and all listed email recipients",
+        "Every person registered on that local internet domain",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The original sender and all listed email recipients",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following scenarios best illustrates the deliberate generation of an active digital footprint?",
+      options: [
+        "A search engine records the internet protocol address of your mobile tablet.",
+        "A web server logs the exact time and date you open an online revision document.",
+        "A student writes and publishes an original article on the school study blog.",
+        "An internet service provider archives the list of websites a subscriber opens.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A student writes and publishes an original article on the school study blog.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the most appropriate first reaction when a student receives an abusive message in a class chat group?",
+      options: [
+        "Send an equally aggressive insult back to the sender in front of the group.",
+        "Take screenshots of the message, block the user, and inform an adult.",
+        "Delete the messaging application immediately without telling anyone.",
+        "Forward the offensive comment to every other pupil in the school compound.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Take screenshots of the message, block the user, and inform an adult.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why is cyberbullying often considered particularly harmful compared to physical schoolyard teasing?",
+      options: [
+        "It can operate continuously at all hours and reach very broad audiences.",
+        "It is completely impossible to capture proof of online written text.",
+        "It only affects adult professionals working inside large corporate offices.",
+        "It requires specialized computer programming qualifications to execute.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "It can operate continuously at all hours and reach very broad audiences.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following digital records belongs strictly to an individual's digital shadow?",
+      options: [
+        "A personal profile picture uploaded to an educational forum.",
+        "An electronic mail message sent to an instructor regarding homework.",
+        "A recorded log of visited web pages stored by an internet provider.",
+        "A positive comment submitted underneath an online science video.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A recorded log of visited web pages stored by an internet provider.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss3_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which form of malware covertly records every button pressed on a computer keyboard to capture confidential login credentials?",
+      options: [
+        "A packet sniffer",
+        "A brute force script",
+        "A keystroke logger",
+        "A denial of service tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A keystroke logger",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary objective of cybercriminals when setting up an unsecured fake wireless access point in a public bus station?",
+      options: [
+        "To provide free internet connectivity to underprivileged community members",
+        "To capture unencrypted network traffic and personal credentials from connected users",
+        "To increase the overall physical transmission speed of local mobile telephone towers",
+        "To automatically upgrade the system operating software of all nearby smartphones",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "To capture unencrypted network traffic and personal credentials from connected users",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does a trojan successfully bypass a user's initial suspicion and gain entry into a computer system?",
+      options: [
+        "By masquerading as an attractive, legitimate program that the user willingly installs",
+        "By physically modifying the internal electrical current supplied by wall sockets",
+        "By altering the physical colour of the computer casing through hardware commands",
+        "By shutting down the local municipal electrical power grid across the district",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "By masquerading as an attractive, legitimate program that the user willingly installs",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which technique manipulates Domain Name System records to send users to a counterfeit website even when they type the correct URL?",
+      options: [
+        "Keylogger recording",
+        "SMS smishing attack",
+        "DNS cache spoofing",
+        "Brute force cracking",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "DNS cache spoofing",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss4_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following phrases best describes the term reverse chronological order as applied to blog entries?",
+      options: [
+        "Posts are arranged from shortest word count to longest word count",
+        "The newest published post appears at the top of the reading page",
+        "Articles are listed alphabetically based on their main title text",
+        "Posts are sorted according to the total count of user comments",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The newest published post appears at the top of the reading page",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Why do modern commercial enterprises regularly publish original articles on company blogs?",
+      options: [
+        "To avoid paying mandatory national registration and filing fees",
+        "To eliminate the requirement of having any physical shop space",
+        "To engage potential buyers and demonstrate domain experience",
+        "To prevent competing businesses from launching digital portals",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "To engage potential buyers and demonstrate domain experience",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does maintaining an academic blog directly benefit a Junior High School student?",
+      options: [
+        "It completely replaces the requirement to sit classroom tests",
+        "It serves as an open portfolio showcasing skills and writing",
+        "It provides guaranteed immediate funding from international bodies",
+        "It automatically protects home electronic devices against viruses",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "It serves as an open portfolio showcasing skills and writing",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What key feature distinguishes an interactive blog from a traditional printed school magazine?",
+      options: [
+        "Readers can post immediate digital replies beneath each article",
+        "Printed school magazines cannot display any colourful images",
+        "A blog can only be read by people living in the same town",
+        "A school magazine never requires editing before publication",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Readers can post immediate digital replies beneath each article",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss4_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which area of a school blog layout is typically reserved for displaying the school crest, site title, and primary navigation links?",
+      options: [
+        "The sidebar column",
+        "The header section",
+        "The main content zone",
+        "The footer section",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The header section",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary function of a sidebar when placed alongside the main content of a blog?",
+      options: [
+        "It completely replaces the need for any written posts",
+        "It provides quick access to archives, widgets, and links",
+        "It prevents unauthorized users from opening the web page",
+        "It automatically grades student terminal examination tests",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "It provides quick access to archives, widgets, and links",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. When selecting a free domain name for a school science club, which practice is most recommended?",
+      options: [
+        "Choosing a short, recognizable name related to the club",
+        "Including long strings of random letters and numbers",
+        "Changing the web address every single time you post",
+        "Using the private personal nickname of the club leader",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Choosing a short, recognizable name related to the club",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. In modern visual web editors, what is the purpose of using modular content blocks?",
+      options: [
+        "To block harmful computer viruses from entering local storage",
+        "To make the school tablet completely run out of system memory",
+        "To insert text, images, and buttons easily without manual code",
+        "To restrict the website so only the headmaster can ever view it",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "To insert text, images, and buttons easily without manual code",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S3Ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s3_ss4_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which step should a student author always carry out immediately before clicking the publish button on a blog post?",
+      options: [
+        "Permanently erase the underlying blog platform database",
+        "Preview the page and proofread all text for spelling errors",
+        "Disconnect the school internet router from power completely",
+        "Delete all photographs uploaded into the post media folder",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Preview the page and proofread all text for spelling errors",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What occurs when an author assigns the 'Private' visibility setting to a newly drafted blog post?",
+      options: [
+        "The article is automatically sent to every school printer on campus",
+        "The article is visible across every public internet search engine",
+        "Only authorized administrators and editors can read the article",
+        "The post is deleted from local device storage after three minutes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Only authorized administrators and editors can read the article",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How can a blogger effectively encourage readers to leave constructive comments below an article?",
+      options: [
+        "By finishing the blog post with a specific open-ended question",
+        "By locking the blog so only one person can read it each week",
+        "By threatening to report visitors who choose not to write a reply",
+        "By disabling the commenting feature inside the platform dashboard",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "By finishing the blog post with a specific open-ended question",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. If an author discovers a factual mistake in an article after it has already gone live, what should be done?",
+      options: [
+        "Delete the entire website and purchase a new tablet computer",
+        "Ignore the error completely and avoid posting any future articles",
+        "Edit the draft inside the editor and click the Update button",
+        "Create a new account under a fake username on another platform",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Edit the draft inside the editor and click the Update button",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S4Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s4_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What decimal value is represented by the hexadecimal letter E?",
+      options: [
+        "12",
+        "13",
+        "14",
+        "15",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "14",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the decimal equivalent of the binary number 00001101₂?",
+      options: [
+        "11",
+        "13",
+        "15",
+        "17",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "13",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the result when binary 0010₂ is added to binary 0100₂?",
+      options: [
+        "0110₂",
+        "0111₂",
+        "1000₂",
+        "0101₂",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "0110₂",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which base 16 symbol correctly represents the four binary bits 1011₂?",
+      options: [
+        "A",
+        "B",
+        "C",
+        "D",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "B",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. How many binary bits form a single hexadecimal digit?",
+      options: [
+        "Two bits",
+        "Six bits",
+        "Eight bits",
+        "Four bits",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Four bits",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S4Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s4_ss1_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which component of an IDE translates human-written code into machine code that the computer processor can execute?",
+      options: [
+        "Text Editor",
+        "Debugger",
+        "Compiler",
+        "Output Console",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Compiler",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What are the default coordinates of a sprite positioned at the exact center of the Scratch stage?",
+      options: [
+        "x = 100, y = 100",
+        "x = 0, y = 0",
+        "x = 0, y = 100",
+        "x = 10, y = 10",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "x = 0, y = 0",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which block category in Scratch features rounded tops that prevent other blocks from being placed above them?",
+      options: [
+        "Event blocks",
+        "Motion blocks",
+        "Control blocks",
+        "Looks blocks",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Event blocks",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following programming languages is a visual, block-based development environment?",
+      options: [
+        "C++",
+        "Python",
+        "JavaScript",
+        "Scratch",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Scratch",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What action should a programmer take to store a player's changing score inside a computer program?",
+      options: [
+        "Create a variable",
+        "Change stage color",
+        "Add a motion block",
+        "Delete the sprite",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Create a variable",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S4Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s4_ss1_L3/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which language provides the fundamental structure and headings of a raw web page?",
+      options: [
+        "Python",
+        "HTML",
+        "C++",
+        "Scratch",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "HTML",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the function of a website theme or template?",
+      options: [
+        "It hosts the domain name on cloud servers",
+        "It connects the computer to internet cables",
+        "It provides a pre-designed layout and styling",
+        "It compiles binary code into machine language",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It provides a pre-designed layout and styling",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which part of a webpage typically houses copyright notices and contact details?",
+      options: [
+        "The Footer",
+        "The Header",
+        "The Hero banner",
+        "The Navigation bar",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Footer",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What tool within modern web builders allows users to add text, images, or video clips?",
+      options: [
+        "Command line terminal",
+        "Content blocks",
+        "Binary switch registers",
+        "Machine code translators",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Content blocks",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What action makes a newly designed website accessible to visitors on the internet?",
+      options: [
+        "Deleting the theme",
+        "Clearing browser cache",
+        "Saving local drafts",
+        "Publishing the site",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Publishing the site",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S4Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s4_ss2_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which algorithmic structure executes commands in direct linear order from top to bottom without jumping or branching?",
+      options: [
+        "Iteration",
+        "Selection",
+        "Sequence",
+        "Variable",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Sequence",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. In a standard system flowchart, which geometric shape represents a conditional decision point with multiple exit branches?",
+      options: [
+        "Rectangle",
+        "Oval shape",
+        "Circle tag",
+        "Diamond box",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Diamond box",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which loop structure checks its exit condition only after executing the enclosed instructional statements at least once?",
+      options: [
+        "REPEAT-UNTIL",
+        "FOR-NEXT loop",
+        "IF-ELSE block",
+        "WHILE-DO loop",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "REPEAT-UNTIL",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. An algorithm for purchasing waakye checks whether fried plantain is available before adding it to the plate. This is an example of which construct?",
+      options: [
+        "Subroutine",
+        "Selection",
+        "Iteration",
+        "Sequence",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Selection",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S4Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s4_ss2_L2/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. When translating a flowchart process box containing Area = length * width into pseudocode, which keyword or format is standard?",
+      options: [
+        "INPUT Area",
+        "IF Area",
+        "SET Area = length * width",
+        "REPEAT Area",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "SET Area = length * width",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which pseudocode construct corresponds directly to a flowchart structure where an incoming flowline enters a decision diamond before any processing statements are executed?",
+      options: [
+        "FOR-NEXT",
+        "WHILE-DO",
+        "REPEAT-UNTIL",
+        "CASE-SELECT",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "WHILE-DO",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which geometric shape must be selected when translating the pseudocode statement OUTPUT \"Transaction Approved\" into a flowchart diagram?",
+      options: [
+        "Parallelogram",
+        "Rectangle box",
+        "Diamond shape",
+        "Circle connector",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Parallelogram",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. In a flowchart-to-pseudocode translation, what does a flowline that loops upward to an earlier step in the diagram signify?",
+      options: [
+        "Data storage",
+        "Variable name",
+        "Hardware fault",
+        "Iteration loop",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Iteration loop",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S4Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s4_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Who originally formulated the Three Laws of Robotics?",
+      options: [
+        "Charles Babbage",
+        "Isaac Asimov",
+        "Alan Turing",
+        "Blaise Pascal",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Isaac Asimov",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which robot component serves as the central brain that runs code instructions?",
+      options: [
+        "Microcontroller board",
+        "Ultrasonic sensor case",
+        "Rubber wheel tread",
+        "Caster wheel ball",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Microcontroller board",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What role does a line-follower sensor perform on an educational robot?",
+      options: [
+        "It balances the main chassis frame",
+        "It plays alert sounds through ports",
+        "It tracks dark and light pathways",
+        "It supplies voltage to drive motors",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "It tracks dark and light pathways",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which mobile application uses puzzle commands to teach robot navigation logic?",
+      options: [
+        "LightBot",
+        "CorelDraw",
+        "CalcSheet",
+        "PaintShop",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "LightBot",
+    ),
+  ],
+);
+
+final IndependentPracticeModel computingJhs3S4Ss4Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/computing/JHS3_s4_ss4_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which component of an expert system holds the collection of facts and problem-solving rules obtained from specialists?",
+      options: [
+        "The inference engine",
+        "The knowledge base",
+        "The network switch",
+        "The user interface",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The knowledge base",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What control structure is fundamentally used to query knowledge-based systems and formulate conclusions?",
+      options: [
+        "FOR-EACH loop",
+        "WHILE-DO cycle",
+        "IF-THEN clause",
+        "TRY-CATCH block",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "IF-THEN clause",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. In a telemedicine expert system, what is the primary purpose of the user input stage?",
+      options: [
+        "To format the tablet hard drive",
+        "To delete outdated patient files",
+        "To write new source algorithms",
+        "To supply signs for evaluation",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "To supply signs for evaluation",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does Google's Teachable Machine primarily learn to recognize and distinguish between different objects?",
+      options: [
+        "By reviewing collected sample data",
+        "By scanning computer memory units",
+        "By copying hard drive sectors",
+        "By running basic clock routines",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "By reviewing collected sample data",
+    ),
+  ],
+);
+
 final IndependentPracticeModel ss1Lesson2IndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l2/7. Independent Practice.m4a',

@@ -3067,6 +3067,1648 @@ final PracticeModel computingJhs2S4Ss1Lesson4PracticeData = PracticeModel(
   ],
 );
 
+final PracticeModel computingJhs2S4Ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss1_L5/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "Question 1: Explain why comparison blocks in Scratch snap exclusively into the conditional slots of IF control blocks.",
+      answer:
+          "Correct Answer: Both the comparison blocks and the control slot share matching hexagonal shapes designed to hold Boolean true-or-false values.",
+      explanation:
+          "Explanation: This visual constraint ensures that programmers only place valid conditional logic where the control structure expects a Boolean evaluation.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 2: Describe how a programmer constructs a compound rule in Scratch using an AND operator block and two comparison blocks.",
+      answer:
+          "Correct Answer: The programmer drags two individual comparison blocks into the two empty hexagonal slots of the green AND block, then snaps the combined block into the IF control statement.",
+      explanation:
+          "Explanation: Nesting blocks allows the program to evaluate multiple conditions together as a single compound rule.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "Question 3: Explain how clicking on a condition block in Scratch helps a developer during debugging.",
+      answer:
+          "Correct Answer: Clicking on the block opens a small speech bubble that displays its live evaluated result of either True or False.",
+      explanation:
+          "Explanation: This real-time feedback helps developers verify whether their comparison logic is working correctly during program execution.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain what a variable is in computer programming and give a practical example from a school environment in Ghana.",
+      answer:
+          "Correct Answer: A variable is a named storage location in computer memory used to hold data that can change during program execution. An example is a variable named studentScore used to store a test score in a teacher's grade book application.",
+      explanation:
+          "Explanation: Variables act like labeled containers holding specific data values that our programs can update or retrieve at any time.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the role of an assignment statement in a computer program.",
+      answer:
+          "Correct Answer: An assignment statement evaluates an expression on the right side and stores the resulting value into the variable specified on the left side.",
+      explanation:
+          "Explanation: It uses the assignment symbol to transfer data into computer memory so the application can remember it for future calculations.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Why must a computer follow the BODMAS rule when evaluating mathematical expressions?",
+      answer:
+          "Correct Answer: The computer follows BODMAS to ensure that operations like brackets, division, and multiplication are performed in the correct standard sequence, avoiding calculation errors.",
+      explanation:
+          "Explanation: Without a fixed precedence order, mixed mathematical operations would yield different unpredictable results depending on where the computer started evaluating.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the difference between sequence and selection statements in computer programming.",
+      answer:
+          "Correct Answer: A sequence statement executes instructions one after another in a straight order, whereas a selection statement allows the program to branch and choose different paths based on a tested condition.",
+      explanation:
+          "Explanation: Sequence provides linear execution, while selection introduces decision-making logic using conditional tests.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: What is the primary functional difference between a variable and a constant in a software program?",
+      answer:
+          "Correct Answer: A variable holds data that can be modified while the program runs, whereas a constant holds a fixed value that cannot be changed after initial assignment.",
+      explanation:
+          "Explanation: Constants protect critical reference values from accidental alteration during execution.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: State two rules that must be followed when naming a variable in programming.",
+      answer:
+          "Correct Answer: A variable name must not start with a number, and it must not contain any spaces.",
+      explanation:
+          "Explanation: Adhering to these rules prevents syntax errors and ensures the interpreter can correctly parse the identifier.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain what pseudocode is and why programmers use it before writing actual code.",
+      answer:
+          "Correct Answer: Pseudocode is an informal, human-readable description of an algorithm written in plain English. Programmers use it to plan program logic and structure without getting bogged down by strict programming syntax rules.",
+      explanation:
+          "Explanation: It bridges the gap between human thinking and formal programming languages.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the specific functions of the rectangle and diamond shapes in a flowchart.",
+      answer:
+          "Correct Answer: The rectangle shape is used to represent processing steps or calculations, whereas the diamond shape represents a decision or condition check with branching pathways.",
+      explanation:
+          "Explanation: Different geometric shapes give visual meaning to different operational tasks within an algorithm flow.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Why are input and output operations represented using a parallelogram shape in flowcharts?",
+      answer:
+          "Correct Answer: The parallelogram provides a standardized visual distinction for data entering or leaving the system, such as reading user keyboard input or displaying results on a monitor.",
+      explanation:
+          "Explanation: Standardizing shapes ensures any programmer around the world can interpret the flowchart correctly.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss2Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the functional difference between a single-alternative IF statement and a dual-alternative IF-ELSE statement.",
+      answer:
+          "Correct Answer: A single-alternative IF statement executes code only when the tested condition is true, whereas a dual-alternative IF-ELSE statement provides two separate code paths for both true and false outcomes.",
+      explanation:
+          "Explanation: IF-ELSE ensures an alternative action is always taken when the primary condition fails.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe how relational operators are used within selection statements.",
+      answer:
+          "Correct Answer: Relational operators compare two values—such as testing if a number is greater than, less than, or equal to another—to determine whether a condition evaluates to true or false.",
+      explanation:
+          "Explanation: They form the logical foundation that conditional tests rely on to make decisions.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: How are decision conditions represented when mapping selection logic into a flowchart?",
+      answer:
+          "Correct Answer: Decision conditions are enclosed inside diamond-shaped flowchart symbols, which branch out into separate paths for True and False outcomes.",
+      explanation:
+          "Explanation: The diamond shape visually separates conditional branching from linear input, output, or processing steps.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss2Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L5/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain what iteration means in computer programming and why loops are useful.",
+      answer:
+          "Correct Answer: Iteration is the repetition of a process or statement in an algorithm. Loops are useful because they allow programmers to execute blocks of code multiple times without duplicating lines of code, saving time and memory.",
+      explanation:
+          "Explanation: Repetitive tasks are handled efficiently through automated looping structures rather than manual code duplication.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: What is the main difference between a FOR loop and a conditional loop like WHILE?",
+      answer:
+          "Correct Answer: A FOR loop is used when the exact number of repetitions is known in advance with a counter, whereas a WHILE loop runs based on a condition tested before execution.",
+      explanation:
+          "Explanation: Unconditional loops rely on fixed counts, while conditional loops rely on dynamic expression evaluations.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how a REPEAT UNTIL loop behaves differently from a WHILE loop regarding execution order.",
+      answer:
+          "Correct Answer: A REPEAT UNTIL loop executes its internal statements at least once before testing the condition at the end, whereas a WHILE loop tests the condition at the start before running any code.",
+      explanation:
+          "Explanation: This difference ensures REPEAT UNTIL code runs at least once regardless of initial conditions.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the primary function of the controller board in a robot and identify the key chip responsible for its processing ability.",
+      answer:
+          "Correct Answer: The controller board acts as the brain of the robot, receiving program instructions and coordinating inputs and outputs. The key component is the microcontroller chip, which contains the integrated circuits that provide the processing power and execute stored programs.",
+      explanation:
+          "Explanation: Students should emphasize that the controller manages operations and houses the microcontroller chip that processes data.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe how motors and gears work together to enable movement in a robotic vehicle.",
+      answer:
+          "Correct Answer: Motors provide the rotational power needed to turn wheels independently, allowing the robot to move forward, backward, and steer by varying wheel speeds. Gears are used alongside motors to change rotational speed, increase torque, or convert rotary motion into linear motion for specialized robotic arms and grippers.",
+      explanation:
+          "Explanation: The answer needs to link motor rotation to wheel navigation and explain the mechanical advantage of gears.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Explain how an ultrasonic sensor helps a robot avoid obstacles in its path.",
+      answer:
+          "Correct Answer: An ultrasonic sensor emits high-frequency sound waves forward from the robot. When these sound waves hit a nearby object or wall, they bounce back as echoes to the sensor, which calculates the travel time to determine the distance, enabling the robot to change direction and avoid collisions.",
+      explanation:
+          "Explanation: Look for mention of sound wave emission, echo reflection, distance calculation, and collision avoidance.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Question: Give two real-world examples of how sensors are used in daily life or industrial applications in Ghana.",
+      answer:
+          "Correct Answer: First, automated street lights use light sensors (photoresistors) to automatically turn on when dusk falls and turn off when the sun rises. Second, agricultural irrigation systems use soil moisture probes to detect when soil is dry and automatically trigger water pumps for crop fields.",
+      explanation:
+          "Explanation: Answers must identify real-world sensor applications matching curriculum examples such as street lighting or agricultural monitoring.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Describe how a soil moisture sensor interacts with a controller board to automate an irrigation system.",
+      answer:
+          "Correct Answer: A soil moisture sensor uses two metal prongs inserted into the soil. As the soil dries, the electrical current flowing between the prongs weakens. The sensor sends this data to the controller board, which detects the voltage change and activates a water pump to irrigate the crops.",
+      explanation:
+          "Explanation: Students must explain the electrical current change between prongs and how the controller acts upon that input signal.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain two ways sensors are utilized in modern industrial manufacturing and processing plants.",
+      answer:
+          "Correct Answer: First, photoelectric sensors are used on factory conveyor systems to count passing boxes and ensure even spacing. Second, fluid flow sensors are installed in water, gas, or oil pipelines to maintain optimal flow rates and detect potential leaks.",
+      explanation:
+          "Explanation: Look for concrete industrial examples matching the curriculum, such as conveyor counting or pipeline monitoring.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: How do light sensors (photoresistors) contribute to energy management in urban communities?",
+      answer:
+          "Correct Answer: Light sensors measure ambient light levels to determine whether it is day or night. They are integrated into automated street lighting systems so that lights turn on automatically at dusk and turn off when the sun rises, conserving electricity.",
+      explanation:
+          "Explanation: The response should highlight day/night detection and automated switching for energy conservation.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Question: What is the safety function of gas and smoke sensors in commercial or residential buildings?",
+      answer:
+          "Correct Answer: Gas and smoke sensors monitor air composition for combustible gases or smoke particles. When hazardous concentrations are detected, they alter sensor output voltage to trigger safety warnings, alarms, or automated ventilation fans.",
+      explanation:
+          "Explanation: Students should mention detection of hazardous gases/smoke and the triggering of safety alarms.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the difference between block-based programming environments and text-based languages when programming educational robots.",
+      answer:
+          "Correct Answer: Block-based environments like Scratch and mBlock use visual, snap-together command blocks that make it easy for beginners to learn logic without syntax errors. Text-based languages like Python and Arduino C require typing explicit syntax lines, offering advanced control for complex robot functions.",
+      explanation:
+          "Explanation: Students should highlight the visual nature of blocks versus text-based syntax and their respective use cases.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe how independent drive motors enable a two-wheeled robot to turn left or right.",
+      answer:
+          "Correct Answer: A two-wheeled robot uses two separate motors controlled independently by the program. To turn right, the left motor can speed up while the right motor slows down or reverses, creating differential steering that changes the robot's heading.",
+      explanation:
+          "Explanation: Look for explanation of separate motor control and differential speed adjustments.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: What role does the USB cable play in transferring a program to a robot controller?",
+      answer:
+          "Correct Answer: The USB cable serves as the physical communication link between the computer where the code is written and the robot controller board. It allows the compiled program instructions to be uploaded and stored onto the robot's microcontroller chip.",
+      explanation:
+          "Explanation: The response should cover the physical link between computer and controller and code transfer.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Question: Why is testing and debugging an essential step after uploading a new program to a robot?",
+      answer:
+          "Correct Answer: Testing allows the programmer to observe the robot's physical behavior in the real world to verify if it executes instructions correctly. Debugging helps identify logic errors, unexpected sensor readings, or movement miscalculations so the code can be corrected.",
+      explanation:
+          "Explanation: Students should mention observing real-world behavior and correcting logic errors.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss3Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss3_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the difference between using a pre-packaged educational robot kit versus building a robot from separate components.",
+      answer:
+          "Correct Answer: Pre-packaged kits like mBot or Lego EV3 provide all matching mechanical parts, sensors, and structural brackets in one box for easy assembly. Building from separate components requires independently sourcing an Arduino or Raspberry Pi board, motors, and sensors, offering greater customisation at the cost of additional wiring complexity.",
+      explanation:
+          "Explanation: Students should contrast all-inclusive kits with custom-sourced component builds.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the typical step-by-step physical workflow for assembling a mobile educational robot.",
+      answer:
+          "Correct Answer: Assembly begins by securing the structural chassis base, mounting the drive motors and caster wheels for mobility, attaching the controller board securely, and finally wiring the sensors and power supply pack.",
+      explanation:
+          "Explanation: Look for a logical sequence from chassis setup to motor mounting, controller placement, and wiring.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Why is proper cable management important during the physical assembly of a robot?",
+      answer:
+          "Correct Answer: Proper cable management prevents loose wires from tangling in moving gears or wheels, reduces the risk of accidental disconnections during operation, and ensures the robot moves smoothly without mechanical obstruction.",
+      explanation:
+          "Explanation: Students should mention preventing wheel jams and avoiding accidental wire disconnections.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Question: What are the benefits of collaborative group work when building and testing complex educational robots?",
+      answer:
+          "Correct Answer: Collaborative group work allows students to divide essential tasks such as mechanical assembly, electrical wiring, and software programming, fostering teamwork and accelerating problem-solving.",
+      explanation:
+          "Explanation: The answer must highlight task division and collaborative problem-solving during robot builds.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L1/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the main difference between how a human makes a decision versus how a machine makes a decision.",
+      answer:
+          "Correct Answer: Humans factor in emotions, personal values, and past experiences, whereas machines make decisions purely based on programmed rules, logic, and factual data without any emotional influence.",
+      explanation:
+          "Explanation: Human choice is often shaped by feelings and intuition, while machines are strictly mechanical and objective.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Give a brief description of what an Artificial Neural Network does.",
+      answer:
+          "Correct Answer: An Artificial Neural Network is a computer system modeled on the human brain that processes large amounts of data, recognizes patterns, and improves its accuracy over time through training.",
+      explanation:
+          "Explanation: ANNs use interconnected nodes to simulate biological neural processing.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how animal intelligence differs primarily from human intelligence.",
+      answer:
+          "Correct Answer: Animal intelligence is largely driven by instinct and survival behaviors, whereas human intelligence involves complex reasoning, abstract thought, and moral debate.",
+      explanation:
+          "Explanation: Animals rely mostly on innate reactions and basic environmental learning, unlike human higher-order cognitive processing.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain why current smartphone virtual assistants are classified as weak artificial intelligence rather than strong artificial intelligence.",
+      answer:
+          "Correct Answer: Smartphone assistants operate within strict, pre-programmed functional limits, execute specific commands using database lookups, and lack personal consciousness, general reasoning, or independent self-awareness.",
+      explanation:
+          "Explanation: They specialize in narrow tasks and cannot reason independently outside their design parameters.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe what distinguishes strong artificial intelligence from weak artificial intelligence.",
+      answer:
+          "Correct Answer: Strong artificial intelligence involves human-like cognitive abilities, independent consciousness, and the capacity to reason across any topic, whereas weak AI is restricted to specific programmed domains.",
+      explanation:
+          "Explanation: Strong AI can think and adapt broadly like a human, which is currently only theoretical.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: How does mixed reality differ from viewing a flat image on a computer screen?",
+      answer:
+          "Correct Answer: Mixed reality combines virtual elements with the physical environment, allowing users to interact with three-dimensional holographic objects as though they exist in real space.",
+      explanation:
+          "Explanation: MR overlays interactive 3D digital objects onto the real world rather than keeping graphics confined to a 2D display.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L3/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain how a hologram differs visually from a standard picture displayed on a flat computer monitor.",
+      answer:
+          "Correct Answer: A hologram projects a three-dimensional visual with physical depth, allowing viewers to see different angles and sides by moving around it, unlike a flat two-dimensional screen image.",
+      explanation:
+          "Explanation: Holograms capture spatial depth using light interference, whereas monitors display flat pixels.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe what mixed reality achieves by combining virtual and physical environments.",
+      answer:
+          "Correct Answer: Mixed reality places artificial objects into real-world spaces so they blend seamlessly, allowing users to interact with both physical surroundings and digital elements at the same time.",
+      explanation:
+          "Explanation: MR anchors virtual components securely to real-world coordinates for interactive viewing.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Give an example of how mixed reality devices can be used practically in daily life or education.",
+      answer:
+          "Correct Answer: Devices like Microsoft HoloLens can project interactive 3D models into a room, enabling students or professionals to inspect and manipulate virtual objects during training or collaborative work.",
+      explanation:
+          "Explanation: It provides hands-on visual simulations without requiring physical construction of every model.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss4Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain one major capability and one limitation of human intelligence.",
+      answer:
+          "Correct Answer: A key capability of human intelligence is emotional creativity and abstract reasoning, while a major limitation is that human decisions can be clouded by fatigue, stress, and emotion.",
+      explanation:
+          "Explanation: Humans adapt well using emotion and reason, but our performance is constrained by biological limits.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the primary driver behind animal intelligence and state one limitation it has.",
+      answer:
+          "Correct Answer: Animal intelligence is driven mostly by natural instinct and survival, and its limitation is the inability to perform complex abstract thought or advanced technological innovation.",
+      explanation:
+          "Explanation: Animals react instinctively to their surroundings rather than building formal abstract systems.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Give an advantage that machine intelligence has over human and animal intelligence when processing information.",
+      answer:
+          "Correct Answer: Machines can process massive volumes of factual data at extremely high speeds and perform repetitive operations consistently without experiencing fatigue or emotional distraction.",
+      explanation:
+          "Explanation: Computers utilize high-speed digital processors to manage large datasets without getting tired.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs2S4Ss4Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS2_s4_ss4_L5/5. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Summarize the main purpose of an Artificial Neural Network in computing.",
+      answer:
+          "Correct Answer: An Artificial Neural Network simulates the human brain to process large volumes of data, recognize complex patterns, and improve its accuracy over time through error correction.",
+      explanation:
+          "Explanation: ANNs enable automated learning from data inputs using node connections.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain the key difference between weak artificial intelligence and strong artificial intelligence.",
+      answer:
+          "Correct Answer: Weak AI is restricted to specific pre-programmed tasks without true consciousness, whereas strong AI is a theoretical system possessing full human-level cognitive abilities and self-awareness.",
+      explanation:
+          "Explanation: Narrow task execution separates current utility tools from hypothetical general intelligence.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how mixed reality technology enhances information visualization.",
+      answer:
+          "Correct Answer: Mixed reality combines virtual elements with physical surroundings, enabling users to view and interact with three-dimensional holograms in real space using gestures and spatial sliders.",
+      explanation:
+          "Explanation: MR anchors interactive 3D digital content directly to physical environments.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the fundamental difference between a classical bit and a quantum qubit.",
+      answer:
+          "Correct Answer: A classical bit can only represent one of two binary states at any time, either 0 or 1. A qubit can represent 0, 1, or both states simultaneously due to the quantum property of superposition.",
+      explanation:
+          "Explanation: Classical computing relies strictly on distinct electrical switches that are either off (0) or on (1). Qubits leverage quantum superposition, enabling them to evaluate multiple combinations at the same moment.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe what happens during parallel processing in modern computer systems.",
+      answer:
+          "Correct Answer: Parallel processing divides a single computing task into smaller sub-tasks that are executed simultaneously across multiple processor cores.",
+      explanation:
+          "Explanation: Instead of processing instructions in a single queue one after another, parallel computing shares the workload across numerous processing units running at the same time to speed up execution.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Why was the performance of Google's Sycamore processor considered a major milestone in computing history?",
+      answer:
+          "Correct Answer: Sycamore solved a complex mathematical problem in 200 seconds that would have taken a classical supercomputer roughly 10,000 years to compute.",
+      explanation:
+          "Explanation: This marked practical proof of quantum computational advantage, demonstrating that quantum hardware can finish specific tasks far faster than the largest conventional supercomputers.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Define the concept of perceptual computing in your own words.",
+      answer:
+          "Correct Answer: Perceptual computing is the ability of a computer to recognise, perceive, and respond to its surrounding environment using natural human actions like voice, touch, and gestures.",
+      explanation:
+          "Explanation: Instead of relying purely on a keyboard or mouse, perceptual computing equips systems with sensors and cameras to interpret human speech, body motions, and external settings.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Identify two practical benefits that perceptual computing provides in modern society.",
+      answer:
+          "Correct Answer: Real-time language translation for multilingual communication and environmental awareness for self-driving vehicles.",
+      explanation:
+          "Explanation: Perceptual computing allows devices to transcribe and translate languages instantaneously and enables autonomous cars to detect pedestrians, road hazards, and emergency vehicle sirens.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Explain one major limitation or drawback that perceptual computing systems currently face.",
+      answer:
+          "Correct Answer: Computers lack human common sense and find it difficult to accurately model the mental and emotional states of people.",
+      explanation:
+          "Explanation: While computers can process sound and images rapidly, they cannot easily grasp sarcasm, social nuances, or complex human thoughts the way a human being does.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_S1_SS1_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain how electronic paper creates visible text on a screen without using an active back-light.",
+      answer:
+          "Correct Answer: Electronic paper uses micro-capsules containing charged black and white pigments that move to the top or bottom surface when electrical charges are applied.",
+      explanation:
+          "Explanation: An e-paper screen manipulates microscopic black and white particles using electrical charges, reflecting ambient light from the surroundings just like ink on real paper.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Identify two practical benefits that wearable displays like Google Glass offer workers in technical industries.",
+      answer:
+          "Correct Answer: They provide hands-free visual access to manuals and allow workers to view technical schematics directly in their field of vision.",
+      explanation:
+          "Explanation: Wearable displays keep hands completely free for tools and physical tasks while overlaying instructions, diagrams, or video feeds right before the user's eyes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: State two advantages and one limitation of using a dedicated e-reader instead of a physical printed textbook.",
+      answer:
+          "Correct Answer: Advantages include storing thousands of books in a lightweight device and long battery life; a limitation is the inability to display rich colour graphics or play videos.",
+      explanation:
+          "Explanation: E-readers store large book collections in small storage units with weeks of battery runtime, but their monochrome e-paper displays cannot support full colour or video.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss1Lesson4PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L4/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the primary operational difference between contact smart cards and contactless smart cards.",
+      answer:
+          "Correct Answer: Contact smart cards must physically touch a card reader's metal pins to transmit data, whereas contactless smart cards transmit data wirelessly using radio-frequency electromagnetic fields.",
+      explanation:
+          "Explanation: Contact cards rely on a visible conductive contact pad, while contactless cards use embedded RFID microchips and antennas to send encrypted data over short distances without physical contact.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: How does holographic storage differ from traditional optical storage media like DVDs?",
+      answer:
+          "Correct Answer: Holographic storage records data in three dimensions throughout the entire volume of the material using laser beams, whereas DVDs record data only across a flat, two-dimensional surface.",
+      explanation:
+          "Explanation: By utilizing split laser beams to write data in 3D interference patterns, holographic systems achieve significantly greater data density and faster transfer rates than surface-only media.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how a RAID configuration protects critical business records from hardware failure.",
+      answer:
+          "Correct Answer: RAID links multiple physical hard drives together into a single array, mirroring or distributing data across drives so records remain intact if one disk fails.",
+      explanation:
+          "Explanation: Redundant Array of Independent Disks provides fault tolerance by duplicating or splitting data across multiple drives, preventing data loss when an individual drive breaks down.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss1Lesson5PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L5/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Describe the navigation path required in Windows Settings to access the Desktop Icon Settings dialogue box.",
+      answer:
+          "Correct Answer: Click the Start button, select Settings, choose Personalisation, click Themes, and then click Desktop icon settings under Related Settings.",
+      explanation:
+          "Explanation: Accessing desktop icon controls requires navigating through the Personalisation category in Settings, selecting Themes, and opening Desktop icon settings from the side menu.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain the practical purpose of the Pointer Options tab in Mouse Properties.",
+      answer:
+          "Correct Answer: The Pointer Options tab allows users to adjust pointer speed, enable pointer precision, display motion trails, and activate cursor location alerts.",
+      explanation:
+          "Explanation: While the Pointers tab alters cursor shape and graphics, the Pointer Options tab configures mechanical motion speeds and visual tracking aids.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Does changing a desktop icon alter or delete the underlying program or folder file? Explain why.",
+      answer:
+          "Correct Answer: No, changing an icon only modifies the graphical visual shortcut displayed on the screen without affecting the underlying files or software functionality.",
+      explanation:
+          "Explanation: Icons act purely as visual links; modifying their graphic appearance does not delete, edit, or disrupt the actual system programs or stored files.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss1Lesson6PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss1_L6/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Define a device driver and explain why it is essential for computer hardware operation.",
+      answer:
+          "Correct Answer: A device driver is a specialised software program that allows the operating system to communicate with and control a specific hardware device. It is essential because it translates high-level system commands into low-level instructions the hardware can execute.",
+      explanation:
+          "Explanation: Without the driver acting as a software translator, the operating system cannot send correct commands to peripheral hardware or receive data from it.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain how Plug-and-Play technology simplifies the process of connecting new peripherals to a computer.",
+      answer:
+          "Correct Answer: Plug-and-Play enables the operating system to automatically detect, identify, and configure new hardware devices as soon as they are plugged in, without requiring manual setup or system reboots.",
+      explanation:
+          "Explanation: The operating system reads the peripheral's device ID, matches it with an appropriate driver from its library, and configures resources automatically.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe the sequential steps required to update a hardware driver using Windows Device Manager.",
+      answer:
+          "Correct Answer: Open Device Manager, locate and expand the relevant hardware category, right-click the specific device, select Update driver, and choose whether to search automatically online or browse computer files for the driver software.",
+      explanation:
+          "Explanation: This built-in utility provides a structured workflow to check for updated driver packages either through internet repositories or from local storage folders.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: A rural health post struggles to keep track of its essential vaccine inventory, resulting in expired vials and stock shortages during vaccination drives. How can computing technology resolve this problem?",
+      answer:
+          "Correct Answer: The clinic can implement a mobile inventory management system that uses barcode scanning or SMS alerts to track stock levels and expiration dates automatically.",
+      explanation:
+          "Explanation: Vaccine shortages are primarily an information tracking failure. A digital database logs arrivals and batch expiries in real time, alerting health workers weeks before medications expire so supplies can be redistributed safely.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Students in an off-grid farming community have limited access to past examination questions and current syllabus textbooks because distribution by road is delayed. Why is an offline-first digital library more practical here than an online educational website?",
+      answer:
+          "Correct Answer: An offline-first digital library stores all textbooks and exam questions directly on tablet storage, eliminating the need for expensive, unreliable internet connections.",
+      explanation:
+          "Explanation: A live website requires continuous cellular data and electricity, both of which are scarce in remote areas. Preloading content directly onto low-power tablets allows learning to continue without interruption.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: A coastal fishing cooperative suffers losses because fishermen set out to sea during sudden thunderstorms, destroying boats and fishing gear. Can computing technology eliminate the sea storms, or how should it be applied?",
+      answer:
+          "Correct Answer: Technology cannot prevent sea storms, but it can provide early storm warnings via automated SMS alerts and digital weather radar forecasts sent to fishers' mobile phones.",
+      explanation:
+          "Explanation: Physical natural weather events cannot be stopped by software. However, meteorology software and automated text messages turn raw atmospheric sensor data into advance warnings, allowing fishers to keep their boats safely anchored.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Market traders in an open-air commercial centre frequently lose merchandise to sudden afternoon downpours because paper weather bulletins arrive days late. What practical digital solution should be proposed to protect their goods?",
+      answer:
+          "Correct Answer: Propose an automated SMS weather alert service linked to meteorological radar data that sends instant rainfall warnings thirty minutes before storms hit.",
+      explanation:
+          "Explanation: Because paper notices are too slow to protect open-air goods, an automated SMS system pushes real-time storm tracking directly to traders' mobile phones, giving them sufficient time to pack their wares safely.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: A remote junior high school lacks qualified science teachers and physical laboratory equipment. Why is proposing an offline simulation app loaded onto school tablets more viable than relying on online video streaming websites?",
+      answer:
+          "Correct Answer: The offline simulation app works entirely without internet access or data subscriptions, allowing continuous interactive science learning regardless of poor cellular network coverage.",
+      explanation:
+          "Explanation: Video streaming platforms consume high bandwidth and require continuous, fast internet connectivity, which is unavailable in many rural areas. Pre-installing virtual laboratory simulations on local tablets ensures that students conduct experiments digitally without disruption.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: A municipal assembly struggles to keep track of revenue collected by market fee collectors, resulting in lost funds and paper ticket falsification. What technological intervention should you present in your proposal?",
+      answer:
+          "Correct Answer: Propose handheld digital point-of-sale (POS) terminals that issue verifiable printed QR-code receipts and synchronize collected revenue with the assembly's central database.",
+      explanation:
+          "Explanation: Handheld POS devices log every financial transaction digitally, eliminating manual paper receipt forgery and ensuring all market toll collections are immediately visible to municipal auditors.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss2_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: You are designing a mobile phone interface for a community borehole monitoring tool that tells villagers if water is currently flowing. How should you design the main display screen to communicate this status instantly to all users?",
+      answer:
+          "Correct Answer: Design a high-contrast screen displaying a large, recognizable water tap icon that turns bright green when water is flowing and red when dry, accompanied by an audio status announcement in the local language.",
+      explanation:
+          "Explanation: Visual icons, color codes, and voice announcements ensure immediate understanding for all community members, including young children and adults who cannot read English text.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: A student team uses spreadsheet software to design a database tracking farm produce collections at a district warehouse. Which four essential column headers should they include in their table schema?",
+      answer:
+          "Correct Answer: Farmer Name (or ID), Produce Type, Weight in Kilograms, and Date of Delivery.",
+      explanation:
+          "Explanation: These four fields capture the essential identities, quantities, and dates necessary to account for collected produce accurately and prevent payment disputes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: When drawing a system flowchart for an automated SMS warning system, why must a decision diamond be placed after measuring river water levels?",
+      answer:
+          "Correct Answer: The decision diamond evaluates whether the measured water level exceeds the danger threshold, routing the system to send flood alert messages if true, or return to monitoring if false.",
+      explanation:
+          "Explanation: Decision diamonds represent conditional logic in flowcharts. They split the flow into two paths based on criteria, ensuring emergency messages are dispatched only when actual flooding conditions are detected.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Ama is an administrative assistant at a local clinic in Takoradi. Every day, she types medical reports while looking down at paper patient folders lying flat on her desk surface. By midday, she suffers from severe pain in her neck and shoulders. Explain how Ama can solve this issue using an ergonomic tool.",
+      answer:
+          "Correct Answer: Ama should install an adjustable ergonomic document holder (paper stand) placed upright directly next to her computer screen at eye level.",
+      explanation:
+          "Explanation: Laying documents flat forces the user to continuously twist and bend the neck downward. A document holder elevates the reading material to eye level in the same visual plane as the monitor, eliminating repetitive neck movement and chronic muscular strain.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Kweku experiences sharp wrist pain and numbness in his fingers after spending several hours entering inventory data using a standard flat keyboard and a traditional flat mouse. Explain two ergonomic equipment modifications Kweku should make to relieve his wrist strain.",
+      answer:
+          "Correct Answer: Kweku should replace his flat keyboard with an ergonomic split keyboard and switch to a contoured vertical ergonomic mouse.",
+      explanation:
+          "Explanation: An ergonomic split keyboard angles the keys outward so the hands and forearms stay aligned naturally, eliminating sideways wrist bending. A contoured vertical mouse keeps the hand in a neutral handshake posture, relieving median nerve compression in the wrist.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: An ICT laboratory in Sunyani has desks placed directly in front of large, unshaded glass windows. Students complain that during afternoon classes, they cannot read the monitor screens clearly and suffer from painful headaches. Explain two environmental lighting adjustments that should be made to resolve this problem.",
+      answer:
+          "Correct Answer: The desks should be repositioned perpendicular to the windows, and window blinds or curtains should be installed to control sunlight glare.",
+      explanation:
+          "Explanation: Placing monitors facing or backing windows causes severe contrast and specular reflections. Turning desks so light enters from the side and using blinds softens harsh incoming light, eliminating glare and preventing ocular muscle fatigue.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s1_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: An ICT teacher at a junior high school in Cape Coast notices that several desktop computers in the lab suddenly turn off without warning during mid-day lessons. Upon inspection, the teacher sees that the computer towers are shoved into closed wooden cupboards with zero rear ventilation. Explain why the computers are shutting down and state the correct action to resolve this issue.",
+      answer:
+          "Correct Answer: The computers are shutting down because internal thermal sensors trigger an automatic emergency power cut when extreme heat builds up inside the unventilated wooden cabinets. The machines must be moved out into open space with at least 10 to 15 centimetres of clearance around all vents to allow proper airflow.",
+      explanation:
+          "Explanation: Without ventilation clearance, hot exhaust air cannot escape and is repeatedly recirculated, causing internal CPU temperatures to exceed safety thresholds and forcing emergency shutdowns to prevent physical chip damage.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: A desktop computer that has been operating in a school office for two years has become unusually noisy, with its internal fans running at top speed even when only simple typing tasks are being performed. When the casing is checked, a thick layer of dust covers all ventilation grilles and the internal processor fan. Explain how this dust causes overheating and how it should be corrected.",
+      answer:
+          "Correct Answer: The thick dust acts as a thermal insulator and blocks airflow through cooling vents, preventing the heat sink from transferring heat away from the CPU. The workstation must be unplugged and cleaned using compressed air or an anti-static brush to restore clear airflow.",
+      explanation:
+          "Explanation: Dust traps heat directly against electronic circuits and slows fan rotation. Cleaning the vents removes the insulating barrier so cooling air can circulate properly.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: A shared school workspace has placed a 500-watt heavy-duty laser printer directly adjacent to a student desktop tower, with the printer's hot exhaust blowing directly toward the computer's side air intake. Explain the risk this setup creates and how the equipment should be rearranged.",
+      answer:
+          "Correct Answer: The high thermal exhaust from the 500-watt printer raises the temperature of the air entering the computer tower, dramatically increasing the computer's risk of overheating and component degradation. The laser printer should be relocated to a separate, dedicated table with independent ventilation.",
+      explanation:
+          "Explanation: High-wattage peripherals generate substantial heat that must not be discharged directly into the cooling intakes of adjacent electronic devices.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Describe the sequential steps required to insert an online clip art image into a specific location within a Microsoft Word document.",
+      answer:
+          "Correct Answer: First, place the cursor where the image should appear. Next, click the Insert tab on the Ribbon and locate the Illustrations group. Click on Pictures, select Online Pictures, type the search term for the clip art, select the desired image, and click the Insert button.",
+      explanation:
+          "Explanation: Placing the cursor first ensures proper placement, while accessing the Insert tab opens the tools needed to pull images from online collections.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain the operational difference between pressing the Print Screen key alone versus pressing Alt together with Print Screen.",
+      answer:
+          "Correct Answer: Pressing Print Screen captures the entire visible monitor display, including all windows and taskbars. Pressing Alt plus Print Screen captures only the currently active application window, ignoring the rest of the screen.",
+      explanation:
+          "Explanation: Using Alt limits the capture area to the single active program window, which eliminates unnecessary desktop clutter.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Detail what happens to the computer screen when a user clicks the Screen Clipping option, and explain how the desired area is selected.",
+      answer:
+          "Correct Answer: The document window minimizes, the entire screen turns opaque or frosted, and the cursor changes into a crosshair pointer. The user clicks and drags the crosshairs across the target area, and releasing the mouse button inserts the clipped section into the document.",
+      explanation:
+          "Explanation: The frosted appearance indicates clipping mode, allowing users to draw a precise boundary around content they want to capture.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the primary purpose of SmartArt graphics in a Microsoft Word document, and describe one classroom scenario where using a cycle diagram is appropriate.",
+      answer:
+          "Correct Answer: SmartArt is used to convert plain text into visual diagrams that clearly communicate concepts, hierarchies, and processes. A cycle diagram is suitable for demonstrating continuous, repeating sequences such as the water cycle or the agricultural crop rotation calendar in Ghana.",
+      explanation:
+          "Explanation: SmartArt improves document presentation by visually organizing information, and cycle diagrams specifically represent repeating phenomena without a fixed end point.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Outline the step-by-step procedure for inserting a new SmartArt graphic into an open document starting from the Ribbon.",
+      answer:
+          "Correct Answer: First, place the insertion point where the graphic should appear. Next, click on the Insert tab on the Ribbon and locate the Illustrations group. Click the SmartArt command, choose a category and layout from the dialogue box, and click OK.",
+      explanation:
+          "Explanation: Accessing the Illustrations group on the Insert tab provides entry to the full SmartArt catalog, allowing the user to preview and confirm their preferred layout.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe two ways a student can add text to the individual shapes of an inserted SmartArt graphic.",
+      answer:
+          "Correct Answer: A student can click directly inside any shape and type the text, or they can open the SmartArt Text Pane and type into the bulleted list area.",
+      explanation:
+          "Explanation: Both methods update the graphic instantly, but the Text Pane provides a convenient overview of the entire list structure.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss1_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the sequential procedure for embedding a pre-recorded audio file into a Microsoft Word document using the Ribbon.",
+      answer:
+          "Correct Answer: Position the cursor where the audio should sit, click the Insert tab, locate the Text group, and click the Object button. In the dialogue box, click the Create from File tab, click Browse to locate the audio track, select it, and click Insert.",
+      explanation:
+          "Explanation: Accessing the Object command within the Text group allows non-text media files like audio recordings to be embedded into the document structure.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe what happens when a student inserts a Chart into a Word document, and explain how the chart values are modified.",
+      answer:
+          "Correct Answer: Selecting a chart type opens a small integrated Microsoft Excel spreadsheet window containing sample data. The student types their own category names and numbers into the grid cells, which automatically updates the chart in Word, and then closes the spreadsheet.",
+      explanation:
+          "Explanation: Microsoft Word utilizes Excel as the underlying data engine to calculate and draw chart visuals dynamically.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Define the two main components of a hyperlink, and describe how a reader opens a hyperlink inside a Word document.",
+      answer:
+          "Correct Answer: The two components are the display text that the reader sees and the target address or URL. A reader opens the link by holding down the Ctrl key on the keyboard while clicking the link with the left mouse button.",
+      explanation:
+          "Explanation: The display text keeps the page neat while the underlying URL defines the destination, and pressing Ctrl plus click prevents accidental clicks while typing.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Kwame wants to insert a photograph stored on his pen drive into slide 3 of his presentation. Describe the ribbon steps he must follow to place the file onto the slide.",
+      answer:
+          "Correct Answer: Kwame must click on slide 3, select the Insert tab on the ribbon, click Pictures in the Images group, browse to the pen drive to select the image file, and click the Insert button.",
+      explanation:
+          "Explanation: Inserting an existing saved file requires accessing the Images group under the Insert tab and using the file dialogue box to locate external storage.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain why presentation software defaults to showing Creative Commons results when using the Online Pictures search tool.",
+      answer:
+          "Correct Answer: Creative Commons licenses indicate that creators have granted legal permission for their images to be used, protecting users from copyright violations.",
+      explanation:
+          "Explanation: Online image searching must respect copyright laws; Creative Commons filters ensure students and professionals do not use protected artistic content unlawfully.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Akosua wants to grab a small pricing table from a supplier's website and place it onto her slide without saving the web image first. How should she set up and execute a Screen Clipping?",
+      answer:
+          "Correct Answer: Akosua must open the supplier's website window directly behind the presentation, go to the Insert tab, select Screenshot, click Screen Clipping, and drag the crosshair over the pricing table.",
+      explanation:
+          "Explanation: Screen Clipping captures whatever program is immediately behind the active presentation window once the screen turns frosted white.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the fundamental difference between an object animation and a slide transition in presentation software.",
+      answer:
+          "Correct Answer: An animation applies visual motion or sound to individual objects on a single slide, whereas a transition is the visual motion effect that occurs between two entire slides.",
+      explanation:
+          "Explanation: Animations operate locally on objects like text or pictures within a slide canvas, while transitions manage how one slide replaces another across the entire screen.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Efua wants her summary bullet points to appear one at a time as she speaks during her presentation on renewable energy. Which category of animation must she apply to her text box, and why?",
+      answer:
+          "Correct Answer: Efua must apply an Entrance animation, because entrance animations keep objects hidden until triggered, allowing items to arrive sequentially during a presentation.",
+      explanation:
+          "Explanation: Entrance animations control the arrival of text or objects onto a slide, preventing the audience from reading ahead before the speaker addresses each point.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: During a presentation rehearsal, Kofi notices that a star shape spins wildly and distracts from his speech. Describe the steps he should take to remove that animation completely without deleting the star shape.",
+      answer:
+          "Correct Answer: Kofi must click the small sequence number box next to the star shape on the slide canvas and press the Delete key on his keyboard.",
+      explanation:
+          "Explanation: Selecting and deleting the small sequence number removes the associated animation instructions while leaving the physical shape intact on the slide.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss2_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Describe the ribbon steps required to insert a pre-recorded audio commentary saved on your computer onto an active presentation slide.",
+      answer:
+          "Correct Answer: Click the target slide, open the Insert tab on the ribbon, locate the Media group, click the Audio button, select Audio on My PC, locate the sound file, and click Insert.",
+      explanation:
+          "Explanation: Audio insertion commands reside under the Media group on the Insert tab, allowing users to link audio files saved on local storage drives.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain the practical advantage of presenting monthly sales figures using a column chart rather than an eight-row text table.",
+      answer:
+          "Correct Answer: A column chart provides an instant visual comparison of trends and differences, allowing the audience to grasp patterns much faster than reading individual numerical values in a text table.",
+      explanation:
+          "Explanation: While tables present exact values, visual charts represent data through heights and shapes, making analysis and pattern recognition immediate for viewers.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: A student inserts a three-by-three table on a slide but discovers they need an additional row at the bottom. How can they add this row using table tools?",
+      answer:
+          "Correct Answer: The student must click inside the bottom row of the table, open the Table Tools Layout tab on the ribbon, and click the Insert Below button in the Rows and Columns group.",
+      explanation:
+          "Explanation: The Table Tools Layout tab contains dedicated structural editing commands to append rows above or below active cells.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the difference between starting a document using a built-in template and starting with a blank publication.",
+      answer:
+          "Correct Answer: A built-in template provides pre-designed layouts, colour schemes, font combinations, and placeholder frames ready for editing. A blank publication provides an empty page canvas where the designer must configure margins, page dimensions, text frames, and graphics from scratch.",
+      explanation:
+          "Explanation: Templates accelerate design work for standard documents like flyers because the structure is pre-built. Blank publications give total layout freedom when non-standard dimensions or original arrangements are needed.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the purpose of the text overflow feature in desktop publishing and identify what happens to text that exceeds the frame boundary.",
+      answer:
+          "Correct Answer: Text overflow occurs when the typed content is too large to fit inside its assigned text frame. The software retains the excess text in memory without deleting it, allowing the designer to link the frame to another box on the same or subsequent page.",
+      explanation:
+          "Explanation: Desktop publishing keeps content intact during overflow, preventing layout distortion and ensuring missing words can be routed to new frames.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Outline the steps required to link an overflowing text box on page 1 to an empty text frame on page 2.",
+      answer:
+          "Correct Answer: Select the text frame on page 1 that contains the overflow. Click the Create Link option in the Linking group on the Ribbon. Move the pitcher cursor to page 2 and click inside the destination text frame to pour the overflow text into it.",
+      explanation:
+          "Explanation: The Create Link tool connects independent text frames so that long articles flow sequentially across pages.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain how underlying grid lines help a designer describe and organise the layout of a publication.",
+      answer:
+          "Correct Answer: Underlying grid lines divide the publication space into structured rows and columns that do not appear in print. They allow the designer to align text frames and images consistently, preventing crooked arrangements and ensuring a balanced visual hierarchy across the page.",
+      explanation:
+          "Explanation: Grids establish uniform spacing and visual structure, making it straightforward to describe where items sit and how columns interact.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Why is maintaining white space critical when describing a well-balanced document?",
+      answer:
+          "Correct Answer: White space provides open, unmarked margins and gaps around text and images, preventing visual overcrowding. It gives the reader's eyes a resting area and guides attention toward key headlines and graphics.",
+      explanation:
+          "Explanation: Overfilled documents overwhelm readers, whereas intentional white space ensures clarity and legibility.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe the consequence of poor mechanics and inaccurate information in a published corporate brochure.",
+      answer:
+          "Correct Answer: Poor mechanics, such as spelling and grammar blunders, make the organisation look unprofessional and careless. Inaccurate facts or dates can mislead customers, damage business reputation, and potentially create legal disputes.",
+      explanation:
+          "Explanation: Factual truth and grammatical precision are essential to preserve the credibility and authority of any published work.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss3_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain why visual hierarchy is vital when evaluating the layout of an event announcement flyer.",
+      answer:
+          "Correct Answer: Visual hierarchy ensures that key details such as the event name, date, and venue capture attention in order of importance. Without hierarchy, all text elements compete equally, confusing readers and causing them to miss vital information.",
+      explanation:
+          "Explanation: By manipulating font scale, weight, and positioning, a designer guides the reader's eye naturally from main headlines to practical event details.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe how you would evaluate the contrast of a flyer that features yellow body text printed over a light grey background.",
+      answer:
+          "Correct Answer: The flyer has poor contrast because both yellow and light grey are pale, low-value colours. This lack of tonal difference severely diminishes legibility, making the text strenuous to read and warranting a low evaluation score.",
+      explanation:
+          "Explanation: Legibility requires strong contrast, such as pairing dark lettering with light backdrops or white text with deep, saturated surfaces.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Why must design appropriateness for the target audience be considered during evaluation, even if the layout is technically perfect?",
+      answer:
+          "Correct Answer: A publication must match the emotional tone, cultural expectations, and functional needs of its audience. A technically flawless layout that uses inappropriate themes, colours, or imagery will alienate viewers and fail its communication goal.",
+      explanation:
+          "Explanation: Technical accuracy cannot compensate for mismatched tone or context, making purpose alignment fundamental to document critique.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss4_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the architectural difference between a field and a record in a student spreadsheet database.",
+      answer:
+          "Correct Answer: A field is a vertical column that contains a specific category of information for all items, whereas a record is a horizontal row that holds all the related categories of information for a single item or person.",
+      explanation:
+          "Explanation: Fields organise data vertically by category (such as Surname or Class), while records group all details horizontally across categories for one individual student.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: A school clerk notices that staff members frequently enter different abbreviations for regions, such as \"AR\", \"Ashanti\", and \"A/R\". How can the clerk use data validation to ensure consistency?",
+      answer:
+          "Correct Answer: The clerk should configure a Data Validation rule set to \"List\" and specify the exact approved regional names as the source options.",
+      explanation:
+          "Explanation: Restricting entry to a defined validation list forces users to select from a drop-down menu, eliminating inconsistent spellings and custom abbreviations.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how a teacher can display only the top five academic scores in a spreadsheet without permanently removing the other students' records.",
+      answer:
+          "Correct Answer: The teacher should sort the Total Score field in descending order and then apply a filter to display only the top five records.",
+      explanation:
+          "Explanation: Sorting descending puts the highest scores at the top, and filtering hides the remaining rows without deleting them from the worksheet.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss4_L2/6. INDEPENDENT.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the fundamental operational difference between a spreadsheet template and a spreadsheet macro.",
+      answer:
+          "Correct Answer: A template is a pre-formatted workbook structure containing layout and formulas, whereas a macro is a recorded series of automated commands and actions that execute repetitive tasks.",
+      explanation:
+          "Explanation: Templates provide the static blueprint and layout for new files, while macros provide dynamic automation by replaying recorded steps.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: A school storekeeper wants any inventory item with a quantity below 5 units to automatically turn bright red. Which spreadsheet tool should the storekeeper use, and how should it be configured?",
+      answer:
+          "Correct Answer: The storekeeper should use Conditional Formatting by selecting the Highlight Cells Rules option and setting the condition to \"Less Than 5\" with a red fill.",
+      explanation:
+          "Explanation: Conditional formatting dynamically changes cell appearance based on numeric threshold rules without requiring manual cell formatting.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how a user can make a recorded macro easy for non-technical office staff to run on an active worksheet.",
+      answer:
+          "Correct Answer: The user should insert a drawn shape, add descriptive text to it, right-click the shape, and use the Assign Macro command to link the recorded macro to that button.",
+      explanation:
+          "Explanation: Assigning a macro to an on-screen shape creates an intuitive, one-click button that triggers the automated actions without needing menu navigation or keyboard shortcuts.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S2Ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s2_ss4_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain why a school administrator would generate a Pivot Table instead of manually adding student fees by grade level.",
+      answer:
+          "Correct Answer: A Pivot Table automatically groups, categorises, and sums large datasets in seconds without manual formulas or altering the underlying data.",
+      explanation:
+          "Explanation: Pivot Tables eliminate the risk of human calculation errors and save time by instantly cross-tabulating information across categories.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Identify the four primary drop zones found in the PivotTable Fields pane and explain the role of the Values area.",
+      answer:
+          "Correct Answer: The four zones are Filters, Columns, Rows, and Values; the Values area calculates numerical data using functions such as Sum, Count, or Average.",
+      explanation:
+          "Explanation: The Values area performs the mathematical aggregation on selected data fields, while Rows and Columns organise the category headings.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how adding an interactive Slicer enhances the usability of a Pivot Chart during a presentation.",
+      answer:
+          "Correct Answer: A Slicer provides visual buttons that allow the presenter to filter the chart and table dynamically with a single tap rather than opening drop-down menus.",
+      explanation:
+          "Explanation: Slicers display all available category values clearly and allow instant, interactive filtering of both tables and connected charts simultaneously.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain how an online marketplace enables a small Ghanaian enterprise to expand its customer reach beyond its home town.",
+      answer:
+          "Correct Answer: An online marketplace displays product listings on the web, enabling shoppers from any region to view, order, and pay for goods using digital networks.",
+      explanation:
+          "Explanation: By using an internet platform, a business does not depend solely on local foot traffic, allowing customers across the country to discover and buy items remotely.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: State two major security advantages of using a cashless mobile payment instead of physical paper money for large market purchases.",
+      answer:
+          "Correct Answer: It prevents loss from street robbery and requires a private PIN or multi-factor verification before any transaction can succeed.",
+      explanation:
+          "Explanation: Digital balances cannot be stolen by pickpockets, and unauthorized individuals cannot complete transfers without knowing the user's secret authorization credentials.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how a customer uses a Quick Response (QR) code system to pay a merchant at a retail shop counter.",
+      answer:
+          "Correct Answer: The customer scans the displayed merchant code with a mobile camera app, verifies the vendor details, enters the required bill amount, and approves payment.",
+      explanation:
+          "Explanation: The two-dimensional QR code transmits the vendor payment address directly into the mobile banking software, completing checkout without card swiping or physical contact.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain two advantages that an interactive electronic book provides to a student over a conventional printed textbook.",
+      answer:
+          "Correct Answer: E-books allow rapid keyword searching, contain multimedia such as embedded videos, and lighten the weight of carrying physical books.",
+      explanation:
+          "Explanation: Digital books integrate dynamic learning media and text search functions that static paper pages cannot offer, while saving physical storage space.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe how a Virtual Learning Environment assists a teacher in managing school coursework and student homework.",
+      answer:
+          "Correct Answer: It acts as a central hub where teachers upload study notes, collect student submissions electronically, and record grades with written feedback.",
+      explanation:
+          "Explanation: A virtual classroom streamlines course administration by keeping lesson materials and marked assessments organized in one secure online portal.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Why is setting specific user permissions important when sharing a group assignment document on a cloud storage platform?",
+      answer:
+          "Correct Answer: Permissions control who can view, comment on, or edit the file, which prevents accidental deletion or unauthorized changes to the content.",
+      explanation:
+          "Explanation: Restricting editing rights ensures that only approved team members modify text, preserving the integrity of the group project.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: A student in your class receives a direct message on an online app from an unknown user asking for their residential address and home phone number. Explain the correct step-by-step action the student should take to protect themselves.",
+      answer:
+          "Correct Answer: The student should refuse to provide any personal details, take a screenshot of the message as evidence, block the sender immediately, and report the account to a parent, teacher, or trusted adult.",
+      explanation:
+          "Explanation: Sharing contact details with unknown individuals online exposes a student to identity theft, fraud, and physical safety hazards. Preserving evidence and notifying an adult ensures appropriate disciplinary or safety actions are taken.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Your headteacher sends an email notice to all thirty JHS 3 class prefects announcing the date of an upcoming meeting. One prefect wants to inform the headteacher that he will arrive ten minutes late due to an errand for his housemaster. Should this prefect click \"Reply\" or \"Reply All\"? Justify your choice.",
+      answer:
+          "Correct Answer: The prefect must select \"Reply\".",
+      explanation:
+          "Explanation: Clicking \"Reply\" sends the personal update solely to the headteacher. Selecting \"Reply All\" would send an irrelevant personal notification to all thirty prefects, unnecessarily filling their email inboxes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Explain two distinct ways a local enterprise, such as a dressmaker or poultry farmer, can use social media platforms to expand their business activities.",
+      answer:
+          "Correct Answer: A business can post pictures or videos to advertise products to a large audience at low cost, and use direct messaging to answer customer inquiries and receive immediate feedback.",
+      explanation:
+          "Explanation: Social media provides affordable promotional channels and instant feedback systems, eliminating the need for expensive print adverts or costly commercial space.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain two significant differences between conventional face-to-face bullying and cyberbullying.",
+      answer:
+          "Correct Answer: Cyberbullying can occur continuously at any time of day or night directly through digital devices, whereas face-to-face bullying is typically confined to physical locations such as school compounds. Additionally, cyberbullying allows perpetrators to hide behind anonymous or fake profiles and reach large audiences instantly, whereas face-to-face bullying involves direct physical identification.",
+      explanation:
+          "Explanation: In-person bullying requires physical presence and often ceases once the victim leaves that specific setting. Cyberbullying crosses physical boundaries, entering private homes through connected devices, and leverages online anonymity to intensify harmful behaviour.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Distinguish clearly between an active digital footprint and a digital shadow, providing one clear example of each.",
+      answer:
+          "Correct Answer: An active digital footprint consists of data intentionally shared by the user, such as posting a photograph or writing an online comment. A digital shadow consists of data collected automatically about the user without their active input, such as web server logs recording an IP address or browsing search histories.",
+      explanation:
+          "Explanation: The primary distinction lies in user intent. An active footprint requires deliberate user interaction and content creation, while a digital shadow is generated passively by network infrastructure, service providers, and analytics tools whenever a user browses online.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: State three practical steps a student should immediately execute if they discover they are being targeted by a cyberstalker.",
+      answer:
+          "Correct Answer: The student should keep evidence by saving screenshots of all messages, block the stalker across all accounts, and report the matter to parents, school authorities, and the police.",
+      explanation:
+          "Explanation: Responding or retaliating against a stalker often escalates unwanted contact. Preserving verifiable records provides necessary documentation for parents, school heads, or police investigators to identify the offender and enforce legal protections.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss3_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the functional difference between an ordinary email phishing attack and a mobile smishing attack.",
+      answer:
+          "Correct Answer: Phishing uses deceptive electronic mail messages directed to an inbox to trick users into visiting counterfeit websites or revealing sensitive credentials. Smishing executes the same deceptive social engineering attack using Short Message Service text messages delivered directly to a mobile telephone.",
+      explanation:
+          "Explanation: While both attacks rely on social engineering to steal confidential data, the primary difference lies in the transmission medium: phishing relies on email protocols and desktop or web mail clients, whereas smishing exploits cellular telecommunication networks and mobile SMS apps.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe how a Distributed Denial of Service attack differs from unauthorized eavesdropping on a network.",
+      answer:
+          "Correct Answer: A Distributed Denial of Service attack overloads a system by flooding it with massive artificial traffic from multiple botnet computers to take it offline, whereas eavesdropping covertly intercepts and listens to data packets passing across a network without taking the system down.",
+      explanation:
+          "Explanation: A DDoS attack is an attack on system availability that aims to crash services, while eavesdropping is a breach of confidentiality that silently captures unencrypted data while allowing normal operations to continue unnoticed.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Explain why using a short, common dictionary word makes a user's account highly vulnerable to a brute force attack.",
+      answer:
+          "Correct Answer: Brute force tools use automated dictionary algorithms to test millions of common words and short character combinations in seconds, allowing them to quickly match simple passwords.",
+      explanation:
+          "Explanation: Brute force attacks rely on rapid automated computation. Short dictionary words require very few permutations to uncover, whereas complex passphrases containing varied characters exponentially expand the search possibilities, making automated cracking take years.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss4_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the primary structural difference between how articles are arranged on a blog compared to a standard static web page.",
+      answer:
+          "Correct Answer: Blog articles are arranged dynamically in reverse chronological order with the newest post at the top, whereas static web pages display fixed content that remains unchanged until manually redesigned.",
+      explanation:
+          "Explanation: A blog updates its homepage flow automatically whenever a new post is published, pushing older posts downward, while a static web page keeps fixed headings and text in place.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: State two distinct reasons why maintaining an educational blog helps a student prepare for future career opportunities.",
+      answer:
+          "Correct Answer: It builds a publicly verifiable digital portfolio of work and consistently develops professional writing, research, and communication skills.",
+      explanation:
+          "Explanation: Employers and admissions tutors look for proven demonstrations of ability. An active blog shows continuous learning, dedication, and clear written communication.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: How does an active comments section transform a blog from a passive reading platform into an interactive learning environment?",
+      answer:
+          "Correct Answer: It allows readers to post immediate feedback, ask clarifying questions, and discuss viewpoints directly with the author.",
+      explanation:
+          "Explanation: The comments feature establishes a two-way dialogue, enabling writers to defend their arguments, correct errors, and learn new perspectives directly from their audience.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss4_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Identify the four primary structural areas of a standard blog layout and state the main purpose of any one of them.",
+      answer:
+          "Correct Answer: The four areas are the header, main content area, sidebar, and footer. The header displays the blog title, school crest, and navigation menu to guide visitors around the site.",
+      explanation:
+          "Explanation: Every standard blog layout relies on these four functional regions to separate primary reading material from navigation menus, shortcuts, and administrative contact details.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Why is it advantageous for a school club to use a pre-built blogging platform and visual blocks rather than writing manual code from scratch?",
+      answer:
+          "Correct Answer: Pre-built platforms provide ready-made templates and modular visual blocks that allow students to create professional, functional layouts quickly without requiring advanced programming knowledge.",
+      explanation:
+          "Explanation: Content management platforms handle underlying coding and database management, freeing students to focus on content creation, design aesthetics, and user experience.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Explain why a school blog should include an explicit 'About Us' page in addition to its regular news feed.",
+      answer:
+          "Correct Answer: An 'About Us' page provides permanent background information about the school's identity, leadership, mission, and values for first-time visitors who need context.",
+      explanation:
+          "Explanation: While the news feed updates constantly with daily activities, the 'About Us' page acts as an enduring reference point that defines the organization's overarching purpose.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S3Ss4Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s3_ss4_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Why should a blog author always make use of the preview feature before officially clicking the launch button?",
+      answer:
+          "Correct Answer: The preview feature allows the author to verify layout balance, inspect image placements, and catch design or formatting errors on different device screens before the post becomes visible to the public.",
+      explanation:
+          "Explanation: Preview mode simulates the live reading environment, giving authors a safe opportunity to spot alignment problems or broken links while the article remains an editable draft.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe a specific school situation where selecting password protection for a published blog post is more appropriate than choosing public visibility.",
+      answer:
+          "Correct Answer: When sharing terminal class examination revision sheets or internal club financial accounts intended solely for registered students, a password ensures that only authorized individuals can read the material.",
+      explanation:
+          "Explanation: Password protection acts as a lightweight access barrier, keeping sensitive academic or internal administrative material restricted to trusted community members without locking them out entirely.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Explain the purpose of comment moderation on a student-led educational blog.",
+      answer:
+          "Correct Answer: Comment moderation ensures that all user responses are reviewed and approved by administrators before appearing publicly, thereby filtering out spam, inappropriate remarks, and cyberbullying.",
+      explanation:
+          "Explanation: Enabling moderation maintains a safe, respectful, and constructive learning environment by preventing undesirable content from appearing on the public platform.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S4Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain why the hexadecimal number system is frequently used by programmers and software developers rather than raw binary code.",
+      answer:
+          "Correct Answer: Programmers use hexadecimal because it represents long binary values in a much shorter, human-readable format. A single hexadecimal digit replaces four binary bits, reducing writing errors while maintaining direct mapping to machine code.",
+      explanation:
+          "Explanation: Binary strings like 111100001010₂ are long and prone to transcription errors. Hexadecimal condenses this same value into just three digits, F0A₁₆, making debugging and reading memory addresses easier.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Convert the decimal number 19 into an equivalent 8-bit binary number using the repeated division-by-2 method.",
+      answer: "Correct Answer: 00010011₂",
+      explanation:
+          "Explanation: Dividing 19 by 2 gives: 19 ÷ 2 = 9 R 1; 9 ÷ 2 = 4 R 1; 4 ÷ 2 = 2 R 0; 2 ÷ 2 = 1 R 0; 1 ÷ 2 = 0 R 1. Reading remainders upward yields 10011₂. Padded to 8 bits, the result is 00010011₂.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: State the value of the hexadecimal number 3C₁₆ when converted into a standard base 10 decimal number.",
+      answer: "Correct Answer: 60",
+      explanation:
+          "Explanation: In hexadecimal, the letter C represents the value 12. Expanding by place values: (3 × 16¹) + (12 × 16⁰) = (3 × 16) + (12 × 1) = 48 + 12 = 60.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Question: Calculate the sum of the two binary numbers 0101₂ and 0011₂ using binary addition rules, and verify the result in decimal.",
+      answer: "Correct Answer: 1000₂ (which equals 8 in decimal)",
+      explanation:
+          "Explanation: Adding from right to left: 1 + 1 = 0 (carry 1); 0 + 1 + 1 (carry) = 0 (carry 1); 1 + 0 + 1 (carry) = 0 (carry 1); bringing down the carry gives 1000₂. In decimal, 5 + 3 = 8, confirming the calculation.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S4Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss1_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the fundamental difference between text-based programming environments and graphical block-based programming environments.",
+      answer:
+          "Correct Answer: Text-based programming requires developers to type out lines of text code using exact grammatical keywords and punctuation rules. Graphical block-based programming uses visual, color-coded blocks that snap together, eliminating syntax and typing errors.",
+      explanation:
+          "Explanation: In text-based languages like Python or JavaScript, a single missing semicolon or typo will stop the program from running. Block-based tools like Scratch and Snap use interlocking blocks that only connect in valid arrangements, allowing beginners to focus on core algorithmic logic rather than typing syntax.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the role of the green flag and the red stop sign icons located above the stage in the Scratch IDE.",
+      answer:
+          "Correct Answer: The green flag acts as the execution trigger that starts running scripts linked to the \"when green flag clicked\" hat block. The red stop sign immediately halts and terminates all running scripts and animations across all sprites on the stage.",
+      explanation:
+          "Explanation: These two controls provide primary user execution control, allowing the programmer to test animations and instantly stop runaway loops or unwanted movements.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Identify which block category in Scratch contains comparison operators such as greater than, less than, and equal to, and explain their practical purpose.",
+      answer: "Correct Answer: The Operator blocks category (colored green).",
+      explanation:
+          "Explanation: Green operator blocks permit programs to compare numerical values or variables. These hexagonal comparison blocks fit inside conditional control structures (like \"if-then\" blocks) to help the program make logical decisions, such as checking if a test mark is greater than 50.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Question: Explain what a variable is in programming, and give a practical example of how a variable is used in a school management script.",
+      answer:
+          "Correct Answer: A variable is a named storage container in computer memory used to store data values that can change during program execution.",
+      explanation:
+          "Explanation: In a school management system, a variable named \"TotalAttendance\" can start at 0 each morning. Every time a student checks into the classroom, the script increments \"TotalAttendance\" by 1, preserving an accurate real-time count.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S4Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss1_L3/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain two major advantages of using a visual web development platform like WordPress or Google Sites over writing code manually using raw HTML and CSS.",
+      answer:
+          "Correct Answer: Visual platforms eliminate the need to memorize complex coding syntax and dramatically speed up the development process using pre-designed templates and drag-and-drop blocks.",
+      explanation:
+          "Explanation: Writing raw code requires extensive knowledge of HTML tags, style rules, and debugging procedures. Visual web builders handle code translation behind the scenes, allowing creators to focus on page layout, written content, and visual design.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the purpose of a website's header and navigation menu, and explain why they are important for visitors.",
+      answer:
+          "Correct Answer: The header establishes the site identity using a title or logo, while the navigation menu provides clickable links that allow users to move easily between different sections or pages of the website.",
+      explanation:
+          "Explanation: Without a visible header and intuitive navigation links, visitors cannot quickly determine who owns the website or find key information, leading them to leave the site.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Distinguish between a static website and a dynamic website, giving an example of each in a school setting.",
+      answer:
+          "Correct Answer: A static website displays fixed information that changes only when edited by the creator, whereas a dynamic website features interactive content that updates automatically based on user actions or database inputs.",
+      explanation:
+          "Explanation: A static school page might be an informational profile displaying the school history and motto. A dynamic page could be an online exam portal where students log in to view real-time test scores and personalised feedback.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Question: Why is it essential for a web designer to use the \"Preview\" feature before clicking the \"Publish\" button?",
+      answer:
+          "Correct Answer: The preview feature allows the designer to test how the website displays across different screen sizes (desktop, tablet, mobile) and spot layout bugs or text errors before the public views the live site.",
+      explanation:
+          "Explanation: A layout that looks balanced on a wide computer monitor may appear broken or cut off on a smartphone screen. Testing in preview mode ensures a professional user experience across all devices.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S4Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss2_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain why placing the step \"Rinse hands with water\" before the step \"Apply soap\" is considered an error in hand-washing algorithm logic, and state how to correct it.",
+      answer:
+          "Correct Answer: Rinsing hands before applying soap does not clean them; the correct sequence requires wetting hands, applying soap to lather, and then rinsing off the dirt and lather with clean water at the end.",
+      explanation:
+          "Explanation: Sequence requires that operations occur in a strict, productive order. While hands should be wetted before soap application, the final rinsing step must come after soaping and rubbing so that dirt and pathogens are flushed away.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: A tea vendor at Makola Market wants an automated dispensing machine to add evaporated milk only when a customer requests it. Which algorithmic construct must the programmer use, and how does it operate?",
+      answer:
+          "Correct Answer: The programmer must use a selection construct (an IF-THEN or IF-THEN-ELSE statement) to check if milk is requested before dispensing it.",
+      explanation:
+          "Explanation: Selection evaluates a specific logical condition (such as whether milk equals \"Yes\"). If true, the dispensing mechanism activates; if false, that step is skipped and the drink is served black.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: A student writes a loop to stir a hot chocolate drink until all sugar is dissolved, but forgets to include a step that inspects the sugar crystals. What type of programming error occurs, and what is its consequence?",
+      answer:
+          "Correct Answer: This creates an infinite loop because the termination condition can never become true, causing the programme to stir endlessly.",
+      explanation:
+          "Explanation: Condition-controlled loops require an internal update or check that allows the exit condition to eventually evaluate to true. Without this check, the algorithm cannot break out of the iteration cycle.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S4Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss2_L2/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Translate the following pseudocode lines into an exact description of flowchart symbols and connections:\n\nINPUT examScore\nIF examScore >= 25 THEN\n    OUTPUT \"Qualified for Next Stage\"\nEND IF",
+      answer:
+          "Correct Answer: Draw a parallelogram containing \"INPUT examScore\", lead an arrow into a diamond containing \"examScore >= 25?\", route the \"True\" branch to a parallelogram containing \"OUTPUT 'Qualified for Next Stage'\", and route the \"False\" branch directly around the output to merge back into the main flowline below it.",
+      explanation:
+          "Explanation: Input and output statements must always be housed in parallelograms, while the conditional check belongs in a diamond. Because there is no ELSE statement, the \"False\" path simply bypasses the output operation and continues downstream.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Examine a flowchart where a rectangle containing Counter = 1 leads to a process rectangle containing Display Counter, followed by another rectangle Counter = Counter + 1. An arrow leads to a diamond Counter > 10?. The \"False\" arrow loops back to Display Counter, and the \"True\" arrow leads to Stop. Translate this into structured pseudocode.",
+      answer:
+          "Correct Answer: \nSTART\n    SET Counter = 1\n    REPEAT\n        OUTPUT Counter\n        SET Counter = Counter + 1\n    UNTIL Counter > 10\nSTOP",
+      explanation:
+          "Explanation: Because the execution occurs before the conditional diamond test is evaluated at the bottom, this structure represents a post-test REPEAT-UNTIL loop rather than a pre-test WHILE loop.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: A student translates a flowchart containing an IF-THEN-ELSE diamond into pseudocode but omits the closing END IF statement. Explain why this translation is defective and how it impacts algorithmic clarity.",
+      answer:
+          "Correct Answer: Omitting END IF creates ambiguity because it is impossible to determine where the conditional branching ends and where normal sequential instructions resume.",
+      explanation:
+          "Explanation: In pseudocode, END IF serves the same function as converging flowlines in a flowchart, clearly establishing the boundary of the decision construct.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S4Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss3_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain how the First Law of Robotics applies if an automated harvesting cart on a farm in Sunyani spots a worker resting in the field.",
+      answer:
+          "Correct Answer: The automated cart must immediately stop its movement and pause cutting blades to ensure the farm worker is not injured.",
+      explanation:
+          "Explanation: Under Asimov's First Law, protecting human safety overrides all operational tasks, so harvesting must yield instantly to human presence.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Why is an ultrasonic sensor mounted to the front of a mobile robot chassis instead of the underside?",
+      answer:
+          "Correct Answer: The front placement enables the sensor to detect upright walls and obstacles ahead rather than scanning the ground surface.",
+      explanation:
+          "Explanation: Ultrasonic sensors project sound waves forward through the air to measure obstacle distance, whereas ground scanning is handled by infrared line sensors.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: What main benefit does a simulator like Webots provide to an ICT class with limited physical robot kits?",
+      answer:
+          "Correct Answer: It lets students design, program, and test virtual robots inside a 3D digital physics environment on screen.",
+      explanation:
+          "Explanation: Simulators replicate physical components and environments digitally, allowing full coding and testing without requiring physical electronics.",
+    ),
+  ],
+);
+
+final PracticeModel computingJhs3S4Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/computing/JHS3_s4_ss4_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the primary difference between a knowledge base and an inference engine in an expert system.",
+      answer:
+          "Correct Answer: A knowledge base stores the facts, specialized data, and IF-THEN rules gathered from human experts, whereas the inference engine is the processing software that applies those rules to user input to deduce answers and make decisions.",
+      explanation:
+          "Explanation: The knowledge base serves as the system's memory bank of expert facts, while the inference engine acts as the active logical thinker that evaluates the data.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Construct a simple IF-THEN rule that a Ghanaian school clinic expert system could use to identify a potential fever in a student.",
+      answer:
+          "Correct Answer: IF student_temperature > 37.8 AND headache == True THEN flag_potential_fever = True ELSE monitor_student = True.",
+      explanation:
+          "Explanation: An expert system rule requires a clear conditional test (checking body temperature and symptoms) linked directly to a defined outcome or clinical recommendation.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how modern machine learning differs from classical rule-based expert systems when processing information.",
+      answer:
+          "Correct Answer: Classical expert systems make decisions using fixed, human-programmed IF-THEN rules, while modern machine learning systems automatically identify patterns and learn decision rules directly from collected training data.",
+      explanation:
+          "Explanation: Rule-based systems cannot handle scenarios outside their coded rules, whereas machine learning models continuously refine their output accuracy as they analyze more sample data.",
+    ),
+  ],
+);
+
 final PracticeModel ss1Lesson2PracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l2/6. Guided Practice.m4a',
   questions: [
@@ -4411,21 +6053,24 @@ final PracticeModel s5ss1Lesson2PracticeData = PracticeModel(
       'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (4. GUIDED PRACTICE).m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. The marketplace was a beehive of activity. \n"
+      scenario:
+          "1. The marketplace was a beehive of activity. \n"
           "Question: Is this a simile or a metaphor?",
       answer: "Correct Answer: Metaphor.",
       explanation:
           "Explanation: It compares the market to a beehive directly without using \"like\" or \"as.\"",
     ),
     PracticeQuestion(
-      scenario: "2. Busy Bukari bought big baskets. \n"
+      scenario:
+          "2. Busy Bukari bought big baskets. \n"
           "Question: Which sound device is being used here?",
       answer: "Correct Answer: Alliteration.",
       explanation:
           "Explanation: The \"B\" sound is repeated at the beginning of almost every word.",
     ),
     PracticeQuestion(
-      scenario: "3. The moon smiled down on the sleeping village.\n"
+      scenario:
+          "3. The moon smiled down on the sleeping village.\n"
           "Question: What literary device is used to describe the moon?",
       answer: "Correct Answer: Personification.",
       explanation: "Explanation: Smiling is a human action given to the moon.",
@@ -6670,21 +8315,24 @@ final PracticeModel jhs3s2ss1Lesson5PracticeData = PracticeModel(
       'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: What is the fee for the computer classes?"
+      scenario:
+          "1. Question: What is the fee for the computer classes?"
           "Text: \"The Youth Centre is offering new courses this month. We have bead making on Mondays and ICT classes on Wednesdays. The ICT registration fee is 50 Cedis. Please bring a notebook and a pen.\"",
       answer: "Correct Answer: 50 Cedis.",
       explanation:
           "Explanation: By scanning for the keyword \"fee\" or the symbol for currency, you can skip the info about bead making and notebooks.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Who is the guest speaker for the assembly?"
+      scenario:
+          "2. Question: Who is the guest speaker for the assembly?"
           "Text: \"All JHS students must gather at the assembly hall by 8:00 AM. We are honoured to welcome Dr. Joyce Aryee, who will speak about leadership. Please be seated quietly before she arrives.\"",
       answer: "Correct Answer: Dr. Joyce Aryee.",
       explanation:
           "Explanation: Your eyes should scan for capital letters (Proper Nouns) because a \"who\" question always looks for a name.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: What time does the final match start?"
+      scenario:
+          "3. Question: What time does the final match start?"
           "Text: \"The inter-school sports competition ends this Friday. The netball finals start at 2:00 PM, followed by the football final at 4:30 PM. Medals will be given at 6:00 PM.\"",
       answer: "Correct Answer: 4:30 PM.",
       explanation:
@@ -7099,7 +8747,8 @@ final PracticeModel jhs3s3ss1Lesson6PracticeData = PracticeModel(
           "Explanation: \"My father\" is specific enough; the fact that he works at the bank is extra information.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: Which is correct?"
+      scenario:
+          "3. Question: Which is correct?"
           "A. The house that I bought is old."
           "B. The house, that I bought, is old.",
       answer: "Correct Answer: A.",
@@ -7261,14 +8910,16 @@ final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
           "Explanation: In British English, we add a 'u' before the 'r' in words like humour, labour, and favour.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: \"I am **studing** very hard for my BECE exams.\""
+      scenario:
+          "2. Question: \"I am **studing** very hard for my BECE exams.\""
           "What is the correct way to spell the bold word?",
       answer: "Correct Answer: studying",
       explanation:
           "Explanation: When a word ends in 'y' and you add '-ing', you keep the 'y'. You only change it to 'i' when adding '-ed' or '-es'.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: \"We need to reorganize the library books.\""
+      scenario:
+          "3. Question: \"We need to reorganize the library books.\""
           "How should this be spelled in a Ghanaian classroom?",
       answer: "Correct Answer: reorganise",
       explanation:
@@ -7689,7 +9340,8 @@ final PracticeModel jhs3s4ss3Lesson3PracticeData = PracticeModel(
     PracticeQuestion(
       scenario:
           "3. Question: Rewrite this sentence into script format: Adjoa asked Kojo if he had the keys. Kojo said he forgot them.",
-      answer: "Correct Answer: ADJOA: Kojo, do you have the keys?\n"
+      answer:
+          "Correct Answer: ADJOA: Kojo, do you have the keys?\n"
           "KOJO: I forgot them.",
       explanation:
           "Explanation: In a script, we use names and colons instead of 'asked' or 'said'.",
@@ -12685,7 +14337,7 @@ final PracticeModel Scijhs1s5ss4Lesson1PracticeData = PracticeModel(
           "Correct Answer: It is sustainable because sunlight will never run out and it does not produce harmful gases when making electricity.",
       explanation:
           "Explanation: Unlike a petrol generator, the sun is always there and doesn't make the air dirty.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs1s5ss4Lesson2PracticeData = PracticeModel(
@@ -12706,7 +14358,7 @@ final PracticeModel Scijhs1s5ss4Lesson2PracticeData = PracticeModel(
           "Correct Answer: The trees act as a carbon sink by absorbing carbon dioxide from the atmosphere during photosynthesis.",
       explanation:
           "Explanation: Trees literally pull the 'blanket' gases out of the air to build their trunks and leaves.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs1s5ss4Lesson3PracticeData = PracticeModel(
@@ -12727,7 +14379,7 @@ final PracticeModel Scijhs1s5ss4Lesson3PracticeData = PracticeModel(
           "Correct Answer: Black surfaces absorb more solar radiation (heat) than light colors, making the oven hotter.",
       explanation:
           "Explanation: This is a scientific principle of heat absorption that makes your project more efficient.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs1s5ss5Lesson1PracticeData = PracticeModel(
@@ -12798,7 +14450,7 @@ final PracticeModel Scijhs2s1ss1Lesson1PracticeData = PracticeModel(
       answer: "Tyndall Effect.",
       explanation:
           "The Tyndall effect occurs when medium-sized particles in a colloid scatter light.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s1ss1Lesson2PracticeData = PracticeModel(
@@ -13564,7 +15216,7 @@ final PracticeModel Scijhs2s4ss2Lesson1PracticeData = PracticeModel(
           "Correct Answer: It reduces the high voltage from the transmission lines to a safe level (240V) for home use.",
       explanation:
           "Explanation: Without stepping it down, the electricity would be too powerful and dangerous for our appliances.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s4ss2Lesson2PracticeData = PracticeModel(
@@ -13585,7 +15237,7 @@ final PracticeModel Scijhs2s4ss2Lesson2PracticeData = PracticeModel(
           "Correct Answer: To limit the current so the LED does not get too much power and burn out.",
       explanation:
           "Explanation: Resistors protect components by controlling the 'pressure' of the electricity.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s4ss3Lesson1PracticeData = PracticeModel(
@@ -13614,7 +15266,7 @@ final PracticeModel Scijhs2s4ss3Lesson1PracticeData = PracticeModel(
           "Correct Answer: Light energy from the sun is converted into electrical energy.",
       explanation:
           "Explanation: Solar cells take light directly and turn it into the electricity needed to run the calculator's screen and processor.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s4ss3Lesson2PracticeData = PracticeModel(
@@ -13642,7 +15294,7 @@ final PracticeModel Scijhs2s4ss3Lesson2PracticeData = PracticeModel(
           "Correct Answer: To find specific areas where energy is being wasted so the advice on the poster is useful.",
       explanation:
           "Explanation: You must understand the problem before you can suggest a good solution.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s4ss4Lesson1PracticeData = PracticeModel(
@@ -13669,7 +15321,7 @@ final PracticeModel Scijhs2s4ss4Lesson1PracticeData = PracticeModel(
       answer: "Correct Answer: It allows humans to lift very heavy loads.",
       explanation:
           "Explanation: By combining many pulleys and levers, a crane can lift weights that hundreds of people could not lift alone, making building faster and safer.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s4ss4Lesson2PracticeData = PracticeModel(
@@ -13697,7 +15349,7 @@ final PracticeModel Scijhs2s4ss4Lesson2PracticeData = PracticeModel(
           "Correct Answer: It helps convert electricity into sound vibrations.",
       explanation:
           "Explanation: The magnetic force interacts with the electrical signal to move the speaker cone, which creates the sound waves we hear.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s4ss4Lesson3PracticeData = PracticeModel(
@@ -13723,7 +15375,7 @@ final PracticeModel Scijhs2s4ss4Lesson3PracticeData = PracticeModel(
       answer: "Correct Answer: The acceleration is cut in half.",
       explanation:
           "Explanation: Mass and acceleration have an inverse relationship. If you make the object twice as heavy, it becomes twice as hard to speed up.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs2s4ss5Lesson1PracticeData = PracticeModel(
@@ -15682,7 +17334,7 @@ final PracticeModel Scijhs3s5ss2Lesson1PracticeData = PracticeModel(
           "Correct Answer: Eating more local vegetables and exercising regularly.",
       explanation:
           "Explanation: Reducing sugar and being physically active helps the body manage blood sugar levels effectively.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs3s5ss2Lesson2PracticeData = PracticeModel(
@@ -15702,7 +17354,7 @@ final PracticeModel Scijhs3s5ss2Lesson2PracticeData = PracticeModel(
       answer: "Correct Answer: It removes breeding sites for mosquitoes.",
       explanation:
           "Explanation: Mosquitoes lay eggs in stagnant water found in empty containers or thick weeds; removing these breaks the cycle of the disease.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs3s5ss2Lesson3PracticeData = PracticeModel(
@@ -15724,7 +17376,7 @@ final PracticeModel Scijhs3s5ss2Lesson3PracticeData = PracticeModel(
           "Correct Answer: The dark, damp, and warm environment inside the socks is perfect for fungi to grow.",
       explanation:
           "Explanation: To prevent \"Athlete's foot,\" students should change into clean, dry socks every day and let their shoes air out.",
-    )
+    ),
   ],
 );
 final PracticeModel Scijhs3s5ss3Lesson1PracticeData = PracticeModel(
@@ -16004,7 +17656,7 @@ final PracticeModel MATHjhs1s1ss1PracticeData = PracticeModel(
       answer: "750",
       explanation:
           "The first two figures are 7 and 4. The next digit is 5, so the 4 rounds up to 5, followed by a placeholder zero.",
-    )
+    ),
   ],
 );
 final PracticeModel MATHjhs1s1ss2PracticeData = PracticeModel(
