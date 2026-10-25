@@ -3645,6 +3645,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
+                getReadyData = computingJhs1S1Ss1Lesson1GetReadyData;
+                learnData = computingJhs1S1Ss1Lesson1LearnData;
                 practiceData = computingJhs1S1Ss1Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss1Lesson1IndependentQuizData;
@@ -3656,6 +3658,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
+                getReadyData = computingJhs1S1Ss1Lesson2GetReadyData;
+                learnData = computingJhs1S1Ss1Lesson2LearnData;
                 practiceData = computingJhs1S1Ss1Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss1Lesson2IndependentQuizData;
@@ -3667,6 +3671,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
+                getReadyData = computingJhs1S1Ss1Lesson3GetReadyData;
+                learnData = computingJhs1S1Ss1Lesson3LearnData;
                 practiceData = computingJhs1S1Ss1Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss1Lesson3IndependentQuizData;
@@ -3678,6 +3684,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 3) {
+                getReadyData = computingJhs1S1Ss1Lesson4GetReadyData;
+                learnData = computingJhs1S1Ss1Lesson4LearnData;
                 practiceData = computingJhs1S1Ss1Lesson4PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss1Lesson4IndependentQuizData;
@@ -3689,6 +3697,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 4) {
+                getReadyData = computingJhs1S1Ss1Lesson5GetReadyData;
+                learnData = computingJhs1S1Ss1Lesson5LearnData;
                 practiceData = computingJhs1S1Ss1Lesson5PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss1Lesson5IndependentQuizData;
@@ -3700,6 +3710,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 5) {
+                getReadyData = computingJhs1S1Ss1Lesson6GetReadyData;
+                learnData = computingJhs1S1Ss1Lesson6LearnData;
                 practiceData = computingJhs1S1Ss1Lesson6PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss1Lesson6IndependentQuizData;
@@ -3711,6 +3723,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
+                getReadyData = computingJhs1S1Ss2Lesson1GetReadyData;
+                learnData = computingJhs1S1Ss2Lesson1LearnData;
                 practiceData = computingJhs1S1Ss2Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss2Lesson1IndependentQuizData;
@@ -3722,6 +3736,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 1) {
+                getReadyData = computingJhs1S1Ss2Lesson2GetReadyData;
+                learnData = computingJhs1S1Ss2Lesson2LearnData;
                 practiceData = computingJhs1S1Ss2Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss2Lesson2IndependentQuizData;
@@ -3733,6 +3749,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 2) {
+                getReadyData = computingJhs1S1Ss2Lesson3GetReadyData;
+                learnData = computingJhs1S1Ss2Lesson3LearnData;
                 practiceData = computingJhs1S1Ss2Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss2Lesson3IndependentQuizData;
@@ -3744,6 +3762,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 3) {
+                getReadyData = computingJhs1S1Ss2Lesson4GetReadyData;
+                learnData = computingJhs1S1Ss2Lesson4LearnData;
                 practiceData = computingJhs1S1Ss2Lesson4PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss2Lesson4IndependentQuizData;
@@ -3755,6 +3775,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 4) {
+                getReadyData = computingJhs1S1Ss2Lesson5GetReadyData;
+                learnData = computingJhs1S1Ss2Lesson5LearnData;
                 practiceData = computingJhs1S1Ss2Lesson5PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss2Lesson5IndependentQuizData;
@@ -3766,6 +3788,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 5) {
+                getReadyData = computingJhs1S1Ss2Lesson6GetReadyData;
+                learnData = computingJhs1S1Ss2Lesson6LearnData;
                 practiceData = computingJhs1S1Ss2Lesson6PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss2Lesson6IndependentQuizData;
@@ -3777,6 +3801,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 2 &&
                   lIndex == 0) {
+                getReadyData = computingJhs1S1Ss3Lesson1GetReadyData;
+                learnData = computingJhs1S1Ss3Lesson1LearnData;
                 practiceData = computingJhs1S1Ss3Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss3Lesson1IndependentQuizData;
@@ -3788,6 +3814,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 2 &&
                   lIndex == 1) {
+                getReadyData = computingJhs1S1Ss3Lesson2GetReadyData;
+                learnData = computingJhs1S1Ss3Lesson2LearnData;
                 practiceData = computingJhs1S1Ss3Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss3Lesson2IndependentQuizData;
@@ -3799,6 +3827,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 2 &&
                   lIndex == 2) {
+                getReadyData = computingJhs1S1Ss3Lesson3GetReadyData;
+                learnData = computingJhs1S1Ss3Lesson3LearnData;
                 practiceData = computingJhs1S1Ss3Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss3Lesson3IndependentQuizData;
@@ -3810,6 +3840,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 2 &&
                   lIndex == 3) {
+                getReadyData = computingJhs1S1Ss3Lesson4GetReadyData;
+                learnData = computingJhs1S1Ss3Lesson4LearnData;
                 practiceData = computingJhs1S1Ss3Lesson4PracticeData;
                 independentPracticeData =
                     computingJhs1S1Ss3Lesson4IndependentQuizData;
