@@ -1,5 +1,1395 @@
 import '../model/learn__model.dart';
 
+final LearnModel computingJhs2S4Ss4Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L5/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L5/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss4Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L4/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L4/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L4/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss4Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L3/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss4Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss4Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss4_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss4_L1/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss3Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L4/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L4/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L4/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss3Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss3_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss3_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss2Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L5/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L5/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l5/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L5/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss2Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L4/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L4/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L4/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss2Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss2_l1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss2_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss1Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L5/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L5/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L5/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L5/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss1Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L4/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L4/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L4/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss1Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L3/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L2/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S4Ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s4_ss1_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s4_ss1_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss4Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss4_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss4_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss4_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss4_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss4_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss4_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss4Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss4_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss4_L1/3. Teach Part A update.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss4_L1/ P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss4_L1/4. Teach Part B update.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss4_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss4_L1/5. Teach Part C update.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L2/5. Teach Part C.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L2/P D.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L2/6. Teach Part D.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L1/5. Teach Part C.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss3_L1/P D.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss3_L1/6. Teach Part D.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss2Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss2_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss2_L1/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss1_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss1_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss1_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss1_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss1_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss1_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S3Ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss1_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss1_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss1_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss1_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s3_ss1_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s3_ss1_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss4Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss4_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss4_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss4_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss4_L3/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss4Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss4_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss4_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss4_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss4_L2/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss4Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss4_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss4_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss4_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss4_L1/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss3Lesson7LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L7/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L7/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L7/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L7/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L7/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L7/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss3Lesson6LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L6/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L6/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L6/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L6/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L6/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L6/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss3Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L5/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L5/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L5/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L5/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss3Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L4/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L4/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L4/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss3Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss3_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss3_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss2Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss2_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss2_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss1Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S2Ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s2_ss1_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s2_ss1_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss3_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss3_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss3_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss3_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss3_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss3_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss3_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss3_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss3_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss3_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss3_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss3_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss2Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss2_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss2_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss1Lesson6LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L6/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L6/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L6/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L6/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L6/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L6/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss1Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L5/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L5/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L5/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L5/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss1Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L4/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L4/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L4/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss1Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs2S1Ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS2_s1_ss1_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS2_s1_ss1_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S4Ss4Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss4_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss4_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss4_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss4_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss4_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss4_L1/5. Teach Part C.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss4_L1/P D.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss4_L1/6. Teach Part D.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S4Ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss3_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss3_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss3_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss3_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss3_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss3_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S4Ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss2_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss2_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss2_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss2_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss2_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss2_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S4Ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss2_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss2_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss2_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss2_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss2_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss2_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S4Ss1Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S4Ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S4Ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s4_ss1_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s4_ss1_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss4Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss4Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss4Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss4_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss4_L1/4. Teach Part B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss3Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L3/5. Teach Part C.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L3/P D.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L3/6. Teach Part D.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L2/5. Teach Part C.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L2/P D.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L2/6. Teach Part D.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L1/5. Teach Part C.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss3_L1/P D.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss3_L1/6. Teach Part D.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss2_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss2_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss2_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss2_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss2_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss2_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss2_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss2_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss2_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss2_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss2_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss2_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss1Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S3Ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s3_ss1_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s3_ss1_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson8LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L8/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L8/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L8/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L8/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L8/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L8/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson7LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L7/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L7/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L7/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L7/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L7/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L7/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson6LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L6/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L6/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L6/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L6/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L6/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L6/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L5/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L5/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L5/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L5/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L4/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L4/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L4/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L3/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L3/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L3/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L2/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L2/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L2/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss3Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L1/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L1/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss3_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss3_L1/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss2Lesson6LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L6/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L6/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L6/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L6/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L6/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L6/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss2Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L5/3. Teach Part A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L5/4. Teach Part B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L5/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L5/5. Teach Part C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss2Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L4/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L4/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L4/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss2Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L3/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L3/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L3/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss2Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L2/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L2/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L2/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss2Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L1/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L1/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss2_L1/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss2_L1/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss1Lesson7LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L7/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L7/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L7/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L7/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L7/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L7/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss1Lesson6LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L6/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L6/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L6/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L6/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L6/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L6/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss1Lesson5LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L5/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L5/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L5/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L5/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L5/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L5/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss1Lesson4LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L4/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L4/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L4/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L4/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L4/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L4/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss1Lesson3LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L3/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L3/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L3/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L3/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L3/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L3/5. Teach Part - C.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss1Lesson1LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L1/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L1/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L1/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L1/4. Teach Part - B.mp3',
+  ),
+]);
+
+final LearnModel computingJhs1S2Ss1Lesson2LearnData = LearnModel(parts: [
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L2/P A.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L2/3. Teach Part - A.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L2/P B.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L2/4. Teach Part - B.mp3',
+  ),
+  LearnPart(
+    imagePath: 'assets/images/Computing/JHS1_s2_ss1_L2/P C.jpg',
+    audioPath: 'assets/audio/computing/JHS1_s2_ss1_L2/5. Teach Part - C.mp3',
+  ),
+]);
+
 final LearnModel computingJhs1S1Ss1Lesson1LearnData = LearnModel(parts: [
   LearnPart(
     imagePath: 'assets/images/Computing/JHS1_s1_ss1_L1/P A.jpg',
