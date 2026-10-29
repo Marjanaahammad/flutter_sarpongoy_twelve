@@ -1362,42 +1362,80 @@ flutter:
     - assets/images/Computing/JHS2_s4_ss4_L5/
     - assets/audio/computing/JHS2_s4_ss4_L5/
     - assets/audio/computing/JHS3_s1_ss1_L1/
+    - assets/images/Computing/JHS3_s1_ss1_l1/
     - assets/audio/computing/JHS3_s1_ss1_L2/
+    - assets/images/Computing/JHS3_s1_ss1_L2/
     - assets/audio/computing/JHS3_S1_SS1_L3/
+    - assets/images/Computing/JHS3_s1_ss1_L3/
     - assets/audio/computing/JHS3_s1_ss1_L4/
+    - assets/images/Computing/JHS3_s1_ss1_L4/
     - assets/audio/computing/JHS3_s1_ss1_L5/
+    - assets/images/Computing/JHS3_s1_ss1_L5/
     - assets/audio/computing/JHS3_s1_ss1_L6/
+    - assets/images/Computing/JHS3_s1_ss1_L6/
     - assets/audio/computing/JHS3_s1_ss2_L1/
+    - assets/images/Computing/JHS3_s1_ss2_L1/
     - assets/audio/computing/JHS3_s1_ss2_L2/
+    - assets/images/Computing/JHS3_s1_ss2_l2/
     - assets/audio/computing/JHS3_s1_ss2_L3/
+    - assets/images/Computing/JHS3_s1_ss2_l3/
     - assets/audio/computing/JHS3_s1_ss3_L1/
+    - assets/images/Computing/JHS3_s1_ss3_L1/
     - assets/audio/computing/JHS3_s1_ss3_L2/
+    - assets/images/Computing/JHS3_s1_ss3_l2/
     - assets/audio/computing/JHS3_s2_ss1_L1/
+    - assets/images/Computing/JHS3_s2_ss1_L1/
     - assets/audio/computing/JHS3_s2_ss1_L2/
+    - assets/images/Computing/JHS3_s2_ss1_L2/
     - assets/audio/computing/JHS3_s2_ss1_L3/
+    - assets/images/Computing/JHS3_s2_ss1_l3/
     - assets/audio/computing/JHS3_s2_ss2_L1/
+    - assets/images/Computing/JHS3_s2_ss2_L1/
     - assets/audio/computing/JHS3_s2_ss2_L2/
+    - assets/images/Computing/JHS3_s2_ss2_l2/
     - assets/audio/computing/JHS3_s2_ss2_L3/
+    - assets/images/Computing/JHS3_s2_ss2_L3/
     - assets/audio/computing/JHS3_s2_ss3_L1/
+    - assets/images/Computing/JHS3_s2_ss3_L1/
     - assets/audio/computing/JHS3_s2_ss3_L2/
+    - assets/images/Computing/JHS3_s2_ss3_l2/
     - assets/audio/computing/JHS3_s2_ss3_L3/
+    - assets/images/Computing/JHS3_s2_ss3_L3/
+    - assets/images/Computing/JHS3_s2_ss4_L1/
     - assets/audio/computing/JHS3_s2_ss4_L1/
+    - assets/images/Computing/JHS3_s2_ss4_L2/
     - assets/audio/computing/JHS3_s2_ss4_L2/
+    - assets/images/Computing/JHS3_s2_ss4_l3/
     - assets/audio/computing/JHS3_s2_ss4_L3/
     - assets/audio/computing/JHS3_s3_ss1_L1/
+    - assets/images/Computing/JHS3_s3_ss1_L1/
     - assets/audio/computing/JHS3_s3_ss1_L2/
+    - assets/images/Computing/JHS3_s3_ss1_L2/
     - assets/audio/computing/JHS3_s3_ss2_L1/
+    - assets/images/Computing/JHS3_s3_ss2_l1/
     - assets/audio/computing/JHS3_s3_ss3_L1/
+    - assets/images/Computing/JHS3_s3_ss3_L1/
     - assets/audio/computing/JHS3_s3_ss3_L2/
+    - assets/images/Computing/JHS3_s3_ss3_l2/
     - assets/audio/computing/JHS3_s3_ss4_L1/
+    - assets/images/Computing/JHS3_s3_ss4_L1/
     - assets/audio/computing/JHS3_s3_ss4_L2/
+    - assets/images/Computing/JHS3_s3_ss4_L2/
     - assets/audio/computing/JHS3_s3_ss4_L3/
+    - assets/images/Computing/JHS3_s3_ss4_L3/
     - assets/audio/computing/JHS3_s4_ss1_L1/
+    - assets/images/Computing/JHS3_s4_ss1_L1/
     - assets/audio/computing/JHS3_s4_ss1_L2/
+    - assets/images/Computing/JHS3_s4_ss1_l2/
     - assets/audio/computing/JHS3_s4_ss1_L3/
+    - assets/images/Computing/JHS3_s4_ss1_L3/
+    - assets/images/Computing/JHS3_s4_ss2_L1/
     - assets/audio/computing/JHS3_s4_ss2_L1/
+    - assets/images/Computing/JHS3_s4_ss2_L2/
     - assets/audio/computing/JHS3_s4_ss2_L2/
+    - assets/images/Computing/JHS3_s4_ss3_L1/
     - assets/audio/computing/JHS3_s4_ss3_L1/
+    - assets/images/Computing/JHS3_s4_ss4_L1/
     - assets/audio/computing/JHS3_s4_ss4_L1/
 
   #   - images/a_dot_ham.jpeg

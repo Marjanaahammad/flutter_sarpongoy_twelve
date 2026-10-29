@@ -83,7 +83,7 @@ class SidebarController extends GetxController {
   ];
 
   static const Map<String, Map<String, List<Map<String, dynamic>>>>
-  _additionalCourseData = {
+      _additionalCourseData = {
     "JHS 1": {
       "CAREER": _careerCourseData,
       "COMPUTING": [
@@ -235,25 +235,75 @@ class SidebarController extends GetxController {
       ],
       "CREATIVE ARTS": [
         {
-          "subtitle": "VISUAL ARTS",
+          "subtitle": "DESIGN",
           "subStrands": [
             {
-              "subtitle": "ELEMENTS AND MATERIALS",
+              "subtitle": "DESIGN IN NATURE AND MANMADE ENVIRONMENT",
               "topics": [
-                "Elements of Art and Design",
-                "Exploring Local Art Materials",
+                "Understanding Design as a Concept and its Role in Society",
+                "Elements of Design as Building Blocks for Creative Expression",
+                "Principles of Design and Organising Elements for Creative Expression",
+              ],
+            },
+            {
+              "subtitle":
+                  "DRAWING, SHADING, COLOURING AND MODELLING FOR DESIGN",
+              "topics": [
+                "MANUAL TOOLS, MATERIALS, AND TECHNIQUES FOR DESIGN",
+                "DIGITAL TOOLS, MATERIALS, AND TECHNIQUES FOR DESIGN",
+                "DESIGN IDEAS AND DEVELOPING MODELS OF SIMPLE SHAPES AND FORMS",
+              ],
+            },
+            {
+              "subtitle": "CREATIVITY, INNOVATION AND THE DESIGN PROCESS",
+              "topics": [
+                "DISTINGUISHING CREATIVITY AND INNOVATION IN SOCIETY",
+                "DEMONSTRATING UNDERSTANDING OF THE DESIGN PROCESS",
+                "APPLYING THE DESIGN PROCESS TO SOLVE COMMUNITY PROBLEMS",
               ],
             },
           ],
         },
         {
-          "subtitle": "PERFORMING ARTS",
+          "subtitle": "CREATIVE ARTS",
           "subStrands": [
             {
-              "subtitle": "MUSIC, DANCE AND DRAMA",
+              "subtitle": "MEDIA AND TECHNIQUES",
               "topics": [
-                "Introduction to Rhythm and Movement",
-                "Storytelling and Drama",
+                "Nature and Uses of Tools, Materials, and Techniques in Visual Arts",
+                "Applying Techniques of Still-Life Drawing and Shading",
+                "Testing and Preparing Clay and Paper Pulp for Modelling",
+                "Applying Techniques in Pattern Making Using Available Media",
+                "Singing in Pitch the Diatonic Major Scale Using Curwen Hand Signs and Solfège",
+                "Durational Symbols and Their Values in Relation to the Semibreve",
+                "Conducting Songs in Simple Duple, Triple, and Quadruple Time ",
+                "Ghanaian Dance and Body Movements, Positions, and Voice Projection Patterns",
+                "Techniques of Dance, Body Movements, and Voice Projections in the Performance Space"
+              ],
+            },
+            {
+              "subtitle": "CREATIVE AND AESTHETIC EXPRESSION",
+              "topics": [
+                "DESIGNING AND PRODUCING VISUAL ARTWORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+                "VISUAL ARTS — PLANNING A DISPLAY OF OWN AND OTHERS' ARTWORKS THAT REFLECT COMMUNITY HISTORY AND CULTURE",
+                "VISUAL ARTS — ORGANISING AN APPRECIATION AND APPRAISAL OF OWN AND OTHERS' ARTWORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+                "PERFORMING ARTS (MUSIC) — CREATING AND PRODUCING MUSICAL ARTWORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+                "PERFORMING ARTS (MUSIC) — PLANNING A DISPLAY OF OWN AND OTHERS' MUSICAL WORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+                "PERFORMING ARTS (MUSIC) — APPRECIATION AND APPRAISAL OF OWN AND OTHERS' MUSICAL WORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+                "DANCE AND DRAMA — DESIGNING AND PRODUCING ARTWORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+                "DANCE AND DRAMA — PLANNING A DISPLAY OF OWN AND OTHERS' ARTWORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+                "DANCE AND DRAMA — APPRECIATION AND APPRAISAL OF OWN AND OTHERS' ARTWORKS THAT REFLECT LOCAL HISTORY AND CULTURE",
+              ],
+            },
+            {
+              "subtitle": "CONNECTIONS IN LOCAL AND GLOBAL CULTURES",
+              "topics": [
+                "Recording Community History, Culture, and Topical Issues Through Visual Arts",
+                "Identifying Visual Artworks That Reflect History, Culture, and Topical Issues",
+                "Identifying Indigenous and Art Musicians Reflecting History, Culture, and Topical Issues",
+                "Appreciating Indigenous and Neo-Traditional Musical Groups",
+                "Selecting Artworks of Dance and Drama Artistes Reflecting History, Culture, and Environment",
+                "Analysing Dance and Drama Artistes Based on Community and Global Issues",
               ],
             },
           ],
@@ -442,25 +492,76 @@ class SidebarController extends GetxController {
       ],
       "CREATIVE ARTS": [
         {
-          "subtitle": "DESIGN AND MAKING",
+          "subtitle": "DESIGN",
           "subStrands": [
             {
-              "subtitle": "CREATIVE DESIGN PROCESSES",
+              "subtitle": "DESIGN IN NATURE AND MANMADE ENVIRONMENT",
               "topics": [
-                "Developing Ideas Through Drawing",
-                "Creating Art from Local Materials",
+                "UNDERSTANDING DESIGN AS A CONCEPT (ELEMENTS AND PRINCIPLES)",
+                "IDENTIFYING AND RECORDING ELEMENTS AND PRINCIPLES OF DESIGN",
+                "ORGANISING ELEMENTS OF DESIGN USING PRINCIPLES OF DESIGN",
+              ],
+            },
+            {
+              "subtitle":
+                  "DRAWING, SHADING, COLOURING AND MODELLING FOR DESIGN",
+              "topics": [
+                "MANUAL AND DIGITAL TOOLS, MATERIALS, AND TECHNIQUES FOR 2-D DESIGN",
+                "SKILLS IN USING AVAILABLE DIGITAL TOOLGENERATING DESIGN IDEAS AND DEVELOPING MODELS OF SIMPLE SHAPES AND FORMSIssues Associated with Online Services",
+                "GENERATING DESIGN IDEAS AND DEVELOPING MODELS OF SIMPLE SHAPES AND FORMS",
+              ],
+            },
+            {
+              "subtitle": "Creativity, Innovation and the Design Process",
+              "topics": [
+                "Distinguishing Creativity and Innovation for Societal Solutions",
+                "The Design Process in Relation to Creativity and Innovation",
+                "Applying the Design Process to Solve Community Problems",
               ],
             },
           ],
         },
         {
-          "subtitle": "PERFORMANCE AND APPRECIATION",
+          "subtitle": "CREATIVE ARTS",
           "subStrands": [
             {
-              "subtitle": "GHANAIAN CREATIVE EXPRESSION",
+              "subtitle": "MEDIA AND TECHNIQUES",
               "topics": [
-                "Traditional Music and Dance",
-                "Planning a Short Dramatic Performance",
+                "EXPLORING MEDIA AND TECHNIQUES IN DRAWING, PRINTMAKING, AND WEAVING",
+                "PRINTMAKING TECHNIQUES TO GENERATE OWN IDEAS AND MAKE VISUAL ARTWORKS",
+                "APPLYING TECHNIQUES OF DRAWING FROM DIRECT OBSERVATION, MEMORY, AND IMAGINATION",
+                "EXPERIMENTING WITH AVAILABLE MEDIA AND TECHNIQUES FOR WEAVING TO CREATE OWN WOVEN ARTEFACTS",
+                "TELLING HOW FAST OR SLOW MUSIC IS HEARD AND COMPARING ACTIVITIES ASSOCIATED WITH FAST OR SLOW MUSIC",
+                "COMPARING AND CONTRASTING THE BENEFITS AND HARM ASSOCIATED WITH SOFT OR LOUD MUSIC",
+                "INTERNALISING AND IDENTIFYING AURALLY BASIC ARCHITECTURAL DESIGNS IN ART, POP, AND INDIGENOUS MUSICAL WORKS",
+                "IDENTIFYING VARIOUS GHANAIAN DANCE TYPES AND THEIR CONTEXT OF PERFORMANCE",
+                "EXPERIMENTING AND PRACTISING USING THE TECHNIQUES OF RHYTHM AND DYNAMICS IN DANCE AND DRAMA",
+              ],
+            },
+            {
+              "subtitle": "CREATIVE AND AESTHETIC EXPRESSION",
+              "topics": [
+                "DESIGNING AND PRODUCING ARTWORKS THAT REFLECT TOPICAL ISSUES AND CULTURES",
+                "PLANNING AND DISPLAYING ARTWORKS THAT REFLECT HISTORY, CULTURES, AND THE ENVIRONMENT",
+                "APPRECIATION AND APPRAISAL OF VISUAL ARTWORKS",
+                "DESIGNING AND PRODUCING A MUSICAL WORK REFLECTING SOCIAL ENVIRONMENTS AND CULTURES",
+                "PLANNING AND DISPLAYING MUSICAL WORKS ACROSS TIMES AND CULTURES",
+                "APPRECIATION AND APPRAISAL OF MUSICAL WORKS",
+                "DESIGNING AND PRODUCING DANCE AND DRAMA REFLECTING TIMES AND CULTURES",
+                "PLANNING AND DISPLAYING DANCE AND DRAMA PIECES ACROSS TIMES AND CULTURES",
+                "APPRECIATION AND APPRAISAL OF DANCE AND DRAMA ARTWORKS",
+              ],
+            },
+            {
+              "subtitle": "CONNECTIONS IN LOCAL AND GLOBAL CULTURES",
+              "topics": [
+                "VISUAL ARTISTS AND COMMUNITY LIFE",
+                "COMPARING AND CONTRASTING VISUAL ARTWORKS",
+                "CREATIVE DESIGN PROCESSES AND ENVIRONMENTAL INSTALLATIONS",
+                "GHANAIAN ART COMPOSERS AND MUSICAL HERITAGE",
+                "INDIGENOUS AND NEO-TRADITIONAL MUSICAL GROUPS",
+                "DANCE AND DRAMA ARTISTES ADDRESSING TOPICAL ISSUES",
+                "APPRECIATING DRAMA AND DANCE ON TOPICAL COMMUNITY ISSUES",
               ],
             },
           ],
@@ -632,25 +733,76 @@ class SidebarController extends GetxController {
       ],
       "CREATIVE ARTS": [
         {
-          "subtitle": "CREATIVE PROJECTS",
+          "subtitle": "DESIGN",
           "subStrands": [
             {
-              "subtitle": "PLANNING, MAKING AND PRESENTING",
+              "subtitle": "Design in Nature and Manmade Environment",
               "topics": [
-                "Planning a Creative Arts Project",
-                "Producing and Presenting an Artwork",
+                "Understanding Design Concepts and Nature-Inspired Creations",
+                "Elements of Design as Building Blocks in the Environment",
+                "Principles of Design and Organizing Building Blocks",
+              ],
+            },
+            {
+              "subtitle":
+                  "DRAWING, SHADING, COLOURING AND MODELLING FOR DESIGN",
+              "topics": [
+                "EXPLORING MANUAL AND DIGITAL TOOLS, MATERIALS, AND TECHNIQUES FOR 3-D DESIGN",
+                "DEMONSTRATING SKILLS IN 3-D DRAWING, SHADING, AND PERSPECTIVE",
+                "GENERATING DESIGN IDEAS AND DEVELOPING MODELS FOR DISPLAY",
+              ],
+            },
+            {
+              "subtitle": "CREATIVITY, INNOVATION AND THE DESIGN PROCESS",
+              "topics": [
+                "DISTINGUISHING CREATIVITY AND INNOVATION IN EVERYDAY PROBLEM-SOLVING",
+                "UNDERSTANDING THE STAGES OF THE DESIGN PROCESS",
+                "APPLYING THE DESIGN PROCESS TO SOLVE COMMUNITY PROBLEMS",
               ],
             },
           ],
         },
         {
-          "subtitle": "ARTS AND SOCIETY",
+          "subtitle": "Creative Arts",
           "subStrands": [
             {
-              "subtitle": "CULTURE AND CREATIVE INDUSTRIES",
+              "subtitle": "Media and Techniques",
               "topics": [
-                "The Arts and Ghanaian Identity",
-                "Careers in the Creative Industries",
+                "Exploring Media and Techniques in Casting, Assemblage, and Folding",
+                "Experimenting with Casting Techniques to Create Visual Artworks",
+                "Applying Artistic Techniques in Folding to Create Artworks",
+                "Experimenting with Construction and Assemblage Techniques",
+                "Singing Triads on the Seven Degrees of the Scale Horizontally and Vertically",
+                "Creating and Improvising a Melody Over an Ostinato Bass Line",
+                "Creating a Dance Drama on a Topical Issue",
+                "Approaches to Improvisation, Stage Blocking, and Balance in Dance and Drama",
+                "Experimenting with Improvisation, Stage Blocking, Postures, and Balance",
+              ],
+            },
+            {
+              "subtitle": "CREATIVE AND AESTHETIC EXPRESSION",
+              "topics": [
+                "DESIGNING AND PRODUCING VISUAL ARTWORKS THAT REFLECT TIMES, CULTURES, AND TOPICAL ISSUES",
+                "PLANNING AND DISPLAYING ARTWORKS THAT REFLECT DIFFERENT TIMES, CULTURES, AND TOPICAL ISSUES",
+                "ORGANISING AN APPRECIATION AND APPRAISAL OF ARTWORKS",
+                "DESIGNING AND PRODUCING MUSICAL WORKS THAT SENSITISE THE PUBLIC ON EMERGING TOPICAL ISSUES",
+                "PLANNING AND DISPLAYING MUSICAL WORKS THAT SENSITISE THE PUBLIC ON EMERGING TOPICAL ISSUES",
+                "ORGANISING AN APPRECIATION AND APPRAISAL OF ORIGINAL MUSICAL WORKS ON EMERGING TOPICAL ISSUES",
+                "PERFORMING AN ORIGINAL DANCE DRAMA OR ONE-ACT PLAY ON SOCIO-CULTURAL ISSUES",
+                "POST-PERFORMANCE ANALYSIS OF ORIGINAL DANCE DRAMA AND ONE-ACT PLAYS",
+                "ORGANISING AN APPRECIATION AND APPRAISAL OF DANCE AND DRAMA ARTWORKS",
+              ],
+            },
+            {
+              "subtitle": "CONNECTIONS IN LOCAL AND GLOBAL CULTURES",
+              "topics": [
+                "AFRICAN VISUAL ARTISTS ADDRESSING CONTINENTAL ISSUES",
+                "CONNECTING AFRICAN VISUAL ARTS WITH OTHER DISCIPLINES",
+                "AFRICAN ART MUSIC COMPOSERS REFLECTING HISTORY AND SOCIETY",
+                "APPRECIATING AFRICAN INDIGENOUS DANCES AND POPULAR MUSICAL GENRES",
+                "REFLECTING ON AND APPRECIATING AFRICAN DANCE AND DRAMA",
+                "CREATING AND PERFORMING A ONE-ACT PLAY OR DANCE",
+                "CONDUCTING A PERFORMANCE REVIEW",
               ],
             },
           ],
@@ -709,16 +861,13 @@ class SidebarController extends GetxController {
       final normalized = gradeStr.trim().toUpperCase().replaceAll(' ', '');
       if (normalized.contains('JHS1') ||
           normalized.contains('JHS-1') ||
-          normalized == '1')
-        return 1;
+          normalized == '1') return 1;
       if (normalized.contains('JHS2') ||
           normalized.contains('JHS-2') ||
-          normalized == '2')
-        return 2;
+          normalized == '2') return 2;
       if (normalized.contains('JHS3') ||
           normalized.contains('JHS-3') ||
-          normalized == '3')
-        return 3;
+          normalized == '3') return 3;
       return 999;
     }
 
@@ -1175,8 +1324,8 @@ class SidebarController extends GetxController {
                   beceObjectives.lastAttemptScore != null &&
                   beceObjectives.totalQuestions != null &&
                   beceObjectives.totalQuestions! > 0) {
-                double lastScore = (beceObjectives.lastAttemptScore ?? 0)
-                    .toDouble();
+                double lastScore =
+                    (beceObjectives.lastAttemptScore ?? 0).toDouble();
                 double totalQ = (beceObjectives.totalQuestions ?? 1).toDouble();
                 double pct = (totalQ > 0 && lastScore <= totalQ)
                     ? (lastScore / totalQ) * 100
@@ -1185,8 +1334,8 @@ class SidebarController extends GetxController {
                 quizScoreStr = "$percentage%";
 
                 if (beceObjectives.firstAttemptScore != null) {
-                  double firstScore = beceObjectives.firstAttemptScore!
-                      .toDouble();
+                  double firstScore =
+                      beceObjectives.firstAttemptScore!.toDouble();
                   double origPct = (totalQ > 0 && firstScore <= totalQ)
                       ? (firstScore / totalQ) * 100
                       : firstScore;
@@ -1200,7 +1349,7 @@ class SidebarController extends GetxController {
 
               final isLessonCompleted = (hasQuiz || hasPractice)
                   ? ((!hasQuiz || beceObjectives != null) &&
-                        (!hasPractice || beceTheory != null))
+                      (!hasPractice || beceTheory != null))
                   : true;
 
               if (!isLessonCompleted) {
@@ -1265,15 +1414,15 @@ class SidebarController extends GetxController {
                 if (type == 'guided_practice') {
                   if (practice == null ||
                       p.lastUpdated.toUtc().isAfter(
-                        practice.lastUpdated.toUtc(),
-                      )) {
+                            practice.lastUpdated.toUtc(),
+                          )) {
                     practice = p;
                   }
                 } else if (type == 'independent') {
                   if (independent == null ||
                       p.lastUpdated.toUtc().isAfter(
-                        independent.lastUpdated.toUtc(),
-                      )) {
+                            independent.lastUpdated.toUtc(),
+                          )) {
                     independent = p;
                   }
                 } else if (type == 'quiz') {
@@ -1359,8 +1508,7 @@ class SidebarController extends GetxController {
                     'part_${String.fromCharCode(96 + lesson.learn.parts.length)}',
               );
 
-              final isLessonCompleted =
-                  latestGetReady != null &&
+              final isLessonCompleted = latestGetReady != null &&
                   hasFinishedLastLearnPart &&
                   practice != null &&
                   independent != null &&
@@ -1382,8 +1530,8 @@ class SidebarController extends GetxController {
                     if (independent != null && practice != null) {
                       return dateFormat.format(
                         independent.lastUpdated.toUtc().isAfter(
-                              practice.lastUpdated.toUtc(),
-                            )
+                                  practice.lastUpdated.toUtc(),
+                                )
                             ? independent.lastUpdated
                             : practice.lastUpdated,
                       );
@@ -1396,9 +1544,8 @@ class SidebarController extends GetxController {
                   }(),
                   practiceScore: practiceScoreStr,
                   practiceOriginalScore: practiceOriginalScoreStr,
-                  quizDoneDate: quiz != null
-                      ? dateFormat.format(quiz.lastUpdated)
-                      : null,
+                  quizDoneDate:
+                      quiz != null ? dateFormat.format(quiz.lastUpdated) : null,
                   quizScore: quizScoreStr,
                   quizOriginalScore: quizOriginalScoreStr,
                   courseName: course.title,
@@ -1665,9 +1812,8 @@ class SidebarController extends GetxController {
     final activityCount = courseProgress.length;
 
     // Quiz Score
-    final quizRecords = courseProgress
-        .where((p) => p.activityType == 'quiz')
-        .toList();
+    final quizRecords =
+        courseProgress.where((p) => p.activityType == 'quiz').toList();
     double avgQuizScore = 0;
     if (quizRecords.isNotEmpty) {
       double totalPercent = 0;
@@ -1804,9 +1950,8 @@ class SidebarController extends GetxController {
           .toList();
 
       final count = dayProgress.length;
-      final quizRecords = dayProgress
-          .where((p) => p.activityType == 'quiz')
-          .toList();
+      final quizRecords =
+          dayProgress.where((p) => p.activityType == 'quiz').toList();
       double score = 0;
       if (quizRecords.isNotEmpty) {
         double total = 0;
@@ -3605,8 +3750,8 @@ class SidebarController extends GetxController {
     final strandsData = grade == "JHS 2"
         ? (jhs2CourseData[courseTitle] ?? jhs2CourseData["English"]!)
         : grade == "JHS 3"
-        ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
-        : (courseData[courseTitle] ?? courseData["English"]!);
+            ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
+            : (courseData[courseTitle] ?? courseData["English"]!);
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
@@ -5124,6 +5269,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S1Ss1Lesson1GetReadyData;
+                learnData = computingJhs3S1Ss1Lesson1LearnData;
                 practiceData = computingJhs3S1Ss1Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss1Lesson1IndependentQuizData;
@@ -5135,6 +5282,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S1Ss1Lesson2GetReadyData;
+                learnData = computingJhs3S1Ss1Lesson2LearnData;
                 practiceData = computingJhs3S1Ss1Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss1Lesson2IndependentQuizData;
@@ -5146,6 +5295,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S1Ss1Lesson3GetReadyData;
+                learnData = computingJhs3S1Ss1Lesson3LearnData;
                 practiceData = computingJhs3S1Ss1Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss1Lesson3IndependentQuizData;
@@ -5157,6 +5308,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 3) {
+                getReadyData = computingJhs3S1Ss1Lesson4GetReadyData;
+                learnData = computingJhs3S1Ss1Lesson4LearnData;
                 practiceData = computingJhs3S1Ss1Lesson4PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss1Lesson4IndependentQuizData;
@@ -5168,6 +5321,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 4) {
+                getReadyData = computingJhs3S1Ss1Lesson5GetReadyData;
+                learnData = computingJhs3S1Ss1Lesson5LearnData;
                 practiceData = computingJhs3S1Ss1Lesson5PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss1Lesson5IndependentQuizData;
@@ -5179,6 +5334,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 0 &&
                   lIndex == 5) {
+                getReadyData = computingJhs3S1Ss1Lesson6GetReadyData;
+                learnData = computingJhs3S1Ss1Lesson6LearnData;
                 practiceData = computingJhs3S1Ss1Lesson6PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss1Lesson6IndependentQuizData;
@@ -5190,6 +5347,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S1Ss2Lesson1GetReadyData;
+                learnData = computingJhs3S1Ss2Lesson1LearnData;
                 practiceData = computingJhs3S1Ss2Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss2Lesson1IndependentQuizData;
@@ -5201,6 +5360,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S1Ss2Lesson2GetReadyData;
+                learnData = computingJhs3S1Ss2Lesson2LearnData;
                 practiceData = computingJhs3S1Ss2Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss2Lesson2IndependentQuizData;
@@ -5212,6 +5373,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S1Ss2Lesson3GetReadyData;
+                learnData = computingJhs3S1Ss2Lesson3LearnData;
                 practiceData = computingJhs3S1Ss2Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss2Lesson3IndependentQuizData;
@@ -5223,6 +5386,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 2 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S1Ss3Lesson1GetReadyData;
+                learnData = computingJhs3S1Ss3Lesson1LearnData;
                 practiceData = computingJhs3S1Ss3Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss3Lesson1IndependentQuizData;
@@ -5234,6 +5399,8 @@ class SidebarController extends GetxController {
                   sIndex == 0 &&
                   ssIndex == 2 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S1Ss3Lesson2GetReadyData;
+                learnData = computingJhs3S1Ss3Lesson2LearnData;
                 practiceData = computingJhs3S1Ss3Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S1Ss3Lesson2IndependentQuizData;
@@ -5245,6 +5412,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S2Ss1Lesson1GetReadyData;
+                learnData = computingJhs3S2Ss1Lesson1LearnData;
                 practiceData = computingJhs3S2Ss1Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss1Lesson1IndependentQuizData;
@@ -5256,6 +5425,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S2Ss1Lesson2GetReadyData;
+                learnData = computingJhs3S2Ss1Lesson2LearnData;
                 practiceData = computingJhs3S2Ss1Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss1Lesson2IndependentQuizData;
@@ -5267,6 +5438,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S2Ss1Lesson3GetReadyData;
+                learnData = computingJhs3S2Ss1Lesson3LearnData;
                 practiceData = computingJhs3S2Ss1Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss1Lesson3IndependentQuizData;
@@ -5278,6 +5451,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S2Ss2Lesson1GetReadyData;
+                learnData = computingJhs3S2Ss2Lesson1LearnData;
                 practiceData = computingJhs3S2Ss2Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss2Lesson1IndependentQuizData;
@@ -5289,6 +5464,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 1 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S2Ss2Lesson2GetReadyData;
+                learnData = computingJhs3S2Ss2Lesson2LearnData;
                 practiceData = computingJhs3S2Ss2Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss2Lesson2IndependentQuizData;
@@ -5300,6 +5477,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 1 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S2Ss2Lesson3GetReadyData;
+                learnData = computingJhs3S2Ss2Lesson3LearnData;
                 practiceData = computingJhs3S2Ss2Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss2Lesson3IndependentQuizData;
@@ -5311,6 +5490,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 2 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S2Ss3Lesson1GetReadyData;
+                learnData = computingJhs3S2Ss3Lesson1LearnData;
                 practiceData = computingJhs3S2Ss3Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss3Lesson1IndependentQuizData;
@@ -5322,6 +5503,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 2 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S2Ss3Lesson2GetReadyData;
+                learnData = computingJhs3S2Ss3Lesson2LearnData;
                 practiceData = computingJhs3S2Ss3Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss3Lesson2IndependentQuizData;
@@ -5333,6 +5516,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 2 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S2Ss3Lesson3GetReadyData;
+                learnData = computingJhs3S2Ss3Lesson3LearnData;
                 practiceData = computingJhs3S2Ss3Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss3Lesson3IndependentQuizData;
@@ -5344,6 +5529,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 3 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S2Ss4Lesson1GetReadyData;
+                learnData = computingJhs3S2Ss4Lesson1LearnData;
                 practiceData = computingJhs3S2Ss4Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss4Lesson1IndependentQuizData;
@@ -5355,6 +5542,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 3 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S2Ss4Lesson2GetReadyData;
+                learnData = computingJhs3S2Ss4Lesson2LearnData;
                 practiceData = computingJhs3S2Ss4Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss4Lesson2IndependentQuizData;
@@ -5366,6 +5555,8 @@ class SidebarController extends GetxController {
                   sIndex == 1 &&
                   ssIndex == 3 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S2Ss4Lesson3GetReadyData;
+                learnData = computingJhs3S2Ss4Lesson3LearnData;
                 practiceData = computingJhs3S2Ss4Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S2Ss4Lesson3IndependentQuizData;
@@ -5377,6 +5568,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S3Ss1Lesson1GetReadyData;
+                learnData = computingJhs3S3Ss1Lesson1LearnData;
                 practiceData = computingJhs3S3Ss1Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss1Lesson1IndependentQuizData;
@@ -5388,6 +5581,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S3Ss1Lesson2GetReadyData;
+                learnData = computingJhs3S3Ss1Lesson2LearnData;
                 practiceData = computingJhs3S3Ss1Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss1Lesson2IndependentQuizData;
@@ -5399,6 +5594,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S3Ss2Lesson1GetReadyData;
+                learnData = computingJhs3S3Ss2Lesson1LearnData;
                 practiceData = computingJhs3S3Ss2Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss2Lesson1IndependentQuizData;
@@ -5410,6 +5607,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 2 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S3Ss3Lesson1GetReadyData;
+                learnData = computingJhs3S3Ss3Lesson1LearnData;
                 practiceData = computingJhs3S3Ss3Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss3Lesson1IndependentQuizData;
@@ -5421,6 +5620,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 2 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S3Ss3Lesson2GetReadyData;
+                learnData = computingJhs3S3Ss3Lesson2LearnData;
                 practiceData = computingJhs3S3Ss3Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss3Lesson2IndependentQuizData;
@@ -5432,6 +5633,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 3 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S3Ss4Lesson1GetReadyData;
+                learnData = computingJhs3S3Ss4Lesson1LearnData;
                 practiceData = computingJhs3S3Ss4Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss4Lesson1IndependentQuizData;
@@ -5443,6 +5646,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 3 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S3Ss4Lesson2GetReadyData;
+                learnData = computingJhs3S3Ss4Lesson2LearnData;
                 practiceData = computingJhs3S3Ss4Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss4Lesson2IndependentQuizData;
@@ -5454,6 +5659,8 @@ class SidebarController extends GetxController {
                   sIndex == 2 &&
                   ssIndex == 3 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S3Ss4Lesson3GetReadyData;
+                learnData = computingJhs3S3Ss4Lesson3LearnData;
                 practiceData = computingJhs3S3Ss4Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S3Ss4Lesson3IndependentQuizData;
@@ -5465,6 +5672,8 @@ class SidebarController extends GetxController {
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S4Ss1Lesson1GetReadyData;
+                learnData = computingJhs3S4Ss1Lesson1LearnData;
                 practiceData = computingJhs3S4Ss1Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S4Ss1Lesson1IndependentQuizData;
@@ -5476,6 +5685,8 @@ class SidebarController extends GetxController {
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S4Ss1Lesson2GetReadyData;
+                learnData = computingJhs3S4Ss1Lesson2LearnData;
                 practiceData = computingJhs3S4Ss1Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S4Ss1Lesson2IndependentQuizData;
@@ -5487,6 +5698,8 @@ class SidebarController extends GetxController {
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
+                getReadyData = computingJhs3S4Ss1Lesson3GetReadyData;
+                learnData = computingJhs3S4Ss1Lesson3LearnData;
                 practiceData = computingJhs3S4Ss1Lesson3PracticeData;
                 independentPracticeData =
                     computingJhs3S4Ss1Lesson3IndependentQuizData;
@@ -5498,6 +5711,8 @@ class SidebarController extends GetxController {
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S4Ss2Lesson1GetReadyData;
+                learnData = computingJhs3S4Ss2Lesson1LearnData;
                 practiceData = computingJhs3S4Ss2Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S4Ss2Lesson1IndependentQuizData;
@@ -5509,6 +5724,8 @@ class SidebarController extends GetxController {
                   sIndex == 3 &&
                   ssIndex == 1 &&
                   lIndex == 1) {
+                getReadyData = computingJhs3S4Ss2Lesson2GetReadyData;
+                learnData = computingJhs3S4Ss2Lesson2LearnData;
                 practiceData = computingJhs3S4Ss2Lesson2PracticeData;
                 independentPracticeData =
                     computingJhs3S4Ss2Lesson2IndependentQuizData;
@@ -5520,6 +5737,8 @@ class SidebarController extends GetxController {
                   sIndex == 3 &&
                   ssIndex == 2 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S4Ss3Lesson1GetReadyData;
+                learnData = computingJhs3S4Ss3Lesson1LearnData;
                 practiceData = computingJhs3S4Ss3Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S4Ss3Lesson1IndependentQuizData;
@@ -5530,6 +5749,8 @@ class SidebarController extends GetxController {
                   sIndex == 3 &&
                   ssIndex == 3 &&
                   lIndex == 0) {
+                getReadyData = computingJhs3S4Ss4Lesson1GetReadyData;
+                learnData = computingJhs3S4Ss4Lesson1LearnData;
                 practiceData = computingJhs3S4Ss4Lesson1PracticeData;
                 independentPracticeData =
                     computingJhs3S4Ss4Lesson1IndependentQuizData;
@@ -11280,18 +11501,16 @@ class SidebarController extends GetxController {
         final normalStrand = generatedStrands[sIndex];
 
         List<Lesson> beceLessonsForStrand = [];
-        for (
-          int ssIndex = 0;
-          ssIndex < normalStrand.subStrands.length;
-          ssIndex++
-        ) {
+        for (int ssIndex = 0;
+            ssIndex < normalStrand.subStrands.length;
+            ssIndex++) {
           final normalSubStrand = normalStrand.subStrands[ssIndex];
 
           final String gradeClean = grade.replaceAll(' ', '');
           final int sNumber = sIndex + 1;
           final int ssNumber = ssIndex + 1;
-          final String normalizedSubStrandTitle = normalSubStrand.subtitle
-              .trim();
+          final String normalizedSubStrandTitle =
+              normalSubStrand.subtitle.trim();
 
           // Subject name aliases
           final List<String> subjectAliases = [
@@ -11376,9 +11595,8 @@ class SidebarController extends GetxController {
 
           // Extract display name: strip all prefix tokens, keep only the custom name after " - "
           String displaySubStrandName = normalSubStrand.subtitle;
-          final String rawKey = matchedQuizKey.isNotEmpty
-              ? matchedQuizKey
-              : matchedPracticeKey;
+          final String rawKey =
+              matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
           if (rawKey.isNotEmpty) {
             if (rawKey.contains(" - ")) {
               displaySubStrandName = rawKey.split(" - ").last.trim();
