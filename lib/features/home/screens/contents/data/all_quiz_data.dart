@@ -1,5 +1,1214 @@
 import '../model/quiz_model.dart';
 
+final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary reason for identifying specific community challenges before designing an artefact?",
+      options: [
+        "It guarantees that the resulting product meets genuine local needs",
+        "It allows the designer to skip drawing plans in their sketchbook",
+        "It reduces the need to test the prototype with actual local users",
+        "It ensures that no manual hand tools are required in construction",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Identifying community challenges ensures the design targets an actual problem, delivering value and practical relief to the community.",
+    ),
+    QuizQuestion(
+      question: "2. When planning a new product, which factor determines the choice of materials for construction?",
+      options: [
+        "How quickly the raw material can be thrown into local gutters",
+        "Durability, availability, cost, and suitability for the task",
+        "Ensuring that the raw material cannot be measured with rulers",
+        "Using only materials imported from distant overseas factories",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Material selection depends on whether the resource is accessible, affordable, strong enough, and appropriate for the intended design function.",
+    ),
+    QuizQuestion(
+      question: "3. Why do designers produce scale drawings using digital applications before cutting materials?",
+      options: [
+        "To increase the amount of fabric waste created during trimming",
+        "To avoid having to consult any community members about needs",
+        "To achieve exact measurements and minimise construction errors",
+        "To replace physical testing of the finished working prototype",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Digital drafting provides high precision, clean dimensions, and correct scaling, which prevents costly mistakes during fabrication.",
+    ),
+    QuizQuestion(
+      question: "4. A student constructs a prototype carry pouch using cleaned, fused water sachets. What problem does this directly address?",
+      options: [
+        "Reducing plastic litter while providing protective book storage",
+        "Increasing the consumption of charcoal in domestic kitchen stoves",
+        "Eliminating the need for students to write exams in classrooms",
+        "Causing heavy erosion along unpaved motorable public highways",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Repurposing sachet waste into a school bag simultaneously removes plastic litter from the environment and protects school supplies.",
+    ),
+    QuizQuestion(
+      question: "5. What is the main function of constructing a three-dimensional prototype during the design cycle?",
+      options: [
+        "To display the item in commercial shops for permanent storage",
+        "To evaluate structural strength, form, and practical handling",
+        "To prove that paper sketches are completely useless to artisans",
+        "To avoid recording any student marks in practical course books",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A physical prototype allows the designer to test dimensions, comfort, weight capacity, and real-world durability.",
+    ),
+    QuizQuestion(
+      question: "6. Which activity occurs during the public display of an innovative model artefact?",
+      options: [
+        "Destroying all earlier preparatory sketches and measurement data",
+        "Forbidding visitors from touching or observing the working model",
+        "Presenting the prototype to receive constructive user feedback",
+        "Demanding cash payments from school teachers who view the model",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Displaying the prototype allows community members and peers to inspect the design and offer feedback for further refinement.",
+    ),
+    QuizQuestion(
+      question: "7. During testing, a prototype water container is found to leak along its lower heat-fused seam. What is the designer's next step?",
+      options: [
+        "Paint over the exterior with bright decorative poster colors",
+        "Tell the users that water containers are not meant to be dry",
+        "Abandon the design project and leave the school premises",
+        "Adjust the heat settings and reinforce the seam construction",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "When a structural defect is identified during testing, the designer must refine the fabrication process to fix the leak.",
+    ),
+    QuizQuestion(
+      question: "8. Why are box stitches with cross diagonals used to attach straps to heavy-duty bags?",
+      options: [
+        "They distribute mechanical tension over a wider surface area",
+        "They make the bag much heavier so students cannot lift it easily",
+        "They allow the carrying strap to detach easily in gentle winds",
+        "They use up scrap thread that would otherwise be discarded safely",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Cross-box stitching spreads mechanical pulling forces evenly across the material, preventing the strap from ripping out under load.",
+    ),
+    QuizQuestion(
+      question: "9. How does documenting each fabrication step with a tablet camera assist a young designer?",
+      options: [
+        "It takes the place of carrying out any physical sewing work",
+        "It automatically builds the final prototype without human effort",
+        "It provides a visual record to analyse mistakes and share methods",
+        "It makes the prototype waterproof without using plastic layers",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Digital photo documentation provides a clear visual log of the manufacturing process, highlighting errors and aiding reflection.",
+    ),
+    QuizQuestion(
+      question: "10. What makes an artefact truly successful in solving a local community problem?",
+      options: [
+        "It uses only imported luxury items that local people cannot afford",
+        "It is extremely complex to operate and impossible to repair locally",
+        "It remains locked inside a glass display case inside the workshop",
+        "It functions reliably, uses accessible materials, and aids users",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A design solution succeeds when it works effectively, remains affordable and repairable, and directly solves the community's problem.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first systematic step a designer takes when beginning a new project?",
+      options: [
+        "Selling finished commercial products",
+        "Identifying and defining the problem",
+        "Applying bright gloss paint to wood",
+        "Constructing a complete metal frame",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The design cycle always starts with identifying and clearly defining the problem that needs a practical solution.",
+    ),
+    QuizQuestion(
+      question: "2. Which document outlines the instructions, constraints, and objectives for a design project?",
+      options: [
+        "The design brief",
+        "The workshop receipt",
+        "The delivery ledger",
+        "The inventory voucher",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A design brief outlines the project's purpose, target audience, material limits, and required specifications.",
+    ),
+    QuizQuestion(
+      question: "3. Why is research considered essential before drafting final design drawings?",
+      options: [
+        "It supplies factual data about user needs and site constraints",
+        "It eliminates all manual work during the production stage",
+        "It allows the designer to copy existing artefacts unchanged",
+        "It guarantees that the finished product never requires repairs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Research ensures decisions rest on real facts, user requirements, and environmental conditions rather than guesswork.",
+    ),
+    QuizQuestion(
+      question: "4. What term describes a full-scale or scaled physical model built to evaluate a design concept?",
+      options: ["Inventory", "Catalogue", "Billboard", "Prototype"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A prototype is a physical working mock-up made to test dimensions, comfort, and operational performance.",
+    ),
+    QuizQuestion(
+      question: "5. During which phase does a designer select the best sketch and work out exact joints and dimensions?",
+      options: [
+        "Refuse sorting",
+        "Idea development",
+        "Raw harvesting",
+        "Factory scrapping",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Idea development refines selected brainstormed sketches into precise working drawings with specifications.",
+    ),
+    QuizQuestion(
+      question: "6. What is the main reason for testing a crossing sign prototype outdoors along an active road?",
+      options: [
+        "To check driver visibility and structural stability against real wind",
+        "To ensure school children spend their study hours outside class",
+        "To decorate the asphalt surface with colourful sign markers",
+        "To let passing vehicles run over the prototype during rush hour",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Field testing verifies how the sign performs against natural lighting, long viewing distances, and heavy traffic air gusts.",
+    ),
+    QuizQuestion(
+      question: "7. When test users report that a chair seat causes back strain, which step should the designer take next?",
+      options: [
+        "Tell the users that they are sitting down in the wrong position",
+        "Stop manufacturing all types of furniture across the country",
+        "Refine the backrest curvature and cushion padding in the drawings",
+        "Paint the wooden legs a darker shade to distract the customer",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Negative user feedback during testing signals the need for ergonomic refinement and structural adjustments.",
+    ),
+    QuizQuestion(
+      question: "8. Why do designers produce multiple sketches during the ideation phase?",
+      options: [
+        "To waste tracing paper before purchasing construction timber",
+        "To confuse workshop technicians during timber cutting stages",
+        "To prove that mechanical drawing is an unnecessary school trade",
+        "To explore a wide variety of possible solutions before choosing",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Generating diverse rough sketches allows designers to explore multiple creative avenues before selecting the strongest solution.",
+    ),
+    QuizQuestion(
+      question: "9. What outcome typically occurs if a technician skips prototyping and builds directly in expensive metal?",
+      options: [
+        "Errors are found late, causing high financial waste and rework",
+        "The product is guaranteed to win national design competitions",
+        "The finished artefact functions perfectly without any testing",
+        "The manufacturing timeline is doubled without any errors found",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Bypassing low-cost prototyping means mistakes are discovered only after spending substantial money and labor on permanent materials.",
+    ),
+    QuizQuestion(
+      question: "10. How does continuous refinement benefit existing commercial products over time?",
+      options: [
+        "It makes older tools completely impossible to recycle or repair",
+        "It increases the physical weight of consumer products steadily",
+        "It reduces consumer choice by removing all varied products",
+        "It improves efficiency, safety, and comfort based on user needs",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Ongoing refinement modifies existing products so they function more safely, use less energy, and meet evolving user needs.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary definition of creativity in the design process?",
+      options: [
+        "The act of duplicating an existing artefact without alterations",
+        "The mental ability to conceive original ideas to address needs",
+        "The process of selling manufactured goods in local market stalls",
+        "The physical destruction of broken equipment found in schools",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Creativity is defined as the cognitive ability to form fresh, original concepts and visualize novel ways to solve human problems.",
+    ),
+    QuizQuestion(
+      question: "2. How does innovation differ primarily from creativity?",
+      options: [
+        "Innovation translates creative ideas into functional solutions",
+        "Innovation deals only with sketching drawings inside art pads",
+        "Innovation avoids using any tools, technology, or materials",
+        "Innovation describes thoughts that never become real objects",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "While creativity involves thinking of new ideas, innovation focuses on implementing and manufacturing those ideas into working artefacts or systems.",
+    ),
+    QuizQuestion(
+      question: "3. A Ghanaian artisan transforms discarded vehicle tyres into durable sole padding for local sandals. What does this process demonstrate?",
+      options: [
+        "Unplanned destruction of raw material",
+        "Routine maintenance of vehicle engines",
+        "Neglecting community sanitation rules",
+        "Innovative reuse to solve material costs",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Repurposing durable waste rubber into protective footwear soles is a practical innovation that cuts material expenses and solves waste problems.",
+    ),
+    QuizQuestion(
+      question: "4. Which artefact is designed specifically to assist individuals who have lost a lower limb?",
+      options: [
+        "An electronic hearing amplifier",
+        "An insulated domestic cookstove",
+        "A fitted prosthetic walking limb",
+        "A stackable dual classroom desk",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Prosthetic limbs are assistive medical artefacts engineered to replace missing body parts and restore independent movement.",
+    ),
+    QuizQuestion(
+      question: "5. Why do engineers add wide, treaded tyres to wheelchairs built for rural localities?",
+      options: [
+        "To make mobility aids navigate unpaved sandy paths easily",
+        "To ensure the chair travels at high speed on smooth floors",
+        "To prevent the user from taking the chair outside houses",
+        "To increase the weight of the metal chassis substantially",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Wide tyres with deep treads distribute weight and grip uneven, sandy, or muddy ground, preventing the chair from sinking or tipping.",
+    ),
+    QuizQuestion(
+      question: "6. Which feature represents a common design weakness of untreated cane market baskets?",
+      options: [
+        "High resistance to moisture and rain",
+        "Complete inability to hold any crops",
+        "Excessive weight when empty of goods",
+        "Vulnerability to rot and cane splintering",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Natural untreated plant fibres degrade and splinter when exposed repeatedly to dampness, damaging goods and injuring handlers.",
+    ),
+    QuizQuestion(
+      question: "7. A student sketches a plan to collect morning dew using inverted plastic cones for school garden irrigation. At this sketching stage, what is being displayed?",
+      options: ["Creativity", "Mass sales", "Assembly", "Packaging"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Developing and sketching a novel concept before it is physically tested and manufactured represents the creative ideation phase.",
+    ),
+    QuizQuestion(
+      question: "8. What is the main operational benefit of an energy-saving ceramic charcoal stove?",
+      options: [
+        "It radiates heat in all directions away from the cooking pot",
+        "It traps thermal energy inside, using less charcoal to cook",
+        "It produces heavy clouds of smoke to deter garden insects",
+        "It requires double the charcoal needed by an open metal pot",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The fired clay insulation holds thermal energy directly beneath the cooking vessel, cutting fuel consumption and speeding up cooking.",
+    ),
+    QuizQuestion(
+      question: "9. Why is it beneficial to replace heavy one-piece wooden desks with stackable classroom chairs?",
+      options: [
+        "Stackable chairs permanently prevent students from working",
+        "Fixed furniture makes cleaning the concrete floor much easier",
+        "Stackable units permit rapid classroom rearrangement and storage",
+        "Heavy desks cannot be broken down by timber milling factories",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Modular, stackable furniture allows spaces to be reconfigured quickly for diverse learning activities and stacked to free up floor space.",
+    ),
+    QuizQuestion(
+      question: "10. When an existing product is redesigned to correct safety hazards identified by consumers, what design phase is taking place?",
+      options: [
+        "Idea abandonment",
+        "Product rejection",
+        "Visual advertising",
+        "Product refinement",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Refinement or modification occurs when designers take feedback about an artefact's weaknesses and improve its form, safety, or function.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss2Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_L3/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which stage of the creative cycle involves organizing imaginative thoughts into workable visual concepts?",
+      options: ["Creativity", "Decoration", "Ventilation", "Sanitation"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In the design process, imagination conceives ideas, creativity structures them into visual concepts, and innovation produces the physical solution.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary purpose of constructing a three-dimensional physical mock-up?",
+      options: [
+        "To avoid drawing any outlines on flat paper sheets",
+        "To test proportions and functionality in real life",
+        "To store unused graphite pencils in the classroom",
+        "To replace all manual guiding tools on the desk",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A 3D model allows designers to physically evaluate stability, dimensions, ergonomics, and structural strength before full manufacture.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which item is an example of an innovative design artefact created for individuals with special mobility needs?",
+      options: [
+        "A wooden dining chair",
+        "A school notebook bag",
+        "A handheld paper fan",
+        "A manual wheelchair",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Wheelchairs and prosthetic limbs are assistive innovations designed to restore independent mobility to physically challenged individuals.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the flat pattern containing the layout and fold lines of a three-dimensional model called?",
+      options: ["A template", "A gradient", "A pigment", "A texture"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A template or net is a 2D guide drawn on flat sheet material outlining the boundary cuts and fold lines needed to assemble a 3D form.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why do students exhibit their completed model prototypes in the classroom?",
+      options: [
+        "To prevent other pupils from examining the work",
+        "To sell the designs immediately for quick profit",
+        "To receive feedback and appraise their performance",
+        "To discard broken scraps of leftover cardboard",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Exhibitions provide an opportunity for peer review, critique, and appreciation, allowing the designer to refine and improve the artefact.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which modelling material is made by mixing shredded waste paper with water and starch adhesive?",
+      options: [
+        "Paper pulp",
+        "Grey styrofoam",
+        "Plastic acrylic",
+        "Fired stoneware",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Paper pulp, or papier-mâché, is an affordable modelling medium formed by blending soaked paper fibres with a binder paste.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does a designer confirm that a proposed packaging model will hold its contents securely?",
+      options: [
+        "By painting the outside surface with bright red gouache",
+        "By estimating the storage capacity without any testing",
+        "By placing test objects inside the assembled mock-up",
+        "By increasing the brightness on the computer screen",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Placing real contents inside the physical prototype tests its capacity, structural integrity, and joint strength under realistic conditions.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which group of materials consists entirely of media used for physical model making?",
+      options: [
+        "Computer mouse, stylus, and desktop monitor",
+        "Eraser rubber, sharpener, and plastic ruler",
+        "Ink fountain pen, drafting film, and T-square",
+        "Cardboard, styrofoam, clay, and paper pulp",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Cardboard, styrofoam, natural clay, and paper pulp are all recognized physical three-dimensional modelling media.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In what way does community observation assist the design ideation phase?",
+      options: [
+        "It replaces the requirement to learn line drawing",
+        "It reveals everyday challenges requiring solutions",
+        "It ensures that no physical models will be made",
+        "It automatically prints two-dimensional templates",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Observing daily life in the community uncovers real-world problems and inefficiencies that inspire meaningful design innovations.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What should a student designer do if feedback reveals their clay model collapses easily?",
+      options: [
+        "Hide the damaged clay model from the class teacher",
+        "Abandon the design project and select a new course",
+        "Argue with classmates who evaluated the prototype",
+        "Reinforce internal joints and adjust wall thickness",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Feedback identifies structural weaknesses; the designer responds by modifying wall thickness, scoring joints better, or reinforcing supports.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss2Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_l2/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which device replaces physical paper by serving as the primary visual display for digital drawing?",
+      options: [
+        "Computer monitor screen",
+        "Mechanical desktop plotter",
+        "External hard drive disk",
+        "Laser printing machine",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In digital drawing, the monitor or tablet display screen acts as the virtual surface that presents the electronic artwork.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How does a digital stylus differ from an ordinary plastic pointer when used with a graphics tablet?",
+      options: [
+        "It deposits real liquid ink onto the glass screen surface",
+        "It has pressure sensitivity that responds to hand force",
+        "It functions only when held at an exact vertical angle",
+        "It erases computer hardware memory if pressed heavily",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A digital stylus features built-in electronic pressure sensors that regulate line thickness and tone opacity according to the user's hand pressure.",
+    ),
+    QuizQuestion(
+      question:
+          "3. An illustrator wants to draw a smooth, perfectly straight border outline on a digital tablet. What should they do?",
+      options: [
+        "Move the stylus rapidly across the pad surface by hand",
+        "Increase the screen brightness control to maximum level",
+        "Wash the graphics pad with warm water and soft soap",
+        "Use the software vector line or line guide constraint",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Digital drawing programmes include dedicated line and geometric shape tools that automatically guide strokes into flawless straight edges.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the function of the opacity setting in digital drawing and shading software?",
+      options: [
+        "It sets how transparent or solid a stroke appears",
+        "It speeds up the computer internet download rate",
+        "It renames the active graphic file on the drive",
+        "It locks the external keyboard against key inputs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Opacity controls stroke transparency; lowering opacity allows an artist to build up soft mid-tones and translucent shading layers gradually.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which digital tool allows an artist to smooth out rough brush transitions to create realistic form?",
+      options: [
+        "Canvas crop tool",
+        "Text typing tool",
+        "Digital blend tool",
+        "Fill bucket tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The digital blend or smudge tool softens edges between contrasting values, producing smooth gradients across a shape.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is the digital undo command valuable to an artist working on an intricate outline?",
+      options: [
+        "It reverses the last action without damaging work",
+        "It converts a raster image into a carved clay model",
+        "It prints a physical copy directly onto cardboard",
+        "It increases the volume level of audio narration",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The undo feature permits artists to instantly erase an accidental stroke without scratching, smudging, or tearing the canvas.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does an artist create a low tone shadow digitally underneath an object resting on a table?",
+      options: [
+        "By painting with a pure white brush on an overlay layer",
+        "By increasing the canvas display zoom level to two hundred",
+        "By brushing dense dark tones along the surface underside",
+        "By selecting the bright highlight gradient preset tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Low tones represent dark shadow areas; applying dense dark pigment beneath the object creates the proper illusion of cast shadow.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which software programme is specifically recognized for creating simple three-dimensional design shapes?",
+      options: [
+        "Spreadsheets",
+        "Music Mixer",
+        "Web Browser",
+        "SketchUp Free",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "SketchUp Free and Tinkercad are CAD software packages designed for constructing and viewing three-dimensional shapes and forms.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What role does an interactive smart board play in a creative design classroom?",
+      options: [
+        "It functions solely as a television receiver for movies",
+        "It acts as a large touch-sensitive display for drawing",
+        "It produces carved wooden stamp blocks automatically",
+        "It binds loose sketch pad sheets into hardback books",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Smart boards serve as large-format digital display surfaces where teachers and students can draw, manipulate shapes, and present digital art interactively.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When transitioning from manual drawing to digital design, what core principle remains unchanged?",
+      options: [
+        "The necessity of buying replacement wooden pencils",
+        "The exact weight and thickness of cartridge paper",
+        "The need for wet mixing water to dissolve colours",
+        "The use of light and shade to indicate solid volume",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Regardless of whether manual or digital tools are used, the fundamental design principle of using light, mid-tones, and shadows to render form remains the same.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss2Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_L1/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which instrument is designed specifically to measure and construct precise angles in manual drawing?",
+      options: ["Protractor", "Paintbrush", "T-square", "Sandpaper"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A protractor is a semi-circular manual guiding tool calibrated in degrees to measure and draw accurate angles.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What visual effect does an artist achieve by adding tonal value to an outline drawing?",
+      options: [
+        "It flattens the shapes into solid two-dimensional silhouettes",
+        "It creates the illusion of three-dimensional form and depth",
+        "It permanently erases all visible construction guide marks",
+        "It transforms the dry drawing surface into heavy wet pulp",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Tonal shading introduces light and dark contrasts that give flat two-dimensional outline shapes the appearance of three-dimensional solid volume.",
+    ),
+    QuizQuestion(
+      question:
+          "3. A designer draws parallel lines, then adds a second set of lines crossing over the first. What technique is this?",
+      options: ["Stippling", "Smudging", "Blending", "Cross-hatching"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Cross-hatching is the technique of overlaying two or more intersecting sets of parallel lines to create darker tones.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which manual tool is classified as a drawing material rather than a drawing tool?",
+      options: [
+        "Cartridge paper",
+        "Wooden T-square",
+        "Graphite pencil",
+        "Plastic set square",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Paper, cardboard, and sketch pads are materials (the surface receiving marks), while pencils, rulers, and squares are tools used to create or guide marks.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which method creates smooth tonal transitions by softening graphite or charcoal marks with a paper stump?",
+      options: ["Stippling", "Rendering", "Blending", "Hatching"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Blending, also called smudging, uses an implement such as a paper stump, tissue, or finger to smooth out pencil or charcoal lines into continuous gradients.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does an artist use a hard pencil grade such as 2H during the initial outline stage of a design?",
+      options: [
+        "It produces light lines that are easily guided and erased",
+        "It provides deep, velvety black tones for dark cast shadows",
+        "It spreads soft pigment over large areas without pressure",
+        "It colours paper surfaces with thick, water-soluble ink",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Hard pencils contain more clay binder, leaving faint, thin lines that serve well for initial layouts without leaving heavy graphite buildup.",
+    ),
+    QuizQuestion(
+      question:
+          "7. In tonal scale terminology, what does a low tone represent on an illuminated object?",
+      options: [
+        "The brightest point where light directly strikes the object",
+        "The overall background colour of the surrounding room space",
+        "The deep, dark area where the least amount of light falls",
+        "The medium grey tone found across the centre of the object",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "On a tonal scale, high tones represent highlights, medium tones represent mid-tones, and low tones represent deep shade and shadow areas.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens to the perceived tone in stippling when dots are placed very far apart?",
+      options: [
+        "The surface appears significantly darker and denser",
+        "The lines automatically merge into a solid outline",
+        "The area remains unaffected by surrounding lighting",
+        "The surface appears lighter because more paper shows",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "In stippling, spacing dots widely allows the bright white of the paper to dominate, creating a light value or high tone.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which pair consists entirely of guiding tools used to construct geometric designs?",
+      options: [
+        "Charcoal and cartridge paper",
+        "Set square and T-square",
+        "Graphite pencil and ruler",
+        "Drawing board and pen",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Both set squares and T-squares are manual guiding tools used to rule straight lines and set precise angles.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why must an artist establish light source direction before shading an outline drawing?",
+      options: [
+        "To select which brand of drawing paper will be purchased",
+        "To decide whether to use a T-square or a long flat ruler",
+        "To determine the correct size of the outer picture frame",
+        "To place highlights and shadows in their correct positions",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The position of the light source dictates where highlights fall and where shadows form; without it, shading will appear inconsistent and unnatural.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss1Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss1_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which principle of design is demonstrated when a carved adinkra symbol is stamped repeatedly across a cloth in structured rows?",
+      options: ["Pattern", "Variety", "Volume", "Shading"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A pattern is formed when a decorative motif or unit repeats in an organized, predictable sequence across a surface.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why does an artist use dominance or emphasis when creating an informational roadside health banner?",
+      options: [
+        "To hide secondary details beneath thick paint layers",
+        "To make the most important warning message stand out",
+        "To make all letterings look completely identical",
+        "To reduce the amount of ink required for printing",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Dominance or emphasis directs the viewer's immediate visual attention to the most crucial part of a design.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which natural structure demonstrates clear symmetrical balance across its entire physical form?",
+      options: [
+        "A jagged coastline shaped by rough ocean waves",
+        "A winding river carving through a forest valley",
+        "An open butterfly resting with outstretched wings",
+        "An uneven boulder resting on a rocky mountain slope",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A butterfly's wings show bilateral symmetry, meaning both halves match each other as mirror images.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary function of proportion in the construction of school desks and classroom chairs?",
+      options: [
+        "Ensuring the furniture dimensions fit the human body",
+        "Making the furniture weigh more than heavy iron beams",
+        "Guaranteeing that only dark oil paint covers the wood",
+        "Painting bright geometric shapes across all four legs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Proportion governs the comparative scale and size relationships between objects, ensuring furniture fits human physical dimensions.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How does variety improve a complex design composition that contains numerous repeated elements?",
+      options: [
+        "It replaces all elements with completely blank space",
+        "It creates subtle differences to avoid visual boredom",
+        "It forces every line to share the exact same thickness",
+        "It removes all bright warm colours from the final work",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Variety introduces diverse shapes, colours, or textures to prevent compositions with repeating elements from becoming monotonous.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of the following describes the principle of movement when observing a well-composed painting?",
+      options: [
+        "The physical vibration of the paper when dried",
+        "The fast movement of workers in an art studio",
+        "The visual path that guides the viewer's eyes",
+        "The mechanical rotation of an industrial printing press",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Movement in visual design is the deliberate visual path created by lines, edges, and rhythms that guides the viewer's eyes.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What occurs when an artist achieves unity across all parts of an architectural structure?",
+      options: [
+        "The building uses a single small window for ventilation",
+        "The roof costs substantially more than the foundation",
+        "Every structural component looks identical in dimension",
+        "All visual elements work together in total harmony",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Unity is achieved when all elements and principles combine harmoniously to create a cohesive, balanced whole.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which pair of features best illustrates the use of texture contrast on a handcrafted container?",
+      options: [
+        "A coarse woven raffia body with a smooth brass lid",
+        "A red circular dot placed near a red square box",
+        "A straight black line drawn parallel to a black line",
+        "A small wooden bead resting beside a small clay bead",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Texture contrast is produced by placing contrasting tactile surfaces, such as rough raffia and polished smooth metal, side by side.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In what way does visual rhythm differ from simple repetition in a decorative wall mural?",
+      options: [
+        "Rhythm requires painting with only cold primary hues",
+        "Rhythm produces a sense of tempo through variations",
+        "Rhythm eliminates all geometric shapes from the work",
+        "Rhythm costs far more to execute with local materials",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "While repetition repeats the same element, rhythm uses repetition with intervals, sizes, or direction to create an active visual beat.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When both sides of an artwork are different in arrangement but still balance each other visually, what principle is present?",
+      options: [
+        "Linear perspective",
+        "Radial proportion",
+        "Organic texture",
+        "Asymmetrical balance",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Asymmetrical balance uses unequal arrangements and varied visual weights that still achieve overall visual stability.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss1Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss1_l2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which device replaces physical paper by serving as the primary visual display for digital drawing?",
+      options: [
+        "Computer monitor screen",
+        "Mechanical desktop plotter",
+        "External hard drive disk",
+        "Laser printing machine",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In digital drawing, the monitor or tablet display screen acts as the virtual surface that presents the electronic artwork.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How does a digital stylus differ from an ordinary plastic pointer when used with a graphics tablet?",
+      options: [
+        "It deposits real liquid ink onto the glass screen surface",
+        "It has pressure sensitivity that responds to hand force",
+        "It functions only when held at an exact vertical angle",
+        "It erases computer hardware memory if pressed heavily",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A digital stylus features built-in electronic pressure sensors that regulate line thickness and tone opacity according to the user's hand pressure.",
+    ),
+    QuizQuestion(
+      question:
+          "3. An illustrator wants to draw a smooth, perfectly straight border outline on a digital tablet. What should they do?",
+      options: [
+        "Move the stylus rapidly across the pad surface by hand",
+        "Increase the screen brightness control to maximum level",
+        "Wash the graphics pad with warm water and soft soap",
+        "Use the software vector line or line guide constraint",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Digital drawing programmes include dedicated line and geometric shape tools that automatically guide strokes into flawless straight edges.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the function of the opacity setting in digital drawing and shading software?",
+      options: [
+        "It sets how transparent or solid a stroke appears",
+        "It speeds up the computer internet download rate",
+        "It renames the active graphic file on the drive",
+        "It locks the external keyboard against key inputs",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Opacity controls stroke transparency; lowering opacity allows an artist to build up soft mid-tones and translucent shading layers gradually.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which digital tool allows an artist to smooth out rough brush transitions to create realistic form?",
+      options: [
+        "Canvas crop tool",
+        "Text typing tool",
+        "Digital blend tool",
+        "Fill bucket tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The digital blend or smudge tool softens edges between contrasting values, producing smooth gradients across a shape.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is the digital undo command valuable to an artist working on an intricate outline?",
+      options: [
+        "It reverses the last action without damaging work",
+        "It converts a raster image into a carved clay model",
+        "It prints a physical copy directly onto cardboard",
+        "It increases the volume level of audio narration",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The undo feature permits artists to instantly erase an accidental stroke without scratching, smudging, or tearing the canvas.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does an artist create a low tone shadow digitally underneath an object resting on a table?",
+      options: [
+        "By painting with a pure white brush on an overlay layer",
+        "By increasing the canvas display zoom level to two hundred",
+        "By brushing dense dark tones along the surface underside",
+        "By selecting the bright highlight gradient preset tool",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Low tones represent dark shadow areas; applying dense dark pigment beneath the object creates the proper illusion of cast shadow.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which software programme is specifically recognized for creating simple three-dimensional design shapes?",
+      options: ["Spreadsheets", "Music Mixer", "Web Browser", "SketchUp Free"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "SketchUp Free and Tinkercad are CAD software packages designed for constructing and viewing three-dimensional shapes and forms.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What role does an interactive smart board play in a creative design classroom?",
+      options: [
+        "It functions solely as a television receiver for movies",
+        "It acts as a large touch-sensitive display for drawing",
+        "It produces carved wooden stamp blocks automatically",
+        "It binds loose sketch pad sheets into hardback books",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Smart boards serve as large-format digital display surfaces where teachers and students can draw, manipulate shapes, and present digital art interactively.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When transitioning from manual drawing to digital design, what core principle remains unchanged?",
+      options: [
+        "The necessity of buying replacement wooden pencils",
+        "The exact weight and thickness of cartridge paper",
+        "The need for wet mixing water to dissolve colours",
+        "The use of light and shade to indicate solid volume",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Regardless of whether manual or digital tools are used, the fundamental design principle of using light, mid-tones, and shadows to render form remains the same.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S1Ss1Lesson1QuizData = QuizModel(
+  audioPath: 'assets/audio/CreativeArts/JHS1_s1_ss1_L1/8. QUIZ.mp3',
+  questions: [
+    QuizQuestion(
+      question:
+          "1. A design concept is best described as which of the following statements?",
+      options: [
+        "The underlying idea that guides an entire design project",
+        "The total price charged by a skilled artisan in town",
+        "The final coat of bright varnish applied to furniture",
+        "The written customer receipt issued after a cash sale",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The design concept is the foundational idea that guides how a product is structured, manufactured, and operated.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which natural structure directly inspired engineers to develop tall, self-cooling buildings in hot climates?",
+      options: [
+        "The curved horns of a forest antelope",
+        "The internal tunnels of a termite mound",
+        "The hard exterior shell of a river turtle",
+        "The delicate floating seeds of a silk tree",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Termite mounds use passive air currents and ventilation shafts to maintain cool internal temperatures.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How do manmade designs differ fundamentally from natural designs in their method of production?",
+      options: [
+        "Manmade designs never use straight lines or sharp corners",
+        "Manmade designs require less time to produce than leaves",
+        "Manmade designs never utilize bright contrasting colours",
+        "Manmade designs require human labour, tools, and planning",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Manmade objects require deliberate human planning, material manipulation, and workshops, unlike natural items.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A ceramic water cooler pot used in northern Ghana is designed to solve which primary human challenge?",
+      options: [
+        "Keeping drinking water cold without using electric power",
+        "Displaying bright floral patterns inside modern parlours",
+        "Preventing wild forest birds from landing near houses",
+        "Storing heavy metallic tools securely inside farm sheds",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Evaporative ceramic coolers cool water through micro-pores without needing an electrical power grid.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the core reason human designers study bird feathers and fish scales when planning new materials?",
+      options: [
+        "To eliminate all factory workers from commercial shops",
+        "To find natural ways to repel water and reduce friction",
+        "To guarantee products can be painted in a single hue",
+        "To reduce the purchase price of raw timber in markets",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Natural surfaces like fish scales and duck feathers minimize fluid drag and resist water penetration naturally.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which feature is shared equally by both natural designs and manmade creations?",
+      options: [
+        "Both decompose into fertile organic compost within weeks",
+        "Both require electronic blueprints and iron hand tools",
+        "Both display visual elements like lines, shapes, and colour",
+        "Both are manufactured inside industrial city workshops",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Both nature and manmade products share the basic visual elements of design, such as line, shape, colour, and form.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why is an engineer who models a submarine on the body of a shark using biomimicry?",
+      options: [
+        "The submarine uses living shark skin for its metal outer hull",
+        "The submarine is painted grey to blend with ocean water only",
+        "The submarine runs on fish food instead of diesel fuel tanks",
+        "The submarine adopts a streamlined shape for fluid movement",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Biomimicry involves copying biological shapes and mechanisms to improve manmade engineering performance.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which professional primarily applies design concepts to organize safe, functional indoor living spaces?",
+      options: [
+        "A certified interior designer",
+        "A marine commercial fisherman",
+        "A highway petroleum tanker driver",
+        "A heavy machinery repair mechanic",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Interior designers organize furniture, lighting, and interior layouts to maximize functional living spaces.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should a product designer do first when asked to solve a flooding problem in a community?",
+      options: [
+        "Buy twenty bags of cement before visiting the community site",
+        "Paint all surrounding residential walls with oil-based paint",
+        "Study how water flows through the area to form a clear plan",
+        "Construct large concrete blocks without measuring the ground",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Effective design begins with thorough observation, problem definition, and conceptual planning before building.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why are natural spider webs considered masterworks of natural design?",
+      options: [
+        "They are made from expensive synthetic nylon fishing cords",
+        "They require heavy industrial machines to construct neatly",
+        "They survive for dozens of years without suffering damage",
+        "They achieve exceptional tensile strength with minimal weight",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Spider webs demonstrate high tensile strength and efficient material distribution using lightweight natural silk.",
+    ),
+  ],
+);
+
 final QuizModel defaultQuizData = QuizModel(
   audioPath: 'assets/audio/ss1_l1/8. Quiz.m4a',
   questions: [
@@ -18997,7 +20206,8 @@ final QuizModel computingJhs3S2Ss4Lesson2QuizData = QuizModel(
           "The Greater Than rule applies chosen formatting (such as colour fills) to cells with values exceeding the set limit.",
     ),
     QuizQuestion(
-      question: "10. Which statement correctly contrasts a macro with a template?",
+      question:
+          "10. Which statement correctly contrasts a macro with a template?",
       options: [
         "A template only works when online",
         "A macro cannot use keystroke clicks",
@@ -19162,7 +20372,8 @@ final QuizModel computingJhs3S3Ss1Lesson1QuizData = QuizModel(
   audioPath: 'assets/audio/computing/JHS3_s3_ss1_L1/8. QUIZ.mp3',
   questions: [
     QuizQuestion(
-      question: "1. What is the main function of an e-commerce shopping website?",
+      question:
+          "1. What is the main function of an e-commerce shopping website?",
       options: [
         "Enabling commercial trade through internet platforms.",
         "Writing source code for network router hardware.",
@@ -19203,7 +20414,8 @@ final QuizModel computingJhs3S3Ss1Lesson1QuizData = QuizModel(
           "Mobile money utilizes the subscriber's SIM identity and requires a private PIN to authorize transfers.",
     ),
     QuizQuestion(
-      question: "4. What distinguishes a debit card from a standard credit card?",
+      question:
+          "4. What distinguishes a debit card from a standard credit card?",
       options: [
         "Debit cards print payment receipts on thermal paper rolls.",
         "Debit cards work only inside physical banking headquarters.",
@@ -19216,7 +20428,8 @@ final QuizModel computingJhs3S3Ss1Lesson1QuizData = QuizModel(
           "Debit cards deduct money directly from your bank balance, while credit cards provide a borrowed line of credit.",
     ),
     QuizQuestion(
-      question: "5. Why is a One-Time Password useful during online card checkout?",
+      question:
+          "5. Why is a One-Time Password useful during online card checkout?",
       options: [
         "It confirms the identity of the account holder via mobile alert.",
         "It increases the internet speed of the home wireless router.",
@@ -19271,7 +20484,8 @@ final QuizModel computingJhs3S3Ss1Lesson1QuizData = QuizModel(
           "Merchants can simply print a QR code on paper or a counter sticker, avoiding expensive electronic card readers.",
     ),
     QuizQuestion(
-      question: "9. Which description best characterizes the cryptocurrency Bitcoin?",
+      question:
+          "9. Which description best characterizes the cryptocurrency Bitcoin?",
       options: [
         "A paper banknote issued exclusively by central treasury banks.",
         "A plastic transaction card usable only at local automated tellers.",
@@ -19304,7 +20518,8 @@ final QuizModel computingJhs3S3Ss1Lesson2QuizData = QuizModel(
   audioPath: 'assets/audio/computing/JHS3_s3_ss1_L2/8. QUIZ.mp3',
   questions: [
     QuizQuestion(
-      question: "1. What does the term eLearning stand for in educational computing?",
+      question:
+          "1. What does the term eLearning stand for in educational computing?",
       options: [
         "Electronic learning using digital devices and network services.",
         "Elementary literacy taught through manual typewriter machines.",
@@ -20377,8 +21592,7 @@ final QuizModel computingJhs3S4Ss1Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation:
-          "Adding the active binary column values: 16 + 4 = 20.",
+      explanation: "Adding the active binary column values: 16 + 4 = 20.",
     ),
     QuizQuestion(
       question:
@@ -20395,8 +21609,7 @@ final QuizModel computingJhs3S4Ss1Lesson1QuizData = QuizModel(
           "Repeatedly dividing 7 by 2 produces remainders 1, 1, 1, which corresponds to 4 + 2 + 1 = 7 in decimal.",
     ),
     QuizQuestion(
-      question:
-          "6. What is the decimal value of the hexadecimal number 1A₁₆?",
+      question: "6. What is the decimal value of the hexadecimal number 1A₁₆?",
       options: [
         "16",
         "26",
@@ -20409,8 +21622,7 @@ final QuizModel computingJhs3S4Ss1Lesson1QuizData = QuizModel(
           "Hexadecimal letter A represents 10. Expanding place values: (1 × 16) + (10 × 1) = 16 + 10 = 26.",
     ),
     QuizQuestion(
-      question:
-          "7. What is the binary sum of 0110₂ and 0011₂?",
+      question: "7. What is the binary sum of 0110₂ and 0011₂?",
       options: [
         "1001₂",
         "1010₂",
@@ -20673,8 +21885,7 @@ final QuizModel computingJhs3S4Ss1Lesson3QuizData = QuizModel(
           "A static webpage displays fixed informational content that changes only when the website administrator directly edits and updates the page.",
     ),
     QuizQuestion(
-      question:
-          "5. What is the purpose of selecting a website domain name?",
+      question: "5. What is the purpose of selecting a website domain name?",
       options: [
         "It installs the operating system on hardware",
         "It provides a unique web address for users",

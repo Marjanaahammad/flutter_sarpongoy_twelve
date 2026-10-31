@@ -1,5 +1,523 @@
 import '../model/independent_practice_model.dart';
 
+final IndependentPracticeModel
+creativeArtsJhs1S1Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss3_L3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the first action a student should take before designing an artefact to address neighborhood rubbish accumulation?",
+      options: [
+        "Buy expensive industrial electric sewing equipment",
+        "Investigate the types of waste and user disposal habits",
+        "Burn the waste piles along public roadway paths",
+        "Sell unverified product drawings to local traders",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Investigating the waste and disposal habits identifies the actual problem and user needs before the student develops a suitable design.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which combination includes only manual hand tools used when fabricating a prototype bag?",
+      options: [
+        "Shears, steel ruler, sewing needle, and tailor chalk",
+        "Tablet computer, digital printer, and digital stylus",
+        "Digital camera, electric generator, and flat monitor",
+        "Laptop mouse, laser projector, and internet router",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Shears, a steel ruler, a sewing needle, and tailor chalk are operated by hand for cutting, measuring, stitching, and marking.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why should a prototype school bag undergo testing under rainy conditions before the design is finalised?",
+      options: [
+        "To make the ink on student exercise books smudge completely",
+        "To allow moisture to degrade the stitched seams permanently",
+        "To verify that the fused panels and joints keep water out",
+        "To show that plastic materials dissolve in cold rain puddles",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Rain testing checks whether the panels and joints prevent water from entering the bag and damaging school supplies.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What should a designer do if users report that a prototype bag handle tears away when loaded with books?",
+      options: [
+        "Stop talking to the users and keep selling the torn item",
+        "Order users to carry only one light notebook to school",
+        "Throw away the entire project and discard all materials",
+        "Reinforce handle joints with wider patches and box stitches",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Wider patches and box stitches spread the load across a larger area, strengthening the handle attachment and reducing tearing.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs1S1Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss3_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the primary purpose of writing a design brief before starting practical work?",
+      options: [
+        "To record sales profits made from finished school artefacts",
+        "To state clearly what will be designed, for whom, and why",
+        "To decorate the cover page of a student practical drawing book",
+        "To replace the need for physical testing of any built model",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A design brief states the intended product, its users, and the purpose it must fulfil, giving practical work a clear direction.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. At which stage does a designer produce numerous quick, unrefined sketches to explore diverse ideas?",
+      options: ["Ideation", "Packaging", "Evaluation", "Finishing"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Ideation involves generating many rough sketches to explore different possible solutions before developing a selected idea.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why are prototypes commonly made with inexpensive materials like cardboard or scrap wood?",
+      options: [
+        "To ensure the object breaks down within a few days of use",
+        "To sell the mock-up models at high prices in open markets",
+        "To test form and function without incurring heavy material costs",
+        "To bypass all future stages of user feedback and refinement",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Inexpensive prototype materials allow designers to test shape, dimensions, and function and correct mistakes before committing to costly final materials.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What action should a designer take immediately after receiving user feedback during testing?",
+      options: [
+        "Discard all research notes and abandon the design trade entirely",
+        "Sell the flawed prototype directly to local community members",
+        "Force the users to change their daily habits to fit the tool",
+        "Refine the product specifications to eliminate observed defects",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "User feedback identifies defects and unmet needs. The designer uses these findings to refine the specifications and improve the product.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs1S1Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss3_L1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which statement correctly identifies the relationship between creativity and innovation?",
+      options: [
+        "Creativity generates novel concepts, while innovation applies them.",
+        "Innovation is purely mental, while creativity requires manufacturing.",
+        "Creativity requires industrial tools, while innovation needs none.",
+        "Innovation always comes before any creative ideas are developed.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Creativity produces original ideas, while innovation puts those ideas into practice as useful products or solutions.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. An inventor develops a lightweight artificial limb manufactured from recycled plastic bottles. This product directly addresses challenges in which sector?",
+      options: [
+        "Mineral resource extraction",
+        "Healthcare and mobility",
+        "Commercial air transport",
+        "Electrical energy generation",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An artificial limb supports movement for a person with a missing limb, addressing healthcare and mobility needs.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. A designer notices that woven cane market baskets rot quickly when left in the rain. Which action represents an innovative design modification?",
+      options: [
+        "Telling market traders to stop buying perishable fruits",
+        "Leaving the damaged baskets along drainage gutters",
+        "Coating the base with waterproof resin and adding rubber feet",
+        "Ordering traders to carry farm products without containers",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Waterproof resin and rubber feet reduce moisture exposure at the basket base, improving durability while preserving its usefulness.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Why are ceramic liners added to the interior of modern metal cooking stoves?",
+      options: [
+        "To make the stove heavy so that it cannot be moved",
+        "To reflect heat inwards and lower charcoal consumption",
+        "To allow fire to spread rapidly along the outer casing",
+        "To let ashes fall onto the floor during meal preparation",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Ceramic liners insulate the stove and retain heat near the cooking pot, reducing the charcoal needed for cooking.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S1Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss2_L3/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the first step a designer takes before starting any manual or digital drawing?",
+      options: [
+        "Buy expensive paints from the local retail store",
+        "Explore the community to identify a real problem",
+        "Glue cardboard sheets together to test strength",
+        "Display blank drawing boards on classroom tables",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Observing the community helps the designer identify a real problem before developing a solution.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which material is best suited for producing a malleable, organic model of a water pot?",
+      options: ["Natural clay", "Wire mesh", "Cardboard sheet", "Hard timber"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Natural clay is malleable and can be shaped into rounded, organic forms such as a water pot.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do designers score fold lines on cardboard templates before assembling models?",
+      options: [
+        "To increase the total weight of the card sheet",
+        "To soften the outer paper fibres with cool water",
+        "To produce crisp, straight folds without tearing",
+        "To permanently bond the opposite corners together",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Scoring creates controlled fold lines that help cardboard bend cleanly without tearing.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the main benefit of testing a three-dimensional model in physical space?",
+      options: [
+        "It replaces the need for any written examination",
+        "It allows the designer to evaluate form and balance",
+        "It reduces the need for any subsequent colouring",
+        "It guarantees that the finished item will never break",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Testing a physical model lets the designer assess its form, balance, and stability.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S1Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss2_l2/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which hardware device is designed specifically to capture freehand stylus strokes directly into a computer?",
+      options: [
+        "A graphics tablet",
+        "An optical projector",
+        "A thermal paper printer",
+        "A flatbed photo scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A graphics tablet is designed to capture freehand stylus strokes directly into a computer.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What digital technique allows an artist to create an instant, smooth blend from high tone to low tone?",
+      options: [
+        "A manual eraser tool",
+        "A gradient fill tool",
+        "A scissor cut command",
+        "A canvas crop function",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A gradient fill tool creates a smooth transition from a high tone to a low tone.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do digital designers place preliminary outlines on a separate layer from their shading?",
+      options: [
+        "To reduce the file storage size of the finished artwork",
+        "To make the computer battery last longer while drawing",
+        "To adjust shading tones without altering line contours",
+        "To prevent the monitor display from showing dark pixels",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Using separate layers allows designers to adjust shading tones without altering the line contours.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which software application is commonly used for basic shape manipulation and three-dimensional modelling?",
+      options: [
+        "Microsoft Excel",
+        "Audio Sound Editor",
+        "Video Media Player",
+        "Tinkercad Design",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tinkercad Design is commonly used for basic shape manipulation and three-dimensional modelling.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S1Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss2_L1/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which manual tool is primarily used on a drawing board to establish accurate, consistent horizontal guidelines?",
+      options: [
+        "A protractor",
+        "A T-square",
+        "A charcoal stick",
+        "A blending stump",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A T-square guides a pencil along its straight edge to produce consistent horizontal lines on a drawing board.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the core function of an outline drawing in the initial stage of design production?",
+      options: [
+        "To define the outer shape and structural form of an object",
+        "To reproduce the exact dark tonal shadows of an illustration",
+        "To apply colourful liquid pigments across broad backgrounds",
+        "To polish the surface grain of heavy sheets of cardboard",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An outline establishes the outer shape and structural form before tonal shading or detail is added.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which shading method relies exclusively on clusters of small dots to establish value?",
+      options: ["Cross-hatching", "Smudging", "Stippling", "Rendering"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Stippling uses dots whose spacing and density create light and dark values.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. An artist wants to depict a bright highlight on a shiny ceramic bowl. Which action is correct?",
+      options: [
+        "Apply dense cross-hatching directly over the highlight area",
+        "Rub dark charcoal powder firmly across the exposed surface",
+        "Leave the surface area white or apply the lightest high tone",
+        "Draw multiple dark contour outlines across the lit section",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Leaving the paper white or using the lightest tone represents the brightest area where light strikes the bowl.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss1_L3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which principle of design describes the visual stability achieved when elements are arranged evenly across an artwork?",
+      options: ["Dominance", "Balance", "Variety", "Texture"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Balance creates visual stability through the arrangement of elements in an artwork.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What type of balance is displayed when elements radiate outward in a circular formation from a single central point?",
+      options: [
+        "Asymmetrical balance",
+        "Symmetrical balance",
+        "Radial balance",
+        "Irregular balance",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Radial balance arranges elements around a single central point.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. The intentional arrangement of opposing elements, such as bright yellow shapes on a black field, represents which design principle?",
+      options: ["Unity", "Rhythm", "Space", "Contrast"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Contrast places opposing elements together to highlight their differences.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which principle of design ensures that all individual visual components in an artwork agree harmoniously to form a complete whole?",
+      options: ["Unity", "Scale", "Line", "Form"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Unity brings all visual components together harmoniously into a complete whole.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s1_ss1_l2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which hardware device is designed specifically to capture freehand stylus strokes directly into a computer?",
+      options: [
+        "A graphics tablet",
+        "An optical projector",
+        "A thermal paper printer",
+        "A flatbed photo scanner",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A graphics tablet records stylus movement and sends freehand drawing strokes to a computer.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What digital technique allows an artist to create an instant, smooth blend from high tone to low tone?",
+      options: [
+        "A manual eraser tool",
+        "A gradient fill tool",
+        "A scissor cut command",
+        "A canvas crop function",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A gradient fill tool creates a smooth transition between light and dark tones.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do digital designers place preliminary outlines on a separate layer from their shading?",
+      options: [
+        "To reduce the file storage size of the finished artwork",
+        "To make the computer battery last longer while drawing",
+        "To adjust shading tones without altering line contours",
+        "To prevent the monitor display from showing dark pixels",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Separate layers allow shading to be adjusted while preserving the outline contours.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which software application is commonly used for basic shape manipulation and three-dimensional modelling?",
+      options: [
+        "Microsoft Excel",
+        "Audio Sound Editor",
+        "Video Media Player",
+        "Tinkercad Design",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tinkercad Design provides tools for combining and manipulating three-dimensional shapes.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      'assets/audio/CreativeArts/JHS1_s1_ss1_L1/7. INDEPENDENT PRACTICE.mp3',
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary role of design when applied to everyday society?",
+      options: [
+        "Creating expensive luxury items for display",
+        "Copying natural objects without any changes",
+        "Solving human problems through planned items",
+        "Painting classroom walls with bright colours",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Solving human problems through planned items",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of the following is an example of a purely natural design?",
+      options: [
+        "The interlocking scales of a dried pinecone",
+        "A woven cane laundry basket sold in Accra",
+        "A carved wooden mortar used for fufu pounding",
+        "A concrete drainage canal built near a market",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The interlocking scales of a dried pinecone",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. The practice of studying the shape of a kingfisher beak to build an aerodynamic passenger train is an example of what concept?",
+      options: [
+        "Random environmental sketching",
+        "Bio-inspiration or biomimicry",
+        "Traditional industrial casting",
+        "Manual stone carving technique",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Bio-inspiration or biomimicry",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why must modern designers consider environmental sustainability when producing new plastic containers?",
+      options: [
+        "Natural items cannot hold liquid drinks safely",
+        "Manmade items do not use visual elements of art",
+        "Synthetic waste does not break down easily",
+        "Factory machines cost more than hand tools today",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Synthetic waste does not break down easily",
+    ),
+  ],
+);
+
 final IndependentPracticeModel defaultIndependentQuizData =
     IndependentPracticeModel(
   audioPath: 'assets/audio/ss1_l1/7. Independent Practice.m4a',
@@ -6243,7 +6761,8 @@ final IndependentPracticeModel computingJhs2S4Ss2Lesson2IndependentQuizData =
 
 final IndependentPracticeModel computingJhs2S4Ss2Lesson3IndependentQuizData =
     IndependentPracticeModel(
-  audioPath: 'assets/audio/computing/JHS2_s4_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
+  audioPath:
+      'assets/audio/computing/JHS2_s4_ss2_L3/7. INDEPENDENT PRACTICE.mp3',
   questions: [
     IndependentPracticeQuestion(
       question:
@@ -6396,7 +6915,12 @@ final IndependentPracticeModel computingJhs2S4Ss2Lesson5IndependentQuizData =
     IndependentPracticeQuestion(
       question:
           "4. Which loop structure guarantees that its statements run at least once before checking a condition?",
-      options: ["FOR loop", "WHILE loop", "REPEAT UNTIL loop", "Selection block"],
+      options: [
+        "FOR loop",
+        "WHILE loop",
+        "REPEAT UNTIL loop",
+        "Selection block"
+      ],
       correctIndex: 2,
       difficulty: "Easy",
       explanation: "REPEAT UNTIL loop",
@@ -6483,7 +7007,8 @@ final IndependentPracticeModel computingJhs2S4Ss3Lesson2IndependentQuizData =
       explanation: "Soil moisture probe",
     ),
     IndependentPracticeQuestion(
-      question: "2. How do photoelectric sensors assist factory conveyor systems?",
+      question:
+          "2. How do photoelectric sensors assist factory conveyor systems?",
       options: [
         "By measuring air humidity levels",
         "By counting passing boxes and spacing",
@@ -6686,7 +7211,8 @@ final IndependentPracticeModel computingJhs2S4Ss4Lesson1IndependentQuizData =
       explanation: "Based purely on facts and data",
     ),
     IndependentPracticeQuestion(
-      question: "4. What is a key advantage of machine intelligence over humans?",
+      question:
+          "4. What is a key advantage of machine intelligence over humans?",
       options: [
         "They feel empathy for users",
         "They can handle massive amounts of data without fatigue",
@@ -6801,7 +7327,8 @@ final IndependentPracticeModel computingJhs2S4Ss4Lesson3IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "By using hand gestures, voice commands, and spatial sliders",
+      explanation:
+          "By using hand gestures, voice commands, and spatial sliders",
     ),
     IndependentPracticeQuestion(
       question:
@@ -6836,7 +7363,8 @@ final IndependentPracticeModel computingJhs2S4Ss4Lesson4IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Applying creativity, emotional insight, and abstract reasoning",
+      explanation:
+          "Applying creativity, emotional insight, and abstract reasoning",
     ),
     IndependentPracticeQuestion(
       question:
@@ -6862,7 +7390,8 @@ final IndependentPracticeModel computingJhs2S4Ss4Lesson4IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Processing massive amounts of data rapidly and consistently",
+      explanation:
+          "Processing massive amounts of data rapidly and consistently",
     ),
     IndependentPracticeQuestion(
       question:
@@ -6887,7 +7416,8 @@ final IndependentPracticeModel computingJhs2S4Ss4Lesson5IndependentQuizData =
       'assets/audio/computing/JHS2_s4_ss4_L5/6. INDEPENDENT PRACTICE.mp3',
   questions: [
     IndependentPracticeQuestion(
-      question: "1. What is the primary function of an Artificial Neural Network?",
+      question:
+          "1. What is the primary function of an Artificial Neural Network?",
       options: [
         "To simulate brain-like data processing and learn from errors",
         "To physically clean computer hardware components",
@@ -6896,10 +7426,12 @@ final IndependentPracticeModel computingJhs2S4Ss4Lesson5IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "To simulate brain-like data processing and learn from errors",
+      explanation:
+          "To simulate brain-like data processing and learn from errors",
     ),
     IndependentPracticeQuestion(
-      question: "2. Which classification applies to modern smartphone voice assistants?",
+      question:
+          "2. Which classification applies to modern smartphone voice assistants?",
       options: [
         "Strong artificial intelligence",
         "Weak artificial intelligence",
@@ -7301,8 +7833,7 @@ final IndependentPracticeModel computingJhs3S1Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-          "Tracking daily attendance and exam scores in schools",
+      explanation: "Tracking daily attendance and exam scores in schools",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7315,8 +7846,7 @@ final IndependentPracticeModel computingJhs3S1Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation:
-          "USSD works on simple feature phones without internet data",
+      explanation: "USSD works on simple feature phones without internet data",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7329,8 +7859,7 @@ final IndependentPracticeModel computingJhs3S1Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Mapping infection outbreaks to deploy medical resources",
+      explanation: "Mapping infection outbreaks to deploy medical resources",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7343,8 +7872,7 @@ final IndependentPracticeModel computingJhs3S1Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Long battery life with preloaded offline content",
+      explanation: "Long battery life with preloaded offline content",
     ),
   ],
 );
@@ -7443,8 +7971,7 @@ final IndependentPracticeModel computingJhs3S1Ss2Lesson3IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "A solid rectangle",
+      explanation: "A solid rectangle",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7471,8 +7998,7 @@ final IndependentPracticeModel computingJhs3S1Ss2Lesson3IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Around ten slides covering all key areas",
+      explanation: "Around ten slides covering all key areas",
     ),
   ],
 );
@@ -7507,8 +8033,7 @@ final IndependentPracticeModel computingJhs3S1Ss3Lesson1IndependentQuizData =
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation:
-          "Carpal tunnel syndrome",
+      explanation: "Carpal tunnel syndrome",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7549,8 +8074,7 @@ final IndependentPracticeModel computingJhs3S1Ss3Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "With the monitor placed at a right angle to windows",
+      explanation: "With the monitor placed at a right angle to windows",
     ),
   ],
 );
@@ -7585,8 +8109,7 @@ final IndependentPracticeModel computingJhs3S1Ss3Lesson2IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-          "Watts",
+      explanation: "Watts",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7599,8 +8122,7 @@ final IndependentPracticeModel computingJhs3S1Ss3Lesson2IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-          "High-speed laser printer",
+      explanation: "High-speed laser printer",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7613,8 +8135,7 @@ final IndependentPracticeModel computingJhs3S1Ss3Lesson2IndependentQuizData =
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation:
-          "It reduces operating speed or powers down to avoid damage",
+      explanation: "It reduces operating speed or powers down to avoid damage",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7627,8 +8148,7 @@ final IndependentPracticeModel computingJhs3S1Ss3Lesson2IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation:
-          "10 to 15 centimetres",
+      explanation: "10 to 15 centimetres",
     ),
   ],
 );
@@ -7829,8 +8349,7 @@ final IndependentPracticeModel computingJhs3S2Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Insert tab",
+      explanation: "Insert tab",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7843,8 +8362,7 @@ final IndependentPracticeModel computingJhs3S2Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation:
-          "The active screen turns frosted white",
+      explanation: "The active screen turns frosted white",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7857,8 +8375,7 @@ final IndependentPracticeModel computingJhs3S2Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation:
-          "An active internet network link",
+      explanation: "An active internet network link",
     ),
     IndependentPracticeQuestion(
       question:
@@ -7871,8 +8388,7 @@ final IndependentPracticeModel computingJhs3S2Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-          "Click the picture icon in the box",
+      explanation: "Click the picture icon in the box",
     ),
   ],
 );
@@ -8013,8 +8529,7 @@ final IndependentPracticeModel computingJhs3S2Ss3Lesson1IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-          "It reserves a specific space on the page for an image",
+      explanation: "It reserves a specific space on the page for an image",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8027,8 +8542,7 @@ final IndependentPracticeModel computingJhs3S2Ss3Lesson1IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation:
-          "Text Box Link",
+      explanation: "Text Box Link",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8041,8 +8555,7 @@ final IndependentPracticeModel computingJhs3S2Ss3Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Page Setup",
+      explanation: "Page Setup",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8055,8 +8568,7 @@ final IndependentPracticeModel computingJhs3S2Ss3Lesson1IndependentQuizData =
       ],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation:
-          "A small pouring jug",
+      explanation: "A small pouring jug",
     ),
   ],
 );
@@ -8242,8 +8754,7 @@ final IndependentPracticeModel computingJhs3S2Ss4Lesson1IndependentQuizData =
 
 final IndependentPracticeModel computingJhs3S2Ss4Lesson2IndependentQuizData =
     IndependentPracticeModel(
-  audioPath:
-      'assets/audio/computing/JHS3_s2_ss4_L2/7. GUIDED.mp3',
+  audioPath: 'assets/audio/computing/JHS3_s2_ss4_L2/7. GUIDED.mp3',
   questions: [
     IndependentPracticeQuestion(
       question:
@@ -8501,8 +9012,7 @@ final IndependentPracticeModel computingJhs3S3Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Using a strong password and enabling privacy settings",
+      explanation: "Using a strong password and enabling privacy settings",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8515,8 +9025,7 @@ final IndependentPracticeModel computingJhs3S3Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "Sending a received email to a brand new recipient",
+      explanation: "Sending a received email to a brand new recipient",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8529,8 +9038,7 @@ final IndependentPracticeModel computingJhs3S3Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation:
-          "Severe neglect of school studies and family chores",
+      explanation: "Severe neglect of school studies and family chores",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8543,8 +9051,7 @@ final IndependentPracticeModel computingJhs3S3Ss2Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation:
-          "The original sender and all listed email recipients",
+      explanation: "The original sender and all listed email recipients",
     ),
   ],
 );
@@ -8794,7 +9301,8 @@ final IndependentPracticeModel computingJhs3S3Ss4Lesson2IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "To insert text, images, and buttons easily without manual code",
+      explanation:
+          "To insert text, images, and buttons easily without manual code",
     ),
   ],
 );
@@ -8815,7 +9323,8 @@ final IndependentPracticeModel computingJhs3S3Ss4Lesson3IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Preview the page and proofread all text for spelling errors",
+      explanation:
+          "Preview the page and proofread all text for spelling errors",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8828,7 +9337,8 @@ final IndependentPracticeModel computingJhs3S3Ss4Lesson3IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Only authorized administrators and editors can read the article",
+      explanation:
+          "Only authorized administrators and editors can read the article",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8841,7 +9351,8 @@ final IndependentPracticeModel computingJhs3S3Ss4Lesson3IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "By finishing the blog post with a specific open-ended question",
+      explanation:
+          "By finishing the blog post with a specific open-ended question",
     ),
     IndependentPracticeQuestion(
       question:
@@ -8854,7 +9365,8 @@ final IndependentPracticeModel computingJhs3S3Ss4Lesson3IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Edit the draft inside the editor and click the Update button",
+      explanation:
+          "Edit the draft inside the editor and click the Update button",
     ),
   ],
 );
@@ -8917,8 +9429,7 @@ final IndependentPracticeModel computingJhs3S4Ss1Lesson1IndependentQuizData =
       explanation: "B",
     ),
     IndependentPracticeQuestion(
-      question:
-          "5. How many binary bits form a single hexadecimal digit?",
+      question: "5. How many binary bits form a single hexadecimal digit?",
       options: [
         "Two bits",
         "Six bits",
@@ -9203,8 +9714,7 @@ final IndependentPracticeModel computingJhs3S4Ss3Lesson1IndependentQuizData =
       'assets/audio/computing/JHS3_s4_ss3_L1/7. INDEPENDENT PRACTICE.mp3',
   questions: [
     IndependentPracticeQuestion(
-      question:
-          "1. Who originally formulated the Three Laws of Robotics?",
+      question: "1. Who originally formulated the Three Laws of Robotics?",
       options: [
         "Charles Babbage",
         "Isaac Asimov",

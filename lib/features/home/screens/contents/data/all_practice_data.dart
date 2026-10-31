@@ -1,5 +1,203 @@
 import '../model/practice_model.dart';
 
+final PracticeModel creativeArtsJhs1S1Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Why is it necessary to wash and thoroughly dry discarded polythene water sachets before heat-bonding them into prototype panels?",
+      answer: "Correct Answer: Washing eliminates sand, oily residues, and dirt that prevent the plastic layers from melting together cleanly, while drying ensures trapped moisture does not produce steam bubbles that weaken the fused material.",
+      explanation: "Explanation: Clean raw materials are essential for solid structural bonding. Contaminants or moisture trapped between heated sheets cause weak adhesion spots and surface blisters, reducing the durability of the finished product.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: How do digital drafting tools improve the development of an artefact compared to freehand sketching on paper alone?",
+      answer: "Correct Answer: Digital drafting tools allow designers to calculate exact dimensions, duplicate identical panels with precision, test color schemes quickly, and store editable templates without material waste.",
+      explanation: "Explanation: While paper sketches are ideal for quick ideation, digital tools provide exact geometric accuracy, scaling functions, and neat digital records that simplify measuring and cutting templates.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Explain why end-user feedback gathered during a community display is critical before starting large-scale production of an artefact.",
+      answer: "Correct Answer: User feedback highlights hidden operational flaws, comfort issues, and practical weaknesses that the original designer may have overlooked during personal testing.",
+      explanation: "Explanation: End users interact with the object under different physical conditions and expectations. Discovering their difficulties before mass manufacturing prevents wasted time, funds, and materials on defective designs.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: What is the main danger of skipping the research stage when designing an artefact for community use?",
+      answer: "Correct Answer: Skipping research leads to making incorrect assumptions about user needs, selecting inappropriate materials, and producing a flawed design that fails to solve the real problem.",
+      explanation: "Explanation: Research provides the factual foundation for design decisions. Without investigating local constraints, user physical needs, and environmental conditions, a designer risks wasting time and money on unworkable items.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Explain the difference between ideation and idea development within the design process.",
+      answer: "Correct Answer: Ideation is the brainstorming stage where many varied, rough sketches are produced freely, while idea development takes the best sketch and refines it with exact dimensions, materials, and joint details.",
+      explanation: "Explanation: Ideation explores a wide range of possibilities without judgment. Development narrows the focus to one strong concept, turning a rough sketch into an exact construction plan.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why must a prototype be tested in its real working environment rather than solely inside a design workshop?",
+      answer: "Correct Answer: Real working environments expose the prototype to actual conditions like weather, dust, heavy loads, and real user habits that cannot be fully duplicated in a clean workshop.",
+      explanation: "Explanation: Field testing reveals hidden defects such as wind resistance, balance issues, or material weaknesses under actual everyday operating pressures.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain the primary difference between a creative idea and an innovative product, using an example from a school environment.",
+      answer: "Correct Answer: Creativity is the initial mental generation of a novel idea, such as imagining a desk organizer made from discarded drink cans. Innovation is the actual execution of that idea into a usable, durable product distributed for students to tidy their supplies.",
+      explanation: "Explanation: Creativity resides in thought and ideation; it is the imaginative spark. Innovation requires turning that concept into a physical or operational reality that people can actively use to resolve a problem.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Why is a standard hospital wheelchair unsuitable for everyday mobility in many rural Ghanaian communities, and what design modification solves this issue?",
+      answer: "Correct Answer: Standard wheelchairs have small, smooth wheels that sink into sand, mud, and unpaved terrain. The design modification is replacing small wheels with thick, treaded bicycle-style wheels and a reinforced frame for rough ground.",
+      explanation: "Explanation: Design solutions must fit their intended operational environment. Adjusting wheel diameter, tyre tread, and frame clearance ensures the mobility aid functions effectively on untarred roads rather than solely on smooth indoor tiles.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Identify two specific design flaws found in traditional open charcoal coalpots and explain how modern cookstoves overcome them.",
+      answer: "Correct Answer: Traditional coalpots allow excessive heat to escape from their sides and waste charcoal rapidly. Modern cookstoves incorporate insulating ceramic clay liners inside the metal body to trap heat directly under the cooking pot.",
+      explanation: "Explanation: Analysing an existing artefact reveals performance weaknesses. Adding an insulating liner restricts heat dissipation, which conserves fuel, speeds up cooking time, and lowers household fuel expenditures.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_L3/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain the difference between imagination and innovation in the design cycle, providing one simple example.",
+      answer: "Correct Answer: Imagination is the internal mental ability to conceive new ideas or picture solutions that do not yet exist, whereas innovation is the practical implementation of those ideas into a functional, finished product that solves a real problem. For example, imagining an easier way for farmers to shell maize is imagination, while building and testing a functioning manual maize-sheller artefact is innovation.",
+      explanation: "Explanation: Imagination provides the initial mental spark, while innovation delivers the tangible, working artefact in physical reality to meet a community need.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how a two-dimensional template assists a student when building a three-dimensional cardboard box model.",
+      answer: "Correct Answer: A two-dimensional template provides a flat pattern showing the exact measurements of all walls, bases, flaps, and folding lines. This ensures that when the card is cut and folded, the sides align perfectly into a stable three-dimensional shape.",
+      explanation: "Explanation: Templates eliminate guesswork during construction by defining structural dimensions, tabs, and joints beforehand on flat sheet material.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: Why is exhibiting a design prototype for peer appreciation and feedback essential before final production?",
+      answer: "Correct Answer: Exhibiting the prototype allows classmates and teachers to inspect the model, test its usability, and provide critical feedback to correct design weaknesses and improve functionality before final production.",
+      explanation: "Explanation: Display and peer critique uncover practical design flaws, such as weak balance or uncomfortable grips, which the designer can modify and refine.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_l2/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain how pressure sensitivity in a digital stylus assists a designer during freehand sketching.",
+      answer: "Correct Answer: Pressure sensitivity allows the stylus to register varying hand force, automatically adjusting stroke thickness, value, or opacity on screen just like a traditional graphite pencil.",
+      explanation: "Explanation: Internal sensors in the stylus detect physical pressure against the tablet surface. Light pressure creates thin, faint lines for preliminary layouts, while heavier pressure yields thicker, darker marks for final outlines and deep shading. ",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how virtual layers help an artist when shading a digital outline drawing.",
+      answer: "Correct Answer: Virtual layers allow an artist to keep outlines and shading on separate levels, enabling edits or tone adjustments without altering or erasing the original boundary lines.",
+      explanation: "Explanation: Because digital layers function like transparent sheets stacked together, painting tones on a layer beneath the linework protects the crispness of the outline drawing.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: State two distinct advantages of using digital drawing software over traditional manual drawing materials.",
+      answer: "Correct Answer: First, digital software allows instantaneous corrections through undo functions without damaging the surface. Second, digital tools provide endless virtual materials, colour palettes, and layers without consuming physical supplies. ",
+      explanation: "Explanation: Digital workflows eliminate physical paper waste, prevent permanent smudging accidents, and provide rapid reproduction and resizing options that manual tools cannot match. ",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain the primary functional difference between a marking tool and a guiding tool in manual design drawing, giving one specific example of each.",
+      answer: "Correct Answer: A marking tool deposits pigment or graphite onto the drawing surface to produce visible lines and tones, such as an HB graphite pencil. A guiding tool does not deposit colour; instead, it directs the movement of marking tools to ensure accurate straightness, angles, or measurements, such as a T-square.",
+      explanation: "Explanation: Marking tools (including pencils, pens, and charcoal) create the actual visual image. Guiding tools (such as rulers, T-squares, and set squares) assist the hand in achieving precise geometric lines, proportions, and aligned layouts on the paper ground.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how an artist produces high tones, mid-tones, and low tones on a sphere using the cross-hatching technique.",
+      answer: "Correct Answer: High tones are created by leaving the paper white or placing few, widely spaced lines where light hits directly. Mid-tones are produced by applying a single layer of evenly spaced parallel hatching lines across the curve. Low tones are created by layering multiple intersecting lines over each other densely on the side facing away from the light source.",
+      explanation: "Explanation: Tonal value depends on the density of line coverage. By varying line spacing and layering intersecting strokes, cross-hatching controls the amount of exposed paper surface, producing smooth transitions from light highlight to dense cast shadow.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: State two distinct differences between using smooth cartridge paper and coarse cardboard as manual drawing materials.",
+      answer: "Correct Answer: First, smooth cartridge paper provides an even surface suitable for precise, sharp pen and pencil outlines, while coarse cardboard has a textured, porous surface that breaks fine lines. Second, coarse cardboard provides higher structural rigidity for mock-ups and absorbs heavy charcoal well, whereas cartridge paper is flexible and lightweight.",
+      explanation: "Explanation: The physical texture, weight, and tooth of drawing materials determine which media adhere best to them and influence the crispness of the final design presentation.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss1_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain the primary difference between symmetrical balance and asymmetrical balance, and give one natural example of symmetrical balance.",
+      answer: "Correct Answer: Symmetrical balance occurs when both sides of a central dividing line are identical mirror images, whereas asymmetrical balance uses different visual elements of contrasting weights on each side that still achieve an overall sense of stability. A clear natural example of symmetrical balance is the outstretched wings of a butterfly or the bilateral symmetry of the human face.",
+      explanation: "Explanation: Symmetrical arrangements use exact reflection across a dividing line, while asymmetrical arrangements use balance through contrasting visual elements.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how an artist or designer uses contrast to prevent an artwork or poster from appearing dull and uninteresting.",
+      answer: "Correct Answer: An artist uses contrast by placing opposing visual elements side by side, such as pairing light colours with dark backgrounds, sharp geometric shapes with soft organic curves, or rough tactile surfaces with polished smooth areas. This strong opposition catches the viewer's attention and makes individual components stand out clearly.",
+      explanation: "Explanation: Contrast creates visual tension and clarity by highlighting differences between adjacent design elements.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: State the relationship between repetition, pattern, and rhythm in the production of traditional Ghanaian textiles.",
+      answer: "Correct Answer: Repetition occurs when an artisan weaves or stamps the same element multiple times across the cloth. When these repeated units are organised in a regular, predictable sequence, they form a decorative pattern. The visual flow and tempo produced by following these repeating patterns across the fabric creates a visual rhythm that guides the viewer's eyes smoothly.",
+      explanation: "Explanation: Repetition is the action, pattern is the structured arrangement, and rhythm is the resulting visual beat or movement experienced by the onlooker.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s1_ss1_l2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Question: Explain how pressure sensitivity in a digital stylus assists a designer during freehand sketching.",
+      answer: "Correct Answer: Pressure sensitivity allows the stylus to register varying hand force, automatically adjusting stroke thickness, value, or opacity on screen just like a traditional graphite pencil.",
+      explanation: "Explanation: Internal sensors in the stylus detect physical pressure against the tablet surface. Light pressure creates thin, faint lines for preliminary layouts, while heavier pressure yields thicker, darker marks for final outlines and deep shading.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Question: Describe how virtual layers help an artist when shading a digital outline drawing.",
+      answer: "Correct Answer: Virtual layers allow an artist to keep outlines and shading on separate levels, enabling edits or tone adjustments without altering or erasing the original boundary lines.",
+      explanation: "Explanation: Because digital layers function like transparent sheets stacked together, painting tones on a layer beneath the linework protects the crispness of the outline drawing.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Question: State two distinct advantages of using digital drawing software over traditional manual drawing materials.",
+      answer: "Correct Answer: First, digital software allows instantaneous corrections through undo functions without damaging the surface. Second, digital tools provide endless virtual materials, colour palettes, and layers without consuming physical supplies.",
+      explanation: "Explanation: Digital workflows eliminate physical paper waste, prevent permanent smudging accidents, and provide rapid reproduction and resizing options that manual tools cannot match.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S1Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: 'assets/audio/CreativeArts/JHS1_s1_ss1_L1/6. GUIDED PRACTICE.mp3',
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: In your own words, define what a design concept is, and state why having a clear concept is necessary before building any product.",
+      answer:
+          "Correct Answer: A design concept is the primary guiding idea or plan behind a project that defines how the object will look, work, and solve a specific challenge. It is necessary because it directs all planning decisions, prevents wasted materials, and ensures the finished item effectively solves the user's problem.",
+      explanation:
+          "Explanation: Without a concept, an artist or engineer works without direction, resulting in weak objects that fail to function properly.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain two major differences between objects designed by nature and objects designed by human beings.",
+      answer:
+          "Correct Answer:\n1. Natural designs form on their own through living processes without tools, whereas manmade designs require human labour, workshops, and specialized manufacturing equipment.\n2. Natural designs serve biological functions like survival and protection, while manmade designs are built specifically to solve social problems, generate income, or provide human comfort.",
+      explanation:
+          "Explanation: While both share visual elements, their origin and purpose remain fundamentally distinct.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe how a Ghanaian architect can use bio-inspiration to design a well-ventilated, energy-efficient school library in a hot community.",
+      answer:
+          "Correct Answer: The architect can study how local termite mounds use vertical chimneys and low vents to draw hot air upward and out while pulling cool ground air inside. By replicating these hollow ventilation shafts, high ceilings, and shaded wall openings, the library stays cool throughout the afternoon without relying on electric air conditioning.",
+      explanation:
+          "Explanation: Bio-inspiration allows designers to study natural temperature-control systems and adapt them into durable buildings to cut energy costs.",
+    ),
+  ],
+);
+
 final PracticeModel defaultPracticeData = PracticeModel(
   audioPath: 'assets/audio/ss1_l1/6. Guided Practice.m4a',
   questions: [

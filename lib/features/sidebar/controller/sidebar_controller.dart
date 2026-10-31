@@ -3785,6 +3785,123 @@ class SidebarController extends GetxController {
               var independentPracticeData = defaultIndependentQuizData;
               var quizData = defaultQuizData;
 
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs1S1Ss1Lesson1GetReadyData;
+                learnData = creativeArtsJhs1S1Ss1Lesson1LearnData;
+                practiceData = creativeArtsJhs1S1Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss1Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs1S1Ss1Lesson2GetReadyData;
+                learnData = creativeArtsJhs1S1Ss1Lesson2LearnData;
+                practiceData = creativeArtsJhs1S1Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss1Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs1S1Ss1Lesson3GetReadyData;
+                learnData = creativeArtsJhs1S1Ss1Lesson3LearnData;
+                practiceData = creativeArtsJhs1S1Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss1Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs1S1Ss2Lesson1GetReadyData;
+                learnData = creativeArtsJhs1S1Ss2Lesson1LearnData;
+                practiceData = creativeArtsJhs1S1Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss2Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs1S1Ss2Lesson2GetReadyData;
+                learnData = creativeArtsJhs1S1Ss2Lesson2LearnData;
+                practiceData = creativeArtsJhs1S1Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss2Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs1S1Ss2Lesson3GetReadyData;
+                learnData = creativeArtsJhs1S1Ss2Lesson3LearnData;
+                practiceData = creativeArtsJhs1S1Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss2Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs1S1Ss3Lesson1GetReadyData;
+                learnData = creativeArtsJhs1S1Ss3Lesson1LearnData;
+                practiceData = creativeArtsJhs1S1Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss3Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs1S1Ss3Lesson2GetReadyData;
+                learnData = creativeArtsJhs1S1Ss3Lesson2LearnData;
+                practiceData = creativeArtsJhs1S1Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss3Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs1S1Ss3Lesson3GetReadyData;
+                learnData = creativeArtsJhs1S1Ss3Lesson3LearnData;
+                practiceData = creativeArtsJhs1S1Ss3Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs1S1Ss3Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs1S1Ss3Lesson3QuizData;
+              }
+
               if (grade == "JHS 2" &&
                   courseTitle == "COMPUTING" &&
                   sIndex == 0 &&
