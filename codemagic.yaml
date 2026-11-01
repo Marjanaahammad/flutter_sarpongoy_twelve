@@ -11,3 +11,44 @@ workflows:
 
     artifacts:
       - build/ios/iphonesimulator/Runner.app
+
+  shorebird-ios-release:
+    name: Shorebird iOS Release
+    instance_type: mac_mini_m2
+    environment:
+      flutter: 3.24.3
+      xcode: 26.0
+      groups:
+        # Store SHOREBIRD_TOKEN as a secure variable in this group.
+        - shorebird
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.sarpongoy.ilearnready
+    scripts:
+      - name: Install Shorebird
+        script: |
+          set -eu
+          curl -fsSL https://shorebird.dev/install.sh | bash
+          echo "PATH=$HOME/.shorebird/bin:$PATH" >> "$CM_ENV"
+      - name: Verify Shorebird authentication and app access
+        script: |
+          set -eu
+          : "${SHOREBIRD_TOKEN:?Add SHOREBIRD_TOKEN to the secure shorebird variable group}"
+          test -f shorebird.yaml
+          shorebird account whoami
+          APP_ID=$(awk '/^app_id:/ {print $2}' shorebird.yaml)
+          test -n "$APP_ID"
+          shorebird api get "/apps/$APP_ID"
+      - name: Fetch dependencies
+        script: flutter pub get
+      - name: Configure iOS signing
+        script: |
+          xcode-project use-profiles --custom-export-options='{"manageAppVersionAndBuildNumber":false}'
+      - name: Create Shorebird iOS release
+        script: |
+          shorebird release ios \
+            --flutter-version=3.24.3 \
+            --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - build/ios/archive/*.xcarchive
