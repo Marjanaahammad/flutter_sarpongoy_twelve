@@ -67,3 +67,15 @@ first uploaded Shorebird release still require the Codemagic run described above
 The local validation was repeated successfully after saving the Codemagic key.
 This Mac has no valid code signing identities, so local validation used an
 unsigned archive.
+
+## Release upload blocker
+
+The subsequent Codemagic release failed at artifact registration: its xcarchive
+was 2,798,859,849 bytes, above the server's enforced 2,147,483,648-byte limit.
+The successful dry run did not validate that upload limit. Media quality and
+offline availability must remain unchanged at the user's request.
+
+No supported upload-limit setting was found in the public CLI/API or an
+advertised higher limit in the plan comparison. A larger limit needs confirmation
+from Shorebird; upgrading plans is not a verified fix. A support request is
+prepared in `SHOREBIRD_SUPPORT_REQUEST.md` and has not been sent.
