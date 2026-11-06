@@ -1,22 +1,961 @@
 import '../model/practice_model.dart';
 
+final PracticeModel creativeArtsJhs2S1Ss3Lesson3PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS2_s1_ss3_L3/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Explain why a student design team should conduct interviews with local fishmongers before constructing an improved fish-smoking kiln.",
+          answer:
+              "The team must interview fishmongers to understand their specific problems with firewood consumption, smoke inhalation, and fish tray capacity so the new kiln directly meets their practical needs.",
+          explanation:
+              "Consulting actual end users during the research phase prevents designers from making incorrect assumptions and ensures the final artefact is functional, culturally acceptable, and helpful."),
+      PracticeQuestion(
+          scenario:
+              "2. State two advantages of using computer software such as CorelDRAW during the design of a community signboard or school backpack.",
+          answer:
+              "Digital software allows designers to create accurate scaled drawings and easily modify layout colours and measurements before cutting materials.",
+          explanation:
+              "Digital design tools provide high precision, reduce costly material waste, and allow multiple design ideas to be refined quickly."),
+      PracticeQuestion(
+          scenario:
+              "3. During user testing of a newly designed wheelbarrow made from recycled wood and bicycle tyres, the wheel axle bends under heavy soil loads. What immediate design action should the team take?",
+          answer:
+              "The team must refine the prototype by replacing the weak axle with a reinforced steel rod or thicker galvanized iron pipe and retest it under load.",
+          explanation:
+              "Prototyping and testing reveal mechanical weaknesses, allowing designers to modify materials and structural joints before final production."),
+    ]);
+
+final PracticeModel creativeArtsJhs2S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_S1_SS3_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a designer must write a design brief before beginning to brainstorm or manufacture a new product.",
+      answer: "A design brief defines the exact problem, target users, and key criteria so the designer stays focused on achieving the right outcome.",
+      explanation: "Without a clear brief, a designer risks wasting time, materials, and funds creating an object that fails to address the real user need.",
+    ),
+    PracticeQuestion(
+      scenario: "2. During which stage of the design process does a student produce rough sketches of multiple possible solutions without judging them, and why is this stage important?",
+      answer: "This occurs during the ideation or brainstorming stage, which is vital because it encourages open creativity and generates diverse alternatives.",
+      explanation: "Brainstorming without premature criticism allows unique ideas to surface before narrowing down to the most practical option.",
+    ),
+    PracticeQuestion(
+      scenario: "3. A shoemaker in Kumasi creates a prototype sandal made from recycled car tyres, but customer trials reveal the inner rubber rubs blisters on feet. What design stage must the shoemaker apply next, and what specific action should be taken?",
+      answer: "The shoemaker must apply the refining or redesigning stage by lining the inner rubber straps with soft cotton fabric or leather padding.",
+      explanation: "The refinement stage takes user test feedback to correct functional defects and improve user comfort.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss3_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Ama weaves colourful shopping bags using discarded plastic water sachets. Explain whether Ama's activity is an example of creativity or innovation.",
+      answer:
+          "Ama's activity demonstrates both creativity and innovation because she uses original artistic thinking to transform waste and produces a durable, reusable product that solves the problem of plastic pollution in the community.",
+      explanation:
+          "Creativity is shown in how she weaves discarded materials into fresh patterns, while innovation is demonstrated because the resulting bag serves a practical, ecological function that replaces single-use polythene bags.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Identify two specific design limitations of using an open fire three-stone hearth for domestic cooking in rural homes.",
+      answer:
+          "Two limitations are that it wastes significant fuel energy because heat escapes into the surrounding air, and it generates heavy smoke that causes respiratory and eye problems for the cook.",
+      explanation:
+          "Open hearths lack thermal insulation, requiring cooks to collect excessive firewood and endure soot-filled working environments.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. A carpenter in Tamale notices that standard wooden school chairs break frequently when students move them across rough concrete floors. Propose one innovative modification the carpenter can make to solve this problem.",
+      answer:
+          "The carpenter can reinforce the chair joints with recycled metal brackets and attach durable rubber bases to the bottom of the wooden legs.",
+      explanation:
+          "Modification of existing products using durable alternative materials is a core principle of practical design innovation.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S1Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss2_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain why a designer must identify and investigate an actual community problem before sketching design solutions.",
+      answer:
+          "A designer explores community challenges to ensure the final product addresses a real, practical human need, functions effectively, and offers meaningful value to users.",
+      explanation:
+          "Design aims to solve problems; investigating community needs prevents wasting time and resources on impractical or unneeded objects.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Describe what a template is in three-dimensional design and state why fold tabs are necessary on paper packaging nets.",
+      answer:
+          "A template is a flat two-dimensional pattern used to cut and reproduce shapes accurately, and fold tabs are required to provide joining surfaces for glue so the folded panels hold together.",
+      explanation:
+          "Flat templates define the outer geometry of a product, while tabs provide the essential overlapping area needed to join faces into a rigid container.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Contrast the additive modelling method with the subtractive modelling method, identifying one suitable material for each.",
+      answer:
+          "Additive modelling builds up forms by adding and shaping soft material (such as natural clay), whereas subtractive modelling carves away unwanted material from a solid block (such as carving bar soap).",
+      explanation:
+          "Additive processes accumulate volume gradually, while subtractive processes remove mass to reveal the final shape.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S1Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss2_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain what the term \"eye level\" means in perspective drawing and name the three primary eye level positions used in artwork.",
+      answer:
+          "Eye level refers to the actual horizontal line of sight of the viewer where the sky appears to meet the ground; the three primary positions are normal eye level, above eye level, and below eye level.",
+      explanation:
+          "Eye level, also called the horizon line, determines the viewpoint angle and dictates how receding lines converge in perspective.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Define the drawing technique of foreshortening and give one practical example of when an artist would use it.",
+      answer:
+          "Foreshortening is the technique of depicting an object or form compressed in space so it appears to project directly toward or away from the viewer, such as drawing a hand pointing directly out of the screen.",
+      explanation:
+          "Foreshortening creates an optical illusion of spatial projection by altering natural proportions along the viewer's direct line of sight.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Describe two distinct methods used to display and share digital artwork with classmates for feedback and appraisal.",
+      answer:
+          "A designer can display digital artwork by projecting it onto a classroom screen with a multimedia projector, or by printing it out in high resolution on paper for gallery mounting.",
+      explanation:
+          "Digital artwork can be viewed electronically through projection and displays or converted to physical form through colour printing.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S1Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss2_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain the practical functional difference between a manual drawing tool and a manual drawing material, naming one specific example of each.",
+      answer:
+          "A manual drawing tool is a reusable physical instrument manipulated by the hand to draw, rule, or guide marks (such as a T-square or graphite pencil), whereas a manual drawing material is the consumable substance or physical support surface that holds the marks (such as cartridge paper or poster paint).",
+      explanation:
+          "Tools perform the manual mechanical work of marking and guiding, while materials receive the mark or provide the physical substance of the artwork.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Describe how an artist uses high tone, medium tone, and low tone on a simple circular outline to represent a three-dimensional sphere.",
+      answer:
+          "The artist identifies a light source, leaves the area directly facing the light bright as the high tone, applies intermediate shading across the center as the medium tone, and builds dense shading along the side facing away from the light as the low tone to show deep shadow and volume.",
+      explanation:
+          "Using high, medium, and low tones across a curved form establishes highlights, midtones, and shadows, which tricks the eye into perceiving three-dimensional depth on a flat surface.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. State two practical advantages of using a digital graphics tablet and stylus over conventional paper and pencil when creating a multi-coloured illustration.",
+      answer:
+          "A digital tablet allows the designer to make instant corrections without damaging the working surface, and enables work across independent layers so linework, colours, and textures can be edited separately.",
+      explanation:
+          "Digital workflows provide non-destructive editing and flexible layer management that physical paper cannot match.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S1Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss1_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain the difference between a geometric shape and an organic shape, citing examples visible in a typical Ghanaian community.",
+      answer:
+          "Geometric shapes are precise, regular two-dimensional figures defined by straight lines or exact arcs, such as rectangular concrete blocks and square glass windows. Organic shapes are irregular, fluid, and asymmetric figures found in living things, such as the undulating edges of a cocoyam leaf or the random silhouette of a puddle of rainwater.",
+      explanation:
+          "Geometric shapes follow rigid mathematical boundaries, while organic shapes mirror the informal, free-flowing contours found throughout natural living organisms.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. How can a student document tactile textures found in the natural environment without removing items from their location?",
+      answer:
+          "The student can place a thin sheet of paper directly over the textured surface, such as tree bark or carved rock, and rub a graphite pencil or charcoal stick flat across the page to create a frottage rubbing. Alternatively, close-up digital photographs can be taken to capture light and shadow details.",
+      explanation:
+          "Surface rubbings and high-resolution digital photographs record the exact physical relief and ridge patterns of stationary objects without damaging or altering the natural environment.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Describe how the design principle of contrast can be used to make an educational campaign poster effective and legible from a distance.",
+      answer:
+          "Contrast can be achieved by placing dark, bold typography against a clean, light-coloured background or pairing complementary colours like deep blue and warm gold. This sharp difference emphasizes the text, preventing it from fading into the background and allowing passersby to read the message quickly.",
+      explanation:
+          "Strong contrast between foreground elements and background surfaces enhances visual legibility and commands immediate viewer attention.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S1Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss1_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain how an architectural designer in Ghana can use natural plant forms to design an energy-efficient school library.",
+      answer:
+          "The designer can imitate the umbrella-like canopy of an acacia tree to build wide, overhanging roof eaves that shade open walls. This reduces indoor glare and solar heat gain while allowing free natural ventilation through large louvered openings.",
+      explanation:
+          "Biomimicry in architecture takes functional shapes from nature, such as leafy shade canopies, to lower indoor room temperatures naturally without relying heavily on expensive electrical air conditioning.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Differentiate between tactile texture and visual texture using items found around a typical Ghanaian basic school compound.",
+      answer:
+          "Tactile texture is the real physical feel felt when touching the rough trunk of an almond tree or the raised ridges of a woven cane wastebasket. Visual texture is the painted drawing of that tree trunk in a pupil's exercise book, which appears rough to the eye but feels flat and smooth to the finger.",
+      explanation:
+          "Tactile textures provide real three-dimensional physical sensations upon touch, whereas visual textures are two-dimensional artistic illusions created through shading, line density, and colour arrangement.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Describe how the design principle of repetition helps create unity in a traditional Ghanaian printed textile.",
+      answer:
+          "Repetition organizes an individual motif, such as a cowrie shell or stool icon, by printing it repeatedly across the cloth at regular intervals. This consistent recurrence guides the eye across the entire fabric, ensuring all sections belong to a single balanced pattern.",
+      explanation:
+          "Rhythmic repetition prevents a pattern from appearing random or disorganized, binding distinct visual elements into a harmonious whole.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss3Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L6/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Why do playwrights focus on the suffering of non-combatants and displaced families when depicting communal conflict on stage?",
+      answer:
+          "Depicting the suffering of displaced families evokes deep audience empathy, exposes the true human devastation of violence, and deglamorizes armed conflict.",
+      explanation:
+          "Highlighting vulnerable victims reminds society that war destroys ordinary livelihoods and communal welfare, making peaceful coexistence urgently necessary.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Explain how a choreographer can use stage formations to visually communicate the transition from civil hostility to communal reconciliation.",
+      answer:
+          "The choreographer can start with dancers separated into two opposing, fragmented lines executing aggressive gestures, and gradually transition them into a unified, synchronized circle moving to the same beat.",
+      explanation:
+          "A circular formation represents unity, equality, and protection, visually confirming to the audience that dispute has ended and harmony has returned.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. What is the practical value of formulating a school-based action plan after analyzing a theatrical drama on social unrest?",
+      answer:
+          "It translates the moral and artistic lessons of the performance into real-world peace initiatives, helping students resolve campus conflicts and prevent bullying.",
+      explanation:
+          "Performance analysis should inspire civic responsibility; creating school action plans ensures students apply artistic insights to maintain social order and harmony.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss3Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L5/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Why do playwrights and drama artistes incorporate traditional proverbs and court drumming into historical theater productions?",
+      answer:
+          "Traditional proverbs and court drumming provide authentic cultural context, reflect indigenous governance values, and reinforce the historical reality of the characters portrayed on stage.",
+      explanation:
+          "Integrating traditional oral arts and royal drumming ensures the drama remains faithful to Ghanaian heritage, helping audiences connect emotionally with ancestral leadership and wisdom.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Explain how a dance troupe can use symbolic bodily movements to depict the environmental problem of river pollution without using spoken words.",
+      answer:
+          "Dancers can transition from fluid, graceful gestures representing clean river currents to tense, struggling, and fragmented movements that show the choking and destruction of water bodies by waste.",
+      explanation:
+          "Dance uses the human body as an expressive instrument; sudden shifts in posture, tempo, and physical tension clearly symbolize ecological distress to the audience.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. What is the importance of conducting background contextual research before writing a critical appraisal of a community play?",
+      answer:
+          "Contextual research reveals the historical events, community traditions, or social crises that inspired the artistes, allowing the reviewer to evaluate the performance's true meaning and accuracy.",
+      explanation:
+          "Without historical and social context, a reviewer might misunderstand the artistes' symbolic choices, costumes, or thematic message.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss3Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L4/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain two differences between the instruments used by an indigenous percussion group and a neo-traditional music band.",
+      answer:
+          "Indigenous percussion groups use only acoustic, handcrafted instruments such as carved wooden drums, iron bells, and gourd rattles, whereas neo-traditional bands combine these acoustic instruments with Western instruments like electric bass guitars and electronic sound amplification.",
+      explanation:
+          "Indigenous ensembles rely strictly on natural acoustic materials, while neo-traditional groups build hybrid sound setups using electronic gear to perform in large concert halls.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. How did the traditional war dance Agbadza transform from its original military purpose into a popular recreational social dance?",
+      answer:
+          "Agbadza originally developed during wartime conflicts to prepare warriors and celebrate battlefield victories, but during times of peace, communities adapted its songs and shoulder-contracting movements for funerals, weddings, and communal celebrations.",
+      explanation:
+          "As physical warfare ended, the dramatic martial movements and energetic rhythms were preserved as social heritage, allowing modern citizens to celebrate history peacefully.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Why do neo-traditional bands organize their songs into fixed, timed arrangements instead of using open-ended drumming?",
+      answer:
+          "They use structured, timed arrangements so that their musical tracks can fit standardized durations for radio broadcasting, audio recording, and scheduled stage concerts.",
+      explanation:
+          "Open-ended village improvisation suits spontaneous local gatherings, but commercial music releases and broadcast media require predictable, rehearsed song lengths.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_l3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What is the principal difference between how indigenous traditional music is preserved and how art music is recorded?",
+      answer: "Indigenous traditional music is preserved through oral transmission and practical apprenticeship across generations, whereas art music is formally composed and documented using written sheet music notation.",
+      explanation: "Traditional music relies on active memory, practical imitation, and ear training, while art music relies on written notation specifying pitch, tempo, and vocal harmony.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain how pioneering art composers used choral music to foster cultural pride during the twentieth century.",
+      answer: "They combined classical four-part vocal harmony with indigenous Ghanaian rhythms, set patriotic poetry to mother tongues, and wore traditional handwoven attire to demonstrate African cultural elegance.",
+      explanation: "By bringing local languages and folk melodic patterns into formal concert halls, composers challenged colonial perceptions and celebrated national identity.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why are popular highlife and urban songs effective tools for educating communities on environmental sanitation?",
+      answer: "Catchy song melodies and direct lyrics reach massive audiences across radio and social gatherings, delivering memorable health messages that anyone can understand without needing formal reading skills.",
+      explanation: "Popular music circulates widely through markets, vehicles, and radio broadcasts, making it an accessible channel for public education and civic campaigns.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss3Lesson2PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS1_s2_ss3_l2/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Why are carved wooden stools categorized as sculptural artworks rather than graphic arts?",
+          answer:
+              "Carved stools are three-dimensional physical objects that occupy real volume and can be viewed and touched from all sides, unlike flat two-dimensional drawings.",
+          explanation:
+              "Sculptures possess length, width, and physical depth, making them tangible three-dimensional forms created through carving or modelling."),
+      PracticeQuestion(
+          scenario:
+              "2. Explain the cultural significance of stamping traditional geometric symbols onto dark mourning cloths using natural bark dye.",
+          answer:
+              "Stamping traditional symbols onto dark cloths communicates ancestral proverbs, honors departed ancestors, and visually conveys collective grief during funeral gatherings.",
+          explanation:
+              "The dark background colour signifies solemn mourning, while the stamped proverbial symbols offer spiritual comfort and moral guidance to the community."),
+      PracticeQuestion(
+          scenario:
+              "3. How does an outdoor sculpture made from plastic bottle waste serve as an artwork addressing topical environmental issues?",
+          answer:
+              "It transforms harmful non-biodegradable waste into a visible public monument, highlighting the danger of plastic pollution and urging community recycling.",
+          explanation:
+              "Using discarded litter directly in an artwork confronts viewers with the reality of environmental degradation, encouraging responsible waste disposal."),
+    ]);
+
+final PracticeModel creativeArtsJhs1S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Why is direct observational sketching an effective method for recording everyday life in a busy market?",
+      answer:
+          "Observational sketching allows artists to capture immediate body postures, spatial arrangements, and lively human interactions directly from life without needing electronic power or expensive equipment.",
+      explanation:
+          "Sketching on the spot trains the eye to isolate important gestures and forms in real time, making it an accessible and reliable way to document dynamic scenes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Explain two practical reasons why an artist should take photographs when documenting local festival regalia.",
+      answer:
+          "Photographs accurately record intricate textile patterns, bead colours, and metallic reflections in seconds, while also preserving fleeting ceremonial moments that move too fast to sketch completely.",
+      explanation:
+          "Camera sensors capture microscopic textures and precise colour tones instantly, providing dependable references for later artistic study or permanent cultural preservation.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. What role do short descriptive labels play when an artist displays artworks about environmental challenges to school peers?",
+      answer:
+          "Descriptive labels provide the exact date, location, and factual context of the visual record, helping viewers understand the true severity and location of the problem depicted.",
+      explanation:
+          "Without factual labels, viewers might admire an image merely for its artistic style while failing to grasp the urgent environmental message or the specific place affected.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson9PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L9/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. State two reasons why an audience consisting of parents, teachers, and community elders should be invited to a dance and drama appraisal session.",
+      answer:
+          "Inviting community members provides diverse, objective perspectives on the performance and ensures that traditional cultural and historical elements are evaluated by knowledgeable elders.",
+      explanation:
+          "Outside community members offer balanced evaluations free from student peer bias, while elders provide authoritative guidance on cultural authenticity.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Explain why reviewing recorded video clips is more effective than relying on memory during a performance appraisal.",
+      answer:
+          "Video clips provide an objective visual record that can be paused, rewound, and analyzed repeatedly to pinpoint exact moments of technical strength or error.",
+      explanation:
+          "Performers on stage cannot see their own movements or hear their vocal balance in real time, making video playback essential for unbiased self-evaluation.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. During a drama appraisal, a reviewer notes that an actor frequently turned their back to the audience while speaking. Identify the staging flaw and explain how to correct it in future rehearsals.",
+      answer:
+          "The staging flaw is improper body positioning and poor blocking; the director must train the actor to keep their body open toward the audience using a quarter-turn stance.",
+      explanation:
+          "Proper stage blocking requires actors to project their voices and facial expressions forward so the audience can see and hear them clearly.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson8PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L8/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. State two reasons why selecting a venue with dedicated off-stage changing areas is essential for a traditional dance and drama showcase.",
+      answer:
+          "Dedicated changing areas provide performers with privacy to dress in traditional cloths and makeup safely, and prevent backstage clutter and distractions visible to the audience.",
+      explanation:
+          "Secure, private dressing spaces protect performers' modesty during costume changes and maintain the illusion and professionalism of the stage production.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Explain why the stage crew must conduct a full dress rehearsal with all costumes and handheld props before opening the show to the public.",
+      answer:
+          "A dress rehearsal reveals timing problems, identifies difficult costume changes, and tests whether actors can handle physical props smoothly under actual performance conditions.",
+      explanation:
+          "Practicing with full costumes and props ensures that any wardrobe malfunctions, forgotten objects, or sluggish scene transitions are discovered and corrected before the live audience arrives.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. A drama club wants to perform a skit about environmental protection for local town residents. Describe two effective ways they can spread information to mobilise the community to attend.",
+      answer:
+          "They can deliver formal written invitation letters to local assembly members and market leaders, and put up colourful informational posters on community notice boards.",
+      explanation:
+          "Combining formal direct letters with public poster notices ensures that both civic leadership and the general public receive timely, respectful notification of the event.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_l7/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain the difference between a comedy and a tragedy when selecting a genre for a community drama skit.",
+      answer:
+          "A comedy uses humor, amusement, and cheerful resolutions to critique social vices, whereas a tragedy depicts serious struggles, moral downfall, and unhappy outcomes that evoke pity and sober reflection.",
+      explanation:
+          "Comedy relies on laughter and lighthearted conflict to instruct the community, while tragedy explores grave human flaws and severe consequences.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Describe how a choreographer uses different spatial levels to make a dance performance visually interesting.",
+      answer:
+          "The choreographer varies body positioning across low ground movements, medium standing actions, and high jumping levels to create visual variety and dynamic contrast.",
+      explanation:
+          "Using multiple spatial levels prevents a dance from appearing flat and monotonous, allowing dancers to express changing physical moods and energies.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. A student writes a script about community tree planting but finds the rehearsal unexciting because actors simply stand still while talking. Suggest two directing adjustments to improve the staging.",
+      answer:
+          "The director should add physical stage blocking that moves actors across the space, and introduce realistic props like watering cans and seedling containers for the actors to interact with naturally.",
+      explanation:
+          "Intentional stage blocking and tangible physical props give actors purposeful action, making the dramatic scene dynamic and lifelike for the audience.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L6/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain why evaluating \"diction\" is essential when appraising a vocal choir performing a song about community sanitation.",
+      answer:
+          "Evaluating diction ensures that the choir pronounces words clearly so the audience can understand the educational message and moral lesson regarding sanitation.",
+      explanation:
+          "Diction refers to clear vocal enunciation; without it, the audience cannot comprehend the lyrics, diminishing the educational impact of the song.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. During a video review of a school concert, a student notices that the supporting drums drowned out the lead singer's voice. What specific musical element was lacking, and how can the group resolve it?",
+      answer:
+          "The performance lacked proper balance and dynamic control; drummers must soften their playing volume or use better microphone placement for the vocalist.",
+      explanation:
+          "Balance requires that all instrumental and vocal parts blend harmoniously without any single accompaniment instrument overpowering the main melody.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. State two advantages of collecting written feedback from parents and teachers alongside student self-evaluations after a musical performance.",
+      answer:
+          "Collecting outside feedback provides objective perspectives on sound clarity and message effectiveness while preventing personal bias in student self-assessments.",
+      explanation:
+          "Involving diverse audience members helps the ensemble understand how the performance was experienced by listeners of different ages and backgrounds.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L5/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. State two key pieces of information a student should include when presenting the cultural background of a traditional musical piece before it is performed.",
+      answer:
+          "The student should state the historical or cultural event that inspired the song and explain the social meaning or moral lesson carried in the lyrics.",
+      explanation:
+          "Contextual introductions help listeners understand the traditional origin, meaning, and cultural relevance of the composition before hearing it.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Explain why the stage crew must arrange designated entrance and exit pathways for performers during a multi-group concert.",
+      answer:
+          "Having clear, designated entrance and exit routes prevents crowding, collisions, and delays, allowing performing groups to transition smoothly on and off stage.",
+      explanation:
+          "Clear spatial pathways keep the event running efficiently to schedule and prevent awkward disruptions between different musical items.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. A school musical ensemble records their live concert using a mobile tablet. Describe two ways this video recording will be useful after the performance ends.",
+      answer:
+          "The recording allows students to evaluate their musical execution and stage coordination during classroom appraisals, and serves as a digital archive to share with the community.",
+      explanation:
+          "Video documentation provides objective evidence for post-performance analysis and helps preserve local cultural activities for future learners.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L4/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain the musical function of the lead bell or timekeeper instrument in an indigenous Ghanaian percussion ensemble.",
+      answer:
+          "The lead bell plays an unchanging, recurring timeline pattern that serves as the steady rhythmic reference point, allowing all other drummers, singers, and dancers to stay perfectly synchronized.",
+      explanation:
+          "Without the constant timeline of the bell or woodblock, the complex polyrhythmic patterns played by different supporting drums could easily lose their alignment and tempo.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Describe how a composer uses the call-and-response technique to involve the audience during a musical performance.",
+      answer:
+          "The composer has the lead soloist sing varying, expressive lyrical phrases, followed immediately by a simple, consistent chorus response that the entire audience can easily repeat and sing back.",
+      explanation:
+          "Call-and-response transforms passive listeners into active participants, creating a shared community atmosphere that reinforces the song's theme.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. A student music group is preparing for a cultural day performance but only has two weeks left to practice. Outline two essential steps they should include in their rehearsal plan to ensure they are ready on time.",
+      answer:
+          "They should create a fixed practice timetable that separates sectional rehearsals for vocals and instruments before combining them, and schedule a full dress rehearsal at the actual performance venue.",
+      explanation:
+          "Breaking practice into targeted sectional workouts builds individual confidence, while a full dress rehearsal familiarizes the performers with stage movement and venue acoustics.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L3/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Identify the four progressive steps an appraiser should follow when critiquing a traditional visual artwork, and briefly explain the first step.",
+      answer:
+          "The four steps are Description, Analysis, Interpretation, and Judgement. In the Description step, the appraiser identifies and lists the visible facts of the artwork, such as subject matter, lines, shapes, and materials, without offering personal opinions.",
+      explanation:
+          "Critiquing in an orderly fashion prevents biased, superficial judgements and ensures that the physical details are thoroughly understood before conclusions are made.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Explain the difference between the \"content\" and the \"context\" of a visual artwork during an appreciation session.",
+      answer:
+          "Content refers to the actual visual subject matter depicted in the artwork, such as people or buildings, whereas context refers to the historical, cultural, and environmental background surrounding the creation of that artwork.",
+      explanation:
+          "Content answers what is physically visible in the piece, while context answers why, when, and where the artwork was produced by the creator.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. During a peer critique, a student simply writes on a partner's drawing: \"This artwork is very bad.\" How should the student rewrite this evaluation to make it a constructive appraisal?",
+      answer:
+          "The student should use polite, objective art vocabulary to state a clear observation and a specific recommendation, such as: \"The drawing has expressive line work, but adding deeper tonal shading would give the figures greater depth and realism\".",
+      explanation:
+          "Constructive appraisal avoids vague insults, highlights existing strengths, and provides actionable suggestions using art elements like line and tone.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_l2/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. State two practical reasons why an artist should store photographs of their three-dimensional sculptures in a digital portfolio.",
+      answer:
+          "Storing digital photographs allows the artist to safely record bulky three-dimensional artworks that cannot fit into standard folders, while protecting the physical items from accidental breakage during transport.",
+      explanation:
+          "Digital portfolios offer a portable, durable way to preserve records of large or fragile items like clay vessels and wood carvings without taking up physical storage space.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Why is it necessary to hang two-dimensional artworks at eye level during a school art exhibition?",
+      answer:
+          "Hanging artworks at eye level allows visitors of average height to view the pieces comfortably without straining their necks by looking too far up or bending too far down.",
+      explanation:
+          "Eye-level hanging is a standard exhibition practice that provides the most direct, comfortable, and natural visual engagement for viewers.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. A student receives several written comments from visitors stating that the labels on her clay sculptures were difficult to read. What two adjustments should she make for her next display?",
+      answer:
+          "She should write or print the text using a larger, clearer font style and position the labels upright on stable stands next to each sculpture rather than placing them flat underneath the objects.",
+      explanation:
+          "Exhibition labels must be legible and placed in clear view so that viewers can instantly identify the creator, title, and materials without disturbing the artwork.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+        scenario:
+            "1. Kwesi wishes to design a poster celebrating the history of boat building in his coastal town. Identify two practical sources in the community where he can gather authentic visual information.",
+        answer:
+            "Kwesi can visit the local beach landing site to observe and sketch canoes, and interview veteran fishermen or canoe carvers about traditional carving techniques.",
+        explanation:
+            "Visiting the seashore gives direct observation of canoe designs, while speaking to veteran craftsmen provides accurate oral history and functional details."),
+    PracticeQuestion(
+        scenario:
+            "2. Explain why an artist should make several rough thumbnail sketches before producing a final three-dimensional sculpture of a community leader.",
+        answer:
+            "Making thumbnail sketches allows the artist to test different poses, balance the proportions, and correct compositional errors before using costly physical materials.",
+        explanation:
+            "Thumbnail sketches serve as quick planning diagrams that save time and raw materials while helping the artist refine the visual message."),
+    PracticeQuestion(
+        scenario:
+            "3. A student wants to create an artwork addressing littering around the school canteen. How can the student combine traditional Ghanaian visual art with this modern environmental message?",
+        answer:
+            "The student can create a painted signpost incorporating traditional border symbols that represent cleanliness alongside clear illustrations of students placing rubbish into bins.",
+        explanation:
+            "Blending indigenous cultural motifs with practical social instructions creates a message that is both culturally rooted and socially relevant to the school community."),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson9PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L9/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the difference between upstage and downstage in the layout of a performance space.",
+      answer:
+          "Correct Answer: Downstage refers to the area of the stage closest to the audience, whereas upstage refers to the rear area of the stage farthest from the audience.",
+      explanation:
+          "Explanation: These directional terms originate from historical raked stages, where the rear of the stage was elevated physically higher than the front edge.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe how a dancer utilizes low, medium, and high spatial levels during a traditional cultural presentation.",
+      answer:
+          "Correct Answer: The dancer works at a low level by crouching or kneeling near the floor, at a medium level through upright standing footwork, and at a high level by leaping and reaching upward into the air.",
+      explanation:
+          "Explanation: Varying movement across low, medium, and high vertical planes creates visual rhythm, dynamic interest, and emotional depth in dance.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Provide an example of constructive peer-evaluation feedback for an actor who spoke with their back turned to the audience during a scene.",
+      answer:
+          "Correct Answer: \"Your physical gestures showed good character expression, but turning completely full back muffled your voice; adopting a three-quarter profile would keep your voice projecting toward the spectators\".",
+      explanation:
+          "Explanation: Effective feedback recognizes a technical strength while identifying how body profile adjustments preserve vocal clarity and audience connection.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson8PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L8/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the difference between locomotor and non-locomotor movements in dance, and provide two distinct examples for each.",
+      answer:
+          "Correct Answer: Locomotor movements involve physical travel from one location in space to another (such as leaping and skipping), whereas non-locomotor movements are performed in place around an anchored base (such as bending and swaying).",
+      explanation:
+          "Explanation: Locomotor movements change the performer's coordinates in the performance space, while non-locomotor movements involve articulations of the limbs and torso without changing location.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the traditional meaning conveyed when a dancer points two forefingers directly at another performer during a cultural presentation.",
+      answer:
+          "Correct Answer: Pointing two forefingers directly at another performer is an established gesture that expresses congratulations, praise, and honor for their artistic execution.",
+      explanation:
+          "Explanation: In traditional performance conventions, this gesture acknowledges the skill and dedication of a fellow dancer in the performance space.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Why is good body posture essential for achieving effective vocal projection in drama and choral singing?",
+      answer:
+          "Correct Answer: An upright, aligned posture opens the chest cavity, allowing the lungs and diaphragm to expand fully for strong breath support without straining the vocal cords.",
+      explanation:
+          "Explanation: Slouching restricts air intake and limits vocal resonance, whereas correct alignment enables an actor to project sound clearly across large spaces.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L7/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: In a standard simple time signature such as \$2/4\$ or \$3/4\$, what do the upper and lower numbers represent?",
+      answer:
+          "Correct Answer: The upper number indicates the number of beats per measure, while the lower number shows the type of note that receives one beat (with \$4\$ representing a crotchet).",
+      explanation:
+          "Explanation: Stacked time signature figures establish the metric framework: the numerator counts the beat units, and the denominator names the note value of each unit.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain the hierarchy of strong and weak beats in simple quadruple time (\$4/4\$).",
+      answer:
+          "Correct Answer: Beat 1 is strong, beat 2 is weak, beat 3 is medium (secondary strong), and beat 4 is weak.",
+      explanation:
+          "Explanation: In quadruple time, beat 1 carries the primary metric accent, while beat 3 provides a lighter secondary pulse, balanced by the weak unaccented beats 2 and 4.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Describe the physical arm movement pathway for conducting a song in simple triple time (\$3/4\$).",
+      answer:
+          "Correct Answer: Beat 1 moves straight down, beat 2 moves outward to the right, and beat 3 sweeps diagonally upward to the starting point.",
+      explanation:
+          "Explanation: The \$3/4\$ conducting pattern outlines a triangle in the air, establishing a clear downward pulse followed by lateral and upward recovery strokes.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L6/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: How many crotchet notes are required to equal the total durational value of one semibreve, and what is the visual appearance of a crotchet?",
+      answer:
+          "Correct Answer: It requires exactly 4 crotchets to equal one semibreve. A crotchet has a solid black oval note head and a straight vertical stem.",
+      explanation:
+          "Explanation: A semibreve is worth 4 beats and a crotchet is worth 1 beat; therefore, \$4 \\div 1 = 4\$ crotchets.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain the arithmetic relationship between a quaver and a semiquaver.",
+      answer:
+          "Correct Answer: A quaver is worth half a beat, while a semiquaver is worth a quarter of a beat; therefore, exactly two semiquavers equal one quaver.",
+      explanation:
+          "Explanation: In proportional rhythmic subdivision, each note value splits into two equal parts of the next smaller unit value (\$0.25 + 0.25 = 0.5\$).",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Write down the mnemonic syllables (French time names) used to articulate a four-beat bar consisting of four consecutive crotchet notes.",
+      answer:
+          "Correct Answer: The mnemonic syllables are spoken as: \"Ta, Ta, Ta, Ta\".",
+      explanation:
+          "Explanation: Each crotchet represents one beat and is vocalized with the single syllable \"Ta\". Four crotchets receive four distinct \"Ta\" articulations.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L5/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Describe the specific hand position used in John Curwen's hand sign system to represent the solfège syllable \"Te\".",
+      answer:
+          "Correct Answer: A closed fist with the index finger extended and pointing upward toward the sky.",
+      explanation:
+          "Explanation: The upward-pointing index finger visually demonstrates that the note Te has a melodic pull to resolve up to high Doh.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain the difference between singing a musical scale using solfège syllables and singing it by lahing.",
+      answer:
+          "Correct Answer: Singing with solfège uses the eight specific syllable names (Doh, Ray, Meh, etc.), while lahing sings the exact same pitches using only the syllable \"Lah\".",
+      explanation:
+          "Explanation: Lahing removes syllable articulation changes, allowing the learner to focus on pitch accuracy, breath support, and vocal intervals.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: On which line or space of the treble clef staff is the musical note G (Soh) positioned in C major?",
+      answer:
+          "Correct Answer: The note G (Soh) is positioned directly on the second line of the treble clef staff.",
+      explanation:
+          "Explanation: In the treble stave, lines are counted from the bottom up: line one is E, line two is G, and line three is B.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHs1_s2_ss1_L4/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Explain the difference between an individual motif and an overall pattern in visual arts design.",
+      answer:
+          "Correct Answer: A motif is a single distinctive visual unit or design shape, whereas a pattern is the repeating, organized arrangement of that motif across a surface.",
+      explanation:
+          "Explanation: One single figure standing alone is a motif; it only becomes a pattern when it is systematically repeated to create rhythm and surface coverage.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Describe the wax-resist technique in pattern making and explain why water-based paint does not cover the wax lines.",
+      answer:
+          "Correct Answer: The artist draws motifs using a wax crayon or candle and washes water-based paint across the surface; the paint is repelled because oil and water do not mix, leaving the wax marks visible.",
+      explanation:
+          "Explanation: Wax is hydrophobic and acts as a physical barrier against liquid washes, preserving the original paper colour beneath the wax strokes.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Give an example of constructive peer-evaluation feedback for a classmate who produced a block-printed textile sample.",
+      answer:
+          "Correct Answer: \"The print shows excellent visual rhythm and consistent spacing between motifs, but applying lighter paint pressure would stop the wet edges from bleeding into adjacent spaces\".",
+      explanation:
+          "Explanation: Helpful critique highlights a specific technical strength while providing an actionable recommendation for improving print quality.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: Describe how an artist performs the simple hand test to determine whether an earth sample possesses adequate plasticity for modelling.",
+      answer:
+          "Correct Answer: The artist moistens a small lump of the soil, rolls it between the palms into a thin pencil-sized coil, and curves it around a finger; if it bends smoothly without cracking or breaking off, it has suitable plasticity.",
+      explanation:
+          "Explanation: Pliable clay forms smooth, flexible ribbons when damp, whereas sandy or silty soil lacks internal cohesion and immediately fractures under bending tension.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Why must foreign impurities such as stones, seeds, and dry roots be removed from natural clay before modelling?",
+      answer:
+          "Correct Answer: Foreign impurities create weak points, disrupt the uniform density of the clay, and cause severe cracking or structural failure as the clay shrinks during drying.",
+      explanation:
+          "Explanation: Organic matter and non-plastic stones do not shrink at the same rate as pure clay, creating internal stress fractures that destroy finished artwork.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Explain the scoring and slipping process used when joining two pieces of clay in hand-building.",
+      answer:
+          "Correct Answer: The artist scratches cross-hatched grooves into both adjoining clay surfaces (scoring) and coats the marked areas with liquid clay slip before pressing the pieces firmly together.",
+      explanation:
+          "Explanation: Scoring roughs up the surface area, and the slip acts as a moist ceramic adhesive that knits the two separate clay bodies into a unified structure.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Question: What are the three sequential stages an artist follows when developing a still-life drawing from observation?",
+      answer:
+          "Correct Answer: The three stages are: lines (guidelines and layout), shapes (basic geometric blocking), and forms (refined three-dimensional contours and shading).",
+      explanation:
+          "Explanation: Starting with faint guidelines ensures proper placement, blocking out basic geometric shapes establishes correct scale, and refining forms creates accurate realism before adding tones.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Question: Explain how an artist uses pencil line spacing to create both light and dark areas when using the hatching technique.",
+      answer:
+          "Correct Answer: The artist draws parallel lines closely packed together to produce dark shadows, and spaces the lines farther apart to allow the paper to show through for lighter tones.",
+      explanation:
+          "Explanation: Value in hatching depends entirely on line density. Concentrated lines reduce white space and appear dark, while wider gaps reflect more light and appear pale.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Question: Provide an example of supportive and informative peer-evaluation feedback for a classmate who used cross-hatching on a spherical object.",
+      answer:
+          "Correct Answer: \"The artwork uses cross-hatching successfully to create dense shadow on the dark side of the ball, but curving the lines along the contour would make the sphere look even rounder\".",
+      explanation:
+          "Explanation: Constructive feedback points out a specific technical strength while giving clear, actionable guidance on how to enhance the form.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs1S2Ss1Lesson1PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS1_s2_ss1_L1/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Question: Explain the difference between a tool and a material in visual arts, and give one local Ghanaian example for each.",
+          answer:
+              "Correct Answer: A tool is an implement used to work on or manipulate an object, whereas a material is the actual substance of which the artwork is made. An example of a tool is a wire cutter or paintbrush, while an example of a material is local riverbed clay or cartridge paper.",
+          explanation:
+              "Explanation: Tools remain after the artwork is finished and are reusable. Materials are consumed or incorporated directly into the final visual product."),
+      PracticeQuestion(
+          scenario:
+              "2. Question: Why must an artist apply oil to metal modelling tools after washing and drying them?",
+          answer:
+              "Correct Answer: Applying oil creates a protective layer that stops moisture and air from reaching the metal, which prevents rusting and corrosion.",
+          explanation:
+              "Explanation: Metal tools oxidise and rust easily when exposed to water and humid studio environments. Wiping them with oil preserves the cutting and scraping edges in good working order."),
+      PracticeQuestion(
+          scenario:
+              "3. Question: Describe how an artist can prepare and preserve leftover modeling clay so that it remains usable for the next lesson.",
+          answer:
+              "Correct Answer: The artist should sprinkle the clay with clean water, wrap it in a damp cloth or plastic sheet, and store it inside a sealed container to retain its moisture.",
+          explanation:
+              "Explanation: Clay hardens quickly when exposed to dry air, losing its plasticity. Storing it in an airtight, damp environment keeps it soft and workable."),
+    ]);
+
 final PracticeModel creativeArtsJhs1S1Ss3Lesson3PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L3/6. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Why is it necessary to wash and thoroughly dry discarded polythene water sachets before heat-bonding them into prototype panels?",
-      answer: "Correct Answer: Washing eliminates sand, oily residues, and dirt that prevent the plastic layers from melting together cleanly, while drying ensures trapped moisture does not produce steam bubbles that weaken the fused material.",
-      explanation: "Explanation: Clean raw materials are essential for solid structural bonding. Contaminants or moisture trapped between heated sheets cause weak adhesion spots and surface blisters, reducing the durability of the finished product.",
+      scenario:
+          "1. Question: Why is it necessary to wash and thoroughly dry discarded polythene water sachets before heat-bonding them into prototype panels?",
+      answer:
+          "Correct Answer: Washing eliminates sand, oily residues, and dirt that prevent the plastic layers from melting together cleanly, while drying ensures trapped moisture does not produce steam bubbles that weaken the fused material.",
+      explanation:
+          "Explanation: Clean raw materials are essential for solid structural bonding. Contaminants or moisture trapped between heated sheets cause weak adhesion spots and surface blisters, reducing the durability of the finished product.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: How do digital drafting tools improve the development of an artefact compared to freehand sketching on paper alone?",
-      answer: "Correct Answer: Digital drafting tools allow designers to calculate exact dimensions, duplicate identical panels with precision, test color schemes quickly, and store editable templates without material waste.",
-      explanation: "Explanation: While paper sketches are ideal for quick ideation, digital tools provide exact geometric accuracy, scaling functions, and neat digital records that simplify measuring and cutting templates.",
+      scenario:
+          "2. Question: How do digital drafting tools improve the development of an artefact compared to freehand sketching on paper alone?",
+      answer:
+          "Correct Answer: Digital drafting tools allow designers to calculate exact dimensions, duplicate identical panels with precision, test color schemes quickly, and store editable templates without material waste.",
+      explanation:
+          "Explanation: While paper sketches are ideal for quick ideation, digital tools provide exact geometric accuracy, scaling functions, and neat digital records that simplify measuring and cutting templates.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: Explain why end-user feedback gathered during a community display is critical before starting large-scale production of an artefact.",
-      answer: "Correct Answer: User feedback highlights hidden operational flaws, comfort issues, and practical weaknesses that the original designer may have overlooked during personal testing.",
-      explanation: "Explanation: End users interact with the object under different physical conditions and expectations. Discovering their difficulties before mass manufacturing prevents wasted time, funds, and materials on defective designs.",
+      scenario:
+          "3. Question: Explain why end-user feedback gathered during a community display is critical before starting large-scale production of an artefact.",
+      answer:
+          "Correct Answer: User feedback highlights hidden operational flaws, comfort issues, and practical weaknesses that the original designer may have overlooked during personal testing.",
+      explanation:
+          "Explanation: End users interact with the object under different physical conditions and expectations. Discovering their difficulties before mass manufacturing prevents wasted time, funds, and materials on defective designs.",
     ),
   ],
 );
@@ -25,19 +964,28 @@ final PracticeModel creativeArtsJhs1S1Ss3Lesson2PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L2/6. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: What is the main danger of skipping the research stage when designing an artefact for community use?",
-      answer: "Correct Answer: Skipping research leads to making incorrect assumptions about user needs, selecting inappropriate materials, and producing a flawed design that fails to solve the real problem.",
-      explanation: "Explanation: Research provides the factual foundation for design decisions. Without investigating local constraints, user physical needs, and environmental conditions, a designer risks wasting time and money on unworkable items.",
+      scenario:
+          "1. Question: What is the main danger of skipping the research stage when designing an artefact for community use?",
+      answer:
+          "Correct Answer: Skipping research leads to making incorrect assumptions about user needs, selecting inappropriate materials, and producing a flawed design that fails to solve the real problem.",
+      explanation:
+          "Explanation: Research provides the factual foundation for design decisions. Without investigating local constraints, user physical needs, and environmental conditions, a designer risks wasting time and money on unworkable items.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Explain the difference between ideation and idea development within the design process.",
-      answer: "Correct Answer: Ideation is the brainstorming stage where many varied, rough sketches are produced freely, while idea development takes the best sketch and refines it with exact dimensions, materials, and joint details.",
-      explanation: "Explanation: Ideation explores a wide range of possibilities without judgment. Development narrows the focus to one strong concept, turning a rough sketch into an exact construction plan.",
+      scenario:
+          "2. Question: Explain the difference between ideation and idea development within the design process.",
+      answer:
+          "Correct Answer: Ideation is the brainstorming stage where many varied, rough sketches are produced freely, while idea development takes the best sketch and refines it with exact dimensions, materials, and joint details.",
+      explanation:
+          "Explanation: Ideation explores a wide range of possibilities without judgment. Development narrows the focus to one strong concept, turning a rough sketch into an exact construction plan.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: Why must a prototype be tested in its real working environment rather than solely inside a design workshop?",
-      answer: "Correct Answer: Real working environments expose the prototype to actual conditions like weather, dust, heavy loads, and real user habits that cannot be fully duplicated in a clean workshop.",
-      explanation: "Explanation: Field testing reveals hidden defects such as wind resistance, balance issues, or material weaknesses under actual everyday operating pressures.",
+      scenario:
+          "3. Question: Why must a prototype be tested in its real working environment rather than solely inside a design workshop?",
+      answer:
+          "Correct Answer: Real working environments expose the prototype to actual conditions like weather, dust, heavy loads, and real user habits that cannot be fully duplicated in a clean workshop.",
+      explanation:
+          "Explanation: Field testing reveals hidden defects such as wind resistance, balance issues, or material weaknesses under actual everyday operating pressures.",
     ),
   ],
 );
@@ -46,19 +994,28 @@ final PracticeModel creativeArtsJhs1S1Ss3Lesson1PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L1/6. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Explain the primary difference between a creative idea and an innovative product, using an example from a school environment.",
-      answer: "Correct Answer: Creativity is the initial mental generation of a novel idea, such as imagining a desk organizer made from discarded drink cans. Innovation is the actual execution of that idea into a usable, durable product distributed for students to tidy their supplies.",
-      explanation: "Explanation: Creativity resides in thought and ideation; it is the imaginative spark. Innovation requires turning that concept into a physical or operational reality that people can actively use to resolve a problem.",
+      scenario:
+          "1. Question: Explain the primary difference between a creative idea and an innovative product, using an example from a school environment.",
+      answer:
+          "Correct Answer: Creativity is the initial mental generation of a novel idea, such as imagining a desk organizer made from discarded drink cans. Innovation is the actual execution of that idea into a usable, durable product distributed for students to tidy their supplies.",
+      explanation:
+          "Explanation: Creativity resides in thought and ideation; it is the imaginative spark. Innovation requires turning that concept into a physical or operational reality that people can actively use to resolve a problem.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Why is a standard hospital wheelchair unsuitable for everyday mobility in many rural Ghanaian communities, and what design modification solves this issue?",
-      answer: "Correct Answer: Standard wheelchairs have small, smooth wheels that sink into sand, mud, and unpaved terrain. The design modification is replacing small wheels with thick, treaded bicycle-style wheels and a reinforced frame for rough ground.",
-      explanation: "Explanation: Design solutions must fit their intended operational environment. Adjusting wheel diameter, tyre tread, and frame clearance ensures the mobility aid functions effectively on untarred roads rather than solely on smooth indoor tiles.",
+      scenario:
+          "2. Question: Why is a standard hospital wheelchair unsuitable for everyday mobility in many rural Ghanaian communities, and what design modification solves this issue?",
+      answer:
+          "Correct Answer: Standard wheelchairs have small, smooth wheels that sink into sand, mud, and unpaved terrain. The design modification is replacing small wheels with thick, treaded bicycle-style wheels and a reinforced frame for rough ground.",
+      explanation:
+          "Explanation: Design solutions must fit their intended operational environment. Adjusting wheel diameter, tyre tread, and frame clearance ensures the mobility aid functions effectively on untarred roads rather than solely on smooth indoor tiles.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: Identify two specific design flaws found in traditional open charcoal coalpots and explain how modern cookstoves overcome them.",
-      answer: "Correct Answer: Traditional coalpots allow excessive heat to escape from their sides and waste charcoal rapidly. Modern cookstoves incorporate insulating ceramic clay liners inside the metal body to trap heat directly under the cooking pot.",
-      explanation: "Explanation: Analysing an existing artefact reveals performance weaknesses. Adding an insulating liner restricts heat dissipation, which conserves fuel, speeds up cooking time, and lowers household fuel expenditures.",
+      scenario:
+          "3. Question: Identify two specific design flaws found in traditional open charcoal coalpots and explain how modern cookstoves overcome them.",
+      answer:
+          "Correct Answer: Traditional coalpots allow excessive heat to escape from their sides and waste charcoal rapidly. Modern cookstoves incorporate insulating ceramic clay liners inside the metal body to trap heat directly under the cooking pot.",
+      explanation:
+          "Explanation: Analysing an existing artefact reveals performance weaknesses. Adding an insulating liner restricts heat dissipation, which conserves fuel, speeds up cooking time, and lowers household fuel expenditures.",
     ),
   ],
 );
@@ -67,19 +1024,28 @@ final PracticeModel creativeArtsJhs1S1Ss2Lesson3PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_L3/5. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Explain the difference between imagination and innovation in the design cycle, providing one simple example.",
-      answer: "Correct Answer: Imagination is the internal mental ability to conceive new ideas or picture solutions that do not yet exist, whereas innovation is the practical implementation of those ideas into a functional, finished product that solves a real problem. For example, imagining an easier way for farmers to shell maize is imagination, while building and testing a functioning manual maize-sheller artefact is innovation.",
-      explanation: "Explanation: Imagination provides the initial mental spark, while innovation delivers the tangible, working artefact in physical reality to meet a community need.",
+      scenario:
+          "1. Question: Explain the difference between imagination and innovation in the design cycle, providing one simple example.",
+      answer:
+          "Correct Answer: Imagination is the internal mental ability to conceive new ideas or picture solutions that do not yet exist, whereas innovation is the practical implementation of those ideas into a functional, finished product that solves a real problem. For example, imagining an easier way for farmers to shell maize is imagination, while building and testing a functioning manual maize-sheller artefact is innovation.",
+      explanation:
+          "Explanation: Imagination provides the initial mental spark, while innovation delivers the tangible, working artefact in physical reality to meet a community need.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Describe how a two-dimensional template assists a student when building a three-dimensional cardboard box model.",
-      answer: "Correct Answer: A two-dimensional template provides a flat pattern showing the exact measurements of all walls, bases, flaps, and folding lines. This ensures that when the card is cut and folded, the sides align perfectly into a stable three-dimensional shape.",
-      explanation: "Explanation: Templates eliminate guesswork during construction by defining structural dimensions, tabs, and joints beforehand on flat sheet material.",
+      scenario:
+          "2. Question: Describe how a two-dimensional template assists a student when building a three-dimensional cardboard box model.",
+      answer:
+          "Correct Answer: A two-dimensional template provides a flat pattern showing the exact measurements of all walls, bases, flaps, and folding lines. This ensures that when the card is cut and folded, the sides align perfectly into a stable three-dimensional shape.",
+      explanation:
+          "Explanation: Templates eliminate guesswork during construction by defining structural dimensions, tabs, and joints beforehand on flat sheet material.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: Why is exhibiting a design prototype for peer appreciation and feedback essential before final production?",
-      answer: "Correct Answer: Exhibiting the prototype allows classmates and teachers to inspect the model, test its usability, and provide critical feedback to correct design weaknesses and improve functionality before final production.",
-      explanation: "Explanation: Display and peer critique uncover practical design flaws, such as weak balance or uncomfortable grips, which the designer can modify and refine.",
+      scenario:
+          "3. Question: Why is exhibiting a design prototype for peer appreciation and feedback essential before final production?",
+      answer:
+          "Correct Answer: Exhibiting the prototype allows classmates and teachers to inspect the model, test its usability, and provide critical feedback to correct design weaknesses and improve functionality before final production.",
+      explanation:
+          "Explanation: Display and peer critique uncover practical design flaws, such as weak balance or uncomfortable grips, which the designer can modify and refine.",
     ),
   ],
 );
@@ -88,19 +1054,28 @@ final PracticeModel creativeArtsJhs1S1Ss2Lesson2PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_l2/5. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Explain how pressure sensitivity in a digital stylus assists a designer during freehand sketching.",
-      answer: "Correct Answer: Pressure sensitivity allows the stylus to register varying hand force, automatically adjusting stroke thickness, value, or opacity on screen just like a traditional graphite pencil.",
-      explanation: "Explanation: Internal sensors in the stylus detect physical pressure against the tablet surface. Light pressure creates thin, faint lines for preliminary layouts, while heavier pressure yields thicker, darker marks for final outlines and deep shading. ",
+      scenario:
+          "1. Question: Explain how pressure sensitivity in a digital stylus assists a designer during freehand sketching.",
+      answer:
+          "Correct Answer: Pressure sensitivity allows the stylus to register varying hand force, automatically adjusting stroke thickness, value, or opacity on screen just like a traditional graphite pencil.",
+      explanation:
+          "Explanation: Internal sensors in the stylus detect physical pressure against the tablet surface. Light pressure creates thin, faint lines for preliminary layouts, while heavier pressure yields thicker, darker marks for final outlines and deep shading. ",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Describe how virtual layers help an artist when shading a digital outline drawing.",
-      answer: "Correct Answer: Virtual layers allow an artist to keep outlines and shading on separate levels, enabling edits or tone adjustments without altering or erasing the original boundary lines.",
-      explanation: "Explanation: Because digital layers function like transparent sheets stacked together, painting tones on a layer beneath the linework protects the crispness of the outline drawing.",
+      scenario:
+          "2. Question: Describe how virtual layers help an artist when shading a digital outline drawing.",
+      answer:
+          "Correct Answer: Virtual layers allow an artist to keep outlines and shading on separate levels, enabling edits or tone adjustments without altering or erasing the original boundary lines.",
+      explanation:
+          "Explanation: Because digital layers function like transparent sheets stacked together, painting tones on a layer beneath the linework protects the crispness of the outline drawing.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: State two distinct advantages of using digital drawing software over traditional manual drawing materials.",
-      answer: "Correct Answer: First, digital software allows instantaneous corrections through undo functions without damaging the surface. Second, digital tools provide endless virtual materials, colour palettes, and layers without consuming physical supplies. ",
-      explanation: "Explanation: Digital workflows eliminate physical paper waste, prevent permanent smudging accidents, and provide rapid reproduction and resizing options that manual tools cannot match. ",
+      scenario:
+          "3. Question: State two distinct advantages of using digital drawing software over traditional manual drawing materials.",
+      answer:
+          "Correct Answer: First, digital software allows instantaneous corrections through undo functions without damaging the surface. Second, digital tools provide endless virtual materials, colour palettes, and layers without consuming physical supplies. ",
+      explanation:
+          "Explanation: Digital workflows eliminate physical paper waste, prevent permanent smudging accidents, and provide rapid reproduction and resizing options that manual tools cannot match. ",
     ),
   ],
 );
@@ -109,19 +1084,28 @@ final PracticeModel creativeArtsJhs1S1Ss2Lesson1PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss2_L1/5. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Explain the primary functional difference between a marking tool and a guiding tool in manual design drawing, giving one specific example of each.",
-      answer: "Correct Answer: A marking tool deposits pigment or graphite onto the drawing surface to produce visible lines and tones, such as an HB graphite pencil. A guiding tool does not deposit colour; instead, it directs the movement of marking tools to ensure accurate straightness, angles, or measurements, such as a T-square.",
-      explanation: "Explanation: Marking tools (including pencils, pens, and charcoal) create the actual visual image. Guiding tools (such as rulers, T-squares, and set squares) assist the hand in achieving precise geometric lines, proportions, and aligned layouts on the paper ground.",
+      scenario:
+          "1. Question: Explain the primary functional difference between a marking tool and a guiding tool in manual design drawing, giving one specific example of each.",
+      answer:
+          "Correct Answer: A marking tool deposits pigment or graphite onto the drawing surface to produce visible lines and tones, such as an HB graphite pencil. A guiding tool does not deposit colour; instead, it directs the movement of marking tools to ensure accurate straightness, angles, or measurements, such as a T-square.",
+      explanation:
+          "Explanation: Marking tools (including pencils, pens, and charcoal) create the actual visual image. Guiding tools (such as rulers, T-squares, and set squares) assist the hand in achieving precise geometric lines, proportions, and aligned layouts on the paper ground.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Describe how an artist produces high tones, mid-tones, and low tones on a sphere using the cross-hatching technique.",
-      answer: "Correct Answer: High tones are created by leaving the paper white or placing few, widely spaced lines where light hits directly. Mid-tones are produced by applying a single layer of evenly spaced parallel hatching lines across the curve. Low tones are created by layering multiple intersecting lines over each other densely on the side facing away from the light source.",
-      explanation: "Explanation: Tonal value depends on the density of line coverage. By varying line spacing and layering intersecting strokes, cross-hatching controls the amount of exposed paper surface, producing smooth transitions from light highlight to dense cast shadow.",
+      scenario:
+          "2. Question: Describe how an artist produces high tones, mid-tones, and low tones on a sphere using the cross-hatching technique.",
+      answer:
+          "Correct Answer: High tones are created by leaving the paper white or placing few, widely spaced lines where light hits directly. Mid-tones are produced by applying a single layer of evenly spaced parallel hatching lines across the curve. Low tones are created by layering multiple intersecting lines over each other densely on the side facing away from the light source.",
+      explanation:
+          "Explanation: Tonal value depends on the density of line coverage. By varying line spacing and layering intersecting strokes, cross-hatching controls the amount of exposed paper surface, producing smooth transitions from light highlight to dense cast shadow.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: State two distinct differences between using smooth cartridge paper and coarse cardboard as manual drawing materials.",
-      answer: "Correct Answer: First, smooth cartridge paper provides an even surface suitable for precise, sharp pen and pencil outlines, while coarse cardboard has a textured, porous surface that breaks fine lines. Second, coarse cardboard provides higher structural rigidity for mock-ups and absorbs heavy charcoal well, whereas cartridge paper is flexible and lightweight.",
-      explanation: "Explanation: The physical texture, weight, and tooth of drawing materials determine which media adhere best to them and influence the crispness of the final design presentation.",
+      scenario:
+          "3. Question: State two distinct differences between using smooth cartridge paper and coarse cardboard as manual drawing materials.",
+      answer:
+          "Correct Answer: First, smooth cartridge paper provides an even surface suitable for precise, sharp pen and pencil outlines, while coarse cardboard has a textured, porous surface that breaks fine lines. Second, coarse cardboard provides higher structural rigidity for mock-ups and absorbs heavy charcoal well, whereas cartridge paper is flexible and lightweight.",
+      explanation:
+          "Explanation: The physical texture, weight, and tooth of drawing materials determine which media adhere best to them and influence the crispness of the final design presentation.",
     ),
   ],
 );
@@ -130,19 +1114,28 @@ final PracticeModel creativeArtsJhs1S1Ss1Lesson3PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss1_L3/6. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Explain the primary difference between symmetrical balance and asymmetrical balance, and give one natural example of symmetrical balance.",
-      answer: "Correct Answer: Symmetrical balance occurs when both sides of a central dividing line are identical mirror images, whereas asymmetrical balance uses different visual elements of contrasting weights on each side that still achieve an overall sense of stability. A clear natural example of symmetrical balance is the outstretched wings of a butterfly or the bilateral symmetry of the human face.",
-      explanation: "Explanation: Symmetrical arrangements use exact reflection across a dividing line, while asymmetrical arrangements use balance through contrasting visual elements.",
+      scenario:
+          "1. Question: Explain the primary difference between symmetrical balance and asymmetrical balance, and give one natural example of symmetrical balance.",
+      answer:
+          "Correct Answer: Symmetrical balance occurs when both sides of a central dividing line are identical mirror images, whereas asymmetrical balance uses different visual elements of contrasting weights on each side that still achieve an overall sense of stability. A clear natural example of symmetrical balance is the outstretched wings of a butterfly or the bilateral symmetry of the human face.",
+      explanation:
+          "Explanation: Symmetrical arrangements use exact reflection across a dividing line, while asymmetrical arrangements use balance through contrasting visual elements.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Describe how an artist or designer uses contrast to prevent an artwork or poster from appearing dull and uninteresting.",
-      answer: "Correct Answer: An artist uses contrast by placing opposing visual elements side by side, such as pairing light colours with dark backgrounds, sharp geometric shapes with soft organic curves, or rough tactile surfaces with polished smooth areas. This strong opposition catches the viewer's attention and makes individual components stand out clearly.",
-      explanation: "Explanation: Contrast creates visual tension and clarity by highlighting differences between adjacent design elements.",
+      scenario:
+          "2. Question: Describe how an artist or designer uses contrast to prevent an artwork or poster from appearing dull and uninteresting.",
+      answer:
+          "Correct Answer: An artist uses contrast by placing opposing visual elements side by side, such as pairing light colours with dark backgrounds, sharp geometric shapes with soft organic curves, or rough tactile surfaces with polished smooth areas. This strong opposition catches the viewer's attention and makes individual components stand out clearly.",
+      explanation:
+          "Explanation: Contrast creates visual tension and clarity by highlighting differences between adjacent design elements.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: State the relationship between repetition, pattern, and rhythm in the production of traditional Ghanaian textiles.",
-      answer: "Correct Answer: Repetition occurs when an artisan weaves or stamps the same element multiple times across the cloth. When these repeated units are organised in a regular, predictable sequence, they form a decorative pattern. The visual flow and tempo produced by following these repeating patterns across the fabric creates a visual rhythm that guides the viewer's eyes smoothly.",
-      explanation: "Explanation: Repetition is the action, pattern is the structured arrangement, and rhythm is the resulting visual beat or movement experienced by the onlooker.",
+      scenario:
+          "3. Question: State the relationship between repetition, pattern, and rhythm in the production of traditional Ghanaian textiles.",
+      answer:
+          "Correct Answer: Repetition occurs when an artisan weaves or stamps the same element multiple times across the cloth. When these repeated units are organised in a regular, predictable sequence, they form a decorative pattern. The visual flow and tempo produced by following these repeating patterns across the fabric creates a visual rhythm that guides the viewer's eyes smoothly.",
+      explanation:
+          "Explanation: Repetition is the action, pattern is the structured arrangement, and rhythm is the resulting visual beat or movement experienced by the onlooker.",
     ),
   ],
 );
@@ -151,19 +1144,28 @@ final PracticeModel creativeArtsJhs1S1Ss1Lesson2PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss1_l2/6. GUIDED PRACTICE.mp3",
   questions: [
     PracticeQuestion(
-      scenario: "1. Question: Explain how pressure sensitivity in a digital stylus assists a designer during freehand sketching.",
-      answer: "Correct Answer: Pressure sensitivity allows the stylus to register varying hand force, automatically adjusting stroke thickness, value, or opacity on screen just like a traditional graphite pencil.",
-      explanation: "Explanation: Internal sensors in the stylus detect physical pressure against the tablet surface. Light pressure creates thin, faint lines for preliminary layouts, while heavier pressure yields thicker, darker marks for final outlines and deep shading.",
+      scenario:
+          "1. Question: Explain the primary physical difference between a shape and a form, and provide one clear example of each from a typical Ghanaian school compound.",
+      answer:
+          "Correct Answer: A shape is a flat, two-dimensional area defined by length and width, whereas a form is a three-dimensional object possessing length, width, and physical depth or volume. For example, the rectangular face of a painted blackboard is a flat shape, while a solid cement building block or a leather football on the playing field is a three-dimensional form.",
+      explanation:
+          "Explanation: Shapes exist flat on a single plane, while forms occupy tangible physical space and can be viewed or held from multiple angles.",
     ),
     PracticeQuestion(
-      scenario: "2. Question: Describe how virtual layers help an artist when shading a digital outline drawing.",
-      answer: "Correct Answer: Virtual layers allow an artist to keep outlines and shading on separate levels, enabling edits or tone adjustments without altering or erasing the original boundary lines.",
-      explanation: "Explanation: Because digital layers function like transparent sheets stacked together, painting tones on a layer beneath the linework protects the crispness of the outline drawing.",
+      scenario:
+          "2. Question: Describe the difference between tactile texture and visual texture, using objects commonly found in a Ghanaian community market as examples.",
+      answer:
+          "Correct Answer: Tactile texture refers to the real physical sensation felt when touching an object, such as the coarse roughness of a woven raffia sack or the prickly skin of a fresh pineapple. Visual texture refers to the surface illusion created by an artist on a flat plane that appears textured to the eye but feels completely flat and smooth to the touch, such as an oil painting depicting rough dried fish or glossy glass beads.",
+      explanation:
+          "Explanation: Tactile texture involves the sense of touch directly, while visual texture relies on visual shading and highlight tricks to suggest surface feel.",
     ),
     PracticeQuestion(
-      scenario: "3. Question: State two distinct advantages of using digital drawing software over traditional manual drawing materials.",
-      answer: "Correct Answer: First, digital software allows instantaneous corrections through undo functions without damaging the surface. Second, digital tools provide endless virtual materials, colour palettes, and layers without consuming physical supplies.",
-      explanation: "Explanation: Digital workflows eliminate physical paper waste, prevent permanent smudging accidents, and provide rapid reproduction and resizing options that manual tools cannot match.",
+      scenario:
+          "3. Question: State the three primary colours, and explain how a student can combine them to produce the secondary colours orange and green.",
+      answer:
+          "Correct Answer: The three primary colours are red, yellow, and blue. A student produces orange by mixing equal amounts of red and yellow paint. A student produces green by mixing equal amounts of yellow and blue paint.",
+      explanation:
+          "Explanation: Primary colours are pure base pigments, while secondary colours are made by combining two primary hues in balanced measure.",
     ),
   ],
 );
@@ -4511,8 +5513,7 @@ final PracticeModel computingJhs3S3Ss2Lesson1PracticeData = PracticeModel(
     PracticeQuestion(
       scenario:
           "2. Question: Your headteacher sends an email notice to all thirty JHS 3 class prefects announcing the date of an upcoming meeting. One prefect wants to inform the headteacher that he will arrive ten minutes late due to an errand for his housemaster. Should this prefect click \"Reply\" or \"Reply All\"? Justify your choice.",
-      answer:
-          "Correct Answer: The prefect must select \"Reply\".",
+      answer: "Correct Answer: The prefect must select \"Reply\".",
       explanation:
           "Explanation: Clicking \"Reply\" sends the personal update solely to the headteacher. Selecting \"Reply All\" would send an irrelevant personal notification to all thirty prefects, unnecessarily filling their email inboxes.",
     ),
@@ -6251,24 +7252,21 @@ final PracticeModel s5ss1Lesson2PracticeData = PracticeModel(
       'assets/audio/english/ENGLISH JHS1 S5 SS1 L2/ENGLISH JHS1 S5 SS1 L2 (4. GUIDED PRACTICE).m4a',
   questions: [
     PracticeQuestion(
-      scenario:
-          "1. The marketplace was a beehive of activity. \n"
+      scenario: "1. The marketplace was a beehive of activity. \n"
           "Question: Is this a simile or a metaphor?",
       answer: "Correct Answer: Metaphor.",
       explanation:
           "Explanation: It compares the market to a beehive directly without using \"like\" or \"as.\"",
     ),
     PracticeQuestion(
-      scenario:
-          "2. Busy Bukari bought big baskets. \n"
+      scenario: "2. Busy Bukari bought big baskets. \n"
           "Question: Which sound device is being used here?",
       answer: "Correct Answer: Alliteration.",
       explanation:
           "Explanation: The \"B\" sound is repeated at the beginning of almost every word.",
     ),
     PracticeQuestion(
-      scenario:
-          "3. The moon smiled down on the sleeping village.\n"
+      scenario: "3. The moon smiled down on the sleeping village.\n"
           "Question: What literary device is used to describe the moon?",
       answer: "Correct Answer: Personification.",
       explanation: "Explanation: Smiling is a human action given to the moon.",
@@ -8513,24 +9511,21 @@ final PracticeModel jhs3s2ss1Lesson5PracticeData = PracticeModel(
       'assets/audio/english/ENGLISH JHS3 S2 SS1 L4/6. Guided Practice.m4a',
   questions: [
     PracticeQuestion(
-      scenario:
-          "1. Question: What is the fee for the computer classes?"
+      scenario: "1. Question: What is the fee for the computer classes?"
           "Text: \"The Youth Centre is offering new courses this month. We have bead making on Mondays and ICT classes on Wednesdays. The ICT registration fee is 50 Cedis. Please bring a notebook and a pen.\"",
       answer: "Correct Answer: 50 Cedis.",
       explanation:
           "Explanation: By scanning for the keyword \"fee\" or the symbol for currency, you can skip the info about bead making and notebooks.",
     ),
     PracticeQuestion(
-      scenario:
-          "2. Question: Who is the guest speaker for the assembly?"
+      scenario: "2. Question: Who is the guest speaker for the assembly?"
           "Text: \"All JHS students must gather at the assembly hall by 8:00 AM. We are honoured to welcome Dr. Joyce Aryee, who will speak about leadership. Please be seated quietly before she arrives.\"",
       answer: "Correct Answer: Dr. Joyce Aryee.",
       explanation:
           "Explanation: Your eyes should scan for capital letters (Proper Nouns) because a \"who\" question always looks for a name.",
     ),
     PracticeQuestion(
-      scenario:
-          "3. Question: What time does the final match start?"
+      scenario: "3. Question: What time does the final match start?"
           "Text: \"The inter-school sports competition ends this Friday. The netball finals start at 2:00 PM, followed by the football final at 4:30 PM. Medals will be given at 6:00 PM.\"",
       answer: "Correct Answer: 4:30 PM.",
       explanation:
@@ -8945,8 +9940,7 @@ final PracticeModel jhs3s3ss1Lesson6PracticeData = PracticeModel(
           "Explanation: \"My father\" is specific enough; the fact that he works at the bank is extra information.",
     ),
     PracticeQuestion(
-      scenario:
-          "3. Question: Which is correct?"
+      scenario: "3. Question: Which is correct?"
           "A. The house that I bought is old."
           "B. The house, that I bought, is old.",
       answer: "Correct Answer: A.",
@@ -9108,16 +10102,14 @@ final PracticeModel jhs3s3ss3Lesson2PracticeData = PracticeModel(
           "Explanation: In British English, we add a 'u' before the 'r' in words like humour, labour, and favour.",
     ),
     PracticeQuestion(
-      scenario:
-          "2. Question: \"I am **studing** very hard for my BECE exams.\""
+      scenario: "2. Question: \"I am **studing** very hard for my BECE exams.\""
           "What is the correct way to spell the bold word?",
       answer: "Correct Answer: studying",
       explanation:
           "Explanation: When a word ends in 'y' and you add '-ing', you keep the 'y'. You only change it to 'i' when adding '-ed' or '-es'.",
     ),
     PracticeQuestion(
-      scenario:
-          "3. Question: \"We need to reorganize the library books.\""
+      scenario: "3. Question: \"We need to reorganize the library books.\""
           "How should this be spelled in a Ghanaian classroom?",
       answer: "Correct Answer: reorganise",
       explanation:
@@ -9538,8 +10530,7 @@ final PracticeModel jhs3s4ss3Lesson3PracticeData = PracticeModel(
     PracticeQuestion(
       scenario:
           "3. Question: Rewrite this sentence into script format: Adjoa asked Kojo if he had the keys. Kojo said he forgot them.",
-      answer:
-          "Correct Answer: ADJOA: Kojo, do you have the keys?\n"
+      answer: "Correct Answer: ADJOA: Kojo, do you have the keys?\n"
           "KOJO: I forgot them.",
       explanation:
           "Explanation: In a script, we use names and colons instead of 'asked' or 'said'.",

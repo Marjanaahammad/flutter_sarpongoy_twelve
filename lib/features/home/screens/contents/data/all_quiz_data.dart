@@ -1,10 +1,4555 @@
 import '../model/quiz_model.dart';
 
+final QuizModel creativeArtsJhs2S1Ss3Lesson3QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS2_s1_ss3_L3/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. Which method provides the most reliable information when identifying a community sanitation problem?",
+          options: [
+            "Conducting personal observations and community interviews",
+            "Relying only on foreign television news documentaries",
+            "Guessing what challenges residents might be experiencing",
+            "Copying a completed design brief from another country"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Direct on-site observation and interviewing affected community members provide accurate, factual data about local problems."),
+      QuizQuestion(
+          question:
+              "2. Why is vector drawing software like CorelDRAW valuable in the design development phase?",
+          options: [
+            "It produces finished physical artefacts without human labour",
+            "It prepares precise, rescalable patterns and layouts digitally",
+            "It replaces the need to understand materials and fabrication",
+            "It automatically gathers user testing feedback from markets"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation:
+              "Graphic design software helps creators draft accurate, scalable digital patterns, modify layouts, and test visuals prior to cutting materials."),
+      QuizQuestion(
+          question:
+              "3. A student wants to build a lightweight, water-resistant storage bin using local waste materials. Which combination is most suitable?",
+          options: [
+            "Heavy river stones joined together with unbaked clay",
+            "Untreated newsprint paper glued with thin cassava starch",
+            "Discarded pure water sachets woven over a cane framework",
+            "Unpainted mild iron sheets tied together with sisal rope"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Discarded plastic sachets are waterproof, lightweight, and abundant, while cane provides a rigid, flexible structural framework."),
+      QuizQuestion(
+          question:
+              "4. What is the primary role of the end user during the testing stage of a design prototype?",
+          options: [
+            "Constructing the wooden frames and joint connections",
+            "Paying for all initial research and workshop tooling costs",
+            "Operating the product to evaluate comfort and efficiency",
+            "Writing the original design brief for the project team"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation:
+              "End users test the artefact in authentic settings to identify functional defects, ergonomic flaws, and operational strengths."),
+      QuizQuestion(
+          question:
+              "5. Why are completed design prototypes displayed during school and community exhibitions?",
+          options: [
+            "To prove that manual fabrication tools are no longer useful",
+            "To hide design weaknesses from local community craftsmen",
+            "To sell all prototype units before any testing is conducted",
+            "To share creativity and gather valuable feedback for refinement"
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation:
+              "Exhibitions allow designers to disseminate their innovations, celebrate creative problem solving, and receive community input for further improvement."),
+      QuizQuestion(
+          question:
+              "6. A team tests a handcart for carting firewood, but the wooden wheels crack on rough gravel. How should the team respond?",
+          options: [
+            "Abandon the cart project and discard all gathered materials",
+            "Blame community members for rolling the cart over gravel",
+            "Replace the wheels with recycled rubber tyres on metal rims",
+            "Paint the cracked wooden wheels with decorative bright paint"
+          ],
+          correctIndex: 2,
+          difficulty: "Hard",
+          explanation:
+              "Design iteration requires replacing failing components with stronger, shock-absorbing materials suitable for the operating environment."),
+      QuizQuestion(
+          question:
+              "7. Which tool set is best suited for cutting, joining, and finishing a wooden shoe storage rack?",
+          options: [
+            "Hand saw, claw hammer, steel nails, and sandpaper",
+            "Scissors, tailor chalk, dressmaker pins, and cotton",
+            "Pencils, water colours, horsehair brush, and drawing ink",
+            "Soldering iron, copper wire, solder flux, and multimeter"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Saws, hammers, nails, and abrasive paper are the appropriate manual woodworking tools for cutting, assembling, and smoothing timber structures."),
+      QuizQuestion(
+          question:
+              "8. A designer produces a seed-planting tool that eliminates the need for farmers to bend down constantly. This artefact is successful because it addresses what?",
+          options: [
+            "Modern graphic design typography and artistic decoration",
+            "High consumer demand for imported metal farm implements",
+            "A specific physical challenge experienced in the community",
+            "The requirement to use only non-renewable natural resources"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Successful community artefacts solve specific, documented physical challenges that affect the well-being and productivity of local workers."),
+      QuizQuestion(
+          question:
+              "9. What is the primary purpose of recording user reactions while they test a new artefact?",
+          options: [
+            "To publish private customer information in public notices",
+            "To collect clear evidence for modifying and refining the model",
+            "To convince users that the first prototype has no design flaws",
+            "To eliminate the need for future ideation and sketching work"
+          ],
+          correctIndex: 1,
+          difficulty: "Hard",
+          explanation:
+              "Systematic note-taking during user trials captures exact failure points and operational difficulties, guiding effective product refinement."),
+      QuizQuestion(
+          question:
+              "10. What key lesson does a student designer demonstrate when using discarded items to build practical tools?",
+          options: [
+            "High financial wealth is required to solve community issues",
+            "Digital tools are the only valid way to build useful objects",
+            "Any artefact created without metal components cannot function",
+            "Creativity and resourcefulness can turn waste into solutions"
+          ],
+          correctIndex: 3,
+          difficulty: "Hard",
+          explanation:
+              "Resourceful designers leverage creativity and local materials to fabricate affordable, sustainable solutions to pressing social problems."),
+    ]);
+
+final QuizModel creativeArtsJhs2S1Ss3Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_S1_SS3_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What is the first formal stage a designer undertakes when tackling a design project?",
+      options: [
+        "Defining the problem",
+        "Refining the product",
+        "Assembling prototypes",
+        "Brainstorming sketches",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Identifying and defining the problem is the foundational step that gives clear direction to the entire design effort.",
+    ),
+    QuizQuestion(
+      question: "2. During which stage does a designer produce rapid, unjudged ideas and sketches to solve a problem?",
+      options: [
+        "Final testing",
+        "Writing the brief",
+        "Prototype assembly",
+        "Ideation or brainstorming",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Ideation encourages open creative thinking to generate as many diverse potential concepts as possible.",
+    ),
+    QuizQuestion(
+      question: "3. Why is testing considered an essential step before releasing an artefact to the public?",
+      options: [
+        "It allows the creator to display original artistic flair",
+        "It verifies if the artefact works safely and effectively",
+        "It increases the manufacturing cost of materials used",
+        "It proves that no other design alternatives are needed",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Testing evaluates whether the model performs its intended task under real operating conditions without breaking or causing harm.",
+    ),
+    QuizQuestion(
+      question: "4. A student designer interviews market women to learn why cassava roots rot during storage. What design phase is this?",
+      options: [
+        "Research and investigation",
+        "Prototype construction",
+        "Final market promotion",
+        "Redesigning and refining",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Interviewing target users to gather practical data about challenges is a central part of design research.",
+    ),
+    QuizQuestion(
+      question: "5. What is the main purpose of the refinement stage in the design sequence?",
+      options: [
+        "To start an unrelated project with new local timber",
+        "To eliminate the need for future prototype testing",
+        "To fix discovered faults and improve performance",
+        "To duplicate existing foreign products without changes",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Refinement modifies and upgrades the product using observations and feedback gained during testing.",
+    ),
+    QuizQuestion(
+      question: "6. Which sequence outlines the correct logical flow of the early stages of the design process?",
+      options: [
+        "Prototyping, then Brief, then Research, then Defining",
+        "Ideation, then Testing, then Defining, then Brief",
+        "Defining, then Brief, then Research, then Ideation",
+        "Testing, then Ideation, then Research, then Brief",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Designers first define the problem, write the brief, research conditions, and then brainstorm potential solutions.",
+    ),
+    QuizQuestion(
+      question: "7. What is a working three-dimensional physical sample of a proposed design called?",
+      options: ["A prototype", "An ideation", "A thumbnail", "A monograph"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A prototype is a physical model built to evaluate appearance, mechanics, and real-world performance.",
+    ),
+    QuizQuestion(
+      question: "8. A designer in Ho develops three different cookstove shapes on paper to assess which uses the least charcoal. What stage is this?",
+      options: [
+        "Redesign and disposal",
+        "Idea development",
+        "Commercial packaging",
+        "Mass manufacturing",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Developing sketches and comparing alternatives against technical criteria occurs during idea development.",
+    ),
+    QuizQuestion(
+      question: "9. What should a design team do if their prototype collapses completely during its initial strength test?",
+      options: [
+        "Hide the failure and sell the object immediately",
+        "Blame the user and refuse to make alterations",
+        "Abandon design work and close the school lab",
+        "Analyse the break points and modify the structure",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Prototype failures provide vital engineering data that allow designers to reinforce weak points during redesign.",
+    ),
+    QuizQuestion(
+      question: "10. Why are local community members asked to try out a newly designed harvesting basket?",
+      options: [
+        "To prevent other inventors from seeing the model",
+        "To let strangers paint decorative motifs on it",
+        "To verify that all materials were imported abroad",
+        "To gather real feedback on comfort and usability",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "User testing ensures that those who will rely on the tool daily find it comfortable, durable, and practical.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S1Ss3Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss3_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which statement correctly explains why an invention or artefact is classified as an innovation?",
+      options: [
+        "It solves a specific problem within society.",
+        "It is created purely for display in an art gallery.",
+        "It requires only natural untreated raw materials.",
+        "It is very expensive to purchase in local shops."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Innovation is defined by its ability to resolve practical challenges and improve everyday life through purposeful problem solving.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A pupil creates an imaginative sculpture of a bird using dry banana leaves and wire. This work is best described as an example of what?",
+      options: [
+        "Mass production",
+        "Pure innovation",
+        "Industrial craft",
+        "Creative expression"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The sculpture expresses novel thought and artistic visual ideas without fulfilling a utilitarian or problem-solving function.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What main problem did inventors seek to eliminate when designing modern smokeless institutional cookstoves?",
+      options: [
+        "Heavy food waste and prolonged kitchen storage",
+        "Excessive fuel consumption and hazardous fumes",
+        "Low retail price of locally manufactured cookware",
+        "High demand for imported ceramic dining sets"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional cooking hearths cause excessive fuel loss and release dense smoke that harms the respiratory health of users.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which process describes looking at an existing product and changing aspects of its build to address new user needs?",
+      options: [
+        "Modification",
+        "Preservation",
+        "Depreciation",
+        "Serialization"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Modification involves altering the structure, materials, or operation of an existing object to solve known challenges.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why can every innovative product be considered creative, but not every creative product can be considered an innovation?",
+      options: [
+        "Creativity requires technical machinery, but innovation depends on freehand drawing.",
+        "Innovation requires expensive imported parts, whereas creativity uses local timber.",
+        "Innovation must solve a problem, while creativity only needs to express an idea.",
+        "Creativity requires government approval, but innovation can be performed by anyone."
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Creativity is the foundation for generating novel thoughts, but an artefact only becomes an innovation when it solves a specific real-world challenge.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which of the following artefacts is an example of an innovation designed specifically to assist persons with physical mobility challenges?",
+      options: [
+        "A decorated wooden walking stick with carved patterns",
+        "A woven cane basket used for gathering wild cassava",
+        "An adjustable orthopaedic shoe with shock-absorbing soles",
+        "A clay water vessel designed with two carrying handles"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Orthopaedic footwear modifies standard footwear specifically to provide stability, support, and mobility for people with physical challenges.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does replacing a wooden chalkboard with an interactive smart screen benefit learners in a basic school classroom?",
+      options: [
+        "It provides dynamic visual learning and eliminates chalk dust.",
+        "It allows learners to play computer games during class hours.",
+        "It ensures that the teacher never has to prepare lesson notes.",
+        "It makes the classroom completely dark during lesson periods."
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Smart boards improve interactive classroom engagement while removing chalk dust that can trigger respiratory allergies.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A designer develops an affordable solar-powered lantern for junior high school pupils living in non-electrified areas. What primary challenge is this product solving?",
+      options: [
+        "Lack of access to clean and safe lighting for home study",
+        "Excessive dependence on expensive imported computer monitors",
+        "Inability to dry food crops during the heavy rainy seasons",
+        "Difficulties encountered when transporting goods to market"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Solar lamps replace hazardous wax candles and kerosene lamps, providing clean, steady light for reading and homework.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the first step a community designer takes when intending to create a practical design solution?",
+      options: [
+        "Mass-producing several hundred units of the final product",
+        "Painting the exterior of an existing building with bright oil paint",
+        "Purchasing industrial manufacturing equipment from overseas suppliers",
+        "Investigating and identifying the specific problems facing the people"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Design innovation always begins with identifying and understanding the real difficulties that need to be solved in the community.",
+    ),
+    QuizQuestion(
+      question:
+          "10. A local potter redesigns a traditional water cooler by adding an internal charcoal cooling layer and an easy-turn brass tap. This work is best classified as what?",
+      options: [
+        "Replicating an existing antique without making any changes",
+        "Producing pure abstract art meant only for public viewing",
+        "Abandoning traditional methods to adopt expensive plastics",
+        "Modifying an existing product to enhance cooling and hygiene"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The potter modified an existing artefact by adding features that improve functionality, temperature control, and water hygiene.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S1Ss2Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss2_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What flat pattern development is unfolded completely flat to reveal all panels, fold scores, and glue tabs?",
+      options: [
+        "Linear horizon",
+        "Tonal gradient",
+        "Canvas layer",
+        "Packaging net"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A packaging net is the flattened, unfolded pattern of a three-dimensional container showing all faces and tabs.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why do designers produce multiple rapid thumbnail sketches during the early ideation phase?",
+      options: [
+        "To explore diverse solution options",
+        "To finalize precise workshop costs",
+        "To eliminate the need for templates",
+        "To test structural mortar strength"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Thumbnail sketches allow designers to quickly brainstorm, evaluate, and compare multiple creative ideas before committing resources.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which modelling method is being used when a student shapes riverbed clay by adding moist coils together?",
+      options: [
+        "Subtractive sculpting",
+        "Additive fabrication",
+        "Chemical etching cut",
+        "Digital vector slice"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Building up a form by progressively adding and joining soft material like clay is an additive process.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary function of fold tabs designed along the perimeter edges of a cardboard template?",
+      options: [
+        "To reduce raw material cost",
+        "To absorb moisture from paste",
+        "To provide joining surface area",
+        "To brighten decorative graphics"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Fold tabs provide the contact area where glue or adhesive is applied to secure adjoining panels together.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which raw material can be carved, whittled, and shaved with small tools in subtractive model making?",
+      options: [
+        "Standard bar of laundry soap",
+        "Wet aqueous poster colour pot",
+        "Thin bond writing paper sheet",
+        "Pure linseed printing oil tube"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Solid laundry soap is an accessible, easily carved medium commonly used for subtractive prototype sculpting.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does constructing a physical three-dimensional prototype benefit a design team before commercial release?",
+      options: [
+        "It replaces all paper packaging",
+        "It tests real ergonomics and form",
+        "It prevents consumers from buying",
+        "It automates retail price points"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Physical models allow designers to test how an object feels in the hand, stands up, and performs before full manufacturing.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What common recycled material made from shredded newsprint and starch paste is used to form sturdy models?",
+      options: [
+        "Solid acrylic block",
+        "Rigid vinyl sheet",
+        "Moulded paper pulp",
+        "Hardened tool steel"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Paper pulp (papier-mache) blends soaked paper fibres and paste into a versatile additive modelling compound.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A designer discovers their cardboard packaging box collapses when stacked with other boxes. What step was deficient?",
+      options: [
+        "Evaluating structural strength",
+        "Selecting vibrant ink colours",
+        "Setting the perspective line",
+        "Cross-hatching the outer lid"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Testing structural integrity and load-bearing strength during the prototyping stage ensures packaging will not collapse in use.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What process translates a three-dimensional computer-aided design into a physical plastic prototype?",
+      options: [
+        "Manual offset letterpress",
+        "Inkjet photograph printing",
+        "Rotary cylinder screening",
+        "Additive 3-D print extrusion"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "3-D printing reads a digital 3-D model file and builds the physical prototype by extruding successive layers of material.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is it advantageous to produce a master template for manufacturing gift boxes in bulk?",
+      options: [
+        "It eliminates standard angles",
+        "It makes paper waterproof",
+        "It ensures identical copies",
+        "It avoids scoring all creases"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "A reusable template guarantees uniform dimensions, clean cuts, and consistent quality across all reproduced items.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S1Ss2Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss2_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which eye level viewpoint is being used when a designer draws a tall building looking straight up from street pavement?",
+      options: [
+        "Below normal ground eye level",
+        "Level horizon central vision",
+        "Elevated aerial drone stance",
+        "Above standard eye level view"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "When looking up at an object that towers above you, the object sits above the viewer's standard eye level.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What specific term describes an organized digital collection of sketches, work in progress, and finished artwork assembled for evaluation?",
+      options: [
+        "Digital model",
+        "Electronic portfolio",
+        "Prototype template",
+        "Display wireframe"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A digital portfolio gathers an artist's body of work, drafts, and finished projects into a structured showcase for review.",
+    ),
+    QuizQuestion(
+      question:
+          "3. When an artist draws a person lying down with their feet pointed straight at the viewer, the feet look large while the body seems shortened. What technique is this?",
+      options: [
+        "Foreshortening",
+        "Cross-hatching",
+        "Stipple shading",
+        "Tonal grading"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Foreshortening creates the visual impression of spatial projection when forms extend directly along the viewer's line of sight.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which of the following is considered an electronic hardware device used for inputting freehand drawings into a computer?",
+      options: [
+        "Graphic drawing tablet",
+        "High-speed laser toner",
+        "Heavy watercolour block",
+        "Synthetic tracing paper"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Graphic tablets allow artists to hand-draw directly into computer software using a stylus.",
+    ),
+    QuizQuestion(
+      question:
+          "5. In linear perspective drawing, where do parallel receding lines appear to converge as they travel into the far distance?",
+      options: [
+        "At the side framing margins",
+        "Outside the display boundary",
+        "Across the lowest base plane",
+        "On the visual horizon line"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Receding parallel lines meet at vanishing points located along the horizon line or eye level.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary purpose of holding a classroom design appraisal session after completing digital artwork?",
+      options: [
+        "To delete all draft files",
+        "To share ideas and feedback",
+        "To convert rasters to paint",
+        "To test stylus battery life"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Appraising artwork allows peers and instructors to evaluate designs, share appreciation, and offer constructive critique.",
+    ),
+    QuizQuestion(
+      question:
+          "7. When an artist draws an interior room looking directly forward at eye level, which term describes this viewpoint?",
+      options: [
+        "Normal eye level",
+        "High bird view",
+        "Worm perspective",
+        "Pitch angle view"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Looking straight ahead at natural human standing or sitting height represents a normal eye level perspective.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which digital presentation method allows a whole classroom to interactively view, annotate, and critique a student's design simultaneously?",
+      options: [
+        "Interactive smartboard",
+        "Single handheld mobile",
+        "Pocket memory USB card",
+        "Plastic binder display"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Interactive smartboards display computer graphics on a large touch-sensitive surface that the entire class can view and mark up.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the effect on an object if it is drawn below the viewer's established eye level?",
+      options: [
+        "You see its bottom edge",
+        "You look down on its top",
+        "Its side lines disappear",
+        "It loses its tonal value"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "When an object is below eye level, the viewer is looking down at it, making the top surface visible.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is an advantage of digital colour tools compared to traditional pots of poster paint?",
+      options: [
+        "Digital ink runs watery",
+        "Traditional paint dries fast",
+        "Digital colours never fade",
+        "Unlimited mixing with no mess"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Digital software provides instant access to millions of colours, gradients, and mixes without wasting physical paint supplies.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S1Ss2Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss2_l1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which manual drafting instrument is specifically aligned with the edge of a drawing board to construct true horizontal lines?",
+      options: [
+        "Wooden drafting T-square",
+        "Hardened steel compass leg",
+        "Semicircular protractor rim",
+        "Flexible curved vinyl ruler"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A T-square slides along the trued edge of a drawing board to draw accurate horizontal lines and support set squares.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary role of shading when applied to a two-dimensional contour outline?",
+      options: [
+        "Erasing messy baseline lines",
+        "Flattening curved design shapes",
+        "Creating the illusion of depth",
+        "Speeding up final tracing time"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Shading introduces tonal values that simulate light, shadow, and three-dimensional solidity on a flat working surface.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following items is classified strictly as a drawing material rather than a drawing tool?",
+      options: [
+        "Mechanical lead holder pencil",
+        "Textured heavy sketchpad card",
+        "Plastic thirty-centimeter ruler",
+        "Steel tip technical line pen"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A sketchpad provides the physical paper surface that receives pigment, making it a material rather than an instrument.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which digital hardware item is used directly in hand like a traditional pencil to draw on interactive display screens?",
+      options: [
+        "Optical tracking mouse wheel",
+        "Desktop computer cooling unit",
+        "Memory expansion USB flash drive",
+        "Responsive graphic input stylus"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A graphic stylus is a pen-like digital tool used by artists to draw directly on tablets and touch displays.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What shading technique uses soft smudging or rub transitions to produce gradations without individual stroke marks?",
+      options: [
+        "Uniform hatching lines",
+        "Fine stippling pattern",
+        "Smooth tonal blending",
+        "Angular cross-hatching"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Blending merges pencil or pastel tones smoothly so individual pencil strokes disappear into gradual shade transitions.",
+    ),
+    QuizQuestion(
+      question:
+          "6. On a tonal scale representing an illuminated object, which zone corresponds directly to the darkest value?",
+      options: [
+        "High tone area",
+        "Medium tone area",
+        "Highlight region",
+        "Low tone section"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The low tone represents the darkest values, deep shadows, and core shade regions on an object.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What distinct operational advantage does working on digital layers offer over drawing on a single sheet of paper?",
+      options: [
+        "Editing parts independently",
+        "Forcing all lines to be grey",
+        "Preventing full colour use",
+        "Making paper dry much faster"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Layers keep sketches, line art, and colours on separate virtual planes, allowing individual edits without spoiling the rest.",
+    ),
+    QuizQuestion(
+      question:
+          "8. A designer wants to produce fine, even, parallel pencil strokes across an outline to show light shading. Which technique should they select?",
+      options: [
+        "Regular hatching",
+        "Dense stippling",
+        "Heavy blocking",
+        "Quick smudging"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Hatching consists of neat parallel lines drawn closely together to build tone without intersecting.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why must a designer carefully consider material choice, such as selecting thick paper when working with watercolour washes?",
+      options: [
+        "Thinner sheets become completely rigid",
+        "Heavy media buckle and tear thin paper",
+        "Thin paper always dries ink too fast",
+        "Pencils will not leave marks on card"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Water-based media require heavy, absorbent papers; lightweight papers warp, wrinkle, or tear when exposed to liquid washes.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What term describes the degree of relative lightness or darkness across a design element?",
+      options: [
+        "Linear perspective",
+        "Contour boundary",
+        "Surface finish",
+        "Tonal value"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tonal value is the artistic term used to define the scale of lightness and darkness across colours and shades.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S1Ss1Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss1_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which visual element has length, width, and physical depth?",
+      options: [
+        "An enclosed flat shape",
+        "A continuous drawn line",
+        "A single pointed dot",
+        "A solid volumetric form"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Form is distinguished from shape by possessing three physical dimensions: length, width, and depth.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which example from the Ghanaian natural environment illustrates an organic shape?",
+      options: [
+        "The undulating edge of a broad cocoyam leaf",
+        "The straight edge of a machine-moulded block",
+        "The sharp corner of an iron roofing sheet",
+        "The flat circular face of a factory wall clock"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Organic shapes are irregular, flowing, and non-geometric, typical of natural living structures like plant leaves.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How does an artist record the visual appearance of a shiny mango fruit?",
+      options: [
+        "By cutting the fruit flesh into thin pieces",
+        "By sketching light highlights and colour blends",
+        "By boiling the peel in water to extract resin",
+        "By weighing the fruit on a balance beam scale"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Visual appearance and texture are recorded on paper through tonal shading, highlights, and colour gradients.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens when you mix red and yellow pigments together in equal quantities?",
+      options: [
+        "You produce a pure dark purple pigment wash",
+        "You create a warm secondary orange pigment hue",
+        "You create a deep forest green secondary tint",
+        "You produce an opaque neutral jet-black shade"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Combining the primary pigment hues red and yellow produces the secondary hue orange.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What design principle creates strong visual prominence by pairing dark and light tones?",
+      options: [
+        "Symmetrical radial repetition",
+        "Horizontal linear movement",
+        "Noticeable tonal contrast",
+        "Proportional geometric scale"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Contrast pairs strongly differing elements, like light against dark, to draw attention and produce visual impact.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is asymmetrical balance frequently used in modern graphic poster layouts?",
+      options: [
+        "It provides dynamic visual interest while maintaining weight balance",
+        "It requires fewer paint pigments to complete than centered designs",
+        "It ensures every single letter is drawn with identical dimensions",
+        "It prevents the viewer from looking at any specific focal point"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Asymmetrical balance uses unequal elements that have equal visual weight, creating lively and energetic layouts.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which natural specimen best illustrates the use of repeating dots in living creatures?",
+      options: [
+        "The flat grey stone of a dry coastal riverbed",
+        "The clear, smooth surface of fresh stream water",
+        "The spot pattern on the pelt of a wild leopard",
+        "The single straight stem of a tall bamboo stalk"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Leopard fur features clusters of repeating dark dots and rosettes that provide natural camouflage.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What is the primary role of a designer's personal field sketchbook?",
+      options: [
+        "To store financial receipts from raw market purchases",
+        "To record visual ideas and observations for design tasks",
+        "To replace official school end-of-term report booklets",
+        "To provide tracing templates for factory machinery drills"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "A sketchbook serves as a visual research archive for recording forms, colours, and textures for future application.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How does a three-dimensional form differ from a two-dimensional shape?",
+      options: [
+        "Forms possess depth while shapes are flat surfaces",
+        "Shapes take up physical space while forms are lines",
+        "Forms can only be created using synthetic materials",
+        "Shapes always have greater weight than solid forms"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Two-dimensional shapes have only height and width, whereas three-dimensional forms possess depth and volume.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which design principle is visible when an identical motif is arranged along a woven border?",
+      options: [
+        "Irregular tonal asymmetry",
+        "Monotonous structural chaos",
+        "Unequal spatial distortion",
+        "Balanced rhythmic repetition"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Rhythmic repetition arranges motifs consistently across a surface to build visual rhythm and decorative unity.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S1Ss1Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss1_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What primary function separates purposeful design from ordinary random sketching?",
+      options: [
+        "Intentional planning to solve everyday human challenges",
+        "Exclusive use of imported foreign synthetic pigments",
+        "Strictly copying historical Greek marble monuments",
+        "Fast mechanical printing using heavy industrial presses"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Design is defined by deliberate intention to meet functional human needs and address societal difficulties.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How do the natural ridges on a dried calabash fruit inform the craft of household utensil production?",
+      options: [
+        "They require synthetic varnishes before daily handling",
+        "They provide natural grip and structural reinforcement",
+        "They prevent the artisan from cutting the shell evenly",
+        "They alter the boiling temperature of clean well water"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The natural ridges strengthen the dried shell wall and offer friction for safe gripping.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which feature represents visual texture on a printed advertising poster?",
+      options: [
+        "The rough surface of unpainted grey school wall blocks",
+        "The damp moisture droplets resting upon a fresh lemon",
+        "The coarse sand particles embedded in wet cement paths",
+        "The drawn illusion of tree bark on smooth white paper"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Visual texture is perceived by sight alone, creating the impression of depth or roughness on an otherwise flat surface.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why does an artisan place deep blue patterns against bright yellow backgrounds on a signpost?",
+      options: [
+        "To make letters blend directly into surrounding shadows",
+        "To create strong contrast that sharpens overall clarity",
+        "To reduce the total volume of ink needed during work",
+        "To imitate the pale colours of dry savannah grasslands"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Pairing high-contrast opposing tones makes visual elements stand out clearly to observers.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What design principle is demonstrated when an identical stool emblem is stamped across an entire cloth?",
+      options: [
+        "Rhythmic repetition that produces complete harmony",
+        "Structural imbalance that disturbs visual direction",
+        "Monotonous division that splits decorative bands",
+        "Extreme distortion that hides primary visual motifs"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Systematically repeating a motif produces rhythmic unity and visual flow across a surface.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does the exterior wall of a traditional clay grain silo mimic termite mounds?",
+      options: [
+        "By absorbing standing rainwater directly into dry crops",
+        "By reflecting sound waves away from open school fields",
+        "By relying exclusively on heavy imported steel girders",
+        "By insulating stored foodstuffs against scorching heat"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Clay walls imitate thick termite mounds by regulating internal temperature to preserve harvested grain.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which natural specimen serves as an ideal inspiration for a flexible, interlocking roof tile?",
+      options: [
+        "The smooth, spherical surface of a ripe tomato fruit",
+        "The flat, featureless surface of a cut timber board",
+        "The overlapping scales observed on a freshwater fish",
+        "The random cracks spreading over baked wetland mud"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Overlapping fish scales shed rainfall efficiently, providing a model for modular roof tiling systems.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What visual outcome occurs when a student incorporates too many conflicting colours and shapes without an organized plan?",
+      options: [
+        "The artwork communicates a single clear moral theme",
+        "The composition gains strong focus and royal dignity",
+        "The design lacks unity and feels confusing to inspect",
+        "The finished project displays perfect symmetry in all axes"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Failing to balance elements with unifying principles produces clutter and visual discord.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which local material yields genuine tactile texture when woven into floor floor coverings?",
+      options: [
+        "Coarse, braided strands of dry oil palm husk fibre",
+        "Glossy, smooth prints on high-finish calendar sheets",
+        "Fine, powdered charcoal mixed with clear river water",
+        "Distant photographs showing distant misty hillsides"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Natural palm fibres provide real, touchable roughness and physical friction underfoot.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is nature regarded as the primary foundation for human design solutions?",
+      options: [
+        "Natural forms do not require testing or adaptation",
+        "Living organisms have adapted practical survival forms",
+        "Hand-crafted objects always degrade faster than plants",
+        "Natural materials cannot be shaped by manual steel tools"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Nature offers time-tested structures that efficiently handle temperature, stress, and survival challenges.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss3Lesson6QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L6/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What major societal challenge is portrayed when a theatrical play depicts ruined markets, burnt crops, and refugees?",
+      options: [
+        "Consequences of armed civil unrest",
+        "Rapid technological modernisation",
+        "Changes in seasonal rainfall winds",
+        "Expansion of commercial bank loans"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Ruined property, destroyed food supplies, and forced displacement are the physical hallmarks of violent civil conflict.",
+    ),
+    QuizQuestion(
+      question:
+          "2. How does a synchronized circular dance formation function symbolically on a theater stage?",
+      options: [
+        "It reveals intense martial warfare",
+        "It visually demonstrates group unity",
+        "It signals a complete lack of energy",
+        "It demands that viewers leave seats"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Moving in an unbroken, harmonious circle conveys shared brotherhood, collective strength, and restored community balance.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do playwrights include traditional proverbs in dialogue during scenes of tense dispute?",
+      options: [
+        "To remind leaders of ancestral rules",
+        "To fill empty time during performances",
+        "To confuse characters from other towns",
+        "To test the actors' memorization skills"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Traditional proverbs deliver ancestral moral wisdom that calms temperaments and guides factions toward mutual respect.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What emotional response does a compelling theatrical portrayal of suffering evoke in community viewers?",
+      options: [
+        "Deep empathy and civic compassion",
+        "Greater hostility toward foreigners",
+        "Total indifference to local issues",
+        "Immediate boredom with all arts"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Experiencing believable human hardship on stage cultivates emotional empathy, inspiring citizens to prevent conflict.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary role of Queen Mothers and elders in traditional historical dramas?",
+      options: [
+        "Supplying imported stage equipment",
+        "Initiating violent civil rebellions",
+        "Serving as peacemakers and diplomats",
+        "Managing commercial ticket receipts"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "In traditional statecraft, queen mothers and elders provide diplomatic mediation and counsel to maintain peace.",
+    ),
+    QuizQuestion(
+      question:
+          "6. During a dance illustrating civil turmoil, how does the percussive music typically change?",
+      options: [
+        "It becomes gentle, soft, and quiet",
+        "It shifts into harsh, irregular beats",
+        "It stops playing any drums or bells",
+        "It mimics modern ballroom waltzes"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Chaotic, syncopated percussive strikes reflect physical danger, emotional anxiety, and the breakdown of order.",
+    ),
+    QuizQuestion(
+      question:
+          "7. An art student watches a video clip of a community play to write a formal critique. What is this step called?",
+      options: [
+        "Commercial stage advertising design",
+        "Performing arts critical analysis",
+        "Electronic hardware asset testing",
+        "Traditional chieftaincy enstoolment"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Systematically examining a play's structure, acting, lighting, and cultural themes constitutes critical analysis.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should an audience evaluate the accuracy of traditional customs portrayed in local plays?",
+      options: [
+        "To ensure heritage is kept authentic",
+        "To arrest actors who make mistakes",
+        "To rewrite regional civil statutes",
+        "To cancel all future school dramas"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Accurate portrayal of customs preserves cultural truth, ensuring younger audiences learn genuine community traditions.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What physical action performed by actors on stage best illustrates mutual forgiveness?",
+      options: [
+        "Turning their backs in stony silence",
+        "Drawing carved swords from scabbards",
+        "Sharing a drink from a single vessel",
+        "Throwing sand at the royal councilors"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Sharing a communal drink from a single calabash or cup is an ancient, potent symbol of shared life and reconciliation.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How do school drama clubs contribute directly to peace building within their local communities?",
+      options: [
+        "By charging high fees for admission",
+        "By restricting clubs to senior staff",
+        "By staging plays on civic harmony",
+        "By avoiding all public performances"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Staging skits and plays about tolerance, conflict resolution, and anti-bullying educates both students and the broader public.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss3Lesson5QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L5/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which artistic medium communicates dramatic narratives primarily through bodily gestures, rhythm, and facial expressions?",
+      options: [
+        "Choreographed theatrical dance",
+        "Architectural draft designing",
+        "Hand-beaten iron blacksmithing",
+        "Printed newspaper journalism"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Dance relies on expressive physical movement, rhythm, and bodily posturing to convey stories and feelings without spoken words.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why do contemporary theater troupes stage plays about historical palace events and anti-colonial leaders?",
+      options: [
+        "To avoid using stage props",
+        "To celebrate cultural heritage",
+        "To lower lighting expenses",
+        "To shorten drama rehearsals"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Staging historical dramas keeps the memory of national heroes, royal leadership, and cultural heritage alive for modern audiences.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What kind of bodily movement would a dancer use to represent the peaceful flow of a healthy forest river?",
+      options: [
+        "Smooth, continuous gliding gestures",
+        "Violent stamping with fists clenched",
+        "Frozen, rigid and motionless stances",
+        "Sudden jerky and dislocated tremors"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Fluid, continuous movements with gentle arm gestures evoke the natural, undisturbed flow of clean river waters.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A drama group stages a play depicting a dispute over communal land. What category does this production address?",
+      options: [
+        "Topical community social issues",
+        "Classical European opera study",
+        "Abstract geometric printmaking",
+        "Maritime foreign naval warfare"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Communal land disputes and civic arguments are pressing topical social issues that affect local community stability.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is traditional court drumming often incorporated into theatrical plays featuring traditional leadership?",
+      options: [
+        "To replace all spoken dialogue",
+        "To force the audience to dance",
+        "To maintain cultural authenticity",
+        "To conceal mistakes made on stage"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Court drumming establishes authentic atmosphere and respects traditional protocols associated with chieftaincy.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What should a student researcher examine first when selecting a recorded dance performance for academic appraisal?",
+      options: [
+        "The cost of the camera equipment",
+        "The central theme and social message",
+        "The ticket price of the auditorium",
+        "The popularity of the stage lighting"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Identifying the core theme and social message helps the student determine whether the artwork provides rich material for cultural appraisal.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do historical stage plays help preserve indigenous linguistic heritage?",
+      options: [
+        "By banning all mother tongue speech",
+        "By using only foreign vocabulary",
+        "By speaking traditional proverbs",
+        "By translating all lines to Latin"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Using traditional proverbs, idioms, and local languages in theatrical scripts preserves indigenous oral eloquence.",
+    ),
+    QuizQuestion(
+      question:
+          "8. When actors wear protective warrior smocks covered in talismans on stage, what are they signaling to the audience?",
+      options: [
+        "Historical bravery and warfare readiness",
+        "Modern industrial workplace safety rules",
+        "Commercial textile manufacturing techniques",
+        "Religious choir participation in church halls"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Talismanic smocks historically worn by warriors indicate physical bravery, spiritual protection, and martial readiness.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What role does acoustic percussion play during a dramatic dance depicting an environmental crisis?",
+      options: [
+        "It confuses the performers' footsteps",
+        "It builds emotional tension and pace",
+        "It silences all audience reactions",
+        "It distracts viewers from poor acting"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Drum rhythms and acoustic percussive sounds create suspense, reinforce dramatic emotion, and guide the dancers' tempo.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the primary benefit of documenting a dance or drama appraisal in a written report?",
+      options: [
+        "It replaces future live performances",
+        "It allows actors to change professions",
+        "It closes down commercial theaters",
+        "It records cultural insights for others"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Writing appraisals documents critical cultural insights, preserves community memory, and helps others appreciate the arts.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss3Lesson4QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L4/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which musical style is defined by combining traditional Ghanaian folk instruments with modern electronic guitars and microphones?",
+      options: [
+        "Neo-traditional African music",
+        "Ancient royal court drumming",
+        "Unaccompanied choral hymnody",
+        "Pure acoustic warrior chanting"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Neo-traditional music blends traditional acoustic foundations with modern instruments like guitars, synthesizers, and electronic amplification.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What physical feature characterizes traditional hand drums used in indigenous community music?",
+      options: [
+        "Molded plastic bodies with steel cords",
+        "Carved wood bodies with animal skins",
+        "Metal oil drums tuned with brass keys",
+        "Solid stone bases with rubber sheets"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Indigenous drums are carved from local hardwood logs and topped with cured animal hides tuned with wooden pegs or laces.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do traditional indigenous musical performances encourage spontaneous audience participation?",
+      options: [
+        "Music is viewed as an open shared ritual",
+        "Musicians cannot remember song lyrics",
+        "Concert tickets are sold at high prices",
+        "The dancers lack formal stage costumes"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Traditional community music is participatory, inviting all gathered community members to join the singing, clapping, and dancing.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the original historical context behind the vigorous movements of the Agbadza dance?",
+      options: [
+        "Ancient times of battle and conflict",
+        "Building coastal stone trading forts",
+        "Factory labor in early colonial towns",
+        "Copying foreign court ballroom steps"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Agbadza evolved from the war dance Atrikpui, where energetic movements and shoulder contractions prepared warriors for military battle.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What type of performance space is most common for a ticketed neo-traditional musical concert?",
+      options: [
+        "An open-air cattle pasture",
+        "An unpaved village trail",
+        "A raised theatrical stage",
+        "A crowded fishing canoe"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Neo-traditional groups perform in modern concert auditoriums and festival platforms with raised stages and lighting systems.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does the vocal arrangement in an indigenous traditional group typically operate?",
+      options: [
+        "Single soloists singing in foreign tongues",
+        "Silent performers gesturing without voice",
+        "Four-part written Latin church harmonies",
+        "Lead singer chanting with chorus response"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Indigenous African singing relies on call-and-response, where a lead soloist recites phrases that the assembled chorus answers.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What traditional accessory is frequently held by male dancers during classic cultural performances?",
+      options: [
+        "Modern metal umbrellas",
+        "Polished steel swords",
+        "Hand-held horse whisks",
+        "Plastic sporting flags"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Dancers in traditional performances often carry horsetail whisks to emphasize gestures and symbolize leadership and cultural dignity.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why do neo-traditional musicians write songs addressing modern urban life alongside traditional proverbs?",
+      options: [
+        "To connect with contemporary audiences",
+        "To ban traditional folk languages",
+        "To discourage youth village visits",
+        "To avoid playing wooden drums"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Modern lyrics address contemporary challenges like city employment and civic unity, keeping traditional music relevant for modern youth.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which hand-held shaken percussion instrument features a dried gourd surrounded by a net of beads?",
+      options: [
+        "Hollow cylindrical bass drum",
+        "Beaded traditional gourd rattle",
+        "Hand-beaten double-iron gong",
+        "Carved wooden frame xylophone"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "The beaded gourd rattle produces a crisp, percussive sound when shaken, supporting the rhythm section in regional dance ensembles.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What role do both indigenous and neo-traditional music groups play in Ghanaian society?",
+      options: [
+        "They encourage the loss of our history",
+        "They promote foreign pop dance styles",
+        "They replace all visual arts education",
+        "They preserve and advance cultural roots"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Both groups ensure that Ghanaian musical identity survives, with indigenous groups preserving roots and neo-traditional groups sharing them widely.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss3Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_l3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which type of music relies strictly on written score notation to guide multi-part choir performances?",
+      options: [
+        "Formal academic art music",
+        "Traditional hunting chant",
+        "Street masquerade song",
+        "Impromptu work melody",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Art music relies on written notation on five-line staves to coordinate soprano, alto, tenor, and bass parts precisely.",
+    ),
+    QuizQuestion(
+      question: "2. Why did pioneering art music composers choose to write patriotic choral anthems in local Ghanaian languages?",
+      options: [
+        "To conceal meanings from students",
+        "To promote national cultural identity",
+        "To avoid paying international fees",
+        "To shorten rehearsal practice time",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Composing choral works in indigenous languages celebrated national pride and communicated patriotic messages directly to the community.",
+    ),
+    QuizQuestion(
+      question: "3. What role does the master drummer serve during a traditional royal durbar gathering?",
+      options: [
+        "Directing dancers and praising leaders",
+        "Selling tickets to assembled viewers",
+        "Tuning electric guitars on the stage",
+        "Announcing modern commercial prices",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "The master drummer recites historical titles, directs choreography, and leads the musical ensemble with complex acoustic cues.",
+    ),
+    QuizQuestion(
+      question: "4. Which category of music is woven directly into child naming, funeral rites, and chieftaincy events?",
+      options: [
+        "Traditional indigenous music",
+        "European classical opera",
+        "Computer-generated techno",
+        "Synthesized dancehall pop",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Indigenous traditional music provides the functional soundscape for family rites, ancestral celebrations, and communal governance.",
+    ),
+    QuizQuestion(
+      question: "5. How do contemporary popular musicians help the government combat destructive environmental practices?",
+      options: [
+        "By composing songs on social themes",
+        "By stopping all music broadcasts",
+        "By destroying traditional acoustic harps",
+        "By performing exclusively overseas",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Popular songs highlighting environmental protection sensitise millions of citizens against reckless resource exploitation.",
+    ),
+    QuizQuestion(
+      question: "6. An artist pairs hand-carved hollow drums with double-iron bells and woven seed rattles. What genre is this?",
+      options: [
+        "Synthesized disco sound",
+        "Indigenous percussion ensemble",
+        "Baroque string symphony",
+        "Western brass marching unit",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Carved drums, hand-struck iron bells, and dried rattles are authentic percussive instruments of indigenous musical ensembles.",
+    ),
+    QuizQuestion(
+      question: "7. What is one major reason why highlife songs remain popular across multiple age groups in Ghana?",
+      options: [
+        "They reject all native dance styles",
+        "They ban all acoustic guitars",
+        "They mix traditional roots with guitars",
+        "They are performed only in libraries",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Highlife connects with people because it combines traditional syncopated rhythms with melodic guitars and horn arrangements.",
+    ),
+    QuizQuestion(
+      question: "8. Why is learning through an apprenticeship vital for preserving northern xylophone traditions?",
+      options: [
+        "The pieces are taught by ear and memory",
+        "Written books are required for lessons",
+        "All players must learn foreign speech",
+        "Instruments must be imported abroad",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Because traditional repertoire is not written down on sheet music, direct observation and oral mentoring ensure its survival.",
+    ),
+    QuizQuestion(
+      question: "9. What social benefit comes from broadcasting songs about disease prevention over commercial radio?",
+      options: [
+        "It replaces hospital appointments",
+        "It forces residents to buy drugs",
+        "It spreads health guidance widely",
+        "It closes community retail markets",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Radio reaches across linguistic and literacy boundaries, allowing musical messages to deliver vital healthcare advice to all.",
+    ),
+    QuizQuestion(
+      question: "10. What was a key objective of twentieth-century art composers who wore traditional cloths to concert halls?",
+      options: [
+        "Evading strict school uniform laws",
+        "Saving funds on foreign garments",
+        "Protesting musical competitions",
+        "Affirming African cultural dignity",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Wearing handwoven indigenous clothing to formal concerts challenged colonial attitudes and visibly asserted cultural pride.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss3Lesson2QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_l2/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. Which traditional visual art form is produced by stamping natural tree-bark dye onto prepared woven fabric?",
+          options: [
+            "Chiseled relief wood carving",
+            "Molded clay terracotta pottery",
+            "Hand-beaten iron blacksmithing",
+            "Symbolic printed Adinkra cloth"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation:
+              "Stamping dark vegetable dye prepared from the boiled bark of the badie tree onto cotton fabric produces traditional Adinkra mourning cloths."),
+      QuizQuestion(
+          question:
+              "2. How do the geometric symbols found on traditional textiles communicate with the community?",
+          options: [
+            "By representing spoken proverbs",
+            "By spelling out modern words",
+            "By recording numerical debts",
+            "By listing commercial prices"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Traditional textile symbols are visual representations of proverbs and cultural philosophies that convey clear moral guidance to viewers."),
+      QuizQuestion(
+          question:
+              "3. What does an artist communicate when using deep golden yellows on royal regalia?",
+          options: [
+            "Modern industrial plastic goods",
+            "Complete spiritual repentance",
+            "Earthly prosperity and kingship",
+            "Impending sickness and caution"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation:
+              "Golden yellow tones represent the warmth of the sun, precious mineral wealth, leadership, and high royal authority in traditional culture."),
+      QuizQuestion(
+          question:
+              "4. Into which group should an art student place ancestral palaces, ancient shrines, and colonial stone forts?",
+          options: [
+            "Architectural monuments",
+            "Graphic poster designs",
+            "Personal body ornaments",
+            "Functional metal tools"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Ancestral palaces, timber shrines, and stone coastal forts are permanent physical structures classified under architectural heritage."),
+      QuizQuestion(
+          question:
+              "5. Why do artists create public sculptures out of reclaimed plastic waste found along community beaches?",
+          options: [
+            "To store drinking water in cities",
+            "To promote industrial plastics",
+            "To replace natural river timber",
+            "To protest environmental damage"
+          ],
+          correctIndex: 3,
+          difficulty: "Hard",
+          explanation:
+              "Using discarded plastic waste directly in a sculpture confronts citizens with the physical reality of pollution and advocates for conservation."),
+      QuizQuestion(
+          question:
+              "6. What distinguishes a three-dimensional wooden carving from a two-dimensional charcoal drawing?",
+          options: [
+            "Absence of decorative patterns",
+            "Physical depth and volume",
+            "Dependence on digital screens",
+            "Uniformity of dark surfaces"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation:
+              "Three-dimensional carvings occupy physical space with length, width, and depth, allowing them to be viewed and touched from all angles."),
+      QuizQuestion(
+          question:
+              "7. A town assembly commissions a bronze bust of a pioneering local headteacher. What is its main role?",
+          options: [
+            "To commemorate civic service",
+            "To decorate commercial stores",
+            "To mark mineral mining limits",
+            "To provide structural roofing"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Commemorative public busts are built to honor civic dedication and inspire younger generations to serve their society selflessly."),
+      QuizQuestion(
+          question:
+              "8. Which physical material is traditionally fired in outdoor bonfires to create functional cooking and storage pots?",
+          options: [
+            "Natural moist river clay",
+            "Seasoned forest hardwood",
+            "Refined industrial glass",
+            "Stamped metallic brass"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Moist natural clay gathered from riverbeds is formed into pottery vessels and fired at high heat to make durable earthenware."),
+      QuizQuestion(
+          question:
+              "9. Why are proverbial carvings placed on the apex of royal linguist staffs during public durbars?",
+          options: [
+            "To test the strength of the staff",
+            "To show diplomatic philosophies",
+            "To determine the bearer's height",
+            "To display new trade equipment"
+          ],
+          correctIndex: 1,
+          difficulty: "Hard",
+          explanation:
+              "The staff apex carries a proverbial sculpture that publicly announces the diplomatic philosophy and royal wisdom of the seated chief."),
+      QuizQuestion(
+          question:
+              "10. What is the educational value of hand-painted health posters displayed in rural health clinics?",
+          options: [
+            "They hide cracks in clinic walls",
+            "They entertain foreign tourists",
+            "They teach hygiene visually",
+            "They raise fees from patients"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Hand-painted health posters convey vital medical and hygiene messages through clear pictures, reaching people of varying reading abilities."),
+    ]);
+
+final QuizModel creativeArtsJhs1S2Ss3Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss3_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which tool is most dependable for producing quick field studies when no electrical power source is available?",
+      options: [
+        "Graphite pencil and pocket sketchbook",
+        "Desktop computer with monitor display",
+        "High-definition laser video projector",
+        "Electronic drawing graphics display"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Graphite pencils and sketchbooks need no electrical charging, making them the most dependable field-recording tools in any outdoor setting.",
+    ),
+    QuizQuestion(
+      question:
+          "2. A student documents seasonal flooding near a town bridge using a smartphone camera. What category does this subject belong to?",
+      options: [
+        "Historical royalty and regalia",
+        "Environmental and civic issues",
+        "Traditional performing music",
+        "Mythological folk storytelling"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Seasonal flooding relates directly to environmental conditions, climate impact, and municipal drainage infrastructure in the community.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What is the primary purpose of writing titles, dates, and locations beside displayed documentary photographs?",
+      options: [
+        "To cover empty margins on the card",
+        "To mimic international museum prints",
+        "To decorate plain exhibition boards",
+        "To give clear context to viewers"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Descriptive information ensures that viewers understand the exact historical, geographic, and thematic context of the recorded visual work.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why is observational drawing regarded as a vital foundation skill for visual investigators?",
+      options: [
+        "It develops sharp analytical seeing",
+        "It replaces all photographic needs",
+        "It produces instant printed copies",
+        "It requires expensive equipment sets"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Observational drawing requires the artist to analyze structure, proportion, and light directly, refining the eye's ability to observe reality.",
+    ),
+    QuizQuestion(
+      question:
+          "5. When preparing an exhibition about community sanitation, what must an artist do during the review stage?",
+      options: [
+        "Include every single shot taken",
+        "Delete all early field sketches",
+        "Select the most impactful works",
+        "Paint over all photographic prints"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Careful selection ensures that only the strongest, most communicative artworks are displayed, keeping the core message sharp and powerful.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An artist makes sketches of ancient mud structures and colonial forts in an area. What is the focus of this study?",
+      options: [
+        "Modern digital animation techniques",
+        "Historic architecture and heritage",
+        "Contemporary pop music movements",
+        "Abstract graphic pattern creation"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Mud structures and historic forts are physical architectural monuments that reveal the historical timeline and heritage of human settlement.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How do visual records of community challenges help local neighborhood leaders make decisions?",
+      options: [
+        "By confusing viewers with colours",
+        "By concealing community challenges",
+        "By entertaining foreign visitors",
+        "By offering undeniable visual facts"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Visual records show verifiable physical conditions on the ground, helping leaders identify where resources and interventions are required.",
+    ),
+    QuizQuestion(
+      question:
+          "8. An art student mounts sketches on a display board to discuss sanitation solutions with peers. What is this process called?",
+      options: [
+        "Building a collaborative consensus",
+        "Marketing finished commercial goods",
+        "Practicing personal studio secrecy",
+        "Registering a commercial trademark"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Sharing work to evaluate local issues and agree on shared viewpoints is known as building consensus through collaborative presentation.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are traditional festival durbars rich environments for visual recording?",
+      options: [
+        "They feature uniform plain clothing",
+        "They display varied regalia and art",
+        "They ban any form of visual record",
+        "They only feature imported artifacts"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Durbars feature an extraordinary display of traditional cloths, carved symbols, royal regalia, ornaments, and complex social interactions.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What makes digital presentations and slideshows valuable tools for student art researchers?",
+      options: [
+        "They eliminate the need for ideas",
+        "They make manual drawings obsolete",
+        "They guarantee automatic high grades",
+        "They organize data for easy sharing"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Digital folders and slideshows allow artists to arrange their images systematically, present evidence neatly, and share files across devices.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson9QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L9/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of writing an aesthetic appraisal report after a play?",
+      options: [
+        "To guide future improvements",
+        "To sell tickets for the show",
+        "To clean the wooden stage floor",
+        "To lock the theater doors shut"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An aesthetic appraisal report records strengths, weaknesses, and clear recommendations to guide the refinement of future performances.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which group of people should be invited to a community performance appraisal session?",
+      options: [
+        "Unrelated street traders",
+        "Distant ticket printing staff",
+        "Uninvited foreign visitors",
+        "Parents, teachers, and elders"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Inviting parents, educators, and community elders provides diverse, knowledgeable, and objective perspectives on the performance.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do performers watch recorded video clips during an appraisal meeting?",
+      options: [
+        "To avoid physical exercises",
+        "To evaluate real stage action",
+        "To shorten normal school hours",
+        "To replace all stage rehearsals"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Watching video replays enables performers to see and evaluate their own timing, vocal delivery, and spatial movements objectively.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which term refers to an actor speaking words distinctly and with proper enunciation?",
+      options: [
+        "Clear vocal diction",
+        "Physical scene blocking",
+        "Rapid stage sprinting",
+        "Rhythmic body hopping"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Diction refers specifically to the clarity, articulation, and correct enunciation of words spoken during a performance.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What quality is demonstrated when dancers stay in perfect sync with the lead drum?",
+      options: [
+        "High ticket sales income",
+        "Good rhythmic timing",
+        "Heavy costume fabric weight",
+        "Poor stage spatial balance"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Staying synchronized with the master drum demonstrates strong rhythmic awareness and timing.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What should reviewers focus on when evaluating traditional theatrical costumes?",
+      options: [
+        "Modern synthetic fabrics",
+        "Cultural and historical accuracy",
+        "The retail purchase price",
+        "Bright artificial dye colors"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Traditional costumes must be appraised based on how accurately and authentically they reflect the community's history and heritage.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which attitude is essential when offering feedback to peers during an appraisal?",
+      options: [
+        "Harsh public ridicule",
+        "Total silent boredom",
+        "Disregard for feelings",
+        "Constructive respect"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peer critique must always be delivered with constructive language and mutual respect to encourage artistic growth.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What performance flaw occurs when an actor stands directly in front of another actor?",
+      options: [
+        "Poor stage blocking",
+        "Weak vocal pitch range",
+        "Excessive costume weight",
+        "Incorrect speech dialect"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Blocking someone from the audience's view is a stage blocking error that disrupts visual sightlines.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How does compiling feedback from multiple stakeholders benefit a student ensemble?",
+      options: [
+        "It eliminates costume needs",
+        "It guarantees cash profits",
+        "It provides balanced insights",
+        "It ends future rehearsals"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Gathering opinions from teachers, parents, and community members provides a well-rounded and balanced evaluation.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which sequence represents the correct steps of a dance and drama appraisal?",
+      options: [
+        "Pack clothes, sweep stage, sell tickets, act",
+        "Exit hall, shout cues, buy props, dance",
+        "Build sets, lock doors, paint walls, sing",
+        "Play video, note feedback, draft report"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "An appraisal session proceeds logically from watching the recorded video and gathering feedback to compiling the written report.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson8QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L8/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of marking entrance and exit lines on a performance stage?",
+      options: [
+        "To guide smooth movement",
+        "To measure dancer heights",
+        "To decorate stage carpets",
+        "To sell tickets to viewers"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Marking off-stage and on-stage pathways allows performers to move on and off smoothly without colliding or causing delays.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Why do production teams conduct a full technical dress rehearsal before staging a show?",
+      options: [
+        "To dismiss backstage crew",
+        "To test costumes and cues",
+        "To repaint hall ceilings",
+        "To shorten school holidays"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Dress rehearsals ensure that all physical costumes, sound cues, lighting, and props work seamlessly together before the live showcase.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which method represents a formal, respectful way to invite traditional leaders to a school play?",
+      options: [
+        "Shouting across the road",
+        "Writing an informal riddle",
+        "Delivering formal letters",
+        "Sending an unsigned sketch"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Delivering formal written invitation letters follows traditional etiquette and shows respect when inviting elders and civic leaders.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What should backstage crew members do to maintain order while a dramatic scene is being acted?",
+      options: [
+        "Maintain complete silence",
+        "Sing along with the cast",
+        "Move heavy tables around",
+        "Practice dialogue loudly"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Maintaining backstage silence ensures that actors on stage can concentrate, project their voices, and hear their cues without distraction.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Where should large handheld props be placed when they are not being used on stage?",
+      options: [
+        "In middle entrance doors",
+        "On organized side tables",
+        "Piled up in center aisles",
+        "Thrown onto front chairs"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Keeping props organized on backstage tables ensures that actors can pick them up quickly and return them safely without cluttering pathways.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why is it beneficial to record a live drama performance using a digital video tablet?",
+      options: [
+        "To preserve work to review",
+        "To eliminate all live props",
+        "To avoid staging rehearsals",
+        "To reduce room electricity"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Recording the performance produces a digital video archive that students can review during post-performance appraisals and keep for future classes.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which factor is most critical when selecting a venue for a traditional Ghanaian dance piece?",
+      options: [
+        "Modern carpeted ceilings",
+        "Expensive glass display",
+        "Bright neon light fixtures",
+        "Adequate space and safety"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Dance performances require ample, safe, and unobstructed floor space so performers can execute energetic movements and jumps without injury.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does distributing promotional posters across the community benefit a school production?",
+      options: [
+        "It informs potential guests",
+        "It replaces stage curtains",
+        "It teaches actors dialogue",
+        "It reduces ticket printing"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Putting up posters in public spaces raises awareness and encourages wide community attendance and support for the student production.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should a stage manager do if an actor misses an entrance cue during a dress rehearsal?",
+      options: [
+        "Cancel the entire project",
+        "Turn off all stage lights",
+        "Review and fix the cue line",
+        "Lock the actor out of hall"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Rehearsals exist to identify mistakes, enabling the stage manager and actors to clarify and practice missed entrance cues before the live show.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which sequence outlines the correct stages of planning a dance and drama performance?",
+      options: [
+        "Sweep floor, sell drinks, write words, bow",
+        "Book seats, paint faces, exit hall, dance",
+        "Select hall, invite town, rehearse, record",
+        "Clap hands, clean stage, cut timber, sing"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "The production planning sequence proceeds logically from securing a venue and spreading information to holding rehearsals and documenting the show.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson7QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_l7/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which movement element involves varying actions between ground, standing, and jumping heights?",
+      options: [
+        "The spatial levels used",
+        "The ticket pricing tiers",
+        "The drum skin thickness",
+        "The stage curtain colors"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Spatial levels in dance refer to the vertical elevation of movements, ranging from low floor work to high airborne leaps.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the primary function of dialogue within a dramatic play?",
+      options: [
+        "To build timber platforms",
+        "To reveal character ideas",
+        "To sew traditional cloths",
+        "To sell programs to guests"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Spoken dialogue communicates character thoughts, advances the narrative plot, and conveys central themes to the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which dramatic genre focuses on humorous situations designed to amuse while correcting social vices?",
+      options: ["Melodrama", "Tragedy", "Pantomime", "Comedy"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Comedy uses wit, laughter, and lighthearted conflict to entertain audiences while offering constructive social critique.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why do choreographers incorporate traditional hand gestures into indigenous dance pieces?",
+      options: [
+        "To convey clear meanings",
+        "To keep dancers warm",
+        "To increase ticket sales",
+        "To count music measures"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Hand gestures in traditional Ghanaian dances carry specific symbolic meanings, proverbs, and cultural narratives.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What does the term \"blocking\" refer to during stage drama rehearsals?",
+      options: [
+        "Closing the theater doors",
+        "Planning actor movements",
+        "Forgetting written lines",
+        "Painting backdrops black"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Blocking is the deliberate planning and staging of actor positions, entrances, physical movements, and exits across the stage.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which element is essential for establishing cultural context in a historical dance piece?",
+      options: [
+        "Modern synthetic attire",
+        "Authentic local costumes",
+        "Loud electric speakers",
+        "Recorded foreign songs"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Authentic indigenous clothing, cloths, and accessories anchor the performance in its specific historical and cultural setting.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is an actor's personal motivation within a dramatic scene?",
+      options: [
+        "The size of the theater",
+        "The color of stage paint",
+        "The time the show ends",
+        "The character main goal"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Motivation is the driving purpose, desire, or psychological need that compels a character to speak and take action in a scene.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should a theatre director conduct full dress rehearsals before opening night?",
+      options: [
+        "To test all stage items",
+        "To rewrite entire plots",
+        "To paint classroom walls",
+        "To dismiss cast members"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Dress rehearsals allow the cast and crew to test costumes, props, timing, and stage lighting under real performance conditions.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What purpose do handheld props serve for an actor during a performance?",
+      options: [
+        "They clean the stage dust",
+        "They replace spoken words",
+        "They enhance stage realism",
+        "They hide lighting fixtures"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Handheld objects like tools, letters, and utensils give actors realistic physical interactions that enhance the believability of the scene.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which sequence represents the correct development of a stage play?",
+      options: [
+        "Sell tickets, buy paint, write words, bow",
+        "Plan tour, cut fabrics, hire hall, clap",
+        "Print flyers, clean seats, exit hall, sing",
+        "Choose theme, draft script, rehearse, stage"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Producing drama follows an orderly creative sequence from theme selection and scriptwriting to rehearsal and final staging.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson6QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L6/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which musical element describes the distinct enunciation and pronunciation of words?",
+      options: [
+        "Lyrical vocal diction",
+        "Tempo beat pacing",
+        "Venue stage layout",
+        "Hand drum tuning"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Diction refers specifically to the clarity and articulation of vocal words and lyrics during singing.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What occurs when supporting drums play louder than the cantor can project?",
+      options: [
+        "Pitch becomes sharper",
+        "Dynamic balance fails",
+        "Lyrics sound clearer",
+        "The stage grows wider"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "When accompaniment instruments drown out the lead voice, the ensemble lacks proper volume balance and dynamic control.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do student composers gather opinions from parents and teachers after concerts?",
+      options: [
+        "To cancel music classes",
+        "To lengthen the holiday",
+        "To collect objective views",
+        "To sell instruments away"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Involving diverse audience members provides objective, well-rounded feedback that enhances performance evaluation.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the primary purpose of writing an aesthetic appreciation report on music?",
+      options: [
+        "To guide future refinement",
+        "To punish junior singers",
+        "To close the school hall",
+        "To raise ticket charges"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Aesthetic reports document strengths, weaknesses, and clear recommendations to guide the refinement of future works.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which action should always be avoided during a peer musical appraisal session?",
+      options: [
+        "Noting rhythmic errors",
+        "Giving personal insults",
+        "Checking chord tuning",
+        "Watching video replays"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Appraisals must remain objective, professional, and constructive, avoiding harsh personal criticism or ridicule.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What musical term refers to singing the exact intended notes without wavering?",
+      options: [
+        "Syncopated dancing",
+        "Accurate vocal pitch",
+        "Heavy volume control",
+        "Fast instrumental beat"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Pitch accuracy refers to singing or playing the precise melodic frequencies required by the composition.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does reviewing video clips of performances benefit student musicians?",
+      options: [
+        "It replaces basic scales",
+        "It raises venue expenses",
+        "It speeds up the metronome",
+        "It reveals stage flaws"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Watching video recordings allows performers to review their own stage coordination, facial expressions, and timing objectively.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What musical quality is established when voices and instruments blend smoothly together?",
+      options: [
+        "Pleasing sound harmony",
+        "Poor acoustic balance",
+        "Uneven tempo control",
+        "Harsh vocal strain"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Harmony and blending occur when complementary pitches and acoustic textures combine to create a unified musical sound.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should an ensemble do if an appraisal shows that singers lost their breath?",
+      options: [
+        "Remove all song verses",
+        "Play only drum pieces",
+        "Add breathing exercises",
+        "Stop singing in public"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Addressing breathing issues requires incorporating diaphragmatic breathing drills into regular vocal rehearsals.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which sequence outlines the correct stages of a musical appraisal process?",
+      options: [
+        "Dismiss group, paint posters, write music",
+        "Sell tickets, choose songs, hire lighting",
+        "Sing solo, buy instruments, pack folders",
+        "Review video, gather views, write report"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The appraisal process begins with reviewing video evidence, gathering stakeholder opinions, and compiling an aesthetic report.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson5QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L5/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of drafting a concert running order or programme?",
+      options: [
+        "To organise the sequence of acts",
+        "To calculate the weight of drums",
+        "To list the home towns of singers",
+        "To decorate walls of the venue"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A running order sets an organized schedule, ensuring smooth, predictable transitions between different musical numbers.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Where should heavy percussion drums be positioned on a performance stage for safety?",
+      options: [
+        "Hung along side wall curtains",
+        "Placed in the front exit doors",
+        "Piled up in center aisles",
+        "Placed securely toward the back"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Placing large percussion instruments at the rear gives drummers room to play while keeping front lines clear for singers and dancers.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why do concert planners invite traditional elders and parents to school music shows?",
+      options: [
+        "To sell foreign musical records",
+        "To replace the student vocalists",
+        "To connect school art with town",
+        "To stop students from singing"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Inviting local elders and community members fosters community engagement, shared cultural pride, and intergenerational dialogue.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which action ensures that microphone cords do not cause accidents during an active performance?",
+      options: [
+        "Taping cables securely to floor",
+        "Tying cords around wooden chairs",
+        "Soaking wires inside water pails",
+        "Cutting cables into short pieces"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Taping down sound cables prevents performers and stage crew from tripping during dynamic stage movements.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the main role of a spoken introduction before an indigenous song is played?",
+      options: [
+        "It allows drummers to go home",
+        "It explains cultural background",
+        "It asks the audience for coins",
+        "It changes the key of the tune"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A spoken introduction provides essential context regarding the origin, meaning, and instrumentation of the piece.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why should an ensemble conduct an acoustic sound check before opening the doors?",
+      options: [
+        "To balance volumes and clarity",
+        "To clean stage floorboards dry",
+        "To practice foreign dance jumps",
+        "To sell unwanted audio cables"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A sound check allows audio technicians to adjust levels, eliminate feedback, and balance voices against loud drums.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which tool provides steady, level video documentation during a school musical concert?",
+      options: [
+        "A handheld pocket mirror glass",
+        "A wooden picture framing easel",
+        "A folding bamboo music stand",
+        "A three-legged camera tripod"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Mounting a camera or tablet on a tripod prevents shaky footage and ensures clear, stable visual documentation.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How does reviewing concert video recordings help student musicians after the show?",
+      options: [
+        "It identifies areas for growth",
+        "It replaces daily vocal study",
+        "It changes the weather outdoors",
+        "It increases the instrument cost"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Watching video replays enables performers to assess their timing, vocal blend, stage presence, and areas needing refinement.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What should the stage crew do immediately when a performing group completes their final song?",
+      options: [
+        "Leave all equipment unattended",
+        "Turn off all community power",
+        "Guide next group onto stage",
+        "Lock the main venue front gate"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Efficient stage managers facilitate prompt transitions by ushering outgoing performers off and incoming performers on.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which method represents an effective way to distribute invitations to local community leaders?",
+      options: [
+        "Whispering in an empty corridor",
+        "Hiding cards beneath desk mats",
+        "Posting notices on river stones",
+        "Delivering formal written letters"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Delivering formal, well-written letters of invitation demonstrates respect and follows customary community etiquette.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson4QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L4/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which musical element refers to the organization of sound durations across time?",
+      options: [
+        "The rhythm of the piece",
+        "The price of instruments",
+        "The visual costume design",
+        "The stage lighting effect"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Rhythm is the pattern of regular or irregular pulses, notes, and rests that gives music its movement through time.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the lead singer called who initiates melodic phrases in a call-and-response piece?",
+      options: [
+        "The studio sound designer",
+        "The cantor of the ensemble",
+        "The stage costume designer",
+        "The dynamic festival patron"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The cantor is the lead vocalist who sings the primary melodic call, which is answered by the chorus.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which indigenous musical instrument produces sound from striking tuned wooden bars?",
+      options: [
+        "Carved marine conch shell",
+        "Double-headed barrel drum",
+        "Handcrafted gourd rattle",
+        "Calabash-resonated xylophone"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Indigenous xylophones, such as those found in northern Ghana, use tuned wooden bars mounted over dried gourd resonators.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why do songwriters choose themes addressing sanitation and education for community songs?",
+      options: [
+        "To inform and educate people",
+        "To sell batteries for radios",
+        "To prevent people dancing",
+        "To shorten the performance"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Songs with social themes serve as educational tools that build public awareness and encourage positive civic behaviors.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the main advantage of conducting sectional rehearsals before full group practices?",
+      options: [
+        "It allows performers to sleep",
+        "It isolates and fixes mistakes",
+        "It increases ticket expenses",
+        "It cancels the public concert"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Sectional rehearsals allow vocalists and drummers to refine their specific parts independently before coming together.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which instrument belongs to the traditional percussion family used in Ghanaian music?",
+      options: [
+        "Slide brass valve trombone",
+        "Dried gourd bead shaker net",
+        "Acoustic electric keyboard",
+        "Four-string steel bass viol"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Bead shakers and rattles are traditional percussion instruments that provide steady rhythmic accompaniment.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does writing a rehearsal schedule benefit a student musical group?",
+      options: [
+        "It eliminates costume needs",
+        "It replaces learning chords",
+        "It allows late arrivals daily",
+        "It provides structured targets"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A rehearsal schedule establishes clear timelines, objectives, and deadlines so the group prepares efficiently.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What should a musical group inspect when selecting a venue for a live acoustic performance?",
+      options: [
+        "Acoustic sound and space",
+        "Paint color on the chairs",
+        "Brand name of the carpets",
+        "Price of the roof timber"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Good acoustics and adequate physical space ensure that musical instruments and voices resonate clearly for the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What purpose does the chorus serve in a topical Ghanaian song?",
+      options: [
+        "It introduces new soloists",
+        "It pauses the percussion beat",
+        "It reinforces the main message",
+        "It mimics foreign song styles"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The chorus repeats the core theme and title phrase, embedding the main moral or cultural lesson into the minds of listeners.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is it beneficial to make an audio or video recording of a dress rehearsal?",
+      options: [
+        "To sell tickets immediately",
+        "To stop practicing the songs",
+        "To eliminate stage lighting",
+        "To assess and refine performance"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Reviewing rehearsal recordings allows performers to objectively evaluate their balance, rhythm, vocal clarity, and stage presence.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L3/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which art element refers to the tactile surface feel or visual roughness of an artwork?",
+      options: [
+        "The surface texture",
+        "The canvas proportion",
+        "The thematic context",
+        "The structural balance"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Texture describes whether a surface feels or looks rough, smooth, ridged, soft, or pebbled.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the second step in the standard four-stage art appraisal process?",
+      options: [
+        "Personal pricing",
+        "Formal analysis",
+        "Final judgement",
+        "Oral description"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Formal analysis follows initial description to examine how the artist organized lines, shapes, and colors using design principles.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Why is understanding the cultural context essential when appraising traditional art?",
+      options: [
+        "It speeds up the clay drying process",
+        "It dictates the retail price in shops",
+        "It reveals the true cultural meaning",
+        "It allows critics to clean the wood"
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Cultural context explains the traditions, beliefs, and historical events that inspired the work's symbolism and imagery.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which action should always be avoided during a peer art critique session?",
+      options: [
+        "Making insulting remarks",
+        "Pointing out neat borders",
+        "Taking notes in sketchbooks",
+        "Asking about the materials"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Art appraisal requires respectful, constructive dialogue and strictly avoids destructive personal remarks.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What visual design principle is achieved when all parts of an artwork feel unified?",
+      options: [
+        "Visual asymmetry",
+        "Harmony and unity",
+        "Surface roughness",
+        "Linear distortion"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Harmony and unity occur when all visual elements work together to produce a balanced, coherent total effect.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which group of colors consists entirely of primary colors in pigment mixing?",
+      options: [
+        "Orange, green, and deep purple",
+        "Blue, vibrant red, and yellow",
+        "Black, pure white, and soft brown",
+        "Yellow, deep orange, and teal green"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Red, yellow, and blue are the primary hues from which all secondary pigment mixtures are derived.",
+    ),
+    QuizQuestion(
+      question:
+          "7. How does an appreciation logbook help an artist over an academic school term?",
+      options: [
+        "It measures the weight of clay bins",
+        "It records daily school attendance",
+        "It eliminates the need for pencils",
+        "It tracks improvements over time"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Keeping a critique log allows artists to trace how their techniques and critical thinking mature over time.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What does an appraiser examine during the \"Interpretation\" phase of an art review?",
+      options: [
+        "The underlying message",
+        "The thickness of the paper",
+        "The wooden frame hardware",
+        "The artist physical height"
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Interpretation focuses on uncovering the moods, symbols, messages, and concepts expressed by the artist.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which statement represents an objective observation about a carved wooden bowl?",
+      options: [
+        "This bowl is completely uninteresting",
+        "This is the best bowl ever produced",
+        "The bowl has incised spiral grooves",
+        "Nobody will ever purchase this bowl"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Describing incised spiral grooves states an observable physical fact without subjective personal bias.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What is the primary benefit of small group appraisal sessions in class?",
+      options: [
+        "They allow students to trade lunches",
+        "They encourage diverse perspectives",
+        "They shorten the creative arts period",
+        "They let students skip drawing tasks"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Group discussions expose learners to multiple interpretations and constructive viewpoints that enrich aesthetic understanding.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_l2/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which piece of information is essential on a display card beside a painting?",
+      options: [
+        "The artist name and title of work",
+        "The daily timetable of the school",
+        "The artist favorite sports team name",
+        "The phone numbers of the attendees"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A display label must clearly state the artist's name, the title of the artwork, the media used, and the year of production.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the main advantage of creating a digital portfolio on a tablet?",
+      options: [
+        "It makes every drawing completely water resistant",
+        "It allows you to document bulky three-dimensional objects",
+        "It guarantees that all pieces are sold for cash",
+        "It removes the need to practice technical sketching"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Digital portfolios allow artists to easily photograph, store, and share large or delicate three-dimensional objects that cannot fit into paper folders.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Where should an exhibition organiser place three-dimensional clay figures for safety?",
+      options: [
+        "Spread out loosely across floorboards",
+        "Piled together inside wooden cartons",
+        "Balanced on narrow doorway windowsills",
+        "Arranged neatly upon stable flat tables"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Heavy or fragile three-dimensional items should be placed securely on sturdy, flat tables where visitors can view them without risk of knocking them over.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why do curators mount flat drawings onto stiff card before hanging them?",
+      options: [
+        "To provide neat borders and support",
+        "To make drawings look like sculptures",
+        "To increase total weight for postage",
+        "To conceal errors drawn on paper edges"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Mounting flat paper pieces onto stiff card creates clean borders, prevents paper corners from curling, and protects the work during hanging.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the main reason for holding an art exhibition in a local school?",
+      options: [
+        "To replace daily academic classes completely",
+        "To share creative works with the public",
+        "To store unwanted materials in big rooms",
+        "To paint all the interior classroom walls"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Art exhibitions provide a formal public platform for artists to present their work, share cultural messages, and connect with their community.",
+    ),
+    QuizQuestion(
+      question:
+          "6. How does reviewing viewer feedback help a young artist improve their work?",
+      options: [
+        "It forces the artist to copy another style",
+        "It reveals how viewers perceive the ideas",
+        "It ensures that every single painting wins",
+        "It provides free timber to build stretchers"
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Constructive feedback offers an outside perspective, showing the artist whether their message was clear and highlighting technical areas to refine.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the most effective way to inform the community about an upcoming art show?",
+      options: [
+        "Whisper the date to one close classmate",
+        "Keep the exhibition venue locked shut",
+        "Write letters and put up poster notices",
+        "Wait until the final closing day arrives"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Staging a successful exhibition requires active publicity, including printed posters, notices, and formal invitation letters sent out in advance.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should an art exhibition room have wide, clear pathways between displays?",
+      options: [
+        "To let visitors move safely and freely",
+        "To allow vehicles to drive past quickly",
+        "To let artists play football during breaks",
+        "To create large spaces for excess timber"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Clear walkways ensure that visitors can move comfortably from one display to another without overcrowding or accidentally damaging delicate pieces.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which action should take place immediately after an art exhibition closes?",
+      options: [
+        "Clean the hall and review the logbook",
+        "Throw remaining artworks into fire pits",
+        "Sell the building to commercial vendors",
+        "Lock the visitor logbook inside a safe"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Post-exhibition activities include safely packing artworks, returning the venue to its original clean state, and studying visitor comments.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How should an artist organize pieces in a portfolio to show artistic progress?",
+      options: [
+        "By the physical size of paper sheets",
+        "By mixing all the subjects together",
+        "By grouping works with similar colors",
+        "By the dates the works were completed"
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Arranging portfolio pieces chronologically by date clearly demonstrates how an artist's technical skills and conceptual thinking have developed over time.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss2Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss2_L1/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+        question:
+            "1. What is the primary purpose of carrying a sketchbook during a community study walk?",
+        options: [
+          "To record quick visual notes and shapes",
+          "To hold coins for buying market food",
+          "To show school grades to community elders",
+          "To replace all photography equipment"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A sketchbook allows the artist to instantly record visual forms, architectural details, and cultural patterns encountered in the environment."),
+    QuizQuestion(
+        question:
+            "2. Which traditional Ghanaian visual art form relies primarily on clay forming techniques?",
+        options: [
+          "Narrow-strip fabric weaving",
+          "Decorative calabash burning",
+          "Fired ceramic vessel pottery",
+          "Cast brass linguist staff art"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Traditional pottery uses local clay deposits shaped by hand and fired in bonfires or kilns."),
+    QuizQuestion(
+        question:
+            "3. Which visual art technique produces an artwork with height, width, and physical depth?",
+        options: [
+          "Monotype block printing",
+          "Pastel landscape sketch",
+          "Tempera canvas painting",
+          "Wood relief carving craft"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Carved wood forms possess physical depth alongside height and width, classifying them as three-dimensional pieces."),
+    QuizQuestion(
+        question:
+            "4. When planning a cultural awareness artwork, what should an artist do immediately after identifying the community problem?",
+        options: [
+          "Conduct research and draft concept ideas",
+          "Hang a bare canvas inside the town hall",
+          "Distribute finished promotional flyers",
+          "Sell raw art materials at the market"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Once an issue is identified, research and conceptual ideation must occur before final media execution begins."),
+    QuizQuestion(
+        question:
+            "5. Which institution is an ideal local source for studying indigenous leadership symbols and regalia?",
+        options: [
+          "The motor vehicle registry",
+          "The regional chief palace",
+          "The commercial trade office",
+          "The maritime harbor customs"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Palaces house regalia, carved staffs, and traditional ceremonial items rich in communal heritage."),
+    QuizQuestion(
+        question:
+            "6. How does incorporating indigenous symbols into a public poster enhance communication?",
+        options: [
+          "It makes the poster completely water resistant",
+          "It connects the theme to shared values",
+          "It speeds up the commercial printing process",
+          "It reduces the required quantity of paint"
+        ],
+        correctIndex: 1,
+        difficulty: "Hard",
+        explanation:
+            "Using familiar cultural symbols creates instant recognition and respect among local community members."),
+    QuizQuestion(
+        question:
+            "7. Which visual art deliverable belongs to the two-dimensional category?",
+        options: [
+          "Carved wooden stool",
+          "Clay ancestral portrait",
+          "Woven cane laundry basket",
+          "Painted sanitation banner"
+        ],
+        correctIndex: 3,
+        difficulty: "Easy",
+        explanation:
+            "Banners and posters have flat surfaces measured by height and width, making them two-dimensional."),
+    QuizQuestion(
+        question:
+            "8. Why must an artist seek permission before sketching or photographing community heritage sites?",
+        options: [
+          "To comply with local customs and respect",
+          "To ensure that photographic film remains dry",
+          "To obtain free drawing paper from officers",
+          "To prevent other artists from entering town"
+        ],
+        correctIndex: 0,
+        difficulty: "Medium",
+        explanation:
+            "Seeking permission respects community leadership and observes established traditional and cultural protocols."),
+    QuizQuestion(
+        question:
+            "9. What role does contrast play when designing an informative public display poster?",
+        options: [
+          "It increases the physical weight of poster board",
+          "It hides secondary figures from view of viewers",
+          "It makes key shapes and messages readable",
+          "It preserves the liquid pigments inside jars"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation:
+            "Visual contrast between text, images, and backgrounds ensures that the message stands out clearly from a distance."),
+    QuizQuestion(
+        question:
+            "10. Which sequence represents the correct progression of the design thinking process?",
+        options: [
+          "Sell artwork, gather materials, make sketches",
+          "Paint canvas, select theme, research history",
+          "Identify issue, develop sketches, make work",
+          "Hang display, interview elders, cut timber"
+        ],
+        correctIndex: 2,
+        difficulty: "Hard",
+        explanation:
+            "Design thinking moves logically from identifying the problem to developing concept sketches and executing the final work."),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson9QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L9/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. From whose perspective are standard stage directions like stage left and stage right determined?",
+      options: [
+        "The actor on stage",
+        "The audience viewer",
+        "The sound engineer",
+        "The stage carpenter",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "All stage directions are mapped from the viewpoint of the performer standing on stage facing the audience.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which spatial zone is defined as the area directly in the middle of the performance stage?",
+      options: [
+        "The upstage left",
+        "The offstage wing",
+        "Downstage right",
+        "The centre stage",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Centre stage sits right in the geographic middle of the playing area, commanding primary visual focus.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which spatial movement level is utilized when a traditional dancer drops down to roll on the ground?",
+      options: [
+        "Flying elevation",
+        "Low floor level",
+        "Medium stature",
+        "Apex high level",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Movements that bring the body into contact with or close proximity to the floor operate at the low spatial level.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What are the hidden spaces located directly off to the sides of a performance platform called?",
+      options: [
+        "The stage wings",
+        "The front apron",
+        "The orchestra pit",
+        "The upper gallery",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The wings are the offstage side areas screened from audience sight where actors await entrances and exits.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which body profile is best suited when two actors converse while remaining visible to the audience?",
+      options: [
+        "Full-back pose",
+        "Sharp silhouette",
+        "Three-quarter",
+        "Direct overhead",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A three-quarter turn allows performers to face each other naturally while keeping their facial expressions and voices open to the house.",
+    ),
+    QuizQuestion(
+      question:
+          "6. What is the primary physical source of power for projecting the human voice across a large hall?",
+      options: [
+        "Neck contraction",
+        "Tight jaw clench",
+        "Shouting throat",
+        "Deep diaphragm",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Deep diaphragmatic breath support supplies the controlled column of air required for strong vocal resonance without throat strain.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following actions is classified as an exaggerated emotional facial expression in drama?",
+      options: [
+        "Blinking neutral",
+        "Walking upright",
+        "Breathing slow",
+        "Wide open stare",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A wide open stare with raised brows visually communicates terror, astonishment, or shock across distance in theatre.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What happens when a performer travels upstage away from the audience during a performance?",
+      options: [
+        "They move to rear",
+        "They exit the wing",
+        "They move forward",
+        "They leap in air",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Moving upstage means walking toward the back wall of the stage, away from the footlights and spectators.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why do dancers incorporate contrasting high, medium, and low levels into their choreography?",
+      options: [
+        "To tire dancers",
+        "Visual dynamic",
+        "To dim the stage",
+        "To silence drums",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Shifting between levels prevents choreography from becoming monotonous and creates dramatic visual energy across the three-dimensional space.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which statement provides the most supportive and informative peer critique for a dramatic presentation?",
+      options: [
+        "Your lines were bad",
+        "That acting was ok",
+        "Great stage focus",
+        "Please leave stage",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Effective feedback points out specific technical strengths such as stage focus and physical presence, fostering growth and self-evaluation.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson8QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L8/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which of the following body movements is classified as non-locomotor because it is performed in place?",
+      options: [
+        "Torso swaying",
+        "Forward leap",
+        "Side running",
+        "Floor hopping",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Swaying moves the upper body while the feet remain anchored to one spot, making it a non-locomotor movement.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What traditional cultural message is communicated when an actor strikes the back of the right palm into the open left palm?",
+      options: [
+        "Angry defiance",
+        "Joyful greeting",
+        "Defeat in battle",
+        "Pleading request",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Striking the back of the right hand against the open left palm signifies humble pleading or seeking permission from an authority figure.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which physical action involves the complete displacement of a performer from one point to another across the stage?",
+      options: [
+        "Bending downward",
+        "Locomotor motion",
+        "Static balancing",
+        "Swinging wrists",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Locomotor movements are specifically defined by the continuous travel or displacement of the body through space.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What happens to a student's voice when they slouch their spine and drop their head during dramatic delivery?",
+      options: [
+        "Projection drops",
+        "Volume increases",
+        "Pitch goes higher",
+        "Diction sharpens",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Slouching compresses the lungs and limits diaphragmatic breath flow, causing vocal projection to weaken significantly.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the cultural significance of placing both hands against the back of the head during a dance drama?",
+      options: [
+        "Cheerful welcome",
+        "Celebrating win",
+        "A heavy load felt",
+        "Pleading for help",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Resting both hands against the back of the head traditionally communicates bearing a heavy emotional or physical load.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which bodily posture is defined as holding the physical frame motionless in a seated, kneeling, or standing pose?",
+      options: [
+        "Dynamic posture",
+        "Transient motion",
+        "Fluid transition",
+        "Static posture",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Static posture refers to stationary bodily alignment maintained without traveling or shifting spatial position.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following actions represents a functional gesture that mimics traditional community life?",
+      options: [
+        "Saluting soldier",
+        "Handshake greeting",
+        "Shaking hands warm",
+        "Miming hand weave",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Functional gestures imitate everyday productive tasks like weaving, farming, or fishing within the narrative of a dance.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which gesture expresses congratulations and praise toward a featured dancer in a cultural arena?",
+      options: [
+        "Pointing fingers",
+        "Head drooping low",
+        "Folding both arms",
+        "Stamping the heel",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Pointing two forefingers directly at a performer is an established sign of congratulations and admiration.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How should an actor or singer regulate their breathing to project their voice to the back of a large hall?",
+      options: [
+        "Fast chest gasps",
+        "Deep core breath",
+        "Holding air tight",
+        "Shallow breathing",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Deep breathing supported by the diaphragm provides steady, sustained airflow that allows sound to resonate clearly without throat strain.",
+    ),
+    QuizQuestion(
+      question:
+          "10. What type of gesture includes universal social greetings such as handshakes, salutes, and embraces?",
+      options: [
+        "Abstract actions",
+        "Emotional mimes",
+        "Social gestures",
+        "Locomotor paths",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Gestures like handshakes, embraces, and salutes belong to social conventions that regulate community interaction.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson7QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L7/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which time signature represents simple duple metre with two crotchet beats in every bar?",
+      options: [
+        "The symbol 2/4",
+        "The symbol 3/4",
+        "The symbol 4/4",
+        "The symbol 6/8",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In \$2/4\$ time, the upper 2 denotes two beats per measure and the lower 4 indicates that each beat is a crotchet.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What is the second movement executed when conducting a four-beat (\$4/4\$) pattern?",
+      options: [
+        "Sweep upward",
+        "Swing to right",
+        "Drop straight down",
+        "Move left inward",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "In the standard \$4/4\$ conducting pattern, beat 1 moves down, beat 2 travels inward to the left, beat 3 moves outward to the right, and beat 4 sweeps up.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What does the appearance of a double bar line at the end of a stave indicate?",
+      options: [
+        "A repeat mark",
+        "End of piece",
+        "Increase tempo",
+        "Louder volume",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A double bar line placed at the conclusion of a musical score marks the formal end of the entire composition.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which beat carries the secondary or medium stress in a simple quadruple (\$4/4\$) bar?",
+      options: [
+        "Beat number 3",
+        "Beat number 2",
+        "Beat number 4",
+        "Beat number 1",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Beat 1 is the primary strong beat, while beat 3 carries a secondary strong (medium) pulse within a \$4/4\$ measure.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What does the lower number 4 represent in simple time signatures like \$2/4\$, \$3/4\$, and \$4/4\$?",
+      options: [
+        "Semibreve beat",
+        "Quaver note unit",
+        "Crotchet value",
+        "Minim half beat",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The number 4 in the denominator represents a quarter note, which is the British crotchet.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which movement path correctly describes the complete pattern for conducting in \$3/4\$ time?",
+      options: [
+        "Left, right, up",
+        "Down, up, down",
+        "Right, left, down",
+        "Down, right, up",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "The triple metre pattern traces a triangle: beat 1 moves down, beat 2 moves outward to the right, and beat 3 sweeps upward to the apex.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the primary function of vertical single bar lines drawn across the staff?",
+      options: [
+        "Divide into bars",
+        "Show pitch names",
+        "Indicate dynamic",
+        "Signal rest time",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Single vertical bar lines partition the staff into equal segments of time known as bars or measures according to the time signature.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which hand direction is universally used by conductors to signal beat 1 across all metres?",
+      options: [
+        "Lateral to right",
+        "Inward to left",
+        "Diagonal rising",
+        "Straight downward",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The downbeat is the universal downward stroke that clearly initiates beat 1 of every measure.",
+    ),
+    QuizQuestion(
+      question:
+          "9. In which meter would a song with the stress pattern \"Strong, Weak, Weak\" be classified?",
+      options: [
+        "Duple meter",
+        "Triple meter",
+        "Quadruple meter",
+        "Compound meter",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A three-beat measure possesses one primary strong pulse followed by two unaccented weak beats (Strong-Weak-Weak).",
+    ),
+    QuizQuestion(
+      question:
+          "10. What term describes the space and musical contents found between two successive bar lines?",
+      options: [
+        "Ledger stave",
+        "Clef symbol",
+        "Measure or bar",
+        "Baton phrase",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The musical segment bounded between two adjacent bar lines is formally known as a measure or bar.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson6QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L6/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. How many quavers are equal in total duration to one single semibreve note?",
+      options: [
+        "Eight quaver notes",
+        "Four quaver notes",
+        "Two quaver notes",
+        "Six quaver notes",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A semibreve equals 4 beats, and a quaver equals half a beat. Dividing 4 by 0.5 gives exactly 8 quaver notes.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which musical note symbol features a solid black head, a vertical stem, and two distinct flags?",
+      options: [
+        "Crotchet quarter note",
+        "Semibreve whole note",
+        "Quaver eighth note",
+        "Semiquaver sixteenth",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "A semiquaver is identified by its filled black head, vertical stem, and two flags or horizontal beams.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How many semiquavers are required to match the value of one crotchet note?",
+      options: [
+        "Exactly two notes",
+        "Four semiquavers",
+        "Exactly eight notes",
+        "Sixteen notes",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "One crotchet equals 1 beat, and each semiquaver equals 0.25 of a beat; therefore, \$1 \\div 0.25 = 4\$ semiquavers.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the total beat value of one minim plus two crotchets added together?",
+      options: [
+        "Four total beats",
+        "Two total beats",
+        "Six total beats",
+        "Three total beats",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "A minim is worth 2 beats and each crotchet is worth 1 beat (\$2 + 1 + 1 = 4\$ beats).",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which visual feature distinguishes a minim note from a semibreve note?",
+      options: ["Solid head", "Double flag", "Vertical stem", "Curved beam"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "While both notes have hollow oval heads, a minim has a vertical stem attached, whereas a semibreve has no stem.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which mnemonic syllable phrase represents four even semiquavers sharing one pulse?",
+      options: [
+        "Spoken Ta-a-a-a",
+        "Spoken as Ta-te",
+        "Spoken as Ta-a",
+        "Spoken Ta-fa-te-fe",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "\"Ta-fa-te-fe\" divides one beat into four equal sixteenth-note subdivisions.",
+    ),
+    QuizQuestion(
+      question:
+          "7. If an artist claps two equal notes in the timespan of one single crotchet beat, what notes are played?",
+      options: [
+        "Two minim notes",
+        "Two whole notes",
+        "Two quaver notes",
+        "Two semibreves",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A crotchet lasts 1 beat, and dividing that single beat into two equal halves yields two quaver notes.",
+    ),
+    QuizQuestion(
+      question:
+          "8. How many total semiquaver notes equal the durational length of one single semibreve?",
+      options: [
+        "Four semiquavers",
+        "Eight semiquavers",
+        "Twelve semiquavers",
+        "Sixteen notes",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A semibreve equals 4 beats, and a semiquaver is 0.25 of a beat (\$4 \\div 0.25 = 16\$ semiquavers).",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the standard durational beat count assigned to a semibreve in common time?",
+      options: [
+        "Four full beats",
+        "Two full beats",
+        "One single beat",
+        "Three full beats",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In common time, the semibreve is the whole note and receives 4 full counts.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which combination of notes has the exact same duration as a single minim note?",
+      options: [
+        "Four whole notes",
+        "Four quaver notes",
+        "Four minim notes",
+        "Four semibreves",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "A minim is 2 beats. Each quaver is half a beat, so 4 quavers equal 2 beats (\$4 \\times 0.5 = 2\$).",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson5QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L5/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Where is middle C (Doh) placed on the standard treble stave staff?",
+      options: [
+        "On a ledger line below",
+        "Inside the third space",
+        "On the fifth top line",
+        "In the second middle space",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Middle C sits on an individual ledger line drawn just below the main five lines of the treble staff.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which Curwen hand gesture represents the fifth degree of the scale known as Soh?",
+      options: [
+        "Drooping relaxed wrist",
+        "Pointed index finger",
+        "Downward pointing thumb",
+        "Upright palm facing chest",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "The hand sign for Soh is formed by presenting a flat open hand upright with the palm facing inward toward the singer's chest.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What term describes singing the pitches of a major scale using only the neutral syllable \"Lah\"?",
+      options: ["Chanting", "Lahing", "Stippling", "Slabbing"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Lahing refers specifically to vocalizing scale degrees and melodic phrases using the neutral syllable \"Lah\" to develop pitch precision.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which letter note sits inside the first space of the standard treble stave staff?",
+      options: ["Note A", "Note D", "Note E", "Note F"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "In treble clef notation, the four spaces from bottom to top spell F, A, C, and E; thus the first space is F.",
+    ),
+    QuizQuestion(
+      question:
+          "5. How many consecutive note degrees make up one complete diatonic major scale including both Dohs?",
+      options: ["Eight notes", "Five notes", "Three notes", "Ten notes"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A complete diatonic major scale spans an octave consisting of eight steps from the lower tonic to the upper tonic.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which physical gesture is used to indicate the starting home pitch Doh at waist level?",
+      options: [
+        "An open palm to sky",
+        "A firm closed fist",
+        "A pointed index finger",
+        "A thumb pointing down",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "John Curwen designated a firm, closed fist held at the waist to convey the rooted, stable quality of the tonic Doh.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which scale degree is represented by a hand with the thumb pointed down toward the floor?",
+      options: ["Syllable Ray", "Syllable Meh", "Syllable Fah", "Syllable Lah"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The hand sign for Fah uses an open hand with the thumb pointing downward, representing its gravity toward Meh.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which note degree rests directly on the third line of the treble clef staff?",
+      options: ["Note A", "Note C", "Note E", "Note B"],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Counting from the bottom up on the treble staff: line 1 is E, line 2 is G, and line 3 is B, which corresponds to Te in C major.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens to vocal pitch when an artist sings an ascending diatonic scale?",
+      options: [
+        "Pitch becomes higher",
+        "Pitch becomes softer",
+        "Pitch becomes lower",
+        "Pitch remains level",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "An ascending scale moves upward in frequency, meaning each subsequent note has a higher pitch than the preceding one.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which Curwen hand sign gesture features a relaxed hand with limp fingers draping downward?",
+      options: ["Syllable Meh", "Syllable Lah", "Syllable Soh", "Syllable Ray"],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Lah is shown with a relaxed, curved wrist and fingers hanging downward, conveying a gentle character.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson4QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHs1_s2_ss1_L4/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which printmaking method involves carving a motif into a flat surface so that only the raised area takes ink?",
+      options: [
+        "Direct relief print",
+        "Subtractive rubout",
+        "Continuous coiling",
+        "Linear cross-hatch",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "In relief printing, the non-image areas are cut away, leaving raised surfaces that receive ink and transfer the image under pressure.",
+    ),
+    QuizQuestion(
+      question:
+          "2. What design property describes how repeating shapes lead a viewer's eye rhythmically across an artwork?",
+      options: [
+        "High physical mass",
+        "Visual surface rhythm",
+        "Clay wall plasticity",
+        "Linear cross shadow",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Rhythm is the visual tempo or sense of movement produced when motifs, lines, or colours recur in structured intervals.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which of the following materials is typically applied in wax-resist pattern making to repel wet watercolour washes?",
+      options: [
+        "Powdered chalk stick",
+        "Sharp metal calliper",
+        "Wet papier-mâché pulp",
+        "Heavy wax oil crayon",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Wax crayons contain oily binders that resist water, preventing aqueous paints from soaking into drawn areas.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Which pattern format arranges repeating units spreading outward in circles from a single middle anchor?",
+      options: [
+        "Radial design pattern",
+        "Straight vertical drop",
+        "Half drop layout grid",
+        "Diagonal border band",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Radial patterns expand circularly outward from a central focal point, resembling wheels, sunbursts, or traditional rosettes.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary role of a stencil when an artist spatters paint across paper with an old toothbrush?",
+      options: [
+        "To absorb loose moisture",
+        "To block paint droplets",
+        "To blend smooth values",
+        "To sharpen bristle edges",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "A stencil shields specific portions of the paper, ensuring that spattered droplets only land on exposed openings to produce crisp silhouettes.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which tool is most effective for applying dappled, soft-edged texture patterns to a painted border?",
+      options: [
+        "Steel sculpting wire",
+        "Fine wooden gouge",
+        "Sharp carving knife",
+        "Porous natural sponge",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Sponges feature open, porous surfaces that hold paint and deposit organic, mottled textures when dabbed gently onto paper or cloth.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why is stepped-back viewing recommended when evaluating a finished pattern composition in the studio?",
+      options: [
+        "To inspect unit rhythm",
+        "To speed drying time",
+        "To erase faulty lines",
+        "To mix deeper colours",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Viewing a pattern from a short distance allows the observer to assess overall alignment, rhythm, balance, and repeat consistency across the whole surface.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which characteristic makes carved yam or cassava an excellent medium for relief block printing in Ghanaian schools?",
+      options: [
+        "Hardness like bronze",
+        "Complete transparency",
+        "Pliable clay elasticity",
+        "Easy manual carving",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Root vegetables are firm enough to hold a sharp edge under stamping pressure, yet soft enough for junior high students to cut cleanly with simple blades.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What happens when you press an ink-soaked relief stamp onto paper using uneven hand pressure?",
+      options: [
+        "Paint dries instantly",
+        "Stamp becomes harder",
+        "Print displays blotches",
+        "Paper turns waterproof",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Inconsistent pressure produces blotchy, uneven prints where some parts of the motif are smudged while others remain pale or unprinted.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which statement provides the most constructive peer evaluation of a repeating textile border print?",
+      options: [
+        "This artwork looks okay",
+        "Your page seems messy",
+        "You should stop prints",
+        "Good rhythm and spacing",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Effective critique comments on specific compositional and technical qualities, such as rhythm and spacing, helping the artist evaluate their design choices.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What mechanical machine is used in professional studios to mix and compress clay into uniform cylinders?",
+      options: [
+        "Heavy pugmill",
+        "Rotary sieve",
+        "Potter bench",
+        "Steel calliper",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "A pugmill is an industrial or workshop machine equipped with an internal screw that mixes, decompresses, and extrudes clay into consistent plastic blocks.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which step comes first when recycling waste paper into paper pulp for modelling projects?",
+      options: [
+        "Boiling in water",
+        "Pounding to paste",
+        "Searing with iron",
+        "Tearing into bits",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Waste paper must first be torn into small shreds to disrupt the bonded fibres and expose broad surface areas for water absorption.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What term describes liquid clay diluted with water to serve as an adhesive when joining clay parts?",
+      options: [
+        "Ceramic enamel",
+        "Potter's slip",
+        "Porous mortar",
+        "Natural glaze",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Slip is a suspension of fine clay in water with the consistency of thick cream, used to bind scored clay surfaces together.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why should guide sticks be placed along both sides of clay while flattening it with a rolling pin?",
+      options: [
+        "To guide cutting",
+        "To maintain depth",
+        "To speed drying",
+        "To score borders",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Wooden guide sticks support the rolling pin edges so that the resulting clay slab maintains a completely uniform thickness throughout.",
+    ),
+    QuizQuestion(
+      question:
+          "5. What is the primary cause of cracks appearing on a clay sculpture during the drying process?",
+      options: [
+        "Trapped pebble bits",
+        "Over-kneaded body",
+        "Using damp boards",
+        "Lack of blue slip",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Trapped impurities like stones or unexpelled air pockets create uneven shrinking stresses that lead directly to severe cracks as moisture evaporates.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Which hand-building technique is best suited for producing tall, organic, hollow vase forms?",
+      options: [
+        "Flat slabbing",
+        "Thumb pinching",
+        "Deep gouging",
+        "Coil building",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Stacking and blending successive rings of rolled clay coils allows the sculptor to build wall height gradually while controlling curves and volume.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is the main reason an artist scratches criss-cross marks into clay before joining?",
+      options: [
+        "To create texture",
+        "To speed firing",
+        "To lock the joint",
+        "To mark the base",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Scoring roughens smooth surfaces so that the slip can interlock with the clay body, creating a mechanical joint that does not separate upon drying.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which of the following materials is unsuitable as a binding adhesive for homemade paper pulp?",
+      options: [
+        "Liquid wood glue",
+        "Raw mineral oil",
+        "Hot flour paste",
+        "Cassava starch",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Mineral oil is a lubricant that prevents sticking; it cannot bond cellulose paper fibres together into a solid structure.",
+    ),
+    QuizQuestion(
+      question:
+          "9. How should prepared, moist modelling clay be stored if it is to be kept fresh for several weeks?",
+      options: [
+        "In plastic bags",
+        "On open shelves",
+        "In wooden boxes",
+        "In direct sunlight",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Sealing moist clay tightly in polythene or airtight plastic containers prevents water evaporation, preserving its workable plasticity.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When building a pinch pot, what movement prevents the walls of the vessel from collapsing outward?",
+      options: [
+        "Rolling on canvas",
+        "Gouging the bottom",
+        "Cutting with wires",
+        "Turning the bowl",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Continuously rotating the ball in your palm while applying gentle, measured thumb pressure ensures that wall thickness stays uniform and structurally balanced.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the name given to the shading method that builds up tonal values using tiny dots?",
+      options: [
+        "Cross-hatching",
+        "Mass blending",
+        "Line hatching",
+        "Point stippling",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Stippling, or pointillism, is the technique of using varying concentrations of small dots to create areas of light and shade.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which correct sequence of three stages should an artist follow when creating a still-life drawing?",
+      options: [
+        "Lines, Shapes, and Forms",
+        "Forms, Lines, and Shapes",
+        "Shapes, Forms, and Lines",
+        "Lines, Forms, and Shapes",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "An artist first plans layout lines, blocks out basic two-dimensional shapes, and finally refines them into three-dimensional shaded forms.",
+    ),
+    QuizQuestion(
+      question:
+          "3. How should an artist alter line density in hatching to represent an area that receives direct light?",
+      options: [
+        "Pack the lines tightly",
+        "Space lines wider apart",
+        "Cross lines diagonally",
+        "Rub the pencil lead hard",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Spacing lines farther apart allows more of the white paper to show through, creating a lighter tonal value representing direct illumination.",
+    ),
+    QuizQuestion(
+      question:
+          "4. What is the brightest area on a drawn object where direct light strikes its surface called?",
+      options: [
+        "Ambient mid-tone",
+        "Dark core shadow",
+        "Primary highlight",
+        "Deep cast shadow",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The highlight is the point of direct reflection where light hits an object most intensely, typically left white or very lightly shaded.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which shading technique involves altering hand pressure to make seamless transitions of tone?",
+      options: [
+        "Mass blending shading",
+        "Single line hatching",
+        "Intersecting crossing",
+        "Multi-dot stippling",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Mass shading, or blending, uses continuous gradations of graphite applied with changing hand pressure to produce smooth value transitions.",
+    ),
+    QuizQuestion(
+      question:
+          "6. Why does an artist draw a cast shadow underneath a tabletop object in a still-life drawing?",
+      options: [
+        "To hide rough paper flaws",
+        "To anchor form to ground",
+        "To eliminate mid-values",
+        "To brighten top contours",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "A cast shadow grounds the object on its supporting surface, preventing it from appearing as though it is floating unrealistically in empty space.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following features defines an arrangement as a still-life subject?",
+      options: [
+        "It uses moving human actors",
+        "It depicts active animals",
+        "It shows non-living objects",
+        "It captures wind and clouds",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Still-life focuses exclusively on inanimate, stationary objects such as fruits, household utensils, flowers, or books.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What type of peer feedback is considered most helpful during a classroom art exhibition?",
+      options: [
+        "General one-word praise",
+        "Silence without comment",
+        "Harsh personal opinion",
+        "Specific technique advice",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Constructive peer evaluation points out specific technical strengths and offers clear suggestions for refining techniques like tone or proportion.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which basic geometric solid is best suited for blocking out the body of an earthenware water pot?",
+      options: [
+        "Rounded smooth sphere",
+        "Thin planar rectangle",
+        "Pointed narrow wedge",
+        "Tall hexagonal prism",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The bulbous belly of an earthenware pot is fundamentally spherical, making a sphere the ideal initial shape for establishing proportion.",
+    ),
+    QuizQuestion(
+      question:
+          "10. When using an eraser to remove pencil marks to restore bright values, what is the technique called?",
+      options: [
+        "Pointillism stippling",
+        "Contour cross-hatch",
+        "Linear pencil hatching",
+        "Subtractive rendering",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Using an eraser to lift away graphite and produce highlights or clean light values within shaded areas is known as rendering.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs1S2Ss1Lesson1QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS1_s2_ss1_L1/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. Which item is classified as an artistic material consumed during the production of an artwork?",
+          options: [
+            "Poster paint colour",
+            "Pair of metal shears",
+            "Wooden pencil holder",
+            "Steel clay scraper"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Poster paint is a consumable chemical substance that remains permanently on the paper surface as the finished artwork."),
+      QuizQuestion(
+          question:
+              "2. Which tool is primarily designed for measuring outer or inner dimensions in sculptural work?",
+          options: [
+            "Utility knife cutter",
+            "Steel sculptor calliper",
+            "Wooden rolling pin",
+            "Soft bristle brush"
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation:
+              "Callipers are specialized hand-held measuring instruments used by sculptors to measure thickness and proportions accurately."),
+      QuizQuestion(
+          question:
+              "3. Which drawing technique relies on building up tones and dark values using closely placed dots?",
+          options: [
+            "Mass blending",
+            "Line hatching",
+            "Block shading",
+            "Point stippling"
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation:
+              "Stippling, also known as pointillism, produces tonal gradation and shadows through variations in the density of applied dots."),
+      QuizQuestion(
+          question:
+              "4. Which of the following actions represents an unsafe studio practice when carrying sharp tools?",
+          options: [
+            "Holding blades down",
+            "Walking at slow pace",
+            "Pointing blades upward",
+            "Placing blades in case"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Holding blades upright while moving in a studio creates a severe puncture hazard for classmates and violates studio safety rules."),
+      QuizQuestion(
+          question:
+              "5. What is the proper method for cleaning paintbrushes after working with water-based poster colours?",
+          options: [
+            "Washing out in water",
+            "Soaking them in oil",
+            "Drying bristles bent",
+            "Scraping with knife"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Water-based paints should be thoroughly rinsed out with clean water before reshaping the brush hairs to dry flat."),
+      QuizQuestion(
+          question:
+              "6. Which hand-building technique involves flattening clay into a uniform sheet using a rolling pin?",
+          options: [
+            "Pinching form method",
+            "Clay coiling process",
+            "Stippling dot design",
+            "Clay slab technique"
+          ],
+          correctIndex: 3,
+          difficulty: "Hard",
+          explanation:
+              "The slab method uses rolled, flat sheets of clay of even thickness that are cut and joined together to create structured three-dimensional objects."),
+      QuizQuestion(
+          question:
+              "7. Which medium is prepared by soaking torn pieces of scrap paper in water and mixing them with glue?",
+          options: [
+            "Paper pulp mixture",
+            "Natural riverbed clay",
+            "Plasticine oil paste",
+            "Soft chalk pigment"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Paper pulp, or papier-mache, is made by soaking torn waste paper, mashing it into a paste, and adding starch adhesive for modelling."),
+      QuizQuestion(
+          question:
+              "8. What is the main function of applying a thin coat of vegetable oil to metal carving implements?",
+          options: [
+            "Softening tool edges",
+            "Preventing tool rusting",
+            "Coloring metal finish",
+            "Hardening the wooden grip"
+          ],
+          correctIndex: 1,
+          difficulty: "Hard",
+          explanation:
+              "Oil seals the steel surface away from air and ambient humidity, preventing rust and preserving the cutting edges."),
+      QuizQuestion(
+          question:
+              "9. In pattern design, what term is given to the single fundamental unit or figure that is repeated?",
+          options: [
+            "Linear hatch line",
+            "Sculptural armature",
+            "Pliable clay coil",
+            "Fundamental art motif"
+          ],
+          correctIndex: 3,
+          difficulty: "Hard",
+          explanation:
+              "A motif is the primary design element, shape, or figure that is repeated sequentially across an area to create a complete pattern."),
+      QuizQuestion(
+          question:
+              "10. Which of these materials is classified as dry drawing media suitable for direct shading?",
+          options: [
+            "Black charcoal stick",
+            "Moist potter's clay",
+            "Water-based wood glue",
+            "Linseed brush fluid"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Charcoal is a dry carbon-based drawing material widely used for tonal value shading, sketching, and expressive marks."),
+    ]);
+
 final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L3/8. QUIZ.mp3",
   questions: [
     QuizQuestion(
-      question: "1. What is the primary reason for identifying specific community challenges before designing an artefact?",
+      question:
+          "1. What is the primary reason for identifying specific community challenges before designing an artefact?",
       options: [
         "It guarantees that the resulting product meets genuine local needs",
         "It allows the designer to skip drawing plans in their sketchbook",
@@ -13,10 +4558,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Identifying community challenges ensures the design targets an actual problem, delivering value and practical relief to the community.",
+      explanation:
+          "Identifying community challenges ensures the design targets an actual problem, delivering value and practical relief to the community.",
     ),
     QuizQuestion(
-      question: "2. When planning a new product, which factor determines the choice of materials for construction?",
+      question:
+          "2. When planning a new product, which factor determines the choice of materials for construction?",
       options: [
         "How quickly the raw material can be thrown into local gutters",
         "Durability, availability, cost, and suitability for the task",
@@ -25,10 +4572,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Material selection depends on whether the resource is accessible, affordable, strong enough, and appropriate for the intended design function.",
+      explanation:
+          "Material selection depends on whether the resource is accessible, affordable, strong enough, and appropriate for the intended design function.",
     ),
     QuizQuestion(
-      question: "3. Why do designers produce scale drawings using digital applications before cutting materials?",
+      question:
+          "3. Why do designers produce scale drawings using digital applications before cutting materials?",
       options: [
         "To increase the amount of fabric waste created during trimming",
         "To avoid having to consult any community members about needs",
@@ -37,10 +4586,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Digital drafting provides high precision, clean dimensions, and correct scaling, which prevents costly mistakes during fabrication.",
+      explanation:
+          "Digital drafting provides high precision, clean dimensions, and correct scaling, which prevents costly mistakes during fabrication.",
     ),
     QuizQuestion(
-      question: "4. A student constructs a prototype carry pouch using cleaned, fused water sachets. What problem does this directly address?",
+      question:
+          "4. A student constructs a prototype carry pouch using cleaned, fused water sachets. What problem does this directly address?",
       options: [
         "Reducing plastic litter while providing protective book storage",
         "Increasing the consumption of charcoal in domestic kitchen stoves",
@@ -49,10 +4600,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Repurposing sachet waste into a school bag simultaneously removes plastic litter from the environment and protects school supplies.",
+      explanation:
+          "Repurposing sachet waste into a school bag simultaneously removes plastic litter from the environment and protects school supplies.",
     ),
     QuizQuestion(
-      question: "5. What is the main function of constructing a three-dimensional prototype during the design cycle?",
+      question:
+          "5. What is the main function of constructing a three-dimensional prototype during the design cycle?",
       options: [
         "To display the item in commercial shops for permanent storage",
         "To evaluate structural strength, form, and practical handling",
@@ -61,10 +4614,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A physical prototype allows the designer to test dimensions, comfort, weight capacity, and real-world durability.",
+      explanation:
+          "A physical prototype allows the designer to test dimensions, comfort, weight capacity, and real-world durability.",
     ),
     QuizQuestion(
-      question: "6. Which activity occurs during the public display of an innovative model artefact?",
+      question:
+          "6. Which activity occurs during the public display of an innovative model artefact?",
       options: [
         "Destroying all earlier preparatory sketches and measurement data",
         "Forbidding visitors from touching or observing the working model",
@@ -73,10 +4628,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Displaying the prototype allows community members and peers to inspect the design and offer feedback for further refinement.",
+      explanation:
+          "Displaying the prototype allows community members and peers to inspect the design and offer feedback for further refinement.",
     ),
     QuizQuestion(
-      question: "7. During testing, a prototype water container is found to leak along its lower heat-fused seam. What is the designer's next step?",
+      question:
+          "7. During testing, a prototype water container is found to leak along its lower heat-fused seam. What is the designer's next step?",
       options: [
         "Paint over the exterior with bright decorative poster colors",
         "Tell the users that water containers are not meant to be dry",
@@ -85,10 +4642,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "When a structural defect is identified during testing, the designer must refine the fabrication process to fix the leak.",
+      explanation:
+          "When a structural defect is identified during testing, the designer must refine the fabrication process to fix the leak.",
     ),
     QuizQuestion(
-      question: "8. Why are box stitches with cross diagonals used to attach straps to heavy-duty bags?",
+      question:
+          "8. Why are box stitches with cross diagonals used to attach straps to heavy-duty bags?",
       options: [
         "They distribute mechanical tension over a wider surface area",
         "They make the bag much heavier so students cannot lift it easily",
@@ -97,10 +4656,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Cross-box stitching spreads mechanical pulling forces evenly across the material, preventing the strap from ripping out under load.",
+      explanation:
+          "Cross-box stitching spreads mechanical pulling forces evenly across the material, preventing the strap from ripping out under load.",
     ),
     QuizQuestion(
-      question: "9. How does documenting each fabrication step with a tablet camera assist a young designer?",
+      question:
+          "9. How does documenting each fabrication step with a tablet camera assist a young designer?",
       options: [
         "It takes the place of carrying out any physical sewing work",
         "It automatically builds the final prototype without human effort",
@@ -109,10 +4670,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Digital photo documentation provides a clear visual log of the manufacturing process, highlighting errors and aiding reflection.",
+      explanation:
+          "Digital photo documentation provides a clear visual log of the manufacturing process, highlighting errors and aiding reflection.",
     ),
     QuizQuestion(
-      question: "10. What makes an artefact truly successful in solving a local community problem?",
+      question:
+          "10. What makes an artefact truly successful in solving a local community problem?",
       options: [
         "It uses only imported luxury items that local people cannot afford",
         "It is extremely complex to operate and impossible to repair locally",
@@ -121,7 +4684,8 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson3QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "A design solution succeeds when it works effectively, remains affordable and repairable, and directly solves the community's problem.",
+      explanation:
+          "A design solution succeeds when it works effectively, remains affordable and repairable, and directly solves the community's problem.",
     ),
   ],
 );
@@ -130,7 +4694,8 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L2/8. QUIZ.mp3",
   questions: [
     QuizQuestion(
-      question: "1. What is the first systematic step a designer takes when beginning a new project?",
+      question:
+          "1. What is the first systematic step a designer takes when beginning a new project?",
       options: [
         "Selling finished commercial products",
         "Identifying and defining the problem",
@@ -139,10 +4704,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "The design cycle always starts with identifying and clearly defining the problem that needs a practical solution.",
+      explanation:
+          "The design cycle always starts with identifying and clearly defining the problem that needs a practical solution.",
     ),
     QuizQuestion(
-      question: "2. Which document outlines the instructions, constraints, and objectives for a design project?",
+      question:
+          "2. Which document outlines the instructions, constraints, and objectives for a design project?",
       options: [
         "The design brief",
         "The workshop receipt",
@@ -151,10 +4718,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "A design brief outlines the project's purpose, target audience, material limits, and required specifications.",
+      explanation:
+          "A design brief outlines the project's purpose, target audience, material limits, and required specifications.",
     ),
     QuizQuestion(
-      question: "3. Why is research considered essential before drafting final design drawings?",
+      question:
+          "3. Why is research considered essential before drafting final design drawings?",
       options: [
         "It supplies factual data about user needs and site constraints",
         "It eliminates all manual work during the production stage",
@@ -163,17 +4732,21 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "Research ensures decisions rest on real facts, user requirements, and environmental conditions rather than guesswork.",
+      explanation:
+          "Research ensures decisions rest on real facts, user requirements, and environmental conditions rather than guesswork.",
     ),
     QuizQuestion(
-      question: "4. What term describes a full-scale or scaled physical model built to evaluate a design concept?",
+      question:
+          "4. What term describes a full-scale or scaled physical model built to evaluate a design concept?",
       options: ["Inventory", "Catalogue", "Billboard", "Prototype"],
       correctIndex: 3,
       difficulty: "Easy",
-      explanation: "A prototype is a physical working mock-up made to test dimensions, comfort, and operational performance.",
+      explanation:
+          "A prototype is a physical working mock-up made to test dimensions, comfort, and operational performance.",
     ),
     QuizQuestion(
-      question: "5. During which phase does a designer select the best sketch and work out exact joints and dimensions?",
+      question:
+          "5. During which phase does a designer select the best sketch and work out exact joints and dimensions?",
       options: [
         "Refuse sorting",
         "Idea development",
@@ -182,10 +4755,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Idea development refines selected brainstormed sketches into precise working drawings with specifications.",
+      explanation:
+          "Idea development refines selected brainstormed sketches into precise working drawings with specifications.",
     ),
     QuizQuestion(
-      question: "6. What is the main reason for testing a crossing sign prototype outdoors along an active road?",
+      question:
+          "6. What is the main reason for testing a crossing sign prototype outdoors along an active road?",
       options: [
         "To check driver visibility and structural stability against real wind",
         "To ensure school children spend their study hours outside class",
@@ -194,10 +4769,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Field testing verifies how the sign performs against natural lighting, long viewing distances, and heavy traffic air gusts.",
+      explanation:
+          "Field testing verifies how the sign performs against natural lighting, long viewing distances, and heavy traffic air gusts.",
     ),
     QuizQuestion(
-      question: "7. When test users report that a chair seat causes back strain, which step should the designer take next?",
+      question:
+          "7. When test users report that a chair seat causes back strain, which step should the designer take next?",
       options: [
         "Tell the users that they are sitting down in the wrong position",
         "Stop manufacturing all types of furniture across the country",
@@ -206,10 +4783,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Negative user feedback during testing signals the need for ergonomic refinement and structural adjustments.",
+      explanation:
+          "Negative user feedback during testing signals the need for ergonomic refinement and structural adjustments.",
     ),
     QuizQuestion(
-      question: "8. Why do designers produce multiple sketches during the ideation phase?",
+      question:
+          "8. Why do designers produce multiple sketches during the ideation phase?",
       options: [
         "To waste tracing paper before purchasing construction timber",
         "To confuse workshop technicians during timber cutting stages",
@@ -218,10 +4797,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Generating diverse rough sketches allows designers to explore multiple creative avenues before selecting the strongest solution.",
+      explanation:
+          "Generating diverse rough sketches allows designers to explore multiple creative avenues before selecting the strongest solution.",
     ),
     QuizQuestion(
-      question: "9. What outcome typically occurs if a technician skips prototyping and builds directly in expensive metal?",
+      question:
+          "9. What outcome typically occurs if a technician skips prototyping and builds directly in expensive metal?",
       options: [
         "Errors are found late, causing high financial waste and rework",
         "The product is guaranteed to win national design competitions",
@@ -230,10 +4811,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Bypassing low-cost prototyping means mistakes are discovered only after spending substantial money and labor on permanent materials.",
+      explanation:
+          "Bypassing low-cost prototyping means mistakes are discovered only after spending substantial money and labor on permanent materials.",
     ),
     QuizQuestion(
-      question: "10. How does continuous refinement benefit existing commercial products over time?",
+      question:
+          "10. How does continuous refinement benefit existing commercial products over time?",
       options: [
         "It makes older tools completely impossible to recycle or repair",
         "It increases the physical weight of consumer products steadily",
@@ -242,7 +4825,8 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson2QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "Ongoing refinement modifies existing products so they function more safely, use less energy, and meet evolving user needs.",
+      explanation:
+          "Ongoing refinement modifies existing products so they function more safely, use less energy, and meet evolving user needs.",
     ),
   ],
 );
@@ -251,7 +4835,8 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
   audioPath: "assets/audio/CreativeArts/JHS1_s1_ss3_L1/8. QUIZ.mp3",
   questions: [
     QuizQuestion(
-      question: "1. What is the primary definition of creativity in the design process?",
+      question:
+          "1. What is the primary definition of creativity in the design process?",
       options: [
         "The act of duplicating an existing artefact without alterations",
         "The mental ability to conceive original ideas to address needs",
@@ -260,7 +4845,8 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Creativity is defined as the cognitive ability to form fresh, original concepts and visualize novel ways to solve human problems.",
+      explanation:
+          "Creativity is defined as the cognitive ability to form fresh, original concepts and visualize novel ways to solve human problems.",
     ),
     QuizQuestion(
       question: "2. How does innovation differ primarily from creativity?",
@@ -272,10 +4858,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Medium",
-      explanation: "While creativity involves thinking of new ideas, innovation focuses on implementing and manufacturing those ideas into working artefacts or systems.",
+      explanation:
+          "While creativity involves thinking of new ideas, innovation focuses on implementing and manufacturing those ideas into working artefacts or systems.",
     ),
     QuizQuestion(
-      question: "3. A Ghanaian artisan transforms discarded vehicle tyres into durable sole padding for local sandals. What does this process demonstrate?",
+      question:
+          "3. A Ghanaian artisan transforms discarded vehicle tyres into durable sole padding for local sandals. What does this process demonstrate?",
       options: [
         "Unplanned destruction of raw material",
         "Routine maintenance of vehicle engines",
@@ -284,10 +4872,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Repurposing durable waste rubber into protective footwear soles is a practical innovation that cuts material expenses and solves waste problems.",
+      explanation:
+          "Repurposing durable waste rubber into protective footwear soles is a practical innovation that cuts material expenses and solves waste problems.",
     ),
     QuizQuestion(
-      question: "4. Which artefact is designed specifically to assist individuals who have lost a lower limb?",
+      question:
+          "4. Which artefact is designed specifically to assist individuals who have lost a lower limb?",
       options: [
         "An electronic hearing amplifier",
         "An insulated domestic cookstove",
@@ -296,10 +4886,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Prosthetic limbs are assistive medical artefacts engineered to replace missing body parts and restore independent movement.",
+      explanation:
+          "Prosthetic limbs are assistive medical artefacts engineered to replace missing body parts and restore independent movement.",
     ),
     QuizQuestion(
-      question: "5. Why do engineers add wide, treaded tyres to wheelchairs built for rural localities?",
+      question:
+          "5. Why do engineers add wide, treaded tyres to wheelchairs built for rural localities?",
       options: [
         "To make mobility aids navigate unpaved sandy paths easily",
         "To ensure the chair travels at high speed on smooth floors",
@@ -308,10 +4900,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 0,
       difficulty: "Hard",
-      explanation: "Wide tyres with deep treads distribute weight and grip uneven, sandy, or muddy ground, preventing the chair from sinking or tipping.",
+      explanation:
+          "Wide tyres with deep treads distribute weight and grip uneven, sandy, or muddy ground, preventing the chair from sinking or tipping.",
     ),
     QuizQuestion(
-      question: "6. Which feature represents a common design weakness of untreated cane market baskets?",
+      question:
+          "6. Which feature represents a common design weakness of untreated cane market baskets?",
       options: [
         "High resistance to moisture and rain",
         "Complete inability to hold any crops",
@@ -320,17 +4914,21 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Natural untreated plant fibres degrade and splinter when exposed repeatedly to dampness, damaging goods and injuring handlers.",
+      explanation:
+          "Natural untreated plant fibres degrade and splinter when exposed repeatedly to dampness, damaging goods and injuring handlers.",
     ),
     QuizQuestion(
-      question: "7. A student sketches a plan to collect morning dew using inverted plastic cones for school garden irrigation. At this sketching stage, what is being displayed?",
+      question:
+          "7. A student sketches a plan to collect morning dew using inverted plastic cones for school garden irrigation. At this sketching stage, what is being displayed?",
       options: ["Creativity", "Mass sales", "Assembly", "Packaging"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Developing and sketching a novel concept before it is physically tested and manufactured represents the creative ideation phase.",
+      explanation:
+          "Developing and sketching a novel concept before it is physically tested and manufactured represents the creative ideation phase.",
     ),
     QuizQuestion(
-      question: "8. What is the main operational benefit of an energy-saving ceramic charcoal stove?",
+      question:
+          "8. What is the main operational benefit of an energy-saving ceramic charcoal stove?",
       options: [
         "It radiates heat in all directions away from the cooking pot",
         "It traps thermal energy inside, using less charcoal to cook",
@@ -339,10 +4937,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "The fired clay insulation holds thermal energy directly beneath the cooking vessel, cutting fuel consumption and speeding up cooking.",
+      explanation:
+          "The fired clay insulation holds thermal energy directly beneath the cooking vessel, cutting fuel consumption and speeding up cooking.",
     ),
     QuizQuestion(
-      question: "9. Why is it beneficial to replace heavy one-piece wooden desks with stackable classroom chairs?",
+      question:
+          "9. Why is it beneficial to replace heavy one-piece wooden desks with stackable classroom chairs?",
       options: [
         "Stackable chairs permanently prevent students from working",
         "Fixed furniture makes cleaning the concrete floor much easier",
@@ -351,10 +4951,12 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 2,
       difficulty: "Hard",
-      explanation: "Modular, stackable furniture allows spaces to be reconfigured quickly for diverse learning activities and stacked to free up floor space.",
+      explanation:
+          "Modular, stackable furniture allows spaces to be reconfigured quickly for diverse learning activities and stacked to free up floor space.",
     ),
     QuizQuestion(
-      question: "10. When an existing product is redesigned to correct safety hazards identified by consumers, what design phase is taking place?",
+      question:
+          "10. When an existing product is redesigned to correct safety hazards identified by consumers, what design phase is taking place?",
       options: [
         "Idea abandonment",
         "Product rejection",
@@ -363,7 +4965,8 @@ final QuizModel creativeArtsJhs1S1Ss3Lesson1QuizData = QuizModel(
       ],
       correctIndex: 3,
       difficulty: "Hard",
-      explanation: "Refinement or modification occurs when designers take feedback about an artefact's weaknesses and improve its form, safety, or function.",
+      explanation:
+          "Refinement or modification occurs when designers take feedback about an artefact's weaknesses and improve its form, safety, or function.",
     ),
   ],
 );
@@ -927,138 +5530,133 @@ final QuizModel creativeArtsJhs1S1Ss1Lesson2QuizData = QuizModel(
   questions: [
     QuizQuestion(
       question:
-          "1. Which device replaces physical paper by serving as the primary visual display for digital drawing?",
+          "1. Which element of design is best defined as a continuous mark made across a surface by a moving point?",
       options: [
-        "Computer monitor screen",
-        "Mechanical desktop plotter",
-        "External hard drive disk",
-        "Laser printing machine",
+        "A straight or curved line",
+        "A dark circular shape",
+        "An empty negative space",
+        "A rough tactile texture",
       ],
       correctIndex: 0,
       difficulty: "Easy",
       explanation:
-          "In digital drawing, the monitor or tablet display screen acts as the virtual surface that presents the electronic artwork.",
+          "A line is formed whenever a moving point travels across a surface, producing a visible linear mark.",
     ),
     QuizQuestion(
       question:
-          "2. How does a digital stylus differ from an ordinary plastic pointer when used with a graphics tablet?",
+          "2. Why is an earthenware water cooler classified as a three-dimensional form rather than a flat shape?",
       options: [
-        "It deposits real liquid ink onto the glass screen surface",
-        "It has pressure sensitivity that responds to hand force",
-        "It functions only when held at an exact vertical angle",
-        "It erases computer hardware memory if pressed heavily",
-      ],
-      correctIndex: 1,
-      difficulty: "Medium",
-      explanation:
-          "A digital stylus features built-in electronic pressure sensors that regulate line thickness and tone opacity according to the user's hand pressure.",
-    ),
-    QuizQuestion(
-      question:
-          "3. An illustrator wants to draw a smooth, perfectly straight border outline on a digital tablet. What should they do?",
-      options: [
-        "Move the stylus rapidly across the pad surface by hand",
-        "Increase the screen brightness control to maximum level",
-        "Wash the graphics pad with warm water and soft soap",
-        "Use the software vector line or line guide constraint",
+        "It has no length or width",
+        "It is made of pure bronze",
+        "It has no measurable lines",
+        "It possesses volume and depth",
       ],
       correctIndex: 3,
-      difficulty: "Easy",
-      explanation:
-          "Digital drawing programmes include dedicated line and geometric shape tools that automatically guide strokes into flawless straight edges.",
-    ),
-    QuizQuestion(
-      question:
-          "4. What is the function of the opacity setting in digital drawing and shading software?",
-      options: [
-        "It sets how transparent or solid a stroke appears",
-        "It speeds up the computer internet download rate",
-        "It renames the active graphic file on the drive",
-        "It locks the external keyboard against key inputs",
-      ],
-      correctIndex: 0,
       difficulty: "Medium",
       explanation:
-          "Opacity controls stroke transparency; lowering opacity allows an artist to build up soft mid-tones and translucent shading layers gradually.",
+          "Forms possess three dimensions: length, width, and depth, allowing them to occupy physical volume.",
     ),
     QuizQuestion(
       question:
-          "5. Which digital tool allows an artist to smooth out rough brush transitions to create realistic form?",
-      options: [
-        "Canvas crop tool",
-        "Text typing tool",
-        "Digital blend tool",
-        "Fill bucket tool",
-      ],
+          "3. What visual sensation is produced when light reflects off a treated surface into the human eye?",
+      options: ["Line", "Form", "Colour", "Shape"],
       correctIndex: 2,
       difficulty: "Easy",
       explanation:
-          "The digital blend or smudge tool softens edges between contrasting values, producing smooth gradients across a shape.",
+          "Colour is the visual property resulting from light reflection, categorized into hues on the colour wheel.",
     ),
     QuizQuestion(
       question:
-          "6. Why is the digital undo command valuable to an artist working on an intricate outline?",
+          "4. Which of the following items represents an example of a purely tactile texture found in the environment?",
       options: [
-        "It reverses the last action without damaging work",
-        "It converts a raster image into a carved clay model",
-        "It prints a physical copy directly onto cardboard",
-        "It increases the volume level of audio narration",
+        "The flaky rough bark on a baobab trunk",
+        "A drawn picture of prickly grass blades",
+        "The smooth surface of an empty sketchpad",
+        "A photograph of a river fish with scales",
       ],
       correctIndex: 0,
-      difficulty: "Easy",
+      difficulty: "Medium",
       explanation:
-          "The undo feature permits artists to instantly erase an accidental stroke without scratching, smudging, or tearing the canvas.",
+          "Tactile texture is the real physical feel experienced when directly touching a three-dimensional surface.",
     ),
     QuizQuestion(
       question:
-          "7. How does an artist create a low tone shadow digitally underneath an object resting on a table?",
+          "5. How is an organic shape distinguished from a standard geometric shape in design practice?",
       options: [
-        "By painting with a pure white brush on an overlay layer",
-        "By increasing the canvas display zoom level to two hundred",
-        "By brushing dense dark tones along the surface underside",
-        "By selecting the bright highlight gradient preset tool",
+        "Organic shapes are always perfectly flat and have right angles",
+        "Organic shapes are irregular, freeform, and derived from nature",
+        "Organic shapes can only be drawn with a steel drafting ruler",
+        "Organic shapes have fixed sides and measurable corner degrees",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "Organic shapes are natural, uneven, and flowing, unlike geometric shapes which follow strict mathematical rules.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When an artist paints a yellow sun setting against a deep red sky, what colour temperature group is being used?",
+      options: [
+        "The secondary family",
+        "The cool colour tones",
+        "The warm colour tones",
+        "The neutral monochrome",
       ],
       correctIndex: 2,
       difficulty: "Medium",
       explanation:
-          "Low tones represent dark shadow areas; applying dense dark pigment beneath the object creates the proper illusion of cast shadow.",
+          "Yellows, oranges, and reds are warm colours, traditionally associated with heat, sunlight, and fire.",
     ),
     QuizQuestion(
       question:
-          "8. Which software programme is specifically recognized for creating simple three-dimensional design shapes?",
-      options: ["Spreadsheets", "Music Mixer", "Web Browser", "SketchUp Free"],
-      correctIndex: 3,
-      difficulty: "Medium",
-      explanation:
-          "SketchUp Free and Tinkercad are CAD software packages designed for constructing and viewing three-dimensional shapes and forms.",
-    ),
-    QuizQuestion(
-      question:
-          "9. What role does an interactive smart board play in a creative design classroom?",
+          "7. In a design composition, what does the term negative space specifically identify?",
       options: [
-        "It functions solely as a television receiver for movies",
-        "It acts as a large touch-sensitive display for drawing",
-        "It produces carved wooden stamp blocks automatically",
-        "It binds loose sketch pad sheets into hardback books",
-      ],
-      correctIndex: 1,
-      difficulty: "Easy",
-      explanation:
-          "Smart boards serve as large-format digital display surfaces where teachers and students can draw, manipulate shapes, and present digital art interactively.",
-    ),
-    QuizQuestion(
-      question:
-          "10. When transitioning from manual drawing to digital design, what core principle remains unchanged?",
-      options: [
-        "The necessity of buying replacement wooden pencils",
-        "The exact weight and thickness of cartridge paper",
-        "The need for wet mixing water to dissolve colours",
-        "The use of light and shade to indicate solid volume",
+        "The dark shadow directly beneath the main subject",
+        "The solid physical material used to sculpt an item",
+        "The bright focal element placed near the center",
+        "The open background space surrounding the object",
       ],
       correctIndex: 3,
       difficulty: "Hard",
       explanation:
-          "Regardless of whether manual or digital tools are used, the fundamental design principle of using light, mid-tones, and shadows to render form remains the same.",
+          "Negative space is the unoccupied space around, inside, or behind the central positive focus of a work.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which secondary colour is produced when yellow pigment is blended equally with blue pigment?",
+      options: ["Green", "Brown", "Black", "Amber"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Mixing the primary pigments yellow and blue creates the secondary colour green.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Why are dots, lines, and shapes referred to as the building blocks of visual arts and design?",
+      options: [
+        "They cost a substantial amount of money to purchase",
+        "They can only be drawn on commercial wooden blocks",
+        "They are the basic parts combined to form every work",
+        "They replace all need for physical construction tools",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Elements of design are the primary visual components combined by artists to create complete works.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which of the following objects represents a regular geometric form rather than an organic form?",
+      options: [
+        "A dried natural gourd used as a bowl",
+        "A rounded smooth river stone from a bank",
+        "A twisted tree root growing in the forest",
+        "A manufactured cubic concrete paving block",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "A concrete paving block is a cube, which is a mathematically regular geometric form.",
     ),
   ],
 );

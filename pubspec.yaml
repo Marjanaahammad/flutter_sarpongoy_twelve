@@ -110,6 +110,70 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/images/CreativeArts/JHS2_s1_ss3_L3/
+    - assets/audio/CreativeArts/JHS2_s1_ss3_L3/
+    - assets/images/CreativeArts/JHS2_s1_ss3_L2/
+    - assets/audio/CreativeArts/JHS2_S1_SS3_L2/
+    - assets/images/CreativeArts/JHS2_s1_ss3_l1/
+    - assets/audio/CreativeArts/JHS2_s1_ss3_L1/
+    - assets/images/CreativeArts/JHS2_s1_ss2_L3/
+    - assets/audio/CreativeArts/JHS2_s1_ss2_L3/
+    - assets/images/CreativeArts/JHS2_s1_ss2_L2/
+    - assets/audio/CreativeArts/JHS2_s1_ss2_L2/
+    - assets/images/CreativeArts/JHS2_s1_ss2_L1/
+    - assets/audio/CreativeArts/JHS2_s1_ss2_l1/
+    - assets/images/CreativeArts/JHS2_s1_ss1_L2/
+    - assets/audio/CreativeArts/JHS2_s1_ss1_L2/
+    - assets/images/CreativeArts/JHS2_s1_ss1_L1/
+    - assets/audio/CreativeArts/JHS2_s1_ss1_L1/
+    - assets/images/CreativeArts/JHS1_s2_ss3_L6/
+    - assets/audio/CreativeArts/JHS1_s2_ss3_L6/
+    - assets/images/CreativeArts/JHS1_s2_ss3_l5/
+    - assets/audio/CreativeArts/JHS1_s2_ss3_L5/
+    - assets/images/CreativeArts/JHS1_s2_ss3_L4/
+    - assets/audio/CreativeArts/JHS1_s2_ss3_L4/
+    - assets/images/CreativeArts/JHS1_s2_ss3_L3/
+    - assets/audio/CreativeArts/JHS1_s2_ss3_l3/
+    - assets/images/CreativeArts/JHS1_s2_ss3_L2/
+    - assets/audio/CreativeArts/JHS1_s2_ss3_l2/
+    - assets/images/CreativeArts/JHS1_s2_ss3_l1/
+    - assets/audio/CreativeArts/JHS1_s2_ss3_L1/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L9/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_L9/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L8/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_L8/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L7/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_l7/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L6/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_L6/
+    - assets/images/CreativeArts/Jhs1_s2_ss2_L5/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_L5/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L4/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_L4/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L3/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_L3/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L2/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_l2/
+    - assets/images/CreativeArts/JHS1_s2_ss2_L1/
+    - assets/audio/CreativeArts/JHS1_s2_ss2_L1/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L9/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L9/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L8/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L8/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L7/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L7/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L6/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L6/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L5/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L5/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L2/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L2/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L3/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L3/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L4/
+    - assets/audio/CreativeArts/JHs1_s2_ss1_L4/
+    - assets/images/CreativeArts/JHS1_s2_ss1_L1/
+    - assets/audio/CreativeArts/JHS1_s2_ss1_L1/
     - assets/images/CreativeArts/JHS1_s1_ss1_L1/
     - assets/audio/CreativeArts/JHS1_s1_ss1_L1/
     - assets/images/CreativeArts/JHS1_s1_ss1_L2/

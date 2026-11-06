@@ -1,12 +1,2040 @@
 import '../model/independent_practice_model.dart';
 
+final IndependentPracticeModel creativeArtsJhs2S1Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+        audioPath:
+            "assets/audio/CreativeArts/JHS2_s1_ss3_L3/7. INDEPENDENT PRACTICE.mp3",
+        questions: [
+      IndependentPracticeQuestion(
+          question:
+              "1. What is the primary reason for walking through a community when starting a new design project?",
+          options: [
+            "To purchase imported machinery for the school workshop",
+            "To observe real everyday challenges facing local residents",
+            "To sell unused materials to neighbourhood craftsmen",
+            "To avoid using manual and digital drafting equipment"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "Walking through a community allows designers to observe everyday problems directly and identify practical needs that a design can address."),
+      IndependentPracticeQuestion(
+          question:
+              "2. Which of the following is a computer software program commonly used to create digital design drawings?",
+          options: ["CorelDRAW", "PowerPlay", "QuickType", "SoundForge"],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "CorelDRAW is vector drawing software used to create and edit digital design drawings, patterns, and layouts."),
+      IndependentPracticeQuestion(
+          question:
+              "3. Why do designers prefer locally sourced materials such as bamboo and clay for community projects?",
+          options: [
+            "They cannot be altered with simple workshop cutting tools",
+            "They are expensive, rare, and difficult for artisans to find",
+            "They are accessible, affordable, and easily repaired locally",
+            "They require digital machinery to be used effectively"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Locally sourced materials are readily available and affordable, and local artisans can use their skills to maintain and repair the finished products."),
+      IndependentPracticeQuestion(
+          question:
+              "4. What is the most effective way to determine whether a newly designed poultry feeder functions properly?",
+          options: [
+            "Testing it inside an active poultry coop with live birds",
+            "Storing it inside a glass showcase in the art classroom",
+            "Drawing a coloured perspective sketch of it in a book",
+            "Reading foreign textbooks about industrial farming methods"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Testing the feeder in its intended environment shows whether birds can use it effectively and reveals practical faults."),
+      IndependentPracticeQuestion(
+          question:
+              "5. What should a designer do with constructive criticism collected during a community prototype exhibition?",
+          options: [
+            "Reject the comments and sell the unadjusted prototype",
+            "Stop designing artefacts for the local community entirely",
+            "Use the suggestions to refine and improve the product design",
+            "Hide the prototype from the public to prevent duplication"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Constructive feedback helps designers identify weaknesses and refine the prototype to better meet community needs."),
+    ]);
+
 final IndependentPracticeModel
-creativeArtsJhs1S1Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+creativeArtsJhs2S1Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS2_S1_SS3_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the primary purpose of constructing a prototype during the design process?",
+      options: [
+        "To mass-market finished goods across regional shops",
+        "To decorate school display cases with artwork models",
+        "To calculate the final market retail selling price",
+        "To test whether the design functions as planned",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A prototype is a working sample used to test whether a design performs its intended function before full production.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. At what stage of the design process does a designer gather background information about existing products and user needs?",
+      options: ["Research", "Ideation", "Prototyping", "Refinement"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "During research, designers investigate user needs and existing products to inform possible solutions.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which document sets out the clear goal, user profile, and constraints of a design challenge?",
+      options: [
+        "Assembly guide",
+        "Design brief",
+        "Purchase ledger",
+        "Test scorecard",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A design brief states the problem, target users, goals, and constraints that guide the project.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. A student tests an oil-palm fruit peeler and finds the handle bends under pressure. What should the student do next?",
+      options: [
+        "Discard the entire concept and stop designing",
+        "Refine the handle using a sturdier material",
+        "Sell the bent prototype immediately to farmers",
+        "Redefine the problem to avoid peeling palm nuts",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Test results identify a weakness in the handle, so refinement should strengthen it with a sturdier material before further testing.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. Why is design considered an iterative cycle rather than a rigid one-way path?",
+      options: [
+        "Every stage must be completed within sixty minutes",
+        "Designers must repeat the brief after each lesson",
+        "Feedback requires revisiting earlier stages to improve",
+        "Finished products can never be sold commercially",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Designers use feedback to revisit and improve earlier decisions, repeating stages until the product meets user needs.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs2S1Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS2_s1_ss3_L1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which mental ability involves forming pictures and ideas in the mind of things that are not immediately present to the senses?",
+      options: ["Innovation", "Ideation", "Refining", "Imagination"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Imagination is the ability to form mental pictures and ideas of things that are not immediately present to the senses.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary difference between a purely creative artefact and an innovative product?",
+      options: [
+        "A creative artefact is always sold in stores, while an innovation cannot be sold.",
+        "A creative artefact shows novel thought, while an innovation solves a practical need.",
+        "A creative artefact uses digital tools, while an innovation uses raw hand tools.",
+        "A creative artefact is made of wood, while an innovation is made of iron metal."
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A creative artefact expresses original ideas, while an innovative product applies creative thinking to meet a practical need or solve a problem.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A designer updates an existing product to make it more efficient and safer for users. What design action has taken place?",
+      options: ["Modification", "Imitation", "Duplication", "Fabrication"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Modification means changing an existing product to improve its performance, safety, or usefulness.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following items represents an innovative design modification of the traditional wooden mortar and pestle?",
+      options: [
+        "A longer hand-carved mahogany pestle",
+        "An electrical mechanical fufu processor",
+        "A polished clay grinding bowl with tap",
+        "A deeper stone vessel with iron handles"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "An electrical mechanical fufu processor changes the traditional pounding process to reduce manual effort and improve efficiency.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Why is an insulated clay stove (Gyapa) classified as a successful community design innovation?",
+      options: [
+        "It solves fuel waste and reduces dangerous indoor smoke.",
+        "It is painted with bright colours to look very attractive.",
+        "It can only be operated with dry split eucalyptus timber.",
+        "It costs more money to construct than imported cookers."
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The insulated stove retains heat more effectively, reducing fuel waste and harmful smoke during cooking.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs2S1Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS2_s1_ss2_L3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary starting point for any successful human-centred product design project?",
+      options: [
+        "Purchasing mass production raw materials",
+        "Identifying an unsolved community problem",
+        "Applying final coats of glossy varnish",
+        "Building full scale functional moulds"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Human-centred design begins by identifying a real problem so the product responds to the needs of its users.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which flat pattern guide is drawn and cut out to reproduce standardized boxes repeatedly?",
+      options: [
+        "Two-dimensional template",
+        "Linear perspective line",
+        "Cross-hatch tonal matrix",
+        "Raster image canvas grid"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A two-dimensional template provides a reusable pattern for cutting boxes with consistent shapes and dimensions.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which of the following modelling techniques involves carving away excess mass from a solid block?",
+      options: [
+        "Additive paper pulping",
+        "Wet clay coil building",
+        "Subtractive soap carving",
+        "Layered slip deposition"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Subtractive soap carving removes unwanted material from a solid bar to reveal the intended form.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What modern digital manufacturing tool fabricates three-dimensional objects layer by layer?",
+      options: [
+        "Flatbed graphic scanner",
+        "Digital laser projector",
+        "Wide vector ink plotter",
+        "Electronic 3-D printer"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "A 3-D printer creates physical objects by depositing successive layers of material from a digital model.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs2S1Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS2_s1_ss2_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is another common artistic term used to describe the viewer's eye level in linear perspective drawing?",
+      options: [
+        "Vanishing endpoint",
+        "Natural horizon line",
+        "Primary focal axis",
+        "Vertical plumb mark"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The horizon line represents the viewer's eye level in linear perspective drawing.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which drawing technique deliberately compresses an object along the viewer's line of sight to show forward projection?",
+      options: [
+        "Foreshortening",
+        "Cross-hatching",
+        "Tone blending",
+        "Flat tracing"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Foreshortening compresses a form along the viewer's line of sight to create the illusion that it projects toward or away from the viewer.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do digital designers organize their artwork onto multiple separate electronic layers?",
+      options: [
+        "To lock colors permanently in place",
+        "To make the tablet stylus run cooler",
+        "To edit elements without harming others",
+        "To force all outlines into grayscale"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Separate layers allow designers to change individual elements without altering the other parts of the artwork.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which device is specifically used to project digital artwork onto a large classroom wall for group appraisal?",
+      options: [
+        "Handheld optical scanner unit",
+        "Digital multimedia projector",
+        "Desktop graphic plotter blade",
+        "Memory storage flash card"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A digital multimedia projector displays computer artwork on a large wall or screen so the whole class can view and appraise it.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs2S1Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS2_s1_ss2_l1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following items is correctly classified as a manual drawing tool rather than a material?",
+      options: [
+        "Cartridge paper sheet",
+        "Solid drafting T-square",
+        "Liquid black drawing ink",
+        "Tempera powder paint cake"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A drafting T-square is a reusable instrument that guides lines, while paper, ink, and paint are materials used in the artwork.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What shading technique uses intersecting sets of parallel strokes to produce low tones and deep shadows?",
+      options: [
+        "Cross-hatching",
+        "Smooth blending",
+        "Single stippling",
+        "Contour outlining"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Cross-hatching layers intersecting sets of parallel strokes to build darker tones and deep shadows.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which device functions primarily as an electronic input hardware tool for digital two-dimensional artwork?",
+      options: [
+        "Flat foam board sheet",
+        "Pure pigment oil pastel",
+        "Graphic pressure stylus",
+        "Heavy bond sketch pad"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A graphic pressure stylus sends drawing input to a digital device, allowing artists to create two-dimensional artwork electronically.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. On a standard tonal value scale, which tone corresponds to the surface areas receiving full direct light?",
+      options: [
+        "Deep bottom shadow tone",
+        "Intermediate medium tone",
+        "Reflective dark cast tone",
+        "Unshaded bright high tone"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "High tone represents the brightest areas receiving direct light, while medium and low tones show progressively darker areas.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs2S1Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS2_s1_ss1_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which visual unit represents a flat, two-dimensional area enclosed by an outline?",
+      options: [
+        "A three-dimensional form",
+        "An enclosed two-dimensional shape",
+        "A single unblended colour wash",
+        "A rough physical surface ridge"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A shape is a flat, two-dimensional area enclosed by an outline and has height and width without physical depth.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What visual mark is created when a point moves continuously across a surface?",
+      options: [
+        "A directional drawing line",
+        "A stationary rounded dot",
+        "A dense three-dimensional form",
+        "An open flat colour hue"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A line is the continuous mark made by a moving point across a surface.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which technique is used to record the tactile texture of a rough stone wall directly onto paper?",
+      options: [
+        "Measuring wall width with tape",
+        "Dipping stone samples in solvent",
+        "Tracing external shadows at noon",
+        "Taking a surface charcoal rubbing"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Rubbing charcoal over paper placed against a rough wall records its raised surface patterns on the paper.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why do artists document natural motifs in their sketchbooks during field trips?",
+      options: [
+        "To build a library of ideas for future creative design projects",
+        "To calculate the monetary value of natural forest timber logs",
+        "To replace all manual drawing skills with mechanical copies",
+        "To memorise botanical names of wild roadside flowering shrubs"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Sketchbooks preserve observed natural motifs as a collection of visual ideas that artists can develop in future design projects.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs2S1Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS2_s1_ss1_L1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Why do designers study structural patterns found on natural animal shells and rock formations?",
+      options: [
+        "To memorize scientific biological names of wild species",
+        "To find practical solutions for building strong structures",
+        "To reduce the purchase price of imported oil-based paints",
+        "To replace traditional hand-drawn sketches with machines"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Natural shells and rock formations show structural patterns that designers can adapt to build strong, practical structures.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which natural element inspires the high, open ceiling design of modern ventilated market stalls?",
+      options: [
+        "The protective hollow canopy of an umbrella tree",
+        "The reflective surface of an ocean wave crest",
+        "The straight horizontal grain of a sawn timber board",
+        "The narrow curved claws of a forest hunting hawk"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The high, open canopy of an umbrella tree provides shade while allowing air to circulate, inspiring ventilated market stall designs.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. A student runs her palm over an earthenware water cooler and notices its gritty clay surface. What design element is she experiencing?",
+      options: [
+        "Symmetrical balance",
+        "Two-point perspective",
+        "Linear gradation",
+        "Tactile texture"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Tactile texture is the actual surface quality felt through touch, such as the gritty surface of clay.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does a graphic artist make an important health warning sign visible from a long distance?",
+      options: [
+        "By applying high contrast between lettering and background",
+        "By drawing complex curved borders around every paragraph",
+        "By selecting muted grey pigments for both words and borders",
+        "By repeating small identical symbols across all four corners"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "High contrast makes lettering stand out clearly against its background, improving visibility from a distance.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss3Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss3_L6/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which physical stage prop is traditionally used in theater to symbolize a fresh beginning and moral cleansing after conflict?",
+      options: [
+        "Polished imported bronze coins",
+        "Uncut white calico woven fabric",
+        "Hand-painted modern steel knives",
+        "Dark rusted industrial iron nails"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "White calico symbolizes purity, moral cleansing, and a fresh beginning after conflict.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How do drama artistes effectively demonstrate peaceful conflict resolution within traditional Ghanaian storytelling?",
+      options: [
+        "By abandoning all verbal speech",
+        "Through diplomatic elder mediation",
+        "By introducing destructive weapons",
+        "By ordering all characters into exile"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Elders mediate disputes through dialogue and counsel, guiding opposing groups toward a peaceful agreement.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why are lighting designs suddenly switched to harsh, disjointed hues during scenes of civil disorder?",
+      options: [
+        "To make actors run faster on stage",
+        "To reflect visual chaos and panic",
+        "To conserve electricity in theaters",
+        "To indicate a joyful harvest festival"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Harsh, disjointed lighting reflects the confusion, danger, and panic associated with civil disorder.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the primary focus of an arts reviewer when assessing the cultural relevance of a Ghanaian play?",
+      options: [
+        "The number of printed programs sold",
+        "The cost of modern audio speakers",
+        "The accuracy of customs and proverbs",
+        "The color of seats in the auditorium"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Accurate customs and proverbs show how faithfully the play represents Ghanaian cultural traditions and values.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss3Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss3_L5/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which theatrical element is most effective for visually establishing an ancient palace courtyard setting on a modern stage?",
+      options: [
+        "Synthetic fluorescent stage lights",
+        "Painted scenic backdrops and props",
+        "Modern electronic sound amplifiers",
+        "Western business office furnishings"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Painted scenic backdrops and props visually recreate the architecture and objects of an ancient palace courtyard.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How do dance artistes communicate the emotional tragedy of severe agricultural drought during a performance?",
+      options: [
+        "By wearing bright celebratory ribbons",
+        "By using rapid acrobatic cartwheels",
+        "Through tense, strained body postures",
+        "Through cheerful spoken comedy jokes"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Tense, strained body postures express the suffering and distress caused by severe agricultural drought.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the primary purpose of dressing theatrical actors in authentic handwoven kente and traditional smocks?",
+      options: [
+        "To reflect historical cultural identity",
+        "To make actors run faster on the stage",
+        "To advertise textile retail companies",
+        "To reduce the cost of stage production"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Authentic kente and traditional smocks help establish the historical setting and cultural identity of the characters.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. When an art student writes a critical appraisal of a community drama, what must be included?",
+      options: [
+        "Commercial ticket sales financial data",
+        "An evaluation of theme and performance",
+        "Personal insults directed at performers",
+        "A summary of foreign sports matches"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A critical appraisal evaluates the drama's theme and how effectively the performers communicate its message.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss3Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss3_L4/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which rhythmic instrument provides the fundamental timeline in a traditional Agbadza drum ensemble?",
+      options: [
+        "Electronic synthesizer keyboard",
+        "Cast iron bell struck with a stick",
+        "Tuned European brass saxophone",
+        "Steel-stringed acoustic bass guitar"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The cast iron bell plays a repeating pattern that provides the fundamental timeline for the Agbadza drum ensemble.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Where does an indigenous musical group typically stage its live communal performances?",
+      options: [
+        "Inside commercial television studios",
+        "In palace courtyards and open squares",
+        "On air-conditioned university stages",
+        "Inside closed sound recording booths"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Indigenous musical groups perform in communal spaces such as palace courtyards and open squares, where the community can gather and participate.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the primary purpose of adding electronic sound amplification to neo-traditional musical shows?",
+      options: [
+        "To make acoustic drums fill big venues",
+        "To silence all traditional vocal soloists",
+        "To replace all hand-carved drum heads",
+        "To avoid using traditional costumes"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Electronic amplification makes acoustic instruments loud enough to be heard throughout large concert venues.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How do traditional dancers move their upper bodies during an energetic Agbadza performance?",
+      options: [
+        "By keeping their arms stiff and frozen",
+        "By using rapid shoulder contractions",
+        "By spinning entirely on their knees",
+        "By copying modern street breakdances"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Agbadza dancers use rapid shoulder contractions as a characteristic part of their energetic upper-body movements.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs1S2Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss3_l3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which musical instrument is built using tuned wooden slats suspended over dried calabash gourds?",
+      options: [
+        "Traditional frame xylophone",
+        "Four-stringed acoustic cello",
+        "Brass slide tenor trombone",
+        "Cast electronic synthesizer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A traditional frame xylophone has tuned wooden slats mounted above dried calabash gourds that amplify the sound.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the central distinguishing feature of formal art music compared to oral folk styles?",
+      options: [
+        "Complete absence of vocal singing",
+        "Total reliance on modern electric bass",
+        "Performance only during night events",
+        "Written score using musical notation",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Formal art music is documented in written musical notation, while oral folk styles are passed on through listening and imitation.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why do contemporary popular musicians write songs about illegal fishing and environmental pollution?",
+      options: [
+        "To sensitise and educate the public",
+        "To lower the price of fresh seafood",
+        "To discourage youth music careers",
+        "To stop people using battery radios",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Popular songs draw public attention to harmful practices and encourage communities to protect their environment.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. How is traditional royal court drumming typically passed down to younger generations?",
+      options: [
+        "Through foreign correspondence study",
+        "Through observation and apprenticeship",
+        "By purchasing computer sound loops",
+        "By printing theoretical exam guides",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Young drummers learn by watching experienced players, listening to rhythms, and practising under their guidance.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+        audioPath:
+            "assets/audio/CreativeArts/JHS1_s2_ss3_l2/7. INDEPENDENT PRACTICE.mp3",
+        questions: [
+      IndependentPracticeQuestion(
+          question:
+              "1. Which visual artwork category does a hand-thrown earthenware water storage jar belong to?",
+          options: [
+            "Graphic printmaking design",
+            "Architectural construction",
+            "Functional ceramic pottery",
+            "Cast metallic jewellery"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation:
+              "A hand-thrown earthenware jar is formed from clay and fired for practical water storage, so it is functional ceramic pottery."),
+      IndependentPracticeQuestion(
+          question:
+              "2. Why do traditional royal regalia frequently feature cast brass and beaten gold ornaments?",
+          options: [
+            "To make objects very lightweight",
+            "To imitate foreign paper currencies",
+            "To signify royal wealth and status",
+            "To hide unfinished wooden carving"
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Brass and gold ornaments in royal regalia communicate the wealth, authority, and status of traditional rulers."),
+      IndependentPracticeQuestion(
+          question:
+              "3. What is the primary purpose of painting large murals about sanitation along public roads?",
+          options: [
+            "To raise tax revenue from pedestrians",
+            "To educate the public on clean habits",
+            "To conceal historic stone architecture",
+            "To train students in interior building"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "Public sanitation murals use visible pictures and messages to teach communities about cleanliness and healthy habits."),
+      IndependentPracticeQuestion(
+          question:
+              "4. Which of the following is classified as a historic architectural heritage site in Ghana?",
+          options: [
+            "A coastal European stone castle",
+            "A hand-dyed funeral cotton sash",
+            "A carved linguist timber finial",
+            "A terracotta ceremonial bowl"
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "A coastal European stone castle is a historic building and therefore an architectural heritage site."),
+    ]);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss3_L1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which visual recording technique is most suitable for documenting fleeting facial expressions during a rapid traditional dance?",
+      options: [
+        "Oil painting on canvas",
+        "High-speed digital photography",
+        "Detailed cross-hatch shading",
+        "Chiseled relief wood carving"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "High-speed digital photography captures brief expressions and rapid movements before they change, providing a clear visual record.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. An artist collects discarded political handbills and event brochures to create a community record. What is this material called?",
+      options: [
+        "Found print media",
+        "Architectural drafting",
+        "Wet sculptural clay",
+        "Synthetic textile weave"
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Found print media are existing printed materials, such as handbills and brochures, collected for artistic study or documentation.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do artists document chieftaincy regalia, linguist staffs, and ceremonial umbrellas during traditional durbars?",
+      options: [
+        "To copy foreign industrial designs",
+        "To promote imported manufactured goods",
+        "To preserve cultural heritage and values",
+        "To replace traditional craft practices"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Recording regalia and ceremonial objects preserves visual evidence of cultural symbols, traditions, and shared values for future learners.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the main objective of conducting a peer critique session after completing community sketches?",
+      options: [
+        "To assign commercial prices to art",
+        "To destroy less detailed sketches",
+        "To conceal unfinished art projects",
+        "To receive constructive feedback"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Peer critique provides respectful observations and practical suggestions that help artists improve their sketches and communicate more clearly.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_L9/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which performance element is being assessed when checking if an actor's voice carries to the back row?",
+      options: [
+        "Backstage prop storage",
+        "Ticket distribution rate",
+        "Vocal sound projection",
+        "Scene lighting intensity"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Vocal projection is the ability to make the voice carry clearly to listeners throughout the performance space.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary benefit of completing an aesthetic appraisal report after a stage production?",
+      options: [
+        "To cancel future drama clubs",
+        "To guide production growth",
+        "To increase costume expenses",
+        "To punish nervous performers"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An appraisal report records strengths and areas for improvement so the group can refine future productions.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which dance element is evaluated when checking if dancers move across low, medium, and high heights?",
+      options: [
+        "Ticket pricing tiers",
+        "Hall flooring polish",
+        "Spatial movement levels",
+        "Sound speaker wattage"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Spatial levels describe the height of dance movements, including low floor work, medium standing actions, and high jumps.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What should an ensemble do when appraisal feedback reveals that actors spoke too rapidly?",
+      options: [
+        "Cut out all the dialogue",
+        "Practice at a slower pace",
+        "Replace all stage lights",
+        "Dismiss the entire cast"
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Practicing dialogue at a slower, controlled pace helps actors articulate words clearly and allows the audience to follow the message.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_L8/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which feature is essential when choosing a venue for an energetic community dance performance?",
+      options: [
+        "A steep gravel surface",
+        "A dim and narrow pantry",
+        "A safe and spacious floor",
+        "Locked external exit doors"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A safe, spacious floor gives dancers room to move and jump without obstacles or unsafe surfaces.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary role of a stage manager during a live dramatic performance?",
+      options: [
+        "Selling baked food items",
+        "Directing backstage cues",
+        "Painting classroom chairs",
+        "Composing original songs"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The stage manager coordinates backstage cues so entrances, exits, and technical changes happen at the right time.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why is a video recording device placed on a stable tripod during a dance showcase?",
+      options: [
+        "To recharge tablet power",
+        "To capture steady footage",
+        "To brighten stage shadows",
+        "To block the front doorway"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A tripod holds the recording device steady, preventing shaky footage and making the dancers' movements easier to review.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which activity belongs to post-performance duties following a stage play?",
+      options: [
+        "Printing audience flyers",
+        "Booking performance halls",
+        "Writing the script scenes",
+        "Cleaning venue and props"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "After a stage play, the group should clean the venue and props so the space and equipment are ready for future use.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_l7/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which theatrical genre combines both amusing humorous elements and serious themes?",
+      options: [
+        "Pure pantomime form",
+        "Classical tragedy play",
+        "Melodramatic ballet",
+        "Modern tragicomedy skit"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Tragicomedy combines comic situations with serious dramatic themes, allowing both amusement and reflection.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What dance element refers to the physical force, tension, and weight applied to a movement?",
+      options: [
+        "The costume fabric weight",
+        "The movement energy level",
+        "The size of wooden drums",
+        "The ticket price of show"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Energy describes the force, tension, and weight a dancer applies, making movements strong, gentle, heavy, or light.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do playwrights introduce a central conflict into a dramatic plot?",
+      options: [
+        "To stop actors speaking",
+        "To cancel the performance",
+        "To drive story tension",
+        "To reduce lighting lamps"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A central conflict creates obstacles for characters and builds tension that moves the story toward a resolution.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which item represents a stage prop used during a dramatic production?",
+      options: [
+        "The printed tickets sold",
+        "The concrete floor slab",
+        "A handheld market basket",
+        "The roof drainage gutter"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A handheld market basket is an object actors can use within a scene to support realistic action and storytelling.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_L6/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which term refers to the correct pitch, tonal quality, and projection of singing?",
+      options: [
+        "Stage decoration design",
+        "Audience ticket booking",
+        "Proper voice production",
+        "Costume pattern cutting"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Proper voice production combines accurate pitch, a clear vocal tone, and supported projection so that singing is controlled and audible.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary benefit of watching recorded video clips during an appraisal session?",
+      options: [
+        "To avoid writing homework",
+        "To observe execution clearly",
+        "To eliminate choral parts",
+        "To sell recordings for cash"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Recorded clips let performers observe and replay their musical execution and stage coordination to identify strengths and areas for improvement.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which musical element is being assessed when checking if drums and voices stay on tempo?",
+      options: [
+        "Rhythmic synchronization",
+        "Decorative costume color",
+        "Physical height of choir",
+        "Stage curtain fabric weight"
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Rhythmic synchronization means that voices and instruments coordinate their rhythms and maintain the intended tempo together.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What should an ensemble do with the findings documented in an appraisal report?",
+      options: [
+        "Discard them in waste bins",
+        "Hide them from new members",
+        "Memorize them without action",
+        "Guide subsequent rehearsals"
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "An ensemble should use appraisal findings to set rehearsal goals and address the musical and performance skills that need refinement.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_L5/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What should always take place immediately before a traditional musical item is performed at a concert?",
+      options: [
+        "The hall lights are turned off",
+        "A speech explains its history",
+        "The audience pays extra cash",
+        "All the drum skins are washed"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An introduction explains the historical and cultural background so listeners understand the meaning of the traditional musical item.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary responsibility of a concert stage manager during a live showcase?",
+      options: [
+        "Selling snacks to the guests",
+        "Directing smooth transitions",
+        "Tuning all acoustic guitars",
+        "Playing the primary solo horn"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The stage manager coordinates performers entering and leaving the stage so the concert follows its running order smoothly.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why is a video recording device placed on a stable tripod during a live concert?",
+      options: [
+        "To charge the device battery",
+        "To capture steady video footage",
+        "To amplify acoustic guitar tones",
+        "To protect floorboards from dust"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A stable tripod holds the recording device still, preventing shaky footage and keeping the performance clearly framed.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which activity belongs to post-performance duties after a class concert?",
+      options: [
+        "Inviting community elders",
+        "Testing sound microphonic cables",
+        "Cleaning venue and packing tools",
+        "Drafting initial concert themes"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "After a concert, the group should clean the venue and safely pack equipment and tools for storage.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_L4/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which feature is a central characteristic of traditional Ghanaian choral singing?",
+      options: [
+        "Total silence from audience",
+        "Single soloist without choir",
+        "Call-and-response vocal form",
+        "Electronic synthesizer tracks"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Call-and-response alternates a lead vocal phrase with a chorus response, encouraging shared participation in traditional Ghanaian singing.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary role of an iron bell in an indigenous musical ensemble?",
+      options: [
+        "Playing the highest solo tune",
+        "Maintaining the main timeline",
+        "Signaling the end of the show",
+        "Tuning the skins of the drums"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The iron bell repeats a timeline pattern that provides a steady rhythmic reference for the ensemble.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do composers structure songs with a clear verse and chorus format?",
+      options: [
+        "To make the song last one hour",
+        "To confuse the backup dancers",
+        "To organize lyrical storylines",
+        "To avoid using any instruments"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Verses develop the lyrical storyline, while the recurring chorus reinforces the main message and gives the song a clear structure.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which action forms an essential part of an effective musical rehearsal timetable?",
+      options: [
+        "Skipping all vocal warm-ups",
+        "Changing the song every day",
+        "Practicing without a timeline",
+        "Allocating fixed practice slots"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Fixed practice slots give performers a consistent schedule for learning, refining, and combining their parts before a performance.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_L3/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which term describes the physical materials, such as clay, gouache, or wood, used to create an artwork?",
+      options: [
+        "The design rhythm",
+        "The cultural context",
+        "The artistic medium",
+        "The aesthetic balance"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "An artistic medium is the material an artist uses to make an artwork, such as clay, gouache, or wood.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary goal of writing an aesthetic appreciation report on an artwork?",
+      options: [
+        "To embarrass peers in public",
+        "To evaluate aesthetic value",
+        "To calculate cost of brushes",
+        "To force students to buy art"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "An aesthetic appreciation report evaluates the visual qualities and artistic value of an artwork through careful observation and discussion.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which pair represents complementary colors that create high visual contrast?",
+      options: [
+        "Red and bright yellow",
+        "Green and deep blue",
+        "Orange and bright blue",
+        "Black and charcoal grey"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Orange and blue sit opposite each other on the traditional color wheel, so placing them together creates strong visual contrast.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What should an artist do after receiving constructive criticism from classmates?",
+      options: [
+        "Throw away their art supplies",
+        "Discard the comments unread",
+        "Report the peers to an elder",
+        "Refine techniques for growth"
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Constructive criticism gives specific suggestions that an artist can use to refine techniques and improve future work.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_l2/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What is the primary function of a student artist portfolio?",
+      options: [
+        "To sell materials to local schools",
+        "To keep finished exam papers safe",
+        "To display personal dynamic growth",
+        "To replace community exhibitions"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A portfolio gathers an artist's work to show the development of their skills and ideas over time.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which item should be included on a standard artwork identification label?",
+      options: [
+        "The artist's residential address",
+        "The full name of the school head",
+        "The title of the creative artwork",
+        "The total time spent eating lunch"
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "An artwork identification label includes the title so viewers can identify the work and understand what they are viewing.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which location provides the most suitable venue for an indoor school art exhibition?",
+      options: [
+        "A dim and crowded storage cupboard",
+        "A spacious and well-lit assembly hall",
+        "A busy corridor during lunch recess",
+        "An open field under direct heavy rain"
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A spacious, well-lit hall provides room for safe movement and enough light for visitors to see the artworks clearly.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why do exhibition organisers place a visitors' logbook near the exit door?",
+      options: [
+        "To charge visitors an entry fee",
+        "To record names of noisy students",
+        "To collect opinions from viewers",
+        "To keep track of classroom chairs"
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A visitors' logbook collects comments after viewers have seen the exhibition, helping organisers and artists improve future displays.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss2_L1/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+        question:
+            "1. Which activity represents the best primary method for gathering visual information about historical village architecture?",
+        options: [
+          "Reading an imported foreign storybook",
+          "Watching a modern science fiction film",
+          "Sketching the walls of the chief palace",
+          "Copying an advertisement from a phone"
+        ],
+        correctIndex: 2,
+        difficulty: "Easy",
+        explanation:
+            "Sketching the palace walls records architectural details directly from the original building, making it a primary source."),
+    IndependentPracticeQuestion(
+        question:
+            "2. What is the main benefit of interviewing community elders before starting a historical painting?",
+        options: [
+          "To collect cash donations for art tools",
+          "To gain accurate historical accounts",
+          "To finish the final project in one hour",
+          "To avoid drawing complex human figures"
+        ],
+        correctIndex: 1,
+        difficulty: "Easy",
+        explanation:
+            "Community elders can share historical accounts and cultural details that help the artist represent the past accurately."),
+    IndependentPracticeQuestion(
+        question:
+            "3. Which medium is categorized as a three-dimensional visual artwork?",
+        options: [
+          "A fired earthenware clay cooking pot",
+          "A pencil portrait drawing on paper",
+          "A screen-printed cotton table cloth",
+          "A painted environmental poster sheet"
+        ],
+        correctIndex: 0,
+        difficulty: "Easy",
+        explanation:
+            "A clay cooking pot has height, width, and physical depth, making it a three-dimensional artwork."),
+    IndependentPracticeQuestion(
+        question:
+            "4. Why do designers produce thumbnail sketches during the idea development stage?",
+        options: [
+          "To frame them immediately for the public",
+          "To replace the need for any final artwork",
+          "To clean the brushes and wooden palettes",
+          "To explore different visual arrangements"
+        ],
+        correctIndex: 3,
+        difficulty: "Medium",
+        explanation:
+            "Thumbnail sketches let designers compare compositions and refine the arrangement of visual elements before making the final artwork."),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson9IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss1_L9/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which area of the stage is located closest to the viewing audience?",
+      options: [
+        "Centre stage area",
+        "Downstage sector",
+        "Concealed wing",
+        "Upstage sector",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Downstage is the front area of the stage nearest to the audience, while upstage is farther away.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which body profile offers the most direct visual and vocal engagement with spectators?",
+      options: [
+        "Full back turn",
+        "Three-quarter",
+        "Full-front pose",
+        "Profile stance",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A full-front pose faces the audience directly, allowing spectators to see facial expressions and hear the voice clearly.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which physical action is an example of a high-level spatial movement in dance?",
+      options: [
+        "Upward leaping",
+        "Floor crawling",
+        "Sitting down",
+        "Torso kneeling",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "An upward leap lifts the body into the air and uses the high spatial level. Crawling, sitting, and kneeling use lower levels.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why should an actor avoid turning full back when speaking important dialogue on stage?",
+      options: [
+        "Lights go dark",
+        "Costumes rip",
+        "Cue is missed",
+        "Voice is lost",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Turning full back directs the voice away from spectators and can reduce the clarity and projection of important dialogue.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson8IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss1_L8/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which of the following physical actions is correctly classified as a locomotor movement?",
+      options: [
+        "Torso twisting",
+        "Skipping step",
+        "Waist bending",
+        "Shoulder sway",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Skipping moves the performer from one location to another. Twisting, bending, and swaying can be performed in place.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What traditional meaning is conveyed when a performer places both palms on top of the head?",
+      options: [
+        "Extreme sorrow",
+        "Joyous praise",
+        "Victory march",
+        "Humble petition",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "In the performance convention described in this lesson, placing both palms on top of the head expresses extreme sorrow.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the proper method for projecting the speaking or singing voice across a large hall?",
+      options: [
+        "Continuous shout",
+        "Quick whispering",
+        "Breath resonance",
+        "Straining throat",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Controlled breath support and resonance help the voice carry clearly across a hall without shouting or straining the throat.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which type of posture describes how a performer maintains balance and alignment while running or leaping?",
+      options: [
+        "Static posture",
+        "Passive stance",
+        "Resting repose",
+        "Dynamic posture",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Dynamic posture is the balance and alignment maintained while the body is moving, including during running and leaping.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson7IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss1_L7/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What does the top figure in a \$2/4\$ simple time signature represent?",
+      options: [
+        "Two beats per bar",
+        "Two minim notes",
+        "Two bar line marks",
+        "Two choir singers",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The upper number 2 indicates that each bar contains two beats. The lower number 4 identifies a crotchet as the beat unit.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which manual direction is always executed on the final beat of any conducting pattern?",
+      options: [
+        "Inward to left",
+        "Upward stroke",
+        "Outward to right",
+        "Straight downward",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The final beat uses an upward stroke to prepare the hand for the downbeat that begins the next bar.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do conductors use a baton when directing a large choir or brass band?",
+      options: [
+        "To strike pupils",
+        "To amplify sound",
+        "To increase visibility",
+        "To tap the lectern",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A baton makes the conducting gestures easier for performers to see, helping a large ensemble follow the beat together.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. In simple duple time (\$2/4\$), what is the stress relationship between beats 1 and 2?",
+      options: [
+        "Weak then medium",
+        "Weak then strong",
+        "Medium then weak",
+        "Strong then weak",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Simple duple time has a strong first beat followed by a weak second beat in each bar.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson6IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss1_L6/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which durational symbol is visually represented by a hollow oval note head without any stem?",
+      options: [
+        "Crotchet quarter note",
+        "Semibreve whole note",
+        "Quaver eighth note",
+        "Minim half note",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "A semibreve has a hollow oval note head with no stem. A minim has a hollow head with a stem.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. How many minims are needed to equal the duration of a single semibreve note?",
+      options: [
+        "Exactly two minims",
+        "Exactly four minims",
+        "Exactly eight minims",
+        "Exactly six minims",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A minim lasts half as long as a semibreve, so two minims equal one semibreve.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the beat value of a single quaver note in simple time signatures?",
+      options: [
+        "Four whole beats",
+        "Two equal beats",
+        "One single beat",
+        "Half of a beat",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "When the crotchet receives one beat, a quaver lasts half a beat. Two quavers fill one crotchet beat.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which spoken time name corresponds to a single minim note lasting for two beats?",
+      options: [
+        "Spoken as Ta",
+        "Spoken as Ta-te",
+        "Spoken as Ta-a",
+        "Spoken as Ta-fa",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "The time name Ta-a sustains the sound across the two beats of a minim.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson5IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss1_L5/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which Curwen hand sign is formed by holding a flat palm horizontal and facing the floor at chest level?",
+      options: [
+        "The gesture for Ray",
+        "The gesture for Soh",
+        "The gesture for Meh",
+        "The gesture for Lah",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Meh is shown with a flat, horizontal hand and the palm facing downward at chest level.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the correct ascending order of solfège syllables from middle C to high C in the major scale?",
+      options: [
+        "Doh, Ray, Meh, Fah, Soh, Lah, Te, Doh",
+        "Doh, Meh, Ray, Soh, Fah, Lah, Te, Doh",
+        "Ray, Doh, Meh, Fah, Lah, Soh, Te, Doh",
+        "Doh, Ray, Fah, Meh, Soh, Te, Lah, Doh",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The ascending major scale follows Doh, Ray, Meh, Fah, Soh, Lah, Te, and high Doh in pitch order.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which musical letter name corresponds to the note Doh at the start of a C major diatonic scale?",
+      options: [
+        "The musical letter F",
+        "The musical letter C",
+        "The musical letter G",
+        "The musical letter A",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "In C major, C is the tonic or home note and is sung as Doh.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why do vocal instructors recommend using Curwen hand signs when teaching pitch to school choirs?",
+      options: [
+        "To silence student voices",
+        "To replace sheet notation",
+        "To speed up performance tempo",
+        "To give visual pitch memory",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Curwen hand signs give each scale degree a visible gesture, helping singers remember pitch relationships and sing accurately.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHs1_s2_ss1_L4/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which term refers to the single fundamental design shape that is repeated to form an entire pattern?",
+      options: [
+        "Primary design motif",
+        "Sculptural wire armature",
+        "Pliable clay slip joint",
+        "Soft eraser pencil block",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "A motif is the single design unit that is repeated in an organized arrangement to create a pattern.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which pattern layout involves shifting alternating rows downward by half the height of the original unit?",
+      options: [
+        "Radial wheel layout",
+        "Full vertical drop",
+        "Half drop pattern",
+        "Circular border ring",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "A half drop pattern offsets alternating repeats by half the height of the motif, creating a staggered arrangement.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which pattern-making technique uses an old toothbrush to spray a mist of fine dots across a stencil?",
+      options: [
+        "Relief block carving",
+        "Spattering technique",
+        "Wet sponge dabbing",
+        "Clay slab rolling",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Spattering flicks paint from toothbrush bristles to create fine droplets, while the stencil controls where the paint lands.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is a yam or sweet potato well suited for making relief stamps in the art studio?",
+      options: [
+        "It dissolves in oil",
+        "It is soft and pliable",
+        "It holds liquid clay",
+        "It carves easily",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Yam and sweet potato are easy to carve into raised motifs while remaining firm enough to transfer a clear stamped impression.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss1_L3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. What primary property allows damp clay to be manipulated into shapes without snapping or cracking?",
+      options: [
+        "Rigid hardness",
+        "Rough texture",
+        "True plasticity",
+        "High porosity",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Plasticity allows damp clay to bend and retain new shapes without cracking or breaking.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What substance must be mixed into pounded wet paper mash to give paper pulp structural cohesion?",
+      options: ["Starch glue", "White chalk", "Coarse sand", "Linseed oil"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Starch glue binds the wet paper fibres together so the pulp holds its shape and forms a cohesive structure when dry.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which hand-building technique involves hollowing out a ball of clay using only the thumb and fingers?",
+      options: [
+        "Slab building",
+        "Pinch method",
+        "Relief mould",
+        "Coil building",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "The pinch method uses the thumb to make a hollow in a clay ball while the fingers gently pinch and shape its walls.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is raw clay kneaded and wedged thoroughly on a wooden board prior to starting a sculpture?",
+      options: [
+        "To bleach color",
+        "To dry it fast",
+        "To add pebbles",
+        "To expel air",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Kneading and wedging remove trapped air and make the clay body uniform before modelling.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS1_s2_ss1_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which drawing stage comes immediately after establishing layout guidelines when drawing a still-life composition?",
+      options: [
+        "Blocking out geometric shapes",
+        "Applying deep cross-hatching",
+        "Erasing all outer contours",
+        "Adding tiny surface details",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "After planning the layout with guidelines, the artist blocks out basic geometric shapes to establish the size and proportions of the objects.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which shading technique relies on applying intersecting sets of parallel lines across each other?",
+      options: [
+        "Point stippling",
+        "Linear hatching",
+        "Cross-hatching",
+        "Mass blending",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Cross-hatching uses overlapping sets of parallel lines that intersect to build darker tonal values.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is the primary function of adding value through shading in a still-life artwork?",
+      options: [
+        "To hide layout guidelines",
+        "To give an illusion of form",
+        "To change the subject colour",
+        "To speed up outline sketching",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Shading represents light and shadow, making flat shapes appear to have three-dimensional form.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Which of the following statements represents the most helpful peer-evaluation feedback?",
+      options: [
+        "This drawing looks very bad",
+        "Your sketch is completely fine",
+        "The mass shading gives depth",
+        "You should use another page",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Identifying how mass shading gives depth provides specific feedback about a technique and its effect on the artwork.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel creativeArtsJhs1S2Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+        audioPath:
+            "assets/audio/CreativeArts/JHS1_s2_ss1_L1/7. INDEPENDENT PRACTICE.mp3",
+        questions: [
+      IndependentPracticeQuestion(
+          question:
+              "1. Which of the following items is correctly classified as a visual arts tool rather than a material?",
+          options: [
+            "Black charcoal stick",
+            "Utility cutting knife",
+            "White cartridge paper",
+            "Moist modelling clay"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "A utility cutting knife is a reusable implement used to cut materials. Charcoal, paper, and clay are materials used in the artwork."),
+      IndependentPracticeQuestion(
+          question:
+              "2. Which shading technique involves drawing parallel lines running in the same direction to build value?",
+          options: [
+            "Cross-hatching",
+            "Mass blending",
+            "Line hatching",
+            "Point stippling"
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation:
+              "Line hatching builds tonal value with parallel lines running in the same direction. Closer lines produce darker values."),
+      IndependentPracticeQuestion(
+          question:
+              "3. What is the primary artistic reason for using a damp cloth to cover clay during an ongoing modelling project?",
+          options: [
+            "To brighten clay colour",
+            "To prevent clay drying",
+            "To speed up final firing",
+            "To soften metal spatulas"
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "A damp cloth retains moisture in the clay, keeping it soft and workable during modelling."),
+      IndependentPracticeQuestion(
+          question:
+              "4. Which process describes creating a decorative surface pattern by pressing an ink-coated relief block repeatedly onto fabric?",
+          options: [
+            "Direct relief printing",
+            "Additive clay coiling",
+            "Cross-hatch shading",
+            "Plasticine pinching"
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Direct relief printing transfers ink from the raised surface of a block to fabric. Repeating the impression creates a decorative pattern."),
+    ]);
+
+final IndependentPracticeModel creativeArtsJhs1S1Ss3Lesson3IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       "assets/audio/CreativeArts/JHS1_s1_ss3_L3/7. INDEPENDENT PRACTICE.mp3",
   questions: [
     IndependentPracticeQuestion(
-      question: "1. What is the first action a student should take before designing an artefact to address neighborhood rubbish accumulation?",
+      question:
+          "1. What is the first action a student should take before designing an artefact to address neighborhood rubbish accumulation?",
       options: [
         "Buy expensive industrial electric sewing equipment",
         "Investigate the types of waste and user disposal habits",
@@ -15,10 +2043,12 @@ creativeArtsJhs1S1Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Investigating the waste and disposal habits identifies the actual problem and user needs before the student develops a suitable design.",
+      explanation:
+          "Investigating the waste and disposal habits identifies the actual problem and user needs before the student develops a suitable design.",
     ),
     IndependentPracticeQuestion(
-      question: "2. Which combination includes only manual hand tools used when fabricating a prototype bag?",
+      question:
+          "2. Which combination includes only manual hand tools used when fabricating a prototype bag?",
       options: [
         "Shears, steel ruler, sewing needle, and tailor chalk",
         "Tablet computer, digital printer, and digital stylus",
@@ -27,10 +2057,12 @@ creativeArtsJhs1S1Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Shears, a steel ruler, a sewing needle, and tailor chalk are operated by hand for cutting, measuring, stitching, and marking.",
+      explanation:
+          "Shears, a steel ruler, a sewing needle, and tailor chalk are operated by hand for cutting, measuring, stitching, and marking.",
     ),
     IndependentPracticeQuestion(
-      question: "3. Why should a prototype school bag undergo testing under rainy conditions before the design is finalised?",
+      question:
+          "3. Why should a prototype school bag undergo testing under rainy conditions before the design is finalised?",
       options: [
         "To make the ink on student exercise books smudge completely",
         "To allow moisture to degrade the stitched seams permanently",
@@ -39,10 +2071,12 @@ creativeArtsJhs1S1Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Rain testing checks whether the panels and joints prevent water from entering the bag and damaging school supplies.",
+      explanation:
+          "Rain testing checks whether the panels and joints prevent water from entering the bag and damaging school supplies.",
     ),
     IndependentPracticeQuestion(
-      question: "4. What should a designer do if users report that a prototype bag handle tears away when loaded with books?",
+      question:
+          "4. What should a designer do if users report that a prototype bag handle tears away when loaded with books?",
       options: [
         "Stop talking to the users and keep selling the torn item",
         "Order users to carry only one light notebook to school",
@@ -51,18 +2085,20 @@ creativeArtsJhs1S1Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "Wider patches and box stitches spread the load across a larger area, strengthening the handle attachment and reducing tearing.",
+      explanation:
+          "Wider patches and box stitches spread the load across a larger area, strengthening the handle attachment and reducing tearing.",
     ),
   ],
 );
 
-final IndependentPracticeModel
-creativeArtsJhs1S1Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel creativeArtsJhs1S1Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       "assets/audio/CreativeArts/JHS1_s1_ss3_L2/7. INDEPENDENT PRACTICE.mp3",
   questions: [
     IndependentPracticeQuestion(
-      question: "1. What is the primary purpose of writing a design brief before starting practical work?",
+      question:
+          "1. What is the primary purpose of writing a design brief before starting practical work?",
       options: [
         "To record sales profits made from finished school artefacts",
         "To state clearly what will be designed, for whom, and why",
@@ -71,17 +2107,21 @@ creativeArtsJhs1S1Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "A design brief states the intended product, its users, and the purpose it must fulfil, giving practical work a clear direction.",
+      explanation:
+          "A design brief states the intended product, its users, and the purpose it must fulfil, giving practical work a clear direction.",
     ),
     IndependentPracticeQuestion(
-      question: "2. At which stage does a designer produce numerous quick, unrefined sketches to explore diverse ideas?",
+      question:
+          "2. At which stage does a designer produce numerous quick, unrefined sketches to explore diverse ideas?",
       options: ["Ideation", "Packaging", "Evaluation", "Finishing"],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Ideation involves generating many rough sketches to explore different possible solutions before developing a selected idea.",
+      explanation:
+          "Ideation involves generating many rough sketches to explore different possible solutions before developing a selected idea.",
     ),
     IndependentPracticeQuestion(
-      question: "3. Why are prototypes commonly made with inexpensive materials like cardboard or scrap wood?",
+      question:
+          "3. Why are prototypes commonly made with inexpensive materials like cardboard or scrap wood?",
       options: [
         "To ensure the object breaks down within a few days of use",
         "To sell the mock-up models at high prices in open markets",
@@ -90,10 +2130,12 @@ creativeArtsJhs1S1Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Inexpensive prototype materials allow designers to test shape, dimensions, and function and correct mistakes before committing to costly final materials.",
+      explanation:
+          "Inexpensive prototype materials allow designers to test shape, dimensions, and function and correct mistakes before committing to costly final materials.",
     ),
     IndependentPracticeQuestion(
-      question: "4. What action should a designer take immediately after receiving user feedback during testing?",
+      question:
+          "4. What action should a designer take immediately after receiving user feedback during testing?",
       options: [
         "Discard all research notes and abandon the design trade entirely",
         "Sell the flawed prototype directly to local community members",
@@ -102,18 +2144,20 @@ creativeArtsJhs1S1Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 3,
       difficulty: "Medium",
-      explanation: "User feedback identifies defects and unmet needs. The designer uses these findings to refine the specifications and improve the product.",
+      explanation:
+          "User feedback identifies defects and unmet needs. The designer uses these findings to refine the specifications and improve the product.",
     ),
   ],
 );
 
-final IndependentPracticeModel
-creativeArtsJhs1S1Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+final IndependentPracticeModel creativeArtsJhs1S1Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
   audioPath:
       "assets/audio/CreativeArts/JHS1_s1_ss3_L1/7. INDEPENDENT PRACTICE.mp3",
   questions: [
     IndependentPracticeQuestion(
-      question: "1. Which statement correctly identifies the relationship between creativity and innovation?",
+      question:
+          "1. Which statement correctly identifies the relationship between creativity and innovation?",
       options: [
         "Creativity generates novel concepts, while innovation applies them.",
         "Innovation is purely mental, while creativity requires manufacturing.",
@@ -122,10 +2166,12 @@ creativeArtsJhs1S1Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "Creativity produces original ideas, while innovation puts those ideas into practice as useful products or solutions.",
+      explanation:
+          "Creativity produces original ideas, while innovation puts those ideas into practice as useful products or solutions.",
     ),
     IndependentPracticeQuestion(
-      question: "2. An inventor develops a lightweight artificial limb manufactured from recycled plastic bottles. This product directly addresses challenges in which sector?",
+      question:
+          "2. An inventor develops a lightweight artificial limb manufactured from recycled plastic bottles. This product directly addresses challenges in which sector?",
       options: [
         "Mineral resource extraction",
         "Healthcare and mobility",
@@ -134,10 +2180,12 @@ creativeArtsJhs1S1Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "An artificial limb supports movement for a person with a missing limb, addressing healthcare and mobility needs.",
+      explanation:
+          "An artificial limb supports movement for a person with a missing limb, addressing healthcare and mobility needs.",
     ),
     IndependentPracticeQuestion(
-      question: "3. A designer notices that woven cane market baskets rot quickly when left in the rain. Which action represents an innovative design modification?",
+      question:
+          "3. A designer notices that woven cane market baskets rot quickly when left in the rain. Which action represents an innovative design modification?",
       options: [
         "Telling market traders to stop buying perishable fruits",
         "Leaving the damaged baskets along drainage gutters",
@@ -146,10 +2194,12 @@ creativeArtsJhs1S1Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 2,
       difficulty: "Medium",
-      explanation: "Waterproof resin and rubber feet reduce moisture exposure at the basket base, improving durability while preserving its usefulness.",
+      explanation:
+          "Waterproof resin and rubber feet reduce moisture exposure at the basket base, improving durability while preserving its usefulness.",
     ),
     IndependentPracticeQuestion(
-      question: "4. Why are ceramic liners added to the interior of modern metal cooking stoves?",
+      question:
+          "4. Why are ceramic liners added to the interior of modern metal cooking stoves?",
       options: [
         "To make the stove heavy so that it cannot be moved",
         "To reflect heat inwards and lower charcoal consumption",
@@ -158,7 +2208,8 @@ creativeArtsJhs1S1Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
       ],
       correctIndex: 1,
       difficulty: "Medium",
-      explanation: "Ceramic liners insulate the stove and retain heat near the cooking pot, reducing the charcoal needed for cooking.",
+      explanation:
+          "Ceramic liners insulate the stove and retain heat near the cooking pot, reducing the charcoal needed for cooking.",
     ),
   ],
 );
@@ -401,59 +2452,54 @@ final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson2IndependentQuizData =
   questions: [
     IndependentPracticeQuestion(
       question:
-          "1. Which hardware device is designed specifically to capture freehand stylus strokes directly into a computer?",
-      options: [
-        "A graphics tablet",
-        "An optical projector",
-        "A thermal paper printer",
-        "A flatbed photo scanner",
-      ],
+          "1. Which element of design is considered the most basic starting point for all visual marks and linear sketches?",
+      options: ["The dot", "The form", "The space", "The shape"],
       correctIndex: 0,
       difficulty: "Easy",
       explanation:
-          "A graphics tablet records stylus movement and sends freehand drawing strokes to a computer.",
+          "A dot marks a single point and is the basic starting point from which lines and other visual marks can develop.",
     ),
     IndependentPracticeQuestion(
       question:
-          "2. What digital technique allows an artist to create an instant, smooth blend from high tone to low tone?",
+          "2. What type of shape is created when drawing an irregular, flowing outline of a rain cloud or a pawpaw leaf?",
       options: [
-        "A manual eraser tool",
-        "A gradient fill tool",
-        "A scissor cut command",
-        "A canvas crop function",
+        "Geometric shape",
+        "Organic shape",
+        "Linear shape",
+        "Regular shape",
       ],
       correctIndex: 1,
       difficulty: "Easy",
       explanation:
-          "A gradient fill tool creates a smooth transition between light and dark tones.",
+          "Organic shapes have irregular, flowing outlines inspired by natural objects such as clouds and leaves.",
     ),
     IndependentPracticeQuestion(
       question:
-          "3. Why do digital designers place preliminary outlines on a separate layer from their shading?",
+          "3. The empty area surrounding the main painted figure in an artwork is known by what specific design term?",
       options: [
-        "To reduce the file storage size of the finished artwork",
-        "To make the computer battery last longer while drawing",
-        "To adjust shading tones without altering line contours",
-        "To prevent the monitor display from showing dark pixels",
+        "Positive space",
+        "Tactile space",
+        "Negative space",
+        "Balanced space",
       ],
       correctIndex: 2,
-      difficulty: "Easy",
+      difficulty: "Medium",
       explanation:
-          "Separate layers allow shading to be adjusted while preserving the outline contours.",
+          "Negative space is the empty area around the main figure, while the figure itself occupies positive space.",
     ),
     IndependentPracticeQuestion(
       question:
-          "4. Which software application is commonly used for basic shape manipulation and three-dimensional modelling?",
+          "4. Which pair of colours will produce the secondary hue violet when mixed together in equal proportions?",
       options: [
-        "Microsoft Excel",
-        "Audio Sound Editor",
-        "Video Media Player",
-        "Tinkercad Design",
+        "Blue and yellow",
+        "Yellow and orange",
+        "Red and green",
+        "Red and blue",
       ],
       correctIndex: 3,
       difficulty: "Easy",
       explanation:
-          "Tinkercad Design provides tools for combining and manipulating three-dimensional shapes.",
+          "Mixing equal proportions of the primary pigments red and blue produces the secondary colour violet.",
     ),
   ],
 );
@@ -474,7 +2520,8 @@ final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Solving human problems through planned items",
+      explanation:
+          "Design uses careful planning to create useful items that meet human needs and solve everyday problems.",
     ),
     IndependentPracticeQuestion(
       question:
@@ -487,7 +2534,8 @@ final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson1IndependentQuizData =
       ],
       correctIndex: 0,
       difficulty: "Easy",
-      explanation: "The interlocking scales of a dried pinecone",
+      explanation:
+          "A pinecone forms naturally as part of a tree, while the basket, mortar, and drainage canal require human labour and tools.",
     ),
     IndependentPracticeQuestion(
       question:
@@ -500,7 +2548,8 @@ final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson1IndependentQuizData =
       ],
       correctIndex: 1,
       difficulty: "Easy",
-      explanation: "Bio-inspiration or biomimicry",
+      explanation:
+          "Biomimicry adapts features found in nature, such as the shape of a kingfisher beak, to improve human designs.",
     ),
     IndependentPracticeQuestion(
       question:
@@ -513,7 +2562,8 @@ final IndependentPracticeModel creativeArtsJhs1S1Ss1Lesson1IndependentQuizData =
       ],
       correctIndex: 2,
       difficulty: "Easy",
-      explanation: "Synthetic waste does not break down easily",
+      explanation:
+          "Plastic waste can persist in the environment because it does not break down easily, so designers must consider reuse, recycling, and waste reduction.",
     ),
   ],
 );
