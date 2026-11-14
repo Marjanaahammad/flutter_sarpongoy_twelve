@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Measure JPEG savings; --apply replaces only smaller, validated encodings.
 
-Run on a fresh checkout before every Shorebird release AND patch build.
-Original assets remain in Git. No asset paths, audio, or videos are changed.
+Use --check-only for CI builds of the already optimized, committed assets.
+No asset paths, audio, or videos are changed.
 """
 
 import argparse
@@ -13,10 +13,9 @@ import os
 from pathlib import Path
 import tempfile
 
-from PIL import Image, ImageOps
-
-
 def optimize(path, max_edge, quality, apply):
+    from PIL import Image, ImageOps
+
     before = path.stat().st_size
     with Image.open(path) as source:
         # Leave unusual multi-frame or incorrectly named assets untouched.
@@ -57,9 +56,12 @@ def main():
     parser.add_argument("--quality", type=int, default=75)
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--apply", action="store_true")
+    parser.add_argument("--check-only", action="store_true", help="Check the committed asset size without recompressing")
     parser.add_argument("--report", type=Path, default=Path("build/asset-size-report.json"))
     parser.add_argument("--budget-mib", type=int, default=2000)
     args = parser.parse_args()
+    if args.apply and args.check_only:
+        parser.error("--apply and --check-only cannot be combined")
     if not args.assets.is_dir():
         parser.error(f"Asset directory missing: {args.assets}")
     if args.max_edge < 1 or not 1 <= args.quality <= 95 or args.workers < 1:
@@ -70,7 +72,8 @@ def main():
     saved = changed = 0
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         results = pool.map(
-            lambda p: optimize(p, args.max_edge, args.quality, args.apply), jpegs
+            lambda p: optimize(p, args.max_edge, args.quality, args.apply),
+            [] if args.check_only else jpegs,
         )
         for index, (before, after, smaller) in enumerate(results, 1):
             saved += before - after
@@ -81,7 +84,7 @@ def main():
     if files != remaining:
         raise RuntimeError("Asset file paths changed during optimization")
     report = {
-        "applied": args.apply, "asset_count": len(files),
+        "applied": args.apply, "check_only": args.check_only, "asset_count": len(files),
         "jpeg_count": len(jpegs), "optimized_count": changed,
         "max_edge": args.max_edge, "quality": args.quality,
         "bytes_before": total, "bytes_after": total - saved,

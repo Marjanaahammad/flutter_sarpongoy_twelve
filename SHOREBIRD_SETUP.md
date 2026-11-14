@@ -89,36 +89,44 @@ request has been updated to this failure. No media or build settings were change
 ## Image optimization for Codemagic releases
 
 The user subsequently authorized reducing asset sizes while preserving every
-asset. The `shorebird-ios-release` YAML workflow now runs
-`scripts/optimize_assets.py --apply` before building. It caps JPEGs at 800 pixels
+asset. JPEG optimization has now been applied directly to the repository,
+so both the YAML and Workflow Editor builds include the smaller files.
+The optimizer caps JPEGs at 800 pixels
 on the longest side and encodes at quality 75, keeping each replacement only
 when smaller. This is lossy: fine text and diagrams need visual review in
 TestFlight. Every asset path remains available offline; audio, video, PNGs,
-and other assets are unchanged. Original media stays in Git; only the CI
-checkout is optimized.
+and other assets are unchanged. Original media remains in Git history.
+CI uses `scripts/optimize_assets.py --check-only` to check the size budget
+without repeatedly recompressing committed images.
 
 A full local measurement covered all 11,935 assets and validated all 3,606
-optimized JPEGs. It reduced the projected asset total from 2,344,945,025 to
+optimized JPEGs. It reduced the asset total from 2,344,945,025 to
 2,070,160,996 bytes (2,236.3 to 1,974.3 MiB), saving 262.1 MiB. This exceeds the
 reported upload overage of 174.1 MiB by approximately 88 MiB, assuming comparable
-archive overhead. The measurement did not modify source media or upload a release.
+archive overhead. No release has been uploaded by this local change.
 
 Select **Shorebird iOS Release** in Codemagic after committing and pushing these
 changes. The Workflow Editor's **Default Workflow** does not automatically run
-YAML scripts. If continuing to use that editor, add the following before the
-existing Shorebird build command:
+YAML scripts. If continuing to use that editor, remove any previous optimization
+command and add this check before the existing Shorebird build command:
 
 ```sh
 set -eu
-python3 -m venv /tmp/ilearnready-asset-tools
-/tmp/ilearnready-asset-tools/bin/python -m pip install -r scripts/requirements-assets.txt
-/tmp/ilearnready-asset-tools/bin/python scripts/optimize_assets.py --apply
+python3 scripts/optimize_assets.py --check-only
 ```
 
-Always start from the original assets in a fresh checkout, and run the same
-optimization settings for future releases and patch builds. Avoid repeatedly
-recompressing an already optimized working tree. For a local size estimate,
-omit `--apply`; the report goes to `build/asset-size-report.json`.
+Use these same committed assets for releases and patch builds. Avoid repeatedly
+recompressing them. The size check requires only Python's standard library;
+its report goes to `build/asset-size-report.json`. To optimize newly added media,
+install `scripts/requirements-assets.txt` and run the optimizer on that media's
+directory with `--assets <directory> --apply`, then commit the result.
+
+After pushing these changes, start a clean Codemagic build with build caches
+cleared. Confirm the build uses the new commit. The previous failed retry had
+an essentially identical 2,330,067,687-byte artifact, so it did not contain the
+measured reductions. The Release deployment target is now 12.0, matching
+Debug, Profile, the Podfile, and AppFrameworkInfo.plist. Installed pod
+specifications were checked and none require a version higher than iOS 12.0.
 
 The optimizer validates the new JPEGs and checks that file paths are preserved.
 It fails if assets exceed 2,000 MiB, leaving some space for native binaries and
