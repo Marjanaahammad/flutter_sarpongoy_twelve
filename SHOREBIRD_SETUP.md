@@ -79,3 +79,51 @@ No supported upload-limit setting was found in the public CLI/API or an
 advertised higher limit in the plan comparison. A larger limit needs confirmation
 from Shorebird; upgrading plans is not a verified fix. A support request is
 prepared in `SHOREBIRD_SUPPORT_REQUEST.md` and has not been sent.
+
+The subsequent `1.0.17+2` release also built its IPA successfully, but Shorebird
+rejected the 2,330,067,682-byte xcarchive artifact. This is 182,584,034 bytes
+(174.1 MiB) above the same limit. The local assets now total approximately
+2.2 GiB; a sampled lossless JPEG optimization found no savings. The support
+request has been updated to this failure. No media or build settings were changed.
+
+## Image optimization for Codemagic releases
+
+The user subsequently authorized reducing asset sizes while preserving every
+asset. The `shorebird-ios-release` YAML workflow now runs
+`scripts/optimize_assets.py --apply` before building. It caps JPEGs at 800 pixels
+on the longest side and encodes at quality 75, keeping each replacement only
+when smaller. This is lossy: fine text and diagrams need visual review in
+TestFlight. Every asset path remains available offline; audio, video, PNGs,
+and other assets are unchanged. Original media stays in Git; only the CI
+checkout is optimized.
+
+A full local measurement covered all 11,935 assets and validated all 3,606
+optimized JPEGs. It reduced the projected asset total from 2,344,945,025 to
+2,070,160,996 bytes (2,236.3 to 1,974.3 MiB), saving 262.1 MiB. This exceeds the
+reported upload overage of 174.1 MiB by approximately 88 MiB, assuming comparable
+archive overhead. The measurement did not modify source media or upload a release.
+
+Select **Shorebird iOS Release** in Codemagic after committing and pushing these
+changes. The Workflow Editor's **Default Workflow** does not automatically run
+YAML scripts. If continuing to use that editor, add the following before the
+existing Shorebird build command:
+
+```sh
+set -eu
+python3 -m venv /tmp/ilearnready-asset-tools
+/tmp/ilearnready-asset-tools/bin/python -m pip install -r scripts/requirements-assets.txt
+/tmp/ilearnready-asset-tools/bin/python scripts/optimize_assets.py --apply
+```
+
+Always start from the original assets in a fresh checkout, and run the same
+optimization settings for future releases and patch builds. Avoid repeatedly
+recompressing an already optimized working tree. For a local size estimate,
+omit `--apply`; the report goes to `build/asset-size-report.json`.
+
+The optimizer validates the new JPEGs and checks that file paths are preserved.
+It fails if assets exceed 2,000 MiB, leaving some space for native binaries and
+archive metadata. This budget is a preliminary check; only the actual Shorebird
+artifact upload proves that the complete archive fits its 2 GiB limit. A signed
+Codemagic release and App Store submission still need to be run. The existing
+YAML workflow creates the Shorebird release and retains the IPA; App Store
+Connect publishing remains a separate Codemagic publishing configuration.

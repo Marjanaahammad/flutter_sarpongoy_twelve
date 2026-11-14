@@ -41,6 +41,12 @@ workflows:
           shorebird api get "/apps/$APP_ID"
       - name: Fetch dependencies
         script: flutter pub get
+      - name: Optimize bundled images for Shorebird upload
+        script: |
+          set -eu
+          python3 -m venv /tmp/ilearnready-asset-tools
+          /tmp/ilearnready-asset-tools/bin/python -m pip install -r scripts/requirements-assets.txt
+          /tmp/ilearnready-asset-tools/bin/python scripts/optimize_assets.py --apply
       - name: Configure iOS signing
         script: |
           xcode-project use-profiles --custom-export-options='{"manageAppVersionAndBuildNumber":false}'
@@ -52,3 +58,4 @@ workflows:
     artifacts:
       - build/ios/ipa/*.ipa
       - build/ios/archive/*.xcarchive
+      - build/asset-size-report.json
