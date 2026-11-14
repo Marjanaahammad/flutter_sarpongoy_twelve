@@ -311,25 +311,176 @@ class SidebarController extends GetxController {
       ],
       "FRENCH": [
         {
-          "subtitle": "ORAL COMMUNICATION",
+          "subtitle": "FAIRE CONNAISSANCE",
           "subStrands": [
             {
-              "subtitle": "EVERYDAY CONVERSATION",
+              "subtitle": "SALUER ET PRENDRE CONGÉ",
               "topics": [
-                "Greetings and Introductions",
-                "Talking About Myself and My Family",
+                "LISTENING TO GREETINGS AND FAREWELLS",
+                "SPEAKING AND INTERACTING WITH GREETINGS AND FAREWELLS",
+                "READING AND COMPREHENDING GREETINGS AND FAREWELLS",
+                "WRITING AND EXCHANGING GREETINGS AND FAREWELLS",
+              ],
+            },
+            {
+              "subtitle": "SE PRÉSENTER ET PRÉSENTER QUELQU'UN",
+              "topics": [
+                "SE PRÉSENTER ET ÉCOUTER UNE PRÉSENTATION",
+                "PRÉSENTER QUELQU'UN ET DÉCOUVRIR UNE AUTRE PERSONNE",
+                "LIRE ET COMPRENDRE UN TEXTE DE PRÉSENTATION",
+                "ÉCRIRE ET ÉCHANGER POUR SE PRÉSENTER OU PRÉSENTER QUELQU'UN",
+              ],
+            },
+            {
+              "subtitle": "EXPRIMER SES GOÛTS ET SES PRÉFÉRENCES",
+              "topics": [
+                "LISTENING TO LIKES AND DISLIKES",
+                "SPEAKING ABOUT LIKES AND DISLIKES",
+                "EXPRIMER SES GOÛTS ET SES PRÉFÉRENCES",
+                "WRITING ABOUT LIKES AND DISLIKES",
+              ],
+            },
+            {
+              "subtitle": "DÉCRIRE QUELQU'UN",
+              "topics": [
+                "LISTENING TO DESCRIPTIONS OF PEOPLE",
+                "DESCRIBING PEOPLE (SPEAKING AND INTERACTION)",
+                "READING AND UNDERSTANDING DESCRIPTIONS OF PEOPLE",
+                "WRITING DESCRIPTIONS OF PEOPLE",
+              ],
+            },
+            {
+              "subtitle": "PARLER DE SA FAMILLE ET LES LIENS FAMILIAUX",
+              "topics": [
+                "LISTENING TO PEOPLE TALK ABOUT FAMILY MEMBERS AND RELATIONSHIPS",
+                "SPEAKING AND INTERACTING ABOUT FAMILY MEMBERS AND RELATIONSHIPS",
+                "READING AND UNDERSTANDING TEXTS ABOUT FAMILY MEMBERS AND RELATIONSHIPS",
+                "WRITING TO PRESENT FAMILY MEMBERS AND RELATIONSHIPS",
               ],
             },
           ],
         },
         {
-          "subtitle": "READING AND WRITING",
+          "subtitle": "L'ENVIRONNEMENT",
           "subStrands": [
             {
-              "subtitle": "FOUNDATIONAL FRENCH",
+              "subtitle": "PARLER DE SON LIEU D'HABITATION",
               "topics": [
-                "French Sounds and Simple Words",
-                "Writing Simple Sentences",
+                "ÉCOUTER ET RÉAGIR À UNE DESCRIPTION DE LA MAISON",
+                "DÉCRIRE LA MAISON ET INTERAGIR",
+                "LIRE ET COMPRENDRE DES TEXTES SUR LA MAISON",
+                "ÉCRIRE UN TEXTE SIMPLE POUR DÉCRIRE LA MAISON ET SES ENVIRONS",
+              ],
+            },
+            {
+              "subtitle": "PARLER DE SON ÉCOLE",
+              "topics": [
+                "ÉCOUTER ET COMPRENDRE UNE CONVERSATION SUR L'ÉCOLE",
+                "PARLER DE DIFFÉRENTS LIEUX, OBJETS ET PERSONNES DE L'ÉCOLE",
+                "LIRE ET COMPRENDRE UN TEXTE SUR L'ÉCOLE",
+                "ÉCRIRE UN TEXTE SIMPLE SUR SON ÉCOLE"
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "L'ALIMENTATION ET LA SANTÉ",
+          "subStrands": [
+            {
+              "subtitle": "COMPRENDRE ET S'EXPRIMER SUR LES PLATS",
+              "topics": [
+                "ÉCOUTER ET PARLER DES REPAS ET DES PLATS QUOTIDIENS",
+                "S'EXPRIMER SUR LES ALIMENTS ET LES PLATS",
+                "LIRE, COMPRENDRE ET RÉAGIR À UN TEXTE SUR LES ALIMENTS ET LES PLATS",
+                "ÉCRIRE UN TEXTE SIMPLE SUR LES ALIMENTS ET LES PLATS",
+              ],
+            },
+            {
+              "subtitle": "PARLER DE L'HYGIÈNE ET DE LA SANTÉ",
+              "topics": [
+                "ÉCOUTER ET PARLER DE L'ÉTAT DE SANTÉ",
+                "S'EXPRIMER SUR LES MESURES D'HYGIÈNE ET LA SANTÉ",
+                "LIRE ET COMPRENDRE DES TEXTES SUR LA SANTÉ ET L'HYGIÈNE",
+                "ÉCRIRE SUR L'HYGIÈNE ET LA SANTÉ",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "LA LOCALISATION, LES HORAIRES ET LES DÉPLACEMENTS",
+          "subStrands": [
+            {
+              "subtitle":
+                  "SITUER LES OBJETS, LES PERSONNES ET LES LIEUX DANS L'ESPACE",
+              "topics": [
+                "ÉCOUTER ET COMPRENDRE LA POSITION DES OBJETS ET DES PERSONNES",
+                "PARLER DE LA POSITION DES OBJETS, DES PERSONNES ET DES LIEUX",
+                "LIRE ET COMPRENDRE DES TEXTES SIMPLES SUR LA POSITION ET LES LIEUX",
+                "ÉCRIRE ET ÉCHANGER SUR LA POSITION DES LIEUX ET DES OBJETS",
+              ],
+            },
+            {
+              "subtitle": "DEMANDER ET INDIQUER L'ITINÉRAIRE",
+              "topics": [
+                "COMPRENDRE UN ITINÉRAIRE DANS UNE CONVERSATION",
+                "DEMANDER ET INDIQUER L'ITINÉRAIRE À QUELQU'UN",
+                "LIRE ET COMPRENDRE UN ITINÉRAIRE OU UN PLAN",
+                "ÉCRIRE POUR DEMANDER OU INDIQUER UN ITINÉRAIRE",
+              ],
+            },
+            {
+              "subtitle": "DEMANDER ET DONNER L'HEURE",
+              "topics": [
+                "LISTENING TO PEOPLE ASKING AND TELLING THE TIME",
+                "ASKING AND TELLING THE TIME IN A CONVERSATION",
+                "READING AND REACTING TO WRITTEN TEXTS ABOUT TIME",
+                "WRITING TO ASK FOR AND TELL THE TIME",
+              ],
+            },
+            {
+              "subtitle": "PARLER DE SON AGENDA",
+              "topics": [
+                "LISTENING TO DAILY SCHEDULES AND ROUTINES",
+                "SPEAKING ABOUT YOUR DAILY SCHEDULE AND ROUTINE",
+                "READING AND UNDERSTANDING TIMETABLES AND SCHEDULES",
+                "WRITING AND COMMENTING ON A TIMETABLE OR SCHEDULE",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "Les Achats",
+          "subStrands": [
+            {
+              "subtitle": "Compter et faire des calculs",
+              "topics": [
+                "Comprendre les nombres et les calculs à l'oral",
+                "Compter de 0 jusqu'à 100+ et faire des calculs à l'oral",
+                "Lire, comprendre et réagir à un texte de calculs",
+                "Écrire les chiffres et les calculs de 0 à 100",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "LES SENTIMENTS ET LES OPINIONS",
+          "subStrands": [
+            {
+              "subtitle": "DONNER ET RÉAGIR À DES ORDRES ET DES INTERDICTIONS",
+              "topics": [
+                "LISTENING AND RESPONDING TO COMMANDS AND PROHIBITIONS",
+                "GIVING AND RESPONDING TO COMMANDS AND PROHIBITIONS IN SPEECH",
+                "READING AND UNDERSTANDING COMMANDS AND PROHIBITIONS IN TEXTS AND NOTICES",
+                "WRITING COMMANDS AND PROHIBITIONS FOR SIGNS AND MESSAGES",
+              ],
+            },
+            {
+              "subtitle": "DEMANDER, DONNER OU REFUSER LA PERMISSION",
+              "topics": [
+                "LISTENING TO REQUESTS AND RESPONSES FOR PERMISSION",
+                "ASKING FOR, GIVING, AND REFUSING PERMISSION (SPEAKING & SPOKEN INTERACTION)",
+                "READING AND RESPONDING TO WRITTEN REQUESTS AND RULES (RÉCEPTION ÉCRITE)",
+                "WRITING TO REQUEST, GRANT, AND REFUSE PERMISSION (PRODUCTION ÉCRITE)",
               ],
             },
           ],
@@ -569,25 +720,155 @@ class SidebarController extends GetxController {
       ],
       "FRENCH": [
         {
-          "subtitle": "DAILY COMMUNICATION",
+          "subtitle": "FAIRE CONNAISSANCE",
           "subStrands": [
             {
-              "subtitle": "SCHOOL AND COMMUNITY",
+              "subtitle": "PARLER DES PROFESSIONS ET DES MÉTIERS",
               "topics": [
-                "Talking About School Life",
-                "Asking for and Giving Directions",
+                "COMPRENDRE ET PARLER DES PROFESSIONS ET DES MÉTIERS (RÉCEPTION ET INTERACTION ORALE)",
+                "LIRE ET COMPRENDRE DES TEXTES SIMPLES SUR LES PROFESSIONS ET LES MÉTIERS (RÉCEPTION ÉCRITE)",
+                "ÉCRIRE POUR PARLER DES PROFESSIONS ET DES MÉTIERS (PRODUCTION ÉCRITE)",
+              ],
+            },
+            {
+              "subtitle": "ENTRER EN CONTACT PAR TÉLÉPHONE",
+              "topics": [
+                "ÉCOUTER ET RÉAGIR AU TÉLÉPHONE",
+                "PARLER AVEC QUELQU'UN AU TÉLÉPHONE",
+                "LIRE ET COMPRENDRE UNE CONVERSATION TÉLÉPHONIQUE",
+                "ENVOYER DES MESSAGES PAR TÉLÉPHONE",
+              ],
+            },
+            {
+              "subtitle": "NVITER ET ACCEPTER OU REFUSER UNE INVITATION",
+              "topics": [
+                "ÉCOUTER ET RÉAGIR À UNE INVITATION",
+                "INVITER QUELQU'UN ET RÉAGIR ORALEMENT",
+                "LIRE ET COMPRENDRE UNE INVITATION ÉCRITE",
+                "ÉCRIRE POUR INVITER ET RÉPONDRE",
               ],
             },
           ],
         },
         {
-          "subtitle": "LANGUAGE STRUCTURES",
+          "subtitle": "L'ENVIRONNEMENT",
           "subStrands": [
             {
-              "subtitle": "VOCABULARY AND GRAMMAR",
+              "subtitle": "PARLER DE SON LIEU D'HABITATION",
               "topics": [
-                "Describing People and Places",
-                "Writing Short Messages in French",
+                "COMPRENDRE UNE CONVERSATION SUR SA VILLE OU SON VILLAGE",
+                "PARLER DE SA VILLE OU DE SON VILLAG",
+                "LIRE, COMPRENDRE ET RÉAGIR À UN TEXTE SUR LA VILLE OU LE VILLAGE",
+                "ÉCRIRE UN TEXTE SIMPLE SUR SA VILLE OU SON VILLAGE"
+              ],
+            },
+            {
+              "subtitle": "PARLER DE SON PAYS",
+              "topics": [
+                "ÉCOUTER ET PARLER DE SON PAYS",
+                "FAIRE UN EXPOSÉ ET ÉCHANGER SUR SON PAYS",
+                "LIRE ET COMPRENDRE UN TEXTE SUR SON PAYS",
+                "DÉCRIRE SON PAYS PAR ÉCRIT"
+              ],
+            },
+            {
+              "subtitle": "PARLER DU TEMPS QU'IL FAIT",
+              "topics": [
+                "COMPRENDRE UNE CONVERSATION ET UN BULLETIN MÉTÉO SUR LE TEMPS QU'IL FAIT",
+                "S'EXPRIMER ET ÉCHANGER SUR LE TEMPS QU'IL FAIT",
+                "LIRE ET COMPRENDRE DES TEXTES SUR LE TEMPS QU'IL FAIT ET LE CLIMAT",
+                "ÉCRIRE SUR LES DIFFÉRENTS TEMPS QU'IL FAIT ET CRÉER UN DÉPLIANT MÉTÉO"
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "LA LOCALISATION, LES HORAIRES ET LES DÉPLACEMENTS",
+          "subStrands": [
+            {
+              "subtitle": "PARLER DES MOYENS DE TRANSPORT ET DES HORAIRES",
+              "topics": [
+                "COMPRENDRE UN DIALOGUE SUR LES TRANSPORTS ET LES HORAIRES",
+                "COMMENTER ET S'EXPRIMER SUR LES HORAIRES DE TRANSPORT",
+                "LIRE ET COMPRENDRE UN TEXTE SUR LES TRANSPORTS ET LES HORAIRES",
+                "ÉCRIRE UN TEXTE SIMPLE SUR LES TRANSPORTS ET LES HORAIRES"
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "Les achats",
+          "subStrands": [
+            {
+              "subtitle": "Parler de la quantité et la qualité des choses",
+              "topics": [
+                "Écouter, comprendre et réagir à la quantité et la qualité des choses",
+                "Dire la quantité et la qualité des choses",
+                "Lire, comprendre et réagir à un texte sur la quantité et la qualité des choses",
+                "Écrire la quantité et la qualité des choses"
+              ],
+            },
+            {
+              "subtitle": "FAIRE DES COURSES",
+              "topics": [
+                "Comprendre une conversation au marché et en ligne",
+                "Exprimer ses besoins, demander le prix et marchander",
+                "Lire et comprendre des listes de courses, des rayons et des textes sur les achats",
+                "Décrire une scène de marché et écrire un dialogue d'achat"
+              ],
+            },
+            {
+              "subtitle": "FAIRE UNE RÉSERVATION",
+              "topics": [
+                "COMPRENDRE UNE RÉSERVATION AU RESTAURANT",
+                "FAIRE UNE RÉSERVATION PAR TÉLÉPHONE",
+                "LIRE ET COMPRENDRE UNE CONVERSATION DE RÉSERVATION",
+                "ÉCRIRE UN TEXTE SIMPLE POUR FAIRE UNE RÉSERVATION"
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "LES LOISIRS",
+          "subStrands": [
+            {
+              "subtitle": "PARLER DE L'HABILLEMENT ET LA MODE",
+              "topics": [
+                "COMPRENDRE UNE CONVERSATION SUR L'HABILLEMENT",
+                "PARLER DE L'HABILLEMENT ET DE LA MODE",
+                "LIRE ET COMPRENDRE UN TEXTE SUR L'HABILLEMENT ET LA MODE",
+                "ÉCRIRE SUR L'HABILLEMENT ET LA MODE DE LA JEUNESSE"
+              ],
+            },
+            {
+              "subtitle": "PARLER DES SPORTS",
+              "topics": [
+                "COMPRENDRE UNE CONVERSATION SUR LES SPORTS",
+                "PARLER DES SPORTS",
+                "LIRE ET COMPRENDRE UN TEXTE SUR LES SPORTS",
+                "ÉCRIRE SUR LES SPORTS"
+              ],
+            },
+            {
+              "subtitle": "PARLER DES PASSE-TEMPS",
+              "topics": [
+                "COMPRÉHENSION ORALE DES PASSE-TEMPS",
+                "PRODUCTION ET INTERACTION ORALE SUR LES PASSE-TEMPS",
+                "COMPRÉHENSION ÉCRITE SUR LES PASSE-TEMPS",
+                "PRODUCTION ÉCRITE ET INTERACTION ÉCRITE SUR LES PASSE-TEMPS"
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "Les projets d'avenir",
+          "subStrands": [
+            {
+              "subtitle": "Situer un événement dans le futur",
+              "topics": [
+                "Écouter et situer un événement dans le futur",
+                "Parler des événements que l'on va faire bientôt et que l'on fera plus tard dans l'avenir",
+                "Lire, comprendre et réagir à un texte simple dans lequel l'on parle de ce que l'on fera plus tard dans l'avenir",
               ],
             },
           ],
@@ -3785,6 +4066,162 @@ class SidebarController extends GetxController {
               var independentPracticeData = defaultIndependentQuizData;
               var quizData = defaultQuizData;
 
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs3S2Ss1Lesson3GetReadyData;
+                learnData = creativeArtsJhs3S2Ss1Lesson3LearnData;
+                practiceData = creativeArtsJhs3S2Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S2Ss1Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs3S2Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs3S2Ss1Lesson2GetReadyData;
+                learnData = creativeArtsJhs3S2Ss1Lesson2LearnData;
+                practiceData = creativeArtsJhs3S2Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S2Ss1Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs3S2Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs3S2Ss1Lesson1GetReadyData;
+                learnData = creativeArtsJhs3S2Ss1Lesson1LearnData;
+                practiceData = creativeArtsJhs3S2Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S2Ss1Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs3S2Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs3S1Ss3Lesson1GetReadyData;
+                learnData = creativeArtsJhs3S1Ss3Lesson1LearnData;
+                practiceData = creativeArtsJhs3S1Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss3Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs3S1Ss3Lesson2GetReadyData;
+                learnData = creativeArtsJhs3S1Ss3Lesson2LearnData;
+                practiceData = creativeArtsJhs3S1Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss3Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs3S1Ss3Lesson3GetReadyData;
+                learnData = creativeArtsJhs3S1Ss3Lesson3LearnData;
+                practiceData = creativeArtsJhs3S1Ss3Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss3Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss3Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs3S1Ss1Lesson1GetReadyData;
+                learnData = creativeArtsJhs3S1Ss1Lesson1LearnData;
+                practiceData = creativeArtsJhs3S1Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss1Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs3S1Ss1Lesson2GetReadyData;
+                learnData = creativeArtsJhs3S1Ss1Lesson2LearnData;
+                practiceData = creativeArtsJhs3S1Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss1Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs3S1Ss1Lesson3GetReadyData;
+                learnData = creativeArtsJhs3S1Ss1Lesson3LearnData;
+                practiceData = creativeArtsJhs3S1Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss1Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs3S1Ss2Lesson1GetReadyData;
+                learnData = creativeArtsJhs3S1Ss2Lesson1LearnData;
+                practiceData = creativeArtsJhs3S1Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss2Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs3S1Ss2Lesson2GetReadyData;
+                learnData = creativeArtsJhs3S1Ss2Lesson2LearnData;
+                practiceData = creativeArtsJhs3S1Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss2Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs3S1Ss2Lesson3GetReadyData;
+                learnData = creativeArtsJhs3S1Ss2Lesson3LearnData;
+                practiceData = creativeArtsJhs3S1Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S1Ss2Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs3S1Ss2Lesson3QuizData;
+              }
+
               if (grade == "JHS 1" &&
                   courseTitle == "CREATIVE ARTS" &&
                   sIndex == 0 &&
@@ -4243,6 +4680,19 @@ class SidebarController extends GetxController {
               if (grade == "JHS 2" &&
                   courseTitle == "CREATIVE ARTS" &&
                   sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs2S1Ss1Lesson3GetReadyData;
+                learnData = creativeArtsJhs2S1Ss1Lesson3LearnData;
+                practiceData = creativeArtsJhs2S1Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S1Ss1Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs2S1Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 0 &&
                   ssIndex == 1 &&
                   lIndex == 0) {
                 getReadyData = creativeArtsJhs2S1Ss2Lesson1GetReadyData;
@@ -4316,6 +4766,331 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     creativeArtsJhs2S1Ss3Lesson3IndependentQuizData;
                 quizData = creativeArtsJhs2S1Ss3Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson1GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson1LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson2GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson2LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson3GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson3LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson4GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson4LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson4PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson4IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 4) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson5GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson5LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson5PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson5IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson5QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 5) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson6GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson6LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson6PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson6IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson6QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 6) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson7GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson7LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson7PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson7IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson7QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 7) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson8GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson8LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson8PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson8IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson8QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 8) {
+                getReadyData = creativeArtsJhs2S2Ss1Lesson9GetReadyData;
+                learnData = creativeArtsJhs2S2Ss1Lesson9LearnData;
+                practiceData = creativeArtsJhs2S2Ss1Lesson9PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss1Lesson9IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss1Lesson9QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson1GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson1LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson2GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson2LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson3GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson3LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 3) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson4GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson4LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson4PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson4IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 4) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson5GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson5LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson5PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson5IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson5QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 5) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson6GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson6LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson6PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson6IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson6QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 6) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson7GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson7LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson7PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson7IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson7QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 7) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson8GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson8LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson8PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson8IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson8QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 8) {
+                getReadyData = creativeArtsJhs2S2Ss2Lesson9GetReadyData;
+                learnData = creativeArtsJhs2S2Ss2Lesson9LearnData;
+                practiceData = creativeArtsJhs2S2Ss2Lesson9PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss2Lesson9IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss2Lesson9QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = creativeArtsJhs2S2Ss3Lesson1GetReadyData;
+                learnData = creativeArtsJhs2S2Ss3Lesson1LearnData;
+                practiceData = creativeArtsJhs2S2Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss3Lesson1IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = creativeArtsJhs2S2Ss3Lesson2GetReadyData;
+                learnData = creativeArtsJhs2S2Ss3Lesson2LearnData;
+                practiceData = creativeArtsJhs2S2Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss3Lesson2IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs2S2Ss3Lesson3GetReadyData;
+                learnData = creativeArtsJhs2S2Ss3Lesson3LearnData;
+                practiceData = creativeArtsJhs2S2Ss3Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss3Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss3Lesson3QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 3) {
+                getReadyData = creativeArtsJhs2S2Ss3Lesson4GetReadyData;
+                learnData = creativeArtsJhs2S2Ss3Lesson4LearnData;
+                practiceData = creativeArtsJhs2S2Ss3Lesson4PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss3Lesson4IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss3Lesson4QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 4) {
+                getReadyData = creativeArtsJhs2S2Ss3Lesson5GetReadyData;
+                learnData = creativeArtsJhs2S2Ss3Lesson5LearnData;
+                practiceData = creativeArtsJhs2S2Ss3Lesson5PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss3Lesson5IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss3Lesson5QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 5) {
+                getReadyData = creativeArtsJhs2S2Ss3Lesson6GetReadyData;
+                learnData = creativeArtsJhs2S2Ss3Lesson6LearnData;
+                practiceData = creativeArtsJhs2S2Ss3Lesson6PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss3Lesson6IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss3Lesson6QuizData;
+              }
+
+              if (grade == "JHS 2" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 6) {
+                getReadyData = creativeArtsJhs2S2Ss3Lesson7GetReadyData;
+                learnData = creativeArtsJhs2S2Ss3Lesson7LearnData;
+                practiceData = creativeArtsJhs2S2Ss3Lesson7PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs2S2Ss3Lesson7IndependentQuizData;
+                quizData = creativeArtsJhs2S2Ss3Lesson7QuizData;
               }
 
               if (grade == "JHS 2" &&

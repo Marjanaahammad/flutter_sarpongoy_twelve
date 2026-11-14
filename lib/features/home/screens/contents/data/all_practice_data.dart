@@ -1,5 +1,858 @@
 import '../model/practice_model.dart';
 
+final PracticeModel creativeArtsJhs3S2Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What is the technical difference between creasing and scoring when working with paper and card?",
+      answer: "Creasing is folding a flexible sheet over itself and pressing the fold firmly to make a sharp line, whereas scoring is drawing a blunt tool along thick card to indent a line without cutting through.",
+      explanation: "Creasing manipulates flexible sheets directly, while scoring creates an indented groove that guides neat folding in stiff cards to prevent cracking.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the core rule of traditional origami and state how it differs from quilling.",
+      answer: "Traditional origami requires folding a single square sheet into shapes without cutting, taping, or gluing, whereas quilling involves rolling narrow strips of paper into coils and gluing them together.",
+      explanation: "Origami relies purely on folding geometric planes, while quilling builds decorative raised reliefs using coiled strips adhered to a base.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why does accordion pleating give an ordinary sheet of cartridge paper significantly higher load-bearing strength?",
+      answer: "Accordion pleating creates alternating ridges and valleys that convert a flexible flat plane into multiple vertical load-bearing columns that resist downward bending.",
+      explanation: "Distributing weight across repeated vertical angles increases structural rigidity and prevents the paper from buckling under pressure.",
+    ),
+    PracticeQuestion(
+      scenario: "4. State two essential safety rules an artist must follow when scoring heavy paper boards with a craft knife.",
+      answer: "The artist must keep fingers behind the safety guard of the ruler and always guide the blade in a direction moving away from the body.",
+      explanation: "Positioning hands behind the ruler barrier and cutting outward ensures that if the blade slips off the path, it cannot cause injury.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What is the main technical distinction between filled-in casting and hollow casting, and why would an artist choose hollow casting for a large sculpture?",
+      answer: "Filled-in casting fills the entire mould cavity to create a solid object, whereas hollow casting leaves the interior space empty using an internal core or slush technique. An artist chooses hollow casting to reduce the sculpture's weight, save material, and prevent thermal cracking during drying or firing.",
+      explanation: "Solid casts become excessively heavy and are prone to severe structural cracking during shrinkage, while hollow forms dry evenly and require far fewer raw materials.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Briefly explain why the cire-perdue technique is commonly referred to as the lost-wax casting method.",
+      answer: "It is called lost-wax because the original wax pattern inside the heat-resistant mould is melted and drained away by heat, leaving behind an empty cavity for molten metal.",
+      explanation: "The wax model is permanently destroyed or lost during the baking stage so that molten bronze, brass, or gold can occupy that exact negative space.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Identify two distinct causes of gas porosity defects in cast artefacts and state how an artist can prevent them.",
+      answer: "Gas porosity is caused by trapped air bubbles from rapid pouring and steam unable to escape non-permeable mould walls. Artists prevent it by cutting vent channels and pouring the liquid slowly and steadily.",
+      explanation: "Providing venting channels and pouring smoothly allows displaced air and gases to vent out of the mould cavity rather than becoming trapped against the artwork surface.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Explain the function of a core in the coremaking step of the casting process.",
+      answer: "A core is an insert placed inside a mould to prevent casting material from filling internal spaces, thereby forming hollow chambers or passages within the final cast.",
+      explanation: "Without a core, liquid medium would fill the entire cavity, making it impossible to produce hollow vessels, pipes, or light sculptural shells.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the fundamental difference between an art medium and an artistic technique, giving one practical example of each.",
+      answer: "A medium is the actual physical material used to create the artwork, whereas a technique is the specific method or skill applied to manipulate that material. For example, clay is a medium, while casting it into a mould is a technique.",
+      explanation: "Materials supply the physical matter, while techniques describe the actions, skills, and processes used by the artist to shape that matter into an artwork.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why is it essential to carry out a preliminary test on found plastics and adhesives before constructing a large assemblage sculpture?",
+      answer: "Preliminary testing confirms whether the adhesive bonds securely with the specific plastic surface without slipping, peeling, or melting the material.",
+      explanation: "Many smooth plastics resist water-based glues. Testing a small sample prevents the complete structural failure of the finished sculpture and saves valuable time and resources.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe two vital safety precautions a student must take when preparing and pouring plaster of Paris into a casting mould.",
+      answer: "The student should wear a dust mask to avoid inhaling dry airborne plaster powder, and mix slowly to prevent chemical irritants from splashing onto the skin or into the eyes.",
+      explanation: "Dry plaster particles can irritate lung tissues when inhaled, and the chemical reaction that occurs during setting produces mild heat that requires careful skin protection.",
+    ),
+    PracticeQuestion(
+      scenario: "4. How does the technique of pleating increase the structural strength of a lightweight medium such as cartridge paper?",
+      answer: "Pleating creates alternating ridges and valleys that distribute weight across multiple vertical planes, preventing the sheet from bending easily under downward pressure.",
+      explanation: "Introducing regular, folded angles changes a flexible, flat plane into a three-dimensional corrugated form with greater load-bearing capacity.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S1Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why should student designers conduct community walks and interview local workers instead of relying solely on textbook diagrams when tackling local problems?",
+      answer: "Community walks and interviews uncover genuine daily struggles, local climate challenges, and material constraints that textbooks cannot capture, ensuring that the finished artefact addresses authentic user needs.",
+      explanation: "Real-world investigation grounds the design project in actual conditions, revealing specific user pain points and cultural habits that theoretical textbook models overlook.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain two practical advantages of using digital vector software on a tablet before cutting expensive raw materials during prototype fabrication.",
+      answer: "Digital software allows designers to check precise geometric dimensions to prevent cutting errors and test multiple colour layouts or shapes rapidly without wasting physical materials.",
+      explanation: "Vector applications provide exact scaling and effortless digital adjustments, enabling makers to resolve measurement mistakes and visual arrangements before spending money on timber or metal.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a school exhibition, an elderly community farmer points out that the handle on your prototype tool slips when hands are sweaty. What should a designer do with this critique?",
+      answer: "The designer should record the critique with gratitude and modify the handle by adding textured grooves, carved ridges, or non-slip rubber grip material to make the tool safe in hot conditions.",
+      explanation: "User feedback from experienced operators reveals real ergonomic weaknesses; welcoming critiques enables the designer to refine the product for safer, more reliable community use.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is it risky for a designer to skip writing a design brief and begin constructing a physical product immediately?",
+      answer: "Skipping the design brief means the artisan lacks clear functional boundaries, user criteria, and material constraints, resulting in wasted resources and an artefact that fails to solve the actual community problem.",
+      explanation: "A design brief defines the exact scope, user expectations, and constraints of a project. Without it, fabrication is unguided, leading to designs that often miss the core user requirement.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the role of freehand sketching during the ideation stage of the design process.",
+      answer: "Freehand sketching enables a designer to visualise multiple imaginative concepts quickly, evaluate structural arrangements from different angles, and identify obvious design errors on paper before committing resources.",
+      explanation: "Quick drawings provide immediate visual records of mental ideas, allowing rapid evaluation, comparison, and correction of forms without the expense of material construction.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe why user testing of a prototype must take place in the authentic working environment rather than in a tidy workshop.",
+      answer: "Real working environments expose the prototype to authentic challenges like rough terrain, weather, heavy loads, and real operator habits that cannot be replicated inside a sheltered workshop.",
+      explanation: "Real-world testing reveals hidden points of structural weakness, environmental degradation, and ergonomic discomfort that only appear under genuine daily operating conditions.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the primary difference between creativity and innovation, using a local farming example.",
+      answer: "Creativity is conceiving an original idea in the mind, such as visualising an improved weeding tool, while innovation is physically constructing that improved tool with a comfortable grip to weed a farm efficiently.",
+      explanation: "Creativity relates strictly to the mental generation of a novel idea, whereas innovation requires the practical fabrication and real-world application of that idea to resolve an actual problem.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe one major design limitation of the traditional open charcoal coal pot and explain how a modern fuel-efficient stove overcomes it.",
+      answer: "The open metal coal pot allows substantial heat to escape into the air, while a fuel-efficient stove uses a ceramic insulating lining that concentrates heat on the cooking base, reducing charcoal waste.",
+      explanation: "Traditional metal pots lose heat through radiation and open draft. Adding an insulating liner restricts airflow and directs energy into the cookware, making the stove an innovative modification.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why must a designer carefully evaluate how community members use an artefact before attempting to modify its design?",
+      answer: "A designer must identify the exact discomfort, danger, or inefficiency users face during daily use so that the modified design directly resolves real functional problems without introducing new ones.",
+      explanation: "Without direct observation of how workers handle an object, a designer risks altering aspects that already function well or failing to fix the genuine source of user difficulty.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S1Ss2Lesson3PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS3_s1_ss2_L3/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Explain the primary purpose of drafting a flat two-dimensional template before constructing a physical model.",
+          answer:
+              "A template provides an accurate flat layout of all faces, fold lines, and glue tabs to ensure the parts assemble cleanly into the intended 3-D shape.",
+          explanation:
+              "Without a measured template, cutting pieces freehand often results in mismatched edges, uneven sides, and weak joints during assembly."),
+      PracticeQuestion(
+          scenario:
+              "2. Describe how identifying a community problem helps guide the initial ideation stage of a design project.",
+          answer:
+              "It grounds the design in real human needs, giving the designer clear functional requirements and performance goals to solve through sketching.",
+          explanation:
+              "Design is problem-solving. Knowing the specific challenge—such as food spoilage or classroom clutter—dictates the size, shape, and durability requirements of the product."),
+      PracticeQuestion(
+          scenario:
+              "3. Compare the suitability of cardboard and modelling clay when constructing a mock-up of a rounded fruit container.",
+          answer:
+              "Modelling clay is malleable and easily shaped into smooth curved contours, whereas cardboard is rigid and better suited for flat, geometric box surfaces.",
+          explanation:
+              "Clay allows smooth organic modelling of curves, while standard cardboard resists double curvature unless scored and bent into segmented planes."),
+    ]);
+
+final PracticeModel creativeArtsJhs3S1Ss2Lesson2PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS3_s1_ss2_L2/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Explain the relationship between the viewer's eye level and the horizon line in a perspective drawing.",
+          answer:
+              "The horizon line represents the exact height of the viewer's eye level, serving as the horizontal boundary where receding perspective lines converge.",
+          explanation:
+              "In two-dimensional drawing, eye level and horizon line are interchangeable terms. Whether an observer stands, sits, or climbs up high, the horizon line shifts to match that visual eye level across the page."),
+      PracticeQuestion(
+          scenario:
+              "2. How does an artist apply the technique of foreshortening when drawing an object pointing toward the observer?",
+          answer:
+              "The artist compresses the apparent length of the object along the line of sight, making the nearest part appear larger and the receding parts visually condensed.",
+          explanation:
+              "Foreshortening creates optical depth by shortening the visible dimensions of a form that angles directly toward or away from the viewer."),
+      PracticeQuestion(
+          scenario:
+              "3. State two distinct ways a designer can display digital 3-D designs for a classroom appraisal session.",
+          answer:
+              "A designer can present digital work by projecting it onto a wall screen using a digital projector or by displaying it directly on a tablet screen.",
+          explanation:
+              "Digital media allow dynamic sharing through electronic screens, digital projection, and high-quality printed portfolio sheets."),
+    ]);
+
+final PracticeModel creativeArtsJhs3S1Ss2Lesson1PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS3_s1_ss2_L1/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Explain the difference between a drawing tool and a drawing material, giving one manual example of each.",
+          answer:
+              "A drawing tool is an instrument held and manipulated to make marks, such as a graphite pencil, whereas a drawing material is the surface or consumable substance that receives the mark or is used up, such as drawing paper.",
+          explanation:
+              "Tools are the active devices used by the hand or machine (for example, pencils, T-squares, styluses). Materials are the physical items acted upon or consumed during the creative process (for example, paper, canvas, ink, acrylic paint)."),
+      PracticeQuestion(
+          scenario:
+              "2. Describe how a designer creates a three-dimensional illusion on a flat sheet of paper using tonal value.",
+          answer:
+              "The designer establishes a light source and applies a range of light, medium, and dark tones across the shape to mimic how light and shadow fall on a solid object.",
+          explanation:
+              "Flat shapes lack physical depth. By placing high tones on exposed surfaces, medium tones across curving sides, and low tones in shaded areas and cast shadows, the eye perceives volume and weight on a two-dimensional surface."),
+      PracticeQuestion(
+          scenario:
+              "3. Identify two practical advantages of using digital tools over manual tools when generating design sketches.",
+          answer:
+              "Digital tools allow instant error correction through the undo function and enable flexible organization using separate editable layers.",
+          explanation:
+              "While manual tools provide direct tactile feedback, digital software lets designers make non-destructive edits, change tonal values without erasing paper fibers, and experiment rapidly with colour variations."),
+    ]);
+
+final PracticeModel creativeArtsJhs3S1Ss1Lesson3PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS3_s1_ss1_L3/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Explain how an artist creates visual rhythm without using actual sound.",
+          answer:
+              "The artist repeats or alternates visual elements such as lines, shapes, or colours at regular intervals across a composition to create a flowing tempo for the eye.",
+          explanation:
+              "Visual rhythm simulates musical beats through the orderly repetition and variation of visual elements across a surface."),
+      PracticeQuestion(
+          scenario:
+              "2. Describe the key difference between symmetrical balance and asymmetrical balance.",
+          answer:
+              "Symmetrical balance mirrors identical visual elements evenly across a central dividing line, while asymmetrical balance achieves visual equilibrium using unequal elements of different sizes, shapes, or tonal values.",
+          explanation:
+              "Symmetrical arrangements use exact reflection for formal order, whereas asymmetrical balance balances unlike elements dynamically without mirroring."),
+      PracticeQuestion(
+          scenario:
+              "3. State why unity is considered essential in a finished piece of design work.",
+          answer:
+              "Unity ties all individual visual parts together into a harmonious whole, ensuring the artwork looks complete and organized rather than chaotic or disconnected.",
+          explanation:
+              "Without unity, a design appears fragmented; unity ensures that lines, colours, and shapes support a single overall aesthetic purpose."),
+    ]);
+
+final PracticeModel creativeArtsJhs3S1Ss1Lesson2PracticeData = PracticeModel(
+    audioPath:
+        "assets/audio/CreativeArts/JHS3_s1_ss1_l2/6. GUIDED PRACTICE.mp3",
+    questions: [
+      PracticeQuestion(
+          scenario:
+              "1. Explain the essential visual difference between a shape and a form.",
+          answer:
+              "A shape is flat and two-dimensional with only length and width, whereas a form is three-dimensional and possesses length, width, and depth.",
+          explanation:
+              "Shapes are enclosed 2D areas (like a drawn square), while forms possess physical or rendered 3D volume (like a wooden box or clay pot)."),
+      PracticeQuestion(
+          scenario:
+              "2. Describe how an artist uses the element of value to make a flat circle appear as a solid sphere.",
+          answer:
+              "The artist applies gradations of light and dark tones, placing highlights where light hits and blending into deep shadow and cast shadow on the opposite side.",
+          explanation:
+              "Tonal shading from light to dark simulates the way physical light interacts with curved surfaces, creating the illusion of 3D volume on flat paper."),
+      PracticeQuestion(
+          scenario:
+              "3. State how observing natural textures can assist a designer in creating safer everyday products.",
+          answer:
+              "By studying rough or grooved natural surfaces like tree bark or animal hides, a designer can incorporate raised lines and textures to improve grip and prevent slipping.",
+          explanation:
+              "Natural tactile textures provide functional friction, which designers reproduce in tool handles, footwear soles, and paving slabs to enhance safety."),
+    ]);
+
+final PracticeModel creativeArtsJhs3S1Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss1_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain one primary difference between a natural structure and a manmade structure.",
+      answer:
+          "A natural structure grows or forms organically without human intervention, whereas a manmade structure requires deliberate human planning, fabrication tools, and processed materials.",
+      explanation:
+          "Natural objects form through biological or environmental processes, while manmade objects require human labour, tools, and technical assembly.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Describe how observing a termite mound can help an architect design a modern office building.",
+      answer:
+          "An architect can copy the internal vent and chimney system of the termite mound to build natural airflow channels that keep the building cool without needing powered air conditioners.",
+      explanation:
+          "Termite mounds use passive convective cooling, which architects replicate to design energy-efficient buildings like the Eastgate Centre in Zimbabwe.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. State why a designer must investigate community needs before manufacturing a new product.",
+      answer:
+          "Investigating community needs ensures the product solves a real, practical challenge, functions effectively for local users, and avoids wasting materials.",
+      explanation:
+          "A successful design must solve an actual societal problem and fit the daily conditions of the people who will rely on it.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss3Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l7/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Define what is meant by a topical or emergent issue in the context of Ghanaian community life.",
+      answer: "A topical or emergent issue is an urgent, prominent contemporary problem or event that directly impacts the welfare, safety, environment, or health of a community.",
+      explanation: "Issues such as bushfires, plastic pollution, cyber fraud, and illegal mining are considered topical because they present ongoing, active challenges to society.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how indiscriminate bushfires affect agriculture and human health in Ghana during the dry season.",
+      answer: "Wildfires consume thousands of acres of food crops and cocoa farms, destroy livestock and property, and cause respiratory and eye disorders from thick smoke inhalation.",
+      explanation: "Careless burning during dry harmattan conditions harms the rural economy, damages forest biodiversity, and exposes communities to severe airborne health hazards.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Outline three main aspects learners should evaluate when organising a group discussion to appraise a social drama.",
+      answer: "Learners should evaluate the clarity of the storyline, the effectiveness of the actors' movements and dialogue, and the moral or civic lesson communicated.",
+      explanation: "A structured performance appraisal examines both the technical presentation and the relevance of the underlying social solution.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss3Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L6/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how Bice Osei Kuffour used music and drama to support road safety education in Ghana.",
+      answer: "He served as National Road Safety Ambassador, composing educational campaign songs and staging public dramatic performances to educate drivers and commuters on preventing highway accidents.",
+      explanation: "Rather than relying solely on written rules, he used stage drama and catchy melodies to communicate the life-saving importance of road discipline directly to ordinary citizens.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the environmental threat posed by plastic waste in Ghanaian communities as highlighted by educational performing arts.",
+      answer: "Non-biodegradable plastics take over four hundred years to decompose, choking town drainage systems, causing severe urban floods, and contaminating soil and water habitats.",
+      explanation: "Performing artistes highlight these threats through stage drama to encourage citizens to stop open littering and adopt proper recycling habits.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the primary role of a performing artiste who acts as a social or civic ambassador?",
+      answer: "To use their public recognition, creative voice, and dramatic skills to raise awareness and influence public attitudes toward critical health, environmental, and civic issues.",
+      explanation: "Performance ambassadors turn their fame into a public educational service that benefits the wider welfare of the country.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss3Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L5/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Define the core differences between an indigenous music group and a neo-traditional performance group.",
+      answer: "Indigenous groups perform localized, ancestral music and dance handed down within a specific ethnic community, while neo-traditional groups adapt, re-orchestrate, and combine multiple traditional styles for contemporary national and international audiences.",
+      explanation: "Indigenous music remains rooted in local communal rites and heritage, whereas neo-traditional ensembles blend diverse regional instruments and modern choreography for the concert stage.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify the ethnic origin, geographical location, and traditional purpose of the Bawa dance.",
+      answer: "The Bawa dance originated among the Lobi and Dagaaba peoples of the Upper West Region as an agricultural thanksgiving harvest dance.",
+      explanation: "It was created to celebrate successful crop yields and express gratitude to the ancestors, though it is now widely performed at social and recreational gatherings.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe the instrumental ensemble utilized by the Saakumu Dance Troupe and explain how it reflects Ghanaian unity.",
+      answer: "Saakumu blends instruments from different regions, including the apentema, dawuro, wia flute, donno, brekete, and bɔmaa, bringing northern, coastal, and forest traditions onto one unified stage.",
+      explanation: "By combining regional instruments within a single ensemble, the troupe visually and musically demonstrates national integration and cultural harmony.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss3Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l4/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how Dr Ephraim Amu championed Ghanaian cultural heritage through his compositions and choice of musical instruments.",
+      answer: "He wrote choral music in local Ghanaian languages and championed traditional instruments like the atenteben bamboo flute and seprewa harp-lute.",
+      explanation: "Amu rejected colonial pressure to use only imported Western music styles and hymns, demonstrating that African languages and indigenous instruments hold profound artistic and spiritual value.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the rhythmic breakthrough Professor J. H. Kwabena Nketia introduced when transcribing African music.",
+      answer: "He introduced the six-eight time signature as an accurate alternative to the misleading duple time with triplets previously used by mentors and foreign transcribers.",
+      explanation: "Writing African music in six-eight time preserved the genuine rhythmic pulse of indigenous drums and songs, making it accessible to musicians and researchers globally.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What national message does the composition Yen Ara Asase Ni communicate to Ghanaian citizens?",
+      answer: "It reminds citizens that the development, peace, and progress of the motherland depend directly upon their personal sacrifice, unity, and hard work.",
+      explanation: "Dr Amu created the song to inspire patriotism, civic duty, and collective responsibility across all ethnic and linguistic groups in Ghana.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l3/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Define the term \"installation art\" as practiced by contemporary visual artists like El Anatsui and Serge Attukwei Clottey.",
+      answer: "Installation art is a three-dimensional visual art form that uses assembled materials to transform an entire room, wall, or open space into an immersive visual experience.",
+      explanation: "Rather than producing a small painting or stand-alone statue, installation artists configure objects within a specific space to engage the surrounding environment and the viewer.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Outline the four primary steps in El Anatsui's creative design process for making his bottle-top wall tapestries.",
+      answer: "He collects discarded aluminium caps, flattens and folds them, pierces holes through the metal, and stitches them together with copper wire into vast sheets.",
+      explanation: "This step-by-step method transforms hard, discarded metal scraps into flexible, shimmering hangings that resemble woven textile cloths.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain the artistic concept of \"Afrogallonism\" and identify the environmental problem it addresses in Ghana.",
+      answer: "It is Serge Attukwei Clottey's practice of transforming discarded yellow plastic jerrycans into art to confront non-biodegradable plastic waste and water scarcity.",
+      explanation: "By repurposing Kufuor gallons, Clottey cleans up community surroundings and prompts citizens to reflect on plastic pollution and resource access.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L2/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Contrast the subject matter chosen by Nii Amon Kotei in the Coat of Arms with the subject matter depicted in Professor Ablade Glover's paintings.",
+      answer: "Nii Amon Kotei selected formal sovereign emblems such as eagles, a shield, and national symbols, whereas Ablade Glover focuses on everyday communal scenes like market women, lorry parks, and urban crowds.",
+      explanation: "Amon Kotei created an official national emblem for state governance, while Glover documents the energy and daily struggles of ordinary citizens.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the difference in painting tools and surface textures between formal civic designs and Professor Ablade Glover's canvases.",
+      answer: "Formal civic designs use precision drawing tools to achieve smooth surfaces and crisp outlines, while Glover uses a flexible palette knife to create thick, raised impasto textures.",
+      explanation: "A palette knife creates rough, sculptural paint ridges that catch light, unlike the flat, uniform finishes needed for state emblems.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What important underlying cultural value is shared by both Nii Amon Kotei and Professor Ablade Glover, despite their contrasting visual styles?",
+      answer: "Both artists share a deep commitment to Ghanaian national identity, cultural preservation, and national pride.",
+      explanation: "Amon Kotei fostered patriotism through civic symbols of independence, while Glover elevated community life and supported upcoming artists through his gallery.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how Theodosia Salome Okoh used visual symbolism in the national flag to capture Ghana's national identity.",
+      answer: "She assigned symbolic meaning to four elements: red for the blood of independence fighters, gold for mineral wealth, green for lush forests and agriculture, and the central black star for African liberation and unity.",
+      explanation: "Every hue and symbol in the flag was selected with clear purpose to unite citizens and preserve the memory of our national liberation.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify the key visual components designed by Nii Amon Kotei on the Ghana Coat of Arms and state what they communicate.",
+      answer: "A central blue shield divided by a green cross, supported by two golden eagles, crowned by a black star, and grounded by a banner bearing \"Freedom and Justice\" to communicate national unity, sovereignty, and strength.",
+      explanation: "Amon Kotei selected traditional and sovereign devices to portray Ghana as an independent, resilient nation guided by law and authority.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe the distinctive painting technique used by Professor Ablade Glover and identify his primary subject matter.",
+      answer: "He applies oil paint with a palette knife rather than a brush to create thick impasto textures, focusing on market women, bustling lorry parks, and urban community crowds.",
+      explanation: "His palette knife allows him to capture dynamic community movement while honouring the hard work and resilience of ordinary working women.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson9PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L9/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why an appraisal panel must evaluate an actor's voice projection and diction during a drama performance.",
+      answer: "Proper projection and diction ensure the audience clearly hears and understands every line of dialogue.",
+      explanation: "If an actor mumbles or speaks too softly, the narrative plot and civic message of the play are lost to the audience.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify three specific criteria included in a traditional dance evaluation checklist.",
+      answer: "Dance evaluation criteria include movement variation, gesture articulation, and costume appropriateness.",
+      explanation: "These elements assess physical execution, cultural authenticity, and visual communication during dance performances.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe how a drama troupe uses an appraisal report to improve future performances.",
+      answer: "The troupe reviews documented weaknesses to adjust stage blocking, vocal delivery, and rehearsal timing.",
+      explanation: "An appraisal report provides concrete feedback that directs specific corrective actions during subsequent rehearsals.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson8PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L8/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the historical legend behind the origin of the Akan Adowa dance.",
+      answer: "An Akan hunter observed a chimpanzee beating its chest in the forest, mimicking the graceful movements of deer.",
+      explanation: "Akan oral tradition records that a hunter witnessed this animal behaviour at night and adapted those rhythmic chest beats and graceful deer movements into the Adowa dance.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the correct traditional costume for a male dancer during an Adowa performance.",
+      answer: "A piece of cloth folded around the waist reaching calf level, leaving the upper torso completely bare.",
+      explanation: "Traditional Akan customs specify that men wear their waist cloth rolled and tied down to the calves while leaving their chest bare for aesthetic authenticity and movement flexibility.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State three important logistical steps required when planning a drama skit on community road accidents.",
+      answer: "Choose and prepare a safe venue, assign cast roles with appropriate costumes, and conduct structured staging rehearsals.",
+      explanation: "Staging an effective drama requires selecting a clean venue with clear sightlines, casting characters with suitable attire, and rehearsing dialogue and stage blocking.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHs2_s2_ss2_L7/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how Martin Owusu contributed to the growth of Ghanaian school theatre.",
+      answer: "Martin Owusu adapted indigenous Ananse folktales and historical conflicts into scripted educational plays for stage performance.",
+      explanation: "Owusu bridged traditional oral storytelling and modern dramatic literature by scripting plays like The Story Ananse Told and The Mightier Sword for schools and theatres.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify three essential details that must appear at the beginning of a theatrical play script.",
+      answer: "A dramatic play script must include the title of the piece, the list of characters, and the scene setting.",
+      explanation: "These elements establish the conceptual identity, cast requirements, and physical location of the drama before the spoken dialogue begins.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe the functional role of theatrical costuming in a performance addressing community sanitation.",
+      answer: "Costumes visually define character roles such as community leaders, workers, or residents, establishing immediate context for the audience.",
+      explanation: "Visual elements like protective aprons, work boots, or traditional cloths help the audience identify who each character is and their social role within the story.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L6/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why an evaluator must observe vocal diction when reviewing an educational musical performance.",
+      answer: "Clear vocal diction ensures that the audience understands the lyrics and grasps the civic message conveyed by the song.",
+      explanation: "If lyrics are mumbled or indistinct, the educational, social, or historical message behind the piece is lost to the listeners.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify two key components that must be included in a written aesthetic appreciation report.",
+      answer: "An aesthetic appreciation report must include an analysis of musical elements and constructive suggestions for performance improvement.",
+      explanation: "The report documents technical details such as tempo, vocal balance, and staging while providing actionable feedback to help performers refine their work.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the pedagogical purpose of disseminating appraisal findings through a classroom presentation?",
+      answer: "It promotes collaborative dialogue, establishes shared aesthetic standards, and helps the entire class learn from performance critique.",
+      explanation: "Presenting appraisal outcomes publicly allows learners to discuss artistic techniques openly and apply constructive insights to their own creative work.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L5/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State the purpose of opening a musical concert with an introductory presentation.",
+      answer: "It informs the audience about the musical style, historical context, and cultural background of the compositions.",
+      explanation: "An introductory presentation gives listeners the contextual knowledge required to understand and appreciate the themes and musical structures performed.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain why video recording is a required step during a school musical concert.",
+      answer: "Video recording captures the live performance for playback analysis, assessment, and archiving.",
+      explanation: "Documenting the concert on video allows students to review their staging, vocal balance, and expression, while providing a permanent visual portfolio.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe one practical method used to prevent traditional drums from overpowering vocalists during a stage performance.",
+      answer: "Position drummers toward the back or side of the stage and place vocalists directly in front of microphones.",
+      explanation: "Acoustic balancing through physical separation prevents loud percussion instruments from masking delicate vocal articulation and melodic lines.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L4/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why an artist or composer should incorporate a civic topic like the SSNIT pension scheme into an indigenous musical piece.",
+      answer: "Music makes complex social welfare information accessible, memorable, and emotionally engaging for workers and the community.",
+      explanation: "Musical songs overcome literacy barriers and convey vital civic knowledge, such as retirement savings and social security, in a joyful, relatable manner.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify three specific components that must be scheduled within a comprehensive musical rehearsal plan.",
+      answer: "The rehearsal plan must schedule time for vocal singing practice, drumming coordination, and stage movement or dance choreography.",
+      explanation: "A balanced rehearsal schedule ensures that instrumentalists, singers, and dancers master their respective roles separately before coming together as an ensemble.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe the functional role of the dawuro (slit bell) in a Ghanaian instrumental percussion ensemble.",
+      answer: "The dawuro plays the recurring timeline rhythm that establishes the tempo and guides all other instruments and singers.",
+      explanation: "The bell pattern acts as the rhythmic backbone, ensuring all drummers, percussionists, and dancers stay synchronized throughout the piece.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. State the difference between art appreciation and art appraisal.",
+      answer: "Art appreciation is understanding and valuing an artwork's qualities, while appraisal evaluates how design elements and techniques achieve specific purposes.",
+      explanation: "Appreciation focuses on sensitive understanding and interpretation, whereas appraisal involves structured, critical evaluation of artistic techniques, materials, and success.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify two ways in which traditional Ghanaian wood carvings convey cultural identity.",
+      answer: "Traditional wood carvings use indigenous symbolic patterns and reflect the political authority or spiritual beliefs of the society.",
+      explanation: "Carvings such as royal stools carry specific symbolic motifs representing community proverbs, ancestral heritage, and traditional governance.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Which purpose of visual art is fulfilled when an artist paints a mural warning motorists against careless driving?",
+      answer: "The mural fulfills a persuasive purpose by influencing public behaviour to promote road safety.",
+      explanation: "Persuasive art is created specifically to communicate civic messages, influence opinions, and encourage positive public actions in the community.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why the event organisers must label every artwork displayed in an exhibition.",
+      answer: "Labels provide viewers with the title of the work, the artist's name, and the medium used to aid understanding.",
+      explanation: "Without proper labels, visitors cannot identify who created the work or understand the medium and conceptual theme intended by the artist.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe two primary responsibilities of the protocol committee during a school art exhibition.",
+      answer: "The protocol committee welcomes and ushers invited visitors and distributes exhibition brochures or leaflets.",
+      explanation: "Protocol members represent the public reception team; they greet guests politely, guide them to designated seating or pathways, and share informational literature.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is it necessary for the editorial committee to produce a post-exhibition report?",
+      answer: "The report documents exhibition outcomes, records audience feedback, and outlines improvements for subsequent events.",
+      explanation: "A formal report consolidates data from all working committees, creating an archival record that helps future organizers repeat successes and avoid logistical errors.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why an art student must seek official written permission before conducting a community field study on environmental pollution.",
+      answer: "Seeking written permission respects local authority, guarantees personal safety, and ensures community members understand the educational purpose of the study.",
+      explanation: "Formal permission establishes trust between researchers and local residents. It prevents misunderstandings and grants lawful access to photograph or sketch public sites and interview residents safely.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how an artist can use the visual element of colour to communicate the destructive effects of illegal mining (galamsey) on a river body.",
+      answer: "The artist can apply murky brown, muddy yellow, and dull grey tones to represent poisoned water and damaged soil instead of vibrant natural blues.",
+      explanation: "Colours evoke direct emotional responses. While clear blue signifies clean water, murky brown tones immediately suggest turbidity, chemical runoff, and environmental contamination.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two specific benefits of conducting a peer review session before an artwork is completed.",
+      answer: "Peer reviews reveal how viewers interpret the artwork's message and identify technical areas needing visual refinement.",
+      explanation: "Artists can become too accustomed to their own work to spot composition flaws. Constructive peer feedback provides fresh perspectives on clarity, balance, and message delivery before final completion.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson9PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L9/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a dancer must internally anticipate a musical beat rather than reacting after hearing the drum strike.",
+      answer: "A dancer must anticipate the beat internally so that their body initiates the movement slightly ahead of time, ensuring that the physical footstep or gesture lands exactly in synchronization with the musical pulse rather than lagging behind it.",
+      explanation: "Sound processing takes time. If a dancer waits to hear the physical sound of an instrument before moving their muscles, the physical action will occur late, disrupting the visual rhythm and synchronization of the performance.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the difference between free flow and bound flow in movement dynamics.",
+      answer: "Free flow is smooth, fluid, and continuous movement where gestures transition seamlessly without stopping, whereas bound flow is restrained, tight, and controlled movement where the performer can stop or freeze the action instantly.",
+      explanation: "Free flow conveys release and uninterrupted momentum, while bound flow relies on active muscular resistance to retain control and create sudden, sharp pauses.",
+    ),
+    PracticeQuestion(
+      scenario: "3. How does varying spatial levels (low, medium, and high) enhance a dramatic dance performance?",
+      answer: "Varying spatial levels creates visual contrast and emotional depth, allowing performers to express different psychological states such as defeat, normal conversation, or triumphant joy across vertical space.",
+      explanation: "Moving exclusively at standing height produces visual monotony. Incorporating floor work (low), upright actions (medium), and airborne leaps (high) makes the stage composition dynamic and symbolically meaningful.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson8PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L8/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how the modern social dance Agbadza originated, and identify the ancient martial dance from which it evolved.",
+      answer: "Agbadza originated as an ancient war dance called Atrikpui, which was performed by the Ewe people to prepare warriors for battle, instill bravery, and celebrate victory before gradually transforming into a widely enjoyed recreational and festival dance.",
+      explanation: "While Agbadza is now danced at community celebrations and festivals, its vigorous shoulder contractions and energetic rhythms were originally designed to train and motivate warriors under the historic dance name Atrikpui.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the symbolic movement that gave the Agbadza dance its popular nickname, the \"chicken dance\".",
+      answer: "The nickname comes from the rhythmic, rapid expansion and contraction of the dancer's elbows, shoulders, and chest, which closely mimic the flapping and fluttering wing movements of a bird.",
+      explanation: "The central physical technique of Agbadza requires fast, coordinated shoulder pulsations that resemble the wing motions of birds, giving rise to its traditional descriptive nickname.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why do traditional dancers select dark adinkra cloth for funerals rather than vibrant kente cloth in Ghanaian communities?",
+      answer: "Dark adinkra cloth (stamped with black or brown mourning symbols) communicates sorrow, loss, and respect for the dead, whereas vibrant gold kente cloth signifies royalty, wealth, and joyful celebration, which would be inappropriate for a mourning context.",
+      explanation: "Costumes in Ghanaian dance serve as visual markers of social context. Fabric colors and stamped motifs must match the emotional nature of the occasion, differentiating solemn mourning rites from celebratory state events.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L7/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the primary structural difference between Binary form and Ternary form.",
+      answer: "Binary form is a two-part structure (A B) that moves from an opening statement to a contrasting section without returning to the beginning, whereas Ternary form is a three-part structure (A B A) where the opening statement returns after the contrasting middle section.",
+      explanation: "Binary form consists of two contrasting sections (statement and departure), while Ternary form features three sections arranged symmetrically (statement, contrast, and re-statement).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how Rondo form creates both variety and unity throughout a musical performance.",
+      answer: "Rondo form creates variety by introducing different contrasting musical episodes (Sections B and C), while creating unity through the regular return of the familiar main refrain (Section A) between each episode.",
+      explanation: "The recurring A section provides structural cohesion and familiarity, while the intervening episodes (B and C) provide melodic and tonal contrast to keep the composition engaging.",
+    ),
+    PracticeQuestion(
+      scenario: "3. How does the Ghanaian musical tradition of call-and-response reflect the architectural principles of statement and contrast?",
+      answer: "The lead singer introduces varied, contrasting vocal statements or improvised verses, while the chorus responds with a consistent, repeated melodic refrain that anchors the performance and provides structural unity.",
+      explanation: "In call-and-response, the solo call provides dynamic melodic contrast and variation, while the stable choral response serves as the recurring structural anchor, mirroring the balance of statement and response.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L6/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why physical energy applied to a drumhead directly affects the dynamic volume produced.",
+      answer: "Striking a drumhead with greater physical force transfers more energy, causing the drum membrane to vibrate with larger amplitude and displace more air, which produces louder sound waves perceived as higher volume.",
+      explanation: "Dynamics depend on acoustic energy. Light physical force generates small vibrations and soft volume (piano), whereas heavy force generates intense vibrations and loud volume (forte).",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the difference between the Italian musical terms crescendo and diminuendo.",
+      answer: "Crescendo directs performers to gradually increase the volume of music from soft to loud, whereas diminuendo directs performers to gradually decrease the volume from loud to soft.",
+      explanation: "Both terms describe gradual dynamic transitions. Crescendo expands sound intensity, while diminuendo (or decrescendo) smoothly fades sound intensity away.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two permanent physical health consequences that can result from regular exposure to dangerously loud music.",
+      answer: "Regular exposure to excessive sound volume can cause permanent noise-induced hearing loss through the destruction of inner ear hair cells, as well as chronic tinnitus, which is persistent ringing or buzzing in the ears.",
+      explanation: "Acoustic trauma destroys delicate sensory cells inside the cochlea that cannot regenerate, resulting in permanent hearing impairment and chronic phantom noises.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L5/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how an art student can calculate the tempo of a song in beats per minute without using a mechanical metronome.",
+      answer: "The student can count the total number of regular beats heard over a fifteen-second period using a stopwatch or clock, and then multiply that number by four to find the total beats per minute.",
+      explanation: "Since one full minute contains sixty seconds, fifteen seconds equals one quarter of a minute. Multiplying the beats counted in fifteen seconds by four provides an accurate calculation of the full beats per minute rate.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the difference between the Italian musical terms andante and allegro in terms of speed and character.",
+      answer: "Andante refers to a relaxed, moderate walking pace moving between 76 and 108 beats per minute, whereas allegro describes a fast, bright, and lively tempo moving between 120 and 168 beats per minute.",
+      explanation: "Andante translates to walking speed, creating a steady, calm flow, while allegro communicates brisk, upbeat energy suitable for celebrations and dance.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is a slow, dignified tempo selected for royal court processions and enstoolment ceremonies in Ghana?",
+      answer: "A slow tempo establishes an atmosphere of reverence, majesty, and solemnity, allowing chiefs and elders to walk with measured, graceful steps that reflect traditional authority and dignity.",
+      explanation: "Musical tempo sets the social decorum of public ceremonies. Rapid beats would encourage hasty movement, whereas a slow, stately pulse reinforces the solemn grandeur and respect required for royal traditions.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_l4/7. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why alternating the over-and-under path on successive rows is essential to the structural integrity of a plain paper weave.",
+      answer: "Alternating the over-and-under path ensures that each weft strip traps the warp strips in the opposite direction from the row before it, creating opposing mechanical friction that locks all loose strips into a solid, cohesive sheet.",
+      explanation: "If two consecutive rows followed the exact same over-and-under sequence, the two weft strips would slide together into a single slot, failing to bind the vertical warp slits and leaving the weave loose and unstable.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the difference in appearance and construction between a plain weave and a twill weave in textile production.",
+      answer: "In a plain weave, the weft alternates over one and under one warp thread across every row, creating a balanced checkerboard surface. In a twill weave, the weft passes over two or more warp threads and steps over consecutively on each row, producing distinct diagonal parallel ribs across the fabric.",
+      explanation: "Plain weave uses a 1x1 interlacing pattern with maximum crossing points, whereas twill weave uses floats that shift diagonally by one thread on each successive row to create visible diagonal lines.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the specific mechanical function of the rim on a woven cane or reed basket?",
+      answer: "The rim binds, folds, or plaits down the exposed upper ends of the upright structural spokes, preventing the flexible weavers from sliding off and ensuring that the side walls do not unravel under the weight of carried contents.",
+      explanation: "The rim serves as the final structural lock of a basket. Without a reinforced rim to secure the vertical spokes, the tension across the weavers is lost and the container loses its shape and strength.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why starting an observational drawing by sketching basic geometric shapes is more effective than immediately drawing fine details.",
+      answer: "Starting with basic geometric shapes allows the artist to establish correct overall proportions, scale, and placement on the paper before spending time on fine details that would be difficult to erase and adjust later.",
+      explanation: "Simplifying complex subjects into basic geometric shapes gives the drawing a strong structural foundation. It ensures that the overall size and relationship between parts are accurate before surface textures and outlines are applied.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how observing negative space helps an artist verify the accuracy of a drawing.",
+      answer: "Observing negative space allows the artist to compare the shapes and proportions of the empty spaces around and between objects with the subject itself, revealing errors in angles and spacing that might otherwise go unnoticed.",
+      explanation: "Negative space provides an objective visual check against personal assumptions. If the empty gap between two drawn elements does not match the shape of the real-world gap, the positive objects are incorrectly positioned.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What role does tonal value play in transforming a flat two-dimensional outline into a three-dimensional form?",
+      answer: "Tonal value creates light and shadow across surfaces, showing highlights, midtones, and shadows that give the visual illusion of depth, roundness, and solid volume on a flat surface.",
+      explanation: "A flat outline only defines height and width. By applying a range of values from bright highlights to deep core and cast shadows, the artist models how light hits curved surfaces, creating the illusion of three-dimensional form.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why carving away an area on a relief block causes that exact area to remain white on the final paper print.",
+      answer: "When an area is carved away, it sits lower than the raised printing face, so the ink roller touches only the uncarved surface, leaving the recessed areas free of ink and showing the bare paper color.",
+      explanation: "Relief printing depends entirely on height differences on the matrix. The roller deposits ink exclusively onto the raised, uncut surface, while the gouged-out recesses remain un-inked and print as negative space.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how an artist creates a screen print using a stencil and a squeegee.",
+      answer: "The artist attaches a cut stencil to a taut mesh screen, positions the screen over paper or fabric, pours ink onto one edge, and draws a rubber squeegee firmly across the mesh to force ink through the open cutouts onto the surface below.",
+      explanation: "Screen printing is a stencil method where the matrix allows ink to travel directly through porous mesh openings while blocked areas prevent passage, producing clean graphic impressions.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the fundamental difference between a monotype and a standard relief print edition?",
+      answer: "A standard relief print uses a permanent carved block that can reproduce many identical copies in an edition, whereas a monotype is painted onto a smooth, uncarved plate and yields only a single unique impression.",
+      explanation: "Relief printmaking is designed for multi-copy reproduction from a permanent plate, while monotype is a one-off printmaking method that transfers unique, non-repeatable painted ink marks.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S2Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L1/7. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a landscape artist would select a 6B graphite pencil rather than a 4H graphite pencil when drawing the deep shadows beneath a thick baobab tree.",
+      answer: "The artist chooses the 6B pencil because soft graphite pencils contain more graphite and less clay, allowing them to deposit dark, rich carbon lines easily to produce deep shadows. In contrast, a 4H pencil has a hard core that creates only light, faint gray marks meant for fine technical outlines.",
+      explanation: "Graphite pencil hardness is governed by the ratio of clay to graphite. The B scale denotes softer cores that release heavy, dark marks required for low-light tonal shading, while the H scale denotes harder cores that resist wear and lay down minimal graphite.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State the primary difference in how ink transfers to paper between a relief printing block and a stencil screen.",
+      answer: "In relief printing, ink transfers from the raised surface of the carved block while the cut-away background receives no ink. In stencil screen printing, ink is forced through the open pores of a mesh screen directly onto the receiving material, while blocked areas prevent ink transfer.",
+      explanation: "Relief printmaking relies on carving away negative space so that only the raised positive surfaces touch the roller and paper. Stencil printing is a pass-through technique where ink travels directly through unobstructed openings in a flat matrix.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why must horizontal weft strands alternate their over-and-under path on successive rows during plain paper weaving?",
+      answer: "The weft strands must alternate their path so that they interlock firmly with the vertical warp strips; if two successive rows followed the exact same over-and-under path, the strips would slip out and fail to bind together.",
+      explanation: "The structural integrity of a plain weave relies on opposing friction. Alternating the strand order across consecutive passes traps each warp thread between opposing weft loops, locking the loose ribbons into a cohesive, self-supporting sheet.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs2S1Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss1_l3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how an artisan uses the principles of rhythm and repetition to organize decorative elements on an earthenware palm wine pot.",
+      answer: "The artisan carves or presses identical spiral or chevron marks around the circular shoulder of the clay pot at uniform intervals. This consistent repetition establishes a visual rhythm that guides the observer's eye smoothly around the vessel's circumference, producing a unified and balanced surface decoration.",
+      explanation: "Repeating a specific mark along a continuous path creates an organized cadence that turns isolated decorative elements into an integrated visual band.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how the principle of proportion ensures both structural safety and visual comfort in the design of a wooden kitchen stool.",
+      answer: "Proportion ensures that the thickness and spread of the supporting wooden legs relate properly to the breadth and curvature of the seating top. If the legs are carved too slender or narrow, the stool becomes unstable and breaks under human weight; if carved excessively bulky, the stool becomes clumsy to lift and visually unappealing.",
+      explanation: "Proportion balances functional structural strength with visual harmony by regulating the dimensions of load-bearing parts against resting surfaces.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is written documentation an indispensable stage when researching design principles in the natural environment?",
+      answer: "Writing enables a designer to systematically record the underlying structural rules, such as balance, contrast, and focal points, rather than relying solely on visual memory or superficial sketches. It serves as a clear blueprint to guide the technical execution of new artistic products in the workshop.",
+      explanation: "Documenting design principles in writing clarifies analytical thinking and provides precise structural guidelines for future studio production.",
+    ),
+  ],
+);
+
 final PracticeModel creativeArtsJhs2S1Ss3Lesson3PracticeData = PracticeModel(
     audioPath:
         "assets/audio/CreativeArts/JHS2_s1_ss3_L3/6. GUIDED PRACTICE.mp3",

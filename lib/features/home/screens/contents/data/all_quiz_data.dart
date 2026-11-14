@@ -1,5 +1,4720 @@
 import '../model/quiz_model.dart';
 
+final QuizModel creativeArtsJhs3S2Ss1Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What is the primary action involved in paper creasing?",
+      options: [
+        "Pressing a fold firmly along a distinct line",
+        "Wetting paper sheets until they turn to pulp",
+        "Slicing through fibres with an open scalpel",
+        "Tying multiple cords into a cluster of knots",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Creasing compresses paper fibres along a specific fold to leave a crisp, permanent directional edge.",
+    ),
+    QuizQuestion(
+      question: "2. Which technique involves tying or looping flexible cords to produce textured raised lumps?",
+      options: ["Piercing", "Knotting", "Pleating", "Etching"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Knotting interlaces flexible media like twine, paper strips, or fabric cords to create physical joints and textures.",
+    ),
+    QuizQuestion(
+      question: "3. Which material is best suited for producing crisp, self-standing origami models?",
+      options: [
+        "Spun cotton twine",
+        "Heavy timber block",
+        "Thin square paper",
+        "Wet ceramic clay",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Lightweight square paper with good grain holds folds accurately without tearing or sagging under its own weight.",
+    ),
+    QuizQuestion(
+      question: "4. What is the main advantage of pleating paper when designing decorative stage fans?",
+      options: [
+        "It makes the sheet completely waterproof",
+        "It turns ordinary paper into shiny metal",
+        "It removes the need for cutting tools",
+        "It allows large sheets to expand and collapse",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Pleating compresses wide sheets into compact, springy structures that can open and close smoothly.",
+    ),
+    QuizQuestion(
+      question: "5. What term describes the paper craft where narrow coloured paper strips are coiled and shaped?",
+      options: ["Quilling", "Casting", "Scoring", "Welding"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Quilling, or paper filigree, rolls narrow paper strips into artistic coils that are shaped and assembled.",
+    ),
+    QuizQuestion(
+      question: "6. What happens if an artist applies too much wet liquid PVA glue to light paper models?",
+      options: [
+        "The paper hardens into solid cast brass",
+        "The colours change into bright silver foil",
+        "The card becomes immune to any folding",
+        "The paper wrinkles, warps, and buckles unevenly",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Excess moisture from wet glue softens paper fibres excessively, causing unsightly warping, bubbling, and weak joints.",
+    ),
+    QuizQuestion(
+      question: "7. Which tool is used alongside a ruler to score clean lines across thick card?",
+      options: [
+        "Sanding block",
+        "Blunt stylus",
+        "Solder torch",
+        "Rubber mallet",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A blunt stylus indents paper fibres along a straight line without breaking through the surface sheet.",
+    ),
+    QuizQuestion(
+      question: "8. Why should artists use a cutting mat beneath paper when using craft knives?",
+      options: [
+        "To keep the blade from going dull instantly",
+        "To speed up the drying of craft glue dots",
+        "To protect desks and guide cuts safely",
+        "To add decorative creases to the project",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A cutting mat stops blade tips from damaging workbenches while providing traction to prevent dangerous blade slips.",
+    ),
+    QuizQuestion(
+      question: "9. What is the traditional rule regarding adhesives in classic Japanese origami?",
+      options: [
+        "Adhesives are brushed across every fold",
+        "Adhesives are mixed with sand for weight",
+        "No glue or adhesive is permitted at all",
+        "Hot glue guns are used for every corner",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Classic origami prohibits the use of glues, tapes, or scissors, relying entirely on geometric folding.",
+    ),
+    QuizQuestion(
+      question: "10. What is the primary benefit of peer evaluation after completing a folded artwork?",
+      options: [
+        "It replaces the need to score stiff cards",
+        "It speeds up the natural drying of paper",
+        "It lets peers take the artwork home freely",
+        "It provides feedback to improve future technique",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Constructive peer review highlights craftsmanship strengths and pinpoints areas where fold precision can improve.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss1Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What defect produces small visible pits across the outer surface of a finished cast?",
+      options: ["Pinholes", "Swells", "Shifts", "Burrs"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Pinholes are small porosity pits visible on the outer surface caused by tiny gas bubbles trapped during solidification.",
+    ),
+    QuizQuestion(
+      question: "2. Which step in the casting process involves shaping the internal space of a hollow object?",
+      options: ["Polishing", "Coremaking", "Venting", "Quenching"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Coremaking forms the internal sand or refractory insert that keeps the core hollow during pouring.",
+    ),
+    QuizQuestion(
+      question: "3. What is the French artistic term used to describe the traditional lost-wax casting technique?",
+      options: ["Papier-mache", "Bas-relief", "Cire-perdue", "Trompe-l'oeil"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Cire-perdue literally translates to lost wax, referencing the melted wax model that drains from the heated mould.",
+    ),
+    QuizQuestion(
+      question: "4. What casting defect occurs when the two halves of a split mould fail to align properly?",
+      options: [
+        "Gas blowhole",
+        "Sand washout",
+        "Mould swell",
+        "Mould mismatch",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A mismatch or shift happens when mould halves shift vertically or horizontally, producing a stepped offset along the parting line.",
+    ),
+    QuizQuestion(
+      question: "5. Which casting method fills the entire mould cavity with medium to create a solid sculpture?",
+      options: [
+        "Filled-in casting",
+        "Centrifugal spin",
+        "Hollow slush",
+        "Hump draping",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Filled-in casting introduces enough casting medium to fill the entire cavity, resulting in a solid, unhollowed object.",
+    ),
+    QuizQuestion(
+      question: "6. What happens to the wax model during the firing stage of the lost-wax casting process?",
+      options: [
+        "It expands to double its original volume",
+        "It turns into a hard, permanent metal alloy",
+        "It forms the heat-resistant outer casing",
+        "It melts and drains out through the ducts",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "During heating in an oven or furnace, the wax melts away through ducts, leaving an open cavity shaped like the model.",
+    ),
+    QuizQuestion(
+      question: "7. Why should an artist tap a container of wet plaster of Paris before pouring it into a mould?",
+      options: [
+        "To release trapped air bubbles from the mixture",
+        "To speed up the cooling of the chemical slurry",
+        "To change the plaster colour from grey to white",
+        "To separate the dry plaster dust from the water",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Tapping the mixing bowl forces buoyant air bubbles to rise to the surface and burst, preventing pinholes in the cast.",
+    ),
+    QuizQuestion(
+      question: "8. What is the final stage of the casting process where sprues are cut and surfaces smoothed?",
+      options: ["Annealing", "Finishing", "Patterning", "Moulding"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Finishing is the fifth step, where sprues are removed, defects repaired, and the surface filed, sanded, or polished.",
+    ),
+    QuizQuestion(
+      question: "9. Which defect occurs when fast-flowing molten metal erodes portions of the sand mould wall?",
+      options: [
+        "Gas pinhole",
+        "Mould flash",
+        "Cuts and washes",
+        "Metal shrink",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Cuts and washes happen when the velocity of the liquid stream erodes sand from the mould surface, leaving excess rough patches.",
+    ),
+    QuizQuestion(
+      question: "10. Why is peer review and appraisal important after completing a studio cast artwork?",
+      options: [
+        "It determines the commercial market tax value",
+        "It allows learners to replace the original core",
+        "It melts the sculpture down for another project",
+        "It provides constructive feedback to improve skill",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Displaying work for peer review helps students identify technical strengths, spot structural defects, and learn alternative methods.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss1Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which artistic process relies on pouring a liquid into a prepared cavity to harden?",
+      options: ["Casting", "Pleating", "Weaving", "Etching"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Casting is the specific process of shaping liquid or pliable matter inside a hollow mould until it hardens.",
+    ),
+    QuizQuestion(
+      question: "2. Which tool is classified as a holding and tightening tool in assemblage practice?",
+      options: ["Scalpel knife", "Bench vice", "Paint roller", "Bone folder"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A bench vice holds objects securely in place on a workbench while you join, cut, or drill them.",
+    ),
+    QuizQuestion(
+      question: "3. What is the main purpose of testing clay for shrinkage before making a large sculpture?",
+      options: [
+        "To check if the clay reflects bright light well",
+        "To make sure the clay dissolves fully in plaster",
+        "To verify the electrical conductivity of earth",
+        "To prevent unwanted cracking as moisture leaves",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Testing drying shrinkage helps the artist anticipate how much the piece will contract and avoid severe stress fractures.",
+    ),
+    QuizQuestion(
+      question: "4. Which technique involves creating sharp, neat folds across flat sheet materials?",
+      options: ["Splicing", "Quenching", "Creasing", "Melting"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Creasing creates distinct folded lines that allow flat sheets to bend neatly into stable three-dimensional planes.",
+    ),
+    QuizQuestion(
+      question: "5. Which personal protective gear is essential when measuring dry plaster powder?",
+      options: ["Nose mask", "Rain coat", "Sun helmet", "Wool glove"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A nose mask filters out airborne dust particles, keeping the respiratory system safe from irritating chemical dust.",
+    ),
+    QuizQuestion(
+      question: "6. How should cutting tools such as craft knives be moved across a cutting board?",
+      options: [
+        "Toward the worker's chest with both hands pulling",
+        "Toward the nearest student sitting by the table",
+        "In circular motions while holding the blade tip",
+        "Away from the worker's body along a guided edge",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Directing blades away from your body ensures that if the knife slips, it cannot cut your fingers or torso.",
+    ),
+    QuizQuestion(
+      question: "7. What type of artwork is created by joining unrelated discarded items together?",
+      options: ["Batik wrap", "Assemblage", "Terracotta", "Monotype"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Assemblage unites pre-existing found and discarded items into a brand-new cohesive three-dimensional sculpture.",
+    ),
+    QuizQuestion(
+      question: "8. Which material is most appropriate for practising precision paper-folding exercises?",
+      options: ["Manila card", "Burlap sack", "Sheet glass", "Timber beam"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Manila card has uniform thickness, flexibility, and good grain strength, making it ideal for sharp folds and geometric structures.",
+    ),
+    QuizQuestion(
+      question: "9. What is the recommended method for maintaining steel tools in humid weather?",
+      options: [
+        "Storing them inside wet sand bins overnight",
+        "Leaving them submerged under soapy tap water",
+        "Drying them completely and oiling the joints",
+        "Wrapping them tightly inside damp towel rolls",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Wiping tools dry and applying light oil creates a barrier against air and moisture, preventing orange rust from forming.",
+    ),
+    QuizQuestion(
+      question: "10. Why is a shadow board useful for storing studio tools after practical lessons?",
+      options: [
+        "It keeps sharp tool edges completely hidden from view",
+        "It allows wet plaster to dry faster inside the room",
+        "It prevents scrap cardboard from bending out of shape",
+        "It shows instantly if any tool is missing from its place",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "A shadow board has painted outlines for each tool, so teachers and students can immediately spot when an item has not been returned.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S1Ss3Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Why does a designer interact directly with community residents during the initial stage of solving a problem?",
+      options: [
+        "To discover the exact challenges they face daily",
+        "To borrow carpentry tools without paying hire fees",
+        "To instruct residents to stop working on farms",
+        "To convince workers to buy foreign manufactured goods",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Interviewing local residents directly reveals authentic daily difficulties, ensuring design work addresses genuine needs.",
+    ),
+    QuizQuestion(
+      question: "2. Which software tool helps a designer create accurate scale blueprints on a computer?",
+      options: [
+        "An audio music recording studio app",
+        "A digital computer-aided design program",
+        "An automated arithmetic tax calculator",
+        "An offline digital video gaming platform",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Digital computer-aided design and vector software allow designers to produce exact scale drawings and technical models.",
+    ),
+    QuizQuestion(
+      question: "3. What is the main advantage of using local timber and bamboo over imported metals for village farm tools?",
+      options: [
+        "They last forever without rotting in wet swamps",
+        "They make finished equipment impossible to lift",
+        "They are accessible, renewable, and cost-effective",
+        "They require zero hand tools to shape or cut",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Local organic materials like bamboo and timber are readily available, affordable, and easy for community artisans to repair.",
+    ),
+    QuizQuestion(
+      question: "4. What should a design team do immediately after gathering feedback on a prototype during a community display?",
+      options: [
+        "Hide the feedback sheets from their teacher",
+        "Disassemble the prototype and throw it away",
+        "Demand that users apologise for harsh remarks",
+        "Use the advice to refine and improve the tool",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Designers use honest user recommendations to adjust dimensions, materials, and mechanisms to perfect the final artefact.",
+    ),
+    QuizQuestion(
+      question: "5. Which action is an example of identifying root causes during community problem solving?",
+      options: [
+        "Asking why storage clay pots crack when fired",
+        "Sweeping sawdust from the carpentry floor",
+        "Buying extra paint to cover wooden splits",
+        "Polishing metallic parts with coconut oil",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Investigating why clay cracks during firing identifies the underlying source of failure rather than simply hiding surface flaws.",
+    ),
+    QuizQuestion(
+      question: "6. Why is it beneficial to build a cardboard mock-up before constructing a full-size wooden cart?",
+      options: [
+        "Cardboard carries heavier sacks than solid wood",
+        "It tests proportions quickly without wasting wood",
+        "Cardboard never deteriorates in heavy downpours",
+        "It proves that the designer needs no more tools",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Quick cardboard models allow makers to check spatial proportions and mechanical movements before cutting costly timber.",
+    ),
+    QuizQuestion(
+      question: "7. When exhibiting an artefact to the public, what supporting material should accompany the prototype?",
+      options: [
+        "A list of personal scores from other school subjects",
+        "Empty packaging boxes left over from fabrication",
+        "Blueprints, sketches, and making process notes",
+        "Receipts for all household food purchases made",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Exhibiting sketches, technical drawings, and photographs documents the complete problem-solving journey for viewers.",
+    ),
+    QuizQuestion(
+      question: "8. Why do designers photograph each stage of their prototype construction?",
+      options: [
+        "To document the process for reflection and sharing",
+        "To sell camera equipment to local photo studios",
+        "To fill up digital tablet storage memory drives",
+        "To avoid writing down any measurement values",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Photographic records preserve evidence of how challenges were solved, aiding reporting, feedback, and future revisions.",
+    ),
+    QuizQuestion(
+      question: "9. What is the primary indicator of a successful community design solution?",
+      options: [
+        "It looks like an exact copy of an imported item",
+        "It is extremely expensive to maintain each month",
+        "It remains unused inside a glass display case",
+        "It solves the local difficulty safely and reliably",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "The ultimate test of any design intervention is whether it safely, effectively, and affordably resolves the real problem.",
+    ),
+    QuizQuestion(
+      question: "10. If market sellers report that a prototype carrier slips off their shoulders, what is the best modification?",
+      options: [
+        "Ask carriers to carry half the normal goods",
+        "Paint the carrier with high-gloss enamel coat",
+        "Paint warning signs across the side panels",
+        "Add contoured foam padding and chest straps",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Adding contoured padding and stabilising straps directly solves slipping by distributing weight evenly across the torso.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S1Ss3Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which stage of the design process involves talking with community members to understand their daily work struggles?",
+      options: [
+        "Researching and investigating the problem",
+        "Redesigning finished product packaging",
+        "Assembling final timber joints with glue",
+        "Painting finished display signs for shops",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Interviewing local residents and gathering factual background information forms the core of contextual research.",
+    ),
+    QuizQuestion(
+      question: "2. What is an early three-dimensional working model of an intended product called?",
+      options: ["An analysis", "A prototype", "An ideation", "A portfolio"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A prototype is a physical test specimen built to evaluate how a design functions in three dimensions before mass production.",
+    ),
+    QuizQuestion(
+      question: "3. Why must a designer produce multiple preliminary sketches during concept generation?",
+      options: [
+        "To use up extra sheets of drawing paper",
+        "To make the workshop look busy to visitors",
+        "To decorate school classrooms with art",
+        "To explore and compare diverse solutions",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Sketching many variations lets a designer evaluate and contrast different physical shapes to find the most viable design.",
+    ),
+    QuizQuestion(
+      question: "4. What document establishes the specific goals, constraints, and requirements for a new design?",
+      options: [
+        "The design brief",
+        "The payment ledger",
+        "The delivery receipt",
+        "The trading licence",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The design brief is the foundational document that defines what must be built, the intended users, and key limitations.",
+    ),
+    QuizQuestion(
+      question: "5. What is the primary purpose of subjecting a new farm basket to real field testing?",
+      options: [
+        "To verify that its colours never fade in sun",
+        "To confirm it holds weight without breaking",
+        "To ensure it matches other decorative baskets",
+        "To sell it quickly before rivals copy the idea",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Testing under authentic field conditions proves whether the basket possesses the required strength and structural durability.",
+    ),
+    QuizQuestion(
+      question: "6. What critical step occurs when test results reveal that a prototype is too heavy for daily handling?",
+      options: [
+        "Advertising the item as heavy duty to users",
+        "Discarding all research notes and surveys",
+        "Refining the design using lighter materials",
+        "Demanding that operators undergo more training",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "When testing reveals an operational defect such as excessive weight, the designer refines the plans by selecting lighter materials.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Which of the following best describes the activity of ideation?",
+      options: [
+        "Generating ideas to resolve a design problem",
+        "Purchasing timber and nails from suppliers",
+        "Setting up display stands at regional fairs",
+        "Polishing metallic parts to prevent corrosion",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Ideation is the creative thinking phase where the designer generates concepts to solve the specified challenge.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Why should end users be invited to test and critique prototypes?",
+      options: [
+        "They provide feedback on ease of daily handling",
+        "They pay the designer for examining early plans",
+        "They teach the designer how to use wood saws",
+        "They decide the retail price in retail shops",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "End users provide valuable, unbiased feedback about whether an artefact feels safe, intuitive, and comfortable during practical tasks.",
+    ),
+    QuizQuestion(
+      question: "9. What is the proper sequential order of the initial stages of design?",
+      options: [
+        "Prototyping, then testing, then researching",
+        "Selling, then drawing, then defining problem",
+        "Ideation, then marketing, then assembling",
+        "Defining problem, researching, then ideation",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The design process methodically starts by defining the problem, gathering facts through research, and then ideating concepts.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Why is the design process described as an iterative cycle?",
+      options: [
+        "Because designs are never shared with anyone",
+        "Because every tool must look completely round",
+        "Because artisans must copy old historical items",
+        "Because feedback leads to continuous refinement",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Design is iterative because testing and feedback consistently reveal areas where the solution can be revised and improved.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S1Ss3Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary definition of creativity in design work?",
+      options: [
+        "Forming original concepts and ideas inside the mind",
+        "Assembling pre-cut wooden panels in a local workshop",
+        "Selling newly fabricated items in an open marketplace",
+        "Painting finished metallic surfaces to stop rusting",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Creativity represents the mental capacity to formulate novel ideas, distinct from physical assembly or trade.",
+    ),
+    QuizQuestion(
+      question: "2. Which practical action represents an act of innovation?",
+      options: [
+        "Dreaming about faster ways to transport farm yam tubers",
+        "Building a hand-drawn wheeled cart to carry heavy yam sacks",
+        "Wondering why heavy farm baskets cause severe back pain",
+        "Remembering how village elders carried harvest on their heads",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Building a practical cart to carry sacks transforms a mental desire into a functional solution, which defines innovation.",
+    ),
+    QuizQuestion(
+      question: "3. What drove the modification of traditional open three-stone fires?",
+      options: [
+        "The desire to make cooking spaces look colourful",
+        "The wish to cook four different meals at one time",
+        "The need to curb wood waste and harmful smoke fumes",
+        "The requirement to use heavier iron pots for soup",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Traditional open fires consumed too much firewood and produced heavy smoke, prompting inventors to design enclosed stoves.",
+    ),
+    QuizQuestion(
+      question: "4. A designer visits a local market to watch fish processors handle fresh fish. What stage of problem-solving is this?",
+      options: [
+        "Creating a final product display for customers",
+        "Writing a sales advertisement for local radio",
+        "Testing a finished aluminium smoking kiln oven",
+        "Investigating user challenges in the environment",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Directly observing workers at their tasks is part of investigating existing challenges and discovering design flaws.",
+    ),
+    QuizQuestion(
+      question: "5. Which statement best highlights the difference between creativity and innovation?",
+      options: [
+        "Creativity generates ideas while innovation produces solutions",
+        "Creativity requires expensive tools while innovation uses none",
+        "Creativity happens in factories while innovation is in minds",
+        "Creativity fixes old machines while innovation sells them",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Creativity is the ideation process, whereas innovation represents the practical execution of ideas to solve problems.",
+    ),
+    QuizQuestion(
+      question: "6. Why did local mechanics build mechanical cassava graters to replace manual perforated tin sheets?",
+      options: [
+        "Hand grating produced cassava pieces that were far too small",
+        "Manual scraping was slow and caused painful finger cuts",
+        "Hand grating required imported aluminium cooking utensils",
+        "Farmers wanted grating tools made entirely out of plastic",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Manual grating took many hours and exposed workers to hand wounds, making a pedal or motor-driven drum a valuable innovation.",
+    ),
+    QuizQuestion(
+      question:
+          "7. What is an artefact in the context of your local community?",
+      options: [
+        "Any wild plant growing untouched along the riverbank",
+        "A natural rain cloud that provides water for farming",
+        "A natural rock formation found near an open forest",
+        "Any human-made object created for a practical purpose",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "An artefact is an object constructed or shaped by human beings to serve a functional or cultural need.",
+    ),
+    QuizQuestion(
+      question: "8. When an artisan adds padded rubber grips to a standard farm cutlass, what has occurred?",
+      options: [
+        "The artisan has carried out an innovative modification",
+        "The artisan has changed the fundamental farm harvest",
+        "The artisan has ruined the traditional balance of iron",
+        "The artisan has transformed the cutlass into a hammer",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Modifying an existing tool by adding rubber padding to reduce palm blisters is an example of innovative product improvement.",
+    ),
+    QuizQuestion(
+      question: "9. Why does design innovation remain an ongoing process in our towns?",
+      options: [
+        "Because old tools automatically rot after every rainy season",
+        "Because human challenges and community needs keep shifting",
+        "Because school rules require students to invent novel goods",
+        "Because artisans are not allowed to replicate older models",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "As populations expand and resources or technologies evolve, tools must be continually updated to address emerging problems.",
+    ),
+    QuizQuestion(
+      question: "10. What makes an innovative design successful in a Ghanaian community?",
+      options: [
+        "It costs more money than any imported foreign alternative",
+        "It requires complex electrical cables that need power",
+        "It is too complicated for regular workers to comprehend",
+        "It solves an identified problem safely and efficiently",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "A successful innovation directly satisfies the functional needs of its users in an affordable, safe, and reliable manner.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S1Ss2Lesson3QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS3_s1_ss2_L3/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. What term describes a full-scale or scaled physical mock-up created to evaluate a design concept?",
+          options: [
+            "Freehand sketch",
+            "Linear outline",
+            "Surface texture",
+            "Working prototype",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation:
+              "A prototype is a physical test model created to examine how a design looks, balances, and operates in real life."),
+      QuizQuestion(
+          question:
+              "2. How does a designer begin the process of developing a meaningful community design project?",
+          options: [
+            "By observing everyday local problems",
+            "By purchasing expensive factory tools",
+            "By painting wooden display tables",
+            "By mounting empty cardboard sheets",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Successful design originates from identifying concrete problems and unmet needs within the community."),
+      QuizQuestion(
+          question:
+              "3. Which flat geometric shape is repeated six times to create the complete net of a cube?",
+          options: [
+            "Equilateral triangle",
+            "Identical flat square",
+            "Symmetrical trapezoid",
+            "Elongated rectangle",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "A cube consists of six identical square faces connected along folding edges."),
+      QuizQuestion(
+          question:
+              "4. Which modelling medium is best suited for carving sculptural details by removing excess material?",
+          options: [
+            "White cartridge paper",
+            "Thin tracing parchment",
+            "Rigid styrofoam block",
+            "Corrugated parcel card",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Styrofoam blocks have a dense, uniform cellular structure that allows easy subtractive carving with blades or wires."),
+      QuizQuestion(
+          question:
+              "5. What is the main purpose of scoring along dashed lines on a cardboard packaging template?",
+          options: [
+            "To facilitate crisp, clean folds",
+            "To allow paint to soak through",
+            "To separate parts from card",
+            "To darken the outline border",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Scoring cuts lightly through the outer paper fibers, guiding the cardboard to bend cleanly without tearing or buckling."),
+      QuizQuestion(
+          question:
+              "6. When preparing a 3-D model for a school exhibition, what information should be written on its display card?",
+          options: [
+            "The total weight of all tools used",
+            "The manufacturer of the craft glue",
+            "The title, maker, and design intent",
+            "The retail shop prices of scissors",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "An exhibition label clearly explains the title of the work, the creator, the intended problem solved, and the media used."),
+      QuizQuestion(
+          question:
+              "7. Which material provides a workable paste for sculpting hollow curved forms over a temporary armature?",
+          options: [
+            "Shredded paper pulp",
+            "Sanded timber plank",
+            "Stiff clear acrylic",
+            "Folded Bristol board",
+          ],
+          correctIndex: 0,
+          difficulty: "Hard",
+          explanation:
+              "Paper-pulp mash mixed with binder forms a wet, pliable dough that dries into a lightweight, rigid shell."),
+      QuizQuestion(
+          question:
+              "8. Why is constructive peer appraisal important after completing a 3-D design prototype?",
+          options: [
+            "To discover functional flaws and improve",
+            "To establish one uniform model colour",
+            "To discard cardboard models immediately",
+            "To avoid building any future mock-ups",
+          ],
+          correctIndex: 0,
+          difficulty: "Hard",
+          explanation:
+              "Objective feedback from peers highlights usability flaws and strengths, offering vital insights for refining the product."),
+      QuizQuestion(
+          question:
+              "9. What happens if glue tabs are omitted from an unfolded packaging template?",
+          options: [
+            "The card becomes too soft to fold",
+            "The box cannot stay bonded together",
+            "The model turns into a cylinder",
+            "The cutting lines blur on card",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "Without glue tabs or attachment flaps, there is no surface area for adhesive to hold adjoining walls together."),
+      QuizQuestion(
+          question:
+              "10. What is the primary advantage of choosing cardboard over imported acrylic plastic for school packaging mock-ups?",
+          options: [
+            "It melts at high temperatures",
+            "It is translucent to bright light",
+            "It requires expensive machinery",
+            "It is low cost and readily available",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation:
+              "Cardboard is inexpensive, easily sourced from discarded cartons, and can be cut and folded using basic manual tools."),
+    ]);
+
+final QuizModel creativeArtsJhs3S1Ss2Lesson2QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS3_s1_ss2_L2/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. What term is used interchangeably with the horizon line in linear perspective drawing?",
+          options: [
+            "Vanishing contour",
+            "Ground baseline",
+            "Center focal axis",
+            "Viewer eye level",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation:
+              "The horizon line corresponds directly to the viewer's eye level, establishing the horizontal datum where sky and ground meet."),
+      QuizQuestion(
+          question:
+              "2. When viewing a rectangular table positioned below your eye level, which surface is clearly visible?",
+          options: [
+            "The table top surface",
+            "The table leg base pad",
+            "The table under frame",
+            "The table rear support",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Looking down at an object situated below eye level exposes its top surface to the viewer."),
+      QuizQuestion(
+          question:
+              "3. What is the primary objective of constructive design appraisal and critique?",
+          options: [
+            "To discard experimental draft sketches",
+            "To evaluate design merits and guide improvement",
+            "To select one standard medium for everyone",
+            "To eliminate manual sketching from the classroom",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation:
+              "Appraisal provides objective feedback to recognize technical strengths and guide meaningful revisions."),
+      QuizQuestion(
+          question:
+              "4. Which technique compresses visual dimensions to make an object appear to project outward?",
+          options: [
+            "Foreshortening method",
+            "Symmetrical balancing",
+            "Cross-hatch shading",
+            "High-key rendering",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Foreshortening condenses the visible length of an object angled toward or away from the viewer to simulate projection."),
+      QuizQuestion(
+          question:
+              "5. How does perspective drawing simulate realism on a two-dimensional sheet of paper?",
+          options: [
+            "By maintaining identical sizes for every item",
+            "By scaling distant objects progressively smaller",
+            "By outlining every object with heavy black ink",
+            "By using only light tones across the paper face",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "Linear perspective scales distant objects down as they approach the horizon line to replicate real-world sight."),
+      QuizQuestion(
+          question:
+              "6. Which tool allows a designer to exhibit digital portfolio artwork to an entire classroom at once?",
+          options: [
+            "Clear plastic folder",
+            "Steel cutting ruler",
+            "Digital data projector",
+            "Heavy wooden easel",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation:
+              "A digital projector projects image outputs onto a wall or screen, allowing large groups to view artwork together."),
+      QuizQuestion(
+          question:
+              "7. What is the recommended practice for displaying manual drawings on a classroom presentation wall?",
+          options: [
+            "Pasting sketches randomly along baseboards",
+            "Hanging sheets loosely from window frames",
+            "Mounting sheets neatly near viewer eye level",
+            "Stacking multiple drawings over each other",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Mounting drawings securely at average eye level ensures visitors and peers can comfortably appraise the work."),
+      QuizQuestion(
+          question:
+              "8. Why should an artist include early exploratory sketches inside their working portfolio?",
+          options: [
+            "To showcase creative process and progress",
+            "To fill up remaining empty binder pages",
+            "To reduce the time spent on new drawings",
+            "To cover up mistakes made in final pieces",
+          ],
+          correctIndex: 0,
+          difficulty: "Hard",
+          explanation:
+              "Documenting preliminary sketches shows how an idea took shape, providing clear evidence of growth and design thinking."),
+      QuizQuestion(
+          question:
+              "9. What happens to parallel horizontal lines running away from an observer in a perspective drawing?",
+          options: [
+            "They bend into concentric circular curves",
+            "They stay perfectly parallel to the border",
+            "They curve upward into vertical columns",
+            "They converge toward a vanishing horizon point",
+          ],
+          correctIndex: 3,
+          difficulty: "Hard",
+          explanation:
+              "Lines that travel away from the viewer appear to draw closer together, eventually meeting on the horizon line."),
+      QuizQuestion(
+          question:
+              "10. In the 3-D design workflow, what action immediately follows identifying a community challenge?",
+          options: [
+            "Displaying mounted artwork on school walls",
+            "Generating initial sketches and idea concepts",
+            "Applying dark low tones across the paper base",
+            "Assembling a completed physical design album",
+          ],
+          correctIndex: 1,
+          difficulty: "Hard",
+          explanation:
+              "After identifying a problem, the designer moves directly to ideation, generating preliminary sketch solutions."),
+    ]);
+
+final QuizModel creativeArtsJhs3S1Ss2Lesson1QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS3_s1_ss2_L1/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. What term describes the degree of lightness or darkness across a design surface?",
+          options: [
+            "Spatial perspective",
+            "Dynamic proportion",
+            "Surface texture",
+            "Tonal value",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation:
+              "Tonal value measures the variation between pure white, intermediate greys, and deep black across an image surface."),
+      QuizQuestion(
+          question:
+              "2. Which of the following is considered an electronic drawing tool rather than a digital material?",
+          options: [
+            "Graphics tablet stylus",
+            "Vector drawing program",
+            "Paint software license",
+            "Digital image file format",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "The stylus is a physical hardware tool manipulated by the hand, whereas software and file types represent digital materials and environments."),
+      QuizQuestion(
+          question:
+              "3. Why do designers utilize paper stumps during pencil sketching?",
+          options: [
+            "To erase erroneous guidelines",
+            "To smooth and blend pencil tones",
+            "To draw straight vertical lines",
+            "To sharpen dull graphite points",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation:
+              "A paper stump is a tightly rolled cylinder of paper used to blend and soften graphite or charcoal marks smoothly."),
+      QuizQuestion(
+          question:
+              "4. Which shading technique involves drawing closely spaced parallel lines that do not cross one another?",
+          options: [
+            "Hatching technique",
+            "Stippling process",
+            "Blending technique",
+            "Rendering method",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Hatching consists of parallel linear strokes used to indicate shadow without crossing over other lines."),
+      QuizQuestion(
+          question:
+              "5. Which tone on a value scale represents the deepest level of darkness on an object?",
+          options: [
+            "High tone value",
+            "Tint tone value",
+            "Low tone value",
+            "Mid tone value",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation:
+              "Low tone represents the darkest values on the scale, typically appearing in deep shadow areas away from the light source."),
+      QuizQuestion(
+          question:
+              "6. Which item belongs to the category of manual drawing materials?",
+          options: [
+            "Heavy cartridge paper sheet",
+            "Adjustable plastic set square",
+            "Wooden-handled blending stump",
+            "Steel technical drawing divider",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Cartridge paper is a surface material consumed during drawing, while set squares, stumps, and dividers are tools."),
+      QuizQuestion(
+          question:
+              "7. How does rendering differ primarily from standard line hatching?",
+          options: [
+            "It utilizes coloured inks only",
+            "It relies on a computer monitor",
+            "It produces seamless gradients",
+            "It requires straight edge rulers",
+          ],
+          correctIndex: 2,
+          difficulty: "Hard",
+          explanation:
+              "Rendering focuses on creating smooth, seamless gradations of tone without noticeable individual lines."),
+      QuizQuestion(
+          question:
+              "8. What is the core function of a T-square during manual drafting?",
+          options: [
+            "Guiding exact horizontal lines",
+            "Shading large background areas",
+            "Blending dry charcoal pigments",
+            "Measuring circle circumferences",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "A T-square slides along the edge of a drawing board to provide a steady guide for drawing accurate horizontal lines."),
+      QuizQuestion(
+          question:
+              "9. Why does an artist apply a cast shadow underneath a drawn cup on a table?",
+          options: [
+            "To reveal internal cup volume",
+            "To fix pencil marks to paper",
+            "To reduce tablet screen glare",
+            "To ground the object on a base",
+          ],
+          correctIndex: 3,
+          difficulty: "Hard",
+          explanation:
+              "A cast shadow anchors the object to the surface it rests upon, preventing it from appearing as if it is floating in empty space."),
+      QuizQuestion(
+          question:
+              "10. Which digital software capability allows a designer to modify colours without losing original outline art?",
+          options: [
+            "Independent layer editing",
+            "Screen resolution zoom tool",
+            "Canvas cropping function",
+            "Automatic battery optimizer",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Placing colour fills on separate layers beneath line work lets the artist edit tones freely without affecting the clean lines above."),
+    ]);
+
+final QuizModel creativeArtsJhs3S1Ss1Lesson3QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS3_s1_ss1_L3/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. Which design principle directs a viewer's eye along a planned visual pathway across an artwork?",
+          options: [
+            "Movement",
+            "Symmetry",
+            "Flatness",
+            "Texture",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "Movement uses lines, edges, and directional shapes to guide the viewer's gaze through a composition from one element to another."),
+      QuizQuestion(
+          question:
+              "2. What type of balance is seen when both halves of an object mirror each other across a center line?",
+          options: [
+            "Asymmetrical balance",
+            "Symmetrical balance",
+            "Organic irregular balance",
+            "Dynamic contrasting balance",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "Symmetrical balance occurs when visual elements are arranged equally on either side of a central axis, creating an exact mirror image."),
+      QuizQuestion(
+          question:
+              "3. Why do architects adjust the proportion of doors and windows relative to a classroom wall?",
+          options: [
+            "To make sure building blocks never touch wet ground",
+            "To guarantee the structure can float during bad floods",
+            "To prevent paint colours from fading under direct sun",
+            "To ensure features fit human scale and look balanced",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation:
+              "Proportion deals with the size relationships of parts to one another and to human scale, ensuring practical function and aesthetic balance."),
+      QuizQuestion(
+          question:
+              "4. What principle is achieved when all elements in a piece work together to create a unified whole?",
+          options: [
+            "Unity",
+            "Sizing",
+            "Rhythm",
+            "Tinting",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Unity is the principle of design that combines all individual elements into a harmonious, complete, and unified whole."),
+      QuizQuestion(
+          question:
+              "5. Which natural visual phenomenon best demonstrates rhythm and movement in the environment?",
+          options: [
+            "A single dried bean seed sitting on a flat wooden tray",
+            "Ocean waves rolling steadily toward a sandy coastline",
+            "A stationary granite rock resting beside a dusty road",
+            "A flat puddle of clean rainwater on a concrete patio",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation:
+              "Rolling ocean waves repeat with a rhythmic tempo and create sweeping lines that guide the eye continuously in a direction."),
+      QuizQuestion(
+          question:
+              "6. How does an adinkra cloth printer create dominance when stamping a large central funeral motif?",
+          options: [
+            "By stamping tiny border marks across the back of the cloth",
+            "By using invisible dye that fades away in bright sunlight",
+            "By giving the central mark greater size and contrast",
+            "By omitting all ink to leave the fabric completely blank",
+          ],
+          correctIndex: 2,
+          difficulty: "Hard",
+          explanation:
+              "Dominance or emphasis is created by scaling up a focal motif and giving it strong visual weight and contrast so it stands out."),
+      QuizQuestion(
+          question:
+              "7. What is the primary function of variety within a decorative pattern or fabric design?",
+          options: [
+            "It guarantees that the cloth will dry instantly after washing",
+            "It allows the tailor to fold the material without any creases",
+            "It prevents monotony by mixing different shapes and hues",
+            "It reduces the mechanical friction between the weaving yarns",
+          ],
+          correctIndex: 2,
+          difficulty: "Hard",
+          explanation:
+              "Variety adds visual diversity by varying shapes, textures, and values, preventing the work from looking monotonous or plain."),
+      QuizQuestion(
+          question:
+              "8. Which combination represents an example of high visual contrast?",
+          options: [
+            "Light grey pencil lines drawn onto off-white rough card",
+            "Light yellow paint brushed onto a bright cream surface",
+            "Light brown dye applied onto a tan coloured piece of jute",
+            "Deep black charcoal marks drawn onto clean white paper",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation:
+              "Contrast is strongest when polar opposites are placed together, such as deep black charcoal on bright white paper."),
+      QuizQuestion(
+          question:
+              "9. What method allows a digital designer to achieve asymmetrical balance in an app banner?",
+          options: [
+            "Balancing a bold image with a cluster of smaller text",
+            "Mirroring the exact same photograph on both screen edges",
+            "Erasing half of the screen so only empty white space shows",
+            "Making every single word and shape identical in dimension",
+          ],
+          correctIndex: 0,
+          difficulty: "Hard",
+          explanation:
+              "Asymmetrical balance uses unequal elements—such as a large, bold photo counterbalanced by a group of smaller text blocks—to achieve equilibrium."),
+      QuizQuestion(
+          question:
+              "10. Why are the principles of design referred to as organising rules for artists?",
+          options: [
+            "They tell students which foreign markets to ship goods to",
+            "They fix the minimum retail price of woven baskets in town",
+            "They force painters to use only three synthetic chemicals",
+            "They guide how basic visual elements are placed together",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation:
+              "The principles of design provide the compositional grammar and rules for arranging lines, shapes, and forms into effective works."),
+    ]);
+
+final QuizModel creativeArtsJhs3S1Ss1Lesson2QuizData = QuizModel(
+    audioPath: "assets/audio/CreativeArts/JHS3_s1_ss1_l2/8. QUIZ.mp3",
+    questions: [
+      QuizQuestion(
+          question:
+              "1. What term describes an extended visual mark made by a moving point across a surface?",
+          options: [
+            "A line",
+            "A form",
+            "A hue",
+            "A tint",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "A line is defined as a continuous linear mark drawn by a pen, pencil, brush, or other tool moving across a surface."),
+      QuizQuestion(
+          question:
+              "2. How does form primarily differ from shape in basic design terminology?",
+          options: [
+            "Form lacks any clear external boundaries",
+            "Form consists of flat straight lines only",
+            "Form has physical or represented depth",
+            "Form cannot be observed in living nature",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation:
+              "Shapes are two-dimensional, possessing only length and width, whereas forms are three-dimensional, possessing height, width, and depth."),
+      QuizQuestion(
+          question:
+              "3. Which surface example demonstrates an irregular, tactile texture found in the natural world?",
+          options: [
+            "A sheet of clear window glass",
+            "A freshly polished steel spoon",
+            "A smooth plastic drinking cup",
+            "The bark of an old mahogany tree",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation:
+              "Tree bark exhibits a rough, irregular tactile texture created by natural growth ridges, unlike manufactured, polished surfaces."),
+      QuizQuestion(
+          question:
+              "4. What is the primary role of value when sketching an object on drawing paper?",
+          options: [
+            "It creates the illusion of 3D depth",
+            "It replaces the need for solid edges",
+            "It reduces the physical weight of ink",
+            "It makes the paper water-resistant",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation:
+              "Value uses shifts between light and dark tones to create highlights and cast shadows, producing the visual illusion of three-dimensional volume."),
+      QuizQuestion(
+          question:
+              "5. Which of the following contains an arrangement of regular geometric shapes?",
+          options: [
+            "The profile of an afternoon cumulus cloud",
+            "A tiled bathroom floor with square ceramics",
+            "The winding shoreline of a coastal lagoon",
+            "An uneven cluster of riverbed boulders",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation:
+              "Manufactured tiles cut into uniform squares represent regular geometric shapes constructed with straight lines and equal angles."),
+      QuizQuestion(
+          question:
+              "6. When dots are grouped closely together in a drawing, what visual impression do they create?",
+          options: [
+            "Complete absence of visual weight",
+            "Rapid structural motion and speed",
+            "A dense and dark tonal area",
+            "Highly reflective polished chrome",
+          ],
+          correctIndex: 2,
+          difficulty: "Hard",
+          explanation:
+              "In stippling and dot patterning, tightly clustered dots block out the light background, creating darker values and shadows."),
+      QuizQuestion(
+          question:
+              "7. Why are elements of design described as the building blocks of visual art?",
+          options: [
+            "They cost no money to buy in the market",
+            "They can only be generated on computers",
+            "They are never found in natural objects",
+            "They combine to make all artworks",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation:
+              "Elements of design are the primary visual ingredients that artists combine to produce compositions, patterns, and physical structures."),
+      QuizQuestion(
+          question:
+              "8. What kind of line is most commonly seen in the structural framework of an electricity transmission pylon?",
+          options: [
+            "Free-flowing organic swirls",
+            "Straight crossing diagonals",
+            "Soft continuous wavy ripples",
+            "Irregular broken splash marks",
+          ],
+          correctIndex: 1,
+          difficulty: "Hard",
+          explanation:
+              "Steel pylons use straight diagonal and horizontal lines in triangular truss configurations to distribute mechanical loads and provide rigid support."),
+      QuizQuestion(
+          question:
+              "9. Which of the following is an example of a manmade cylindrical form used in Ghanaian homes?",
+          options: [
+            "A metal barrel for rainwater",
+            "A sheet of ruled exercise paper",
+            "A flat triangular warning sign",
+            "A rectangular window frame slat",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation:
+              "A metal water barrel has circular ends and curved depth, making it a functional three-dimensional cylindrical form."),
+      QuizQuestion(
+          question:
+              "10. How does a graphic designer create contrast using the element of value?",
+          options: [
+            "By keeping every area the same dull grey",
+            "By using only transparent plastic sheets",
+            "By drawing lines that never meet or touch",
+            "By placing bright light beside deep dark",
+          ],
+          correctIndex: 3,
+          difficulty: "Hard",
+          explanation:
+              "Contrast of value is produced by placing very light tones directly adjacent to very dark tones, making elements stand out clearly."),
+    ]);
+
+final QuizModel creativeArtsJhs3S1Ss1Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s1_ss1_l1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which statement best describes the fundamental definition of design?",
+      options: [
+        "A plan created to solve a human need",
+        "An artwork made solely using brushes",
+        "A natural rock shaped by rain water",
+        "A drawing made without visual rules",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Design is a purposeful, structured plan or method conceived to solve a specific human challenge or meet a practical social need.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which natural object provides an example of organic, self-forming three-dimensional form?",
+      options: [
+        "Concrete drainage culvert",
+        "Termite ventilation mound",
+        "Metal passenger bus roof",
+        "Fired clay building block",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "A termite mound is built organically by living creatures through natural biological activity, unlike concrete, metal, or fired clay products.",
+    ),
+    QuizQuestion(
+      question:
+          "3. What makes the Eastgate Centre in Harare notable in architectural design history?",
+      options: [
+        "It is the tallest residential building on the African continent",
+        "It was built using recycled automobile bodies and metal sheets",
+        "It is decorated entirely with traditional geometric kente patterns",
+        "It regulates its internal temperature using termite mound vents",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "The Eastgate Centre uses passive ventilation channels modeled directly after the cooling chimney systems of cathedral termite mounds.",
+    ),
+    QuizQuestion(
+      question:
+          "4. Why did high-speed train engineers study the beak of the kingfisher bird?",
+      options: [
+        "To make the train travel silently",
+        "To improve passenger seat safety",
+        "To lower metal manufacturing cost",
+        "To make train wheels run smoother",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "The streamlined profile of the kingfisher's beak allowed the train to exit tunnels smoothly without producing concussive atmospheric booms.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Which design element is present in both a ribbed palm leaf and a corrugated aluminium roof sheet?",
+      options: [
+        "Synthetic resin bonding",
+        "Linear surface pattern",
+        "Electrical insulation",
+        "Biological cell growth",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Both items exhibit parallel, alternating linear ridges that create repetitive textures and provide structural rigidity.",
+    ),
+    QuizQuestion(
+      question:
+          "6. When a craftsman in Ghana evaluates a newly made cane basket, what is the most critical question regarding functional design?",
+      options: [
+        "Was the cane cut during a full moon?",
+        "Can it be traded for imported items?",
+        "Does it hold weight without breaking?",
+        "Is it painted with three oil colours?",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "The primary goal of utilitarian design is functional effectiveness; the basket must hold its intended load securely.",
+    ),
+    QuizQuestion(
+      question:
+          "7. Why are manmade geometric designs often preferred for school building construction?",
+      options: [
+        "Irregular curved walls can never support any timber roofs",
+        "Curved natural lines are completely illegal in city zoning",
+        "Rectangular shapes make laying uniform blocks easier",
+        "Natural building materials are impossible to find in Ghana",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Regular geometric forms such as rectangles simplify measuring, standardising construction units, and stacking uniform blocks safely.",
+    ),
+    QuizQuestion(
+      question:
+          "8. What role does light and shadow value play when an artist sketches a model of a new building?",
+      options: [
+        "It replaces the need for solid construction foundations",
+        "It shows how the structure looks during heavy rainfall",
+        "It reduces the quantity of concrete required for blocks",
+        "It gives flat lines a realistic three-dimensional depth",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Value represents gradations between light and dark, creating the visual illusion of three-dimensional form and solid volume on a flat surface.",
+    ),
+    QuizQuestion(
+      question:
+          "9. Which of the following is an example of an irregular, organic natural shape?",
+      options: [
+        "The profile of a cumulus rain cloud",
+        "A standard plastic classroom ruler",
+        "A cut glass square window panel",
+        "A rectangular cement building block",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Clouds, coastlines, and tree canopies display free-form, organic, and irregular contours rather than manufactured geometric edges.",
+    ),
+    QuizQuestion(
+      question:
+          "10. How can a Ghanaian clothing designer best incorporate nature into a new fabric design?",
+      options: [
+        "By sewing live insects and damp river moss directly into seams",
+        "By using only imported synthetic threads and unwashed plastics",
+        "By stitching plain undyed wool without adding any pattern lines",
+        "By abstracting the branching veins of cocoa leaves into patterns",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation:
+          "Visual designers observe natural structures—such as leaf venation—and stylise them into repeating patterns for textiles and fashion.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss3Lesson7QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l7/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What term describes contemporary events or problems of public concern currently affecting society?",
+      options: [
+        "Ancient mythical stories",
+        "Prehistoric fossil tools",
+        "Topical or emergent issues",
+        "Classical foreign epics",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Topical and emergent issues refer to active, pressing community challenges that impact modern life.",
+    ),
+    QuizQuestion(
+      question: "2. During which seasonal period do indiscriminate bushfires most frequently devastate farms in Ghana?",
+      options: [
+        "The heavy rainfall months",
+        "The dry harmattan season",
+        "The mid-year flood weeks",
+        "The coastal ocean season",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Bushfires occur primarily during the dry season when vegetation is dry and harmattan winds spread flames rapidly.",
+    ),
+    QuizQuestion(
+      question: "3. Which of the following is an emergent social vice addressed in contemporary Ghanaian theatrical plays?",
+      options: [
+        "Cyber fraud or sakawa",
+        "Solar power assembly",
+        "Scientific research labs",
+        "Public tree cultivation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Playwrights frequently dramatize the destructive consequences of internet fraud to warn young people.",
+    ),
+    QuizQuestion(
+      question: "4. What major cash crop suffered massive acreage destruction during Ghana's historic bushfires of 1982 and 1983?",
+      options: [
+        "Sugar beet roots",
+        "Cocoa plantations",
+        "Imported oat fields",
+        "Temperate barley grain",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Widespread bushfires in 1982 and 1983 destroyed thousands of acres of cocoa farms across Ghana's forest regions.",
+    ),
+    QuizQuestion(
+      question: "5. What evaluation activity allows learners to critically assess the themes, actors, and message of a stage play?",
+      options: [
+        "Formal costume recycling",
+        "Ticket gate counting",
+        "Sound booth dismantling",
+        "Group discussion appraisal",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Group discussion and appraisal provide an interactive structure to analyze performance elements and social relevance.",
+    ),
+    QuizQuestion(
+      question: "6. Which natural bodily system is most acutely injured by prolonged exposure to thick wildfire smoke?",
+      options: [
+        "The human respiratory tract",
+        "The skeletal bone marrow",
+        "The peripheral nerve ends",
+        "The inner digestive tract",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Inhaling smoke and fine particulate matter causes eye irritation and serious respiratory tract illnesses.",
+    ),
+    QuizQuestion(
+      question: "7. Which illegal activity destroys river bodies and agricultural lands in Ghana and is depicted in drama?",
+      options: [
+        "Traditional canoe fishing",
+        "Organic backyard farming",
+        "Illegal mining or galamsey",
+        "Rural poultry management",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Illegal small-scale gold mining, or galamsey, causes water pollution and land degradation, making it a prominent drama topic.",
+    ),
+    QuizQuestion(
+      question: "8. Why do educational dance dramas use dramatic body movements and coloured fabrics on stage?",
+      options: [
+        "To make issues visually clear",
+        "To replace all spoken text",
+        "To lower electrical bills",
+        "To shorten rehearsal times",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Visual choreography and symbolic props make abstract social and environmental problems striking and easily understood.",
+    ),
+    QuizQuestion(
+      question: "9. What positive community outcome occurs when learners document key takeaways from social drama appraisals?",
+      options: [
+        "Higher entry fees for plays",
+        "Ban on community storytelling",
+        "Loss of traditional folklore",
+        "Developing community solutions",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Documenting and discussing performance lessons helps students propose practical solutions to community problems.",
+    ),
+    QuizQuestion(
+      question: "10. Which human activity is a documented cause of accidental bushfires during the dry harmattan period?",
+      options: [
+        "Harvesting ripe tomatoes",
+        "Planting vegetable seeds",
+        "Digging household wells",
+        "Careless fire for hunting",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Careless fire use, such as hunters burning bushes to catch game, is a leading trigger of devastating wildfires.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss3Lesson6QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L6/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What does the Akan stage name \"Obour\" literally signify?",
+      options: ["Fire", "Water", "Cloud", "Stone"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "In the Akan language, the word \"Obour\" means stone, representing resilience and solid strength.",
+    ),
+    QuizQuestion(
+      question: "2. Which national organisation elected Bice Osei Kuffour as its executive leader?",
+      options: [
+        "Actors Guild of Greater Accra",
+        "Musicians Union of Ghana",
+        "Traditional Drummers League",
+        "Visual Arts Teachers Council",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Obour served as the immediate past president of the Musicians Union of Ghana, representing performing artistes nationwide.",
+    ),
+    QuizQuestion(
+      question: "3. What major civic campaign did Obour organise across Ghana before national elections?",
+      options: [
+        "The National Peace Campaign",
+        "The Foreign Gold Mining Tour",
+        "The High Forest Clearing Drive",
+        "The Urban Car Export Project",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Obour spearheaded the Ghana Peace Project to promote unity, non-violence, and political stability ahead of national general elections.",
+    ),
+    QuizQuestion(
+      question: "4. What severe municipal issue occurs in Ghanaian towns when plastic waste blocks open gutters?",
+      options: [
+        "Severe surface flooding",
+        "Rapid mineral formation",
+        "Extreme drought seasons",
+        "High coastal sea breeze",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Discarded plastics clog gutters and stormwater drains, preventing rainwater runoff and causing devastating urban floods.",
+    ),
+    QuizQuestion(
+      question: "5. Which children's educational platform featured sanitation songs composed by Obour?",
+      options: [
+        "National Science Fair",
+        "Ubongo Kids series",
+        "African Sports Review",
+        "Golden Book Reader",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Obour composed and performed educational sanitation music for the Ubongo educational platform to teach children hygiene.",
+    ),
+    QuizQuestion(
+      question: "6. Which international cultural organisation appointed Obour as a Climate Change Ambassador?",
+      options: [
+        "The British Council",
+        "The French Institute",
+        "The Nordic Fellowship",
+        "The American Guild",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Obour was appointed as a Climate Change Ambassador by the British Council to champion environmental sustainability.",
+    ),
+    QuizQuestion(
+      question: "7. What tertiary institution did Obour attend to study Sociology and Music?",
+      options: [
+        "University of Cape Coast",
+        "University of Ghana",
+        "Kwame Nkrumah University",
+        "University of Education",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Obour studied Sociology and Music at the University of Ghana, Legon, where he was a member of Commonwealth Hall.",
+    ),
+    QuizQuestion(
+      question: "8. Why do public health and environmental campaigns use drama rather than written circulars alone?",
+      options: [
+        "To make lessons entertaining and memorable",
+        "To hide public safety instructions from readers",
+        "To replace all academic schools with theatres",
+        "To avoid using local languages on television",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Drama creates relatable characters and emotional connections, making important public lessons engaging, understandable, and memorable.",
+    ),
+    QuizQuestion(
+      question: "9. In what secondary school did Obour complete his senior secondary education?",
+      options: [
+        "Achimota School in Accra",
+        "Prempeh College in Kumasi",
+        "Mfantsipim School in Cape Coast",
+        "Opoku Ware School in Kumasi",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Obour completed his secondary education at Mfantsipim School in Cape Coast.",
+    ),
+    QuizQuestion(
+      question: "10. What civic duty is demonstrated when an artiste uses their platform to champion clean environments?",
+      options: [
+        "Commercial profit seeking",
+        "Corporate brand expansion",
+        "Foreign export trading",
+        "Positive social responsibility",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Using one's artistic talents and public influence to solve community challenges is a clear demonstration of social responsibility.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss3Lesson5QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L5/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which administrative region of Ghana is the traditional home of the indigenous Bawa dance?",
+      options: [
+        "Upper West Region",
+        "Western North Region",
+        "Greater Accra Region",
+        "Central Coast Region",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Bawa dance originated among the Lobi and Dagaaba peoples located in the Upper West Region of Ghana.",
+    ),
+    QuizQuestion(
+      question: "2. Which pair of percussion instruments provides the driving rhythm for the Saakumu Dance Troupe?",
+      options: [
+        "Synthesizer and electric horn",
+        "Apentema and brekete drums",
+        "Grand piano and violin strings",
+        "Modern drumkit and steel cymbals",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Saakumu Dance Troupe utilizes traditional drums including the apentema, brekete, and donno.",
+    ),
+    QuizQuestion(
+      question: "3. What type of agricultural event originally prompted the communal performance of the Bawa dance?",
+      options: [
+        "Clearing weeds before burning",
+        "Digging irrigation drainage",
+        "Celebrating crop harvest",
+        "Planting seedlings in spring",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Bawa is historically an agricultural harvest dance performed to thank God and the ancestors for abundant farm yields.",
+    ),
+    QuizQuestion(
+      question: "4. What does the lead gyile player observe constantly during a live Bawa performance?",
+      options: [
+        "Movement of the dancers",
+        "Sheet notation scores",
+        "Sunset on the horizon",
+        "Position of village elders",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "The xylophonist adapts tempos, melodic cues, and variations in direct response to the energy and steps of the dancers.",
+    ),
+    QuizQuestion(
+      question: "5. What wearable item do Bawa performers fasten to their legs to accentuate their rhythmic footwork?",
+      options: [
+        "Heavy rubber gumboots",
+        "Polished brass bangles",
+        "Braided cotton stockings",
+        "Metal bells and castanets",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Dancers wear metal ankle bells and castanets so that every stamp and leap produces crisp percussive sound.",
+    ),
+    QuizQuestion(
+      question: "6. Where is the official home and operating base of the Saakumu Dance Troupe situated?",
+      options: [
+        "Medie, near Accra",
+        "Berekum in Bono",
+        "Salaga in Savannah",
+        "Nandom in Upper West",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The Saakumu Dance Troupe is officially based at Medie, Accra, where they train and choreograph works.",
+    ),
+    QuizQuestion(
+      question: "7. What term defines modern performance ensembles that adapt traditional music styles for the stage?",
+      options: [
+        "Foreign classical chamber",
+        "Neo-traditional group",
+        "Electronic brass collective",
+        "Western marching squadron",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Neo-traditional music refers to modern adaptations and contemporary stage arrangements of indigenous musical forms.",
+    ),
+    QuizQuestion(
+      question: "8. Which wind instrument from northern Ghana is included in the Saakumu Dance Troupe setup?",
+      options: [
+        "Atenteben flute",
+        "Brass trumpet",
+        "The wia flute",
+        "The tin whistle",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Saakumu incorporates the traditional northern wia flute alongside southern drums and dawuro iron bells.",
+    ),
+    QuizQuestion(
+      question: "9. Why does the Saakumu Dance Troupe combine instruments from multiple Ghanaian cultural zones?",
+      options: [
+        "To confuse festival judges",
+        "To eliminate traditional rhythms",
+        "To lower rehearsal expenses",
+        "To celebrate diverse culture",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Combining instruments from different regions promotes national integration and highlights the rich variety of Ghanaian cultures.",
+    ),
+    QuizQuestion(
+      question: "10. What religious body historically adopted and revived the Bawa dance for recreational worship?",
+      options: [
+        "The Catholic Church",
+        "The Methodist Synod",
+        "The Anglican Mission",
+        "The Baptist Council",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "In the Upper West Region, the Catholic Church embraced Bawa as an inculturated recreational and festival dance.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss3Lesson4QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l4/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. In which town was the celebrated composer Dr Ephraim Koku Amu born in 1899?",
+      options: [
+        "Peki-Avetile",
+        "Mampong-Ashanti",
+        "Akropong-Akuapem",
+        "Effiduase-Asante",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Dr Ephraim Amu was born at Peki-Avetile in the Volta Region of Ghana.",
+    ),
+    QuizQuestion(
+      question: "2. Which choral composition was composed by Professor J. H. Kwabena Nketia?",
+      options: ["Israel Hene", "Adanse Kronkron", "Yetu Osa", "Dwonto"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Adanse Kronkron is one of the celebrated choral compositions of Professor Kwabena Nketia.",
+    ),
+    QuizQuestion(
+      question: "3. What major musical issue did Professor Kwabena Nketia resolve regarding the transcription of African music?",
+      options: [
+        "The tuning of electric bass amplifiers",
+        "The naming of brass instrument valves",
+        "The translation of Italian opera text",
+        "The misrepresentation of rhythm meter",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Nketia proved that using six-eight time resolved the misleading transcription of African rhythm previously forced into duple time.",
+    ),
+    QuizQuestion(
+      question: "4. Which traditional stringed harp-lute was studied and written for by Dr Ephraim Amu?",
+      options: ["Seprewa", "Fontomfrom", "Atumpan", "Brekete"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Dr Ephraim Amu had a deep personal interest in reviving and composing for the traditional seprewa.",
+    ),
+    QuizQuestion(
+      question: "5. Which teacher training college was attended and served by Professor J. H. Kwabena Nketia?",
+      options: [
+        "Offinso College in Ashanti",
+        "Mampong College of Education",
+        "Presbyterian College in Akropong",
+        "Wesley College in Kumasi",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Professor Nketia was trained as a teacher and later taught at the Presbyterian Training College in Akropong.",
+    ),
+    QuizQuestion(
+      question: "6. What topical issue or civic virtue is primarily promoted by Dr Ephraim Amu's Yen Ara Asase Ni?",
+      options: [
+        "Environmental plastic cleanup",
+        "Industrial export of cocoa",
+        "Patriotism and self-sacrifice",
+        "Commercial road construction",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Yen Ara Asase Ni calls upon all citizens to demonstrate active patriotism, sacrifice, and civic responsibility for Ghana.",
+    ),
+    QuizQuestion(
+      question: "7. Which famous overseas music conservatory did Professor Kwabena Nketia attend in the United States?",
+      options: [
+        "Sydney Opera Conservatory",
+        "Juilliard School of Music",
+        "Royal College of Britain",
+        "Paris Modern Sound Academy",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Professor Nketia studied composition and musicology at the Juilliard School of Music and Columbia University.",
+    ),
+    QuizQuestion(
+      question: "8. What did Dr Ephraim Amu carry on his head while walking overnight from Frankadua to Peki?",
+      options: [
+        "A five-octave folding organ",
+        "A set of brass bugle horns",
+        "A heavy box of lesson slates",
+        "A pair of royal talking drums",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "When his motor transport could go no further, Amu carried the school's newly purchased five-octave folding organ on his head all the way to Peki.",
+    ),
+    QuizQuestion(
+      question: "9. Which orchestral instrument combination characterizes Kwabena Nketia's instrumental pieces like Volta Fantasy?",
+      options: [
+        "Synthesizers and electric guitar lines",
+        "Traditional gongs and military cannons",
+        "Church bells and electronic organs",
+        "Western orchestra and local instruments",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Nketia wrote works blending Western orchestral instruments (flute, violin, cello) with traditional African instruments.",
+    ),
+    QuizQuestion(
+      question: "10. What cultural statement did Dr Ephraim Amu famously make through his personal dress code?",
+      options: [
+        "Wearing imported tailored suits",
+        "Wearing military combat uniforms",
+        "Wearing traditional African cloth",
+        "Wearing white academic choir robes",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Dr Amu famously insisted on preaching and lecturing in traditional Ghanaian cloth, expressing pride in African cultural identity.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss3Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l3/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What art term describes large, three-dimensional artworks that transform a whole gallery wall, floor, or outdoor environment?",
+      options: [
+        "Miniature wood carving",
+        "Studio figure drawing",
+        "Print block etching",
+        "Visual installation art",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Installation art refers to large-scale, three-dimensional assemblages configured within a specific space to change how viewers experience that environment.",
+    ),
+    QuizQuestion(
+      question: "2. Which common household object is the central medium for Serge Attukwei Clottey's sculptural installations?",
+      options: [
+        "The yellow Kufuor gallon",
+        "The carved wooden mortar",
+        "The hand-woven cane basket",
+        "The fired clay cooking pot",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Clottey uses discarded yellow plastic jerrycans, popularly known as Kufuor gallons, to create his sculptural assemblages.",
+    ),
+    QuizQuestion(
+      question: "3. What method does El Anatsui use to secure thousands of metal bottle caps into flexible hanging sheets?",
+      options: [
+        "Melting with open fire torch",
+        "Wiring together with copper",
+        "Sticking with hot gum paste",
+        "Sewing with braided cotton",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Anatsui pierces small holes through flattened aluminium caps and binds them securely using thin copper wire.",
+    ),
+    QuizQuestion(
+      question: "4. What key historical and social issue inspired the widespread adoption of the yellow gallon in Ghanaian homes?",
+      options: [
+        "Exporting palm wine overseas",
+        "Storing bulk petrol in mines",
+        "Storing domestic water supply",
+        "Packing cocoa seeds for ship",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Yellow gallons were widely repurposed across Ghanaian households to fetch and store water during times of water scarcity.",
+    ),
+    QuizQuestion(
+      question: "5. Which contemporary artist coined the term \"Afrogallonism\" to define his creative installations and performances?",
+      options: [
+        "Dr Ephraim Amu",
+        "Serge Attukwei Clottey",
+        "Professor Ablade Glover",
+        "Nii Amon Kotei",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dr Serge Attukwei Clottey developed and named the concept \"Afrogallonism\" to describe his work with plastic containers.",
+    ),
+    QuizQuestion(
+      question: "6. Approximately how long does ordinary plastic take to degrade naturally when left in the environment?",
+      options: [
+        "Over four hundred years",
+        "Under fifteen weekdays",
+        "Exactly three decades",
+        "Less than eight months",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Plastics have durable chemical bonds and take over 400 years to degrade, making plastic pollution a severe environmental crisis.",
+    ),
+    QuizQuestion(
+      question: "7. What traditional Ghanaian textile is visually echoed by El Anatsui's massive shimmering metallic wall hangings?",
+      options: [
+        "Plain calico mourning band",
+        "Heavy woollen horse blanket",
+        "Woven festive kente cloth",
+        "Simple rough farmer burlap",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "The colourful, geometric, and folded folds of Anatsui's bottle-cap tapestries evoke the patterns and drape of kente cloth.",
+    ),
+    QuizQuestion(
+      question: "8. What physical preparation does Clottey perform on plastic jerrycans before stitching them into installations?",
+      options: [
+        "Burning the plastic into ashes",
+        "Freezing them in cooling tanks",
+        "Soaking them in boiling bitumen",
+        "Cutting and drilling the tiles",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Clottey's team flattens the gallons, cuts them into square shapes, and drills holes through each corner for wiring.",
+    ),
+    QuizQuestion(
+      question: "9. Why does El Anatsui avoid fixing the folds of his metallic sculptures into a single rigid permanent position?",
+      options: [
+        "To allow dynamic new displays",
+        "To hide poor welding points",
+        "To save money on exhibition",
+        "To make storage impossible",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "El Anatsui keeps his sculptures flexible so they can be reshaped and reinterpreted whenever installed in a new venue.",
+    ),
+    QuizQuestion(
+      question: "10. What shared topical goal motivates both El Anatsui and Serge Attukwei Clottey in their artistic practices?",
+      options: [
+        "Avoiding all African heritage",
+        "Selling imported oil products",
+        "Raising environmental concerns",
+        "Banning all public exhibitions",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Both artists address environmental degradation and sustainability by turning discarded community waste into monumental art.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss3Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L2/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. How does Professor Ablade Glover apply oil paint to achieve thick, raised textures on his canvas?",
+      options: [
+        "By smoothing it out with flat sponge rollers",
+        "By drawing narrow lines with a bamboo stick",
+        "By brushing it lightly using horsehair quills",
+        "By sculpting it with a flexible palette knife",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Glover uses a flexible palette knife to scoop and layer thick oil paint directly onto the canvas.",
+    ),
+    QuizQuestion(
+      question: "2. Which visual composition feature is most evident when examining the Ghana Coat of Arms?",
+      options: [
+        "Symmetrical balance",
+        "Blurry impressionism",
+        "Heavy paint ridges",
+        "Distorted anatomy",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Coat of Arms features formal symmetrical balance, with matching eagles and dividing lines around the shield.",
+    ),
+    QuizQuestion(
+      question: "3. What central social group did Professor Glover choose to celebrate in his acclaimed series of paintings?",
+      options: [
+        "Urban civil servants",
+        "Brave market women",
+        "Gold coast soldiers",
+        "Foreign sea traders",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Glover's paintings frequently depict the energy, bravery, and economic resilience of Ghanaian market women.",
+    ),
+    QuizQuestion(
+      question: "4. In what physical setting are the artworks of Nii Amon Kotei most commonly encountered by citizens?",
+      options: [
+        "Local craft markets",
+        "Private dormitories",
+        "Government offices",
+        "Roadside billboards",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "As a national emblem, the Coat of Arms appears in government ministries, law courts, and on official stationery.",
+    ),
+    QuizQuestion(
+      question: "5. What major similarity exists between the artistic intentions of Theodosia Okoh and Nii Amon Kotei?",
+      options: [
+        "Both aimed to design commercial trade banners",
+        "Both aimed to express independence and unity",
+        "Both focused on painting rural cattle farmers",
+        "Both dedicated their lives to carving trophies",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Both artists created iconic sovereign emblems meant to unite Ghana as an independent nation in 1957.",
+    ),
+    QuizQuestion(
+      question: "6. How does the viewer's experience change when stepping back from one of Ablade Glover's market paintings?",
+      options: [
+        "Textured paint strokes resolve into crowds",
+        "The colours instantly turn black and grey",
+        "The figures turn into precise typography",
+        "The painted canvas seems completely blank",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Glover's semi-abstract impasto paint marks appear as textured blocks up close, but resolve into recognisable crowds from a distance.",
+    ),
+    QuizQuestion(
+      question: "7. Why did Nii Amon Kotei choose clear outlines and precise forms for the national Coat of Arms?",
+      options: [
+        "To make it cheap to print on festival cloths",
+        "To hide the symbolic meaning from foreigners",
+        "To allow easy reproduction on state emblems",
+        "To finish the design quickly before morning",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Official emblems require clear, reproducible contours so they can be cast in bronze, carved in wood, or printed on state seals.",
+    ),
+    QuizQuestion(
+      question: "8. Which institution did Professor Ablade Glover establish to assist Ghanaian artists in selling and exhibiting art?",
+      options: [
+        "The National Theatre School",
+        "The Achimota Ceramic Guild",
+        "The Kumasi Cultural Pavilion",
+        "The Artists Alliance Gallery",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Professor Glover founded the Artists Alliance Gallery in Accra to train, exhibit, and support local artists.",
+    ),
+    QuizQuestion(
+      question: "9. What shared theme connects both official civic art and Glover's expressive community paintings?",
+      options: [
+        "Deep pride in Ghanaian culture and life",
+        "Rejection of modern Ghanaian identity",
+        "Strict focus on foreign colonial history",
+        "Avoidance of real-world social subjects",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Both forms of artwork celebrate Ghanaian identity, either through sovereign national pride or communal daily life.",
+    ),
+    QuizQuestion(
+      question: "10. What contrast in artistic discipline is observed between Nii Amon Kotei and Professor Ablade Glover?",
+      options: [
+        "Kotei combined graphic heraldry and sculpture while Glover specialized in impasto painting",
+        "Kotei only made woven tapestries while Glover carved stone monuments for town squares",
+        "Kotei worked with photography while Glover worked as an industrial glass blower",
+        "Kotei drew animated cinema sketches while Glover focused solely on clay pottery",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Kotei worked across graphic design, surveying, and sculpture, while Glover became globally famous for his distinct impasto oil paintings.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss3Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L1/7. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which Ghanaian visual artist designed the national flag adopted in 1957?",
+      options: [
+        "Theodosia Salome Okoh",
+        "Nii Amon Kotei",
+        "Kofi Antubam",
+        "Ablade Glover",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Theodosia Salome Okoh designed the national flag of Ghana to replace the Union flag upon independence in 1957.",
+    ),
+    QuizQuestion(
+      question: "2. What primary theme appears most consistently across the textured paintings of Professor Ablade Glover?",
+      options: [
+        "Wild safari predators",
+        "Distant ocean voyages",
+        "Traditional stool carvers",
+        "Hard-working market women",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Professor Glover consistently highlights the vitality, bravery, and economic contribution of Ghanaian market women.",
+    ),
+    QuizQuestion(
+      question: "3. Which tool does Professor Ablade Glover use instead of traditional brushes to create his impasto style?",
+      options: [
+        "A soft calligraphy quill",
+        "A flexible palette knife",
+        "A wide sheepskin sponge",
+        "A carved wooden spatula",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Ablade Glover applies oil paint to canvas using a palette knife, producing heavy, dynamic ridges of pigment.",
+    ),
+    QuizQuestion(
+      question: "4. What does the red band on the national flag of Ghana specifically commemorate?",
+      options: [
+        "Blood shed for independence",
+        "Mineral wealth of the earth",
+        "Agricultural forest richness",
+        "Dawn of African emancipation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The red colour honours patriots who sacrificed their lives and shed blood in the struggle for national freedom.",
+    ),
+    QuizQuestion(
+      question: "5. Which artist, surveyor, and musician designed the official Coat of Arms of Ghana?",
+      options: [
+        "Theodosia Salome Okoh",
+        "Nii Amon Kotei",
+        "Ephraim Koku Amu",
+        "Saka Acquaye",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Nii Amon Kotei designed Ghana's official Coat of Arms shortly before independence.",
+    ),
+    QuizQuestion(
+      question: "6. Where did Professor Ablade Glover establish an art gallery to support and showcase local visual artists?",
+      options: ["Sunyani", "Tamale", "Accra", "Ho"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Professor Glover founded the Artists Alliance Gallery in Accra to showcase Ghanaian and African visual art.",
+    ),
+    QuizQuestion(
+      question: "7. What major landmark institution did Nii Amon Kotei attend for his secondary education in Ghana?",
+      options: [
+        "Prempeh College in Kumasi",
+        "Adisadel College in Cape Coast",
+        "Mfantsipim School in Cape Coast",
+        "Achimota School in Accra",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Nii Amon Kotei completed his foundational artistic and academic training at Achimota School in Accra.",
+    ),
+    QuizQuestion(
+      question: "8. On the national flag, what does the centrally placed five-pointed Black Star represent?",
+      options: [
+        "African freedom and unity",
+        "Vast subterranean minerals",
+        "Fertile high-canopy timber",
+        "Valour of fallen warriors",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Black Star stands as the symbol of African emancipation, unity, and independence.",
+    ),
+    QuizQuestion(
+      question: "9. Which two birds of prey support the central shield on the Ghana Coat of Arms?",
+      options: [
+        "Silver pelicans",
+        "Brown osprey",
+        "Golden eagles",
+        "Black hawks",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Two golden eagles flank the central shield of the Coat of Arms, symbolising dignity, vigilance, and authority.",
+    ),
+    QuizQuestion(
+      question: "10. Which academic title and role was held by Professor Ablade Glover during his university tenure?",
+      options: [
+        "Vice Chancellor of the University of Cape Coast",
+        "Director of the Institute of African Studies",
+        "Principal of the Wesley Teacher Training College",
+        "College Dean at Kwame Nkrumah University",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Ablade Glover served as Department Head and College Dean at Kwame Nkrumah University of Science and Technology.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson9QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L9/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. In theatrical appraisal, what does the term voice projection refer to?",
+      options: [
+        "Whispering lines quietly to avoid stage fright.",
+        "Singing Western scales during dramatic pauses.",
+        "Speaking loudly and clearly across the venue.",
+        "Shouting angrily at audience members in front.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Voice projection is the technique of using breath support and resonance to carry dialogue clearly to the back of the auditorium.",
+    ),
+    QuizQuestion(
+      question: "2. When appraising a traditional Akan dance, what aspect of gesture is evaluated?",
+      options: [
+        "The sharpness of the iron nails on the drum rims.",
+        "The expressive meaning of hand and wrist movements.",
+        "The brand name of the electronic video camera.",
+        "The total attendance figures recorded by ushers.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "In traditional Ghanaian dance, hand, wrist, and bodily gestures communicate specific symbolic meanings, emotions, and proverbs.",
+    ),
+    QuizQuestion(
+      question: "3. What is the key difference between appreciation and appraisal in performing arts?",
+      options: [
+        "Appreciation values qualities, while appraisal evaluates.",
+        "Appreciation uses drums, while appraisal uses bells.",
+        "Appreciation is written, while appraisal is drawn.",
+        "Appreciation is foreign, while appraisal is local.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Appreciation focuses on recognizing and enjoying artistic merit, whereas appraisal involves structured assessment of performance quality and technique.",
+    ),
+    QuizQuestion(
+      question: "4. Which item is evaluated on a drama checklist when observing character movements?",
+      options: [
+        "Stage blocking and physical spatial awareness.",
+        "The sale price of commercial programmes.",
+        "The electrical wattage of stage floodlights.",
+        "The weight of heavy storage packing crates.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Stage blocking assesses how deliberately and effectively actors move across the stage space during a dramatic scene.",
+    ),
+    QuizQuestion(
+      question: "5. How does compiling an appraisal report benefit student actors and dancers?",
+      options: [
+        "It eliminates the need for further school studies.",
+        "It highlights areas for targeted skill improvement.",
+        "It allows performers to skip all vocal rehearsals.",
+        "It automatically awards commercial stage contracts.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "An appraisal report identifies specific artistic strengths and weaknesses, guiding learners on how to improve their performance craft.",
+    ),
+    QuizQuestion(
+      question: "6. When evaluating dance costumes, why must traditional standards be respected?",
+      options: [
+        "To replace the need for traditional slit bells.",
+        "To shorten the length of the choreography.",
+        "To preserve cultural identity and authenticity.",
+        "To ensure performers do not sweat on the stage.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Traditional attire carries cultural meaning; adhering to indigenous costuming norms maintains cultural authenticity and visual dignity.",
+    ),
+    QuizQuestion(
+      question: "7. What should an appraisal team do when presenting findings to the class?",
+      options: [
+        "Mock students who made mistakes during the show.",
+        "Share rubric scores and constructive feedback.",
+        "Disband the school cultural performing club.",
+        "Refuse to discuss areas needing improvement.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Presenting appraisal results involves sharing objective scores, highlighting successes, and offering constructive suggestions in a respectful manner.",
+    ),
+    QuizQuestion(
+      question: "8. Which criterion assesses whether an actor pronounces lines distinctly?",
+      options: [
+        "Costume design",
+        "Stage blocking",
+        "Audience applause",
+        "Lyric diction",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Diction refers to the clarity and crisp articulation of words and syllables in spoken or sung delivery.",
+    ),
+    QuizQuestion(
+      question: "9. What does the term movement variation signify in a dance appraisal?",
+      options: [
+        "The changing patterns, levels, and rhythms in steps.",
+        "The number of chairs arranged in the hall aisles.",
+        "The volume control switches on sound speakers.",
+        "The total length of the introductory aho solo.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Movement variation evaluates whether dancers incorporate different floor patterns, tempos, and body levels into their choreography.",
+    ),
+    QuizQuestion(
+      question: "10. What is the immediate next step after a performance group receives its appraisal report?",
+      options: [
+        "Burning the report to prevent public reading.",
+        "Suing the appraisal committee in local courts.",
+        "Refusing to perform in subsequent festivals.",
+        "Modifying rehearsals to correct identified flaws.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Receiving an appraisal report allows the director and cast to target weaknesses and adjust their staging, delivery, and choreography during rehearsals.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson8QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L8/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which animal did the ancient hunter observe beating its chest, inspiring the Adowa rhythm?",
+      options: [
+        "A spotted forest leopard",
+        "A chimpanzee in the night",
+        "A wild African elephant",
+        "A horned bush river buffalo",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Akan folklore states that a hunter observed a chimpanzee beating its chest, producing sounds that inspired the original Adowa drumming patterns.",
+    ),
+    QuizQuestion(
+      question: "2. Which of the following is recognized as a specific playing style of Akan Adowa music?",
+      options: [
+        "Agbadza rhythm",
+        "Bamaya step",
+        "Dampon style",
+        "Kpanlogo beat",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Dampon is one of the recognized regional playing styles of Adowa, along with Adowa pa, Asokore Mampong, Adefe, and Techiman.",
+    ),
+    QuizQuestion(
+      question: "3. What is the traditional duty of the bell player immediately after the aho vocal intro?",
+      options: [
+        "Setting the pace and timeline for the band.",
+        "Singing a second solo without percussion.",
+        "Collecting tickets from arriving audience.",
+        "Leaving the stage area until the finale.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Once the introductory aho phrase finishes, the bell player is invited by the master drummer to set the steady timeline pace.",
+    ),
+    QuizQuestion(
+      question: "4. When staging a drama skit about road accidents, what is the main goal of voice rehearsals?",
+      options: [
+        "Ensuring audience members clearly hear lines.",
+        "Allowing drummers to shout across the hall.",
+        "Changing the script language without warning.",
+        "Shortening the play by speaking very quickly.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Voice projection rehearsals train actors to speak dialogue with sufficient resonance and clarity for every member of the audience.",
+    ),
+    QuizQuestion(
+      question: "5. How is the male dancer's body traditional cloth arranged for an Adowa presentation?",
+      options: [
+        "Completely covering both shoulders to head.",
+        "Tied at waist to calves, upper torso bare.",
+        "Fastened over left knee with leather straps.",
+        "Wrapped as a tight scarf around the neck.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Male Adowa dancers secure a piece of cloth folded around the waist reaching the calves, keeping the upper torso bare.",
+    ),
+    QuizQuestion(
+      question: "6. Which drum serves as an indigenous hourglass talking drum within an Adowa ensemble?",
+      options: ["Atumpan", "Apentemma", "Donno", "Abrukua"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The donno is the hourglass-shaped talking drum held under the arm, used in Adowa ensembles alongside wooden peg drums.",
+    ),
+    QuizQuestion(
+      question: "7. Why is venue inspection considered an essential first step when preparing a dance display?",
+      options: [
+        "To ensure surface safety and good visibility.",
+        "To replace all traditional cultural costumes.",
+        "To avoid printing identification programme cards.",
+        "To prevent any spectators from taking seats.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Checking the venue ensures that the floor is safe and free from hazards for dancers and that audience sightlines are clear.",
+    ),
+    QuizQuestion(
+      question: "8. On which occasion is the Adowa dance traditionally performed in Akan communities?",
+      options: [
+        "Modern commercial bank board meetings",
+        "Private household kitchen cooking times",
+        "Solemn funerals and royal palace durbars",
+        "Silent independent study library hours",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Adowa is traditionally performed during significant cultural and social occasions such as royal durbars, enstoolments, festivals, and funerals.",
+    ),
+    QuizQuestion(
+      question: "9. In an Adowa performance, what role do female singers play while standing behind drummers?",
+      options: [
+        "Providing choral vocal melodies and refrains.",
+        "Directing stage lighting equipment lamps.",
+        "Playing heavy wooden atumpan master drums.",
+        "Guarding the closed entrance to the arena.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The female chorus stands behind the instrumentalists, singing melodies, refrains, and providing vocal harmonies that drive the dance.",
+    ),
+    QuizQuestion(
+      question: "10. What is the primary purpose of staging a drama skit about transport safety in a town?",
+      options: [
+        "To advertise motor vehicle engine oils.",
+        "To collect council tolls from transport vans.",
+        "To replace national legal highway codes.",
+        "To educate drivers and passengers on safety.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A drama skit addressing transport accidents uses dramatic storytelling to educate road users on safe habits and civic responsibility.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson7QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHs2_s2_ss2_L7/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Martin Owusu's historical play The Mightier Sword was primarily based on events surrounding which historical event?",
+      options: [
+        "The Sagrenti War in Cape Coast",
+        "The Asante-Denkyira War conflict",
+        "The founding of the University of Legon",
+        "The construction of the Akosombo Dam",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Mightier Sword is a historical drama based on the epic military and political clash of the Asante-Denkyira War.",
+    ),
+    QuizQuestion(
+      question: "2. What is the main reason student playwrights write dramas about local sanitation problems?",
+      options: [
+        "To replace formal science textbooks in schools.",
+        "To persuade community members to keep surroundings clean.",
+        "To raise money to buy imported stage projectors.",
+        "To force town residents to pay higher council taxes.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dramatic plays highlighting sanitation educate viewers on hygiene and motivate civic action to keep drains and streets tidy.",
+    ),
+    QuizQuestion(
+      question: "3. Which traditional storytelling tradition did Martin Owusu frequently adapt for school stage plays?",
+      options: [
+        "Ananse folklore stories",
+        "Ancient Roman mythology",
+        "Shakespearean sonnets",
+        "European sea adventures",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Owusu gained fame by adapting traditional Ananse trickster tales into captivating dramatic scripts for student performers.",
+    ),
+    QuizQuestion(
+      question: "4. When drafting a dramatic play script, what does the term dramatis personae designate?",
+      options: [
+        "The complete list of characters",
+        "The financial budget of the play",
+        "The lighting cues for stage lamps",
+        "The electrical sound amplifier box",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Dramatis personae is the theatrical term for the list of characters or cast members participating in a drama.",
+    ),
+    QuizQuestion(
+      question: "5. Why is vocal projection an essential skill developed during drama rehearsals?",
+      options: [
+        "It eliminates the need for proper stage costuming.",
+        "It makes actors speak simultaneously without pauses.",
+        "It ensures the entire audience hears dialogue clearly.",
+        "It reduces the total rehearsal time needed for dance.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Vocal projection allows actors to speak with sufficient volume, resonance, and diction so every listener can understand the play.",
+    ),
+    QuizQuestion(
+      question: "6. What element of drama provides actors with guidance on emotional delivery and physical action?",
+      options: [
+        "Printed stage directions",
+        "The guest ticket slips",
+        "The hall rental receipt",
+        "The stage carpet fabric",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Stage directions describe character emotions, entrances, physical movements, and tone of delivery within the script.",
+    ),
+    QuizQuestion(
+      question: "7. When portraying a dignified elder in a cultural play, which costume choice is most appropriate?",
+      options: [
+        "An imported sports jacket and plastic track shoes",
+        "A woven traditional cloth draped across the shoulder",
+        "A mechanic dark oil-stained cotton work boiler suit",
+        "A synthetic neon yellow swimming costume and flippers",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Draping a traditional woven cloth over the shoulder visually communicates cultural dignity, maturity, and elder status.",
+    ),
+    QuizQuestion(
+      question: "8. How does choreography contribute to the overall impact of a theatrical piece?",
+      options: [
+        "It prevents traditional drummers from playing rhythms.",
+        "It turns the entire drama script into a silent mime.",
+        "It shortens the total length of the dramatic dialogue.",
+        "It uses bodily movement to reinforce narrative emotion.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Choreography uses stylized bodily movement, gesture, and rhythm to elevate dramatic tension and emotional expression.",
+    ),
+    QuizQuestion(
+      question: "9. What is the primary benefit of creating character profiles before writing dialogue?",
+      options: [
+        "It ensures characters have distinct voices and motives.",
+        "It automatically pays all auditorium rental deposits.",
+        "It allows playwrights to skip the climax of the story.",
+        "It guarantees that no traditional drums are utilized.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Developing detailed character profiles gives each persona realistic traits, speech habits, and clear dramatic motivations.",
+    ),
+    QuizQuestion(
+      question: "10. What step should a drama director take if actors stumble into each other on stage?",
+      options: [
+        "Remove all costumes and perform the play in total dark.",
+        "Discontinue the production and cancel the public show.",
+        "Rehearse the entrance and exit blocking repeatedly.",
+        "Instruct the drummers to play their instruments faster.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Re-rehearsing stage blocking establishes clear spatial pathways, preventing physical collisions and ensuring graceful stage movement.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson6QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L6/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term aesthetic appreciation in music primarily signify?",
+      options: [
+        "Buying cheap foreign instruments for school ensembles.",
+        "Copying Western pop sheet music into local notebooks.",
+        "Storing traditional wooden drums inside locked cabinets.",
+        "Understanding and evaluating musical quality and meaning.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Aesthetic appreciation refers to the ability to analyze, interpret, and value the artistic, structural, and cultural qualities of a musical work.",
+    ),
+    QuizQuestion(
+      question: "2. Why do learners use recorded video clips when conducting a performance enquiry?",
+      options: [
+        "To replace the need for practicing traditional instruments.",
+        "To allow repeated viewing and detailed objective analysis.",
+        "To avoid inviting community members to live concerts.",
+        "To grade students solely on their appearance on camera.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Video recordings allow evaluators to pause, replay, and closely observe vocal balance, diction, and staging nuances.",
+    ),
+    QuizQuestion(
+      question: "3. Which of the following is considered a core criterion when evaluating musical stage presence?",
+      options: [
+        "Performer posture, energy, and entrance coordination.",
+        "The personal bank savings of the student conductor.",
+        "The brand name of the electronic video recording tablet.",
+        "The total weight of the brass microphones on the stage.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Stage presence encompasses physical poise, confidence, synchronized stage entrances and exits, and audience engagement.",
+    ),
+    QuizQuestion(
+      question: "4. When evaluating vocal diction in an educational choral presentation, what is being assessed?",
+      options: [
+        "The clarity and pronunciation of the sung lyrics.",
+        "The monetary price paid for the singers' uniforms.",
+        "The total count of wooden benches in the auditorium.",
+        "The length of time taken to sew traditional cloths.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Vocal diction evaluates how distinctly performers pronounce words so the thematic message is conveyed clearly to the audience.",
+    ),
+    QuizQuestion(
+      question: "5. How does examining the emotional mood of a musical piece assist an evaluator?",
+      options: [
+        "It determines the correct sale price of the musical score.",
+        "It checks if the performance feeling matches its theme.",
+        "It allows evaluators to skip evaluating instrumental balance.",
+        "It eliminates the need for disciplined rehearsal schedules.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Evaluating mood ensures the emotional atmosphere generated by tempo, dynamics, and tone matches the subject matter.",
+    ),
+    QuizQuestion(
+      question: "6. Which appraisal term is most appropriate when describing a performance that requires further technical work?",
+      options: [
+        "Completely hopeless",
+        "Utterly worthless",
+        "Needs development",
+        "Entirely broken",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Constructive appraisal utilizes encouraging, professional language such as needs development to motivate performers toward growth.",
+    ),
+    QuizQuestion(
+      question: "7. What is the immediate goal of presenting appraisal findings to the class?",
+      options: [
+        "To shame students who made mistakes during the show.",
+        "To share insights and improve collective musicianship.",
+        "To raise money for purchasing imported drum sets.",
+        "To cancel all future school performing arts events.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Sharing appraisal results fosters transparent dialogue and helps the entire learning community adopt better performance standards.",
+    ),
+    QuizQuestion(
+      question: "8. When a lead singer uses hand gestures that mirror the message of the song, this demonstrates:",
+      options: [
+        "Poor physical stamina",
+        "Stage disorientation",
+        "Vocal deterioration",
+        "Expressive articulation",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Meaningful physical gestures that complement lyrical themes demonstrate expressive visual and bodily articulation.",
+    ),
+    QuizQuestion(
+      question: "9. In an ensemble combining atumpan drums and singing, what indicates good dynamic balance?",
+      options: [
+        "The percussion supports vocals without overpowering them.",
+        "The drums are played so softly that nobody hears them.",
+        "The lead singer shouts at maximum volume constantly.",
+        "The chorus stops singing whenever drums are struck.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Proper dynamic balance ensures that accompanying percussion provides rhythmic drive while allowing vocal melodies and lyrics to be heard clearly.",
+    ),
+    QuizQuestion(
+      question: "10. What vital step follows the completion of an aesthetic appreciation report?",
+      options: [
+        "Burning the observation forms to protect privacy.",
+        "Discontinuing all subsequent cultural dance rehearsals.",
+        "Selling the recorded video footage to foreign media.",
+        "Refining the performance based on constructive advice.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The primary purpose of an appraisal is to use constructive feedback to refine compositions, technique, and staging for future performances.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson5QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L5/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What is the key objective of providing an introductory presentation before a musical performance begins?",
+      options: [
+        "To advertise commercial sports beverages to the seated audience.",
+        "To give the audience cultural and historical context for the music.",
+        "To allow backstage instrument repairers to tune pianos loudly.",
+        "To collect mandatory gate fees from invited community parents.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An introductory speech outlines the historical era, stylistic traditions, and social message of the music to enrich audience appreciation.",
+    ),
+    QuizQuestion(
+      question: "2. When setting up a stage for a choral and drumming concert, why are microphones placed carefully?",
+      options: [
+        "To replace the need for drummers to rehearse their rhythms.",
+        "To ensure singers' voices are balanced against the percussion.",
+        "To prevent the audience from applauding at the end of songs.",
+        "To change the spoken language of the choir automatically.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Proper microphone placement prevents loud acoustic percussion instruments from drowning out vocal lines and diction.",
+    ),
+    QuizQuestion(
+      question: "3. Which piece of equipment is necessary to capture stable, clear video recordings of a musical display?",
+      options: [
+        "A camera tripod mount",
+        "A wooden carving gouge",
+        "A painter palette knife",
+        "An iron stamping chisel",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Tripods provide physical stability, preventing shaking and ensuring clear, focused visual documentation of performances.",
+    ),
+    QuizQuestion(
+      question: "4. How does reviewing a recorded concert video benefit the performing students?",
+      options: [
+        "It enables students to critique their stage presence and sound.",
+        "It removes the requirement to learn Ghanaian musical history.",
+        "It allows students to skip all future musical rehearsal plans.",
+        "It automatically grants every participant an external diploma.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Watching video playbacks allows students to evaluate their own timing, vocal diction, choreography, and overall stage presence.",
+    ),
+    QuizQuestion(
+      question: "5. What information should the concert presenter communicate regarding the musical genre?",
+      options: [
+        "The retail cost of the sheet music paper in local bookshops.",
+        "The personal home phone numbers of the choir members.",
+        "The stylistic traits and cultural origin of the performance.",
+        "The total number of chairs arranged in the concert hall.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The presenter describes the musical genre by explaining its rhythmic features, traditional origins, and expressive intent.",
+    ),
+    QuizQuestion(
+      question: "6. Why is it beneficial to screen the concert recording during school parent meetings?",
+      options: [
+        "To replace formal academic reports with musical songs entirely.",
+        "To punish learners who arrived late to the previous rehearsal.",
+        "To showcase learners' artistic development to the community.",
+        "To persuade parents to buy commercial electronic equipment.",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Disseminating concert recordings at community gatherings displays student achievement and builds support for creative arts education.",
+    ),
+    QuizQuestion(
+      question: "7. When planning the stage running order, what is the best strategy for scheduling diverse pieces?",
+      options: [
+        "Group all drum solos into the final two minutes of the show.",
+        "Arrange a balanced flow between traditional and modern works.",
+        "Play every song at maximum tempo to conclude within ten minutes.",
+        "Repeat the identical choral tune four times consecutively.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "A well-structured concert running order balances tempi, moods, traditional rhythms, and contemporary genres to sustain audience interest.",
+    ),
+    QuizQuestion(
+      question: "8. What role does the stage protocol team perform when guests arrive for a musical concert?",
+      options: [
+        "Operating the video camera from the rear of the stage hall.",
+        "Tuning traditional atumpan drums behind closed stage screens.",
+        "Playing complex bass guitar solos during the opening remarks.",
+        "Greeting visitors and guiding them to their reserved seating.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The protocol committee welcomes attendees, distributes concert programmes, and guides guests smoothly to their seats.",
+    ),
+    QuizQuestion(
+      question: "9. Why should a video crew record both wide shots and close-up views during a musical concert?",
+      options: [
+        "To show whole group staging while capturing individual expression.",
+        "To prevent the audio microphones from picking up background noise.",
+        "To make the concert look significantly longer than it was live.",
+        "To hide mistakes made by drummers in the back row of the stage.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Combining wide ensemble shots with close-ups captures the overall stage choreography alongside the detailed musicianship of soloists.",
+    ),
+    QuizQuestion(
+      question: "10. Which outcome is achieved when recorded musical works are archived in a digital portfolio?",
+      options: [
+        "The school is forbidden from staging future live musical works.",
+        "A permanent historical record of student learning is preserved.",
+        "The instruments used must be discarded after the performance.",
+        "Students are excused from participating in creative evaluations.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Digital portfolios preserve students' artistic progression and maintain an institutional archive of creative work for future inspiration.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson4QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L4/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Under Ghanaian pension regulations, what document provides a worker with an annual record of their retirement savings?",
+      options: [
+        "A national driver licence card",
+        "A voter identification booklet",
+        "A commercial invoice receipt",
+        "An annual pension benefits statement",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A benefit statement is an annual summary sent to contributors outlining accumulated pension savings and future entitlement.",
+    ),
+    QuizQuestion(
+      question: "2. What is the primary artistic purpose of composing a highlife song about regular pension contributions?",
+      options: [
+        "To replace standard accounting books in big banks.",
+        "To educate citizens on old age financial security.",
+        "To raise money to buy new brass marching horns.",
+        "To force every young child to open a bank account.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Composing music on civic topics uses the emotional reach of song to educate the public on retirement welfare and savings.",
+    ),
+    QuizQuestion(
+      question: "3. Which hourglass-shaped Ghanaian traditional drum uses variable string tension to mimic speech inflections?",
+      options: ["Donno", "Cello", "Bugle", "Flute"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The donno is an indigenous hourglass drum squeezed under the arm to vary skin tension, producing vocal inflections and tones.",
+    ),
+    QuizQuestion(
+      question: "4. When designing a stage layout for a choral and drumming ensemble, where are the drummers traditionally positioned?",
+      options: [
+        "Behind or to the side of singers in an open arc.",
+        "Directly on the ceiling suspended by metal cables.",
+        "Outside the building in the open parking space.",
+        "Crawling between the legs of the standing chorus.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Drummers are typically placed in an arc behind or beside the choir so they can see each other and hear the vocal lead clearly.",
+    ),
+    QuizQuestion(
+      question: "5. What role does costuming play when performing a musical drama about community health or worker welfare?",
+      options: [
+        "It reduces the need for musical instruments onstage.",
+        "It visibly communicates character identity and context.",
+        "It allows performers to sing off-key without notice.",
+        "It keeps the stage auditorium cool during hot days.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Appropriate theatrical costumes help the audience immediately recognize character roles, occupations, and social settings.",
+    ),
+    QuizQuestion(
+      question: "6. Why is allocating dedicated rehearsal time to voice articulation critical before staging a concert?",
+      options: [
+        "It ensures the audience can hear and understand lyrics.",
+        "It makes the drum ensemble play significantly louder.",
+        "It reduces the total number of verses in the tune.",
+        "It allows the lead singer to leave the concert early.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Clear articulation and diction ensure that the audience clearly comprehends the educational lyrics and thematic message of the song.",
+    ),
+    QuizQuestion(
+      question: "7. Which of the following is considered an essential element of music evaluated during an ensemble rehearsal?",
+      options: [
+        "Rhythm, tempo, dynamic contour, and melodic harmony.",
+        "Ticket prices, printing costs, and transport rates.",
+        "Wood density, varnish coats, and iron nail lengths.",
+        "Stage lighting bills, wire thickness, and switch caps.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Musical elements like rhythm, tempo, dynamics, and harmony are the core components tuned during rehearsal practice.",
+    ),
+    QuizQuestion(
+      question: "8. When a choir sings a repetitive response after each statement made by a lead soloist, the musical form is known as:",
+      options: [
+        "Sonata allegro structure",
+        "Continuous chamber fugue",
+        "Polyphonic church cantata",
+        "Traditional call-and-response",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Call-and-response is a traditional musical structure where a leader sings an improvised or changing line and a chorus responds.",
+    ),
+    QuizQuestion(
+      question: "9. In a school musical production, what is the primary function of incorporating choreographed dance movements?",
+      options: [
+        "To distract the audience from the singing voices.",
+        "To replace all percussion and rhythm instruments.",
+        "To visually reinforce the emotion and song theme.",
+        "To extend the performance until nightfall arrives.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Choreographed movements and gestures visually mirror the rhythmic energy and thematic meaning of the lyrics.",
+    ),
+    QuizQuestion(
+      question: "10. What step should a musical ensemble take if their singing and drumming fall out of synchronization during rehearsals?",
+      options: [
+        "Play the drums at maximum volume to drown the choir.",
+        "Discontinue the song and cancel the public concert.",
+        "Remove all traditional drums from the entire piece.",
+        "Slow down the tempo and lock into the bell pattern.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Returning to a slower tempo and focusing on the dawuro bell timeline allows drummers and vocalists to realign their timing.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What does the term art appreciation primarily refer to?",
+      options: [
+        "Buying cheap artworks for quick commercial resale.",
+        "Copying famous foreign paintings onto drawing paper.",
+        "Storing fragile clay figurines inside sealed boxes.",
+        "Understanding and valuing a work of art's qualities.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Art appreciation is the ability to look at, interpret, and value the techniques and concepts used in an artwork.",
+    ),
+    QuizQuestion(
+      question: "2. Which category of visual art is illustrated by an ancestral terracotta head used during traditional royal funeral rites?",
+      options: [
+        "Ceremonial art",
+        "Persuasive art",
+        "Commercial art",
+        "Industrial art",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Artworks created specifically for worship, funerals, festivals, and traditional ceremonies fall under ceremonial art.",
+    ),
+    QuizQuestion(
+      question: "3. How does an appraiser identify the meaning behind an artist's visual composition?",
+      options: [
+        "By analyzing design elements and techniques used.",
+        "By weighing the physical frame on a balance scale.",
+        "By checking the financial balance of the art club.",
+        "By counting the number of nails used in the easel.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Appraisers deduce meaning by examining how lines, shapes, colours, balance, and materials work together.",
+    ),
+    QuizQuestion(
+      question: "4. Which of the following is considered a functional artwork commonly found in Ghanaian homes?",
+      options: [
+        "A woven cane laundry basket.",
+        "An abstract canvas painting.",
+        "A framed landscape photograph.",
+        "A printed exhibition handbill.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Functional art combines aesthetic appeal with practical, daily utility, such as a hand-woven basket for storage.",
+    ),
+    QuizQuestion(
+      question: "5. An artist paints a large wall mural depicting the historic 1948 Christiansborg crossroads shooting. What is the primary purpose of this artwork?",
+      options: [
+        "Functional use",
+        "Persuasive sale",
+        "Narrative record",
+        "Ceremonial dance",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Narrative art tells a story or records historical moments and cultural events for future generations.",
+    ),
+    QuizQuestion(
+      question: "6. When appraising a carved wooden stool, what feature reveals its indigenous cultural identity most strongly?",
+      options: [
+        "The manufacturer mark stamped on the iron nails.",
+        "The imported glossy varnish sprayed on its top.",
+        "Traditional symbolic motifs carved in the pillar.",
+        "The standard height of the four cylindrical legs.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Traditional carved symbols and motifs embody specific proverbs, heritage, and socio-cultural meanings.",
+    ),
+    QuizQuestion(
+      question: "7. What is the main reason an artist reflects on peer feedback during an appraisal?",
+      options: [
+        "To discard the artwork and purchase foreign prints.",
+        "To modify and improve the clarity of the work.",
+        "To raise the entrance fee for the next exhibition.",
+        "To complain to school authorities about classmates.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Reflection on peer critique enables artists to correct compositional weaknesses and refine their visual message.",
+    ),
+    QuizQuestion(
+      question: "8. Which principle of design is evaluated when checking if elements on both sides of an artwork feel equally weighted?",
+      options: ["Contrast", "Rhythm", "Variety", "Balance"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Balance refers to the visual distribution of weight across a composition, whether symmetrical or asymmetrical.",
+    ),
+    QuizQuestion(
+      question: "9. What role does persuasive art play in contemporary Ghanaian society?",
+      options: [
+        "It motivates the public toward civic responsibility.",
+        "It teaches children how to play traditional drums.",
+        "It documents ancestral songs using musical notes.",
+        "It replaces the need for written legal constitutions.",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Persuasive art is designed to inform public opinion and inspire positive social action on health, sanitation, or safety.",
+    ),
+    QuizQuestion(
+      question: "10. What does an appraisal report contribute to an artist's personal development?",
+      options: [
+        "It guarantees immediate financial profit on sales.",
+        "It eliminates the need for future studio planning.",
+        "It provides a formal certificate of legal identity.",
+        "It highlights strengths and areas for future growth.",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Appraisal reports provide constructive feedback that guides an artist toward refining their technique and artistic voice.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What is the primary purpose of mounting a school art exhibition?",
+      options: [
+        "To replace regular academic examinations entirely.",
+        "To dispose of surplus classroom drawing paper.",
+        "To test new commercial painting software tools.",
+        "To showcase creative artworks to a wider audience.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Exhibitions allow artists to communicate ideas, share their cultural perspectives, and present finished work to the public.",
+    ),
+    QuizQuestion(
+      question: "2. Which committee ensures that visitors enter in an orderly manner and receive brochures?",
+      options: [
+        "Protocol committee",
+        "Grounds work team",
+        "Security committee",
+        "Publicity committee",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The protocol committee greets visitors, guides them safely through the venue, and hands out printed programmes.",
+    ),
+    QuizQuestion(
+      question: "3. Why is it important to define specific roles and responsibilities before an exhibition?",
+      options: [
+        "To ensure every task is executed systematically.",
+        "To allow a single student to manage all tasks.",
+        "To avoid displaying three-dimensional sculptures.",
+        "To eliminate the need for an exhibition report.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Dividing responsibilities prevents confusion and ensures that publicity, mounting, security, and hygiene are handled efficiently.",
+    ),
+    QuizQuestion(
+      question: "4. What is the chief duty of the security team during an art exhibition?",
+      options: [
+        "Guarding artworks and maintaining public order.",
+        "Writing detailed critical reviews for papers.",
+        "Cooking hot midday meals for invited visitors.",
+        "Designing printed flyers and formal banners.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The security team protects displayed artworks from damage or theft while ensuring a safe, orderly environment for visitors.",
+    ),
+    QuizQuestion(
+      question: "5. How does the media committee support the long-term goals of an art department?",
+      options: [
+        "By locking away all unused painting brushes.",
+        "By documenting the exhibition via photography.",
+        "By pricing all artworks for retail clearance.",
+        "By serving fruit drinks to community elders.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Capturing photos and videos creates a visual record that can be used for student portfolios, school archives, and future learning.",
+    ),
+    QuizQuestion(
+      question: "6. Which detail should the editorial committee include in the final exhibition report?",
+      options: [
+        "A complete list of all the school holidays.",
+        "The personal home addresses of all patrons.",
+        "The names of artists and titles of artworks.",
+        "A timetable of weekly dining hall supplies.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "The final report must detail operational facts, including participating artists, displayed artworks, and audience comments.",
+    ),
+    QuizQuestion(
+      question: "7. When arranging three-dimensional clay figures in an exhibition hall, the organizers should:",
+      options: [
+        "Stack them high on narrow suspended shelves.",
+        "Place them on sturdy, well-spaced pedestals.",
+        "Lay them flat on the floor along the doorways.",
+        "Pack them closely inside sealed cardboard boxes.",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Three-dimensional artworks require stable, well-spaced stands to allow 360-degree viewing while preventing accidental breakage.",
+    ),
+    QuizQuestion(
+      question: "8. Why are printed brochures distributed to visitors upon arrival at an exhibition?",
+      options: [
+        "To replace verbal conversations between peers.",
+        "To cover up wall smudges and peeling paintwork.",
+        "To explain artwork themes and artist statements.",
+        "To clean dust off the displayed glazed pottery.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Brochures provide contextual information, floor plans, and artist statements so visitors understand the meaning of each piece.",
+    ),
+    QuizQuestion(
+      question: "9. Who is responsible for keeping the exhibition venue clean and collecting litter?",
+      options: [
+        "Protocol team",
+        "Publicity team",
+        "Editorial team",
+        "Grounds team",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The grounds work committee is in charge of sanitation, waste management, and keeping the exhibition venue tidy.",
+    ),
+    QuizQuestion(
+      question: "10. What action should an exhibition team take after receiving negative audience feedback?",
+      options: [
+        "Expel the guests from the school compound.",
+        "Erase all written guest remarks immediately.",
+        "Refuse to mount any future art exhibitions.",
+        "Review criticisms to improve future displays.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Constructive criticism helps teams identify logistical or curatorial weaknesses so they can enhance future exhibitions.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss2Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Why is illegal surface mining (galamsey) considered an important topical issue for Ghanaian artists to address?",
+      options: [
+        "It creates smooth carving stones for local school sculptors.",
+        "It threatens clean drinking water bodies and fertile soil.",
+        "It supplies inexpensive gold leaf for decorating modern pots.",
+        "It reduces production costs for school printmaking pigments.",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Galamsey causes widespread water pollution and soil destruction, making it a critical environmental concern for artistic advocacy.",
+    ),
+    QuizQuestion(
+      question: "2. What essential step must an artist take immediately after receiving constructive suggestions during a peer review?",
+      options: [
+        "Discard the unfinished artwork and select a new assignment.",
+        "Immediately apply protective varnish across wet surfaces.",
+        "Submit the incomplete work directly to an art exhibition.",
+        "Evaluate the feedback and refine the composition as needed.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Peer critique provides actionable advice that artists use to correct mistakes and enhance visual communication before finishing.",
+    ),
+    QuizQuestion(
+      question: "3. Which of the following is an example of a three-dimensional artwork created to highlight community sanitation?",
+      options: [
+        "An assemblage figure constructed from discarded plastic containers.",
+        "A charcoal drawing of sweeping brooms mounted on a flat wall.",
+        "A linoleum block print showing market workers on paper sheets.",
+        "A digital poster printed on smooth, high-gloss banner canvas.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Three-dimensional artworks have depth, height, and width; constructing a figure using discarded plastic bottles produces a sculptural form.",
+    ),
+    QuizQuestion(
+      question: "4. During a community research visit, which tool is most appropriate for recording real-time spoken statements from residents?",
+      options: [
+        "A digital audio recorder or mobile phone recording app.",
+        "A wooden carving gouge fitted with a steel cutting head.",
+        "A set of flat hog-bristle oil painting blending brushes.",
+        "A jar of clear liquid gum used for mounting paper prints.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Audio recorders allow artists to capture accurate, verbatim spoken accounts and personal narratives during community field research.",
+    ),
+    QuizQuestion(
+      question: "5. An artist creates a painting on deforestation by depicting cut timber logs and dry, yellowed plains. What is the primary role of this artwork?",
+      options: [
+        "To promote commercial logging operations to foreign buyers.",
+        "To advertise synthetic timber products to furniture makers.",
+        "To educate the public on the consequences of tree loss.",
+        "To supply building contractors with cheap carpentry plans.",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Artworks that reflect topical issues are primarily intended to inform, educate, and provoke positive social action in the community.",
+    ),
+    QuizQuestion(
+      question: "6. What visual quality can an artist introduce to convey a feeling of unease and tension regarding urban slums?",
+      options: [
+        "Perfectly horizontal and gentle, flowing wavy brush marks.",
+        "Bright sky-blue washes blended smoothly across wide areas.",
+        "Jagged, irregular lines combined with dark, crowded shapes.",
+        "Wide, open white spaces surrounded by symmetrical borders.",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Sharp, jagged lines and cramped, dense arrangements visually communicate overcrowding, tension, and disorder.",
+    ),
+    QuizQuestion(
+      question: "7. What is the main purpose of compiling a learner journal or sketchbook during the design process?",
+      options: [
+        "To document visual ideas, notes, and compositional sketches.",
+        "To calculate the final commercial market value of finished work.",
+        "To store toxic solvent chemicals safely away from open sunlight.",
+        "To replace all traditional manual painting techniques permanently.",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A sketchbook or journal preserves the artist's visual research, concept sketches, and reflective notes throughout the design journey.",
+    ),
+    QuizQuestion(
+      question: "8. Which set of visual elements is most fundamental when planning an original composition?",
+      options: [
+        "Rhythm, proportion, balance, and directional movement.",
+        "Canvas, turpentine, linseed oil, and painting knives.",
+        "Price, weight, packaging type, and transport method.",
+        "Line, shape, colour, form, and surface texture.",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Line, shape, colour, form, and texture represent the primary visual elements that artists manipulate to build a composition.",
+    ),
+    QuizQuestion(
+      question: "9. Before sketching starts, why do art students draft specific interview questions for community elders?",
+      options: [
+        "To examine the historical background and cultural values accurately.",
+        "To demonstrate mastery of complex foreign musical terms.",
+        "To convince the elders to purchase expensive art supplies.",
+        "To pass standardized written government accounting exams.",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Thoughtful questions help learners extract rich historical, social, and cultural contexts directly from community custodians.",
+    ),
+    QuizQuestion(
+      question: "10. When an artist evaluates their own artwork against initial project goals, this reflective activity is termed:",
+      options: [
+        "Market promotion.",
+        "Media broadcasting.",
+        "Cost calculation.",
+        "Self-evaluation.",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Self-evaluation is the process where an artist examines and critiques their own work to verify whether intended objectives have been met.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson9QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L9/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What movement dynamic is characterized by tight muscular resistance and sudden stops?",
+      options: [
+        "Restrained bound flow",
+        "Unbroken free release",
+        "Continuous liquid wave",
+        "Gentle floating drift",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Bound flow requires continuous muscular control and tension, enabling the performer to check or freeze movement instantly.",
+    ),
+    QuizQuestion(
+      question: "2. What is the fundamental regular pulse that coordinates dancers' footsteps with music?",
+      options: [
+        "The stage proscenium",
+        "The steady beat",
+        "The script dialogue",
+        "The fabric fringe",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The beat is the regular, recurring pulse that underlies music and movement, synchronizing physical choreography.",
+    ),
+    QuizQuestion(
+      question: "3. An actor leaps high into the air with outstretched arms. What spatial level is being shown?",
+      options: [
+        "The ground floor level",
+        "The deep bottom level",
+        "The neutral mid level",
+        "The elevated high level",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The high level encompasses all actions reaching upward into vertical space, including standing on tiptoes and airborne jumps.",
+    ),
+    QuizQuestion(
+      question: "4. What happens if a dancer reacts only after hearing a drum sound strike?",
+      options: [
+        "The action lags behind",
+        "The music stops playing",
+        "The stage lights dim",
+        "The steps become faster",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Due to human auditory processing and physical response delays, reacting after the sound causes movements to trail late behind the beat.",
+    ),
+    QuizQuestion(
+      question: "5. Which movement quality combines strong muscular intensity with rapid, heavy downward force?",
+      options: [
+        "Soft fingertip caressing",
+        "Light feather floating",
+        "Powerful foot stamping",
+        "Slow gliding walking",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Forceful foot stamping demonstrates strong muscular intensity and grounded weight, seen in war and harvest dances.",
+    ),
+    QuizQuestion(
+      question: "6. What does a sudden, complete freeze in physical movement communicate on a dramatic stage?",
+      options: [
+        "A broken wooden floorboard",
+        "Heightened tension or shock",
+        "The conclusion of schooling",
+        "A loss of musical tuning",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A sudden freeze cuts across rhythmic continuity, creating immediate visual suspense, shock, or dramatic emphasis.",
+    ),
+    QuizQuestion(
+      question: "7. Which list arranges the primary vertical spatial levels used in choreographic design?",
+      options: [
+        "High, diagonal, circular",
+        "Forward, backward, center",
+        "Left, right, sideways",
+        "Low, medium, high levels",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Choreographers organize vertical stage space into low (floor), medium (standing/walking), and high (elevated/leaping) levels.",
+    ),
+    QuizQuestion(
+      question: "8. When choreographing a piece about an environmental flood, what flow quality best depicts rushing water?",
+      options: [
+        "Jerky mechanical steps",
+        "Uncontrolled static stops",
+        "Fluid continuous flow",
+        "Rigid bound positions",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Free, fluid, and continuous flow mimics the smooth, uninterrupted surge of flowing water.",
+    ),
+    QuizQuestion(
+      question: "9. Why should student performers incorporate curved or zigzag pathways across the stage?",
+      options: [
+        "To create visual interest",
+        "To make the performance short",
+        "To avoid speaking lines",
+        "To stay close to exits",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Varied floor pathways (curved, zigzag, circular) create visual variety, breaking the monotony of plain back-and-forth lines.",
+    ),
+    QuizQuestion(
+      question: "10. In theatrical dance, how is movement speed or pacing technically defined?",
+      options: [
+        "Muscular dynamic weight",
+        "Stage spatial dimension",
+        "Dramatic dialogue script",
+        "Physical movement tempo",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Tempo defines the speed or pace at which physical actions, steps, and gestures are executed over time.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson8QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L8/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What major annual festival of the Anlo Ewe people features the celebratory performance of Agbadza?",
+      options: [
+        "The Hogbetsotso festival",
+        "The Bakatue lagoon rite",
+        "The Homowo fishing feast",
+        "The Aboakyer deer hunt",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Hogbetsotso festival commemorates the historic escape and migration of the Anlo Ewe, where Agbadza is performed to celebrate community survival.",
+    ),
+    QuizQuestion(
+      question: "2. What part of an Agbadza suite involves a short introductory prayer addressed to God and the ancestors?",
+      options: [
+        "The final Hatsatsa chant",
+        "The opening Banyinyi prayer",
+        "The fast Vutsortsor dance",
+        "The slow Adzo drum break",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Banyinyi is the reverent opening prayer that precedes the main dance movements in an authentic Agbadza performance.",
+    ),
+    QuizQuestion(
+      question: "3. Which traditional war dance is characterized by aggressive crouches, company flags, and martial defense of the state?",
+      options: [
+        "The graceful Adowa",
+        "The rhythmic Kpatsha",
+        "The sacred Klama rite",
+        "The warrior Asafo dance",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Asafo is the historic warrior dance of Akan and Fante military companies organized for communal defense.",
+    ),
+    QuizQuestion(
+      question: "4. In traditional Adowa performance, through what physical medium does the dancer communicate coded messages?",
+      options: [
+        "Expressive hand and wrist signs",
+        "Spoken chants shouted aloud",
+        "Continuous high-jumping leaps",
+        "Waving heavy woven straw mats",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Master Adowa dancers use subtle, highly codified hand, palm, and wrist gestures to convey respect, grief, and philosophical proverbs.",
+    ),
+    QuizQuestion(
+      question: "5. Which northern Ghanaian dance tradition features vigorous ground stamping to celebrate a bountiful harvest?",
+      options: [
+        "The coastal Kpatsha",
+        "The royal Kete dance",
+        "The northern Bawa dance",
+        "The Fante Asafo drill",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Bawa is an energetic harvest and social dance originating in the northern regions, celebrated for its synchronized earth-stamping.",
+    ),
+    QuizQuestion(
+      question: "6. Why are traditional war dances performed at royal funerals and annual festivals in peaceful modern times?",
+      options: [
+        "To start armed disputes",
+        "To honor heroic ancestors",
+        "To replace music teachers",
+        "To enforce school silence",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Modern war dance performances serve as commemorative living memorials to honor the bravery, sacrifices, and history of past defenders.",
+    ),
+    QuizQuestion(
+      question: "7. What twin-belled iron instrument provides the recurring timeline for Ewe dance music like Agbadza?",
+      options: [
+        "The Donno talking drum",
+        "The Fontomfrom bass drum",
+        "The Seperewa wooden harp",
+        "The Gankogui iron bell",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The gankogui is an iron banana-shaped bell that establishes the foundational rhythmic timeline for Agbadza ensembles.",
+    ),
+    QuizQuestion(
+      question: "8. What bird-like anatomical action forms the core physical movement of the Agbadza dance?",
+      options: [
+        "Shaking knees rapidly",
+        "Tapping toes on wood",
+        "Contracting the shoulders",
+        "Rolling on the ground",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Rapid contraction and expansion of the shoulders and chest create the characteristic bird-like flutter of Agbadza.",
+    ),
+    QuizQuestion(
+      question: "9. Which category of dance is specifically designed for general public participation, courtship, and celebration?",
+      options: [
+        "Sociocultural dance forms",
+        "Secret priest initiations",
+        "Pre-battle martial drills",
+        "Solitary shrine invocations",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Sociocultural or recreational dances are open communal forms enjoyed by diverse members of society during social gatherings.",
+    ),
+    QuizQuestion(
+      question: "10. In Akan culture, what do the two root words of Asafo (sa and fo) literally translate to?",
+      options: [
+        "Song and instrument",
+        "Ruler and kingdom",
+        "Earth and water",
+        "War and people",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "In the Akan language, sa means war and fo means people, defining the Asafo as the warrior company of the town.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson7QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L7/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. What letter formula represents a five-part Rondo form structure?",
+      options: [
+        "Form A B A C A",
+        "Form A B C D E",
+        "Form A A B B A",
+        "Form A B B A B",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A classic five-part rondo features the recurring main refrain (A) alternating with two distinct contrasting episodes (B and C).",
+    ),
+    QuizQuestion(
+      question: "2. In the song \"Twinkle, Twinkle, Little Star,\" what structural role does the line \"Up above the world so high\" play?",
+      options: [
+        "Initial statement",
+        "Contrasting idea",
+        "Final re-statement",
+        "Extended refrain",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The middle line introduces a new melody and rhythm that contrasts with the opening statement before the original theme returns.",
+    ),
+    QuizQuestion(
+      question: "3. What term describes the overarching layout or organizational plan of a musical composition?",
+      options: [
+        "Musical dynamics",
+        "Instrument pitch",
+        "Metronome tempo",
+        "Architectural form",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Musical form (or architectural design) refers to how sections of a piece are structured and balanced.",
+    ),
+    QuizQuestion(
+      question: "4. How many distinct musical sections are present in a pure Binary form composition?",
+      options: [
+        "Exactly two sections",
+        "Exactly four sections",
+        "Exactly three sections",
+        "Exactly five sections",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Binary form consists of exactly two distinct contrasting sections, labeled A and B.",
+    ),
+    QuizQuestion(
+      question: "5. In Rondo form, what are the contrasting middle sections that appear between the refrains called?",
+      options: [
+        "Stately sonatas",
+        "Tonic cadences",
+        "Musical episodes",
+        "Dynamic tempos",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "In a rondo, the contrasting sections inserted between statements of the recurring refrain are termed episodes.",
+    ),
+    QuizQuestion(
+      question: "6. Why does a composer bring back the original theme (Section A) at the conclusion of a Ternary piece?",
+      options: [
+        "To confuse singers",
+        "To provide balance",
+        "To change key signatures",
+        "To increase beat tempo",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Restating the initial theme after a contrasting middle section gives the listener a sense of symmetry, closure, and structural balance.",
+    ),
+    QuizQuestion(
+      question: "7. Which Ghanaian choral work composed by Dr. Ephraim Amu demonstrates clear architectural thematic development?",
+      options: [
+        "Abele Folk Dance",
+        "Fontomfrom March",
+        "Bobobo Street Jam",
+        "Yɛn Ara Asaase Ni",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Dr. Ephraim Amu's patriotic anthem \"Yɛn Ara Asaase Ni\" is a masterwork of Ghanaian choral art music utilizing balanced thematic design.",
+    ),
+    QuizQuestion(
+      question: "8. What structural pattern is commonly heard in traditional Ghanaian call-and-response singing?",
+      options: [
+        "Solo call with chorus",
+        "Silence without beats",
+        "Unison humming alone",
+        "Continuous violin solos",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Call-and-response is structured around an alternating pattern where a lead soloist calls and the full ensemble answers with a refrain.",
+    ),
+    QuizQuestion(
+      question: "9. In an A B A C A rondo design, how many times does the main refrain (Section A) appear?",
+      options: [
+        "Exactly three times",
+        "Exactly four times",
+        "Exactly one time",
+        "Exactly two times",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "In the standard A B A C A sequence, the main theme A appears at the start, in the middle, and at the end, totaling three appearances.",
+    ),
+    QuizQuestion(
+      question: "10. Which list identifies the three core principles that govern musical form architecture?",
+      options: [
+        "Volume, pitch, tempo",
+        "Rhythm, harmony, beats",
+        "Strings, brass, woodwinds",
+        "Statement, contrast, return",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "The architectural construction of musical form is driven by stating an idea, contrasting it with another, and returning to the statement.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson6QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L6/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What does the dynamic marking mezzo piano mean when written in a score?",
+      options: [
+        "Moderately soft volume",
+        "Maximum heavy loudness",
+        "Extremely fast tempo",
+        "Walking speed rhythm",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Mezzo piano literally translates to half-soft or moderately soft, resting between piano and mezzo forte.",
+    ),
+    QuizQuestion(
+      question: "2. Which symbol or term directs musicians to gradually reduce their sound volume?",
+      options: ["Presto", "Diminuendo", "Allegro", "Andante"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Diminuendo (or decrescendo) instructs performers to gradually soften the volume of the music.",
+    ),
+    QuizQuestion(
+      question: "3. What medical condition causes a persistent ringing or buzzing in the ears from loud sound?",
+      options: ["Tinnitus", "Glaucoma", "Bronchitis", "Scoliosis"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Tinnitus is an auditory condition characterized by phantom ringing or buzzing resulting from acoustic overexposure.",
+    ),
+    QuizQuestion(
+      question: "4. How does listening to soft background music benefit students preparing for examinations?",
+      options: [
+        "It makes ears bleed",
+        "It stops heartbeats",
+        "It causes headaches",
+        "It aids concentration",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Soft music creates a calm environment, masks sudden distracting noises, and fosters sustained mental concentration.",
+    ),
+    QuizQuestion(
+      question: "5. Which Italian term represents a very loud, powerful dynamic level?",
+      options: ["Pianissimo", "Fortissimo", "Adagio", "Moderato"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Fortissimo, abbreviated as \$ff\$, indicates a very loud, thunderous performance volume.",
+    ),
+    QuizQuestion(
+      question: "6. What sound intensity threshold in decibels marks the beginning of potential hearing damage?",
+      options: ["20 decibels", "40 decibels", "85 decibels", "10 decibels"],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Continuous exposure to sound levels at or above 85 decibels can cause irreversible damage to inner ear hair cells.",
+    ),
+    QuizQuestion(
+      question: "7. Why is very soft music chosen when singing a lullaby to put an infant to sleep?",
+      options: [
+        "It scares neighbors",
+        "It speeds heartbeat",
+        "It strains the ears",
+        "It calms the senses",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Soft acoustic volume soothes the central nervous system, lowers arousal, and promotes peaceful sleep for infants.",
+    ),
+    QuizQuestion(
+      question: "8. What physical structure inside the human ear suffers permanent destruction from loud noise?",
+      options: [
+        "Outer earlobe skin",
+        "Eyebrow muscle line",
+        "Cochlear hair cells",
+        "Liquid teardrop duct",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Acoustic overexposure damages and kills the microscopic sensory hair cells within the cochlea, which cannot regenerate.",
+    ),
+    QuizQuestion(
+      question: "9. Which list places dynamic markings in order from softest to loudest?",
+      options: [
+        "\$p\$, \$mp\$, \$mf\$, \$f\$",
+        "\$f\$, \$mf\$, \$mp\$, \$p\$",
+        "\$mp\$, \$p\$, \$f\$, \$mf\$",
+        "\$mf\$, \$f\$, \$p\$, \$mp\$",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Ascending from soft to loud: piano (\$p\$), mezzo piano (\$mp\$), mezzo forte (\$mf\$), and forte (\$f\$).",
+    ),
+    QuizQuestion(
+      question: "10. What safe habit protects young people attending an outdoor festival with giant speakers?",
+      options: [
+        "Leaning on bass boxes",
+        "Sleeping under stages",
+        "Touching live speaker horns",
+        "Standing far from speakers",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Keeping a safe physical distance from high-output loudspeakers significantly reduces the sound pressure reaching the ears.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson5QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L5/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which Italian tempo term designates a relaxed, moderate walking pace?",
+      options: ["Andante", "Allegro", "Presto", "Adagio"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Andante means at a walking pace, representing a moderate speed of approximately 76 to 108 beats per minute.",
+    ),
+    QuizQuestion(
+      question: "2. A musician counts 20 beats in a 15-second span. What is the calculated tempo in beats per minute?",
+      options: ["60 BPM", "80 BPM", "70 BPM", "90 BPM"],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Multiplying the 20 beats counted in 15 seconds by 4 yields 80 beats per minute, which falls within an andante tempo range.",
+    ),
+    QuizQuestion(
+      question: "3. What device produces regular, ticking pulses to help musicians rehearse at a fixed tempo?",
+      options: [
+        "An audio amplifier",
+        "A tuning pitch pipe",
+        "A steady metronome",
+        "A rubber brayer block",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A metronome is a mechanical or electronic tool that clicks at a selectable speed in beats per minute.",
+    ),
+    QuizQuestion(
+      question: "4. Which musical instruction directs a choir to gradually speed up the pace of performance?",
+      options: [
+        "Marcato ritardando",
+        "Diminuendo poco",
+        "Adagio sostenuto",
+        "Accelerando poco",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Accelerando indicates a gradual increase in tempo, and adding poco a poco ensures that the acceleration happens little by little.",
+    ),
+    QuizQuestion(
+      question: "5. Which of the following tempos represents the slowest, most solemn speed?",
+      options: ["Grave", "Presto", "Moderato", "Allegro"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Grave is the slowest standard tempo marking, moving at a solemn 20 to 40 beats per minute.",
+    ),
+    QuizQuestion(
+      question: "6. Why is fast, rhythmic music typically performed at a baby naming ceremony or outdooring in Ghana?",
+      options: [
+        "To encourage sorrow",
+        "To celebrate life",
+        "To enforce silence",
+        "To simulate sleep",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Outdooring ceremonies are celebrations of new life and family continuity, which are naturally matched by upbeat, joyful music.",
+    ),
+    QuizQuestion(
+      question: "7. What tempo marking is most fitting for a lively, festive highlife dance tune?",
+      options: ["Largo", "Lento", "Adagio", "Allegro"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Allegro indicates a fast, bright, and cheerful tempo (120–168 BPM), fitting highlife dance music.",
+    ),
+    QuizQuestion(
+      question: "8. When drummers accompany royal chiefs at a formal durbar, what type of tempo is chosen?",
+      options: [
+        "Rapid, chaotic presto",
+        "Hasty, light prestissimo",
+        "Stately, slow adagio",
+        "Syncopated wild tempo",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Royal court drumming utilizes slow, stately tempos like adagio or largo to match the dignity and measured steps of royal dignitaries.",
+    ),
+    QuizQuestion(
+      question: "9. If a clock ticks once every single second, what is its exact speed in beats per minute?",
+      options: ["60 BPM", "30 BPM", "90 BPM", "120 BPM"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Since there are 60 seconds in one minute, one tick per second calculates to exactly 60 beats per minute.",
+    ),
+    QuizQuestion(
+      question: "10. Which list arranges Italian tempo terms in correct order from fastest to slowest?",
+      options: [
+        "Allegro, moderato, presto, largo",
+        "Largo, adagio, moderato, allegro",
+        "Andante, allegro, adagio, grave",
+        "Presto, allegro, andante, largo",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Presto (fastest) is followed by allegro (lively), andante (walking), and largo (slow/broad), accurately descending in speed.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson4QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_l4/9. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What fabric weave pattern is identified by prominent diagonal lines running across its surface?",
+      options: [
+        "Dense twill weave",
+        "Plain tabby weave",
+        "Open satin weave",
+        "Flat coiled weave",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Twill weave is engineered by passing the weft over multiple warps and offsetting the crossing point on each successive row, creating visible diagonal ribs.",
+    ),
+    QuizQuestion(
+      question: "2. When preparing brittle natural plant fibers like cane or grass for weaving, what should an artist do?",
+      options: [
+        "Bake them dry in an oven",
+        "Soak them in clean water",
+        "Coat them with dark ink",
+        "Hammer them onto a rock",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Soaking stiff or brittle plant fibers in water hydrates the cell walls, restoring the pliability needed to bend and interlace them without snapping.",
+    ),
+    QuizQuestion(
+      question: "3. What basketry method involves wrapping a thick core bundle into a rising spiral and stitching it row by row?",
+      options: [
+        "Diagonal plaiting",
+        "Pair spoke twining",
+        "Continuous coiling",
+        "Under-over wicker",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Coiling uses a flexible core (like grass or cord) wrapped in a continuous expanding spiral and stitched securely to each underlying row.",
+    ),
+    QuizQuestion(
+      question: "4. In weaving terminology, what does the term tension specifically describe?",
+      options: [
+        "The lightness of dye tones",
+        "The length of floating yarns",
+        "The price of weaving frames",
+        "The tightness of the strands",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Tension refers to the degree of tautness or pulled tightness maintained across the warp and weft strands during construction.",
+    ),
+    QuizQuestion(
+      question: "5. What local Ghanaian plant material provides flexible, papery ribbons widely used for binding woven crafts?",
+      options: [
+        "Natural raffia fiber",
+        "Spun nylon monofilament",
+        "Treated metallic wire",
+        "Synthetic polyester tape",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Raffia is a natural, sustainable plant fiber harvested from palm fronds that is widely utilized in Ghanaian communities for binding and weaving.",
+    ),
+    QuizQuestion(
+      question: "6. Why is plain weave considered one of the strongest and most durable fabric structures?",
+      options: [
+        "It has the longest floats",
+        "It has maximum interlacings",
+        "It uses no vertical warps",
+        "It uses only twisted cane",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Because plain weave alternates over and under on every single thread, it produces the maximum number of interlacing points, resulting in a tight, firm cloth.",
+    ),
+    QuizQuestion(
+      question: "7. What tool or device is used to maintain firm tension on vertical warp threads during flat weaving?",
+      options: [
+        "A pointed carving knife",
+        "A rubber brayer roller",
+        "A soft pressing baren",
+        "A sturdy weaving loom",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A loom or rigid frame anchors the ends of warp threads securely so they stay parallel and taut while the weft is passed through.",
+    ),
+    QuizQuestion(
+      question: "8. When cutting a folded paper sheet to make a classroom weaving loom, why must the cuts stop before the edge?",
+      options: [
+        "To make paper softer",
+        "To make diagonal twills",
+        "To save on sugar paper",
+        "To keep warp strips intact",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Leaving a solid margin uncut preserves a connected frame that anchors the warp slits together so they do not fall apart into loose shreds.",
+    ),
+    QuizQuestion(
+      question: "9. Which basket part serves as the final finished top edge that secures all upright spokes in place?",
+      options: [
+        "The reinforced top rim",
+        "The central circular base",
+        "The floating satin stitch",
+        "The flexible lower spoke",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "The rim is the border at the top of a basket where the upright stakes are folded, plaited, or bound to lock the weavers in position.",
+    ),
+    QuizQuestion(
+      question: "10. In a school art critique of a woven mat, which statement evaluates compositional visual rhythm?",
+      options: [
+        "The fibers feel very damp",
+        "Alternating stripes flow well",
+        "The loom frame was wooden",
+        "The grass was soaked long",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Assessing how alternating stripes create visual rhythm evaluates design principles rather than raw material processing.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. An artist sketching an open stool by observing its legs and seat in the classroom is using what drawing method?",
+      options: [
+        "Direct observational drawing",
+        "Reconstructive memory study",
+        "Fictional imaginative drawing",
+        "Abstract decorative drafting",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Drawing directly from an actual, physical object placed before the artist is observational drawing.",
+    ),
+    QuizQuestion(
+      question: "2. What is the primary purpose of varying line quality when drawing the contour of a physical object?",
+      options: [
+        "To make paper dry faster",
+        "To show weight and lighting",
+        "To save on pencil graphite",
+        "To make lines perfectly straight",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Varying the thickness and pressure of lines communicates changes in surface plane, lighting direction, and physical weight.",
+    ),
+    QuizQuestion(
+      question: "3. What term describes the dark shadow cast onto a tabletop by an object blocking a direct light source?",
+      options: [
+        "Reflective highlight plane",
+        "Ambient surface midtone",
+        "Interlaced warp shadow",
+        "Ground cast shadow area",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "The shadow thrown onto an adjacent surface or ground plane when an object blocks light is called a cast shadow.",
+    ),
+    QuizQuestion(
+      question: "4. How does drawing from memory differ fundamentally from drawing from direct observation?",
+      options: [
+        "Memory uses mental recall",
+        "Memory uses darker pencils",
+        "Memory excludes line work",
+        "Memory skips value shading",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Observational drawing relies on looking directly at a physical subject, whereas memory drawing reconstructs visual information from mental recall.",
+    ),
+    QuizQuestion(
+      question: "5. In art vocabulary, what term describes the three-dimensional illusion of depth and volume on a flat page?",
+      options: [
+        "Planar contour outline",
+        "Two-dimensional shape",
+        "Solid volumetric form",
+        "Monochromatic matrix",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Form refers to the depiction of three-dimensional volume and mass, distinguishing it from two-dimensional shapes.",
+    ),
+    QuizQuestion(
+      question: "6. When drawing a potted plant, what is an artist doing when focusing on negative space?",
+      options: [
+        "Shading deepest core tones",
+        "Checking gaps between leaves",
+        "Measuring leaf thickness",
+        "Carving wooden relief blocks",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Examining negative space involves checking the empty shapes between and around the leaves to verify proportions.",
+    ),
+    QuizQuestion(
+      question: "7. During a classroom peer critique, which of the following comments represents a constructive evaluation of tone?",
+      options: [
+        "I like the chosen subject",
+        "The sketch looks very neat",
+        "The story feels humorous",
+        "Smooth values show volume",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Evaluating whether smooth tonal transitions communicate volume assesses technique using proper art terminology.",
+    ),
+    QuizQuestion(
+      question: "8. What is the brightest point on a shaded rounded form where light hits the surface directly?",
+      options: [
+        "The crisp cast shadow",
+        "The soft core shadow",
+        "The bright highlight",
+        "The blended midtone",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The highlight is the brightest spot on a form where light reflects directly toward the viewer's eyes.",
+    ),
+    QuizQuestion(
+      question: "9. Why should artists start a drawing with light pencil marks before applying heavy, dark lines?",
+      options: [
+        "Light marks erase easily",
+        "Soft pencils break paper",
+        "Heavy marks dry faster",
+        "Paper absorbs gray tones",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Light construction lines are easily corrected or erased without tearing the paper or leaving dark smudges.",
+    ),
+    QuizQuestion(
+      question: "10. An artist draws a flying vehicle powered by giant woven palm fronds. This artwork is best classified as which drawing type?",
+      options: [
+        "Technical still life",
+        "Direct nature study",
+        "Strict memory sketch",
+        "Imaginative drawing",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Inventing a fantasy vehicle combining unrelated elements is an imaginative drawing.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. In a four-stage critique of a printed linocut, what step focuses strictly on listing materials and subjects without opinion?",
+      options: [
+        "Objective art description",
+        "Expressive interpretation",
+        "Aesthetic final judgment",
+        "Compositional analysis",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Description requires cataloging objective facts about the work, such as the medium, date, subject, and physical dimensions, without personal interpretation.",
+    ),
+    QuizQuestion(
+      question: "2. Which material provides an accessible, soft surface for beginner relief block carving in a school classroom?",
+      options: [
+        "Heavy sheet aluminum",
+        "Dense styrofoam plate",
+        "Polished marble stone",
+        "Hardened steel plate",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Styrofoam, soft wood, and firm tubers like yam provide easily carveable surfaces that allow students to cut clean relief blocks safely.",
+    ),
+    QuizQuestion(
+      question: "3. What happens when an artist presses an inked leaf onto a blank sheet of paper?",
+      options: [
+        "The leaf dissolves on paper",
+        "The veins resist all the ink",
+        "The ink bleeds off the paper",
+        "Raised veins transfer a print",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "In direct nature printing, the raised skeletal veins of a leaf act as a relief surface, transferring an exact structural impression onto the paper.",
+    ),
+    QuizQuestion(
+      question: "4. What pattern design structure alternates the positive motif and negative background between dark and light across steps?",
+      options: [
+        "Counterchange pattern",
+        "Simple linear repeat",
+        "Asymmetric clustering",
+        "Monochromatic layout",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Counterchange involves an intentional reversal of shapes or colors across a grid, turning positive spaces into negative spaces in an alternating rhythm.",
+    ),
+    QuizQuestion(
+      question: "5. An artist prints three harmonious colors across a banner. What describes harmonious colors on the color wheel?",
+      options: [
+        "Colors directly opposite",
+        "Colors side by side",
+        "Pure black and white",
+        "Muted earth pigments",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Harmonious or analogous colors sit directly adjacent to one another on the color wheel, creating gentle, visually cohesive color transitions.",
+    ),
+    QuizQuestion(
+      question: "6. Why does an artist write the fraction notation 3/10 beneath the lower border of an original print?",
+      options: [
+        "It marks the third month",
+        "It identifies print size",
+        "It indicates edition data",
+        "It marks student grades",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "In traditional print editions, the fraction shows the individual impression number over the total number of prints pulled in that limited run.",
+    ),
+    QuizQuestion(
+      question: "7. What tool is rolled over an inked glass slab to pick up a uniform layer of ink before charging a relief block?",
+      options: [
+        "A wide palette knife",
+        "A wooden burnisher",
+        "A firm gouge chisel",
+        "A rubber ink brayer",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A rubber brayer is rolled back and forth across the glass plate to create an even film of ink, which is then transferred onto the raised relief block.",
+    ),
+    QuizQuestion(
+      question: "8. When evaluating a classmate's woodcut, which feedback comment focuses specifically on technical craftsmanship?",
+      options: [
+        "The story feels mysterious",
+        "The ink coverage is even",
+        "The subject looks exciting",
+        "The style feels historical",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Assessing whether the ink was deposited evenly without blotches or dry spots addresses technical execution and craftsmanship rather than emotional interpretation.",
+    ),
+    QuizQuestion(
+      question: "9. Why is a monotype classified differently from relief printing, etching, and screen printing?",
+      options: [
+        "It uses no printing ink",
+        "It yields one unique print",
+        "It cannot use color dyes",
+        "It requires carved metal",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Unlike matrix-based print techniques that yield identical multiple impressions in an edition, a monotype yields only one unique impression.",
+    ),
+    QuizQuestion(
+      question: "10. In screen printing, what prevents ink from passing through the unprinted sections of the mesh onto the fabric?",
+      options: [
+        "A carved wooden frame",
+        "An open fabric weave",
+        "A rubber squeegee bar",
+        "A sealed stencil mask",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "A stencil or emulsion mask coats the non-image areas of the screen mesh, preventing ink from penetrating through to the substrate.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S2Ss1Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L1/9. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. What primary feature distinguishes a 7B graphite pencil from a 3H graphite pencil?",
+      options: [
+        "It produces much softer, darker marks",
+        "It has a significantly harder lead tip",
+        "It contains a higher ratio of fine clay",
+        "It produces very faint, thin gray lines",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Pencils higher on the B scale contain softer cores with more graphite, allowing them to release dark, heavy values suitable for expressive tonal drawing.",
+    ),
+    QuizQuestion(
+      question: "2. In relief printing, which specific area of the prepared matrix transfers ink to the paper?",
+      options: [
+        "The lowered, gouged-out sections",
+        "The flat, raised printing surface",
+        "The edge of the wooden screen frame",
+        "The back of the mounted wooden block",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Relief printmaking relies on inking the raised surfaces of the block; any areas carved away into recesses remain clean and unprinted.",
+    ),
+    QuizQuestion(
+      question: "3. Which of the following materials is classified as a drawing medium rather than a tool?",
+      options: [
+        "Burnt wood charcoal stick",
+        "Double-ended metal divider",
+        "Plastic drafting ruler edge",
+        "Steel desktop blade sharpener",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Charcoal is the consumable marking substance (medium) applied to the surface, whereas rulers, dividers, and sharpeners are tools used to control or prepare materials.",
+    ),
+    QuizQuestion(
+      question: "4. What fabric weave pattern is characterized by visible parallel diagonal ridges running across its surface?",
+      options: [
+        "Balanced linen tabby weave",
+        "Interlaced open mesh weave",
+        "Plain over-and-under weave",
+        "Structural diagonal twill weave",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Twill weave is engineered by stepping the weft float across warp threads at regular intervals, generating distinct diagonal ribs across the fabric.",
+    ),
+    QuizQuestion(
+      question: "5. Which local, renewable plant fiber is widely utilized in Ghanaian communities for traditional basketry?",
+      options: [
+        "Synthetic spun nylon",
+        "Treated acrylic thread",
+        "Natural cane or reed",
+        "Spun polyester filament",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Ghanaian basket makers traditionally use pliable natural plant fibers including cane, raffia, palm branches, and reed.",
+    ),
+    QuizQuestion(
+      question: "6. Why is it unsafe to use fixative sprays inside a tightly closed art studio room?",
+      options: [
+        "The paper absorbs moisture",
+        "Aerosol fumes damage lungs",
+        "Wet graphite stains floors",
+        "Charcoal turns into plastic",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Fixative sprays contain volatile chemical solvents that can irritate the respiratory system, requiring ventilation or outdoor application.",
+    ),
+    QuizQuestion(
+      question: "7. What tool is used to spread printing ink across a glass slab and onto a relief printing block?",
+      options: [
+        "A soft water hairbrush",
+        "A wooden carving gouge",
+        "A pointed etching stylus",
+        "A rubber brayer roller",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A brayer, or hand roller, is rolled through ink to create a thin, uniform film before coating the raised surfaces of a relief block.",
+    ),
+    QuizQuestion(
+      question: "8. In basket weaving terminology, what name is given to the sturdy upright pieces that establish the framework?",
+      options: [
+        "The pliable loop rings",
+        "The crosswise weft ribs",
+        "The flexible fine twines",
+        "The structural warp spokes",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The upright strands that form the supportive frame of a basket are called spokes or stakes, functioning like warp threads in textile weaving.",
+    ),
+    QuizQuestion(
+      question: "9. Why should a rubber printing brayer be stored resting on its metal stand rather than on its roller face?",
+      options: [
+        "To avoid flat depressions",
+        "To make the core roll loose",
+        "To dry out residual pigment",
+        "To keep metal joints tight",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Leaving a soft rubber roller resting on its face causes flat spots over time, ruining its ability to lay down an even layer of ink.",
+    ),
+    QuizQuestion(
+      question: "10. An artist drawing fine architectural outlines needs a durable point that will not smudge easily. Which pencil is most appropriate?",
+      options: [
+        "An ultra-soft 8B pencil",
+        "A dark 5B graphic pencil",
+        "A dense vine charcoal rod",
+        "A firm, hard 3H pencil",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Pencils in the H range have hard cores that keep sharp points longer and deposit minimal, smudge-resistant graphite ideal for precision layout.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs2S1Ss1Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS2_s1_ss1_l3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which design principle governs the relative size relationship between individual parts of an artwork?",
+      options: [
+        "Monochromatic tonal value",
+        "Radial textural gradation",
+        "Dynamic dimensional rhythm",
+        "Accurate physical proportion",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Proportion deals with how the size and scale of one part relates proportionally to another part or to the whole structure.",
+    ),
+    QuizQuestion(
+      question: "2. What principle is illustrated when an artisan arranges differing shapes so they achieve visual stability without mirroring each other?",
+      options: [
+        "Asymmetrical balance",
+        "Rigid radial symmetry",
+        "Unbalanced dissonance",
+        "Monotonous repetition",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Asymmetrical balance achieves compositional equilibrium using contrasting, non-identical shapes of equal visual weight.",
+    ),
+    QuizQuestion(
+      question: "3. Why do designers intentionally incorporate variety into large surface patterns?",
+      options: [
+        "To prevent the composition from becoming dull and monotonous",
+        "To ensure all individual shapes share identical line weights",
+        "To reduce the total number of pigments applied to the fabric",
+        "To disguise errors made during initial manual layout sketches",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Variety introduces diverse shapes, lines, or colours to generate visual interest and prevent visual fatigue.",
+    ),
+    QuizQuestion(
+      question: "4. Which natural specimen best exemplifies radial balance spreading outward from a centre?",
+      options: [
+        "The straight, vertical trunk of a forest timber tree",
+        "The open circular petal ring of a yellow sunflower",
+        "The jagged, cracked surface of dry savannah earth",
+        "The random, wandering trail of worker ants on sand",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Radial balance features elements radiating outward uniformly from a central focal core, characteristic of sunflowers.",
+    ),
+    QuizQuestion(
+      question: "5. What happens when an artwork possesses complete unity?",
+      options: [
+        "Every element conflicts sharply with surrounding shapes",
+        "The artwork appears incomplete and lacks clear direction",
+        "All elements work together to form a harmonious whole",
+        "One solitary colour dominates all surfaces without break",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Unity is achieved when all design elements combine cohesively to communicate a complete, unified visual idea.",
+    ),
+    QuizQuestion(
+      question: "6. How does a craftsman create a dominant focal point on a traditional carved drum?",
+      options: [
+        "By applying rough sandpaper across all exterior walls",
+        "By carving a single bold royal crest on the front face",
+        "By painting the entire wooden shell in pale flat cream",
+        "By wrapping identical cords evenly around every section",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation: "Carving a distinct, prominent emblem commands the viewer's immediate attention, establishing clear emphasis.",
+    ),
+    QuizQuestion(
+      question: "7. Why is writing an essential method for recording design principles during field research?",
+      options: [
+        "It provides a legal patent preventing commercial duplication",
+        "It calculates the financial manufacturing cost of art pieces",
+        "It documents structural organizational rules for application",
+        "It replaces all practical physical workshop experimentation",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Written notes articulate the exact organizational logic, such as balance and contrast, providing a clear structural plan for studio projects.",
+    ),
+    QuizQuestion(
+      question: "8. What principle is demonstrated when alternating geometric squares guide the eye across a floor?",
+      options: [
+        "Stagnant spatial tension",
+        "Asymmetric colour fade",
+        "Random textural friction",
+        "Continuous visual rhythm",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Alternating motifs establish a predictable sequence and visual cadence that moves the viewer's eyes across a surface.",
+    ),
+    QuizQuestion(
+      question: "9. Which combination illustrates contrast in a functional Ghanaian product?",
+      options: [
+        "Smooth polished cow horn set against rough woven burlap",
+        "Identical pale pine boards joined side by side on a desk",
+        "Light yellow embroidery placed over light cream organza",
+        "Flat grey concrete blocks laid in regular straight courses",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Juxtaposing an ultra-smooth natural horn with rough, coarse burlap generates powerful textural and visual contrast.",
+    ),
+    QuizQuestion(
+      question: "10. What structural defect occurs in a building design when proportion is ignored?",
+      options: [
+        "The paint finish fades rapidly under midday sunlight",
+        "Decorative wall stencils lose their original pigments",
+        "The foundation or pillars fail to support the roof weight",
+        "The exterior doorways produce too much indoor ventilation",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Disregarding proper proportional dimensions leads to structural instability, where load-bearing supports cannot bear the mass above them.",
+    ),
+  ],
+);
+
 final QuizModel creativeArtsJhs2S1Ss3Lesson3QuizData = QuizModel(
     audioPath: "assets/audio/CreativeArts/JHS2_s1_ss3_L3/8. QUIZ.mp3",
     questions: [

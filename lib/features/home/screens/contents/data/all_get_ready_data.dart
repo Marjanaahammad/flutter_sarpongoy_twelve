@@ -1,5 +1,309 @@
 import '../model/get_ready_model.dart';
 
+final GetReadyModel creativeArtsJhs3S2Ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s2_ss1_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_l3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s2_ss1_L3/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l3/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S2Ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s2_ss1_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s2_ss1_l2/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S2Ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s2_ss1_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s2_ss1_L1/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss3Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss3_l3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss3_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss3_l3/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss3Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss3_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss3_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss3_L2/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss3Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss3_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss3_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss3_L1/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss3_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss2Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss2_l3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss2_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss2_l3/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss2_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss2Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss2_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss2_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss2_l2/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss2_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss2Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss2_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss2_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss2_l1/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss2_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss1_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss1_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss1_L3/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss1_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss1_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss1_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss1_l2/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss1_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs3S1Ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s1_ss1_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s1_ss1_l1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s1_ss1_L1/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s1_ss1_l1/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss3Lesson7GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_l7/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss3_l7/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_l7/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l7/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss3Lesson6GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L6/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss3_L6/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L6/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L6/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss3Lesson5GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L5/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss3_L5/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L5/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L5/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss3Lesson4GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_l4/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss3_l4/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_l4/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l4/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss3Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss3_l3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L3/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_l3/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss3Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss3_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_l2/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss3Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss3_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss3_L1/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss3_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson9GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L9/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L9/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L9/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L9/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson8GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_l8/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L8/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_l8/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L8/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson7GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L7/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHs2_s2_ss2_L7/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L7/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHs2_s2_ss2_L7/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson6GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHs2_s2_ss2_L6/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L6/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHs2_s2_ss2_L6/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L6/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson5GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L5/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L5/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L5/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L5/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson4GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L4/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L4/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L4/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L4/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/Jhs2_s2_ss2_l3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/Jhs2_s2_ss2_l3/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHs2_s2_ss2_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHs2_s2_ss2_L2/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss2Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss2_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss2_L1/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss2_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson9GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L9/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L9/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L9/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L9/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson8GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_l8/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L8/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_l8/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L8/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson7GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L7/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L7/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L7/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L7/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson6GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L6/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L6/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L6/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L6/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson5GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L5/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L5/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L5/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L5/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson4GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L4/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_l4/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L4/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_l4/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_l3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_l3/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_L2/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S2Ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s2_ss1_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s2_ss1_l1/H.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s2_ss1_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel creativeArtsJhs2S1Ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS2_s1_ss1_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS2_s1_ss1_l3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS2_s1_ss1_L3/HOOK.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS2_s1_ss1_l3/2. HOOK.mp3",
+);
+
 final GetReadyModel creativeArtsJhs2S1Ss3Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: "assets/images/CreativeArts/JHS2_s1_ss3_L3/CO.jpg",
   overviewAudioPath:
