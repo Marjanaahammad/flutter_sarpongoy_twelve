@@ -1,6 +1,379 @@
 import '../model/independent_practice_model.dart';
 
 final IndependentPracticeModel
+creativeArtsJhs3S2Ss1Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_L9/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which posture involves bending the knees and bringing the torso down to avoid detection?",
+      options: ["Crouching", "Casting", "Pleating", "Quilling"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Crouching bends the knees and lowers the torso, reducing the actor's height for stealth or concealment.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which stage grid coordinate represents the central focal point of the entire stage?",
+      options: ["DR area", "CC area", "UL area", "DL area"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "CC identifies Center Stage, the central point of the nine-area stage grid.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What actor orientation describes standing with your back facing directly toward the audience?",
+      options: ["Full Front", "Open Turn", "Full Back", "Side Profile"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Full Back places the actor's back directly toward the audience, with the face turned away from the house.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is the theatrical practice called where an actor angles their body slightly toward the house?",
+      options: [
+        "Cheating out",
+        "Mould venting",
+        "Scoring card",
+        "Vocal sliding",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Cheating out opens the actor's body slightly toward the audience so expressions and speech remain clear during interaction.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. Which spatial level is an actor occupying when crawling, kneeling, or lying flat on the floor?",
+      options: ["High plane", "Low level", "Medium rank", "Apron grid"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Crawling, kneeling, and lying down bring the body close to the stage floor and belong to the low level.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss1Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_l8/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which type of theatre is completely encircled by the audience on all sides?",
+      options: [
+        "Proscenium arch",
+        "Arena stage",
+        "Apron platform",
+        "Thrust layout",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "An arena stage places the performance area in the centre, with audience seating surrounding it on all sides.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the forward part of the stage floor called that extends past the proscenium arch?",
+      options: [
+        "The green room",
+        "The backstage wing",
+        "The stage apron",
+        "The fly gallery",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The stage apron is the part of the stage floor that projects forward beyond the proscenium arch toward the audience.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which stage abbreviation represents the area located at the front right from the actor's perspective?",
+      options: ["UL zone", "UC zone", "CC zone", "DR zone"],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "DR means Downstage Right: the front-right area from the perspective of an actor facing the audience.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What theatrical convention involves an actor speaking private thoughts directly to the audience?",
+      options: ["An aside", "A masking", "A pleating", "An ostinato"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An aside lets a character share private thoughts with the audience while other characters are understood not to hear them.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. Which of the following items is classified as a theatrical hand prop?",
+      options: [
+        "A painted wall flat",
+        "A handheld flashlight",
+        "An overhead floodlight",
+        "A proscenium curtain",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A handheld flashlight is a movable object an actor can carry and handle during a performance, making it a hand prop.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss1Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_l7/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which term describes a rehearsed performance where narrative action is conveyed through movement?",
+      options: [
+        "Dance drama",
+        "Hump casting",
+        "Paper quilling",
+        "Solo arpeggio",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Dance drama uses rehearsed movement and music to communicate a story and its dramatic action.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which traditional Ghanaian dance requires a wide, expansive performance space?",
+      options: [
+        "Adowa dance",
+        "Fontomfrom dance",
+        "Kete dance",
+        "Nwonkro dance",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Fontomfrom dance uses broad movements and expansive gestures that require ample performance space.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which element of dance describes the application of force, tension, and weight to movement?",
+      options: [
+        "Space level",
+        "Linear meter",
+        "Energy force",
+        "Script dialogue",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Energy describes the force, tension, and weight applied to movement, shaping its dynamic quality.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What type of gesture is illustrated by handshakes, embraces, and welcoming salutes?",
+      options: [
+        "Ritual gestures",
+        "Functional mime",
+        "Casting actions",
+        "Social gestures",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Social gestures communicate greetings, welcome, and relationships through actions such as handshakes and embraces.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. What is the primary artistic bedrock of African music and dance performance?",
+      options: [
+        "Paper scoring",
+        "Musical rhythm",
+        "Metal chasing",
+        "Plaster moulds",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Musical rhythm provides the pulse and patterns that organize movement and connect dancers with the accompanying music.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss1Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_l6/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What term describes a musical motif that persistently repeats at the same pitch?",
+      options: [
+        "An ostinato motif",
+        "An arpeggio scale",
+        "A casting matrix",
+        "A pleating creaser",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An ostinato is a short musical motif repeated persistently at the same pitch.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which solfa syllable corresponds to the root of chord VI in our progression?",
+      options: ["Fah note", "Lah note", "Soh note", "Doh note"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Chord VI is built on the sixth scale degree, represented by the solfa syllable lah.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What is the spontaneous creation of a melody during a performance called?",
+      options: [
+        "Score engraving",
+        "Vocal projection",
+        "Improvisation",
+        "Casting pattern",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Improvisation means creating music spontaneously during a performance.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which triad tones are the safest melodic choices when chord IV is sounding?",
+      options: [
+        "me, soh, te",
+        "doh, me, soh",
+        "ray, fah, lah",
+        "fah, lah, doh",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "The triad of chord IV contains fah, lah, and doh, so these notes agree with the sounding harmony.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. What musical system combines the treble and bass staves using a bracket?",
+      options: [
+        "The Great Stave",
+        "The Single Clef",
+        "The Dynamic Line",
+        "The Solo Bar",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Great Stave combines the treble and bass staves into one system for reading high and low pitches together.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss1Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_L5/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which term describes the sequential singing of chord notes one after another?",
+      options: [
+        "Arpeggio technique",
+        "Ostinato rhythm",
+        "Cire-perdue cast",
+        "Slush pouring",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An arpeggio sounds the notes of a chord one after another instead of simultaneously.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which three solfa notes form the primary triad built on Degree I of the major scale?",
+      options: ["ray fah lah", "doh me soh", "me soh te", "fah lah doh"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The Degree I triad uses the first, third, and fifth notes of the major scale: doh, me, and soh.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. In a four-part vertical vocal group, which vocal section sings the lowest root note?",
+      options: [
+        "Group 1 section",
+        "Group 2 section",
+        "Group 4 section",
+        "Group 3 section",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "In this four-part arrangement, Group 4 is the bass section and sings the lowest root note.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which traditional Ghanaian aerophone is commonly used to supply melodic pitch cues?",
+      options: [
+        "Atenteben flute",
+        "Fontomfrom drum",
+        "Talking donno",
+        "Gankogui bell",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The atenteben is a Ghanaian flute that produces pitched melodic notes suitable for vocal pitch cues.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. What solfa note replaces the doubled leading note in the top voice on Degree VII?",
+      options: [
+        "High me pitch",
+        "High ray pitch",
+        "Low doh pitch",
+        "Middle fah note",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "In this arrangement, high ray replaces the doubled leading note te in the upper voice of the Degree VII triad.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss1Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss1_l4/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which Ghanaian artist is internationally celebrated for assembling vast installations from stitched jute cocoa sacks?",
+      options: [
+        "Jean Dubuffet",
+        "Ibrahim Mahama",
+        "Pablo Picasso",
+        "John Lewis",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Ibrahim Mahama stitches discarded jute cocoa sacks together to create large installations that explore trade, labour, and history.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which fastening method involves wrapping wire around objects and twisting the ends tightly with pliers?",
+      options: [
+        "Wiring technique",
+        "Quilling method",
+        "Cire-perdue cast",
+        "Hump moulding",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "The wiring technique secures objects by wrapping wire around them and twisting the ends tightly with pliers.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Which tool is specifically required to drive threaded metal screws into dense timber blocks?",
+      options: ["Bone folder", "Paint roller", "Screwdriver", "Scissors"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "A screwdriver fits the screw head and applies the turning force needed to drive the threaded screw into timber.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the recommended adhesive medium when bonding heavy metals or non-porous plastics together?",
+      options: [
+        "Thin water wash",
+        "Powdered starch",
+        "Paper gum tape",
+        "Two-part epoxy",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Two-part epoxy forms a strong bond suited to heavy metals and compatible non-porous plastics when their surfaces are properly prepared.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. Why should found objects be thoroughly washed and dried before being assembled into an artwork?",
+      options: [
+        "To make them soften and melt into liquid moulds",
+        "To ensure dirt and oil do not weaken adhesive joins",
+        "To turn ordinary scrap cardboard into metal sheets",
+        "To remove all original colour from the material",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "Washing removes dirt and oil, and drying removes moisture that could prevent adhesive from bonding securely to the objects.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
 creativeArtsJhs3S2Ss1Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:
       "assets/audio/CreativeArts/JHS3_s2_ss1_l3/7. INDEPENDENT PRACTICE.mp3",

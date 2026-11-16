@@ -1,5 +1,173 @@
 import '../model/practice_model.dart';
 
+final PracticeModel creativeArtsJhs3S2Ss1Lesson9PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_L9/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Describe the physical mechanics of a crouch posture and explain why an actor uses it during a dramatic performance.",
+      answer: "A crouch involves bending the knees deeply while folding the upper body forward and down close to the floor; actors use it to take cover, avoid detection, show fear, or prepare to defend.",
+      explanation: "Dropping the center of gravity to a low level communicates tactical stealth, vulnerability, or heightened physical readiness to the audience.",
+    ),
+    PracticeQuestion(
+      scenario: "2. List the exact sequence of stage areas an actor traverses when following the blocking cue: move DR, UL, DC, DL, CC.",
+      answer: "The actor moves to Downstage Right, crosses diagonally to Upstage Left, advances to Downstage Center, shifts across to Downstage Left, and finishes at Center Stage.",
+      explanation: "These abbreviations correspond to standardized floor coordinates defined from the actor's perspective facing the audience.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the technical difference between a Full Front actor body orientation and a Profile Open position, and why is Profile Open preferred for two-person dialogues?",
+      answer: "Full Front faces the audience squarely, whereas Profile Open angles the body at 45 degrees toward the house; Profile Open allows actors to interact naturally while keeping their faces, gestures, and voices open to the spectators.",
+      explanation: "Cheating out at a 45-degree angle ensures audience sightlines and acoustic projection are preserved while maintaining believable on-stage conversation.",
+    ),
+    PracticeQuestion(
+      scenario: "4. How does an ensemble director use varying body levels to maintain visual balance and harmony across the stage?",
+      answer: "The director distributes performers across contrasting high, medium, and low levels, creating triangular visual pathways that prevent visual crowding and keep all zones dynamically balanced.",
+      explanation: "Mixing sitting, standing, and crouching poses distributes visual weight evenly, creating aesthetic harmony and highlighting focal characters.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss1Lesson8PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l8/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why stage directions like Stage Right and Stage Left are always determined from the perspective of the actor rather than the audience.",
+      answer: "Stage directions use the actor's perspective facing the house so that instructions remain consistent and clear for the performers executing the blocking movements on stage.",
+      explanation: "If directions were based on the audience, the left and right sides would constantly reverse depending on where an observer stood, causing confusion during rehearsals.",
+    ),
+    PracticeQuestion(
+      scenario: "2. What is the theatrical function of an aside, and how do other actors on stage behave while it is delivered?",
+      answer: "An aside allows a character to speak directly to the audience to share private thoughts or secrets, while the other actors freeze or pretend they cannot hear the speech.",
+      explanation: "This established convention creates dramatic irony, giving the audience privileged insight into the character's internal motives while keeping other characters unaware.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Define what a prop is in theatre and explain how a hand prop differs from permanent stage scenery.",
+      answer: "A prop is any movable object handled by an actor during a performance; a hand prop is small and carried directly by the actor, whereas scenery consists of fixed architectural walls or backdrops.",
+      explanation: "Props are active narrative tools manipulated by characters, while scenery forms the stationary physical environment of the stage.",
+    ),
+    PracticeQuestion(
+      scenario: "4. What is the primary difference between a linear play structure and a non-linear play structure?",
+      answer: "A linear structure presents events in chronological order from beginning to end, whereas a non-linear structure uses flashbacks, circular timelines, or episodic jumps.",
+      explanation: "Linear narratives rely on cause-and-effect progression, while non-linear narratives arrange scenes thematically or disrupt chronological time.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss1Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l7/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What is the technical definition of a dance drama, and how does it differ from a conventional spoken stage play?",
+      answer: "A dance drama is a theatrical performance where dramatic story, conflict, and character action are communicated primarily through dance movement and music rather than extended spoken dialogue.",
+      explanation: "While conventional plays rely mainly on spoken dialogue to advance the plot, dance drama uses the expressive movement of the human body, music, and pantomime as the primary storytelling tools.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify the five core elements that form the materials for creating a dance performance.",
+      answer: "The five core elements are body action, space, time, energy (force), and costume.",
+      explanation: "These five elements provide the physical, spatial, temporal, dynamic, and visual materials required to choreograph and stage a dance work.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe an example of a traditional Ghanaian emotional gesture and state the specific situation in which it is used.",
+      answer: "Placing both palms on top of the head while pacing with a twisted body is an emotional gesture used to express intense grief and mourning during funerals.",
+      explanation: "This stylized physical posture communicates profound personal loss and sorrow within Ghanaian traditional communities without requiring spoken words.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Why should costumes designed for athletic dance dramas be made from stretchable or lightweight fabrics like jersey, chiffon, or silk?",
+      answer: "Stretchable and lightweight fabrics move fluidly with the dancer's body and prevent tearing or restricting movement during wide leaps, turns, and fast routines.",
+      explanation: "Heavy, rigid materials restrict physical agility, whereas flexible fabrics enhance visual movement flow and maintain performer comfort and safety.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss1Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l6/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Define the musical term ostinato and state its primary role in a musical performance.",
+      answer: "An ostinato is a short melodic, rhythmic, or harmonic pattern that persistently repeats at the same pitch throughout a piece, providing a steady rhythmic and harmonic anchor for the music.",
+      explanation: "Ostinatos establish continuous repetition that stabilizes the tempo and outlines the underlying chord progression for soloists and ensembles.",
+    ),
+    PracticeQuestion(
+      scenario: "2. List the solfa root notes for the four-chord progression I, VI, IV, V in order.",
+      answer: "The solfa root notes are doh, lah, fah, and soh.",
+      explanation: "Chord I is rooted on doh, Chord VI on lah, Chord IV on fah, and Chord V on soh.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why should an improviser emphasize chord tones on strong beats rather than non-chord tones?",
+      answer: "Emphasizing chord tones on strong beats creates harmonic agreement with the underlying bass chord and prevents unintended pitch clashes.",
+      explanation: "Landing on notes belonging to the active triad provides stability, while non-chord tones serve best as brief passing notes on weak beats.",
+    ),
+    PracticeQuestion(
+      scenario: "4. What do two dots placed before a double bar line indicate on a musical stave?",
+      answer: "The two dots form a repeat sign, instructing the performers to repeat the preceding section of music.",
+      explanation: "In standard notation, a repeat symbol directs the musician to return to the start of the section and play it again, essential for repeating ostinato loops.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss1Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_L5/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What is the technical difference between singing a triad horizontally and singing a triad vertically?",
+      answer: "Singing horizontally means sounding the notes of a triad sequentially one after another as an arpeggio, whereas singing vertically means sounding all the notes simultaneously across different vocal parts in harmony.",
+      explanation: "Horizontal singing focuses on melodic pitch jumps along a timeline, while vertical singing coordinates simultaneous pitches to create multi-voice harmony.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify the solfa notes that form the triad built on Degree V (the Dominant) of the major scale.",
+      answer: "The notes are soh, te, and high ray.",
+      explanation: "Starting on the dominant root soh (Degree V), you skip lah to add the third te, and skip high doh to add the fifth high ray.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is the leading note te never doubled when arranging a four-part vertical harmony on Degree VII?",
+      answer: "The leading note te possesses strong upward acoustic tension toward the tonic doh, so doubling it creates a harsh clash and unbalances the chord.",
+      explanation: "Choral voice-leading rules substitute high ray in the upper voice to prevent harsh overtones and maintain clean harmonic balance.",
+    ),
+    PracticeQuestion(
+      scenario: "4. How does using an instrument like the atenteben or gyile support a singer during vocal arpeggio drills?",
+      answer: "The instrument provides an accurate acoustic pitch standard that allows the singer to verify pitch intervals and correct flat or sharp intonation.",
+      explanation: "Acoustic reference pitches prevent vocalists from drifting off key and train the ear to recognise exact interval distances.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss1Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l4/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. What is the technical meaning of assemblage in visual arts, and which French artist introduced this term in the 1950s?",
+      answer:
+          "Assemblage is a three-dimensional sculptural technique that organizes and composes unrelated or discarded found objects into a unified artwork; the term was introduced by Jean Dubuffet.",
+      explanation:
+          "Jean Dubuffet coined the term in the 1950s to describe artworks constructed from collage and gathered real-world fragments rather than traditional sculpted clay or stone.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. Describe how the Ghanaian artist El Anatsui uses assemblage techniques and found objects to produce his celebrated artworks.",
+      answer:
+          "El Anatsui flattens thousands of discarded aluminium bottle caps, pierces them, and stitches them together with copper wire to create massive, shimmering sculptural tapestries.",
+      explanation:
+          "His work demonstrates how small, discarded consumer waste items can be linked together using wiring techniques to create monumental wall installations.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. Why is screwing preferred over water-based PVA gluing when joining heavy timber blocks to rigid plastic components?",
+      answer:
+          "Screws provide mechanical anchoring and withstand heavy weight and movement, whereas water-based PVA glue cannot penetrate non-porous plastic surfaces and fails under strain.",
+      explanation:
+          "Non-porous plastics resist water-based chemical bonding, requiring mechanical fasteners like screws driven with screwdrivers to ensure a strong joint.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "4. Identify two essential safety precautions an artist must observe when handling discarded sheet metal and wire during studio construction.",
+      answer:
+          "The artist must wear protective work gloves to avoid cuts from sharp metal edges and wear safety goggles to shield the eyes from snapping wire ends.",
+      explanation:
+          "Sharp edges and springy wire ends present immediate puncture and laceration hazards, making gloves and eye protection indispensable.",
+    ),
+  ],
+);
+
 final PracticeModel creativeArtsJhs3S2Ss1Lesson3PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_l3/6. GUIDED PRACTICE.mp3",
   questions: [
