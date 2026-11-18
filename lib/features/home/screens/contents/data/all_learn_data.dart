@@ -1,5 +1,125 @@
 import '../model/learn__model.dart';
 
+final LearnModel creativeArtsJhs3S2Ss3Lesson7LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L7/P1.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L7/3. TEACH PART - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L7/P2.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L7/4. TEACH PART - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L7/P3.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L7/5. TEACH PART - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel creativeArtsJhs3S2Ss3Lesson6LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l6/P1.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L6/3. TEACH PART - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l6/P2.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L6/4. TEACH PART - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l6/P3.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L6/5. TEACH PART - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel creativeArtsJhs3S2Ss3Lesson5LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L5/P1.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L5/3. TEACH PART - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L5/P2.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L5/4. TEACH PART - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L5/P3.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L5/5. TEACH PART - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel creativeArtsJhs3S2Ss3Lesson4LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l4/P1.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L4/3. TEACH PART - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l4/P2.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L4/4. TEACH PART - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l4/P3.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L4/5. TEACH PART - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel creativeArtsJhs3S2Ss3Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l2/P1.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L2/3. TEACH PART - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l2/P2.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L2/4. TEACH PART - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l2/P3.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L2/5. TEACH PART - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel creativeArtsJhs3S2Ss3Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L1/P1.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L1/3. TEACH PART - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L1/P2.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L1/4. TEACH PART - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L1/P3.jpg",
+      audioPath:
+          "assets/audio/CreativeArts/JHS3_s2_ss3_L1/5. TEACH PART - C.mp3",
+    ),
+  ],
+);
+
 final LearnModel creativeArtsJhs3S2Ss2Lesson9LearnData = LearnModel(
   parts: [
     LearnPart(

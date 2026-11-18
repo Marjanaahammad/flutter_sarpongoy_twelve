@@ -1,5 +1,131 @@
 import '../model/practice_model.dart';
 
+final PracticeModel creativeArtsJhs3S2Ss3Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L7/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is it essential for a performance reviewer to describe the background information of an artwork before evaluating it?",
+      answer: "Background information provides essential context by documenting the creators, title, venue, date, and historical intent of the production.",
+      explanation: "Without identifying who created the piece, where it occurred, and its artistic goals, the reader cannot understand the criteria or setting under which the performance was executed.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the difference between giving a destructive critique and writing a constructive performance review.",
+      answer: "Destructive critique insults or dismisses without explanation, whereas constructive reviews highlight strengths and provide practical suggestions for improvement.",
+      explanation: "A constructive review respects the artist's labour by using objective aesthetic criteria to identify what succeeded while offering specific, actionable guidance for growth.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What role does evaluating the audience’s reaction play in appraising a live theatrical or musical performance?",
+      answer: "Audience reactions indicate how effectively the performance communicated its emotional tone, dramatic tension, and underlying message.",
+      explanation: "Whether spectators respond with focused silence, spontaneous applause, laughter, or tears reveals if the performers successfully engaged the crowd and held their attention.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss3Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L6/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why are stage directions essential when writing a one-act play script?",
+      answer: "Stage directions provide instructions for actors' physical movements, emotional delivery, pacing, and technical stage cues.",
+      explanation: "Without stage directions, actors would only have dialogue to read, leaving physical gestures, spatial positioning, tone of voice, and entrance timing ambiguous.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain how a choreographer can use both ground space and aerial space to show a change in mood during a performance.",
+      answer: "Ground movements can represent struggle, sorrow, or heavy labour, while aerial jumps reflect victory, celebration, and joy.",
+      explanation: "Low levels of movement, like kneeling or stamping, visually evoke grounded toil or grief, whereas leaping high into upper aerial space communicates freedom, triumph, and energetic release.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the educational benefit of recording a drama or dance performance on a video device?",
+      answer: "Recording allows the performers to watch themselves back, evaluate their delivery, and identify areas for artistic improvement.",
+      explanation: "Reviewing recorded footage helps students conduct an objective appraisal of their vocal projection, choreography timing, costume suitability, and overall dramatic impact.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss3Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L5/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Define dramatic tension and explain why playwrights use it in African theatrical works.",
+      answer: "Dramatic tension is the state of suspense and anticipation that keeps the audience wondering what will happen next.",
+      explanation: "Dramatists use tension to keep audiences engaged and emotionally invested in the plot, heightening interest until the climax resolves the central conflict.",
+    ),
+    PracticeQuestion(
+      scenario: "2. How does a soliloquy or aside differ from regular spoken dialogue between two actors on stage?",
+      answer: "Regular dialogue occurs between characters, whereas a soliloquy or aside reveals a character's private thoughts directly to the audience.",
+      explanation: "Dialogue moves the external action forward between performers, while soliloquies and asides offer personal insights into an individual character's hidden plans, feelings, and moral conflicts.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the value of using drama and dance to address emergent topical issues such as corruption or cyber fraud?",
+      answer: "Performing arts make social problems visible, emotionally relatable, and open to public reflection and moral reform.",
+      explanation: "Theatre humanizes abstract community issues, allowing citizens to witness the consequences of harmful actions and prompting positive changes in social behaviour.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss3Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L4/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Contrast the primary instruments and performance occasion of the Bawa dance with those of the royal Kete dance.",
+      answer: "Bawa uses the gyile xylophone and kuor drums for harvest celebrations and recreation, whereas Kete uses a royal Akan drum ensemble for palace events and funerals.",
+      explanation: "Bawa comes from northern Ghana and centres on agricultural celebration using wooden xylophones, whereas Kete is an Akan royal court dance performed with drums at chief palaces and state functions.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain how Ghanaian Highlife music reflects the fusion of indigenous African musical traditions with foreign influences.",
+      answer: "Highlife blends traditional African syncopated rhythms and proverbs with Western brass horns, electric guitars, and jazz progressions.",
+      explanation: "Musicians adapted indigenous bell patterns and rhythmic pulses to Western imported instruments, creating a popular dance genre that bridges local heritage and global styles.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What role do ankle bells play in the performance of the Bawa dance?",
+      answer: "Ankle bells produce an audible percussive sound that reinforces the rhythmic foot-stomping and leaps of the dancers.",
+      explanation: "As dancers jump and stamp their feet, the jingle of the bells adds an extra percussive layer that synchronises with the gyile xylophone melodies.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how an African visual artist who builds sculptures from discarded metal scraps and plastics connects their work directly to environmental science.",
+      answer: "The artist highlights solid waste management, pollution control, and sustainable resource conservation through creative recycling.",
+      explanation: "By collecting non-biodegradable waste from roadsides and urban dump sites to build public sculptures, the artist cleans up the local environment and visually educates the public on ecological preservation.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why must an art critic examine an artist's cultural background and local history when appraising an artwork?",
+      answer: "Cultural and historical knowledge reveals the specific meanings of local symbols, materials, and philosophical themes embedded in the piece.",
+      explanation: "An artwork is shaped by the community life, traditions, and historical challenges of its creator; understanding this context prevents misinterpretation and explains why specific techniques were used.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe one practical way a visual artist can collaborate with performers in a traditional Ghanaian dance production.",
+      answer: "The visual artist can design and construct authentic costumes, symbolic props, body ornaments, or dynamic stage backdrops.",
+      explanation: "Visual elements such as woven cloths, carved rattles, painted scenery, and ceremonial masks reinforce the dramatic theme and cultural setting of the dance performance.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why does Ibrahim Mahama choose to use old, patched jute sacks from local markets rather than buying brand new rolls of clean fabric for his installations?",
+      answer: "The worn jute sacks carry traces of physical labour, trader identities, and trade history that new fabric lacks.",
+      explanation: "The marks, stamps, tears, and charcoal stains on the old sacks embody the real economic struggles and daily work of market porters and traders, making the material itself an authentic record of African trade.",
+    ),
+    PracticeQuestion(
+      scenario: "2. In what way did Peju Alatise's university training outside of fine arts influence the construction of her mixed-media artworks?",
+      answer: "Her architectural training gave her expertise in three-dimensional structural design, material durability, and space management.",
+      explanation: "Studying architecture enabled Alatise to build complex, freestanding installations and structural compositions using diverse materials such as wood, metal, cloth, and resin effectively.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State how African visual artists use public installations to solve or highlight continental problems.",
+      answer: "They place large-scale, thought-provoking artworks in shared public spaces to spark dialogue on social and economic challenges.",
+      explanation: "By wrapping public infrastructure or setting up large sculptures where everyday citizens gather, artists bring urgent topics like human rights, labour value, and community protection directly into public consciousness.",
+    ),
+  ],
+);
+
 final PracticeModel creativeArtsJhs3S2Ss2Lesson9PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L9/6. GUIDED PRACTICE.mp3",
   questions: [

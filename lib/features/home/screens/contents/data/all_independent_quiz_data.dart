@@ -1,6 +1,333 @@
 import '../model/independent_practice_model.dart';
 
 final IndependentPracticeModel
+creativeArtsJhs3S2Ss3Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L7/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the opening task when writing a formal review of an African creative performance?",
+      options: [
+        "Documenting the title, artist details, and event venue",
+        "Demanding that the ticket fees be refunded to spectators",
+        "Counting how many plastic chairs were left empty in the hall",
+        "Discarding all written scripts used by the acting cast",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A formal review opens by documenting the title, artist details, and venue to establish the performance's background and context.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which technical aspect of a vocal performance assesses the clarity and pronunciation of the sung words?",
+      options: [
+        "Stage flooring texture",
+        "Vocal diction",
+        "Amplifier wattage",
+        "Ticket counter speed",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Vocal diction concerns the clear articulation and pronunciation of words so the audience can understand the lyrics.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. When reviewing stagecraft, what does an appraiser examine to determine historical authenticity?",
+      options: [
+        "The brand name of the recording mobile device",
+        "The cost of fuel used by the school transport bus",
+        "The suitability of costumes, regalia, and props",
+        "The number of printed programs remaining after the show",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Suitable costumes, regalia, and props reflect the historical period and cultural setting represented in the performance.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is the primary purpose of including recommendations at the end of a performance review?",
+      options: [
+        "To offer practical guidance for artistic improvement",
+        "To force the school to shut down its performing troupe",
+        "To ban the performers from ever using acoustic drums",
+        "To replace traditional choreography with silent film",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Recommendations offer specific, practical guidance that helps performers refine their artistic choices and improve future productions.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss3Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L6/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the defining structural feature of a one-act theatrical play?",
+      options: [
+        "It takes place entirely within a single continuous act",
+        "It requires twenty separate stage sets and backgrounds",
+        "It must be performed without any spoken human dialogue",
+        "It requires the audience to stand up throughout the performance",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A one-act play contains a single continuous act rather than being divided into several acts.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. In stagecraft terminology, what are props?",
+      options: [
+        "The printed admission tickets sold at the gate",
+        "Physical objects handled by actors during a scene",
+        "The wooden ceiling beams supporting the auditorium",
+        "The written reviews published by newspaper journalists",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Props are physical objects actors handle during a scene to support the action and make the dramatic setting believable.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of the following movements in dance makes active use of aerial space?",
+      options: [
+        "Crawling slowly across the stage boards",
+        "Sitting quietly with legs crossed in prayer",
+        "Leaping high off the ground with outstretched arms",
+        "Stamping heels flatly against the dirt floor",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Leaping lifts the dancer off the ground into aerial space, unlike movements performed close to the floor.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Why is dividing production roles among team members necessary for a successful performance?",
+      options: [
+        "It allows each student to specialize and complete essential tasks efficiently",
+        "It ensures that only one person does all the writing and acting",
+        "It prevents the school from having to purchase any lighting",
+        "It guarantees that the play will be performed in total silence",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Dividing production roles allows team members to specialize, coordinate their work, and complete essential tasks efficiently.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss3Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L5/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the primary role of a playwright or dramatist in theatre production?",
+      options: [
+        "Sewing the actors' stage costumes",
+        "Writing the play script and dialogue",
+        "Selling paper admission tickets",
+        "Cleaning the stage lighting bulbs",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The playwright or dramatist writes the script and dialogue that establish the story, characters, and dramatic action.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which dramatic technique involves a character speaking their private thoughts aloud while alone on stage?",
+      options: [
+        "Soliloquy monologue",
+        "Ensemble chorus",
+        "Pantomime mimicry",
+        "Orchestral overture",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A soliloquy allows a character alone on stage to express private thoughts aloud so the audience can understand their feelings and intentions.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What is the primary artistic objective of building dramatic tension across a stage play?",
+      options: [
+        "To allow actors to take long rests backstage",
+        "To lower the ticket price for students",
+        "To keep the audience eager and guessing",
+        "To replace spoken dialogue with silent acting",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Dramatic tension builds suspense and anticipation, keeping the audience eager to discover what will happen next.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What does the term \"appraisal\" mean when evaluating a dance or drama performance?",
+      options: [
+        "Memorising all spoken lines word for word",
+        "Demanding that the cast change costumes",
+        "Purchasing the copyright to the production",
+        "Systematically analysing aesthetic value",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Appraisal systematically analyses a performance's aesthetic value using evidence about its artistic choices, execution, and purpose.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss3Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L4/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which traditional instrument provides the primary melodic accompaniment for the Bawa dance?",
+      options: [
+        "The atenteben bamboo flute",
+        "The seperewa box harp",
+        "The gyile wooden xylophone",
+        "The acoustic violin bow",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The gyile wooden xylophone provides the primary melodic accompaniment for Bawa, supported by drums and the dancers' ankle bells.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. From which geographical region of Ghana does the indigenous Bawa dance originate?",
+      options: [
+        "Central Region coastal belt",
+        "Upper West Region savannah",
+        "Eastern Region forest highlands",
+        "Greater Accra urban plains",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Bawa originates among the Dagaba and Lobi communities of Ghana's Upper West Region savannah.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which world-renowned music group pioneered the international fusion genre known as Afro-rock?",
+      options: ["Osibisa", "Wulomei", "Ramblers Dance Band", "Sweet Talks"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Osibisa pioneered Afro-rock by combining African rhythms and percussion with electric rock instruments and international musical influences.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What is a defining element of Jazz music that heavily influenced modern West African popular musicians?",
+      options: [
+        "Complete elimination of all brass trumpets",
+        "Rigid prohibition of all improvised solos",
+        "Spontaneous melodic and rhythmic improvisation",
+        "Strict requirement to sing exclusively in Latin",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Jazz encourages spontaneous melodic and rhythmic improvisation, allowing musicians to create expressive variations during a performance.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which academic discipline is directly applied when a visual sculptor calculates structural balance, load distribution, and spatial layout for a public monument?",
+      options: [
+        "Architectural engineering",
+        "Commercial accounting",
+        "Plant biology classification",
+        "Marine fishing science",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Architectural engineering applies structural balance, load distribution, and spatial planning to ensure that a public monument is stable and safely arranged.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which famous contemporary African artist is celebrated worldwide for assembling discarded aluminium bottle caps and copper wire into shimmering tapestry sculptures?",
+      options: ["Saka Acquaye", "El Anatsui", "Ablade Glover", "Ephraim Amu"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "El Anatsui assembles discarded aluminium bottle caps with copper wire to create large, shimmering tapestry sculptures.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What is the first essential step when conducting a formal art appreciation or appraisal session?",
+      options: [
+        "Calculate the retail price of the canvas",
+        "Sell the artwork to an overseas collector",
+        "Identify the materials and design medium",
+        "Discard pieces that lack bright oil paint",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Identifying the materials and design medium establishes what the artwork is made from before analysing its design and interpreting its meaning.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. How does the visual art of textile weaving connect with social history in Ghana?",
+      options: [
+        "It records historical proverbs, lineage status, and royal events through symbolic patterns",
+        "It replaces the need for written textbooks and scientific dictionaries in high schools",
+        "It prevents traditional drummers from composing complex polyrhythmic beats in shrines",
+        "It ensures that rural farms exclusively produce cash crops rather than staple food items",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Symbolic woven patterns communicate historical proverbs, lineage status, and royal events, preserving aspects of Ghanaian social history.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What primary art medium made Ghanaian artist Ibrahim Mahama globally recognised?",
+      options: [
+        "Polished bronze figurines",
+        "Recycled jute coal sacks",
+        "Carved wooden stool tops",
+        "Oil painted royal scenes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Ibrahim Mahama is globally recognised for large-scale installations made from recycled jute coal sacks.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which social campaign did Nigerian artist Peju Alatise strongly champion through her creative work?",
+      options: [
+        "Child Not Bride advocacy",
+        "Highway reforestation drive",
+        "Offshore drilling reduction",
+        "Clean drinking water subsidy",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Peju Alatise uses her creative work to support Child Not Bride advocacy and highlight the rights and protection of girls.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What is a defining characteristic of visual installation art?",
+      options: [
+        "It must always fit inside a standard museum glass showcase",
+        "It is created solely using digital computer software tools",
+        "It transforms the space and sensory perception of viewers",
+        "It relies exclusively on imported oil paints and silk sheets",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Installation art transforms a space into an immersive experience that changes how viewers perceive and engage with their surroundings.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Ibrahim Mahama primarily sources his used jute sacks by trading with which group in Ghana?",
+      options: [
+        "Timber yard machine operators",
+        "Secondary school art teachers",
+        "Gold refinery site inspectors",
+        "Local charcoal and coal vendors",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Mahama trades with local charcoal and coal vendors to obtain used jute sacks that carry traces of trade and physical labour.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
 creativeArtsJhs3S2Ss2Lesson9IndependentQuizData = IndependentPracticeModel(
   audioPath:
       "assets/audio/CreativeArts/JHS3_s2_ss2_L9/7. INDEPENDENT PRACTICE.mp3",
