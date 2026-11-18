@@ -1,5 +1,203 @@
 import '../model/practice_model.dart';
 
+final PracticeModel creativeArtsJhs3S2Ss2Lesson9PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L9/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Identify two distinct categories of audience members a basic school should invite to a dance drama on the SSNIT pension scheme, and explain what each group gains from attending.",
+      answer: "First, self-employed informal workers (such as market traders and artisans) should be invited so they can learn about the Three-Tier Pension Scheme and understand how to secure retirement income. Second, junior high school learners and youth clubs should be invited to build early financial literacy and develop long-term planning habits before entering the workforce.",
+      explanation: "Audience targeting connects performance themes to specific community demographics, educating current informal workers while building financial awareness in future earners.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain two reasons why an adjudicator must maintain a dispassionate attitude when appraising a dance drama performed by their own school classmates.",
+      answer: "First, a dispassionate attitude eliminates personal friendship bias, ensuring that technical and staging weaknesses are identified honestly without favouritism. Second, objective, emotion-free feedback provides the performing troupe with realistic, actionable data needed to improve their artistic standards for regional competitions.",
+      explanation: "Dispassionate evaluation removes personal and emotional bias, delivering honest and constructive criticism that drives genuine technical improvement.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a post-performance appraisal of an energy conservation play, several audience members state that they did not understand that the opening scene depicted an electrical blackout. Prescribe two specific technical or acting adjustments to clarify this scene in future performances.",
+      answer: "First, the sound crew should introduce an audible electrical hum cut-off sound effect synchronized precisely with the lights going out. Second, actors should use audible vocal gasps, freeze their physical action momentarily, and light a local lantern or flashlight to visually demonstrate a loss of grid electricity.",
+      explanation: "Synchronizing audio effects with stark lighting cues and clear, deliberate actor pantomime immediately clarifies dramatic circumstances for the audience.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson8PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L8/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State two reasons why an ensemble must rely on factual, objective match information rather than personal emotional impressions when conducting a post-performance analysis.",
+      answer: "First, objective match information focuses on verifiable stage actions (such as missed cues, vocal audibility, or physical blocking positions), preventing personal arguments and hurt feelings among cast members. Second, factual data provides clear, measurable evidence that allows the director and crew to prescribe specific technical solutions to improve future productions.",
+      explanation: "Objective analysis uses verifiable facts and timing records, eliminating emotional bias and enabling targeted, measurable technical corrections.",
+    ),
+    PracticeQuestion(
+      scenario: "2. During an analysis of a one-act play on community sanitation, audience survey cards indicate that viewers could not clearly see the main actor dumping refuse into the choked gutter. Identify two stagecraft flaws that could cause this problem, and prescribe a remedy for each.",
+      answer: "First, poor stage blocking caused other actors to stand downstage, masking the main character from the audience's line of sight; the remedy is to re-block the ensemble into an open semi-circle. Second, inadequate lighting left the gutter area in deep shadow; the remedy is to refocus a dedicated spotlight onto that specific playing area.",
+      explanation: "Sightline obstruction (masking) and improper lighting diminish visual clarity; re-blocking actor positions and refocusing illumination restores visual impact.",
+    ),
+    PracticeQuestion(
+      scenario: "3. A student director observes that the energy level of the cast declined significantly during the thirty-minute mark of a socio-cultural play. Outline two practical steps the director should take in upcoming rehearsals to rectify this decline.",
+      answer: "First, the director should introduce physical stamina and vocal breathing drills into regular rehearsal warm-ups to build cast endurance. Second, the director must work with the actors to identify key dramatic turning points in the middle scenes, adjusting pacing and emotional stakes to sustain active engagement.",
+      explanation: "Sustaining stage energy requires physical and vocal conditioning alongside analytical script work that heightens dramatic tension before the climax.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson7PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_l7/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain two ways an actor can use vocal characterisation and physical body language to depict an elderly, retired worker receiving SSNIT pension payments in a one-act play.",
+      answer: "First, the actor can adopt a slightly slower, deeper vocal pace with calm, steady diction to project dignity, contentment, and life experience. Second, the actor can use deliberate, measured walking steps with an upright posture and relaxed shoulders, physically demonstrating financial security, peace of mind, and relief from economic anxiety.",
+      explanation: "Vocal pacing, steady pitch, and relaxed posture combine to convey emotional security, contentment, and social dignity on stage.",
+    ),
+    PracticeQuestion(
+      scenario: "2. A student ensemble is developing a dance drama about community sanitation and epidemic prevention. Describe three choreographic movements or physical gestures the ensemble can use to portray the shift from a disease outbreak to community recovery.",
+      answer: "First, dancers can begin by crouching low, clutching their stomachs, and executing erratic, uncoordinated steps to symbolize illness and distress. Second, a central group can perform synchronized mime movements depicting handwashing with soap and sweeping waste into bins. Third, the entire cast can rise to high physical levels, linking hands and performing open, celebratory leaps to signify restored health and community vitality.",
+      explanation: "Varying physical levels (low to high), movement qualities (erratic to synchronized), and mime gestures visually narrate the journey from sickness to community hygiene.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a dress rehearsal for an energy conservation play, the audience seated in the back cannot tell what the main character is doing when switching off home appliances. Suggest two stagecraft adjustments the director should implement to make this action visible and meaningful.",
+      answer: "First, the actor should use exaggerated, deliberate hand gestures and turn their body three-quarters toward the audience rather than facing away when flipping the switch. Second, the technical crew can coordinate a noticeable stage lighting dimming cue combined with a distinct sound effect to emphasize the turning off of power.",
+      explanation: "Staging clarity requires proper body orientation (open sightlines), exaggerated movement, and synchronized lighting or audio cues to direct audience attention.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson6PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_l6/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State two distinct musical criteria an appraiser should evaluate when assessing a recorded video clip of an advocacy song addressing marine pollution, and explain why each criterion matters.",
+      answer: "First, the appraiser should evaluate vocal diction, ensuring that the singers pronounce their warning lyrics clearly so that listeners comprehend the environmental message. Second, the appraiser must assess dynamic balance between instruments and voices, ensuring that loud accompaniment does not overpower the instructional message.",
+      explanation: "Vocal diction guarantees message clarity, while proper dynamic balance ensures the musical backing supports rather than masks educational content.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Outline three essential sections that must be included in a formal aesthetic appreciation report following the review of an original student advocacy performance.",
+      answer: "First, a background section detailing the title, composer, performance date, and specific topical issue addressed. Second, an analytical breakdown evaluating musical elements such as melody, harmony, rhythm, and lyrical clarity. Third, a constructive recommendations section outlining specific technical adjustments for future refinement.",
+      explanation: "A complete aesthetic appreciation report requires contextual metadata, objective musical analysis across design elements, and actionable guidance for improvement.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a class appraisal, an evaluator notes: \"The choir sang off-pitch during the key change in the anti-corruption anthem.\" Describe two concrete rehearsal steps the choir director should implement to correct this intonation flaw.",
+      answer: "First, the director should isolate the key-change transition, having vocalists sing the modulating notes slowly without instruments while matching individual pitches against a piano or tuning fork. Second, the director must practice vocal interval drills and breath support exercises with each voice section separately before re-integrating the full ensemble.",
+      explanation: "Fixing pitch errors requires isolated tonal listening, sectional practice, and proper breath support to stabilize intonation during key transitions.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson5PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L5/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State two distinct advantages of staging an educational concert in an open school courtyard rather than inside a small enclosed classroom when addressing community sanitation.",
+      answer: "First, an open school courtyard accommodates a larger, diverse audience of community members and parents without causing severe overcrowding or poor ventilation. Second, the larger outdoor space allows for dynamic choreography, large prop displays (such as community trash bins), and natural acoustic dispersion.",
+      explanation: "Public advocacy concerts require accessible spaces that can handle large numbers of visitors safely while providing room for expansive choreography and visual demonstrations.",
+    ),
+    PracticeQuestion(
+      scenario: "2. A student ensemble is presenting a musical piece on the dangers of cyber fraud. Outline three key points that the student presenter should cover during the spoken introduction before the performance begins.",
+      answer: "First, the presenter should state the title, musical genre, and instrumentation of the composition. Second, the presenter must highlight the negative consequences of internet scams on innocent individuals and our nation's reputation. Third, the presenter should explain the main message of the lyrics, guiding the audience on what to listen for during the song.",
+      explanation: "The spoken introduction bridges musical appreciation and civic education by framing the musical style, contextualising the societal issue, and directing audience listening.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During the sound check for a sensitisation concert, the lead vocalist's microphone creates a loud, high-pitched feedback squeal through the main speakers. Suggest two practical technical adjustments the stage crew must make to fix this problem.",
+      answer: "First, the stage crew should reposition the main front-of-house speakers forward so they are in front of the microphone rather than behind it. Second, the sound technician should lower the microphone gain on the mixing console or adjust the equalizer to reduce the frequencies triggering the loop.",
+      explanation: "Acoustic feedback occurs when amplified sound from a speaker re-enters the microphone; moving speakers ahead of microphones and adjusting gain levels resolves the issue.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L4/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain two concrete reasons why a student composer would choose to include a traditional call-and-response vocal structure in a song designed to educate the public on epidemic prevention.",
+      answer: "First, the call-and-response pattern allows the solo lead singer to deliver detailed preventive information while enabling the audience or chorus to quickly memorize and repeat the core safety rules in the response. Second, this structure is deeply familiar in Ghanaian cultural performance, encouraging communal participation, active engagement, and collective ownership of the health message.",
+      explanation: "Call-and-response facilitates rapid memorisation of critical civic guidance and promotes communal participation across diverse audiences.",
+    ),
+    PracticeQuestion(
+      scenario: "2. A school band is composing an advocacy piece addressing plastic waste pollution along coastal lagoons. Describe three specific musical or theatrical elements the director should incorporate to reinforce the environmental message visually and sonically.",
+      answer: "First, the composer can integrate recycled plastic containers and clean metal cans into the percussion section to demonstrate creative upcycling directly through rhythm. Second, the vocalists can use dramatic dynamics, shifting from soft mournful hums for polluted waters to vigorous fortissimo chants demanding clean shores. Third, performers can hold cleaning props like local brooms and wear protective recycled burlap costumes during their staged choreography.",
+      explanation: "Combining upcycled percussion instruments, dynamic contrast, and thematic props strengthens the sensory impact of an environmental advocacy performance.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During an initial band rehearsal, the drum section plays so loudly that the audience cannot decipher the lyrics warning against cyber fraud. Propose two practical technical adjustments the director must make during the rehearsal session to restore acoustic balance.",
+      answer: "First, the director should instruct the drummers to reduce their striking intensity and switch to softer beaters or bare palms to achieve a balanced dynamic level. Second, the director can rearrange the stage layout by placing the drummers further behind the choir and repositioning the lead vocalists forward to ensure vocal clarity.",
+      explanation: "Acoustic balance requires managing dynamic levels and adjusting physical staging so that accompaniment supports rather than masks educational lyrics.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2-L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain two concrete criteria an appraiser should evaluate when examining the visual technique of a linocut block print on paper.",
+      answer: "First, the appraiser should examine the sharpness, depth, and cleanliness of the carved relief lines. Second, the appraiser must check the evenness, consistency, and density of the ink transfer across the paper without unintentional ink patches or faded voids.",
+      explanation: "Technical appraisal of printmaking centers on tool manipulation (precision of line cutting) and material mastery (consistent ink roll-out and smooth transfer pressure).",
+    ),
+    PracticeQuestion(
+      scenario: "2. A student appraises a painting showing an overcrowded lorry station and notes that the image evokes anxiety and urgency. Which aesthetic appraisal component is the student evaluating, and how does line work contribute to that feeling?",
+      answer: "The student is evaluating the emotional content and expressive mood of the artwork. Jagged, diagonal, and overlapping lines create dynamic visual tension, restlessness, and instability, which evoke anxiety in the viewer.",
+      explanation: "Emotional expression relates to content and mood, which artists actively construct using dynamic elements such as diagonal lines and clashing rhythms.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a class peer review, one student tells another, \"Your clay pot is bad because the rim looks strange.\" Re-write this critique using the constructive \"Praise, Critique, Suggest\" method.",
+      answer: "\"Your pot has smooth, well-burnished body contours, but the top rim is uneven in thickness. You can improve this by using a damp sponge and a wooden rib tool to trim and level the rim before the clay dries.\"",
+      explanation: "Constructive feedback acknowledges an existing strength, identifies the specific technical flaw objectively, and provides an actionable technique for correction.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State two distinct responsibilities of the Publicity Committee when planning a basic school visual arts exhibition, and explain why each duty matters to the event's overall success.",
+      answer: "First, the publicity committee must design and display attractive promotional posters across the school and community to create public awareness. Second, they must write and deliver formal invitation letters to community leaders, parents, and adjacent schools to ensure good attendance.",
+      explanation: "Without widespread notification and tailored invitations, the community will be unaware of the event, resulting in low attendance and unfulfilled educational outreach.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify two environmental factors common in Ghana that can deteriorate physical artworks in a storeroom, and describe one practical measure to counter each factor.",
+      answer: "First, high air humidity causes mould and paper warping, which can be mitigated by keeping the storeroom well-ventilated and elevating artworks on raised wooden shelves. Second, insect pests such as termites and silverfish destroy paper and wood, which can be controlled by sealing storage cupboards and using natural pest deterrents.",
+      explanation: "Preservation requires identifying specific regional climatic hazards and applying preventative storage practices to halt natural degradation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. A visual arts department wants to exhibit both handmade ceramic pots and digital photographs of historic local shrines. Describe two differences in the equipment and mounting arrangements needed for these two types of media.",
+      answer: "Handmade ceramic pots require sturdy, flat horizontal tables or pedestals with protective safety spacing to prevent tipping. In contrast, digital photographs require electronic screens, projectors, or printed mount boards hung on vertical display panels along with dependable power sources.",
+      explanation: "Three-dimensional physical craft objects demand load-bearing horizontal surfaces with physical security, while digital photography depends on digital display hardware, electrical power, or vertical wall hanging systems.",
+    ),
+  ],
+);
+
+final PracticeModel creativeArtsJhs3S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Explain two distinct reasons why an artist from Northern Ghana would choose natural grass fibres and traditional plant dyes over imported plastic sheets to weave an everyday farm hat.",
+      answer:
+          "First, natural grass fibres are readily available locally and allow air to circulate freely, keeping the head cool in hot weather while remaining durable. Second, plant-derived dyes provide earthy, fade-resistant tones that connect the object to traditional aesthetic heritage without requiring expensive purchased supplies.",
+      explanation:
+          "Traditional craft production prioritises climate suitability, local resource availability, and cultural continuity. Natural straw is breathable, lightweight, and culturally grounded compared to non-breathable synthetic sheets.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "2. A JHS student wants to produce a poster addressing illegal tree cutting near community riverbanks. Describe three sequential actions the student should take during the planning stage before applying paint to the final cardboard sheet.",
+      answer:
+          "First, the student should research the visual symbols of deforestation and community water bodies. Second, the student must produce several quick thumbnail sketches to test different layout compositions. Third, the student should select and test the best combination of brushes, markers, and paint colours on a scrap piece of cardboard.",
+      explanation:
+          "The design process mandates preliminary investigation, exploratory compositional sketching, and media testing prior to final execution, ensuring that errors are eliminated early.",
+    ),
+    PracticeQuestion(
+      scenario:
+          "3. During a class review of an ongoing acrylic painting, a student notices that the background trees are drawing more attention than the central figure of a village elder. Suggest two concrete adjustments the student can make using elements or principles of design to restore proper focus.",
+      answer:
+          "The student can soften the outlines and reduce the colour saturation of the background trees to push them backwards visually. Simultaneously, the student can introduce higher tonal contrast or sharper outlines around the village elder to make the figure stand out as the dominant focal point.",
+      explanation:
+          "Applying the principles of emphasis, contrast, and balance allows an artist to control the viewer's visual hierarchy by subduing background details and strengthening foreground elements.",
+    ),
+  ],
+);
+
 final PracticeModel creativeArtsJhs3S2Ss1Lesson9PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_L9/6. GUIDED PRACTICE.mp3",
   questions: [

@@ -1,6 +1,503 @@
 import '../model/independent_practice_model.dart';
 
 final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson9IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_L9/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which communication channel provides an immediate, formal method for inviting district educational directors to a school theatrical showcase?",
+      options: [
+        "Official written letter",
+        "Casual spoken street rumor",
+        "Chalk markings on a footpath",
+        "Ringing handbells in the market",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An official written letter formally communicates the invitation, event details, and purpose to district educational directors.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What does the term \"proxemics\" refer to in the context of staging and appraising a dramatic performance?",
+      options: [
+        "The monetary cost of admission tickets",
+        "The physical spatial distances between actors on stage",
+        "The weight of wooden drumsticks used by musicians",
+        "The total number of light bulbs installed in the ceiling",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Proxemics concerns how performers use physical distance and spatial relationships to communicate character relationships and meaning.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which attitude must an evaluator maintain during a theatrical critique to ensure objective, constructive results?",
+      options: [
+        "Aggressive and insulting",
+        "Completely uninterested",
+        "Dispassionate and balanced",
+        "Overly flattering and biased",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A dispassionate and balanced evaluator judges the performance fairly using evidence and artistic criteria rather than personal feelings.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What should an ensemble do with the written strengths and weaknesses collected during an audience appraisal forum?",
+      options: [
+        "Discard them in the school refuse container",
+        "Accuse the audience members of unfair jealousy",
+        "Use the findings to refine future productions",
+        "Memorise them and stop performing new plays",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Written appraisal findings identify successful choices and areas for improvement, guiding targeted rehearsals and refinements in future productions.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson8IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_L8/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which component of a drama production is being analysed when evaluating whether speech is audible, crisp, and properly pronounced?",
+      options: [
+        "Ticket collection tally",
+        "Diction and vocal projection",
+        "Stage curtain fabric weight",
+        "Hall ceiling ventilation rate",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Diction concerns clear pronunciation, while vocal projection ensures that speech carries audibly to the audience.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary function of gathering audience survey cards following an advocacy performance?",
+      options: [
+        "To evaluate viewer comprehension and emotional impact",
+        "To force visitors to clean the school field after the show",
+        "To prevent the audience from ever leaving the school hall",
+        "To calculate the personal financial net worth of the cast",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Audience surveys reveal how well viewers understood the advocacy message and how the performance affected them emotionally.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. When actors stand in positions that accidentally conceal another performer who is delivering a vital speech, which staging flaw has occurred?",
+      options: ["Modulation", "Resonation", "Masking", "Scumbling"],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Masking occurs when a performer's position blocks the audience's view of another actor or important stage action.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which activity represents a practical remediation prescribed after discovering timing errors during a live play?",
+      options: [
+        "Refusing to speak to the backstage crew for the rest of term",
+        "Deleting the final scene so that the play ends thirty minutes early",
+        "Cancelling all future cultural arts classes across the district",
+        "Conducting targeted cue-to-cue rehearsals with the technicians",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Cue-to-cue rehearsals let actors and technicians practise transitions and coordinate sound, lighting, and movement cues precisely.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson7IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_l7/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which socio-cultural issue is being dramatized when a play highlights monthly retirement income support for aging workers?",
+      options: [
+        "Land boundary litigation",
+        "SSNIT pension scheme",
+        "Chieftaincy succession",
+        "High school sports day",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The SSNIT pension scheme provides retirement income support, which is the issue depicted by the monthly payments in the play.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the defining characteristic of a dance drama that distinguishes it from a traditional one-act play?",
+      options: [
+        "It requires actors to read their scripts directly from books on stage",
+        "It conveys the narrative entirely through dance movement and music",
+        "It must always be performed in complete darkness without costumes",
+        "It excludes any musical instruments or drums from the performance",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dance drama communicates its story through expressive dance movement and music, whereas a traditional one-act play relies mainly on spoken dialogue.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which element refers to the deliberate planning of where actors stand and move across the performance stage?",
+      options: [
+        "Stage blocking",
+        "Ticket tallying",
+        "Program printing",
+        "Makeup mixing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Stage blocking plans actors' positions, movements, entrances, and exits so the performance is clear and coordinated.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which handheld object would serve as the most appropriate prop in a dramatic scene addressing household energy conservation?",
+      options: [
+        "A traditional carved ceremonial sword",
+        "A gold-plated linguist staff",
+        "A sample energy-saving light bulb",
+        "A large fishing net with lead weights",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "An energy-saving light bulb directly supports a scene about reducing household electricity use and makes the conservation message visible.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson6IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_l6/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which component of an aesthetic appreciation report documents whether lyrics clearly explain the dangers of cyber fraud?",
+      options: [
+        "Stage lighting index",
+        "Ticket gate tally",
+        "Thematic and lyrical content",
+        "Costume textile weight",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Thematic and lyrical content evaluates the meaning of the words and how clearly they communicate the topical issue.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary objective of playing a recorded musical performance multiple times during an aesthetic enquiry?",
+      options: [
+        "To exhaust the battery life of the video camera",
+        "To capture nuanced details across different musical layers",
+        "To memorize the names of all the audience members",
+        "To delay the start of the next school academic term",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Repeated listening allows an appraiser to focus on different layers, such as melody, harmony, rhythm, diction, and dynamic balance.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which statement represents an objective, constructive critique of a musical performance?",
+      options: [
+        "\"The lead singer has a wonderful tone, but needs crisper diction on the chorus.\"",
+        "\"This performance is terrible because I personally dislike highlife songs.\"",
+        "\"The keyboardist wore ugly shoes so the entire musical piece is worthless.\"",
+        "\"Everything was totally perfect and no one in this group ever needs to practice.\"",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Constructive critique identifies a musical strength and a specific area for improvement, using observable performance criteria.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. After an ensemble receives an appraisal report, what should be their immediate next action?",
+      options: [
+        "Threaten the evaluators for pointing out technical mistakes",
+        "Delete the recording and refuse to perform music again",
+        "Burn the appraisal sheet outside the school assembly hall",
+        "Conduct targeted rehearsals to correct the identified weaknesses",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Targeted rehearsals turn appraisal recommendations into practical improvements in the musical performance.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson5IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_L5/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which topical issue is highlighted when a concert choir sings about industrial waste poisoning fish in lagoons?",
+      options: [
+        "Electoral reform",
+        "Marine pollution",
+        "Currency inflation",
+        "High school admissions",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Industrial waste contaminating coastal waters and harming fish is an example of marine pollution.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary purpose of delivering a short spoken introduction before each song in an advocacy concert?",
+      options: [
+        "To allow performers to take an extended nap",
+        "To demand admission money from the visitors",
+        "To explain the theme, style, and civic message",
+        "To announce the retail prices of the instruments",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A spoken introduction explains the musical style and civic theme so the audience can understand the message of the song.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which method represents the most effective way to invite local traditional leaders and elders to an educational school concert?",
+      options: [
+        "Delivering formal, tailored written letters",
+        "Whispering to their neighbours at night",
+        "Drawing chalk marks on their front gates",
+        "Ringing bicycle bells through their farms",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Formal, tailored invitation letters respectfully communicate the purpose, date, time, and venue of the concert to traditional leaders and elders.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which item should be stationed on stage facing directly toward the vocalists to help them hear their own pitch accurately?",
+      options: [
+        "Extra promotional handbills",
+        "Stage monitor speakers",
+        "Empty ceramic flower pots",
+        "Heavy stage rope barriers",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Stage monitor speakers send sound back toward the performers, helping vocalists hear themselves and maintain accurate pitch.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_L4/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which topical issue in Ghanaian society is most directly addressed by a musical composition urging youth to avoid fast-money internet scams?",
+      options: [
+        "Marine pollution",
+        "Cyber fraud",
+        "Timber deforestation",
+        "Political instability",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Cyber fraud includes internet scams that promise quick money; the song warns young people against these activities.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary function of allocating dedicated time to vocal warm-ups in a choir rehearsal schedule?",
+      options: [
+        "To design the decorative handbills for publicity",
+        "To clean and mop the stage floor before visitors arrive",
+        "To prepare vocal cords and improve tone pitch accuracy",
+        "To calculate ticket admission prices for the public",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Vocal warm-ups prepare the voice for singing and help singers practise breath support, tone production, and accurate pitching.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which traditional percussion instrument provides the guiding time-line pattern in most Ghanaian indigenous ensemble music?",
+      options: ["Iron bell", "Reed whistle", "Bass violin", "Silver trumpet"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The iron bell plays a repeating time-line pattern that helps the ensemble coordinate its rhythms and maintain a steady pulse.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. When directing a musical advocacy play, which element should be selected to visually support the educational message on sanitation?",
+      options: [
+        "Luxurious silk gowns with gold jewellery",
+        "Modern electronic gaming controllers",
+        "Theatrical props such as local brooms and water basins",
+        "Heavy winter coats and woolen scarves",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Brooms and water basins are familiar cleaning tools that visually reinforce the sanitation message during the performance.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2-L3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which component of an art appraisal focuses directly on whether an artwork communicates a clear civic lesson about illegal sand winning?",
+      options: [
+        "Medium durability",
+        "Display illumination",
+        "Content and purpose",
+        "Canvas thread count",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Content and purpose evaluate the message an artwork communicates and whether it achieves its intended civic or educational aim.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary role of an objective evaluation rubric during a school visual arts appraisal session?",
+      options: [
+        "To eliminate the need for visitors to view the artwork",
+        "To provide structured and impartial review standards",
+        "To calculate the final commercial selling price of art",
+        "To force all students to use the exact same colours",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A rubric provides clear, shared criteria for assessing design, technique, and meaning consistently and impartially.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which statement best illustrates a constructive self-appraisal comment by a student painter?",
+      options: [
+        "\"My painting is flawless because I am the fastest in class.\"",
+        "\"I will never paint again because my teacher was too strict.\"",
+        "\"My poster is terrible because someone else used better paint.\"",
+        "\"My color contrast is strong, but my human proportions need work.\"",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Constructive self-appraisal identifies a specific strength and an area for improvement using observable features of the artwork.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. When appraising a traditional Akan stool carving, which design element reveals the artisan's handling of balance?",
+      options: [
+        "Symmetrical arrangement of the carved central pillars",
+        "The retail price of the timber purchased from the sawmill",
+        "The name of the lorry driver who carried the raw log",
+        "The species of grass growing behind the carving shed",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Symmetrical placement of carved pillars distributes visual weight evenly and demonstrates balance in the stool design.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which committee is primarily responsible for welcoming invited chiefs, teachers, and parents during an art exhibition?",
+      options: [
+        "Protocol team",
+        "Publicity team",
+        "Media crew",
+        "Finance desk",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The protocol team welcomes invited guests and helps them find their way around the exhibition.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the core distinction between exhibiting an artwork and preserving an artwork?",
+      options: [
+        "Exhibiting is done for elders while preservation is strictly for children",
+        "Exhibiting focuses on public display while preservation focuses on protection",
+        "Exhibiting uses digital screens while preservation uses only wooden shelves",
+        "Exhibiting destroys materials while preservation restores broken artefacts",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Exhibition presents artworks to an audience, while preservation protects them from damage and deterioration.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which method provides the most reliable way to preserve digital art files against sudden hardware loss?",
+      options: [
+        "Deleting initial sketch drafts",
+        "Turning off monitor backlights",
+        "Saving copies on offline drives",
+        "Increasing screen colour contrast",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Backup copies on separate offline drives allow digital artworks to be recovered if the original hardware is lost or fails.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which item should always be included on a professional artwork display label in a school gallery?",
+      options: [
+        "The personal contact telephone number of the headteacher",
+        "The title of the artwork alongside the creator's name",
+        "The total number of hours the student spent asleep",
+        "The complete biographical history of the school board",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A display label identifies the artwork by its title and credits its creator so visitors know what they are viewing and who made it.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+creativeArtsJhs3S2Ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss2_L1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which element of design is most directly demonstrated by the varied thickness of lines used to define the woven weave of a straw hat?",
+      options: ["Texture", "Proportion", "Perspective", "Dominance"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Varied line thickness suggests the surface quality of the woven fibres, creating visual texture.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. What is the primary artistic purpose of creating thumbnail sketches during the early stages of the design process?",
+      options: [
+        "To present finished framed work for sale",
+        "To quickly test different layout compositions",
+        "To preserve the durability of dry poster colours",
+        "To clean the working surface before final painting",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Thumbnail sketches let an artist quickly explore and compare possible layouts before developing the final artwork.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. An artist in Kumasi uses discarded scrap metal and beverage cans to build a sculpture showing environmental protection. Which term best categorises the materials selected by this artist?",
+      options: [
+        "Monochromatic pastels",
+        "Synthetic fixatives",
+        "Mixed media",
+        "Raw ceramics",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation:
+          "Mixed media combines different materials in one artwork, such as scrap metal and beverage cans.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. When appraising a classmate's visual artwork in progress, which statement represents the most effective application of objective evaluation criteria?",
+      options: [
+        "\"I dislike the colour scheme because blue is boring.\"",
+        "\"The poster needs brighter colours because it is too small.\"",
+        "\"Your painting is very nice and cannot be improved further.\"",
+        "\"The low colour contrast makes the warning text hard to read.\"",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation:
+          "Identifying low contrast and its effect on readability evaluates observable design choices and how effectively the artwork communicates.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
 creativeArtsJhs3S2Ss1Lesson9IndependentQuizData = IndependentPracticeModel(
   audioPath:
       "assets/audio/CreativeArts/JHS3_s2_ss1_L9/7. INDEPENDENT PRACTICE.mp3",

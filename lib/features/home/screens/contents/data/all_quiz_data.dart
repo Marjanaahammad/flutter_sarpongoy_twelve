@@ -1,5 +1,1114 @@
 import '../model/quiz_model.dart';
 
+final QuizModel creativeArtsJhs3S2Ss2Lesson9QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L9/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which term describes the process of examining the demographics, cultural background, and expectations of prospective theatregoers?",
+      options: [
+        "Audience analysis",
+        "Script plagiarism",
+        "Sound dampening",
+        "Ticket counterfeiting",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Audience analysis is the research and evaluation of the characteristics, interests, and needs of prospective attendees to tailor an event.",
+    ),
+    QuizQuestion(
+      question: "2. Why is it essential to discuss both strengths and weaknesses during a post-performance appraisal forum?",
+      options: [
+        "To encourage the actors to abandon the performing arts",
+        "To celebrate achievements while identifying areas for growth",
+        "To force the school to hire professional adult actors",
+        "To extend the meeting until late at night unnecessarily",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Balanced appraisal acknowledges successful creative aspects while providing actionable feedback to correct shortcomings.",
+    ),
+    QuizQuestion(
+      question: "3. When evaluating a dance drama, which observation directly assesses the performers' rhythmic technique?",
+      options: [
+        "The monetary cost of the dancers' woven wrist beads",
+        "The colour of the paint used on the stage back wall",
+        "The precise synchronisation of footwork with the drums",
+        "The brand name of the video recording camera",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Rhythmic technique in dance is evaluated by examining how accurately dancers coordinate their bodily footwork with musical accompaniment.",
+    ),
+    QuizQuestion(
+      question: "4. Which group represents an essential community stakeholder when staging an advocacy play on environmental sanitation?",
+      options: [
+        "Local residents and community leaders",
+        "Foreign tourists passing in aircraft overhead",
+        "Manufacturers of diesel construction tractors",
+        "Deep-sea maritime cargo vessel captains",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Local residents and community leaders directly manage and inhabit the local environment, making them key stakeholders for sanitation advocacy.",
+    ),
+    QuizQuestion(
+      question: "5. What is the primary role of a dispassionate appraisal forum moderator?",
+      options: [
+        "To insult any student actor who made a mistake on stage",
+        "To ensure feedback remains constructive, objective, and orderly",
+        "To dictate exactly which student should receive an award",
+        "To prevent the audience from ever speaking about the play",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A moderator guides discussion, maintains a respectful and dispassionate tone, and ensures constructive feedback across all participants.",
+    ),
+    QuizQuestion(
+      question: "6. A student actor portraying a sanitation inspector consistently mumbles key warning lines. Which vocal element must be corrected?",
+      options: [
+        "Vocal diction and enunciation",
+        "Physical costume texture",
+        "Stage backdrop colour harmony",
+        "Footwear sole flexibility",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Mumbled dialogue indicates poor diction and inadequate articulation of consonants and vowels.",
+    ),
+    QuizQuestion(
+      question: "7. How does an ensemble benefit when audience members share diverse perspectives during a post-show forum?",
+      options: [
+        "It confuses the director and ruins future rehearsal schedules",
+        "It reveals how different community groups interpret the message",
+        "It proves that theatrical performances should never have themes",
+        "It forces the cast to perform in complete silence next time",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Diverse audience feedback gives the ensemble insight into how various demographic groups receive and interpret the theatrical message.",
+    ),
+    QuizQuestion(
+      question: "8. Which modern digital platform can a school troupe use alongside posters to mobilize youth attendance?",
+      options: [
+        "Submarine telegraph cables",
+        "Ancient smoke signal fires",
+        "Short-wave Morse code transmitters",
+        "Accepted social media and messaging channels",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Social media and instant messaging groups provide rapid, broad, and accessible outreach for youth and school audiences.",
+    ),
+    QuizQuestion(
+      question: "9. What is the ultimate objective of collecting aesthetic appreciation reports and audience evaluations?",
+      options: [
+        "To systematically modify and elevate the quality of production",
+        "To compile lists of citizens who should be barred from events",
+        "To sell the written reports to foreign publishing houses",
+        "To end all drama and dance classes in the school district",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "The core purpose of appraisal documentation is to provide concrete evidence used to revise, refine, and improve future creative works.",
+    ),
+    QuizQuestion(
+      question: "10. In dramatic appraisal, what does evaluating \"characterisation\" examine?",
+      options: [
+        "The number of printed pages in the prompt book",
+        "The commercial cost of renting stage lighting fixtures",
+        "How cleanly the stage floor was mopped before the show",
+        "The depth, believability, and consistency of the actor's role",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Characterisation evaluates an actor's ability to create a convincing, emotionally authentic, and consistent dramatic persona on stage.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson8QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L8/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which technical element involves adjusting illumination and spotlight angles to direct the audience's visual focus during a performance?",
+      options: [
+        "Stage lighting",
+        "Ticket printing",
+        "Script photocopying",
+        "Ground scrubbing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Stage lighting illuminates the acting space, establishes dramatic atmosphere, and guides viewer focus toward key actions.",
+    ),
+    QuizQuestion(
+      question: "2. Why is it essential to analyze the introductory section and entry behaviour of actors in a one-act play?",
+      options: [
+        "To allow actors to sleep through the rest of the performance",
+        "To ensure characters establish stage presence and tone immediately",
+        "To verify the market price of the actors' street clothes",
+        "To give stagehands time to leave the venue before dialogue starts",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Effective entry behaviour captures audience attention instantly, establishes character relationships, and sets the production's mood.",
+    ),
+    QuizQuestion(
+      question: "3. What type of data should a director prioritize during a post-performance critique to prevent interpersonal conflicts?",
+      options: [
+        "Subjective gossip about students' personal friendships",
+        "Factual, objective match information and timing logs",
+        "Speculation regarding what food the audience ate at home",
+        "Random guesses about the future weather of the village",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Objective performance data and factual records ground evaluations in reality, preventing personal bias and emotional arguments.",
+    ),
+    QuizQuestion(
+      question: "4. When appraising costumes in a play about the SSNIT pension scheme, which criterion is most critical?",
+      options: [
+        "Costumes must match the character's trade, age, and social reality",
+        "Every actor must wear imported formal suits regardless of their role",
+        "Costumes must be made entirely from expensive metallic fabrics",
+        "All actors must wear identical white masks over their faces",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Theatrical costumes must be appropriate to the socio-cultural context, reflecting the character's occupation, status, and age.",
+    ),
+    QuizQuestion(
+      question: "5. What is the primary benefit of maintaining an ongoing archive of performance logs and director prompt books?",
+      options: [
+        "It replaces the need for any future rehearsals",
+        "It provides a historical record to guide future productions",
+        "It allows the school to sell old books to paper mills",
+        "It automatically improves the handwriting of all actors",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Archival performance records preserve institutional knowledge, helping future student casts avoid past staging errors.",
+    ),
+    QuizQuestion(
+      question: "6. A director notes that an actor's voice cannot be understood whenever the percussion ensemble plays accompaniment. What corrective action is required?",
+      options: [
+        "Lower accompaniment volume and improve vocal projection",
+        "Dismiss the drummer and conduct the rest of the play in silence",
+        "Instruct the actor to stop speaking and use only written signs",
+        "Turn off all the stage lights until the scene has concluded",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Acoustic balance requires regulating instrumental volume while coaching actors in diaphragmatic vocal projection.",
+    ),
+    QuizQuestion(
+      question: "7. Which stagecraft component evaluates how actors distribute themselves across the stage to maintain open sightlines?",
+      options: [
+        "Textile drapery",
+        "Ticket pricing",
+        "Stage balance",
+        "Voice dubbing",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Stage balance involves arranging performers across the physical acting area to create visual harmony and clear sightlines.",
+    ),
+    QuizQuestion(
+      question: "8. How does a post-performance analysis help an ensemble prepare for external drama competitions?",
+      options: [
+        "By allowing the school to bribe the adjudicators in secret",
+        "By helping students identify and memorize other schools' lines",
+        "By discovering which rival schools have better audio equipment",
+        "By systematically eliminating flaws and elevating team performance",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Honest post-performance analysis helps the ensemble identify weaknesses, refine technical execution, and optimize competitiveness.",
+    ),
+    QuizQuestion(
+      question: "9. What should a theatrical ensemble do after categorising critical comments from audience feedback slips?",
+      options: [
+        "Prescribe specific areas of improvement and drill remediations",
+        "Throw the survey slips away and claim the audience was uneducated",
+        "Demand that the audience write letters of apology to the actors",
+        "Refuse to ever present another educational drama to the public",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Categorising feedback is followed by prescribing targeted improvements and adjusting rehearsals to resolve the identified flaws.",
+    ),
+    QuizQuestion(
+      question: "10. Which term describes physical items handled by characters on stage, such as water cups, brooms, or pension folders?",
+      options: ["Drops", "Flats", "Battens", "Hand props"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Hand props are portable objects handled by actors to support narrative action and enhance realism.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson7QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_l7/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which institution is mandated to administer Ghana's basic national social security scheme to replace lost income upon retirement?",
+      options: ["SSNIT", "NaCCA", "GES", "EPA"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The Social Security and National Insurance Trust (SSNIT) manages the first tier of the Three-Tier Pension Scheme to replace lost income for retired workers.",
+    ),
+    QuizQuestion(
+      question: "2. Why is a full dress rehearsal critical before presenting a one-act play to an invited community audience?",
+      options: [
+        "It allows the actors to perform without using any memorized lines",
+        "It tests costumes, props, timing, and problem-solving under real conditions",
+        "It prevents the stage lights from ever turning off during the week",
+        "It ensures that the audience pays double the price for admission",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A dress rehearsal integrates all technical elements—costumes, props, audio, and blocking—ensuring readiness for the live show.",
+    ),
+    QuizQuestion(
+      question: "3. In a dance drama on sanitation, what does a sudden transition from slow, heavy movements to light, dynamic leaps signify?",
+      options: [
+        "An increase in admission ticket sales",
+        "The immediate arrival of nightfall",
+        "Recovery from illness to healthy community life",
+        "A failure of the musical drum accompaniment",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Movement quality and energy shifts visually communicate narrative transformation, such as moving from disease to health and vitality.",
+    ),
+    QuizQuestion(
+      question: "4. Which dramatic technique is being applied when an actor speaks from the diaphragm so words carry clearly across a large hall?",
+      options: [
+        "Vocal projection",
+        "Stage whispering",
+        "Lip syncing",
+        "Muted chanting",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Vocal projection uses diaphragmatic breath support to carry spoken dialogue clearly to the back of an auditorium without straining the throat.",
+    ),
+    QuizQuestion(
+      question: "5. What is the primary civic message conveyed by a play depicting children turning off unused ceiling fans and water taps?",
+      options: [
+        "Practicing eco-sufficiency and resource conservation",
+        "Showing that modern technology should never be used",
+        "Demanding that schools operate without electrical wiring",
+        "Encouraging people to destroy public utility metres",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Turning off unneeded appliances and taps conserves energy and water, modeling eco-sufficient living for sustainable community development.",
+    ),
+    QuizQuestion(
+      question: "6. When blocking a one-act play, why must an actor avoid turning their back completely to the audience while speaking?",
+      options: [
+        "It causes vocal dialogue to be muffled and hides facial expressions",
+        "It breaks the wooden floorboards on the performance stage",
+        "It makes the stage lighting explode from electrical surge",
+        "It forces the musical director to play drums backwards",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Turning away from the audience muffles vocal sound, prevents sound waves from projecting outward, and conceals emotional expressions.",
+    ),
+    QuizQuestion(
+      question: "7. Which visual stage element informs the audience about a character's profession, social status, and age before they speak?",
+      options: [
+        "Admission ticket stub",
+        "Programme typography",
+        "Costumes and makeup",
+        "Venue sound cables",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Costumes and makeup visually signal character identity, age, occupation, and socio-economic background upon their initial stage entrance.",
+    ),
+    QuizQuestion(
+      question: "8. How can a one-act play effectively persuade informal sector workers to enroll in pension savings?",
+      options: [
+        "By locking the market gates until all traders surrender their money",
+        "By reading government legislation aloud for four continuous hours",
+        "By showing how pension savings protect families during old age",
+        "By forcing all informal workers to leave their trading stalls",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Dramatizing the tangible emotional and financial security of pension benefits helps workers recognize the personal value of retirement savings.",
+    ),
+    QuizQuestion(
+      question: "9. What theatrical term describes physical objects handled by actors on stage during a performance?",
+      options: ["Hand props", "Rafters", "Footlights", "Risers"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Hand props are functional items carried and used by actors on stage, such as books, brooms, cups, and pension cards.",
+    ),
+    QuizQuestion(
+      question: "10. What should actors do during a live performance if a prop accidentally falls off a table?",
+      options: [
+        "Run off the stage immediately and cry in the dressing room",
+        "Stop the play and shout at the stage management crew",
+        "Wait for the school headteacher to walk onto the stage",
+        "Stay in character and naturally integrate the accident",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Professional stagecraft requires actors to remain in character, improvise naturally, and continue the narrative without breaking the illusion.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson6QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_l6/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which musical element is an appraiser evaluating when checking whether the soprano and bass parts weave together smoothly?",
+      options: [
+        "Harmony and tonal blending",
+        "Drumstick manufacture type",
+        "Stage curtain dimensions",
+        "Microphone cord thickness",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Harmony and tonal blending assess how multiple vocal or instrumental parts combine vertically into pleasing, balanced chords.",
+    ),
+    QuizQuestion(
+      question: "2. Why must an aesthetic appreciation report contain specific recommendations alongside criticism?",
+      options: [
+        "To allow the evaluators to charge additional fees",
+        "To give performers actionable steps for musical growth",
+        "To prove that the evaluators know more foreign words",
+        "To force the school to purchase imported instruments",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Constructive appraisal requires practical recommendations so that performers understand exactly how to correct their technical flaws.",
+    ),
+    QuizQuestion(
+      question: "3. When an appraiser notices that the drummer speeds up the tempo whenever the choir begins the chorus, which element is unstable?",
+      options: [
+        "Stage lighting",
+        "Costume color",
+        "Rhythmic pulse",
+        "Lyrical rhyme",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Accelerating during specific song sections indicates an inconsistent rhythmic pulse and poor tempo maintenance.",
+    ),
+    QuizQuestion(
+      question: "4. What is the primary educational benefit of disseminating appraisal research findings to the wider school class?",
+      options: [
+        "Sharing critical insights and elevating collective artistic standards",
+        "Identifying which individual students should be expelled",
+        "Preventing younger students from joining the music club",
+        "Convincing parents to cancel all future arts education",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Disseminating appraisal findings shares musical knowledge, fosters peer learning, and raises aesthetic standards across the class.",
+    ),
+    QuizQuestion(
+      question: "5. Which tool provides the most objective framework for collecting evaluative data during a live musical screening?",
+      options: [
+        "A personal diary entry detailing student friendships",
+        "A structured rubric with criteria and scoring scales",
+        "A stopwatch measuring how long students can shout",
+        "A commercial catalogue listing guitar prices in town",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A structured appraisal rubric provides objective, standardized criteria that guide evaluators to score musical elements fairly.",
+    ),
+    QuizQuestion(
+      question: "6. A student ensemble appraises an advocacy song on sanitation and observes that the chorus words cannot be deciphered. What technical area requires remediation?",
+      options: [
+        "Vocal diction and enunciation",
+        "Stage curtain fabric density",
+        "Drum tuning wrench selection",
+        "Ticket stub paper perforation",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Indecipherable lyrics point directly to poor diction, mumbled consonants, or inadequate vocal enunciation by the singers.",
+    ),
+    QuizQuestion(
+      question: "7. What role does dynamic modulation play when performing an educational song addressing political instability?",
+      options: [
+        "It guarantees that every single note is played at absolute maximum volume",
+        "It allows performers to replace all lyrics with silent pantomime gestures",
+        "It emphasizes poignant warnings and highlights calls for community peace",
+        "It ensures that the audience falls asleep before the final verse is finished",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Dynamic contrast shifts between soft and loud passages, emphasizing dramatic lyric warnings and emotional appeals for peace.",
+    ),
+    QuizQuestion(
+      question: "8. How should an ensemble handle an appraisal report indicating that the rhythm section completely overpowered the soloist?",
+      options: [
+        "Refuse to ever speak to the evaluation panel again",
+        "Dismiss the lead soloist and perform purely instrumental music",
+        "Replace all traditional drums with heavy industrial machinery",
+        "Re-balance accompaniment volume and adjust microphone gains",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Remediation for an overpowered soloist requires lowering accompaniment dynamics and re-calibrating vocal amplification levels.",
+    ),
+    QuizQuestion(
+      question: "9. What is the final step in the complete cycle of musical appraisal and refinement?",
+      options: [
+        "Disseminating the refined advocacy performance to educate the public",
+        "Erasing all recordings so nobody can hear the musical composition",
+        "Forbidding ensemble members from speaking about the performance",
+        "Burning the written report to keep the recommendations secret",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "The appraisal cycle concludes when refined, polished advocacy works are disseminated to sensitise the wider public.",
+    ),
+    QuizQuestion(
+      question: "10. Which term describes the practice of evaluating one's own musical performance against objective aesthetic criteria?",
+      options: [
+        "Biased assumption",
+        "Informal rumor",
+        "Commercial marketing",
+        "Self-appraisal",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Self-appraisal is the disciplined process where an artist evaluates their own creative work against established benchmarks.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson5QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L5/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which committee member coordinates stage entrances, checks microphone stands, and ensures orderly transitions between musical pieces?",
+      options: [
+        "Stage manager",
+        "Grounds cleaner",
+        "Gate ticket vendor",
+        "Guest food caterer",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The stage manager oversees platform logistics, microphone placements, performer entries, and seamless transitions between acts.",
+    ),
+    QuizQuestion(
+      question: "2. Why is it essential to test the audio amplification system before the public arrives at the venue?",
+      options: [
+        "To use up the remaining fuel in the generator",
+        "To ensure vocal clarity and eliminate feedback",
+        "To entertain the neighborhood dogs with noise",
+        "To wake up late-sleeping teachers in the compound",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sound checks verify microphone levels, balance vocal and instrumental volumes, and eliminate squealing feedback prior to performance.",
+    ),
+    QuizQuestion(
+      question: "3. Which outcome represents the primary civic objective of an advocacy concert addressing cybercrime?",
+      options: [
+        "Persuading listeners to pursue honest livelihoods",
+        "Teaching the audience how to hack email accounts",
+        "Encouraging youth to sell computers abroad",
+        "Showing people how to create fake online profiles",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Sensitisation music aims to educate citizens on moral integrity, lawfulness, and the dangers of illicit cyber activities.",
+    ),
+    QuizQuestion(
+      question: "4. When arranging an open-air courtyard concert venue, how should visitor chairs be positioned?",
+      options: [
+        "Spaced neatly with clear aisles facing the stage",
+        "Piled together in a heap behind the drum kit",
+        "Arranged with chair backs turned to the choir",
+        "Placed randomly across the football pitch",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Orderly rows and open aisles ensure safe pedestrian movement and clear sightlines toward the performance stage.",
+    ),
+    QuizQuestion(
+      question: "5. What is the primary benefit of capturing high-definition video recordings of an educational concert?",
+      options: [
+        "It replaces all classroom teachers immediately",
+        "It preserves the performance for wider outreach",
+        "It prevents the performers from ever singing again",
+        "It automatically increases school bank balances",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Video recordings document the performance, creating educational media that can sensitise broader audiences beyond the live event.",
+    ),
+    QuizQuestion(
+      question: "6. A concert addressing marine pollution incorporates discarded plastic water bottles into the percussion section. What artistic technique does this illustrate?",
+      options: [
+        "Using upcycled materials to reinforce the theme",
+        "Cheating by avoiding proper wooden instruments",
+        "Damaging school property during performance",
+        "Violating international musical copyrights",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Upcycling waste materials into functional instruments physically reinforces the song's environmental message to the audience.",
+    ),
+    QuizQuestion(
+      question: "7. Which channel provides the most effective regional reach when announcing a youth concert on peace and national unity?",
+      options: [
+        "Chalking notes on classroom desk corners",
+        "Passing handwritten notes during chemistry class",
+        "Broadcasting on local community radio stations",
+        "Whispering to market traders one at a time",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Community radio is an established, widespread communication medium that reaches thousands of local citizens quickly.",
+    ),
+    QuizQuestion(
+      question: "8. How can a choir actively engage concert attendees during an advocacy song on road safety?",
+      options: [
+        "Directing the audience to stand in total darkness",
+        "Handing out examination test papers to visitors",
+        "Forbidding the crowd from clapping or speaking",
+        "Teaching the audience a catchy response refrain",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Involving the audience in call-and-response singing creates active participation and deepens memorisation of safety guidance.",
+    ),
+    QuizQuestion(
+      question: "9. What should the concert committee do immediately following the conclusion of the public event?",
+      options: [
+        "Distribute survey cards to assess public impact",
+        "Burn all microphones and stage cords in a pit",
+        "Lock the school gate with visitors still inside",
+        "Throw all leftover plastic bottles into the street",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Distributing evaluation surveys and collecting audience feedback measures the educational and civic success of the event.",
+    ),
+    QuizQuestion(
+      question: "10. Which term best describes the misuse of entrusted public authority for unlawful private enrichment?",
+      options: ["Polyphony", "Syncopation", "Modulation", "Corruption"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Corruption is the abuse of entrusted power or public office for illicit personal gain, such as bribery or embezzlement.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson4QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L4/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which musical aspect is being managed when a choir director divides a rehearsal to practice diction, breath control, and part singing?",
+      options: [
+        "Vocal technique",
+        "Stage lighting",
+        "Venue sanitation",
+        "Ticket auditing",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Vocal technique encompasses breath support, pitch accuracy, tone production, and clear lyrical diction during rehearsal.",
+    ),
+    QuizQuestion(
+      question: "2. Why is music an especially effective medium for educating communities on emerging public health issues like cholera?",
+      options: [
+        "Music prevents doctors from giving injections to patients",
+        "Melodic rhythms make health warnings memorable and engaging",
+        "Songs allow healthcare workers to avoid washing their hands",
+        "Audio recordings eliminate the need for clean drinking water",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "The union of melody, rhythm, and lyrical poetry enables health messages to be quickly learned, remembered, and shared across communities.",
+    ),
+    QuizQuestion(
+      question: "3. A student ensemble wants to sensitise lorry park drivers on road safety. Which genre would be most instantly familiar and engaging for this audience?",
+      options: [
+        "European Renaissance opera",
+        "Classical orchestral waltz",
+        "Lively indigenous highlife",
+        "Medieval Gregorian chant",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Highlife is deeply ingrained in Ghanaian transportation and commercial culture, making it highly effective for connecting with local drivers.",
+    ),
+    QuizQuestion(
+      question: "4. Which item represents an indispensable component of an effective musical rehearsal timetable?",
+      options: [
+        "Allocating specific minutes for each performance aspect",
+        "Dismissing instrumentalists so singers can whisper alone",
+        "Permitting each student to sing at completely different tempos",
+        "Excluding costumes and props until the final public concert",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A professional rehearsal plan designates specific time blocks for warm-ups, rhythm section, vocal balancing, and staging.",
+    ),
+    QuizQuestion(
+      question: "5. What musical term describes the variation between soft and loud sound levels used to emphasize urgent lyric warnings?",
+      options: ["Pitch", "Dynamics", "Metre", "Timber"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dynamics refers to degrees of loudness and softness in musical performance, used to create expressive emphasis.",
+    ),
+    QuizQuestion(
+      question: "6. When composing an advocacy song on galamsey, why should the composer avoid excessively complex foreign vocabulary?",
+      options: [
+        "Simple wording ensures that all community members understand the warning",
+        "Complex words cause guitar strings to snap during instrumental solos",
+        "Local laws prohibit the use of dictionaries inside school music studios",
+        "It is impossible to sing any word that has more than two syllables",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Advocacy music seeks broad public understanding; clear, accessible language ensures the message is grasped by all citizens.",
+    ),
+    QuizQuestion(
+      question: "7. What was Professor J.H. Kwabena Nketia widely celebrated for in the cultural history of Ghanaian music?",
+      options: [
+        "Inventing the first electronic bass synthesizer",
+        "Leading international jazz big bands in New York",
+        "Championing African art music composition and musicology",
+        "Manufacturing plastic brass horns in Kumasi",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Professor J.H. Kwabena Nketia was Ghana's preeminent ethnomusicologist and art music composer, documenting and integrating indigenous traditions into formal compositions.",
+    ),
+    QuizQuestion(
+      question: "8. Which rehearsal activity ensures that performers do not collide with one another or trip over equipment during a performance?",
+      options: [
+        "Practicing vocal scales silently in the library",
+        "Ironing the choir robes the night before the show",
+        "Handing out printed programmes at the main doorway",
+        "Blocking stage movement and practising entry and exit paths",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Stage blocking exercises establish safe, coordinated physical movement patterns, entrances, and exits for performers.",
+    ),
+    QuizQuestion(
+      question: "9. How does introducing an elaborative rehearsal strategy benefit performers preparing a complex advocacy musical?",
+      options: [
+        "It helps performers internalise meanings and make deep associations",
+        "It eliminates the need for singers to ever practice with instruments",
+        "It reduces the total number of verses in a piece down to zero",
+        "It replaces vocal melody with silent pantomime gestures only",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Elaborative rehearsal encourages performers to connect lyrical meaning to prior knowledge, improving memory retention and emotional delivery.",
+    ),
+    QuizQuestion(
+      question: "10. What should a musical director do if the rhythm section accelerates in tempo during every chorus?",
+      options: [
+        "Speed up the lighting cues to match the mistake",
+        "End the performance immediately and dismiss the crowd",
+        "Instruct the vocalists to sing twice as softly",
+        "Use a steady metronome or time-line bell to lock the beat",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "A time-line instrument, such as an iron bell, or a metronome establishes an unwavering rhythmic foundation that prevents tempo rushing.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2-L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which criterion is an appraiser analyzing when checking whether a sculptor used seasoned hardwood rather than softwood to resist warping?",
+      options: [
+        "Media suitability and technical choice",
+        "Historical origin of the royal symbol",
+        "Distance between gallery floor tables",
+        "Frame thickness of nearby oil paintings",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Media suitability examines whether the artist selected appropriate physical materials that endure and suit the technique.",
+    ),
+    QuizQuestion(
+      question: "2. Why is it vital for an art critic to investigate the cultural context of a historical Ghanaian terracotta head?",
+      options: [
+        "To verify the market price of clay powder",
+        "To understand its memorial purpose and royal values",
+        "To convert the sculpture into a digital poster",
+        "To check if it was made with imported brushes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Cultural context reveals the spiritual, social, and memorial meaning for which historical terracottas were originally produced.",
+    ),
+    QuizQuestion(
+      question: "3. When an appraiser checks how visual weight is distributed between left and right sides of a drawing, which principle is under review?",
+      options: ["Value", "Rhythm", "Balance", "Contrast"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Balance is the design principle concerned with equalizing visual weight across a two-dimensional or three-dimensional composition.",
+    ),
+    QuizQuestion(
+      question: "4. What is the primary aesthetic function of contrast in a public health awareness poster?",
+      options: [
+        "To draw the eye instantly to key warnings",
+        "To blend all figures into the grey background",
+        "To save money by purchasing fewer paint jars",
+        "To make the lettering completely illegible",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "High contrast between lights and darks or complementary colours creates a strong focal point that commands instant attention.",
+    ),
+    QuizQuestion(
+      question: "5. Which action should a teacher take first when organizing a classroom art appraisal exhibition?",
+      options: [
+        "Sell the artworks to commercial vendors",
+        "Assign clear display spaces and display labels",
+        "Grade all students before the exhibits go up",
+        "Pack the fragile ceramic pieces into boxes",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Setting up an orderly space with clear labels and walking paths is essential before visitors can view and appraise exhibits.",
+    ),
+    QuizQuestion(
+      question: "6. How does a peer critique using objective criteria differ from an informal personal reaction?",
+      options: [
+        "Objective critique focuses on design standards and technical skill",
+        "Objective critique praises every single artwork without any corrections",
+        "Objective critique judges art solely on whether the critic likes the artist",
+        "Objective critique ignores the artwork and evaluates the student's uniform",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Objective critique relies on measurable design criteria, technical execution, and message clarity rather than personal feelings.",
+    ),
+    QuizQuestion(
+      question: "7. An appraiser notes that a painting of a market festival uses bright yellow, red, and orange across every corner. Which element is contributing most to the lively mood?",
+      options: ["Frame width", "Texture grain", "Surface scale", "Warm colour"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Warm colours evoke energy, vibrancy, and excitement, directly creating the lively festive mood described.",
+    ),
+    QuizQuestion(
+      question: "8. A student appraising a classmate's linocut print identifies patchy white spots where solid black was intended. What technical advice should the student offer?",
+      options: [
+        "Use a softer pencil to redraw the border lines",
+        "Cut away the remaining wood from the table top",
+        "Mix sand into the oil pigment to make it thicker",
+        "Apply ink more evenly and press the paper firmly",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Patchy ink transfers are solved by evenly distributing printing ink on the brayer and applying uniform burnishing pressure on paper.",
+    ),
+    QuizQuestion(
+      question: "9. What makes contemporary topical artworks particularly relevant to young learners in Ghanaian schools?",
+      options: [
+        "They address immediate challenges affecting everyday society",
+        "They are required to use European Renaissance methods",
+        "They can only be carved out of ancient stone materials",
+        "They never require preliminary sketching or planning",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Topical artworks empower students to examine, understand, and communicate solutions to modern environmental, health, and civic challenges.",
+    ),
+    QuizQuestion(
+      question: "10. Which document should a student compile after an appraisal session to record aesthetic feedback and plan revisions?",
+      options: [
+        "An attendance ledger for morning physical training",
+        "A price list for school canteen food items",
+        "A map of the lorry station bus routes",
+        "A self-reflection log and appraisal report",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "A self-reflection log documents peer feedback and critical insights, enabling the artist to refine future artworks systematically.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson2QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L2/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which committee is tasked with taking photographs, capturing video clips, and gathering visitor comments during an exhibition?",
+      options: [
+        "Media and documentation team",
+        "Refreshment and catering crew",
+        "Gate protocol and ushering squad",
+        "Sanitation and venue grounds staff",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "The media team documents the event visually and compiles audience feedback for subsequent reporting.",
+    ),
+    QuizQuestion(
+      question: "2. Why is it essential to space display booths and tables evenly throughout an exhibition hall?",
+      options: [
+        "To increase the selling price of every painting",
+        "To allow comfortable and safe movement of visitors",
+        "To ensure the room remains completely dark all day",
+        "To prevent the publicity committee from entering",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Proper traffic circulation prevents congestion, protects delicate displays from accidental collisions, and ensures a pleasant viewing experience.",
+    ),
+    QuizQuestion(
+      question: "3. Which activity represents an act of artwork preservation rather than artwork exhibition?",
+      options: [
+        "Hanging banners outside the school gate",
+        "Storing drawings in moisture-sealed boxes",
+        "Giving a welcoming address to visitors",
+        "Pinning student paintings to display boards",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Storing fragile works in sealed, climate-protected containers protects them from environmental decay, which is preservation.",
+    ),
+    QuizQuestion(
+      question: "4. What is the primary function of an artist statement mounted beside an exhibited visual artwork?",
+      options: [
+        "To state the materials, purpose, and meaning of the piece",
+        "To list every food preference of the student artist",
+        "To warn visitors never to look directly at the artwork",
+        "To show the examination grade given by the headteacher",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "An artist statement explains the concept, inspiration, and techniques used, helping the audience appreciate the work.",
+    ),
+    QuizQuestion(
+      question: "5. Which environmental condition poses the most severe threat to traditional wooden carvings stored in a damp room?",
+      options: [
+        "Mild room ventilation",
+        "Termites and wood rot",
+        "Dim evening lighting",
+        "Smooth wall plastering",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Damp conditions promote fungal rot and create breeding grounds for destructive wood-boring insects.",
+    ),
+    QuizQuestion(
+      question: "6. A school art club wants to mount an exhibition but lacks funds to purchase glass frames. What is the most resourceful solution?",
+      options: [
+        "Cancel the exhibition until the government supplies glass",
+        "Display the fragile paintings on the bare sandy ground",
+        "Mount the works on neat local mats using cardboard borders",
+        "Ask visitors to imagine what the paintings would look like",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Resourceful artists use clean, low-cost local materials such as cardboard borders, raffia, and woven mats to present works professionally.",
+    ),
+    QuizQuestion(
+      question: "7. Which task must the event organisers complete before any artworks are mounted inside the venue?",
+      options: [
+        "Inspect the hall space and design a clear floor plan",
+        "Deliver completed evaluation reports to the district",
+        "Pack all paintings into sealed storage trunks",
+        "Serve cold beverages to the visiting public",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Planning the venue layout must occur before setting up tables, stands, and displays.",
+    ),
+    QuizQuestion(
+      question: "8. Why must security personnel be stationed inside an art exhibition room?",
+      options: [
+        "To force every visitor to purchase an artwork",
+        "To silence all students who try to discuss art",
+        "To collect examination fees from the teachers",
+        "To safeguard artworks from rough handling or theft",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Security ensures that delicate artworks are protected from theft, vandalism, and accidental breakage caused by crowding.",
+    ),
+    QuizQuestion(
+      question: "9. What is one shared requirement of both physical and digital art preservation?",
+      options: [
+        "Maintaining accurate catalogue records and safe storage",
+        "Using wet paint brushes every week to clean surfaces",
+        "Storing works under direct tropical afternoon sunlight",
+        "Burning old copies whenever a new sketch is completed",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Both physical and digital preservation rely on systematic documentation, cataloguing, and safe storage methods.",
+    ),
+    QuizQuestion(
+      question: "10. Following the conclusion of an exhibition, which document should the editorial and media committee compile?",
+      options: [
+        "A list of students who failed the recent science test",
+        "A menu detailing food prices at the local market",
+        "A map showing walking paths to neighbouring towns",
+        "A comprehensive report with photographs and reviews",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "The post-exhibition report compiles photographs, visitor numbers, audience feedback, and financial summaries to assess outcomes and guide future events.",
+    ),
+  ],
+);
+
+final QuizModel creativeArtsJhs3S2Ss2Lesson1QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss2_L1/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question:
+          "1. Which quality represents a key functional advantage of using woven natural straw fibres for headwear in the Upper East Region?",
+      options: [
+        "Complete water resistance during storms",
+        "Breathability under extreme solar heat",
+        "Metallic shine for visibility at night",
+        "Permanent rigid shape under high pressure",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Woven straw allows ventilation, preventing overheating while offering sun protection in hot, semi-arid climates.",
+    ),
+    QuizQuestion(
+      question:
+          "2. Which step in the creative design process must occur immediately after an artist defines a social or cultural problem to address?",
+      options: [
+        "Gathering visual research and reference material",
+        "Applying permanent pigment to the final surface",
+        "Appraising the completed work in an exhibition hall",
+        "Applying protective clear varnish across the border",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Defining the problem is immediately followed by research and gathering visual reference information before sketching begins.",
+    ),
+    QuizQuestion(
+      question:
+          "3. Which design principle is most effectively established when an artist repeats diagonal stripes across the brim of a woven basket?",
+      options: ["Perspective", "Texture", "Rhythm", "Scale"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Rhythm is achieved by the regular or planned repetition of design elements such as lines, colours, or motifs.",
+    ),
+    QuizQuestion(
+      question:
+          "4. A poster designed to educate the public on road safety fails because motorists cannot decipher the imagery quickly from distance. Which criterion was primarily overlooked during design evaluation?",
+      options: [
+        "Clarity of visual communication",
+        "Thickness of the paper surface",
+        "Cost of the drafting pencils",
+        "Historical value of pigment",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation:
+          "Topical and public awareness art must communicate its message quickly and unambiguously to its target audience.",
+    ),
+    QuizQuestion(
+      question:
+          "5. Why is it beneficial for an artist to conduct a self-evaluation checklist while an artwork is still in the developmental stage?",
+      options: [
+        "It replaces the need for any preliminary sketching",
+        "It allows corrective changes to balance and layout",
+        "It reduces the need for quality art tools entirely",
+        "It ensures an artwork will sell at premium values",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation:
+          "In-progress self-evaluation enables the artist to detect and adjust compositional and technical flaws before completion.",
+    ),
+    QuizQuestion(
+      question:
+          "6. An artist paints dark purple shadows alongside bright yellow highlights on a protest banner. Which principle of design is being actively used to command attention?",
+      options: ["Contrast", "Symmetry", "Sizing", "Repetition"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Placing complementary values or hues next to each other creates strong contrast, making elements visually dominant.",
+    ),
+    QuizQuestion(
+      question:
+          "7. When preparing to sculpt a public awareness figure from local earthenware clay, what should the artist execute during the preliminary phase?",
+      options: [
+        "Sell finished miniature models to pedestrians",
+        "Glaze the raw unfinished clay at low heat",
+        "Construct rough trial models using small clay pieces",
+        "Mount final labels onto the exhibition table early",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation:
+          "Creating small maquettes or trial models tests form and balance before embarking on the large final sculpture.",
+    ),
+    QuizQuestion(
+      question:
+          "8. Which description best matches the concept of topical issue artwork in contemporary Ghanaian society?",
+      options: [
+        "Art copied from European Renaissance oil canvases",
+        "Crafts created purely for royal regalia collections",
+        "Carvings depicting imaginary mythical creatures only",
+        "Works highlighting problems like galamsey or sanitation",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation:
+          "Topical art addresses current social, environmental, health, or economic issues directly impacting the community.",
+    ),
+    QuizQuestion(
+      question:
+          "9. What is the primary role of dominant shapes in a two-dimensional visual composition?",
+      options: [
+        "To establish the primary focal point of the artwork",
+        "To ensure that every border edge looks identical",
+        "To mix differing paint colours on the palette",
+        "To make all background shapes appear flat and dull",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation:
+          "Dominant elements capture the viewer's attention first, establishing the focal centre of interest in a composition.",
+    ),
+    QuizQuestion(
+      question:
+          "10. Which combination of attributes forms the core foundation of an objective peer-assessment rubric in visual art?",
+      options: [
+        "Personal friendship, speed of work, paint brand name",
+        "Elements of design, technique, and clarity of theme",
+        "Price of materials, class attendance, frame size",
+        "Rarity of paper, artist age, tool collection size",
+      ],
+      correctIndex: 1,
+      difficulty: "Hard",
+      explanation:
+          "An objective rubric focuses on design execution, technical skill with media, and how clearly the intended message or theme is conveyed.",
+    ),
+  ],
+);
+
 final QuizModel creativeArtsJhs3S2Ss1Lesson9QuizData = QuizModel(
   audioPath: "assets/audio/CreativeArts/JHS3_s2_ss1_L9/8. QUIZ.mp3",
   questions: [
