@@ -1,6 +1,58 @@
 import '../model/independent_practice_model.dart';
 
 final IndependentPracticeModel
+creativeArtsJhs3S2Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. In which Ghanaian town was the celebrated composer and ethnomusicologist Professor J. H. Kwabena Nketia born?",
+      options: ["Mampong-Ashanti", "Cape Coast", "Koforidua", "Bolgatanga"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation:
+          "Professor J. H. Kwabena Nketia was born in Mampong-Ashanti, Ghana.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which famous musical work by Professor J. H. Kwabena Nketia reflects the daily labour and cultural life of northern Ghana?",
+      options: [
+        "The Lagos Traffic March",
+        "The Builsa Work Song",
+        "The Highlife Symphony",
+        "The Fante Sea Sonata",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "The Builsa Work Song reflects the daily labour and cultural life of the Builsa people of northern Ghana.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What is the primary characteristic of \"African Pianism\" as developed by Akin Euba?",
+      options: [
+        "Restricting the piano to European military marches",
+        "Playing the piano without using any black keys",
+        "Treating the piano as an African percussive instrument",
+        "Replacing the wooden piano keys with bronze plates",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "African Pianism uses the piano’s percussive qualities to recreate African drumming patterns and polyrhythmic textures.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Professor Akin Euba received formal music training at which prestigious international institution?",
+      options: [
+        "Saint Petersburg Royal Guild",
+        "Trinity College of Music",
+        "Vienna Symphonic Academy",
+        "Paris Contemporary Atelier",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Professor Akin Euba received formal music training at Trinity College of Music.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
 creativeArtsJhs3S2Ss3Lesson7IndependentQuizData = IndependentPracticeModel(
   audioPath:
       "assets/audio/CreativeArts/JHS3_s2_ss3_L7/7. INDEPENDENT PRACTICE.mp3",

@@ -1,5 +1,13 @@
 import '../model/get_ready_model.dart';
 
+final GetReadyModel creativeArtsJhs3S2Ss3Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l3/co.jpg",
+  overviewAudioPath:
+      "assets/audio/CreativeArts/JHS3_s2_ss3_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l3/h.jpg",
+  hookAudioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L3/2. HOOK.mp3",
+);
+
 final GetReadyModel creativeArtsJhs3S2Ss3Lesson7GetReadyData = GetReadyModel(
   overviewImagePath: "assets/images/CreativeArts/JHS3_s2_ss3_L7/CO.jpg",
   overviewAudioPath:

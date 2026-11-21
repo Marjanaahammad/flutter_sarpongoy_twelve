@@ -1,5 +1,131 @@
 import '../model/quiz_model.dart';
 
+final QuizModel creativeArtsJhs3S2Ss3Lesson3QuizData = QuizModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L3/8. QUIZ.mp3",
+  questions: [
+    QuizQuestion(
+      question: "1. Which musical notation meter did Professor J. H. Kwabena Nketia champion to transcribe traditional African rhythmic patterns?",
+      options: [
+        "Six-eight time signature",
+        "Four-four time signature",
+        "Two-two time signature",
+        "Three-four time signature",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Nketia used six-eight time to capture the underlying triplet pulse of African rhythms naturally and accurately.",
+    ),
+    QuizQuestion(
+      question: "2. What field of academic scholarship did Professor J. H. Kwabena Nketia lead extensively at the University of Ghana, Legon?",
+      options: [
+        "African ethnomusicology",
+        "Mechanical mining geology",
+        "Classical maritime commerce",
+        "Tropical civil engineering",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Nketia was an internationally acclaimed ethnomusicologist who directed the International Centre for African Music and Dance.",
+    ),
+    QuizQuestion(
+      question: "3. Which prominent Ghanaian mentor directly influenced Kwabena Nketia’s early choral compositions and rhythmic philosophy?",
+      options: [
+        "Saka Acquaye",
+        "Ablade Glover",
+        "Ibrahim Mahama",
+        "Dr. Ephraim Amu",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Dr. Ephraim Amu taught and inspired Kwabena Nketia during his foundational years of musical training.",
+    ),
+    QuizQuestion(
+      question: "4. What instrumental performance technique is central to Professor Akin Euba’s concept of African Pianism?",
+      options: [
+        "Emphasising percussive strikes and polyrhythmic textures",
+        "Restricting all notes to slow religious funeral wails",
+        "Detuning the piano strings to create sound distortion",
+        "Playing exclusively with the left foot on the pedals",
+      ],
+      correctIndex: 0,
+      difficulty: "Hard",
+      explanation: "Euba treated the piano's internal hammers as percussive elements to recreate the feel and rhythms of African drums.",
+    ),
+    QuizQuestion(
+      question: "5. Which ethnic cultural traditions and musical aesthetics heavily influenced Professor Akin Euba’s compositions?",
+      options: [
+        "Berber desert poetry",
+        "Somali nomad chant",
+        "Yoruba ethnic music",
+        "Maasai dance cycles",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Akin Euba was of Yoruba heritage and infused traditional Yoruba drumming patterns and poetry into his compositions.",
+    ),
+    QuizQuestion(
+      question: "6. How do African art music composers address topical continental issues like environmental protection or peace?",
+      options: [
+        "By refusing to write scores that include any spoken words",
+        "By boycotting performances that use acoustic instruments",
+        "By composing pieces with lyrics that promote social awareness",
+        "By selling their musical instruments to foreign businesses",
+      ],
+      correctIndex: 2,
+      difficulty: "Hard",
+      explanation: "Composers write vocal and choral texts that explicitly educate communities on issues like peace, climate, and social justice.",
+    ),
+    QuizQuestion(
+      question: "7. What book by Professor J. H. Kwabena Nketia investigated funeral practices and dirges in Ghana?",
+      options: [
+        "Funeral Dirges of the Akan People",
+        "Highlife Legends of the Coast",
+        "Drums of the Northern Savannah",
+        "Modern Rhythms of West Africa",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Nketia published Funeral Dirges of the Akan People in 1955, documenting the poetry, sorrow, and music of Akan funerals.",
+    ),
+    QuizQuestion(
+      question: "8. Why is African art music generally written down in musical notation rather than left unrecorded?",
+      options: [
+        "It allows choirs and orchestras globally to perform the work accurately",
+        "It prevents indigenous African children from singing traditional songs",
+        "It stops private schools from having to purchase local rhythm drums",
+        "It ensures that the music will only be played inside royal palaces",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Stave notation provides a permanent, universally readable record that enables ensembles anywhere in the world to perform the piece.",
+    ),
+    QuizQuestion(
+      question: "9. Which term best defines the fusion of African rhythmic principles with keyboard performance pioneered by Akin Euba?",
+      options: [
+        "Classical Ballet",
+        "Highlife Swing",
+        "African Pianism",
+        "Brass Band Choral",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Akin Euba coined and formulated the compositional concept of African Pianism.",
+    ),
+    QuizQuestion(
+      question: "10. In what way did Professor Kwabena Nketia’s Volta Fantasy connect music directly with the Ghanaian environment?",
+      options: [
+        "It was composed to replace water turbines at Akosombo",
+        "It barred local fishermen from casting nets on the river",
+        "It required performers to play underwater without flutes",
+        "It celebrated the scenery and cultural life along the river",
+      ],
+      correctIndex: 3,
+      difficulty: "Hard",
+      explanation: "Volta Fantasy musically depicts the landscape, moods, and traditions of the people inhabiting the Volta region.",
+    ),
+  ],
+);
+
 final QuizModel creativeArtsJhs3S2Ss3Lesson7QuizData = QuizModel(
   audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L7/8. QUIZ.mp3",
   questions: [

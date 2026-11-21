@@ -1,5 +1,26 @@
 import '../model/practice_model.dart';
 
+final PracticeModel creativeArtsJhs3S2Ss3Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What major rhythmic innovation did Professor J. H. Kwabena Nketia introduce to make the transcription of African music more accurate and readable?",
+      answer: "He introduced the use of the six-eight time signature instead of duple time with triplets to reflect the natural pulse of African rhythm.",
+      explanation: "While his mentor Ephraim Amu used two-four time with continuous triplets, Nketia proved that six-eight time captures the true polyrhythmic swing and natural heartbeat of traditional songs without cluttering the score.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the core concept behind Professor Akin Euba’s theory of \"African Pianism\".",
+      answer: "African Pianism treats the Western piano as a percussive instrument that reproduces traditional African drumming and melodic patterns.",
+      explanation: "Euba employed the percussive attack of the piano's internal hammers to mimic the polyrhythmic textures, bell patterns, and call-and-response structures found in African indigenous music.",
+    ),
+    PracticeQuestion(
+      scenario: "3. How do the compositions of African art music composers help solve issues of cultural erosion across the continent?",
+      answer: "They formally document indigenous folk songs, proverbs, and languages in written scores so they are never forgotten.",
+      explanation: "By archiving oral traditions into classical musical scores and textbooks, composers ensure that future generations can study, perform, and preserve authentic African heritage.",
+    ),
+  ],
+);
+
 final PracticeModel creativeArtsJhs3S2Ss3Lesson7PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L7/6. GUIDED PRACTICE.mp3",
   questions: [

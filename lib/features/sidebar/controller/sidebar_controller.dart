@@ -5,6 +5,7 @@ import '../../home/models/strand_model.dart';
 
 import '../../home/screens/contents/data/all_get_ready_data.dart';
 import '../../home/screens/contents/data/all_learn_data.dart';
+import '../../home/screens/contents/data/creative_arts_jhs3_s2_ss3_l3_learn_data.dart';
 import '../../home/screens/contents/data/all_practice_data.dart';
 import '../../home/screens/contents/data/all_independent_quiz_data.dart';
 import '../../home/screens/contents/data/all_quiz_data.dart';
@@ -4116,6 +4117,19 @@ class SidebarController extends GetxController {
                 independentPracticeData =
                     creativeArtsJhs3S2Ss3Lesson4IndependentQuizData;
                 quizData = creativeArtsJhs3S2Ss3Lesson4QuizData;
+              }
+
+              if (grade == "JHS 3" &&
+                  courseTitle == "CREATIVE ARTS" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 2) {
+                getReadyData = creativeArtsJhs3S2Ss3Lesson3GetReadyData;
+                learnData = creativeArtsJhs3S2Ss3Lesson3LearnData;
+                practiceData = creativeArtsJhs3S2Ss3Lesson3PracticeData;
+                independentPracticeData =
+                    creativeArtsJhs3S2Ss3Lesson3IndependentQuizData;
+                quizData = creativeArtsJhs3S2Ss3Lesson3QuizData;
               }
 
               if (grade == "JHS 3" &&
