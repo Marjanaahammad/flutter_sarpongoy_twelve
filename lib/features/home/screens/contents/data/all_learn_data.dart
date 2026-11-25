@@ -1,5 +1,473 @@
 import '../model/learn__model.dart';
 
+final LearnModel careerJhs1S4Ss1Lesson3LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L3/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_l3/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L3/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_l3/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L3/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_l3/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S4Ss1Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_L2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_L2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_L2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S4Ss1Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_L1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_L1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s4_ss1_L1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s4_ss1_L1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss5Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss5_L1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss5_L1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss5_L1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss5_L1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss5_L1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss5_L1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss4Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss4_L2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss4_L2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss4_L2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss4_L2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss4_L2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss4_L2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss4Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss4_L1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss4_l1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss4_L1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss4_l1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss4_L1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss4_l1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss3Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_l2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_l2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_l2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_l2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_l2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_l2/5. TEACH Part - C.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_l2/P D.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_l2/6. TEACH Part - D.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss3Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_L1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_L1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_L1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_L1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_L1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_L1/5. TEACH Part - C.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss3_L1/P D.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss3_L1/6. TEACH Part - D.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss2Lesson3LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss2_L3/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss2_l3/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss2_L3/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss2_l3/4. TEACH Part - B.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss2Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss2_l2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss2_l2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss2_l2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss2_l2/4. TEACH Part - B.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss2Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss2_l1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss2_L1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss2_l1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss2_L1/4. TEACH Part - B.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S3Ss1Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss1_l2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss1_l2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss1_l2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss1_l2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s3_ss1_l2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s3_ss1_l2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss4Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss4_L1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss4_l1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss4_L1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss4_l1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss4_L1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss4_l1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss3Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss3_L2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss3_l2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss3_L2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss3_l2/4. TEACH Part - B.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss3Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss3_l1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss3_L1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss3_l1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss3_L1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss3_l1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss3_L1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss2Lesson3LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_L3/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_L3/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_L3/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_L3/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_L3/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_L3/5. TEACH Part - C.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_L3/P D.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_L3/6. TEACH Part - D.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss2Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_L2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_L2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_L2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_L2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_L2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_L2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss2Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_l1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_l1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss2_l1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss2_l1/4. TEACH Part - B.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss1Lesson3LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_l3/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_L3/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_l3/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_L3/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_l3/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_L3/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss1Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_L2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_L2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_L2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_L2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_L2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_L2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S2Ss1Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_l1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_l1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_l1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_l1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s2_ss1_l1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s2_ss1_l1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S1Ss3Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss3_L2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss3_l2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss3_L2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss3_l2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss3_L2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss3_l2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S1Ss3Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss3_l1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss3_l1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss3_l1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss3_l1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss3_l1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss3_l1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S1Ss2Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss2_l2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss2_L2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss2_l2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss2_L2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss2_l2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss2_L2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S1Ss2Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss2_L1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss2_L1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss2_L1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss2_L1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss2_L1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss2_L1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S1Ss1Lesson3LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_L3/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_L3/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_L3/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_L3/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_L3/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_L3/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S1Ss1Lesson2LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_l2/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_l2/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_l2/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_l2/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_l2/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_l2/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
+final LearnModel careerJhs1S1Ss1Lesson1LearnData = LearnModel(
+  parts: [
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_l1/P A.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_l1/3. TEACH Part - A.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_l1/P B.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_l1/4. TEACH Part - B.mp3",
+    ),
+    LearnPart(
+      imagePath: "assets/images/Career/JHS1_s1_ss1_l1/P C.jpg",
+      audioPath: "assets/audio/career/JHS1_s1_ss1_l1/5. TEACH Part - C.mp3",
+    ),
+  ],
+);
+
 final LearnModel creativeArtsJhs3S2Ss3Lesson7LearnData = LearnModel(
   parts: [
     LearnPart(

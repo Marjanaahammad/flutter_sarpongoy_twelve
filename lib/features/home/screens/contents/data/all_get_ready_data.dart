@@ -1,5 +1,229 @@
 import '../model/get_ready_model.dart';
 
+final GetReadyModel careerJhs1S4Ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s4_ss1_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s4_ss1_l3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s4_ss1_L3/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s4_ss1_l3/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S4Ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s4_ss1_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s4_ss1_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s4_ss1_L2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s4_ss1_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S4Ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s4_ss1_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s4_ss1_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s4_ss1_L1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s4_ss1_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss5Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss5_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss5_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss5_L1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss5_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss4Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss4_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss4_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss4_L2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss4_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss4Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss4_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss4_l1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss4_L1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss4_l1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss3Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss3_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss3_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss3_l2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss3_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss3Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss3_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss3_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss3_L1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss3_L1/HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss2Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss2_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss2_l3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss2_L3/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss2_l3/HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss2Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss2_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss2_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss2_l2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss2_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss2Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss2_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss2_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss2_l1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss2_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S3Ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s3_ss1_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s3_ss1_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s3_ss1_l2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s3_ss1_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss4Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss4_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss4_l1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss4_L1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss4_l1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss3Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss3_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss3_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss3_L2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss3_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss3Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss3_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss3_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss3_l1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss3_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss2Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss2_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss2_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss2_L3/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss2_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss2Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss2_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss2_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss2_L2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss2_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss2Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss2_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss2_l1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss2_l1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss2_l1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss1_l3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss1_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss1_l3/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss1_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss1_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss1_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss1_L2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss1_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S2Ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s2_ss1_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s2_ss1_l1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s2_ss1_l1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s2_ss1_l1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S1Ss3Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s1_ss3_L2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s1_ss3_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s1_ss3_L2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s1_ss3_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S1Ss3Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s1_ss3_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s1_ss3_l1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s1_ss3_l1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s1_ss3_l1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S1Ss2Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s1_ss2_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s1_ss2_L2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s1_ss2_l2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s1_ss2_L2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S1Ss2Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s1_ss2_L1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s1_ss2_L1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s1_ss2_L1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s1_ss2_L1/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S1Ss1Lesson3GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s1_ss1_L3/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s1_ss1_L3/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s1_ss1_L3/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s1_ss1_L3/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S1Ss1Lesson2GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s1_ss1_l2/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s1_ss1_l2/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s1_ss1_l2/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s1_ss1_l2/2. HOOK.mp3",
+);
+
+final GetReadyModel careerJhs1S1Ss1Lesson1GetReadyData = GetReadyModel(
+  overviewImagePath: "assets/images/Career/JHS1_s1_ss1_l1/CO.jpg",
+  overviewAudioPath:
+      "assets/audio/career/JHS1_s1_ss1_l1/1. CHAPTER OVERVIEW.mp3",
+  hookImagePath: "assets/images/Career/JHS1_s1_ss1_l1/HOOK.jpg",
+  hookAudioPath: "assets/audio/career/JHS1_s1_ss1_l1/2. HOOK.mp3",
+);
+
 final GetReadyModel creativeArtsJhs3S2Ss3Lesson3GetReadyData = GetReadyModel(
   overviewImagePath: "assets/images/CreativeArts/JHS3_s2_ss3_l3/co.jpg",
   overviewAudioPath:

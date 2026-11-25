@@ -1,5 +1,614 @@
 import '../model/practice_model.dart';
 
+final PracticeModel careerJhs1S4Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s4_ss1_l3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State two practical reasons why an instructional designer recommends creating a cardboard mock-up before constructing a wooden storage cupboard.",
+      answer: "A cardboard mock-up allows you to verify visual proportions and discover design flaws before cutting expensive timber.",
+      explanation: "Cardboard is an inexpensive compliant material that can be shaped quickly, allowing builders to test dimensions and stability without wasting costly resistant materials.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the essential difference between a compliant material and a resistant material used in workshop modelling.",
+      answer: "Compliant materials bend and fold easily by hand, whereas resistant materials are rigid and require tools to cut or shape.",
+      explanation: "Compliant materials yield easily to low physical forces, while resistant materials retain their rigidity and withstand external loads without deforming.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a load test, a student's mock-up table wobbles and leans diagonally sideways. What specific modification should the student make to correct this weakness?",
+      answer: "The student should add diagonal cross-braces between the table legs to provide rigid triangulation.",
+      explanation: "Four-sided open leg frames lack lateral rigidity and will skew sideways unless diagonal members are inserted to form stable triangles.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S4Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s4_ss1_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the core difference between a static force and a dynamic force acting on a highway bridge.",
+      answer: "A static force is a stationary load like the bridge's own weight, whereas a dynamic force is a moving load like passing vehicles or wind gusts.",
+      explanation: "Static forces remain constant and fixed in position, while dynamic forces change continuously in intensity, direction, and movement across the structure.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why does the use of unwashed sea sand during concrete mixing lead to structural failure in coastal buildings?",
+      answer: "The salt in unwashed sand corrodes internal steel reinforcement bars, causing them to rust, expand, and crack the surrounding concrete.",
+      explanation: "Salt accelerates the oxidation and rusting of iron rebar, which expands inside the hardened concrete and destroys the pillar's load-bearing integrity.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe how material fatigue causes an aluminium roof or steel tower to fail even without an unusually heavy storm.",
+      answer: "Repeated cycles of heating, cooling, vibration, and minor stress create tiny microscopic cracks that gradually spread until the metal breaks.",
+      explanation: "Fatigue occurs over long periods as ongoing small stresses weaken the internal atomic bonds of the material, leading to sudden failure under ordinary working loads.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S4Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s4_ss1_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why civil engineers use triangulation when building steel footbridges and roof structures.",
+      answer: "Triangulation uses three-sided members that cannot deform without breaking, distributing pushing and pulling forces evenly across the structure.",
+      explanation: "A triangle is an inherently stable geometric shape that cannot distort or tilt sideways under heavy pressure, ensuring the framework remains completely rigid.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Classify a termite mound and a sandcrete classroom block under the categories of natural and man-made structures, giving one reason for your classification.",
+      answer: "A termite mound is a natural structure built by insects, while a sandcrete classroom block is a man-made structure constructed by humans.",
+      explanation: "Structures created by biological processes without human tools are natural, whereas structures fabricated intentionally by people to solve human needs are man-made.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State the primary difference between how a frame structure and a shell structure support applied loads.",
+      answer: "A frame structure supports loads through a skeleton of joined members, while a shell structure supports loads through its thin curved outer skin.",
+      explanation: "Frame structures channel mechanical forces through interconnected beams and columns, whereas shell structures distribute external forces across a curved exterior surface.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss5Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss5_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is plain water unsuitable for thinning oil-based gloss paint, and what liquid must a painter use instead?",
+      answer: "Oil and water do not mix; therefore, a painter must use a petroleum-based thinner such as mineral turpentine or white spirit.",
+      explanation: "Oil paints contain drying oils and resins that repel water droplets, requiring an organic solvent like turpentine to reduce their viscosity smoothly.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the main practical reason for laying non-porous ceramic tiles over bare cement screed in a school washroom.",
+      answer: "Ceramic tiles prevent water absorption, resist stains, and allow quick, hygienic cleaning without damaging the floor.",
+      explanation: "Bare screed is porous and absorbs dirty wash water, whereas glazed ceramic tiles create an impermeable, wipe-clean barrier.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two practical functions achieved when a dressmaker sews a turned hem along the bottom edge of a student uniform shirt.",
+      answer: "It seals the raw fabric edge to prevent unraveling and provides a neat, weighted drape to the garment bottom.",
+      explanation: "Without an edge finish, cut threads fray during wear and washing; folding and stitching secures the structure and neatens the garment.",
+    ),
+    PracticeQuestion(
+      scenario: "4. A caterer prepares pale steamed rice and light-coloured grilled chicken. Recommend two contrasting savoury garnishes to enhance the plate's appeal.",
+      answer: "Bright orange carrot curls and dark green parsley sprigs or sliced red tomatoes.",
+      explanation: "Pale foods require vibrant, contrasting colours and crisp textures to make the presentation balanced and visually stimulating.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss4_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. To which kitchen classification does a rotary hand egg beater belong, and why?",
+      answer: "A rotary hand egg beater is a mechanical essential because it uses rotating gears and moving blades to beat ingredients quickly.",
+      explanation: "Although operated by hand, its internal gear mechanism multiplies hand turning into rapid blade movement, making it a mechanical tool.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why is a four-burner gas cooker classified as a large kitchen essential rather than a small essential?",
+      answer: "A cooker is large, heavy, occupies permanent floor space, and cannot be packed into drawers or moved about easily.",
+      explanation: "Large essentials are heavy fixtures and appliances designed to stay in fixed locations with permanent gas or electrical supplies.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two reasons why measuring spoons and can openers are grouped as small kitchen essentials.",
+      answer: "They are compact, handheld tools that are operated manually and stored inside drawers or on racks.",
+      explanation: "Small essentials are portable implements that require no electric motors and take up very little counter or storage space.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss4_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a cutting board is considered an essential tool when slicing meat or vegetables.",
+      answer: "A cutting board provides a clean, stable surface that protects countertops from cuts and prevents food from picking up dirt.",
+      explanation: "Cutting boards stop sharp knives from scarring work surfaces and protect blade edges from becoming blunt. They also promote food safety by providing a dedicated, clean plane for chopping.",
+    ),
+    PracticeQuestion(
+      scenario: "2. What makes a soup tureen an essential serving item rather than an ordinary cooking pot?",
+      answer: "A soup tureen keeps soup warm at the table and presents food neatly and safely for service.",
+      explanation: "Cooking pots are often hot, soot-stained, or greasy from the stove. A tureen provides a clean, covered, and attractive vessel that allows diners to serve hot broth safely at the table.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe how a colander improves both safety and efficiency when preparing boiled yam or pasta.",
+      answer: "A colander drains boiling hot water quickly while keeping the solid food safely inside the perforated bowl.",
+      explanation: "Tipping hot water directly from a pot lid carries a high risk of steam burns or dropped food. A colander allows liquid to pass through rapidly while containing all the cooked food.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss3_l2/7. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. A student is preparing to drive two steel wood screws into a dense piece of mahogany timber to secure a shelf bracket. What preparatory step must he carry out before inserting the screws, and why?",
+      answer: "He must create a pilot hole using a small drill bit or nail to guide the screw thread and prevent the mahogany timber from splitting.",
+      explanation: "Mahogany is a dense hardwood, and forcing a screw directly into the un-drilled grain generates extreme outward pressure that splits the wood or strips the screw head. A pilot hole relieves excess pressure and guides the fastener straight.",
+    ),
+    PracticeQuestion(
+      scenario: "2. A cook wants to thicken a rich goat meat pepper soup using cassava starch. What exact method should she use to incorporate the starch into the simmering soup without forming lumps?",
+      answer: "She must whisk the cassava starch into a small portion of cold water to form a smooth slurry before stirring it into the simmering soup and boiling for a minute.",
+      explanation: "Dumping dry starch into hot soup causes the outer granules to gelatinise instantly around dry cores, forming stubborn lumps. Pre-mixing in cold water disperses the individual starch particles, allowing them to swell evenly when boiled.",
+    ),
+    PracticeQuestion(
+      scenario: "3. An apprentice mason has just seated a sandcrete block onto a fresh bed of mortar. Describe the tool action he must use to align the block and finish the outer joint.",
+      answer: "He should tap the top of the block with the trowel handle to level it, and then use the sharp edge of the trowel to slice away excess squeezed mortar.",
+      explanation: "Tapping with the wooden or plastic handle seats the block into the mortar paste without fracturing the block edges, while the blade edge cleans off surplus mortar flush with the wall face.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss3_L1/7. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. A carpenter is assembling a wooden dining table frame using mortise and tenon joints and wants to ensure a tight fit without damaging the timber surface. Describe the appropriate striking tool and clamping device he should use.",
+      answer: "He should use a wooden or rubber mallet to deliver soft, non-marring blows that drive the joint together, and a G-clamp to maintain firm pressure while the wood glue sets.",
+      explanation: "Steel hammers have hard striking faces that leave permanent pressure dents and cracks in timber. A wooden or rubber mallet distributes the blow softly across the joint shoulders, while a G-clamp holds the pieces in correct alignment until the adhesive dries.",
+    ),
+    PracticeQuestion(
+      scenario: "2. A food vendor is preparing a batch of spicy beef patties and notices that the minced meat crumbles apart when placed on the hot grill. Describe the culinary binding ingredient she should add and explain how it works.",
+      answer: "She should mix raw egg white into the minced meat mixture so that its proteins coagulate under heat to hold the meat together.",
+      explanation: "Liquid egg white acts as an adhesive binder in food preparation. When exposed to the heat of the grill, the proteins in the egg white coagulate from a liquid into a firm solid matrix that traps the meat particles together.",
+    ),
+    PracticeQuestion(
+      scenario: "3. An electrician needs to connect two fine copper wires inside an audio amplifier casing. Describe the joining process, the heating tool, and the bonding material required.",
+      answer: "He must use the soldering process, utilizing an electrical soldering bit to heat the joint and melting a tin-lead solder alloy wire to join the metals.",
+      explanation: "Soldering joins small electrical components without melting the workpiece itself. The copper tip of the soldering bit conducts heat to the wire splice, allowing the soft solder alloy to melt, flow into the microscopic crevices, and form a solid, conductive joint upon cooling.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss2_l3/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the condition known as \"pinning\" on an engineer's file and state two ways to resolve or prevent it.",
+      answer: "Pinning occurs when metal shavings become trapped between the file teeth; it is resolved by cleaning the teeth with a wire file card and prevented by rubbing chalk into the teeth before use.",
+      explanation: "Clogged teeth stop the file from cutting and scratch the workpiece. Brushing along the grooves with a wire file card dislodges trapped particles, while chalk prevents shavings from packing tightly into the cuts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why must you never use a pair of dressmaker's fabric shears to cut paper or cardboard?",
+      answer: "Paper and cardboard contain abrasive mineral fillers that quickly dull the fine bevelled edges of fabric shears, making them snag and chew cloth.",
+      explanation: "Fabric shears are precision-ground specifically for flexible textile fibres. Hard materials like cardboard roll the fine cutting edges, ruining their ability to slice cloth cleanly.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Identify two natural, locally available materials in Ghana that can be used to clean and scour tarnished metal tools, and describe how one of them is prepared.",
+      answer: "Sifted eggshell powder and wood ash with lemon juice; eggshells are washed, dried, pounded into fine powder, and sifted through a mesh.",
+      explanation: "Eggshell powder acts as a gentle scouring abrasive that removes stains without scratching steel or brass. Wood ash mixed with acidic lemon juice dissolves oxide films on aluminium and galvanised surfaces.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss2_l2/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Describe the correct hand grip and motion used when slicing vegetables on a cutting board to protect your fingers.",
+      answer: "The guide hand forms a protective claw with fingertips curled under, while the knife blade rests against the knuckles and cuts downward.",
+      explanation: "Curling your fingers into a claw position keeps vulnerable tips and nails tucked inward. Resting the broad side of the blade against the knuckles allows the user to gauge slice thickness safely without risking cuts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why must you maintain at least three teeth of a hacksaw blade in contact with the workpiece while cutting metal?",
+      answer: "Having three teeth touching prevents the individual teeth from straddling the edge, snagging, and breaking off.",
+      explanation: "When cutting thin pipes or sheets, fewer than three teeth will drop into the gap. The forward stroke will catch a tooth on the sharp edge, stripping the teeth or snapping the blade.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain how the cutting motion of draw-filing differs from cross-filing, and state the intended result of draw-filing.",
+      answer: "Draw-filing moves the file sideways along the edge of the metal rather than pushing across it, producing a smooth surface finish.",
+      explanation: "In cross-filing, the file is pushed diagonally across the width to remove bulk waste quickly. In draw-filing, the blade is held with both hands and slid lengthwise along the edge to remove scratches and leave a polished finish.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss2_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the primary functional difference between a firmer chisel and a mortise chisel in woodworking.",
+      answer: "A firmer chisel is used for general paring and light joint work, whereas a mortise chisel has a thicker, heavier blade made to withstand deep chopping of mortise joints.",
+      explanation: "Firmer chisels have thinner rectangular or bevelled blades suited for shaving away waste and paring flat surfaces. Mortise chisels are specially built with stout, heavy steel blades to take direct mallet impacts without bending when cutting deep joint pockets.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why does a dressmaker use pinking shears rather than standard cutting shears when trimming garment seams?",
+      answer: "Pinking shears produce a zigzag edge that prevents the cut threads of woven fabric from unravelling.",
+      explanation: "The serrated blades of pinking shears cut cloth along alternating diagonal lines. This cuts across warp and weft threads at an angle, preventing fraying without needing immediate edge stitching.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Identify the masonry cutting tool used with a hammer to split sandcrete blocks cleanly, and state why its blade is wide.",
+      answer: "The tool is a bolster chisel, and its blade is wide so it can score and split across the full width of a brick or block in one strike.",
+      explanation: "A bolster chisel features an expanded, flat cutting edge. Placing this broad blade across a marked cut line distributes the hammer blow evenly, snapping the block cleanly rather than shattering it.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S3Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss1_l2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why wooden measuring tools such as folding rules and calabashes should never be left soaking in water.",
+      answer: "Soaking allows wood to absorb water, which causes the fibres to swell, warp, crack, and rot as the material dries.",
+      explanation: "Wood is naturally porous; prolonged contact with moisture breaks down internal fibres, distorts straight edges, and causes hinges on folding rules to loosen or seize.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State why a light coat of machine oil must be wiped over carbon steel tools before putting them into storage.",
+      answer: "The oil creates an airtight protective film over the metal that prevents moisture and oxygen from reacting with the steel to form rust.",
+      explanation: "Carbon steel corrodes easily in humid air, leading to rust that eats away metal graduations and dulls cutting edges unless an oily barrier is present.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why should you guide the blade of a retractable steel tape measure when recoiling it rather than letting it snap back freely?",
+      answer: "Snapping causes the end hook or tang to slam hard against the case, which loosens its rivets and bends the hook out of shape.",
+      explanation: "If the tang becomes bent or loose, the zero reference point shifts, making all subsequent internal and external measurements inaccurate.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss4_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the primary difference between a food commodity and a finished food dish, using a clear local example.",
+      answer: "A food commodity is a raw or unprocessed agricultural ingredient bought to prepare a meal, whereas a finished food dish is the cooked, edible product ready for consumption. For example, raw cassava tubers bought from the market are food commodities, while boiled ampesi prepared from those tubers is the finished food.",
+      explanation: "Food commodities represent the starting ingredients traded in commercial markets, whereas food is the edible, prepared outcome that nourishes the human body.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify the two main sources of food commodities and provide two Ghanaian examples for each source.",
+      answer: "The two main sources are plant sources and animal sources. Examples of plant sources include cassava and garden eggs. Examples of animal sources include fresh tilapia and cow milk.",
+      explanation: "Plant sources include crops grown in soil such as tubers, vegetables, grains, and fruits. Animal sources include products harvested from livestock, fish, or poultry.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two biological reasons why a Junior High School student requires food every day.",
+      answer: "A student needs food to supply energy for classroom learning and sports, and to provide essential nutrients for body growth and repairing worn-out tissues.",
+      explanation: "Food acts as biological fuel for physical and mental activities and supplies raw structural materials that allow growing adolescents to build strong muscles and bones.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss3_l2/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a group discussing a material must explicitly use the word reversible when analyzing smart materials.",
+      answer: "The term reversible is essential because it distinguishes true smart materials, which return to their original state once the stimulus is removed, from materials that undergo permanent physical or chemical changes.",
+      explanation: "Smart materials rely on temporary, repeatable reactions to environmental triggers like heat or light, making reversibility their defining functional characteristic.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how a group should evaluate whether a substance used in hospital wound dressings qualifies as a smart material.",
+      answer: "The group must check if the material reacts to a specific biological or environmental stimulus, such as moisture or temperature, and whether that reaction alters its properties reversibly.",
+      explanation: "If the dressing changes colour or releases medicine only in response to specific conditions like wound moisture and returns to baseline when dry, it is a smart material.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Give an example of how a technical presentation in a Ghanaian classroom should describe the benefits of a modern material like Kevlar.",
+      answer: "The presentation should state that Kevlar is five times stronger than steel at the same weight and highly flame-resistant, making it ideal for safety vests worn by security personnel in Accra.",
+      explanation: "Effective technical presentations combine quantitative facts, such as the strength-to-weight ratio, with practical local applications.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss3_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State the main functional difference between a modern material and a smart material.",
+      answer: "A modern material possesses permanent, engineered properties designed for superior performance, whereas a smart material actively changes its properties in a reversible manner in response to environmental stimuli.",
+      explanation: "Modern materials (such as Kevlar or carbon fibre) remain constantly strong, light, or durable. Smart materials (such as photochromic glass) dynamically alter their behaviour (colour, shape, or conductivity) only while an external trigger is present.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain how photochromic spectacle lenses respond when a student walks from an indoor classroom into bright outdoor sunlight.",
+      answer: "The ultraviolet light present in outdoor sunlight causes the photochromic lenses to darken reversibly, transforming them into protective sunglasses.",
+      explanation: "Photochromic compounds react specifically to ultraviolet light. When the student returns indoors away from the sun, the chemical reaction reverses and the lenses become completely clear again.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe how a thermochromic strip thermometer indicates that a child has a high fever.",
+      answer: "The heat from the child's forehead warms the thermochromic strip, causing the heat-sensitive ink to change colour and highlight the specific temperature reading.",
+      explanation: "Thermochromic materials alter their light absorption properties based on temperature fluctuations, providing an immediate visual reading without requiring batteries.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Name two distinct external stimuli that can cause smart materials to change their physical properties.",
+      answer: "Temperature and light.",
+      explanation: "External stimuli are physical triggers in the environment. Smart materials can react to changes in temperature, light, moisture, electrical fields, or mechanical stress.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss2_L3/7. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Describe the process of converting a felled tree into usable, warp-free timber planks for classroom furniture.",
+      answer: "After a mature tree is felled and de-branched into a log, it is transported to a sawmill where mechanical saws convert the log into standard square-edged planks. The green timber is then seasoned using either natural air drying or artificial kiln drying to remove internal moisture and prevent warping and cracking.",
+      explanation: "Proper conversion establishes standard timber dimensions, while seasoning stabilizes the wood against shrinkage and distortion.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the key difference between obtaining natural plastics and producing synthetic plastics.",
+      answer: "Natural plastics are derived directly from living organic sources like plant cellulose, tree sap, or milk proteins, whereas synthetic plastics are manufactured by chemically refining fossil fuels like crude oil and linking monomers through polymerisation.",
+      explanation: "Natural plastics utilize pre-existing natural organic polymers, while synthetic plastics require chemical synthesis from petroleum hydrocarbons.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is raw sea sand generally unsuitable for concrete construction without prior washing?",
+      answer: "Sea sand contains sea salt, which attracts atmospheric moisture and causes corrosion of ferrous metal reinforcement rods inside the concrete, weakening the structure.",
+      explanation: "Washing sea sand with fresh water removes soluble salts that would otherwise degrade embedded metal reinforcements and compromise masonry strength.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss2_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the difference between a thermoplastic and a thermosetting plastic when both are subjected to heat.",
+      answer: "Thermoplastics soften when heated and can be repeatedly remelted and reshaped, whereas thermosetting plastics undergo a permanent chemical change upon initial heating and will not remelt upon reheating.",
+      explanation: "Thermoplastics maintain a reversible physical change under heat, while thermosetting plastics undergo irreversible chemical cross-linking that locks their form permanently.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why is manufactured plywood preferred over solid natural timber when constructing wide surfaces like tabletop drafting boards?",
+      answer: "Plywood is manufactured in large, uniform flat sheets that resist warping and splitting, whereas solid wood planks are narrower and prone to shrinking, warping, and splitting along the grain.",
+      explanation: "Cross-laminating wood veneers in plywood distributes grain strength in multiple directions, eliminating the natural grain weaknesses found in solid timber.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two reasons why pure copper, rather than mild steel, is used for household electrical wiring.",
+      answer: "Copper is non-ferrous and does not rust, and it provides much higher electrical conductivity than mild steel.",
+      explanation: "Ferrous metals like mild steel have higher electrical resistance and corrode when exposed to air and moisture, whereas copper remains corrosion-resistant and conducts current efficiently.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss2_l1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a piece of corrugated aluminium roofing sheet is classified as a resistant material, whereas a strip of aluminium foil used for packaging food is not.",
+      answer: "The corrugated aluminium sheet is rigid, stiff, and cannot be compressed or crushed by bare hands, while the thin packaging foil is pliable, flexible, and can be crumpled flat instantly.",
+      explanation: "Classification as a resistant material requires structural rigidity and resistance to bare-hand compressive force.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State two observable reasons why traditional fired clay pottery used in a Ghanaian kitchen is considered a resistant material.",
+      answer: "It has a rigid, hard structure that does not deform under hand pressure, and it cannot be compressed or folded.",
+      explanation: "Fired clay ceramics gain permanent hardness and inflexibility during the heating process.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a class tidy-up, a student claims that an empty transparent plastic water bottle is non-resistant because it can be squashed if stepped on with heavy boots. Is the student's reasoning correct? Explain your answer.",
+      answer: "The reasoning is incorrect because resistant materials are defined by their ability to resist bare-hand compression during regular handling, not mechanical destruction or heavy external crushing tools.",
+      explanation: "While plastic bottles can deform under extreme force, they are not naturally pliable like fabrics and maintain a self-supporting rigid shape under ordinary hand handling.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss1_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Summarize the pulping stage in paper production and explain why chemicals are added during this step.",
+      answer: "Pulping involves boiling wood chips in water mixed with chemicals to break down the natural binders and separate wood into loose cellulose fibres.",
+      explanation: "Chemicals dissolve the natural adhesives holding the wood chips together, allowing the plant fibres to separate into a workable slurry.",
+    ),
+    PracticeQuestion(
+      scenario: "2. How does the spinning process convert loose, short cotton fibres into durable yarn?",
+      answer: "Spinning draws out the combed fibres and twists them tightly together to create a continuous, strong cord.",
+      explanation: "Twisting generates friction between adjacent fibres, preventing them from slipping apart when pulled under tension.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain the basic mechanical difference between weaving and knitting when constructing cloth.",
+      answer: "Weaving interlaces two sets of straight yarns at right angles, whereas knitting interlocks continuous loops of yarn.",
+      explanation: "Interlaced woven yarns produce a firm and stable structure, while looped knitted yarns give fabrics flexibility and stretch.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss1_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What structural difference distinguishes solid white card from a standard sheet of bond copy paper?",
+      answer: "Solid white card is thicker, denser, and stiffer than copy paper, providing greater structural support for items like covers and packaging.",
+      explanation: "While both are made from cellulose fibres, card is produced with greater mass and multiple layers, giving it higher rigidity than thin copy paper.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the internal construction of corrugated cardboard and state why this structure is useful.",
+      answer: "Corrugated cardboard consists of a wavy, ruffled paper layer sandwiched between two flat outer sheets, providing high strength and impact resistance.",
+      explanation: "The fluted inner layer absorbs shocks and prevents crushing, making it ideal for shipping cartons.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is natural cotton fabric preferred over paper for making school uniforms?",
+      answer: "Cotton is washable, breathable, and bends repeatedly around the body without tearing, whereas paper is fragile and damaged by water.",
+      explanation: "Textile fibres are interlocked through weaving, giving fabric the durability and drape required for garments.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S2Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss1_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain what is meant by a compliant material.",
+      answer: "A compliant material is an easily manipulated, flexible material that yields predictably to pressure or force without breaking.",
+      explanation: "Compliant materials respond smoothly to simple physical actions like bending, creasing, and folding, making them easy to reshape with minimal hand effort.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State two observable physical properties that help you identify a compliant material in the workshop.",
+      answer: "High flexibility and low resistance to bending or creasing.",
+      explanation: "These materials bend easily without fracturing and do not require heavy mechanical power or extreme heat to alter their form.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a workshop cleanup, Yaw finds a piece of corrugated packaging card and a six-inch steel nail. Which one is compliant, and why?",
+      answer: "The corrugated packaging card is compliant because it can be compressed or folded by hand, whereas the steel nail is rigid and resists deformation.",
+      explanation: "Compliant materials yield to manual pressure, while metals such as steel require significant force or heat to alter their shape.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss3_l2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why avoiding open defecation directly protects the purity of local community drinking water.",
+      answer: "Avoiding open defecation prevents faecal matter from being washed into rivers, streams, and underground aquifers by surface rainwater runoff. When people use proper latrines instead, harmful waterborne bacteria like cholera and typhoid are isolated and cannot reach drinking water sources.",
+      explanation: "The answer must clearly trace how rainwater runoff carries exposed faecal pathogens into surface and groundwater supplies, and how sanitary containment halts this transmission cycle.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe two practical methods a Ghanaian family can use to reduce the amount of plastic waste generated each week.",
+      answer: "Families can carry durable woven baskets or fabric bags when shopping at markets instead of accepting single-use polythene bags. They can also reuse sturdy plastic tubs, buckets, and glass bottles for household food storage rather than discarding them after a single use.",
+      explanation: "The answer must focus on the proactive reduction and reuse of packaging materials before they become disposable waste.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain how planting shade and fruit trees around a school compound helps control soil erosion.",
+      answer: "The extensive root systems of mature trees bind the loose soil particles firmly together. Additionally, the canopy of tree leaves breaks the force of falling rain, stopping strong runoff from stripping away fertile topsoil and carving erosion gullies.",
+      explanation: "A complete explanation mentions both the root structure anchoring soil and the overhead canopy reducing direct rainwater impact.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Why is digging a backyard compost pit preferable to burning organic kitchen waste?",
+      answer: "Burning organic waste releases irritating smoke, dust, and toxic carbon gases into the atmosphere, causing respiratory distress. In contrast, composting breaks down organic food peels naturally into chemical-free fertiliser that enriches farm soil safely without air pollution.",
+      explanation: "The response must contrast the air pollution hazards of open combustion with the environmental benefits of organic recycling.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss3_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario:
+          "1. Define the term \"environmental health\" in your own words.",
+      answer: "Environmental health is the branch of public health that protects human life by preventing, controlling, and treating diseases caused by hazards in our natural and built surroundings.",
+      explanation: "A complete definition must highlight the direct link between human health and the condition of our natural and man-made living spaces.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Identify four essential pillars of environmental health that must be maintained in every town.",
+      answer: "Clean potable water supply, proper sewage and sanitation systems, regular waste management, and disease vector control.",
+      explanation: "These pillars form the basic infrastructure needed to stop the spread of communicable diseases in any community.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain how open defecation leads to the spread of cholera in a community.",
+      answer: "When human faeces are left in the open, rainwater washes disease-causing bacteria into streams, wells, and gutters. People who use this untreated water for drinking or washing foods consume the germs, which leads to cholera outbreaks.",
+      explanation: "The transmission path relies on contaminated surface run-off reaching local water sources used for domestic chores.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Describe two distinct ways poor environmental health causes child stunting.",
+      answer: "Frequent bouts of diarrhoea from dirty living conditions damage the lining of a child's intestines and prevent the absorption of essential nutrients from food, leading to chronic malnutrition and stunted growth.",
+      explanation: "Repeated gut infections rob growing bodies of nutrition, resulting in permanent developmental delays.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S1Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss2_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain two vital reasons why students must wear wrap-around safety goggles when cutting or shaping timber in a school workshop.",
+      answer: "First, safety goggles shield the eyes from airborne wood chips, splinters, and fine sawdust thrown off by cutting blades. Second, they protect the eyes from accidental contact with chemical splashes from glues, stains, or finishes.",
+      explanation: "Eyes are delicate organs easily damaged by mechanical impact from flying debris or chemical irritation from workshop solvents.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State why liquefied petroleum gas cylinders should never be stored directly under intense sunlight or inside unventilated cupboards.",
+      answer: "High ambient heat causes the gas pressure inside the cylinder to expand dangerously, while an unventilated cupboard allows any minor gas leak to build up into a concentrated explosive pocket that can ignite from a small spark.",
+      explanation: "Gas expands under direct thermal heat, and without continuous ventilation, fugitive fuel gas cannot dissipate into the atmosphere, creating a catastrophic explosion hazard.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe two maintenance checks a craft student must perform on an electric hand drill before commencing drilling operations.",
+      answer: "The student must inspect the power cord to verify that the insulation is intact without exposed copper wires, and verify that the drill bit is sharp, unbroken, and tightly secured inside the chuck with the chuck key removed.",
+      explanation: "Damaged power cords cause electric shocks, while a loose or dull bit can fly out of the chuck or bind violently in the workpiece.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S1Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss2_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a worker who has worked for twelve continuous hours without rest is more likely to cause a cutting accident with an electric saw than a well-rested worker.",
+      answer: "Prolonged work without rest causes physical and mental fatigue, which drastically reduces alertness, slows down muscle reaction times, and impairs visual focus. As a result, the worker makes careless errors and fails to react quickly when timber binds or slips near the spinning blade.",
+      explanation: "Fatigue dulls the nervous system. When handling dangerous equipment, immediate reflexes are essential to prevent hands from slipping into moving parts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the specific difference between a burn and a scald that could occur in a school food laboratory.",
+      answer: "A burn is caused by dry heat, such as skin touching an open gas flame or a hot metal saucepan, whereas a scald is caused by moist heat, such as boiling water, hot soup, or bubbling cooking oil splashing onto the skin.",
+      explanation: "Both cause tissue damage, but their physical sources differ; burns come from dry heat sources while scalds originate from heated liquids or hot steam.",
+    ),
+    PracticeQuestion(
+      scenario: "3. A woodwork room has no open windows and operates with a single dim bulb hanging from the ceiling. State two distinct hazards this room poses to students cutting wood.",
+      answer: "First, the dim lighting prevents students from clearly seeing the cutting line and blade position, leading to hand cuts. Second, the poor ventilation traps choking sawdust and chemical varnish fumes, causing dizziness and breathing difficulties.",
+      explanation: "Poor illumination obscures danger zones on cutting equipment, while inadequate airflow allows hazardous airborne particles and toxic vapours to accumulate to dangerous levels.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S1Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss1_L3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the concept of cross-contamination and provide one practical example of how it occurs during food preparation.",
+      answer: "The transfer of harmful bacteria from raw foods onto ready-to-eat items, such as cutting vegetables using an unwashed raw meat board.",
+      explanation: "When raw meat or fish containing bacteria touches utensils, hands, or surfaces that subsequently touch items eaten raw, dangerous pathogens spread to unsuspecting diners.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how sun drying preserves staple Ghanaian crops like maize grains and cassava chips over extended months.",
+      answer: "Sun drying removes moisture, which denies bacteria and fungi the water they need to live and multiply.",
+      explanation: "Decay-causing micro-organisms require available moisture to carry out metabolism; when food is completely dehydrated, microbial action ceases entirely.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two distinct protective functions achieved when fresh fish is preserved using the smoking method.",
+      answer: "Heat removes internal moisture and chemical smoke deposits an antimicrobial surface barrier.",
+      explanation: "Thermal energy dries the inner flesh while active compounds in the rising wood smoke kill surface bacteria and deter insect pests.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S1Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss1_l2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why washing hands with plain water alone is inadequate for removing disease-causing organisms.",
+      answer: "Plain water cannot dissolve fatty oils that trap germs on skin; soap is needed to break them down.",
+      explanation: "Soap contains chemical agents that bind to grease, oils, and bacteria, allowing running water to wash them completely away from the skin surface.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State two specific dangers of inserting sharp objects like matchsticks or safety pins into the ear canal to remove wax.",
+      answer: "Puncturing the eardrum and causing dangerous bacterial infections inside the ear canal.",
+      explanation: "Sharp foreign objects easily tear the delicate membrane of the eardrum, risking permanent hearing damage and introducing harmful microbes into the inner ear canal.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe why brushing teeth at night before bed is considered essential for oral hygiene.",
+      answer: "It clears away lingering food debris so nocturnal bacteria cannot produce tooth-eroding acids.",
+      explanation: "Saliva flow slows down while we sleep, allowing leftover food particles to feed bacteria that produce decay-causing acids throughout the night.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S1Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss1_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why good health is described as a complete state of well-being rather than just the absence of illness.",
+      answer: "Good health requires physical, mental, and social well-being working together, not just having a body free from disease.",
+      explanation: "A person may not have a medical disease like malaria, but if they are constantly stressed or unable to interact peacefully with others, they are not completely healthy.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State two direct consequences that a junior high school pupil may face as a result of poor personal hygiene habits.",
+      answer: "Contracting preventable diseases and missing school lessons due to illness.",
+      explanation: "Failing to maintain hygiene allows harmful germs to enter the body, causing sickness that leads to school absenteeism and academic decline.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Identify three everyday lifestyle practices that help maintain a strong physical body.",
+      answer: "Eating balanced meals, exercising regularly, and getting enough rest each night.",
+      explanation: "Nutritious food supplies bodily energy, regular exercise builds muscular strength, and proper sleep enables the immune system to repair tissues.",
+    ),
+  ],
+);
+
 final PracticeModel creativeArtsJhs3S2Ss3Lesson3PracticeData = PracticeModel(
   audioPath: "assets/audio/CreativeArts/JHS3_s2_ss3_L3/6. GUIDED PRACTICE.mp3",
   questions: [

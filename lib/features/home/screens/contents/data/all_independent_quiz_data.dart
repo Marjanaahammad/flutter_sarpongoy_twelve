@@ -1,5 +1,1572 @@
 import '../model/independent_practice_model.dart';
 
+final IndependentPracticeModel careerJhs1S4Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s4_ss1_l3/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which of the following items is classified as a compliant construction material?",
+          options: [
+            "Galvanised iron",
+            "Foldable paper",
+            "Cast concrete",
+            "Hardwood board",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Foldable paper bends and folds easily with little force, making it a compliant material.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the primary function of preparing a scaled mock-up during the design process?",
+          options: [
+            "To paint surfaces",
+            "To test geometry",
+            "To generate heat",
+            "To sell prototypes",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "A scaled mock-up lets a designer test the shape, dimensions, and proportions of a design before final construction.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which material requires industrial hand saws, drills, and chisels to shape?",
+          options: [
+            "Newsprint paper",
+            "Plastic food film",
+            "Light cardboard",
+            "Solid teak timber",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Solid teak timber is a rigid, resistant material that requires cutting and shaping tools such as saws, drills, and chisels.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What engineering step follows testing a prototype and finding a sagging shelf beam?",
+          options: [
+            "Design modification",
+            "Immediate marketing",
+            "Tool sharpening",
+            "Paint application",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Finding a sagging shelf beam calls for modifying the design to improve its strength or support before final construction.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S4Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s4_ss1_L2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which observable sign of structural failure represents a thin, jagged opening appearing in a wall or pillar?",
+          options: [
+            "A straight notch",
+            "A narrow bevel",
+            "A jagged crack",
+            "A smooth groove",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "A crack is a thin, irregular opening in a structural member that can indicate stress or movement.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What type of force is exerted by a stationary overhead water tank sitting on top of a concrete roof slab?",
+          options: [
+            "A dynamic thrust",
+            "A static force",
+            "A kinetic shear",
+            "A twisting gale",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A stationary water tank applies a load at a fixed position on the roof slab, making it a static force.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which factor is a direct human-caused origin of building collapse during construction?",
+          options: [
+            "Torrential rain",
+            "Poor design work",
+            "Soil composition",
+            "Seasonal warmth",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Poor design work is a human error that can leave structural members too weak to carry the expected loads.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the effect of moving floodwaters rushing against the base of a timber bridge?",
+          options: [
+            "An internal static dead load",
+            "A resting gravitational mass",
+            "A stable balancing counterweight",
+            "An external dynamic moving force",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Moving floodwater applies changing external forces to the bridge, so it acts as a dynamic load.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S4Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s4_ss1_L1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which of the following items is an example of a natural shell structure?",
+          options: [
+            "Steel electricity pylon",
+            "Reinforced beam bridge",
+            "Hard tortoise shell",
+            "Wooden roof framework",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "A tortoise shell is a natural outer casing that encloses and protects the animal, making it a natural shell structure.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What makes the triangle the most effective geometric shape for building trusses?",
+          options: [
+            "It uses fewer parts",
+            "It resists distortion",
+            "It looks decorative",
+            "It reduces base mass",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "A triangle resists distortion because its shape cannot change without changing the length of a member, helping a truss remain rigid.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which structure relies primarily on an open skeleton of slender connected members to bear weight?",
+          options: [
+            "Metal drink container",
+            "Plastic storage bucket",
+            "Motorcar body exterior",
+            "Construction tower crane",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "A construction tower crane carries loads through an open framework of connected members, making it a frame structure.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the main function of an architectural structure in the built environment?",
+          options: [
+            "To carry applied loads",
+            "To trap warm ventilation",
+            "To generate electric power",
+            "To reduce material density",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "An architectural structure carries applied loads and transfers them safely to its supports and foundations.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S3Ss5Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s3_ss5_L1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which clear liquid finish is applied to seasoned timber to bring out its natural grain without hiding the wood colour beneath?",
+          options: [
+            "White spirit liquid",
+            "Gloss emulsion paint",
+            "Clear timber varnish",
+            "Thin plaster paste",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Clear timber varnish forms a transparent protective coating that reveals the natural grain and colour of the wood.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What solvent must be mixed with standard emulsion paint to adjust its thickness for coating interior classroom walls?",
+          options: [
+            "Plain clean water",
+            "Mineral turpentine",
+            "Clear gloss lacquer",
+            "Refined kerosene oil",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Standard emulsion paint is water-based, so plain clean water is used to adjust its thickness.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which building finish is prepared by mixing a fine dry white gypsum powder with water to create decorative ceiling mouldings?",
+          options: [
+            "Glazed ceramic tiles",
+            "Plaster of Paris",
+            "Two-pack epoxy resin",
+            "Polished wall marble",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Plaster of Paris is a fine white gypsum-based powder that forms a mouldable paste with water and sets into decorative shapes.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the primary purpose of applying a folded hem to the lower border of a newly sewn cotton skirt?",
+          options: [
+            "To soften fabric drape",
+            "To stiffen the pocket",
+            "To stop threads pulling",
+            "To prevent edge fraying",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Folding and stitching the hem encloses the raw fabric edge and prevents its threads from fraying.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. Which item serves as an appropriate savoury garnish to add bright colour and crisp texture to a bowl of pale rice?",
+          options: [
+            "Thin tomato slices",
+            "Powdered white sugar",
+            "Sweet citrus icing",
+            "Dried black currants",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Thin tomato slices provide a bright colour and fresh texture that complement savoury rice.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S3Ss4Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss4_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question:
+          "1. Which item is classified as a mechanical kitchen essential?",
+      options: [
+        "Food mixer appliance",
+        "Stainless saucepan",
+        "Deep stockpot lid",
+        "Wooden cutting board",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A food mixer uses moving parts and a motor to mix ingredients, making it a mechanical kitchen essential.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Into which category do kitchen cupboards and freezers fall?",
+      options: [
+        "Small handheld utensils",
+        "Large kitchen essentials",
+        "Disposable serving items",
+        "Mechanical cutting gear",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Cupboards and freezers are bulky fixtures or appliances that occupy dedicated kitchen space, so they are large essentials.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which set consists strictly of small kitchen essentials?",
+      options: [
+        "Refrigerator and wooden spoon",
+        "Cooker, broiler, and stockpot",
+        "Can opener, spoon, and peeler",
+        "Blender, food mixer, and pan",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "A can opener, spoon, and peeler are compact handheld tools that can be stored in drawers or on racks.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is an electric blender grouped under mechanical essentials?",
+      options: [
+        "It uses gas cylinders to warm food",
+        "It sits permanently on stone floors",
+        "It serves soup directly at tables",
+        "It relies on motor-driven blades",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "An electric blender uses a motor to rotate its blades and process ingredients, making it a mechanical essential.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+careerJhs1S3Ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss4_l1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which statement best describes kitchen essentials?",
+      options: [
+        "Luxury machines rarely used in family kitchens",
+        "Indispensable tools needed to make and serve food",
+        "Expensive tableware reserved only for celebrations",
+        "Decorative items that keep modern kitchens colourful",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Kitchen essentials are indispensable tools and equipment used to prepare, cook, and serve food.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which kitchen item is specifically designed to drain boiled food?",
+      options: ["Colander", "Saucepan", "Stockpot", "Spatula"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A colander has holes that let cooking water drain away while holding the solid food inside.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. Why do cooks use a cutting board when slicing fresh vegetables?",
+      options: [
+        "To absorb water and speed up cooking times on stoves",
+        "To protect knives from contact with cold water bowls",
+        "To preserve tabletop surfaces and maintain hygiene",
+        "To make ingredients taste sweeter before boiling pots",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A clean cutting board protects the tabletop from knife cuts and provides a hygienic surface for preparing vegetables.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which item belongs to the category of dining cutlery?",
+      options: ["Saucepan", "Peeler", "Colander", "Fork"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A fork is dining cutlery used when eating, while saucepans, peelers, and colanders are used in food preparation or cooking.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S3Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s3_ss3_l2/8. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What initial step is required to form the starting loop on a crochet hook shank?",
+          options: [
+            "Make a slip knot",
+            "Drive an anchor pin",
+            "Form a double seam",
+            "Melt the tail end",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "A slip knot forms an adjustable starting loop that fits around the crochet hook shank.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. How should seasoned meat be treated at the start of making a traditional stew?",
+          options: [
+            "Simmered in water",
+            "Boiled with starch",
+            "Sautéed with flour",
+            "Seared in hot oil",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Searing seasoned meat in hot oil browns its surface and develops flavour for the stew.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why should wire nails never be positioned in a direct straight line along timber grain?",
+          options: [
+            "It increases rust",
+            "It splits the wood",
+            "It bends the shank",
+            "It loosens the grip",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Nails driven in a straight line along the same grain force the fibres apart and can split the timber.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What must be done to smooth plastic faces before applying a two-part epoxy adhesive?",
+          options: [
+            "Apply water spray",
+            "Polish with oil",
+            "Sand the surfaces",
+            "Heat with flame",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Sanding roughens smooth plastic surfaces, giving the epoxy a better surface to grip.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S3Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s3_ss3_L1/8. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which tool is specially designed to nudge wooden joints together without leaving impact marks on the timber?",
+          options: [
+            "Claw hammer",
+            "Wooden mallet",
+            "Tommy bar rod",
+            "Riveting punch",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A wooden mallet delivers softer blows that bring wooden joints together without denting the timber surface.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What food ingredient acts as an elastic protein binder when flour and water are kneaded together into dough?",
+          options: ["Gluten", "Gelatin", "Tapioca", "Pectin"],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Gluten forms an elastic protein network as flour and water are kneaded, binding the dough together.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which mechanical fastener requires a pre-drilled through-hole and a matching nut to secure metal components?",
+          options: [
+            "Solid pop rivet",
+            "Threaded bolt",
+            "Round wire nail",
+            "Wood countersink",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "A threaded bolt passes through aligned holes and is tightened with a matching nut to clamp metal components together.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which adhesive comes packaged as two separate liquid components that must be blended together before application?",
+          options: [
+            "PVA paper glue",
+            "Contact rubber",
+            "Starch adhesive",
+            "Two-part epoxy",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Two-part epoxy consists of a resin and a hardener that must be mixed to begin the curing reaction.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S3Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s3_ss2_l3/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Why should lubricating oil never be applied to the cutting surfaces of files or rasps?",
+          options: [
+            "It softens the hardened steel plate",
+            "It causes metal filings to clog teeth",
+            "It causes the wooden handle to split",
+            "It turns the cutting edge brittle",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Oil holds metal filings between the teeth of files and rasps, causing clogging and reducing their cutting action.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. How should a bench hand plane be placed on a workbench when pausing during woodwork?",
+          options: [
+            "Sole down on a clean oilstone",
+            "Resting on its side on the bench",
+            "Upside down with handle hanging",
+            "Clamped face down in a bench vice",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Resting the plane on its side keeps its exposed cutting edge from striking the bench and becoming damaged.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which natural local abrasive is prepared by pounding and sifting to polish tarnished metals?",
+          options: [
+            "Clean eggshell powder",
+            "Crushed red clay soil",
+            "Dried cassava starch",
+            "Coarse sea salt grains",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Clean eggshells are dried, pounded into fine powder, and sifted to prepare a local scouring abrasive.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the safest way to store sharp woodworking firmer and mortise chisels?",
+          options: [
+            "Stacked together in a metal bucket",
+            "Piled loosely in a deep table drawer",
+            "Driven into a damp wooden log floor",
+            "Stored in a slotted rack or cloth roll",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "A slotted rack or cloth roll separates chisels and protects their sharp edges from collisions and accidental contact.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S3Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s3_ss2_l2/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which culinary cutting method cuts vegetables into small, uniform square cubes so that they cook at the same rate?",
+          options: ["Mincing", "Dicing", "Grating", "Slicing"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Dicing cuts vegetables into uniform cubes, helping the pieces cook evenly at the same rate.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. How should a carpenter begin a straight cut when using a tenon saw on timber?",
+          options: [
+            "Push forward with heavy body weight",
+            "Draw backward to score a light notch",
+            "Strike the timber end with a mallet",
+            "Saw rapidly with short, choppy strokes",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Drawing the saw backward lightly creates a starting notch that guides the blade along the intended cutting line.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why should a firmer chisel be pushed only by hand strength when paring wooden joints?",
+          options: [
+            "To shave off thin, controlled curls",
+            "To split the wood along its grain",
+            "To drive the blade deeply into timber",
+            "To protect the metal from rusting",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Hand pressure gives controlled, shallow cuts that shave thin curls from the joint without removing too much wood.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What action should you take on the backward return stroke when using an engineer's file on steel?",
+          options: [
+            "Apply twice as much downward force",
+            "Drag the file teeth across the face",
+            "Strike the metal edge with the tip",
+            "Release pressure and lift slightly",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Releasing pressure and lifting slightly on the return stroke protects the file teeth, which cut on the forward stroke.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S3Ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s3_ss2_L1/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which tool is specially designed to cut long boards of timber across the natural wood grain?",
+      options: ["Tenon saw", "Cross-cut saw", "Coping saw", "Rip saw"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A cross-cut saw has teeth designed to sever wood fibres across the grain.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary function of a French curve in a sewing workshop?",
+      options: [
+        "Trimming heavy woolen fabrics",
+        "Drawing curved pattern outlines",
+        "Opening stitched machine seams",
+        "Snapping threads behind buttons",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "A French curve helps draw smooth curved outlines on garment patterns, such as necklines and armholes.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which workshop tool has individual raised teeth used for the coarse, rapid shaping of wooden curves?",
+      options: ["Rasp file", "Hand file", "Cold chisel", "Spoke shave"],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "A rasp file has individual raised teeth that remove wood quickly to form rough curved shapes.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which piece of equipment is used on a building site to form damp sandcrete into solid rectangular blocks?",
+      options: ["Firmer chisel", "Cold chisel", "Bolster chisel", "Mould box"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "A mould box holds and shapes damp sandcrete into rectangular blocks before they are removed and cured.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S3Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s3_ss1_l2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which cleaning agent is best suited to polish and remove oxidation from the brass face of a woodwork try square?",
+          options: [
+            "Rough sandpaper",
+            "Liquid brass polish",
+            "Diluted vinegar wash",
+            "Machine motor oil",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Liquid brass polish is formulated to remove oxidation and polish brass surfaces without the harsh abrasion of rough sandpaper.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the safest way to clean sticky food residue off a plastic liquid measuring jug without damaging its markings?",
+          options: [
+            "Coarse metal wool",
+            "Warm soapy water",
+            "Heated open flame",
+            "Concentrated acid",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Warm soapy water loosens sticky food residue while gentle cleaning protects the plastic jug and its measuring marks.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why is it essential to wipe in the direction of the metal grain when cleaning a stainless steel rule?",
+          options: [
+            "To prevent ugly surface streaks",
+            "To expand engraved intervals",
+            "To darken steel metal numbers",
+            "To harden internal structure",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Wiping along the metal grain helps prevent surface streaks and keeps the rule clean and readable.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. How often should wooden tool handles and wooden try square stocks receive a protective coat of oil?",
+          options: [
+            "After every cut",
+            "Every single week",
+            "At least once a year",
+            "Never at any time",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Applying a protective coat of oil at least once a year helps prevent wooden handles and stocks from drying out and cracking.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. What happens to a carbon steel scriber or divider if it is stored in a damp workshop cupboard without oil?",
+          options: [
+            "The tip stays sharper",
+            "The legs become longer",
+            "The parts turn brittle",
+            "The tool forms red rust",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Moisture and oxygen react with unprotected carbon steel to form red rust, damaging the tool surface and marking points.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S2Ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss4_l1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following best defines a food commodity?",
+      options: [
+        "Any hot cooked meal ready to be eaten",
+        "A cooked dessert prepared for guests",
+        "A raw agricultural ingredient for cooking",
+        "An artificial flavouring added to water",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "A food commodity is a raw agricultural ingredient used to prepare a meal.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which of the following commodities comes from an animal source?",
+      options: ["Cowpeas", "Fresh mutton", "Ripe mango", "Brown rice"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation:
+          "Fresh mutton is meat from sheep, so it comes from an animal source.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which of these food items is sourced entirely from plants?",
+      options: ["Garden eggs", "Boiled egg", "Whole milk", "Smoked fish"],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Garden eggs are vegetables grown on plants, while eggs, milk, and fish come from animals.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What primary function do energy-giving food commodities serve in the body?",
+      options: [
+        "They replace damaged skeletal bones",
+        "They supply fuel for daily activities",
+        "They eliminate all daily thirst pangs",
+        "They cure serious bacterial illnesses",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Energy-giving foods supply fuel for daily activities such as learning, walking, and playing sports.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S2Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s2_ss3_l2/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. When evaluating a material classification during a group discussion, what indicates that a material is modern rather than smart?",
+          options: [
+            "It changes its colour every time sunlight hits it.",
+            "It maintains fixed high-performance properties at all times.",
+            "It automatically bends when exposed to water vapour.",
+            "It alters its shape when dipped into warm water.",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Modern materials are engineered for fixed, enhanced properties, while smart materials respond reversibly to environmental stimuli.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which communication practice is most important when presenting technical findings to a class?",
+          options: [
+            "Using vague descriptions and casual everyday slang.",
+            "Ensuring clear communication.",
+            "Making reports look longer on paper.",
+            "Avoiding learning new scientific ideas.",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Clear communication helps the audience understand technical findings accurately and prevents misunderstandings.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. In a cost-benefit analysis of modern materials for a Ghanaian manufacturing business, what primary factor must be balanced?",
+          options: [
+            "The musical background of the factory workers.",
+            "The exact weather forecast for the next three hours.",
+            "Evaluating problem-solving.",
+            "The colour of the packaging boxes used for shipping.",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Evaluating how a material solves the production problem helps a business judge whether its performance benefits justify its cost.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which of the following describes a reversible property change suitable for discussion in smart materials?",
+          options: [
+            "Wood burning permanently into grey ash.",
+            "Iron sheets rusting away in heavy rainy seasons.",
+            "Photochromic glass darkening outside and clearing indoors.",
+            "Plastic buckets melting permanently over an open fire.",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Photochromic glass returns to its clear state indoors after darkening in sunlight, demonstrating a reversible response to light.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S2Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s2_ss3_L1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which statement correctly describes modern materials?",
+          options: [
+            "They change colour whenever temperature rises.",
+            "They have permanent, superior engineered qualities.",
+            "They must dissolve completely when placed in water.",
+            "They bend and twist whenever exposed to humidity.",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Modern materials are engineered to provide enhanced properties such as strength, lightness, or durability that remain stable during ordinary use.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What key feature distinguishes smart materials from traditional building materials?",
+          options: [
+            "They stay unchanged in every environmental condition.",
+            "They can only be manufactured from natural tree bark.",
+            "They react reversibly to changes in their environment.",
+            "They permanently lose their shape after single use.",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Smart materials respond to environmental stimuli by changing properties reversibly, allowing them to return to their previous state when the stimulus is removed.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which smart material changes its visible colour when exposed to sunlight?",
+          options: [
+            "Photochromic lens",
+            "High-carbon steel",
+            "Pure copper wire",
+            "Graphene insulator",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Photochromic lenses darken in response to ultraviolet light in sunlight and become clear again when the ultraviolet exposure is removed.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What external stimulus causes a hydrochromic print to alter its visual appearance?",
+          options: [
+            "Strong magnetic force",
+            "High mechanical stress",
+            "Contact with moisture",
+            "Direct exposure to light",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Hydrochromic prints change their appearance when exposed to water or moisture and can return to their original appearance as they dry.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. Why is Kevlar preferred over structural steel in bulletproof security vests?",
+          options: [
+            "It dissolves rapidly when exposed to high rainfall.",
+            "It is far heavier and provides much thicker bulk.",
+            "It changes its colour whenever danger is detected.",
+            "It is lighter and offers much greater strength.",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Kevlar has a high tensile strength relative to its weight, allowing protective vests to absorb impact while remaining lighter than comparable steel protection.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S2Ss2Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s2_ss2_L3/8. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which natural material is used to manufacture table tennis balls and celluloid products?",
+          options: [
+            "Crude mineral petroleum",
+            "Mined limestone rock",
+            "Natural plant cellulose",
+            "Quicklime kiln powder",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Plant cellulose is processed to make celluloid, which has traditionally been used for table tennis balls and other moulded products.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the primary industrial purpose of seasoning timber before use?",
+          options: [
+            "To turn hardwood into soft pine",
+            "To remove internal sap and water",
+            "To increase the log bark weight",
+            "To soften wood for hand folding",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Seasoning removes moisture from freshly cut timber, reducing shrinkage, warping, and cracking before the wood is used.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which sequence represents the correct order of extracting metals from the earth?",
+          options: [
+            "Mining ore, crushing and washing, smelting",
+            "Smelting, mining ore, crushing and washing",
+            "Seasoning, mining ore, chemical grading",
+            "Crushing ore, polymerisation, air felling",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Ore is mined first, then crushed and washed to prepare it for smelting, where heat is used to extract the metal.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. How is quicklime produced for building plaster?",
+          options: [
+            "By freezing wet river sand",
+            "By sawing granite stone blocks",
+            "By burning limestone in kilns",
+            "By refining raw crude oil",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Heating limestone strongly in a kiln releases carbon dioxide and produces quicklime, which can then be slaked for use in plaster.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S2Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s2_ss2_L2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question:
+              "1. Which of the following plastics is a thermosetting plastic?",
+          options: [
+            "Urea formaldehyde used for plug tops",
+            "Polyethylene used for carrier bags",
+            "Acrylic used for display panels",
+            "Polyvinyl chloride used for pipes",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Urea formaldehyde is a thermosetting plastic that sets permanently and cannot be remelted, unlike polyethylene, acrylic, and polyvinyl chloride.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which category of wood includes odum and mahogany?",
+          options: [
+            "Manufactured board",
+            "Softwood timber",
+            "Hardwood timber",
+            "Synthetic veneer",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Odum and mahogany are natural hardwood timbers obtained from broad-leaved flowering trees.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which property clearly separates a ferrous metal from a non-ferrous metal?",
+          options: [
+            "High electrical resistance",
+            "Presence of iron content",
+            "Ability to melt at heat",
+            "Low weight and density",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Ferrous metals contain iron, while non-ferrous metals do not contain iron as their principal constituent.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What type of material is bronze?",
+          options: [
+            "Pure non-ferrous metal",
+            "Ferrous casting alloy",
+            "Shape memory polymer",
+            "Copper and tin alloy",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Bronze is an alloy made by combining copper and tin to improve properties such as hardness and strength.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S2Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s2_ss2_l1/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which property correctly identifies an object made from a resistant material?",
+          options: [
+            "It can be folded into different shapes by hand",
+            "It is soft and easily squeezed flat by fingers",
+            "It resists bare-hand compression and bending",
+            "It stretches smoothly when pulled at both ends",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Resistant materials are rigid and resist compression and bending by bare hands.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which of the following items belongs to the ceramics group of resistant materials?",
+          options: [
+            "An earthenware bowl used for grinding pepper",
+            "A carved wooden spoon used for stirring soup",
+            "An aluminium pot used for boiling fresh rice",
+            "A plastic jerrycan used for carrying water",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "An earthenware bowl is made from fired clay, making it a hard, rigid ceramic.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. A carpenter in Tamale chooses mahogany over soft cardboard for a tabletop because mahogany is:",
+          options: [
+            "highly pliable and easy to fold",
+            "stiff, rigid, and load-bearing",
+            "transparent and simple to cut",
+            "soft and quick to crumple down",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Mahogany is a rigid hardwood that can support the weight placed on a tabletop without easily bending or crumpling.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which item is an example of a non-resistant material?",
+          options: [
+            "A cast iron frying pan",
+            "A pane of window glass",
+            "A cotton handkerchief",
+            "A block of odum wood",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "A cotton handkerchief is flexible and can be folded or crumpled easily by hand, unlike rigid iron, glass, and wood.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S2Ss1Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s2_ss1_L3/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What initial mechanical step prepares harvested logs for the pulping process?",
+      options: [
+        "Starching the log core",
+        "Weaving the bark strips",
+        "Felling and wood chipping",
+        "Extruding molten plastic",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Trees are felled and the harvested logs are chipped into smaller pieces so that they can be processed into pulp.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which machine part is used to squeeze water out of wet paper pulp slurry?",
+      options: [
+        "Heated heavy rollers",
+        "Rotating loom shuttle",
+        "Serrated carding brush",
+        "Wooden twisting bobbin",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Heavy rollers press the wet pulp mat to squeeze out water, while heated rollers help dry the paper.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. What happens during the carding stage of raw cotton processing?",
+      options: [
+        "Fabrics are dyed with dark ink.",
+        "Fibres are cleaned and aligned.",
+        "Yarns are woven into sheets.",
+        "Chemicals are boiled to pulp.",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Carding separates, cleans, and aligns cotton fibres to prepare them for spinning into yarn.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which process produces fabric by looping yarns together using needles?",
+      options: ["Calendering", "Chipping", "Weaving", "Knitting"],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Knitting uses needles to form interlocking loops of yarn, creating a flexible fabric.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S2Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s2_ss1_L2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which compliant material contains an internal ruffled or fluted core layer?",
+          options: [
+            "Standard newsprint",
+            "Bleached cotton yarn",
+            "Solid white board card",
+            "Corrugated cardboard",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Corrugated cardboard has a wavy, fluted paper core between flat outer sheets, giving it strength and cushioning.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the primary practical use of thin white copy paper in schools?",
+          options: [
+            "Constructing rigid tables",
+            "Printing exam question sheets",
+            "Sewing protective work aprons",
+            "Cushioning delicate glass bottles",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Thin white copy paper provides a smooth surface for printing and photocopying school documents such as exam question sheets.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which material is classified as a synthetic textile?",
+          options: ["Calico", "Poplin", "Nylon", "Linen"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Nylon is manufactured through chemical synthesis and belongs to the synthetic textile group.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which property explains why cotton is suitable for warm weather clothing?",
+          options: [
+            "High rigidity",
+            "Heat trapping",
+            "Water absorption",
+            "Magnetic grip",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Cotton absorbs perspiration, helping to keep the wearer comfortable in warm weather.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S2Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s2_ss1_l1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question:
+              "1. Which of the following materials is classified as compliant?",
+          options: ["Iron rod", "Newsprint", "Stone tile", "Glass sheet"],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Newsprint is flexible paper that bends and folds easily with light hand pressure.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What primary characteristic allows paper to be classified as a compliant material?",
+          options: [
+            "It conducts electric current rapidly.",
+            "It resists heavy water pressure easily.",
+            "It folds and bends with minimal manual force.",
+            "It remains rigid when hit with a wooden mallet.",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Compliant materials yield to light manual force, so paper can be folded and bent easily.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which pair contains only compliant materials?",
+          options: [
+            "Khaki fabric and cardboard",
+            "Mild steel and paper tissue",
+            "Timber beam and cotton wool",
+            "Concrete and manila card",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Khaki fabric and cardboard both bend and fold easily, while the other pairs include a rigid material.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Why is compliant material widely used for grocery packaging bags in Ghanaian markets?",
+          options: [
+            "It provides high magnetic strength.",
+            "It is heavier than structural timber.",
+            "It resists sharp cutting tools permanently.",
+            "It is lightweight and easy to fold around items.",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Lightweight, flexible materials can fold around goods to make packaging that is easy to carry.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S1Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s1_ss3_l2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which action represents the best preventive method for protecting community rivers?",
+          options: [
+            "Raking dry autumn leaves into swift river currents",
+            "Dumping household vegetable peels into deep water",
+            "Fencing stream banks to stop chemical runoff and trash",
+            "Emptying untreated sewage into riverbeds at nighttime",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Protecting stream banks helps prevent dumping and keeps trash and polluted runoff away from community rivers.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the most effective way for shoppers to minimize single-use plastic waste?",
+          options: [
+            "Carrying durable woven bags for daily market purchases",
+            "Requesting double layers of polybags for small purchases",
+            "Burning used plastic carrier bags inside compound pits",
+            "Throwing empty sachet wraps into unpaved gutter channels",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Durable woven bags can be used repeatedly, reducing the need for disposable plastic bags.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why should communities establish strict penalties against open defecation?",
+          options: [
+            "It makes open farmland difficult to plough with tractors",
+            "It attracts harmless wild birds to local village paths",
+            "It prevents deadly waterborne pathogens from spreading",
+            "It reduces the total commercial value of wooden pit slabs",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Discouraging open defecation reduces exposed faecal matter that can contaminate drinking water and spread disease.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which process safely transforms vegetable peels and eggshells into rich plant food?",
+          options: [
+            "Burning them with dried wood fuel",
+            "Dumping them into storm gutters",
+            "Sealing them in thick plastic wraps",
+            "Composting them in covered trenches",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Composting breaks down organic kitchen waste into nutrient-rich material that improves soil for plants.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. How do mature trees planted on a sloped compound safeguard school buildings?",
+          options: [
+            "By drawing excessive rain from skies",
+            "By anchoring soil to prevent erosion",
+            "By warming daytime air temperatures",
+            "By softening concrete stone blocks",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Tree roots bind soil together, reducing erosion that could undermine the ground around school buildings.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S1Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss3_l1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following best defines potable water?",
+      options: [
+        "Water collected straight from an open farm ditch",
+        "Water that is safe for human drinking and cooking",
+        "Water that has visible particles floating inside",
+        "Water preserved solely for heavy factory machinery",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Potable water is water that is safe for people to drink and use in cooking.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary role of sanitation in an environmental health plan?",
+      options: [
+        "Managing safe removal of human urine and faeces",
+        "Increasing the amount of chemical sprays on farms",
+        "Spraying decorative paints on public office walls",
+        "Constructing large shopping malls along highways",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Sanitation safely manages human urine and faeces to prevent contamination and the spread of disease.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which disease is directly caused by inhaling smoky air and fine dust?",
+      options: ["Cholera", "Typhoid", "Asthma", "Amoebiasis"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Smoke and fine dust irritate the airways and can trigger asthma symptoms and attacks.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. How does unmanaged domestic waste create a major health hazard?",
+      options: [
+        "It makes neighbourhood roads look excessively neat",
+        "It attracts disease vectors like rats and houseflies",
+        "It cools down high outdoor ambient temperatures",
+        "It speeds up the natural drying of moist farm soil",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Unmanaged domestic waste provides food and breeding places for rats and houseflies that carry germs to people.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. Which environmental hazard is most responsible for chronic child stunting?",
+      options: [
+        "Heavy vehicle traffic along commercial streets",
+        "Mild noise from lively community football parks",
+        "Frequent waterborne illnesses causing diarrhoea",
+        "Painting wooden tables with dark waterproof varnish",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Repeated diarrhoea from waterborne illnesses reduces nutrient absorption and can lead to chronic malnutrition and stunted growth.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S1Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s1_ss2_L2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which item of personal protective gear is most essential for shielding feet from heavy falling timber?",
+          options: [
+            "Thick woollen stockings",
+            "Soft rubber sports shoes",
+            "Open leather work sandals",
+            "Steel-toe leather boots",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Steel-toe leather boots protect the toes and feet from impact when heavy timber falls.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the safest method for storing sharp chisels and chef knives in practical rooms?",
+          options: [
+            "Hanging them on slotted wall racks with sharp blades pointing downward",
+            "Stacking them together inside an open metal box near the classroom doorway",
+            "Placing them inside deep desk drawers covered under old scrap paper sheets",
+            "Leaving them lying along the edge of work tables ready for immediate use",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Slotted wall racks hold sharp tools securely in designated positions, reducing accidental contact with cutting edges.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why must workshop chemicals like paint thinners always remain in labelled containers?",
+          options: [
+            "To prevent the liquid chemicals from freezing during cold harmattan mornings",
+            "To avoid accidental poisoning, chemical misuse, or dangerous contact with heat",
+            "To help the chemical liquid evaporate quickly into the workshop atmosphere",
+            "To ensure that students can mix different varnishes without teacher approval",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Labels identify chemicals and their hazards so users can handle and store them correctly, reducing poisoning, misuse, and fire risks.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which action represents a safe preventive habit when working around high-speed machinery?",
+          options: [
+            "Wearing loose, oversized long garments with wide flowing neckties",
+            "Leaving machines running unattended while stepping out for a brief rest",
+            "Fastening loose clothing and securing long hair beneath a protective cap",
+            "Adjusting machine cutting fences while the motor is spinning at top speed",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Securing loose clothing and long hair prevents them from becoming caught in rotating machinery.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S1Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s1_ss2_L1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What is the primary definition of an accident in a technical workshop?",
+          options: [
+            "An unplanned event causing physical harm or property loss",
+            "A planned practical test conducted to evaluate work speed",
+            "A minor mistake that does not disrupt ongoing project work",
+            "An expected mechanical breakdown occurring during routine use",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "A workshop accident is an unexpected, unplanned event that causes injury or damage to property.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which type of injury results directly from skin contact with boiling soup or hot oil?",
+          options: [
+            "Deep fracture",
+            "Painful scald",
+            "Muscle sprain",
+            "Severe bruise",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Hot liquids such as boiling soup or hot oil damage skin tissue and cause scalds.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which human factor is the most common cause of tool slips in a school workshop?",
+          options: [
+            "Using bright safety goggles during machine operation",
+            "Wearing protective leather boots on smooth workshop floors",
+            "Playing, talking, and lacking focus while operating tools",
+            "Storing cutting hand tools inside clean wooden tool racks",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Playing and talking distract tool operators, reducing concentration and increasing the risk of slips and injuries.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Why is inadequate room ventilation considered a major safety risk in a carpentry shop?",
+          options: [
+            "It makes cutting hand tools lose their sharp edges rapidly",
+            "It causes heavy electric motors to consume excess power units",
+            "It prevents students from reading project drawings on benches",
+            "It traps toxic chemical fumes and fine combustible saw dust",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Poor ventilation allows harmful fumes and fine sawdust to accumulate, creating breathing hazards and increasing fire risk.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S1Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s1_ss1_L3/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What is the primary danger of leaving prepared soup uncovered in an open kitchen?",
+          options: [
+            "Spices lose their color",
+            "Flies introduce bacteria",
+            "The pot gains extra weight",
+            "Salt becomes very bitter",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Flies can carry harmful bacteria onto uncovered food, making it unsafe to eat.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which tool should be kept strictly separated when processing raw meat and fresh salad?",
+          options: [
+            "The water storage jug",
+            "The wooden dining chair",
+            "The cutting board knife",
+            "The metal window latch",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Use separate cutting boards and knives for raw meat and fresh salad to prevent bacteria from spreading to ready-to-eat food.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. How does heavy table salt function to prevent fresh meat from spoiling quickly?",
+          options: [
+            "It draws out cell water",
+            "It turns meat into stone",
+            "It freezes the food solid",
+            "It adds extra carbohydrates",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Salt draws water out of cells and reduces the moisture available for spoilage organisms to grow.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Why should sacks of dried maize be stored off the floor in ventilated spaces?",
+          options: [
+            "To make sacks look bigger",
+            "To avoid cold night air",
+            "To stop light shining on them",
+            "To deter damp and vermin",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Raised storage and ventilation help keep maize dry and reduce access by pests that can damage or contaminate the grain.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S1Ss1Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss1_l2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. How often should a junior high school student brush their teeth each day?",
+      options: [
+        "Only on weekend mornings",
+        "At least two times daily",
+        "Once every three days",
+        "Only when bad breath starts",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Brushing at least twice daily removes food particles and plaque to help prevent tooth decay and bad breath.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary hygiene reason for keeping fingernails clipped short and neat?",
+      options: [
+        "To stop rings from slipping",
+        "To improve writing speed",
+        "To prevent dirt collecting",
+        "To make the hands grow wider",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Short, neat fingernails reduce the spaces where dirt and germs can collect and later contaminate food.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which step in the standard handwashing procedure cleans between the fingers?",
+      options: [
+        "Rubbing interlaced fingers",
+        "Splashing wrists with water",
+        "Wiping palms on your clothes",
+        "Rinsing fingers in a basin",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Rubbing interlaced fingers with soap cleans the spaces between the fingers where dirt and germs may remain.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. What is the safest way to clean the ears during daily grooming?",
+      options: [
+        "Inserting a carved matchstick",
+        "Scraping gently with hairpins",
+        "Using a soft toothpick tip",
+        "Wiping ears with damp cloth",
+      ],
+      correctIndex: 3,
+      difficulty: "Easy",
+      explanation: "Use a clean, damp cloth to wipe the outer ears without inserting objects into the ear canal.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+careerJhs1S1Ss1Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s1_ss1_l1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What does social well-being primarily involve in our everyday living?",
+      options: [
+        "Running fast in races",
+        "Eating balanced meals",
+        "Living peacefully with others",
+        "Sleeping eight hours daily",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Social well-being involves building positive relationships and living peacefully with other people.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Which condition is a direct consequence of continually neglecting bodily care?",
+      options: [
+        "Sharper mental focus",
+        "Frequent sick days",
+        "Higher exam scores",
+        "Stronger immunity",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Neglecting bodily care allows germs to spread and increases the risk of illness, leading to frequent sick days.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which choice represents the healthiest source of midday nutrition for a pupil?",
+      options: [
+        "Plain sugar toffee",
+        "Fizzy soft drinks",
+        "Unwashed sliced fruit",
+        "Boiled egg and beans",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Boiled egg and beans provide protein and other nutrients needed for growth and energy, while unwashed fruit may carry harmful germs.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "4. Why is sufficient nighttime rest necessary for the human body?",
+      options: [
+        "It speeds up nail growth",
+        "It replaces balanced diets",
+        "It repairs body tissues",
+        "It prevents any sweating",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "During sleep, the body repairs tissues and restores energy to support growth and good health.",
+    ),
+  ],
+);
+
 final IndependentPracticeModel
 creativeArtsJhs3S2Ss3Lesson3IndependentQuizData = IndependentPracticeModel(
   audioPath:

@@ -22,71 +22,182 @@ import 'package:intl/intl.dart';
 import '../../../core/config/debug_print.dart';
 
 class SidebarController extends GetxController {
-  static const List<Map<String, dynamic>> _careerCourseData = [
-    {
-      "subtitle": "PERSONAL HYGIENE AND FOOD HYGIENE",
-      "subStrands": [
+  static const Map<String, Map<String, List<Map<String, dynamic>>>>
+  _additionalCourseData = {
+    "JHS 1": {
+      "CAREER": [
         {
           "subtitle": "PERSONAL HYGIENE AND FOOD HYGIENE",
-          "topics": [
-            "The Need to Stay Healthy",
-            "Ways of Maintaining Personal Hygiene",
-            "Food Hygiene Practices",
+          "subStrands": [
+            {
+              "subtitle": "PERSONAL HYGIENE AND FOOD HYGIENE",
+              "topics": [
+                "The Need to Stay Healthy",
+                "Ways of Maintaining Personal Hygiene",
+                "Food Hygiene Practices",
+              ],
+            },
+            {
+              "subtitle": "PERSONAL, WORKSHOP AND FOOD LABORATORY SAFETY",
+              "topics": [
+                "Accidents in the Workshop and Laboratory",
+                "Keeping the Workshop, Site, and Laboratory Safe",
+              ],
+            },
+            {
+              "subtitle": "ENVIRONMENTAL HEALTH",
+              "topics": [
+                "Factors of Environmental Health",
+                "Preventive Measures of Environmental Health",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "MATERIALS FOR PRODUCTION",
+          "subStrands": [
+            {
+              "subtitle": "COMPLIANT MATERIALS",
+              "topics": [
+                "DESCRIBING COMPLIANT MATERIALS",
+                "DISTINGUISHING BETWEEN TYPES OF COMPLIANT MATERIALS",
+                "MANUFACTURING AND PRODUCTION OF COMPLIANT MATERIALS",
+              ],
+            },
+            {
+              "subtitle": "RESISTANT MATERIALS",
+              "topics": [
+                "DESCRIBING RESISTANT MATERIALS",
+                "DISTINGUISHING BETWEEN TYPES OF RESISTANT MATERIALS",
+                "PRODUCTION AND PROCESSING OF RESISTANT MATERIALS",
+              ],
+            },
+            {
+              "subtitle": "SMART AND MODERN MATERIALS",
+              "topics": [
+                "EXPLORING SMART AND MODERN MATERIALS",
+                "INVESTIGATING AND COMMUNICATING MATERIAL PROPERTIES",
+              ],
+            },
+            {
+              "subtitle": "FOOD COMMODITIES (ANIMAL AND PLANT SOURCES)",
+              "topics": ["INTRODUCTION TO FOOD COMMODITIES AND SOURCES"],
+            },
+          ],
+        },
+        {
+          "subtitle": "TOOLS, EQUIPMENTS AND PROCESSES",
+          "subStrands": [
+            {
+              "subtitle": "MEASURING AND MARKING OUT",
+              "topics": [
+                "Classifying and Using Measuring and Marking Out Tools",
+                "Care and Maintenance of Measuring and Marking Out Tools",
+              ],
+            },
+            {
+              "subtitle": "CUTTING AND SHAPING",
+              "topics": [
+                "Identifying Cutting and Shaping Tools Across Trade Areas",
+                "Practical Skills in Cutting, Chopping, Slicing, Dicing and Shaping",
+                "Care and Maintenance of Cutting and Shaping Tools",
+              ],
+            },
+            {
+              "subtitle": "JOINING AND ASSEMBLING",
+              "topics": [
+                "Identifying Joining and Assembling Materials, Tools, and Equipment",
+                "Using Appropriate Skills for Joining and Assembling Artefacts",
+              ],
+            },
+            {
+              "subtitle": "KITCHEN ESSENTIALS",
+              "topics": [
+                "Describe Kitchen Essentials",
+                "Demonstrate Skills in the Classification of Kitchen Essentials",
+              ],
+            },
+            {
+              "subtitle": "FINISHES AND FINISHING",
+              "topics": [
+                "Identifying Finishes and Finishing Applied to Products and Artefacts",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "TECHNOLOGY",
+          "subStrands": [
+            {
+              "subtitle":
+                  "SIMPLE STRUCTURES AND MECHANISMS, ELECTRIC AND ELECTRONIC SYSTEMS",
+              "topics": [
+                "Uses of Structures in Construction",
+                "Causes of Structural Failures in Construction",
+                "Designing and Making Simple Structures",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "DESIGNING AND MAKING OF ARTEFACTS/PRODUCTS",
+          "subStrands": [
+            {
+              "subtitle": "COMMUNICATING DESIGNS",
+              "topics": [
+                "DRAWING MATERIALS, INSTRUMENTS, AND EQUIPMENT",
+                "TYPES OF LINES USED IN GRAPHIC COMMUNICATION",
+                "SKETCHES OF LINES, CURVES, OBJECTS, AND LETTERING",
+                "MAKING SKETCHES OF OBJECTS",
+              ],
+            },
+            {
+              "subtitle": "DESIGNIING",
+              "topics": [
+                "Working with a Given Design Brief",
+                "Generating Ideas",
+              ],
+            },
+            {
+              "subtitle": "PLANNING FOR MAKING ARTEFACTS/PRODUCTS",
+              "topics": [
+                "FACTORS TO CONSIDER WHEN PLANNING A MEAL",
+                "PREPARING FOOD USING MOIST METHODS OF COOKING",
+              ],
+            },
+            {
+              "subtitle":
+                  "MAKING ARTEFACTS FROM COMPLIANT, RESISTANT MATERIALS AND FOOD INGREDIENTS",
+              "topics": [
+                "Demonstrating Skills in Preparing Food Using Moist Methods of Cooking (Boiling and Stewing)",
+                "Demonstrating Skills of Making Artefacts/Products in Sewing and Crocheting ",
+                "Making Mock-ups Using Compliant Materials",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "ENTREPRENEURIAL SKILLS",
+          "subStrands": [
+            {
+              "subtitle": "CAREER PATHWAYS AND CAREER OPPORTUNITIES",
+              "topics": [
+                "EVALUATING LEARNING STYLES, INTERESTS, AND VOCATIONAL BIASES",
+              ],
+            },
+            {
+              "subtitle":
+                  "ESTABLISHING AND MANAGING A SMALL BUSINESS ENTERPRISE",
+              "topics": [
+                "MEANING OF ENTREPRENEURSHIP AND ENTREPRENEUR",
+                "CHARACTERISTICS OF A SUCCESSFUL ENTREPRENEUR",
+                "ADVANTAGES AND DISADVANTAGES OF BEING AN ENTREPRENEUR",
+                "IDENTIFYING ENTREPRENEURIAL OPPORTUNITIES IN THE LOCALITY",
+              ],
+            },
           ],
         },
       ],
-    },
-    {
-      "subtitle": "MATERIALS FOR PRODUCTION",
-      "subStrands": [
-        {
-          "subtitle": "MATERIALS FOR PRODUCTION",
-          "topics": ["Introduction to Materials for Production"],
-        },
-      ],
-    },
-    {
-      "subtitle": "Tools, Equipment and Processes",
-      "subStrands": [
-        {
-          "subtitle": "Tools, Equipment and Processes",
-          "topics": ["Introduction to Tools, Equipment and Processes"],
-        },
-      ],
-    },
-    {
-      "subtitle": "Technology",
-      "subStrands": [
-        {
-          "subtitle": "Technology",
-          "topics": ["Introduction to Technology"],
-        },
-      ],
-    },
-    {
-      "subtitle": "DESIGNING AND MAKING OF ARTEFACTS/PRODUCTS",
-      "subStrands": [
-        {
-          "subtitle": "DESIGNING AND MAKING OF ARTEFACTS/PRODUCTS",
-          "topics": ["Introduction to Designing and Making Products"],
-        },
-      ],
-    },
-    {
-      "subtitle": "ENTREPRENEURIAL SKILLS",
-      "subStrands": [
-        {
-          "subtitle": "ENTREPRENEURIAL SKILLS",
-          "topics": ["Introduction to Entrepreneurial Skills"],
-        },
-      ],
-    },
-  ];
-
-  static const Map<String, Map<String, List<Map<String, dynamic>>>>
-      _additionalCourseData = {
-    "JHS 1": {
-      "CAREER": _careerCourseData,
       "COMPUTING": [
         {
           "subtitle": "INTRODUCTION TO COMPUTING",
@@ -279,7 +390,7 @@ class SidebarController extends GetxController {
                 "Durational Symbols and Their Values in Relation to the Semibreve",
                 "Conducting Songs in Simple Duple, Triple, and Quadruple Time ",
                 "Ghanaian Dance and Body Movements, Positions, and Voice Projection Patterns",
-                "Techniques of Dance, Body Movements, and Voice Projections in the Performance Space"
+                "Techniques of Dance, Body Movements, and Voice Projections in the Performance Space",
               ],
             },
             {
@@ -379,7 +490,7 @@ class SidebarController extends GetxController {
                 "ÉCOUTER ET COMPRENDRE UNE CONVERSATION SUR L'ÉCOLE",
                 "PARLER DE DIFFÉRENTS LIEUX, OBJETS ET PERSONNES DE L'ÉCOLE",
                 "LIRE ET COMPRENDRE UN TEXTE SUR L'ÉCOLE",
-                "ÉCRIRE UN TEXTE SIMPLE SUR SON ÉCOLE"
+                "ÉCRIRE UN TEXTE SIMPLE SUR SON ÉCOLE",
               ],
             },
           ],
@@ -489,7 +600,177 @@ class SidebarController extends GetxController {
       ],
     },
     "JHS 2": {
-      "CAREER": _careerCourseData,
+      "CAREER": [
+        {
+          "subtitle": "HEALTH AND SAFETY",
+          "subStrands": [
+            {
+              "subtitle": "PERSONAL HYGIENE AND FOOD HYGIENE",
+              "topics": [
+                "DEMONSTRATING SKILLS OF PERSONAL HYGIENE (MANAGING BODY ODOUR)",
+                "DEMONSTRATING SKILLS IN KEEPING FOOD SAFE (FOOD HYGIENE)",
+              ],
+            },
+            {
+              "subtitle": "PERSONAL, WORKSHOP AND FOOD LABORATORY SAFETY",
+              "topics": ["BASIC FIRST AID SKILLS"],
+            },
+            {
+              "subtitle": "ENVIRONMENTAL HEALTH",
+              "topics": [
+                "Desertification and Deforestation (Causes, Effects, and Prevention)",
+                "Proper Management and Disposal of Household and Industrial Waste",
+              ],
+            },
+            {
+              "subtitle": "ENVIRONMENTAL HEALTH",
+              "topics": [
+                "Desertification and Deforestation (Causes, Effects, and Prevention)",
+                "Proper Management and Disposal of Household and Industrial Waste",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "MATERIALS FOR PRODUCTION",
+          "subStrands": [
+            {
+              "subtitle": "COMPLIANT MATERIALS",
+              "topics": [
+                "CHARACTERISTICS AND PROPERTIES OF COMPLIANT MATERIALS",
+              ],
+            },
+            {
+              "subtitle": "RESISTANT MATERIALS",
+              "topics": [
+                "BASIC PROPERTIES OF RESISTANT MATERIALS",
+                "PROPERTIES OF BUILDING MATERIALS",
+              ],
+            },
+            {
+              "subtitle": "SMART AND MODERN MATERIALS",
+              "topics": [
+                "Understanding and Applications of Smart and Modern Materials",
+              ],
+            },
+            {
+              "subtitle": "FOOD COMMODITIES (ANIMAL AND PLANT SOURCES)",
+              "topics": ["FUNCTIONS OF FOOD TO THE BODY"],
+            },
+          ],
+        },
+        {
+          "subtitle": "TOOLS, EQUIPMENT AND PROCESSES",
+          "subStrands": [
+            {
+              "subtitle": "MEASURING AND MARKING OUT",
+              "topics": [
+                "IDENTIFYING MEASURING AND MARKING OUT TOOLS AND EQUIPMENT",
+                "TAKING MEASUREMENTS OF PRODUCTS, ARTEFACTS, AND ARTICLES",
+                "USING APPROPRIATE TECHNIQUES TO MEASURE",
+                "CARING FOR AND MAINTAINING MEASURING AND MARKING OUT TOOLS",
+              ],
+            },
+            {
+              "subtitle": "CUTTING AND SHAPING",
+              "topics": [
+                "Identification and Uses of Cutting and Shaping Tools and Equipment",
+                "Appropriate Techniques to Cut and Shape Artefacts and Products",
+                "Care and Maintenance of Shaping and Cutting Tools and Equipment",
+              ],
+            },
+            {
+              "subtitle": "JOINING AND ASSEMBLING",
+              "topics": [
+                "Identifying Joining and Assembling Materials, Tools, and Equipment",
+                "Using Appropriate Tools, Equipment, and Techniques to Join and Assemble Artefacts",
+                "Care and Maintenance of Joining and Assembling Tools and Equipment",
+              ],
+            },
+            {
+              "subtitle": "KITCHEN ESSENTIALS",
+              "topics": ["Caring for and Maintaining Kitchen Essentials"],
+            },
+            {
+              "subtitle": "FINISHES AND FINISHING",
+              "topics": [
+                "MIXING VARIOUS FINISHES",
+                "FINISHING EDGES OF SEWING ARTICLES AND FOOD PRODUCTS",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "TECHNOLOGY",
+          "subStrands": [
+            {
+              "subtitle":
+                  "SIMPLE STRUCTURES AND MECHANISMS, ELECTRIC AND ELECTRONIC SYSTEMS",
+              "topics": [
+                "EXPERIMENTS ON PRINCIPLES OF FORCES ON STRUCTURES",
+                "DESIGNING AND MAKING SIMPLE SCHOOL TECHNOLOGY PROJECTS",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "DESIGNING AND MAKING OF ARTEFACTS/PRODUCTS",
+          "subStrands": [
+            {
+              "subtitle": "COMMUNICATING DESIGN",
+              "topics": [
+                "Drawing Plane Figures Using Instruments",
+                "Drawing Objects in Pictorial Using Instruments",
+              ],
+            },
+            {
+              "subtitle": "DESIGNING",
+              "topics": [
+                "Writing a Design Brief",
+                "Researching Design Problems",
+                "Writing Design Specifications",
+                "Generating Ideas and Possible Solutions",
+                "Making Artefacts Using Resistant Materials",
+                "Testing and Evaluating Made Products or Artefacts",
+                "Demonstrating Basic Skills in Cutting Out Designs Without Patterns in Sewing",
+              ],
+            },
+            {
+              "subtitle": "PLANNING FOR MAKING ARTEFACTS/PRODUCTS",
+              "topics": [
+                "PLANNING AND MAKING WOODEN, METAL, AND PLASTIC ARTEFACTS",
+                "PLANNING AND MAKING BUILDING ARTEFACTS",
+                "PLANNING TO MAKE SEWING ARTEFACTS/PRODUCTS",
+                "PLANNING TO SET A TABLE",
+              ],
+            },
+            {
+              "subtitle":
+                  "MAKING ARTEFACTS FROM COMPLIANT, RESISTANT MATERIALS AND FOOD INGREDIENTS",
+              "topics": [
+                "DEMONSTRATING SKILLS IN TABLE SETTING",
+                "MAKING SEWING ARTEFACTS USING BASIC SEAMS",
+                "ARRANGEMENT OF FULLNESS IN SEWING",
+                "MAKING ARTEFACTS USING RESISTANT MATERIALS (WOOD, METAL, AND PLASTICS)",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "ENTREPRENEURIAL SKILLS",
+          "subStrands": [
+            {
+              "subtitle": "CAREER PATHWAYS AND CAREER OPPORTUNITIES",
+              "topics": ["EXPLORING CAREER PATHWAYS AND OPPORTUNITIES"],
+            },
+            {
+              "subtitle":
+                  "ESTABLISHING AND MANAGING A SMALL BUSINESS ENTERPRISE",
+              "topics": ["Micro, Small, and Medium-Sized Business Enterprises"],
+            },
+          ],
+        },
+      ],
       "COMPUTING": [
         {
           "subtitle": "INTRODUCTION TO COMPUTING",
@@ -760,7 +1041,7 @@ class SidebarController extends GetxController {
                 "COMPRENDRE UNE CONVERSATION SUR SA VILLE OU SON VILLAGE",
                 "PARLER DE SA VILLE OU DE SON VILLAG",
                 "LIRE, COMPRENDRE ET RÉAGIR À UN TEXTE SUR LA VILLE OU LE VILLAGE",
-                "ÉCRIRE UN TEXTE SIMPLE SUR SA VILLE OU SON VILLAGE"
+                "ÉCRIRE UN TEXTE SIMPLE SUR SA VILLE OU SON VILLAGE",
               ],
             },
             {
@@ -769,7 +1050,7 @@ class SidebarController extends GetxController {
                 "ÉCOUTER ET PARLER DE SON PAYS",
                 "FAIRE UN EXPOSÉ ET ÉCHANGER SUR SON PAYS",
                 "LIRE ET COMPRENDRE UN TEXTE SUR SON PAYS",
-                "DÉCRIRE SON PAYS PAR ÉCRIT"
+                "DÉCRIRE SON PAYS PAR ÉCRIT",
               ],
             },
             {
@@ -778,7 +1059,7 @@ class SidebarController extends GetxController {
                 "COMPRENDRE UNE CONVERSATION ET UN BULLETIN MÉTÉO SUR LE TEMPS QU'IL FAIT",
                 "S'EXPRIMER ET ÉCHANGER SUR LE TEMPS QU'IL FAIT",
                 "LIRE ET COMPRENDRE DES TEXTES SUR LE TEMPS QU'IL FAIT ET LE CLIMAT",
-                "ÉCRIRE SUR LES DIFFÉRENTS TEMPS QU'IL FAIT ET CRÉER UN DÉPLIANT MÉTÉO"
+                "ÉCRIRE SUR LES DIFFÉRENTS TEMPS QU'IL FAIT ET CRÉER UN DÉPLIANT MÉTÉO",
               ],
             },
           ],
@@ -792,7 +1073,7 @@ class SidebarController extends GetxController {
                 "COMPRENDRE UN DIALOGUE SUR LES TRANSPORTS ET LES HORAIRES",
                 "COMMENTER ET S'EXPRIMER SUR LES HORAIRES DE TRANSPORT",
                 "LIRE ET COMPRENDRE UN TEXTE SUR LES TRANSPORTS ET LES HORAIRES",
-                "ÉCRIRE UN TEXTE SIMPLE SUR LES TRANSPORTS ET LES HORAIRES"
+                "ÉCRIRE UN TEXTE SIMPLE SUR LES TRANSPORTS ET LES HORAIRES",
               ],
             },
           ],
@@ -806,7 +1087,7 @@ class SidebarController extends GetxController {
                 "Écouter, comprendre et réagir à la quantité et la qualité des choses",
                 "Dire la quantité et la qualité des choses",
                 "Lire, comprendre et réagir à un texte sur la quantité et la qualité des choses",
-                "Écrire la quantité et la qualité des choses"
+                "Écrire la quantité et la qualité des choses",
               ],
             },
             {
@@ -815,7 +1096,7 @@ class SidebarController extends GetxController {
                 "Comprendre une conversation au marché et en ligne",
                 "Exprimer ses besoins, demander le prix et marchander",
                 "Lire et comprendre des listes de courses, des rayons et des textes sur les achats",
-                "Décrire une scène de marché et écrire un dialogue d'achat"
+                "Décrire une scène de marché et écrire un dialogue d'achat",
               ],
             },
             {
@@ -824,7 +1105,7 @@ class SidebarController extends GetxController {
                 "COMPRENDRE UNE RÉSERVATION AU RESTAURANT",
                 "FAIRE UNE RÉSERVATION PAR TÉLÉPHONE",
                 "LIRE ET COMPRENDRE UNE CONVERSATION DE RÉSERVATION",
-                "ÉCRIRE UN TEXTE SIMPLE POUR FAIRE UNE RÉSERVATION"
+                "ÉCRIRE UN TEXTE SIMPLE POUR FAIRE UNE RÉSERVATION",
               ],
             },
           ],
@@ -838,7 +1119,7 @@ class SidebarController extends GetxController {
                 "COMPRENDRE UNE CONVERSATION SUR L'HABILLEMENT",
                 "PARLER DE L'HABILLEMENT ET DE LA MODE",
                 "LIRE ET COMPRENDRE UN TEXTE SUR L'HABILLEMENT ET LA MODE",
-                "ÉCRIRE SUR L'HABILLEMENT ET LA MODE DE LA JEUNESSE"
+                "ÉCRIRE SUR L'HABILLEMENT ET LA MODE DE LA JEUNESSE",
               ],
             },
             {
@@ -847,7 +1128,7 @@ class SidebarController extends GetxController {
                 "COMPRENDRE UNE CONVERSATION SUR LES SPORTS",
                 "PARLER DES SPORTS",
                 "LIRE ET COMPRENDRE UN TEXTE SUR LES SPORTS",
-                "ÉCRIRE SUR LES SPORTS"
+                "ÉCRIRE SUR LES SPORTS",
               ],
             },
             {
@@ -856,7 +1137,7 @@ class SidebarController extends GetxController {
                 "COMPRÉHENSION ORALE DES PASSE-TEMPS",
                 "PRODUCTION ET INTERACTION ORALE SUR LES PASSE-TEMPS",
                 "COMPRÉHENSION ÉCRITE SUR LES PASSE-TEMPS",
-                "PRODUCTION ÉCRITE ET INTERACTION ÉCRITE SUR LES PASSE-TEMPS"
+                "PRODUCTION ÉCRITE ET INTERACTION ÉCRITE SUR LES PASSE-TEMPS",
               ],
             },
           ],
@@ -877,7 +1158,185 @@ class SidebarController extends GetxController {
       ],
     },
     "JHS 3": {
-      "CAREER": _careerCourseData,
+      "CAREER": [
+        {
+          "subtitle": "HEALTH AND SAFETY",
+          "subStrands": [
+            {
+              "subtitle": "PERSONAL HYGIENE AND FOOD HYGIENE",
+              "topics": [
+                "Practising Good Grooming",
+                "Observing Appropriate Food Hygiene Practices",
+                "Food Hygiene Practices",
+              ],
+            },
+            {
+              "subtitle": "PERSONAL, WORKSHOP AND FOOD LABORATORY SAFETY",
+              "topics": [
+                "Reporting Accidents and Unsafe Practices",
+                "Using Appropriate Personal Protective Equipment",
+                "Maintaining Safe Working Environments",
+              ],
+            },
+            {
+              "subtitle": "ENVIRONMENTAL HEALTH",
+              "topics": [
+                "CAUSES AND PREVENTION OF POOR SANITATION",
+                "CLEAN ENERGY AND IMPROVED COOKSTOVES AND FUELS",
+                "BENEFITS OF IMPROVED COOKSTOVES AND FUELS",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "MATERIALS FOR PRODUCTION",
+          "subStrands": [
+            {
+              "subtitle": "COMPLIANT MATERIALS",
+              "topics": [
+                "Factors Influencing the Selection of Compliant Materials",
+                "Processes in Working with Compliant Materials",
+                "Making and Appraising Artefacts from Compliant Materials",
+              ],
+            },
+            {
+              "subtitle": "RESISTANT MATERIALS",
+              "topics": [
+                "SELECTING RESISTANT MATERIALS FOR PRODUCTION",
+                "TOOLS AND TECHNIQUES FOR SAFE HANDLING OF RESISTANT MATERIALS",
+              ],
+            },
+            {
+              "subtitle": "SMART AND MODERN MATERIALS",
+              "topics": [
+                "REASONS FOR USING SMART AND MODERN MATERIALS",
+                "TECHNIQUES FOR MAKING PROTOTYPES TO SOLVE ENVIRONMENTAL PROBLEMS",
+              ],
+            },
+            {
+              "subtitle": "FOOD COMMODITIES (ANIMAL AND PLANT SOURCES)",
+              "topics": [
+                "SELECTING FOOD COMMODITIES FOR MEAL PREPARATION",
+                "BASIC FOOD REQUIREMENTS FOR DIFFERENT FAMILY MEMBERS",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "TOOLS, EQUIPMENT AND PROCESSES",
+          "subStrands": [
+            {
+              "subtitle": "MEASURING AND MARKING OUT",
+              "topics": [
+                "Measuring and Marking Out Tools Across Trade Areas",
+                "Demonstrating Use, Selection, Care, and Maintenance of Measuring and Marking Out Tools",
+              ],
+            },
+            {
+              "subtitle": "CUTTING AND SHAPING",
+              "topics": [
+                "TOOLS AND EQUIPMENT FOR CUTTING AND SHAPING",
+                "DEMONSTRATING THE USE, CARE, AND MAINTENANCE OF CUTTING AND SHAPING TOOLS",
+              ],
+            },
+            {
+              "subtitle": "JOINING AND ASSEMBLING",
+              "topics": [
+                "Identifying and Classifying Joining and Assembling Materials, Tools, and Equipment",
+                "Practical Skills and Maintenance in Joining and Assembling Artefacts",
+              ],
+            },
+            {
+              "subtitle": "KITCHEN ESSENTIALS",
+              "topics": [
+                "Selecting and Purchasing Kitchen Essentials",
+                "Understanding Mechanical and Labour-Saving Kitchen Essentials",
+              ],
+            },
+            {
+              "subtitle": "FINISHES AND FINISHING",
+              "topics": ["Finishing Edges of Articles in Sewing"],
+            },
+          ],
+        },
+        {
+          "subtitle": "Technology",
+          "subStrands": [
+            {
+              "subtitle":
+                  "SIMPLE STRUCTURES AND MECHANISMS, ELECTRIC AND ELECTRONIC SYSTEMS",
+              "topics": [
+                "Identifying and Describing Mechanisms in Everyday Artefacts",
+                "Features, Principles of Operation, Advantages, and Disadvantages of Mechanisms",
+                "Designing and Making Simple School Technology Projects Using Mechanisms",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "Designing and Making of Artefacts and Products",
+          "subStrands": [
+            {
+              "subtitle": "COMMUNICATING DESIGNS",
+              "topics": [
+                "Identifying Prisms, Pyramids, and the Importance of Surface Development",
+                "Developing Surfaces of Pyramids Using Instruments",
+                "Principles of Orthographic Projections",
+                "Drawing Objects in First and Third Angle Orthographic Projection",
+              ],
+            },
+            {
+              "subtitle": "DESIGNING",
+              "topics": [
+                "IDENTIFYING USER REQUIREMENTS",
+                "CLARIFYING USER REQUIREMENTS",
+                "GENERATING IDEAS",
+                "DEVELOPING THE SELECTED SOLUTION",
+              ],
+            },
+            {
+              "subtitle": "PLANNING FOR MAKING ARTEFACTS/PRODUCTS",
+              "topics": [
+                "DRY METHODS OF COOKING — BAKING AND GRILLING",
+                "MENU PLANNING SKILLS AND TYPES OF MENUS",
+                "NATURAL BUILDING MATERIALS — PRODUCTION OF CLAY AND LATERITE BRICKS",
+                "CLARIFYING USER REQUIREMENTS AND WORKSHOP PLANNING",
+              ],
+            },
+            {
+              "subtitle":
+                  "Making Artefacts from Compliant, Resistant Materials and Food Ingredients",
+              "topics": [
+                "Preparing Food Using Dry Methods of Cooking",
+                "Creating Advanced Articles Using Crocheting and Embroidery Stitches",
+                "Gathering Materials, Tools, and Equipment for Making Artefacts",
+                "CLARIFYING USER REQUIREMENTS AND WORKSHOP PLANNING",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "ENTREPRENEURIAL SKILLS",
+          "subStrands": [
+            {
+              "subtitle": "CAREER PATHWAYS AND CAREER OPPORTUNITIES",
+              "topics": [
+                "The Changing Nature of the Workplace, Technology, and Global Competition",
+                "The Value of Work to the Individual and Society",
+                "Developing an Effective Career Plan",
+              ],
+            },
+            {
+              "subtitle":
+                  "ESTABLISHING AND MANAGING A SMALL BUSINESS ENTERPRISE",
+              "topics": [
+                "STARTING AND RUNNING A SMALL BUSINESS",
+                "MANAGING RESOURCES OF A SMALL BUSINESS ENTERPRISE",
+              ],
+            },
+          ],
+        },
+      ],
       "COMPUTING": [
         {
           "subtitle": "INTRODUCTION TO COMPUTING",
@@ -1092,25 +1551,147 @@ class SidebarController extends GetxController {
       ],
       "FRENCH": [
         {
-          "subtitle": "FUNCTIONAL FRENCH",
+          "subtitle": "L'ENVIRONNEMENT",
           "subStrands": [
             {
-              "subtitle": "REAL-LIFE COMMUNICATION",
+              "subtitle": "PARLER DE LA PROTECTION DE L'ENVIRONNEMENT",
               "topics": [
-                "Shopping, Travel and Services",
-                "Expressing Opinions and Plans",
+                "ÉCOUTER ET RÉAGIR POUR PROTÉGER NOTRE ENVIRONNEMENT",
+                "S'EXPRIMER POUR PROTÉGER NOTRE ENVIRONNEMENT",
+                "LIRE ET RÉAGIR À DES TEXTES SUR LA PROTECTION DE L'ENVIRONNEMENT",
+                "ÉCRIRE POUR PROTÉGER NOTRE ENVIRONNEMENT",
+                "",
               ],
             },
           ],
         },
         {
-          "subtitle": "READING AND WRITING",
+          "subtitle": "LES ACHATS",
           "subStrands": [
             {
-              "subtitle": "CONNECTED TEXTS",
+              "subtitle": "PASSER UNE COMMANDE",
               "topics": [
-                "Reading Short French Passages",
-                "Writing Letters and Short Paragraphs",
+                "COMPRENDRE UNE COMMANDE AU TÉLÉPHONE ET EN LIGNE",
+                "COMMANDER UN ARTICLE OU UN PRODUIT",
+                "LIRE ET COMPRENDRE UNE COMMANDE ÉCRITE",
+                "ÉCRIRE UN TEXTE SIMPLE POUR PASSER UNE COMMANDE",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "LES LOISIRS",
+          "subStrands": [
+            {
+              "subtitle": "PARLER DU TOURISME",
+              "topics": [
+                "ÉCOUTER ET COMPRENDRE LE TOURISME AU GHANA",
+                "PARLER DES SITES TOURISTIQUES, DES AVANTAGES ET DES INCONVÉNIENTS",
+                "LIRE ET COMPRENDRE DES TEXTES SUR LE TOURISME",
+                "ÉCRIRE SUR LE TOURISME ET ÉCHANGER DES MESSAGES",
+              ],
+            },
+          ],
+        },
+
+        {
+          "subtitle": "LES HABITUDES ET LES FAITS DU PASSÉ",
+          "subStrands": [
+            {
+              "subtitle": "PARLER DES ÉVÉNEMENTS DU PASSÉ",
+              "topics": [
+                "Écouter et réagir aux souvenirs d'enfance",
+                "Raconter des événements du passé et parler de son enfance",
+                "Lire et comprendre des récits sur les événements du passé",
+                "Écrire sur des événements du passé et rédiger son autobiographie",
+              ],
+            },
+            {
+              "subtitle": "RAPPORTER UN FAIT",
+              "topics": [
+                "Écouter et réagir aux récits d'événements passés",
+                "Raconter un événement du passé à l'oral",
+                "Lire et comprendre un récit du passé",
+                "Rédiger un texte simple sur un événement passé",
+              ],
+            },
+            {
+              "subtitle": "PARLER DU MONDE D'HIER ET CELUI D'AUJOURD'HUI",
+              "topics": [
+                "COMPRENDRE ET RÉAGIR AU MONDE D'HIER ET D'AUJOURD'HUI",
+                "ÉCHANGER DES INFORMATIONS SUR LE MONDE D'HIER ET CELUI D'AUJOURD'HUI",
+                "LIRE, COMPRENDRE ET RÉAGIR À UN TEXTE SUR LE MONDE D'HIER ET D'AUJOURD'HUI",
+                "ÉCHANGER À L'ÉCRIT SUR LE MONDE D'HIER ET D'AUJOURD'HUI",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "PROJETS D'AVENIR",
+          "subStrands": [
+            {
+              "subtitle": "EXPRIMER LES SOUHAITS",
+              "topics": [
+                "Comprendre et réagir aux souhaits du quotidien",
+                "Exprimer des souhaits à l'oral",
+                "Lire, comprendre et réagir à des souhaits écrits",
+                "Écrire et envoyer des souhaits",
+              ],
+            },
+          ],
+        },
+        {
+          "subtitle": "LES SENTIMENTS ET LES OPINIONS",
+          "subStrands": [
+            {
+              "subtitle": "EXPRIMER SES SENTIMENTS ET LES JUSTIFIER",
+              "topics": [
+                "COMPRENDRE LES SENTIMENTS ET LEURS RAISONS",
+                "EXPRIMER SES SENTIMENTS ET DIRE POURQUOI",
+                "LIRE ET RÉAGIR À DES TEXTES SUR LES SENTIMENTS",
+                "ÉCRIRE POUR EXPRIMER SES SENTIMENTS ET LES JUSTIFIER",
+              ],
+            },
+            {
+              "subtitle": "DONNER DES CONSEILS ET DES AVERTISSEMENTS",
+              "topics": [
+                "Comprendre et réagir aux conseils et aux avertissements à l'oral",
+                "Conseiller ou avertir quelqu'un à l'oral",
+
+                "Lire un texte simple dans lequel on conseille ou avertit quelqu'un",
+                "Écrire un texte simple pour conseiller ou avertir",
+              ],
+            },
+            {
+              "subtitle": "EXPRIMER SON OPINION ET LA JUSTIFIER",
+              "topics": [
+                "ÉCOUTER ET RÉAGIR À UNE OPINION",
+                "EXPRIMER ET JUSTIFIER SON OPINION SUR UN ÉVÉNEMENT OU UN FAIT",
+                "LIRE, COMPRENDRE ET RÉAGIR À UN TEXTE D'OPINION",
+                "ÉCRIRE POUR EXPRIMER ET JUSTIFIER SES OPINIONS",
+              ],
+            },
+          ],
+        },
+         {
+          "subtitle": "LES MOYENS DE COMMUNICATIONS",
+          "subStrands": [
+            {
+              "subtitle": "PARLER DE LA PRESSE",
+              "topics": [
+                "COMPRENDRE DES DISCUSSIONS SUR LA PRESSE",
+                "ÉCHANGER DES CONVERSATIONS SUR LA PRESSE",
+                "LIRE ET RÉAGIR À DES TEXTES DE PRESSE",
+                "ÉCRIRE SUR LA PRESSE ET ÉCHANGER DES COMMENTAIRES",
+              ],
+            },
+            {
+              "subtitle": "PARLER DE L'INFORMATIQUE",
+              "topics": [
+                "ÉCOUTER ET RÉAGIR À UNE CONVERSATION SUR L'INFORMATIQUE",
+                "S'EXPRIMER SUR L'INFORMATIQUE",
+                "LIRE, COMPRENDRE ET RÉAGIR À UN TEXTE SUR L'INFORMATIQUE",
+                "ÉCRIRE UN TEXTE POUR EXPLIQUER L'INFORMATIQUE",
               ],
             },
           ],
@@ -1143,13 +1724,16 @@ class SidebarController extends GetxController {
       final normalized = gradeStr.trim().toUpperCase().replaceAll(' ', '');
       if (normalized.contains('JHS1') ||
           normalized.contains('JHS-1') ||
-          normalized == '1') return 1;
+          normalized == '1')
+        return 1;
       if (normalized.contains('JHS2') ||
           normalized.contains('JHS-2') ||
-          normalized == '2') return 2;
+          normalized == '2')
+        return 2;
       if (normalized.contains('JHS3') ||
           normalized.contains('JHS-3') ||
-          normalized == '3') return 3;
+          normalized == '3')
+        return 3;
       return 999;
     }
 
@@ -1494,12 +2078,12 @@ class SidebarController extends GetxController {
         ),
       ),
       Course(
-        title: "CAREER",
+        title: "CAREER TECHNOLOGY",
         image: 'assets/images/careerIcon.png',
         color: const Color(0xFFEAFBFD),
         textColor: const Color(0xFF149BAD),
         strands: _generateDummyStrands(
-          "CAREER",
+          "CAREER TECHNOLOGY",
           selectedGrade.value,
           includeBece: false,
         ),
@@ -1606,8 +2190,8 @@ class SidebarController extends GetxController {
                   beceObjectives.lastAttemptScore != null &&
                   beceObjectives.totalQuestions != null &&
                   beceObjectives.totalQuestions! > 0) {
-                double lastScore =
-                    (beceObjectives.lastAttemptScore ?? 0).toDouble();
+                double lastScore = (beceObjectives.lastAttemptScore ?? 0)
+                    .toDouble();
                 double totalQ = (beceObjectives.totalQuestions ?? 1).toDouble();
                 double pct = (totalQ > 0 && lastScore <= totalQ)
                     ? (lastScore / totalQ) * 100
@@ -1616,8 +2200,8 @@ class SidebarController extends GetxController {
                 quizScoreStr = "$percentage%";
 
                 if (beceObjectives.firstAttemptScore != null) {
-                  double firstScore =
-                      beceObjectives.firstAttemptScore!.toDouble();
+                  double firstScore = beceObjectives.firstAttemptScore!
+                      .toDouble();
                   double origPct = (totalQ > 0 && firstScore <= totalQ)
                       ? (firstScore / totalQ) * 100
                       : firstScore;
@@ -1631,7 +2215,7 @@ class SidebarController extends GetxController {
 
               final isLessonCompleted = (hasQuiz || hasPractice)
                   ? ((!hasQuiz || beceObjectives != null) &&
-                      (!hasPractice || beceTheory != null))
+                        (!hasPractice || beceTheory != null))
                   : true;
 
               if (!isLessonCompleted) {
@@ -1696,15 +2280,15 @@ class SidebarController extends GetxController {
                 if (type == 'guided_practice') {
                   if (practice == null ||
                       p.lastUpdated.toUtc().isAfter(
-                            practice.lastUpdated.toUtc(),
-                          )) {
+                        practice.lastUpdated.toUtc(),
+                      )) {
                     practice = p;
                   }
                 } else if (type == 'independent') {
                   if (independent == null ||
                       p.lastUpdated.toUtc().isAfter(
-                            independent.lastUpdated.toUtc(),
-                          )) {
+                        independent.lastUpdated.toUtc(),
+                      )) {
                     independent = p;
                   }
                 } else if (type == 'quiz') {
@@ -1790,7 +2374,8 @@ class SidebarController extends GetxController {
                     'part_${String.fromCharCode(96 + lesson.learn.parts.length)}',
               );
 
-              final isLessonCompleted = latestGetReady != null &&
+              final isLessonCompleted =
+                  latestGetReady != null &&
                   hasFinishedLastLearnPart &&
                   practice != null &&
                   independent != null &&
@@ -1812,8 +2397,8 @@ class SidebarController extends GetxController {
                     if (independent != null && practice != null) {
                       return dateFormat.format(
                         independent.lastUpdated.toUtc().isAfter(
-                                  practice.lastUpdated.toUtc(),
-                                )
+                              practice.lastUpdated.toUtc(),
+                            )
                             ? independent.lastUpdated
                             : practice.lastUpdated,
                       );
@@ -1826,8 +2411,9 @@ class SidebarController extends GetxController {
                   }(),
                   practiceScore: practiceScoreStr,
                   practiceOriginalScore: practiceOriginalScoreStr,
-                  quizDoneDate:
-                      quiz != null ? dateFormat.format(quiz.lastUpdated) : null,
+                  quizDoneDate: quiz != null
+                      ? dateFormat.format(quiz.lastUpdated)
+                      : null,
                   quizScore: quizScoreStr,
                   quizOriginalScore: quizOriginalScoreStr,
                   courseName: course.title,
@@ -2094,8 +2680,9 @@ class SidebarController extends GetxController {
     final activityCount = courseProgress.length;
 
     // Quiz Score
-    final quizRecords =
-        courseProgress.where((p) => p.activityType == 'quiz').toList();
+    final quizRecords = courseProgress
+        .where((p) => p.activityType == 'quiz')
+        .toList();
     double avgQuizScore = 0;
     if (quizRecords.isNotEmpty) {
       double totalPercent = 0;
@@ -2232,8 +2819,9 @@ class SidebarController extends GetxController {
           .toList();
 
       final count = dayProgress.length;
-      final quizRecords =
-          dayProgress.where((p) => p.activityType == 'quiz').toList();
+      final quizRecords = dayProgress
+          .where((p) => p.activityType == 'quiz')
+          .toList();
       double score = 0;
       if (quizRecords.isNotEmpty) {
         double total = 0;
@@ -2278,6 +2866,11 @@ class SidebarController extends GetxController {
     String grade, {
     bool includeBece = true,
   }) {
+    if (courseTitle.trim().toUpperCase() == "CAREER" ||
+        courseTitle.trim().toUpperCase() == "CAREER TECHNOLOGY") {
+      courseTitle = "CAREER";
+    }
+
     final Map<String, List<Map<String, dynamic>>> courseData = {
       "English": [
         {
@@ -4032,8 +4625,8 @@ class SidebarController extends GetxController {
     final strandsData = grade == "JHS 2"
         ? (jhs2CourseData[courseTitle] ?? jhs2CourseData["English"]!)
         : grade == "JHS 3"
-            ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
-            : (courseData[courseTitle] ?? courseData["English"]!);
+        ? (jhs3CourseData[courseTitle] ?? jhs3CourseData["English"]!)
+        : (courseData[courseTitle] ?? courseData["English"]!);
 
     final generatedStrands = List.generate(strandsData.length, (sIndex) {
       final isStrandCompleted = false;
@@ -4066,6 +4659,370 @@ class SidebarController extends GetxController {
               var practiceData = defaultPracticeData;
               var independentPracticeData = defaultIndependentQuizData;
               var quizData = defaultQuizData;
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S4Ss1Lesson3GetReadyData;
+                learnData = careerJhs1S4Ss1Lesson3LearnData;
+                practiceData = careerJhs1S4Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S4Ss1Lesson3IndependentQuizData;
+                quizData = careerJhs1S4Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S4Ss1Lesson2GetReadyData;
+                learnData = careerJhs1S4Ss1Lesson2LearnData;
+                practiceData = careerJhs1S4Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S4Ss1Lesson2IndependentQuizData;
+                quizData = careerJhs1S4Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 3 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S4Ss1Lesson1GetReadyData;
+                learnData = careerJhs1S4Ss1Lesson1LearnData;
+                practiceData = careerJhs1S4Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S4Ss1Lesson1IndependentQuizData;
+                quizData = careerJhs1S4Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 4 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S3Ss5Lesson1GetReadyData;
+                learnData = careerJhs1S3Ss5Lesson1LearnData;
+                practiceData = careerJhs1S3Ss5Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss5Lesson1IndependentQuizData;
+                quizData = careerJhs1S3Ss5Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S3Ss4Lesson2GetReadyData;
+                learnData = careerJhs1S3Ss4Lesson2LearnData;
+                practiceData = careerJhs1S3Ss4Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss4Lesson2IndependentQuizData;
+                quizData = careerJhs1S3Ss4Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S3Ss4Lesson1GetReadyData;
+                learnData = careerJhs1S3Ss4Lesson1LearnData;
+                practiceData = careerJhs1S3Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss4Lesson1IndependentQuizData;
+                quizData = careerJhs1S3Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S3Ss3Lesson2GetReadyData;
+                learnData = careerJhs1S3Ss3Lesson2LearnData;
+                practiceData = careerJhs1S3Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss3Lesson2IndependentQuizData;
+                quizData = careerJhs1S3Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S3Ss3Lesson1GetReadyData;
+                learnData = careerJhs1S3Ss3Lesson1LearnData;
+                practiceData = careerJhs1S3Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss3Lesson1IndependentQuizData;
+                quizData = careerJhs1S3Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S3Ss2Lesson3GetReadyData;
+                learnData = careerJhs1S3Ss2Lesson3LearnData;
+                practiceData = careerJhs1S3Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss2Lesson3IndependentQuizData;
+                quizData = careerJhs1S3Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S3Ss2Lesson2GetReadyData;
+                learnData = careerJhs1S3Ss2Lesson2LearnData;
+                practiceData = careerJhs1S3Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss2Lesson2IndependentQuizData;
+                quizData = careerJhs1S3Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S3Ss2Lesson1GetReadyData;
+                learnData = careerJhs1S3Ss2Lesson1LearnData;
+                practiceData = careerJhs1S3Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss2Lesson1IndependentQuizData;
+                quizData = careerJhs1S3Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 2 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S3Ss1Lesson2GetReadyData;
+                learnData = careerJhs1S3Ss1Lesson2LearnData;
+                practiceData = careerJhs1S3Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S3Ss1Lesson2IndependentQuizData;
+                quizData = careerJhs1S3Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S2Ss4Lesson1GetReadyData;
+                learnData = careerJhs1S2Ss4Lesson1LearnData;
+                practiceData = careerJhs1S2Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss4Lesson1IndependentQuizData;
+                quizData = careerJhs1S2Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S2Ss3Lesson2GetReadyData;
+                learnData = careerJhs1S2Ss3Lesson2LearnData;
+                practiceData = careerJhs1S2Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss3Lesson2IndependentQuizData;
+                quizData = careerJhs1S2Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S2Ss3Lesson1GetReadyData;
+                learnData = careerJhs1S2Ss3Lesson1LearnData;
+                practiceData = careerJhs1S2Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss3Lesson1IndependentQuizData;
+                quizData = careerJhs1S2Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S2Ss2Lesson3GetReadyData;
+                learnData = careerJhs1S2Ss2Lesson3LearnData;
+                practiceData = careerJhs1S2Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss2Lesson3IndependentQuizData;
+                quizData = careerJhs1S2Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S2Ss2Lesson2GetReadyData;
+                learnData = careerJhs1S2Ss2Lesson2LearnData;
+                practiceData = careerJhs1S2Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss2Lesson2IndependentQuizData;
+                quizData = careerJhs1S2Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S2Ss2Lesson1GetReadyData;
+                learnData = careerJhs1S2Ss2Lesson1LearnData;
+                practiceData = careerJhs1S2Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss2Lesson1IndependentQuizData;
+                quizData = careerJhs1S2Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S2Ss1Lesson3GetReadyData;
+                learnData = careerJhs1S2Ss1Lesson3LearnData;
+                practiceData = careerJhs1S2Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss1Lesson3IndependentQuizData;
+                quizData = careerJhs1S2Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S2Ss1Lesson2GetReadyData;
+                learnData = careerJhs1S2Ss1Lesson2LearnData;
+                practiceData = careerJhs1S2Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss1Lesson2IndependentQuizData;
+                quizData = careerJhs1S2Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 1 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S2Ss1Lesson1GetReadyData;
+                learnData = careerJhs1S2Ss1Lesson1LearnData;
+                practiceData = careerJhs1S2Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S2Ss1Lesson1IndependentQuizData;
+                quizData = careerJhs1S2Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S1Ss3Lesson2GetReadyData;
+                learnData = careerJhs1S1Ss3Lesson2LearnData;
+                practiceData = careerJhs1S1Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S1Ss3Lesson2IndependentQuizData;
+                quizData = careerJhs1S1Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 0 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S1Ss3Lesson1GetReadyData;
+                learnData = careerJhs1S1Ss3Lesson1LearnData;
+                practiceData = careerJhs1S1Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S1Ss3Lesson1IndependentQuizData;
+                quizData = careerJhs1S1Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S1Ss2Lesson2GetReadyData;
+                learnData = careerJhs1S1Ss2Lesson2LearnData;
+                practiceData = careerJhs1S1Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S1Ss2Lesson2IndependentQuizData;
+                quizData = careerJhs1S1Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 0 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S1Ss2Lesson1GetReadyData;
+                learnData = careerJhs1S1Ss2Lesson1LearnData;
+                practiceData = careerJhs1S1Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S1Ss2Lesson1IndependentQuizData;
+                quizData = careerJhs1S1Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S1Ss1Lesson3GetReadyData;
+                learnData = careerJhs1S1Ss1Lesson3LearnData;
+                practiceData = careerJhs1S1Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S1Ss1Lesson3IndependentQuizData;
+                quizData = careerJhs1S1Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S1Ss1Lesson2GetReadyData;
+                learnData = careerJhs1S1Ss1Lesson2LearnData;
+                practiceData = careerJhs1S1Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S1Ss1Lesson2IndependentQuizData;
+                quizData = careerJhs1S1Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 0 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S1Ss1Lesson1GetReadyData;
+                learnData = careerJhs1S1Ss1Lesson1LearnData;
+                practiceData = careerJhs1S1Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S1Ss1Lesson1IndependentQuizData;
+                quizData = careerJhs1S1Ss1Lesson1QuizData;
+              }
 
               if (grade == "JHS 3" &&
                   courseTitle == "CREATIVE ARTS" &&
@@ -13096,16 +14053,18 @@ class SidebarController extends GetxController {
         final normalStrand = generatedStrands[sIndex];
 
         List<Lesson> beceLessonsForStrand = [];
-        for (int ssIndex = 0;
-            ssIndex < normalStrand.subStrands.length;
-            ssIndex++) {
+        for (
+          int ssIndex = 0;
+          ssIndex < normalStrand.subStrands.length;
+          ssIndex++
+        ) {
           final normalSubStrand = normalStrand.subStrands[ssIndex];
 
           final String gradeClean = grade.replaceAll(' ', '');
           final int sNumber = sIndex + 1;
           final int ssNumber = ssIndex + 1;
-          final String normalizedSubStrandTitle =
-              normalSubStrand.subtitle.trim();
+          final String normalizedSubStrandTitle = normalSubStrand.subtitle
+              .trim();
 
           // Subject name aliases
           final List<String> subjectAliases = [
@@ -13190,8 +14149,9 @@ class SidebarController extends GetxController {
 
           // Extract display name: strip all prefix tokens, keep only the custom name after " - "
           String displaySubStrandName = normalSubStrand.subtitle;
-          final String rawKey =
-              matchedQuizKey.isNotEmpty ? matchedQuizKey : matchedPracticeKey;
+          final String rawKey = matchedQuizKey.isNotEmpty
+              ? matchedQuizKey
+              : matchedPracticeKey;
           if (rawKey.isNotEmpty) {
             if (rawKey.contains(" - ")) {
               displaySubStrandName = rawKey.split(" - ").last.trim();

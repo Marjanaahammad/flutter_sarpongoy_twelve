@@ -110,6 +110,62 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/images/Career/JHS1_s4_ss1_L3/
+    - assets/audio/career/JHS1_s4_ss1_l3/
+    - assets/images/Career/JHS1_s4_ss1_L2/
+    - assets/audio/career/JHS1_s4_ss1_L2/
+    - assets/images/Career/JHS1_s4_ss1_L1/
+    - assets/audio/career/JHS1_s4_ss1_L1/
+    - assets/images/Career/JHS1_s3_ss5_L1/
+    - assets/audio/career/JHS1_s3_ss5_L1/
+    - assets/images/Career/JHS1_s3_ss4_L2/
+    - assets/audio/career/JHS1_s3_ss4_L2/
+    - assets/images/Career/JHS1_s3_ss4_L1/
+    - assets/audio/career/JHS1_s3_ss4_l1/
+    - assets/images/Career/JHS1_s3_ss3_l2/
+    - assets/audio/career/JHS1_s3_ss3_l2/
+    - assets/images/Career/JHS1_s3_ss3_L1/
+    - assets/audio/career/JHS1_s3_ss3_L1/
+    - assets/images/Career/JHS1_s3_ss2_L3/
+    - assets/audio/career/JHS1_s3_ss2_l3/
+    - assets/images/Career/JHS1_s3_ss2_l2/
+    - assets/audio/career/JHS1_s3_ss2_l2/
+    - assets/images/Career/JHS1_s3_ss2_l1/
+    - assets/audio/career/JHS1_s3_ss2_L1/
+    - assets/images/Career/JHS1_s3_ss1_l2/
+    - assets/audio/career/JHS1_s3_ss1_l2/
+    - assets/images/Career/JHS1_s2_ss4_L1/
+    - assets/audio/career/JHS1_s2_ss4_l1/
+    - assets/images/Career/JHS1_s2_ss3_L2/
+    - assets/audio/career/JHS1_s2_ss3_l2/
+    - assets/images/Career/JHS1_s2_ss3_l1/
+    - assets/audio/career/JHS1_s2_ss3_L1/
+    - assets/images/Career/JHS1_s2_ss2_L3/
+    - assets/audio/career/JHS1_s2_ss2_L3/
+    - assets/images/Career/JHS1_s2_ss2_L2/
+    - assets/audio/career/JHS1_s2_ss2_L2/
+    - assets/images/Career/JHS1_s2_ss2_l1/
+    - assets/audio/career/JHS1_s2_ss2_l1/
+    - assets/images/Career/JHS1_s2_ss1_l3/
+    - assets/audio/career/JHS1_s2_ss1_L3/
+    - assets/images/Career/JHS1_s2_ss1_L2/
+    - assets/audio/career/JHS1_s2_ss1_L2/
+    - assets/images/Career/JHS1_s2_ss1_l1/
+    - assets/audio/career/JHS1_s2_ss1_l1/
+    - assets/images/Career/JHS1_s1_ss3_L2/
+    - assets/audio/career/JHS1_s1_ss3_l2/
+    - assets/images/Career/JHS1_s1_ss3_l1/
+    - assets/audio/career/JHS1_s1_ss3_l1/
+    - assets/images/Career/JHS1_s1_ss2_l2/
+    - assets/audio/career/JHS1_s1_ss2_L2/
+    - assets/images/Career/JHS1_s1_ss2_L1/
+    - assets/audio/career/JHS1_s1_ss2_L1/
+    - assets/images/Career/JHS1_s1_ss1_L3/
+    - assets/audio/career/JHS1_s1_ss1_L3/
+    - assets/images/Career/JHS1_s1_ss1_l2/
+    - assets/audio/career/JHS1_s1_ss1_l2/
+    - assets/images/Career/JHS1_s1_ss1_l1/
+    - assets/audio/career/JHS1_s1_ss1_l1/
     - assets/images/CreativeArts/JHS3_s2_ss3_L7/
     - assets/audio/CreativeArts/JHS3_s2_ss3_L7/
     - assets/images/CreativeArts/JHS3_s2_ss3_l6/
