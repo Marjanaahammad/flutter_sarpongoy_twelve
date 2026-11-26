@@ -1,5 +1,1003 @@
 import '../model/independent_practice_model.dart';
 
+final IndependentPracticeModel
+careerJhs1S6Ss2Lesson4IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss2_L4/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following describes identifying a local entrepreneurial opportunity?",
+      options: [
+        "Spotting an unmet community need and providing a viable solution",
+        "Asking municipal authorities to provide free monthly groceries",
+        "Copying an imported business model without considering local demand",
+        "Borrowing money to purchase luxury electronics for home entertainment",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "An entrepreneurial opportunity starts with an unmet need that a business can address through a practical, viable product or service.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary benefit of utilizing local raw materials in an enterprise?",
+      options: [
+        "It guarantees that the business will never need to pay wages",
+        "It lowers transport and raw material procurement expenses",
+        "It allows the enterprise to operate without municipal registration",
+        "It forces community members to purchase goods on credit",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Nearby raw materials reduce the distance and expense involved in sourcing and transporting production inputs.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. When conducting market research on local enterprises, an entrepreneur should investigate:",
+      options: [
+        "The private medical records of neighbouring business employees",
+        "The challenges faced by owners and potential operational fixes",
+        "The personal household possessions owned by competitors",
+        "The confidential banking pins used by local retail managers",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Investigating operational challenges and possible solutions helps an entrepreneur plan for realistic local business conditions.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which trade area directly addresses a shortage of residential housing infrastructure?",
+      options: [
+        "Cosmetology and makeup artistry",
+        "Fashion design and garment alteration",
+        "Masonry, block-laying, and tiling",
+        "Commercial pastry baking and catering",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Masonry, block-laying, and tiling provide construction skills needed to build and finish residential housing.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel
+careerJhs1S6Ss2Lesson3IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss2_L3/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following is a clear advantage of starting a private enterprise?",
+      options: [
+        "Freedom to make decisions and control operations",
+        "Guaranteed exemption from all commercial taxes",
+        "Immunity from customer complaints and returns",
+        "Automatic provision of raw materials by banks",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Owning an enterprise allows the entrepreneur to make business decisions and direct daily operations.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. A shopkeeper who works twelve hours daily, including weekends, experiences which disadvantage?",
+      options: [
+        "High employment generation",
+        "Complete operational flexibility",
+        "Long working hours and high stress",
+        "Instant industrial automation",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Extended daily and weekend working hours can cause fatigue and stress for the business owner.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "3. How does entrepreneurship benefit the wider public community?",
+      options: [
+        "By restricting trade to close family relatives",
+        "By providing needed local goods and new jobs",
+        "By eliminating competitive prices across shops",
+        "By stopping individuals from saving personal funds",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Local enterprises meet community needs with goods and services while creating jobs and income.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which situation represents the disadvantage of financial risk in business?",
+      options: [
+        "Taking an afternoon rest during quiet hours",
+        "Training hired apprentices on modern tools",
+        "Receiving an unexpected large customer order",
+        "Losing invested capital due to poor demand",
+      ],
+      correctIndex: 3,
+      difficulty: "Medium",
+      explanation: "Poor demand can reduce sales below costs, causing an entrepreneur to lose money invested in the enterprise.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S6Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s6_ss2_l2/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which trait is shown by a dressmaker who invents a new school bag using discarded jean offcuts?",
+          options: [
+            "Irregular bookkeeping",
+            "Passive compliance",
+            "Rigid traditionalism",
+            "Creative problem-solving",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Turning discarded jean offcuts into a useful school bag demonstrates an inventive solution that creates value from available materials.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. When an entrepreneur stays positive during slow business weeks and encourages staff, they display:",
+          options: [
+            "Indifference and caution",
+            "Passion and optimism",
+            "Strict authoritarianism",
+            "Careless financial waste",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Passion and optimism help an entrepreneur remain enthusiastic and encourage staff when sales are slow.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Setting specific weekly production targets and monthly savings targets in an enterprise is known as:",
+          options: [
+            "Goal setting",
+            "Price gouging",
+            "Asset borrowing",
+            "Public lobbying",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Goal setting establishes clear targets that guide production, savings, and business progress.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. An entrepreneur who extends workshop hours to finish emergency orders for a customer demonstrates:",
+          options: [
+            "Severe workplace disorder",
+            "Complete lack of foresight",
+            "Commitment and flexibility",
+            "Reckless capital investment",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Adjusting working hours to meet an urgent customer need shows dedication to service and willingness to adapt plans.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S6Ss2Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss2_L1/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which statement provides the best definition of entrepreneurship?",
+      options: [
+        "Working for an established agency to earn a fixed monthly salary",
+        "Setting up a business enterprise and taking risks to gain profit",
+        "Donating personal money to help build a public community centre",
+        "Borrowing tools from neighbours to carry out quick home repairs",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Entrepreneurship involves establishing and managing a business while accepting financial risks in pursuit of profit.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Who among the following individuals is functioning directly as an entrepreneur?",
+      options: [
+        "A secondary school tutor who delivers lectures for an agreed wage",
+        "A civil service clerk processing identity cards in a district hall",
+        "A local shoemaker who opens an independent shop with his savings",
+        "A hired commercial minibus driver working for an transport agency",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "The shoemaker invests personal savings in an independent business and bears the risk of losing that investment.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What critical factor distinguishes an entrepreneur from a salaried employee?",
+      options: [
+        "Operating modern digital devices daily",
+        "Bearing the personal risk of financial loss",
+        "Wearing formal clothes to the workstation",
+        "Working only during cool evening hours",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "An entrepreneur risks invested capital and bears business losses, while a salaried employee receives agreed pay without that ownership risk.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Why do entrepreneurs take on financial risks when establishing business ventures?",
+      options: [
+        "To guarantee an immediate return from government grants",
+        "To avoid interacting with consumers in their neighbourhoods",
+        "To gain profit and build an independent source of income",
+        "To eliminate every operational cost across the supply chain",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Entrepreneurs accept the possibility of financial loss because they hope to earn profit and establish an independent income.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S6Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s6_ss1_l1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What term identifies the preferred sensory method an individual uses to absorb, process, and retain technical concepts?",
+          options: [
+            "Vocational bias",
+            "Cultural stereotype",
+            "Learning style",
+            "Commercial trade",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "The term learning style describes a preferred approach to absorbing, processing, and retaining information.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. A student who masters garment construction through physical fabric handling and direct sewing practice belongs to which learning category?",
+          options: [
+            "Auditory learner",
+            "Kinaesthetic learner",
+            "Linguistic learner",
+            "Reflective learner",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Physical fabric handling and sewing practice are hands-on activities associated with kinaesthetic learning.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which belief correctly reflects a progressive view on modern technical and vocational career pathways?",
+          options: [
+            "Men alone should pursue masonry work",
+            "Women alone must pursue catering trades",
+            "Every trade is suitable for all genders",
+            "Artistic fashion is unsuitable for men",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Technical careers are open to all genders; career choices should reflect individual interests, abilities, and training.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. How does Career Technology education primarily prepare a junior high school graduate for financial independence?",
+          options: [
+            "By teaching self-employment skills",
+            "By eliminating physical manual labour",
+            "By guaranteeing foreign government jobs",
+            "By discouraging practical trade work",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Practical vocational skills help graduates create products, provide services, and earn income through self-employment.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S5Ss4Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss4_l3/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which of the following is classified as a compliant material suitable for mock-ups?",
+          options: [
+            "Cast iron block",
+            "Corrugated cardboard",
+            "Tempered window glass",
+            "Ceramic clay tile",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Corrugated cardboard can be cut, bent, and folded easily, making it a compliant material suited to mock-ups.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the primary function of building a mock-up during the design process?",
+          options: [
+            "Testing dimensions and checking parts assembly",
+            "Selling finished luxury items at commercial markets",
+            "Replacing all future needs for resistant materials",
+            "Storing heavy workshop tools permanently",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "A mock-up lets designers check dimensions and how parts fit together before making the final artefact.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. If an actual table width is eight hundred millimetres, what is its ten percent scale mock-up dimension?",
+          options: [
+            "Eight millimetres",
+            "Forty millimetres",
+            "Eighty millimetres",
+            "Eight hundred millimetres",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Ten percent of eight hundred millimetres is eighty millimetres, calculated by dividing eight hundred by ten.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which document details the names, quantities, and dimensions of parts before cutting?",
+          options: [
+            "Sales purchase receipt",
+            "Systematic cutting list",
+            "Workshop safety manual",
+            "Final customer invoice",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A cutting list records each part name, quantity, and dimension so components can be measured and cut correctly.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. What technique helps produce crisp, straight bends when folding thick cardboard sheets?",
+          options: [
+            "Soaking the board completely in water",
+            "Burning fold lines using charcoal heat",
+            "Scoring along fold lines with a blunt edge",
+            "Tearing the cardboard along ruler edges",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Scoring compresses the fibres along a fold line so thick cardboard bends neatly and accurately.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S5Ss4Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss4_l2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which stitch is primarily used to hold pieces of fabric together temporarily before final stitching?",
+          options: [
+            "Back stitch",
+            "Tacking stitch",
+            "Overcasting stitch",
+            "Double crochet stitch",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Tacking stitches temporarily hold fabric layers in position and are removed after the permanent stitching is complete.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the foundation stitch required to begin any basic crochet project?",
+          options: [
+            "Chain stitch",
+            "Blanket stitch",
+            "Back stitch",
+            "Running stitch",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Chain stitches form the foundation row from which basic crochet work is built.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which stitch creates an unbroken, continuous line of thread that resembles machine stitching?",
+          options: [
+            "Uneven tacking stitch",
+            "Slip crochet stitch",
+            "Permanent back stitch",
+            "Open running stitch",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Back stitches overlap by returning into the previous stitch, forming a strong continuous line similar to machine stitching.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the primary function of working an overcasting stitch on a fabric workpiece?",
+          options: [
+            "Joining thick leather shoe soles",
+            "Preventing raw edges from fraying",
+            "Creating elastic gathers on waistbands",
+            "Fastening metal press studs in place",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Overcasting stitches wrap around the raw edge to secure loose yarns and prevent fraying.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. Which crochet stitch is commonly used to join pieces or finish an edge without adding height?",
+          options: [
+            "Triple treble crochet",
+            "Long running stitch",
+            "Neat slip stitch",
+            "High double crochet",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "A slip stitch draws yarn directly through the work and the loop on the hook, creating a flat join or edge finish.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S5Ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss4_l1/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. What is the standard boiling point of water at normal atmospheric pressure?",
+      options: [
+        "Sixty-five degrees Celsius",
+        "Eighty-five degrees Celsius",
+        "One hundred degrees Celsius",
+        "One hundred and twenty degrees Celsius",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Water boils at one hundred degrees Celsius at normal atmospheric pressure.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "2. Which food item is best prepared by boiling rather than stewing?",
+      options: [
+        "Fresh ocean fish steaks",
+        "Dried cowpea bean seeds",
+        "Thinly sliced ripe tomatoes",
+        "Chopped leafy kontomire",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Dried cowpeas need sustained cooking in sufficient water to soften their firm seeds.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Why is stewing considered an effective method for conserving food nutrients?",
+      options: [
+        "Food cooks in seconds without any direct heat applied",
+        "All cooking liquid is eaten with the finished meal",
+        "Food requires zero liquid during the cooking stage",
+        "Ingredients remain completely raw inside the pot",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Nutrients that dissolve into the cooking liquid are retained in the sauce and eaten with the finished stew.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which practical step prevents steam burns when checking a simmering pot?",
+      options: [
+        "Lift the lid directly toward your face quickly",
+        "Tilt the lid away from your face and chest",
+        "Use bare wet hands to lift the hot metal lid",
+        "Blow cold air under the lid before lifting it",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Tilting the lid away directs escaping steam away from your face and chest, reducing the risk of scalding.",
+    ),
+    IndependentPracticeQuestion(
+      question:
+          "5. What temperature range is maintained during the stewing process?",
+      options: [
+        "Forty to fifty-two degrees Celsius",
+        "Sixty to seventy-two degrees Celsius",
+        "Eighty-two to ninety degrees Celsius",
+        "One hundred to one hundred ten degrees Celsius",
+      ],
+      correctIndex: 2,
+      difficulty: "Medium",
+      explanation: "Stewing maintains gentle moist heat below a full boil, using the stated range of eighty-two to ninety degrees Celsius.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S5Ss3Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss3_L2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which cooking technique qualifies as a moist method of food preparation?",
+          options: [
+            "Deep oil frying",
+            "Hot open baking",
+            "Water stewing",
+            "Dry pan roasting",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Stewing is a moist cooking method because food cooks slowly in a small amount of liquid.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What temperature must liquid reach to be considered at a full boil?",
+          options: [
+            "One hundred degrees Celsius",
+            "Seventy-five degrees Celsius",
+            "Fifty-five degrees Celsius",
+            "Forty degrees Celsius",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "At normal atmospheric pressure, water reaches a full boil at one hundred degrees Celsius.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which Ghanaian dish is an example of boiling where the food absorbs all the liquid?",
+          options: [
+            "Cassava tuber pieces",
+            "Clear fish light soup",
+            "Shelled poultry eggs",
+            "Savoury jollof rice",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "In jollof rice, the rice absorbs the cooking liquid as it becomes tender.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Why is stewing particularly suitable for preparing cheaper cuts of meat?",
+          options: [
+            "It turns firm cuts into dry, crispy morsels",
+            "It tenderises tough tissues over low heat",
+            "It burns off all animal fats within minutes",
+            "It eliminates the need for washing meat",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Slow cooking in moist, gentle heat softens the tough connective tissues in cheaper cuts of meat.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. What is a major nutritional disadvantage of draining water from boiled vegetables?",
+          options: [
+            "It extracts excessive fat from vegetables",
+            "It causes food starches to harden rapidly",
+            "Water-soluble vitamins are lost in water",
+            "It introduces bacteria into the cooked pot",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Water-soluble vitamins can dissolve into the cooking water and are lost when that water is discarded.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs1S5Ss3Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss3_L1/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which meal is specifically planned to replace both breakfast and lunch?",
+      options: ["Elevenses", "High tea", "Brunch", "Supper"],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation:
+          "Brunch combines breakfast and lunch into one late-morning meal.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. What is the primary nutritional role of a healthy school breakfast?",
+      options: [
+        "To provide quick energy and focus for morning activities",
+        "To induce deep rest and physical relaxation for pupils",
+        "To store fats inside the body for future emergencies",
+        "To satisfy hydration needs without taking in solid food",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "A healthy breakfast supplies energy after the overnight fast and helps pupils concentrate during morning activities.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which household member typically requires the highest proportion of body-building foods in their daily meal plan?",
+      options: [
+        "An elderly person resting indoors",
+        "A rapidly growing teenager",
+        "A sedentary office clerk",
+        "A driver resting on leave",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "A rapidly growing teenager needs protein-rich body-building foods to support the growth and repair of body tissues.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which item represents the most suitable and healthy mid-afternoon snack?",
+      options: [
+        "A heavy plate of fufu and goat soup",
+        "A bowl of sliced pawpaw and groundnuts",
+        "A large carbonated soda with sugar confectionery",
+        "A deep-fried whole river fish with hot pepper",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Pawpaw supplies vitamins and fibre, while groundnuts provide protein and healthy fats in a light snack.",
+    ),
+    IndependentPracticeQuestion(
+      question: "5. How does taking advantage of seasonal produce help a family manage meal planning?",
+      options: [
+        "It allows meals to stay balanced while reducing grocery expenses",
+        "It guarantees that food never perishes inside the home pantry",
+        "It eliminates the necessity of boiling or stewing fresh ingredients",
+        "It enables the household to consume solely imported canned meats",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Seasonal produce is plentiful and usually costs less, helping families prepare nutritious meals within their budget.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs1S5Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss2_l2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which tool should a student avoid using when producing initial freehand sketches during idea generation?",
+          options: [
+            "Soft graphite pencil",
+            "Plain sketch paper",
+            "Plastic drawing ruler",
+            "Standard rubber eraser",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Freehand sketches are drawn without guiding instruments such as rulers so ideas can be recorded quickly and freely.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the primary purpose of writing descriptive notes alongside conceptual design sketches?",
+          options: [
+            "To record total tool costs in the market",
+            "To state materials, joints, and functions",
+            "To calculate final school term grades",
+            "To replace all future working drawings",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Descriptive notes explain the materials, joining methods, and functions that a line drawing alone may not communicate.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. When evaluating three alternative design sketches, what is the designer primarily verifying?",
+          options: [
+            "If each idea satisfies the brief requirements",
+            "Which student completed drawing first",
+            "How much ink was used on the paper",
+            "The artistic shading technique applied",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Each alternative must be checked against the requirements and constraints of the design brief before a suitable solution is selected.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. In orthographic working drawings, which view illustrates the artefact as seen directly from above?",
+          options: [
+            "End elevation view",
+            "Front elevation view",
+            "Isometric projection",
+            "Standard plan view",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "A plan view shows the object from directly above, while front and end elevations show its front and side profiles.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S5Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss2_L1/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What is the primary purpose of writing a design brief before starting practical construction work?",
+          options: [
+            "To purchase workshop materials at a lower cost",
+            "To state a problem clearly and define a needed solution",
+            "To draw final assembly diagrams using drafting ink",
+            "To assign grades to students during practical tests",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A design brief states the problem and the solution needed so practical work addresses a clear purpose.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which question is most important when identifying the target user in a design brief?",
+          options: [
+            "Who is experiencing the specific difficulty?",
+            "What time of day will the construction start?",
+            "How many tools are kept inside the storeroom?",
+            "Which vehicle will transport timber supplies?",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Identifying who experiences the difficulty reveals the target user whose needs the artefact must meet.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why is it recommended for student designers to brainstorm multiple solutions instead of choosing the first idea?",
+          options: [
+            "It guarantees that materials will cost no money",
+            "It eliminates the need to draw working diagrams",
+            "It allows the team to compare different approaches",
+            "It makes the final construction work much faster",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Generating several ideas lets the team compare their strengths, limitations, and suitability before selecting a solution.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. A design team meets to discuss ideas for storing wet sports jerseys. What is the main benefit of this group discussion?",
+          options: [
+            "It allows members to test ideas and spot flaws",
+            "It removes the need to select suitable timber",
+            "It reduces the total number of required tools",
+            "It ensures that the teacher does all planning",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Group discussion brings different viewpoints together to evaluate ideas and identify weaknesses before construction.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S5Ss1Lesson4IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss1_L4/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which of the following is classified strictly as a two-dimensional plane shape?",
+          options: [
+            "A solid wooden cube",
+            "A flat paper triangle",
+            "A hollow metal pipe",
+            "A clay beverage brick",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A flat triangle represents a plane shape with length and width, while the cube, pipe, and brick are solid objects with depth.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. At what angle are visible receding surfaces standardly drawn in an isometric sketch?",
+          options: [
+            "Fifteen degrees",
+            "Forty-five degrees",
+            "Sixty degrees",
+            "Thirty degrees",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The receding base lines in an isometric sketch are drawn at thirty degrees to the horizontal.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. What is the defining visual feature of an oblique pictorial drawing?",
+          options: [
+            "The front face is drawn parallel to the paper",
+            "All visible base edges recede at thirty degrees",
+            "All lines converge at a single vanishing point",
+            "No horizontal or vertical lines are used",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "An oblique drawing keeps the front face flat and parallel to the paper, while inclined receding lines show depth.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which pictorial technique makes objects appear progressively smaller as they get further away?",
+          options: [
+            "Orthographic layout",
+            "Isometric view",
+            "Perspective sketch",
+            "Oblique projection",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Perspective sketching represents distance by making features smaller and directing receding lines toward vanishing points.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. What is the primary purpose of compiling sketches into a personal design album?",
+          options: [
+            "To calculate market production costs",
+            "To build an album for display and appraisal",
+            "To store unused drafting paper sheets",
+            "To sharpen graphite drafting pencils",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A personal design album collects sketches for display and appraisal so drawing techniques can be assessed and improved.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S5Ss1Lesson3IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss1_l3/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What is the standard height required for lettering main drawing titles in graphic communication?",
+          options: [
+            "Exactly four millimetres",
+            "Exactly six millimetres",
+            "Exactly eight millimetres",
+            "Exactly ten millimetres",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "In this lesson, main drawing titles use eight-millimetre lettering to distinguish them from general notes and dimensions.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Where is the title block conventionally positioned on a standard technical drawing sheet?",
+          options: [
+            "Along the top-left margin border",
+            "Centred directly below the main sketch",
+            "Along the upper right-hand border",
+            "In the bottom right-hand corner",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "The title block sits in the bottom right-hand corner so identification details remain easy to find when sheets are filed.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. What is the recommended pencil grade for freehand sketching of object outlines and lettering?",
+          options: [
+            "A soft and dark HB pencil",
+            "A hard and faint 4H pencil",
+            "A very soft 6B pencil",
+            "A heavy grease crayon",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "An HB pencil produces clear outlines and lettering while allowing controlled freehand strokes.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the standard recommended height for writing general notes, dimensions, and class details?",
+          options: [
+            "Three millimetres",
+            "Six millimetres",
+            "Nine millimetres",
+            "Twelve millimetres",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "In this lesson, general notes, dimension labels, and class details use six-millimetre lettering, below the eight-millimetre main titles.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. What is the primary characteristic of freehand sketching in graphic communication?",
+          options: [
+            "It requires precision drafting templates",
+            "It is drawn without using instruments",
+            "It uses ink pens on heavy tracing sheets",
+            "It relies on computerized vector guides",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Freehand sketching uses hand and eye coordination to draw shapes without rulers, compasses, or other drafting instruments.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S5Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_s5_ss1_L2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which line type is specifically used to draw the visible outer boundaries of an artefact?",
+          options: [
+            "A thin continuous line",
+            "A continuous thick line",
+            "An evenly dashed line",
+            "A wavy break line",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A continuous thick line outlines visible edges and makes the final shape of the artefact stand out from construction and dimension lines.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which line is described as a straight line running upright from bottom to top perpendicular to the horizon?",
+          options: [
+            "A diagonal line",
+            "An inclined line",
+            "A circular arc",
+            "A vertical line",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "A vertical line runs upright and forms a right angle with the horizontal direction.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. What is the primary purpose of drawing thin continuous lines during the initial stages of a layout?",
+          options: [
+            "To serve as initial construction lines",
+            "To show the final visible boundaries",
+            "To represent unseen internal joints",
+            "To mark the outer boundary borders",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Thin continuous lines provide faint construction guides for planning a layout before the final outlines are drawn.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What type of line should an instructional designer use to illustrate a hollow hole hidden behind a wooden block?",
+          options: [
+            "An inclined solid line",
+            "A thick continuous line",
+            "A short dashed line",
+            "A curved leader line",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Short dashed lines show hidden edges and internal features that cannot be seen through the visible surfaces of an object.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. What feature must be present at both ends of a standard dimension line?",
+          options: [
+            "Dark circular rings",
+            "Sharpened arrowheads",
+            "Thick square points",
+            "Wavy divider notches",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Arrowheads mark the two boundaries of the distance measured by a dimension line.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs1S5Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS1_S5_SS1_L1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which of the following is classified as a drawing material rather than an instrument or equipment?",
+          options: [
+            "A wooden drafting board with a true edge",
+            "A forty-five-degree clear set square",
+            "A sheet of smooth white cartridge paper",
+            "A pair of steel measurement dividers",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Drawing paper is a consumable material; a drafting board is equipment, while set squares and dividers are instruments.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which drawing instrument is specifically designed to rule long, accurate horizontal lines across a drawing sheet?",
+          options: [
+            "A metric drafting ruler",
+            "A technical T-square",
+            "A pair of dividers",
+            "A set square",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "A T-square rests against the drawing board's working edge and guides long, accurate horizontal lines across the sheet.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. What is the primary function of a pair of dividers in graphic communication?",
+          options: [
+            "To rule precise vertical lines",
+            "To create dark border outlines",
+            "To transfer set measurements",
+            "To draw small circular curves",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Dividers have two pointed legs used to transfer measurements or step off equal distances.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the correct way to handle a pair of compasses while drawing a circular arc?",
+          options: [
+            "Squeeze both metal legs firmly with your fingers",
+            "Hold the pencil leg flat against the drawing paper",
+            "Press the needle down using the palm of your hand",
+            "Rotate the knurled handle at the top of the tool",
+          ],
+          correctIndex: 3,
+          difficulty: "Medium",
+          explanation: "Rotating the top knurled handle leaves the movable legs untouched, keeping the radius constant throughout the arc.",
+        ),
+        IndependentPracticeQuestion(
+          question: "5. Which action is recommended to maintain metal drafting instruments in good condition?",
+          options: [
+            "Wash them under soapy tap water after each lesson",
+            "Wipe with a dry cloth and oil joints sparingly",
+            "Sharpen both metal points against concrete blocks",
+            "Store them loosely inside large workshop drawers",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "A dry cloth removes dust and moisture, while a small amount of oil keeps joints moving smoothly and helps prevent corrosion.",
+        ),
+      ],
+    );
+
 final IndependentPracticeModel careerJhs1S4Ss1Lesson3IndependentQuizData =
     IndependentPracticeModel(
       audioPath:

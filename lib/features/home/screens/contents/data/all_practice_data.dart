@@ -1,5 +1,361 @@
 import '../model/practice_model.dart';
 
+final PracticeModel careerJhs1S6Ss2Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss2_L4/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Identify two vocational enterprise opportunities that can be launched in a farming community that produces an excess supply of fresh cassava.",
+      answer: "Establishing a mechanized gari processing enterprise or a cassava flour milling and packaging enterprise.",
+      explanation: "Processing raw, perishable cassava into dried products adds commercial value, prevents crop spoilage, and creates marketable packaged foods.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain why an entrepreneur must research the specific challenges faced by existing businesses before opening a competing workshop in the same locality.",
+      answer: "Researching existing challenges reveals hidden costs, supply shortages, and utility risks, enabling the new entrepreneur to devise practical solutions before investing capital.",
+      explanation: "Understanding common local hurdles protects the owner from repeating costly operational mistakes made by predecessors.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe how a young welder can use discarded scrap metal from an auto-repair enclave to create a profitable small business.",
+      answer: "The welder can collect scrap pipes and metal sheets at low cost to fabricate coal pots, security burglar bars, rake heads, or farm gates for community residents.",
+      explanation: "Sourcing low-cost discarded materials reduces startup production expenses while delivering valuable, durable goods needed by local residents.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S6Ss2Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss2_L3/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain how an entrepreneur contributes directly to reducing community unemployment through their business operations.",
+      answer: "As the business expands, the entrepreneur hires local workers and apprentices to handle production, sales, and administration, providing them with regular wages.",
+      explanation: "Business growth requires additional labour; by recruiting community members, the owner creates jobs and generates income for families.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe what is meant by an \"irregular income stream\" and explain why it creates anxiety for small enterprise owners.",
+      answer: "It means earnings vary unpredictably month to month, making it difficult to pay fixed operational costs and family expenses during slow trading seasons.",
+      explanation: "Unlike fixed wage workers, business owners face fluctuating monthly revenues, requiring strict cash flow management to survive low-demand periods.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why do many small entrepreneurs find it difficult to obtain startup loans from financial institutions?",
+      answer: "They often lack formal business records, physical property collateral, or proven credit history, leading lenders to view them as high-risk borrowers.",
+      explanation: "Commercial banks demand tangible security and reliable trading records before lending, which new small enterprises rarely possess.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S6Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss2_l2/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Describe how an entrepreneur demonstrates the characteristic of \"resourcefulness\" when working with limited funds in a local carpentry shop.",
+      answer: "The entrepreneur makes clever use of offcut wood, reconditions secondhand tools, and improvises workbenches to complete orders without expensive purchases.",
+      explanation: "Resourcefulness involves finding smart, innovative solutions and maximising available tools and materials when financial resources are limited.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the difference between reckless gambling and the \"calculated risk-taking\" practiced by a successful entrepreneur.",
+      answer: "Calculated risk-taking involves studying market demand and planning carefully before investing money, whereas reckless gambling is spending money on blind chance without preparation.",
+      explanation: "Successful entrepreneurs weigh the odds, evaluate customer needs, and take steps to protect their investment rather than acting on blind impulse.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why are perseverance and persistence essential qualities for someone opening a new agro-processing enterprise in a rural area?",
+      answer: "They allow the owner to keep working through seasonal bad weather, equipment breakdowns, power outages, and slow initial sales until the business stabilizes.",
+      explanation: "New agricultural ventures often face unpredictable local hurdles; without persistence, an owner will quit before customer loyalty and consistent revenue are built.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S6Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss2_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Define the term \"entrepreneurship\" in your own words, making sure to highlight the two main factors that make it a bold venture.",
+      answer: "Entrepreneurship is the activity of starting and managing a business enterprise while taking on financial risks in the hope of making a profit.",
+      explanation: "A complete definition must capture both key elements: accepting financial risk and striving to achieve a profit through business management.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain why a person who invests three hundred Cedis to start a mobile egg and bread cart is considered an entrepreneur, whereas a hired assistant who sells the bread for an agreed daily wage is not.",
+      answer: "The investor is an entrepreneur because they own the business, risk their personal savings, and gain profit or bear loss; the assistant is a wage employee who bears no direct business risk.",
+      explanation: "The true test of an entrepreneur is ownership and the assumption of financial risk, rather than simply carrying out selling duties.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe what \"financial risk\" means to a young dressmaker in Kumasi who is launching her own fashion boutique.",
+      answer: "It means she must spend money on sewing equipment and fabrics before knowing whether enough clients will buy her garments to recover costs and yield profit.",
+      explanation: "Financial risk represents the uncertainty of whether business revenues will exceed the initial capital invested.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S6Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s6_ss1_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the key difference between a visual learner and a kinaesthetic learner in a school Career Technology workshop.",
+      answer: "A visual learner understands skills best by observing drawings, diagrams, and physical demonstrations, whereas a kinaesthetic learner acquires skills primarily through direct hands-on practice, handling tools, and working with physical materials.",
+      explanation: "Visual learning relies on sight and mental imagery to process instructions, while kinaesthetic learning requires tactile contact, movement, and physical manipulation of workshop resources to master technical processes.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State two ways studying Career Technology directly supports Ghana's economic development.",
+      answer: "It provides practical vocational skills that encourage young people to start their own enterprises, and it creates a trained workforce capable of manufacturing quality domestic goods to reduce reliance on imported products.",
+      explanation: "Career Technology trains citizens to become self-employed producers, which reduces unemployment and strengthens local production of clothing, furniture, food, and infrastructure.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is it harmful for students to let traditional gender roles determine their technical career choices?",
+      answer: "Relying on gender roles discourages talented students from entering trades that match their genuine strengths, limits their economic earnings, and deprives industries of skilled male or female workers.",
+      explanation: "Career success depends on training, dedication, and personal ability rather than gender stereotypes; restricting vocations based on social bias harms individual growth and national productivity.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss4Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss4_l3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State two main advantages of constructing a mock-up out of recycled cardboard before producing an artefact in timber or sheet metal.",
+      answer: "It allows designers to identify sizing errors early and saves money by preventing waste of expensive resistant materials.",
+      explanation: "Cardboard is cheap and easy to modify. Finding mistakes on a cardboard model prevents costly material wastage when cutting wood or metal.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Why is it necessary to prepare a cutting list before beginning to measure and cut compliant materials?",
+      answer: "A cutting list provides an exact record of part names, quantities, and dimensions to prevent errors and ensure all components are prepared correctly.",
+      explanation: "Working directly from a cutting list prevents forgetting parts, cutting wrong sizes, or wasting sheet board during fabrication.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain the function of scoring a fold line on thick cardboard before bending it into a three-dimensional shape.",
+      answer: "Scoring creates a clean crease that allows the thick cardboard to fold sharply and accurately without tearing or buckling.",
+      explanation: "Thick card often cracks or bends crookedly if forced; scoring compresses the internal fibres along the line so the bend is sharp and precise.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss4Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss4_l2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is it recommended to use thread of a contrasting colour when working tacking stitches on a fabric garment?",
+      answer: "Contrasting thread allows the temporary tacking stitches to be seen easily so they can be removed cleanly without snipping the permanent stitches or damaging the fabric.",
+      explanation: "Tacking is only temporary. Using a contrasting colour ensures clear visibility when it is time to pull the basting thread away once the final seam has been sewn.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the essential difference in appearance and strength between a running stitch and a back stitch.",
+      answer: "Running stitches leave visible gaps between stitches on both sides and provide moderate hold, whereas back stitches form a continuous, solid line of thread that creates a very strong, permanent join.",
+      explanation: "Because back stitches double back on each stroke, they create an interlocking, unbroken line of thread that resists heavy tension far better than running stitches.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain why overcasting stitches are applied along the raw edges of freshly cut woven cotton cloth.",
+      answer: "Overcasting stitches wrap diagonally around the raw fabric edges to prevent loose yarns from fraying and unravelling during wear and washing.",
+      explanation: "Woven fabrics consist of intersecting warp and weft threads; without an overcasting edge finish, these threads easily pull away and destroy the seam margin.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss4_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. State two reasons why an instructional cook should never leave a pot of diced garden eggs boiling vigorously over high heat.",
+      answer: "Vigorous boiling breaks down fragile garden egg flesh into mush, and excess heat leaches valuable water-soluble vitamins into the liquid.",
+      explanation: "Garden eggs are tender vegetables. High heat and violent water bubbles shatter their delicate cellular structure, resulting in poor texture and heavy nutritional loss.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the functional role of a tightly fitted lid when preparing a beef and tomato stew over low heat.",
+      answer: "The tight lid traps moisture and rising steam, preventing evaporation so the stew remains moist and tenderises tough meat fibres.",
+      explanation: "Without a tight seal, steam escapes into the kitchen atmosphere, causing the sauce to dry out and the meat to scorch before it softens.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is it necessary to cut root tubers into uniform sizes before boiling them in salted water?",
+      answer: "Uniform pieces ensure every tuber piece cooks and softens at the exact same rate.",
+      explanation: "Uneven chunks lead to uneven cooking; smaller chunks overcook and turn waterlogged, while larger chunks remain hard and uncooked in the centre.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss3_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why raw cassava roots must be thoroughly cooked before consumption.",
+      answer: "Cooking softens the dense fibrous starches to make the root digestible, while the heat destroys naturally occurring pathogens and harmful compounds present in raw cassava.",
+      explanation: "Raw cassava is physically too tough to chew and swallow, and high cooking temperatures are required to break down fibres and neutralise potentially harmful elements to make it safe for the digestive system.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State why discarding the cooking water after boiling green leafy vegetables is considered poor culinary practice.",
+      answer: "Discarding the boiling water washes away water-soluble vitamins like vitamin B and vitamin C that seeped out into the liquid during cooking.",
+      explanation: "When vegetables are boiled, soluble micronutrients dissolve easily into hot liquid; throwing the liquid away robs the meal of those valuable protective nutrients.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain why a tight-fitting lid is essential when stewing meat and vegetables.",
+      answer: "A tight-fitting lid prevents steam from escaping, ensuring the cooking liquid does not dry out and helping the food tenderise evenly.",
+      explanation: "Stewing uses only a small volume of liquid. Keeping the lid tightly closed traps moisture, allowing condensed steam to recirculate and cook the food slowly without scorching.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss3_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a heavy bowl of banku and tilapia is not an ideal choice for elevenses.",
+      answer: "Elevenses is intended as a light mid-morning snack to bridge the gap between breakfast and lunch, whereas banku is a heavy main dish that takes longer to digest and causes lethargy during morning activities.",
+      explanation: "Elevenses should be quick and light, such as tea with biscuits or fruit. Heavy carbohydrates require significant blood flow for digestion, making students feel sleepy during class hours.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Kofi's family lives in a farming community with an abundance of fresh cassava and cocoyam, but meat is scarce and expensive. How should they plan their family meals to ensure balanced nutrition?",
+      answer: "They should pair their staple root crops with affordable plant proteins like beans, cowpeas, groundnuts, and local leafy greens such as kontomire.",
+      explanation: "While cassava and cocoyam supply abundant carbohydrate energy, the body requires amino acids and micronutrients. Using cheap, available legumes and dark greens ensures complete nutrition without overspending.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two reasons why buying tomatoes during their peak harvesting season supports effective meal planning.",
+      answer: "Peak-season tomatoes are cheaper due to high market supply, and they have better freshness, taste, and nutrient levels.",
+      explanation: "High supply lowers retail costs, allowing families to save money on their budget while consuming ingredients at their highest nutritional quality.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss2_l2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a student designer must produce three distinct freehand sketches rather than only one when tackling a problem from a design brief.",
+      answer: "Generating three distinct sketches forces the designer to explore varied shapes, materials, and mechanisms, enabling thorough comparison to find the most practical and efficient solution.",
+      explanation: "Exploring multiple alternatives prevents designers from committing prematurely to flawed or overly expensive first thoughts.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State two practical reasons why descriptive notes must be written around freehand design sketches.",
+      answer: "Descriptive notes explain hidden construction details such as specific material types, joining methods, dimensions, and operational functions that cannot be understood from line drawings alone.",
+      explanation: "Notes provide technical context, transforming simple artistic sketches into informative design concepts.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What is the difference between a pictorial drawing and a working drawing (orthographic projection) in product design?",
+      answer: "A pictorial drawing displays the artefact in a single three-dimensional view showing length, width, and height simultaneously, whereas a working drawing shows separate two-dimensional views (front elevation, plan, and end elevation) with exact dimensions for construction.",
+      explanation: "Pictorial views provide overall visual shape, while working drawings communicate exact manufacturing views and measurements.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss2_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. A metalwork teacher notices that junior high school students leave their hot soldering irons resting on wooden desks, creating severe burn marks and fire hazards. Write a clear, one-sentence design brief to address this workshop problem.",
+      answer: "Design and make a heat-resistant support stand that safely holds hot soldering irons off wooden workshop surfaces during practical sessions.",
+      explanation: "A design brief must clearly state what artefact needs to be produced and specify how it solves the identified hazard without prescribing every tiny detail prematurely.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Read this scenario: 'Master Kojo runs a small school canteen. Fresh oranges and mangoes often roll off his serving table and bruise on the ground because the table has no raised edges.' Identify the 'Who', 'What', and 'Where' for this problem.",
+      answer: "'Who' is Master Kojo and his canteen customers; 'What' is fruits rolling off flat surfaces and bruising; 'Where' is the school canteen serving counter.",
+      explanation: "Breaking the scenario into these components pinpoints the user, the functional breakdown, and the working environment where the artefact will be used.",
+    ),
+    PracticeQuestion(
+      scenario: "3. During a group design discussion, your team is evaluating two solutions for storing wet wellington boots outside a rural classroom: a closed plywood cabinet or an open bamboo slatted rack. Give one practical reason why the bamboo slatted rack is a better design choice for this problem.",
+      answer: "The open bamboo slatted rack allows natural airflow to dry wet boots quickly and prevents mould growth, while being affordable and weather-resistant.",
+      explanation: "Good design analysis assesses how local materials and shapes handle real conditions such as moisture, ventilation, and cost.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss1Lesson4PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss1_L4/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. What is the fundamental geometric difference between a two-dimensional plane figure and a three-dimensional solid object?",
+      answer: "A two-dimensional figure is flat and possesses only two measurements (length and width), whereas a three-dimensional object occupies physical space and has three measurements (length, width, and height or depth).",
+      explanation: "Plane figures have area but no thickness, while three-dimensional objects have volume and solid form.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how an oblique sketch is constructed, and state how its front face differs from its receding depth lines.",
+      answer: "In an oblique sketch, the front face is drawn flat and parallel to the paper with true horizontal and vertical lines, while the depth lines recede backward at an inclined angle (typically forty-five degrees).",
+      explanation: "Oblique projection preserves the true, undistorted profile of the front face while showing depth through slanted receding lines.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain the defining geometric characteristic of an isometric drawing regarding its receding base axes.",
+      answer: "In an isometric drawing, the receding base lines on both the left and right sides are drawn tilted at an angle of thirty degrees to the horizontal plane.",
+      explanation: "Tilting both sides equally at thirty degrees provides a balanced, realistic pictorial view showing the top, front, and side surfaces in equal proportion.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Why does a perspective sketch provide the most realistic visual impression of a product compared to oblique and isometric sketches?",
+      answer: "Perspective sketching mimics natural human vision by causing parallel receding lines to converge toward distant vanishing points, making features appear smaller as they get further away.",
+      explanation: "In reality, objects appear to shrink with distance; perspective captures this optical effect, whereas oblique and isometric keep receding lines strictly parallel.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss1Lesson3PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss1_l3/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why must all titles, dimensions, and instructional notes on technical drawings be written strictly in upper-case letters rather than lower-case cursive script?",
+      answer: "Upper-case letters have distinct, open geometric forms that remain clear and legible across different viewing distances, eliminating the confusion caused by varied personal handwriting styles and joined cursive letters.",
+      explanation: "Cursive script and joined lower-case handwriting can easily lead to misread characters and numbers, which can cause costly mistakes during workshop fabrication.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the standard letter height requirements for main titles compared to general notes and dimensions on a graphic drawing sheet.",
+      answer: "Main titles and project headings must be drawn with a height of eight millimetres, whereas general descriptive information, subtitles, and dimension labels are standardised at a height of six millimetres.",
+      explanation: "Establishing an eight-millimetre height for primary headings and six millimetres for general text maintains a clear visual hierarchy across the page.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain why drafters lightly construct guide boxes when attempting to sketch curves or circular shapes freehand.",
+      answer: "A light guide box sets clear proportional boundaries for height and width, providing visual reference targets so the freehand curve stays symmetrical and does not become distorted.",
+      explanation: "Sketching curves without guide boundaries often results in uneven arcs; preliminary boxes keep the curve properly contained and balanced.",
+    ),
+    PracticeQuestion(
+      scenario: "4. State the standard location of a title block on a technical drawing sheet, and list four essential pieces of information it must contain.",
+      answer: "The title block is located at the bottom right-hand corner of the sheet. It must include the title of the drawing, the draftsman's name, the school name, and the date of completion.",
+      explanation: "Placing the title block at the bottom right ensures it remains clearly visible when drawing sheets are folded and filed in storage cabinets.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_s5_ss1_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is it essential to maintain a sharp contrast between thick continuous lines and thin continuous lines on a graphic communication drawing?",
+      answer: "A strong contrast creates a clear visual hierarchy that instantly separates the actual physical edges of the finished artefact from subordinate reference lines, such as construction guidelines, leader paths, and dimensions.",
+      explanation: "Without distinct line weight contrast, a fabricator cannot tell where an object's boundary ends and where measurement or planning lines begin, leading to serious manufacturing errors.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how dashed lines are properly drawn on an engineering layout, and state what feature they represent.",
+      answer: "Dashed lines are drawn as a series of short, uniform strokes of equal length separated by small, consistent gaps. They represent hidden detail, revealing internal contours, surfaces, or edges obscured behind visible exterior faces.",
+      explanation: "Solid lines show what is visible to the eye. Dashed lines communicate the presence and position of hidden elements located inside or behind solid parts of the object.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Explain the visual difference and functional distinction between a horizontal line and an inclined line in a technical drawing.",
+      answer: "A horizontal line is drawn level from left to right parallel to the horizon or board edge, whereas an inclined line is slanted with one end positioned higher than the other. Functionally, horizontal lines define flat, level surfaces, while inclined lines depict sloping faces, ramps, or bevelled edges.",
+      explanation: "Horizontal lines represent level references, while inclined lines form angles other than ninety degrees to represent slanted physical surfaces.",
+    ),
+    PracticeQuestion(
+      scenario: "4. What are the three key visual components of a dimension line used to show the size of an artefact?",
+      answer: "A dimension line consists of a thin continuous line, slender closed arrowheads terminating each end, and a numerical measurement written above or in an opening along the line.",
+      explanation: "The thin line defines the span, the sharp arrowheads indicate the exact boundaries of that span, and the numerical text communicates the true physical dimension in standard units.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs1S5Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS1_S5_SS1_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is it incorrect practice to use the blade of a plastic set square or T-square as a straightedge when cutting card with a craft knife?",
+      answer: "The sharp blade of the knife will easily cut into and shave off pieces of the soft plastic or wooden guide edge. This creates nicks and irregular dents along the straightedge, making it impossible to rule straight, accurate lines in future drawings.",
+      explanation: "Drafting instruments depend on mathematically straight surfaces. Cutting tools damage these surfaces permanently, requiring the complete replacement of the instrument.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain why a draftsman places a sheet of drawing paper near the top-left area of the drawing board rather than directly in the middle.",
+      answer: "Positioning the paper near the top-left edge keeps it close to the working edge of the board, allowing the T-square head to maintain stable contact while its blade easily reaches across the entire drawing surface without unnecessary arm strain.",
+      explanation: "The stock of the T-square must remain firmly pressed against the board edge. Centring the paper too far down or to the right reduces blade support and increases the chance of inaccurate, tilted lines.",
+    ),
+    PracticeQuestion(
+      scenario: "3. A student discovers that whenever she draws circles with a compass, the resulting shape is uneven and fails to close at the starting point. What handling error is she likely committing, and how should it be corrected?",
+      answer: "She is gripping the two movable legs of the compass while rotating it, which accidentally changes the radius setting. To fix this, she must hold and rotate the instrument using only the small knurled handle at the top.",
+      explanation: "Compasses maintain a fixed distance only when their legs are left untouched during the sweeping motion. Holding the top handle ensures the radius remains constant from start to finish.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Describe the routine cleaning procedure that should be carried out on plastic set squares before beginning a technical drawing, and state its benefit.",
+      answer: "The edges and flat surfaces of the set square must be wiped with a clean, dry cotton cloth, duster, or paper tissue to remove accumulated pencil graphite and dust. This prevents smudging the drawing sheet when the tool slides over paper.",
+      explanation: "Fine graphite dust clings to plastic tools from previous drawings. Sliding a dirty tool across new paper presses that graphite into the paper fibres, creating stains that are difficult to erase.",
+    ),
+  ],
+);
+
 final PracticeModel careerJhs1S4Ss1Lesson3PracticeData = PracticeModel(
   audioPath: "assets/audio/career/JHS1_s4_ss1_l3/6. GUIDED PRACTICE.mp3",
   questions: [

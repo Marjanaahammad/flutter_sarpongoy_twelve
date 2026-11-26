@@ -4662,6 +4662,214 @@ class SidebarController extends GetxController {
 
               if (grade == "JHS 1" &&
                   courseTitle == "CAREER" &&
+                  sIndex == 5 &&
+                  ssIndex == 1 &&
+                  lIndex == 3) {
+                getReadyData = careerJhs1S6Ss2Lesson4GetReadyData;
+                learnData = careerJhs1S6Ss2Lesson4LearnData;
+                practiceData = careerJhs1S6Ss2Lesson4PracticeData;
+                independentPracticeData =
+                    careerJhs1S6Ss2Lesson4IndependentQuizData;
+                quizData = careerJhs1S6Ss2Lesson4QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 5 &&
+                  ssIndex == 1 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S6Ss2Lesson3GetReadyData;
+                learnData = careerJhs1S6Ss2Lesson3LearnData;
+                practiceData = careerJhs1S6Ss2Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S6Ss2Lesson3IndependentQuizData;
+                quizData = careerJhs1S6Ss2Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 5 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S6Ss2Lesson2GetReadyData;
+                learnData = careerJhs1S6Ss2Lesson2LearnData;
+                practiceData = careerJhs1S6Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S6Ss2Lesson2IndependentQuizData;
+                quizData = careerJhs1S6Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 5 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S6Ss2Lesson1GetReadyData;
+                learnData = careerJhs1S6Ss2Lesson1LearnData;
+                practiceData = careerJhs1S6Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S6Ss2Lesson1IndependentQuizData;
+                quizData = careerJhs1S6Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 5 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S6Ss1Lesson1GetReadyData;
+                learnData = careerJhs1S6Ss1Lesson1LearnData;
+                practiceData = careerJhs1S6Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S6Ss1Lesson1IndependentQuizData;
+                quizData = careerJhs1S6Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 3 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S5Ss4Lesson3GetReadyData;
+                learnData = careerJhs1S5Ss4Lesson3LearnData;
+                practiceData = careerJhs1S5Ss4Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss4Lesson3IndependentQuizData;
+                quizData = careerJhs1S5Ss4Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 3 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S5Ss4Lesson2GetReadyData;
+                learnData = careerJhs1S5Ss4Lesson2LearnData;
+                practiceData = careerJhs1S5Ss4Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss4Lesson2IndependentQuizData;
+                quizData = careerJhs1S5Ss4Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 3 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S5Ss4Lesson1GetReadyData;
+                learnData = careerJhs1S5Ss4Lesson1LearnData;
+                practiceData = careerJhs1S5Ss4Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss4Lesson1IndependentQuizData;
+                quizData = careerJhs1S5Ss4Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 2 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S5Ss3Lesson2GetReadyData;
+                learnData = careerJhs1S5Ss3Lesson2LearnData;
+                practiceData = careerJhs1S5Ss3Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss3Lesson2IndependentQuizData;
+                quizData = careerJhs1S5Ss3Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 2 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S5Ss3Lesson1GetReadyData;
+                learnData = careerJhs1S5Ss3Lesson1LearnData;
+                practiceData = careerJhs1S5Ss3Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss3Lesson1IndependentQuizData;
+                quizData = careerJhs1S5Ss3Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 1 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S5Ss2Lesson2GetReadyData;
+                learnData = careerJhs1S5Ss2Lesson2LearnData;
+                practiceData = careerJhs1S5Ss2Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss2Lesson2IndependentQuizData;
+                quizData = careerJhs1S5Ss2Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 1 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S5Ss2Lesson1GetReadyData;
+                learnData = careerJhs1S5Ss2Lesson1LearnData;
+                practiceData = careerJhs1S5Ss2Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss2Lesson1IndependentQuizData;
+                quizData = careerJhs1S5Ss2Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 3) {
+                getReadyData = careerJhs1S5Ss1Lesson4GetReadyData;
+                learnData = careerJhs1S5Ss1Lesson4LearnData;
+                practiceData = careerJhs1S5Ss1Lesson4PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss1Lesson4IndependentQuizData;
+                quizData = careerJhs1S5Ss1Lesson4QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 2) {
+                getReadyData = careerJhs1S5Ss1Lesson3GetReadyData;
+                learnData = careerJhs1S5Ss1Lesson3LearnData;
+                practiceData = careerJhs1S5Ss1Lesson3PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss1Lesson3IndependentQuizData;
+                quizData = careerJhs1S5Ss1Lesson3QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 1) {
+                getReadyData = careerJhs1S5Ss1Lesson2GetReadyData;
+                learnData = careerJhs1S5Ss1Lesson2LearnData;
+                practiceData = careerJhs1S5Ss1Lesson2PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss1Lesson2IndependentQuizData;
+                quizData = careerJhs1S5Ss1Lesson2QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
+                  sIndex == 4 &&
+                  ssIndex == 0 &&
+                  lIndex == 0) {
+                getReadyData = careerJhs1S5Ss1Lesson1GetReadyData;
+                learnData = careerJhs1S5Ss1Lesson1LearnData;
+                practiceData = careerJhs1S5Ss1Lesson1PracticeData;
+                independentPracticeData =
+                    careerJhs1S5Ss1Lesson1IndependentQuizData;
+                quizData = careerJhs1S5Ss1Lesson1QuizData;
+              }
+
+              if (grade == "JHS 1" &&
+                  courseTitle == "CAREER" &&
                   sIndex == 3 &&
                   ssIndex == 0 &&
                   lIndex == 2) {
