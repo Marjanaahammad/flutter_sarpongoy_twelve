@@ -1,6 +1,539 @@
 import '../model/independent_practice_model.dart';
 
 final IndependentPracticeModel
+careerJhs2S2Ss4Lesson1IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS2_s2_ss4_L1/6. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which of the following food commodities functions primarily to build and repair body tissues?",
+      options: ["Boiled cassava", "Smoked tilapia", "Palm olein", "Ripe mango"],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Smoked tilapia supplies protein, which the body uses for growth and tissue repair.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. A farmer who clears large fields of land every morning requires a heavy intake of which food group for physical endurance?",
+      options: [
+        "Energy-giving foods",
+        "Body-building foods",
+        "Protective mineral foods",
+        "Micronutrient supplements",
+      ],
+      correctIndex: 0,
+      difficulty: "Easy",
+      explanation: "Energy-giving foods provide the fuel needed for sustained physical work.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. Which commodity is the most reliable plant source of body-building protein in a local school cafeteria?",
+      options: [
+        "Cassava dough",
+        "Palm nut soup",
+        "Roasted cowpeas",
+        "Peeled sweet orange",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Cowpeas are legumes that provide plant protein for growth and tissue repair.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. What principal function do leafy green vegetables perform inside the human digestive system?",
+      options: [
+        "Supplying primary fuel",
+        "Protecting from disease",
+        "Depositing body fats",
+        "Building dense bone",
+      ],
+      correctIndex: 1,
+      difficulty: "Medium",
+      explanation: "Leafy green vegetables provide vitamins and minerals that support normal immune function and overall health.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs2S2Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s2_ss3_l1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which characteristic is an essential requirement for a substance to be classified as a smart material?",
+          options: [
+            "Permanent hardness",
+            "Complete reversibility",
+            "High electrical resistance",
+            "Heavy physical weight",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "In this lesson, smart materials respond to environmental stimuli and return to their starting state when the stimulus is removed.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Sanitised fabrics used in sports socks and athletic jerseys prevent unpleasant body odours by:",
+          options: [
+            "Releasing pleasant floral perfumes",
+            "Blocking air from touching human skin",
+            "Eliminating bacteria with silver particles",
+            "Absorbing sweat without ever drying out",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Silver particles in treated fabrics inhibit odour-causing bacteria, helping reduce unpleasant smells.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why are Organic Light-Emitting Diodes (OLEDs) more energy efficient than conventional Liquid Crystal Displays (LCDs)?",
+          options: [
+            "OLED screens operate without backlights",
+            "OLED panels contain heavy copper wires",
+            "OLED screens reflect natural room light",
+            "OLED panels require constant high heat",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "OLED pixels emit their own light, so they do not require the separate backlight used in conventional LCDs.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. A smart window installed in an office building in Tema automatically turns dark during the afternoon primarily to:",
+          options: [
+            "Keep outside passers-by from seeing in",
+            "Reduce room heat and solar glare",
+            "Attract warm breezes into the building",
+            "Make the window frame stronger inside",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Darkening smart windows reduce incoming sunlight, helping limit solar glare and heat inside the room.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs2S2Ss2Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s2_ss2_L2/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What is the primary function of cement when mixed into wet mortar or concrete?",
+          options: [
+            "It dissolves coarse stones into sand.",
+            "It binds loose aggregate particles.",
+            "It prevents the mix from ever hardening.",
+            "It lightens the weight of foundations.",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Cement reacts with water to form a binding paste that holds the aggregate particles together as the mixture hardens.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which maximum particle size allows construction sand to pass through a standard sorting sieve?",
+          options: [
+            "Two millimetres",
+            "Five millimetres",
+            "Ten millimetres",
+            "Twelve millimetres",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "The lesson classifies construction sand as fine aggregate that passes through a five-millimetre sieve.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which mixture is formed by combining cement, fine sand, and water without coarse aggregate?",
+          options: ["Mortar", "Concrete", "Granite", "Ballast"],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Mortar combines cement, fine sand, and water; adding coarse aggregate produces concrete.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Why must building stones used for structural concrete be completely free of clay impurities?",
+          options: [
+            "Clay causes the stones to float to the top.",
+            "Clay creates a foul smell inside the wet mix.",
+            "Clay prevents cement paste from bonding firmly.",
+            "Clay turns hard concrete into soft river sand.",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Clay coatings interfere with the bond between cement paste and stone surfaces, weakening the concrete.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs2S2Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s2_ss2_l1/6. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which physical property describes the mass contained in a given unit volume of a material?",
+          options: ["Fusibility", "Elasticity", "Density", "Ductility"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Density is the mass of a material per unit volume.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Why do electricians wear thick rubber boots when working on power lines?",
+          options: [
+            "Rubber possesses high thermal conductivity.",
+            "Rubber acts as an electrical insulator.",
+            "Rubber demonstrates high malleability.",
+            "Rubber melts quickly under sunlight.",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Rubber has low electrical conductivity and acts as an insulator; properly rated electrical safety boots help resist the passage of current.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. What happens when an external stretching force is removed from an elastic material?",
+          options: [
+            "It remains permanently stretched out.",
+            "It shatters into tiny sharp pieces.",
+            "It hardens into an inflexible state.",
+            "It returns back to its initial shape.",
+          ],
+          correctIndex: 3,
+          difficulty: "Easy",
+          explanation: "Elasticity allows a material to return to its original shape when the deforming force is removed, provided its elastic limit has not been exceeded.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. A technician draws copper through a small hole to make thin cable strands. Which property makes this possible?",
+          options: ["Ductility", "Hardness", "Fusibility", "Toughness"],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Ductility allows a metal to be drawn into thin wires without breaking.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs2S2Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s2_ss1_l1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Which property describes the ability of a compliant material to bend repeatedly without snapping or tearing?",
+          options: ["Hardness", "Brittleness", "Flexibility", "Roughness"],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Flexibility describes how readily a material bends without breaking or tearing.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What unit is internationally used to express the thickness and surface density of paper sheets?",
+          options: [
+            "Millilitres per hour",
+            "Grams per square metre",
+            "Centimetres per second",
+            "Kilograms per cubic metre",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Grams per square metre (gsm) measures paper mass per unit area and is commonly used to compare paper weights, which often relate to thickness.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which characteristic makes synthetic nylon fabric the best choice for making school bag bottoms?",
+          options: [
+            "High tensile strength",
+            "High water absorbency",
+            "Low melting temperature",
+            "Soft and loose surface",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "High tensile strength helps nylon withstand pulling forces from the weight and handling of a school bag.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Why is solid bleached paperboard selected over light tracing paper for making pharmaceutical cartons?",
+          options: [
+            "It allows water vapour to soak through easily",
+            "It is completely transparent to incoming light",
+            "It holds a rigid shape to protect inner contents",
+            "It tears easily when pulled across its corner",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Paperboard provides the stiffness needed to hold a carton shape and protect its contents, while tracing paper is too light for this purpose.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
+careerJhs2S1Ss3Lesson2IndependentQuizData = IndependentPracticeModel(
+  audioPath: "assets/audio/career/JHS2_s1_ss3_L2/7. INDEPENDENT PRACTICE.mp3",
+  questions: [
+    IndependentPracticeQuestion(
+      question: "1. Which material represents a typical category of household organic refuse that decomposes safely in an aerobic compost pit?",
+      options: [
+        "Scrap engine wiring and vehicle headlights",
+        "Discarded plastic water sachets and bottles",
+        "Vegetable trimmings and fruit peelings",
+        "Used dry-cell torch batteries and acid cans",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Vegetable trimmings and fruit peelings are organic materials that microorganisms can break down in an aerobic compost pit.",
+    ),
+    IndependentPracticeQuestion(
+      question: "2. Why is medical waste from clinics and hospitals routed to high-temperature incinerators rather than dumped into public landfills?",
+      options: [
+        "Incineration destroys dangerous infectious pathogens and toxic contaminants completely",
+        "The resulting fine mineral ash can be distributed directly as rich agricultural crop fertiliser",
+        "Burning hospital waste cools down surrounding residential temperatures during the dry harmattan",
+        "The combustion furnaces produce vast amounts of clean oxygen gas that purifies urban community air",
+      ],
+      correctIndex: 0,
+      difficulty: "Medium",
+      explanation: "Controlled high-temperature incineration destroys infectious pathogens in suitable medical waste, reducing the risk of spreading infections through public refuse.",
+    ),
+    IndependentPracticeQuestion(
+      question: "3. What primary health risk is caused by disposing of untreated household sewage and garbage directly into open street gutters?",
+      options: [
+        "It speeds up the natural formation of clean topsoil on roads",
+        "It provides breeding grounds for disease vectors like houseflies and mosquitoes",
+        "It permanently lowers surrounding regional atmospheric temperatures",
+        "It improves the structural concrete durability of communal drainage systems",
+      ],
+      correctIndex: 1,
+      difficulty: "Easy",
+      explanation: "Sewage and garbage in gutters attract houseflies and can create stagnant water where mosquitoes breed, increasing the spread of disease.",
+    ),
+    IndependentPracticeQuestion(
+      question: "4. Which activity demonstrates the waste management principle of material reuse within a Ghanaian household?",
+      options: [
+        "Discarding broken glass containers directly into nearby municipal stormwater gutters",
+        "Burning empty plastic shopping bags in a corner of the domestic compound every evening",
+        "Washing empty mayonnaise glass jars to store dried pepper and dawadawa spices in the pantry",
+        "Burying corroded vehicle dry-cell batteries beneath cassava mounds on the backyard farm plot",
+      ],
+      correctIndex: 2,
+      difficulty: "Easy",
+      explanation: "Using washed glass jars again for storing spices extends their useful life and reduces the amount of packaging discarded.",
+    ),
+  ],
+);
+
+final IndependentPracticeModel careerJhs2S1Ss3Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s1_ss3_L1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What primary environmental harm occurs when forest floor leaf litter is burned by uncontrolled bushfires?",
+          options: [
+            "The soil loses organic matter and moisture-retention ability",
+            "The underlying bedrock undergoes rapid chemical weathering",
+            "Atmospheric nitrogen is permanently locked into deep soils",
+            "Ground temperature drops sharply below freezing levels",
+          ],
+          correctIndex: 0,
+          difficulty: "Easy",
+          explanation: "Burning leaf litter removes organic matter that helps soil retain moisture and maintain fertility.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which of the following describes the most sustainable agricultural method to protect vulnerable land from desertification?",
+          options: [
+            "Clearing all natural vegetation to plant mono-crop cassava",
+            "Practicing intensive livestock overgrazing on dry paddocks",
+            "Intercropping legumes with trees and applying organic mulch",
+            "Setting fire to remaining brush before every new planting",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "Trees and legumes protect and improve the soil, while organic mulch reduces moisture loss and erosion.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Why does the removal of mature trees along riverbanks cause local water bodies to dry up rapidly?",
+          options: [
+            "Riverbanks expand significantly into wide irrigation canals",
+            "Increased siltation and direct sunlight accelerate evaporation",
+            "Tree roots prevent groundwater from seeping into river beds",
+            "Aquatic weeds multiply instantly and consume all river water",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Removing riverbank trees exposes water to direct sunlight and allows eroded soil to enter the water, increasing evaporation and siltation.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Which energy alternative provides the fastest reduction in firewood harvesting across rural communities?",
+          options: [
+            "Expanding diesel-powered industrial processing engines",
+            "Constructing community-scale agricultural biogas digesters",
+            "Using kerosene lanterns to illuminate living spaces at night",
+            "Burning harvested crop stalks in open community fire pits",
+          ],
+          correctIndex: 1,
+          difficulty: "Medium",
+          explanation: "Community biogas digesters turn organic waste into cooking fuel, reducing household demand for harvested firewood.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs2S1Ss2Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s1_ss2_L1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What is the very first action to take when someone suffers an open bleeding cut on their hand?",
+          options: [
+            "Rub petroleum jelly directly on the cut",
+            "Apply direct pressure using sterile gauze",
+            "Wrap an elastic bandage around the neck",
+            "Pour cold methylated spirit on the wound",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Direct pressure with sterile gauze helps control bleeding while keeping the wound covered with clean material.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Which item in a First Aid box is used to support a sprained ankle or hold heavy pads in place?",
+          options: [
+            "Sterile adhesive plaster",
+            "Elastic crepe bandage",
+            "Bottle of antiseptic soap",
+            "Pair of sharp tweezers",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "An elastic crepe bandage provides support around a sprained ankle and can secure dressing pads in place.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. How long should a heat scald caused by hot soup be cooled under running tap water?",
+          options: [
+            "At least ten to twenty minutes",
+            "Exactly thirty to forty seconds",
+            "Just long enough to dry off skin",
+            "Until thick cream is applied well",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Cool running water removes heat from the affected skin; cooling should continue for twenty minutes.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the recommended ratio of chest compressions to rescue breaths during standard CPR?",
+          options: [
+            "10 compressions to 5 rescue breaths",
+            "15 compressions to 4 rescue breaths",
+            "30 compressions to 2 rescue breaths",
+            "50 compressions to 1 rescue breath",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "The standard CPR sequence uses 30 chest compressions followed by 2 rescue breaths to circulate blood and provide oxygen.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs2S1Ss1Lesson2IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s1_ss1_L2/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. Why must food handlers wear clean caps or nets over their hair while cooking?",
+          options: [
+            "To keep their hair warm throughout cold mornings",
+            "To avoid brushing against hot cooking pot handles",
+            "To prevent loose hair and dandruff from entering food",
+            "To absorb forehead sweat before it touches the eyes",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Clean caps or hair nets keep loose hair and dandruff out of food during preparation.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. What is the safest way to store dry, non-perishable ingredients such as rice and cashew nuts?",
+          options: [
+            "In open plastic bowls placed directly on wet floors",
+            "In sealed containers placed on raised shelves or pallets",
+            "In uncovered baskets stored inside the bottom drawer",
+            "In metal pans placed on tables under direct sunlight",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Sealed containers protect dry ingredients from pests and dirt, while raised shelves or pallets keep them away from floor moisture.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Within what maximum duration must hot leftover cooked rice be cooled and placed inside the refrigerator?",
+          options: [
+            "Within sixty minutes",
+            "Within five minutes",
+            "Within three hours",
+            "Within eight hours",
+          ],
+          correctIndex: 0,
+          difficulty: "Medium",
+          explanation: "Cooling leftover cooked rice promptly and refrigerating it within sixty minutes helps limit bacterial growth.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. Where should raw poultry and fish be positioned inside a domestic refrigerator?",
+          options: [
+            "On the top shelf alongside pasteurized fresh milk",
+            "Inside open side door compartments with spices",
+            "In sealed containers placed on the bottom shelf",
+            "Directly on wire racks beside leftover cooked soup",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Sealed containers on the bottom shelf prevent raw poultry and fish juices from dripping onto other foods.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel careerJhs2S1Ss1Lesson1IndependentQuizData =
+    IndependentPracticeModel(
+      audioPath:
+          "assets/audio/career/JHS2_s1_ss1_l1/7. INDEPENDENT PRACTICE.mp3",
+      questions: [
+        IndependentPracticeQuestion(
+          question: "1. What is the primary biological cause of unpleasant body odour on the human skin?",
+          options: [
+            "Stale minerals present inside pure glandular sweat",
+            "Bacteria on the skin breaking down trapped sweat",
+            "Excessive consumption of spicy household food items",
+            "Lack of exposure to direct sunlight during morning work",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Skin bacteria break down sweat and produce the compounds responsible for unpleasant body odour.",
+        ),
+        IndependentPracticeQuestion(
+          question: "2. Why does applying fresh lemon or lime juice to the armpits help eliminate bad odour?",
+          options: [
+            "The citrus fruit stops all sweat production permanently",
+            "The liquid absorbs excess water like a dry cotton towel",
+            "The natural mild acid stops bacteria from multiplying",
+            "The sour juice produces a thick barrier over sweat pores",
+          ],
+          correctIndex: 2,
+          difficulty: "Medium",
+          explanation: "The natural mild acid lowers skin surface pH, making it harder for odour-causing bacteria to multiply.",
+        ),
+        IndependentPracticeQuestion(
+          question: "3. Which personal care product actively reduces the amount of sweat released from pores?",
+          options: [
+            "Talcum dusting powder",
+            "Antiperspirant roll-on",
+            "Scented perfumed oil",
+            "Antibacterial bar soap",
+          ],
+          correctIndex: 1,
+          difficulty: "Easy",
+          explanation: "Antiperspirants temporarily reduce sweat release, helping to limit underarm moisture.",
+        ),
+        IndependentPracticeQuestion(
+          question: "4. What is the most crucial ethical factor to observe when leading a school hygiene campaign?",
+          options: [
+            "Forcing students to buy expensive commercial deodorants",
+            "Passing remarks that openly shame students with body odour",
+            "Delivering respectful education without causing embarrassment",
+            "Inspecting every student's armpits during school assembly",
+          ],
+          correctIndex: 2,
+          difficulty: "Easy",
+          explanation: "Respectful education protects students' dignity while helping them learn useful personal hygiene practices.",
+        ),
+      ],
+    );
+
+final IndependentPracticeModel
 careerJhs1S6Ss2Lesson4IndependentQuizData = IndependentPracticeModel(
   audioPath: "assets/audio/career/JHS1_s6_ss2_L4/6. INDEPENDENT PRACTICE.mp3",
   questions: [

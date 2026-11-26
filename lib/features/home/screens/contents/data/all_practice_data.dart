@@ -1,5 +1,225 @@
 import '../model/practice_model.dart';
 
+final PracticeModel careerJhs2S2Ss4Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s2_ss4_L1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is it insufficient for a growing junior high school student to eat only polished white rice and vegetable oil every day?",
+      answer: "White rice and vegetable oil provide only energy. They lack sufficient proteins for tissue building and vitamins for disease protection.",
+      explanation: "A growing student requires protein for physical body development and vitamins to guard against sickness. Relying only on starch and fat leads to malnutrition and stunted physical growth.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the specific nutritional role of adding boiled eggs or cooked beans to a lunch of fried ripe plantain.",
+      answer: "Boiled eggs or cooked beans supply body-building proteins to balance the energy-giving carbohydrate in plantain.",
+      explanation: "Fried plantain offers primarily carbohydrates and cooking oil. Incorporating eggs or beans introduces proteins that repair damaged muscle tissue and support bone elongation.",
+    ),
+    PracticeQuestion(
+      scenario: "3. How does eating raw mangoes and stewed kontomire protect an active student from falling sick during rainy season exams?",
+      answer: "Mangoes and kontomire supply protective vitamins and minerals that boost the body's immune system against seasonal infections.",
+      explanation: "These commodities act as protective foods. Their micronutrients maintain white blood cell defence systems, preventing common coughs, colds, and skin ailments from disrupting school attendance.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S2Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s2_ss3_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain the primary operational difference between a modern material and a smart material.",
+      answer: "A modern material is engineered to have permanently superior, fixed physical properties such as high tensile strength or low weight, whereas a smart material senses changes in its immediate environment and dynamically alters its properties in a reversible manner.",
+      explanation: "Modern materials (such as carbon fibre) do not alter their properties in response to daily temperature or lighting changes. Smart materials (such as thermochromic or photochromic dyes) adapt to stimuli like heat or light and return to their starting state when the stimulus stops.",
+    ),
+    PracticeQuestion(
+      scenario: "2. How do modified starches improve food quality in commercial catering and packaged food products?",
+      answer: "Modified starches maintain consistent viscosity, prevent sauces from breaking down or becoming lumpy during high-heat cooking, and remain stable during storage and reheating.",
+      explanation: "Regular natural starch tends to lose its binding power, curdle, or release water when boiled or baked. Modified starches are scientifically treated to withstand high thermal stress, ensuring uniform texture in instant gravies, toppings, and sauces.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State one major reason why Shape Memory Alloys like Nitinol are preferred over ordinary steel wire in dental braces.",
+      answer: "Nitinol delivers continuous, gentle corrective force by returning toward its preset shape when warmed by human body heat, whereas ordinary steel wires require frequent manual tightening and can apply uncomfortable, uneven pressure.",
+      explanation: "Nitinol exploits its smart shape-memory effect activated by body temperature. This creates consistent, predictable mechanical pressure that straightens teeth effectively with fewer clinic visits and less pain for the patient.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S2Ss2Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s2_ss2_L2/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is clean sand added to a cement-and-water paste when preparing mortar for wall plastering?",
+      answer: "Sand increases the mixture's volume economically and prevents the cement paste from shrinking and cracking as it dries.",
+      explanation: "Without sand particles to bridge the gaps, neat cement paste contracts excessively during curing, resulting in widespread shrinkage cracks.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain why coarse crushed granite is included in structural foundation concrete but omitted from masonry wall plaster.",
+      answer: "Crushed granite provides the heavy compressive strength needed to support building weight in foundations, but its large size would make plaster impossible to spread smoothly on walls.",
+      explanation: "Coarse aggregates add bulk and load-bearing capacity to structural concrete, whereas wall finishing requires a smooth, fine-grained mortar paste.",
+    ),
+    PracticeQuestion(
+      scenario: "3. What happens to the setting speed of Ordinary Portland Cement during very hot afternoon weather compared to cold conditions?",
+      answer: "Hot weather speeds up the hydration reaction, causing the cement paste to harden much faster than under cold conditions.",
+      explanation: "Chemical hydration between cement and water is accelerated by high temperatures, requiring builders to place and finish the mix promptly.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S2Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s2_ss2_l1/5. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Why is copper preferred over glass for household wiring, and why is wood chosen for a cooking ladle handle?",
+      answer: "Copper has high electrical conductivity, allowing electric current to pass through wires, whereas glass does not conduct electricity. Wood has low thermal conductivity, so it does not transfer heat to the cook's hand.",
+      explanation: "Electrical wiring requires conductors to transport power safely, while cookware handles require thermal insulators to prevent severe burns.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Explain the difference between hardness and toughness using a glass windowpane and a rubber tyre as examples.",
+      answer: "Hardness resists surface scratches, so glass is hard because it does not scratch easily, but it lacks toughness and shatters under impact. A rubber tyre resists sudden blows without shattering, demonstrating high toughness even though its surface is relatively soft.",
+      explanation: "Hardness is purely a surface characteristic, whereas toughness is the internal ability of a material to absorb sudden shock energy without breaking apart.",
+    ),
+    PracticeQuestion(
+      scenario: "3. A metalsmith hammers a scrap piece of metal into a shallow pan. Which working property allows this shaping without cracks forming?",
+      answer: "Malleability is the property that allows a material to be hammered or pressed into thin sheets and shapes without cracking.",
+      explanation: "When compressive force is applied to a malleable metal, its internal structure allows atoms to slide over each other instead of tearing apart.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S2Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s2_ss1_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain one major difference between a compliant material and a resistant material, giving one example of each.",
+      answer: "A compliant material yields easily to force and can be bent, folded, or cut without breaking, whereas a resistant material is rigid and resists deformation under pressure. An example of a compliant material is paper or cotton fabric, while an example of a resistant material is timber or concrete.",
+      explanation: "Compliant materials are workable with simple hand tools because their structure yields to pressure, while resistant materials require heavy cutting and shaping tools due to their natural rigidity.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State two properties of corrugated cardboard that make it suitable for manufacturing shipping cartons for fragile manufactured goods.",
+      answer: "Corrugated cardboard has a fluted internal structure that absorbs shocks and impacts, and it provides high bending stiffness while remaining lightweight for transport.",
+      explanation: "The wave-shaped fluting between the outer liner boards cushions items against external blows during handling, and its lightweight nature keeps freight and handling costs low.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Why is pure cotton fabric preferred over nylon for sewing daily school uniforms in Ghana?",
+      answer: "Cotton is breathable and highly absorbent, allowing it to soak up sweat and keep the wearer cool in warm weather, whereas nylon does not absorb moisture and traps body heat.",
+      explanation: "In tropical environments, comfort depends on sweat absorption and air flow. Cotton fibres naturally absorb moisture vapour from the skin, while synthetic nylon repels water and causes sweating and discomfort when worn as standard everyday clothing.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S1Ss3Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s1_ss3_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why open burning of municipal solid waste in residential areas is considered an unsafe disposal practice.",
+      answer: "Open burning releases poisonous gases and smoke into nearby homes, damages air quality, and risks igniting uncontrolled structural fires.",
+      explanation: "Burning mixed plastics and household waste releases toxic compounds that cause severe respiratory ailments. Open flames are also difficult to contain and easily spread to nearby timber structures.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe the main functional purpose of installing an impermeable bottom liner inside a modern sanitary landfill.",
+      answer: "The liner stops toxic liquid runoff from seeping into the surrounding soil and contaminating underground freshwater aquifers.",
+      explanation: "As decomposing waste is soaked by rainfall, it generates poisonous liquid called leachate. Clay and synthetic liners trap this liquid so it cannot reach local boreholes and community wells.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two practical methods a school canteen can introduce to reduce solid waste accumulation during lunchtime breaks.",
+      answer: "The canteen can serve food in reusable bowls rather than single-use styrofoam packs and compost all food prep scraps in an on-site garden pit.",
+      explanation: "Eliminating disposable single-use packages stops trash from accumulating at the source, while composting fruit and vegetable trimmings recycles organic waste into fertilizer.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S1Ss3Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s1_ss3_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain two reasons why clear-cutting trees on sloping farmland leads to rapid land degradation during the rainy season.",
+      answer: "Felling trees strips away the root systems that anchor topsoil, while removing the leafy canopy allows heavy rain to strike bare soil directly. Unbound soil is easily washed down the slope as runoff, leaving sterile bedrock behind.",
+      explanation: "Tree roots act as anchors for the soil, and tree canopies reduce the kinetic energy of raindrops. Without them, surface runoff increases, carrying away organic matter and vital nutrients.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how switching from charcoal to domestic liquefied petroleum gas (LPG) in urban centers helps prevent desertification in Ghana's northern regions.",
+      answer: "Urban demand for charcoal drives heavy tree felling in fragile savannah woodlands. Using LPG lowers the demand for wood fuel, preserving the natural tree cover that keeps the desert from encroaching.",
+      explanation: "A significant portion of commercial charcoal sold in cities originates from savannah woodlands. Reducing demand removes the commercial incentive for mass tree felling, protecting delicate transitional ecosystems.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two practical agroforestry techniques a farmer can introduce to protect topsoil from harmattan wind erosion.",
+      answer: "The farmer can plant dense shelterbelts along farm perimeters and intercrop food crops with deep-rooted leguminous trees.",
+      explanation: "Perimeter shelterbelts act as windbreaks to reduce wind velocity across bare soil, while leguminous intercrops anchor topsoil and improve soil structure.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S1Ss2Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s1_ss2_L1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why cool running tap water is used to treat a fresh burn instead of ice cubes or greasy cooking butter.",
+      answer: "Cool running water lowers skin temperature safely, reduces tissue swelling, and pulls out heat without damaging delicate cells or trapping infection like greasy butter does.",
+      explanation: "Greasy substances hold heat inside burned tissues and introduce bacteria, while ice freezes and kills damaged skin cells. Running water gently absorbs the heat away.",
+    ),
+    PracticeQuestion(
+      scenario: "2. State the primary reason why a first aid provider must put on clean surgical gloves before attending to a bleeding wound.",
+      answer: "Surgical gloves act as a clean barrier to stop the spread of germs and blood-borne infections between the patient and caregiver.",
+      explanation: "Direct contact with open blood exposes both the helper and the patient to harmful bacteria and viruses. Gloves maintain hygiene and safety.",
+    ),
+    PracticeQuestion(
+      scenario: "3. Describe the correct sequence of steps for delivering Cardiopulmonary Resuscitation (CPR) to a non-breathing person.",
+      answer: "Open the airway by tilting the head, check breathing, perform 30 hard and fast chest compressions, and deliver 2 rescue breaths.",
+      explanation: "Opening the windpipe allows air to enter, while the repeated ratio of 30 chest compressions followed by 2 rescue breaths circulates oxygen to essential organs.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S1Ss1Lesson2PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s1_ss1_L2/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why a food handler must remove rings and wristwatches before beginning food preparation tasks.",
+      answer: "Rings and watches collect dirt, food residues, and sweat beneath them, harboring dangerous bacteria that transfer into food, and loose parts could fall into the dish.",
+      explanation: "Personal ornaments carry hidden bacteria that cannot be cleaned easily during normal hand washing, creating a high risk of biological and physical contamination.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe what cross-contamination means in the kitchen and give one practical example of how it occurs.",
+      answer: "Cross-contamination is the transfer of harmful bacteria from raw foods or contaminated surfaces to clean or ready-to-eat food. An example is slicing raw meat and then using the same unwashed knife and board to slice fresh salad cucumbers.",
+      explanation: "Raw animal proteins carry natural pathogens that are killed only by cooking heat; touching ready-to-eat items with unwashed tools transfers those live pathogens directly.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two specific safety guidelines you must follow when storing food items inside a refrigerator.",
+      answer: "Do not overload the refrigerator so air can circulate, and always store raw meat and fish in sealed containers on the bottom shelf beneath cooked foods.",
+      explanation: "Proper airflow maintains cold holding temperatures, while storing raw items at the bottom prevents raw liquids from dripping onto ready-to-eat meals.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Why must leftover canned food never be stored inside an open tin can inside the refrigerator?",
+      answer: "Leaving food in an open tin can allows the metal to react with oxygen and food acids, transferring metallic compounds and spoiling the contents.",
+      explanation: "Curriculum refrigeration guidelines specify that leftover canned items must always be emptied into a clean plastic or glass container with a secure lid before chilling.",
+    ),
+  ],
+);
+
+final PracticeModel careerJhs2S1Ss1Lesson1PracticeData = PracticeModel(
+  audioPath: "assets/audio/career/JHS2_s1_ss1_l1/6. GUIDED PRACTICE.mp3",
+  questions: [
+    PracticeQuestion(
+      scenario: "1. Explain why fresh sweat from the body does not smell bad, and state what specifically causes bad body odour to develop.",
+      answer: "Fresh sweat secreted by the body is naturally odourless water containing minerals. Bad body odour develops only when natural skin bacteria feed on the sweat and break it down into smelly waste products.",
+      explanation: "Perspiration itself carries no foul scent. The unpleasant smell is produced purely through bacterial metabolic activity on damp areas of the skin.",
+    ),
+    PracticeQuestion(
+      scenario: "2. Describe how a student can use a fresh lime to prevent underarm body odour effectively.",
+      answer: "After bathing thoroughly and drying the underarms, cut a fresh lime in half and rub the exposed juice gently onto the armpits, allowing it to air dry.",
+      explanation: "The natural citrus acid in the lime juice lowers skin surface pH, making the environment hostile to odour-causing bacteria and preventing them from multiplying.",
+    ),
+    PracticeQuestion(
+      scenario: "3. State two reasons why repeatedly wearing unwashed school uniforms causes strong body odour.",
+      answer: "Unwashed uniforms contain trapped stale sweat and accumulated skin bacteria from previous use. When reworn, body heat reactivates these bacteria, which quickly break down fresh sweat and intensify bad odour.",
+      explanation: "Clothing fabrics trap dead skin cells and moisture, creating a sustained habitat for bacterial multiplication if not washed with soap and dried in sunlight.",
+    ),
+    PracticeQuestion(
+      scenario: "4. Mention two key elements you must determine when planning an educational campaign against bad body odour in your school.",
+      answer: "You must define the specific target group and craft an educational, respectful message that informs students without causing embarrassment.",
+      explanation: "NaCCA guidelines specify that every effective hygiene campaign plan must establish an intended audience and a constructive core message using suitable communication media.",
+    ),
+  ],
+);
+
 final PracticeModel careerJhs1S6Ss2Lesson4PracticeData = PracticeModel(
   audioPath: "assets/audio/career/JHS1_s6_ss2_L4/5. GUIDED PRACTICE.mp3",
   questions: [
